@@ -95,8 +95,10 @@ export const ModuleProgressRing: React.FC<ModuleProgressRingProps> = ({
       className={`relative inline-flex items-center justify-center shrink-0 ${className}`}
       style={{ width: size, height: size }}
       title={`${Math.round(progressPercent)}% concluído`}
+      role="img"
+      aria-label={`${Math.round(progressPercent)}% concluído`}
     >
-      <svg width={size} height={size} className="-rotate-90">
+      <svg width={size} height={size} className="-rotate-90" aria-hidden="true">
         {/* Trilho de fundo */}
         <circle
           cx={size / 2}

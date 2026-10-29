@@ -63,7 +63,7 @@ export const submodulo106: ModuloFilho = {
       'Dimensão Regimental / Constitucional',
       'Sessão Conjunta do Congresso Nacional (RCCN)',
       'Sessões Isoladas da Câmara dos Deputados (RICD)',
-      'Pegadinha Clássica Cebraspe',
+      'técnica de distrator recorrente',
     ],
     linhas: [
       [
@@ -260,7 +260,7 @@ A **Fiscalização e Controle, o Orçamento Público e o Ciclo Orçamentário (C
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Quem Julga as Contas do Presidente da República:** O Cebraspe adora afirmar que o TCU julga as contas prestadas anualmente pelo Presidente da República. **Gabarito: ERRADO.** O TCU elabora apenas um **Parecer Prévio conclusivo** em 60 dias; quem **julga** as contas do Presidente da República é o **Congresso Nacional** (CF art. 49, IX e art. 71, I).
+- **Quem Julga as Contas do Presidente da República:** A técnica de distrator recorrente consiste em afirmar que o TCU julga as contas prestadas anualmente pelo Presidente da República. **Gabarito: ERRADO.** O TCU elabora apenas um **Parecer Prévio conclusivo** em 60 dias; quem **julga** as contas do Presidente da República é o **Congresso Nacional** (CF art. 49, IX e art. 71, I).
 - **Recesso Parlamentar e a LDO:** Dizer que o Congresso Nacional entra em recesso em 17 de julho mesmo sem votar a LDO. **Gabarito: ERRADO.** O art. 57, § 2º da CF veda expressamente a interrupção da sessão legislativa sem a aprovação do projeto de LDO.
 - **Iniciativa das Leis Orçamentárias:** Afirmar que deputados federais podem propor projeto de lei de iniciativa parlamentar original para criar o PPA. **Gabarito: ERRADO.** PPA, LDO e LOA são de iniciativa privativa do **Presidente da República**.
 

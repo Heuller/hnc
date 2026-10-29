@@ -127,7 +127,7 @@ Os **Mecanismos de Coesão Textual e Referenciação Pronominal** sustentam o en
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **O Pronome "Which" Retomando a Frase Inteira:** O Cebraspe adora colocar o pronome *which* precedido de vírgula e perguntar se ele retoma apenas o último substantivo. **Gabarito: ERRADO.** Quando precedido de vírgula após uma oração, *which* frequentemente retoma **toda a ideia da oração anterior**, e não apenas a última palavra!
+- **O Pronome "Which" Retomando a Frase Inteira:** A técnica de distrator recorrente consiste em colocar o pronome *which* precedido de vírgula e perguntar se ele retoma apenas o último substantivo. **Gabarito: ERRADO.** Quando precedido de vírgula após uma oração, *which* frequentemente retoma **toda a ideia da oração anterior**, e não apenas a última palavra!
 - **That após Vírgula ou Preposição:** A banca propõe substituir *which* por *that* em frases com preposição (*The room in which...* $\to$ *in that*). **Gabarito: ERRADO.** O pronome *that* não admite preposição antes de si nem pode ser usado após vírgula em orações explicativas.
 - **Ambiguidade Anafórica:** A banca sugere que o pronome *it* retoma um termo no plural. **Gabarito: ERRADO.** *It* é pronome singular neutro; para entidades no plural usa-se *they/them*.
 

@@ -340,7 +340,13 @@ A codificação da informação catalográfica exige o domínio articulado entre
 - **DUBLIN CORE METADATA INITIATIVE (DCMI).** *DCMI Metadata Terms (ISO 15836-1:2017)*. DCMI, 2020.
 - **SILVEIRA, Amélia.** *A notação de autor e a tabela Cutter-Sanborn*. Florianópolis: Ed. da UFSC, 2002.
 - **MEY, Eliane Serrão Alves; SILVEIRA, Nair Kobashi.** *Catalogação no plural*. Brasília: Briquet de Lemos, 2009.
-- **FURRIE, Betty.** *O MARC bibliográfico: um guia introdutório*. Brasília: Thesaurus, 2000.`,
+- **FURRIE, Betty.** *O MARC bibliográfico: um guia introdutório*. Brasília: Thesaurus, 2000.
+
+### Pausa de Recuperação Ativa: Mapeamento de Campos MARC 21
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Relembre rapidamente os campos de três dígitos do MARC 21: qual campo armazena o título principal (245), os dados de publicação (260/264), a descrição física (300), o cabeçalho de assunto tópico (650) e os autores secundários (700)? Esse mapeamento mental é um dos mais cobrados em provas técnicas.
+`,
   checkpoints: [
     {
       id: 'cp-2-4-1',

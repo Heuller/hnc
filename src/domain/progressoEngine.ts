@@ -1,5 +1,7 @@
 import type { MacroModulo, ModuloFilho } from './schemas/modulo.schema';
 import type { ItemAttempt } from './itemAttempts';
+import type { SimuladoFinalizado } from './schemas/progress.schema';
+import { calcularNotaConsolidadaSimulado } from './portaoSimuladoEngine';
 import {
   JORNADA_CONFIG,
   SELO_CONFIG,
@@ -185,7 +187,7 @@ export function derivarProgresso(
   secoesVisualizadas: Record<string, string[]> = {},
   registry: MacroModulo[],
   config: JornadaConfig = JORNADA_CONFIG,
-  simuladoTentativas: any[] = []
+  simuladoTentativas: readonly SimuladoFinalizado[] = []
 ): ProgressoGlobalDerivado {
   const submodulosMap: Record<string, SubmoduloProgressoDerivado> = {};
   const modulosMap: Record<string, ModuloProgressoDerivado> = {};
@@ -322,19 +324,15 @@ export function derivarProgresso(
     const todosSubmodulosConcluidos = submodulosConcluidosDoModulo === submodulosTotalCount && submodulosTotalCount > 0;
 
     // Avaliação do Simulado de 100 itens do módulo (Parte 2)
-    // Filtra tentativas de simulado pertencentes a este macro módulo
-    const tentativasSimuladoDoMod = simuladoTentativas.filter(
-      (t) => t.moduloId === macro.id || t.targetId === macro.id || t.moduloNumero === modNum
-    );
-    const simuladoTentativasCount = tentativasSimuladoDoMod.length;
-    const primeiraTentativaSim = tentativasSimuladoDoMod[0];
-    const ultimaTentativaSim = tentativasSimuladoDoMod[tentativasSimuladoDoMod.length - 1];
-
-    const simuladoPrimeiraTentativaNota = primeiraTentativaSim ? primeiraTentativaSim.aproveitamento : undefined;
-    // Nota consolidada = acertos da 1ª tentativa + erros superados nos retestes (Regra 2.4)
-    const simuladoNotaConsolidada = ultimaTentativaSim
-      ? ultimaTentativaSim.notaConsolidada ?? ultimaTentativaSim.aproveitamento
-      : undefined;
+    // Cálculo canônico (Regra 2.4): casa os cadernos 'mN-*' do módulo e ordena cronologicamente
+    const notaSimulado = calcularNotaConsolidadaSimulado(macro.id, [...simuladoTentativas]);
+    const simuladoTentativasCount = notaSimulado.totalTentativas;
+    // Escala 0–1, a mesma de config.minimoSimuladoModulo
+    const simuladoPrimeiraTentativaNota =
+      simuladoTentativasCount > 0 ? notaSimulado.primeiraTentativaPercent / 100 : undefined;
+    // Nota consolidada = acertos da 1ª tentativa + erros superados nas tentativas seguintes
+    const simuladoNotaConsolidada =
+      simuladoTentativasCount > 0 ? notaSimulado.notaConsolidadaPercent / 100 : undefined;
 
     const simuladoAprovado = (simuladoNotaConsolidada ?? 0) >= config.minimoSimuladoModulo;
     const moduloConcluido = config.simuladoObrigatorioParaAvancar

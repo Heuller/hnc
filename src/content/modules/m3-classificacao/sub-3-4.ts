@@ -50,7 +50,7 @@ export const submodulo34: ModuloFilho = {
   autoresChave: ['Ingetraut Dahlberg', 'Estevão de Meneses', 'Emilia Currás', 'Thomas Gruber', 'Anna Maria Marques Cintra', 'Marilda Lopes Ginez de Lara', 'E. Wyndham Hulme'],
   alertasCebraspe: [
     'Relações semânticas canônicas de um tesauro segundo a ISO 25964: (1) Equivalência (USE / UP para sinônimos, variantes ortográficas e quase-sinônimos); (2) Hierárquica (TG / TE para relações de gênero-espécie, todo-parte ou instancial); e (3) Associativa (TR para conexões laterais simétricas que não são hierárquicas nem sinônimas, como causa-efeito, processo-agente ou matéria-produto).',
-    'Forma gramatical padronizada dos descritores: Substantivos no PLURAL para entidades contáveis (ex.: Bibliotecas, Tribunais, Leis); substantivos no SINGULAR para conceitos abstratos, propriedades, ações e materiais contínuos/não contáveis (ex.: Democracia, Informação, Justiça, Petróleo). O Cebraspe adora inventar que todos os termos devem estar obrigatoriamente no singular.',
+    'Forma gramatical padronizada dos descritores: Substantivos no PLURAL para entidades contáveis (ex.: Bibliotecas, Tribunais, Leis); substantivos no SINGULAR para conceitos abstratos, propriedades, ações e materiais contínuos/não contáveis (ex.: Democracia, Informação, Justiça, Petróleo). A técnica de distrator recorrente consiste em inventar que todos os termos devem estar obrigatoriamente no singular.',
     'Garantia Literária (Literary Warrant de E. Wyndham Hulme, 1911): Princípio segundo o qual nenhum descritor deve ser criado arbitrariamente na imaginação do bibliotecário; a inclusão de um termo no tesauro exige comprovação de que o assunto já foi abordado em documentos concretos da área e presentes no acervo.',
     'O Vocabulário Controlado Básico (VCB) da Rede Virtual de Bibliotecas (RVBI): É o tesauro estruturado oficial coordenado pela Biblioteca do Senado Federal com participação da Câmara dos Deputados e tribunais federais. É a linguagem de indexação hegemônica da produção legislativa e jurídica nacional e o padrão semântico do LexML Brasil.',
     'Diferença estrutural entre Tesauro e Ontologia: Enquanto o tesauro organiza termos lexicais para humanos indexarem e recuperarem textos via descritores, a ontologia é uma base de conhecimento formal legível por computadores, com axiomas lógicos e propriedades que permitem a agentes de Inteligência Artificial realizarem inferências dedutivas automáticas.',
@@ -214,6 +214,21 @@ O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco c
 
 ---
 
+### 6. Indexação Automática e Extração Terminológica sob o Princípio da Univocidade
+
+Com a proliferação exponencial de proposições legislativas em texto integral, diários oficiais e acervos digitais, a **indexação automática** consolidou-se como instrumento indispensável de apoio ao trabalho do catalogador humano:
+
+#### A. Modalidades de Indexação Automática
+1. **Indexação por Extração (*Derived Indexing*):** Os termos de indexação são extraídos diretamente do próprio texto analisado, selecionados com base em métricas estatísticas e morfológicas (frequência de ocorrência segundo a Lei de Zipf, corte de palavras funcionais/stopwords e cálculo ponderado de TF-IDF — *Term Frequency-Inverse Document Frequency*).
+2. **Indexação por Atribuição (*Assigned Indexing*):** O sistema computacional analisa o texto e atribui descritores padronizados oriundos de um vocabulário controlado externo (como o Vocabulário Controlado Básico da RVBI ou o Tesauro do Congresso Nacional). Exige mecanismos de processamento de linguagem natural (PLN), ontologias e aprendizado de máquina para mapear expressões em linguagem natural aos termos canônicos.
+
+#### B. A Preservação da Univocidade no Processamento Automatizado
+O maior desafio dos algoritmos de indexação automática reside na garantia da **univocidade** (relação biunívoca entre termo autorizado e conceito):
+* **Desambiguação Semântica:** O algoritmo deve desambiguar homógrafos (ex.: *pena* como sanção penal versus *pena* como pluma; *banco* como instituição financeira versus assento físico) por meio da análise de coocorrência léxica e contexto frasal (*word sense disambiguation*).
+* **Controle de Sinônimos:** Expressões variantes e jargões devem ser mapeados automaticamente para o descritor preferido (\`USE\`), assegurando que consultas posteriores pelo termo autorizado recuperem todos os documentos pertinentes, sem redundâncias nem dispersão semântica.
+
+---
+
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **BIBFRAME 2.0 e Linked Data (sub-2-7):** Modelagem de tesauros e vocabulários controlados em SKOS e RDF.
 * **IA Aplicada à Informação (sub-6-7):** Uso de taxonomias e ontologias para extração semântica e controle de alucinações em RAG.
@@ -269,7 +284,13 @@ As **Linguagens Documentárias**, com destaque para os **Tesauros**, estruturam 
 - **ANSI/NISO Z39.19-2005 (R2010).** *Guidelines for the Construction, Format, and Management of Monolingual Controlled Vocabularies*. Baltimore: NISO, 2010.
 - **GOMES, Hagar Espanha (Coord.).** *Manual de elaboração de tesauros monolíngues*. Brasília: Programa Nacional de Bibliotecas das Instituições de Ensino Superior, 1990.
 - **W3C.** *SKOS Simple Knowledge Organization System Reference*. W3C Recommendation, 2009.
-- **MOREIRO GONZÁLEZ, José Antonio.** *Linguagens documentárias e vocabulários controlados para indexação e recuperação da informação*. São Paulo: Ed. Senac São Paulo, 2011.`,
+- **MOREIRO GONZÁLEZ, José Antonio.** *Linguagens documentárias e vocabulários controlados para indexação e recuperação da informação*. São Paulo: Ed. Senac São Paulo, 2011.
+
+### Pausa de Recuperação Ativa: Relações Conceituais em Tesauros
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Qual a diferença estrita entre relação hierárquica (TG/TE), relação de equivalência (USE/UP) e relação associativa (TA)? Em que circunstância dois termos devem ser ligados por TA e não por TG/TE em um vocabulário controlado?
+`,
   checkpoints: [
     {
       id: 'cp-3-4-1',

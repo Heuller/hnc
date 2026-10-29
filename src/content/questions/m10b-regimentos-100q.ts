@@ -24,7 +24,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 14",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "do Presidente, de dois Vice-Presidentes e de",
+    "versao_errada": "A Mesa Diretora da Câmara dos Deputados compõe-se indevidamente do presidente, de dois vice-presidentes e de quatro Secretários, além de quatro Suplentes de Secretário."
   },
   {
     "id": "m10b-q-2",
@@ -39,8 +41,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Os membros da Mesa Diretora da Câmara dos Deputados são eleitos para mandato de quatro anos, coincidente com a duração integral da legislatura parlamentar.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 5º do RICD e art. 57, § 4º da CF/88, o mandato dos membros da Mesa é de DOIS ANOS, sendo vedada a recondução para o mesmo cargo na eleição imediatamente subsequente na mesma legislatura.",
-    "armadilhaBanca": "Duração do mandato da Mesa (2 anos, não 4).",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 5º do RICD e art. 57, § 4º da CF/88, o mandato dos membros da Mesa é de DOIS ANOS, sendo vedada a recondução para o mesmo cargo na eleição imediatamente subsequente na mesma legislatura. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -75,7 +77,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 8º / CF/88, art. 58, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "quanto possível, a representação proporcional dos partidos",
+    "versao_errada": "Na constituição da Mesa e de cada Comissão, é assegurada, tanto indevidamente quanto possível, a representação proporcional dos partidos ou dos blocos parlamentares que participam da Câmara dos Deputados."
   },
   {
     "id": "m10b-q-4",
@@ -91,7 +95,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "O Presidente da Câmara dos Deputados vota em todas as deliberações plenárias ordinárias para manifestar a posição política da Presidência da Casa.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 17, § 1º do RICD, o Presidente NÃO vota nas votações ostensivas, SALVO em caso de empate (voto de minerva), votação secreta, ou nas deliberações em que se exija quórum qualificado de três quintos (como em PECs) oumaioria absoluta.",
-    "armadilhaBanca": "Regras regimentais de voto do Presidente da Câmara.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -126,7 +130,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 18",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "em suas faltas ou impedimentos o Primeiro-Vice-Presidente",
+    "versao_errada": "Substitui o Presidente da Câmara dos Deputados indevidamente em suas faltas ou impedimentos o primeiro-vice-presidente e, na ausência deste, o Segundo-Vice-Presidente."
   },
   {
     "id": "m10b-q-6",
@@ -151,7 +157,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 19",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "dos Deputados superintender os serviços administrativos da",
+    "versao_errada": "Compete ao Primeiro-Secretário da Mesa Diretora da Câmara indevidamente dos deputados superintender os serviços administrativos da Casa e assinar a correspondência oficial da Câmara."
   },
   {
     "id": "m10b-q-7",
@@ -176,7 +184,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 20",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de passagens aéreas e verbas indenizatórias de",
+    "versao_errada": "A expedição de passaportes diplomáticos e a fiscalização indevidamente de passagens aéreas e verbas indenizatórias de gabinetes parlamentares competem regimentarmente ao Segundo-Secretário da Mesa."
   },
   {
     "id": "m10b-q-8",
@@ -201,7 +211,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 22",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "distribuição e concessão dos apartamentos funcionais e",
+    "versao_errada": "Compete privativamente ao Quarto-Secretário a indevidamente distribuição e concessão dos apartamentos funcionais e do auxílio-moradia aos deputados federais."
   },
   {
     "id": "m10b-q-9",
@@ -216,8 +228,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O Terceiro-Secretário da Mesa Diretora tem como atribuição exclusiva julgar os recursos interpostos contra decisões disciplinares aplicadas a servidores concursados do CEDI.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 21 do RICD, compete ao Terceiro-Secretário examinar requerimentos de licença de deputados, justificações de faltas e outras atribuições de apoio às sessões, e não julgar recursos de servidores do CEDI.",
-    "armadilhaBanca": "Atribuições do Terceiro-Secretário (licenças e justificações parlamentares).",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 21 do RICD, compete ao Terceiro-Secretário examinar requerimentos de licença de deputados, justificações de faltas e outras atribuições de apoio às sessões, e não julgar recursos de servidores do CEDI. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -252,7 +264,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 20-A",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Câmara dos Deputados, composto pelos Líderes da",
+    "versao_errada": "O Colégio de Líderes é órgão consultivo e deliberativo de coordenação política da indevidamente câmara dos deputados, composto pelos líderes da Maioria, da Minoria, dos partidos políticos, dos blocos parlamentares e do Governo."
   },
   {
     "id": "m10b-q-11",
@@ -268,7 +282,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "As deliberações do Colégio de Líderes possuem natureza vinculante sobre os atos da Presidência da Casa, impedindo o Presidente de incluir na Ordem do Dia matéria objeto de desacordo majoritário entre as lideranças.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A prerrogativa de organizar e designar a Ordem do Dia das sessões plenárias é privativa do Presidente da Câmara dos Deputados (art. 17, II, \"a\" do RICD), ouvindo o Colégio de Líderes, sem subordinação hierárquica vinculante.",
-    "armadilhaBanca": "Prerrogativa privativa do Presidente na fixação da Ordem do Dia.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -293,8 +307,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O Bloco Parlamentar constituído pela união de duas oumais bancadas partidárias vigora durante toda a legislatura, sendo proibido aos partidos que o compõem dele se desvincular em qualquer momento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 12 do RICD, os blocos parlamentares podem ser dissolvidos ou sofrer desvinculação partidária nos termos regimentais, não havendo caráter perpétuo e irreversível durante a legislatura.",
-    "armadilhaBanca": "Regras de formação e dissolução de blocos parlamentares.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 12 do RICD, os blocos parlamentares podem ser dissolvidos ou sofrer desvinculação partidária nos termos regimentais, não havendo caráter perpétuo e irreversível durante a legislatura. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -329,7 +343,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 21-A",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "e de seus membros quando atingidos em",
+    "versao_errada": "A Procuradoria Parlamentar da Câmara dos Deputados tem por finalidade institucional a defesa da Câmara, de seus órgãos indevidamente e de seus membros quando atingidos em sua honra ou na sua imagem pública em razão do exercício do mandato ou das funções institucionais."
   },
   {
     "id": "m10b-q-14",
@@ -344,8 +360,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Ouvidoria Parlamentar da Câmara dos Deputados é órgão privativo de investigação penal destinado a prender em flagrante servidores acusados de peculato.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Ouvidoria Parlamentar é canal de comunicação e interlocução com o cidadão, recebendo críticas, elogios, sugestões e reclamações da sociedade sobre o funcionamento da Casa.",
-    "armadilhaBanca": "Função de ouvidoria vs função de polícia penal.",
+    "justificativa": "Gabarito ERRADO. A Ouvidoria Parlamentar é canal de comunicação e interlocução com o cidadão, recebendo críticas, elogios, sugestões e reclamações da sociedade sobre o funcionamento da Casa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -382,7 +398,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "declaracaoLegada": "Código de Ética da Câmara dos Deputados / RICD"
     },
     "fonte": "Código de Ética da Câmara dos Deputados / RICD",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "o órgão encarregado da instauração e instrução",
+    "versao_errada": "O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados é indevidamente o órgão encarregado da instauração e instrução de processos disciplinares contra deputados federais por quebra de decoro parlamentar."
   },
   {
     "id": "m10b-q-16",
@@ -398,7 +416,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "A perda de mandato de Deputado Federal por quebra de decoro parlamentar pode ser decretada sumariamente pelo Conselho de Ética, dispensando a submissão do parecer ao Plenário da Câmara dos Deputados.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 55, § 2º da CF/88 e normas regimentais, a perda de mandato por falta de decoro é decidida pela Câmara dos Deputados, por MAIORIA ABSOLUTA, mediante provocação da Mesa ou de partido político com representação no Congresso, após deliberação plenária.",
-    "armadilhaBanca": "Necessidade imperativa de deliberação do Plenário para cassação de mandato.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -433,7 +451,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 66",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "da sessão, mediante o instituto da \"comunicação",
+    "versao_errada": "As lideranças parlamentares têm direito ao uso da palavra em qualquer fase indevidamente da sessão, mediante o instituto da \"comunicação de liderança\", observados os tempos e limites regimentais fixados pelo RICD."
   },
   {
     "id": "m10b-q-18",
@@ -448,8 +468,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Deputados que não integrem qualquer bancada partidária ou que tenham sido expulsos de sua agremiação podem criar um gabinete de liderança unipessoal com as mesmas verbas de um partido com cinquenta deputados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As prerrogativas, tempos de palavra e estrutura de liderança subordinam-se estritamente à proporcionalidade partidária e regras mínimas de representação estabelecidas no RICD.",
-    "armadilhaBanca": "Vedação a privilégios desproporcionais de liderança unipessoal.",
+    "justificativa": "Gabarito ERRADO. As prerrogativas, tempos de palavra e estrutura de liderança subordinam-se estritamente à proporcionalidade partidária e regras mínimas de representação estabelecidas no RICD. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -484,7 +504,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 268 / CF/88, art. 51, IV",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "do Departamento de Polícia Legislativa (DEPOL), sob",
+    "versao_errada": "A polícia da Câmara dos Deputados é exercida privativamente por seus servidores efetivos indevidamente do departamento de polícia legislativa (depol), sob a direção da Mesa e a supervisão direta do Presidente da Câmara."
   },
   {
     "id": "m10b-q-20",
@@ -499,8 +521,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Autoridades judiciais e policiais do Poder Executivo podem ingressar livremente e cumprir mandados judiciais de busca e apreensão em dependências reservadas da Câmara sem prévia ciência e acompanhamento da Polícia Legislativa da Casa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a jurisprudência do STF e os arts. 268 e 270 do RICD, atos judiciais em dependências sob jurisdição parlamentar devem ser autorizados pelo STF e acompanhados obrigatoriamente pela Polícia Legislativa.",
-    "armadilhaBanca": "Inviolabilidade das dependências parlamentares e polícia própria.",
+    "justificativa": "Gabarito ERRADO. Conforme a jurisprudência do STF e os arts. 268 e 270 do RICD, atos judiciais em dependências sob jurisdição parlamentar devem ser autorizados pelo STF e acompanhados obrigatoriamente pela Polícia Legislativa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -562,7 +584,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "declaracaoLegada": "Resolução da Câmara nº 1/2013 / RICD"
     },
     "fonte": "Resolução da Câmara nº 1/2013 / RICD",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Diretora da Câmara dos Deputados, integrada pela",
+    "versao_errada": "A Secretaria da Mulher é uma estrutura autônoma vinculada à Mesa indevidamente diretora da câmara dos deputados, integrada pela Procuradoria da Mulher e pela Coordenadoria dos Direitos da Mulher."
   },
   {
     "id": "m10b-q-23",
@@ -587,7 +611,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 7º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "realiza-se em votação secreta, exigindo-se maioria absoluta",
+    "versao_errada": "A eleição dos membros da Mesa da Câmara dos Deputados indevidamente realiza-se em votação secreta, exigindo-se maioria absoluta de votos no primeiro escrutínio para a eleição do Presidente."
   },
   {
     "id": "m10b-q-24",
@@ -603,7 +629,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "A vaga ocorrida na Mesa da Câmara será preenchida mediante eleição convocada em até quarenta e oito horas, se a vacância ocorrer no último semestre do mandato da Mesa.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Se a vacância ocorrer a menos de noventa dias do término do mandato da Mesa, o preenchimento far-se-á por designação do Presidente entre os parlamentares da bancada correspondente, dispensada a eleição regimental (art. 16 do RICD).",
-    "armadilhaBanca": "Regra de preenchimento de vacância no final de mandato da Mesa.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -628,8 +654,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Procuradoria Parlamentar pode ser acionada para ingressar com pedido de habeas corpus oumandado de segurança em benefício de terceiros sem qualquer relação com a função institucional da Câmara.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A atuação da Procuradoria Parlamentar é vinculada estritamente à defesa institucional da Câmara, de seus órgãos e de deputados em razão do exercício de suas prerrogativas parlamentares.",
-    "armadilhaBanca": "Desvio de finalidade da Procuradoria Parlamentar.",
+    "justificativa": "Gabarito ERRADO. A atuação da Procuradoria Parlamentar é vinculada estritamente à defesa institucional da Câmara, de seus órgãos e de deputados em razão do exercício de suas prerrogativas parlamentares. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -664,7 +690,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 22",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Temporárias (as que se extinguem com o",
+    "versao_errada": "As Comissões da Câmara dos Deputados são Permanentes (aquelas que subsistem através das legislaturas) e indevidamente temporárias (as que se extinguem com o término da legislatura ou antes dele, se alcançado o fim para que foram criadas)."
   },
   {
     "id": "m10b-q-27",
@@ -679,8 +707,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A apreciação de proposições pelas comissões tem caráter meramente informativo, sendo expressamente nula a aprovação de qualquer projeto de lei sem a manifestação e o voto soberano do Plenário da Câmara dos Deputados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 58, § 2º, I da CF/88 e art. 24, II do RICD, as comissões possuem PODER CONCLUSIVO (terminativo), podendo aprovar projetos dispensada a competência do Plenário, salvo recurso de 1/10 dos membros da Casa.",
-    "armadilhaBanca": "Existência e validade do poder conclusivo das comissões.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 58, § 2º, I da CF/88 e art. 24, II do RICD, as comissões possuem PODER CONCLUSIVO (terminativo), podendo aprovar projetos dispensada a competência do Plenário, salvo recurso de 1/10 dos membros da Casa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -715,7 +743,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 132, § 2º / CF/88, art. 58, § 2º, I",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "no mínimo, um décimo dos membros da",
+    "versao_errada": "O recurso contra a aprovação conclusiva de projeto de lei pelas comissões permanentes deve ser subscrito por, indevidamente no mínimo, um décimo dos membros da Câmara dos Deputados, no prazo regimental de cinco sessões, para que a matéria seja submetida ao Plenário."
   },
   {
     "id": "m10b-q-29",
@@ -740,7 +770,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 32, IV",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "a constitucionalidade, juridicidade e técnica legislativa de",
+    "versao_errada": "Compete à Comissão de Constituição e Justiça e de Cidadania (CCJC) pronunciar-se sobre indevidamente a constitucionalidade, juridicidade e técnica legislativa de todas as proposições sujeitas à apreciação da Câmara ou de suas Comissões."
   },
   {
     "id": "m10b-q-30",
@@ -765,7 +797,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 54, I",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de lei, a proposição será arquivada definitivamente",
+    "versao_errada": "Se a CCJC emitir parecer unânime pela inconstitucionalidade e injuridicidade de um projeto indevidamente de lei, a proposição será arquivada definitivamente pelo Presidente da Câmara, salvo se interposto recurso ao Plenário na forma regimental."
   },
   {
     "id": "m10b-q-31",
@@ -790,7 +824,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 32, X e art. 54, II",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "a admissibilidade orçamentária e financeira das proposições",
+    "versao_errada": "A Comissão de Finanças e Tributação (CFT) possui competência privativa para examinar indevidamente a admissibilidade orçamentária e financeira das proposições, sendo terminativo o seu parecer que concluir pela incompatibilidade ou inadequação orçamentária."
   },
   {
     "id": "m10b-q-32",
@@ -805,8 +841,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Todas as Comissões Permanentes da Câmara dos Deputados contam com o mesmo número exato de membros, fixado pela Constituição em vinte e sete deputados titulares.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O número de membros das Comissões Permanentes é variável e fixado no início de cada sessão legislativa por Ato da Mesa, respeitada a proporcionalidade e a complexidade temática de cada comissão (art. 25 do RICD).",
-    "armadilhaBanca": "Composição numérica variável das comissões permanentes.",
+    "justificativa": "Gabarito ERRADO. O número de membros das Comissões Permanentes é variável e fixado no início de cada sessão legislativa por Ato da Mesa, respeitada a proporcionalidade e a complexidade temática de cada comissão (art. 25 do RICD). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -841,7 +877,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 39",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "da respectiva Comissão, para mandato de um",
+    "versao_errada": "Os Presidentes e Vice-Presidentes das Comissões Permanentes da Câmara são eleitos pelos membros indevidamente da respectiva comissão, para mandato de um ano, sendo vedada a reeleição para o mesmo cargo na mesma legislatura."
   },
   {
     "id": "m10b-q-34",
@@ -856,8 +894,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O Presidente de uma Comissão Permanente tem direito a proferir o voto ordinário de bancada e, persistindo o empate, proferir o voto de desempate (voto de minerva).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 42 do RICD, o Presidente da Comissão vota apenas em caso de empate (voto de qualidade/minerva), SALVO em escrutínio secreto onde vota como membro comum.",
-    "armadilhaBanca": "Regras de voto do Presidente de Comissão no RICD.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 42 do RICD, o Presidente da Comissão vota apenas em caso de empate (voto de qualidade/minerva), SALVO em escrutínio secreto onde vota como membro comum. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -892,7 +930,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 34, II",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "propostas de emenda à Constituição, projetos de",
+    "versao_errada": "As Comissões Especiais são constituídas pelo Presidente da Câmara para dar parecer sobre indevidamente propostas de emenda à constituição, projetos de código oumatérias que envolvam a competência de mais de três comissões de mérito."
   },
   {
     "id": "m10b-q-36",
@@ -907,8 +947,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O parecer do relator em comissão permanente que for rejeitado pela maioria dos membros será imediatamente arquivado, e a proposição legislativa será extinta sumariamente.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 57, § 6º do RICD, rejeitado o parecer do relator, o voto em separado vencedor passará a constituir o parecer da Comissão, e o seu autor será designado relator substituto para redigir o parecer vencedor.",
-    "armadilhaBanca": "Voto em separado vencedor transforma-se no parecer da comissão.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 57, § 6º do RICD, rejeitado o parecer do relator, o voto em separado vencedor passará a constituir o parecer da Comissão, e o seu autor será designado relator substituto para redigir o parecer vencedor. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -943,7 +983,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 57, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "a leitura do parecer do relator, sendo",
+    "versao_errada": "Qualquer membro de comissão pode solicitar \"vista\" do processo legislativo após indevidamente a leitura do parecer do relator, sendo a vista concedida conjuntamente pelo prazo improrrogável de duas sessões."
   },
   {
     "id": "m10b-q-38",
@@ -958,8 +1000,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A solicitação de vista pode ser requerida por tempo indeterminado a critério discricionário do deputado interessado, mantendo a matéria paralisada por até dois anos na comissão.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O prazo de vista é rigorosamente fixado no RICD (duas sessões) e sua devolução é obrigatória, sob pena de requisição dos autos pelo Presidente da comissão e prosseguimento da votação.",
-    "armadilhaBanca": "Impossibilidade de vista por tempo indeterminado no processo legislativo.",
+    "justificativa": "Gabarito ERRADO. O prazo de vista é rigorosamente fixado no RICD (duas sessões) e sua devolução é obrigatória, sob pena de requisição dos autos pelo Presidente da comissão e prosseguimento da votação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -994,7 +1036,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 255 / CF/88, art. 58, § 2º, II",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ou debater assuntos de interesse público relevante",
+    "versao_errada": "As audiências públicas realizadas pelas comissões permanentes destinam-se a instruir matéria legislativa em trâmite indevidamente ou debater assuntos de interesse público relevante, podendo contar com a presença de especialistas, autoridades e representantes da sociedade civil."
   },
   {
     "id": "m10b-q-40",
@@ -1036,7 +1080,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "As Comissões Parlamentares de Inquérito constituídas no âmbito da Câmara dos Deputados extinguem-se com o término do prazo deliberado pelo Plenário ou no encerramento da sessão legislativa ordinária em que foram criadas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 35 do RICD, as CPIs extinguem-se pelo término de seu prazo certo de funcionamento (que pode se estender por prorrogações dentro da mesma legislatura) ou pelo término da LEGISLATURA (quadriênio) e não com o simples encerramento da sessão legislativa ordinária anual.",
-    "armadilhaBanca": "Extinção de CPI: término do prazo ou fim da legislatura (não da sessão anual).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1071,7 +1115,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, arts. 47 e 48",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "metade mais um de seus membros, e",
+    "versao_errada": "O quórum para abertura dos trabalhos de reunião de Comissão Permanente é de indevidamente metade mais um de seus membros, e para votação de proposições exige-se a presença da maioria absoluta de seus integrantes."
   },
   {
     "id": "m10b-q-43",
@@ -1122,7 +1168,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 118, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de lei em comissão é aquela que",
+    "versao_errada": "A emenda substitutiva apresentada por deputado a um projeto indevidamente de lei em comissão é aquela que visa a substituir integralmente o texto da proposição original."
   },
   {
     "id": "m10b-q-45",
@@ -1173,7 +1221,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 118, § 6º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "outra emenda, podendo ser aprovada pela comissão",
+    "versao_errada": "Subemenda é a emenda apresentada a indevidamente outra emenda, podendo ser aprovada pela comissão competente como parte do parecer final."
   },
   {
     "id": "m10b-q-47",
@@ -1189,7 +1239,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "Projetos de lei decorrentes de iniciativa popular submetem-se a rito solene e diferenciado, submetendo-se à apreciação direta do Plenário e afastando a tramitação terminativa no âmbito das comissões temáticas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme as normas regimentais, proposições de iniciativa popular tramitam sob o rito geral das leis ordinárias, podendo ser apreciadas conclusivamente pelas comissões, ressalvada a interposição de recurso por um décimo dos deputados.",
-    "armadilhaBanca": "Tramitação terminativa de projetos de iniciativa popular.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1224,7 +1274,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 32, XI",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "os atos do Poder Executivo, incluídos os",
+    "versao_errada": "A Comissão de Fiscalização Financeira e Controle (CFFC) possui competência para fiscalizar indevidamente os atos do poder executivo, incluídos os da administração indireta, em cooperação com o Tribunal de Contas da União."
   },
   {
     "id": "m10b-q-49",
@@ -1249,7 +1301,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 219 / CF/88, art. 50",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Estado para prestar pessoalmente informações sobre assunto",
+    "versao_errada": "As comissões permanentes da Câmara podem convocar Ministros de indevidamente estado para prestar pessoalmente informações sobre assunto previamente determinado, importando crime de responsabilidade a ausência injustificada."
   },
   {
     "id": "m10b-q-50",
@@ -1265,7 +1319,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "Ministros do Supremo Tribunal Federal podem ser convocados coercitivamente por comissões da Câmara dos Deputados para justificar o teor de suas decisões judiciais transitadas em julgado.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O art. 50 da CF/88 autoriza a convocação apenas de Ministros de Estado e titulares de órgãos subordinados à Presidência da República. Membros do Poder Judiciário não podem ser convocados para prestar esclarecimentos sobre seus votos jurisdicionais, sob pena de afronta à separação dos poderes.",
-    "armadilhaBanca": "Inadmissibilidade de convocação de magistrados para justificar votos.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1300,7 +1354,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 46",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "da maioria de seus membros quando a",
+    "versao_errada": "As reuniões das comissões são públicas, mas podem ser realizadas secretamente por deliberação indevidamente da maioria de seus membros quando a preservação do sigilo for imprescindível à segurança da sociedade e do Estado."
   },
   {
     "id": "m10b-q-52",
@@ -1341,8 +1397,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A perda de eficácia de um parecer aprovado em comissão ocorre se o Plenário aprovar requerimento de urgência que avoque a matéria para votação imediata.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Com a concessão de urgência regimental para votação imediata em Plenário, a tramitação ordinária em comissões é dispensada, podendo ser proferido parecer oral em Plenário (art. 155 do RICD).",
-    "armadilhaBanca": "Efeitos da urgência urgentíssima na tramitação de comissão.",
+    "justificativa": "Gabarito CERTO. Com a concessão de urgência regimental para votação imediata em Plenário, a tramitação ordinária em comissões é dispensada, podendo ser proferido parecer oral em Plenário (art. 155 do RICD). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1351,7 +1407,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 155",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "comissão ocorre se o Plenário aprovar requerimento",
+    "versao_errada": "A perda de eficácia de um parecer aprovado em indevidamente comissão ocorre se o plenário aprovar requerimento de urgência que avoque a matéria para votação imediata."
   },
   {
     "id": "m10b-q-54",
@@ -1376,7 +1434,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 105",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "proposições em tramitação nas comissões, exceto as",
+    "versao_errada": "O encerramento da legislatura acarreta o arquivamento automático de todas as indevidamente proposições em tramitação nas comissões, exceto as originárias do Senado Federal ou já aprovadas por uma Casa legislativa."
   },
   {
     "id": "m10b-q-55",
@@ -1401,7 +1461,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 105, parágrafo único",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "arquivado por término de legislatura pode ser",
+    "versao_errada": "Um projeto de lei de iniciativa de deputado que tenha sido indevidamente arquivado por término de legislatura pode ser desarquivado na legislatura subsequente mediante requerimento subscrito pelo autor reeleito."
   },
   {
     "id": "m10b-q-56",
@@ -1426,7 +1488,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 2º / CF/88, art. 57",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "a 17 de julho e de 1º",
+    "versao_errada": "A Câmara dos Deputados reúne-se anualmente em sua sede, em Brasília, de 2 de fevereiro indevidamente a 17 de julho e de 1º de agosto a 22 de dezembro, dividindo-se o ano legislativo em dois períodos ordinários."
   },
   {
     "id": "m10b-q-57",
@@ -1451,7 +1515,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de julho sem a aprovação prévia do",
+    "versao_errada": "A sessão legislativa não será interrompida em 17 indevidamente de julho sem a aprovação prévia do projeto de lei de diretrizes orçamentárias (LDO)."
   },
   {
     "id": "m10b-q-58",
@@ -1466,8 +1532,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A convocação extraordinária da Câmara dos Deputados dá direito ao pagamento de indenização indenizatória e ajuda de custo correspondente a dez subsídios parlamentares.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 57, § 7º da CF/88 (redação dada pela EC 50/2006), é expressamente VEDADO o pagamento de qualquer parcela indenizatória em razão da convocação extraordinária.",
-    "armadilhaBanca": "Vedação absoluta de pagamento extra por convocação extraordinária (EC 50/2006).",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 57, § 7º da CF/88 (redação dada pela EC 50/2006), é expressamente VEDADO o pagamento de qualquer parcela indenizatória em razão da convocação extraordinária. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1502,7 +1568,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, arts. 3º e 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "trabalhos da legislatura e destinam-se exclusivamente à",
+    "versao_errada": "As sessões preparatórias da Câmara dos Deputados precedem a inauguração dos indevidamente trabalhos da legislatura e destinam-se exclusivamente à posse dos Deputados diplomados e à eleição da Mesa Diretora."
   },
   {
     "id": "m10b-q-60",
@@ -1527,7 +1595,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 64",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Câmara dos Deputados classificam-se em preparatórias, ordinárias",
+    "versao_errada": "As sessões da indevidamente câmara dos deputados classificam-se em preparatórias, ordinárias, extraordinárias e solenes."
   },
   {
     "id": "m10b-q-61",
@@ -1552,7 +1622,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 68",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ou recepção de chefes de Estado, não",
+    "versao_errada": "As sessões solenes destinam-se a comemorações cívicas, homenagens especiais indevidamente ou recepção de chefes de estado, não havendo nelas deliberação nem votação de proposições legislativas."
   },
   {
     "id": "m10b-q-62",
@@ -1577,7 +1649,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 82",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "se realiza a discussão e a deliberação",
+    "versao_errada": "A Ordem do Dia é a fase da sessão plenária em que indevidamente se realiza a discussão e a deliberação das matérias constantes da pauta previamente organizada pela Presidência da Casa."
   },
   {
     "id": "m10b-q-63",
@@ -1593,7 +1667,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "Para a abertura de sessão ordinária e início da fase do Pequeno Expediente, exige-se a presença em plenário de metade mais um de todos os 513 deputados federais.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 65 do RICD, para a abertura da sessão e início do Pequeno Expediente exige-se a presença de pelo menos um décimo da composição da Casa (52 deputados). A maioria absoluta é exigida para a Ordem do Dia e votações.",
-    "armadilhaBanca": "Quórum de abertura de sessão (1/10) vs quórum de deliberação (maioria absoluta).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1628,7 +1702,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 155",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "da Câmara ou por líderes que representem",
+    "versao_errada": "A urgência urgentíssima (ou urgência regimental do art. 155 do RICD) pode ser requerida por um terço dos membros indevidamente da câmara ou por líderes que representem esse número, permitindo que a proposição seja incluída de imediato na Ordem do Dia da mesma sessão para votação."
   },
   {
     "id": "m10b-q-65",
@@ -1643,8 +1719,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O requerimento de urgência do art. 155 do RICD é aprovado por votação simbólica com qualquer número de deputados presentes em plenário.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a prática regimental consolidada e o art. 155 do RICD, a aprovação do requerimento de urgência do art. 155 requer quórum qualificado de MAIORIA ABSOLUTA (pelo menos 257 votos favoráveis).",
-    "armadilhaBanca": "Quórum de maioria absoluta para aprovação da urgência do art. 155.",
+    "justificativa": "Gabarito ERRADO. Conforme a prática regimental consolidada e o art. 155 do RICD, a aprovação do requerimento de urgência do art. 155 requer quórum qualificado de MAIORIA ABSOLUTA (pelo menos 257 votos favoráveis). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1679,7 +1755,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 180",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Deputados processam-se por dois métodos fundamentais: ostensivo",
+    "versao_errada": "As votações na Câmara dos indevidamente deputados processam-se por dois métodos fundamentais: ostensivo (simbólico ou nominal) e secreto."
   },
   {
     "id": "m10b-q-67",
@@ -1704,7 +1782,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 185",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "os deputados que forem favoráveis à matéria",
+    "versao_errada": "No processo simbólico de votação, o Presidente da Câmara convida indevidamente os deputados que forem favoráveis à matéria a permanecerem sentados, manifestando-se contrários aqueles que se levantarem."
   },
   {
     "id": "m10b-q-68",
@@ -1719,8 +1799,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O pedido de verificação de votação simbólica constitui prerrogativa individual e irrecusável atribuída ao parlamentar isolado presente na sessão, sem exigência de quórum de apoio de bancada partidária.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 186 do RICD, o requerimento de verificação de votação simbólica deve ser apoiado por pelo menos seis por cento dos deputados ou por líderes que representem esse contingente partidário.",
-    "armadilhaBanca": "Quórum de apoio para requerimento de verificação de votação.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 186 do RICD, o requerimento de verificação de votação simbólica deve ser apoiado por pelo menos seis por cento dos deputados ou por líderes que representem esse contingente partidário. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1755,7 +1835,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 187",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "por meio de",
+    "versao_errada": "A votação nominal na Câmara dos Deputados realiza-se prioritariamente indevidamente por meio de sistema eletrônico de votação, registrando-se individualmente os votos SIM, NÃO e ABSTENÇÃO no painel e nos anais da Casa."
   },
   {
     "id": "m10b-q-70",
@@ -1771,7 +1853,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "O voto secreto foi totalmente abolido do ordenamento regimental da Câmara dos Deputados pela Emenda Constitucional nº 76/2013, não remanescendo qualquer hipótese de escrutínio secreto na Casa.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Embora a EC 76/2013 tenha extinguido o voto secreto para cassação de mandato (art. 55) e apreciação de vetos (art. 66), o voto secreto SUBSISTE na eleição dos membros da Mesa Diretora da Câmara dos Deputados (art. 7º do RICD).",
-    "armadilhaBanca": "Manutenção do voto secreto para eleição da Mesa da Câmara.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1806,7 +1888,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 95",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "perante o Presidente dos trabalhos para reclamar",
+    "versao_errada": "A questão de ordem é o instrumento regimental que qualquer deputado pode suscitar indevidamente perante o presidente dos trabalhos para reclamar contra a inobservância de norma expressa do Regimento Interno ou da Constituição Federal."
   },
   {
     "id": "m10b-q-72",
@@ -1831,7 +1915,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 95, § 8º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "sobre questão de ordem, desde que interposto",
+    "versao_errada": "Cabe recurso ao Plenário da Câmara das decisões do Presidente indevidamente sobre questão de ordem, desde que interposto com apoio de um décimo dos membros da Casa."
   },
   {
     "id": "m10b-q-73",
@@ -1847,7 +1933,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "O deputado que suscitar questão de ordem dispõe de trinta minutos improrrogáveis para dissertar livremente sobre qualquer assunto de interesse de sua base eleitoral.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A questão de ordem deve ser formulada em no máximo três minutos, indicando precisamente o dispositivo constitucional ou regimental violado (art. 95, § 1º do RICD), sendo terminantemente vedado desviar-se do tema procedimental.",
-    "armadilhaBanca": "Tempo e finalidade estrita da questão de ordem (3 minutos).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1882,7 +1968,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 185 e ss. / Doutrina Parlamentar",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "contrários a uma matéria utilizam prazos, debates",
+    "versao_errada": "A obstrução parlamentar é uma estratégia legítima de atuação regimental pela qual bancadas e partidos indevidamente contrários a uma matéria utilizam prazos, debates, pedidos de verificação e retirada de quórum para impedir a votação ou forçar negociações políticas."
   },
   {
     "id": "m10b-q-75",
@@ -1907,7 +1995,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD / Atos da Mesa Diretora",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "deputados recebam faltas disciplinares, porém seus membros",
+    "versao_errada": "O registro formal de obstrução de uma bancada no sistema eletrônico impede que seus indevidamente deputados recebam faltas disciplinares, porém seus membros presentes em plenário não contam para efeito de quórum de abertura de votação."
   },
   {
     "id": "m10b-q-76",
@@ -1922,8 +2012,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A supressão do interstício regimental entre o primeiro e o segundo turno de votação de proposta de emenda à Constituição insere-se na competência discricionária do Presidente da Câmara dos Deputados mediante despacho ordinatório.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A quebra ou dispensa do interstício regimental de cinco dias entre os turnos de votação de PEC exige requerimento formal aprovado pelo Plenário por quórum qualificado, não cabendo decisão monocrática.",
-    "armadilhaBanca": "Exigência de deliberação plenária para quebra de interstício em PEC.",
+    "justificativa": "Gabarito ERRADO. A quebra ou dispensa do interstício regimental de cinco dias entre os turnos de votação de PEC exige requerimento formal aprovado pelo Plenário por quórum qualificado, não cabendo decisão monocrática. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1958,7 +2048,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 195",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "pela Comissão de Constituição e Justiça e",
+    "versao_errada": "A redação final de um projeto de lei aprovado com emendas em Plenário é elaborada indevidamente pela comissão de constituição e justiça e de Cidadania (CCJC) antes do envio da matéria à Casa revisora ou à sanção presidencial."
   },
   {
     "id": "m10b-q-78",
@@ -1973,8 +2065,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Durante a fase de votação da Ordem do Dia, é admitido que cidadãos presentes nas galerias do Plenário Ulysses Guimarães profiram apartes e façam perguntas aos deputados oradores.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 272 do RICD, às pessoas presentes nas galerias do Plenário é rigorosamente vedado manifestar aplausos, vaias, interrupções ou apartes, devendo permanecer em silêncio sob pena de evacuação compulsória.",
-    "armadilhaBanca": "Vedação a manifestações do público nas galerias durante a sessão.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 272 do RICD, às pessoas presentes nas galerias do Plenário é rigorosamente vedado manifestar aplausos, vaias, interrupções ou apartes, devendo permanecer em silêncio sob pena de evacuação compulsória. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2009,7 +2101,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 176",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "orador pelo tempo máximo regimental para indagação",
+    "versao_errada": "O aparte é a interrupção consentida do indevidamente orador pelo tempo máximo regimental para indagação ou esclarecimento sobre a matéria em debate."
   },
   {
     "id": "m10b-q-80",
@@ -2034,7 +2128,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 177",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "pronunciamento em comunicação de liderança, questão de",
+    "versao_errada": "Não é permitido aparte a indevidamente pronunciamento em comunicação de liderança, questão de ordem ou declaração de voto."
   },
   {
     "id": "m10b-q-81",
@@ -2059,7 +2155,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 5º / RCCN, art. 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "do Congresso Nacional, cuja presidência é exercida",
+    "versao_errada": "O Congresso Nacional é dirigido pela Mesa indevidamente do congresso nacional, cuja presidência é exercida privativamente pelo Presidente do Senado Federal."
   },
   {
     "id": "m10b-q-82",
@@ -2075,7 +2173,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "Na Mesa do Congresso Nacional, a Primeira-Vice-Presidência cabe ao Presidente da Câmara dos Deputados, ao passo que a Segunda-Vice-Presidência é exercida pelo Primeiro-Vice-Presidente do Senado.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 57, § 5º da CF/88 e art. 2º do RCCN, a Primeira-Vice-Presidência do Congresso cabe ao PRIMEIRO-VICE-PRESIDENTE DA CÂMARA DOS DEPUTADOS (e não ao seu Presidente). O Presidente da Câmara não integra a Mesa do Congresso.",
-    "armadilhaBanca": "Composição exata dos cargos da Mesa do Congresso Nacional.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2110,7 +2208,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 5º / RCCN, art. 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "são ocupados alternadamente pelos membros das Mesas",
+    "versao_errada": "Os demais cargos da Mesa do Congresso Nacional (secretarias) indevidamente são ocupados alternadamente pelos membros das mesas da Câmara dos Deputados e do Senado Federal."
   },
   {
     "id": "m10b-q-84",
@@ -2151,8 +2251,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Nas sessões conjuntas do Congresso Nacional, os votos de deputados e senadores são computados conjuntamente em uma urna ou painel único, considerando-se aprovada a matéria que obtiver maioria dos votos de todos os parlamentares somados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a regra do art. 57, § 3º e art. 66, § 4º da CF/88 e art. 42 do RCCN, a votação em sessão conjunta é realizada com CONTAGEM SEPARADA dos votos na Câmara e no Senado, exigindo-se maioria nas duas Casas.",
-    "armadilhaBanca": "Votação conjunta com apuração bicameral separada.",
+    "justificativa": "Gabarito ERRADO. Conforme a regra do art. 57, § 3º e art. 66, § 4º da CF/88 e art. 42 do RCCN, a votação em sessão conjunta é realizada com CONTAGEM SEPARADA dos votos na Câmara e no Senado, exigindo-se maioria nas duas Casas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2203,8 +2303,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Caso o veto presidencial não seja deliberado pelo Congresso Nacional no prazo de trinta dias a contar de seu recebimento, a proposição é automaticamente arquivada e o veto torna-se insuscetível de nova votação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 66, § 6º da CF/88, esgotado o prazo de trinta dias sem deliberação, o veto será colocado na ordem do dia da sessão imediata, SOBRESTADAS as demais proposições, até sua votação final (trancamento de pauta).",
-    "armadilhaBanca": "Efeito do decurso do prazo de veto: trancamento da pauta e não arquivamento.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 66, § 6º da CF/88, esgotado o prazo de trinta dias sem deliberação, o veto será colocado na ordem do dia da sessão imediata, SOBRESTADAS as demais proposições, até sua votação final (trancamento de pauta). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2256,8 +2356,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Os projetos de lei orçamentária (LOA, LDO e PPA) são votados privativamente pela Câmara dos Deputados em sessão exclusiva, dispensada qualquer manifestação do Senado Federal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Os projetos orçamentários são apreciados pelas duas Casas do Congresso Nacional, na forma do regimento comum, em sessão conjunta do Congresso Nacional (art. 166, caput e § 2º da CF/88).",
-    "armadilhaBanca": "Sessão conjunta do Congresso Nacional para votação do orçamento.",
+    "justificativa": "Gabarito ERRADO. Os projetos orçamentários são apreciados pelas duas Casas do Congresso Nacional, na forma do regimento comum, em sessão conjunta do Congresso Nacional (art. 166, caput e § 2º da CF/88). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2282,8 +2382,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As emendas parlamentares ao projeto de lei orçamentária anual prescindem de compatibilidade com o plano plurianual quando destinadas a ações prioritárias de infraestrutura regional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A compatibilidade com o Plano Plurianual (PPA) e com a Lei de Diretrizes Orçamentárias (LDO) é exigência material indeclinável imposta pelo art. 166, § 3º, I da Constituição Federal.",
-    "armadilhaBanca": "Compatibilidade com PPA e LDO para emendas ao orçamento.",
+    "justificativa": "Gabarito ERRADO. A compatibilidade com o Plano Plurianual (PPA) e com a Lei de Diretrizes Orçamentárias (LDO) é exigência material indeclinável imposta pelo art. 166, § 3º, I da Constituição Federal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2361,7 +2461,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "A Comissão Representativa pode, durante o recesso parlamentar, aprovar projetos de lei ordinária e emendas à Constituição em caráter terminativo definitivo.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Comissão Representativa NÃO tem competência legiferante ordinária para aprovar projetos de lei ou emendas constitucionais. Suas atribuições são estritamente de vigília, fiscalização e deliberação sobre matérias urgentes pré-definidas no art. 58, § 4º da CF/88.",
-    "armadilhaBanca": "Inexistência de poder legiferante ordinário da Comissão Representativa.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2413,8 +2513,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O parecer da Comissão Mista de Medida Provisória é dispensável, podendo a MP ser levada a voto direto no Plenário da Câmara sem qualquer comissão prévia em caso de urgência declarada pelo Presidente da República.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Supremo Tribunal Federal, no julgamento da ADI 4.029, declarou inconstitucional a praxe de apreciar medidas provisórias em plenário sem a prévia emissão de parecer pela comissão mista do art. 62, § 9º da CF/88.",
-    "armadilhaBanca": "Obrigatoriedade imperativa do parecer da comissão mista segundo o STF.",
+    "justificativa": "Gabarito ERRADO. O Supremo Tribunal Federal, no julgamento da ADI 4.029, declarou inconstitucional a praxe de apreciar medidas provisórias em plenário sem a prévia emissão de parecer pela comissão mista do art. 62, § 9º da CF/88. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2465,8 +2565,8 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As sessões conjuntas do Congresso Nacional são sediadas no Plenário do Senado Federal, em razão de sua Presidência caber ao Presidente daquela Casa legislativa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As sessões conjuntas do Congresso Nacional realizam-se tradicionalmente no Plenário Ulysses Guimarães da Câmara dos Deputados, por comportar a presença física conjunta dos 513 deputados federais e 81 senadores.",
-    "armadilhaBanca": "Local físico de realização das sessões conjuntas.",
+    "justificativa": "Gabarito ERRADO. As sessões conjuntas do Congresso Nacional realizam-se tradicionalmente no Plenário Ulysses Guimarães da Câmara dos Deputados, por comportar a presença física conjunta dos 513 deputados federais e 81 senadores. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2518,7 +2618,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "item": "Nas votações de matérias orçamentárias na CMO, os pareceres setoriais aprovados não podem ser alterados pelo relator-geral da proposta orçamentária.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O relator-geral dispõe de competência integradora para harmonizar as dotações orçamentárias e compatibilizar as receitas e despesas, podendo propor modificações nos relatórios setoriais nos termos da Resolução nº 1/2006-CN.",
-    "armadilhaBanca": "Competência integradora do relator-geral do orçamento.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {

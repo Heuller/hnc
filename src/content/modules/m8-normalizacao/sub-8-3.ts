@@ -12,11 +12,11 @@ export const submodulo83: ModuloFilho = {
           "motivo": "Estruturação de trabalhos acadêmicos e elementos pré-textuais."
       }
   ],
-  titulo: 'ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos',
+  titulo: 'ABNT NBR 14724:2024: Apresentação de Trabalhos Acadêmicos',
   antesDeLer: [
     {
-      termo: 'ABNT NBR 14724:2011',
-      definicao: 'Norma que especifica os princípios gerais para a apresentação formal de trabalhos acadêmicos (teses, dissertações e TCCs).',
+      termo: 'ABNT NBR 14724:2024',
+      definicao: 'Norma técnica brasileira (4ª edição, publicada em 16/12/2024, que cancela e substitui a NBR 14724:2011) que especifica os princípios gerais para a apresentação formal de trabalhos acadêmicos (teses, dissertações e TCCs).',
       exemploBiblioteca: 'Revisão formal das monografias produzidas pelos alunos dos cursos de pós-graduação do Centro de Formação (Cefor) da Câmara.',
     },
     {
@@ -35,19 +35,19 @@ export const submodulo83: ModuloFilho = {
       exemploBiblioteca: 'Questionário aplicado aos parlamentares entra como Apêndice; cópia do texto do Regimento Interno entra como Anexo.',
     },
   ],
-  descricaoCurta: 'A estrutura formal de teses, dissertações e monografias segundo a ABNT NBR 14724:2011 (elementos pré-textuais, textuais e pós-textuais), a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024:2012), lombada (NBR 12225:2023), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).',
+  descricaoCurta: 'A estrutura formal de teses, dissertações e monografias segundo a ABNT NBR 14724:2024 (4ª edição, que substitui a edição de 2011), cobrindo elementos pré-textuais, textuais e pós-textuais, a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024:2012), lombada (NBR 12225:2023), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).',
   tempoEstimadoMinutos: 12,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Instituto Brasileiro de Geografia e Estatística (IBGE)', 'Júnia Lessa França'],
   alertasCebraspe: [
-    'A MAIOR PEGADINHA DA NBR 14724:2011: Apêndice vs. Anexo. Apêndice é o texto ou documento elaborado PELO PRÓPRIO AUTOR do trabalho (ex.: questionário aplicado, formulário de pesquisa, roteiro de entrevista); Anexo é o documento pré-existente elaborado POR TERCEIROS (ex.: texto de lei, laudo pericial, regimento interno). O Cebraspe inverte essas definições sistematicamente!',
+    'Técnica Recorrente de Distrator na NBR 14724:2024: Apêndice vs. Anexo. Apêndice é o texto ou documento elaborado PELO PRÓPRIO AUTOR do trabalho (ex.: questionário aplicado, formulário de pesquisa, roteiro de entrevista); Anexo é o documento pré-existente elaborado POR TERCEIROS (ex.: texto de lei, laudo pericial, regimento interno). A técnica de distrator mais recorrente consiste na inversão conceitual entre apêndice e anexo.',
     'Elementos Obrigatórios vs. Opcionais na parte Pré-Textual: Obrigatórios = Folha de Rosto (com ficha catalográfica no verso), Folha de Aprovação (obrigatória para teses e dissertações), Resumo na língua vernácula, Resumo em língua estrangeira e Sumário (NBR 6027:2012). Opcionais = Errata, Dedicatória, Agradecimentos, Epígrafe, Listas de Ilustrações, Listas de Tabelas, Siglas e Símbolos.',
-    'Regra Estrita de Paginação da NBR 14724:2011: todas as folhas a partir da FOLHA DE ROSTO são CONTADAS na sequência numérica, mas o número da página só é IMPRESSO a partir da primeira folha da parte textual (INTRODUÇÃO), posicionado no canto superior direito a 2 cm da borda superior.',
+    'Regra Estrita de Paginação da NBR 14724:2024: todas as folhas a partir da FOLHA DE ROSTO são CONTADAS na sequência numérica, mas o número da página só é IMPRESSO a partir da primeira folha da parte textual (INTRODUÇÃO), posicionado no canto superior direito a 2 cm da borda superior.',
     'Margens regulamentares da folha (para impressão no anverso): Margem Superior e Margem Esquerda = 3 cm; Margem Inferior e Margem Direita = 2 cm. Para anverso e verso, as margens externas e internas alternam-se.',
     'Espaçamento interlinear: 1,5 para o texto corrido; espaçamento SIMPLES para citações diretas longas (recuadas a 4 cm), notas de rodapé, referências bibliográficas, legendas de ilustrações e tabelas.',
     'Diferença entre Tabela (IBGE) e Quadro (ABNT): Tabelas apresentam prioritariamente dados numéricos/quantitativos, têm topo e base delimitados por traços horizontais e NÃO possuem traços verticais de fechamento lateral (são abertas dos lados); Quadros apresentam dados textuais/qualitativos e são totalmente fechados por linhas em todos os quatro lados.',
   ],
   quadroComparativo: {
-    titulo: 'Estrutura Completa de Trabalhos Acadêmicos segundo a ABNT NBR 14724:2011',
+    titulo: 'Estrutura Completa de Trabalhos Acadêmicos segundo a ABNT NBR 14724:2024',
     colunas: ['Parte Estrutural', 'Elementos Constitutivos Obrigatórios', 'Elementos Constitutivos Opcionais', 'Regra Específica de Formatação e Paginação', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
       ['Parte Externa', 'Capa (com instituição, autor, título, subtítulo, local e ano)', 'Lombada (conforme NBR 12225:2023)', 'Não é contada nem numerada na paginação do miolo', 'Considerar a capa como a primeira folha contada na paginação (FALSO: conta da folha de rosto).'],
@@ -56,13 +56,13 @@ export const submodulo83: ModuloFilho = {
       ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023:2018)', 'Vocabulário de termos (NBR 14724), Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034:2004)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Estrutura Formal da ABNT NBR 14724:2011
+  teoriaDensaMarkdown: `### 1. A Estrutura Formal da ABNT NBR 14724:2024 (4ª Edição)
 
-A norma **ABNT NBR 14724:2011** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*, confirmada em 2021) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:
+A norma **ABNT NBR 14724:2024** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*, 4ª edição, publicada em 16/12/2024, que cancela e substitui a NBR 14724:2011) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:
 
 \`\`\`tree
-TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2011)
-- Trabalho Acadêmico (NBR 14724:2011) | Teses, dissertações, TCCs e monografias
+TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2024)
+- Trabalho Acadêmico (NBR 14724:2024) | Teses, dissertações, TCCs e monografias
   - Parte Externa | Proteção física e identificação inicial
     - Capa | Elemento OBRIGATÓRIO de proteção física externa
     - Lombada | Elemento OPCIONAL conforme ABNT NBR 12225:2023
@@ -87,7 +87,7 @@ TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2011)
 
 ### 2. Elementos Obrigatórios vs. Facultativos
 
-O Cebraspe constrói com frequência assertivas exigindo distinguir quais elementos são de inclusão compulsória:
+A formulação de assertivas comumente explora assertivas exigindo distinguir quais elementos são de inclusão compulsória:
 
 * **Pré-Textuais Obrigatórios:**
   * **Folha de Rosto:** No verso, deve conter a **Ficha Catalográfica (CIP)** elaborada por bibliotecário registrado no CRB.
@@ -111,7 +111,7 @@ O Cebraspe constrói com frequência assertivas exigindo distinguir quais elemen
 
 ### 3. A Distinção Canônica: Apêndice vs. Anexo
 
-Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas de Biblioteconomia:
+Esta é uma das distinções conceituais centrais cobradas em provas de Biblioteconomia:
 
 | Critério | Apêndice (NBR 14724) | Anexo (NBR 14724) |
 | :--- | :--- | :--- |
@@ -146,6 +146,23 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 
 ---
 
+
+### 4.1 O que Mudou de 2011 para 2024 na ABNT NBR 14724
+
+A 4ª edição da ABNT NBR 14724 (publicada em 16 de dezembro de 2024) atualizou formalmente a apresentação de trabalhos acadêmicos no Brasil:
+
+| Tópico Analisado | Edição Anterior (NBR 14724:2011) | Edição Vigente (ABNT NBR 14724:2024) |
+| :--- | :--- | :--- |
+| **Edição e Vigência** | 3ª edição (2011, confirmada em 2021) | **4ª edição**, publicada e em vigor desde **16/12/2024** (cancelou e substituiu a de 2011). |
+| **Folha de Aprovação** | Exigia assinaturas físicas em folha própria do exemplar impresso | Contempla expressamente os formatos de **defesa remota e ata eletrônica/assinatura digital** no âmbito dos sistemas institucionais (SEI e afins). |
+| **Harmonização Normativa** | Redigida à época da NBR 6023:2002 e NBR 10520:2002 | Totalmente harmonizada com a **NBR 10520:2023** (citações) e com a **NBR 6023:2025** (referências). |
+| **Estrutura Tripartite** | Elementos pré-textuais, textuais e pós-textuais | **Rigorosamente mantida** a divisão tripartite clássica. |
+| **Apêndice vs. Anexo** | Apêndice = próprio autor; Anexo = terceiros | **Rigorosamente mantida** a distinção canônica de autoria intelectual. |
+| **Regra de Paginação** | Conta da folha de rosto; imprime da introdução | **Rigorosamente mantida** no anverso (canto superior direito a 2 cm da borda). |
+| **Apresentação Tabular** | Quadros com laterais fechadas; tabelas IBGE abertas | **Rigorosamente mantida**. |
+
+---
+
 ### 5. Numeração Progressiva (NBR 6024) e Apresentação Tabular (IBGE vs. ABNT)
 
 #### A. Numeração Progressiva das Seções (ABNT NBR 6024)
@@ -172,7 +189,7 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 * **NBR 6028 (Resumos) (sub-8-4):** Estruturação de trabalhos acadêmicos e elementos pré-textuais.
 `,
   teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **ABNT NBR 14724:2011** padroniza a estrutura, formatação e apresentação formal de **Trabalhos Acadêmicos** (teses, dissertações, TCCs e estudos monográficos):
+A **ABNT NBR 14724:2024** padroniza a estrutura, formatação e apresentação formal de **Trabalhos Acadêmicos** (teses, dissertações, TCCs e estudos monográficos):
 1. **Estrutura Tripartite Canônica:**
    - **Elementos Pré-Textuais:** Precedem o texto; auxiliam na identificação e localização das partes.
      - *Obrigatórios:* Folha de rosto, Ficha catalográfica (no verso da folha de rosto), Folha de aprovação, Resumo na língua vernácula (com palavras-chave), Resumo em língua estrangeira (Abstract) e Sumário.
@@ -207,14 +224,14 @@ A **ABNT NBR 14724:2011** padroniza a estrutura, formatação e apresentação f
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Apêndice vs. Anexo:** A pegadinha mais frequente do Cebraspe em normalização: a banca inverte as autorias, afirmando que o anexo é produzido pelo autor e o apêndice por terceiros. **Gabarito: ERRADO.** Lembre-se: **Apêndice = Autor**; **Anexo = Alheio**.
+- **Apêndice vs. Anexo:** A técnica de distrator mais recorrente em normalização: a banca inverte as autorias, afirmando que o anexo é produzido pelo autor e o apêndice por terceiros. **Gabarito: ERRADO.** Lembre-se: **Apêndice = Autor**; **Anexo = Alheio**.
 - **Onde Inicia a Impressão da Numeração de Páginas:** Dizer que a numeração começa a ser impressa no canto superior direito já na Folha de Rosto. **Gabarito: ERRADO.** A folha de rosto é contada, mas o número só aparece impresso na **Introdução** (primeira folha textual).
 - **Capa como Elemento Obrigatório:** Afirmar que a capa dura é elemento pré-textual obrigatório pela NBR 14724. **Gabarito: ERRADO.** A capa é elemento opcional; a folha de rosto é que é obrigatória.
 
 ---
 
 ### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 14724:2011: Informação e documentação — Trabalhos acadêmicos — Apresentação*. Rio de Janeiro: ABNT, 2011. (A norma oficial de estrutura monográfica).
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 14724:2024: Informação e documentação — Trabalhos acadêmicos — Apresentação*. 4. ed. Rio de Janeiro: ABNT, 16 dez. 2024. (Norma vigente que cancela e substitui formalmente a edição de 2011). (A norma oficial de estrutura monográfica).
 - **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019.
 - **REY, Luís.** *Planejar e redigir trabalhos científicos*. 2. ed. São Paulo: Edgard Blücher, 2003.
 - **CENTRO DE FORMAÇÃO, TREINAMENTO E APERFEIÇOAMENTO (CEFOR).** *Manual de TCC e Dissertações do CEFOR*. Brasília: Câmara dos Deputados, 2022.
@@ -253,8 +270,8 @@ A **ABNT NBR 14724:2011** padroniza a estrutura, formatação e apresentação f
       },
       {
         id: 'tl-8-3-2',
-        periodo: '2011 (Vigente)',
-        disciplina: 'Revisão da NBR 14724',
+        periodo: '2024 (Vigente)',
+        disciplina: '4ª Edição da NBR 14724 (Substitui 2011)',
         focoPrincipal: 'Consolidação da estrutura pré-textual, textual e pós-textual, regras estritas de paginação e distinção cabal entre apêndice e anexo',
         figuraChave: 'ABNT CB-014',
       },
@@ -270,8 +287,8 @@ A **ABNT NBR 14724:2011** padroniza a estrutura, formatação e apresentação f
       {
         id: 'aut-8-3-1',
         nome: 'ABNT CB-014',
-        ano: 2011,
-        obraPrincipal: 'ABNT NBR 14724: Informação e documentação — Trabalhos acadêmicos — Apresentação',
+        ano: 2024,
+        obraPrincipal: 'ABNT NBR 14724:2024: Informação e documentação — Trabalhos acadêmicos — Apresentação (4ª ed.)',
         ideiaChave: 'Divisão tripartite pré-textual, textual e pós-textual; diferenciação de apêndice e anexo.',
         chipPegadinha: 'Memorize: Apêndice = Autor do trabalho; Anexo = Alheio (terceiros).',
       },

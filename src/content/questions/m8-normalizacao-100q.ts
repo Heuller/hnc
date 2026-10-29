@@ -16,7 +16,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "elaborada pelo redator do trabalho, sendo obrigatória",
+    "versao_errada": "A citação indireta consiste na reprodução livre de ideias ou conceitos de um autor mediante paráfrase elaborada pelo redator do trabalho, sendo opcional a indicação da autoria e do ano, ao passo que a indicação da página é facultativa."
   },
   {
     "id": "m8-q-2",
@@ -98,7 +100,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "ordem alfabética",
+    "versao_errada": "Quando a chamada de citação contiver vários documentos de autores diferentes entre parênteses para embasar uma mesma afirmação, os autores devem ser separados por ponto e vírgula, preferencialmente em indevidamente ordem alfabética de seus sobrenomes, a exemplo de '(Almeida, 2020; Castro, 2022; Silva, 2024)'."
   },
   {
     "id": "m8-q-6",
@@ -108,8 +112,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, relativos aos objetivos e às aplicações das normas",
     "item": "A NBR 6023:2002, para elaboração de referências, fixa a ordem dos elementos nas referências e estabelece as convenções para transcrição e apresentação da informação originada no d o- cumento.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"elementos nas referências e estabelece as convenções\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -172,7 +176,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "item": "A citação de citação, expressa pela locução latina 'apud' (citado por), deve ser utilizada como regra geral preferencial em trabalhos acadêmicos e pareceres, dispensando o pesquisador de buscar o documento original.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O 'apud' é recurso excepcional, que só deve ser empregado quando o documento original for comprovadamente inacessível (obra esgotada, manuscrito raro ou idioma inacessível). Seu uso indiscriminado denota desleixo metodológico.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar apud como regra geral preferencial.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -189,8 +193,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas normas técnicas para a área de documentação, ju lgue os itens su b-",
     "item": "Para a indicação da forma correta de entra da de nomes, pessoais e(ou) de entidades, a NBR - 6023:2002 recomenda a utilização do Código de Catalogação Anglo-Americano vigente.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CAPES/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"pessoais e(ou) de entidades, a NBR -\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -201,7 +205,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711394"
-    }
+    },
+    "gatilho": "pessoais e(ou) de entidades, a NBR -",
+    "versao_errada": "Para a indicação da forma correta de entra da de nomes, indevidamente pessoais e(ou) de entidades, a nbr - 6023:2002 recomenda a utilização do Código de Catalogação Anglo-Americano vigente."
   },
   {
     "id": "m8-q-11",
@@ -211,8 +217,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "O sistema de chamada numérico para citações pode ser utilizado concomitantemente e misturado no mesmo capítulo com o sistema autor-data, cabendo ao autor alternar entre números e sobrenomes ao longo da mesma página.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A NBR 10520 proíbe a alternância de sistemas: o autor deve escolher OU o sistema autor-data OU o sistema numérico, mantendo coerência e uniformidade ao longo de todo o documento.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Permitir mistura aleatória de sistema autor-data e numérico.",
+    "justificativa": "Gabarito ERRADO. A NBR 10520 proíbe a alternância de sistemas: o autor deve escolher OU o sistema autor-data OU o sistema numérico, mantendo coerência e uniformidade ao longo de todo o documento. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -229,8 +235,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "No sistema autor-data, quando houver coincidência de autores com o mesmo sobrenome e mesmo ano de publicação, a norma veda qualquer diferenciação, devendo o leitor adivinhar qual é o autor correto.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Para autores com mesmo sobrenome e mesmo ano, acrescentam-se as iniciais de seus prenomes (ex: Barbosa, C., 2024 e Barbosa, M., 2024). Se as iniciais coincidirem, colocam-se os prenomes por extenso.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Negar desambiguação de autores com mesmo sobrenome.",
+    "justificativa": "Gabarito ERRADO. Para autores com mesmo sobrenome e mesmo ano, acrescentam-se as iniciais de seus prenomes (ex: Barbosa, C., 2024 e Barbosa, M., 2024). Se as iniciais coincidirem, colocam-se os prenomes por extenso. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -254,7 +260,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "(ou por capítulo), e a ordem na",
+    "versao_errada": "Quando se adota o sistema numérico de chamada, a numeração das citações deve ser consecutiva para todo o trabalho indevidamente (ou por capítulo), e a ordem na lista de referências ao final deve seguir a mesma ordem numérica em que as citações aparecem no texto."
   },
   {
     "id": "m8-q-14",
@@ -288,7 +296,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "item": "A expressão latina '[sic]', empregada imediatamente após uma palavra com grafia incorreta ou incoerência factual no texto original citado, significa que o redator do trabalho concorda plenamente e adota o erro como correto.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. '[sic]' significa 'assim mesmo' ou 'exatamente assim': indica ao leitor que o erro gramatical, ortográfico ou fático já constava no documento original citado e que foi reproduzido fielmente, sem intervenção do redator atual.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Distorcer o significado e função do [sic].",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -317,7 +325,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "orgao": "PC DF",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-3240831"
-    }
+    },
+    "gatilho": "tipo analítica, cada referência bibliográfica é acompanhada",
+    "versao_errada": "Na bibliografia do indevidamente tipo analítica, cada referência bibliográfica é acompanhada de um resumo."
   },
   {
     "id": "m8-q-17",
@@ -334,7 +344,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "se devem acrescentar letras minúsculas após o",
+    "versao_errada": "Para citar documentos de um mesmo autor publicados no mesmo ano, a NBR 10520 estabelece que indevidamente se devem acrescentar letras minúsculas após o ano, sem espaçamento, tanto na chamada quanto na lista de referências (ex: Brasil, 2024a, 2024b)."
   },
   {
     "id": "m8-q-18",
@@ -344,8 +356,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "Conforme a NBR 10520:2023, a indicação de autoria corporativa de órgãos públicos inserida entre parênteses é redigida em caixa alta integral, a exemplo de \"(MINISTÉRIO DA FAZENDA, 2024)\".",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A regra da NBR 10520:2023 aboliu a caixa alta em parênteses tanto para autores pessoais quanto para entidades coletivas governamentais: \"(Ministério da Fazenda, 2024)\".",
-    "armadilhaBanca": "ANACRONISMO_NORMATIVO: Exigir caixa alta para autoridade corporativa/país.",
+    "justificativa": "Gabarito ERRADO. A regra da NBR 10520:2023 aboliu a caixa alta em parênteses tanto para autores pessoais quanto para entidades coletivas governamentais: \"(Ministério da Fazenda, 2024)\". A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -380,8 +392,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "A citação direta longa (com mais de três linhas) deve ser destacada com recuo de 4 cm da margem esquerda, com tamanho de fonte menor e espaçamento entrelinhas simples, devendo permanecer contida entre aspas duplas no início e no final do bloco.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A citação direta longa destacada com recuo de 4 cm NÃO leva aspas duplas. O recuo e a fonte menor já exercem a função tipográfica de identificação do excerto literal.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Colocar aspas em citação direta longa destacada com recuo de 4 cm.",
+    "justificativa": "Gabarito ERRADO. A citação direta longa destacada com recuo de 4 cm NÃO leva aspas duplas. O recuo e a fonte menor já exercem a função tipográfica de identificação do excerto literal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -405,7 +417,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "uma citação direta devem ser indicados entre",
+    "versao_errada": "Interpolações, acréscimos ou comentários do redator introduzidos no interior de indevidamente uma citação direta devem ser indicados entre colchetes, a exemplo de '[grifo nosso]' ou '[nota do autor]'."
   },
   {
     "id": "m8-q-22",
@@ -415,14 +429,16 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "Na aplicação da locução 'apud', a chamada no texto deve indicar primeiro o autor da obra original não consultada, seguido da expressão 'apud', do autor da obra efetivamente consultada, da data e da página, a exemplo de 'Segundo Darcy Ribeiro (1975 apud Silva, 2024, p. 50)'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Estrutura correta: Autor original + (ano original apud Autor consultado, ano consultado, página). Nas referências ao final, inclui-se obrigatoriamente a obra consultada (Silva, 2024).",
-    "armadilhaBanca": "Sintaxe correta do apud.",
+    "justificativa": "Gabarito CERTO. Estrutura correta: Autor original + (ano original apud Autor consultado, ano consultado, página). Nas referências ao final, inclui-se obrigatoriamente a obra consultada (Silva, 2024). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "da expressão 'apud', do autor da obra",
+    "versao_errada": "Na aplicação da locução 'apud', a chamada no texto deve indicar primeiro o autor da obra original não consultada, seguido indevidamente da expressão 'apud', do autor da obra efetivamente consultada, da data e da página, a exemplo de 'Segundo Darcy Ribeiro (1975 apud Silva, 2024, p. 50)'."
   },
   {
     "id": "m8-q-23",
@@ -452,8 +468,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com referência às normas técnicas estabelecidas para a área de documen -",
     "item": "De acordo com a norma que trata de referência bibliográfica, deve -se identificar o autor da obra pelo último sobrenome, em maiúsculas, seguido do(s) prenome(s) e outros sobrenomes, abreviados ou não. Havendo mais de um autor, o s respectivos nomes devem ser separados por ponto e vírgula seguido de espaço.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEDUC-AM/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"De acordo com\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -517,7 +533,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "jurisdição em letras maiúsculas (ex: BRASIL; SÃO",
+    "versao_errada": "Para documentos jurídicos legislativos (leis e decretos), a entrada da referência deve ser feita pelo nome da indevidamente jurisdição em letras maiúsculas (ex: brasil; são PAULO (Estado); BELO HORIZONTE), seguido da denominação do ato, número, data e dados da publicação oficial."
   },
   {
     "id": "m8-q-28",
@@ -581,8 +599,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "Na referência de acórdãos dos tribunais judiciais, a entrada é feita pelo sobrenome do advogado que assinou a petição inicial da ação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A entrada de jurisprudência é feita pela jurisdição e nome da corte judiciária em letras maiúsculas (ex: BRASIL. Supremo Tribunal Federal; BRASIL. Superior Tribunal de Justiça), e não pelo advogado da causa.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Entrada de jurisprudência pelo nome do advogado.",
+    "justificativa": "Gabarito ERRADO. A entrada de jurisprudência é feita pela jurisdição e nome da corte judiciária em letras maiúsculas (ex: BRASIL. Supremo Tribunal Federal; BRASIL. Superior Tribunal de Justiça), e não pelo advogado da causa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -618,8 +636,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "Na referência de publicação impressa contendo três autores conforme a NBR 6023:2018, convenciona-se registrar o primeiro autor nominado seguido da expressão latina \"et al.\".",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Havendo até três autores, indicam-se os três autores nominados, separados por ponto e vírgula na referência; a supressão facultativa com \"et al.\" aplica-se a quatro ou mais autores.",
-    "armadilhaBanca": "Omitir autores em obras com até 3 autores.",
+    "justificativa": "Gabarito ERRADO. Havendo até três autores, indicam-se os três autores nominados, separados por ponto e vírgula na referência; a supressão facultativa com \"et al.\" aplica-se a quatro ou mais autores. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -643,7 +661,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "autor seguido da expressão latina 'et al.'",
+    "versao_errada": "Na indicação de autoria de obras com quatro oumais autores, a NBR 6023:2018 prescreve que se deve indicar o primeiro indevidamente autor seguido da expressão latina 'et al.', sendo, contudo, expressamente facultado indicar todos os autores caso o responsável pelo trabalho opte por dar visibilidade integral à equipe."
   },
   {
     "id": "m8-q-35",
@@ -672,8 +692,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "Para referenciar mensagens privadas de correio eletrônico (e-mail) ou conversas de WhatsApp, é desnecessário indicar o remetente, a data e o assunto da mensagem.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Mensagens eletrônicas exigem a indicação do remetente, título/assunto da mensagem entre aspas ou redondo, destinatário, data com hora e nota explicativa de mensagem pessoal.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar dados identificadores em mensagens eletrônicas.",
+    "justificativa": "Gabarito ERRADO. Mensagens eletrônicas exigem a indicação do remetente, título/assunto da mensagem entre aspas ou redondo, destinatário, data com hora e nota explicativa de mensagem pessoal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -690,14 +710,16 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "Conforme a ABNT NBR 6023:2018, na referência de monografias no todo (livros), o destaque tipográfico (negrito, itálico ou sublinhado) deve ser aplicado exclusivamente ao título da obra, nunca se estendendo ao subtítulo, mesmo que este venha precedido por dois pontos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra pétrea e recorrente da NBR 6023: o subtítulo nunca recebe destaque tipográfico, devendo figurar em texto redondo/normal após o título destacado (ex: *Metodologia científica*: guia prático).",
-    "armadilhaBanca": "Destaque tipográfico exclusivo do título na NBR 6023.",
+    "justificativa": "Gabarito CERTO. Regra pétrea e recorrente da NBR 6023: o subtítulo nunca recebe destaque tipográfico, devendo figurar em texto redondo/normal após o título destacado (ex: *Metodologia científica*: guia prático). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "ou sublinhado) deve ser aplicado exclusivamente ao",
+    "versao_errada": "Conforme a ABNT NBR 6023:2018, na referência de monografias no todo (livros), o destaque tipográfico (negrito, itálico indevidamente ou sublinhado) deve ser aplicado exclusivamente ao título da obra, nunca se estendendo ao subtítulo, mesmo que este venha precedido por dois pontos."
   },
   {
     "id": "m8-q-38",
@@ -707,8 +729,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "Na padronização de meses em referências de periódicos segundo a ABNT NBR 6023, o mês de maio é abreviado grafando-se \"m.\" com ponto abreviativo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a ABNT, os meses abreviam-se com três letras e ponto (jan., fev., mar.), exceto maio, que se escreve por extenso (\"maio\") por possuir apenas quatro letras.",
-    "armadilhaBanca": "Exceção clássica da ABNT para o mês de maio.",
+    "justificativa": "Gabarito ERRADO. Conforme a ABNT, os meses abreviam-se com três letras e ponto (jan., fev., mar.), exceto maio, que se escreve por extenso (\"maio\") por possuir apenas quatro letras. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -732,7 +754,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "instituição depositante, seguido do título da invenção",
+    "versao_errada": "Na referência de patentes, a entrada é feita pelo nome do inventor ou da indevidamente instituição depositante, seguido do título da invenção, código do país emissor, número da patente e datas de depósito e concessão."
   },
   {
     "id": "m8-q-40",
@@ -742,14 +766,16 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "A lista de referências ao final de um trabalho acadêmico ou técnico deve ser alinhada à margem esquerda do texto, digitada em espaçamento simples e separada entre si por um espaço em branco simples (uma linha em branco).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra formal de diagramação da lista de referências: alinhamento à esquerda (não justificado), espaçamento entrelinhas simples e separação de uma linha entre cada referência.",
-    "armadilhaBanca": "Formatação e espaçamento da lista de referências.",
+    "justificativa": "Gabarito CERTO. Regra formal de diagramação da lista de referências: alinhamento à esquerda (não justificado), espaçamento entrelinhas simples e separação de uma linha entre cada referência. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "margem esquerda do texto, digitada em espaçamento",
+    "versao_errada": "A lista de referências ao final de um trabalho acadêmico ou técnico deve ser alinhada à indevidamente margem esquerda do texto, digitada em espaçamento simples e separada entre si por um espaço em branco simples (uma linha em branco)."
   },
   {
     "id": "m8-q-41",
@@ -759,8 +785,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "Em obras anônimas ou cuja autoria não seja indicada na publicação, a entrada na referência deve ser feita pela palavra 'ANÔNIMO' grafada em letras garrafais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A NBR 6023 veda o uso da palavra 'Anônimo'. A entrada de obra sem autoria deve ser feita pelo PRÓPRIO TÍTULO da obra, com a primeira palavra em letras maiúsculas (ex: DIAGNÓSTICO da educação brasileira...).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Usar 'Anônimo' na entrada de referências sem autoria.",
+    "justificativa": "Gabarito ERRADO. A NBR 6023 veda o uso da palavra 'Anônimo'. A entrada de obra sem autoria deve ser feita pelo PRÓPRIO TÍTULO da obra, com a primeira palavra em letras maiúsculas (ex: DIAGNÓSTICO da educação brasileira...). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -784,7 +810,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "grafada com número arábico seguido de ponto",
+    "versao_errada": "A indicação de edição de uma obra é elemento essencial da referência a partir da segunda edição, sendo indevidamente grafada com número arábico seguido de ponto e da abreviatura da palavra edição no idioma da obra (ex: '2. ed.', '3. ed. rev. e ampl.')."
   },
   {
     "id": "m8-q-43",
@@ -794,14 +822,16 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "Na referência de artigos publicados em periódicos científicos, o elemento que deve receber o destaque tipográfico (negrito ou itálico) é o TÍTULO DO PERIÓDICO (revista), e não o título do artigo individual.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra canônica: o título do periódico recebe o destaque (ex: SILVA, J. A inteligência artificial no Direito. *Revista de Informação Legislativa*, Brasília, v. 61, n. 241, p. 10-25, 2024).",
-    "armadilhaBanca": "Destaque do título da revista em artigos de periódicos.",
+    "justificativa": "Gabarito CERTO. Regra canônica: o título do periódico recebe o destaque (ex: SILVA, J. A inteligência artificial no Direito. *Revista de Informação Legislativa*, Brasília, v. 61, n. 241, p. 10-25, 2024). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "o destaque tipográfico (negrito ou itálico) é",
+    "versao_errada": "Na referência de artigos publicados em periódicos científicos, o elemento que deve receber indevidamente o destaque tipográfico (negrito ou itálico) é o TÍTULO DO PERIÓDICO (revista), e não o título do artigo individual."
   },
   {
     "id": "m8-q-44",
@@ -811,8 +841,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras para elaboração de referências documentárias estabelecidas na ABNT NBR 6023:2018 (com emendas vigentes), julgue o item a seguir.",
     "item": "A ordenação de títulos de um mesmo autor na lista de referências alfabética deve desconsiderar completamente a ordem cronológica, priorizando livros que tenham figuras coloridas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Obras de mesmo autor na lista de referências são ordenadas em ordem cronológica de publicação (do mais antigo para o mais recente) ou em ordem alfabética de títulos quando do mesmo ano.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Descartar ordenação cronológica/alfabética formal.",
+    "justificativa": "Gabarito ERRADO. Obras de mesmo autor na lista de referências são ordenadas em ordem cronológica de publicação (do mais antigo para o mais recente) ou em ordem alfabética de títulos quando do mesmo ano. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -836,7 +866,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "na referência de artigos e e-books como",
+    "versao_errada": "O Digital Object Identifier (DOI) pode ser inserido indevidamente na referência de artigos e e-books como elemento complementar de localização persistente na web."
   },
   {
     "id": "m8-q-46",
@@ -853,7 +885,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "feita pelo seu sobrenome em maiúsculas acompanhado",
+    "versao_errada": "Quando a autoria de uma obra for atribuída a um organizador, compilador ou coordenador, a entrada é indevidamente feita pelo seu sobrenome em maiúsculas acompanhado da respectiva abreviatura da função entre parênteses, a exemplo de 'SILVA, Paulo (org.).' ou 'SANTOS, Ana (coord.).'."
   },
   {
     "id": "m8-q-47",
@@ -870,7 +904,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "'Disponível em: <URL>' (ou sem colchetes angulares",
+    "versao_errada": "Para documentos consultados exclusivamente em meio eletrônico (online), são elementos essenciais obrigatórios a indicação do endereço eletrônico completo precedido de indevidamente 'disponível em: <url>' (ou sem colchetes angulares conforme estilo adotado) e da data de acesso precedida de 'Acesso em: dia mês por extenso abreviado e ano'."
   },
   {
     "id": "m8-q-48",
@@ -887,7 +923,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "do artigo, título do jornal (destacado), local",
+    "versao_errada": "Na referência de artigos de jornal diário assinado, os elementos essenciais são: autor, título indevidamente do artigo, título do jornal (destacado), local de publicação, data completa (dia, mês e ano), caderno ou seção e paginação."
   },
   {
     "id": "m8-q-49",
@@ -898,7 +936,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "item": "A NBR 6023 proíbe categoricamente a utilização de prenomes por extenso dos autores na lista de referências, obrigando a abreviatura de todos os prenomes em uma única letra.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A NBR 6023 faculta o uso de prenomes abreviados ou por extenso, exigindo apenas que se mantenha a padronização consistente em toda a lista (se optar por abreviar, abrevia todos; se optar por extenso, grafa todos por extenso).",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir prenomes por extenso em referências.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -922,7 +960,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "tipo de documento, o grau acadêmico pretendido",
+    "versao_errada": "Em trabalhos acadêmicos como teses e dissertações, a referência deve indicar o indevidamente tipo de documento, o grau acadêmico pretendido, o vínculo institucional com universidade/faculdade, o local e o ano da defesa."
   },
   {
     "id": "m8-q-51",
@@ -932,8 +972,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas normas técnicas para a área de documentação, ju lgue os itens su b-",
     "item": "De acordo com a norma NBR -6028:2003, não há limitação de quantidade de palavras para resumos críticos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CAPES/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"De acordo com\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -995,7 +1035,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "item": "No sumário, a tipografia utilizada para cada seção (caixa alta, negrito, itálico) deve ser totalmente diferente e contraditória com a tipografia adotada nos títulos das seções no corpo do texto.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A NBR 6027 exige estrita conformidade tipográfica: a grafia dos títulos e subtítulos no sumário deve reproduzir EXATAMENTE a mesma tipografia e destaque empregados no corpo do texto (ex: se a seção primária está em negrito caixa alta no texto, deve figurar em negrito caixa alta no sumário).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Exigir contradição tipográfica no sumário.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1038,7 +1078,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "de um documento na mesma ordem e",
+    "versao_errada": "Conforme a ABNT NBR 6027:2012, o 'sumário' é a enumeração das divisões, seções e outras partes indevidamente de um documento na mesma ordem e grafia em que a matéria se sucede no corpo da obra, sendo classificado como elemento pré-textual."
   },
   {
     "id": "m8-q-57",
@@ -1072,7 +1114,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "item": "As palavras-chave (palavras representativas do conteúdo do documento) devem figurar no topo da folha, antes do título do trabalho, impressas em letras góticas coloridas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. As palavras-chave devem figurar LOGO ABAIXO do resumo, precedidas da expressão 'Palavras-chave:' (ou 'Palavras-chave:'), separadas entre si por ponto e finalizadas também por ponto, grafadas em minúsculas (salvo nomes próprios).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Posicionamento e grafia de palavras-chave.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1114,7 +1156,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "Referências, Apêndices e Anexos) devem ser centralizados",
+    "versao_errada": "Títulos de seções que não possuem indicativo numérico (como Agradecimentos, Resumo, Sumário, Referências, anexos e Anexos) devem ser centralizados na página e manter o mesmo destaque tipográfico das seções primárias."
   },
   {
     "id": "m8-q-61",
@@ -1147,14 +1191,16 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere às normas ABNT NBR 6028:2021 (Resumos), ABNT NBR 6027:2012 (Sumários) e ABNT NBR 6024:2012 (Numeração progressiva), julgue o item a seguir.",
     "item": "No sumário elaborado conforme a NBR 6027:2012, os elementos pré-textuais (como errata, folha de aprovação, dedicatória, agradecimentos, resumos e listas de ilustrações) NÃO devem constar do sumário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra formal: o sumário enumera as seções a partir da Introdução (parte textual) e inclui os elementos pós-textuais (referências, apêndices, anexos), mas não lista os elementos pré-textuais que o antecedem.",
-    "armadilhaBanca": "Exclusão de elementos pré-textuais do sumário.",
+    "justificativa": "Gabarito CERTO. Regra formal: o sumário enumera as seções a partir da Introdução (parte textual) e inclui os elementos pós-textuais (referências, apêndices, anexos), mas não lista os elementos pré-textuais que o antecedem. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "(como errata, folha de aprovação, dedicatória, agradecimentos",
+    "versao_errada": "No sumário elaborado conforme a NBR 6027:2012, os elementos pré-textuais indevidamente (como errata, folha de aprovação, dedicatória, agradecimentos, resumos e listas de ilustrações) NÃO devem constar do sumário."
   },
   {
     "id": "m8-q-63",
@@ -1190,7 +1236,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "dissertações) e relatórios técnico-científicos; de 100 a",
+    "versao_errada": "Quanto à extensão do resumo, a NBR 6028:2021 recomenda de 150 a 500 palavras para trabalhos acadêmicos (teses, indevidamente dissertações) e relatórios técnico-científicos; de 100 a 250 palavras para artigos de periódicos; e de 50 a 100 palavras para notas e comunicações breves."
   },
   {
     "id": "m8-q-65",
@@ -1207,7 +1255,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "utilizam-se algarismos arábicos para indicar a hierarquia",
+    "versao_errada": "Conforme a ABNT NBR 6024:2012 (Numeração progressiva das seções de um documento), indevidamente utilizam-se algarismos arábicos para indicar a hierarquia das seções, limitando-se a subdivisão preferencialmente até a seção quinária (cinco dígitos)."
   },
   {
     "id": "m8-q-66",
@@ -1217,14 +1267,16 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere às normas ABNT NBR 6028:2021 (Resumos), ABNT NBR 6027:2012 (Sumários) e ABNT NBR 6024:2012 (Numeração progressiva), julgue o item a seguir.",
     "item": "Segundo a ABNT NBR 6028:2021, o 'resumo informativo' é aquele que informa a finalidade, a metodologia, os resultados e as conclusões do documento, de tal forma que pode dispensar a consulta ao texto original completo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Definição canônica do resumo informativo: auto-suficiente, traz dados quantitativos e qualitativos suficientes para o leitor apreender as conclusões da pesquisa sem ler a obra integral.",
-    "armadilhaBanca": "Conceito de resumo informativo na NBR 6028.",
+    "justificativa": "Gabarito CERTO. Definição canônica do resumo informativo: auto-suficiente, traz dados quantitativos e qualitativos suficientes para o leitor apreender as conclusões da pesquisa sem ler a obra integral. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "a metodologia, os resultados e as conclusões",
+    "versao_errada": "Segundo a ABNT NBR 6028:2021, o 'resumo informativo' é aquele que informa a finalidade, indevidamente a metodologia, os resultados e as conclusões do documento, de tal forma que pode dispensar a consulta ao texto original completo."
   },
   {
     "id": "m8-q-67",
@@ -1257,8 +1309,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere às normas ABNT NBR 6028:2021 (Resumos), ABNT NBR 6027:2012 (Sumários) e ABNT NBR 6024:2012 (Numeração progressiva), julgue o item a seguir.",
     "item": "O 'resumo indicativo' é aquele que apresenta detalhadamente todos os dados quantitativos, tabelas numéricas e as conclusões completas da pesquisa, dispensando integralmente a leitura do texto original.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O resumo indicativo apenas 'indica os pontos principais do documento, NÃO apresentando dados qualitativos, quantitativos etc., de modo que NÃO DISPENSA a consulta ao original'. Quem dispensa é o resumo informativo.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir resumo indicativo com informativo na NBR 6028.",
+    "justificativa": "Gabarito ERRADO. O resumo indicativo apenas 'indica os pontos principais do documento, NÃO apresentando dados qualitativos, quantitativos etc., de modo que NÃO DISPENSA a consulta ao original'. Quem dispensa é o resumo informativo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1282,7 +1334,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "elaborada por especialista que analisa e emite",
+    "versao_errada": "O 'resumo crítico' (também denominado recensão ou resenha) é a redação condensada indevidamente elaborada por especialista que analisa e emite julgamento de valor ou crítica sobre o conteúdo de um documento."
   },
   {
     "id": "m8-q-70",
@@ -1292,8 +1346,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas normas da ABNT referentes à documentação, julgue os itens segui n-",
     "item": "A extensão dos resumos de artigos de periódicos deve ser de 100 a 250 palavras.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CPRM/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CPRM/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de artigos de periódicos deve ser de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1314,8 +1368,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere às normas ABNT NBR 6028:2021 (Resumos), ABNT NBR 6027:2012 (Sumários) e ABNT NBR 6024:2012 (Numeração progressiva), julgue o item a seguir.",
     "item": "No projeto gráfico editorial segundo a ABNT, sumário e índice constituem elementos funcionais equivalentes, situando-se o sumário ao término da publicação estruturado em ordem alfabética de assuntos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O sumário é elemento pré-textual que reflete a ordem cronológica e linear dos capítulos; o índice (NBR 6034) é pós-textual e organiza termos remissivos em ordem alfabética ou sistemática.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir sumário (pré-textual linear) com índice (pós-textual alfabético).",
+    "justificativa": "Gabarito ERRADO. O sumário é elemento pré-textual que reflete a ordem cronológica e linear dos capítulos; o índice (NBR 6034) é pós-textual e organiza termos remissivos em ordem alfabética ou sistemática. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1332,8 +1386,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere às normas ABNT NBR 6028:2021 (Resumos), ABNT NBR 6027:2012 (Sumários) e ABNT NBR 6024:2012 (Numeração progressiva), julgue o item a seguir.",
     "item": "A ABNT NBR 6028:2021 estabelece que o resumo de monografias e dissertações acadêmicas seja organizado em itens tópicos com marcadores (bullet points), segmentando cada conclusão metodológica.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a NBR 6028, o resumo acadêmico deve ser redigido em parágrafo único contínuo, em texto corrido e conciso, na terceira pessoa do singular e com verbo na voz ativa.",
-    "armadilhaBanca": "Exigir tópicos de bullet points em resumo de 5 páginas.",
+    "justificativa": "Gabarito ERRADO. Conforme a NBR 6028, o resumo acadêmico deve ser redigido em parágrafo único contínuo, em texto corrido e conciso, na terceira pessoa do singular e com verbo na voz ativa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1395,8 +1449,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de normas de documentação, julgue os itens que se seguem.",
     "item": "Os resumos para indicações breves devem ter de cinquenta a cem palavras.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"indicações breves devem ter de cinquenta a\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1407,7 +1461,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165433"
-    }
+    },
+    "gatilho": "indicações breves devem ter de cinquenta a",
+    "versao_errada": "Os resumos para indevidamente indicações breves devem ter de cinquenta a cem palavras."
   },
   {
     "id": "m8-q-76",
@@ -1417,8 +1473,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das normas brasileiras (NBR) estabelecidas pela Associação Brasileira de",
     "item": "Na ABNT NBR 14724, o uso do AACR (Anglo -American Cataloguing Rules) é informado na pr o- dução da ficha catalográfica do documento.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ABIN/2017, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ABIN/2017.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"(Anglo -American Cataloguing Rules) é informado na\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1439,8 +1495,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Tendo como referência as normas técnicas da área de documentação, jul gue os",
     "item": "De acordo com a NBR 6032, abreviam -se preferencialmente de maneira idêntica os vocábulos de línguas diferentes que possuam a mesma raiz e o mesmo sentido, sempre que a ortografia o permitir, a exemplo do que ocorre com as palavras Informação (em português) e Information (em inglês), cuja abreviação é Inf.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso EBESERH/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso EBESERH/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"De acordo com\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1451,18 +1507,20 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646345"
-    }
+    },
+    "gatilho": "De acordo com",
+    "versao_errada": "indevidamente de acordo com a NBR 6032, abreviam -se preferencialmente de maneira idêntica os vocábulos de línguas diferentes que possuam a mesma raiz e o mesmo sentido, sempre que a ortografia o permitir, a exemplo do que ocorre com as palavras Informação (em português) e Information (em inglês), cuja abreviação é Inf."
   },
   {
     "id": "m8-q-78",
     "numero": 78,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "A elaboração da ficha catalográfica de um livro publicado no Brasil pode ser feita livremente por qualquer pessoa sem registro profissional no Conselho Regional de Biblioteconomia, dispensando o número de CRB.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a Lei Federal nº 4.084/1962 e a Lei nº 9.674/1998, a elaboração de fichas catalográficas é atividade técnica privativa de Bacharéis em Biblioteconomia devidamente registrados no CRB de sua jurisdição.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar registro no CRB para confecção de ficha catalográfica.",
+    "justificativa": "Gabarito ERRADO. Conforme a Lei Federal nº 4.084/1962 e a Lei nº 9.674/1998, a elaboração de fichas catalográficas é atividade técnica privativa de Bacharéis em Biblioteconomia devidamente registrados no CRB de sua jurisdição. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1567,7 +1625,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 83,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "O formato de margens recomendado pela NBR 14724 para trabalhos acadêmicos impressos em anverso (apenas frente) é: margem superior e esquerda de 3 cm; margem inferior e direita de 2 cm.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Conforme a ABNT NBR 14724:2011 (Trabalhos acadêmicos - Apresentação), quando o trabalho for impresso em anverso (apenas frente da folha), as margens padronizadas são: margem superior de 3 cm, margem esquerda de 3 cm (para viabilizar a encadernação sem encobrir texto), margem inferior de 2 cm e margem direita de 2 cm. Quando impresso em anverso e verso, as margens alternam-se.",
@@ -1577,14 +1635,16 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "em anverso (apenas frente) é: margem superior",
+    "versao_errada": "O formato de margens recomendado pela NBR 14724 para trabalhos acadêmicos impressos indevidamente em anverso (apenas frente) é: margem superior e esquerda de 3 cm; margem inferior e direita de 2 cm."
   },
   {
     "id": "m8-q-84",
     "numero": 84,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "No Brasil, o ISSN é atribuído e gerenciado pelo Centro Brasileiro do ISSN, sediado no Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict), sob coordenação da Rede Internacional do ISSN em Paris.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. No Brasil, a gestão do ISSN (International Standard Serial Number) é privativa do Centro Brasileiro do ISSN (CBISSN), órgão integrante do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict), vinculado ao MCTI. O CBISSN atua como nó nacional credenciado perante o Centro Internacional do ISSN com sede em Paris para atribuir números e cadastrar publicações periódicas brasileiras.",
@@ -1594,32 +1654,36 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "sediado no Instituto Brasileiro de Informação em",
+    "versao_errada": "No Brasil, o ISSN é atribuído e gerenciado pelo Centro Brasileiro do ISSN, indevidamente sediado no instituto brasileiro de informação em Ciência e Tecnologia (Ibict), sob coordenação da Rede Internacional do ISSN em Paris."
   },
   {
     "id": "m8-q-85",
     "numero": 85,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "A ficha catalográfica (ou Catalogação na Publicação — CIP) deve ser impressa no verso da folha de rosto de livros e trabalhos acadêmicos, contendo a descrição bibliográfica elaborada por profissional bibliotecário registrado conforme o Código de Catalogação Anglo-Americano (AACR2) ou RDA.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Prescrição legal e normativa: a ficha catalográfica localiza-se no verso da folha de rosto no terço inferior da página, com elaboração privativa de bibliotecário habilitado.",
-    "armadilhaBanca": "Localização e elaboração da ficha catalográfica CIP.",
+    "justificativa": "Gabarito CERTO. Prescrição legal e normativa: a ficha catalográfica localiza-se no verso da folha de rosto no terço inferior da página, com elaboração privativa de bibliotecário habilitado. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "rosto de livros e trabalhos acadêmicos, contendo",
+    "versao_errada": "A ficha catalográfica (ou Catalogação na Publicação — CIP) deve ser impressa no verso da folha de indevidamente rosto de livros e trabalhos acadêmicos, contendo a descrição bibliográfica elaborada por profissional bibliotecário registrado conforme o Código de Catalogação Anglo-Americano (AACR2) ou RDA."
   },
   {
     "id": "m8-q-86",
     "numero": 86,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
-    "item": "Segundo a ABNT NBR 14724:2011, a estrutura de um trabalho acadêmico (tese, dissertação ou TCC) divide-se em três partes fundamentais: elementos pré-textuais, elementos textuais e elementos pós-textuais.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "item": "Segundo a ABNT NBR 14724:2024, a estrutura de um trabalho acadêmico (tese, dissertação ou TCC) divide-se em três partes fundamentais: elementos pré-textuais, elementos textuais e elementos pós-textuais.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. De acordo com o item 4 da ABNT NBR 14724:2011, a arquitetura formal dos trabalhos acadêmicos estrutura-se na clássica tríade: 1) Elementos pré-textuais (antecedem o corpo do trabalho e auxiliam em sua identificação e localização, culminando no sumário); 2) Elementos textuais (compreendem a Introdução, o Desenvolvimento e a Conclusão da pesquisa); e 3) Elementos pós-textuais (sucedem o texto, iniciando-se pelas referências obrigatórias).",
     "armadilhaBanca": "Estrutura tripartite da NBR 14724.",
@@ -1628,7 +1692,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "acadêmico (tese, dissertação ou TCC) divide-se em",
+    "versao_errada": "Segundo a ABNT NBR 14724:2024, a estrutura de um trabalho indevidamente acadêmico (tese, dissertação ou tcc) divide-se em três partes fundamentais: elementos pré-textuais, elementos textuais e elementos pós-textuais."
   },
   {
     "id": "m8-q-87",
@@ -1638,8 +1704,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, relativos aos objetivos e às aplicações das normas",
     "item": "A NBR 6032:1989, para abreviação de títulos de periódicos e publicações seriadas, visa simplificar as referências desses documentos. Recomenda, no entanto, que, no caso de bibliografias, essas devem ser precedidas de lista com os respectivos títulos completos dos periódicos e p u- blicações seriadas, local de publicação e, opcionalmente, editores e endereços.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"caso de bibliografias, essas devem ser precedidas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1703,7 +1769,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 90,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "A folha de rosto de um trabalho acadêmico não deve ser contada na paginação, devendo a numeração iniciar do número 1 impresso diretamente sobre a capa dura externa.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme a regra de paginação da ABNT NBR 14724:2011, a capa externa NÃO é contada na paginação do trabalho. A contagem sequencial de folhas inicia-se obrigatoriamente a partir da folha de rosto (folha 1), prosseguindo sequencialmente por todos os elementos pré-textuais, mas o número arábico da página só passa a ser visualmente impresso a partir da primeira folha da parte textual (Introdução).",
@@ -1721,11 +1787,11 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 91,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
-    "item": "Na NBR 14724:2011, a capa e a folha de aprovação são classificadas formalmente como elementos pós-textuais de inserção facultativa após a bibliografia.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "item": "Na NBR 14724:2024, a capa e a folha de aprovação são classificadas formalmente como elementos pós-textuais de inserção facultativa após a bibliografia.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Capa e folha de aprovação são elementos PRÉ-TEXTUAIS. A capa é elemento pré-textual obrigatório externo, e a folha de aprovação é elemento pré-textual obrigatório interno em trabalhos acadêmicos defendidos perante banca.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Classificar capa e folha de aprovação como pós-textuais.",
+    "justificativa": "Gabarito ERRADO. Capa e folha de aprovação são elementos PRÉ-TEXTUAIS. A capa é elemento pré-textual obrigatório externo, e a folha de aprovação é elemento pré-textual obrigatório interno em trabalhos acadêmicos defendidos perante banca. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1739,7 +1805,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 92,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "O padrão internacional ISBN (International Standard Book Number) é um identificador numérico de 13 dígitos subdividido em cinco partes (prefixo EAN, grupo registrante/país, elemento do editor, elemento do título e dígito verificador), destinado à identificação unívoca de monografias e livros.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Conforme a norma ISO 2108 e as diretrizes da Câmara Brasileira do Livro (CBL, que assumiu a gestão da Agência Brasileira do ISBN), o ISBN-13 compõe-se de 13 algarismos distribuídos em cinco blocos hifenizados: 1) Prefixo EAN ('978' ou '979'); 2) Identificador de grupo/país ('65' ou '85' para o Brasil); 3) Elemento do editor; 4) Elemento do título/item; e 5) Dígito verificador matemático único.",
@@ -1749,18 +1815,20 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "cinco partes (prefixo EAN, grupo registrante/país, elemento",
+    "versao_errada": "O padrão internacional ISBN (International Standard Book Number) é um identificador numérico de 13 dígitos subdividido em indevidamente cinco partes (prefixo ean, grupo registrante/país, elemento do editor, elemento do título e dígito verificador), destinado à identificação unívoca de monografias e livros."
   },
   {
     "id": "m8-q-93",
     "numero": 93,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "O ISBN e o ISSN são códigos idênticos destinados ao mesmo tipo de publicação, sendo o ISBN atribuído a revistas diárias e o ISSN a enciclopédias em volume único.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. ISBN destina-se a MONOGRAFIAS (livros, teses, relatórios em volume único ou conjunto finito de volumes); ISSN (International Standard Serial Number, 8 dígitos) destina-se a PUBLICAÇÕES SERIADAS (revistas, periódicos científicos, jornais, anais de congressos recorrentes).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter a destinação de ISBN (livros) e ISSN (periódicos).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1797,11 +1865,11 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 95,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "Na NBR 14724, os anexos devem ser identificados por algarismos arábicos com cinco casas decimais (ex: Anexo 1.00000), sendo proibido o uso de letras maiúsculas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Apêndices e Anexos são identificados por LETRAS MAIÚSCULAS consecutivas, travessão e pelos respectivos títulos (ex: 'ANEXO A – Parecer da Comissão de Constituição e Justiça', 'ANEXO B – Mapa territorial').",
-    "armadilhaBanca": "INVERSAO_CANONICA: Impor números decimais para anexos em vez de letras maiúsculas.",
+    "justificativa": "Gabarito ERRADO. Apêndices e Anexos são identificados por LETRAS MAIÚSCULAS consecutivas, travessão e pelos respectivos títulos (ex: 'ANEXO A – Parecer da Comissão de Constituição e Justiça', 'ANEXO B – Mapa territorial'). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual Canônica. A banca troca deliberadamente a autoria do apêndice (elaborado pelo próprio autor) pela do anexo (documento pré-existente de terceiros).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1815,7 +1883,7 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 96,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "A distinção formal entre 'Apêndice' e 'Anexo' reside no fato de que o Apêndice é um documento ou texto elaborado pelo próprio autor da pesquisa para complementar sua argumentação, enquanto o Anexo é um documento não elaborado pelo autor (texto legal, mapa oficial, laudo de terceiro) incorporado para fundamentação.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Na arquitetura pós-textual da ABNT NBR 14724:2011, a distinção ontológica entre apêndice e anexo é rigorosa e cobrada com frequência pelo Cebraspe: 'Apêndice' é o texto ou documento complementar elaborado pelo PRÓPRIO autor da pesquisa para enriquecer sua fundamentação; ao passo que 'Anexo' é o documento ou texto NÃO elaborado pelo autor (ex.: leis, mapas de terceiros, laudos de órgãos oficiais) incorporado como suporte probatório.",
@@ -1825,18 +1893,20 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "elaborado pelo próprio autor",
+    "versao_errada": "A distinção formal entre 'Apêndice' e 'Anexo' reside no fato de que o Apêndice é um documento ou texto elaborado por terceiros da pesquisa para complementar sua argumentação, enquanto o Anexo é um documento não elaborado pelo autor (texto legal, mapa oficial, laudo de terceiro) incorporado para fundamentação."
   },
   {
     "id": "m8-q-97",
     "numero": 97,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
     "item": "A Lei do Depósito Legal (Lei nº 10.994/2004) veda que editoras e órgãos públicos enviem exemplares de suas publicações à Biblioteca Nacional, sob pena de multa por excesso de doação.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Lei nº 10.994/2004 OBRIGA o envio de ao menos um exemplar de toda publicação produzida no território nacional à Biblioteca Nacional, com a finalidade de assegurar a preservação da memória bibliográfica e a elaboração da Bibliografia Brasileira.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Proibir o depósito legal em vez de torná-lo obrigatório.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1872,8 +1942,8 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 99,
     "macroModuloId": "M8",
     "submoduloId": "8.4",
-    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2011), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
-    "item": "Quanto à paginação na NBR 14724:2011, todas as folhas do trabalho acadêmico, a partir da folha de rosto, devem ser contadas sequencialmente, mas a numeração só é visualmente impressa a partir da primeira folha da parte textual (Introdução), em algarismos arábicos, no canto superior direito da folha a 2 cm da borda.",
+    "contexto": "No tocante à apresentação de trabalhos acadêmicos (ABNT NBR 14724:2024), à estrutura de monografias, à ficha catalográfica e aos identificadores do ecossistema editorial (ISBN, ISSN, DOI), julgue o item a seguir.",
+    "item": "Quanto à paginação na NBR 14724:2024, todas as folhas do trabalho acadêmico, a partir da folha de rosto, devem ser contadas sequencialmente, mas a numeração só é visualmente impressa a partir da primeira folha da parte textual (Introdução), em algarismos arábicos, no canto superior direito da folha a 2 cm da borda.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Aplicação estrita da regra de paginação da ABNT NBR 14724:2011 (item 5.3): todas as folhas do trabalho acadêmico são contadas sequencialmente a partir da folha de rosto (a capa não é contada nem numerada), porém a numeração só é visualmente impressa a partir da primeira folha da parte textual (Introdução), devendo figurar no canto superior direito da página, a 2 cm da borda superior e direita.",
     "armadilhaBanca": "Regra de contagem e impressão da paginação na NBR 14724.",
@@ -1882,7 +1952,9 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
-    }
+    },
+    "gatilho": "a partir da primeira folha da parte textual",
+    "versao_errada": "Quanto à paginação na NBR 14724:2024, todas as folhas do trabalho acadêmico, a partir da folha de rosto, devem ser contadas sequencialmente, mas a numeração só é visualmente impressa indevidamente a partir da primeira folha da parte textual (Introdução), em algarismos arábicos, no canto superior direito da folha a 2 cm da borda."
   },
   {
     "id": "m8-q-100",

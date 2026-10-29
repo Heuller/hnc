@@ -356,7 +356,13 @@ O **Marketing da Informação**, o **CRM (*Customer Relationship Management*)** 
 - **TARAPANOFF, Kira (Org.).** *Inteligência, informação e conhecimento em corporações*. Brasília: IBICT; UNESCO, 2006. (Obra canônica sobre inteligência competitiva no Brasil).
 - **KOTLER, Philip; KELLER, Kevin Lane.** *Administração de marketing*. 14. ed. São Paulo: Pearson, 2012.
 - **CÂMARA DOS DEPUTADOS.** *Produtos de Informação e Pesquisa da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2022.
-- **DAVENPORT, Thomas H.** *Ecologia da informação: por que só a tecnologia não basta para o sucesso na era da informação*. São Paulo: Futura, 1998.`,
+- **DAVENPORT, Thomas H.** *Ecologia da informação: por que só a tecnologia não basta para o sucesso na era da informação*. São Paulo: Futura, 1998.
+
+### Pausa de Recuperação Ativa: Etapas do Ciclo de Vergueiro
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Relembre as seis etapas inter-relacionadas do processo de desenvolvimento de coleções segundo Waldomiro Vergueiro: Estudo de Comunidade/Usuários, Políticas de Seleção, Aquisição, Desbastamento/Descarte, Avaliação da Coleção e Preservação.
+`,
   checkpoints: [
     {
       id: 'cp-5-2-1',

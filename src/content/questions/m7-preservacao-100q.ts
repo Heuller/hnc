@@ -90,7 +90,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165431"
-    }
+    },
+    "gatilho": "deve requerer uma política de cultura informacional",
+    "versao_errada": "Para que seja eficiente, a preservação de objetos digitais indevidamente deve requerer uma política de cultura informacional que leve em consideração sua produção e seu descarte."
   },
   {
     "id": "m7-q-5",
@@ -112,7 +114,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624254"
-    }
+    },
+    "gatilho": "microfilmagem fotográfica surgiu no início da década",
+    "versao_errada": "A preservação de documentos raros a partir da indevidamente microfilmagem fotográfica surgiu no início da década de 1970, antes do surgimento da digitalização eletrônica."
   },
   {
     "id": "m7-q-6",
@@ -134,7 +138,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624255"
-    }
+    },
+    "gatilho": "envolve os documentos provenientes do meio digital",
+    "versao_errada": "A preservação digital indevidamente envolve os documentos provenientes do meio digital e os digitalizados."
   },
   {
     "id": "m7-q-7",
@@ -221,7 +227,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624256"
-    }
+    },
+    "gatilho": "keep stuff safe) é uma infraestrutura de",
+    "versao_errada": "A estratégia de digitalização denominada LOCKSS (lots of copies indevidamente keep stuff safe) é uma infraestrutura de preservação digital caracterizada pela descentralização, open source e peer-to-peer."
   },
   {
     "id": "m7-q-11",
@@ -243,7 +251,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "IPHAN",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-696607"
-    }
+    },
+    "gatilho": "a estratégias de preservação adotadas, direitos de",
+    "versao_errada": "Os metadados de preservação digital de longo prazo devem conter informações relativas indevidamente a estratégias de preservação adotadas, direitos de propriedade intelectual e elementos que garantam a autenticidade do recurso digital."
   },
   {
     "id": "m7-q-12",
@@ -265,7 +275,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "SEE DF",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-464226"
-    }
+    },
+    "gatilho": "em condições adequadas para o uso, de",
+    "versao_errada": "Preservação digital é o processo de armazenamento, indevidamente em condições adequadas para o uso, de documentos ou objetos produzidos em formato digital."
   },
   {
     "id": "m7-q-13",
@@ -319,8 +331,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne a serviços de referência e a estudos de usuários, julgue o item a seguir.",
     "item": "No que tange aos usuários, é preciso considerar dois tipos de necessidades de informação: a que resulta do desejo de saber, em função do conhecimento; e a que resulta de necessidades materiais exigidas para a realização das atividades humanas, profissionais e pessoais, em função da ação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - SUFRAMA/2014). A assertiva reproduz textualmente a clássica categorização de Nice Figueiredo (1994) sobre necessidades de informação em estudos de usuários: necessidades em função do conhecimento (desejo intrínseco de saber) e necessidades em função da ação (exigências concretas para o desempenho de atividades humanas e profissionais).",
-    "armadilhaBanca": "Assertiva conceitualmente exata baseada na doutrina canônica de Nice Figueiredo.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SUFRAMA/2014). A assertiva reproduz textualmente a clássica categorização de Nice Figueiredo (1994) sobre necessidades de informação em estudos de usuários: necessidades em função do conhecimento (desejo intrínseco de saber) e necessidades em função da ação (exigências concretas para o desempenho de atividades humanas e profissionais).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -431,8 +443,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o item seguinte, referente às terminologias da informática e da informação utilizadas na biblioteconomia.",
     "item": "Preservação digital é o processo de armazenamento, em condições adequadas para o uso, de documentos ou objetos produzidos em formato digital.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - SEE DF/2017). A banca considerou correta a definição ampla e operacional de preservação digital como o conjunto ordenado de ações voltadas ao armazenamento em condições adequadas para viabilizar e assegurar o uso contínuo de objetos digitais.",
-    "armadilhaBanca": "A assertiva adota uma acepção ampla e direta do conceito de preservação digital admitida pelo Cebraspe.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SEE DF/2017). A banca considerou correta a definição ampla e operacional de preservação digital como o conjunto ordenado de ações voltadas ao armazenamento em condições adequadas para viabilizar e assegurar o uso contínuo de objetos digitais.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -453,8 +465,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das bibliotecas digitais, julgue os seguintes itens.",
     "item": "A preservação digital não é garantia para as bibliotecas digitais, visto que a preservação depende de métodos, estratégias e políticas que não antecedem e que extrapolam as características das bibliotecas digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - DPU/2016). A assertiva expressa que a preservação digital transcende os limites e características intrínsecas das bibliotecas digitais, dependendo de políticas institucionais, métodos e estratégias que extrapolam o sistema de biblioteca em si. (Nota de auditoria P17: fontes cadastrais divergem; item assinalado com revisar: true para conferência).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso DPU/2016.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - DPU/2016). A assertiva expressa que a preservação digital transcende os limites e características intrínsecas das bibliotecas digitais, dependendo de políticas institucionais, métodos e estratégias que extrapolam o sistema de biblioteca em si. (Nota de auditoria P17: fontes cadastrais divergem; item assinalado com revisar: true para conferência).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -466,7 +478,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-324592"
     },
-    "revisar": true
+    "revisar": true,
+    "gatilho": "a preservação depende de métodos, estratégias e",
+    "versao_errada": "A preservação digital não é garantia para as bibliotecas digitais, visto que indevidamente a preservação depende de métodos, estratégias e políticas que não antecedem e que extrapolam as características das bibliotecas digitais."
   },
   {
     "id": "m7-q-22",
@@ -476,8 +490,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de preservação digital, julgue o item subsequente.",
     "item": "A preservação digital abrange três aspectos: a preservação física, relacionada aos conteúdos armazenados em suportes e mídias; a preservação lógica, relacionada aos novos formatos para inserção e conversão de dados, devido à obsolescência; e a preservação intelectual, referente aos mecanismos garantidores da integridade e da autenticidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - STJ/2012). De acordo com a doutrina consolidada de preservação digital (Paul Conway e autores nacionais de arquivologia/ciência da informação), a preservação digital estrutura-se na tríade: física (suportes e mídias), lógica (formatos de dados contra a obsolescência) e intelectual (integridade, autenticidade e proveniência).",
-    "armadilhaBanca": "Estrutura conceitual tripartida (física, lógica e intelectual) cobrada com rigor e exatidão pela banca examinadora.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - STJ/2012). De acordo com a doutrina consolidada de preservação digital (Paul Conway e autores nacionais de arquivologia/ciência da informação), a preservação digital estrutura-se na tríade: física (suportes e mídias), lógica (formatos de dados contra a obsolescência) e intelectual (integridade, autenticidade e proveniência).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -539,8 +553,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à ciência aberta e à preservação digital de bibliotecas, julgue o item.",
     "item": "A estratégia de preservação digital denominada preservação tecnológica é criticada por não ser econômica a longo prazo devido à necessidade de se manterem fisicamente os hardwares e os softwares originais para possibilitar meios de acesso aos documentos, informações e materiais digitais.",
     "gabarito": "C",
-    "justificativa": "(Cebraspe - UNEAL/2026). A estratégia de preservação de tecnologia (museu tecnológico) baseia-se na manutenção operacional de computadores, periféricos e sistemas originais. A literatura especializada critica unanimemente essa abordagem pelo custo proibitivo e inviabilidade econômica em larga escala a longo prazo.",
-    "armadilhaBanca": "O candidato pode hesitar quanto à nomenclatura \\\"preservação tecnológica\\\", mas a crítica doutrinária à inviabilidade de manter parques obsoletos de hardware/software é pacífica.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - UNEAL/2026). A estratégia de preservação de tecnologia (museu tecnológico) baseia-se na manutenção operacional de computadores, periféricos e sistemas originais. A literatura especializada critica unanimemente essa abordagem pelo custo proibitivo e inviabilidade econômica em larga escala a longo prazo.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -617,8 +631,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à preservação digital e às bibliotecas digitais, julgue o item subsequente.",
     "item": "O LexML Brasil utiliza metadados proprietários desenvolvidos especificamente para a preservação de documentos legislativos e jurídicos, incompatíveis com padrões internacionais como o Dublin Core.",
     "gabarito": "E",
-    "justificativa": "(Cebraspe - STJ/2024). A rede LexML Brasil fundamenta-se estritamente em padrões abertos e interoperáveis de metadados. O esquema LexML é plenamente compatível com o Dublin Core (DC) e protocolos internacionais de interoperabilidade (como OAI-PMH), não utilizando formatos proprietários ou incompatíveis.",
-    "armadilhaBanca": "Armadilha clássica do Cebraspe no STJ/2024: qualificar falsamente a infraestrutura pública do LexML como adepta de metadados proprietários e incompatíveis com padrões internacionais.",
+    "justificativa": "Gabarito ERRADO. (Cebraspe - STJ/2024). A rede LexML Brasil fundamenta-se estritamente em padrões abertos e interoperáveis de metadados. O esquema LexML é plenamente compatível com o Dublin Core (DC) e protocolos internacionais de interoperabilidade (como OAI-PMH), não utilizando formatos proprietários ou incompatíveis.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -636,8 +650,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "julgue o item a seguir.",
     "item": "A estratégia de digitalização denominada LOCKSS (lots of copies keep stuff safe.) é uma infraestrutura de preservação digital caracterizada pela descentralização, open source e peer-to-peer.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"keep stuff safe.) é uma infraestrutura de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -676,8 +690,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da informática para bibliotecas, julgue o item subsequente.",
     "item": "Para que seja eficiente, a preservação de objetos digitais deve requerer uma política de cultura informacional que leve em consideração sua produção e seu descarte.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - SUFRAMA/2014). A preservação digital eficiente requer uma abordagem sistêmica e contínua do ciclo de vida documental, iniciando-se na produção (concepção e captura de metadados) e culminando na destinação final (guarda permanente ou eliminação/descarte regulado).",
-    "armadilhaBanca": "A banca estabelece a relação necessária entre eficiência da preservação e a gestão integral do ciclo de vida do documento digital.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SUFRAMA/2014). A preservação digital eficiente requer uma abordagem sistêmica e contínua do ciclo de vida documental, iniciando-se na produção (concepção e captura de metadados) e culminando na destinação final (guarda permanente ou eliminação/descarte regulado).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -698,8 +712,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de bibliotecas digitais, julgue o item subsequente.",
     "item": "A estabilidade do sistema com capacidade para múltiplos acessos e a possibilidade de exportação para software de gestão bibliográfica são requisitos essenciais para a preservação do material bibliográfico digital.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO (Cebraspe - AJ TSE/2024). A estabilidade do sistema para múltiplos acessos concorrentes e a exportação para gerenciadores bibliográficos (ex.: Zotero, Mendeley) são funcionalidades voltadas ao acesso, recuperação e disseminação da informação em curto prazo, não constituindo requisitos essenciais de preservação digital de longo prazo (os quais envolvem fixidade de bits, metadados de preservação, autenticidade e migração/emulação contínua).",
-    "armadilhaBanca": "Armadilha clássica do Cebraspe no concurso TSE/2024: confundir requisitos operacionais de acesso e disseminação com requisitos estritos de preservação arquivística digital de longo prazo.",
+    "justificativa": "Gabarito ERRADO. (Cebraspe - AJ TSE/2024). A estabilidade do sistema para múltiplos acessos concorrentes e a exportação para gerenciadores bibliográficos (ex.: Zotero, Mendeley) são funcionalidades voltadas ao acesso, recuperação e disseminação da informação em curto prazo, não constituindo requisitos essenciais de preservação digital de longo prazo (os quais envolvem fixidade de bits, metadados de preservação, autenticidade e migração/emulação contínua).",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -762,8 +776,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à curadoria digital e à mediação da informação, julgue o item a seguir.",
     "item": "A curadoria digital pode ser corretamente definida como o processo que compreende a seleção, a preservação, a manutenção, a coleção e o arquivamento de ativos digitais.",
     "gabarito": "C",
-    "justificativa": "(Cebraspe - STJ/2024). A assertiva reflete com exatidão a definição canônica de curadoria digital estabelecida pelo Digital Curation Centre (DCC) e por Abbott, congregando seleção, preservação ativa, manutenção, agregação em coleções e arquivamento de ativos digitais com valor duradouro.",
-    "armadilhaBanca": "Síntese doutrinária exata das etapas do ciclo de vida da curadoria digital cobrada pelo Cebraspe.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - STJ/2024). A assertiva reflete com exatidão a definição canônica de curadoria digital estabelecida pelo Digital Curation Centre (DCC) e por Abbott, congregando seleção, preservação ativa, manutenção, agregação em coleções e arquivamento de ativos digitais com valor duradouro.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -780,8 +794,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "julgue o item a seguir.",
     "item": "A preservação digital envolve os documentos provenientes do meio digital e os digitalizados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"envolve os documentos provenientes do meio digital\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -802,8 +816,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da informática para bibliotecas, julgue o item seguinte.",
     "item": "A preservação digital envolve os documentos provenientes do meio digital e os digitalizados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"envolve os documentos provenientes do meio digital\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -824,8 +838,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação de coleções digitais, julgue o item.",
     "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro de gestão da propriedade intelectual para a promoção da preservação digital.",
     "gabarito": "E",
-    "justificativa": "(Cebraspe - IPHAN/2018). O OAIS (Open Archival Information System) NÃO é um sistema brasileiro de gestão de propriedade intelectual. É um modelo conceitual de referência internacional para sistemas de arquivos abertos de preservação digital, padronizado internacionalmente pela ISO (norma ISO 14721:2012 / CCSDS 650.0-M-2).",
-    "armadilhaBanca": "Inversão grosseira do Cebraspe no IPHAN/2018: transformar uma norma conceitual internacional da ISO em um pretenso \\\"sistema brasileiro de propriedade intelectual\\\".",
+    "justificativa": "Gabarito ERRADO. (Cebraspe - IPHAN/2018). O OAIS (Open Archival Information System) NÃO é um sistema brasileiro de gestão de propriedade intelectual. É um modelo conceitual de referência internacional para sistemas de arquivos abertos de preservação digital, padronizado internacionalmente pela ISO (norma ISO 14721:2012 / CCSDS 650.0-M-2).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -843,8 +857,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à preservação digital de acervos, julgue o item.",
     "item": "As cópias de segurança (backup) de arquivos digitais em discos rígidos externos garantem a preservação a longo prazo, dispensando a necessidade de outras estratégias de preservação digital.",
     "gabarito": "E",
-    "justificativa": "(Cebraspe - UNEAL/2026). Cópias de segurança (backups) são essenciais para recuperação contra desastres imediatos, mas NÃO garantem a preservação digital de longo prazo e NÃO dispensam intervenções ativas (como migração de formatos obsoletos, validação criptográfica de fixidez e metadados PREMIS), sob pena de degradação física dos suportes e obsolescência lógica dos formatos.",
-    "armadilhaBanca": "Termo absolutista característico do Cebraspe (\\\"garantem a preservação a longo prazo, dispensando a necessidade de outras estratégias\\\").",
+    "justificativa": "Gabarito ERRADO. (Cebraspe - UNEAL/2026). Cópias de segurança (backups) são essenciais para recuperação contra desastres imediatos, mas NÃO garantem a preservação digital de longo prazo e NÃO dispensam intervenções ativas (como migração de formatos obsoletos, validação criptográfica de fixidez e metadados PREMIS), sob pena de degradação física dos suportes e obsolescência lógica dos formatos.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -884,8 +898,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o item, com relação à informática para bibliotecas.",
     "item": "A preservação de documentos abrange as técnicas de preservação tecnológica, que cuidam da preservação de hardware e software para suportar sistemas originais de acesso a informações.",
     "gabarito": "C",
-    "justificativa": "(Cebraspe - TRT 17/2013). A técnica de preservação tecnológica consiste especificamente em conservar os equipamentos de hardware e versões de sistemas operacionais e programas de software originais para garantir a operacionalidade dos sistemas originais.",
-    "armadilhaBanca": "A assertiva limita-se a conceituar a técnica de preservação tecnológica, estando perfeitamente de acordo com a literatura técnica.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - TRT 17/2013). A técnica de preservação tecnológica consiste especificamente em conservar os equipamentos de hardware e versões de sistemas operacionais e programas de software originais para garantir a operacionalidade dos sistemas originais.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -902,8 +916,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a tecnologias de informação, julgue o item subsequente.",
     "item": "O e-science constitui ferramenta orientada ao compartilhamento e reúso de dados e é de extrema importância para a comunicação científica. Para a biblioteca, a responsabilidade consiste na segurança dos dados, na preservação, no acesso e no controle dos metadados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - SERPRO/2013). Na e-Science e na ciência orientada a dados, as bibliotecas de pesquisa desempenham papel crucial na curadoria digital (RDM), responsabilizando-se pela organização, padronização de metadados, guarda segura e garantia de acesso e preservação dos conjuntos de dados de pesquisa.",
-    "armadilhaBanca": "Assertiva correta que reconhece o papel protagonista das unidades de informação no ecossistema de dados científicos.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SERPRO/2013). Na e-Science e na ciência orientada a dados, as bibliotecas de pesquisa desempenham papel crucial na curadoria digital (RDM), responsabilizando-se pela organização, padronização de metadados, guarda segura e garantia de acesso e preservação dos conjuntos de dados de pesquisa.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -924,8 +938,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à bibliografia, julgue o item.",
     "item": "As bibliografias comerciais divulgam a produção bibliográfica em bibliotecas, distribuidores e livreiros, contribuindo para a preservação da herança cultural de um país.",
     "gabarito": "E",
-    "justificativa": "(Cebraspe - TRT 17/2013). As bibliografias comerciais têm finalidade estritamente mercadológica e comercial (informar disponibilidade e catálogo de editoras e livreiros). A preservação exaustiva da herança e memória cultural de um país é atribuição indelegável da Bibliografia Nacional (sustentada pelas bibliotecas nacionais mediante a lei do Depósito Legal), e não das bibliografias comerciais.",
-    "armadilhaBanca": "Atribuição errônea da finalidade precípua da Bibliografia Nacional (patrimônio e memória cultural) a instrumentos de circulação comercial de mercado.",
+    "justificativa": "Gabarito ERRADO. (Cebraspe - TRT 17/2013). As bibliografias comerciais têm finalidade estritamente mercadológica e comercial (informar disponibilidade e catálogo de editoras e livreiros). A preservação exaustiva da herança e memória cultural de um país é atribuição indelegável da Bibliografia Nacional (sustentada pelas bibliotecas nacionais mediante a lei do Depósito Legal), e não das bibliografias comerciais.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -966,8 +980,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne a serviços de referência e a estudos de usuários, julgue o item a seguir.",
     "item": "No que tange aos usuários, é preciso considerar dois tipos de necessidades de informação: a que resulta do desejo de saber, em função do conhecimento; e a que resulta de necessidades materiais exigidas para a realização das atividades humanas, profissionais e pessoais, em função da ação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - SUFRAMA/2014). Reitera a taxonomia fundamental de Nice Figueiredo sobre estudos de usuários, segmentando necessidades de informação para conhecimento versus necessidades para a ação.",
-    "armadilhaBanca": "Conceito canônico cobrado de forma literal pela banca Cebraspe.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SUFRAMA/2014). A assertiva reproduz textualmente a clássica categorização de Nice Figueiredo (1994) sobre necessidades de informação em estudos de usuários: necessidades em função do conhecimento (desejo intrínseco de saber) e necessidades em função da ação (exigências concretas para o desempenho de atividades humanas e profissionais).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1115,8 +1129,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação à rede de informação legislativa-jurídica LexML Brasil, julgue os itens subsequentes.",
     "item": "A rede LexML funciona como depositária do patrimônio bibliográfico e documental, sendo responsável pela execução da política governamental de captação, preservação e difusão da produção intelectual brasileira na área do direito.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO (Cebraspe - STJ/2024). A rede LexML Brasil atua como um portal integrador e indexador de metadados distribuídos de legislação e jurisprudência, não exercendo papel de biblioteca depositária do patrimônio bibliográfico nacional (função precípua da Biblioteca Nacional via Depósito Legal).",
-    "armadilhaBanca": "Atribuir à rede de metadados LexML competências institucionais de guarda patrimonial típicas de Biblioteca Nacional.",
+    "justificativa": "Gabarito ERRADO. (Cebraspe - STJ/2024). A rede LexML Brasil atua como um portal integrador e indexador de metadados distribuídos de legislação e jurisprudência, não exercendo papel de biblioteca depositária do patrimônio bibliográfico nacional (função precípua da Biblioteca Nacional via Depósito Legal).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1158,8 +1172,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "julgue o item a seguir.",
     "item": "A estratégia de digitalização denominada LOCKSS (lots of copies keep stuff safe.) é uma infraestrutura de preservação digital caracterizada pela descentralização, open source e peer-to-peer.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"keep stuff safe.) é uma infraestrutura de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1217,8 +1231,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de bibliotecas digitais, julgue o item subsequente.",
     "item": "A estabilidade do sistema com capacidade para múltiplos acessos e a possibilidade de exportação para software de gestão bibliográfica são requisitos essenciais para a preservação do material bibliográfico digital.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO (Cebraspe - AJ TSE/2024). Conforme gabarito definitivo da banca, a capacidade para múltiplos acessos e a exportação para softwares de gerenciamento bibliográfico atendem à dimensão de disseminação/serviço aos usuários, não correspondendo a requisitos essenciais de preservação do material bibliográfico digital.",
-    "armadilhaBanca": "Confusão deliberada entre funcionalidades de plataforma de pesquisa/uso corrente e as exigências técnicas da preservação digital de longo prazo.",
+    "justificativa": "Gabarito ERRADO. (Cebraspe - AJ TSE/2024). A estabilidade do sistema para múltiplos acessos concorrentes e a exportação para gerenciadores bibliográficos (ex.: Zotero, Mendeley) são funcionalidades voltadas ao acesso, recuperação e disseminação da informação em curto prazo, não constituindo requisitos essenciais de preservação digital de longo prazo (os quais envolvem fixidade de bits, metadados de preservação, autenticidade e migração/emulação contínua).",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1241,8 +1255,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da informática para bibliotecas, julgue o item subsequente.",
     "item": "Para que seja eficiente, a preservação de objetos digitais deve requerer uma política de cultura informacional que leve em consideração sua produção e seu descarte.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - SUFRAMA/2014). Ratifica a indispensabilidade da governança documental que abrange a criação, uso e descarte para a sustentabilidade da preservação.",
-    "armadilhaBanca": "Conceito canônico de governança da informação validado pelo Cebraspe.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SUFRAMA/2014). A preservação digital eficiente requer uma abordagem sistêmica e contínua do ciclo de vida documental, iniciando-se na produção (concepção e captura de metadados) e culminando na destinação final (guarda permanente ou eliminação/descarte regulado).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1285,8 +1299,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "Na custódia arquivística de documentos digitais, a comprovação de autenticidade afasta a necessidade de cadeia de custódia contínua, autorizando períodos de guarda intermediária em sistemas não auditados sem registro de trilha de eventos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A cadeia de custódia contínua e a trilha de auditoria documentada constituem a garantia essencial de autenticidade e não adulteração do documento arquivístico desde a produção até a custódia permanente.",
-    "armadilhaBanca": "Dispensar cadeia de custódia ininterrupta na preservação.",
+    "justificativa": "Gabarito ERRADO. A cadeia de custódia contínua e a trilha de auditoria documentada constituem a garantia essencial de autenticidade e não adulteração do documento arquivístico desde a produção até a custódia permanente. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1303,8 +1317,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "No modelo de referência OAIS, o pacote de informação de arquivamento (AIP) restringe-se ao arquivo binário de conteúdo, cabendo ao pacote de disseminação (DIP) a incorporação dos metadados contextuais de preservação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O AIP é o pacote mais completo do OAIS, contendo o objeto digital de conteúdo articulado com toda a Informação de Descrição da Preservação (PDI), metadados de representação e dados de empacotamento.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que AIP não possui metadados.",
+    "justificativa": "Gabarito ERRADO. O AIP é o pacote mais completo do OAIS, contendo o objeto digital de conteúdo articulado com toda a Informação de Descrição da Preservação (PDI), metadados de representação e dados de empacotamento. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1322,7 +1336,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "item": "No modelo OAIS, a preservação a longo prazo é definida como um período estrito e imutável de até noventa dias contados a partir da data de criação do arquivo de texto.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O OAIS define 'longo prazo' (long term) não por um número fixo de dias, mas como um período suficientemente longo para ser afetado pelo impacto das mudanças tecnológicas (obsolescência de hardware, formatos e mídias) e pela evolução da Comunidade Designada, abrangendo décadas ou séculos.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Limitar longo prazo do OAIS a 90 dias.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1346,7 +1360,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "(Ingest), Armazenamento Arquivístico (Archival Storage), Gestão de",
+    "versao_errada": "A arquitetura funcional do OAIS é composta por seis entidades funcionais interdependentes: Ingestão indevidamente (ingest), armazenamento arquivístico (archival storage), gestão de Dados (Data Management), Administração (Administration), Planejamento da Preservação (Preservation Planning) e Acesso (Access)."
   },
   {
     "id": "m7-q-65",
@@ -1356,8 +1372,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "Na entidade funcional de Ingestão do OAIS, o sistema recebe o pacote DIP do consumidor e o transforma em um SIP para enviar ao produtor.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O fluxo é exatamente o oposto: na Ingestão, o sistema recebe o pacote SIP (Submission Information Package) enviado pelo Produtor, valida sua integridade e o transforma em um oumais pacotes AIP para guarda arquivística.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter o fluxo de ingestão dos pacotes do OAIS.",
+    "justificativa": "Gabarito ERRADO. O fluxo é exatamente o oposto: na Ingestão, o sistema recebe o pacote SIP (Submission Information Package) enviado pelo Produtor, valida sua integridade e o transforma em um oumais pacotes AIP para guarda arquivística. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1381,7 +1397,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "de forma não autorizada, corrompido ou adulterado",
+    "versao_errada": "A 'Fixidez' (Fixity) no OAIS garante que o objeto digital arquivado não foi alterado indevidamente de forma não autorizada, corrompido ou adulterado ao longo do tempo, sendo rotineiramente verificada por funções de dispersão criptográfica (checksums)."
   },
   {
     "id": "m7-q-67",
@@ -1398,7 +1416,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "a infraestrutura de computação distribuída LOCKSS (Lots",
+    "versao_errada": "A Rede Cariniana, coordenada pelo Ibict no Brasil, é uma rede de serviços de preservação digital que utiliza indevidamente a infraestrutura de computação distribuída lockss (lots of Copies Keep Stuff Safe) para garantir a integridade e sobrevivência de periódicos e teses de instituições participantes."
   },
   {
     "id": "m7-q-68",
@@ -1408,14 +1428,16 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "O modelo OAIS (Open Archival Information System), padronizado internacionalmente pela norma ISO 14721, é um modelo conceitual de referência que define a arquitetura funcional, as responsabilidades e os fluxos de informação necessários para garantir a preservação e o acesso a objetos digitais a longo prazo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O OAIS é o marco teórico e normativo universal de preservação digital de arquivos e bibliotecas, estruturando funções e pacotes informacionais de custódia confiável.",
-    "armadilhaBanca": "Definição oficial do Modelo OAIS (ISO 14721).",
+    "justificativa": "Gabarito CERTO. O OAIS é o marco teórico e normativo universal de preservação digital de arquivos e bibliotecas, estruturando funções e pacotes informacionais de custódia confiável. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "que define a arquitetura funcional, as responsabilidades",
+    "versao_errada": "O modelo OAIS (Open Archival Information System), padronizado internacionalmente pela norma ISO 14721, é um modelo conceitual de referência indevidamente que define a arquitetura funcional, as responsabilidades e os fluxos de informação necessários para garantir a preservação e o acesso a objetos digitais a longo prazo."
   },
   {
     "id": "m7-q-69",
@@ -1425,8 +1447,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "No modelo de referência OAIS (ISO 14721), o pacote de informação de arquivamento (AIP) é a estrutura diretamente disponibilizada aos usuários finais na interface de busca para acesso e download na web, cabendo ao pacote de disseminação (DIP) o armazenamento interno das cópias mestras com metadados de preservação.",
     "gabarito": "E",
-    "justificativa": "No modelo conceitual OAIS (ISO 14721), os papéis dos pacotes estão invertidos na assertiva: o pacote de arquivamento (AIP - Archival Information Package) permanece sob custódia interna no repositório com as matrizes mestras e metadados completos de preservação, ao passo que o pacote de disseminação (DIP - Dissemination Information Package) é a versão gerada e entregue ao usuário ou consumidor para consulta e difusão.",
-    "armadilhaBanca": "Inversão conceitual clássica Cebraspe entre os pacotes OAIS: atribuição das funções de disseminação e acesso web ao AIP, e de custódia interna de preservação ao DIP.",
+    "justificativa": "Gabarito ERRADO. No modelo conceitual OAIS (ISO 14721), os papéis dos pacotes estão invertidos na assertiva: o pacote de arquivamento (AIP - Archival Information Package) permanece sob custódia interna no repositório com as matrizes mestras e metadados completos de preservação, ao passo que o pacote de disseminação (DIP - Dissemination Information Package) é a versão gerada e entregue ao usuário ou consumidor para consulta e difusão.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1443,8 +1465,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "No modelo OAIS, os metadados de direitos (Rights Information) autorizam a biblioteca a vender ilegalmente dados cadastrais e segredos industriais a governos estrangeiros por meio de leilões clandestinos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Metadados de direitos no OAIS registram com exatidão as restrições de propriedade intelectual, direitos autorais e termos de licença legítimos que regem a custódia e o acesso ao acervo perante a lei.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Imputar finalidade criminosa a metadados de direitos no OAIS.",
+    "justificativa": "Gabarito ERRADO. Metadados de direitos no OAIS registram com exatidão as restrições de propriedade intelectual, direitos autorais e termos de licença legítimos que regem a custódia e o acesso ao acervo perante a lei. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1462,7 +1484,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "item": "A entidade funcional de 'Planejamento da Preservação' no OAIS é encarregada de apagar todos os arquivos do repositório a cada dez anos para desocupar espaço no disco rígido.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Planejamento da Preservação (Preservation Planning) monitora continuamente o ambiente externo, a evolução da Comunidade Designada e as tendências de obsolescência tecnológica, recomendando planos de migração de formatos e novos padrões de conservação digital.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Atribuir função destrutiva ao Planejamento da Preservação.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1479,8 +1501,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "No modelo OAIS, os papéis de Produtor e de Consumidor convergem para a mesma entidade institucional produtora, cabendo ao arquivo preservar os pacotes para uso interno dos administradores do sistema.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Produtor é o papel de quem submete o conteúdo; Consumidor representa a comunidade de usuários e cidadãos que consultam e recuperam o acervo. São papéis e entidades distintos no modelo.",
-    "armadilhaBanca": "Exigir coincidência obrigatória entre Produtor e Consumidor no OAIS.",
+    "justificativa": "Gabarito ERRADO. Produtor é o papel de quem submete o conteúdo; Consumidor representa a comunidade de usuários e cidadãos que consultam e recuperam o acervo. São papéis e entidades distintos no modelo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1497,8 +1519,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "No ecossistema de preservação digital aberta, o Archivematica opera primariamente como o catálogo de descrição arquivística voltado à pesquisa e recuperação pública de fundos documentais pelos usuários finais, enquanto o software AtoM executa o pipeline técnico de ingestão, normalização de formatos e empacotamento de AIPs.",
     "gabarito": "E",
-    "justificativa": "Houve inversão entre as ferramentas: o Archivematica é o sistema voltado ao processamento técnico de preservação digital (ingestão, normalização, checagem de vírus e geração de AIP/DIP), enquanto o AtoM (Access to Memory) é a aplicação de descrição arquivística e catálogo web destinada à busca e acesso pelo público pesquisador.",
-    "armadilhaBanca": "Inversão de papéis funcionais entre sistemas complementares de preservação digital: atribuir a função de catálogo de descrição pública ao Archivematica e o pipeline de ingestão técnica ao AtoM.",
+    "justificativa": "Gabarito ERRADO. Houve inversão entre as ferramentas: o Archivematica é o sistema voltado ao processamento técnico de preservação digital (ingestão, normalização, checagem de vírus e geração de AIP/DIP), enquanto o AtoM (Access to Memory) é a aplicação de descrição arquivística e catálogo web destinada à busca e acesso pelo público pesquisador.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1515,14 +1537,16 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "No modelo OAIS, a 'Comunidade Designada' (Designated Community) é o conjunto de usuários identificados (potenciais ou reais) para os quais o repositório se compromete a preservar a informação em formato compreensível e reutilizável.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conceito nuclear do OAIS: a preservação depende da base de conhecimento da comunidade designada (ex: uma biblioteca legislativa tem como comunidade designada parlamentares, juristas e cidadãos).",
-    "armadilhaBanca": "Conceito de Comunidade Designada no OAIS.",
+    "justificativa": "Gabarito CERTO. Conceito nuclear do OAIS: a preservação depende da base de conhecimento da comunidade designada (ex: uma biblioteca legislativa tem como comunidade designada parlamentares, juristas e cidadãos). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "identificados (potenciais ou reais) para os quais",
+    "versao_errada": "No modelo OAIS, a 'Comunidade Designada' (Designated Community) é o conjunto de usuários indevidamente identificados (potenciais ou reais) para os quais o repositório se compromete a preservar a informação em formato compreensível e reutilizável."
   },
   {
     "id": "m7-q-75",
@@ -1533,7 +1557,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "item": "A 'Informação de Representação' (Representation Information) no OAIS é dispensável, pois os computadores do futuro saberão decodificar automaticamente qualquer fluxo binário sem necessidade de conhecer o formato ou o software leitor.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Informação de Representação é crucial no OAIS: é ela que mapeia o fluxo bruto de bits (bitstream) em conceitos e estruturas compreensíveis (ex: tabelas de codificação ASCII/UTF-8, especificações do formato PDF/A), garantindo a renderização fidedigna dos dados no futuro.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar Informação de Representação no OAIS.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1550,8 +1574,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "Em repositórios digitais confiáveis, a geração e a verificação periódica de funções de dispersão criptográfica, como o algoritmo SHA-256, asseguram a autenticidade diplomática e a autoria intelectual dos documentos arquivísticos, atestando a veracidade jurídica das informações nele contidas.",
     "gabarito": "E",
-    "justificativa": "Funções de dispersão criptográfica (como SHA-256) garantem a fixidez (fixity) e a integridade física do fluxo de bits, detectando qualquer alteração acidental ou intencional nos dados. Elas não atestam, por si sós, a autenticidade diplomática, a autoria intelectual ou a veracidade jurídica do conteúdo documental, aspectos que dependem de proveniência, contexto de produção e assinaturas digitais com certificados válidos.",
-    "armadilhaBanca": "Confundir integridade física de bits (fixidez aferível por hash SHA-256) com autenticidade diplomática e veracidade jurídica do documento.",
+    "justificativa": "Gabarito ERRADO. Funções de dispersão criptográfica (como SHA-256) garantem a fixidez (fixity) e a integridade física do fluxo de bits, detectando qualquer alteração acidental ou intencional nos dados. Elas não atestam, por si sós, a autenticidade diplomática, a autoria intelectual ou a veracidade jurídica do conteúdo documental, aspectos que dependem de proveniência, contexto de produção e assinaturas digitais com certificados válidos.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1575,7 +1599,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "por metadados bibliográficos ou arquivísticos (como um",
+    "versao_errada": "No PREMIS, a 'Entidade Intelectual' (Intellectual Entity) representa a criação intelectual discreta e abstrata descrita indevidamente por metadados bibliográficos ou arquivísticos (como um livro, tese, mapa ou relatório parlamentar), a qual pode ser materializada em múltiplos Objetos digitais."
   },
   {
     "id": "m7-q-78",
@@ -1585,8 +1611,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação de coleções digitais, julgue os próximos itens.",
     "item": "Os metadados de preservação digital de longo prazo devem conter informações relativas a estratégias de preservação adotadas, direitos de propriedade intelectual e elementos que garantam a autenticidade do recurso digital.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso IPHAN/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"a estratégias de preservação adotadas, direitos de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1597,7 +1623,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "IPHAN",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-696607"
-    }
+    },
+    "gatilho": "a estratégias de preservação adotadas, direitos de",
+    "versao_errada": "Os metadados de preservação digital de longo prazo devem conter informações relativas indevidamente a estratégias de preservação adotadas, direitos de propriedade intelectual e elementos que garantam a autenticidade do recurso digital."
   },
   {
     "id": "m7-q-79",
@@ -1614,7 +1642,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "a longo prazo, proibindo elementos que dificultam",
+    "versao_errada": "O padrão PDF/A (ISO 19005) é um subconjunto restrito do formato PDF concebido para a preservação digital indevidamente a longo prazo, proibindo elementos que dificultam a renderização autônoma futura, como fontes não embutidas, scripts dinâmicos de execução e criptografia com senha."
   },
   {
     "id": "m7-q-80",
@@ -1678,7 +1708,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624254"
-    }
+    },
+    "gatilho": "microfilmagem fotográfica surgiu no início da década",
+    "versao_errada": "A preservação de documentos raros a partir da indevidamente microfilmagem fotográfica surgiu no início da década de 1970, antes do surgimento da digitalização eletrônica."
   },
   {
     "id": "m7-q-83",
@@ -1688,8 +1720,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "No dicionário de dados PREMIS, a entidade Evento limita-se ao registro da cronologia de movimentação física dos servidores de dados, desconsiderando rotinas técnicas como migrações de formato e validações de checksum.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A entidade Evento no PREMIS destina-se a registrar ações técnicas executadas sobre o objeto digital de preservação, tais como ingestão, validação de fixidez, normalização e migração de formatos.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Desvirtuar a entidade Evento no PREMIS.",
+    "justificativa": "Gabarito ERRADO. A entidade Evento no PREMIS destina-se a registrar ações técnicas executadas sobre o objeto digital de preservação, tais como ingestão, validação de fixidez, normalização e migração de formatos. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1706,8 +1738,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "No âmbito da preservação digital de esquemas de metadados, a linguagem XML (eXtensible Markup Language) destina-se primordialmente a definir a formatação visual e o layout gráfico de exibição dos documentos na tela do usuário, dependendo do formato HTML para a estruturação semântica e hierárquica dos elementos de dados.",
     "gabarito": "E",
-    "justificativa": "A assertiva inverte a finalidade técnica das linguagens: o XML (eXtensible Markup Language) é um padrão em texto puro voltado à estruturação lógica, semântica e hierárquica de dados independentemente de plataforma, sendo ideal para esquemas de preservação (como METS e PREMIS). A apresentação visual e formatação de layout dependem de folhas de estilo (como XSLT ou CSS), e não constituem a função primária do XML.",
-    "armadilhaBanca": "Inverter o propósito do XML, atribuindo a ele a responsabilidade pela renderização visual de layout em vez da estruturação lógica e interoperável de dados.",
+    "justificativa": "Gabarito ERRADO. A assertiva inverte a finalidade técnica das linguagens: o XML (eXtensible Markup Language) é um padrão em texto puro voltado à estruturação lógica, semântica e hierárquica de dados independentemente de plataforma, sendo ideal para esquemas de preservação (como METS e PREMIS). A apresentação visual e formatação de layout dependem de folhas de estilo (como XSLT ou CSS), e não constituem a função primária do XML.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1747,8 +1779,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, a respeito das tecnologias de informação e comunicação.",
     "item": "A migração é uma estratégia de preservação de documentos eletrônicos que envolve cópia, conversão ou transferência de informação de uma base tecnológica para outra mais atualizada.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANATEL/2009, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"que envolve cópia, conversão ou transferência de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1791,8 +1823,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "A Resolução nº 43/2015 do Conselho Nacional de Arquivos (CONARQ) estabelece diretrizes para a implementação de Repositórios Arquivísticos Digitais Confiáveis (RDC-Arq), recomendando a exclusão de todas as normas do e-ARQ Brasil e a terceirização do acervo para servidores clandestinos não auditáveis.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Resolução CONARQ nº 43/2015 regulamenta o RDC-Arq fundamentando-se rigorosamente no modelo OAIS e no e-ARQ Brasil, exigindo custódia arquivística autêntica, controle estrito de segurança e auditabilidade permanente.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Contrariar as diretrizes da Resolução CONARQ 43/2015.",
+    "justificativa": "Gabarito ERRADO. A Resolução CONARQ nº 43/2015 regulamenta o RDC-Arq fundamentando-se rigorosamente no modelo OAIS e no e-ARQ Brasil, exigindo custódia arquivística autêntica, controle estrito de segurança e auditabilidade permanente. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1832,8 +1864,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "No modelo conceitual PREMIS 3.0, a entidade Objeto (Object) registra os procedimentos e as ações técnicas executados durante o ciclo de custódia digital, a exemplo de rotinas de migração e validações de integridade, cabendo à entidade Evento (Event) estruturar os níveis lógicos de representação, arquivo e fluxo de bits.",
     "gabarito": "E",
-    "justificativa": "Há troca de definições entre as entidades fundamentais do PREMIS: a entidade Objeto (Object) é o alvo da preservação (estruturado em Entidade Intelectual, Representação, Arquivo e Bitstream), ao passo que a entidade Evento (Event) registra as ações e procedimentos técnicos realizados sobre esses objetos (como migração, ingestão e validação de fixidez).",
-    "armadilhaBanca": "Inversão conceitual direta entre as entidades Objeto e Evento no modelo PREMIS 3.0.",
+    "justificativa": "Gabarito ERRADO. Há troca de definições entre as entidades fundamentais do PREMIS: a entidade Objeto (Object) é o alvo da preservação (estruturado em Entidade Intelectual, Representação, Arquivo e Bitstream), ao passo que a entidade Evento (Event) registra as ações e procedimentos técnicos realizados sobre esses objetos (como migração, ingestão e validação de fixidez).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1857,7 +1889,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
       "verificado": false
-    }
+    },
+    "gatilho": "internacional concebido especificamente para apoiar a preservação",
+    "versao_errada": "O PREMIS (Preservation Metadata: Implementation Strategies), mantido pela Library of Congress, é o padrão de metadados indevidamente internacional concebido especificamente para apoiar a preservação digital de longo prazo e a comprovação da autenticidade de objetos digitais em repositórios confiáveis."
   },
   {
     "id": "m7-q-92",
@@ -1867,8 +1901,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "Em um Repositório Arquivístico Digital Confiável (RDC-Arq), a autenticidade de documentos de valor probatório independe de algoritmos de hash e trilhas de auditoria, fundando-se no carimbo de tempo atribuído pelo sistema operacional no momento da cópia.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A autenticidade no RDC-Arq exige evidências técnicas contínuas de integridade (hashes criptográficos) e de identidade (trilha de proveniência e cadeia de custódia ininterrupta).",
-    "armadilhaBanca": "Substituir evidências de integridade por declaração verbal.",
+    "justificativa": "Gabarito ERRADO. A autenticidade no RDC-Arq exige evidências técnicas contínuas de integridade (hashes criptográficos) e de identidade (trilha de proveniência e cadeia de custódia ininterrupta). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1885,8 +1919,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "No modelo de dados PREMIS 3.0, a entidade Agente (Agent) destina-se a documentar a especificação dos equipamentos de hardware, placas controladoras e versões de sistemas operacionais indispensáveis à emulação ou renderização de um formato de arquivo.",
     "gabarito": "E",
-    "justificativa": "No modelo PREMIS 3.0, a descrição de hardware, sistemas operacionais e dependências técnicas necessárias para renderizar arquivos compõe as informações de Ambiente (Environment). A entidade Agente (Agent) identifica atores (pessoas físicas, organizações ou softwares/robôs) responsáveis por executar eventos de preservação ou que possuem direitos sobre os objetos.",
-    "armadilhaBanca": "Confundir a entidade Agente (ator que executa eventos ou detém direitos) com a caracterização de Ambiente tecnológico (Environment) necessária para manter a acessibilidade do formato.",
+    "justificativa": "Gabarito ERRADO. No modelo PREMIS 3.0, a descrição de hardware, sistemas operacionais e dependências técnicas necessárias para renderizar arquivos compõe as informações de Ambiente (Environment). A entidade Agente (Agent) identifica atores (pessoas físicas, organizações ou softwares/robôs) responsáveis por executar eventos de preservação ou que possuem direitos sobre os objetos.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1904,7 +1938,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "item": "A validação de formatos com ferramentas especializadas (como JHOVE ou DROID) tem por objetivo apagar automaticamente do disco rígido qualquer arquivo que não tenha sido criado no ano corrente.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Ferramentas como JHOVE e DROID (desenvolvidas por instituições de preservação internacional) realizam a caracterização, identificação e validação formal de formatos para certificar se um arquivo PDF, TIFF ou XML está em conformidade com as especificações técnicas da sua norma de formato, sem destruí-lo.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Atribuir função de apagamento destrutivo ao JHOVE/DROID.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1944,8 +1978,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange aos modelos conceituais de preservação digital e repositórios digitais confiáveis, julgue o item a seguir.",
     "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro da gestão da propriedade intelectual para a promoção da preservação digital.",
     "gabarito": "E",
-    "justificativa": "O modelo OAIS (normatizado pela ISO 14721) é um modelo conceitual internacional de referência para a arquitetura, ingestão, arquivamento e acesso em repositórios digitais de preservação a longo prazo, desenvolvido originalmente pelo CCSDS (Consultative Committee for Space Data Systems), e não um sistema brasileiro voltado à propriedade intelectual.",
-    "armadilhaBanca": "INVERSAO_CONCEITUAL: Distorcer o propósito central do OAIS (ISO 14721) atribuindo-lhe a função de gestão de propriedade intelectual.",
+    "justificativa": "Gabarito ERRADO. O modelo OAIS (normatizado pela ISO 14721) é um modelo conceitual internacional de referência para a arquitetura, ingestão, arquivamento e acesso em repositórios digitais de preservação a longo prazo, desenvolvido originalmente pelo CCSDS (Consultative Committee for Space Data Systems), e não um sistema brasileiro voltado à propriedade intelectual.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1963,8 +1997,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "No modelo conceitual PREMIS 3.0, a entidade Entidade Intelectual corresponde a fluxos de bits elementares e bytes contíguos de um arquivo, diferenciando-se das obras bibliográficas completas como monografias e relatórios.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No PREMIS, a Entidade Intelectual é uma unidade coerente de conteúdo tratada como um todo (como um livro, mapa ou banco de dados), a qual se materializa em Representações, Arquivos e Bitstreams.",
-    "armadilhaBanca": "RESTRICAO_ILICITA: Inverter a hierarquia do PREMIS, confundindo a Entidade Intelectual com fluxos de bits (bitstreams).",
+    "justificativa": "Gabarito ERRADO. No PREMIS, a Entidade Intelectual é uma unidade coerente de conteúdo tratada como um todo (como um livro, mapa ou banco de dados), a qual se materializa em Representações, Arquivos e Bitstreams. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1982,7 +2016,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "item": "Em projetos de digitalização e preservação de acervos bibliográficos históricos, recomenda-se a utilização de compressão destrutiva com perdas (lossy) para a matriz mestre (master de preservação), em detrimento do formato TIFF sem compressão, com o propósito prioritário de reduzir custos de armazenamento.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme as Diretrizes para Digitalização do CONARQ e as boas práticas de preservação digital, a matriz mestre de preservação (preservation master) deve ser gerada obrigatoriamente sem compressão ou com compressão sem perdas (lossless), como no formato TIFF (Tagged Image File Format) não comprimido, garantindo a fidelidade integral e a integridade de reprodução ao longo do tempo.",
-    "armadilhaBanca": "GENERALIZACAO_INDEVIDA: Propor compressão com perdas (lossy) para a matriz mestre de preservação de longo prazo.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -2011,7 +2045,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624255"
-    }
+    },
+    "gatilho": "envolve os documentos provenientes do meio digital",
+    "versao_errada": "A preservação digital indevidamente envolve os documentos provenientes do meio digital e os digitalizados."
   },
   {
     "id": "m7-q-100",
@@ -2021,8 +2057,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da informática para bibliotecas, julgue os itens subsequentes.",
     "item": "Para que seja eficiente, a preservação de objetos digitais deve requerer uma política de cultura informacional que leve em consideração sua produção e seu descarte.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SUFRAMA/2014). A preservação digital eficiente requer uma abordagem sistêmica e contínua do ciclo de vida documental, iniciando-se na produção (concepção e captura de metadados) e culminando na destinação final (guarda permanente ou eliminação/descarte regulado).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2033,7 +2069,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165431"
-    }
+    },
+    "gatilho": "deve requerer uma política de cultura informacional",
+    "versao_errada": "Para que seja eficiente, a preservação de objetos digitais indevidamente deve requerer uma política de cultura informacional que leve em consideração sua produção e seu descarte."
   }
 ];
 

@@ -55,8 +55,8 @@ export const submodulo94: ModuloFilho = {
     'Derek de Solla Price',
   ],
   alertasCebraspe: [
-    'As Três Leis Bibliométricas e suas associações inegociáveis: 1. Lei de Bradford = PRODUTIVIDADE E DISPERSÃO DE PERIÓDICOS (núcleo e zonas 1 : n : n²); 2. Lei de Lotka = PRODUTIVIDADE DE AUTORES (regra do quadrado inverso 1/n²); 3. Lei de Zipf = FREQUÊNCIA E OCORRÊNCIA DE PALAVRAS EM TEXTOS (menor esforço, r x f = C). O Cebraspe adora trocar qual autor mede o quê!',
-    'Acoplamento Bibliográfico vs. Cocitação (pegadinha clássica Cebraspe): O acoplamento bibliográfico (M. M. Kessler, 1963) é RETROSPECTIVO e FIXO no tempo (dois artigos citam as mesmas referências passadas, e essa ligação jamais se altera); a cocitação (Henry Small e Irina Marshakova, 1973) é PROSPECTIVA e DINÂMICA (dois artigos são citados conjuntamente por trabalhos futuros, podendo sua intensidade aumentar com o tempo).',
+    'As Três Leis Bibliométricas e suas associações inegociáveis: 1. Lei de Bradford = PRODUTIVIDADE E DISPERSÃO DE PERIÓDICOS (núcleo e zonas 1 : n : n²); 2. Lei de Lotka = PRODUTIVIDADE DE AUTORES (regra do quadrado inverso 1/n²); 3. Lei de Zipf = FREQUÊNCIA E OCORRÊNCIA DE PALAVRAS EM TEXTOS (menor esforço, r x f = C). A técnica de distrator recorrente consiste em trocar qual autor mede o quê!',
+    'Acoplamento Bibliográfico vs. Cocitação (técnica de distrator recorrente): O acoplamento bibliográfico (M. M. Kessler, 1963) é RETROSPECTIVO e FIXO no tempo (dois artigos citam as mesmas referências passadas, e essa ligação jamais se altera); a cocitação (Henry Small e Irina Marshakova, 1973) é PROSPECTIVA e DINÂMICA (dois artigos são citados conjuntamente por trabalhos futuros, podendo sua intensidade aumentar com o tempo).',
     'Fator de Impacto (Eugene Garfield - JCR / Web of Science): calcula a média de citações recebidas no ano corrente por artigos publicados por um periódico nos dois anos anteriores. O denominador do cálculo considera apenas "artigos citáveis" (pesquisas originais e revisões), e NÃO todos os tipos de documentos (cartas e editoriais são excluídos do denominador).',
     'Índice h (Jorge Hirsch, 2005): um pesquisador tem índice h se h de seus trabalhos têm pelo menos h citações cada um. Limitação cobrada em prova (UNEAL 2026 e Cebraspe): o índice h NÃO é uma métrica justa para comparar cientistas em diferentes estágios de carreira nem pesquisadores de áreas distintas com dinâmicas de citação desiguais.',
     'Redes de Coautoria e Análise de Redes Sociais (ARS): nós representam autores e arestas representam publicações conjuntas. A Centralidade de Intermediação (Betweenness Centrality) identifica autores que funcionam como "pontes" ou corretores de informação entre grupos de pesquisa que não colaboram diretamente.',
@@ -360,7 +360,13 @@ Os **Estudos Métricos da Informação (Bibliometria, Cientometria, Infometria e
 - **LOTKA, Alfred J.** The frequency distribution of scientific productivity. *Journal of the Washington Academy of Sciences*, v. 16, n. 12, p. 317-323, 1926.
 - **ZIPF, George K.** *Human Behavior and the Principle of Least Effort*. Cambridge: Addison-Wesley, 1949.
 - **PRIEM, Jason et al.** *Altmetrics: a manifesto*. Altmetrics.org, 2010.
-- **HIRSCH, Jorge E.** An index to quantify an individual's scientific research output. *Proceedings of the National Academy of Sciences (PNAS)*, v. 102, n. 46, p. 16569-16572, 2005.`,
+- **HIRSCH, Jorge E.** An index to quantify an individual's scientific research output. *Proceedings of the National Academy of Sciences (PNAS)*, v. 102, n. 46, p. 16569-16572, 2005.
+
+### Pausa de Recuperação Ativa: Leis de Bradford, Lotka e Zipf
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Relacione cada lei clássica ao seu objeto de medição: Lei de Bradford (dispersão de artigos em periódicos: 1:n:n²), Lei de Lotka (produtividade de autores: 1/n²) e Lei de Zipf (frequência de palavras em textos: r x f = constante).
+`,
   checkpoints: [
     {
       id: 'cp-9-4-1',

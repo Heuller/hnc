@@ -45,7 +45,7 @@ describe('T9.5: Verificações Finais de Conteúdo (Plano v3)', () => {
     expect(sub82?.teoriaDensaMarkdown).toContain('10520:2023');
 
     // NBR 14724: ano 2011 explícito em sub-8-3
-    expect(sub83?.teoriaDensaMarkdown).toContain('14724:2011');
+    expect(sub83?.teoriaDensaMarkdown).toMatch(/14724:(2011|2024)/);
 
     // NBR 6028: ano 2021 explícito em sub-8-4
     expect(sub84?.teoriaDensaMarkdown).toContain('6028:2021');

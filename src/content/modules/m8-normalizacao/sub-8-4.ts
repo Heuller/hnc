@@ -182,7 +182,7 @@ As normas **ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Sumário vs. Índice:** A banca adora trocar os conceitos afirmando que o sumário é uma lista em ordem alfabética posicionada ao final do livro. **Gabarito: ERRADO.** Quem fica ao final em ordem alfabética é o **Índice** (NBR 6034); o **Sumário** fica no início e reproduz a ordem exata das seções do texto.
+- **Sumário vs. Índice:** Técnica de distrator: inversão conceitual ao trocar os conceitos afirmando que o sumário é uma lista em ordem alfabética posicionada ao final do livro. **Gabarito: ERRADO.** Quem fica ao final em ordem alfabética é o **Índice** (NBR 6034); o **Sumário** fica no início e reproduz a ordem exata das seções do texto.
 - **Número de Parágrafos do Resumo:** O Cebraspe propõe que o resumo de uma tese acadêmica deve ser dividido em quatro parágrafos (introdução, método, resultado e conclusão). **Gabarito: ERRADO.** A NBR 6028 determina que o resumo deve ser redigido em **parágrafo único** contínuo!
 - **Verbo na Primeira Pessoa:** Afirmar que o resumo deve usar verbos na primeira pessoa ("concluímos que"). **Gabarito: ERRADO.** A norma prescreve o uso da terceira pessoa do singular com voz ativa.
 

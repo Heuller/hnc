@@ -344,7 +344,13 @@ A modernização dos catálogos exige o domínio sobre esquemas XML avançados, 
 - **LIBRARY OF CONGRESS.** *METS: Metadata Encoding & Transmission Standard: Primer and Reference Manual*. Washington: Library of Congress, 2010.
 - **LIBRARY OF CONGRESS.** *MODS: Metadata Object Description Schema: User Guidelines*. Washington: Library of Congress, 2022.
 - **BERNERS-LEE, Tim.** *Linked Data: Design Issues*. W3C, 2006. (A definição canônica dos quatro princípios e do esquema de cinco estrelas de dados abertos).
-- **HEATH, Tom; BIZER, Christian.** *Linked Data: Evolving the Web into a Global Data Space*. San Rafael: Morgan & Claypool, 2011.`,
+- **HEATH, Tom; BIZER, Christian.** *Linked Data: Evolving the Web into a Global Data Space*. San Rafael: Morgan & Claypool, 2011.
+
+### Pausa de Recuperação Ativa: Entidades WEMI e IFLA LRM
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Recupere a hierarquia do Grupo 1 (WEMI): Obra, Expressão, Manifestação e Item. Em seguida, descreva por que o IFLA LRM tratou o Agente (Pessoa e Entidade Coletiva) e o Res (Qualquer Coisa) como entidades fundamentais no nível topo da ontologia bibliográfica.
+`,
   checkpoints: [
     {
       id: 'cp-2-7-1',

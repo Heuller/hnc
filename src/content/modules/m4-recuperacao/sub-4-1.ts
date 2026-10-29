@@ -241,7 +241,13 @@ Os **Sistemas de Recuperação da Informação (SRI)**, a **Álgebra Booleana** 
 - **MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich.** *Introduction to Information Retrieval*. Cambridge: Cambridge University Press, 2008.
 - **ROBREDO, Jaime.** *Da ciência da informação revisitada aos sistemas humanos de informação*. Brasília: Thesaurus; SSRR Informações, 2005.
 - **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996. (Capítulo sobre avaliação de desempenho de recuperação).
-- **SALTON, Gerard; WONG, Anita; YANG, Chung-Shu.** A vector space model for automatic indexing. *Communications of the ACM*, v. 18, n. 11, p. 613-620, 1975.`,
+- **SALTON, Gerard; WONG, Anita; YANG, Chung-Shu.** A vector space model for automatic indexing. *Communications of the ACM*, v. 18, n. 11, p. 613-620, 1975.
+
+### Pausa de Recuperação Ativa: Precisão vs. Revocação
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Se uma busca recupera 100 documentos, dos quais 80 são relevantes, em uma base que possui no total 160 documentos relevantes sobre o tema, qual é a Precisão e qual é a Revocação dessa consulta? Lembre-se: Precisão = Relevantes Recuperados / Total Recuperados; Revocação = Relevantes Recuperados / Total Relevantes na Base.
+`,
   checkpoints: [
     {
       id: 'cp-4-1-1',

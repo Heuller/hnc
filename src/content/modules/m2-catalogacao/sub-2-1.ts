@@ -102,7 +102,7 @@ Aprovada originalmente na Conferência de Paris de 1961 e atualizada pela IFLA e
 
 1. **Conveniência do Usuário (*Princípio Supremo e Inegociável*):**
    * Todas as decisões relativas à escolha de pontos de acesso, descrições bibliográficas e terminologia devem ser tomadas tendo em vista o esforço mínimo e a máxima facilidade de recuperação pelo usuário da unidade de informação.
-   * *Alerta Cebraspe:* A banca costuma tentar induzir o candidato ao erro afirmando que a regra prioriza a "conveniência dos bibliotecários" ou a "economia da instituição".
+   * *Alerta Cebraspe:* A técnica de elaboração de itens costuma tentar induzir o candidato ao erro afirmando que a regra prioriza a "conveniência dos bibliotecários" ou a "economia da instituição".
 2. **Uso Comum (*Common Usage*):** O vocabulário empregado nas descrições e nos pontos de acesso autorizados deve refletir a linguagem natural e predominante utilizada pela maioria dos usuários do acervo.
 3. **Representação Fidedigna (*Representation*):**
    * O recurso informacional deve ser descrito **exatamente como se apresenta** em sua fonte principal de informação.
@@ -307,7 +307,13 @@ A catalogação descritiva moderna baseia-se em dois pilares fundamentais cobrad
 * **IFLA.** *Declaração de Princípios Internacionais de Catalogação (ICP)*. Tradução de Antonia Memória. Haia/Brasília: IFLA/FEBAB, 2016. (Princípio da Conveniência do Usuário e princípios gerais de catalogação).
 * **CÓDIGO de Catalogação Anglo-Americano (AACR2r).** 2. ed. rev. São Paulo: FEBAB/Imprensa Oficial, 2004. (Regras descritivas, pontuação ISBD e pontos de acesso).
 * **MEY, Eliane Serrão Alves; SILVEIRA, Naira Christofoletti.** *Catalogação no plural*. Brasília: Briquet de Lemos, 2009. (Tratamento descritivo da informação e evolução dos instrumentos).
-* **OLIVER, Chris.** *Introdução ao RDA: um guia básico*. Brasília: Briquet de Lemos, 2011.`,
+* **OLIVER, Chris.** *Introdução ao RDA: um guia básico*. Brasília: Briquet de Lemos, 2011.
+
+### Pausa de Recuperação Ativa: Escolha da Entrada Principal no AACR2
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Como opera a regra de três no AACR2 quando há mais de três autores com a mesma função intelectual? Quem recebe a entrada principal e quais autores recebem entradas secundárias? Relembre a regra do primeiro mencionado e a entrada pelo título.
+`,
   checkpoints: [
     {
       id: 'cp-2-1-1',

@@ -9,8 +9,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à trajetória histórica e aos fundamentos epistemológicos da biblioteconomia, da documentação e da ciência da informação, julgue o item subsequente.",
     "item": "Denomina-se biblioteconomia a área do conhecimento que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso.",
     "gabarito": "E",
-    "justificativa": "Esse conceito canônico, formulado por Harold Borko em 1968 em seu clássico artigo 'Information Science: What is it?', refere-se especificamente à Ciência da Informação, e não à Biblioteconomia.",
-    "armadilhaBanca": "Troca canônica de termos. O Cebraspe substitui 'Ciência da Informação' por 'Biblioteconomia'.",
+    "justificativa": "Gabarito ERRADO. Esse conceito canônico, formulado por Harold Borko em 1968 em seu clássico artigo 'Information Science: What is it?', refere-se especificamente à Ciência da Informação, e não à Biblioteconomia. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -22,7 +22,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711384"
     },
-    "versao_correta": "Denomina-se Ciência da Informação a área do conhecimento que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso."
+    "versao_correta": "Denomina-se Ciência da Informação a área do conhecimento que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso.",
+    "gatilho": "processamento para otimizar a sua acessibilidade e uso"
   },
   {
     "id": "fund-q-2",
@@ -40,7 +41,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
-    }
+    },
+    "gatilho": "1950 por Calvin Mooers, foi um dos",
+    "versao_errada": "O conceito de recuperação da informação (information retrieval), cunhado na década de indevidamente 1950 por calvin mooers, foi um dos sustentáculos conceituais e tecnológicos para o surgimento da ciência da informação."
   },
   {
     "id": "fund-q-3",
@@ -50,15 +53,17 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do movimento da documentação e de seus teóricos fundadores, julgue o item a seguir.",
     "item": "O Tratado de Documentação (Traité de Documentation), publicado em 1934 por Paul Otlet, é considerado um dos marcos percursores dos estudos informacionais ao defender a universalização do conhecimento e o tratamento de múltiplos suportes documentais.",
     "gabarito": "C",
-    "justificativa": "Correto. A obra de Paul Otlet (1934) sistematizou a Documentação, introduziu o princípio monográfico e expandiu o horizonte da organização bibliográfica para além do livro tradicional.",
-    "armadilhaBanca": "Assertiva histórica irretocável sobre a obra de Otlet.",
+    "justificativa": "Gabarito CERTO. Correto. A obra de Paul Otlet (1934) sistematizou a Documentação, introduziu o princípio monográfico e expandiu o horizonte da organização bibliográfica para além do livro tradicional. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / ABIN / 2017"
-    }
+    },
+    "gatilho": "considerado um dos marcos percursores dos estudos",
+    "versao_errada": "O Tratado de Documentação (Traité de Documentation), publicado em 1934 por Paul Otlet, é indevidamente considerado um dos marcos percursores dos estudos informacionais ao defender a universalização do conhecimento e o tratamento de múltiplos suportes documentais."
   },
   {
     "id": "fund-q-4",
@@ -68,8 +73,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das distinções epistemológicas entre as áreas da informação, julgue o item.",
     "item": "Segundo Yves-François Le Coadic, a biblioteconomia dos leitores abrange o conjunto das questões vinculadas à organização administrativa, técnica, material e financeira das bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Incorreto. Para Le Coadic (1996), a 'biblioteconomia dos livros' é a vertente encarregada da gestão administrativa e técnica do acervo. A 'biblioteconomia dos leitores' ocupa-se do estudo das necessidades, uso e mediação.",
-    "armadilhaBanca": "Inversão conceitual simétrica entre as duas vertentes propostas por Le Coadic.",
+    "justificativa": "Gabarito ERRADO. Incorreto. Para Le Coadic (1996), a 'biblioteconomia dos livros' é a vertente encarregada da gestão administrativa e técnica do acervo. A 'biblioteconomia dos leitores' ocupa-se do estudo das necessidades, uso e mediação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -81,7 +86,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-4145121"
     },
-    "versao_correta": "Segundo Yves-François Le Coadic, a biblioteconomia dos livros abrange o conjunto das questões vinculadas à organização administrativa, técnica, material e financeira das bibliotecas, ao passo que a biblioteconomia dos leitores estuda o uso e a mediação."
+    "versao_correta": "Segundo Yves-François Le Coadic, a biblioteconomia dos livros abrange o conjunto das questões vinculadas à organização administrativa, técnica, material e financeira das bibliotecas, ao passo que a biblioteconomia dos leitores estuda o uso e a mediação.",
+    "gatilho": "material e financeira das bibliotecas"
   },
   {
     "id": "fund-q-5",
@@ -99,7 +105,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / 2018"
-    }
+    },
+    "gatilho": "1945, antecipou conceitualmente a navegação hipertextual e",
+    "versao_errada": "O ensaio As We May Think, publicado por Vannevar Bush em indevidamente 1945, antecipou conceitualmente a navegação hipertextual e os sistemas de recuperação por meio da idealização do dispositivo Memex."
   },
   {
     "id": "fund-q-6",
@@ -117,7 +125,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A ciência da informação caracteriza-se por sua marcante natureza interdisciplinar, estabelecendo diálogos teóricos e metodológicos contínuos com a linguística, a ciência da computação e a comunicação."
+    "versao_correta": "A ciência da informação caracteriza-se por sua marcante natureza interdisciplinar, estabelecendo diálogos teóricos e metodológicos contínuos com a linguística, a ciência da computação e a comunicação.",
+    "gatilho": "não estabelecendo diálogos teóricos oumetodológicos com a linguística ou com a ciência da computação"
   },
   {
     "id": "fund-q-7",
@@ -136,7 +145,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "A invenção da imprensa de tipos móveis no século XV revolucionou a velocidade e a capacidade de difusão social dos textos, mantendo a representação temática como processo essencialmente manual."
+    "versao_correta": "A invenção da imprensa de tipos móveis no século XV revolucionou a velocidade e a capacidade de difusão social dos textos, mantendo a representação temática como processo essencialmente manual.",
+    "gatilho": "mantendo inalterada a sua velocidade e capacidade de difusão social"
   },
   {
     "id": "fund-q-8",
@@ -154,7 +164,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / MPE-TO / 2024"
-    }
+    },
+    "gatilho": "caráter social, educativo e democrático, contrapondo-se à",
+    "versao_errada": "A perspectiva funcionalista conferiu às bibliotecas um indevidamente caráter social, educativo e democrático, contrapondo-se à postura histórica puramente patrimonialista e custodial."
   },
   {
     "id": "fund-q-9",
@@ -164,8 +176,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos conceitos fundamentais de documentação propostos por Paul Otlet, julgue o item.",
     "item": "O princípio monográfico formulado por Paul Otlet estabelece que a preservação e a catalogação dos documentos devem priorizar a integridade do suporte encadernado, de modo que cada tomo constitua a unidade indivisível de análise informacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O princípio monográfico de Otlet preconizava exatamente o desmembramento analítico dos temas em fichas padronizadas independentes, separando ideias e dados para recombinação flexível no repertório universal.",
-    "armadilhaBanca": "Apresenta o conceito oposto ao preconizado pelo autor.",
+    "justificativa": "Gabarito ERRADO. O princípio monográfico de Otlet preconizava exatamente o desmembramento analítico dos temas em fichas padronizadas independentes, separando ideias e dados para recombinação flexível no repertório universal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -173,7 +185,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / SUFRAMA / 2014"
     },
-    "versao_correta": "O princípio monográfico defendido por Paul Otlet propunha o desmembramento analítico do conteúdo em fichas padronizadas e destacáveis, permitindo a recombinação temática independente do suporte encadernado."
+    "versao_correta": "O princípio monográfico defendido por Paul Otlet propunha o desmembramento analítico do conteúdo em fichas padronizadas e destacáveis, permitindo a recombinação temática independente do suporte encadernado.",
+    "gatilho": "de modo que cada tomo constitua a unidade indivisível de análise informacional"
   },
   {
     "id": "fund-q-10",
@@ -191,7 +204,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / SEE-PE / 2022"
-    }
+    },
+    "gatilho": "e descrição de repertórios de obras, servindo",
+    "versao_errada": "A bibliografia constituiu-se historicamente como disciplina e técnica de identificação indevidamente e descrição de repertórios de obras, servindo de alicerce para as práticas da biblioteconomia e da documentação."
   },
   {
     "id": "fund-q-11",
@@ -210,7 +225,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / SEE-PE / 2022"
     },
-    "versao_correta": "O advento da Internet e dos catálogos em linha não eliminou a necessidade da Bibliografia Nacional, que permanece essencial para o controle bibliográfico e a preservação da memória editorial de um país."
+    "versao_correta": "O advento da Internet e dos catálogos em linha não eliminou a necessidade da Bibliografia Nacional, que permanece essencial para o controle bibliográfico e a preservação da memória editorial de um país.",
+    "gatilho": "tecnicamente desnecessário e obsoleto para as bibliotecas nacionais"
   },
   {
     "id": "fund-q-12",
@@ -228,7 +244,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / ABIN / 2017"
-    }
+    },
+    "gatilho": "tinha como um de seus objetivos a",
+    "versao_errada": "Criado em 1895 por Paul Otlet e Henri La Fontaine, o Instituto Internacional de Bibliografia indevidamente tinha como um de seus objetivos a criação de um Repertório Bibliográfico Universal que registrasse toda a produção escrita da humanidade."
   },
   {
     "id": "fund-q-13",
@@ -246,7 +264,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A ciência da informação abrange dimensões físicas, cognitivas e sociais, integrando o estudo das tecnologias com os processos humanos, culturais e políticos de apropriação da informação."
+    "versao_correta": "A ciência da informação abrange dimensões físicas, cognitivas e sociais, integrando o estudo das tecnologias com os processos humanos, culturais e políticos de apropriação da informação.",
+    "gatilho": "cognitivas ou políticas"
   },
   {
     "id": "fund-q-14",
@@ -264,7 +283,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / FUB / 2022"
-    }
+    },
+    "gatilho": "fundamentais: a material (gestão dos suportes), a",
+    "versao_errada": "Nas funções essenciais de uma biblioteca identificam-se três propriedades indevidamente fundamentais: a material (gestão dos suportes), a organizacional (processos técnicos) e a comunicacional (disseminação e uso)."
   },
   {
     "id": "fund-q-15",
@@ -282,7 +303,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / MPE-CE / 2025"
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "A biblioteconomia contribui para o desenvolvimento da inteligência artificial e de sistemas generativos indevidamente por meio de seus instrumentos de taxonomia, classificação, ontologias e indexação estruturada."
   },
   {
     "id": "fund-q-16",
@@ -301,7 +324,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / ABIN / 2017"
     },
-    "versao_correta": "O vocábulo documentação foi consolidado por Paul Otlet no final do século XIX, tendo Suzanne Briet ampliado e aprofundado o conceito em sua obra de 1951."
+    "versao_correta": "O vocábulo documentação foi consolidado por Paul Otlet no final do século XIX, tendo Suzanne Briet ampliado e aprofundado o conceito em sua obra de 1951.",
+    "gatilho": "que rejeitou expressamente as ideias anteriormente preconizadas por Paul Otlet no século XIX"
   },
   {
     "id": "fund-q-17",
@@ -319,7 +343,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJ-RR / 2012"
-    }
+    },
+    "gatilho": "(normas positivadas), a jurisprudência (decisões judiciais reiteradas)",
+    "versao_errada": "A informação jurídica compreende três categorias fundamentais: a legislação indevidamente (normas positivadas), a jurisprudência (decisões judiciais reiteradas) e a doutrina (estudos e interpretações científicas do direito)."
   },
   {
     "id": "fund-q-18",
@@ -329,15 +355,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o próximo item, relativo à natureza da informação jurídica e legislativa.",
     "item": "No âmbito dos sistemas de informação legislativa, os acórdãos e súmulas dos tribunais superiores são classificados como fontes primárias de informação legislativa, ao lado das leis ordinárias e complementares.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Jurisprudência é emanada pelos órgãos do Poder Judiciário (tribunais). Quem emana legislação no âmbito federal é o Congresso Nacional. Trata-se de informação jurídica e não legislativa estrita.",
-    "armadilhaBanca": "Confusão intencional entre poderes emissores de fontes jurídicas.",
+    "justificativa": "Gabarito ERRADO. Jurisprudência é emanada pelos órgãos do Poder Judiciário (tribunais). Quem emana legislação no âmbito federal é o Congresso Nacional. Trata-se de informação jurídica e não legislativa estrita. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "No âmbito dos sistemas de informação jurídica, a jurisprudência emana do Poder Judiciário (tribunais), cabendo ao Poder Legislativo a produção de normas legislativas."
+    "versao_correta": "No âmbito dos sistemas de informação jurídica, a jurisprudência emana do Poder Judiciário (tribunais), cabendo ao Poder Legislativo a produção de normas legislativas.",
+    "gatilho": "ao lado das leis ordinárias e complementares"
   },
   {
     "id": "fund-q-19",
@@ -355,7 +382,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A recuperação da informação visa equilibrar revocação e precisão, sendo o silêncio documental (omissão de itens relevantes) uma falha técnica a ser evitada."
+    "versao_correta": "A recuperação da informação visa equilibrar revocação e precisão, sendo o silêncio documental (omissão de itens relevantes) uma falha técnica a ser evitada.",
+    "gatilho": "em detrimento de"
   },
   {
     "id": "fund-q-20",
@@ -366,14 +394,15 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "item": "A Ciência da Informação surgiu na década de 1960 como uma evolução linear da biblioteconomia escolar, voltada a aprimorar as práticas pedagógicas de leitura nas redes de ensino fundamental.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Ciência da Informação emergiu fortemente impulsionada pelas demandas científico-tecnológicas e de inteligência estratégica da Segunda Guerra Mundial e da Guerra Fria, em diálogo com a computação e a recuperação automatizada.",
-    "armadilhaBanca": "Tentativa de apequenar as causas históricas do nascimento da CI.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A ciência da informação originou-se no pós-Segunda Guerra Mundial impulsionada pela explosão bibliográfica e pelas demandas de pesquisa científica e militar, com foco em recuperação automatizada."
+    "versao_correta": "A ciência da informação originou-se no pós-Segunda Guerra Mundial impulsionada pela explosão bibliográfica e pelas demandas de pesquisa científica e militar, com foco em recuperação automatizada.",
+    "gatilho": "voltada a aprimorar as práticas pedagógicas de leitura nas redes de ensino fundamental"
   },
   {
     "id": "fund-q-21",
@@ -391,7 +420,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Pref Cach Itapemirim / 2024"
-    }
+    },
+    "gatilho": "que o acesso universal e compartilhado ao",
+    "versao_errada": "A concepção pacifista de Paul Otlet e Henri La Fontaine baseava-se na premissa de indevidamente que o acesso universal e compartilhado ao conhecimento científico e cultural promoveria a cooperação internacional e a paz entre os povos."
   },
   {
     "id": "fund-q-22",
@@ -408,7 +439,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "do processo mental isolado para os contextos",
+    "versao_errada": "O paradigma social da ciência da informação desloca o foco da mera máquina ou indevidamente do processo mental isolado para os contextos culturais, sociais e linguísticos em que as comunidades de usuários interagem com a informação."
   },
   {
     "id": "fund-q-23",
@@ -443,7 +476,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "na Ciência da Informação entre sua preocupação",
+    "versao_errada": "Tefko Saracevic aponta a existência de uma tensão dialética e estruturante indevidamente na ciência da informação entre sua preocupação com as tecnologias computacionais e sua vocação humana e social."
   },
   {
     "id": "fund-q-25",
@@ -453,15 +488,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da biblioteconomia especializada, julgue o item.",
     "item": "Em bibliotecas parlamentares, a indexação de atos legislativos e pronunciamentos baseia-se na extração automática de palavras-chave da linguagem natural, dispensando vocabulários controlados devido à uniformidade conceitual intrínseca ao jargão jurídico.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A linguagem jurídica e legislativa apresenta especificidades, polissemia e sinonímia expressivas que demandam tesauros especializados, controle terminológico e indexação analítica estruturada.",
-    "armadilhaBanca": "Afirmação absurda ('imune a ambiguidades').",
+    "justificativa": "Gabarito ERRADO. A linguagem jurídica e legislativa apresenta especificidades, polissemia e sinonímia expressivas que demandam tesauros especializados, controle terminológico e indexação analítica estruturada. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "Em uma biblioteca parlamentar, a informação legislativa exige rigoroso tratamento documentário e controle de vocabulário com tesauros especializados para superar ambiguidades da linguagem natural."
+    "versao_correta": "Em uma biblioteca parlamentar, a informação legislativa exige rigoroso tratamento documentário e controle de vocabulário com tesauros especializados para superar ambiguidades da linguagem natural.",
+    "gatilho": "dispensando vocabulários controlados devido à uniformidade conceitual intrínseca ao jargão jurídico"
   },
   {
     "id": "fund-q-26",
@@ -471,15 +507,17 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das cinco leis da biblioteconomia, formuladas por Shiyali Ramamrita Ranganathan, julgue o item.",
     "item": "A primeira lei de Ranganathan — os livros são para usar — estabelece uma ruptura epistemológica com a tradição patrimonialista de conservação estéril, postulando que o valor supremo da biblioteca reside no uso efetivo de seus acervos.",
     "gabarito": "C",
-    "justificativa": "Perfeito. A 1ª Lei de Ranganathan ataca diretamente a prática de priorizar a preservação em detrimento do acesso, determinando que todo o planejamento da biblioteca deve visar à usabilidade.",
-    "armadilhaBanca": "Assertiva que define o cerne da Primeira Lei de Ranganathan.",
+    "justificativa": "Gabarito CERTO. Perfeito. A 1ª Lei de Ranganathan ataca diretamente a prática de priorizar a preservação em detrimento do acesso, determinando que todo o planejamento da biblioteca deve visar à usabilidade. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCE-MG / 2026"
-    }
+    },
+    "gatilho": "epistemológica com a tradição patrimonialista de conservação",
+    "versao_errada": "A primeira lei de Ranganathan — os livros são para usar — estabelece uma ruptura indevidamente epistemológica com a tradição patrimonialista de conservação estéril, postulando que o valor supremo da biblioteca reside no uso efetivo de seus acervos."
   },
   {
     "id": "fund-q-27",
@@ -501,7 +539,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "orgao": "PC DF",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-3240707"
-    }
+    },
+    "gatilho": "efetivado, é primordial que se criem políticas",
+    "versao_errada": "Para que o princípio fundamental contido na primeira lei da biblioteconomia seja indevidamente efetivado, é primordial que se criem políticas ativas de facilitação de acesso e circulação dos livros nas bibliotecas."
   },
   {
     "id": "fund-q-28",
@@ -511,8 +551,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das Cinco Leis da Biblioteconomia, julgue o item subsequente.",
     "item": "Em atendimento à segunda lei da biblioteconomia, as bibliotecas devem partir da premissa básica de que os livros de seu acervo estão à disposição primordialmente para serem guardados e intocados.",
     "gabarito": "E",
-    "justificativa": "Errado por duplo motivo: primeiro, guardar sem uso contraria a 1ª Lei; segundo, a 2ª Lei preconiza 'A cada leitor o seu livro' (democratização e atendimento às necessidades individuais).",
-    "armadilhaBanca": "A banca misturou conceitos arcaicos com a identificação incorreta das leis.",
+    "justificativa": "Gabarito ERRADO. Errado por duplo motivo: primeiro, guardar sem uso contraria a 1ª Lei; segundo, a 2ª Lei preconiza 'A cada leitor o seu livro' (democratização e atendimento às necessidades individuais). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -520,7 +560,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / IPHAN / 2018"
     },
-    "versao_correta": "Em atendimento às leis de Ranganathan, os livros existem para serem usados (1ª Lei), cabendo à segunda lei assegurar que a cada leitor seja garantido o livro adequado às suas necessidades."
+    "versao_correta": "Em atendimento às leis de Ranganathan, os livros existem para serem usados (1ª Lei), cabendo à segunda lei assegurar que a cada leitor seja garantido o livro adequado às suas necessidades.",
+    "gatilho": "à disposição primordialmente para serem guardados e intocados"
   },
   {
     "id": "fund-q-29",
@@ -538,7 +579,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJDFT / 2015"
-    }
+    },
+    "gatilho": "ponto central, fundamentando o princípio da democratização",
+    "versao_errada": "A segunda lei — a cada leitor o seu livro — tem o usuário como indevidamente ponto central, fundamentando o princípio da democratização da leitura e da criação de acervos plurais que atendam a todos os segmentos sociais."
   },
   {
     "id": "fund-q-30",
@@ -556,7 +599,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / 2018"
-    }
+    },
+    "gatilho": "o documento como elemento focal, exigindo técnicas",
+    "versao_errada": "A terceira lei de Ranganathan — a cada livro o seu leitor — tem indevidamente o documento como elemento focal, exigindo técnicas de visibilidade tais como o livre acesso às estantes, exposições temáticas e catalogação analítica."
   },
   {
     "id": "fund-q-31",
@@ -592,7 +637,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "e serviços de referência ágeis constituem aplicações",
+    "versao_errada": "A organização de tesauros legislativos consolidados, catálogos automatizados rápidos indevidamente e serviços de referência ágeis constituem aplicações diretas do postulado de poupar o tempo do usuário."
   },
   {
     "id": "fund-q-33",
@@ -602,8 +649,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à quinta lei de Ranganathan, julgue o item.",
     "item": "Ranganathan formulou a quinta lei — a biblioteca é um organismo em crescimento — com o objetivo de demonstrar que, uma vez concluído o catálogo e preenchidas as estantes, a instituição atinge um estado definitivo e imutável.",
     "gabarito": "E",
-    "justificativa": "Absurdo. A 5ª Lei compara a biblioteca a um organismo biológico vivo, que se transforma constantemente em tamanho de acervo, número de leitores, funcionários e soluções tecnológicas.",
-    "armadilhaBanca": "Negação direta da ideia de 'organismo em crescimento'.",
+    "justificativa": "Gabarito ERRADO. Absurdo. A 5ª Lei compara a biblioteca a um organismo biológico vivo, que se transforma constantemente em tamanho de acervo, número de leitores, funcionários e soluções tecnológicas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -611,7 +658,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / MPU / 2010"
     },
-    "versao_correta": "Ranganathan formulou a quinta lei ('A biblioteca é um organismo em crescimento') para demonstrar que a instituição está em contínua evolução dinâmica de acervos, usuários, processos e instalações."
+    "versao_correta": "Ranganathan formulou a quinta lei ('A biblioteca é um organismo em crescimento') para demonstrar que a instituição está em contínua evolução dinâmica de acervos, usuários, processos e instalações.",
+    "gatilho": "a instituição atinge um estado definitivo e imutável"
   },
   {
     "id": "fund-q-34",
@@ -621,15 +669,17 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de unidades de informação segundo a quinta lei de Ranganathan, julgue o item.",
     "item": "O processo de desbaste e descarte criterioso de materiais obsoletos nas bibliotecas é uma prática que encontra justificativa e sustentação teórica na quinta lei de Ranganathan.",
     "gabarito": "C",
-    "justificativa": "Correto. Para que um organismo vivo cresça de forma saudável, ele precisa renovar suas células. Na biblioteca, o desbaste mantém o acervo útil e viabiliza a gestão do espaço físico.",
-    "armadilhaBanca": "Item que relaciona desbaste acervístico à Quinta Lei.",
+    "justificativa": "Gabarito CERTO. Correto. Para que um organismo vivo cresça de forma saudável, ele precisa renovar suas células. Na biblioteca, o desbaste mantém o acervo útil e viabiliza a gestão do espaço físico. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJDFT / 2015"
-    }
+    },
+    "gatilho": "nas bibliotecas é uma prática que encontra",
+    "versao_errada": "O processo de desbaste e descarte criterioso de materiais obsoletos indevidamente nas bibliotecas é uma prática que encontra justificativa e sustentação teórica na quinta lei de Ranganathan."
   },
   {
     "id": "fund-q-35",
@@ -647,7 +697,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJ-PA / 2025"
-    }
+    },
+    "gatilho": "a essência dos preceitos de Ranganathan, adaptando",
+    "versao_errada": "As releituras modernas formuladas para a sociedade da informação mantêm indevidamente a essência dos preceitos de ranganathan, adaptando os termos clássicos 'livro' e 'leitor' para 'informação' e 'usuário'."
   },
   {
     "id": "fund-q-36",
@@ -657,15 +709,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o item a seguir, referente às Cinco Novas Leis da Biblioteconomia propostas por Michael Gorman.",
     "item": "Em sua releitura contemporânea das leis da biblioteconomia, Michael Gorman sustentou que as bibliotecas modernas devem substituir integralmente os suportes físicos pelas coleções digitais em rede, em consonância com a dinâmica de desmaterialização dos acervos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Michael Gorman é um dos maiores defensores do equilíbrio entre a herança bibliográfica impressa e o meio digital, como sintetizado em sua quinta lei: \"Honre o passado e crie o futuro\".",
-    "armadilhaBanca": "Distorção das ideias humanistas e integradoras de Michael Gorman.",
+    "justificativa": "Gabarito ERRADO. Michael Gorman é um dos maiores defensores do equilíbrio entre a herança bibliográfica impressa e o meio digital, como sintetizado em sua quinta lei: \"Honre o passado e crie o futuro\". A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "Em sua releitura contemporânea (1995), Michael Gorman propôs honrar o passado e criar o futuro, valorizando o patrimônio bibliográfico impresso integrado aos novos serviços digitais."
+    "versao_correta": "Em sua releitura contemporânea (1995), Michael Gorman propôs honrar o passado e criar o futuro, valorizando o patrimônio bibliográfico impresso integrado aos novos serviços digitais.",
+    "gatilho": "em consonância com a dinâmica de desmaterialização dos acervos"
   },
   {
     "id": "fund-q-37",
@@ -682,7 +735,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "o postulado de que as bibliotecas servem",
+    "versao_errada": "Entre as leis propostas por Michael Gorman para a biblioteconomia moderna inclui-se indevidamente o postulado de que as bibliotecas servem à humanidade e devem utilizar a tecnologia inteligentemente para aprimorar seus serviços."
   },
   {
     "id": "fund-q-38",
@@ -692,8 +747,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às obrigações decorrentes da segunda lei de Ranganathan, julgue o item.",
     "item": "De acordo com a formulação original de Ranganathan, as exigências da segunda lei da biblioteconomia concentram-se no dever técnico de mediação do bibliotecário, cabendo aos leitores papel passivo na recepção dos acervos disponibilizados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Ranganathan dedica seções específicas detalhando as obrigações tripartite da 2ª Lei: obrigações do Estado (manutenção financeira e leis), do bibliotecário (dedicação e mediação) e dos próprios leitores (zelo e cooperação).",
-    "armadilhaBanca": "Generalização restritiva indevida da banca ('apenas aos bibliotecários').",
+    "justificativa": "Gabarito ERRADO. Ranganathan dedica seções específicas detalhando as obrigações tripartite da 2ª Lei: obrigações do Estado (manutenção financeira e leis), do bibliotecário (dedicação e mediação) e dos próprios leitores (zelo e cooperação). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -701,7 +756,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / IPHAN / 2018 (Adaptada)"
     },
-    "versao_correta": "Segundo Ranganathan, a segunda lei impõe obrigações compartilhadas ao Estado (financiamento e legislação), aos bibliotecários (mediação acolhedora) e aos leitores (zelo e cooperação)."
+    "versao_correta": "Segundo Ranganathan, a segunda lei impõe obrigações compartilhadas ao Estado (financiamento e legislação), aos bibliotecários (mediação acolhedora) e aos leitores (zelo e cooperação).",
+    "gatilho": "cabendo aos leitores papel passivo na recepção dos acervos disponibilizados"
   },
   {
     "id": "fund-q-39",
@@ -737,7 +793,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "os atos e doutrinas de seu interesse",
+    "versao_errada": "O serviço de Disseminação Seletiva da Informação (DSI), ao enviar previamente aos parlamentares indevidamente os atos e doutrinas de seu interesse imediato, é um exemplo prático de atendimento à quarta lei de Ranganathan."
   },
   {
     "id": "fund-q-41",
@@ -747,15 +805,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das Leis de Ranganathan, julgue o item subsequente.",
     "item": "Na formulação da quinta lei da biblioteconomia, Ranganathan concebe o crescimento do acervo como processo autônomo e cumulativo, dispensando diretrizes prévias de desbastamento e readequação de layout arquitetônico.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A 5ª Lei (\"A biblioteca é um organismo em crescimento\") exige justamente planejamento flexível e dinâmico para prever o crescimento harmônico de coleções, leitores, edifícios e equipes.",
-    "armadilhaBanca": "Afirmação que propõe o oposto da gestão e do planejamento.",
+    "justificativa": "Gabarito ERRADO. A 5ª Lei (\"A biblioteca é um organismo em crescimento\") exige justamente planejamento flexível e dinâmico para prever o crescimento harmônico de coleções, leitores, edifícios e equipes. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "Ao afirmar que a biblioteca é um organismo em crescimento, Ranganathan exige o planejamento flexível e preventivo da expansão espacial, dos desbastes e da equipe profissional."
+    "versao_correta": "Ao afirmar que a biblioteca é um organismo em crescimento, Ranganathan exige o planejamento flexível e preventivo da expansão espacial, dos desbastes e da equipe profissional.",
+    "gatilho": "dispensando diretrizes prévias de desbastamento e readequação de layout arquitetônico"
   },
   {
     "id": "fund-q-42",
@@ -773,7 +832,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / MPU / 2010"
-    }
+    },
+    "gatilho": "abordagem matemática e de dedução lógica de",
+    "versao_errada": "Ranganathan desenvolveu suas cinco leis a partir de uma indevidamente abordagem matemática e de dedução lógica de postulados e cânones, buscando conferir estatuto científico à biblioteconomia."
   },
   {
     "id": "fund-q-43",
@@ -783,8 +844,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o item seguinte, relativo às Leis de Ranganathan.",
     "item": "Para Ranganathan, a iluminação adequada, a ventilação do ambiente e a ergonomia do mobiliário da biblioteca constituem fatores estéticos externos desvinculados dos preceitos teóricos da primeira lei da biblioteconomia.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Ranganathan analisa que iluminação deficiente, assentos desconfortáveis e ambientes insalubres afastam os leitores e inviabilizam o uso dos livros, colidindo diretamente com a 1ª Lei (\"Os livros são para usar\").",
-    "armadilhaBanca": "Restrição indevida das implicações físicas da 1ª Lei.",
+    "justificativa": "Gabarito ERRADO. Ranganathan analisa que iluminação deficiente, assentos desconfortáveis e ambientes insalubres afastam os leitores e inviabilizam o uso dos livros, colidindo diretamente com a 1ª Lei (\"Os livros são para usar\"). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -792,7 +853,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCE-MG / 2026"
     },
-    "versao_correta": "Para Ranganathan, o conforto ergonômico, a boa iluminação e a ambiência acolhedora são condições materiais diretas para que os livros sejam efetivamente usados (1ª Lei)."
+    "versao_correta": "Para Ranganathan, o conforto ergonômico, a boa iluminação e a ambiência acolhedora são condições materiais diretas para que os livros sejam efetivamente usados (1ª Lei).",
+    "gatilho": "dos preceitos teóricos da primeira lei da biblioteconomia"
   },
   {
     "id": "fund-q-44",
@@ -827,7 +889,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "o armazenamento em nuvem constituem manifestações modernas",
+    "versao_errada": "A transição de acervos para repositórios digitais institucionais e indevidamente o armazenamento em nuvem constituem manifestações modernas da adaptação contínua preconizada pela quinta lei de Ranganathan."
   },
   {
     "id": "fund-q-46",
@@ -837,8 +901,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o próximo item, a respeito das Cinco Leis de Ranganathan.",
     "item": "A formulação \"a cada leitor seu livro\" restringe o compromisso da biblioteca aos usuários formalmente alfabetizados e habilitados para a leitura acadêmica, direcionando públicos com deficiência ou baixa literacia para instituições assistenciais especializadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A 2ª Lei é o grande marco da democratização e da inclusão: todo cidadão tem direito à informação compatível com sua condição, alcançando pessoas com deficiência, idosos e crianças.",
-    "armadilhaBanca": "Negativa elitista que colide com a doutrina de Ranganathan.",
+    "justificativa": "Gabarito ERRADO. A 2ª Lei é o grande marco da democratização e da inclusão: todo cidadão tem direito à informação compatível com sua condição, alcançando pessoas com deficiência, idosos e crianças. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -846,7 +910,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJDFT / 2015"
     },
-    "versao_correta": "A segunda lei da biblioteconomia ('A cada leitor o seu livro') consagra o princípio universal da democratização, garantindo o direito à leitura e à informação a todos os grupos sociais sem distinção."
+    "versao_correta": "A segunda lei da biblioteconomia ('A cada leitor o seu livro') consagra o princípio universal da democratização, garantindo o direito à leitura e à informação a todos os grupos sociais sem distinção.",
+    "gatilho": "direcionando públicos com deficiência ou baixa literacia para instituições assistenciais especializadas"
   },
   {
     "id": "fund-q-47",
@@ -863,7 +928,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "simples consulta de livros na biblioteca atenta",
+    "versao_errada": "A exigência de depósitos em dinheiro e taxas escorchantes para indevidamente simples consulta de livros na biblioteca atenta diretamente contra os postulados da primeira lei de Ranganathan."
   },
   {
     "id": "fund-q-48",
@@ -881,7 +948,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJ-PA / 2025"
-    }
+    },
+    "gatilho": "corresponde à tradução das premissas da segunda",
+    "versao_errada": "A assertiva 'A cada usuário sua informação e a cada informação seu usuário' indevidamente corresponde à tradução das premissas da segunda e terceira leis de Ranganathan para a terminologia da Ciência da Informação."
   },
   {
     "id": "fund-q-49",
@@ -916,7 +985,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "com busca booleana por palavras-chave é um",
+    "versao_errada": "A evolução dos catálogos em fichas de papel para sistemas automatizados indevidamente com busca booleana por palavras-chave é um avanço tecnológico que atende expressamente à quarta lei de Ranganathan."
   },
   {
     "id": "fund-q-51",
@@ -934,7 +1005,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
-    }
+    },
+    "gatilho": "por não possuir contextualização, é incapaz por",
+    "versao_errada": "Dado constitui um registro quantitativo ou qualitativo bruto e isolado que, indevidamente por não possuir contextualização, é incapaz por si só de transmitir uma mensagem e reduzir a incerteza."
   },
   {
     "id": "fund-q-52",
@@ -953,7 +1026,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "Na ciência da informação, informação é o dado estruturado e comunicável em suporte externo, enquanto o conhecimento é a sua apropriação e internalização na mente humana."
+    "versao_correta": "Na ciência da informação, informação é o dado estruturado e comunicável em suporte externo, enquanto o conhecimento é a sua apropriação e internalização na mente humana.",
+    "gatilho": "considerando-se o texto gravado no suporte idêntico ao processo cognitivo de compreensão pelo leitor"
   },
   {
     "id": "fund-q-53",
@@ -971,7 +1045,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / EBESERH / 2018"
-    }
+    },
+    "gatilho": "pode ser compreendida em três dimensões distintas:",
+    "versao_errada": "Segundo Michael Buckland, a informação indevidamente pode ser compreendida em três dimensões distintas: informação-como-processo, informação-como-conhecimento e informação-como-coisa."
   },
   {
     "id": "fund-q-54",
@@ -994,7 +1070,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646317"
     },
-    "versao_correta": "No pensamento de Buckland, a informação-como-coisa compreende qualquer entidade física ou objeto material (inclusive artefatos, fósseis e dados digitais) considerado informativo."
+    "versao_correta": "No pensamento de Buckland, a informação-como-coisa compreende qualquer entidade física ou objeto material (inclusive artefatos, fósseis e dados digitais) considerado informativo.",
+    "gatilho": "imagens e sons são excluídos dessa categoria"
   },
   {
     "id": "fund-q-55",
@@ -1004,14 +1081,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às dimensões da informação propostas por Buckland, julgue o item.",
     "item": "A informação-como-coisa é a única dimensão informacional que pode ser diretamente armazenada, recuperada, duplicada e processada fisicamente por sistemas de informação automatizados.",
     "gabarito": "C",
-    "justificativa": "Certo. Sistemas computacionais e bibliotecas só operam diretamente coisas físicas ou dados digitais (coisas); o conhecimento e o processo mental ocorrem exclusivamente no ser humano.",
-    "armadilhaBanca": "Item conceitualmente preciso da tese de Buckland.",
+    "justificativa": "Gabarito CERTO. Certo. Sistemas computacionais e bibliotecas só operam diretamente coisas físicas ou dados digitais (coisas); o conhecimento e o processo mental ocorrem exclusivamente no ser humano. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "pode ser diretamente armazenada, recuperada, duplicada e",
+    "versao_errada": "A informação-como-coisa é a única dimensão informacional que indevidamente pode ser diretamente armazenada, recuperada, duplicada e processada fisicamente por sistemas de informação automatizados."
   },
   {
     "id": "fund-q-56",
@@ -1029,7 +1108,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJ-RR / 2012"
-    }
+    },
+    "gatilho": "dados, conservado ou registrado com o fim",
+    "versao_errada": "Suzanne Briet definiu documento como todo indício ou suporte material de indevidamente dados, conservado ou registrado com o fim de representar, reconstituir ou provar um fenômeno físico ou intelectual."
   },
   {
     "id": "fund-q-57",
@@ -1039,15 +1120,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do célebre exemplo do antílope de Suzanne Briet, julgue o item.",
     "item": "Conforme o pensamento de Suzanne Briet, um animal selvagem vivo em seu habitat natural já constitui, por si mesmo, um documento para a ciência zoológica.",
     "gabarito": "E",
-    "justificativa": "Incorreto. O animal livre na natureza é apenas um fato/ser natural. Ele só se converte em documento quando capturado, catalogado, exposto e descrito cientificamente como espécime/indício.",
-    "armadilhaBanca": "Pegadinha clássica sobre as condições de documentaridade de Briet.",
+    "justificativa": "Gabarito ERRADO. Incorreto. O animal livre na natureza é apenas um fato/ser natural. Ele só se converte em documento quando capturado, catalogado, exposto e descrito cientificamente como espécime/indício. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "Conforme Suzanne Briet, um animal livre na natureza não é documento; ele torna-se documento ao ser capturado, classificado e colocado sob observação como indício científico."
+    "versao_correta": "Conforme Suzanne Briet, um animal livre na natureza não é documento; ele torna-se documento ao ser capturado, classificado e colocado sob observação como indício científico.",
+    "gatilho": "um documento para a ciência zoológica"
   },
   {
     "id": "fund-q-58",
@@ -1065,7 +1147,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / SUFRAMA / 2014"
-    }
+    },
+    "gatilho": "da ciência da informação, são requeridos atributos",
+    "versao_errada": "Para que um objeto seja considerado um documento no âmbito indevidamente da ciência da informação, são requeridos atributos como materialidade, intencionalidade e capacidade de comunicação ou prova."
   },
   {
     "id": "fund-q-59",
@@ -1083,7 +1167,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / EBESERH / 2018"
-    }
+    },
+    "gatilho": "signos visuais e registros digitais em bancos",
+    "versao_errada": "A documentação considera perfurações em cartão, sinais magnéticos em fitas, indevidamente signos visuais e registros digitais em bancos de dados como documentos do tipo suporte de dados."
   },
   {
     "id": "fund-q-60",
@@ -1101,7 +1187,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / EBESERH / 2018"
-    }
+    },
+    "gatilho": "e hierarquização de conceitos para indexação, enquanto",
+    "versao_errada": "Na representação do documento, a análise de assunto diz respeito à identificação indevidamente e hierarquização de conceitos para indexação, enquanto a representação descritiva atém-se aos elementos formais e físicos do item."
   },
   {
     "id": "fund-q-61",
@@ -1111,15 +1199,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao conceito de documento digital e documento eletrônico, julgue o item.",
     "item": "Na tipologia documental contemporânea, a categoria de documento eletrônico é sinônima e restrita à de documento digital, pois o registro codificado em impulsos elétricos estrutura-se em formato binário.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O documento eletrônico engloba registros analógicos (ex.: fitas de videocassete VHS, fitas cassete de áudio) e digitais (código binário). Todo documento digital é eletrônico, mas nem todo eletrônico é digital.",
-    "armadilhaBanca": "Inversão da relação de contenção lógica entre eletrônico e digital.",
+    "justificativa": "Gabarito ERRADO. O documento eletrônico engloba registros analógicos (ex.: fitas de videocassete VHS, fitas cassete de áudio) e digitais (código binário). Todo documento digital é eletrônico, mas nem todo eletrônico é digital. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "Todo documento digital é eletrônico, mas nem todo documento eletrônico é digital, pois existem documentos eletrônicos analógicos (como fitas magnéticas VHS e cassete)."
+    "versao_correta": "Todo documento digital é eletrônico, mas nem todo documento eletrônico é digital, pois existem documentos eletrônicos analógicos (como fitas magnéticas VHS e cassete).",
+    "gatilho": "pois o registro codificado em impulsos elétricos estrutura-se em formato binário"
   },
   {
     "id": "fund-q-62",
@@ -1136,7 +1225,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "em seu estado de conhecimento, cumpre a",
+    "versao_errada": "A informação, ao ser assimilada pelo indivíduo e gerar modificação indevidamente em seu estado de conhecimento, cumpre a função descrita por teóricos cognitivos como redução da incerteza."
   },
   {
     "id": "fund-q-63",
@@ -1146,8 +1237,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da teoria do documento, julgue o item subsequente.",
     "item": "Segundo a teoria da documentação contemporânea, a intencionalidade de um objeto cultural decorre do ato interpretativo do leitor no momento da consulta, afastando a influência dos propósitos de registro definidos pelo produtor original.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A intencionalidade decorre prioritariamente do ato de criação/produção ou da seleção institucional para guarda com fins de comunicação e prova, articulando-se com a leitura posterior.",
-    "armadilhaBanca": "Atribuição exclusiva e distorcida da intencionalidade documental.",
+    "justificativa": "Gabarito ERRADO. A intencionalidade decorre prioritariamente do ato de criação/produção ou da seleção institucional para guarda com fins de comunicação e prova, articulando-se com a leitura posterior. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1155,7 +1246,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / SUFRAMA / 2014"
     },
-    "versao_correta": "Na teoria documental, a intencionalidade pode ser originária (no ato de produção com propósito informativo) ou derivada (pela seleção institucional para guarda como prova/evidência)."
+    "versao_correta": "Na teoria documental, a intencionalidade pode ser originária (no ato de produção com propósito informativo) ou derivada (pela seleção institucional para guarda como prova/evidência).",
+    "gatilho": "afastando a influência dos propósitos de registro definidos pelo produtor original"
   },
   {
     "id": "fund-q-64",
@@ -1172,7 +1264,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "elaborado pelo homem com o intuito de",
+    "versao_errada": "Para Eliane Mey, o documento é o registro de dados ou de informações indevidamente elaborado pelo homem com o intuito de fixar e transmitir o conhecimento humano através do tempo e do espaço."
   },
   {
     "id": "fund-q-65",
@@ -1225,7 +1319,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "à Constituição (PEC) em tramitação e os",
+    "versao_errada": "No contexto parlamentar da Câmara dos Deputados, uma Proposta de Emenda indevidamente à constituição (pec) em tramitação e os pareceres das comissões são documentos dotados de valor probatório e administrativo."
   },
   {
     "id": "fund-q-68",
@@ -1243,7 +1339,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "O documento digital mantém materialidade física através de estados eletrônicos e magnéticos armazenados em memórias, discos e servidores de rede."
+    "versao_correta": "O documento digital mantém materialidade física através de estados eletrônicos e magnéticos armazenados em memórias, discos e servidores de rede.",
+    "gatilho": "possuir qualquer materialidade física ou registro em hardware"
   },
   {
     "id": "fund-q-69",
@@ -1278,7 +1375,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "de consultorias e normas internas que não",
+    "versao_errada": "A literatura cinzenta compreende documentos como teses, relatórios técnicos indevidamente de consultorias e normas internas que não são veiculados pelos canais comerciais tradicionais de publicação."
   },
   {
     "id": "fund-q-71",
@@ -1314,7 +1413,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
-    }
+    },
+    "gatilho": "relação entre o usuário e o documento",
+    "versao_errada": "Significação e recepção são fenômenos intrínsecos à indevidamente relação entre o usuário e o documento, determinando a interpretação do conteúdo registrado."
   },
   {
     "id": "fund-q-73",
@@ -1331,7 +1432,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "sua criação (administrativas, legais ou fiscais), enquanto",
+    "versao_errada": "O valor primário de um documento relaciona-se às razões originais de indevidamente sua criação (administrativas, legais ou fiscais), enquanto o valor secundário decorre de seu uso histórico, testemunhal e científico."
   },
   {
     "id": "fund-q-74",
@@ -1349,7 +1452,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "O conhecimento tácito é inerente à experiência individual e à ação prática, apresentando limitações e perdas ao ser codificado em formato explícito."
+    "versao_correta": "O conhecimento tácito é inerente à experiência individual e à ação prática, apresentando limitações e perdas ao ser codificado em formato explícito.",
+    "gatilho": "sem retenção de intuições práticas ou experiência acumulada"
   },
   {
     "id": "fund-q-75",
@@ -1366,7 +1470,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "descrevem, explicam e localizam outros recursos informacionais",
+    "versao_errada": "Os metadados desempenham a função de dados estruturados que indevidamente descrevem, explicam e localizam outros recursos informacionais, permitindo sua gestão e preservação ao longo do tempo."
   },
   {
     "id": "fund-q-76",
@@ -1384,7 +1490,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STF / 2008"
-    }
+    },
+    "gatilho": "privativo dos bacharéis em biblioteconomia portadores de",
+    "versao_errada": "O exercício da profissão de bibliotecário em qualquer de seus ramos é indevidamente privativo dos bacharéis em biblioteconomia portadores de carteira de identidade profissional expedida pelo respectivo Conselho Regional de Biblioteconomia."
   },
   {
     "id": "fund-q-77",
@@ -1402,7 +1510,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A realização de perícias técnicas e a emissão de laudos sobre organização e serviços de bibliotecas constituem atribuições privativas dos bacharéis em Biblioteconomia (Lei 4.084/62, Art. 6º)."
+    "versao_correta": "A realização de perícias técnicas e a emissão de laudos sobre organização e serviços de bibliotecas constituem atribuições privativas dos bacharéis em Biblioteconomia (Lei 4.084/62, Art. 6º).",
+    "gatilho": "em ciências humanas com especialização em patrimônio histórico"
   },
   {
     "id": "fund-q-78",
@@ -1440,7 +1549,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STF / 2008 (Adaptada)"
     },
-    "versao_correta": "O magistério de disciplinas técnicas e privativas de Biblioteconomia é prerrogativa privativa de bibliotecários devidamente registrados no Conselho Regional (Lei 4.084/62, Art. 6º, 'd')."
+    "versao_correta": "O magistério de disciplinas técnicas e privativas de Biblioteconomia é prerrogativa privativa de bibliotecários devidamente registrados no Conselho Regional (Lei 4.084/62, Art. 6º, 'd').",
+    "gatilho": "prescindindo de habilitação profissional específica no conselho de classe da categoria"
   },
   {
     "id": "fund-q-80",
@@ -1450,15 +1560,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o próximo item, relativo às sanções disciplinares previstas na legislação do CFB.",
     "item": "A penalidade disciplinar de cassação definitiva do registro profissional de bibliotecário pode ser aplicada de ofício por delegados regionais de biblioteconomia em procedimento sumário sem duplo grau de jurisdição.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A cassação do registro é a sanção máxima e compete privativamente ao Conselho Federal de Biblioteconomia (CFB), exigindo processo administrativo disciplinar com contraditório e ampla defesa.",
-    "armadilhaBanca": "Inversão de competência punitiva entre CRB e CFB e violação do devido processo legal.",
+    "justificativa": "Gabarito ERRADO. A cassação do registro é a sanção máxima e compete privativamente ao Conselho Federal de Biblioteconomia (CFB), exigindo processo administrativo disciplinar com contraditório e ampla defesa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A penalidade disciplinar de cassação definitiva do registro profissional é de competência privativa do Conselho Federal de Biblioteconomia (CFB), mediante processo administrativo com contraditório e ampla defesa."
+    "versao_correta": "A penalidade disciplinar de cassação definitiva do registro profissional é de competência privativa do Conselho Federal de Biblioteconomia (CFB), mediante processo administrativo com contraditório e ampla defesa.",
+    "gatilho": "em procedimento sumário sem duplo grau de jurisdição"
   },
   {
     "id": "fund-q-81",
@@ -1476,7 +1587,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STF / 2008"
-    }
+    },
+    "gatilho": "de que tenha conhecimento em decorrência do",
+    "versao_errada": "Constitui dever fundamental do bibliotecário guardar sigilo sobre fatos ou informações indevidamente de que tenha conhecimento em decorrência do exercício de suas funções, salvo em situações de obrigação legal."
   },
   {
     "id": "fund-q-82",
@@ -1514,7 +1627,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCDF / 2014 (Adaptada)"
     },
-    "versao_correta": "Constituem infrações éticas expressas a retenção abusiva de documentos de clientes e o aviltamento de honorários profissionais para captação desleal de clientela."
+    "versao_correta": "Constituem infrações éticas expressas a retenção abusiva de documentos de clientes e o aviltamento de honorários profissionais para captação desleal de clientela.",
+    "gatilho": "a forçar a liquidação de faturas em atraso"
   },
   {
     "id": "fund-q-84",
@@ -1531,7 +1645,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "ético da profissão, possuindo competência para editar",
+    "versao_errada": "O CFB funciona como órgão normativo superior e tribunal recursal indevidamente ético da profissão, possuindo competência para editar resoluções e fiscalizar as ações dos Conselhos Regionais (CRBs)."
   },
   {
     "id": "fund-q-85",
@@ -1585,7 +1701,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "outras sanções disciplinares, tais como a censura",
+    "versao_errada": "A pena de multa pode ser cumulada com indevidamente outras sanções disciplinares, tais como a censura pública ou a suspensão do exercício profissional."
   },
   {
     "id": "fund-q-88",
@@ -1620,7 +1738,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "setores técnicos de bibliotecas de órgãos públicos",
+    "versao_errada": "Os Conselhos Regionais de Biblioteconomia têm o poder-dever de fiscalizar os indevidamente setores técnicos de bibliotecas de órgãos públicos, inclusive do Poder Legislativo, verificando a habilitação dos responsáveis técnicos."
   },
   {
     "id": "fund-q-90",
@@ -1637,7 +1757,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "pelas ações ou omissões culposas e dolosas",
+    "versao_errada": "O bibliotecário responde civil, penal e administrativamente indevidamente pelas ações ou omissões culposas e dolosas praticadas no exercício de suas atribuições profissionais."
   },
   {
     "id": "fund-q-91",
@@ -1655,7 +1777,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STF / 2008"
-    }
+    },
+    "gatilho": "cultural e tecnologicamente, participando de processos de",
+    "versao_errada": "O bibliotecário tem o dever ético de manter-se atualizado indevidamente cultural e tecnologicamente, participando de processos de capacitação contínua e compartilhando saberes com a comunidade profissional."
   },
   {
     "id": "fund-q-92",
@@ -1665,15 +1789,16 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do registro profissional temporário, julgue o item subsequente.",
     "item": "A legislação que regulamenta a profissão de bibliotecário autoriza a atuação provisória de bacharéis em áreas afins na gestão de bibliotecas especializadas enquanto tramita o registro profissional definitivo no conselho de classe.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O exercício da profissão de bibliotecário sem diploma reconhecido e sem registro ativo no Conselho Regional de Biblioteconomia configura exercício ilegal de profissão regulamentada.",
-    "armadilhaBanca": "Aberração jurídica que desfigura a profissão regulamentada.",
+    "justificativa": "Gabarito ERRADO. O exercício da profissão de bibliotecário sem diploma reconhecido e sem registro ativo no Conselho Regional de Biblioteconomia configura exercício ilegal de profissão regulamentada. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "O exercício da profissão de bibliotecário exige a conclusão de bacharelado em Biblioteconomia em instituição oficial e o registro profissional ativo no respectivo CRB."
+    "versao_correta": "O exercício da profissão de bibliotecário exige a conclusão de bacharelado em Biblioteconomia em instituição oficial e o registro profissional ativo no respectivo CRB.",
+    "gatilho": "o registro profissional definitivo no conselho de classe"
   },
   {
     "id": "fund-q-93",
@@ -1691,7 +1816,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A publicidade profissional do bibliotecário deve ser sóbria e verídica, sendo proibido veicular promessas infundadas ou utilizar concorrência desleal com honorários aviltados."
+    "versao_correta": "A publicidade profissional do bibliotecário deve ser sóbria e verídica, sendo proibido veicular promessas infundadas ou utilizar concorrência desleal com honorários aviltados.",
+    "gatilho": "é facultado"
   },
   {
     "id": "fund-q-94",
@@ -1727,7 +1853,8 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
     },
-    "versao_correta": "A penalidade de censura pública tem como requisito essencial a sua publicação no Diário Oficial e nos canais de comunicação do conselho de classe."
+    "versao_correta": "A penalidade de censura pública tem como requisito essencial a sua publicação no Diário Oficial e nos canais de comunicação do conselho de classe.",
+    "gatilho": "prescinde de"
   },
   {
     "id": "fund-q-96",
@@ -1745,7 +1872,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCDF / 2014"
-    }
+    },
+    "gatilho": "autorais das obras, orientando os usuários sobre",
+    "versao_errada": "O bibliotecário deve zelar pelo respeito à propriedade intelectual e aos direitos indevidamente autorais das obras, orientando os usuários sobre a legislação pertinente e coibindo práticas ilegais de reprodução integral predatória."
   },
   {
     "id": "fund-q-97",
@@ -1780,7 +1909,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "voto direto e obrigatório dos bibliotecários registrados",
+    "versao_errada": "Os conselheiros dos CRBs são eleitos por voto direto e opcional dos bibliotecários registrados e em situação regular perante o conselho."
   },
   {
     "id": "fund-q-99",
@@ -1798,7 +1929,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCDF / 2014"
-    }
+    },
+    "gatilho": "atribuição privativa privativa dos bacharéis em Biblioteconomia",
+    "versao_errada": "A direção e chefia dos órgãos de bibliotecas centrais da administração pública direta é indevidamente atribuição privativa privativa dos bacharéis em biblioteconomia nos termos do artigo sexto da Lei Federal quatro mil e oitenta e quatro."
   },
   {
     "id": "fund-q-100",

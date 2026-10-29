@@ -57,7 +57,7 @@ export const submodulo66: ModuloFilho = {
   alertasCebraspe: [
     'Ordem Lógica de Execução no SQL vs. Ordem de Escrita: O Cebraspe testa exaustivamente a diferença entre WHERE e HAVING. A cláusula WHERE filtra tuplas individuais ANTES de qualquer agrupamento e não admite funções de agregação (como COUNT ou SUM). Já a cláusula HAVING filtra os GRUPOS formados pelo GROUP BY APÓS a aplicação das funções de agregação. A ordem lógica real de processamento interno é: 1. FROM/JOIN -> 2. WHERE -> 3. GROUP BY -> 4. HAVING -> 5. SELECT -> 6. DISTINCT -> 7. ORDER BY -> 8. LIMIT.',
     'Expressões Regulares (Regex) e o Metacaractere Ponto: Em regex, o metacaractere "." representa qualquer caractere único (exceto quebras de linha na configuração padrão). Para representar o caractere ponto literal (como em abreviaturas ou separadores decimais), é estritamente obrigatório usar o escape com barra invertida "\\.". A banca frequentemente afirma que o ponto em regex busca apenas o ponto ortográfico: ERRADO!',
-    'Web Scraping e a Falsa Imunidade de Dados Públicos na LGPD: O Cebraspe adora a seguinte armadilha: "por estarem disponíveis em páginas públicas da internet, dados pessoais podem ser raspados e reutilizados livremente sem submissão à LGPD". ERRADO! O art. 7º, §§ 3º e 4º da Lei nº 13.709/2018 estabelece que o tratamento de dados pessoais tornados manifestamente públicos pelo titular exige a observância dos princípios da finalidade, boa-fé e interesse público, mantendo-se incólumes os direitos do titular.',
+    'Web Scraping e a Falsa Imunidade de Dados Públicos na LGPD: A técnica de distrator recorrente consiste em a seguinte armadilha: "por estarem disponíveis em páginas públicas da internet, dados pessoais podem ser raspados e reutilizados livremente sem submissão à LGPD". ERRADO! O art. 7º, §§ 3º e 4º da Lei nº 13.709/2018 estabelece que o tratamento de dados pessoais tornados manifestamente públicos pelo titular exige a observância dos princípios da finalidade, boa-fé e interesse público, mantendo-se incólumes os direitos do titular.',
     'Natureza Jurídica do Arquivo robots.txt: O arquivo robots.txt é um padrão de exclusão de robôs decorrente de convenção técnica e de etiqueta na Web, não constituindo por si só norma jurídica estatal nem dispositivo da Lei de Direitos Autorais. Contudo, ignorar o robots.txt viola as boas práticas de engenharia e pode violar os Termos de Uso do sítio hospedeiro.',
   ],
   quadroComparativo: {
@@ -498,7 +498,13 @@ Os **Fundamentos Computacionais** — algoritmos, consultas SQL, expressões reg
 - **FRIEDL, Jeffrey E. F.** *Mastering Regular Expressions*. 3. ed. Sebastopol: O'Reilly Media, 2006. (A obra de referência absoluta em expressões regulares).
 - **FIELDING, Roy Thomas.** *Architectural Styles and the Design of Network-based Software Architectures*. 2000. Tese (Doutorado em Ciência da Computação) – University of California, Irvine, 2000. (A tese seminal que definiu o padrão REST).
 - **DATE, C. J.** *Introdução a sistemas de bancos de dados*. 8. ed. Rio de Janeiro: Campus, 2004.
-- **BRASIL. CÂMARA DOS DEPUTADOS.** *Portal de Dados Abertos da Câmara dos Deputados: Documentação das APIs REST v2*. Brasília: Diretoria de Inovação e TI (DITEC), 2023.`,
+- **BRASIL. CÂMARA DOS DEPUTADOS.** *Portal de Dados Abertos da Câmara dos Deputados: Documentação das APIs REST v2*. Brasília: Diretoria de Inovação e TI (DITEC), 2023.
+
+### Pausa de Recuperação Ativa: Prompt Engineering e RAG em Bibliotecas
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Qual a função da técnica de RAG (Retrieval-Augmented Generation) ao integrar modelos de linguagem com bases de dados documentais? Como ela mitiga alucinações e assegura ancoragem factual aos acervos catalogados?
+`,
   checkpoints: [
     {
       id: 'cp-6-6-1',

@@ -50,7 +50,7 @@ export const submodulo65: ModuloFilho = {
     'Ian Robinson, Jim Webber & Emil Eifrem (Graph Databases)',
   ],
   alertasCebraspe: [
-    'Distinção Conceitual entre MER e FRBR/LRM: O Modelo Entidade-Relacionamento (Peter Chen, 1976) é uma técnica geral de modelagem lógica e conceitual de bancos de dados para sistemas de software. Já os modelos FRBR e IFLA LRM são modelos conceituais específicos do universo bibliográfico e catalográfico. O Cebraspe adora afirmar que são intercambiáveis ou que o IFLA LRM é uma variante do MER: ERRADO! O LRM utiliza a lógica de entidades e relacionamentos como paradigma, mas é uma ontologia descritiva do domínio bibliográfico.',
+    'Distinção Conceitual entre MER e FRBR/LRM: O Modelo Entidade-Relacionamento (Peter Chen, 1976) é uma técnica geral de modelagem lógica e conceitual de bancos de dados para sistemas de software. Já os modelos FRBR e IFLA LRM são modelos conceituais específicos do universo bibliográfico e catalográfico. A técnica de distrator recorrente consiste em afirmar que são intercambiáveis ou que o IFLA LRM é uma variante do MER: ERRADO! O LRM utiliza a lógica de entidades e relacionamentos como paradigma, mas é uma ontologia descritiva do domínio bibliográfico.',
     'Ordem e Regras das Formas Normais de Codd: 1FN exige atributos atômicos e monovalorados (proibição de listas ou tabelas aninhadas dentro de um campo); 2FN exige estar na 1FN e que todos os atributos não-chave dependam da TOTALIDADE da chave primária (elimina dependência parcial em chaves compostas); 3FN exige estar na 2FN e que nenhum atributo não-chave dependa de outro atributo não-chave (elimina dependência transitiva). A banca inverte frequentemente os conceitos de dependência parcial e transitiva.',
     'Propriedades ACID vs. Teorema CAP: Bancos relacionais tradicionais priorizam consistência imediata e atomicidade através das propriedades ACID (Atomicidade, Consistência, Isolamento, Durabilidade). Em sistemas distribuídos modernos (NoSQL), o Teorema CAP de Eric Brewer estabelece que é teoricamente impossível garantir simultaneamente Consistência (C), Disponibilidade (A) e Tolerância ao Particionamento (P), forçando o sistema a optar por CP ou AP.',
     'As Quatro Famílias NoSQL e suas Aplicações: 1. Documento (MongoDB) armazena JSON flexível, ideal para metadados ricos e heterogêneos; 2. Chave-Valor (Redis) armazena dados em memória de acesso ultra-rápido, ideal para sessões e cache; 3. Colunar (Cassandra) armazena por colunas, ideal para Big Data analítico e séries temporais; 4. Grafo (Neo4j) armazena nós e arestas com propriedades, ideal para redes de citação, coautoria e Linked Data.',
@@ -259,6 +259,26 @@ Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica 
 
 ---
 
+### 6. Sistemas de Recomendação em Bibliotecas Digitais e Serviços de Informação
+
+Os **Sistemas de Recomendação (*Recommender Systems*)** são algoritmos de recuperação da informação que auxiliam o usuário na descoberta proativa de itens relevantes em meio a grandes acervos digitais (**Francesco Ricci, Lior Rokach & Bracha Shapira, 2015**):
+
+#### A. As Três Abordagens Canônicas
+1. **Filtragem Baseada em Conteúdo (*Content-Based Filtering*):**
+   * Recomenda itens com propriedades, termos de indexação ou metadados similares aos itens previamente consultados ou avaliados pelo usuário.
+   * Em bibliotecas: baseia-se na proximidade vetorial de descritores de tesauro (VCB/RVBI), cabeçalhos de assunto, termos do resumo ou classificação temática (CDD/CDDir).
+2. **Filtragem Colaborativa (*Collaborative Filtering*):**
+   * Recomenda itens com base nos padrões de comportamento, empréstimo e avaliação coletiva de usuários com histórico de interesse análogo (*user-based* ou *item-based*).
+   * Não depende dos metadados descritivos da obra: baseia-se na máxima "usuários que emprestaram a obra A também emprestaram a obra B".
+3. **Sistemas Híbridos (*Hybrid Recommender Systems*):**
+   * Combinam filtragem colaborativa e filtragem baseada em conteúdo para maximizar a precisão e mitigar limitações intrínsecas de cada método.
+   * **Superação do Problema do Início a Frio (*Cold-Start Problem*):** Quando um novo livro é incorporado ao acervo (ou um novo parlamentar ingressa no sistema), a ausência de histórico de circulação inviabiliza a filtragem colaborativa; nesses casos, a filtragem baseada em conteúdo atua de imediato com base nos metadados catalográficos do item.
+
+#### B. Aplicação no Ambiente Legislativo
+Em portais parlamentares e bibliotecas digitais especializadas, os sistemas de recomendação analisam comissões de atuação, discursos e histórico de pesquisas dos assessores para sugerir notas técnicas, anteprojetos correlatos e doutrina jurídica pertinente em tramitação.
+
+---
+
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Modelos Conceituais (LRM) (sub-2-3):** Distinção entre modelagem relacional computacional (MER) e LRM.
 * **Ciência de Dados e Text Mining (sub-14-4):** Estruturação de dados relacionais e não relacionais para análise.
@@ -310,7 +330,7 @@ A modelagem de dados e a arquitetura de **Bancos de Dados Relacionais e Não Rel
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **A Chave Primária pode ser Nula:** O Cebraspe adora afirmar que *"uma tupla em uma tabela relacional pode conter valor nulo (NULL) em sua chave primária caso o registro seja provisório"*. **Gabarito: ERRADO.** A integridade de entidade proíbe terminantemente valores nulos em chaves primárias.
+- **A Chave Primária pode ser Nula:** A técnica de distrator recorrente consiste em afirmar que *"uma tupla em uma tabela relacional pode conter valor nulo (NULL) em sua chave primária caso o registro seja provisório"*. **Gabarito: ERRADO.** A integridade de entidade proíbe terminantemente valores nulos em chaves primárias.
 - **Bancos em Grafo para Dados Tabulares Simples:** A banca sugere que bancos em grafo são recomendados para armazenar cadastros alfanuméricos planos sem conexões. **Gabarito: ERRADO.** Bancos em grafo são desenhados especificamente para entidades com redes densas de inter-relacionamentos.
 - **Normalização e Desempenho:** Afirmar que normalizar tabelas até a 3FN sempre aumenta a velocidade de leitura das consultas. **Gabarito: ERRADO.** A normalização reduz redundâncias e elimina anomalias, mas pode exigir múltiplas junções (*JOINs*), o que por vezes torna consultas analíticas mais lentas (motivo pelo qual se faz *desnormalização* em Data Warehouses).
 
@@ -321,7 +341,13 @@ A modelagem de dados e a arquitetura de **Bancos de Dados Relacionais e Não Rel
 - **SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S.** *Sistema de Banco de Dados*. 7. ed. Rio de Janeiro: Elsevier, 2020.
 - **SADALAGE, Pramod J.; FOWLER, Martin.** *NoSQL Essencial: um guia conciso para o mundo emergente da persistência poliglota*. São Paulo: Novatec, 2013.
 - **CODD, Edgar F.** A relational model of data for large shared data banks. *Communications of the ACM*, v. 13, n. 6, p. 377-387, 1970. (Artigo de criação do modelo relacional).
-- **CHEN, Peter Pin-Shan.** The entity-relationship model: toward a unified view of data. *ACM Transactions on Database Systems*, v. 1, n. 1, p. 9-36, 1976.`,
+- **CHEN, Peter Pin-Shan.** The entity-relationship model: toward a unified view of data. *ACM Transactions on Database Systems*, v. 1, n. 1, p. 9-36, 1976.
+
+### Pausa de Recuperação Ativa: Os 4 Princípios de Linked Data
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Quais são os 4 princípios estabelecidos por Tim Berners-Lee (2006) para os Linked Data? (1. Usar URIs como nomes; 2. Usar URIs HTTP; 3. Fornecer dados úteis com RDF e SPARQL; 4. Incluir links para outras URIs).
+`,
   checkpoints: [
     {
       id: 'cp-6-5-1',

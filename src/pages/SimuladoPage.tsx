@@ -7,6 +7,7 @@ import { checkSimuladoAccess, type SimuladoAccessControl } from '../domain/learn
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
 import { PainelDecisaoPortaoSimulado } from '../components/simulado/PainelDecisaoPortaoSimulado';
 import { Badge } from '../components/common/Badge';
+import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
 import { Kbd } from '../components/common/Kbd';
 import { Drawer } from 'vaul';
 import {
@@ -284,7 +285,12 @@ export const SimuladoPage: React.FC = () => {
   // Atalhos de teclado no desktop
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) {
+      const alvo = e.target as HTMLElement;
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(alvo.tagName) || alvo.isContentEditable) {
+        return;
+      }
+      // Preserva atalhos do sistema (Ctrl/Cmd+C para copiar não pode julgar o item)
+      if (e.ctrlKey || e.metaKey || e.altKey) {
         return;
       }
 
@@ -323,7 +329,7 @@ export const SimuladoPage: React.FC = () => {
       return SUBMODULO_TEMAS[subId];
     }
     for (const macro of ALL_COURSE_MODULES) {
-      const filho = macro.modulosFilhos?.find((f: any) => f.numero === subId || f.id === subId);
+      const filho = macro.modulosFilhos?.find((f) => f.numero === subId || f.id === subId);
       if (filho) {
         const cobradoList = filho.alertasCebraspe && filho.alertasCebraspe.length > 0
           ? filho.alertasCebraspe.slice(0, 4)
@@ -568,7 +574,7 @@ export const SimuladoPage: React.FC = () => {
                 Submódulos da Disciplina {simuladoAtivo.macroModuloId} ({simuladoAtivo.tituloCurto})
               </span>
               <div className="grid grid-cols-1 gap-2.5">
-                {moduloAtualSubmodules.map((sub: any) => {
+                {moduloAtualSubmodules.map((sub) => {
                   const pendente = accessControl.submodulosPendentes.find((p) => p.id === sub.id);
                   const isConcluidoSub = !pendente;
 
@@ -1579,33 +1585,13 @@ export const SimuladoPage: React.FC = () => {
                 </Badge>
               </div>
 
-              {/* Destaque: Por que está certa / Por que está errada (Armadilha) */}
-              {currentQuestion.armadilhaBanca && (
-                <div className="p-4 rounded-xl bg-amber-500/10 border-l-4 border-l-amber-500 border border-amber-500/25 space-y-1.5">
-                  <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-amber-700 dark:text-amber-300">
-                    <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
-                    <span>
-                      {currentQuestion.gabarito === 'E'
-                        ? 'Por que está errada? (Padrão de armadilha autoral)'
-                        : 'Ponto Chave da Assertiva Certa'}
-                    </span>
-                  </div>
-                  <p className="text-xs sm:text-sm font-sans text-ink leading-relaxed">
-                    {currentQuestion.armadilhaBanca}
-                  </p>
-                </div>
-              )}
-
-              {/* Justificativa Canônica e Fundamentação Técnica */}
-              <div className="p-5 bg-surface-2 rounded-xl border border-border space-y-2">
-                <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-ink-2">
-                  <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
-                  <span>Justificativa e Fundamentação Técnica</span>
-                </div>
-                <p className="text-xs sm:text-sm font-serif text-ink leading-relaxed">
-                  {currentQuestion.justificativa}
-                </p>
-              </div>
+                            {/* Painel Pedagógico de Estudo Reverso */}
+              <PainelEstudoReverso
+                questao={currentQuestion}
+                resposta={respostaAtual.resposta}
+                certeza={respostaAtual.certeza}
+                autoexplicacao={false}
+              />
 
               {/* Como ficaria correto (Fixação Canônica Cebraspe para itens ERRADOS) */}
               {currentQuestion.gabarito === 'E' && currentQuestion.versao_correta && (

@@ -153,7 +153,7 @@ A legislação autoral brasileira insere-se no ramo do **Direito da Propriedade 
 
 #### A. O que É e o que NÃO É Objeto de Proteção Autoral
 * **Obras Protegidas (Art. 7º):** As criações do espírito, expressas por qualquer meio ou fixadas em qualquer suporte, tangível ou intangível, conhecido ou que se invente no futuro (textos literários, científicos, obras dramáticas, composições musicais, ilustrações, cartas geográficas, projetos de arquitetura, coletâneas, antologias e bases de dados que constituam criação intelectual).
-* **O que NÃO É Protegido (Art. 8º — Pegadinha Clássica do Cebraspe!):**
+* **O que NÃO É Protegido (Art. 8º — distrator típico de concurso!):**
   * As ideias, procedimentos normativos, sistemas, métodos, projetos ou conceitos matemáticos como tais;
   * Os esquemas, planos ou regras para realizar atos mentais, jogos ou negócios;
   * Os formulários em branco para serem preenchidos por qualquer tipo de informação;
@@ -337,7 +337,13 @@ A **Curadoria Digital**, a **Gestão de Dados de Pesquisa (GDP)** e as licenças
 - **DIGITAL CURATION CENTRE (DCC).** *DCC Curation Lifecycle Model*. Edinburgh: DCC, 2008. (O modelo canônico internacional de curadoria digital).
 - **SAYÃO, Luís Fernando; SALES, Luana Farias.** Dados de pesquisa: um novo desafio para os bibliotecários. *Biblios: Journal of Librarianship and Information Science*, n. 48, p. 1-14, 2012.
 - **LESSIG, Lawrence.** *Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity*. New York: Penguin Press, 2004. (A base conceitual das licenças Creative Commons).
-- **BITTAR, Carlos Alberto.** *Direito de autor*. 6. ed. Rio de Janeiro: Forense Universitária, 2015.`,
+- **BITTAR, Carlos Alberto.** *Direito de autor*. 6. ed. Rio de Janeiro: Forense Universitária, 2015.
+
+### Pausa de Recuperação Ativa: Vias Dourada, Verde e Diamante
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Qual a diferença entre Via Dourada (periódico em acesso aberto, com ou sem APC), Via Verde (autoarquivamento em repositório institucional de preprint/postprint) e Via Diamante/Platina (acesso aberto sem cobrança para autores nem para leitores)?
+`,
   checkpoints: [
     {
       id: 'cp-9-3-1',

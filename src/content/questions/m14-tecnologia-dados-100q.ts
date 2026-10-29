@@ -16,7 +16,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "que múltiplos usuários editem o mesmo documento",
+    "versao_errada": "No ambiente Microsoft 365, a funcionalidade de coautoria em tempo real no Word e no Excel permite indevidamente que múltiplos usuários editem o mesmo documento simultaneamente, registrando a presença de cada colaborador e salvando as alterações automaticamente no OneDrive ou SharePoint."
   },
   {
     "id": "m14-q-2",
@@ -51,7 +53,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "revisões realizadas em um documento, possibilitando aos",
+    "versao_errada": "No Google Workspace (Google Docs e Google Sheets), o histórico de versões armazena todas as indevidamente revisões realizadas em um documento, possibilitando aos usuários com permissão de edição restaurar versões anteriores ou nomear marcos específicos de alteração."
   },
   {
     "id": "m14-q-4",
@@ -86,7 +90,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "um subconjunto restrito de membros da equipe",
+    "versao_errada": "No Microsoft Teams, os canais privados permitem delimitar a colaboração e o acesso a arquivos e conversas a indevidamente um subconjunto restrito de membros da equipe, criando automaticamente uma coleção de sites dedicada no SharePoint para armazenar seus documentos com isolamento de permissões."
   },
   {
     "id": "m14-q-6",
@@ -121,7 +127,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "data de expiração e senha de acesso",
+    "versao_errada": "No Google Drive e no Microsoft OneDrive, links de compartilhamento podem ser configurados com indevidamente data de expiração e senha de acesso, constituindo boas práticas de governança e segurança da informação no tratamento de dados institucionais."
   },
   {
     "id": "m14-q-8",
@@ -156,7 +164,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "automaticamente números de CPF ou dados sensíveis",
+    "versao_errada": "Políticas de Prevenção contra Perda de Dados (DLP - Data Loss Prevention) no Microsoft Purview permitem identificar indevidamente automaticamente números de cpf ou dados sensíveis em mensagens do Teams ou arquivos do OneDrive, bloqueando o envio não autorizado para domínios externos."
   },
   {
     "id": "m14-q-10",
@@ -191,7 +201,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "automaticamente transcrições textuais que podem ser pesquisadas",
+    "versao_errada": "No Microsoft Teams e no Google Meet, a gravação de reuniões na nuvem gera indevidamente automaticamente transcrições textuais que podem ser pesquisadas e integradas a fluxos de trabalho institucionais, respeitadas as diretrizes de consentimento e privacidade."
   },
   {
     "id": "m14-q-12",
@@ -226,7 +238,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "On-Demand / Drive para Computador), permitindo que",
+    "versao_errada": "O Microsoft OneDrive e o Google Drive oferecem clientes de sincronização que suportam a funcionalidade de 'Arquivos sob Demanda' (Files indevidamente on-demand / drive para computador), permitindo que os arquivos sejam visualizados no explorador local do sistema operacional sem ocupar espaço em disco até que sejam abertos."
   },
   {
     "id": "m14-q-14",
@@ -261,7 +275,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "No Microsoft Excel, a funcionalidade 'Power Query' permite extrair dados de diversas fontes externas (bancos de dados, arquivos CSV, páginas web), transformar esses dados indevidamente por meio de etapas sequenciais gravadas e carregá-los em planilhas ou no modelo de dados interno."
   },
   {
     "id": "m14-q-16",
@@ -296,7 +312,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "formatação de fontes, cores, logotipos e leiautes",
+    "versao_errada": "Em apresentações no Microsoft PowerPoint e Google Slides, o slide mestre (ou tema mestre) centraliza a indevidamente formatação de fontes, cores, logotipos e leiautes, garantindo que qualquer alteração nele efetuada se propague uniformemente por todos os slides que dele derivam."
   },
   {
     "id": "m14-q-18",
@@ -331,7 +349,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "e-mail e múltiplos dispositivos clientes, ao passo",
+    "versao_errada": "No Microsoft Outlook, o protocolo IMAP sincroniza as pastas e o status das mensagens (lidas, não lidas, marcadas) entre o servidor de indevidamente e-mail e múltiplos dispositivos clientes, ao passo que o protocolo POP3 tradicionalmente transfere os e-mails para um único dispositivo local e os remove da caixa de entrada do servidor."
   },
   {
     "id": "m14-q-20",
@@ -366,7 +386,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "cifrados de modo que apenas os dispositivos",
+    "versao_errada": "A criptografia de ponta a ponta (E2EE) em reuniões corporativas assegura que os dados de áudio e vídeo trafeguem indevidamente cifrados de modo que apenas os dispositivos dos participantes consigam decifrá-los, impedindo inclusive que os servidores da empresa fornecedora da plataforma acessem o conteúdo bruto."
   },
   {
     "id": "m14-q-22",
@@ -401,7 +423,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "classificar documentos como 'Público', 'Interno' ou 'Altamente",
+    "versao_errada": "O recurso de rotulagem de sensibilidade (Sensitivity Labels) no Microsoft Information Protection permite indevidamente classificar documentos como 'público', 'interno' ou 'altamente Confidencial', aplicando automaticamente marcas d'água, criptografia e restrições de impressão conforme a classificação."
   },
   {
     "id": "m14-q-24",
@@ -454,7 +478,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "Na arquitetura TCP/IP, o protocolo TCP opera na camada de transporte garantindo a entrega confiável e sequenciada dos pacotes de dados indevidamente por meio de controle de fluxo e mecanismo de confirmação (three-way handshake), ao passo que o UDP opera sem conexão e sem garantia de entrega, priorizando a velocidade."
   },
   {
     "id": "m14-q-27",
@@ -489,7 +515,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "traduzindo nomes de domínio alfanuméricos legíveis por",
+    "versao_errada": "O protocolo DNS (Domain Name System) desempenha a função de resolução de nomes, indevidamente traduzindo nomes de domínio alfanuméricos legíveis por humanos (como www.camara.leg.br) em endereços IP numéricos necessários para o roteamento na internet."
   },
   {
     "id": "m14-q-29",
@@ -524,7 +552,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "O protocolo HTTPS utiliza os protocolos criptográficos SSL/TLS sobre a porta 443 para prover autenticação do servidor via certificados digitais e confidencialidade das comunicações indevidamente por meio de criptografia simétrica e assimétrica."
   },
   {
     "id": "m14-q-31",
@@ -559,7 +589,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "Ameaças do tipo Ransomware operam sequestrando dados corporativos indevidamente por meio de criptografia forte aplicada a arquivos e volumes de armazenamento, exigindo o pagamento de resgate para o fornecimento da chave de decifração."
   },
   {
     "id": "m14-q-33",
@@ -594,7 +626,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "sua largura de banda ou seus recursos",
+    "versao_errada": "Um ataque de Negação de Serviço Distribuída (DDoS) visa indisponibilizar um servidor ou serviço na nuvem sobrecarregando indevidamente sua largura de banda ou seus recursos computacionais com uma torrente massiva de requisições originadas de uma rede distribuída de máquinas zumbis (botnet)."
   },
   {
     "id": "m14-q-35",
@@ -629,7 +663,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "integridade assegura que a informação não seja",
+    "versao_errada": "Na tríade fundamental de segurança da informação (CID - Confidencialidade, Integridade e Disponibilidade), a indevidamente integridade assegura que a informação não seja alterada ou corrompida de forma indevida ou fraudulenta durante o armazenamento ou transmissão."
   },
   {
     "id": "m14-q-37",
@@ -664,7 +700,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "distintas: algo que ele sabe (como uma",
+    "versao_errada": "A autenticação multifator (MFA) eleva a segurança ao exigir que o usuário comprove sua identidade combinando pelo menos dois fatores de categorias indevidamente distintas: algo que ele sabe (como uma senha), algo que ele possui (como um token físico ou aplicativo autenticador) ou algo que ele é (como biometria facial ou digital)."
   },
   {
     "id": "m14-q-39",
@@ -699,7 +737,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "importantes, armazenadas em 2 mídias de tipos",
+    "versao_errada": "A regra de backup 3-2-1 preconiza que a organização mantenha pelo menos 3 cópias dos dados indevidamente importantes, armazenadas em 2 mídias de tipos diferentes, com pelo menos 1 dessas cópias guardada fora das instalações físicas principais (offsite ou nuvem)."
   },
   {
     "id": "m14-q-41",
@@ -734,7 +774,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "de transações), enquanto o Recovery Time Objective",
+    "versao_errada": "O Recovery Point Objective (RPO) define a quantidade máxima tolerável de dados perdidos medida em tempo (por exemplo, 1 hora indevidamente de transações), enquanto o recovery time objective (RTO) estipula o tempo máximo aceitável para que o sistema volte a operar após a ocorrência de um desastre."
   },
   {
     "id": "m14-q-43",
@@ -769,7 +811,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "que acreditam estar se comunicando diretamente de",
+    "versao_errada": "Em um ataque de Man-in-the-Middle (MitM), o invasor intercepta e potencialmente altera as mensagens trocadas entre duas partes indevidamente que acreditam estar se comunicando diretamente de forma privada, o que pode ser mitigado pelo uso de canais criptografados com validação estrita de certificados digitais."
   },
   {
     "id": "m14-q-45",
@@ -804,7 +848,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "Default) determina que os sistemas de informação",
+    "versao_errada": "Conforme as diretrizes da LGPD e as normas ISO/IEC 27001, o princípio da 'Segurança por Padrão' (Security by indevidamente default) determina que os sistemas de informação sejam entregues aos usuários com as configurações mais restritivas de privacidade e segurança já pré-ativadas de fábrica."
   },
   {
     "id": "m14-q-47",
@@ -839,7 +885,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "O padrão FIDO2 e o protocolo WebAuthn viabilizam a autenticação sem senha (passwordless) indevidamente por meio de criptografia de chave pública e armazenamento seguro em chips TPM ou chaves de segurança físicas, eliminando a vulnerabilidade a ataques de phishing de senhas."
   },
   {
     "id": "m14-q-49",
@@ -874,7 +922,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "passo que os Sistemas de Prevenção de",
+    "versao_errada": "Sistemas de Detecção de Intrusão (IDS) limitam-se a monitorar e emitir alertas sobre atividades suspeitas na rede, ao indevidamente passo que os sistemas de prevenção de Intrusão (IPS) possuem capacidade de atuar ativamente para bloquear e interromper o tráfego malicioso em tempo real."
   },
   {
     "id": "m14-q-51",
@@ -891,7 +941,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "ao modelo calcular correlações e pesos de",
+    "versao_errada": "A arquitetura de redes neurais denominada Transformer baseia-se fundamentalmente no mecanismo de autoatenção (Self-Attention), o qual permite indevidamente ao modelo calcular correlações e pesos de dependência entre todas as palavras de uma sequência simultaneamente, independentemente da distância entre elas no texto."
   },
   {
     "id": "m14-q-52",
@@ -926,7 +978,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "densos em um espaço multidimensional, onde a",
+    "versao_errada": "Em Grandes Modelos de Linguagem (LLMs), os embeddings representam palavras, sentenças ou documentos como vetores numéricos indevidamente densos em um espaço multidimensional, onde a proximidade geométrica entre dois vetores (medida, por exemplo, pela similaridade de cosseno) reflete sua afinidade semântica."
   },
   {
     "id": "m14-q-54",
@@ -961,7 +1015,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "avaliações e preferências de anotadores humanos para",
+    "versao_errada": "O processo de alinhamento de LLMs denominado Aprendizado por Reforço com Feedback Humano (RLHF - Reinforcement Learning from Human Feedback) emprega indevidamente avaliações e preferências de anotadores humanos para treinar um modelo de recompensa (Reward Model), orientando o comportamento do modelo em direção a respostas mais úteis, precisas e seguras."
   },
   {
     "id": "m14-q-56",
@@ -996,7 +1052,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "a capacidade generativa do LLM, injetando os",
+    "versao_errada": "A técnica de Geração Aumentada por Recuperação (RAG - Retrieval-Augmented Generation) combina um mecanismo de busca em uma base documental externa com indevidamente a capacidade generativa do llm, injetando os trechos relevantes recuperados diretamente no prompt para que o modelo responda com base em fatos atualizados e verificáveis, reduzindo expressivamente as alucinações."
   },
   {
     "id": "m14-q-58",
@@ -1031,7 +1089,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "problemas complexos de raciocínio lógico ou cálculo",
+    "versao_errada": "Na engenharia de prompts, a técnica de Chain-of-Thought (Cadeia de Pensamento) estimula o modelo a decompor indevidamente problemas complexos de raciocínio lógico ou cálculo em etapas intermediárias explícitas antes de emitir a conclusão definitiva, aumentando significativamente a precisão das respostas."
   },
   {
     "id": "m14-q-60",
@@ -1066,7 +1126,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "e do resultado esperado, permitindo que o",
+    "versao_errada": "Na interação com LLMs, a técnica de 'Few-shot Prompting' consiste em incluir no prompt alguns exemplos representativos do formato indevidamente e do resultado esperado, permitindo que o modelo aprenda o padrão por indução em contexto (in-context learning) sem necessidade de atualizar os parâmetros da rede neural."
   },
   {
     "id": "m14-q-62",
@@ -1101,7 +1163,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "bibliográficas ou constrói enunciados falsos com elevado",
+    "versao_errada": "O fenômeno da 'alucinação' (hallucination) em LLMs ocorre quando o modelo gera informações factualmente inverídicas, inventa fontes indevidamente bibliográficas ou constrói enunciados falsos com elevado grau de persuasão e convicção sintática, decorrente de sua natureza de previsão estatística de próximos tokens."
   },
   {
     "id": "m14-q-64",
@@ -1136,7 +1200,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "amplificar preconceitos históricos, desigualdades sociais e estereótipos",
+    "versao_errada": "O viés algorítmico (algorithmic bias) em sistemas de inteligência artificial pode refletir e indevidamente amplificar preconceitos históricos, desigualdades sociais e estereótipos presentes nos dados brutos da internet utilizados para o treinamento dos modelos."
   },
   {
     "id": "m14-q-66",
@@ -1171,7 +1237,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "generativa viola as políticas de segurança da",
+    "versao_errada": "O envio de minutas de proposições legislativas sigilosas ou de dados pessoais de cidadãos para plataformas públicas gratuitas de inteligência artificial indevidamente generativa viola as políticas de segurança da informação e a LGPD, devido ao risco de os dados serem utilizados para o retreinamento dos modelos proprietários da fornecedora."
   },
   {
     "id": "m14-q-68",
@@ -1206,7 +1274,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "pelo usuário induzem o modelo de linguagem",
+    "versao_errada": "A técnica de 'Prompt Injection' consiste em um ataque cibernético no qual entradas maliciosas manipuladas indevidamente pelo usuário induzem o modelo de linguagem a ignorar suas diretrizes de segurança e instruções originais (system prompt), executando ações não autorizadas."
   },
   {
     "id": "m14-q-70",
@@ -1241,7 +1311,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "assegurar que as decisões e recomendações automatizadas",
+    "versao_errada": "No contexto da governança da inteligência artificial no setor público, a 'Inteligência Artificial Explicável' (XAI - Explainable AI) busca indevidamente assegurar que as decisões e recomendações automatizadas apoiadas por algoritmos possam ser compreendidas, auditadas e justificadas perante a sociedade e os órgãos de controle externo."
   },
   {
     "id": "m14-q-72",
@@ -1276,7 +1348,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "o modelo consegue processar simultaneamente em uma",
+    "versao_errada": "A janela de contexto de um LLM define a quantidade máxima de tokens (unidades de texto) que indevidamente o modelo consegue processar simultaneamente em uma única requisição, abrangendo as instruções do sistema, o histórico da conversa e a resposta a ser gerada."
   },
   {
     "id": "m14-q-74",
@@ -1329,7 +1403,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "brutos de fontes transacionais, realiza transformações e",
+    "versao_errada": "No ciclo de vida de dados, o processo de ETL (Extract, Transform, Load) tradicionalmente extrai dados indevidamente brutos de fontes transacionais, realiza transformações e limpezas em uma área intermediária (staging area) e carrega os dados consolidados em um Data Warehouse."
   },
   {
     "id": "m14-q-77",
@@ -1364,7 +1440,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "onde a Atomicidade garante que uma transação",
+    "versao_errada": "Em bancos de dados relacionais, as propriedades ACID asseguram a confiabilidade das transações, indevidamente onde a atomicidade garante que uma transação seja executada em sua totalidade ou completamente revertida caso ocorra alguma falha."
   },
   {
     "id": "m14-q-79",
@@ -1399,7 +1477,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "central, que armazena métricas quantitativas e chaves",
+    "versao_errada": "Na modelagem dimensional proposta por Ralph Kimball, o Esquema Estrela (Star Schema) organiza o modelo com uma tabela fato indevidamente central, que armazena métricas quantitativas e chaves estrangeiras, cercada por tabelas de dimensão desnormalizadas que fornecem o contexto das análises (como tempo, produto e localização)."
   },
   {
     "id": "m14-q-81",
@@ -1434,7 +1514,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "de dimensão são normalizadas em múltiplas tabelas",
+    "versao_errada": "O Esquema Floco de Neve (Snowflake Schema) constitui uma variação da modelagem dimensional na qual as tabelas indevidamente de dimensão são normalizadas em múltiplas tabelas hierárquicas, visando reduzir redundâncias de dados à custa de consultas com maior número de junções (joins)."
   },
   {
     "id": "m14-q-83",
@@ -1469,7 +1551,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "o carregamento de dados e ocupam espaço",
+    "versao_errada": "No Power BI, a distinção entre coluna calculada e medida reside no fato de que as colunas calculadas são avaliadas linha a linha durante indevidamente o carregamento de dados e ocupam espaço na memória, ao passo que as medidas são calculadas dinamicamente no momento da interação do usuário com base no contexto de filtro visual."
   },
   {
     "id": "m14-q-85",
@@ -1504,7 +1588,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "contexto de filtro modificado por um oumais",
+    "versao_errada": "Na linguagem DAX (Data Analysis Expressions) do Power BI, a função CALCULATE avalia uma expressão sob um indevidamente contexto de filtro modificado por um oumais filtros explícitos, constituindo a função mais poderosa para manipulação de regras de negócio em modelos analíticos."
   },
   {
     "id": "m14-q-87",
@@ -1539,7 +1625,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "de dados (como remoção de colunas, tipagem",
+    "versao_errada": "No Power BI, a ferramenta Power Query utiliza a linguagem de fórmulas M para realizar etapas sequenciais de transformação indevidamente de dados (como remoção de colunas, tipagem de dados, substituição de valores e mesclagem de consultas) antes que os dados sejam carregados no modelo relacional."
   },
   {
     "id": "m14-q-89",
@@ -1574,7 +1662,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "(missing values) utilizando estimativas estatísticas, como a",
+    "versao_errada": "Em preparação de dados (Data Wrangling), a imputação consiste na técnica de preenchimento de valores ausentes indevidamente (missing values) utilizando estimativas estatísticas, como a média, a mediana ou algoritmos de vizinhos mais próximos (K-NN), permitindo preservar o tamanho da amostra."
   },
   {
     "id": "m14-q-91",
@@ -1609,7 +1699,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "JSON/XML e não estruturados como imagens e",
+    "versao_errada": "A arquitetura de Data Lake armazena grandes volumes de dados em seus formatos nativos brutos (estruturados, semiestruturados como indevidamente json/xml e não estruturados como imagens e logs), permitindo a análise sob o paradigma 'Schema-on-Read' (o esquema é aplicado apenas no momento da consulta)."
   },
   {
     "id": "m14-q-93",
@@ -1644,7 +1736,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "visual) recomenda a remoção de bordas desnecessárias",
+    "versao_errada": "Segundo as diretrizes consagradas de Storytelling com Dados (como as postuladas por Cole Nussbaumer Knaflic), o processo de 'decluttering' (eliminação da desordem indevidamente visual) recomenda a remoção de bordas desnecessárias, cores saturadas sem função comunicativa e linhas de grade excessivas, direcionando a carga cognitiva do usuário para as mensagens e dados centrais."
   },
   {
     "id": "m14-q-95",
@@ -1679,7 +1773,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "o gráfico de linhas é preferível ao",
+    "versao_errada": "Para a representação da evolução temporal contínua de um indicador financeiro ou orçamentário ao longo de meses ou anos, indevidamente o gráfico de linhas é preferível ao gráfico de dispersão sem linhas, pois as conexões sequenciais evidenciam com clareza as tendências de alta, queda e sazonalidade."
   },
   {
     "id": "m14-q-97",
@@ -1714,7 +1810,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "introduzir ambiguidades no contexto de filtro e",
+    "versao_errada": "Em bancos de dados relacionais e em ferramentas de BI, o relacionamento 'muitos-para-muitos' (N:N) não tratado pode indevidamente introduzir ambiguidades no contexto de filtro e gerar duplicidade de cálculos, sendo recomendada a introdução de uma tabela ponte (Bridge Table) com relacionamentos 1:N."
   },
   {
     "id": "m14-q-99",
@@ -1731,7 +1829,9 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
-    }
+    },
+    "gatilho": "e dependências anômalas (como dependências transitivas e",
+    "versao_errada": "A normalização de bancos de dados até a Terceira Forma Normal (3FN) objetiva eliminar redundâncias indevidamente e dependências anômalas (como dependências transitivas e parciais), otimizando a integridade das operações de inserção, atualização e exclusão em sistemas OLTP."
   },
   {
     "id": "m14-q-100",

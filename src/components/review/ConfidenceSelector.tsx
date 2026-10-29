@@ -17,6 +17,7 @@ export const ConfidenceSelector: React.FC<ConfidenceSelectorProps> = ({
   useEffect(() => {
     if (disabled) return;
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       if (e.key === '1') onSelecionar('certeza');
       if (e.key === '2') onSelecionar('duvida');

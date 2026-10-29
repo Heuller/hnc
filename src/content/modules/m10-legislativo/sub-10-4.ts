@@ -73,7 +73,7 @@ TITLE: Classificação Dogmática da Constituição Federal de 1988
 \`\`\`
 
 #### A. Estrutura do Texto Constitucional
-1. **Preâmbulo:** Documento introdutório de intenções políticas, filosóficas e religiosas. Segundo jurisprudência pacífica e reiterada do Supremo Tribunal Federal (**STF, ADI 2.076 — Pegadinha Clássica Cebraspe**):
+1. **Preâmbulo:** Documento introdutório de intenções políticas, filosóficas e religiosas. Segundo jurisprudência pacífica e reiterada do Supremo Tribunal Federal (**STF, ADI 2.076 — técnica de distrator recorrente**):
    * O preâmbulo **não possui força normativa cogente** nem eficácia jurídica vinculante;
    * Não constitui norma de reprodução obrigatória para as Constituições estaduais ou Leis Orgânicas municipais;
    * Não serve de parâmetro autônomo para o controle concentrado de constitucionalidade de leis em sede de ADI.

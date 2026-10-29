@@ -36,6 +36,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
   useEffect(() => {
     if (disabled || isRespondido) return;
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       const tag = document.activeElement?.tagName.toLowerCase();
       if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
       if (e.key === 'a' || e.key === 'A' || e.key === '1') {

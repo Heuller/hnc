@@ -309,7 +309,13 @@ O **Serviço de Referência**, a **Disseminação Seletiva da Informação (DSI)
 - **ACCART, Jean-Philippe.** *Serviço de referência: do presencial ao virtual*. Brasília: Briquet de Lemos, 2012.
 - **FIGUEIREDO, Nice Menezes de.** *Estudos de uso e usuários da informação*. Brasília: IBICT, 1994. (Texto fundacional dos estudos de usuários no Brasil).
 - **DERVIN, Brenda.** From the mind's eye of the user: the sense-making qualitative-quantitative methodology. *Qualitative Research in Information Management*, p. 61-84, 1992.
-- **CÂMARA DOS DEPUTADOS.** *Diretrizes de Atendimento do Serviço de Referência da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2020.`,
+- **CÂMARA DOS DEPUTADOS.** *Diretrizes de Atendimento do Serviço de Referência da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2020.
+
+### Pausa de Recuperação Ativa: Etapas da Entrevista de Referência
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Quais são os quatro níveis de necessidade informacional descritos por Robert S. Taylor (visceral, consciente, formalizada e comprometida)? Em qual estágio a questão é efetivamente negociada com o bibliotecário de referência?
+`,
   checkpoints: [
     {
       id: 'cp-4-4-1',

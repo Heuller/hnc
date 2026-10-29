@@ -253,7 +253,7 @@ No ambiente de bibliotecas digitais, portais governamentais e acervos multimídi
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Confusão entre Metadado Estrutural e Técnico:** O Cebraspe adora afirmar que *"a indicação da resolução em pixels e do perfil de cores de uma fotografia digital constitui metadado estrutural"*. **Gabarito: ERRADO.** Resolução e cor são metadados **administrativos do tipo técnico**. O metadado estrutural cuida do relacionamento entre partes (ex.: relacionamento página $\to$ tomo).
+- **Confusão entre Metadado Estrutural e Técnico:** A técnica de distrator recorrente consiste em afirmar que *"a indicação da resolução em pixels e do perfil de cores de uma fotografia digital constitui metadado estrutural"*. **Gabarito: ERRADO.** Resolução e cor são metadados **administrativos do tipo técnico**. O metadado estrutural cuida do relacionamento entre partes (ex.: relacionamento página $\to$ tomo).
 - **Criação de Novos Elementos no Perfil de Aplicação:** Dizer que um perfil de aplicação cria novas regras universais incompatíveis com os padrões internacionais. **Gabarito: ERRADO.** Perfis de aplicação apenas combinam e restringem esquemas existentes para um contexto local.
 - **Checksum como Metadado Descritivo:** Afirmar que o hash MD5 de um arquivo é metadado descritivo de assunto. **Gabarito: ERRADO.** É metadado administrativo de preservação e fixidez.
 

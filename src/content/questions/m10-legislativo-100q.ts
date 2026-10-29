@@ -10,7 +10,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "O veto do Presidente da República a um projeto de lei aprovado pelo Congresso Nacional é irretratável e terminativo, obstando nova deliberação parlamentar sobre o texto vetado.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O veto presidencial tem caráter relativo. Conforme o art. 66, § 4º da CF/88, o veto será apreciado em sessão conjunta do Congresso Nacional dentro de trinta dias, só podendo ser rejeitado pelo voto da maioria absoluta dos Deputados e Senadores.",
-    "armadilhaBanca": "Considerar o veto presidencial absoluto e insuscetível de rejeição.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -28,13 +28,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "Uma 'sessão conjunta' do Congresso Nacional é aquela realizada conjuntamente por Deputados e Senadores sob a direção da Mesa do Congresso Nacional (órgão bicameral presidido pelo Presidente do Senado Federal), para inaugurar a sessão legislativa, deliberar sobre vetos ou votar o orçamento da União.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Conforme o Art. 57, § 3º e § 5º da CF/88 e o Regimento Comum (Resolução nº 1/1970-CN), a sessão conjunta do Congresso Nacional é dirigida pela Mesa do Congresso Nacional, órgão colegiado presidido pelo Presidente do Senado Federal, com alternância dos demais cargos entre a Câmara dos Deputados e o Senado Federal.",
-    "armadilhaBanca": "Sessão conjunta do Congresso Nacional.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "do Congresso Nacional (órgão bicameral presidido pelo",
+    "versao_errada": "Uma 'sessão conjunta' do Congresso Nacional é aquela realizada conjuntamente por Deputados e Senadores sob a direção da Mesa indevidamente do congresso nacional (órgão bicameral presidido pelo Presidente do Senado Federal), para inaugurar a sessão legislativa, deliberar sobre vetos ou votar o orçamento da União."
   },
   {
     "id": "m10-q-3",
@@ -51,7 +53,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "e o Senado não se manifestem em",
+    "versao_errada": "O Presidente da República pode solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara indevidamente e o senado não se manifestem em até quarenta e cinco dias cada, a proposição sobresta todas as demais deliberações legislativas da Casa, trancando a pauta."
   },
   {
     "id": "m10-q-4",
@@ -61,8 +65,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O Congresso Nacional realiza suas sessões ordinárias durante o recesso de janeiro e julho, ficando o prédio do Parlamento fechado durante os meses de abril e outubro.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A sessão legislativa ordinária funciona de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro (art. 57 da CF/88). Janeiro e a segunda quinzena de julho constituem os períodos de recesso parlamentar regular.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter os períodos de sessão legislativa ordinária e recesso parlamentar.",
+    "justificativa": "Gabarito ERRADO. A sessão legislativa ordinária funciona de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro (art. 57 da CF/88). Janeiro e a segunda quinzena de julho constituem os períodos de recesso parlamentar regular. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -80,7 +84,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "O Regimento Comum do Congresso Nacional revogou o Regimento Interno da Câmara dos Deputados, de modo que a Câmara não possui normas próprias para suas sessões deliberativas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Regimento Comum disciplina exclusivamente as sessões e comissões mistas conjuntas do Congresso Nacional. A Câmara dos Deputados mantém seu próprio Regimento Interno autônomo (RICD), que rege privativamente seu funcionamento.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor revogação do RICD pelo Regimento Comum.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -98,7 +102,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A matéria constante de projeto de lei rejeitado pelo Plenário da Câmara dos Deputados pode ser reapresentada no dia seguinte pelo autor da proposta original mediante simples requerimento avulso.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Princípio da Irrepetibilidade (art. 67 da CF/88): matéria constante de projeto de lei rejeitado só pode ser objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
-    "armadilhaBanca": "Princípio da Irrepetibilidade de projetos rejeitados.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -122,7 +126,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "desde a edição se não forem convertidas",
+    "versao_errada": "As Medidas Provisórias (MPs), adotadas pelo Presidente da República em casos de relevância e urgência, perdem a eficácia indevidamente desde a edição se não forem convertidas em lei no prazo de sessenta dias, prorrogável uma vez por igual período pelo Presidente do Congresso Nacional."
   },
   {
     "id": "m10-q-8",
@@ -139,14 +145,16 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "Nacional que não depende de sanção do",
+    "versao_errada": "No processo legislativo, o Decretos Legislativo destina-se a regular matéria de competência exclusiva do Congresso indevidamente nacional que não depende de sanção do Presidente da República, como a aprovação de tratados internacionais e o julgamento das contas presidenciais."
   },
   {
     "id": "m10-q-9",
     "numero": 9,
     "macroModuloId": "M10",
     "submoduloId": "10.1",
-    "contexto": "Acerca de documentação jurídica, julgue os itens seguintes.",
+    "contexto": "No âmbito da Consultoria Legislativa e do Centro de Documentação e Informação da Câmara dos Deputados, a correta classificação, indexação e disseminação dos atos emanados dos Poderes da República é essencial para a elaboração de minutas de proposições, pareceres técnicos e estudos comparados de legislação. Os bibliotecários e analistas legislativos precisam dominar as espécies normativas primárias e secundárias, sua hierarquia segundo a ordem constitucional vigente e seus respectivos veículos de publicação oficial. Acerca das categorias de documentação jurídica e das espécies normativas no ordenamento jurídico federal brasileiro, julgue o item a seguir.",
     "item": "No âmbito federal, constituem documentação jurídica os seguintes diplomas legais: Constituição Federal, emenda constitucional e lei complementar.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Na clássica tripartição da documentação jurídica formulada por Edilenice Passos, os diplomas legais federais (Constituição Federal, emendas constitucionais, leis complementares, leis ordinárias, medidas provisórias e decretos legislativos) constituem a fonte documental primária da Legislação, diferenciando-se da Doutrina (estudos acadêmicos) e da Jurisprudência (decisões judiciais dos tribunais).",
@@ -178,14 +186,16 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "pelo Senado Federal (Casa revisora), o projeto",
+    "versao_errada": "No bicameralismo brasileiro, quando um projeto de lei de iniciativa de um Deputado Federal é aprovado com emendas indevidamente pelo senado federal (casa revisora), o projeto retorna à Câmara dos Deputados (Casa iniciadora) exclusivamente para que esta delibere sobre as emendas do Senado."
   },
   {
     "id": "m10-q-11",
     "numero": 11,
     "macroModuloId": "M10",
     "submoduloId": "10.1",
-    "contexto": "Em relação ao objeto de avaliação do submódulo 10.1, julgue o item a seguir.",
+    "contexto": "Durante o trâmite legislativo das matérias que pretendem alterar o texto da Carta Magna, os órgãos técnicos de assessoramento da Mesa Diretora da Câmara dos Deputados realizam o exame rigoroso dos pressupostos formais de admissibilidade antes de qualquer deliberação de mérito pela Comissão de Constituição e Justiça e de Cidadania. Entre os requisitos preliminares inafastáveis está a legitimidade ativa dos proponentes, expressamente delimitada pelo constituinte originário para preservar a rigidez da Constituição Federal de 1988. Considerando as regras constitucionais que regem o processo legislativo e a iniciativa das propostas de emenda à Constituição, julgue o item subsequente.",
     "item": "É admissível que uma proposta de emenda constitucional seja apresentada por mais da metade das assembleias legislativas das unidades da Federação.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Conforme dispõe expressamente o art. 60, inciso III, da Constituição Federal de 1988, a Carta Magna pode ser emendada mediante proposta apresentada por \"mais da metade das Assembleias Legislativas das unidades da Federação, manifestando-se, cada uma delas, pela maioria relativa de seus membros\". É a expressão do princípio federativo na titularidade da iniciativa de PEC.",
@@ -208,7 +218,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A aprovação de uma Proposta de Emenda à Constituição (PEC) na Câmara dos Deputados exige o quórum de maioria simples dos deputados presentes em um único turno de votação.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 60, § 2º da CF/88, a PEC deve ser discutida e votada em CADA Casa do Congresso Nacional, em DOIS TURNOS, considerando-se aprovada se obtiver, em ambos, três quintos dos votos dos respectivos membros (308 votos favoráveis na Câmara dos Deputados).",
-    "armadilhaBanca": "PEGADINHA_REGIMENTAL / INVERSAO_CANONICA: Quórum de PEC (exige 3/5 em 2 turnos, e não maioria simples em turno único).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -222,7 +232,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "numero": 13,
     "macroModuloId": "M10",
     "submoduloId": "10.1",
-    "contexto": "Em relação ao objeto de avaliação do submódulo 10.1, julgue o item a seguir.",
+    "contexto": "Uma Assembleia Legislativa estadual aprovou projeto de lei complementar de iniciativa parlamentar dispondo sobre a estrutura organizacional básica da administração pública estadual e redefinindo prerrogativas, símbolos e remunerações de secretários de Estado e dirigentes de autarquias. Aprovada a matéria, a proposta foi remetida ao governador do Estado, que suscitou dúvidas quanto à constitucionalidade formal e material das disposições em face do princípio da separação dos poderes e das competências privativas conferidas ao chefe do Poder Executivo pelo modelo federal de reprodução obrigatória. Considerando os princípios da administração pública e a repartição constitucional de competências, julgue o item que se segue.",
     "item": "É constitucional a atribuição, por lei complementar estadual, do status de secretário de Estado aos cargos de defensor público-geral e de subdefensor público-geral do estado.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Supremo Tribunal Federal, no julgamento das ADIs 5.295 e 5.218, pacificou que é INCONSTITUCIONAL norma estadual que equipara os cargos de Defensor Público-Geral e Subdefensor ao status de Secretário de Estado. A Defensoria Pública é instituição permanente e essencial à jurisdição, dotada de autonomia funcional, administrativa e orçamentária (CF/88, art. 134, § 2º), sendo incompatível sua subordinação ou equiparação orgânica a cargos de primeiro escalão do Poder Executivo.",
@@ -252,7 +262,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "um por cento do eleitorado nacional, distribuído",
+    "versao_errada": "A iniciativa popular de leis federais perante a Câmara dos Deputados pode ser exercida pela subscrição de, no mínimo, indevidamente um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles."
   },
   {
     "id": "m10-q-15",
@@ -262,8 +274,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O silêncio do Presidente da República no prazo de quinze dias úteis contados da data de recebimento do projeto de lei importa em veto tácito integral da matéria.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 66, § 3º da CF/88, decorrido o prazo de quinze dias úteis sem manifestação do Presidente da República, o silêncio importa em SANÇÃO TÁCITA (e não veto).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir sanção tácita com veto tácito.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 66, § 3º da CF/88, decorrido o prazo de quinze dias úteis sem manifestação do Presidente da República, o silêncio importa em SANÇÃO TÁCITA (e não veto). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -281,7 +293,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A Câmara dos Deputados pode aprovar leis secretas cujo texto seja mantido em sigilo eterno e inacessível aos cidadãos e advogados.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O princípio da publicidade (art. 37, caput da CF/88) e o Estado Democrático de Direito vedam leis secretas. A promulgação e publicação oficial obrigatória no Diário Oficial são requisitos de vigência e eficácia de qualquer ato legislativo.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir leis federais secretas no Brasil.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -305,7 +317,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "texto constitucional) e pelo critério formal de",
+    "versao_errada": "As leis complementares diferenciam-se das leis ordinárias pelo critério material (matérias reservadas expressamente pelo indevidamente texto constitucional) e pelo critério formal de aprovação, exigindo o quórum qualificado de maioria absoluta de votos (257 deputados na Câmara)."
   },
   {
     "id": "m10-q-18",
@@ -322,7 +336,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "abranger o texto integral de artigo, de",
+    "versao_errada": "O veto presidencial pode ser total ou parcial, sendo que o veto parcial deve indevidamente abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea, sendo vedado o veto a palavras isoladas."
   },
   {
     "id": "m10-q-19",
@@ -332,8 +348,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O Presidente da República tem competência constitucional para editar medidas provisórias sobre matéria relativa a direito penal, direito processual penal e direito processual civil.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 62, § 1º, I, 'b' da CF/88 veda expressamente a edição de medidas provisórias sobre matéria relativa a direito penal, processual penal e processual civil, bem como sobre nacionalidade, cidadania e direitos políticos.",
-    "armadilhaBanca": "Vedação constitucional expressa de MP sobre Direito Penal.",
+    "justificativa": "Gabarito ERRADO. O art. 62, § 1º, I, 'b' da CF/88 veda expressamente a edição de medidas provisórias sobre matéria relativa a direito penal, processual penal e processual civil, bem como sobre nacionalidade, cidadania e direitos políticos. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -350,8 +366,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O Regimento Interno da Câmara dos Deputados autoriza que cidadãos individuais sem representação partidária apresentem emendas aglutinativas orais diretamente no microfone do Plenário durante a ordem do dia.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Emendas regimentais (inclusive aglutinativas) só podem ser apresentadas por parlamentares, líderes ou bancadas partidárias formalmente constituídas que atendam aos requisitos regimentais de subscrição.",
-    "armadilhaBanca": "PEGADINHA_REGIMENTAL: Permitir emenda oral de cidadão leigo em Plenário.",
+    "justificativa": "Gabarito ERRADO. Emendas regimentais (inclusive aglutinativas) só podem ser apresentadas por parlamentares, líderes ou bancadas partidárias formalmente constituídas que atendam aos requisitos regimentais de subscrição. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -369,7 +385,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A iniciativa privativa para propor projetos de lei que disponham sobre a criação de cargos e a fixação de remuneração dos servidores da Câmara dos Deputados compete privativamente ao Presidente da República.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 51, IV da CF/88, compete PRIVATIVAMENTE À CÂMARA DOS DEPUTADOS dispor sobre sua organização, funcionamento, polícia, criação, transformação ou extinção dos cargos, empregos e funções de seus serviços, e a iniciativa de lei para fixação da respectiva remuneração, por iniciativa da Mesa Diretora.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Atribuir iniciativa de cargos da Câmara ao Presidente da República.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -386,8 +402,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "As Resoluções da Câmara dos Deputados são leis delegadas sancionadas pelo Supremo Tribunal Federal para regulamentar o Código Penal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Resoluções da Câmara regulam matérias de sua competência privativa interna (art. 51 da CF/88), como seu Regimento Interno, polícia da Casa e organização administrativa, promulgadas pela Mesa da própria Câmara.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir Resolução com lei penal delegada sancionada pelo STF.",
+    "justificativa": "Gabarito ERRADO. Resoluções da Câmara regulam matérias de sua competência privativa interna (art. 51 da CF/88), como seu Regimento Interno, polícia da Casa e organização administrativa, promulgadas pela Mesa da própria Câmara. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -405,7 +421,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "Emendas parlamentares impositivas individuais ao projeto de Lei Orçamentária Anual dependem de prévia autorização judicial, sendo desprovidas de respaldo na ordem constitucional positiva.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O orçamento impositivo para emendas parlamentares individuais foi expressamente introduzido no texto constitucional (art. 166, §§ 9º e 11 da CF/88), estabelecendo execução obrigatória em limites percentuais da receita corrente líquida.",
-    "armadilhaBanca": "Declarar ilegais as emendas orçamentárias impositivas.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -429,7 +445,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "Senadores encarregado de examinar e emitir parecer",
+    "versao_errada": "A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) é órgão colegiado composto por Deputados e indevidamente senadores encarregado de examinar e emitir parecer sobre o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA)."
   },
   {
     "id": "m10-q-25",
@@ -446,7 +464,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "pareceres formais de comissões para que a",
+    "versao_errada": "A urgência urgentíssima (urgência regimental prevista no art. 155 do RICD) dispensa as exigências regimentais de prazos e indevidamente pareceres formais de comissões para que a proposição seja imediatamente incluída na Ordem do Dia do Plenário, mediante requerimento aprovado pela maioria absoluta da Casa."
   },
   {
     "id": "m10-q-26",
@@ -482,7 +502,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "o encaminhamento de requerimentos de informação a",
+    "versao_errada": "O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados tem entre suas atribuições regimentais indevidamente o encaminhamento de requerimentos de informação a Ministros de Estado e a gestão do sistema de habitação funcional dos parlamentares."
   },
   {
     "id": "m10-q-28",
@@ -499,7 +521,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "e o 2º Vice-Presidentes e quatro Secretários",
+    "versao_errada": "A Mesa Diretora da Câmara dos Deputados compõe-se de sete membros titulares: o Presidente, o 1º indevidamente e o 2º vice-presidentes e quatro secretários, contando ainda com quatro Suplentes de Secretários para substituir os titulares em suas faltas ou impedimentos."
   },
   {
     "id": "m10-q-29",
@@ -509,8 +533,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A perda de mandato de Deputado Federal julgada pelo Plenário da Câmara por quebra de decoro parlamentar exige votação simbólica sem registro de presença.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A cassação de mandato por quebra de decoro (art. 55, II da CF/88) exige votação ostensiva nominal e quórum qualificado de MAIORIA ABSOLUTA dos membros da Casa (257 votos favoráveis), assegurada ampla defesa.",
-    "armadilhaBanca": "PEGADINHA_REGIMENTAL: Exigir maioria absoluta em votação nominal para perda de mandato.",
+    "justificativa": "Gabarito ERRADO. A cassação de mandato por quebra de decoro (art. 55, II da CF/88) exige votação ostensiva nominal e quórum qualificado de MAIORIA ABSOLUTA dos membros da Casa (257 votos favoráveis), assegurada ampla defesa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -527,8 +551,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "Na composição das Comissões Permanentes da Câmara dos Deputados, a distribuição dos lugares entre os partidos políticos deve ser feita por sorteio de bingo ao vivo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 58, § 1º da CF/88 e o RICD determinam que na composição das Comissões e da Mesa é assegurada, tanto quanto possível, a REPRESENTAÇÃO PROPORCIONAL dos partidos ou blocos parlamentares com assento na Casa.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Substituir o princípio constitucional da representação proporcional por sorteio.",
+    "justificativa": "Gabarito ERRADO. O art. 58, § 1º da CF/88 e o RICD determinam que na composição das Comissões e da Mesa é assegurada, tanto quanto possível, a REPRESENTAÇÃO PROPORCIONAL dos partidos ou blocos parlamentares com assento na Casa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -546,7 +570,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "As Comissões Parlamentares de Inquérito (CPIs) da Câmara dos Deputados possuem poder para julgar e condenar diretamente acusados a penas de reclusão e prisão perpétua em penitenciária federal.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. As CPIs possuem poderes de investigação próprios das autoridades judiciais (ouvir testemunhas, quebrar sigilos bancário/fiscal/telefônico), mas NÃO TÊM poder judicante: não julgam, não aplicam penas e não condenam. Suas conclusões são encaminhadas ao Ministério Público para que este promova a responsabilidade civil ou penal (art. 58, § 3º da CF/88).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Atribuir poder jurisdicional de condenação penal a CPIs.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -563,8 +587,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "O Presidente da Câmara dos Deputados exerce direito de voto em deliberações ordinárias do Plenário, inclusive em votações simbólicas de rotina legislativa sem ocorrência de empate.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o RICD (art. 17, § 2º), o Presidente só vota em hipóteses expressas: escrutínio secreto, empate na votação ostensiva (voto de minerva) e em matérias que exijam quórum de maioria qualificada.",
-    "armadilhaBanca": "PEGADINHA_REGIMENTAL: Voto do Presidente da Câmara.",
+    "justificativa": "Gabarito ERRADO. Conforme o RICD (art. 17, § 2º), o Presidente só vota em hipóteses expressas: escrutínio secreto, empate na votação ostensiva (voto de minerva) e em matérias que exijam quórum de maioria qualificada. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -603,8 +627,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A interposição de recurso para submeter ao Plenário proposição sujeita à apreciação conclusiva pelas comissões constitui faculdade restrita a líderes de bancadas partidárias.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O recurso para levar projeto conclusivo ao Plenário (art. 58, § 2º, I da CF/88 e RICD) exige a assinatura de um décimo dos membros da Casa, independentemente de exercerem função de liderança partidária.",
-    "armadilhaBanca": "Avocação ao Plenário por mensagem em biblioteca.",
+    "justificativa": "Gabarito ERRADO. O recurso para levar projeto conclusivo ao Plenário (art. 58, § 2º, I da CF/88 e RICD) exige a assinatura de um décimo dos membros da Casa, independentemente de exercerem função de liderança partidária. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -628,7 +652,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "e votar projetos de lei dispensando a",
+    "versao_errada": "A tramitação conclusiva nas comissões (poder terminativo previsto no art. 24, II do RICD) faculta às Comissões Permanentes discutir indevidamente e votar projetos de lei dispensando a deliberação do Plenário soberano, exceto se houver recurso formal subscrito por pelo menos um décimo dos membros da Casa."
   },
   {
     "id": "m10-q-36",
@@ -645,7 +671,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "Câmara dos Deputados ao qual compete manifestar-se",
+    "versao_errada": "A Comissão de Constituição e Justiça e de Cidadania (CCJC) é órgão técnico permanente da indevidamente câmara dos deputados ao qual compete manifestar-se terminantemente sobre a constitucionalidade, juridicidade e técnica legislativa de todas as proposições submetidas à Casa."
   },
   {
     "id": "m10-q-37",
@@ -694,8 +722,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Caso um deputado se desligue do partido que integra um bloco parlamentar e esse desligamento reduza a quantidade de membros do bloco a número inferior ao quórum mínimo para sua constituição, o bloco subsistirá até o encerramento da legislatura em curso.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A diminuição do número de parlamentares abaixo do quórum mínimo legal ou regimental enseja a dissolução do bloco parlamentar, perdendo as prerrogativas de liderança proporcional.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. A diminuição do número de parlamentares abaixo do quórum mínimo legal ou regimental enseja a dissolução do bloco parlamentar, perdendo as prerrogativas de liderança proporcional. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -735,7 +763,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "Cabe a comissão parlamentar de inquérito instaurada na Câmara dos Deputados expedir intimação compulsória com força de convocação a governador de estado para prestar depoimento sobre a aplicação de verbas federais descentralizadas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Supremo Tribunal Federal pacificou que comissões parlamentares de inquérito do Congresso Nacional não podem convocar governadores de estado, cabendo apenas o convite, em obséquio ao pacto federativo e à separação dos poderes.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -773,8 +801,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "O Colégio de Líderes constitui comissão temática de assessoramento legislativo, cabendo-lhe a redação prévia dos substitutivos das proposições antes de sua submissão ao Plenário.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Colégio de Líderes é órgão político de deliberação estratégica e construção de acordos de procedimento, auxiliando na definição prioritária da Ordem do Dia, não se confundindo com comissão técnica de mérito.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Caricaturar Colégio de Líderes como órgão de recreação.",
+    "justificativa": "Gabarito ERRADO. O Colégio de Líderes é órgão político de deliberação estratégica e construção de acordos de procedimento, auxiliando na definição prioritária da Ordem do Dia, não se confundindo com comissão técnica de mérito. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -857,7 +885,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "disciplinares instaurados contra Deputados Federais por condutas",
+    "versao_errada": "O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados é o órgão encarregado de instruir processos indevidamente disciplinares instaurados contra deputados federais por condutas incompatíveis com o decoro parlamentar, podendo propor sanções que vão de censura escrita à perda do mandato."
   },
   {
     "id": "m10-q-48",
@@ -874,7 +904,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "participação entre o cidadão e a instituição",
+    "versao_errada": "A Ouvidoria Parlamentar da Câmara dos Deputados funciona como canal direto de comunicação e indevidamente participação entre o cidadão e a instituição, recebendo reclamações, sugestões e pedidos de providências sobre as atividades dos órgãos da Casa."
   },
   {
     "id": "m10-q-49",
@@ -891,7 +923,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "de pelo menos um terço dos deputados",
+    "versao_errada": "A criação de uma CPI na Câmara dos Deputados depende de requerimento indevidamente de pelo menos um terço dos deputados (171 deputados), para a apuração de fato determinado e por prazo certo."
   },
   {
     "id": "m10-q-50",
@@ -946,7 +980,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "livros, artigos de periódicos e atos normativos",
+    "versao_errada": "Na Biblioteca Pedro Aleixo, os Analistas Legislativos — atribuição Bibliotecário realizam o tratamento temático e descritivo de indevidamente livros, artigos de periódicos e atos normativos utilizando sistemas integrados de biblioteca em conformidade com o formato MARC 21 e regras da RDA."
   },
   {
     "id": "m10-q-53",
@@ -963,7 +999,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "legislativos) pelo serviço de referência da Biblioteca",
+    "versao_errada": "A elaboração de produtos informacionais especializados (como dossiês temáticos, bibliografias anotadas e compêndios indevidamente legislativos) pelo serviço de referência da biblioteca Pedro Aleixo qualifica o trabalho técnico das Consultorias e Comissões da Casa."
   },
   {
     "id": "m10-q-54",
@@ -980,7 +1018,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "da história do Brasil, incluindo impressos dos",
+    "versao_errada": "A Seção de Obras Raras da Biblioteca Pedro Aleixo abriga preciosidades bibliográficas e documentais indevidamente da história do brasil, incluindo impressos dos séculos XVI a XIX, primeiras edições constitucionais e anais do Parlamento do Império."
   },
   {
     "id": "m10-q-55",
@@ -990,8 +1030,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A política de desenvolvimento de coleções da Biblioteca Pedro Aleixo prioriza a aquisição de obras literárias e ficcionais recreativas, deixando a cargo da Consultoria Legislativa a formação de acervos de Direito Constitucional e Teoria do Parlamento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo tem acervo técnico-especializado voltado prioritariamente às áreas de Direito, Legislação, Ciência Política, Administração Pública e Processo Legislativo.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Proibir livros de Direito e limitar a romances policiais.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo tem acervo técnico-especializado voltado prioritariamente às áreas de Direito, Legislação, Ciência Política, Administração Pública e Processo Legislativo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1008,8 +1048,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "Para ingressar no cargo de Analista Legislativo — Bibliotecário da Câmara dos Deputados, o candidato não precisa prestar concurso público, bastando indicação de parentesco com um ministro estrangeiro.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O ingresso em cargo efetivo de Analista Legislativo da Câmara dos Deputados exige aprovação prévia em rigoroso ÚBLICO de provas ou de provas e títulos, em cumprimento ao art. 37, II da Constituição Federal.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar úblico para cargo efetivo da Câmara.",
+    "justificativa": "Gabarito ERRADO. O ingresso em cargo efetivo de Analista Legislativo da Câmara dos Deputados exige aprovação prévia em rigoroso ÚBLICO de provas ou de provas e títulos, em cumprimento ao art. 37, II da Constituição Federal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1096,7 +1136,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A Coordenação de Gestão Documental (COGED) do CEDI veda a utilização da Tabela de Temporalidade de Documentos aprovada pelo Arquivo Nacional.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A gestão arquivística da Câmara dos Deputados atua em estreita consonância com o CONARQ e as diretrizes de temporalidade e destinação documental, fundamentando o descarte legítimo de papéis desprovidos de valor e a guarda permanente da memória da Casa.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Afirmar recusa da Tabela de Temporalidade pela gestão documental.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1113,8 +1153,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "O acesso aos terminais de pesquisa da Biblioteca da Câmara dos Deputados subordina-se à autorização expressa da Mesa Diretora, limitando-se o uso da rede aos servidores lotados no Centro de Informática.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Biblioteca da Câmara disponibiliza terminais de acesso e rede sem fio para atendimento amplo a deputados, servidores, assessores e pesquisadores externos em suas dependências.",
-    "armadilhaBanca": "Proibir computadores e internet na biblioteca.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca da Câmara disponibiliza terminais de acesso e rede sem fio para atendimento amplo a deputados, servidores, assessores e pesquisadores externos em suas dependências. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1131,8 +1171,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Coordenação de Edições Câmara (COPUB) tem como atividade exclusiva a venda ambulante de bilhetes de loteria clandestina nos saguões do Palácio do Congresso.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Coordenação de Edições Câmara é a editora oficial do Parlamento, responsável pela edição, projeto gráfico, publicação e difusão de obras de relevância histórica, legislativa, cultural e institucional do país.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar Edições Câmara como loteria clandestina.",
+    "justificativa": "Gabarito ERRADO. A Coordenação de Edições Câmara é a editora oficial do Parlamento, responsável pela edição, projeto gráfico, publicação e difusão de obras de relevância histórica, legislativa, cultural e institucional do país. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1174,7 +1214,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "é executada por laboratório técnico especializado do",
+    "versao_errada": "A preservação física e restauração de documentos e livros raros na Câmara dos Deputados indevidamente é executada por laboratório técnico especializado do CEDI dotado de equipamentos para desacidificação, higienização mecânica e enxerto de fibras celulósicas."
   },
   {
     "id": "m10-q-65",
@@ -1191,7 +1233,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "em Ciências Humanas e Sociais Aplicadas, com",
+    "versao_errada": "A Biblioteca Pedro Aleixo da Câmara dos Deputados é uma biblioteca parlamentar especializada indevidamente em ciências humanas e sociais aplicadas, com ênfase primordial em Ciência Política, Direito Público, Processo Legislativo, Economia e Administração Pública."
   },
   {
     "id": "m10-q-66",
@@ -1201,8 +1245,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Biblioteca Pedro Aleixo cobra uma taxa em dinheiro de cinquenta reais por hora de leitura de qualquer cidadão que consulte a Constituição Federal na sala de estudo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O atendimento presencial e a consulta ao acervo na biblioteca pública do Parlamento são absolutamente GRATUITOS, pautados no princípio republicano da transparência e gratuidade do acesso ao patrimônio público.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Cobrar taxa horária de leitura em biblioteca pública.",
+    "justificativa": "Gabarito ERRADO. O atendimento presencial e a consulta ao acervo na biblioteca pública do Parlamento são absolutamente GRATUITOS, pautados no princípio republicano da transparência e gratuidade do acesso ao patrimônio público. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1219,8 +1263,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "O CEDI impede a integração de sua base de dados com a Rede Virtual de Bibliotecas (RVBI), mantendo um isolamento tecnológico estrito em relação ao Senado Federal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo do CEDI é uma das cofundadoras e principais cooperantes da RVBI, compartilhando catálogo unificado, autoridades e bases normativas com o Senado e tribunais superiores.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Negar a cooperação do CEDI na RVBI.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo do CEDI é uma das cofundadoras e principais cooperantes da RVBI, compartilhando catálogo unificado, autoridades e bases normativas com o Senado e tribunais superiores. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1244,7 +1288,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "protocolo geral e custódia do arquivo histórico",
+    "versao_errada": "A Coordenação de Arquivo (COARQ) do CEDI é a unidade responsável pela gestão de documentos, indevidamente protocolo geral e custódia do arquivo histórico e intermediário da Câmara dos Deputados, incluindo proposições legislativas originais, autógrafos e papéis parlamentares."
   },
   {
     "id": "m10-q-69",
@@ -1261,7 +1307,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "pesquisadores o acesso às salas de leitura",
+    "versao_errada": "O programa de visitação institucional da Biblioteca Pedro Aleixo possibilita a cidadãos, estudantes universitários e indevidamente pesquisadores o acesso às salas de leitura e à consulta do acervo parlamentar, promovendo a integração entre a sociedade e o Parlamento."
   },
   {
     "id": "m10-q-70",
@@ -1271,8 +1319,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Biblioteca Pedro Aleixo da Câmara dos Deputados é subordinada administrativamente a um clube de futebol particular do Rio de Janeiro, não tendo qualquer vinculação com o CEDI.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo integra a estrutura direta do CEDI (por meio da Coordenação de Biblioteca — COBIB), integrando o patrimônio informacional e a administração direta da Câmara dos Deputados.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Subordinar a Biblioteca da Câmara a clube particular de futebol.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo integra a estrutura direta do CEDI (por meio da Coordenação de Biblioteca — COBIB), integrando o patrimônio informacional e a administração direta da Câmara dos Deputados. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1289,8 +1337,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Biblioteca da Câmara dos Deputados adota a política de expurgar e queimar todos os exemplares de discursos proferidos por parlamentares da oposição após o término de cada mandato.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A memória parlamentar é guardada com rigor institucional de imparcialidade e permanência: todos os discursos, de qualquer partido, são indexados, publicados nos Anais da Câmara e preservados indefinidamente.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Queimar discursos da oposição.",
+    "justificativa": "Gabarito ERRADO. A memória parlamentar é guardada com rigor institucional de imparcialidade e permanência: todos os discursos, de qualquer partido, são indexados, publicados nos Anais da Câmara e preservados indefinidamente. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1314,7 +1362,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "subordinado à Diretoria-Geral (DG), responsável pela gestão",
+    "versao_errada": "O Centro de Documentação e Informação (CEDI) é o órgão administrativo da Câmara dos Deputados diretamente indevidamente subordinado à diretoria-geral (dg), responsável pela gestão, guarda, preservação, tratamento técnico e disseminação da memória histórica, bibliográfica, legislativa e arquivística do Parlamento brasileiro."
   },
   {
     "id": "m10-q-73",
@@ -1331,7 +1381,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "corredor do Plenário para resgatar momentos marcantes",
+    "versao_errada": "O CEDI promove projetos de história oral e exposições temáticas no indevidamente corredor do plenário para resgatar momentos marcantes da democracia brasileira e a trajetória de líderes parlamentares de destaque."
   },
   {
     "id": "m10-q-74",
@@ -1348,7 +1400,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "e multimídia produzidos pelo Parlamento, como relatórios",
+    "versao_errada": "A Biblioteca Digital da Câmara dos Deputados disponibiliza em acesso aberto documentos textuais indevidamente e multimídia produzidos pelo parlamento, como relatórios de CPIs, pareceres históricos, biografias parlamentares e publicações institucionais das Edições Câmara."
   },
   {
     "id": "m10-q-75",
@@ -1365,7 +1419,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "O Sistema de Informações da Biblioteca Pedro Aleixo permite a gestão automatizada de empréstimos, renovações e reservas para deputados e servidores indevidamente por meio de interface web autenticada integrada à intranet da Câmara."
   },
   {
     "id": "m10-q-76",
@@ -1382,7 +1438,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "dos serviços técnicos de bibliotecas; a classificação",
+    "versao_errada": "São atribuições privativas dos bacharéis em Biblioteconomia, conforme o art. 6º da Lei nº 4.084/1962: a organização, direção e execução indevidamente dos serviços técnicos de bibliotecas; a classificação e catalogação de manuscritos e livros; a organização de catálogos e a orientação aos leitores na busca de fontes bibliográficas."
   },
   {
     "id": "m10-q-77",
@@ -1399,7 +1457,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "filiação a sindicato ou a organização de",
+    "versao_errada": "Na LGPD, são considerados 'dados pessoais sensíveis' aqueles sobre origem racial ou étnica, convicção religiosa, opinião política, indevidamente filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico."
   },
   {
     "id": "m10-q-78",
@@ -1421,7 +1481,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185318"
-    }
+    },
+    "gatilho": "e reúne informações sobre as col eções",
+    "versao_errada": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é de acesso público indevidamente e reúne informações sobre as col eções de publicações seriadas nacionais e estrangeiras disponíveis nas bibliot bibliotecas brasileiras."
   },
   {
     "id": "m10-q-79",
@@ -1438,7 +1500,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "a exceção estrita, devendo os órgãos públicos",
+    "versao_errada": "Conforme a Lei de Acesso à Informação (Lei nº 12.527/2011), a publicidade dos atos estatais é o preceito geral, e o sigilo é indevidamente a exceção estrita, devendo os órgãos públicos da administração direta e indireta promover, independentemente de requerimentos, a divulgação em local de fácil acesso de informações de interesse coletivo (transparência ativa)."
   },
   {
     "id": "m10-q-80",
@@ -1483,7 +1547,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "orgao": "TC DF",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-369884"
-    }
+    },
+    "gatilho": "ao leitor de prova conferir as composições",
+    "versao_errada": "No processo editorial, cabe indevidamente ao leitor de prova conferir as composições e erros de formatação."
   },
   {
     "id": "m10-q-82",
@@ -1494,7 +1560,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "Na classificação de documentos sigilosos sob a égide da Lei nº 12.527/2011 (LAI), o prazo máximo de restrição de acesso para a informação classificada no grau 'Ultrassecreto' é de cem anos.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Prazos máximos canônicos da LAI (art. 24): Ultrassecreta = 25 anos; Secreta = 15 anos; Reservada = 5 anos. O prazo de até 100 anos refere-se exclusivamente a informações pessoais relativas à intimidade, honra e imagem (art. 31), e não à classificação no grau ultrassecreto.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir prazo de ultrassecreta (25 anos) com proteção de dados pessoais (100 anos).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1534,7 +1600,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "De acordo com a Lei Federal nº 4.084/1962, o exercício da profissão de Bibliotecário em órgãos públicos federais é facultado a qualquer pessoa alfabetizada sem necessidade de diploma de Bacharel em Biblioteconomia nem de registro profissional no Conselho Regional de Biblioteconomia.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Lei nº 4.084/62 e a Lei nº 9.674/98 estabelecem que o exercício da profissão de Bibliotecário é PRIVATIVO dos diplomados em nível superior de Biblioteconomia por escolas oficiais ou reconhecidas e devidamente REGISTRADOS no Conselho Regional de Biblioteconomia (CRB) de sua respectiva jurisdição.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar diploma e registro no CRB para exercício da profissão.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1552,7 +1618,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A Lei nº 12.244/2010 (universalização das bibliotecas escolares) impõe que as bibliotecas escolares sejam sumariamente extintas e substituídas por salas de jogos de videogame comercial sem qualquer livro impresso.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Lei nº 12.244/2010 determinou exatamente o contrário: a OBRIGATORIEDADE de instalação de bibliotecas em todas as instituições de ensino do país públicas e privadas, com acervo mínimo de um título por aluno matriculado e atuação profissional.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Extinção de bibliotecas escolares em vez de universalização.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1576,7 +1642,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "direitos fundamentais, nem àquelas que versem sobre",
+    "versao_errada": "Nos termos da LAI, não pode ser negado acesso à informação necessária à tutela judicial ou administrativa de indevidamente direitos fundamentais, nem àquelas que versem sobre condutas que impliquem violação dos direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas."
   },
   {
     "id": "m10-q-87",
@@ -1593,7 +1661,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "acesso imediato; caso não seja possível, a",
+    "versao_errada": "Pela Lei de Acesso à Informação, quando a informação solicitada pelo cidadão estiver disponível, o órgão público deve conceder o indevidamente acesso imediato; caso não seja possível, a resposta deve ser fornecida em prazo não superior a vinte dias, prorrogável por mais dez dias mediante justificativa expressa."
   },
   {
     "id": "m10-q-88",
@@ -1604,7 +1674,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018) proíbe que órgãos públicos federais realizem o tratamento de dados pessoais de cidadãos mesmo quando necessário para a execução de políticas públicas previstas em lei.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O art. 7º, III da LGPD autoriza expressamente o tratamento de dados pessoais pela administração pública para a 'administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos'.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Negar a hipótese de tratamento de dados pelo poder público na LGPD.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1667,7 +1737,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "O Conselho Federal de Biblioteconomia (CFB) e os Conselhos Regionais de Biblioteconomia (CRBs) são entidades privadas de assistência social sem personalidade jurídica nem poder de polícia para fiscalizar o exercício profissional.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O CFB e os CRBs são AUTARQUIAS FEDERAIS de fiscalização profissional criadas por lei federal (Lei 9.674/98), dotadas de personalidade jurídica de direito público, autonomia administrativa e financeira e poder de polícia estatal para fiscalizar o exercício da profissão.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir autarquias federais de fiscalização profissional com ONGs privadas.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1760,7 +1830,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "leitura no Brasil e define formalmente que",
+    "versao_errada": "A Lei nº 10.753/2003 (Política Nacional do Livro) estabelece diretrizes para a difusão da indevidamente leitura no brasil e define formalmente que a responsabilidade técnica pelas bibliotecas públicas municipais e estaduais cabe privativamente a bibliotecários habilitados."
   },
   {
     "id": "m10-q-96",
@@ -1799,7 +1871,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "gatilho": "sigilo profissional quanto às informações e pesquisas",
+    "versao_errada": "O Código de Ética Profissional do Bibliotecário Brasileiro prescreve o dever de indevidamente sigilo profissional quanto às informações e pesquisas confiadas pelos usuários, ressalvados os deveres legais de cooperação com a justiça."
   },
   {
     "id": "m10-q-98",
@@ -1810,7 +1884,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "item": "A LAI autoriza os órgãos públicos a exigir que o cidadão justifique os motivos pessoais e filosóficos pelos quais está solicitando determinada informação de interesse coletivo, sob pena de indeferimento sumário do pedido.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O art. 10, § 3º da LAI proíbe expressamente 'quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público'. O cidadão não é obrigado a justificar o porquê de querer a informação.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Exigir justificativa de motivos em pedidos da LAI.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",

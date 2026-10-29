@@ -903,7 +903,7 @@ export const CRONOGRAMA_DIAS: CronogramaDia[] = [
       {
         id: 'sub-8-3',
         codigo: '8.3',
-        titulo: 'ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos',
+        titulo: 'ABNT NBR 14724:2024: Apresentação de Trabalhos Acadêmicos',
         tipo: 'especifico',
       },
     ],

@@ -39,7 +39,7 @@ export const submodulo54: ModuloFilho = {
   tempoEstimadoMinutos: 15,
   autoresChave: ['Chun Wei Choo', 'Ikujiro Nonaka', 'Hirotaka Takeuchi', 'Michael Polanyi', 'Thomas H. Davenport', 'Laurence Prusak', 'Etienne Wenger'],
   alertasCebraspe: [
-    'O Cebraspe adora trocar os papéis da Gestão da Informação (GI) e da Gestão do Conhecimento (GC): a Gestão da Informação cuida dos fluxos formais, do conhecimento explícito e dos suportes documentais/tecnológicos; a Gestão do Conhecimento cuida do capital intelectual, dos fluxos informais e do conhecimento tácito residente nas pessoas.',
+    'A técnica de distrator recorrente consiste em trocar os papéis da Gestão da Informação (GI) e da Gestão do Conhecimento (GC): a Gestão da Informação cuida dos fluxos formais, do conhecimento explícito e dos suportes documentais/tecnológicos; a Gestão do Conhecimento cuida do capital intelectual, dos fluxos informais e do conhecimento tácito residente nas pessoas.',
     'Atenção máxima aos 4 modos de conversão do modelo SECI de Nonaka & Takeuchi: 1. Socialização (tácito para tácito via observação, convívio e mestre-aprendiz); 2. Externalização (tácito para explícito via metáforas, conceitos, modelos visuais e manuais - é a chave da criação do conhecimento); 3. Combinação (explícito para explícito via agregação, cruzamento de relatórios e bases); e 4. Internalização (explícito para tácito via "aprender fazendo" / learning by doing).',
     'Conhecimento tácito não pode ser armazenado diretamente em bancos de dados digitais ou sistemas de TI; para ser gravado e manipulado computacionalmente, ele DEVE ser primeiramente articulado e transformado em conhecimento explícito (externalização).',
     'Chun Wei Choo estabelece que a organização inteligente opera em três arenas articuladas: Construção de Sentido (Sense Making de Karl Weick), Criação do Conhecimento (SECI de Nonaka) e Tomada de Decisão (Racionalidade Limitada de Herbert Simon).',
@@ -184,6 +184,20 @@ No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gest�
 
 ---
 
+### 7. Competência em Dados (Data Literacy) na Gestão do Conhecimento Legislativo
+
+No paradigma contemporâneo da gestão pública fundamentada em evidências, a **Competência em Dados (*Data Literacy*)** consolida-se como habilidade nuclear para bibliotecários e gestores da informação (**Javier Calzada Prado & Miguel Ángel Marzal, 2013; Tibor Koltay, 2017**):
+
+* **Distinção Essencial:** Enquanto a competência informacional (*Information Literacy*) foca em textos, documentos e fontes bibliográficas, a competência em dados lida diretamente com **conjuntos de dados brutos e estruturados (*datasets* e matrizes)**, estatísticas oficiais e fluxos de APIs.
+* **As Cinco Dimensões Nucleares de Calzada Prado & Marzal (2013):**
+  1. *Acesso e Descoberta:* Localização de bases de dados abertos governamentais (Portal Brasileiro de Dados Abertos, repositórios parlamentares);
+  2. *Avaliação e Crítica de Dados:* Verificação de fidedignidade, integridade de amostragem, vieses de coleta e qualidade dos metadados (DAMA-DMBOK);
+  3. *Gestão e Curadoria de Dados:* Aplicação de planos de gestão de dados (PGD), princípios FAIR e formatos abertos (CSV, JSON, Parquet);
+  4. *Análise Quantitativa e Interpretação:* Extração de sentido estatístico, correlações e inferências válidas a partir de dados brutos;
+  5. *Visualização e Comunicação Ética:* Apresentação clara em painéis analíticos (*dashboards*), respeitando a privacidade (LGPD), a proveniência e a veracidade dos dados.
+
+---
+
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Governança da Informação e de Dados (sub-1-6):** Modelos de Gestão do Conhecimento (Nonaka & Takeuchi) e governança DAMA.
 `,
@@ -223,7 +237,7 @@ A **Gestão da Informação (GI)** e a **Gestão do Conhecimento (GC)** integram
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Inversão dos Modos SECI:** A banca costuma dizer que *"a Socialização ocorre quando o profissional lê um manual técnico e assimila seu conteúdo"*. **Gabarito: ERRADO.** Ler manual e assimilar é **Internalização** (Explícito $\to$ Tácito). A Socialização é sempre Tácito $\to$ Tácito.
+- **Inversão dos Modos SECI:** A técnica de elaboração de itens costuma dizer que *"a Socialização ocorre quando o profissional lê um manual técnico e assimila seu conteúdo"*. **Gabarito: ERRADO.** Ler manual e assimilar é **Internalização** (Explícito $\to$ Tácito). A Socialização é sempre Tácito $\to$ Tácito.
 - **Armazenamento de Conhecimento Tácito em Computadores:** Dizer que sistemas de TI armazenam conhecimento tácito. **Gabarito: ERRADO.** Computadores só armazenam dados e informações explícitas; conhecimento tácito reside exclusivamente no cérebro humano.
 - **Sinonímia entre GI e GC:** Tratar Gestão da Informação e Gestão do Conhecimento como sinônimos perfeitos. **Gabarito: ERRADO.** GI cuida de artefatos explícitos; GC cuida de pessoas, aprendizado e ambiente corporativo.
 

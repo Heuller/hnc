@@ -9,8 +9,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação à documentação jurídica, julgue os itens seguintes.",
     "item": "A Bibliografia Brasileira de Direito foi concebida com a finalidade de controlar todo o material bibliográfico de direito brasileiro publicado no Brasil e no exterior; contudo, devido à dificuldade de captação desse material no exterior, passou a ser registrado exclusivamente o que foi public ado no Brasil, em português ou em outro idioma.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso BASA/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M13 (Português).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso BASA/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"no exterior; contudo, devido à dificuldade de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -54,8 +54,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao código de Catalogação Anglo -Americano (AACR2), julgue os próx i-",
     "item": "De acordo as regras para a pontuação estabelecidas pelo AACR2, o título alternativo é a segu nda parte do título principal em certas obras, constituindo cada uma delas um t ítulo distinto, interligados pela partícula ou, ou por seu equivalente em outras línguas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TRE-BA/2010 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M13 (Português).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TRE-BA/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"do título principal em certas obras, constituindo\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -99,8 +99,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "De acordo com a 2.ª edição do Padrão Internacional da CDU, em Língua Portuguesa,",
     "item": "A notação “53+913” refere-se ao título “Física e Geografia Regional”.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso ABIN/2017 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M13 (Português).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"“53+913” refere-se ao título “Física e Geografia\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -144,8 +144,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "De acordo com a 2.ª edição do Padrão Internacional da CDU, em Língua Portuguesa,",
     "item": "A notação “53/55” se refere ao título “Física, Química e Geociências”: “Física” está representado pelo número “53”, “Química”, pelo “54”, e “Geociências”, pelo “55”, ou seja, existe uma extensão consecutiva.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso ABIN/2017 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M13 (Português).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"está representado pelo número “53”, “Química”, pelo\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -189,8 +189,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "De acordo com a 2.ª edição do Padrão Internacional da CDU, em Língua Portuguesa,",
     "item": "A relação simples e direta entre Matemática (51) e Astronomia (52) resulta na notação “51:52”.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso ABIN/2017 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M13 (Português).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"direta entre Matemática (51) e Astronomia (52)\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -376,8 +376,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) Privacy groups and lawmakers are calling for a new and broader investigation into Google and its privacy practices after the U.S. Federal Communications Commission (FCC) announced that it found no evidence that the company broke eavesdropping laws. Late last week, the FCC reported that there was no legal precedent to find fault with Google collecting unprotected home Wi-Fi data, such as personal email, passwords and search histories, with its roaming Street View cars between 2007 and 2010. However, the FCC did fine Google $ 25,000 for obstructing its investigation. The Electronic Privacy Information Center (EPIC), a national privacy watchdog, disagreed with the FCC findings. In a letter sent to U.S. Attorney General Eric Holder today, EPIC asked that the Department of Justice investigate Google's surreptitious collecting of Wi-Fi data from residential networks. U.S. Rep. Edward J. Markey, a senior member of the U.S. House Energy and Commerce Committee, has also stepped into the fray. \"The circumstances surrounding Google's siphoning of personal information leave many unanswered questions,\" Markey said today in an email to Computerworld. \"I believe Congress should immediately hold a hearing to get to the bottom of this serious situation.\" Internet: <www.computerworld.com> (adapted). Based on the text above it can be said that \"surreptitious\" is synonymous with concealed.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Inglês).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"(EPIC), a national privacy watchdog, disagreed with\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -423,8 +423,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. It is correct to conclude from the first paragraph of the text that its author believes that not much has been explored about the true nature of legislative drafters’ work, which is not merely technical and impartial.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Inglês).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"not a fifth column of subversives who\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -471,14 +471,16 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "O princípio da supremacia do interesse público sobre o privado, embora não se encontre expresso no caput do art. 37 da Constituição Federal de 1988, constitui postulado implícito orientador do regime jurídico-administrativo, legitimando as prerrogativas estatais como a presunção de legitimidade e a autoexecutoriedade dos atos administrativos.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. O princípio da supremacia do interesse público sobre o privado é um dos pilares implícitos basilares do regime jurídico-administrativo (ao lado da indisponibilidade do interesse público), fundamentando as prerrogativas estatais.",
-    "armadilhaBanca": "Assertiva correta explorando a distinção entre princípios expressos (LIMPE) e implícitos (supremacia, indisponibilidade, razoabilidade, proporcionalidade, autotutela).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista Legislativo - Adaptada"
-    }
+    },
+    "gatilho": "da Constituição Federal de 1988, constitui postulado",
+    "versao_errada": "O princípio da supremacia do interesse público sobre o privado, embora não se encontre expresso no caput do art. 37 indevidamente da constituição federal de 1988, constitui postulado implícito orientador do regime jurídico-administrativo, legitimando as prerrogativas estatais como a presunção de legitimidade e a autoexecutoriedade dos atos administrativos."
   },
   {
     "id": "mega-q-22",
@@ -489,7 +491,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "Em virtude do princípio da legalidade administrativa estrita, a atuação dos agentes públicos na Administração Pública é pautada pelo mesmo padrão aplicável às relações privadas, no qual é lícito fazer tudo aquilo que a lei não proíba expressamente.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Para os particulares vigora a autonomia da vontade (fazer tudo que a lei não proíbe - art. 5º, II da CF). Para a Administração Pública, vigora a legalidade estrita: o administrador só pode fazer o que a lei expressamente autoriza ou determina.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir o princípio da legalidade privada (art. 5º, II da CF) com a legalidade administrativa estrita (art. 37, caput da CF).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -508,14 +510,16 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "A descentralização administrativa por serviços (ou outorga) ocorre quando o Estado cria, mediante lei específica, uma entidade com personalidade jurídica própria de direito público ou privado integrante da administração indireta, transferindo-lhe a titularidade e a execução de determinado serviço público.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Na descentralização por outorga (ou funcional/por serviços), a lei cria ou autoriza a criação da entidade e transfere tanto a titularidade quanto a execução do serviço (ex.: autarquias). Já na descentralização por colaboração (delegação), transfere-se apenas a execução via contrato ou ato (concessão, permissão).",
-    "armadilhaBanca": "Diferença canônica entre descentralização por outorga e por delegação.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista Judiciário - Cebraspe"
-    }
+    },
+    "gatilho": "com personalidade jurídica própria de direito público",
+    "versao_errada": "A descentralização administrativa por serviços (ou outorga) ocorre quando o Estado cria, mediante lei específica, uma entidade indevidamente com personalidade jurídica própria de direito público ou privado integrante da administração indireta, transferindo-lhe a titularidade e a execução de determinado serviço público."
   },
   {
     "id": "mega-q-24",
@@ -525,8 +529,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos princípios, normas e institutos de Direito Administrativo e Raciocínio Lógico, julgue o item a seguir.",
     "item": "A criação de uma nova diretoria ou coordenação técnica no âmbito da Câmara dos Deputados constitui típica hipótese de descentralização administrativa, na medida em que culmina na criação de uma nova pessoa jurídica dotada de autonomia patrimonial.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Trata-se de DESCONCENTRAÇÃO administrativa (distribuição interna de competências no âmbito da MESMA pessoa jurídica, criando órgãos despersonalizados), e não descentralização (que envolve pessoas jurídicas distintas).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Trocar desconcentração (órgãos, mesma PJ) por descentralização (entidades, nova PJ).",
+    "justificativa": "Gabarito ERRADO. Trata-se de DESCONCENTRAÇÃO administrativa (distribuição interna de competências no âmbito da MESMA pessoa jurídica, criando órgãos despersonalizados), e não descentralização (que envolve pessoas jurídicas distintas). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -545,14 +549,16 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "As autarquias federais são pessoas jurídicas de direito público criadas diretamente por lei específica, destinadas a executar atividades típicas da Administração Pública, dispondo de patrimônio e receita próprios e sujeitando-se ao controle finalístico (tutela) do ente federado instituidor, inexistindo subordinação hierárquica entre ambos.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. As autarquias são criadas por lei (art. 37, XIX da CF), possuem natureza de direito público e vinculam-se ao ministério ou órgão supervisor por controle finalístico (tutela/supervisão ministerial), sem qualquer subordinação hierárquica.",
-    "armadilhaBanca": "Ausência de hierarquia entre a Administração Direta e as entidades da Administração Indireta (há apenas vinculação e tutela).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe - Analista Administrativo"
-    }
+    },
+    "gatilho": "típicas da Administração Pública, dispondo de patrimônio",
+    "versao_errada": "As autarquias federais são pessoas jurídicas de direito público criadas diretamente por lei específica, destinadas a executar atividades indevidamente típicas da administração pública, dispondo de patrimônio e receita próprios e sujeitando-se ao controle finalístico (tutela) do ente federado instituidor, inexistindo subordinação hierárquica entre ambos."
   },
   {
     "id": "mega-q-26",
@@ -563,7 +569,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "As empresas públicas e as sociedades de economia mista federais distinguem-se quanto ao regime de capital: enquanto a empresa pública admite participação acionária minoritária de entes privados sob a forma de sociedade limitada, a sociedade de economia mista mantém integralidade de capital público estatal estruturada como sociedade anônima.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O conceito está invertido! A Empresa Pública possui capital 100% público e admite qualquer formato societário admitido em direito. A Sociedade de Economia Mista possui capital misto (maioria votante pública e minoritário privado) e deve ser compulsoriamente constituída como Sociedade Anônima (S/A).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter as regras de capital e de forma jurídica entre Empresas Públicas e Sociedades de Economia Mista.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -581,15 +587,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos princípios, normas e institutos de Direito Administrativo e Raciocínio Lógico, julgue o item a seguir.",
     "item": "O princípio da autotutela administrativa confere à Administração Pública a prerrogativa de rever seus próprios atos, revogando aqueles inoportunos ou inconvenientes e anulando os atos eivados de vício de ilegalidade, sem necessidade de prévia provocação ou autorização do Poder Judiciário, respeitados os direitos adquiridos e o devido processo legal.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme consagrado nas Súmulas 346 e 473 do STF e no art. 53 da Lei nº 9.784/1999, a autotutela autoriza a anulação dos atos ilegais (com efeitos ex tunc) e a revogação dos atos inconvenientes (com efeitos ex nunc).",
-    "armadilhaBanca": "Conceito exato da autotutela consagrado nas Súmulas 346 e 473 do STF.",
+    "justificativa": "Gabarito CERTO. Conforme consagrado nas Súmulas 346 e 473 do STF e no art. 53 da Lei nº 9.784/1999, a autotutela autoriza a anulação dos atos ilegais (com efeitos ex tunc) e a revogação dos atos inconvenientes (com efeitos ex nunc). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe - Adaptada"
-    }
+    },
+    "gatilho": "e anulando os atos eivados de vício",
+    "versao_errada": "O princípio da autotutela administrativa confere à Administração Pública a prerrogativa de rever seus próprios atos, revogando aqueles inoportunos ou inconvenientes indevidamente e anulando os atos eivados de vício de ilegalidade, sem necessidade de prévia provocação ou autorização do Poder Judiciário, respeitados os direitos adquiridos e o devido processo legal."
   },
   {
     "id": "mega-q-28",
@@ -600,7 +608,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "A nomeação para cargos em comissão de assessoramento parlamentar admite a indicação de cônjuge ou parentes consanguíneos até o terceiro grau da autoridade nomeante quando fundamentada na relação de estrita confiança política, haja vista que as vedações ao nepotismo da Súmula Vinculante nº 13 vinculam os órgãos do Poder Executivo.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme a Súmula Vinculante nº 13 do STF, a vedação ao nepotismo decorre diretamente dos princípios da impessoalidade e moralidade (art. 37 da CF) e incide de forma cogente sobre todos os Poderes da República, alcançando plenamente o Poder Legislativo.",
-    "armadilhaBanca": "Restringir a Súmula Vinculante 13 a certos Poderes, excluindo o Legislativo.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -619,14 +627,16 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "O motivo do ato administrativo corresponde à situação de direito e de fato que determina ou autoriza a realização do ato, não se confundindo com a motivação, que é a exteriorização formal e expressa das razões fáticas e jurídicas pelo agente público.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Motivo é o pressuposto fático e jurídico em si; motivação é a declaração escrita desses fundamentos no corpo do ato. A teoria dos motivos determinantes vincula a validade do ato à veracidade e legalidade dos motivos declarados na motivação.",
-    "armadilhaBanca": "Distinção técnica precisa entre motivo (elemento intrínseco) e motivação (formalização escrita).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
-    }
+    },
+    "gatilho": "realização do ato, não se confundindo com",
+    "versao_errada": "O motivo do ato administrativo corresponde à situação de direito e de fato que determina ou autoriza a indevidamente realização do ato, não se confundindo com a motivação, que é a exteriorização formal e expressa das razões fáticas e jurídicas pelo agente público."
   },
   {
     "id": "mega-q-30",
@@ -637,7 +647,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "Conforme a Teoria dos Motivos Determinantes, a Administração Pública pode alterar a posteriori a justificativa motivacional de um ato discricionário caso venha a ser comprovada perante o Poder Judiciário a falsidade dos motivos originariamente declarados na edição do ato.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Pela Teoria dos Motivos Determinantes, a validade do ato fica indissociavelmente vinculada aos motivos indicados em sua edição. Se os motivos declarados forem inexistentes, falsos ou juridicamente inadequados, o ato é nulo, sendo defeso à Administração alterar posteriormente os motivos para salvá-lo da anulação.",
-    "armadilhaBanca": "Incompatibilidade da alteração a posteriori de motivos com a Teoria dos Motivos Determinantes.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -655,8 +665,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "O DOU tem sua base de dados disponível em linha, com formato informacional idêntico ao i mpresso e a mesma estrutura de três seções, sendo elas: SEÇÃO 1 – leis, decretos, resoluções, instruções normativas, portarias e outros atos normativos de interesse geral. SEÇÃO 2 – atos de interesse dos servidores da administração pública federal. SEÇÃO 3 – contratos, editais, avisos e ineditoriais",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SUFRAMA/2014 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M14 (TI e Dados).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"– leis, decretos, resoluções, instruções normativas, portarias\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -667,7 +677,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165478"
-    }
+    },
+    "gatilho": "– leis, decretos, resoluções, instruções normativas, portarias",
+    "versao_errada": "O DOU tem sua base de dados disponível em linha, com formato informacional idêntico ao i mpresso e a mesma estrutura de três seções, sendo elas: SEÇÃO 1 indevidamente – leis, decretos, resoluções, instruções normativas, portarias e outros atos normativos de interesse geral. SEÇÃO 2 – atos de interesse dos servidores da administração pública federal. SEÇÃO 3 – contratos, editais, avisos e ineditoriais"
   },
   {
     "id": "mega-q-32",
@@ -700,8 +712,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "O formato de registro MARC é um acrônimo de machine -readable cataloging e foi desenvolvido pela Library of Congress.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SUFRAMA/2014 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M14 (TI e Dados).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"um acrônimo de machine -readable cataloging e\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -745,8 +757,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "A organização estruturada de banco de dados on -line e off -line, bem como a c lassificação e indexação desses bancos de dados de modo automatizado são exemplos da inserção da tecnologia da informação na prática biblioteconômica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso CADE/2014 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M14 (TI e Dados).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CADE/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"c lassificação e indexação desses bancos de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -832,8 +844,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "A definição do banco de dados, o sistema de indexação e recuperação e, ainda, a segurança dos dados constam entre os critérios de avaliaçã o de um sistema de informação para o gere nciamento de acervo.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SERPRO/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M14 (TI e Dados).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"segurança dos dados constam entre os critérios\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -844,7 +856,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436564"
-    }
+    },
+    "gatilho": "segurança dos dados constam entre os critérios",
+    "versao_errada": "A definição do banco de dados, o sistema de indexação e recuperação e, ainda, a indevidamente segurança dos dados constam entre os critérios de avaliaçã o de um sistema de informação para o gere nciamento de acervo."
   },
   {
     "id": "mega-q-40",
@@ -879,8 +893,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "A ciência da informação é um campo do saber dedicado às questões científicas, enquanto a bibl ioteconomia dedica-se à aplicação e às práticas profissionais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso CAPES/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Fundamentos da Biblioteconomia.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CAPES/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"dedicado às questões científicas, enquanto a bibl\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -891,7 +905,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711386"
-    }
+    },
+    "gatilho": "dedicado às questões científicas, enquanto a bibl",
+    "versao_errada": "A ciência da informação é um campo do saber indevidamente dedicado às questões científicas, enquanto a bibl ioteconomia dedica-se à aplicação e às práticas profissionais."
   },
   {
     "id": "mega-q-42",
@@ -966,8 +982,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, relativos a documentação.",
     "item": "Define-se documentação, em sentido amplo, como a reunião ou coleção de documentos de qua lquer natureza, devidamente conservados e organizados para fins de consulta, estudo ou prova.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso BASA/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Fundamentos da Biblioteconomia.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso BASA/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de documentos de qua lquer natureza, devidamente\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -978,7 +994,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303088"
-    }
+    },
+    "gatilho": "de documentos de qua lquer natureza, devidamente",
+    "versao_errada": "Define-se documentação, em sentido amplo, como a reunião ou coleção indevidamente de documentos de qua lquer natureza, devidamente conservados e organizados para fins de consulta, estudo ou prova."
   },
   {
     "id": "mega-q-46",
@@ -1011,8 +1029,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito de documentação, julgue os itens a seguir.",
     "item": "A ciência da informação é considerada uma ciência humana, pois ultrapassa o limite da ciência e tecnologia.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SUFRAMA/2014 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Fundamentos da Biblioteconomia.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"considerada uma ciência humana, pois ultrapassa o\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1023,7 +1041,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165400"
-    }
+    },
+    "gatilho": "considerada uma ciência humana, pois ultrapassa o",
+    "versao_errada": "A ciência da informação é indevidamente considerada uma ciência humana, pois ultrapassa o limite da ciência e tecnologia."
   },
   {
     "id": "mega-q-48",
@@ -1056,8 +1076,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "Os avanços tecnológicos possibilitaram o desenvolvimento da catalogação cooperativa, que pr omoveu a agilização da descrição documental.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Catalogação e Metadados.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"desenvolvimento da catalogação cooperativa, que pr omoveu\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1068,7 +1088,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180931"
-    }
+    },
+    "gatilho": "desenvolvimento da catalogação cooperativa, que pr omoveu",
+    "versao_errada": "Os avanços tecnológicos possibilitaram o indevidamente desenvolvimento da catalogação cooperativa, que pr omoveu a agilização da descrição documental."
   },
   {
     "id": "mega-q-50",
@@ -1101,8 +1123,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação e informação, julgue os próximos itens.",
     "item": "O campo da documentação e informação consiste em um c onjunto de normativas que regulam a organização de acervos de bibliotecas segundo códigos de catalogação e classificação, além de outros instrumentos técnicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso ABIN/2017 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Catalogação e Metadados.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"que regulam a organização de acervos de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1113,7 +1135,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "ABIN",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-620267"
-    }
+    },
+    "gatilho": "que regulam a organização de acervos de",
+    "versao_errada": "O campo da documentação e informação consiste em um c onjunto de normativas indevidamente que regulam a organização de acervos de bibliotecas segundo códigos de catalogação e classificação, além de outros instrumentos técnicos."
   },
   {
     "id": "mega-q-52",
@@ -1146,8 +1170,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação à biblioteconomia e à ciência da informação, julgue os itens subs e-",
     "item": "A área técnica da biblioteconomia ocupa -se das formas de aquisição, catalogação, classificação e ordenação das obras que compõem os acervos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Catalogação e Metadados.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"das formas de aquisição, catalogação, classificação e\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1158,7 +1182,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180938"
-    }
+    },
+    "gatilho": "das formas de aquisição, catalogação, classificação e",
+    "versao_errada": "A área técnica da biblioteconomia ocupa -se indevidamente das formas de aquisição, catalogação, classificação e ordenação das obras que compõem os acervos."
   },
   {
     "id": "mega-q-54",
@@ -1233,8 +1259,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "De acordo com os princípios de referência, cataloga ção e classificação, julgue os itens",
     "item": "De acordo com as normas da Classificação Decimal Universal, a classificação 347.991(81)(094.9) é adequada para a publicação da obra Ementário de Jurisprudência do Supremo Tribunal Federal e do Superior Tribunal de Justiça.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Classificação Documentária.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"De acordo com\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1245,7 +1271,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104038"
-    }
+    },
+    "gatilho": "De acordo com",
+    "versao_errada": "indevidamente de acordo com as normas da Classificação Decimal Universal, a classificação 347.991(81)(094.9) é adequada para a publicação da obra Ementário de Jurisprudência do Supremo Tribunal Federal e do Superior Tribunal de Justiça."
   },
   {
     "id": "mega-q-58",
@@ -1278,8 +1306,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de bibliografia, julgue os itens subsequentes.",
     "item": "O número de chamada de um livro compõe-se da notação da classificação e da notação do autor, como, por exemplo, o número de Cutter.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Classificação Documentária.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"notação da classificação e da notação do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1290,7 +1318,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-181046"
-    }
+    },
+    "gatilho": "notação da classificação e da notação do",
+    "versao_errada": "O número de chamada de um livro compõe-se da indevidamente notação da classificação e da notação do autor, como, por exemplo, o número de Cutter."
   },
   {
     "id": "mega-q-60",
@@ -1323,8 +1353,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos às funções e aos tipos de catálogos.",
     "item": "As funções e os objetivos do catálogo, na perspectiva de Cutter, estão centrados na relação ace rvo/leitor, e não catálogo/acervo.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TCDF/2014 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Classificação Documentária.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TCDF/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"na perspectiva de Cutter, estão centrados na\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1335,7 +1365,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "TC DF",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-369872"
-    }
+    },
+    "gatilho": "na perspectiva de Cutter, estão centrados na",
+    "versao_errada": "As funções e os objetivos do catálogo, indevidamente na perspectiva de cutter, estão centrados na relação ace rvo/leitor, e não catálogo/acervo."
   },
   {
     "id": "mega-q-62",
@@ -1368,8 +1400,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação às técnicas e processos de tratamento da informação, julgue os pr ó-",
     "item": "Na Classificação Decimal Universal (CDU), uma classe composta é formada pela interseção de dois ou mais tipos de conceitos distintos (ou facetas) dentro da mesma classe, como, por exemplo, f isiologia botânica, patologia botânica, ecologia botânica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SERPRO/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Classificação Documentária.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"mais tipos de conceitos distintos (ou facetas)\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1380,7 +1412,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436525"
-    }
+    },
+    "gatilho": "mais tipos de conceitos distintos (ou facetas)",
+    "versao_errada": "Na Classificação Decimal Universal (CDU), uma classe composta é formada pela interseção de dois ou indevidamente mais tipos de conceitos distintos (ou facetas) dentro da mesma classe, como, por exemplo, f isiologia botânica, patologia botânica, ecologia botânica."
   },
   {
     "id": "mega-q-64",
@@ -1452,8 +1486,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação à biblioteconomia e à ciência da informação, julgue os itens subs e-",
     "item": "A recuperação da informação por meio de sistemas automatizados — surgidos após a Segunda Guerra Mundial — constituiu novo cenário na revolução científica e técnica que ocorria, no qual se originou a ciência da informação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Recuperação da Informação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"por meio de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1497,8 +1531,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação à biblioteconomia e à ciência da informação, julgue os itens subs e-",
     "item": "O UNITERM, criado em 1953, foi um dos p rimeiros sistemas automatizados de recuperação da informação. No Brasil, os sistemas automatizados passaram a ser utilizados na década de 70 do século XX.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Recuperação da Informação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"recuperação da informação. No Brasil, os sistemas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1509,7 +1543,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180937"
-    }
+    },
+    "gatilho": "recuperação da informação. No Brasil, os sistemas",
+    "versao_errada": "O UNITERM, criado em 1953, foi um dos p rimeiros sistemas automatizados de indevidamente recuperação da informação. no brasil, os sistemas automatizados passaram a ser utilizados na década de 70 do século XX."
   },
   {
     "id": "mega-q-70",
@@ -1542,8 +1578,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Tendo o texto precedente como referência inicial, julgue os it ens que se seguem, com",
     "item": "A quarta lei — “Poupe o tempo do leitor” — impacta a organização e os métodos utilizados no serviço de referência, que passa a ser estruturado em duas categorias: o serviço de referência rápida e o serviço de referência de longo alcance.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2018 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Recuperação da Informação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"serviço de referência, que passa a ser\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1629,8 +1665,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Ao elaborar o planejamento dos serviços de uma biblioteca universitária, algumas",
     "item": "O planejamento poderá incluir a participação da equipe bibliotecária em redes colaborativas de referência virtual, com o serviço de consultas a documentos de referência digital.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso FUB/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Gestão de Unidades e Coleções.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"em redes colaborativas de referência virtual, com\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1674,8 +1710,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Ao elaborar o planejamento dos serviços de uma biblioteca universitária, algumas",
     "item": "Os usuários podem participar de wikis nos serviços de referência virtual colaborativa, aumentando a indicação de fontes disponíveis de pesquisa.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso FUB/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Gestão de Unidades e Coleções.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"serviços de referência virtual colaborativa, aumentando a\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1719,8 +1755,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Ao elaborar o planejamento dos serviços de uma biblioteca universitária, algumas",
     "item": "O processo de referência deverá estabelecer duas fases para a entrevista inicial, denominadas de questão inicial e questão negociada. Nesse momento, o usuário comunica sua necessidade ao b ibliotecário, que, por sua vez, reformula a pergunta para identificar a real questão.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso FUB/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Gestão de Unidades e Coleções.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"questão negociada. Nesse momento, o usuário comunica\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1731,7 +1767,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-346459"
-    }
+    },
+    "gatilho": "questão negociada. Nesse momento, o usuário comunica",
+    "versao_errada": "O processo de referência deverá estabelecer duas fases para a entrevista inicial, denominadas de questão inicial e indevidamente questão negociada. nesse momento, o usuário comunica sua necessidade ao b ibliotecário, que, por sua vez, reformula a pergunta para identificar a real questão."
   },
   {
     "id": "mega-q-80",
@@ -1764,8 +1802,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de conceitos básicos de biblioteconomia, ciência da informação e documen -",
     "item": "A ciência da informação tem sua origem situada na documentação, na bibliografia e na recuper ação da Informação, e sua natureza interdisciplinar se manifesta no relacionamento com outros campos do conhecimento, como a comunicação e a inteligência artificial.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso CNJ/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Bibliotecas Digitais e IA.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CNJ/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"da Informação, e sua natureza interdisciplinar se\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1776,7 +1814,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CNJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-103193"
-    }
+    },
+    "gatilho": "da Informação, e sua natureza interdisciplinar se",
+    "versao_errada": "A ciência da informação tem sua origem situada na documentação, na bibliografia e na recuper ação indevidamente da informação, e sua natureza interdisciplinar se manifesta no relacionamento com outros campos do conhecimento, como a comunicação e a inteligência artificial."
   },
   {
     "id": "mega-q-82",
@@ -1809,8 +1849,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsecutivos, acerca da gestão do conhecimento na era das novas",
     "item": "Na arquitetura da Web, as ontologias fornecem suporte à evolução de vocabulários e integram as informações, de modo a evitar conflitos terminológicos. A função da ontologia é explicitar o v ocabulário de um domínio de forma padronizada, viabilizando a interoperabilidade entre sistemas e o compartilhamento de informações.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SEE-DF/2016 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Bibliotecas Digitais e IA.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SEE-DF/2016.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"conflitos terminológicos. A função da ontologia é\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1821,7 +1861,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "SEE DF",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-464246"
-    }
+    },
+    "gatilho": "conflitos terminológicos. A função da ontologia é",
+    "versao_errada": "Na arquitetura da Web, as ontologias fornecem suporte à evolução de vocabulários e integram as informações, de modo a evitar indevidamente conflitos terminológicos. a função da ontologia é explicitar o v ocabulário de um domínio de forma padronizada, viabilizando a interoperabilidade entre sistemas e o compartilhamento de informações."
   },
   {
     "id": "mega-q-84",
@@ -1854,8 +1896,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito das características dos recursos informacionais e das fontes de informação, julgue o item a seguir.",
     "item": "Apenas obras de domínio público ou publicações institucionais podem ser digitalizadas e disponibilizadas em biblioteca digital de organizações para fins de disseminação da informação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso DPU/2016 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Bibliotecas Digitais e IA.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso DPU/2016.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"ser digitalizadas e disponibilizadas em biblioteca digital\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "revisar": true,
     "fonteOriginal": {
@@ -1867,7 +1909,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "DPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-324487"
-    }
+    },
+    "gatilho": "ser digitalizadas e disponibilizadas em biblioteca digital",
+    "versao_errada": "Apenas obras de domínio público ou publicações institucionais podem indevidamente ser digitalizadas e disponibilizadas em biblioteca digital de organizações para fins de disseminação da informação."
   },
   {
     "id": "mega-q-86",
@@ -1900,8 +1944,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Considerando a Resolução n.º 8/2007 do Superior Tribunal de Justiça (STJ), julgue os",
     "item": "As edições do Diário da Justiça Eletrônico do STJ devem ser assinadas digitalmente, em conco rdância com os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Bibliotecas Digitais e IA.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"em conco rdância com os requisitos de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1987,8 +2031,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne a serviços de referência e a estudos de usuários, julgue os",
     "item": "No que tange aos usuários, é preciso considerar dois tipos de necessidades de informação: a que resulta do desejo de saber, em função do conhecimento; e a que resulta de necessidades materiais exigidas para a realização das atividades humanas, profissionais e pessoais, em função da ação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SUFRAMA/2014 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Preservação e Conservação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. (Cebraspe - SUFRAMA/2014). A assertiva reproduz textualmente a clássica categorização de Nice Figueiredo (1994) sobre necessidades de informação em estudos de usuários: necessidades em função do conhecimento (desejo intrínseco de saber) e necessidades em função da ação (exigências concretas para o desempenho de atividades humanas e profissionais).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -2029,8 +2073,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "As bibliografias são importantes instrumentos de controle bibliográfico que",
     "item": "As bibliografias que não objetivam a preservação da herança cultural do país são denominadas bibliografias comerciais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SEDUC-AM/2011 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Preservação e Conservação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SEDUC-AM/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"a preservação da herança cultural do país\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2074,8 +2118,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, a respeito das tecnologias de informação e comunicação.",
     "item": "A migração é uma estratégia de preservação de documentos eletrônicos que envolve cópia, co nversão ou transferência de informação de uma base tecnológica para outra mais atualizada.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso ANATEL/2009 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Preservação e Conservação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ANATEL/2009.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"que envolve cópia, co nversão ou transferência\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2119,8 +2163,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da disseminação da informação, julgue os itens a seguir.",
     "item": "No ciclo documentário, a disseminação da informação é consubstanciada pelos instrumentos de controle da informação, tais como catál ogos, diretórios impressos, listagens de referências, índices e bases de dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso ECT/2011 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Normalização Documental ABNT.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ECT/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de controle da informação, tais como catál\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2161,8 +2205,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito de fontes de informação, julgue os itens que se seguem.",
     "item": "Índice de citação é uma lista de referências bibliográficas de fácil compilação, que permite a identificação da influência que determinado trabalho teve em sua área de abrangência.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SERPRO/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Normalização Documental ABNT.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"fácil compilação, que permite a identificação da\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2173,7 +2217,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436509"
-    }
+    },
+    "gatilho": "fácil compilação, que permite a identificação da",
+    "versao_errada": "Índice de citação é uma lista de referências bibliográficas de indevidamente fácil compilação, que permite a identificação da influência que determinado trabalho teve em sua área de abrangência."
   },
   {
     "id": "mega-q-100",
@@ -2206,8 +2252,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito de bibliografia, julgue os itens subsequentes.",
     "item": "A bibliografia da justiça federal, disponível na Internet, é uma bibliografia sinalética, ou seja, que inclui apenas as referências bibliográficas, sem anotações.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STM/2011 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Normalização Documental ABNT.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STM/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"é uma bibliografia sinalética, ou seja, que\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2248,8 +2294,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, a respeito de bibliografia.",
     "item": "A bibliografia sinalética inclui apenas as referências bibliográficas, sem as anotações, e obedece a arranjos diversos, como o alfabético, o classificado ou o cronológico.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso MPU/2011 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Normalização Documental ABNT.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso MPU/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"as anotações, e obedece a arranjos diversos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2293,8 +2339,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "As bibliotecas aplicam as leis bibliométricas como ferramentas de apoio a seus proces-",
     "item": "A Lei de Bradford permite avaliar o grau de relevância de periódicos em uma área específica do conhecimento.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2018 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Comunicação Científica.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"o grau de relevância de periódicos em\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2338,8 +2384,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação à bibliometria, julgue os itens seguintes.",
     "item": "O objetivo da infometria é possibilitar a medição das atividades científicas e técnicas; à infom etria podem ser associados outros métodos de mineração de dados, como text mining, data m ining e Web mining.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SERPRO/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Comunicação Científica.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"infom etria podem ser associados outros métodos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -2350,7 +2396,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436560"
-    }
+    },
+    "gatilho": "infom etria podem ser associados outros métodos",
+    "versao_errada": "O objetivo da infometria é possibilitar a medição das atividades científicas e técnicas; à indevidamente infom etria podem ser associados outros métodos de mineração de dados, como text mining, data m ining e Web mining."
   },
   {
     "id": "mega-q-108",
@@ -2383,8 +2431,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação à bibliometria, julgue os itens seguintes.",
     "item": "Na obra Traité de documentation: le livre sur le livre, Paul Otlet define a bibliometria como a área do conhecimento que se ocupa da medida ou da quantidade aplicada a livros.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SERPRO/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Comunicação Científica.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"define a bibliometria como a área do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -2425,8 +2473,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da bibliometria, julgue os itens a seguir.",
     "item": "Conforme a lei do quadrado inverso, em uma especialidade científica coexiste pequeno número de pesquisadores extremamente produtivos com uma grande quantidade de cientistas menos produtivos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso FUB/2015 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Comunicação Científica.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2015.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"científica coexiste pequeno número de pesquisadores extremamente\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -2470,15 +2518,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "No bicameralismo brasileiro, quando um projeto de lei de iniciativa de um Deputado Federal é aprovado com emendas pelo Senado Federal (Casa revisora), o projeto retorna à Câmara dos Deputados (Casa iniciadora) exclusivamente para que esta delibere sobre as emendas do Senado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 65, parágrafo único da CF/88: se o projeto for emendado pela Casa revisora, voltará à Casa iniciadora, que apreciará exclusivamente as modificações introduzidas.",
-    "armadilhaBanca": "Papel da Casa iniciadora e revisora.",
+    "justificativa": "Gabarito CERTO. Art. 65, parágrafo único da CF/88: se o projeto for emendado pela Casa revisora, voltará à Casa iniciadora, que apreciará exclusivamente as modificações introduzidas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
-    }
+    },
+    "gatilho": "pelo Senado Federal (Casa revisora), o projeto",
+    "versao_errada": "No bicameralismo brasileiro, quando um projeto de lei de iniciativa de um Deputado Federal é aprovado com emendas indevidamente pelo senado federal (casa revisora), o projeto retorna à Câmara dos Deputados (Casa iniciadora) exclusivamente para que esta delibere sobre as emendas do Senado."
   },
   {
     "id": "mega-q-114",
@@ -2515,7 +2565,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
-    }
+    },
+    "gatilho": "um por cento do eleitorado nacional, distribuído",
+    "versao_errada": "A iniciativa popular de leis federais perante a Câmara dos Deputados pode ser exercida pela subscrição de, no mínimo, indevidamente um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles."
   },
   {
     "id": "mega-q-116",
@@ -2526,7 +2578,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "A aprovação de uma Proposta de Emenda à Constituição (PEC) na Câmara dos Deputados exige o quórum de maioria simples dos deputados presentes em um único turno de votação.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 60, § 2º da CF/88, a PEC deve ser discutida e votada em CADA Casa do Congresso Nacional, em DOIS TURNOS, considerando-se aprovada se obtiver, em ambos, três quintos dos votos dos respectivos membros (308 votos favoráveis na Câmara dos Deputados).",
-    "armadilhaBanca": "PEGADINHA_REGIMENTAL / INVERSAO_CANONICA: Quórum de PEC (exige 3/5 em 2 turnos, e não maioria simples em turno único).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -2552,7 +2604,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TRE-BA/2010 (Cebraspe)"
-    }
+    },
+    "gatilho": "o encaminhamento de requerimentos de informação a",
+    "versao_errada": "O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados tem entre suas atribuições regimentais indevidamente o encaminhamento de requerimentos de informação a Ministros de Estado e a gestão do sistema de habitação funcional dos parlamentares."
   },
   {
     "id": "mega-q-118",

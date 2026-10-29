@@ -42,11 +42,11 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "numero": 3,
     "macroModuloId": "M4",
     "submoduloId": "4.1",
-    "contexto": "Julgue os itens a seguir, relativos à bibliografia.",
+    "contexto": "No desempenho de suas atribuições de apoio à produção legislativa e à instrução de comissões parlamentares de inquérito, a biblioteca de uma Casa Legislativa frequentemente atende a demandas complexas por relatórios técnicos de auditoria, atas de grupos de trabalho intergovernamentais, notas técnicas ministeriais e estudos prévios de viabilidade econômica. Essas publicações de circulação restrita, que não seguem os canais tradicionais de comercialização editorial, constituem insumo informacional estratégico para a formulação de políticas públicas. Considerando a tipologia das fontes de informação e a caracterização dos suportes documentais nos serviços de referência, julgue o item subsequente.",
     "item": "A literatura cinzenta, além de ser fonte primária de informação, favorece a difusão rápida de i informações e conhecimentos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"fonte primária de informação, favorece a difusão\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -57,7 +57,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "orgao": "ANTT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-206252"
-    }
+    },
+    "gatilho": "fonte primária de informação, favorece a difusão",
+    "versao_errada": "A literatura cinzenta, além de ser indevidamente fonte primária de informação, favorece a difusão rápida de i informações e conhecimentos."
   },
   {
     "id": "m4-q-4",
@@ -100,7 +102,7 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "numero": 6,
     "macroModuloId": "M4",
     "submoduloId": "4.1",
-    "contexto": "A respeito das características dos recursos informacionais e das fontes de infor -",
+    "contexto": "O serviço de referência de uma instituição legislativa recebe diariamente consultas rápidas de redação de discursos, esclarecimento de termos jurídicos arcaicos e dados biográficos consolidados de personalidades públicas. Para agilizar o atendimento de balcão e virtual, o bibliotecário mantenedor da coleção de referência organiza o acervo físico e digital em categorias especializadas, discriminando obras de consulta imediata de monografias e tratados de leitura contínua. A respeito das características essenciais, funções e limites dos recursos informacionais e das obras de referência nos serviços de atendimento ao público, julgue o próximo item.",
     "item": "As enciclopédias e os dicionários são obras de referência, por isso não figuram como fontes de informação.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Obras de referência (dicionários, enciclopédias, guias, manuais) SÃO fontes de informação secundárias por excelência. Dizer que não figuram como fontes de informação é um contrassenso epistemológico na biblioteconomia.",
@@ -169,7 +171,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "o usuário a reconhecer quando uma informação",
+    "versao_errada": "A competência informacional (Information Literacy) promovida pelo serviço de referência busca capacitar indevidamente o usuário a reconhecer quando uma informação é necessária, bem como a localizá-la, avaliá-la criticamente e utilizá-la eticamente."
   },
   {
     "id": "m4-q-10",
@@ -186,7 +190,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "correntes de periódicos, pautas de tramitação de",
+    "versao_errada": "O serviço de alerta antecipado em bibliotecas especializadas consiste no envio regular de sumários indevidamente correntes de periódicos, pautas de tramitação de proposições ou clipping temático de notícias antes que o usuário precise solicitar expressamente."
   },
   {
     "id": "m4-q-11",
@@ -293,7 +299,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "nível formalizado (Q3) envolve a estruturação mental",
+    "versao_errada": "No modelo de Taylor, a passagem do nível consciente (Q2) para o indevidamente nível formalizado (q3) envolve a estruturação mental da dúvida em uma declaração concreta em linguagem natural inteligível para terceiros."
   },
   {
     "id": "m4-q-17",
@@ -321,14 +329,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "A mediação da informação na perspectiva pós-custodial da Ciência da Informação extrapola o mero ato mecânico de entrega do documento, configurando uma ação dialógica que interfere positivamente na apropriação do conhecimento pelo sujeito.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Teóricos da mediação (como Oswaldo Francisco de Almeida Júnior) destacam que toda mediação é uma interferência consciente do profissional para viabilizar a apropriação crítica da informação pelo usuário.",
-    "armadilhaBanca": "Fundamentação teórica de mediação da informação.",
+    "justificativa": "Gabarito CERTO. Teóricos da mediação (como Oswaldo Francisco de Almeida Júnior) destacam que toda mediação é uma interferência consciente do profissional para viabilizar a apropriação crítica da informação pelo usuário. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "mero ato mecânico de entrega do documento",
+    "versao_errada": "A mediação da informação na perspectiva pós-custodial da Ciência da Informação extrapola o indevidamente mero ato mecânico de entrega do documento, configurando uma ação dialógica que interfere positivamente na apropriação do conhecimento pelo sujeito."
   },
   {
     "id": "m4-q-19",
@@ -338,14 +348,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "O modelo de 'Sense-Making' formulado por Brenda Dervin compreende a busca de informação como um comportamento humano de construção de sentido para superar descontinuidades ('gaps') cognitivas no enfrentamento de situações problemáticas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A abordagem de Dervin foca no triângulo 'Situação - Gap (Lacuna/Descontinuidade) - Uso (Help/Sentido)', enfatizando o sujeito e a contextualização da necessidade informacional.",
-    "armadilhaBanca": "Abordagem alternativa canônica de estudos de usuários (Sense-Making).",
+    "justificativa": "Gabarito CERTO. A abordagem de Dervin foca no triângulo 'Situação - Gap (Lacuna/Descontinuidade) - Uso (Help/Sentido)', enfatizando o sujeito e a contextualização da necessidade informacional. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "informação como um comportamento humano de construção",
+    "versao_errada": "O modelo de 'Sense-Making' formulado por Brenda Dervin compreende a busca de indevidamente informação como um comportamento humano de construção de sentido para superar descontinuidades ('gaps') cognitivas no enfrentamento de situações problemáticas."
   },
   {
     "id": "m4-q-20",
@@ -373,14 +385,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "A metodologia de incidentes críticos desenvolvida por John Flanagan é uma técnica de coleta de dados frequentemente empregada em estudos de usuários para analisar comportamentos de busca frente a situações concretas de sucesso ou insucesso.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A técnica de incidentes críticos foca em relatos de acontecimentos reais e memoráveis vivenciados pelos usuários, fornecendo dados qualitativos ricos sobre o uso dos serviços.",
-    "armadilhaBanca": "Metodologia de estudo de usuários.",
+    "justificativa": "Gabarito CERTO. A técnica de incidentes críticos foca em relatos de acontecimentos reais e memoráveis vivenciados pelos usuários, fornecendo dados qualitativos ricos sobre o uso dos serviços. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "de dados frequentemente empregada em estudos de",
+    "versao_errada": "A metodologia de incidentes críticos desenvolvida por John Flanagan é uma técnica de coleta indevidamente de dados frequentemente empregada em estudos de usuários para analisar comportamentos de busca frente a situações concretas de sucesso ou insucesso."
   },
   {
     "id": "m4-q-22",
@@ -390,14 +404,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "Em serviços de referência legislativos e parlamentares, o estudo de usuários constitui ferramenta indispensável para mapear hábitos de busca, formatos preferidos de informação e a urgência temporal associada à tomada de decisão legislativa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os estudos de usuários em órgãos legislativos revelam padrões peculiares: alta exigência de tempestividade, necessidade de sínteses executivas (briefings) e prevalência de fontes oficiais e doutrinárias confiáveis.",
-    "armadilhaBanca": "Aplicação especializada no ambiente da Câmara dos Deputados.",
+    "justificativa": "Gabarito CERTO. Os estudos de usuários em órgãos legislativos revelam padrões peculiares: alta exigência de tempestividade, necessidade de sínteses executivas (briefings) e prevalência de fontes oficiais e doutrinárias confiáveis. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "indispensável para mapear hábitos de busca, formatos",
+    "versao_errada": "Em serviços de referência legislativos e parlamentares, o estudo de usuários constitui ferramenta indevidamente indispensável para mapear hábitos de busca, formatos preferidos de informação e a urgência temporal associada à tomada de decisão legislativa."
   },
   {
     "id": "m4-q-23",
@@ -407,14 +423,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "O fenômeno da 'ansiedade de biblioteca' (library anxiety), teorizado por Sharon Bostick, é uma barreira psicológica que interfere na busca de informação, podendo ser mitigado por atitudes empáticas e acolhedoras do bibliotecário de referência.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A escala de ansiedade de biblioteca de Bostick identifica medo do ambiente, vergonha de expor a ignorância e barreiras mecânicas, atenuadas pelo atendimento de referência humanizado.",
-    "armadilhaBanca": "Fator comportamental nos estudos de usuários.",
+    "justificativa": "Gabarito CERTO. A escala de ansiedade de biblioteca de Bostick identifica medo do ambiente, vergonha de expor a ignorância e barreiras mecânicas, atenuadas pelo atendimento de referência humanizado. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "barreira psicológica que interfere na busca de",
+    "versao_errada": "O fenômeno da 'ansiedade de biblioteca' (library anxiety), teorizado por Sharon Bostick, é uma indevidamente barreira psicológica que interfere na busca de informação, podendo ser mitigado por atitudes empáticas e acolhedoras do bibliotecário de referência."
   },
   {
     "id": "m4-q-24",
@@ -424,14 +442,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "A etapa de avaliação da resposta no ciclo de Denis Grogan inclui a verificação de se a informação recuperada respondeu efetivamente à necessidade original do consulente e se o nível de profundidade e o formato de apresentação foram adequados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a etapa final de feedback do processo de referência: se a resposta não satisfizer o usuário, o ciclo é reiniciado com nova negociação ou estratégia de busca refinada.",
-    "armadilhaBanca": "Ciclo de Grogan - etapa de avaliação.",
+    "justificativa": "Gabarito CERTO. É a etapa final de feedback do processo de referência: se a resposta não satisfizer o usuário, o ciclo é reiniciado com nova negociação ou estratégia de busca refinada. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "a informação recuperada respondeu efetivamente à necessidade",
+    "versao_errada": "A etapa de avaliação da resposta no ciclo de Denis Grogan inclui a verificação de se indevidamente a informação recuperada respondeu efetivamente à necessidade original do consulente e se o nível de profundidade e o formato de apresentação foram adequados."
   },
   {
     "id": "m4-q-25",
@@ -442,13 +462,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "item": "Durante a entrevista de referência, a utilização de perguntas abertas é recomendada na fase exploratória inicial porque permite ao consulente explicar amplamente sua demanda com suas próprias palavras, evitando conclusões precipitadas do entrevistador.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. As perguntas abertas (iniciadas por 'como', 'qual', 'fale-me sobre') estimulam o diálogo e permitem contextualizar a necessidade de informação, sendo ideais para a abertura da entrevista antes do afunilamento por perguntas fechadas.",
-    "armadilhaBanca": "Boa prática de entrevista de referência.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "fase exploratória inicial porque permite ao consulente",
+    "versao_errada": "Durante a entrevista de referência, a utilização de perguntas abertas é recomendada na indevidamente fase exploratória inicial porque permite ao consulente explicar amplamente sua demanda com suas próprias palavras, evitando conclusões precipitadas do entrevistador."
   },
   {
     "id": "m4-q-26",
@@ -465,14 +487,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "como autoridade do emissor, precisão das informações",
+    "versao_errada": "Na avaliação da qualidade de fontes de informação digitais, critérios indevidamente como autoridade do emissor, precisão das informações, tempestividade/atualização, navegabilidade e objetividade são parâmetros consolidados na literatura biblioteconômica."
   },
   {
     "id": "m4-q-27",
     "numero": 27,
     "macroModuloId": "M4",
     "submoduloId": "4.2",
-    "contexto": "Julgue os itens subsequentes, relativos a documentação jurídica.",
+    "contexto": "Na biblioteca jurídica e parlamentar de um tribunal superior, o setor de referência legislativa e jurisprudencial é frequentemente consultado por magistrados, assessores e advogados que necessitam de textos legais consolidados, remissões a acórdãos paradigmas e compilações anotadas da legislação em vigor. Para otimizar o tempo dos operadores do direito e garantir respostas precisas durante sessões plenárias de votação e julgamento, o corpo técnico do setor mantém uma coleção constantemente atualizada de instrumentos de consulta sintética. Com relação à documentação jurídica e aos instrumentos de apoio aos serviços de referência especializada, julgue o item a seguir.",
     "item": "Vade-mécuns são as obras de referência que auxiliam o bibliotecário jurídico, os estudantes e os profissionais do direito em suas pesquisas. Nessas obras, de vido ao padrão nelas adotado, não pode constar jurisprudência, mas apenas a legislação.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Vade-mécuns jurídicos não se limitam à legislação pura. É praxe editorial consagrada a inclusão sistemática de súmulas do STF, STJ, TST, enunciados das Jornadas de Direito Civil e remissões jurisprudenciais anotadas para enriquecer a consulta prática.",
@@ -551,7 +575,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "positivo são a legislação (atos normativos), a",
+    "versao_errada": "Na pesquisa bibliográfica jurídica brasileira, as três fontes formais fundamentais do Direito indevidamente positivo são a legislação (atos normativos), a jurisprudência (decisões reiteradas dos tribunais) e a doutrina (estudos teóricos dos juristas)."
   },
   {
     "id": "m4-q-31",
@@ -609,7 +635,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "desenvolvimentos ocorridos durante um período específico de",
+    "versao_errada": "Os anuários (yearbooks) e almanaques caracterizam-se por registrar fatos, eventos, estatísticas e indevidamente desenvolvimentos ocorridos durante um período específico de doze meses, prestando-se a responder a questões pontuais do serviço de referência."
   },
   {
     "id": "m4-q-34",
@@ -626,7 +654,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "de referência que fornecem dados sumários e",
+    "versao_errada": "Os dicionários biográficos, também chamados de obras do tipo 'Who's Who', são obras indevidamente de referência que fornecem dados sumários e trajetórias curriculares de personalidades notáveis em âmbitos temáticos, geográficos ou profissionais específicos."
   },
   {
     "id": "m4-q-35",
@@ -636,8 +666,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao assunto do texto acimam, julgue os itens a seguir.",
     "item": "Os instrumentos da documentação jurídica compreendem coletâneas de textos de disposições legais, índices e ementários de legislação ou jurisprudência. Para um tratamento técnico adequ a- do dessa documentação, o bibliotecário deve possuir conhecimento do mecanismo legal do país, destreza no manejo dos índices e ementários endógenos e exógenos de legislação e jurisprudê n- cia, além de ter habilidade para interpretação dos pedidos e solicitações dos usuários.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANEEL/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANEEL/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"deve possuir conhecimento do mecanismo legal do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -681,8 +711,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à documentação jurídica, julgue os itens seguintes.",
     "item": "As normas legais criadas pelos Poderes Executivo, Legislativo e Judiciário são consideradas fontes de informação autorizadas no âmbito da documentação jurídica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso BASA/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso BASA/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"Legislativo e Judiciário são consideradas fontes de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -762,14 +792,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à tipologia das fontes de informação, às obras de referência e às fontes especializadas em Ciência Jurídica e Administração Pública, julgue o item a seguir com base na literatura técnica.",
     "item": "As fontes terciárias têm por finalidade principal guiar o usuário na localização de fontes primárias e secundárias, incluindo bibliografias de bibliografias, guias de literatura, diretórios de fontes de informação e listas de instituições especializadas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Fontes terciárias atuam como 'ponteiros de ponteiros', compilando e organizando as fontes secundárias e orientando sobre os melhores caminhos de busca na literatura.",
-    "armadilhaBanca": "Definição canônica de fontes terciárias.",
+    "justificativa": "Gabarito CERTO. Fontes terciárias atuam como 'ponteiros de ponteiros', compilando e organizando as fontes secundárias e orientando sobre os melhores caminhos de busca na literatura. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "primárias e secundárias, incluindo bibliografias de bibliografias",
+    "versao_errada": "As fontes terciárias têm por finalidade principal guiar o usuário na localização de fontes indevidamente primárias e secundárias, incluindo bibliografias de bibliografias, guias de literatura, diretórios de fontes de informação e listas de instituições especializadas."
   },
   {
     "id": "m4-q-42",
@@ -797,14 +829,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à tipologia das fontes de informação, às obras de referência e às fontes especializadas em Ciência Jurídica e Administração Pública, julgue o item a seguir com base na literatura técnica.",
     "item": "Segundo a classificação tradicional sistematizada por Murilo Bastos da Cunha, fontes primárias são aquelas que contêm informações originais publicadas pela primeira vez pelos próprios autores ou órgãos emissores, a exemplo de relatórios de pesquisa, teses, anais de congressos, patentes e atos normativos oficiais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Fontes primárias contêm dados e relatos de primeira mão, não filtrados nem interpretados por terceiros. Textos de leis em Diários Oficiais e teses constituem arquétipos de fontes primárias.",
-    "armadilhaBanca": "Tipologia clássica de fontes de informação (Cunha).",
+    "justificativa": "Gabarito CERTO. Fontes primárias contêm dados e relatos de primeira mão, não filtrados nem interpretados por terceiros. Textos de leis em Diários Oficiais e teses constituem arquétipos de fontes primárias. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "publicadas pela primeira vez pelos próprios autores",
+    "versao_errada": "Segundo a classificação tradicional sistematizada por Murilo Bastos da Cunha, fontes primárias são aquelas que contêm informações originais indevidamente publicadas pela primeira vez pelos próprios autores ou órgãos emissores, a exemplo de relatórios de pesquisa, teses, anais de congressos, patentes e atos normativos oficiais."
   },
   {
     "id": "m4-q-44",
@@ -814,8 +848,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "A base de dados Jurisprudência Unificada, mantida pelo Conselho Nacional de Justiça, pode ser considerada uma fonte de informação secundária do direito, pois os documentos reunidos repr e- sentam um conjunto de decisões reiteradas de juízes e tribunais relativas a determinada tese jurídica e suas interpretações das leis.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"direito, pois os documentos reunidos repr e-\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -890,14 +924,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à tipologia das fontes de informação, às obras de referência e às fontes especializadas em Ciência Jurídica e Administração Pública, julgue o item a seguir com base na literatura técnica.",
     "item": "Os 'repertórios autorizados de jurisprudência' são publicações periódicas ou coleções digitais oficialmente reconhecidas pelos tribunais superiores (como STF e STJ) para fins de comprovação de divergência jurisprudencial e citação em recursos processuais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regimentos dos tribunais e o Código de Processo Civil exigem que a citação de acórdãos divergentes venha acompanhada da indicação de repositório oficial ou autorizado de jurisprudência.",
-    "armadilhaBanca": "Especificidade de fontes jurisprudenciais.",
+    "justificativa": "Gabarito CERTO. Regimentos dos tribunais e o Código de Processo Civil exigem que a citação de acórdãos divergentes venha acompanhada da indicação de repositório oficial ou autorizado de jurisprudência. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "pelos tribunais superiores (como STF e STJ)",
+    "versao_errada": "Os 'repertórios autorizados de jurisprudência' são publicações periódicas ou coleções digitais oficialmente reconhecidas indevidamente pelos tribunais superiores (como stf e stj) para fins de comprovação de divergência jurisprudencial e citação em recursos processuais."
   },
   {
     "id": "m4-q-49",
@@ -907,8 +943,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 4.2, julgue o item a seguir.",
     "item": "A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) é uma rede cooperativa de bibliotecas que agrega recursos bibliográficos, materiais e humanos de variadas bibliotecas da administração pública federal, do governo do Distrito Federal e dos Poderes Legislativo, Executivo e Judiciário.",
     "gabarito": "C",
-    "justificativa": "A Rede Virtual de Bibliotecas (RVBI) é uma rede cooperativa de bibliotecas, coordenada pela Bib lioteca do Senado Federal, que agrega recursos bibliográficos, materiais e humanos de doze bibliotecas da administração pública federal e do governo do Distrito Federal, dos Poderes Legislativo, Executivo e Judiciário, com o objetivo de atender às demandas de informações bibliográficas de seus órgãos mantenedores.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. A Rede Virtual de Bibliotecas (RVBI) é uma rede cooperativa de bibliotecas, coordenada pela Bib lioteca do Senado Federal, que agrega recursos bibliográficos, materiais e humanos de doze bibliotecas da administração pública federal e do governo do Distrito Federal, dos Poderes Legislativo, Executivo e Judiciário, com o objetivo de atender às demandas de informações bibliográficas de seus órgãos mantenedores.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -925,8 +961,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "Instituições públicas como a Câmara dos Deputados, o Superior Tribunal Militar e o Ministério da Saúde são consideradas fontes de informação jurídica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"Superior Tribunal Militar e o Ministério da\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -999,7 +1035,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624010"
-    }
+    },
+    "gatilho": "documentos e publicações visando sua padronização é",
+    "versao_errada": "A normaliz ação técnica de indevidamente documentos e publicações visando sua padronização é atribuição do serviço de referência."
   },
   {
     "id": "m4-q-54",
@@ -1055,14 +1093,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos modelos de recuperação da informação, das medidas de eficácia (revocação, precisão, fallout), da ponderação de termos (TF-IDF) e da formulação de estratégias de busca conforme Baeza-Yates e Ribeiro-Neto, julgue o item a seguir.",
     "item": "Em sistemas de recuperação da informação de acervos abertos, existe uma relação de proporcionalidade inversa empiricamente observada entre a revocação e a precisão: estratégias que aumentam excessivamente a revocação tendem a diminuir a precisão (aumentando o ruído).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trade-off clássico de Cleverdon / Lancaster / Baeza-Yates: ampliar a busca para recuperar tudo que é relevante inevitavelmente atrai documentos não pertinentes (ruído).",
-    "armadilhaBanca": "Compromisso clássico entre precisão e revocação.",
+    "justificativa": "Gabarito CERTO. Trade-off clássico de Cleverdon / Lancaster / Baeza-Yates: ampliar a busca para recuperar tudo que é relevante inevitavelmente atrai documentos não pertinentes (ruído). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "empiricamente observada entre a revocação e a",
+    "versao_errada": "Em sistemas de recuperação da informação de acervos abertos, existe uma relação de proporcionalidade inversa indevidamente empiricamente observada entre a revocação e a precisão: estratégias que aumentam excessivamente a revocação tendem a diminuir a precisão (aumentando o ruído)."
   },
   {
     "id": "m4-q-57",
@@ -1108,14 +1148,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos modelos de recuperação da informação, das medidas de eficácia (revocação, precisão, fallout), da ponderação de termos (TF-IDF) e da formulação de estratégias de busca conforme Baeza-Yates e Ribeiro-Neto, julgue o item a seguir.",
     "item": "A técnica de lematização (lemmatization) em processamento de linguagem natural difere do 'stemming' básico porque utiliza análise morfológica e vocabulário para reduzir a palavra à sua forma de dicionário canônica (lema), e não apenas podar afixos mecânicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Enquanto o stemming corta sufixos por regras heurísticas (podendo gerar radicais inexistentes), a lematização considera o contexto gramatical e produz lemas válidos.",
-    "armadilhaBanca": "Diferenciação precisa entre lematização e stemming.",
+    "justificativa": "Gabarito CERTO. Enquanto o stemming corta sufixos por regras heurísticas (podendo gerar radicais inexistentes), a lematização considera o contexto gramatical e produz lemas válidos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "utiliza análise morfológica e vocabulário para reduzir",
+    "versao_errada": "A técnica de lematização (lemmatization) em processamento de linguagem natural difere do 'stemming' básico porque indevidamente utiliza análise morfológica e vocabulário para reduzir a palavra à sua forma de dicionário canônica (lema), e não apenas podar afixos mecânicos."
   },
   {
     "id": "m4-q-60",
@@ -1185,13 +1227,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "item": "No Modelo Booleano clássico de recuperação da informação, a correspondência entre os termos da consulta e os termos do documento é binária e exata, o que impossibilita a atribuição natural de ordenação por grau de relevância (ranking) aos documentos recuperados.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Segundo Baeza-Yates e Ribeiro-Neto, o modelo booleano divide o acervo de forma estrita entre documentos que satisfazem a expressão lógica e documentos que não a satisfazem, sem gradação ou ponderação de pertinência intrínseca.",
-    "armadilhaBanca": "Limitação clássica do modelo booleano.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "termos do documento é binária e exata",
+    "versao_errada": "No Modelo Booleano clássico de recuperação da informação, a correspondência entre os termos da consulta e os indevidamente termos do documento é binária e exata, o que impossibilita a atribuição natural de ordenação por grau de relevância (ranking) aos documentos recuperados."
   },
   {
     "id": "m4-q-64",
@@ -1219,8 +1263,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de serviços de referência, julgue os itens a seguir.",
     "item": "O serviço de referência virtual possibilita que o usuário tenha seus dad os armazenados para uso posterior, sendo mantidas sua privacidade e confidencialidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"usuário tenha seus dad os armazenados para\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1231,7 +1275,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436539"
-    }
+    },
+    "gatilho": "usuário tenha seus dad os armazenados para",
+    "versao_errada": "O serviço de referência virtual possibilita que o indevidamente usuário tenha seus dad os armazenados para uso posterior, sendo mantidas sua privacidade e confidencialidade."
   },
   {
     "id": "m4-q-66",
@@ -1287,8 +1333,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de serviços de referência, julgue os itens a seguir.",
     "item": "É uma característica dos serviços de referência virtual, como o question point, a possibilidade de o atendimento ao usuário funcionar em tempo real, vinte e quatro horas por dia.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"point, a possibilidade de o atendimento ao\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1309,14 +1355,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos modelos de recuperação da informação, das medidas de eficácia (revocação, precisão, fallout), da ponderação de termos (TF-IDF) e da formulação de estratégias de busca conforme Baeza-Yates e Ribeiro-Neto, julgue o item a seguir.",
     "item": "O operador lógico NOT (NÃO) deve ser utilizado com cautela na formulação de estratégias de busca, pois corre o risco de excluir documentos altamente relevantes que abordem o termo excluído de maneira secundária ou comparativa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O perigo do NOT é a exclusão indesejada de obras pertinentes (por exemplo, buscar 'Direito Civil NOT Família' pode excluir um tratado geral de Direito Civil que contenha um capítulo sobre Direito de Família).",
-    "armadilhaBanca": "Risco do operador NOT na recuperação de informação.",
+    "justificativa": "Gabarito CERTO. O perigo do NOT é a exclusão indesejada de obras pertinentes (por exemplo, buscar 'Direito Civil NOT Família' pode excluir um tratado geral de Direito Civil que contenha um capítulo sobre Direito de Família). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "de busca, pois corre o risco de",
+    "versao_errada": "O operador lógico NOT (NÃO) deve ser utilizado com cautela na formulação de estratégias indevidamente de busca, pois corre o risco de excluir documentos altamente relevantes que abordem o termo excluído de maneira secundária ou comparativa."
   },
   {
     "id": "m4-q-70",
@@ -1333,7 +1381,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "a probabilidade de um documento ser considerado",
+    "versao_errada": "O modelo probabilístico de recuperação da informação (como o BM25 e a teoria da probabilidade de Robertson-Sparck Jones) estima indevidamente a probabilidade de um documento ser considerado relevante para um usuário com base na frequência dos termos e no comprimento médio dos documentos do acervo."
   },
   {
     "id": "m4-q-71",
@@ -1350,7 +1400,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "o número de documentos relevantes recuperados pelo",
+    "versao_errada": "A taxa de revocação (recall) é definida matematicamente como a razão entre indevidamente o número de documentos relevantes recuperados pelo sistema e o número total de documentos relevantes existentes no acervo."
   },
   {
     "id": "m4-q-72",
@@ -1395,7 +1447,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "orgao": "CNJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-103238"
-    }
+    },
+    "gatilho": "as necessidades de informação geram determinados graus",
+    "versao_errada": "Em um processo de busca e recuperação da informação, indevidamente as necessidades de informação geram determinados graus de imprecisão, sobretudo se há negociação com o usuário."
   },
   {
     "id": "m4-q-74",
@@ -1405,14 +1459,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos modelos de recuperação da informação, das medidas de eficácia (revocação, precisão, fallout), da ponderação de termos (TF-IDF) e da formulação de estratégias de busca conforme Baeza-Yates e Ribeiro-Neto, julgue o item a seguir.",
     "item": "No Modelo Vetorial de recuperação da informação, documentos e consultas são representados como vetores multidimensionais em um espaço vetorial, onde a similaridade temática é calculada pelo cosseno do ângulo formado entre eles.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conceito central do modelo vetorial (Salton): quanto menor o ângulo entre os vetores (cosseno próximo de 1), maior a similaridade temática e a posição no ranking de resultados.",
-    "armadilhaBanca": "Definição formal do modelo vetorial de Salton.",
+    "justificativa": "Gabarito CERTO. Conceito central do modelo vetorial (Salton): quanto menor o ângulo entre os vetores (cosseno próximo de 1), maior a similaridade temática e a posição no ranking de resultados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "vetores multidimensionais em um espaço vetorial, onde",
+    "versao_errada": "No Modelo Vetorial de recuperação da informação, documentos e consultas são representados como indevidamente vetores multidimensionais em um espaço vetorial, onde a similaridade temática é calculada pelo cosseno do ângulo formado entre eles."
   },
   {
     "id": "m4-q-75",
@@ -1434,7 +1490,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-346459"
-    }
+    },
+    "gatilho": "negociada. Nesse momento, o usuário comunica sua",
+    "versao_errada": "O processo de referência deverá estabelecer duas fases para a entrevista inicial, denominadas de questão inicial e questão indevidamente negociada. nesse momento, o usuário comunica sua necessidade ao b i- bliotecário, que, por sua vez, reformula a pergunta para identificar a real questão."
   },
   {
     "id": "m4-q-76",
@@ -1444,8 +1502,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de serviços de referência, julgue os itens a seguir.",
     "item": "Os serviços de referência virtual podem ocorrer via acesso à base de dados, telefone, e -mail, formulário na Web, videoconferência, chat e páginas de FAQ (frequently asked questions).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de dados, telefone, e -mail, formulário na\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1537,7 +1595,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "data de julgamento e data de publicação",
+    "versao_errada": "Na representação de acórdãos judiciais no LexML, metadados como órgão julgador, relator, número do processo, indevidamente data de julgamento e data de publicação no Diário da Justiça são cruciais para a desambiguação e correta citação da jurisprudência."
   },
   {
     "id": "m4-q-81",
@@ -1573,7 +1633,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "país, a jurisdição, a autoridade emissora, a",
+    "versao_errada": "A estrutura formal da URN Lex é composta por elementos hierárquicos e estruturados que identificam o indevidamente país, a jurisdição, a autoridade emissora, a espécie do ato, o número e a data de promulgação da norma, a exemplo de `urn:lex:br:federal:lei:2011-11-18;12527`."
   },
   {
     "id": "m4-q-83",
@@ -1583,8 +1645,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação aos serviços de referência, julgue os itens subsequentes:",
     "item": "A estratégia de busca, mecanismo que possibilita a recuperação de uma informação, é a pergunta, ou o conjunto de perguntas, formada por palavras da linguagem natural, por palavras -chave ou descritores, que podem estar unidos por operadores lógicos booleanos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"o conjunto de perguntas, formada por palavras\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1628,14 +1690,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante às redes de informação legislativa e jurídica brasileiras, ao portal LexML Brasil, ao padrão URN Lex, à Rede Virtual de Bibliotecas (RVBI) e aos metadados jurídicos, julgue o item a seguir.",
     "item": "O LexML Brasil é um portal e repositório digital de dados abertos que unifica e facilita o acesso à informação legislativa e jurídica nacional das esferas federal, estadual e municipal, abrangendo legislação, jurisprudência, proposições e doutrina.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Concebido no âmbito da comunidade jurídica e coordenado pelo Senado Federal e órgãos parceiros, o LexML integra os três poderes e as três esferas da federação em uma plataforma federada.",
-    "armadilhaBanca": "Definição oficial e missão do LexML Brasil.",
+    "justificativa": "Gabarito CERTO. Concebido no âmbito da comunidade jurídica e coordenado pelo Senado Federal e órgãos parceiros, o LexML integra os três poderes e as três esferas da federação em uma plataforma federada. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "facilita o acesso à informação legislativa e",
+    "versao_errada": "O LexML Brasil é um portal e repositório digital de dados abertos que unifica e indevidamente facilita o acesso à informação legislativa e jurídica nacional das esferas federal, estadual e municipal, abrangendo legislação, jurisprudência, proposições e doutrina."
   },
   {
     "id": "m4-q-86",
@@ -1670,7 +1734,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "em diferentes sistemas informatizados possam ser referenciados",
+    "versao_errada": "O princípio da interoperabilidade jurídica no LexML visa garantir que documentos normativos publicados indevidamente em diferentes sistemas informatizados possam ser referenciados, relacionados (ex: 'altera', 'revoga', 'regulamenta') e localizados de maneira uniforme pelos cidadãos."
   },
   {
     "id": "m4-q-88",
@@ -1741,14 +1807,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante às redes de informação legislativa e jurídica brasileiras, ao portal LexML Brasil, ao padrão URN Lex, à Rede Virtual de Bibliotecas (RVBI) e aos metadados jurídicos, julgue o item a seguir.",
     "item": "Na RVBI, a catalogação cooperativa possibilita que o registro bibliográfico de um ato normativo, livro doutrinário ou artigo de periódico jurídico elaborado pela Biblioteca Pedro Aleixo da Câmara dos Deputados seja compartilhado e aproveitado pelas demais bibliotecas consorciadas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o objetivo primordial da cooperação bibliotecária em rede: compartilhamento de base de dados única, redução de custos e eliminação de duplicidade de esforço técnico.",
-    "armadilhaBanca": "Princípio da catalogação cooperativa na RVBI.",
+    "justificativa": "Gabarito CERTO. É o objetivo primordial da cooperação bibliotecária em rede: compartilhamento de base de dados única, redução de custos e eliminação de duplicidade de esforço técnico. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "ou artigo de periódico jurídico elaborado pela",
+    "versao_errada": "Na RVBI, a catalogação cooperativa possibilita que o registro bibliográfico de um ato normativo, livro doutrinário indevidamente ou artigo de periódico jurídico elaborado pela Biblioteca Pedro Aleixo da Câmara dos Deputados seja compartilhado e aproveitado pelas demais bibliotecas consorciadas."
   },
   {
     "id": "m4-q-92",
@@ -1758,8 +1826,8 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos serviços de referência, julgue os itens subsequentes.",
     "item": "Os sistemas de recuperação da informação — um conjunto de regras e de procedimentos executados a partir da ação humana e(ou) de máquinas — são compostos por diversas atividades, tais c o- mo indexação, formulação da busca, busca, feedback e definição de linguagens de indexação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"humana e(ou) de máquinas — são compostos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1798,14 +1866,16 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante às redes de informação legislativa e jurídica brasileiras, ao portal LexML Brasil, ao padrão URN Lex, à Rede Virtual de Bibliotecas (RVBI) e aos metadados jurídicos, julgue o item a seguir.",
     "item": "No processo de colheita de metadados do LexML, o protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) é comumente empregado para coletar periodicamente registros normativos estruturados dos repositórios dos órgãos parceiros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O OAI-PMH é o protocolo padrão da arquitetura do LexML para interoperabilidade e colheita automatizada de metadados entre provedores de dados e o provedor de serviços central.",
-    "armadilhaBanca": "Protocolo OAI-PMH no LexML.",
+    "justificativa": "Gabarito CERTO. O OAI-PMH é o protocolo padrão da arquitetura do LexML para interoperabilidade e colheita automatizada de metadados entre provedores de dados e o provedor de serviços central. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "Initiative Protocol for Metadata Harvesting) é comumente",
+    "versao_errada": "No processo de colheita de metadados do LexML, o protocolo OAI-PMH (Open Archives indevidamente initiative protocol for metadata harvesting) é comumente empregado para coletar periodicamente registros normativos estruturados dos repositórios dos órgãos parceiros."
   },
   {
     "id": "m4-q-95",
@@ -1877,7 +1947,9 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
-    }
+    },
+    "gatilho": "e na Câmara dos Deputados fundamenta-se em",
+    "versao_errada": "O vocabulário controlado empregado na indexação de atos normativos e proposições legislativas na RVBI indevidamente e na câmara dos deputados fundamenta-se em tesauros jurídicos e listas estruturadas de autoridades, garantindo consistência semântica nas consultas aos catálogos."
   },
   {
     "id": "m4-q-99",

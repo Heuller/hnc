@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useEffect } from 'react';
 import { AppShell } from './components/layout/AppShell';
 import { ErrorBoundary } from './components/common/ErrorBoundary';
-import { useNavigationStore } from './store/useNavigationStore';
+import { useNavigationStore, type AppView } from './store/useNavigationStore';
 import { useAuthStore } from './store/useAuthStore';
 import { AuthGate } from './components/auth/AuthGate';
 import { AvisoNovaVersaoSW } from './components/common/AvisoNovaVersaoSW';
@@ -72,19 +72,39 @@ const FolhaVesperaPage = lazyWithRetry(() =>
   import('./pages/FolhaVesperaPage').then((m) => ({ default: m.FolhaVesperaPage }))
 );
 
-const PageSkeletonLoader = () => (
-  <div className="max-w-4xl mx-auto space-y-6 py-6 animate-pulse" aria-live="polite">
-    <div className="space-y-2">
-      <div className="h-4 w-32 bg-surface-2 rounded" />
-      <div className="h-8 w-3/4 bg-surface-2 rounded-lg" />
-      <div className="h-4 w-1/2 bg-surface-2 rounded" />
+// Mensagens contextuais exibidas enquanto o chunk de cada tela é carregado
+const MENSAGENS_CARREGAMENTO: Record<AppView, string> = {
+  painel: 'Montando seu painel de estudos...',
+  jornada: 'Traçando sua jornada de estudos...',
+  treinos: 'Preparando treinos...',
+  radar: 'Calculando seu radar de desempenho...',
+  progresso: 'Consolidando seu progresso...',
+  teoria: 'Carregando módulo de teoria...',
+  simulado: 'Preparando simulado...',
+  'caderno-erros': 'Abrindo seu Caderno de Erros...',
+  'folha-vespera': 'Preparando a Folha da Véspera...',
+  discursiva: 'Preparando a folha de prova discursiva...',
+  'design-system': 'Carregando o Design System...',
+  'dev-rascunhos': 'Carregando rascunhos...',
+  edital: 'Carregando o edital verticalizado...',
+};
+
+const PageSkeletonLoader = ({ view }: { view: AppView }) => (
+  <div className="max-w-4xl mx-auto space-y-6 py-6" role="status" aria-live="polite">
+    <p className="text-xs text-ink-2 font-mono">{MENSAGENS_CARREGAMENTO[view]}</p>
+    <div className="space-y-6 animate-pulse" aria-hidden="true">
+      <div className="space-y-2">
+        <div className="h-4 w-32 bg-surface-2 rounded" />
+        <div className="h-8 w-3/4 bg-surface-2 rounded-lg" />
+        <div className="h-4 w-1/2 bg-surface-2 rounded" />
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="h-28 bg-surface-2 rounded-xl" />
+        <div className="h-28 bg-surface-2 rounded-xl" />
+        <div className="h-28 bg-surface-2 rounded-xl" />
+      </div>
+      <div className="h-64 bg-surface-2 rounded-xl" />
     </div>
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <div className="h-28 bg-surface-2 rounded-xl" />
-      <div className="h-28 bg-surface-2 rounded-xl" />
-      <div className="h-28 bg-surface-2 rounded-xl" />
-    </div>
-    <div className="h-64 bg-surface-2 rounded-xl" />
   </div>
 );
 
@@ -115,7 +135,7 @@ export function App() {
           <div className="w-12 h-12 rounded-xl bg-primary text-primary-text flex items-center justify-center font-bold text-sm shadow-editorial-sm">
             HNC
           </div>
-          <p className="text-xs text-theme-ink-2 font-mono">Carregando ambiente...</p>
+          <p className="text-xs text-theme-ink-2 font-mono">Preparando seu ambiente de estudos...</p>
         </div>
       </div>
     );
@@ -163,7 +183,7 @@ export function App() {
       <AppShell>
       <ErrorBoundary>
         <div key={activeView} className="w-full animate-fadeIn">
-          <Suspense fallback={<PageSkeletonLoader />}>
+          <Suspense fallback={<PageSkeletonLoader view={activeView} />}>
             {renderActiveView()}
           </Suspense>
         </div>

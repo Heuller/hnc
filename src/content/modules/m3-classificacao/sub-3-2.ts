@@ -47,7 +47,7 @@ export const submodulo32: ModuloFilho = {
     'A CDDir foi criada pela bibliotecária brasileira Doris de Queiroz Carvalho na década de 1940 para superar a inadequação das classificações gerais (CDD e CDU) ao ordenamento jurídico brasileiro. As tabelas universais foram desenhadas sob a tradição da Common Law anglo-americana, ao passo que o Brasil adota a tradição Romano-Germânica (Civil Law), com codificações e ramificações dogmáticas próprias.',
     'A CDDir é o padrão classificatório oficial da Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) — adotada pela Biblioteca da Câmara dos Deputados, pelo Senado Federal, pelo STF, pelo STJ e pela PGR —, servindo também como ontologia temática estruturante do Portal LexML Brasil.',
     'Divisões de Forma na CDDir: são subdivisões decimais (.01 a .09) utilizadas para agrupar obras pelo seu formato de apresentação ou gênero documental (dicionários, códigos comentados, periódicos, projetos de lei, jurisprudência), independentemente do ramo substantivo do Direito.',
-    'Notação de Autor para Entidades com Sigla (ex.: OAB, STF, IBGE, IPEA): Na tabela Cutter-Sanborn, a notação numérica é extraída DIRETAMENTE DAS LETRAS DA SIGLA (ex.: primeira letra maiúscula da sigla seguida do código numérico correspondente às letras da sigla), e NUNCA a partir do nome por extenso do órgão. O Cebraspe adora afirmar que se deve decodificar a sigla por extenso para aplicar o Cutter: assertiva totalmente ERRADA!',
+    'Notação de Autor para Entidades com Sigla (ex.: OAB, STF, IBGE, IPEA): Na tabela Cutter-Sanborn, a notação numérica é extraída DIRETAMENTE DAS LETRAS DA SIGLA (ex.: primeira letra maiúscula da sigla seguida do código numérico correspondente às letras da sigla), e NUNCA a partir do nome por extenso do órgão. A técnica de distrator recorrente consiste em afirmar que se deve decodificar a sigla por extenso para aplicar o Cutter: assertiva totalmente ERRADA!',
     'Notação de Autor em Obras de Entrada por Título (obras com 4 ou mais autores ou anônimas): O código Cutter é extraído da primeira palavra do título (desprezando artigo inicial), e a "workmark" (marca de obra) é a primeira letra minúscula da SEGUNDA palavra do título.',
     'Notação de Autor em Biografias Individuais: Para que todas as biografias de uma personalidade fiquem agrupadas no mesmo ponto da estante, o número de Cutter é atribuído ao BIOGRAFADO, e a workmark minúscula é a inicial do sobrenome do BIÓGRAFO.',
   ],
@@ -133,7 +133,7 @@ Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
 
 1. **Entidades com Entrada por Sigla:**
    * Quando uma entidade coletiva tem entrada autorizada por sua sigla oficial (ex.: \`IBGE\`, \`IPEA\`, \`OAB\`, \`UNESCO\`), o número de Cutter é retirado **das letras que compõem a sigla**, e NUNCA do nome por extenso do órgão.
-   * *Pegadinha Clássica Cebraspe:* A banca costuma afirmar que o catalogador deve converter a sigla em nome por extenso (ex.: "Instituto Brasileiro de...") para buscar o Cutter. **ITEM ERRADO.** O Cutter é composto na letra 'I' com as letras 'B', 'G', 'E'.
+   * *técnica de distrator recorrente:* A técnica de elaboração de itens costuma afirmar que o catalogador deve converter a sigla em nome por extenso (ex.: "Instituto Brasileiro de...") para buscar o Cutter. **ITEM ERRADO.** O Cutter é composto na letra 'I' com as letras 'B', 'G', 'E'.
 
 2. **Entrada Principal por Título (Obras Anônimas ou com 4 ou mais Autores):**
    * O número de Cutter é gerado a partir da **primeira palavra do título** (desprezando artigo inicial).

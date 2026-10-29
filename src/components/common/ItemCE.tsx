@@ -6,12 +6,12 @@ import {
   HelpCircle,
   RotateCcw,
   BookOpen,
-  AlertTriangle,
 } from 'lucide-react';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import type { ContextoTentativa, ItemAttempt } from '../../domain/itemAttempts';
 import { Badge } from './Badge';
+import { PainelEstudoReverso } from './PainelEstudoReverso';
 
 export interface ItemCEData {
   id: string;
@@ -119,6 +119,10 @@ export const ItemCE: React.FC<ItemCEProps> = ({
     const handleKeyDown = (e: KeyboardEvent) => {
       const activeTag = document.activeElement?.tagName.toLowerCase();
       if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') {
+        return;
+      }
+      // Preserva atalhos do sistema (Ctrl/Cmd+C para copiar não pode julgar o item)
+      if (e.ctrlKey || e.metaKey || e.altKey) {
         return;
       }
 

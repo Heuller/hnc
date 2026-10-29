@@ -84,7 +84,7 @@ TITLE: Princípios Estruturantes da LAI (Lei nº 12.527/2011)
   * *Padrões Tecnológicos:* Formatos abertos, estruturados e legíveis por máquina (ex.: CSV, JSON, XML), garantindo a autenticidade e a integridade das informações sem barreiras proprietárias de software.
 * **Transparência Passiva (Serviço de Informações ao Cidadão - SIC - Arts. 9º a 14):**
   * Mecanismo pelo qual o órgão atende a demandas individuais específicas formuladas pela sociedade.
-  * *Proibição de Exigência de Motivação (Art. 10, § 3º — Pegadinha Clássica Cebraspe):* **São expressamente vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.** O requerente precisa apenas identificar-se (nome e documento) e especificar a informação pretendida.
+  * *Proibição de Exigência de Motivação (Art. 10, § 3º — técnica de distrator recorrente):* **São expressamente vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.** O requerente precisa apenas identificar-se (nome e documento) e especificar a informação pretendida.
   * *Prazos Oficiais de Resposta:*
     * Se a informação requerida estiver disponível, o acesso deve ser concedido de forma **imediata**.
     * Não sendo possível o acesso imediato, o órgão público tem o prazo de **até 20 dias** para responder, prazo este que pode ser prorrogado por mais **10 dias** mediante justificativa expressa encaminhada ao cidadão.

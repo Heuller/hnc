@@ -16,7 +16,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "eficácia democrática orientada a assegurar que o",
+    "versao_errada": "Infere-se do Texto I que a Linguagem Simples constitui ferramenta de indevidamente eficácia democrática orientada a assegurar que o cidadão comum compreenda e exerça os direitos decorrentes da produção legislativa."
   },
   {
     "id": "m13-q-2",
@@ -51,7 +53,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "De acordo com",
+    "versao_errada": "indevidamente de acordo com o Texto I, o hermetismo formal que historicamente caracterizou a comunicação parlamentar funcionava como barreira comunicativa que distanciava os cidadãos dos debates públicos."
   },
   {
     "id": "m13-q-4",
@@ -86,7 +90,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "introduz uma relação de contraposição e adversidade",
+    "versao_errada": "No Texto I, o conectivo 'Entretanto' (início do segundo parágrafo) indevidamente introduz uma relação de contraposição e adversidade em relação à prática histórica mencionada no parágrafo anterior."
   },
   {
     "id": "m13-q-6",
@@ -121,7 +127,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "I, último período) introduz uma oração subordinada",
+    "versao_errada": "A locução conjuntiva 'de modo que' (Texto indevidamente i, último período) introduz uma oração subordinada adverbial com valor semântico de consequência."
   },
   {
     "id": "m13-q-8",
@@ -156,7 +164,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "do parlamento constitui pressuposto essencial para o",
+    "versao_errada": "Infere-se do Texto II que a conservação dos registros documentais indevidamente do parlamento constitui pressuposto essencial para o exercício do controle social e da fiscalização pelos cidadãos."
   },
   {
     "id": "m13-q-10",
@@ -191,7 +201,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "parágrafo) introduz uma ressalva que não impede",
+    "versao_errada": "No Texto II, a conjunção concessiva 'Malgrado' (início do segundo indevidamente parágrafo) introduz uma ressalva que não impede o cumprimento do dever de gestão técnica da memória."
   },
   {
     "id": "m13-q-12",
@@ -226,7 +238,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "expressão 'por ele eleitos' funciona como anáfora",
+    "versao_errada": "No Texto II, o pronome demonstrativo 'ele' na indevidamente expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'."
   },
   {
     "id": "m13-q-14",
@@ -261,7 +275,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "diretos' emprega o advérbio 'antes' com valor",
+    "versao_errada": "No Texto I, o segmento 'consiste, antes, em arquitetar períodos sintaticamente indevidamente diretos' emprega o advérbio 'antes' com valor semântico de preferência ou retificação ('pelo contrário / em vez disso')."
   },
   {
     "id": "m13-q-16",
@@ -332,7 +348,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "seja conduzida sem rigor técnico e sem",
+    "versao_errada": "Depreende-se do Texto II que a digitalização acelerada de acervos, caso indevidamente seja conduzida sem rigor técnico e sem observância de padrões arquivísticos, pode acarretar perda de integridade documental."
   },
   {
     "id": "m13-q-20",
@@ -349,7 +367,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "a hierarquia lógica dos conteúdos, conferindo sentido",
+    "versao_errada": "No Texto I, o vocábulo 'límpida' qualifica indevidamente a hierarquia lógica dos conteúdos, conferindo sentido de clareza, transparência e nitidez estrutural."
   },
   {
     "id": "m13-q-21",
@@ -384,7 +404,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "linguístico consagrado na ciência política para designar",
+    "versao_errada": "No Texto II, o termo 'accountability' é empregado como empréstimo indevidamente linguístico consagrado na ciência política para designar a obrigação de prestar contas e a responsabilização pública."
   },
   {
     "id": "m13-q-23",
@@ -419,7 +441,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "metafórica para contrapor a preservação meramente passiva",
+    "versao_errada": "No Texto II, a expressão 'fúnebre' carrega conotação indevidamente metafórica para contrapor a preservação meramente passiva da memória à sua dimensão ativa e democrática."
   },
   {
     "id": "m13-q-25",
@@ -454,7 +478,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "'se' atua como partícula apassivadora e a",
+    "versao_errada": "Na oração 'Sabe-se que a transparência fortalece a democracia', a palavra indevidamente 'se' atua como partícula apassivadora e a oração iniciada por 'que' exerce a função sintática de sujeito oracional."
   },
   {
     "id": "m13-q-27",
@@ -489,7 +515,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "plenário segue para sanção', a palavra 'que'",
+    "versao_errada": "No segmento 'O projeto de lei que foi aprovado pelo indevidamente plenário segue para sanção', a palavra 'que' classifica-se como pronome relativo e introduz oração subordinada adjetiva restritiva."
   },
   {
     "id": "m13-q-29",
@@ -524,7 +552,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "requerimento do parlamentar foi rejeitado pela comissão'",
+    "versao_errada": "A substituição do trecho 'A comissão rejeitou o requerimento do parlamentar' por 'O indevidamente requerimento do parlamentar foi rejeitado pela comissão' preserva rigorosamente a correção gramatical e a equivalência semântica proposicional do enunciado."
   },
   {
     "id": "m13-q-31",
@@ -541,7 +571,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "por 'Apesar de haver divergências regimentais, aprovou-se",
+    "versao_errada": "A reescrita do período 'Embora houvesse divergências regimentais, o texto foi aprovado' indevidamente por 'apesar de haver divergências regimentais, aprovou-se o texto' preserva a relação de concessão e a correção gramatical."
   },
   {
     "id": "m13-q-32",
@@ -576,7 +608,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "emenda inconstitucional', o termo 'inconstitucional' exerce a",
+    "versao_errada": "Na frase 'O presidente da mesa considerou a indevidamente emenda inconstitucional', o termo 'inconstitucional' exerce a função sintática de predicativo do objeto direto."
   },
   {
     "id": "m13-q-34",
@@ -593,7 +627,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "e rege preposição 'a', funcionando o termo",
+    "versao_errada": "Na oração 'Assistiu-se aos debates parlamentares com grande atenção', o verbo 'assistir' possui sentido de presenciar indevidamente e rege preposição 'a', funcionando o termo 'aos debates' como objeto indireto e a palavra 'se' como índice de indeterminação do sujeito."
   },
   {
     "id": "m13-q-35",
@@ -628,7 +664,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "entre dois termos substantivos e concorda em",
+    "versao_errada": "O pronome relativo 'cujo' estabelece relação sintático-semântica de posse indevidamente entre dois termos substantivos e concorda em gênero e número com o termo subsequente (coisa possuída)."
   },
   {
     "id": "m13-q-37",
@@ -663,7 +701,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "classifica-se como pronome apassivador, e o termo",
+    "versao_errada": "Na oração 'Aprovou-se a nova resolução legislativa', a palavra 'se' indevidamente classifica-se como pronome apassivador, e o termo 'a nova resolução legislativa' é o sujeito paciente da oração."
   },
   {
     "id": "m13-q-39",
@@ -698,7 +738,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "a anulação do certame', a oração iniciada",
+    "versao_errada": "Na sentença 'Ele agiu tão prudentemente que evitou indevidamente a anulação do certame', a oração iniciada pela palavra 'que' classifica-se como subordinada adverbial consecutiva."
   },
   {
     "id": "m13-q-41",
@@ -733,7 +775,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "apresenta regência adequada do verbo necessitar, com",
+    "versao_errada": "A oração 'O documento de que necessitamos foi localizado' indevidamente apresenta regência adequada do verbo necessitar, com emprego correto da preposição 'de' antes do pronome relativo."
   },
   {
     "id": "m13-q-43",
@@ -786,7 +830,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "de sua declaração' classifica-se como parte integrante",
+    "versao_errada": "A palavra 'se' na frase 'O deputado arrependeu-se indevidamente de sua declaração' classifica-se como parte integrante do verbo (verbo pronominal acidental ou essencial)."
   },
   {
     "id": "m13-q-46",
@@ -803,7 +849,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "plenário', a partícula 'se' indica reciprocidade da",
+    "versao_errada": "Na oração 'Eles abraçaram-se cordialmente no indevidamente plenário', a partícula 'se' indica reciprocidade da ação verbal entre os sujeitos."
   },
   {
     "id": "m13-q-47",
@@ -856,7 +904,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "pediu a palavra' expressa valor temporal instantâneo",
+    "versao_errada": "A oração 'Mal os trabalhos iniciaram, a oposição indevidamente pediu a palavra' expressa valor temporal instantâneo equivalente a 'Assim que os trabalhos iniciaram'."
   },
   {
     "id": "m13-q-50",
@@ -891,7 +941,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "ou pretender, é transitivo indireto e rege",
+    "versao_errada": "O verbo 'visar', quando empregado no sentido de ter como objetivo indevidamente ou pretender, é transitivo indireto e rege compulsoriamente a preposição 'a' ('A medida visa à modernização dos serviços')."
   },
   {
     "id": "m13-q-52",
@@ -926,7 +978,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "direto, sendo incorreto o emprego da preposição",
+    "versao_errada": "O verbo 'implicar', no sentido de ter como consequência ou acarretar, é transitivo indevidamente direto, sendo incorreto o emprego da preposição 'em' ('A reforma implicará aumento de produtividade', e não 'implicará em aumento')."
   },
   {
     "id": "m13-q-54",
@@ -961,7 +1015,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "são transitivos indiretos e regem a preposição",
+    "versao_errada": "O verbo 'obedecer' e seu antônimo 'desobedecer' indevidamente são transitivos indiretos e regem a preposição 'a' ('O deputado obedeceu ao regimento interno')."
   },
   {
     "id": "m13-q-56",
@@ -996,7 +1052,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "temática', haja vista a fusão da preposição",
+    "versao_errada": "Ocorre o sinal indicativo de crase na frase 'O diretor encaminhou a minuta à comissão indevidamente temática', haja vista a fusão da preposição 'a' exigida pela regência de encaminhar com o artigo definido feminino 'a' que antecede 'comissão'."
   },
   {
     "id": "m13-q-58",
@@ -1031,7 +1089,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "próprios femininos e diante de pronomes possessivos",
+    "versao_errada": "O uso do sinal indicativo de crase é facultativo diante de nomes indevidamente próprios femininos e diante de pronomes possessivos femininos no singular ('Entregou o livro a sua / à sua colega')."
   },
   {
     "id": "m13-q-60",
@@ -1084,7 +1144,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "impessoal e não flexiona no plural ('Havia",
+    "versao_errada": "O verbo 'haver' no sentido de existir ou ocorrer é indevidamente impessoal e não flexiona no plural ('havia muitas emendas pendentes de votação', e não 'Haviam muitas emendas')."
   },
   {
     "id": "m13-q-63",
@@ -1101,7 +1163,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "votação', o verbo 'existir' concorda legitimamente no",
+    "versao_errada": "Na frase 'Existiam muitas emendas pendentes de indevidamente votação', o verbo 'existir' concorda legitimamente no plural com o sujeito 'muitas emendas'."
   },
   {
     "id": "m13-q-64",
@@ -1118,7 +1182,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "parlamentares votou / votaram favoravelmente'), a concordância",
+    "versao_errada": "Em expressões partitivas seguidas de substantivo no plural ('A maioria dos indevidamente parlamentares votou / votaram favoravelmente'), a concordância verbal pode ser feita tanto no singular quanto no plural."
   },
   {
     "id": "m13-q-65",
@@ -1189,7 +1255,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "número concordando com o substantivo a que",
+    "versao_errada": "A palavra 'anexo' flexiona em gênero e indevidamente número concordando com o substantivo a que se refere ('Seguem anexas as planilhas orçamentárias')."
   },
   {
     "id": "m13-q-69",
@@ -1224,7 +1292,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "ao plenário', a ausência de artigo diante",
+    "versao_errada": "Na frase 'É proibido entrada de pessoas estranhas indevidamente ao plenário', a ausência de artigo diante de 'entrada' legitima a forma masculina 'proibido'."
   },
   {
     "id": "m13-q-71",
@@ -1259,7 +1329,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "uso de intensificadores ('Prefiro ler a assistir",
+    "versao_errada": "O verbo 'preferir' rege a preposição 'a' e repele o indevidamente uso de intensificadores ('prefiro ler a assistir televisão', e não 'Prefiro mais ler do que assistir')."
   },
   {
     "id": "m13-q-73",
@@ -1294,7 +1366,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "bancada', pela fusão da preposição 'a' exigida",
+    "versao_errada": "Ocorre crase na frase 'O parecer atendeu àquelas solicitações formuladas pela indevidamente bancada', pela fusão da preposição 'a' exigida pelo verbo atender com a vogal inicial do pronome demonstrativo 'àquelas'."
   },
   {
     "id": "m13-q-75",
@@ -1329,7 +1403,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "vírgulas classifica a oração adjetiva como restritiva",
+    "versao_errada": "Na oração 'Os deputados que participaram da sessão votaram favoravelmente', a ausência de indevidamente vírgulas classifica a oração adjetiva como restritiva, indicando que apenas uma parcela dos deputados (aqueles que participaram) votou a favor."
   },
   {
     "id": "m13-q-77",
@@ -1346,7 +1422,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "vírgulas altera o sentido original, transformando a",
+    "versao_errada": "Na frase 'Os deputados, que participaram da sessão, votaram favoravelmente', a inserção das indevidamente vírgulas altera o sentido original, transformando a oração em explicativa e generalizando o fato para a totalidade dos deputados."
   },
   {
     "id": "m13-q-78",
@@ -1363,7 +1441,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "adjetiva introduzida por pronome relativo altera os",
+    "versao_errada": "A eliminação ou o acréscimo de vírgulas que isolam oração subordinada indevidamente adjetiva introduzida por pronome relativo altera os sentidos originais do texto, mas preserva a correção gramatical da frase."
   },
   {
     "id": "m13-q-79",
@@ -1398,7 +1478,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatoriamente isolado por vírgula ('Durante a última sessão legislativa",
+    "versao_errada": "O adjunto adverbial de grande extensão (três oumais palavras) deslocado para o início do período deve ser indevidamente obrigatoriamente isolado por vírgula ('durante a última sessão legislativa, os parlamentares deliberaram')."
   },
   {
     "id": "m13-q-81",
@@ -1415,7 +1497,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "haja vista a presença da palavra de",
+    "versao_errada": "A próclise é obrigatória na frase 'Não se omitiram perante a votação', indevidamente haja vista a presença da palavra de sentido negativo 'não', que atua como fator atrativo do pronome oblíquo átono."
   },
   {
     "id": "m13-q-82",
@@ -1450,7 +1534,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "início da frase sem fator atrativo, a",
+    "versao_errada": "Havendo verbo no futuro do presente ou no futuro do pretérito no indevidamente início da frase sem fator atrativo, a colocação pronominal adequada é a mesóclise ('Apresentar-se-á nova proposta ao plenário')."
   },
   {
     "id": "m13-q-84",
@@ -1478,14 +1564,16 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Na oração 'Ontem, o plenário aprovou a proposta orçamentária', o emprego da vírgula após o adjunto adverbial de tempo de curta extensão é de natureza estritamente facultativa na norma culta.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Adjuntos adverbiais de curta extensão (um ou dois vocábulos) antepostos admitem pontuação facultativa segundo a Academia Brasileira de Letras e Celso Cunha & Lindley Cintra.",
-    "armadilhaBanca": "Assertiva correta: faculdade de isolamento de adjunto curto deslocado.",
+    "justificativa": "Gabarito CERTO. Adjuntos adverbiais de curta extensão (um ou dois vocábulos) antepostos admitem pontuação facultativa segundo a Academia Brasileira de Letras e Celso Cunha & Lindley Cintra. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "vírgula após o adjunto adverbial de tempo",
+    "versao_errada": "Na oração 'Ontem, o plenário aprovou a proposta orçamentária', o emprego da indevidamente vírgula após o adjunto adverbial de tempo de curta extensão é de natureza estritamente facultativa na norma culta."
   },
   {
     "id": "m13-q-86",
@@ -1513,14 +1601,16 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "O emprego do acento grave indicativo de crase é obrigatório em locuções prepositivas e conjuntivas femininas, como em 'à medida que' e 'à proporção que'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme Domingos Paschoal Cegalla, as locuções adverbiais, prepositivas e conjuntivas constituídas por palavras femininas recebem acento grave indicativo de crase obrigatoriamente.",
-    "armadilhaBanca": "Assertiva correta: crase fixa em locuções femininas.",
+    "justificativa": "Gabarito CERTO. Conforme Domingos Paschoal Cegalla, as locuções adverbiais, prepositivas e conjuntivas constituídas por palavras femininas recebem acento grave indicativo de crase obrigatoriamente. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatório em locuções prepositivas e conjuntivas femininas",
+    "versao_errada": "O emprego do acento grave indicativo de crase é opcional em locuções prepositivas e conjuntivas femininas, como em 'à medida que' e 'à proporção que'."
   },
   {
     "id": "m13-q-88",
@@ -1566,14 +1656,16 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Na oração 'A maioria dos servidores compareceu à audiência pública', a substituição de 'compareceu' por 'compareceram' mantém a correção gramatical e os sentidos originais do texto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Com expressões partitivas ('a maioria de') seguidas de determinante no plural, a norma culta admite tanto a concordância lógica no singular com o núcleo quanto a concordância atrativa no plural com o determinante.",
-    "armadilhaBanca": "Assertiva correta: dupla concordância com expressões partitivas.",
+    "justificativa": "Gabarito CERTO. Com expressões partitivas ('a maioria de') seguidas de determinante no plural, a norma culta admite tanto a concordância lógica no singular com o núcleo quanto a concordância atrativa no plural com o determinante. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "a substituição de 'compareceu' por 'compareceram' mantém",
+    "versao_errada": "Na oração 'A maioria dos servidores compareceu à audiência pública', indevidamente a substituição de 'compareceu' por 'compareceram' mantém a correção gramatical e os sentidos originais do texto."
   },
   {
     "id": "m13-q-91",
@@ -1608,7 +1700,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "ditongos abertos 'ei' e 'oi' (como 'ideia'",
+    "versao_errada": "Conforme o Acordo Ortográfico vigente, palavras paroxítonas com indevidamente ditongos abertos 'ei' e 'oi' (como 'ideia', 'assembleia' e 'apoio') não recebem mais acento gráfico."
   },
   {
     "id": "m13-q-93",
@@ -1643,7 +1737,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "quando o segundo elemento inicia com a",
+    "versao_errada": "O hífen é obrigatório em palavras formadas por prefixação indevidamente quando o segundo elemento inicia com a mesma vogal com que termina o prefixo ('micro-ondas', 'anti-inflamatório')."
   },
   {
     "id": "m13-q-95",
@@ -1678,7 +1774,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "ou assembleia deliberativa ('a sessão plenária da",
+    "versao_errada": "O termo 'sessão' (com 'ss') refere-se a espaço de tempo de uma reunião indevidamente ou assembleia deliberativa ('a sessão plenária da Câmara'), ao passo que 'seção' (com 'ç') significa divisão, departamento ou repartição."
   },
   {
     "id": "m13-q-97",
@@ -1731,7 +1829,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
-    }
+    },
+    "gatilho": "explicativa, ao passo que 'porquê' (junto e",
+    "versao_errada": "O termo 'porque' (junto e sem acento) é conjunção causal ou indevidamente explicativa, ao passo que 'porquê' (junto e com acento circunflexo) atua como substantivo precedido de artigo determinativo."
   },
   {
     "id": "m13-q-100",

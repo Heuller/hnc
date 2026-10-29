@@ -262,8 +262,8 @@ export const DiscursivaPage: React.FC = () => {
         } catch {}
         return { ...prev, [enunciadoAtivo.id]: updated };
       });
-    } catch (err: any) {
-      setErroAvaliacao(err?.message || 'Falha ao processar avaliação com a banca examinadora.');
+    } catch (err: unknown) {
+      setErroAvaliacao((err instanceof Error && err.message) || 'Falha ao processar avaliação com a banca examinadora.');
     } finally {
       setIsAvaliando(false);
     }
@@ -397,8 +397,9 @@ export const DiscursivaPage: React.FC = () => {
           <form onSubmit={handleCriarEnunciado} className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-semibold text-ink mb-1">Título / Tema</label>
+                <label htmlFor="novo-enunciado-titulo" className="block text-xs font-semibold text-ink mb-1">Título / Tema</label>
                 <input
+                  id="novo-enunciado-titulo"
                   type="text"
                   value={novoTitulo}
                   onChange={(e) => setNovoTitulo(e.target.value)}
@@ -409,8 +410,9 @@ export const DiscursivaPage: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-ink mb-1">Tipo de Peça / Limite</label>
+                <label htmlFor="novo-enunciado-tipo" className="block text-xs font-semibold text-ink mb-1">Tipo de Peça / Limite</label>
                 <select
+                  id="novo-enunciado-tipo"
                   value={novoTipo}
                   onChange={(e) => setNovoTipo(e.target.value as 'questao_20' | 'peca_50')}
                   className="w-full px-3 py-2 rounded-xl bg-surface-2 border border-border text-sm text-ink focus:outline-hidden focus:ring-1 focus:ring-accent"
@@ -422,8 +424,9 @@ export const DiscursivaPage: React.FC = () => {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-ink mb-1">Enunciado Oficial</label>
+              <label htmlFor="novo-enunciado-texto" className="block text-xs font-semibold text-ink mb-1">Enunciado Oficial</label>
               <textarea
+                id="novo-enunciado-texto"
                 value={novoEnunciado}
                 onChange={(e) => setNovoEnunciado(e.target.value)}
                 rows={4}
@@ -536,7 +539,7 @@ export const DiscursivaPage: React.FC = () => {
               <div className="flex items-center justify-between">
                 <span className="text-xs font-mono font-bold uppercase text-ink flex items-center gap-1.5">
                   <Award className="w-3.5 h-3.5 text-purple-600 dark:text-purple-400" />
-                  <span>Padrão Preliminar Cebraspe</span>
+                  <span>Padrão de Resposta (Modelo do HNC, não é padrão do Cebraspe)</span>
                 </span>
                 <button
                   type="button"
@@ -655,6 +658,7 @@ export const DiscursivaPage: React.FC = () => {
             </div>
 
             <textarea
+              aria-label="Texto da sua resposta discursiva"
               value={textoCandidato}
               onChange={(e) => atualizarTextoCandidato(e.target.value)}
               rows={14}

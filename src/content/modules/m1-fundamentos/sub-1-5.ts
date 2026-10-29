@@ -233,7 +233,7 @@ Para o Cebraspe, a gestão da informação exige governança rigorosa do seu cic
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Eliminação de Documentos da 3ª Idade:** A banca costuma sugerir que *"documentos históricos de terceira idade podem ser eliminados caso passem por microfilmagem ou digitalização para economia de espaço predial"*. **Gabarito: ERRADO.** Documentos de valor permanente são imprescritíveis e inalienáveis (art. 10 da Lei Federal nº 8.159/1991); digitalização não autoriza descarte de original permanente.
+- **Eliminação de Documentos da 3ª Idade:** Técnica de distrator: sugerir que *"documentos históricos de terceira idade podem ser eliminados caso passem por microfilmagem ou digitalização para economia de espaço predial"*. **Gabarito: ERRADO.** Documentos de valor permanente são imprescritíveis e inalienáveis (art. 10 da Lei Federal nº 8.159/1991); digitalização não autoriza descarte de original permanente.
 - **Confusão entre Acurácia e Tempestividade:** Apresentar um dado factual perfeito, mas defasado no tempo, como exemplo de falha de acurácia. **Gabarito: ERRADO.** Trata-se de problema de tempestividade (*timeliness*).
 - **Valor Primário vs. Valor Secundário:** Inverter os valores: o valor primário é para a administração criadora; o secundário é para a sociedade e pesquisadores.
 

@@ -9,8 +9,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, a respeito de bibliografia.",
     "item": "Bibliografia consiste na produção sistemática de listas descritivas de registros do conhecimento, principalmente livros, artigos de periódicos e capítulos de livros.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"descritivas de registros do conhecimento, principalmente livros\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -53,8 +53,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à evolução da comunicação científica, ao movimento de Acesso Aberto (Open Access), às Declarações dos 3 Bs (Budapeste, Bethesda, Berlim) e aos modelos de publicação, julgue o item a seguir.",
     "item": "O Diretório de Revistas de Acesso Aberto (DOAJ) é um repertório de acesso restrito mantido por editoras comerciais para indexar periódicos híbridos com cobrança de taxas de processamento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O DOAJ é a principal autoridade global em curadoria independente de periódicos legítimos de acesso aberto revisados por pares, pautado em critérios rigorosos de boas práticas editoriais.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir o DOAJ com diretório de revistas predatórias.",
+    "justificativa": "Gabarito ERRADO. O DOAJ é a principal autoridade global em curadoria independente de periódicos legítimos de acesso aberto revisados por pares, pautado em critérios rigorosos de boas práticas editoriais. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -72,13 +72,15 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "O serviço Sherpa Romeo é uma base de dados internacional de referência que registra e categoriza as políticas de direitos autorais e de autoarquivamento em acesso aberto de editoras comerciais e periódicos acadêmicos em todo o mundo.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. O Sherpa Romeo permite aos bibliotecários e pesquisadores verificar exatamente qual versão do artigo (preprint, postprint ou versão do editor) pode ser arquivada no repositório institucional e sob quais condições de embargo.",
-    "armadilhaBanca": "Função da base Sherpa Romeo.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "categoriza as políticas de direitos autorais e",
+    "versao_errada": "O serviço Sherpa Romeo é uma base de dados internacional de referência que registra e indevidamente categoriza as políticas de direitos autorais e de autoarquivamento em acesso aberto de editoras comerciais e periódicos acadêmicos em todo o mundo."
   },
   {
     "id": "m9-q-5",
@@ -89,7 +91,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "A 'Via Diamante' (Diamond ou Platinum Open Access) caracteriza-se por cobrar taxas extorsivas dos leitores para baixar artigos e exigir que os autores paguem taxas de submissão em barras de ouro maciço.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Via Diamante é o modelo mais comunitário e equitativo de acesso aberto: NÃO COBRA taxas dos leitores para acessar (sem paywall) e NÃO COBRA taxas dos autores para publicar (sem APC). É financiada por universidades, sociedades científicas ou agências públicas (como a maioria das revistas do SciELO).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Desvirtuar o modelo Via Diamante/Platinum.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -106,8 +108,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à evolução da comunicação científica, ao movimento de Acesso Aberto (Open Access), às Declarações dos 3 Bs (Budapeste, Bethesda, Berlim) e aos modelos de publicação, julgue o item a seguir.",
     "item": "As diretrizes do Plano S (Plan S) incentivam pesquisadores financiados por recursos públicos a priorizarem a publicação de artigos em periódicos sob modelo de assinatura tradicional fechada, resguardando o ineditismo comercial dos dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Plano S exige que as publicações científicas decorrentes de pesquisas financiadas por agências públicas participantes sejam publicadas em acesso aberto imediato sob licenças abertas.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter os objetivos do Plano S (cOAlition S).",
+    "justificativa": "Gabarito ERRADO. O Plano S exige que as publicações científicas decorrentes de pesquisas financiadas por agências públicas participantes sejam publicadas em acesso aberto imediato sob licenças abertas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -125,7 +127,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "As licenças Creative Commons são proibidas no movimento de Acesso Aberto, devendo os autores transferir de forma total e irrevogável todos os direitos patrimoniais e morais aos monopólios editoriais estrangeiros.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. As licenças Creative Commons (notadamente a licença CC-BY — Atribuição) são o alicerce jurídico padrão do Acesso Aberto, garantindo que o autor retenha seus direitos autorais enquanto autoriza a leitura, cópia e reuso amplo com o devido crédito de citação.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Proibir licenças Creative Commons no Acesso Aberto.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -149,7 +151,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "irrestrita na internet, permitindo a qualquer usuário",
+    "versao_errada": "A Iniciativa de Acesso Aberto de Budapeste (BOAI — Budapest Open Access Initiative, 2002) definiu o acesso aberto à literatura científica como a disponibilização gratuita, pública e indevidamente irrestrita na internet, permitindo a qualquer usuário ler, descarregar, copiar, distribuir, imprimir, pesquisar ou criar links para os textos integrais sem barreiras financeiras, legais ou técnicas além daquelas inseparáveis do acesso à própria internet."
   },
   {
     "id": "m9-q-9",
@@ -171,7 +175,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289219"
-    }
+    },
+    "gatilho": "periódicos a partir da frequência com que",
+    "versao_errada": "Por me io do fator de impacto mede -se a relevância dos indevidamente periódicos a partir da frequência com que, durante um ano, o artigo médio de um periódico é citado."
   },
   {
     "id": "m9-q-10",
@@ -182,7 +188,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "Na sistemática do Acesso Aberto definida pela BOAI, a 'Via Verde' (Green Road) consiste na publicação de artigos em periódicos comerciais de acesso pago mediante o pagamento antecipado de taxas de processamento de artigos (APCs) milionárias.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Via Verde (Green Road) consiste no AUTOARQUIVAMENTO de artigos (preprints ou postprints) pelo próprio autor em Repositórios Digitais Institucionais ou temáticos de acesso aberto, sem necessidade de pagamento de taxas de APC.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir Via Verde (autoarquivamento em repositórios) com Via Dourada com APC.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -200,7 +206,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "O modelo de avaliação cega por pares tradicional (double-blind peer review) é aquele em que os revisores e os autores realizam uma audiência pública na televisão transmitida ao vivo para debater o artigo.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. No duplo-cego (double-blind), a identidade dos autores é ocultada dos avaliadores e a identidade dos avaliadores é ocultada dos autores durante todo o processo editorial, garantindo imparcialidade e evitando viés de autoridade.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar avaliação cega como audiência ao vivo na TV.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -285,14 +291,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à evolução da comunicação científica, ao movimento de Acesso Aberto (Open Access), às Declarações dos 3 Bs (Budapeste, Bethesda, Berlim) e aos modelos de publicação, julgue o item a seguir.",
     "item": "Os periódicos híbridos são revistas científicas por assinatura que oferecem aos autores a opção de tornar artigos individuais abertos mediante o pagamento de uma Taxa de Processamento de Artigo (APC - Article Processing Charge), gerando o fenômeno de 'dupla cobrança' (double dipping).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Periódicos híbridos cobram duas vezes: recebem a assinatura institucional das bibliotecas e, simultaneamente, cobram APCs dos pesquisadores que desejam acesso aberto para seus artigos individuais.",
-    "armadilhaBanca": "Conceito de revista híbrida e double dipping.",
+    "justificativa": "Gabarito CERTO. Periódicos híbridos cobram duas vezes: recebem a assinatura institucional das bibliotecas e, simultaneamente, cobram APCs dos pesquisadores que desejam acesso aberto para seus artigos individuais. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "abertos mediante o pagamento de uma Taxa",
+    "versao_errada": "Os periódicos híbridos são revistas científicas por assinatura que oferecem aos autores a opção de tornar artigos individuais indevidamente abertos mediante o pagamento de uma taxa de Processamento de Artigo (APC - Article Processing Charge), gerando o fenômeno de 'dupla cobrança' (double dipping)."
   },
   {
     "id": "m9-q-16",
@@ -331,7 +339,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "submetida pelo autor antes da realização da",
+    "versao_errada": "A distinção entre 'preprint' e 'postprint' na comunicação científica reside no fato de que o preprint é a versão do manuscrito indevidamente submetida pelo autor antes da realização da avaliação por pares, enquanto o postprint é a versão final que já incorporou as revisões e correções decorrentes do peer review."
   },
   {
     "id": "m9-q-18",
@@ -348,7 +358,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "sem realizar a devida avaliação por pares",
+    "versao_errada": "Os chamados 'periódicos predatórios' são publicações comerciais espúrias que cobram APCs dos autores indevidamente sem realizar a devida avaliação por pares (peer review), publicando artigos fraudulentos ou sem rigor científico para auferir lucro rápido."
   },
   {
     "id": "m9-q-19",
@@ -388,7 +400,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "transparência no processo editorial, podendo divulgar as",
+    "versao_errada": "A avaliação aberta por pares (Open Peer Review) é uma prática emergente da Ciência Aberta que busca maior indevidamente transparência no processo editorial, podendo divulgar as identidades dos revisores, os relatórios de pareceres e até abrir os comentários para a comunidade durante a avaliação."
   },
   {
     "id": "m9-q-21",
@@ -470,7 +484,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "periódicos científicos de acesso aberto, onde todo",
+    "versao_errada": "A 'Via Dourada' (Gold Road) do Acesso Aberto caracteriza-se pela publicação direta do artigo em indevidamente periódicos científicos de acesso aberto, onde todo o conteúdo fica imediatamente e gratuitamente disponível na web desde o momento de sua publicação."
   },
   {
     "id": "m9-q-25",
@@ -500,8 +516,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "Conforme a Lei de Bradford, o número de artigos científicos contidos em cada zona consecutiva de periódicos deve dobrar exponencialmente a cada novo periódico adicionado à estante da biblioteca.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O que cresce em progressão geométrica (1 : n : n²) é o NÚMERO DE PERIÓDICOS necessários para obter a mesma quantidade de artigos; o número de ARTIGOS em cada zona é CONSTANTE (igual entre as zonas).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter os termos da relação de Bradford (artigos constantes vs periódicos crescentes).",
+    "justificativa": "Gabarito ERRADO. O que cresce em progressão geométrica (1 : n : n²) é o NÚMERO DE PERIÓDICOS necessários para obter a mesma quantidade de artigos; o número de ARTIGOS em cada zona é CONSTANTE (igual entre as zonas). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -525,7 +541,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "que ocorrem uma única vez em todo",
+    "versao_errada": "O fenômeno dos 'Hapax Legomena' em estudos zipfianos refere-se aos termos ou palavras indevidamente que ocorrem uma única vez em todo o texto analisado, constituindo expressiva porcentagem do vocabulário total de qualquer obra extensa."
   },
   {
     "id": "m9-q-28",
@@ -536,7 +554,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "Na representação gráfica da Lei de Bradford, o gráfico de Leimkuhler plota o logaritmo acumulado de periódicos contra o número de artigos em uma linha reta perfeita sem qualquer queda ou curvatura final (Groos droop).",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Em distribuições empíricas reais de Bradford, observa-se frequentemente o fenômeno do 'Desvio de Groos' (Groos droop): uma curvatura descendente ou queda na extremidade final do gráfico decorrente da incompletude na cobertura da literatura ou dispersão atípica de periódicos marginais.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Negar a ocorrência do Desvio de Groos (Groos droop) em Bradford.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -553,14 +571,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "O conceito de 'Meia-Vida da Literatura' (Half-Life), introduzido por Burton e Kebler na bibliometria, mede o tempo decorrido para que metade de todas as citações recebidas por uma área do conhecimento tenha sido publicada, refletindo o ritmo de obsolescência daquela disciplina.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Meia-vida indica a taxa de declínio temporal do uso da literatura: disciplinas aplicadas e tecnológicas possuem meia-vida curta (obsolescência rápida); humanidades e direito possuem meia-vida longa.",
-    "armadilhaBanca": "Conceito de meia-vida da literatura de Burton e Kebler.",
+    "justificativa": "Gabarito CERTO. Meia-vida indica a taxa de declínio temporal do uso da literatura: disciplinas aplicadas e tecnológicas possuem meia-vida curta (obsolescência rápida); humanidades e direito possuem meia-vida longa. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "decorrido para que metade de todas as",
+    "versao_errada": "O conceito de 'Meia-Vida da Literatura' (Half-Life), introduzido por Burton e Kebler na bibliometria, mede o tempo indevidamente decorrido para que metade de todas as citações recebidas por uma área do conhecimento tenha sido publicada, refletindo o ritmo de obsolescência daquela disciplina."
   },
   {
     "id": "m9-q-30",
@@ -570,8 +590,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "A Primeira Lei de Zipf sustenta que o número de citações recebidas por um documento varia de modo inversamente proporcional à antiguidade da edição impressa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Primeira Lei de Zipf (1949) relaciona o posto (r) e a frequência (f) de ocorrência de palavras em textos extensos (r × f = C), aplicando-se à linguística quantitativa e recuperação de informação.",
-    "armadilhaBanca": "Caricaturar Lei de Zipf como mosteiros medievais.",
+    "justificativa": "Gabarito ERRADO. A Primeira Lei de Zipf (1949) relaciona o posto (r) e a frequência (f) de ocorrência de palavras em textos extensos (r × f = C), aplicando-se à linguística quantitativa e recuperação de informação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -632,7 +652,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "A Lei de Lotka (Lei do Quadrado Inverso) estabelece que a produtividade dos autores científicos é perfeitamente homogênea e igualitária, de modo que todos os cientistas de uma área publicam rigorosamente o mesmo número de artigos ao longo de suas carreiras.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Lei de Lotka (1926) postula uma distribuição profundamente assimétrica: o número de autores que publicam n artigos é proporcional a 1/n² do número de autores que publicam um único artigo (An = A1 / n²). A grande maioria dos autores publica um único trabalho, enquanto uma minoria diminuta publica em grande quantidade.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Declarar que a produtividade de autores na Lei de Lotka é homogênea.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -672,14 +692,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "Conforme a Primeira Lei de Zipf (r × f = C), as palavras de posto mais alto (rank 1, 2, 3), que ocorrem com frequência astronômica em um texto, são comumente palavras estruturais ou gramaticais (como artigos, preposições e conjunções), possuindo baixo poder de discriminação temática para indexação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Palavras de altíssima frequência são stopwords (não discriminam assunto); palavras de baixíssima frequência (hapax legomena) são raras demais para indexação; os termos mais informativos situam-se na faixa intermediária.",
-    "armadilhaBanca": "Significado informacional dos postos de Zipf.",
+    "justificativa": "Gabarito CERTO. Palavras de altíssima frequência são stopwords (não discriminam assunto); palavras de baixíssima frequência (hapax legomena) são raras demais para indexação; os termos mais informativos situam-se na faixa intermediária. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "que ocorrem com frequência astronômica em um",
+    "versao_errada": "Conforme a Primeira Lei de Zipf (r × f = C), as palavras de posto mais alto (rank 1, 2, 3), indevidamente que ocorrem com frequência astronômica em um texto, são comumente palavras estruturais ou gramaticais (como artigos, preposições e conjunções), possuindo baixo poder de discriminação temática para indexação."
   },
   {
     "id": "m9-q-36",
@@ -696,7 +718,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "apenas 1 artigo, a quantidade estimada de",
+    "versao_errada": "Segundo a modelagem empírica de Alfred J. Lotka, se em uma base de dados científica houver 100 autores que publicaram indevidamente apenas 1 artigo, a quantidade estimada de autores que publicaram 2 artigos será de aproximadamente 25 (ou seja, 100 / 2² = 100 / 4 = 25)."
   },
   {
     "id": "m9-q-37",
@@ -713,7 +737,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "dois artigos compartilham afinidade temática se ambos",
+    "versao_errada": "A análise de acoplamento bibliográfico (bibliographic coupling), formulada por Kessler, postula que indevidamente dois artigos compartilham afinidade temática se ambos citam um oumais documentos em comum em suas respectivas listas de referências."
   },
   {
     "id": "m9-q-38",
@@ -723,8 +749,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "O método de acoplamento bibliográfico e a análise de cocitação operam de forma equivalente, determinando que dois autores sejam considerados cocitados quando suas publicações compartilham a mesma lista de referências citadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No acoplamento bibliográfico, a relação é estática (compartilham referências passadas); na cocitação, a relação é dinâmica (são citados conjuntamente por pesquisas posteriores).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir cocitação dinâmica (Small) com acoplamento estático (Kessler).",
+    "justificativa": "Gabarito ERRADO. No acoplamento bibliográfico, a relação é estática (compartilham referências passadas); na cocitação, a relação é dinâmica (são citados conjuntamente por pesquisas posteriores). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -748,7 +774,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "aparecem juntos em resumos ou títulos de",
+    "versao_errada": "A análise de coocorrência de palavras (co-word analysis) baseia-se na frequência com que dois termos indevidamente aparecem juntos em resumos ou títulos de documentos para mapear a estrutura conceitual e as frentes de pesquisa de um domínio científico."
   },
   {
     "id": "m9-q-40",
@@ -758,14 +786,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "A Lei de Bradford (Lei da Dispersão da Literatura Científica) postula que, se periódicos de uma determinada disciplina forem ordenados em ordem decrescente de produtividade de artigos sobre o tema, podem ser divididos em um núcleo (core) de periódicos dedicados ao assunto e zonas sucessivas contendo igual número de artigos, nas quais o número de periódicos nas zonas cresce em progressão geométrica: 1 : n : n² : n³...",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a formulação matemática clássica de Samuel Bradford (1934): as zonas contêm o mesmo número de artigos, mas para encontrar esses artigos exige-se um número exponencialmente maior de revistas periféricas.",
-    "armadilhaBanca": "Enunciado canônico da Lei de Bradford.",
+    "justificativa": "Gabarito CERTO. É a formulação matemática clássica de Samuel Bradford (1934): as zonas contêm o mesmo número de artigos, mas para encontrar esses artigos exige-se um número exponencialmente maior de revistas periféricas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "ser divididos em um núcleo (core) de",
+    "versao_errada": "A Lei de Bradford (Lei da Dispersão da Literatura Científica) postula que, se periódicos de uma determinada disciplina forem ordenados em ordem decrescente de produtividade de artigos sobre o tema, podem indevidamente ser divididos em um núcleo (core) de periódicos dedicados ao assunto e zonas sucessivas contendo igual número de artigos, nas quais o número de periódicos nas zonas cresce em progressão geométrica: 1 : n : n² : n³..."
   },
   {
     "id": "m9-q-41",
@@ -776,7 +806,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "O 'Ponto de Transição de Goffman' (Transition Point / T-Point) localiza-se exatamente na palavra de posto número 1 da Lei de Zipf, sendo esta a palavra que deve receber todo o peso na indexação temática do livro.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Ponto de Transição de William Goffman identifica a região intermediária da curva de frequência de palavras onde os termos deixam de ser meras palavras gramaticais de alta frequência e passam a ser palavras ricas em conteúdo semântico específico com máximo poder discriminatório.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Posicionar Ponto de Goffman no posto 1 de Zipf.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -793,8 +823,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "A Lei de Lotka veda a utilização de métodos estatísticos como o teste de Kolmogorov-Smirnov para verificar se a distribuição de autores observada em uma base empírica se ajusta à distribuição teórica.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O teste não paramétrico de aderência de Kolmogorov-Smirnov (K-S) é exatamente o teste estatístico padrão utilizado pelos bibliometristas para validar formalmente se os dados empíricos observados aderem à Lei de Lotka.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir o teste de Kolmogorov-Smirnov em estudos de Lotka.",
+    "justificativa": "Gabarito ERRADO. O teste não paramétrico de aderência de Kolmogorov-Smirnov (K-S) é exatamente o teste estatístico padrão utilizado pelos bibliometristas para validar formalmente se os dados empíricos observados aderem à Lei de Lotka. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -811,14 +841,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "A Lei de Price do elitismo postula que a metade de toda a literatura científica em um campo é produzida por uma elite composta por aproximadamente a raiz quadrada do número total de autores daquele campo (√N).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Formulação matemática clássica de Derek de Solla Price: se houver 10.000 autores em um campo, uma elite de apenas 100 autores (√10.000 = 100) responde por metade de todas as contribuições científicas.",
-    "armadilhaBanca": "Lei do Elitismo de Solla Price (raiz quadrada de N).",
+    "justificativa": "Gabarito CERTO. Formulação matemática clássica de Derek de Solla Price: se houver 10.000 autores em um campo, uma elite de apenas 100 autores (√10.000 = 100) responde por metade de todas as contribuições científicas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "em um campo é produzida por uma",
+    "versao_errada": "A Lei de Price do elitismo postula que a metade de toda a literatura científica indevidamente em um campo é produzida por uma elite composta por aproximadamente a raiz quadrada do número total de autores daquele campo (√N)."
   },
   {
     "id": "m9-q-44",
@@ -828,8 +860,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "Na dispersão bibliográfica descrita pela Lei de Bradford, a divisão do corpus em zonas de produtividade decrescente exige a demarcação prévia de centenas de zonas concêntricas homogêneas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A aplicação prática da Lei de Bradford divide o acervo de periódicos em poucas zonas concêntricas (comumente 3 zonas: núcleo de alta produtividade, zona intermediária e zona periférica de dispersão).",
-    "armadilhaBanca": "Exigir um milhão de zonas na Lei de Bradford.",
+    "justificativa": "Gabarito ERRADO. A aplicação prática da Lei de Bradford divide o acervo de periódicos em poucas zonas concêntricas (comumente 3 zonas: núcleo de alta produtividade, zona intermediária e zona periférica de dispersão). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -853,7 +885,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "da bibliometria para analisar as estruturas de",
+    "versao_errada": "A 'Webometria' (ou Cibermetria) aplica os métodos e modelos métricos quantitativos indevidamente da bibliometria para analisar as estruturas de hiperlinks, conteúdos e padrões de navegação na World Wide Web."
   },
   {
     "id": "m9-q-46",
@@ -886,7 +920,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "A Bibliometria, a Cientometria e a Informetria possuem objetos de estudo e métodos matemáticos completamente incompatíveis que proíbem o diálogo entre seus pesquisadores.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. São disciplinas irmãs métricas da Ciência da Informação com forte interseção e complementaridade: a Bibliometria foca em documentos e publicações; a Cientometria foca na ciência como atividade sociológica e institucional; e a Informetria abrange qualquer manifestação quantitativa da informação.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar incompatibilidade absoluta entre métricas da informação.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -910,7 +944,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "corpus textual (termos raros ou hapax legomena)",
+    "versao_errada": "A Segunda Lei de Zipf (Lei de Estoup-Zipf) modela o comportamento dos termos de baixa frequência em um indevidamente corpus textual (termos raros ou hapax legomena), relacionando o número de palavras que aparecem com frequência unitária em relação ao total de palavras distintas."
   },
   {
     "id": "m9-q-49",
@@ -921,7 +957,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "A Lei do Crescimento Exponencial da Ciência, formulada por Derek de Solla Price, postula que o volume da literatura científica duplica a cada vinte e quatro horas em progressão geométrica infinita até consumir toda a energia solar do universo.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Solla Price (1963) postulou que a literatura científica cresce em taxa exponencial duplicando aproximadamente a cada 10 a 15 anos, e demonstrou que essa curva exponencial invariavelmente sofre desaceleração transformando-se em uma curva logística sigmoide (em forma de S) devido a limitações reais de recursos e cientistas.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar a Lei de Price com duplicação em 24h e energia cósmica.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -938,14 +974,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos fundamentos da Bibliometria, das três leis empíricas clássicas (Bradford, Lotka e Zipf) e da Lei de Price sobre o crescimento da literatura científica, julgue o item a seguir.",
     "item": "A principal aplicação gerencial da Lei de Bradford no desenvolvimento de coleções de bibliotecas é a identificação da 'zona nuclear' (core journals) de periódicos especializados, permitindo otimizar o orçamento ao priorizar a assinatura das revistas que concentram a maioria dos artigos relevantes da área.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Permite selecionar com eficiência o núcleo essencial da coleção e recorrer a empréstimo interbibliotecário ou comutação para as zonas periféricas de baixa densidade.",
-    "armadilhaBanca": "Aplicação da Lei de Bradford na gestão de coleções.",
+    "justificativa": "Gabarito CERTO. Permite selecionar com eficiência o núcleo essencial da coleção e recorrer a empréstimo interbibliotecário ou comutação para as zonas periféricas de baixa densidade. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "nuclear' (core journals) de periódicos especializados, permitindo",
+    "versao_errada": "A principal aplicação gerencial da Lei de Bradford no desenvolvimento de coleções de bibliotecas é a identificação da 'zona indevidamente nuclear' (core journals) de periódicos especializados, permitindo otimizar o orçamento ao priorizar a assinatura das revistas que concentram a maioria dos artigos relevantes da área."
   },
   {
     "id": "m9-q-51",
@@ -955,8 +993,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "A atribuição e a validação do índice h de um pesquisador subordinam-se à homologação discricionária de comitês editoriais de periódicos da área temática.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O índice h de Jorge Hirsch é uma métrica algorítmica objetiva calculada pelo cruzamento do número de artigos publicados com o quantitativo de citações obtidas em bases indexadas.",
-    "armadilhaBanca": "Condicionar Índice h a aprovação papal.",
+    "justificativa": "Gabarito ERRADO. O índice h de Jorge Hirsch é uma métrica algorítmica objetiva calculada pelo cruzamento do número de artigos publicados com o quantitativo de citações obtidas em bases indexadas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -973,8 +1011,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "Uma menção a um artigo científico feita em um tweet de humor na internet possui o mesmo valor epistemológico de validação teórica de um teste de laboratório reproduzido por pares.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Altmetria mede atenção e disseminação social da informação, mas não se confunde com validação metodológica nem substitui o rigor da avaliação por pares e a reprodutibilidade científica.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir repercussão altmétrica em redes sociais com validação metodológica.",
+    "justificativa": "Gabarito ERRADO. Altmetria mede atenção e disseminação social da informação, mas não se confunde com validação metodológica nem substitui o rigor da avaliação por pares e a reprodutibilidade científica. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -998,7 +1036,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "artigos de um periódico são citados no",
+    "versao_errada": "O Índice de Imediatez (Immediacy Index) no JCR mede a rapidez com que os indevidamente artigos de um periódico são citados no mesmo ano em que foram publicados, avaliando publicações em áreas de rápida evolução tecnológica."
   },
   {
     "id": "m9-q-54",
@@ -1015,7 +1055,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "publicação de quatro anos (em vez de",
+    "versao_errada": "O indicador CiteScore, desenvolvido pela Elsevier para a base Scopus, adota uma janela de citação e indevidamente publicação de quatro anos (em vez de dois anos do JCR tradicional), calculando a média de citações por documento publicado no quadriênio."
   },
   {
     "id": "m9-q-55",
@@ -1025,8 +1067,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "O escore métrico de atenção (Altmetric Attention Score) destina-se a quantificar o número acumulado de citações formais recebidas por um artigo em teses acadêmicas de universidades credenciadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Altmetric Attention Score afere a repercussão e as menções digitais de uma publicação em canais sociais na web (redes sociais, notícias, Wikipédia, documentos de políticas públicas e blogs).",
-    "armadilhaBanca": "Caricaturar Altmetric Attention Score como física nuclear.",
+    "justificativa": "Gabarito ERRADO. O Altmetric Attention Score afere a repercussão e as menções digitais de uma publicação em canais sociais na web (redes sociais, notícias, Wikipédia, documentos de políticas públicas e blogs). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1050,7 +1092,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "mede o impacto de citação contextual ao",
+    "versao_errada": "O indicador SNIP (Source Normalized Impact per Paper), desenvolvido pelo professor Henk Moed para a base Scopus, indevidamente mede o impacto de citação contextual ao normalizar as citações pela frequência com que os artigos são habitualmente citados naquele campo temático específico."
   },
   {
     "id": "m9-q-57",
@@ -1067,7 +1111,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "é um sistema de estratificação da produção",
+    "versao_errada": "O Qualis Periódicos, mantido pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes) no Brasil, indevidamente é um sistema de estratificação da produção científica dos programas de pós-graduação nacionais, categorizando revistas em estratos indicativos de qualidade (A1 a C)."
   },
   {
     "id": "m9-q-58",
@@ -1084,7 +1130,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "de citação acadêmica, rastreando menções em redes",
+    "versao_errada": "A Altmetria (métricas alternativas) mensura o impacto e a circulação social da produção científica em ambientes digitais fora dos canais tradicionais indevidamente de citação acadêmica, rastreando menções em redes sociais, notícias de portais jornalísticos, blogs científicos, gerenciadores de referências (Mendeley) e menções em documentos de políticas públicas (policy documents)."
   },
   {
     "id": "m9-q-59",
@@ -1112,8 +1160,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "O índice g proposto por Leo Egghe foi formulado com o propósito de atenuar o impacto de artigos com alto volume de citações, atribuindo teto uniforme ao desempenho do pesquisador.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O índice g foi criado exatamente para valorizar os artigos de alto impacto e citação expressiva que não alteram o índice h, considerando o maior número g de artigos que somam cumulativamente g² citações.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que o Índice g pune artigos altamente citados em vez de valorizá-los.",
+    "justificativa": "Gabarito ERRADO. O índice g foi criado exatamente para valorizar os artigos de alto impacto e citação expressiva que não alteram o índice h, considerando o maior número g de artigos que somam cumulativamente g² citações. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1130,14 +1178,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "O Fator de Impacto (Journal Impact Factor - JIF), calculado pelo Journal Citation Reports (JCR) da Clarivate Analytics, mede a frequência média com que os artigos publicados em um periódico científico nos dois anos anteriores foram citados no ano de referência do cálculo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Fórmula canônica do Fator de Impacto (Eugene Garfield): FI de 2024 = (Citações em 2024 a itens de 2022 e 2023) / (Total de itens citáveis publicados em 2022 e 2023).",
-    "armadilhaBanca": "Definição oficial do Fator de Impacto JCR.",
+    "justificativa": "Gabarito CERTO. Fórmula canônica do Fator de Impacto (Eugene Garfield): FI de 2024 = (Citações em 2024 a itens de 2022 e 2023) / (Total de itens citáveis publicados em 2022 e 2023). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "mede a frequência média com que os",
+    "versao_errada": "O Fator de Impacto (Journal Impact Factor - JIF), calculado pelo Journal Citation Reports (JCR) da Clarivate Analytics, indevidamente mede a frequência média com que os artigos publicados em um periódico científico nos dois anos anteriores foram citados no ano de referência do cálculo."
   },
   {
     "id": "m9-q-62",
@@ -1165,8 +1215,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "Na altmetria, a contagem de leitores que salvaram um artigo no Mendeley é considerada uma métrica puramente financeira que mede lucros bancários da editora.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O número de leitores no Mendeley (Mendeley readers) é um indicador altmétrico de leitura acadêmica e intenção de uso futuro, correlacionando-se positivamente com futuras citações formais do artigo.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir contagem de leitores do Mendeley com lucro financeiro.",
+    "justificativa": "Gabarito ERRADO. O número de leitores no Mendeley (Mendeley readers) é um indicador altmétrico de leitura acadêmica e intenção de uso futuro, correlacionando-se positivamente com futuras citações formais do artigo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1190,7 +1240,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "colégios invisíveis, padrões de colaboração internacional e",
+    "versao_errada": "A análise de redes de coautoria em cientometria permite mapear indevidamente colégios invisíveis, padrões de colaboração internacional e a centralidade de pesquisadores proeminentes em determinada área do conhecimento."
   },
   {
     "id": "m9-q-65",
@@ -1200,14 +1252,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "O Manifesto de Leiden para Métricas de Pesquisa estabelece dez princípios orientadores para a avaliação responsável de pesquisas, preconizando que a avaliação quantitativa deve apoiar — e jamais substituir — a avaliação qualitativa especializada de especialistas por pares.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Primeiro princípio do Manifesto de Leiden (Hicks et al., Nature, 2015): métricas devem ser ferramenta de auxílio, preservando o protagonismo do julgamento qualitativo fundamentado.",
-    "armadilhaBanca": "Primeiro princípio do Manifesto de Leiden.",
+    "justificativa": "Gabarito CERTO. Primeiro princípio do Manifesto de Leiden (Hicks et al., Nature, 2015): métricas devem ser ferramenta de auxílio, preservando o protagonismo do julgamento qualitativo fundamentado. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "de pesquisas, preconizando que a avaliação quantitativa",
+    "versao_errada": "O Manifesto de Leiden para Métricas de Pesquisa estabelece dez princípios orientadores para a avaliação responsável indevidamente de pesquisas, preconizando que a avaliação quantitativa deve apoiar — e jamais substituir — a avaliação qualitativa especializada de especialistas por pares."
   },
   {
     "id": "m9-q-66",
@@ -1218,7 +1272,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "As métricas bibliométricas são absolutamente neutras e estão imunes à Lei de Goodhart, que diz que quando uma medida se torna uma meta de desempenho, ela deixa de ser uma boa medida.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A bibliometria é profundamente afetada pela Lei de Goodhart: quando o Fator de Impacto ou o número de artigos viram metas compulsórias de avaliação institucional ('publique ou pereça' / publish or perish), proliferam-se fraudes, fatiamento de artigos (salami slicing) e cartéis de citação.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Negar a incidência da Lei de Goodhart na avaliação científica.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1265,7 +1319,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "produtos da pesquisa (como softwares de pesquisa",
+    "versao_errada": "A DORA (San Francisco Declaration on Research Assessment) preconiza que agências financiadoras e universidades valorizem a diversidade de indevidamente produtos da pesquisa (como softwares de pesquisa, bancos de dados abertos, patentes e relatórios técnicos de impacto político) e não apenas artigos em periódicos comerciais."
   },
   {
     "id": "m9-q-69",
@@ -1275,8 +1331,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "Um pesquisador com 10 artigos publicados que receberam exatamente 1 citação cada possui um índice h de Hirsch igual a 10.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O pesquisador possui índice h igual a 1 (um). Pela definição de Hirsch, o índice h é o maior número 'h' tal que 'h' artigos do autor tenham pelo menos 'h' citações. Como nenhum artigo atingiu 2 citações, h só pode ser 1.",
-    "armadilhaBanca": "INVERSAO_METRICA: Erro no cálculo conceitual do Índice h de Hirsch.",
+    "justificativa": "Gabarito ERRADO. O pesquisador possui índice h igual a 1 (um). Pela definição de Hirsch, o índice h é o maior número 'h' tal que 'h' artigos do autor tenham pelo menos 'h' citações. Como nenhum artigo atingiu 2 citações, h só pode ser 1. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1293,8 +1349,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "O indicador SCImago Journal Rank (SJR) calcula o impacto de periódicos científicos tratando de forma equitativa as citações recebidas, sem diferenciar o prestígio das revistas que originaram a citação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O algoritmo do SJR fundamenta-se no conceito de transferência de prestígio (PageRank): uma citação oriunda de periódico de alto impacto possui peso expressivamente superior à citação de veículo periférico.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que o SJR não pondera o prestígio das revistas citantes.",
+    "justificativa": "Gabarito ERRADO. O algoritmo do SJR fundamenta-se no conceito de transferência de prestígio (PageRank): uma citação oriunda de periódico de alto impacto possui peso expressivamente superior à citação de veículo periférico. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1311,14 +1367,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "O Índice h de Hirsch (h-index) combina de forma única uma medida de produtividade (número de publicações) e uma medida de impacto (número de citações recebidas) de um pesquisador, sendo imune a distorções causadas por um único artigo 'supercitado' isolado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Vantagem conceitual de Hirsch: ter um artigo com 10.000 citações não eleva o índice h se os demais artigos do autor tiverem poucas citações; exige produção consistente de impacto.",
-    "armadilhaBanca": "Propriedades do Índice h de Hirsch.",
+    "justificativa": "Gabarito CERTO. Vantagem conceitual de Hirsch: ter um artigo com 10.000 citações não eleva o índice h se os demais artigos do autor tiverem poucas citações; exige produção consistente de impacto. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "e uma medida de impacto (número de",
+    "versao_errada": "O Índice h de Hirsch (h-index) combina de forma única uma medida de produtividade (número de publicações) indevidamente e uma medida de impacto (número de citações recebidas) de um pesquisador, sendo imune a distorções causadas por um único artigo 'supercitado' isolado."
   },
   {
     "id": "m9-q-72",
@@ -1328,8 +1386,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos indicadores de impacto e citação (Fator de Impacto JCR, CiteScore, Índice h), às métricas alternativas (Altmetria) e às diretrizes internacionais de avaliação da pesquisa, julgue o item a seguir.",
     "item": "A autocitação de um periódico (journal self-citation) em níveis excessivos e artificiais é considerada a prática mais nobre e estimulada pelo comitê editorial da Clarivate para inflar o Fator de Impacto no JCR.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Autocitação editorial excessiva e conluios de citação (cartéis de revistas) são práticas predatórias e antiéticas de manipulação de métricas. O JCR suspende e pune (suprime) periódicos que praticam autocitação anômala.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Considerar manipulação de autocitação prática nobre no JCR.",
+    "justificativa": "Gabarito ERRADO. Autocitação editorial excessiva e conluios de citação (cartéis de revistas) são práticas predatórias e antiéticas de manipulação de métricas. O JCR suspende e pune (suprime) periódicos que praticam autocitação anômala. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1353,7 +1411,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "de universidades mundiais utilizando indicadores bibliométricos bibliográficos",
+    "versao_errada": "O indicador CWTS Leiden Ranking avalia o desempenho científico indevidamente de universidades mundiais utilizando indicadores bibliométricos bibliográficos normalizados por área e impacto de colaboração institucional."
   },
   {
     "id": "m9-q-74",
@@ -1370,7 +1430,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "já consagrados e instituições prestigiadas recebem desproporcionalmente",
+    "versao_errada": "O 'efeito Mateus' na ciência (teorizado pelo sociólogo Robert K. Merton) descreve o fenômeno pelo qual cientistas indevidamente já consagrados e instituições prestigiadas recebem desproporcionalmente mais crédito e citações por suas publicações do que pesquisadores iniciantes desconhecidos que apresentem resultados equivalentes."
   },
   {
     "id": "m9-q-75",
@@ -1381,7 +1443,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "O Fator de Impacto JCR de periódicos é uma métrica universal idêntica em todas as ciências, podendo-se comparar diretamente o fator de impacto numérico bruto de uma revista de Bioquímica com o de uma revista de História Medieval sem necessidade de normalização por área.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Padrões de citação variam drasticamente entre disciplinas: áreas biomédicas geram muitas citações rápidas (altos fatores de impacto), enquanto humanidades citam livros com meia-vida longa (baixos fatores numéricos). A comparação direta sem normalização por área é metodologicamente inválida.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Comparar fatores de impacto brutos entre áreas díspares sem normalização.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1398,14 +1460,16 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Recomendação da UNESCO sobre Ciência Aberta, aos princípios éticos de integridade científica e às boas práticas de pesquisa, julgue o item a seguir.",
     "item": "A 'retratação' (retraction) é o ato formal pelo qual um periódico científico retira a validade de um artigo previamente publicado em razão de comprovação de fraude, plágio, fabricação ou erros metodológicos graves involuntários que invalidem suas conclusões.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Mecanismo formal de autocorreção da ciência: o artigo permanece no repositório com uma marca d'água ostensiva de RETRATADO e com a nota de retratação explicando os motivos da anulação.",
-    "armadilhaBanca": "Conceito e função da retratação de artigos.",
+    "justificativa": "Gabarito CERTO. Mecanismo formal de autocorreção da ciência: o artigo permanece no repositório com uma marca d'água ostensiva de RETRATADO e com a nota de retratação explicando os motivos da anulação. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "de um artigo previamente publicado em razão",
+    "versao_errada": "A 'retratação' (retraction) é o ato formal pelo qual um periódico científico retira a validade indevidamente de um artigo previamente publicado em razão de comprovação de fraude, plágio, fabricação ou erros metodológicos graves involuntários que invalidem suas conclusões."
   },
   {
     "id": "m9-q-77",
@@ -1415,8 +1479,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Recomendação da UNESCO sobre Ciência Aberta, aos princípios éticos de integridade científica e às boas práticas de pesquisa, julgue o item a seguir.",
     "item": "O 'autoplágio' (ou publicação redundante) é perfeitamente legítimo e ético, podendo o pesquisador submeter o mesmo artigo idêntico a dez periódicos diferentes simultaneamente sem informar aos editores.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Autoplágio e submissão duplicada violam as boas práticas editoriais e a integridade acadêmica: infla artificialmente o currículo do autor, induz revisores a erro e distorce meta-análises científicas.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Defender legitimidade do autoplágio e publicação redundante.",
+    "justificativa": "Gabarito ERRADO. Autoplágio e submissão duplicada violam as boas práticas editoriais e a integridade acadêmica: infla artificialmente o currículo do autor, induz revisores a erro e distorce meta-análises científicas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1445,7 +1509,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289173"
-    }
+    },
+    "gatilho": "vários tipos de documentos e d e-",
+    "versao_errada": "A base de dados gratuita Google Acadêmico permite localizar indevidamente vários tipos de documentos e d e- terminar a frequência de citação desses em outras publicações."
   },
   {
     "id": "m9-q-79",
@@ -1462,7 +1528,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "que se encontram em domínio público ou",
+    "versao_errada": "Os Recursos Educacionais Abertos (REA — Open Educational Resources) são materiais de ensino, aprendizagem e pesquisa em qualquer suporte indevidamente que se encontram em domínio público ou que foram disponibilizados sob uma licença aberta que concede a terceiros permissão gratuita para uso, adaptação e redistribuição."
   },
   {
     "id": "m9-q-80",
@@ -1541,8 +1609,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Recomendação da UNESCO sobre Ciência Aberta, aos princípios éticos de integridade científica e às boas práticas de pesquisa, julgue o item a seguir.",
     "item": "A atribuição de autoria honorária ou de cortesia ao titular da unidade administrativa configura prática aceita na redação científica caso haja autorização prévia dos pesquisadores que executaram os ensaios de campo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A autoria de cortesia ou honorária é conduta antiética rechaçada pelas diretrizes internacionais (COPE e ICMJE), exigindo-se contribuição intelectual substancial na concepção, coleta, análise ou redação do estudo.",
-    "armadilhaBanca": "Permitir autoria de cortesia a chefes que não trabalharam na pesquisa.",
+    "justificativa": "Gabarito ERRADO. A autoria de cortesia ou honorária é conduta antiética rechaçada pelas diretrizes internacionais (COPE e ICMJE), exigindo-se contribuição intelectual substancial na concepção, coleta, análise ou redação do estudo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1560,7 +1628,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "O Comitê de Ética em Publicações (COPE — Committee on Publication Ethics) recomenda que periódicos científicos queimem em praça pública os autores que cometerem erros de digitação em artigos.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O COPE estabelece diretrizes éticas e fluxogramas técnicos de boas práticas para editores lidarem com má conduta científica, prevendo investigações institucionais, erratas para correções pontuais e retratações formais devidamente fundamentadas.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar orientações do COPE como punição medieval.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1589,7 +1657,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289215"
-    }
+    },
+    "gatilho": "dos aspectos quantitativos da produção, disseminação e",
+    "versao_errada": "Bibliometria é o estudo indevidamente dos aspectos quantitativos da produção, disseminação e uso da informação registrada."
   },
   {
     "id": "m9-q-86",
@@ -1611,7 +1681,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-346485"
-    }
+    },
+    "gatilho": "pode ser usada como instrumento de gestão",
+    "versao_errada": "A bibliometria indevidamente pode ser usada como instrumento de gestão da informação."
   },
   {
     "id": "m9-q-87",
@@ -1621,8 +1693,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da editoração de periódicos, julgue os itens subsecutivos.",
     "item": "O CrossRef utiliza tecnologias colaborativas para permitir acesso aos conteúdos por meio de referências cruzadas por links.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TCDF/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TCDF/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"por meio de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -1650,7 +1722,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "processos, ou em alterar ou omitir dados",
+    "versao_errada": "A 'falsificação de dados' distingue-se da fabricação porque consiste em manipular materiais de pesquisa, equipamentos ou indevidamente processos, ou em alterar ou omitir dados e resultados de modo que a pesquisa não seja representada com exatidão no registro científico."
   },
   {
     "id": "m9-q-89",
@@ -1667,7 +1741,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "resultados de um único estudo amplo em",
+    "versao_errada": "A prática de 'salami slicing' (ou publicação fatiada) consiste na fragmentação artificial dos indevidamente resultados de um único estudo amplo em múltiplos artigos menores para inflar quantitativamente o número de publicações do autor."
   },
   {
     "id": "m9-q-90",
@@ -1700,8 +1776,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à bibliometria, julgue os itens seguintes.",
     "item": "Na obra Traité de documentation: le livre sur le livre, Paul Otlet define a bibliometria como a área do conhecimento que se ocupa da medida ou da quantidade aplicada a livros.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"define a bibliometria como a área do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "real-confirmada",
@@ -1722,8 +1798,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Recomendação da UNESCO sobre Ciência Aberta, aos princípios éticos de integridade científica e às boas práticas de pesquisa, julgue o item a seguir.",
     "item": "A conduta classificada como fabricação de dados consiste em ajustar e arredondar parâmetros estatísticos reais de experimentos realizados para viabilizar sua publicação em revistas indexadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Fabricação de dados consiste na criação ou invenção deliberada de dados e resultados fictícios; o arredondamento ou alteração de dados reais configura falsificação.",
-    "armadilhaBanca": "Considerar fabricação de dados conduta exemplar.",
+    "justificativa": "Gabarito ERRADO. Fabricação de dados consiste na criação ou invenção deliberada de dados e resultados fictícios; o arredondamento ou alteração de dados reais configura falsificação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1752,7 +1828,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289223"
-    }
+    },
+    "gatilho": "avaliação dos aspectos estatísticos da linguagem, das",
+    "versao_errada": "A bibliometria é útil para a indevidamente avaliação dos aspectos estatísticos da linguagem, das pa lavras e das frases."
   },
   {
     "id": "m9-q-94",
@@ -1769,7 +1847,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "a elaboração do artigo científico é deliberadamente",
+    "versao_errada": "A 'autoria fantasma' (ghost authorship) ocorre quando um indivíduo que prestou contribuição substancial para indevidamente a elaboração do artigo científico é deliberadamente omitido da lista formal de autores, frequentemente para ocultar conflitos de interesses comerciais."
   },
   {
     "id": "m9-q-95",
@@ -1779,8 +1859,8 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Recomendação da UNESCO sobre Ciência Aberta, aos princípios éticos de integridade científica e às boas práticas de pesquisa, julgue o item a seguir.",
     "item": "Na Recomendação sobre Ciência Aberta da UNESCO, a arquitetura de pilares institucionais contempla a retenção de dados proprietários brutos e o isolamento dos laboratórios universitários em relação a atores sociais e cidadãos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Recomendação da UNESCO estrutura-se na abertura do conhecimento científico, infraestruturas abertas, engajamento com atores sociais (ciência cidadã) e diálogo com outros sistemas de conhecimento.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter todos os pilares da Ciência Aberta da UNESCO.",
+    "justificativa": "Gabarito ERRADO. A Recomendação da UNESCO estrutura-se na abertura do conhecimento científico, infraestruturas abertas, engajamento com atores sociais (ciência cidadã) e diálogo com outros sistemas de conhecimento. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1827,7 +1907,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "visam tornar o conhecimento científico multilíngue abertamente",
+    "versao_errada": "A Recomendação da UNESCO sobre Ciência Aberta (2021) define a Ciência Aberta como um construto inclusivo que combina vários movimentos e práticas que indevidamente visam tornar o conhecimento científico multilíngue abertamente disponível, acessível e reutilizável para todos, aumentando as colaborações científicas e o compartilhamento de informações em benefício da ciência e da sociedade."
   },
   {
     "id": "m9-q-98",
@@ -1838,7 +1920,7 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "item": "A declaração de conflitos de interesses em pesquisas científicas e relatórios parlamentares é dispensável, devendo o autor omitir que recebeu financiamento milionário de uma empresa farmacêutica cuja vacina está avaliando.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A declaração explícita de conflitos de interesses financeiros, políticos ou institucionais é exigência ética mandatória em publicações científicas e em pareceres do Parlamento para assegurar a transparência e a confiabilidade dos resultados.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar declaração de conflitos de interesses.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1885,7 +1967,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
-    }
+    },
+    "gatilho": "em etapas do processo de pesquisa científica",
+    "versao_errada": "A 'Ciência Cidadã' (Citizen Science) consiste na participação ativa e colaborativa do público não especialista indevidamente em etapas do processo de pesquisa científica, como na coleta massiva de dados ambientais, classificação de imagens astronômicas oumonitoramento de fauna."
   }
 ];
 

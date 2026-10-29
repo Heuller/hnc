@@ -14,7 +14,7 @@ export const CronometroDiscursiva: React.FC<CronometroDiscursivaProps> = ({
   const tempoTotalSegundos = tempoSugeridoMinutos * 60;
   const [segundosRestantes, setSegundosRestantes] = useState(tempoTotalSegundos);
   const [isAtivo, setIsAtivo] = useState(false);
-  const intervalRef = useRef<any>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | undefined>(undefined);
 
   // Reinicia o cronômetro se o tempo sugerido mudar (ex.: alternando entre questão e peça)
   const [prevTempo, setPrevTempo] = useState(tempoSugeridoMinutos);

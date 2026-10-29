@@ -44,10 +44,11 @@ export const CALLOUT_CONFIG: Record<CalloutType, { titulo: string; borda: string
   },
   caution: {
     titulo: 'Casca de banana',
-    borda: 'border-l-rose-500 border-rose-200/80 dark:border-rose-800/60',
-    fundo: 'bg-rose-50/80 dark:bg-rose-950/40',
-    texto: 'text-rose-950 dark:text-rose-200',
-    iconeCor: 'text-rose-600 dark:text-rose-400',
+    // Token semântico alerta-cebraspe do Design System (#9F1239 claro / #FB7185 escuro)
+    borda: 'border-l-alerta-cebraspe border-alerta-cebraspe/30',
+    fundo: 'bg-alerta-soft',
+    texto: 'text-ink',
+    iconeCor: 'text-alerta-cebraspe',
   },
 };
 

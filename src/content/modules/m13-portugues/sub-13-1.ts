@@ -50,7 +50,7 @@ export const submodulo131: ModuloFilho = {
   ],
   alertasCebraspe: [
     'O Cebraspe diferencia com precisão milimétrica "compreensão" (o que está estritamente dito no texto) e "interpretação" (o que se infere ou depreende com base nas premissas textuais). Qualquer assertiva que traga conhecimento enciclopédico externo ao texto incorre em EXTRAPOLAÇÃO e deve ser julgada ERRADA.',
-    'A banca adora inverter os papéis lógicos de causa e consequência. Em períodos com conectivos como "já que", "visto que" ou "porquanto", o Cebraspe afirma no item que a oração subordinada causal é a consequência do fato principal.',
+    'A técnica de distrator recorrente consiste em inverter os papéis lógicos de causa e consequência. Em períodos com conectivos como "já que", "visto que" ou "porquanto", o Cebraspe afirma no item que a oração subordinada causal é a consequência do fato principal.',
     'O pronome relativo "cujo" (e flexões) SEMPRE estabelece relação de posse entre dois substantivos e JAMAIS admite artigo posposto ("cujo o" é erro grave). Além disso, ele concorda em gênero e número com o termo subsequente (a coisa possuída), e não com o antecedente (o possuidor).',
     'Concessão versus Adversidade: A conjunção concessiva ("embora", "conquanto", "ainda que") subordina um fato que poderia impedir a oração principal, mas não impede. O Cebraspe testa se o candidato confunde a oração mais forte do argumento com a concessiva atenuada.',
   ],
@@ -201,7 +201,7 @@ A distinção entre concessão e adversidade é vital na análise textual de par
 
 #### B. A Sintaxe do Conectivo "Pois": Explicativo vs Conclusivo
 
-O Cebraspe adora explorar a dupla personalidade do vocábulo **pois**:
+A técnica de distrator recorrente consiste em explorar a dupla personalidade do vocábulo **pois**:
 
 1. **Pois Causal / Explicativo:** Surge no início da oração, antes do verbo. Equivale a *porque*, *já que*, *visto que*:
    - *"O quórum não foi alcançado, **pois** chovia torrencialmente na capital."*

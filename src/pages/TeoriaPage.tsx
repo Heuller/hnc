@@ -42,7 +42,7 @@ import { ExLibrisCamaraIllustration } from '../components/common/Illustrations';
 import { CartaoAntesDeLer } from '../components/content-blocks/CartaoAntesDeLer';
 
 export const TeoriaPage: React.FC = () => {
-  const { selectedSubmodule, setSelectedSubmodule, navigateToSimulado } =
+  const { selectedSubmodule, setSelectedSubmodule, navigateToSimulado, setContextoTeoria } =
     useNavigationStore();
   const {
     modulosLidosIds,
@@ -91,6 +91,14 @@ export const TeoriaPage: React.FC = () => {
   useEffect(() => {
     setUltimoModuloAcessado(currentSub.numero);
   }, [currentSub.numero, setUltimoModuloAcessado]);
+
+  // Breadcrumb do cabeçalho: Teoria > M1 Fundamentos > 1.1 Biblioteconomia
+  const rotuloModulo = `${currentMacro.codigo} ${currentMacro.titulo_curto || currentMacro.titulo}`;
+  const rotuloSubmodulo = `${currentSub.numero} ${currentSub.titulo_curto || currentSub.titulo}`;
+  useEffect(() => {
+    setContextoTeoria({ modulo: rotuloModulo, submodulo: rotuloSubmodulo });
+  }, [rotuloModulo, rotuloSubmodulo, setContextoTeoria]);
+  useEffect(() => () => setContextoTeoria(undefined), [setContextoTeoria]);
 
   // Monitoramento do progresso de rolagem
   useEffect(() => {
@@ -246,6 +254,24 @@ export const TeoriaPage: React.FC = () => {
           style={{
             width: `${scrollProgress}%`,
             backgroundColor: moduleTheme.solidVar,
+          }}
+        />
+      </div>
+
+      {/* Indicador sutil de seções lidas/total: linha fina âmbar no topo */}
+      <div
+        role="progressbar"
+        aria-label="Seções lidas do submódulo"
+        aria-valuemin={0}
+        aria-valuemax={learningState.secoesTotalCount || 0}
+        aria-valuenow={learningState.secoesLidasCount || 0}
+        aria-valuetext={`${learningState.secoesLidasCount || 0} de ${learningState.secoesTotalCount || 0} seções lidas`}
+        className="fixed top-0 inset-x-0 h-[3px] z-[60] pointer-events-none print:hidden"
+      >
+        <div
+          className="h-full bg-accent transition-[width] duration-300 ease-out motion-reduce:transition-none"
+          style={{
+            width: `${Math.round(((learningState.secoesLidasCount || 0) / (learningState.secoesTotalCount || 1)) * 100)}%`,
           }}
         />
       </div>

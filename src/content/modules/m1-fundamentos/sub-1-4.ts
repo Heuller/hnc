@@ -206,7 +206,7 @@ A **Competência em Informação (*Information Literacy*)** e a **Mediação da 
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
 - **O Mito da Neutralidade do Bibliotecário:** O Cebraspe propõe que *"na mediação da informação, o bibliotecário deve atuar de forma absolutamente neutra, funcionando como mero repassador mecânico sem interferir no processo"*. **Gabarito: ERRADO.** A teoria da mediação (Almeida Júnior) postula que a neutralidade é uma ilusão positivista; toda mediação é uma interferência ativa.
-- **Estágio de Maior Incerteza em Kuhlthau:** A banca costuma inverter o sentimento de frustração, dizendo que *"a formulação é o momento de maior incerteza e pessimismo"*. **Gabarito: ERRADO.** O ponto de maior dúvida, confusão e frustração é a **Exploração**; na **Formulação**, surge a clareza e o otimismo.
+- **Estágio de Maior Incerteza em Kuhlthau:** Técnica de distrator recorrente: inverter o sentimento de frustração, dizendo que *"a formulação é o momento de maior incerteza e pessimismo"*. **Gabarito: ERRADO.** O ponto de maior dúvida, confusão e frustração é a **Exploração**; na **Formulação**, surge a clareza e o otimismo.
 - **Redução à Alfabetização Digital:** Afirmar que a competência em informação esgota-se na capacidade técnica de operar softwares e navegadores web. **Gabarito: ERRADO.** Trata-se de competência crítica de avaliação e uso ético.
 
 ---

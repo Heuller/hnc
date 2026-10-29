@@ -201,7 +201,13 @@ Os **Agentes Biológicos de Degradação** e o **Controle Integrado de Pragas (C
 - **SPINELLI JÚNIOR, Jayme.** *A conservação de acervos bibliográficos e documentais*. Rio de Janeiro: Fundação Biblioteca Nacional, 1995.
 - **BECK, Ingrid.** *Manual de conservação de documentos*. Rio de Janeiro: Arquivo Nacional, 1995.
 - **PINNIGER, David.** *Pest management in museums, archives and historic houses*. London: Archetype Publications, 2001. (Referência mundial sobre CIP em instituições de memória).
-- **OGDEN, Sherelyn (Org.).** *Manual de preservação de documentos*. Rio de Janeiro: Projeto Conservação Preventiva em Bibliotecas e Arquivos (CPBA); Arquivo Nacional, 2001.`,
+- **OGDEN, Sherelyn (Org.).** *Manual de preservação de documentos*. Rio de Janeiro: Projeto Conservação Preventiva em Bibliotecas e Arquivos (CPBA); Arquivo Nacional, 2001.
+
+### Pausa de Recuperação Ativa: Pacotes SIP, AIP e DIP no OAIS
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Qual é o papel de cada pacote de informação no modelo de referência OAIS (ISO 14721)? SIP (recebido do produtor), AIP (armazenado pelo repositório com metadados de preservação) e DIP (entregue ao usuário/consumidor).
+`,
   checkpoints: [
     {
       id: 'cp-7-2-1',

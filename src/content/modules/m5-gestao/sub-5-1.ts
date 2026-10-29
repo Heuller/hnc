@@ -44,7 +44,7 @@ export const submodulo51: ModuloFilho = {
   tempoEstimadoMinutos: 20,
   autoresChave: ['Maria Christina Barbosa de Almeida', 'F. W. Lancaster', 'Alba Costa Maciel', 'Amélia Silveira', 'Peter Drucker', 'IFLA (1999)', 'CF/88'],
   alertasCebraspe: [
-    'O Cebraspe adora afirmar que o planejamento estratégico é de competência exclusiva da alta administração da instituição mantenedora e que o bibliotecário cuida apenas do nível operacional: ERRADO! O bibliotecário lidera o planejamento da unidade em todos os níveis.',
+    'A técnica de distrator recorrente consiste em afirmar que o planejamento estratégico é de competência exclusiva da alta administração da instituição mantenedora e que o bibliotecário cuida apenas do nível operacional: ERRADO! O bibliotecário lidera o planejamento da unidade em todos os níveis.',
     'Cuidado com a confusão entre eficiência (relação insumo/custo e produtividade) e eficácia (grau de atendimento aos objetivos e satisfação do usuário). Lancaster pontua que um serviço pode ser altamente eficiente gastando pouco, mas completamente ineficaz por não satisfazer os usuários.',
     'A missão da biblioteca não decorre apenas de seus produtos imediatos; ela expressa a razão de ser social e o alinhamento com a missão da instituição maior à qual está vinculada.',
     'O planejamento não é um evento episódico ou estático realizado apenas em momentos de crise, mas um processo dinâmico, contínuo, participativo e proativo.',
@@ -104,7 +104,7 @@ A Análise SWOT avalia o posicionamento estratégico através de duas variáveis
 | **Ambiente Externo**<br>*(Incontrolável pela biblioteca; exige adaptação)* | **OPORTUNIDADES (*Opportunities*):**<br>• Avanço de verbas de emendas para inteligência artificial;<br>• Cooperação com a rede RVBI e Portal LexML;<br>• Crescente demanda social por transparência pública. | **AMEAÇAS (*Threats*):**<br>• Contingenciamento ou corte de orçamento federal;<br>• Crise fiscal que afeta a assinatura de bases internacionais;<br>• Mudanças bruscas na legislação de direitos autorais. |
 
 > [!CAUTION]
-> **Casca de Banana Cebraspe nº 1:** A banca adora afirmar que *"o corte orçamentário decorrente de diretriz governamental constitui uma fraqueza interna da biblioteca"*. Isso é **ERRADO**! O corte orçamentário externo é uma **AMEAÇA** (ambiente externo incontrolável). Fraqueza é uma deficiência interna da própria unidade (como obsolescência de computadores ou desorganização de estantes).
+> **Casca de Banana Cebraspe nº 1:** Assertiva típica de distrator afirma que *"o corte orçamentário decorrente de diretriz governamental constitui uma fraqueza interna da biblioteca"*. Isso é **ERRADO**! O corte orçamentário externo é uma **AMEAÇA** (ambiente externo incontrolável). Fraqueza é uma deficiência interna da própria unidade (como obsolescência de computadores ou desorganização de estantes).
 
 #### B. O Balanced Scorecard (BSC) de Kaplan & Norton Adaptado a Bibliotecas
 O BSC traduz a estratégia em objetivos operacionais equilibrados sob quatro perspectivas interligadas por relações de causa e efeito:
@@ -265,7 +265,13 @@ O **Planejamento de Bibliotecas** e a **Avaliação de Serviços por Indicadores
 - **MACIEL, Alba Costa; MENDONÇA, Marília Alvarenga Rocha.** *Bibliotecas como organizações*. Rio de Janeiro: Interciência, 2000.
 - **ISO 11620:2014.** *Information and documentation — Library performance indicators*. Genebra: ISO, 2014.
 - **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996.
-- **CHIAVENATO, Idalberto.** *Administração geral e pública*. 5. ed. Rio de Janeiro: Elsevier, 2018.`,
+- **CHIAVENATO, Idalberto.** *Administração geral e pública*. 5. ed. Rio de Janeiro: Elsevier, 2018.
+
+### Pausa de Recuperação Ativa: Tipos de Planejamento Organizacional
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Diferencie em termos de horizonte temporal, nível hierárquico e amplitude de impacto os planejamentos Estratégico, Tático e Operacional em uma biblioteca legislativa.
+`,
   checkpoints: [
     {
       id: 'cp-5-1-1',

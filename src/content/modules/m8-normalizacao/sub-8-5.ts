@@ -44,7 +44,7 @@ export const submodulo85: ModuloFilho = {
   tempoEstimadoMinutos: 15,
   autoresChave: ['Alberto Cairo', 'Edward Tufte', 'ABNT', 'W3C'],
   alertasCebraspe: [
-    'Posição Canônica da Ficha Catalográfica (ABNT NBR 14724:2011, item 4.1.5): Em trabalhos acadêmicos e monografias, a ficha catalográfica é elemento PRÉ-TEXTUAL OBRIGATÓRIO e deve constar impreterivelmente no VERSO da folha de rosto, na sua metade inferior. O Cebraspe adora afirmar que ela fica no anverso da folha de rosto, no verso da capa ou que é elemento textual: ERRADO!',
+    'Posição Canônica da Ficha Catalográfica (ABNT NBR 14724:2011, item 4.1.5): Em trabalhos acadêmicos e monografias, a ficha catalográfica é elemento PRÉ-TEXTUAL OBRIGATÓRIO e deve constar impreterivelmente no VERSO da folha de rosto, na sua metade inferior. A técnica de distrator recorrente consiste em afirmar que ela fica no anverso da folha de rosto, no verso da capa ou que é elemento textual: ERRADO!',
     'Índice (NBR 6034:2004) vs. Sumário (NBR 6027:2012): Não confunda as duas normas! O Sumário é elemento PRÉ-TEXTUAL OBRIGATÓRIO que enumera as seções e capítulos na EXATA ORDEM e grafia em que se sucedem no texto. O Índice é elemento PÓS-TEXTUAL OPCIONAL que consiste em uma listagem detalhada de termos, nomes ou assuntos, ordenados alfabética, cronológica ou sistematicamente, com remissão para as páginas onde ocorrem.',
     'Infografia Funcional de Alberto Cairo (The Functional Art, 2012): Um infográfico não é mera arte decorativa, adorno estético ou ilustração cosmética para preencher espaço em publicações. É uma ferramenta cognitiva rigorosa e funcional de representação visual de dados, cuja estética deve submeter-se estritamente à clareza, à veracidade factual e à compreensão do leitor.',
     'Formato PDF/A (ISO 19005) para Preservação Editorial: O PDF/A é um subconjunto restrito do formato PDF desenvolvido para preservação e arquivamento digital de longo prazo. Proíbe estritamente: recursos externos dependentes da rede, criptografia, senhas, código executável/JavaScript e áudio/vídeo dinâmicos embutidos. Exige obrigatoriamente: incorporação integral de fontes tipográficas e metadados descritivos no padrão XMP.',
@@ -224,7 +224,7 @@ A **Editoração, a Catalogação na Publicação (CIP), os Índices (NBR 6034) 
 - **Quem pode Assinar Ficha Catalográfica CIP:** O Cebraspe sugere que qualquer profissional de letras ou editor gráfico pode confeccionar e assinar a ficha catalográfica. **Gabarito: ERRADO.** A elaboração da ficha CIP é ato privativo do profissional Bibliotecário devidamente registrado no Conselho Regional (Leis 4.084/62 e 10.753/2003).
 - **Remissivas em Índices (Ver vs. Ver Também):**
   - *Ver:* Remete de um termo não adotado/sinônimo para o termo adotado (exclusão).
-  - *Ver também:* Conecta termos afins correlatos que também possuem ocorrências no texto. A banca adora inverter essas duas remissivas.
+  - *Ver também:* Conecta termos afins correlatos que também possuem ocorrências no texto. A técnica de distrator recorrente consiste em inverter essas duas remissivas.
 - **Posicionamento da Ficha CIP:** Afirmar que a ficha catalográfica deve ser impressa na contracapa do livro. **Gabarito: ERRADO.** Deve figurar no **verso da folha de rosto**.
 
 ---
