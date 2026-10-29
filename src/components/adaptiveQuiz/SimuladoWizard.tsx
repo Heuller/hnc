@@ -260,7 +260,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
       {etapaAtual === 3 && (
         <div className="space-y-4 animate-in fade-in duration-200">
           <span className="text-xs font-sans font-bold text-ink block">
-            Como deseja receber as respostas da banca?
+            Quando deseja conferir as respostas?
           </span>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -306,7 +306,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
                 </span>
               </div>
               <p className="text-xs font-serif text-ink-2 leading-relaxed m-0">
-                A cada assertiva respondida, a plataforma valida imediatamente o acerto ou erro, revelando a armadilha do Cebraspe e o dispositivo regimental violado.
+                A cada assertiva respondida, a plataforma valida imediatamente o acerto ou erro, mostrando a fundamentação cadastrada e orientações para conferir seu raciocínio.
               </p>
             </button>
           </div>
@@ -369,7 +369,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
               className="w-full py-3.5 px-4 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 cursor-pointer transition-colors shadow-editorial-sm disabled:opacity-50"
             >
               <Sparkles className="w-4 h-4" />
-              <span>{gerando ? 'Gerando Itens Inéditos com a Banca IA...' : 'Iniciar Simulado Adaptativo'}</span>
+              <span>{gerando ? 'Selecionando itens do banco...' : 'Iniciar Simulado Adaptativo'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>

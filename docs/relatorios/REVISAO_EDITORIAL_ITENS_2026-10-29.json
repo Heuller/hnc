@@ -1,0 +1,234 @@
+{
+  "data": "2026-10-29",
+  "escopo": "Revisão focal fundamentada; não constitui homologação do acervo completo.",
+  "alteracoes": [
+    {
+      "id": "m12-q-11",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário.",
+      "sha256Conteudo": "fa406b31d4dc30922733b14385cd625c00bf4493f5c29b8cb8caa15048e28f47"
+    },
+    {
+      "id": "m12-q-13",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "C",
+      "acao": "fundamentacao-e-contraste",
+      "evidencia": "O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita.",
+      "sha256Conteudo": "9dba5da407010fd51319f0db9b10e6bd3e339fb25659ff3708b1e19102ee4f45"
+    },
+    {
+      "id": "m12-q-15",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "O texto diz “may come as a shock, but it’s not new”: possibilidade de surpresa não prova choque para a maioria, e “not new” contradiz a novidade atribuída. O item extrapola quantificação e temporalidade.",
+      "sha256Conteudo": "2cf3b6adbdf3d66f1a8788dc0fe51425e94fc11b92c3ede499aafb85246d11ca"
+    },
+    {
+      "id": "m12-q-21",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos.",
+      "sha256Conteudo": "1fe851f34149b41eeb60202f22f32d1aa01ec27af9e06c3c35e20344f0009679"
+    },
+    {
+      "id": "m12-q-22",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "C",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "O autor chama estacionar de “a natural continuation of family life” após descrever êxtase e sofrimento. A analogia aproxima as oscilações emocionais das duas experiências; “somewhat similar” não exige identidade entre elas.",
+      "sha256Conteudo": "b08451616c75da9a012e5a50052bf50bec9379888634c14ad5d68c3588300e49"
+    },
+    {
+      "id": "m12-q-28",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "C",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Em “to allay their concerns”, allay é verbo: aliviar ou reduzir preocupações. Reduce/ease são compatíveis com esse sentido; não há fundamento documental para atribuir ao CEBRASPE uma rejeição por “nuance”. Confira também o verbete allay no Collins English Dictionary.",
+      "sha256Conteudo": "046a0b2d96fdb8fd1b5bc8d62cc4886501f22897dd690377cc47a77efa2f37c3"
+    },
+    {
+      "id": "m12-q-29",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário.",
+      "sha256Conteudo": "0ec0ff9aed91c3f209752f361313a1bf3a02933d5195e68cf59df6d5830acab2"
+    },
+    {
+      "id": "m12-q-34",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "E",
+      "acao": "fundamentacao-e-contraste",
+      "evidencia": "O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos.",
+      "sha256Conteudo": "98a9278578f21c2a32aaa74c2a84af68d9563cf02936a0eea674fe30a1a4cdb4"
+    },
+    {
+      "id": "m12-q-40",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "C",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "No tempo do texto, a penalidade de 20 dólares pode ocorrer na terceira infração (“may still be handed out for the third offense”). Três é mais que dois, e “may” expressa possibilidade, não punição automática para toda falta. “Nowadays” refere-se ao texto histórico, não à legislação atual de Los Angeles.",
+      "sha256Conteudo": "36a9a070df98144f5ee3c58461f6b54878c1048d1ab8c0aa590e8b3cd2eb1840"
+    },
+    {
+      "id": "m12-q-52",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "C",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita.",
+      "sha256Conteudo": "a8b4d3b399ba9f18691c5b5eae1da16948aadb9985eba0d88eff2a5995d5eeb9"
+    },
+    {
+      "id": "m12-q-60",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "C",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Outperform significa ter desempenho superior: superar, neste contexto, as organizações sem alinhamento estratégico. Cambridge registra surpass entre os sinônimos. Uma nuance de desempenho não elimina essa equivalência contextual.",
+      "sha256Conteudo": "f267bd8fa90a3b7159a239053c94927278dfe1bc85fa27d56c9740fd5da8b06c"
+    },
+    {
+      "id": "m12-q-61",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "C",
+      "acao": "fundamentacao-e-contraste",
+      "evidencia": "O autor chama estacionar de “a natural continuation of family life” após descrever êxtase e sofrimento. A analogia aproxima as oscilações emocionais das duas experiências; “somewhat similar” não exige identidade entre elas.",
+      "sha256Conteudo": "aeb9777e7597b9816fe354b9a651d192ade0f7beea4d030ad5dc2768eede5c02"
+    },
+    {
+      "id": "m12-q-66",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "E",
+      "acao": "fundamentacao-e-contraste",
+      "evidencia": "O texto diz “may come as a shock, but it’s not new”: possibilidade de surpresa não prova choque para a maioria, e “not new” contradiz a novidade atribuída. O item extrapola quantificação e temporalidade.",
+      "sha256Conteudo": "7ea6ea47732181d91f20b2b67505223d355cc1c680418f2e412da09dc34390d0"
+    },
+    {
+      "id": "m12-q-81",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário.",
+      "sha256Conteudo": "799cfc046434d56b28ec3bb84328f82fa654a8212177e56fc7d151436e0fbf4c"
+    },
+    {
+      "id": "m12-q-83",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "C",
+      "acao": "fundamentacao-e-contraste",
+      "evidencia": "O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita.",
+      "sha256Conteudo": "cea77653a3689ba660f581b760699db6740777930de08bd6457c0dcce3907b1e"
+    },
+    {
+      "id": "m12-q-85",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "O texto diz “may come as a shock, but it’s not new”: possibilidade de surpresa não prova choque para a maioria, e “not new” contradiz a novidade atribuída. O item extrapola quantificação e temporalidade.",
+      "sha256Conteudo": "52d34fee86ce04e8e237d94c263de63facdaca552c1fd5046da790f01bd1cf20"
+    },
+    {
+      "id": "m12-q-88",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "C",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "O autor chama estacionar de “a natural continuation of family life” após descrever êxtase e sofrimento. A analogia aproxima as oscilações emocionais das duas experiências; “somewhat similar” não exige identidade entre elas.",
+      "sha256Conteudo": "ea12d282f198c07f6fa6b785cd9b62bd0e84c61e72eab2fe47bde68647044b5d"
+    },
+    {
+      "id": "m12-q-91",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos.",
+      "sha256Conteudo": "847b8047eb9228717f5612df5cd1f7a0c04b777283cc00321f0da74e5a219f95"
+    },
+    {
+      "id": "m12-q-94",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "C",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Em “to allay their concerns”, allay é verbo: aliviar ou reduzir preocupações. Reduce/ease são compatíveis com esse sentido; não há fundamento documental para atribuir ao CEBRASPE uma rejeição por “nuance”. Confira também o verbete allay no Collins English Dictionary.",
+      "sha256Conteudo": "cc1ec76534933880413c33f703da6d1efba6811cf35c401c12107221d2b6e8e0"
+    },
+    {
+      "id": "m12-q-99",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário.",
+      "sha256Conteudo": "b54c1fa59bec968eb0919741cce04387b4f3de85f7aee4fd9c425c7aa282968e"
+    },
+    {
+      "id": "m12-q-100",
+      "path": "src/content/questions/m12-ingles-100q.ts",
+      "gabaritoLegado": "E",
+      "gabaritoProposto": "E",
+      "acao": "fundamentacao-e-contraste",
+      "evidencia": "O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos.",
+      "sha256Conteudo": "c4233bc1649d98a9ac98848eb4a17a89baf33b92850495d5be0df029deafe726"
+    },
+    {
+      "id": "m8-q-2",
+      "path": "src/content/questions/m8-normalizacao-100q.ts",
+      "acao": "edicao-historica-explicita",
+      "evidencia": "ABNT NBR 6023:2025, prefácio; https://www.fho.edu.br/assets/documentos/FHO_Biblioteca_Referencia_ABNT_6023_2025.pdf",
+      "sha256Conteudo": "e28dd7a5e17917a20d95f5f23bd46d3e607f3d9e8e4a8b3fbb19de48d3bc404b"
+    },
+    {
+      "id": "geral-180q-144",
+      "path": "src/content/questions/simulado-geral-180q.ts",
+      "acao": "edicao-historica-explicita",
+      "evidencia": "ABNT NBR 6023:2025, prefácio; https://www.fho.edu.br/assets/documentos/FHO_Biblioteca_Referencia_ABNT_6023_2025.pdf",
+      "sha256Conteudo": "e09f89a5c2191279b9e2e649eab0ceebd1a5ad1ae9ab2f6769c4fd8d7e07c36d"
+    },
+    {
+      "id": "oficial-180q-035",
+      "path": "src/content/questions/simulado-oficial-camara-180q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "E",
+      "acao": "quarentena-por-divergencia",
+      "evidencia": "Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário.",
+      "sha256Conteudo": "757a7cee738f69092b1f9f3ca80d068a72e13685933ff899dcd61a2f4e5a0de9"
+    },
+    {
+      "id": "oficial-180q-037",
+      "path": "src/content/questions/simulado-oficial-camara-180q.ts",
+      "gabaritoLegado": "C",
+      "gabaritoProposto": "C",
+      "acao": "fundamentacao-e-contraste",
+      "evidencia": "O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita.",
+      "sha256Conteudo": "384e56638f687f7de55b5e7ddc5c78782a2b60e1028133f7156c698dec9a96b3"
+    },
+    {
+      "id": "oficial-180q-155",
+      "path": "src/content/questions/simulado-oficial-camara-180q.ts",
+      "acao": "edicao-historica-explicita",
+      "evidencia": "ABNT NBR 6023:2025, prefácio; https://www.fho.edu.br/assets/documentos/FHO_Biblioteca_Referencia_ABNT_6023_2025.pdf",
+      "sha256Conteudo": "0a8d23f27e1c1911c0a3bc8538b18229828a1c8664123717e9acbccd0a61395c"
+    }
+  ]
+}

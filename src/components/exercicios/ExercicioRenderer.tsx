@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { GuiaDaResposta } from '../common/GuiaDaResposta';
 import type {
   Exercicio,
   ExercicioX1,
@@ -51,6 +52,8 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
     return rawExercicio as Exercicio;
   }, [rawExercicio]);
 
+  const [ultimaResposta, setUltimaResposta] = useState<ExercicioResultado | null>(null);
+  const registrarResposta = (resultado: ExercicioResultado) => { setUltimaResposta(resultado); onResponder?.(resultado); };
   const meta = METADADOS_PEDAGOGICOS[exercicio.tipo];
 
   return (
@@ -75,13 +78,13 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
       </div>
 
       {/* Renderização do Formato Cognitivo Específico */}
-      {(() => {
+      <div key={exercicio.id}>{(() => {
         switch (exercicio.tipo) {
           case 'X1':
             return (
               <ExercicioX1PreTeste
                 exercicio={exercicio as ExercicioX1}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -90,7 +93,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX2CertoErrado
                 exercicio={exercicio as ExercicioX2}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -99,7 +102,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX3Correcao
                 exercicio={exercicio as ExercicioX3}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -108,7 +111,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX4BrainDump
                 exercicio={exercicio as ExercicioX4}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -117,7 +120,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX5ParConfundivel
                 exercicio={exercicio as ExercicioX5}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -126,7 +129,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX6CompletarExemplo
                 exercicio={exercicio as ExercicioX6}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -135,7 +138,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX7OrdenarProcedimento
                 exercicio={exercicio as ExercicioX7}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -144,7 +147,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX8ItensSuporte
                 exercicio={exercicio as ExercicioX8}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -153,7 +156,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX9CacaErro
                 exercicio={exercicio as ExercicioX9}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -162,7 +165,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX10Associacao
                 exercicio={exercicio as ExercicioX10}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
@@ -171,13 +174,16 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
             return (
               <ExercicioX2CertoErrado
                 exercicio={exercicio as ExercicioX2}
-                onResponder={onResponder}
+                onResponder={registrarResposta}
                 disabled={disabled}
                 contadorTexto={contadorTexto}
               />
             );
         }
-      })()}
+      })()}</div>
+      {ultimaResposta?.exercicioId === exercicio.id && <GuiaDaResposta acertou={ultimaResposta.acertou}
+        resposta={typeof ultimaResposta.respostaDada === 'string' ? ultimaResposta.respostaDada : JSON.stringify(ultimaResposta.respostaDada)}
+        gabarito={'gabarito' in exercicio ? (Array.isArray(exercicio.gabarito) ? exercicio.gabarito.join('; ') : String(exercicio.gabarito)) : undefined} />}
     </section>
   );
 };

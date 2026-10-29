@@ -5,8 +5,8 @@ import type { CebraspeQuestion } from './types';
  * Itens marcados com revisar: true ou tipo: 'em-conferencia' são excluídos de simulados,
  * portão de verificação, filas de revisão espaçada e métricas de domínio.
  */
-export function elegivelParaEstudo(q: CebraspeQuestion | { fonteOriginal?: { revisar?: boolean; tipo?: string } }): boolean {
-  if (!q) return false;
+export function elegivelParaEstudo(q: CebraspeQuestion | { revisar?: boolean; fonteOriginal?: { revisar?: boolean; tipo?: string } }): boolean {
+  if (!q || ('revisar' in q && q.revisar === true)) return false;
   const fonte = q.fonteOriginal;
   if (!fonte) return true;
   if (fonte.revisar === true) return false;
@@ -17,7 +17,7 @@ export function elegivelParaEstudo(q: CebraspeQuestion | { fonteOriginal?: { rev
 /**
  * Filtra um array de questões retornando apenas as elegíveis para estudo.
  */
-export function filtrarQuestoesElegiveis<T extends { fonteOriginal?: { revisar?: boolean; tipo?: string } }>(questoes: T[]): T[] {
+export function filtrarQuestoesElegiveis<T extends { revisar?: boolean; fonteOriginal?: { revisar?: boolean; tipo?: string } }>(questoes: T[]): T[] {
   if (!questoes || !Array.isArray(questoes)) return [];
   return questoes.filter(elegivelParaEstudo);
 }
@@ -25,7 +25,7 @@ export function filtrarQuestoesElegiveis<T extends { fonteOriginal?: { revisar?:
 /**
  * Conta quantos itens em conferência foram excluídos de um conjunto.
  */
-export function contarItensEmConferencia<T extends { fonteOriginal?: { revisar?: boolean; tipo?: string } }>(questoes: T[]): number {
+export function contarItensEmConferencia<T extends { revisar?: boolean; fonteOriginal?: { revisar?: boolean; tipo?: string } }>(questoes: T[]): number {
   if (!questoes || !Array.isArray(questoes)) return 0;
   return questoes.filter((q) => !elegivelParaEstudo(q)).length;
 }

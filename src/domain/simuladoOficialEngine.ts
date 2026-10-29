@@ -64,7 +64,7 @@ export function avaliarDesempenhoSimuladoOficial180(
   let chuteC = 0, chuteTot = 0;
 
   questoes.forEach((q, idx) => {
-    const isP1 = q.numero ? q.numero <= 90 : (MACROS_P1_BASICOS.has(q.macroModuloId) || idx < 90);
+    const isP1 = q.provaBloco ? q.provaBloco === 'P1_BASICOS' : q.numero ? q.numero <= 90 : (MACROS_P1_BASICOS.has(q.macroModuloId) || idx < 90);
     const respObj = respostas[q.id];
     const resp = respObj?.resposta || 'BRANCO';
     const certeza = respObj?.certeza;
@@ -120,16 +120,17 @@ export function avaliarDesempenhoSimuladoOficial180(
 
   const eliminado = motivos.length > 0;
 
-  const statusTexto = eliminado
-    ? `ELIMINADO DO CONCURSO (Edital nº 1/2026, item 8.11.5)`
-    : `APROVADO NA PROVA OBJETIVA (Apto à Discursiva)`;
+  const composicaoCompleta = is180 && p1Total === 90 && p2Total === 90;
+  const statusTexto = !composicaoCompleta
+    ? 'Treino parcial — sem conclusão sobre pisos de uma prova completa'
+    : eliminado ? 'Não atingiu todos os pisos neste treino' : 'Atingiu os pisos eliminatórios neste treino; classificação não avaliada';
 
   // Ganhos potenciais se chute fosse deixado em branco
   const chutesErrados = chuteTot - chuteC;
   const ganhoSeBranco = chutesErrados - chuteC;
 
   return {
-    isSimuladoOficial180: is180,
+    isSimuladoOficial180: composicaoCompleta,
     totalItens: questoes.length,
     p1: {
       total: p1Total,
@@ -163,7 +164,7 @@ export function avaliarDesempenhoSimuladoOficial180(
     },
     eliminado,
     motivosEliminacao: motivos,
-    aprovadoObjetiva: !eliminado,
+    aprovadoObjetiva: composicaoCompleta && !eliminado,
     statusTexto,
     vagasDiscursivaAmpla: pisos.vagasAmplaConvocadasDiscursiva,
     calibracao: {

@@ -285,7 +285,7 @@ export const TreinosPage: React.FC = () => {
                   <Target className="w-5 h-5" />
                 </div>
                 <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-accent/15 border border-accent/30 text-accent uppercase tracking-wider">
-                  Banca Cebraspe IA · Diagnóstico Ativo
+                  Seleção por temas de dificuldade
                 </span>
               </div>
               <Sparkles className="w-5 h-5 text-accent" />
@@ -294,7 +294,7 @@ export const TreinosPage: React.FC = () => {
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Simulado Adaptativo de Fraquezas</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed max-w-2xl">
-                Algoritmo inteligente que analisa seus pontos cegos no Caderno de Erros e gera baterias adaptativas de 10 a 20 itens inéditos focados cirurgicamente nos temas onde sua retenção é mais vulnerável.
+                Treinos de 10 a 20 itens cadastrados, com prioridade para temas de dificuldade registrados no Caderno de Erros. Confira a explicação após cada resposta ou ao final, conforme o modo escolhido.
               </p>
             </div>
 

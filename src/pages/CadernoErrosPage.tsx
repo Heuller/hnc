@@ -1,3 +1,4 @@
+import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
 import React, { useState, useMemo } from 'react';
 import {
   BookMarked,
@@ -7,7 +8,6 @@ import {
   Filter,
   Search,
   ArrowLeft,
-  AlertTriangle,
   ExternalLink,
   BookOpen,
   Scale,
@@ -30,6 +30,7 @@ export const CadernoErrosPage: React.FC = () => {
   const [busca, setBusca] = useState<string>('');
 
   // Estado para tentativa de refazer item no próprio card
+  const [itensEmCorrecao, setItensEmCorrecao] = useState<Record<string, ItemCadernoErro>>({});
   const [tentativas, setTentativas] = useState<Record<string, 'C' | 'E'>>({});
 
   // Estado do Diálogo Socrático com a Banca
@@ -71,7 +72,8 @@ export const CadernoErrosPage: React.FC = () => {
 
   // Filtragem
   const errosFiltrados = useMemo(() => {
-    return todosErros.filter((item) => {
+    const exibidos = [...new Map([...todosErros, ...Object.values(itensEmCorrecao)].map(item => [item.id, item])).values()];
+    return exibidos.filter((item) => {
       if (origemFiltro === 'hipercorrecao') {
         if (!item.prioridadeHipercorrecao) return false;
       } else if (origemFiltro !== 'todos' && item.origem !== origemFiltro) {
@@ -89,9 +91,10 @@ export const CadernoErrosPage: React.FC = () => {
       }
       return true;
     });
-  }, [todosErros, origemFiltro, moduloFiltro, busca]);
+  }, [todosErros, itensEmCorrecao, origemFiltro, moduloFiltro, busca]);
 
   const handleRefazerResposta = (item: ItemCadernoErro, escolha: 'C' | 'E') => {
+    setItensEmCorrecao(prev => ({ ...prev, [item.id]: item }));
     setTentativas((prev) => ({ ...prev, [item.id]: escolha }));
 
     // Se for checkpoint e o usuário acertar agora, atualiza o checkpoint no store!
@@ -409,6 +412,7 @@ export const CadernoErrosPage: React.FC = () => {
                   <div className="flex items-center gap-2">
                     <button
                       type="button"
+                      disabled={!!tentativaAtual}
                       onClick={() => handleRefazerResposta(item, 'C')}
                       className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold cursor-pointer transition-colors border ${
                         tentativaAtual === 'C'
@@ -422,6 +426,7 @@ export const CadernoErrosPage: React.FC = () => {
                     </button>
                     <button
                       type="button"
+                      disabled={!!tentativaAtual}
                       onClick={() => handleRefazerResposta(item, 'E')}
                       className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold cursor-pointer transition-colors border ${
                         tentativaAtual === 'E'
@@ -438,47 +443,6 @@ export const CadernoErrosPage: React.FC = () => {
 
                 {/* Justificativa e Armadilha */}
                 <div className="space-y-2 text-xs pt-1">
-                  <div className="p-3 rounded-lg bg-surface-2 border border-border space-y-1">
-                    <div className="flex items-center justify-between">
-                      <span className="font-bold text-ink uppercase tracking-wider text-xs">
-                        Gabarito no Padrão Cebraspe:
-                      </span>
-                      <span className="font-bold font-mono text-accent">
-                        {item.gabarito === 'C' ? 'CERTO' : 'ERRADO'}
-                      </span>
-                    </div>
-                    <p className="text-ink-2 font-serif-reading text-sm leading-relaxed m-0">
-                      {item.justificativa}
-                    </p>
-                  </div>
-
-                  {item.armadilhaBanca && (
-                    <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-900 dark:text-amber-300 flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                      <div className="space-y-0.5">
-                        <span className="font-bold text-xs block uppercase tracking-wider">
-                          Armadilha da Banca:
-                        </span>
-                        <p className="m-0 leading-relaxed text-xs">
-                          {item.armadilhaBanca}
-                        </p>
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Como ficaria correto (para itens com gabarito ERRADO) */}
-                  {item.gabarito === 'E' && item.versao_correta && (
-                    <div className="p-3 rounded-lg bg-surface border border-emerald-500/30 text-ink space-y-1">
-                      <div className="flex items-center gap-1.5 font-bold text-xs text-emerald-700 dark:text-emerald-400">
-                        <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
-                        <span className="uppercase tracking-wider">Como ficaria correto:</span>
-                      </div>
-                      <p className="font-serif-reading text-xs sm:text-sm leading-relaxed m-0 italic text-ink">
-                        "{item.versao_correta}"
-                      </p>
-                    </div>
-                  )}
-
                   {/* Fonte / Referência Canônica */}
                   {item.fonte && (
                     <div className="text-xs text-ink-2 font-mono flex items-center gap-1 pt-0.5">
@@ -487,6 +451,10 @@ export const CadernoErrosPage: React.FC = () => {
                     </div>
                   )}
 
+                  <PainelEstudoReverso questao={{ id: item.id, item: item.assertiva, gabarito: item.gabarito,
+                    justificativa: item.justificativa, versao_correta: item.versao_correta, armadilhaBanca: item.armadilhaBanca,
+                    submoduloId: item.submoduloNumero }} resposta={tentativas[item.id] || item.respostaUsuario} autoexplicacao={false} />
+                  {tentativas[item.id] && <button type="button" className="min-h-[44px] px-4 border border-border rounded-xl" onClick={() => setItensEmCorrecao(prev => { const next = { ...prev }; delete next[item.id]; return next; })}>Concluir revisão deste item</button>}
                   {/* Ação Socrática: Discutir com a Banca Cebraspe (IA) */}
                   <div className="pt-2">
                     <button

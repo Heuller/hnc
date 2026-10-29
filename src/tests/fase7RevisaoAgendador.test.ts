@@ -58,7 +58,7 @@ describe('FASE 7 — Revisões Espaçadas Adaptadas aos Conteúdos Novos', () =>
       expect(resultado.novoEstado.proximaRevisao).toBe('2026-10-16');
     });
 
-    it('deve aplicar aceleração Pashler (dobrar intervalo) quando acerto for sustentado com certeza', () => {
+    it('deve aplicar heurística de aceleração do HNC (dobrar intervalo) quando acerto for sustentado com certeza', () => {
       const conceptId = 'c_1.1_epist';
       const estadoBase: ConceptState = {
         conceptId,
@@ -100,7 +100,7 @@ describe('FASE 7 — Revisões Espaçadas Adaptadas aos Conteúdos Novos', () =>
 
       // Caixa 3 padrão tem 7 dias úteis. Com a aceleração (dobro), vai para 14 dias úteis
       expect(resultado.diasAteProximaRevisao).toBe(14);
-      expect(resultado.mensagemPedagogica).toContain('Aceleração Pashler');
+      expect(resultado.mensagemPedagogica).toContain('Heurística do HNC');
     });
 
     it('deve rebaixar para Caixa 1 e agendar para o próximo dia útil em caso de erro ou chute', () => {
@@ -392,12 +392,12 @@ describe('FASE 7 — Revisões Espaçadas Adaptadas aos Conteúdos Novos', () =>
   });
 
   describe('T7.3 — Trilha Reta Final (3 semanas finais até 17/01/2027)', () => {
-    it('deve projetar o marco de corte normativo de 17/12/2026 e a Reta Final em 28/12/2026', () => {
+    it('deve projetar o marco de corte normativo de 18/12/2026 e a Reta Final em 28/12/2026', () => {
       const projecao = calcularProjecaoTemporal({
         dataAtualIso: '2026-10-14',
       });
 
-      expect(projecao.marcoCorteNormativo.dataCorteIso).toBe('2026-12-17');
+      expect(projecao.marcoCorteNormativo.dataCorteIso).toBe('2026-12-18');
       expect(projecao.marcoCorteNormativo.isCorteAtingido).toBe(false);
       expect(projecao.marcoCorteNormativo.diasAteCorte).toBeGreaterThan(40);
 

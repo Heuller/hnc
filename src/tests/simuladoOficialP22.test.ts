@@ -79,8 +79,8 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
       expect(simulado).toBeDefined();
       expect(simulado.id).toBe('simulado-oficial-camara-2027');
       expect(simulado.totalNominal).toBe(180);
-      expect(simulado.questoes).toHaveLength(179);
-      expect(simulado.itensForaConferencia).toBe(1);
+      expect(simulado.questoes).toHaveLength(178);
+      expect(simulado.itensForaConferencia).toBe(2);
       expect(simulado.titulo).toContain('Simulado Oficial Câmara 2027');
     });
 

@@ -149,6 +149,7 @@ for (const file of files) {
           if (name === 'gabarito') gabarito = prop.initializer.getText(sf).replace(/^['"`]|['"`]$/g, '');
           if (name === 'justificativa') justificativa = prop.initializer.getText(sf).slice(1, -1);
           if (name === 'armadilhaBanca') armadilha = prop.initializer.getText(sf).slice(1, -1);
+          if (name === 'revisar' && prop.initializer.kind === ts.SyntaxKind.TrueKeyword) revisar = true;
           if (name === 'questaoOrigemId') questaoOrigemId = prop.initializer.getText(sf).replace(/^['"`]|['"`]$/g, '');
           if (name === 'fonteOriginal' && ts.isObjectLiteralExpression(prop.initializer)) {
             for (const fprop of prop.initializer.properties) {
@@ -304,10 +305,10 @@ if (violacoesIneditas === 0) {
 // VERIFICAÇÃO 4: Itens 'em-conferencia' Ausentes de Simulados
 // ----------------------------------------------------------------------------
 console.log('\n[4/4] Verificando Isolamento dos Itens em Conferência nos Simulados...');
-const itensEmConferencia = todasQuestoes.filter((q) => q.tipo === 'em-conferencia');
+const itensEmConferencia = todasQuestoes.filter((q) => q.tipo === 'em-conferencia' || q.revisar === true);
 const idsEmConferencia = new Set(itensEmConferencia.map((q) => q.id));
 
-console.log(`  - Itens com tipo 'em-conferencia' no acervo: ${idsEmConferencia.size}`);
+console.log(`  - Itens com bloqueio editorial no acervo: ${idsEmConferencia.size}`);
 
 // 4.1 Confere se simuladosRegistry.ts e questoesElegiveis.ts implementam o isolamento
 const registryPath = path.resolve('src', 'content', 'simuladosRegistry.ts');
@@ -380,7 +381,7 @@ if (errosFatais.length > 0) {
   errosFatais.forEach((err, idx) => console.error(`  ${idx + 1}. ${err}`));
   process.exit(1);
 } else {
-  console.log('🎉 AUDITORIA INDEPENDENTE DE CI: 100% APROVADA!');
-  console.log('Todos os 4 pilares de integridade foram rigorosamente auditados.');
+  console.log('Verificações estruturais de CI concluídas sem falhas.');
+  console.log('Estes quatro testes não certificam verdade conceitual, estilo da banca ou revisão integral do conteúdo.');
   process.exit(0);
 }

@@ -69,6 +69,7 @@ interface ProgressStoreState extends UserProgress {
   resetarCheckpoint: (checkpointId: string) => void;
   responderItemLeitner: (itemId: string, submoduloId: string, acertou: boolean) => void;
   setDevBypassSimuladoLock: (bypass: boolean) => void;
+  definirModoProvaSimulado: (simuladoId: string, modoProva: boolean) => void;
   setUltimoModuloAcessado: (moduloId: string) => void;
   sincronizarConclusoesPorDominio: () => void;
   // Jornada e Tentativas
@@ -567,6 +568,14 @@ export const useProgressStore = create<ProgressStoreState>()(
         const itemAtual = deck[itemId] || criarItemLeitner(itemId, submoduloId, today);
         deck[itemId] = processarRespostaLeitner(itemAtual, acertou, today);
         set({ leitnerDeck: deck });
+      },
+
+      definirModoProvaSimulado: (simuladoId, modoProva) => {
+        set(state => {
+          const sessao = state.sessoesSimulados?.[simuladoId];
+          if (!sessao || Object.keys(sessao.respostas).length > 0) return {};
+          return { sessoesSimulados: { ...state.sessoesSimulados, [simuladoId]: { ...sessao, modoProva } } };
+        });
       },
 
       setDevBypassSimuladoLock: (bypass: boolean) => {

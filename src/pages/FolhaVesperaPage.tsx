@@ -1,3 +1,4 @@
+import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
 import { useSessionPreference } from '../hooks/useSessionPreference';
 import React, { useState } from 'react';
 import {
@@ -389,6 +390,9 @@ export const FolhaVesperaPage: React.FC = () => {
                       </div>
                     )}
 
+                    {respostasTreino[item.id] && <PainelEstudoReverso questao={{ id: item.id, item: item.afirmacaoFalsa,
+                      gabarito: item.gabaritoOficial, justificativa: item.fundamentacaoCanonico, armadilhaBanca: item.armadilhaCebraspe,
+                      submoduloId: item.submoduloRef }} resposta={respostasTreino[item.id]} autoexplicacao={false} />}
                     {/* Explicação e Fundamentação */}
                     <div className={`text-xs space-y-1 ${revelarConteudo ? 'block' : 'hidden print:block'}`}>
                       <p className="m-0 text-rose-700 dark:text-rose-400">

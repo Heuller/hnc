@@ -31,11 +31,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Lint (Oxlint)
-        run: npm run lint
-        
-      - name: Testes Unitários (Vitest)
-        run: npm test
-        
-      - name: Typecheck, Build e Orçamento
-        run: npm run build
+      - name: Verificação integrada
+        run: npm run verify

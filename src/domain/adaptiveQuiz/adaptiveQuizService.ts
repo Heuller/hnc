@@ -5,80 +5,27 @@ import type {
   RespostaItemAdaptativo,
 } from './types';
 import { diagnosticarVulnerabilidades } from './diagnosticEngine';
-import { BASE_QUESTOES_ADAPTATIVAS } from './baseQuestoesAdaptativas';
+import { ALL_SIMULADOS_REGISTRY } from '../../content/simuladosRegistry';
 import { getItensCadernoErros } from '../cadernoErros';
 import type { SimuladoFinalizado } from '../schemas/progress.schema';
 
-import { filtrarItensSegurosIA } from '../antiHallucinationGuard';
-import { useAuthStore } from '../../store/useAuthStore';
 
 /**
  * Gera um simulado adaptativo equilibrando o diagnóstico de fraquezas
- * com geração via IA (quando online) ou seleção heurística (0ms offline).
+ * com seleção de itens cadastrados, respeitando o escopo solicitado.
  */
 export async function gerarSimuladoAdaptativo(
   config: ConfiguracaoSimuladoAdaptativo,
   checkpointsRespondidos: Record<string, 'C' | 'E'>,
   historicoSimulados: SimuladoFinalizado[]
 ): Promise<ItemSimuladoAdaptativo[]> {
-  const vulnerabilidades = diagnosticarVulnerabilidades(
-    checkpointsRespondidos,
-    historicoSimulados
-  );
-
-  const modulosAlvo =
-    config.modulosSelecionados && config.modulosSelecionados.length > 0
-      ? config.modulosSelecionados
-      : vulnerabilidades.map((v) => v.macroModuloId);
-
-  // 1. Tenta gerar via IA no backend
-  try {
-    const session = useAuthStore.getState().session;
-    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
-    if (session?.access_token) {
-      headers['Authorization'] = `Bearer ${session.access_token}`;
-    }
-
-    const res = await fetch('/api/generate-adaptive-quiz', {
-      method: 'POST',
-      headers,
-      body: JSON.stringify({
-        quantidadeItens: config.quantidadeItens,
-        modoFoco: config.modoFoco,
-        modulosAlvo,
-        vulnerabilidades: vulnerabilidades.slice(0, 4),
-      }),
-    });
-
-    if (res.status === 429) {
-      console.warn('[Simulado Adaptativo] Limite de requisições excedido. Utilizando motor offline.');
-    } else if (res.status === 401) {
-      console.warn('[Simulado Adaptativo] Não autorizado no servidor. Utilizando motor offline.');
-    }
-
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data.itens) && data.itens.length > 0) {
-        // Bloqueio rigoroso contra alucinações de IA (Fontes primárias obrigatórias)
-        const { aprovados } = filtrarItensSegurosIA(data.itens);
-        if (aprovados.length >= Math.min(3, config.quantidadeItens || 5)) {
-          return aprovados.map((it: any, idx: number) => ({
-            ...it,
-            numero: idx + 1,
-          }));
-        }
-      }
-    }
-  } catch {
-    // Falha silenciosa para fallback offline
-  }
-
-  // 2. Fallback heurístico inteligente offline
+  // Itens de treino devem ter identidade e comentário cadastrados; geração é rascunho editorial.
   return montarSimuladoOffline(config, checkpointsRespondidos, historicoSimulados);
+
 }
 
 /**
- * Montagem de simulado adaptativo em 0ms no cliente
+ * Montagem de treino adaptativo no cliente
  */
 export function montarSimuladoOffline(
   config: ConfiguracaoSimuladoAdaptativo,
@@ -94,6 +41,11 @@ export function montarSimuladoOffline(
   const selecionadas: ItemSimuladoAdaptativo[] = [];
   const qtdAlvo = config.quantidadeItens || 10;
 
+  const escopo = config.modulosSelecionados?.map(m => m.toLowerCase());
+  const BASE_QUESTOES_ADAPTATIVAS: ItemSimuladoAdaptativo[] = [...new Map(ALL_SIMULADOS_REGISTRY.flatMap(s => s.questoes).map(q => [q.id, q])).values()]
+    .filter(q => !escopo?.length || escopo.includes(q.macroModuloId.toLowerCase()))
+    .map(q => ({ ...q, armadilhaBanca: q.armadilhaBanca || '', topicoNome: `Submódulo ${q.submoduloId}`, autorOuNormaReferencia: q.fonte || q.fonteOriginal.descricao }));
+
   // Prioriza módulos com fraquezas identificadas
   const modulosPrioritarios = new Set(
     vulnerabilidades.length > 0
@@ -103,8 +55,9 @@ export function montarSimuladoOffline(
 
   // 1. Primeiro adiciona variantes dos erros do próprio caderno se modo for 'erros_caderno'
   if (config.modoFoco === 'erros_caderno' && errosCaderno.length > 0) {
-    for (const err of errosCaderno) {
+    for (const err of errosCaderno.filter(e => !escopo?.length || escopo.includes(e.macroModuloId.toLowerCase()))) {
       if (selecionadas.length >= qtdAlvo) break;
+      if (selecionadas.some(q => q.item === err.assertiva)) continue;
 
       selecionadas.push({
         id: `adp-reteste-${err.id}`,
@@ -116,7 +69,7 @@ export function montarSimuladoOffline(
         gabarito: err.gabarito,
         justificativa: err.justificativa,
         armadilhaBanca: err.armadilhaBanca || 'Atenção aos distratores conceituais do Cebraspe.',
-        autorOuNormaReferencia: 'Doutrina canônica de Biblioteconomia (Vergueiro, 1989 / Lancaster, 2004)',
+        autorOuNormaReferencia: 'Comentário cadastrado no caderno; confira a referência do item de origem.',
       });
     }
   }
@@ -141,18 +94,7 @@ export function montarSimuladoOffline(
     }
   }
 
-  // Se ainda faltar, completa repetindo variantes com numeração ajustada
-  let idx = 0;
-  while (selecionadas.length < qtdAlvo && pool.length > 0) {
-    const base = pool[idx % pool.length];
-    selecionadas.push({
-      ...base,
-      id: `${base.id}-rep-${selecionadas.length + 1}`,
-      numero: selecionadas.length + 1,
-    });
-    idx++;
-  }
-
+  // A quantidade devolvida é a disponível; nunca duplicar texto com outro ID para completar a meta.
   return selecionadas;
 }
 

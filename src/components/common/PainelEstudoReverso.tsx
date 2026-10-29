@@ -1,3 +1,4 @@
+import { comentarioGenerico, contrasteArtificial } from '../../domain/qualidadeEditorial';
 import React, { useState } from 'react';
 import type { AnaliseItemReverso } from '../../domain/treinoReverso';
 import {
@@ -66,7 +67,8 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
   const calibracao = mensagemCalibracao(situacao, certeza);
   const { tecnica, explicacao } = separarTecnica(questao.armadilhaBanca);
   const trechos = destacarGatilho(questao.item, questao.gatilho);
-  const temGatilho = trechos.some((t) => t.decisivo);
+  const comentarioPendente = comentarioGenerico(questao.justificativa);
+  const temGatilho = !comentarioPendente && trechos.some((t) => t.decisivo);
   const contraste = questao.gabarito === 'E' ? questao.versao_correta : questao.versao_errada;
   const subId = questao.submoduloId;
   const raciocinio = analise?.itemId === questao.id && analise.gabarito === questao.gabarito ? analise : undefined;
@@ -148,6 +150,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
         </div>
       )}
 
+      {comentarioPendente && <p role="note" className="p-3 rounded-xl border border-border text-sm text-ink">Este comentário ainda precisa de fundamentação específica. Ele repete o gabarito sem demonstrar a regra. Consulte o texto-base ou a fonte antes de consolidar a resposta.</p>}
       <div className="p-5 bg-surface-2 rounded-xl border border-border space-y-2">
         <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-ink-2">
           <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
@@ -178,7 +181,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
         </details>
       )}
 
-      {contraste && (
+      {contraste && !contrasteArtificial(contraste) && !comentarioPendente && (
         <div className="p-4 rounded-xl border border-border bg-surface space-y-2">
           <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-ink-2">
             <ArrowLeftRight className="w-3.5 h-3.5 text-accent shrink-0" />

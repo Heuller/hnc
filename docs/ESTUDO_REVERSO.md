@@ -44,4 +44,13 @@ Nos simulados por módulo, cada resposta revela imediatamente a comparação ent
 
 O aluno pode voltar diretamente ao submódulo de teoria. Os 12 itens revisados também exibem regra, três passos e fonte localizada no próprio simulado. Os demais usam sua fundamentação existente; isso não representa revisão editorial integral do banco. O contraste redundante foi removido.
 
-O modo explicitamente identificado como prova real mantém gabarito e comentários ao final. Seu relatório usa o mesmo painel pedagógico por item, sem antecipar respostas durante a prova.
+Todos os cadernos, inclusive o Mega, iniciam em modo estudo com correção por resposta. O modo prova é uma escolha explícita antes da primeira resposta e mantém gabarito e comentários ao final. Seu relatório usa o mesmo painel pedagógico por item, sem antecipar respostas durante a prova.
+
+
+## Revisão de abrangência em 29/10/2026
+
+O protocolo foi estendido a ItemCE, exercícios X1–X10 pelo renderizador comum (e a cada item vinculado de X8), revisão F1–F8 pelo feedback comum, adaptativo, caderno de erros e treino de véspera. Radar é consulta, sem julgamento do aluno. Nos formatos sem C/E, o roteiro confere a resposta específica, sem simular pontuação de prova. Formatos F3/F8 só usam alternativas específicas cadastradas; sem elas, retorna-se a C/E.
+
+Isso estende a interface, **não homologa o conteúdo**. O censo reproduzível está em `scripts/auditarAcervo.mjs`, com status e hash por registro. As correções focais estão em `docs/relatorios/REVISAO_EDITORIAL_ITENS_2026-10-29.json`. Comentários genéricos recebem indicação de pendência; contrastes com inserção artificial de “indevidamente” não são apresentados como reescrita válida. Há pendências conceituais individuais, fontes sem localizador e necessidade de calibrar dificuldade com respostas de alunos.
+
+A referência adotada é o edital e a data de corte cadastrados no HNC, conforme orientação do responsável pela plataforma. Legislação (13.33–13.34) e jurisprudência (13.34.1) seguem regras distintas. Na data de prova cadastrada (17/01/2027), 30 dias corridos antes correspondem a 18/12/2026. Conferir retificações antes de publicação.

@@ -42,6 +42,7 @@ function processarManifest(m: SimuladoManifest): SimuladoManifest {
   const fora = questoesBrutas.length - elegiveis.length;
   return {
     ...m,
+    titulo: fora > 0 ? `${m.titulo} — treino parcial` : m.titulo,
     questoes: elegiveis,
     totalNominal: questoesBrutas.length,
     itensForaConferencia: fora > 0 ? fora : undefined,

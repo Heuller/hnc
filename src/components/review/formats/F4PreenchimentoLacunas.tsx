@@ -54,8 +54,7 @@ export const F4PreenchimentoLacunas: React.FC<ExerciseFormatProps> = ({
             type="button"
             disabled={disabled || respondido}
             onClick={() => {
-              const acertou = opcao.toLowerCase() === respostaCorreta.toLowerCase();
-              onResponder(acertou ? conceito.gabaritoCanonic : (conceito.gabaritoCanonic === 'C' ? 'E' : 'C'));
+              onResponder(opcao);
             }}
             className="p-3 rounded-xl border border-border bg-surface hover:border-accent hover:bg-accent/5 text-left text-xs sm:text-sm font-sans font-medium transition-all cursor-pointer text-ink flex items-center justify-between"
           >

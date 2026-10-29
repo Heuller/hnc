@@ -65,7 +65,7 @@ export const RevisaoCientificaModal: React.FC<RevisaoCientificaModalProps> = ({
     });
 
     // Registra na Fonte Única de Respostas
-    await adicionarItemAttempt({
+    if (submissao.respostaDada === 'C' || submissao.respostaDada === 'E') await adicionarItemAttempt({
       itemId: itemAtual.conceito.id,
       submoduloId: itemAtual.conceito.submoduloId,
       moduloId: etapa.moduloId,

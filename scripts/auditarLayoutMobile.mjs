@@ -80,9 +80,9 @@ async function main() {
   });
 
   const rotas = [
-    { nome: 'Teoria', hash: '#/teoria' },
-    { nome: 'Simulado', hash: '#/simulado' },
-    { nome: 'Caderno de Erros', hash: '#/caderno-erros' },
+    { nome: 'Teoria', hash: '#/teoria', marcador: 'teoria' },
+    { nome: 'Simulado', hash: '#/simulado', marcador: 'simulado' },
+    { nome: 'Caderno de Erros', hash: '#/caderno-erros', marcador: 'caderno' },
   ];
 
   const resultados = [];
@@ -94,6 +94,11 @@ async function main() {
     // Aguarda montagem dos componentes React
     await new Promise((r) => setTimeout(r, 1500));
 
+    const contexto = await page.evaluate(() => ({ titulo: document.querySelector('#main-content h1')?.textContent?.toLowerCase() || '', acesso: !!document.querySelector('input[type="password"]') }));
+    if (contexto.acesso || !contexto.titulo.includes(rota.marcador)) {
+      await browser.close(); server.close();
+      throw new Error(`Auditoria bloqueada: rota ${rota.nome} não autenticada ou título esperado ausente. Nenhum resultado aprovado.`);
+    }
     const metricas = await page.evaluate(() => {
       const scrollWidth = document.documentElement.scrollWidth;
       const clientWidth = document.documentElement.clientWidth;
@@ -111,8 +116,7 @@ async function main() {
           const rect = b.getBoundingClientRect();
           return rect.width > 0 && rect.height > 0 && (rect.width < 32 || rect.height < 32);
         })
-        .map((b) => b.innerText || b.getAttribute('aria-label') || 'botão')
-        .slice(0, 5);
+        .map((b) => b.innerText || b.getAttribute('aria-label') || 'botão');
 
       // Verificação de tabelas / cartões de tabela
       const mobileCards = document.querySelectorAll('[data-testid="tabela-responsiva-cards"]');
@@ -125,7 +129,7 @@ async function main() {
         headerHeight: Math.round(headerHeight),
         headerPosition,
         botoesPequenosCount: botoesPequenos.length,
-        botoesPequenosAmostra: botoesPequenos,
+        botoesPequenosAmostra: botoesPequenos.slice(0, 5),
         totalTabelasCards,
       };
     });
@@ -167,12 +171,10 @@ ${resultados
   )
   .join('\n')}
 
-## 2. Critérios de Conformidade Atingidos
+## 2. Limites da medição
 
-1. **Zero Rolagem Horizontal**: Em todas as 3 principais rotas móveis, \`scrollWidth === clientWidth\`. Nenhuma tabela, gráfico KaTeX ou diagrama excede a largura da tela do celular.
-2. **Cabeçalho Pixel-Perfect (ADR-003)**: Altura medida de 56px no cabeçalho sticky mobile com \`position: sticky\`, preservando a barra de contexto sem sobreposições.
-3. **Alto Contraste de Tabelas e Quadros**: Fundo \`bg-surface-3\` nos cabeçalhos e zebrado \`bg-surface-3/50\` garantem legibilidade clara em temas claro e escuro.
-4. **Alvos de Toque Ergonômicos**: Botões de navegação, gaveta de módulos e seletores possuem dimensões confortáveis para o polegar.
+Os resultados acima descrevem somente as rotas autenticadas e os elementos medidos. A tabela não comprova ausência de overflow em estados não percorridos. Contraste, navegação por teclado, foco e legibilidade precisam de verificação própria; este script não os certifica.
+
 `;
 
   fs.mkdirSync(path.dirname(relatorioPath), { recursive: true });

@@ -1,3 +1,4 @@
+import { ordenarOpcoes } from '../../../domain/avaliarFormatoRevisao';
 import React, { useState } from 'react';
 import { Check, X, BookOpen } from 'lucide-react';
 import type { ExerciseFormatProps } from '../types';
@@ -5,24 +6,25 @@ import type { ExerciseFormatProps } from '../types';
 export const F2ComJustificativa: React.FC<ExerciseFormatProps> = ({
   conceito,
   respondido,
-  respostaSelecionada,
   onResponder,
   disabled = false,
 }) => {
   const [julgamento, setJulgamento] = useState<'C' | 'E' | null>(null);
   const [justificativaEscolhida, setJustificativaEscolhida] = useState<string | null>(null);
 
-  const opcoesJustificativa = conceito.variantesFormatos?.f2_com_justificativa?.opcoes || [
+  const opcoesOriginais = conceito.variantesFormatos?.f2_com_justificativa?.opcoes || [
     conceito.justificativaCanonic,
     'A regra decorre de convenção internacional não vinculante para órgãos federais.',
     'A assertiva está invertida em relação à regra geral do Cebraspe.',
   ];
 
+  const opcoesJustificativa = ordenarOpcoes(opcoesOriginais, conceito.id);
+
   const handleConfirmar = (just: string) => {
     if (!julgamento) return;
     setJustificativaEscolhida(just);
     // Envia o julgamento com a confirmação
-    onResponder(julgamento);
+    onResponder({ tipo: 'julgamento-justificativa', julgamento, justificativa: just });
   };
 
   return (
@@ -83,7 +85,7 @@ export const F2ComJustificativa: React.FC<ExerciseFormatProps> = ({
 
           <div className="space-y-2">
             {opcoesJustificativa.map((just, idx) => {
-              const isSelected = justificativaEscolhida === just || respostaSelecionada === julgamento;
+              const isSelected = justificativaEscolhida === just;
               return (
                 <button
                   key={idx}

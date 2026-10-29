@@ -1,3 +1,4 @@
+import { GuiaDaResposta } from '../common/GuiaDaResposta';
 import React from 'react';
 import { CheckCircle2, XCircle, AlertTriangle, BookOpen, Calendar, ArrowRight } from 'lucide-react';
 import type { Concept } from '../../domain/concepts/types';
@@ -39,13 +40,13 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
           )}
           <div>
             <div className="font-sans font-bold text-sm sm:text-base flex items-center gap-2">
-              <span>{acertou ? 'Julgamento Correto!' : 'Julgamento Incorreto'}</span>
+              <span>{acertou ? 'Resposta correta!' : 'Resposta incorreta'}</span>
               <span className="text-xs px-2 py-0.5 rounded-full font-mono bg-surface border border-border">
-                {acertou ? '+1,00 pt líq.' : '-1,00 pt líq. (anula 1 acerto)'}
+                Revisão formativa · sem nota de prova
               </span>
             </div>
             <div className="text-xs text-ink-2 mt-0.5">
-              Sua resposta: <strong>{respostaDada}</strong> | Gabarito Oficial: <strong>{conceito.gabaritoCanonic}</strong>
+              Sua resposta: <strong>{respostaDada}</strong> | Julgamento do item: <strong>{conceito.gabaritoCanonic}</strong>
             </div>
           </div>
         </div>
@@ -58,12 +59,12 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
         )}
       </div>
 
-      {/* Justificativa Canônica */}
+      {/* Fundamentação cadastrada */}
       <div className="p-4 rounded-xl bg-surface border border-border space-y-3">
         <div>
           <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 flex items-center gap-1.5 mb-1.5">
             <BookOpen className="w-4 h-4 text-accent" />
-            Justificativa Canônica
+            Fundamentação cadastrada
           </h4>
           <p className="font-serif text-sm sm:text-[15px] leading-relaxed text-ink break-words" style={{ overflowWrap: 'anywhere' }}>
             {conceito.justificativaCanonic}
@@ -86,7 +87,7 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
         {/* Fonte Canônica */}
         {conceito.fonteCanonica && (
           <div className="text-xs text-ink-3 pt-1 border-t border-border/40">
-            Fonte / Referência Oficial: {conceito.fonteCanonica}
+            Referência cadastrada: {conceito.fonteCanonica}
           </div>
         )}
 
@@ -98,6 +99,7 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
         )}
       </div>
 
+      <GuiaDaResposta acertou={acertou} resposta={respostaDada} />
       {/* Botão de Avanço */}
       {onAvancar && (
         <div className="flex justify-end pt-2">

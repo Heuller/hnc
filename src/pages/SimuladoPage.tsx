@@ -211,6 +211,8 @@ export const SimuladoPage: React.FC = () => {
     Math.min((questoesExibidas.length || 1) - 1, sessaoAtual.currentIndex ?? 0)
   );
   const respostas = sessaoAtual.respostas ?? {};
+  const modoProva = sessaoAtual.modoProva ?? false;
+  const setModoProva = (value: boolean) => useProgressStore.getState().definirModoProvaSimulado(selectedSimuladoId, value);
   const currentQuestion = questoesExibidas[currentIndex];
   const respostaAtual = respostas[currentQuestion?.id];
 
@@ -541,8 +543,7 @@ export const SimuladoPage: React.FC = () => {
   if (!accessControl.isUnlocked) {
       return (
         <div className="max-w-3xl mx-auto py-8 sm:py-12 px-4 space-y-6 animate-fadeIn">
-          <p className="text-sm font-semibold text-ink-2" role="note">{isMegaSimulado ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
-      <p className="text-sm font-semibold text-ink-2" role="note">{isMegaSimulado ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
+      <p className="text-sm font-semibold text-ink-2" role="note">{modoProva ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
       {renderSimuladoSelector()}
 
       {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
@@ -552,7 +553,7 @@ export const SimuladoPage: React.FC = () => {
           <span className="font-sans">
             <strong>Itens em conferência isolados:</strong> Este caderno possui{" "}
             <strong>{simuladoAtivo.itensForaConferencia} {simuladoAtivo.itensForaConferencia === 1 ? "item" : "itens"} em conferência fora desta prova</strong>{" "}
-            ({simuladoAtivo.questoes.length} itens ativos de {simuladoAtivo.totalNominal || 100} nominais). Nenhum item sob divergência é servido ao aluno.
+            ({simuladoAtivo.questoes.length} itens ativos de {simuladoAtivo.totalNominal || 100} nominais). Itens identificados como pendentes foram retirados deste treino; isso não homologa os demais.
           </span>
         </div>
       )}
@@ -834,7 +835,7 @@ export const SimuladoPage: React.FC = () => {
                         : 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border-emerald-500/40'
                     }`}
                   >
-                    {avaliacao.eliminado ? 'Eliminado nos Pisos' : 'Apto para Discursiva (Top 22)'}
+                    {!avaliacao.isSimuladoOficial180 ? 'Treino parcial' : avaliacao.eliminado ? 'Pisos não atingidos' : 'Pisos atingidos neste treino'}
                   </span>
                 </div>
 
@@ -845,7 +846,7 @@ export const SimuladoPage: React.FC = () => {
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold font-sans text-ink">P1: Conhecimentos Básicos</span>
                       <span className={`text-xs font-mono font-bold ${avaliacao.p1.aprovadoPiso ? 'text-ok' : 'text-err'}`}>
-                        {avaliacao.p1.aprovadoPiso ? '✓ Aprovado' : '✗ Eliminado'}
+                        {avaliacao.p1.aprovadoPiso ? '✓ Piso atingido no treino' : 'Piso não atingido'}
                       </span>
                     </div>
                     <div className="text-2xl font-mono font-bold text-ink">
@@ -863,7 +864,7 @@ export const SimuladoPage: React.FC = () => {
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold font-sans text-ink">P2: Conhecimentos Específicos</span>
                       <span className={`text-xs font-mono font-bold ${avaliacao.p2.aprovadoPiso ? 'text-ok' : 'text-err'}`}>
-                        {avaliacao.p2.aprovadoPiso ? '✓ Aprovado' : '✗ Eliminado'}
+                        {avaliacao.p2.aprovadoPiso ? '✓ Piso atingido no treino' : 'Piso não atingido'}
                       </span>
                     </div>
                     <div className="text-2xl font-mono font-bold text-ink">
@@ -881,7 +882,7 @@ export const SimuladoPage: React.FC = () => {
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold font-sans text-ink">Total Objetiva (P1 + P2)</span>
                       <span className={`text-xs font-mono font-bold ${avaliacao.total.aprovadoPiso ? 'text-ok' : 'text-err'}`}>
-                        {avaliacao.total.aprovadoPiso ? '✓ Aprovado' : '✗ Eliminado'}
+                        {avaliacao.total.aprovadoPiso ? '✓ Piso atingido no treino' : 'Piso não atingido'}
                       </span>
                     </div>
                     <div className="text-2xl font-mono font-bold text-ink">
@@ -1312,7 +1313,13 @@ export const SimuladoPage: React.FC = () => {
         </span>
       </div>
 
-      <p className="text-sm font-semibold text-ink-2" role="note">{isMegaSimulado ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
+      <p className="text-sm font-semibold text-ink-2" role="note">{modoProva ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
+      <fieldset className="flex flex-wrap gap-3 items-center text-sm text-ink">
+        <legend className="text-xs text-ink-2 mb-2">Como você quer praticar neste caderno?</legend>
+        <button type="button" aria-pressed={!modoProva} disabled={Object.keys(respostas).length > 0} className="min-h-[44px] px-4 rounded-xl border border-border bg-surface foco" onClick={() => setModoProva(false)}>Estudo · feedback a cada resposta</button>
+        <button type="button" aria-pressed={modoProva} disabled={Object.keys(respostas).length > 0} className="min-h-[44px] px-4 rounded-xl border border-border bg-surface foco" onClick={() => setModoProva(true)}>Prova · correção ao final</button>
+        {Object.keys(respostas).length > 0 && <span className="text-xs text-ink-2">O modo é definido antes da primeira resposta. Reinicie o caderno para escolher outro modo.</span>}
+      </fieldset>
       {renderSimuladoSelector()}
 
       {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
@@ -1322,7 +1329,7 @@ export const SimuladoPage: React.FC = () => {
           <span className="font-sans">
             <strong>Itens em conferência isolados:</strong> Este caderno possui{" "}
             <strong>{simuladoAtivo.itensForaConferencia} {simuladoAtivo.itensForaConferencia === 1 ? "item" : "itens"} em conferência fora desta prova</strong>{" "}
-            ({simuladoAtivo.questoes.length} itens ativos de {simuladoAtivo.totalNominal || 100} nominais). Nenhum item sob divergência é servido ao aluno.
+            ({simuladoAtivo.questoes.length} itens ativos de {simuladoAtivo.totalNominal || 100} nominais). Itens identificados como pendentes foram retirados deste treino; isso não homologa os demais.
           </span>
         </div>
       )}
@@ -1371,7 +1378,7 @@ export const SimuladoPage: React.FC = () => {
 
           {/* Placar Cebraspe: C - E */}
           <div className="flex items-center gap-4 text-xs font-mono">
-            {!isMegaSimulado && <><div className="flex items-center gap-1.5">
+            {!modoProva && <><div className="flex items-center gap-1.5">
               <span className="text-ink-2">Líquida:</span>
               <strong className="text-sm font-bold text-ink">
                 {notaLiquidaAtual > 0 ? `+${notaLiquidaAtual}` : notaLiquidaAtual}
@@ -1528,7 +1535,7 @@ export const SimuladoPage: React.FC = () => {
           </div>
 
           {/* Se for Mega Simulado da Câmara (120Q): Modo Prova Real (justificativas somente no relatório pós-prova) */}
-          {isMegaSimulado && respostaAtual && (
+          {modoProva && respostaAtual && (
             <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-ink-2 animate-fadeIn">
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-accent" />
@@ -1541,7 +1548,7 @@ export const SimuladoPage: React.FC = () => {
           )}
 
           {/* Nos Simulados de 100Q (M1 a M14): Estudo Reverso Imediato Obrigatório */}
-          {!isMegaSimulado && respostaAtual && (
+          {!modoProva && respostaAtual && (
             <div className="pt-6 border-t border-border space-y-4 animate-fadeIn" aria-live="polite">
               {/* Badge de cabeçalho do Estudo Reverso */}
               <div className="flex items-center justify-between gap-2 pb-1 border-b border-border/60 flex-wrap">
@@ -1719,7 +1726,7 @@ export const SimuladoPage: React.FC = () => {
 
         <AnswerSheet
           questions={questoesExibidas}
-          revelarResultados={!isMegaSimulado}
+          revelarResultados={!modoProva}
           respostas={respostas}
           currentIndex={currentIndex}
           onSelectQuestion={(idx) => mudarQuestaoSimulado(idx, selectedSimuladoId)}
@@ -1748,7 +1755,7 @@ export const SimuladoPage: React.FC = () => {
               <div className="flex-1 overflow-y-auto py-4">
                 <AnswerSheet
                   questions={questoesExibidas}
-          revelarResultados={!isMegaSimulado}
+          revelarResultados={!modoProva}
                   respostas={respostas}
                   currentIndex={currentIndex}
                   onSelectQuestion={(idx) => {

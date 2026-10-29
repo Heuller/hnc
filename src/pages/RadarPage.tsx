@@ -159,17 +159,17 @@ export const RadarPage: React.FC = () => {
             <h2 className="text-xs font-sans font-bold text-ink uppercase tracking-wider flex items-center gap-2 flex-wrap">
               <span>Marco Temporal Normativo do Edital nº 1/2026 (Itens 13.33 a 13.34.1)</span>
               <span className="text-xs font-mono px-2 py-0.5 rounded bg-accent/15 text-accent font-semibold">
-                Auditado Cebraspe
+                Referência cadastrada
               </span>
             </h2>
             <p className="text-xs text-ink-2 font-serif leading-relaxed">
-              Legislação e normas técnicas consideradas estritamente em vigor até a publicação do <strong>Edital nº 1 (02/10/2026)</strong>. Jurisprudência consolidada dos Tribunais Superiores (STF/STJ/TCU) aceita até 30 dias antes da data da prova: marco temporal de corte fixado em <strong>17/12/2026</strong> para a prova de <strong>17/01/2027</strong>.
+              Alterações legislativas em vigor até a publicação do <strong>Edital nº 1 (02/10/2026)</strong>. Legislação não vigente pode ser cobrada se explicitada nos objetos de avaliação (13.34). Jurisprudência dos tribunais superiores publicada até 30 dias antes da data da prova: marco temporal de corte fixado em <strong>18/12/2026</strong> para a prova de <strong>17/01/2027</strong>.
             </p>
           </div>
         </div>
         <div className="flex flex-row md:flex-col gap-2 shrink-0 w-full md:w-auto justify-between md:items-end">
           <Badge variant="accent" className="font-mono text-xs shrink-0">
-            Corte: 17/12/2026 (-30d)
+            Corte: 18/12/2026 (-30d)
           </Badge>
           <span className="text-xs font-mono text-ink-3">
             Prova: 17/01/2027

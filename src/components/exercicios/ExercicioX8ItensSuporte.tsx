@@ -1,3 +1,4 @@
+import { PainelEstudoReverso } from '../common/PainelEstudoReverso';
 import React, { useState } from 'react';
 import { obterTimestampAtual, calcularTempoDecorridoSegundos } from '../../utils/tempo';
 import { motion, AnimatePresence } from 'motion/react';
@@ -172,9 +173,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
               </div>
 
               {isItemRespondido && (
-                <div className="p-2.5 rounded-lg bg-surface border border-border text-xs font-serif text-ink leading-relaxed">
-                  <strong>Justificativa ({item.gabarito === 'C' ? 'Certo' : 'Errado'}):</strong> {item.justificativa}
-                </div>
+                <PainelEstudoReverso questao={{ id: item.id, item: item.enunciado, gabarito: item.gabarito, justificativa: item.justificativa }} resposta={resp} autoexplicacao={false} />
               )}
             </div>
           );

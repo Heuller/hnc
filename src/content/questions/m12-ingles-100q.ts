@@ -237,7 +237,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"), totalizando a dinâmica familiar descrita no episódio. Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (expressão idiomática: causa desespero emocional).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -245,8 +245,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "only three"
   },
   {
     "id": "m12-q-12",
@@ -279,7 +282,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O texto pontua explicitamente no segundo parágrafo: \"Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded... Then there’s the flip side, in which students and parents are penalized for unexcused absences\". O artigo estrutura-se inteiramente sobre essas duas alternativas fundamentais: recompensas pedagógicas e materiais versus penalidades financeiras e jurídicas.",
+    "justificativa": "Leitura do texto-base: CERTO. O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita.",
     "armadilhaBanca": "IDENTIFICAÇÃO LITERAL DE TESE: A assertiva reproduz a frase-chave do texto (\"Schools basically have two options when it comes to fighting chronic truancy\").",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -288,7 +291,9 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2373",
       "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+    },
+    "gatilho": "two ways",
+    "versao_errada": "The article states that schools have only one way of dealing with truancy."
   },
   {
     "id": "m12-q-14",
@@ -318,7 +323,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O texto pondera expressamente no quinto parágrafo: \"The concept of fining kids for skipping school may come as a shock, but it’s not new\". A banca avalia a compreensão do impacto da notícia sobre a opinião pública, destacando que medidas punitivas monetárias geram choque e surpresa (\"may come as a shock\"), apesar de antecedentes em Ohio e Los Angeles. Vocabulário essencial: \"truant / truancy\" (aluno faltoso / evasão escolar).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. O texto diz “may come as a shock, but it’s not new”: possibilidade de surpresa não prova choque para a maioria, e “not new” contradiz a novidade atribuída. O item extrapola quantificação e temporalidade. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INFERÊNCIA COM VOCABULÁRIO IDIOMÁTICO: O emprego da expressão \"play truant\" como correspondente exato de \"skipping school\" e \"habitual truancy\".",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -326,8 +331,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Time Magazine / Cebraspe",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2374",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "novelty"
   },
   {
     "id": "m12-q-16",
@@ -449,7 +457,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No contexto das medidas contra a evasão escolar, o texto examina os precedentes de coerção jurídica nos Estados Unidos (\"In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time...\"). Vocabulário essencial para retenção ativa: \"sentenced to jail time\" (condenado à pena de prisão), \"skipped classes\" (matou/faltou às aulas).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INTERPRETAÇÃO HISTÓRICA DO ABSENTEÍSMO: Apreensão de medidas coercitivas e criminais reportadas pelo texto no sistema educacional dos EUA.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -457,8 +465,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Time Magazine / Cebraspe",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2387",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "students could be sent to prison"
   },
   {
     "id": "m12-q-22",
@@ -468,7 +479,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life is somewhat similar to parking in New York.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto afirma que estacionar o carro em Nova York leva ao êxtase ou dilacera o coração, sendo uma continuação natural da vida em família, e não que a vida familiar em si se assemelhe a estacionar.",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: CERTO. O autor chama estacionar de “a natural continuation of family life” após descrever êxtase e sofrimento. A analogia aproxima as oscilações emocionais das duas experiências; “somewhat similar” não exige identidade entre elas. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INVERSAO_CONCEITUAL: Inverter a relação metafórica apresentada na crônica.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -476,9 +487,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2378",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "versao_correta": "In the text, the author describes parking in New York as a natural continuation of family life, characterized by oscillating extremes of ecstasy and distress, rather than asserting that family life itself resembles parking."
+    "versao_correta": "In the text, the author describes parking in New York as a natural continuation of family life, characterized by oscillating extremes of ecstasy and distress, rather than asserting that family life itself resembles parking.",
+    "gatilho": "somewhat similar"
   },
   {
     "id": "m12-q-23",
@@ -606,7 +620,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The word “allay” is used as a verb and it means reduce or ease.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo \"allay\" significa acalmar, dissipar, abrandar ou mitigar preocupações, suspeitas ou temores. A banca Cebraspe considerou o item incorreto por imprecisão contextual ou restrição de sentido ao propor substituição simplista.",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: CERTO. Em “to allay their concerns”, allay é verbo: aliviar ou reduzir preocupações. Reduce/ease são compatíveis com esse sentido; não há fundamento documental para atribuir ao CEBRASPE uma rejeição por “nuance”. Confira também o verbete allay no Collins English Dictionary. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "NUANCE_SEMANTICA: Desconsiderar a precisão semântica de \"allay\" no contexto de controle contábil histórico.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -614,9 +628,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2382",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "versao_correta": "In the context of the sentence, \"to allay their concerns\" means to relieve, calm or alleviate worries regarding accurate accounting, with Cebraspe considering that \"ease\" does not fully capture the nuance of relieving suspicion and anxiety."
+    "versao_correta": "In the context of the sentence, \"to allay their concerns\" means to relieve, calm or alleviate worries regarding accurate accounting, with Cebraspe considering that \"ease\" does not fully capture the nuance of relieving suspicion and anxiety.",
+    "gatilho": "allay"
   },
   {
     "id": "m12-q-29",
@@ -626,7 +643,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (causa desespero emocional).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -634,8 +651,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "only three"
   },
   {
     "id": "m12-q-30",
@@ -734,7 +754,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because itssuperintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto afirma com clareza que os pais é que foram sentenciados à prisão: \"In the past, parents have been sentenced to jail time for failing to get their children to school.\" Os alunos faltosos eram punidos com multas ou serviços comunitários, e não com cadeia.",
+    "justificativa": "Leitura do texto-base: ERRADO. O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos.",
     "armadilhaBanca": "TROCA_DE_SUJEITO: Atribuir a pena de prisão aos estudantes em vez de aos pais ou responsáveis.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -744,7 +764,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "origemAcervoLocal": "cespe-tec-2392",
       "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
     },
-    "versao_correta": "According to the text, parents—not students—were sentenced to jail time in the past for failing to ensure their children attended school."
+    "versao_correta": "The text says that parents have been sentenced to jail time for failing to get their children to school.",
+    "gatilho": "students could be sent to prison"
   },
   {
     "id": "m12-q-35",
@@ -866,7 +887,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Nowadays in LA students may be fined if they skip classes more than twice.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A lei modificada em Los Angeles estabelece que a penalidade de $ 20 pode ser aplicada especificamente na terceira infração (\"for the third offense\"), e não de forma irrestrita a qualquer falta após duas faltas.",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: CERTO. No tempo do texto, a penalidade de 20 dólares pode ocorrer na terceira infração (“may still be handed out for the third offense”). Três é mais que dois, e “may” expressa possibilidade, não punição automática para toda falta. “Nowadays” refere-se ao texto histórico, não à legislação atual de Los Angeles. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "DISTORCAO_DA_CONDICAO: Alterar a condição regrada (\"for the third offense\") para fórmula genérica.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -874,9 +895,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2399",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "versao_correta": "Under the amended Los Angeles law, a $20 penalty may be handed out specifically upon the third offense itself, rather than applying generally to any absence occurring after skipping classes more than twice."
+    "versao_correta": "Under the amended Los Angeles law, a $20 penalty may be handed out specifically upon the third offense itself, rather than applying generally to any absence occurring after skipping classes more than twice.",
+    "gatilho": "may be fined"
   },
   {
     "id": "m12-q-41",
@@ -1136,7 +1160,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O artigo identifica duas abordagens gerais (incentivos positivos e penalidades), mas elenca diversas medidas práticas no interior de cada abordagem (iPads, tênis, vales-presente, prisão de pais, multas financeiras e trabalho comunitário), não se restringindo a duas formas únicas de solução.",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: CERTO. O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "CONFUSAO_ENTRE_ABORDAGEM_E_METODO: Confundir as duas vertentes estratégicas gerais com a multiplicidade de instrumentos práticos.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1144,9 +1168,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)",
-      "revisar": true
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "versao_correta": "While the text outlines two broad philosophical approaches (incentives versus penalties), it details multiple distinct punitive and motivational mechanisms (fines, jail time, gift cards, community service), rather than limiting solutions to two singular methods."
+    "versao_correta": "While the text outlines two broad philosophical approaches (incentives versus penalties), it details multiple distinct punitive and motivational mechanisms (fines, jail time, gift cards, community service), rather than limiting solutions to two singular methods.",
+    "gatilho": "two ways"
   },
   {
     "id": "m12-q-53",
@@ -1318,7 +1344,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. In the text, \"outperform\" is synonymous with surpass.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No vocabulário corporativo do texto, \"outperform\" indica obter desempenho operacional e resultados financeiros superiores em relação aos pares, trazendo nuances gerenciais específicas de performance que a banca Cebraspe considerou não equivalentes à simples sinonímia genérica com \"surpass\".",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: CERTO. Outperform significa ter desempenho superior: superar, neste contexto, as organizações sem alinhamento estratégico. Cambridge registra surpass entre os sinônimos. Uma nuance de desempenho não elimina essa equivalência contextual. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "SINONIMIA_IMPRECISA: Considerar equivalente semântico absoluto um verbo gerencial técnico de desempenho com termo genérico.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1326,9 +1352,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2425",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "versao_correta": "In the business context of the text, \"outperform\" signifies delivering superior operational or financial performance and efficiency compared to competitors, carrying a more specific managerial connotation than the generic verb \"surpass\"."
+    "versao_correta": "In the business context of the text, \"outperform\" signifies delivering superior operational or financial performance and efficiency compared to competitors, carrying a more specific managerial connotation than the generic verb \"surpass\".",
+    "gatilho": "outperform"
   },
   {
     "id": "m12-q-61",
@@ -1338,7 +1367,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life is somewhat similar to parking in New York.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O autor traça uma analogia explícita logo no início da crônica: \"Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life.\" A montanha-russa de emoções entre o alívio e a tensão de estacionar reflete diretamente as oscilações cotidianas da dinâmica familiar descrita.",
+    "justificativa": "Leitura do texto-base: CERTO. O autor chama estacionar de “a natural continuation of family life” após descrever êxtase e sofrimento. A analogia aproxima as oscilações emocionais das duas experiências; “somewhat similar” não exige identidade entre elas.",
     "armadilhaBanca": "Assertiva tecnicamente correta: o autor utiliza a expressão \"natural continuation\" para estabelecer a conexão analógica e temática entre estacionar e a convivência familiar.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1348,9 +1377,9 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
       "revisar": true
     },
-    "gatilho": "is somewhat similar to parking in New York",
+    "gatilho": "somewhat similar",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life [corretamente formatado: is somewhat similar to parking in new york].",
-    "versao_errada": "The writer believes that family life has absolutely no similarity or connection to the emotional extremes of parking in New York."
+    "versao_errada": "The writer explicitly denies any similarity between family life and parking in New York."
   },
   {
     "id": "m12-q-62",
@@ -1450,7 +1479,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. 57) Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto afirma com todas as letras que a aplicação de multas por faltas escolares não é novidade nos Estados Unidos (\"The concept of fining kids for skipping school may come as a shock, but it’s not new\"), citando regras consolidadas em Ohio e Los Angeles.",
+    "justificativa": "Leitura do texto-base: ERRADO. O texto diz “may come as a shock, but it’s not new”: possibilidade de surpresa não prova choque para a maioria, e “not new” contradiz a novidade atribuída. O item extrapola quantificação e temporalidade.",
     "armadilhaBanca": "NEGACAO_DA_AFIRMATIVA_TEXTUAL: Qualificar como novidade chocante o que o próprio texto diz que não é novo.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1460,7 +1489,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
       "revisar": true
     },
-    "versao_correta": "The text explicitly notes that fining students for truancy \"is not new\" in the United States, citing long-standing established precedents in states such as Ohio and California."
+    "versao_correta": "The text says that fining students may come as a shock but is not new.",
+    "gatilho": "novelty"
   },
   {
     "id": "m12-q-67",
@@ -1787,7 +1817,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (causa desespero emocional).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1795,8 +1825,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "only three"
   },
   {
     "id": "m12-q-82",
@@ -1829,7 +1862,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O texto pontua explicitamente no segundo parágrafo: \"Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded... Then there’s the flip side, in which students and parents are penalized for unexcused absences\". O artigo estrutura-se inteiramente sobre essas duas alternativas fundamentais: recompensas pedagógicas e materiais versus penalidades financeiras e jurídicas.",
+    "justificativa": "Leitura do texto-base: CERTO. O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita.",
     "armadilhaBanca": "IDENTIFICAÇÃO LITERAL DE TESE: A assertiva reproduz a frase-chave do texto (\"Schools basically have two options when it comes to fighting chronic truancy\").",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1838,7 +1871,9 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2373",
       "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+    },
+    "gatilho": "two ways",
+    "versao_errada": "The article states that schools have only one way of dealing with truancy."
   },
   {
     "id": "m12-q-84",
@@ -1868,7 +1903,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O texto pondera expressamente no quinto parágrafo: \"The concept of fining kids for skipping school may come as a shock, but it’s not new\". A banca avalia a compreensão do impacto da notícia sobre a opinião pública, destacando que medidas punitivas monetárias geram choque e surpresa (\"may come as a shock\"), apesar de antecedentes em Ohio e Los Angeles. Vocabulário essencial: \"truant / truancy\" (aluno faltoso / evasão escolar).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. O texto diz “may come as a shock, but it’s not new”: possibilidade de surpresa não prova choque para a maioria, e “not new” contradiz a novidade atribuída. O item extrapola quantificação e temporalidade. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INFERÊNCIA COM VOCABULÁRIO IDIOMÁTICO: O emprego da expressão \"play truant\" como correspondente exato de \"skipping school\" e \"habitual truancy\".",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1876,8 +1911,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Time Magazine / Cebraspe",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2374",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "novelty"
   },
   {
     "id": "m12-q-86",
@@ -1932,7 +1970,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life is somewhat similar to parking in New York.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A crônica afirma que a busca por vaga funciona como uma extensão dos desafios familiares, não propondo uma comparação direta de identidade entre a vida familiar e o ato de estacionar.",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: CERTO. O autor chama estacionar de “a natural continuation of family life” após descrever êxtase e sofrimento. A analogia aproxima as oscilações emocionais das duas experiências; “somewhat similar” não exige identidade entre elas. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INVERSAO_CONCEITUAL: Inverter a relação metafórica apresentada na crônica.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1940,9 +1978,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2378",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "versao_correta": "In the text, the author describes parking in New York as a natural continuation of family life, characterized by oscillating extremes of ecstasy and distress, rather than asserting that family life itself resembles parking."
+    "versao_correta": "In the text, the author describes parking in New York as a natural continuation of family life, characterized by oscillating extremes of ecstasy and distress, rather than asserting that family life itself resembles parking.",
+    "gatilho": "somewhat similar"
   },
   {
     "id": "m12-q-89",
@@ -2001,7 +2042,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No contexto das medidas contra a evasão escolar, o texto examina os precedentes de coerção jurídica nos Estados Unidos (\"In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time...\"). Vocabulário essencial para retenção ativa: \"sentenced to jail time\" (condenado à pena de prisão), \"skipped classes\" (matou/faltou às aulas).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INTERPRETAÇÃO HISTÓRICA DO ABSENTEÍSMO: Apreensão de medidas coercitivas e criminais reportadas pelo texto no sistema educacional dos EUA.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2009,8 +2050,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Time Magazine / Cebraspe",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2387",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "students could be sent to prison"
   },
   {
     "id": "m12-q-92",
@@ -2067,7 +2111,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The word “allay” is used as a verb and it means reduce or ease.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No contexto do segmento ('...instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting...'), a banca Cebraspe considerou incorreta a correlação redutora de 'allay' meramente como 'reduce or ease'. A locução verbal 'to allay concerns' possui a nuance específica de aplacar, aquietar, dissipar ou aliviar suspeitas e ansiedades institucionais (to calm, relieve or put to rest fear or suspicion), não se restringindo a mera diminuição quantitativa ou afrouxamento.",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: CERTO. Em “to allay their concerns”, allay é verbo: aliviar ou reduzir preocupações. Reduce/ease são compatíveis com esse sentido; não há fundamento documental para atribuir ao CEBRASPE uma rejeição por “nuance”. Confira também o verbete allay no Collins English Dictionary. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "NUANCE_SEMANTICA: Desconsiderar a precisão semântica de \"allay\" no contexto de controle contábil histórico.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2075,9 +2119,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2382",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "versao_correta": "In the context of the sentence, \"to allay their concerns\" means to relieve, calm or alleviate worries regarding accurate accounting, with Cebraspe considering that \"ease\" does not fully capture the nuance of relieving suspicion and anxiety."
+    "versao_correta": "In the context of the sentence, \"to allay their concerns\" means to relieve, calm or alleviate worries regarding accurate accounting, with Cebraspe considering that \"ease\" does not fully capture the nuance of relieving suspicion and anxiety.",
+    "gatilho": "allay"
   },
   {
     "id": "m12-q-95",
@@ -2181,7 +2228,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (causa desespero emocional).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2189,8 +2236,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-    }
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "gatilho": "only three"
   },
   {
     "id": "m12-q-100",
@@ -2200,7 +2250,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because itssuperintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto aponta expressamente a responsabilização penal com pena de prisão direcionada aos pais (\"parents have been sentenced to jail time\"), recaindo sobre os estudantes outras sanções administrativas.",
+    "justificativa": "Leitura do texto-base: ERRADO. O texto atribui a prisão aos pais: “parents have been sentenced to jail time”. A assertiva troca parents por students. Multa a alunos não autoriza inferir prisão de alunos.",
     "armadilhaBanca": "TROCA_DE_SUJEITO: Atribuir a pena de prisão aos estudantes em vez de aos pais ou responsáveis.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2210,7 +2260,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
       "origemAcervoLocal": "cespe-tec-2392",
       "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
     },
-    "versao_correta": "According to the text, parents—not students—were sentenced to jail time in the past for failing to ensure their children attended school."
+    "versao_correta": "The text says that parents have been sentenced to jail time for failing to get their children to school.",
+    "gatilho": "students could be sent to prison"
   }
 ];
 

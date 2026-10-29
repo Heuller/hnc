@@ -51,7 +51,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
     });
 
     // Registra na Fonte Única de Respostas (ItemAttempts)
-    await adicionarItemAttempt({
+    if (submissao.respostaDada === 'C' || submissao.respostaDada === 'E') await adicionarItemAttempt({
       itemId: itemAtual.conceito.id,
       submoduloId: itemAtual.conceito.submoduloId,
       moduloId: itemAtual.conceito.moduloId,
