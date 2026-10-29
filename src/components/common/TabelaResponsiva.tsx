@@ -101,11 +101,11 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
     return (
       <div className={`my-6 w-full max-w-full ${className}`}>
         {finalTitulo && (
-          <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-ink mb-2">
+          <h3 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-ink mb-2">
             {finalTitulo}
-          </h4>
+          </h3>
         )}
-        <div className="overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
+        <div tabIndex={0} role="group" aria-label="Tabela comparativa com rolagem" className="overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
           <table
             className="w-full text-left text-xs sm:text-sm border-collapse min-w-[320px]"
             {...restProps}
@@ -130,9 +130,9 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
           </div>
           <div>
             {finalTitulo && (
-              <h4 className="text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-ink m-0">
+              <h3 className="text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-ink m-0">
                 {finalTitulo}
-              </h4>
+              </h3>
             )}
             {descricao && (
               <p className="text-xs text-ink-2 font-serif m-0 mt-0.5">{descricao}</p>
@@ -176,7 +176,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
        * Cabeçalhos com whitespace-nowrap para impedir quebra feia de termos
        * Zebrado nítido de alto contraste com bg-surface-3/50
        * ------------------------------------------------------------- */}
-      <div className="hidden sm:block md:block overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
+      <div tabIndex={0} role="group" aria-label="Tabela comparativa com rolagem" className="hidden sm:block md:block overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
         <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
           <thead className="bg-surface-3 text-ink font-bold border-b-2 border-border sticky top-0 z-10 shadow-2xs">
             <tr>

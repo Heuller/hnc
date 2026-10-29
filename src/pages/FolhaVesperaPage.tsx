@@ -1,3 +1,4 @@
+import { useSessionPreference } from '../hooks/useSessionPreference';
 import React, { useState } from 'react';
 import {
   Printer,
@@ -29,7 +30,7 @@ export const FolhaVesperaPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'blocos' | 'progresso' | 'mnemonicos'>('blocos');
   const [modoTreinoAtivo, setModoTreinoAtivo] = useState<boolean>(false);
   const [respostasTreino, setRespostasTreino] = useState<Record<string, 'C' | 'E'>>({});
-  const [selectedBloco, setSelectedBloco] = useState<string>('todos');
+  const [selectedBloco, setSelectedBloco] = useSessionPreference<string>('vespera:bloco', MATRIZ_BLOCOS_EDITAL_VESPERA[0].id);
 
   const handlePrint = () => {
     window.print();
@@ -249,7 +250,7 @@ export const FolhaVesperaPage: React.FC = () => {
               onClick={() => setModoTreinoAtivo(!modoTreinoAtivo)}
               className={`px-3 py-1.5 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
                 modoTreinoAtivo
-                  ? 'bg-emerald-600 text-white shadow-xs'
+                  ? 'bg-ok text-white shadow-xs'
                   : 'bg-accent text-white shadow-xs'
               }`}
             >
@@ -345,7 +346,7 @@ export const FolhaVesperaPage: React.FC = () => {
                               <span>{acertou ? 'ACERTOU' : 'CAIU NA PEGADINHA'}</span>
                             </span>
                           )}
-                          <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-bold">
+                          <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-accent dark:text-amber-400 font-bold">
                             GABARITO: {item.gabaritoOficial === 'E' ? 'ERRADO' : 'CERTO'}
                           </span>
                         </div>
@@ -501,7 +502,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {(alertasConsolidados.length > 0 || pegadinhasConsolidadas.length > 0) && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
                 <div className="flex items-center gap-2 border-b border-border pb-2">
-                  <AlertTriangle className="w-4 h-4 text-amber-500 print:text-black" />
+                  <AlertTriangle className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Alertas e Armadilhas dos Submódulos Concluídos ({alertasConsolidados.length + pegadinhasConsolidadas.length})
                   </h2>
@@ -513,7 +514,7 @@ export const FolhaVesperaPage: React.FC = () => {
                       key={`alerta-${idx}`}
                       className="p-3 rounded-xl bg-amber-500/10 border-l-4 border-l-amber-500 border-y border-r border-border print:border-gray-400 text-xs font-serif leading-relaxed text-ink print:text-black"
                     >
-                      <div className="flex items-center gap-1.5 text-xs font-mono text-amber-600 dark:text-amber-400 uppercase font-bold mb-1">
+                      <div className="flex items-center gap-1.5 text-xs font-mono text-accent dark:text-amber-400 uppercase font-bold mb-1">
                         <span>Alerta Cebraspe • Submódulo {alerta.subNumero}</span>
                       </div>
                       {alerta.texto}

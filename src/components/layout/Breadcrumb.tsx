@@ -32,7 +32,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ className = '' }) => {
               )}
               {isLast || !item.view ? (
                 <span
-                  className={isLast ? 'font-semibold text-ink truncate' : 'text-ink-2/70 shrink-0'}
+                  className={isLast ? 'font-semibold text-ink truncate' : 'text-ink-2 shrink-0'}
                   aria-current={isLast ? 'location' : undefined}
                 >
                   {item.rotulo}

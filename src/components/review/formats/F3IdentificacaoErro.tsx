@@ -30,7 +30,7 @@ export const F3IdentificacaoErro: React.FC<ExerciseFormatProps> = ({
     <div className="space-y-4">
       {/* Enunciado com Destaque para Caça ao Erro */}
       <div className="p-4 sm:p-5 rounded-2xl bg-surface border border-border shadow-editorial-sm">
-        <div className="flex items-center gap-1.5 text-xs font-sans font-bold uppercase tracking-wider text-rose-600 dark:text-rose-400 mb-2">
+        <div className="flex items-center gap-1.5 text-xs font-sans font-bold uppercase tracking-wider text-err dark:text-rose-400 mb-2">
           <Target className="w-4 h-4" />
           <span>{conceito.topico} · Caça ao Erro Cebraspe</span>
         </div>

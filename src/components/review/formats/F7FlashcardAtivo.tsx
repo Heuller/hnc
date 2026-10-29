@@ -58,7 +58,7 @@ export const F7FlashcardAtivo: React.FC<ExerciseFormatProps> = ({
                   : 'border-border bg-surface hover:border-emerald-500/50 text-ink'
               }`}
             >
-              <Check className="w-5 h-5 text-emerald-600" />
+              <Check className="w-5 h-5 text-ok" />
               <span>CERTO</span>
             </button>
 
@@ -72,7 +72,7 @@ export const F7FlashcardAtivo: React.FC<ExerciseFormatProps> = ({
                   : 'border-border bg-surface hover:border-rose-500/50 text-ink'
               }`}
             >
-              <X className="w-5 h-5 text-rose-600" />
+              <X className="w-5 h-5 text-err" />
               <span>ERRADO</span>
             </button>
           </div>

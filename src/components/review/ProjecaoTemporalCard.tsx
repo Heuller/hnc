@@ -20,10 +20,12 @@ export const ProjecaoTemporalCard: React.FC = () => {
     });
   }, [estados]);
 
+  const temHistorico = Object.values(estados).some(e => e.historico.length > 0);
+
   const corStatus = {
     confortavel: 'text-emerald-700 dark:text-emerald-300 bg-emerald-500/10 border-emerald-500/20',
     adequado: 'text-sky-700 dark:text-sky-300 bg-sky-500/10 border-sky-500/20',
-    acelerar: 'text-amber-700 dark:text-amber-300 bg-amber-500/10 border-amber-500/20',
+    acelerar: 'text-accent dark:text-amber-300 bg-amber-500/10 border-amber-500/20',
   }[projecao.statusCronograma];
 
   return (
@@ -36,8 +38,8 @@ export const ProjecaoTemporalCard: React.FC = () => {
               Projeção Cebraspe · 17/01/2027
             </span>
             <span className={`px-2.5 py-0.5 rounded-full text-xs font-sans font-semibold border ${corStatus}`}>
-              {projecao.statusCronograma === 'confortavel'
-                ? 'Margem Confortável'
+              {!temHistorico ? 'Sem dados de revisão' : projecao.statusCronograma === 'confortavel'
+                ? 'Capacidade disponível no plano'
                 : projecao.statusCronograma === 'adequado'
                 ? 'Cronograma Alinhado'
                 : 'Atenção Necessária'}
@@ -73,7 +75,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
         {/* Capacidade de Revisão */}
         <div className="p-3.5 sm:p-4 rounded-xl bg-bg border border-border">
           <div className="flex items-center gap-1.5 text-xs text-ink-3 mb-1">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+            <Sparkles className="w-3.5 h-3.5 text-ok" />
             <span>Capacidade de Ciclo</span>
           </div>
           <div className="text-2xl sm:text-3xl font-mono font-bold text-emerald-700 dark:text-emerald-400">
@@ -84,24 +86,24 @@ export const ProjecaoTemporalCard: React.FC = () => {
           </div>
         </div>
 
-        {/* Retenção Projetada */}
+        {/* Estimativa do modelo */}
         <div className="p-3.5 sm:p-4 rounded-xl bg-bg border border-border">
           <div className="flex items-center gap-1.5 text-xs text-ink-3 mb-1">
             <TrendingUp className="w-3.5 h-3.5 text-purple-600" />
-            <span>Retenção Projetada</span>
+            <span>Estimativa do modelo</span>
           </div>
           <div className="text-2xl sm:text-3xl font-mono font-bold text-purple-700 dark:text-purple-400">
-            {Math.round(projecao.retencaoProjetadaDataProva * 100)}%
+            {temHistorico ? `${Math.round(projecao.retencaoProjetadaDataProva * 100)}%` : 'Sem dados'}
           </div>
           <div className="text-xs text-ink-3 mt-0.5">
-            Meta Cebraspe: ≥ 85%
+            Não mede aprovação nem retenção individual
           </div>
         </div>
 
         {/* Ritmo Diário Recomendado */}
         <div className="p-3.5 sm:p-4 rounded-xl bg-bg border border-border">
           <div className="flex items-center gap-1.5 text-xs text-ink-3 mb-1">
-            <BookOpen className="w-3.5 h-3.5 text-amber-600" />
+            <BookOpen className="w-3.5 h-3.5 text-accent" />
             <span>Ritmo Recomendado</span>
           </div>
           <div className="text-2xl sm:text-3xl font-mono font-bold text-ink">
@@ -203,7 +205,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
                     {marco.titulo}
                   </h4>
                   {marco.concluido ? (
-                    <span className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-600">
+                    <span className="inline-flex items-center gap-1 text-xs font-semibold text-ok">
                       <CheckCircle2 className="w-3.5 h-3.5" />
                       Dominado
                     </span>
@@ -240,7 +242,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
       <div className="p-3.5 sm:p-4 rounded-xl bg-accent/5 border border-accent/15 flex items-start gap-3">
         <AlertCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
         <p className="text-xs sm:text-sm text-ink-2 leading-relaxed">
-          {projecao.mensagemPedagogica}
+          {temHistorico ? 'Estas estimativas dependem de parâmetros do modelo e do histórico registrado. Confira a recuperação em outro dia; o espaçamento sugerido não garante domínio.' : 'Comece a praticar e registre revisões. Sem histórico, não é possível estimar a sua retenção. A capacidade de calendário é apenas uma simulação de planejamento.'}
         </p>
       </div>
     </div>

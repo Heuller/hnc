@@ -333,7 +333,7 @@ export const TeoriaPage: React.FC = () => {
 
       <div className="max-w-7xl mx-auto flex gap-8 items-start">
         {/* Coluna Central de Leitura com largura configurável */}
-        <main className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-6 sm:space-y-8`}>
+        <article className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-6 sm:space-y-8`}>
           {/* Regra B6: No desktop mantenha só a sidebar; no mobile, um único seletor limpo sem redundâncias */}
           <div className="block lg:hidden space-y-2 mb-6 sm:mb-8 p-3.5 rounded-2xl bg-surface-2/60 border border-border/80 shadow-2xs">
             <label
@@ -441,7 +441,7 @@ export const TeoriaPage: React.FC = () => {
                   <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos · mín. 85%)</span>
                 </div>
               ) : learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao' ? (
-                <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-amber-500/15 border border-amber-500/40 text-amber-500 shadow-2xs">
+                <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-amber-500/15 border border-amber-500/40 text-accent shadow-2xs">
                   <RotateCcw className="w-3.5 h-3.5 shrink-0" />
                   <span>Em Revisão Dirigida ({learningState.taxaAcertoPercent}% nos checkpoints · mín. 85%)</span>
                 </div>
@@ -872,8 +872,8 @@ export const TeoriaPage: React.FC = () => {
                   <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos)</span>
                 </div>
               ) : rodapeNav.motivoBloqueioSubmodulo ? (
-                <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-300 font-sans text-xs flex items-center justify-center gap-2">
-                  <RotateCcw className="w-4 h-4 shrink-0 text-amber-500" />
+                <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-accent dark:text-amber-300 font-sans text-xs flex items-center justify-center gap-2">
+                  <RotateCcw className="w-4 h-4 shrink-0 text-accent" />
                   <span>{rodapeNav.motivoBloqueioSubmodulo}</span>
                 </div>
               ) : (
@@ -927,7 +927,7 @@ export const TeoriaPage: React.FC = () => {
               </button>
             )}
           </footer>
-        </main>
+        </article>
 
         {/* Coluna Lateral Direita no Desktop (>= 1280px / telas xl+) */}
         <aside

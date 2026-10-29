@@ -53,11 +53,11 @@ export const ExercicioX6CompletarExemplo: React.FC<ExercicioProps<ExercicioX6>> 
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
         <div className="flex items-center gap-2">
-          <div className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">
+          <div className="p-1.5 rounded-lg bg-emerald-500/10 text-ok dark:text-emerald-400">
             <Code2 className="w-4 h-4" />
           </div>
           <div>
-            <span className="text-xs font-bold font-sans uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+            <span className="text-xs font-bold font-sans uppercase tracking-wider text-ok dark:text-emerald-400">
               Completar o Exemplo · {exercicio.linguagem.toUpperCase()}
             </span>
             <span className="block text-xs text-ink-2">

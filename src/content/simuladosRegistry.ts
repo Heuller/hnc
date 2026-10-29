@@ -1,3 +1,4 @@
+import { EDITAL_CAMARA_2026 } from '../domain/edital/matrizEdital2026';
 import { filtrarQuestoesElegiveis } from '../domain/questoesElegiveis.ts';
 import type { CebraspeQuestion } from '../domain/types';
 import { simuladoFundamentos100Q } from './questions/m1-fundamentos-100q';
@@ -326,7 +327,27 @@ export const ALL_SIMULADOS_REGISTRY: SimuladoManifest[] = [
   ...SIMULADOS_FASE8_REGISTRY,
 ];
 
+const cacheTreinosEixo = new Map<string, SimuladoManifest>();
+
 export function getSimuladoById(id: string): SimuladoManifest {
+  const cached = cacheTreinosEixo.get(id);
+  if (cached) return cached;
+  if (id.startsWith('treino-eixo-')) {
+    const eixo = EDITAL_CAMARA_2026.eixos.find(e => `treino-${e.id}` === id);
+    if (eixo) {
+      const submodulosIds = [...new Set(eixo.topicos.flatMap(t => t.submodulosRef || []))];
+      const questoes = [...new Map(ALL_SIMULADOS_REGISTRY.flatMap(s => s.questoes)
+        .filter(q => submodulosIds.includes(q.submoduloId)).map(q => [q.id, q])).values()];
+      const manifest: SimuladoManifest = { id, macroModuloId: eixo.moduloHncId.toUpperCase(), numero: eixo.moduloHncNumero,
+        titulo: `Treino por eixo: ${eixo.nome}`, tituloCurto: eixo.nome,
+        subtitulo: `${questoes.length} itens elegíveis · Estudo com correção imediata`,
+        descricao: 'Questões dos submódulos deste eixo. A seleção não representa uma prova oficial.',
+        questoes, submodulosIds, totalNominal: questoes.length };
+      cacheTreinosEixo.set(id, manifest);
+      return manifest;
+    }
+  }
+
   return (
     ALL_SIMULADOS_REGISTRY.find((s) => s.id === id) ??
     SIMULADOS_REGISTRY[0]

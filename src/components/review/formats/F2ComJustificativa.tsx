@@ -53,7 +53,7 @@ export const F2ComJustificativa: React.FC<ExerciseFormatProps> = ({
                 : 'border-border bg-surface hover:border-emerald-500/40 text-ink'
             }`}
           >
-            <Check className="w-4 h-4 text-emerald-600" />
+            <Check className="w-4 h-4 text-ok" />
             <span>CERTO</span>
           </button>
 
@@ -67,7 +67,7 @@ export const F2ComJustificativa: React.FC<ExerciseFormatProps> = ({
                 : 'border-border bg-surface hover:border-rose-500/40 text-ink'
             }`}
           >
-            <X className="w-4 h-4 text-rose-600" />
+            <X className="w-4 h-4 text-err" />
             <span>ERRADO</span>
           </button>
         </div>

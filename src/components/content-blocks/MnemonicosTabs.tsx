@@ -104,9 +104,9 @@ export const MnemonicosTabs: React.FC<MnemonicosTabsProps> = ({
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.18, ease: 'easeOut' }}
             >
-              <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
+              <h3 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
                 Marcos Históricos da Disciplina
-              </h4>
+              </h3>
               <LinhaDoTempo items={mnemonicos.timeline} />
             </motion.div>
           )}
@@ -119,9 +119,9 @@ export const MnemonicosTabs: React.FC<MnemonicosTabsProps> = ({
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.18, ease: 'easeOut' }}
             >
-              <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
+              <h3 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
                 Autores Canônicos e Ideias-Chave
-              </h4>
+              </h3>
               <CartaoAutorGrid
                 autores={mnemonicos.autores}
                 className={isCompact ? 'grid-cols-1' : 'grid-cols-1 md:grid-cols-2'}
@@ -137,9 +137,9 @@ export const MnemonicosTabs: React.FC<MnemonicosTabsProps> = ({
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.18, ease: 'easeOut' }}
             >
-              <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
+              <h3 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
                 Padrões de Armadilhas do Cebraspe
-              </h4>
+              </h3>
               <PegadinhaCardList pegadinhas={mnemonicos.pegadinhas} />
             </motion.div>
           )}

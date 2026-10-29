@@ -27,6 +27,11 @@ interface NavigationState {
   selectedSubmodule: string;
   sidebarCollapsed: boolean;
   targetSimuladoId?: string;
+  targetQuestionId?: string;
+  targetEditalEixoId?: string;
+  setTargetQuestionId: (id?: string) => void;
+  navigateToQuestao: (simuladoId: string, questionId: string) => void;
+  navigateToEdital: (eixoId?: string) => void;
   // Rótulos de módulo/submódulo publicados pela TeoriaPage para o breadcrumb do cabeçalho
   contextoTeoria?: ContextoTeoria;
   setActiveView: (view: AppView) => void;
@@ -107,19 +112,24 @@ export const useNavigationStore = create<NavigationState>((set) => {
     window.addEventListener('hashchange', () => {
       const nextView = getViewFromHash();
       const nextSimuladoId = getSimuladoIdFromHash();
+      const params = new URLSearchParams(window.location.hash.split('?')[1]);
+      const nextQuestionId = params.get('item') || undefined;
+      const nextEixoId = params.get('eixo') || undefined;
       try {
         window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
       } catch {
         window.scrollTo(0, 0);
       }
       set((state) => {
-        if (state.activeView === nextView && state.targetSimuladoId === nextSimuladoId) {
+        if (state.activeView === nextView && state.targetSimuladoId === nextSimuladoId && state.targetQuestionId === nextQuestionId && state.targetEditalEixoId === nextEixoId) {
           return state;
         }
         return {
           activeView: nextView,
           currentRoute: nextView,
           targetSimuladoId: nextSimuladoId || state.targetSimuladoId,
+          targetQuestionId: nextQuestionId,
+          targetEditalEixoId: nextEixoId,
         };
       });
     });
@@ -179,6 +189,17 @@ export const useNavigationStore = create<NavigationState>((set) => {
         }
       }
       set({ selectedSubmodule: subId });
+    },
+    targetQuestionId: typeof window === 'undefined' ? undefined : new URLSearchParams(window.location.hash.split('?')[1]).get('item') || undefined,
+    targetEditalEixoId: typeof window === 'undefined' ? undefined : new URLSearchParams(window.location.hash.split('?')[1]).get('eixo') || undefined,
+    setTargetQuestionId: (id?: string) => set({ targetQuestionId: id }),
+    navigateToQuestao: (simuladoId: string, questionId: string) => {
+      window.location.hash = `simulado?id=${encodeURIComponent(simuladoId)}&item=${encodeURIComponent(questionId)}`;
+      set({ activeView: 'simulado', currentRoute: 'simulado', targetSimuladoId: simuladoId, targetQuestionId: questionId });
+    },
+    navigateToEdital: (eixoId?: string) => {
+      window.location.hash = eixoId ? `edital?eixo=${encodeURIComponent(eixoId)}` : 'edital';
+      set({ activeView: 'edital', currentRoute: 'edital', targetEditalEixoId: eixoId });
     },
     targetSimuladoId: initialTargetSimulado,
     setTargetSimuladoId: (id?: string) => {

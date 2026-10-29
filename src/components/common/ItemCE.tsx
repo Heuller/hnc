@@ -335,9 +335,9 @@ export const ItemCE: React.FC<ItemCEProps> = ({
 
             {/* Linha B: Fundamentação Dogmática (Por que é Certo/Errado) */}
             <div className="space-y-1">
-              <h4 className="text-xs font-bold font-sans text-ink uppercase tracking-wide">
+              <p className="m-0 text-xs font-bold font-sans text-ink uppercase tracking-wide">
                 Por que é {item.gabarito === 'C' ? 'CERTO' : 'ERRADO'}:
-              </h4>
+              </p>
               <p className="font-serif text-xs sm:text-sm leading-relaxed text-ink m-0">
                 {item.justificativa}
               </p>
@@ -359,7 +359,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
             {/* Linha D: Armadilha da Banca (se houver) */}
             {(item.armadilha || item.armadilhaBanca) && (
               <div className="flex items-start gap-2 text-xs text-amber-800 dark:text-amber-200 bg-amber-500/10 p-2.5 rounded-lg border border-amber-500/25">
-                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-amber-500" />
+                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-accent" />
                 <div className="space-y-0.5">
                   <span className="font-bold text-xs uppercase tracking-wide">
                     Técnica / Armadilha Identificada:

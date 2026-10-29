@@ -89,6 +89,7 @@ export const DiscursivaPage: React.FC = () => {
   const [isAvaliando, setIsAvaliando] = useState(false);
   const [erroAvaliacao, setErroAvaliacao] = useState<string | null>(null);
   const [copiado, setCopiado] = useState(false);
+  const [erroCopia, setErroCopia] = useState(false);
   const [isPadraoAberto, setIsPadraoAberto] = useState(true);
   const [isFolhaModalOpen, setIsFolhaModalOpen] = useState(false);
   const [abaAtiva, setAbaAtiva] = useState<'ia' | 'calibracao_humana'>('ia');
@@ -233,6 +234,7 @@ export const DiscursivaPage: React.FC = () => {
       return;
     }
 
+    setAbaAtiva('ia');
     setIsAvaliando(true);
     setErroAvaliacao(null);
 
@@ -317,7 +319,7 @@ export const DiscursivaPage: React.FC = () => {
     setNovoEnunciado('');
   };
 
-  const handleCopiarParaIA = () => {
+  const handleCopiarParaIA = async () => {
     if (!enunciadoAtivo) return;
     const promptPreenchido = PROMPT_CORRECAO_TEMPLATE
       .replace('{{tipo}}', enunciadoAtivo.tipo === 'questao_20' ? 'Questão Discursiva (20L)' : 'Peça Técnica (50L)')
@@ -327,13 +329,19 @@ export const DiscursivaPage: React.FC = () => {
       .replace('{{n_linhas_estimadas}}', String(linhasEstimadas))
       .replace('{{texto}}', textoCandidato);
 
-    navigator.clipboard.writeText(promptPreenchido);
-    setCopiado(true);
-    setTimeout(() => setCopiado(false), 2500);
+    setCopiado(false);
+    setErroCopia(false);
+    try {
+      await navigator.clipboard.writeText(promptPreenchido);
+      setCopiado(true);
+      setTimeout(() => setCopiado(false), 2500);
+    } catch {
+      setErroCopia(true);
+    }
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8 select-none">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8">
       {/* Cabeçalho Editorial */}
       <div className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-3">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -453,9 +461,10 @@ export const DiscursivaPage: React.FC = () => {
       {/* ÁREA DE TRABALHO: COLUNAS */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-start">
         {/* COLUNA ESQUERDA: TEMAS E PADRÃO DE RESPOSTA */}
-        <div className="space-y-5">
+        <div className="space-y-5 lg:order-1">
           {/* Seletor de Temas e Trilha D1-D9 */}
-          <div className="bg-surface border border-border rounded-2xl p-4 shadow-editorial-sm space-y-3">
+          <details className="bg-surface border border-border rounded-2xl p-4 shadow-editorial-sm space-y-3">
+            <summary className="min-h-[44px] cursor-pointer font-semibold text-ink">Trocar tema · {enunciadoAtivo?.titulo}</summary>
             {/* Tabs de Seleção: Trilha D1-D9 vs Banco Geral */}
             <div className="flex border-b border-border pb-1 gap-1">
               <button
@@ -533,7 +542,7 @@ export const DiscursivaPage: React.FC = () => {
                 ))}
               </div>
             )}
-          </div>
+          </details>
 
           {/* Padrão de Resposta Preliminar da Banca */}
           {enunciadoAtivo && (
@@ -583,7 +592,7 @@ export const DiscursivaPage: React.FC = () => {
         </div>
 
         {/* COLUNA PRINCIPAL: ENUNCIADO, EDITOR, AVALIAÇÃO E HISTÓRICO */}
-        <div className="lg:col-span-2 space-y-6">
+        <div className="lg:col-span-2 space-y-6 order-first lg:order-2">
           {/* Alerta / Diretriz Pedagógica da Trilha D1-D9 */}
           {sessaoTrilhaAtiva && (
             <div className="p-4 rounded-2xl bg-purple-500/10 border border-purple-500/30 text-ink space-y-2.5">
@@ -646,7 +655,7 @@ export const DiscursivaPage: React.FC = () => {
                 <span
                   className={`px-2.5 py-0.5 rounded-full text-xs font-mono font-bold border ${
                     linhasEstimadas > limiteLinhas
-                      ? 'bg-rose-500/10 border-rose-500/30 text-rose-600'
+                      ? 'bg-rose-500/10 border-rose-500/30 text-err'
                       : 'bg-surface-2 border-border text-ink'
                   }`}
                 >
@@ -668,6 +677,12 @@ export const DiscursivaPage: React.FC = () => {
               className="w-full p-4 rounded-xl bg-surface-2/30 border border-border text-sm text-ink font-serif leading-relaxed focus:outline-hidden focus:ring-1 focus:ring-accent resize-y"
             />
 
+            {erroCopia && <div role="alert" className="p-4 rounded-xl bg-alerta-soft border border-border text-ink space-y-2">
+              <p>Não foi possível copiar. Selecione e copie o prompt abaixo manualmente.</p>
+              <textarea readOnly aria-label="Prompt para cópia manual" className="w-full p-3 rounded-lg border border-border bg-surface text-ink select-text" rows={5}
+                value={enunciadoAtivo ? PROMPT_CORRECAO_TEMPLATE.replace('{{tipo}}', enunciadoAtivo.tipo === 'questao_20' ? 'Questão Discursiva (20L)' : 'Peça Técnica (50L)').replace('{{limite_linhas}}', String(limiteLinhas)).replace('{{enunciado}}', enunciadoAtivo.enunciado).replace('{{padrao}}', enunciadoAtivo.padraoRespostaPreliminar).replace('{{n_linhas_estimadas}}', String(linhasEstimadas)).replace('{{texto}}', textoCandidato) : ''}
+                onFocus={event => event.currentTarget.select()} />
+            </div>}
             {/* Barra de Ações: Avaliar com IA, Salvar e Copiar */}
             <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
               <div className="flex items-center gap-2">
@@ -689,7 +704,7 @@ export const DiscursivaPage: React.FC = () => {
                   className="flex items-center gap-1.5 text-ink-2 hover:text-ink text-xs cursor-pointer"
                   title="Copiar prompt completo para uso externo"
                 >
-                  {copiado ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
+                  {copiado ? <Check className="w-3.5 h-3.5 text-ok" /> : <Copy className="w-3.5 h-3.5" />}
                   <span>{copiado ? 'Copiado!' : 'Copiar Prompt'}</span>
                 </Button>
               </div>
@@ -778,7 +793,7 @@ export const DiscursivaPage: React.FC = () => {
               {erroAvaliacao && !isAvaliando && (
                 <div role="alert" className="p-4 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 text-xs flex flex-wrap items-center justify-between gap-3">
                   <div className="flex items-center gap-2">
-                    <AlertTriangle className="w-4 h-4 text-rose-600 shrink-0" />
+                    <AlertTriangle className="w-4 h-4 text-err shrink-0" />
                     <span>{erroAvaliacao}</span>
                   </div>
                   <Button variant="outline" size="sm" onClick={handleAvaliarComBanca}>
@@ -838,8 +853,8 @@ export const DiscursivaPage: React.FC = () => {
                           <span
                             className={`text-xs font-mono px-1.5 py-0.5 rounded font-bold border ${
                               v.avaliacao.situacao === 'HABILITADO'
-                                ? 'bg-emerald-500/10 text-emerald-600 border-emerald-500/20'
-                                : 'bg-rose-500/10 text-rose-600 border-rose-500/20'
+                                ? 'bg-emerald-500/10 text-ok border-emerald-500/20'
+                                : 'bg-rose-500/10 text-err border-rose-500/20'
                             }`}
                           >
                             Nota: {v.avaliacao.notaFinal.toFixed(2)} pts ({v.avaliacao.situacao})

@@ -212,7 +212,7 @@ export const DesignSystemPage: React.FC = () => {
           </aside>
 
           <aside className="p-4 rounded-xl border-l-4 border shadow-xs flex items-start gap-3 border-l-emerald-500 border-emerald-200/80 dark:border-emerald-800/60 bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-950 dark:text-emerald-200">
-            <Lightbulb className="w-5 h-5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
+            <Lightbulb className="w-5 h-5 text-ok dark:text-emerald-400 shrink-0 mt-0.5" />
             <div className="text-sm">
               <strong className="block font-sans font-bold text-xs uppercase tracking-wider mb-0.5">Dica</strong>
               <span>Estratégia prática de estudo, memorização e associação rápida para a prova.</span>
@@ -228,7 +228,7 @@ export const DesignSystemPage: React.FC = () => {
           </aside>
 
           <aside className="p-4 rounded-xl border-l-4 border shadow-xs flex items-start gap-3 border-l-amber-500 border-amber-200/80 dark:border-amber-800/60 bg-amber-50/80 dark:bg-amber-950/40 text-amber-950 dark:text-amber-200">
-            <AlertTriangle className="w-5 h-5 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
+            <AlertTriangle className="w-5 h-5 text-accent dark:text-amber-400 shrink-0 mt-0.5" />
             <div className="text-sm">
               <strong className="block font-sans font-bold text-xs uppercase tracking-wider mb-0.5">Atenção</strong>
               <span>Ponto crítico de confusão conceitual onde muitos candidatos erram itens simples.</span>
@@ -236,7 +236,7 @@ export const DesignSystemPage: React.FC = () => {
           </aside>
 
           <aside className="p-4 rounded-xl border-l-4 border shadow-xs flex items-start gap-3 border-l-rose-500 border-rose-200/80 dark:border-rose-800/60 bg-rose-50/80 dark:bg-rose-950/40 text-rose-950 dark:text-rose-200">
-            <AlertOctagon className="w-5 h-5 text-rose-600 dark:text-rose-400 shrink-0 mt-0.5" />
+            <AlertOctagon className="w-5 h-5 text-err dark:text-rose-400 shrink-0 mt-0.5" />
             <div className="text-sm">
               <strong className="block font-sans font-bold text-xs uppercase tracking-wider mb-0.5">Casca de banana</strong>
               <span>Armadilha clássica e distratores maliciosos empregados pela banca Cebraspe.</span>

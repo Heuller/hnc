@@ -143,9 +143,13 @@ export const SimuladoPage: React.FC = () => {
     setSelectedSubmodule,
     setActiveView,
     targetSimuladoId,
+    targetQuestionId,
+    setTargetQuestionId,
     setTargetSimuladoId,
+    navigateToSimulado,
   } = useNavigationStore();
 
+  const [catalogoAberto, setCatalogoAberto] = useState(false);
   const [relatorioFinal, setRelatorioFinal] = useState<SimuladoFinalizado | null>(null);
   const [isAnswerSheetMobileOpen, setIsAnswerSheetMobileOpen] = useState(false);
   const [categoriaSimuladoFiltro, setCategoriaSimuladoFiltro] = useState<
@@ -155,18 +159,22 @@ export const SimuladoPage: React.FC = () => {
   // Seleção de simulado ativo com restauração resiliente de sessão
   const initialSimuladoId = () => {
     if (targetSimuladoId) return targetSimuladoId;
-    if (ultimoSimuladoAcessadoId && ALL_SIMULADOS_REGISTRY.some((s) => s.id === ultimoSimuladoAcessadoId)) {
+    if (ultimoSimuladoAcessadoId && (ALL_SIMULADOS_REGISTRY.some((s) => s.id === ultimoSimuladoAcessadoId) || ultimoSimuladoAcessadoId.startsWith('treino-eixo-'))) {
       return ultimoSimuladoAcessadoId;
     }
     return 'm1-fundamentos';
   };
   const [selectedSimuladoId, setSelectedSimuladoId] = useState<string>(initialSimuladoId);
 
-  // F-13/F-16: Sincroniza navegação externa para o simulado alvo durante render
-  if (targetSimuladoId && targetSimuladoId !== selectedSimuladoId) {
-    setSelectedSimuladoId(targetSimuladoId);
-    setTargetSimuladoId(undefined);
-  }
+  // Consome o destino externo uma vez, inclusive quando já é o caderno inicial.
+  useEffect(() => {
+    if (!targetSimuladoId) return;
+    const frame = requestAnimationFrame(() => {
+      if (targetSimuladoId !== selectedSimuladoId) setSelectedSimuladoId(targetSimuladoId);
+      setTargetSimuladoId(undefined);
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [targetSimuladoId, selectedSimuladoId, setTargetSimuladoId]);
 
   const simuladoAtivo = getSimuladoById(selectedSimuladoId);
   const isMegaSimulado = selectedSimuladoId === 'mega-simulado-camara';
@@ -189,6 +197,13 @@ export const SimuladoPage: React.FC = () => {
       .map((id) => map.get(id))
       .filter((q): q is (typeof simuladoAtivo.questoes)[0] => Boolean(q));
   }, [itensFiltradosReteste, simuladoAtivo.questoes]);
+
+  useEffect(() => {
+    if (!targetQuestionId || (targetSimuladoId && targetSimuladoId !== selectedSimuladoId)) return;
+    const index = questoesExibidas.findIndex(q => q.id === targetQuestionId);
+    if (index >= 0) mudarQuestaoSimulado(index, selectedSimuladoId);
+    setTargetQuestionId(undefined);
+  }, [targetQuestionId, targetSimuladoId, selectedSimuladoId, questoesExibidas, mudarQuestaoSimulado, setTargetQuestionId]);
 
   const sessaoAtual = obterSessaoSimulado(selectedSimuladoId);
   const currentIndex = Math.max(
@@ -389,7 +404,9 @@ export const SimuladoPage: React.FC = () => {
   });
 
   const renderSimuladoSelector = () => (
-    <div className="space-y-2 w-full">
+    <details open={catalogoAberto} onToggle={event => setCatalogoAberto(event.currentTarget.open)} className="w-full rounded-xl border border-border bg-surface p-3">
+      <summary className="min-h-[44px] cursor-pointer font-semibold text-sm text-ink foco">Trocar caderno · {simuladoAtivo.questoes.length} itens neste treino</summary>
+      <div className="space-y-3 pt-3">
       {/* Abas de Categorias */}
       <div className="flex items-center gap-1.5 p-1 bg-surface-2 rounded-xl border border-border w-fit text-xs font-sans overflow-x-auto max-w-full">
         <button
@@ -453,7 +470,8 @@ export const SimuladoPage: React.FC = () => {
               onClick={() => {
                 if (sim.id !== selectedSimuladoId) {
                   salvarTempoSimulado(selectedSimuladoId, tempoGasto);
-                  setSelectedSimuladoId(sim.id);
+                  navigateToSimulado(sim.id);
+                  setCatalogoAberto(false);
                   setSimuladoAtivoId(sim.id);
                 }
               }}
@@ -474,7 +492,7 @@ export const SimuladoPage: React.FC = () => {
               {Boolean(sim.itensForaConferencia) && (
                 <span
                   title={`${sim.itensForaConferencia} itens em conferência fora desta prova`}
-                  className="font-mono text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/30"
+                  className="font-mono text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-accent dark:text-amber-400 border border-amber-500/30"
                 >
                   -{sim.itensForaConferencia} conf.
                 </span>
@@ -483,7 +501,8 @@ export const SimuladoPage: React.FC = () => {
           );
         })}
       </div>
-    </div>
+      </div>
+    </details>
   );
 
     const moduloAtual =
@@ -496,7 +515,7 @@ export const SimuladoPage: React.FC = () => {
     const moduloAtualSubmodules = moduloAtual.modulosFilhos || [];
     const isMiniSimulado = simuladoAtivo.id === 'mini-modulo-orgaos';
     const accessControl: SimuladoAccessControl =
-      isMegaSimulado || isMiniSimulado
+      isMegaSimulado || isMiniSimulado || selectedSimuladoId.startsWith('treino-eixo-')
         ? {
             isUnlocked: true,
             totalSubmodulosConcluidos: 1,
@@ -513,15 +532,23 @@ export const SimuladoPage: React.FC = () => {
           );
 
     // SE O SIMULADO ESTIVER BLOQUEADO (Parte G - Requisito Pedagógico)
-    if (!accessControl.isUnlocked) {
+    if (simuladoAtivo.questoes.length === 0) {
+    return <section className="space-y-5 max-w-3xl mx-auto"><h1 className="text-2xl font-serif">{simuladoAtivo.titulo}</h1>
+      <p>Este eixo ainda não possui questões elegíveis. Estude a teoria correspondente ou escolha outro caderno.</p>
+      <button type="button" className="min-h-[44px] px-4 rounded-xl border border-border" onClick={() => { setSelectedSubmodule(simuladoAtivo.submodulosIds[0] || '1.1'); setActiveView('teoria'); }}>Estudar este eixo na teoria</button>
+      {renderSimuladoSelector()}</section>;
+  }
+  if (!accessControl.isUnlocked) {
       return (
         <div className="max-w-3xl mx-auto py-8 sm:py-12 px-4 space-y-6 animate-fadeIn">
-          {renderSimuladoSelector()}
+          <p className="text-sm font-semibold text-ink-2" role="note">{isMegaSimulado ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
+      <p className="text-sm font-semibold text-ink-2" role="note">{isMegaSimulado ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
+      {renderSimuladoSelector()}
 
       {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
       {Boolean(simuladoAtivo.itensForaConferencia) && (
-        <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center gap-2.5 text-xs text-amber-600 dark:text-amber-400">
-          <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
+        <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center gap-2.5 text-xs text-accent dark:text-amber-400">
+          <AlertTriangle className="w-4 h-4 shrink-0 text-accent" />
           <span className="font-sans">
             <strong>Itens em conferência isolados:</strong> Este caderno possui{" "}
             <strong>{simuladoAtivo.itensForaConferencia} {simuladoAtivo.itensForaConferencia === 1 ? "item" : "itens"} em conferência fora desta prova</strong>{" "}
@@ -531,7 +558,7 @@ export const SimuladoPage: React.FC = () => {
       )}
           <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-editorial-sm space-y-6 text-center sm:text-left">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 pb-6 border-b border-border">
-              <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-500 shrink-0">
+              <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-accent shrink-0">
                 <Lock className="w-7 h-7" />
               </div>
               <div className="space-y-1">
@@ -600,10 +627,10 @@ export const SimuladoPage: React.FC = () => {
                             {isConcluidoSub ? (
                               <span className="text-ok font-semibold flex items-center gap-1">
                                 <CheckCircle2 className="w-3.5 h-3.5" />
-                                Domínio Aferido
+                                Etapa concluída
                               </span>
                             ) : pendente?.status === 'em_revisao_dirigida' || (pendente?.status as string) === 'em_revisao' ? (
-                              <span className="text-amber-500 font-medium">
+                              <span className="text-accent font-medium">
                                 Em Revisão Dirigida (Refaça os checkpoints para &ge; 85%)
                               </span>
                             ) : (
@@ -759,7 +786,7 @@ export const SimuladoPage: React.FC = () => {
                     {/* Alerta Informativo C4: Itens Já Vistos nos Módulos e Não Impacto no Domínio */}
           {(simuladoAtivo.questoes.length === 180 || selectedSimuladoId.includes('180') || itensVistosInfo.totalVistos > 0) && (
             <div className="p-4 rounded-xl border border-amber-500/30 bg-amber-500/10 text-ink space-y-1.5 my-6 print:border-gray-300 print:bg-gray-50 print:break-inside-avoid">
-              <div className="flex items-center gap-2 font-sans font-bold text-sm text-amber-700 dark:text-amber-400 print:text-black">
+              <div className="flex items-center gap-2 font-sans font-bold text-sm text-accent dark:text-amber-400 print:text-black">
                 <Info className="w-4 h-4 shrink-0" />
                 <span>{itensVistosInfo.totalVistos} de {simuladoAtivo.questoes.length} itens já vistos nos módulos ({itensVistosInfo.porcentagemVistos}%)</span>
               </div>
@@ -789,7 +816,7 @@ export const SimuladoPage: React.FC = () => {
                     {avaliacao.eliminado ? (
                       <ShieldAlert className="w-6 h-6 text-err shrink-0" />
                     ) : (
-                      <Award className="w-6 h-6 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                      <Award className="w-6 h-6 text-ok dark:text-emerald-400 shrink-0" />
                     )}
                     <div>
                       <h3 className="font-sans font-bold text-base text-ink">
@@ -1285,12 +1312,13 @@ export const SimuladoPage: React.FC = () => {
         </span>
       </div>
 
+      <p className="text-sm font-semibold text-ink-2" role="note">{isMegaSimulado ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
       {renderSimuladoSelector()}
 
       {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
       {Boolean(simuladoAtivo.itensForaConferencia) && (
-        <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center gap-2.5 text-xs text-amber-600 dark:text-amber-400">
-          <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
+        <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center gap-2.5 text-xs text-accent dark:text-amber-400">
+          <AlertTriangle className="w-4 h-4 shrink-0 text-accent" />
           <span className="font-sans">
             <strong>Itens em conferência isolados:</strong> Este caderno possui{" "}
             <strong>{simuladoAtivo.itensForaConferencia} {simuladoAtivo.itensForaConferencia === 1 ? "item" : "itens"} em conferência fora desta prova</strong>{" "}
@@ -1303,7 +1331,7 @@ export const SimuladoPage: React.FC = () => {
       {itensFiltradosReteste && (
         <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-between gap-3 text-xs">
           <div className="flex items-center gap-2">
-            <RotateCcw className="w-4 h-4 text-amber-500" />
+            <RotateCcw className="w-4 h-4 text-accent" />
             <span className="font-sans text-ink">
               <strong>Modo Prática / Reteste de Erros:</strong> {questoesExibidas.length} itens errados em ordem embaralhada.
             </span>
@@ -1323,7 +1351,7 @@ export const SimuladoPage: React.FC = () => {
 
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Coluna Principal da Questão */}
-        <main className="flex-1 min-w-0 space-y-6">
+        <article className="flex-1 min-w-0 space-y-6">
         {/* Barra Superior do Simulado: Placar em Tempo Real */}
         <section
           aria-label="Placar em Tempo Real"
@@ -1343,7 +1371,7 @@ export const SimuladoPage: React.FC = () => {
 
           {/* Placar Cebraspe: C - E */}
           <div className="flex items-center gap-4 text-xs font-mono">
-            <div className="flex items-center gap-1.5">
+            {!isMegaSimulado && <><div className="flex items-center gap-1.5">
               <span className="text-ink-2">Líquida:</span>
               <strong className="text-sm font-bold text-ink">
                 {notaLiquidaAtual > 0 ? `+${notaLiquidaAtual}` : notaLiquidaAtual}
@@ -1354,7 +1382,8 @@ export const SimuladoPage: React.FC = () => {
               <span className="text-err">✗ {errosCount}</span>
               <span>⚪ {brancoCount}</span>
             </div>
-            <span className="text-ink-2">({respondidasCount}/{questoesExibidas.length})</span>
+            </>}
+            <span className="text-ink-2">({respondidasCount}/{questoesExibidas.length} respondidas)</span>
           </div>
         </section>
 
@@ -1589,7 +1618,7 @@ export const SimuladoPage: React.FC = () => {
                         ✓ conferida no acervo oficial
                       </span>
                     ) : (
-                      <span className="text-amber-600 dark:text-amber-400 font-sans text-xs">
+                      <span className="text-accent dark:text-amber-400 font-sans text-xs">
                         (inédita / não confirmada em prova real)
                       </span>
                     )}
@@ -1673,7 +1702,7 @@ export const SimuladoPage: React.FC = () => {
             </span>
           </div>
         </div>
-      </main>
+      </article>
 
       {/* Coluna Lateral da Folha de Respostas no Desktop */}
       <aside
@@ -1683,13 +1712,14 @@ export const SimuladoPage: React.FC = () => {
         <div className="flex items-center justify-between pb-3 mb-3 border-b border-border">
           <div className="flex items-center gap-2">
             <Layers className="w-4 h-4 text-accent" />
-            <h3 className="font-sans font-bold text-ink text-sm">Folha de Respostas</h3>
+            <h2 className="font-sans font-bold text-ink text-sm">Folha de Respostas</h2>
           </div>
           <span className="font-mono text-xs text-ink-2">{questoesExibidas.length} itens</span>
         </div>
 
         <AnswerSheet
           questions={questoesExibidas}
+          revelarResultados={!isMegaSimulado}
           respostas={respostas}
           currentIndex={currentIndex}
           onSelectQuestion={(idx) => mudarQuestaoSimulado(idx, selectedSimuladoId)}
@@ -1718,6 +1748,7 @@ export const SimuladoPage: React.FC = () => {
               <div className="flex-1 overflow-y-auto py-4">
                 <AnswerSheet
                   questions={questoesExibidas}
+          revelarResultados={!isMegaSimulado}
                   respostas={respostas}
                   currentIndex={currentIndex}
                   onSelectQuestion={(idx) => {

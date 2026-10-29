@@ -221,7 +221,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
                   aria-label="Atenção"
                   className="my-5 p-4 sm:p-5 rounded-2xl border-l-4 border shadow-xs flex items-start gap-3.5 border-l-amber-500 border-amber-200/80 bg-amber-50/80 text-amber-950 dark:bg-amber-950/40 dark:border-amber-800/60 dark:text-amber-200"
                 >
-                  <div className="p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 text-amber-600 dark:text-amber-400">
+                  <div className="p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 text-accent dark:text-amber-400">
                     <AlertTriangle className="w-5 h-5" />
                   </div>
                   <div className="text-[14.5px] sm:text-[15px] leading-relaxed flex-1 font-medium prose-p:my-1 first:prose-p:mt-0 last:prose-p:mb-0">
@@ -238,7 +238,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
                   aria-label="Dica"
                   className="my-5 p-4 sm:p-5 rounded-2xl border-l-4 border shadow-xs flex items-start gap-3.5 border-l-emerald-500 border-emerald-200/80 bg-emerald-50/80 text-emerald-950 dark:bg-emerald-950/40 dark:border-emerald-800/60 dark:text-emerald-200"
                 >
-                  <div className="p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 text-emerald-600 dark:text-emerald-400">
+                  <div className="p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 text-ok dark:text-emerald-400">
                     <Lightbulb className="w-5 h-5" />
                   </div>
                   <div className="text-[14.5px] sm:text-[15px] leading-relaxed flex-1 font-medium prose-p:my-1 first:prose-p:mt-0 last:prose-p:mb-0">

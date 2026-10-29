@@ -89,7 +89,7 @@ export const DevRascunhosPage: React.FC = () => {
           <span>Voltar ao Painel</span>
         </button>
 
-        <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 font-bold">
+        <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/10 text-accent dark:text-amber-400 border border-amber-500/20 font-bold">
           Ambiente de Homologação DEV
         </span>
       </div>
@@ -127,11 +127,11 @@ export const DevRascunhosPage: React.FC = () => {
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
             <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Gabarito CERTO</span>
-            <span className="text-2xl font-black text-emerald-600 dark:text-emerald-400">{stats.certos}</span>
+            <span className="text-2xl font-black text-ok dark:text-emerald-400">{stats.certos}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
             <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Gabarito ERRADO</span>
-            <span className="text-2xl font-black text-amber-600 dark:text-amber-400">{stats.errados}</span>
+            <span className="text-2xl font-black text-accent dark:text-amber-400">{stats.errados}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
             <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Submódulos</span>
@@ -170,7 +170,7 @@ export const DevRascunhosPage: React.FC = () => {
             <button
               onClick={() => setSelectedGabaritoFilter('C')}
               className={`px-2.5 py-1 rounded text-xs font-semibold cursor-pointer transition-colors ${
-                selectedGabaritoFilter === 'C' ? 'bg-emerald-600 text-white' : 'bg-surface-2 text-ink-2 hover:text-ink'
+                selectedGabaritoFilter === 'C' ? 'bg-ok text-white' : 'bg-surface-2 text-ink-2 hover:text-ink'
               }`}
             >
               Certo ({stats.certos})
@@ -256,8 +256,8 @@ export const DevRascunhosPage: React.FC = () => {
                     <span
                       className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-black uppercase tracking-wider ${
                         isCerto
-                          ? 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20'
-                          : 'bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20'
+                          ? 'bg-emerald-500/10 text-ok dark:text-emerald-400 border border-emerald-500/20'
+                          : 'bg-amber-500/10 text-accent dark:text-amber-400 border border-amber-500/20'
                       }`}
                     >
                       {isCerto ? (

@@ -215,7 +215,7 @@ export const AuthGate: React.FC = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Usuário ou e-mail"
-                    className="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
+                    className="min-h-[48px] w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
                   />
                 </div>
               </div>
@@ -248,13 +248,13 @@ export const AuthGate: React.FC = () => {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       placeholder="Sua senha"
-                      className="w-full pl-9 pr-9 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
+                      className="min-h-[48px] w-full pl-9 pr-9 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
                     />
                     <button
                       type="button"
                       onClick={() => setShowPassword(!showPassword)}
                       aria-label={showPassword ? 'Ocultar senha' : 'Exibir senha'}
-                      className="absolute right-2.5 top-2 p-0.5 text-ink-2 hover:text-ink cursor-pointer focus:outline-hidden"
+                      className="absolute right-1 top-0.5 min-h-[44px] min-w-[44px] flex items-center justify-center p-0.5 text-ink-2 hover:text-ink cursor-pointer focus:outline-hidden"
                     >
                       {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                     </button>
@@ -316,7 +316,7 @@ export const AuthGate: React.FC = () => {
       </main>
 
       {/* Rodapé Discreto e Neutro */}
-      <footer className="w-full max-w-sm sm:max-w-md mx-auto px-4 py-2.5 text-center text-xs text-ink-2/60">
+      <footer className="w-full max-w-sm sm:max-w-md mx-auto px-4 py-2.5 text-center text-xs text-ink-2">
         <p>HNC</p>
       </footer>
     </div>

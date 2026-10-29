@@ -121,7 +121,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
             <div className="space-y-4 py-2">
               <div className="p-4 rounded-xl bg-surface-2 border border-border space-y-2">
                 <div className="flex items-center gap-2 text-xs font-semibold text-accent">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                  <CheckCircle2 className="w-4 h-4 text-ok" />
                   <span>Conectado à nuvem</span>
                 </div>
                 <div className="text-sm font-bold truncate text-ink">{user.email}</div>

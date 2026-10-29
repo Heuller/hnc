@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useSessionPreference } from '../hooks/useSessionPreference';
+import React, { useState, useEffect, useRef } from 'react';
 import { COURSE_REGISTRY } from '../content/registry';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { obterInfoProveniencia } from '../domain/proveniencia';
@@ -14,11 +15,21 @@ import {
 import { BalancaCebraspeIllustration } from '../components/common/Illustrations';
 
 export const RadarPage: React.FC = () => {
-  const [selectedBloco, setSelectedBloco] = useState<string>('todos');
-  const [selectedMacro, setSelectedMacro] = useState<string>('todos');
-  const [selectedSub, setSelectedSub] = useState<string>('todos');
-  const [tipoFiltro, setTipoFiltro] = useState<'todos' | 'alertas' | 'pegadinhas' | 'questoes'>('todos');
+  const [selectedBloco, setSelectedBloco] = useSessionPreference<string>('radar:selectedBloco', 'todos');
+  const [selectedMacro, setSelectedMacro] = useSessionPreference<string>('radar:selectedMacro', 'todos');
+  const [selectedSub, setSelectedSub] = useSessionPreference<string>('radar:selectedSub', 'todos');
+  const [tipoFiltro, setTipoFiltro] = useSessionPreference<'todos' | 'alertas' | 'pegadinhas' | 'questoes'>('radar:tipo', 'questoes');
   const [revelados, setRevelados] = useState<Record<string, boolean>>({});
+
+  const [busca, setBusca] = useSessionPreference<string>('radar:busca', '');
+  const [limite, setLimite] = useSessionPreference<number>('radar:limite', 12);
+  const chaveFiltros = [selectedBloco, selectedMacro, selectedSub, tipoFiltro, busca].join('|');
+  const filtrosAnteriores = useRef(chaveFiltros);
+  useEffect(() => {
+    if (filtrosAnteriores.current !== chaveFiltros) { filtrosAnteriores.current = chaveFiltros; setLimite(12); }
+  }, [chaveFiltros, setLimite]);
+  const contemBusca = (texto: string) => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+    .includes(busca.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim());
 
   const BLOCOS_EDITAL = [
     { id: 'todos', label: 'Todos os Blocos', desc: 'Edital Completo (M1 a M14)', modulos: [] as string[] },
@@ -89,21 +100,21 @@ export const RadarPage: React.FC = () => {
     const blocoOk = selectedBloco === 'todos' || (blocoAtivo?.modulos.includes(a.macroCodigo) ?? false);
     const macroOk = selectedMacro === 'todos' || a.macroCodigo === selectedMacro;
     const subOk = selectedSub === 'todos' || a.subId === selectedSub;
-    return blocoOk && macroOk && subOk;
+    return blocoOk && macroOk && subOk && contemBusca(`${a.texto} ${a.subTitulo}`);
   });
 
   const pegadinhasFiltradas = todasPegadinhas.filter((p) => {
     const blocoOk = selectedBloco === 'todos' || (blocoAtivo?.modulos.includes(p.macroCodigo) ?? false);
     const macroOk = selectedMacro === 'todos' || p.macroCodigo === selectedMacro;
     const subOk = selectedSub === 'todos' || p.subId === selectedSub;
-    return blocoOk && macroOk && subOk;
+    return blocoOk && macroOk && subOk && contemBusca(`${p.afirmacao} ${p.porQue} ${p.subTitulo}`);
   });
 
   const questoesFiltradas = questoesArmadilha.filter((q) => {
     const blocoOk = selectedBloco === 'todos' || (blocoAtivo?.modulos.includes(q.macroCodigo) ?? false);
     const macroOk = selectedMacro === 'todos' || q.macroCodigo === selectedMacro;
     const subOk = selectedSub === 'todos' || q.subId === selectedSub;
-    return blocoOk && macroOk && subOk;
+    return blocoOk && macroOk && subOk && contemBusca(`${q.item} ${q.justificativa}`);
   });
 
   const macrosDisponiveis = selectedBloco === 'todos'
@@ -352,6 +363,11 @@ export const RadarPage: React.FC = () => {
         </div>
       </section>
 
+      <div className="space-y-2">
+        <label htmlFor="busca-radar" className="text-sm font-semibold">Encontrar um conceito ou uma questão</label>
+        <input id="busca-radar" type="search" value={busca} onChange={event => setBusca(event.target.value)} placeholder="Ex.: MARC, revocação, governança..." className="w-full min-h-[48px] rounded-xl border border-border bg-surface p-3 text-ink foco" />
+        <p role="status" className="text-sm text-ink-2">{alertasFiltrados.length + pegadinhasFiltradas.length + questoesFiltradas.length} resultados nos filtros atuais. Cada coleção mostra até {limite} itens.</p>
+      </div>
       {/* Conteúdo do Radar */}
       <div className="space-y-6">
         {/* Seção 1: Padrões Decisórios da Banca (Alertas) */}
@@ -365,7 +381,7 @@ export const RadarPage: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {alertasFiltrados.map((alerta) => (
+              {alertasFiltrados.slice(0, limite).map((alerta) => (
                 <div
                   key={alerta.id}
                   className="bg-surface rounded-xl border border-theme-alerta/30 p-5 shadow-xs flex flex-col justify-between"
@@ -383,6 +399,10 @@ export const RadarPage: React.FC = () => {
                 </div>
               ))}
             </div>
+            <div className="flex items-center justify-between flex-wrap gap-3 text-sm text-ink-2">
+              <span>Exibindo {Math.min(limite, alertasFiltrados.length)} de {alertasFiltrados.length}</span>
+              {limite < alertasFiltrados.length && <button type="button" className="min-h-[44px] px-4 rounded-xl border border-border bg-surface text-ink foco" onClick={() => setLimite(n => n + 12)}>Mostrar mais resultados</button>}
+            </div>
           </section>
         )}
 
@@ -397,7 +417,7 @@ export const RadarPage: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-3">
-              {pegadinhasFiltradas.map((peg) => {
+              {pegadinhasFiltradas.slice(0, limite).map((peg) => {
                 const isRevelado = !!revelados[peg.id];
 
                 return (
@@ -453,6 +473,10 @@ export const RadarPage: React.FC = () => {
                 );
               })}
             </div>
+            <div className="flex items-center justify-between flex-wrap gap-3 text-sm text-ink-2">
+              <span>Exibindo {Math.min(limite, pegadinhasFiltradas.length)} de {pegadinhasFiltradas.length}</span>
+              {limite < pegadinhasFiltradas.length && <button type="button" className="min-h-[44px] px-4 rounded-xl border border-border bg-surface text-ink foco" onClick={() => setLimite(n => n + 12)}>Mostrar mais resultados</button>}
+            </div>
           </section>
         )}
 
@@ -467,7 +491,7 @@ export const RadarPage: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              {questoesFiltradas.slice(0, 15).map((q) => {
+              {questoesFiltradas.slice(0, limite).map((q) => {
                 const isRevelado = !!revelados[q.id];
 
                 return (
@@ -534,6 +558,10 @@ export const RadarPage: React.FC = () => {
                   </div>
                 );
               })}
+            </div>
+            <div className="flex items-center justify-between flex-wrap gap-3 text-sm text-ink-2">
+              <span>Exibindo {Math.min(limite, questoesFiltradas.length)} de {questoesFiltradas.length}</span>
+              {limite < questoesFiltradas.length && <button type="button" className="min-h-[44px] px-4 rounded-xl border border-border bg-surface text-ink foco" onClick={() => setLimite(n => n + 12)}>Mostrar mais resultados</button>}
             </div>
           </section>
         )}

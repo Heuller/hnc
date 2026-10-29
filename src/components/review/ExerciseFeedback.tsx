@@ -33,9 +33,9 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
       >
         <div className="flex items-center gap-3">
           {acertou ? (
-            <CheckCircle2 className="w-6 h-6 text-emerald-600 dark:text-emerald-400 shrink-0" />
+            <CheckCircle2 className="w-6 h-6 text-ok dark:text-emerald-400 shrink-0" />
           ) : (
-            <XCircle className="w-6 h-6 text-rose-600 dark:text-rose-400 shrink-0" />
+            <XCircle className="w-6 h-6 text-err dark:text-rose-400 shrink-0" />
           )}
           <div>
             <div className="font-sans font-bold text-sm sm:text-base flex items-center gap-2">
@@ -73,7 +73,7 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
         {/* Armadilha da Banca */}
         {conceito.armadilhaCebraspe && (
           <div className="pt-3 border-t border-border/60">
-            <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-rose-600 dark:text-rose-400 flex items-center gap-1.5 mb-1">
+            <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-err dark:text-rose-400 flex items-center gap-1.5 mb-1">
               <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
               Alerta de Armadilha Cebraspe
             </h4>

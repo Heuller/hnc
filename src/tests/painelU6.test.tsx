@@ -24,7 +24,7 @@ describe('U6.5: Painel com Cartão Hoje e Jornada Livre sem Cadeado', () => {
   it('deve renderizar o Painel com cabeçalho Hoje e o cartão hero de Próxima Ação', () => {
     render(<PainelPage />);
 
-    expect(screen.getByText(/Hoje · Sessão de Estudos/i)).toBeDefined();
+    expect(screen.getByText(/Meu estudo de hoje/i)).toBeDefined();
 
     const cartaoHoje = screen.getByTestId('cartao-hoje');
     expect(cartaoHoje).toBeDefined();

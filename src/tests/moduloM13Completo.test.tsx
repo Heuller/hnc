@@ -127,6 +127,8 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
     });
 
     render(<JornadaPage />);
+    const intro = screen.queryByRole('button', { name: 'Entendi as Regras da Jornada' });
+    if (intro) fireEvent.click(intro);
 
     // Localizar botão da Trilha Complementar (CG) com acessibilidade role=tab
     const botaoAbaComplementar = screen.getByRole('tab', { name: /trilha complementar/i });
@@ -135,6 +137,10 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
     act(() => {
       fireEvent.click(botaoAbaComplementar);
     });
+
+    const summary = screen.getByText(/Módulo 13:/i).closest('summary');
+    const details = summary?.closest('details');
+    if (details) { details.open = true; fireEvent(details, new Event('toggle')); }
 
     // M13 deve estar visível com seu título e submódulos
     expect(screen.getAllByText(/Língua Portuguesa/i).length).toBeGreaterThanOrEqual(1);

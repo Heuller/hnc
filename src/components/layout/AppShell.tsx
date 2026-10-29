@@ -1,3 +1,7 @@
+import { useReadingPosition } from '../../hooks/useReadingPosition';
+import { useSyncStatusStore } from '../../store/useSyncStatusStore';
+import { isSupabaseConfigured } from '../../lib/supabase';
+import { AvisoNovaVersaoSW } from '../common/AvisoNovaVersaoSW';
 import React, { useState, useEffect } from 'react';
 import { SkipLink } from './SkipLink';
 import { Header } from './Header';
@@ -21,6 +25,7 @@ interface AppShellProps {
 }
 
 export const AppShell: React.FC<AppShellProps> = ({ children }) => {
+  useReadingPosition();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
   const { activeView, selectedSubmodule, setActiveView, setSelectedSubmodule } =
@@ -36,7 +41,8 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
 
     const unsubscribe = useProgressStore.subscribe((state) => {
       const user = useAuthStore.getState().user;
-      if (!user) return;
+      if (!user || !isSupabaseConfigured) return;
+      useSyncStatusStore.getState().queue(user.id);
 
       if (timeoutId) clearTimeout(timeoutId);
       timeoutId = setTimeout(() => {
@@ -162,6 +168,8 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
         </aside>
       )}
       {!emModoFoco && <Header onOpenSearch={() => setIsSearchOpen(true)} />}
+
+      <AvisoNovaVersaoSW />
 
       <div className={`flex-1 flex w-full mx-auto ${emModoFoco ? 'max-w-5xl' : 'max-w-7xl'}`}>
         {!emModoFoco && <Sidebar />}

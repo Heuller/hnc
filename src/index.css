@@ -109,7 +109,7 @@
   --ink-2: #4A5468;
   --primary: #16244A;
   --primary-text: #FFFFFF;
-  --accent: #B45309;
+  --accent: #92400E;
   --accent-text: #FFFFFF;
   --accent-fill: #FBBF24;
   --accent-soft: #FEF3C7;
@@ -756,4 +756,20 @@ pre, table, .mermaid-svg-container {
 }
 .scrollbar-none::-webkit-scrollbar {
   display: none !important;
+}
+
+
+/* Controles consistentes e legíveis em todas as áreas de estudo. */
+@layer base {
+  button:focus-visible, summary:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+  summary { list-style-position: inside; }
+}
+@media (pointer: coarse) {
+  button:not([role="tab"]), summary { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }

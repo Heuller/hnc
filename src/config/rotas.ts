@@ -149,9 +149,9 @@ export const ROTAS_CONFIG: Record<AppView, RotaConfig> = {
   },
   simulado: {
     id: 'simulado',
-    rotulo: 'Simulado 100Q',
+    rotulo: 'Questões e Simulados',
     rotuloCurto: 'Simulado',
-    tituloPagina: 'Simulado Cebraspe Oficial (100 Itens)',
+    tituloPagina: 'Questões e Simulados no modelo Cebraspe',
     icone: FileCheck2,
     grupo: 'pratica',
     mostrarNoDesktop: true,
@@ -353,7 +353,7 @@ export function getBreadcrumb(
     return [
       ...base,
       { rotulo: 'Praticar', view: 'treinos' },
-      { rotulo: 'Simulado 100Q', isAtual: true },
+      { rotulo: 'Questões e Simulados', isAtual: true },
     ];
   }
 

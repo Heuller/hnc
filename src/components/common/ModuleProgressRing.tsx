@@ -52,7 +52,7 @@ export const ModuleProgressRing: React.FC<ModuleProgressRingProps> = ({
   if (resolvedState === 'em_revisao_dirigida' || (resolvedState as string) === 'em_revisao') {
     return (
       <div
-        className={`inline-flex items-center justify-center rounded-full bg-amber-500/15 border border-amber-500/40 text-amber-600 dark:text-amber-400 shrink-0 ${className}`}
+        className={`inline-flex items-center justify-center rounded-full bg-amber-500/15 border border-amber-500/40 text-accent dark:text-amber-400 shrink-0 ${className}`}
         style={{ width: size, height: size }}
         title="Em revisão dirigida necessária"
       >

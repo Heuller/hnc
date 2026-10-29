@@ -1,3 +1,4 @@
+import { AccessibleModal } from '../common/AccessibleModal';
 import React from 'react';
 import { Printer, X, FileText, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { Button } from '../common/Button';
@@ -29,10 +30,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
   };
 
   return (
-    <div
-      role="dialog"
-      aria-modal="true"
-      aria-label="Folha de Resposta Manuscrita Cebraspe"
+    <AccessibleModal open={isOpen} onClose={onClose} title="Folha de prática manuscrita"
       className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-2 sm:p-4 print:p-0 print:bg-white print:fixed print:inset-0"
     >
       <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92dvh] flex flex-col shadow-2xl overflow-hidden print:max-h-none print:max-w-none print:border-none print:shadow-none print:rounded-none">
@@ -44,7 +42,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
             </div>
             <div>
               <h3 className="text-sm font-bold text-ink font-serif">
-                Folha Oficial de Texto Definitivo (Padrão Cebraspe)
+                Folha de prática manuscrita (modelo HNC)
               </h3>
               <p className="text-xs text-ink-2 font-mono">
                 {isPeca ? 'Peça Técnica (até 50 linhas - 30 pts)' : 'Questão Discursiva (até 20 linhas - 15 pts)'} · Edital nº 1/2026
@@ -184,7 +182,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
         {/* Rodapé do Modal */}
         <div className="flex items-center justify-between px-5 py-3 border-t border-border bg-surface-2/40 print:hidden text-xs">
           <span className="text-ink-2 font-mono flex items-center gap-1.5">
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+            <CheckCircle2 className="w-3.5 h-3.5 text-ok" />
             <span>Padrão 100% fiel ao espelho oficial da Câmara dos Deputados</span>
           </span>
           <Button variant="outline" size="sm" onClick={onClose}>
@@ -192,6 +190,6 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
           </Button>
         </div>
       </div>
-    </div>
+    </AccessibleModal>
   );
 };

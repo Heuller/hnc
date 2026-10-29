@@ -201,7 +201,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
       {explicacao && (
         <div className="p-4 rounded-xl bg-amber-500/10 border-l-4 border-l-amber-500 border border-amber-500/25 space-y-1.5">
           <div className="flex items-center gap-1.5 flex-wrap font-sans font-bold text-xs uppercase tracking-wider text-amber-800 dark:text-amber-200">
-            <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
+            <AlertTriangle className="w-4 h-4 shrink-0 text-accent" />
             <span>Técnica da banca</span>
             {tecnica && (
               <span className="normal-case tracking-normal px-2 py-0.5 rounded-full bg-surface border border-amber-500/30 text-ink">

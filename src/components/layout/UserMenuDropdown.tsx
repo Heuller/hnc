@@ -1,3 +1,4 @@
+import { SyncStatus } from '../common/SyncStatus';
 import React, { useState, useRef, useEffect } from 'react';
 import {
   User,
@@ -9,7 +10,7 @@ import {
 } from 'lucide-react';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
-import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
+import { ReaderPreferencesModal } from '../common/ReaderPreferencesModal';
 
 export const UserMenuDropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,8 +19,6 @@ export const UserMenuDropdown: React.FC = () => {
 
   const { user, signOut, openAuthModal } = useAuthStore();
   const { modoLivre, setModoLivre, exportarResumoMarkdown } = useProgressStore();
-  const { fontSize, setFontSize, columnWidth, setColumnWidth, fontFamily, setFontFamily } =
-    useReaderPreferencesStore();
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -125,10 +124,7 @@ export const UserMenuDropdown: React.FC = () => {
               <span className="text-xs font-mono font-bold uppercase tracking-wider text-ink-2">
                 Conta Conectada
               </span>
-              <span className="inline-flex items-center gap-1 text-xs text-emerald-600 dark:text-emerald-400 font-medium">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                Nuvem Ativa
-              </span>
+              <SyncStatus />
             </div>
             <p className="font-semibold text-ink text-xs truncate mt-0.5" title={user.email}>
               {user.email}
@@ -167,7 +163,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <Download className="w-4 h-4 text-accent" />
                 <span>Exportar Progresso (MD)</span>
               </div>
-              <span className="text-xs font-mono text-ink-2">Backup</span>
+              <span className="text-xs font-mono text-ink-2">Relatório</span>
             </button>
           </div>
 
@@ -175,7 +171,7 @@ export const UserMenuDropdown: React.FC = () => {
           <div className="p-2.5 rounded-lg bg-surface-2/60 border border-border/60 space-y-1.5">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <Unlock className={`w-4 h-4 ${modoLivre ? 'text-amber-500' : 'text-ink-2'}`} />
+                <Unlock className={`w-4 h-4 ${modoLivre ? 'text-accent' : 'text-ink-2'}`} />
                 <span className="font-semibold text-xs text-ink">Modo Livre</span>
               </div>
               <button
@@ -207,7 +203,7 @@ export const UserMenuDropdown: React.FC = () => {
               type="button"
               role="menuitem"
               onClick={handleLogout}
-              className="w-full text-left px-2.5 py-2 rounded-lg flex items-center gap-2.5 text-rose-600 dark:text-rose-400 hover:bg-rose-500/10 transition-colors cursor-pointer font-medium min-h-[40px]"
+              className="w-full text-left px-2.5 py-2 rounded-lg flex items-center gap-2.5 text-err dark:text-rose-400 hover:bg-rose-500/10 transition-colors cursor-pointer font-medium min-h-[40px]"
             >
               <LogOut className="w-4 h-4" />
               <span>Sair da Conta</span>
@@ -216,133 +212,7 @@ export const UserMenuDropdown: React.FC = () => {
         </div>
       )}
 
-      {/* Modal / Dialog de Preferências de Leitura */}
-      {showPrefsModal && (
-        <div
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="reader-prefs-title"
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-ink/40 backdrop-blur-xs animate-fadeIn"
-        >
-          <div className="bg-surface rounded-2xl border border-border shadow-2xl p-6 w-full max-w-sm space-y-5 text-ink">
-            <div className="flex items-center justify-between border-b border-border pb-3">
-              <div className="flex items-center gap-2">
-                <Sliders className="w-4 h-4 text-accent" />
-                <h3 id="reader-prefs-title" className="font-serif font-bold text-base text-ink">
-                  Preferências de Leitura
-                </h3>
-              </div>
-              <button
-                type="button"
-                onClick={() => setShowPrefsModal(false)}
-                className="text-xs text-ink-2 hover:text-ink cursor-pointer p-1"
-                aria-label="Fechar modal"
-              >
-                ✕
-              </button>
-            </div>
-
-            {/* Tamanho da Fonte */}
-            <div className="space-y-1.5">
-              <label className="text-xs font-semibold text-ink-2 uppercase tracking-wide">
-                Tamanho da Fonte Teórica
-              </label>
-              <div className="grid grid-cols-3 gap-2">
-                {(
-                  [
-                    { id: 'sm', label: 'Compacto' },
-                    { id: 'base', label: 'Padrão' },
-                    { id: 'lg', label: 'Conforto' },
-                  ] as const
-                ).map((opt) => (
-                  <button
-                    key={opt.id}
-                    type="button"
-                    onClick={() => setFontSize(opt.id)}
-                    className={`py-2 px-2 rounded-lg text-xs font-medium border text-center transition-all cursor-pointer ${
-                      fontSize === opt.id
-                        ? 'bg-accent text-accent-text border-accent font-bold'
-                        : 'bg-surface-2 border-border text-ink hover:border-accent'
-                    }`}
-                  >
-                    {opt.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Largura da Coluna */}
-            <div className="space-y-1.5">
-              <label className="text-xs font-semibold text-ink-2 uppercase tracking-wide">
-                Largura do Bloco de Texto
-              </label>
-              <div className="grid grid-cols-3 gap-2">
-                {(
-                  [
-                    { id: 'focus', label: 'Foco (68ch)' },
-                    { id: 'default', label: 'Padrão (75ch)' },
-                    { id: 'wide', label: 'Amplo (85ch)' },
-                  ] as const
-                ).map((opt) => (
-                  <button
-                    key={opt.id}
-                    type="button"
-                    onClick={() => setColumnWidth(opt.id)}
-                    className={`py-2 px-2 rounded-lg text-xs font-medium border text-center transition-all cursor-pointer ${
-                      columnWidth === opt.id
-                        ? 'bg-accent text-accent-text border-accent font-bold'
-                        : 'bg-surface-2 border-border text-ink hover:border-accent'
-                    }`}
-                  >
-                    {opt.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Família Tipográfica */}
-            <div className="space-y-1.5">
-              <label className="text-xs font-semibold text-ink-2 uppercase tracking-wide">
-                Tipografia
-              </label>
-              <div className="grid grid-cols-2 gap-2">
-                <button
-                  type="button"
-                  onClick={() => setFontFamily('sans')}
-                  className={`py-2 px-3 rounded-lg border text-xs font-sans transition-all cursor-pointer ${
-                    fontFamily === 'sans'
-                      ? 'border-accent bg-accent/10 text-accent font-bold'
-                      : 'border-border bg-surface hover:bg-surface-2 text-ink-2'
-                  }`}
-                >
-                  Moderna (Sans)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setFontFamily('serif')}
-                  className={`py-2 px-3 rounded-lg border text-xs font-serif transition-all cursor-pointer ${
-                    fontFamily === 'serif'
-                      ? 'border-accent bg-accent/10 text-accent font-bold'
-                      : 'border-border bg-surface hover:bg-surface-2 text-ink-2'
-                  }`}
-                >
-                  Livro (Serif)
-                </button>
-              </div>
-            </div>
-
-            <div className="pt-2">
-              <button
-                type="button"
-                onClick={() => setShowPrefsModal(false)}
-                className="w-full py-2.5 rounded-xl bg-accent text-accent-text font-bold text-xs hover:opacity-90 transition-opacity cursor-pointer shadow-editorial-sm"
-              >
-                Concluir e Aplicar
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      <ReaderPreferencesModal isOpen={showPrefsModal} onClose={() => setShowPrefsModal(false)} />
     </div>
   );
 };

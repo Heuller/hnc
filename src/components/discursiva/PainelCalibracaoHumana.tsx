@@ -186,8 +186,8 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
             <span
               className={`px-2.5 py-0.5 rounded-full text-xs font-mono font-bold border ${
                 isConvergente
-                  ? 'bg-emerald-500/10 text-emerald-600 border-emerald-500/20'
-                  : 'bg-amber-500/10 text-amber-600 border-amber-500/20'
+                  ? 'bg-emerald-500/10 text-ok border-emerald-500/20'
+                  : 'bg-amber-500/10 text-accent border-amber-500/20'
               }`}
             >
               {isConvergente
@@ -216,7 +216,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
               <span className="text-xs font-mono uppercase text-ink-2 block">Diferença (Δ = Humano - IA)</span>
               <span
                 className={`text-2xl font-serif font-black ${
-                  deltaCalibracao! > 0 ? 'text-amber-600' : deltaCalibracao! < 0 ? 'text-blue-600' : 'text-emerald-600'
+                  deltaCalibracao! > 0 ? 'text-accent' : deltaCalibracao! < 0 ? 'text-blue-600' : 'text-ok'
                 }`}
               >
                 {deltaCalibracao! > 0 ? `+${deltaCalibracao}` : deltaCalibracao} pts
@@ -425,8 +425,8 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
             <span
               className={
                 notaHumanaFinal >= pesos.META_SEGURANCA
-                  ? 'text-emerald-600 font-bold'
-                  : 'text-amber-600 font-bold'
+                  ? 'text-ok font-bold'
+                  : 'text-accent font-bold'
               }
             >
               {notaHumanaFinal >= pesos.META_SEGURANCA
@@ -437,8 +437,8 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
             <span
               className={
                 notaHumanaFinal >= (isPeca ? 15.0 : 7.5)
-                  ? 'text-emerald-600 font-bold'
-                  : 'text-rose-600 font-bold'
+                  ? 'text-ok font-bold'
+                  : 'text-err font-bold'
               }
             >
               {notaHumanaFinal >= (isPeca ? 15.0 : 7.5) ? 'HABILITADO' : 'ELIMINADO'}

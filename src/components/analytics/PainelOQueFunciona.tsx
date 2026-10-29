@@ -421,7 +421,7 @@ export const PainelOQueFunciona: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
         <div className="p-4 rounded-xl bg-surface-2 border border-border">
           <div className="flex items-center gap-2 text-ink-2 text-xs font-semibold mb-1">
-            <Award className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+            <Award className="w-4 h-4 text-ok dark:text-emerald-400" />
             <span>Maior Acurácia Inicial</span>
           </div>
           {resumoGlobal.melhorFormato ? (
@@ -429,7 +429,7 @@ export const PainelOQueFunciona: React.FC = () => {
               <div className="font-black text-ink text-sm sm:text-base">
                 {resumoGlobal.melhorFormato.codigo}: {resumoGlobal.melhorFormato.rotuloCurto}
               </div>
-              <div className="text-xs font-mono text-emerald-600 dark:text-emerald-400 mt-0.5">
+              <div className="text-xs font-mono text-ok dark:text-emerald-400 mt-0.5">
                 {resumoGlobal.melhorFormato.taxaPrimeiraTentativa}% de acerto na 1ª tentativa
               </div>
             </div>
@@ -440,7 +440,7 @@ export const PainelOQueFunciona: React.FC = () => {
 
         <div className="p-4 rounded-xl bg-surface-2 border border-border">
           <div className="flex items-center gap-2 text-ink-2 text-xs font-semibold mb-1">
-            <Brain className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+            <Brain className="w-4 h-4 text-accent dark:text-amber-400" />
             <span>Maior Dificuldade Desejável</span>
           </div>
           {resumoGlobal.maisDesafiador ? (
@@ -448,7 +448,7 @@ export const PainelOQueFunciona: React.FC = () => {
               <div className="font-black text-ink text-sm sm:text-base">
                 {resumoGlobal.maisDesafiador.codigo}: {resumoGlobal.maisDesafiador.rotuloCurto}
               </div>
-              <div className="text-xs font-mono text-amber-600 dark:text-amber-400 mt-0.5">
+              <div className="text-xs font-mono text-accent dark:text-amber-400 mt-0.5">
                 {resumoGlobal.maisDesafiador.taxaPrimeiraTentativa}% de acerto (exige mais reflexão)
               </div>
             </div>
@@ -459,7 +459,7 @@ export const PainelOQueFunciona: React.FC = () => {
 
         <div className="p-4 rounded-xl bg-surface-2 border border-border">
           <div className="flex items-center gap-2 text-ink-2 text-xs font-semibold mb-1">
-            <Sparkles className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+            <Sparkles className="w-4 h-4 text-err dark:text-rose-400" />
             <span>Erros com Alta Certeza</span>
           </div>
           <div>
@@ -548,7 +548,7 @@ export const PainelOQueFunciona: React.FC = () => {
                       item.statusAmostra === 'tendencia'
                         ? 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border-emerald-500/20'
                         : item.statusAmostra === 'observacao'
-                        ? 'bg-amber-500/10 text-amber-700 dark:text-amber-400 border-amber-500/20'
+                        ? 'bg-amber-500/10 text-accent dark:text-amber-400 border-amber-500/20'
                         : 'bg-surface-2 text-ink-2 border-border'
                     }`}
                   >
@@ -597,7 +597,7 @@ export const PainelOQueFunciona: React.FC = () => {
                 <div className="flex items-center justify-between text-xs text-ink-2 pt-1 font-mono">
                   <span>Dificuldade Desejável: <strong>{item.dificuldadeDesejavel}</strong></span>
                   {item.errosHipercorrecao > 0 && (
-                    <span className="text-rose-600 dark:text-rose-400 font-bold">
+                    <span className="text-err dark:text-rose-400 font-bold">
                       {item.errosHipercorrecao} hipercorreções
                     </span>
                   )}

@@ -1,4 +1,5 @@
-import React, { useState, useMemo } from 'react';
+import { useSessionPreference } from '../hooks/useSessionPreference';
+import React, { useMemo, useEffect } from 'react';
 import {
   FileText,
   ExternalLink,
@@ -16,10 +17,21 @@ import { Button } from '../components/common/Button';
 const EIXOS_EDITAL = EDITAL_CAMARA_2026.eixos || [];
 
 export const EditalPage: React.FC = () => {
-  const { setActiveView } = useNavigationStore();
+  const { navigateToSimulado, targetEditalEixoId } = useNavigationStore();
   const eixos = EIXOS_EDITAL;
-  const [eixoAberto, setEixoAberto] = useState<string | null>(eixos[0]?.id || null);
-  const [filtroTipo, setFiltroTipo] = useState<'todos' | 'basico' | 'especifico'>('todos');
+  const [eixoAberto, setEixoAberto] = useSessionPreference<string>('edital:eixo', targetEditalEixoId || eixos[0]?.id || '');
+  const [filtroTipo, setFiltroTipo] = useSessionPreference<'todos' | 'basico' | 'especifico'>('edital:filtro', 'todos');
+
+  useEffect(() => {
+    if (targetEditalEixoId && eixos.some(e => e.id === targetEditalEixoId)) {
+      const frame = requestAnimationFrame(() => {
+        setEixoAberto(targetEditalEixoId);
+        setFiltroTipo('todos');
+        document.getElementById(targetEditalEixoId)?.scrollIntoView({ block: 'start' });
+      });
+      return () => cancelAnimationFrame(frame);
+    }
+  }, [targetEditalEixoId, eixos, setEixoAberto, setFiltroTipo]);
 
   // Cálculo de dias restantes até 17/01/2027 (Data provável da prova - Anexo I)
   const diasRestantes = useMemo(() => {
@@ -49,7 +61,7 @@ export const EditalPage: React.FC = () => {
       <div className="bg-surface border border-border rounded-2xl p-6 sm:p-8 shadow-editorial-sm space-y-6">
         <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-6 border-b border-border">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold bg-amber-500/10 border border-amber-500/20 text-amber-700 dark:text-amber-400">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold bg-amber-500/10 border border-amber-500/20 text-accent dark:text-amber-400">
               <FileText className="w-3.5 h-3.5" />
               <span>EDITAL Nº 1 — CÂMARA DOS DEPUTADOS (02/10/2026)</span>
             </div>
@@ -63,7 +75,7 @@ export const EditalPage: React.FC = () => {
 
           {/* Card Contador Regressivo */}
           <div className="bg-surface-2 border border-border/80 rounded-xl p-4 shrink-0 flex items-center gap-4 text-left">
-            <div className="w-12 h-12 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-700 dark:text-amber-400">
+            <div className="w-12 h-12 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-accent dark:text-amber-400">
               <Clock className="w-6 h-6" />
             </div>
             <div>
@@ -122,7 +134,7 @@ export const EditalPage: React.FC = () => {
       {/* Regras Rígidas de Eliminação e Pontuação (Itens 8.11 e 9) */}
       <div className="space-y-4">
         <h2 className="text-lg font-serif font-bold text-ink flex items-center gap-2">
-          <Scale className="w-5 h-5 text-amber-600 dark:text-amber-400" />
+          <Scale className="w-5 h-5 text-accent dark:text-amber-400" />
           <span>Estrutura das Provas & Critérios de Eliminação (Itens 8.11 e 9)</span>
         </h2>
 
@@ -203,7 +215,7 @@ export const EditalPage: React.FC = () => {
           {/* Filtros por bloco */}
           <div className="inline-flex rounded-xl p-1 bg-surface-2 border border-border text-xs font-mono">
             <button
-              onClick={() => setFiltroTipo('todos')}
+              aria-pressed={filtroTipo === 'todos'} onClick={() => setFiltroTipo('todos')}
               className={`px-3 py-1 rounded-lg transition-colors cursor-pointer ${
                 filtroTipo === 'todos' ? 'bg-surface text-ink font-bold shadow-xs' : 'text-ink-2 hover:text-ink'
               }`}
@@ -211,20 +223,20 @@ export const EditalPage: React.FC = () => {
               Todos ({eixos.length})
             </button>
             <button
-              onClick={() => setFiltroTipo('basico')}
+              aria-pressed={filtroTipo === 'basico'} onClick={() => setFiltroTipo('basico')}
               className={`px-3 py-1 rounded-lg transition-colors cursor-pointer ${
                 filtroTipo === 'basico' ? 'bg-surface text-ink font-bold shadow-xs' : 'text-ink-2 hover:text-ink'
               }`}
             >
-              Básicos (5)
+              Básicos ({eixos.filter(e => e.bloco === 'CONHECIMENTOS_BASICOS').length})
             </button>
             <button
-              onClick={() => setFiltroTipo('especifico')}
+              aria-pressed={filtroTipo === 'especifico'} onClick={() => setFiltroTipo('especifico')}
               className={`px-3 py-1 rounded-lg transition-colors cursor-pointer ${
                 filtroTipo === 'especifico' ? 'bg-surface text-ink font-bold shadow-xs' : 'text-ink-2 hover:text-ink'
               }`}
             >
-              Específicos (8)
+              Específicos ({eixos.filter(e => e.bloco === 'CONHECIMENTOS_ESPECIFICOS').length})
             </button>
           </div>
         </div>
@@ -236,11 +248,12 @@ export const EditalPage: React.FC = () => {
 
             return (
               <div
+                id={eixo.id}
                 key={eixo.id}
                 className="bg-surface border border-border rounded-xl overflow-hidden transition-all shadow-editorial-xs"
               >
                 <button
-                  onClick={() => setEixoAberto(isAberto ? null : eixo.id)}
+                  aria-expanded={isAberto} aria-controls={`conteudo-${eixo.id}`} onClick={() => setEixoAberto(isAberto ? '' : eixo.id)}
                   className="w-full p-4 sm:p-5 flex items-center justify-between gap-4 text-left hover:bg-surface-2 transition-colors cursor-pointer"
                 >
                   <div className="space-y-1">
@@ -267,7 +280,7 @@ export const EditalPage: React.FC = () => {
                 </button>
 
                 {isAberto && (
-                  <div className="p-4 sm:p-5 pt-0 border-t border-border/50 bg-surface-2/30 space-y-3">
+                  <div id={`conteudo-${eixo.id}`} className="p-4 sm:p-5 pt-0 border-t border-border/50 bg-surface-2/30 space-y-3">
                     <div className="divide-y divide-border/40">
                       {eixo.topicos && eixo.topicos.map((topico) => (
                         <div key={topico.id} className="py-2.5 first:pt-2 last:pb-0 text-xs font-serif space-y-1.5">
@@ -280,7 +293,7 @@ export const EditalPage: React.FC = () => {
                                 topico.statusCobertura === 'COBERTO'
                                   ? 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20'
                                   : topico.statusCobertura === 'PARCIAL'
-                                  ? 'bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20'
+                                  ? 'bg-amber-500/10 text-accent dark:text-amber-400 border border-amber-500/20'
                                   : 'bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-500/20'
                               }`}>
                                 {topico.statusCobertura} ({topico.questoesDisponiveis}Q)
@@ -307,7 +320,7 @@ export const EditalPage: React.FC = () => {
                       <Button
                         size="sm"
                         variant="secondary"
-                        onClick={() => setActiveView('treinos')}
+                        onClick={() => navigateToSimulado(`treino-${eixo.id}`)}
                         className="text-xs font-serif"
                       >
                         Treinar Questões deste Eixo

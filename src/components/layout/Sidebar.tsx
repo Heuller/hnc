@@ -188,7 +188,7 @@ export const Sidebar: React.FC = () => {
                   {modulo.titulo_curto || modulo.titulo}
                 </h3>
                 {modulo.id === 'm2-5' && (
-                  <span className="text-xs font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25 uppercase tracking-wider">
+                  <span className="text-xs font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 text-ok dark:text-emerald-400 border border-emerald-500/25 uppercase tracking-wider">
                     Mini
                   </span>
                 )}

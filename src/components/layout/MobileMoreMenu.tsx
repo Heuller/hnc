@@ -19,6 +19,7 @@ import {
   Palette,
   Layers,
 } from 'lucide-react';
+import { useThemeStore } from '../../store/useThemeStore';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
@@ -29,30 +30,9 @@ export const MobileMoreMenu: React.FC = () => {
   const { user, openAuthModal, signOut } = useAuthStore();
   const { modoLivre, setModoLivre, exportarResumoMarkdown } = useProgressStore();
 
-  const [currentTheme, setCurrentTheme] = useState<'light' | 'dark' | 'auto'>(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('theme-preference') as 'light' | 'dark' | 'auto' | null;
-      return saved || 'auto';
-    }
-    return 'auto';
-  });
-
-  const applyTheme = (theme: 'light' | 'dark' | 'auto') => {
-    setCurrentTheme(theme);
-    localStorage.setItem('theme-preference', theme);
-
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-      document.documentElement.classList.remove('light');
-    } else if (theme === 'light') {
-      document.documentElement.classList.remove('dark');
-      document.documentElement.classList.add('light');
-    } else {
-      document.documentElement.classList.remove('dark', 'light');
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.classList.add('dark');
-      }
-    }
+  const { theme: currentTheme, setTheme } = useThemeStore();
+  const applyTheme = (theme: 'light' | 'dark' | 'system') => {
+    setTheme(theme);
     setIsOpen(false);
   };
 
@@ -145,7 +125,7 @@ export const MobileMoreMenu: React.FC = () => {
                     className="w-full text-left px-3 py-2.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
                   >
                     <div className="flex items-center gap-2.5">
-                      <PenTool className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                      <PenTool className="w-4 h-4 text-ok dark:text-emerald-400 shrink-0" />
                       <span className="font-medium">Oficina Discursiva</span>
                     </div>
                     <span className="text-xs font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">
@@ -162,7 +142,7 @@ export const MobileMoreMenu: React.FC = () => {
                     className="w-full text-left px-3 py-2.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
                   >
                     <div className="flex items-center gap-2.5">
-                      <Flame className="w-4 h-4 text-amber-500 shrink-0" />
+                      <Flame className="w-4 h-4 text-accent shrink-0" />
                       <span className="font-medium">Folha de Véspera</span>
                     </div>
                     <span className="text-xs font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">
@@ -196,7 +176,7 @@ export const MobileMoreMenu: React.FC = () => {
                     className="w-full text-left px-3 py-2.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
                   >
                     <div className="flex items-center gap-2.5">
-                      <BookMarked className="w-4 h-4 text-rose-500 shrink-0" />
+                      <BookMarked className="w-4 h-4 text-err shrink-0" />
                       <span className="font-medium">Caderno de Erros</span>
                     </div>
                     <span className="text-xs font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">
@@ -238,7 +218,7 @@ export const MobileMoreMenu: React.FC = () => {
                           : 'border-border bg-surface-2 text-ink-2 hover:text-ink'
                       }`}
                     >
-                      <Sun className="w-4 h-4 mb-1 text-amber-500" />
+                      <Sun className="w-4 h-4 mb-1 text-accent" />
                       <span>Claro</span>
                     </button>
 
@@ -257,9 +237,9 @@ export const MobileMoreMenu: React.FC = () => {
 
                     <button
                       type="button"
-                      onClick={() => applyTheme('auto')}
+                      onClick={() => applyTheme('system')}
                       className={`flex flex-col items-center justify-center p-2 rounded-xl border text-xs min-h-[44px] cursor-pointer transition-colors ${
-                        currentTheme === 'auto'
+                        currentTheme === 'system'
                           ? 'border-accent bg-accent/10 font-bold text-accent'
                           : 'border-border bg-surface-2 text-ink-2 hover:text-ink'
                       }`}
@@ -280,7 +260,7 @@ export const MobileMoreMenu: React.FC = () => {
                   <div className="p-3 rounded-xl bg-surface-2/60 border border-border/60 space-y-1.5">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
-                        <Unlock className={`w-4 h-4 ${modoLivre ? 'text-amber-500' : 'text-ink-2'}`} />
+                        <Unlock className={`w-4 h-4 ${modoLivre ? 'text-accent' : 'text-ink-2'}`} />
                         <span className="font-semibold text-xs text-ink">Modo Livre</span>
                       </div>
                       <button
@@ -319,7 +299,7 @@ export const MobileMoreMenu: React.FC = () => {
                       <Download className="w-4 h-4 text-accent shrink-0" />
                       <span className="font-medium">Exportar Progresso (MD)</span>
                     </div>
-                    <span className="text-xs font-mono text-ink-2">Backup</span>
+                    <span className="text-xs font-mono text-ink-2">Relatório</span>
                   </button>
 
                   <button
@@ -335,7 +315,7 @@ export const MobileMoreMenu: React.FC = () => {
                     <button
                       type="button"
                       onClick={handleLogout}
-                      className="w-full text-left px-3 py-2.5 rounded-lg flex items-center gap-2.5 text-rose-600 dark:text-rose-400 hover:bg-rose-500/10 transition-colors min-h-[44px] cursor-pointer font-medium"
+                      className="w-full text-left px-3 py-2.5 rounded-lg flex items-center gap-2.5 text-err dark:text-rose-400 hover:bg-rose-500/10 transition-colors min-h-[44px] cursor-pointer font-medium"
                     >
                       <LogOut className="w-4 h-4 shrink-0" />
                       <span>Sair da Conta</span>
@@ -380,7 +360,7 @@ export const MobileMoreMenu: React.FC = () => {
                         setActiveView('design-system');
                         setIsOpen(false);
                       }}
-                      className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2.5 hover:bg-surface-2 text-amber-600 dark:text-amber-400 font-medium min-h-[44px] cursor-pointer"
+                      className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2.5 hover:bg-surface-2 text-accent dark:text-amber-400 font-medium min-h-[44px] cursor-pointer"
                     >
                       <Palette className="w-4 h-4 shrink-0" />
                       <span>Design System (DEV)</span>

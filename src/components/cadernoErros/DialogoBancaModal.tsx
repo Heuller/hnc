@@ -154,7 +154,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
         {/* CABEÇALHO EDITORIAL DO TRIBUNAL DA BANCA */}
         <header className="p-4 sm:p-5 border-b border-border bg-surface-2 flex items-center justify-between gap-3 shrink-0">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-amber-600/10 border border-amber-600/20 text-amber-700 dark:text-amber-400 flex items-center justify-center shrink-0">
+            <div className="w-10 h-10 rounded-xl bg-amber-600/10 border border-amber-600/20 text-accent dark:text-amber-400 flex items-center justify-center shrink-0">
               <Scale className="w-5 h-5" />
             </div>
             <div>
@@ -232,7 +232,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
                 <div className="grid grid-cols-2 gap-2 text-xs font-mono">
                   <div className="p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center justify-between">
                     <span className="text-amber-800 dark:text-amber-300 font-semibold">Você marcou:</span>
-                    <span className="font-bold text-amber-700 dark:text-amber-400">{escolhaExtensa}</span>
+                    <span className="font-bold text-accent dark:text-amber-400">{escolhaExtensa}</span>
                   </div>
                   <div className="p-2.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-between">
                     <span className="text-emerald-800 dark:text-emerald-300 font-semibold">Gabarito Oficial:</span>
@@ -246,7 +246,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
           {/* ESTADO DE CARREGAMENTO INICIAL */}
           {carregandoInicial && (
             <div className="p-12 text-center space-y-3">
-              <Loader2 className="w-8 h-8 text-amber-600 animate-spin mx-auto" />
+              <Loader2 className="w-8 h-8 text-accent animate-spin mx-auto" />
               <p className="font-serif text-sm text-ink-2">
                 O Examinador Titular do Cebraspe está redigindo o Parecer Técnico e estruturando o desafio conceitual...
               </p>
@@ -257,7 +257,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
           {sessao?.parecerInicial?.fundamentacao && (
             <div className="p-4 rounded-xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/80 dark:border-amber-900/50 space-y-2">
               <div className="flex items-center gap-2 text-xs font-bold text-amber-900 dark:text-amber-300 uppercase tracking-wider">
-                <BookOpen className="w-4 h-4 text-amber-600" />
+                <BookOpen className="w-4 h-4 text-accent" />
                 <span>Autoridade e Obra de Referência da Banca</span>
               </div>
               <div className="text-xs sm:text-sm text-amber-950 dark:text-amber-200">
@@ -311,7 +311,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
 
               {enviandoArgumento && (
                 <div className="flex gap-3 justify-start items-center text-xs text-ink-2 pl-11">
-                  <Loader2 className="w-4 h-4 animate-spin text-amber-600" />
+                  <Loader2 className="w-4 h-4 animate-spin text-accent" />
                   <span className="font-serif italic">Examinando o pleito e cotejando com a bibliografia...</span>
                 </div>
               )}
@@ -376,7 +376,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
             <button
               type="submit"
               disabled={!argumentoInput.trim() || enviandoArgumento || carregandoInicial}
-              className="px-4 py-3 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs flex items-center gap-2 cursor-pointer transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-editorial-sm shrink-0"
+              className="px-4 py-3 rounded-xl bg-primary hover:opacity-95 text-white font-bold text-xs flex items-center gap-2 cursor-pointer transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-editorial-sm shrink-0"
               title="Submeter argumento à banca examinadora"
             >
               <Send className="w-4 h-4" />
@@ -396,8 +396,8 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
               >
                 {jaSalvo || salvoNoBaralhoToast ? (
                   <>
-                    <BookmarkCheck className="w-4 h-4 text-emerald-600" />
-                    <span className="text-emerald-600 font-bold">Salvo no Meu Baralho!</span>
+                    <BookmarkCheck className="w-4 h-4 text-ok" />
+                    <span className="text-ok font-bold">Salvo no Meu Baralho!</span>
                   </>
                 ) : (
                   <>

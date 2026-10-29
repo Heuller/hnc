@@ -92,9 +92,9 @@ export const TreinosPage: React.FC = () => {
             </div>
 
             <div>
-              <h2 className="text-lg font-serif font-bold text-ink">Simulados Oficiais Cebraspe (100Q)</h2>
+              <h2 className="text-lg font-serif font-bold text-ink">Questões e simulados por assunto</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Baterias canônicas de itens inéditos comentados cobrindo a Trilha Específica (M1 a M10), o Acervo Complementar de Conhecimentos Básicos (M11 a M14) e o Mega Simulado Oficial (120Q), com rigorosa simetria Cebraspe (50C / 50E), aplicação da fórmula C &minus; E e diagnóstico pedagógico por tema.
+                Baterias canônicas de itens inéditos comentados cobrindo a Trilha Específica (M1 a M10), o Acervo Complementar de Conhecimentos Básicos (M11 a M14) e o treino de prova, com itens elegíveis identificados por caderno, aplicação da regra C &minus; E e diagnóstico pedagógico por tema.
               </p>
             </div>
 
@@ -133,14 +133,14 @@ export const TreinosPage: React.FC = () => {
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Revisão do Dia</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Algoritmo unificado de repetição espaçada em dias úteis. Revisa conceitos na janela ótima de retenção com exercícios formativos ricos (F1 a F8).
+                Algoritmo unificado de repetição espaçada em dias úteis. Sugere revisões com base no histórico registrado com exercícios formativos ricos (F1 a F8).
               </p>
             </div>
 
             {pendentesHojeCount === 0 ? (
               <div className="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center gap-2 text-xs text-emerald-700 dark:text-emerald-300">
                 <CheckCircle2 className="w-4 h-4 shrink-0" />
-                <span>Nenhuma revisão pendente para hoje. Sua retenção está em dia!</span>
+                <span>Nenhuma revisão pendente para hoje. Continue praticando e confira a recuperação em outro dia.</span>
               </div>
             ) : (
               <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-xs text-ink-2 flex items-center justify-between">
@@ -166,7 +166,7 @@ export const TreinosPage: React.FC = () => {
         <div className="bg-surface border border-border rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden">
           <div className="space-y-3">
             <div className="flex items-center justify-between">
-              <div className="w-10 h-10 rounded-xl bg-rose-500/10 border border-rose-500/20 text-rose-600 dark:text-rose-400 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-rose-500/10 border border-rose-500/20 text-err dark:text-rose-400 flex items-center justify-center">
                 <BookMarked className="w-5 h-5" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-rose-500/10 border border-rose-500/30 text-rose-700 dark:text-rose-300">
@@ -177,7 +177,7 @@ export const TreinosPage: React.FC = () => {
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Caderno de Erros</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Repositório de todas as assertivas incorretas em verificações e simulados, acompanhadas de justificativa e armadilha da banca para erradicação definitiva de pontos cegos.
+                Repositório de todas as assertivas incorretas em verificações e simulados, acompanhadas de justificativa e armadilha da banca para investigar as dificuldades e voltar a praticar.
               </p>
             </div>
 
@@ -242,10 +242,10 @@ export const TreinosPage: React.FC = () => {
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2.5">
-                <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-ok dark:text-emerald-400 flex items-center justify-center">
                   <FileText className="w-5 h-5" />
                 </div>
-                <EmblemaM8 size={32} className="text-emerald-600/70 dark:text-emerald-400/70 hidden sm:block" />
+                <EmblemaM8 size={32} className="text-ok/70 dark:text-emerald-400/70 hidden sm:block" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-surface-2 border border-border text-ink">
                 {modulosLidosIds.length} submódulos concluídos
@@ -261,7 +261,7 @@ export const TreinosPage: React.FC = () => {
 
             <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-xs text-ink-2 flex items-center justify-between">
               <span>Pronto para impressão / PDF (formato A4)</span>
-              <span className="font-mono text-emerald-600 dark:text-emerald-400 font-bold">Ativo</span>
+              <span className="font-mono text-ok dark:text-emerald-400 font-bold">Ativo</span>
             </div>
           </div>
 
