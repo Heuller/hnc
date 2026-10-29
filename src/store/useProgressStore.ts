@@ -743,6 +743,12 @@ export const useProgressStore = create<ProgressStoreState>()(
             ultimoAcessoTimestamp: Date.now(),
           };
 
+          simuladoSessionService.salvarSessaoLocal(simuladoId, novaSessao);
+          const authUser = useAuthStore.getState().user;
+          if (authUser) {
+            simuladoSessionService.salvarSessaoNuvemDebounced(authUser.id, simuladoId, novaSessao);
+          }
+
           return {
             ultimoSimuladoAcessadoId: simuladoId,
             sessoesSimulados: {
@@ -777,6 +783,12 @@ export const useProgressStore = create<ProgressStoreState>()(
             emAndamento: true,
             ultimoAcessoTimestamp: Date.now(),
           };
+
+          simuladoSessionService.salvarSessaoLocal(simuladoId, novaSessao);
+          const authUser = useAuthStore.getState().user;
+          if (authUser) {
+            simuladoSessionService.salvarSessaoNuvemDebounced(authUser.id, simuladoId, novaSessao);
+          }
 
           return {
             ultimoSimuladoAcessadoId: simuladoId,
