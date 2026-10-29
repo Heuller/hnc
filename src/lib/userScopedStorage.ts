@@ -1,6 +1,74 @@
 import { useAuthStore } from '../store/useAuthStore';
 import type { StateStorage } from 'zustand/middleware';
 
+export const HNC_LAST_ACTIVE_UID_KEY = 'hnc_last_active_uid';
+
+/**
+ * Obtém o ID do usuário de forma resiliente e síncrona.
+ * 1. Prioriza o Zustand useAuthStore (se o usuário já estiver populado em memória).
+ * 2. Em reload do navegador (F5), onde useAuthStore ainda está carregando a sessão assíncrona,
+ *    lê a chave síncrona de cache hnc_last_active_uid.
+ * 3. Como fallback resiliente, inspeciona o token de sessão do Supabase no localStorage (sb-*-auth-token).
+ * 4. Como fallback de desenvolvimento/modo local, lê hnc_local_user_id.
+ */
+export function getEffectiveUserId(): string | undefined {
+  const storeUid = useAuthStore.getState().user?.id;
+  if (storeUid) {
+    return storeUid;
+  }
+
+  if (typeof window === 'undefined' || !window.localStorage) {
+    return undefined;
+  }
+
+  try {
+    const lastActive = localStorage.getItem(HNC_LAST_ACTIVE_UID_KEY);
+    if (lastActive) {
+      return lastActive;
+    }
+
+    const localDevId = localStorage.getItem('hnc_local_user_id');
+    if (localDevId) {
+      return localDevId;
+    }
+
+    // Varredura por tokens de sessão do Supabase persistidos localmente
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith('sb-') && key.endsWith('-auth-token')) {
+        const raw = localStorage.getItem(key);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          const uid = parsed?.user?.id;
+          if (uid && typeof uid === 'string') {
+            return uid;
+          }
+        }
+      }
+    }
+  } catch {
+    // Falha silenciosa para garantir robustez
+  }
+
+  return undefined;
+}
+
+/**
+ * Registra ou remove o ID do usuário ativo na chave síncrona do localStorage.
+ */
+export function setStoredActiveUserId(uid: string | null): void {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    if (uid) {
+      localStorage.setItem(HNC_LAST_ACTIVE_UID_KEY, uid);
+    } else {
+      localStorage.removeItem(HNC_LAST_ACTIVE_UID_KEY);
+    }
+  } catch (err) {
+    console.warn('[userScopedStorage] Erro ao gravar hnc_last_active_uid:', err);
+  }
+}
+
 /**
  * Cria um adaptador de storage escopado por usuário para o middleware persist do Zustand.
  * Chave resultante: `${baseKey}:${uid}` (ou `${baseKey}` se não houver usuário autenticado).
@@ -17,7 +85,7 @@ export function createUserScopedStorage(baseKey: string): StateStorage {
         return null;
       }
 
-      const uid = useAuthStore.getState().user?.id;
+      const uid = getEffectiveUserId();
       const scopedKey = uid ? `${baseKey}:${uid}` : baseKey;
 
       const scopedData = localStorage.getItem(scopedKey);
@@ -47,7 +115,7 @@ export function createUserScopedStorage(baseKey: string): StateStorage {
         return;
       }
 
-      const uid = useAuthStore.getState().user?.id;
+      const uid = getEffectiveUserId();
       const scopedKey = uid ? `${baseKey}:${uid}` : baseKey;
       localStorage.setItem(scopedKey, value);
     },
@@ -57,7 +125,7 @@ export function createUserScopedStorage(baseKey: string): StateStorage {
         return;
       }
 
-      const uid = useAuthStore.getState().user?.id;
+      const uid = getEffectiveUserId();
       const scopedKey = uid ? `${baseKey}:${uid}` : baseKey;
       localStorage.removeItem(scopedKey);
     },
