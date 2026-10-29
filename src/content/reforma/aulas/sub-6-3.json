@@ -1,0 +1,270 @@
+{
+  "id": "sub-6-3",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-6-3-bloco-1",
+      "titulo": "Os Desafios e as Três Dimensões da Preservação Digital",
+      "objetivos": [
+        "Distinguir cópia, inteligibilidade e evidências de autenticidade."
+      ],
+      "conteudo": "Preservar documentos digitais é um desafio radicalmente mais complexo e dinâmico do que a conservação tradicional de livros em papel. Enquanto o papel alcalino sobrevive por séculos em ambientes climaticamente estáveis, **o documento digital pode tornar-se ilegível em poucos anos**, vitimado pela degradação das mídias magnéticas/ópticas e pela **obsolescência tecnológica acelerada** de softwares e formatos (Arellano, 2004; Miguel, 2008):\n\n#### As Três Dimensões da Preservação Digital:\n1. **Preservação Física:**\n   * Cuida da integridade física dos suportes magnéticos, discos rígidos corporativos, fitas LTO e discos ópticos contra poeira, calor, umidade, descargas eletrostáticas e campos magnéticos.\n2. **Preservação Lógica:**\n   * Enfrenta a obsolescência de formatos de arquivos e linguagens de codificação. Busca manter que os fluxos de bits (*bitstreams*) armazenados continuem sendo decodificáveis, interpretáveis e renderizáveis por novos softwares no futuro.\n3. **Preservação Intelectual:**\n   * Busca sustentar evidências de **autenticidade, integridade e proveniência** do documento digital ao longo de sucessivas migrações e transferências de custódia.\n   * Reúne evidências e controles sobre alterações e custódia, sem tornar automaticamente verdadeiro o conteúdo ou resolver toda validade jurídica (projeto InterPARES / Luciana Duranti).\n\n> [!CAUTION]\n> **distrator típico de concurso:** A banca afirma que \"a realização sistemática de rotinas de backup garante a preservação digital de longo prazo dos documentos de uma biblioteca\". **ERRADO!** Backup apoia recuperação e pode integrar a estratégia de preservação. Sua existência isolada não resolve inteligibilidade, formatos, contexto, direitos e evidências de autenticidade.\n\n**Aplicação e recuperação:** Uma cópia íntegra de formato ilegível pode preservar bits sem atender a comunidade. Outra cópia legível mas sem proveniência pode ter evidência insuficiente de autenticidade. Os problemas se relacionam, mas não são resolvidos pelo mesmo indicador de quantidade de backups.",
+      "checkpointIds": [
+        "rt-6-3-8"
+      ]
+    },
+    {
+      "id": "sub-6-3-bloco-2",
+      "titulo": "Fixidez (*Fixity*) e Auditoria de Integridade Digital",
+      "objetivos": [
+        "Aplicar fixidez com referência confiável e resposta a falhas."
+      ],
+      "conteudo": "A preservação digital no nível de bits (*bit-level preservation*) depende do princípio da **Fixidez (*Fixity*)**:\n\n* **Conceito:** Propriedade de um objeto digital permanecer exatamente inalterado ao longo do tempo, livre de corrupções acidentais, degradação física silenciosa das mídias magnéticas/ópticas (*bit rot* ou *bit decay*) ou manipulações maliciosas.\n* **Mecanismo Criptográfico de Checksum:**\n  * No momento da ingestão do documento no repositório, calcula-se o resumo criptográfico do fluxo de bits através de funções adequadas ao propósito e ao risco, como SHA-256 em usos pertinentes. Hash não é garantia matemática de inexistência de colisões. MD5 tem fragilidades conhecidas e não deve ser apresentado como alternativa segura contra adulteração deliberada.\n  * Funções criptográficas buscam tornar alterações detectáveis com alta resistência pertinente. Efeito avalanche não significa impossibilidade de colisão nem transforma hash em prova de verdade do texto.\n* **Auditoria Contínua e Registro PREMIS:**\n  * Repositórios digitais confiáveis (RDC-Arq e ISO 16363) programam rotinas automatizadas e periódicas de varredura (*checksum scrubbing*). O repositório recalcula o hash de cada arquivo custodiado e o compara com o hash canônico registrado na entidade *Object/Fixity* do PREMIS.\n  * Se houver divergência, o sistema deve investigar segundo a política. Uma réplica pode apoiar recuperação, mas não se presume autocura universal: é necessário determinar referência confiável, disponibilidade, versão e causa antes de sobrescrever dados.\n\n**Aplicação e recuperação:** O hash mudou após migração autorizada: a divergência em relação ao original não significa necessariamente corrupção. É preciso distinguir versões e registrar o evento. Já mudança não documentada no mesmo objeto exige investigação. Comparação precisa declarar algoritmo e referência protegida.",
+      "checkpointIds": [
+        "rt-6-3-4"
+      ]
+    },
+    {
+      "id": "sub-6-3-bloco-3",
+      "titulo": "Estratégias Práticas de Preservação Digital",
+      "objetivos": [
+        "Escolher estratégia pelas propriedades significativas."
+      ],
+      "conteudo": "O planejamento da preservação exige a escolha ponderada da estratégia técnica adequada ao tipo de acervo:\n\n```tree\nTITLE: Estratégias de Preservação Digital (Arellano, Rosenthal, NDSA)\n- Estratégias a Nível de Bits (Físicas)\n  - Refrescamento (Refreshing) | Transferência periódica de bits para mídias físicas modernas sem alterar o formato\n  - Redundância Geográfica e Auditoria | Cópias múltiplas e descentralizadas com checagem de fixidez (LOCKSS/Cariniana)\n- Estratégias Lógicas e Estruturais\n  - Migração de Formatos | Conversão de arquivos de formatos obsoletos para novos padrões contemporâneos\n  - Normalização na Ingestão | Conversão padronizada de arquivos SIP para formatos abertos canônicos no AIP\n  - Encapsulamento | Reunião de arquivo, metadados de representação e decodificadores em pacote autocontido\n- Estratégias Comportamentais e de Ambiente\n  - Emulação | Recriação virtual do sistema operacional e hardware legados sem tocar no código binário\n  - Preservação de Tecnologia | Manutenção de equipamentos e placas originais em museu de hardware (com custos e limites que exigem análise de sustentabilidade)\n```\n\n#### Quando Utilizar Cada Estratégia:\n1. **Normalização na Ingestão:** Indicada para **repositórios institucionais e bibliotecas digitais ativas**. A política pode manter original e derivado normalizado, com validação das propriedades significativas. DOCX não deve ser chamado simplesmente de formato sem especificação aberta; normalização não é obrigatoriamente automática nem única para todos os objetos.\n2. **Migração Periódica:** Indicada para **grandes coleções documentais de texto, imagem e som**. Requer monitoramento permanente do mercado (*Preservation Planning* no OAIS). Quando um formato dá sinais de obsolescência, realiza-se a conversão em lote para um formato substituto, registrando os metadados de evento de migração no PREMIS.\n3. **Emulação:** Indicada para **obras digitais complexas, bases de dados relacionais arcaicas, softwares educativos e produções multimídia interativas**. Pode preservar aspectos de comportamento que uma migração não reproduza adequadamente. Emulação recria ambiente; sua preparação também demanda componentes, licenças, configuração e testes. Não se garante preservação perfeita de toda experiência nem ausência de toda transformação auxiliar.\n4. **Encapsulamento:** Utilizado na geração dos pacotes **AIP (Archival Information Package)** e em contêineres como **BagIt (IETF RFC 8493)** e **WARC (ISO 28500)**, apoiando associação de componentes e metadados segundo perfil; BagIt e WARC têm finalidades/estruturas próprias e não são sinônimos de AIP.\n\n**Aplicação e recuperação:** Para um jogo interativo, preservar só capturas de tela pode perder comportamento. Emulação pode ajudar, mas deve ser testada. Para texto simples, migração pode ser apropriada com validação. A escolha não decorre de dizer que emulação é sempre perfeita e migração sempre destrutiva.",
+      "checkpointIds": [
+        "cp-6-3-3"
+      ]
+    },
+    {
+      "id": "sub-6-3-bloco-4",
+      "titulo": "Formatos: selecionar por propriedades, versão e risco",
+      "objetivos": [
+        "Comparar formatos sem impor um único padrão universal."
+      ],
+      "conteudo": "Não existe um único formato matriz obrigatório para todo acervo. Abertura de especificação, adoção, ferramentas, transparência, compressão, metadados, direitos e dependências ajudam a avaliar risco. Formato aberto não elimina obsolescência; recurso proprietário relevante não deve ser descartado automaticamente se constitui o original a preservar.\n\n**Textos:** a família **PDF/A (ISO 19005)** possui partes/perfis distintos. PDF/A-1 tem níveis a/b; nível a inclui requisitos de estrutura, mas não certifica sozinho toda acessibilidade. PDF/A-2 amplia capacidades em relação ao PDF/A-1; PDF/A-3 admite arquivos associados em formatos diversos nas condições do padrão. PDF/A-4 se baseia em PDF 2.0 e tem perfis próprios. Não generalize limitações de uma parte a toda a família. Hiperlink não é necessariamente dependência externa de renderização. Conformidade exige validação, não só exportar com um nome.\n\n**Imagens:** TIFF é família/contêiner com opções de codificação e compressão; TIFF 6.0 não equivale simplesmente a TIFF/IT da ISO 12639. Não é sempre não comprimido nem sinônimo de preservação perfeita. PNG usa compressão sem perdas. JPEG 2000 admite modos com e sem perdas; a escolha efetiva precisa ser registrada. Mais bits ou maior resolução não significam automaticamente mais informação do original: equipamento, captura e finalidade importam.\n\n**Áudio:** BWF se baseia em WAVE e acrescenta metadados, com especificação EBU Tech 3285. Taxa de amostragem, profundidade e codificação devem atender fonte, captura e política. Não se exige 96 kHz/24 bits para toda gravação nem se garante fidelidade apenas pelo contêiner. Documente equipamentos e procedimentos e preserve evidências de alterações.\n\n**Vídeo:** **FFV1** é codec sem perdas descrito na RFC 9043; **Matroska** é contêiner descrito na RFC 9559. Codec e contêiner não são sinônimos. Mecanismos internos de integridade e sua configuração não substituem controle de fixidez do arquivo, redundância e testes. Não existe redução universal de mais de 50% para qualquer vídeo; compressibilidade depende do material.\n\n**Web:** WARC organiza registros de coletas e seus metadados, incluindo interações web pertinentes. Um arquivo WARC não prova que todos os recursos dinâmicos, conteúdos autenticados e serviços externos foram capturados. É preciso testar reprodução e documentar escopo, falhas e restrições. Manter a URL da página não é o mesmo que preservar sua representação e contexto.\n\n**Critério de decisão:** declare o que deve permanecer utilizável, para quem e sob quais condições. Faça um teste com amostra representativa, compare original/derivado e registre perdas aceitáveis antes de converter em lote.\n\n**Aplicação e recuperação:** Arquivo .mkv pode conter codecs diferentes. A extensão não prova FFV1 nem compressão sem perdas. Um TIFF pode ter diferentes codificações; não basta chamá-lo matriz. Propriedade significativa e procedimento precisam estar documentados e validados.",
+      "checkpointIds": [
+        "cp-6-3-2",
+        "rt-6-3-6"
+      ]
+    },
+    {
+      "id": "sub-6-3-bloco-5",
+      "titulo": "Matriz de Decisão Arquitetural de Preservação",
+      "objetivos": [
+        "Justificar decisão e critérios de verificação."
+      ],
+      "conteudo": "| Necessidade | Decisão possível | Verificação necessária |\n|---|---|---|\n| Preservar imagem de página | Matriz com codificação e parâmetros documentados | Completude, resolução efetiva, cor, compressão e metadados |\n| Manter texto pesquisável | Original e derivado com OCR, conforme política | Correspondência da camada textual, legibilidade e ordem |\n| Preservar áudio/vídeo | Codec/contêiner adequados e metadados | Reprodução, integridade, qualidade da captura e ferramentas |\n| Preservar objeto interativo | Emulação e/ou migração conforme propriedades | Comportamento, dependências, licenças e controles |\n| Arquivar coleta web | Registros WARC e documentação do escopo | Recursos ausentes, reprodução e contexto |\n\nA tabela descreve opções, não diagnóstico de infraestrutura da Câmara nem formato obrigatório de todo AIP/DIP.\n\n**Aplicação e recuperação:** O plano escolhe formato, mas não define como conferir páginas faltantes ou erros de OCR. Falta critério de aceitação. Testes de amostra ajudam a decidir antes de converter tudo, e a qualidade deve ser acompanhada também após a conversão.",
+      "checkpointIds": [
+        "rt-6-3-9"
+      ]
+    },
+    {
+      "id": "sub-6-3-bloco-6",
+      "titulo": "Caso autoral hipotético: preservar um diário legislativo",
+      "objetivos": [
+        "Planejar preservação e acesso em cenário delimitado."
+      ],
+      "conteudo": "Uma instituição decide preservar um diário digitalizado. Este é cenário de projeto, **não descrição comprovada da infraestrutura da Câmara**. A equipe define que a comunidade deve ler páginas e localizar trechos, e estabelece critérios de completude, legibilidade, ordem e fidelidade.\n\nPrimeiro registra origem, direitos e estado do material. Depois escolhe captura e formatos por teste, confere sequência das páginas e produz camada de texto quando adequada. OCR não converte automaticamente a imagem em transcrição correta; uma palavra negativa omitida pode alterar sentido jurídico. A equipe mantém relações entre original e derivados e documenta os processos.\n\nNo ingresso, compara inventário, valida arquivos e estabelece valores de fixidez protegidos. Mantém réplicas, mas verifica se estão sujeitas à mesma falha ou credencial comprometida. Planeja testes de restauração e resposta a divergências; não ativa sobrescrita automática sem determinar referência confiável.\n\nPara acesso, entrega uma representação apropriada à solicitação, com condições de uso e recursos acessíveis. Ela pode ser derivada e menor, mas DIP não é definido como “PDF comprimido com marca-d’água”. A versão de acesso deve continuar rastreável ao conjunto preservado. Avaliar resultado exige testar uso real, não apenas conferir quantidade de cópias.\n\n**Aplicação e recuperação:** No caso hipotético, a camada OCR torna busca possível, mas pode errar exatamente o artigo citado por um usuário. A versão de acesso precisa permitir retornar à imagem e identificar a fonte. “Pesquisável” não é certificado de transcrição correta.",
+      "checkpointIds": [
+        "rt-6-3-5"
+      ]
+    },
+    {
+      "id": "sub-6-3-bloco-7",
+      "titulo": "OAIS, informação e PREMIS: níveis complementares",
+      "objetivos": [
+        "Relacionar funções, pacotes e metadados do OAIS/PREMIS."
+      ],
+      "conteudo": "**OAIS é modelo de referência**, não software obrigatório nem certificado automático de repositório confiável. O “Open” se refere ao desenvolvimento do modelo em fórum aberto; não impõe acesso irrestrito ao arquivo. A **comunidade designada** e sua base de conhecimento orientam o que precisa permanecer compreensível de forma independente. A edição CCSDS de dezembro de 2024, vinculada à ISO 14721:2025, explicita **objetivos de preservação** para tornar essa avaliação mais verificável, além de mudanças como Preservation Watch no planejamento.\n\nO modelo funcional distingue **Ingestão, Armazenamento Arquivístico, Gestão de Dados, Administração, Planejamento da Preservação e Acesso**. Essas entidades funcionais não exigem seis produtos comerciais nem seis servidores. Produtor, consumidor e gestão integram as relações de ambiente; implementação e responsabilidades precisam ser definidas.\n\n**SIP** é pacote submetido pelo produtor, com forma/conteúdo acordados. **AIP** é pacote para preservação, com informação adequada aos objetivos e à comunidade. **DIP** é pacote disseminado em resposta à solicitação. Relações não são necessariamente um-para-um: vários SIPs podem alimentar AIP(s), e um DIP pode derivar de um ou mais AIPs. Não se presume que todo pacote seja ZIP, que SIP seja sempre “documento bruto” ou que DIP seja sempre menor/comprimido.\n\nUm **objeto de informação** associa objeto de dados e **informação de representação**, necessária à compreensão. A **PDI — Preservation Description Information** contempla proveniência, contexto, referência, fixidez e direitos de acesso. Não a confunda com informação descritiva voltada à descoberta nem traduza sua sigla como uma mistura indiferenciada de “preservação e descrição”. Informação de empacotamento articula componentes e sua identificação/extração.\n\n**PREMIS 3.0** oferece dicionário de metadados de preservação baseado em **quatro entidades: Objetos, Eventos, Direitos e Agentes**. Objetos incluem categorias pertinentes a entidade intelectual, representação, arquivo e bitstream; informação de ambiente tem tratamento no modelo, mas não constitui uma quinta entidade independente chamada Environment. Modelos e versões anteriores não devem ser misturados.\n\n**METS** pode articular metadados e componentes conforme versão/perfil, usando metadados descritivos de outros esquemas e informação de preservação apropriada. Não é sinônimo de PREMIS ou OAIS. **ISO 16363** trata avaliação/auditoria de repositórios; citar OAIS, ter um METS ou usar PREMIS não demonstra por si que uma auditoria completa foi realizada.\n\n**Recupere:** para uma migração, identifique objeto de origem/destino, evento, agente, direitos, parâmetros, resultado e evidências. Explique qual parte é dado de preservação e por que apenas registrar o nome do formato novo seria insuficiente.\n\n**Aplicação e recuperação:** Uma solicitação pede dados de dois conjuntos preservados: o DIP pode resultar de mais de um AIP. AIP não é sinônimo de arquivo PDF e a comunidade designada não é necessariamente qualquer pessoa do planeta. Os objetivos devem explicitar o que precisa ser compreensível e testável.",
+      "checkpointIds": [
+        "cp-6-3-1",
+        "rt-6-3-1",
+        "rt-6-3-2",
+        "rt-6-3-3",
+        "rt-6-3-7"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "### Revisão: preservar informação exige contexto e testes\n\nCópia é componente, não toda preservação. Fixidez compara bits com referência confiável; não prova verdade nem torna toda divergência ilegítima. Migração, normalização, emulação e redundância dependem de objetivos e propriedades. Formatos e parâmetros não são universais; codec difere de contêiner. OAIS: comunidade designada, objetivos, seis entidades funcionais e pacotes SIP/AIP/DIP, sem obrigatoriedade de ZIP ou relação um-para-um. PDI reúne cinco tipos pertinentes; PREMIS 3.0 tem quatro entidades. METS, PREMIS, OAIS e auditoria de repositório têm funções distintas. Avalie evidências e uso, não apenas a presença de uma sigla.\n",
+  "fontesTeoria": [
+    {
+      "id": "oais",
+      "titulo": "CCSDS — OAIS Reference Model, 650.0-M-3",
+      "localizador": "Dezembro de 2024; seções 1–4 e mudanças. Complementa o preview ISO 14721:2025 do acervo, que não é o texto integral da norma.",
+      "url": "https://ccsds.org/Pubs/650x0m3.pdf"
+    },
+    {
+      "id": "premis",
+      "titulo": "Library of Congress — PREMIS 3.0",
+      "localizador": "Quatro entidades e documentação de preservação; distinguir modelos históricos.",
+      "url": "https://www.loc.gov/standards/premis/v3/"
+    },
+    {
+      "id": "bagit",
+      "titulo": "IETF — RFC 8493, BagIt",
+      "localizador": "Empacotamento e manifestos, sem garantia automática de autenticidade.",
+      "url": "https://www.rfc-editor.org/rfc/rfc8493.html"
+    },
+    {
+      "id": "ffv1",
+      "titulo": "IETF — RFC 9043, FFV1",
+      "localizador": "Codec de vídeo e configuração.",
+      "url": "https://www.rfc-editor.org/rfc/rfc9043.html"
+    },
+    {
+      "id": "matroska",
+      "titulo": "IETF — RFC 9559, Matroska",
+      "localizador": "Contêiner; não é RFC 8428.",
+      "url": "https://www.rfc-editor.org/rfc/rfc9559.html"
+    },
+    {
+      "id": "acervo",
+      "titulo": "Acervo HNC — preservação e bibliotecas digitais",
+      "localizador": "Cunha, Desafios na construção de uma biblioteca digital, e fontes de preservação identificadas no catálogo; práticas precisam de política e contexto."
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-6-3-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O termo Open do OAIS exige que todos os arquivos preservados tenham acesso público irrestrito.",
+      "gabarito": "E",
+      "justificativa": "Open se refere à elaboração do modelo, não à autorização universal de acesso.",
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "OAIS admite políticas de acesso; Open não significa acesso irrestrito."
+    },
+    {
+      "id": "rt-6-3-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um DIP pode derivar de um ou mais AIPs e não é definido necessariamente como arquivo comprimido menor que o original.",
+      "gabarito": "C",
+      "justificativa": "Os pacotes têm funções, não um tamanho/formato físico único.",
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-3-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "PREMIS 3.0 possui uma quinta entidade independente chamada Environment além de Objects, Events, Rights e Agents.",
+      "gabarito": "E",
+      "justificativa": "O modelo oficial da versão 3 apresenta quatro entidades; informação de ambiente tem tratamento próprio.",
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "PREMIS 3.0 apresenta Objetos, Eventos, Direitos e Agentes."
+    },
+    {
+      "id": "rt-6-3-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um hash coincidente prova que todas as afirmações do documento preservado são verdadeiras.",
+      "gabarito": "E",
+      "justificativa": "Fixidez apoia evidência de manutenção dos bits, não verdade material do conteúdo.",
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Hash apoia verificação de bits com referência confiável, sem certificar verdade."
+    },
+    {
+      "id": "rt-6-3-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Mudança de hash decorrente de migração autorizada deve ser analisada junto à identidade das versões e ao registro do evento.",
+      "gabarito": "C",
+      "justificativa": "O derivado pode ter bits diferentes legitimamente; é preciso registrar relação e validar propriedades.",
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-3-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "FFV1 e Matroska são nomes equivalentes de um único codec.",
+      "gabarito": "E",
+      "justificativa": "FFV1 é codec; Matroska é contêiner que pode organizar diferentes fluxos.",
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "FFV1 é codec e Matroska é contêiner."
+    },
+    {
+      "id": "rt-6-3-7",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Definir comunidade e objetivos de preservação ajuda a avaliar se a informação permanece compreensível de forma independente.",
+      "gabarito": "C",
+      "justificativa": "A inteligibilidade depende da base de conhecimento pertinente, não apenas de manter um arquivo que ainda abre.",
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-3-8",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um backup recuperável pode integrar a preservação digital sem, isoladamente, garantir inteligibilidade e autenticidade de longo prazo.",
+      "gabarito": "C",
+      "justificativa": "Cópias ajudam a recuperação, mas não substituem formatos, contexto, evidências e gestão da preservação.",
+      "fonte": "CCSDS — OAIS Reference Model, 650.0-M-3",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-3-9",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma matriz de escolha de formatos dispensa requisitos da comunidade designada se o formato for popular no mercado.",
+      "gabarito": "E",
+      "justificativa": "Popularidade é indício possível, não substituto dos requisitos e riscos do objeto.",
+      "fonte": "CCSDS — OAIS Reference Model, 650.0-M-3",
+      "editalRef": "Bloco E - Item 1.14 e Bloco A - Item 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "A escolha deve considerar requisitos, riscos e comunidade, além de adoção."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-6-3-1": {
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "justificativa": "O modelo oferece referência conceitual e funcional, com SIP/AIP/DIP. Sua adoção declarada não certifica automaticamente confiança, conformidade integral ou formato físico específico dos pacotes."
+    },
+    "cp-6-3-2": {
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "item": "A família PDF/A permite cifrar o documento inteiro com senha em qualquer parte/perfil e, só por isso, garante preservação e acesso futuros sem necessidade de manter chaves ou outras condições.",
+      "justificativa": "A afirmação atribui permissivo e garantia universais incorretos. As partes/perfis têm requisitos e a preservação não decorre de cifrar e guardar um arquivo. Não se generaliza, em sentido contrário, que toda parte proíba qualquer arquivo multimídia associado.",
+      "versao_correta": "PDF/A exige conformidade ao perfil aplicável e não garante por si preservação futura."
+    },
+    "cp-6-3-3": {
+      "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
+      "justificativa": "Emulação recria ambiente para uso do objeto; migração transforma sua representação/formato. A preparação de um ambiente pode ter procedimentos auxiliares, sem tornar as duas estratégias sinônimas.",
+      "versao_correta": "Emulação busca reproduzir ambiente; migração transforma a representação conforme o plano."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Fixidez e verdade",
+      "definicao": "Verificar identidade binária difere de confirmar afirmações do conteúdo.",
+      "exemploBiblioteca": "O mesmo hash não torna verdadeira uma data escrita incorretamente."
+    },
+    {
+      "termo": "Pacote de informação",
+      "definicao": "No OAIS, SIP, AIP e DIP expressam papéis nos fluxos.",
+      "exemploBiblioteca": "DIP não é sinônimo obrigatório de ZIP ou de cópia reduzida."
+    }
+  ],
+  "autoresChave": [
+    "CCSDS — OAIS Reference Model, 650.0-M-3",
+    "Library of Congress — PREMIS 3.0",
+    "IETF — RFC 8493, BagIt",
+    "IETF — RFC 9043, FFV1",
+    "IETF — RFC 9559, Matroska",
+    "Acervo HNC — preservação e bibliotecas digitais"
+  ],
+  "descricaoCurta": "Distinguir cópia, inteligibilidade e evidências de autenticidade. Aplicar fixidez com referência confiável e resposta a falhas. Escolher estratégia pelas propriedades significativas. Comparar formatos sem impor um único padrão universal. Justificar decisão e critérios de verificação. Planejar preservação e acesso em cenário delimitado. Relacionar funções, pacotes e metadados do OAIS/PREMIS.",
+  "alertasCebraspe": [
+    "Open se refere à elaboração do modelo, não à autorização universal de acesso.",
+    "O modelo oficial da versão 3 apresenta quatro entidades; informação de ambiente tem tratamento próprio.",
+    "Fixidez apoia evidência de manutenção dos bits, não verdade material do conteúdo."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 31
+}

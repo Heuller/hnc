@@ -1,0 +1,237 @@
+{
+  "id": "sub-6-6",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-6-6-bloco-1",
+      "titulo": "Decompor, abstrair e testar um procedimento",
+      "objetivos": [
+        "Converter uma necessidade informacional em passos verificáveis, com hipóteses explícitas."
+      ],
+      "conteudo": "Pensamento computacional envolve formular problemas e soluções que possam ser executados por um agente de processamento de informações. O artigo de Jeannette Wing (2006) difundiu o tema. Decomposição, reconhecimento de padrões, abstração e construção de algoritmos são uma organização didática frequente; não é necessário atribuir toda formulação posterior de “quatro pilares” literalmente àquele artigo.\n\n**Decompor** é dividir uma tarefa em partes tratáveis. As partes podem depender umas das outras: a indexação automática usa a saída da tokenização nas etapas seguintes. **Reconhecer padrões** ajuda a propor regras; não prova que todos os casos futuros serão iguais. **Abstrair** é selecionar detalhes relevantes ao propósito. Cor da capa pode ser irrelevante a uma busca por assunto e importante em uma perícia material. **Algoritmo** descreve passos suficientemente definidos, com condições de entrada e de término para a tarefa proposta.\n\nSequência executa instruções em ordem; seleção escolhe caminhos por condição; repetição percorre itens ou repete até uma condição de parada. Um laço sem atualização pode não terminar. Uma regra como `se ano < 1900, encaminhar para avaliação` é uma **triagem hipotética**, não definição suficiente de obra rara. Raridade exige critérios da política e avaliação especializada.\n\n**Exemplo resolvido:** para identificar duplicações em um lote, primeiro defina o que conta como duplicação. Mesmo ISBN não prova identidade de exemplar físico. Depois normalize os identificadores, separe ausentes, gere candidatos, examine divergências e registre decisões. Remover automaticamente todos os registros com título igual pode apagar obras distintas. O acerto depende da especificação, não apenas de o código executar.",
+      "checkpointIds": [
+        "rt-6-6-7"
+      ]
+    },
+    {
+      "id": "sub-6-6-bloco-2",
+      "titulo": "SQL: filtrar linhas, formar grupos e interpretar resultados",
+      "objetivos": [
+        "Distinguir ordem lógica de plano físico e resolver uma agregação sem confundir identidade e nome."
+      ],
+      "conteudo": "SQL é declarativa: a consulta expressa o resultado desejado; o otimizador escolhe um plano físico. Uma ordem lógica didática de SELECT é `FROM/JOIN → WHERE → GROUP BY → HAVING → SELECT → DISTINCT → ORDER BY → LIMIT/OFFSET`. Isso **não obriga** o motor a ler e materializar cada etapa fisicamente nessa ordem. LIMIT e outras construções dependem do dialeto.\n\nWHERE filtra linhas antes da agregação do mesmo nível; HAVING restringe grupos. `WHERE COUNT(*) > 1` não é a forma de filtrar grupos nesse nível. Entretanto, WHERE pode usar o resultado de uma **subconsulta** com agregação. HAVING também pode ser usado sem GROUP BY explícito, havendo um grupo implícito nas condições admitidas pelo SGBD.\n\nINNER JOIN mantém correspondências; LEFT JOIN preserva linhas da esquerda e preenche a parte direita sem correspondência com NULL; RIGHT faz o simétrico; FULL preserva ambos os lados. Uma condição no WHERE sobre coluna da direita pode excluir as linhas preenchidas com NULL de um LEFT JOIN. `IS NULL` é o teste pertinente, não `= NULL`.\n\n**Exemplo completo, base inteiramente fictícia.** Considere assuntos de identificadores 1 (Direito Constitucional), 2 (Ciência Política) e 3 (História); livros `(id, ano)` iguais a `(1,2020),(2,2021),(3,2022),(4,2019),(5,2023),(6,2024)`; associações `(assunto, livro)` iguais a `(1,1),(1,2),(1,3),(1,4),(2,5),(2,6),(3,4)`. O par assunto–livro é único. Para assuntos com pelo menos duas obras de 2020 em diante:\n\n```sql\nSELECT a.nome AS termo_assunto, COUNT(l.id) AS total_obras\nFROM assunto a\nJOIN livro_assunto la ON la.id_assunto = a.id\nJOIN livro l ON l.id = la.id_livro\nWHERE l.ano >= 2020\nGROUP BY a.id, a.nome\nHAVING COUNT(l.id) >= 2\nORDER BY total_obras DESC, termo_assunto ASC;\n```\n\nO resultado é Direito Constitucional: **3**; Ciência Política: **2**. História não satisfaz o filtro. Agrupar também por id evita unir assuntos homônimos. Se a associação não for única, duplicações podem inflar COUNT; a hipótese de cardinalidade deve ser verificada.\n\n**Exemplo com apoio reduzido:** para proposições sem relator atual, complete a condição abaixo, supondo que `atual=1` indique designação atual e que `id_relator` não nulo represente relator designado:\n\n```sql\nSELECT p.id\nFROM proposicao p\nWHERE NOT EXISTS (\n  SELECT 1 FROM relatoria r\n  WHERE r.id_proposicao = p.id\n    AND r.atual = 1 AND r.id_relator IS NOT NULL\n);\n```\n\nA consulta procura a **ausência de linha que satisfaça a condição**, sem deixar uma designação histórica vazia gerar falso positivo. Um LEFT JOIN pode resolver modelos adequados, mas é preciso explicitar unicidade, histórico e nulidade.\n\n**Tente sem consultar a solução:** como contar obras por autor sem fundir homônimos? Use AUTOR e AUTORIA, com par autor–obra único; agrupe por `autor.id, autor.nome`, conte as associações e ordene pelo total. Um autor com duas obras terá total dois nessa base; isso não mede toda sua produção publicada.",
+      "checkpointIds": [
+        "cp-6-6-1",
+        "rt-6-6-1",
+        "rt-6-6-2"
+      ]
+    },
+    {
+      "id": "sub-6-6-bloco-3",
+      "titulo": "Expressões regulares: sintaxe não certifica conteúdo",
+      "objetivos": [
+        "Validar e extrair com motor, flags e limites definidos."
+      ],
+      "conteudo": "Os exemplos a seguir usam **Python 3, módulo re**. Uma regex não tem semântica universal independente do motor. Em strings Unicode do Python, `\\d` e `\\w` vão além de `[0-9]` e `[a-zA-Z0-9_]`; flags alteram comportamento. `.` casa um caractere exceto nova linha no modo padrão; `\\.` representa ponto literal. DOTALL muda o primeiro comportamento. `*`, `+`, `?` e `{n,m}` quantificam a expressão anterior; `(?:...)` agrupa sem criar grupo de captura. `\\b` representa fronteira de palavra segundo a definição do motor, não fronteira de conceito jurídico.\n\nPara validar a string inteira, prefira **fullmatch** nos exemplos. `$` pode casar antes de uma quebra de linha final no Python; dizer apenas “ancorado” não resolve todos os casos. Em strings raw, escreva `r'\\.'` para evitar uma camada de escape da própria linguagem.\n\n**Exemplo completo:** este exercício aceita apenas PL, PLP, PEC e PDL, número de um a cinco dígitos ASCII e ano de quatro. Não é lista exaustiva de espécies legislativas e não verifica se a proposição existe.\n\n```python\nimport re\nm = re.fullmatch(r'(PL|PLP|PEC|PDL)[ \\t]+([0-9]{1,5})/([0-9]{4})',\n                 'PL 1042/2026')\nprint(m.groups() if m else None)\n# ('PL', '1042', '2026')\n```\n\n`MPV 100/2026` falha pela lista **do exercício**, não por MPV ser inexistente. `PL 123456/2026` falha pelo tamanho; `PL 1/2026\\n` falha por não ser correspondência completa. Aceitar quatro dígitos não garante ano plausível.\n\n**Extração com apoio reduzido:** para obter o número em “Art. 102” e “artigo 37, caput”, complete o modificador que ignora caixa:\n\n```python\npadrao = r'\\b(?:art\\.|artigo)[ \\t]+([0-9]+)(?:[º°])?(?=\\W|$)'\nnumeros = re.findall(padrao, 'Art. 102; artigo 37, caput; art. 5º',\n                     flags=re.IGNORECASE)\n# ['102', '37', '5']\n```\n\nÉ um extrator didático limitado: não interpreta intervalo, inciso ou todas as formas editoriais. Testes negativos, como “artesanato”, são tão necessários quanto os positivos.\n\n**Aplicação autônoma:** valide um subconjunto de notações com três algarismos iniciais e, opcionalmente, um único ponto seguido de algarismos. A expressão é `re.fullmatch(r'[0-9]{3}(?:\\.[0-9]+)?', texto)`. Aceita `020` e `025.4`, rejeita `025..4` e `025.4.1`. Isso **não valida semanticamente a CDD** nem cobre a CDU, seus sinais e auxiliares. Consultar a tabela e a edição continua necessário.",
+      "checkpointIds": [
+        "cp-6-6-2",
+        "rt-6-6-3"
+      ]
+    },
+    {
+      "id": "sub-6-6-bloco-4",
+      "titulo": "REST, HTTP e dados abertos: consumir sem fabricar evidência",
+      "objetivos": [
+        "Interpretar métodos, códigos, recursos e paginação com tratamento de ausência."
+      ],
+      "conteudo": "REST, descrito por Roy Fielding, articula cliente-servidor, comunicação sem estado de sessão no servidor entre requisições, cacheabilidade, interface uniforme, sistema em camadas e código sob demanda opcional. **Stateless não significa ausência de estado dos recursos**: livros, contas e registros continuam armazenados. Cada requisição deve fornecer o contexto necessário para ser compreendida. Usar HTTP e JSON, isoladamente, não certifica REST.\n\nSegundo a semântica HTTP, GET é seguro e idempotente: a intenção não é alterar estado; logs e efeitos incidentais não o tornam automaticamente inseguro. POST solicita processamento e não se limita à criação. PUT solicita criação/substituição da representação do recurso-alvo e é idempotente; PATCH aplica modificações parciais, cuja idempotência depende da operação. DELETE é idempotente quanto ao efeito pretendido; a resposta pode mudar de sucesso para 404 na repetição.\n\n200 indica sucesso; 201, criação; 400, erro atribuído à requisição; 401 requer autenticação válida, ausente ou inválida; 403 indica recusa de atendimento; 404, recurso não encontrado ou não exposto como existente; 500, condição inesperada no servidor. O código precisa ser interpretado com o contrato da API.\n\nA **API v2 oficial da Câmara** tem base `https://dadosabertos.camara.leg.br/api/v2`. A documentação descreve `/deputados`, `/proposicoes` e `/votacoes/{id}/votos`. Parâmetros, campos e limites devem ser consultados; a resposta de uma requisição concreta pode mudar. Exemplo de consulta documentável: `/proposicoes?ano=2026&siglaTipo=PL&itens=2`. A aula não atribui números ou ementas inventados a respostas reais.\n\n**Mock didático, não resposta oficial:**\n\n```json\n{\n  \"dados\": [{\"id\": 1, \"ementa\": \"Texto inteiramente fictício\"}],\n  \"links\": [{\"rel\": \"next\", \"href\": \"https://example.org/pagina/2\"}]\n}\n```\n\nExtrair `resposta.dados[0].ementa` produz “Texto inteiramente fictício” nesse mock. Em produção, valide o contrato, o status e a forma do dado antes de acessar posições. Para objeto aninhado fictício `{dados:{ultimoStatus:{siglaUf:'DF'}}}`, o acesso é `resposta.dados.ultimoStatus.siglaUf`; não há identificação de parlamentar real no exemplo.\n\n**Complete mentalmente antes de ler:** como obter a próxima página se links estiver ausente? Primeiro teste se é array; depois procure next. Ausência é resultado possível, não exceção obrigatória.\n\n```javascript\nfunction extrairProximaPagina(respostaJson) {\n  const links = Array.isArray(respostaJson?.links) ? respostaJson.links : [];\n  const next = links.find(link => link?.rel === 'next'\n    && typeof link.href === 'string');\n  return next?.href ?? null;\n}\n```\n\nO mock acima retorna `https://example.org/pagina/2`; `{}`, `null` e `{links:[]}` retornam null. Antes de seguir um link recebido, um consumidor real deve aplicar sua política de destinos, tratar falhas, limites, paginação repetida e autenticação. Não confunda concluir uma página com concluir a coleta inteira.",
+      "checkpointIds": [
+        "rt-6-6-4",
+        "rt-6-6-5"
+      ]
+    },
+    {
+      "id": "sub-6-6-bloco-5",
+      "titulo": "Coleta automatizada, robots.txt e limites jurídicos",
+      "objetivos": [
+        "Escolher uma forma de acesso e reconhecer que publicidade não elimina deveres."
+      ],
+      "conteudo": "Crawler percorre endereços/links segundo uma política; scraper extrai dados de uma representação. As funções podem coexistir. Crawler não precisa indexar todo conteúdo; scraper não se limita necessariamente ao DOM HTML.\n\nO protocolo de exclusão de robôs é especificado na **RFC 9309**. robots.txt fornece regras técnicas aos robôs que o seguem e **não é mecanismo de autorização de acesso ou segurança**. `User-agent`, `Allow` e `Disallow` integram o protocolo; `Crawl-delay` é extensão adotada por alguns agentes, não diretiva padronizada por essa RFC. Ausência de proibição não cria licença irrestrita para copiar ou tratar dados.\n\nQuando adequadas à necessidade, API oficial e download em lote podem reduzir fragilidade e carga do scraping. Isso não elimina deveres: respeite limites e termos, documente finalidade, minimize campos e trate indisponibilidade sem contornar controles. Mudança do HTML pode quebrar seletores; teste a qualidade e a cobertura da extração.\n\nDados pessoais públicos continuam sujeitos à LGPD. Os arts. 6º e 7º, §§ 3º e 4º, exigem considerar princípios, finalidade, boa-fé e interesse público, e resguardar direitos. Consentimento não é a única base legal; tampouco “estava na internet” é base irrestrita. Dados sensíveis demandam as hipóteses próprias do **art. 11**. Acesso público, dado aberto e dado anonimizado não são sinônimos.\n\nFatos isolados não recebem proteção autoral apenas por serem fatos; a forma de expressão e bases cuja seleção, organização ou disposição constituam criação intelectual podem ter proteção conforme a Lei 9.610. Avalie também termos e outros direitos aplicáveis, sem deduzir autorização por ausência de login.\n\n**Caso resolvido:** um robô deve coletar apenas número e ementa de proposições. Há API apropriada. Consultar primeiro seu contrato e os limites é mais estável do que depender de posições visuais no HTML. Se a página também expõe dados pessoais alheios à finalidade, não os inclua automaticamente. Se a API falhar, registre e trate o erro; falha não autoriza ultrapassar proteção de acesso.",
+      "checkpointIds": [
+        "cp-6-6-3",
+        "rt-6-6-6"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "SQL exige distinguir linhas, grupos e identidade. Ordem lógica não é ordem física obrigatória. Regex depende de motor e flags; aparência válida não certifica classe bibliográfica ou existência de proposição. HTTP separa segurança e idempotência, sem exigir resposta idêntica. Stateless não proíbe estado dos recursos. API oficial tem contrato; exemplos simulados não são prova de dados reais. robots.txt não concede autorização jurídica e dados pessoais públicos continuam sujeitos à LGPD.",
+  "fontesTeoria": [
+    {
+      "id": "wing",
+      "titulo": "Jeannette Wing — Computational Thinking (2006)",
+      "localizador": "Formulação de problemas; não atribuir automaticamente toda taxonomia didática posterior ao artigo.",
+      "url": "https://doi.org/10.1145/1118178.1118215"
+    },
+    {
+      "id": "sql",
+      "titulo": "PostgreSQL — SELECT",
+      "localizador": "Ordem lógica, agrupamento e condições de SELECT.",
+      "url": "https://www.postgresql.org/docs/18/sql-select.html"
+    },
+    {
+      "id": "python",
+      "titulo": "Python 3 — re",
+      "localizador": "Fullmatch, Unicode, flags, grupos e âncoras.",
+      "url": "https://docs.python.org/3/library/re.html"
+    },
+    {
+      "id": "http",
+      "titulo": "RFC 9110 — HTTP Semantics",
+      "localizador": "Seções 9 e 15: métodos, segurança, idempotência e status.",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html"
+    },
+    {
+      "id": "robots",
+      "titulo": "RFC 9309 — Robots Exclusion Protocol",
+      "localizador": "Regras não equivalem a autorização de acesso.",
+      "url": "https://www.rfc-editor.org/rfc/rfc9309.html"
+    },
+    {
+      "id": "camara",
+      "titulo": "Câmara dos Deputados — API de Dados Abertos v2",
+      "localizador": "Consultar contrato e parâmetros; exemplos locais são explicitamente fictícios.",
+      "url": "https://dadosabertos.camara.leg.br/swagger/api.html"
+    },
+    {
+      "id": "lgpd",
+      "titulo": "Lei 13.709/2018 — LGPD",
+      "localizador": "Arts. 6º, 7º e 11; aplicar recorte normativo do edital.",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-6-6-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma consulta pode conter agregação em uma subconsulta no WHERE sem aplicar a agregação diretamente às linhas do mesmo nível de consulta.",
+      "gabarito": "C",
+      "justificativa": "A restrição do WHERE não proíbe toda ocorrência textual de agregação em uma subconsulta independente.",
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "editalRef": "Bloco C - Item 3.1 a 3.5",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-6-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Agrupar por nome de assunto sempre distingue assuntos homônimos, mesmo quando possuem identificadores diferentes.",
+      "gabarito": "E",
+      "justificativa": "Nomes iguais seriam reunidos; incluir o identificador preserva a identidade no modelo.",
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "editalRef": "Bloco C - Item 3.1 a 3.5",
+      "habilidade": "aplicar",
+      "versao_correta": "Agrupar por identificador e nome distingue assuntos homônimos."
+    },
+    {
+      "id": "rt-6-6-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um padrão que aceita a aparência numérica de uma notação prova que a classe existe na edição vigente da CDD.",
+      "gabarito": "E",
+      "justificativa": "Reconhecimento sintático não consulta as tabelas nem confirma significado, edição ou autorização de síntese.",
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "editalRef": "Bloco C - Item 3.1 a 3.5",
+      "habilidade": "aplicar",
+      "versao_correta": "A validade semântica exige consultar o sistema e a edição pertinentes."
+    },
+    {
+      "id": "rt-6-6-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Na semântica HTTP, idempotência de DELETE exige que todas as repetições tenham o mesmo código de resposta.",
+      "gabarito": "E",
+      "justificativa": "Idempotência se refere ao efeito pretendido no servidor; uma repetição pode receber 404 após remoção.",
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "editalRef": "Bloco C - Item 3.1 a 3.5",
+      "habilidade": "aplicar",
+      "versao_correta": "Idempotência não exige respostas idênticas."
+    },
+    {
+      "id": "rt-6-6-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma API que usa JSON e HTTP é necessariamente REST, ainda que ignore suas restrições arquiteturais.",
+      "gabarito": "E",
+      "justificativa": "Formato e transporte não bastam para certificar cliente-servidor, stateless, cache, interface uniforme e camadas.",
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "editalRef": "Bloco C - Item 3.1 a 3.5",
+      "habilidade": "aplicar",
+      "versao_correta": "Usar HTTP e JSON não basta para conformidade REST."
+    },
+    {
+      "id": "rt-6-6-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A ausência de Disallow em robots.txt concede, por si só, autorização jurídica irrestrita para coletar dados pessoais.",
+      "gabarito": "E",
+      "justificativa": "O protocolo não concede autorização nem afasta finalidade, base legal e proteção de dados.",
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "editalRef": "Bloco C - Item 3.1 a 3.5",
+      "habilidade": "aplicar",
+      "versao_correta": "robots.txt não substitui autorização ou análise legal da coleta."
+    },
+    {
+      "id": "rt-6-6-7",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma regra de triagem por data pode encaminhar itens para avaliação sem, por si só, definir que todos são obras raras.",
+      "gabarito": "C",
+      "justificativa": "O propósito do algoritmo é triagem. A avaliação de raridade depende de política e critérios especializados, não apenas do ano.",
+      "fonte": "Wing (2006), formulação e abstração; política de desenvolvimento de coleções distingue triagem de decisão.",
+      "editalRef": "",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-6-6-1": {
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "item": "No mesmo nível de consulta SQL, WHERE filtra linhas antes da agregação e não admite diretamente o COUNT dos grupos que esse nível formará; HAVING pode restringir os grupos agregados.",
+      "justificativa": "A distinção é do nível lógico da consulta. Uma subconsulta com agregação pode aparecer em uma condição de WHERE; HAVING também pode operar com grupo implícito."
+    },
+    "cp-6-6-2": {
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "item": "No Python 3 re, sem DOTALL, o ponto não escapado casa exclusivamente o ponto literal, enquanto \\. é o curinga para qualquer caractere.",
+      "justificativa": "A assertiva inverte os papéis: ponto não escapado casa um caractere exceto nova linha no modo indicado; o escape representa ponto literal.",
+      "versao_correta": "No modo indicado, . é metacaractere e \\. representa ponto literal."
+    },
+    "cp-6-6-3": {
+      "fonte": "Python 3, documentação re; PostgreSQL, SELECT; RFC 9110, seções 9 e 15; RFC 9309; Dados Abertos da Câmara, documentação API v2; LGPD, arts. 6º, 7º e 11.",
+      "justificativa": "Publicidade não afasta os princípios nem autoriza toda finalidade de tratamento. LGPD, arts. 6º e 7º, §§ 3º e 4º; para sensíveis, examinar também art. 11.",
+      "versao_correta": "Dados pessoais públicos continuam sujeitos aos princípios e às condições legais de tratamento."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Ordem lógica e plano físico",
+      "definicao": "Explicação da semântica da consulta difere do plano adotado pelo otimizador.",
+      "exemploBiblioteca": "Filtro pode ser antecipado fisicamente sem alterar o resultado lógico."
+    },
+    {
+      "termo": "Sintaxe e semântica",
+      "definicao": "Aceitar um padrão textual não comprova existência ou significado no domínio.",
+      "exemploBiblioteca": "025.4 pode passar por regex sem que a expressão tenha consultado a edição da CDD."
+    }
+  ],
+  "autoresChave": [
+    "Jeannette Wing — Computational Thinking (2006)",
+    "PostgreSQL — SELECT",
+    "Python 3 — re",
+    "RFC 9110 — HTTP Semantics",
+    "RFC 9309 — Robots Exclusion Protocol",
+    "Câmara dos Deputados — API de Dados Abertos v2",
+    "Lei 13.709/2018 — LGPD"
+  ],
+  "descricaoCurta": "Converter uma necessidade informacional em passos verificáveis, com hipóteses explícitas. Distinguir ordem lógica de plano físico e resolver uma agregação sem confundir identidade e nome. Validar e extrair com motor, flags e limites definidos. Interpretar métodos, códigos, recursos e paginação com tratamento de ausência. Escolher uma forma de acesso e reconhecer que publicidade não elimina deveres.",
+  "alertasCebraspe": [
+    "Nomes iguais seriam reunidos; incluir o identificador preserva a identidade no modelo.",
+    "Reconhecimento sintático não consulta as tabelas nem confirma significado, edição ou autorização de síntese.",
+    "Idempotência se refere ao efeito pretendido no servidor; uma repetição pode receber 404 após remoção."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 25
+}

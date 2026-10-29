@@ -1,0 +1,182 @@
+{
+  "id": "sub-7-2",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-7-2-bloco-1",
+      "titulo": "A Ameaça Biológica nos Acervos Documentais",
+      "objetivos": [
+        "Distinguir vestígio, atividade e agente antes de intervir."
+      ],
+      "conteudo": "Os agentes biológicos constituem uma das mais severas fontes de perda patrimonial irrecuperável em bibliotecas situadas em climas tropicais como o brasileiro (Cassares, 2000; Beck, 1995; Spinelli, 2003):\n\n| Agente | Vestígio possível | Cuidado na inferência |\n| --- | --- | --- |\n| Brocas | Furos, galerias, resíduos | Vestígio antigo não prova atividade atual. |\n| Traças | Raspagens superficiais e perdas em áreas com colas | Identificar organismo e contexto; dano não é assinatura infalível. |\n| Cupins | Consumo de celulose, galerias, resíduos conforme espécie | Examinar também edifício e mobiliário. |\n| Baratas | Roeduras, manchas e ootecas | Alimentação e acesso dependem do ambiente. |\n| Fungos | Hifas, odor ou manchas, conforme caso | Mancha isolada não confirma fungo ativo. |\n| Roedores | Roedura, ninhos e dejetos | Considerar risco ocupacional e controle profissional. |\n\n#### A. Insetos Bibliófagos (Pragas de Bibliotecas)\n* **Brocas dos Livros (*Coleoptera / Anobiidae, Bostrichidae*):**\n  * O inseto adulto realiza a postura dos ovos nas frestas das capas, lombadas ou junto à costura.\n  * O dano destrutivo é causado pela **larva**: dotada de mandíbulas afiadas, ela perfura **longas galerias cilíndricas sinuosas** que atravessam centenas de páginas em profundidade.\n  * *Sinais diagnósticos:* Orifícios redondos na capa e nas margens, acompanhados de um fino montículo de pó celulósico esbranquiçado ou amarelado denominado **frass**.\n* **Traças de livros (*Lepisma saccharina*, Zygentoma; Thysanura em classificações históricas):**\n  * Insetos ápteros (sem asas), de corpo alongado coberto por escamas prateadas, altamente ágeis e fotofóbicos (habitam frestas escuras).\n  * Possuem hábito alimentar mastigador superficial: nutrem-se de **amido, dextrina, colas vegetais de encadernação, gelatinas fotográficas e papéis acetinados**.\n  * *Sinais diagnósticos:* Não cavam túneis circulares; causam erosões superficiais irregulares e deixam as **bordas das páginas com aspecto rendilhado ou serrilhado**.\n* **Cupins / térmitas (Isoptera historicamente; incluídos em Blattodea nas classificações atuais):**\n  * Insetos sociais xilófagos que digerem a celulose com o auxílio de microrganismos simbiontes.\n  * O cupim de madeira seca ataca diretamente livros nas estantes. Devoram o interior das folhas em bloco compacto, preservando apenas uma capa externa milimétrica para não se exporem à luz.\n  * O livro perde sustentação estrutural e se desintegra ao simples toque.\n* **Baratas (*Blattaria*):**\n  * Insetos onívoros que atacam encadernações em tecido, couro e papéis engomados, podendo deixar dejetos e ootecas (estruturas de ovos), com danos e contaminação. Ootecas não são excrementos.\n\n#### B. Fungos Filamentosos (Mofo e Bolor)\n* Os esporos de fungos (*Aspergillus, Penicillium, Trichoderma, Chaetomium*) encontram-se em suspensão contínua na atmosfera.\n* **Condições Críticas para Germinação:**\n  * Dependem da espécie, atividade de água no substrato, temperatura e tempo. Umidade elevada persistente aumenta risco, mas não há combinação única de 65% e 22 °C que acione necessariamente germinação em todo caso. Microclimas podem divergir da medição central.\n* **Mecanismo de Agressão:**\n  * Os fungos germinam, emitem hifas e secretam exoenzimas celulolíticas que digerem a celulose e a cola orgânica.\n  * Secretam ácidos que aceleram a despolimerização do papel e pigmentos que criam manchas multicoloridas indeléveis.\n* **O Fenômeno do Foxing:**\n  * Manchas avermelhadas, ferruginosas ou castanhas arredondadas dispersas nas páginas de livros antigos. A origem pode envolver processos químicos e/ou biológicos, variando conforme o caso. Não se diagnostica fungo ativo, presença obrigatória de ferro ou causa única apenas pela cor da mancha.\n\n**Aplicação e recuperação:** Há furos e pó em um livro recebido. Registre, isole e monitore para identificar atividade. Furos antigos podem permanecer após o fim da infestação. Mancha castanha também não é prova suficiente de fungo ativo; o diagnóstico não se reduz à aparência.",
+      "checkpointIds": [
+        "cp-7-2-2",
+        "rt-7-2-1"
+      ]
+    },
+    {
+      "id": "sub-7-2-bloco-2",
+      "titulo": "A Superação da Fumigação Química Tradicional",
+      "objetivos": [
+        "Reconhecer que riscos e restrições químicas não são idênticos para todos os produtos."
+      ],
+      "conteudo": "Durante décadas, as bibliotecas adotaram a \"dedetização química periódica\" por meio de pesticidas voláteis:\n* **Produtos historicamente empregados, com riscos e restrições que exigem avaliação especializada:** Brometo de metila, óxido de etileno, pastilhas de fosfeto de alumínio (fosfina), paradiclorobenzeno e naftalina.\n* **Por Que Foram Condenadas?**\n  1. *Severa Toxicidade Humana:* Os produtos citados possuem perfis toxicológicos distintos; exposição pode causar danos graves. Não se atribui automaticamente a todos a mesma classificação de carcinogenicidade, colocando em risco extremo a saúde dos funcionários e usuários.\n  2. *Danos Físico-Químicos ao Patrimônio:* Esses gases sofrem reações químicas secundárias com componentes do acervo, acelerando a quebra ácida de tintas ferrogálicas, amarelamento de películas fotográficas e fragilização de fibras.\n  3. *Impacto Ambiental:* O **Protocolo de Montreal** controla o brometo de metila por seu potencial de destruição do ozônio, com cronogramas e exceções, como usos de quarentena e pré-embarque. Não é correto afirmar proibição mundial de todo uso, sem exceções.\n\n**Aplicação e recuperação:** Um material foi tratado anos atrás com produto volátil. O rótulo “já evaporou” não confirma ausência de resíduos ou risco. Avaliar histórico e exposição é melhor que repetir fumigação preventiva sem diagnóstico.",
+      "checkpointIds": [
+        "rt-7-2-2"
+      ]
+    },
+    {
+      "id": "sub-7-2-bloco-3",
+      "titulo": "O Controle Integrado de Pragas (CIP / IPM - *Integrated Pest Management*)",
+      "objetivos": [
+        "Organizar prevenção, monitoramento e resposta em programa integrado."
+      ],
+      "conteudo": "O modelo moderno de salvaguarda é o **CIP**, preconizado pela IFLA e pelo Getty Conservation Institute (Cassares, 2000):\n\n1. **Prevenção e Barreiras Estruturais:**\n   * Instalação de telas milimétricas em todas as janelas, borrachas de vedação nas portas e selagem com silicone em frestas de rodapés e conduítes elétricos.\n2. **Higiene e Saneamento Rigoroso:**\n   * Proibição estrita de consumo de alimentos, bebidas, plantas ornamentais e flores no interior das áreas de acervo. Rotina de limpeza apropriada ao risco e à área, sem impor periodicidade diária universal nem dispersar contaminantes com equipamento inadequado.\n3. **Triagem e isolamento conforme política:**\n   * Inspecionar entradas e separar materiais suspeitos reduz introdução de pragas; a política define triagem, quarentena, espaço e critérios de liberação. Origem comercial não dispensa avaliação.\n4. **Monitoramento com Armadilhas Adesivas (*Sticky Traps*):**\n   * Distribuição de armadilhas adesivas sem veneno (com atrativos biológicos ou feromônios) em pontos selecionados conforme rotas, espécies e características do espaço; distância fixa não é regra universal.\n   * Registrar localização, data e capturas em intervalos definidos pelo risco permite acompanhar tendências. A ausência de captura não prova ausência de infestação, e armadilhas não medem exatamente toda população ou estágio.\n\n**Aplicação e recuperação:** Capturas aumentam perto de uma porta após obras. O mapa e a série temporal ajudam a investigar ingresso e corrigir barreiras. Zero capturas num mês não autoriza encerrar o programa ou dispensar inspeção de novas entradas.",
+      "checkpointIds": [
+        "cp-7-2-3",
+        "rt-7-2-3"
+      ]
+    },
+    {
+      "id": "sub-7-2-bloco-4",
+      "titulo": "Métodos Não Químicos de Desinfestação: Anóxia e Congelamento",
+      "objetivos": [
+        "Selecionar atmosfera controlada ou frio com condições verificadas."
+      ],
+      "conteudo": "Quando há atividade, isole e documente o problema, confirme o diagnóstico e selecione tratamento compatível. Métodos sem pesticida residual ainda exigem segurança ocupacional e controle técnico:\n\n#### A. A Técnica da Anóxia (Atmosfera Modificada Isenta de Oxigênio)\n* **Princípio e requisitos do método:**\n  * O livro infestado é colocado no interior de uma bolsa de filme plástico especial de altíssima barreira a gases (filmes de barreira laminados com alumínio / PET aluminizado).\n  * Reduz-se o oxigênio com gás inerte e/ou absorvedores em sistema adequado de barreira. **Anóxia não é sinônimo de embalar a vácuo**; evacuação pode ser inadequada a certos objetos. Monitorar vedação, oxigênio e condições é parte do processo.\n  * A concentração de oxigênio é reduzida para **menos de 0,1%** (nível inferior a 1.000 ppm) em protocolos apropriados. Valores e tempos, como menos de 0,1% de oxigênio e períodos de semanas, dependem de espécie, temperatura e validação. Não se extrapola um par de números para todo objeto.\n* **Mecanismo Letal:** Baixo oxigênio pode controlar diferentes estágios de insetos quando concentração, tempo e temperatura são suficientes. Vazamentos e condições inadequadas podem causar falha; não se garante 100% independentemente do protocolo.\n* **Vantagens Canônicas:** Pode evitar pesticidas residuais; ainda há riscos de gases asfixiantes, operação e incompatibilidade de certos materiais. Sem resíduo de inseticida não significa risco ocupacional zero.\n\n#### B. A Técnica do Congelamento (*Freezing*)\n* Os materiais são acondicionados em sacos plásticos de polietileno hermeticamente selados, retirando-se o excesso de ar para impedir que a umidade congele em cristais sobre o papel.\n* As embalagens são dispostas em câmaras frias ou freezers de conservação a temperaturas de **$-20$ °C a $-25$ °C em protocolos de duração definida segundo as condições; referências distintas apresentam, por exemplo, uma ou duas semanas a −20 °C. Consulte o protocolo indicado e a espécie, sem transformar o intervalo em mínimo universal**.\n* A eficácia depende da resposta da espécie e do histórico térmico; não é necessário reduzir todo mecanismo a congelamento dos fluidos. Há insetos adaptados ao frio, e o interior do objeto demora a atingir a temperatura-alvo.\n* *Etapa Obrigatória de Descongelamento:* Ao retirar os livros do freezer, eles devem permanecer protegidos conforme o protocolo até equilíbrio térmico; **24–48 horas** pode ser uma referência de contexto, não tempo obrigatório universal. Se a embalagem for aberta antes disso, o ar quente e úmido condensará água líquida sobre as folhas geladas, aumentando risco de molhamento e de crescimento posterior, sem garantir mofo instantâneo.\n\n**Aplicação e recuperação:** O freezer indica temperatura-alvo, mas o centro de uma pilha ainda está mais quente. O tempo efetivo do tratamento não pode ser deduzido apenas do visor. Compatibilidade do material, monitoramento, duração e reaquecimento controlado integram o protocolo. Congelamento para insetos não equivale a esterilizar fungos.",
+      "checkpointIds": [
+        "cp-7-2-1",
+        "rt-7-2-4",
+        "rt-7-2-5"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "Identifique o agente e confirme atividade. CIP combina barreiras, higiene, inspeção, registros e resposta. Furos e manchas não bastam para diagnóstico universal. Métodos sem pesticidas residuais não são isentos de riscos. Anóxia e frio exigem compatibilidade, monitoramento, tempo e temperatura adequados; congelar não significa esterilizar.",
+  "fontesTeoria": [
+    {
+      "id": "cassares",
+      "titulo": "Cassares — Como fazer conservação preventiva (2000)",
+      "localizador": "PDF do projeto; capítulo 2, identificação e prevenção.",
+      "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Preserva%C3%A7%C3%A3o%20f%C3%ADsica/cf5.pdf"
+    },
+    {
+      "id": "cci-cold",
+      "titulo": "CCI Notes 3/3 — Controlling Insect Pests with Low Temperature",
+      "localizador": "Temperatura, duração, histórico térmico, compatibilidade e registro do tratamento.",
+      "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/controlling-insects-low-temperature.html"
+    },
+    {
+      "id": "cci-metodos",
+      "titulo": "CCI — Comparison of Treatment Methods",
+      "localizador": "Condições e limites de atmosferas controladas e frio.",
+      "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/pests/comparison-treatment-methods.html"
+    },
+    {
+      "id": "unep",
+      "titulo": "UNEP OzonAction — Methyl bromide",
+      "localizador": "Redução/eliminação de usos controlados e exceções QPS; não afirmar proibição mundial sem exceção.",
+      "url": "https://www.unep.org/ozonaction/what-we-do/methyl-bromide"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-7-2-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Furos antigos em um volume provam necessariamente infestação ativa naquele momento.",
+      "gabarito": "E",
+      "justificativa": "Vestígios persistem; atividade exige evidências e diagnóstico.",
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Furos indicam dano, mas não comprovam isoladamente atividade atual."
+    },
+    {
+      "id": "rt-7-2-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A mera existência de restrições ao brometo de metila prova que o Protocolo de Montreal proibiu todo uso mundial sem exceção.",
+      "gabarito": "E",
+      "justificativa": "Há exceções previstas, como QPS; não se converte controle em proibição absoluta.",
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "O controle deve ser lido com cronogramas e exceções."
+    },
+    {
+      "id": "rt-7-2-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O registro seriado de capturas ajuda a localizar tendências, mas ausência de captura não garante ausência de pragas.",
+      "gabarito": "C",
+      "justificativa": "A armadilha amostra condições e espécies; não observa todo o acervo.",
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-7-2-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Anóxia é sinônimo de vácuo e não exige verificar vazamentos ou concentração de oxigênio.",
+      "gabarito": "E",
+      "justificativa": "O método depende de atmosfera e condições controladas, não de um nome de embalagem.",
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Anóxia exige condições verificadas e pode usar gás inerte ou absorvedores."
+    },
+    {
+      "id": "rt-7-2-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "No tratamento por frio, a leitura do visor substitui necessariamente a verificação da temperatura no interior de objetos espessos.",
+      "gabarito": "E",
+      "justificativa": "Há atraso térmico, com efeito no tempo útil de exposição.",
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Temperatura efetiva e tempo no objeto devem ser considerados."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-7-2-1": {
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "item": "Uma forma de anóxia para controle de insetos reduz o oxigênio por atmosfera com gás inerte, como nitrogênio, sob condições monitoradas, evitando o uso de pesticida residual no objeto.",
+      "justificativa": "Essa é uma via do método; absorvedores também podem reduzir oxigênio. Não há garantia universal sem tempo, temperatura e vedação adequados."
+    },
+    "cp-7-2-2": {
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "justificativa": "Luz solar direta não é requisito exclusivo. Disponibilidade de água, substrato, tempo, espécie e temperatura influem; não se deve substituir a falsa exclusividade por outro gatilho numérico universal.",
+      "versao_correta": "O crescimento depende de condições favoráveis, sobretudo disponibilidade de água e tempo, não exclusivamente de sol."
+    },
+    "cp-7-2-3": {
+      "fonte": "Cassares (2000), agentes biológicos e cuidados de acervo; CCI, Notes 3/3 e Comparison of Treatment Methods; UNEP, exceções e controle do brometo de metila. Protocolos dependem de espécie, material e condições.",
+      "justificativa": "Fita de escritório pode manchar, aderir e danificar o suporte com envelhecimento. Reparos patrimoniais exigem materiais compatíveis e avaliação especializada.",
+      "versao_correta": "Não se recomenda fita adesiva comum para reparo de obra rara; o tratamento deve ser definido após avaliação."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Vestígio e atividade",
+      "definicao": "Dano antigo não comprova agente atuando no presente.",
+      "exemploBiblioteca": "Furos exigem inspeção e monitoramento antes do diagnóstico de atividade."
+    },
+    {
+      "termo": "Anóxia",
+      "definicao": "Redução controlada de oxigênio para tratamento compatível.",
+      "exemploBiblioteca": "Selar uma bolsa sem verificar atmosfera não comprova tratamento eficaz."
+    }
+  ],
+  "autoresChave": [
+    "Cassares — Como fazer conservação preventiva (2000)",
+    "CCI Notes 3/3 — Controlling Insect Pests with Low Temperature",
+    "CCI — Comparison of Treatment Methods",
+    "UNEP OzonAction — Methyl bromide"
+  ],
+  "descricaoCurta": "Distinguir vestígio, atividade e agente antes de intervir. Reconhecer que riscos e restrições químicas não são idênticos para todos os produtos. Organizar prevenção, monitoramento e resposta em programa integrado. Selecionar atmosfera controlada ou frio com condições verificadas.",
+  "alertasCebraspe": [
+    "Vestígios persistem; atividade exige evidências e diagnóstico.",
+    "Há exceções previstas, como QPS; não se converte controle em proibição absoluta.",
+    "O método depende de atmosfera e condições controladas, não de um nome de embalagem."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 21
+}

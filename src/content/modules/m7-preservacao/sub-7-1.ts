@@ -14,295 +14,227 @@ export const submodulo71: ModuloFilho = {
   ],
   titulo: 'Agentes Ambientais e Físico-Químicos de Degradação de Acervos',
   antesDeLer: [
-    {
-      termo: 'Celulose e Hidrólise Ácida',
-      definicao: 'A celulose é o polímero básico do papel; a hidrólise ácida rompe suas cadeias moleculares, tornando o papel quebradiço e amarelado.',
-      exemploBiblioteca: 'Identificação de acervos parlamentares do início do século XX produzidos com papel ácido de pasta mecânica de madeira.',
-    },
-    {
-      termo: 'Parâmetros Ambientais de Acervos',
-      definicao: 'Condições ideais de conservação de papel: temperatura entre 18°C e 22°C e umidade relativa (UR) entre 45% e 55% com oscilações mínimas.',
-      exemploBiblioteca: 'Monitoramento termo-higrométrico 24h nas salas de guarda de obras raras da Biblioteca Pedro Aleixo.',
-    },
-    {
-      termo: 'Radiação Ultravioleta (UV)',
-      definicao: 'Fração energética da luz solar e de lâmpadas que catalisa a fotoxidação da celulose e da lignina, acelerando a perda de resistência do papel.',
-      exemploBiblioteca: 'Instalação de películas com filtro UV nas janelas e luminárias de LED na área de exposição da biblioteca.',
-    },
-    {
-      termo: 'Poluição Atmosférica e Particulados',
-      definicao: 'Gases ácidos (óxidos de enxofre e nitrogênio) e poeira que reagem com a umidade ambiental, formando ácidos e promovendo abrasão física.',
-      exemploBiblioteca: 'Sistemas de ar-condicionado central com filtros especiais de carvão ativado nos depósitos de livros da Câmara.',
-    },
-  ],
-  descricaoCurta: 'A composição físico-química dos suportes documentais, acidez intrínseca do papel industrial, parâmetros de temperatura e umidade relativa (flutuações e estresse mecânico), radiação ultravioleta e poluição atmosférica.',
-  tempoEstimadoMinutos: 13,
+  {
+    "termo": "Higroscopicidade",
+    "definicao": "Resposta do material às condições de umidade do ambiente.",
+    "exemploBiblioteca": "A média da sala pode ocultar microambiente junto a parede úmida."
+  },
+  {
+    "termo": "Dose de luz",
+    "definicao": "Iluminância e tempo são dimensões da exposição, além de espectro e sensibilidade.",
+    "exemploBiblioteca": "Baixa emissão UV não elimina o dano por luz visível."
+  }
+],
+  descricaoCurta: "Relacionar composição do suporte e mecanismos de degradação sem garantias por idade. Interpretar temperatura, umidade e duração como fatores relacionados. Controlar dose de luz, UV e aquecimento segundo sensibilidade. Distinguir partículas e gases para selecionar controles. Avaliar mobiliário e arranjo com base em riscos e projeto.",
+  tempoEstimadoMinutos: 21,
   prioridade: 'normal',
-  autoresChave: ['Norma Cassares', 'Ingrid Beck', 'Antônio Celso Ramos Spinelli', 'Garry Thomson', 'Library of Congress Preservation Directorate', 'Conarq'],
+  autoresChave: [
+  "Norma Cianflone Cassares — Como fazer conservação preventiva em arquivos e bibliotecas (2000)",
+  "Canadian Conservation Institute — Caring for paper objects"
+],
   alertasCebraspe: [
-    'O pior inimigo ambiental do acervo em suporte papel não é a temperatura ou a umidade alta isolada, mas sim a FLUTUAÇÃO BRUSCA E CONSTANTE de temperatura e umidade relativa, pois provoca ciclos repetidos de dilatação e contração higroscópica que quebram as fibras de celulose.',
-    'Parâmetros ideais de climatização para acervos bibliográficos em papel: Temperatura entre 18 °C e 22 °C (tolerância máxima 24 °C) e Umidade Relativa (UR) entre 45% e 55% (tolerância 40% a 60%). Acima de 65% de UR, ocorre a germinação e proliferação imediata de fungos filamentosos (mofo); abaixo de 35%, ocorre dessecação e quebra mecânica.',
-    'Radiação Luminosa: a radiação Ultravioleta (UV - abaixo de 400 nm) é a mais energética e destrutiva, provocando fotodegradação, oxidação da lignina (amarelamento) e quebra das cadeias moleculares de celulose. O limite máximo de radiação UV é de 75 µW/lúmen e a intensidade luminosa para obras raras não deve ultrapassar 50 a 100 lux.',
-    'Acidez Intrínseca do Papel: papéis industriais fabricados a partir de 1850 (polpa de madeira com sulfato de alumínio / alume de colofônia) sofrem hidrólise ácida contínua com a umidade do ar, tornando-se quebradiços e escurecidos. O papel alcalino (permanente - ISO 9706) possui reserva alcalina (carbonato de cálcio - CaCO3) com pH neutro/básico (7,5 a 10).',
-    'Mobiliário e Armazenamento: estantes de aço com pintura eletrostática a pó (epóxi curada a quente) são obrigatórias; móveis de madeira crua são PROIBIDOS para guarda de acervos raros, pois desprendem vapores de lignina e ácidos voláteis (ácido acético e fórmico). A prateleira inferior deve ficar a pelo menos 15 cm do piso e a superior a 50 cm do teto.',
-  ],
-  quadroComparativo: {
-    titulo: 'Agentes Físico-Químicos de Degradação de Papel e Medidas de Controle',
-    colunas: ['Agente Degradante', 'Mecanismo de Dano à Celulose', 'Parâmetro de Segurança Recomendado', 'Ação Preventiva na Biblioteca', 'Pegadinha Cebraspe Mapeada'],
-    linhas: [
-      ['Temperatura Elevada', 'Acelera a velocidade de todas as reações químicas de degradação ácida (Lei de Arrhenius)', '18 °C a 22 °C (estável, 24 horas ininterruptas)', 'Climatização contínua (jamais desligar ar-condicionado à noite ou nos finais de semana)', 'Afirmar que o desligamento noturno proporciona repouso higroscópico ao papel (FALSO: gera choque térmico destrutivo).'],
-      ['Umidade Relativa (UR)', 'Alta: hidrólise ácida e eclosão de fungos (>65%); Baixa: dessecação e quebra mecânica (<35%)', '45% a 55% de UR (estável)', 'Desumidificadores / umidificadores industriais e monitoramento por termo-higrômetros calibrados', 'Dizer que umidade relativa de 20% é ideal para evitar fungos (FALSO: resseca e quebra o papel e couros).'],
-      ['Radiação Luminosa (UV)', 'Foto-oxidação das fibras, quebra de ligações beta-glicosídicas e amarelamento de tintas', 'Máximo 50 a 100 lux para obras raras; radiação UV < 75 µW/lúmen', 'Filtros anti-UV em janelas, persianas e luminárias LED frias sem emissão de radiação UV ou calor', 'Considerar que a luz fluorescente comum sem filtro é inofensiva ao acervo de papel.'],
-      ['Poluentes Atmosféricos', 'Gases ácidos (SO2, NOx, ozônio) reagem com a umidade gerando ácido sulfúrico e nítrico nas fibras', 'Ar filtrado por carvão ativado e filtros de partículas finas HEPA', 'Vedação de esquadrias e sistemas centrais de filtragem e pressurização positiva do ar', 'Ignorar que partículas de poeira são higroscópicas e veiculam esporos fúngicos e acidez.'],
-      ['Mobiliário de Madeira', 'Desprendimento de ácidos voláteis (ácido acético e fórmico) e lignina que atacam o papel', 'Estantes de aço com pintura eletrostática epóxi a pó; 15 cm do piso', 'Banimento de armários de madeira crua ou compensado em áreas de acervo histórico', 'Afirmar que a madeira nobre é preferível ao aço por ser isolante térmico natural (FALSO).'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Estrutura Físico-Química do Livro e da Celulose
-
-Para dominar a preservação de acervos bibliográficos, o profissional deve compreender a natureza química fundamental dos suportes (Cassares, 2000; Beck, 1995; Spinelli, 2003):
-
-* **A Molécula de Celulose:** Polímero linear natural formado por monômeros de glicose unidos por **ligações glicosídicas $\\beta-1,4$**. A resistência mecânica do papel decorre da extensão dessas cadeias poliméricas e da formação de densas pontes de hidrogênio intermoleculares.
-* **O Papel Tradicional de Trapos (Pré-1850):**
-  * Fabricado a partir de fibras vegetais nobres (algodão e linho), com cadeias de celulose muito longas, baixo teor de impurezas e pH neutro/básico.
-  * Por essa razão, incunábulos e obras impressas dos séculos XV a XVIII frequentemente encontram-se em estado material impecável.
-* **O Papel Industrial de Polpa de Madeira (Pós-1850):**
-  * Com a Revolução Industrial e a impressão de massas, o trapo foi substituído pela polpa de madeira triturada física e quimicamente.
-  * *Os Vilões Intrínsecos da Degradação:*
-    1. **Lignina:** Polímero amorfo que confere rigidez estrutural às árvores. Sofre **fotoxidação acelerada** sob a luz, formando cromóforos que escurecem e amarelam as páginas.
-    2. **Alume de Colofônia (Sulfato de Alumínio - $Al_2(SO_4)_3$):** Aditivo ácido empregado para impermeabilizar o papel contra o borrão de tinta. Em contato com a umidade do ar, o sulfato de alumínio sofre hidrólise, liberando **ácido sulfúrico ($H_2SO_4$)** diretamente no cerne das fibras.
-    3. **Hidrólise Ácida da Celulose:** O ácido ataca e rompe as ligações $\\beta-1,4$ glicosídicas, encurtando as cadeias celulósicas. O papel sofre despolimerização, perde a elasticidade, escurece e torna-se tão quebradiço que se esfarela ao toque.
-* **O Papel Permanente (Norma ISO 9706):**
-  * Papel alcalino fabricado a partir de polpa química purificada sem celulose mecânica.
-  * Requisitos normativos: teor de lignina insignificante (número Kappa $< 5$), pH aquoso neutro ou básico entre **7,5 e 10**, e presença obrigatória de **reserva alcalina de pelo menos 2% de carbonato de cálcio ($CaCO_3$)**, que neutraliza ácidos futuros.
-
----
-
-### 2. Temperatura e Umidade Relativa: A Dinâmica Higroscópica
-
-O papel é um material eminentemente **higroscópico**: ele busca continuamente o equilíbrio higroscópico com o ar circundante, absorvendo ou liberando moléculas de água.
-
-\`\`\`tree
-TITLE: Dinâmica Higroscópica e Danos Ambientais ao Papel
-- Ambiente de Guarda e Climatização | Fatores físico-ambientais que afetam as fibras celulósicas
-  - Flutuação Brusca de Temperatura e UR | Ligar e desligar ar-condicionado gera estresse violento
-    - Ciclos de Dilatação e Contração | Movimento higroscópico contínuo na malha fibrosa do papel
-    - Ruptura de Pontes de Hidrogênio | Rompimento progressivo das ligações intermoleculares da celulose
-    - Fadiga Mecânica e Quebra | Ondulação de folhas, descolamento de lombadas e fragilização permanente
-  - Umidade Relativa Elevada (UR > 65% e Calor > 25°C) | Condições críticas para agentes biológicos
-    - Proliferação Fúngica (Mofo / Bolor) | Digestão enzimática da celulose e manchas ácidas irreversíveis (*foxing*)
-    - Atração e Proliferação de Insetos | Ambiente favorável a brocas, traças e baratas
-  - Ar Excessivamente Seco (UR < 35%) | Desidratação acentuada das fibras
-    - Dessecação Extrema | Fibras ressecadas perdem flexibilidade e hidratação natural
-    - Fragilização Estrutural | Papel torna-se quebradiço e suscetível a rasgos ao simples folhear
-\`\`\`
-
-#### A. O Estresse Mecânico das Flutuações Ambientais
-* **A Maior Ameaça:** O pior agressor do papel não é uma temperatura alta estável, mas a **oscilação diária violenta**.
-* Quando uma biblioteca liga o ar-condicionado às 8h e desliga às 18h (e nos finais de semana), o papel absorve umidade e incha durante a noite quente, e contrai-se bruscamente durante o dia frio e seco.
-* Esse movimento contínuo de dilatação e contração desestrutura a malha fibrosa, descola lombadas, empena capas e acelera a fadiga do material.
-* *Diretriz Inegociável:* O sistema de climatização de acervos históricos deve operar **24 horas por dia, 365 dias por ano**, sem desligamentos noturnos.
-
-#### B. Parâmetros Ambientais Canônicos (Conarq, Beck, Cassares)
-* **Temperatura:** Entre **18 °C e 22 °C** (com flutuação diária máxima tolerada de $\\pm 2$ °C).
-* **Umidade Relativa (UR):** Entre **45% e 55%** (tolerância máxima de $40%$ a $60%$, com variação diária não superior a $\\pm 5%$).
-* *Riscos Críticos:*
-  * $UR > 65%$: Eclosão de esporos fúngicos, desenvolvimento de colônias de fungos filamentosos (mofo) e aceleração de reações hidrolíticas.
-  * $UR < 35%$: Dessecação excessiva, tornando o papel rígido, seco e quebradiço, além de retrair e rachar encadernações de couro e pergaminho.
-
----
-
-### 3. Luz e Radiação Eletromagnética
-
-A luz é uma forma de energia radiante cuja degradação sobre os acervos é **cumulativa e irreversível** (Thomson, 1978; Cassares, 2000):
-
-* **Radiação Ultravioleta (UV - comprimentos de onda $< 400$ nm):**
-  * Invisível ao olho humano, mas possui fótons de elevadíssima energia.
-  * Atua como catalisador direto da **fotoxidação**, quebrando as moléculas de celulose e promovendo a quebra de corantes e tintas históricas (tintas ferrogálicas).
-  * *Limite de Segurança:* A proporção de UV na iluminação não deve ultrapassar **75 $\\mu$W/lúmen**.
-* **Radiação Infravermelha ($> 700$ nm):**
-  * Emite calor radiante, aquecendo diretamente a superfície das obras e acelerando a perda de umidade intrínseca.
-* **Luz Visível (400 a 700 nm):**
-  * Também causa desbotamento cumulativo ao longo do tempo.
-  * *Níveis Máximos de Iluminamento:*
-    * Documentos de alta sensibilidade (aquarelas, manuscritos, obras raras, fotografias): **máximo de 50 lux**.
-    * Livros impressos comuns em salas de leitura: **máximo de 150 a 200 lux**.
-* **Medidas de Controle:** Banimento da incidência direta de luz solar sobre estantes (uso de persianas e películas de proteção solar anti-UV nas janelas) e adoção de **luminárias LED frias** (que não emitem radiação UV nem calor infravermelho).
-
----
-
-### 4. Poluentes Atmosféricos e Qualidade do Ar
-
-Os poluentes atmosféricos atacam o acervo em duas frentes:
-1. **Poluentes Gasosos Ácidos:**
-   * O dióxido de enxofre ($SO_2$) e os óxidos de nitrogênio ($NO_x$) expelidos pela queima de combustíveis fósseis reagem cataliticamente com o oxigênio e a umidade do ar na presença de metais (como o ferro das tintas ferrogálicas), convertendo-se em **ácido sulfúrico ($H_2SO_4$) e ácido nítrico ($HNO_3$)**.
-   * O ozônio ($O_3$), gerado por fotocopiadoras antigas e poluição fotoquímica, é um oxidante extremamente agressivo às fibras de celulose.
-2. **Poluentes Particulados (Poeira e Fuligem):**
-   * A fuligem contém partículas abrasivas de sílica e carbono que riscam mecanicamente as superfícies das obras durante o manuseio.
-   * Além disso, a poeira atua como núcleo higroscópico que retém umidade ácida e serve de veículo transportador de nutrientes e esporos de fungos.
-* **Medidas Preventivas:** Instalação de sistemas centrais de tratamento de ar dotados de filtros de partículas finas (filtro absoluto HEPA) e filtros químicos de **carvão ativado** para retenção de gases ácidos, com manutenção de pressão positiva no depósito para impedir a entrada de ar externo não tratado.
-
----
-
-### 5. Mobiliário e Infraestrutura Predial de Guarda (Conarq e IFLA)
-
-As condições físicas de guarda no depósito definem a longevidade dos acervos:
-* **Estantes de Aço:** Devem ser confeccionadas em chapa de aço dobrada com tratamento antiferruginoso e acabamento exclusivo em **pintura eletrostática epóxi em pó curada a quente em estufa**. Essa tinta é inerte, resistente e não libera compostos orgânicos voláteis (VOCs).
-* **Espaçamentos e Alturas Regulamentares:**
-  * Prateleira inferior: situada a pelo menos **15 cm acima do nível do piso**, prevenindo sinistros de alagamento acidental, facilitando a limpeza do chão e impedindo o acesso imediato de insetos rastejantes.
-  * Prateleira superior: distante no mínimo **50 cm do teto e das luminárias**, garantindo a circulação adequada de ar e evitando calor focal das lâmpadas.
-  * Afastamento das paredes: estantes devem ficar afastadas **de 5 cm a 10 cm das paredes externas**, impedindo a transferência de umidade por capilaridade e condensação.
-* **Proibição Absoluta de Mobiliário de Madeira Crua:** Armários, gaveteiros e estantes de madeira não tratada, compensado, aglomerado ou MDF desprendem continuamente **lignina, ácido acético e ácido fórmico**, criando microclimas confinados altamente ácidos que destroem documentos e materiais fotográficos.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Suportes e Condições Ambientais (sub-7-3):** Controle de temperatura e umidade relativa no arquivo da Câmara.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A preservação do papel baseia-se na compreensão físico-química da sua estrutura e nos agentes ambientais que provocam sua deterioração:
-1. **Estrutura da Celulose e Hidrólise Ácida:** A celulose é uma longa cadeia polimérica de moléculas de glicose ligadas por pontes de oxigênio. A **hidrólise ácida** (reação química catalisada por água e calor) rompe essas cadeias, transformando o papel longo e flexível em fibras curtas, amareladas e quebradiças.
-2. **Parâmetros Ambientais de Ouro (Conservação Preventiva):**
-   - **Temperatura:** 18 °C a 22 °C (o calor acelera as reações químicas de degradação).
-   - **Umidade Relativa (UR):** 45% a 55% (UR > 65% deflagra esporos de fungos; UR < 35% resseca o papel tornando-o quebradiço).
-   - **Estabilidade:** Oscilações bruscas diárias de temperatura (> 3 °C) ou UR (> 5%) provocam dilatação e contração mecânica contínua nas fibras, descolando folhas e encadernações.
-3. **Luz e Radiação Ultravioleta (UV):** A luz solar e lâmpadas fluorescentes emitem radiação UV que rompe ligações moleculares por **fotoxidação**, oxidando a lignina e desbotando tintas.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cofre de Obras Raras da Biblioteca Pedro Aleixo:** A sala de guarda de manuscritos e obras dos séculos XVIII e XIX opera com sistema de ar-condicionado central redundante 24 horas por dia, 7 dias por semana. Termo-higrômetros com calibração RBC monitoram continuamente o ambiente.
-- **Iluminação Protegida:** As luminárias são 100% LED de luz fria (sem emissão de UV nem radiação infravermelha de calor) e as janelas recebem películas de controle solar com bloqueio de 99% dos raios UV.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido: Agentes Ambientais de Degradação
-| Agente Físico-Químico | Efeito Destrutivo no Acervo | Parâmetro Correto na Biblioteca |
-| :--- | :--- | :--- |
-| **Temperatura Alta** | Acelera cineticamente a hidrólise ácida | 18 °C a 22 °C (permanente) |
-| **Umidade Elevada (> 65%)** | Proliferação explosiva de mofo/fungos | 45% a 55% UR |
-| **Umidade Muito Baixa (< 35%)** | Desidratação, ressecamento e quebra | 45% a 55% UR |
-| **Radiação UV** | Fotoxidação, amarelamento e esfarelamento | Filtros UV / iluminação LED isenta |
-| **Poluição Atmosférica** | Gases ácidos (SO2, NOx) geram ácido sulfúrico | Filtros de ar mecânicos e de carvão ativado |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **A Armadilha do Ar-Condicionado Desligado à Noite:** A banca sugere que desligar o ar-condicionado durante a noite ou fins de semana para economizar energia é boa prática. **Gabarito: ERRADO.** As oscilações diárias de temperatura e umidade causam estresse mecânico severo no papel.
-- **Umidade Baixa como Vantagem:** Dizer que quanto menor a umidade, melhor a conservação porque afasta os fungos. **Gabarito: ERRADO** (papel desidratado quebra ao menor manuseio).
-- **Lignina:** Papéis produzidos com pasta mecânica de madeira contêm alta taxa de lignina (ex.: jornal), tornando-se escuros e ácidos rapidamente em contato com oxigênio e luz.
-
----
-
-### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
-- *Qual a faixa de temperatura e umidade relativa padrão para acervos bibliográficos?* (18 °C a 22 °C e 45% a 55%).
-- *Por que oscilações são piores que valores constantes levemente fora da faixa?* (Porque a fibra incha e retrai ciclicamente, quebrando a estrutura física do papel).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-* **CASSARES, Norma.** *Como fazer conservação preventiva em arquivos e bibliotecas*. São Paulo: Arquivo do Estado, 2000. (Controle ambiental, parâmetros de temperatura/UR e intervenção mínima).
-* **BECK, Ingrid.** *Manual de conservação preventiva de documentos*. Rio de Janeiro: Arquivo Nacional, 1995. (Estabilidade climática ininterrupta e preservação em clima tropical).
-* **SPINELLI, Antônio Celso Ramos.** *Preservação de acervos bibliográficos*. Brasília: Senac-DF, 2003. (Degradação por hidrólise ácida e fotoxidação da celulose).
-* **IFLA.** *Princípios para o cuidado e manejo de material de bibliotecas*. Haia: IFLA, 2000.
-* **CONARQ.** *Recomendações para a construção de arquivos*. Rio de Janeiro: Conselho Nacional de Arquivos, 2000.
-
-### Pausa de Recuperação Ativa: Parâmetros Ambientais de Preservação
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Quais são os valores ideais de temperatura e umidade relativa recomendados para guarda de acervos bibliográficos em papel? Por que a oscilação brusca (ciclos térmicos e higrométricos) é mais danosa que pequenas variações graduais?
-`,
+  "Composição é apenas parte do diagnóstico; danos ambientais e mecânicos continuam possíveis.",
+  "Estabilidade não anula aceleração de reações associada ao calor.",
+  "Luz visível também pode produzir dano cumulativo."
+],
+  teoriaDensaMarkdown: "### A Estrutura Físico-Química do Livro e da Celulose\n\nPara dominar a preservação de acervos bibliográficos, o profissional deve compreender a natureza química fundamental dos suportes (Cassares, 2000; Beck, 1995; Spinelli, 2003):\n\n* **A Molécula de Celulose:** Polímero linear natural formado por monômeros de glicose unidos por **ligações glicosídicas $\\beta-1,4$**. A resistência mecânica do papel decorre da extensão dessas cadeias poliméricas e da formação de densas pontes de hidrogênio intermoleculares.\n* **O Papel Tradicional de Trapos (Pré-1850):**\n  * Fabricado a partir de fibras vegetais nobres (algodão e linho), com cadeias de celulose muito longas, baixo teor de impurezas e pH neutro/básico.\n  * Por essa razão, incunábulos e obras impressas dos séculos XV a XVIII podem apresentar boa resistência, sem que idade ou fibra garantam estado impecável; uso, tratamentos, encolagem e ambiente também contam.\n* **O Papel Industrial de Polpa de Madeira (Pós-1850):**\n  * Com a Revolução Industrial e a impressão de massas, o trapo foi substituído pela polpa de madeira triturada física e quimicamente.\n  * *Os Vilões Intrínsecos da Degradação:*\n    1. **Lignina:** Polímero amorfo que confere rigidez estrutural às árvores. Sofre **fotoxidação acelerada** sob a luz, formando cromóforos que escurecem e amarelam as páginas.\n    2. **Encolagem de colofônia e alúmen:** processos históricos empregaram colofônia e sais de alumínio, componentes distintos. A hidrólise de espécies de alumínio pode acidificar o papel. Não se deve chamar a mistura inteira de sulfato de alumínio nem reduzir todo mecanismo à liberação direta de ácido sulfúrico.\n    3. **Hidrólise Ácida da Celulose:** O ácido ataca e rompe as ligações $\\beta-1,4$ glicosídicas, encurtando as cadeias celulósicas. O papel sofre despolimerização, perde a elasticidade, escurece e torna-se tão quebradiço que se esfarela ao toque.\n* **Papel permanente e papel durável:** permanência química e resistência ao uso não são sinônimos. A ISO 9706 trata de requisitos de permanência do papel para documentos, incluindo resistência, reserva alcalina, limitação de substâncias oxidáveis e pH. Não basta o rótulo “sem ácido” para provar atendimento a todos os requisitos, nem se deve usar automaticamente essa norma de papel como especificação completa de qualquer caixa de guarda. A edição e os ensaios aplicáveis precisam ser consultados para certificar conformidade.\n\n**Aplicação e recuperação:** Um livro de trapo está mais frágil que outro de polpa química. Isso não refuta a importância das fibras: encolagem, acidez, uso e história ambiental também influem. Idade, sozinha, não é diagnóstico de estado nem de raridade.\n\n### Temperatura e Umidade Relativa: A Dinâmica Higroscópica\n\nO papel é um material eminentemente **higroscópico**: ele busca continuamente o equilíbrio higroscópico com o ar circundante, absorvendo ou liberando moléculas de água.\n\n| Condição | Mecanismo e decisão |\n| --- | --- |\n| Umidade elevada por tempo suficiente | Favorece reações e crescimento biológico, conforme espécie e substrato. |\n| Variações grandes de umidade | Produzem mudanças dimensionais e tensões em materiais higroscópicos. |\n| Temperatura elevada | Pode acelerar degradação química; não é inofensiva por estar estável. |\n| Ambiente excessivamente seco | Pode fragilizar ou deformar certos componentes; avaliar material e história ambiental. |\n\n#### A. O Estresse Mecânico das Flutuações Ambientais\n* **Riscos diferentes:** calor contínuo e flutuações podem causar danos por mecanismos distintos; não há hierarquia universal que torne um deles sempre o pior.\n* Quando uma biblioteca liga o ar-condicionado às 8h e desliga às 18h (e nos finais de semana), as condições podem oscilar e produzir movimentos higroscópicos; o sentido e a magnitude dependem da umidade relativa efetiva, do edifício e da inércia do material, não apenas do relógio ou da temperatura.\n* Esse movimento contínuo de dilatação e contração desestrutura a malha fibrosa, descola lombadas, empena capas e acelera a fadiga do material.\n* **Decisão de projeto:** a estabilidade é objetivo a monitorar. Operação contínua pode ser necessária em um projeto, mas não constitui obrigação universal deduzida de qualquer acervo. Edifício, clima, energia, equipamentos e risco devem fundamentar a solução.\n\n#### B. Parâmetros de referência não são limiares universais\n* **Temperatura:** Faixas como **18–22 °C** aparecem em orientações para determinados acervos, mas precisam de fonte e contexto. Materiais fotográficos e outros suportes podem exigir condições distintas.\n* **Umidade Relativa (UR):** Faixas moderadas e estáveis são referências de projeto; **45–55%** não é norma universal para todo suporte. Monitore o ambiente e considere material, clima e risco, sem inventar uma tolerância obrigatória única.\n* *Riscos Críticos:*\n  * Umidade elevada persistente aumenta risco de mofo, mas **65% não é gatilho instantâneo ou suficiente**. Tempo, substrato, espécie e condições locais influem; um microambiente pode divergir do sensor da sala.\n  * Umidade muito baixa pode afetar flexibilidade e dimensões de componentes; não transforma todo papel instantaneamente em quebradiço ao cruzar um número.\n\n**Aplicação e recuperação:** Uma sala registra 55% de UR ao centro e condensação junto a uma parede fria. A média da sala não exclui risco local. Posicionar sensores, examinar a infiltração e acompanhar séries temporais é melhor que declarar o acervo seguro por um único número.\n\n### Luz e Radiação Eletromagnética\n\nA luz é uma forma de energia radiante cuja degradação sobre os acervos é **cumulativa e irreversível** (Thomson, 1978; Cassares, 2000):\n\n* **Radiação Ultravioleta (UV - comprimentos de onda $< 400$ nm):**\n  * Invisível ao olho humano, mas possui fótons de elevadíssima energia.\n  * Pode desencadear e intensificar processos de **fotoxidação**, quebrando as moléculas de celulose e promovendo a quebra de corantes e tintas históricas (tintas ferrogálicas).\n  * **Controle de UV:** minimizar a componente ultravioleta. O valor histórico de **75 µW/lm** é referência em orientações tradicionais, não garantia de ausência de dano abaixo dele.\n* **Radiação Infravermelha ($> 700$ nm):**\n  * Emite calor radiante, aquecendo diretamente a superfície das obras e acelerando a perda de umidade intrínseca.\n* **Luz Visível (400 a 700 nm):**\n  * Também causa desbotamento cumulativo ao longo do tempo.\n  * *Níveis Máximos de Iluminamento:*\n    * Documentos de alta sensibilidade (aquarelas, manuscritos, obras raras, fotografias): referência tradicional de **50 lux**, com dose e tempo limitados conforme sensibilidade.\n    * Livros impressos comuns em salas de leitura: níveis de trabalho dependentes da tarefa; **150–200 lux** não é limite universal de conservação de todo impresso.\n* **Medidas de Controle:** Banimento da incidência direta de luz solar sobre estantes (uso de persianas e películas de proteção solar anti-UV nas janelas) e adoção de **luminárias LED frias** (com baixa emissão UV conforme o produto; LED ainda gera calor e luz visível capaz de degradar materiais sensíveis).\n\n**Aplicação e recuperação:** A 50 lux por 100 horas, a exposição é 5.000 lux-hora; a 100 lux por 50 horas, a dose nominal é igual. Sensibilidade, espectro e outras condições ainda importam. Reduzir UV não elimina o efeito da luz visível.\n\n### Poluentes Atmosféricos e Qualidade do Ar\n\nOs poluentes atmosféricos atacam o acervo em duas frentes:\n1. **Poluentes Gasosos Ácidos:**\n   * O dióxido de enxofre ($SO_2$) e os óxidos de nitrogênio ($NO_x$) expelidos pela queima de combustíveis fósseis reagem cataliticamente com o oxigênio e a umidade do ar na presença de metais (como o ferro das tintas ferrogálicas), convertendo-se em **ácido sulfúrico ($H_2SO_4$) e ácido nítrico ($HNO_3$)**.\n   * O ozônio ($O_3$), gerado por fotocopiadoras antigas e poluição fotoquímica, é um oxidante extremamente agressivo às fibras de celulose.\n2. **Poluentes Particulados (Poeira e Fuligem):**\n   * A fuligem contém partículas abrasivas de sílica e carbono que riscam mecanicamente as superfícies das obras durante o manuseio.\n   * Além disso, a poeira atua como núcleo higroscópico que retém umidade ácida e serve de veículo transportador de nutrientes e esporos de fungos.\n* **Medidas Preventivas:** Instalação de sistemas centrais de tratamento de ar dotados de filtros de partículas finas (filtro absoluto HEPA) e filtros químicos de **carvão ativado** para retenção de gases ácidos, e controle de infiltrações conforme o projeto. Pressão positiva e filtros específicos exigem dimensionamento e manutenção; não se prescrevem automaticamente a todo edifício.\n\n**Aplicação e recuperação:** Um filtro HEPA retém partículas segundo sua classificação, mas não resolve sozinho todo poluente gasoso. Carvão ativado atende outro tipo de problema, com capacidade e vida útil a acompanhar. Nome de filtro não substitui diagnóstico.\n\n### Mobiliário e Infraestrutura Predial de Guarda (Conarq e IFLA)\n\nAs condições físicas de guarda no depósito definem a longevidade dos acervos:\n* **Estantes de Aço:** Devem ser confeccionadas em chapa de aço dobrada com tratamento antiferruginoso e acabamento estável, resistente, sem bordas cortantes e compatível com a coleção. Pintura em pó adequadamente curada é uma opção; a palavra epóxi sozinha não certifica inércia ou ausência de emissão.\n* **Dimensões de projeto a justificar:** os números seguintes são referências de arranjo, não regra legal universal. Considerar acessibilidade, estabilidade, incêndio e características do espaço.\n  * Prateleira inferior: situada a pelo menos **15 cm acima do nível do piso**, prevenindo sinistros de alagamento acidental, facilitando a limpeza do chão e impedindo o acesso imediato de insetos rastejantes.\n  * Prateleira superior: distante no mínimo **50 cm do teto e das luminárias**, garantindo a circulação adequada de ar e evitando calor focal das lâmpadas.\n  * Afastamento das paredes: estantes devem ficar afastadas **de 5 cm a 10 cm das paredes externas**, impedindo a transferência de umidade por capilaridade e condensação.\n* **Risco de mobiliário inadequado:** Armários, gaveteiros e estantes de madeira não tratada, compensado, aglomerado ou MDF podem emitir compostos voláteis, inclusive ácidos orgânicos e componentes de adesivos. **Lignina não é gás volátil emitido como vapor**; distinguir constituição da madeira e emissões, criando microclimas confinados altamente ácidos que destroem documentos e materiais fotográficos.\n\n**Aplicação e recuperação:** Uma caixa encostada em parede com infiltração pode criar microambiente úmido. Afastar o mobiliário ajuda, mas não corrige a origem da água. A prevenção articula manutenção predial, monitoramento e acondicionamento.",
+  teoriaDidaticaMarkdown: "Composição, ambiente, luz, poluentes e manuseio atuam em conjunto. Separe estabilidade de temperatura baixa, média de microambiente, UV de luz visível, partículas de gases e indicação técnica de obrigação universal. Nenhum número ambiental isolado garante preservação. A decisão precisa de diagnóstico, monitoramento e compatibilidade com o suporte.",
   checkpoints: [
-    {
-      id: 'cp-7-1-1',
-      pergunta: 'Micro-Checkpoint 1: Parâmetros Ambientais de Preservação',
-      item: 'Em unidades de conservação de acervos bibliográficos, a oscilação brusca diária de temperatura e umidade relativa é considerada um dos mais graves agentes mecânicos de deterioração das fibras de celulose.',
-      gabarito: 'C',
-      justificativa: 'Correto! A higroscopicidade do papel faz com que ele se dilate e se contraia nas variações de umidade, quebrando as cadeias moleculares.',
-    },
-    {
-      id: 'cp-7-1-2',
-      pergunta: 'Micro-Checkpoint 2: Armazenamento e Mobiliário',
-      item: 'Para a guarda de coleções raras e documentos históricos em bibliotecas, recomenda-se prioritariamente o uso de armários e estantes de madeira nobre crua, tendo em vista que a madeira atua como isolante natural contra a umidade externa.',
-      gabarito: 'E',
-      justificativa: 'Errado! O Cebraspe cobrou esse item no TJ-AC. Móveis de madeira liberam gases ácidos (ácido acético) e lignina nocivos ao acervo, sendo obrigatório o uso de aço tratado com pintura epóxi.',
-    },
-    {
-      id: 'cp-7-1-3',
-      pergunta: 'Micro-Checkpoint 3: Radiação Ultravioleta e Oxidação da Celulose',
-      item: 'A radiação luminosa com comprimentos de onda na faixa ultravioleta acelera a quebra fotoquímica das cadeias moleculares de celulose e promove o amarelamento e a fragilização do papel.',
-      gabarito: 'C',
-      justificativa: 'Certo! A luz ultravioleta (solar ou fluorescente direta) possui alta energia e atua como catalisador direto da fotoxidação e despolimerização do papel.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-7-1-1',
-        periodo: '1850',
-        disciplina: 'Industrialização do Papel',
-        focoPrincipal: 'Substituição do papel de trapos por polpa de madeira com alume de colofônia (início da acidez intrínseca e hidrólise)',
-        figuraChave: 'Indústria Papeleira Moderna',
-      },
-      {
-        id: 'tl-7-1-2',
-        periodo: '1978',
-        disciplina: 'Clima e Conservação',
-        focoPrincipal: 'Publicação de "The Museum Environment" de Garry Thomson, padronizando lux e umidade relativa',
-        figuraChave: 'Garry Thomson',
-      },
-      {
-        id: 'tl-7-1-3',
-        periodo: '1995 / 2000',
-        disciplina: 'Preservação no Brasil',
-        focoPrincipal: 'Publicação do Plano Nacional de Preservação de Obras Raras (Planor) e manuais de Norma Cassares e Ingrid Beck',
-        figuraChave: 'Norma Cassares e Ingrid Beck',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-7-1-1',
-        nome: 'Norma Cassares',
-        ano: 2000,
-        obraPrincipal: 'Como fazer conservação preventiva em arquivos e bibliotecas',
-        ideiaChave: 'Conservação preventiva como rotina contínua de controle de temperatura, umidade, luz e higienização mecânica.',
-        chipPegadinha: 'A conservação preventiva foca nas causas ambientais para evitar que a restauração física seja necessária.',
-      },
-      {
-        id: 'aut-7-1-2',
-        nome: 'Ingrid Beck',
-        ano: 1995,
-        obraPrincipal: 'Manual de Conservação Preventiva de Documentos',
-        ideiaChave: 'Parâmetros climáticos rígidos (18-22°C / 45-55% UR), controle integrado de pragas e mobiliário de aço epóxi.',
-        chipPegadinha: 'Beck preconiza a intervenção mínima e o monitoramento ambiental ininterrupto 24 horas.',
-      },
-      {
-        id: 'aut-7-1-3',
-        nome: 'Antônio Celso Ramos Spinelli',
-        ano: 2003,
-        obraPrincipal: 'Preservação de Acervos Bibliográficos',
-        ideiaChave: 'Química da degradação celulósica, hidrólise ácida e climatização ininterrupta 24 horas.',
-        chipPegadinha: 'O ar-condicionado de biblioteca nunca deve ser desligado à noite ou nos fins de semana.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-7-1-1',
-        afirmacao: 'O desligamento noturno dos sistemas de climatização de uma biblioteca é uma prática recomendada de conservação, pois proporciona repouso higroscópico ao papel.',
-        gabarito: 'E',
-        porQue: 'Desligar o ar-condicionado à noite gera picos violentos de elevação de temperatura e umidade relativa, provocando choque térmico e estresse higroscópico destrutivo.',
-      },
-      {
-        id: 'peg-7-1-2',
-        afirmacao: 'A presença de lignina em papéis de confecção moderna é desejável por atuar como agente antioxidante que impede a quebra das fibras de celulose.',
-        gabarito: 'E',
-        porQue: 'A lignina é um agente altamente instável que oxida facilmente na luz, amarelando o papel e acelerando a quebra ácida das cadeias celulósicas.',
-      },
-      {
-        id: 'peg-7-1-3',
-        afirmacao: 'Estantes para acervos bibliográficos raros devem ter sua primeira prateleira instalada rente ao chão para maximizar a capacidade de guarda do depósito.',
-        gabarito: 'E',
-        porQue: 'A prateleira mais baixa deve situar-se a pelo menos 15 cm do piso, resguardando o acervo contra inundações, roedores e permitindo circulação de ar e limpeza.',
-      },
-    ],
+  {
+    "id": "cp-7-1-1",
+    "pergunta": "Micro-Checkpoint 1: Parâmetros Ambientais de Preservação",
+    "item": "Em unidades de conservação de acervos bibliográficos, a oscilação brusca diária de temperatura e umidade relativa é considerada um dos mais graves agentes mecânicos de deterioração das fibras de celulose.",
+    "gabarito": "C",
+    "justificativa": "O papel responde à umidade; variações grandes podem gerar tensões e mudanças dimensionais. Isso não significa quebra instantânea de todas as cadeias de celulose nem exclui dano químico por calor estável.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto."
   },
+  {
+    "id": "cp-7-1-2",
+    "pergunta": "Micro-Checkpoint 2: Armazenamento e Mobiliário",
+    "item": "Para a guarda de coleções raras e documentos históricos em bibliotecas, recomenda-se prioritariamente o uso de armários e estantes de madeira nobre crua, tendo em vista que a madeira atua como isolante natural contra a umidade externa.",
+    "gabarito": "E",
+    "justificativa": "Madeira crua e materiais inadequados podem emitir compostos nocivos; avaliam-se mobiliário e acabamento compatíveis. Não se atribui a lignina emissão gasosa nem se inventa ocorrência específica de prova.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto.",
+    "versao_correta": "Recomenda-se mobiliário e acabamento estáveis e compatíveis, sem priorizar madeira crua como proteção contra umidade."
+  },
+  {
+    "id": "cp-7-1-3",
+    "pergunta": "Micro-Checkpoint 3: Radiação Ultravioleta e Oxidação da Celulose",
+    "item": "A radiação luminosa com comprimentos de onda na faixa ultravioleta acelera a quebra fotoquímica das cadeias moleculares de celulose e promove o amarelamento e a fragilização do papel.",
+    "gabarito": "C",
+    "justificativa": "UV pode desencadear reações fotoquímicas e degradação. A intensidade do efeito depende de dose, material e condições; luz visível também pode causar danos.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto."
+  },
+  {
+    "id": "rt-7-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um exemplar fabricado com fibras de trapo está necessariamente em estado impecável, independentemente de uso e ambiente.",
+    "gabarito": "E",
+    "justificativa": "Composição é apenas parte do diagnóstico; danos ambientais e mecânicos continuam possíveis.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "Fibras e história de uso/ambiente devem ser avaliadas em conjunto."
+  },
+  {
+    "id": "rt-7-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Temperatura estável elevada não representa risco químico apenas por não oscilar.",
+    "gabarito": "E",
+    "justificativa": "Estabilidade não anula aceleração de reações associada ao calor.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "Temperatura e flutuação geram riscos distintos, ambos a avaliar."
+  },
+  {
+    "id": "rt-7-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Controlar UV dispensa limitar tempo de exposição de materiais sensíveis à luz visível.",
+    "gabarito": "E",
+    "justificativa": "Luz visível também pode produzir dano cumulativo.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "Tempo, iluminância, espectro e sensibilidade devem ser controlados."
+  },
+  {
+    "id": "rt-7-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um filtro particulado eficiente não demonstra, por si, remoção equivalente de gases ácidos.",
+    "gabarito": "C",
+    "justificativa": "Partículas e gases exigem tecnologias e dimensionamentos diferentes.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-7-1-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Lignina é um gás emitido continuamente pela madeira das estantes.",
+    "gabarito": "E",
+    "justificativa": "Lignina é componente polimérico, não gás volátil; outros compostos podem ser emitidos.",
+    "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "A madeira pode emitir compostos voláteis; lignina não é um gás."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-7-1-fonte-cassares",
+      "nome": "Norma Cianflone Cassares — Como fazer conservação preventiva em arquivos e bibliotecas (2000)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Norma Cianflone Cassares — Como fazer conservação preventiva em arquivos e bibliotecas (2000)",
+      "ideiaChave": "PDF teórico do projeto; capítulos 1, 2, 6 e 8; colaboração de Cláudia Moi.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-7-1-fonte-cci",
+      "nome": "Canadian Conservation Institute — Caring for paper objects",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Canadian Conservation Institute — Caring for paper objects",
+      "ideiaChave": "Riscos e cuidados por materiais; distinguir recomendação contextual de norma universal.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-7-1-3",
+      "afirmacao": "Controlar UV dispensa limitar tempo de exposição de materiais sensíveis à luz visível.",
+      "gabarito": "E",
+      "porQue": "Luz visível também pode produzir dano cumulativo."
+    },
+    {
+      "id": "memoria-rt-7-1-4",
+      "afirmacao": "Um filtro particulado eficiente não demonstra, por si, remoção equivalente de gases ácidos.",
+      "gabarito": "C",
+      "porQue": "Partículas e gases exigem tecnologias e dimensionamentos diferentes."
+    },
+    {
+      "id": "memoria-rt-7-1-5",
+      "afirmacao": "Lignina é um gás emitido continuamente pela madeira das estantes.",
+      "gabarito": "E",
+      "porQue": "Lignina é componente polimérico, não gás volátil; outros compostos podem ser emitidos."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-7-1-bloco-1",
+    "titulo": "A Estrutura Físico-Química do Livro e da Celulose",
+    "objetivos": [
+      "Relacionar composição do suporte e mecanismos de degradação sem garantias por idade."
+    ],
+    "conteudo": "Para dominar a preservação de acervos bibliográficos, o profissional deve compreender a natureza química fundamental dos suportes (Cassares, 2000; Beck, 1995; Spinelli, 2003):\n\n* **A Molécula de Celulose:** Polímero linear natural formado por monômeros de glicose unidos por **ligações glicosídicas $\\beta-1,4$**. A resistência mecânica do papel decorre da extensão dessas cadeias poliméricas e da formação de densas pontes de hidrogênio intermoleculares.\n* **O Papel Tradicional de Trapos (Pré-1850):**\n  * Fabricado a partir de fibras vegetais nobres (algodão e linho), com cadeias de celulose muito longas, baixo teor de impurezas e pH neutro/básico.\n  * Por essa razão, incunábulos e obras impressas dos séculos XV a XVIII podem apresentar boa resistência, sem que idade ou fibra garantam estado impecável; uso, tratamentos, encolagem e ambiente também contam.\n* **O Papel Industrial de Polpa de Madeira (Pós-1850):**\n  * Com a Revolução Industrial e a impressão de massas, o trapo foi substituído pela polpa de madeira triturada física e quimicamente.\n  * *Os Vilões Intrínsecos da Degradação:*\n    1. **Lignina:** Polímero amorfo que confere rigidez estrutural às árvores. Sofre **fotoxidação acelerada** sob a luz, formando cromóforos que escurecem e amarelam as páginas.\n    2. **Encolagem de colofônia e alúmen:** processos históricos empregaram colofônia e sais de alumínio, componentes distintos. A hidrólise de espécies de alumínio pode acidificar o papel. Não se deve chamar a mistura inteira de sulfato de alumínio nem reduzir todo mecanismo à liberação direta de ácido sulfúrico.\n    3. **Hidrólise Ácida da Celulose:** O ácido ataca e rompe as ligações $\\beta-1,4$ glicosídicas, encurtando as cadeias celulósicas. O papel sofre despolimerização, perde a elasticidade, escurece e torna-se tão quebradiço que se esfarela ao toque.\n* **Papel permanente e papel durável:** permanência química e resistência ao uso não são sinônimos. A ISO 9706 trata de requisitos de permanência do papel para documentos, incluindo resistência, reserva alcalina, limitação de substâncias oxidáveis e pH. Não basta o rótulo “sem ácido” para provar atendimento a todos os requisitos, nem se deve usar automaticamente essa norma de papel como especificação completa de qualquer caixa de guarda. A edição e os ensaios aplicáveis precisam ser consultados para certificar conformidade.\n\n**Aplicação e recuperação:** Um livro de trapo está mais frágil que outro de polpa química. Isso não refuta a importância das fibras: encolagem, acidez, uso e história ambiental também influem. Idade, sozinha, não é diagnóstico de estado nem de raridade.",
+    "checkpointIds": [
+      "rt-7-1-1"
+    ]
+  },
+  {
+    "id": "sub-7-1-bloco-2",
+    "titulo": "Temperatura e Umidade Relativa: A Dinâmica Higroscópica",
+    "objetivos": [
+      "Interpretar temperatura, umidade e duração como fatores relacionados."
+    ],
+    "conteudo": "O papel é um material eminentemente **higroscópico**: ele busca continuamente o equilíbrio higroscópico com o ar circundante, absorvendo ou liberando moléculas de água.\n\n| Condição | Mecanismo e decisão |\n| --- | --- |\n| Umidade elevada por tempo suficiente | Favorece reações e crescimento biológico, conforme espécie e substrato. |\n| Variações grandes de umidade | Produzem mudanças dimensionais e tensões em materiais higroscópicos. |\n| Temperatura elevada | Pode acelerar degradação química; não é inofensiva por estar estável. |\n| Ambiente excessivamente seco | Pode fragilizar ou deformar certos componentes; avaliar material e história ambiental. |\n\n#### A. O Estresse Mecânico das Flutuações Ambientais\n* **Riscos diferentes:** calor contínuo e flutuações podem causar danos por mecanismos distintos; não há hierarquia universal que torne um deles sempre o pior.\n* Quando uma biblioteca liga o ar-condicionado às 8h e desliga às 18h (e nos finais de semana), as condições podem oscilar e produzir movimentos higroscópicos; o sentido e a magnitude dependem da umidade relativa efetiva, do edifício e da inércia do material, não apenas do relógio ou da temperatura.\n* Esse movimento contínuo de dilatação e contração desestrutura a malha fibrosa, descola lombadas, empena capas e acelera a fadiga do material.\n* **Decisão de projeto:** a estabilidade é objetivo a monitorar. Operação contínua pode ser necessária em um projeto, mas não constitui obrigação universal deduzida de qualquer acervo. Edifício, clima, energia, equipamentos e risco devem fundamentar a solução.\n\n#### B. Parâmetros de referência não são limiares universais\n* **Temperatura:** Faixas como **18–22 °C** aparecem em orientações para determinados acervos, mas precisam de fonte e contexto. Materiais fotográficos e outros suportes podem exigir condições distintas.\n* **Umidade Relativa (UR):** Faixas moderadas e estáveis são referências de projeto; **45–55%** não é norma universal para todo suporte. Monitore o ambiente e considere material, clima e risco, sem inventar uma tolerância obrigatória única.\n* *Riscos Críticos:*\n  * Umidade elevada persistente aumenta risco de mofo, mas **65% não é gatilho instantâneo ou suficiente**. Tempo, substrato, espécie e condições locais influem; um microambiente pode divergir do sensor da sala.\n  * Umidade muito baixa pode afetar flexibilidade e dimensões de componentes; não transforma todo papel instantaneamente em quebradiço ao cruzar um número.\n\n**Aplicação e recuperação:** Uma sala registra 55% de UR ao centro e condensação junto a uma parede fria. A média da sala não exclui risco local. Posicionar sensores, examinar a infiltração e acompanhar séries temporais é melhor que declarar o acervo seguro por um único número.",
+    "checkpointIds": [
+      "cp-7-1-1",
+      "rt-7-1-2"
+    ]
+  },
+  {
+    "id": "sub-7-1-bloco-3",
+    "titulo": "Luz e Radiação Eletromagnética",
+    "objetivos": [
+      "Controlar dose de luz, UV e aquecimento segundo sensibilidade."
+    ],
+    "conteudo": "A luz é uma forma de energia radiante cuja degradação sobre os acervos é **cumulativa e irreversível** (Thomson, 1978; Cassares, 2000):\n\n* **Radiação Ultravioleta (UV - comprimentos de onda $< 400$ nm):**\n  * Invisível ao olho humano, mas possui fótons de elevadíssima energia.\n  * Pode desencadear e intensificar processos de **fotoxidação**, quebrando as moléculas de celulose e promovendo a quebra de corantes e tintas históricas (tintas ferrogálicas).\n  * **Controle de UV:** minimizar a componente ultravioleta. O valor histórico de **75 µW/lm** é referência em orientações tradicionais, não garantia de ausência de dano abaixo dele.\n* **Radiação Infravermelha ($> 700$ nm):**\n  * Emite calor radiante, aquecendo diretamente a superfície das obras e acelerando a perda de umidade intrínseca.\n* **Luz Visível (400 a 700 nm):**\n  * Também causa desbotamento cumulativo ao longo do tempo.\n  * *Níveis Máximos de Iluminamento:*\n    * Documentos de alta sensibilidade (aquarelas, manuscritos, obras raras, fotografias): referência tradicional de **50 lux**, com dose e tempo limitados conforme sensibilidade.\n    * Livros impressos comuns em salas de leitura: níveis de trabalho dependentes da tarefa; **150–200 lux** não é limite universal de conservação de todo impresso.\n* **Medidas de Controle:** Banimento da incidência direta de luz solar sobre estantes (uso de persianas e películas de proteção solar anti-UV nas janelas) e adoção de **luminárias LED frias** (com baixa emissão UV conforme o produto; LED ainda gera calor e luz visível capaz de degradar materiais sensíveis).\n\n**Aplicação e recuperação:** A 50 lux por 100 horas, a exposição é 5.000 lux-hora; a 100 lux por 50 horas, a dose nominal é igual. Sensibilidade, espectro e outras condições ainda importam. Reduzir UV não elimina o efeito da luz visível.",
+    "checkpointIds": [
+      "cp-7-1-3",
+      "rt-7-1-3"
+    ]
+  },
+  {
+    "id": "sub-7-1-bloco-4",
+    "titulo": "Poluentes Atmosféricos e Qualidade do Ar",
+    "objetivos": [
+      "Distinguir partículas e gases para selecionar controles."
+    ],
+    "conteudo": "Os poluentes atmosféricos atacam o acervo em duas frentes:\n1. **Poluentes Gasosos Ácidos:**\n   * O dióxido de enxofre ($SO_2$) e os óxidos de nitrogênio ($NO_x$) expelidos pela queima de combustíveis fósseis reagem cataliticamente com o oxigênio e a umidade do ar na presença de metais (como o ferro das tintas ferrogálicas), convertendo-se em **ácido sulfúrico ($H_2SO_4$) e ácido nítrico ($HNO_3$)**.\n   * O ozônio ($O_3$), gerado por fotocopiadoras antigas e poluição fotoquímica, é um oxidante extremamente agressivo às fibras de celulose.\n2. **Poluentes Particulados (Poeira e Fuligem):**\n   * A fuligem contém partículas abrasivas de sílica e carbono que riscam mecanicamente as superfícies das obras durante o manuseio.\n   * Além disso, a poeira atua como núcleo higroscópico que retém umidade ácida e serve de veículo transportador de nutrientes e esporos de fungos.\n* **Medidas Preventivas:** Instalação de sistemas centrais de tratamento de ar dotados de filtros de partículas finas (filtro absoluto HEPA) e filtros químicos de **carvão ativado** para retenção de gases ácidos, e controle de infiltrações conforme o projeto. Pressão positiva e filtros específicos exigem dimensionamento e manutenção; não se prescrevem automaticamente a todo edifício.\n\n**Aplicação e recuperação:** Um filtro HEPA retém partículas segundo sua classificação, mas não resolve sozinho todo poluente gasoso. Carvão ativado atende outro tipo de problema, com capacidade e vida útil a acompanhar. Nome de filtro não substitui diagnóstico.",
+    "checkpointIds": [
+      "rt-7-1-4"
+    ]
+  },
+  {
+    "id": "sub-7-1-bloco-5",
+    "titulo": "Mobiliário e Infraestrutura Predial de Guarda (Conarq e IFLA)",
+    "objetivos": [
+      "Avaliar mobiliário e arranjo com base em riscos e projeto."
+    ],
+    "conteudo": "As condições físicas de guarda no depósito definem a longevidade dos acervos:\n* **Estantes de Aço:** Devem ser confeccionadas em chapa de aço dobrada com tratamento antiferruginoso e acabamento estável, resistente, sem bordas cortantes e compatível com a coleção. Pintura em pó adequadamente curada é uma opção; a palavra epóxi sozinha não certifica inércia ou ausência de emissão.\n* **Dimensões de projeto a justificar:** os números seguintes são referências de arranjo, não regra legal universal. Considerar acessibilidade, estabilidade, incêndio e características do espaço.\n  * Prateleira inferior: situada a pelo menos **15 cm acima do nível do piso**, prevenindo sinistros de alagamento acidental, facilitando a limpeza do chão e impedindo o acesso imediato de insetos rastejantes.\n  * Prateleira superior: distante no mínimo **50 cm do teto e das luminárias**, garantindo a circulação adequada de ar e evitando calor focal das lâmpadas.\n  * Afastamento das paredes: estantes devem ficar afastadas **de 5 cm a 10 cm das paredes externas**, impedindo a transferência de umidade por capilaridade e condensação.\n* **Risco de mobiliário inadequado:** Armários, gaveteiros e estantes de madeira não tratada, compensado, aglomerado ou MDF podem emitir compostos voláteis, inclusive ácidos orgânicos e componentes de adesivos. **Lignina não é gás volátil emitido como vapor**; distinguir constituição da madeira e emissões, criando microclimas confinados altamente ácidos que destroem documentos e materiais fotográficos.\n\n**Aplicação e recuperação:** Uma caixa encostada em parede com infiltração pode criar microambiente úmido. Afastar o mobiliário ajuda, mas não corrige a origem da água. A prevenção articula manutenção predial, monitoramento e acondicionamento.",
+    "checkpointIds": [
+      "cp-7-1-2",
+      "rt-7-1-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "cassares",
+    "titulo": "Norma Cianflone Cassares — Como fazer conservação preventiva em arquivos e bibliotecas (2000)",
+    "localizador": "PDF teórico do projeto; capítulos 1, 2, 6 e 8; colaboração de Cláudia Moi.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Preserva%C3%A7%C3%A3o%20f%C3%ADsica/cf5.pdf"
+  },
+  {
+    "id": "cci",
+    "titulo": "Canadian Conservation Institute — Caring for paper objects",
+    "localizador": "Riscos e cuidados por materiais; distinguir recomendação contextual de norma universal.",
+    "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/paper-objects.html"
+  }
+],
 };

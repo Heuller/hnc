@@ -14,278 +14,243 @@ export const submodulo84: ModuloFilho = {
   ],
   titulo: 'ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)',
   antesDeLer: [
-    {
-      termo: 'ABNT NBR 6028:2021',
-      definicao: 'Norma que estabelece os requisitos para redação e apresentação de resumos informativos, indicativos e críticos (resenhas).',
-      exemploBiblioteca: 'Elaboração de resumos informativos de 100 a 250 palavras para acompanhar artigos da Revista de Informação Legislativa.',
-    },
-    {
-      termo: 'Resumo Informativo',
-      definicao: 'Tipo de resumo que informa ao leitor finalidades, metodologia, resultados e conclusões do documento original, dispensando a leitura integral.',
-      exemploBiblioteca: 'Resumo analítico publicado no início de cada dossiê da Consultoria da Câmara para rápida leitura dos deputados.',
-    },
-    {
-      termo: 'ABNT NBR 6027:2012 (Sumário)',
-      definicao: 'Norma que define sumário como a enumeração das divisões, seções e outras partes de uma publicação na mesma ordem em que a matéria se sucede.',
-      exemploBiblioteca: 'Garantia de que a grafia dos títulos e subtítulos no sumário seja rigorosamente idêntica à grafia no corpo do texto.',
-    },
-    {
-      termo: 'Palavras-Chave (Keywords)',
-      definicao: 'Termos representativos do conteúdo do documento que devem figurar logo abaixo do resumo precedidos da expressão \'Palavras-chave:\'.',
-      exemploBiblioteca: 'Atribuição de 3 a 5 palavras-chave separadas entre si por ponto e finalizadas por ponto, conforme preconizado pela NBR 6028.',
-    },
-  ],
-  descricaoCurta: 'Tipologia de resumos (indicativo, informativo e crítico/resenha), regras de redação da NBR 6028:2021 (parágrafo único, voz ativa e contagem de palavras), diferença entre Sumário (NBR 6027:2012) e Índice (NBR 6034:2004), estrutura de artigos (NBR 6022:2018) e a sintaxe do DOI.',
-  tempoEstimadoMinutos: 12,
-  autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'F. W. Lancaster', 'Comitê Brasileiro CB-014', 'International DOI Foundation (IDF)'],
+  {
+    "termo": "Resumo informativo",
+    "definicao": "Apresenta informação substancial do documento conforme conteúdo e finalidade.",
+    "exemploBiblioteca": "Informar resultado não certifica sua validade nem elimina toda leitura crítica."
+  },
+  {
+    "termo": "Sumário e índice",
+    "definicao": "Sumário segue divisões do documento; índice remete a informações por critério escolhido.",
+    "exemploBiblioteca": "Consultar um nome em vários capítulos é tarefa diferente de ver a estrutura geral."
+  }
+],
+  descricaoCurta: "Distinguir resumo indicativo/informativo e análise crítica. Comparar sumário e índice por função e ordem. Aplicar a estrutura do artigo da edição de 2018. Relacionar DOI, resolução e manutenção.",
+  tempoEstimadoMinutos: 19,
+  autoresChave: [
+  "ABNT NBR 6028:2021 — Resumo, resenha e recensão",
+  "ABNT NBR 6027:2012 — Sumário",
+  "ABNT NBR 6022:2018 — Artigo em publicação periódica",
+  "DOI Foundation — What is a DOI?"
+],
   alertasCebraspe: [
-    'Tipos de Resumos na NBR 6028:2021: Resumo Informativo (informa finalidades, metodologia, resultados e conclusões, DISPENSANDO a consulta ao original); Resumo Indicativo (aponta os temas principais SEM detalhar dados ou conclusões, NÃO dispensando a leitura do original); Resumo Crítico / Resenha / Recensão (análise crítica valorativa elaborada por especialista). O Cebraspe inverte sistematicamente informativo e indicativo!',
-    'Extensão recomendada de palavras na NBR 6028:2021: 150 a 500 palavras para teses, dissertações e relatórios técnico-científicos; 100 a 250 palavras para artigos de periódicos; 50 a 100 palavras para notas editoriais e comunicações breves.',
-    'Regras de redação do Resumo: deve ser composto em PARÁGRAFO ÚNICO contínuo, com verbo na VOZ ATIVA e na TERCEIRA PESSOA DO SINGULAR (ex.: "Analisa...", "Demonstra..."). Palavras-chave ficam logo abaixo, separadas entre si por PONTO E VÍRGULA e finalizadas por PONTO.',
-    'A grande confusão: SUMÁRIO vs. ÍNDICE. O Sumário (NBR 6027:2012) apresenta as seções na MESMA ORDEM LINEAR em que aparecem no corpo do trabalho (pré-textual obrigatório); o Índice (NBR 6034:2004) é ordenado ALFABETICAMENTE ou SISTEMATICAMENTE para localização pontual de termos (pós-textual opcional). Os elementos pré-textuais que antecedem o sumário NÃO devem constar nele!',
-    'Identificador de Objeto Digital (DOI - ISO 26324): estruturado na sintaxe canônica "prefixo/sufixo", em que o prefixo (iniciado por 10.) identifica a autoridade nomeadora/editora junto à Crossref/IDF, e o sufixo é definido pelo editor para identificar a obra de forma persistente.',
-  ],
-  quadroComparativo: {
-    titulo: 'Comparação dos Tipos de Resumos segundo a ABNT NBR 6028:2021',
-    colunas: ['Tipo de Resumo', 'Conteúdo e Finalidade', 'Dispensa o Original?', 'Público / Autoria', 'Pegadinha Cebraspe Mapeada'],
-    linhas: [
-      ['Resumo Informativo', 'Informa objetivos, metodologia, principais resultados e conclusões obtidas na pesquisa', 'Sim (o leitor apreende a substância do trabalho sem precisar abrir o texto completo)', 'Redigido pelo próprio autor para acompanhar artigos e trabalhos acadêmicos', 'Afirmar que o resumo informativo não aborda resultados para obrigar o leitor a ler a tese (FALSO).'],
-      ['Resumo Indicativo', 'Apenas indica os tópicos gerais tratados, sem apresentar dados estatísticos nem conclusões', 'Não (requer compulsoriamente a leitura do texto original para entender os achados)', 'Redigido pelo autor ou catalogador para notas sumárias de conteúdo', 'Dizer que o resumo indicativo permite dispensar a leitura do documento primário (FALSO).'],
-      ['Resumo Crítico / Resenha', 'Emite julgamento crítico, opinião valorativa e análise contextual sobre a obra (recensão)', 'Não (visa orientar a reflexão e escolha do leitor sobre o mérito científico do livro)', 'Redigido por especialista independente na área temática da publicação', 'Confundir resenha crítica com resumo acadêmico neutro de trabalho de conclusão.'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A ABNT NBR 6028:2021 (Resumo, Resenha e Recensão)
-
-A norma **ABNT NBR 6028** (*Informação e Documentação — Resumo, Resenha e Recensão — Apresentação*, revisada em 2021) padroniza a condensação do conteúdo documental em qualquer área do conhecimento humano:
-
-\`\`\`tree
-TITLE: Tipologia de Resumos (ABNT NBR 6028:2021)
-- Resumos, Resenhas e Recensões (NBR 6028) | Apresentação condensada de documentos informacionais
-  - 1. Resumo Informativo | Condensa objetivos, metodologia, principais resultados e conclusões
-    - Suficiência Informativa | DISPENSA a leitura imediata do documento original
-    - Extensão Padrão | De 150 a 500 palavras em trabalhos acadêmicos; 100 a 250 em artigos de periódicos
-    - Estilo de Redação | Parágrafo único, voz ativa, verbo na 3ª pessoa do singular, sem enumeração de tópicos
-  - 2. Resumo Indicativo | Aponta apenas os pontos gerais abordados sem dados empíricos ou resultados
-    - Caráter Sumário | NÃO dispensa a consulta ao documento original
-    - Aplicação Prática | Índices de periódicos, alertas rápidos e guias bibliográficos sumários
-  - 3. Resumo Crítico (Resenha / Recensão) | Análise valorativa redigida por especialista temático
-    - Juízo de Valor | Emite julgamento crítico explícito sobre mérito científico e originalidade
-    - Extensão Livre | Não se submete ao limite numérico rígido de palavras da NBR 6028
-\`\`\`
-
-#### A. A Tipologia Tripartite Canônica:
-1. **Resumo Informativo:**
-   * Condensa o conteúdo do documento expondo de forma clara e suficiente seus **objetivos/finalidades, metodologia empregada, principais resultados e conclusões alcançadas**.
-   * Pela sua densidade e suficiência informativa, **dispensa a consulta ao documento original**, permitindo ao pesquisador julgar com precisão se a obra atende à sua necessidade informacional.
-2. **Resumo Indicativo:**
-   * Aponta apenas os pontos gerais abordados no documento, sem discorrer sobre dados empíricos, metodologia detalhada ou conclusões da pesquisa.
-   * **Não dispensa a leitura do documento original**.
-3. **Resumo Crítico (Resenha / Recensão):**
-   * Resumo redigido por um especialista temático que analisa criticamente a obra, emite **julgamento de valor sobre seu mérito científico**, originalidade e limitações metodológicas.
-
-#### B. Regras Gramaticais e Estruturais de Redação
-* **Parágrafo Único:** O resumo deve ser redigido em **um único bloco de parágrafo contínuo e coeso**. É terminantemente vedada a redação em tópicos, alíneas ou itens com marcadores.
-* **Estilo e Voz:** O texto deve ser composto por frases concisas e afirmativas, utilizando o verbo na **voz ativa e na terceira pessoa do singular** (ex.: *"Analisa a política arquivística...", "Demonstra o comportamento eleitoral..."*). Evita-se a voz passiva longa e a primeira pessoa do singular ou plural.
-* **A Primeira Frase:** Deve ser significativa, contextualizando imediatamente o assunto central tratado no documento.
-* **Proibições:** Não devem figurar no resumo símbolos, equações, fórmulas matemáticas e diagramas, nem citações bibliográficas de outros autores, a menos que o trabalho seja estritamente sobre a obra de terceiros.
-
-#### C. Extensão de Palavras Padronizada na Norma
-* **De 150 a 500 palavras:** para trabalhos acadêmicos (teses de doutorado, dissertações de mestrado, TCCs e monografias) e relatórios técnico-científicos;
-* **De 100 a 250 palavras:** para artigos de periódicos científicos;
-* **De 50 a 100 palavras:** para notas editoriais, comunicados breves e documentos curtos.
-
-#### D. Palavras-chave (*Keywords*):
-* Devem figurar logo abaixo do texto do resumo, antecedidas da expressão com hífen e dois pontos: \`Palavras-chave:\`.
-* São grafadas com a inicial em letra maiúscula, **separadas entre si por ponto e vírgula (\`;\`)** e finalizadas por **ponto final (\`.\`)**:
-* *Exemplo canônico:* \`Palavras-chave: Biblioteconomia; Preservação digital; Repositórios institucionais; OAI-PMH.\`
-
----
-
-### 2. A ABNT NBR 6027:2012 (Sumário) vs. NBR 6034:2004 (Índice)
-
-A delimitação conceitual e posicional entre sumário e índice constitui uma das pegadinhas clássicas do Cebraspe:
-
-| Critério Comparativo | Sumário (ABNT NBR 6027:2012) | Índice (ABNT NBR 6034:2004) |
-| :--- | :--- | :--- |
-| **Definição Canônica** | Enumeração das divisões, seções e capítulos **na mesma ordem física de ocorrência no texto**. | Relação detalhada de termos, nomes ou assuntos **ordenada alfabeticamente ou sistematicamente**. |
-| **Localização no Trabalho** | Elemento **pré-textual obrigatório** (o último dos pré-textuais). | Elemento **pós-textual opcional** (localizado no final da obra). |
-| **Finalidade Primária** | Fornecer uma visão panorâmica linear da estrutura lógica da obra. | Permitir a rápida localização pontual de termos e assuntos específicos no texto. |
-| **O que NÃO deve conter** | **Os elementos pré-textuais que o antecedem** (resumos, dedicatória, listas) NÃO constam no sumário. | Não segue a linearidade cronológica dos capítulos do livro. |
-
----
-
-### 3. A ABNT NBR 6022:2018: Artigo em Publicação Periódica
-
-A norma disciplina a estrutura formal de artigos científicos e técnicos publicados em revistas:
-* **Estrutura Tripartite do Artigo:**
-  * *Elementos Pré-Textuais:* Título e subtítulo (na língua do texto), autor(es) com nota de rodapé de filiação institucional (*biorresumo*), resumo em língua vernácula e palavras-chave.
-  * *Elementos Textuais:* Introdução (contextualização e problema), Desenvolvimento (fundamentação teórica, materiais e métodos e resultados) e Conclusão (considerações finais).
-  * *Elementos Pós-Textuais:* Título e subtítulo em língua estrangeira, resumo e palavras-chave em língua estrangeira (*abstract/keywords*), notas explicativas, referências (obrigatórias), apêndices e anexos.
-
----
-
-### 4. O Identificador de Objeto Digital (DOI - ISO 26324)
-
-O **Digital Object Identifier (DOI)**, administrado pela *International DOI Foundation* (IDF) e regido pela norma internacional **ISO 26324**, é o padrão global para citação permanente de objetos intelectuais na Web:
-
-* **Mecanismo Operacional e Resolução:**
-  * Resolve a patologia do *link rot* (endereços HTTP quebrados quando revistas mudam de servidor). O DOI atua como um URN resolúvel pelo servidor central \`https://doi.org/\`.
-* **A Sintaxe Padronizada do DOI:**
-  O identificador é alfanumérico e divide-se em duas partes estritas separadas por uma **barra oblíqua (\`/\`)**:
-
-$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182.v2n1.art5}_{\\text{Sufixo}}$
-
-1. **Prefixo:** Inicia obrigatoriamente pelos caracteres numéricos \`10.\`, seguidos pelo código da autoridade nomeadora (editora comercial, universidade ou agência depositária registrada junto à Crossref, DataCite ou mEDRA).
-2. **Sufixo:** Sequência livre atribuída pela própria instituição publicadora para identificar unicamente o artigo, tese, relatório ou capítulo dentro de seu catálogo.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Produtos e Serviços Informacionais (sub-5-2):** Elaboração de resumos indicativos, informativos e estados da arte.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-As normas **ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)** regulam a condensação e a estruturação de publicações técnicas:
-1. **Resumos (ABNT NBR 6028:2021):**
-   - Apresentação concisa dos pontos relevantes de um documento. Deve ressaltar: objetivo, método, resultados e conclusões.
-   - **Tipologia Canônica:**
-     - *Indicativo:* Apenas aponta os tópicos tratados no documento; não apresenta resultados nem conclusões.
-     - *Informativo:* Suficientemente detalhado para dispensar a consulta ao original; relata objetivos, metodologia, principais resultados e conclusões.
-     - *Crítico (Recensão / Resenha):* Análise interpretativa e valorativa de um documento feita por um especialista.
-   - **Regras de Extensão da NBR 6028:**
-     - De **150 a 500 palavras** para trabalhos acadêmicos (teses, dissertações) e relatórios técnico-científicos.
-     - De **100 a 250 palavras** para artigos de periódicos.
-     - De **50 a 100 palavras** para documentos curtos.
-   - **Redação:** Composto por parágrafo único, em terceira pessoa do singular, com verbo na voz ativa, seguido das palavras-chave separadas por ponto e vírgula (ou ponto) e finalizadas por ponto.
-2. **Sumário (ABNT NBR 6027:2012):**
-   - Enumeração das divisões, seções e outras partes de um documento, **na mesma ordem e grafia em que a matéria nele se sucede**. É o último elemento pré-textual! Não se confunde com *Índice*!
-3. **Artigo Científico (ABNT NBR 6022:2018):**
-   - Publicação com autoria declarada que apresenta e discute ideias, métodos e resultados de pesquisa (artigo original) ou que resume o estado da arte de um tema (artigo de revisão).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Elaboração de Resumo Informativo para a Base SILEG):** Ao cadastrar uma tese defendida por um servidor no repositório da BDCam, o bibliotecário redige um **resumo informativo** de 300 palavras: expõe o objetivo da análise do processo legislativo, os métodos empíricos aplicados, a amostragem de votações e a conclusão de que o tempo de tramitação caiu 20% com o processo eletrônico, permitindo ao usuário decidir se precisa baixar o PDF de 400 páginas.
-- **Cenário 2 (Distinção entre Sumário e Índice nas Edições Câmara):** Na editoração de uma coletânea de discursos parlamentares com 1.000 páginas, o bibliotecário posiciona o **Sumário** no início (elemento pré-textual na ordem sequencial dos capítulos) e contrata a elaboração de um **Índice Onomástico e Remissivo** para o final do livro (elemento pós-textual em ordem alfabética de nomes e assuntos).
-- **Cenário 3 (Controle de Extensão de Resumo de Artigo na Revista de Informação Legislativa):** Ao avaliar um artigo submetido à revista técnica da casa, o bibliotecário verifica que o resumo possui 450 palavras. Ele solicita a redução para até 250 palavras para atender estritamente ao limite de artigos da NBR 6028.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Tipo de Resumo / Elemento | Finalidade Principal | Extensão Canônica | Característica Crítica no Cebraspe |
-| :--- | :--- | :--- | :--- |
-| **Resumo Indicativo** | Apenas indica os tópicos tratados | Curto | Não traz dados qualitativos nem conclusão |
-| **Resumo Informativo** | Substitui a leitura do original | 150–500 pal. (Teses) / 100–250 (Artigos) | Informa objetivos, método, resultados e conclusões |
-| **Resumo Crítico (Resenha)** | Julgamento e avaliação de valor | Livre | Feito por terceiro com opinião analítica |
-| **Sumário (NBR 6027)** | Lista seções na ordem sequencial | Pré-textual | Ordem cronológica/exata do livro |
-| **Índice (NBR 6034)** | Lista detalhada alfabética ou sistemática | Pós-textual | Ordem alfabética remissiva |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Sumário vs. Índice:** Técnica de distrator: inversão conceitual ao trocar os conceitos afirmando que o sumário é uma lista em ordem alfabética posicionada ao final do livro. **Gabarito: ERRADO.** Quem fica ao final em ordem alfabética é o **Índice** (NBR 6034); o **Sumário** fica no início e reproduz a ordem exata das seções do texto.
-- **Número de Parágrafos do Resumo:** O Cebraspe propõe que o resumo de uma tese acadêmica deve ser dividido em quatro parágrafos (introdução, método, resultado e conclusão). **Gabarito: ERRADO.** A NBR 6028 determina que o resumo deve ser redigido em **parágrafo único** contínuo!
-- **Verbo na Primeira Pessoa:** Afirmar que o resumo deve usar verbos na primeira pessoa ("concluímos que"). **Gabarito: ERRADO.** A norma prescreve o uso da terceira pessoa do singular com voz ativa.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6028:2021: Informação e documentação — Resumo, resenha e recensão — Apresentação*. Rio de Janeiro: ABNT, 2021.
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6027:2012: Informação e documentação — Sumário — Apresentação*. Rio de Janeiro: ABNT, 2012.
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6022:2018: Informação e documentação — Artigo em publicação periódica técnica e/ou científica — Apresentação*. Rio de Janeiro: ABNT, 2018.
-- **LANCASTER, F. Wilfrid.** *Indexação e resumos: teoria e prática*. 2. ed. Brasília: Briquet de Lemos, 2004. (Capítulos de elaboração e avaliação de resumos).
-- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019.`,
+  "A regra usa iniciais minúsculas, ressalvados nomes próprios e científicos.",
+  "O texto recomenda/aconselha terceira pessoa; não contém essa obrigação absoluta conjunta na forma afirmada.",
+  "Suficiência informativa para certas necessidades não certifica o estudo nem dispensa toda leitura crítica."
+],
+  teoriaDensaMarkdown: "### Resumo, resenha e recensão na NBR 6028:2021\n\n**Resumo** apresenta concisamente pontos relevantes de documento. A edição de 2021 distingue resumos **indicativo** e **informativo**, e trata **resenha e recensão** separadamente. Não se deve transportar como classificação literal atual a antiga lista de três resumos que chamava resenha de “resumo crítico”.\n\nNo **indicativo**, destacam-se pontos principais sem necessariamente detalhar resultados; a consulta ao original continua necessária para compreensão do conteúdo. No **informativo**, a apresentação inclui finalidade, metodologia, resultados e conclusões com informação suficiente para certas necessidades. A definição não promete dispensar leitura crítica, checagem de dados ou consulta ao original para qualquer finalidade. Resumo não é substituto universal da obra.\n\nA redação do resumo deve usar frases concisas num único parágrafo, sem enumeração de tópicos. Para documento técnico/científico, recomenda-se o informativo. **Convém usar terceira pessoa**: não converta essa recomendação em obrigação absoluta de voz ativa e terceira pessoa do singular, nem reproduza regra de outra edição sem delimitação. O tipo e a extensão dependem do tratamento no documento original.\n\nO resumo apresentado separadamente deve ser precedido da referência; no próprio documento, a referência é opcional nas condições da norma. **Palavras-chave** vêm abaixo, após “Palavras-chave:”, separadas por ponto e vírgula e encerradas por ponto. A inicial é **minúscula**, com exceções para substantivos próprios e nomes científicos. Exemplo autoral: `Palavras-chave: biblioteca parlamentar; recuperação da informação; Brasil.`\n\nAs faixas de extensão são recomendações: convém 150–500 palavras para trabalhos acadêmicos e relatórios técnicos/científicos; 100–250 para artigos de periódicos; 50–100 para os demais documentos não contemplados. “Convém” não equivale a uma sanção automática por qualquer palavra fora do intervalo; periódicos e instituições podem ter exigências adicionais próprias.\n\n**Resenha e recensão** analisam/descrevem aspectos relevantes do documento ou objeto, em frases concisas sem tópicos. Não estão sujeitas ao limite de palavras da norma; são elaboradas por outra pessoa que não o autor do objeto. Quando publicadas separadamente, são precedidas da referência.\n\n**Exemplo de distinção:** “O relatório aborda a política de preservação e suas etapas” é indicativo. Um texto que informa objetivo, procedimento, resultado e conclusão oferece caráter informativo. Acrescentar avaliação fundamentada da adequação do método corresponde a outra operação, que não pode ser ocultada como simples transcrição neutra do resumo.\n\n**Aplicação e recuperação:** Um resumo de tese apresenta método, amostra, resultado e conclusão. Isso não certifica validade do estudo. Para julgar uma hipótese, é necessário consultar evidências. Outro texto só enumera temas: não deve ser chamado informativo só por ser comprido. Um resumo de duzentas palavras pode omitir resultado decisivo; extensão não mede suficiência sozinha.\n\n### A ABNT NBR 6027:2012 (Sumário) vs. NBR 6034:2004 (Índice)\n\nA distinção deve considerar função, ordenação e posição no gênero documental:\n\n| Critério Comparativo | Sumário (ABNT NBR 6027:2012) | Índice (ABNT NBR 6034:2004) |\n| :--- | :--- | :--- |\n| **Definição Canônica** | Enumeração das divisões, seções e capítulos **na mesma ordem física de ocorrência no texto**. | Relação detalhada de termos, nomes ou assuntos **ordenada alfabeticamente ou sistematicamente**. |\n| **Localização no Trabalho** | Elemento **pré-textual obrigatório** (o último dos pré-textuais). | Elemento **pós-textual opcional** (localizado no final da obra). |\n| **Finalidade Primária** | Fornecer uma visão panorâmica linear da estrutura lógica da obra. | Permitir a rápida localização pontual de termos e assuntos específicos no texto. |\n| **O que NÃO deve conter** | **Os elementos pré-textuais que o antecedem** (resumos, dedicatória, listas) NÃO constam no sumário. | não precisa seguir a sequência física de capítulos; ordena entradas pelo critério adotado. |\n\n**Aplicação e recuperação:** O sumário acompanha divisões na ordem do documento; o índice remete a conteúdos por critério escolhido. Trocar o título de um pelo outro não muda a função. Se a publicação tiver pretextuais, não os inclua automaticamente no sumário. A posição e a obrigatoriedade devem ser aplicadas ao gênero e à norma pertinente, não a todo arquivo digital existente.\n\n### A ABNT NBR 6022:2018: Artigo em Publicação Periódica\n\nA norma disciplina a estrutura formal de artigos científicos e técnicos publicados em revistas:\n**Pré-textuais:** título/subtítulo na língua do texto; título em outro idioma é opcional e fica logo abaixo. Nome do autor é apresentado de forma direta, com currículo sucinto, vínculo e contato nos termos da norma; a apresentação desses dados em nota é recomendada. Resumo segue NBR 6028, e o de outro idioma, se houver, sucede o resumo no idioma do documento. Datas de submissão e aprovação integram os elementos próprios. Identificação/disponibilidade pode incluir endereço, DOI, suporte e outras informações.\n\n**Textuais:** introdução, desenvolvimento e considerações finais, com títulos cuja nomenclatura pode ser escolhida segundo o trabalho. O conteúdo deve corresponder aos objetivos e ao método; não é obrigatório chamar toda última seção exatamente “Conclusão”.\n\n**Pós-textuais:** referências, glossário, apêndice, anexo e agradecimentos, respeitando sua aplicabilidade e a ordem da norma. Não se coloca automaticamente título/resumo estrangeiro no pós-textual copiando a estrutura de edição anterior.\n\n**Caso:** um editor localiza o resumo em inglês apenas depois das referências porque seu modelo antigo fazia assim. Para aplicar a edição de 2018, é necessário conferir a estrutura atual, em vez de presumir que toda orientação antiga permanece igual. Diretrizes específicas do periódico também devem ser verificadas e identificadas como tal.\n\n**Aplicação e recuperação:** Um artigo traz título estrangeiro logo abaixo do título original e resumo estrangeiro após o resumo da língua do texto. Isso não viola a estrutura de 2018 por esses elementos estarem no início. Não julgue edição atual com tabela retirada da norma antiga. Confira ainda datas e identificação, que não se tornam pós-textuais por parecerem metadados administrativos.\n\n### O Identificador de Objeto Digital (DOI - ISO 26324)\n\nO **Digital Object Identifier (DOI)**, administrado pela *International DOI Foundation* (IDF) e regido pela norma internacional **ISO 26324**, é o padrão global para citação permanente de objetos intelectuais na Web:\n\n* **Mecanismo Operacional e Resolução:**\n  * Foi concebido para identificação persistente e resolução. A ligação `https://doi.org/` encaminha conforme o registro mantido; persistência exige atualização e governança, não impede toda falha de link por si. DOI não deve ser chamado automaticamente de URN apenas por ser persistente.\n* **A Sintaxe Padronizada do DOI:**\n  O identificador é alfanumérico e divide-se em duas partes estritas separadas por uma **barra oblíqua (`/`)**:\n\n$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182}_{\\text{Sufixo}}$\n\n1. **Prefixo:** Inicia obrigatoriamente pelos caracteres numéricos `10.`, seguidos pelo código do registrante no sistema pertinente; agência de registro e registrante não são necessariamente a mesma organização.\n2. **Sufixo:** Sequência atribuída segundo as regras do sistema/registrante; não é necessariamente uma descrição inteligível ou prova da qualidade do objeto. O exemplo 10.1000/182 é apresentado pela DOI Foundation. Objetos identificados podem ser digitais, físicos ou abstratos, não apenas arquivos PDF.\n\n**Aplicação e recuperação:** O endereço da revista muda. Manter o DOI e atualizar seu destino ajuda a preservar resolução; deixar o destino desatualizado pode produzir falha. Ter DOI não significa acesso aberto, revisão por pares ou verdade científica. Um objeto pode exigir autorização de acesso mesmo que seu identificador seja publicamente resolúvel.",
+  teoriaDidaticaMarkdown: "### Revisão: gênero e versão determinam a estrutura\n\n6028:2021 distingue resumo indicativo/informativo e trata resenha/recensão separadamente. Resumo: parágrafo único; terceira pessoa e faixas de palavras são orientações com força própria. Palavras-chave: minúsculas, exceto nomes próprios/científicos, separação por ponto e vírgula. Sumário segue divisões; índice dá acesso pontual. No artigo da 6022:2018, resumo estrangeiro, se houver, sucede o do idioma do documento no pré-textual. DOI tem prefixo/sufixo e resolução mantida; não prova acesso aberto, revisão por pares ou verdade.\n",
   checkpoints: [
-    {
-      id: 'cp-8-4-1',
-      pergunta: 'Micro-Checkpoint 1: Resumo Informativo vs. Indicativo',
-      item: 'De acordo com a ABNT NBR 6028:2021, o resumo informativo tem por finalidade apenas apontar os tópicos gerais de um trabalho sem discorrer sobre metodologia e resultados, não podendo em hipótese alguma dispensar a leitura do documento original.',
-      gabarito: 'E',
-      justificativa: 'Errado! O item descreve o Resumo INDICATIVO. O Resumo INFORMATIVO inclui finalidades, metodologia, resultados e conclusões, dispensando a leitura do original.',
-    },
-    {
-      id: 'cp-8-4-2',
-      pergunta: 'Micro-Checkpoint 2: Diferença entre Sumário e Índice',
-      item: 'Nos termos das normas técnicas brasileiras de documentação, enquanto o sumário enumera as divisões do trabalho na ordem cronológica de sua ocorrência no texto, o índice é organizado alfabeticamente ou sistematicamente para localização de termos e autores.',
-      gabarito: 'C',
-      justificativa: 'Correto! O sumário segue a ordem física de sucessão dos capítulos; o índice é ordenado alfabética ou tematicamente no final da obra.',
-    },
-    {
-      id: 'cp-8-4-3',
-      pergunta: 'Micro-Checkpoint 3: Estrutura do Identificador de Objeto Digital (DOI)',
-      item: 'Um número DOI (Digital Object Identifier) é composto por duas partes separadas por uma barra oblíqua: o prefixo, que identifica a autoridade nomeadora, e o sufixo, que identifica o objeto específico.',
-      gabarito: 'C',
-      justificativa: 'Certo! A sintaxe padrão é "prefixo/sufixo" (ex: 10.1000/182), onde "10.xxxx" é registrado junto à International DOI Foundation e o sufixo é definido pelo editor.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-8-4-1',
-        periodo: '2012 / 2018',
-        disciplina: 'Normalização de Sumários e Artigos',
-        focoPrincipal: 'Consolidação das normas ABNT NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos de periódicos)',
-        figuraChave: 'ABNT',
-      },
-      {
-        id: 'tl-8-4-2',
-        periodo: '2012',
-        disciplina: 'Norma ISO 26324',
-        focoPrincipal: 'Padronização internacional da sintaxe e resolução do sistema DOI',
-        figuraChave: 'International DOI Foundation (IDF)',
-      },
-      {
-        id: 'tl-8-4-3',
-        periodo: 'Maio de 2021',
-        disciplina: 'Revisão da NBR 6028',
-        focoPrincipal: 'Publicação da ABNT NBR 6028:2021 (Resumo, resenha e recensão)',
-        figuraChave: 'Comitê Brasileiro CB-014',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-8-4-1',
-        nome: 'ABNT CB-014',
-        ano: 2021,
-        obraPrincipal: 'ABNT NBR 6028:2021: Informação e documentação — Resumo, resenha e recensão — Apresentação',
-        ideiaChave: 'Tipologia de resumos (informativo, indicativo, crítico), limites de palavras (150-500, 100-250, 50-100) e parágrafo único.',
-        chipPegadinha: 'Resumo informativo dispensa a leitura do original; indicativo não dispensa.',
-      },
-      {
-        id: 'aut-8-4-2',
-        nome: 'F. W. Lancaster',
-        ano: 2003,
-        obraPrincipal: 'Indexação e Resumos: Teoria e Prática',
-        ideiaChave: 'Teoria da condensação e sumarização da informação; regras de fidelidade e concisão em resumos.',
-        chipPegadinha: 'O resumo não deve emitir opiniões pessoais do sintetizador, salvo quando for expressamente uma resenha crítica.',
-      },
-      {
-        id: 'aut-8-4-3',
-        nome: 'International DOI Foundation',
-        ano: 2012,
-        obraPrincipal: 'DOI Handbook (ISO 26324)',
-        ideiaChave: 'Sintaxe alfanumérica de prefixo/sufixo para resolução persistente de recursos digitais na Web.',
-        chipPegadinha: 'O prefixo sempre se inicia por "10." e identifica a autoridade nomeadora, nunca o autor individual.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-8-4-1',
-        afirmacao: 'De acordo com a ABNT NBR 6028:2021, o resumo informativo de uma tese de doutorado deve ser estruturado em seções numeradas por tópicos com marcadores para facilitar a leitura.',
-        gabarito: 'E',
-        porQue: 'A norma veda tópicos e marcadores no corpo do resumo: ele deve ser composto estritamente em um ÚNICO PARÁGRAFO corrido e coeso.',
-      },
-      {
-        id: 'peg-8-4-2',
-        afirmacao: 'Conforme a ABNT NBR 6027, as páginas pré-textuais da monografia, como a dedicatória e o resumo em português, devem constar obrigatoriamente listadas no sumário.',
-        gabarito: 'E',
-        porQue: 'O item 4.2 da NBR 6027 determina expressamente que os elementos pré-textuais que antecedem o sumário NÃO devem figurar nele.',
-      },
-      {
-        id: 'peg-8-4-3',
-        afirmacao: 'Na sintaxe de um código DOI (Digital Object Identifier), o prefixo identifica o número do artigo individual, enquanto o sufixo identifica a editora da revista.',
-        gabarito: 'E',
-        porQue: 'A ordem é a inversa: o PREFIXO identifica a autoridade nomeadora / editora (ex.: 10.1000), e o SUFIXO identifica o objeto digital individual.',
-      },
-    ],
+  {
+    "id": "cp-8-4-1",
+    "pergunta": "Micro-Checkpoint 1: Resumo Informativo vs. Indicativo",
+    "item": "De acordo com a ABNT NBR 6028:2021, o resumo informativo tem por finalidade apenas apontar os tópicos gerais de um trabalho sem discorrer sobre metodologia e resultados, não podendo em hipótese alguma dispensar a leitura do documento original.",
+    "gabarito": "E",
+    "justificativa": "O informativo apresenta finalidade, método, resultados e conclusões conforme o conteúdo. Não se limita a listar tópicos; tampouco dispensa consulta ao original para toda finalidade crítica.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais.",
+    "versao_correta": "O informativo reúne informação substancial do documento; o indicativo aponta seus principais pontos."
   },
+  {
+    "id": "cp-8-4-2",
+    "pergunta": "Micro-Checkpoint 2: Diferença entre Sumário e Índice",
+    "item": "O sumário enumera as divisões na ordem em que aparecem no documento; o índice organiza entradas segundo um critério, como alfabético ou sistemático, para remeter a informações.",
+    "gabarito": "C",
+    "justificativa": "Ordem sequencial do documento não é necessariamente ordem cronológica dos acontecimentos relatados. Índice e sumário têm funções distintas.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais."
+  },
+  {
+    "id": "cp-8-4-3",
+    "pergunta": "Micro-Checkpoint 3: Estrutura do Identificador de Objeto Digital (DOI)",
+    "item": "Um número DOI (Digital Object Identifier) é composto por duas partes separadas por uma barra oblíqua: o prefixo, que identifica a autoridade nomeadora, e o sufixo, que identifica o objeto específico.",
+    "gabarito": "C",
+    "justificativa": "A estrutura prefixo/sufixo distingue o registrante e o nome específico no sistema. Não se conclui do sufixo, sozinho, conteúdo, qualidade ou acesso.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais."
+  },
+  {
+    "id": "rt-8-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Na NBR 6028:2021, todas as palavras-chave devem começar por maiúscula, inclusive termos comuns.",
+    "gabarito": "E",
+    "justificativa": "A regra usa iniciais minúsculas, ressalvados nomes próprios e científicos.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais.",
+    "editalRef": "Bloco D - Item 5.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Palavras-chave usam iniciais minúsculas, com as exceções normativas."
+  },
+  {
+    "id": "rt-8-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A edição de 2021 impõe terceira pessoa do singular e voz ativa como obrigação absoluta em todo resumo.",
+    "gabarito": "E",
+    "justificativa": "O texto recomenda/aconselha terceira pessoa; não contém essa obrigação absoluta conjunta na forma afirmada.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais.",
+    "editalRef": "Bloco D - Item 5.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Convém usar terceira pessoa, sem converter a orientação em obrigação absoluta inventada."
+  },
+  {
+    "id": "rt-8-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um resumo informativo torna desnecessária a consulta ao original para qualquer avaliação metodológica ou checagem factual.",
+    "gabarito": "E",
+    "justificativa": "Suficiência informativa para certas necessidades não certifica o estudo nem dispensa toda leitura crítica.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais.",
+    "editalRef": "Bloco D - Item 5.5",
+    "habilidade": "aplicar",
+    "versao_correta": "A necessidade de consultar o original depende da finalidade; resumo não substitui toda avaliação."
+  },
+  {
+    "id": "rt-8-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Na NBR 6022:2018, o resumo em outro idioma, se houver, sucede o resumo no idioma do documento.",
+    "gabarito": "C",
+    "justificativa": "A regra está nos elementos pré-textuais; não se copia automaticamente a antiga posição pós-textual.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais.",
+    "editalRef": "Bloco D - Item 5.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-8-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um DOI resolúvel garante que o objeto está em acesso aberto e que seus resultados são corretos.",
+    "gabarito": "E",
+    "justificativa": "Resolução, autorização de acesso e qualidade científica são propriedades distintas.",
+    "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais.",
+    "editalRef": "Bloco D - Item 5.5",
+    "habilidade": "aplicar",
+    "versao_correta": "DOI identifica e apoia resolução; não certifica acesso aberto ou verdade."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-8-4-fonte-6028",
+      "nome": "ABNT NBR 6028:2021 — Resumo, resenha e recensão",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 6028:2021 — Resumo, resenha e recensão",
+      "ideiaChave": "Tipos, redação, palavras-chave e extensão; PDF do acervo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-8-4-fonte-6027",
+      "nome": "ABNT NBR 6027:2012 — Sumário",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 6027:2012 — Sumário",
+      "ideiaChave": "Ordenação e posição do sumário; PDF do acervo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-8-4-fonte-6022",
+      "nome": "ABNT NBR 6022:2018 — Artigo em publicação periódica",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 6022:2018 — Artigo em publicação periódica",
+      "ideiaChave": "Seções 4–5: estrutura e elementos; PDF do acervo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-8-4-fonte-doi",
+      "nome": "DOI Foundation — What is a DOI?",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "DOI Foundation — What is a DOI?",
+      "ideiaChave": "Objeto identificado, resolução e persistência.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-8-4-3",
+      "afirmacao": "Um resumo informativo torna desnecessária a consulta ao original para qualquer avaliação metodológica ou checagem factual.",
+      "gabarito": "E",
+      "porQue": "Suficiência informativa para certas necessidades não certifica o estudo nem dispensa toda leitura crítica."
+    },
+    {
+      "id": "memoria-rt-8-4-4",
+      "afirmacao": "Na NBR 6022:2018, o resumo em outro idioma, se houver, sucede o resumo no idioma do documento.",
+      "gabarito": "C",
+      "porQue": "A regra está nos elementos pré-textuais; não se copia automaticamente a antiga posição pós-textual."
+    },
+    {
+      "id": "memoria-rt-8-4-5",
+      "afirmacao": "Um DOI resolúvel garante que o objeto está em acesso aberto e que seus resultados são corretos.",
+      "gabarito": "E",
+      "porQue": "Resolução, autorização de acesso e qualidade científica são propriedades distintas."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-8-4-bloco-1",
+    "titulo": "Resumo, resenha e recensão na NBR 6028:2021",
+    "objetivos": [
+      "Distinguir resumo indicativo/informativo e análise crítica."
+    ],
+    "conteudo": "**Resumo** apresenta concisamente pontos relevantes de documento. A edição de 2021 distingue resumos **indicativo** e **informativo**, e trata **resenha e recensão** separadamente. Não se deve transportar como classificação literal atual a antiga lista de três resumos que chamava resenha de “resumo crítico”.\n\nNo **indicativo**, destacam-se pontos principais sem necessariamente detalhar resultados; a consulta ao original continua necessária para compreensão do conteúdo. No **informativo**, a apresentação inclui finalidade, metodologia, resultados e conclusões com informação suficiente para certas necessidades. A definição não promete dispensar leitura crítica, checagem de dados ou consulta ao original para qualquer finalidade. Resumo não é substituto universal da obra.\n\nA redação do resumo deve usar frases concisas num único parágrafo, sem enumeração de tópicos. Para documento técnico/científico, recomenda-se o informativo. **Convém usar terceira pessoa**: não converta essa recomendação em obrigação absoluta de voz ativa e terceira pessoa do singular, nem reproduza regra de outra edição sem delimitação. O tipo e a extensão dependem do tratamento no documento original.\n\nO resumo apresentado separadamente deve ser precedido da referência; no próprio documento, a referência é opcional nas condições da norma. **Palavras-chave** vêm abaixo, após “Palavras-chave:”, separadas por ponto e vírgula e encerradas por ponto. A inicial é **minúscula**, com exceções para substantivos próprios e nomes científicos. Exemplo autoral: `Palavras-chave: biblioteca parlamentar; recuperação da informação; Brasil.`\n\nAs faixas de extensão são recomendações: convém 150–500 palavras para trabalhos acadêmicos e relatórios técnicos/científicos; 100–250 para artigos de periódicos; 50–100 para os demais documentos não contemplados. “Convém” não equivale a uma sanção automática por qualquer palavra fora do intervalo; periódicos e instituições podem ter exigências adicionais próprias.\n\n**Resenha e recensão** analisam/descrevem aspectos relevantes do documento ou objeto, em frases concisas sem tópicos. Não estão sujeitas ao limite de palavras da norma; são elaboradas por outra pessoa que não o autor do objeto. Quando publicadas separadamente, são precedidas da referência.\n\n**Exemplo de distinção:** “O relatório aborda a política de preservação e suas etapas” é indicativo. Um texto que informa objetivo, procedimento, resultado e conclusão oferece caráter informativo. Acrescentar avaliação fundamentada da adequação do método corresponde a outra operação, que não pode ser ocultada como simples transcrição neutra do resumo.\n\n**Aplicação e recuperação:** Um resumo de tese apresenta método, amostra, resultado e conclusão. Isso não certifica validade do estudo. Para julgar uma hipótese, é necessário consultar evidências. Outro texto só enumera temas: não deve ser chamado informativo só por ser comprido. Um resumo de duzentas palavras pode omitir resultado decisivo; extensão não mede suficiência sozinha.",
+    "checkpointIds": [
+      "cp-8-4-1",
+      "rt-8-4-1",
+      "rt-8-4-2",
+      "rt-8-4-3"
+    ]
+  },
+  {
+    "id": "sub-8-4-bloco-2",
+    "titulo": "A ABNT NBR 6027:2012 (Sumário) vs. NBR 6034:2004 (Índice)",
+    "objetivos": [
+      "Comparar sumário e índice por função e ordem."
+    ],
+    "conteudo": "A distinção deve considerar função, ordenação e posição no gênero documental:\n\n| Critério Comparativo | Sumário (ABNT NBR 6027:2012) | Índice (ABNT NBR 6034:2004) |\n| :--- | :--- | :--- |\n| **Definição Canônica** | Enumeração das divisões, seções e capítulos **na mesma ordem física de ocorrência no texto**. | Relação detalhada de termos, nomes ou assuntos **ordenada alfabeticamente ou sistematicamente**. |\n| **Localização no Trabalho** | Elemento **pré-textual obrigatório** (o último dos pré-textuais). | Elemento **pós-textual opcional** (localizado no final da obra). |\n| **Finalidade Primária** | Fornecer uma visão panorâmica linear da estrutura lógica da obra. | Permitir a rápida localização pontual de termos e assuntos específicos no texto. |\n| **O que NÃO deve conter** | **Os elementos pré-textuais que o antecedem** (resumos, dedicatória, listas) NÃO constam no sumário. | não precisa seguir a sequência física de capítulos; ordena entradas pelo critério adotado. |\n\n**Aplicação e recuperação:** O sumário acompanha divisões na ordem do documento; o índice remete a conteúdos por critério escolhido. Trocar o título de um pelo outro não muda a função. Se a publicação tiver pretextuais, não os inclua automaticamente no sumário. A posição e a obrigatoriedade devem ser aplicadas ao gênero e à norma pertinente, não a todo arquivo digital existente.",
+    "checkpointIds": [
+      "cp-8-4-2"
+    ]
+  },
+  {
+    "id": "sub-8-4-bloco-3",
+    "titulo": "A ABNT NBR 6022:2018: Artigo em Publicação Periódica",
+    "objetivos": [
+      "Aplicar a estrutura do artigo da edição de 2018."
+    ],
+    "conteudo": "A norma disciplina a estrutura formal de artigos científicos e técnicos publicados em revistas:\n**Pré-textuais:** título/subtítulo na língua do texto; título em outro idioma é opcional e fica logo abaixo. Nome do autor é apresentado de forma direta, com currículo sucinto, vínculo e contato nos termos da norma; a apresentação desses dados em nota é recomendada. Resumo segue NBR 6028, e o de outro idioma, se houver, sucede o resumo no idioma do documento. Datas de submissão e aprovação integram os elementos próprios. Identificação/disponibilidade pode incluir endereço, DOI, suporte e outras informações.\n\n**Textuais:** introdução, desenvolvimento e considerações finais, com títulos cuja nomenclatura pode ser escolhida segundo o trabalho. O conteúdo deve corresponder aos objetivos e ao método; não é obrigatório chamar toda última seção exatamente “Conclusão”.\n\n**Pós-textuais:** referências, glossário, apêndice, anexo e agradecimentos, respeitando sua aplicabilidade e a ordem da norma. Não se coloca automaticamente título/resumo estrangeiro no pós-textual copiando a estrutura de edição anterior.\n\n**Caso:** um editor localiza o resumo em inglês apenas depois das referências porque seu modelo antigo fazia assim. Para aplicar a edição de 2018, é necessário conferir a estrutura atual, em vez de presumir que toda orientação antiga permanece igual. Diretrizes específicas do periódico também devem ser verificadas e identificadas como tal.\n\n**Aplicação e recuperação:** Um artigo traz título estrangeiro logo abaixo do título original e resumo estrangeiro após o resumo da língua do texto. Isso não viola a estrutura de 2018 por esses elementos estarem no início. Não julgue edição atual com tabela retirada da norma antiga. Confira ainda datas e identificação, que não se tornam pós-textuais por parecerem metadados administrativos.",
+    "checkpointIds": [
+      "rt-8-4-4"
+    ]
+  },
+  {
+    "id": "sub-8-4-bloco-4",
+    "titulo": "O Identificador de Objeto Digital (DOI - ISO 26324)",
+    "objetivos": [
+      "Relacionar DOI, resolução e manutenção."
+    ],
+    "conteudo": "O **Digital Object Identifier (DOI)**, administrado pela *International DOI Foundation* (IDF) e regido pela norma internacional **ISO 26324**, é o padrão global para citação permanente de objetos intelectuais na Web:\n\n* **Mecanismo Operacional e Resolução:**\n  * Foi concebido para identificação persistente e resolução. A ligação `https://doi.org/` encaminha conforme o registro mantido; persistência exige atualização e governança, não impede toda falha de link por si. DOI não deve ser chamado automaticamente de URN apenas por ser persistente.\n* **A Sintaxe Padronizada do DOI:**\n  O identificador é alfanumérico e divide-se em duas partes estritas separadas por uma **barra oblíqua (`/`)**:\n\n$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182}_{\\text{Sufixo}}$\n\n1. **Prefixo:** Inicia obrigatoriamente pelos caracteres numéricos `10.`, seguidos pelo código do registrante no sistema pertinente; agência de registro e registrante não são necessariamente a mesma organização.\n2. **Sufixo:** Sequência atribuída segundo as regras do sistema/registrante; não é necessariamente uma descrição inteligível ou prova da qualidade do objeto. O exemplo 10.1000/182 é apresentado pela DOI Foundation. Objetos identificados podem ser digitais, físicos ou abstratos, não apenas arquivos PDF.\n\n**Aplicação e recuperação:** O endereço da revista muda. Manter o DOI e atualizar seu destino ajuda a preservar resolução; deixar o destino desatualizado pode produzir falha. Ter DOI não significa acesso aberto, revisão por pares ou verdade científica. Um objeto pode exigir autorização de acesso mesmo que seu identificador seja publicamente resolúvel.",
+    "checkpointIds": [
+      "cp-8-4-3",
+      "rt-8-4-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "6028",
+    "titulo": "ABNT NBR 6028:2021 — Resumo, resenha e recensão",
+    "localizador": "Tipos, redação, palavras-chave e extensão; PDF do acervo."
+  },
+  {
+    "id": "6027",
+    "titulo": "ABNT NBR 6027:2012 — Sumário",
+    "localizador": "Ordenação e posição do sumário; PDF do acervo."
+  },
+  {
+    "id": "6022",
+    "titulo": "ABNT NBR 6022:2018 — Artigo em publicação periódica",
+    "localizador": "Seções 4–5: estrutura e elementos; PDF do acervo."
+  },
+  {
+    "id": "doi",
+    "titulo": "DOI Foundation — What is a DOI?",
+    "localizador": "Objeto identificado, resolução e persistência.",
+    "url": "https://www.doi.org/the-identifier/what-is-a-doi/"
+  }
+],
 };

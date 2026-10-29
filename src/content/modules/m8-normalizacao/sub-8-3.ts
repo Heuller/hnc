@@ -14,312 +14,260 @@ export const submodulo83: ModuloFilho = {
   ],
   titulo: 'ABNT NBR 14724:2024: Apresentação de Trabalhos Acadêmicos',
   antesDeLer: [
-    {
-      termo: 'ABNT NBR 14724:2024',
-      definicao: 'Norma técnica brasileira (4ª edição, publicada em 16/12/2024, que cancela e substitui a NBR 14724:2011) que especifica os princípios gerais para a apresentação formal de trabalhos acadêmicos (teses, dissertações e TCCs).',
-      exemploBiblioteca: 'Revisão formal das monografias produzidas pelos alunos dos cursos de pós-graduação do Centro de Formação (Cefor) da Câmara.',
-    },
-    {
-      termo: 'Estrutura do Trabalho Acadêmico',
-      definicao: 'Divisão formal tripartite: elementos pré-textuais, elementos textuais (introdução, desenvolvimento, conclusão) e elementos pós-textuais.',
-      exemploBiblioteca: 'Verificação da correta paginação, onde a contagem inicia na folha de rosto, mas a numeração só aparece na primeira folha textual.',
-    },
-    {
-      termo: 'Elementos Pré-Textuais Obrigatórios',
-      definicao: 'Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário.',
-      exemploBiblioteca: 'Checklist de conferência de teses depositadas na Biblioteca Pedro Aleixo para publicação institucional.',
-    },
-    {
-      termo: 'Anexo vs. Apêndice',
-      definicao: 'Apêndice é documento elaborado pelo próprio autor do trabalho para complementar sua argumentação; Anexo é texto de terceiros não elaborado pelo autor.',
-      exemploBiblioteca: 'Questionário aplicado aos parlamentares entra como Apêndice; cópia do texto do Regimento Interno entra como Anexo.',
-    },
-  ],
-  descricaoCurta: 'A estrutura formal de teses, dissertações e monografias segundo a ABNT NBR 14724:2024 (4ª edição, que substitui a edição de 2011), cobrindo elementos pré-textuais, textuais e pós-textuais, a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024:2012), lombada (NBR 12225:2023), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).',
-  tempoEstimadoMinutos: 12,
-  autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Instituto Brasileiro de Geografia e Estatística (IBGE)', 'Júnia Lessa França'],
+  {
+    "termo": "Anverso e verso",
+    "definicao": "Faces da folha têm margens e posições próprias na apresentação impressa.",
+    "exemploBiblioteca": "Numeração à direita no anverso e à esquerda no verso não são a mesma regra visual."
+  },
+  {
+    "termo": "Apêndice e anexo",
+    "definicao": "A elaboração pelo autor ou por terceiro distingue os documentos complementares.",
+    "exemploBiblioteca": "Redigitar um documento alheio não transforma o texto em apêndice autoral."
+  }
+],
+  descricaoCurta: "Reconhecer partes externa e interna do trabalho. Distinguir obrigatoriedade, ordem e suporte. Classificar apêndice e anexo pela elaboração. Aplicar margens, contagem e numeração em frente/verso. Conferir versão corrigida e decisões institucionais. Separar indicativos de seção, quadros e apresentação tabular.",
+  tempoEstimadoMinutos: 22,
+  autoresChave: [
+  "ABNT NBR 14724:2024 — Trabalhos acadêmicos",
+  "ABNT NBR 6024:2012 — Numeração progressiva",
+  "ABNT NBR 6027:2012 — Sumário",
+  "IBGE — Normas de apresentação tabular"
+],
   alertasCebraspe: [
-    'Técnica Recorrente de Distrator na NBR 14724:2024: Apêndice vs. Anexo. Apêndice é o texto ou documento elaborado PELO PRÓPRIO AUTOR do trabalho (ex.: questionário aplicado, formulário de pesquisa, roteiro de entrevista); Anexo é o documento pré-existente elaborado POR TERCEIROS (ex.: texto de lei, laudo pericial, regimento interno). A técnica de distrator mais recorrente consiste na inversão conceitual entre apêndice e anexo.',
-    'Elementos Obrigatórios vs. Opcionais na parte Pré-Textual: Obrigatórios = Folha de Rosto (com ficha catalográfica no verso), Folha de Aprovação (obrigatória para teses e dissertações), Resumo na língua vernácula, Resumo em língua estrangeira e Sumário (NBR 6027:2012). Opcionais = Errata, Dedicatória, Agradecimentos, Epígrafe, Listas de Ilustrações, Listas de Tabelas, Siglas e Símbolos.',
-    'Regra Estrita de Paginação da NBR 14724:2024: todas as folhas a partir da FOLHA DE ROSTO são CONTADAS na sequência numérica, mas o número da página só é IMPRESSO a partir da primeira folha da parte textual (INTRODUÇÃO), posicionado no canto superior direito a 2 cm da borda superior.',
-    'Margens regulamentares da folha (para impressão no anverso): Margem Superior e Margem Esquerda = 3 cm; Margem Inferior e Margem Direita = 2 cm. Para anverso e verso, as margens externas e internas alternam-se.',
-    'Espaçamento interlinear: 1,5 para o texto corrido; espaçamento SIMPLES para citações diretas longas (recuadas a 4 cm), notas de rodapé, referências bibliográficas, legendas de ilustrações e tabelas.',
-    'Diferença entre Tabela (IBGE) e Quadro (ABNT): Tabelas apresentam prioritariamente dados numéricos/quantitativos, têm topo e base delimitados por traços horizontais e NÃO possuem traços verticais de fechamento lateral (são abertas dos lados); Quadros apresentam dados textuais/qualitativos e são totalmente fechados por linhas em todos os quatro lados.',
-  ],
-  quadroComparativo: {
-    titulo: 'Estrutura Completa de Trabalhos Acadêmicos segundo a ABNT NBR 14724:2024',
-    colunas: ['Parte Estrutural', 'Elementos Constitutivos Obrigatórios', 'Elementos Constitutivos Opcionais', 'Regra Específica de Formatação e Paginação', 'Pegadinha Cebraspe Mapeada'],
-    linhas: [
-      ['Parte Externa', 'Capa (com instituição, autor, título, subtítulo, local e ano)', 'Lombada (conforme NBR 12225:2023)', 'Não é contada nem numerada na paginação do miolo', 'Considerar a capa como a primeira folha contada na paginação (FALSO: conta da folha de rosto).'],
-      ['Elementos Pré-Textuais', 'Folha de rosto, Folha de aprovação, Resumo em português, Resumo em língua estrangeira, Sumário (NBR 6027:2012)', 'Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, tabelas, siglas e símbolos', 'Contados a partir da folha de rosto, mas NÃO exibem número de página impresso', 'Afirmar que o sumário é pós-textual ou opcional (FALSO: é pré-textual obrigatório).'],
-      ['Elementos Textuais', 'Introdução, Desenvolvimento (seções e subseções numeradas - NBR 6024:2012) e Conclusão', 'Nenhum (todos os elementos textuais são de redação compulsória)', 'Inicia a impressão física do número da página no canto superior direito (algarismos arábicos)', 'Dizer que a introdução não é numerada (FALSO: é a primeira página impressa).'],
-      ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023:2018)', 'Vocabulário de termos (NBR 14724), Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034:2004)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Estrutura Formal da ABNT NBR 14724:2024 (4ª Edição)
-
-A norma **ABNT NBR 14724:2024** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*, 4ª edição, publicada em 16/12/2024, que cancela e substitui a NBR 14724:2011) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:
-
-\`\`\`tree
-TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2024)
-- Trabalho Acadêmico (NBR 14724:2024) | Teses, dissertações, TCCs e monografias
-  - Parte Externa | Proteção física e identificação inicial
-    - Capa | Elemento OBRIGATÓRIO de proteção física externa
-    - Lombada | Elemento OPCIONAL conforme ABNT NBR 12225:2023
-  - Elementos Pré-Textuais | Antecedem o corpo da pesquisa e contextualizam o leitor
-    - Pré-Textuais Obrigatórios | Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário (NBR 6027:2012)
-    - Pré-Textuais Opcionais | Errata, folha de dedicatória, folha de agradecimentos, epígrafe, lista de ilustrações, lista de tabelas e lista de abreviaturas/siglas
-  - Elementos Textuais | O núcleo substantivo e investigativo do trabalho
-    - Introdução | Apresentação do tema, problema, hipóteses, justificativa e objetivos
-    - Desenvolvimento | Revisão de literatura, fundamentação teórica, metodologia e análise de dados
-    - Conclusão | Considerações finais, resposta aos objetivos e recomendações
-  - Elementos Pós-Textuais | Complementam e enriquecem o texto após a conclusão
-    - Pós-Textual Obrigatório | Referências elaboradas estritamente segundo a ABNT NBR 6023
-    - Pós-Textuais Opcionais | Vocabulário de termos, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)
-\`\`\`
-
-#### A Divisão Tripartite Padronizada:
-1. **Elementos Pré-Textuais:** Antecedem o corpo da pesquisa, preparando e contextualizando o leitor.
-2. **Elementos Textuais:** O núcleo substantivo do trabalho (a introdução teórica e problemática, o desenvolvimento com revisão e metodologia, e a conclusão/considerações finais).
-3. **Elementos Pós-Textuais:** Complementam e enriquecem o texto após a conclusão.
-
----
-
-### 2. Elementos Obrigatórios vs. Facultativos
-
-A formulação de assertivas comumente explora assertivas exigindo distinguir quais elementos são de inclusão compulsória:
-
-* **Pré-Textuais Obrigatórios:**
-  * **Folha de Rosto:** No verso, deve conter a **Ficha Catalográfica (CIP)** elaborada por bibliotecário registrado no CRB.
-  * **Folha de Aprovação:** Obrigatória em trabalhos submetidos a banca examinadora (teses e dissertações), contendo data de aprovação, assinaturas e titulações dos membros.
-  * **Resumo na língua vernácula:** Em português, acompanhado das palavras-chave (NBR 6028).
-  * **Resumo em língua estrangeira:** Usualmente em inglês (*abstract/keywords*).
-  * **Sumário:** O último elemento pré-textual antes da Introdução (NBR 6027).
-* **Pré-Textuais Opcionais:**
-  * **Errata:** Folha avulsa inserida logo após a folha de rosto quando erros tipográficos substantivos são corrigidos após a impressão final.
-  * **Dedicatória, Agradecimentos e Epígrafe:** Manifestações pessoais do autor. A epígrafe contém pensamento alheio e deve ser seguida da indicação de autoria.
-  * **Listas Técnicas:** Lista de ilustrações (gráficos, fluxogramas, fotografias), Lista de tabelas, Lista de abreviaturas e siglas, e Lista de símbolos. Quando elaboradas, devem figurar em folhas próprias.
-* **Pós-Textuais Obrigatórios:**
-  * **Referências:** O único elemento pós-textual obrigatório da norma (elaborado segundo a NBR 6023).
-* **Pós-Textuais Opcionais:**
-  * **Vocabulário de Termos Técnicos:** Lista em ordem alfabética de termos técnicos pouco conhecidos com suas respectivas definições (NBR 14724).
-  * **Apêndices:** Documentos elaborados pelo próprio autor.
-  * **Anexos:** Documentos de autoria de terceiros.
-  * **Índices:** Relações sistemáticas ou alfabéticas de assuntos e autores (NBR 6034).
-
----
-
-### 3. A Distinção Canônica: Apêndice vs. Anexo
-
-Esta é uma das distinções conceituais centrais cobradas em provas de Biblioteconomia:
-
-| Critério | Apêndice (NBR 14724) | Anexo (NBR 14724) |
-| :--- | :--- | :--- |
-| **Autoria Intelectual** | **Elaborado pelo PRÓPRIO AUTOR do trabalho.** | **Elaborado por TERCEIROS (entidades ou autores alheios).** |
-| **Finalidade** | Complementar a argumentação com dados primários sem sobrecarregar o corpo do texto. | Servir de fundamentação, ilustração ou comprovação fática/documental pré-existente. |
-| **Exemplos Típicos** | Questionário aplicado, roteiro de entrevista, transcrição bruta de dados coletados. | Cópia de Lei, parecer de agência reguladora, laudo pericial, estatuto partidário. |
-| **Identificação Formal** | Letras maiúsculas consecutivas, travessão e título em caixa alta/baixa. | Letras maiúsculas consecutivas, travessão e título original da peça. |
-| **Exemplo Formatado** | \`APÊNDICE A – Roteiro da entrevista com bibliotecários da Câmara\` | \`ANEXO A – Regimento Interno da Câmara dos Deputados\` |
-
-* *Nota de Esgotamento das Letras:* Quando se esgotam as 26 letras do alfabeto, utilizam-se letras maiúsculas dobradas: \`APÊNDICE AA\`, \`APÊNDICE AB\`.
-
----
-
-### 4. Regras Gráficas de Formatação, Margens e Paginação
-
-* **Formato e Margens (Impressão no Anverso / Frente da Folha):**
-  * Papel branco formato A4 ($210 \\times 297$ mm).
-  * **Margem Superior = 3,0 cm**
-  * **Margem Esquerda = 3,0 cm** (espaço ampliado para permitir encadernação e furação)
-  * **Margem Inferior = 2,0 cm**
-  * **Margem Direita = 2,0 cm**
-* **Tipografia e Espaçamento:**
-  * Fonte uniforme recomendada (Arial ou Times New Roman), tamanho 12 para todo o texto.
-  * Tamanho menor (corpo 10 ou 11) reservado exclusivamente para: citações diretas longas recuadas, notas de rodapé explicativas, paginação e legendas/fontes de ilustrações e tabelas.
-  * Espaçamento entre linhas de **1,5** para o texto corrido.
-  * Espaçamento **simples** para: citações longas recuadas, notas, referências bibliográficas ao final, legendas de figuras e natureza do trabalho na folha de rosto.
-* **A Regra de Ouro da Paginação (Contagem vs. Impressão):**
-  1. A contagem sequencial das páginas inicia-se formalmente na **Folha de Rosto** (a capa NÃO é contada nem numerada).
-  2. Todas as folhas pré-textuais são contadas na sequência matemática, mas **nenhum número é impresso nelas**.
-  3. O número da página só deve figurar fisicamente **impresso a partir da primeira folha da parte textual (a INTRODUÇÃO)**.
-  4. A numeração é impressa no **canto superior direito da folha**, em algarismos arábicos, a exatamente 2 cm da borda superior.
-
----
-
-
-### 4.1 O que Mudou de 2011 para 2024 na ABNT NBR 14724
-
-A 4ª edição da ABNT NBR 14724 (publicada em 16 de dezembro de 2024) atualizou formalmente a apresentação de trabalhos acadêmicos no Brasil:
-
-| Tópico Analisado | Edição Anterior (NBR 14724:2011) | Edição Vigente (ABNT NBR 14724:2024) |
-| :--- | :--- | :--- |
-| **Edição e Vigência** | 3ª edição (2011, confirmada em 2021) | **4ª edição**, publicada e em vigor desde **16/12/2024** (cancelou e substituiu a de 2011). |
-| **Folha de Aprovação** | Exigia assinaturas físicas em folha própria do exemplar impresso | Contempla expressamente os formatos de **defesa remota e ata eletrônica/assinatura digital** no âmbito dos sistemas institucionais (SEI e afins). |
-| **Harmonização Normativa** | Redigida à época da NBR 6023:2002 e NBR 10520:2002 | Totalmente harmonizada com a **NBR 10520:2023** (citações) e com a **NBR 6023:2025** (referências). |
-| **Estrutura Tripartite** | Elementos pré-textuais, textuais e pós-textuais | **Rigorosamente mantida** a divisão tripartite clássica. |
-| **Apêndice vs. Anexo** | Apêndice = próprio autor; Anexo = terceiros | **Rigorosamente mantida** a distinção canônica de autoria intelectual. |
-| **Regra de Paginação** | Conta da folha de rosto; imprime da introdução | **Rigorosamente mantida** no anverso (canto superior direito a 2 cm da borda). |
-| **Apresentação Tabular** | Quadros com laterais fechadas; tabelas IBGE abertas | **Rigorosamente mantida**. |
-
----
-
-### 5. Numeração Progressiva (NBR 6024) e Apresentação Tabular (IBGE vs. ABNT)
-
-#### A. Numeração Progressiva das Seções (ABNT NBR 6024)
-* As seções do documento são numeradas em algarismos arábicos até o limite recomendado de 5 níveis (seções quinárias):
-  * Primária: \`1 INTRODUÇÃO\`
-  * Secundária: \`1.1 OBJETIVOS\`
-  * Terciária: \`1.1.1 Objetivos específicos\`
-  * Quaternária: \`1.1.1.1 Detalhamento\`
-* *Regra de Pontuação da NBR 6024:* **NÃO se utiliza ponto, hífen ou travessão** entre o número da seção e o seu respectivo título (ex.: grafa-se \`1 INTRODUÇÃO\`, e NUNCA \`1. INTRODUÇÃO\` ou \`1 - INTRODUÇÃO\`).
-* Títulos sem numeração (agrupados no centro): errata, agradecimentos, resumos, sumário, referências e anexos.
-
-#### B. Apresentação de Tabelas (IBGE) vs. Quadros (ABNT)
-* **Tabelas (Normas de Apresentação Tabular do IBGE):**
-  * Destinam-se a apresentar informações **quantitativas e dados numéricos**.
-  * São delimitadas no topo e na base por **linhas horizontais**; linhas horizontais internas separam o cabeçalho do conteúdo.
-  * **Traços Verticais de Fechamento Lateral são PROIBIDOS:** As laterais esquerda e direita de uma tabela permanecem **sempre abertas**.
-* **Quadros (ABNT NBR 14724):**
-  * Destinam-se a apresentar informações **qualitativas, descritivas e textuais**.
-  * São **fechados lateralmente por linhas verticais em todos os quatro lados**, formando uma grade completa.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **NBR 6028 (Resumos) (sub-8-4):** Estruturação de trabalhos acadêmicos e elementos pré-textuais.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **ABNT NBR 14724:2024** padroniza a estrutura, formatação e apresentação formal de **Trabalhos Acadêmicos** (teses, dissertações, TCCs e estudos monográficos):
-1. **Estrutura Tripartite Canônica:**
-   - **Elementos Pré-Textuais:** Precedem o texto; auxiliam na identificação e localização das partes.
-     - *Obrigatórios:* Folha de rosto, Ficha catalográfica (no verso da folha de rosto), Folha de aprovação, Resumo na língua vernácula (com palavras-chave), Resumo em língua estrangeira (Abstract) e Sumário.
-     - *Opcionais:* Capa (externa), Lombada, Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, Lista de tabelas, Lista de abreviaturas e siglas, e Lista de símbolos.
-   - **Elementos Textuais (Obrigatórios):** Introdução, Desenvolvimento e Conclusão.
-   - **Elementos Pós-Textuais:** Complementam e documentam o trabalho.
-     - *Obrigatório:* Referências.
-     - *Opcionais:* Glossário, Apêndice (texto/documento elaborado pelo próprio autor), Anexo (documento elaborado por terceiros/não elaborado pelo autor) e Índice.
-2. **Regras Gráficas de Formatação:**
-   - **Margens:** Esquerda e Superior de **3 cm**; Direita e Inferior de **2 cm** (para impressão em anverso/frente).
-   - **Espaçamento:** Texto em espaçamento **1,5** entre linhas. Citações longas, notas de rodapé, referências, legendas e ficha catalográfica em espaçamento simples.
-   - **Numeração de Páginas:** Todas as folhas contam a partir da folha de rosto, mas a numeração só é **impressa visualmente a partir da primeira folha da parte textual (Introdução)**, no canto superior direito!
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Elaboração de Ficha Catalográfica na Biblioteca Pedro Aleixo):** Um consultor da Câmara defende dissertação de mestrado pelo Centro de Formação, Treinamento e Aperfeiçoamento (CEFOR). A biblioteca confecciona a **ficha catalográfica CIP** que deve constar obrigatoriamente no verso da folha de rosto do trabalho impresso ou imediatamente após a folha de rosto no PDF da BDCam.
-- **Cenário 2 (Distinção entre Apêndice e Anexo em Estudo Legislativo):** Ao organizar um estudo monográfico sobre segurança pública, o consultor anexa a cópia do texto integral do Acórdão do STF (como não foi produzido por ele, é um **Anexo**) e acrescenta a tabela com cálculos estatísticos que ele próprio modelou no Excel (como foi elaborado pelo autor, é um **Apêndice**).
-- **Cenário 3 (Auditoria de Margens e Numeração pela Editora da Câmara):** Antes de enviar o livro técnico para a gráfica, o bibliotecário-editor confere: margem superior e esquerda de 3 cm, inferior e direita de 2 cm, e numeração visível iniciando na primeira página da Introdução.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Elemento Pré/Pós-Textual | Obrigatoriedade na NBR 14724 | Função Canônica | Distinção Crítica |
-| :--- | :--- | :--- | :--- |
-| **Folha de Rosto** | **Obrigatório** | Identifica título, autor e natureza | Conta página, mas não imprime número |
-| **Capa** | Opcional | Proteção externa | Não conta na paginação interna |
-| **Sumário** | **Obrigatório** | Enumera as divisões do trabalho | Pré-textual (o último antes do texto) |
-| **Apêndice** | Opcional | Texto/documento complementar | **Elaborado pelo próprio autor** |
-| **Anexo** | Opcional | Documento comprobatório externo | **Não elaborado pelo autor** (de terceiros) |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Apêndice vs. Anexo:** A técnica de distrator mais recorrente em normalização: a banca inverte as autorias, afirmando que o anexo é produzido pelo autor e o apêndice por terceiros. **Gabarito: ERRADO.** Lembre-se: **Apêndice = Autor**; **Anexo = Alheio**.
-- **Onde Inicia a Impressão da Numeração de Páginas:** Dizer que a numeração começa a ser impressa no canto superior direito já na Folha de Rosto. **Gabarito: ERRADO.** A folha de rosto é contada, mas o número só aparece impresso na **Introdução** (primeira folha textual).
-- **Capa como Elemento Obrigatório:** Afirmar que a capa dura é elemento pré-textual obrigatório pela NBR 14724. **Gabarito: ERRADO.** A capa é elemento opcional; a folha de rosto é que é obrigatória.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 14724:2024: Informação e documentação — Trabalhos acadêmicos — Apresentação*. 4. ed. Rio de Janeiro: ABNT, 16 dez. 2024. (Norma vigente que cancela e substitui formalmente a edição de 2011). (A norma oficial de estrutura monográfica).
-- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019.
-- **REY, Luís.** *Planejar e redigir trabalhos científicos*. 2. ed. São Paulo: Edgard Blücher, 2003.
-- **CENTRO DE FORMAÇÃO, TREINAMENTO E APERFEIÇOAMENTO (CEFOR).** *Manual de TCC e Dissertações do CEFOR*. Brasília: Câmara dos Deputados, 2022.
-- **MEDEIROS, João Bosco.** *Redação científica*. 13. ed. São Paulo: Atlas, 2019.`,
+  "A recomendação de tamanho e as regras de apresentação não equivalem a impor essas duas famílias.",
+  "O item 5.3 exclui esse verso de contagem e numeração.",
+  "A autoria do documento não muda por transcrição material."
+],
+  teoriaDensaMarkdown: "### A Estrutura Formal da ABNT NBR 14724:2024 (4ª Edição)\n\nA norma **ABNT NBR 14724:2024** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*, 4ª edição, publicada em 16/12/2024, com versão corrigida de 01/04/2025, que cancela e substitui a NBR 14724:2011) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:\n\n```tree\nTITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2024)\n- Trabalho Acadêmico (NBR 14724:2024) | Teses, dissertações, TCCs e monografias\n  - Parte Externa | Proteção física e identificação inicial\n    - Capa | Elemento OBRIGATÓRIO de proteção física externa\n    - Lombada | Elemento OPCIONAL conforme ABNT NBR 12225:2023\n  - Elementos Pré-Textuais | Antecedem o corpo da pesquisa e contextualizam o leitor\n    - Pré-Textuais Obrigatórios | Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário (NBR 6027:2012)\n    - Pré-Textuais Opcionais | Errata, folha de dedicatória, folha de agradecimentos, epígrafe, lista de ilustrações, lista de tabelas e lista de abreviaturas/siglas\n  - Elementos Textuais | O núcleo substantivo e investigativo do trabalho\n    - Introdução | Apresentação do tema, problema, hipóteses, justificativa e objetivos\n    - Desenvolvimento | Revisão de literatura, fundamentação teórica, metodologia e análise de dados\n    - Conclusão | Considerações finais, resposta aos objetivos e recomendações\n  - Elementos Pós-Textuais | Complementam e enriquecem o texto após a conclusão\n    - Pós-Textual Obrigatório | Referências elaboradas estritamente segundo a ABNT NBR 6023\n    - Pós-Textuais Opcionais | Vocabulário de termos, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)\n```\n\n#### A Divisão Tripartite Padronizada:\n1. **Elementos Pré-Textuais:** Antecedem o corpo da pesquisa, preparando e contextualizando o leitor.\n2. **Elementos Textuais:** O núcleo substantivo do trabalho (a introdução teórica e problemática, o desenvolvimento com revisão e metodologia, e a conclusão/considerações finais).\n3. **Elementos Pós-Textuais:** Complementam e enriquecem o texto após a conclusão.\n\n**Aplicação e recuperação:** Capa não é folha de rosto; parte externa não se confunde com pré-textual. O sumário ajuda a ver as partes internas, mas não lista os próprios pré-textuais. Uma publicação em outro gênero, como artigo de periódico, tem norma de estrutura própria e não recebe automaticamente todos os elementos de tese.\n\n### Elementos Obrigatórios vs. Facultativos\n\nA formulação de assertivas comumente explora assertivas exigindo distinguir quais elementos são de inclusão compulsória:\n\n* **Pré-Textuais Obrigatórios:**\n  * **Folha de Rosto:** No verso, deve conter os **dados internacionais de catalogação na publicação**, conforme código vigente. Em formato eletrônico, ficam imediatamente após a página de rosto (4.2.1.1.2). Atribuições profissionais têm fontes legais próprias; não se atribui toda regra profissional a esse item da norma.\n  * **Folha de Aprovação:** Elemento obrigatório na estrutura apresentada pela norma, contendo data de aprovação, assinaturas e titulações dos membros.\n  * **Resumo na língua vernácula:** Em português, acompanhado das palavras-chave (NBR 6028).\n  * **Resumo em língua estrangeira:** Usualmente em inglês (*abstract/keywords*).\n  * **Sumário:** O último elemento pré-textual antes da Introdução (NBR 6027).\n* **Pré-Textuais Opcionais:**\n  * **Errata:** Folha avulsa inserida logo após a folha de rosto quando erros tipográficos substantivos são corrigidos após a impressão final.\n  * **Dedicatória, Agradecimentos e Epígrafe:** Manifestações pessoais do autor. A epígrafe contém pensamento alheio e deve ser seguida da indicação de autoria.\n  * **Listas Técnicas:** Lista de ilustrações (gráficos, fluxogramas, fotografias), Lista de tabelas, Lista de abreviaturas e siglas, e Lista de símbolos. Quando elaboradas, devem figurar em folhas próprias.\n* **Pós-Textuais Obrigatórios:**\n  * **Referências:** O único elemento pós-textual obrigatório da norma (elaborado segundo a NBR 6023).\n* **Pós-Textuais Opcionais:**\n  * **Vocabulário de Termos Técnicos:** Lista em ordem alfabética de termos técnicos pouco conhecidos com suas respectivas definições (NBR 14724).\n  * **Apêndices:** Documentos elaborados pelo próprio autor.\n  * **Anexos:** Documentos de autoria de terceiros.\n  * **Índices:** Relações sistemáticas ou alfabéticas de assuntos e autores (NBR 6034).\n\n**Aplicação e recuperação:** Um trabalho eletrônico não tem verso físico de papel, mas a norma define a posição dos dados após a página de rosto. Folha de aprovação e sumário têm funções próprias. O fato de um elemento ser opcional não significa que, quando incluído, possa ser colocado em qualquer posição.\n\n### A Distinção Canônica: Apêndice vs. Anexo\n\nEsta é uma das distinções conceituais centrais cobradas em provas de Biblioteconomia:\n\n| Critério | Apêndice (NBR 14724) | Anexo (NBR 14724) |\n| :--- | :--- | :--- |\n| **Autoria Intelectual** | **Elaborado pelo PRÓPRIO AUTOR do trabalho.** | **Elaborado por TERCEIROS (entidades ou autores alheios).** |\n| **Finalidade** | Complementar a argumentação com dados primários sem sobrecarregar o corpo do texto. | Servir de fundamentação, ilustração ou comprovação fática/documental pré-existente. |\n| **Exemplos Típicos** | Questionário aplicado, roteiro de entrevista, transcrição bruta de dados coletados. | Cópia de Lei, parecer de agência reguladora, laudo pericial, estatuto partidário. |\n| **Identificação Formal** | Letras maiúsculas consecutivas, travessão e título em caixa alta/baixa. | Letras maiúsculas consecutivas, travessão e título original da peça. |\n| **Exemplo Formatado** | `APÊNDICE A – Roteiro da entrevista com bibliotecários da Câmara` | `ANEXO A – Regimento Interno da Câmara dos Deputados` |\n\n* *Nota de Esgotamento das Letras:* Quando se esgotam as 26 letras do alfabeto, utilizam-se letras maiúsculas dobradas: `APÊNDICE AA`, `APÊNDICE AB`.\n\n**Aplicação e recuperação:** Questionário elaborado pelo pesquisador é candidato a apêndice; cópia de documento preexistente de terceiro, a anexo. Digitar novamente um documento alheio não muda sua autoria. A identificação e o título organizam a consulta; não provam que o conteúdo foi produzido pelo autor do trabalho.\n\n### Regras Gráficas de Formatação, Margens e Paginação\n\n* **Formato e Margens (Impressão no Anverso / Frente da Folha):**\n  * Se impresso, papel branco ou reciclado formato A4 ($210 \\times 297$ mm).\n  * **Margem Superior = 3,0 cm**\n  * **Margem Esquerda = 3,0 cm** (espaço ampliado para permitir encadernação e furação)\n  * **Margem Inferior = 2,0 cm**\n  * **Margem Direita = 2,0 cm**\n* **Tipografia e Espaçamento:**\n  * Recomenda-se tamanho 12, inclusive capa, com exceções. A norma não impõe universalmente Arial ou Times New Roman; uma instituição pode estabelecer opção no seu manual.\n  * Tamanho menor e uniforme nas exceções: citações com mais de três linhas, notas, paginação, dados de catalogação e fontes/legendas de ilustrações e tabelas. Não se fixa 10 ou 11 como único tamanho obrigatório.\n  * Espaçamento entre linhas de **1,5** para o texto corrido.\n  * Espaçamento **simples** para: citações longas recuadas, notas, referências bibliográficas ao final, legendas de figuras e natureza do trabalho na folha de rosto.\n* **A Regra de Ouro da Paginação (Contagem vs. Impressão):**\n  1. A contagem sequencial das páginas inicia-se formalmente na **Folha de Rosto** (a capa NÃO é contada nem numerada).\n  2. As folhas/páginas pré-textuais são contadas, mas não numeradas. **O verso da folha de rosto com os dados de catalogação não é contado nem numerado** na versão verificada.\n  3. O número da página só deve figurar fisicamente **impresso a partir da primeira folha da parte textual (a INTRODUÇÃO)**.\n  4. No trabalho apenas em anverso, a numeração fica no canto superior direito nas posições indicadas. Em anverso e verso, fica à direita no anverso e à esquerda no verso. As margens do verso também diferem: superior/direita de 3 cm e inferior/esquerda de 2 cm.\n\n**Aplicação e recuperação:** Conte as folhas/páginas segundo o suporte, observando a exclusão do verso de catalogação. Numeração visível começa na parte textual. Em impressão frente/verso, copiar a mesma margem esquerda de todas as páginas contraria a orientação espelhada. Não confunda página do PDF com número impresso no texto.\n\n### 1 Aplicar edição e suporte sem inventar uma mudança\n\nAo julgar uma assertiva, identifique a versão e o suporte. A NBR 14724:2024 possui versão corrigida em abril de 2025; a data da correção não muda sua designação para NBR 14724:2025. Um manual de uma instituição pode acrescentar decisões operacionais, mas não é redação literal da norma.\n\nNão se atribui ao texto de dezembro de 2024 uma harmonização explícita com uma norma que só foi publicada em 2025 sem comprovar o documento pertinente. Também não se inventa que a edição anterior exigia exclusivamente assinaturas físicas ou que a nova nomeia universalmente sistemas como SEI. A versão consultada exige os elementos da folha de aprovação; processos institucionais de assinatura devem ter sua base própria.\n\n**Caso resolvido:** uma questão sobre exemplar eletrônico afirma que os dados de catalogação devem ficar imediatamente após a página de rosto. Essa é disposição verificável no item 4.2.1.1.2. Outra transforma a escolha de uma família tipográfica de um manual universitário em obrigação nacional da ABNT: falta a base para a generalização.\n\n**Aplicação e recuperação:** A etiqueta da edição é 2024 mesmo após correção de 2025. Registre qual exemplar foi consultado. Uma tabela comparativa sem fonte pode inventar mudanças normativas; confirme o item antes de usá-la como material de memorização.\n\n### Numeração Progressiva (NBR 6024) e Apresentação Tabular (IBGE vs. ABNT)\n\n#### A. Numeração Progressiva das Seções (ABNT NBR 6024)\n* As seções do documento são numeradas em algarismos arábicos até a seção quinária, observadas as regras da NBR 6024 (seções quinárias):\n  * Primária: `1 INTRODUÇÃO`\n  * Secundária: `1.1 OBJETIVOS`\n  * Terciária: `1.1.1 Objetivos específicos`\n  * Quaternária: `1.1.1.1 Detalhamento`\n* *Regra de Pontuação da NBR 6024:* **NÃO se utiliza ponto, hífen ou travessão** entre o número da seção e o seu respectivo título (ex.: grafa-se `1 INTRODUÇÃO`, e NUNCA `1. INTRODUÇÃO` ou `1 - INTRODUÇÃO`).\n* Títulos sem numeração (agrupados no centro): errata, agradecimentos, resumos, sumário, referências e anexos.\n\n#### B. Apresentação de Tabelas (IBGE) vs. Quadros (ABNT)\n* **Tabelas (Normas de Apresentação Tabular do IBGE):**\n  * Destinam-se a apresentar informações **quantitativas e dados numéricos**.\n  * São delimitadas no topo e na base por **linhas horizontais**; linhas horizontais internas separam o cabeçalho do conteúdo.\n  * **Traços Verticais de Fechamento Lateral são PROIBIDOS:** As laterais esquerda e direita de uma tabela permanecem **sempre abertas**.\n* **Quadros (ABNT NBR 14724):**\n  * Destinam-se a apresentar informações **qualitativas, descritivas e textuais**.\n  * O uso de grade fechada em quadros é convenção frequente de manuais. Não se deve atribuir à NBR 14724, sem item que o determine, uma regra universal de fechar obrigatoriamente todos os lados. Identifique a norma/manual solicitado.\n\n**Aplicação e recuperação:** O indicativo 1.1 não recebe ponto adicional antes do título. Um gráfico e uma tabela precisam de identificação e fonte; o padrão de traços das tabelas é tratado pelo IBGE. Quadro com texto pode seguir decisão editorial específica, mas a decisão não se torna obrigação ABNT por costume.",
+  teoriaDidaticaMarkdown: "### Revisão: estrutura e suporte\n\nNBR 14724:2024, versão corrigida em 2025: distinguir parte externa, pré-textuais, textuais e pós-textuais. Referências são pós-textual obrigatório; apêndice/anexo dependem de elaboração. No eletrônico, dados de catalogação vêm após a página de rosto. Pré-textuais são contados sem numeração visível, com a exclusão do verso de catalogação; impressão de números inicia na parte textual e considera frente/verso. Tamanho 12 é recomendação com exceções; Arial/Times não são imposição universal da norma. Consulte regras específicas de seções e tabelas e não invente mudanças entre edições.\n",
   checkpoints: [
-    {
-      id: 'cp-8-3-1',
-      pergunta: 'Micro-Checkpoint 1: Diferença entre Apêndice e Anexo na NBR 14724',
-      item: 'Nos termos da ABNT NBR 14724, denomina-se anexo o documento complementar elaborado pelo próprio autor da monografia, enquanto apêndice designa o documento de autoria de terceiros incluído para comprovação.',
-      gabarito: 'E',
-      justificativa: 'Errado! O Cebraspe inverteu os conceitos: APÊNDICE é o documento elaborado pelo PRÓPRIO AUTOR; ANEXO é o documento de autoria de TERCEIROS.',
-    },
-    {
-      id: 'cp-8-3-2',
-      pergunta: 'Micro-Checkpoint 2: Regra de Paginação de Trabalhos Acadêmicos',
-      item: 'Conforme a NBR 14724, todas as folhas do trabalho acadêmico a partir da folha de rosto são contadas, porém a numeração só deve figurar impressa a partir da primeira folha da parte textual.',
-      gabarito: 'C',
-      justificativa: 'Correto! A contagem começa na folha de rosto, mas a impressão dos números em algarismos arábicos ocorre apenas na introdução.',
-    },
-    {
-      id: 'cp-8-3-3',
-      pergunta: 'Micro-Checkpoint 3: Estrutura do Sumário conforme ABNT NBR 6027',
-      item: 'Segundo a ABNT NBR 6027, os elementos pré-textuais, como a dedicatória, o agradecimento e a lista de abreviaturas, devem constar obrigatoriamente no sumário do trabalho acadêmico.',
-      gabarito: 'E',
-      justificativa: 'Errado! Os elementos pré-textuais NÃO devem constar no sumário. O sumário subordina exclusivamente a enumeração das divisões textuais e pós-textuais (NBR 6027:2012 item 4.2).',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-8-3-1',
-        periodo: '2002',
-        disciplina: 'Primeira Edição da NBR 14724',
-        focoPrincipal: 'Unificação dos padrões de apresentação de teses, dissertações e monografias no país',
-        figuraChave: 'ABNT / Comitê CB-014',
-      },
-      {
-        id: 'tl-8-3-2',
-        periodo: '2024 (Vigente)',
-        disciplina: '4ª Edição da NBR 14724 (Substitui 2011)',
-        focoPrincipal: 'Consolidação da estrutura pré-textual, textual e pós-textual, regras estritas de paginação e distinção cabal entre apêndice e anexo',
-        figuraChave: 'ABNT CB-014',
-      },
-      {
-        id: 'tl-8-3-3',
-        periodo: '2012',
-        disciplina: 'NBR 6024 (Numeração Progressiva)',
-        focoPrincipal: 'Padronização da numeração de seções sem pontuação entre o número e o título',
-        figuraChave: 'ABNT CB-014',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-8-3-1',
-        nome: 'ABNT CB-014',
-        ano: 2024,
-        obraPrincipal: 'ABNT NBR 14724:2024: Informação e documentação — Trabalhos acadêmicos — Apresentação (4ª ed.)',
-        ideiaChave: 'Divisão tripartite pré-textual, textual e pós-textual; diferenciação de apêndice e anexo.',
-        chipPegadinha: 'Memorize: Apêndice = Autor do trabalho; Anexo = Alheio (terceiros).',
-      },
-      {
-        id: 'aut-8-3-2',
-        nome: 'IBGE / Diretoria de Geociências',
-        ano: 1993,
-        obraPrincipal: 'Normas de Apresentação Tabular',
-        ideiaChave: 'Padronização visual e semântica de tabelas (topo e base com traços horizontais; sem fechamento lateral vertical).',
-        chipPegadinha: 'Tabelas seguem normas do IBGE (lados abertos); quadros seguem a ABNT (lados fechados).',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-8-3-1',
-        afirmacao: 'O sumário e o resumo na língua vernácula são classificados como elementos pré-textuais opcionais na elaboração de teses e dissertações acadêmicas.',
-        gabarito: 'E',
-        porQue: 'Tanto o sumário quanto o resumo em língua portuguesa são elementos pré-textuais OBRIGATÓRIOS pela NBR 14724.',
-      },
-      {
-        id: 'peg-8-3-2',
-        afirmacao: 'Na formatação gráfica da folha de um trabalho acadêmico, as margens esquerda e superior devem ser configuradas com 2 cm, e as margens direita e inferior com 3 cm.',
-        gabarito: 'E',
-        porQue: 'As medidas são inversas: Esquerda e Superior = 3 cm (para permitir encadernação); Direita e Inferior = 2 cm.',
-      },
-      {
-        id: 'peg-8-3-3',
-        afirmacao: 'De acordo com a ABNT NBR 6024, deve-se obrigatoriamente inserir um ponto final após o número indicativo de uma seção primária e antes do título correspondente (exemplo: 1. INTRODUÇÃO).',
-        gabarito: 'E',
-        porQue: 'A NBR 6024 veda expressamente o uso de ponto, hífen ou qualquer sinal entre o número da seção e o seu título. O correto é "1 INTRODUÇÃO".',
-      },
-    ],
+  {
+    "id": "cp-8-3-1",
+    "pergunta": "Micro-Checkpoint 1: Diferença entre Apêndice e Anexo na NBR 14724",
+    "item": "Nos termos da ABNT NBR 14724, denomina-se anexo o documento complementar elaborado pelo próprio autor da monografia, enquanto apêndice designa o documento de autoria de terceiros incluído para comprovação.",
+    "gabarito": "E",
+    "justificativa": "O item inverte elaboração: apêndice é do próprio autor; anexo, documento de terceiros usado para fundamentar/ilustrar. Redigitar não altera autoria.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular.",
+    "versao_correta": "Apêndice é elaborado pelo autor; anexo é documento de terceiros."
   },
+  {
+    "id": "cp-8-3-2",
+    "pergunta": "Micro-Checkpoint 2: Regra de Paginação de Trabalhos Acadêmicos",
+    "item": "Em trabalho apresentado somente no anverso, as folhas são contadas a partir da folha de rosto, mas a numeração visível se inicia na parte textual; o verso com os dados de catalogação não é contado nem numerado.",
+    "gabarito": "C",
+    "justificativa": "A redação explicita suporte e exceção da versão corrigida de 2025, evitando generalizar contagem de todo verso.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular."
+  },
+  {
+    "id": "cp-8-3-3",
+    "pergunta": "Micro-Checkpoint 3: Estrutura do Sumário conforme ABNT NBR 6027",
+    "item": "Segundo a ABNT NBR 6027, os elementos pré-textuais, como a dedicatória, o agradecimento e a lista de abreviaturas, devem constar obrigatoriamente no sumário do trabalho acadêmico.",
+    "gabarito": "E",
+    "justificativa": "Os pré-textuais não integram o sumário. O sumário enumera as partes na sequência documental, sem listar dedicatória e agradecimentos.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular.",
+    "versao_correta": "Os elementos pré-textuais não constam no sumário."
+  },
+  {
+    "id": "rt-8-3-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um trabalho em formato eletrônico deve apresentar os dados de catalogação imediatamente após a página de rosto, conforme a versão verificada da NBR 14724.",
+    "gabarito": "C",
+    "justificativa": "O item 4.2.1.1.2 distingue o caso eletrônico da apresentação no verso em papel.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular.",
+    "editalRef": "Bloco D - Item 5.4",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-8-3-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A norma impõe Arial ou Times New Roman como as únicas famílias tipográficas possíveis em todo trabalho acadêmico.",
+    "gabarito": "E",
+    "justificativa": "A recomendação de tamanho e as regras de apresentação não equivalem a impor essas duas famílias.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular.",
+    "editalRef": "Bloco D - Item 5.4",
+    "habilidade": "aplicar",
+    "versao_correta": "Uma instituição pode definir família tipográfica em manual próprio; não se atribui essa exclusividade à norma."
+  },
+  {
+    "id": "rt-8-3-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No trabalho impresso frente e verso, margens e posição da numeração devem considerar a face da folha.",
+    "gabarito": "C",
+    "justificativa": "A norma distingue anverso e verso, com margens espelhadas e número à direita/esquerda conforme a face.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular.",
+    "editalRef": "Bloco D - Item 5.4",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-8-3-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Na versão corrigida consultada, o verso da folha de rosto com os dados de catalogação deve ser contado e numerado como toda página textual.",
+    "gabarito": "E",
+    "justificativa": "O item 5.3 exclui esse verso de contagem e numeração.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular.",
+    "editalRef": "Bloco D - Item 5.4",
+    "habilidade": "aplicar",
+    "versao_correta": "O verso com os dados de catalogação não é contado nem numerado."
+  },
+  {
+    "id": "rt-8-3-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um anexo de terceiros se torna apêndice do pesquisador apenas por ter sido redigitado por ele.",
+    "gabarito": "E",
+    "justificativa": "A autoria do documento não muda por transcrição material.",
+    "fonte": "ABNT NBR 14724:2024, versão corrigida de 01/04/2025, seções 4 e 5 (PDF do acervo, conteúdo conferido por OCR); NBR 6024 e NBR 6027; IBGE, Normas de apresentação tabular.",
+    "editalRef": "Bloco D - Item 5.4",
+    "habilidade": "aplicar",
+    "versao_correta": "Apêndice e anexo dependem da elaboração/autoria, não de quem digitou a cópia."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-8-3-fonte-14724",
+      "nome": "ABNT NBR 14724:2024 — Trabalhos acadêmicos",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 14724:2024 — Trabalhos acadêmicos",
+      "ideiaChave": "Versão corrigida de 01/04/2025; seções 4–5. PDF NBR14724.pdf do acervo, com texto incompleto na extração inicial e trechos de conteúdo conferidos por OCR.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-8-3-fonte-6024",
+      "nome": "ABNT NBR 6024:2012 — Numeração progressiva",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 6024:2012 — Numeração progressiva",
+      "ideiaChave": "Seções e indicativos; PDF ABNT-NBR-6024.pdf do acervo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-8-3-fonte-6027",
+      "nome": "ABNT NBR 6027:2012 — Sumário",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 6027:2012 — Sumário",
+      "ideiaChave": "Posição e inclusão de partes; PDF ABNT-NBR-6027.pdf do acervo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-8-3-fonte-ibge",
+      "nome": "IBGE — Normas de apresentação tabular",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "IBGE — Normas de apresentação tabular",
+      "ideiaChave": "Organização de dados e traços de tabelas.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-8-3-3",
+      "afirmacao": "No trabalho impresso frente e verso, margens e posição da numeração devem considerar a face da folha.",
+      "gabarito": "C",
+      "porQue": "A norma distingue anverso e verso, com margens espelhadas e número à direita/esquerda conforme a face."
+    },
+    {
+      "id": "memoria-rt-8-3-4",
+      "afirmacao": "Na versão corrigida consultada, o verso da folha de rosto com os dados de catalogação deve ser contado e numerado como toda página textual.",
+      "gabarito": "E",
+      "porQue": "O item 5.3 exclui esse verso de contagem e numeração."
+    },
+    {
+      "id": "memoria-rt-8-3-5",
+      "afirmacao": "Um anexo de terceiros se torna apêndice do pesquisador apenas por ter sido redigitado por ele.",
+      "gabarito": "E",
+      "porQue": "A autoria do documento não muda por transcrição material."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-8-3-bloco-1",
+    "titulo": "A Estrutura Formal da ABNT NBR 14724:2024 (4ª Edição)",
+    "objetivos": [
+      "Reconhecer partes externa e interna do trabalho."
+    ],
+    "conteudo": "A norma **ABNT NBR 14724:2024** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*, 4ª edição, publicada em 16/12/2024, com versão corrigida de 01/04/2025, que cancela e substitui a NBR 14724:2011) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:\n\n```tree\nTITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2024)\n- Trabalho Acadêmico (NBR 14724:2024) | Teses, dissertações, TCCs e monografias\n  - Parte Externa | Proteção física e identificação inicial\n    - Capa | Elemento OBRIGATÓRIO de proteção física externa\n    - Lombada | Elemento OPCIONAL conforme ABNT NBR 12225:2023\n  - Elementos Pré-Textuais | Antecedem o corpo da pesquisa e contextualizam o leitor\n    - Pré-Textuais Obrigatórios | Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário (NBR 6027:2012)\n    - Pré-Textuais Opcionais | Errata, folha de dedicatória, folha de agradecimentos, epígrafe, lista de ilustrações, lista de tabelas e lista de abreviaturas/siglas\n  - Elementos Textuais | O núcleo substantivo e investigativo do trabalho\n    - Introdução | Apresentação do tema, problema, hipóteses, justificativa e objetivos\n    - Desenvolvimento | Revisão de literatura, fundamentação teórica, metodologia e análise de dados\n    - Conclusão | Considerações finais, resposta aos objetivos e recomendações\n  - Elementos Pós-Textuais | Complementam e enriquecem o texto após a conclusão\n    - Pós-Textual Obrigatório | Referências elaboradas estritamente segundo a ABNT NBR 6023\n    - Pós-Textuais Opcionais | Vocabulário de termos, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)\n```\n\n#### A Divisão Tripartite Padronizada:\n1. **Elementos Pré-Textuais:** Antecedem o corpo da pesquisa, preparando e contextualizando o leitor.\n2. **Elementos Textuais:** O núcleo substantivo do trabalho (a introdução teórica e problemática, o desenvolvimento com revisão e metodologia, e a conclusão/considerações finais).\n3. **Elementos Pós-Textuais:** Complementam e enriquecem o texto após a conclusão.\n\n**Aplicação e recuperação:** Capa não é folha de rosto; parte externa não se confunde com pré-textual. O sumário ajuda a ver as partes internas, mas não lista os próprios pré-textuais. Uma publicação em outro gênero, como artigo de periódico, tem norma de estrutura própria e não recebe automaticamente todos os elementos de tese.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-8-3-bloco-2",
+    "titulo": "Elementos Obrigatórios vs. Facultativos",
+    "objetivos": [
+      "Distinguir obrigatoriedade, ordem e suporte."
+    ],
+    "conteudo": "A formulação de assertivas comumente explora assertivas exigindo distinguir quais elementos são de inclusão compulsória:\n\n* **Pré-Textuais Obrigatórios:**\n  * **Folha de Rosto:** No verso, deve conter os **dados internacionais de catalogação na publicação**, conforme código vigente. Em formato eletrônico, ficam imediatamente após a página de rosto (4.2.1.1.2). Atribuições profissionais têm fontes legais próprias; não se atribui toda regra profissional a esse item da norma.\n  * **Folha de Aprovação:** Elemento obrigatório na estrutura apresentada pela norma, contendo data de aprovação, assinaturas e titulações dos membros.\n  * **Resumo na língua vernácula:** Em português, acompanhado das palavras-chave (NBR 6028).\n  * **Resumo em língua estrangeira:** Usualmente em inglês (*abstract/keywords*).\n  * **Sumário:** O último elemento pré-textual antes da Introdução (NBR 6027).\n* **Pré-Textuais Opcionais:**\n  * **Errata:** Folha avulsa inserida logo após a folha de rosto quando erros tipográficos substantivos são corrigidos após a impressão final.\n  * **Dedicatória, Agradecimentos e Epígrafe:** Manifestações pessoais do autor. A epígrafe contém pensamento alheio e deve ser seguida da indicação de autoria.\n  * **Listas Técnicas:** Lista de ilustrações (gráficos, fluxogramas, fotografias), Lista de tabelas, Lista de abreviaturas e siglas, e Lista de símbolos. Quando elaboradas, devem figurar em folhas próprias.\n* **Pós-Textuais Obrigatórios:**\n  * **Referências:** O único elemento pós-textual obrigatório da norma (elaborado segundo a NBR 6023).\n* **Pós-Textuais Opcionais:**\n  * **Vocabulário de Termos Técnicos:** Lista em ordem alfabética de termos técnicos pouco conhecidos com suas respectivas definições (NBR 14724).\n  * **Apêndices:** Documentos elaborados pelo próprio autor.\n  * **Anexos:** Documentos de autoria de terceiros.\n  * **Índices:** Relações sistemáticas ou alfabéticas de assuntos e autores (NBR 6034).\n\n**Aplicação e recuperação:** Um trabalho eletrônico não tem verso físico de papel, mas a norma define a posição dos dados após a página de rosto. Folha de aprovação e sumário têm funções próprias. O fato de um elemento ser opcional não significa que, quando incluído, possa ser colocado em qualquer posição.",
+    "checkpointIds": [
+      "cp-8-3-3",
+      "rt-8-3-1"
+    ]
+  },
+  {
+    "id": "sub-8-3-bloco-3",
+    "titulo": "A Distinção Canônica: Apêndice vs. Anexo",
+    "objetivos": [
+      "Classificar apêndice e anexo pela elaboração."
+    ],
+    "conteudo": "Esta é uma das distinções conceituais centrais cobradas em provas de Biblioteconomia:\n\n| Critério | Apêndice (NBR 14724) | Anexo (NBR 14724) |\n| :--- | :--- | :--- |\n| **Autoria Intelectual** | **Elaborado pelo PRÓPRIO AUTOR do trabalho.** | **Elaborado por TERCEIROS (entidades ou autores alheios).** |\n| **Finalidade** | Complementar a argumentação com dados primários sem sobrecarregar o corpo do texto. | Servir de fundamentação, ilustração ou comprovação fática/documental pré-existente. |\n| **Exemplos Típicos** | Questionário aplicado, roteiro de entrevista, transcrição bruta de dados coletados. | Cópia de Lei, parecer de agência reguladora, laudo pericial, estatuto partidário. |\n| **Identificação Formal** | Letras maiúsculas consecutivas, travessão e título em caixa alta/baixa. | Letras maiúsculas consecutivas, travessão e título original da peça. |\n| **Exemplo Formatado** | `APÊNDICE A – Roteiro da entrevista com bibliotecários da Câmara` | `ANEXO A – Regimento Interno da Câmara dos Deputados` |\n\n* *Nota de Esgotamento das Letras:* Quando se esgotam as 26 letras do alfabeto, utilizam-se letras maiúsculas dobradas: `APÊNDICE AA`, `APÊNDICE AB`.\n\n**Aplicação e recuperação:** Questionário elaborado pelo pesquisador é candidato a apêndice; cópia de documento preexistente de terceiro, a anexo. Digitar novamente um documento alheio não muda sua autoria. A identificação e o título organizam a consulta; não provam que o conteúdo foi produzido pelo autor do trabalho.",
+    "checkpointIds": [
+      "cp-8-3-1",
+      "rt-8-3-5"
+    ]
+  },
+  {
+    "id": "sub-8-3-bloco-4",
+    "titulo": "Regras Gráficas de Formatação, Margens e Paginação",
+    "objetivos": [
+      "Aplicar margens, contagem e numeração em frente/verso."
+    ],
+    "conteudo": "* **Formato e Margens (Impressão no Anverso / Frente da Folha):**\n  * Se impresso, papel branco ou reciclado formato A4 ($210 \\times 297$ mm).\n  * **Margem Superior = 3,0 cm**\n  * **Margem Esquerda = 3,0 cm** (espaço ampliado para permitir encadernação e furação)\n  * **Margem Inferior = 2,0 cm**\n  * **Margem Direita = 2,0 cm**\n* **Tipografia e Espaçamento:**\n  * Recomenda-se tamanho 12, inclusive capa, com exceções. A norma não impõe universalmente Arial ou Times New Roman; uma instituição pode estabelecer opção no seu manual.\n  * Tamanho menor e uniforme nas exceções: citações com mais de três linhas, notas, paginação, dados de catalogação e fontes/legendas de ilustrações e tabelas. Não se fixa 10 ou 11 como único tamanho obrigatório.\n  * Espaçamento entre linhas de **1,5** para o texto corrido.\n  * Espaçamento **simples** para: citações longas recuadas, notas, referências bibliográficas ao final, legendas de figuras e natureza do trabalho na folha de rosto.\n* **A Regra de Ouro da Paginação (Contagem vs. Impressão):**\n  1. A contagem sequencial das páginas inicia-se formalmente na **Folha de Rosto** (a capa NÃO é contada nem numerada).\n  2. As folhas/páginas pré-textuais são contadas, mas não numeradas. **O verso da folha de rosto com os dados de catalogação não é contado nem numerado** na versão verificada.\n  3. O número da página só deve figurar fisicamente **impresso a partir da primeira folha da parte textual (a INTRODUÇÃO)**.\n  4. No trabalho apenas em anverso, a numeração fica no canto superior direito nas posições indicadas. Em anverso e verso, fica à direita no anverso e à esquerda no verso. As margens do verso também diferem: superior/direita de 3 cm e inferior/esquerda de 2 cm.\n\n**Aplicação e recuperação:** Conte as folhas/páginas segundo o suporte, observando a exclusão do verso de catalogação. Numeração visível começa na parte textual. Em impressão frente/verso, copiar a mesma margem esquerda de todas as páginas contraria a orientação espelhada. Não confunda página do PDF com número impresso no texto.",
+    "checkpointIds": [
+      "cp-8-3-2",
+      "rt-8-3-2",
+      "rt-8-3-3",
+      "rt-8-3-4"
+    ]
+  },
+  {
+    "id": "sub-8-3-bloco-5",
+    "titulo": "1 Aplicar edição e suporte sem inventar uma mudança",
+    "objetivos": [
+      "Conferir versão corrigida e decisões institucionais."
+    ],
+    "conteudo": "Ao julgar uma assertiva, identifique a versão e o suporte. A NBR 14724:2024 possui versão corrigida em abril de 2025; a data da correção não muda sua designação para NBR 14724:2025. Um manual de uma instituição pode acrescentar decisões operacionais, mas não é redação literal da norma.\n\nNão se atribui ao texto de dezembro de 2024 uma harmonização explícita com uma norma que só foi publicada em 2025 sem comprovar o documento pertinente. Também não se inventa que a edição anterior exigia exclusivamente assinaturas físicas ou que a nova nomeia universalmente sistemas como SEI. A versão consultada exige os elementos da folha de aprovação; processos institucionais de assinatura devem ter sua base própria.\n\n**Caso resolvido:** uma questão sobre exemplar eletrônico afirma que os dados de catalogação devem ficar imediatamente após a página de rosto. Essa é disposição verificável no item 4.2.1.1.2. Outra transforma a escolha de uma família tipográfica de um manual universitário em obrigação nacional da ABNT: falta a base para a generalização.\n\n**Aplicação e recuperação:** A etiqueta da edição é 2024 mesmo após correção de 2025. Registre qual exemplar foi consultado. Uma tabela comparativa sem fonte pode inventar mudanças normativas; confirme o item antes de usá-la como material de memorização.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-8-3-bloco-6",
+    "titulo": "Numeração Progressiva (NBR 6024) e Apresentação Tabular (IBGE vs. ABNT)",
+    "objetivos": [
+      "Separar indicativos de seção, quadros e apresentação tabular."
+    ],
+    "conteudo": "#### A. Numeração Progressiva das Seções (ABNT NBR 6024)\n* As seções do documento são numeradas em algarismos arábicos até a seção quinária, observadas as regras da NBR 6024 (seções quinárias):\n  * Primária: `1 INTRODUÇÃO`\n  * Secundária: `1.1 OBJETIVOS`\n  * Terciária: `1.1.1 Objetivos específicos`\n  * Quaternária: `1.1.1.1 Detalhamento`\n* *Regra de Pontuação da NBR 6024:* **NÃO se utiliza ponto, hífen ou travessão** entre o número da seção e o seu respectivo título (ex.: grafa-se `1 INTRODUÇÃO`, e NUNCA `1. INTRODUÇÃO` ou `1 - INTRODUÇÃO`).\n* Títulos sem numeração (agrupados no centro): errata, agradecimentos, resumos, sumário, referências e anexos.\n\n#### B. Apresentação de Tabelas (IBGE) vs. Quadros (ABNT)\n* **Tabelas (Normas de Apresentação Tabular do IBGE):**\n  * Destinam-se a apresentar informações **quantitativas e dados numéricos**.\n  * São delimitadas no topo e na base por **linhas horizontais**; linhas horizontais internas separam o cabeçalho do conteúdo.\n  * **Traços Verticais de Fechamento Lateral são PROIBIDOS:** As laterais esquerda e direita de uma tabela permanecem **sempre abertas**.\n* **Quadros (ABNT NBR 14724):**\n  * Destinam-se a apresentar informações **qualitativas, descritivas e textuais**.\n  * O uso de grade fechada em quadros é convenção frequente de manuais. Não se deve atribuir à NBR 14724, sem item que o determine, uma regra universal de fechar obrigatoriamente todos os lados. Identifique a norma/manual solicitado.\n\n**Aplicação e recuperação:** O indicativo 1.1 não recebe ponto adicional antes do título. Um gráfico e uma tabela precisam de identificação e fonte; o padrão de traços das tabelas é tratado pelo IBGE. Quadro com texto pode seguir decisão editorial específica, mas a decisão não se torna obrigação ABNT por costume.",
+    "checkpointIds": []
+  }
+],
+fontesTeoria: [
+  {
+    "id": "14724",
+    "titulo": "ABNT NBR 14724:2024 — Trabalhos acadêmicos",
+    "localizador": "Versão corrigida de 01/04/2025; seções 4–5. PDF NBR14724.pdf do acervo, com texto incompleto na extração inicial e trechos de conteúdo conferidos por OCR."
+  },
+  {
+    "id": "6024",
+    "titulo": "ABNT NBR 6024:2012 — Numeração progressiva",
+    "localizador": "Seções e indicativos; PDF ABNT-NBR-6024.pdf do acervo."
+  },
+  {
+    "id": "6027",
+    "titulo": "ABNT NBR 6027:2012 — Sumário",
+    "localizador": "Posição e inclusão de partes; PDF ABNT-NBR-6027.pdf do acervo."
+  },
+  {
+    "id": "ibge",
+    "titulo": "IBGE — Normas de apresentação tabular",
+    "localizador": "Organização de dados e traços de tabelas.",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv23907.pdf"
+  }
+],
 };

@@ -40,3 +40,14 @@ Conferência de fontes revelou que `003017427.pdf` é capítulo de Maculan, Dias
 Complementos antigos foram substituídos por glossários, alertas e referências coerentes com o texto. Quadros duplicados sem revisão específica foram retirados; quadros explicitamente redigidos e tabelas no texto foram mantidos. Tempo é estimativa editorial de leitura (180 palavras/minuto) mais prática (90 segundos/item), não medida de domínio ou promessa de duração pessoal.
 
 Foi corrigida conclusão prematura: leitura completa e apenas um checkpoint não concluem a aula. Para aulas longas, blocos marcados como lidos substituem a observação impossível de 20% do artigo inteiro. Cinco testes do leitor passaram; testes integrais antigos ainda exigem adequação e execução.
+
+
+## Normalização — ampliação em integração
+
+40 de 75 submódulos construídos, incluindo M8 inteiro. Faltam 35 e a validação/publicação. O PDF NBR14724.pdf tem edição 2024 corrigida em abril de 2025, mas a extração de texto omite grande parte dos parágrafos: foi necessário OCR das 16 páginas do arquivo para conferir suporte eletrônico, contagem, margens e demais regras. Não interpretar o texto extraído inicial como leitura completa. Foram corrigidos recuo recomendado vs. obrigatório na 10520, posição de resumo estrangeiro na 6022, palavras-chave e força de recomendações na 6028, além de formatar/validar acessibilidade como finalidade distinta de preservação.
+
+### Continuação: 50 de 75 aulas integradas
+
+- Módulo 6 completo: interoperabilidade, preservação digital, IA, bancos, programação e avaliação. Corrigidas garantias indevidas de RAG, CAP, normalização, preservação e privacidade. Exemplos fictícios foram identificados; SQL, regex e paginação da aula 6.6 foram executados com casos positivos e negativos (`python scripts/validarExemplosTeoria.py`).
+- Módulo 7 completo: composição e ambiente, pragas, manutenção e restauro. Revistos limiares tratados como universais, suposta imunidade de adesivos, reversibilidade absoluta e confusão entre estabilização, desinfestação e esterilização. Cassares do acervo foi consultada; CCI, ICOM-CC e outras referências identificadas complementam pontos específicos.
+- A implementação continua em andamento: faltam 25 aulas, validação completa, revisão dos contratos de métricas legados e publicação. O teste focado do leitor passou com cinco casos após a integração das 46 primeiras aulas. Não é certificação de todo o banco de questões.

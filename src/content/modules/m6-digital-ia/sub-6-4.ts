@@ -19,299 +19,304 @@ export const submodulo64: ModuloFilho = {
   ],
   titulo: 'Inteligência Artificial na Biblioteconomia e na Ciência da Informação',
   antesDeLer: [
-    {
-      termo: 'LLM',
-      definicao: 'Large Language Model; modelo de aprendizado profundo treinado em grandes volumes de texto para linguagem natural.',
-      exemploBiblioteca: 'Assistente virtual para resumir projetos de lei e sugerir termos de indexação a partir do texto integral.',
-    },
-    {
-      termo: 'RAG',
-      definicao: 'Retrieval-Augmented Generation; arquitetura que busca documentos factuais antes de gerar resposta, reduzindo alucinações.',
-      exemploBiblioteca: 'Conectar a IA ao LexML para responder dúvidas citando artigos vigentes da Constituição.',
-    },
-    {
-      termo: 'Embeddings',
-      definicao: 'Representação vetorial de textos em espaço multidimensional, onde documentos semanticamente similares ficam próximos.',
-      exemploBiblioteca: 'Encontrar livros sobre crise hídrica mesmo se a busca for por escassez de água em reservatórios.',
-    },
-    {
-      termo: 'Prompt',
-      definicao: 'Instrução textual fornecida como entrada a um modelo generativo para guiar a tarefa e o formato da resposta.',
-      exemploBiblioteca: 'Comando estruturado enviado à IA solicitando a elaboração de uma ementa legislativa padronizada.',
-    },
-    {
-      termo: 'Human-in-the-loop',
-      definicao: 'Princípio de governança onde a decisão final, revisão e validação técnica de saídas de IA permanecem sob controle humano.',
-      exemploBiblioteca: 'O bibliotecário revisa e homologa termos de assunto sugeridos por IA antes de publicar no catálogo.',
-    },
-  ],
-  descricaoCurta: 'Fundamentos de IA na Biblioteconomia, Grandes Modelos de Linguagem (LLMs), Embeddings vetoriais e busca semântica, catalogação assistida, RAG, Declaração da IFLA sobre Bibliotecas e IA, e as Diretrizes de Uso Responsável de IA da Câmara dos Deputados.',
-  tempoEstimadoMinutos: 14,
-  autoresChave: ['IFLA Advisory Committee', 'Câmara dos Deputados (Ditec/Cedi)', 'Ashish Vaswani', 'Cole Nussbaumer Knaflic', 'Stuart Russell', 'Edward Tufte'],
+  {
+    "termo": "Modelo fundacional",
+    "definicao": "Modelo treinado em dados amplos, adaptável a tarefas conforme sua concepção.",
+    "exemploBiblioteca": "Não há limiar universal de bilhões de parâmetros que defina todo modelo fundacional."
+  },
+  {
+    "termo": "RAG",
+    "definicao": "Arquitetura que articula recuperação e geração.",
+    "exemploBiblioteca": "Uma fonte oficial revogada pode ser inadequada ao recorte temporal perguntado."
+  }
+],
+  descricaoCurta: "Distinguir arquiteturas, representações e alcance da atenção. Comparar paradigmas de aprendizado e limites do feedback. Aplicar instrução e recuperação sem prometer correção automática. Relacionar proteção, isolamento e recuperação testada. Escolher e interpretar visualizações com critérios. Definir avaliação e responsabilidades sem inventar normas internas.",
+  tempoEstimadoMinutos: 25,
+  autoresChave: [
+  "Vaswani et al. — Attention Is All You Need (2017)",
+  "Bommasani et al. — On the Opportunities and Risks of Foundation Models",
+  "Lewis et al. — Retrieval-Augmented Generation (2020)",
+  "CERT.br — Cartilha de Segurança",
+  "Senado Federal — Guia de uso de IA"
+],
   alertasCebraspe: [
-    'A IA não substitui o bibliotecário nem torna dispensáveis as técnicas de representação temática e descritiva (classificação e indexação): pelo contrário, a acurácia dos sistemas de IA depende diretamente de bases bem estruturadas, ontologias, grafos de conhecimento e metadados de alta qualidade gerados com curadoria humana.',
-    'A arquitetura tecnológica que deflagrou a revolução dos Grandes Modelos de Linguagem (LLMs) é a rede neural baseada em TRANSFORMERS (mecanismo de autoatenção / self-attention, Vaswani et al., 2017), viabilizando processamento altamente paralelizado de linguagem natural.',
-    'Foundation Models (Tema de Alta Probabilidade Cebraspe): os modelos fundacionais baseiam-se em redes neurais de aprendizado profundo (deep learning) e métodos auto-supervisionados em gigantescos volumes de dados não rotulados, e NÃO em regras lógicas formais explícitas programadas por especialistas (GOFAI).',
-    'Engenharia de Prompts (Tema de Alta Probabilidade Cebraspe): Zero-shot prompting consiste em submeter a instrução ao modelo sem nenhum exemplo de demonstração prévio; Few-shot prompting fornece demonstrações in-context com pares de entrada/saída para condicionar a resposta; Chain-of-Thought (CoT) induz o modelo a decompor o raciocínio em etapas lógicas intermediárias antes de responder.',
-    'Arquitetura RAG (Retrieval-Augmented Generation): integra modelos generativos a bancos vetoriais de documentos institucionais canônicos (como o LexML e proposições da Câmara), recuperando trechos factuais pertinentes para ancorar o prompt, mitigando alucinações e garantindo rastreabilidade jurídica com citação de fontes.',
-    'Segurança e Ransomware (Tema de Alta Probabilidade Cebraspe): o procedimento de backup offline (air-gapped ou mídia fisicamente desconectada da rede corporativa) é a salvaguarda técnica mais segura contra ataques de ransomware, pois o versionamento em nuvem ou backups em rede compartilhada podem ser igualmente infectados e criptografados.',
-    'Visualização de Dados e Power BI (STJ 2024): o recurso "Analisar no Excel" conecta-se diretamente ao modelo semântico (semantic model) do Power BI mantendo medidas DAX e relações intactas. Em Dataviz, o Histograma avalia a distribuição de frequências de variáveis contínuas em faixas (bins), enquanto o Gráfico de Barras compara dados categóricos discretos; o Box Plot expõe mediana, quartis e outliers.',
-    'Diretrizes da Câmara dos Deputados para o Uso de IA: estabelecem o princípio inegociável do "human-in-the-loop" (supervisão humana no circuito), a explicabilidade dos algoritmos, o alinhamento com a LGPD e a responsabilidade indelegável do agente público nas decisões legislativas.',
-  ],
-  quadroComparativo: {
-    titulo: 'Comparação: Recuperação Clássica por Palavras-Chave vs. Busca Semântica por IA',
-    colunas: ['Critério', 'Busca Lexical Tradicional (Booleana / Invertida)', 'Busca Semântica por IA (Embeddings & LLMs)', 'Pegadinha Cebraspe Mapeada'],
-    linhas: [
-      ['Mecanismo de Casamento', 'Coincidência literal de caracteres e strings (*exact keyword matching*)', 'Proximidade matemática em espaço vetorial multidimensional denso (*dense vectors*)', 'Afirmar que a busca semântica depende da coincidência exata dos termos digitados.'],
-      ['Tratamento de Sinônimos', 'Depende de vocabulário controlado explícito ou operador OR', 'Reconhece automaticamente sinonímia, paráfrases e intenções conceituais latentes', 'Dizer que modelos vetoriais não conseguem relacionar sinônimos sem um tesauro prévio.'],
-      ['Tolerância à Ambiguidade', 'Baixa: termos polissêmicos geram ruído imediato nos resultados', 'Alta: analisa o contexto gramatical e temático completo da consulta para desambiguar', 'Considerar que sistemas booleanos tradicionais realizam desambiguação contextual automática.'],
-      ['Técnica de Indexação', 'Arquivo Invertido (*Inverted Index*) com listas de ocorrências (*postings*)', 'Indexação Vetorial de Alta Densidade (*HNSW, FAISS, pgvector*) com cálculo de cosseno', 'Confundir o algoritmo TF-IDF com redes neurais de geração de embeddings.'],
-      ['Papel do Bibliotecário', 'Indexador manual de metadados e construtor de sintaxes booleanas', 'Curador de dados de treino, auditor ético de viés e supervisor dos prompts e RAG', 'Afirmar que a introdução de IA torna prescindível o papel técnico do bibliotecário.'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Inteligência Artificial como Novo Paradigma na Ciência da Informação
-
-A Inteligência Artificial (IA), historicamente dividida entre as abordagens simbólicas (sistemas especialistas baseados em regras formais explícitas — GOFAI) e as abordagens conexionistas (redes neurais artificiais), vivenciou uma ruptura revolucionária a partir de 2017 com o desenvolvimento da arquitetura de **Transformers** (*Attention Is All You Need*, Vaswani et al., 2017):
-
-\`\`\`timeline
-GOFAI | 1. IA Simbólica (GOFAI) | Regras Formais e Sistemas Especialistas | Engenharia de conhecimento artesanal: regras lógicas explícitas (*if-then*) com alta interpretabilidade e rigidez funcional
----> Aprendizado Estatístico sobre Dados
-ML | 2. Machine Learning Clássico | Extração Estatística de Padrões | Modelos de espaço vetorial (TF-IDF, Naive Bayes, SVM) para classificação e ranqueamento com representações esparsas
----> Ruptura: Redes Neurais e Transformers (2017)
-TRANS | 3. Deep Learning & Transformers | Autoatenção Paralela e LLMs | Modelos fundacionais (*Foundation Models*) com bilhões de parâmetros treinados de forma auto-supervisionada
----> Aplicação em Unidades de Informação
-RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperação | Vetores densos de alta dimensionalidade (*embeddings*) combinados com documentos oficiais para resposta sem alucinações
-\`\`\`
-
-#### A. A Arquitetura de Transformers e os Grandes Modelos de Linguagem (LLMs)
-* **O Mecanismo de Autoatenção (*Self-Attention*):** Permite que o modelo analise simultaneamente todas as palavras de uma sentença ou documento, calculando a relevância contextual de cada termo em relação a todos os demais, independentemente da distância linear entre eles.
-* **Superação das Redes Anteriores:** As redes neurais recorrentes (RNNs) e LSTMs processavam o texto sequencialmente palavra por palavra, gerando lentidão e perda de memória de longo prazo em textos extensos. Os Transformers processam sequências inteiras em paralelo.
-* **Foundation Models (*Modelos Fundacionais*):**
-  * Modelos de escala gigantesca (bilhões ou trilhões de parâmetros) pré-treinados em massas monumentais de dados não rotulados por métodos auto-supervisionados (*self-supervised learning*).
-  * *⚠️ Alerta Crítico Cebraspe (Tema de Alta Probabilidade):* Os Foundation Models operam a partir da extração estatística de representações em redes neurais profundas, e **NÃO** a partir de sistemas dedutivos pré-programados com regras lógicas explícitas por engenheiros do conhecimento!
-
-#### B. Embeddings Vetoriais e Busca Semântica
-* O processamento de linguagem natural converte textos em **vetores numéricos densos** (embeddings) em espaços vetoriais de centenas ou milhares de dimensões:
-* Documentos conceitualmente correlatos situam-se em coordenadas espaciais próximas.
-* **Métricas de Similaridade Vetorial:** A distância entre o vetor da consulta do usuário e os vetores dos documentos é calculada matematicamente por meio da **Similaridade por Cosseno** (ângulo entre vetores), Produto Escalar (*Dot Product*) ou Distância Euclidiana ($L_2$).
-* Isso viabiliza a recuperação semântica por conceito: uma busca por "remuneração de servidores" recupera documentos sobre "vencimentos e subsídios do funcionalismo", mesmo sem coincidência literal de palavras.
-
----
-
-### 2. Paradigmas de Aprendizado de Máquina (Machine Learning)
-
-1. **Aprendizado Supervisionado (*Supervised Learning*):**
-   * O algoritmo é treinado a partir de exemplos rotulados (*labeled data*), aprendendo a mapear entradas em saídas corretas conhecidas.
-   * *Classificação:* Atribuição a categorias discretas (ex.: classificar proposições legislativas em "Tributário", "Saúde" ou "Educação").
-   * *Regressão:* Previsão de valores contínuos (ex.: estimar o tempo em dias para a tramitação de uma PEC).
-2. **Aprendizado Não Supervisionado (*Unsupervised Learning*):**
-   * O algoritmo analisa dados brutos sem rótulos (*unlabeled data*), descobrindo padrões intrínsecos, agrupamentos naturais ou anomalias.
-   * *Agrupamento (*Clustering*):* Algoritmos como **K-Means** e agrupamento hierárquico, aplicados para segmentar perfis de usuários de bibliotecas e mapear frentes de pesquisa científica.
-   * *Redução de Dimensionalidade:* Técnicas como **PCA** (*Principal Component Analysis*) e **t-SNE**, utilizadas para projetar espaços vetoriais de milhares de dimensões em gráficos 2D/3D legíveis.
-3. **Aprendizado por Reforço (*Reinforcement Learning - RL*) e RLHF:**
-   * O modelo aprende por tentativa e erro em um ambiente interativo, guiado por funções de recompensa (*rewards*) e penalidades.
-   * **RLHF (*Reinforcement Learning from Human Feedback*):** Avaliadores humanos pontuam e ranqueiam diferentes respostas geradas por um LLM. Esse feedback calibra a política do modelo, alinhando-o a diretrizes éticas, eliminando discursos ofensivos e mitigando alucinações.
-
----
-
-### 3. Engenharia de Prompts e a Arquitetura RAG
-
-#### A. Estratégias de Engenharia de Prompts (Padrão Canônico Cebraspe):
-* **Zero-Shot Prompting:** Envio direto do comando ou pergunta ao modelo sem incluir nenhum exemplo prévio no contexto. O modelo apoia-se estritamente no seu conhecimento pré-treinado.
-* **Few-Shot Prompting:** Inclusão no corpo do prompt de alguns pares exemplificativos de entrada e saída esperada antes do comando definitivo. O modelo aprende o formato e o tom desejados por aprendizado em contexto (*in-context learning*).
-* **Chain-of-Thought (CoT - Cadeia de Pensamento):** Técnica na qual o modelo é instruído a explicitar seu raciocínio passo a passo antes de emitir a conclusão final, reduzindo drasticamente erros em inferências lógicas, interpretações normativas complexas e análises quantitativas.
-
-#### B. Arquitetura RAG (*Retrieval-Augmented Generation*):
-* Em instituições como a Câmara dos Deputados, LLMs genéricos não devem responder consultas jurídicas diretamente de sua memória estatística, sob grave risco de **alucinação** (invenção de leis ou números inexistentes).
-* **O Fluxo RAG em Três Etapas:**
-  1. *Recuperação (*Retrieve*):* A pergunta do usuário é convertida em embedding e confronta um banco de dados vetorial de fontes primárias canônicas (bases do LexML, Diários da Câmara e jurisprudência consolidada).
-  2. *Aumento (*Augment*):* Os fragmentos factuais mais pertinentes recuperados são injetados diretamente no contexto do prompt enviado ao LLM.
-  3. *Geração (*Generate*):* O modelo redige a resposta fundamentando-se estritamente nos trechos fornecidos e citando formalmente as fontes oficiais.
-
----
-
-### 4. Segurança da Informação, Governança Digital e Salvaguarda contra Ransomware
-
-* **A Ameaça Crítica do Ransomware:**
-  * Malware que realiza o sequestro digital de arquivos institucionais por meio de criptografia de chave pública/privada (RSA/AES), exigindo resgates financeiros vultosos em criptomoedas.
-* **A Salvaguarda Técnica Definitiva (*Alerta Cebraspe — Tema de Alta Probabilidade*):**
-  * Backups em nuvem sincronizados em tempo real ou pastas compartilhadas em rede local (*network shares*) são vulneráveis à infecção cruzada imediata pelo ransomware durante o ataque.
-  * A proteção institucional definitiva requer **procedimentos de backup offline (air-gapped)**: cópias de segurança gravadas em mídias físicas desconectadas de qualquer rede computacional (ex.: fitas LTO guardadas em cofres ou unidades em modo WORM — *Write Once, Read Many*).
-* **Mecanismos Complementares de Defesa:** Autenticação multifator (MFA) obrigatória, segmentação de redes em VLANs, privilégios mínimos de acesso (*least privilege*) e soluções de EDR (*Endpoint Detection and Response*).
-
----
-
-### 5. Visualização de Dados e Storytelling Analítico (Power BI & Métricas)
-
-* **Microsoft Power BI no Setor Público (STJ 2024):**
-  * O recurso *"Analisar no Excel"* viabiliza a criação de tabelas dinâmicas diretamente conectadas ao modelo semântico (*semantic model*) hospedado no Power BI Service, garantindo fonte única e fidedigna de dados sem duplicações estáticas desatualizadas.
-* **Seleção Criteriosa de Gráficos:**
-  * **Histograma:** Exibe a distribuição de frequências de uma **variável quantitativa contínua** agrupada em intervalos regulares (*bins*). *Atenção:* Não confundir com gráfico de barras, que representa variáveis categóricas discretas.
-  * **Box Plot (Diagrama de Caixa):** Representa a dispersão e a simetria de um conjunto de dados por meio de 5 medidas sumárias: valor mínimo, primeiro quartil (Q1 - 25%), mediana (Q2 - 50%), terceiro quartil (Q3 - 75%) e valor máximo, evidenciando de forma visual clara os pontos atípicos (*outliers*).
-  * **Gráfico de Dispersão (*Scatter Plot*):** Revela correlações e padrões de associação bivariada entre duas variáveis contínuas.
-* **Storytelling com Dados (Cole Nussbaumer Knaflic & Edward Tufte):**
-  * Maximização da taxa de dados-tinta (*data-ink ratio*): remoção de enfeites supérfluos (*chartjunk*, bordas pesadas, efeitos 3D falsos).
-  * Uso estratégico de **atributos pré-atencionais** (cor de destaque contrastante, tamanho e posicionamento) para direcionar o olhar do gestor imediatamente à conclusão analítica pretendida.
-
----
-
-### 6. Diretrizes da Câmara dos Deputados e Ética da IFLA no Uso de IA
-
-* **Diretrizes de Uso Responsável de IA da Câmara dos Deputados (Ditec/Cedi, 2023):**
-  * **Princípio da Supervisão Humana (*Human-in-the-Loop*):** É vedada a emissão de atos administrativos, pareceres técnicos ou decisões parlamentares automatizadas sem a revisão, validação substantiva e responsabilização de um servidor público humano habilitado.
-  * **Conformidade Estrita com a LGPD (Lei 13.709/2018):** Vedada a inserção de minutas legislativas sigilosas, documentos preparatórios ou dados pessoais sensíveis em plataformas abertas de IA comercial.
-  * **Explicabilidade e Auditabilidade:** Os sistemas de IA aplicados a processos legislativos devem manter trilhas de auditoria que explicitem as fontes consultadas e a lógica do processamento.
-* **Declaração da IFLA sobre Bibliotecas e Inteligência Artificial:**
-  * Reafirma o compromisso histórico das bibliotecas com a **privacidade do leitor**, a preservação da diversidade cultural e o combate aos vieses algorítmicos discriminatórios.
-  * As bibliotecas devem liderar iniciativas de **Letramento em Inteligência Artificial (*AI Literacy*)**, capacitando os cidadãos a avaliarem criticamente a proveniência e a veracidade das respostas geradas por IA.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **IA Aplicada à Informação (sub-6-7):** Modelos fundacionais, prompting e curadoria profissional de corpora.
-* **Inteligência Artificial e Machine Learning (sub-14-3):** Conceitos básicos de aprendizado supervisionado e não supervisionado.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A aplicação da **Inteligência Artificial (IA)** na Biblioteconomia e nos Serviços de Informação Legislativa redefine a atuação do profissional da informação:
-1. **Conceitos Fundamentais de IA:**
-   - Capacidade de sistemas computacionais de simular capacidades humanas como aprendizado (*Machine Learning*), raciocínio, percepção, processamento de linguagem natural (PLN) e tomada de decisão.
-   - **IA Tradicional (Simbólica/Baseada em Regras):** Sistemas especialistas baseados em árvores lógicas "SE... ENTÃO".
-   - **Aprendizado de Máquina (*Machine Learning* - ML):** Algoritmos que aprendem padrões a partir de dados históricos sem serem explicitamente programados.
-     - *Supervisionado:* Treinado com dados rotulados (ex.: documentos já classificados por bibliotecários).
-     - *Não Supervisionado:* Algoritmos agrupam dados não rotulados por similaridade matemática (ex.: agrupamento/clusterização de textos).
-     - *Por Reforço:* O agente aprende por recompensas e penalidades ao interagir com um ambiente.
-2. **Modelos de Linguagem e IA Generativa (LLMs):**
-   - Modelos baseados na arquitetura *Transformer* treinados em corpora textuais massivos para geração, sumarização e tradução textual.
-   - Desafios críticos na informação pública: **Alucinação** (geração plausível de dados factualmente falsos ou inventados), **Opacidade / Caixa-Preta** e **Vieses Algorítmicos**.
-3. **Aplicações Canônicas em Bibliotecas:**
-   - Catalogação e indexação preditiva assistida; Reconhecimento Óptico de Caracteres (OCR) e Reconhecimento de Textos Manuscritos (HTR); Chatbots inteligentes de atendimento de referência; Sumarização de relatórios técnicos e detecção de duplicidades normativas.
-4. **Diretrizes Éticas da IFLA para IA:**
-   - Transparência, explicabilidade dos algoritmos, governança de dados, centralidade humana (*human-in-the-loop*), privacidade e combate à desinformação.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Classificação Automática Preliminar de Proposições):** Diariamente, chegam à Câmara centenas de novos projetos de lei. Um algoritmo de aprendizado supervisionado treinado com 20 anos de catálogo da biblioteca analisa a ementa do projeto e sugere 3 classes CDU e 5 descritores do vocabulário controlado. O bibliotecário valida ou corrige a sugestão (*human-in-the-loop*), reduzindo em 70% o tempo de processamento técnico.
-- **Cenário 2 (HTR na Digitalização de Manuscritos da Constituinte de 1823):** A Biblioteca Pedro Aleixo custodia manuscritos históricos com caligrafias cursivas antigas do Império. O bibliotecário aplica algoritmos de **HTR (*Handwritten Text Recognition*)**, convertendo manuscritos ilegíveis em texto digital plenamente pesquisável na BDCam.
-- **Cenário 3 (Prevenção de Alucinação em Resumos Legislativos):** A Câmara testa ferramentas de IA generativa para gerar resumos executivos de sessões de comissões. O bibliotecário atua na engenharia de prompts com técnicas de **RAG (*Retrieval-Augmented Generation*)**, forçando o modelo a citar estritamente trechos literais dos anais oficiais, eliminando alucinações e invenções factuais.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Modalidade de ML | Dados de Treinamento | Tarefa Típica em Bibliotecas | Exemplo Cebraspe |
-| :--- | :--- | :--- | :--- |
-| **Supervisionado** | Rotulados (com gabarito) | Classificação de assunto (CDU) | Classificar livros em categorias conhecidas |
-| **Não Supervisionado** | Não rotulados | Agrupamento de tópicos (Topic Modeling) | Identificar temas emergentes em discursos |
-| **Por Reforço** | Recompensas / Penalidades | Otimização de rotas de robôs de estante | Robô logístico em armazém de livros |
-| **RAG (Retrieval-Augmented)** | Consulta à base fática | Respostas embasadas sem alucinações | Chatbot legislativo que cita a lei exata |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **A Substituição Total do Bibliotecário pela IA:** O Cebraspe sugere que *"sistemas modernos de IA generativa tornam prescindível a intervenção humana na curadoria e catalogação"*. **Gabarito: ERRADO.** Todas as diretrizes éticas (IFLA, UNESCO e EBIA) exigem a supervisão humana ativa (*human-in-the-loop*) para mitigar vieses e erros.
-- **Alucinação como Falha de Conexão de Rede:** Definir alucinação em LLMs como queda de sinal de internet ou erro de hardware. **Gabarito: ERRADO.** Alucinação é a geração de respostas sintaticamente perfeitas, mas com dados factualmente incorretos ou fontes inventadas pelo modelo probabilístico.
-- **Supervisionado vs. Não Supervisionado:** Trocar os conceitos: afirmar que no aprendizado não supervisionado os dados são previamente etiquetados por especialistas humanos. **Gabarito: ERRADO.** Isso é aprendizado **supervisionado**.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **RUSSELL, Stuart; NORVIG, Peter.** *Inteligência Artificial: uma abordagem moderna*. 4. ed. Rio de Janeiro: GEN LTC, 2022. (A bíblia mundial de IA adotada em concursos de TI e biblioteconomia).
-- **IFLA.** *IFLA Statement on Libraries and Artificial Intelligence*. Haia: IFLA, 2020. (Posicionamento oficial das bibliotecas sobre o uso ético da IA).
-- **BRASIL.** *Estratégia Brasileira de Inteligência Artificial (EBIA)*. Ministério da Ciência, Tecnologia e Inovações (MCTI), 2021.
-- **O'NEIL, Cathy.** *Algoritmos de destruição em massa: como o big data aumenta a desigualdade e ameaça a democracia*. Santo André: Editora Rua do Sabão, 2020.
-- **MITCHELL, Tom M.** *Machine Learning*. New York: McGraw-Hill, 1997.`,
+  "Treinamento amplo e adaptação a diversas tarefas são centrais; não há limiar numérico universal na definição.",
+  "Aprendizado em contexto não equivale obrigatoriamente a ajuste de parâmetros.",
+  "Imutabilidade/escrita única e isolamento são propriedades diferentes."
+],
+  teoriaDensaMarkdown: "### A Inteligência Artificial como Novo Paradigma na Ciência da Informação\n\nA Inteligência Artificial (IA), historicamente dividida entre as abordagens simbólicas (sistemas especialistas baseados em regras formais explícitas — GOFAI) e as abordagens conexionistas (redes neurais artificiais), vivenciou uma ruptura revolucionária a partir de 2017 com o desenvolvimento da arquitetura de **Transformers** (*Attention Is All You Need*, Vaswani et al., 2017):\n\n```timeline\nGOFAI | 1. IA Simbólica (GOFAI) | Regras Formais e Sistemas Especialistas | Engenharia de conhecimento artesanal: regras lógicas explícitas (*if-then*) com alta interpretabilidade e rigidez funcional\n---> Aprendizado Estatístico sobre Dados\nML | 2. Machine Learning Clássico | Extração Estatística de Padrões | Modelos de espaço vetorial (TF-IDF, Naive Bayes, SVM) para classificação e ranqueamento com representações esparsas\n---> Ruptura: Redes Neurais e Transformers (2017)\nTRANS | 3. Deep Learning & Transformers | Autoatenção Paralela e LLMs | Modelos fundacionais (*Foundation Models*) com bilhões de parâmetros treinados de forma auto-supervisionada\n---> Aplicação em Unidades de Informação\nRAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperação | Vetores densos de alta dimensionalidade (*embeddings*) combinados com documentos oficiais para resposta apoiada em contexto, com risco residual a avaliar\n```\n\n#### A. A Arquitetura de Transformers e os Grandes Modelos de Linguagem (LLMs)\n* **O Mecanismo de Autoatenção (*Self-Attention*):** Permite que o modelo analise relações entre posições de tokens no contexto e segundo as máscaras; atenção causal não acessa livremente posições futuras e janelas têm limites.\n* **Superação das Redes Anteriores:** As redes neurais recorrentes (RNNs) e LSTMs processavam o texto sequencialmente palavra por palavra, gerando lentidão e perda de memória de longo prazo em textos extensos. O treinamento permite paralelizar operações em muitas posições. A geração autorregressiva normalmente produz tokens em sequência; paralelismo não equivale a gerar todo texto de uma só vez.\n* **Foundation Models (*Modelos Fundacionais*):**\n  * Modelos treinados em dados amplos, frequentemente por auto-supervisão em redes profundas, e adaptáveis a várias tarefas; não são definidos por um mínimo universal de bilhões de parâmetros (*self-supervised learning*).\n  * **Distinção conceitual:** Os Foundation Models operam a partir da extração estatística de representações em redes neurais profundas, e **NÃO** a partir de sistemas dedutivos pré-programados com regras lógicas explícitas por engenheiros do conhecimento!\n\n#### B. Embeddings Vetoriais e Busca Semântica\n* Muitas técnicas usam **vetores numéricos**, que podem ser esparsos ou densos. Embeddings aprendidos são uma representação, não toda a definição de PLN:\n* A representação pode aproximar textos relevantes semanticamente, mas proximidade não prova equivalência, verdade ou pertinência para toda tarefa.\n* **Métricas de Similaridade Vetorial:** A distância entre o vetor da consulta do usuário e os vetores dos documentos é calculada matematicamente por meio da **Similaridade por Cosseno** (ângulo entre vetores), Produto Escalar (*Dot Product*) ou Distância Euclidiana ($L_2$).\n* Isso viabiliza a recuperação semântica por conceito: uma busca por \"remuneração de servidores\" recupera documentos sobre \"vencimentos e subsídios do funcionalismo\", mesmo sem coincidência literal de palavras.\n\n**Aplicação e recuperação:** Uma consulta e um documento têm cosseno elevado, mas o texto trata de outro regime jurídico. Similaridade é sinal para ranqueamento, não prova suficiente de pertinência. Busca lexical com vocabulário controlado também pode tratar significado; “semântica” não é exclusividade de uma rede neural.\n\n### Paradigmas de Aprendizado de Máquina (Machine Learning)\n\n1. **Aprendizado Supervisionado (*Supervised Learning*):**\n   * O algoritmo é treinado a partir de exemplos rotulados (*labeled data*), aprendendo a mapear entradas em saídas corretas conhecidas.\n   * *Classificação:* Atribuição a categorias discretas (ex.: classificar proposições legislativas em \"Tributário\", \"Saúde\" ou \"Educação\").\n   * *Regressão:* Previsão de valores contínuos (ex.: estimar o tempo em dias para a tramitação de uma PEC).\n2. **Aprendizado Não Supervisionado (*Unsupervised Learning*):**\n   * O algoritmo analisa dados brutos sem rótulos (*unlabeled data*), descobrindo padrões intrínsecos, agrupamentos naturais ou anomalias.\n   * *Agrupamento (*Clustering*):* Algoritmos como **K-Means** e agrupamento hierárquico, aplicados para segmentar perfis de usuários de bibliotecas e mapear frentes de pesquisa científica.\n   * *Redução de Dimensionalidade:* Técnicas como **PCA** (*Principal Component Analysis*) e **t-SNE**, utilizadas para projetar espaços vetoriais de milhares de dimensões em gráficos 2D/3D legíveis.\n3. **Aprendizado por Reforço (*Reinforcement Learning - RL*) e RLHF:**\n   * O modelo aprende por tentativa e erro em um ambiente interativo, guiado por um sinal de recompensa e política de interação, conforme o método.\n   * **RLHF (*Reinforcement Learning from Human Feedback*):** Avaliadores humanos pontuam e ranqueiam diferentes respostas geradas por um LLM. Esse feedback calibra a política do modelo, buscando comportamentos preferidos, sem garantir eliminação de conteúdo ofensivo ou erros factuais.\n\n**Aplicação e recuperação:** Um classificador usa rótulos; um agrupador procura estrutura sem esses rótulos; um agente por reforço recebe sinais de recompensa. Na prática podem existir métodos combinados. Preferência humana por uma resposta não prova que a afirmação jurídica está correta.\n\n### Engenharia de Prompts e a Arquitetura RAG\n\n#### A. Estratégias de instrução: finalidade e limites:\n* **Zero-Shot Prompting:** Envio direto do comando ou pergunta ao modelo sem incluir nenhum exemplo prévio no contexto. A ausência de exemplos da tarefa não impede instruções, contexto recuperado ou ferramentas; zero-shot não significa ausência de qualquer contexto.\n* **Few-Shot Prompting:** Inclusão no corpo do prompt de alguns pares exemplificativos de entrada e saída esperada antes do comando definitivo. O modelo aprende o formato e o tom desejados por aprendizado em contexto (*in-context learning*).\n* **Chain-of-Thought (CoT - Cadeia de Pensamento):** Técnica na qual o modelo é instruído a explicitar seu raciocínio passo a passo antes de emitir a conclusão final, podendo ajudar em determinadas tarefas, sem garantir correção de premissas, cálculo, conclusão ou explicação.\n\n#### B. Arquitetura RAG (*Retrieval-Augmented Generation*):\n* Em instituições como a Câmara dos Deputados, LLMs genéricos não devem responder consultas jurídicas diretamente de sua memória estatística, sob grave risco de **alucinação** (invenção de leis ou números inexistentes).\n* **O Fluxo RAG em Três Etapas:**\n  1. *Recuperação (*Retrieve*):* Um mecanismo de recuperação busca evidências em fontes selecionadas; pode ser lexical, vetorial ou híbrido. Recuperar fonte oficial exige ainda conferir versão e pertinência (bases do LexML, Diários da Câmara e jurisprudência consolidada).\n  2. *Aumento (*Augment*):* Os fragmentos factuais mais pertinentes recuperados são injetados diretamente no contexto do prompt enviado ao LLM.\n  3. *Geração (*Generate*):* O sistema busca produzir resposta apoiada nas evidências, com atribuição verificável; o gerador ainda pode omitir condições, citar trecho inadequado ou inventar.\n\n**Aplicação e recuperação:** Few-shot inclui exemplos no contexto e não altera necessariamente pesos do modelo. RAG pode usar busca lexical. Um pedido para explicar passos não garante cálculo certo. Avalie evidência e resultado; não aceite o método anunciado como certificado de qualidade.\n\n### Segurança da Informação, Governança Digital e Salvaguarda contra Ransomware\n\n* **A Ameaça Crítica do Ransomware:**\n  * Malware que realiza o sequestro digital de arquivos institucionais por técnicas que podem incluir criptografia e outras formas de bloqueio/extorsão; AES é simétrico, não um par de chaves pública/privada, exigindo resgates financeiros vultosos em criptomoedas.\n* **Cópias e controles articulados:**\n  * Backups em nuvem sincronizados em tempo real ou pastas compartilhadas em rede local (*network shares*) são vulneráveis à infecção cruzada imediata pelo ransomware durante o ataque.\n  * Uma estratégia pode incluir **cópias offline ou isoladas**, com retenção, testes e controles. Offline, air gap e imutabilidade não são propriedades idênticas: cópias de segurança gravadas em mídias físicas desconectadas de qualquer rede computacional (ex.: fitas desconectadas, quando apropriadas. WORM significa escrita única/leitura múltipla e não prova desconexão de rede — *Write Once, Read Many*).\n* **Mecanismos Complementares de Defesa:** Autenticação multifator (MFA) obrigatória, segmentação de redes em VLANs, privilégios mínimos de acesso (*least privilege*) e soluções de EDR (*Endpoint Detection and Response*).\n\n**Aplicação e recuperação:** A cópia em nuvem está na mesma conta comprometida: localização remota não implica isolamento. Uma fita desconectada pode ajudar, mas só é útil se puder ser restaurada com dados e dependências necessários. Teste recuperação e controle acesso em vez de chamar uma medida de definitiva.\n\n### Visualização de Dados e Storytelling Analítico (Power BI & Métricas)\n\n* **Microsoft Power BI no Setor Público (STJ 2024):**\n  * O recurso *\"Analisar no Excel\"* viabiliza a criação de tabelas dinâmicas diretamente conectadas ao modelo semântico (*semantic model*) hospedado no Power BI Service, permitindo análise conectada nas condições de acesso/configuração; a conexão não certifica verdade, qualidade ou atualização de todos os dados.\n* **Seleção Criteriosa de Gráficos:**\n  * **Histograma:** Exibe a distribuição de frequências de uma **variável quantitativa contínua** agrupada em intervalos definidos, que podem ter larguras diferentes com tratamento gráfico apropriado. *Atenção:* Não confundir com gráfico de barras, que representa variáveis categóricas discretas.\n  * **Box Plot (Diagrama de Caixa):** Representa a dispersão e a simetria de um conjunto de dados por quartis/mediana e hastes segundo a convenção; em boxplot de Tukey, hastes não são necessariamente extremos globais e pontos além podem ser mostrados separadamente.\n  * **Gráfico de Dispersão (*Scatter Plot*):** Revela correlações e padrões de associação bivariada entre duas variáveis contínuas.\n* **Storytelling com Dados (Cole Nussbaumer Knaflic & Edward Tufte):**\n  * Maximização da taxa de dados-tinta (*data-ink ratio*): remoção de enfeites supérfluos (*chartjunk*, bordas pesadas, efeitos 3D falsos).\n  * Uso estratégico de **atributos pré-atencionais** (cor de destaque contrastante, tamanho e posicionamento) para direcionar o olhar do gestor imediatamente à conclusão analítica pretendida.\n\n**Aplicação e recuperação:** Um histograma muda de aparência ao alterar intervalos; um boxplot usa hastes até limites definidos. A apresentação deve declarar convenção e escala. Destacar uma cor pode orientar atenção, mas não autoriza esconder incerteza ou selecionar só dados favoráveis.\n\n### Governança: recomendações e normas com origem identificada\n\nUma política de IA deve definir tarefas permitidas, responsáveis, fontes, avaliação e resposta a falhas. Supervisão humana deve ser substantiva: confirmar origem e validade, confrontar a resposta com documentos e reconhecer quando o sistema não dispõe de evidência. Aprovar automaticamente a saída com uma assinatura não constitui revisão efetiva.\n\nHá guias institucionais, como o **Guia de uso de IA do Senado Federal**, que precisam ser identificados pelo órgão e âmbito. Não se atribui sem documento verificável uma suposta diretriz “Ditec/Cedi 2023” à Câmara. Recomendações desta aula não são apresentadas como atos normativos internos já publicados.\n\nNo tratamento de dados, examine finalidade, base legal, necessidade, acesso, retenção, compartilhamento e condições do serviço. Inserir dados pessoais/sigilosos em ferramenta externa exige análise jurídica e de segurança; não se conclui automaticamente que qualquer uso de nuvem viola toda LGPD nem que informação publicamente visível pode ser usada sem limites.\n\nLetramento em IA inclui reconhecer fontes, limites de modelos, riscos de automação e desigualdades de representação. Bibliotecas podem apoiar avaliação crítica e acesso, sem apresentar IA como substituta universal de profissionais ou afirmar que uma arquitetura neutraliza vieses.\n\n**Caso:** modelo responde com um artigo verdadeiro de lei revogada. Fluência, citação e fonte oficial não bastam: falta adequação temporal. A equipe deve registrar versão, contexto e limite da resposta, além de rever a base de recuperação.\n\n**Aplicação e recuperação:** Um servidor compara a saída com fonte atual e identifica omissão de exceção. Essa revisão detecta erro que passaria num exame de mera fluência. A política deve atribuir responsabilidade e permitir interromper/escalar o uso quando faltar evidência.",
+  teoriaDidaticaMarkdown: "### Revisão: método anunciado não certifica resultado\n\nAtenção tem máscaras e contexto; geração autorregressiva não produz todo texto simultaneamente. Vetores podem ser esparsos/densos e similaridade não prova pertinência. Modelos fundacionais não têm limiar universal de tamanho. Paradigmas de aprendizado têm sinais/tarefas distintos. Few-shot não é necessariamente ajuste de pesos; RAG não é exclusivamente vetorial e não elimina erros. Backup isolado é componente testável, não proteção definitiva. Gráficos exigem convenção e contexto. Governança deve identificar fonte, âmbito, responsável e avaliação, sem atribuir normas internas inexistentes.\n",
   checkpoints: [
-    {
-      id: 'cp-6-4-1',
-      pergunta: 'Micro-Checkpoint 1: Busca Semântica por IA vs. Busca Tradicional',
-      item: 'Diferentemente dos sistemas tradicionais de busca baseados na correspondência estrita de palavras-chave, a busca semântica orientada por inteligência artificial utiliza representações vetoriais de texto (embeddings) para recuperar documentos pelo seu contexto e significado conceitual.',
-      gabarito: 'C',
-      justificativa: 'Correto! Os modelos de busca semântica baseados em IA processam a proximidade vetorial de significados, superando a rigidez da correspondência literal.',
-    },
-    {
-      id: 'cp-6-4-2',
-      pergunta: 'Micro-Checkpoint 2: Foundation Models e Aprendizado Profundo',
-      item: 'Os denominados Foundation Models, que alicerçam ferramentas modernas de inteligência artificial generativa, operam com base na aplicação de conjuntos de regras formais pré-programadas por engenheiros, dispensando redes neurais de aprendizado profundo.',
-      gabarito: 'E',
-      justificativa: 'Errado! Tema de alta probabilidade de cobrança no Cebraspe. Os Foundation Models baseiam-se em redes neurais profundas (deep learning) e métodos de aprendizagem auto-supervisionada em larga escala, e não em regras lógicas programadas (GOFAI).',
-    },
-    {
-      id: 'cp-6-4-3',
-      pergunta: 'Micro-Checkpoint 3: Engenharia de Prompts - Zero-Shot vs. Few-Shot',
-      item: 'Na engenharia de prompts para modelos de linguagem generativa, a técnica de few-shot prompting consiste em apresentar ao modelo a instrução da tarefa sem fornecer nenhum exemplo demonstrativo prévio de entrada e saída.',
-      gabarito: 'E',
-      justificativa: 'Errado! Apresentar a instrução sem exemplos é denominado "zero-shot prompting". O "few-shot prompting" inclui no prompt exemplos concretos de demonstração in-context para guiar o formato da resposta esperada (tema de alta probabilidade de cobrança no Cebraspe).',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-6-4-1',
-        periodo: '2017',
-        disciplina: 'Arquitetura de Transformers',
-        focoPrincipal: 'Publicação de "Attention Is All You Need" pelo Google Brain, base estruturante dos modelos LLM',
-        figuraChave: 'Ashish Vaswani et al.',
-      },
-      {
-        id: 'tl-6-4-2',
-        periodo: '2020 / 2023',
-        disciplina: 'Diretrizes Éticas IFLA',
-        focoPrincipal: 'Declaração sobre Bibliotecas e Inteligência Artificial: privacidade, inclusão e ética',
-        figuraChave: 'IFLA Advisory Committee on Freedom of Access',
-      },
-      {
-        id: 'tl-6-4-3',
-        periodo: '2023 / 2026',
-        disciplina: 'Governança no Legislativo',
-        focoPrincipal: 'Publicação do Guia de Uso Responsável de IA na Câmara dos Deputados e aplicação de RAG institucional',
-        figuraChave: 'Câmara dos Deputados / Ditec/Cedi',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-6-4-1',
-        nome: 'IFLA Advisory Committee',
-        ano: 2020,
-        obraPrincipal: 'IFLA Statement on Libraries and Artificial Intelligence',
-        ideiaChave: 'Princípios éticos para IA em bibliotecas: privacidade do leitor, combate a preconceitos e letramento em IA.',
-        chipPegadinha: 'As bibliotecas devem manter supervisão ativa sobre sistemas automatizados de aquisição e mediação.',
-      },
-      {
-        id: 'aut-6-4-2',
-        nome: 'Cole Nussbaumer Knaflic',
-        ano: 2019,
-        obraPrincipal: 'Storytelling com Dados',
-        ideiaChave: 'Eliminação de desordem visual (data-ink ratio), direcionamento da atenção do tomador de decisão e adequação do tipo de gráfico.',
-        chipPegadinha: 'Gráficos de pizza (pie charts) devem ser evitados para comparações de múltiplos dados; o box plot é o modelo ideal para dispersão e outliers.',
-      },
-      {
-        id: 'aut-6-4-3',
-        nome: 'Ashish Vaswani et al.',
-        ano: 2017,
-        obraPrincipal: 'Attention Is All You Need',
-        ideiaChave: 'Criação da arquitetura de redes neurais baseada em Transformers com mecanismo de autoatenção.',
-        chipPegadinha: 'Transformers permitem processamento massivamente paralelo de sequências, superando as limitações das RNNs.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-6-4-1',
-        afirmacao: 'Os Foundation Models empregados em processamento de linguagem natural fundamentam-se exclusivamente em representações lógicas explícitas e sistemas especialistas baseados em regras.',
-        gabarito: 'E',
-        porQue: 'Tema de alta probabilidade no Cebraspe! Foundation Models utilizam redes neurais profundas (deep learning) com treinamento auto-supervisionado em massas gigantescas de dados, e não sistemas especialistas lógicos clássicos.',
-      },
-      {
-        id: 'peg-6-4-2',
-        afirmacao: 'Para neutralizar infecções por ransomware, a realização de backups em nuvem continuamente sincronizados com os servidores da instituição dispensa a manutenção de cópias offline desconectadas da rede.',
-        gabarito: 'E',
-        porQue: 'Tema de alta probabilidade de cobrança! Ransomwares conseguem atingir unidades montadas em rede e nuvens sincronizadas. O procedimento mais seguro exige cópias de segurança offline (air-gapped).',
-      },
-      {
-        id: 'peg-6-4-3',
-        afirmacao: 'Na arquitetura RAG (Retrieval-Augmented Generation), o modelo generativo produz respostas autônomas sem consultar bases externas de conhecimento.',
-        gabarito: 'E',
-        porQue: 'O propósito central do RAG é justamente ancorar a resposta em uma base externa confiável (banco vetorial institucional), injetando fatos reais no prompt antes da geração.',
-      },
-    ],
+  {
+    "id": "cp-6-4-1",
+    "pergunta": "Micro-Checkpoint 1: Busca Semântica por IA vs. Busca Tradicional",
+    "item": "Uma busca baseada em embeddings pode recuperar textos por similaridade de representação mesmo sem coincidência literal de palavras; essa similaridade ainda precisa ser avaliada quanto à pertinência da tarefa.",
+    "gabarito": "C",
+    "justificativa": "A representação amplia possibilidades, sem certificar significado perfeito. Também não implica que toda busca anterior fosse mera correspondência literal.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula."
   },
+  {
+    "id": "cp-6-4-2",
+    "pergunta": "Micro-Checkpoint 2: Foundation Models e Aprendizado Profundo",
+    "item": "Os denominados Foundation Models, que alicerçam ferramentas modernas de inteligência artificial generativa, operam com base na aplicação de conjuntos de regras formais pré-programadas por engenheiros, dispensando redes neurais de aprendizado profundo.",
+    "gabarito": "E",
+    "justificativa": "O item descreve regras simbólicas pré-programadas como se esgotassem modelos fundacionais. Modelos fundacionais contemporâneos são treinados em dados amplos e adaptáveis, sem limiar universal de tamanho.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "versao_correta": "Modelos fundacionais aprendem representações em treinamento amplo e podem ser adaptados a tarefas diversas."
+  },
+  {
+    "id": "cp-6-4-3",
+    "pergunta": "Micro-Checkpoint 3: Engenharia de Prompts - Zero-Shot vs. Few-Shot",
+    "item": "Na engenharia de prompts para modelos de linguagem generativa, a técnica de few-shot prompting consiste em apresentar ao modelo a instrução da tarefa sem fornecer nenhum exemplo demonstrativo prévio de entrada e saída.",
+    "gabarito": "E",
+    "justificativa": "Few-shot inclui demonstrações da tarefa; zero-shot não as inclui. Isso não impede contexto, fontes ou ferramentas em uma tarefa zero-shot.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "versao_correta": "Few-shot inclui exemplos; zero-shot não inclui demonstrações da tarefa."
+  },
+  {
+    "id": "rt-6-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um modelo fundacional precisa ter necessariamente bilhões de parâmetros para satisfazer sua definição.",
+    "gabarito": "E",
+    "justificativa": "Treinamento amplo e adaptação a diversas tarefas são centrais; não há limiar numérico universal na definição.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "editalRef": "Bloco C - Item 1.1 a 1.4",
+    "habilidade": "aplicar",
+    "versao_correta": "A definição não impõe um mínimo universal de bilhões de parâmetros."
+  },
+  {
+    "id": "rt-6-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Few-shot no contexto é necessariamente um novo treinamento que modifica os pesos.",
+    "gabarito": "E",
+    "justificativa": "Aprendizado em contexto não equivale obrigatoriamente a ajuste de parâmetros.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "editalRef": "Bloco C - Item 1.1 a 1.4",
+    "habilidade": "aplicar",
+    "versao_correta": "Few-shot pode orientar a resposta sem mudar os pesos."
+  },
+  {
+    "id": "rt-6-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma busca RAG pode usar recuperação lexical ou híbrida, além de vetorial.",
+    "gabarito": "C",
+    "justificativa": "A arquitetura não é definida exclusivamente pelo uso de embeddings densos.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "editalRef": "Bloco C - Item 1.1 a 1.4",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "WORM significa necessariamente que o dispositivo está fisicamente desconectado de qualquer rede.",
+    "gabarito": "E",
+    "justificativa": "Imutabilidade/escrita única e isolamento são propriedades diferentes.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "editalRef": "Bloco C - Item 1.1 a 1.4",
+    "habilidade": "aplicar",
+    "versao_correta": "WORM não prova desconexão física."
+  },
+  {
+    "id": "rt-6-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma citação a lei oficial revogada pode ser inadequada para responder sobre o regime atual, mesmo com texto reproduzido corretamente.",
+    "gabarito": "C",
+    "justificativa": "Fidelidade ao trecho não substitui pertinência temporal e jurídica.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "editalRef": "Bloco C - Item 1.1 a 1.4",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-4-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O uso de cores para destacar uma conclusão dispensa apresentar escala e incerteza.",
+    "gabarito": "E",
+    "justificativa": "Orientação visual deve preservar contexto e fidelidade.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+    "editalRef": "Bloco C - Item 1.1 a 1.4",
+    "habilidade": "aplicar",
+    "versao_correta": "Destaque visual não dispensa escala, contexto e incerteza pertinentes."
+  },
+  {
+    "id": "rt-6-4-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No aprendizado supervisionado, exemplos rotulados apoiam o ajuste; no não supervisionado, busca-se estrutura sem esse mesmo alvo rotulado da tarefa.",
+    "gabarito": "C",
+    "justificativa": "A distinção é o papel dos rótulos no problema de treinamento, não ausência de todo trabalho humano.",
+    "fonte": "Vaswani et al. — Attention Is All You Need (2017)",
+    "editalRef": "Bloco C - Item 1.1 a 1.4",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-6-4-fonte-attention",
+      "nome": "Vaswani et al. — Attention Is All You Need (2017)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Vaswani et al. — Attention Is All You Need (2017)",
+      "ideiaChave": "Arquitetura Transformer; atenção depende de máscaras e operação.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-4-fonte-foundation",
+      "nome": "Bommasani et al. — On the Opportunities and Risks of Foundation Models",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Bommasani et al. — On the Opportunities and Risks of Foundation Models",
+      "ideiaChave": "Treinamento amplo, adaptação e riscos; tamanho não é limiar definidor único.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-4-fonte-rag",
+      "nome": "Lewis et al. — Retrieval-Augmented Generation (2020)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lewis et al. — Retrieval-Augmented Generation (2020)",
+      "ideiaChave": "Recuperação e geração; não garante resposta sem erro.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-4-fonte-cert",
+      "nome": "CERT.br — Cartilha de Segurança",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "CERT.br — Cartilha de Segurança",
+      "ideiaChave": "Ameaças, proteção e cópias; não existe salvaguarda definitiva isolada.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-4-fonte-senado",
+      "nome": "Senado Federal — Guia de uso de IA",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Senado Federal — Guia de uso de IA",
+      "ideiaChave": "Referência institucional identificada, sem atribuí-la à Câmara.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-6-4-5",
+      "afirmacao": "Uma citação a lei oficial revogada pode ser inadequada para responder sobre o regime atual, mesmo com texto reproduzido corretamente.",
+      "gabarito": "C",
+      "porQue": "Fidelidade ao trecho não substitui pertinência temporal e jurídica."
+    },
+    {
+      "id": "memoria-rt-6-4-6",
+      "afirmacao": "O uso de cores para destacar uma conclusão dispensa apresentar escala e incerteza.",
+      "gabarito": "E",
+      "porQue": "Orientação visual deve preservar contexto e fidelidade."
+    },
+    {
+      "id": "memoria-rt-6-4-7",
+      "afirmacao": "No aprendizado supervisionado, exemplos rotulados apoiam o ajuste; no não supervisionado, busca-se estrutura sem esse mesmo alvo rotulado da tarefa.",
+      "gabarito": "C",
+      "porQue": "A distinção é o papel dos rótulos no problema de treinamento, não ausência de todo trabalho humano."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-6-4-bloco-1",
+    "titulo": "A Inteligência Artificial como Novo Paradigma na Ciência da Informação",
+    "objetivos": [
+      "Distinguir arquiteturas, representações e alcance da atenção."
+    ],
+    "conteudo": "A Inteligência Artificial (IA), historicamente dividida entre as abordagens simbólicas (sistemas especialistas baseados em regras formais explícitas — GOFAI) e as abordagens conexionistas (redes neurais artificiais), vivenciou uma ruptura revolucionária a partir de 2017 com o desenvolvimento da arquitetura de **Transformers** (*Attention Is All You Need*, Vaswani et al., 2017):\n\n```timeline\nGOFAI | 1. IA Simbólica (GOFAI) | Regras Formais e Sistemas Especialistas | Engenharia de conhecimento artesanal: regras lógicas explícitas (*if-then*) com alta interpretabilidade e rigidez funcional\n---> Aprendizado Estatístico sobre Dados\nML | 2. Machine Learning Clássico | Extração Estatística de Padrões | Modelos de espaço vetorial (TF-IDF, Naive Bayes, SVM) para classificação e ranqueamento com representações esparsas\n---> Ruptura: Redes Neurais e Transformers (2017)\nTRANS | 3. Deep Learning & Transformers | Autoatenção Paralela e LLMs | Modelos fundacionais (*Foundation Models*) com bilhões de parâmetros treinados de forma auto-supervisionada\n---> Aplicação em Unidades de Informação\nRAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperação | Vetores densos de alta dimensionalidade (*embeddings*) combinados com documentos oficiais para resposta apoiada em contexto, com risco residual a avaliar\n```\n\n#### A. A Arquitetura de Transformers e os Grandes Modelos de Linguagem (LLMs)\n* **O Mecanismo de Autoatenção (*Self-Attention*):** Permite que o modelo analise relações entre posições de tokens no contexto e segundo as máscaras; atenção causal não acessa livremente posições futuras e janelas têm limites.\n* **Superação das Redes Anteriores:** As redes neurais recorrentes (RNNs) e LSTMs processavam o texto sequencialmente palavra por palavra, gerando lentidão e perda de memória de longo prazo em textos extensos. O treinamento permite paralelizar operações em muitas posições. A geração autorregressiva normalmente produz tokens em sequência; paralelismo não equivale a gerar todo texto de uma só vez.\n* **Foundation Models (*Modelos Fundacionais*):**\n  * Modelos treinados em dados amplos, frequentemente por auto-supervisão em redes profundas, e adaptáveis a várias tarefas; não são definidos por um mínimo universal de bilhões de parâmetros (*self-supervised learning*).\n  * **Distinção conceitual:** Os Foundation Models operam a partir da extração estatística de representações em redes neurais profundas, e **NÃO** a partir de sistemas dedutivos pré-programados com regras lógicas explícitas por engenheiros do conhecimento!\n\n#### B. Embeddings Vetoriais e Busca Semântica\n* Muitas técnicas usam **vetores numéricos**, que podem ser esparsos ou densos. Embeddings aprendidos são uma representação, não toda a definição de PLN:\n* A representação pode aproximar textos relevantes semanticamente, mas proximidade não prova equivalência, verdade ou pertinência para toda tarefa.\n* **Métricas de Similaridade Vetorial:** A distância entre o vetor da consulta do usuário e os vetores dos documentos é calculada matematicamente por meio da **Similaridade por Cosseno** (ângulo entre vetores), Produto Escalar (*Dot Product*) ou Distância Euclidiana ($L_2$).\n* Isso viabiliza a recuperação semântica por conceito: uma busca por \"remuneração de servidores\" recupera documentos sobre \"vencimentos e subsídios do funcionalismo\", mesmo sem coincidência literal de palavras.\n\n**Aplicação e recuperação:** Uma consulta e um documento têm cosseno elevado, mas o texto trata de outro regime jurídico. Similaridade é sinal para ranqueamento, não prova suficiente de pertinência. Busca lexical com vocabulário controlado também pode tratar significado; “semântica” não é exclusividade de uma rede neural.",
+    "checkpointIds": [
+      "cp-6-4-1",
+      "cp-6-4-2",
+      "rt-6-4-1"
+    ]
+  },
+  {
+    "id": "sub-6-4-bloco-2",
+    "titulo": "Paradigmas de Aprendizado de Máquina (Machine Learning)",
+    "objetivos": [
+      "Comparar paradigmas de aprendizado e limites do feedback."
+    ],
+    "conteudo": "1. **Aprendizado Supervisionado (*Supervised Learning*):**\n   * O algoritmo é treinado a partir de exemplos rotulados (*labeled data*), aprendendo a mapear entradas em saídas corretas conhecidas.\n   * *Classificação:* Atribuição a categorias discretas (ex.: classificar proposições legislativas em \"Tributário\", \"Saúde\" ou \"Educação\").\n   * *Regressão:* Previsão de valores contínuos (ex.: estimar o tempo em dias para a tramitação de uma PEC).\n2. **Aprendizado Não Supervisionado (*Unsupervised Learning*):**\n   * O algoritmo analisa dados brutos sem rótulos (*unlabeled data*), descobrindo padrões intrínsecos, agrupamentos naturais ou anomalias.\n   * *Agrupamento (*Clustering*):* Algoritmos como **K-Means** e agrupamento hierárquico, aplicados para segmentar perfis de usuários de bibliotecas e mapear frentes de pesquisa científica.\n   * *Redução de Dimensionalidade:* Técnicas como **PCA** (*Principal Component Analysis*) e **t-SNE**, utilizadas para projetar espaços vetoriais de milhares de dimensões em gráficos 2D/3D legíveis.\n3. **Aprendizado por Reforço (*Reinforcement Learning - RL*) e RLHF:**\n   * O modelo aprende por tentativa e erro em um ambiente interativo, guiado por um sinal de recompensa e política de interação, conforme o método.\n   * **RLHF (*Reinforcement Learning from Human Feedback*):** Avaliadores humanos pontuam e ranqueiam diferentes respostas geradas por um LLM. Esse feedback calibra a política do modelo, buscando comportamentos preferidos, sem garantir eliminação de conteúdo ofensivo ou erros factuais.\n\n**Aplicação e recuperação:** Um classificador usa rótulos; um agrupador procura estrutura sem esses rótulos; um agente por reforço recebe sinais de recompensa. Na prática podem existir métodos combinados. Preferência humana por uma resposta não prova que a afirmação jurídica está correta.",
+    "checkpointIds": [
+      "rt-6-4-7"
+    ]
+  },
+  {
+    "id": "sub-6-4-bloco-3",
+    "titulo": "Engenharia de Prompts e a Arquitetura RAG",
+    "objetivos": [
+      "Aplicar instrução e recuperação sem prometer correção automática."
+    ],
+    "conteudo": "#### A. Estratégias de instrução: finalidade e limites:\n* **Zero-Shot Prompting:** Envio direto do comando ou pergunta ao modelo sem incluir nenhum exemplo prévio no contexto. A ausência de exemplos da tarefa não impede instruções, contexto recuperado ou ferramentas; zero-shot não significa ausência de qualquer contexto.\n* **Few-Shot Prompting:** Inclusão no corpo do prompt de alguns pares exemplificativos de entrada e saída esperada antes do comando definitivo. O modelo aprende o formato e o tom desejados por aprendizado em contexto (*in-context learning*).\n* **Chain-of-Thought (CoT - Cadeia de Pensamento):** Técnica na qual o modelo é instruído a explicitar seu raciocínio passo a passo antes de emitir a conclusão final, podendo ajudar em determinadas tarefas, sem garantir correção de premissas, cálculo, conclusão ou explicação.\n\n#### B. Arquitetura RAG (*Retrieval-Augmented Generation*):\n* Em instituições como a Câmara dos Deputados, LLMs genéricos não devem responder consultas jurídicas diretamente de sua memória estatística, sob grave risco de **alucinação** (invenção de leis ou números inexistentes).\n* **O Fluxo RAG em Três Etapas:**\n  1. *Recuperação (*Retrieve*):* Um mecanismo de recuperação busca evidências em fontes selecionadas; pode ser lexical, vetorial ou híbrido. Recuperar fonte oficial exige ainda conferir versão e pertinência (bases do LexML, Diários da Câmara e jurisprudência consolidada).\n  2. *Aumento (*Augment*):* Os fragmentos factuais mais pertinentes recuperados são injetados diretamente no contexto do prompt enviado ao LLM.\n  3. *Geração (*Generate*):* O sistema busca produzir resposta apoiada nas evidências, com atribuição verificável; o gerador ainda pode omitir condições, citar trecho inadequado ou inventar.\n\n**Aplicação e recuperação:** Few-shot inclui exemplos no contexto e não altera necessariamente pesos do modelo. RAG pode usar busca lexical. Um pedido para explicar passos não garante cálculo certo. Avalie evidência e resultado; não aceite o método anunciado como certificado de qualidade.",
+    "checkpointIds": [
+      "cp-6-4-3",
+      "rt-6-4-2",
+      "rt-6-4-3"
+    ]
+  },
+  {
+    "id": "sub-6-4-bloco-4",
+    "titulo": "Segurança da Informação, Governança Digital e Salvaguarda contra Ransomware",
+    "objetivos": [
+      "Relacionar proteção, isolamento e recuperação testada."
+    ],
+    "conteudo": "* **A Ameaça Crítica do Ransomware:**\n  * Malware que realiza o sequestro digital de arquivos institucionais por técnicas que podem incluir criptografia e outras formas de bloqueio/extorsão; AES é simétrico, não um par de chaves pública/privada, exigindo resgates financeiros vultosos em criptomoedas.\n* **Cópias e controles articulados:**\n  * Backups em nuvem sincronizados em tempo real ou pastas compartilhadas em rede local (*network shares*) são vulneráveis à infecção cruzada imediata pelo ransomware durante o ataque.\n  * Uma estratégia pode incluir **cópias offline ou isoladas**, com retenção, testes e controles. Offline, air gap e imutabilidade não são propriedades idênticas: cópias de segurança gravadas em mídias físicas desconectadas de qualquer rede computacional (ex.: fitas desconectadas, quando apropriadas. WORM significa escrita única/leitura múltipla e não prova desconexão de rede — *Write Once, Read Many*).\n* **Mecanismos Complementares de Defesa:** Autenticação multifator (MFA) obrigatória, segmentação de redes em VLANs, privilégios mínimos de acesso (*least privilege*) e soluções de EDR (*Endpoint Detection and Response*).\n\n**Aplicação e recuperação:** A cópia em nuvem está na mesma conta comprometida: localização remota não implica isolamento. Uma fita desconectada pode ajudar, mas só é útil se puder ser restaurada com dados e dependências necessários. Teste recuperação e controle acesso em vez de chamar uma medida de definitiva.",
+    "checkpointIds": [
+      "rt-6-4-4"
+    ]
+  },
+  {
+    "id": "sub-6-4-bloco-5",
+    "titulo": "Visualização de Dados e Storytelling Analítico (Power BI & Métricas)",
+    "objetivos": [
+      "Escolher e interpretar visualizações com critérios."
+    ],
+    "conteudo": "* **Microsoft Power BI no Setor Público (STJ 2024):**\n  * O recurso *\"Analisar no Excel\"* viabiliza a criação de tabelas dinâmicas diretamente conectadas ao modelo semântico (*semantic model*) hospedado no Power BI Service, permitindo análise conectada nas condições de acesso/configuração; a conexão não certifica verdade, qualidade ou atualização de todos os dados.\n* **Seleção Criteriosa de Gráficos:**\n  * **Histograma:** Exibe a distribuição de frequências de uma **variável quantitativa contínua** agrupada em intervalos definidos, que podem ter larguras diferentes com tratamento gráfico apropriado. *Atenção:* Não confundir com gráfico de barras, que representa variáveis categóricas discretas.\n  * **Box Plot (Diagrama de Caixa):** Representa a dispersão e a simetria de um conjunto de dados por quartis/mediana e hastes segundo a convenção; em boxplot de Tukey, hastes não são necessariamente extremos globais e pontos além podem ser mostrados separadamente.\n  * **Gráfico de Dispersão (*Scatter Plot*):** Revela correlações e padrões de associação bivariada entre duas variáveis contínuas.\n* **Storytelling com Dados (Cole Nussbaumer Knaflic & Edward Tufte):**\n  * Maximização da taxa de dados-tinta (*data-ink ratio*): remoção de enfeites supérfluos (*chartjunk*, bordas pesadas, efeitos 3D falsos).\n  * Uso estratégico de **atributos pré-atencionais** (cor de destaque contrastante, tamanho e posicionamento) para direcionar o olhar do gestor imediatamente à conclusão analítica pretendida.\n\n**Aplicação e recuperação:** Um histograma muda de aparência ao alterar intervalos; um boxplot usa hastes até limites definidos. A apresentação deve declarar convenção e escala. Destacar uma cor pode orientar atenção, mas não autoriza esconder incerteza ou selecionar só dados favoráveis.",
+    "checkpointIds": [
+      "rt-6-4-6"
+    ]
+  },
+  {
+    "id": "sub-6-4-bloco-6",
+    "titulo": "Governança: recomendações e normas com origem identificada",
+    "objetivos": [
+      "Definir avaliação e responsabilidades sem inventar normas internas."
+    ],
+    "conteudo": "Uma política de IA deve definir tarefas permitidas, responsáveis, fontes, avaliação e resposta a falhas. Supervisão humana deve ser substantiva: confirmar origem e validade, confrontar a resposta com documentos e reconhecer quando o sistema não dispõe de evidência. Aprovar automaticamente a saída com uma assinatura não constitui revisão efetiva.\n\nHá guias institucionais, como o **Guia de uso de IA do Senado Federal**, que precisam ser identificados pelo órgão e âmbito. Não se atribui sem documento verificável uma suposta diretriz “Ditec/Cedi 2023” à Câmara. Recomendações desta aula não são apresentadas como atos normativos internos já publicados.\n\nNo tratamento de dados, examine finalidade, base legal, necessidade, acesso, retenção, compartilhamento e condições do serviço. Inserir dados pessoais/sigilosos em ferramenta externa exige análise jurídica e de segurança; não se conclui automaticamente que qualquer uso de nuvem viola toda LGPD nem que informação publicamente visível pode ser usada sem limites.\n\nLetramento em IA inclui reconhecer fontes, limites de modelos, riscos de automação e desigualdades de representação. Bibliotecas podem apoiar avaliação crítica e acesso, sem apresentar IA como substituta universal de profissionais ou afirmar que uma arquitetura neutraliza vieses.\n\n**Caso:** modelo responde com um artigo verdadeiro de lei revogada. Fluência, citação e fonte oficial não bastam: falta adequação temporal. A equipe deve registrar versão, contexto e limite da resposta, além de rever a base de recuperação.\n\n**Aplicação e recuperação:** Um servidor compara a saída com fonte atual e identifica omissão de exceção. Essa revisão detecta erro que passaria num exame de mera fluência. A política deve atribuir responsabilidade e permitir interromper/escalar o uso quando faltar evidência.",
+    "checkpointIds": [
+      "rt-6-4-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "attention",
+    "titulo": "Vaswani et al. — Attention Is All You Need (2017)",
+    "localizador": "Arquitetura Transformer; atenção depende de máscaras e operação.",
+    "url": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "id": "foundation",
+    "titulo": "Bommasani et al. — On the Opportunities and Risks of Foundation Models",
+    "localizador": "Treinamento amplo, adaptação e riscos; tamanho não é limiar definidor único.",
+    "url": "https://arxiv.org/abs/2108.07258"
+  },
+  {
+    "id": "rag",
+    "titulo": "Lewis et al. — Retrieval-Augmented Generation (2020)",
+    "localizador": "Recuperação e geração; não garante resposta sem erro.",
+    "url": "https://arxiv.org/abs/2005.11401"
+  },
+  {
+    "id": "cert",
+    "titulo": "CERT.br — Cartilha de Segurança",
+    "localizador": "Ameaças, proteção e cópias; não existe salvaguarda definitiva isolada.",
+    "url": "https://cartilha.cert.br/"
+  },
+  {
+    "id": "senado",
+    "titulo": "Senado Federal — Guia de uso de IA",
+    "localizador": "Referência institucional identificada, sem atribuí-la à Câmara.",
+    "url": "https://www12.senado.leg.br/manualdecomunicacao/guia-de-uso-de-ia"
+  }
+],
 };

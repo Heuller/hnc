@@ -14,294 +14,274 @@ export const submodulo74: ModuloFilho = {
   ],
   titulo: 'Intervenções Curativas, Restauração e Planos de Contingência contra Desastres',
   antesDeLer: [
-    {
-      termo: 'Intervenção Curativa e Restauração',
-      definicao: 'Ações diretas sobre o objeto danificado para estabilizar sua deterioração e recuperar sua integridade física segundo princípios éticos.',
-      exemploBiblioteca: 'Enxerto mecânico de papel japonês com metilcelulose em páginas rasgadas de um exemplar de 1824 da Carta Outorgada.',
-    },
-    {
-      termo: 'Princípio da Reversibilidade',
-      definicao: 'Norma ética fundamental que determina que qualquer material ou técnica aplicada na restauração deve poder ser removida sem danificar o original.',
-      exemploBiblioteca: 'Proibição estrita do uso de fitas adesivas comerciais tipo \'durex\' ou colas plásticas sintéticas em livros raros.',
-    },
-    {
-      termo: 'Plano de Contingência contra Desastres',
-      definicao: 'Protocolo formal de emergência que estabelece rotinas e prioridades de resgate em caso de incêndio, inundação ou vandalismo.',
-      exemploBiblioteca: 'Lista de prioridade de evacuação que coloca as primeiras edições e manuscritos raros como itens número 1 a serem resgatados.',
-    },
-    {
-      termo: 'Liofilização (Secagem por Congelamento)',
-      definicao: 'Técnica de resgate de documentos molhados por inundação através de sublimação a vácuo, evitando proliferação de fungos e deformação.',
-      exemploBiblioteca: 'Congelamento imediato de caixas de documentos atingidas por vazamento acidental em depósito subterrâneo.',
-    },
-  ],
-  descricaoCurta: 'Princípios éticos da restauração (Brandi: reversibilidade, mínima intervenção e distinguibilidade), testes de solubilidade de tintas, desacidificação, remendos com papel japonês, leafcasting, encadernação de conservação e protocolos de emergência e congelamento em sinistros.',
-  tempoEstimadoMinutos: 14,
+  {
+    "termo": "Retratamento",
+    "definicao": "Possibilidade de realizar intervenções futuras sem impedimentos indevidos.",
+    "exemploBiblioteca": "A escolha do reparo considera envelhecimento e interação com suporte."
+  },
+  {
+    "termo": "Estabilização",
+    "definicao": "Medida para controlar risco ou deterioração, sem equivaler a reparação completa.",
+    "exemploBiblioteca": "Congelar material molhado compatível pode ganhar tempo, sem esterilizar."
+  }
+],
+  descricaoCurta: "Aplicar princípios éticos reconhecendo limites de reversibilidade. Relacionar diagnóstico, testes e procedimentos sem receita química universal. Definir abertura e estrutura de encadernação pelo objeto. Priorizar pessoas, triagem e estabilização em um sinistro.",
+  tempoEstimadoMinutos: 22,
   prioridade: 'baixa',
-  autoresChave: ['Cesare Brandi', 'Paul Philippot', 'Antônio Celso Ramos Spinelli', 'Norma Cassares', 'Stefan Michalski', 'Robert Waller'],
+  autoresChave: [
+  "Cassares — Como fazer conservação preventiva (2000)",
+  "ICOM-CC — Terminology for conservation (2008)",
+  "Barbara Appelbaum — Criteria for treatment: reversibility (1987)",
+  "CCI — Mould Outbreak: An Immediate Response",
+  "Library of Congress — Books: frequently asked questions"
+],
   alertasCebraspe: [
-    'O princípio supremo e inegociável da restauração moderna de documentos gráficos é a REVERSIBILIDADE: qualquer tratamento, adesivo ou reforço aplicado ao documento histórico deve poder ser desfeito a qualquer tempo no futuro sem causar o menor dano ao suporte original.',
-    'Princípio da Mínima Intervenção: o restaurador deve intervir apenas o estritamente necessário para garantir a estabilidade física e a legibilidade do texto, sem tentar "embelezar" o documento, criar falsificações históricas (pastiche) ou apagar os traços genuínos de sua história material.',
-    'Princípio da Distinguibilidade (Discernibilidade): a intervenção de restauração deve integrar-se harmoniosamente ao conjunto visual, mas deve ser claramente discernível sob o exame técnico atento de especialistas, evitando enganar o observador.',
-    'Testes de solubilidade de tintas: antes de qualquer banho de lavagem ou desacidificação aquosa, é OBRIGATÓRIO testar a solubilidade de cada tinta, carimbo ou manuscrito presente na folha com microgotas de água e solventes sob lupa estereoscópica.',
-    'Adesivos e papéis de restauração: utilizam-se exclusivamente colas reversíveis à base de amido de trigo purificado ou metilcelulose e reforços de PAPEL JAPONÊS (fibras longas de Kozo/Gampi, pH neutro e alta translucidez). Colas sintéticas irreversíveis (cianoacrilato, PVA escolar e fita adesiva) são terminantemente vedadas.',
-    'Sinistros de Alagamento e Inundação: livros encharcados sofrem eclosão massiva de fungos em 48 a 72 horas. A medida técnica emergencial padrão para paralisar o ataque biológico e estabilizar o suporte até a secagem controlada ou liofilização é o CONGELAMENTO RÁPIDO imediato a temperaturas inferiores a -18 °C.',
-  ],
-  quadroComparativo: {
-    titulo: 'Os Quatro Princípios Éticos Fundamentais da Restauração de Documentos Gráficos',
-    colunas: ['Princípio Ético', 'Definição e Exigência Teórica', 'Aplicação Prática no Laboratório', 'Erro Frequente em Concursos / Prática Condenada'],
-    linhas: [
-      ['Reversibilidade', 'Todo material ou adesivo empregado na restauração deve ser passível de remoção futura sem prejuízo ao original', 'Uso estrito de colas solúveis em água (amido de trigo purificado ou metilcelulose) e papéis japoneses finos', 'Emprego de colas sintéticas insolúveis (resinas epóxi, superbonder/cianoacrilato ou cola plástica PVA industrial).'],
-      ['Mínima Intervenção', 'Intervir apenas onde houver risco iminente de perda de matéria ou perda de legibilidade estrutural', 'Não preencher margens sadias; limitar o enxerto às áreas com perda de suporte (lacunas e furos de broca)', 'Tentar fazer o livro parecer "novo de fábrica" através de refilamento de margens ou lixamento de cortes.'],
-      ['Distinguibilidade', 'A intervenção restauradora deve ser harmoniosa, mas identificável sob olhar técnico atento', 'O papel japonês do remendo possui textura levemente distinta da folha original sob ampliação', 'Falsificar tipografia de época com caneta moderna ou tentar camuflar totalmente a intervenção enganando o leitor.'],
-      ['Autenticidade Histórica', 'Respeito absoluto à passagem do tempo e aos testemunhos materiais e culturais da obra', 'Preservação de anotações marginais de posse, carimbos históricos e encadernações primitivas', 'Remover anotações de época de parlamentares ou autores por considerá-las "rabiscos indesejados".'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Teoria da Restauração e a Ética Internacional
-
-A restauração de bens culturais e documentos históricos apoia-se nos pilares conceituais formulados por **Cesare Brandi** (*Teoria da Restauração*, 1963) e nas convenções internacionais do patrimônio (Carta de Veneza de 1964 e Carta do Restauro):
-
-<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
-> **Fundamentação Teórica (Cesare Brandi, 1963):** De acordo com Cesare Brandi (1963), a restauração configura o momento metodológico de reconhecimento da obra de arte ou bem documentário em sua consistência material e em sua dupla dimensão (estética e histórica), com o propósito precípuo de assegurar sua justa transmissão às gerações futuras.
-
-\`\`\`tree
-TITLE: Princípios Éticos da Restauração Documental (Cesare Brandi / Cartas do Restauro)
-- Ética Internacional da Restauração | Reconhecimento da obra em sua consistência física, estética e histórica
-  - 1. Reversibilidade Plena | Todo tratamento, reforço ou adesivo deve poder ser desfeito sem dano futuro
-    - Adesivos Reversíveis | Emprego exclusivo de amido de trigo, arroz purificado ou metilcelulose solúvel em água
-    - Banho de Reversão | Possibilidade técnica de remoção completa do enxerto sem desfibramento do suporte original
-  - 2. Mínima Intervenção | Agir estritamente no necessário para garantir a estabilidade física do item
-    - Estabilização Sem Excesso | Não intervir onde o documento mantém estabilidade e legibilidade
-    - Manutenção de Faltas Neutras | Lacunas que não comprometem a compreensão não devem ser preenchidas arbitrariamente
-  - 3. Distinguibilidade / Discernibilidade | O restauro deve ser perceptível ao exame atento sem criar falso histórico
-    - Diferenciação Óptica | Reintegração cromática e estrutural sutilmente discernível da matéria original
-    - Vedação a Falsificações | Proibição de recriar artificialmente pátina do tempo ou forjar documentos primitivos
-  - 4. Compatibilidade Físico-Química | Materiais introduzidos devem ser química e mecanicamente compatíveis
-    - Papel Japonês Kozo | Fibras longas de celulose pura de amoreira com pH neutro/alcalino
-    - Equilíbrio de Gramatura | Enxertos com gramatura similar ou ligeiramente inferior para não forçar as bordas
-  - 5. Respeito à Autenticidade Histórica | Preservação de todas as marcas legítimas da trajetória do documento
-    - Marcas de Posse e Históricas | Respeito a carimbos antigos, anotações de parlamentares e encadernações de época
-    - Registro em Ficha de Restauro | Documentação fotográfica e memorial descritivo antes, durante e após a intervenção
-\`\`\`
-
-#### Os Princípios Deontológicos Inegociáveis:
-1. **Reversibilidade:**  
-   Todo procedimento químico, reforço mecânico ou adesivo aplicado ao documento deve poder ser desfeito a qualquer momento pelas gerações futuras sem agredir ou arrancar fibras do suporte original.
-2. **Mínima Intervenção:**  
-   Não se restaura para conferir ao livro aspecto de novidade estética. O foco restringe-se a estabilizar a matéria degradada, restituir a solidez estrutural e devolver a legibilidade textual.
-3. **Distinguibilidade (Discernibilidade da Intervenção):**  
-   O restauro não pode se constituir em falsificação histórica (*falso histórico* ou *pastiche*). Sob exame aproximado de uma lupa, o especialista deve conseguir distinguir com facilidade a matéria histórica original da intervenção restauradora contemporânea.
-4. **Compatibilidade dos Materiais:**  
-   Os materiais introduzidos devem possuir características mecânicas e químicas harmoniosas com o documento antigo (não podem ser mais rígidos, mais ácidos ou mais pesados que a folha original).
-5. **Respeito à Autenticidade Histórica:**  
-   Marcas de proveniência histórica, ex-líbris, carimbos de gabinetes parlamentares antigos e anotações marginais de estadistas são partes integrantes do valor documental da obra e jamais devem ser removidos ou apagados.
-
----
-
-### 2. O Processo Laboratorial de Restauração em Papel
-
-O fluxo técnico de tratamento em laboratórios de conservação e restauração de obras raras segue etapas científicas sequenciais (Spinelli, 2003; Beck, 1995; Cassares, 2000):
-
-#### A. Diagnóstico e Registro Fotográfico
-* Exame organoléptico preliminar, verificação do pH superficial por fitas medidoras de pH ou peagômetro digital de contato, mapeamento de danos e abertura da **Ficha Técnica de Diagnóstico e Tratamento**, acompanhada de registro fotográfico antes, durante e após a intervenção.
-
-#### B. Testes Obrigatórios de Solubilidade das Tintas
-* **Procedimento Crítico de Segurança:** Antes de qualquer contato do documento com água ou solventes líquidos, aplica-se uma microgota de água destilada e solventes orgânicos sobre manuscritos, assinaturas, tintas de impressão e carimbos sob lupa estereoscópica, absorvendo com papel de filtro.
-* Se a tinta soltar pigmento ou sangrar no papel absorvente, o banho aquoso é expressamente proibido, exigindo fixação prévia temporária com resinas reversíveis (ex.: ciclododecano ou Paraloid B-72).
-
-#### C. Higienização e Desacidificação
-* **Banho de Lavagem Aquosa:** Realizado em cubas de aço inoxidável com água desionizada para remoção de produtos solúveis da degradação ácida.
-* **Desacidificação e Neutralização:** Aplicação de soluções alcalinas contendo **hidróxido de cálcio [$Ca(OH)_2$], bicarbonato de cálcio [$Ca(HCO_3)_2$] ou bicarbonato de magnésio**. O tratamento eleva o pH para a faixa neutra (7,0 a 7,5) e precipita uma **reserva alcalina protetora de carbonato de cálcio ($CaCO_3$)**, que neutralizará a acidez futura.
-
-#### D. Remendos, Enxertos e Papel Japonês
-* **O Papel Japonês (*Washi*):** Confeccionado artesanalmente no Japão a partir das fibras de entrecasca de arbustos nobres: **Kozo** (amoreira-de-papel, de fibras extra-longas e resistentes), **Mitsumata** e **Gampi**. Possui pH neutro, alta flexibilidade, espessura ultrafina (gramaturas de 5 a 20 g/m²) e transparência quase ótica.
-* **Adesivos Reversíveis Aprovados:**
-  * *Cola de Amido de Trigo Purificado (*Wheat Starch Paste*):* Excelente adesividade mecânica, pH neutro e solubilidade total em água.
-  * *Metilcelulose / Carboximetilcelulose (CMC):* Éteres sintéticos de celulose, quimicamente inertes, imunes a ataques de fungos e traças (não possuem nutrientes orgânicos atrativos) e facilmente reversíveis em água fria.
-* **Reintegração Mecânica de Suporte (*Leafcasting*):**
-  * Para folhas crivadas por centenas de furos de brocas ou com bordas esfaceladas, utiliza-se a máquina de obturação de folhas (*leafcaster*). A folha é disposta sobre uma tela e uma suspensão aquosa de polpa pura de algodão é succionada a vácuo, preenchendo automaticamente com novas fibras apenas as lacunas e furos vazios, sem recobrir nenhuma área com texto.
-
----
-
-### 3. Encadernação de Conservação
-
-Diferencia-se da encadernação comercial ou artesanal estética comum por priorizar a integridade mecânica permanente da obra:
-* **Preservação de Margens Históricas:** É estritamente **proibido guilhotinar, aparar ou refilar os cortes das folhas**. Todas as barbas de papel, cortes irregulares históricos e marcas d'água originais devem ser mantidos intactos.
-* **Costura Flexível:** Emprego de fio de linho cru não alvejado costurado manualmente sobre suportes flexíveis (cadarços de linho ou tiras de pergaminho vegetal).
-* **Abertura em 180°:** A estrutura permite que o livro se abra em ângulo plano de 180 graus de forma confortável e estável, sem estresse mecânico na lombada e sem quebrar as páginas na canaleta central.
-
----
-
-### 4. Gestão de Riscos e Planos de Salvaguarda contra Desastres (Michalski, Waller, Conarq)
-
-A preservação preventiva contemporânea adota o método de gerenciamento de riscos patrimoniais desenvolvido pelo *Canadian Conservation Institute* (CCI) e pelo ICCROM (**Stefan Michalski e Robert Waller**), que identifica os **10 Agentes Universais de Deterioração**:
-1. Forças Físicas Diretas (impactos, terremotos, manuseio incorreto);
-2. Criminosos (furto, roubo, vandalismo);
-3. Fogo / Incêndio;
-4. Água / Inundações e vazamentos prediais;
-5. Pragas Biológicas (insetos, roedores, mofo);
-6. Poluentes Atmosféricos;
-7. Luz e Radiação UV;
-8. Temperatura Inadequada (calor excessivo);
-9. Umidade Relativa Inadequada (seca ou umidade excessiva);
-10. Dissociação (perda de proveniência, extravio de registros catalográficos e desorganização).
-
-#### Protocolo Emergencial em Caso de Inundação / Grandes Alagamentos:
-* **A Janela Crítica das 48 Horas:** Livros e papéis encharcados de água iniciam a proliferação explosiva e incontrolável de fungos filamentosos dentro de **48 a 72 horas**.
-* **Medida Técnica Padrão-Ouro de Salvamento:**
-  * O acervo alagado deve ser imediatamente embalado em papel manteiga/siliconado e submetido ao **CONGELAMENTO RÁPIDO a temperaturas inferiores a $-18$ °C a $-20$ °C**.
-  * O congelamento solidifica a água e **paralisa de forma imediata o crescimento biológico de mofo e a hidrólise**, conferindo à equipe técnica dias, semanas ou meses para planejar a secagem sem perda das coleções.
-  * *Técnicas de Secagem Subsequentes:*
-    * **Liofilização (*Freeze-Drying* / Sublimação):** Os livros congelados são colocados em câmara de vácuo onde a água congelada passa diretamente do estado sólido para o gasoso (sublimação), secando os livros sem deformar as folhas nem colar as páginas entre si.
-    * **Secagem Manual Controlada:** Livros com pouca umidade são postos em pé em leque (*fan-out*) em ambiente com desumidificadores e ventiladores forçados indiretos, intercalando folhas de papel absorvente mata-borrão neutro a cada poucas páginas.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Segurança da Informação e Riscos (sub-14-2):** Planos de contingência contra desastres e continuidade do negócio.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-As **Intervenções Curativas, a Restauração e os Planos de Contingência contra Desastres** tratam do resgate técnico de acervos danificados por sinistros ou deterioração avançada:
-1. **Princípios Éticos Fundamentais da Restauração (Cartas Internacionais de Restauro):**
-   - **Reversibilidade:** Todo material, adesivo ou técnica aplicada em uma intervenção deve poder ser removido no futuro sem causar danos ao original.
-   - **Legibilidade e Distinguibilidade:** A intervenção não deve falsificar o documento histórico; partes reintegradas devem ser sutis, porém discerníveis pelo olho de um especialista.
-   - **Mínima Intervenção:** Intervir apenas no estritamente necessário para garantir a estabilidade física e a funcionalidade do documento, sem buscar uma "falsa aparência de novo".
-   - **Estabilidade Química:** Uso exclusivo de adesivos inertes (metilcelulose, cola de amido purificado de trigo/arroz) e papel japonês (*kozo/gampi*) de fibras longas livres de ácido.
-2. **Planos de Gestão de Riscos e Contingência contra Desastres (IFLA / CPBA):**
-   - Um desastre é qualquer evento imprevisto que cause destruição rápida em larga escala (incêndios, inundações, rompimento de tubulações, desabamentos).
-   - **Fases do Plano de Desastres:**
-     1. *Prevenção e Mitigação:* Identificação de vulnerabilidades prediais, manutenção de extintores (CO2 e gás limpo FM-200; evitar água sob livros raros), limpeza de calhas e revisão de rede elétrica.
-     2. *Preparação:* Formação da brigada interna de salvamento, lista de contatos de emergência atualizada, suprimentos de resgate em prontidão (lonas plásticas, caixas plásticas, toalhas absorventes).
-     3. *Resposta Imediata:* Garantir a segurança das vidas humanas em primeiro lugar; isolar a fonte do perigo; estabilizar o ambiente; priorizar o resgate dos acervos mais valiosos da instituição.
-     4. *Recuperação:* Triagem, secagem e reabilitação de documentos atingidos.
-3. **Resgate de Documentos Molhados (Inundações):**
-   - A proliferação de fungos ocorre em **48 a 72 horas** após o contato com a água!
-   - Se for impossível secar todo o acervo em até 48 horas, a conduta correta canônica é o **congelamento imediato dos documentos molhados** (a -20 °C), que interrompe o crescimento de fungos e ganha tempo para posterior liofilização (*freeze-drying*) ou secagem lenta com ar circulante frio.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Restauração com Papel Japonês na Biblioteca Pedro Aleixo):** Uma ata original da Constituinte de 1988 apresenta rasgos profundos na folha de assinaturas dos deputados. O restaurador do laboratório do CEDI utiliza papel japonês *Kozo* de 9 g/m² e adesivo de metilcelulose pura. A intervenção é perfeitamente **reversível** em banho de água morna e visível sob luz rasante, cumprindo a ética internacional de restauro.
-- **Cenário 2 (Rompimento de Tubulação de Ar-Condicionado no Depósito):** Uma tubulação de condensado se rompe no fim de semana, molhando 2.000 volumes de anais parlamentares. A equipe de emergência da Câmara isola o vazamento e transporta imediatamente os volumes encharcados para câmaras frigoríficas industriais a -20 °C, impedindo que colônias de fungos destruam o papel nas 48 horas seguintes.
-- **Cenário 3 (Simulado Anual de Evacuação de Obras Raras):** A Brigada de Emergência do CEDI realiza simulação de incêndio: enquanto os brigadistas direcionam os servidores para as saídas de emergência, os bibliotecários identificam as caixas prioritárias identificadas com fitas refletivas vermelhas (o acervo constitucional histórico), prontas para serem retiradas em carrinhos antichoque.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Conceito / Fase | Ação Primária | Regra Inegociável | Erro Típico da Banca |
-| :--- | :--- | :--- | :--- |
-| **Reversibilidade** | Uso de materiais solúveis | Remoção sem danos no futuro | Usar cola branca PVA comum |
-| **Mínima Intervenção** | Estabilizar a estrutura física | Não redesenhar ou repintar texto | Tentar deixar o livro como "novo" |
-| **Documentos Molhados** | Congelar em até 48 horas | Parar o crescimento de fungos | Deixar secar ao sol direto |
-| **Extintor em Obras Raras** | Gás limpo (FM-200 / CO2) | Não deixar resíduos corrosivos | Usar pó químico seco ou água |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Secagem de Livros ao Sol:** O Cebraspe propõe que livros encharcados por enchente devem ser abertos ao sol quente do meio-dia para secagem rápida. **Gabarito: ERRADO.** O calor solar empena o papel, deforma encadernações, oxida tintas e acelera o desenvolvimento de fungos; a secagem deve ser feita em ambiente ventilado com ar frio desumidificado ou por congelamento/liofilização.
-- **Uso de Adesivo Sintético Irreversível:** Dizer que o restaurador deve usar cola branca escolar (PVA) ou supercola de cianoacrilato para fixar lombadas históricas. **Gabarito: ERRADO.** Fere o princípio ético da **reversibilidade**.
-- **Primeira Prioridade no Desastre:** Afirmar que a prioridade número um ao soar o alarme de incêndio é salvar os manuscritos raros. **Gabarito: ERRADO.** A salvaguarda de vidas humanas é a prioridade absoluta número um; os bens materiais só são resgatados após a evacuação segura de todas as pessoas.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **IFLA.** *Diretrizes para o Planejamento de Desastres em Bibliotecas*. Haia: IFLA Core Activity on Preservation and Conservation, 2006. (A cartilha canônica de gestão de desastres).
-- **BUCHANAN, Sally A.** *Planejamento e gerenciamento de desastres*. Rio de Janeiro: Projeto CPBA; Arquivo Nacional, 2001.
-- **CASSARES, Norma Cristina.** *Como fazer conservação preventiva em arquivos e bibliotecas*. São Paulo: Imprensa Oficial, 2000.
-- **CARVALHO, Cláudia S. Rodrigues de et al.** *Gestão de riscos para o patrimônio museológico e bibliográfico*. Rio de Janeiro: Museu Histórico Nacional, 2014.
-- **WATERS, Peter.** *Procedures for salvage of water-damaged library materials*. Washington: Library of Congress, 1993.`,
+  "Limpeza pode ser irreversível; a diretriz não elimina limites materiais.",
+  "Neutralizar acidez não reverte automaticamente a despolimerização.",
+  "Nenhum desses materiais autoriza tal garantia universal."
+],
+  teoriaDensaMarkdown: "### A Teoria da Restauração e a Ética Internacional\n\nA restauração de bens culturais e documentos históricos apoia-se nos pilares conceituais formulados por **Cesare Brandi** (*Teoria da Restauração*, 1963) e nas convenções internacionais do patrimônio (Carta de Veneza de 1964 e Carta do Restauro):\n\nA teoria de Brandi discute a materialidade e as dimensões histórica e estética da obra. Sua aplicação a documentos exige considerar função e significado do objeto. Não se atribui uma paráfrase editorial a uma citação literal não conferida, nem se deriva dela uma receita química universal.\n| Princípio | Implicação prática | Limite a reconhecer |\n| --- | --- | --- |\n| Intervenção mínima | Justificar cada ação necessária. | Não significa nunca intervir em dano ativo. |\n| Compatibilidade | Avaliar suporte, meios gráficos e material introduzido. | Produto reputado estável pode ser inadequado ao objeto. |\n| Removibilidade e retratamento | Preferir soluções que permitam intervenção futura. | Não há garantia de reversão integral de todo tratamento. |\n| Discernibilidade | Não criar falso histórico; registrar o que foi acrescentado. | Não obriga contraste visual grosseiro. |\n| Documentação | Registrar estado, testes, decisões e resultado. | Fotografia isolada não substitui relatório do tratamento. |\n\n#### Princípios éticos e sua aplicação:\n1. **Reversibilidade:**  \n   Reversibilidade é diretriz histórica importante, mas **não garantia de desfazer integralmente qualquer procedimento a qualquer momento**. Limpeza pode remover matéria de forma irreversível. Considere removibilidade, limites, envelhecimento e possibilidade de retratamento.\n2. **Mínima Intervenção:**  \n   Não se restaura para conferir ao livro aspecto de novidade estética. A intervenção deve ser justificada pelas necessidades de estabilidade, compreensão e uso, respeitando o significado; não se prescreve tornar toda obra “nova” nem toda lacuna invisível.\n3. **Distinguibilidade (Discernibilidade da Intervenção):**  \n   O restauro não pode se constituir em falsificação histórica (*falso histórico* ou *pastiche*). A intervenção deve ser reconhecível por exame e documentação adequados, sem falsificação; isso não exige uma única técnica de lupa ou contraste ostensivo em todo caso.\n4. **Compatibilidade dos Materiais:**  \n   Os materiais introduzidos devem possuir características mecânicas e químicas harmoniosas com o documento antigo (não podem ser mais rígidos, mais ácidos ou mais pesados que a folha original).\n5. **Respeito à Autenticidade Histórica:**  \n   Marcas de proveniência histórica, ex-líbris, carimbos de gabinetes parlamentares antigos e anotações marginais de estadistas são partes integrantes do valor documental da obra e não devem ser apagados por simples desejo de embelezamento; a avaliação documentada deve considerar seu significado e possíveis conflitos de conservação.\n\n**Aplicação e recuperação:** Remover uma sujidade pode ser irreversível. Isso exige avaliar se a ação é necessária e registrar o que se faz, em vez de anunciar que todo tratamento é plenamente reversível. Um reparo compatível deve favorecer intervenções futuras e preservar significado.\n\n### O Processo Laboratorial de Restauração em Papel\n\nO fluxo técnico de tratamento em laboratórios de conservação e restauração de obras raras é definido após diagnóstico, não como sequência obrigatória de banhos e reparos para todo objeto (Spinelli, 2003; Beck, 1995; Cassares, 2000):\n\n#### A. Diagnóstico e Registro Fotográfico\n* Exame organoléptico preliminar, verificação do pH superficial por fitas medidoras de pH ou peagômetro digital de contato, mapeamento de danos e abertura da **Ficha Técnica de Diagnóstico e Tratamento**, acompanhada de registro fotográfico antes, durante e após a intervenção.\n\n#### B. Testes Obrigatórios de Solubilidade das Tintas\n* **Procedimento Crítico de Segurança:** Antes de qualquer contato do documento com água ou solventes líquidos, o conservador seleciona e executa testes localizados adequados aos materiais e à proposta de tratamento; testes podem causar alterações e exigem competência, documentação e análise de risco.\n* Se a tinta soltar pigmento ou sangrar no papel absorvente, o banho aquoso é expressamente proibido, não autorizando prosseguir com um fixador genérico. Fixação pode ser uma opção especializada em determinados casos, mas nem ciclododecano nem Paraloid B-72 são solução universal, intercambiável ou automaticamente reversível.\n\n#### C. Higienização e Desacidificação\n* **Banho de Lavagem Aquosa:** Realizado em cubas de aço inoxidável com água desionizada para remoção de produtos solúveis da degradação ácida.\n* **Desacidificação e Neutralização:** Aplicação de soluções alcalinas contendo **hidróxido de cálcio [$Ca(OH)_2$], bicarbonato de cálcio [$Ca(HCO_3)_2$] ou bicarbonato de magnésio**. O objetivo pode envolver neutralizar acidez e introduzir reserva alcalina, conforme processo e materiais. Não há pH-alvo único para todos os objetos; sais de magnésio não são automaticamente reserva de carbonato de cálcio. Desacidificação não recompõe cadeias de celulose já rompidas.\n\n#### D. Remendos, Enxertos e Papel Japonês\n* **O Papel Japonês (*Washi*):** Confeccionado artesanalmente no Japão a partir das fibras de entrecasca de arbustos nobres: **Kozo** (amoreira-de-papel, de fibras extra-longas e resistentes), **Mitsumata** e **Gampi**. Suas propriedades variam por fibra, processo e produto. Gramatura, resistência e espessura devem ser compatíveis; o nome washi não certifica uma faixa única ou neutralidade.\n* **Adesivos Reversíveis Aprovados:**\n  * *Cola de Amido de Trigo Purificado (*Wheat Starch Paste*):* Excelente adesividade mecânica, pH neutro e comportamento de remoção a avaliar no sistema e após envelhecimento.\n  * *Metilcelulose / Carboximetilcelulose (CMC):* Derivados modificados de celulose com propriedades distintas conforme grau e formulação; **não são imunes universalmente a biodeterioração** nem garantem remoção integral em água fria após qualquer envelhecimento.\n* **Reintegração Mecânica de Suporte (*Leafcasting*):**\n  * Para folhas crivadas por centenas de furos de brocas ou com bordas esfaceladas, utiliza-se a máquina de obturação de folhas (*leafcaster*). A folha é disposta sobre uma tela e uma suspensão aquosa de polpa pura de algodão é succionada a vácuo, buscando preencher lacunas. Condições, tintas e suporte precisam de testes; a operação não possui garantia automática de nunca recobrir ou alterar uma área.\n\n**Aplicação e recuperação:** Tinta solúvel é detectada. Não se continua automaticamente o banho adicionando “qualquer fixador reversível”. Pode ser necessário mudar ou abandonar a proposta. Elevar pH também não reconstrói a resistência molecular já perdida.\n\n### Encadernação de Conservação\n\nDiferencia-se da encadernação comercial ou artesanal estética comum por priorizar a integridade mecânica permanente da obra:\n* **Preservação de Margens Históricas:** É estritamente **proibido guilhotinar, aparar ou refilar os cortes das folhas**. Todas as barbas de papel, cortes irregulares históricos e marcas d'água originais devem ser mantidos intactos.\n* **Costura Flexível:** Emprego de fio de linho cru não alvejado costurado manualmente sobre suportes flexíveis (cadarços de linho ou tiras de material escolhido pelo conservador; pergaminho animal e papel denominado vegetal não são equivalentes).\n* **Abertura em 180°:** A abertura deve ser compatível com a estrutura e o estado do volume. **Não se força todo livro a 180°**; apoios podem limitar o ângulo e reduzir tensão. Abertura plana não é requisito universal de encadernação de conservação.\n\n**Aplicação e recuperação:** O volume abre confortavelmente até 110°. Forçá-lo a 180° para cumprir uma suposta regra de conservação cria tensão. Apoiar e limitar a abertura pode ser a medida correta, inclusive durante digitalização.\n\n### Gestão de Riscos e Planos de Salvaguarda contra Desastres (Michalski, Waller, Conarq)\n\nA preservação preventiva contemporânea adota o método de gerenciamento de riscos patrimoniais apoiado em abordagens como as de Michalski e Waller e em materiais do CCI/ICCROM. Os **dez agentes de deterioração** são uma estrutura de identificação de riscos; não se atribui toda metodologia a uma única autoria conjunta:\n1. Forças Físicas Diretas (impactos, terremotos, manuseio incorreto);\n2. Criminosos (furto, roubo, vandalismo);\n3. Fogo / Incêndio;\n4. Água / Inundações e vazamentos prediais;\n5. Pragas Biológicas (insetos, roedores, mofo);\n6. Poluentes Atmosféricos;\n7. Luz e Radiação UV;\n8. Temperatura Inadequada (calor excessivo);\n9. Umidade Relativa Inadequada (seca ou umidade excessiva);\n10. Dissociação (perda de proveniência, extravio de registros catalográficos e desorganização).\n\n#### Protocolo Emergencial em Caso de Inundação / Grandes Alagamentos:\n* **A Janela Crítica das 48 Horas:** Há urgência porque crescimento pode ocorrer em poucos dias sob condições favoráveis. **48–72 horas é alerta operacional frequente, não cronômetro universal**: temperatura, substrato, contaminação e umidade alteram a evolução.\n* **Escolha de estabilização conforme diagnóstico:** antes de entrar, assegure condições estruturais/elétricas e proteção das pessoas. Água contaminada pode exigir resposta especializada.\n  * O congelamento pode estabilizar **materiais compatíveis**, sobretudo quando não há capacidade de secagem rápida. Triar, identificar e acondicionar segundo protocolo; não prescrever congelamento e embalagem idênticos para todo suporte ou objeto molhado.\n  * Reduz a atividade biológica e reações enquanto o material permanece congelado, ganhando tempo; **não esteriliza**, não desfaz dano existente e não garante perda zero. O objeto leva tempo para atingir a temperatura do equipamento.\n  * *Técnicas de Secagem Subsequentes:*\n    * **Liofilização (*Freeze-Drying* / Sublimação):** Os livros congelados são colocados em câmara de vácuo onde a água congelada passa diretamente do estado sólido para o gasoso (sublimação), podendo reduzir certos danos em comparação com alternativas, mas sem garantir ausência de deformações ou aderências em qualquer material.\n    * **Secagem Manual Controlada:** Para livros estáveis e compatíveis com secagem ao ar, apoio e ventilação controlada podem ajudar. Volumes frágeis ou grandes não devem ser postos em pé indiscriminadamente. Intercalação excessiva pode deformar a lombada; não se espalham esporos com ventiladores em área ocupada.\n\n**Aplicação e recuperação:** Uma inundação atinge dois mil volumes. Primeiro vêm segurança e coordenação; depois identificação, prioridades e técnicas compatíveis. Congelamento de parte do lote pode ganhar tempo quando não é possível secá-lo rapidamente. A operação não elimina a necessidade de tratar contaminação e planejar a secagem.",
+  teoriaDidaticaMarkdown: "Intervenha com justificativa, documentação e compatibilidade. Reversibilidade não é promessa de desfazer toda ação. Desacidificação não reconstrói cadeias rompidas; adesivos não são imunes universalmente a pragas. Em sinistros, segurança vem primeiro. Congelamento pode estabilizar materiais compatíveis; não esteriliza nem substitui secagem e acompanhamento.",
   checkpoints: [
-    {
-      id: 'cp-7-4-1',
-      pergunta: 'Micro-Checkpoint 1: Princípio da Reversibilidade',
-      item: 'No âmbito da restauração de documentos gráficos e livros raros, o princípio da reversibilidade estabelece que qualquer substância, adesivo ou reforço introduzido no suporte documental deve poder ser desfeito a qualquer tempo sem provocar novas deteriorações à obra original.',
-      gabarito: 'C',
-      justificativa: 'Correto! A reversibilidade é o mandamento ético fundamental da moderna ciência da conservação e restauração.',
-    },
-    {
-      id: 'cp-7-4-2',
-      pergunta: 'Micro-Checkpoint 2: Materiais para Reparo de Rasgos',
-      item: 'Para a consolidação de rasgos e preenchimento de perdas de suporte em manuscritos históricos, a prática laboratorial correta prescreve o uso de papel celofane com adesivo de contato instantâneo (cianoacrilato), devido à sua secagem rápida e alta transparência.',
-      gabarito: 'E',
-      justificativa: 'Errado! Cianoacrilato (superbonder) e celofane são totalmente proibidos e destrutivos. Utilizam-se exclusivamente papéis japoneses de fibras longas (Kozo/Gampi) e colas naturais reversíveis de amido ou metilcelulose.',
-    },
-    {
-      id: 'cp-7-4-3',
-      pergunta: 'Micro-Checkpoint 3: Congelamento em Sinistros de Alagamento de Acervos',
-      item: 'Em situações de emergência causadas por grandes alagamentos de bibliotecas, o congelamento rápido de livros encharcados a temperaturas inferiores a -18°C é técnica válida para paralisar a proliferação biológica de fungos e retardar a degradação física até o processo de secagem controlada.',
-      gabarito: 'C',
-      justificativa: 'Certo! O congelamento estabiliza o papel molhado e impede a germinação de esporos fúngicos (que se desenvolvem em 48 a 72 horas em ambiente úmido), concedendo tempo para a liofilização ou secagem técnica planejada.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-7-4-1',
-        periodo: '1963 / 1964',
-        disciplina: 'Teoria da Restauração',
-        focoPrincipal: 'Publicação da Teoria da Restauração de Cesare Brandi e homologação da Carta de Veneza',
-        figuraChave: 'Cesare Brandi e Paul Philippot',
-      },
-      {
-        id: 'tl-7-4-2',
-        periodo: '1966',
-        disciplina: 'A Inundação de Florença',
-        focoPrincipal: 'Marco histórico que refinou as técnicas de secagem, liofilização e encadernação de conservação',
-        figuraChave: 'Comitê Internacional de Salvamento de Florença',
-      },
-      {
-        id: 'tl-7-4-3',
-        periodo: '1995 / 2004',
-        disciplina: 'Gestão de Riscos (CCI/ICCROM)',
-        focoPrincipal: 'Desenvolvimento do modelo dos 10 Agentes Universais de Deterioração Patrimonial',
-        figuraChave: 'Stefan Michalski e Robert Waller',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-7-4-1',
-        nome: 'Cesare Brandi',
-        ano: 1963,
-        obraPrincipal: 'Teoria da Restauração',
-        ideiaChave: 'Bases éticas da restauração: reversibilidade, distinguibilidade, mínima intervenção e valor histórico.',
-        chipPegadinha: 'A restauração nunca deve criar um falso histórico nem falsificar a passagem do tempo.',
-      },
-      {
-        id: 'aut-7-4-2',
-        nome: 'Antônio Celso Ramos Spinelli',
-        ano: 2003,
-        obraPrincipal: 'Cadernos de Conservação e Restauração',
-        ideiaChave: 'Sistematização dos testes de solubilidade, lavagem, desacidificação e uso de papel japonês no Brasil.',
-        chipPegadinha: 'Antes de qualquer banho úmido, é obrigatório o teste de gota em todas as tintas.',
-      },
-      {
-        id: 'aut-7-4-3',
-        nome: 'Stefan Michalski e Robert Waller',
-        ano: 2004,
-        obraPrincipal: 'The 10 Agents of Deterioration / Risk Management for Cultural Heritage',
-        ideiaChave: 'Classificação holística das 10 forças de degradação patrimonial e planos de contingência contra desastres.',
-        chipPegadinha: 'Dissociação (perda de dados/inventário) é um dos 10 agentes graves de deterioração patrimonial.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-7-4-1',
-        afirmacao: 'Na restauração de um livro raro do século XVIII, o procedimento correto de encadernação exige que suas margens laterais sejam aparadas por guilhotina mecânica para nivelar o corte e torná-lo uniforme.',
-        gabarito: 'E',
-        porQue: 'Refilar ou guilhotinar margens históricas destrói anotações marginais, barbas de papel e marcas d\'água originais, constituindo mutilação patrimonial inaceitável.',
-      },
-      {
-        id: 'peg-7-4-2',
-        afirmacao: 'A realização de banhos de desacidificação aquosa em folhas de livros antigos prescinde da realização prévia de testes de solubilidade em tintas e carimbos.',
-        gabarito: 'E',
-        porQue: 'O teste de solubilidade de tintas é obrigatório antes de qualquer contato com água; do contrário, tintas ferrogálicas ou anilinas podem dissolver-se e apagar o texto para sempre.',
-      },
-      {
-        id: 'peg-7-4-3',
-        afirmacao: 'Em um sinistro de inundação de grandes proporções em uma biblioteca histórica, os livros encharcados devem ser mantidos amontoados em temperatura ambiente aguardando secagem natural ao longo de várias semanas.',
-        gabarito: 'E',
-        porQue: 'Em 48 a 72 horas em temperatura ambiente, livros encharcados sofrem eclosão massiva e irreversível de fungos (mofo). A medida emergencial imediata é o congelamento rápido (< -18°C) para paralisar a atividade biológica.',
-      },
-    ],
+  {
+    "id": "cp-7-4-1",
+    "pergunta": "Micro-Checkpoint 1: Princípio da Reversibilidade",
+    "item": "Na restauração documental, a diretriz de reversibilidade orienta a escolha de intervenções removíveis e favoráveis ao retratamento futuro, reconhecendo que não se garante desfazer integralmente toda ação em qualquer momento.",
+    "gabarito": "C",
+    "justificativa": "A diretriz precisa ser interpretada com limites materiais. Removibilidade, envelhecimento, compatibilidade e documentação são pertinentes; limpeza pode ser irreversível.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo."
   },
+  {
+    "id": "cp-7-4-2",
+    "pergunta": "Micro-Checkpoint 2: Materiais para Reparo de Rasgos",
+    "item": "Para a consolidação de rasgos e preenchimento de perdas de suporte em manuscritos históricos, a prática laboratorial correta prescreve o uso de papel celofane com adesivo de contato instantâneo (cianoacrilato), devido à sua secagem rápida e alta transparência.",
+    "gabarito": "E",
+    "justificativa": "Celofane e cianoacrilato não são prescrição adequada para esse reparo patrimonial. A escolha exige diagnóstico, materiais compatíveis e registro; papel japonês e adesivos selecionados são opções, sem exclusividade universal.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+    "versao_correta": "O reparo deve ser definido por avaliação especializada, com materiais compatíveis e possibilidade de retratamento."
+  },
+  {
+    "id": "cp-7-4-3",
+    "pergunta": "Micro-Checkpoint 3: Congelamento em Sinistros de Alagamento de Acervos",
+    "item": "Em emergência por inundação, o congelamento rápido pode ser técnica válida para estabilizar livros molhados compatíveis com esse tratamento e ganhar tempo para secagem planejada, sem equivaler a esterilização.",
+    "gabarito": "C",
+    "justificativa": "É opção reconhecida quando há demora/capacidade limitada de secagem. Compatibilidade, segurança, acondicionamento e monitoramento permanecem necessários; não existe garantia universal por temperatura isolada.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo."
+  },
+  {
+    "id": "rt-7-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A diretriz de reversibilidade garante que toda limpeza possa devolver integralmente a matéria removida, a qualquer tempo.",
+    "gabarito": "E",
+    "justificativa": "Limpeza pode ser irreversível; a diretriz não elimina limites materiais.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "Avaliam-se necessidade, removibilidade e possibilidade de retratamento."
+  },
+  {
+    "id": "rt-7-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Desacidificar um papel recompõe necessariamente as cadeias de celulose já rompidas.",
+    "gabarito": "E",
+    "justificativa": "Neutralizar acidez não reverte automaticamente a despolimerização.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "Desacidificação pode reduzir risco futuro, sem recuperar necessariamente a resistência perdida."
+  },
+  {
+    "id": "rt-7-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Metilcelulose é imune a toda biodeterioração e dispensa avaliação do ambiente.",
+    "gabarito": "E",
+    "justificativa": "Nenhum desses materiais autoriza tal garantia universal.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "Formulação, aplicação e condições ambientais devem ser avaliadas."
+  },
+  {
+    "id": "rt-7-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Abrir todo livro raro a 180° é requisito universal de encadernação de conservação.",
+    "gabarito": "E",
+    "justificativa": "A estrutura e o estado definem o ângulo seguro.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "A abertura deve respeitar o volume e pode exigir apoio e limitação."
+  },
+  {
+    "id": "rt-7-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Congelar livros molhados compatíveis pode ganhar tempo, mas não equivale a esterilizar o lote nem garante perda zero.",
+    "gabarito": "C",
+    "justificativa": "A estabilização é parte de uma resposta, com triagem e secagem posteriores.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-7-4-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A contagem de 48 horas dispensa avaliar condições locais porque o mofo começa necessariamente no mesmo instante em todo material.",
+    "gabarito": "E",
+    "justificativa": "É alerta operacional, não limiar universal.",
+    "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+    "editalRef": "Bloco D - Item 4.8",
+    "habilidade": "aplicar",
+    "versao_correta": "Tempo e urgência devem ser analisados com substrato, ambiente e contaminação."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-7-4-fonte-cassares",
+      "nome": "Cassares — Como fazer conservação preventiva (2000)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Cassares — Como fazer conservação preventiva (2000)",
+      "ideiaChave": "PDF do projeto; limites de técnicas, avaliação de suporte e intervenção.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-7-4-fonte-icom",
+      "nome": "ICOM-CC — Terminology for conservation (2008)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ICOM-CC — Terminology for conservation (2008)",
+      "ideiaChave": "Finalidades da conservação e restauração.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-7-4-fonte-appelbaum",
+      "nome": "Barbara Appelbaum — Criteria for treatment: reversibility (1987)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Barbara Appelbaum — Criteria for treatment: reversibility (1987)",
+      "ideiaChave": "Graus de reversibilidade e possibilidade de retratamento; JAIC 26(2), 65–73.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-7-4-fonte-cci-mould",
+      "nome": "CCI — Mould Outbreak: An Immediate Response",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "CCI — Mould Outbreak: An Immediate Response",
+      "ideiaChave": "Segurança, estabilização e opções conforme situação.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-7-4-fonte-loc",
+      "nome": "Library of Congress — Books: frequently asked questions",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Library of Congress — Books: frequently asked questions",
+      "ideiaChave": "Livros molhados, secagem e encaminhamento ao congelamento.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-7-4-4",
+      "afirmacao": "Abrir todo livro raro a 180° é requisito universal de encadernação de conservação.",
+      "gabarito": "E",
+      "porQue": "A estrutura e o estado definem o ângulo seguro."
+    },
+    {
+      "id": "memoria-rt-7-4-5",
+      "afirmacao": "Congelar livros molhados compatíveis pode ganhar tempo, mas não equivale a esterilizar o lote nem garante perda zero.",
+      "gabarito": "C",
+      "porQue": "A estabilização é parte de uma resposta, com triagem e secagem posteriores."
+    },
+    {
+      "id": "memoria-rt-7-4-6",
+      "afirmacao": "A contagem de 48 horas dispensa avaliar condições locais porque o mofo começa necessariamente no mesmo instante em todo material.",
+      "gabarito": "E",
+      "porQue": "É alerta operacional, não limiar universal."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-7-4-bloco-1",
+    "titulo": "A Teoria da Restauração e a Ética Internacional",
+    "objetivos": [
+      "Aplicar princípios éticos reconhecendo limites de reversibilidade."
+    ],
+    "conteudo": "A restauração de bens culturais e documentos históricos apoia-se nos pilares conceituais formulados por **Cesare Brandi** (*Teoria da Restauração*, 1963) e nas convenções internacionais do patrimônio (Carta de Veneza de 1964 e Carta do Restauro):\n\nA teoria de Brandi discute a materialidade e as dimensões histórica e estética da obra. Sua aplicação a documentos exige considerar função e significado do objeto. Não se atribui uma paráfrase editorial a uma citação literal não conferida, nem se deriva dela uma receita química universal.\n| Princípio | Implicação prática | Limite a reconhecer |\n| --- | --- | --- |\n| Intervenção mínima | Justificar cada ação necessária. | Não significa nunca intervir em dano ativo. |\n| Compatibilidade | Avaliar suporte, meios gráficos e material introduzido. | Produto reputado estável pode ser inadequado ao objeto. |\n| Removibilidade e retratamento | Preferir soluções que permitam intervenção futura. | Não há garantia de reversão integral de todo tratamento. |\n| Discernibilidade | Não criar falso histórico; registrar o que foi acrescentado. | Não obriga contraste visual grosseiro. |\n| Documentação | Registrar estado, testes, decisões e resultado. | Fotografia isolada não substitui relatório do tratamento. |\n\n#### Princípios éticos e sua aplicação:\n1. **Reversibilidade:**  \n   Reversibilidade é diretriz histórica importante, mas **não garantia de desfazer integralmente qualquer procedimento a qualquer momento**. Limpeza pode remover matéria de forma irreversível. Considere removibilidade, limites, envelhecimento e possibilidade de retratamento.\n2. **Mínima Intervenção:**  \n   Não se restaura para conferir ao livro aspecto de novidade estética. A intervenção deve ser justificada pelas necessidades de estabilidade, compreensão e uso, respeitando o significado; não se prescreve tornar toda obra “nova” nem toda lacuna invisível.\n3. **Distinguibilidade (Discernibilidade da Intervenção):**  \n   O restauro não pode se constituir em falsificação histórica (*falso histórico* ou *pastiche*). A intervenção deve ser reconhecível por exame e documentação adequados, sem falsificação; isso não exige uma única técnica de lupa ou contraste ostensivo em todo caso.\n4. **Compatibilidade dos Materiais:**  \n   Os materiais introduzidos devem possuir características mecânicas e químicas harmoniosas com o documento antigo (não podem ser mais rígidos, mais ácidos ou mais pesados que a folha original).\n5. **Respeito à Autenticidade Histórica:**  \n   Marcas de proveniência histórica, ex-líbris, carimbos de gabinetes parlamentares antigos e anotações marginais de estadistas são partes integrantes do valor documental da obra e não devem ser apagados por simples desejo de embelezamento; a avaliação documentada deve considerar seu significado e possíveis conflitos de conservação.\n\n**Aplicação e recuperação:** Remover uma sujidade pode ser irreversível. Isso exige avaliar se a ação é necessária e registrar o que se faz, em vez de anunciar que todo tratamento é plenamente reversível. Um reparo compatível deve favorecer intervenções futuras e preservar significado.",
+    "checkpointIds": [
+      "cp-7-4-1",
+      "rt-7-4-1"
+    ]
+  },
+  {
+    "id": "sub-7-4-bloco-2",
+    "titulo": "O Processo Laboratorial de Restauração em Papel",
+    "objetivos": [
+      "Relacionar diagnóstico, testes e procedimentos sem receita química universal."
+    ],
+    "conteudo": "O fluxo técnico de tratamento em laboratórios de conservação e restauração de obras raras é definido após diagnóstico, não como sequência obrigatória de banhos e reparos para todo objeto (Spinelli, 2003; Beck, 1995; Cassares, 2000):\n\n#### A. Diagnóstico e Registro Fotográfico\n* Exame organoléptico preliminar, verificação do pH superficial por fitas medidoras de pH ou peagômetro digital de contato, mapeamento de danos e abertura da **Ficha Técnica de Diagnóstico e Tratamento**, acompanhada de registro fotográfico antes, durante e após a intervenção.\n\n#### B. Testes Obrigatórios de Solubilidade das Tintas\n* **Procedimento Crítico de Segurança:** Antes de qualquer contato do documento com água ou solventes líquidos, o conservador seleciona e executa testes localizados adequados aos materiais e à proposta de tratamento; testes podem causar alterações e exigem competência, documentação e análise de risco.\n* Se a tinta soltar pigmento ou sangrar no papel absorvente, o banho aquoso é expressamente proibido, não autorizando prosseguir com um fixador genérico. Fixação pode ser uma opção especializada em determinados casos, mas nem ciclododecano nem Paraloid B-72 são solução universal, intercambiável ou automaticamente reversível.\n\n#### C. Higienização e Desacidificação\n* **Banho de Lavagem Aquosa:** Realizado em cubas de aço inoxidável com água desionizada para remoção de produtos solúveis da degradação ácida.\n* **Desacidificação e Neutralização:** Aplicação de soluções alcalinas contendo **hidróxido de cálcio [$Ca(OH)_2$], bicarbonato de cálcio [$Ca(HCO_3)_2$] ou bicarbonato de magnésio**. O objetivo pode envolver neutralizar acidez e introduzir reserva alcalina, conforme processo e materiais. Não há pH-alvo único para todos os objetos; sais de magnésio não são automaticamente reserva de carbonato de cálcio. Desacidificação não recompõe cadeias de celulose já rompidas.\n\n#### D. Remendos, Enxertos e Papel Japonês\n* **O Papel Japonês (*Washi*):** Confeccionado artesanalmente no Japão a partir das fibras de entrecasca de arbustos nobres: **Kozo** (amoreira-de-papel, de fibras extra-longas e resistentes), **Mitsumata** e **Gampi**. Suas propriedades variam por fibra, processo e produto. Gramatura, resistência e espessura devem ser compatíveis; o nome washi não certifica uma faixa única ou neutralidade.\n* **Adesivos Reversíveis Aprovados:**\n  * *Cola de Amido de Trigo Purificado (*Wheat Starch Paste*):* Excelente adesividade mecânica, pH neutro e comportamento de remoção a avaliar no sistema e após envelhecimento.\n  * *Metilcelulose / Carboximetilcelulose (CMC):* Derivados modificados de celulose com propriedades distintas conforme grau e formulação; **não são imunes universalmente a biodeterioração** nem garantem remoção integral em água fria após qualquer envelhecimento.\n* **Reintegração Mecânica de Suporte (*Leafcasting*):**\n  * Para folhas crivadas por centenas de furos de brocas ou com bordas esfaceladas, utiliza-se a máquina de obturação de folhas (*leafcaster*). A folha é disposta sobre uma tela e uma suspensão aquosa de polpa pura de algodão é succionada a vácuo, buscando preencher lacunas. Condições, tintas e suporte precisam de testes; a operação não possui garantia automática de nunca recobrir ou alterar uma área.\n\n**Aplicação e recuperação:** Tinta solúvel é detectada. Não se continua automaticamente o banho adicionando “qualquer fixador reversível”. Pode ser necessário mudar ou abandonar a proposta. Elevar pH também não reconstrói a resistência molecular já perdida.",
+    "checkpointIds": [
+      "cp-7-4-2",
+      "rt-7-4-2",
+      "rt-7-4-3"
+    ]
+  },
+  {
+    "id": "sub-7-4-bloco-3",
+    "titulo": "Encadernação de Conservação",
+    "objetivos": [
+      "Definir abertura e estrutura de encadernação pelo objeto."
+    ],
+    "conteudo": "Diferencia-se da encadernação comercial ou artesanal estética comum por priorizar a integridade mecânica permanente da obra:\n* **Preservação de Margens Históricas:** É estritamente **proibido guilhotinar, aparar ou refilar os cortes das folhas**. Todas as barbas de papel, cortes irregulares históricos e marcas d'água originais devem ser mantidos intactos.\n* **Costura Flexível:** Emprego de fio de linho cru não alvejado costurado manualmente sobre suportes flexíveis (cadarços de linho ou tiras de material escolhido pelo conservador; pergaminho animal e papel denominado vegetal não são equivalentes).\n* **Abertura em 180°:** A abertura deve ser compatível com a estrutura e o estado do volume. **Não se força todo livro a 180°**; apoios podem limitar o ângulo e reduzir tensão. Abertura plana não é requisito universal de encadernação de conservação.\n\n**Aplicação e recuperação:** O volume abre confortavelmente até 110°. Forçá-lo a 180° para cumprir uma suposta regra de conservação cria tensão. Apoiar e limitar a abertura pode ser a medida correta, inclusive durante digitalização.",
+    "checkpointIds": [
+      "rt-7-4-4"
+    ]
+  },
+  {
+    "id": "sub-7-4-bloco-4",
+    "titulo": "Gestão de Riscos e Planos de Salvaguarda contra Desastres (Michalski, Waller, Conarq)",
+    "objetivos": [
+      "Priorizar pessoas, triagem e estabilização em um sinistro."
+    ],
+    "conteudo": "A preservação preventiva contemporânea adota o método de gerenciamento de riscos patrimoniais apoiado em abordagens como as de Michalski e Waller e em materiais do CCI/ICCROM. Os **dez agentes de deterioração** são uma estrutura de identificação de riscos; não se atribui toda metodologia a uma única autoria conjunta:\n1. Forças Físicas Diretas (impactos, terremotos, manuseio incorreto);\n2. Criminosos (furto, roubo, vandalismo);\n3. Fogo / Incêndio;\n4. Água / Inundações e vazamentos prediais;\n5. Pragas Biológicas (insetos, roedores, mofo);\n6. Poluentes Atmosféricos;\n7. Luz e Radiação UV;\n8. Temperatura Inadequada (calor excessivo);\n9. Umidade Relativa Inadequada (seca ou umidade excessiva);\n10. Dissociação (perda de proveniência, extravio de registros catalográficos e desorganização).\n\n#### Protocolo Emergencial em Caso de Inundação / Grandes Alagamentos:\n* **A Janela Crítica das 48 Horas:** Há urgência porque crescimento pode ocorrer em poucos dias sob condições favoráveis. **48–72 horas é alerta operacional frequente, não cronômetro universal**: temperatura, substrato, contaminação e umidade alteram a evolução.\n* **Escolha de estabilização conforme diagnóstico:** antes de entrar, assegure condições estruturais/elétricas e proteção das pessoas. Água contaminada pode exigir resposta especializada.\n  * O congelamento pode estabilizar **materiais compatíveis**, sobretudo quando não há capacidade de secagem rápida. Triar, identificar e acondicionar segundo protocolo; não prescrever congelamento e embalagem idênticos para todo suporte ou objeto molhado.\n  * Reduz a atividade biológica e reações enquanto o material permanece congelado, ganhando tempo; **não esteriliza**, não desfaz dano existente e não garante perda zero. O objeto leva tempo para atingir a temperatura do equipamento.\n  * *Técnicas de Secagem Subsequentes:*\n    * **Liofilização (*Freeze-Drying* / Sublimação):** Os livros congelados são colocados em câmara de vácuo onde a água congelada passa diretamente do estado sólido para o gasoso (sublimação), podendo reduzir certos danos em comparação com alternativas, mas sem garantir ausência de deformações ou aderências em qualquer material.\n    * **Secagem Manual Controlada:** Para livros estáveis e compatíveis com secagem ao ar, apoio e ventilação controlada podem ajudar. Volumes frágeis ou grandes não devem ser postos em pé indiscriminadamente. Intercalação excessiva pode deformar a lombada; não se espalham esporos com ventiladores em área ocupada.\n\n**Aplicação e recuperação:** Uma inundação atinge dois mil volumes. Primeiro vêm segurança e coordenação; depois identificação, prioridades e técnicas compatíveis. Congelamento de parte do lote pode ganhar tempo quando não é possível secá-lo rapidamente. A operação não elimina a necessidade de tratar contaminação e planejar a secagem.",
+    "checkpointIds": [
+      "cp-7-4-3",
+      "rt-7-4-5",
+      "rt-7-4-6"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "cassares",
+    "titulo": "Cassares — Como fazer conservação preventiva (2000)",
+    "localizador": "PDF do projeto; limites de técnicas, avaliação de suporte e intervenção.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Preserva%C3%A7%C3%A3o%20f%C3%ADsica/cf5.pdf"
+  },
+  {
+    "id": "icom",
+    "titulo": "ICOM-CC — Terminology for conservation (2008)",
+    "localizador": "Finalidades da conservação e restauração.",
+    "url": "https://www.icom-cc.org/en/terminology-for-conservation"
+  },
+  {
+    "id": "appelbaum",
+    "titulo": "Barbara Appelbaum — Criteria for treatment: reversibility (1987)",
+    "localizador": "Graus de reversibilidade e possibilidade de retratamento; JAIC 26(2), 65–73.",
+    "url": "https://cool.culturalheritage.org/jaic/articles/jaic26-02-001_indx.html"
+  },
+  {
+    "id": "cci-mould",
+    "titulo": "CCI — Mould Outbreak: An Immediate Response",
+    "localizador": "Segurança, estabilização e opções conforme situação.",
+    "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/mould-outbreak-immediate-response.html"
+  },
+  {
+    "id": "loc",
+    "titulo": "Library of Congress — Books: frequently asked questions",
+    "localizador": "Livros molhados, secagem e encaminhamento ao congelamento.",
+    "url": "https://www.loc.gov/preservation/about/faqs/books.html"
+  }
+],
 };
