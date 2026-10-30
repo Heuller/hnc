@@ -3,6 +3,7 @@ import { createServer } from 'vite';
 import fs from 'node:fs/promises';
 import ts from 'typescript';
 import crypto from 'node:crypto';
+import { lerLotes, hashQuestao } from './revisaoQuestoes.mjs';
 const destino = process.argv[2] || 'docs/relatorios/acervo';
 const server = await createServer({ server: { middlewareMode: true }, appType: 'custom' });
 const hash = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
@@ -15,6 +16,8 @@ try {
  const { comentarioGenerico, contrasteArtificial } = await server.ssrLoadModule('/src/domain/qualidadeEditorial.ts');
  const ativos = new Set(ALL_SIMULADOS_REGISTRY.flatMap(s => s.questoes.map(q => q.id)));
  const revisados = JSON.parse(await fs.readFile('docs/relatorios/REVISAO_EDITORIAL_ITENS_2026-10-29.json','utf8')).alteracoes;
+ const lotesIndividuais = await lerLotes();
+ const revisoesPorItem = new Map(lotesIndividuais.map(r => [r.caminho + ':' + r.id, r]));
  const raw=[];
  for (const file of await fs.readdir('src/content/questions')) {
   if (!file.endsWith('.ts')) continue;
@@ -44,6 +47,8 @@ try {
  const linhas=conjuntos.flatMap(([origem,items])=>items.map(q=>{
   const {path: _path, line: _line, ...conteudo} = q;
   const impressao=hash(conteudo);
+  const revisao = origem === 'banco' ? revisoesPorItem.get(q.path + ':' + q.id) : undefined;
+  const revisaoVigente = revisao?.shaDepois === hashQuestao(conteudo);
   const texto=q.item||q.enunciado||'',j=q.justificativa||'',grupo=grupos.get(normalizar(q))||[],achado=revisados.find(r=>r.id===q.id && r.sha256Conteudo===impressao),sinais=[];
   if(!j.trim())sinais.push('sem-justificativa');
   if(comentarioGenerico(j))sinais.push('justificativa-generica');
@@ -53,9 +58,10 @@ try {
   if(grupo.length>1)sinais.push('texto-repetido');
   if(new Set(grupo.filter(r=>ativos.has(r.id)).map(r=>r.gabarito)).size>1)sinais.push('conflito-gabarito-ativo');
   if(!q.fonte&&!q.fontePrimaria)sinais.push('fonte-sem-localizador-especifico');
-  return {origem,id:q.id,path:q.path||origem,line:q.line||null,sha256:impressao,ativo:origem==='banco'?ativos.has(q.id):origem!=='base-adaptativa-legada',familiaTexto:hash(normalizar(q)),statusEditorial:achado?achado.acao:'pendente-de-revisao-conceitual-individual',homologado:false,motivoForaDoTreino:origem==='banco'&&!ativos.has(q.id)?(!elegivelParaEstudo(q)?'conferencia-editorial':'fora-do-registro-de-simulados'):null,sinais};
+  if (revisao && !revisaoVigente) sinais.push('registro-de-revisao-desatualizado');
+  return {origem,id:q.id,path:q.path||origem,line:q.line||null,sha256:impressao,ativo:origem==='banco'?ativos.has(q.id):origem!=='base-adaptativa-legada',familiaTexto:hash(normalizar(q)),statusEditorial:revisaoVigente?revisao.status:achado?achado.acao:'pendente-de-revisao-conceitual-individual',dataRevisao:revisaoVigente?revisao.data:null,homologado:false,motivoForaDoTreino:origem==='banco'&&!ativos.has(q.id)?(!elegivelParaEstudo(q)?'conferencia-editorial':'fora-do-registro-de-simulados'):null,sinais};
  }));
- const resumo={foraDoRegistro:raw.filter(q=>elegivelParaEstudo(q)&&!ativos.has(q.id)).length,emConferencia:raw.filter(q=>!elegivelParaEstudo(q)).length,exerciciosDerivadosDosCheckpoints:checkpoints.length,data:'2026-10-29',limite:'Cobertura integral de inventário e triagem técnica; revisão conceitual integral PENDENTE. Ausência de sinal não equivale a aprovação editorial.',contagens:Object.fromEntries(conjuntos.map(([o,q])=>[o,q.length])),ativosBanco:ativos.size,revisaoFocal:revisados.length,homologadosNestaRodada:0,gruposRepetidos:[...grupos.values()].filter(g=>g.length>1).length,sinais:linhas.reduce((a,r)=>(r.sinais.forEach(s=>a[s]=(a[s]||0)+1),a),{}),pendenciasConceituais:linhas.filter(l=>l.statusEditorial==='pendente-de-revisao-conceitual-individual').length};
+ const resumo={foraDoRegistro:raw.filter(q=>elegivelParaEstudo(q)&&!ativos.has(q.id)).length,emConferencia:raw.filter(q=>!elegivelParaEstudo(q)).length,exerciciosDerivadosDosCheckpoints:checkpoints.length,data:new Date().toISOString().slice(0,10),limite:'Cobertura integral de inventário e triagem técnica; revisão conceitual integral PENDENTE. Ausência de sinal não equivale a aprovação editorial.',contagens:Object.fromEntries(conjuntos.map(([o,q])=>[o,q.length])),ativosBanco:ativos.size,revisaoFocalHistorica:revisados.length,revisaoIndividualVigente:linhas.filter(l=>l.origem==='banco'&&l.statusEditorial==='revisado').length,homologadosNestaRodada:0,gruposRepetidos:[...grupos.values()].filter(g=>g.length>1).length,sinais:linhas.reduce((a,r)=>(r.sinais.forEach(s=>a[s]=(a[s]||0)+1),a),{}),pendenciasConceituais:linhas.filter(l=>l.statusEditorial==='pendente-de-revisao-conceitual-individual').length};
  await fs.mkdir(destino,{recursive:true});await fs.writeFile(destino+'/resumo.json',JSON.stringify(resumo,null,2));await fs.writeFile(destino+'/itens.json',JSON.stringify(linhas,null,2));
  const colunas=['origem','id','path','line','sha256','ativo','familiaTexto','statusEditorial','homologado','sinais'];
  const cell=v=>'"'+String(Array.isArray(v)?v.join(';'):v??'').replaceAll('"','""')+'"';

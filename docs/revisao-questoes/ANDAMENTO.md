@@ -19,7 +19,10 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 | M3 — Classificação e Indexação | 100/100 | Revisão individual aplicada |
 | M4 — Recuperação, Fontes e Referência | 100/100 | Revisão individual aplicada |
 | M2 — Catalogação, RDA, modelos e MARC | 100/100 | Revisão individual aplicada |
-| Demais cadernos e banco complementar | 0/1.879 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
+| M1 — Fundamentos, leis, informação e ética | 100/100 | Revisão individual aplicada |
+| M5 — Gestão, coleções, avaliação e conhecimento | 100/100 | Revisão individual aplicada |
+| M6 — Bibliotecas digitais, interoperabilidade, dados e IA | 100/100 | Revisão individual aplicada |
+| Demais cadernos e banco complementar | 0/1.579 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
 
@@ -28,3 +31,11 @@ O arquivo do acervo chamado CDD 23 traduzida é uma compilação comentada, com 
 Não modificar retrospectivamente a primeira tentativa do aluno para fazê-la parecer resposta à nova redação. Antes de publicar alterações de julgamento, verificar tratamento de sessões ativas e históricos. A dificuldade permanece uma estimativa editorial até haver dados de desempenho.
 
 Marco de 300 itens: corrigidos também os vínculos com a teoria pelo assunto efetivo. Verificações antigas exigiam 50% de cada gabarito e 25 questões por submódulo, impondo restrições que podiam impedir correções de julgamento e vínculos. Esses requisitos sem base na banca foram substituídos por integridade de contagem, validade dos julgamentos e existência do submódulo. Não foram alterados gabaritos para satisfazer porcentagens.
+
+Após o marco de 300, a suíte completa foi executada sobre os 400 itens então aplicados: 978 testes aprovados, lint, auditoria estrutural e compilação aprovados. A UI distingue adaptação editorial de origem oficialmente confirmada; a correção conceitual não é prova de origem. O próximo envio de lote é o marco de 600 itens.
+
+Marco de 600 itens: M1, M5 e M6 concluídos neste processo. No M5 foram corrigidas definições de desbastamento, dimensões do conhecimento e aplicações de CRM/DSI, com redação explicitamente adaptada quando necessário. No M6, contrastes absurdos foram substituídos por confusões conceituais plausíveis; explicações delimitam versões de software, funções de protocolos, FAIR, preservação e limites da IA. Vínculos de teoria seguem o assunto efetivo.
+
+O diagnóstico lexical deixou de impor tetos de palavras e cotas de gabarito sem base empírica oficial: as distribuições continuam visíveis para análise editorial. O censo técnico passou a reconhecer o registro individual vigente por hash, mantendo separados os registros históricos e as pendências dos demais tipos de atividade.
+
+Validação do marco de 600: 978 testes em 125 arquivos aprovados, lint sem falhas, verificações estruturais e compilação com orçamentos aprovados. O censo registra 600 revisões individuais vigentes; os demais tipos de atividade mantêm inventário e registro separados. Os testes não certificam a correção conceitual das 1.579 questões ainda pendentes.

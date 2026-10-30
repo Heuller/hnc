@@ -44,9 +44,11 @@ describe('P18 — Auditoria e Trava de Regressão da Proveniência Honesta das Q
     expect(adaptadas.length).toBeGreaterThan(0);
 
     adaptadas.forEach((q) => {
-      const temIdOriginal = Boolean(q.fonteOriginal.provaId || q.fonteOriginal.questaoOriginalId);
+      const temIdOriginal = Boolean(q.fonteOriginal.provaId || q.fonteOriginal.questaoOriginalId || q.fonteOriginal.origemAcervoLocal || q.fonteOriginal.declaracaoLegada);
       expect(temIdOriginal).toBe(true);
-      expect(q.fonteOriginal.verificado).toBe(true);
+      if (!q.fonteOriginal.verificado) {
+        expect(obterInfoProveniencia(q.fonteOriginal).textoRodape).toContain('não confirmada');
+      }
     });
   });
 
@@ -57,6 +59,15 @@ describe('P18 — Auditoria e Trava de Regressão da Proveniência Honesta das Q
     ineditas.forEach((q) => {
       expect(q.fonteOriginal.verificado).toBe(false);
     });
+  });
+
+  it('não anuncia uma adaptação não verificada como originária de prova oficial', () => {
+    const info = obterInfoProveniencia({ tipo: 'adaptada', descricao: 'Atribuição legada', verificado: false, orgao: 'SUFRAMA', ano: 2014, provaId: 'id-legado' });
+    expect(info.rotulo).toBe('Adaptada — origem não confirmada');
+    expect(info.rotulo).not.toContain('SUFRAMA');
+    expect(info.detalhe).toBeUndefined();
+    expect(info.textoRodape).not.toContain('a partir de prova oficial');
+    expect(info.verificado).toBe(false);
   });
 
   it('assegura que o formatador UI de proveniência nunca exibe banca e ano para itens inéditos', () => {

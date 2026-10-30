@@ -36,6 +36,9 @@ export function obterTextoRodapeProveniencia(fonteOriginal?: FonteOriginal): str
   }
 
   if (fonteOriginal.tipo === 'adaptada') {
+    if (!fonteOriginal.verificado) {
+      return 'Adaptação editorial; atribuição à prova de origem ainda não confirmada em documento oficial.';
+    }
     const orgaoAno = [fonteOriginal.banca || 'Cebraspe', fonteOriginal.orgao, fonteOriginal.ano].filter(Boolean).join(' / ');
     return `Questão adaptada a partir de prova oficial: ${orgaoAno}.`;
   }
@@ -77,6 +80,17 @@ export function obterInfoProveniencia(fonteOriginal?: FonteOriginal): InfoProven
   }
 
   if (fonteOriginal.tipo === 'adaptada') {
+    if (!fonteOriginal.verificado) {
+      return {
+        rotulo: 'Adaptada — origem não confirmada',
+        badgeClass: 'bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/30',
+        isReal: false,
+        isAdaptada: true,
+        isInedita: false,
+        verificado: false,
+        textoRodape,
+      };
+    }
     const orgaoAno = [fonteOriginal.orgao, fonteOriginal.ano].filter(Boolean).join(' ');
     return {
       rotulo: orgaoAno ? `Adaptada (${orgaoAno})` : 'Adaptada',

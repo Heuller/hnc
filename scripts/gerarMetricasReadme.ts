@@ -277,8 +277,8 @@ export function gerarBlocoMetricasMarkdown(): string {
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
 | **Inéditas (\`inedita\`)** | **${metricasQ.porTipo.inedita.toLocaleString('pt-BR')}** | **${pctInedita}%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
-| **Adaptadas (\`adaptada\`)** | **${metricasQ.porTipo.adaptada.toLocaleString('pt-BR')}** | **${pctAdaptada}%** | Itens de provas anteriores com ajuste factual de assertiva |
-| **Reais Confirmadas (\`real-confirmada\`)** | **${metricasQ.porTipo['real-confirmada'].toLocaleString('pt-BR')}** | **${pctReal}%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
+| **Adaptadas (\`adaptada\`)** | **${metricasQ.porTipo.adaptada.toLocaleString('pt-BR')}** | **${pctAdaptada}%** | Adaptações editoriais; a confirmação da prova de origem é indicada separadamente |
+| **Reais Confirmadas (\`real-confirmada\`)** | **${metricasQ.porTipo['real-confirmada'].toLocaleString('pt-BR')}** | **${pctReal}%** | Itens declarados reais no cadastro; a verificação documental de origem é distinta da revisão conceitual |
 | **Em Conferência (\`em-conferencia\`)** | **${metricasQ.porTipo['em-conferencia'].toLocaleString('pt-BR')}** | **${pctConf}%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')}** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
 

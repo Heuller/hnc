@@ -215,5 +215,279 @@
     "titulo": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0",
     "url": "https://www.openarchives.org/OAI/openarchivesprotocol.html",
     "localizador": "3.4: metadataPrefix e suporte ao Dublin Core não qualificado"
+  },
+  "lecoadic": {
+    "titulo": "LE COADIC, Yves-François. A ciência da informação",
+    "acervo": "acervo-estudos/Livros Extras/Livro - A ciência da Informação - LeCoadic.pdf",
+    "localizador": "biblioteconomia, documentação, ciência da informação e ciclo da informação"
+  },
+  "borko": {
+    "titulo": "BORKO, Harold. Information Science: What is it? American Documentation, 1968",
+    "url": "https://doi.org/10.1002/asi.5090190103",
+    "localizador": "definição e relações da ciência da informação"
+  },
+  "bush": {
+    "titulo": "BUSH, Vannevar. As We May Think. 1945",
+    "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+    "localizador": "Memex e organização associativa; não confundir proposta e produto implementado"
+  },
+  "otlet": {
+    "titulo": "OTLET, Paul. Tratado de documentação, 1934",
+    "acervo": "acervo-estudos/Livros Extras/TRATADO DE DOCUMENTAÇÃO. OTLET.pdf",
+    "localizador": "concepção de documentação, princípio monográfico e repertório universal"
+  },
+  "ranganathan": {
+    "titulo": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009",
+    "acervo": "acervo-estudos/Fundamentos/pdf-as-cinco-leis-da-biblioteconomi-ranganathanpdf_compress.pdf",
+    "localizador": "enunciados, discussão e aplicações das cinco leis"
+  },
+  "gorman": {
+    "titulo": "CRAWFORD, Walt; GORMAN, Michael. Future Libraries: Dreams, Madness & Reality. 1995",
+    "localizador": "propostas para bibliotecas e uso inteligente da tecnologia"
+  },
+  "noruzi": {
+    "titulo": "NORUZI, Alireza. Application of Ranganathan’s Laws to the Web. 2004",
+    "url": "https://www.webology.org/2004/v1n2/a8.html",
+    "localizador": "releituras das leis no ambiente web"
+  },
+  "buckland": {
+    "titulo": "BUCKLAND, Michael. Information as thing. 1991",
+    "acervo": "acervo-estudos/Fundamentos",
+    "url": "https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+    "localizador": "processo, conhecimento e coisa; discussão do documento e exemplo de Briet"
+  },
+  "capurro": {
+    "titulo": "CAPURRO, Rafael. Epistemologia e ciência da informação. 2003",
+    "url": "https://www.capurro.de/enancib_p.htm",
+    "localizador": "paradigmas físico, cognitivo e social"
+  },
+  "lei4084": {
+    "titulo": "Lei 4.084/1962 — exercício da profissão de bibliotecário",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+    "localizador": "arts. 1º–7º, 15 e 20"
+  },
+  "lei9674": {
+    "titulo": "Lei 9.674/1998 — exercício profissional e sistema de conselhos",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html",
+    "localizador": "registro, conselhos e regime disciplinar"
+  },
+  "cfb261": {
+    "titulo": "CFB — Resolução 261/2023, processo ético-disciplinar",
+    "url": "https://crb6.org.br/2020/wp-content/uploads/2023/09/Resolucao-CFB-n-261-de-19-de-setembro-de-2023.pdf",
+    "localizador": "competência, procedimento, julgamento e recursos"
+  },
+  "ackoff": {
+    "titulo": "ACKOFF, Russell. From Data to Wisdom. 1989",
+    "url": "https://doi.org/10.1002/j.2075-7905.1989.tb00524.x",
+    "localizador": "dados, informação, conhecimento, entendimento e sabedoria"
+  },
+  "shannon": {
+    "titulo": "SHANNON, Claude. A Mathematical Theory of Communication. 1948",
+    "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+    "localizador": "problema de transmissão e distinção de semântica"
+  },
+  "cfb286": {
+    "titulo": "CFB — Resolução 286/2026, eleições dos CRBs",
+    "url": "https://crb6.org.br/2020/wp-content/uploads/2026/05/Resolucao-CFB-n.o-286-Eleicoes-CRB-2026.pdf",
+    "localizador": "norma de 9/04/2026, publicada em 27/04/2026; voto e requisitos de aptidão"
+  },
+  "vergueiro": {
+    "titulo": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções",
+    "acervo": "acervo-estudos/Livros Extras/Livro - Desenvolvimento de coleções - Autor Waldomiro Vergueiro.pdf",
+    "localizador": "modelo de Evans, política, seleção, aquisição, avaliação e desbastamento"
+  },
+  "vergueiroSelecao": {
+    "titulo": "VERGUEIRO, Waldomiro. Seleção de materiais de informação",
+    "acervo": "acervo-estudos/Livros Extras/VERGUEIRO-Seleção de materiais de informação.pdf",
+    "localizador": "política, critérios, instrumentos e responsabilidades de seleção"
+  },
+  "almeida": {
+    "titulo": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação",
+    "acervo": "acervo-estudos/Livros Extras/ALMEIDA. Planejamento.pdf",
+    "localizador": "planejamento, diagnóstico, avaliação e indicadores"
+  },
+  "amaral": {
+    "titulo": "AMARAL, Sueli Angélica do. Marketing: abordagem em unidades de informação",
+    "acervo": "acervo-estudos/Livros Extras/AMARAL, S. A. Marketing abordagem em Unidades de Informação.pdf",
+    "localizador": "usuários, relações, oferta e avaliação de serviços"
+  },
+  "choo": {
+    "titulo": "CHOO, Chun Wei. A organização do conhecimento",
+    "acervo": "acervo-estudos/Livros Extras",
+    "localizador": "criação, compartilhamento e uso do conhecimento; Nonaka e Takeuchi; comunidades de prática"
+  },
+  "counter": {
+    "titulo": "COUNTER — Code of Practice for Research Content Usage Metrics, Release 5.1",
+    "url": "https://cop5.countermetrics.org/en/5.1.1/",
+    "localizador": "métricas, contagem, processamento e escolha da unidade de uso"
+  },
+  "lei14133": {
+    "titulo": "Lei 14.133/2021 — licitações e contratos",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.html",
+    "localizador": "planejamento, contratação direta e procedimento licitatório"
+  },
+  "nr17": {
+    "titulo": "Ministério do Trabalho e Emprego — NR 17, Ergonomia",
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+    "localizador": "condições de trabalho e organização do trabalho"
+  },
+  "herzberg": {
+    "titulo": "HERZBERG, Frederick. One More Time: How Do You Motivate Employees?",
+    "localizador": "distinção entre fatores higiênicos e motivacionais"
+  },
+  "situacional": {
+    "titulo": "Hersey e Blanchard — modelo de liderança situacional",
+    "url": "https://situational.com/situational-leadership/",
+    "localizador": "comportamentos de liderança e prontidão para a tarefa"
+  },
+  "ba": {
+    "titulo": "NONAKA, Ikujiro; KONNO, Noboru. The Concept of Ba: Building a Foundation for Knowledge Creation. 1998",
+    "url": "https://doi.org/10.2307/41165942",
+    "localizador": "contexto compartilhado de criação do conhecimento"
+  },
+  "libqual": {
+    "titulo": "Association of Research Libraries — LibQUAL+",
+    "url": "https://www.libqual.org/",
+    "localizador": "avaliação da qualidade percebida dos serviços"
+  },
+  "gesac": {
+    "titulo": "Ministério das Comunicações — GESAC",
+    "url": "https://www.gov.br/mcom/pt-br/acesso-a-informacao/acoes-e-programas/wi-fi-brasil",
+    "localizador": "inclusão digital e conectividade"
+  },
+  "dspace": {
+    "titulo": "DSpace — documentação do projeto",
+    "url": "https://wiki.lyrasis.org/display/DSDOC7x",
+    "localizador": "DSpace 7: arquitetura, submissão, itens, arquivos, autorização e interoperabilidade"
+  },
+  "koha": {
+    "titulo": "Koha — Manual do sistema integrado de bibliotecas",
+    "url": "https://koha-community.org/manual/",
+    "localizador": "catalogação, exemplares, circulação e interfaces de integração"
+  },
+  "ojs": {
+    "titulo": "Public Knowledge Project — Open Journal Systems",
+    "url": "https://pkp.sfu.ca/software/ojs/",
+    "localizador": "gestão editorial e publicação de periódicos"
+  },
+  "atom": {
+    "titulo": "Access to Memory — AtoM documentation",
+    "url": "https://www.accesstomemory.org/en/docs/",
+    "localizador": "descrição arquivística e normas de referência"
+  },
+  "biblivre": {
+    "titulo": "Biblivre — sistema de automação de bibliotecas",
+    "url": "https://biblivre.org.br/",
+    "localizador": "funções do software e distinção de sistema operacional"
+  },
+  "bdcamara": {
+    "titulo": "Câmara dos Deputados — Biblioteca Digital",
+    "url": "https://bd.camara.leg.br/",
+    "localizador": "coleções e política de acesso"
+  },
+  "bdjur": {
+    "titulo": "Superior Tribunal de Justiça — Biblioteca Digital Jurídica",
+    "url": "https://bdjur.stj.jus.br/",
+    "localizador": "coleções, depósito e acesso; distinguir o portal local e a cooperação entre instituições"
+  },
+  "dcc": {
+    "titulo": "Digital Curation Centre — Curation Lifecycle Model",
+    "url": "https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+    "localizador": "ações de curadoria ao longo do ciclo de vida"
+  },
+  "oais": {
+    "titulo": "CCSDS — Reference Model for an Open Archival Information System",
+    "url": "https://ccsds.org/Pubs/650x0m3.pdf",
+    "localizador": "responsabilidades de preservação e funções; edição de 2024"
+  },
+  "scholar": {
+    "titulo": "Google Scholar — Inclusion Guidelines",
+    "url": "https://scholar.google.com/intl/en/scholar/inclusion.html",
+    "localizador": "condições para rastreamento e indexação de conteúdos acadêmicos"
+  },
+  "z3950": {
+    "titulo": "Library of Congress — Z39.50 / SRU",
+    "url": "https://www.loc.gov/z3950/",
+    "localizador": "consulta e recuperação, clientes, servidores e formatos de registro"
+  },
+  "sru": {
+    "titulo": "Library of Congress — SRU 1.2",
+    "url": "https://www.loc.gov/standards/sru/sru-1-2.html",
+    "localizador": "CQL, operações e respostas XML; distinguir SRU e SRW e extensões de implementação"
+  },
+  "base": {
+    "titulo": "BASE — Bielefeld Academic Search Engine",
+    "url": "https://www.base-search.net/about/en/",
+    "localizador": "serviço de agregação de metadados e acesso a fontes"
+  },
+  "fair": {
+    "titulo": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016",
+    "url": "https://doi.org/10.1038/sdata.2016.18",
+    "localizador": "F1–F4, A1–A2, I1–I3, R1–R1.3"
+  },
+  "prov": {
+    "titulo": "W3C — PROV-O: The PROV Ontology. 2013",
+    "url": "https://www.w3.org/TR/prov-o/",
+    "localizador": "entidades, atividades, agentes e relações de proveniência"
+  },
+  "dataverse": {
+    "titulo": "The Dataverse Project — User Guide",
+    "url": "https://guides.dataverse.org/en/latest/user/",
+    "localizador": "datasets, arquivos, versões, citações e identificadores persistentes"
+  },
+  "dados5estrelas": {
+    "titulo": "5-star Open Data — Tim Berners-Lee",
+    "url": "https://5stardata.info/en/",
+    "localizador": "esquema incremental e ligação a outros dados"
+  },
+  "rtp": {
+    "titulo": "IETF — RFC 3550, RTP: A Transport Protocol for Real-Time Applications",
+    "url": "https://www.rfc-editor.org/rfc/rfc3550",
+    "localizador": "transporte de dados em tempo real e limitações de garantia"
+  },
+  "tcp": {
+    "titulo": "IETF — RFC 9293, Transmission Control Protocol",
+    "url": "https://www.rfc-editor.org/rfc/rfc9293",
+    "localizador": "transporte TCP e distinção das funções IP"
+  },
+  "http": {
+    "titulo": "IETF — RFC 9110, HTTP Semantics",
+    "url": "https://www.rfc-editor.org/rfc/rfc9110",
+    "localizador": "requisições, representações e recursos"
+  },
+  "ftp": {
+    "titulo": "IETF — RFC 959, File Transfer Protocol",
+    "url": "https://www.rfc-editor.org/rfc/rfc959",
+    "localizador": "transferência de arquivos"
+  },
+  "lei11419": {
+    "titulo": "Lei 11.419/2006 — informatização do processo judicial",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm",
+    "localizador": "art. 4º e §2º: publicação eletrônica e exceções legais"
+  },
+  "decreto9215": {
+    "titulo": "Decreto 9.215/2017 — publicação do Diário Oficial da União",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9215-29-novembro-2017-785835-normaatualizada-pe.html",
+    "localizador": "publicação eletrônica e assinatura"
+  },
+  "rag": {
+    "titulo": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "localizador": "arquitetura e avaliação; não é garantia de correção de toda resposta"
+  },
+  "fewshot": {
+    "titulo": "BROWN et al. Language Models are Few-Shot Learners. 2020",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "localizador": "condicionamento por exemplos e limites"
+  },
+  "lgpd": {
+    "titulo": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "localizador": "finalidade, princípios, bases e condições de tratamento"
+  },
+  "aleph": {
+    "titulo": "Ex Libris — Aleph 24, Communication Requirements",
+    "url": "https://knowledge.exlibrisgroup.com/Aleph/Product_Documentation/001_Version_24/Requirements_for_Aleph_24_Installation/04_Communication_Requirements",
+    "localizador": "comunicação entre clientes e servidor; HTTP e Z39.50"
   }
 }

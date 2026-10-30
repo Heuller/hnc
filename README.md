@@ -5,7 +5,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://heuller.vercel.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-977%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Tests-978%20passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
@@ -105,7 +105,7 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **977 testes** | 100% aprovados em Vitest (125 arquivos de teste) |
+| **Suíte de Testes Automatizados** | **978 testes** | 100% aprovados em Vitest (125 arquivos de teste) |
 | **Qualidade e Estilo (Oxlint)** | **0 avisos, 0 erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
 | **Fixação no Banco Complementar** | **69 itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
@@ -116,8 +116,8 @@ npm run dev
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
 | **Inéditas (`inedita`)** | **1.671** | **76,7%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
-| **Adaptadas (`adaptada`)** | **434** | **19,9%** | Itens de provas anteriores com ajuste factual de assertiva |
-| **Reais Confirmadas (`real-confirmada`)** | **41** | **1,9%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
+| **Adaptadas (`adaptada`)** | **442** | **20,3%** | Adaptações editoriais; a confirmação da prova de origem é indicada separadamente |
+| **Reais Confirmadas (`real-confirmada`)** | **33** | **1,5%** | Itens declarados reais no cadastro; a verificação documental de origem é distinta da revisão conceitual |
 | **Em Conferência (`em-conferencia`)** | **33** | **1,5%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **2.179** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
 

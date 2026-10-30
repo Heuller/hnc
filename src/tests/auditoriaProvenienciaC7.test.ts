@@ -16,9 +16,11 @@ describe('C7 — Auditoria Independente de Proveniência e Blindagem contra Fals
     expect(auditResult.success).toBe(true);
   });
 
-  it('garante que 100% das questões "real-confirmada" possuem casamento real comprovado (Jaccard >= 0.90)', () => {
-    expect(auditResult.stats.realConfirmada).toBe(49);
-    expect(auditResult.stats.realConfirmada).toBeGreaterThan(0);
+  it('confere correspondência no corpus local sem exigir uma quantidade histórica de reais', () => {
+    // Similaridade no corpus não substitui consulta a caderno e gabarito oficiais.
+    expect(auditResult.stats.realConfirmada).toBeGreaterThanOrEqual(0);
+    expect(auditResult.stats.realConfirmada).toBeLessThanOrEqual(auditResult.stats.total);
+    expect(auditResult.errors.filter(e => e.erro.includes('similaridade Jaccard insuficiente'))).toEqual([]);
   });
 
   it('assegura que nenhuma questão da lista sem casamento (114 itens) permaneceu como "real-confirmada"', () => {

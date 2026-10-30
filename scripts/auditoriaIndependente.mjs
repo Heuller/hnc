@@ -215,18 +215,11 @@ const taxaAbsolutos = ineditas.length > 0 ? (totalScoreAbsoluto / ineditas.lengt
 const pctCertosAbsoluto = ineditasComAbsoluto > 0 ? (ineditasComAbsolutoC / ineditasComAbsoluto) * 100 : 0;
 
 console.log(`  - Total inéditas analisadas: ${ineditas.length}`);
-console.log(`  - Pontuação ponderada: ${totalScoreAbsoluto.toFixed(1)} / ${ineditas.length} (${taxaAbsolutos.toFixed(2)}%) [Meta: <= 12,0%]`);
-console.log(`  - Itens com absolutos: ${ineditasComAbsoluto} (${ineditasComAbsolutoC} C / ${ineditasComAbsolutoE} E -> ${pctCertosAbsoluto.toFixed(2)}% Certo) [Meta: >= 40,0%]`);
-
-if (taxaAbsolutos > 12.0) {
-  errosFatais.push(`[VERIFICAÇÃO 1 FALHOU] Taxa ponderada de palavras absolutas (${taxaAbsolutos.toFixed(2)}%) excede o teto de 12.0%.`);
-}
-if (pctCertosAbsoluto < 40.0) {
-  errosFatais.push(`[VERIFICAÇÃO 1 FALHOU] Proporção de gabarito Certo entre itens com absolutos (${pctCertosAbsoluto.toFixed(2)}%) está abaixo do piso de 40.0%.`);
-}
-if (taxaAbsolutos <= 12.0 && pctCertosAbsoluto >= 40.0) {
-  console.log('  ✅ Verificação 1 aprovada!');
-}
+console.log(`  - Pontuação ponderada: ${totalScoreAbsoluto.toFixed(1)} / ${ineditas.length} (${taxaAbsolutos.toFixed(2)}%)`);
+console.log(`  - Itens com absolutos: ${ineditasComAbsoluto} (${ineditasComAbsolutoC} C / ${ineditasComAbsolutoE} E -> ${pctCertosAbsoluto.toFixed(2)}% Certo)`);
+// Indicadores editoriais, sem amostra oficial que fundamente cotas obrigatórias.
+// Não alterar a verdade de uma assertiva para atingir uma distribuição lexical.
+console.log('  ℹ️ Diagnóstico lexical: requer leitura contextual; não aprova conceitos nem impõe cotas de gabarito.');
 
 // ----------------------------------------------------------------------------
 // VERIFICAÇÃO 2: Casamento Rigoroso de 'real-confirmada' com o Acervo Real
