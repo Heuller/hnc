@@ -110,14 +110,14 @@ npm run dev
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
 | **Fixação no Banco Complementar** | **69 itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
 | **Itens no Banco de Questões** | **2.179 itens** | Soma exata de todos os 21 arquivos em `src/content/questions` |
-| **Distribuição Global de Gabaritos** | **50,1% Certo** | 1.091 C / 1.088 E (faixa editorial 46–56%, não regra da banca) |
+| **Distribuição Global de Gabaritos** | **49,2% Certo** | 1.072 C / 1.107 E (faixa editorial 46–56%, não regra da banca) |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
-| **Inéditas (`inedita`)** | **1.688** | **77,5%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
-| **Adaptadas (`adaptada`)** | **442** | **20,3%** | Adaptações editoriais; a confirmação da prova de origem é indicada separadamente |
-| **Reais Confirmadas (`real-confirmada`)** | **16** | **0,7%** | Itens declarados reais no cadastro; a verificação documental de origem é distinta da revisão conceitual |
+| **Inéditas (`inedita`)** | **1.689** | **77,5%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
+| **Adaptadas (`adaptada`)** | **447** | **20,5%** | Adaptações editoriais; a confirmação da prova de origem é indicada separadamente |
+| **Reais Confirmadas (`real-confirmada`)** | **10** | **0,5%** | Itens declarados reais no cadastro; a verificação documental de origem é distinta da revisão conceitual |
 | **Em Conferência (`em-conferencia`)** | **33** | **1,5%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **2.179** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
 
@@ -125,9 +125,9 @@ npm run dev
 | Banco / Arquivo | Título / Descrição | Total Itens | Gabaritos (C/E) | Proporção Certo |
 | :--- | :--- | :---: | :---: | :---: |
 | `m1-fundamentos-100q` | M1 - Fundamentos de Biblioteconomia | **100** | 50C / 50E | 50,0% |
-| `m10-legislativo-100q` | M10 - Informação Jurídica & CEDI | **100** | 50C / 50E | 50,0% |
-| `m10a-legislativo-constituicao-100q` | M10-A - Constituição & CEDI | **100** | 50C / 50E | 50,0% |
-| `m10b-regimentos-100q` | M10-B - RICD & Regimento Comum | **100** | 50C / 50E | 50,0% |
+| `m10-legislativo-100q` | M10 - Informação Jurídica & CEDI | **100** | 45C / 55E | 45,0% |
+| `m10a-legislativo-constituicao-100q` | M10-A - Constituição & CEDI | **100** | 49C / 51E | 49,0% |
+| `m10b-regimentos-100q` | M10-B - RICD & Regimento Comum | **100** | 39C / 61E | 39,0% |
 | `m11-administrativo-100q` | M11 - Direito Administrativo | **100** | 50C / 50E | 50,0% |
 | `m12-ingles-100q` | M12 - Língua Inglesa | **100** | 50C / 50E | 50,0% |
 | `m13-portugues-100q` | M13 - Língua Portuguesa & Redação Oficial | **100** | 50C / 50E | 50,0% |
@@ -140,12 +140,12 @@ npm run dev
 | `m7-preservacao-100q` | M7 - Preservação Digital & OAIS | **100** | 46C / 54E | 46,0% |
 | `m8-normalizacao-100q` | M8 - Normalização Documentária & ABNT | **100** | 49C / 51E | 49,0% |
 | `m9-comunicacao-100q` | M9 - Comunicação Científica & Bibliometria | **100** | 52C / 48E | 52,0% |
-| `mega-simulado-camara-120q` | Mega Simulado Câmara 120Q | **120** | 60C / 60E | 50,0% |
+| `mega-simulado-camara-120q` | Mega Simulado Câmara 120Q | **120** | 59C / 61E | 49,2% |
 | `mini-modulo-orgaos-30q` | Mini 2.5 - Órgãos & Bib. Câmara | **30** | 15C / 15E | 50,0% |
 | `questoes-submodulos-ampliados` | Submódulos Teóricos - Fixação | **69** | 44C / 25E | 63,8% |
 | `simulado-geral-180q` | Simulado Geral 180Q | **180** | 90C / 90E | 50,0% |
-| `simulado-oficial-camara-180q` | Simulado Oficial Câmara 90+90 (180Q) | **180** | 89C / 91E | 49,4% |
-| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1091C / 1088E** | **50,1% Certo (faixa alvo 46–56%)** |
+| `simulado-oficial-camara-180q` | Simulado Oficial Câmara 90+90 (180Q) | **180** | 88C / 92E | 48,9% |
+| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1072C / 1107E** | **49,2% Certo (faixa alvo 46–56%)** |
 <!-- METRICAS:FIM -->
 
 ---

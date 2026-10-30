@@ -1,0 +1,2610 @@
+[
+  {
+    "id": "m10-q-1",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §§4º e 5º: apreciação do veto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "77db8c2acbeca34f63d63a19dbd36fcb784fa21ebb5b3bdc7d5c309f1218f662",
+    "shaDepois": "572003d10142e680f3ed19560e426754c3f7903c3d57e71294353da4ef3d236c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Veto não encerra necessariamente a tramitação: o Congresso pode mantê-lo ou rejeitá-lo em sessão conjunta. A rejeição exige maioria absoluta de Deputados e de Senadores, observadas as regras aplicáveis. Irretratabilidade do ato pelo Executivo não equivale a impedir deliberação parlamentar sobre ele.",
+      "gatilho": "terminativo",
+      "armadilhaBanca": "Confundir estabilidade do ato de veto e impossibilidade de superação pelo Legislativo.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §§4º e 5º: apreciação do veto — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Congresso pode apreciar e rejeitar o veto presidencial, com o quórum constitucional pertinente.",
+      "item": "O veto do Presidente da República a um projeto de lei aprovado pelo Congresso Nacional é irretratável e terminativo, obstando nova deliberação parlamentar sobre o texto vetado.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-2",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 57, §§3º e 5º, e 166",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e714b84332fe29b25f4c1b76644a7a40120c5515352670d8912d01df1be71712",
+    "shaDepois": "c48fadca896fbab0a530989829be8757fe5f6bad45dc2891ce95e08cbb6c373c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Deputados e Senadores se reúnem nos casos constitucionais e regimentais sob a Mesa do Congresso, presidida pelo Presidente do Senado. Reunião conjunta não transforma o Congresso em uma Casa única nem elimina regras próprias de apuração e deliberação. A matéria deve ser um caso de competência conjunta.",
+      "gatilho": "sessão conjunta",
+      "armadilhaBanca": "Distinguir reunião conjunta e eliminação do bicameralismo.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 57, §§3º e 5º, e 166 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Sessão conjunta funde Câmara e Senado em uma Casa única, dispensando regras específicas de deliberação das duas representações.",
+      "item": "Uma 'sessão conjunta' do Congresso Nacional é aquela realizada conjuntamente por Deputados e Senadores sob a direção da Mesa do Congresso Nacional (órgão bicameral presidido pelo Presidente do Senado Federal), para inaugurar a sessão legislativa, deliberar sobre vetos ou votar o orçamento da União.",
+      "submoduloId": "10.6"
+    }
+  },
+  {
+    "id": "m10-q-3",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 64, §§1º a 4º: urgência constitucional",
+    "nota": "Gabarito C corrigido para E porque o bloqueio foi afirmado como absoluto, omitindo exceção expressa do art. 64, §2º.",
+    "shaAntes": "f0ce863490d5efccbc9ccc1f311677a796cdb97891d4a484a46d85c04c401979",
+    "shaDepois": "9a2638345f3736813863004ec489f4b29841600105651504acec8fcd78da42db",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O texto constitucional ressalva deliberações com prazo constitucional determinado. Também prevê suspensão dos prazos durante recesso e exclui projetos de código desses prazos. A assertiva usa todas sem ressalvar a exceção, convertendo uma regra condicionada em bloqueio absoluto.",
+      "gatilho": "todas",
+      "armadilhaBanca": "Eliminar ressalva expressa de uma regra de tramitação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 64, §§1º a 4º: urgência constitucional — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O sobrestamento da urgência do art. 64 observa exceções e condições constitucionais, não abrangendo indistintamente todas as deliberações.",
+      "versao_errada": "",
+      "item": "O Presidente da República pode solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara e o Senado não se manifestem em até quarenta e cinco dias cada, a proposição sobresta todas as demais deliberações legislativas da Casa, trancando a pauta.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-4",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 57, §2º: interrupção e LDO",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7750c584dfccc3421a7f66ef5ea225af74324e5ef4ab28e0c1a7a473ad942e56",
+    "shaDepois": "b355788fe669e704b3313de4dacb47c23710408b613239648bb93ce3dd1b1c15",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O recesso parlamentar de julho se inicia automaticamente mesmo que o projeto de lei de diretrizes orçamentárias ainda não tenha sido aprovado, pois o calendário dispensa essa condição.",
+      "justificativa": "ERRADO. A sessão legislativa não é interrompida sem aprovação do projeto de LDO. O calendário constitucional não torna essa condição dispensável. Sessão legislativa, período de sessões e sessões diárias também não são conceitos idênticos.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Confundir data do calendário e atendimento de condição constitucional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §2º: interrupção e LDO — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A interrupção da sessão legislativa depende da aprovação do projeto de LDO, conforme a Constituição.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-5",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 51, III, 52, XII, e 57, §3º, II",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "47cc51c70cf85aff89d5622a80678a06602289d69964a030f5c565ba4eda26a9",
+    "shaDepois": "5dd7c037a7a3e5880373e664a6bc947bb8aa2f75288ecc29bd4748444183a443",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Cada Casa possui competência para elaborar seu regimento interno, enquanto o regimento comum disciplina matérias e trabalhos comuns. A existência de regras conjuntas não elimina a autonomia interna da Câmara. Aplicação subsidiária e regras específicas devem ser examinadas conforme a situação.",
+      "gatilho": "revogou",
+      "armadilhaBanca": "Confundir disciplina comum e substituição integral das normas internas.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 51, III, 52, XII, e 57, §3º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O regimento comum coexiste com os regimentos das Casas, sem revogar a competência da Câmara para suas normas internas.",
+      "item": "O Regimento Comum do Congresso Nacional revogou o Regimento Interno da Câmara dos Deputados, de modo que a Câmara não possui normas próprias para suas sessões deliberativas.",
+      "submoduloId": "10.6"
+    }
+  },
+  {
+    "id": "m10-q-6",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 67: reapresentação na mesma sessão legislativa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a7f7f7d11fdf627f02cb4c1993d6fb6d8406e5e8e3bbb01f61be5f6348cf83c8",
+    "shaDepois": "1cd4022a54503213fe0215c4e6b604730181cba335a2879927c5475767c58304",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na mesma sessão legislativa, a matéria de projeto de lei rejeitado pode ser reapresentada por simples requerimento individual do autor, sem proposta da maioria absoluta de qualquer das Casas.",
+      "justificativa": "ERRADO. Matéria de projeto rejeitado só pode ser objeto de novo projeto na mesma sessão legislativa mediante proposta da maioria absoluta de qualquer das Casas. A vontade individual do autor não basta. Não se confunde essa regra com a vedação própria de PEC rejeitada na mesma sessão legislativa.",
+      "gatilho": "simples requerimento",
+      "armadilhaBanca": "Trocar iniciativa individual e apoio constitucionalmente qualificado.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 67: reapresentação na mesma sessão legislativa — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Reapresentar a matéria na mesma sessão legislativa exige proposta da maioria absoluta de uma das Casas, nos termos do art. 67.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-7",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §§3º, 4º e 7º: duração da MP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "33d3e926ef4944cf58ddebe915b13445adfe6a9f07ac4bdf2c321ee2d6474e17",
+    "shaDepois": "58152c5c6454ac11ea850cd7a5d53e14563e8489e05622d7af821e0e35a9fd2e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A vigência de uma medida provisória pode ser prorrogada automaticamente uma vez por igual período de sessenta dias se sua votação não tiver sido encerrada nas duas Casas no prazo constitucional, observadas as regras do art. 62.",
+      "justificativa": "CERTO. A prorrogação por igual período ocorre uma vez se a votação não tiver sido encerrada nas duas Casas no prazo constitucional. Ato declaratório não se confunde com escolha discricionária de conceder novo prazo. Há ainda regras sobre recesso, perda de eficácia e relações constituídas.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Distinguir prorrogação constitucional e ato de declaração.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §§3º, 4º e 7º: duração da MP — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A prorrogação da vigência da MP depende sempre de decisão discricionária do Presidente do Congresso para conceder novo prazo.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-8",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 49 e 59: decreto legislativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a46b74e983ac850ed9da6b5bcf483741a82ac9326cad497e9bfb7a6f23e16b1f",
+    "shaDepois": "3c5255c3e9f38e034879b83b26ec78667f5fae2f37a9b000c123943875de3145",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O decreto legislativo é utilizado para matérias de competência exclusiva do Congresso Nacional, como as hipóteses pertinentes de tratados e julgamento de contas presidenciais, sem sanção do Presidente da República.",
+      "justificativa": "CERTO. Decreto legislativo veicula matérias da competência exclusiva do Congresso, como as hipóteses constitucionais indicadas. Não se submete à sanção presidencial. Sua natureza não deve ser confundida com decreto regulamentar do Executivo, apesar da palavra decreto em ambos os nomes.",
+      "gatilho": "sanção",
+      "armadilhaBanca": "Distinguir espécie legislativa e ato regulamentar.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 49 e 59: decreto legislativo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Decreto legislativo é decreto regulamentar editado pelo Presidente da República e submetido à sanção do Congresso.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-9",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "tipos de informação jurídica: legislação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "70d03fc3019d58dde9bdef7dfbff760d60698dee72593d4cecca89ad67d9f3d0",
+    "shaDepois": "cc3516ce189c83a8f49c1414dea7e515f3a2998c68d83e38fe9b628d28780d05",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Constituição, emendas e leis complementares são espécies normativas e integram a informação jurídica legislativa. Não são sinônimos: diferem em posição, matéria e procedimento. A categoria documental comum não elimina sua distinção constitucional.",
+      "gatilho": "documentação jurídica",
+      "armadilhaBanca": "Distinguir pertencimento à categoria e identidade de espécies.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — tipos de informação jurídica: legislação — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Constituição, emenda e lei complementar têm necessariamente o mesmo procedimento de aprovação e a mesma posição normativa.",
+      "item": "No âmbito federal, constituem documentação jurídica os seguintes diplomas legais: Constituição Federal, emenda constitucional e lei complementar.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-228951",
+        "ano": 2013,
+        "orgao": "MPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "228951",
+        "declaracaoLegada": "Cebraspe / MPU / 2013; identificador legado: 228951"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-10",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 65, parágrafo único: emendas da Casa revisora",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9d5a74917d64d3e6d9e11786e858ddce04c4a5ee06f263a0b2d920ea39925977",
+    "shaDepois": "75b627cc0df6b9faf175c856d1ee61c4af5aec43233cd3ab573299b61cf8209e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Se o Senado emendar um projeto de lei iniciado na Câmara dos Deputados, o texto retorna à Câmara para apreciação das emendas, conforme a regra de revisão bicameral.",
+      "justificativa": "CERTO. O retorno permite à iniciadora apreciar as alterações da revisora e decidir sobre elas. A revisora não ganha autoridade para impor definitivamente suas emendas à iniciadora. O exame deve observar o procedimento pertinente e não autoriza tratar qualquer mudança como simples revisão de redação sem efeitos.",
+      "gatilho": "emendas",
+      "armadilhaBanca": "Distinguir revisão de uma Casa e palavra final sobre emendas na iniciadora.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 65, parágrafo único: emendas da Casa revisora — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As emendas do Senado ao projeto iniciado na Câmara prevalecem automaticamente, dispensando retorno à iniciadora.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-11",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, III: iniciativa de PEC pelas assembleias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3b8915a1ffab09a88e6dda3b4281049761564afd0e969ed29247e0d34edc2c1d",
+    "shaDepois": "d731fff4d4e9b781b38622af21bfe2ec847b738bb0ca5725e8b00c6e029a4a62",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma PEC pode ser proposta por mais da metade das assembleias legislativas das unidades da Federação, manifestando-se cada uma pela maioria relativa de seus membros.",
+      "justificativa": "CERTO. Além de mais da metade das assembleias, exige-se manifestação de cada uma pela maioria relativa de seus membros. A soma de assinaturas avulsas de deputados estaduais não substitui deliberação das assembleias. Trata-se de iniciativa, não aprovação final da emenda.",
+      "gatilho": "maioria relativa",
+      "armadilhaBanca": "Distinguir quantidade de órgãos e quórum interno de manifestação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, III: iniciativa de PEC pelas assembleias — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A iniciativa pelas assembleias exige apenas assinaturas individuais dispersas, sem deliberação de cada assembleia.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-12",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, §2º: aprovação da PEC",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f0ce56f3aa6446ac25a9cddefebc0e951d2b0717514bdc41b6455479c27aed41",
+    "shaDepois": "01b0ec863a934311e78e099be142e936d57f8e7487b0010fab0f0e4c7334c50d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. PEC exige dois turnos em cada Casa e três quintos dos votos dos respectivos membros em ambos. Maioria simples dos presentes em um turno não satisfaz essas condições. Não se deve confundir quórum de deliberação ordinária com procedimento de reforma constitucional.",
+      "gatilho": "maioria simples",
+      "armadilhaBanca": "Trocar base de cálculo do quórum e número de turnos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, §2º: aprovação da PEC — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "PEC exige três quintos dos membros em dois turnos em cada Casa do Congresso.",
+      "item": "A aprovação de uma Proposta de Emenda à Constituição (PEC) na Câmara dos Deputados exige o quórum de maioria simples dos deputados presentes em um único turno de votação.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-13",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfDefensoria"
+    ],
+    "localizador": "ADI 5662/AC, Informativo 1202/2025",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "679980eaa6804267769670fe661b831b530518d0cafecf99dca2e427d171d055",
+    "shaDepois": "16e83dd14ac2757af917956a4f8ee06b95ff49c17ef47c6b25eed25b4f31b890",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O STF relaciona a autonomia da Defensoria à vedação de inserção de sua chefia na estrutura subordinada do Executivo. Atribuir status ou prerrogativas de secretário aos cargos indicados pode produzir essa subordinação por via indireta. O comentário não deve se apoiar só em afirmar que as funções são diferentes, mas na garantia institucional de autonomia.",
+      "gatilho": "status de secretário",
+      "armadilhaBanca": "Distinguir equivalência de status e repercussão sobre autonomia institucional.",
+      "fonte": "STF — Informativo 1202/2025: ADI 5662/AC — ADI 5662/AC, Informativo 1202/2025 — https://www.stf.jus.br/arquivo/informativo/documento/informativo1202.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A chefia da Defensoria deve respeitar sua autonomia e não pode ser inserida na subordinação do Executivo por equivalência a secretário de Estado.",
+      "item": "É constitucional a atribuição, por lei complementar estadual, do status de secretário de Estado aos cargos de defensor público-geral e de subdefensor público-geral do estado.",
+      "submoduloId": "10.4"
+    }
+  },
+  {
+    "id": "m10-q-14",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 61, §2º: iniciativa popular federal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e2075c4ae9245f926782b86c503a549f523d0d46a9c25cda7c7e6a85d34c39af",
+    "shaDepois": "e23cf52f8da4b0e40c4a49c640f7ddad3798e5817f03758bb9807f9924cbf1d0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Constituição exige 1% do eleitorado nacional, distribuído por ao menos cinco estados, com pelo menos 0,3% dos eleitores de cada um. Os três requisitos se acumulam. Alcançar o total nacional sem a distribuição mínima não cumpre a iniciativa popular federal.",
+      "gatilho": "um por cento",
+      "armadilhaBanca": "Não eliminar requisito cumulativo de distribuição.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 61, §2º: iniciativa popular federal — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Basta alcançar 1% do eleitorado nacional em um único estado, dispensada distribuição territorial.",
+      "item": "A iniciativa popular de leis federais perante a Câmara dos Deputados pode ser exercida pela subscrição de, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-15",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §§1º e 3º: prazo e silêncio",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7e9b7bd49f04f0cdeb078d3b1a37885fab5a6c2ccabf6afd1a0b30eba116c368",
+    "shaDepois": "604bd6362c1edb53f722b8526db1391c45c21f886c743a744d0b4cc4049578ba",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O silêncio no prazo constitucional importa sanção, não veto. Veto exige manifestação e comunicação de motivos conforme os requisitos próprios. O prazo é contado em dias úteis na regra pertinente, e sua passagem não equivale a rejeição da matéria.",
+      "gatilho": "veto tácito",
+      "armadilhaBanca": "Inverter consequência jurídica do silêncio.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §§1º e 3º: prazo e silêncio — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O silêncio presidencial no prazo constitucional importa sanção tácita.",
+      "item": "O silêncio do Presidente da República no prazo de quinze dias úteis contados da data de recebimento do projeto de lei importa em veto tácito integral da matéria.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-16",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 5º, II, e 37: legalidade e publicidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b771c7a0ca01b750c2cf64aaf8af6285f30c0bd8e9adf7cce1e52f66f469a2ba",
+    "shaDepois": "2907533318fcc5fff34843d3b023627a59fe2d918f40683b81f176eb63650b2f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma lei federal de aplicação geral pode produzir efeitos contra particulares sem publicação oficial, desde que a Mesa da Câmara tenha acesso ao texto aprovado.",
+      "justificativa": "ERRADO. A lei que pretende regular condutas precisa observar os requisitos de publicidade e vigência. Aprovação interna não substitui publicação oficial nem autoriza impor regra secreta a particulares. Hipóteses legítimas de sigilo documental não equivalem a uma autorização geral para legislação secreta.",
+      "gatilho": "sem publicação",
+      "armadilhaBanca": "Confundir deliberação interna e produção regular de efeitos externos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 5º, II, e 37: legalidade e publicidade — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A aprovação interna de uma lei não dispensa os requisitos de publicação e vigência para produzir efeitos.",
+      "submoduloId": "10.4"
+    }
+  },
+  {
+    "id": "m10-q-17",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 69 e reservas materiais à lei complementar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "face67d779be994010a958b3be76ef4d80fd286534f29ef1eb85f3a4bd4165e1",
+    "shaDepois": "de03b63f9071eb85f3bd00940dfe577b1f6dd9121d219693b20a0054bbeae2a3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "As leis complementares são aprovadas por maioria absoluta e disciplinam matérias que a Constituição lhes reserva, distinguindo-se das leis ordinárias nesses aspectos.",
+      "justificativa": "CERTO. Lei complementar depende de maioria absoluta, calculada sobre o total de membros, e deve ser usada nas matérias constitucionalmente reservadas. Lei ordinária tem procedimento e campo próprios. Não decorre disso uma superioridade hierárquica universal da complementar sobre toda lei ordinária.",
+      "gatilho": "maioria absoluta",
+      "armadilhaBanca": "Distinguir reserva material, quórum e hierarquia.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 69 e reservas materiais à lei complementar — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda lei complementar é hierarquicamente superior a qualquer lei ordinária, independentemente da matéria constitucionalmente reservada.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-18",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §2º: extensão do veto parcial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "167619da4967e1249428b0d6141597a52c44b8a2795dfaa0375d4fe15a48a338",
+    "shaDepois": "3d66f106a84d160bd0048323ae798ed2ce5419e91e4f72d860c9091d48687783",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Veto parcial pode abranger uma das unidades expressamente previstas: artigo, parágrafo, inciso ou alínea, por inteiro. Não permite retirar palavras isoladas para alterar o sentido. Ser parcial em relação ao projeto não significa liberdade de cortar qualquer fragmento textual.",
+      "gatilho": "texto integral",
+      "armadilhaBanca": "Distinguir unidade normativa integral e palavra isolada.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §2º: extensão do veto parcial — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O veto parcial pode retirar apenas a palavra não de um inciso, preservando o restante e invertendo sua regra.",
+      "item": "O veto presidencial pode ser total ou parcial, sendo que o veto parcial deve abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea, sendo vedado o veto a palavras isoladas.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-19",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §1º, I, b: vedações de MP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4aa8be98692ac91dbd7df7ad266b000c6fd7059a79114a644d3d1ab1c5642989",
+    "shaDepois": "88a7946a762dcf880c0487375714b9b08310f60db4d3a6f0a1c8076be38bbca8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A Constituição veda MP sobre direito penal, processual penal e processual civil, entre outras matérias. A presença de relevância e urgência não supera essas vedações. O poder de editar MP não é autorização geral para legislar sobre qualquer tema.",
+      "gatilho": "processual civil",
+      "armadilhaBanca": "Confundir requisitos de edição e dispensa de limites materiais.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §1º, I, b: vedações de MP — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Relevância e urgência não afastam as vedações materiais à edição de MP, inclusive sobre processo civil.",
+      "item": "O Presidente da República tem competência constitucional para editar medidas provisórias sobre matéria relativa a direito penal, direito processual penal e direito processual civil.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-20",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "regras de iniciativa e apresentação de emendas; distinguir iniciativa popular",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3b17792056db7a9e3abf87c6b12f9b68369b1b419fb04f112c6898c5d5141cd8",
+    "shaDepois": "7c93e9c56b41d12b36713b0822316370eb27eee45d6866e443ceeaab992b0eb1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A iniciativa popular de leis autoriza qualquer cidadão a apresentar emendas orais diretamente na Ordem do Dia da Câmara, sem observar legitimidade e forma previstas para emendas.",
+      "justificativa": "ERRADO. Iniciativa popular de projeto não confere ao cidadão poder de emendar oralmente qualquer proposição no Plenário. Apresentação de emendas tem legitimados, forma e oportunidade próprios. Participação popular também pode ocorrer por canais previstos, sem se equiparar automaticamente à atuação parlamentar formal.",
+      "gatilho": "iniciativa popular",
+      "armadilhaBanca": "Transferir uma faculdade de participação para outro ato de tramitação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — regras de iniciativa e apresentação de emendas; distinguir iniciativa popular. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Iniciativa popular e participação cidadã não dispensam regras de legitimidade, forma e oportunidade de apresentação de emendas.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-21",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 51, IV: cargos e remuneração da Câmara",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Esclarecida diferença entre competência sobre cargos e iniciativa de lei para remuneração.",
+    "shaAntes": "df4f1b0085e07c53555fc93f976b0a6092f28448c91abf732fb0111f0c71ecfb",
+    "shaDepois": "7d2ee4038b10a1738ab2fae82a38cd921c4ba79a4ef5bf98539a2f8f0afb1641",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A Câmara dispõe sobre sua organização e cargos e tem iniciativa de lei para fixar a remuneração, observados os parâmetros orçamentários. Criar cargo no âmbito de sua competência e fixar remuneração por lei são atos que não devem ser confundidos. A reserva do Executivo para seus serviços não alcança indistintamente a Câmara.",
+      "gatilho": "Presidente da República",
+      "armadilhaBanca": "Confundir autonomia da Casa e iniciativa reservada do Executivo.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 51, IV: cargos e remuneração da Câmara — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Câmara exerce suas competências de organização e cargos e a iniciativa da lei de remuneração de seus servidores, conforme o art. 51, IV.",
+      "item": "A iniciativa privativa para propor projetos de lei que disponham sobre a criação de cargos e a fixação de remuneração dos servidores da Câmara dos Deputados compete privativamente ao Presidente da República.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-22",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 51, IV: organização da Câmara",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a45a8dda20a9c939404f5df4cdfea5a2c30229a073951bdecd0203f536e62bf7",
+    "shaDepois": "530b762b5065841dccedf0e82c0abd8e7c2967b67627d721c6a9b5cf35c0558a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Toda resolução da Câmara sobre criação de cargos de seus serviços depende de sanção do Presidente da República, pois possui a mesma natureza da lei que fixa a remuneração desses cargos.",
+      "justificativa": "ERRADO. Matéria de competência privativa interna da Câmara não é convertida em lei delegada ou submetida indistintamente à sanção. Já remuneração exige a iniciativa de lei na forma constitucional. A distinção evita tratar toda decisão sobre pessoal como o mesmo instrumento normativo.",
+      "gatilho": "sanção",
+      "armadilhaBanca": "Confundir resolução interna e lei de fixação remuneratória.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 51, IV: organização da Câmara — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A disposição interna sobre criação de cargos da Câmara e a lei que fixa remuneração seguem competências e instrumentos distintos.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-23",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 166: execução de emendas e impedimentos técnicos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "50760d9d4713b8ac51fb2dc4aeb243abf83d547347aee6c4e69748f44108349b",
+    "shaDepois": "24ec04b25f4901a558de45a56f93d4fc12df18af2b8ce05ef762064b1803f638",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O caráter impositivo das emendas individuais à LOA exige execução em qualquer circunstância, mesmo diante de impedimentos de ordem técnica, que não podem afetar a obrigatoriedade.",
+      "justificativa": "ERRADO. A obrigatoriedade de execução observa as condições constitucionais, inclusive tratamento de impedimentos de ordem técnica. Não autoriza executar qualquer programação impossível ou irregular só porque sua origem é uma emenda. Regime impositivo não significa ausência de requisitos de planejamento e implementação.",
+      "gatilho": "impedimentos",
+      "armadilhaBanca": "Transformar obrigatoriedade condicionada em dever absoluto.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 166: execução de emendas e impedimentos técnicos — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O regime de execução obrigatória observa condições e impedimentos técnicos previstos na Constituição.",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-24",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 166, §1º, I: comissão mista de orçamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6d599ccd83900e43fae71c1ae4d2e6526575d20ddb4cc5d14362c7151d453d3e",
+    "shaDepois": "9415e9281bd69f4d08c37dfb29db6665946c881cab9ae6d8170fcb50e9b0fc35",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A comissão mista examina e emite parecer sobre projetos orçamentários e contas apresentadas pelo Presidente, conforme a Constituição e as regras aplicáveis. Não substitui a deliberação parlamentar nos atos que exigem decisão do Congresso. Parecer e decisão final são funções distintas.",
+      "gatilho": "Comissão Mista",
+      "armadilhaBanca": "Distinguir instrução técnica colegiada e decisão final.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 166, §1º, I: comissão mista de orçamento — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O parecer da comissão mista substitui automaticamente a votação pelo Congresso de qualquer projeto de PPA, LDO ou LOA.",
+      "item": "A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) é órgão colegiado composto por Deputados e Senadores encarregado de examinar e emitir parecer sobre o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA).",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-25",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 152, §1º, e 155: limites das dispensas na urgência",
+    "nota": "Gabarito C corrigido para E: o art. 152, §1º, não dispensa pareceres e quórum; o art. 155 não elimina essa preservação.",
+    "shaAntes": "3adf3227f740b20f28eb809202dee830d072ab17222b8978f8f45211020c1e07",
+    "shaDepois": "9a57ff1033db178997e83a25ce20121a3b1ae8454b9d42da4860a1beda38bbf9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "item": "A urgência do art. 155 do RICD permite votar uma proposição sem quaisquer pareceres de comissão ou de relator designado, pois todos os requisitos regimentais são dispensados.",
+      "justificativa": "ERRADO. O art. 152, §1º, preserva publicação e distribuição, parecer de comissão ou de relator designado e quórum. A inclusão imediata do art. 155 não significa julgar sem qualquer parecer. O regime acelera a tramitação, mas não elimina esses requisitos.",
+      "gatilho": "pareceres",
+      "armadilhaBanca": "Confundir rapidez de inclusão e supressão de requisito preservado.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 152, §1º, e 155: limites das dispensas na urgência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Urgência permite dispensas regimentais, mas preserva os requisitos do art. 152, §1º, inclusive parecer e quórum.",
+      "versao_errada": "",
+      "submoduloId": "10.2"
+    }
+  },
+  {
+    "id": "m10-q-26",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "codigoEticaCamara"
+    ],
+    "localizador": "art. 5º, VIII: relatoria e financiamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dce5f7020d9bbb035e3317d5e18ccabd1e5fc101039c598d22679b08c4fa99fa",
+    "shaDepois": "711e0545ff59ae128fdcdbac8b4c54b98edb5bd7680b5ea35f204ce3bc077c70",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O Código tipifica a relatoria de matéria de interesse específico de quem contribuiu para a campanha como conduta atentatória ao decoro. O vínculo financeiro e o interesse concreto são relevantes; não basta substituir a análise por uma ideia vaga de simpatia política. Procedimento e sanção dependem das regras aplicáveis.",
+      "gatilho": "interesse específico",
+      "armadilhaBanca": "Distinguir conflito específico e afinidade política genérica.",
+      "fonte": "Câmara dos Deputados — Código de Ética e Decoro Parlamentar — art. 5º, VIII: relatoria e financiamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O vínculo com financiador da campanha nunca é relevante à relatoria de matéria de interesse específico dele.",
+      "item": "Praticaria conduta atentatória ao decoro o deputado que relatasse matéria submetida à apreciação da Câmara dos Deputados, de interesse específico de pessoa física ou jurídica que tivesse contribuído para o financiamento de sua campanha eleitoral.",
+      "submoduloId": "10.5"
+    }
+  },
+  {
+    "id": "m10-q-27",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 116: encaminhamento de pedidos de informação",
+    "nota": "Gabarito C corrigido para E: o encaminhamento de pedidos escritos de informação a ministros cabe ao Primeiro-Secretário, não ao Quarto.",
+    "shaAntes": "f8076997f7065bdbc0ce646d1f63a08b47ce286d13e969c5d5815def1cbe3d75",
+    "shaDepois": "bdcc54cc856b5ccce9f40d16dfa2a3e0afa86fd966c9bb437da13bab9b0fabd3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Pedidos escritos de informação a ministros são encaminhados pelo Primeiro-Secretário, conforme o art. 116. A assertiva atribui essa função ao Quarto. Não se deve confundir competências administrativas relacionadas a outras áreas com o ato regimental de encaminhamento da informação.",
+      "gatilho": "Quarto-Secretário",
+      "armadilhaBanca": "Trocar cargos de nomes próximos dentro da Mesa.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 116: encaminhamento de pedidos de informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O art. 116 atribui ao Primeiro-Secretário o encaminhamento dos pedidos escritos de informação a ministros.",
+      "versao_errada": "",
+      "item": "O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados tem entre suas atribuições regimentais o encaminhamento de requerimentos de informação a Ministros de Estado e a gestão do sistema de habitação funcional dos parlamentares.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-28",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 14 e 19: composição da Mesa e suplência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "42152acd06f8179bdb17bac36f55076931d7c3388efb3453c8cd6a84a4d2a83c",
+    "shaDepois": "f1a4b6f4be2717054dc742f11f0e57c3ce0349cb5b56757f353166a75fd85591",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Mesa tem Presidente, dois Vice-Presidentes e quatro Secretários; quatro suplentes atendem às substituições previstas. Suplência não os torna quatro titulares adicionais de igual condição em todas as deliberações. É preciso distinguir composição titular e mecanismo de substituição.",
+      "gatilho": "Suplentes",
+      "armadilhaBanca": "Separar membros titulares e suplentes.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 14 e 19: composição da Mesa e suplência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os quatro suplentes tornam a Mesa composta por onze titulares que exercem simultaneamente todas as funções.",
+      "item": "A Mesa Diretora da Câmara dos Deputados compõe-se de sete membros titulares: o Presidente, o 1º e o 2º Vice-Presidentes e quatro Secretários, contando ainda com quatro Suplentes de Secretários para substituir os titulares em suas faltas ou impedimentos.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-29",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 55, §2º: perda por decoro e garantias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ab26c227028b33f83f0dcd89fcab725b12c590451aebb29412d7eab9d656fe16",
+    "shaDepois": "9dc731aaff267a3b0b223c8ca6cb1fbd145bcc64e0d20b42f3254fe4df67d1dc",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A decisão nas hipóteses do art. 55, §2º, exige maioria absoluta e ampla defesa. A retirada do sigilo pela EC 76/2013 não significa votação sem identificação. Não se pode converter uma decisão pessoal e qualificada em votação simbólica sem controle dos votos.",
+      "gatilho": "simbólica",
+      "armadilhaBanca": "Confundir voto aberto e votação sem identificação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 55, §2º: perda por decoro e garantias — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A decisão por quebra de decoro observa maioria absoluta, ampla defesa e procedimento de votação pertinente, sem a regra de sigilo revogada.",
+      "item": "A perda de mandato de Deputado Federal julgada pelo Plenário da Câmara por quebra de decoro parlamentar exige votação simbólica sem registro de presença.",
+      "submoduloId": "10.5"
+    }
+  },
+  {
+    "id": "m10-q-30",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 58, §1º: composição proporcional das comissões",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "11f4d590f56909c5ffb91a4ca5505512d63953657f648b1bf28ebf41b179b475",
+    "shaDepois": "53598785267a4c81a395f05249b5ef79b62d92f3c632dfada847548d5d9cbf1d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na composição das comissões da Câmara, cada partido deve receber sempre o mesmo número de lugares, independentemente do tamanho de sua bancada, pois proporcionalidade significa igualdade entre partidos.",
+      "justificativa": "ERRADO. A Constituição assegura, tanto quanto possível, representação proporcional dos partidos ou blocos que participam da Casa. Distribuir sempre o mesmo número de lugares a cada um ignora diferenças de representação. O critério constitucional não é sorteio nem igualdade aritmética entre todas as bancadas.",
+      "gatilho": "mesmo número",
+      "armadilhaBanca": "Trocar proporcionalidade por distribuição igualitária fixa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §1º: composição proporcional das comissões — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A composição das comissões deve observar, tanto quanto possível, a proporcionalidade das representações partidárias ou dos blocos.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-31",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 5º, XII, e 58, §3º: limites dos poderes de CPI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e51af18e57f2ed0a3106c7b4725e2d0002a7fec581997811edb289f817b59931",
+    "shaDepois": "976d543e5db67bdd93dfef7394e2ab716efcf05c44f4ddf9323a2de0b8591c47",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma CPI federal pode determinar diretamente a interceptação do conteúdo de ligações telefônicas em curso, sem ordem judicial, apenas por possuir poderes de investigação próprios das autoridades judiciais.",
+      "justificativa": "ERRADO. Poderes de investigação não equivalem a todas as competências jurisdicionais. Interceptação de comunicações submete-se à reserva judicial e aos requisitos legais, sendo distinta de acesso a registros de dados em hipóteses próprias. CPI não pode afastar esse limite por chamar sua decisão de investigativa.",
+      "gatilho": "interceptação",
+      "armadilhaBanca": "Confundir poderes investigatórios e poder de determinar interceptação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 5º, XII, e 58, §3º: limites dos poderes de CPI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "CPI deve respeitar a reserva judicial para interceptação de comunicações, distinguindo-a de outras medidas investigativas.",
+      "submoduloId": "10.5"
+    }
+  },
+  {
+    "id": "m10-q-32",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 17, §1º: voto do Presidente",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c50a30b94fbe546609f11c6940afb6e08ae58f7611930ad1310cbb22f642fdac",
+    "shaDepois": "dcca86041902eb2f93f895b933907d8ec45bc8b23453c7ed282aa144a71fdc58",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O Presidente não participa indistintamente de toda votação ordinária. O regimento admite voto em escrutínio secreto e para desempatar votações ostensivas, conforme suas regras. Exercer a Presidência e organizar os trabalhos não confere voto ordinário cumulativo em qualquer deliberação.",
+      "gatilho": "sem ocorrência de empate",
+      "armadilhaBanca": "Trocar poder de direção e direito de voto em toda deliberação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 17, §1º: voto do Presidente. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O voto do Presidente observa as hipóteses regimentais, incluindo desempate de votação ostensiva e escrutínio secreto.",
+      "item": "O Presidente da Câmara dos Deputados exerce direito de voto em deliberações ordinárias do Plenário, inclusive em votações simbólicas de rotina legislativa sem ocorrência de empate.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-33",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "fontes institucionais de informação jurídica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9d92ed678c27ed8478486733ced30ccae818bd8484f7322e6c90690f0f7f453d",
+    "shaDepois": "527fc6cb65f5e35f3f0bc1a7ab2e22db4887609081e1c1a9e81ba88dd6f0fb8f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Órgãos como Câmara dos Deputados, Superior Tribunal Militar e Ministério da Saúde podem constituir fontes institucionais de informação jurídica, conforme os documentos e atos que produzem ou divulgam.",
+      "justificativa": "CERTO. Órgãos públicos podem produzir e disponibilizar atos, decisões, normas e orientações jurídicas. É preciso conferir competência, autenticidade e contexto de cada documento. Pertencer a um portal institucional não faz todo conteúdo assumir força normativa ou representar decisão judicial.",
+      "gatilho": "podem",
+      "armadilhaBanca": "Distinguir fonte institucional e natureza de cada conteúdo.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — fontes institucionais de informação jurídica — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo texto de qualquer portal público possui a mesma força vinculante de uma lei federal.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-685",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-685"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-34",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 58, §2º, I: recurso à deliberação do Plenário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7e3fa49969e7079dc808845ee3382fb86f18d4db29ab5503baf9d4c5c66c7bff",
+    "shaDepois": "6fa82d95d35f306042a78d5c6fe46a3669cebf5ab990a2a6ed83154f09d790da",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A Constituição prevê recurso de um décimo dos membros da Casa para projetos apreciados conclusivamente por comissões, conforme o procedimento. Não exige que todos os subscritores sejam líderes. Liderança e número mínimo de parlamentares são critérios diferentes.",
+      "gatilho": "restrita a líderes",
+      "armadilhaBanca": "Confundir liderança e apoio mínimo para recurso.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §2º, I: recurso à deliberação do Plenário — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O recurso observa o apoio de um décimo dos membros da Casa, não uma exclusividade pessoal dos líderes.",
+      "item": "A interposição de recurso para submeter ao Plenário proposição sujeita à apreciação conclusiva pelas comissões constitui faculdade restrita a líderes de bancadas partidárias.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-35",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 58, §2º, I, e RICD art. 24, II",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5c31d697a7912e4bcff433636f1ec30ea1462884b711a10c8a81fafcf2740511",
+    "shaDepois": "faaf4c0522caa88ca7da64ba97b5bb8c181ae5caec898f4fc331f7c6ade27575",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Nos projetos sujeitos à apreciação conclusiva, as comissões podem discutir e votar sem deliberação inicial do Plenário, resguardado o recurso de um décimo dos membros da Casa e as regras pertinentes.",
+      "justificativa": "CERTO. A dispensa de Plenário ocorre nas matérias que admitem apreciação conclusiva, respeitadas as exceções regimentais e o recurso. Não se aplica automaticamente a todo projeto. Apreciação conclusiva do mérito também não é sinônimo de parecer terminativo sobre admissibilidade.",
+      "gatilho": "apreciação conclusiva",
+      "armadilhaBanca": "Distinguir competência conclusiva e universalização do procedimento.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §2º, I, e RICD art. 24, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda proposição, inclusive as excluídas pelo regimento, pode ser definitivamente aprovada apenas em comissão sem possibilidade de recurso.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-36",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 54, I: objeto do parecer terminativo da CCJC",
+    "nota": "Gabarito C revisto para E em redação específica: o caráter terminativo do art. 54 não abrange indistintamente toda análise técnica de qualquer proposição.",
+    "shaAntes": "424ba4edf8d8b2a389b0146d9d1d2b69796a9b9681e1005efa8827b203dcb214",
+    "shaDepois": "c0af2a1acc91f9b1baf86d3813022140a5ac5e63715a605f8b0bfe22eb3ee5ce",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "item": "Qualquer parecer da CCJC sobre técnica legislativa possui automaticamente o mesmo efeito terminativo previsto no art. 54, I, do RICD para constitucionalidade ou juridicidade.",
+      "justificativa": "ERRADO. O art. 54 atribui caráter terminativo à CCJC quanto à constitucionalidade ou juridicidade da matéria. A competência de examinar técnica legislativa não transforma qualquer observação técnica em causa terminativa equivalente. A assertiva confunde campo de análise e efeito regimental do parecer.",
+      "gatilho": "técnica legislativa",
+      "armadilhaBanca": "Confundir competência temática e efeito terminativo.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 54, I: objeto do parecer terminativo da CCJC. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O caráter terminativo do art. 54, I, refere-se à constitucionalidade ou juridicidade, e não indistintamente a qualquer observação de técnica legislativa.",
+      "versao_errada": "",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-37",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 71, III: apreciação de legalidade para registro",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5fbef2a9f8069280bce643c67b8032ebb436ee39c2a2f585dd8c01b659249e20",
+    "shaDepois": "d5ed7023ff85ff91a70d41ecd46bb6f2354e8b2c006d189d6417b5ddbcc93cec",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Cabe ao TCU apreciar a legalidade, para registro, das concessões iniciais de aposentadoria abrangidas pelo art. 71, III, da Constituição, sem confundir esse controle com a concessão pelo órgão administrativo competente.",
+      "justificativa": "CERTO. A administração pratica o ato concessivo e o TCU aprecia sua legalidade para registro nos termos constitucionais. A competência de controle não deve ser confundida com assumir a administração de pessoal da Câmara. A nova redação delimita a regra sem misturar eficácia, aperfeiçoamento e prazos de controle em uma única afirmação.",
+      "gatilho": "para registro",
+      "armadilhaBanca": "Distinguir concessão administrativa e controle de legalidade.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 71, III: apreciação de legalidade para registro — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O TCU assume a gestão de pessoal da Câmara e concede diretamente todas as aposentadorias de seus servidores.",
+      "submoduloId": "10.4"
+    }
+  },
+  {
+    "id": "m10-q-38",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rccn"
+    ],
+    "localizador": "art. 27, §1º: finalidade da sessão secreta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d29b8e546ab686d36fb6a50b8a106704dd83b0a472d3e1c8b353366a2dd1b198",
+    "shaDepois": "af3e394817b60500183d6d306809680d57326ca72843045b90bc9fb764f89ec5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O regimento exige que a finalidade conste expressamente da proposta, mas determina que não seja divulgada nessa hipótese. A assertiva acerta a existência de finalidade expressa e erra a divulgação. Não se deve concluir que ausência de publicidade equivale a ausência de motivação ou registro.",
+      "gatilho": "plenamente divulgada",
+      "armadilhaBanca": "Trocar explicitação interna da finalidade e divulgação pública.",
+      "fonte": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN — art. 27, §1º: finalidade da sessão secreta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A finalidade da sessão secreta deve constar da proposta, mas não é divulgada, conforme o art. 27, §1º, do RCCN.",
+      "item": "O Congresso Nacional poderá ter sessões secretas, desde que, na proposta de sua realização, esteja expressamente definida sua finalidade e que esta seja plenamente divulgada.",
+      "submoduloId": "10.6"
+    }
+  },
+  {
+    "id": "m10-q-39",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 12, §§3º a 5º: mínimo e extinção do bloco",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0651f766b95f72f9415041a08a32757f6be0d6943a5d0bd03fdbee8db60bd446",
+    "shaDepois": "9b57e7425159073614cbc888b9d58a0596fa2a457a038a9514ad3a17cbf52de4",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Se o desligamento reduz o bloco abaixo do mínimo regimental, o regimento prevê sua extinção. A existência limitada à legislatura é uma duração máxima, não garantia de sobrevivência apesar de perder requisito de constituição. Outras regras sobre formação e dissolução continuam pertinentes.",
+      "gatilho": "subsistirá",
+      "armadilhaBanca": "Confundir limite máximo de duração e manutenção obrigatória apesar da falta de requisito.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 12, §§3º a 5º: mínimo e extinção do bloco. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O bloco se extingue se os desligamentos o reduzem abaixo do mínimo regimental, não tendo continuidade garantida até o fim da legislatura.",
+      "item": "Caso um deputado se desligue do partido que integra um bloco parlamentar e esse desligamento reduza a quantidade de membros do bloco a número inferior ao quórum mínimo para sua constituição, o bloco subsistirá até o encerramento da legislatura em curso.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-40",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 17: direção das sessões e manutenção da ordem",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "182a9cff084a39b3d6407dca8b18aa2525b05e896aaccfdffd17b877e9641e70",
+    "shaDepois": "f298cdebdd3bdf7f9e8e1886431a481dd4072af9384c820925a1f2ca9d357c7c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Cabe ao Presidente dirigir os trabalhos e exercer as providências regimentais de ordem, inclusive a hipótese indicada. A assertiva desloca a atribuição individual de direção para competência exclusiva do colegiado da Mesa. Isso não elimina competências disciplinares de outros órgãos em seus procedimentos próprios.",
+      "gatilho": "exclusiva da mesa",
+      "armadilhaBanca": "Trocar Presidência e Mesa como sujeitos da competência.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 17: direção das sessões e manutenção da ordem. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Presidente exerce as medidas regimentais de manutenção da ordem da sessão, não sendo o convite indicado atribuição exclusiva da Mesa colegiada.",
+      "item": "É atribuição exclusiva da mesa da Câmara convidar a se retirar do plenário deputado que esteja perturbando a ordem dos trabalhos durante uma sessão.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-41",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfCPI"
+    ],
+    "localizador": "ADPF 848: cautelar referendada em 2021",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "33dac585dee0c10a83093c5f1644509430a73feb9d8b7c5bfb5e88137c8b4c4b",
+    "shaDepois": "3156c5a88f85b7bbd3d60508dc8fd1017ade1895e80a541bbb391c709b8841f6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O STF suspendeu convocações compulsórias de governadores na CPI federal, com fundamentos de autonomia federativa e separação de poderes. A aplicação de verbas federais não autoriza por si só ignorar esse limite. Convite para comparecimento voluntário e investigação de outros elementos devem ser distinguidos da convocação compulsória.",
+      "gatilho": "verbas federais",
+      "armadilhaBanca": "Confundir objeto de investigação e poder de obrigar o comparecimento.",
+      "fonte": "STF — ADPF 848: referendo de cautelar sobre convocação de governadores por CPI federal, 2021 — ADPF 848: cautelar referendada em 2021 — https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468315&tip=UN",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O fato de haver recursos federais não basta para autorizar convocação compulsória de governador por CPI federal na orientação indicada.",
+      "item": "Cabe a comissão parlamentar de inquérito instaurada na Câmara dos Deputados expedir intimação compulsória com força de convocação a governador de estado para prestar depoimento sobre a aplicação de verbas federais descentralizadas.",
+      "submoduloId": "10.5"
+    }
+  },
+  {
+    "id": "m10-q-42",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 17: organização da agenda e Ordem do Dia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3e75c07a91dcddb3342054b4f0c2ad8bcf638814dae8ea6088d5a240d86e47f0",
+    "shaDepois": "687b08e8e382877fd0a28d0af2b5fed74b9f0fe651b57481415c6ad9c470779a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A direção da pauta cabe ao Presidente conforme a agenda e o regimento. Isso não significa liberdade para ignorar prioridades, urgências ou outras regras. A ressalva do item preserva justamente as alterações e condições regimentais aplicáveis.",
+      "gatilho": "ressalvadas",
+      "armadilhaBanca": "Distinguir poder de organização e discricionariedade sem limites.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 17: organização da agenda e Ordem do Dia. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Designar a Ordem do Dia permite ao Presidente afastar qualquer prioridade constitucional ou regimental por decisão pessoal.",
+      "item": "Cabe ao presidente da Câmara designar a ordem do dia das sessões, segundo a agenda mensal, ressalvadas as alterações permitidas pelo Regimento Interno da Câmara dos Deputados.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-43",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 20: Colégio de Líderes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6ab0cb4c05671f12d0407e9181d504670361be284ded569713e2aed6fb3a5bc9",
+    "shaDepois": "19b97b8bc40f901a80d359d6de8da2ae436f050d150786f4bdc83e58b1e03ae8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O Colégio de Líderes reúne representações de liderança para funções de coordenação e decisão previstas no regimento. Não é comissão temática encarregada de produzir previamente todo substitutivo. A negociação política não substitui formalmente as competências das comissões e do Plenário.",
+      "gatilho": "comissão temática",
+      "armadilhaBanca": "Confundir articulação de lideranças e instrução técnica em comissão.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 20: Colégio de Líderes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Colégio de Líderes tem funções regimentais de coordenação e não se confunde com comissão temática de redação obrigatória de substitutivos.",
+      "item": "O Colégio de Líderes constitui comissão temática de assessoramento legislativo, cabendo-lhe a redação prévia dos substitutivos das proposições antes de sua submissão ao Plenário.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-44",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 24: fiscalização e proposta de sustação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3eac8688935dd9aa65b6892ec486c5d84b25633ca09b529563e60a4178e5cd42",
+    "shaDepois": "f72e2d176b84b1f0083d1f3b4d614102c691d1ca5c395cfd1592708294f36e59",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Comissões podem propor sustação de atos normativos do Executivo que ultrapassem os limites indicados. Propor não equivale a sustar definitivamente por decisão da própria comissão: a competência constitucional de sustação pertence ao Congresso. A questão nega a faculdade de iniciar essa providência.",
+      "gatilho": "propor",
+      "armadilhaBanca": "Distinguir proposta de controle e decisão final de sustação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 24: fiscalização e proposta de sustação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Comissões podem propor a sustação, cuja deliberação competente deve observar a Constituição e o processo legislativo.",
+      "item": "Uma comissão permanente não dispõe da atribuição de propor a sustação dos atos normativos do Poder Executivo federal que exorbitem do poder regulamentar ou dos limites de delegação legislativa.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-45",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 24, IV e V: ministros e pedidos de informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "beccaf8005f5c63c082af690139dd8c1001f6a136dbf3fe5b1eb6aae27af28b1",
+    "shaDepois": "25b8a1e878897e9c886d4d44537a29db5e96cbbf38b9f4d8da388fc94e1677d0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A comissão pode convocar Ministro para informações sobre assunto determinado e encaminhar pedidos escritos por intermédio da Mesa, nos termos regimentais e constitucionais. São instrumentos de fiscalização distintos. Não se deve confundir convocação para presença e pedido escrito ou eliminar seu canal formal.",
+      "gatilho": "através da mesa",
+      "armadilhaBanca": "Distinguir forma, destinatário e canal dos instrumentos.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 24, IV e V: ministros e pedidos de informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Pedidos escritos de informação de comissão devem ignorar a Mesa, pois seguem necessariamente o mesmo procedimento de convocação presencial.",
+      "item": "Uma comissão permanente tem o poder de convocar ministros de Estado e de encaminhar a eles, através da mesa, pedidos escritos de informação.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-46",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 12, §2º: lideranças dos partidos em bloco",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "efd51af549cd720d1b9484908d5f533a30b39f29fe16a6f66bc51540af14fffa",
+    "shaDepois": "0a13a54e39397d507e9a34733927c847d3aa40b3b43f3fca408c5827bead24a6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O dispositivo determina perda das atribuições e prerrogativas regimentais das lideranças partidárias que se unem em bloco, no contexto da liderança comum. A assertiva preserva uma parte que a regra não preserva. Não se trata de extinguir o partido ou retirar direitos individuais de todos os seus membros.",
+      "gatilho": "mas não suas prerrogativas",
+      "armadilhaBanca": "Alterar apenas uma das consequências previstas no dispositivo.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 12, §2º: lideranças dos partidos em bloco. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "As lideranças dos partidos em bloco perdem suas atribuições e prerrogativas regimentais, conforme a regra de liderança comum.",
+      "item": "Se dois partidos se coligarem para a formação de um bloco parlamentar, suas lideranças perdem suas atribuições, mas não suas prerrogativas.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-47",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "codigoEticaCamara"
+    ],
+    "localizador": "processos e competências na aplicação de sanções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f413f06c645fc83383764243b9454e0ba8900e2db8b40da2af1ef1602f6b9884",
+    "shaDepois": "ab42ae95c5642b51a4e710e8a245b88b75ac853de5768c00478d18301ff773bf",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O Conselho de Ética atua nos procedimentos disciplinares dos deputados e não substitui a decisão do Plenário nas hipóteses constitucionais de perda de mandato.",
+      "justificativa": "CERTO. O Conselho atua na apuração e instrução e possui competências próprias conforme a sanção. Na perda de mandato, não substitui a decisão constitucional do Plenário. Separar instrução, proposta e julgamento evita atribuir poder monocrático de cassação ao relator ou ao Conselho.",
+      "gatilho": "Plenário",
+      "armadilhaBanca": "Distinguir apuração, proposta e decisão competente.",
+      "fonte": "Câmara dos Deputados — Código de Ética e Decoro Parlamentar — processos e competências na aplicação de sanções. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O relator do Conselho pode decretar sozinho a perda do mandato, dispensando deliberação do Plenário.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-48",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "Ouvidoria Parlamentar: funções de comunicação e encaminhamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "025bcd77ad83f04c69a6001f493097af2f567ea44966c515acd28dcfd74e91b7",
+    "shaDepois": "104a6d47afdf7036eb0a7800b6b225e9b31610b09a759013d16bdfc5ad55d11e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Ouvidoria recebe manifestações e encaminha questões conforme suas competências, aproximando cidadão e instituição. Isso não a transforma em órgão judicial nem permite que substitua qualquer procedimento disciplinar ou pedido formal específico. Receber uma manifestação e julgá-la definitivamente são funções diferentes.",
+      "gatilho": "canal",
+      "armadilhaBanca": "Distinguir recepção e encaminhamento de manifestações e competência decisória.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — Ouvidoria Parlamentar: funções de comunicação e encaminhamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Ouvidoria decide definitivamente toda controvérsia administrativa ou judicial apresentada por cidadãos.",
+      "item": "A Ouvidoria Parlamentar da Câmara dos Deputados funciona como canal direto de comunicação e participação entre o cidadão e a instituição, recebendo reclamações, sugestões e pedidos de providências sobre as atividades dos órgãos da Casa.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-49",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 58, §3º: requisitos de CPI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c860d7379d7764b43b57048cb5138ae843f6f9c28baf2f9cd71c064d9ab85955",
+    "shaDepois": "60cf9709e9fcce4d5432a411b56a9afe4ec5f2db138fa0b9c80de836355b4083",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O requerimento de um terço, o fato determinado e o prazo certo são requisitos constitucionais. O número 171 decorre de uma composição de 513 deputados, não de fração calculada sobre presentes à sessão. Criar a CPI não a torna competente para proferir sentença criminal.",
+      "gatilho": "fato determinado",
+      "armadilhaBanca": "Distinguir base de cálculo e requisitos cumulativos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §3º: requisitos de CPI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O apoio de um terço dos presentes a qualquer sessão basta para criar CPI sem fato determinado nem prazo certo.",
+      "item": "A criação de uma CPI na Câmara dos Deputados depende de requerimento de pelo menos um terço dos deputados (171 deputados), para a apuração de fato determinado e por prazo certo.",
+      "submoduloId": "10.5"
+    }
+  },
+  {
+    "id": "m10-q-50",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 17: agenda do mês subsequente",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1e7aee8209ef83a3dd1a6ad17f3fdade397d540e053d1f205fd6fd884655feec",
+    "shaDepois": "cce1a9c10884e994a6ba13ffb6b215207007f998e34732e03619fdef2d06e164",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O Presidente organiza a agenda ouvindo o Colégio de Líderes, para previsão das matérias do mês seguinte. Ouvir não equivale a transferir toda a atribuição ou dispensar prioridades regimentais. A agenda é instrumento de organização, e suas alterações precisam seguir as regras pertinentes.",
+      "gatilho": "ouvido o colégio",
+      "armadilhaBanca": "Distinguir consulta às lideranças e titularidade da atribuição.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 17: agenda do mês subsequente. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O Colégio de Líderes substitui obrigatoriamente o Presidente em toda organização de agenda, dispensado o regimento.",
+      "item": "Constitui atribuição do presidente da Câmara organizar, ouvido o colégio de líderes, a agenda com a previsão das proposições a serem apreciadas no mês subsequente, para distribuição aos deputados.",
+      "submoduloId": "10.1"
+    }
+  },
+  {
+    "id": "m10-q-51",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "abranches"
+    ],
+    "localizador": "análise dos eixos de formação de coalizões",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d6e604a38ad1d75b47add27c723f2a26e89bd45f7575679d6ffa59568d509f10",
+    "shaDepois": "1d609299527eabd39a759da2fc0eb949e7fd288da85c5e20b6f6d30ac36d4714",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na análise de Abranches sobre presidencialismo de coalizão, a formação de alianças envolve dois eixos, partidário e regional, sem se reduzir a uma proporcionalidade mecânica entre bancadas e ministérios.",
+      "justificativa": "CERTO. Abranches identifica dimensões partidárias e regionais na formação de coalizões, não uma fórmula única de proporcionalidade ministerial. É uma interpretação de funcionamento político, distinta de regra constitucional que reserve cargos por bancada ou estado. A composição concreta depende também de negociação e contexto.",
+      "gatilho": "dois eixos",
+      "armadilhaBanca": "Distinguir análise política e regra jurídica de distribuição de cargos.",
+      "fonte": "ABRANCHES, Sérgio. Presidencialismo de coalizão: o dilema institucional brasileiro. Dados, 1988 — análise dos eixos de formação de coalizões — https://dados.iesp.uerj.br/artigos/?id=348",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Constituição obriga que a quantidade de ministros de cada partido seja sempre proporcional ao número de seus deputados.",
+      "submoduloId": "10.4"
+    }
+  },
+  {
+    "id": "m10-q-52",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "codificação MARC e regras de conteúdo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada a função ou hipótese didática, sem certificar tecnologia, equipamento ou subordinação institucional não demonstrada.",
+    "shaAntes": "c1fb55f388e4a14ac240a0781519ec8bb814f484844716f5667bb009f490dcbd",
+    "shaDepois": "045280d9eb544c9fcec4f2f21f9428816cab6e49c3c0cef56319af81a2892407",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na descrição de recursos de uma biblioteca parlamentar, MARC 21 pode estruturar registros, enquanto orientações como RDA tratam de conteúdo descritivo; essas funções não são equivalentes.",
+      "justificativa": "CERTO. MARC fornece uma estrutura de registro com campos e subcampos; RDA fornece orientações de conteúdo e modelagem descritiva em seu âmbito. Não são nomes equivalentes nem a adoção de um prova uso obrigatório do outro. O exemplo não certifica qual versão ou código a instituição efetivamente utiliza.",
+      "gatilho": "MARC 21",
+      "armadilhaBanca": "Distinguir formato de registro e orientação de conteúdo.",
+      "fonte": "Library of Congress — MARC 21 formats — codificação MARC e regras de conteúdo — https://www.loc.gov/marc/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Usar MARC 21 comprova automaticamente adoção da RDA, porque formato e código de conteúdo são o mesmo padrão.",
+      "submoduloId": "2.4"
+    }
+  },
+  {
+    "id": "m10-q-53",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "referência especializada e necessidades do usuário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0553207532a75f554d0f7a32c529ff07770ae4bc7070a22802616866011f07ef",
+    "shaDepois": "4b8f1f627c8615d87289f40c648c2d30c7fc6d3b481265a297629c6ca71177d5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Um dossiê ou repertório temático produzido pelo serviço de referência pode apoiar consultorias e comissões, mas não substitui automaticamente um parecer jurídico ou técnico de competência específica.",
+      "justificativa": "CERTO. Dossiês e bibliografias podem selecionar fontes para trabalho legislativo e técnico, desde que critérios e atualização sejam claros. Esses produtos não substituem automaticamente interpretação jurídica ou parecer de competência específica. A mediação deve apoiar o uso das evidências, não simular autoridade decisória.",
+      "gatilho": "não substitui",
+      "armadilhaBanca": "Distinguir produto de informação e manifestação técnica de outra competência.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — referência especializada e necessidades do usuário. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma bibliografia temática produzida pela biblioteca substitui automaticamente todo parecer jurídico da consultoria.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m10-q-54",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "acervos especiais e critérios de raridade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada a função ou hipótese didática, sem certificar tecnologia, equipamento ou subordinação institucional não demonstrada.",
+    "shaAntes": "f26bc3d30b999a652a60c9e8351e6f398d09b337c3118eb5624715df9a465155",
+    "shaDepois": "21275adb3b79486d40edbbec7ef7241887833a8beffa3c34cd7b0c33a05b2ddd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A avaliação de raridade em uma biblioteca parlamentar pode considerar edição, proveniência e características materiais; não depende exclusivamente da idade do exemplar.",
+      "justificativa": "CERTO. Raridade pode considerar contexto histórico, proveniência, edição, características materiais e outros critérios institucionais. Antiguidade isolada não torna toda obra rara, assim como uma obra recente pode possuir características especiais. A nova redação evita afirmar a custódia de exemplares específicos sem catálogo conferido.",
+      "gatilho": "não depende",
+      "armadilhaBanca": "Distinguir idade, raridade e valor documental.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — acervos especiais e critérios de raridade — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo livro antigo é necessariamente raro e todo livro recente está excluído de uma coleção especial.",
+      "submoduloId": "7.3"
+    }
+  },
+  {
+    "id": "m10-q-55",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao"
+    ],
+    "localizador": "missão institucional e política de seleção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "766edb75c1ea733e85af792c047463b2d7e8a5f29492fe48dbd06d324145297a",
+    "shaDepois": "2fab573e6d9e7da25f52ed7145e3c63b2a3d67ac181186baeb8e6d9c0eb3031d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Em uma biblioteca parlamentar, a seleção deve estabelecer prioridade obrigatória a leituras recreativas e deixar de atender necessidades em direito público, processo legislativo e políticas públicas.",
+      "justificativa": "ERRADO. Uma biblioteca parlamentar deve articular coleções às necessidades de seus públicos e à missão. Literatura pode ter pertinência, mas isso não autoriza impor prioridade recreativa universal em detrimento de temas legislativos. Seleção não se confunde com excluir toda obra de ficção por categoria.",
+      "gatilho": "prioridade obrigatória",
+      "armadilhaBanca": "Distinguir possibilidade de inclusão e prioridade institucional automática.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — missão institucional e política de seleção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A política deve considerar missão e necessidades, sem prioridade recreativa obrigatória que exclua a formação de acervos pertinentes ao trabalho legislativo.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m10-q-56",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, II: ingresso em cargo efetivo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "21b5e3839fac31ed5499af1f576d9105f612b29ca6d6366143f1862b18e89625",
+    "shaDepois": "a4e1a489cd5d122045f76c19f6af9734fba199ccfd81f5b97f4f2bf1323f7782",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O ingresso em cargo efetivo de bibliotecário da Câmara pode ocorrer por indicação da Mesa, sem concurso, desde que o indicado apresente diploma e registro profissional.",
+      "justificativa": "ERRADO. A investidura em cargo efetivo depende de aprovação prévia em concurso, observados os requisitos e as regras constitucionais. Diploma e registro podem ser necessários à profissão, mas não substituem o concurso. Cargos em comissão possuem regime próprio e não se confundem com a vaga efetiva de bibliotecário.",
+      "gatilho": "indicação",
+      "armadilhaBanca": "Confundir habilitação profissional e forma constitucional de provimento.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, II: ingresso em cargo efetivo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Preencher requisitos profissionais não dispensa concurso para ingresso no cargo efetivo.",
+      "submoduloId": "10.4"
+    }
+  },
+  {
+    "id": "m10-q-57",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "prodasen",
+      "cad"
+    ],
+    "localizador": "competências de TI e distinção de base de dados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b46537d04df38178aec79044947bb9b2aef9808abdc5a194da718b6c67898d36",
+    "shaDepois": "37507df4e0591069c63e845bb29fd0e852b01085a00b583ec76900425b519b78",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Prodasen é o nome de uma base bibliográfica especializada em jurisprudência, equivalente ao LexML, e não de uma unidade de tecnologia da informação do Senado.",
+      "justificativa": "ERRADO. Prodasen é unidade de tecnologia da informação do Senado, com competências de serviços, sistemas e infraestrutura. Uma base bibliográfica é outro tipo de entidade. O órgão pode apoiar sistemas que disponibilizam informação sem se transformar, por isso, em um catálogo ou base de jurisprudência.",
+      "gatilho": "base bibliográfica",
+      "armadilhaBanca": "Confundir órgão gestor e recurso informacional por ele apoiado.",
+      "fonte": "Senado Federal — Secretaria de Tecnologia da Informação (Prodasen) — competências de TI e distinção de base de dados — https://www12.senado.leg.br/institucional/institucional/orgaosenado?codorgao=8927",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Prodasen é unidade de tecnologia da informação, não uma base bibliográfica equivalente ao LexML.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJDFT)/TJDFT/Apoio Especializado/Biblioteconomia/2015",
+        "ano": 2015,
+        "orgao": "TJDFT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-318030",
+        "declaracaoLegada": "Cebraspe / TJDFT / 2015 (Adaptada); identificador legado: TecConcursos-318030"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-58",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlColeta",
+      "cad"
+    ],
+    "localizador": "interoperabilidade e participação em uma rede",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f0a9e4cadca91ace040fb64535b5180ce4aa43655ba5fb23bb82dbec50a475c1",
+    "shaDepois": "97f5b0e1174f8b0cf882161878b60ef05de20af9392a9b421a82c9012adfc334",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A adoção de OAI-PMH pela BDTD ou por qualquer repositório o torna automaticamente integrante do LexML, sem configuração, acordo ou verificação da cobertura da rede.",
+      "justificativa": "ERRADO. Adotar o mesmo protocolo pode favorecer a integração, mas a participação depende de requisitos, disponibilização e decisões dos serviços. Não torna todo repositório automaticamente fonte do LexML. O caso deve ser verificado nos provedores e na cobertura efetiva, em vez de inferido apenas da compatibilidade.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Confundir possibilidade de interoperar e integração já implementada.",
+      "fonte": "LexML Brasil — Parte 4: Coleta de Metadados — interoperabilidade e participação em uma rede — https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Compatibilidade de protocolo não equivale a participação automática em toda rede de coleta.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (CADE)/CADE/2014",
+        "ano": 2014,
+        "orgao": "CADE",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-185319",
+        "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185319"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-59",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlColeta",
+      "cad"
+    ],
+    "localizador": "parte 4: coleta de metadados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b78905166e5b589e2f07221b5ad2bda72eef476d003b8e9fc34856201e255e7e",
+    "shaDepois": "57b27953c83defecdb8bcb1c653d2e6883bebaef9cd926dd2fd54683c88db6d3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Para organizar e integrar informações jurídicas e legislativas, o mecanismo de coleta de metadados documentado pelo LexML utiliza Z39.50, em vez de OAI-PMH.",
+      "justificativa": "ERRADO. A coleta documentada do LexML utiliza OAI-PMH. Z39.50 é protocolo de busca e recuperação remota e não deve ser atribuído por semelhança de objetivo geral. Integrar fontes jurídicas não elimina a necessidade de identificar corretamente o mecanismo utilizado.",
+      "gatilho": "Z39.50",
+      "armadilhaBanca": "Trocar protocolos de consulta e colheita.",
+      "fonte": "LexML Brasil — Parte 4: Coleta de Metadados — parte 4: coleta de metadados — https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O mecanismo de coleta de metadados documentado pelo LexML utiliza OAI-PMH.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-682",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-682"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-60",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8159"
+    ],
+    "localizador": "art. 9º: autorização para eliminação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "157bd5b7c476b1c03ed358d5497431ace4fc8551540d3df42370d7e9a0475cb2",
+    "shaDepois": "c17ddd98e62b1d56eba2a9d7c8424fd7d97dc873b4adeb6160f78f4fe23e83c2",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Documentos de uma instituição pública podem ser eliminados sem autorização da instituição arquivística competente quando já estiverem disponíveis para acesso público.",
+      "justificativa": "ERRADO. A publicidade do conteúdo não torna o documento eliminável. A lei exige autorização da instituição arquivística pública na esfera competente, além dos procedimentos pertinentes de avaliação e destinação. Consulta pública, prazo de guarda e decisão de eliminação respondem a questões diferentes.",
+      "gatilho": "acesso público",
+      "armadilhaBanca": "Confundir condição de consulta e destinação arquivística.",
+      "fonte": "Lei 8.159/1991 — política nacional de arquivos públicos e privados — art. 9º: autorização para eliminação — https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Acesso público não dispensa avaliação e autorização competente para eliminação documental.",
+      "submoduloId": "1.5"
+    }
+  },
+  {
+    "id": "m10-q-61",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "consulta e serviços: condições próprias de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c9d350b613876fb02c7b58c7951e5abb991974ae8b5f1b415368cf4adbc34601",
+    "shaDepois": "63563f9c80aacee1a15e501b33e791b84454e29d3511b927f91a2459c72bdc6e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A possibilidade de consulta pública ao acervo da Biblioteca da Câmara autoriza automaticamente qualquer pessoa a retirar para empréstimo domiciliar qualquer exemplar, sem cadastro ou condição específica.",
+      "justificativa": "ERRADO. Consulta ao catálogo ou ao acervo não concede automaticamente direito a qualquer serviço. Empréstimo domiciliar pode ter público, cadastro, materiais e condições específicos. É preciso conferir a política institucional, sem equiparar publicidade do catálogo e autorização para retirar qualquer exemplar.",
+      "gatilho": "autoriza",
+      "armadilhaBanca": "Distinguir modalidades de acesso e requisitos de serviço.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — consulta e serviços: condições próprias de acesso — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A consulta pública não implica, por si só, autorização de empréstimo domiciliar para qualquer usuário e material.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m10-q-62",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cedi"
+    ],
+    "localizador": "produção editorial e natureza dos documentos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "022391dfe6fc766d7d88b042768594cdeec100eeb44e403f997706bedb10e915",
+    "shaDepois": "a047b4c843e3ebd936c17b3ac42416a79dfac5807b6024aec76a4768079413b8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A publicação de uma coletânea pelas Edições Câmara equivale a promulgar novas leis, podendo o organizador alterar o conteúdo normativo por decisão editorial.",
+      "justificativa": "ERRADO. Publicar um livro de legislação pode facilitar acesso e estudo, mas não cria ou altera uma lei pela simples edição. Uma obra compilada também tem data de atualização e critérios editoriais. Publicação oficial do ato, consolidação editorial e promulgação são operações distintas.",
+      "gatilho": "promulgar",
+      "armadilhaBanca": "Confundir produção editorial e produção normativa.",
+      "fonte": "Câmara dos Deputados — Diretoria-Geral e atribuições do Centro de Documentação e Informação — produção editorial e natureza dos documentos — https://www2.camara.leg.br/a-camara/estruturaadm/diretorias/diretoria-geral",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma edição de legislação reúne e apresenta textos sem, por si só, promulgar novas leis ou alterar as existentes.",
+      "submoduloId": "8.5"
+    }
+  },
+  {
+    "id": "m10-q-63",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "missão e públicos de serviços parlamentares",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "024119928d00ef6f2cd658a2e1330a5834ca775e3cdbb39c74449603cd1241f1",
+    "shaDepois": "a360ef1f21a36e3ae625acaa7aaba1155d978f64e1caa64506975bae84b92851",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Atender cidadãos é incompatível com apoiar gabinetes e comissões, de modo que a Biblioteca da Câmara deve abandonar suas funções parlamentares quando oferece consulta ao público externo.",
+      "justificativa": "ERRADO. Uma biblioteca parlamentar pode atender público externo e necessidades institucionais segundo regras e prioridades. Não há incompatibilidade lógica entre apoiar cidadãos, gabinetes e órgãos da Casa. O serviço deve definir escopo e critérios de atendimento, em vez de excluir sua missão legislativa pela abertura pública.",
+      "gatilho": "incompatível",
+      "armadilhaBanca": "Tratar públicos complementares como alternativas excludentes.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — missão e públicos de serviços parlamentares — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Atendimento ao público externo pode coexistir com apoio às necessidades informacionais dos órgãos e parlamentares da Casa.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m10-q-64",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "diagnóstico e compatibilidade das intervenções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada a função ou hipótese didática, sem certificar tecnologia, equipamento ou subordinação institucional não demonstrada.",
+    "shaAntes": "3b92f106c607da54573a214824826261f0d2cce8758c52d09e6238dc99b93867",
+    "shaDepois": "6bdb33dfbf3c4bcce861956c3cf35f64eda9a23a29227ad134247ae8e3469312",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Em um laboratório de conservação de acervos parlamentares, a disponibilidade de equipamentos não substitui diagnóstico do objeto e avaliação de compatibilidade antes de higienização, desacidificação ou reparo.",
+      "justificativa": "CERTO. Escolher tratamento requer observar suporte, tintas, estrutura, estado e finalidade. Ter equipamento de laboratório não comprova indicação de uma técnica para todo objeto. Higienização, desacidificação e reparo têm funções e limites distintos, devendo ser propostos e documentados de modo adequado.",
+      "gatilho": "não substitui",
+      "armadilhaBanca": "Distinguir disponibilidade técnica e indicação de tratamento.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — diagnóstico e compatibilidade das intervenções. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Dispor de equipamento de conservação permite aplicar automaticamente o mesmo tratamento a qualquer documento, sem diagnóstico.",
+      "submoduloId": "7.4"
+    }
+  },
+  {
+    "id": "m10-q-65",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "especialização e apoio ao trabalho parlamentar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "351c8576a2f31da51e880f8ebc859f5b22070277cafd3c26e28dc65b9013ceb8",
+    "shaDepois": "e7fd93dc60336b3472805d91e5fd1c2210b98b81745e7f5dbd5460645666da67",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A Biblioteca Pedro Aleixo possui missão de apoio informacional ao trabalho parlamentar, orientando coleções e serviços a temas relevantes à atividade legislativa e às necessidades institucionais.",
+      "justificativa": "CERTO. A biblioteca parlamentar articula suas coleções e serviços às demandas legislativas e institucionais, com destaque para temas sociais, políticos e de administração pública. Especialização não significa excluir toda área correlata. A pertinência é avaliada pela missão e pelos usuários, não apenas pelo rótulo de uma disciplina.",
+      "gatilho": "missão",
+      "armadilhaBanca": "Distinguir foco da coleção e proibição de interdisciplinaridade.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — especialização e apoio ao trabalho parlamentar — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A especialização parlamentar impede adquirir qualquer material de área correlata, mesmo necessário a um estudo legislativo.",
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m10-q-66",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9610"
+    ],
+    "localizador": "direitos de reprodução e limitações legais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8ee6b1000763349da9800ad91b8fa35174dafa320deee9c88a39e3a17d7e6dbc",
+    "shaDepois": "73b8b6285e254d9802daa8f3e63353f205dd0343d951835f77970762f806e287",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A gratuidade da consulta em biblioteca parlamentar autoriza qualquer usuário a reproduzir integralmente e redistribuir toda obra protegida, independentemente de licença ou das limitações legais.",
+      "justificativa": "ERRADO. Permissão de consulta não equivale a licença irrestrita para copiar e redistribuir toda obra. Devem ser considerados domínio público, autorização, licença e limitações previstas em lei. Uma biblioteca pública ou parlamentar também precisa observar esses regimes.",
+      "gatilho": "reproduzir integralmente",
+      "armadilhaBanca": "Confundir acesso para leitura e direitos de reprodução.",
+      "fonte": "Lei 9.610/1998 — direitos autorais — direitos de reprodução e limitações legais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Consulta gratuita não concede automaticamente autorização para reprodução integral e redistribuição de qualquer obra protegida.",
+      "submoduloId": "9.3"
+    }
+  },
+  {
+    "id": "m10-q-67",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "bibliotecas cooperantes: Câmara dos Deputados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2f220fcd3a2ab8c211f9aa93f36123aa2eadc68078fd00f062e3a30d824e94d3",
+    "shaDepois": "cb49db37a0234938dd362c2e090f53fbb75de62b9dd9d55404207cd149ee9e3a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A Biblioteca da Câmara não participa da Rede Virtual de Bibliotecas (RVBI), pois a cooperação com o Senado é incompatível com sua função parlamentar.",
+      "justificativa": "ERRADO. A Biblioteca da Câmara integra a cooperação da RVBI. Participar de rede de bibliotecas não transfere subordinação administrativa nem torna todas as regras locais idênticas. A assertiva nega uma integração institucional que deve ser conferida na relação de cooperantes.",
+      "gatilho": "não participa",
+      "armadilhaBanca": "Confundir cooperação em rede e isolamento institucional.",
+      "fonte": "Senado Federal — A RVBI — bibliotecas cooperantes: Câmara dos Deputados — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Biblioteca da Câmara participa da RVBI, preservadas as competências e condições institucionais próprias.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-68",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8159"
+    ],
+    "localizador": "arts. 3º e 19: gestão e arquivos legislativos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada a função ou hipótese didática, sem certificar tecnologia, equipamento ou subordinação institucional não demonstrada.",
+    "shaAntes": "c9fda18adbd175163e3aaae4b244a3961f852d10763f846ee53a09a5f71543f9",
+    "shaDepois": "9a6fcd48d4259915e6f495acf44e6992ab436e5900d142809978118272b4c752",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A gestão de documentos de um órgão legislativo abrange procedimentos ao longo de produção, tramitação, uso, avaliação e destinação, sem se reduzir à guarda de documentos históricos.",
+      "justificativa": "CERTO. A gestão documental acompanha produção, tramitação, uso, avaliação e destinação. O arquivo histórico é parte do universo documental, não seu único momento de interesse. A competência dos arquivos legislativos não deve ser reduzida a recolher peças antigas sem atuar no ciclo de gestão.",
+      "gatilho": "produção",
+      "armadilhaBanca": "Distinguir gestão do ciclo e custódia final.",
+      "fonte": "Lei 8.159/1991 — política nacional de arquivos públicos e privados — arts. 3º e 19: gestão e arquivos legislativos — https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A gestão documental só começa depois de todos os documentos se tornarem históricos, sem relação com produção ou avaliação.",
+      "submoduloId": "1.5"
+    }
+  },
+  {
+    "id": "m10-q-69",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "consulta, acesso e preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "85be17db8bb5ac075696966d7e3693a4e3c32b2f31762aa9e518ad1fb783053e",
+    "shaDepois": "b3da4c8cdcd9ac6fa4234a7810cc78f15501625d9a9df9b853d8784793401b74",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O acesso público a acervos parlamentares pode ser organizado com regras de consulta e medidas de preservação compatíveis com materiais frágeis ou especiais.",
+      "justificativa": "CERTO. Acesso e preservação são responsabilidades articuladas. Materiais frágeis ou especiais podem exigir supervisão, acondicionamento ou substitutos de consulta, conforme o caso. Oferecer consulta não implica deixar qualquer objeto sem cuidado, nem justifica proibir todo acesso por princípio.",
+      "gatilho": "regras",
+      "armadilhaBanca": "Distinguir direito de acesso e modalidade segura de consulta.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — consulta, acesso e preservação — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Permitir acesso público exige manuseio irrestrito de qualquer obra rara, sem medidas de conservação.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m10-q-70",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "cooperação e vinculação institucional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dcdeb9f8d4a0d11c5a92884876efe126b2ab45eeca6208c3065a9ff94c757362",
+    "shaDepois": "931d6d9d1803f9d9d3c7f3d3d67cca35707ada8ba9b991d57a6f415a55db573d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Por participar da RVBI, a Biblioteca da Câmara passou a integrar a estrutura administrativa do Senado, pois cooperação bibliográfica transfere automaticamente a subordinação de seus participantes.",
+      "justificativa": "ERRADO. A rede promove cooperação, catalogação e acesso, mas não converte uma biblioteca cooperante em unidade administrativa de outra Casa. Responsabilidade institucional e governança da rede são diferentes. Usar sistema ou catálogo compartilhado não altera automaticamente o vínculo do órgão.",
+      "gatilho": "subordinação",
+      "armadilhaBanca": "Confundir governança de rede e hierarquia administrativa.",
+      "fonte": "Senado Federal — A RVBI — cooperação e vinculação institucional — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A participação da Biblioteca da Câmara na RVBI não transfere sua subordinação administrativa ao Senado.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-71",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8159"
+    ],
+    "localizador": "avaliação e destinação de documentos públicos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "df7a693f7bde5fb555539c3d4d959ff6a8f908e4cc9819dec411d797e21aa75d",
+    "shaDepois": "24f04b968388a7292de63260adb5dc942c35cadc37d9631a43d6ca75431ae4e1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A orientação política de quem produziu um documento público é critério suficiente para sua eliminação, dispensando avaliação e autorização quando o gestor discorda do conteúdo.",
+      "justificativa": "ERRADO. Avaliação e destinação devem seguir critérios, competências e procedimentos, não preferência por corrente política. Um documento pode registrar debate e atividade institucional independentemente de quem o produziu. Eliminação precisa de fundamento e autorização pertinentes, não de juízo partidário do gestor.",
+      "gatilho": "orientação política",
+      "armadilhaBanca": "Confundir avaliação documental e seleção partidária de memória.",
+      "fonte": "Lei 8.159/1991 — política nacional de arquivos públicos e privados — avaliação e destinação de documentos públicos — https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A orientação política do autor não é critério suficiente para eliminar documentos públicos sem procedimento competente.",
+      "submoduloId": "1.5"
+    }
+  },
+  {
+    "id": "m10-q-72",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cedi"
+    ],
+    "localizador": "atribuições de documentação e informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada a função ou hipótese didática, sem certificar tecnologia, equipamento ou subordinação institucional não demonstrada.",
+    "shaAntes": "e38c0aa2bef1830a1d8c24e684a81ef9b423b9c671ab2b04d5d5eff72ad4cb16",
+    "shaDepois": "2fa9e9df6f083e3a76cec9163011b6c88af3e7f6073b201017ffe27931bb1658",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O Centro de Documentação e Informação apoia a gestão, organização e acesso à informação institucional da Câmara; essa função não se confunde com exercer competência legislativa ou jurisdicional.",
+      "justificativa": "CERTO. O Cedi exerce funções de organização, gestão, preservação e disponibilização de informação, conforme a estrutura institucional. Atribuições documentais apoiam a atividade parlamentar, mas não lhe conferem jurisdição ou poder de criar normas por tratamento técnico. A redação não infere subordinação direta a partir de uma lista genérica de órgãos.",
+      "gatilho": "não se confunde",
+      "armadilhaBanca": "Distinguir apoio documental e exercício de competência normativa.",
+      "fonte": "Câmara dos Deputados — Diretoria-Geral e atribuições do Centro de Documentação e Informação — atribuições de documentação e informação — https://www2.camara.leg.br/a-camara/estruturaadm/diretorias/diretoria-geral",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O tratamento técnico de um texto pelo Cedi equivale a editar a norma jurídica nele reproduzida.",
+      "submoduloId": "1.5"
+    }
+  },
+  {
+    "id": "m10-q-73",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cedi"
+    ],
+    "localizador": "memória institucional e fontes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada a função ou hipótese didática, sem certificar tecnologia, equipamento ou subordinação institucional não demonstrada.",
+    "shaAntes": "fb00ee75fde2645bb7fac20a205e41f7cec31c707e465c08f203525ef29ec1e0",
+    "shaDepois": "e16b6171a7705df6d5e0618a1e9b1ce80354b7594d9250c289cabab510fc6a6f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Projetos de história oral e exposições podem apoiar a memória parlamentar, mas seus registros e narrativas não equivalem automaticamente aos registros oficiais das sessões.",
+      "justificativa": "CERTO. História oral e exposições podem valorizar fontes e narrativas da memória institucional. Um depoimento retrospectivo tem contexto e perspectiva próprios e não substitui automaticamente o registro oficial de uma sessão. Confrontar fontes ajuda a compreender diferenças sem desqualificar toda memória oral.",
+      "gatilho": "não equivalem",
+      "armadilhaBanca": "Distinguir memória retrospectiva e registro oficial contemporâneo.",
+      "fonte": "Câmara dos Deputados — Diretoria-Geral e atribuições do Centro de Documentação e Informação — memória institucional e fontes — https://www2.camara.leg.br/a-camara/estruturaadm/diretorias/diretoria-geral",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um depoimento de história oral substitui necessariamente a transcrição oficial de qualquer sessão sobre o mesmo fato.",
+      "submoduloId": "1.5"
+    }
+  },
+  {
+    "id": "m10-q-74",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bdcamara"
+    ],
+    "localizador": "disponibilização digital e direitos de uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5e1dcd32bf59d0e7801e244b4749a27f7b89af02fe5377be2769a85e86ca60e1",
+    "shaDepois": "8d0a4e282e01295280645fea69897279b417740dac3d18499fc9da05eecc71b8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Disponibilizar uma obra na Biblioteca Digital da Câmara favorece acesso, mas não transfere automaticamente seus direitos autorais ao domínio público nem dispensa conferir condições de uso.",
+      "justificativa": "CERTO. Estar disponível na Biblioteca Digital favorece leitura e descoberta, mas não torna automaticamente toda obra domínio público. Direitos, licenças e condições precisam ser conferidos no recurso. Uma publicação institucional pode ter componentes de terceiros com regras próprias.",
+      "gatilho": "não transfere",
+      "armadilhaBanca": "Distinguir acesso ao objeto e autorização de reutilização.",
+      "fonte": "Câmara dos Deputados — Biblioteca Digital — disponibilização digital e direitos de uso — https://bd.camara.leg.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo objeto disponível na Biblioteca Digital pode ser adaptado e explorado comercialmente sem observar direitos ou licenças.",
+      "submoduloId": "6.1"
+    }
+  },
+  {
+    "id": "m10-q-75",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "koha"
+    ],
+    "localizador": "automação, catálogo público e circulação autorizada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada a função ou hipótese didática, sem certificar tecnologia, equipamento ou subordinação institucional não demonstrada.",
+    "shaAntes": "96e8af32101e59ae8f0f79cc110579ff2136ea1615e5b5596656222c0de20875",
+    "shaDepois": "0b5682659d278deae53c740f997fc5068ad97b7a7614590e8712bf93ef7dabe0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Em um sistema de biblioteca parlamentar, a pesquisa pública no catálogo pode coexistir com autenticação e permissão específicas para empréstimos, renovações e reservas.",
+      "justificativa": "CERTO. Catálogo público e operações de circulação podem ter regras de acesso diferentes. Um sistema pode permitir pesquisa sem autenticação e exigir identificação para renovação ou reserva. Descobrir o registro não prova elegibilidade para retirar material nem disponibilidade imediata do exemplar.",
+      "gatilho": "permissão",
+      "armadilhaBanca": "Distinguir descoberta, autenticação e elegibilidade de serviço.",
+      "fonte": "Koha — Manual do sistema integrado de bibliotecas — automação, catálogo público e circulação autorizada — https://koha-community.org/manual/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer pessoa que visualize um registro no catálogo recebe automaticamente permissão para todas as operações de circulação.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m10-q-76",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "art. 6º: serviços e atribuições profissionais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "34b1eafa61c9d64e5baaa9276297609c1bf86371a5ff3461d61bb22de560daae",
+    "shaDepois": "bb2bbdecb5bf49000b3c74565f3588b42fb11777545f85aeec184589789937f7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O art. 6º da Lei 4.084/1962 contempla atribuições como administração e direção de bibliotecas e execução de serviços técnicos de classificação, catalogação, bibliografia e referência.",
+      "justificativa": "CERTO. A lei inclui administração e direção de bibliotecas e serviços técnicos como classificação, catalogação, bibliografia e referência nas atribuições indicadas. A enumeração exemplificativa do item não esgota o dispositivo. Código de catalogação e formato de registro não substituem os requisitos profissionais.",
+      "gatilho": "catalogação",
+      "armadilhaBanca": "Distinguir uso de ferramenta e atribuição profissional.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — art. 6º: serviços e atribuições profissionais — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As atribuições profissionais se resumem a operar um software, excluindo classificação, catalogação e referência.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "m10-q-77",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "art. 5º, II: dado pessoal sensível",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8765eec0d777ac9b7286fd37feaaf06ae7fd8fa2b90952051f61c40de3ecef99",
+    "shaDepois": "e049920872eaa68be6ab7606b35b34a33ba8065273306a092f1f45c177793762",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na LGPD, categorias como origem racial ou étnica, convicção religiosa, opinião política, saúde e dados genéticos ou biométricos integram a definição de dados pessoais sensíveis quando vinculados a uma pessoa natural.",
+      "justificativa": "CERTO. A definição abrange categorias como origem racial, convicção religiosa, opinião política, saúde, vida sexual e dados genéticos ou biométricos quando vinculados a pessoa natural. Não é qualquer dado do acervo, independentemente de vínculo pessoal. O tratamento precisa considerar as bases e salvaguardas próprias dessa categoria.",
+      "gatilho": "vinculados",
+      "armadilhaBanca": "Distinguir tema sensível e dado pessoal vinculado ao titular.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 5º, II: dado pessoal sensível — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo dado sobre um tema de saúde, mesmo sem vínculo com pessoa natural, é automaticamente dado pessoal sensível de alguém.",
+      "submoduloId": "10.3"
+    }
+  },
+  {
+    "id": "m10-q-78",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ccn",
+      "cad"
+    ],
+    "localizador": "escopo e localização de coleções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1fb96af7efe139b84026aea27a210f7bcf1251b4bbbf64e7c31696dba50541d7",
+    "shaDepois": "63ea27ccdf51067e968c17eac7f14148259ff9d8aaee2ed7f11b2bc25f0898a5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O CCN é de acesso público e reúne informações sobre coleções de publicações seriadas nacionais e estrangeiras disponíveis nas bibliotecas brasileiras participantes.",
+      "justificativa": "CERTO. O CCN reúne informações sobre coleções de publicações seriadas nacionais e estrangeiras em bibliotecas participantes no Brasil. A origem estrangeira de um título não significa que sua coleção esteja fisicamente no exterior. Localizar uma coleção também não garante acesso remoto gratuito ao texto completo.",
+      "gatilho": "estrangeiras",
+      "armadilhaBanca": "Distinguir origem da publicação, localização da coleção e acesso.",
+      "fonte": "Ibict — Catálogo Coletivo Nacional de Publicações Seriadas — escopo e localização de coleções — https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/catalogo-coletivo-nacional-de-publicacoes-seriadas-ccn",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo título estrangeiro indicado no CCN encontra-se necessariamente fora do Brasil e tem texto integral aberto.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (CADE)/CADE/2014",
+        "ano": 2014,
+        "orgao": "CADE",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-185318",
+        "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185318"
+      },
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m10-q-79",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "arts. 3º e 8º: publicidade e transparência ativa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "17f00b31f30d90e6bace832a620f3e2f02c3191596f6599bca4bd30e3bd0b59c",
+    "shaDepois": "7aaa2fcc0fede5cbe9fe180d384c7cb11dd5a96f2a897c1775fac5dc72f4758f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A lei adota publicidade como regra e prevê divulgação de informações de interesse coletivo sem depender de pedido individual. Isso não elimina proteção de dados pessoais nem hipóteses legais de restrição. Transparência ativa e resposta a solicitação são formas diferentes de assegurar acesso.",
+      "gatilho": "independentemente",
+      "armadilhaBanca": "Distinguir dever de divulgar e atendimento de um pedido específico.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — arts. 3º e 8º: publicidade e transparência ativa — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda informação pública só pode ser divulgada depois de requerimento individual, sendo proibida a transparência ativa.",
+      "item": "Conforme a Lei de Acesso à Informação (Lei nº 12.527/2011), a publicidade dos atos estatais é o preceito geral, e o sigilo é a exceção estrita, devendo os órgãos públicos da administração direta e indireta promover, independentemente de requerimentos, a divulgação em local de fácil acesso de informações de interesse coletivo (transparência ativa).",
+      "submoduloId": "10.3"
+    }
+  },
+  {
+    "id": "m10-q-80",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "obras de referência e modalidades de consulta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "70f79659dfaf8040fbd87438b888ac9a611d0ff5445d22a8f56aec5163bf233b",
+    "shaDepois": "e7b822f5edc560838dae6c6fe17a87127c6c045288fa74cb606b380de9d5bcca",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A organização de uma obra de referência para consulta pontual estabelece uma proibição de leitura sequencial, tornando incorreto ao usuário ler verbetes consecutivos.",
+      "justificativa": "ERRADO. Obras de referência são organizadas para facilitar consultas específicas, mas essa finalidade não proíbe leitura sequencial. Descrever um modo predominante de uso não significa impor uma limitação ao leitor. O item anterior misturava possibilidade de leitura e finalidade, tornando o julgamento pouco claro.",
+      "gatilho": "proibição",
+      "armadilhaBanca": "Confundir função predominante e proibição de outro modo de leitura.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — obras de referência e modalidades de consulta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A finalidade de consulta pontual não impede que o leitor percorra uma obra de referência de maneira sequencial.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-436511",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436511",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013; identificador legado: 436511"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m10-q-81",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "revisão de provas e composição editorial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "88eaa0bca6226fc7663c468e5b94c922d254acdbb686dc1d47678ea26f0769ef",
+    "shaDepois": "13e228f11f2c9cbb2441c59bf33dc0e5180e2b25a6d4efea359e20813ca816f7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na revisão de provas de uma publicação, conferir composição e apresentação não autoriza alterar o conteúdo jurídico ou técnico da fonte sem a validação competente.",
+      "justificativa": "CERTO. A revisão pode identificar erros de composição e apresentação, preservando o sentido do texto autorizado. Corrigir aparência não concede competência para alterar conteúdo jurídico ou técnico sem validação. Em publicação legislativa, corrigir uma composição é diferente de mudar a redação normativa da fonte.",
+      "gatilho": "conteúdo",
+      "armadilhaBanca": "Distinguir correção de composição e alteração de conteúdo.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — revisão de provas e composição editorial. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A revisão de provas autoriza alterar livremente o sentido de uma norma porque se trata apenas de preparação editorial.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
+        "ano": 2014,
+        "orgao": "TC DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-369884",
+        "declaracaoLegada": "Cebraspe / TC DF / 2014 (Adaptada); identificador legado: TecConcursos-369884"
+      },
+      "submoduloId": "8.5"
+    }
+  },
+  {
+    "id": "m10-q-82",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "arts. 24 e 31: classificação e informação pessoal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d159473b638c1ce2c2e7c54a48bb27c176c4e3c4b46623f95a885dcefc6bd13d",
+    "shaDepois": "9ad26c87402f53939e5d5ece8e4f439bf1e132c9d5c18ed6a9a50a22a3611611",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Ultrassecreto tem prazo máximo de restrição de 25 anos na classificação, enquanto os demais graus têm limites próprios. O prazo de até cem anos aparece no regime de informação pessoal, não como grau ultrassecreto. Confundir os regimes mistura fundamento e duração de proteção.",
+      "gatilho": "cem anos",
+      "armadilhaBanca": "Trocar regime de classificação e proteção de informação pessoal.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — arts. 24 e 31: classificação e informação pessoal — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O grau ultrassecreto tem limite de 25 anos; o regime de informações pessoais possui regra distinta de até cem anos.",
+      "item": "Na classificação de documentos sigilosos sob a égide da Lei nº 12.527/2011 (LAI), o prazo máximo de restrição de acesso para a informação classificada no grau 'Ultrassecreto' é de cem anos.",
+      "submoduloId": "10.3"
+    }
+  },
+  {
+    "id": "m10-q-83",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "jurisprudência e identificação de acórdão judicial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a73e51de9e82868fda3a4dfedbd65f4f97b8709e13b6f12e793f67cc6b13eb02",
+    "shaDepois": "49ec195e2aafe2b65da8f39f3807d34758323dbfe85beb9f41be55433e05fcae",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O acórdão judicial é documento de decisão de órgão colegiado e pode ser referenciado como jurisprudência, sem se confundir automaticamente com lei ou decreto legislativo.",
+      "justificativa": "CERTO. Acórdão judicial resulta de decisão colegiada e integra a jurisprudência como tipo documental. Não é automaticamente lei geral ou decreto normativo. A classificação de espécies documentais precisa identificar o contexto, pois termos de deliberação também aparecem em órgãos administrativos.",
+      "gatilho": "colegiado",
+      "armadilhaBanca": "Distinguir decisão colegiada e ato legislativo.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — jurisprudência e identificação de acórdão judicial. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo acórdão judicial é necessariamente uma lei geral aprovada pelo Congresso Nacional.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-601",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-601"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-84",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "requisitos profissionais; articulação com Lei 9.674/1998",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0a24c658f214ebd7357ec1bc3f30b81f6a164d15e718342a60261348c7e0faf5",
+    "shaDepois": "b9db4a20a6becaa2fe92760dd9a9beb10907725345dadeda8272361d3811b803",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O simples exercício em órgão público federal dispensa o bibliotecário dos requisitos legais de habilitação e registro profissional, pois a aprovação em concurso substitui todas essas exigências.",
+      "justificativa": "ERRADO. A atuação em órgão público não afasta a legislação profissional. Habilitação e registro seguem as condições legais pertinentes, além dos requisitos de investidura do cargo. A aprovação na seleção do cargo e a inscrição profissional cumprem funções diferentes; uma não é substituta automática da outra.",
+      "gatilho": "órgão público",
+      "armadilhaBanca": "Confundir natureza pública do empregador e dispensa de habilitação.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — requisitos profissionais; articulação com Lei 9.674/1998 — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O exercício profissional no setor público observa os requisitos de habilitação e registro previstos na legislação aplicável.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "m10-q-85",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14837"
+    ],
+    "localizador": "alterações dos arts. 2º e 2º-A da Lei 12.244/2010",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "837739a7564cc7a1d7f847345f41088fd7fc751bd8e61047c1f5ade1aeeb8a5e",
+    "shaDepois": "419a33afd68222a7ebaa35202011269f1041440d2e888f3e8ac84dc224456e42",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Após a Lei 14.837/2024, permanece no parágrafo único do art. 2º da Lei 12.244/2010 a regra expressa e inalterada de acervo mínimo de um título por aluno matriculado.",
+      "justificativa": "ERRADO. A Lei 14.837 revogou o antigo parágrafo único do art. 2º. O art. 2º-A, III, atribui ao SNBE definir obrigatoriedade de acervo mínimo com base na matrícula e nas especificidades locais. Não se deve apresentar a antiga proporção de um título por aluno como se permanecesse literalmente naquele dispositivo.",
+      "gatilho": "permanece",
+      "armadilhaBanca": "Transportar redação anterior à alteração legal para o texto vigente.",
+      "fonte": "Lei 14.837/2024 — alteração da Lei 12.244/2010 e Sistema Nacional de Bibliotecas Escolares — alterações dos arts. 2º e 2º-A da Lei 12.244/2010. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A lei de 2024 revogou a antiga regra e atribuiu ao SNBE definição de acervo mínimo considerando matrícula e realidade local.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "m10-q-86",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 21: direitos fundamentais e violações de direitos humanos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ae8c3bb6636e2eddbeb0d36999edd354412dfad49bd6d281fae61e2ba85eff81",
+    "shaDepois": "1ff020557fa063d67f30aaa17ee7f9d68f09cad2bcac029558045025e63f4f17",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O artigo protege acesso necessário à tutela judicial ou administrativa de direitos fundamentais e afasta restrição sobre informações ou documentos de violações de direitos humanos nos termos legais. A hipótese tem fundamento próprio e não equivale a autorização indiscriminada de divulgar qualquer dado pessoal sem contexto.",
+      "gatilho": "direitos fundamentais",
+      "armadilhaBanca": "Aplicar limites legais à invocação de sigilo.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 21: direitos fundamentais e violações de direitos humanos — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A classificação de sigilo autoriza impedir todo acesso necessário à tutela de direitos fundamentais, sem observar o art. 21.",
+      "item": "Nos termos da LAI, não pode ser negado acesso à informação necessária à tutela judicial ou administrativa de direitos fundamentais, nem àquelas que versem sobre condutas que impliquem violação dos direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas.",
+      "submoduloId": "10.3"
+    }
+  },
+  {
+    "id": "m10-q-87",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 11: acesso imediato e prazo de resposta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2583098ac825da080993dc9f7bc3c4c1c2fb4415044d1c1c06c8fd864f1593c2",
+    "shaDepois": "fcbfbc828d0db37e971c84868606d844e301f2d20528ecbe9734348c60a087e0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Se a informação está disponível, o acesso deve ser imediato. Quando não for possível, a lei prevê resposta em até vinte dias, prorrogáveis por mais dez mediante justificativa expressa e ciência do requerente. Prazo de resposta não significa deferimento automático nem autorização para permanecer em silêncio.",
+      "gatilho": "justificativa expressa",
+      "armadilhaBanca": "Distinguir prazo inicial, prorrogação e seu fundamento.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 11: acesso imediato e prazo de resposta — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A prorrogação do prazo de resposta é ilimitada e dispensa justificativa e comunicação ao requerente.",
+      "item": "Pela Lei de Acesso à Informação, quando a informação solicitada pelo cidadão estiver disponível, o órgão público deve conceder o acesso imediato; caso não seja possível, a resposta deve ser fornecida em prazo não superior a vinte dias, prorrogável por mais dez dias mediante justificativa expressa.",
+      "submoduloId": "10.3"
+    }
+  },
+  {
+    "id": "m10-q-88",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "art. 7º, III, e regras para o poder público",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6ff93e7c39af92bc3d85facff304466828deb16fd225d0d5513b2e1879f71b58",
+    "shaDepois": "24c0530a09065382354348ba1fee92173a5f77da6c6a6b5f305dd1a2a0b4c396",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na execução de políticas públicas previstas em lei, o consentimento é a única base legal que um órgão público pode utilizar para tratar dados pessoais.",
+      "justificativa": "ERRADO. A administração pode ter outras bases legais pertinentes, inclusive execução de políticas públicas nos termos da lei, sem depender sempre de consentimento. Isso não elimina finalidade, necessidade, transparência e demais requisitos. Órgão público não possui autorização genérica para qualquer uso de dados.",
+      "gatilho": "única",
+      "armadilhaBanca": "Confundir uma base possível e uma base exclusiva.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 7º, III, e regras para o poder público — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O tratamento pelo poder público pode ter bases legais diversas do consentimento, observados requisitos e finalidades aplicáveis.",
+      "submoduloId": "10.3"
+    }
+  },
+  {
+    "id": "m10-q-89",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "vade-mécum e composição de obras de referência jurídica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a48ca78289ff7c03746050800adfdae9a724318a2b80b55ec8e6e2b191e4884d",
+    "shaDepois": "65bc46e615579b2136733ae573bfe21a4195f189ba2bb568ed894e9948490e8d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Vade-mécuns jurídicos são obras de referência nas quais não pode constar jurisprudência em nenhuma hipótese, por definição, devendo apresentar exclusivamente legislação.",
+      "justificativa": "ERRADO. Vade-mécuns jurídicos podem reunir legislação e outros materiais, conforme o projeto editorial, incluindo jurisprudência em certas obras. Não há proibição conceitual universal de sua inclusão. A presença de uma coletânea não dispensa conferir corte, atualização e fonte oficial do documento utilizado.",
+      "gatilho": "não pode constar",
+      "armadilhaBanca": "Confundir uma composição frequente e exclusividade obrigatória.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — vade-mécum e composição de obras de referência jurídica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um vade-mécum pode incluir jurisprudência e outros elementos conforme seu escopo, sem proibição conceitual universal.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-103212",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "103212",
+        "declaracaoLegada": "Cebraspe / CNJ / 2013; identificador legado: 103212"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-90",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei11419",
+      "cad"
+    ],
+    "localizador": "art. 4º, §1º: diário eletrônico e assinatura",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c399b1d1ab3257315e279f109cda32f826c834e26cd263a16a7267a0aa3e842c",
+    "shaDepois": "65fd11e02e5f2b07cfbb7cc3d6f877c7b52680cbd0e152d75dc94f94d4aa12c5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na publicação do diário eletrônico prevista no art. 4º da Lei 11.419/2006, a assinatura digital do sítio e do conteúdo observa o certificado de autoridade credenciada na ICP-Brasil, não sendo substituída apenas pela hospedagem em site institucional.",
+      "justificativa": "CERTO. A lei prevê assinatura digital do sítio e do conteúdo das publicações na forma do artigo, com certificado de autoridade credenciada na ICP-Brasil. Hospedar o texto em um domínio institucional não substitui essa condição. A assinatura também não comprova mérito jurídico de toda afirmação publicada.",
+      "gatilho": "sítio e do conteúdo",
+      "armadilhaBanca": "Distinguir endereço institucional e autenticação da publicação.",
+      "fonte": "Lei 11.419/2006 — informatização do processo judicial — art. 4º, §1º: diário eletrônico e assinatura — https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Hospedar o diário em um endereço institucional substitui os requisitos de assinatura digital previstos no art. 4º, §1º.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-604",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-604"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-91",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "conselhos profissionais e fiscalização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0ce1e4634bc3a2c8749c83f8a52ff567031ad2d1ef76bb8ff8857c6b82184763",
+    "shaDepois": "7c88cb36b9f98ea1d1db16d8bd7ea315c3b9d550a435db4e383d3216162d68dc",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "CFB e CRBs são entidades de direito privado com função meramente assistencial, sem competência legal para fiscalizar o exercício profissional.",
+      "justificativa": "ERRADO. CFB e CRBs exercem fiscalização profissional sob regime de direito público, não simples assistência social privada. A personalidade jurídica e as competências decorrem da legislação. Isso não autoriza aplicar sanções sem procedimento nem transforma conselho em sindicato de representação trabalhista.",
+      "gatilho": "direito privado",
+      "armadilhaBanca": "Confundir fiscalização de profissão, assistência social e representação sindical.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — conselhos profissionais e fiscalização — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "CFB e CRBs são conselhos de fiscalização profissional com regime e competências legais, distintos de entidades assistenciais privadas e sindicatos.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "m10-q-92",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "capesPortal",
+      "cad"
+    ],
+    "localizador": "acesso institucional e conteúdo aberto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "eb41b1cc256a89f01d8155b500dae049902b9da628188d91ad35098654489904",
+    "shaDepois": "1e0482fafcb9539381d84e4e5c8c5ea36d608375dc266c4a4baa1fdf63e1e0b7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Todo texto obtido no Portal CAPES por autenticação institucional passa a ter licença aberta de reutilização irrestrita para qualquer pessoa, independentemente de contrato ou direitos autorais.",
+      "justificativa": "ERRADO. O Portal combina fontes abertas e conteúdos contratados com condições específicas. Estar acessível por credencial institucional não torna o material uma publicação aberta a todos nem elimina condições contratuais e direitos. O bibliotecário deve explicar ao usuário a diferença entre acesso obtido e licença de reutilização.",
+      "gatilho": "aberta",
+      "armadilhaBanca": "Distinguir acesso mediante contrato e abertura do conteúdo.",
+      "fonte": "CAPES — Portal de Periódicos — acesso institucional e conteúdo aberto — https://www.periodicos.capes.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Conteúdo acessado por assinatura institucional não se torna automaticamente de acesso aberto e reutilização irrestrita.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "CADE/2014",
+        "ano": 2014,
+        "orgao": "2014",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-589",
+        "declaracaoLegada": "Cebraspe / 2014 / 2014 (Adaptada); identificador legado: cespe-cad-589"
+      },
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m10-q-93",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "legislação e fontes primárias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4fca1806eae6d215709a22f5c5e31c76e094d076826126cd00fb545cc6698ab0",
+    "shaDepois": "beaf8f805bd3793aae123e95c0640499309fc2bf659cadaad2d67b926c5dc39d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Um ato normativo em sua publicação no Diário Oficial deve ser classificado como fonte secundária apenas porque foi divulgado em um periódico oficial.",
+      "justificativa": "ERRADO. A publicação oficial de um ato normativo constitui fonte primária pertinente à identificação de seu texto. Comentários e interpretações podem funcionar como fontes secundárias. O veículo conter outros gêneros documentais não muda automaticamente a natureza do ato publicado.",
+      "gatilho": "secundária",
+      "armadilhaBanca": "Confundir publicação original do ato e interpretação por terceiro.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — legislação e fontes primárias — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um ato normativo em sua publicação oficial é fonte primária; análise ou comentário sobre ele é outra função documental.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "CNJ/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-599",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-599"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m10-q-94",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ccn",
+      "cad"
+    ],
+    "localizador": "publicações nacionais e estrangeiras em coleções participantes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0fc21e75a084d81674567b7bdd59c09318e89fdeeff3bd710029d261afa39349",
+    "shaDepois": "962c4816bbad1ac19c771364c35eb6e8c05c45b485905a262aac6d9b38755364",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O CCN não se restringe a títulos editados no Brasil: descreve coleções de periódicos nacionais e estrangeiros nas bibliotecas participantes. O local onde se mantém uma coleção e o país de publicação do título são dados diferentes. O advérbio exclusivamente altera o escopo.",
+      "gatilho": "exclusivamente nacionais",
+      "armadilhaBanca": "Trocar localização da coleção e origem editorial.",
+      "fonte": "Ibict — Catálogo Coletivo Nacional de Publicações Seriadas — publicações nacionais e estrangeiras em coleções participantes — https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/catalogo-coletivo-nacional-de-publicacoes-seriadas-ccn",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O CCN inclui informações sobre coleções de títulos nacionais e estrangeiros mantidas nas bibliotecas participantes.",
+      "item": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é um sistema de acesso público que reúne informações sobre as coleções de publicações seriadas exclusivamente nacionais e disponíveis apenas em bibliotecas brasileiras.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (CADE)/CADE/2014",
+        "ano": 2014,
+        "orgao": "CADE",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-185318",
+        "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185318"
+      },
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m10-q-95",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei10753"
+    ],
+    "localizador": "diretrizes da política do livro; distinguir a Lei 4.084/1962",
+    "nota": "Gabarito C corrigido para E: a Lei 10.753 não contém a reserva técnica profissional afirmada; foram confrontadas política do livro e legislação profissional.",
+    "shaAntes": "28e6bd6e80680863958aea1a1a1c4a702665f4421a3deb0c62484aa578ba3938",
+    "shaDepois": "0ac51d2e0453f0a7aa579feb6e8c40f42b3fef12235176120a0f3fee7481d26d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. A Lei 10.753 institui a política do livro e medidas de incentivo e acesso, mas não é a fonte indicada de reserva das atribuições profissionais de bibliotecário. As atribuições devem ser fundamentadas na legislação profissional pertinente, como a Lei 4.084. Uma política favorável a bibliotecas não contém automaticamente toda regra relativa à profissão.",
+      "gatilho": "define formalmente",
+      "armadilhaBanca": "Atribuir regra verdadeira em outro diploma à lei errada.",
+      "fonte": "Lei 10.753/2003 — Política Nacional do Livro — diretrizes da política do livro; distinguir a Lei 4.084/1962 — https://www2.camara.leg.br/legin/fed/lei/2003/lei-10753-30-outubro-2003-497306-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Lei 10.753 trata da política do livro; a fundamentação das atribuições profissionais exige consultar a legislação específica da profissão.",
+      "versao_errada": "",
+      "item": "A Lei nº 10.753/2003 (Política Nacional do Livro) estabelece diretrizes para a difusão da leitura no Brasil e define formalmente que a responsabilidade técnica pelas bibliotecas públicas municipais e estaduais cabe privativamente a bibliotecários habilitados.",
+      "submoduloId": "8.5"
+    }
+  },
+  {
+    "id": "m10-q-96",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "sistema especialista e base de conhecimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5a7e375140f5519db6b1e3ee65401a8d30493de3242f41aa877c0cc0c1a7511c",
+    "shaDepois": "51e69027799f17634969a5aa6ec93880785d840af8fb73ce82c4bba5c884ccc5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Um sistema especialista jurídico pode apoiar inferências a partir de uma base de conhecimento; isso não equivale, por si só, a proferir decisão judicial nem a garantir correção de toda conclusão.",
+      "justificativa": "CERTO. Um sistema especialista utiliza conhecimento representado e mecanismos de inferência para apoiar tarefas de domínio específico. Isso não se confunde automaticamente com um LLM generativo, nem lhe confere autoridade judicial. Conclusões precisam ser avaliadas conforme regras, fontes e condições de uso.",
+      "gatilho": "não equivale",
+      "armadilhaBanca": "Distinguir apoio computacional e autoridade decisória.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — sistema especialista e base de conhecimento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer resposta de um sistema especialista jurídico equivale a decisão judicial obrigatória e dispensa revisão das regras utilizadas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-318032",
+        "ano": 2015,
+        "orgao": "TJDFT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "318032",
+        "declaracaoLegada": "Cebraspe / TJDFT / 2015; identificador legado: 318032"
+      },
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m10-q-97",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "Código de Ética, art. 9º, I: sigilo e hipótese legal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3dabc3db690fc6ed781faf908cd901b13abea8b610dc51b4a9c1049857e43dbf",
+    "shaDepois": "f656d29d72f286e6fa8e7a477c3282f762dd04ff47a6e35bf91384466ad75e55",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O sigilo protege informações e pesquisas confiadas ao profissional, com a ressalva legal prevista. Não é autorização para divulgar dados a qualquer solicitante que alegue interesse, nem proibição de cumprir determinação legal competente. A hipótese e o alcance do compartilhamento precisam ser examinados.",
+      "gatilho": "sigilo profissional",
+      "armadilhaBanca": "Distinguir exceção legal e divulgação por conveniência.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — Código de Ética, art. 9º, I: sigilo e hipótese legal — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O dever de sigilo é afastado por qualquer pedido informal, sem verificar obrigação legal ou competência do solicitante.",
+      "item": "O Código de Ética Profissional do Bibliotecário Brasileiro prescreve o dever de sigilo profissional quanto às informações e pesquisas confiadas pelos usuários, ressalvados os deveres legais de cooperação com a justiça.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "m10-q-98",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 10, §3º: motivos do pedido",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "085b51513d0fda8483ff654f46d21edd02f5537820bb0a7187fb7f16f0b525ed",
+    "shaDepois": "3b48cfaa2ffc11b1d528410d8fff3b2dee939f425c9c04910734d2ed674ffe61",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A lei veda exigir os motivos determinantes da solicitação de informação de interesse público. Identificação e especificação do pedido não equivalem a justificativa ideológica ou pessoal. O órgão deve analisar o acesso conforme a lei, sem selecionar requerentes por concordância com seus interesses.",
+      "gatilho": "justifique",
+      "armadilhaBanca": "Confundir identificação do pedido e investigação das motivações.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 10, §3º: motivos do pedido — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O pedido deve observar os requisitos legais, mas não pode ser condicionado à exposição dos motivos determinantes pelo requerente.",
+      "item": "A LAI autoriza os órgãos públicos a exigir que o cidadão justifique os motivos pessoais e filosóficos pelos quais está solicitando determinada informação de interesse coletivo, sob pena de indeferimento sumário do pedido.",
+      "submoduloId": "10.3"
+    }
+  },
+  {
+    "id": "m10-q-99",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "depositoLegal",
+      "cad"
+    ],
+    "localizador": "depósito de publicações abrangidas e finalidade patrimonial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f7abc7085b24e3c0d4273bf80f50845b718f7a81cdc3f2db2b1fa20ef78e7b7f",
+    "shaDepois": "932378bd526033ecfed79fe552228ac089e286a1253ddb9fc98cf06cf3ddfe2e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O depósito legal na Biblioteca Nacional prevê ao menos um exemplar das publicações abrangidas pela Lei 10.994/2004, com finalidade de coleta, guarda e registro da produção intelectual pertinente.",
+      "justificativa": "CERTO. O depósito visa coleta, guarda e registro da produção abrangida, apoiando a bibliografia brasileira. Não se confunde com doação voluntária selecionada por demanda local. Alcance, responsável, prazo e quantidade devem ser lidos na lei, evitando prometer cobertura de toda obra estrangeira apenas por circular no país.",
+      "gatilho": "um exemplar",
+      "armadilhaBanca": "Distinguir obrigação patrimonial e doação discricionária.",
+      "fonte": "Lei 10.994/2004 — Depósito legal de publicações na Biblioteca Nacional — depósito de publicações abrangidas e finalidade patrimonial. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O depósito legal depende somente de doação voluntária e não possui finalidade de registro da produção nacional.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-165485",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165485",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014; identificador legado: 165485"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m10-q-100",
+    "caminho": "src/content/questions/m10-legislativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "programa de evento e anais",
+    "nota": "Lista sem contexto dos eventos supostamente principais substituída por aplicação de avaliação de fontes de eventos, sem alegar ranking ou calendário permanente.",
+    "shaAntes": "c6ea437bae08ce54f65b204b94154a16953b6944ec15aa9866c89337c90549da",
+    "shaDepois": "3c793d28d10e32a5629c11416cec6cc11db5d2e172267eae7a4aa231aca03773",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O programa de um evento científico substitui necessariamente seus anais como fonte do texto completo de todos os trabalhos, pois listar títulos equivale a disponibilizar seu conteúdo integral.",
+      "justificativa": "ERRADO. Um programa identifica atividades, participantes ou títulos conforme sua finalidade. Anais podem reunir trabalhos ou registros do evento, com cobertura e formato próprios. Listar um título não equivale a oferecer o texto, e nem todo evento publica anais integrais; é preciso verificar o recurso efetivamente disponível.",
+      "gatilho": "texto completo",
+      "armadilhaBanca": "Distinguir fonte de identificação e conteúdo do trabalho.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — programa de evento e anais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Programa e anais possuem funções diferentes; a indicação de um título no programa não comprova disponibilidade de seu texto integral.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC sobre fontes de eventos científicos.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / CNJ / 2013\",\"verificado\":true,\"provaId\":\"TecConcursos-103213\",\"ano\":2013,\"orgao\":\"CNJ\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"103213\"}"
+      },
+      "submoduloId": "4.2"
+    }
+  }
+]

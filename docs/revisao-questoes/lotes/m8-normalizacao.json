@@ -8,9 +8,9 @@
       "nbr10520"
     ],
     "localizador": "citação indireta e sistema autor-data",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "e1e7c91b28fa59bf8feab0176803d2d6da3ed26a35ec50c40dd0243ab61ea77c",
-    "shaDepois": "cd1bea2a94520c3122e3effeef8a2bd29ad0d5c23381835389416d0d7bdffe26",
+    "shaDepois": "1121a3754bab4dcd946f524fb8c02e0363c5d14d6f57cfc7dc6defb55057968a",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "No sistema autor-data da NBR 10520:2023, a citação indireta apresenta ideias da fonte com redação própria e identificação de responsabilidade e data; a indicação de página ou localização é opcional.",
@@ -20,7 +20,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — citação indireta e sistema autor-data. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Uma paráfrase no sistema autor-data dispensa a indicação da fonte porque o texto foi reescrito.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -130,9 +130,9 @@
       "nbr10520"
     ],
     "localizador": "6.1.8: chamadas de autores diferentes",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "c79fb32ace39c1a858548442271e9482f85ce11f032a23a15dd8c7a70cff4ddb",
-    "shaDepois": "2806d6ebe4829cadfcf6e98c048d1bf358c27f5400bd6025600bbdfc444cb088",
+    "shaDepois": "6885a05fc78e1c300dcf2abd253147e08f920425ecdd75d7e7cb2b7b505b6e06",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Em chamadas de citações indiretas de documentos de vários autores, mencionadas simultaneamente entre parênteses, a NBR 10520:2023 prevê separação por ponto e vírgula e recomenda ordem alfabética, como (Almeida, 2020; Castro, 2022; Silva, 2024).",
@@ -142,7 +142,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.8: chamadas de autores diferentes. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Documentos de autores diferentes em uma mesma chamada parentética devem ser separados apenas por vírgulas, sem ponto e vírgula.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -226,9 +226,9 @@
       "nbr10520"
     ],
     "localizador": "6.1.1.1: pessoa física",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "a53013981973baab0c37b1e935e134e1035345026d3db9bb2298519aab6580ad",
-    "shaDepois": "bfdb9041b85aee28f05268effaf6b5762093ec0d4e055dff551c2892c093ddde",
+    "shaDepois": "4d906018de339f4785f261020bd5bdc4084947ef483b2a4234b9c5d065a2edf7",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. A edição 2023 indica sobrenome com letras maiúsculas e minúsculas, inclusive em chamada parentética. Assim, (Silva, 2024) é o padrão pertinente. A forma em caixa alta da entrada em uma referência não deve ser transferida para a chamada da citação.",
@@ -238,7 +238,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "Na chamada parentética de autoria pessoal, usa-se sobrenome em maiúsculas e minúsculas, como (Silva, 2024).",
       "item": "De acordo com a ABNT NBR 10520:2023, quando a chamada de citação de autoria pessoal estiver entre parênteses ao final da frase, o sobrenome do autor deve figurar em letras maiúsculas integrais (caixa alta), a exemplo de \"(SILVA, 2024)\".",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -250,9 +250,9 @@
       "nbr10520"
     ],
     "localizador": "citação de citação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "448da7e256403a4285660b16a299f1550f6eb9557baaacae98abc2c8f7fd3e2b",
-    "shaDepois": "c74faa4a5d8f266a18c623003a94bd0ffa3dabd5b3075adb2073f1fb00aa25ba",
+    "shaDepois": "39af5cbeedab839cae2089d8ab110a72abe28d27f07e435d9a5d3e4049953515",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. Apud sinaliza que se chegou a uma fonte por intermédio de outra. Não demonstra que o documento original foi consultado nem estabelece preferência por evitar sua leitura. É preciso identificar adequadamente o intermediário e não apresentar a informação como verificada diretamente na origem.",
@@ -262,7 +262,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "Apud identifica mediação por outra fonte e não equivale a consulta direta ao documento original.",
       "item": "A citação de citação, expressa pela locução latina 'apud' (citado por), deve ser utilizada como regra geral preferencial em trabalhos acadêmicos e pareceres, dispensando o pesquisador de buscar o documento original.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -310,9 +310,9 @@
       "nbr10520"
     ],
     "localizador": "sistemas de chamada e consistência",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "b9d30636a9c25909b88cebf8b561ae52e71d2b650b7ca8f45a13be3413d74515",
-    "shaDepois": "2da4d41bd8792d5ec9bdb248b71558a19684989ca4f0942588bdc47121ae9b1b",
+    "shaDepois": "2ecea0cf91af88bc704d985a85279c1a544fb68583e2e48daa766a5ef89ae193",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. O sistema escolhido precisa ser mantido de forma consistente, permitindo remissão à referência. Alternar aleatoriamente números e autor-data no mesmo texto não é uma faculdade geral da norma. Diferentes elementos de um trabalho não devem ser confundidos com liberdade de usar chamadas incompatíveis sem critério.",
@@ -322,7 +322,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "O sistema de chamada adotado deve ser mantido com consistência ao longo do trabalho.",
       "item": "O sistema de chamada numérico para citações pode ser utilizado concomitantemente e misturado no mesmo capítulo com o sistema autor-data, cabendo ao autor alternar entre números e sobrenomes ao longo da mesma página.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -334,9 +334,9 @@
       "nbr10520"
     ],
     "localizador": "6.1.5: coincidência de sobrenome e data",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "0c523988bf8017aadeeb8abecc778b278df5c5bd35622a0c04bc1b5b343c4253",
-    "shaDepois": "0beff75fdf5f7cbc5ea0efe31bee08ad854e195dd094d6f2cf50a4f7784db38e",
+    "shaDepois": "eec73a4e3237844137b1a6296c58df73182b185971761541ee64dfcddce339ef",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Para distinguir autores diferentes de mesmo sobrenome e mesmo ano, a NBR 10520:2023 determina usar somente letras após o ano, como Silva (2024a) e Silva (2024b), sem recorrer aos prenomes.",
@@ -346,7 +346,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.5: coincidência de sobrenome e data. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Autores diferentes de mesmo sobrenome e ano são diferenciados pelas iniciais dos prenomes e, persistindo coincidência, pelos prenomes por extenso.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -358,9 +358,9 @@
       "nbr10520"
     ],
     "localizador": "6.2.1: sequência e remissão numérica",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "53dd0183193aac40614d7606591b75fd1a2a5aeaf362b4d609bfa5cfe607076b",
-    "shaDepois": "18111b45021d4ebcb26131362cdffe34242f54b80301d55a2ae5e08503fa7364",
+    "shaDepois": "91e4ae52b8a30446058a05aa7508ddfe8bfcb59db7989ed5031d903f88dca4cd",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "No sistema numérico da NBR 10520:2023, a fonte consultada é numerada consecutivamente e, quando repetida, deve ser representada pela mesma numeração; a sequência não pode reiniciar a cada página.",
@@ -370,7 +370,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.2.1: sequência e remissão numérica. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Cada repetição da mesma fonte recebe um número novo, mesmo que remeta ao mesmo documento.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -418,9 +418,9 @@
       "nbr10520"
     ],
     "localizador": "fidelidade da transcrição e intervenções; distinguir sic e supressão",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "c7c3f88cf09a1ea1e48d66bf6cb6b7a3e980dc75b3c66ff220da5467ceb665ae",
-    "shaDepois": "e450bd0d9d7190b54dbf2979f11da2b84d3a20c7bba76de21bce53ce44725170",
+    "shaDepois": "b66cbb9fb087e4f72d1b4c418d0e12d52ad9a11140e0b70ca3653d4929693969",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A indicação [sic] dentro de uma citação direta serve para marcar a supressão de um trecho original, substituindo as reticências entre colchetes.",
@@ -430,7 +430,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — fidelidade da transcrição e intervenções; distinguir sic e supressão. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Sic indica fidelidade a uma particularidade do original; uma supressão deve ser assinalada por [...].",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -478,9 +478,9 @@
       "nbr10520"
     ],
     "localizador": "6.1.6: documentos da mesma autoria e ano",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "414494da921218e110322da898b243eb9612fce5fbffa3dcdfd5f5b753926963",
-    "shaDepois": "c1b04eac59650f9ba104f513852e7c9f18de3ffc82c600d47d7001851dda31b2",
+    "shaDepois": "ff43fe41c76e71fc4ca35c3148be02df72b8a0c33e07711f6ddd15651d0365ea",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. As letras distinguem documentos da mesma autoria com data igual e devem corresponder às usadas na lista de referências. Não são escolhidas independentemente em cada chamada. A desambiguação acompanha o documento, permitindo identificar qual obra sustenta cada passagem.",
@@ -490,7 +490,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "As letras após o ano podem variar livremente para o mesmo documento a cada chamada, sem relação com a lista de referências.",
       "item": "Para citar documentos de um mesmo autor publicados no mesmo ano, a NBR 10520 estabelece que se devem acrescentar letras minúsculas após o ano, sem espaçamento, tanto na chamada quanto na lista de referências (ex: Brasil, 2024a, 2024b).",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -502,9 +502,9 @@
       "nbr10520"
     ],
     "localizador": "6.1.1.2 e 6.1.1.3: entidades e órgãos governamentais",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "2907a011a2cbd632e5f5a918cae64b3c6edf83a26858922b696bbb2bba827ae7",
-    "shaDepois": "e3fd14ee79c2f83dd55c6f0acf005fe354fd85f57428b85bfd4c1d80d6d16636",
+    "shaDepois": "8e5336c05f546b244d42f5a07839850f1722134627671e32050c9d2956ed809e",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. A regra de chamada não exige caixa alta de todo nome por extenso. Pessoa jurídica pode aparecer por nome ou sigla; siglas têm recomendação própria de caixa alta. Na administração direta, é preciso observar também a jurisdição ou o órgão superior, sem copiar mecanicamente o nome da unidade.",
@@ -514,7 +514,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "A chamada de entidade não exige todo nome por extenso em caixa alta; siglas e órgãos governamentais têm orientações específicas.",
       "item": "Conforme a NBR 10520:2023, a indicação de autoria corporativa de órgãos públicos inserida entre parênteses é redigida em caixa alta integral, a exemplo de \"(MINISTÉRIO DA FAZENDA, 2024)\".",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -526,9 +526,9 @@
       "nbr10520"
     ],
     "localizador": "7.1.5: destaque acrescentado",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "157990c1a330e97ca9a54a2394e346e39a2f83410250f98e39cd3fe05e8496fa",
-    "shaDepois": "cad50eed74f39cde39e24784117ae244759a6cfbd0737b57eda1a42e7b6e5e7f",
+    "shaDepois": "d408acfb0f22c3386822be1ba06b6d2d3b8a7a960b0a64e9fd38c656d951f2b0",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. Destaque introduzido pelo redator deve ser indicado por grifo nosso ou grifo próprio no final da chamada. Se o trecho original já tinha destaque, a edição 2023 não exige informar o grifo. É a origem da ênfase que determina a necessidade de indicação.",
@@ -538,7 +538,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "Quando o destaque é acrescentado à citação pelo redator, indica-se grifo nosso ou grifo próprio na chamada.",
       "item": "Em citações diretas, o destaque tipográfico de palavras inserido pelo autor do trabalho acadêmico prescinde de menção específica, presumindo-se a ênfase conferida pelo texto fonte original.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -550,9 +550,9 @@
       "nbr10520"
     ],
     "localizador": "7.1.1: citação direta longa",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "d7ae3dc199ac2aefb35b163eea74c009b381ca36fcfc5c0903d9d8fff2aa05f9",
-    "shaDepois": "10142277a634a9e3c5c4aa17bb09037182b468c47a8933e5327c4396d37e1684",
+    "shaDepois": "9c9dc7b0c0e2db3b07ee3669fed952d77042cf67c5bfcfcc2a34b48e7eee3345",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A NBR 10520:2023 torna obrigatório o recuo exato de 4 cm para toda citação direta com mais de três linhas, não admitindo recuo padronizado de outra medida.",
@@ -562,7 +562,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 7.1.1: citação direta longa. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Para citação direta longa, a edição 2023 exige recuo padronizado e recomenda a medida de 4 cm.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -574,9 +574,9 @@
       "nbr10520"
     ],
     "localizador": "intervenções no texto citado",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "58e4698ebd54db30588127f4d6361c1d5f6b92f1b609d9586959b23b19718e08",
-    "shaDepois": "64bd67d5c833da9196a521c273b6f5466249b178a2d99e165d54628875181c27",
+    "shaDepois": "050c3361ef9ea5532c567b4032932077d2731bc731d02e36538a702ff7f7133d",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Interpolações, acréscimos ou comentários introduzidos pelo redator no interior de uma citação devem ser indicados entre colchetes, permitindo distingui-los do texto original.",
@@ -586,7 +586,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — intervenções no texto citado. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Um comentário acrescentado pelo redator deve ser incorporado à citação sem qualquer marca, como se constasse do original.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -598,9 +598,9 @@
       "nbr10520"
     ],
     "localizador": "7.3: citação de citação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "924ce2dfeebbe765f2988b4d20a15866fbc3412ede648f450be393c346bdc84b",
-    "shaDepois": "088588e7be6cf8cb4f1949cfc8c8aa7cc78dd6cf2e3b4f64ea6e14d8cbdba18c",
+    "shaDepois": "9049dded65e40f5574be82b738be7440ccd365dc2e8dc3b4e8551aca0551f96f",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. A primeira autoria é a da fonte conhecida indiretamente; após apud aparece a fonte efetivamente consultada. A página deve corresponder ao que se está localizando nessa consulta, quando aplicável. A lista de referências deve identificar a obra consultada, sem fingir leitura do original não acessado.",
@@ -610,7 +610,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "Na citação de citação, apud indica que a obra original foi necessariamente lida diretamente pelo redator.",
       "item": "Na aplicação da locução 'apud', a chamada no texto deve indicar primeiro o autor da obra original não consultada, seguido da expressão 'apud', do autor da obra efetivamente consultada, da data e da página, a exemplo de 'Segundo Darcy Ribeiro (1975 apud Silva, 2024, p. 50)'.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -682,9 +682,9 @@
       "nbr10520"
     ],
     "localizador": "supressões em citação direta",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "98f4dc59dec6188f24508c85298f9aa3f93fddb89de43e30444a6b092b4e6278",
-    "shaDepois": "f8921a9adf2b9a4faf98370e3f3e74c8f5ea42cf96dac6cd1decc7a572d59bf4",
+    "shaDepois": "59f2927b4eef46582aa536ce011f5abcf749240a6cda1922574081613810e289",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 10520:2023, as supressões feitas pelo redator em uma citação direta devem ser indicadas por reticências entre parênteses, na forma (...), em lugar de colchetes.",
@@ -694,7 +694,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — supressões em citação direta. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Uma supressão em citação direta é indicada por [...], respeitando o sentido do original.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -850,9 +850,9 @@
       "nbr10520"
     ],
     "localizador": "6.1.7: mesma autoria e anos diferentes",
-    "nota": "Item autoral substitui assertiva literária isolada sem texto-base e fora do foco do caderno.",
+    "nota": "Item autoral substitui assertiva literária isolada sem texto-base e fora do foco do caderno. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "a5a2bf8d2915c9194f997e7f8570de8e9e8130389a80979cde77155ad88b20c7",
-    "shaDepois": "346313b82ae72cfe9aa9bc5be9c0f9b458570fa5430afcb77bf63f0fd0a4928c",
+    "shaDepois": "f02485c2a16878aec654f1aeca3c1b78eb4f64b980a549626129eddde4ab9fef",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 10520:2023, chamadas de citações indiretas de documentos da mesma autoria e de anos diferentes, mencionados simultaneamente, apresentam datas em ordem cronológica separadas por vírgula, como (Silva, 2019, 2021, 2024).",
@@ -862,7 +862,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.7: mesma autoria e anos diferentes. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Documentos da mesma autoria com anos diferentes devem ter suas datas embaralhadas e separadas por ponto e vírgula.",
-      "submoduloId": "8.1",
+      "submoduloId": "8.2",
       "fonteOriginal": {
         "tipo": "inedita",
         "descricao": "Item autoral HNC sobre chamadas de citações da mesma autoria.",
@@ -928,9 +928,9 @@
       "nbr10520"
     ],
     "localizador": "7.1.1: citação direta com mais de três linhas",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "a885b48fa2aced69d6ec48eb28dfa4b74a8f1165e913b6546afaa1a1de2ecdd8",
-    "shaDepois": "8dff0513f70d5f528f96b9977ee8e95b55b4114c3ab2653cdf87a19e8afd9fe6",
+    "shaDepois": "1821af07b2d108f772a967523be77d39fe6f5e292b663ec784f1c9e3deccfa96",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Segundo a NBR 10520:2023, uma citação direta com mais de três linhas deve permanecer entre aspas duplas, mesmo quando apresentada em bloco destacado.",
@@ -940,7 +940,7 @@
       "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 7.1.1: citação direta com mais de três linhas. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Citação direta com mais de três linhas é apresentada em bloco, sem aspas.",
-      "submoduloId": "8.1"
+      "submoduloId": "8.2"
     }
   },
   {
@@ -1313,9 +1313,9 @@
       "cad"
     ],
     "localizador": "4.2.2: resenha e recensão",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "4b68619a6804535bf6f03401c3191959b198f34edd641959708ced696a0f5f67",
-    "shaDepois": "5adb92b6e4d825d4f7c9f1aac7507117553372fa22385aced0582bf7001e4fa1",
+    "shaDepois": "600c3f13f1a3586477f55b4d60ac57fbf6ff928cd86d6dad2eca195eaaef922e",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 6028:2021, resenha e recensão não estão sujeitas a limite de palavras estabelecido pela própria norma, sem impedir regras editoriais específicas.",
@@ -1336,7 +1336,7 @@
         "origemAcervoLocal": "cespe-cad-1885",
         "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-1885"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1348,9 +1348,9 @@
       "nbr6028"
     ],
     "localizador": "2.5: resumo indicativo",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "3ba834a2adf9ce50103923e527e60f5415c8e5f8fa9fdc3bb5c793ec07f1ceec",
-    "shaDepois": "c90573c2408a72da4e2060be7da839fcd8d55f3d73f203f7f1f9fa9546e45e0d",
+    "shaDepois": "e66f59dfb6eac127d0406e5d7a9f065edb1ac64c75de45026435cf4dd09ab742",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. O indicativo assinala os pontos principais sem detalhar dados qualitativos e quantitativos; em geral, não dispensa o original. Finalidades, metodologia, resultados e conclusões caracterizam o informativo. Confundir os dois pode induzir o aluno a atribuir ao indicativo uma autonomia que a definição não prevê.",
@@ -1360,7 +1360,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "O resumo indicativo apresenta pontos principais sem detalhamento e, em geral, não dispensa consulta ao original.",
       "item": "O resumo indicativo condensa as conclusões, metodologias e resultados substantivos de uma pesquisa, tornando dispensável a leitura do texto original completo.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1372,9 +1372,9 @@
       "nbr6034"
     ],
     "localizador": "3.3 e 3.4: cabeçalho composto e entrada",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "fa437736194500e39c985fcbe174b9144d4b0bc3b44fb119085e0c86946ec14b",
-    "shaDepois": "8d956a47ef585b424326a797686980f5ebe1f4e5051e743a320b7c381f808fea",
+    "shaDepois": "5f326239d0971045bad47bbfe9258e51b602d712628cd73addc8d7f2fb426d32",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. Entrada reúne cabeçalho e localização no texto. Cabeçalho composto diz respeito à composição do próprio cabeçalho por palavras ou símbolos. Uma estrutura que contém um cabeçalho não é, por isso, um tipo desse cabeçalho.",
@@ -1384,7 +1384,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "A unidade formada por cabeçalho e indicação de localização é a entrada do índice.",
       "item": "Cabeçalho composto é a unidade do índice que consiste em cabeçalho e indicativo de sua localização no texto.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.5"
     }
   },
   {
@@ -1396,9 +1396,9 @@
       "nbr6027"
     ],
     "localizador": "6.2: correspondência tipográfica",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "f6f5cad4aa166ca15c867d49fb65dca91a67c12c5f9e94bf66246fd74640937d",
-    "shaDepois": "8ab1066a7a8f656bac93647d67bdb8a317ed9be702e3947d5ce4d19788dbf541",
+    "shaDepois": "bbb96fddbc36d748a9deefad7f67830634f4d20847ab507e5186a13e01849af6",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. O sumário deve refletir a apresentação tipográfica das seções para tornar reconhecível sua hierarquia e correspondência. Não se trata de inventar uma hierarquia visual oposta. A função é orientar o leitor na mesma estrutura efetivamente encontrada no documento.",
@@ -1408,7 +1408,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "A tipografia do sumário deve corresponder à apresentação das seções no documento.",
       "item": "No sumário, a tipografia utilizada para cada seção (caixa alta, negrito, itálico) deve ser totalmente diferente e contraditória com a tipografia adotada nos títulos das seções no corpo do texto.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1420,9 +1420,9 @@
       "nbr6024"
     ],
     "localizador": "seções secundárias e indicativos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "1636600e39d2e78b93bfffdb4beff1ccabeb51e62d164460d2abe039934bc153",
-    "shaDepois": "53b5750e025d620e56cb9d602a2e276b9870bc8bfffe9ddbd5d28518157538fc",
+    "shaDepois": "fcac4da07a3c5b821a38fa26f9a23acc998b9e61aa0a8975a51075b0632ba706",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. O indicativo combina o número da seção primária e o número da subdivisão, separados por ponto, como 2.3. Esse ponto interno é diferente de um sinal colocado entre indicativo completo e título. Escrever 2.3 Métodos não exige um ponto adicional após 3.",
@@ -1432,7 +1432,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "Uma seção secundária deve ser indicada por letra isolada, sem relação com a seção primária.",
       "item": "Na numeração progressiva em um documento, o indicativo de uma seção secundária é constituído pelo indicativo da seção primária a que pertence, seguido do número que lhe for atribuído na sequência do assunto e separado por ponto.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -1444,9 +1444,9 @@
       "nbr6027"
     ],
     "localizador": "definição e localização do sumário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "94f93b5eacdb107c6b58bdab68825f01820cac6cf42212df80e0ed7fdb99b20c",
-    "shaDepois": "eff0380a125a9d12101ca46a0067dc04567b22032cdbf7481b837e7bbbc05556",
+    "shaDepois": "0a91a6c20b02bc84f4b15bbafe5f8556bf1466b7c75579fc69c76ef5636a24e5",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. Sumário acompanha a sequência e grafia das divisões do documento e é pré-textual. Não organiza assuntos alfabeticamente como certos índices. Seu papel é mostrar a estrutura e indicar onde as partes podem ser encontradas.",
@@ -1456,7 +1456,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "O sumário deve reorganizar alfabeticamente as seções, independentemente da ordem do texto.",
       "item": "Conforme a ABNT NBR 6027:2012, o 'sumário' é a enumeração das divisões, seções e outras partes de um documento na mesma ordem e grafia em que a matéria se sucede no corpo da obra, sendo classificado como elemento pré-textual.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1469,9 +1469,9 @@
       "cad"
     ],
     "localizador": "4.1.2: forma de apresentação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "7dbeec8599cf2426f10da578b2685ae6cd37d57d568c57779d8d0003c0a5f930",
-    "shaDepois": "133640152b462ae4c62dd04f8c8ea0bc4537bffaf5179da594fb1c3e374600d6",
+    "shaDepois": "5d997e4895de26e09996e614534d4fd1bc0e8a287f90bd1619c7477412e83034",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Segundo a NBR 6028:2021, o resumo deve ser organizado em tópicos enumerados, pois a apresentação em parágrafo único impede a recuperação da informação.",
@@ -1492,7 +1492,7 @@
         "questaoOriginalId": "TecConcursos-369852",
         "declaracaoLegada": "Cebraspe / TC DF / 2014 (Adaptada); identificador legado: TecConcursos-369852"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1504,9 +1504,9 @@
       "nbr6028"
     ],
     "localizador": "4.1.7: palavras-chave",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "f9d42c773c8de107ed409a981031b5f59c1e70a8c4b48b72d4a61491cf1cbfe2",
-    "shaDepois": "4c5abaad57b05dcce9c664b39b9a2e3e41c0e0f26f1a058c7ee8e6e6c9f58775",
+    "shaDepois": "4649bcfb3c79640b48fe7a98fedc33a50603005157d8afb375b2d2b1cde70594",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 6028:2021, as palavras-chave abaixo do resumo devem ser separadas entre si por ponto final, ficando o ponto e vírgula reservado ao encerramento da sequência.",
@@ -1516,7 +1516,7 @@
       "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.7: palavras-chave. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "As palavras-chave são separadas por ponto e vírgula, finalizando-se a sequência com ponto.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1528,9 +1528,9 @@
       "nbr6024"
     ],
     "localizador": "indicativos e títulos de seções",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "e42b8189ba01792607cb01a8437b147dfcec404a25275ba2cd32e7d1fb18f5e3",
-    "shaDepois": "444686044c50538af4acc01107b74a0d5a9a1e328678e5b151f7276510870f02",
+    "shaDepois": "bacb4c833f1a0201d4689dcfba7673a20bcdc5ca04765968c2922cb22f80862e",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. O indicativo é separado do título por espaço, sem ponto, hífen ou travessão adicional entre eles. Pontos internos, como em 1.2.3, indicam níveis hierárquicos. Não confundir esse uso com acrescentar sinal após o último número.",
@@ -1540,7 +1540,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "Entre o indicativo completo da seção e seu título utiliza-se espaço, sem sinal adicional.",
       "item": "Na numeração progressiva de seções disciplinada pela NBR 6024:2012, o indicativo numérico de cada seção é sucedido por ponto gráfico antes do título, a exemplo de \"1.\", \"1.1.\" e \"1.1.1.\".",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -1552,9 +1552,9 @@
       "nbr14724"
     ],
     "localizador": "5.2.3: títulos sem indicativo numérico",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "acd2ed0936b89e9210af6190d89f1754a5c07326f1a36be788ee882077daaa6f",
-    "shaDepois": "5099b9d31805168ae93456a1354532dccc016c8030729d7abcef0998adec26c5",
+    "shaDepois": "fa61aab8a05d3c29c258f8d7ed4ae7e372a20bbbd8273911207f0f633847db0b",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 14724:2024, títulos sem indicativo numérico, como resumo, sumário e referências, devem ser centralizados, observadas as regras de apresentação desses elementos.",
@@ -1564,7 +1564,7 @@
       "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.2.3: títulos sem indicativo numérico. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Referências e sumário devem sempre receber números de seção textual apenas para poder aparecer no trabalho.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -1577,9 +1577,9 @@
       "cad"
     ],
     "localizador": "4.1.1 e 4.1.2: conteúdo e forma",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "c361d331c2a2324569b3fd1e28344fc5dc5fca1c17d6115f21dea4fb6839302c",
-    "shaDepois": "99afb1f918da831c831578dd504ccffa22fb6e14947a293539c084ba4fd96003",
+    "shaDepois": "03355d0fce307983f5b0a91d94547d701c086de86f3a1901d362582b9439198c",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Todo resumo da NBR 6028:2021 deve obrigatoriamente começar com uma lista de categorias de tratamento, antes de abordar o conteúdo, independentemente de ser indicativo ou informativo.",
@@ -1600,7 +1600,7 @@
         "origemAcervoLocal": "cespe-cad-1847",
         "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1847"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1612,9 +1612,9 @@
       "nbr6027"
     ],
     "localizador": "6.3: elementos pré-textuais",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "c5889bc79e7606f599739635ac4796b961bb311f10d5a9129a3dbeb5d2a8ff80",
-    "shaDepois": "f6792309b165bfaa5da947a53593f144cca604a38e04ee5e4787999830432a68",
+    "shaDepois": "5ab0b08e6c278d4317510a0e133aef8a4c10ada19897a0ebec60009517ed9884",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. O sumário registra as divisões e partes pertinentes sem listar elementos pré-textuais. O próprio sumário, resumos e listas prévias não entram como itens de si mesmos. Isso difere de elementos pós-textuais, que podem integrar a estrutura indicada.",
@@ -1624,7 +1624,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "O sumário deve listar obrigatoriamente todos os elementos pré-textuais, inclusive ele próprio.",
       "item": "No sumário elaborado conforme a NBR 6027:2012, os elementos pré-textuais (como errata, folha de aprovação, dedicatória, agradecimentos, resumos e listas de ilustrações) NÃO devem constar do sumário.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1636,9 +1636,9 @@
       "nbr6028"
     ],
     "localizador": "2.6: definição de informativo",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "a377766c11b87dd79d003df0414f5c7cdbb8d1f7338ee07d906362af16d00d39",
-    "shaDepois": "92eb81d853d31515e96a705f0a11e4ba6c10fd80a9ec40fac6e7acce6148b5da",
+    "shaDepois": "e91f440a169874aeb34797424fe5d0354cddc801d5f768a0e993cec663ee1c2e",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. O informativo expõe finalidades, metodologia, resultados e conclusões, diferentemente de apenas indicar a existência dos assuntos. A presença de alguma informação de método não basta se a síntese desfigura o conteúdo. A seleção deve refletir o documento, sem inventar resultados ausentes.",
@@ -1648,7 +1648,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "Resumo informativo deve omitir finalidades, métodos, resultados e conclusões, limitando-se a listar títulos de seções.",
       "item": "O resumo informativo tem como objetivo informar ao leitor finalidades, metodologia, resultados e conclusões do documento.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1660,9 +1660,9 @@
       "nbr6028"
     ],
     "localizador": "4.1.8: extensão recomendada",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "8f274e7f92d5a33997fa083e5f57048b3e3eddf7cf5053ea82ed929c4410ce5d",
-    "shaDepois": "5c6134e1a042c54ea4c8137036843076d0e480b420aa1300b5e607a6f92b77a6",
+    "shaDepois": "78a3add37195fbdf2f0c487fbad9202abaa20d43eff1e7fdfc4e372cb2302b82",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 6028:2021, convém que os resumos tenham 150 a 500 palavras para trabalhos acadêmicos e relatórios técnicos ou científicos, 100 a 250 para artigos de periódicos e 50 a 100 para documentos não abrangidos pelas categorias anteriores.",
@@ -1672,7 +1672,7 @@
       "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.8: extensão recomendada. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "As três faixas de palavras são limites obrigatórios e absolutos, sem possibilidade de exigência editorial específica.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1684,9 +1684,9 @@
       "nbr6024"
     ],
     "localizador": "4.1: hierarquia até a seção quinária",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "35748aad617a7b9d695acf638784b40b3b3cde53c1eb908be12857a3e4a8d0b4",
-    "shaDepois": "9076e9c683a57ac76f05bc175745f8dfcf6f22766281a59cd8c2b802e7ddb5f5",
+    "shaDepois": "1a2256f2b532053b7a21fc7130881e80edc9aebc372590d58253783e454ad1c4",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A NBR 6024:2012 limita a numeração progressiva à seção quinária, correspondente a cinco níveis de hierarquia, sem reduzir essa regra a um máximo de cinco algarismos.",
@@ -1696,7 +1696,7 @@
       "fonte": "ABNT NBR 6024:2012 — Numeração progressiva das seções — 4.1: hierarquia até a seção quinária. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Seção quinária significa indicativo com exatamente cinco algarismos no total, sem admitir números como 10 em um nível.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -1708,9 +1708,9 @@
       "nbr6028"
     ],
     "localizador": "2.6: alcance do resumo informativo",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "96092027e116e2c1688badde0a3868b7a7db334ed421cbfec5e5fc6967ee8284",
-    "shaDepois": "3bbcc9055f6e2a58b58211fce3051ff98497033ab79a760a7e416dcff4f47fdb",
+    "shaDepois": "55fd4c186a49c674082ebcb9d319a0a80e7c84d92578fa4bb72a80a721c23c97",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. O informativo reúne conteúdo suficiente para certos usos de avaliação e decisão, podendo inclusive dispensar o original. A palavra pode não afirma suficiência universal. Quem precisa conferir dados, métodos completos ou passagens específicas ainda pode necessitar da fonte integral.",
@@ -1720,7 +1720,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "Um resumo informativo sempre torna desnecessária qualquer consulta ao documento original, seja qual for a finalidade da leitura.",
       "item": "Segundo a ABNT NBR 6028:2021, o 'resumo informativo' é aquele que informa a finalidade, a metodologia, os resultados e as conclusões do documento, de tal forma que pode dispensar a consulta ao texto original completo.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1733,9 +1733,9 @@
       "cad"
     ],
     "localizador": "4.1.8: trabalhos acadêmicos e artigos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "70773f2d282dbb20e8ec15810791c6a57c07cc00ec02e0b4e79eddab2570127a",
-    "shaDepois": "c7cbf6986060cf38817fae2728c27b263e2f8538723e1ee5f593af3fa7aea190",
+    "shaDepois": "14b62ca45467848aad568e0f6d1a84439eda51a0ea2e3d54636b078cece73b87",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na recomendação de extensão da NBR 6028:2021, a faixa destinada a trabalhos acadêmicos e relatórios técnicos ou científicos é de 100 a 250 palavras.",
@@ -1756,7 +1756,7 @@
         "origemAcervoLocal": "cespe-cad-1822",
         "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1822"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1768,9 +1768,9 @@
       "nbr6028"
     ],
     "localizador": "2.5: resumo indicativo",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "29b7deec8e759af7242fd4eef68dc108a51cdacdabd419f73f32230c368bb6fe",
-    "shaDepois": "127e5ec24f52230087ffd5f6f3f90cdb7f93a4756fb245da1d7efd87fedb0af7",
+    "shaDepois": "89eb9348510685006dcbf8e43f64cede5757552dabbdf3161370d950c2bc222e",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. O indicativo apresenta pontos principais sem detalhar dados qualitativos e quantitativos. Em geral, não dispensa consulta ao original. A descrição do item se aproxima de uma pretensão de resumo exaustivo e ainda exagera a autonomia, confundindo finalidade e alcance.",
@@ -1780,7 +1780,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "O resumo indicativo assinala os pontos principais, sem detalhamento e sem dispensar, em geral, a consulta ao original.",
       "item": "O 'resumo indicativo' é aquele que apresenta detalhadamente todos os dados quantitativos, tabelas numéricas e as conclusões completas da pesquisa, dispensando integralmente a leitura do texto original.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1792,9 +1792,9 @@
       "nbr6028"
     ],
     "localizador": "2.2, 2.3 e 4.2: resenha e recensão",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "c7f47c35b8f344483aa22d7503331e303cdd14f9326e98ba0517669db73ff78f",
-    "shaDepois": "5dc3d1749fc7e7cc2827b2695676fb8912e3b9a446b1da7a934bc7736ef58c26",
+    "shaDepois": "fb5f2a12313207f6010eabbf80387e879ddffbcc3ff12d5b25c723cf02d523b3",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 6028:2021, resenha e recensão possuem definições próprias, distintas das definições de resumo indicativo e resumo informativo.",
@@ -1804,7 +1804,7 @@
       "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.2, 2.3 e 4.2: resenha e recensão. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Na NBR 6028:2021, resenha, recensão e resumo informativo são termos intercambiáveis com a mesma definição.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1817,9 +1817,9 @@
       "cad"
     ],
     "localizador": "4.1.8, b: artigos de periódicos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "63fe1443d527da0b0f4733379cc8422073fad05ac16df425083990d482125fd9",
-    "shaDepois": "9015b5915adf0eab287bb1df1ea15c45bf30effce017569c77b90906cf125775",
+    "shaDepois": "30163509a7c73cea92168ba7cba0124d34ab0627f2d5731b07346d0fb9c57a59",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A NBR 6028:2021 recomenda a extensão de 100 a 250 palavras para resumos de artigos de periódicos.",
@@ -1840,7 +1840,7 @@
         "origemAcervoLocal": "cespe-cad-1858",
         "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1858"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1852,9 +1852,9 @@
       "nbr6027"
     ],
     "localizador": "definição e localização; distinguir índice",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "b3c20f2a032356fbe01baf77878a2d1f43128dc11d48a4cef25e45ee0d3a4b7c",
-    "shaDepois": "224b651aece299515ffe25f5cf0089c511dbc920d4d703181baa58a59a53442d",
+    "shaDepois": "bf05c57f3589c62453df22eed804ad5ce2dffc32d6256a23ce4dc502ff272904",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. O sumário reflete a ordem das partes do documento e é pré-textual. Um índice permite localizar entradas por critérios próprios, como assuntos em ordem alfabética, e geralmente é pós-textual. As funções se complementam sem identidade entre os elementos.",
@@ -1864,7 +1864,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "Sumário mostra a estrutura na sequência do texto; índice organiza entradas para localização segundo seu critério.",
       "item": "No projeto gráfico editorial segundo a ABNT, sumário e índice constituem elementos funcionais equivalentes, situando-se o sumário ao término da publicação estruturado em ordem alfabética de assuntos.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1876,9 +1876,9 @@
       "nbr6028"
     ],
     "localizador": "4.1.2: parágrafo único",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "e4201b82f2630d80453bdced08684efcdc72cd527ec17fe3e8fee012286c8700",
-    "shaDepois": "56abc0033d0203b2733ad5565e4b0eff51d37b20665c2c1ddcc7f82e25a9390e",
+    "shaDepois": "ae84ff73bb0439910196ec64daf5e70cb632713d8e6bf717b71bfcc601807ca1",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. A regra prevê sequência de frases concisas em parágrafo único, sem enumeração de tópicos. Uma síntese pode apresentar método e conclusões de modo articulado sem marcadores. O fato de tópicos parecerem visualmente práticos não altera a prescrição da norma.",
@@ -1888,7 +1888,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "O resumo deve usar frases concisas em parágrafo único, sem enumeração de tópicos.",
       "item": "A ABNT NBR 6028:2021 estabelece que o resumo de monografias e dissertações acadêmicas seja organizado em itens tópicos com marcadores (bullet points), segmentando cada conclusão metodológica.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1901,9 +1901,9 @@
       "cad"
     ],
     "localizador": "separação do indicativo e título",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "22576b584954f0498c62f32ddc6f8d23f286239aa188aa46e4c40d603253d82c",
-    "shaDepois": "fb6ef659e0ea74afe448a87e498507affa4e83570472fabb907c9cae00864499",
+    "shaDepois": "09df4b359aa07e44b712366dedc0bbc6b61206560a18ddb73b9443e7d2165c8d",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Segundo a NBR 6024:2012, deve-se inserir hífen ou travessão entre o indicativo e o título da seção, como em 11 – Tutorial no uso do LaTeX.",
@@ -1924,7 +1924,7 @@
         "questaoOriginalId": "TecConcursos-289191",
         "declaracaoLegada": "Cebraspe / FUB / 2015 (Adaptada); identificador legado: TecConcursos-289191"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -1937,9 +1937,9 @@
       "cad"
     ],
     "localizador": "5.1 e 5.2: indicativos e títulos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "1d25e4ab0c3b42f58d15fcb10e301202d87e395eab08979bafe8c34da343db47",
-    "shaDepois": "f23784a646cc8f171eb926fd4411148089ed782efdfb28721b0736f35d5cc727",
+    "shaDepois": "243921f4efd459d7cc752ab190033d8cc7a63b84ce83ee47eadabc4abbc28c76",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. Quando há indicativos, eles se alinham à esquerda e precedem títulos e subtítulos. A correspondência com o corpo do documento deve ser preservada. Localizadores de páginas não substituem o indicativo da seção nem devem ser confundidos com sua numeração hierárquica.",
@@ -1960,7 +1960,7 @@
         "origemAcervoLocal": "cespe-cad-1852",
         "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1852"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1973,9 +1973,9 @@
       "cad"
     ],
     "localizador": "4.1.8, c: demais documentos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "12bd98496130e87a1caca0a12f1a35720803296b3de4d7453882370ef4cb5a1b",
-    "shaDepois": "a6c5ccba3b579de8a6dc833b357f130a564b74ebf3069bca0c8e691876995b7d",
+    "shaDepois": "086e8cfeca58f7a867a9e97b37bfe5c64e7921141817bed6fd96eba12860051b",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 6028:2021, convém que resumos de documentos não contemplados nas categorias de trabalhos acadêmicos, relatórios técnicos ou científicos e artigos de periódicos tenham de 50 a 100 palavras.",
@@ -1996,7 +1996,7 @@
         "questaoOriginalId": "TecConcursos-165433",
         "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165433"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -2009,9 +2009,9 @@
       "cad"
     ],
     "localizador": "4.2.1.1: dados de catalogação na publicação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "4d10f045ad817c4c0e5564af0893ca8423938cedf238bd13c3b0382b76eca5a5",
-    "shaDepois": "a8daf9c4f41727af174772acdd19d21684d14875b663a857417040f79310dc2a",
+    "shaDepois": "f5ee015e4db116ba5b7cf57f259d80800d1b4cea80f7b9b2b67263594818d813",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A NBR 14724:2024 determina que os dados internacionais de catalogação na publicação sejam apresentados conforme o código de catalogação vigente.",
@@ -2032,7 +2032,7 @@
         "origemAcervoLocal": "cespe-cad-1816",
         "declaracaoLegada": "Cebraspe / 2017 / 2017 (Adaptada); identificador legado: cespe-cad-1816"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.5"
     }
   },
   {
@@ -2045,9 +2045,9 @@
       "cad"
     ],
     "localizador": "2.1.6: palavras de mesma raiz e sentido",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "cd93bef7226195a0f92dde246114ffbffe05021dc56db045418aa0379345eeef",
-    "shaDepois": "3a1d9f4e61488efdc5bcfe402a7d0778970148400ccab550dbb422f659ab26e4",
+    "shaDepois": "5e5abbfcae6cb0a0477b3d84529cbc2088ba0cdc69bae8efcf63b1889d2fc07a",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Segundo a NBR 6032:1989, abreviam-se preferencialmente de maneira idêntica vocábulos de línguas diferentes com a mesma raiz e o mesmo sentido, quando a ortografia permitir.",
@@ -2068,7 +2068,7 @@
         "questaoOriginalId": "TecConcursos-646345",
         "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646345"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.1"
     }
   },
   {
@@ -2080,9 +2080,9 @@
       "cfb184"
     ],
     "localizador": "identificação do responsável pela ficha",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "06670c377b27a69105af51ecf26a1fb7d74189d40ab184dfacad8854967a0fb6",
-    "shaDepois": "db6022a6c3ec1594357e983965b82672aade378dc0561db2d24e3ca715a62de2",
+    "shaDepois": "e0081eed4d657828de2fec1f71020f07ef6cb302ffd50c4ce6ee814f90476953",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. O CFB orienta a identificação do bibliotecário responsável, com registro profissional, inclusive na ficha catalográfica. Ferramenta automatizada não afasta automaticamente essa responsabilidade. Regras da profissão não se reduzem ao uso de um gerador ou de um formulário institucional.",
@@ -2092,7 +2092,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "A ficha deve observar a responsabilidade e a identificação profissional aplicáveis, inclusive quando apoiada por sistema automatizado.",
       "item": "A elaboração da ficha catalográfica de um livro publicado no Brasil pode ser feita livremente por qualquer pessoa sem registro profissional no Conselho Regional de Biblioteconomia, dispensando o número de CRB.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.5"
     }
   },
   {
@@ -2105,9 +2105,9 @@
       "cad"
     ],
     "localizador": "escopo: sumário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "883c923a8632f55db352f53744961fef26bd0e92a57c97f7a09b7859f1d02be5",
-    "shaDepois": "c510b6bee6ffb36a3c2abe62698a543d335e355dffc5499a6eae5f30301bf2af",
+    "shaDepois": "f542737b256c01909a83ade86cc39b06dccb4bc4db9bcf1684d8a9dbd15f34ec",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A NBR 6027 é a norma que disciplina a numeração progressiva das seções, substituindo a NBR 6024 nessa função.",
@@ -2128,7 +2128,7 @@
         "origemAcervoLocal": "cespe-cad-1815",
         "declaracaoLegada": "Cebraspe / 2017 / 2017 (Adaptada); identificador legado: cespe-cad-1815"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -2177,9 +2177,9 @@
       "cad"
     ],
     "localizador": "4.1: obra em mais de um volume",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "e7ea73793f761b2a28332bc4dfa43c0812debd57d2f4ed29a475d3634ff3dc90",
-    "shaDepois": "0ddc34cedbd57de9c086a2d40942229f88a838fb824535589fa15cad794e4d6b",
+    "shaDepois": "b233e59b64fa4ee4bb3d451952dc7a1dde3eeec4a01606583edc0a2763b3269b",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. A inclusão do sumário de toda a obra em cada volume permite conhecer a organização do conjunto sem ter todos os volumes em mãos. Isso não obriga repetir o texto integral de cada parte. Sumário e paginação também são aspectos distintos da apresentação multivolume.",
@@ -2200,7 +2200,7 @@
         "origemAcervoLocal": "cespe-cad-1827",
         "declaracaoLegada": "Cebraspe / ABNT / 2024 (Adaptada); identificador legado: cespe-cad-1827"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -2213,9 +2213,9 @@
       "cad"
     ],
     "localizador": "2.1.7: palavras compostas",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "d2eab4384e201d1e94820cfdfd2f9a855c3b050d6e8df825caa9cf1cd8b26925",
-    "shaDepois": "aff09a2463d494df72111997b45b15feb0989ca7d03b1bb4de7bd0fa85e099d6",
+    "shaDepois": "e050e0e61b4b78b64cdc87fd5648375878d307dda7e24176578f37f890799d4f",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Segundo a NBR 6032:1989, os elementos de uma palavra composta devem ser abreviados sem conservar o traço de união que liga esses elementos.",
@@ -2236,7 +2236,7 @@
         "questaoOriginalId": "TecConcursos-646346",
         "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646346"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.1"
     }
   },
   {
@@ -2248,9 +2248,9 @@
       "nbr14724"
     ],
     "localizador": "5.1: margens de anverso e verso",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "e5805c161555634d84cfed7e609fe8765c6f0f1cd9beab77015f1d0fd13ed34b",
-    "shaDepois": "c78ff1e1116ec3fce2e490ef61a8a84fb9039befe8c3e14b1a2c6263931ca8b2",
+    "shaDepois": "bf51758e3de94be5b6da666d741b863295ebcaee135808d7565b4c177d46235b",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Para o anverso de trabalhos acadêmicos, a NBR 14724:2024 prevê margens esquerda e superior de 3 cm e direita e inferior de 2 cm.",
@@ -2260,7 +2260,7 @@
       "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.1: margens de anverso e verso. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "No verso, as margens laterais devem permanecer obrigatoriamente iguais às do anverso, sem inversão.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2272,9 +2272,9 @@
       "issn"
     ],
     "localizador": "atribuição nacional e rede internacional",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 4.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "5bb718475963bff847dcf0ddbcb3f01006e7f9728dfa756fc28b4a0f515368fe",
-    "shaDepois": "5cc5bf42880593373c54d13394c557e71a7929a89556824b15454f95c4a1b8b6",
+    "shaDepois": "f68ce45bb8ff61e1bff69aa23a327abc7635ddf68e3c8c3a1d4f74e84ae60b92",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "No Brasil, o Centro Brasileiro do ISSN, sediado no Ibict, atua na atribuição do identificador em articulação com a Rede Internacional do ISSN.",
@@ -2284,7 +2284,7 @@
       "fonte": "Ibict — Centro Brasileiro do ISSN — atribuição nacional e rede internacional — https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/centro-brasileiro-do-issn",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Receber ISSN comprova a qualidade científica de todos os artigos e funciona como identificador individual de cada artigo.",
-      "submoduloId": "4.2"
+      "submoduloId": "1.1"
     }
   },
   {
@@ -2296,9 +2296,9 @@
       "nbr14724"
     ],
     "localizador": "4.2.1.1 e 5.1: localização dos dados de catalogação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "241dd01746c297018f4009d659fb8933755bfa62d7e001f89ad848daad071003",
-    "shaDepois": "a43c5a24aa18b55a28770ba6bcde48baa882b3bd5ca4e4b227d04483845d1c2a",
+    "shaDepois": "3461004f7405218e4f0d3b7203faa09a05a04586b428b0f08f9c4d949c423ffd",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 14724:2024, os dados de catalogação na publicação constam no verso da folha de rosto no impresso e, em formato eletrônico, imediatamente após a página de rosto.",
@@ -2308,7 +2308,7 @@
       "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 4.2.1.1 e 5.1: localização dos dados de catalogação. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Em trabalhos eletrônicos, os dados de catalogação devem ser inseridos apenas após todos os anexos.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.5"
     }
   },
   {
@@ -2320,9 +2320,9 @@
       "nbr14724"
     ],
     "localizador": "seção 4: estrutura externa e interna",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "77cb970474084963122bf44b7582c59b590a3ebffbdfcd71964603984dbbc2e8",
-    "shaDepois": "8ffc43ec6fb4bdc991711cf82055da95b121d204f2803df5c1c6e3a305e254a1",
+    "shaDepois": "0abc68a103a7e854c7eb500f62831a4e6464316afa50150bf2d302a7d7ae1ba0",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na estrutura da NBR 14724:2024, a parte interna do trabalho compreende elementos pré-textuais, textuais e pós-textuais, distinguindo-se da parte externa.",
@@ -2332,7 +2332,7 @@
       "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — seção 4: estrutura externa e interna. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Pré-textuais, textuais e pós-textuais correspondem à parte externa, enquanto capa e lombada constituem a parte interna.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2345,9 +2345,9 @@
       "cad"
     ],
     "localizador": "orientação de apresentação em bibliografias",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "0dc326d1613d9bda55abde6c7ca3b9a06858eaa245d86f3c7a515ed9921d3f27",
-    "shaDepois": "1784d09367922ff9ed8bb5bb02465470cbe2bb2500a88f0553848da142fb7ece",
+    "shaDepois": "1f895e2f86c055db6ce140d4bfdc942055c907f39dda7450e30ba841c8cb84b0",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na aplicação da NBR 6032:1989 a bibliografias, prevê-se lista das abreviaturas e respectivos títulos completos dos periódicos, com local de publicação e, opcionalmente, editores e endereços.",
@@ -2368,7 +2368,7 @@
         "origemAcervoLocal": "cespe-cad-1817",
         "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1817"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.1"
     }
   },
   {
@@ -2381,9 +2381,9 @@
       "cad"
     ],
     "localizador": "2.2.3: título constituído por uma única palavra",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "fdd28aec647dc6ee6bef53a5dc6ef0f8e6f01ba1ff53a7d61264e63e6248e40d",
-    "shaDepois": "830c0d5a6fae49db4923b20f4a7d8ec9330b4407722da2ee9913ad27b12f8a41",
+    "shaDepois": "45c00575cffe6632593b490269dc0387a7362a784da8fb7d3cfd97bdfb028035",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Aplicando a NBR 6032:1989, o título de periódico constituído pela única palavra Nature deve obrigatoriamente ser abreviado para Nat.",
@@ -2404,7 +2404,7 @@
         "questaoOriginalId": "TecConcursos-646347",
         "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646347"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.1"
     }
   },
   {
@@ -2417,9 +2417,9 @@
       "cad"
     ],
     "localizador": "escopo: numeração progressiva",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "4b72db2e855e880fcc9f65ab20263ac35f8e5e23c956c2e0def36fb3667f89ed",
-    "shaDepois": "29e02c2d9ec5d2f55af5d953b9b1dd7c195ef0d8c7c383ecc0987f8581398a44",
+    "shaDepois": "bcbb0d313b2236801b62cb3cb15e79865c3f267260de34ac0da5fd0f57828dea",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. NBR 6024 disciplina a numeração progressiva; sumário é objeto da NBR 6027. O sumário pode reproduzir a hierarquia numérica, mas isso é aplicação articulada, não identidade de escopos. As duas normas ajudam a manter correspondência entre estrutura e apresentação.",
@@ -2440,7 +2440,7 @@
         "origemAcervoLocal": "cespe-cad-1814",
         "declaracaoLegada": "Cebraspe / 2017 / 2017 (Adaptada); identificador legado: cespe-cad-1814"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2452,9 +2452,9 @@
       "nbr14724"
     ],
     "localizador": "5.3: contagem e exibição da paginação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "4463c8a01578d34084b5e839b6ac0a862fdf699df2dd6d52ec935b4c851c3466",
-    "shaDepois": "e15d2586f17472278c6ee8681a030235cba255cf38171696c4fb7ba8627ca0b2",
+    "shaDepois": "918777058772be8be767e05488ddeb5ae87697eb97946c0d4f35efc20878f371",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 14724:2024, o verso da folha de rosto com os dados internacionais de catalogação deve ser contado e numerado como as demais páginas, sem exceção.",
@@ -2464,7 +2464,7 @@
       "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.3: contagem e exibição da paginação. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "A contagem e a exibição da paginação seguem regras distintas; capa não é o início numerado visível do texto.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2476,9 +2476,9 @@
       "nbr14724"
     ],
     "localizador": "estrutura: capa e folha de aprovação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "ecc66c24f54758e77dd6368be05e24180ca6ec1913f1412986cbacbf82533eec",
-    "shaDepois": "1185660750a0890b3f08feaa9d75267485686564e29517b6056e977714292e7e",
+    "shaDepois": "13b101bdc77aefad69abf0306fff338b20af27ed27c0f17832d4a396d8517608",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. Capa pertence à parte externa; folha de aprovação é elemento pré-textual da parte interna. Não são pós-textuais facultativos localizados após referências. A localização estrutural precisa ser distinguida do momento em que um elemento é produzido ou aprovado.",
@@ -2488,7 +2488,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "Capa é elemento externo e folha de aprovação integra os pré-textuais, conforme a estrutura da norma.",
       "item": "Na NBR 14724:2024, a capa e a folha de aprovação são classificadas formalmente como elementos pós-textuais de inserção facultativa após a bibliografia.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2500,9 +2500,9 @@
       "isbn"
     ],
     "localizador": "estrutura e identificação de edições e formatos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 4.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "a18a690b1e68b51933b78b846e08c2d588c2b305096f3d1d675b2cfa6dfe76cc",
-    "shaDepois": "3e24ad252de102c4f609fbb6a9f5327a6a1ff7729edc3e84526643e93aa6375d",
+    "shaDepois": "7afd58c4bcbc3c1320a9de14da8c31d2c56448a46fff94fe29dbd67274b87dfd",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "O ISBN atual possui 13 dígitos em cinco elementos e identifica publicações monográficas segundo edição e formato, sem funcionar como número individual de cada exemplar físico.",
@@ -2512,7 +2512,7 @@
       "fonte": "International ISBN Agency — What is an ISBN? — estrutura e identificação de edições e formatos — https://www.isbn-international.org/content/what-isbn",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Todas as edições e formatos de um livro devem usar necessariamente o mesmo ISBN, pois ele identifica apenas o título abstrato.",
-      "submoduloId": "4.2"
+      "submoduloId": "1.1"
     }
   },
   {
@@ -2524,9 +2524,9 @@
       "isbn"
     ],
     "localizador": "diferença entre ISBN e ISSN",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 4.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "cfa8aaa585204556d7d38df5f066577d74f957b279d78496599ab0443a544acc",
-    "shaDepois": "4134868c48647c58ab3828f275f9854c08ad67d47fe5b87de72a21d39ccc7872",
+    "shaDepois": "f65f7b4eb4123fa78afe8550e1b7ae4bfcf9a8b67a94ba96bbb1f1a142e1cd59",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "ERRADO. ISBN e ISSN possuem estruturas e escopos diferentes: publicações monográficas e publicações continuadas, respectivamente, segundo suas regras. Uma série monográfica pode envolver os dois em níveis distintos. Essa coexistência não torna os códigos idênticos ou intercambiáveis.",
@@ -2536,7 +2536,7 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "ISBN e ISSN são identificadores distintos e podem coexistir em níveis diferentes de certas publicações.",
       "item": "O ISBN e o ISSN são códigos idênticos destinados ao mesmo tipo de publicação, sendo o ISBN atribuído a revistas diárias e o ISSN a enciclopédias em volume único.",
-      "submoduloId": "4.2"
+      "submoduloId": "1.1"
     }
   },
   {
@@ -2549,9 +2549,9 @@
       "cad"
     ],
     "localizador": "5.6: versões em mais de um idioma",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "b6429b15ed7d9e8e6dd4a8fec038e1ab275c97dbc8ae87c520baf7486e022814",
-    "shaDepois": "bf68bfbfee660ad7c70da0c844a3bbefaac89851c32608feecd220dfd09702c9",
+    "shaDepois": "71e95519a5a166ec57fa47a998341be3b9f6938d6a8669049b956668892fc40e",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A NBR 6027:2012 proíbe sumários separados por idioma em páginas distintas quando um documento apresenta o mesmo texto em mais de um idioma.",
@@ -2572,7 +2572,7 @@
         "origemAcervoLocal": "cespe-cad-1818",
         "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1818"
       },
-      "submoduloId": "8.2"
+      "submoduloId": "8.4"
     }
   },
   {
@@ -2584,9 +2584,9 @@
       "nbr14724"
     ],
     "localizador": "identificação de apêndices e anexos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "206159c789a661087f638a0a16f0e0718ed95852642e0cb6f9b4634ea110c911",
-    "shaDepois": "85ab301ab671d01015e13dfbf6b0491cba8c04894e3a6c60b11ac6895c9f1cbd",
+    "shaDepois": "679683a5a772c14e20e1993d614333cf566a4a3d1593d50f189674859e5f82fa",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na NBR 14724:2024, anexos devem ser identificados por indicativos numéricos de seções textuais, continuando obrigatoriamente a mesma hierarquia de subseções da conclusão.",
@@ -2596,7 +2596,7 @@
       "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — identificação de apêndices e anexos. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Anexos são identificados por letras maiúsculas consecutivas, travessão e título, conforme a norma.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2608,9 +2608,9 @@
       "nbr14724"
     ],
     "localizador": "definições: apêndice e anexo",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "bf822242f3a93a01b96135f8ac215b076cc61690578194dbbde461f79717f3ac",
-    "shaDepois": "c8cff19b0fcd7c41b755054ae86077e97d2aceae51ce0b8d641e902f8e0b5b86",
+    "shaDepois": "c8fa468288ba4a41e79bfe845a7b02d3229b756b1385322f2c96d05ecd934630",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "justificativa": "CERTO. Apêndice é elaborado pelo autor para complementar o trabalho; anexo não é elaborado por ele e serve às finalidades pertinentes. A distinção considera autoria, não tamanho ou importância. Um texto legal de terceiro não vira apêndice apenas porque foi digitado novamente pelo pesquisador.",
@@ -2620,7 +2620,7 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "Reproduzir por digitação uma lei transforma-a em apêndice de autoria do pesquisador.",
       "item": "A distinção formal entre 'Apêndice' e 'Anexo' reside no fato de que o Apêndice é um documento ou texto elaborado pelo próprio autor da pesquisa para complementar sua argumentação, enquanto o Anexo é um documento não elaborado pelo autor (texto legal, mapa oficial, laudo de terceiro) incorporado para fundamentação.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2632,19 +2632,19 @@
       "depositoLegal"
     ],
     "localizador": "finalidade e obrigação de depósito",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 1.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "94bf23d77212a1472e0337f96a27f85014ef4821cd90b5657b60974a8a0b63f1",
-    "shaDepois": "1880b8361cc3f4c2a2302f3d61838a7c0fa8943f663b5343b61ea046d453f760",
+    "shaDepois": "5246286535e8dd87243b75b4e98d8d243c225f5188fcb403074261574c82c7eb",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Na Lei 10.994/2004, a atribuição de ISBN a um livro substitui o depósito legal, dispensando o envio dos exemplares abrangidos pela obrigação à Biblioteca Nacional.",
       "justificativa": "ERRADO. A lei estabelece depósito de publicações na Biblioteca Nacional para assegurar coleta e guarda da produção abrangida. Não proíbe a remessa como excesso de doação. Depósito legal é obrigação e instrumento patrimonial próprio, distinto de seleção voluntária de qualquer doação.",
       "gatilho": "ISBN",
       "armadilhaBanca": "Confundir identificação editorial e obrigação patrimonial.",
-      "fonte": "Lei 10.994/2004 — Depósito legal de publicações na Biblioteca Nacional — finalidade e obrigação de depósito — https://www2.camara.leg.br/legin/fed/lei/2004/lei-10994-14-dezembro-2004-534555-publicacaooriginal-21607-pl.html",
+      "fonte": "Lei 10.994/2004 — arts. 1º a 5º e 8º — acervo-estudos/Legislação e contexto legislativo/Lei 10.994.pdf (ref. auditoria-2026-10).",
       "dataConferencia": "2026-10-30",
       "versao_correta": "A Lei 10.994/2004 institui depósito legal de publicações na Biblioteca Nacional, conforme sua abrangência e seus requisitos.",
-      "submoduloId": "1.2"
+      "submoduloId": "1.1"
     }
   },
   {
@@ -2692,9 +2692,9 @@
       "nbr14724"
     ],
     "localizador": "5.3: paginação de trabalho somente no anverso",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "0ac738e0a32bc458625d65a54214f62cb99d8767b8b981f8577bb1027dd56bd5",
-    "shaDepois": "fae1094997e36f095fd7f7b74f4cc105cf7bf05febe45ffe0cd824a922f77b1b",
+    "shaDepois": "fa049fee4b58610f73503f2bb005c67a9204fe4984515a61812d870f6986fe8d",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "Em trabalho apresentado somente no anverso, a NBR 14724:2024 prevê contagem das folhas a partir da folha de rosto e numeração visível desde a primeira folha textual, em algarismos arábicos no canto superior direito.",
@@ -2704,7 +2704,7 @@
       "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.3: paginação de trabalho somente no anverso. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "A numeração visível deve começar na própria folha de rosto e o verso de catalogação deve ser contado e numerado.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.3"
     }
   },
   {
@@ -2716,9 +2716,9 @@
       "nbr6034"
     ],
     "localizador": "escopo: índices impressos e automatizados",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
     "shaAntes": "4e94f54fad524c1d11c259cf6e14e491bcb3fa7b7c14d841916c1da3519c3363",
-    "shaDepois": "c3476140e97d7ff89495d578ebb5380b82eeb802913c9eac6f7030dca05c402c",
+    "shaDepois": "7c815407797f86c2737335abd42b813cbb4984f9cc62b5c50e31dd3d9c1c849b",
     "patch": {
       "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
       "item": "A NBR 6034:2004 aplica-se à apresentação de índices e, no que couber, aos índices automatizados.",
@@ -2728,7 +2728,7 @@
       "fonte": "ABNT NBR 6034:2004 — Índice — Apresentação — escopo: índices impressos e automatizados — https://cnm.paginas.ufsc.br/files/2020/02/ABNT-NBR-6034.pdf",
       "dataConferencia": "2026-10-30",
       "versao_errada": "A NBR 6034:2004 exclui expressamente qualquer aplicação aos índices automatizados.",
-      "submoduloId": "8.2"
+      "submoduloId": "8.5"
     }
   }
 ]

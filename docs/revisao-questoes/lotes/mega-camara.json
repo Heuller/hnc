@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mega-q-117",
+    "caminho": "src/content/questions/mega-simulado-camara-120q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 116: encaminhamento de pedidos escritos a ministros",
+    "nota": "Cópia detectada em varredura de conflitos ativos, lida individualmente com contexto e corrigida. Gabarito C para E, fundamento e contraste específicos.",
+    "shaAntes": "02d1056d235c0b39a23e2a88ae124bffd162d2090e5a3f55ed5ec171123a2c41",
+    "shaDepois": "f8aae32e5150f1f3f35b5aaef673d2bd1676abe2979de3d19033e06fb292f3e7",
+    "patch": {
+      "gabarito": "E",
+      "justificativa": "ERRADO. O encaminhamento dos pedidos escritos de informação a ministros é atribuído ao Primeiro-Secretário pelo art. 116 do RICD. A enumeração de outras tarefas não torna correta a atribuição desse encaminhamento ao Quarto. Não basta reconhecer uma função relacionada à secretaria: é preciso verificar qual titular a exerce e em qual dispositivo.",
+      "gatilho": "Quarto-Secretário",
+      "versao_correta": "Os pedidos escritos de informação a ministros são encaminhados pelo Primeiro-Secretário, conforme o art. 116 do RICD.",
+      "versao_errada": "",
+      "armadilhaBanca": "Separar atribuições de titulares distintos da Mesa e conferir o dispositivo aplicável.",
+      "submoduloId": "10.1",
+      "fonte": "RICD — art. 116 — acervo-estudos/Legislação e contexto legislativo/RICD atualizado ate RCD 34-2026.pdf (ref. auditoria-2026-10).",
+      "dataConferencia": "2026-10-30"
+    }
+  }
+]

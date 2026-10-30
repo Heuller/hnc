@@ -34,5 +34,29 @@
         "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / STJ / 2018 (Adaptada)\",\"verificado\":true,\"provaId\":\"AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018\",\"ano\":2018,\"orgao\":\"STJ\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"TecConcursos-624254\"}"
       }
     }
+  },
+  {
+    "id": "oficial-180q-173",
+    "caminho": "src/content/questions/simulado-oficial-camara-180q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 64, §§1º a 4º",
+    "nota": "Cópia detectada em varredura de conflitos ativos, lida individualmente com contexto e corrigida. Gabarito C para E, fundamento e contraste específicos.",
+    "shaAntes": "82ea617e931407a4732175928a70b738a43d3ab8b64a15054e3e80a867f0e6b0",
+    "shaDepois": "39f6ba5ef4a2ca8c8286a63140290f9488c86e0b79f725eb643c392e3114f87c",
+    "patch": {
+      "gabarito": "E",
+      "justificativa": "ERRADO. O art. 64, §2º, ressalva as deliberações que tenham prazo constitucional determinado. A assertiva omite essa ressalva ao afirmar bloqueio de todas as demais deliberações. Os prazos também não correm no recesso e não se aplicam a projetos de código. É necessário distinguir urgência constitucional e dispensa indiscriminada de regras de tramitação.",
+      "gatilho": "todas as demais deliberações",
+      "versao_correta": "O sobrestamento da urgência constitucional do art. 64 observa a exceção das deliberações com prazo constitucional determinado.",
+      "versao_errada": "",
+      "armadilhaBanca": "Reconhecer a exceção expressa e distinguir prazos da urgência constitucional.",
+      "submoduloId": "10.2",
+      "fonte": "Constituição Federal — art. 64, §§1º a 4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30"
+    }
   }
 ]

@@ -4075,12 +4075,12 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "origemModulo": "M10",
     "questaoOrigemId": "m10-q-3",
-    "submoduloId": "10.1",
+    "submoduloId": "10.2",
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O Presidente da República pode solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara e o Senado não se manifestem em até quarenta e cinco dias cada, a proposição sobresta todas as demais deliberações legislativas da Casa, trancando a pauta.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O art. 64, §§ 1º e 2º da CF/88 consagra a urgência constitucional solicitada pelo Presidente da República para projetos de lei de sua autoria. A Câmara e o Senado têm o prazo sucessivo de 45 dias cada uma para deliberar sobre a matéria. Esgotado esse prazo sem votação, a pauta da respectiva Casa fica trancada (sobrestamento de todas as demais deliberações da Ordem do Dia até que se ultime a votação).",
-    "armadilhaBanca": "Urgência constitucional presidencial do art. 64 da CF.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. O art. 64, §2º, ressalva as deliberações que tenham prazo constitucional determinado. A assertiva omite essa ressalva ao afirmar bloqueio de todas as demais deliberações. Os prazos também não correm no recesso e não se aplicam a projetos de código. É necessário distinguir urgência constitucional e dispensa indiscriminada de regras de tramitação.",
+    "armadilhaBanca": "Reconhecer a exceção expressa e distinguir prazos da urgência constitucional.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -4088,8 +4088,11 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "provaBloco": "P2_ESPECIFICOS",
-    "gatilho": "e o Senado não se manifestem em",
-    "versao_errada": "O Presidente da República pode solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara indevidamente e o senado não se manifestem em até quarenta e cinco dias cada, a proposição sobresta todas as demais deliberações legislativas da Casa, trancando a pauta."
+    "gatilho": "todas as demais deliberações",
+    "versao_errada": "",
+    "versao_correta": "O sobrestamento da urgência constitucional do art. 64 observa a exceção das deliberações com prazo constitucional determinado.",
+    "fonte": "Constituição Federal — art. 64, §§1º a 4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "oficial-180q-174",

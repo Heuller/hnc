@@ -1514,9 +1514,9 @@
       "cad"
     ],
     "localizador": "seções 1 e 2: aplicações em tempo real",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de protocolos e redes corrigido para 14.2 após conferir o título e conteúdo da aula; 14.1 trata de ferramentas Office.",
     "shaAntes": "7a352e7e9195b0c1a39d27c9f70c9a83f574f1c4d0868b5adf63752373c8c2a9",
-    "shaDepois": "cb9283ad402b4e5d80d7c96f0fdbbf77515727d350df47cd7f8f1a8ed8d1342a",
+    "shaDepois": "8cab386465f37994ebe863ca3cb7595f623531ca2da1d9838f0f3b3f561fa862",
     "patch": {
       "item": "Na telefonia por VoIP, o simples uso de IP garante a entrega de todos os pacotes de áudio sem perda, atraso ou variação de atraso, independentemente das condições da rede.",
       "justificativa": "ERRADO. Comunicação de voz sobre IP depende de redes de pacotes e pode sofrer perdas, atrasos e variação de atraso. RTP fornece mecanismos úteis a aplicações em tempo real, mas não reserva recursos nem garante qualidade de serviço por si só. Aplicações podem integrar áudio e vídeo, por isso vídeo não é uma exclusão conceitual segura.",
@@ -1536,7 +1536,7 @@
         "questaoOriginalId": "TecConcursos-228956",
         "declaracaoLegada": "Cebraspe / MPU / 2013 (Adaptada); identificador legado: TecConcursos-228956"
       },
-      "submoduloId": "14.1"
+      "submoduloId": "14.2"
     }
   },
   {
@@ -1549,9 +1549,9 @@
       "cad"
     ],
     "localizador": "semântica HTTP e transferência de representações",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de protocolos e redes corrigido para 14.2 após conferir o título e conteúdo da aula; 14.1 trata de ferramentas Office.",
     "shaAntes": "0a74dbc4c9ebef003d904975f7b2bd73b8a8e52071f52f95d67469b4eb070c53",
-    "shaDepois": "9c541cd49abe8c301ae292c23a8c618c7cc943c96c11e66b617a4535791e97ad",
+    "shaDepois": "05dc382fee2ffabcd983cdca3c4589fdb165d1d147d20fe65262e22e0ad76293",
     "patch": {
       "justificativa": "CERTO. HTTP transfere representações de recursos e é central à Web; também pode entregar arquivos e apoiar APIs. FTP foi concebido para transferência de arquivos. A distinção de finalidades não autoriza afirmar que HTTP transporta somente hipertexto ou que FTP seja sinônimo de SFTP.",
       "gatilho": "HTTP",
@@ -1571,7 +1571,7 @@
         "questaoOriginalId": "TecConcursos-228955",
         "declaracaoLegada": "Cebraspe / MPU / 2013 (Adaptada); identificador legado: TecConcursos-228955"
       },
-      "submoduloId": "14.1"
+      "submoduloId": "14.2"
     }
   },
   {
@@ -1861,9 +1861,9 @@
       "cad"
     ],
     "localizador": "transporte TCP e camada IP",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de protocolos e redes corrigido para 14.2 após conferir o título e conteúdo da aula; 14.1 trata de ferramentas Office.",
     "shaAntes": "c2a70fd2157e77be85df4e3fedfb1818fb20f5a9b7e0dc059b774b9eaa618047",
-    "shaDepois": "43b254dbc455a95a77c0b904f93827a0f1fe19782439e201479deed66cec9420",
+    "shaDepois": "1b58ebdb43b27f7bb011cf8ed2e681280d8cb1abfa36a7c32456d8e108daa0bc",
     "patch": {
       "item": "Na suíte TCP/IP, cabe ao TCP determinar as rotas entre redes e ao IP assegurar a entrega ordenada e confiável de um fluxo de bytes às aplicações.",
       "justificativa": "ERRADO. TCP fornece transporte de fluxo de bytes com mecanismos de confiabilidade; IP cuida do endereçamento e entrega de datagramas através da rede, com encaminhamento pelos roteadores. A divisão apresentada está invertida e simplificada de modo incorreto. Nem toda aplicação da Internet utiliza TCP.",
@@ -1883,7 +1883,7 @@
         "questaoOriginalId": "TecConcursos-346473",
         "declaracaoLegada": "Cebraspe / FUB / 2013 (Adaptada); identificador legado: TecConcursos-346473"
       },
-      "submoduloId": "14.1"
+      "submoduloId": "14.2"
     }
   },
   {

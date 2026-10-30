@@ -25,8 +25,12 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 | M7 — Preservação digital e conservação de acervos | 100/100 | Revisão individual aplicada |
 | M8 — Referências, citações e apresentação documental | 100/100 | Revisão individual aplicada |
 | M9 — Comunicação científica, abertura, métricas e integridade | 100/100 | Revisão individual aplicada |
-| Simulado integral Câmara — duplicata de microfilmagem | 1/180 | Item 147 revisado; demais itens do arquivo pendentes |
-| Demais cadernos e banco complementar | 0/1.099 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
+| M10 — Processo legislativo, contexto e legislação | 100/100 | Revisão individual aplicada |
+| M10A — Constituição e processo legislativo | 100/100 | Revisão individual aplicada |
+| M10B — Regimentos da Câmara e do Congresso | 100/100 | Revisão individual aplicada |
+| Simulado integral Câmara — cópias divergentes | 2/180 | Itens 147 e 173 revisados; demais itens do arquivo pendentes |
+| Mega simulado — competência do Secretário | 1/120 | Item 117 revisado; demais itens do arquivo pendentes |
+| Demais cadernos e banco complementar | 0/679 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
 
@@ -53,3 +57,13 @@ M9: 100 itens revisados individualmente. Corrigidos escopo temporal do Qualis e 
 Censo no marco de 900: 900 registros individuais vigentes. O censo detectou conflito com a cópia `oficial-180q-147`, que foi então lida e corrigida individualmente. Esse reparo adicional eleva o marco a 901 registros vigentes (1.278 pendentes); não publicar o banco parcialmente revisado em produção. Os 60 exercícios de véspera e 28 itens adaptativos legados permanecem inventariados separadamente. Histórico e sessões ativas também exigem tratamento de versão antes da publicação.
 
 Validação do marco de 900 e cópia adicional (901): 978 testes em 125 arquivos aprovados, lint, verificações estruturais e compilação com orçamentos aprovados. Navegador local validou modos estudo e prova e aplicação guiada nas larguras 1440 e 390, sem overflow ou erros de execução. O censo deixou de registrar gabaritos conflitantes entre textos idênticos ativos. Correção semântica dos demais 1.278 itens continua pendente; nenhum desses checks a substitui.
+
+M10: mais 100 revisões individuais aplicadas (total 1.001; 1.178 pendentes). Corrigidos julgamentos 3, 25, 27, 36 e 95 para E: sobrestamento sem ressalvas, dispensas indevidas na urgência, competência do Primeiro-Secretário, alcance do parecer terminativo e atribuição de regra profissional à lei errada. As substituições de afirmações institucionais não comprovadas foram delimitadas como hipóteses didáticas ou funções verificáveis. Vínculos do M8 também foram corrigidos após conferir o conteúdo efetivo das aulas.
+
+Após o M10, foram detectadas e lidas as cópias `oficial-180q-173` (urgência constitucional) e `mega-q-117` (Primeiro-Secretário). Ambas receberam correção de julgamento e comentário próprio, elevando o total para 1.003 e as pendências para 1.176. Os 100 testes direcionados passaram após essas correções. O próximo envio reúne mais três cadernos de 100 e os reparos de cópias necessários.
+
+M10A: mais 100 itens aplicados (total 1.103, pendentes 1.076). Corrigidos julgamentos 10 (Vice-Presidente do Senado na promulgação), 27 (Presidente promulga resoluções da Câmara) e 91 (identidade abstrata no LexML, distinta da versão). Delimitados alcance do bloqueio de pauta por MP, controle do TCU e poderes das CPIs com referências constitucionais e do STF.
+
+M10B: 100 revisões individuais aplicadas; total de **1.203/2.179**, com **976 pendentes**. Julgamentos corrigidos em 7, 19, 31, 35, 42, 44, 53, 54, 55, 64 e 72: divisão de atribuições das Secretarias, execução do policiamento, admissibilidade pela comissão especial, mais de quatro comissões de mérito, início dos trabalhos de comissão, substitutiva/substitutivo, urgência e eficácia de parecer, arquivamento/desarquivamento após Resolução 33/2022, maioria absoluta na urgência do art. 155 e recurso de questão de ordem. Foram retiradas duplas negações artificiais; as explicações distinguem regra, exceção, autoridade, prazo e quórum. Abertura de sessão: décima parte desprezada a fração (51 de 513); verificação: seis centésimos; efeito suspensivo de questão de ordem: um terço dos presentes. Essas referências diferentes não podem ser reduzidas a um único quórum genérico.
+
+Validação do marco de 1.203: 978 testes em 125 arquivos aprovados; lint, auditoria estrutural e compilação com orçamentos aprovados. Retiradas cotas artificiais 50/50 de M10A/M10B e 60/60 do Mega em verificações legadas, mantendo contagem, validade de julgamento, IDs e proveniência. O bloqueio conservador de alegações de origem foi preservado; uma frase sobre habilitação profissional foi tornada mais clara. Resultados técnicos não certificam as 976 questões pendentes.

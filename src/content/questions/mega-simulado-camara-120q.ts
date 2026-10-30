@@ -2592,12 +2592,12 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "id": "mega-q-117",
     "numero": 117,
     "macroModuloId": "M10",
-    "submoduloId": "10.2",
+    "submoduloId": "10.1",
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados tem entre suas atribuições regimentais o encaminhamento de requerimentos de informação a Ministros de Estado e a gestão do sistema de habitação funcional dos parlamentares.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 16 do Regimento Interno da Câmara dos Deputados (RICD), compete especificamente ao Quarto-Secretário supervisionar e administrar o sistema de concessão e distribuição de habitação funcional e auxílio-moradia dos Deputados, além de instruir, registrar e encaminhar os requerimentos de informação a Ministros de Estado ou titulares de órgãos subordinados à Presidência da República.",
-    "armadilhaBanca": "Atribuições das Secretarias da Mesa Diretora.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. O encaminhamento dos pedidos escritos de informação a ministros é atribuído ao Primeiro-Secretário pelo art. 116 do RICD. A enumeração de outras tarefas não torna correta a atribuição desse encaminhamento ao Quarto. Não basta reconhecer uma função relacionada à secretaria: é preciso verificar qual titular a exerce e em qual dispositivo.",
+    "armadilhaBanca": "Separar atribuições de titulares distintos da Mesa e conferir o dispositivo aplicável.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -2605,8 +2605,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "TRE-BA/2010 (Cebraspe)"
     },
-    "gatilho": "o encaminhamento de requerimentos de informação a",
-    "versao_errada": "O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados tem entre suas atribuições regimentais indevidamente o encaminhamento de requerimentos de informação a Ministros de Estado e a gestão do sistema de habitação funcional dos parlamentares."
+    "gatilho": "Quarto-Secretário",
+    "versao_errada": "",
+    "versao_correta": "Os pedidos escritos de informação a ministros são encaminhados pelo Primeiro-Secretário, conforme o art. 116 do RICD.",
+    "fonte": "RICD — art. 116 — acervo-estudos/Legislação e contexto legislativo/RICD atualizado ate RCD 34-2026.pdf (ref. auditoria-2026-10).",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "mega-q-118",
