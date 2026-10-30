@@ -1,6 +1,6 @@
 import type { AnaliseItemReverso } from '../../domain/treinoReverso';
 
-/** Lote autoral revisado em 29/10/2026. Não são itens oficiais nem dificuldade psicometricamente calibrada. */
+/** Lote autoral: 12 itens revisados em 29/10/2026 e orgaos-q-021 em 30/10/2026. Não são itens oficiais nem dificuldade psicometricamente calibrada. */
 export const PILOTO_RACIOCINIO = [
   {
     "itemId": "cat-q-1",
@@ -264,6 +264,28 @@ export const PILOTO_RACIOCINIO = [
       "item": "Cumprir os requisitos de subscrição não permite escolher livremente a Casa de apresentação do projeto de iniciativa popular federal.",
       "gabarito": "C",
       "justificativa": "A Constituição fixa a Câmara dos Deputados como a Casa de apresentação, além dos requisitos de assinaturas."
+    }
+  },
+  {
+    "itemId": "orgaos-q-021",
+    "gabarito": "C",
+    "habilidade": "Distinguir antecedentes, criação institucional e denominação",
+    "dificuldadeEstimada": "fundamento",
+    "regra": "Os antecedentes de 1823, a criação efetiva em 1866 e a denominação pela Resolução 104/1984 são marcos distintos da Biblioteca da Câmara.",
+    "passos": [
+      "Identifique a instituição mencionada: a Biblioteca, não a primeira legislatura da Câmara.",
+      "Diferencie os pedidos de livros da Assembleia Constituinte de 1823 da criação efetiva de 1866.",
+      "Confira separadamente o ato de denominação: Resolução da Câmara dos Deputados nº 104/1984."
+    ],
+    "fonte": {
+      "titulo": "Câmara dos Deputados — Histórico da Biblioteca",
+      "url": "https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca/bibhist.html",
+      "localizador": "parágrafos sobre a Assembleia Constituinte de 1823, a criação em 1866 e a Resolução nº 104/1984"
+    },
+    "transferencia": {
+      "item": "A existência de pedidos de livros para a Assembleia Constituinte em 1823 permite concluir que a Biblioteca da Câmara já havia sido efetivamente criada naquele ano.",
+      "gabarito": "E",
+      "justificativa": "O histórico institucional trata os pedidos de livros de 1823 como antecedentes e situa a criação efetiva em 1866. Antecedência de uma atividade não equivale à criação formal da unidade."
     }
   }
 ] satisfies AnaliseItemReverso[];

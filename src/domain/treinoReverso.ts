@@ -1,5 +1,6 @@
 import type { CebraspeQuestion } from './schemas/question.schema';
 import type { ItemAttempt } from './itemAttempts';
+import { elegivelParaEstudo } from './questoesElegiveis';
 
 export interface AnaliseItemReverso {
   itemId: string;
@@ -19,7 +20,7 @@ export function montarAcervoReverso(questoes: CebraspeQuestion[], analises: Anal
   const porId = new Map(questoes.map(q => [q.id, q]));
   return analises.flatMap(analise => {
     const questao = porId.get(analise.itemId);
-    if (!questao || questao.gabarito !== analise.gabarito || questao.fonteOriginal.revisar || questao.fonteOriginal.tipo === 'em-conferencia') return [];
+    if (!questao || questao.gabarito !== analise.gabarito || !elegivelParaEstudo(questao)) return [];
     return [{ questao, analise }];
   });
 }

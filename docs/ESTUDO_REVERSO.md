@@ -54,3 +54,8 @@ O protocolo foi estendido a ItemCE, exercícios X1–X10 pelo renderizador comum
 Isso estende a interface, **não homologa o conteúdo**. O censo reproduzível está em `scripts/auditarAcervo.mjs`, com status e hash por registro. As correções focais estão em `docs/relatorios/REVISAO_EDITORIAL_ITENS_2026-10-29.json`. Comentários genéricos recebem indicação de pendência; contrastes com inserção artificial de “indevidamente” não são apresentados como reescrita válida. Há pendências conceituais individuais, fontes sem localizador e necessidade de calibrar dificuldade com respostas de alunos.
 
 A referência adotada é o edital e a data de corte cadastrados no HNC, conforme orientação do responsável pela plataforma. Legislação (13.33–13.34) e jurisprudência (13.34.1) seguem regras distintas. Na data de prova cadastrada (17/01/2027), 30 dias corridos antes correspondem a 18/12/2026. Conferir retificações antes de publicação.
+
+
+## Aplicação nos simulados — 30/10/2026
+
+O painel de correção e o relatório oferecem prática guiada nos 13 itens com análise específica (12 do lote de 29/10 e `orgaos-q-021`, corrigido em 30/10). Após abrir outra situação, o aluno julga antes de ver a explicação. A aplicação não altera a resposta original, a nota ou as métricas de domínio. Acerto imediato não comprova retenção. Os números de 12 itens nas seções anteriores descrevem a entrega histórica de 29/10. Consulte o [registro desta etapa](relatorios/SIMULADOS_ESTUDO_REVERSO_2026-10-30.md) para a correção e as pendências de abrangência.
