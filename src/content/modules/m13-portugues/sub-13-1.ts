@@ -70,7 +70,8 @@ export const submodulo131: ModuloFilho = {
     "item": "Nas questões em que o enunciado do Cebraspe utiliza a expressão \"Depreende-se do texto que\", é permitido ao candidato validar a assertiva com base em fatos e leis notórias da realidade brasileira, ainda que tais elementos não encontrem respaldo direto ou indireto nas premissas do texto apresentado na prova.",
     "gabarito": "E",
     "justificativa": "Trata-se do erro clássico de EXTRAPOLAÇÃO. A expressão \"depreende-se\" autoriza a realização de inferências lógicas, mas tais inferências devem obrigatoriamente derivar das premissas e evidências textuais fornecidas na prova. O uso de informações extratextuais não mencionadas nem sugeridas torna o item incorreto.",
-    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula."
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
+    "versao_correta": "Uma inferência deve ser sustentada pelas premissas do texto; fatos externos não bastam para validar uma conclusão sem apoio textual."
   },
   {
     "id": "chk-13-1-2",

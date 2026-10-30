@@ -20,291 +20,334 @@ export const submodulo14: ModuloFilho = {
   titulo: 'Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas',
   titulo_curto: 'Legislação e Código de Ética CFB',
   antesDeLer: [
-    {
-      termo: 'CFB / CRB',
-      definicao: 'Conselho Federal e Conselhos Regionais de Biblioteconomia, autarquias federais dotadas de personalidade jurídica de direito público que fiscalizam o exercício profissional.',
-      exemploBiblioteca: 'Exigência de registro ativo no CRB-1 (Distrito Federal) para a posse no cargo de Analista Legislativo - Biblioteconomia.',
-    },
-    {
-      termo: 'Lei nº 4.084/1962',
-      definicao: 'Lei federal que dispõe sobre a profissão de bibliotecário e regula suas funções privativas em todo o território nacional.',
-      exemploBiblioteca: 'Fundamentação legal para que a direção e chefia da Biblioteca da Câmara sejam exercidas privativamente por bibliotecários de carreira.',
-    },
-    {
-      termo: 'Código de Ética do Bibliotecário',
-      definicao: 'Resolução do CFB que estabelece deveres, vedações, direitos e responsabilidades ético-profissionais em relação aos usuários e à sociedade.',
-      exemploBiblioteca: 'Preservação estrita do sigilo sobre temas e proposições sensíveis pesquisadas por gabinetes parlamentares.',
-    },
-    {
-      termo: 'Atribuições Privativas',
-      definicao: 'Atividades técnicas que a legislação brasileira reserva com exclusividade ao bacharel em Biblioteconomia registrado no respectivo conselho.',
-      exemploBiblioteca: 'Classificação, catalogação de acervos bibliográficos e emissão de pareceres técnicos sobre serviços de informação.',
-    },
-  ],
-  descricaoCurta: 'A Lei Federal nº 4.084/1962, o Decreto regulamentador nº 56.725/1965, a estrutura CFB/CRB, o Código de Ética Profissional do Bibliotecário (Resolução CFB) e as infrações disciplinares.',
-  tempoEstimadoMinutos: 14,
-  autoresChave: ['Conselho Federal de Biblioteconomia (CFB)', 'Lei 4.084/1962', 'Decreto 56.725/1965', 'Conselhos Regionais (CRB)'],
+  {
+    "termo": "Competência e instância",
+    "definicao": "Atribuição para decidir e posição na sequência de julgamento/recurso.",
+    "exemploBiblioteca": "CRB pode julgar infrações; recurso ao CFB não apaga a primeira instância."
+  },
+  {
+    "termo": "Sigilo e ressalva legal",
+    "definicao": "Confidencialidade é dever com condições e exceções legais.",
+    "exemploBiblioteca": "Fim do contrato não libera divulgação, e exigência legal de comunicação deve ser examinada."
+  }
+],
+  descricaoCurta: "Distinguir formação, registro e atividade exercida. Localizar a atribuição na alínea correta e evitar delegação disfarçada. Separar competências ordinárias, recurso e hipóteses originárias. Aplicar deveres e proibições com condições legais. Distinguir espécie de penalidade, faixa geral e procedimento. Confrontar a literalidade de cobranças com o entendimento constitucional aplicável.",
+  tempoEstimadoMinutos: 23,
+  autoresChave: [
+  "Lei 4.084/1962 — profissão e atribuições",
+  "Lei 9.674/1998 — exercício profissional",
+  "Decreto 56.725/1965",
+  "Resolução CFB 207/2018 — Código de Ética",
+  "Resolução CFB 261/2023 — processo ético-disciplinar",
+  "CRB1 — Registro; Resolução CFB 274/2024",
+  "STF — Tema 732, RE 647.885"
+],
   alertasCebraspe: [
-    'A Lei 4.084/1962 estipula atividades PRIVATIVAS de bacharéis em biblioteconomia (planejamento, organização e direção de serviços de bibliotecas; classificação e catalogação; ensino de disciplinas de biblioteconomia). Não confunda atribuições privativas com atividades concorrentes!',
-    'No Código de Ética do CFB, memorize a distinção entre DEVERES (zelo, aprimoramento, denúncia de exercício ilegal) e PROIBIÇÕES (assinar trabalhos não executados, praticar concorrência desleal, reter documentação alheia).',
-    'Penalidades disciplinares: Advertência confidencial, Censura confidencial, Censura pública, Multa, Suspensão do exercício profissional (até 3 anos) e Cassação do registro (pelo CFB).',
-  ],
-  quadroComparativo: {
-    titulo: 'Regime Disciplinar e Ético da Profissão de Bibliotecário',
-    colunas: ['Esfera Normativa', 'Dispositivo / Órgão Competente', 'Principais Atribuições / Diretrizes', 'Sanções Previstas'],
-    linhas: [
-      ['Regulamentação Legal', 'Lei Federal nº 4.084/1962 e Dec. 56.725/1965', 'Exercício condicionado a diploma reconhecido e registro ativo no CRB da jurisdição', 'Exercício ilegal tipificado na Lei de Contravenções Penais'],
-      ['Atribuições Privativas', 'Art. 6º da Lei 4.084/1962', 'Organização e direção de bibliotecas; catalogação e classificação de documentos; perícias documentais', 'Nulidade dos atos praticados por leigos'],
-      ['Deveres Éticos', 'Código de Ética do CFB (Art. 3º)', 'Guardar sigilo profissional; zelar pela reputação da classe; denunciar o exercício clandestino', 'Fiscalização direta pelos CRBs'],
-      ['Proibições Éticas', 'Código de Ética do CFB (Art. 4º)', 'Assinar laudos ou fichas catalográficas elaboradas por terceiros leigos; reter documentos', 'Advertência, Censura, Multa, Suspensão e Cassação'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. O Marco Regulatório Federal da Profissão de Bibliotecário
-O exercício profissional da Biblioteconomia no Brasil possui estatura legal pública federal, sendo regulado por diplomas normativos específicos cuja literalidade e jurisprudência são intensamente cobradas pelo **CEBRASPE**:
-
-\`\`\`timeline
-L4084 | LEI FEDERAL Nº 4.084/1962 | Marco Matriz da Profissão | Dispõe sobre a profissão de Bibliotecário e fixa as atribuições privativas exclusivas
----> Regulamentação
-D56725 | DECRETO Nº 56.725/1965 | Regulamentação Executiva | Regulamenta a fiscalização profissional e disciplina a atuação dos órgãos de classe
----> Reestruturação do Sistema
-L9674 | LEI FEDERAL Nº 9.674/1998 | Modernização Institucional | Reestrutura o Sistema CFB/CRB, fixa penalidades e o regime disciplinar
----> Deontologia e Prática
-RES207 | RESOLUÇÃO CFB Nº 207/2018 | Código de Ética Profissional | Fixa os princípios fundamentais, deveres, proibições e gradação das sanções disciplinares
-\`\`\`
-
----
-
-### 2. A Lei Federal nº 4.084, de 30 de junho de 1962
-Promulgada pelo Presidente João Goulart, é o estatuto matriz da profissão no Brasil:
-* **Art. 2º (Requisitos de Habilitação Legal):** O exercício da profissão de bibliotecário em todo o território nacional é privativo dos bacharéis em Biblioteconomia por escolas oficiais ou reconhecidas e portadores de registro e carteira profissional expedida pelo respectivo **Conselho Regional de Biblioteconomia (CRB)** de sua jurisdição.
-* **Art. 3º (Validade Territorial):** A carteira profissional é válida em todo o território nacional como prova de identidade civil para todos os efeitos legais.
-
-#### Atribuições Privativas (Art. 6º da Lei 4.084/62)
-São funções e atividades de competência **EXCLUSIVA e PRIVATIVA** dos bacharéis em Biblioteconomia:
-1. **Planejamento, organização, direção e execução** dos serviços técnicos de bibliotecas e centros de documentação;
-2. **Planejamento e execução dos serviços de catalogação e classificação de documentos** (atenção: leigos não podem assinar catalogação na fonte nem fichas catalográficas!);
-3. **Organização e direção de serviços de bibliografia e documentação**;
-4. **Ensino de disciplinas específicas de Biblioteconomia** nos cursos de graduação e pós-graduação da área;
-5. **Realização de perícias documentais e emissão de laudos técnicos** pertinentes à organização de acervos e documentos bibliográficos.
-
-> [!IMPORTANT]
-> **Distinção Crítica Cebraspe:** Atividades como atendimento ao público, empréstimo no balcão e higienização física podem ser executadas por técnicos ou auxiliares sob supervisão. No entanto, a **classificação, a catalogação, a indexação técnica e a direção do serviço** são atos privativos indelegáveis do bibliotecário registrado!
-
----
-
-### 3. A Lei Federal nº 9.674, de 26 de junho de 1998: O Sistema CFB / CRB
-A Lei nº 9.674/98 reestruturou o Conselho Federal e os Conselhos Regionais de Biblioteconomia como autarquias federais dotadas de personalidade jurídica de direito público e autonomia administrativa e financeira:
-
-#### A. Conselho Federal de Biblioteconomia (CFB)
-* Sede e foro no Distrito Federal (Brasília);
-* Jurisdição em todo o território nacional;
-* **Competências Principais:**
-  * Normatizar o exercício da profissão por meio de Resoluções;
-  * Aprovar e modificar o Código de Ética Profissional;
-  * Julgar, em grau de último recurso administrativo, os processos disciplinares decididos pelos CRBs;
-  * Fixar o valor de anuidades, taxas e emolumentos em todo o território nacional;
-  * **Competência Privativa Absoluta:** Aplicar a penalidade máxima de **Cassação do Registro Profissional**.
-
-#### B. Conselhos Regionais de Biblioteconomia (CRB)
-* Jurisdição regional (abrangem um ou mais estados da federação);
-* **Competências Principais:**
-  * Fiscalizar o exercício profissional em sua área geográfica;
-  * Expedir a carteira de identidade profissional e a cédula do bibliotecário;
-  * Fiscalizar bibliotecas públicas, privadas, escolares e governamentais, autuando estabelecimentos sem bibliotecário responsável registrado;
-  * Processar e julgar infrações disciplinares em primeira instância administrativa.
-
----
-
-### 4. O Código de Ética Profissional do Bibliotecário (Resolução CFB nº 207/2018)
-O Código de Ética estabelece os princípios deontológicos que guiam a conduta profissional:
-
-#### A. Princípios Fundamentais (Art. 2º)
-* O bibliotecário deve pautar sua conduta pelo respeito à dignidade da pessoa humana, pelo livre acesso à informação, pela defesa dos Direitos Humanos e pela recusa a qualquer forma de censura ideológica ou discriminação de raça, gênero, orientação sexual, credo ou convicção política.
-
-#### B. Deveres Expressos do Bibliotecário (Art. 3º)
-1. Desempenhar suas funções com zelo, probidade, decoro e independência técnica;
-2. **Guardar Sigilo Profissional:** Preservar sigilo absoluto sobre fatos, dados e interesses informacionais de usuários conhecidos em razão do exercício do ofício.
-   * *Atenção:* O dever de sigilo **permanece mesmo após a cessação do vínculo de trabalho** ou término da prestação de serviços (regra vital para a Biblioteca da Câmara dos Deputados no atendimento a parlamentares!).
-3. Manter permanente atualização e aprimoramento cultural e técnico;
-4. Tratar usuários, colegas e colaboradores com urbanidade e estrita equidade;
-5. **Dever de Denúncia:** Denunciar aos órgãos fiscalizadores (CRB) qualquer prática de exercício ilegal ou clandestino da profissão;
-6. Informar com exatidão suas qualificações profissionais, abstendo-se de atribuir a si títulos que não possua.
-
-#### C. Proibições Expressas (Art. 4º)
-É terminantemente vedado ao bibliotecário:
-1. **Praticar o "acobertamento":** Assinar, referendar ou rubricar trabalhos técnicos, fichas catalográficas, classificações ou laudos periciais executados por leigos ou pessoas não habilitadas perante o CRB;
-2. Reter abusivamente documentos, acervos, prontuários ou materiais confiados à sua guarda profissional;
-3. Praticar concorrência desleal, captação ilícita de clientela ou aviltamento de honorários;
-4. Utilizar a profissão para obter vantagens indevidas, suborno ou favorecimento ilícito;
-5. Deixar de pagar a anuidade ao respectivo CRB (a inadimplência constitui infração disciplinar expressa!).
-
----
-
-### 5. Regime Disciplinar e Gradação das Penalidades Éticas (Art. 13 da Res. CFB 207/2018 e Art. 40 da Lei 9.674/98)
-As sanções aplicáveis em caso de cometimento de falta ética ou descumprimento legal obedecem a uma ordem rigorosa de gradação e dosimetria:
-
-| Penalidade Disciplinar | Caráter da Sanção | Órgão Julgador Competente | Efeitos e Publicidade |
-| :--- | :--- | :--- | :--- |
-| **1. Advertência Reservada** | Confidencial | Conselho Regional (CRB) | Ofício sigiloso registrado no prontuário do profissional, sem divulgação externa. |
-| **2. Censura Reservada** | Confidencial | Conselho Regional (CRB) | Notificação sigilosa com advertência formal por escrito. |
-| **3. Censura Pública** | Pública | Conselho Regional (CRB) | **Publicada no Diário Oficial** e afixada no mural oficial da sede do CRB. |
-| **4. Multa** | Pecuniária | Conselho Regional (CRB) | Fixada de 1 a 10 vezes o valor da anuidade profissional vigente. |
-| **5. Suspensão do Exercício Profissional** | Temporária | Conselho Regional (CRB) / Recurso ao CFB | Proibição de exercer a profissão por prazo de **até 3 (três) anos**. |
-| **6. Cassação do Registro Profissional** | Definitiva | **COMPETÊNCIA PRIVATIVA E EXCLUSIVA DO CFB** | Cancelamento definitivo do direito de exercer a profissão de bibliotecário em todo o país. |
-
-> [!CAUTION]
-> **Casca de Banana Cebraspe nº 2:** A banca afirma reiteradamente que *"um Conselho Regional de Biblioteconomia pode, por maioria simples de seus conselheiros, cassar definitivamente o registro de um bibliotecário infrator"*. Essa afirmação é **ERRADA**! A cassação é competência **indelegável e privativa do Conselho Federal (CFB)**, dependendo de quórum qualificado de dois terços dos votos e garantido o contraditório e a ampla defesa.
-
----
-
-### 6. Quadro Sinóptico de Cascas de Banana do Cebraspe em Legislação e Ética
-
-| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
-| :--- | :--- | :--- |
-| *"A elaboração de fichas catalográficas e a classificação de obras podem ser realizadas por técnicos de nível médio, dispensando-se a supervisão de bibliotecário."* | **ERRADO** | A catalogação e classificação são atribuições **privativas** do bibliotecário (Art. 6º da Lei 4.084/62). |
-| *"O bibliotecário está desobrigado do sigilo profissional sobre pesquisas realizadas por parlamentares assim que seu contrato de trabalho for rescindido."* | **ERRADO** | O sigilo profissional **permanece inalterado mesmo após o término do vínculo** funcional ou de prestação de serviços. |
-| *"A penalidade de Censura Pública é comunicada apenas em caráter estritamente confidencial ao infrator."* | **ERRADO** | A Censura Pública é obrigatoriamente **publicada no Diário Oficial**, perdendo o caráter sigiloso. |
-| *"O ensino de disciplinas de Biblioteconomia nos cursos superiores não exige diploma de graduação na área nem registro profissional."* | **ERRADO** | O ensino de matérias específicas de Biblioteconomia é função **privativa** do bacharel registrado (Art. 6º, 'd', Lei 4.084/62). |
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Estudos de Usuários e Entrevista de Referência (sub-4-4):** Conduta ética e sigilo durante o atendimento de referência parlamentar.
-* **Transparência, LAI e LGPD (sub-11-12):** Responsabilidade legal do servidor público e deveres funcionais.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Competência em Informação (*Information Literacy*)** e a **Mediação da Informação** são temas de altíssima incidência nas provas do Cebraspe para o Legislativo:
-1. **Conceito de Competência em Informação:**
-   - Habilidade integrada de reconhecer quando uma informação é necessária, identificar fontes adequadas, acessar com eficiência, avaliar criticamente a veracidade/autoridade e utilizar a informação ética e legalmente (Declarações de Praga/2003 e Alexandria/2005).
-   - Não se confunde com mero "letramento digital" ou domínio de computadores: trata-se de uma metacompetência crítica, cognitiva e reflexiva.
-2. **Modelos Canônicos de Competência Informacional:**
-   - **The Big6 (Eisenberg & Berkowitz, 1990):** Seis etapas lógicas: Definição da tarefa $\to$ Estratégias de busca $\to$ Localização e acesso $\to$ Uso da informação $\to$ Síntese $\to$ Avaliação.
-   - **Seven Faces of Information Literacy (Christine Bruce, 1997):** Modelo relacional que categoriza como as pessoas vivenciam a informação (desde o uso de TI até a sabedoria).
-   - **Modelo de Kuhlthau (Information Search Process - ISP):** Seis estágios que integram sentimentos (afetivo), pensamentos (cognitivo) e ações (físico): Iniciação (incerteza) $\to$ Seleção (otimismo) $\to$ Exploração (confusão/frustração) $\to$ Formulação (clareza) $\to$ Coleta (confiança) $\to$ Apresentação (alívio).
-3. **Mediação da Informação (Oswaldo Francisco de Almeida Júnior):**
-   - *"Toda ação de interferência — realizada pelo profissional da informação — direta ou indireta, consciente ou inconsciente, singular ou plural, individual ou coletiva, que propicia a apropriação da informação"*.
-   - A mediação nunca é neutra; o bibliotecário intervém ativamente na cadeia de comunicação.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Kuhlthau no Suporte a uma Comissão Parlamentar de Inquérito - CPI):** O relator de uma CPI designa um assessor para investigar fraudes fiscais complexas. Na fase inicial de **Exploração**, o assessor relata sentimentos de ansiedade e frustração diante do excesso de dados contraditórios. O bibliotecário legislativo identifica o estágio do ISP de Kuhlthau e oferece filtros conceituais para conduzir o usuário à fase de **Formulação** (foco claro de pesquisa).
-- **Cenário 2 (Letramento Informacional no Treinamento de Gabinetes):** A Biblioteca Pedro Aleixo oferece oficinas aos secretários parlamentares ensinando a distinguir notícias falsas (*fake news*) de pareceres técnicos canônicos da Consultoria Legislativa e a utilizar operadores booleanos no LexML e no Portal da Câmara. Isso é a aplicação pura dos pilares da UNESCO para *Information Literacy*.
-- **Cenário 3 (Mediação Implícita na Arquitetura do Portal):** Quando a equipe de bibliotecários da Câmara estrutura as facetas de busca por deputado, tema e ano no catálogo online, ocorre **mediação indireta/implícita** (Almeida Júnior), facilitando a apropriação da informação pelo cidadão antes mesmo de qualquer interação presencial.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Modelo / Teoria | Autor Central | Enfoque Principal | Sentimento Crítico na Prova |
-| :--- | :--- | :--- | :--- |
-| **Big6** | Eisenberg & Berkowitz | 6 etapas pragmáticas de resolução de problemas | Metodológico / Linear |
-| **ISP (Search Process)** | Carol Kuhlthau | Relação entre sentimentos, pensamentos e ações | Ansiedade/dúvida na Exploração |
-| **Seven Faces** | Christine Bruce | Maneiras experienciais de vivenciar a informação | Relacional / Fenomenográfico |
-| **Mediação da Informação** | Almeida Júnior | Interferência consciente/inconsciente do mediador | Rejeição ao mito da neutralidade |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **O Mito da Neutralidade do Bibliotecário:** O Cebraspe propõe que *"na mediação da informação, o bibliotecário deve atuar de forma absolutamente neutra, funcionando como mero repassador mecânico sem interferir no processo"*. **Gabarito: ERRADO.** A teoria da mediação (Almeida Júnior) postula que a neutralidade é uma ilusão positivista; toda mediação é uma interferência ativa.
-- **Estágio de Maior Incerteza em Kuhlthau:** Técnica de distrator recorrente: inverter o sentimento de frustração, dizendo que *"a formulação é o momento de maior incerteza e pessimismo"*. **Gabarito: ERRADO.** O ponto de maior dúvida, confusão e frustração é a **Exploração**; na **Formulação**, surge a clareza e o otimismo.
-- **Redução à Alfabetização Digital:** Afirmar que a competência em informação esgota-se na capacidade técnica de operar softwares e navegadores web. **Gabarito: ERRADO.** Trata-se de competência crítica de avaliação e uso ético.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **ALMEIDA JÚNIOR, Oswaldo Francisco de.** Mediação da informação e múltiplas linguagens. *Tendências da Pesquisa Brasileira em Ciência da Informação*, v. 2, n. 1, p. 89-103, 2009. (Conceito canônico de mediação da informação).
-- **CAMPELLO, Bernadete.** O letramento informacional no Brasil: práticas e reflexões. *Perspectivas em Ciência da Informação*, v. 8, n. 1, p. 40-55, 2003.
-- **DUDZIAK, Elisabeth Adriana.** Information literacy: princípios, filosofia e prática. *Ciência da Informação*, v. 32, n. 1, p. 23-35, 2003. (Marcos conceituais e manifestos de Praga e Alexandria).
-- **GASQUE, Kelley Cristine G. D.** *Letramento informacional: pesquisa, comunicação e aprendizagem*. Brasília: FCI/UnB, 2012.
-- **KUHLTHAU, Carol C.** *Seeking Meaning: A Process Approach to Library and Information Services*. 2. ed. Westport: Libraries Unlimited, 2004. (Modelo ISP de seis estágios).
-- **EISENBERG, Michael B.; BERKOWITZ, Robert E.** *Information Problem Solving: The Big Six Skills Approach to Library & Information Skills Instruction*. Norwood: Ablex, 1990.`,
+  "A alínea b trata de fiscalização de estabelecimentos de ensino; classificação e catalogação constam da alínea e.",
+  "A Resolução 261/2023 distingue instâncias e prevê julgamento no CRB, com recurso ao CFB.",
+  "O art. 9º, I, da Resolução 207 ressalva hipóteses legais de comunicação, denúncia ou relato."
+],
+  teoriaDensaMarkdown: "### Habilitação, registro e leitura conjunta das normas\n\nA profissão é regulamentada pela Lei 4.084/1962 e por seu regulamento, Decreto 56.725/1965, além da Lei 9.674, de **25 de junho de 1998**. Código de Ética e regras de processo/registro complementam esse conjunto. Resolução não substitui lei e deve ser interpretada à luz da Constituição e da jurisprudência aplicável.\n\nA formação exigida e o **registro no CRB da jurisdição** são requisitos diferentes. Diploma nacional reconhecido e diploma estrangeiro revalidado têm disciplina legal; há também direitos e hipóteses transitórias expressamente resguardados. Não se resume a habilitação à frase “qualquer pessoa com um certificado” nem se apagam ressalvas legais usando “exclusivamente” sem contexto.\n\nA Lei 9.674, art. 29, trata da inscrição e da citação do número de registro em documentos de responsabilidade profissional; o art. 30 trata da carteira e cédula com fé pública. **Não é o art. 3º da Lei 4.084 que estabelece validade territorial da carteira**: esse artigo trata de cargos técnicos. Regras de registro principal, transferência e registro secundário devem ser conferidas na regulamentação, como a Resolução CFB 274/2024.\n\n**Caso resolvido:** uma pessoa concluiu curso e recebeu convite para assumir responsabilidade técnica. Não basta mudar o nome da função para “coordenador de conteúdo” se exercer atribuições regulamentadas; tampouco o diploma substitui a regularização do registro. Examine a tarefa, o vínculo e os requisitos aplicáveis.\n\n### Atribuições: diferenciar dispositivo legal, serviço técnico e apoio\n\nO art. 6º da Lei 4.084 enumera matérias e atividades relativas à organização, direção e execução de serviços técnicos: ensino de Biblioteconomia; fiscalização de seus estabelecimentos de ensino; administração e direção de bibliotecas; organização e direção de documentação; serviços de classificação e catalogação dos materiais enumerados, bibliografia e referência. **Classificação/catalogação estão na alínea e, não na b.** Ensino está na a, não na d.\n\nO Decreto 56.725 desenvolve o campo de atuação: estudos, relatórios, pareceres, bibliografias, planejamento, implantação, orientação, supervisão e execução, conforme seu escopo. Nos arts. 6º–7º, exige assinatura por profissional registrado e número de registro para os trabalhos abrangidos. O art. 7º da Lei 4.084 prevê **preferência** em atividades relacionadas; preferência e exclusividade não são sinônimos.\n\nUma equipe pode realizar tarefas de apoio compatíveis, com organização e supervisão apropriadas; isso não permite transferir responsabilidade profissional a leigo ou assinar trabalho estranho à própria orientação e fiscalização. A antiga aula adicionava “perícias documentais” como se fosse alínea literal do art. 6º e confundia os dispositivos. Uma atribuição deve ser fundamentada sem inventar o texto da lei.\n\n**Tente julgar antes da explicação:** um auxiliar digita campos sob orientação, e o responsável revê a descrição. Isso não equivale, por si só, a um leigo assumir autonomamente catalogação e obter assinatura de fachada. A distinção exige examinar quem efetivamente orientou, supervisionou e assumiu o trabalho, não apenas quem pressionou teclas.\n\n### CFB e CRBs: fiscalização e instâncias do processo\n\nA Lei 4.084 cria os conselhos de fiscalização e lhes atribui personalidade de direito público e autonomia administrativa/patrimonial. CFB e CRB não são sindicatos: fiscalização do exercício, defesa corporativa trabalhista e representação associativa têm funções distintas.\n\nO CFB exerce competências de orientação normativa e julgamento de recursos; os CRBs registram, fiscalizam e apuram infrações em sua área, conforme lei e regulamento. A Lei 9.674 possui vários **artigos vetados**, especialmente no capítulo de estrutura dos conselhos: não se estuda o conteúdo vetado como regra promulgada.\n\nA **Resolução CFB 261/2023**, arts. 3º–5º, organiza primeira instância nos CRBs e segunda/última no CFB, com hipóteses de atuação originária do Federal. O art. 36 manda o Regional comunicar ao Federal a decisão que impõe cassação. Logo, é incorreto afirmar que cassação seja sempre competência privativa originária do CFB e impossível ao CRB.\n\nJulgamento disciplinar não é decisão informal de uma pessoa. A resolução prevê instrução, relator, sessão e recursos. O art. 37 prevê recurso de decisões dos tribunais de ética regionais com efeito suspensivo; regras de prazo e termo inicial devem ser consultadas na norma própria. Isso não impede o acesso ao Judiciário.\n\n**Caso resolvido:** uma decisão ética regional é impugnada. A existência da via recursal ao CFB não apaga a competência inicial do CRB. Também não autoriza o presidente a decidir sozinho sem o procedimento aplicável.\n\n### Conduta, sigilo e responsabilidade no atendimento\n\nA Resolução CFB 207/2018 é o Código de Ética e Deontologia. Seus **arts. 2º–4º** tratam de natureza, fundamento e objeto do trabalho; os deveres estão no **art. 5º**, as relações profissionais no **art. 6º** e as proibições no **art. 7º**. A numeração importa: atribuir deveres ao art. 3º ou todas as proibições ao 4º reproduz erro da versão anterior.\n\nO atendimento deve observar zelo, honestidade, ciência e técnica, civilidade, respeito e compromisso social. Combater exercício ilegal não significa divulgar acusações sem prova. Cadastro, comunicação de vínculos e identificação pelo registro são deveres profissionais a acompanhar.\n\n**Sigilo é condicionado:** art. 5º, g, quando o assunto exigir; art. 7º, e, proteção das informações confidenciais; art. 9º, I, ressalva hipóteses legais de comunicação, denúncia ou relato. Fim do contrato não transforma histórico confidencial de pesquisa em informação livre para divulgação. Por outro lado, sigilo não pode ser ensinado como absoluto contra qualquer dever legal de comunicação.\n\nÉ vedado emprestar nome/registro a instituição sem atuação efetiva e assinar trabalhos alheios à própria orientação, supervisão e fiscalização. A cooperação profissional não é proibida: o problema é cobertura de exercício irregular ou assinatura sem responsabilidade efetiva.\n\n**Caso resolvido:** após sair de um gabinete, o profissional recebe pedido informal de histórico de consultas de antigo usuário. Deve avaliar confidencialidade, finalidade e competência, não divulgar porque o vínculo acabou. Havendo exigência legal de comunicação à autoridade competente, não deve invocar um suposto sigilo sem exceções.\n\n### Sanções: lista correta, dosimetria e proteção da defesa\n\nA Lei 9.674, art. 40, enumera **multa de uma a cinquenta anuidades; advertência reservada; censura pública; suspensão de até três anos; cassação com apreensão da carteira**. Não há a sexta espécie “censura reservada” na lista. A multa geral não se limita a dez anuidades: não confunda limite geral e faixas de cumulação previstas na regulamentação.\n\nA Resolução 207, art. 13, e o procedimento da Resolução 261, arts. 33–36, devem ser lidos com suas regras. Na disciplina regulamentar, aparecem faixas associadas à advertência, censura, suspensão e cassação; as atenuantes e agravantes importam. **Não é obrigatório aplicar sucessivamente todas as sanções em toda infração** antes de uma grave: a Resolução 261, art. 35, ressalva casos de manifesta gravidade.\n\nA Lei 9.674, art. 42, assegura defesa antes de penalizar. Processo ético não elimina possíveis responsabilidades civil e penal. Publicidade e ciência da decisão possuem regras próprias: a Resolução 261 prevê publicação da censura pública no Diário Oficial, sem que isso torne públicas indiscriminadamente todas as informações pessoais do processo.\n\n**Caso resolvido:** uma tabela apresenta seis sanções e multa de 1–10 como único intervalo. Compare com o art. 40: a duplicação de censura e a redução da faixa geral estão erradas. Se o enunciado citar uma faixa regulamentar de cumulação específica, analise exatamente essa hipótese, sem usar o limite geral para descartá-la automaticamente.\n\n### Inadimplência, texto normativo e jurisprudência\n\nTextos antigos da lei e do código contêm consequências restritivas associadas a débitos. Para estudar o direito aplicável, não basta copiar a literalidade e ignorar o **STF, Tema 732 (RE 647.885)**: a tese rejeita a suspensão do exercício profissional por inadimplência de anuidades, por constituir sanção política tributária.\n\nEssa orientação não torna a anuidade inexistente, não dispensa registro e não permite qualquer infração ética. **Dever de pagar, meios de cobrança e liberdade de exercício são questões distintas.** Uma suspensão por infração ética de outra natureza também não se confunde com o mecanismo de cobrar débito que foi rechaçado.\n\nAo resolver, identifique: o enunciado pede texto literal de um ato, ou regime aplicável com jurisprudência? Qual é o fato sancionado? Qual dispositivo e data foram indicados? No HNC, segue-se o corte cadastrado, sem supor já conhecida jurisprudência de uma data futura.\n\n**Aplicação autônoma:** um profissional está regularmente inscrito, mas deve anuidades. A administração pode cobrar a dívida pelos meios cabíveis; não pode concluir, apenas por isso, que a suspensão laboral seja constitucional. Em outro caso, uma denúncia de assinatura de fachada exige fatos, provas e processo, não é automaticamente resolvida pela discussão tributária.",
+  teoriaDidaticaMarkdown: "Leia conjuntamente leis, regulamento, código e processo ético. Diploma difere de registro. Art. 6º, e, trata de classificação/catalogação; os deveres do código estão no art. 5º e proibições no 7º. Há competências regionais e recurso ao CFB, sem exclusividade originária universal da cassação. Não há censura reservada na lista de sanções; a multa geral é de 1–50 anuidades. Sigilo tem ressalvas legais. Tema 732 impede suspensão como cobrança de anuidades.",
   checkpoints: [
-    {
-      id: 'cp-1-4-1',
-      pergunta: 'Micro-Checkpoint 1: Atribuições Privativas (Lei 4.084/62)',
-      item: 'A catalogação e a classificação de documentos constituem atribuições privativas dos bacharéis em Biblioteconomia no Brasil.',
-      gabarito: 'C',
-      justificativa: "Certo! O Art. 6º, alínea 'b', da Lei nº 4.084/1962 estabelece expressamente essa exclusividade profissional.",
-    },
-    {
-      id: 'cp-1-4-2',
-      pergunta: 'Micro-Checkpoint 2: Penalidades Éticas e Competência',
-      item: 'A sanção de cassação definitiva do registro profissional pode ser aplicada de forma autônoma por qualquer Conselho Regional de Biblioteconomia em decisão singular.',
-      gabarito: 'E',
-      justificativa: 'Errado! A cassação do registro é a penalidade máxima e é de competência EXCLUSIVA do Conselho Federal de Biblioteconomia (CFB), dependendo de processo com contraditório e ampla defesa.',
-      versao_correta: 'A sanção de cassação definitiva do registro profissional é de competência privativa do Conselho Federal de Biblioteconomia (CFB), não podendo ser aplicada de forma autônoma por um CRB.',
-    },
-      {
-      id: 'cp-1-4-3',
-      pergunta: "Micro-Checkpoint 3: Sigilo Profissional e Código de Ética do CFB",
-      item: "O Código de Ética Profissional do Bibliotecário (Resolução CFB nº 207/2018) estabelece como dever ético a guarda de sigilo sobre dados e hábitos de consulta informacional dos usuários, mesmo após o término do vínculo de trabalho.",
-      gabarito: 'C',
-      justificativa: "Certo! O sigilo profissional sobre pesquisas, interesses e histórico de consultas dos usuários é dever expressamente resguardado pelo Código de Ética do Conselho Federal de Biblioteconomia.",
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-1-4-1',
-        periodo: '1962',
-        disciplina: 'Lei Federal 4.084',
-        focoPrincipal: 'Regulamentação legal da profissão de bibliotecário e definição de atribuições privativas',
-        figuraChave: 'Congresso Nacional / Presidente da República',
-      },
-      {
-        id: 'tl-1-4-2',
-        periodo: '1965',
-        disciplina: 'Decreto 56.725',
-        focoPrincipal: 'Regulamentação e estruturação dos Conselhos Federal e Regionais (CFB / CRB)',
-        figuraChave: 'Poder Executivo Federal',
-      },
-      {
-        id: 'tl-1-4-3',
-        periodo: 'Resolução CFB',
-        disciplina: 'Código de Ética Profissional',
-        focoPrincipal: 'Deveres (sigilo, denúncia), Proibições e Escala de 6 penalidades disciplinares',
-        figuraChave: 'Conselho Federal de Biblioteconomia (CFB)',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-1-4-1',
-        nome: 'Lei Federal nº 4.084/62',
-        ano: 1962,
-        obraPrincipal: 'Artigo 6º (Atribuições Privativas)',
-        ideiaChave: 'Direção de bibliotecas, catalogação e classificação de documentos.',
-        chipPegadinha: 'Prática de atos privativos por terceiros leigos é nula e constitui contravenção.',
-      },
-      {
-        id: 'aut-1-4-2',
-        nome: 'CFB (Conselho Federal)',
-        ano: 1962,
-        obraPrincipal: 'Órgão Normativo e Recursal Máximo',
-        ideiaChave: 'Sede em Brasília/DF; competência exclusiva para cassar registro profissional.',
-        chipPegadinha: 'CRBs não possuem autonomia para cassar registro definitivamente.',
-      },
-      {
-        id: 'aut-1-4-3',
-        nome: 'CRB (Conselho Regional)',
-        ano: 1962,
-        obraPrincipal: 'Fiscalização Direta nas Jurisdições',
-        ideiaChave: 'Concessão de registros, fiscalização do exercício e aplicação de sanções iniciais.',
-        chipPegadinha: 'Pode aplicar desde advertência confidencial até suspensão por até 3 anos.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-1-4-1',
-        afirmacao: 'A cassação definitiva do registro profissional do bibliotecário é penalidade de competência originária e exclusiva dos Conselhos Regionais de Biblioteconomia.',
-        gabarito: 'E',
-        porQue: 'Errado! A cassação do registro é penalidade máxima de competência PRIVATIVA do Conselho Federal de Biblioteconomia (CFB), cabendo ao CRB apenas a instrução.',
-      },
-      {
-        id: 'peg-1-4-2',
-        afirmacao: 'O planejamento e a execução dos serviços de classificação e catalogação constituem atribuições compartilhadas entre bibliotecários e técnicos administrativos de bibliotecas.',
-        gabarito: 'E',
-        porQue: 'Errado! O Art. 6º da Lei 4.084/62 estabelece que a classificação e catalogação são atribuições PRIVATIVAS e indelegáveis de bacharéis em Biblioteconomia.',
-      },
-    ],
+  {
+    "id": "cp-1-4-1",
+    "pergunta": "Micro-Checkpoint 1: Atribuições Privativas (Lei 4.084/62)",
+    "item": "A execução de serviços de classificação e catalogação dos materiais enumerados no art. 6º, e, da Lei 4.084/1962 integra as atribuições legalmente previstas dos bacharéis em Biblioteconomia.",
+    "gabarito": "C",
+    "justificativa": "O fundamento é o art. 6º, alínea e, em conjunto com o regime de habilitação e registro; a antiga indicação da alínea b estava incorreta.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732."
   },
+  {
+    "id": "cp-1-4-2",
+    "pergunta": "Micro-Checkpoint 2: Penalidades Éticas e Competência",
+    "item": "A gravidade de uma acusação permite ao presidente de qualquer CRB cassar autonomamente um registro por decisão singular, dispensando instrução, julgamento e defesa.",
+    "gabarito": "E",
+    "justificativa": "A gravidade não dispensa o processo e a defesa. A Resolução 261 reconhece competência regional e recurso ao CFB, portanto o erro não deve ser explicado por falsa exclusividade originária do Federal.",
+    "versao_correta": "A imposição de cassação exige competência e procedimento, com defesa; não decorre de decisão singular informal.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732."
+  },
+  {
+    "id": "cp-1-4-3",
+    "pergunta": "Micro-Checkpoint 3: Sigilo Profissional e Código de Ética do CFB",
+    "item": "O dever de sigilo sobre informação confidencial conhecida no exercício profissional não se extingue automaticamente com o fim do vínculo, observadas as hipóteses legais de comunicação.",
+    "gabarito": "C",
+    "justificativa": "Arts. 5º, g, 7º, e, e 9º, I, da Resolução 207. O término do vínculo não autoriza divulgação indiscriminada, mas a norma também não cria sigilo absoluto contra dever legal.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732."
+  },
+  {
+    "id": "rt-1-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Diploma e registro profissional são requisitos distintos; uma função com nome genérico pode exigir exame de suas atribuições efetivas.",
+    "gabarito": "C",
+    "justificativa": "O nome do cargo não substitui a análise da atividade e da habilitação.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+    "editalRef": "Bloco A - Item 4.2",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-1-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O art. 6º, alínea b, da Lei 4.084/1962 é o dispositivo que enumera catalogação e classificação.",
+    "gabarito": "E",
+    "justificativa": "A alínea b trata de fiscalização de estabelecimentos de ensino; classificação e catalogação constam da alínea e.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+    "editalRef": "Bloco A - Item 4.2",
+    "habilidade": "aplicar",
+    "versao_correta": "No art. 6º, classificação e catalogação aparecem na alínea e."
+  },
+  {
+    "id": "rt-1-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A existência de recurso ao CFB significa que o CRB não exerce nenhuma competência de julgamento ético em primeira instância.",
+    "gabarito": "E",
+    "justificativa": "A Resolução 261/2023 distingue instâncias e prevê julgamento no CRB, com recurso ao CFB.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+    "editalRef": "Bloco A - Item 4.2",
+    "habilidade": "aplicar",
+    "versao_correta": "O CRB possui competência de primeira instância nos termos do procedimento."
+  },
+  {
+    "id": "rt-1-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O dever de sigilo é absoluto mesmo em hipótese em que a lei exige comunicação à autoridade competente.",
+    "gabarito": "E",
+    "justificativa": "O art. 9º, I, da Resolução 207 ressalva hipóteses legais de comunicação, denúncia ou relato.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+    "editalRef": "Bloco A - Item 4.2",
+    "habilidade": "aplicar",
+    "versao_correta": "O sigilo deve ser respeitado com as ressalvas legalmente aplicáveis."
+  },
+  {
+    "id": "rt-1-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A tabela do art. 40 da Lei 9.674/1998 inclui censura reservada e fixa a multa sempre em no máximo dez anuidades.",
+    "gabarito": "E",
+    "justificativa": "A lei inclui advertência reservada e censura pública; a multa geral é de uma a cinquenta anuidades.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+    "editalRef": "Bloco A - Item 4.2",
+    "habilidade": "aplicar",
+    "versao_correta": "A lista e a faixa da multa devem ser lidas na norma aplicável."
+  },
+  {
+    "id": "rt-1-4-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Segundo o Tema 732 do STF, inadimplência de anuidades autoriza suspender o exercício como meio de forçar o pagamento.",
+    "gabarito": "E",
+    "justificativa": "O STF rejeita a suspensão por inadimplência como sanção política tributária; isso não extingue a obrigação de pagar.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+    "editalRef": "Bloco A - Item 4.2",
+    "habilidade": "aplicar",
+    "versao_correta": "A cobrança deve observar meios legais, sem a suspensão rechaçada pelo STF."
+  },
+  {
+    "id": "rt-1-4-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma denúncia sem elementos comprobatórios e uma acusação pública precipitada podem contrariar os deveres éticos, ainda que o denunciante alegue proteger a categoria.",
+    "gabarito": "C",
+    "justificativa": "A finalidade alegada não dispensa prova, discrição e procedimento adequado.",
+    "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+    "editalRef": "Bloco A - Item 4.2",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-1-4-fonte-lei4084",
+      "nome": "Lei 4.084/1962 — profissão e atribuições",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 4.084/1962 — profissão e atribuições",
+      "ideiaChave": "Arts. 2º–7º e 15–22; não confundir preferência e exclusividade.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-4-fonte-lei9674",
+      "nome": "Lei 9.674/1998 — exercício profissional",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 9.674/1998 — exercício profissional",
+      "ideiaChave": "Artigos vigentes, vetos, registro e sanções; leitura com Tema 732.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-4-fonte-decreto",
+      "nome": "Decreto 56.725/1965",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Decreto 56.725/1965",
+      "ideiaChave": "Arts. 5º–8º: atividades, assinatura e atribuições.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-4-fonte-etica",
+      "nome": "Resolução CFB 207/2018 — Código de Ética",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Resolução CFB 207/2018 — Código de Ética",
+      "ideiaChave": "Reprodução pelo CRB15; deveres, proibições, ressalva de sigilo e penalidades.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-4-fonte-processo",
+      "nome": "Resolução CFB 261/2023 — processo ético-disciplinar",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Resolução CFB 261/2023 — processo ético-disciplinar",
+      "ideiaChave": "Arts. 3º–5º, 25–37: instâncias, julgamento e sanções; art. 36 prevê comunicação da cassação pelo CRB.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-4-fonte-registro",
+      "nome": "CRB1 — Registro; Resolução CFB 274/2024",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "CRB1 — Registro; Resolução CFB 274/2024",
+      "ideiaChave": "Regulamentação de inscrição, transferência e registro secundário.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-4-fonte-stf",
+      "nome": "STF — Tema 732, RE 647.885",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STF — Tema 732, RE 647.885",
+      "ideiaChave": "Suspensão por inadimplência de anuidades é sanção política tributária inconstitucional.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-1-4-5",
+      "afirmacao": "A tabela do art. 40 da Lei 9.674/1998 inclui censura reservada e fixa a multa sempre em no máximo dez anuidades.",
+      "gabarito": "E",
+      "porQue": "A lei inclui advertência reservada e censura pública; a multa geral é de uma a cinquenta anuidades."
+    },
+    {
+      "id": "memoria-rt-1-4-6",
+      "afirmacao": "Segundo o Tema 732 do STF, inadimplência de anuidades autoriza suspender o exercício como meio de forçar o pagamento.",
+      "gabarito": "E",
+      "porQue": "O STF rejeita a suspensão por inadimplência como sanção política tributária; isso não extingue a obrigação de pagar."
+    },
+    {
+      "id": "memoria-rt-1-4-7",
+      "afirmacao": "Uma denúncia sem elementos comprobatórios e uma acusação pública precipitada podem contrariar os deveres éticos, ainda que o denunciante alegue proteger a categoria.",
+      "gabarito": "C",
+      "porQue": "A finalidade alegada não dispensa prova, discrição e procedimento adequado."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-1-4-bloco-1",
+    "titulo": "Habilitação, registro e leitura conjunta das normas",
+    "objetivos": [
+      "Distinguir formação, registro e atividade exercida."
+    ],
+    "conteudo": "A profissão é regulamentada pela Lei 4.084/1962 e por seu regulamento, Decreto 56.725/1965, além da Lei 9.674, de **25 de junho de 1998**. Código de Ética e regras de processo/registro complementam esse conjunto. Resolução não substitui lei e deve ser interpretada à luz da Constituição e da jurisprudência aplicável.\n\nA formação exigida e o **registro no CRB da jurisdição** são requisitos diferentes. Diploma nacional reconhecido e diploma estrangeiro revalidado têm disciplina legal; há também direitos e hipóteses transitórias expressamente resguardados. Não se resume a habilitação à frase “qualquer pessoa com um certificado” nem se apagam ressalvas legais usando “exclusivamente” sem contexto.\n\nA Lei 9.674, art. 29, trata da inscrição e da citação do número de registro em documentos de responsabilidade profissional; o art. 30 trata da carteira e cédula com fé pública. **Não é o art. 3º da Lei 4.084 que estabelece validade territorial da carteira**: esse artigo trata de cargos técnicos. Regras de registro principal, transferência e registro secundário devem ser conferidas na regulamentação, como a Resolução CFB 274/2024.\n\n**Caso resolvido:** uma pessoa concluiu curso e recebeu convite para assumir responsabilidade técnica. Não basta mudar o nome da função para “coordenador de conteúdo” se exercer atribuições regulamentadas; tampouco o diploma substitui a regularização do registro. Examine a tarefa, o vínculo e os requisitos aplicáveis.",
+    "checkpointIds": [
+      "rt-1-4-1"
+    ]
+  },
+  {
+    "id": "sub-1-4-bloco-2",
+    "titulo": "Atribuições: diferenciar dispositivo legal, serviço técnico e apoio",
+    "objetivos": [
+      "Localizar a atribuição na alínea correta e evitar delegação disfarçada."
+    ],
+    "conteudo": "O art. 6º da Lei 4.084 enumera matérias e atividades relativas à organização, direção e execução de serviços técnicos: ensino de Biblioteconomia; fiscalização de seus estabelecimentos de ensino; administração e direção de bibliotecas; organização e direção de documentação; serviços de classificação e catalogação dos materiais enumerados, bibliografia e referência. **Classificação/catalogação estão na alínea e, não na b.** Ensino está na a, não na d.\n\nO Decreto 56.725 desenvolve o campo de atuação: estudos, relatórios, pareceres, bibliografias, planejamento, implantação, orientação, supervisão e execução, conforme seu escopo. Nos arts. 6º–7º, exige assinatura por profissional registrado e número de registro para os trabalhos abrangidos. O art. 7º da Lei 4.084 prevê **preferência** em atividades relacionadas; preferência e exclusividade não são sinônimos.\n\nUma equipe pode realizar tarefas de apoio compatíveis, com organização e supervisão apropriadas; isso não permite transferir responsabilidade profissional a leigo ou assinar trabalho estranho à própria orientação e fiscalização. A antiga aula adicionava “perícias documentais” como se fosse alínea literal do art. 6º e confundia os dispositivos. Uma atribuição deve ser fundamentada sem inventar o texto da lei.\n\n**Tente julgar antes da explicação:** um auxiliar digita campos sob orientação, e o responsável revê a descrição. Isso não equivale, por si só, a um leigo assumir autonomamente catalogação e obter assinatura de fachada. A distinção exige examinar quem efetivamente orientou, supervisionou e assumiu o trabalho, não apenas quem pressionou teclas.",
+    "checkpointIds": [
+      "cp-1-4-1",
+      "rt-1-4-2"
+    ]
+  },
+  {
+    "id": "sub-1-4-bloco-3",
+    "titulo": "CFB e CRBs: fiscalização e instâncias do processo",
+    "objetivos": [
+      "Separar competências ordinárias, recurso e hipóteses originárias."
+    ],
+    "conteudo": "A Lei 4.084 cria os conselhos de fiscalização e lhes atribui personalidade de direito público e autonomia administrativa/patrimonial. CFB e CRB não são sindicatos: fiscalização do exercício, defesa corporativa trabalhista e representação associativa têm funções distintas.\n\nO CFB exerce competências de orientação normativa e julgamento de recursos; os CRBs registram, fiscalizam e apuram infrações em sua área, conforme lei e regulamento. A Lei 9.674 possui vários **artigos vetados**, especialmente no capítulo de estrutura dos conselhos: não se estuda o conteúdo vetado como regra promulgada.\n\nA **Resolução CFB 261/2023**, arts. 3º–5º, organiza primeira instância nos CRBs e segunda/última no CFB, com hipóteses de atuação originária do Federal. O art. 36 manda o Regional comunicar ao Federal a decisão que impõe cassação. Logo, é incorreto afirmar que cassação seja sempre competência privativa originária do CFB e impossível ao CRB.\n\nJulgamento disciplinar não é decisão informal de uma pessoa. A resolução prevê instrução, relator, sessão e recursos. O art. 37 prevê recurso de decisões dos tribunais de ética regionais com efeito suspensivo; regras de prazo e termo inicial devem ser consultadas na norma própria. Isso não impede o acesso ao Judiciário.\n\n**Caso resolvido:** uma decisão ética regional é impugnada. A existência da via recursal ao CFB não apaga a competência inicial do CRB. Também não autoriza o presidente a decidir sozinho sem o procedimento aplicável.",
+    "checkpointIds": [
+      "cp-1-4-2",
+      "rt-1-4-3"
+    ]
+  },
+  {
+    "id": "sub-1-4-bloco-4",
+    "titulo": "Conduta, sigilo e responsabilidade no atendimento",
+    "objetivos": [
+      "Aplicar deveres e proibições com condições legais."
+    ],
+    "conteudo": "A Resolução CFB 207/2018 é o Código de Ética e Deontologia. Seus **arts. 2º–4º** tratam de natureza, fundamento e objeto do trabalho; os deveres estão no **art. 5º**, as relações profissionais no **art. 6º** e as proibições no **art. 7º**. A numeração importa: atribuir deveres ao art. 3º ou todas as proibições ao 4º reproduz erro da versão anterior.\n\nO atendimento deve observar zelo, honestidade, ciência e técnica, civilidade, respeito e compromisso social. Combater exercício ilegal não significa divulgar acusações sem prova. Cadastro, comunicação de vínculos e identificação pelo registro são deveres profissionais a acompanhar.\n\n**Sigilo é condicionado:** art. 5º, g, quando o assunto exigir; art. 7º, e, proteção das informações confidenciais; art. 9º, I, ressalva hipóteses legais de comunicação, denúncia ou relato. Fim do contrato não transforma histórico confidencial de pesquisa em informação livre para divulgação. Por outro lado, sigilo não pode ser ensinado como absoluto contra qualquer dever legal de comunicação.\n\nÉ vedado emprestar nome/registro a instituição sem atuação efetiva e assinar trabalhos alheios à própria orientação, supervisão e fiscalização. A cooperação profissional não é proibida: o problema é cobertura de exercício irregular ou assinatura sem responsabilidade efetiva.\n\n**Caso resolvido:** após sair de um gabinete, o profissional recebe pedido informal de histórico de consultas de antigo usuário. Deve avaliar confidencialidade, finalidade e competência, não divulgar porque o vínculo acabou. Havendo exigência legal de comunicação à autoridade competente, não deve invocar um suposto sigilo sem exceções.",
+    "checkpointIds": [
+      "cp-1-4-3",
+      "rt-1-4-4"
+    ]
+  },
+  {
+    "id": "sub-1-4-bloco-5",
+    "titulo": "Sanções: lista correta, dosimetria e proteção da defesa",
+    "objetivos": [
+      "Distinguir espécie de penalidade, faixa geral e procedimento."
+    ],
+    "conteudo": "A Lei 9.674, art. 40, enumera **multa de uma a cinquenta anuidades; advertência reservada; censura pública; suspensão de até três anos; cassação com apreensão da carteira**. Não há a sexta espécie “censura reservada” na lista. A multa geral não se limita a dez anuidades: não confunda limite geral e faixas de cumulação previstas na regulamentação.\n\nA Resolução 207, art. 13, e o procedimento da Resolução 261, arts. 33–36, devem ser lidos com suas regras. Na disciplina regulamentar, aparecem faixas associadas à advertência, censura, suspensão e cassação; as atenuantes e agravantes importam. **Não é obrigatório aplicar sucessivamente todas as sanções em toda infração** antes de uma grave: a Resolução 261, art. 35, ressalva casos de manifesta gravidade.\n\nA Lei 9.674, art. 42, assegura defesa antes de penalizar. Processo ético não elimina possíveis responsabilidades civil e penal. Publicidade e ciência da decisão possuem regras próprias: a Resolução 261 prevê publicação da censura pública no Diário Oficial, sem que isso torne públicas indiscriminadamente todas as informações pessoais do processo.\n\n**Caso resolvido:** uma tabela apresenta seis sanções e multa de 1–10 como único intervalo. Compare com o art. 40: a duplicação de censura e a redução da faixa geral estão erradas. Se o enunciado citar uma faixa regulamentar de cumulação específica, analise exatamente essa hipótese, sem usar o limite geral para descartá-la automaticamente.",
+    "checkpointIds": [
+      "rt-1-4-5"
+    ]
+  },
+  {
+    "id": "sub-1-4-bloco-6",
+    "titulo": "Inadimplência, texto normativo e jurisprudência",
+    "objetivos": [
+      "Confrontar a literalidade de cobranças com o entendimento constitucional aplicável."
+    ],
+    "conteudo": "Textos antigos da lei e do código contêm consequências restritivas associadas a débitos. Para estudar o direito aplicável, não basta copiar a literalidade e ignorar o **STF, Tema 732 (RE 647.885)**: a tese rejeita a suspensão do exercício profissional por inadimplência de anuidades, por constituir sanção política tributária.\n\nEssa orientação não torna a anuidade inexistente, não dispensa registro e não permite qualquer infração ética. **Dever de pagar, meios de cobrança e liberdade de exercício são questões distintas.** Uma suspensão por infração ética de outra natureza também não se confunde com o mecanismo de cobrar débito que foi rechaçado.\n\nAo resolver, identifique: o enunciado pede texto literal de um ato, ou regime aplicável com jurisprudência? Qual é o fato sancionado? Qual dispositivo e data foram indicados? No HNC, segue-se o corte cadastrado, sem supor já conhecida jurisprudência de uma data futura.\n\n**Aplicação autônoma:** um profissional está regularmente inscrito, mas deve anuidades. A administração pode cobrar a dívida pelos meios cabíveis; não pode concluir, apenas por isso, que a suspensão laboral seja constitucional. Em outro caso, uma denúncia de assinatura de fachada exige fatos, provas e processo, não é automaticamente resolvida pela discussão tributária.",
+    "checkpointIds": [
+      "rt-1-4-6",
+      "rt-1-4-7"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "lei4084",
+    "titulo": "Lei 4.084/1962 — profissão e atribuições",
+    "localizador": "Arts. 2º–7º e 15–22; não confundir preferência e exclusividade.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html"
+  },
+  {
+    "id": "lei9674",
+    "titulo": "Lei 9.674/1998 — exercício profissional",
+    "localizador": "Artigos vigentes, vetos, registro e sanções; leitura com Tema 732.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html"
+  },
+  {
+    "id": "decreto",
+    "titulo": "Decreto 56.725/1965",
+    "localizador": "Arts. 5º–8º: atividades, assinatura e atribuições.",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/1960-1969/decreto-56725-16-agosto-1965-397075-publicacaooriginal-1-pe.html"
+  },
+  {
+    "id": "etica",
+    "titulo": "Resolução CFB 207/2018 — Código de Ética",
+    "localizador": "Reprodução pelo CRB15; deveres, proibições, ressalva de sigilo e penalidades.",
+    "url": "https://www.crb15.org.br/codigo-de-etica/"
+  },
+  {
+    "id": "processo",
+    "titulo": "Resolução CFB 261/2023 — processo ético-disciplinar",
+    "localizador": "Arts. 3º–5º, 25–37: instâncias, julgamento e sanções; art. 36 prevê comunicação da cassação pelo CRB.",
+    "url": "https://crb6.org.br/2020/wp-content/uploads/2023/09/Resolucao-CFB-n-261-de-19-de-setembro-de-2023.pdf"
+  },
+  {
+    "id": "registro",
+    "titulo": "CRB1 — Registro; Resolução CFB 274/2024",
+    "localizador": "Regulamentação de inscrição, transferência e registro secundário.",
+    "url": "https://crb1.org.br/site/registro/"
+  },
+  {
+    "id": "stf",
+    "titulo": "STF — Tema 732, RE 647.885",
+    "localizador": "Suspensão por inadimplência de anuidades é sanção política tributária inconstitucional.",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4105161&numeroProcesso=647885&numeroTema=732"
+  }
+],
 };

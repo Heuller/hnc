@@ -19,330 +19,292 @@ export const submodulo51: ModuloFilho = {
   ],
   titulo: 'Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho',
   antesDeLer: [
-    {
-      termo: 'Planejamento Estratégico em Bibliotecas',
-      definicao: 'Processo gerencial de formulação de objetivos, estratégias e metas com base na análise de cenários internos e externos (Matriz SWOT).',
-      exemploBiblioteca: 'Alinhamento do Plano de Ação da Biblioteca Pedro Aleixo ao Plano Estratégico Institucional da Câmara 2024-2035.',
-    },
-    {
-      termo: 'Indicadores de Desempenho',
-      definicao: 'Métricas quantitativas e qualitativas (KPIs) utilizadas para monitorar a eficiência, eficácia e impacto dos serviços bibliotecários.',
-      exemploBiblioteca: 'Acompanhamento mensal da taxa de atendimento de consultas parlamentares dentro do prazo de 24 horas.',
-    },
-    {
-      termo: 'Matriz SWOT / FOFA',
-      definicao: 'Ferramenta de gestão que mapeia Forças, Oportunidades, Fraquezas e Ameaças que afetam a organização e seus projetos.',
-      exemploBiblioteca: 'Identificar como força o acervo histórico único e como fraqueza a necessidade de migração de sistemas legados.',
-    },
-    {
-      termo: 'Benchmarking',
-      definicao: 'Processo contínuo de comparação de processos e serviços com as melhores bibliotecas do mundo para identificar oportunidades de melhoria.',
-      exemploBiblioteca: 'Estudo comparativo entre os serviços de referência da Biblioteca da Câmara e da Library of Congress (EUA).',
-    },
-  ],
-  descricaoCurta: 'Planejamento estratégico, tático e operacional em unidades de informação, diagnóstico organizacional, matriz SWOT, avaliação de insumos, processos e produtos, e indicadores de desempenho (Lancaster, Almeida, Maciel).',
-  tempoEstimadoMinutos: 20,
-  autoresChave: ['Maria Christina Barbosa de Almeida', 'F. W. Lancaster', 'Alba Costa Maciel', 'Amélia Silveira', 'Peter Drucker', 'IFLA (1999)', 'CF/88'],
+  {
+    "termo": "Indicador",
+    "definicao": "Medida operacional interpretada em relação a uma finalidade, um contexto e uma referência.",
+    "exemploBiblioteca": "Custo por requisição deve definir período, conteúdo e métrica de uso."
+  },
+  {
+    "termo": "Unidade de análise",
+    "definicao": "Organização ou parte dela cujas fronteiras definem fatores internos e externos.",
+    "exemploBiblioteca": "Um corte imposto pela mantenedora é externo à biblioteca, mas pode ser interno à organização inteira."
+  }
+],
+  descricaoCurta: "Distinguir níveis por alcance e decisões, sem prazos universais. Definir unidade de análise na SWOT e hipóteses no BSC. Separar produtividade, eficiência, eficácia e valoração de benefícios. Escolher indicadores válidos e explicitar denominadores e contexto. Diferenciar seleção justificada de exclusão ideológica. Julgar afirmações identificando condição, âmbito e finalidade.",
+  tempoEstimadoMinutos: 29,
+  autoresChave: [
+  "ISO 11620:2023 — Library performance indicators",
+  "Vergueiro — Desenvolvimento de coleções",
+  "COUNTER Metrics — Metrics",
+  "IFLA — Statement on Libraries and Intellectual Freedom",
+  "Constituição Federal"
+],
   alertasCebraspe: [
-    'A técnica de distrator recorrente consiste em afirmar que o planejamento estratégico é de competência exclusiva da alta administração da instituição mantenedora e que o bibliotecário cuida apenas do nível operacional: ERRADO! O bibliotecário lidera o planejamento da unidade em todos os níveis.',
-    'Cuidado com a confusão entre eficiência (relação insumo/custo e produtividade) e eficácia (grau de atendimento aos objetivos e satisfação do usuário). Lancaster pontua que um serviço pode ser altamente eficiente gastando pouco, mas completamente ineficaz por não satisfazer os usuários.',
-    'A missão da biblioteca não decorre apenas de seus produtos imediatos; ela expressa a razão de ser social e o alinhamento com a missão da instituição maior à qual está vinculada.',
-    'O planejamento não é um evento episódico ou estático realizado apenas em momentos de crise, mas um processo dinâmico, contínuo, participativo e proativo.',
-  ],
-  quadroComparativo: {
-    titulo: 'Níveis de Planejamento em Unidades de Informação',
-    colunas: ['Critério', 'Planejamento Estratégico', 'Planejamento Tático', 'Planejamento Operacional'],
-    linhas: [
-      ['Horizonte Temporal', 'Longo prazo (3 a 5 anos ou mais)', 'Médio prazo (1 a 2 anos)', 'Curto prazo (diário, semanal, mensal)'],
-      ['Abrangência', 'Institucional, macro-orientado, sistêmico', 'Departamental / Setorial (seções da biblioteca)', 'Específico / Tarefas e procedimentos detalhados'],
-      ['Conteúdo Principal', 'Missão, visão, valores, análise SWOT e diretrizes gerais', 'Programas, alocação de recursos e projetos setoriais', 'Planos de ação, rotinas, cronogramas, metas quantificadas'],
-      ['Atuação do Bibliotecário', 'Líder estratégico junto à direção e stakeholders', 'Coordenador de processos e setores técnicos/atendimento', 'Supervisor e executor direto de rotinas procedimentais'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Fundamentos e Filosofia do Planejamento Estratégico Bibliotecário
-O planejamento em unidades de informação contemporâneas deixou de ser um mero instrumento burocrático de previsão orçamentária e converteu-se em **ferramenta de gestão estratégica essencial** para a sobrevivência, inovação e legitimidade social das bibliotecas públicas e parlamentares (**Maria Christina Barbosa de Almeida, 2005; Alba Costa Maciel & Marília Alvarenga Mendonça, 2000**).
-
-\`\`\`timeline
-PE | 1. Planejamento Estratégico | Longo Prazo (3 a 5+ anos) | Foco macroinstitucional: missão, visão de futuro, valores éticos, análise SWOT e alinhamento com a mantenedora
----> Desdobramento Setorial
-PT | 2. Planejamento Tático | Médio Prazo (1 a 2 anos) | Foco departamental: programas de aquisição, projetos de conservação, captação de recursos e gestão de referência
----> Detalhamento Operacional
-PO | 3. Planejamento Operacional | Curto Prazo (diário/mensal) | Foco procedimental: rotinas de catalogação, escalas de balcão, cronogramas de tarefas e checklists de metas
-\`\`\`
-
-#### A. Conceito e Princípios do Planejamento
-Conforme Almeida (2005), o planejamento é um **processo contínuo, dinâmico, participativo e flexível** de tomada de decisões racionais sobre o futuro da unidade de informação:
-1. **Proatividade vs. Reatividade:** O planejamento visa antecipar tendências tecnológicas e demandas de informação da sociedade, em vez de apenas reagir a crises orçamentárias ou espaciais.
-2. **Alinhamento Institucional:** A biblioteca universitária ou parlamentar não possui missão autônoma dissociada da instituição mantenedora. Seus objetivos estratégicos devem refletir e subsidiar diretamente a missão da instituição matriz (na Câmara dos Deputados: subsidiar o processo legislativo, a fiscalização orçamentária e o controle social da cidadania).
-3. **Diagnóstico Situacional Prévio:** Antes de estabelecer metas futuras, é indispensável realizar um diagnóstico detalhado da realidade da unidade (quadro de pessoal, acervo, infraestrutura predial, tecnologia e necessidades reais dos usuários).
-
-#### B. As Três Dimensões Hierárquicas do Planejamento
-* **1. Planejamento Estratégico:**
-  * Horizonte temporal de longo prazo (normalmente de 3 a 5 anos);
-  * Abrange a organização como um todo e seu relacionamento com o ambiente externo;
-  * Define a **Missão** (razão de existir da instituição, seu propósito social perene), a **Visão de Futuro** (onde a biblioteca almeja estar em um horizonte temporal) e os **Valores** (princípios éticos inegociáveis de conduta);
-  * Liderado pelo bibliotecário-gestor em interlocução direta com a alta administração.
-* **2. Planejamento Tático:**
-  * Horizonte temporal de médio prazo (1 a 2 anos);
-  * Ocupa-se das grandes áreas funcionais ou seções da biblioteca (Processamento Técnico, Atendimento e Referência, Tecnologia da Informação, Preservação e Obras Raras);
-  * Desdobra os objetivos estratégicos em programas, projetos específicos e alocação orçamentária setorial.
-* **3. Planejamento Operacional:**
-  * Curto prazo (execução diária, semanal ou mensal);
-  * Foco na execução prática e no cumprimento de metas quantificadas;
-  * Materializa-se em manuais de serviços, fluxogramas de trabalho, cronogramas de tarefas (*Gantt*) e procedimentos operacionais padrão (POPs).
-
----
-
-### 2. Metodologias e Ferramentas Estratégicas: Matriz SWOT e Balanced Scorecard (BSC)
-
-#### A. A Matriz SWOT / FOFA em Bibliotecas
-A Análise SWOT avalia o posicionamento estratégico através de duas variáveis espaciais fundamentais:
-
-| Ambiente de Análise | Fatores Positivos (Alavancadores) | Fatores Negativos (Restritivos) |
-| :--- | :--- | :--- |
-| **Ambiente Interno**<br>*(Totalmente controlável pela gestão da biblioteca)* | **FORÇAS (*Strengths*):**<br>• Equipe técnica altamente qualificada e concursada;<br>• Acervo histórico e de obras raras único no país;<br>• Infraestrutura tecnológica moderna com OPAC rápido. | **FRAQUEZAS (*Weaknesses*):**<br>• Espaço físico saturado nas estantes;<br>• Atraso no processamento técnico de doações;<br>• Falta de sinalização predial acessível. |
-| **Ambiente Externo**<br>*(Incontrolável pela biblioteca; exige adaptação)* | **OPORTUNIDADES (*Opportunities*):**<br>• Avanço de verbas de emendas para inteligência artificial;<br>• Cooperação com a rede RVBI e Portal LexML;<br>• Crescente demanda social por transparência pública. | **AMEAÇAS (*Threats*):**<br>• Contingenciamento ou corte de orçamento federal;<br>• Crise fiscal que afeta a assinatura de bases internacionais;<br>• Mudanças bruscas na legislação de direitos autorais. |
-
-> [!CAUTION]
-> **Casca de Banana Cebraspe nº 1:** Assertiva típica de distrator afirma que *"o corte orçamentário decorrente de diretriz governamental constitui uma fraqueza interna da biblioteca"*. Isso é **ERRADO**! O corte orçamentário externo é uma **AMEAÇA** (ambiente externo incontrolável). Fraqueza é uma deficiência interna da própria unidade (como obsolescência de computadores ou desorganização de estantes).
-
-#### B. O Balanced Scorecard (BSC) de Kaplan & Norton Adaptado a Bibliotecas
-O BSC traduz a estratégia em objetivos operacionais equilibrados sob quatro perspectivas interligadas por relações de causa e efeito:
-1. **Perspectiva dos Usuários / Clientes:** Como os parlamentares, servidores e cidadãos enxergam a biblioteca? (Métricas: taxa de satisfação, tempo de resposta na referência, índice de uso do OPAC).
-2. **Perspectiva dos Processos Internos:** Em quais processos internos a biblioteca deve alcançar a excelência? (Métricas: tempo médio de catalogação e indexação de novas obras, taxa de catalogação cooperativa na RVBI, índice de preservação preventiva).
-3. **Perspectiva do Aprendizado e Crescimento (Pessoas e Inovação):** Como podemos continuar melhorando e agregando valor? (Métricas: horas de capacitação da equipe em RDA/MARC21/IA, índice de retenção de talentos, clima organizacional).
-4. **Perspectiva Financeira / Orçamentária:** Como gerenciamos os recursos públicos para maximizar o retorno à sociedade? (Métricas: custo por consulta atendida, índice de execução orçamentária, custo de manutenção de assinaturas de bases).
-
----
-
-### 3. Avaliação de Serviços de Bibliotecas segundo F. W. Lancaster (1996)
-No tratado canônico *Avaliação de Serviços de Bibliotecas*, **F. W. Lancaster** estabeleceu os fundamentos teóricos da avaliação de desempenho:
-
-\`\`\`timeline
-I | 1. Insumos (Inputs) | Recursos e Estrutura | Orçamento público, quadro de bibliotecários, espaço físico, equipamentos e acervo disponível
----> Aplicação Operacional
-P | 2. Processos (Throughput) | Métricas de Eficiência | Produtividade da equipe, velocidade de catalogação na RVBI, rotinas de processamento e conservação
----> Entregas Concretas
-S | 3. Produtos (Outputs) | Serviços Disponibilizados | Volume de consultas atendidas no balcão, empréstimos realizados e downloads no repositório BDCam
----> Avaliação de Valor
-R | 4. Resultados e Impacto (Outcomes) | Métricas de Eficácia | Resolução da lacuna cognitiva do usuário, subsídio a votos parlamentares e satisfação do leitor
-\`\`\`
-
-#### A. A Distinção Vital entre Eficiência e Eficácia
-* **Eficiência (Foco nos Meios e Processos):** Mede a relação entre os insumos aplicados e a produtividade alcançada (fazer as coisas direito, com o menor custo e desperdício de tempo). Exemplo: *uma equipe que cataloga 50 livros por dia por funcionário é altamente eficiente*.
-* **Eficácia (Foco nos Fins e Resultados):** Mede o grau em que o serviço satisfaz as reais necessidades informacionais dos usuários (fazer a coisa certa que resolve o problema). Exemplo: *entregar ao parlamentar exatamente a doutrina que ele necessita para fundamentar um voto em plenário*.
-* **O Paradoxo de Lancaster:** Um serviço de biblioteca pode ser **extremamente eficiente** (custar muito pouco e operar com grande velocidade burocrática) e ao mesmo tempo ser **completamente ineficaz** (porque as informações entregues não atendem à necessidade do usuário e geram insatisfação).
-
-#### B. Custo-Eficácia vs. Custo-Benefício
-* **Análise de Custo-Eficácia (*Cost-Effectiveness*):** Relaciona o custo financeiro incorrido com o nível de desempenho técnico alcançado. Expressa-se em unidades quantitativas de serviço (ex.: *custo de R$ 15,00 por documento recuperado via empréstimo entre bibliotecas*).
-* **Análise de Custo-Benefício (*Cost-Benefit*):** Tenta mensurar o retorno de valor, benefício ou impacto positivo (geralmente intangível e social) gerado para o indivíduo ou para a instituição em comparação ao custo investido (ex.: *o valor econômico e democrático de aprovar uma lei bem fundamentada em estudos fornecidos pela biblioteca parlamentar*).
-
----
-
-### 4. A Norma Internacional ISO 11620: Indicadores de Desempenho para Bibliotecas
-A **ISO 11620** (*Information and documentation — Library performance indicators*) é a norma técnica internacional que padroniza a mensuração quantitativa e qualitativa dos serviços de informação:
-* **Requisitos de um Bom Indicador segundo a ISO 11620:**
-  * **Validade:** O indicador mede exatamente aquilo a que se propõe medir;
-  * **Confiabilidade:** O resultado é reproduzível quando aplicado sob as mesmas condições;
-  * **Relevância:** A métrica é útil para a tomada de decisão gerencial;
-  * **Praticabilidade:** Os dados podem ser coletados com custo e esforço razoáveis.
-* **Indicadores Padronizados Clássicos:**
-  * *Taxa de Disponibilidade de Títulos Requeridos:* Proporção de obras buscadas que estavam efetivamente disponíveis na estante no momento da procura (Teste de Orr);
-  * *Velocidade do Processamento Técnico:* Tempo médio decorrido entre a chegada física de um livro à biblioteca e sua disponibilização final para empréstimo no catálogo;
-  * *Custo por Usuário Atendido:* Orçamento total dividido pelo número de usuários ativos da instituição;
-  * *Custo por Download de Recursos Eletrônicos (Padrão COUNTER R5 / Protocolo SUSHI — ver 5.3):* Mede o custo-eficácia de assinaturas dividindo o valor contratual pelo total de acessos efetivos (\`Unique_Item_Requests\`).
-
----
-
-### 5. Censura, Liberdade Intelectual e a Política de Coleções como Escudo Institucional (Edital Bloco D, item 4.9)
-
-No contexto das bibliotecas públicas, universitárias e parlamentares, a salvaguarda da **liberdade intelectual** constitui um dos pilares deontológicos mais expressivos da profissão bibliotecária e do Estado Democrático de Direito (**IFLA, 1999; Waldomiro Vergueiro, 1989; Simone Weitzel, 2013**):
-
-#### A. A Distinção Teórica Vital: Seleção Técnica vs. Censura Arbitrária
-O Cebraspe explora com frequência a tentativa de disfarçar atos de censura ideológica sob o manto de "discricionariedade técnica na seleção":
-
-* **Seleção Técnica:**
-  * É um processo **positivo, planejado, inclusivo e transparente**, fundamentado em critérios técnicos objetivos pré-fixados no documento formal de Política de Desenvolvimento de Coleções (PDC);
-  * Orienta-se pelo estudo das necessidades da comunidade, representatividade do pensamento científico/filosófico, autoridade, atualidade e equilíbrio de correntes antagônicas;
-  * O objetivo da seleção é **construir um acervo plural e representativo** da sociedade.
-* **Censura Arbitrária:**
-  * É um processo **negativo, excludente, coercitivo e autoritário**, motivado por preconceitos morais, dogmas religiosos, intolerância política ou pressões corporativas de grupos hegemônicos;
-  * Consiste na rejeição a priori de livros, na rotulagem pejorativa discriminatória de obras ou na retirada forçada (expurgo) de materiais legalmente incorporados ao acervo, com o propósito de **impedir que os cidadãos tenham acesso a ideias divergentes**.
-
-#### B. O Manifesto da IFLA sobre a Liberdade Intelectual e de Expressão (1999 / Declaração de Glasgow 2002)
-A *International Federation of Library Associations and Institutions* (IFLA) estabeleceu princípios universais inegociáveis:
-1. **O Acesso Livre à Informação como Direito Humano:** Fundamenta-se no Artigo 19 da Declaração Universal dos Direitos Humanos (DUDH/ONU);
-2. **Rejeição a Toda Forma de Censura:** As bibliotecas devem disponibilizar seus acervos e serviços a todos os membros da comunidade, rejeitando qualquer censura de natureza ideológica, política ou religiosa promovida pelo Estado ou por grupos de pressão;
-3. **Imparcialidade Pessoal do Bibliotecário:** O profissional de informação tem o dever ético de assegurar que suas próprias convicções pessoais, crenças religiosas ou preferências partidárias **jamais interfiram** na seleção, catalogação, disponibilização ou descarte de obras;
-4. **Resistência às Pressões Externas:** As bibliotecas devem resistir ativamente a exigências de censura impostas por indivíduos, grupos organizados ou autoridades governamentais.
-
-#### C. Arcabouço Constitucional Brasileiro (CF/88)
-A Constituição da República Federativa do Brasil de 1988 consagrou garantias expressas de vedação à censura:
-* **Art. 5º, inciso IX:** *"É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença"*;
-* **Art. 220, caput:** *"A manifestação do pensamento, a criação, a expressão e a informação, sob qualquer forma, processo ou veículo não sofrerão qualquer restrição, observado o disposto nesta Constituição"*;
-* **Art. 220, § 2º (Mandamento Pétreo de Vedação):** *"É vedada toda e qualquer censura de natureza política, ideológica e artística"*.
-
-#### D. A Política de Desenvolvimento de Coleções (PDC) como Escudo Institucional no Parlamento
-No ambiente do Poder Legislativo, onde convivem bancadas partidárias com visões de mundo polarizadas, a biblioteca pública parlamentar (Biblioteca Pedro Aleixo) está sob constante escrutínio:
-* **O Caráter Político da PDC:** Conforme Waldomiro Vergueiro (1989), a política de seleção formalmente aprovada pela Mesa Diretora da Câmara dos Deputados funciona como um **escudo protetor legal e técnico** para a equipe de bibliotecários;
-* **Caso Concreto de Pressão Externa:** Se um parlamentar ou grupo de pressão exigir a retirada de circulação de uma obra sobre direitos humanos, diversidade ou história política sob alegação de "conteúdo impróprio", o bibliotecário não cede à arbitrariedade: ampara-se formalmente na PDC aprovada, na CF/88 (arts. 5º, IX, e 220, § 2º) e no Código de Ética do Bibliotecário (CFB) para demonstrar que a presença da obra atende aos critérios técnicos de pluralismo e representatividade do acervo.
-
-#### E. Matriz Comparativa Estruturada: Seleção Técnica vs. Censura Arbitrária
-
-| Critério de Confronto | Seleção Técnica de Acervos | Censura Ideológica de Acervos |
-| :--- | :--- | :--- |
-| **Natureza do Ato** | Positiva, técnica, democrática e inclusiva. | Negativa, arbitrária, coercitiva e excludente. |
-| **Fundamentação** | Documento formal escrito de política e estudo da comunidade. | Preconceito moral, dogma religioso ou conveniência partidária. |
-| **Objetivo Primordial** | Enriquecer o acervo com a diversidade do pensamento humano. | Suprimir o acesso público a ideias e visões divergentes. |
-| **Ator Decisório** | Comissão técnica multidisciplinar e corpo de bibliotecários. | Grupos de pressão, autoridades autoritárias ou censores individuais. |
-| **Conformidade Jurídica** | Plena adesão à CF/88 (Art. 5º, IX) e Manifesto da IFLA (1999). | Violação frontal da CF/88 (Art. 220, § 2º) e do Código de Ética Profissional. |
-
----
-
-### 6. Quadro Sinóptico de Cascas de Banana do Cebraspe em Gestão e Planejamento
-
-| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
-| :--- | :--- | :--- |
-| *"O planejamento estratégico de uma biblioteca compete exclusivamente à alta administração do órgão mantenedor, cabendo aos bibliotecários apenas o planejamento operacional."* | **ERRADO** | O bibliotecário deve atuar como líder estratégico da unidade de informação, participando ativamente de **todos os níveis** de planejamento. |
-| *"Um serviço de biblioteca que atinge alto índice de eficiência operacional é necessariamente eficaz no atendimento às necessidades dos usuários."* | **ERRADO** | Eficiência diz respeito ao uso econômico de recursos (meios); um serviço eficiente pode ser **ineficaz** se entregar informações inúteis ao usuário. |
-| *"Na análise SWOT aplicada a bibliotecas parlamentares, o corte de verbas orçamentárias imposto pelo Congresso Nacional classifica-se como fraqueza interna."* | **ERRADO** | Cortes orçamentários governamentais decorrem do ambiente externo incontrolável, configurando uma **AMEAÇA** (e não fraqueza). |
-| *"A análise de custo-benefício expressa estritamente a relação matemática entre os custos financeiros e as unidades físicas de produtos catalogados."* | **ERRADO** | Essa é a análise de **custo-eficácia**. A de **custo-benefício** mensura o retorno de valor/impacto qualitativo e social em relação aos custos. |
-| *"A recusa de aquisição de um livro de autor renomado exclusivamente em razão de seu viés ideológico contrário à bancada majoritária da Câmara constitui legítimo exercício da seleção técnica de coleções."* | **ERRADO** | Trata-se de hipótese cabal de **CENSURA POLÍTICO-IDEOLÓGICA**, vedada expressamente pelo art. 220, § 2º, da CF/88 e pelos princípios da IFLA. |
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Avaliação, Desbastamento e Métricas (sub-5-3):** Critérios quantitativos e qualitativos de descarte e remanejamento.
-* **Direito Autoral e Acesso Aberto (sub-9-3):** Liberdade intelectual versus censura segundo IFLA e CF/88.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-O **Planejamento de Bibliotecas** e a **Avaliação de Serviços por Indicadores (ISO 11620)** constituem a base gerencial moderna das unidades de informação:
-1. **Níveis de Planejamento (Almeida e Maciel & Mendonça):**
-   - **Estratégico (Longo Prazo / Alta Administração):** Define missão, visão, valores, objetivos institucionais e diretrizes gerais. Envolve análise de cenários (Matriz SWOT / FOFA: Forças, Oportunidades, Fraquezas e Ameaças).
-   - **Tático (Médio Prazo / Gerência Departamental):** Desdobra as diretrizes estratégicas em planos setoriais (ex.: plano de desenvolvimento de coleções, plano de modernização tecnológica do CEDI). Aloca recursos financeiros e humanos.
-   - **Operacional (Curto Prazo / Execução Cotidiana):** Planos de ação detalhados, cronogramas, rotinas, procedimentos operacionais padrão (POP) e atribuições diárias dos bibliotecários.
-2. **Avaliação e Indicadores de Desempenho (Norma ISO 11620):**
-   - Um indicador de desempenho é uma expressão numérica (taxa, proporção ou índice) que mede a eficácia, eficiência e adequação dos serviços.
-   - **Critérios de Qualidade de um Indicador:** Validade, confiabilidade, relevância, comparabilidade e custo-benefício da coleta.
-   - Indicadores canônicos da ISO 11620: Custo por uso da coleção, Taxa de rotatividade do acervo, Tempo médio de resposta a consultas de referência, Satisfação do usuário e Percentual de empréstimos por usuário ativo.
-3. **Ferramentas Gerenciais Canônicas:**
-   - **Ciclo PDCA (Deming):** *Plan* (Planejar), *Do* (Executar), *Check* (Verificar), *Act* (Agir corretivamente).
-   - **5W2H:** *What, Why, Where, When, Who, How, How much*.
-   - **Matriz GUT:** Gravidade, Urgência e Tendência (para priorização de problemas operacionais).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Planejamento Estratégico no CEDI):** A Diretoria-Geral da Câmara publica o Plano Estratégico 2024–2027. O CEDI elabora seu planejamento tático definindo como meta a digitalização de 100% dos anais legislativos do século XIX e a redução do tempo de atendimento a consultas de deputados para no máximo 4 horas.
-- **Cenário 2 (Aplicação da ISO 11620 na Biblioteca Pedro Aleixo):** O coordenador da biblioteca audita o serviço de empréstimo entre bibliotecas da RVBI e calcula o indicador:
-  $\\text{Taxa de Sucesso no Atendimento} = \\frac{\\text{Consultas Respondidas no Prazo}}{\\text{Total de Consultas Recebidas}} \\times 100$.
-  Ao verificar um índice de 96%, comprova a eficácia operacional do serviço no relatório de gestão anual apresentado ao Presidente da Câmara.
-- **Cenário 3 (Matriz SWOT na Expansão da BDCam):** Antes de migrar o software DSpace para a versão mais recente em nuvem, a equipe de bibliotecários realiza uma análise FOFA: Força (equipe técnica qualificada), Fraqueza (servidores locais legados), Oportunidade (integração ao portal do Governo Digital), Ameaça (restrições orçamentárias na LOA).
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Nível de Planejamento | Horizonte Temporal | Responsável Típico | Foco da Decisão |
-| :--- | :--- | :--- | :--- |
-| **Estratégico** | Longo prazo (3 a 5 anos) | Diretoria-Geral / CEDI | Missão, Visão e Relação com o Ambiente |
-| **Tático** | Médio prazo (1 a 2 anos) | Chefia de Seção da Biblioteca | Alocação de Recursos e Planos Setoriais |
-| **Operacional** | Curto prazo (dias/meses) | Bibliotecários e Analistas | Rotinas, Tarefas e Metas Imediatas |
-| **ISO 11620** | Avaliação contínua | Auditoria da Biblioteca | Indicadores quantitativos de desempenho |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Inversão dos Níveis de Planejamento:** Dizer que a elaboração de Procedimentos Operacionais Padrão (POPs) para tombamento de livros é atividade típica do planejamento estratégico. **Gabarito: ERRADO.** Trata-se de planejamento operacional.
-- **Eficácia vs. Eficiência:**
-  - *Eficiência:* Fazer as coisas com o menor consumo de recursos possível (relação custo-benefício / meios).
-  - *Eficácia:* Atingir o objetivo e o resultado esperado, independentemente do custo (fins). O Cebraspe troca sistematicamente esses dois termos.
-- **ISO 11620 como Norma de Catalogação:** Afirmar que a ISO 11620 estabelece regras de descrição física de livros. **Gabarito: ERRADO.** A ISO 11620 é estritamente uma norma de **indicadores de desempenho e avaliação de bibliotecas**.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **ALMEIDA, Maria Christina Barbosa de.** *Planejamento de bibliotecas e serviços de informação*. 2. ed. Brasília: Briquet de Lemos, 2005. (A referência clássica sobre planejamento em unidades de informação).
-- **MACIEL, Alba Costa; MENDONÇA, Marília Alvarenga Rocha.** *Bibliotecas como organizações*. Rio de Janeiro: Interciência, 2000.
-- **ISO 11620:2014.** *Information and documentation — Library performance indicators*. Genebra: ISO, 2014.
-- **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996.
-- **CHIAVENATO, Idalberto.** *Administração geral e pública*. 5. ed. Rio de Janeiro: Elsevier, 2018.
-
-### Pausa de Recuperação Ativa: Tipos de Planejamento Organizacional
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Diferencie em termos de horizonte temporal, nível hierárquico e amplitude de impacto os planejamentos Estratégico, Tático e Operacional em uma biblioteca legislativa.
-`,
+  "A natureza do planejamento depende de alcance, decisões e objetivos, não apenas de duração.",
+  "Produtividade, recursos, qualidade e comparação precisam ser considerados.",
+  "O fundamento exclusivamente ideológico configura censura, não avaliação técnica."
+],
+  teoriaDensaMarkdown: "### Fundamentos e Filosofia do Planejamento Estratégico Bibliotecário\n\nO planejamento em unidades de informação contemporâneas deixou de ser um mero instrumento burocrático de previsão orçamentária e converteu-se em **ferramenta de gestão estratégica essencial** para a sobrevivência, inovação e legitimidade social das bibliotecas públicas e parlamentares (**Maria Christina Barbosa de Almeida, 2005; Alba Costa Maciel & Marília Alvarenga Mendonça, 2000**).\n\n```timeline\nPE | 1. Planejamento Estratégico | Longo Prazo (3 a 5+ anos) | Foco macroinstitucional: missão, visão de futuro, valores éticos, análise SWOT e alinhamento com a mantenedora\n---> Desdobramento Setorial\nPT | 2. Planejamento Tático | Médio Prazo (1 a 2 anos) | Foco departamental: programas de aquisição, projetos de conservação, captação de recursos e gestão de referência\n---> Detalhamento Operacional\nPO | 3. Planejamento Operacional | Curto Prazo (diário/mensal) | Foco procedimental: rotinas de catalogação, escalas de balcão, cronogramas de tarefas e checklists de metas\n```\n\n#### A. Conceito e Princípios do Planejamento\nConforme Almeida (2005), o planejamento é um **processo contínuo, dinâmico, participativo e flexível** de tomada de decisões racionais sobre o futuro da unidade de informação:\n1. **Proatividade vs. Reatividade:** O planejamento visa antecipar tendências tecnológicas e demandas de informação da sociedade, em vez de apenas reagir a crises orçamentárias ou espaciais.\n2. **Alinhamento Institucional:** A biblioteca universitária ou parlamentar não possui missão autônoma dissociada da instituição mantenedora. Seus objetivos estratégicos devem refletir e subsidiar diretamente a missão da instituição matriz (na Câmara dos Deputados: subsidiar o processo legislativo, a fiscalização orçamentária e o controle social da cidadania).\n3. **Diagnóstico Situacional Prévio:** Antes de estabelecer metas futuras, é indispensável realizar um diagnóstico detalhado da realidade da unidade (quadro de pessoal, acervo, infraestrutura predial, tecnologia e necessidades reais dos usuários).\n\n#### B. As Três Dimensões Hierárquicas do Planejamento\n* **1. Planejamento Estratégico:**\n  * Horizonte temporal de longo prazo (horizonte definido pela instituição, frequentemente plurianual, sem prazo universal);\n  * Abrange a organização como um todo e seu relacionamento com o ambiente externo;\n  * Define a **Missão** (razão de existir da instituição, seu propósito social perene), a **Visão de Futuro** (onde a biblioteca almeja estar em um horizonte temporal) e os **Valores** (princípios éticos inegociáveis de conduta);\n  * Liderado pelo bibliotecário-gestor em interlocução direta com a alta administração.\n* **2. Planejamento Tático:**\n  * Horizonte intermediário definido pela instituição (não obrigatoriamente 1 a 2 anos);\n  * Ocupa-se das grandes áreas funcionais ou seções da biblioteca (Processamento Técnico, Atendimento e Referência, Tecnologia da Informação, Preservação e Obras Raras);\n  * Desdobra os objetivos estratégicos em programas, projetos específicos e alocação orçamentária setorial.\n* **3. Planejamento Operacional:**\n  * Curto prazo (execução diária, semanal ou mensal);\n  * Foco na execução prática e no cumprimento de metas quantificadas;\n  * Materializa-se em manuais de serviços, fluxogramas de trabalho, cronogramas de tarefas (*Gantt*) e procedimentos operacionais padrão (POPs).\n\n**Aplicação e recuperação:** Um plano de cinco anos com instruções de balcão não é estratégico apenas pelo prazo. Observe alcance, vínculo com a missão e tipo de decisão.\n\n### Metodologias e Ferramentas Estratégicas: Matriz SWOT e Balanced Scorecard (BSC)\n\n#### A. A Matriz SWOT / FOFA em Bibliotecas\nA Análise SWOT avalia o posicionamento estratégico considerando a origem dos fatores e seu efeito sobre os objetivos:\n\n| Ambiente de Análise | Fatores Positivos (Alavancadores) | Fatores Negativos (Restritivos) |\n| :--- | :--- | :--- |\n| **Ambiente Interno**<br>*(Fatores internos, com diferentes graus de influência da gestão)* | **FORÇAS (*Strengths*):**<br>• Equipe técnica altamente qualificada e concursada;<br>• Acervo histórico relevante à missão;<br>• Infraestrutura tecnológica moderna com OPAC rápido. | **FRAQUEZAS (*Weaknesses*):**<br>• Espaço físico saturado nas estantes;<br>• Atraso no processamento técnico de doações;<br>• Falta de sinalização predial acessível. |\n| **Ambiente Externo**<br>*(Fatores externos à unidade analisada; podem admitir negociação e influência)* | **OPORTUNIDADES (*Opportunities*):**<br>• Avanço de verbas de emendas para inteligência artificial;<br>• Cooperação com a rede RVBI e Portal LexML;<br>• Crescente demanda social por transparência pública. | **AMEAÇAS (*Threats*):**<br>• Contingenciamento ou corte de orçamento federal;<br>• Crise fiscal que afeta a assinatura de bases internacionais;<br>• Mudanças bruscas na legislação de direitos autorais. |\n\n> [!CAUTION]\n> **Casca de Banana Cebraspe nº 1:** Assertiva típica de distrator afirma que *\"o corte orçamentário decorrente de diretriz governamental constitui uma fraqueza interna da biblioteca\"*. Isso é **ERRADO**! O corte orçamentário externo é uma **AMEAÇA** (ambiente externo incontrolável). Fraqueza é uma deficiência interna da própria unidade (como obsolescência de computadores ou desorganização de estantes).\n\n#### B. O Balanced Scorecard (BSC) de Kaplan & Norton Adaptado a Bibliotecas\nO BSC traduz a estratégia em objetivos operacionais equilibrados sob quatro perspectivas interligadas por hipóteses de relações de causa e efeito, que precisam ser acompanhadas:\n1. **Perspectiva dos Usuários / Clientes:** Como os parlamentares, servidores e cidadãos enxergam a biblioteca? (Métricas: taxa de satisfação, tempo de resposta na referência, índice de uso do OPAC).\n2. **Perspectiva dos Processos Internos:** Em quais processos internos a biblioteca deve alcançar a excelência? (Métricas: tempo médio de catalogação e indexação de novas obras, taxa de catalogação cooperativa na RVBI, índice de preservação preventiva).\n3. **Perspectiva do Aprendizado e Crescimento (Pessoas e Inovação):** Como podemos continuar melhorando e agregando valor? (Métricas: horas de capacitação da equipe em RDA/MARC21/IA, índice de retenção de talentos, clima organizacional).\n4. **Perspectiva Financeira / Orçamentária:** Como gerenciamos os recursos públicos para maximizar o retorno à sociedade? (Métricas: custo por consulta atendida, índice de execução orçamentária, custo de manutenção de assinaturas de bases).\n\n---\n\n\n\nNa administração pública, a missão e o valor entregue à sociedade podem orientar o topo do mapa estratégico; a perspectiva financeira funciona como condição de sustentabilidade e responsabilidade. A adaptação do BSC não torna obrigatório copiar a hierarquia de uma empresa lucrativa. Na SWOT, defina a unidade de análise: orçamento imposto pela mantenedora pode ser fator externo à biblioteca e interno à organização inteira.\n\n**Aplicação e recuperação:** Corte imposto pela mantenedora é externo à biblioteca, mas a fronteira muda ao analisar a organização inteira. Declare qual unidade é avaliada.\n\n### Avaliação de Serviços de Bibliotecas segundo F. W. Lancaster (1996)\n\nNo tratado canônico *Avaliação de Serviços de Bibliotecas*, **F. W. Lancaster** estabeleceu os fundamentos teóricos da avaliação de desempenho:\n\n```timeline\nI | 1. Insumos (Inputs) | Recursos e Estrutura | Orçamento público, quadro de bibliotecários, espaço físico, equipamentos e acervo disponível\n---> Aplicação Operacional\nP | 2. Processos (Throughput) | Métricas de Eficiência | Produtividade da equipe, velocidade de catalogação na RVBI, rotinas de processamento e conservação\n---> Entregas Concretas\nS | 3. Produtos (Outputs) | Serviços Disponibilizados | Volume de consultas atendidas no balcão, empréstimos realizados e downloads no repositório BDCam\n---> Avaliação de Valor\nR | 4. Resultados e Impacto (Outcomes) | Métricas de Eficácia | Resolução da lacuna cognitiva do usuário, subsídio a votos parlamentares e satisfação do leitor\n```\n\n#### A. A Distinção Vital entre Eficiência e Eficácia\n* **Eficiência (Foco nos Meios e Processos):** Mede a relação entre os insumos aplicados e a produtividade alcançada (fazer as coisas direito, com o menor custo e desperdício de tempo). Exemplo: *50 livros catalogados por pessoa/dia é medida de produtividade; só permite avaliar eficiência quando se conhecem recursos, qualidade, complexidade e uma referência de comparação*.\n* **Eficácia (Foco nos Fins e Resultados):** Mede o grau em que o serviço satisfaz as reais necessidades informacionais dos usuários (fazer a coisa certa que resolve o problema). Exemplo: *entregar ao parlamentar exatamente a doutrina que ele necessita para fundamentar um voto em plenário*.\n* **Contraste de avaliação:** Um serviço de biblioteca pode ser **extremamente eficiente** (custar muito pouco e operar com grande velocidade burocrática) e ao mesmo tempo ser **completamente ineficaz** (porque as informações entregues não atendem à necessidade do usuário e geram insatisfação).\n\n#### B. Custo-Eficácia vs. Custo-Benefício\n* **Análise de Custo-Eficácia (*Cost-Effectiveness*):** Relaciona custos a resultados de eficácia em unidades pertinentes ao objetivo. Um custo por documento é indicador de custo unitário; sua interpretação exige saber se o documento atende à necessidade. Expressa-se em unidades quantitativas de serviço (ex.: *custo de R$ 15,00 por documento recuperado via empréstimo entre bibliotecas*).\n* **Análise de Custo-Benefício (*Cost-Benefit*):** Compara custos e benefícios expressos em base monetária comum, quando possível. Benefícios intangíveis podem exigir valoração estimada e pressupostos explícitos; descrever qualitativamente valor social não basta para completar uma análise monetária de custo-benefício (ex.: *o valor econômico e democrático de aprovar uma lei bem fundamentada em estudos fornecidos pela biblioteca parlamentar*).\n\n**Aplicação e recuperação:** Duas equipes produzem 50 registros/dia, mas uma deixa 20 com erros. Sem qualidade e recursos, a contagem não prova eficiência superior.\n\n### A Norma Internacional ISO 11620: Indicadores de Desempenho para Bibliotecas\n\nA **ISO 11620:2023** especifica requisitos e indicadores de desempenho de bibliotecas. Sua aplicação demanda definições operacionais, população, período, método de coleta e contexto. Não basta atribuir a qualquer fração o rótulo de indicador ISO.\n\nUm indicador precisa ser informativo, confiável, válido e adequado à finalidade, permitir coleta praticável e admitir comparações justificadas. Consistência da medição não garante validade: contar cliques de forma reproduzível pode continuar medindo algo diferente de aprendizagem ou satisfação.\n\n| Pergunta | Indicador possível e cautela |\n|---|---|\n| Quanto demora o processamento? | Tempo entre recebimento e disponibilidade, com marcos definidos; mediana e percentis podem revelar filas que a média esconde. |\n| Os documentos pedidos estão disponíveis? | Proporção de demandas atendidas no período e contexto definidos; não confundir disponibilidade com relevância. |\n| Quanto custa cada uso? | Custo elegível dividido por usos comparáveis. Denominador zero exige tratamento específico; não produzir custo zero. |\n| O serviço alcança seu objetivo? | Medida de atendimento de necessidades, associada a evidências de uso e avaliação do usuário. |\n\n**COUNTER** padroniza estatísticas de uso eletrônico. **SUSHI** automatiza sua obtenção. São complementares, sem equivalência com ISO 11620. Para textos integrais, Unique_Item_Requests pode ser pertinente; para livros comparados entre plataformas, Unique_Title_Requests pode responder melhor à pergunta. Uma investigação de resumo não equivale a requisição de conteúdo integral.\n\nMetas, séries históricas e comparações devem considerar diferenças de missão e público. Uma biblioteca de preservação pode manter itens de baixíssima circulação porque sua finalidade inclui memória. Indicador isolado não determina sucesso nem autoriza descartar acervo.\n\n**Aplicação e recuperação:** R$ 12.000 por 600 requisições elegíveis resulta em R$ 20 por requisição. Isso não demonstra que cada documento foi lido ou útil.\n\n### Censura, Liberdade Intelectual e a Política de Coleções como Escudo Institucional (Edital Bloco D, item 4.9)\n\nNo contexto das bibliotecas públicas, universitárias e parlamentares, a salvaguarda da **liberdade intelectual** constitui um dos pilares deontológicos mais expressivos da profissão bibliotecária e do Estado Democrático de Direito (**IFLA, 1999; Waldomiro Vergueiro, 1989; Simone Weitzel, 2013**):\n\n#### A. A Distinção Teórica Vital: Seleção Técnica vs. Censura Arbitrária\nUm item de julgamento pode apresentar a tentativa de disfarçar atos de censura ideológica sob o manto de \"discricionariedade técnica na seleção\":\n\n* **Seleção Técnica:**\n  * É um processo **positivo, planejado, inclusivo e transparente**, fundamentado em critérios técnicos objetivos pré-fixados no documento formal de Política de Desenvolvimento de Coleções (PDC);\n  * Orienta-se pelo estudo das necessidades da comunidade, representatividade do pensamento científico/filosófico, autoridade, atualidade e equilíbrio de correntes antagônicas;\n  * O objetivo da seleção é **construir um acervo plural e representativo** da sociedade.\n* **Censura Arbitrária:**\n  * É um processo **negativo, excludente, coercitivo e autoritário**, motivado por preconceitos morais, dogmas religiosos, intolerância política ou pressões corporativas de grupos hegemônicos;\n  * Consiste na rejeição a priori de livros, na rotulagem pejorativa discriminatória de obras ou na retirada forçada (expurgo) de materiais legalmente incorporados ao acervo, com o propósito de **impedir que os cidadãos tenham acesso a ideias divergentes**.\n\n#### B. O Manifesto da IFLA sobre a Liberdade Intelectual e de Expressão (1999 / Declaração de Glasgow 2002)\nA *International Federation of Library Associations and Institutions* (IFLA) estabeleceu princípios universais inegociáveis:\n1. **O Acesso Livre à Informação como Direito Humano:** Fundamenta-se no Artigo 19 da Declaração Universal dos Direitos Humanos (DUDH/ONU);\n2. **Rejeição a Toda Forma de Censura:** As bibliotecas devem disponibilizar seus acervos e serviços a todos os membros da comunidade, rejeitando qualquer censura de natureza ideológica, política ou religiosa promovida pelo Estado ou por grupos de pressão;\n3. **Imparcialidade Pessoal do Bibliotecário:** O profissional de informação tem o dever ético de assegurar que suas próprias convicções pessoais, crenças religiosas ou preferências partidárias não se convertam em critérios arbitrários que excluam perspectivas na seleção, catalogação, disponibilização ou descarte de obras;\n4. **Resistência às Pressões Externas:** As bibliotecas devem resistir ativamente a exigências de censura impostas por indivíduos, grupos organizados ou autoridades governamentais.\n\n#### C. Arcabouço Constitucional Brasileiro (CF/88)\nA Constituição da República Federativa do Brasil de 1988 consagrou garantias expressas de vedação à censura:\n* **Art. 5º, inciso IX:** *\"É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença\"*;\n* **Art. 220, caput:** *\"A manifestação do pensamento, a criação, a expressão e a informação, sob qualquer forma, processo ou veículo não sofrerão qualquer restrição, observado o disposto nesta Constituição\"*;\n* **Art. 220, § 2º (Vedação constitucional):** *\"É vedada toda e qualquer censura de natureza política, ideológica e artística\"*.\n\n#### D. A Política de Desenvolvimento de Coleções (PDC) como Escudo Institucional no Parlamento\nNo ambiente do Poder Legislativo, onde convivem bancadas partidárias com visões de mundo polarizadas, a biblioteca pública parlamentar (Biblioteca Pedro Aleixo) está sob constante escrutínio:\n* **O Caráter Político da PDC:** Uma política aprovada pela instância institucional competente pode funcionar como **escudo protetor legal e técnico** para a equipe de bibliotecários;\n* **Caso Concreto de Pressão Externa:** Se um parlamentar ou grupo de pressão exigir a retirada de circulação de uma obra sobre direitos humanos, diversidade ou história política sob alegação de \"conteúdo impróprio\", o bibliotecário não cede à arbitrariedade: ampara-se formalmente na PDC aprovada, na CF/88 (arts. 5º, IX, e 220, § 2º) e no Código de Ética do Bibliotecário (CFB) para demonstrar que a presença da obra atende aos critérios técnicos de pluralismo e representatividade do acervo.\n\n#### E. Matriz Comparativa Estruturada: Seleção Técnica vs. Censura Arbitrária\n\n| Critério de Confronto | Seleção Técnica de Acervos | Censura Ideológica de Acervos |\n| :--- | :--- | :--- |\n| **Natureza do Ato** | Positiva, técnica, democrática e inclusiva. | Negativa, arbitrária, coercitiva e excludente. |\n| **Fundamentação** | Documento formal escrito de política e estudo da comunidade. | Preconceito moral, dogma religioso ou conveniência partidária. |\n| **Objetivo Primordial** | Enriquecer o acervo com a diversidade do pensamento humano. | Suprimir o acesso público a ideias e visões divergentes. |\n| **Ator Decisório** | Comissão técnica multidisciplinar e corpo de bibliotecários. | Grupos de pressão, autoridades autoritárias ou censores individuais. |\n| **Conformidade Jurídica** | Plena adesão à CF/88 (Art. 5º, IX) e Manifesto da IFLA (1999). | Violação frontal da CF/88 (Art. 220, § 2º) e do Código de Ética Profissional. |\n\n**Aplicação e recuperação:** Uma obra fora do escopo pode ser recusada por critérios registrados. Recusá-la exclusivamente porque critica a direção é outro fundamento: censura.\n\n### Contrastes para julgamento — itens autorais\n\n| Item autoral de treinamento | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"O planejamento estratégico de uma biblioteca compete exclusivamente à alta administração do órgão mantenedor, cabendo aos bibliotecários apenas o planejamento operacional.\"* | **ERRADO** | O bibliotecário deve atuar como líder estratégico da unidade de informação, participando ativamente de **todos os níveis** de planejamento. |\n| *\"Um serviço de biblioteca que atinge alto índice de eficiência operacional é necessariamente eficaz no atendimento às necessidades dos usuários.\"* | **ERRADO** | Eficiência diz respeito ao uso econômico de recursos (meios); um serviço eficiente pode ser **ineficaz** se entregar informações inúteis ao usuário. |\n| *\"Na análise SWOT aplicada a bibliotecas parlamentares, o corte de verbas orçamentárias imposto pelo Congresso Nacional classifica-se como fraqueza interna.\"* | **ERRADO** | Cortes orçamentários governamentais decorrem do ambiente externo incontrolável, configurando uma **AMEAÇA** (e não fraqueza). |\n| *\"A análise de custo-benefício expressa estritamente a relação matemática entre os custos financeiros e as unidades físicas de produtos catalogados.\"* | **ERRADO** | Custos por unidade física são indicadores de custo unitário; a análise de custo-eficácia relaciona custos a resultados definidos. A de **custo-benefício** exige valoração comparável, em geral monetária, de custos e benefícios; valor social qualitativo não substitui sozinho essa análise. |\n| *\"A recusa de aquisição de um livro de autor renomado exclusivamente em razão de seu viés ideológico contrário à bancada majoritária da Câmara constitui legítimo exercício da seleção técnica de coleções.\"* | **ERRADO** | Trata-se de hipótese cabal de **CENSURA POLÍTICO-IDEOLÓGICA**, vedada expressamente pelo art. 220, § 2º, da CF/88 e pelos princípios da IFLA. |\n\n**Aplicação e recuperação:** Reescreva “sempre eficiente, logo eficaz” indicando uma situação em que o produto custa pouco mas não responde à necessidade.",
+  teoriaDidaticaMarkdown: "Planejamento exige missão, diagnóstico e desdobramento; prazos não são leis universais. SWOT depende da unidade analisada, BSC articula hipóteses da estratégia. Produtividade não comprova eficiência, que não implica eficácia. Indicadores precisam de contexto e denominadores. COUNTER conta usos; não mede diretamente aprendizagem. Política de coleções fundamenta seleção e resiste à censura.",
   checkpoints: [
-    {
-      id: 'cp-5-1-1',
-      pergunta: 'Micro-Checkpoint 1: Níveis de Planejamento em Unidades de Informação',
-      item: 'O planejamento estratégico de uma biblioteca é uma prerrogativa exclusiva dos níveis de direção da organização mantenedora, cabendo à equipe de bibliotecários atuar restritamente no planejamento operacional e na execução de rotinas.',
-      gabarito: 'E',
-      justificativa: 'Errado! O bibliotecário deve atuar como gestor e líder estratégico da unidade de informação, participando ativamente da formulação estratégica, tática e operacional da biblioteca.',
-    },
-    {
-      id: 'cp-5-1-2',
-      pergunta: 'Micro-Checkpoint 2: Eficiência e Eficácia segundo Lancaster',
-      item: 'Na avaliação de serviços de informação segundo Lancaster, a eficácia está relacionada ao nível de alcance das metas e à satisfação das necessidades informacionais dos usuários, ao passo que a eficiência foca na otimização de recursos e custos aplicados.',
-      gabarito: 'C',
-      justificativa: 'Correto! Eficácia foca nos fins e no atendimento ao usuário; eficiência foca nos meios e na economia de recursos/processos.',
-    },
-    {
-      id: 'cp-5-1-3',
-      pergunta: 'Micro-Checkpoint 3: Censura versus Seleção de Coleções (IFLA e CF/88)',
-      item: 'A recusa de inclusão ou o expurgo de uma obra de renome acadêmico do acervo de uma biblioteca parlamentar, motivados exclusivamente por discordância ideológica ou partidária de autoridade da Casa com as ideias do autor, configura ato legítimo de seleção técnica discricionária.',
-      gabarito: 'E',
-      justificativa: 'Errado! Conforme as diretrizes internacionais da IFLA (Manifesto sobre Liberdade Intelectual, 1999) e a Constituição Federal de 1988 (art. 5º, IX e art. 220, § 2º), a exclusão de obras por motivações ideológicas, morais ou políticas caracteriza CENSURA arbitrária, sendo vedada no ordenamento jurídico pátrio. A seleção técnica rege-se pelo pluralismo e por critérios objetivos previstos formalmente na Política de Desenvolvimento de Coleções, que atua como escudo institucional da biblioteca.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-5-1-1',
-        periodo: 'Década de 1970-1980',
-        disciplina: 'Administração de Bibliotecas',
-        focoPrincipal: 'Transição da gestão patrimonial e mecanicista para o planejamento formal de serviços',
-        figuraChave: 'Maria Christina Barbosa de Almeida e Alba Maciel',
-      },
-      {
-        id: 'tl-5-1-2',
-        periodo: '1988 / 1996',
-        disciplina: 'Avaliação de Bibliotecas',
-        focoPrincipal: 'Sistematização da avaliação de custo-eficácia, insumos, produtos e benefícios',
-        figuraChave: 'F. W. Lancaster',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-5-1-1',
-        nome: 'Maria Christina Barbosa de Almeida',
-        ano: 2005,
-        obraPrincipal: 'Planejamento de bibliotecas e serviços de informação',
-        ideiaChave: 'Processo dinâmico, participativo e proativo articulado aos níveis estratégico, tático e operacional.',
-        chipPegadinha: 'Planejamento não é estático nem exclusivo da alta direção.',
-      },
-      {
-        id: 'aut-5-1-2',
-        nome: 'F. W. Lancaster',
-        ano: 1996,
-        obraPrincipal: 'Avaliação de serviços de bibliotecas',
-        ideiaChave: 'Tríade de custos, eficácia e benefícios; indicadores de insumos, processos e produtos.',
-        chipPegadinha: 'Eficiência não garante eficácia: baixo custo pode coexistir com insatisfação total.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-5-1-1',
-        afirmacao: 'O planejamento bibliotecário caracteriza-se como processo esporádico, elaborado prioritariamente em situações de crise organizacional.',
-        gabarito: 'E',
-        porQue: 'O planejamento é um processo contínuo, dinâmico e preventivo/proativo, não uma medida emergencial episódica.',
-      },
-      {
-        id: 'peg-5-1-2',
-        afirmacao: 'A missão de uma unidade de informação deve ser definida exclusivamente com base nos produtos físicos que ela produz no presente.',
-        gabarito: 'E',
-        porQue: 'A missão declara a função e razão social da biblioteca e seu papel estratégico articulado aos objetivos da instituição mantenedora.',
-      },
-    ],
+  {
+    "id": "cp-5-1-1",
+    "pergunta": "Micro-Checkpoint 1: Níveis de Planejamento em Unidades de Informação",
+    "item": "O planejamento estratégico de uma biblioteca é uma prerrogativa exclusiva dos níveis de direção da organização mantenedora, cabendo à equipe de bibliotecários atuar restritamente no planejamento operacional e na execução de rotinas.",
+    "gabarito": "E",
+    "justificativa": "Errado! O bibliotecário deve atuar como gestor e líder estratégico da unidade de informação, participando ativamente da formulação estratégica, tática e operacional da biblioteca.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "versao_correta": "A equipe bibliotecária contribui para os diferentes níveis de planejamento da unidade."
   },
+  {
+    "id": "cp-5-1-2",
+    "pergunta": "Micro-Checkpoint 2: Eficiência e Eficácia segundo Lancaster",
+    "item": "Na avaliação de serviços de informação segundo Lancaster, a eficácia está relacionada ao nível de alcance das metas e à satisfação das necessidades informacionais dos usuários, ao passo que a eficiência foca na otimização de recursos e custos aplicados.",
+    "gabarito": "C",
+    "justificativa": "Correto! Eficácia foca nos fins e no atendimento ao usuário; eficiência foca nos meios e na economia de recursos/processos.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º."
+  },
+  {
+    "id": "cp-5-1-3",
+    "pergunta": "Micro-Checkpoint 3: Censura versus Seleção de Coleções (IFLA e CF/88)",
+    "item": "A recusa de inclusão ou o expurgo de uma obra de renome acadêmico do acervo de uma biblioteca parlamentar, motivados exclusivamente por discordância ideológica ou partidária de autoridade da Casa com as ideias do autor, configura ato legítimo de seleção técnica discricionária.",
+    "gabarito": "E",
+    "justificativa": "Errado! Conforme as diretrizes internacionais da IFLA (Manifesto sobre Liberdade Intelectual, 1999) e a Constituição Federal de 1988 (art. 5º, IX e art. 220, § 2º), a exclusão de obras por motivações ideológicas, morais ou políticas caracteriza CENSURA arbitrária, sendo vedada no ordenamento jurídico pátrio. A seleção técnica rege-se pelo pluralismo e por critérios objetivos previstos formalmente na Política de Desenvolvimento de Coleções, que atua como escudo institucional da biblioteca.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "versao_correta": "A exclusão exclusivamente ideológica caracteriza censura, e não seleção técnica."
+  },
+  {
+    "id": "rt-5-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um prazo de cinco anos é suficiente, por si só, para classificar qualquer atividade como planejamento estratégico.",
+    "gabarito": "E",
+    "justificativa": "A natureza do planejamento depende de alcance, decisões e objetivos, não apenas de duração.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "editalRef": "Bloco D - Item 4.1 a 4.6 e 4.9",
+    "habilidade": "aplicar",
+    "versao_correta": "O prazo deve ser analisado junto ao alcance e à natureza das decisões."
+  },
+  {
+    "id": "rt-5-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma fragilidade interna pode estar parcialmente fora do controle imediato do gestor da biblioteca.",
+    "gabarito": "C",
+    "justificativa": "Interno não significa totalmente controlável. A unidade de análise e a governança importam.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "editalRef": "Bloco D - Item 4.1 a 4.6 e 4.9",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-5-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma contagem elevada de registros catalogados comprova eficiência, mesmo que não sejam conhecidos os recursos utilizados nem a qualidade dos registros.",
+    "gabarito": "E",
+    "justificativa": "Produtividade, recursos, qualidade e comparação precisam ser considerados.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "editalRef": "Bloco D - Item 4.1 a 4.6 e 4.9",
+    "habilidade": "aplicar",
+    "versao_correta": "A contagem isolada não comprova eficiência."
+  },
+  {
+    "id": "rt-5-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Relatórios COUNTER padronizam contagens de uso, mas não comprovam, por si, que o leitor aprendeu com o conteúdo.",
+    "gabarito": "C",
+    "justificativa": "Uso registrado não é medida direta de compreensão ou aprendizagem.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "editalRef": "Bloco D - Item 4.1 a 4.6 e 4.9",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-5-1-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A discordância partidária com o autor basta para fundamentar a retirada de um livro que atende à política de coleções.",
+    "gabarito": "E",
+    "justificativa": "O fundamento exclusivamente ideológico configura censura, não avaliação técnica.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "editalRef": "Bloco D - Item 4.1 a 4.6 e 4.9",
+    "habilidade": "aplicar",
+    "versao_correta": "A decisão deve observar critérios técnicos, direitos e pluralidade."
+  },
+  {
+    "id": "rt-5-1-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Eficácia e eficiência podem apresentar resultados distintos no mesmo serviço.",
+    "gabarito": "C",
+    "justificativa": "Uma entrega pode economizar recursos e não resolver a necessidade, ou atingir o objetivo com desperdício.",
+    "fonte": "ISO 11620:2023 — Library performance indicators — Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.; Vergueiro — Desenvolvimento de coleções — Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.; COUNTER Metrics — Metrics — Investigations, Requests e escolha de métricas conforme a pergunta.; IFLA — Statement on Libraries and Intellectual Freedom — Liberdade intelectual e resistência à censura.; Constituição Federal — Arts. 5º, IX, e 220, § 2º.",
+    "editalRef": "Bloco D - Item 4.1 a 4.6 e 4.9",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-5-1-fonte-iso11620",
+      "nome": "ISO 11620:2023 — Library performance indicators",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ISO 11620:2023 — Library performance indicators",
+      "ideiaChave": "Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-5-1-fonte-60aa44d218a8",
+      "nome": "Vergueiro — Desenvolvimento de coleções",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Vergueiro — Desenvolvimento de coleções",
+      "ideiaChave": "Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-5-1-fonte-counter",
+      "nome": "COUNTER Metrics — Metrics",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "COUNTER Metrics — Metrics",
+      "ideiaChave": "Investigations, Requests e escolha de métricas conforme a pergunta.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-5-1-fonte-ifla",
+      "nome": "IFLA — Statement on Libraries and Intellectual Freedom",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "IFLA — Statement on Libraries and Intellectual Freedom",
+      "ideiaChave": "Liberdade intelectual e resistência à censura.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-5-1-fonte-cf",
+      "nome": "Constituição Federal",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Constituição Federal",
+      "ideiaChave": "Arts. 5º, IX, e 220, § 2º.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-5-1-4",
+      "afirmacao": "Relatórios COUNTER padronizam contagens de uso, mas não comprovam, por si, que o leitor aprendeu com o conteúdo.",
+      "gabarito": "C",
+      "porQue": "Uso registrado não é medida direta de compreensão ou aprendizagem."
+    },
+    {
+      "id": "memoria-rt-5-1-5",
+      "afirmacao": "A discordância partidária com o autor basta para fundamentar a retirada de um livro que atende à política de coleções.",
+      "gabarito": "E",
+      "porQue": "O fundamento exclusivamente ideológico configura censura, não avaliação técnica."
+    },
+    {
+      "id": "memoria-rt-5-1-6",
+      "afirmacao": "Eficácia e eficiência podem apresentar resultados distintos no mesmo serviço.",
+      "gabarito": "C",
+      "porQue": "Uma entrega pode economizar recursos e não resolver a necessidade, ou atingir o objetivo com desperdício."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-5-1-bloco-1",
+    "titulo": "Fundamentos e Filosofia do Planejamento Estratégico Bibliotecário",
+    "objetivos": [
+      "Distinguir níveis por alcance e decisões, sem prazos universais."
+    ],
+    "conteudo": "O planejamento em unidades de informação contemporâneas deixou de ser um mero instrumento burocrático de previsão orçamentária e converteu-se em **ferramenta de gestão estratégica essencial** para a sobrevivência, inovação e legitimidade social das bibliotecas públicas e parlamentares (**Maria Christina Barbosa de Almeida, 2005; Alba Costa Maciel & Marília Alvarenga Mendonça, 2000**).\n\n```timeline\nPE | 1. Planejamento Estratégico | Longo Prazo (3 a 5+ anos) | Foco macroinstitucional: missão, visão de futuro, valores éticos, análise SWOT e alinhamento com a mantenedora\n---> Desdobramento Setorial\nPT | 2. Planejamento Tático | Médio Prazo (1 a 2 anos) | Foco departamental: programas de aquisição, projetos de conservação, captação de recursos e gestão de referência\n---> Detalhamento Operacional\nPO | 3. Planejamento Operacional | Curto Prazo (diário/mensal) | Foco procedimental: rotinas de catalogação, escalas de balcão, cronogramas de tarefas e checklists de metas\n```\n\n#### A. Conceito e Princípios do Planejamento\nConforme Almeida (2005), o planejamento é um **processo contínuo, dinâmico, participativo e flexível** de tomada de decisões racionais sobre o futuro da unidade de informação:\n1. **Proatividade vs. Reatividade:** O planejamento visa antecipar tendências tecnológicas e demandas de informação da sociedade, em vez de apenas reagir a crises orçamentárias ou espaciais.\n2. **Alinhamento Institucional:** A biblioteca universitária ou parlamentar não possui missão autônoma dissociada da instituição mantenedora. Seus objetivos estratégicos devem refletir e subsidiar diretamente a missão da instituição matriz (na Câmara dos Deputados: subsidiar o processo legislativo, a fiscalização orçamentária e o controle social da cidadania).\n3. **Diagnóstico Situacional Prévio:** Antes de estabelecer metas futuras, é indispensável realizar um diagnóstico detalhado da realidade da unidade (quadro de pessoal, acervo, infraestrutura predial, tecnologia e necessidades reais dos usuários).\n\n#### B. As Três Dimensões Hierárquicas do Planejamento\n* **1. Planejamento Estratégico:**\n  * Horizonte temporal de longo prazo (horizonte definido pela instituição, frequentemente plurianual, sem prazo universal);\n  * Abrange a organização como um todo e seu relacionamento com o ambiente externo;\n  * Define a **Missão** (razão de existir da instituição, seu propósito social perene), a **Visão de Futuro** (onde a biblioteca almeja estar em um horizonte temporal) e os **Valores** (princípios éticos inegociáveis de conduta);\n  * Liderado pelo bibliotecário-gestor em interlocução direta com a alta administração.\n* **2. Planejamento Tático:**\n  * Horizonte intermediário definido pela instituição (não obrigatoriamente 1 a 2 anos);\n  * Ocupa-se das grandes áreas funcionais ou seções da biblioteca (Processamento Técnico, Atendimento e Referência, Tecnologia da Informação, Preservação e Obras Raras);\n  * Desdobra os objetivos estratégicos em programas, projetos específicos e alocação orçamentária setorial.\n* **3. Planejamento Operacional:**\n  * Curto prazo (execução diária, semanal ou mensal);\n  * Foco na execução prática e no cumprimento de metas quantificadas;\n  * Materializa-se em manuais de serviços, fluxogramas de trabalho, cronogramas de tarefas (*Gantt*) e procedimentos operacionais padrão (POPs).\n\n**Aplicação e recuperação:** Um plano de cinco anos com instruções de balcão não é estratégico apenas pelo prazo. Observe alcance, vínculo com a missão e tipo de decisão.",
+    "checkpointIds": [
+      "cp-5-1-1",
+      "rt-5-1-1"
+    ]
+  },
+  {
+    "id": "sub-5-1-bloco-2",
+    "titulo": "Metodologias e Ferramentas Estratégicas: Matriz SWOT e Balanced Scorecard (BSC)",
+    "objetivos": [
+      "Definir unidade de análise na SWOT e hipóteses no BSC."
+    ],
+    "conteudo": "#### A. A Matriz SWOT / FOFA em Bibliotecas\nA Análise SWOT avalia o posicionamento estratégico considerando a origem dos fatores e seu efeito sobre os objetivos:\n\n| Ambiente de Análise | Fatores Positivos (Alavancadores) | Fatores Negativos (Restritivos) |\n| :--- | :--- | :--- |\n| **Ambiente Interno**<br>*(Fatores internos, com diferentes graus de influência da gestão)* | **FORÇAS (*Strengths*):**<br>• Equipe técnica altamente qualificada e concursada;<br>• Acervo histórico relevante à missão;<br>• Infraestrutura tecnológica moderna com OPAC rápido. | **FRAQUEZAS (*Weaknesses*):**<br>• Espaço físico saturado nas estantes;<br>• Atraso no processamento técnico de doações;<br>• Falta de sinalização predial acessível. |\n| **Ambiente Externo**<br>*(Fatores externos à unidade analisada; podem admitir negociação e influência)* | **OPORTUNIDADES (*Opportunities*):**<br>• Avanço de verbas de emendas para inteligência artificial;<br>• Cooperação com a rede RVBI e Portal LexML;<br>• Crescente demanda social por transparência pública. | **AMEAÇAS (*Threats*):**<br>• Contingenciamento ou corte de orçamento federal;<br>• Crise fiscal que afeta a assinatura de bases internacionais;<br>• Mudanças bruscas na legislação de direitos autorais. |\n\n> [!CAUTION]\n> **Casca de Banana Cebraspe nº 1:** Assertiva típica de distrator afirma que *\"o corte orçamentário decorrente de diretriz governamental constitui uma fraqueza interna da biblioteca\"*. Isso é **ERRADO**! O corte orçamentário externo é uma **AMEAÇA** (ambiente externo incontrolável). Fraqueza é uma deficiência interna da própria unidade (como obsolescência de computadores ou desorganização de estantes).\n\n#### B. O Balanced Scorecard (BSC) de Kaplan & Norton Adaptado a Bibliotecas\nO BSC traduz a estratégia em objetivos operacionais equilibrados sob quatro perspectivas interligadas por hipóteses de relações de causa e efeito, que precisam ser acompanhadas:\n1. **Perspectiva dos Usuários / Clientes:** Como os parlamentares, servidores e cidadãos enxergam a biblioteca? (Métricas: taxa de satisfação, tempo de resposta na referência, índice de uso do OPAC).\n2. **Perspectiva dos Processos Internos:** Em quais processos internos a biblioteca deve alcançar a excelência? (Métricas: tempo médio de catalogação e indexação de novas obras, taxa de catalogação cooperativa na RVBI, índice de preservação preventiva).\n3. **Perspectiva do Aprendizado e Crescimento (Pessoas e Inovação):** Como podemos continuar melhorando e agregando valor? (Métricas: horas de capacitação da equipe em RDA/MARC21/IA, índice de retenção de talentos, clima organizacional).\n4. **Perspectiva Financeira / Orçamentária:** Como gerenciamos os recursos públicos para maximizar o retorno à sociedade? (Métricas: custo por consulta atendida, índice de execução orçamentária, custo de manutenção de assinaturas de bases).\n\n---\n\n\n\nNa administração pública, a missão e o valor entregue à sociedade podem orientar o topo do mapa estratégico; a perspectiva financeira funciona como condição de sustentabilidade e responsabilidade. A adaptação do BSC não torna obrigatório copiar a hierarquia de uma empresa lucrativa. Na SWOT, defina a unidade de análise: orçamento imposto pela mantenedora pode ser fator externo à biblioteca e interno à organização inteira.\n\n**Aplicação e recuperação:** Corte imposto pela mantenedora é externo à biblioteca, mas a fronteira muda ao analisar a organização inteira. Declare qual unidade é avaliada.",
+    "checkpointIds": [
+      "rt-5-1-2"
+    ]
+  },
+  {
+    "id": "sub-5-1-bloco-3",
+    "titulo": "Avaliação de Serviços de Bibliotecas segundo F. W. Lancaster (1996)",
+    "objetivos": [
+      "Separar produtividade, eficiência, eficácia e valoração de benefícios."
+    ],
+    "conteudo": "No tratado canônico *Avaliação de Serviços de Bibliotecas*, **F. W. Lancaster** estabeleceu os fundamentos teóricos da avaliação de desempenho:\n\n```timeline\nI | 1. Insumos (Inputs) | Recursos e Estrutura | Orçamento público, quadro de bibliotecários, espaço físico, equipamentos e acervo disponível\n---> Aplicação Operacional\nP | 2. Processos (Throughput) | Métricas de Eficiência | Produtividade da equipe, velocidade de catalogação na RVBI, rotinas de processamento e conservação\n---> Entregas Concretas\nS | 3. Produtos (Outputs) | Serviços Disponibilizados | Volume de consultas atendidas no balcão, empréstimos realizados e downloads no repositório BDCam\n---> Avaliação de Valor\nR | 4. Resultados e Impacto (Outcomes) | Métricas de Eficácia | Resolução da lacuna cognitiva do usuário, subsídio a votos parlamentares e satisfação do leitor\n```\n\n#### A. A Distinção Vital entre Eficiência e Eficácia\n* **Eficiência (Foco nos Meios e Processos):** Mede a relação entre os insumos aplicados e a produtividade alcançada (fazer as coisas direito, com o menor custo e desperdício de tempo). Exemplo: *50 livros catalogados por pessoa/dia é medida de produtividade; só permite avaliar eficiência quando se conhecem recursos, qualidade, complexidade e uma referência de comparação*.\n* **Eficácia (Foco nos Fins e Resultados):** Mede o grau em que o serviço satisfaz as reais necessidades informacionais dos usuários (fazer a coisa certa que resolve o problema). Exemplo: *entregar ao parlamentar exatamente a doutrina que ele necessita para fundamentar um voto em plenário*.\n* **Contraste de avaliação:** Um serviço de biblioteca pode ser **extremamente eficiente** (custar muito pouco e operar com grande velocidade burocrática) e ao mesmo tempo ser **completamente ineficaz** (porque as informações entregues não atendem à necessidade do usuário e geram insatisfação).\n\n#### B. Custo-Eficácia vs. Custo-Benefício\n* **Análise de Custo-Eficácia (*Cost-Effectiveness*):** Relaciona custos a resultados de eficácia em unidades pertinentes ao objetivo. Um custo por documento é indicador de custo unitário; sua interpretação exige saber se o documento atende à necessidade. Expressa-se em unidades quantitativas de serviço (ex.: *custo de R$ 15,00 por documento recuperado via empréstimo entre bibliotecas*).\n* **Análise de Custo-Benefício (*Cost-Benefit*):** Compara custos e benefícios expressos em base monetária comum, quando possível. Benefícios intangíveis podem exigir valoração estimada e pressupostos explícitos; descrever qualitativamente valor social não basta para completar uma análise monetária de custo-benefício (ex.: *o valor econômico e democrático de aprovar uma lei bem fundamentada em estudos fornecidos pela biblioteca parlamentar*).\n\n**Aplicação e recuperação:** Duas equipes produzem 50 registros/dia, mas uma deixa 20 com erros. Sem qualidade e recursos, a contagem não prova eficiência superior.",
+    "checkpointIds": [
+      "cp-5-1-2",
+      "rt-5-1-3"
+    ]
+  },
+  {
+    "id": "sub-5-1-bloco-4",
+    "titulo": "A Norma Internacional ISO 11620: Indicadores de Desempenho para Bibliotecas",
+    "objetivos": [
+      "Escolher indicadores válidos e explicitar denominadores e contexto."
+    ],
+    "conteudo": "A **ISO 11620:2023** especifica requisitos e indicadores de desempenho de bibliotecas. Sua aplicação demanda definições operacionais, população, período, método de coleta e contexto. Não basta atribuir a qualquer fração o rótulo de indicador ISO.\n\nUm indicador precisa ser informativo, confiável, válido e adequado à finalidade, permitir coleta praticável e admitir comparações justificadas. Consistência da medição não garante validade: contar cliques de forma reproduzível pode continuar medindo algo diferente de aprendizagem ou satisfação.\n\n| Pergunta | Indicador possível e cautela |\n|---|---|\n| Quanto demora o processamento? | Tempo entre recebimento e disponibilidade, com marcos definidos; mediana e percentis podem revelar filas que a média esconde. |\n| Os documentos pedidos estão disponíveis? | Proporção de demandas atendidas no período e contexto definidos; não confundir disponibilidade com relevância. |\n| Quanto custa cada uso? | Custo elegível dividido por usos comparáveis. Denominador zero exige tratamento específico; não produzir custo zero. |\n| O serviço alcança seu objetivo? | Medida de atendimento de necessidades, associada a evidências de uso e avaliação do usuário. |\n\n**COUNTER** padroniza estatísticas de uso eletrônico. **SUSHI** automatiza sua obtenção. São complementares, sem equivalência com ISO 11620. Para textos integrais, Unique_Item_Requests pode ser pertinente; para livros comparados entre plataformas, Unique_Title_Requests pode responder melhor à pergunta. Uma investigação de resumo não equivale a requisição de conteúdo integral.\n\nMetas, séries históricas e comparações devem considerar diferenças de missão e público. Uma biblioteca de preservação pode manter itens de baixíssima circulação porque sua finalidade inclui memória. Indicador isolado não determina sucesso nem autoriza descartar acervo.\n\n**Aplicação e recuperação:** R$ 12.000 por 600 requisições elegíveis resulta em R$ 20 por requisição. Isso não demonstra que cada documento foi lido ou útil.",
+    "checkpointIds": [
+      "rt-5-1-4"
+    ]
+  },
+  {
+    "id": "sub-5-1-bloco-5",
+    "titulo": "Censura, Liberdade Intelectual e a Política de Coleções como Escudo Institucional (Edital Bloco D, item 4.9)",
+    "objetivos": [
+      "Diferenciar seleção justificada de exclusão ideológica."
+    ],
+    "conteudo": "No contexto das bibliotecas públicas, universitárias e parlamentares, a salvaguarda da **liberdade intelectual** constitui um dos pilares deontológicos mais expressivos da profissão bibliotecária e do Estado Democrático de Direito (**IFLA, 1999; Waldomiro Vergueiro, 1989; Simone Weitzel, 2013**):\n\n#### A. A Distinção Teórica Vital: Seleção Técnica vs. Censura Arbitrária\nUm item de julgamento pode apresentar a tentativa de disfarçar atos de censura ideológica sob o manto de \"discricionariedade técnica na seleção\":\n\n* **Seleção Técnica:**\n  * É um processo **positivo, planejado, inclusivo e transparente**, fundamentado em critérios técnicos objetivos pré-fixados no documento formal de Política de Desenvolvimento de Coleções (PDC);\n  * Orienta-se pelo estudo das necessidades da comunidade, representatividade do pensamento científico/filosófico, autoridade, atualidade e equilíbrio de correntes antagônicas;\n  * O objetivo da seleção é **construir um acervo plural e representativo** da sociedade.\n* **Censura Arbitrária:**\n  * É um processo **negativo, excludente, coercitivo e autoritário**, motivado por preconceitos morais, dogmas religiosos, intolerância política ou pressões corporativas de grupos hegemônicos;\n  * Consiste na rejeição a priori de livros, na rotulagem pejorativa discriminatória de obras ou na retirada forçada (expurgo) de materiais legalmente incorporados ao acervo, com o propósito de **impedir que os cidadãos tenham acesso a ideias divergentes**.\n\n#### B. O Manifesto da IFLA sobre a Liberdade Intelectual e de Expressão (1999 / Declaração de Glasgow 2002)\nA *International Federation of Library Associations and Institutions* (IFLA) estabeleceu princípios universais inegociáveis:\n1. **O Acesso Livre à Informação como Direito Humano:** Fundamenta-se no Artigo 19 da Declaração Universal dos Direitos Humanos (DUDH/ONU);\n2. **Rejeição a Toda Forma de Censura:** As bibliotecas devem disponibilizar seus acervos e serviços a todos os membros da comunidade, rejeitando qualquer censura de natureza ideológica, política ou religiosa promovida pelo Estado ou por grupos de pressão;\n3. **Imparcialidade Pessoal do Bibliotecário:** O profissional de informação tem o dever ético de assegurar que suas próprias convicções pessoais, crenças religiosas ou preferências partidárias não se convertam em critérios arbitrários que excluam perspectivas na seleção, catalogação, disponibilização ou descarte de obras;\n4. **Resistência às Pressões Externas:** As bibliotecas devem resistir ativamente a exigências de censura impostas por indivíduos, grupos organizados ou autoridades governamentais.\n\n#### C. Arcabouço Constitucional Brasileiro (CF/88)\nA Constituição da República Federativa do Brasil de 1988 consagrou garantias expressas de vedação à censura:\n* **Art. 5º, inciso IX:** *\"É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença\"*;\n* **Art. 220, caput:** *\"A manifestação do pensamento, a criação, a expressão e a informação, sob qualquer forma, processo ou veículo não sofrerão qualquer restrição, observado o disposto nesta Constituição\"*;\n* **Art. 220, § 2º (Vedação constitucional):** *\"É vedada toda e qualquer censura de natureza política, ideológica e artística\"*.\n\n#### D. A Política de Desenvolvimento de Coleções (PDC) como Escudo Institucional no Parlamento\nNo ambiente do Poder Legislativo, onde convivem bancadas partidárias com visões de mundo polarizadas, a biblioteca pública parlamentar (Biblioteca Pedro Aleixo) está sob constante escrutínio:\n* **O Caráter Político da PDC:** Uma política aprovada pela instância institucional competente pode funcionar como **escudo protetor legal e técnico** para a equipe de bibliotecários;\n* **Caso Concreto de Pressão Externa:** Se um parlamentar ou grupo de pressão exigir a retirada de circulação de uma obra sobre direitos humanos, diversidade ou história política sob alegação de \"conteúdo impróprio\", o bibliotecário não cede à arbitrariedade: ampara-se formalmente na PDC aprovada, na CF/88 (arts. 5º, IX, e 220, § 2º) e no Código de Ética do Bibliotecário (CFB) para demonstrar que a presença da obra atende aos critérios técnicos de pluralismo e representatividade do acervo.\n\n#### E. Matriz Comparativa Estruturada: Seleção Técnica vs. Censura Arbitrária\n\n| Critério de Confronto | Seleção Técnica de Acervos | Censura Ideológica de Acervos |\n| :--- | :--- | :--- |\n| **Natureza do Ato** | Positiva, técnica, democrática e inclusiva. | Negativa, arbitrária, coercitiva e excludente. |\n| **Fundamentação** | Documento formal escrito de política e estudo da comunidade. | Preconceito moral, dogma religioso ou conveniência partidária. |\n| **Objetivo Primordial** | Enriquecer o acervo com a diversidade do pensamento humano. | Suprimir o acesso público a ideias e visões divergentes. |\n| **Ator Decisório** | Comissão técnica multidisciplinar e corpo de bibliotecários. | Grupos de pressão, autoridades autoritárias ou censores individuais. |\n| **Conformidade Jurídica** | Plena adesão à CF/88 (Art. 5º, IX) e Manifesto da IFLA (1999). | Violação frontal da CF/88 (Art. 220, § 2º) e do Código de Ética Profissional. |\n\n**Aplicação e recuperação:** Uma obra fora do escopo pode ser recusada por critérios registrados. Recusá-la exclusivamente porque critica a direção é outro fundamento: censura.",
+    "checkpointIds": [
+      "cp-5-1-3",
+      "rt-5-1-5"
+    ]
+  },
+  {
+    "id": "sub-5-1-bloco-6",
+    "titulo": "Contrastes para julgamento — itens autorais",
+    "objetivos": [
+      "Julgar afirmações identificando condição, âmbito e finalidade."
+    ],
+    "conteudo": "| Item autoral de treinamento | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"O planejamento estratégico de uma biblioteca compete exclusivamente à alta administração do órgão mantenedor, cabendo aos bibliotecários apenas o planejamento operacional.\"* | **ERRADO** | O bibliotecário deve atuar como líder estratégico da unidade de informação, participando ativamente de **todos os níveis** de planejamento. |\n| *\"Um serviço de biblioteca que atinge alto índice de eficiência operacional é necessariamente eficaz no atendimento às necessidades dos usuários.\"* | **ERRADO** | Eficiência diz respeito ao uso econômico de recursos (meios); um serviço eficiente pode ser **ineficaz** se entregar informações inúteis ao usuário. |\n| *\"Na análise SWOT aplicada a bibliotecas parlamentares, o corte de verbas orçamentárias imposto pelo Congresso Nacional classifica-se como fraqueza interna.\"* | **ERRADO** | Cortes orçamentários governamentais decorrem do ambiente externo incontrolável, configurando uma **AMEAÇA** (e não fraqueza). |\n| *\"A análise de custo-benefício expressa estritamente a relação matemática entre os custos financeiros e as unidades físicas de produtos catalogados.\"* | **ERRADO** | Custos por unidade física são indicadores de custo unitário; a análise de custo-eficácia relaciona custos a resultados definidos. A de **custo-benefício** exige valoração comparável, em geral monetária, de custos e benefícios; valor social qualitativo não substitui sozinho essa análise. |\n| *\"A recusa de aquisição de um livro de autor renomado exclusivamente em razão de seu viés ideológico contrário à bancada majoritária da Câmara constitui legítimo exercício da seleção técnica de coleções.\"* | **ERRADO** | Trata-se de hipótese cabal de **CENSURA POLÍTICO-IDEOLÓGICA**, vedada expressamente pelo art. 220, § 2º, da CF/88 e pelos princípios da IFLA. |\n\n**Aplicação e recuperação:** Reescreva “sempre eficiente, logo eficaz” indicando uma situação em que o produto custa pouco mas não responde à necessidade.",
+    "checkpointIds": [
+      "rt-5-1-6"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "iso11620",
+    "titulo": "ISO 11620:2023 — Library performance indicators",
+    "localizador": "Escopo e requisitos de indicadores. Exemplos desta aula são aplicações didáticas, não reprodução de fichas normativas.",
+    "url": "https://www.iso.org/standard/83126.html"
+  },
+  {
+    "id": "60aa44d218a8",
+    "titulo": "Vergueiro — Desenvolvimento de coleções",
+    "localizador": "Política, avaliação e seleção; capítulos correspondentes do PDF do projeto.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Gest%C3%A3o%20e%20Cole%C3%A7%C3%B5es/Desenvolvimento-de-colecoes.pdf"
+  },
+  {
+    "id": "counter",
+    "titulo": "COUNTER Metrics — Metrics",
+    "localizador": "Investigations, Requests e escolha de métricas conforme a pergunta.",
+    "url": "https://www.countermetrics.org/education/metrics/"
+  },
+  {
+    "id": "ifla",
+    "titulo": "IFLA — Statement on Libraries and Intellectual Freedom",
+    "localizador": "Liberdade intelectual e resistência à censura.",
+    "url": "https://www.ifla.org/publications/ifla-statement-on-libraries-and-intellectual-freedom/"
+  },
+  {
+    "id": "cf",
+    "titulo": "Constituição Federal",
+    "localizador": "Arts. 5º, IX, e 220, § 2º.",
+    "url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+  }
+],
 };

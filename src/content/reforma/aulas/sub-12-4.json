@@ -129,11 +129,13 @@
   "checkpointEdits": {
     "chk-12-4-1": {
       "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
-      "justificativa": "\"Actually\" é um advérbio que significa \"na verdade\", \"de fato\" ou \"realmente\" (indicando ênfase factual). A ideia temporal de \"no momento presente / atualmente\" é expressa em inglês por \"currently\", \"at present\" ou \"nowadays\"."
+      "justificativa": "\"Actually\" é um advérbio que significa \"na verdade\", \"de fato\" ou \"realmente\" (indicando ênfase factual). A ideia temporal de \"no momento presente / atualmente\" é expressa em inglês por \"currently\", \"at present\" ou \"nowadays\".",
+      "versao_correta": "No trecho apresentado, actually significa na verdade ou de fato; não indica por si só que a ação ocorre no momento presente."
     },
     "chk-12-4-2": {
       "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
-      "justificativa": "O texto original emprega o modal \"may\", que indica mera POSSIBILIDADE (pode reduzir), e o verbo \"reduce\" (reduzir). A assertiva substitui essa possibilidade por certeza absoluta (\"certamente\") e amplia indevidamente para extinção total dos custos."
+      "justificativa": "O texto original emprega o modal \"may\", que indica mera POSSIBILIDADE (pode reduzir), e o verbo \"reduce\" (reduzir). A assertiva substitui essa possibilidade por certeza absoluta (\"certamente\") e amplia indevidamente para extinção total dos custos.",
+      "versao_correta": "A frase original indica possibilidade de reduzir custos operacionais nas bibliotecas parlamentares, sem afirmar certeza nem extinção de custos de manutenção."
     },
     "chk-12-4-3": {
       "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",

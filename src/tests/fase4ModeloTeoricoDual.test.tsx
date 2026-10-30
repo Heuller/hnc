@@ -133,6 +133,14 @@ describe('Fase 4: Modelo Teórico Dual, Metadados e Vida Real (W5)', () => {
     }
   });
 
+  it('respeita a seleção explícita de 1.1 mesmo após acesso a outra aula', () => {
+    useProgressStore.setState({ ultimoModuloAcessado: '10.6' });
+    useNavigationStore.setState({ selectedSubmodule: '1.1' });
+    render(<TeoriaPage />);
+    expect(document.getElementById('sub-1-1-bloco-1')).not.toBeNull();
+    expect(document.getElementById('sub-10-6-bloco-1')).toBeNull();
+  });
+
   it('deve renderizar o seletor dual na TeoriaPage e permitir alternar entre Teoria Canônica e Modo Prático', () => {
     useNavigationStore.setState({ selectedSubmodule: '1.1' });
     render(<TeoriaPage />);
@@ -153,7 +161,8 @@ describe('Fase 4: Modelo Teórico Dual, Metadados e Vida Real (W5)', () => {
     expect(btnDidatica.getAttribute('aria-pressed')).toBe('true');
     expect(btnCanonica.getAttribute('aria-pressed')).toBe('false');
     expect(screen.getByRole('heading', { name: 'Revisão essencial' })).toBeDefined();
-    expect(screen.getByText(/Visão Direta em 3 Minutos/i)).toBeDefined();
+    expect(document.querySelectorAll('[id^="sub-1-1-bloco-"]').length).toBe(0);
+    expect(useProgressStore.getState().obterModoTeoria('sub-1-1')).toBe('didatica');
 
     // Retorna para Teoria Canônica
     fireEvent.click(btnCanonica);

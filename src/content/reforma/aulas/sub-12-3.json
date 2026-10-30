@@ -118,10 +118,12 @@
   "checkpointEdits": {
     "chk-12-3-1": {
       "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
-      "justificativa": "No trecho dado, which relaciona a instabilidade ao acontecimento da renúncia inesperada. Não se refere unicamente à pessoa do primeiro-ministro. Essa análise depende da construção e do sentido; não estabelece que toda vírgula com which produza o mesmo tipo de referência."
+      "justificativa": "No trecho dado, which relaciona a instabilidade ao acontecimento da renúncia inesperada. Não se refere unicamente à pessoa do primeiro-ministro. Essa análise depende da construção e do sentido; não estabelece que toda vírgula com which produza o mesmo tipo de referência.",
+      "versao_correta": "Na frase apresentada, which retoma o acontecimento expresso na oração anterior — a renúncia inesperada do primeiro-ministro — e não apenas o indivíduo Prime Minister."
     },
     "chk-12-3-2": {
-      "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
+      "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+      "versao_correta": "Na frase apresentada, the latter retoma electronic journals, o segundo dos dois elementos mencionados."
     },
     "chk-12-3-3": {
       "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."

@@ -1,0 +1,260 @@
+{
+  "id": "sub-9-4",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-9-4-bloco-1",
+      "titulo": "As Disciplinas Métricas da Informação",
+      "objetivos": [
+        "Relacionar disciplinas métricas com fronteiras sobrepostas."
+      ],
+      "conteudo": "O campo dos estudos métricos desenvolveu-se historicamente para quantificar a produção, a circulação e o uso da informação registrada, ramificando-se em quatro subdisciplinas com escopos relacionados e parcialmente sobrepostos; as fronteiras variam entre autores:\n\n```tree\nTITLE: Disciplinas Métricas da Informação e Suas Fronteiras\n- Informetria (Otto Nacke, 1979) | Superconjunto: mensuração de qualquer fluxo informacional (formal e informal) em qualquer suporte\n  - Cientometria (Nalimov e Mulchenko; contribuições de Price) | Estudo quantitativo da ciência como atividade social e insumo para políticas científicas (Science Policy)\n  - Bibliometria (Otlet, 1934 / Pritchard, 1969) | Aplicação matemática e estatística sobre livros, periódicos, artigos e documentos registrados\n    - Webometria / Cibermetria (Almind & Ingwersen, 1997) | Análise quantitativa de nós, sítios eletrônicos e redes de hiperlinks na World Wide Web\n    - Altmetria (Jason Priem et al., 2010) | Métricas de atenção e atenção registrada em diferentes ambientes em redes sociais, blogs, Wikipédia e políticas públicas\n```\n\n* **Bibliometria:** Termo cunhado por **Paul Otlet** em 1934 (*Traité de Documentation*) e consolidado no ocidente por **Alan Pritchard** em 1969 (*Statistical bibliography or bibliometrics?*). Aplica técnicas estatísticas e matemáticas a livros, artigos, periódicos e suportes físicos/digitais registrados.\n* **Cientometria (*Scientometrics*):** Proposta pelo matemático russo **Vasily Nalimov** e disseminada pelo historiador da ciência **Derek de Solla Price**. Trata dos aspectos quantitativos da ciência como instituição social e processo econômico, servindo de subsídio direto para governos na elaboração de **políticas públicas científicas e tecnológicas (*Science Policy*)**.\n* **Informetria (*Informetrics*):** Proposta pelo alemão **Otto Nacke** em 1979 e desenvolvida por Egghe e Rousseau. É o ramo mais abrangente de todos, pois investiga o fluxo e as propriedades matemáticas da informação em **qualquer forma, canal, suporte e contexto comunicativo**, abrangendo tanto os registros formais quanto a comunicação informal humana.\n* **Altmetria (*Altmetrics*):** Movimento iniciado em 2010 pelo manifesto de **Jason Priem, Dario Taraborelli, Paul Groth e Cameron Neylon**. Mensura a atenção, o engajamento e a circulação social de produtos de pesquisa na Web social (Twitter/X, Facebook, Mendeley, Zotero, blogs científicos, Wikipédia, notícias jornalísticas e documentos governamentais de políticas públicas).\n  * *Atenção Cebraspe:* A altmetria não substitui a contagem de citações acadêmicas tradicionais; ela atua como **métrica complementar**, registrando sinais de atenção e circulação. Atenção não prova impacto social positivo, qualidade ou aceitação; citações também podem surgir rapidamente.\n\n**Aplicação e recuperação:** Um estudo de hiperlinks pode dialogar com webometria e informetria. O recorte metodológico importa mais que uma árvore universal de disciplinas.",
+      "checkpointIds": [
+        "rt-9-4-1"
+      ]
+    },
+    {
+      "id": "sub-9-4-bloco-2",
+      "titulo": "As Três Leis Fundamentais da Bibliometria",
+      "objetivos": [
+        "Aplicar leis a distribuições sem universalizar resultados."
+      ],
+      "conteudo": "#### A. Lei de Bradford (1934) — Dispersão e Produtividade de Periódicos\nSamuel Clement Bradford estudou a distribuição de artigos sobre tópicos específicos (como geofísica aplicada e lubrificação) em milhares de revistas:\n* **Enunciado Teórico:** Se periódicos científicos forem ordenados em ordem decrescente de sua produtividade de artigos sobre determinado assunto, eles podem ser divididos em um **núcleo (*core*)** de periódicos altamente dedicados ao tema e várias **zonas sucessivas**, contendo cada zona o **mesmo número total de artigos** que o núcleo.\n* **Proporção Geométrica de Bradford:** O número de títulos de periódicos no núcleo e nas zonas subsequentes cresce em progressão geométrica:\n  $1 : n : n^2 : n^3 \\dots$\n  A razão normaliza o número de periódicos pelo núcleo; **1 não significa necessariamente um único periódico**. Se o núcleo tem k títulos, uma aproximação em três zonas é k, kn e kn². A regularidade é empírica e não exige ajuste perfeito em qualquer corpus.\n\n```timeline\nZ1 | Núcleo Central (Core) | Proporção: 1 | Poucos títulos de periódicos altamente especializados que concentram 1/3 do total de artigos da área\n---> Dispersão Geométrica (multiplicador n)\nZ2 | Zona 2: Intermediária | Proporção: 1 × n | Quantidade moderada de periódicos correlatos publicando a mesma quantidade total de artigos que o núcleo\n---> Dispersão Máxima (multiplicador n²)\nZ3 | Zona 3: Periferia Dispersa | Proporção: 1 × n² | Grande massa de periódicos gerais ou de outras áreas, cada um publicando raros artigos sobre o tema\n```\n\n* *Aplicação Prática no Parlamento e em Bibliotecas:* A Lei de Bradford fundamenta a **política de seleção, aquisição racional e desbaste/cancelamento de assinaturas**. A dispersão ajuda a identificar concentração temática, mas não autoriza adquirir apenas o núcleo: em três zonas equiprodutivas, o núcleo reúne aproximadamente um terço dos artigos observados, não a maioria. Custo, relevância e missão exigem avaliação própria.\n* **Curva e desvios:** a representação e seus desvios dependem da construção do corpus e dos eixos. O chamado desvio de Groos não deve ser ensinado como prova de uma única causa necessária em qualquer conjunto. Verifique ordenação, cobertura, truncamento e ajuste antes de interpretar a curva.\n\n#### B. Lei de Lotka (1926) — Produtividade de Autores\nAlfred J. Lotka investigou a distribuição de publicações na área da física e da química no século XIX:\n* **Enunciado Teórico (Regra do Quadrado Inverso):** O número de autores que publicam $n$ artigos em um determinado campo do saber é inversamente proporcional a $n^2$:\n  $A_n = \\frac{A_1}{n^2}$\n  Onde $A_n$ é o número de autores que publicam $n$ artigos, e $A_1$ é o número de autores que publicam apenas 1 artigo.\n* **Consequência Empírica:**\n  * Na forma idealizada de expoente 2, aproximadamente **60,8% dos autores produzem um artigo** no corpus e período observados; isso não descreve necessariamente toda a carreira ($A_1 \\approx 0{,}60$ do total);\n  * O número de autores que publicam 2 artigos é de cerca de $1/4$ ($25\\%$) de $A_1$;\n  * O expoente e o ajuste variam em estudos empíricos. A aproximação de 60% não é regra de qualidade ou garantia de distribuição em qualquer área.\n\n#### C. Lei de Zipf (1949) — Princípio do Menor Esforço e Frequência de Palavras\nO linguista norte-americano George Kingsley Zipf analisou obras em linguagem natural (como o romance *Ulysses* de James Joyce):\n* **Primeira Lei de Zipf (Lei do Menor Esforço):** Se as palavras distintas de um texto longo forem ordenadas em ordem decrescente de sua frequência absoluta ($f$), o produto da ordem no ranking ($r$) pela frequência ($f$) é aproximadamente constante ($C$):\n  $r \\times f = C$\n* **Ponto de Transição de Goffman e Zona de Indexação (H. P. Luhn e F. W. Lancaster):**\n\n```timeline\nZTOPO | 1. Alta Frequência (Topo) | Stop Words Gramaticais | Palavras funcionais de altíssima frequência ('de', 'a', 'em', 'que') com frequentemente baixo poder discriminativo nesse modelo, mas relevantes em certas consultas\n---> Transição para a Faixa Ótima\nZMEIO | 2. Frequência Intermediária | Zona de Luhn / Ponto de Goffman | Termos conceituais e temáticos substantivos: faixa candidata à indexação em certas heurísticas e extração de descritores\n---> Cauda Longa de Frequência\nZBASE | 3. Baixa Frequência (Base) | Hapax Legomena | Palavras raras de ocorrência única: podem ser ruído ou termos altamente informativos; baixa frequência não implica irrelevância\n```\n\n* *Aplicação na Indexação Automática:* Alguns modelos utilizam cortes de frequência; outros preservam termos raros e palavras funcionais quando necessários. Frequência sozinha não determina descritor autorizado nem adequação semântica. Luhn e Goffman são referências distintas, sem uma identidade automática entre suas heurísticas.\n\n**Aplicação e recuperação:** Se o núcleo tem 4 revistas e n=3, três zonas aproximadas podem ter 4, 12 e 36 títulos, com produção semelhante por zona. Não são obrigatoriamente 1, 3 e 9 revistas.",
+      "checkpointIds": [
+        "cp-9-4-1",
+        "rt-9-4-2"
+      ]
+    },
+    {
+      "id": "sub-9-4-bloco-3",
+      "titulo": "Indicadores de Citação e Avaliação Científica",
+      "objetivos": [
+        "Calcular indicadores e explicitar base, janela e limitações."
+      ],
+      "conteudo": "#### A. Fator de Impacto (*Journal Impact Factor - JIF*) de Eugene Garfield\nCalculado anualmente pelo **Journal Citation Reports (JCR)** no âmbito da Web of Science (Clarivate Analytics):\n$\\text{FI}_{\\text{Ano } A} = \\frac{\\text{Citações recebidas no Ano } A \\text{ por itens publicados nos Anos } (A-1) \\text{ e } (A-2)}{\\text{Número total de itens citáveis publicados nos Anos } (A-1) \\text{ e } (A-2)}$\n\n* **Pegadinha Crucial Cebraspe sobre os \"Itens Citáveis\":**\n  * O denominador computa apenas **artigos originais de pesquisa e artigos de revisão** (*citable items*);\n  * Cartas ao editor, notas, resenhas de livros, erratas e editoriais **são excluídos do denominador**;\n  * No entanto, se um editorial ou carta receber citações de outros trabalhos, essas citações entram normalmente no **numerador**! Essa assimetria histórica permite distorções e manipulações artificiais do FI por comitês editoriais.\n* **Índice de Imediatismo (*Immediacy Index*):** Mede a velocidade com que os artigos de uma revista são citados logo após serem publicados. Divide as citações recebidas no próprio ano $A$ pelos artigos publicados no mesmo ano $A$.\n\n#### B. Métricas do Ecossistema Scopus (Elsevier)\n* **CiteScore:** No cálculo anual atual, considera citações durante quatro anos a documentos elegíveis publicados nesses mesmos quatro anos, divididas por esses documentos. Inclui artigos, revisões, trabalhos de conferência, capítulos e data papers indexados. Não basta substituir “2” por “4” na fórmula do JIF.\n* **SCImago Journal Rank (SJR):** Desenvolvido pelo grupo SCImago (Félix de Moya-Anegón) na Universidade de Granada com base no algoritmo *PageRank* do Google. Atribui pesos diferentes às citações recebidas: **uma citação vinda de uma revista de altíssimo prestígio (ex.: *Nature*) vale muito mais** do que uma citação oriunda de um periódico periférico.\n* **SNIP (*Source Normalized Impact per Paper*):** Criado por Henk Moed (Universidade de Leiden); corrige e normaliza as variações nas práticas de citação entre diferentes campos do conhecimento, apoiando comparações com normalização de contexto, sem eliminar todos os vieses ou dispensar a interpretação por área.\n\n#### C. O Índice h de Jorge Hirsch (2005)\nFormulado pelo físico argentino Jorge E. Hirsch para mensurar a produtividade e o impacto acumulado de um pesquisador individual:\n* **Definição Canônica:** Um cientista tem índice $h$ se $h$ de seus $N$ artigos publicados receberam pelo menos $h$ citações cada um, e os demais $(N - h)$ artigos receberam no máximo $h$ citações cada um.\n* **Exemplo Prático de Ordenação para Provas:**\n  Organizam-se os artigos em ordem decrescente de citações:\n  * Artigo 1: 52 citações $\\ge 1$\n  * Artigo 2: 38 citações $\\ge 2$\n  * Artigo 3: 20 citações $\\ge 3$\n  * Artigo 4: 15 citações $\\ge 4$\n  * Artigo 5: 8 citações $\\ge 5$\n  * Artigo 6: 6 citações $\\ge 6$\n  * Artigo 7: 4 citações $< 7$ (Interrupção!)\n  * *Resultado:* O autor possui **índice h = 6** (possui 6 artigos com pelo menos 6 citações).\n\n```tree\nTITLE: Avaliação do Índice h de Jorge Hirsch (Balanço Crítico)\n- Análise Crítica do Índice h | Indicador de produtividade e impacto cumulativo de autores e periódicos\n  - Vantagens do Índice h | Equilíbrio entre volume quantitativo e impacto qualitativo\n    - Menor sensibilidade a Outliers | Não cresce sem limite apenas pelo excesso de citações de um único artigo supercitado isolado\n    - Síntese Única | Resume produtividade (nº de artigos) e consistência (citações mínimas) em um só número\n    - Facilidade de Cálculo | Cálculo direto a partir da ordenação decrescente de citações em bases indexadas\n  - Limitações e Vieses (Cebraspe) | Distorções estruturais cobradas em concursos públicos\n    - Incomparabilidade Interdisciplinar | Não permite comparar cientistas de áreas distintas (imunologia vs. matemática)\n    - Viés de Senilidade da Carreira | Favorece carreiras longevas e aposentados em detrimento de jovens pesquisadores\n    - Monotonicidade Permanente | Não diminui quando o conjunto é fixo e apenas se acrescentam citações; correção de dados, retirada de registros ou mudança de base podem reduzi-lo\n    - Desconsideração da Coautoria | Atribui exatamente o mesmo peso a todos os coautores de um artigo coletivo\n```\n\n* **Limites para interpretar o indicador:**\n  1. *Incomparabilidade Interdisciplinar:* Áreas como imunologia e física têm taxas massivas de citação, gerando índices $h$ altíssimos; áreas como matemática, história e ciências sociais possuem taxas lentas de citação, gerando índices $h$ baixos sem que isso signifique menor qualidade.\n  2. *Vieses de Tempo de Carreira:* Um cientista sênior aposentado continuará acumulando citações e pode ter vantagem por acumulação de publicações e citações, mas não terá necessariamente índice superior ao de todo jovem pesquisador.\n  3. *Ignora a Ordem de Autoria:* Trata com o mesmo peso o autor principal e o 50º coautor de um artigo biomédico massivo.\n  4. *Índice g de Leo Egghe (2006):* Criado como alternativa ao índice $h$ para dar mais peso aos artigos do autor que se tornaram \"supercitados\" (*citation classics*).\n\n---\n\n\n\nPara o índice **g**, ordenam-se os trabalhos por citações e busca-se o maior g para o qual os g trabalhos mais citados acumulam pelo menos g² citações. Nos índices h e g, declare base, data, critérios de autoria e cobertura. Nem citações nem os índices medem diretamente qualidade.\n\n**Aplicação e recuperação:** Ordene 10, 8, 5, 4 e 2 citações: h=4. Uma correção que reduza o quarto artigo a três citações pode alterar o resultado observado.",
+      "checkpointIds": [
+        "cp-9-4-2",
+        "rt-9-4-3"
+      ]
+    },
+    {
+      "id": "sub-9-4-bloco-4",
+      "titulo": "Análise de Citação Avançada: Acoplamento Bibliográfico, Cocitação e Redes de Coautoria",
+      "objetivos": [
+        "Distinguir vínculos e condições de estabilidade nas redes."
+      ],
+      "conteudo": "Além da contagem direta de citações recebidas por um documento, a bibliometria contemporânea fundamenta-se nas relações estruturais estabelecidas pelas citações, com destaque para duas técnicas clássicas e a análise de redes sociais (ARS):\n\n#### A. Acoplamento Bibliográfico (*Bibliographic Coupling* — M. M. Kessler, 1963)\n* **Definição Teórica:** Ocorre quando dois artigos ($A$ e $B$) citam **um ou mais documentos em comum** em suas respectivas listas de referências bibliográficas.\n* **Direção Temporal e Estabilidade (Questão Certa de Prova):**\n  * O acoplamento bibliográfico é uma medida **retrospectiva** (olha para o passado, conectando artigos pelas fontes que ambos consultaram);\n  * A intensidade de acoplamento entre dois artigos é fixa **se forem mantidas as mesmas versões e listas de referências**. Correções de registros e versões podem modificar a medida observada;\n  * **Aplicação Principal:** Mapeamento de frentes de pesquisa contemporâneas (*research fronts*) e agrupamento de artigos recentes que operam sob a mesma tradição teórica ou metodológica, mesmo antes de receberem qualquer citação.\n\n#### B. Cocitação (*Co-citation* — Henry Small, 1973 e Irina Marshakova, 1973)\n* **Definição Teórica:** Ocorre quando dois documentos independentes ($A$ e $B$) são **citados conjuntamente por um terceiro documento posterior ($C$)**.\n* **Direção Temporal e Dinamicidade (Pegadinha do Cebraspe):**\n  * A cocitação é uma medida **prospectiva** (olha para o futuro, dependendo de como a comunidade científica continuará citando os trabalhos no decorrer dos anos);\n  * A frequência de cocitação é **dinâmica e variável no tempo**: a ligação muda conforme novos documentos citantes e recortes. Em contagem acumulada com corpus apenas crescente, a contagem bruta não cai; uma janela móvel ou medida normalizada pode cair;\n  * **Aplicação Principal:** Mapeamento da estrutura intelectual de um campo, identificação de escolas de pensamento históricas, revoluções científicas e clássicos seminais da literatura (*paradigm shifts*).\n\n| Dimensão Comparativa | Acoplamento Bibliográfico (Kessler, 1963) | Cocitação (Small, 1973 / Marshakova, 1973) |\n|---|---|---|\n| **Definição Operacional** | Artigos $A$ e $B$ citam a mesma referência $C$ | Artigos $A$ e $B$ são citados juntos pelo artigo $C$ |\n| **Unidade de Ligação** | Referências compartilhadas no passado | Citações recebidas conjuntamente no futuro |\n| **Direção Temporal** | Retrospectiva (olha para o passado) | Prospectiva (olha para a literatura subsequente) |\n| **Comportamento Temporal** | Fixo com documentos e referências mantidos constantes | **Dinâmico, mutável e cumulativo** |\n| **Objeto de Mapeamento** | Frentes de pesquisa ativas / emergentes | Estrutura intelectual consolidada / escolas de pensamento |\n\n#### C. Redes de Coautoria e Análise de Redes Sociais (ARS)\nA produção científica em regime de colaboração é mapeada pela teoria dos grafos e ARS:\n* **Topologia do Grafo Científico:**\n  * **Nós (Vértices):** Representam os autores, pesquisadores ou instituições;\n  * **Arestas (Laços):** Representam os artigos publicados em colaboração formal (coautoria). O peso da aresta reflete o número de artigos conjuntos.\n* **Métricas de Centralidade Topológica (Linton C. Freeman, 1978/1979):**\n  1. **Centralidade de Grau (*Degree Centrality*):** Número direto de laços de um autor com outros pesquisadores (número de coautores diretos). Identifica os nós mais ativos e conectados localmente.\n  2. **Centralidade de Intermediação (*Betweenness Centrality*):** Frequência com que um nó se posiciona no caminho geodésico (caminho mais curto) conectando outros pares de nós na rede.\n     * *Importância Estratégica em Concursos:* Um pesquisador com poucas publicações diretas pode apresentar **altíssima intermediação** se atuar como o **único elo (\"ponte\" ou *broker*)** entre dois grupos de pesquisa isolados que não colaboram entre si.\n  3. **Centralidade de Proximidade (*Closeness Centrality*):** Mede a facilidade e rapidez com que um autor alcança todos os outros nós da rede (calculada como o inverso da soma das distâncias mínimas). Indica independência funcional e agilidade na circulação de informações.\n  4. **Centralidade de Autovetor (*Eigenvector Centrality*):** Pondera as conexões não apenas pela quantidade, mas pela relevância e prestígio dos nós aos quais o autor está conectado. Conexões com nós de alta centralidade podem elevar a medida. PageRank é medida relacionada, mas possui definição própria e não é sinônimo de autovetor simples.\n\n---\n\n\n\nEm redes desconectadas, a definição de proximidade exige cuidado com distâncias infinitas, componentes e normalizações. Coautoria formal é sinal de colaboração, sem registrar toda colaboração real nem garantir igual contribuição. A forma do grafo, direção e peso devem ser declarados.\n\n**Aplicação e recuperação:** A e B citam C: acoplamento. C cita A e B: cocitação. A seta define a relação; a data isolada não substitui a análise.",
+      "checkpointIds": [
+        "cp-9-4-3",
+        "rt-9-4-4"
+      ]
+    },
+    {
+      "id": "sub-9-4-bloco-5",
+      "titulo": "Altmetria (*Altmetrics*): Métricas de Atenção Social e Impacto Público",
+      "objetivos": [
+        "Separar atenção, menção, qualidade e efeito social."
+      ],
+      "conteudo": "O termo **Altmetria** (*Alternative Metrics*) foi consolidado no artigo seminal de **Jason Priem, Dario Taraborelli, Paul Groth e Cameron Neylon** (2010), intitulado *Altmetrics: A manifesto*:\n\n#### A. Fundamentos e Necessidade\n* A comunicação científica tradicional depende de canais formais (periódicos e citações) que podem apresentar tempos diferentes de acumulação de citações; não há espera obrigatória de dois a cinco anos por métricas bibliométricas tradicionais.\n* Com a disseminação da Web 2.0 e da Ciência Aberta, a circulação do conhecimento ocorre em ambientes informais e acelerados: redes sociais, blogs acadêmicos, pré-prints, repositórios institucionais e documentos governamentais de políticas públicas.\n* **Princípio da Complementaridade:** A altmetria **não substitui** a avaliação por pares (*peer review*) nem as citações acadêmicas clássicas; ela atua como **indicador complementar**, oferecendo rastreabilidade em tempo quase real da atenção e circulação em fontes monitoradas, sem provar impacto social de pesquisas.\n\n#### B. Fontes e Tipologias Altmétricas\n* **Redes Sociais e Difusão Imediata:** Menções no X/Twitter, Bluesky, Facebook, Reddit e YouTube;\n* **Gerenciadores de Referências Pessoais:** Leitores salvando o trabalho no Mendeley e Zotero (indicador precoce de futura citação acadêmica formal);\n* **Plataformas Abertas Colaborativas:** Menções e citações em verbetes da Wikipédia e posts de blogs de divulgação científica reconhecidos;\n* **Impacto em Políticas Públicas (*Policy Documents*):** Citações do artigo em notas técnicas de órgãos reguladores, relatórios de comissões parlamentares (Câmara dos Deputados e Senado) e documentos de organizações internacionais (OMS, UNESCO, Banco Mundial) — rastreados por ferramentas como Overton;\n* **Cobertura da Imprensa (*News Outlets*):** Reportagens em jornais de grande circulação citando diretamente o DOI da pesquisa.\n\n#### C. Provedores e Painéis Visuais: Altmetric.com vs. PlumX\n* **Altmetric Attention Score (Altmetric.com):** Representado pelo famoso **\"Donut Altmétrico\"**, cuja pontuação numérica pondera diferentes fontes de menção (ex.: uma menção na grande imprensa ou documento de política pública possui peso numérico muito superior a um tweet isolado). As cores dos anéis do donut refletem as diferentes categorias de fontes de atenção.\n* **PlumX Metrics (Elsevier):** Agrupa os sinais em **5 categorias padronizadas**:\n  1. *Usage* (Uso): downloads, visualizações de resumo, cliques e acessos HTML/PDF;\n  2. *Captures* (Capturas): salvamentos no Mendeley, favoritos e bookmarks (indicador líder de citações);\n  3. *Mentions* (Menções): notícias jornalísticas, posts em blogs, comentários e verbetes da Wikipédia;\n  4. *Social Media* (Redes Sociais): tweets, compartilhamentos e curtidas públicas;\n  5. *Citations* (Citações): contagem tradicional de citações acadêmicas e citações em patentes.\n\n---\n\n\n\nCobertura e fontes de cada provedor mudam. Menções podem ser críticas, negativas, automatizadas ou coordenadas. Não some contagens de plataformas como se representassem pessoas únicas ou adesão. Verifique o conteúdo das menções e as regras do provedor; o Altmetric Attention Score mede atenção, não qualidade.\n\n**Aplicação e recuperação:** Um artigo recebe muitas menções por ter sido retratado. Atenção elevada pode coexistir com baixa credibilidade.",
+      "checkpointIds": [
+        "rt-9-4-5"
+      ]
+    },
+    {
+      "id": "sub-9-4-bloco-6",
+      "titulo": "Sistemas Institucionais de Avaliação: Qualis-CAPES, DORA e Leiden",
+      "objetivos": [
+        "Aplicar regras de avaliação segundo ciclo e finalidade."
+      ],
+      "conteudo": "#### A. Qualis e a transição da CAPES\n\nQualis-Periódicos deve ser interpretado conforme o **ciclo avaliativo**. A CAPES informa que a lista de **2021–2024** se destina à classificação de artigos daquele período e que **não utilizará Qualis-Periódicos no ciclo 2025–2028**. A avaliação passa a focalizar artigos conforme critérios das áreas e do ciclo, que podem considerar indicadores dos veículos e dos próprios artigos.\n\nPortanto, não é correto ensinar “A1 a B4 em diante” como regra permanente de avaliação futura, nem atribuir automaticamente estrato C a todo periódico que não aparece numa lista. Ausência de classificação não prova caráter predatório ou inexistência de qualidade. Listas históricas continuam úteis para perguntas sobre o período correspondente.\n\n#### B. A Declaração DORA (San Francisco Declaration on Research Assessment, 2012)\nAssinada por cientistas e editores durante o encontro da Sociedade Americana de Biologia Celular:\n* **Princípio Fundamental:** O **Fator de Impacto de um periódico NÃO deve ser utilizado** como substituto da qualidade de um artigo de pesquisa individual, nem para avaliar contribuições de cientistas individuais para contratação, estabilidade acadêmica ou financiamento de projetos.\n* Defende que a pesquisa seja avaliada por seus próprios méritos intelectuais e científicos, reconhecendo que artigos de excelência são publicados em revistas de menor fator de impacto.\n\n#### C. O Manifesto de Leiden (Hicks, Wouters et al., 2015)\nConjunto de dez princípios canônicos para orientar o uso responsável de indicadores métricos na avaliação da pesquisa científica:\n1. *A avaliação quantitativa deve apoiar, e nunca substituir, o julgamento qualitativo de especialistas (*peer review*)*;\n2. *Medir o desempenho de acordo com a missão da instituição ou do pesquisador*;\n3. *Proteger a excelência na pesquisa relevante localmente (em idiomas locais e contextos regionais)*;\n4. *Manter processos de coleta e cálculo de dados totalmente abertos e transparentes*;\n5. *Permitir que os pesquisadores avaliados verifiquem seus próprios dados e cálculos*;\n6. *Considerar as diferenças sistemáticas entre áreas do conhecimento nas práticas de publicação e citação*;\n7. *Basear a avaliação de cientistas individuais em um julgamento qualitativo de seu portfólio, e não em um número métrico único*;\n8. *Evitar precisão ilusória e falsas certezas geradas por rankings lineares*;\n9. *Reconhecer e mitigar os efeitos sistêmicos e as perversões causadas pelos próprios indicadores*;\n10. *Escrutinar e atualizar os indicadores periodicamente*.\n\n**Aplicação e recuperação:** Uma pergunta sobre 2021–2024 pede a regra daquele ciclo. Uma sobre 2025–2028 não deve receber a lista histórica como se fosse permanente.",
+      "checkpointIds": [
+        "rt-9-4-6"
+      ]
+    },
+    {
+      "id": "sub-9-4-bloco-7",
+      "titulo": "Revisão das Vias do Acesso Aberto (Open Access)",
+      "objetivos": [
+        "Revisar vias de acesso aberto sem inferir financiamento pelo indexador."
+      ],
+      "conteudo": "Conectando-se ao compromisso de universalização do conhecimento:\n* **Via Dourada (*Gold Open Access*):** Publicação em revistas de acesso aberto imediato. Pode ser financiada por taxas de processamento de artigos (**APC - *Article Processing Charges***) pagas pelo autor ou instituição, ou gratuita.\n* **Via Verde (*Green Open Access*):** Autoarquivamento (*self-archiving*) pelo próprio pesquisador de versões pré-print (antes da revisão) ou pós-print (artigo aceito após revisão) em **repositórios institucionais ou temáticos abertos**, respeitando eventuais períodos de embargo editorial.\n* **Via Diamante ou Platina (*Diamond / Platinum Open Access*):** Publicação em periódicos totalmente abertos que **NÃO cobram taxas de ninguém** — nem dos leitores (acesso 100% gratuito) nem dos autores (sem cobrança de APC). É encontrado em diversas instituições e países; a presença na SciELO não prova, isoladamente, ausência de taxas de publicação.\n\n**Aplicação e recuperação:** Uma revista indexada pode cobrar APC. Confira as condições do periódico antes de chamá-la de diamante.",
+      "checkpointIds": [
+        "rt-9-4-7"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "Bradford: dispersão de artigos entre periódicos; Lotka: produtividade de autores; Zipf: frequência e posição de palavras. São regularidades, não garantias. h exige maior patamar atendido e corpus definido. Acoplamento compartilha referências; cocitação compartilha documento citante. Atenção não prova qualidade. Qualis é histórico por ciclo; a CAPES mudou a avaliação para 2025–2028. DORA e Leiden defendem avaliação contextualizada.",
+  "fontesTeoria": [
+    {
+      "id": "b98794d31710",
+      "titulo": "Chueke e Amatucci — O que é bibliometria? Uma introdução ao Fórum (2015)",
+      "localizador": "PDF do projeto, pp. 1–4: objeto, escolha do método, rigor e limites; as fórmulas da aula são sínteses didáticas das regularidades clássicas.",
+      "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Comunica%C3%A7%C3%A3o%20cient%C3%ADfica%2C%20Ci%C3%AAncia%20Aberta%20e%20m%C3%A9tricas/ilan%2C%2B0.000%2B-%2B%5BArtigo%2Bconvidado%5D%2BO%2Bque%2B%C3%A9%2Bbibliometria%2B-%2BUma%2Bintrodu%C3%A7%C3%A3o%2Bao%2Bf%C3%B3rum.pdf"
+    },
+    {
+      "id": "hirsch",
+      "titulo": "Hirsch — An index to quantify an individual’s scientific research output (2005)",
+      "localizador": "Definição e limites do índice h.",
+      "url": "https://arxiv.org/abs/physics/0508025"
+    },
+    {
+      "id": "citescore",
+      "titulo": "Elsevier — What is CiteScore?",
+      "localizador": "Quatro anos de citações e documentos elegíveis na mesma janela.",
+      "url": "https://www.elsevier.support/scopus/answer/what-is-citescore"
+    },
+    {
+      "id": "jcr",
+      "titulo": "Clarivate — Journal Profile",
+      "localizador": "Contribuições de tipos documentais ao numerador e itens citáveis.",
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351430970001-Journal-Profile"
+    },
+    {
+      "id": "altmetric",
+      "titulo": "Altmetric — Attention Score",
+      "localizador": "Atenção pode ser positiva ou negativa; não mede qualidade.",
+      "url": "https://www.altmetric.com/about-us/our-data/donut-and-altmetric-attention-score/"
+    },
+    {
+      "id": "plumx",
+      "titulo": "Elsevier — PlumX Metrics",
+      "localizador": "Cinco categorias e respectivas fontes.",
+      "url": "https://www.elsevier.support/sciencedirect/answer/what-are-article-metrics"
+    },
+    {
+      "id": "capes",
+      "titulo": "CAPES — Qualis na Avaliação Quadrienal 2021–2024",
+      "localizador": "Lista restrita ao ciclo e descontinuidade para 2025–2028.",
+      "url": "https://www.gov.br/capes/pt-br/assuntos/noticias/sobre-o-qualis-periodicos-na-avaliacao-quadrienal-2021-2024"
+    },
+    {
+      "id": "dora",
+      "titulo": "DORA — Declaration on Research Assessment",
+      "localizador": "Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "url": "https://sfdora.org/read/"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-9-4-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "As fronteiras entre disciplinas métricas são invariáveis e impedem que um mesmo estudo dialogue com mais de uma área.",
+      "gabarito": "E",
+      "justificativa": "Escopos e tradições se sobrepõem.",
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "editalRef": "Bloco E - Item 4.1 a 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "O desenho do estudo pode articular diferentes abordagens métricas."
+    },
+    {
+      "id": "rt-9-4-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Na razão 1:n:n² de Bradford, o núcleo deve conter necessariamente um único periódico.",
+      "gabarito": "E",
+      "justificativa": "A razão é normalizada; o núcleo pode ter k títulos.",
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "editalRef": "Bloco E - Item 4.1 a 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "As zonas podem ser aproximadas por k, kn e kn² títulos."
+    },
+    {
+      "id": "rt-9-4-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O índice h observado pode diminuir após correção dos dados ou mudança do corpus.",
+      "gabarito": "C",
+      "justificativa": "A não diminuição pressupõe conjunto mantido e apenas acréscimo de citações.",
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "editalRef": "Bloco E - Item 4.1 a 4.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-9-4-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Em uma contagem acumulada de cocitações com corpus apenas crescente, a frequência bruta de um par necessariamente cai com o tempo.",
+      "gabarito": "E",
+      "justificativa": "Adicionar registros não diminui contagem bruta; janelas móveis e normalização são situações distintas.",
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "editalRef": "Bloco E - Item 4.1 a 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "A contagem bruta não cai sob essas condições, embora outras medidas possam cair."
+    },
+    {
+      "id": "rt-9-4-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma menção negativa pode contribuir para uma medida de atenção altmétrica.",
+      "gabarito": "C",
+      "justificativa": "Atenção não equivale a aprovação ou qualidade.",
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "editalRef": "Bloco E - Item 4.1 a 4.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-9-4-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A CAPES mantém Qualis-Periódicos como classificação permanente obrigatória para o ciclo 2025–2028.",
+      "gabarito": "E",
+      "justificativa": "A comunicação oficial distingue os ciclos e informa a descontinuidade desse sistema para 2025–2028.",
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "editalRef": "Bloco E - Item 4.1 a 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "É necessário consultar os critérios de artigos e de área aplicáveis ao novo ciclo."
+    },
+    {
+      "id": "rt-9-4-7",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Indexação na SciELO comprova, sozinha, que não há cobrança de APC no periódico.",
+      "gabarito": "E",
+      "justificativa": "Condições de cobrança devem ser verificadas no veículo.",
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "editalRef": "Bloco E - Item 4.1 a 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "SciELO e modelo diamante não são categorias equivalentes."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-9-4-1": {
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "versao_correta": "A descrição corresponde à dispersão de Bradford, não à produtividade de Lotka."
+    },
+    "cp-9-4-2": {
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico."
+    },
+    "cp-9-4-3": {
+      "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
+      "item": "Mantidas as mesmas versões e listas de referências de dois documentos, seu acoplamento bibliográfico permanece fixo; já sua frequência de cocitação pode mudar quando se amplia o conjunto de documentos citantes.",
+      "justificativa": "Certo. A estabilidade do acoplamento depende das listas mantidas. Correções e mudanças de corpus podem alterar medidas observadas; numa contagem bruta de cocitações apenas acumulada, novos registros não reduzem a frequência."
+    }
+  },
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Corpus",
+      "definicao": "Conjunto de documentos ou registros efetivamente analisados, com recorte e data definidos.",
+      "exemploBiblioteca": "Alterar a janela temporal da base pode mudar índices observados de um autor."
+    },
+    {
+      "termo": "Cocitação",
+      "definicao": "Relação entre documentos citados conjuntamente por outro documento.",
+      "exemploBiblioteca": "Um terceiro artigo cita dois estudos, criando um vínculo de cocitação entre eles."
+    }
+  ],
+  "autoresChave": [
+    "Chueke e Amatucci — O que é bibliometria? Uma introdução ao Fórum (2015)",
+    "Hirsch — An index to quantify an individual’s scientific research output (2005)",
+    "Elsevier — What is CiteScore?",
+    "Clarivate — Journal Profile",
+    "Altmetric — Attention Score",
+    "Elsevier — PlumX Metrics",
+    "CAPES — Qualis na Avaliação Quadrienal 2021–2024",
+    "DORA — Declaration on Research Assessment"
+  ],
+  "descricaoCurta": "Relacionar disciplinas métricas com fronteiras sobrepostas. Aplicar leis a distribuições sem universalizar resultados. Calcular indicadores e explicitar base, janela e limitações. Distinguir vínculos e condições de estabilidade nas redes. Separar atenção, menção, qualidade e efeito social. Aplicar regras de avaliação segundo ciclo e finalidade. Revisar vias de acesso aberto sem inferir financiamento pelo indexador.",
+  "alertasCebraspe": [
+    "Escopos e tradições se sobrepõem.",
+    "A razão é normalizada; o núcleo pode ter k títulos.",
+    "Adicionar registros não diminui contagem bruta; janelas móveis e normalização são situações distintas."
+  ],
+  "tempoEstimadoMinutos": 36
+}

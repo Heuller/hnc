@@ -39,7 +39,8 @@ export const submodulo123: ModuloFilho = {
     "item": "Na sentença \"The Prime Minister resigned unexpectedly, which caused market instability\", o pronome \"which\" refere-se unicamente ao substantivo \"Prime Minister\".",
     "gabarito": "E",
     "justificativa": "No trecho dado, which relaciona a instabilidade ao acontecimento da renúncia inesperada. Não se refere unicamente à pessoa do primeiro-ministro. Essa análise depende da construção e do sentido; não estabelece que toda vírgula com which produza o mesmo tipo de referência.",
-    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "versao_correta": "Na frase apresentada, which retoma o acontecimento expresso na oração anterior — a renúncia inesperada do primeiro-ministro — e não apenas o indivíduo Prime Minister."
   },
   {
     "id": "chk-12-3-2",
@@ -47,7 +48,8 @@ export const submodulo123: ModuloFilho = {
     "item": "Em \"The library acquired both printed books and electronic journals; the latter require dedicated digital infrastructure\", a expressão \"the latter\" refere-se a \"printed books\".",
     "gabarito": "E",
     "justificativa": "Inversão da referência. A expressão \"the latter\" refere-se ao segundo/último termo citado no par (\"electronic journals\"). O primeiro termo (\"printed books\") seria retomado por \"the former\".",
-    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "versao_correta": "Na frase apresentada, the latter retoma electronic journals, o segundo dos dois elementos mencionados."
   },
   {
     "id": "chk-12-3-3",

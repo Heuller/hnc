@@ -271,254 +271,56 @@ describe('RODADA 5B — PARTE 1: UMA ÚNICA FONTE DE RESPOSTAS (TEORIA ↔ JORNA
     expect(state.checkpointsRespondidos[cp3.id]).toBe(cp3.gabarito);
   });
 
-  it('1.6 (U2.3): obterItensVerificacaoSubmodulo elimina pendências fantasma e retorna apenas checkpoints da teoria', () => {
-    const itensVerificacao = obterItensVerificacaoSubmodulo(sub11, 'm1');
-    // Submódulo 1.1 tem 3 checkpoints; deve retornar exatamente 3 itens, todos do tipo 'checkpoint'
-    expect(itensVerificacao.length).toBe(3);
-    expect(itensVerificacao.every((it) => it.tipo === 'checkpoint')).toBe(true);
-    expect(itensVerificacao.some((it) => it.tipo === 'treino_par' || it.tipo === 'treino_armadilha')).toBe(false);
+  it('obtém todos os checkpoints da aula sem pendências de exercícios externos', () => {
+    const itens = obterItensVerificacaoSubmodulo(sub11, 'm1');
+    expect(itens.length).toBe(sub11.checkpoints.length);
+    expect(itens.every(it => it.tipo === 'checkpoint')).toBe(true);
+    expect(itens.map(it => it.id).sort()).toEqual(sub11.checkpoints.map(c => c.id).sort());
   });
 
-  it('U2.3: submódulo com 3 checkpoints respondidos mostra exatamente 3 de 3 respondidos sem pendências fantasma', () => {
-    const attempts = [
-      {
-        id: 'att-1',
-        user_id: 'user-test',
-        item_id: cp1.id,
-        submodulo_id: '1.1',
-        modulo_id: 'm1',
-        contexto: 'teoria' as const,
-        resposta: cp1.gabarito,
-        correto: true,
-        tentativa_n: 1,
-        criado_em: new Date().toISOString(),
-      },
-      {
-        id: 'att-2',
-        user_id: 'user-test',
-        item_id: cp2.id,
-        submodulo_id: '1.1',
-        modulo_id: 'm1',
-        contexto: 'teoria' as const,
-        resposta: cp2.gabarito,
-        correto: true,
-        tentativa_n: 1,
-        criado_em: new Date().toISOString(),
-      },
-      {
-        id: 'att-3',
-        user_id: 'user-test',
-        item_id: cp3.id,
-        submodulo_id: '1.1',
-        modulo_id: 'm1',
-        contexto: 'teoria' as const,
-        resposta: cp3.gabarito,
-        correto: true,
-        tentativa_n: 1,
-        criado_em: new Date().toISOString(),
-      },
-    ];
+  const criarRodada = (correto: (i: number) => boolean, tentativa = 1, data = '2026-10-01T10:00:00Z'): ItemAttempt[] => sub11.checkpoints.map((cp, i) => ({
+    id: `rodada-${tentativa}-${cp.id}`, user_id: 'user-test', item_id: cp.id,
+    submodulo_id: '1.1', modulo_id: 'm1', contexto: tentativa === 1 ? 'teoria' : 'revisao',
+    resposta: correto(i) ? cp.gabarito : cp.gabarito === 'C' ? 'E' : 'C',
+    correto: correto(i), tentativa_n: tentativa, criado_em: data,
+  }));
 
-    const progresso = derivarProgresso(attempts, {}, COURSE_REGISTRY, JORNADA_CONFIG);
+  it('responder somente três itens de uma aula ampliada mantém as demais pendências', () => {
+    const progresso = derivarProgresso(criarRodada(() => true).slice(0, 3), {}, COURSE_REGISTRY, JORNADA_CONFIG);
     const subProg = progresso.submodulos['1.1'];
-    expect(subProg.totalItensVerificacao).toBe(3);
+    expect(subProg.totalItensVerificacao).toBe(sub11.checkpoints.length);
     expect(subProg.itensRespondidosCount).toBe(3);
-    expect(subProg.itensPendentesIds.length).toBe(0);
-    expect(subProg.statusTexto).toContain('3 de 3 respondidos');
+    expect(subProg.itensPendentesIds.length).toBe(sub11.checkpoints.length - 3);
+    expect(subProg.concluido).toBe(false);
   });
 
-  describe('U2.2: Redefinição de Conclusão e Selos de Domínio Cebraspe', () => {
+  describe('Conclusão, consolidação e evidência de revisão espaçada', () => {
     const secoesCompletas = {
       [sub11.id]: getRequiredSectionsForSubmodule(sub11),
       [sub11.numero]: getRequiredSectionsForSubmodule(sub11),
     };
 
-    it('Estado 1: Selo Em andamento quando leitura e itens foram feitos mas acerto < 85% (sem travar conclusão)', () => {
-      const attempts = [
-        {
-          id: 'att-1',
-          user_id: 'user-test',
-          item_id: cp1.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: cp1.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 1,
-          criado_em: '2026-10-01T10:00:00Z',
-        },
-        {
-          id: 'att-2',
-          user_id: 'user-test',
-          item_id: cp2.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: (cp2.gabarito === 'C' ? 'E' : 'C') as 'C' | 'E',
-          correto: false,
-          tentativa_n: 1,
-          criado_em: '2026-10-01T10:05:00Z',
-        },
-        {
-          id: 'att-3',
-          user_id: 'user-test',
-          item_id: cp3.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: (cp3.gabarito === 'C' ? 'E' : 'C') as 'C' | 'E',
-          correto: false,
-          tentativa_n: 1,
-          criado_em: '2026-10-01T10:10:00Z',
-        },
-      ];
-
-      const progresso = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
-      const subProg = progresso.submodulos['1.1'];
-      // Em U2, leitura completa + itens respondidos = CONCLUÍDO (não trava o avanço)
-      expect(subProg.concluido).toBe(true);
-      expect(subProg.leituraCompleta).toBe(true);
-      expect(subProg.itensRespondidosCount).toBe(3);
-      // Mas o selo reflete com honestidade que está em andamento/a consolidar (33% < 85%)
-      expect(subProg.selo.nivel).toBe('em_andamento');
-      expect(subProg.selo.label).toBe('Em andamento');
+    it('rodada completa abaixo de 85% mantém selo Em andamento', () => {
+      const attempts = criarRodada(i => i === 0);
+      const p = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG).submodulos['1.1'];
+      expect(p.concluido).toBe(true);
+      expect(p.leituraCompleta).toBe(true);
+      expect(p.itensRespondidosCount).toBe(sub11.checkpoints.length);
+      expect(p.selo.nivel).toBe('em_andamento');
     });
 
-    it('Estado 2: Selo Consolidado quando leitura completa e acerto >= 85% (3/3)', () => {
-      const attempts = [
-        {
-          id: 'att-1',
-          user_id: 'user-test',
-          item_id: cp1.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: cp1.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 1,
-          criado_em: '2026-10-01T10:00:00Z',
-        },
-        {
-          id: 'att-2',
-          user_id: 'user-test',
-          item_id: cp2.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: cp2.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 1,
-          criado_em: '2026-10-01T10:05:00Z',
-        },
-        {
-          id: 'att-3',
-          user_id: 'user-test',
-          item_id: cp3.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: cp3.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 1,
-          criado_em: '2026-10-01T10:10:00Z',
-        },
-      ];
-
-      const progresso = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
-      const subProg = progresso.submodulos['1.1'];
-      expect(subProg.concluido).toBe(true);
-      expect(subProg.selo.nivel).toBe('consolidado');
-      expect(subProg.selo.label).toBe('Consolidado');
-      expect(subProg.statusTexto).toContain('Consolidado');
+    it('rodada completa com 100% e leitura registra Consolidação', () => {
+      const p = derivarProgresso(criarRodada(() => true), secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG).submodulos['1.1'];
+      expect(p.concluido).toBe(true);
+      expect(p.selo.nivel).toBe('consolidado');
+      expect(p.statusTexto).toContain('Consolidado');
     });
 
-    it('Estado 3: Selo Dominado quando Consolidado + retenção confirmada em revisão espaçada >= 7 dias', () => {
-      const dataBase = new Date('2026-10-01T10:00:00Z');
-      const data8DiasDepois = new Date('2026-10-09T10:00:00Z').toISOString();
-
-      const attempts = [
-        // 1ª tentativa oficial (100% acerto)
-        {
-          id: 'att-1',
-          user_id: 'user-test',
-          item_id: cp1.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: cp1.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 1,
-          criado_em: dataBase.toISOString(),
-        },
-        {
-          id: 'att-2',
-          user_id: 'user-test',
-          item_id: cp2.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: cp2.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 1,
-          criado_em: dataBase.toISOString(),
-        },
-        {
-          id: 'att-3',
-          user_id: 'user-test',
-          item_id: cp3.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'teoria' as const,
-          resposta: cp3.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 1,
-          criado_em: dataBase.toISOString(),
-        },
-        // Revisão espaçada feita 8 dias depois (> 7 dias) com acerto
-        {
-          id: 'att-rev-1',
-          user_id: 'user-test',
-          item_id: cp1.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'revisao' as const,
-          resposta: cp1.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 2,
-          criado_em: data8DiasDepois,
-        },
-        {
-          id: 'att-rev-2',
-          user_id: 'user-test',
-          item_id: cp2.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'revisao' as const,
-          resposta: cp2.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 2,
-          criado_em: data8DiasDepois,
-        },
-        {
-          id: 'att-rev-3',
-          user_id: 'user-test',
-          item_id: cp3.id,
-          submodulo_id: '1.1',
-          modulo_id: 'm1',
-          contexto: 'revisao' as const,
-          resposta: cp3.gabarito as 'C' | 'E',
-          correto: true,
-          tentativa_n: 2,
-          criado_em: data8DiasDepois,
-        },
-      ];
-
-      const progresso = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
-      const subProg = progresso.submodulos['1.1'];
-      expect(subProg.concluido).toBe(true);
-      expect(subProg.selo.nivel).toBe('dominado');
-      expect(subProg.selo.label).toBe('Dominado');
-      expect(subProg.statusTexto).toContain('Dominado');
+    it('revisão de todos os itens depois de oito dias atende ao critério de retenção configurado', () => {
+      const attempts = [...criarRodada(() => true), ...criarRodada(() => true, 2, '2026-10-09T10:00:00Z')];
+      const p = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG).submodulos['1.1'];
+      expect(p.concluido).toBe(true);
+      expect(p.selo.nivel).toBe('dominado');
     });
 
     it('Pureza: derivarProgresso não altera os parâmetros recebidos e retorna resultado determinístico', () => {

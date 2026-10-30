@@ -76,7 +76,8 @@ export const submodulo132: ModuloFilho = {
     "item": "No trecho \"A aprovação célere da reforma tributária pode impulsionar os investimentos do setor produtivo\", a substituição de \"pode impulsionar\" por \"impulsionará\" manteria a correção gramatical e os sentidos originais do texto, uma vez que ambas as construções expressam a eficácia futura da norma.",
     "gabarito": "E",
     "justificativa": "A troca conserva uma construção gramatical possível, mas retira a modalização explícita de possibilidade em pode impulsionar. A projeção no futuro não é equivalente à mesma formulação cautelosa no contexto dado. É desnecessário afirmar que toda forma futura representa certeza absoluta.",
-    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula."
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
+    "versao_correta": "As duas construções podem ser gramaticais, mas substituir pode impulsionar por impulsionará altera a modalidade e o grau de compromisso com o resultado, sem preservar integralmente os sentidos."
   },
   {
     "id": "chk-13-2-3",

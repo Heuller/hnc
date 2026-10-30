@@ -1,0 +1,247 @@
+{
+  "id": "sub-1-4",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-1-4-bloco-1",
+      "titulo": "Habilitação, registro e leitura conjunta das normas",
+      "objetivos": [
+        "Distinguir formação, registro e atividade exercida."
+      ],
+      "conteudo": "A profissão é regulamentada pela Lei 4.084/1962 e por seu regulamento, Decreto 56.725/1965, além da Lei 9.674, de **25 de junho de 1998**. Código de Ética e regras de processo/registro complementam esse conjunto. Resolução não substitui lei e deve ser interpretada à luz da Constituição e da jurisprudência aplicável.\n\nA formação exigida e o **registro no CRB da jurisdição** são requisitos diferentes. Diploma nacional reconhecido e diploma estrangeiro revalidado têm disciplina legal; há também direitos e hipóteses transitórias expressamente resguardados. Não se resume a habilitação à frase “qualquer pessoa com um certificado” nem se apagam ressalvas legais usando “exclusivamente” sem contexto.\n\nA Lei 9.674, art. 29, trata da inscrição e da citação do número de registro em documentos de responsabilidade profissional; o art. 30 trata da carteira e cédula com fé pública. **Não é o art. 3º da Lei 4.084 que estabelece validade territorial da carteira**: esse artigo trata de cargos técnicos. Regras de registro principal, transferência e registro secundário devem ser conferidas na regulamentação, como a Resolução CFB 274/2024.\n\n**Caso resolvido:** uma pessoa concluiu curso e recebeu convite para assumir responsabilidade técnica. Não basta mudar o nome da função para “coordenador de conteúdo” se exercer atribuições regulamentadas; tampouco o diploma substitui a regularização do registro. Examine a tarefa, o vínculo e os requisitos aplicáveis.",
+      "checkpointIds": [
+        "rt-1-4-1"
+      ]
+    },
+    {
+      "id": "sub-1-4-bloco-2",
+      "titulo": "Atribuições: diferenciar dispositivo legal, serviço técnico e apoio",
+      "objetivos": [
+        "Localizar a atribuição na alínea correta e evitar delegação disfarçada."
+      ],
+      "conteudo": "O art. 6º da Lei 4.084 enumera matérias e atividades relativas à organização, direção e execução de serviços técnicos: ensino de Biblioteconomia; fiscalização de seus estabelecimentos de ensino; administração e direção de bibliotecas; organização e direção de documentação; serviços de classificação e catalogação dos materiais enumerados, bibliografia e referência. **Classificação/catalogação estão na alínea e, não na b.** Ensino está na a, não na d.\n\nO Decreto 56.725 desenvolve o campo de atuação: estudos, relatórios, pareceres, bibliografias, planejamento, implantação, orientação, supervisão e execução, conforme seu escopo. Nos arts. 6º–7º, exige assinatura por profissional registrado e número de registro para os trabalhos abrangidos. O art. 7º da Lei 4.084 prevê **preferência** em atividades relacionadas; preferência e exclusividade não são sinônimos.\n\nUma equipe pode realizar tarefas de apoio compatíveis, com organização e supervisão apropriadas; isso não permite transferir responsabilidade profissional a leigo ou assinar trabalho estranho à própria orientação e fiscalização. A antiga aula adicionava “perícias documentais” como se fosse alínea literal do art. 6º e confundia os dispositivos. Uma atribuição deve ser fundamentada sem inventar o texto da lei.\n\n**Tente julgar antes da explicação:** um auxiliar digita campos sob orientação, e o responsável revê a descrição. Isso não equivale, por si só, a um leigo assumir autonomamente catalogação e obter assinatura de fachada. A distinção exige examinar quem efetivamente orientou, supervisionou e assumiu o trabalho, não apenas quem pressionou teclas.",
+      "checkpointIds": [
+        "cp-1-4-1",
+        "rt-1-4-2"
+      ]
+    },
+    {
+      "id": "sub-1-4-bloco-3",
+      "titulo": "CFB e CRBs: fiscalização e instâncias do processo",
+      "objetivos": [
+        "Separar competências ordinárias, recurso e hipóteses originárias."
+      ],
+      "conteudo": "A Lei 4.084 cria os conselhos de fiscalização e lhes atribui personalidade de direito público e autonomia administrativa/patrimonial. CFB e CRB não são sindicatos: fiscalização do exercício, defesa corporativa trabalhista e representação associativa têm funções distintas.\n\nO CFB exerce competências de orientação normativa e julgamento de recursos; os CRBs registram, fiscalizam e apuram infrações em sua área, conforme lei e regulamento. A Lei 9.674 possui vários **artigos vetados**, especialmente no capítulo de estrutura dos conselhos: não se estuda o conteúdo vetado como regra promulgada.\n\nA **Resolução CFB 261/2023**, arts. 3º–5º, organiza primeira instância nos CRBs e segunda/última no CFB, com hipóteses de atuação originária do Federal. O art. 36 manda o Regional comunicar ao Federal a decisão que impõe cassação. Logo, é incorreto afirmar que cassação seja sempre competência privativa originária do CFB e impossível ao CRB.\n\nJulgamento disciplinar não é decisão informal de uma pessoa. A resolução prevê instrução, relator, sessão e recursos. O art. 37 prevê recurso de decisões dos tribunais de ética regionais com efeito suspensivo; regras de prazo e termo inicial devem ser consultadas na norma própria. Isso não impede o acesso ao Judiciário.\n\n**Caso resolvido:** uma decisão ética regional é impugnada. A existência da via recursal ao CFB não apaga a competência inicial do CRB. Também não autoriza o presidente a decidir sozinho sem o procedimento aplicável.",
+      "checkpointIds": [
+        "cp-1-4-2",
+        "rt-1-4-3"
+      ]
+    },
+    {
+      "id": "sub-1-4-bloco-4",
+      "titulo": "Conduta, sigilo e responsabilidade no atendimento",
+      "objetivos": [
+        "Aplicar deveres e proibições com condições legais."
+      ],
+      "conteudo": "A Resolução CFB 207/2018 é o Código de Ética e Deontologia. Seus **arts. 2º–4º** tratam de natureza, fundamento e objeto do trabalho; os deveres estão no **art. 5º**, as relações profissionais no **art. 6º** e as proibições no **art. 7º**. A numeração importa: atribuir deveres ao art. 3º ou todas as proibições ao 4º reproduz erro da versão anterior.\n\nO atendimento deve observar zelo, honestidade, ciência e técnica, civilidade, respeito e compromisso social. Combater exercício ilegal não significa divulgar acusações sem prova. Cadastro, comunicação de vínculos e identificação pelo registro são deveres profissionais a acompanhar.\n\n**Sigilo é condicionado:** art. 5º, g, quando o assunto exigir; art. 7º, e, proteção das informações confidenciais; art. 9º, I, ressalva hipóteses legais de comunicação, denúncia ou relato. Fim do contrato não transforma histórico confidencial de pesquisa em informação livre para divulgação. Por outro lado, sigilo não pode ser ensinado como absoluto contra qualquer dever legal de comunicação.\n\nÉ vedado emprestar nome/registro a instituição sem atuação efetiva e assinar trabalhos alheios à própria orientação, supervisão e fiscalização. A cooperação profissional não é proibida: o problema é cobertura de exercício irregular ou assinatura sem responsabilidade efetiva.\n\n**Caso resolvido:** após sair de um gabinete, o profissional recebe pedido informal de histórico de consultas de antigo usuário. Deve avaliar confidencialidade, finalidade e competência, não divulgar porque o vínculo acabou. Havendo exigência legal de comunicação à autoridade competente, não deve invocar um suposto sigilo sem exceções.",
+      "checkpointIds": [
+        "cp-1-4-3",
+        "rt-1-4-4"
+      ]
+    },
+    {
+      "id": "sub-1-4-bloco-5",
+      "titulo": "Sanções: lista correta, dosimetria e proteção da defesa",
+      "objetivos": [
+        "Distinguir espécie de penalidade, faixa geral e procedimento."
+      ],
+      "conteudo": "A Lei 9.674, art. 40, enumera **multa de uma a cinquenta anuidades; advertência reservada; censura pública; suspensão de até três anos; cassação com apreensão da carteira**. Não há a sexta espécie “censura reservada” na lista. A multa geral não se limita a dez anuidades: não confunda limite geral e faixas de cumulação previstas na regulamentação.\n\nA Resolução 207, art. 13, e o procedimento da Resolução 261, arts. 33–36, devem ser lidos com suas regras. Na disciplina regulamentar, aparecem faixas associadas à advertência, censura, suspensão e cassação; as atenuantes e agravantes importam. **Não é obrigatório aplicar sucessivamente todas as sanções em toda infração** antes de uma grave: a Resolução 261, art. 35, ressalva casos de manifesta gravidade.\n\nA Lei 9.674, art. 42, assegura defesa antes de penalizar. Processo ético não elimina possíveis responsabilidades civil e penal. Publicidade e ciência da decisão possuem regras próprias: a Resolução 261 prevê publicação da censura pública no Diário Oficial, sem que isso torne públicas indiscriminadamente todas as informações pessoais do processo.\n\n**Caso resolvido:** uma tabela apresenta seis sanções e multa de 1–10 como único intervalo. Compare com o art. 40: a duplicação de censura e a redução da faixa geral estão erradas. Se o enunciado citar uma faixa regulamentar de cumulação específica, analise exatamente essa hipótese, sem usar o limite geral para descartá-la automaticamente.",
+      "checkpointIds": [
+        "rt-1-4-5"
+      ]
+    },
+    {
+      "id": "sub-1-4-bloco-6",
+      "titulo": "Inadimplência, texto normativo e jurisprudência",
+      "objetivos": [
+        "Confrontar a literalidade de cobranças com o entendimento constitucional aplicável."
+      ],
+      "conteudo": "Textos antigos da lei e do código contêm consequências restritivas associadas a débitos. Para estudar o direito aplicável, não basta copiar a literalidade e ignorar o **STF, Tema 732 (RE 647.885)**: a tese rejeita a suspensão do exercício profissional por inadimplência de anuidades, por constituir sanção política tributária.\n\nEssa orientação não torna a anuidade inexistente, não dispensa registro e não permite qualquer infração ética. **Dever de pagar, meios de cobrança e liberdade de exercício são questões distintas.** Uma suspensão por infração ética de outra natureza também não se confunde com o mecanismo de cobrar débito que foi rechaçado.\n\nAo resolver, identifique: o enunciado pede texto literal de um ato, ou regime aplicável com jurisprudência? Qual é o fato sancionado? Qual dispositivo e data foram indicados? No HNC, segue-se o corte cadastrado, sem supor já conhecida jurisprudência de uma data futura.\n\n**Aplicação autônoma:** um profissional está regularmente inscrito, mas deve anuidades. A administração pode cobrar a dívida pelos meios cabíveis; não pode concluir, apenas por isso, que a suspensão laboral seja constitucional. Em outro caso, uma denúncia de assinatura de fachada exige fatos, provas e processo, não é automaticamente resolvida pela discussão tributária.",
+      "checkpointIds": [
+        "rt-1-4-6",
+        "rt-1-4-7"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "Leia conjuntamente leis, regulamento, código e processo ético. Diploma difere de registro. Art. 6º, e, trata de classificação/catalogação; os deveres do código estão no art. 5º e proibições no 7º. Há competências regionais e recurso ao CFB, sem exclusividade originária universal da cassação. Não há censura reservada na lista de sanções; a multa geral é de 1–50 anuidades. Sigilo tem ressalvas legais. Tema 732 impede suspensão como cobrança de anuidades.",
+  "fontesTeoria": [
+    {
+      "id": "lei4084",
+      "titulo": "Lei 4.084/1962 — profissão e atribuições",
+      "localizador": "Arts. 2º–7º e 15–22; não confundir preferência e exclusividade.",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html"
+    },
+    {
+      "id": "lei9674",
+      "titulo": "Lei 9.674/1998 — exercício profissional",
+      "localizador": "Artigos vigentes, vetos, registro e sanções; leitura com Tema 732.",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html"
+    },
+    {
+      "id": "decreto",
+      "titulo": "Decreto 56.725/1965",
+      "localizador": "Arts. 5º–8º: atividades, assinatura e atribuições.",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/1960-1969/decreto-56725-16-agosto-1965-397075-publicacaooriginal-1-pe.html"
+    },
+    {
+      "id": "etica",
+      "titulo": "Resolução CFB 207/2018 — Código de Ética",
+      "localizador": "Reprodução pelo CRB15; deveres, proibições, ressalva de sigilo e penalidades.",
+      "url": "https://www.crb15.org.br/codigo-de-etica/"
+    },
+    {
+      "id": "processo",
+      "titulo": "Resolução CFB 261/2023 — processo ético-disciplinar",
+      "localizador": "Arts. 3º–5º, 25–37: instâncias, julgamento e sanções; art. 36 prevê comunicação da cassação pelo CRB.",
+      "url": "https://crb6.org.br/2020/wp-content/uploads/2023/09/Resolucao-CFB-n-261-de-19-de-setembro-de-2023.pdf"
+    },
+    {
+      "id": "registro",
+      "titulo": "CRB1 — Registro; Resolução CFB 274/2024",
+      "localizador": "Regulamentação de inscrição, transferência e registro secundário.",
+      "url": "https://crb1.org.br/site/registro/"
+    },
+    {
+      "id": "stf",
+      "titulo": "STF — Tema 732, RE 647.885",
+      "localizador": "Suspensão por inadimplência de anuidades é sanção política tributária inconstitucional.",
+      "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4105161&numeroProcesso=647885&numeroTema=732"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-1-4-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Diploma e registro profissional são requisitos distintos; uma função com nome genérico pode exigir exame de suas atribuições efetivas.",
+      "gabarito": "C",
+      "justificativa": "O nome do cargo não substitui a análise da atividade e da habilitação.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+      "editalRef": "Bloco A - Item 4.2",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-1-4-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O art. 6º, alínea b, da Lei 4.084/1962 é o dispositivo que enumera catalogação e classificação.",
+      "gabarito": "E",
+      "justificativa": "A alínea b trata de fiscalização de estabelecimentos de ensino; classificação e catalogação constam da alínea e.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+      "editalRef": "Bloco A - Item 4.2",
+      "habilidade": "aplicar",
+      "versao_correta": "No art. 6º, classificação e catalogação aparecem na alínea e."
+    },
+    {
+      "id": "rt-1-4-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A existência de recurso ao CFB significa que o CRB não exerce nenhuma competência de julgamento ético em primeira instância.",
+      "gabarito": "E",
+      "justificativa": "A Resolução 261/2023 distingue instâncias e prevê julgamento no CRB, com recurso ao CFB.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+      "editalRef": "Bloco A - Item 4.2",
+      "habilidade": "aplicar",
+      "versao_correta": "O CRB possui competência de primeira instância nos termos do procedimento."
+    },
+    {
+      "id": "rt-1-4-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O dever de sigilo é absoluto mesmo em hipótese em que a lei exige comunicação à autoridade competente.",
+      "gabarito": "E",
+      "justificativa": "O art. 9º, I, da Resolução 207 ressalva hipóteses legais de comunicação, denúncia ou relato.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+      "editalRef": "Bloco A - Item 4.2",
+      "habilidade": "aplicar",
+      "versao_correta": "O sigilo deve ser respeitado com as ressalvas legalmente aplicáveis."
+    },
+    {
+      "id": "rt-1-4-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A tabela do art. 40 da Lei 9.674/1998 inclui censura reservada e fixa a multa sempre em no máximo dez anuidades.",
+      "gabarito": "E",
+      "justificativa": "A lei inclui advertência reservada e censura pública; a multa geral é de uma a cinquenta anuidades.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+      "editalRef": "Bloco A - Item 4.2",
+      "habilidade": "aplicar",
+      "versao_correta": "A lista e a faixa da multa devem ser lidas na norma aplicável."
+    },
+    {
+      "id": "rt-1-4-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Segundo o Tema 732 do STF, inadimplência de anuidades autoriza suspender o exercício como meio de forçar o pagamento.",
+      "gabarito": "E",
+      "justificativa": "O STF rejeita a suspensão por inadimplência como sanção política tributária; isso não extingue a obrigação de pagar.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+      "editalRef": "Bloco A - Item 4.2",
+      "habilidade": "aplicar",
+      "versao_correta": "A cobrança deve observar meios legais, sem a suspensão rechaçada pelo STF."
+    },
+    {
+      "id": "rt-1-4-7",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma denúncia sem elementos comprobatórios e uma acusação pública precipitada podem contrariar os deveres éticos, ainda que o denunciante alegue proteger a categoria.",
+      "gabarito": "C",
+      "justificativa": "A finalidade alegada não dispensa prova, discrição e procedimento adequado.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732.",
+      "editalRef": "Bloco A - Item 4.2",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-1-4-1": {
+      "item": "A execução de serviços de classificação e catalogação dos materiais enumerados no art. 6º, e, da Lei 4.084/1962 integra as atribuições legalmente previstas dos bacharéis em Biblioteconomia.",
+      "justificativa": "O fundamento é o art. 6º, alínea e, em conjunto com o regime de habilitação e registro; a antiga indicação da alínea b estava incorreta.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732."
+    },
+    "cp-1-4-2": {
+      "item": "A gravidade de uma acusação permite ao presidente de qualquer CRB cassar autonomamente um registro por decisão singular, dispensando instrução, julgamento e defesa.",
+      "justificativa": "A gravidade não dispensa o processo e a defesa. A Resolução 261 reconhece competência regional e recurso ao CFB, portanto o erro não deve ser explicado por falsa exclusividade originária do Federal.",
+      "versao_correta": "A imposição de cassação exige competência e procedimento, com defesa; não decorre de decisão singular informal.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732."
+    },
+    "cp-1-4-3": {
+      "item": "O dever de sigilo sobre informação confidencial conhecida no exercício profissional não se extingue automaticamente com o fim do vínculo, observadas as hipóteses legais de comunicação.",
+      "justificativa": "Arts. 5º, g, 7º, e, e 9º, I, da Resolução 207. O término do vínculo não autoriza divulgação indiscriminada, mas a norma também não cria sigilo absoluto contra dever legal.",
+      "fonte": "Lei 4.084/1962, arts. 2º–7º, 8º–9º, 15, 20 e 22; Decreto 56.725/1965, arts. 5º–8º; Lei 9.674/1998, arts. 3º, 29–30, 39–45; Resoluções CFB 207/2018, 261/2023 e 274/2024; STF, Tema 732."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Competência e instância",
+      "definicao": "Atribuição para decidir e posição na sequência de julgamento/recurso.",
+      "exemploBiblioteca": "CRB pode julgar infrações; recurso ao CFB não apaga a primeira instância."
+    },
+    {
+      "termo": "Sigilo e ressalva legal",
+      "definicao": "Confidencialidade é dever com condições e exceções legais.",
+      "exemploBiblioteca": "Fim do contrato não libera divulgação, e exigência legal de comunicação deve ser examinada."
+    }
+  ],
+  "autoresChave": [
+    "Lei 4.084/1962 — profissão e atribuições",
+    "Lei 9.674/1998 — exercício profissional",
+    "Decreto 56.725/1965",
+    "Resolução CFB 207/2018 — Código de Ética",
+    "Resolução CFB 261/2023 — processo ético-disciplinar",
+    "CRB1 — Registro; Resolução CFB 274/2024",
+    "STF — Tema 732, RE 647.885"
+  ],
+  "descricaoCurta": "Distinguir formação, registro e atividade exercida. Localizar a atribuição na alínea correta e evitar delegação disfarçada. Separar competências ordinárias, recurso e hipóteses originárias. Aplicar deveres e proibições com condições legais. Distinguir espécie de penalidade, faixa geral e procedimento. Confrontar a literalidade de cobranças com o entendimento constitucional aplicável.",
+  "alertasCebraspe": [
+    "A alínea b trata de fiscalização de estabelecimentos de ensino; classificação e catalogação constam da alínea e.",
+    "A Resolução 261/2023 distingue instâncias e prevê julgamento no CRB, com recurso ao CFB.",
+    "O art. 9º, I, da Resolução 207 ressalva hipóteses legais de comunicação, denúncia ou relato."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 23
+}

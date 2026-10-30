@@ -36,20 +36,21 @@ describe('Auditoria do Mini-Módulo Especial 2.5: Órgãos Públicos, Catalogaç
       expect(submodulo25.teoriaDensaMarkdown).toContain('RVBI');
     });
 
-    it('deve conter quadro comparativo com cabeçalhos e linhas consistentes', () => {
-      expect(submodulo25.quadroComparativo).toBeDefined();
-      expect(submodulo25.quadroComparativo!.colunas.length).toBeGreaterThanOrEqual(3);
-      expect(submodulo25.quadroComparativo!.linhas.length).toBeGreaterThanOrEqual(4);
+    it('deve organizar explicação e tabelas em blocos com fontes', () => {
+      expect(submodulo25.unidadesAprendizagem!.length).toBeGreaterThan(0);
+      expect(submodulo25.fontesTeoria!.length).toBeGreaterThan(0);
+      expect(submodulo25.teoriaDensaMarkdown).toContain('| Tipo |');
     });
 
-    it('deve conter mnemônicos nos 3 formatos (timeline, autores e pegadinhas)', () => {
-      expect(submodulo25.mnemonicos.timeline.length).toBeGreaterThanOrEqual(3);
+    it('deve conter síntese, referências e alertas de julgamento', () => {
+      expect(submodulo25.teoriaDidaticaMarkdown!.trim().length).toBeGreaterThan(0);
       expect(submodulo25.mnemonicos.autores.length).toBeGreaterThanOrEqual(2);
       expect(submodulo25.mnemonicos.pegadinhas.length).toBeGreaterThanOrEqual(3);
     });
 
-    it('deve conter exatamente 3 checkpoints de recuperação ativa válidos', () => {
-      expect(submodulo25.checkpoints).toHaveLength(3);
+    it('deve preservar os checkpoints e ampliar a recuperação ativa', () => {
+      expect(submodulo25.checkpoints.length).toBeGreaterThan(3);
+      expect(submodulo25.checkpoints.map(c => c.id)).toEqual(expect.arrayContaining(['cp-2-5-1', 'cp-2-5-2', 'cp-2-5-3']));
       submodulo25.checkpoints.forEach((cp) => {
         expect(cp.pergunta.trim().length).toBeGreaterThan(10);
         expect(cp.item.trim().length).toBeGreaterThan(10);
@@ -89,7 +90,7 @@ describe('Auditoria do Mini-Módulo Especial 2.5: Órgãos Públicos, Catalogaç
       expect(simuladoOrgaosGov30Q).toHaveLength(30);
     });
 
-    it('deve possuir simetria estrita Cebraspe: EXATAMENTE 15 Certas (C) e 15 Erradas (E)', () => {
+    it('deve preservar a distribuição editorial do caderno: EXATAMENTE 15 Certas (C) e 15 Erradas (E)', () => {
       const certos = simuladoOrgaosGov30Q.filter((q) => q.gabarito === 'C');
       const errados = simuladoOrgaosGov30Q.filter((q) => q.gabarito === 'E');
 

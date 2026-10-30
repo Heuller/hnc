@@ -125,8 +125,8 @@ describe('Marco R5: Migração de Histórico dos Portais e Preservação de Subm
     expect(sub25).toBeDefined();
     expect(sub25?.titulo).toContain('Órgãos Públicos');
     expect(sub25?.checkpoints.length).toBeGreaterThan(0);
-    expect(sub25?.autoresChave).toContain('Constituição da República Federativa do Brasil de 1988 (CF/88)');
-    expect(sub25?.autoresChave).toContain('Formato MARC 21 Bibliográfico e de Autoridades (Campos 110 e 710)');
+    expect(sub25?.fontesTeoria?.some(f => /Constituição Federal/.test(f.titulo))).toBe(true);
+    expect(sub25?.fontesTeoria?.some(f => /MARC 21/.test(f.titulo))).toBe(true);
   });
 
   it('deve refletir a aprovação no estado da Jornada ao ler tanto tentativas migradas quanto legadas', () => {

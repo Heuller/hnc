@@ -12,15 +12,22 @@ const sub = subs.find(s => s.numero === '11.1')!;
 beforeEach(() => { cleanup(); useProgressStore.getState().limparTodoProgresso(); });
 describe('Reforma teórica e microcheckpoints por bloco', () => {
   it('mantém identidades, fontes e ligações válidas em todo capítulo reformado', () => {
-    for (const s of subs.filter(s => s.unidadesAprendizagem?.length)) {
-      expect(ModuloFilhoSchema.safeParse(s).success, s.id).toBe(true);
+    expect(subs.length).toBe(75);
+    for (const s of subs) {
+      const validacao = ModuloFilhoSchema.safeParse(s);
+      expect(validacao.success, `${s.id}: ${JSON.stringify(validacao.error?.issues)}`).toBe(true);
+      expect(s.unidadesAprendizagem?.length, s.id).toBeGreaterThan(0);
       const cps = s.checkpoints.map(c => c.id);
       const usados = s.unidadesAprendizagem!.flatMap(u => u.checkpointIds);
       expect(new Set(cps).size).toBe(cps.length);
       expect(new Set(usados).size).toBe(usados.length);
+      expect([...usados].sort(), s.id).toEqual([...cps].sort());
       for (const id of usados) expect(cps).toContain(id);
       expect(s.fontesTeoria?.length).toBeGreaterThan(0);
       expect(s.checkpoints.some(c => !c.fonte)).toBe(false);
+      for (const cp of s.checkpoints.filter(c => c.gabarito === 'E')) {
+        expect(cp.versao_correta?.trim().length, `${cp.id}: versão corrigida`).toBeGreaterThan(10);
+      }
     }
   });
   it('preserva a leitura antiga sem concluir automaticamente a edição ampliada', () => {

@@ -5,7 +5,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://heuller.vercel.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-959%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Tests-972%20passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
@@ -14,7 +14,9 @@
 
 **Heuller na Câmara** é um ambiente de aprendizagem deliberada e alta densidade técnica desenvolvido especificamente para a preparação ao concurso de **Analista Legislativo (Biblioteconomia)** da **Câmara dos Deputados**, sob as diretrizes rigorosas da banca examinadora **CEBRASPE**.
 
-A plataforma integra teoria canônica, banco integral de questões inéditas, repetição espaçada (algoritmo Leitner), caderno de erros inteligente, avaliador de discursivas com inteligência artificial e simulados adaptativos de fraquezas.
+A plataforma integra teoria, banco de questões com proveniência identificada, repetição espaçada (algoritmo Leitner), caderno de erros, avaliador de discursivas com inteligência artificial e simulados adaptativos.
+
+A reforma teórica abrange 75 aulas, 429 blocos e 669 microcheckpoints, com explicações, aplicações, revisão essencial e fontes. [Registro da implementação e limites da conferência](docs/reforma-teoria/FECHAMENTO.md). A revisão individual integral das questões dos simulados é uma etapa posterior.
 
 ---
 
@@ -103,17 +105,17 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **959 testes** | 100% aprovados em Vitest (123 arquivos de teste) |
+| **Suíte de Testes Automatizados** | **972 testes** | 100% aprovados em Vitest (124 arquivos de teste) |
 | **Qualidade e Estilo (Oxlint)** | **0 avisos, 0 erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
-| **Questões nos Submódulos Teóricos** | **69 itens** | Checkpoints e fixação de conteúdo em teoria |
-| **Total Global de Questões Cebraspe** | **2.179 itens** | Soma exata de todos os 21 arquivos em `src/content/questions` |
-| **Distribuição Global de Gabaritos** | **50,4% Certo** | 1.099 C / 1.080 E (faixa alvo 46–56%) |
+| **Fixação no Banco Complementar** | **69 itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
+| **Itens no Banco de Questões** | **2.179 itens** | Soma exata de todos os 21 arquivos em `src/content/questions` |
+| **Distribuição Global de Gabaritos** | **50,4% Certo** | 1.099 C / 1.080 E (faixa editorial 46–56%, não regra da banca) |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
-| **Inéditas (`inedita`)** | **1.671** | **76,7%** | Elaboração própria alinhada ao padrão e jurisprudência Cebraspe |
+| **Inéditas (`inedita`)** | **1.671** | **76,7%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
 | **Adaptadas (`adaptada`)** | **426** | **19,6%** | Itens de provas anteriores com ajuste factual de assertiva |
 | **Reais Confirmadas (`real-confirmada`)** | **49** | **2,2%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
 | **Em Conferência (`em-conferencia`)** | **33** | **1,5%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |

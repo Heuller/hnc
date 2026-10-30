@@ -30,384 +30,389 @@ export const submodulo16: ModuloFilho = {
   titulo: 'Governança da Informação e Governança de Dados',
   titulo_curto: 'Governança de Dados',
   antesDeLer: [
-    {
-      termo: 'Governança de Dados (DAMA-DMBOK2)',
-      definicao: 'Exercício de autoridade, controle e planejamento sobre a gestão de ativos de dados dentro de uma organização.',
-      exemploBiblioteca: 'Definição de papéis de custódia e padrões de metadados para os documentos digitais no ecossistema da Câmara.',
-    },
-    {
-      termo: 'Dados Mestres (Master Data)',
-      definicao: 'Dados fundamentais e consistentes que fornecem o contexto central para transações de negócio através de toda a instituição.',
-      exemploBiblioteca: 'Tabela padronizada de autores corporativos governamentais e parlamentares utilizada conjuntamente pelo CEDI e pelo Plenário.',
-    },
-    {
-      termo: 'Data Stewardship',
-      definicao: 'Atividade operacional e tática de zelar pela qualidade, conformidade, segurança e integridade de conjuntos de dados sob sua responsabilidade.',
-      exemploBiblioteca: 'O bibliotecário atuando como curador responsável por validar metadados e metadados de preservação no repositório institucional.',
-    },
-    {
-      termo: 'Dicionário de Dados',
-      definicao: 'Repositório centralizado de metadados que descreve o significado, a estrutura, as relações e os formatos dos elementos de dados.',
-      exemploBiblioteca: 'Documento técnico que padroniza os campos de busca e filtros do Sistema de Informações Legislativas (Sileg).',
-    },
-  ],
-  descricaoCurta: 'Princípios do DAMA-DMBOK 2ª ed., papéis de governança (Data Owner, Data Steward, Data Custodian), dimensões de qualidade, proveniência e linhagem (W3C PROV-O), catálogo vs inventário, dados mestres e dados abertos (8 princípios, 5 estrelas e LAI).',
-  tempoEstimadoMinutos: 19,
+  {
+    "termo": "Responsabilidade e propriedade",
+    "definicao": "Owner é papel de decisão, sem criar domínio civil ou afastar direitos de titulares.",
+    "exemploBiblioteca": "A política não concede automaticamente competência para classificar sigilo pela LAI."
+  },
+  {
+    "termo": "Validade e exatidão",
+    "definicao": "Conformidade a regra formal e correspondência com realidade não são idênticas.",
+    "exemploBiblioteca": "Onze dígitos podem passar numa regra simples sem identificar corretamente a pessoa."
+  }
+],
+  descricaoCurta: "Relacionar direitos decisórios e gestão sem transferir competências legais por um título. Distinguir papéis conforme a política e o domínio. Definir qualidade por requisito, unidade e condições de medição. Representar proveniência sem tratá-la como prova infalível. Diferenciar catálogo, inventário, dado mestre e dado de referência. Interpretar abertura técnica, licença, níveis cumulativos e âmbito do decreto. Examinar direitos autorais e acessibilidade sem fundamento jurisprudencial trocado.",
+  tempoEstimadoMinutos: 33,
   autoresChave: [
-    'DAMA International',
-    'Tim Berners-Lee',
-    'Open Government Working Group',
-    'World Wide Web Consortium (W3C)',
-  ],
+  "DAMA International — Data Management Body of Knowledge",
+  "W3C — PROV-O (2013)",
+  "Tim Berners-Lee — Linked Data",
+  "5-star Open Data",
+  "OpenGovData — oito princípios de 2007",
+  "Lei 12.527/2011 — LAI",
+  "Decreto 8.777/2016",
+  "Lei 9.610/1998 — direitos autorais",
+  "Decreto 10.882/2021 e Tratado de Marraqueche",
+  "STJ — Súmula 522"
+],
   alertasCebraspe: [
-    'Governança decide e responsabiliza; gestão executa. Questões da banca Cebraspe frequentemente invertem essa relação funcional, afirmando que a governança de dados é a responsável operacional pelo processamento e armazenamento diário de arquivos no banco de dados.',
-    'Dado aberto não é sinônimo de dado público. O dado pode ser de acesso público irrestrito e estar disponibilizado exclusivamente em formato proprietário ou em imagem escaneada em PDF, o que viola frontalmente os requisitos de processamento por máquina e formato aberto não proprietário.',
-    'No modelo DAMA-DMBOK, o Data Owner (Proprietário do Dado) possui autoridade decisória e final sobre classificação, acesso, regras de negócio e compartilhamento de um domínio de dados. O Data Steward (Curador/Zelador) atua como ponte tática entre as áreas de negócio e TI, zelando pela qualidade, consistência terminológica e metadados. O Data Custodian (Custodiante Técnico) cuida da infraestrutura de TI, backup e segurança física/lógica.',
-    'Proveniência e linhagem (data lineage) não são termos intercambiáveis: a proveniência atesta a origem, a autoria originária e o histórico formal de custódia de um ativo de dados, enquanto a linhagem rastreia o ciclo de transformações, fluxos de ETL/ELT e dependências de dados através dos diversos sistemas ao longo do tempo (modelada pelo padrão W3C PROV-O).',
-  ],
-  quadroComparativo: {
-    titulo: 'Matriz Comparativa dos Papéis de Governança de Dados (DAMA-DMBOK 2ª ed.)',
-    colunas: ['Critério Estrutural', 'Data Owner (Proprietário do Dado)', 'Data Steward (Curador / Zelador do Dado)', 'Data Custodian (Custodiante Técnico do Dado)'],
-    linhas: [
-      [
-        'Natureza da Responsabilidade',
-        'Estratégica e deliberativa. Responsável final pelo ciclo de vida, valor institucional e riscos de um domínio de dados.',
-        'Tática e operacional de negócio. Guardião das regras de negócio, da integridade semântica e da qualidade dos dados.',
-        'Técnica e operacional de infraestrutura. Responsável pelo armazenamento, transporte, integridade física e segurança computacional.',
-      ],
-      [
-        'Decisões Típicas',
-        'Autoriza concessão de acessos críticos, define classificação de sigilo/privacidade e aprova políticas do domínio.',
-        'Define termos de vocabulários e dicionários de dados, resolve divergências de significado, audita qualidade e especifica requisitos de metadados.',
-        'Executa rotinas de backup, otimiza consultas no SGBD, aplica patches de segurança e implementa arquitetura de armazenamento.',
-      ],
-      [
-        'Origem Organizacional',
-        'Gestor ou diretor da área de negócio responsável pela criação ou uso primordial do dado (ex.: Diretor Legislativo).',
-        'Especialista temático ou bibliotecário/analista com profundo domínio conceitual do fluxo documental e metadados.',
-        'Equipe técnica de Tecnologia da Informação (administradores de banco de dados — DBAs, engenheiros de dados e segurança de redes).',
-      ],
-      [
-        'Foco de Atuação',
-        'Autoridade, conformidade legal, risco e prestação de contas (*accountability*).',
-        'Consistência semântica, completude, eliminação de duplicidades e uso ético/padronizado dos dados.',
-        'Disponibilidade de infraestrutura, desempenho, segurança física e redundância de servidores.',
-      ],
-      [
-        'Exemplo Ilustrativo na Câmara',
-        'Mesa Diretora ou Secretário-Geral deliberando sobre a política de divulgação das votações eletrônicas.',
-        'Bibliotecário legislativo padronizando os metadados e termos de controle de autoridade dos parlamentares no vocabulário oficial.',
-        'Analista de TI da Coordenação de Infraestrutura garantindo replicação e integridade do cluster de banco de dados do SILEG.',
-      ],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Governança da Informação versus Governança de Dados: Conceitos e Fronteiras
-
-A crescente complexidade dos ambientes digitais impôs uma distinção conceitual rigorosa entre a **governança de dados** e a **gestão de dados**, bem como entre dados e informação no setor público.
-
-\`\`\`timeline
-1. GOVERNANÇA | Direitos Decisórios e Políticas | "O que deve ser feito, por quem e sob quais regras?" (Autoridade e Estratégia)
----> Diretrizes e Limites Operacionais
-2. GESTÃO | Execução Operacional e Prática | "Como fazer da melhor forma dentro das regras?" (Planejamento, Execução e Controle)
----> Monitoramento e Métricas
-3. AUDITORIA | Avaliação e Conformidade | "As regras e padrões de qualidade estão sendo rigorosamente cumpridos?"
-\`\`\`
-
-#### A. O Princípio Canônico do DAMA-DMBOK (2ª ed., 2017)
-Conforme estabelecido pela *Data Management Association International* (DAMA International) em seu guia oficial de referência (*DAMA-DMBOK: Data Management Body of Knowledge*):
-* **Governança de Dados (*Data Governance*):** É o exercício de autoridade e controle (planejamento, monitoramento e fiscalização) sobre o gerenciamento de ativos de dados. A governança **estabelece os direitos de decisão e uma estrutura de responsabilização** (*accountability*) para assegurar que os dados sejam gerenciados adequadamente. A governança decide as políticas, define as prioridades, arbitra conflitos e fiscaliza a conformidade.
-* **Gestão de Dados (*Data Management*):** É a **execução operacional** das atividades necessárias para obter, integrar, armazenar, proteger e disponibilizar dados segundo as regras e diretrizes estabelecidas pela governança. Enquanto a governança determina *quem tem o direito de decidir* e *quais são as regras*, a gestão *opera e executa* sob essas balizas.
-
-#### B. Articulação com a Governança Pública (Decreto nº 9.203/2017)
-No âmbito da Administração Pública federal brasileira, a governança pública é orientada pelos princípios de capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade (*accountability*), e transparência (art. 3º do Decreto nº 9.203/2017, estudado no submódulo 11.9).
-* A **Governança da Informação** conecta a governança corporativa/pública com a gestão técnica, assegurando que os ativos informacionais institucionais apoiem as políticas públicas, a soberania legislativa, a proteção da privacidade (LGPD) e a transparência ativa (LAI).
-
----
-
-### 2. Papéis e Responsabilidades em Governança de Dados
-
-O edital nº 1/2026 exige explicitamente os papéis e políticas de governança de dados (*data ownership* e *data stewardship*, itens 2.2 e 2.3 do Bloco A). A literatura clássica e o DAMA-DMBOK consagram a seguinte tríade funcional:
-
-#### A. Data Owner (Proprietário do Dado)
-* **Definição:** É o gestor executivo ou autoridade institucional que detém a responsabilidade final e a autoridade deliberativa sobre determinado conjunto ou domínio de dados organizacionais.
-* **Responsabilidades Primordiais:** Classificar a informação quanto à confidencialidade e sigilo; autorizar formalmente acessos sensíveis e compartilhamentos com outros órgãos; definir o apetite a risco do domínio de dados; prestar contas (*accountability*) perante auditorias e órgãos de controle externo.
-* **Nota Doutrinária:** O termo "proprietário" é metafórico no setor público: os dados públicos pertencem ao Estado e à sociedade civil; o *data owner* atua como responsável institucional pela tomada de decisões daquele domínio.
-
-#### B. Data Steward (Curador / Zelador do Dado)
-* **Definição:** É o profissional (ou comitê) que atua na interface direta entre as necessidades de negócio e as capacidades técnicas de TI, zelando diariamente pela integridade semântica, qualidade e conformidade dos dados.
-* **Responsabilidades Primordiais:** Elaborar e manter o vocabulário corporativo de termos (*business vocabulary / data dictionary*); garantir que os metadados estejam completos e atualizados; mapear regras de negócio e de integridade; identificar e sanear inconsistências e duplicidades; promover a alfabetização em dados (*data literacy*) entre os usuários.
-* **O Papel do Bibliotecário:** O bibliotecário contemporâneo exerce com naturalidade as atribuições de *data steward*, dada sua expertise secular em organização do conhecimento, controle de vocabulário, ontologias, catalogação e padrões de metadados.
-
-#### C. Data Custodian (Custodiante Técnico)
-* **Definição:** É a unidade técnica (tipicamente vinculada à área de Tecnologia da Informação) incumbida da guarda, armazenamento, administração dos servidores e proteção física e cibernética dos ativos computacionais.
-* **Responsabilidades Primordiais:** Gerenciar a infraestrutura física e em nuvem dos bancos de dados; assegurar rotinas de backup e planos de recuperação de desastres (*disaster recovery*); implementar controles criptográficos e permissões de acesso aprovadas pelo *data owner*; monitorar desempenho de rede e integridade de arquivos.
-
----
-
-### 3. Dimensões de Qualidade de Dados (Data Quality no DAMA-DMBOK)
-
-A qualidade de dados (item 2.5 do Bloco A) mensura o grau em que um conjunto de dados atende às necessidades dos seus consumidores e processos de negócio. O DAMA-DMBOK estrutura as seguintes dimensões operacionais centrais:
-
-1. **Exatidão (*Accuracy*):** Grau em que os dados representam com fidedignidade e precisão a realidade do objeto ou evento que descrevem. Ex.: o nome de um deputado e sua data de posse coincidem estritamente com os dados oficiais do Tribunal Superior Eleitoral e da ata da Mesa.
-2. **Completude (*Completeness*):** Proporção de dados armazenados em relação ao total de dados esperados para que o registro seja funcionalmente útil. Ex.: um registro de proposição que contenha ementa, autor, data, comissão e texto integral possui completude plena; a omissão do autor viola essa dimensão.
-3. **Consistência (*Consistency*):** Ausência de contradições internas entre dados que descrevem o mesmo fato em diferentes tabelas ou bases de dados corporativas. Ex.: um parlamentar constar como "em exercício" no portal da transparência e como "afastado por licença médica" no sistema de votação representa quebra grave de consistência.
-4. **Atualidade / Tempestividade (*Timeliness*):** Intervalo de tempo entre a ocorrência de um fato no mundo real e a sua disponibilização nos sistemas de informação para consumo. Ex.: a publicação do resultado de uma votação em plenário logo após a sua proclamação garante altíssima tempestividade.
-5. **Validade (*Validity*):** Conformidade dos dados em relação às regras de sintaxe, tipos de dados, formatação e domínios de valores autorizados. Ex.: o preenchimento de um CPF com 11 dígitos numéricos ou o uso de uma sigla de UF válida (ex.: "DF", "SP").
-6. **Unicidade (*Uniqueness*):** Garantia de que cada entidade do mundo real está representada uma única vez na base de dados, sem registros duplicados redundantes (*deduplication*).
-
----
-
-### 4. Proveniência, Linhagem de Dados e o Padrão W3C PROV
-
-O edital cobra **proveniência, linhagem e rastreabilidade dos dados** (item 2.6 do Bloco A):
-
-#### A. Proveniência versus Linhagem de Dados (*Data Lineage*)
-* **Proveniência:** Refere-se à origem histórica, cadeia de custódia formal, direitos de criação e contexto original de geração de um documento ou dado. No âmbito arquivístico e da preservação digital (OAIS/PREMIS), proveniência é o testemunho que certifica a autenticidade e a autoridade legítima do emissor.
-* **Linhagem de Dados (*Data Lineage*):** É a representação cronológica e arquitetural de todo o percurso de transformação percorrido pelo dado desde a sua fonte de captura primária até a sua apresentação final em relatórios, dashboards ou APIs. A linhagem documenta quais rotinas de ETL/ELT processaram o dado, quais fórmulas de agregação foram aplicadas, quais tabelas foram combinadas (*joins*) e como a estrutura mudou ao longo do pipeline informacional.
-
-#### B. A Recomendação W3C PROV (PROV-O, 2013)
-O World Wide Web Consortium (W3C) publicou em 2013 a família de padrões **W3C PROV**, cuja ontologia fundamental em OWL/RDF é a **PROV-O** (*PROV Ontology*). O modelo PROV estrutura qualquer grafo de proveniência a partir de três classes ontológicas basilares:
-* **Entidade (*Entity* - \`prov:Entity\`):** Qualquer coisa física, digital ou conceitual com a qual se interage (ex.: um dataset CSV, um documento XML, um registro de votação).
-* **Atividade (*Activity* - \`prov:Activity\`):** Uma ação ou processo que ocorre ao longo do tempo e age sobre ou com entidades, podendo consumi-las, transformá-las ou gerar novas entidades (ex.: a execução de um script de limpeza em Python, a sessão de votação parlamentar).
-* **Agente (*Agent* - \`prov:Agent\`):** Uma pessoa física, organização ou software automatizado que tem responsabilidade por uma atividade ou entidade (ex.: o Deputado Relator, a Mesa Diretora, um algoritmo de ETL).
-
-As relações canônicas do W3C PROV conectam essas classes:
-* \`prov:wasGeneratedBy\`: Liga uma Entidade à Atividade que a produziu.
-* \`prov:used\`: Liga uma Atividade a uma Entidade que serviu de insumo.
-* \`prov:wasDerivedFrom\`: Liga uma Entidade resultante a outra Entidade originária.
-* \`prov:wasAssociatedWith\`: Liga uma Atividade ao Agente responsável.
-* \`prov:wasAttributedTo\`: Liga uma Entidade ao Agente criador/custodiante.
-
----
-
-### 5. Catálogos de Dados, Inventários de Ativos, Dados Mestres e de Referência
-
-#### A. Catálogo de Dados versus Inventário de Ativos Informacionais
-* **Catálogo de Dados (*Data Catalog*):** É uma plataforma tecnológica e semântica centralizada que indexa, organiza e descreve os conjuntos de dados de uma organização por meio de metadados ricos (dicionários de dados, esquemas de tabelas, perfil de qualidade, dados sobre o *data steward*, histórico de linhagem e documentação de APIs). Seu objetivo primordial é a **descoberta (*findability*), governança semântica e reuso de dados** por analistas e pesquisadores.
-* **Inventário de Ativos Informacionais (*Information Asset Inventory*):** É uma lista formal e abrangente de todos os recursos, bases de dados, sistemas, repositórios e equipamentos informacionais detidos pela organização, mantida primordialmente para fins de **gestão de riscos de segurança da informação, conformidade legal, continuidade de negócios e auditoria de TI**.
-
-#### B. Dados Mestres versus Dados de Referência
-* **Dados Mestres (*Master Data*):** São os dados centrais, consistentes e não voláteis que identificam as entidades essenciais sobre as quais a organização opera e toma decisões. Esses dados são compartilhados transversalmente por múltiplos sistemas de informação corporativos.
-  * *Exemplo na Câmara:* O cadastro único de autoridades parlamentares (deputados federais), o registro de órgãos legislativos e o catálogo mestre de autoridades de assunto.
-* **Dados de Referência (*Reference Data*):** São conjuntos de valores autorizados, tabelas de códigos e domínios discretos de classificação utilizados para categorizar outros dados ou integrá-los a padrões externos. Em geral, são listas estáticas ou com baixa taxa de alteração.
-  * *Exemplo na Câmara:* A tabela oficial de siglas dos partidos políticos, a lista de códigos ISO de idiomas (ISO 639-2), códigos de Unidades da Federação (UF) e a tabela de tipos de proposição legislativa (PL, PEC, MPV, PDC).
-
----
-
-### 6. Dados Abertos Governamentais: Princípios, 5 Estrelas e Marco Legal
-
-O item 2.9 do Bloco A requer o domínio das políticas e princípios de **dados abertos governamentais**.
-
-#### A. Os Oito Princípios dos Dados Abertos Governamentais (Sebastopol, 2007)
-Reunidos em 2007 em Sebastopol (Califórnia), trinta defensores do governo aberto definiram os oito critérios que tornam um dado público verdadeiramente "aberto":
-1. **Completos (*Complete*):** Todos os dados públicos são disponibilizados, ressalvadas as restrições constitucionais de sigilo pessoal e de segurança do Estado.
-2. **Primários (*Primary*):** Os dados são publicados na sua fonte de origem, com o mais alto nível de granularidade possível, sem agregações, resumos ou transformações artificiais.
-3. **Atuais / Tempestivos (*Timely*):** Os dados são divulgados tão rapidamente quanto necessário para preservar o seu valor público de fiscalização e utilidade prática.
-4. **Acessíveis (*Accessible*):** Disponíveis para a mais ampla gama de usuários e para os mais diversos propósitos, sem barreiras de acesso.
-5. **Processáveis por Máquina (*Machine-Processable*):** Os dados são estruturados em formatos que permitem o processamento automático por sistemas computacionais (ex.: CSV, XML, JSON), e não apenas exibição visual para leitura humana (como imagens rasterizadas ou PDFs planos).
-6. **Acesso Não Discriminatório (*Non-Discriminatory*):** Qualquer pessoa pode acessar os dados a qualquer momento sem necessidade de cadastro prévio, identificação obrigatória ou justificativa de interesse.
-7. **Formatos Não Proprietários (*Non-Proprietary*):** Os dados estão disponíveis em formatos cujas especificações são públicas e não dependem do pagamento de licenças a empresas detentoras de software (ex.: uso de CSV ou ODS em vez de XLS/XLSX restrito).
-8. **Livres de Licenças (*License-Free*):** Os dados não estão sujeitos a direitos autorais restritivos, patentes, marcas ou segredos comerciais, permitindo o livre reuso, redistribuição e cruzamento por qualquer cidadão.
-
-#### B. O Esquema de 5 Estrelas de Dados Abertos de Tim Berners-Lee (2010)
-O criador da World Wide Web propôs uma escala progressiva de maturidade para a publicação de dados abertos interligados (*Linked Open Data*):
-* ⭐ **1 Estrela:** Dados disponíveis na web em **qualquer formato** sob uma licença aberta (ex.: uma imagem digitalizada de tabela orçamentária ou um PDF plano). Permite que o dado seja visualizado, mas sua extração e reuso computacional são árduos.
-* ⭐⭐ **2 Estrelas:** Dados disponibilizados como **dados estruturados**, porém em **formato proprietário** (ex.: planilha no formato Microsoft Excel .XLSX). Permite cálculos em ferramentas específicas, mas exige software proprietário.
-* ⭐⭐⭐ **3 Estrelas:** Dados estruturados em **formato aberto e não proprietário** (ex.: arquivo CSV ou XML aberto). Qualquer linguagem de programação ou software livre pode ler e manipular os dados sem custo de licença.
-* ⭐⭐⭐⭐ **4 Estrelas:** Uso de **padrões abertos do W3C (RDF e SPARQL)** e identificação dos recursos por meio de **URIs (Uniform Resource Identifiers)** universais. Permite que outros sítios na web apontem diretamente para aquele recurso específico.
-* ⭐⭐⭐⭐⭐ **5 Estrelas:** **Linked Open Data (LOD)**: Dados no formato RDF/URI interligados (*linked*) a outros conjuntos de dados externos na web semântica (ex.: linkando o registro de um deputado da Câmara ao seu verbete no Wikidata, ao LexML e a bases da OCDE), gerando um grafo global de conhecimento.
-
-#### C. O Marco Normativo Brasileiro: LAI e Política de Dados Abertos
-1. **Lei nº 12.527/2011 (LAI), Art. 8º, § 3º:** Estabelece que os sítios oficiais da administração pública devem, obrigatoriamente:
-   * Conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão;
-   * Possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, **de modo a facilitar a análise das informações**;
-   * **Possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina**;
-   * Divulgar em detalhes os formatos utilizados para estruturação da informação.
-2. **Decreto nº 8.777/2016:** Instituiu a Política de Dados Abertos do Poder Executivo Federal, estabelecendo a obrigatoriedade da elaboração de Planos de Dados Abertos (PDA) pelos órgãos públicos, fomentando a transparência ativa, a governança pública e a inovação tecnológica da sociedade civil.
-
----
-
-### 4. Direito Autoral e Limitações Legais em Bibliotecas (Lei nº 9.610/1998)
-
-No contexto do serviço público, bibliotecas parlamentares e centros de documentação, o tratamento de obras intelectuais submete-se ao regime estrito da **Lei nº 9.610/1998 (Lei de Direitos Autorais - LDA)**:
-
-#### A. A Inaplicabilidade de Direito Autoral a Atos Oficiais (Art. 8º da LDA)
-Conforme o art. 8º, inciso IV, da Lei nº 9.610/1998, **não são objeto de proteção como direitos autorais** os textos de tratados ou convenções, leis, decretos, regulamentos, decisões judiciais e demais atos oficiais dos poderes públicos. Tais conteúdos encontram-se em permanente regime de livre reprodução e circulação, constituindo a matéria-prima dos portais legislativos, diários oficiais e do consórcio LexML Brasil.
-
-#### B. As Limitações e Exceções aos Direitos Autorais (Arts. 46 a 48 da LDA)
-O ordenamento jurídico brasileiro adota o sistema de **rol taxativo (*numerus clausus*)**, não admitindo a doutrina flexível do *fair use* norte-americano. As principais hipóteses autorizadas sem necessidade de prévia licença do titular nem pagamento de retribuição compreendem:
-1. **Cópia Privada de Pequenos Trechos (Art. 46, II):** A reprodução, em um só exemplar de pequenos trechos, para uso privado do copista, desde que feita por este e sem intuito de lucro. A reprodução da obra em sua integralidade é ilícita, mesmo sem intuito lucrativo (Súmula 522/STJ).
-2. **Acessibilidade para Pessoas com Deficiência (Art. 46, I, "d"):** A reprodução de obras em formatos acessíveis (como Braille, áudio ou suportes táteis) para uso exclusivo de deficientes visuais ou com outras limitações de leitura, desde que sem finalidade lucrativa.
-3. **Citação em Trabalhos Técnicos (Art. 46, III):** A citação em livros, jornais ou relatórios para fins de estudo ou crítica, indicando-se o nome do autor e a fonte.
-4. **Preservação de Acervos:** A preservação e segurança de acervos públicos não autorizam a distribuição irrestrita ou digitalização integral de obras protegidas para empréstimo digital desprovido de base contratual ou cessão patrimonial formal.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **BIBFRAME 2.0 e Linked Data (sub-2-7):** Interoperabilidade semântica e publicação de dados abertos interconectados.
-* **IA Aplicada à Informação (sub-6-7):** Governança ética, linhagem (W3C PROV) e curadoria de corpora (Datasheets).
-* **Direito Autoral e Dados Abertos de Pesquisa (sub-9-3):** Licenças e princípios de abertura de dados públicos.
-* **Transparência, LAI e LGPD (sub-11-12):** Conformidade legal sobre proteção de dados e transparência pública.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A atuação do Bibliotecário na Câmara dos Deputados está submetida a um regime legal estrito, ao Código de Ética Profissional e às normas de Governança de Dados do setor público federal:
-1. **Regulamentação Profissional (Leis Federais nº 4.084/1962 e nº 9.674/1998):**
-   - O exercício da profissão de bibliotecário em todo o território nacional é privativo dos bacharéis em Biblioteconomia diplomados por escolas oficiais ou reconhecidas e **registrados no respectivo Conselho Regional de Biblioteconomia (CRB)**.
-   - Atividades privativas: organização, direção e execução dos serviços técnicos de bibliotecas; classificação e catalogação de manuscritos e livros; planejamento e coordenação de redes de bibliotecas.
-2. **Sistema CFB/CRB:**
-   - **Conselho Federal de Biblioteconomia (CFB):** Órgão normativo e de grau de recurso superior.
-   - **Conselhos Regionais (CRB):** Órgãos de fiscalização direta do exercício profissional em suas respectivas jurisdições (o Distrito Federal pertence à jurisdição do **CRB-1**).
-3. **Código de Ética e Deontologia (Resolução CFB nº 207/2018):**
-   - Deveres fundamentais: sigilo profissional sobre informações confiadas em razão do ofício; combate à censura e defesa do livre acesso à informação; atualização profissional contínua; não assinar trabalhos executados por terceiros sem sua participação técnica.
-   - Infrações éticas puníveis com: advertência, censura confidencial, censura pública, multa, suspensão temporária do registro e cassação do exercício profissional.
-4. **Governança de Dados e da Informação no Setor Público (DMBOK e Decreto nº 9.203/2017):**
-   - A governança estabelece as diretrizes estratégicas, a prestação de contas (*accountability*), a liderança e o controle para assegurar que a informação seja tratada como ativo corporativo confiável, seguro e interoperável.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Sigilo Profissional no Atendimento à Consultoria Legislativa):** Um consultor legislativo solicita estudos comparados sigilosos sobre um tema de grande impacto econômico que embasará uma CPI ainda não divulgada. O bibliotecário da Biblioteca Pedro Aleixo tem o **dever ético e legal de sigilo absoluto**, não podendo divulgar a temática da busca nem a parlamentares de outras legendas.
-- **Cenário 2 (Fiscalização do Exercício Privativo no Quadro da Câmara):** Ao realizar concurso público para provimento de vagas de Analista Legislativo - Atribuição Bibliotecário, a Câmara exige obrigatoriamente a comprovação de diploma de Bacharel em Biblioteconomia e o registro ativo no **CRB-1**, em estrito cumprimento às Leis 4.084/62 e 9.674/98.
-- **Cenário 3 (Governança de Dados e Gestão de Metadados):** Ao participar do Comitê de Governança Digital da Câmara dos Deputados, o bibliotecário atua na definição do vocabulário controlado institucional e na gestão de metadados para garantir que os dados abertos das votações sejam interoperáveis entre a Câmara e o Senado Federal segundo o DAMA-DMBOK2.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Órgão / Norma | Papel Principal | Competência Típica | Recurso Final |
-| :--- | :--- | :--- | :--- |
-| **CFB (Federal)** | Normativo e Recursal | Editar o Código de Ética e resoluções gerais | Instância superior administrativa |
-| **CRB-1 (Regional - DF)** | Fiscalização e Registro | Conceder registro profissional e fiscalizar acervos | Recursos sobem ao CFB |
-| **Lei nº 4.084/1962** | Marco Regulatório Inicial | Define a profissão e atos privativos do bibliotecário | Lei Federal ordinária |
-| **Lei nº 9.674/1998** | Reestruturação dos Conselhos | Detalha funcionamento dos Conselhos e infrações | Lei Federal ordinária |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Assinatura de Responsabilidade Técnica por Outrem:** A técnica de distrator recorrente consiste em colocar como assertiva que *"é lícito ao bibliotecário assumir a responsabilidade técnica e assinar catálogos e bases de dados organizados inteiramente por estagiários ou técnicos administrativos sem sua supervisão direta"*. **Gabarito: ERRADO.** Constitui infração ética grave capitulada no Código de Ética do CFB.
-- **Inversão das Competências CFB vs. CRB:** A banca diz que compete aos CRBs editar o Código de Ética e julgar em grau final as infrações. **Gabarito: ERRADO.** Quem edita o Código e julga recursos finais é o CFB.
-- **Dispensa de Registro para Servidores Públicos:** Afirmar que a aprovação em concurso público de órgão federal dispensa o registro no Conselho Regional. **Gabarito: ERRADO.** O exercício profissional, mesmo no setor público estatutário, exige inscrição regular no CRB da jurisdição.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRASIL.** *Lei Federal nº 4.084, de 30 de junho de 1962*. Dispõe sobre a profissão de Bibliotecário e regula o seu exercício.
-- **BRASIL.** *Lei Federal nº 9.674, de 25 de junho de 1998*. Dispõe sobre o exercício da profissão de Bibliotecário e determina outras providências.
-- **CONSELHO FEDERAL DE BIBLIOTECONOMIA (CFB).** *Resolução CFB nº 207, de 9 de novembro de 2018*. Aprova o Código de Ética e Deontologia do Profissional Bibliotecário brasileiro.
-- **IFLA.** *IFLA Code of Ethics for Librarians and other Information Workers*. Haia: IFLA, 2012.
-- **DAMA INTERNATIONAL.** *DAMA-DMBOK: Data Management Body of Knowledge*. 2. ed. Technics Publications, 2017. (Capítulo de Governança da Informação e Dados).
-
-### Pausa de Recuperação Ativa: Limitações aos Direitos Autorais
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Sem consultar o texto, quais são as principais hipóteses do art. 46 da Lei 9.610/1998 aplicáveis às bibliotecas e à pesquisa acadêmica? Lembre-se da regra dos pequenos trechos, da cópia para uso privado do copista e da acessibilidade para pessoas com deficiência visual.
-`,
+  "A competência depende de lei e atos válidos; o papel de governança não a cria sozinho.",
+  "Dois registros com IDs diferentes podem representar a mesma entidade indevidamente.",
+  "Podem mudar, e validade temporal é relevante."
+],
+  teoriaDensaMarkdown: "### Governança da Informação versus Governança de Dados: Conceitos e Fronteiras\n\nA crescente complexidade dos ambientes digitais impôs uma distinção conceitual rigorosa entre a **governança de dados** e a **gestão de dados**, bem como entre dados e informação no setor público.\n\n```timeline\n1. GOVERNANÇA | Direitos Decisórios e Políticas | \"O que deve ser feito, por quem e sob quais regras?\" (Autoridade e Estratégia)\n---> Diretrizes e Limites Operacionais\n2. GESTÃO | Execução Operacional e Prática | \"Como fazer da melhor forma dentro das regras?\" (Planejamento, Execução e Controle)\n---> Monitoramento e Métricas\n3. AUDITORIA | Avaliação e Conformidade | \"As regras e padrões de qualidade estão sendo rigorosamente cumpridos?\"\n```\n\n#### A. O Princípio Canônico do DAMA-DMBOK (2ª ed., 2017)\nConforme estabelecido pela *Data Management Association International* (DAMA International) em seu guia oficial de referência (*DAMA-DMBOK: Data Management Body of Knowledge*):\n* **Governança de Dados (*Data Governance*):** É o exercício de autoridade e controle (planejamento, monitoramento e fiscalização) sobre o gerenciamento de ativos de dados. A governança **estabelece os direitos de decisão e uma estrutura de responsabilização** (*accountability*) para assegurar que os dados sejam gerenciados adequadamente. A governança decide as políticas, define as prioridades, arbitra conflitos e fiscaliza a conformidade.\n* **Gestão de Dados (*Data Management*):** Abrange o planejamento, desenvolvimento, execução e controle das atividades necessárias para obter, integrar, armazenar, proteger e disponibilizar dados segundo as regras e diretrizes estabelecidas pela governança. Enquanto a governança determina *quem tem o direito de decidir* e *quais são as regras*, a gestão *opera e executa* sob essas balizas.\n\n#### B. Articulação com a Governança Pública (Decreto nº 9.203/2017)\nNo âmbito **delimitado pelo Decreto 9.203/2017 (administração federal direta, autárquica e fundacional do Executivo)**, a governança pública é orientada pelos princípios de capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade (*accountability*), e transparência (art. 3º do Decreto nº 9.203/2017, estudado no submódulo 11.9).\n* A **Governança da Informação** conecta a governança corporativa/pública com a gestão técnica, assegurando que os ativos informacionais institucionais apoiem as políticas públicas, o cumprimento das competências institucionais, a proteção da privacidade (LGPD) e a transparência ativa (LAI).\n\n**Aplicação e recuperação:** Uma norma interna chama o gestor do domínio de owner. Isso organiza responsabilidades, mas não o torna automaticamente autoridade de classificação ultrassecreta. Competências legais e política de dados precisam ser compatibilizadas.\n\n### Papéis e Responsabilidades em Governança de Dados\n\nO edital nº 1/2026 exige explicitamente os papéis e políticas de governança de dados (*data ownership* e *data stewardship*, itens 2.2 e 2.3 do Bloco A). Papéis como os seguintes ajudam a separar decisões, qualidade e operação. Nomenclaturas e distribuição variam por instituição; não são cargos públicos criados pelo DAMA nem competências legais universais:\n\n#### A. Data Owner (Proprietário do Dado)\n* **Definição:** É o gestor executivo ou autoridade institucional que detém a responsabilidade final e a autoridade deliberativa sobre determinado conjunto ou domínio de dados organizacionais.\n* **Responsabilidades Primordiais:** Participar de políticas e decisões do domínio dentro das competências atribuídas. **O título data owner não confere automaticamente poder de classificar sigilo pela LAI**, definir toda base legal LGPD ou decidir sozinho o apetite de risco institucional; prestar contas (*accountability*) perante auditorias e órgãos de controle externo.\n* **Nota Doutrinária:** O termo \"proprietário\" é metafórico no setor público: a designação não cria domínio civil sobre dados nem elimina direitos dos titulares, sigilo ou proteção legal; o *data owner* atua como responsável institucional pela tomada de decisões daquele domínio.\n\n#### B. Data Steward (Curador / Zelador do Dado)\n* **Definição:** É o profissional (ou comitê) que atua na interface direta entre as necessidades de negócio e as capacidades técnicas de TI, zelando diariamente pela integridade semântica, qualidade e conformidade dos dados.\n* **Responsabilidades Primordiais:** Elaborar e manter o vocabulário corporativo de termos (*business vocabulary / data dictionary*); garantir que os metadados estejam completos e atualizados; mapear regras de negócio e de integridade; identificar e sanear inconsistências e duplicidades; promover a alfabetização em dados (*data literacy*) entre os usuários.\n* **O Papel do Bibliotecário:** O bibliotecário pode contribuir como *data steward*, conforme designação, competências desenvolvidas e responsabilidades estabelecidas, dada sua expertise secular em organização do conhecimento, controle de vocabulário, ontologias, catalogação e padrões de metadados.\n\n#### C. Data Custodian (Custodiante Técnico)\n* **Definição:** É a unidade técnica (tipicamente vinculada à área de Tecnologia da Informação) incumbida da guarda, armazenamento, administração dos servidores e proteção física e cibernética dos ativos computacionais.\n* **Responsabilidades Primordiais:** Gerenciar a infraestrutura física e em nuvem dos bancos de dados; assegurar rotinas de backup e planos de recuperação de desastres (*disaster recovery*); implementar controles criptográficos e permissões de acesso aprovadas pelo *data owner*; monitorar desempenho de rede e integridade de arquivos.\n\n**Aplicação e recuperação:** O steward aponta duplicação semântica, o custodian implementa uma rotina aprovada e o owner delibera dentro de sua competência. A mesma pessoa pode acumular tarefas em estrutura pequena, mas responsabilidades e controles devem continuar claros.\n\n### Dimensões de Qualidade de Dados (Data Quality no DAMA-DMBOK)\n\nA qualidade de dados (item 2.5 do Bloco A) mensura o grau em que um conjunto de dados atende às necessidades dos seus consumidores e processos de negócio. Uma síntese operacional de dimensões frequentes é apresentada a seguir. Não se trata de lista única obrigatória para todo contexto; explicite fórmula, escopo e critério de aceitação de cada indicador:\n\n1. **Exatidão (*Accuracy*):** Grau em que os dados representam com fidedignidade e precisão a realidade do objeto ou evento que descrevem. Ex.: o nome de um deputado e sua data de posse coincidem estritamente com os dados oficiais do Tribunal Superior Eleitoral e da ata da Mesa.\n2. **Completude (*Completeness*):** Proporção de dados armazenados em relação ao total de dados esperados para que o registro seja funcionalmente útil. Ex.: um registro de proposição que contenha ementa, autor, data, comissão e texto integral pode cumprir o conjunto de campos exigido pelo perfil. Completude deve ser definida contra requisitos, não contra uma lista universal de cinco campos.\n3. **Consistência (*Consistency*):** Ausência de contradições internas entre dados que descrevem o mesmo fato em diferentes tabelas ou bases de dados corporativas. Ex.: um parlamentar constar como \"em exercício\" no portal da transparência e como \"afastado por licença médica\" no sistema de votação pode indicar inconsistência **se período e significado forem os mesmos**; atualização em momentos distintos e estados funcionais diferentes devem ser examinados.\n4. **Atualidade / Tempestividade (*Timeliness*):** Intervalo de tempo entre a ocorrência de um fato no mundo real e a sua disponibilização nos sistemas de informação para consumo. Ex.: a publicação do resultado de uma votação em plenário logo após a sua proclamação garante altíssima tempestividade.\n5. **Validade (*Validity*):** Conformidade dos dados em relação às regras de sintaxe, tipos de dados, formatação e domínios de valores autorizados. Ex.: conformidade de formato e domínio, conforme regras completas. Ter onze dígitos não prova CPF válido ou pertencente à pessoa informada; dígitos verificadores e confronto com a realidade são verificações diferentes (ex.: \"DF\", \"SP\").\n6. **Unicidade (*Uniqueness*):** Ausência de duplicação indevida da entidade/unidade definida. Múltiplas versões, eventos ou papéis não são duplicatas só por se referirem à mesma pessoa; chaves técnicas únicas também não garantem deduplicação semântica (*deduplication*).\n\n**Aplicação e recuperação:** Todos os registros têm chave diferente e onze dígitos no CPF, mas dois registros representam a mesma pessoa com informação errada. Unicidade da chave, validade sintática e exatidão do dado são verificações diferentes. A métrica deve dizer o que mede.\n\n### Proveniência, Linhagem de Dados e o Padrão W3C PROV\n\nO edital cobra **proveniência, linhagem e rastreabilidade dos dados** (item 2.6 do Bloco A):\n\n#### A. Proveniência versus Linhagem de Dados (*Data Lineage*)\n* **Proveniência:** Refere-se à origem histórica, cadeia de custódia formal, direitos de criação e contexto original de geração de um documento ou dado. No âmbito arquivístico e da preservação digital (OAIS/PREMIS), registro de proveniência **apoia** avaliação de autenticidade e contexto; pode ser incompleto ou incorreto e não certifica sozinho legitimidade do emissor.\n* **Linhagem de Dados (*Data Lineage*):** É a representação cronológica e arquitetural de todo o percurso de transformação percorrido pelo dado desde a sua fonte de captura primária até a sua apresentação final em relatórios, dashboards ou APIs. A linhagem documenta quais rotinas de ETL/ELT processaram o dado, quais fórmulas de agregação foram aplicadas, quais tabelas foram combinadas (*joins*) e como a estrutura mudou ao longo do pipeline informacional.\n\n#### B. A Recomendação W3C PROV (PROV-O, 2013)\nO World Wide Web Consortium (W3C) publicou em 2013 a família de padrões **W3C PROV**, cuja ontologia fundamental em OWL/RDF é a **PROV-O** (*PROV Ontology*). O modelo PROV estrutura qualquer grafo de proveniência a partir de três classes ontológicas basilares:\n* **Entidade (*Entity* - `prov:Entity`):** Qualquer coisa física, digital ou conceitual com a qual se interage (ex.: um dataset CSV, um documento XML, um registro de votação).\n* **Atividade (*Activity* - `prov:Activity`):** Uma ação ou processo que ocorre ao longo do tempo e age sobre ou com entidades, podendo consumi-las, transformá-las ou gerar novas entidades (ex.: a execução de um script de limpeza em Python, a sessão de votação parlamentar).\n* **Agente (*Agent* - `prov:Agent`):** Uma pessoa física, organização ou software automatizado que tem responsabilidade por uma atividade ou entidade (ex.: o Deputado Relator, a Mesa Diretora, um algoritmo de ETL).\n\nAs relações canônicas do W3C PROV conectam essas classes:\n* `prov:wasGeneratedBy`: Liga uma Entidade à Atividade que a produziu.\n* `prov:used`: Liga uma Atividade a uma Entidade que serviu de insumo.\n* `prov:wasDerivedFrom`: Liga uma Entidade resultante a outra Entidade originária.\n* `prov:wasAssociatedWith`: Liga uma Atividade ao Agente responsável.\n* `prov:wasAttributedTo`: Expressa atribuição de uma Entidade a um Agente; não se conclui, só da relação, que esse agente seja necessariamente o custodiante ou criador exclusivo.\n\n**Aplicação e recuperação:** Um CSV foi agregado por script de uma equipe. Pode-se modelar arquivo como entidade, execução como atividade e equipe como agente; a derivação liga saída e entrada. Registrar essa linhagem ajuda a auditar, mas um registro falso de proveniência continua possível.\n\n### Catálogos de Dados, Inventários de Ativos, Dados Mestres e de Referência\n\n#### A. Catálogo de Dados versus Inventário de Ativos Informacionais\n* **Catálogo de Dados (*Data Catalog*):** Pode ser serviço/plataforma de descoberta e documentação, centralizado ou federado conforme o projeto, que indexa, organiza e descreve os conjuntos de dados de uma organização por meio de metadados ricos (dicionários de dados, esquemas de tabelas, perfil de qualidade, dados sobre o *data steward*, histórico de linhagem e documentação de APIs). Seu objetivo primordial é a **descoberta (*findability*), governança semântica e reuso de dados** por analistas e pesquisadores.\n* **Inventário de Ativos Informacionais (*Information Asset Inventory*):** É uma lista formal e abrangente de todos os recursos, bases de dados, sistemas, repositórios e equipamentos informacionais detidos pela organização, mantida primordialmente para fins de **gestão de riscos de segurança da informação, conformidade legal, continuidade de negócios e auditoria de TI**.\n\n#### B. Dados Mestres versus Dados de Referência\n* **Dados Mestres (*Master Data*):** São os dados centrais que identificam/descrevem entidades de negócio; **podem mudar** e precisam de gestão de identidade, versões e qualidade que identificam as entidades essenciais sobre as quais a organização opera e toma decisões. Esses dados são compartilhados transversalmente por múltiplos sistemas de informação corporativos.\n  * *Exemplo na Câmara:* O cadastro único de autoridades parlamentares (deputados federais), o registro de órgãos legislativos e o catálogo mestre de autoridades de assunto.\n* **Dados de Referência (*Reference Data*):** São conjuntos de valores autorizados, tabelas de códigos e domínios discretos de classificação utilizados para categorizar outros dados ou integrá-los a padrões externos. Podem ter controle de alteração e versões; não são necessariamente imutáveis. Partidos, códigos e categorias mudam com regras de validade temporal.\n  * *Exemplo na Câmara:* A tabela oficial de siglas dos partidos políticos, a lista de códigos ISO de idiomas (ISO 639-2), códigos de Unidades da Federação (UF) e a tabela de tipos de proposição legislativa (PL, PEC, MPV, PDC).\n\n**Aplicação e recuperação:** Um código de partido mudou entre períodos. Dado de referência precisa de validade temporal. Dado mestre sobre a pessoa também pode mudar; guardar histórico não implica duplicação indevida, se a unidade do registro foi corretamente definida.\n\n### Dados Abertos Governamentais: Princípios, 5 Estrelas e Marco Legal\n\nO item 2.9 do Bloco A requer o domínio das políticas e princípios de **dados abertos governamentais**.\n\n#### A. Os Oito Princípios dos Dados Abertos Governamentais (Sebastopol, 2007)\nReunidos em 2007 em Sebastopol (Califórnia), trinta defensores do governo aberto definiram os oito critérios que tornam um dado público verdadeiramente \"aberto\":\n1. **Completos (*Complete*):** Todos os dados públicos são disponibilizados, ressalvadas as restrições constitucionais de sigilo pessoal e de segurança do Estado.\n2. **Primários (*Primary*):** Os dados são publicados na sua fonte de origem, com o mais alto nível de granularidade possível, sem agregações, resumos ou transformações artificiais.\n3. **Atuais / Tempestivos (*Timely*):** Os dados são divulgados tão rapidamente quanto necessário para preservar o seu valor público de fiscalização e utilidade prática.\n4. **Acessíveis (*Accessible*):** Disponíveis para a mais ampla gama de usuários e para os mais diversos propósitos, sem barreiras de acesso.\n5. **Processáveis por Máquina (*Machine-Processable*):** Os dados são estruturados em formatos que permitem o processamento automático por sistemas computacionais (ex.: CSV, XML, JSON), e não apenas exibição visual para leitura humana (como imagens rasterizadas ou PDFs planos).\n6. **Acesso Não Discriminatório (*Non-Discriminatory*):** Qualquer pessoa pode acessar os dados a qualquer momento sem necessidade de cadastro prévio, identificação obrigatória ou justificativa de interesse.\n7. **Formatos Não Proprietários (*Non-Proprietary*):** Os dados estão disponíveis em formatos cujas especificações são públicas e não dependem do pagamento de licenças a empresas detentoras de software (ex.: uso de CSV ou ODS em contraste com formatos dependentes de controle proprietário; **não equiparar automaticamente XLS binário e XLSX/Office Open XML padronizado**).\n8. **Sem restrições indevidas de licença (*License-Free*, na formulação histórica):** O princípio rejeita restrições que impeçam reutilização; não significa que ausência de qualquer informação jurídica seja preferível a licença aberta explícita. Privacidade e outras restrições legítimas permanecem relevantes.\n\n#### B. O Esquema de 5 Estrelas de Dados Abertos de Tim Berners-Lee (2010)\nO criador da World Wide Web propôs uma escala progressiva de maturidade para a publicação de dados abertos interligados (*Linked Open Data*):\n* ⭐ **1 Estrela:** Dados disponíveis na web em **qualquer formato** sob uma licença aberta (ex.: uma imagem digitalizada de tabela orçamentária ou um PDF plano). Permite que o dado seja visualizado, mas sua extração e reuso computacional são árduos.\n* ⭐⭐ **2 Estrelas:** Dados disponibilizados como **dados estruturados**, em formato legível por máquina, como planilha. O exemplo histórico usa Excel; **software proprietário não é obrigatório para abrir toda planilha**, e formato proprietário deve ser distinguido de XLSX com especificação padronizada. Os níveis são cumulativos, não categorias mutuamente exclusivas\n* ⭐⭐⭐ **3 Estrelas:** Dados estruturados em **formato aberto e não proprietário** (ex.: arquivo CSV ou XML aberto). O formato facilita uso por ferramentas diversas; ainda são necessários parser, codificação, documentação e licença pertinentes. Não se garante que qualquer programa leia todo arquivo automaticamente.\n* ⭐⭐⭐⭐ **4 Estrelas:** Identificar coisas por **URIs**, permitindo referência e acesso a descrições úteis no contexto Linked Data. RDF é modelo associado a essa publicação; não se impõe endpoint SPARQL como requisito universal de toda quarta estrela. Permite que outros sítios na web apontem diretamente para aquele recurso específico.\n* ⭐⭐⭐⭐⭐ **5 Estrelas:** **Linked Open Data (LOD)**: Dados no formato RDF/URI interligados (*linked*) a outros conjuntos de dados externos na web semântica (ex.: linkando o registro de um deputado da Câmara ao seu verbete no Wikidata, ao LexML e a bases da OCDE), gerando um grafo global de conhecimento.\n\n#### C. O Marco Normativo Brasileiro: LAI e Política de Dados Abertos\n1. **Lei nº 12.527/2011 (LAI), Art. 8º, § 3º:** Estabelece que os sítios oficiais da administração pública devem, obrigatoriamente:\n   * Conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão;\n   * Possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, **de modo a facilitar a análise das informações**;\n   * **Possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina**;\n   * Divulgar em detalhes os formatos utilizados para estruturação da informação.\n2. **Decreto nº 8.777/2016:** Instituiu a Política de Dados Abertos do Poder Executivo Federal, estabelecendo a obrigatoriedade da elaboração de Planos de Dados Abertos (PDA) pelos órgãos abrangidos no **Poder Executivo federal**, sem presumir que o decreto organize automaticamente a Câmara ou os demais Poderes, fomentando a transparência ativa, a governança pública e a inovação tecnológica da sociedade civil.\n\n**Aplicação e recuperação:** Uma planilha aberta e documentada tem dados legíveis por máquina, mas expõe informação pessoal sem fundamento. Qualidade técnica não resolve legalidade. Um PDF-imagem pode atingir o nível inicial do esquema de estrelas sob licença aberta, sem satisfazer todos os princípios de dados governamentais processáveis por máquina.\n\n### Direito Autoral e Limitações Legais em Bibliotecas (Lei nº 9.610/1998)\n\nNo contexto do serviço público, bibliotecas parlamentares e centros de documentação, o tratamento de obras intelectuais submete-se ao regime estrito da **Lei nº 9.610/1998 (Lei de Direitos Autorais - LDA)**:\n\n#### A. A Inaplicabilidade de Direito Autoral a Atos Oficiais (Art. 8º da LDA)\nConforme o art. 8º, inciso IV, da Lei nº 9.610/1998, **não são objeto de proteção como direitos autorais** os textos de tratados ou convenções, leis, decretos, regulamentos, decisões judiciais e demais atos oficiais dos poderes públicos. A exclusão de proteção autoral desses textos não elimina outros limites, como sigilo, dados pessoais, direitos sobre conteúdos acessórios ou condições de uso de uma base. Isso não autoriza reproduzir qualquer obra produzida por um servidor. Esses atos, constituindo a matéria-prima dos portais legislativos, diários oficiais e do consórcio LexML Brasil.\n\n#### B. As Limitações e Exceções aos Direitos Autorais (Arts. 46 a 48 da LDA)\nO regime brasileiro não se confunde automaticamente com a cláusula de *fair use* norte-americana. As hipóteses dos arts. 46–48 possuem condições próprias e sua interpretação deve considerar a Constituição, tratados e jurisprudência; não se apresenta um suposto caráter taxativo absoluto como consenso que dispense essa análise. As principais hipóteses autorizadas sem necessidade de prévia licença do titular nem pagamento de retribuição compreendem:\n1. **Cópia Privada de Pequenos Trechos (Art. 46, II):** A reprodução, em um só exemplar de pequenos trechos, para uso privado do copista, desde que feita por este e sem intuito de lucro. A hipótese de pequenos trechos não autoriza, só por ausência de lucro, a cópia integral. Outras bases podem ser pertinentes — licença, domínio público ou hipótese específica. **A Súmula 522 do STJ trata de falsa identidade perante autoridade policial, não de direitos autorais**, e sua antiga citação nesta aula foi retirada como fundamento.\n2. **Acessibilidade para Pessoas com Deficiência (Art. 46, I, \"d\"):** A reprodução de obras em formatos acessíveis (como Braille, áudio ou suportes táteis) conforme os requisitos da hipótese legal. O art. 46, I, d, trata especificamente de deficientes visuais; o **Tratado de Marraqueche**, promulgado pelo Decreto 9.522/2018 e regulamentado pelo Decreto 10.882/2021, possui âmbito e procedimentos próprios para beneficiários e formatos acessíveis.\n3. **Citação em Trabalhos Técnicos (Art. 46, III):** A citação em livros, jornais ou relatórios para estudo, crítica ou polêmica, **na medida justificada para o fim a atingir**, com nome do autor e origem. Citar a fonte não autoriza automaticamente qualquer quantidade de reprodução.\n4. **Preservação de Acervos:** A preservação e segurança de acervos públicos não autorizam a distribuição irrestrita ou digitalização integral de obras protegidas para empréstimo digital desprovido de base contratual ou cessão patrimonial formal.\n\n**Aplicação e recuperação:** Um pesquisador indica autor e fonte ao reproduzir um livro inteiro. A atribuição é necessária em várias situações, mas não substitui licença ou hipótese legal. Para formato acessível, examine a disciplina própria; para ato oficial, separe texto do ato de comentários editoriais protegidos.",
+  teoriaDidaticaMarkdown: "Governança define responsabilidades e decisões; gestão realiza e coordena atividades, dentro de competências legais. Papéis não criam poderes de sigilo. Qualidade exige requisitos e escopo. Proveniência apoia avaliação, sem garantir verdade. Dados mestres e de referência podem mudar. Abertura exige atenção a formato, licença e direitos; níveis de estrelas são cumulativos. Decreto 8.777 tem âmbito no Executivo. Súmula 522 não trata de cópia de livros.",
   checkpoints: [
-    {
-      id: 'cp-1-6-1',
-      pergunta: 'Micro-Checkpoint 1: Governança de Dados versus Gestão de Dados (DAMA-DMBOK)',
-      item: 'A governança de dados define direitos de decisão e responsabilidades sobre os dados, ao passo que a gestão de dados executa as atividades operacionais segundo essas definições.',
-      gabarito: 'C',
-      justificativa:
-        'Certo! Essa é a distinção estrutural canônica do DAMA-DMBOK: a governança atua na dimensão estratégica de autoridade, diretrizes, políticas e responsabilização (accountability), enquanto a gestão encarrega-se da operação diária, implementação técnica e processos operacionais sob essas regras.',
-    },
-    {
-      id: 'cp-1-6-2',
-      pergunta: 'Micro-Checkpoint 2: Papéis Organizacionais: Data Owner versus Data Steward',
-      item: 'O data steward é, em regra, o responsável final pelas decisões estratégicas de acesso e uso de um domínio de dados, cabendo ao data owner a verificação diária da qualidade.',
-      gabarito: 'E',
-      justificativa:
-        'Errado! A proposição inverte integralmente as atribuições do modelo DAMA-DMBOK: o Data Owner (Proprietário) é quem detém a responsabilidade executiva final e a autoridade para decidir sobre acesso, sigilo e políticas do domínio; o Data Steward (Curador/Zelador) é o guardião tático e operacional responsável pelo controle de qualidade diário, metadados e vocabulários de negócio.',
-      versao_correta:
-        'O data owner é o responsável executivo final pelas decisões estratégicas de acesso e uso de um domínio de dados, cabendo ao data steward zelar taticamente pela qualidade diária e pela consistência dos metadados.',
-    },
-    {
-      id: 'cp-1-6-3',
-      pergunta: 'Micro-Checkpoint 3: Requisitos de Dados Abertos Governamentais (LAI e Princípios de 2007)',
-      item: 'Dados orçamentários publicados exclusivamente como imagens em PDF, ainda que acessíveis a qualquer pessoa sem cadastro, atendem plenamente ao princípio de processamento por máquina dos dados abertos.',
-      gabarito: 'E',
-      justificativa:
-        'Errado! Imagens rasterizadas em PDF não são processáveis por máquina de forma nativa e automática por algoritmos, exigindo OCR sujeito a erros. O livre acesso público não equivale a dado aberto: os princípios de dados abertos e o art. 8º, § 3º, da LAI exigem formato estruturado e legível por máquina (como CSV, XML ou JSON).',
-      versao_correta:
-        'Dados orçamentários publicados exclusivamente como imagens em PDF violam o princípio do processamento por máquina e a legislação brasileira de dados abertos, que exigem formatos eletrônicos estruturados e abertos.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-1-6-1',
-        periodo: '2007',
-        disciplina: 'Transparência e Governo Aberto',
-        focoPrincipal: 'Os 8 Princípios dos Dados Abertos Governamentais (Reunião de Sebastopol)',
-        figuraChave: 'Open Government Working Group',
-      },
-      {
-        id: 'tl-1-6-2',
-        periodo: '2010',
-        disciplina: 'Web Semântica e Dados Conectados',
-        focoPrincipal: 'O esquema evolutivo de 5 estrelas para Linked Open Data (LOD)',
-        figuraChave: 'Tim Berners-Lee',
-      },
-      {
-        id: 'tl-1-6-3',
-        periodo: '2011 / 2016',
-        disciplina: 'Marco Legal Brasileiro de Dados',
-        focoPrincipal: 'Lei de Acesso à Informação (LAI - Lei 12.527, art. 8º § 3º) e Decreto 8.777/2016 (Política de Dados Abertos)',
-        figuraChave: 'Congresso Nacional e Poder Executivo Federal',
-      },
-      {
-        id: 'tl-1-6-4',
-        periodo: '2013',
-        disciplina: 'Rastreabilidade e Proveniência Digital',
-        focoPrincipal: 'Recomendação W3C PROV-O (Entity, Activity, Agent)',
-        figuraChave: 'World Wide Web Consortium (W3C)',
-      },
-      {
-        id: 'tl-1-6-5',
-        periodo: '2017',
-        disciplina: 'Governança Corporativa de Dados',
-        focoPrincipal: 'Publicação do DAMA-DMBOK 2ª edição (Roda de DAMA e Papéis de Governança)',
-        figuraChave: 'DAMA International',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-1-6-1',
-        nome: 'DAMA International',
-        ano: 2017,
-        obraPrincipal: 'DAMA-DMBOK: Data Management Body of Knowledge (2ª ed.)',
-        ideiaChave: 'Governança de dados estabelece a autoridade e as regras de controle; gestão de dados executa as operações.',
-        chipPegadinha: 'Diferenciação mandante entre Data Owner (autoridade executiva) e Data Steward (zeladoria e qualidade).',
-      },
-      {
-        id: 'aut-1-6-2',
-        nome: 'Tim Berners-Lee',
-        ano: 2010,
-        obraPrincipal: '5-Star Open Data Deployment Scheme',
-        ideiaChave: 'Evolução dos dados na web do formato plano (1 estrela) aos dados semânticos interligados em RDF (5 estrelas).',
-        chipPegadinha: 'PDF ou imagem aberta na web alcança apenas 1 estrela; o processamento por máquina exige 3 estrelas ou mais.',
-      },
-      {
-        id: 'aut-1-6-3',
-        nome: 'Open Government Working Group',
-        ano: 2007,
-        obraPrincipal: '8 Principles of Open Government Data',
-        ideiaChave: 'Dados devem ser completos, primários, atuais, acessíveis, processáveis por máquina, não discriminatórios, não proprietários e sem licença.',
-        chipPegadinha: 'Acesso sem necessidade de cadastro é um princípio explícito (não discriminatório).',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-1-6-1',
-        afirmacao: 'A governança de dados tem como competência central a execução de comandos SQL e a gestão técnica do espaço em disco dos bancos de dados relacionais.',
-        gabarito: 'E',
-        porQue: 'Isso é atribuição operacional de GESTÃO de dados e administração técnica (Data Custodian). A governança de dados foca em políticas, direitos de decisão, conformidade regulatória e responsabilização.',
-      },
-      {
-        id: 'peg-1-6-2',
-        afirmacao: 'O padrão W3C PROV-O modela a proveniência e a linhagem de dados estruturando as relações exclusivamente entre entidades e agentes, desconsiderando as atividades e transformações temporais intermediárias.',
-        gabarito: 'E',
-        porQue: 'O W3C PROV é uma tríade ontológica indispensável: Entity, Activity e Agent. A classe Activity (atividade/processo) é essencial para mapear as ações temporais que consumiram ou geraram as entidades.',
-      },
-    ],
+  {
+    "id": "cp-1-6-1",
+    "pergunta": "Micro-Checkpoint 1: Governança de Dados versus Gestão de Dados (DAMA-DMBOK)",
+    "item": "A governança de dados define direitos de decisão e responsabilidades sobre os dados, ao passo que a gestão de dados executa as atividades operacionais segundo essas definições.",
+    "gabarito": "C",
+    "justificativa": "É a distinção de foco entre direitos decisórios/responsabilidades e atividades de gestão. Não reduz toda gestão a execução mecânica sem planejamento.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche."
   },
+  {
+    "id": "cp-1-6-2",
+    "pergunta": "Micro-Checkpoint 2: Papéis Organizacionais: Data Owner versus Data Steward",
+    "item": "O data steward é, em regra, o responsável final pelas decisões estratégicas de acesso e uso de um domínio de dados, cabendo ao data owner a verificação diária da qualidade.",
+    "gabarito": "E",
+    "justificativa": "No enquadramento da aula, o item inverte responsabilidades. Títulos variam por instituição, e owner também não recebe automaticamente competências legais de sigilo.",
+    "versao_correta": "Owner responde por decisões atribuídas ao domínio; steward zela por definição, qualidade e uso dentro da política.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche."
+  },
+  {
+    "id": "cp-1-6-3",
+    "pergunta": "Micro-Checkpoint 3: Requisitos de Dados Abertos Governamentais (LAI e Princípios de 2007)",
+    "item": "Dados orçamentários publicados exclusivamente como imagens em PDF, ainda que acessíveis a qualquer pessoa sem cadastro, atendem plenamente ao princípio de processamento por máquina dos dados abertos.",
+    "gabarito": "E",
+    "justificativa": "Imagem de tabela não oferece diretamente os valores em estrutura legível para processamento. OCR pode ajudar, sem equivaler ao atendimento automático de todos os requisitos de abertura.",
+    "versao_correta": "Acesso sem cadastro a PDF-imagem não basta, sozinho, para plena conformidade a processamento por máquina.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche."
+  },
+  {
+    "id": "rt-1-6-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O cargo interno de data owner confere automaticamente competência legal para classificar toda informação sigilosa da instituição.",
+    "gabarito": "E",
+    "justificativa": "A competência depende de lei e atos válidos; o papel de governança não a cria sozinho.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche.",
+    "editalRef": "Bloco A - Item 2.1 a 2.9",
+    "habilidade": "aplicar",
+    "versao_correta": "O papel atua dentro das competências legalmente atribuídas."
+  },
+  {
+    "id": "rt-1-6-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Designar um bibliotecário como steward exige definir escopo, competências e responsabilidades; a formação não o investe automaticamente nesse papel em toda instituição.",
+    "gabarito": "C",
+    "justificativa": "Expertise pode contribuir, mas atribuição e preparo devem ser explicitados.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche.",
+    "editalRef": "Bloco A - Item 2.1 a 2.9",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-1-6-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Chaves técnicas distintas garantem ausência de duplicação semântica de pessoas no cadastro.",
+    "gabarito": "E",
+    "justificativa": "Dois registros com IDs diferentes podem representar a mesma entidade indevidamente.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche.",
+    "editalRef": "Bloco A - Item 2.1 a 2.9",
+    "habilidade": "aplicar",
+    "versao_correta": "Deduplicação semântica exige critérios além da chave técnica."
+  },
+  {
+    "id": "rt-1-6-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um grafo de proveniência pode apoiar auditoria sem certificar que todos os registros de sua própria origem estejam corretos.",
+    "gabarito": "C",
+    "justificativa": "Registro de contexto também deve ser avaliado.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche.",
+    "editalRef": "Bloco A - Item 2.1 a 2.9",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-1-6-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Dados mestres e dados de referência nunca mudam e dispensam controle de versão.",
+    "gabarito": "E",
+    "justificativa": "Podem mudar, e validade temporal é relevante.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche.",
+    "editalRef": "Bloco A - Item 2.1 a 2.9",
+    "habilidade": "aplicar",
+    "versao_correta": "Devem ser geridos conforme regras e histórico necessários."
+  },
+  {
+    "id": "rt-1-6-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Atender uma estrela inicial do esquema de publicação não equivale a cumprir automaticamente todos os princípios de abertura e processamento de dados governamentais.",
+    "gabarito": "C",
+    "justificativa": "Os referenciais têm finalidades e critérios diferentes.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche.",
+    "editalRef": "Bloco A - Item 2.1 a 2.9",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-1-6-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A Súmula 522 do STJ é fundamento específico para proibir qualquer reprodução integral de obra bibliográfica, em qualquer hipótese.",
+    "gabarito": "E",
+    "justificativa": "A súmula é de falsa identidade; também existem bases legais distintas para reprodução, com condições.",
+    "fonte": "DAMA-DMBOK2 (2017), governança, gestão e responsabilidades; W3C PROV-O (2013); Berners-Lee, Linked Data e esquema de cinco estrelas; princípios de Sebastopol (2007); LAI, art. 8º; Decreto 8.777/2016; LDA, arts. 8º e 46–48; Tratado de Marraqueche.",
+    "editalRef": "Bloco A - Item 2.1 a 2.9",
+    "habilidade": "aplicar",
+    "versao_correta": "Direitos autorais devem ser analisados na legislação e jurisprudência pertinentes."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-1-6-fonte-dama",
+      "nome": "DAMA International — Data Management Body of Knowledge",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "DAMA International — Data Management Body of Knowledge",
+      "ideiaChave": "Usa-se a segunda edição no enquadramento da aula; atualizações de projeto não substituem automaticamente a referência do edital.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-prov",
+      "nome": "W3C — PROV-O (2013)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "W3C — PROV-O (2013)",
+      "ideiaChave": "Entidades, atividades, agentes e relações de proveniência.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-linked",
+      "nome": "Tim Berners-Lee — Linked Data",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Tim Berners-Lee — Linked Data",
+      "ideiaChave": "Identificadores e conexões; endpoint SPARQL não é imposição universal para toda publicação.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-stars",
+      "nome": "5-star Open Data",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "5-star Open Data",
+      "ideiaChave": "Requisitos cumulativos e exemplos didáticos; verificar formato e licença.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-principios",
+      "nome": "OpenGovData — oito princípios de 2007",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "OpenGovData — oito princípios de 2007",
+      "ideiaChave": "Referência histórica, com limites de privacidade e segurança.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-lai",
+      "nome": "Lei 12.527/2011 — LAI",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 12.527/2011 — LAI",
+      "ideiaChave": "Art. 8º, § 3º, formatos e acesso automatizado, com âmbito/exceções legais.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-dadosabertos",
+      "nome": "Decreto 8.777/2016",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Decreto 8.777/2016",
+      "ideiaChave": "Política de Dados Abertos do Poder Executivo federal; não aplicar automaticamente a todos os Poderes.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-lda",
+      "nome": "Lei 9.610/1998 — direitos autorais",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 9.610/1998 — direitos autorais",
+      "ideiaChave": "Arts. 8º e 46–48: objetos excluídos e limitações, com condições próprias.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-marraqueche",
+      "nome": "Decreto 10.882/2021 e Tratado de Marraqueche",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Decreto 10.882/2021 e Tratado de Marraqueche",
+      "ideiaChave": "Acessibilidade possui disciplina própria além do art. 46 da LDA.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-6-fonte-sumula",
+      "nome": "STJ — Súmula 522",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STJ — Súmula 522",
+      "ideiaChave": "Trata de falsa identidade; não é fundamento sobre cópia integral de livros.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-1-6-5",
+      "afirmacao": "Dados mestres e dados de referência nunca mudam e dispensam controle de versão.",
+      "gabarito": "E",
+      "porQue": "Podem mudar, e validade temporal é relevante."
+    },
+    {
+      "id": "memoria-rt-1-6-6",
+      "afirmacao": "Atender uma estrela inicial do esquema de publicação não equivale a cumprir automaticamente todos os princípios de abertura e processamento de dados governamentais.",
+      "gabarito": "C",
+      "porQue": "Os referenciais têm finalidades e critérios diferentes."
+    },
+    {
+      "id": "memoria-rt-1-6-7",
+      "afirmacao": "A Súmula 522 do STJ é fundamento específico para proibir qualquer reprodução integral de obra bibliográfica, em qualquer hipótese.",
+      "gabarito": "E",
+      "porQue": "A súmula é de falsa identidade; também existem bases legais distintas para reprodução, com condições."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-1-6-bloco-1",
+    "titulo": "Governança da Informação versus Governança de Dados: Conceitos e Fronteiras",
+    "objetivos": [
+      "Relacionar direitos decisórios e gestão sem transferir competências legais por um título."
+    ],
+    "conteudo": "A crescente complexidade dos ambientes digitais impôs uma distinção conceitual rigorosa entre a **governança de dados** e a **gestão de dados**, bem como entre dados e informação no setor público.\n\n```timeline\n1. GOVERNANÇA | Direitos Decisórios e Políticas | \"O que deve ser feito, por quem e sob quais regras?\" (Autoridade e Estratégia)\n---> Diretrizes e Limites Operacionais\n2. GESTÃO | Execução Operacional e Prática | \"Como fazer da melhor forma dentro das regras?\" (Planejamento, Execução e Controle)\n---> Monitoramento e Métricas\n3. AUDITORIA | Avaliação e Conformidade | \"As regras e padrões de qualidade estão sendo rigorosamente cumpridos?\"\n```\n\n#### A. O Princípio Canônico do DAMA-DMBOK (2ª ed., 2017)\nConforme estabelecido pela *Data Management Association International* (DAMA International) em seu guia oficial de referência (*DAMA-DMBOK: Data Management Body of Knowledge*):\n* **Governança de Dados (*Data Governance*):** É o exercício de autoridade e controle (planejamento, monitoramento e fiscalização) sobre o gerenciamento de ativos de dados. A governança **estabelece os direitos de decisão e uma estrutura de responsabilização** (*accountability*) para assegurar que os dados sejam gerenciados adequadamente. A governança decide as políticas, define as prioridades, arbitra conflitos e fiscaliza a conformidade.\n* **Gestão de Dados (*Data Management*):** Abrange o planejamento, desenvolvimento, execução e controle das atividades necessárias para obter, integrar, armazenar, proteger e disponibilizar dados segundo as regras e diretrizes estabelecidas pela governança. Enquanto a governança determina *quem tem o direito de decidir* e *quais são as regras*, a gestão *opera e executa* sob essas balizas.\n\n#### B. Articulação com a Governança Pública (Decreto nº 9.203/2017)\nNo âmbito **delimitado pelo Decreto 9.203/2017 (administração federal direta, autárquica e fundacional do Executivo)**, a governança pública é orientada pelos princípios de capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade (*accountability*), e transparência (art. 3º do Decreto nº 9.203/2017, estudado no submódulo 11.9).\n* A **Governança da Informação** conecta a governança corporativa/pública com a gestão técnica, assegurando que os ativos informacionais institucionais apoiem as políticas públicas, o cumprimento das competências institucionais, a proteção da privacidade (LGPD) e a transparência ativa (LAI).\n\n**Aplicação e recuperação:** Uma norma interna chama o gestor do domínio de owner. Isso organiza responsabilidades, mas não o torna automaticamente autoridade de classificação ultrassecreta. Competências legais e política de dados precisam ser compatibilizadas.",
+    "checkpointIds": [
+      "cp-1-6-1",
+      "rt-1-6-1"
+    ]
+  },
+  {
+    "id": "sub-1-6-bloco-2",
+    "titulo": "Papéis e Responsabilidades em Governança de Dados",
+    "objetivos": [
+      "Distinguir papéis conforme a política e o domínio."
+    ],
+    "conteudo": "O edital nº 1/2026 exige explicitamente os papéis e políticas de governança de dados (*data ownership* e *data stewardship*, itens 2.2 e 2.3 do Bloco A). Papéis como os seguintes ajudam a separar decisões, qualidade e operação. Nomenclaturas e distribuição variam por instituição; não são cargos públicos criados pelo DAMA nem competências legais universais:\n\n#### A. Data Owner (Proprietário do Dado)\n* **Definição:** É o gestor executivo ou autoridade institucional que detém a responsabilidade final e a autoridade deliberativa sobre determinado conjunto ou domínio de dados organizacionais.\n* **Responsabilidades Primordiais:** Participar de políticas e decisões do domínio dentro das competências atribuídas. **O título data owner não confere automaticamente poder de classificar sigilo pela LAI**, definir toda base legal LGPD ou decidir sozinho o apetite de risco institucional; prestar contas (*accountability*) perante auditorias e órgãos de controle externo.\n* **Nota Doutrinária:** O termo \"proprietário\" é metafórico no setor público: a designação não cria domínio civil sobre dados nem elimina direitos dos titulares, sigilo ou proteção legal; o *data owner* atua como responsável institucional pela tomada de decisões daquele domínio.\n\n#### B. Data Steward (Curador / Zelador do Dado)\n* **Definição:** É o profissional (ou comitê) que atua na interface direta entre as necessidades de negócio e as capacidades técnicas de TI, zelando diariamente pela integridade semântica, qualidade e conformidade dos dados.\n* **Responsabilidades Primordiais:** Elaborar e manter o vocabulário corporativo de termos (*business vocabulary / data dictionary*); garantir que os metadados estejam completos e atualizados; mapear regras de negócio e de integridade; identificar e sanear inconsistências e duplicidades; promover a alfabetização em dados (*data literacy*) entre os usuários.\n* **O Papel do Bibliotecário:** O bibliotecário pode contribuir como *data steward*, conforme designação, competências desenvolvidas e responsabilidades estabelecidas, dada sua expertise secular em organização do conhecimento, controle de vocabulário, ontologias, catalogação e padrões de metadados.\n\n#### C. Data Custodian (Custodiante Técnico)\n* **Definição:** É a unidade técnica (tipicamente vinculada à área de Tecnologia da Informação) incumbida da guarda, armazenamento, administração dos servidores e proteção física e cibernética dos ativos computacionais.\n* **Responsabilidades Primordiais:** Gerenciar a infraestrutura física e em nuvem dos bancos de dados; assegurar rotinas de backup e planos de recuperação de desastres (*disaster recovery*); implementar controles criptográficos e permissões de acesso aprovadas pelo *data owner*; monitorar desempenho de rede e integridade de arquivos.\n\n**Aplicação e recuperação:** O steward aponta duplicação semântica, o custodian implementa uma rotina aprovada e o owner delibera dentro de sua competência. A mesma pessoa pode acumular tarefas em estrutura pequena, mas responsabilidades e controles devem continuar claros.",
+    "checkpointIds": [
+      "cp-1-6-2",
+      "rt-1-6-2"
+    ]
+  },
+  {
+    "id": "sub-1-6-bloco-3",
+    "titulo": "Dimensões de Qualidade de Dados (Data Quality no DAMA-DMBOK)",
+    "objetivos": [
+      "Definir qualidade por requisito, unidade e condições de medição."
+    ],
+    "conteudo": "A qualidade de dados (item 2.5 do Bloco A) mensura o grau em que um conjunto de dados atende às necessidades dos seus consumidores e processos de negócio. Uma síntese operacional de dimensões frequentes é apresentada a seguir. Não se trata de lista única obrigatória para todo contexto; explicite fórmula, escopo e critério de aceitação de cada indicador:\n\n1. **Exatidão (*Accuracy*):** Grau em que os dados representam com fidedignidade e precisão a realidade do objeto ou evento que descrevem. Ex.: o nome de um deputado e sua data de posse coincidem estritamente com os dados oficiais do Tribunal Superior Eleitoral e da ata da Mesa.\n2. **Completude (*Completeness*):** Proporção de dados armazenados em relação ao total de dados esperados para que o registro seja funcionalmente útil. Ex.: um registro de proposição que contenha ementa, autor, data, comissão e texto integral pode cumprir o conjunto de campos exigido pelo perfil. Completude deve ser definida contra requisitos, não contra uma lista universal de cinco campos.\n3. **Consistência (*Consistency*):** Ausência de contradições internas entre dados que descrevem o mesmo fato em diferentes tabelas ou bases de dados corporativas. Ex.: um parlamentar constar como \"em exercício\" no portal da transparência e como \"afastado por licença médica\" no sistema de votação pode indicar inconsistência **se período e significado forem os mesmos**; atualização em momentos distintos e estados funcionais diferentes devem ser examinados.\n4. **Atualidade / Tempestividade (*Timeliness*):** Intervalo de tempo entre a ocorrência de um fato no mundo real e a sua disponibilização nos sistemas de informação para consumo. Ex.: a publicação do resultado de uma votação em plenário logo após a sua proclamação garante altíssima tempestividade.\n5. **Validade (*Validity*):** Conformidade dos dados em relação às regras de sintaxe, tipos de dados, formatação e domínios de valores autorizados. Ex.: conformidade de formato e domínio, conforme regras completas. Ter onze dígitos não prova CPF válido ou pertencente à pessoa informada; dígitos verificadores e confronto com a realidade são verificações diferentes (ex.: \"DF\", \"SP\").\n6. **Unicidade (*Uniqueness*):** Ausência de duplicação indevida da entidade/unidade definida. Múltiplas versões, eventos ou papéis não são duplicatas só por se referirem à mesma pessoa; chaves técnicas únicas também não garantem deduplicação semântica (*deduplication*).\n\n**Aplicação e recuperação:** Todos os registros têm chave diferente e onze dígitos no CPF, mas dois registros representam a mesma pessoa com informação errada. Unicidade da chave, validade sintática e exatidão do dado são verificações diferentes. A métrica deve dizer o que mede.",
+    "checkpointIds": [
+      "rt-1-6-3"
+    ]
+  },
+  {
+    "id": "sub-1-6-bloco-4",
+    "titulo": "Proveniência, Linhagem de Dados e o Padrão W3C PROV",
+    "objetivos": [
+      "Representar proveniência sem tratá-la como prova infalível."
+    ],
+    "conteudo": "O edital cobra **proveniência, linhagem e rastreabilidade dos dados** (item 2.6 do Bloco A):\n\n#### A. Proveniência versus Linhagem de Dados (*Data Lineage*)\n* **Proveniência:** Refere-se à origem histórica, cadeia de custódia formal, direitos de criação e contexto original de geração de um documento ou dado. No âmbito arquivístico e da preservação digital (OAIS/PREMIS), registro de proveniência **apoia** avaliação de autenticidade e contexto; pode ser incompleto ou incorreto e não certifica sozinho legitimidade do emissor.\n* **Linhagem de Dados (*Data Lineage*):** É a representação cronológica e arquitetural de todo o percurso de transformação percorrido pelo dado desde a sua fonte de captura primária até a sua apresentação final em relatórios, dashboards ou APIs. A linhagem documenta quais rotinas de ETL/ELT processaram o dado, quais fórmulas de agregação foram aplicadas, quais tabelas foram combinadas (*joins*) e como a estrutura mudou ao longo do pipeline informacional.\n\n#### B. A Recomendação W3C PROV (PROV-O, 2013)\nO World Wide Web Consortium (W3C) publicou em 2013 a família de padrões **W3C PROV**, cuja ontologia fundamental em OWL/RDF é a **PROV-O** (*PROV Ontology*). O modelo PROV estrutura qualquer grafo de proveniência a partir de três classes ontológicas basilares:\n* **Entidade (*Entity* - `prov:Entity`):** Qualquer coisa física, digital ou conceitual com a qual se interage (ex.: um dataset CSV, um documento XML, um registro de votação).\n* **Atividade (*Activity* - `prov:Activity`):** Uma ação ou processo que ocorre ao longo do tempo e age sobre ou com entidades, podendo consumi-las, transformá-las ou gerar novas entidades (ex.: a execução de um script de limpeza em Python, a sessão de votação parlamentar).\n* **Agente (*Agent* - `prov:Agent`):** Uma pessoa física, organização ou software automatizado que tem responsabilidade por uma atividade ou entidade (ex.: o Deputado Relator, a Mesa Diretora, um algoritmo de ETL).\n\nAs relações canônicas do W3C PROV conectam essas classes:\n* `prov:wasGeneratedBy`: Liga uma Entidade à Atividade que a produziu.\n* `prov:used`: Liga uma Atividade a uma Entidade que serviu de insumo.\n* `prov:wasDerivedFrom`: Liga uma Entidade resultante a outra Entidade originária.\n* `prov:wasAssociatedWith`: Liga uma Atividade ao Agente responsável.\n* `prov:wasAttributedTo`: Expressa atribuição de uma Entidade a um Agente; não se conclui, só da relação, que esse agente seja necessariamente o custodiante ou criador exclusivo.\n\n**Aplicação e recuperação:** Um CSV foi agregado por script de uma equipe. Pode-se modelar arquivo como entidade, execução como atividade e equipe como agente; a derivação liga saída e entrada. Registrar essa linhagem ajuda a auditar, mas um registro falso de proveniência continua possível.",
+    "checkpointIds": [
+      "rt-1-6-4"
+    ]
+  },
+  {
+    "id": "sub-1-6-bloco-5",
+    "titulo": "Catálogos de Dados, Inventários de Ativos, Dados Mestres e de Referência",
+    "objetivos": [
+      "Diferenciar catálogo, inventário, dado mestre e dado de referência."
+    ],
+    "conteudo": "#### A. Catálogo de Dados versus Inventário de Ativos Informacionais\n* **Catálogo de Dados (*Data Catalog*):** Pode ser serviço/plataforma de descoberta e documentação, centralizado ou federado conforme o projeto, que indexa, organiza e descreve os conjuntos de dados de uma organização por meio de metadados ricos (dicionários de dados, esquemas de tabelas, perfil de qualidade, dados sobre o *data steward*, histórico de linhagem e documentação de APIs). Seu objetivo primordial é a **descoberta (*findability*), governança semântica e reuso de dados** por analistas e pesquisadores.\n* **Inventário de Ativos Informacionais (*Information Asset Inventory*):** É uma lista formal e abrangente de todos os recursos, bases de dados, sistemas, repositórios e equipamentos informacionais detidos pela organização, mantida primordialmente para fins de **gestão de riscos de segurança da informação, conformidade legal, continuidade de negócios e auditoria de TI**.\n\n#### B. Dados Mestres versus Dados de Referência\n* **Dados Mestres (*Master Data*):** São os dados centrais que identificam/descrevem entidades de negócio; **podem mudar** e precisam de gestão de identidade, versões e qualidade que identificam as entidades essenciais sobre as quais a organização opera e toma decisões. Esses dados são compartilhados transversalmente por múltiplos sistemas de informação corporativos.\n  * *Exemplo na Câmara:* O cadastro único de autoridades parlamentares (deputados federais), o registro de órgãos legislativos e o catálogo mestre de autoridades de assunto.\n* **Dados de Referência (*Reference Data*):** São conjuntos de valores autorizados, tabelas de códigos e domínios discretos de classificação utilizados para categorizar outros dados ou integrá-los a padrões externos. Podem ter controle de alteração e versões; não são necessariamente imutáveis. Partidos, códigos e categorias mudam com regras de validade temporal.\n  * *Exemplo na Câmara:* A tabela oficial de siglas dos partidos políticos, a lista de códigos ISO de idiomas (ISO 639-2), códigos de Unidades da Federação (UF) e a tabela de tipos de proposição legislativa (PL, PEC, MPV, PDC).\n\n**Aplicação e recuperação:** Um código de partido mudou entre períodos. Dado de referência precisa de validade temporal. Dado mestre sobre a pessoa também pode mudar; guardar histórico não implica duplicação indevida, se a unidade do registro foi corretamente definida.",
+    "checkpointIds": [
+      "rt-1-6-5"
+    ]
+  },
+  {
+    "id": "sub-1-6-bloco-6",
+    "titulo": "Dados Abertos Governamentais: Princípios, 5 Estrelas e Marco Legal",
+    "objetivos": [
+      "Interpretar abertura técnica, licença, níveis cumulativos e âmbito do decreto."
+    ],
+    "conteudo": "O item 2.9 do Bloco A requer o domínio das políticas e princípios de **dados abertos governamentais**.\n\n#### A. Os Oito Princípios dos Dados Abertos Governamentais (Sebastopol, 2007)\nReunidos em 2007 em Sebastopol (Califórnia), trinta defensores do governo aberto definiram os oito critérios que tornam um dado público verdadeiramente \"aberto\":\n1. **Completos (*Complete*):** Todos os dados públicos são disponibilizados, ressalvadas as restrições constitucionais de sigilo pessoal e de segurança do Estado.\n2. **Primários (*Primary*):** Os dados são publicados na sua fonte de origem, com o mais alto nível de granularidade possível, sem agregações, resumos ou transformações artificiais.\n3. **Atuais / Tempestivos (*Timely*):** Os dados são divulgados tão rapidamente quanto necessário para preservar o seu valor público de fiscalização e utilidade prática.\n4. **Acessíveis (*Accessible*):** Disponíveis para a mais ampla gama de usuários e para os mais diversos propósitos, sem barreiras de acesso.\n5. **Processáveis por Máquina (*Machine-Processable*):** Os dados são estruturados em formatos que permitem o processamento automático por sistemas computacionais (ex.: CSV, XML, JSON), e não apenas exibição visual para leitura humana (como imagens rasterizadas ou PDFs planos).\n6. **Acesso Não Discriminatório (*Non-Discriminatory*):** Qualquer pessoa pode acessar os dados a qualquer momento sem necessidade de cadastro prévio, identificação obrigatória ou justificativa de interesse.\n7. **Formatos Não Proprietários (*Non-Proprietary*):** Os dados estão disponíveis em formatos cujas especificações são públicas e não dependem do pagamento de licenças a empresas detentoras de software (ex.: uso de CSV ou ODS em contraste com formatos dependentes de controle proprietário; **não equiparar automaticamente XLS binário e XLSX/Office Open XML padronizado**).\n8. **Sem restrições indevidas de licença (*License-Free*, na formulação histórica):** O princípio rejeita restrições que impeçam reutilização; não significa que ausência de qualquer informação jurídica seja preferível a licença aberta explícita. Privacidade e outras restrições legítimas permanecem relevantes.\n\n#### B. O Esquema de 5 Estrelas de Dados Abertos de Tim Berners-Lee (2010)\nO criador da World Wide Web propôs uma escala progressiva de maturidade para a publicação de dados abertos interligados (*Linked Open Data*):\n* ⭐ **1 Estrela:** Dados disponíveis na web em **qualquer formato** sob uma licença aberta (ex.: uma imagem digitalizada de tabela orçamentária ou um PDF plano). Permite que o dado seja visualizado, mas sua extração e reuso computacional são árduos.\n* ⭐⭐ **2 Estrelas:** Dados disponibilizados como **dados estruturados**, em formato legível por máquina, como planilha. O exemplo histórico usa Excel; **software proprietário não é obrigatório para abrir toda planilha**, e formato proprietário deve ser distinguido de XLSX com especificação padronizada. Os níveis são cumulativos, não categorias mutuamente exclusivas\n* ⭐⭐⭐ **3 Estrelas:** Dados estruturados em **formato aberto e não proprietário** (ex.: arquivo CSV ou XML aberto). O formato facilita uso por ferramentas diversas; ainda são necessários parser, codificação, documentação e licença pertinentes. Não se garante que qualquer programa leia todo arquivo automaticamente.\n* ⭐⭐⭐⭐ **4 Estrelas:** Identificar coisas por **URIs**, permitindo referência e acesso a descrições úteis no contexto Linked Data. RDF é modelo associado a essa publicação; não se impõe endpoint SPARQL como requisito universal de toda quarta estrela. Permite que outros sítios na web apontem diretamente para aquele recurso específico.\n* ⭐⭐⭐⭐⭐ **5 Estrelas:** **Linked Open Data (LOD)**: Dados no formato RDF/URI interligados (*linked*) a outros conjuntos de dados externos na web semântica (ex.: linkando o registro de um deputado da Câmara ao seu verbete no Wikidata, ao LexML e a bases da OCDE), gerando um grafo global de conhecimento.\n\n#### C. O Marco Normativo Brasileiro: LAI e Política de Dados Abertos\n1. **Lei nº 12.527/2011 (LAI), Art. 8º, § 3º:** Estabelece que os sítios oficiais da administração pública devem, obrigatoriamente:\n   * Conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão;\n   * Possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, **de modo a facilitar a análise das informações**;\n   * **Possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina**;\n   * Divulgar em detalhes os formatos utilizados para estruturação da informação.\n2. **Decreto nº 8.777/2016:** Instituiu a Política de Dados Abertos do Poder Executivo Federal, estabelecendo a obrigatoriedade da elaboração de Planos de Dados Abertos (PDA) pelos órgãos abrangidos no **Poder Executivo federal**, sem presumir que o decreto organize automaticamente a Câmara ou os demais Poderes, fomentando a transparência ativa, a governança pública e a inovação tecnológica da sociedade civil.\n\n**Aplicação e recuperação:** Uma planilha aberta e documentada tem dados legíveis por máquina, mas expõe informação pessoal sem fundamento. Qualidade técnica não resolve legalidade. Um PDF-imagem pode atingir o nível inicial do esquema de estrelas sob licença aberta, sem satisfazer todos os princípios de dados governamentais processáveis por máquina.",
+    "checkpointIds": [
+      "cp-1-6-3",
+      "rt-1-6-6"
+    ]
+  },
+  {
+    "id": "sub-1-6-bloco-7",
+    "titulo": "Direito Autoral e Limitações Legais em Bibliotecas (Lei nº 9.610/1998)",
+    "objetivos": [
+      "Examinar direitos autorais e acessibilidade sem fundamento jurisprudencial trocado."
+    ],
+    "conteudo": "No contexto do serviço público, bibliotecas parlamentares e centros de documentação, o tratamento de obras intelectuais submete-se ao regime estrito da **Lei nº 9.610/1998 (Lei de Direitos Autorais - LDA)**:\n\n#### A. A Inaplicabilidade de Direito Autoral a Atos Oficiais (Art. 8º da LDA)\nConforme o art. 8º, inciso IV, da Lei nº 9.610/1998, **não são objeto de proteção como direitos autorais** os textos de tratados ou convenções, leis, decretos, regulamentos, decisões judiciais e demais atos oficiais dos poderes públicos. A exclusão de proteção autoral desses textos não elimina outros limites, como sigilo, dados pessoais, direitos sobre conteúdos acessórios ou condições de uso de uma base. Isso não autoriza reproduzir qualquer obra produzida por um servidor. Esses atos, constituindo a matéria-prima dos portais legislativos, diários oficiais e do consórcio LexML Brasil.\n\n#### B. As Limitações e Exceções aos Direitos Autorais (Arts. 46 a 48 da LDA)\nO regime brasileiro não se confunde automaticamente com a cláusula de *fair use* norte-americana. As hipóteses dos arts. 46–48 possuem condições próprias e sua interpretação deve considerar a Constituição, tratados e jurisprudência; não se apresenta um suposto caráter taxativo absoluto como consenso que dispense essa análise. As principais hipóteses autorizadas sem necessidade de prévia licença do titular nem pagamento de retribuição compreendem:\n1. **Cópia Privada de Pequenos Trechos (Art. 46, II):** A reprodução, em um só exemplar de pequenos trechos, para uso privado do copista, desde que feita por este e sem intuito de lucro. A hipótese de pequenos trechos não autoriza, só por ausência de lucro, a cópia integral. Outras bases podem ser pertinentes — licença, domínio público ou hipótese específica. **A Súmula 522 do STJ trata de falsa identidade perante autoridade policial, não de direitos autorais**, e sua antiga citação nesta aula foi retirada como fundamento.\n2. **Acessibilidade para Pessoas com Deficiência (Art. 46, I, \"d\"):** A reprodução de obras em formatos acessíveis (como Braille, áudio ou suportes táteis) conforme os requisitos da hipótese legal. O art. 46, I, d, trata especificamente de deficientes visuais; o **Tratado de Marraqueche**, promulgado pelo Decreto 9.522/2018 e regulamentado pelo Decreto 10.882/2021, possui âmbito e procedimentos próprios para beneficiários e formatos acessíveis.\n3. **Citação em Trabalhos Técnicos (Art. 46, III):** A citação em livros, jornais ou relatórios para estudo, crítica ou polêmica, **na medida justificada para o fim a atingir**, com nome do autor e origem. Citar a fonte não autoriza automaticamente qualquer quantidade de reprodução.\n4. **Preservação de Acervos:** A preservação e segurança de acervos públicos não autorizam a distribuição irrestrita ou digitalização integral de obras protegidas para empréstimo digital desprovido de base contratual ou cessão patrimonial formal.\n\n**Aplicação e recuperação:** Um pesquisador indica autor e fonte ao reproduzir um livro inteiro. A atribuição é necessária em várias situações, mas não substitui licença ou hipótese legal. Para formato acessível, examine a disciplina própria; para ato oficial, separe texto do ato de comentários editoriais protegidos.",
+    "checkpointIds": [
+      "rt-1-6-7"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "dama",
+    "titulo": "DAMA International — Data Management Body of Knowledge",
+    "localizador": "Usa-se a segunda edição no enquadramento da aula; atualizações de projeto não substituem automaticamente a referência do edital.",
+    "url": "https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/"
+  },
+  {
+    "id": "prov",
+    "titulo": "W3C — PROV-O (2013)",
+    "localizador": "Entidades, atividades, agentes e relações de proveniência.",
+    "url": "https://www.w3.org/TR/prov-o/"
+  },
+  {
+    "id": "linked",
+    "titulo": "Tim Berners-Lee — Linked Data",
+    "localizador": "Identificadores e conexões; endpoint SPARQL não é imposição universal para toda publicação.",
+    "url": "https://www.w3.org/DesignIssues/LinkedData.html"
+  },
+  {
+    "id": "stars",
+    "titulo": "5-star Open Data",
+    "localizador": "Requisitos cumulativos e exemplos didáticos; verificar formato e licença.",
+    "url": "https://5stardata.info/en/"
+  },
+  {
+    "id": "principios",
+    "titulo": "OpenGovData — oito princípios de 2007",
+    "localizador": "Referência histórica, com limites de privacidade e segurança.",
+    "url": "https://opengovdata.org/"
+  },
+  {
+    "id": "lai",
+    "titulo": "Lei 12.527/2011 — LAI",
+    "localizador": "Art. 8º, § 3º, formatos e acesso automatizado, com âmbito/exceções legais.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
+  },
+  {
+    "id": "dadosabertos",
+    "titulo": "Decreto 8.777/2016",
+    "localizador": "Política de Dados Abertos do Poder Executivo federal; não aplicar automaticamente a todos os Poderes.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm"
+  },
+  {
+    "id": "lda",
+    "titulo": "Lei 9.610/1998 — direitos autorais",
+    "localizador": "Arts. 8º e 46–48: objetos excluídos e limitações, com condições próprias.",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm"
+  },
+  {
+    "id": "marraqueche",
+    "titulo": "Decreto 10.882/2021 e Tratado de Marraqueche",
+    "localizador": "Acessibilidade possui disciplina própria além do art. 46 da LDA.",
+    "url": "https://legis.senado.leg.br/norma/35219772"
+  },
+  {
+    "id": "sumula",
+    "titulo": "STJ — Súmula 522",
+    "localizador": "Trata de falsa identidade; não é fundamento sobre cópia integral de livros.",
+    "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=522.num."
+  }
+],
 };

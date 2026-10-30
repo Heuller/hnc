@@ -39,7 +39,8 @@ export const submodulo124: ModuloFilho = {
     "item": "No trecho \"The minister actually defended the immediate review of the policy\", o vocábulo \"actually\" expressa uma circunstância de tempo, indicando que a ação ocorre no momento presente.",
     "gabarito": "E",
     "justificativa": "\"Actually\" é um advérbio que significa \"na verdade\", \"de fato\" ou \"realmente\" (indicando ênfase factual). A ideia temporal de \"no momento presente / atualmente\" é expressa em inglês por \"currently\", \"at present\" ou \"nowadays\".",
-    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "versao_correta": "No trecho apresentado, actually significa na verdade ou de fato; não indica por si só que a ação ocorre no momento presente."
   },
   {
     "id": "chk-12-4-2",
@@ -47,7 +48,8 @@ export const submodulo124: ModuloFilho = {
     "item": "Se o texto original afirma que \"The new technology may reduce operating costs in parliamentary libraries\", é correto inferir que a nova tecnologia certamente extinguirá os custos de manutenção desses órgãos.",
     "gabarito": "E",
     "justificativa": "O texto original emprega o modal \"may\", que indica mera POSSIBILIDADE (pode reduzir), e o verbo \"reduce\" (reduzir). A assertiva substitui essa possibilidade por certeza absoluta (\"certamente\") e amplia indevidamente para extinção total dos custos.",
-    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "versao_correta": "A frase original indica possibilidade de reduzir custos operacionais nas bibliotecas parlamentares, sem afirmar certeza nem extinção de custos de manutenção."
   },
   {
     "id": "chk-12-4-3",

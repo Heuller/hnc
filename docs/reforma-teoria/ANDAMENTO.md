@@ -1,3 +1,11 @@
+# Reforma teórica — estado atual
+
+Em 30/10/2026, as 75 aulas estão implementadas: 429 blocos e 669 checkpoints (225 identificadores preservados e 444 novos). A validação integral local passou com 972 testes; o roteiro de navegador aprovou as 75 aulas em duas larguras, com fluxos de prática e persistência. Registro detalhado, limites de conferência e comandos: [FECHAMENTO.md](FECHAMENTO.md).
+
+O texto abaixo é histórico de execução; as contagens parciais não representam o estado atual. Publicação e verificações remotas serão registradas após a integração.
+
+---
+
 # Reforma teórica — registro de execução
 
 Escopo autorizado: todos os 75 submódulos; aula completa, revisão, fontes e microcheckpoints. Branch `feat/reforma-teoria-integral`.

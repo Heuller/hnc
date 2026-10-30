@@ -73,10 +73,7 @@ export const TeoriaPage: React.FC = () => {
   const allSubmodules = ALL_COURSE_MODULES.flatMap((m) => m.modulosFilhos);
 
   // Submódulo ativo selecionado (com recuperação resiliente de sessão)
-  const targetSubId =
-    selectedSubmodule !== '1.1'
-      ? selectedSubmodule
-      : (ultimoModuloAcessado || selectedSubmodule);
+  const targetSubId = selectedSubmodule || ultimoModuloAcessado || '1.1';
 
   const currentSub =
     allSubmodules.find(
@@ -156,12 +153,12 @@ export const TeoriaPage: React.FC = () => {
       numero: '5',
       titulo:
         modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
-          ? 'Teoria Didática & Prática'
-          : 'Fundamentação Teórica',
+          ? 'Revisão essencial'
+          : 'Aula completa',
     },
     { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
     { id: 'sec-mnemonicos', numero: '7', titulo: 'Revisão e síntese' },
-  ];
+  ].map((secao, index) => ({ ...secao, numero: String(index + 1) }));
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -467,7 +464,7 @@ export const TeoriaPage: React.FC = () => {
               {/* Indicador suplementar discreto se ainda não concluído */}
               {learningState.status !== 'concluida' && (learningState.status as string) !== 'concluido' && (
                 <span className="text-xs font-sans tabular-nums text-ink-2 hidden sm:inline">
-                  Meta de aprovação: 85% nos checkpoints
+                  Critério de consolidação: 85% nos checkpoints
                 </span>
               )}
             </div>
