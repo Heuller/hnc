@@ -160,5 +160,60 @@
     "titulo": "CEBRASPE — ABIN 2018, gabarito definitivo da Área 10",
     "url": "https://cdn.cebraspe.org.br/concursos/abin_17/arquivos/GAB_DEFINITIVO_378_ABIN_014_01.PDF",
     "localizador": "item 136, E"
+  },
+  "aacr": {
+    "titulo": "AACR2 — Revisão 2002, edição em português do acervo",
+    "acervo": "acervo-estudos/Catalogação/AACR2COMPLETO.pdf",
+    "localizador": "regras de descrição e escolha e forma dos pontos de acesso"
+  },
+  "icp": {
+    "titulo": "IFLA — Princípios Internacionais de Catalogação, 2016",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+    "localizador": "2: princípios gerais e conveniência do usuário"
+  },
+  "lrm": {
+    "titulo": "IFLA Library Reference Model, 2017, revisão de dezembro",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "localizador": "3: tarefas; 4: entidades e relações; 5.7: agregados"
+  },
+  "frbr": {
+    "titulo": "IFLA — FRBR, 1998, versão com alterações de 2009",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "localizador": "entidades dos grupos 1–3 e tarefas do usuário"
+  },
+  "rdaLivro": {
+    "titulo": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM",
+    "acervo": "acervo-estudos/Catalogação/Catalogação dos princípios e teorias RDA e IFLA lRM.pdf",
+    "localizador": "capítulos de modelos conceituais, RDA e Projeto 3R"
+  },
+  "rdaBrochura": {
+    "titulo": "RDA: Descrição e Acesso de Recursos — brochura histórica em português",
+    "acervo": "acervo-estudos/Catalogação/rdabrochure-por.pdf",
+    "localizador": "fundamentos do desenvolvimento do RDA original; contexto histórico, não descrição completa do RDA atual"
+  },
+  "rdaRegistry": {
+    "titulo": "RDA Registry — elementos e vocabulários",
+    "url": "https://www.rdaregistry.info/",
+    "localizador": "elementos de entidades, relações e listas de valores"
+  },
+  "rdaToolkit": {
+    "titulo": "RDA Toolkit — documentação e orientação pública",
+    "url": "https://www.rdatoolkit.org/",
+    "localizador": "RDA original, Official RDA e perfis de aplicação"
+  },
+  "dcmi": {
+    "titulo": "DCMI — Dublin Core Metadata Element Set, version 1.1",
+    "url": "https://www.dublincore.org/specifications/dublin-core/dces/",
+    "localizador": "15 elementos e respectivas definições"
+  },
+  "dcmiAM": {
+    "titulo": "DCMI Abstract Model",
+    "url": "https://www.dublincore.org/specifications/dublin-core/abstract-model/",
+    "localizador": "descrição, recurso descrito e conjunto de descrições"
+  },
+  "oaipmh": {
+    "titulo": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0",
+    "url": "https://www.openarchives.org/OAI/openarchivesprotocol.html",
+    "localizador": "3.4: metadataPrefix e suporte ao Dublin Core não qualificado"
   }
 }

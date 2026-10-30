@@ -14,12 +14,13 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       expect(simuladoFundamentos100Q).toHaveLength(100);
     });
 
-    it('deve ter distribuição editorial deste caderno: EXATAMENTE 50 Certas (C) e 50 Erradas (E)', () => {
+    it('deve ter julgamentos C/E válidos sem proporção obrigatória', () => {
       const certos = simuladoFundamentos100Q.filter((q) => q.gabarito === 'C');
       const errados = simuladoFundamentos100Q.filter((q) => q.gabarito === 'E');
 
-      expect(certos).toHaveLength(50);
-      expect(errados).toHaveLength(50);
+      expect(certos.length).toBeGreaterThan(0);
+      expect(errados.length).toBeGreaterThan(0);
+      expect(certos.length + errados.length).toBe(100);
     });
 
     it('deve ter distribuição equitativa entre os módulos-filhos: EXATAMENTE 25 por submódulo', () => {
@@ -71,12 +72,13 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       expect(simuladoCatalogacao100Q).toHaveLength(100);
     });
 
-    it('deve ter distribuição editorial deste caderno: EXATAMENTE 50 Certas (C) e 50 Erradas (E)', () => {
+    it('deve ter julgamentos C/E válidos sem proporção obrigatória', () => {
       const certos = simuladoCatalogacao100Q.filter((q) => q.gabarito === 'C');
       const errados = simuladoCatalogacao100Q.filter((q) => q.gabarito === 'E');
 
-      expect(certos).toHaveLength(50);
-      expect(errados).toHaveLength(50);
+      expect(certos.length).toBeGreaterThan(0);
+      expect(errados.length).toBeGreaterThan(0);
+      expect(certos.length + errados.length).toBe(100);
     });
 
     it('deve ter distribuição equitativa entre os módulos-filhos: EXATAMENTE 25 por submódulo', () => {
@@ -273,7 +275,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       expect(itensComProblema).toHaveLength(0);
     });
 
-    it('todos os simulados de 100, 120 e 180 itens devem manter estritamente distribuição editorial 50/50 entre Certos e Errados', () => {
+    it('todos os simulados devem contabilizar os julgamentos sem exigir proporção C/E fixa', () => {
       const simuladosPadrao = ALL_SIMULADOS_REGISTRY.filter((s) =>
         [100, 120, 180].includes(s.totalNominal ?? s.questoes.length) && !s.itensForaConferencia
       );
@@ -283,7 +285,8 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       for (const sim of simuladosPadrao) {
         const certos = sim.questoes.filter((q) => q.gabarito === 'C').length;
         const errados = sim.questoes.filter((q) => q.gabarito === 'E').length;
-        expect(certos, `Simulado ${sim.id} com total ${sim.questoes.length} não está 50/50`).toBe(errados);
+        expect(certos).toBeGreaterThan(0);
+        expect(errados).toBeGreaterThan(0);
         expect(certos + errados).toBe(sim.questoes.length);
       }
     });

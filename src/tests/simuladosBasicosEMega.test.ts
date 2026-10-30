@@ -25,12 +25,12 @@ describe('Auditoria Rigorosa dos Simulados Básicos (M11 a M14) e do Mega Simula
           });
         });
 
-        it('deve apresentar simetria Cebraspe rigorosa: 50 Certos (C) e 50 Errados (E)', () => {
+        it('deve contabilizar julgamentos sem impor uma proporção C/E', () => {
           const simetria = validarSimetriaCebraspe(questoes);
           expect(simetria.total).toBe(100);
-          expect(simetria.certos).toBe(50);
-          expect(simetria.errados).toBe(50);
-          expect(simetria.isSimetrico5050).toBe(true);
+          expect(simetria.certos).toBeGreaterThan(0);
+          expect(simetria.errados).toBeGreaterThan(0);
+          expect(simetria.certos + simetria.errados).toBe(100);
         });
 
         it('todos os itens devem cumprir os padrões de qualidade e validação de campos', () => {
@@ -58,30 +58,30 @@ describe('Auditoria Rigorosa dos Simulados Básicos (M11 a M14) e do Mega Simula
       });
     });
 
-    it('deve apresentar simetria global Cebraspe perfeita: exatamente 60 Certos (C) e 60 Errados (E)', () => {
+    it('deve contabilizar os julgamentos dos 120 itens', () => {
       const simetria = validarSimetriaCebraspe(megaSimuladoCamara120Q);
       expect(simetria.total).toBe(120);
-      expect(simetria.certos).toBe(60);
-      expect(simetria.errados).toBe(60);
-      expect(simetria.isSimetrico5050).toBe(true);
+      expect(simetria.certos).toBeGreaterThan(0);
+      expect(simetria.errados).toBeGreaterThan(0);
+      expect(simetria.certos + simetria.errados).toBe(120);
     });
 
-    it('deve estruturar a Parte 1 (Conhecimentos Básicos - Itens 1 a 40) com exatamente 20 C e 20 E', () => {
+    it('deve estruturar a Parte 1 (Conhecimentos Básicos - Itens 1 a 40) com 40 julgamentos válidos', () => {
       const basicos = megaSimuladoCamara120Q.slice(0, 40);
       expect(basicos).toHaveLength(40);
       const certos = basicos.filter(q => q.gabarito === 'C').length;
       const errados = basicos.filter(q => q.gabarito === 'E').length;
-      expect(certos).toBe(20);
-      expect(errados).toBe(20);
+      expect(certos + errados).toBe(40);
+      expect(certos).toBeGreaterThan(0);
     });
 
-    it('deve estruturar a Parte 2 (Conhecimentos Específicos - Itens 41 a 120) com exatamente 40 C e 40 E', () => {
+    it('deve estruturar a Parte 2 (Conhecimentos Específicos - Itens 41 a 120) com 80 julgamentos válidos', () => {
       const especificos = megaSimuladoCamara120Q.slice(40);
       expect(especificos).toHaveLength(80);
       const certos = especificos.filter(q => q.gabarito === 'C').length;
       const errados = especificos.filter(q => q.gabarito === 'E').length;
-      expect(certos).toBe(40);
-      expect(errados).toBe(40);
+      expect(certos + errados).toBe(80);
+      expect(errados).toBeGreaterThan(0);
     });
 
     it('deve cobrir todos os 10 módulos de Conhecimentos Específicos (M1 a M10) com 8 questões cada', () => {

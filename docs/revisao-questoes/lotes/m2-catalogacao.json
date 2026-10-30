@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "cat-q-1",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "icp"
+    ],
+    "localizador": "2.1: conveniência do usuário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8ef193ba1b677931a3ee0c0706d4cfad224756f30401f6b06a83884cb0c26e57",
+    "shaDepois": "7d53fb9c07a6869f68edd3ff999331042cf135498079263e4edec0ea566099c0",
+    "patch": {
+      "justificativa": "CERTO. Os ICP de 2016 dão prioridade à conveniência do usuário nas decisões de catalogação. A escolha deve ser avaliada por sua utilidade para encontrar e compreender os recursos, não apenas por facilitar o trabalho interno. A prioridade não elimina os demais princípios nem autoriza alterar silenciosamente dados transcritos.",
+      "gatilho": "conveniência do usuário",
+      "armadilhaBanca": "Distinguir a finalidade do catálogo e a comodidade de sua produção.",
+      "fonte": "IFLA — Princípios Internacionais de Catalogação, 2016 — 2.1: conveniência do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma decisão mais cômoda para a equipe deve sempre prevalecer sobre a conveniência do usuário.",
+      "item": "Ao escolher entre duas formas de apresentação de dados no catálogo, a equipe deve considerar a conveniência do usuário como princípio geral prioritário, conforme os ICP de 2016."
+    }
+  },
+  {
+    "id": "cat-q-2",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "icp"
+    ],
+    "localizador": "2.2: uso comum",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "68f0a79aac39033bcb97c291083568db9cfe239b769db1dd52041f1e9c627796",
+    "shaDepois": "d19bc5a73ac91359e7e87f612fa7b1fe2d65a4dfc75cef517d02a674cd15f3ae",
+    "patch": {
+      "justificativa": "CERTO. O uso comum orienta a linguagem de descrições e pontos de acesso à compreensão dos usuários. Isso não significa aceitar toda variante como forma autorizada nem substituir títulos transcritos por termos mais modernos. Controle e remissivas podem aproximar vocabulários diferentes sem apagar a representação do recurso.",
+      "gatilho": "linguagem corrente e esperada pelo público-alvo",
+      "armadilhaBanca": "A orientação à linguagem do usuário não dispensa regras de transcrição e controle.",
+      "fonte": "IFLA — Princípios Internacionais de Catalogação, 2016 — 2.2: uso comum — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O princípio do uso comum obriga substituir silenciosamente todo título por uma expressão coloquial escolhida pelo catalogador.",
+      "item": "O princípio do uso comum estabelece que o vocabulário empregado nas descrições e nos pontos de acesso deve ser compatível com a linguagem corrente e esperada pelo público-alvo a que o catálogo se destina."
+    }
+  },
+  {
+    "id": "cat-q-3",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "icp"
+    ],
+    "localizador": "2.3: representação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6df4693bd17c89848c0eb14a5e30c5a62e4f703647ff578d03713775bea05678",
+    "shaDepois": "bddaee56635cfab72b65c66f0daee09d1db4116e716fc6a6195649a31f3cf4ca",
+    "patch": {
+      "justificativa": "ERRADO. Representar o recurso não é modernizar livremente sua grafia. A forma transcrita e as formas adicionais para acesso têm funções distintas. Uma entrada variante pode favorecer a busca sem fazer parecer que o documento apresenta um título diferente.",
+      "gatilho": "substituí-lo silenciosamente",
+      "armadilhaBanca": "Separar transcrição e normalização dos pontos de acesso.",
+      "fonte": "IFLA — Princípios Internacionais de Catalogação, 2016 — 2.3: representação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A grafia transcrita pode ser preservada, com formas adicionais de acesso quando cabíveis, sem modernização silenciosa do título.",
+      "item": "Ao transcrever um título com grafia histórica, o catalogador pode substituí-lo silenciosamente pela grafia atual, pois o princípio da representação exige registrar a forma linguística mais moderna."
+    }
+  },
+  {
+    "id": "cat-q-4",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "objetivos do catálogo de Cutter, 1876",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "de5f608d51fc9f687e54e5fec5cf9ba325ba491f91712e7cbc9d6e674bdde3df",
+    "shaDepois": "30d36fbda31d7aa535d98253a2a310cf4df572625cfb608c641e1e08a362487b",
+    "patch": {
+      "justificativa": "CERTO. Cutter descreveu objetivos de encontrar um livro conhecido, mostrar o que a biblioteca possui e ajudar na escolha. Cada objetivo envolve critérios, como autor, título, assunto, edição ou caráter da obra. São funções históricas que influenciam a catalogação; não são idênticas à lista posterior de tarefas FRBR ou LRM.",
+      "gatilho": "localização de um livro",
+      "armadilhaBanca": "Não confundir influência histórica e identidade de modelos.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — objetivos do catálogo de Cutter, 1876. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os objetivos de Cutter de 1876 são exatamente a mesma lista de cinco tarefas do IFLA LRM de 2017.",
+      "item": "Charles Ammi Cutter, em suas clássicas regras de 1876, formulou os três objetivos fundamentais do catálogo bibliográfico: permitir a localização de um livro, mostrar o que a biblioteca possui e auxiliar na escolha de uma obra."
+    }
+  },
+  {
+    "id": "cat-q-5",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "catálogo dicionário e regras de Cutter",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "feff7c93382f4dee72dc58f31c8da72293d7cc929bbcaca01c16dd1fb6fe8c48",
+    "shaDepois": "f638dca75e989315e74df59f1f53403a5260d17dfa0f00ddd34ee8ba921ab5e2",
+    "patch": {
+      "justificativa": "ERRADO. O catálogo dicionário reúne entradas de diferentes tipos numa sequência alfabética, em vez de exigir arquivos separados por autor, título e assunto. Outros catálogos podem adotar separações, mas isso não caracteriza a proposta do catálogo dicionário.",
+      "gatilho": "separação física estrita",
+      "armadilhaBanca": "Troca entre integração alfabética e separação por tipo de acesso.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — catálogo dicionário e regras de Cutter. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O catálogo dicionário integra entradas de autor, título e assunto em uma sequência alfabética.",
+      "item": "As regras para catálogo dicionário de Cutter preconizavam a separação física estrita entre os fichários de autor, título e assunto, organizando-os em móveis catalográficos independentes."
+    }
+  },
+  {
+    "id": "cat-q-6",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "estrutura do código, Partes I e II",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e2b11335ae99de1a0aee8bb881ee4ce2843bd55a55093e01486a9cc200176191",
+    "shaDepois": "5e70a85d392a30c488d43fe3c21d0df6ecb49104c84c2bfc6f5547df7b9d9a22",
+    "patch": {
+      "justificativa": "CERTO. A Parte I trata da descrição por categorias de material e áreas; a Parte II trata da escolha e forma de cabeçalhos, títulos uniformes e remissivas. Uma decisão sobre autoria principal não se resolve apenas transcrevendo a indicação de responsabilidade. Descrição e escolha de acesso são operações relacionadas e distintas.",
+      "gatilho": "duas partes principais",
+      "armadilhaBanca": "Distinguir descrição bibliográfica e escolha e forma dos pontos de acesso.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — estrutura do código, Partes I e II. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Parte I do AACR2r determina os cabeçalhos de autoria, e a Parte II contém exclusivamente a descrição física.",
+      "item": "O AACR2r divide-se estruturalmente em duas partes principais: a Parte I, dedicada à descrição bibliográfica baseada nas áreas da ISBD, e a Parte II, dedicada à determinação e forma dos pontos de acesso e títulos uniformes."
+    }
+  },
+  {
+    "id": "cat-q-7",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "1.3 e capítulo 2: livros",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bf35a4de11ca37ac9ddd40de646780031200febc4338baa6c3f4a9709c99e27d",
+    "shaDepois": "c19b55ac14f2db8bae4eee13dadaddc2286d02dbe8ca3386435da5f0f73df67b",
+    "patch": {
+      "item": "No AACR2r, a área de detalhes específicos do material é obrigatória para qualquer monografia impressa comum, mesmo quando não há dados dessa natureza aplicáveis.",
+      "justificativa": "ERRADO. A área de detalhes específicos se aplica a categorias e situações previstas, como dados matemáticos de material cartográfico, e não obrigatoriamente a todo livro comum. A organização das áreas do AACR2 não deve ser confundida com mudanças posteriores da ISBD, como a área 0.",
+      "gatilho": "qualquer monografia impressa comum",
+      "armadilhaBanca": "Uma área prevista no esquema não é preenchida em todo tipo de recurso.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.3 e capítulo 2: livros. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No AACR2r, a área de detalhes específicos é usada quando aplicável ao material, não obrigatoriamente em todo livro impresso."
+    }
+  },
+  {
+    "id": "cat-q-8",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "1.0D1: primeiro nível de descrição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "95b4464a5685a7a0799ded44e8b4ec2044d4ecaf6b526e4fc3b5c4830f84936a",
+    "shaDepois": "9b60316d5132dcba4d048a1fcd738c28bdec28a07e4b9ad5dcc39662ab71c1c6",
+    "patch": {
+      "item": "O primeiro nível de descrição do AACR2r exige todos os elementos descritivos possíveis, incluindo todas as notas e dimensões que caberiam no terceiro nível.",
+      "justificativa": "ERRADO. Os níveis definem conjuntos mínimos de elementos descritivos conforme os objetivos do catálogo. O primeiro não exige todos os detalhes do terceiro. Escolher pontos de acesso é matéria da Parte II e não se confunde com a quantidade de elementos do nível de descrição.",
+      "gatilho": "todos os elementos descritivos possíveis",
+      "armadilhaBanca": "Não confundir nível de descrição e determinação de todos os pontos de acesso.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.0D1: primeiro nível de descrição. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O primeiro nível do AACR2r estabelece elementos mínimos; o terceiro contempla todos os elementos aplicáveis previstos nas regras."
+    }
+  },
+  {
+    "id": "cat-q-9",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "2.0B1: fonte principal para monografias impressas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5ac41b363ed111edcdfdf9a3f584a3acbe5f853ecb234a2a87a41eaff620dbb9",
+    "shaDepois": "37820ff19668b054c578ddcf416e78b5c3f4373d84095ddafcd1cc2cc5c7b4d3",
+    "patch": {
+      "justificativa": "CERTO. Para livros impressos, a página de rosto ou substituto previsto é a fonte principal. A capa não a substitui automaticamente por ser mais chamativa. Outras áreas podem admitir fontes diferentes, e dados obtidos fora da fonte prescrita exigem o tratamento indicado pelas regras.",
+      "gatilho": "página de rosto",
+      "armadilhaBanca": "Distinguir destaque gráfico e fonte prescrita de informação.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 2.0B1: fonte principal para monografias impressas. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A capa deve prevalecer sempre sobre a página de rosto na transcrição do título de qualquer livro.",
+      "item": "Na catalogação de livros e monografias impressas segundo o AACR2r, a página de rosto (ou seu substituto) constitui a fonte principal de informação prioritária para a transcrição do título próprio e da menção de responsabilidade."
+    }
+  },
+  {
+    "id": "cat-q-10",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "1.4A1: pontuação da área de publicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bcdd2fa0546ca3f85ec39c06378b5f8a34e9e2133357ff8dbf2126bff3d38c95",
+    "shaDepois": "adc71aa0afce0bab6aefee95b6efc8e220758ff357326881f8a66dfafa0e800c",
+    "patch": {
+      "justificativa": "CERTO. Na descrição com pontuação ISBD prevista pelo AACR2r, local e editor são separados por dois-pontos, com espaços conforme o padrão. Essa pontuação de apresentação não é um identificador de subcampo MARC. Dados estruturados e exibição podem separar esses elementos de outra forma.",
+      "gatilho": "dois-pontos",
+      "armadilhaBanca": "Não confundir pontuação de apresentação e estrutura de codificação.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.4A1: pontuação da área de publicação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os dois-pontos da descrição ISBD são um subcampo MARC que substitui a identificação do local e do editor.",
+      "item": "Na Área 4 (Publicação, Distribuição etc.), a pontuação padronizada que separa o local de publicação do nome da editora é o sinal de dois-pontos precedido e sucedido por um espaço."
+    }
+  },
+  {
+    "id": "cat-q-11",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "21.6C: responsabilidade compartilhada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "56ec46c5ed5430d5f5af6fa63a0eac11c350a0a771c3e51a433726ef156445c5",
+    "shaDepois": "ad67c9bd7ed26380b68d34c0c52591d3d64f225b063cdff439077c63c0ed469b",
+    "patch": {
+      "item": "Segundo o AACR2r, em obra de responsabilidade compartilhada igualmente entre três pessoas, sem indicação de responsabilidade principal, a entrada principal é pelo primeiro autor nomeado, com entradas secundárias para os outros dois.",
+      "justificativa": "CERTO. No caso delimitado, até três pessoas compartilham a responsabilidade e nenhuma é indicada como principal. A entrada é pelo primeiro nomeado, com acessos adicionais para os demais conforme a regra. Destaque tipográfico, isoladamente, não é toda a análise de responsabilidade: a menção e a natureza da obra importam.",
+      "gatilho": "primeiro autor nomeado",
+      "armadilhaBanca": "Identificar quantidade e natureza da responsabilidade antes de escolher a entrada.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.6C: responsabilidade compartilhada. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma obra de responsabilidade igual entre três autores, sem indicação de principal, deve sempre ter entrada principal apenas pelo título."
+    }
+  },
+  {
+    "id": "cat-q-12",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "21.6C: mais de três responsáveis sem principal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e67ccbbe62f7b437065025bbc92d08d0522c8683b54c6c4ad177205c3180da0c",
+    "shaDepois": "39e24bcc94d17a21188c32382bd0f502f19221d748627136800dad1d5b54f172",
+    "patch": {
+      "justificativa": "ERRADO. No AACR2r, o caso de mais de três pessoas com responsabilidade igual e sem principal leva à entrada pelo título, com acesso adicional conforme as regras. Et al. pertence ao tratamento de menções em contextos descritivos, não torna o primeiro autor o cabeçalho principal desse caso.",
+      "gatilho": "primeiro autor mencionado",
+      "armadilhaBanca": "Separar indicação de responsabilidade e escolha do cabeçalho principal.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.6C: mais de três responsáveis sem principal. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No AACR2r, obra de mais de três autores com responsabilidade igual e sem principal recebe entrada pelo título.",
+      "item": "Caso uma obra seja elaborada em colaboração por quatro autores sem que nenhum deles receba destaque, a entrada principal deve ser efetuada sob o cabeçalho do primeiro autor mencionado, seguido da expressão et al., dispensando-se a entrada pelo título."
+    }
+  },
+  {
+    "id": "cat-q-13",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "21.7B: coletâneas com título coletivo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "efb9fff54e60b1fb24e8eb94556df08150682078643ab676cd8eb2547fba3a20",
+    "shaDepois": "1a505e4734d84577f110f0c67ee460db011527c4f9145bc70d0d602c7483d9a7",
+    "patch": {
+      "item": "No AACR2r, uma coletânea com título coletivo e artigos de autores diferentes deve ter entrada principal pelo primeiro organizador, e não pelo título coletivo.",
+      "justificativa": "ERRADO. Uma coletânea com título coletivo e trabalhos de autores diferentes tem entrada principal pelo título, e pode ter acessos adicionais para organizadores. A função de organizar não transforma automaticamente alguém em autor principal de todo o conteúdo. A ausência de título coletivo exige examinar outras disposições.",
+      "gatilho": "primeiro organizador",
+      "armadilhaBanca": "Distinguir autoria das contribuições e responsabilidade de organização.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.7B: coletâneas com título coletivo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma coletânea com título coletivo e artigos de autores diferentes tem entrada principal pelo título, com acessos adicionais cabíveis."
+    }
+  },
+  {
+    "id": "cat-q-14",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "21.31: leis e atos com força de lei",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "680ba49905ab3944cad21e1b9d9e78059a77501b22b0db1ce302288ec3f6a69b",
+    "shaDepois": "686c5b3c4c03e8c5907357769c8d4311498e4a18ccea602e242ab163ef2b329b",
+    "patch": {
+      "item": "No AACR2r, leis abrangidas pelas regras de atos com força de lei têm entrada pelo nome da jurisdição pertinente, com o tratamento de título uniforme cabível.",
+      "justificativa": "CERTO. No caso das leis abrangidas pela regra, o cabeçalho da jurisdição responsável organiza a entrada, e o título uniforme pode reunir o texto ou a categoria pertinente. A autoria institucional não é o nome da pessoa que assinou o ato. Nem todo documento produzido por um órgão público é, porém, uma lei.",
+      "gatilho": "nome da jurisdição",
+      "armadilhaBanca": "Distinguir autoridade jurídica da jurisdição e assinatura de uma pessoa.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.31: leis e atos com força de lei. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma lei federal deve ter entrada principal pelo nome pessoal de quem a assinou, independentemente da jurisdição."
+    }
+  },
+  {
+    "id": "cat-q-15",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.18A, tipo 7; 24.23: tribunais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c4bbf721cd551a6f38063a3ea22b4f5260a3438c0e9c7fc030558d28ddbdee04",
+    "shaDepois": "35a58428f1b76e7be91e1e392750fb6de57e0fd9afb372136341a52e07d4d035",
+    "patch": {
+      "justificativa": "ERRADO. O tipo 7 prevê entrada subordinada para tribunais, conforme as regras próprias. Assim, Brasil. Superior Tribunal de Justiça não é uma subordinação administrativa inventada: é uma forma de cabeçalho catalográfico. Autonomia constitucional do tribunal e entrada bibliográfica são planos distintos.",
+      "gatilho": "entrada direta",
+      "armadilhaBanca": "Não usar autonomia institucional como critério isolado de entrada direta.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 7; 24.23: tribunais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No AACR2r, tribunais seguem a entrada subordinada à jurisdição prevista nas regras de órgãos governamentais.",
+      "item": "Tribunais superiores brasileiros, como o Superior Tribunal de Justiça (STJ), devem ser catalogados com entrada direta sob sua própria denominação, sendo incorreto subordiná-los ao cabeçalho da jurisdição nacional."
+    }
+  },
+  {
+    "id": "cat-q-16",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "25.1: títulos uniformes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "06225346faa096b7928094b21fab6b0605f0bfa4c5e06f989c7abfbbb8dde7bc",
+    "shaDepois": "e046346d9e4106987f176d57cb3a94b0c6851baee80b3ee9de1dd0d668b7c965",
+    "patch": {
+      "justificativa": "CERTO. O título uniforme permite reunir ocorrências da mesma obra que aparecem sob títulos diferentes, inclusive por traduções. Ele não substitui a transcrição do título próprio de cada recurso nem torna toda obra com título semelhante a mesma obra. Identificação da obra e apresentação de uma edição precisam ser distinguidas.",
+      "gatilho": "diferentes títulos",
+      "armadilhaBanca": "Reunir a obra não significa apagar sua apresentação em cada recurso.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 25.1: títulos uniformes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um título uniforme obriga apagar dos registros os títulos próprios apresentados nas diferentes edições.",
+      "item": "O título uniforme tem por finalidade reunir sob um cabeçalho único todas as manifestações de uma obra que tenha sido publicada sob diferentes títulos ao longo do tempo ou em diferentes idiomas."
+    }
+  },
+  {
+    "id": "cat-q-17",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "26: remissivas ver",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "22db10b579324869f823a1755f23348fdc427142dbf19986c5f985e458f91216",
+    "shaDepois": "16cc340817598e4b76d6b792134dace3adf26a543fb04693400661c295a62ffd",
+    "patch": {
+      "justificativa": "CERTO. A remissiva ver encaminha uma forma variante ou não adotada à forma escolhida. Pode aproximar o nome usado pelo pesquisador do cabeçalho autorizado. A forma de partida não recebe por isso o mesmo status de cabeçalho, e a remissiva difere da ligação entre cabeçalhos relacionados.",
+      "gatilho": "forma de nome ou termo não admitida",
+      "armadilhaBanca": "Distinguir variante de acesso e relação entre formas autorizadas.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 26: remissivas ver. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A remissiva ver liga obrigatoriamente dois cabeçalhos igualmente autorizados, sem diferença de status.",
+      "item": "A remissiva 'Ver' (See reference) orienta o usuário de uma forma de nome ou termo não admitida como ponto de acesso para a forma canônica autorizada adotada pelo catálogo."
+    }
+  },
+  {
+    "id": "cat-q-18",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "26: remissivas ver e ver também",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "54b7f1c605e8dd5debf4fe88f21afa054eee25b3f171cd430e2ca20ce63166a1",
+    "shaDepois": "dd05383391c4bf74ab879c1c3d50c7886d304e8ce5109bc99755be07a610480a",
+    "patch": {
+      "justificativa": "ERRADO. A remissiva ver é a que conduz da forma não adotada à escolhida. Ver também relaciona cabeçalhos autorizados ou conexões previstas no controle. Usar os dois rótulos como sinônimos torna pouco claro se o usuário deve substituir uma forma ou explorar outra relação.",
+      "gatilho": "forma não autorizada",
+      "armadilhaBanca": "Troca entre remissão de variante e remissão associativa ou relacionada.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 26: remissivas ver e ver também. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Ver encaminha de uma forma não autorizada à escolhida; ver também orienta relações entre cabeçalhos admitidos.",
+      "item": "A remissiva \"Ver também\" (see also reference) é utilizada na catalogação de autoridades para conduzir o usuário de uma forma não autorizada de nome pessoal para o cabeçalho oficial padronizado."
+    }
+  },
+  {
+    "id": "cat-q-19",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "22.5 e disposições para nomes espanhóis",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2b161efb687c77302555663496513748b5a816220b5be24438fa052a04a11c7a",
+    "shaDepois": "98f9772d453d3c6845b1cdf86d4e2636ae9ef489bf1462bfbbaefd14e61874bc",
+    "patch": {
+      "justificativa": "ERRADO. A regra geral para sobrenomes espanhóis compostos considera o primeiro sobrenome, observadas as disposições e a forma de uso da pessoa. Aplicar automaticamente o último sobrenome segundo um hábito de outra língua pode gerar entrada inadequada. A língua e o uso precisam ser verificados.",
+      "gatilho": "último sobrenome (materno)",
+      "armadilhaBanca": "Não transportar a prática de uma língua para todos os nomes.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 22.5 e disposições para nomes espanhóis. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Para sobrenomes espanhóis compostos, a entrada geralmente considera o primeiro sobrenome, observadas as regras e o uso da pessoa.",
+      "item": "Na catalogação de autores de língua espanhola que utilizam sobrenomes compostos paterno e materno, a entrada principal deve ser efetuada sob o último sobrenome (materno)."
+    }
+  },
+  {
+    "id": "cat-q-20",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "22.5: prefixos em nomes pessoais portugueses",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5471c89b073bf342791685aa1b92e7953f1ac3fedfbd2e347dffa7963017cc0a",
+    "shaDepois": "f581a20992d69cd97b2eb0245f095a49b6272cee70146c338edf0cc0b4935d91",
+    "patch": {
+      "justificativa": "ERRADO. Preposições e artigos em nomes portugueses não se tornam automaticamente o elemento de entrada. Consideram-se as regras linguísticas e o uso do nome, como a entrada pelo sobrenome significativo. Colocar a partícula em maiúsculas não altera sua função catalográfica.",
+      "gatilho": "diretamente pelo prefixo",
+      "armadilhaBanca": "A posição gráfica de uma partícula não determina sozinha a entrada.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 22.5: prefixos em nomes pessoais portugueses. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Em nomes portugueses, a escolha do elemento de entrada deve seguir as regras de sobrenome e partículas, não obrigatoriamente a primeira preposição.",
+      "item": "Em nomes em língua portuguesa que apresentem prefixos prepositivos ou artigos (como 'da', 'de', 'do'), a entrada deve ser realizada diretamente pelo prefixo em maiúsculas."
+    }
+  },
+  {
+    "id": "cat-q-21",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.7: conferências e reuniões",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bb9b77abfe1787f30284289ba5009889d23c0e11bcec2b173bf3867f13cab5be",
+    "shaDepois": "dbb45ae4842922b7a5b88bacf529d5c1b161f68ebb43d767667845729b6fac44",
+    "patch": {
+      "item": "No AACR2r, o cabeçalho de uma conferência com nome identificado pode incluir número da reunião, data e lugar para distinguir sua ocorrência, conforme as regras aplicáveis.",
+      "justificativa": "CERTO. O nome identificado do evento pode receber os acréscimos de número, data e lugar para distinguir ocorrências. O nome da instituição promotora não é necessariamente o nome da conferência. A forma e a pontuação dos acréscimos seguem a regra e a informação disponível.",
+      "gatilho": "nome identificado",
+      "armadilhaBanca": "Distinguir entidade-evento, promotor e ocorrência específica.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.7: conferências e reuniões. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O cabeçalho de uma conferência é sempre apenas o nome da instituição promotora, sem distinguir número, data ou lugar."
+    }
+  },
+  {
+    "id": "cat-q-22",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.18A, tipo 5",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2e0065d5f9dba843a28f5791fa9d6993d9cb7ff1351f3f0b8a7833e1a9671411",
+    "shaDepois": "887aaf80fa11b56a02d6e975adde90c2cb8ef4f0a7f55f001655e0aa45a0d65c",
+    "patch": {
+      "justificativa": "ERRADO. Ministérios e órgãos executivos superiores similares têm tratamento de entrada subordinada à jurisdição no tipo 5. Um órgão público não ganha automaticamente entrada direta porque seu nome é conhecido. Também não se deve aplicar a mesma subordinação indiscriminadamente a qualquer entidade mantida pelo governo.",
+      "gatilho": "entrada direta",
+      "armadilhaBanca": "Distinguir o tipo específico da regra e uma generalização para todo órgão público.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 5. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No AACR2r, ministérios e órgãos executivos superiores similares seguem o tratamento de subordinação à jurisdição.",
+      "item": "Ministérios e secretarias de Estado do Poder Executivo devem ser catalogados com entrada direta sob sua própria denominação, dispensando qualquer menção à jurisdição política superior."
+    }
+  },
+  {
+    "id": "cat-q-23",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "1.2B e apêndices de abreviaturas e numerais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6bfcdec2583804d06a2e6c5d0be19c69575547b28e9daf3a65f50bece2f3ba7a",
+    "shaDepois": "6b9d259bb0dd1b8f89643f225b9f1a5a738e0f1e2fe9e84606980f9e9e962499",
+    "patch": {
+      "justificativa": "CERTO. O AACR2r prevê normalização de abreviaturas e numerais na indicação de edição, conforme as disposições aplicáveis. Segunda edição pode ser registrada em forma padronizada, por exemplo. Isso difere de tomar toda transcrição como reprodução absolutamente literal e também difere das orientações de transcrição de outros códigos.",
+      "gatilho": "abreviaturas padrão e os algarismos arábicos",
+      "armadilhaBanca": "Identificar o código e o elemento antes de aplicar uma regra de transcrição.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.2B e apêndices de abreviaturas e numerais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No AACR2r, a indicação de edição nunca admite abreviaturas ou normalização de numerais que não estejam literalmente na fonte.",
+      "item": "A menção de edição na Área 2 deve ser transcrita utilizando-se as abreviaturas padrão e os algarismos arábicos previstos nos apêndices do AACR2r, mesmo que na fonte conste por extenso."
+    }
+  },
+  {
+    "id": "cat-q-24",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "2.5D1: dimensões",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bfb355557773a850cbe8ff9472b026937320fc19b24237a931f24742606f1d8b",
+    "shaDepois": "a8ce27167d206ba77cfb81f3d2249a3799a8390c7a1e2dc9f6a6c314f2fe9668",
+    "patch": {
+      "justificativa": "ERRADO. A altura é registrada com aproximação das frações ao centímetro seguinte. Um volume de 21,2 cm recebe 22 cm nessa aplicação, e não 21 cm por uma regra de arredondamento decimal comum. É uma convenção de descrição, não uma alteração na medida física real.",
+      "gatilho": "arredondada para baixo",
+      "armadilhaBanca": "Não aplicar o arredondamento matemático comum a uma convenção específica de registro.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 2.5D1: dimensões. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No AACR2r, a altura de 21,2 cm é registrada como 22 cm na aplicação da regra de dimensões.",
+      "item": "Na descrição física de monografias impressas (Área 5), a altura do livro em centímetros deve ser arredondada para baixo quando a fração for inferior a cinco milímetros."
+    }
+  },
+  {
+    "id": "cat-q-25",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "1.5E e 2.5E: material adicional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5afad17fa8c0bd3fec542ac5ba664b781af3e560482c1df82901b0f0613a3617",
+    "shaDepois": "80cd1531470d0107ed661a2a1d705046d347497dc3515ae931bbfce87d8d8ef2",
+    "patch": {
+      "justificativa": "CERTO. A menção do material adicional pode ser registrada ao final da descrição física com + e os dados cabíveis. O sinal faz parte da descrição; não confere ao encarte o mesmo estatuto de outro exemplar nem substitui automaticamente a análise de uma descrição separada quando necessária.",
+      "gatilho": "sinal de adição (+)",
+      "armadilhaBanca": "Distinguir inclusão de material acompanhante e exclusão de descrição.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.5E e 2.5E: material adicional. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O sinal + na descrição física indica que o material adicional deve ser omitido do registro.",
+      "item": "O material adicional ou encarte que acompanha uma publicação monográfica deve ser indicado ao final da Área 5 de descrição física, precedido pelo sinal de adição (+)."
+    }
+  },
+  {
+    "id": "cat-q-26",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaBrochura"
+    ],
+    "localizador": "desenvolvimento do RDA e relação com AACR2",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "28c00f7bea3d047e26049ed2474b449e9111fbe2d441a545b58f6c1e2c7cd15b",
+    "shaDepois": "642aaa097b80627d8fbec420ad2eb46e5b70e2fdea09decef0fce7e0ea8de95c",
+    "patch": {
+      "item": "O RDA foi desenvolvido como sucessor do AACR2, com diretrizes para descrição e acesso orientadas a dados e relacionamentos em ambientes digitais.",
+      "justificativa": "CERTO. RDA foi desenvolvido como sucessor do AACR2, com orientação a dados e relacionamentos adequada a ambientes digitais. Isso não significa que o AACR2 só pudesse ser usado em fichas: ele também foi aplicado em catálogos automatizados. A mudança não se resume a trocar o suporte do catálogo.",
+      "gatilho": "ambientes digitais",
+      "armadilhaBanca": "Não confundir origem histórica e impossibilidade de aplicação em outro ambiente.",
+      "fonte": "RDA: Descrição e Acesso de Recursos — brochura histórica em português — desenvolvimento do RDA e relação com AACR2. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O AACR2 nunca pôde ser utilizado em um catálogo automatizado, sendo tecnicamente exclusivo de fichas em papel."
+    }
+  },
+  {
+    "id": "cat-q-27",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "RDA original: conteúdo, mídia e suporte",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "aaf3ba326761c403d1253b3915a13c403e7c486b220f71fc18895bff57bc3820",
+    "shaDepois": "1c24e611e67c34964e1af5ab47b987817b725987798e8939bd4bc36cf5301166",
+    "patch": {
+      "justificativa": "CERTO. A DGM do AACR2 não é mantida como um único elemento equivalente no RDA; conteúdo, mídia e suporte são tratados separadamente. Um mesmo recurso pode ter texto como conteúdo e recurso online como suporte. A separação evita confundir a expressão intelectual com o meio que a incorpora.",
+      "gatilho": "tipo de conteúdo, tipo de mídia e tipo de suporte",
+      "armadilhaBanca": "Separar o que é comunicado, a mediação necessária e o suporte.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA original: conteúdo, mídia e suporte. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No RDA, texto e recurso online são necessariamente o mesmo elemento e não podem ser registrados separadamente.",
+      "item": "No RDA, a Designação Geral do Material (DGM), que anteriormente era inserida em colchetes após o título próprio no AACR2r, foi extinta e substituída por três elementos desmembrados: tipo de conteúdo, tipo de mídia e tipo de suporte."
+    }
+  },
+  {
+    "id": "cat-q-28",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "lista de valores de tipo de conteúdo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f54a43125d52f4257571d2ba3dc823a8bd2bc149aaa6fe6bee2e096da613c228",
+    "shaDepois": "b350c4edb1c1bafb49d5a3512f7dc06eb45b7bea4c33ff1a0cf2a63b92666f1b",
+    "patch": {
+      "justificativa": "CERTO. Tipo de conteúdo descreve a forma de expressão, como texto ou música notada. Isso não diz sozinho se o recurso é um volume impresso ou um arquivo online. O mesmo tipo de conteúdo pode aparecer em suportes diferentes, por isso esses elementos não são intercambiáveis.",
+      "gatilho": "forma fundamental de comunicação intelectual ou artística",
+      "armadilhaBanca": "Não confundir forma intelectual de expressão e suporte.",
+      "fonte": "RDA Registry — elementos e vocabulários — lista de valores de tipo de conteúdo — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Tipo de conteúdo indica exclusivamente o objeto físico, como volume ou videodisco.",
+      "item": "O tipo de conteúdo (Content type) refere-se à forma fundamental de comunicação intelectual ou artística na qual o conteúdo é expresso, como texto, música notada, imagem estática ou imagem cartográfica."
+    }
+  },
+  {
+    "id": "cat-q-29",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "tipos de conteúdo e mídia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "49326451e66d1b7f5b3c003b2dabaceb78dbc0b811ffc2f78f54ed98168eade7",
+    "shaDepois": "dd0859c44d6c8552504a114e3d176c6a6049f361249deddfd8d9275908441b2a",
+    "patch": {
+      "justificativa": "ERRADO. Tipo de mídia se relaciona à mediação ou equipamento necessário ao acesso ao conteúdo, não à sua forma intelectual. Texto é um tipo de conteúdo; sem mediação e computador são categorias de mídia. O mesmo conteúdo pode ser disponibilizado sob mídias e suportes diferentes.",
+      "gatilho": "tipo de mídia",
+      "armadilhaBanca": "Troca entre conteúdo e mediação.",
+      "fonte": "RDA Registry — elementos e vocabulários — tipos de conteúdo e mídia — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Tipo de mídia caracteriza a mediação necessária ao acesso; texto e música notada são exemplos de tipo de conteúdo.",
+      "item": "No modelo do RDA, o tipo de mídia (Media type) caracteriza a forma de comunicação intelectual e o gênero artístico do conteúdo do recurso, como texto, música notada ou imagem cartográfica bidimensional."
+    }
+  },
+  {
+    "id": "cat-q-30",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "lista de tipos de suporte",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e068fa4a726d3aae2d13e00e9c9553174b9b2294df7ae877610a851e0ab00116",
+    "shaDepois": "0250e5fde259a9bae3339d8cd157e662eca04c1d75bcbe3c81a55290ca8ff352",
+    "patch": {
+      "justificativa": "CERTO. Tipo de suporte identifica o formato do suporte que incorpora o conteúdo, como volume ou recurso online. Não é sinônimo de assunto, gênero literário ou tipo de conteúdo. Livro eletrônico pode conter texto, com mídia e suporte próprios, sem ser descrito como volume impresso apenas por semelhança de leitura.",
+      "gatilho": "suporte físico tangível ou eletrônico",
+      "armadilhaBanca": "Distinguir conteúdo textual e suporte de sua disponibilização.",
+      "fonte": "RDA Registry — elementos e vocabulários — lista de tipos de suporte — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O tipo de suporte de todo livro eletrônico deve ser volume impresso, independentemente da forma de acesso.",
+      "item": "O tipo de suporte (Carrier type) refere-se ao suporte físico tangível ou eletrônico no qual o conteúdo é alojado, como volume, folha, cartão, videodisco ou recurso online."
+    }
+  },
+  {
+    "id": "cat-q-31",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "RDA: representação e transcrição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "50fb863b5796055b53c90b146e964722b32ddc8398de08822d7f70eb45b18803",
+    "shaDepois": "57259a804b30684598de28d833108e5126ad6e092b501db2d7ad95aadb3256b7",
+    "patch": {
+      "justificativa": "CERTO. O princípio orienta preservar a forma encontrada nos elementos transcritos, sem abreviar tudo por conveniência. Isso não significa ausência de regras de capitalização, registro de dados supridos ou opções de aplicação. Também não determina que o ponto de acesso autorizado reproduza sem controle toda forma transcrita.",
+      "gatilho": "tal como aparecem na fonte",
+      "armadilhaBanca": "Separar transcrição, dados supridos e normalização dos pontos de acesso.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA: representação e transcrição. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O princípio de transcrição obriga que todo ponto de acesso autorizado reproduza qualquer grafia encontrada, sem controle de identidade.",
+      "item": "O princípio da representação fidedigna no RDA, conhecido como 'Take what you see' (registre o que você vê), orienta que os dados sejam transcritos preferencialmente tal como aparecem na fonte, evitando-se o emprego indiscriminado de abreviaturas não presentes no recurso."
+    }
+  },
+  {
+    "id": "cat-q-32",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "RDA original: dados de publicação não identificados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b9ca0f51f47d42a2d047d5d130e02a9ec6715644cd10c48dc3c41b4dd4614efb",
+    "shaDepois": "ccf4641c331160f3dce770fe2e6589ee3d67738289858d5a3680b4884c5decc7",
+    "patch": {
+      "justificativa": "ERRADO. O RDA não torna obrigatórias as abreviaturas latinas usadas no AACR2 para esses casos. Devem ser seguidas as orientações de fornecimento ou registro de informação não identificada, conforme a versão e o perfil. Não é correto apenas manter automaticamente s.l. e s.n. por serem familiares no catálogo legado.",
+      "gatilho": "[s.l.] e [s.n.]",
+      "armadilhaBanca": "Não importar uma convenção do AACR2 como obrigação invariável do RDA.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA original: dados de publicação não identificados. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O tratamento de local ou editor não identificado no RDA segue suas diretrizes e o perfil adotado, sem obrigação de manter s.l. e s.n.",
+      "item": "Na catalogação pelo padrão RDA, quando o local de publicação ou o nome da editora não constarem no documento, o catalogador permanece obrigado a registrar as expressões latinas abreviadas [s.l.] e [s.n.] entre colchetes."
+    }
+  },
+  {
+    "id": "cat-q-33",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "RDA e responsabilidade compartilhada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "887994dd4119b61d9ec46afed157b7ede94912b6f612d378fe42ca75ce94b8b7",
+    "shaDepois": "d19bd97d355b3de05234934f1e4578fab9de78f17d3e663ad8f34d429bd140a4",
+    "patch": {
+      "justificativa": "ERRADO. RDA não conserva a regra dos três como limite rígido de representação dos responsáveis. Isso não significa que o AACR2 proibisse qualquer acesso adicional a outros nomes em toda situação: havia regras e opções. O perfil de aplicação do RDA define escolhas e requisitos de registro, sem esse teto universal.",
+      "gatilho": "regra dos três autores",
+      "armadilhaBanca": "Distinguir mudança de política de acesso e uma caricatura das regras do código anterior.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA e responsabilidade compartilhada. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "RDA não impõe uma proibição universal de registrar acessos para todos os coautores quando há mais de três responsáveis.",
+      "item": "O padrão RDA manteve inalterada a restrição rígida do AACR2r denominada regra dos três autores, impedindo que obras com mais de três coautores recebam pontos de acesso secundários para todos eles."
+    }
+  },
+  {
+    "id": "cat-q-34",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "pontos de acesso e identificação da obra",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "659ba1f1d10c8f0d83e98285018e63c62c3caea0b61f59da1df6d98e89dfa98c",
+    "shaDepois": "8b982d22dde38881b625fbb055c59f0ec8653fc6bdb74fab1813c60006c4a006",
+    "patch": {
+      "justificativa": "ERRADO. RDA trabalha com identificação de entidades, pontos de acesso e relacionamentos. A escolha de um ponto autorizado para uma obra não equivale a preservar integralmente a estrutura e a terminologia de entrada principal e secundária do AACR2. Também não elimina a necessidade de decidir como identificar a obra.",
+      "gatilho": "preserva com o mesmo rigor",
+      "armadilhaBanca": "Não tomar continuidade de objetivos como identidade de arquitetura conceitual.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — pontos de acesso e identificação da obra. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "RDA reformula a representação de entidades e relacionamentos, sem simplesmente conservar todas as categorias operacionais do AACR2.",
+      "item": "O RDA preserva com o mesmo rigor conceitual a distinção do AACR2r entre 'cabeçalho de entrada principal' e 'entradas secundárias', sendo essa diferenciação o esteio operacional de seu modelo de dados."
+    }
+  },
+  {
+    "id": "cat-q-35",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "elementos de relacionamento entre agente e recurso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ce3634f0036f0ce678b20ab2a92ecb5640723e94dd884241ceedbe84115bf11b",
+    "shaDepois": "09bbc0c8380e15fed4c17cecfe045d9a635922d95c2c9070ee094ef3e20edfac",
+    "patch": {
+      "item": "No RDA, a representação de relações entre agentes e recursos permite explicitar a natureza da conexão, como autoria, tradução ou ilustração.",
+      "justificativa": "CERTO. Relações como autoria, tradução e ilustração tornam explícita a participação de um agente. No RDA original, designadores apareciam em apêndices; no RDA atual, a navegação por elementos e relações tem outra organização. O significado do papel não se resume a acrescentar uma sigla ao nome.",
+      "gatilho": "natureza da conexão",
+      "armadilhaBanca": "Distinguir identidade do agente e natureza da sua participação.",
+      "fonte": "RDA Registry — elementos e vocabulários — elementos de relacionamento entre agente e recurso — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No RDA, todos os agentes de um recurso recebem necessariamente o mesmo papel, sem distinguir autoria, tradução e ilustração."
+    }
+  },
+  {
+    "id": "cat-q-36",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaToolkit"
+    ],
+    "localizador": "RDA Toolkit e versões do RDA",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0089c7190bcbd157dff85cdb7074b0043131e5328d3987b3cce35331272aeaca",
+    "shaDepois": "0b1e7cf002cfe838ac7528237ab2ec9de1e2e739c6791b9c607787b82b30b166",
+    "patch": {
+      "justificativa": "CERTO. RDA Toolkit oferece acesso às instruções e recursos de aplicação do RDA. Ele não é o próprio formato MARC nem um modelo conceitual como LRM. Versão do código, políticas e perfil de aplicação devem ser identificados, pois uma instrução do Original RDA não deve ser atribuída automaticamente ao Official RDA.",
+      "gatilho": "ferramenta oficial em ambiente web",
+      "armadilhaBanca": "Separar ferramenta de consulta, padrão de conteúdo, modelo e codificação.",
+      "fonte": "RDA Toolkit — documentação e orientação pública — RDA Toolkit e versões do RDA — https://www.rdatoolkit.org/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "RDA Toolkit é um formato de codificação de registros MARC e substitui a necessidade de identificar a versão das instruções.",
+      "item": "O RDA Toolkit é a ferramenta oficial em ambiente web mantida pela American Library Association e outras agências para gerenciar e consultar as diretrizes e instruções de catalogação do RDA."
+    }
+  },
+  {
+    "id": "cat-q-37",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "Projeto 3R e alinhamento ao LRM",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d1fe8c6a2634ef4abdacdefed75be9899ad2cce36b0b034190a301bd46a9209d",
+    "shaDepois": "7259a21ab552bda0e83057275c87cd6e7c667e7732d0cc2ebbdb48a89cf44d36",
+    "patch": {
+      "item": "O Projeto 3R reestruturou o RDA e redesenhou o Toolkit no contexto de seu alinhamento ao modelo IFLA LRM.",
+      "justificativa": "CERTO. O 3R reestruturou o conteúdo e redesenhou o Toolkit no contexto do alinhamento ao LRM. Alinhar não significa que RDA e LRM sejam o mesmo produto ou tenham listas idênticas de entidades. LRM é modelo conceitual; RDA fornece elementos e orientações para dados bibliográficos.",
+      "gatilho": "Projeto 3R",
+      "armadilhaBanca": "Não confundir alinhamento conceitual e identidade de produtos.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — Projeto 3R e alinhamento ao LRM. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O Projeto 3R tornou RDA e LRM um único formato de codificação, com funções idênticas."
+    }
+  },
+  {
+    "id": "cat-q-38",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "representação dos elementos em RDF",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7f346afcbedd151798d218ae82fc93418087e2df4ec0c50922bf96ea21d43d59",
+    "shaDepois": "40c3543e634ca87d91ec7aaa807f34fe0c6351a5fd22eac7a069470258b6875a",
+    "patch": {
+      "justificativa": "ERRADO. RDA separa conteúdo dos dados e sua codificação ou apresentação. Seus elementos e vocabulários têm representação utilizável em RDF; não ficam presos às oito áreas do AACR2/ISBD. Exibir dados em uma forma conhecida não prova que essa seja a arquitetura obrigatória do padrão.",
+      "gatilho": "inadequada para serialização",
+      "armadilhaBanca": "Distinguir arquitetura dos dados e forma de apresentação.",
+      "fonte": "RDA Registry — elementos e vocabulários — representação dos elementos em RDF — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Os elementos RDA podem ser utilizados em diferentes codificações, inclusive RDF, sem se restringir às áreas de uma apresentação ISBD.",
+      "item": "A arquitetura de metadados do padrão RDA preserva as oito áreas prescritivas de pontuação da ISBD, mostrando-se inadequada para serialização de entidades em grafos de dados RDF."
+    }
+  },
+  {
+    "id": "cat-q-39",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "independência de codificação e apresentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a5d8b1147b36188699f248360379b10913bfd055f92db5e294e8d29659d49836",
+    "shaDepois": "7612a4439d66c75de4444fd157c8d4ef064ef210721017091f6eddbf5524dbf1",
+    "patch": {
+      "justificativa": "ERRADO. Pontuação ISBD pode ser utilizada em apresentações e perfis, mas não é uma condição universal para dados RDA serem válidos em bancos relacionais. Estrutura do banco, formato de intercâmbio, padrão de conteúdo e exibição são decisões distintas. Uma regra local não se torna obrigatória para todo uso do RDA.",
+      "gatilho": "requisito obrigatório",
+      "armadilhaBanca": "Não elevar uma convenção de exibição a condição de validade de qualquer banco.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — independência de codificação e apresentação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A apresentação com pontuação ISBD pode ser adotada por um perfil, sem ser requisito universal de todo registro RDA.",
+      "item": "A inserção da pontuação prescritiva da ISBD dentro dos campos de dados de um registro RDA é um requisito obrigatório para a validação do registro em bancos relacionais."
+    }
+  },
+  {
+    "id": "cat-q-40",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaToolkit"
+    ],
+    "localizador": "Original RDA e perfis de aplicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "efa319b3e1ebc1a383326322eaec38947a1ae41b4525c346f84a604e2e8477a0",
+    "shaDepois": "15fbeed6b468ed177dc7c5eb4754a65492c7fdc039f1f761ca97be872f22d69d",
+    "patch": {
+      "justificativa": "ERRADO. Elementos de núcleo no RDA original eram uma base de requisitos, não proibição de uma agência exigir outros dados. No RDA atual, perfis de aplicação explicitam necessidades e escolhas. É preciso distinguir os conceitos entre versões, sem tratar o núcleo histórico como lista universal e imutável.",
+      "gatilho": "relação fechada e estrita",
+      "armadilhaBanca": "Um conjunto mínimo não é necessariamente um conjunto máximo.",
+      "fonte": "RDA Toolkit — documentação e orientação pública — Original RDA e perfis de aplicação — https://www.rdatoolkit.org/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma agência pode definir requisitos adicionais de registro em seu perfil, respeitando o padrão adotado.",
+      "item": "No padrão RDA, os elementos de núcleo (Core Elements) constituem relação fechada e estrita, impossibilitando que agências catalogadoras nacionais estabeleçam outros atributos como mandatórios em suas diretrizes de aplicação institucional."
+    }
+  },
+  {
+    "id": "cat-q-41",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4: Obra, Expressão e Manifestação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4a7d8fc3968b78aefc6dba4af2b8ce2e03a0f8d12aaf131873ae529b16153115",
+    "shaDepois": "12879cb01f981f623cb404ba8922a8c28bbde0415f02150a881ae9238a2787f4",
+    "patch": {
+      "justificativa": "ERRADO. Pequenas correções de impressão e mudanças de apresentação não implicam automaticamente uma criação intelectual distinta. Dependendo da alteração, podem ser consideradas diferenças de manifestação ou de expressão segundo o contexto e as regras aplicadas. O ponto seguro é que uma nova edição ou reimpressão não equivale, por si só, a nova obra.",
+      "gatilho": "nova Obra",
+      "armadilhaBanca": "Não confundir mudança editorial, realização do conteúdo e identidade da obra.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4: Obra, Expressão e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma nova reimpressão não determina automaticamente a existência de uma nova obra intelectual distinta.",
+      "item": "A reimpressão de uma monografia clássica que incorpore correções de erros tipográficos e ligeira diagramação editorial sem alteração no texto substantivo enseja a criação de uma nova Obra segundo o modelo RDA."
+    }
+  },
+  {
+    "id": "cat-q-42",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "RDA: transcrição de títulos de monografias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8f6c48e5bc5c43583aec01a5f2b013a499f23e4a1b2dba4b2a4304d33ba84ca5",
+    "shaDepois": "e9dcffc3116ad27a93e7c70621df330357567eb981af3795409266b20e66943d",
+    "patch": {
+      "justificativa": "ERRADO. No caso delimitado de título de livro, a transcrição registra a forma apresentada, e a correção ou variante pode ser tratada conforme as instruções. Corrigir silenciosamente faz o registro parecer reproduzir algo que não está na fonte. Outras categorias de recurso podem ter disposições próprias, que precisam ser identificadas.",
+      "gatilho": "sem registrar a grafia original",
+      "armadilhaBanca": "Separar fidelidade da transcrição e apoio à recuperação pela forma corrigida.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA: transcrição de títulos de monografias. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na transcrição do título de um livro, a forma apresentada não deve ser substituída silenciosamente; correções e variantes seguem as instruções aplicáveis.",
+      "item": "No RDA, caso o título impresso na folha de rosto de um livro apresente um erro ortográfico flagrante, o catalogador deve corrigir o vocábulo diretamente no elemento de título próprio, sem registrar a grafia original defeituosa."
+    }
+  },
+  {
+    "id": "cat-q-43",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "entidades de agentes e elementos de relacionamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e749eae0b3d485e66be1ff5af5d4ab165365579f135e7bbad7222be1fe598f5c",
+    "shaDepois": "54d62667c09de3f39af2ea90593e89cd26bdbef993f6a996ab1b0b4b25469eec",
+    "patch": {
+      "justificativa": "CERTO. RDA representa agentes e os papéis que desempenham em relação aos recursos. A família aparece em sua estrutura de entidades; isso não autoriza inserir Família como entidade autônoma do Grupo 2 do FRBR de 1998, que continha Pessoa e Entidade coletiva. O modelo e a versão precisam ser explicitados.",
+      "gatilho": "pessoas, famílias e entidades coletivas",
+      "armadilhaBanca": "Não transportar uma entidade de outro modelo ou versão para o FRBR original.",
+      "fonte": "RDA Registry — elementos e vocabulários — entidades de agentes e elementos de relacionamento — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O FRBR original de 1998 já apresentava Família como terceira entidade autônoma do Grupo 2.",
+      "item": "No RDA, pessoas, famílias e entidades coletivas são modeladas como agentes que se relacionam com as entidades de conteúdo (obra, expressão, manifestação e item) desempenhando papéis específicos de responsabilidade."
+    }
+  },
+  {
+    "id": "cat-q-44",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "vocabulários e publicação em RDF",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "eec4368c1f4edd8571e431a44053a5138c5d93616aaf13a6a1adea6489cf3b43",
+    "shaDepois": "e4218b914f4ad060e8b8d69889c4fa5f44e55d8c31e88515125a97c6c04e36d4",
+    "patch": {
+      "item": "Os elementos e vocabulários publicados no RDA Registry são projetados para uso com tecnologias de dados conectados e representação em RDF.",
+      "justificativa": "CERTO. RDA Registry publica conjuntos de elementos e vocabulários voltados a dados conectados. Identificadores de elementos e valores podem integrar grafos e mapeamentos. A passagem histórica por plataformas de registro não significa que o OMR deva ser tratado como único ambiente atual nem que todo dado publicado seja automaticamente aberto sem condições.",
+      "gatilho": "RDA Registry",
+      "armadilhaBanca": "Distinguir o padrão, o serviço atual de publicação e plataformas históricas.",
+      "fonte": "RDA Registry — elementos e vocabulários — vocabulários e publicação em RDF — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os vocabulários RDA só podem existir em texto impresso e não têm identificadores utilizáveis em RDF."
+    }
+  },
+  {
+    "id": "cat-q-45",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaBrochura"
+    ],
+    "localizador": "objetivos de desenvolvimento internacional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c45fa0fc256a8e14baf7ae6a24996b6fd9b495e89d90d61b6725823830ccbdf2",
+    "shaDepois": "080b97f22eb9950b209c6c55978aa519ab38261bfdf279ec55e0ed2a9d0caff5",
+    "patch": {
+      "justificativa": "ERRADO. RDA foi concebido para aplicação internacional e diferentes tipos de recursos, e não exclusivamente para países de língua inglesa. Traduções, políticas e perfis de comunidades podem apoiar sua aplicação. A história anglo-americana do código anterior não estabelece uma proibição para acervos em outros idiomas.",
+      "gatilho": "restrito a acervos formulados em língua inglesa",
+      "armadilhaBanca": "Origem histórica não equivale a restrição obrigatória de uso.",
+      "fonte": "RDA: Descrição e Acesso de Recursos — brochura histórica em português — objetivos de desenvolvimento internacional. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "RDA pode ser aplicado a recursos e comunidades de diferentes idiomas, com políticas e perfis apropriados.",
+      "item": "O código RDA destina-se ao emprego em bibliotecas nacionais de países anglo-saxões, mantendo-se restrito a acervos formulados em língua inglesa e sem tradução para redes cooperativas latino-americanas."
+    }
+  },
+  {
+    "id": "cat-q-46",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "elementos de Manifestação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "49126034feaaa318597c77700415d886ad573465cac54d499b266909704dedb7",
+    "shaDepois": "6946915d12fb52fe394494562306ead5afedf8bca8b318273e08fad5c1b387d3",
+    "patch": {
+      "justificativa": "CERTO. Dados da apresentação e produção de uma edição, como menções e identificadores de manifestação, podem ser associados a Manifestação. A menção de responsabilidade transcrita não é a própria entidade Pessoa: um texto apresentado e um agente identificado são coisas distintas. ISBN incorreto ou compartilhado não resolve sozinho a identidade de uma manifestação.",
+      "gatilho": "menção de publicação",
+      "armadilhaBanca": "Separar declaração no recurso, identificador e entidade representada.",
+      "fonte": "RDA Registry — elementos e vocabulários — elementos de Manifestação — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma menção de responsabilidade transcrita é a própria entidade Pessoa e não pode ser tratada como dado da manifestação.",
+      "item": "São atributos associados à entidade Manifestação no RDA a menção de publicação, o número normalizado internacional (como o ISBN), a menção de responsabilidade e a descrição física do suporte."
+    }
+  },
+  {
+    "id": "cat-q-47",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "tipos de suporte e recursos online",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "37f2a5ac1f49d72ba5a1bb3d96efbfdce38299b90ade2cbfda07c27c1b37a4ee",
+    "shaDepois": "ae028e549ec58460bcf0b656ed661cca9139f49753e0dacbe7669fe5b33ffba7",
+    "patch": {
+      "justificativa": "ERRADO. Um recurso acessível online deve ser descrito segundo suas características, e não forçado a um suporte impresso por compatibilidade com registros antigos. Texto pode ser seu tipo de conteúdo, enquanto a mídia e o suporte expressam sua forma de acesso. O catálogo pode integrar recursos diferentes sem fingir que são materialmente iguais.",
+      "gatilho": "volume impresso",
+      "armadilhaBanca": "A integração do catálogo não exige apagar diferenças de suporte.",
+      "fonte": "RDA Registry — elementos e vocabulários — tipos de suporte e recursos online — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um livro online pode ter conteúdo textual e suporte de recurso online, sem ser identificado como volume impresso.",
+      "item": "A descrição de um livro eletrônico acessível via web segundo as diretrizes do RDA restringe o preenchimento de suportes à categoria de volume impresso, em razão da compatibilidade com os acervos legados."
+    }
+  },
+  {
+    "id": "cat-q-48",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "elementos de Pessoa e datas associadas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0683b1c646f4927898059c251487ab88781b5111a7ecfd1c0b677abad8f58abd",
+    "shaDepois": "149c29952734d2309b3a670a8a963bbb14c7d86fd532f78050e7a1cbc5601d8a",
+    "patch": {
+      "justificativa": "CERTO. Datas associadas a uma pessoa podem auxiliar a distingui-la de homônimos e apoiar o controle de identidade. Elas não são a identidade em si nem precisam ser inventadas quando desconhecidas. Devem ser registradas com evidência e conforme o perfil, respeitando considerações éticas e de proteção de dados.",
+      "gatilho": "ano de nascimento e ano de morte",
+      "armadilhaBanca": "Diferenciar evidência de identificação e preenchimento artificial de dados.",
+      "fonte": "RDA Registry — elementos e vocabulários — elementos de Pessoa e datas associadas — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Datas de nascimento desconhecidas devem ser inventadas para que o registro de autoridade pareça completo.",
+      "item": "No RDA, dados biográficos como ano de nascimento e ano de morte de um autor constituem atributos da entidade Pessoa utilizados para diferenciar indivíduos homônimos em registros de autoridade."
+    }
+  },
+  {
+    "id": "cat-q-49",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "RDA: língua e escrita da transcrição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "36151d02d31c45144daed96e120750651df687dc14fae03504f6d70b5804d44a",
+    "shaDepois": "a4c04025e40ad67d24a45e57b9049f67bf3188605181c1d83403228517ec53eb",
+    "patch": {
+      "justificativa": "ERRADO. RDA admite representar dados nas escritas dos recursos e usar transliterações conforme as diretrizes e o perfil. Transliterar pode favorecer acesso, mas não exige banir o original. A escolha de script também depende das capacidades do sistema e da comunidade, sem uma proibição universal de caracteres não latinos.",
+      "gatilho": "proibido preservar os caracteres originais",
+      "armadilhaBanca": "Não confundir opção de transliteração e proibição de manter a escrita original.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA: língua e escrita da transcrição. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Caracteres originais podem ser preservados, com transliteração ou formas adicionais conforme a política de aplicação.",
+      "item": "Ao catalogar uma obra em alfabeto não latino pelo RDA, é mandatória a conversão imediata do título para caracteres latinos, sendo estritamente proibido preservar os caracteres originais no registro."
+    }
+  },
+  {
+    "id": "cat-q-50",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaRegistry"
+    ],
+    "localizador": "mapeamentos e aplicação com MARC 21",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "34afda52fb82a304c838742c5f5fb7b47d5b5b89733f8224c845fd8ee74c1e34",
+    "shaDepois": "a9f8c925eac4a183086eaef0e0724b04bc0acdc7efdfe6b5cb52f27cba567332",
+    "patch": {
+      "item": "Existem mapeamentos entre elementos RDA e campos MARC 21, o que permite utilizar o padrão com esse formato sem eliminar sua independência de codificação.",
+      "justificativa": "CERTO. RDA é independente de codificação e pode ser aplicado com MARC 21 por mapeamentos e perfis. Isso não garante uma correspondência única, direta e completa para todo elemento. Alguns dados exigem decisões de aplicação, e os campos do formato não são as entidades do modelo conceitual.",
+      "gatilho": "mapeamentos entre elementos RDA e campos MARC 21",
+      "armadilhaBanca": "Não converter possibilidade de mapeamento em equivalência perfeita.",
+      "fonte": "RDA Registry — elementos e vocabulários — mapeamentos e aplicação com MARC 21 — https://www.rdaregistry.info/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Cada elemento RDA corresponde necessariamente a um único campo MARC, sem decisões de perfil ou perda de detalhe."
+    }
+  },
+  {
+    "id": "cat-q-51",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "metodologia e tarefas do usuário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "62c4e6871be4d4ac546dbe77930fe71865ce94e304e36731f921e58294911de5",
+    "shaDepois": "db9a89147ac754ac8e8b9b98fd4139610682843dac0c784642f24cf0ed48328c",
+    "patch": {
+      "justificativa": "CERTO. FRBR usa entidades, atributos e relacionamentos para analisar o universo bibliográfico segundo necessidades dos usuários. Não é um conjunto de campos MARC nem um código de pontuação. Adotar um modelo conceitual pode orientar aplicações diferentes sem impor um único software.",
+      "gatilho": "entidade-relacionamento",
+      "armadilhaBanca": "Separar modelo conceitual e formato de registro.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — metodologia e tarefas do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "FRBR é um formato de intercâmbio que determina os bytes e indicadores de cada campo MARC.",
+      "item": "O modelo conceitual FRBR fundamenta-se na metodologia entidade-relacionamento para estruturar o universo bibliográfico com foco centrado nas tarefas realizadas pelos usuários."
+    }
+  },
+  {
+    "id": "cat-q-52",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "tarefas do usuário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3ad7068c91378dc08711b982d02f084e20a24cd409063d4805a862a15299a82a",
+    "shaDepois": "860cb427b0eacb49639d0bdb1c868a7e593454fd637bf3429cad34121be077e5",
+    "patch": {
+      "justificativa": "ERRADO. As quatro tarefas clássicas do FRBR são encontrar, identificar, selecionar e obter. Justificar é associada ao controle de autoridades no FRAD; catalogar é atividade profissional, não integra essa lista de tarefas do usuário. Reconhecer palavras plausíveis não basta sem verificar o modelo.",
+      "gatilho": "justificar (justify) e catalogar (catalog)",
+      "armadilhaBanca": "Mistura de tarefas de outro modelo e atividade de produção do catálogo.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — tarefas do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No FRBR, as tarefas clássicas são encontrar, identificar, selecionar e obter.",
+      "item": "São quatro as tarefas clássicas do usuário definidas originalmente no modelo FRBR de 1998: encontrar (find), identificar (identify), justificar (justify) e catalogar (catalog)."
+    }
+  },
+  {
+    "id": "cat-q-53",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "entidades do Grupo 1",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f70c89b60ffa1c68b74a4fb7c12ca0ddb8bc0330690194dd24417a144e0c1759",
+    "shaDepois": "5792ea0e0fcbc413ea20cabf27135a1119ea26ab9c8f55d57d6830855f517620",
+    "patch": {
+      "justificativa": "CERTO. As quatro entidades distinguem criação intelectual, sua realização, incorporação e exemplar. Não são simplesmente quatro tipos de ficha nem uma hierarquia de assunto. Uma tradução e um exemplar com marca de posse envolvem diferenças em níveis distintos.",
+      "gatilho": "Obra, Expressão, Manifestação e Item",
+      "armadilhaBanca": "Distinguir níveis conceituais em vez de tratá-los como sinônimos.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — entidades do Grupo 1 — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Obra, Expressão, Manifestação e Item são apenas nomes intercambiáveis para o mesmo objeto físico.",
+      "item": "As entidades do Grupo 1 dos FRBR representam os produtos do esforço intelectual ou artístico e são compostas pela tétrade hierárquica: Obra, Expressão, Manifestação e Item."
+    }
+  },
+  {
+    "id": "cat-q-54",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "entidade Obra",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "65a5bc28989a859b2165731124bad2f0dfdd6007d241b0e738eaef37df78ab3b",
+    "shaDepois": "2629a3ac049ce2c8e18298f008fa7558ec8c671356b6d3c2c68e71056219f8c6",
+    "patch": {
+      "justificativa": "CERTO. Obra é a criação intelectual ou artística distinta, não um exemplar específico nem o suporte onde é acessada. Isso permite relacionar diferentes realizações e publicações. Ser abstrata não significa existir um arquivo mestre físico que seja a obra, nem dispensa critérios de identificação.",
+      "gatilho": "criação intelectual ou artística abstrata",
+      "armadilhaBanca": "Separar criação intelectual e objeto individual.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — entidade Obra — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Obra é o exemplar físico individual guardado na biblioteca e muda sempre que esse exemplar recebe uma marca de posse.",
+      "item": "A Obra (Work) no modelo FRBR é definida como uma criação intelectual ou artística abstrata e distinta, existindo independentemente de qualquer corporificação em suporte físico."
+    }
+  },
+  {
+    "id": "cat-q-55",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "Obra e Expressão: tradução",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a4b77a4c7a7b39279e57cfeb4241748c692f5237cc65888282e7fd6cb0b6dc70",
+    "shaDepois": "da07330a54d0e5e6a922a425a3d7409606751d092ae1e8ba531f0167f2acf4c8",
+    "patch": {
+      "justificativa": "ERRADO. Uma tradução que mantém a identidade da criação intelectual é tratada como outra expressão da obra. Uma adaptação substancial pode exigir análise diferente, mas traduzir não implica sempre uma nova obra autônoma. A língua em que o conteúdo é realizado não se confunde com a identidade do exemplar.",
+      "gatilho": "nova Obra",
+      "armadilhaBanca": "Distinguir mudança de realização linguística e criação intelectual distinta.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — Obra e Expressão: tradução — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma tradução pode ser outra expressão da mesma obra, conforme a natureza da realização.",
+      "item": "De acordo com o modelo conceitual FRBR, a tradução de um romance do original em língua inglesa para o português dá origem a uma nova Obra (Work), autônoma e desvinculada da criação intelectual originária."
+    }
+  },
+  {
+    "id": "cat-q-56",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "Manifestação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fb47aa47ddd251d64a342ea0b7d2bc45c637d5848adb2b601e3780fba751cdcb",
+    "shaDepois": "7d0868e05fe26ae6df0d8aa43823a0fcda0dc2dac495f445c5bfe961ca2169dc",
+    "patch": {
+      "item": "No FRBR, a Manifestação corresponde à incorporação da expressão, considerada pelas características comuns de produção dos itens, sem se limitar a tiragens comerciais impressas.",
+      "justificativa": "CERTO. Manifestação incorpora a realização do conteúdo e reúne itens com características de produção pertinentes. Ela não se limita a uma tiragem comercial: pode haver publicações digitais, produção não comercial e situações de item único. Conteúdo, produção e exemplar precisam ser analisados separadamente.",
+      "gatilho": "características comuns de produção",
+      "armadilhaBanca": "Não transformar um exemplo editorial frequente em condição necessária da entidade.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma manifestação só pode existir se houver tiragem comercial de vários exemplares impressos."
+    }
+  },
+  {
+    "id": "cat-q-57",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.2: Manifestação e Item",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b56a0f826dca393e0a1818bba9bcc64da161cd54e848e2813435600b368bfb92",
+    "shaDepois": "a95e8aa06686d2ae2036882c35a6634e27b7d1a7ddde7fdb466660e1a93137ce",
+    "patch": {
+      "justificativa": "CERTO. Uma proveniência ou anotação exclusiva pertence ao item que a apresenta. Os demais exemplares não adquirem essa história apenas por integrarem a mesma manifestação. Dados compartilhados de produção e dados particulares do exemplar devem ficar distinguíveis.",
+      "gatilho": "apenas um deles",
+      "armadilhaBanca": "Não generalizar uma característica individual para toda a edição.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Manifestação e Item — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma marca de posse encontrada em um exemplar deve ser atribuída à manifestação inteira e a todos os seus itens.",
+      "item": "Dois exemplares pertencem à mesma manifestação editorial. A anotação de proveniência de apenas um deles deve ser associada ao item correspondente, sem atribuí-la a todos os exemplares da manifestação."
+    }
+  },
+  {
+    "id": "cat-q-58",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.2: Expressão e Item",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a10188bbc9822ad057675b26b9f6318f3f9c2108d9ed3abd3402ed48c4b9247a",
+    "shaDepois": "4d49b89b07b42bc757c2c411d0648aed04fd3582ee16a303ba715d3e8b1d22c3",
+    "patch": {
+      "justificativa": "ERRADO. A tradução modifica a realização linguística do conteúdo e precisa ser distinguida no nível de expressão. Item é o exemplar individual. Trocar um exemplar pelo outro não representa adequadamente a diferença entre o texto original e sua tradução.",
+      "gatilho": "simples mudança de exemplar",
+      "armadilhaBanca": "Não reduzir uma mudança intelectual a uma diferença de objeto individual.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Expressão e Item — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A tradução deve ser distinguida como realização linguística do conteúdo, e não tratada apenas como troca de exemplar.",
+      "item": "Uma tradução de um romance do espanhol para o português deve ser tratada como simples mudança de exemplar, sem distinguir a expressão linguística do conteúdo traduzido."
+    }
+  },
+  {
+    "id": "cat-q-59",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.2: Item e Manifestação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0dd43778a15af4d5939da688b458fc8a7975454e51605c3978acccef703dde82",
+    "shaDepois": "fbb477daf6113ac71e7e0d86d7467cc102676c48154331dda161da5f5bf98537",
+    "patch": {
+      "justificativa": "ERRADO. Uma dedicatória manuscrita em um exemplar é uma característica desse item. Não altera automaticamente todos os exemplares da manifestação. O interesse histórico ou valor de uma cópia não muda o nível em que se deve registrar sua particularidade.",
+      "gatilho": "para todos os leitores do país",
+      "armadilhaBanca": "Uma característica valiosa continua sendo particular do exemplar.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Item e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A dedicatória exclusiva de um exemplar deve ser registrada no nível do item correspondente.",
+      "item": "A presença de uma dedicatória autografada pelo autor em um exemplar preservado na Seção de Obras Raras da Biblioteca da Câmara dos Deputados altera ontologicamente a Manifestação do livro para todos os leitores do país."
+    }
+  },
+  {
+    "id": "cat-q-60",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "entidades do Grupo 2 no modelo de 1998",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c31dc7ac4019b2586cc9b91d99ed85966a3de181cbb425ef6494e4137e6bf115",
+    "shaDepois": "80cce225c429f8c6b3df635c103f499b8a467a68bf8cb3eb3093180ed5977205",
+    "patch": {
+      "justificativa": "ERRADO. O Grupo 2 original do FRBR reúne Pessoa e Entidade coletiva. Família aparece no FRAD e em estruturas posteriores, mas isso não a transforma retrospectivamente em terceira entidade original do Grupo 2. Identificar a versão é parte do julgamento.",
+      "gatilho": "Pessoa, Família e Entidade Coletiva",
+      "armadilhaBanca": "Não transferir uma entidade de um modelo posterior para a lista original.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — entidades do Grupo 2 no modelo de 1998 — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Grupo 2 do FRBR original contém Pessoa e Entidade coletiva; não apresenta Família como terceira entidade autônoma.",
+      "item": "O Grupo 2 de entidades do modelo FRBR original (IFLA, 1998) contempla em sua estrutura nativa três entidades: Pessoa, Família e Entidade Coletiva."
+    }
+  },
+  {
+    "id": "cat-q-61",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "frbr"
+    ],
+    "localizador": "Grupos 1–3 e relações de assunto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a6feb43633b393384528a0931a0df4363184457d6e448ad999c20d7b48ac7728",
+    "shaDepois": "8a9debcab89d3df164fec97cb6f27026c2a4029e5b386edeb9347fe0ecc38e2e",
+    "patch": {
+      "item": "No FRBR original, Conceito, Objeto, Evento e Lugar compõem o Grupo 3, mas entidades dos demais grupos também podem ser assunto de uma Obra.",
+      "justificativa": "CERTO. O Grupo 3 original apresenta essas quatro entidades. Elas não esgotam o universo de assuntos: uma obra também pode tratar de outra obra ou de uma pessoa, por exemplo. A organização em grupos não impede relações de assunto com entidades dos demais grupos.",
+      "gatilho": "Conceito, Objeto, Evento e Lugar",
+      "armadilhaBanca": "Não confundir a lista de um grupo e o conjunto de entidades que podem funcionar como assunto.",
+      "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — Grupos 1–3 e relações de assunto — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No FRBR, somente as quatro entidades do Grupo 3 podem ser assunto de uma obra, sendo impossível uma pessoa ser seu tema."
+    }
+  },
+  {
+    "id": "cat-q-62",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "tarefas do usuário no FRAD",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8d4ece2a63fd843a149ebe1d980244ab6af445d4bcb1fb73b3c7fbd7edd615f4",
+    "shaDepois": "5fec1641dafeebdeb55264ebb34647bcaf220aa03e5fafc124d94f3cb05f594e",
+    "patch": {
+      "item": "O FRAD inclui contextualizar e justificar entre suas tarefas de usuário voltadas ao controle de autoridade, ao lado de encontrar e identificar.",
+      "justificativa": "CERTO. FRAD prevê encontrar, identificar, contextualizar e justificar. Contextualizar situa a identidade ou o relacionamento; justificar documenta a base para escolhas de autoridade. Não é simplesmente acrescentar duas tarefas à lista do FRBR e conservar todas as anteriores, pois a finalidade do modelo é outra.",
+      "gatilho": "contextualizar e justificar",
+      "armadilhaBanca": "Comparar a lista e a finalidade dos modelos, sem apenas somar palavras.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — tarefas do usuário no FRAD. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "FRAD mantém selecionar e obter como suas únicas tarefas de autoridade, sem contextualizar ou justificar escolhas."
+    }
+  },
+  {
+    "id": "cat-q-63",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "FRSAD: Thema e Nomen",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bfdfd7b9ea7d5cb7755c0c63e82c930e8e6d26c7ebd9cef1343b2ec05c861c74",
+    "shaDepois": "17dfde1f7d7bc3ca2ab3f4c329a787b3680fee098579f3e95e26117162c04210",
+    "patch": {
+      "justificativa": "ERRADO. FRSAD utiliza Thema para o que pode ser assunto e Nomen para as designações pelas quais se faz referência ao tema. Não substitui essa estrutura pela tétrade WEMI. Um tema pode ter diversas designações, e uma mesma forma de designação pode exigir desambiguação.",
+      "gatilho": "Obra, Expressão, Manifestação e Item",
+      "armadilhaBanca": "Não transferir os produtos bibliográficos do FRBR para o lugar das entidades de FRSAD.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — FRSAD: Thema e Nomen. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "FRSAD distingue Thema e Nomen, em vez de representar todo o universo temático apenas por WEMI.",
+      "item": "O modelo conceitual FRSAD incorporou as entidades do Grupo 1 dos FRBR para representar o universo temático, determinando que temas documentais sejam expressos por meio das entidades Obra, Expressão, Manifestação e Item."
+    }
+  },
+  {
+    "id": "cat-q-64",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rdaLivro"
+    ],
+    "localizador": "FRSAD: Nomen",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4dd137d59e6edaaea2ca9fadf97bf0d28df52120c1182a908d6e0643a2ebf73e",
+    "shaDepois": "7569c415a291a80010085a8f080eb1cd530ffb3ff265c001de9e5b7a1bbde812",
+    "patch": {
+      "justificativa": "ERRADO. Nomen pode ser uma designação textual, notação ou outro sinal pelo qual um tema é referido. Um código de classificação pode funcionar como designação; não precisa ser uma palavra em alfabeto natural. Tema e sua forma de nomeação são entidades distintas no modelo.",
+      "gatilho": "limita-se a termos textuais",
+      "armadilhaBanca": "Distinguir o assunto e os sinais que o designam.",
+      "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — FRSAD: Nomen. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Nomen pode abranger designações como termos e notações, sem se limitar a palavras alfabéticas.",
+      "item": "No modelo conceitual FRSAD, a entidade Nomen limita-se a termos textuais da linguagem natural alfabética, rejeitando notações numéricas e códigos alfanuméricos de esquemas de classificação."
+    }
+  },
+  {
+    "id": "cat-q-65",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "introdução e escopo da consolidação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7d4e503dfc861c890a7b354016d3f2c53dbee66c50e5118fd34e569be04218b3",
+    "shaDepois": "869c5b9b267ab26a19f7b6be0a3873b6ecacb3273c914989f80f2f20a9130913",
+    "patch": {
+      "justificativa": "CERTO. LRM consolidou os modelos da família FR, reconciliando aspectos de seus domínios. A consolidação não significa conservar intactas todas as entidades e tarefas de cada um nem dispensar um código para orientar registros. Um modelo conceitual unificado continua diferente de um formato de dados.",
+      "gatilho": "FRBR, FRAD e FRSAD",
+      "armadilhaBanca": "Consolidar exige harmonização, não mera união de listas.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — introdução e escopo da consolidação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O LRM conserva integralmente todas as listas e definições anteriores, sem resolver diferenças entre os três modelos.",
+      "item": "O modelo IFLA LRM, aprovado em 2017 pela IFLA, foi desenvolvido para integrar e consolidar os três modelos conceituais anteriores (FRBR, FRAD e FRSAD) em uma estrutura conceitual única de nível superior."
+    }
+  },
+  {
+    "id": "cat-q-66",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.2, LRM-E1: Res",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a9449b34fe747f54eb959f6da010c738fb56ac0751a31f51938480eed675281b",
+    "shaDepois": "8ee03dc59922cecf2bb203ca6dd25752de8eca41e76666884e6cf18d56b733bd",
+    "patch": {
+      "justificativa": "CERTO. Res é a entidade mais geral do modelo, abrangendo aquilo que pode ser objeto de interesse bibliográfico. As demais entidades se especializam nesse universo. Res não é abreviação de recurso eletrônico nem um campo que deve ser digitado em todo registro MARC.",
+      "gatilho": "Res",
+      "armadilhaBanca": "Não reduzir a superclasse a um tipo de suporte.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2, LRM-E1: Res — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Res é uma entidade reservada exclusivamente a arquivos digitais e exclui pessoas, lugares e obras impressas.",
+      "item": "No IFLA LRM, a entidade topo de hierarquia, que atua como superclasse que abrange qualquer coisa passível de ser objeto de interesse bibliográfico, denomina-se 'Res'."
+    }
+  },
+  {
+    "id": "cat-q-67",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "3: tarefas do usuário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6b41af61fa4307e54f74914bddb65020185666fb632ba934fd0272eac9e37be6",
+    "shaDepois": "7332cebb8c768528430b78dd95694672c6e4b7925787d96213b5b784bc48aa9f",
+    "patch": {
+      "justificativa": "ERRADO. As tarefas do LRM são encontrar, identificar, selecionar, obter e explorar. Comparar pode ajudar a selecionar, mas não substitui a lista; copiar não equivale à tarefa obter, que considera o acesso ao recurso. O enunciado mistura atividades plausíveis e uma contagem incorreta.",
+      "gatilho": "Buscar, Comparar e Copiar",
+      "armadilhaBanca": "Reconhecer a lista do modelo sem aceitar uma enumeração apenas por soar plausível.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 3: tarefas do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "As cinco tarefas do LRM são encontrar, identificar, selecionar, obter e explorar.",
+      "item": "No modelo IFLA LRM, a lista de tarefas do usuário foi enxugada para três ações: Buscar, Comparar e Copiar."
+    }
+  },
+  {
+    "id": "cat-q-68",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "3: tarefa Explorar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3ea8f76a09d00472a3cba7d89ab030b4886bd2ae66288c3e9cd891604bc17601",
+    "shaDepois": "5ffdd8f43e3c71e285c7d9b178b46b33d88005add66eacc8b04037723b5150a7",
+    "patch": {
+      "justificativa": "CERTO. Explorar permite descobrir recursos e compreender relações entre entidades, situando-os em um contexto. Não se reduz a recuperar um registro já conhecido. Um catálogo pode apoiar essa tarefa com relações, navegação e conexões sem que o modelo exija uma única interface ou tecnologia.",
+      "gatilho": "descoberta de relacionamentos",
+      "armadilhaBanca": "Distinguir navegação contextual e localização de um item conhecido.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 3: tarefa Explorar — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Explorar significa apenas confirmar um número de chamada já conhecido, sem descobrir relações ou outros recursos.",
+      "item": "A tarefa 'Explorar' (Explore), incorporada pelo IFLA LRM, visa apoiar o usuário na descoberta de relacionamentos e na navegação contextualizada em redes semânticas e grafos de conhecimento."
+    }
+  },
+  {
+    "id": "cat-q-69",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.2: Agente, Pessoa e Agente coletivo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "35031b6df3234c029a54cd3ade78f6a3e7d4e197b46b3622d85f04a42824b16a",
+    "shaDepois": "e094f4ecc31818a77868b421648232694368fb0bf43eed28faa27f56606616f0",
+    "patch": {
+      "item": "No IFLA LRM, todo algoritmo autônomo que gere um texto deve ser classificado como Agente, na mesma condição conceitual de uma Pessoa, independentemente da definição de agente do modelo.",
+      "justificativa": "ERRADO. No LRM, agentes são pessoas ou agentes coletivos no sentido humano definido pelo modelo. Um software que participa de um processo não passa automaticamente a integrar essa classe. A definição conceitual também não decide, por si só, direitos autorais ou personalidade jurídica de tecnologias.",
+      "gatilho": "todo algoritmo autônomo",
+      "armadilhaBanca": "Não inferir uma entidade conceitual nem um direito jurídico apenas pela execução de uma tarefa.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Agente, Pessoa e Agente coletivo — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No LRM, a categoria Agente segue as entidades humanas definidas pelo modelo, sem incluir automaticamente qualquer software autônomo."
+    }
+  },
+  {
+    "id": "cat-q-70",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.2: Agente e Nomen",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2846ebd8614b75197e4a1c38af3ef0ae40aee3ab6dfce36c387ecbe829ace5db",
+    "shaDepois": "ba0198e46582992d68e46c0f2730ecde1d58d7a3ee6c7143c3a0f083a56e3887",
+    "patch": {
+      "item": "Se uma publicação credita um sistema de inteligência artificial como autor, essa menção basta para classificá-lo como Pessoa no LRM, sem análise da definição da entidade.",
+      "justificativa": "ERRADO. O nome atribuído a um sistema em uma menção não prova que o sistema corresponda à entidade Pessoa do LRM. É necessário distinguir a forma de uma declaração no recurso e a entidade conceitual que se está identificando. Registrar o que aparece não obriga aceitar literalmente toda alegação de identidade.",
+      "gatilho": "basta para classificá-lo como Pessoa",
+      "armadilhaBanca": "Separar informação transcrita e afirmação sobre uma entidade do modelo.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Agente e Nomen — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Registrar uma menção a um sistema não obriga classificá-lo como Pessoa no modelo LRM."
+    }
+  },
+  {
+    "id": "cat-q-71",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.2: Lugar e Lapso temporal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cf81499b07f2c54081eef5ed1f2f33192db83ab4cfd4e3cfefd6b8c7401a016d",
+    "shaDepois": "6ab45045a297df6aa4118a1781cb9a126e58206aaace48f5d528b99ce03d5561",
+    "patch": {
+      "item": "O IFLA LRM inclui as entidades Lugar e Lapso Temporal para representar aspectos espaciais e temporais no universo bibliográfico.",
+      "justificativa": "CERTO. Essas entidades permitem representar localização e extensão temporal de modo distinguível. Um nome de lugar é uma designação, não o próprio Lugar, e um intervalo não se confunde com a data transcrita em uma manifestação. Relações permitem conectar esses elementos aos demais recursos.",
+      "gatilho": "Lugar e Lapso Temporal",
+      "armadilhaBanca": "Distinguir entidade, designação e dado transcrito.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Lugar e Lapso temporal — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No LRM, Lugar é apenas uma sequência de letras e não pode ser distinguido da forma de seu nome."
+    }
+  },
+  {
+    "id": "cat-q-72",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "5.7: modelo de agregados; LRM-R25",
+    "nota": "Gabarito C corrigido para E e redação explicitada: modelo de agregados, seção 5.7 e relação LRM-R25.",
+    "shaAntes": "18a21d6a25e55281934cc7558d8b77a18371502a42527a259f8c2ef2a52951f9",
+    "shaDepois": "566e9d5ba5eaba87250aa53022f4cbb0e5ce0fa7f2835d31ef8ba310381f873f",
+    "patch": {
+      "gabarito": "E",
+      "item": "No IFLA LRM, uma antologia elimina a identidade das expressões individuais e as transforma em partes de uma única expressão agregadora, sem uma manifestação que incorpore múltiplas expressões.",
+      "justificativa": "ERRADO. Um agregado é modelado como manifestação que incorpora múltiplas expressões. A seleção e organização podem envolver uma obra e expressão agregadoras, mas as contribuições não perdem suas identidades nem se tornam partes intelectuais da expressão agregadora. O comentário anterior reduzia o livro inteiro a uma obra agregada e confundia os níveis.",
+      "gatilho": "elimina a identidade",
+      "armadilhaBanca": "Distinguir manifestação agregada e trabalho intelectual de seleção e organização.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 5.7: modelo de agregados; LRM-R25 — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma manifestação agregada pode incorporar expressões de várias obras e uma expressão agregadora, sem eliminar a identidade das contribuições.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "cat-q-73",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "escopo: modelo conceitual e implementação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c630543d06eaaf927e9e14585f668d1e8caaa86148f9d48f68e197f73003e6ef",
+    "shaDepois": "bd96c32b6bd7f8827600383aabd0e926475dc46088c33757247d674b6174f94e",
+    "patch": {
+      "item": "A adoção do IFLA LRM exige obrigatoriamente um formato RDF e torna conceitualmente inválida qualquer implementação que ainda utilize MARC 21.",
+      "justificativa": "ERRADO. LRM descreve entidades e relacionamentos; não impõe um único formato de codificação. Uma implementação precisa avaliar como representar os dados em seu ambiente. Adotar o modelo não encerra automaticamente o uso de MARC nem torna RDF condição conceitual obrigatória.",
+      "gatilho": "obrigatoriamente um formato RDF",
+      "armadilhaBanca": "Separar modelo conceitual e escolha de implementação.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — escopo: modelo conceitual e implementação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A adoção do LRM não determina por si só um único formato de codificação, como RDF ou MARC."
+    }
+  },
+  {
+    "id": "cat-q-74",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.3: Obra, Expressão e Manifestação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "91bbf439e3e849a447b0279b8accb302bf30216f4edd2aab52b08b97d3b0cde9",
+    "shaDepois": "0a4be01a36302448f6d4741eee49340f46d6ad1e9a990d9596be8f356712e3a8",
+    "patch": {
+      "justificativa": "ERRADO. A obra é realizada por uma expressão; a expressão é incorporada em manifestação, exemplificada por item. Trocar os verbos muda a relação formal entre entidades. Uma expressão não é o suporte da obra, e a manifestação não é apenas uma realização intelectual abstrata.",
+      "gatilho": "Obra corporifica Expressão",
+      "armadilhaBanca": "Verificar o verbo da relação e os níveis de suas entidades.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.3: Obra, Expressão e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Obra é realizada por Expressão, que é incorporada em Manifestação.",
+      "item": "No modelo conceitual WEMI, a relação semântica entre a entidade Obra e a entidade Expressão é expressa formalmente pela fórmula 'Obra corporifica Expressão'."
+    }
+  },
+  {
+    "id": "cat-q-75",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "4.3: exemplificação; Item e Manifestação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a1076b64a5d2e73e88a4832567bc57a5e3d301cccd48f6b0c91110774af66350",
+    "shaDepois": "143ec90fd60d2a42901c012d72efda210639bc581360eab5222f1ff0ea8e92b2",
+    "patch": {
+      "justificativa": "ERRADO. Item exemplifica uma manifestação; realização conecta obra e expressão. A afirmação mistura o verbo e os níveis e ainda trata o mesmo item como exemplar indistinto de manifestações editoriais diferentes. Um objeto físico que reúna unidades precisa de modelagem adequada, sem apagar as identidades pertinentes.",
+      "gatilho": "is a realization of",
+      "armadilhaBanca": "Não confundir exemplar, incorporação e realização intelectual.",
+      "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.3: exemplificação; Item e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Item exemplifica Manifestação; Expressão realiza Obra.",
+      "item": "No modelo IFLA LRM, a relação entre Manifestação e Item é de incorporação conceitual (is a realization of), de tal forma que um único Item sob custódia física da biblioteca exemplifica simultaneamente múltiplas manifestações editoriais distintas lançadas por editoras comerciais diferentes."
+    }
+  },
+  {
+    "id": "cat-q-76",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "MARC 21 bibliográfico: estrutura do registro",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ef7e648efd61649fa6e3e641c1cd920d385bff173f0fb16ff2e297d1e4f096fa",
+    "shaDepois": "64cdc5c7b70b73b98b9fb6e90069bc17bf9dbef5e7decff488ce5d5d118ce5fe",
+    "patch": {
+      "item": "Um registro MARC 21 bibliográfico tem líder, diretório e campos variáveis, que incluem campos de controle e campos de dados.",
+      "justificativa": "CERTO. O líder e o diretório fornecem informações estruturais; os campos variáveis incluem campos de controle e de dados. Não são três áreas de descrição ISBD nem três tarefas de catalogação. A estrutura deve ser diferenciada da interface em que o catalogador visualiza ou edita campos.",
+      "gatilho": "líder, diretório e campos variáveis",
+      "armadilhaBanca": "Separar seções estruturais do registro e campos de descrição de conteúdo.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — MARC 21 bibliográfico: estrutura do registro — https://www.loc.gov/marc/bibliographic/bdintro.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O registro MARC tem somente três campos de assunto, chamados líder, diretório e dados."
+    }
+  },
+  {
+    "id": "cat-q-77",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "Leader: estrutura de 24 posições",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dd8a0081da9daccf081ca56830d305100c25a04b0e1eeedfa62ff4c37e501927",
+    "shaDepois": "27f8b2d2e19374130f06b79106f7998858a6a752a569469fffa554294aa5c789",
+    "patch": {
+      "justificativa": "ERRADO. O líder tem comprimento fixo de 24 posições e codifica informações estruturais do registro. A ampliação dos campos muda outros valores, como comprimento total do registro, mas não faz o líder crescer. Os valores são usualmente gerados pelo sistema conforme o registro.",
+      "gatilho": "comprimento dinâmico e variável",
+      "armadilhaBanca": "Um valor variável dentro da seção não torna variável o comprimento da seção.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — Leader: estrutura de 24 posições — https://www.loc.gov/marc/bibliographic/bdintro.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O líder MARC tem 24 posições fixas, embora codifique valores que podem mudar com o conteúdo do registro.",
+      "item": "O Líder do Formato MARC 21 possui comprimento dinâmico e variável, que se expande automaticamente à medida que novos campos de cabeçalho são adicionados ao registro."
+    }
+  },
+  {
+    "id": "cat-q-78",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "Directory: etiqueta, comprimento e posição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9b23261317ac9da4afc1c534941848c2dc72f07e34c12142397a4b04dc28cbc0",
+    "shaDepois": "36e609efebb6e0ff3f13470afd78d880249db379d7cde57fad6c40d7eaa45159",
+    "patch": {
+      "justificativa": "ERRADO. Uma entrada do diretório identifica a etiqueta, o comprimento do campo e sua posição inicial relativa à área de dados. São dados estruturais normalmente calculados pelo sistema, não uma lista de autoria profissional ou quantidade de palavras. A tela de edição não reproduz necessariamente o diretório bruto.",
+      "gatilho": "número de palavras e o nome do operador",
+      "armadilhaBanca": "Não confundir descrição do registro de intercâmbio e formulário de trabalho.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — Directory: etiqueta, comprimento e posição — https://www.loc.gov/marc/bibliographic/bdintro.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O diretório registra etiqueta, comprimento e posição dos campos, normalmente calculados pelo sistema.",
+      "item": "No registro MARC 21, o Diretório (Directory) é uma seção de preenchimento manual obrigatório pelo catalogador em formulário de tela, no qual devem ser digitados a tag, o número de palavras e o nome do operador do sistema para cada campo inserido."
+    }
+  },
+  {
+    "id": "cat-q-79",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "campos variáveis de controle 00X",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "293d21ba0e95875c7ef13a0abc31b61031d692e6a67a73ed3abdaaa1b0dd60bc",
+    "shaDepois": "ece7e81f3f85fbd208bd04135de8cf7d3df2c6b205763910ae9a2fc670c769b8",
+    "patch": {
+      "justificativa": "ERRADO. Campos de controle, como 001 e 008, não usam os dois indicadores e a estrutura de subcampos dos campos variáveis de dados. No 008, significados decorrem de posições fixas. Não se deve acrescentar $a ou indicadores apenas por analogia com 245 ou 650.",
+      "gatilho": "dois indicadores",
+      "armadilhaBanca": "Distinguir controle por posições e campos de dados com indicadores e subcampos.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — campos variáveis de controle 00X — https://www.loc.gov/marc/bibliographic/bdintro.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Os campos de controle 00X não têm indicadores nem subcampos; campos de dados usam sua estrutura própria.",
+      "item": "Os campos de controle 001 a 008 do padrão MARC 21 Bibliográfico caracterizam-se pela presença de dois indicadores numéricos e pela subdivisão em subcampos alfanuméricos precedidos por delimitadores."
+    }
+  },
+  {
+    "id": "cat-q-80",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "008: elementos de comprimento fixo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6e782d7788e071eb9e812ef11690d41aaf168e7c4ee16e950c47dcff14f26ac2",
+    "shaDepois": "54e39343c46a72659326b81e32965edb517a4491e3013a9b0e59d2a305eb969f",
+    "patch": {
+      "justificativa": "CERTO. O 008 tem 40 posições, com códigos para aspectos definidos por tipo de material e posições gerais, como datas, país e idioma. O significado depende da posição e do tipo de recurso. Não se trata de um campo livre onde se pode digitar quarenta palavras para substituir notas.",
+      "gatilho": "40 posições",
+      "armadilhaBanca": "Comprimento fixo e significado posicional não equivalem a texto de extensão limitada.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 008: elementos de comprimento fixo — https://www.loc.gov/marc/bibliographic/bd008.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O 008 é um campo textual livre de até quarenta palavras, sem significado associado às posições.",
+      "item": "O campo de controle 008 (Elementos Fixos) possui exatamente 40 posições de caracteres e registra parâmetros cruciais como data de publicação, código de país de publicação e código de idioma da obra."
+    }
+  },
+  {
+    "id": "cat-q-81",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "020: International Standard Book Number",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b599cb9ed2b9694480f0aad028c0dce0e65fdc0c1d7d9461759a940e105c0fc1",
+    "shaDepois": "7adae18a7c6e45f588547289ed0762decf4bef665f7fa3bed3076e85d9b17776",
+    "patch": {
+      "justificativa": "CERTO. 020 registra ISBN e informações associadas previstas nos subcampos. É distinto de 022, destinado ao ISSN. Um identificador presente no recurso pode ser inválido ou cancelado, com registro apropriado; a mera sequência de dígitos não garante sua validade.",
+      "gatilho": "ISBN",
+      "armadilhaBanca": "Distinguir os identificadores e seus campos.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 020: International Standard Book Number — https://www.loc.gov/marc/bibliographic/bd020.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo ISSN deve ser registrado no 020 porque 020 reúne indistintamente todos os números normalizados.",
+      "item": "O campo 020 do Formato MARC 21 Bibliográfico é o campo padronizado reservado para a gravação do Número Internacional Normalizado para Livro (ISBN)."
+    }
+  },
+  {
+    "id": "cat-q-82",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "020 e 022",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f4adb0b57fb177903cbfd2cc1b17c9d32bbae3b2eef56bd7991545b80feedd7a",
+    "shaDepois": "50c4cb57879991a9a06f1c449f1d306a33c088a1ac106a3432928c6a4bb22b50",
+    "patch": {
+      "justificativa": "ERRADO. 022 é o campo de ISSN, usado na identificação de publicações seriadas e recursos abrangidos pelo identificador. ISBN é registrado em 020. A semelhança dos acrônimos e a proximidade das etiquetas não tornam os campos intercambiáveis.",
+      "gatilho": "ISBN",
+      "armadilhaBanca": "Troca entre dois identificadores e suas etiquetas.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 020 e 022 — https://www.loc.gov/marc/bibliographic/bd022.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "020 registra ISBN, enquanto 022 registra ISSN.",
+      "item": "O campo 022 do MARC 21 é destinado ao registro do ISBN de obras monográficas impressas."
+    }
+  },
+  {
+    "id": "cat-q-83",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "080 e 082: números de classificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7a9df15f97ff3a306f9159a1fa78a03559808a4d2f3f6f6470b01cb4649ef91b",
+    "shaDepois": "c8e8f96f6eb056967814994f6e276ec1258ddd7b627c0490ea0e062ba65be125",
+    "patch": {
+      "justificativa": "CERTO. 080 é o campo para CDU e 082 para CDD. Esses campos não são a notação de autor nem o número completo de localização do exemplar em qualquer biblioteca. Os indicadores e subcampos especificam informação adicional conforme cada campo e a aplicação.",
+      "gatilho": "080",
+      "armadilhaBanca": "Conferir a correspondência entre sistema e etiqueta antes de interpretar a notação.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 080 e 082: números de classificação — https://www.loc.gov/marc/bibliographic/bd080.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "080 e 082 representam respectivamente a CDD e a CDU, nessa ordem.",
+      "item": "No MARC 21 Bibliográfico, o campo 080 é destinado à notação da Classificação Decimal Universal (CDU), enquanto o campo 082 é destinado ao número da Classificação Decimal de Dewey (CDD)."
+    }
+  },
+  {
+    "id": "cat-q-84",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "100, 110 e 111: entradas principais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5acc61fc9e67a466c897a6ad7b1f050694de8839c0155e43ff30fdc378ac84c2",
+    "shaDepois": "a78aa2bbbc767db00efd46a6eec80a7904846419dd40aa20251d5a4edd3920df",
+    "patch": {
+      "justificativa": "ERRADO. No MARC bibliográfico, 100 é nome pessoal; 110 é nome de entidade coletiva; 111 é nome de evento. Uma entidade governamental não se torna pessoa física porque tem um responsável humano. O formato codifica o ponto de acesso escolhido pelas regras de conteúdo.",
+      "gatilho": "campo 100",
+      "armadilhaBanca": "Distinguir natureza do ponto de acesso e responsabilidade de pessoas vinculadas ao órgão.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 100, 110 e 111: entradas principais — https://www.loc.gov/marc/bibliographic/bd100.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "110 registra entrada principal por entidade coletiva; 100, por nome pessoal.",
+      "item": "O campo 100 do Formato MARC 21 é utilizado para registrar a entrada principal sob o nome de uma entidade governamental ou pessoa jurídica."
+    }
+  },
+  {
+    "id": "cat-q-85",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "111: Main Entry — Meeting Name",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dbe407d048739f2e88ee72e77034e38da2acadb9bfce3689a44a99a6df2db3ea",
+    "shaDepois": "c22e55c42d2981aa5eef9ee4b3ecdebf2d28e3b05afe13f9abd52078f807097c",
+    "patch": {
+      "justificativa": "CERTO. 111 codifica a entrada principal por nome de reunião ou evento, quando escolhida conforme o código de catalogação. A existência do campo não determina que toda publicação com menção a um congresso tenha automaticamente essa entrada. É preciso identificar a responsabilidade e a forma do cabeçalho.",
+      "gatilho": "campo 111",
+      "armadilhaBanca": "A disponibilidade de um campo não decide sozinha a escolha do acesso.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 111: Main Entry — Meeting Name — https://www.loc.gov/marc/bibliographic/bd111.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo livro que mencione uma conferência em qualquer parte deve ter entrada principal em 111.",
+      "item": "O campo 111 do MARC 21 Bibliográfico é empregado para a entrada principal sob o nome de conferências, congressos, simpósios e reuniões científicas."
+    }
+  },
+  {
+    "id": "cat-q-86",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "245: $b e $c",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1170be81f6fe44d4467c82a758c372afb8cb7df920c85c2400a5fb85623ca3a0",
+    "shaDepois": "16318974289222a69ee935ee6f6c3c3578b37add60c62764674adcac5843a59d",
+    "patch": {
+      "justificativa": "ERRADO. No 245, $b registra o restante do título conforme as regras do campo, e $c a indicação de responsabilidade. O enunciado trocou essas funções. Transcrever uma indicação de autoria em $c não substitui a criação do ponto de acesso de nome no campo adequado.",
+      "gatilho": "subcampo $b",
+      "armadilhaBanca": "Separar subcampos descritivos e pontos de acesso de autoria.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 245: $b e $c — https://www.loc.gov/marc/bibliographic/bd245.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No 245, $b registra restante do título e $c registra indicação de responsabilidade.",
+      "item": "No campo 245 do MARC 21 Bibliográfico, o subcampo $b destina-se privativamente à indicação de responsabilidade e autoria intelectual da obra, enquanto o subcampo $c é reservado para a transcrição do subtítulo ou resto do título."
+    }
+  },
+  {
+    "id": "cat-q-87",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "245: segundo indicador, nonfiling characters",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f206b94487cfe4c62879a2141b873935f4b3f9286d2f30b2d4577e830322ab50",
+    "shaDepois": "01f3d954c50bf4a4d3d4d239739d9bc75f79bcd53838bd1828b62f6964b69e9a",
+    "patch": {
+      "justificativa": "CERTO. O indicador conta caracteres iniciais a desconsiderar na ordenação, incluindo os espaços e sinais abrangidos pela regra. Em A biblioteca, A e o espaço totalizam dois caracteres, não apenas um artigo. O texto permanece no campo: não se apagam os caracteres do título transcrito.",
+      "gatilho": "quantidade de caracteres não ordenáveis",
+      "armadilhaBanca": "Distinguir contagem de caracteres para ordenação e alteração do dado transcrito.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 245: segundo indicador, nonfiling characters — https://www.loc.gov/marc/bibliographic/bd245.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O segundo indicador do 245 manda apagar definitivamente do título os artigos iniciais.",
+      "item": "No campo 245, o segundo indicador é utilizado pelo sistema automatizado para determinar a quantidade de caracteres não ordenáveis (como artigos definidos e indefinidos) que devem ser desprezados na indexação alfabética do título."
+    }
+  },
+  {
+    "id": "cat-q-88",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "250: Edition Statement",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7f5d32437cfa87b094fe59887f59974b6b70915adccc1da676d9532352ae0299",
+    "shaDepois": "7cb68bcc928a6ba47df1c738b1b29c10f6ed15cc55bf694641c9f129003d3f4a",
+    "patch": {
+      "justificativa": "CERTO. 250 codifica a menção de edição. Não é usado para registrar o ano de nascimento do autor nem o número do exemplar local. A forma do conteúdo depende do código e do perfil; a etiqueta MARC não manda abreviar ou transcrever sozinha toda indicação de edição.",
+      "gatilho": "menção de edição",
+      "armadilhaBanca": "Distinguir função do campo e regra de conteúdo aplicada.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 250: Edition Statement — https://www.loc.gov/marc/bibliographic/bd250.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "250 determina, por si só, a abreviação obrigatória de toda menção de edição, independentemente do código de catalogação.",
+      "item": "O campo 250 do MARC 21 destina-se ao registro da menção de edição do recurso bibliográfico."
+    }
+  },
+  {
+    "id": "cat-q-89",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "260: $a, $b e $c",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "94d8519fd6f3408added3cf33820580197ce5ae4006091e82020f7762dd94346",
+    "shaDepois": "1ecddc97eb0cd9e5f05fd84234ef83253349a8823156f5a7dc3b3515900cc4bd",
+    "patch": {
+      "justificativa": "ERRADO. No 260, $a registra lugar, $b nome do editor/distribuidor e $c datas pertinentes. Os dois primeiros foram invertidos. O campo 264 também pode representar funções de produção e publicação, conforme a aplicação, sem mudar retroativamente o significado dos subcampos de 260.",
+      "gatilho": "subcampo $a armazena o nome da editora",
+      "armadilhaBanca": "Troca de subcampos que a semelhança da informação de publicação pode esconder.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 260: $a, $b e $c — https://www.loc.gov/marc/bibliographic/bd260.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No 260, $a registra o lugar e $b o editor ou distribuidor.",
+      "item": "No campo de imprenta 260 do MARC 21, o subcampo $a armazena o nome da editora e o subcampo $b armazena a cidade ou local de publicação."
+    }
+  },
+  {
+    "id": "cat-q-90",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "264: segundo indicador",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "da139fe1975c33a8c0244b8744a8f1d7a2c2214a35cc3dca06c902053382358a",
+    "shaDepois": "6609eb5ec27748bda452aeb91090fe329616f32ecf3fc849572d3046ff7e4a19",
+    "patch": {
+      "item": "No MARC 21, o segundo indicador de 264 distingue produção (0), publicação (1), distribuição (2), fabricação (3) e data de copyright (4).",
+      "justificativa": "CERTO. O segundo indicador identifica a função: 0 produção, 1 publicação, 2 distribuição e 3 fabricação; 4 indica data de copyright. A categoria não exige que o agente seja uma empresa comercial, pois há produção não comercial. Lugar, nome e data continuam distinguíveis nos subcampos.",
+      "gatilho": "segundo indicador",
+      "armadilhaBanca": "Conferir a função do indicador, sem presumir que toda produção seja comercial.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 264: segundo indicador — https://www.loc.gov/marc/bibliographic/bd264.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No 264, o segundo indicador 4 identifica fabricação, e 3 identifica data de copyright."
+    }
+  },
+  {
+    "id": "cat-q-91",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "300: $a e $c",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6cb04d19ab160ddaa1fe9789c3f91efb76534f0fc7abed5717b2cf964c84ed34",
+    "shaDepois": "4ffe836fdf2f863368b5db92f7c4779ac3477c430d0521987da5ece2e35a8ab0",
+    "patch": {
+      "justificativa": "ERRADO. No 300, $a registra extensão, como paginação, e $c dimensões. A assertiva trocou os subcampos. A unidade e a forma do dado seguem as regras de descrição; o mesmo número pode ter significado diferente quando registrado no subcampo errado.",
+      "gatilho": "subcampo $a recebe as dimensões",
+      "armadilhaBanca": "A etiqueta correta não compensa um dado colocado no subcampo errado.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 300: $a e $c — https://www.loc.gov/marc/bibliographic/bd300.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No 300, $a registra extensão e $c registra dimensões.",
+      "item": "No campo 300 de descrição física, o subcampo $a recebe as dimensões da obra em centímetros e o subcampo $c recebe a paginação ou extensão do volume."
+    }
+  },
+  {
+    "id": "cat-q-92",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "6XX, 650 e 651",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4ab1d0baf9e1c9e0d292845a264989c4a4f5910329af11763a4e4044084900ce",
+    "shaDepois": "ad4097092d4df7e569bd6879ca6ae98c3bce021a3672f81289c36f62a079109b",
+    "patch": {
+      "justificativa": "CERTO. 6XX reúne campos de acesso de assunto. 650 registra termo tópico e 651 nome geográfico, com detalhes de origem e subdivisão conforme o campo. Um nome geográfico pode ter função diferente em outro contexto, por isso o dado não deve ser enviado a 651 apenas porque menciona um lugar em qualquer parte do recurso.",
+      "gatilho": "650",
+      "armadilhaBanca": "Distinguir forma da expressão e sua função como assunto.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 6XX, 650 e 651 — https://www.loc.gov/marc/bibliographic/bd650.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo nome de lugar mencionado no recurso deve ser registrado como assunto em 651, mesmo sem constituir tema.",
+      "item": "Os campos do bloco 6XX são destinados à atribuição de pontos de acesso de assunto, sendo o campo 650 reservado para termos tópicos e o campo 651 para nomes geográficos."
+    }
+  },
+  {
+    "id": "cat-q-93",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "7XX: entradas adicionais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "999e36db0823c04f17d0392dbc5cf75883d8b2a56d30693929ecb506437d204c",
+    "shaDepois": "6f1b25d3d83c05ad2431b7dbcc236a17b6ccdd0a8aebdbcaa0a9ef027533f3d7",
+    "patch": {
+      "justificativa": "CERTO. 7XX permite acessos adicionais para nomes e títulos relacionados, conforme os campos e as regras. Coautores, tradutores e outros responsáveis podem ser representados em campos adequados. Transcrever seus nomes em 245 $c não cria por si só esses acessos, nem todos os 7XX são de pessoas.",
+      "gatilho": "bloco 7XX",
+      "armadilhaBanca": "Separar descrição da menção e codificação de acesso adicional.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 7XX: entradas adicionais — https://www.loc.gov/marc/bibliographic/bd700.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Transcrever um coautor em 245 $c cria automaticamente seu ponto de acesso em 700, sem qualquer registro adicional.",
+      "item": "No Formato MARC 21, coautores e colaboradores intelectuais que não receberam a entrada principal têm seus pontos de acesso secundários cadastrados nos campos do bloco 7XX."
+    }
+  },
+  {
+    "id": "cat-q-94",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "856: Electronic Location and Access",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "841880b0bd94b9e1484001b12a4c57c4a0d7a44293e53898a7d760d0a9b013f7",
+    "shaDepois": "69d3ffedbfff1750d41c94fd38062eabb67673b8484d61525ec365c1b5dff6f1",
+    "patch": {
+      "justificativa": "ERRADO. 856 registra localização e acesso eletrônico, com informações pertinentes como o URI e notas. Preço e aquisição têm outros campos e contextos. Um URI no registro também não garante acesso aberto ao conteúdo, pois podem existir autenticação, licença ou restrição.",
+      "gatilho": "dados fiscais e preço comercial",
+      "armadilhaBanca": "Não confundir endereço eletrônico, preço e direito de acesso.",
+      "fonte": "MARC 21 Bibliographic — Library of Congress — 856: Electronic Location and Access — https://www.loc.gov/marc/bibliographic/bd856.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "856 registra localização e acesso eletrônico, que podem estar sujeitos a condições de uso.",
+      "item": "No formato MARC 21 Bibliográfico, o campo 856 destina-se ao registro de dados fiscais e preço comercial de aquisição de monografias e periódicos impressos."
+    }
+  },
+  {
+    "id": "cat-q-95",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "conjunto de 15 elementos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b34f02e6c2980b3aeea2002ed2ec06d3b5f82e172a7f92383aa2073f55a73c99",
+    "shaDepois": "c947e8c8ec022ddc09034c40204b56ad82ab3fc25b308483cb5f09985cdb8111",
+    "patch": {
+      "justificativa": "ERRADO. Dublin Core simples tem quinze elementos, não vinte e cinco. No padrão básico, obrigatoriedade e repetição podem ser definidas por perfis de aplicação; não existe a imposição apresentada no item. Os elementos descrevem aspectos do recurso sem determinar sozinhos uma interface ou formato único.",
+      "gatilho": "25 elementos obrigatórios",
+      "armadilhaBanca": "Conferir a quantidade e separar o vocabulário básico das exigências locais.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — conjunto de 15 elementos — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Dublin Core simples possui quinze elementos, cuja aplicação pode receber requisitos específicos de um perfil.",
+      "item": "O conjunto básico do Dublin Core Simples (Simple Dublin Core) é composto por 25 elementos obrigatórios e intransferíveis."
+    }
+  },
+  {
+    "id": "cat-q-96",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmiAM"
+    ],
+    "localizador": "modelo de descrição e conjunto de descrições",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "836747c9ee9724fbf9ac80631ffb15a9976cccc7195a4b7bd38314f23bdb2e05",
+    "shaDepois": "f683a700b759589bae038a439def4b4feefdcc6cc4fec2708aa9555ddbb0a2aa",
+    "patch": {
+      "item": "No DCMI Abstract Model, cada descrição se refere a um recurso descrito, e um conjunto de descrições pode reunir recursos relacionados sem confundir suas identidades.",
+      "justificativa": "CERTO. Uma descrição identifica um recurso e apresenta declarações sobre ele; recursos relacionados podem receber descrições distinguíveis num conjunto. Isso não obriga todo recurso a ser uma Manifestação FRBR nem impede reunir várias descrições em uma serialização. O princípio não deve ser confundido com um único objeto físico por arquivo.",
+      "gatilho": "um recurso descrito",
+      "armadilhaBanca": "Separar descrição, recurso e conjunto de descrições.",
+      "fonte": "DCMI Abstract Model — modelo de descrição e conjunto de descrições — https://www.dublincore.org/specifications/dublin-core/abstract-model/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um arquivo ou conjunto de descrições Dublin Core só pode mencionar um objeto físico e não pode registrar relações com outros recursos."
+    }
+  },
+  {
+    "id": "cat-q-97",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "qualificação e interoperabilidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9b8c1740bbaf4e9dbe1aa49fd938e874fed6ea9daa2bcb6950ea5169efa01120",
+    "shaDepois": "91181300a2b87923ca8d7c85805c80009ca66e1909141b947bafe2eed45376a2",
+    "patch": {
+      "justificativa": "ERRADO. Qualificações e refinamentos acrescentam precisão; não substituem obrigatoriamente os quinze elementos por uma sintaxe única e incompatível. A interoperabilidade depende da semântica, do mapeamento e do perfil. Simplificar um dado pode perder detalhe, sem que isso signifique incompatibilidade absoluta entre todo uso qualificado e simples.",
+      "gatilho": "permanentemente incompatíveis",
+      "armadilhaBanca": "Distinguir perda de detalhe em um mapeamento e impossibilidade absoluta de interoperar.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — qualificação e interoperabilidade — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Refinamentos podem aumentar detalhe e exigir mapeamento, sem tornar todo Dublin Core qualificado permanentemente incompatível com o simples.",
+      "item": "O padrão Dublin Core Qualificado substitui de forma excludente os 15 elementos originais do Dublin Core Simples por uma nova sintaxe hierárquica e rígida, tornando os registros qualificados permanentemente incompatíveis com sistemas legados que operam sob o padrão de 15 elementos."
+    }
+  },
+  {
+    "id": "cat-q-98",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "3.4: Dublin Core não qualificado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1567d35c987b0257a7c42d28d3fe6f998b52bd1e5e5508f34ee682915f706f9d",
+    "shaDepois": "146bb78544749d1d8e25fdc757a754806f56452acc849af0fbfe92f5151251b1",
+    "patch": {
+      "justificativa": "ERRADO. OAI-PMH exige suporte ao formato Dublin Core não qualificado correspondente a oai_dc. Provedores podem oferecer outros formatos além dele. Assim, a existência de modelos mais ricos não significa banimento do formato básico nem impede que um repositório disponibilize múltiplas representações de metadados.",
+      "gatilho": "banido",
+      "armadilhaBanca": "Não confundir a disponibilidade de formatos adicionais e a exclusão do formato básico.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — 3.4: Dublin Core não qualificado — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "OAI-PMH prevê suporte ao Dublin Core não qualificado e permite formatos adicionais de metadados.",
+      "item": "Por ser considerado tecnicamente obsoleto, o padrão Dublin Core foi banido do protocolo de coleta OAI-PMH adotado por repositórios institucionais modernos como o DSpace."
+    }
+  },
+  {
+    "id": "cat-q-99",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "Creator e Contributor",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "13f14aaa8b807efcdba84d7b94697b10b23b5c37579924c14108d5aa7e571b93",
+    "shaDepois": "7e1afe105abdc422fc106eafe0b55a7325f58c0290cb979b367e33a88c8047bf",
+    "patch": {
+      "justificativa": "ERRADO. Creator identifica a entidade com responsabilidade principal pela criação, podendo ser pessoa, organização ou serviço conforme a descrição. Contributor representa contribuição ao conteúdo; não é uma categoria obrigatória para toda entidade coletiva. A natureza institucional, sozinha, não muda a responsabilidade de criador para colaborador.",
+      "gatilho": "restringe-se a pessoas físicas",
+      "armadilhaBanca": "Distinguir tipo de agente e papel exercido na criação.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — Creator e Contributor — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Creator pode identificar uma organização responsável pela criação; órgãos públicos não são obrigatoriamente deslocados para Contributor.",
+      "item": "No esquema Dublin Core Simples, o elemento Creator restringe-se a pessoas físicas individuais, determinando que obras produzidas por órgãos públicos sejam inseridas no elemento Contributor."
+    }
+  },
+  {
+    "id": "cat-q-100",
+    "caminho": "src/content/questions/m2-catalogacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "Rights e termos relacionados de direitos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a3587c2619f15e7bc15818dd33cff9c0a93e7f4c0d8031a6f46304ba401f9a52",
+    "shaDepois": "ca1e259fba115e80d1d23cf8f57e294bcb36111446728c6b8ab93184549f3c48",
+    "patch": {
+      "justificativa": "CERTO. Rights comporta informação sobre direitos incidentes no recurso, como uma declaração ou referência a licença. Isso não significa que o recurso seja de acesso aberto, nem substitui todos os termos específicos, como licença, titular de direitos e direitos de acesso nos vocabulários qualificados. A condição deve ser registrada com evidência.",
+      "gatilho": "informações relativas a direitos",
+      "armadilhaBanca": "Registrar uma condição de direitos não cria essa condição.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — Rights e termos relacionados de direitos — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O simples preenchimento de Rights torna o recurso automaticamente de domínio público ou de acesso aberto.",
+      "item": "O elemento Rights no Dublin Core é destinado ao registro de informações relativas a direitos de propriedade intelectual, licenças de uso (como Creative Commons), restrições de acesso e termos de domínio público aplicáveis ao recurso."
+    }
+  }
+]

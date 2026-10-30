@@ -17,11 +17,14 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 | Caderno | Itens revisados neste processo | Situação |
 | --- | ---: | --- |
 | M3 — Classificação e Indexação | 100/100 | Revisão individual aplicada |
-| M4 — Recuperação, Fontes e Referência | 100/100 | Revisão individual aplicada; conferência técnica em andamento |
-| Demais cadernos e banco complementar | 0/1.979 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
+| M4 — Recuperação, Fontes e Referência | 100/100 | Revisão individual aplicada |
+| M2 — Catalogação, RDA, modelos e MARC | 100/100 | Revisão individual aplicada |
+| Demais cadernos e banco complementar | 0/1.879 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
 
 O arquivo do acervo chamado CDD 23 traduzida é uma compilação comentada, com identificação e conteúdo que não permitem tratá-lo como substituto da edição oficial. Para regras da CDD foi consultada a introdução do editor OCLC. As fontes e localizadores estão em `fontes.json` e em cada item.
 
 Não modificar retrospectivamente a primeira tentativa do aluno para fazê-la parecer resposta à nova redação. Antes de publicar alterações de julgamento, verificar tratamento de sessões ativas e históricos. A dificuldade permanece uma estimativa editorial até haver dados de desempenho.
+
+Marco de 300 itens: corrigidos também os vínculos com a teoria pelo assunto efetivo. Verificações antigas exigiam 50% de cada gabarito e 25 questões por submódulo, impondo restrições que podiam impedir correções de julgamento e vínculos. Esses requisitos sem base na banca foram substituídos por integridade de contagem, validade dos julgamentos e existência do submódulo. Não foram alterados gabaritos para satisfazer porcentagens.

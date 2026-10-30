@@ -277,9 +277,9 @@
       "cad"
     ],
     "localizador": "Sobre; autoria e adaptação brasileira",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.1 para 3.2 segundo o assunto efetivo.",
     "shaAntes": "b7f371b059bf7d550716fb1018c57e75208c6b7af65b946e12720a4da477a3a7",
-    "shaDepois": "6557770ab848aecbde43cd62b18a7a000521793a5ec73c3fe44ba48c8831f127",
+    "shaDepois": "3ff9b9edac2f2674cae486e3d543fb1e55e4c5d2aef03c562c195a48ddb68058",
     "patch": {
       "item": "A CDDir, desenvolvida no Brasil por Dóris de Queiroz Carvalho a partir da CDD, já era um sistema estrangeiro em uso antes dessa adaptação brasileira.",
       "justificativa": "ERRADO. A CDDir é a adaptação brasileira de Dóris de Queiroz Carvalho para detalhar Direito a partir da CDD. O desenvolvimento no Ministério da Fazenda não significa que a CDDir já fosse um sistema estrangeiro utilizado antes da adaptação. Não confunda a circulação internacional da CDD com a origem da CDDir.",
@@ -298,7 +298,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1210",
         "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-1210"
-      }
+      },
+      "submoduloId": "3.2"
     }
   },
   {
@@ -333,9 +334,9 @@
       "cad"
     ],
     "localizador": "entradas 341.609 e 342.609: divisão geográfica",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.1 para 3.2 segundo o assunto efetivo.",
     "shaAntes": "54f7b9640b24bc767805f1aafcaaf77e068f067ea0771acfb13e698e8d238f6c",
-    "shaDepois": "ae537b1701086d3014ab458988443c1aa0505f48d7789c64945db90330035239",
+    "shaDepois": "15c1678d58b421a1c2221c94276e3784dfe3726a892c47a6bbc669d8d94b3580",
     "patch": {
       "item": "Na CDDir mantida pelo Senado Federal, entradas como 341.609 e 342.609 orientam a divisão geográfica segundo 930–999.",
       "justificativa": "CERTO. A CDDir utiliza uma divisão geográfica derivada da sequência histórica e geográfica da CDD. No vocabulário mantido pelo Senado, entradas como 341.609 e 342.609 remetem à divisão como 930–999. Isso é uma regra própria de construção da CDDir, não uma autorização para copiar qualquer número atual da Tabela 2 da CDD.",
@@ -354,7 +355,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1199",
         "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-1199"
-      }
+      },
+      "submoduloId": "3.2"
     }
   },
   {
@@ -489,9 +491,9 @@
       "cad"
     ],
     "localizador": "entradas 342.6 e 341.6",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.1 para 3.2 segundo o assunto efetivo.",
     "shaAntes": "bb36ab63a77444e68d194f7ef922dd5183e130b7f3c9ab304106def8f1569311",
-    "shaDepois": "595b3e6fb7eefe1c3a53c0aabbe20ee45fa66c5d462b89f5df01c33e4107d728",
+    "shaDepois": "c89f19b511b9eb1a9e31064821a3f6448742f73416b60d7db298a2245cfbf16f",
     "patch": {
       "item": "Na CDDir mantida pelo Senado Federal, Direito do trabalho corresponde a 342.6, e Direito previdenciário/Seguridade social corresponde a 341.6.",
       "justificativa": "CERTO. A CDDir registra Direito do trabalho em 342.6 e Direito previdenciário/Seguridade social em 341.6. Esses números devem ser lidos dentro da CDDir: 342 é Direito privado e 341 é Direito público. Não transporte os significados de 341 e 342 da CDD para a adaptação de Dóris.",
@@ -510,7 +512,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1211",
         "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-1211"
-      }
+      },
+      "submoduloId": "3.2"
     }
   },
   {
@@ -703,9 +706,9 @@
       "cad"
     ],
     "localizador": "cap. 7: resumos modulares; apêndice de análise modular",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "1fe9f1dc6f6f38c8a362cb6dfde26134294e3a8ef9430f895b7278e234fa2b6d",
-    "shaDepois": "93088cdcc904006f58164569fbde28bdc0d62fb8388036f75b73d44ac8575f1b",
+    "shaDepois": "bef80ab29c15ee4601bca9c09cbe38cd2a763deda5eeb542d6e7208464df6c15",
     "patch": {
       "justificativa": "CERTO. O resumo modular combina componentes para diferentes necessidades: referência/citação, anotação e formas indicativa, informativa e crítica. O usuário pode escolher o grau de detalhe e a função desejados. Essa descrição de um modelo da literatura não transforma as cinco partes em obrigação para todo resumo da ABNT NBR 6028:2021.",
       "gatilho": "cinco partes",
@@ -724,7 +727,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-103207",
         "declaracaoLegada": "Cebraspe / CNJ / 2013 (Adaptada); identificador legado: TecConcursos-103207"
-      }
+      },
+      "submoduloId": "8.4"
     }
   },
   {
@@ -736,9 +740,9 @@
       "cdu"
     ],
     "localizador": "3.2.1: relação simples",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "12fd3ca4d18318dd003a5acfce9ce98f1af6d9c165b905e265acf9bd093684bf",
-    "shaDepois": "339a992c0cf03b3a49ced78db0b74dc70bd94f1b1abcef15a970a80f06e21f03",
+    "shaDepois": "4cf10d47fbf3dd09abdbc5f60f51d1da80db78379f4b0339357bf0390b794097",
     "patch": {
       "justificativa": "CERTO. Na CDU, : relaciona assuntos e permite inverter os números quando a relação é tomada como reversível. A possibilidade é semântica; não obriga a biblioteca a produzir entradas duplicadas em todo catálogo. Compare com ::, que fixa a ordem dos componentes.",
       "gatilho": "relação coordenada reversível",
@@ -746,7 +750,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.2.1: relação simples — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Na CDU, os dois-pontos simples fixam a ordem e proíbem a inversão dos componentes em qualquer situação.",
-      "item": "Na Classificação Decimal Universal (CDU), o sinal de dois pontos simples (:) é empregado para expressar a relação coordenada reversível entre dois ou mais assuntos independentes, permitindo a inversão da ordem dos elementos na busca e na catalogação."
+      "item": "Na Classificação Decimal Universal (CDU), o sinal de dois pontos simples (:) é empregado para expressar a relação coordenada reversível entre dois ou mais assuntos independentes, permitindo a inversão da ordem dos elementos na busca e na catalogação.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -759,9 +764,9 @@
       "cad"
     ],
     "localizador": "2–3: emprego de auxiliares",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "be06744d18421bfaaaa6e256f15680895ce8b6f2f3312812790a1cb0750fe6e0",
-    "shaDepois": "7c8f77e6968bc6bdf9aefdd2142acd5f544d64a383fbe5084d0ac97cb725df9e",
+    "shaDepois": "9a550d26db9ae7526afb4ea3744890a3477cc467cc60164978fc553eca65aa46",
     "patch": {
       "justificativa": "ERRADO. Os auxiliares qualificam o assunto quando a representação requer forma, lugar, tempo ou outra característica prevista. Eles não têm uso obrigatório em todos os documentos, nem se acrescentam indiscriminadamente. A decisão depende do conteúdo, da política de classificação e das instruções do sistema.",
       "gatilho": "uso obrigatório",
@@ -780,7 +785,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1116",
         "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1116"
-      }
+      },
+      "submoduloId": "3.1"
     }
   },
   {
@@ -793,9 +799,9 @@
       "cad"
     ],
     "localizador": "8: relações semânticas; categorização em facetas",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.4 segundo o assunto efetivo.",
     "shaAntes": "2520dee464313f65d33686ccf306d1de0227ccf5831f15d5fa9e289fb0d1dd72",
-    "shaDepois": "64be9c2b9ce8a424e59ddc856b194ef4bf3421b965a0ac4604a41a4062740bad",
+    "shaDepois": "e18f83c425fb0410eef5ba5553e47f41ca17a169f9a463928f99283b9f531ecd",
     "patch": {
       "justificativa": "ERRADO. Tesauros podem apresentar relações hierárquicas e associativas sem serem classificados como facetados. A organização facetada depende da análise e do agrupamento de conceitos por categorias/facetas, não apenas da presença de TG, TE ou TR. A assertiva usa um critério insuficiente para identificar a estrutura.",
       "gatilho": "relações conceituais distintas da relação de equivalência",
@@ -814,7 +820,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1098",
         "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-1098"
-      }
+      },
+      "submoduloId": "3.4"
     }
   },
   {
@@ -826,9 +833,9 @@
       "cdu"
     ],
     "localizador": "3.4–3.5: forma e lugar",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "d1ece2fbc5a58d8571a50d2648539bfd6f657194530d03c854b02248a25d2d53",
-    "shaDepois": "7a6b93b51d89015f8c7180acf4783a53c69f937bd8619e36a7a017e046840632",
+    "shaDepois": "3b7898d9e1fa7cdecfa3c28816a7c71cf725133444ba26a1abbf229fecded40f",
     "patch": {
       "justificativa": "ERRADO. Na CDU, (0...) introduz auxiliar comum de forma, enquanto os auxiliares comuns de lugar se organizam em (1/9). Assim, (81) pode indicar Brasil, e (038), um dicionário. Os dois usam parênteses, mas o prefixo e a tabela consultada determinam a função.",
       "gatilho": "(0...)",
@@ -836,7 +843,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.4–3.5: forma e lugar — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Na CDU, (0...) representa forma e (1/9) representa lugar.",
-      "item": "Na CDU, o auxiliar comum de lugar é indicado por parênteses contendo número iniciado por zero, como no formato (0...)."
+      "item": "Na CDU, o auxiliar comum de lugar é indicado por parênteses contendo número iniciado por zero, como no formato (0...).",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -849,9 +857,9 @@
       "cad"
     ],
     "localizador": "introdução: classes compostas e síntese",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "9d96688a2a2a237fb046ad2f410cc1b6d2781b6aca04cddc3a7be446b3bf7841",
-    "shaDepois": "50cbefe433afd6545673eef817466708449fdf59e3765c004651123c620914f1",
+    "shaDepois": "80d161a141255ee33bb21d41010b1c0310dfb0ec7664bf7af5d5217102ad058e",
     "patch": {
       "item": "Na CDU, uma classe composta combina conceitos ou facetas para especificar um assunto, como ocorre em fisiologia botânica, patologia botânica e ecologia botânica.",
       "justificativa": "CERTO. Uma classe composta resulta da combinação de conceitos para representar um assunto mais específico. Fisiologia botânica combina o objeto plantas com o aspecto fisiológico; não significa apenas colocar duas obras juntas na estante. A interseção conceitual deve ser diferenciada da reunião de assuntos independentes pelo sinal de adição.",
@@ -870,7 +878,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-436525",
         "declaracaoLegada": "Cebraspe / SERPRO / 2013 (Adaptada); identificador legado: TecConcursos-436525"
-      }
+      },
+      "submoduloId": "3.1"
     }
   },
   {
@@ -883,9 +892,9 @@
       "cad"
     ],
     "localizador": "3.1.1–3.1.2: adição e extensão consecutiva",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "23ebeaeca7a50228580397b525ac2f7313da38372a53fe675c12fdc25899d252",
-    "shaDepois": "42d1c2d915e6af5adaa17c31c51578bae30ce358e6b83a45ff2b7e9e567c2d6e",
+    "shaDepois": "755f55e3de688e85a9748960594a8b09c9fa5734d80a5446b0d9b64eca8b4dca",
     "patch": {
       "item": "Na CDU, a barra / une números separados e não consecutivos sem incluir os intermediários; por isso, 643/645 abrange apenas 643 e 645.",
       "justificativa": "ERRADO. A barra / representa uma extensão consecutiva, incluindo os números intermediários do intervalo. Para reunir números separados, emprega-se +. Assim, 643/645 abrange o intervalo de 643 a 645, não apenas seus extremos; a afirmação de que a barra une números não consecutivos é o erro decisivo.",
@@ -904,7 +913,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "436526",
         "declaracaoLegada": "Cebraspe / SERPRO / 2013; identificador legado: 436526"
-      }
+      },
+      "submoduloId": "3.1"
     }
   },
   {
@@ -940,9 +950,9 @@
       "cdu"
     ],
     "localizador": "3.1: sinais + e /",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "4ef514b2e8ffa9f20d4b67d6120c055d8a8241ea6ee70d94d192723212f70ce4",
-    "shaDepois": "a6678ec6fac9f5ef66ed69266107c3160f560199a10fc13ab431190a3eae39d2",
+    "shaDepois": "107a1195b8b62587825190c338881b91d2e58624b85743fc76f75f5ad6e05877",
     "patch": {
       "justificativa": "ERRADO. As funções foram invertidas. O sinal + reúne assuntos separados; / representa extensão consecutiva com os números intermediários. Por exemplo, uma lista de extremos não equivale automaticamente a um intervalo completo. Identifique a operação sem se orientar apenas pela semelhança visual com sinais matemáticos.",
       "gatilho": "barra (/) é utilizado para representar a adição",
@@ -950,7 +960,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.1: sinais + e / — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Na CDU, + representa adição e / representa extensão consecutiva.",
-      "item": "Na CDU, o sinal de barra (/) é utilizado para representar a adição de dois tópicos não consecutivos, enquanto o sinal de mais (+) é empregado para indicar a extensão consecutiva de classes vizinhas."
+      "item": "Na CDU, o sinal de barra (/) é utilizado para representar a adição de dois tópicos não consecutivos, enquanto o sinal de mais (+) é empregado para indicar a extensão consecutiva de classes vizinhas.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -984,9 +995,9 @@
       "cdu"
     ],
     "localizador": "2.3 e 4: auxiliares especiais",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "09b0e414b0f2d06c562b977bc083d5a89d1d27f5d2723caeb9858d800bc164c7",
-    "shaDepois": "fab8414024d6224eb5c6a88d83b2d7ef5bed5fc821b9b911f4e0ed11a6e751e3",
+    "shaDepois": "2cef81de72c536037db1f1c8fd3d8e8b688b5643f6a04e4cdf623c99db5a9fd5",
     "patch": {
       "justificativa": "ERRADO. O apóstrofo introduz auxiliares especiais de síntese em áreas previstas nas tabelas. Não é um auxiliar comum independente de nacionalidade. O auxiliar comum de ascendência humana, grupo étnico e nacionalidade tem a forma (=...). Confirme tanto a categoria do auxiliar quanto o sinal usado para representá-lo.",
       "gatilho": "auxiliar comum independente",
@@ -994,7 +1005,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2.3 e 4: auxiliares especiais — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Na CDU, o apóstrofo participa de auxiliares especiais de síntese, nas áreas em que seu emprego é previsto.",
-      "item": "Na CDU, o apóstrofo (') atua como um auxiliar comum independente com capacidade de expressar a nacionalidade de pessoas jurídicas de direito público."
+      "item": "Na CDU, o apóstrofo (') atua como um auxiliar comum independente com capacidade de expressar a nacionalidade de pessoas jurídicas de direito público.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1006,9 +1018,9 @@
       "cdu"
     ],
     "localizador": "3.7: auxiliares de tempo",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "649864488e07489d5eb8068239823905428e43a6870e4bc1f5bdc05cd16df80e",
-    "shaDepois": "c8db0fb25dadcb165d8bf309b9c05e75d63565d54740fd2059a6ffb6c4873f7d",
+    "shaDepois": "cc005ccda565753831c75c56e57c4cd71f498f488570f83d5f6d7ddcbb841c56",
     "patch": {
       "justificativa": "CERTO. As aspas delimitam o auxiliar comum de tempo. A forma \"2024\" representa o ano, enquanto uma notação mais curta pode representar um período mais amplo, conforme a tabela. Não confunda \"2024\" com (2024): parênteses são usados em outras categorias auxiliares, como lugar e forma.",
       "gatilho": "aspas duplas",
@@ -1016,7 +1028,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.7: auxiliares de tempo — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Na CDU, o ano de 2024 é representado pelo auxiliar de tempo (2024), com parênteses no lugar das aspas.",
-      "item": "Na CDU, o auxiliar comum de tempo utiliza aspas duplas (\"...\"), permitindo expressar séculos, anos, meses, dias e até estações do ano, a exemplo de \"2024\" para o ano de 2024."
+      "item": "Na CDU, o auxiliar comum de tempo utiliza aspas duplas (\"...\"), permitindo expressar séculos, anos, meses, dias e até estações do ano, a exemplo de \"2024\" para o ano de 2024.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1028,9 +1041,9 @@
       "cdu"
     ],
     "localizador": "2.2 e 3.9.5: auxiliares independentes e dependentes",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "a24c4e080b80820190b609fa109c3d2c6711a274e313b1f140649298fa1462f1",
-    "shaDepois": "b97f281ab68233c714579b9f222413de51b7055dd8afd289a191fc5dcc5dd6ef",
+    "shaDepois": "c01578f46537d8bee87797c5b72cd3db0dc5500c322f7ac5fc261fe33570d8cc",
     "patch": {
       "justificativa": "ERRADO. O auxiliar -05 é dependente: não inicia sozinho uma classificação. Já lugar, tempo, língua e forma são auxiliares comuns independentes nas condições do sistema. A enumeração mistura categorias; não é necessário que todos os seus elementos estejam errados para que a assertiva seja falsa.",
       "gatilho": "pessoas/características (-05)",
@@ -1038,7 +1051,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2.2 e 3.9.5: auxiliares independentes e dependentes — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Os auxiliares comuns de pessoas -05 são dependentes, ao contrário dos auxiliares independentes de lugar, tempo, língua e forma.",
-      "item": "Na CDU, consideram-se auxiliares comuns independentes aqueles que podem ser utilizados isoladamente ou no início da notação, categoria que inclui os auxiliares de lugar (1/9), tempo (\"...\"), língua (=...) e pessoas/características (-05)."
+      "item": "Na CDU, consideram-se auxiliares comuns independentes aqueles que podem ser utilizados isoladamente ou no início da notação, categoria que inclui os auxiliares de lugar (1/9), tempo (\"...\"), língua (=...) e pessoas/características (-05).",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1075,9 +1089,9 @@
       "cad"
     ],
     "localizador": "cap. 5: coerência da indexação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.3 segundo o assunto efetivo.",
     "shaAntes": "6efdb862786432e911f8ec776d94944b46c7f4ece0119cda49e0c28987f9310f",
-    "shaDepois": "8e45258821cb1f7bd8fe57919cabb39e986d22ad2ea8a4a3d721a10ec3175846",
+    "shaDepois": "8558c0fa17036a654bc389066ad5982a17601fa61dbdda21a4bf8dd8adc6bab9",
     "patch": {
       "justificativa": "CERTO. Coerência mede a concordância das escolhas de representação. Se dois indexadores atribuem os mesmos descritores ao mesmo documento, a concordância entre eles aumenta. Isso não prova que os descritores sejam os mais adequados: ambos podem concordar em uma interpretação equivocada. Diferencie concordância e correção temática.",
       "gatilho": "maior será a coerência",
@@ -1096,7 +1110,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "180970",
         "declaracaoLegada": "Cebraspe / TJ RR / 2012; identificador legado: 180970"
-      }
+      },
+      "submoduloId": "3.3"
     }
   },
   {
@@ -1108,9 +1123,9 @@
       "cdu"
     ],
     "localizador": "1: classes principais",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "044e304da0bcd432b21de7da5467c0539bbec0599a3c647d37fb923a1767c9a8",
-    "shaDepois": "46db690d123e791a75b0a896760cb7caf90d8715c6240113d5c23e13144f32c3",
+    "shaDepois": "998a5d4ebd62bdf10b54dcb9ead234eff877b1355400b0b5a87aa9113fd681b3",
     "patch": {
       "justificativa": "CERTO. A CDU deixou a classe principal 4 vaga após reunir os assuntos de Linguística e Literatura em 8. Isso difere da CDD, em que 400 continua associado à linguagem. Não preencha a classe vaga por analogia com a outra classificação.",
       "gatilho": "classe principal 4",
@@ -1118,7 +1133,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 1: classes principais — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Na CDU, a classe principal 4 abriga Linguística, exatamente como 400 na CDD.",
-      "item": "A classe principal 4 da CDU foi esvaziada em edições anteriores e seus assuntos foram transferidos para a classe 8 (Linguística e Literatura), encontrando-se atualmente vaga no esquema."
+      "item": "A classe principal 4 da CDU foi esvaziada em edições anteriores e seus assuntos foram transferidos para a classe 8 (Linguística e Literatura), encontrando-se atualmente vaga no esquema.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1131,9 +1147,9 @@
       "cad"
     ],
     "localizador": "formatos bibliográfico e de autoridades",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 2.4 segundo o assunto efetivo.",
     "shaAntes": "950ca6bc4c4ce9ad58471d13262fab95c1391914d3363f1bfeb5bdd6964f61a7",
-    "shaDepois": "94f4f3719c25b8dc7780161e7db496b110786565b87df54a7ad1c9d74855d953",
+    "shaDepois": "aaeb3b5eca1deb42029abb9240771ad460bf9ddf195a26265a855e079b58bc10",
     "patch": {
       "item": "MARC, USMARC, UNIMARC, MARC 21, o formato MARC de autoridades e OCLC são todos formatos de estruturação de registros documentais.",
       "justificativa": "ERRADO. MARC 21 e seus formatos especificam a representação estruturada de dados bibliográficos e de autoridades. OCLC é uma organização cooperativa que mantém serviços, como WorldCat; não é mais um formato derivado de MARC. A lista mistura uma instituição com padrões técnicos.",
@@ -1152,7 +1168,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1077",
         "declaracaoLegada": "Cebraspe / TC DF / 2014 (Adaptada); identificador legado: cespe-cad-1077"
-      }
+      },
+      "submoduloId": "2.4"
     }
   },
   {
@@ -1165,9 +1182,9 @@
       "cad"
     ],
     "localizador": "3: tabelas 1a, 1b, 1c, 1d, 1e, 1f, 1g, 1h e 1k",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "8cf54493987088d8a94279947af060ee36037d8f497d79364c6b46ad41d28a82",
-    "shaDepois": "d1ab86b72857c6e204fe7b54818c3f41f06ee911c0d6120e747dcaff3113a174",
+    "shaDepois": "fdea5aa98917a624547d0d0ff001d1b449fc067200e7a41ce235642ca92e1dcc",
     "patch": {
       "item": "Na organização de auxiliares comuns da CDU apresentada pelo Manual de Classificação da Biblioteca Nacional de Brasília, as tabelas 1a a 1h e 1k totalizam nove tabelas.",
       "justificativa": "CERTO. O manual apresenta nove tabelas auxiliares comuns identificadas de 1a a 1h e 1k. A contagem de tabelas não é a contagem de sinais: uma mesma tabela pode reunir vários operadores ou categorias. A redação foi fixada nessa organização, sem transformar uma quantidade de sinais em regra universal para todas as edições.",
@@ -1186,7 +1203,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1111",
         "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1111"
-      }
+      },
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1198,9 +1216,9 @@
       "cdu"
     ],
     "localizador": "2; 3.8: especificação por notações externas e letras",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "46f4d7b27d69145c98f806f44344ac5db2761072dcb0999f4fcb19aa9aac5aae",
-    "shaDepois": "efd9cb7c1396a9525629867703f418a3b28d3500be7eac18d74cfb372bd38579",
+    "shaDepois": "c435abf3a0d30d234e8b97ae92b7fa1b2984a79d56404e570f117b9ad5641309",
     "patch": {
       "justificativa": "CERTO. A notação da CDU combina números, sinais e, nos casos admitidos, letras. O asterisco introduz uma especificação externa ao esquema, com sua origem identificável; isso não significa autorização para inventar livremente qualquer classe. Letras A/Z também podem servir a especificações diretas previstas.",
       "gatilho": "asterisco (*)",
@@ -1208,7 +1226,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2; 3.8: especificação por notações externas e letras — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_errada": "O asterisco da CDU autoriza substituir toda a classificação por qualquer código local, sem identificar a origem da notação externa.",
-      "item": "A CDU adota notação mista porque combina algarismos arábicos com letras do alfabeto latino e sinais gráficos tipográficos, além de admitir o uso do asterisco (*) para introduzir notações não autorizadas pelo esquema."
+      "item": "A CDU adota notação mista porque combina algarismos arábicos com letras do alfabeto latino e sinais gráficos tipográficos, além de admitir o uso do asterisco (*) para introduzir notações não autorizadas pelo esquema.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1221,9 +1240,9 @@
       "cad"
     ],
     "localizador": "introdução: características analítico-sintéticas",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "c41a07830e441d3b309448424a2d1bfaa2bdc19bafca1e62cf42b674b990ed88",
-    "shaDepois": "e5304299fa8efceaa6f8d0a555135060aed6b8cabfc4afb29c3b5d67fb620680",
+    "shaDepois": "c5220e4efe8e0f671e3e20a0e904f45e2ca4b5e21d4b27dc1f83025e202efe35",
     "patch": {
       "justificativa": "ERRADO. A CDU combina enumeração e síntese. Seu desenvolvimento de recursos analíticos, auxiliares e combinações não a transforma em um sistema puramente enumerativo. As tabelas fornecem componentes e instruções para construir assuntos compostos, em vez de exigir uma entrada pronta para toda combinação possível.",
       "gatilho": "verdadeira classificação enumerativa",
@@ -1242,7 +1261,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1112",
         "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1112"
-      }
+      },
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1254,9 +1274,9 @@
       "cdu"
     ],
     "localizador": "3.1.1 e 3.2.3: + e ::",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "95c859f00fde4f4e225eebbe6911eae254c3cfa0b2af600571e0bbfe409e4f1d",
-    "shaDepois": "fdeee447b9da3d7ba3e7b525810278d9c7d0dc500989cee4570a4c96f62e787c",
+    "shaDepois": "722d394c59bcf5bb97870f28ade73e443018c3b5a14d1438a803d3f3ebfe26e8",
     "patch": {
       "justificativa": "ERRADO. Na CDU, :: fixa a ordem dos componentes; + reúne assuntos por adição. Os dois sinais não são intercambiáveis. A distinção importante não é imaginar que :: cria uma nova hierarquia lógica universal, mas reconhecer que sua função impede a simples inversão prevista para uma relação reversível.",
       "gatilho": "mesma função semântica do sinal de adição (+)",
@@ -1264,7 +1284,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.1.1 e 3.2.3: + e :: — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Na CDU, :: fixa a ordem dos componentes, enquanto + expressa adição de assuntos.",
-      "item": "Na CDU, o sinal de dois pontos duplos (::) possui a mesma função semântica do sinal de adição (+), sendo empregado para unir dois conceitos independentes e indicar que o documento deve ser classificado em ambos os lugares com possibilidade de intercalação reversível."
+      "item": "Na CDU, o sinal de dois pontos duplos (::) possui a mesma função semântica do sinal de adição (+), sendo empregado para unir dois conceitos independentes e indicar que o documento deve ser classificado em ambos os lugares com possibilidade de intercalação reversível.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1277,9 +1298,9 @@
       "cad"
     ],
     "localizador": "1–2: classificação e notação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "741a1d8667ed1596d81db8457685fd27784bbf72d4a55b25a675741ea5897e11",
-    "shaDepois": "39a6741eddf3137c4f046d6d96434367d86e1d08bfa66f1ffe90ab6d3fe9ad6e",
+    "shaDepois": "01d1afaa9c5c1c40e9e403772425ef18e283ffa113c88ab850d50fee07558a43",
     "patch": {
       "justificativa": "CERTO. A CDU representa assuntos por uma notação de base decimal, utilizada na organização e recuperação de documentos. Essa base em algarismos arábicos é compatível com sinais e auxiliares: dizer que os códigos se fundamentam em números não equivale a afirmar que são puramente numéricos.",
       "gatilho": "código que se fundamenta nos números arábicos",
@@ -1298,7 +1319,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1115",
         "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1115"
-      }
+      },
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1311,9 +1333,9 @@
       "cad"
     ],
     "localizador": "cap. 1: revocação e precisão",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.3 segundo o assunto efetivo.",
     "shaAntes": "2fbaf7eedb4e061509cf25c12ab20566b5b4f4817d8831c1995d7bab4ad80570",
-    "shaDepois": "112a5653c4853aeffac1afeab4d960b7a83cf7de197d37d5a307abc2e0770a0c",
+    "shaDepois": "0b9db87824ba876f43ea558d0179e23947c5d97ad605e219f701f2bf17f9f73b",
     "patch": {
       "item": "Revocação e precisão são medidas complementares para avaliar a recuperação: a primeira considera a cobertura dos documentos relevantes da base, e a segunda, a proporção de relevantes entre os recuperados.",
       "justificativa": "CERTO. Revocação compara relevantes recuperados com todos os relevantes existentes na base; precisão compara relevantes recuperados com o total recuperado. As duas ajudam a avaliar uma estratégia de busca e a política de indexação. Não formam uma razão única nem são necessariamente inversas: ambas podem melhorar com melhor representação ou consulta.",
@@ -1332,7 +1354,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-289186",
         "declaracaoLegada": "Cebraspe / FUB / 2015 (Adaptada); identificador legado: TecConcursos-289186"
-      }
+      },
+      "submoduloId": "3.3"
     }
   },
   {
@@ -1345,9 +1368,9 @@
       "cad"
     ],
     "localizador": "cap. 2: ambiguidade e controle de vocabulário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.4 segundo o assunto efetivo.",
     "shaAntes": "aeb1d90c9f03ca85b399f46c51a3687d9c6de26ded9933edf291e648f292016f",
-    "shaDepois": "6cfc94dcaefefa50949ff1897642318a17b4c56b34b1d99e2772b3f643a7c1ca",
+    "shaDepois": "50f9a66fc969793c8b14aeb4051cfe2f727cb1b83a0070d0e52a7e115363adba",
     "patch": {
       "justificativa": "ERRADO. Diferentes termos que designam o mesmo conceito caracterizam sinonímia. Polissemia ocorre quando uma forma tem sentidos distintos relacionados; na homografia, formas gráficas iguais podem designar conceitos sem relação semântica. O erro do item é chamar sinonímia de polissemia. Compare manga (fruta) e manga (parte da roupa) para perceber a necessidade de desambiguação.",
       "gatilho": "diferentes termos representam um único conceito",
@@ -1366,7 +1389,8 @@
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-cad-1107",
         "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1107"
-      }
+      },
+      "submoduloId": "3.4"
     }
   },
   {
@@ -1378,9 +1402,9 @@
       "cdu"
     ],
     "localizador": "3.2.2: subagrupamento",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.2 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "58670cfa84b21571e7c1c964deac550fda9de71bf96760a060dc1699dfe44e4e",
-    "shaDepois": "8ed383a9807ac09c7634533f57de9ec69de45b2721c1acda0e38ab5296456891",
+    "shaDepois": "9330d34398623c89fe3d287c0061177a2f118ceab22b371d055dc604cb07a9c8",
     "patch": {
       "justificativa": "CERTO. Colchetes fazem uma combinação funcionar como unidade antes de sua relação com outro número ou auxiliar. Em [622+669](485), o auxiliar de lugar se aplica ao conjunto agrupado, não apenas ao último número. Isso é diferente dos parênteses da CDU, que têm funções auxiliares próprias.",
       "gatilho": "colchetes [ ]",
@@ -1388,7 +1412,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.2.2: subagrupamento — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Na CDU, os colchetes são apenas decoração e não modificam o alcance de relações ou auxiliares em uma expressão composta.",
-      "item": "Na CDU, o sinal de subagrupamento representado por colchetes [ ] tem por objetivo agrupar termos compostos com fins de ordenação ou clareza semântica, funcionando como parênteses matemáticos."
+      "item": "Na CDU, o sinal de subagrupamento representado por colchetes [ ] tem por objetivo agrupar termos compostos com fins de ordenação ou clareza semântica, funcionando como parênteses matemáticos.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -1512,9 +1537,9 @@
       "nbr6028"
     ],
     "localizador": "4.1.2 e 4.1.4",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.3 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "6e057d79b22ad1a37a463be44b8e85fd1f463c4be95afe24a005ed6ebc4b2e68",
-    "shaDepois": "e8f03eb99e23d1c10d563cef2ddd494ce68c2e9ee9f643e514e116aae66d5a4e",
+    "shaDepois": "6a6e900efd4da8b3ffa36f5b908fd2d0b6efe3b6cffe1dbdb9250ddcc5321a70",
     "patch": {
       "justificativa": "ERRADO. A NBR 6028:2021 não impõe a voz passiva. Ela determina frases concisas em parágrafo único e recomenda o verbo na terceira pessoa. O comentário anterior atribuía à edição 2021 uma obrigação de voz ativa e um número de seção que ela não contém. Distinga obrigação normativa, recomendação e orientação de edições anteriores.",
       "gatilho": "deve ser redigido utilizando-se o verbo na voz passiva",
@@ -1522,7 +1547,8 @@
       "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.2 e 4.1.4. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Segundo a NBR 6028:2021, convém usar o verbo na terceira pessoa; a norma não exige que o resumo seja redigido na voz passiva.",
-      "item": "O resumo deve ser redigido utilizando-se o verbo na voz passiva."
+      "item": "O resumo deve ser redigido utilizando-se o verbo na voz passiva.",
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1557,9 +1583,9 @@
       "cad"
     ],
     "localizador": "2.2: recensão; distinção da terminologia da edição 2003",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.3 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "415aa136197a817d99b0ce2bc8df930a3b448cee0f3a85e53ce8c2fa6816db40",
-    "shaDepois": "9c9336e9fe539ca5c84b6506abc09d64a734cfa8d52499ab77dc924644c678ef",
+    "shaDepois": "a625c277dbc0ebd8d677facaccf0c102c38bcf320209de354122813875b5a62c",
     "patch": {
       "item": "Segundo a ABNT NBR 6028:2021, recensão é uma análise crítica, descritiva e/ou comparativa, geralmente elaborada por especialista.",
       "justificativa": "CERTO. A edição 2021 define recensão como análise crítica, descritiva e/ou comparativa, geralmente elaborada por especialista. A definição não a limita a uma edição de livro. A redação anterior vinha de uma distinção histórica e não devia ser apresentada como definição atual da norma.",
@@ -1578,7 +1604,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-165458",
         "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165458"
-      }
+      },
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1679,9 +1706,9 @@
       "cad"
     ],
     "localizador": "cap. 9: avaliação de resumos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.3 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "357b451e17287a34c560d5ea6ea3a5ddf202f68b592859b8e0039b82db95d58b",
-    "shaDepois": "baa667abf3b129a7f25beac54581f935ee8582ee8dfecbcd85b9b09d18e3f58b",
+    "shaDepois": "86697541eeed390cf8914c77c695280331b79445431ce7b1326863652e4ff5df",
     "patch": {
       "justificativa": "CERTO. Um resumo deve ajudar o leitor a decidir se o documento atende à sua necessidade, sem distorcer métodos, resultados ou conclusões. Essa capacidade é a previsibilidade da relevância; a ausência de erros exige fidelidade ao original. Um texto fluente, mas que atribui resultado inexistente ao estudo, falha na avaliação.",
       "gatilho": "previsibilidade da relevância e a ausência de erros",
@@ -1700,7 +1727,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-185266",
         "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185266"
-      }
+      },
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1735,9 +1763,9 @@
       "cad"
     ],
     "localizador": "capítulos 1–2: indexação e produtos; CAD CESPE, item 958",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.3 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "8f2423e344ab300f6f29bd912f361f1645bd556b57a179bf4bdb3b1286232210",
-    "shaDepois": "abdbaa8007649b4d9356b12e6470861c66fc532dfa5f89fa193d188f49213f46",
+    "shaDepois": "0837a9f7ccbb051ee97022aa65bd34733b0461a56b21d55a121295b410f50cb1",
     "patch": {
       "justificativa": "CERTO. O índice de assuntos reúne entradas que representam os temas abordados e remetem às suas localizações. Em um livro, orçamento público pode apontar para páginas em que o assunto é tratado, mesmo sem ser título de capítulo. Isso difere do sumário, que acompanha a estrutura das seções, e do índice de autores, organizado por nomes.",
       "gatilho": "produto da indexação temática",
@@ -1756,7 +1784,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-165455",
         "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165455"
-      }
+      },
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1868,9 +1897,9 @@
       "nbr6028"
     ],
     "localizador": "2.4–2.6; 4.1.1",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.3 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "b94bef20842c2d3135fa161881c46938067ec73fb6d3ccadcf2815ca9e6a9500",
-    "shaDepois": "fcfbae04ea3880c24e1f96167176b113afe45aa4c615ef81b5a7fabcaa520d3e",
+    "shaDepois": "6aa629b5e8bf6e098ed6ff82c53dde006371915d3dc9260e5d753c55275ecdb7",
     "patch": {
       "justificativa": "ERRADO. Resumo apresenta os pontos relevantes do documento e deve representar fielmente seu conteúdo. O informativo inclui finalidade, metodologia, resultados e conclusões; o indicativo não precisa detalhar todos esses elementos. Avaliação crítica não autoriza inventar conteúdo nem substituir a exposição do autor por opinião do resumidor.",
       "gatilho": "desconsidera correspondência fidedigna",
@@ -1878,7 +1907,8 @@
       "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.4–2.6; 4.1.1. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "O resumo deve manter fidelidade ao documento, com o grau de detalhe adequado ao tipo de resumo.",
-      "item": "O resumo documental caracteriza-se como síntese panorâmica que desconsidera correspondência fidedigna com os argumentos centrais do texto original, priorizando a avaliação crítica do indexador."
+      "item": "O resumo documental caracteriza-se como síntese panorâmica que desconsidera correspondência fidedigna com os argumentos centrais do texto original, priorizando a avaliação crítica do indexador.",
+      "submoduloId": "8.4"
     }
   },
   {
@@ -1913,9 +1943,9 @@
       "cad"
     ],
     "localizador": "2.2–2.3: recensão e resenha",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.3 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "dff660fbeb4f8be24f6219299a5f1d4cb64ce7adf31b9c6934d928a1fcd21bcc",
-    "shaDepois": "222d4991a283fb58da8533486fcb31546b6fef9c247a658e8f71ad6eaa695091",
+    "shaDepois": "b0818ea4e959b52a6c5dfec6c53f83440cf3544ceddc6f0cda440a42502a7262",
     "patch": {
       "item": "Toda análise crítica feita por especialista recebe obrigatoriamente a denominação recensão na ABNT NBR 6028:2021, independentemente da natureza e da finalidade do texto.",
       "justificativa": "ERRADO. A norma distingue recensão e resenha por suas definições, sem estabelecer que qualquer texto crítico produzido por um especialista receba automaticamente o mesmo nome. A finalidade e a natureza do texto precisam ser consideradas. A edição 2021 também não limita a recensão a uma única edição de livro, como fazia uma formulação histórica.",
@@ -1934,7 +1964,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-185274",
         "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185274"
-      }
+      },
+      "submoduloId": "8.4"
     }
   },
   {
@@ -2071,9 +2102,9 @@
       "cad"
     ],
     "localizador": "capítulos 1–2: representação de assuntos",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 3.3 segundo o assunto efetivo.",
     "shaAntes": "4fa6c00418ab52afef4dc1da00b5600c3c1e9202a10199e9f3c811bb062499ba",
-    "shaDepois": "1541429df47fd79d73c2aa2cae886cfb86954aff13e32d688455d7c4e6c8807a",
+    "shaDepois": "0dbfd31e969271c9f3ba14f5dfc193c2b86972a004035ad4052e85a42392528d",
     "patch": {
       "justificativa": "ERRADO. A representação temática oferece acesso ao conteúdo e reúne documentos por assuntos. A descrição bibliográfica, com dados como título, edição e publicação, permite identificar e distinguir recursos. Pontos de acesso de assunto também podem ser controlados, portanto o erro não é supor que só a descrição tenha padronização; é atribuir à representação temática a função caracterizadora da descrição.",
       "gatilho": "individualização do documento",
@@ -2092,7 +2123,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-624214",
         "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624214"
-      }
+      },
+      "submoduloId": "3.3"
     }
   },
   {
@@ -2127,9 +2159,9 @@
       "cad"
     ],
     "localizador": "capítulos 1 e 9: avaliação de serviços e bases",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 3.3 segundo o assunto efetivo.",
     "shaAntes": "6c2f44fc707e588dd00a3694a19ab6ba228c3b1e6ad00339cd7220832c05cb96",
-    "shaDepois": "d58974602db11db4e786a813d08fd2360ad5f7f1ff0efb9ffd29a64d1d6a5f9b",
+    "shaDepois": "94550ee30888c351232b107def427f4d96e6eb2e1faa7d693946fc906a95771a",
     "patch": {
       "item": "Na avaliação de uma base de dados, cobertura e confiabilidade são aspectos relevantes; para avaliar a recuperação, a taxa de precisão é sempre igual à revocação.",
       "justificativa": "ERRADO. Cobertura, capacidade de recuperação e confiabilidade são aspectos pertinentes à avaliação. Entretanto, precisão e revocação têm denominadores diferentes e não se tornam iguais por pertencerem ao mesmo processo avaliativo. É preciso distinguir completude da base, qualidade dos dados e qualidade da resposta a uma consulta.",
@@ -2148,7 +2180,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-185269",
         "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185269"
-      }
+      },
+      "submoduloId": "3.3"
     }
   },
   {
@@ -2204,9 +2237,9 @@
       "lancaster"
     ],
     "localizador": "capítulos 2–3: análise orientada às necessidades",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 3.3 segundo o assunto efetivo.",
     "shaAntes": "3cd6eed5bfa5d8bd578b9cd8862b8e314d98fd9fd6a4785302929d1fbb1a6bf5",
-    "shaDepois": "f71993918dc06036be3cd5b7c1057c8f03817929acc7c19a42244665d519edaf",
+    "shaDepois": "f2578aec08b759079b1cbabb89d25dd9fb93ba09fcd3cafe9f96de32116453a5",
     "patch": {
       "justificativa": "CERTO. Conhecer a comunidade e acumular experiência ajuda a reconhecer partes relevantes do documento e selecionar conceitos úteis ao serviço. Isso pode agilizar a análise, mas não dispensa examinar o conteúdo nem garante resultados sem avaliação. O perfil do usuário orienta a leitura técnica; não autoriza atribuir temas inexistentes.",
       "gatilho": "conhecimento das demandas e necessidades de informação dos usuários",
@@ -2214,7 +2247,8 @@
       "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 2–3: análise orientada às necessidades. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "A experiência do indexador permite dispensar a análise do documento e atribuir assuntos apenas pelas preferências presumidas dos usuários.",
-      "item": "A prática do indexador, associada ao conhecimento das demandas e necessidades de informação dos usuários, é um procedimento utilizado para agilizar o trabalho de análise documentária."
+      "item": "A prática do indexador, associada ao conhecimento das demandas e necessidades de informação dos usuários, é um procedimento utilizado para agilizar o trabalho de análise documentária.",
+      "submoduloId": "3.3"
     }
   },
   {
@@ -2270,9 +2304,9 @@
       "cad"
     ],
     "localizador": "Módulo 5, CADE/2014, item 951; índice da publicação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "683c35c94990934ff7da7126cfa2574d38eb95902df3ff64da3aefc638e71afd",
-    "shaDepois": "3a7e2f5de15cdc465b71693aface7b17853e7d0f8f380e5f66bbbe96e001482b",
+    "shaDepois": "0ef061097c42fa85f6f746940277b268bd4d893fce69743805fa190c415c73a7",
     "patch": {
       "justificativa": "CERTO. A indexação da publicação não deve ignorar automaticamente conteúdo substantivo apenas por estar em notas ou elementos pós-textuais. Um conceito relevante desenvolvido em um apêndice também precisa ser localizável. Abranger o documento não significa criar entrada para toda palavra ou toda ocorrência sem importância.",
       "gatilho": "inclusive as notas, os apêndices e os anexos",
@@ -2280,7 +2314,8 @@
       "fonte": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada — Módulo 5, CADE/2014, item 951; índice da publicação. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "O índice deve ignorar assuntos desenvolvidos nos apêndices e anexos, mesmo quando são relevantes para o conteúdo da publicação.",
-      "item": "A cobertura do índice deve abranger todo o documento, inclusive as notas, os apêndices e os anexos."
+      "item": "A cobertura do índice deve abranger todo o documento, inclusive as notas, os apêndices e os anexos.",
+      "submoduloId": "8.4"
     }
   },
   {
@@ -2292,9 +2327,9 @@
       "cdu"
     ],
     "localizador": "1–4: classes e síntese",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 3.1 segundo o assunto efetivo.",
     "shaAntes": "650677f165efe9cfcb3532df0d5fa456ba23efd2eee30587805ef5afb762c69a",
-    "shaDepois": "a8e68d9ab530e54d00ba0ea5343ff67cc516ff39c9159a310ca67737b1ff975b",
+    "shaDepois": "8fd3aa0134e80e6d6739aec8274ee38d964af3394833adb7475dd3d05e13f312",
     "patch": {
       "justificativa": "ERRADO. A CDU dispõe de classes enumeradas e mecanismos de síntese que podem combinar elementos durante a representação. Portanto, não é um sistema sem classes prontas nem uma linguagem puramente pós-coordenada. A possibilidade de pesquisar partes de uma notação não altera automaticamente o momento em que ela foi composta.",
       "gatilho": "pós-coordenada pura",
@@ -2302,7 +2337,8 @@
       "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 1–4: classes e síntese — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
       "dataConferencia": "2026-10-30",
       "versao_correta": "A CDU combina classes enumeradas e mecanismos de síntese na representação dos assuntos.",
-      "item": "A linguagem documentária artificial da CDU é classificada como uma linguagem pós-coordenada pura, pois não prevê classes prontas ou tabelas enumerativas para indexação."
+      "item": "A linguagem documentária artificial da CDU é classificada como uma linguagem pós-coordenada pura, pois não prevê classes prontas ou tabelas enumerativas para indexação.",
+      "submoduloId": "3.1"
     }
   },
   {
@@ -2315,9 +2351,9 @@
       "cad"
     ],
     "localizador": "capítulos 2–3: análise documentária",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 3.3 segundo o assunto efetivo.",
     "shaAntes": "0259d0c46050987228cade1b1eae101b72cb349ccb4364c9eeef19475177a00f",
-    "shaDepois": "46b45f8d201b3ef1de8e61d83d5175daab8c28bc929125d97ceabe2c844e0b6a",
+    "shaDepois": "7b7f1c35418d98f0b8d5dc9a1dd0f929046d97925c8d1b417627086f07edb57d",
     "patch": {
       "justificativa": "ERRADO. O contexto do serviço, a experiência do indexador e as necessidades dos usuários influenciam a seleção de conceitos. A leitura documentária é orientada por uma tarefa profissional e não exclui fatores sociocognitivos. Essa orientação não justifica substituir o conteúdo do documento por expectativas sem evidência.",
       "gatilho": "não é relevante",
@@ -2336,7 +2372,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-228966",
         "declaracaoLegada": "Cebraspe / MPU / 2013 (Adaptada); identificador legado: TecConcursos-228966"
-      }
+      },
+      "submoduloId": "3.3"
     }
   },
   {
@@ -2348,9 +2385,9 @@
       "cad"
     ],
     "localizador": "Módulo 5, CADE/2014, item 953",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "bb05a00117a896b18b51ccde73b52ab2337b960b97e859029142a85ed7f49f72",
-    "shaDepois": "32ad0ae0b7a81f6be18d6d788d9e0b3c6246bd97f3bb319d7ada6a7a5ca937b4",
+    "shaDepois": "c17fd66427b5df932db5d04d9ea1b7da522c308be9d8cf78f161c67486c23ae7",
     "patch": {
       "justificativa": "CERTO. Um título como Índice de assuntos ou Índice onomástico informa qual tipo de entrada o leitor encontrará. A identificação específica facilita escolher o instrumento de acesso adequado. Isso não equivale a exigir que todos os índices sejam de assuntos: um índice de nomes tem outra abrangência e deve ser identificado como tal.",
       "gatilho": "indicação textual do índice deve ser específica",
@@ -2358,7 +2395,8 @@
       "fonte": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada — Módulo 5, CADE/2014, item 953. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Um índice de autores deve receber o título Índice de assuntos, pois todos os índices têm a mesma natureza.",
-      "item": "A indicação textual do índice deve ser específica, como, por exemplo, índice de assuntos ou índice onomástico."
+      "item": "A indicação textual do índice deve ser específica, como, por exemplo, índice de assuntos ou índice onomástico.",
+      "submoduloId": "8.4"
     }
   },
   {
@@ -2371,9 +2409,9 @@
       "cad"
     ],
     "localizador": "cap. 5: intra e interindexadores",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 3.3 segundo o assunto efetivo.",
     "shaAntes": "c6261139eeae6f8ea0446c78b66afa02a4033f40835b712796b8f40e943c28fc",
-    "shaDepois": "0976e11ac947ad35b67b117f281a359e870800de727db37bef4c520ca33630e3",
+    "shaDepois": "4547445ef8f920e5ea00a2226043da21dfbaec864f280ac065efff19ab33986c",
     "patch": {
       "justificativa": "ERRADO. Os prefixos foram invertidos. Intraindexador compara escolhas do mesmo profissional em momentos diferentes; interindexadores compara escolhas de profissionais distintos. Repetir um exercício logo após ver a resposta também não é uma avaliação independente da consistência em outro momento.",
       "gatilho": "intraindexador refere-se à concordância entre diferentes indexadores",
@@ -2392,7 +2430,8 @@
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-104031",
         "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104031"
-      }
+      },
+      "submoduloId": "3.3"
     }
   },
   {
@@ -2504,9 +2543,9 @@
       "cad"
     ],
     "localizador": "Módulo 5, CADE/2014, item 954; CAPES/2023, item 69",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 3.4 para 8.4 segundo o assunto efetivo.",
     "shaAntes": "7261774233b2f8bfa04ab2f3e8cc366576d6c7a6aa55dbb0aed81832f4b45c21",
-    "shaDepois": "bdbc45d631ba4903e96da2d05b51530c5505cf474cf2ffc1c6a778a0ab5fd742",
+    "shaDepois": "ef3c66315fdfd0405e2f04421e7216a326200484edce3187d8b75d7fe2bc701b",
     "patch": {
       "justificativa": "CERTO. Um índice pode empregar formas normalizadas, nomes desenvolvidos ou termos que não aparecem literalmente, desde que correspondam ao conteúdo e favoreçam o acesso. Desenvolver uma sigla ou reunir um pseudônimo ao nome autorizado não é inventar um assunto. A permissão de complementar acesso não autoriza acrescentar fatos falsos ao documento.",
       "gatilho": "informações não expressas",
@@ -2514,7 +2553,8 @@
       "fonte": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada — Módulo 5, CADE/2014, item 954; CAPES/2023, item 69. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "O índice pode inventar assuntos e atribuí-los ao documento mesmo quando não há conteúdo que os sustente.",
-      "item": "O índice pode complementar informações não expressas no documento."
+      "item": "O índice pode complementar informações não expressas no documento.",
+      "submoduloId": "8.4"
     }
   },
   {
