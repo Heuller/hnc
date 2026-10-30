@@ -9,16 +9,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A Tabela 1 da CDD (Subdivisões Padrão) tem a propriedade de poder ser aplicada a qualquer número das tabelas principais, a menos que haja instrução expressa em contrário no esquema.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A Tabela 1 (Standard Subdivisions) é a única que possui aplicação universal permissiva, podendo ser adicionada a qualquer número das tabelas principais para indicar forma ou abordagem (ex.: dicionários, periódicos, métodos de pesquisa), salvo instrução proibitiva expressa.",
-    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
+    "justificativa": "CERTO. A Tabela 1 fornece subdivisões padrão, como forma e tratamento do assunto, e dispensa uma ordem de adição em cada número. Isso não autoriza combinação irrestrita: prevalecem as instruções do esquema e, em regra, a obra deve abranger ou aproximar-se do conjunto do assunto da classe. Reconheça a permissão geral e depois confira suas condições.",
+    "armadilhaBanca": "A permissão geral da Tabela 1 não se confunde com ausência de regras de construção.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "ser aplicada a qualquer número das tabelas",
-    "versao_errada": "A Tabela 1 da CDD (Subdivisões Padrão) tem a propriedade de poder indevidamente ser aplicada a qualquer número das tabelas principais, a menos que haja instrução expressa em contrário no esquema."
+    "gatilho": "a menos que haja instrução expressa em contrário",
+    "versao_errada": "Na CDD, as subdivisões da Tabela 1 nunca podem ser acrescentadas sem uma instrução de adição repetida em cada número da tabela principal.",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 7.4 e 8.3–8.7 — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-2",
@@ -28,16 +30,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A Classificação Decimal de Dewey (CDD) estrutura o conhecimento humano em dez classes principais (000 a 900) e adota o princípio da notação decimal pura composta exclusivamente por algarismos arábicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A CDD emprega notação decimal pura (algarismos arábicos de 0 a 9) e estrutura hierárquica por subordinação lógica (Dewey, 23ª ed.). Quanto mais específica a matéria, mais dígitos são adicionados após o ponto decimal. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. As dez classes principais são representadas por 000, 100, 200 e assim por diante até 900. A notação básica é numérica, em algarismos arábicos; os dígitos adicionais expressam subdivisões. O ponto decimal é um separador da notação, não uma letra que a tornaria alfanumérica. Compare com a combinação de números e sinais de síntese da CDU.",
+    "armadilhaBanca": "Distinguir notação numérica da CDD e recursos de composição da CDU.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "classes principais (000 a 900) e adota",
-    "versao_errada": "A Classificação Decimal de Dewey (CDD) estrutura o conhecimento humano em dez indevidamente classes principais (000 a 900) e adota o princípio da notação decimal pura composta exclusivamente por algarismos arábicos."
+    "gatilho": "dez classes principais (000 a 900)",
+    "versao_errada": "A CDD divide o conhecimento em dez classes, mas exige letras alfabéticas na notação de todas as suas classes principais.",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 4.1–4.20: classes, notação e hierarquia — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-3",
@@ -45,22 +49,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Quanto à Classificação Decimal de Dewey (CDD), julgue os itens que se seguem.",
-    "item": "A última edição da CDD apresenta sete tabelas auxiliares e, à exceção da primeira, que possui instruções em cada divisão de assunto, todas as notações presentes nas demais auxiliares podem ser adicionadas a qualquer notação da tabela principal.",
+    "item": "Na CDD 23, existem sete tabelas auxiliares; com exceção da Tabela 1, todas podem ser acrescentadas livremente a qualquer número da tabela principal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Duplo erro na assertiva: 1) A CDD (em sua 23ª edição) possui 6 tabelas auxiliares (a Tabela 7 foi descontinuada); 2) As notações das tabelas auxiliares (com exceção parcial de subdivisões da Tabela 1 sob regras estritas) NÃO podem ser adicionadas livremente a qualquer classe principal, exigindo instrução explícita de adição (\"add from...\") no esquema básico.",
-    "armadilhaBanca": "CATEGÓRICO ABSOLUTO: Supor que tabelas auxiliares da CDD podem ser adicionadas livremente e sem instrução prévia da tabela principal.",
+    "justificativa": "ERRADO. A CDD 23 possui seis tabelas numeradas, T1 a T6. A regra geral de emprego da Tabela 1 também foi invertida: as demais tabelas dependem das instruções de adição pertinentes. A assertiva reúne dois erros independentes; corrigir apenas a quantidade de tabelas não torna o restante verdadeiro.",
+    "armadilhaBanca": "Há erro de quantidade e inversão das condições de uso, não apenas uma palavra inadequada.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "TRE-BA/2010",
       "ano": 2010,
       "orgao": "2010",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1204"
+      "origemAcervoLocal": "cespe-cad-1204",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1204"
     },
-    "versao_correta": "A 23ª edição da CDD apresenta seis tabelas auxiliares (T1 a T6), e as notações das tabelas auxiliares T2 a T6 só podem ser adicionadas a uma notação da tabela principal quando houver instrução expressa no esquema (\"adicionar de...\")."
+    "versao_correta": "A CDD 23 possui seis tabelas auxiliares; a Tabela 1 tem permissão geral de adição, ressalvadas as restrições, e as demais são utilizadas conforme as instruções do sistema.",
+    "gatilho": "sete tabelas auxiliares",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 7.4: T1–T6; 8.6 — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-4",
@@ -70,15 +78,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A CDD adota o princípio de classificação facetada pura criado por Ranganathan, prescindindo de esquemas pré-coordenados e tabelas enumerativas para compor seus números de classe.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Classificação Decimal de Dewey (CDD) é historicamente uma classificação enumerativa e hierárquica baseada em classes preconcebidas e pré-coordenadas. A classificação facetada pura (analítico-sintética) foi desenvolvida por S. R. Ranganathan em sua Colon Classification, na qual os assuntos são construídos livremente pela combinação de facetas fundamentais (PMEST).",
-    "armadilhaBanca": "INVERSÃO DE MODELO TEÓRICO: Atribuição do modelo facetado puro de Ranganathan à estrutura enumerativa da CDD de Melvil Dewey.",
+    "justificativa": "ERRADO. A CDD tem base enumerativa e hierárquica, com mecanismos de síntese para construir números. Ela não prescinde de tabelas nem se transforma por isso na classificação facetada de Ranganathan. A presença de combinação de elementos em um sistema não elimina suas classes enumeradas.",
+    "armadilhaBanca": "Não transformar a presença de síntese em classificação facetada pura.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "A CDD é uma classificação predominantemente enumerativa e hierárquica pré-coordenada (com elementos sintéticos de tabelas auxiliares), ao passo que a classificação facetada pura é o modelo analítico-sintético formulado por Ranganathan (Colon Classification)."
+    "versao_correta": "A CDD combina uma base enumerativa e hierárquica com mecanismos de síntese previstos nas tabelas e instruções.",
+    "gatilho": "facetada pura",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 4 e 8: estrutura e síntese — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-5",
@@ -88,15 +99,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "O princípio mnemônico na CDD assegura que uma notação geográfica da Tabela 2 possa ser apensada diretamente a qualquer classe principal, sem necessidade de autorização expressa ou regra de derivação prévia no esquema básico.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na metodologia da CDD, a aplicação da Tabela 2 (Áreas Geográficas, Períodos Históricos e Biografias) é rigorosamente condicionada. Um número geográfico nunca pode ser apensado de forma direta ou indiscriminada sem que haja uma instrução explícita de \"adicionar de...\" (add from Table 2) no número-base da tabela principal.",
-    "armadilhaBanca": "PERMISSIVIDADE NOTACIONAL INEXISTENTE: Afirmar a dispensa de instrução expressa para o apensamento da Tabela 2 na CDD.",
+    "justificativa": "ERRADO. Mnemônica ajuda a reconhecer padrões, mas não é uma autorização de adição. A localização pode ser construída pela subdivisão padrão -09 com elementos da Tabela 2, ou por instrução direta onde prevista. Assim, é incorreto apensar um número geográfico diretamente a qualquer classe; também seria incorreto exigir que toda aplicação da Tabela 2 tenha uma nota de adição direta repetida no número-base.",
+    "armadilhaBanca": "Distinguir adição direta e construção mediada pela Tabela 1.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDD, uma notação geográfica da Tabela 2 só pode ser adicionada a uma notação da tabela principal quando houver instrução expressa de adição autorizada no esquema (\"adicionar de...\")."
+    "versao_correta": "A Tabela 2 pode participar da construção de números conforme as instruções, inclusive por intermédio da subdivisão padrão -09, respeitadas as condições de uso.",
+    "gatilho": "sem necessidade de autorização expressa ou regra de derivação prévia",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 8.9–8.12: adição de áreas geográficas — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-6",
@@ -106,20 +120,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação à Classificação Decimal Universal (CDU), julgue os itens subsequentes.",
     "item": "A CDU, utilizada em bibliotecas especializadas por abranger todos os ramos do conhecimento, foi proposta pelos bibliotecários Paul Otlet, Henri La Fontaine e Melvil Dewey.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A CDU foi criada exclusivamente por Paul Otlet e Henri La Fontaine no âmbito do Instituto Internacional de Bibliografia (IIB), com o objetivo de compilar o Repertório Bibliográfico Universal. Melvil Dewey foi o criador da CDD (1876), da qual a CDU se originou como expansão, mas Dewey não participou da criação ou proposição da CDU.",
-    "armadilhaBanca": "INSERÇÃO INDEVIDA DE AUTOR: Incluir Melvil Dewey entre os proponentes da CDU.",
+    "justificativa": "ERRADO. Otlet e La Fontaine desenvolveram a CDU a partir da CDD, com autorização para ampliar o esquema. Dewey criou a classificação que serviu de base, mas isso não o torna um terceiro proponente da CDU. Separe autoria do sistema derivado e origem de sua estrutura.",
+    "armadilhaBanca": "A influência de uma classificação não equivale à coautoria de outra.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "CNJ/2013",
       "ano": 2013,
       "orgao": "2013",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1118"
+      "origemAcervoLocal": "cespe-cad-1118",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1118"
     },
-    "versao_correta": "A Classificação Decimal Universal (CDU) foi concebida e desenvolvida pelos juristas e bibliógrafos belgas Paul Otlet e Henri La Fontaine no final do século XIX, adaptando e expandindo a Classificação Decimal de Melvil Dewey (CDD)."
+    "versao_correta": "A CDU foi desenvolvida por Paul Otlet e Henri La Fontaine a partir da CDD de Melvil Dewey.",
+    "gatilho": "e Melvil Dewey",
+    "fonte": "CDU — edição do acervo, Parte 1 — introdução: origem e desenvolvimento da CDU. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-7",
@@ -127,21 +145,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
-    "item": "Na CDD, Melvil Dewey dividiu o conhecimento em nove classes e, por julgar importante ter uma classe na qual pudessem ser inseridas as obras que tratam de todos os assuntos, como encicl enciclopédias e dicionários, ele acrescentou uma décima categoria.",
+    "item": "Na CDD, nove classes principais correspondem às classes 100 a 900, e a classe 000 acomoda, entre outros assuntos, obras gerais que abrangem várias áreas, como enciclopédias gerais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Ao conceber a Classificação Decimal de Dewey (CDD) em 1876, Melvil Dewey estruturou inicialmente o conhecimento humano em nove classes principais disciplinadas (100 a 900). Reconhecendo, contudo, a necessidade epistemológica de acomodar obras de caráter enciclopédico, polimatas, bibliografias universais e dicionários que abarcam múltiplos campos do saber simultaneamente, Dewey instituiu a classe 000 (Generalidades / Ciência da Computação, Informação e Obras Gerais) como a décima categoria do sistema.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
+    "justificativa": "CERTO. A classe 000 recebe obras gerais não restritas a uma disciplina, além de assuntos específicos nela previstos. Uma enciclopédia geral pode ser classificada em 000; uma enciclopédia de medicina permanece na disciplina correspondente, com a subdivisão cabível. O tipo de obra, isoladamente, não manda todos os dicionários e enciclopédias para 000.",
+    "armadilhaBanca": "Distinguir obras gerais e obras de referência especializadas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "DPU/2016",
       "ano": 2016,
       "orgao": "2016",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1213"
-    }
+      "origemAcervoLocal": "cespe-cad-1213",
+      "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-1213"
+    },
+    "gatilho": "obras gerais que abrangem várias áreas",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 4.2–4.3: classe 000 e dez classes principais — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Na CDD, toda enciclopédia de assunto específico deve ser classificada em 000, independentemente de sua disciplina."
   },
   {
     "id": "m3-q-8",
@@ -149,22 +172,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
-    "item": "Na CDD, entre as tabelas auxiliares comuns, a relação simples ( : ) liga dois oumais números e indica relação mútua; as relações A:B e B:A têm o mesmo valor.",
+    "item": "Na CDD, entre as tabelas auxiliares comuns, a relação simples ( : ) liga dois ou mais números e indica relação mútua; as relações A:B e B:A têm o mesmo valor.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O sinal de dois pontos simples ( : ) como operador de relação mútua e reversível é um símbolo exclusivo da Classificação Decimal Universal (CDU). A Classificação Decimal de Dewey (CDD) utiliza notação estritamente numérica arábica e não emprega o sinal de dois pontos em suas tabelas auxiliares.",
-    "armadilhaBanca": "MISTURA DE SISTEMAS DE CLASSIFICAÇÃO: Atribuir a sintaxe de sinais e operadores relacionais da CDU à CDD.",
+    "justificativa": "ERRADO. O operador de relação simples A:B pertence à CDU. Ele relaciona assuntos e admite inversão quando a relação é reversível; na CDU, :: é que fixa a ordem. A CDD constrói números pelas próprias instruções, sem adotar esse operador de dois-pontos. O erro está na atribuição ao sistema errado.",
+    "armadilhaBanca": "A descrição de um sinal pode estar correta e ser atribuída ao sistema errado.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "DPU/2016",
       "ano": 2016,
       "orgao": "2016",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1209"
+      "origemAcervoLocal": "cespe-cad-1209",
+      "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-1209"
     },
-    "versao_correta": "Na Classificação Decimal Universal (CDU) — e não na CDD —, o sinal de relação simples ( : ) liga dois ou mais números para indicar relação de assunto reversível e mútua entre conceitos (A:B e B:A têm o mesmo valor)."
+    "versao_correta": "Na CDU, o sinal : representa uma relação simples que admite inversão entre os números relacionados.",
+    "gatilho": "Na CDD",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.2.1: relação simples — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-9",
@@ -174,15 +201,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na CDD, a representação da matéria Direito Processual Penal é alocada originalmente na classe principal 100, em virtude de sua fundamentação ético-filosófica.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na estrutura decimal de Melvil Dewey, o Direito (subclasse 340) e seus ramos processuais situam-se na classe 300 (Ciências Sociais). A classe 100 é reservada exclusivamente para Filosofia, Psicologia e Lógica.",
-    "armadilhaBanca": "DESLOCAMENTO DE CLASSE PRINCIPAL: Alocação equivocada de disciplina jurídica fundamental na classe 100.",
+    "justificativa": "ERRADO. Na CDD, Direito se encontra em 340, dentro de 300, Ciências sociais. O fundamento filosófico de uma disciplina não autoriza transferir suas obras técnicas para 100. Uma obra sobre processo penal deve ser examinada no ramo jurídico pertinente, conforme a edição e as instruções, sem inferir um número específico apenas pelo nome.",
+    "armadilhaBanca": "Não confundir fundamento filosófico de uma disciplina com sua localização classificatória.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDD, a matéria Direito e todas as suas ramificações (incluindo Direito Processual Penal) são alocadas na classe principal 300 (Ciências Sociais), na divisão 340 (Direito), pertencendo a classe 100 à Filosofia e Psicologia."
+    "versao_correta": "Na CDD, o Direito integra 340, dentro da classe 300, e não a classe principal 100.",
+    "gatilho": "classe principal 100",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — classes principais e divisão 340 — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-10",
@@ -192,15 +222,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Ao classificar uma obra pela CDD, havendo dúvida entre alocar o documento no assunto geral ou na aplicação específica, a regra de ouro estabelece a preferência pelo assunto geral para garantir a recuperação ampla.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O princípio reitor da classificação na CDD é o da especificidade: deve-se escolher a classe mais específica possível que cubra o conteúdo da obra. Ademais, quando um tema interdisciplinar trata da aplicação de um princípio científico em uma área técnica concreta, prevalece a classificação na disciplina aplicada, e não no assunto geral abstrato.",
-    "armadilhaBanca": "INVERSÃO DA REGRA DE ESPECIFICIDADE: Proclamar falsa preferência pelo assunto genérico sobre a aplicação especializada.",
+    "justificativa": "ERRADO. Uma obra deve ser classificada pelo conteúdo e pela disciplina tratados, tão especificamente quanto o esquema e suas instruções permitirem. Na regra de aplicação, o estudo da influência ou aplicação de um assunto sobre outro é classificado com o assunto que recebe essa aplicação, observadas as exceções. Não existe uma regra de ouro que mande preferir sempre o mais geral.",
+    "armadilhaBanca": "O alcance amplo de recuperação não autoriza ignorar a especificidade classificatória.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Ao classificar uma obra pela CDD, a regra geral de especificidade determina que o documento deve ser classificado no número mais específico que abranja o assunto tratado, e, havendo aplicação de uma disciplina geral em outra específica, deve-se preferir a disciplina específica/aplicada."
+    "versao_correta": "A classificação deve representar o conteúdo da obra com a especificidade permitida e seguir as instruções da disciplina e da regra de aplicação.",
+    "gatilho": "preferência pelo assunto geral",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 5: classificação da obra e regra de aplicação — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-11",
@@ -208,22 +241,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
-    "item": "A classificação decimal de direito (CDDir) está em sua quarta edição, mas surgiu nacionalmente em 1948, no Ministério da Fazenda, e já era utilizada em outros países.",
+    "item": "A CDDir, desenvolvida no Brasil por Dóris de Queiroz Carvalho a partir da CDD, já era um sistema estrangeiro em uso antes dessa adaptação brasileira.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A CDDir (Classificação Decimal de Direito) foi idealizada e desenvolvida originalmente no Brasil pela bibliotecária Doris de Queiroz Carvalho em 1948, no Ministério da Fazenda. Trata-se de uma elaboração genuinamente brasileira para organizar a literatura jurídica pátria, não existindo uso prévio em outros países.",
-    "armadilhaBanca": "ORIGEM HISTÓRICA ESTRANGEIRA FALSA: Afirmar que a CDDir brasileira já era empregada em outros países antes de seu desenvolvimento no Brasil.",
+    "justificativa": "ERRADO. A CDDir é a adaptação brasileira de Dóris de Queiroz Carvalho para detalhar Direito a partir da CDD. O desenvolvimento no Ministério da Fazenda não significa que a CDDir já fosse um sistema estrangeiro utilizado antes da adaptação. Não confunda a circulação internacional da CDD com a origem da CDDir.",
+    "armadilhaBanca": "Distinguir sistema de origem e adaptação nacional.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "DPU/2016",
       "ano": 2016,
       "orgao": "2016",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1210"
+      "origemAcervoLocal": "cespe-cad-1210",
+      "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-1210"
     },
-    "versao_correta": "A Classificação Decimal de Direito (CDDir) foi criada no Brasil por Doris de Queiroz Carvalho em 1948, especificamente para a Biblioteca do Ministério da Fazenda, constituindo desenvolvimento pioneiro nacional para o ramo jurídico brasileiro."
+    "versao_correta": "A CDDir foi desenvolvida no Brasil por Dóris de Queiroz Carvalho como adaptação da CDD para detalhar a literatura jurídica.",
+    "gatilho": "já era um sistema estrangeiro",
+    "fonte": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI — Sobre; autoria e adaptação brasileira — https://adm.senado.leg.br/cddir/vocab/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-12",
@@ -233,15 +270,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na CDD 23ª edição, a Tabela 2 é dedicada à divisão de subdivisões para artes e literaturas individuais, enquanto a Tabela 3 destina-se a áreas geográficas, períodos históricos e biografias.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Houve inversão deliberada entre as tabelas auxiliares da CDD: Tabela 1 = Subdivisões Padrão; Tabela 2 = Áreas Geográficas, Períodos Históricos, Biografias; Tabela 3 = Subdivisões para as Artes, para Literaturas Individuais e para Formas Literárias Específicas.",
-    "armadilhaBanca": "INVERSÃO DE TABELAS AUXILIARES DA CDD: Troca das funções entre a Tabela 2 (Geográfica) e a Tabela 3 (Literatura).",
+    "justificativa": "ERRADO. As funções foram trocadas: T2 contém áreas geográficas, períodos históricos e biografia; T3 contém subdivisões para artes, literaturas individuais e formas literárias específicas. Não basta reconhecer o assunto da tabela: é preciso associá-lo ao número correto e às instruções de aplicação.",
+    "armadilhaBanca": "Inversão entre a numeração e a finalidade das tabelas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDD (23ª edição), a Tabela 2 é dedicada às Áreas Geográficas, Períodos Históricos e Biografias, enquanto a Tabela 3 é destinada às Subdivisões para Artes e Literaturas Individuais."
+    "versao_correta": "Na CDD 23, T2 corresponde a áreas geográficas, períodos históricos e biografia; T3, às subdivisões para artes e literaturas.",
+    "gatilho": "Tabela 2 é dedicada à divisão de subdivisões para artes",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 7.4: relação das tabelas — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-13",
@@ -249,21 +289,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Classificar é ordenar, organizar e reunir segundo características comuns. Quanto à",
-    "item": "A Classificação Decimal de Direito possui uma tabela de divisão de países baseada nas classificações de 930 a 990 CDD.",
+    "item": "Na CDDir mantida pelo Senado Federal, entradas como 341.609 e 342.609 orientam a divisão geográfica segundo 930–999.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"tabela de divisão de países baseada nas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A CDDir utiliza uma divisão geográfica derivada da sequência histórica e geográfica da CDD. No vocabulário mantido pelo Senado, entradas como 341.609 e 342.609 remetem à divisão como 930–999. Isso é uma regra própria de construção da CDDir, não uma autorização para copiar qualquer número atual da Tabela 2 da CDD.",
+    "armadilhaBanca": "Distinguir adaptação própria da CDDir e simples transposição de outra tabela.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "ANATEL/2009",
       "ano": 2009,
       "orgao": "2009",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1199"
-    }
+      "origemAcervoLocal": "cespe-cad-1199",
+      "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-1199"
+    },
+    "gatilho": "divisão geográfica segundo 930–999",
+    "fonte": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI — entradas 341.609 e 342.609: divisão geográfica — https://adm.senado.leg.br/cddir/vocab/",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Na CDDir, a divisão geográfica deve ser construída exclusivamente pela cópia livre de qualquer auxiliar da Tabela 2 da CDD, sem observar as instruções da CDDir."
   },
   {
     "id": "m3-q-14",
@@ -273,16 +318,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na CDD, a classe principal 300 é reservada para as Ciências Sociais, agrupando áreas como Sociologia, Estatística, Ciência Política, Economia, Direito e Administração Pública.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A classe 300 abriga as Ciências Sociais na CDD: 310 (Estatística), 320 (Ciência Política), 330 (Economia), 340 (Direito), 350 (Administração Pública), entre outras. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A classe 300 reúne as ciências sociais. Nela se encontram 310, estatística geral, 320, ciência política, 330, economia, 340, direito, e 350, administração pública e ciência militar. Uma disciplina poder usar métodos estatísticos não desloca toda sua literatura para 310; o contexto e o assunto tratado continuam essenciais.",
+    "armadilhaBanca": "Reconhecer a classe e evitar confundir método utilizado com disciplina da obra.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "as Ciências Sociais, agrupando áreas como Sociologia",
-    "versao_errada": "Na CDD, a classe principal 300 é reservada para indevidamente as ciências sociais, agrupando áreas como sociologia, Estatística, Ciência Política, Economia, Direito e Administração Pública."
+    "gatilho": "Ciências Sociais",
+    "versao_errada": "Na CDD, Direito e Administração Pública pertencem à classe principal 500, ao lado das ciências naturais.",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — classes 300–399 — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-15",
@@ -292,15 +339,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na CDD, a regra do zero determina que notações que contenham o dígito zero em suas subdivisões possuem precedência analítica e preferência de escolha obrigatória sobre subdivisões iniciadas por dígitos de 1 a 9 ao classificar um assunto interdisciplinar.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A clássica Regra do Zero (Rule of Zero) da CDD estabelece que, ao escolher entre duas opções de subdivisão para um assunto, deve-se evitar aspectos gerais expressos por zero se houver subdivisões específicas de 1 a 9 disponíveis. A regra determina preferência pelas subdivisões de 1 a 9 sobre as iniciadas por 0.",
-    "armadilhaBanca": "INVERSÃO DA REGRA DO ZERO: Atribuir prioridade ao dígito zero sobre os dígitos de especialização temática (1 a 9).",
+    "justificativa": "ERRADO. A regra do zero orienta evitar uma subdivisão com zero quando há escolha entre ela e uma subdivisão de 1 a 9 apropriada ao assunto, respeitadas as instruções. O enunciado inverte essa preferência. Isso não significa apagar zeros da notação nem dispensar classes gerais quando elas forem as adequadas.",
+    "armadilhaBanca": "Inversão da preferência, não proibição absoluta do algarismo zero.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDD, a \"Regra do Zero\" (Rule of Zero) determina que subdivisões iniciadas pelos dígitos 1 a 9 têm preferência de alocação sobre subdivisões iniciadas por 0, visto que 0 expressa aspectos gerais ou de forma."
+    "versao_correta": "Na escolha entre subdivisões apropriadas, a regra do zero orienta preferir 1 a 9 às iniciadas por zero, respeitadas as instruções.",
+    "gatilho": "preferência de escolha obrigatória",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 5.10(E): rule of zero — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-16",
@@ -310,15 +360,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Conforme a metodologia da CDD 23ª edição, as notações das Tabelas Auxiliares (T1 a T6) podem ser utilizadas de forma isolada e autônoma na classificação de documentos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As tabelas auxiliares da CDD (T1 a T6) são de natureza estritamente dependente. Seus números são fragmentos sintéticos de apoio que não têm validade como notação de chamada se utilizados de forma autônoma e desprovidos do número-base da tabela principal.",
-    "armadilhaBanca": "CATEGÓRICO ABSOLUTO: Afirmar a viabilidade de uso autônomo/isolado das tabelas auxiliares da CDD.",
+    "justificativa": "ERRADO. Os números das tabelas auxiliares são elementos para construir a notação de classe; não são usados sozinhos como número classificatório de uma obra. O número 05 da Tabela 1, por exemplo, expressa uma subdivisão padrão, e precisa de um número-base e das condições de adição pertinentes.",
+    "armadilhaBanca": "Não confundir componente de síntese e número completo.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Conforme a metodologia da CDD, as notações das Tabelas Auxiliares (T1 a T6) nunca podem ser utilizadas de forma isolada e autônoma, devendo obrigatoriamente ser agregadas a um número-base da tabela principal."
+    "versao_correta": "Na CDD, as notações das tabelas auxiliares integram a construção do número de classe e não são usadas isoladamente.",
+    "gatilho": "isolada e autônoma",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 7.4: table numbers are never used alone — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-17",
@@ -326,21 +379,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Quanto à Classificação Decimal de Dewey (CDD), julgue os itens que se seguem.",
-    "item": "A publicação de diversas edições da CDD ocasionou uma significativa mudança em sua estrutura, sendo que a atual em quatro volumes foi publicada pela primeira vez na vigésima edição, mas que difere quanto à organização interna na edição mais recente.",
+    "item": "A edição impressa da CDD 23 é organizada em quatro volumes, que abrangem introdução e tabelas, esquemas e índice relativo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"atual em quatro volumes foi publicada pela\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A edição impressa DDC 23 organiza o conjunto em quatro volumes, incluindo introdução e tabelas, os esquemas e o índice relativo. Volume físico e tabela auxiliar são unidades diferentes: quatro volumes não significam quatro tabelas. A referência foi fixada na edição 23 para evitar que a expressão edição atual varie com o tempo.",
+    "armadilhaBanca": "Separar organização física da publicação e estrutura técnica do sistema.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "TRE-BA/2010",
       "ano": 2010,
       "orgao": "2010",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1203"
-    }
+      "origemAcervoLocal": "cespe-cad-1203",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1203"
+    },
+    "gatilho": "quatro volumes",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 6: organização da edição impressa — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "A edição impressa da CDD 23 tem quatro volumes e, por isso, somente quatro tabelas auxiliares."
   },
   {
     "id": "m3-q-18",
@@ -350,15 +408,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A CDD 23ª edição transferiu integralmente o estudo de Ciência da Computação da classe 000 para a classe 500, a fim de unificar o tema com a Matemática Pura.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Ciência da Computação, programas de computador e processamento de dados localizam-se na classe principal 000 (Generalidades e Ciência da Computação), sob os números 004 a 006. A classe 500 abrange Ciências Naturais e Matemática Pura.",
-    "armadilhaBanca": "FALSA MIGRAÇÃO DE CLASSE: Declarar que a Ciência da Computação foi transferida para a classe 500 na CDD.",
+    "justificativa": "ERRADO. Na CDD 23, 004–006 permanecem na classe 000 e abrangem computação e processamento de dados. A presença de fundamentos matemáticos na computação não prova que toda a disciplina tenha migrado para 500. É preciso consultar a tabela da edição, e não deduzir a classe por afinidade.",
+    "armadilhaBanca": "Afinidade científica não comprova transferência de classe.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDD (23ª edição), a Ciência da Computação está firmemente consolidada na classe 000 (subclasses 004 a 006 — Ciência da computação, processamento de dados e inteligência artificial), permanecendo a classe 500 para Ciências Naturais e Matemática."
+    "versao_correta": "Na CDD 23, a computação permanece representada em 004–006, dentro da classe 000.",
+    "gatilho": "transferiu integralmente",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 4: classe 000 e divisões 004–006 — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-19",
@@ -366,21 +427,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
-    "item": "Na atual classificação decimal de direito (CDDir), o direito do trabalho foi transferido para a cat categoria de direito privado, utilizando-se o número 342.6. O número 341.6 foi utilizado para o direito previdenciário.",
+    "item": "Na CDDir mantida pelo Senado Federal, Direito do trabalho corresponde a 342.6, e Direito previdenciário/Seguridade social corresponde a 341.6.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na Classificação Decimal de Direito (CDDir), desenvolvida pela bibliotecária brasileira Doris de Queiroz Carvalho e amplamente adotada em bibliotecas jurídicas como a do STF, STJ e Congresso Nacional, a evolução legislativa motivou a realocação sistemática do Direito do Trabalho: este foi transferido da esfera do direito público para o Direito Privado sob a notação 342.6, ao passo que o Direito Previdenciário consolidou-se sob a notação 341.6.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
+    "justificativa": "CERTO. A CDDir registra Direito do trabalho em 342.6 e Direito previdenciário/Seguridade social em 341.6. Esses números devem ser lidos dentro da CDDir: 342 é Direito privado e 341 é Direito público. Não transporte os significados de 341 e 342 da CDD para a adaptação de Dóris.",
+    "armadilhaBanca": "Troca entre ramos jurídicos e entre esquemas de classificação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "DPU/2016",
       "ano": 2016,
       "orgao": "2016",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1211"
-    }
+      "origemAcervoLocal": "cespe-cad-1211",
+      "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-1211"
+    },
+    "gatilho": "342.6",
+    "fonte": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI — entradas 342.6 e 341.6 — https://adm.senado.leg.br/cddir/vocab/",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Na CDDir, 342.6 corresponde ao Direito previdenciário, enquanto 341.6 representa o Direito do trabalho."
   },
   {
     "id": "m3-q-20",
@@ -390,16 +456,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A Tabela 5 da CDD é empregada para expressar grupos étnicos, raciais e nacionais quando o documento aborda determinado tema sob a perspectiva de uma comunidade específica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A Tabela 5 (Ethnic and National Groups) é utilizada exatamente para qualificar o assunto com a notação do grupo étnico ou nacional enfocado (ex.: negros, indígenas, imigrantes italianos). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A Tabela 5 reúne grupos étnicos e nacionais, para emprego conforme as instruções de construção. A perspectiva de um grupo não se confunde com sua língua, tratada em T6, nem com o local geográfico de T2. Por exemplo, estudar uma comunidade nacional fora de seu país exige distinguir grupo, lugar e língua.",
+    "armadilhaBanca": "Não confundir grupo nacional, língua e localização geográfica.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "étnicos, raciais e nacionais quando o documento",
-    "versao_errada": "A Tabela 5 da CDD é empregada para expressar grupos indevidamente étnicos, raciais e nacionais quando o documento aborda determinado tema sob a perspectiva de uma comunidade específica."
+    "gatilho": "grupos étnicos, raciais e nacionais",
+    "versao_errada": "Na CDD 23, a Tabela 5 é a tabela de línguas, e a Tabela 6 é a de grupos étnicos e nacionais.",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 7.4: Table 5 — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-21",
@@ -407,22 +475,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Com relação à classificação decimal universal (CDU), julgue os itens a seguir.",
-    "item": "Diferentemente da notação da classificação decimal de Dewey, a da CDU utiliza números dec decimais puros.",
+    "item": "Diferentemente da notação da classificação decimal de Dewey, a da CDU utiliza números decimais puros.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A banca inverteu as características notacionais dos sistemas: a CDD emprega notação estritamente numérica decimal pura (dígitos arábicos organizados em grupos de três com ponto divisor). A CDU, por sua vez, emprega notação mista rica em sinais gráficos (+, :, /, ::, =, \", ', parênteses, hífen, asterisco).",
-    "armadilhaBanca": "INVERSÃO DAS NOTAÇÕES: Afirmar que a CDU é que utiliza números decimais puros e a CDD seria mista.",
+    "justificativa": "ERRADO. A CDU tem base decimal, mas combina números com sinais de relação e auxiliares, além de admitir especificações alfabéticas. Por isso, a descrição de sua notação como puramente numérica, em contraste com a CDD, está errada. Base decimal e notação pura não são a mesma característica.",
+    "armadilhaBanca": "Separar a base decimal dos recursos utilizados na notação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
       "ano": 2012,
       "orgao": "BASA",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-1303082"
+      "questaoOriginalId": "TecConcursos-1303082",
+      "declaracaoLegada": "Cebraspe / BASA / 2012 (Adaptada); identificador legado: TecConcursos-1303082"
     },
-    "versao_correta": "Diferentemente da Classificação Decimal de Dewey (CDD), cuja notação é estritamente numérica arábica e decimal pura, a Classificação Decimal Universal (CDU) utiliza notação mista e analítico-sintética, incorporando sinais matemáticos e símbolos de pontuação."
+    "versao_correta": "A CDD tem notação numérica decimal; a CDU combina essa base com sinais auxiliares e outros recursos de síntese.",
+    "gatilho": "números decimais puros",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2: notação e sinais — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-22",
@@ -430,22 +502,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Classificar é ordenar, organizar e reunir segundo características comuns. Quanto à",
-    "item": "A CDD, derivada da CDU, buscou simplificar a complexidade desta, ao usar a notação numérica em vez da alfanumérica oumista.",
+    "item": "A CDD, derivada da CDU, buscou simplificar a complexidade desta, ao usar a notação numérica em vez da alfanumérica ou mista.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A relação genealógica histórica é o inverso: a CDD foi criada em 1876 por Melvil Dewey; em 1895, Paul Otlet e Henri La Fontaine obtiveram autorização de Dewey para traduzir e expandir a CDD, criando a Classificação Decimal Universal (CDU). Portanto, a CDU deriva da CDD, e não o oposto.",
-    "armadilhaBanca": "ANACRONISMO HISTÓRICO: Inverter a linha cronológica e genealógica entre CDD (1876, matriz) e CDU (1895, derivada).",
+    "justificativa": "ERRADO. A direção histórica foi invertida: a CDD é anterior e serviu de base ao desenvolvimento da CDU por Otlet e La Fontaine. A maior variedade de sinais da CDU não faz dela a origem da CDD. A ordem cronológica precisa ser conferida antes de comparar a complexidade dos sistemas.",
+    "armadilhaBanca": "Inversão entre sistema de origem e sistema derivado.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "ANATEL/2009",
       "ano": 2009,
       "orgao": "2009",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1201"
+      "origemAcervoLocal": "cespe-cad-1201",
+      "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-1201"
     },
-    "versao_correta": "A Classificação Decimal Universal (CDU) é derivada da Classificação Decimal de Dewey (CDD), expandindo suas notações mediante a introdução de operadores de síntese e tabelas auxiliares de símbolos especiais."
+    "versao_correta": "A CDU foi desenvolvida a partir da CDD, ampliando possibilidades de representação e combinação de assuntos.",
+    "gatilho": "CDD, derivada da CDU",
+    "fonte": "CDU — edição do acervo, Parte 1 — introdução: desenvolvimento da CDU. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-23",
@@ -455,21 +531,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à classificação decimal universal (CDU), julgue os itens a seguir.",
     "item": "A estrutura de classe principal da CDU é análoga à classificação decimal de Dewey.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"principal da CDU é análoga à classificação\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A CDU conservou a base decimal da CDD e parte de sua organização em grandes classes. Analogia não significa identidade: na CDU, a classe 4 está vaga e Linguística se encontra em 8; além disso, seus sinais de síntese diferem. A assertiva permite semelhança estrutural, não igualdade integral.",
+    "armadilhaBanca": "Não converter semelhança de estrutura em identidade de todas as classes.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
       "ano": 2012,
       "orgao": "BASA",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-1303079"
+      "questaoOriginalId": "TecConcursos-1303079",
+      "declaracaoLegada": "Cebraspe / BASA / 2012 (Adaptada); identificador legado: TecConcursos-1303079"
     },
-    "gatilho": "principal da CDU é análoga à classificação",
-    "versao_errada": "A estrutura de classe principal da CDD é análoga à classificação decimal de Dewey."
+    "gatilho": "análoga à classificação decimal de Dewey",
+    "versao_errada": "As classes principais da CDU são integralmente idênticas às da CDD, sem classes vagas ou deslocamento de assuntos.",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 1–2: organização das classes — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-24",
@@ -477,21 +556,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.1",
     "contexto": "Quanto à Classificação Decimal de Dewey (CDD), julgue os itens que se seguem.",
-    "item": "Entre as notas do sistema que explicam mudanças ou irregularidades nos esquemas e tabelas estão aquelas de revisões, qu e geralmente são seguidas de explicações sobre revisões completas e extensivas, não sendo este o caso na última edição da CDD.",
+    "item": "Na CDD, as notas de revisão e remanejamento ajudam a interpretar mudanças na localização dos assuntos entre versões do esquema.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"revisões, qu e geralmente são seguidas de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Notas de revisão e remanejamento orientam o uso de números e mudanças no esquema. Elas ajudam a distinguir o número que representava um assunto em uma edição do número aplicável após a revisão. A consulta dessas notas evita perpetuar uma localização antiga apenas porque ela já constava no catálogo.",
+    "armadilhaBanca": "Uma notação utilizada anteriormente não tem validade automática após revisão.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "TRE-BA/2010",
       "ano": 2010,
       "orgao": "2010",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1205"
-    }
+      "origemAcervoLocal": "cespe-cad-1205",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1205"
+    },
+    "gatilho": "notas de revisão",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 7.23–7.25: notas sobre mudanças e irregularidades — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Na CDD, alterações de localização de assuntos dispensam consulta às notas de revisão e remanejamento."
   },
   {
     "id": "m3-q-25",
@@ -501,16 +585,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na notação da CDD, um número básico completo deve ter no mínimo três dígitos; quando a notação tiver menos de três algarismos significativos, completam-se as posições vazias com zeros à direita.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Essa é a regra fundamental dos três dígitos da CDD: toda notação tem pelo menos 3 dígitos (ex.: 500 para Ciências Naturais, 510 para Matemática e 512 para Álgebra). Não existem números com menos de três cifras no esquema. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Os números principais completos da CDD têm ao menos três dígitos: 500, 510 e 512 são exemplos. Zeros completam as posições necessárias; não são opcionais na forma completa. A impressão pode abreviar uma sequência subordinada na coluna, mas o leitor deve recuperar os dígitos implícitos pelo contexto.",
+    "armadilhaBanca": "Distinguir abreviação de impressão e número completo de classificação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "três dígitos; quando a notação tiver menos",
-    "versao_errada": "Na notação da CDD, um número básico completo deve ter no mínimo indevidamente três dígitos; quando a notação tiver menos de três algarismos significativos, completam-se as posições vazias com zeros à direita."
+    "gatilho": "no mínimo três dígitos",
+    "versao_errada": "Na CDD, uma notação completa de classe principal pode ser registrada apenas como 5, dispensando os zeros de 500.",
+    "fonte": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23 — 4.9: mínimo de três dígitos — https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-26",
@@ -520,21 +606,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a linguagens documentárias, resumos e índices, julgue os itens.",
     "item": "Resumos modulares são descrições completas de conteúdos de documentos e são compostos de cinco partes: citação, anotação, resumo indicativo, resumo informativo e resumo crítico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O resumo modular (modular abstract), formulado na literatura especializada de condensação documental (Lancaster, Borko & Bernier), é uma representação documental multifacetada concebida para atender a múltiplos perfis de usuários em um único registro. Estrutura-se canonicamente em cinco seções coordenadas: 1) a citação bibliográfica completa; 2) uma anotação preliminar de escopo; 3) o resumo indicativo panorâmico; 4) o resumo informativo detalhado; e 5) o resumo crítico com a avaliação substantiva de especialistas.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CNJ/2013.",
+    "justificativa": "CERTO. O resumo modular combina componentes para diferentes necessidades: referência/citação, anotação e formas indicativa, informativa e crítica. O usuário pode escolher o grau de detalhe e a função desejados. Essa descrição de um modelo da literatura não transforma as cinco partes em obrigação para todo resumo da ABNT NBR 6028:2021.",
+    "armadilhaBanca": "Não converter um modelo de condensação documental em exigência normativa universal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / CNJ / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
       "ano": 2013,
       "orgao": "CNJ",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-103207"
+      "questaoOriginalId": "TecConcursos-103207",
+      "declaracaoLegada": "Cebraspe / CNJ / 2013 (Adaptada); identificador legado: TecConcursos-103207"
     },
-    "gatilho": "e são compostos de cinco partes: citação",
-    "versao_errada": "Resumos modulares são descrições completas de conteúdos de documentos indevidamente e são compostos de cinco partes: citação, anotação, resumo indicativo, resumo informativo e resumo crítico."
+    "gatilho": "cinco partes",
+    "versao_errada": "Todo resumo exigido pela ABNT NBR 6028:2021 deve apresentar obrigatoriamente cinco partes modulares, inclusive avaliação crítica.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 7: resumos modulares; apêndice de análise modular. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-27",
@@ -542,18 +631,20 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
-    "item": "Na Classificação Decimal Universal (CDU), o sinal de dois pontos simples (:) é empregado para expressar a relação coordenada reversível entre dois oumais assuntos independentes, permitindo a inversão da ordem dos elementos na busca e na catalogação.",
+    "item": "Na Classificação Decimal Universal (CDU), o sinal de dois pontos simples (:) é empregado para expressar a relação coordenada reversível entre dois ou mais assuntos independentes, permitindo a inversão da ordem dos elementos na busca e na catalogação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O sinal de dois pontos simples (:) na CDU indica relação simples reversível, permitindo que a ordem das notações seja invertida para gerar pontos de acesso secundários no catálogo. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Na CDU, : relaciona assuntos e permite inverter os números quando a relação é tomada como reversível. A possibilidade é semântica; não obriga a biblioteca a produzir entradas duplicadas em todo catálogo. Compare com ::, que fixa a ordem dos componentes.",
+    "armadilhaBanca": "Distinguir reversibilidade semântica e obrigação operacional de duplicar registros.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "expressar a relação coordenada reversível entre dois",
-    "versao_errada": "Na Classificação Decimal Universal (CDU), o sinal de dois pontos simples (:) é empregado para indevidamente expressar a relação coordenada reversível entre dois oumais assuntos independentes, permitindo a inversão da ordem dos elementos na busca e na catalogação."
+    "gatilho": "relação coordenada reversível",
+    "versao_errada": "Na CDU, os dois-pontos simples fixam a ordem e proíbem a inversão dos componentes em qualquer situação.",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.2.1: relação simples — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-28",
@@ -561,22 +652,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
-    "item": "As tabelas auxiliares da CDU são de uso obrigatório, são compostas de dezenove tabelas auxiliares, entre comuns e especiais, a fim de esclarecer adequadamente os assuntos tratados em um doc documento.",
+    "item": "As tabelas auxiliares da CDU são de uso obrigatório, são compostas de dezenove tabelas auxiliares, entre comuns e especiais, a fim de esclarecer adequadamente os assuntos tratados em um documento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O emprego de tabelas auxiliares na CDU nunca é de cumprimento cego ou compulsório para todos os documentos. Sua utilização é facultativa e obedece à política de indexação de cada biblioteca, dependendo do grau de especificidade e exaustividade desejado.",
-    "armadilhaBanca": "FALSA COMPULSORIEDADE: Afirmar que o uso das tabelas auxiliares da CDU é obrigatoriamente exigido em todo documento.",
+    "justificativa": "ERRADO. Os auxiliares qualificam o assunto quando a representação requer forma, lugar, tempo ou outra característica prevista. Eles não têm uso obrigatório em todos os documentos, nem se acrescentam indiscriminadamente. A decisão depende do conteúdo, da política de classificação e das instruções do sistema.",
+    "armadilhaBanca": "A existência de um recurso de síntese não torna seu uso compulsório.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "ANTT/2013",
       "ano": 2013,
       "orgao": "2013",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1116"
+      "origemAcervoLocal": "cespe-cad-1116",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1116"
     },
-    "versao_correta": "Na CDU, as tabelas auxiliares (comuns e especiais) são de uso facultativo e combinatório, sendo empregadas conforme a necessidade de detalhamento e especificidade requerida pelo acervo e pelo consulente."
+    "versao_correta": "Os auxiliares da CDU são empregados conforme o assunto, a política do serviço e as instruções, não obrigatoriamente em todos os documentos.",
+    "gatilho": "uso obrigatório",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2–3: emprego de auxiliares — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-29",
@@ -586,20 +681,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de tesauro, julgue os itens que se seguem.",
     "item": "Quando utiliza relações conceituais distintas da relação de equivalência, o tesauro é facetado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A presença de relações conceituais além da equivalência (especificamente as relações hierárquicas e associativas) é a característica estrutural básica de QUALQUER tesauro tradicional padrão. O que torna um tesauro facetado é a ordenação prévia dos conceitos em facetas conceituais mutuamente excludentes (categorias fundamentais).",
-    "armadilhaBanca": "DISTORÇÃO CONCEITUAL DE TESAURO FACETADO: Atribuir a condição de tesauro facetado à simples presença de relações hierárquicas ou associativas.",
+    "justificativa": "ERRADO. Tesauros podem apresentar relações hierárquicas e associativas sem serem classificados como facetados. A organização facetada depende da análise e do agrupamento de conceitos por categorias/facetas, não apenas da presença de TG, TE ou TR. A assertiva usa um critério insuficiente para identificar a estrutura.",
+    "armadilhaBanca": "Não confundir tipos de relação e princípio de organização de conceitos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "STJ/2018",
       "ano": 2018,
       "orgao": "2018",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1098"
+      "origemAcervoLocal": "cespe-cad-1098",
+      "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-1098"
     },
-    "versao_correta": "Um tesauro documentário padrão estrutura-se normalmente em três tipos de relações conceituais: equivalência (USE/UP), hierárquica (TG/TE) e associativa (TR); a estrutura de um tesauro facetado organiza-se em torno de facetas fundamentais (categorias homogêneas e mutuamente exclusivas)."
+    "versao_correta": "Um tesauro facetado organiza conceitos por facetas; a presença de relações hierárquicas e associativas, sozinha, não o caracteriza como facetado.",
+    "gatilho": "relações conceituais distintas da relação de equivalência",
+    "fonte": "W3C — SKOS Reference, 2009 — 8: relações semânticas; categorização em facetas — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-30",
@@ -609,15 +708,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o auxiliar comum de lugar é indicado por parênteses contendo número iniciado por zero, como no formato (0...).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Houve inversão entre os símbolos dos auxiliares da CDU: o parênteses com zero (0...) é o Auxiliar Comum de FORMA documental (ex.: (038) dicionários; (05) periódicos). O Auxiliar Comum de LUGAR geográfico utiliza parênteses de 1 a 9 sem zero inicial: (1/9), como em (81) Brasil.",
-    "armadilhaBanca": "CONFUSÃO ENTRE AUXILIARES DA CDU: Confundir auxiliar comum de forma (0...) com auxiliar comum de lugar (1/9).",
+    "justificativa": "ERRADO. Na CDU, (0...) introduz auxiliar comum de forma, enquanto os auxiliares comuns de lugar se organizam em (1/9). Assim, (81) pode indicar Brasil, e (038), um dicionário. Os dois usam parênteses, mas o prefixo e a tabela consultada determinam a função.",
+    "armadilhaBanca": "Mesmo delimitador gráfico não significa a mesma categoria auxiliar.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDU, o parênteses iniciado por zero (0...) representa o Auxiliar Comum de Forma (ex.: (038) para dicionários), ao passo que o Auxiliar Comum de Lugar é representado por parênteses sem zero inicial: (1/9) (ex.: (81) para Brasil)."
+    "versao_correta": "Na CDU, (0...) representa forma e (1/9) representa lugar.",
+    "gatilho": "(0...)",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.4–3.5: forma e lugar — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-31",
@@ -625,23 +727,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "Com relação às técnicas e processos de tratamento da informação, julgue os pr ó-",
-    "item": "Na Classificação Decimal Universal (CDU), uma classe composta é formada pela interseção de dois oumais tipos de conceitos distintos (ou facetas) dentro da mesma classe, como, por exemplo, f i- siologia botânica, patologia botânica, ecologia botânica.",
+    "item": "Na CDU, uma classe composta combina conceitos ou facetas para especificar um assunto, como ocorre em fisiologia botânica, patologia botânica e ecologia botânica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"tipos de conceitos distintos (ou facetas) dentro\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Uma classe composta resulta da combinação de conceitos para representar um assunto mais específico. Fisiologia botânica combina o objeto plantas com o aspecto fisiológico; não significa apenas colocar duas obras juntas na estante. A interseção conceitual deve ser diferenciada da reunião de assuntos independentes pelo sinal de adição.",
+    "armadilhaBanca": "Distinguir síntese de conceitos e simples agregação de documentos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
       "ano": 2013,
       "orgao": "SERPRO",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-436525"
+      "questaoOriginalId": "TecConcursos-436525",
+      "declaracaoLegada": "Cebraspe / SERPRO / 2013 (Adaptada); identificador legado: TecConcursos-436525"
     },
-    "gatilho": "tipos de conceitos distintos (ou facetas) dentro",
-    "versao_errada": "Na Classificação Decimal Universal (CDU), uma classe composta é formada pela interseção de dois oumais indevidamente tipos de conceitos distintos (ou facetas) dentro da mesma classe, como, por exemplo, f i- siologia botânica, patologia botânica, ecologia botânica."
+    "gatilho": "combina conceitos ou facetas",
+    "versao_errada": "Uma classe composta é apenas a reunião física de documentos, sem combinação de conceitos do assunto.",
+    "fonte": "CDU — edição do acervo, Parte 1 — introdução: classes compostas e síntese. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-32",
@@ -649,22 +754,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "Com relação às técnicas e processos de tratamento da informação, julgue os pr ó-",
-    "item": "A extensão consecutiva, cujo símbolo é uma barra oblíqua (/), une dois oumais números da CDU separados (não consecutivos) para indicar um assunto composto para o qual não existe um núm número simples. Nesse sentido, a partir da classificação abaixo mostrada, é correto afirmar que o código 643/645 corresponde à especificação A casa e equipamento doméstico. 64 Economia doméstica. Ciência doméstica 640 Tipos de lares 643 A casa 645 Mobiliário e equipamento doméstico",
+    "item": "Na CDU, a barra / une números separados e não consecutivos sem incluir os intermediários; por isso, 643/645 abrange apenas 643 e 645.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A extensão consecutiva na CDU, representada pela barra (/), une obrigatoriamente notações CONSECUTIVAS para formar um intervalo contínuo de assuntos. Não pode ser aplicada a números separados ou não consecutivos (para os quais se utiliza o sinal de adição +). Ademais, no exemplo 643/645, 640 não faz parte do intervalo e o sinal requer contiguidade ordinal estrita.",
-    "armadilhaBanca": "INVERSÃO DE CONCEITO DE EXTENSÃO: Afirmar que a barra (/) une números \"não consecutivos\".",
+    "justificativa": "ERRADO. A barra / representa uma extensão consecutiva, incluindo os números intermediários do intervalo. Para reunir números separados, emprega-se +. Assim, 643/645 abrange o intervalo de 643 a 645, não apenas seus extremos; a afirmação de que a barra une números não consecutivos é o erro decisivo.",
+    "armadilhaBanca": "Não tratar um intervalo contínuo como mera união de dois extremos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "TecConcursos-436526",
       "ano": 2013,
       "orgao": "SERPRO",
       "banca": "Cebraspe",
-      "questaoOriginalId": "436526"
+      "questaoOriginalId": "436526",
+      "declaracaoLegada": "Cebraspe / SERPRO / 2013; identificador legado: 436526"
     },
-    "versao_correta": "Na CDU, a barra oblíqua (/) representa a extensão consecutiva, sendo utilizada exclusivamente para unir classes ou números consecutivos contíguos na tabela (ex.: 592/599 para abranger de 592 até 599 sistematicamente)."
+    "versao_correta": "Na CDU, / une uma sequência consecutiva incluindo os números intermediários, enquanto + permite reunir números separados.",
+    "gatilho": "números separados e não consecutivos",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.1.1–3.1.2: adição e extensão consecutiva — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-33",
@@ -673,17 +782,20 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "submoduloId": "3.2",
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na Classificação Decimal de Direito de Doris de Queiroz Carvalho, a legislação tributária brasileira e o processo tributário encontram-se estruturados no interior da subclasse 342, vinculados ao Direito Financeiro e Administrativo.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na CDDir, o Direito Tributário e o Direito Financeiro são alocados no âmbito do Direito Público (subclasse 342), especificamente em subdivisões decimais dedicadas às finanças públicas e tributos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. Na CDDir, 341 corresponde ao Direito público e 342 ao Direito privado. O Direito tributário aparece em 341.39, sob Direito administrativo. O comentário anterior confundia a CDDir com outra organização classificatória e sustentava um julgamento incorreto. Para resolver, identifique primeiro o sistema e depois consulte o número, sem transportar a estrutura da CDD.",
+    "armadilhaBanca": "Confusão entre números iguais em classificações diferentes.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "tributária brasileira e o processo tributário encontram-se",
-    "versao_errada": "Na Classificação Decimal de Direito de Doris de Queiroz Carvalho, a legislação indevidamente tributária brasileira e o processo tributário encontram-se estruturados no interior da subclasse 342, vinculados ao Direito Financeiro e Administrativo."
+    "gatilho": "subclasse 342",
+    "versao_errada": "",
+    "fonte": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI — entradas 341, 341.3, 341.39 e 342 — https://adm.senado.leg.br/cddir/vocab/",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "Na CDDir, Direito tributário encontra-se em 341.39, sob 341, Direito público, e não em 342, Direito privado."
   },
   {
     "id": "m3-q-34",
@@ -693,15 +805,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o sinal de barra (/) é utilizado para representar a adição de dois tópicos não consecutivos, enquanto o sinal de mais (+) é empregado para indicar a extensão consecutiva de classes vizinhas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva inverteu as funções dos operadores da CDU: o sinal de mais (+) indica ADIÇÃO ou coordenação de conceitos não consecutivos (ex.: 622+669 = Mineração e Metalurgia); a barra oblíqua (/) indica EXTENSÃO CONSECUTIVA de números adjacentes (ex.: 592/599).",
-    "armadilhaBanca": "INVERSÃO DE OPERADORES: Troca das funções do sinal de adição (+) e do sinal de extensão consecutiva (/).",
+    "justificativa": "ERRADO. As funções foram invertidas. O sinal + reúne assuntos separados; / representa extensão consecutiva com os números intermediários. Por exemplo, uma lista de extremos não equivale automaticamente a um intervalo completo. Identifique a operação sem se orientar apenas pela semelhança visual com sinais matemáticos.",
+    "armadilhaBanca": "Troca das funções de dois operadores de composição.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDU, o sinal de mais (+) é utilizado para coordenar e adicionar dois ou mais tópicos não consecutivos, enquanto o sinal de barra (/) é empregado para indicar a extensão consecutiva contígua de classes."
+    "versao_correta": "Na CDU, + representa adição e / representa extensão consecutiva.",
+    "gatilho": "barra (/) é utilizado para representar a adição",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.1: sinais + e / — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-35",
@@ -711,15 +826,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Por ter sido desenvolvida no Brasil na década de 1970, a Classificação Decimal de Direito de Doris de Queiroz Carvalho adota notação mista alfanumérica obrigatória em todas as suas classes, sendo incompatível com a notação decimal tradicional da CDD.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A CDDir é um sistema estritamente DECIMAL. Ela expande detalhadamente as matérias jurídicas a partir da estrutura decimal 340, utilizando notação puramente numérica arábica com subdivisões decimais, e não notação alfanumérica.",
-    "armadilhaBanca": "FALSA NOTAÇÃO ALFANUMÉRICA: Declarar que a CDDir utilizaria notação mista alfanumérica em vez da base decimal.",
+    "justificativa": "ERRADO. A CDDir emprega uma estrutura decimal numérica adaptada para a literatura jurídica; não exige letras em todas as classes. A adaptação brasileira de Dóris desenvolveu-se a partir da CDD, e não por rompimento com sua base decimal. A presença de uma localização específica para Direito não transforma a notação em alfanumérica.",
+    "armadilhaBanca": "Não inferir notação alfanumérica a partir de uma adaptação especializada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "A Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho adota notação puramente numérica decimal, derivada e perfeitamente compatível com a classe 340 da CDD e da CDU."
+    "versao_correta": "A CDDir de Dóris de Queiroz Carvalho adapta a base decimal da CDD para detalhar a literatura jurídica.",
+    "gatilho": "notação mista alfanumérica obrigatória",
+    "fonte": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI — Sobre; notações 340, 341, 342 — https://adm.senado.leg.br/cddir/vocab/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-36",
@@ -729,15 +847,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o apóstrofo (') atua como um auxiliar comum independente com capacidade de expressar a nacionalidade de pessoas jurídicas de direito público.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na CDU, o apóstrofo (') atua como AUXILIAR ESPECIAL com função de síntese integrativa em tabelas específicas (como em Química, Metalurgia e Letras). A indicação de nacionalidade, raça ou grupo étnico é exercida pelo Auxiliar Comum de ascendência humana e nacionalidade (=...).",
-    "armadilhaBanca": "ATRIBUIÇÃO INDEVIDA DE FUNÇÃO AO APÓSTROFO: Confundir o apóstrofo (síntese) com o auxiliar (=...) de nacionalidade.",
+    "justificativa": "ERRADO. O apóstrofo introduz auxiliares especiais de síntese em áreas previstas nas tabelas. Não é um auxiliar comum independente de nacionalidade. O auxiliar comum de ascendência humana, grupo étnico e nacionalidade tem a forma (=...). Confirme tanto a categoria do auxiliar quanto o sinal usado para representá-lo.",
+    "armadilhaBanca": "O sinal e o âmbito de aplicação do auxiliar precisam corresponder à mesma tabela.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDU, o apóstrofo (') é um auxiliar especial de síntese integrativa ou contração, enquanto a ascendência, raça ou nacionalidade de pessoas e povos é representada pelo auxiliar comum de grupos étnicos e nacionalidade (=...)."
+    "versao_correta": "Na CDU, o apóstrofo participa de auxiliares especiais de síntese, nas áreas em que seu emprego é previsto.",
+    "gatilho": "auxiliar comum independente",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2.3 e 4: auxiliares especiais — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-37",
@@ -747,16 +868,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o auxiliar comum de tempo utiliza aspas duplas (\"...\"), permitindo expressar séculos, anos, meses, dias e até estações do ano, a exemplo de \"2024\" para o ano de 2024.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O auxiliar de tempo da CDU é delimitado por aspas (\"...\"), podendo expressar datas pontuais, intervalos temporais ou períodos geológicos (ex.: \"19\" para o século XX, \"2024\" para o ano de 2024). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. As aspas delimitam o auxiliar comum de tempo. A forma \"2024\" representa o ano, enquanto uma notação mais curta pode representar um período mais amplo, conforme a tabela. Não confunda \"2024\" com (2024): parênteses são usados em outras categorias auxiliares, como lugar e forma.",
+    "armadilhaBanca": "A troca de delimitadores muda a categoria de auxiliar.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "expressar séculos, anos, meses, dias e até",
-    "versao_errada": "Na CDU, o auxiliar comum de tempo utiliza aspas duplas (\"...\"), permitindo indevidamente expressar séculos, anos, meses, dias e até estações do ano, a exemplo de \"2024\" para o ano de 2024."
+    "gatilho": "aspas duplas",
+    "versao_errada": "Na CDU, o ano de 2024 é representado pelo auxiliar de tempo (2024), com parênteses no lugar das aspas.",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.7: auxiliares de tempo — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-38",
@@ -766,15 +889,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, consideram-se auxiliares comuns independentes aqueles que podem ser utilizados isoladamente ou no início da notação, categoria que inclui os auxiliares de lugar (1/9), tempo (\"...\"), língua (=...) e pessoas/características (-05).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Os auxiliares comuns da CDU dividem-se em independentes e dependentes. Os independentes (lugar, tempo, língua e forma) podem figurar sozinhos ou no início da notação. O auxiliar de pessoas e características pessoais (-05), assim como materiais (-03) e propriedades (-02), são DEPENDENTES e devem sempre estar conectados a uma classe principal.",
-    "armadilhaBanca": "CONFUSÃO ENTRE DEPENDENTES E INDEPENDENTES: Categorizar o auxiliar -05 (pessoas) como independente.",
+    "justificativa": "ERRADO. O auxiliar -05 é dependente: não inicia sozinho uma classificação. Já lugar, tempo, língua e forma são auxiliares comuns independentes nas condições do sistema. A enumeração mistura categorias; não é necessário que todos os seus elementos estejam errados para que a assertiva seja falsa.",
+    "armadilhaBanca": "Identificar o elemento incompatível dentro de uma lista parcialmente correta.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDU, o auxiliar comum de propriedades e características pessoais (-05) é um auxiliar comum dependente, devendo ser sempre afixado a um número principal e nunca utilizado isoladamente ou no início da notação."
+    "versao_correta": "Os auxiliares comuns de pessoas -05 são dependentes, ao contrário dos auxiliares independentes de lugar, tempo, língua e forma.",
+    "gatilho": "pessoas/características (-05)",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2.2 e 3.9.5: auxiliares independentes e dependentes — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-39",
@@ -783,17 +909,20 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "submoduloId": "3.2",
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "A Classificação Decimal de Direito (CDDir), concebida por Doris de Queiroz Carvalho, constitui uma adaptação sistemática do Direito Positivo Brasileiro e dos sistemas jurídicos romano-germânicos, alocando o Direito Público Constitucional e Administrativo na subclasse 342 e o Direito Processual Civil na subclasse 345.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A CDDir adapta com rigor o Direito brasileiro: 341 (Internacional), 342 (Público/Constitucional/Administrativo), 343 (Penal), 344 (Trabalho/Previdência), 345 (Processual Civil), 346 (Civil) e 347 (Comercial). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. A CDDir situa Direito público em 341, Constitucional em 341.2, Administrativo em 341.3 e Processual civil em 341.46. A assertiva e o comentário antigos atribuíam números de outra estrutura à CDDir. A origem brasileira do sistema não torna corretas as correspondências numéricas apresentadas.",
+    "armadilhaBanca": "Uma introdução histórica correta não valida números classificatórios incorretos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "Positivo Brasileiro e dos sistemas jurídicos romano-germânicos",
-    "versao_errada": "A Classificação Decimal de Direito (CDDir), concebida por Doris de Queiroz Carvalho, constitui uma adaptação sistemática do Direito indevidamente positivo brasileiro e dos sistemas jurídicos romano-germânicos, alocando o Direito Público Constitucional e Administrativo na subclasse 342 e o Direito Processual Civil na subclasse 345."
+    "gatilho": "Direito Público Constitucional e Administrativo na subclasse 342",
+    "versao_errada": "",
+    "fonte": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI — entradas 341, 341.2, 341.3, 341.46 e 342 — https://adm.senado.leg.br/cddir/vocab/",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "Na CDDir, Direito público é 341; Constitucional, 341.2; Administrativo, 341.3; e Processual civil, 341.46."
   },
   {
     "id": "m3-q-40",
@@ -803,19 +932,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de indexação, julgue os próximos itens.",
     "item": "Quanto maior o consenso em relação aos termos utilizados para representar um documento, maior será a coerência da indexação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"aos termos utilizados para representar um documento\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Coerência mede a concordância das escolhas de representação. Se dois indexadores atribuem os mesmos descritores ao mesmo documento, a concordância entre eles aumenta. Isso não prova que os descritores sejam os mais adequados: ambos podem concordar em uma interpretação equivocada. Diferencie concordância e correção temática.",
+    "armadilhaBanca": "Coerência não é sinônimo de exatidão.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ RR / 2012",
-      "verificado": true,
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "TecConcursos-180970",
       "ano": 2012,
       "orgao": "TJ RR",
       "banca": "Cebraspe",
-      "questaoOriginalId": "180970"
-    }
+      "questaoOriginalId": "180970",
+      "declaracaoLegada": "Cebraspe / TJ RR / 2012; identificador legado: 180970"
+    },
+    "gatilho": "maior será a coerência",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 5: coerência da indexação. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "A concordância entre indexadores garante, por si só, que os termos escolhidos representam corretamente o documento."
   },
   {
     "id": "m3-q-41",
@@ -825,16 +959,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "A classe principal 4 da CDU foi esvaziada em edições anteriores e seus assuntos foram transferidos para a classe 8 (Linguística e Literatura), encontrando-se atualmente vaga no esquema.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Uma das grandes transformações históricas da CDU foi o esvaziamento da classe 4 (antiga Filologia e Linguística), unificando esses estudos com a Literatura na classe 8 e deixando a classe 4 vaga para expansões futuras do conhecimento.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A CDU deixou a classe principal 4 vaga após reunir os assuntos de Linguística e Literatura em 8. Isso difere da CDD, em que 400 continua associado à linguagem. Não preencha a classe vaga por analogia com a outra classificação.",
+    "armadilhaBanca": "Transposição de uma classe da CDD para a CDU.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "e seus assuntos foram transferidos para a",
-    "versao_errada": "A classe principal 4 da CDU foi esvaziada em edições anteriores indevidamente e seus assuntos foram transferidos para a classe 8 (Linguística e Literatura), encontrando-se atualmente vaga no esquema."
+    "gatilho": "classe principal 4",
+    "versao_errada": "Na CDU, a classe principal 4 abriga Linguística, exatamente como 400 na CDD.",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 1: classes principais — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-42",
@@ -842,22 +978,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "Acerca dos sistemas documentários de uma biblioteca, julgue os itens a seguir.",
-    "item": "Existem padrões universalmente aceitos para a estruturação ou arquitetura de dados e informações nos registros documentais, entre eles incluem -se o padrão MARC e seus derivados, USMARC, UNIMARC, MARC 21, MARC Authoririty e OCLC.",
+    "item": "MARC, USMARC, UNIMARC, MARC 21, o formato MARC de autoridades e OCLC são todos formatos de estruturação de registros documentais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva cometeu um erro categórico ao listar a \"OCLC\" como se fosse um padrão de estruturação ou arquitetura de dados derivado do MARC. A OCLC é uma rede cooperativa e organização internacional de bibliotecas (criadora de produtos como o WorldCat), e não uma especificação normativa de formato.",
-    "armadilhaBanca": "CONFUSÃO ENTRE FORMATO E COOPERATIVA: Inserir a instituição/rede OCLC no rol de formatos de intercâmbio bibliográfico.",
+    "justificativa": "ERRADO. MARC 21 e seus formatos especificam a representação estruturada de dados bibliográficos e de autoridades. OCLC é uma organização cooperativa que mantém serviços, como WorldCat; não é mais um formato derivado de MARC. A lista mistura uma instituição com padrões técnicos.",
+    "armadilhaBanca": "Reconhecer a categoria de cada elemento de uma enumeração.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "TecConcursos-369843",
       "ano": 2014,
       "orgao": "TC DF",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1077"
+      "origemAcervoLocal": "cespe-cad-1077",
+      "declaracaoLegada": "Cebraspe / TC DF / 2014 (Adaptada); identificador legado: cespe-cad-1077"
     },
-    "versao_correta": "Os padrões internacionais para estrutura e formato de intercâmbio de registros bibliográficos compreendem as famílias MARC (como USMARC, UNIMARC e MARC 21), ao passo que a OCLC (Online Computer Library Center) é uma cooperativa global de serviços e utilidade bibliográfica, e não um padrão de formatação."
+    "versao_correta": "OCLC é uma organização cooperativa; MARC 21 é um conjunto de formatos de comunicação de dados bibliográficos e relacionados.",
+    "gatilho": "e OCLC",
+    "fonte": "Library of Congress — MARC 21 formats — formatos bibliográfico e de autoridades — https://www.loc.gov/marc/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-43",
@@ -865,21 +1005,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
-    "item": "São dezesseis os sinais ou subdivisões auxiliares comuns da CDU, os quais se dividem em nove t tabelas — referenciadas de 1a a 1k, desconsiderando-se as tabelas 1j e 1i, que foram canceladas.",
+    "item": "Na organização de auxiliares comuns da CDU apresentada pelo Manual de Classificação da Biblioteca Nacional de Brasília, as tabelas 1a a 1h e 1k totalizam nove tabelas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"dividem em nove t tabelas — referenciadas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. O manual apresenta nove tabelas auxiliares comuns identificadas de 1a a 1h e 1k. A contagem de tabelas não é a contagem de sinais: uma mesma tabela pode reunir vários operadores ou categorias. A redação foi fixada nessa organização, sem transformar uma quantidade de sinais em regra universal para todas as edições.",
+    "armadilhaBanca": "Não confundir número de tabelas com número de símbolos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "ANTT/2013",
       "ano": 2013,
       "orgao": "2013",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1111"
-    }
+      "origemAcervoLocal": "cespe-cad-1111",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1111"
+    },
+    "gatilho": "tabelas 1a a 1h e 1k",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3: tabelas 1a, 1b, 1c, 1d, 1e, 1f, 1g, 1h e 1k — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Na organização apresentada pelo manual, há uma tabela auxiliar comum distinta para cada sinal, sem que uma tabela possa reunir vários sinais."
   },
   {
     "id": "m3-q-44",
@@ -889,16 +1034,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "A CDU adota notação mista porque combina algarismos arábicos com letras do alfabeto latino e sinais gráficos tipográficos, além de admitir o uso do asterisco (*) para introduzir notações não autorizadas pelo esquema.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A notação da CDU é mista por excelência: algarismos arábicos, sinais matemáticos e relacionais, letras (A/Z para especificações diretas de nomes) e asterisco (*) para introduzir códigos externos (ex.: códigos ISO ou notações locais).",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A notação da CDU combina números, sinais e, nos casos admitidos, letras. O asterisco introduz uma especificação externa ao esquema, com sua origem identificável; isso não significa autorização para inventar livremente qualquer classe. Letras A/Z também podem servir a especificações diretas previstas.",
+    "armadilhaBanca": "Introduzir uma notação externa não elimina as regras de identificação e composição.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "latino e sinais gráficos tipográficos, além de",
-    "versao_errada": "A CDU adota notação mista porque combina algarismos arábicos com letras do alfabeto indevidamente latino e sinais gráficos tipográficos, além de admitir o uso do asterisco (*) para introduzir notações não autorizadas pelo esquema."
+    "gatilho": "asterisco (*)",
+    "versao_errada": "O asterisco da CDU autoriza substituir toda a classificação por qualquer código local, sem identificar a origem da notação externa.",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 2; 3.8: especificação por notações externas e letras — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-45",
@@ -908,20 +1055,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "A atual estrutura interna da CDU a está transformando em uma verdadeira classificação enumerativa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A reestruturação moderna da CDU pelo UDC Consortium tem como diretriz precípua acentuar seu caráter analítico-sintético e facetado, ampliando as possibilidades de composição combinatória de assuntos e reduzindo tabelas excessivamente enumerativas e engessadas.",
-    "armadilhaBanca": "INVERSÃO DE DIRETRIZ ESTRUTURAL: Afirmar que a CDU estaria caminhando para o modelo enumerativo em vez do analítico-sintético.",
+    "justificativa": "ERRADO. A CDU combina enumeração e síntese. Seu desenvolvimento de recursos analíticos, auxiliares e combinações não a transforma em um sistema puramente enumerativo. As tabelas fornecem componentes e instruções para construir assuntos compostos, em vez de exigir uma entrada pronta para toda combinação possível.",
+    "armadilhaBanca": "Não apagar o caráter sintético por existir uma tabela de classes prontas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "ANTT/2013",
       "ano": 2013,
       "orgao": "2013",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1112"
+      "origemAcervoLocal": "cespe-cad-1112",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1112"
     },
-    "versao_correta": "A evolução interna e revisão contínua da CDU pelo Consórcio CDU orienta-se no sentido de transformá-la em uma classificação crescentemente analítico-sintética e facetada, afastando-se do modelo puramente enumerativo."
+    "versao_correta": "A CDU combina base enumerativa com recursos analítico-sintéticos para representar assuntos compostos.",
+    "gatilho": "verdadeira classificação enumerativa",
+    "fonte": "CDU — edição do acervo, Parte 1 — introdução: características analítico-sintéticas. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-46",
@@ -931,15 +1082,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o sinal de dois pontos duplos (::) possui a mesma função semântica do sinal de adição (+), sendo empregado para unir dois conceitos independentes e indicar que o documento deve ser classificado em ambos os lugares com possibilidade de intercalação reversível.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na CDU, o sinal de dois pontos duplos (::) determina uma relação de subordinação ou ordenação fixa NÃO REVERSÍVEL. Ele indica que o segundo número apenas especifica o primeiro e não deve gerar entrada permutada ou reversível no catálogo, diferindo totalmente do sinal de adição (+) que agrega temas independentes.",
-    "armadilhaBanca": "CONFUSÃO ENTRE ORDENAÇÃO FIXA E REVERSÍVEL: Atribuir reversibilidade ao sinal de dois pontos duplos (::).",
+    "justificativa": "ERRADO. Na CDU, :: fixa a ordem dos componentes; + reúne assuntos por adição. Os dois sinais não são intercambiáveis. A distinção importante não é imaginar que :: cria uma nova hierarquia lógica universal, mas reconhecer que sua função impede a simples inversão prevista para uma relação reversível.",
+    "armadilhaBanca": "Distinguir ordenação fixa e adição, sem inventar equivalência entre operadores.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na CDU, o sinal de dois pontos duplos (::) representa uma relação de ordenação fixa e irreversível entre dois assuntos (ordem mandatória de arquivamento), diferindo da relação simples (:) reversível e do sinal de adição (+)."
+    "versao_correta": "Na CDU, :: fixa a ordem dos componentes, enquanto + expressa adição de assuntos.",
+    "gatilho": "mesma função semântica do sinal de adição (+)",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.1.1 e 3.2.3: + e :: — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-47",
@@ -949,19 +1103,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "A CDU é uma linguagem de indexação e de recuperação da informação registrada na qual cada assunto é simbolizado por um código que se fundamenta nos números arábicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"informação registrada na qual cada assunto é\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A CDU representa assuntos por uma notação de base decimal, utilizada na organização e recuperação de documentos. Essa base em algarismos arábicos é compatível com sinais e auxiliares: dizer que os códigos se fundamentam em números não equivale a afirmar que são puramente numéricos.",
+    "armadilhaBanca": "Diferenciar base numérica de exclusividade numérica.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "ANTT/2013",
       "ano": 2013,
       "orgao": "2013",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1115"
-    }
+      "origemAcervoLocal": "cespe-cad-1115",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1115"
+    },
+    "gatilho": "código que se fundamenta nos números arábicos",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 1–2: classificação e notação — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Por ter base em algarismos arábicos, a CDU proíbe todos os sinais de relação e auxiliares em suas notações."
   },
   {
     "id": "m3-q-48",
@@ -969,23 +1128,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "Com relação às linguagens documentárias e à indexação, julgue os itens seguintes.",
-    "item": "O cálculo da relação entre a capacidade de recuperar documentos úteis e a capa cidade de evitar documentos inúteis indica a medida de revocação e precisão para avaliar a qualidade da política de indexação.",
+    "item": "Revocação e precisão são medidas complementares para avaliar a recuperação: a primeira considera a cobertura dos documentos relevantes da base, e a segunda, a proporção de relevantes entre os recuperados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Desde os célebres experimentos de Cranfield conduzidos por Cyril Cleverdon na década de 1960 e as formulações de F. W. Lancaster, a eficácia de uma política de indexação e recuperação da informação é mensurada pela relação dialética e inversamente proporcional entre duas métricas fundamentais: a Revocação (Recall - a capacidade do sistema em recuperar todos os documentos relevantes existentes) e a Precisão (Precision - a capacidade em filtrar e evitar a inclusão de documentos irrelevantes no conjunto recuperado).",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
+    "justificativa": "CERTO. Revocação compara relevantes recuperados com todos os relevantes existentes na base; precisão compara relevantes recuperados com o total recuperado. As duas ajudam a avaliar uma estratégia de busca e a política de indexação. Não formam uma razão única nem são necessariamente inversas: ambas podem melhorar com melhor representação ou consulta.",
+    "armadilhaBanca": "Não converter uma tendência observada em determinadas estratégias em lei matemática universal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio Doc (FUB)/FUB/2015",
       "ano": 2015,
       "orgao": "FUB",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-289186"
+      "questaoOriginalId": "TecConcursos-289186",
+      "declaracaoLegada": "Cebraspe / FUB / 2015 (Adaptada); identificador legado: TecConcursos-289186"
     },
-    "gatilho": "cidade de evitar documentos inúteis indica a",
-    "versao_errada": "O cálculo da relação entre a capacidade de recuperar documentos úteis e a capa indevidamente cidade de evitar documentos inúteis indica a medida de revocação e precisão para avaliar a qualidade da política de indexação."
+    "gatilho": "Revocação e precisão",
+    "versao_errada": "Precisão e revocação são necessariamente inversas, de modo que qualquer aumento de uma sempre reduz a outra.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 1: revocação e precisão. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-49",
@@ -993,22 +1155,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.2",
     "contexto": "Julgue os itens subsequentes, relativos aos tesauros.",
-    "item": "Na criação e na manutenção de um tesauro, os diversos fenômenos da linguagem natural devem ser controlados, tais como a polissemia, em que diferentes termos representam um único conce i- to, e a homografia, em que um único termo representa mais de um conceito, sem que seja estabelecida relação semântica entre esses conceitos.",
+    "item": "Na criação e na manutenção de um tesauro, os diversos fenômenos da linguagem natural devem ser controlados, tais como a polissemia, em que diferentes termos representam um único conceito, e a homografia, em que um único termo representa mais de um conceito, sem que seja estabelecida relação semântica entre esses conceitos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A questão inverteu as definições semânticas: polissemia é a condição em que uma única palavra possui múltiplos significados/conceitos distintos; quando diferentes termos expressam o mesmo conceito trata-se de SINONÍMIA (e não polissemia).",
-    "armadilhaBanca": "INVERSÃO SEMÂNTICA CLÁSSICA: Trocar a definição de polissemia pela de sinonímia em vocabulários controlados.",
+    "justificativa": "ERRADO. Diferentes termos que designam o mesmo conceito caracterizam sinonímia. Polissemia ocorre quando uma forma tem sentidos distintos relacionados; na homografia, formas gráficas iguais podem designar conceitos sem relação semântica. O erro do item é chamar sinonímia de polissemia. Compare manga (fruta) e manga (parte da roupa) para perceber a necessidade de desambiguação.",
+    "armadilhaBanca": "A definição atribuída a polissemia é de outro fenômeno linguístico.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "STM/2011",
       "ano": 2011,
       "orgao": "2011",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1107"
+      "origemAcervoLocal": "cespe-cad-1107",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1107"
     },
-    "versao_correta": "Na construção de tesauros documentários, a polissemia é o fenômeno em que um único termo expressa múltiplos conceitos distintos (controlada por desambiguadores/qualificadores), enquanto a sinonímia ocorre quando diferentes termos representam o mesmo conceito (controlada pela relação de equivalência USE/UP)."
+    "versao_correta": "Na construção de tesauros, diferentes termos para um conceito caracterizam sinonímia; uma forma com sentidos relacionados caracteriza polissemia, e formas gráficas iguais com sentidos sem relação exigem controle de homografia.",
+    "gatilho": "diferentes termos representam um único conceito",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: ambiguidade e controle de vocabulário. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-50",
@@ -1018,16 +1184,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o sinal de subagrupamento representado por colchetes [ ] tem por objetivo agrupar termos compostos com fins de ordenação ou clareza semântica, funcionando como parênteses matemáticos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme as normas da CDU, os colchetes [ ] operam como delimitadores algébricos de agrupamento complexo, indicando que a expressão interior deve ser tratada como uma unidade lógica. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Colchetes fazem uma combinação funcionar como unidade antes de sua relação com outro número ou auxiliar. Em [622+669](485), o auxiliar de lugar se aplica ao conjunto agrupado, não apenas ao último número. Isso é diferente dos parênteses da CDU, que têm funções auxiliares próprias.",
+    "armadilhaBanca": "O agrupamento altera o alcance dos componentes da notação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "tem por objetivo agrupar termos compostos com",
-    "versao_errada": "Na CDU, o sinal de subagrupamento representado por colchetes [ ] indevidamente tem por objetivo agrupar termos compostos com fins de ordenação ou clareza semântica, funcionando como parênteses matemáticos."
+    "gatilho": "colchetes [ ]",
+    "versao_errada": "Na CDU, os colchetes são apenas decoração e não modificam o alcance de relações ou auxiliares em uma expressão composta.",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 3.2.2: subagrupamento — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-51",
@@ -1037,15 +1205,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "A taxa de revocação (recall) pode ser calculada dividindo-se o número de documentos pertinentes recuperados pelo número total de documentos recuperados na pesquisa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A fórmula apresentada no enunciado é a da PRECISÃO (documentos pertinentes recuperados / total de documentos recuperados). A REVOCAÇÃO mede o percentual de cobertura do acervo: documentos pertinentes recuperados / total de pertinentes existentes na base.",
-    "armadilhaBanca": "INVERSÃO DAS FÓRMULAS DE REVOCAÇÃO E PRECISÃO: Troca direta dos denominadores das duas métricas centrais de recuperação.",
+    "justificativa": "ERRADO. Esse denominador é o da precisão. Para calcular revocação, é necessário saber quantos documentos relevantes existem na base, inclusive os não recuperados. Se foram encontrados 8 relevantes entre 10 respostas, a precisão é 80%; a revocação permanece desconhecida sem o total de relevantes da base.",
+    "armadilhaBanca": "Identificar o denominador, não apenas os documentos que aparecem no numerador.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "A taxa de revocação (recall) é calculada dividindo-se o número de documentos pertinentes recuperados pelo número total de documentos pertinentes existentes na base de dados (recuperados ou não), enquanto a taxa de precisão (precision) é obtida dividindo-se os pertinentes recuperados pelo total de documentos recuperados."
+    "versao_correta": "Revocação é o número de relevantes recuperados dividido pelo total de relevantes existentes na base.",
+    "gatilho": "número total de documentos recuperados",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 1: fórmulas de desempenho. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-52",
@@ -1053,23 +1224,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.3",
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
-    "item": "A segunda dimensão do documento, do ponto de vista da indexação, denomina-se especificidade.",
+    "item": "Na indexação, a especificidade é uma dimensão distinta da exaustividade: diz respeito ao nível de precisão com que o termo representa o conceito abordado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na teoria clássica da indexação de F. W. Lancaster, a representação temática de um documento articula-se sobre duas dimensões complementares: a Exaustividade (a primeira dimensão, referente ao número de termos ou conceitos atribuídos para cobrir a totalidade dos assuntos tratados no documento) e a Especificidade (a segunda dimensão, referente ao grau de precisão conceitual com que o termo de indexação expressa exatamente o conceito abordado, sem generalizações excessivas).",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
+    "justificativa": "CERTO. Exaustividade indica quantos assuntos/aspectos do documento são representados; especificidade indica quão precisamente o termo corresponde ao conceito. Atribuir muitos termos genéricos pode ser exaustivo e pouco específico. A numeração das dimensões é uma convenção expositiva, não uma sequência obrigatória de etapas.",
+    "armadilhaBanca": "Distinguir quantidade de aspectos representados e nível de precisão conceitual.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
       "ano": 2012,
       "orgao": "STJ",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-104032"
+      "questaoOriginalId": "TecConcursos-104032",
+      "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104032"
     },
-    "gatilho": "do documento, do ponto de vista da",
-    "versao_errada": "A segunda dimensão indevidamente do documento, do ponto de vista da indexação, denomina-se especificidade."
+    "gatilho": "especificidade",
+    "versao_errada": "Exaustividade e especificidade são sinônimos e sempre aumentam juntas quando se acrescentam mais termos ao registro.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: exaustividade e especificidade. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-53",
@@ -1079,20 +1253,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A coerência da indexação é dissociada da coerência intraindexadores.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A coerência da indexação não é dissociada da coerência intraindexador. Ao contrário, a consistência global do sistema é resultado direto da soma da consistência intraindexador (capacidade de o indexador manter as mesmas escolhas ao longo do tempo) e interindexadores (índice de concordância entre múltiplos indexadores da equipe).",
-    "armadilhaBanca": "DISSOCIAÇÃO FALSA: Afirmar independência entre a consistência do sistema e a consistência individual intraindexador.",
+    "justificativa": "ERRADO. A coerência pode ser analisada dentro das escolhas de um mesmo indexador em momentos diferentes ou entre profissionais distintos. Portanto, a coerência intraindexador é uma perspectiva da análise da consistência, não algo dissociado dela. As duas medidas tampouco precisam ser somadas como uma fórmula universal.",
+    "armadilhaBanca": "Distinguir dimensões de avaliação sem inventar uma soma matemática entre elas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "SEDUC-AM/2011",
       "ano": 2011,
       "orgao": "2011",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-929"
+      "origemAcervoLocal": "cespe-cad-929",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-929"
     },
-    "versao_correta": "A coerência global da indexação em um sistema de informação é intrinsecamente dependente da coerência intraindexador (estabilidade do mesmo indexador ao longo do tempo) e da coerência interindexadores (concordância entre diferentes profissionais)."
+    "versao_correta": "A coerência da indexação pode ser analisada tanto na dimensão intraindexador quanto na dimensão interindexadores.",
+    "gatilho": "dissociada",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 5: coerência intra e interindexadores. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-54",
@@ -1102,16 +1280,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "A política de indexação de uma biblioteca deve formalizar o nível de exaustividade, o grau de especificidade dos termos, a escolha da linguagem documentária e as diretrizes de atualização de vocabulário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A política de indexação é o documento institucional que orienta as decisões dos catalogadores e indexadores, assegurando a padronização e a continuidade do tratamento temático do acervo. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A política orienta quais aspectos representar, com que nível de detalhe e em qual linguagem. Essas decisões tornam o trabalho mais consistente com os objetivos e usuários do serviço. Atualizar o vocabulário ajuda a tratar novos conceitos, mas não dispensa a análise de cada documento.",
+    "armadilhaBanca": "Não reduzir decisões intelectuais de representação a uma escolha tecnológica.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "exaustividade, o grau de especificidade dos termos",
-    "versao_errada": "A política de indexação de uma biblioteca deve formalizar o nível de indevidamente exaustividade, o grau de especificidade dos termos, a escolha da linguagem documentária e as diretrizes de atualização de vocabulário."
+    "gatilho": "nível de exaustividade, o grau de especificidade",
+    "versao_errada": "Uma política de indexação precisa apenas escolher o software, sendo dispensáveis decisões sobre exaustividade, especificidade e linguagem.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 2, 5 e 6: decisões do serviço. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-55",
@@ -1121,8 +1301,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "O resumo deve ser redigido utilizando-se o verbo na voz passiva.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme prescreve a ABNT NBR 6028:2021 (item 4.2.2.1), o resumo deve ser composto por uma sequência de frases concisas e afirmativas e NÃO por enumeração de tópicos. Deve-se empregar o verbo na voz ativa e na terceira pessoa do singular (ex.: investigou-se, demonstra, analisa), evitando a voz passiva analítica. O uso da voz ativa garante concisão, clareza e ritmo direto à síntese informativa.",
-    "armadilhaBanca": "INVERSÃO DE REGRA SINTÁTICA: Troca da exigência normativa de voz ativa e 3ª pessoa do singular pela voz passiva na NBR 6028.",
+    "justificativa": "ERRADO. A NBR 6028:2021 não impõe a voz passiva. Ela determina frases concisas em parágrafo único e recomenda o verbo na terceira pessoa. O comentário anterior atribuía à edição 2021 uma obrigação de voz ativa e um número de seção que ela não contém. Distinga obrigação normativa, recomendação e orientação de edições anteriores.",
+    "armadilhaBanca": "Conferir a edição e a força de expressões como deve e convém.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1131,7 +1311,10 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "origemAcervoLocal": "cespe-cad-939",
       "declaracaoLegada": "Cebraspe / 2014 / 2014"
     },
-    "versao_correta": "O resumo deve ser redigido na voz ativa e na terceira pessoa do singular (conforme a ABNT NBR 6028:2021, item 4.2.2.1)."
+    "versao_correta": "Segundo a NBR 6028:2021, convém usar o verbo na terceira pessoa; a norma não exige que o resumo seja redigido na voz passiva.",
+    "gatilho": "deve ser redigido utilizando-se o verbo na voz passiva",
+    "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.2 e 4.1.4. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-56",
@@ -1141,15 +1324,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "A pré-coordenação na indexação consiste na combinação dos termos pelo usuário no momento da consulta por meio de operadores booleanos, sem intervenção prévia do catalogador.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Houve troca conceitual: a combinação de termos pelo consulente no momento da busca é PÓS-COORDENAÇÃO. Na pré-coordenação, os termos já estão estruturados e fixados previamente no sistema pelo bibliotecário (ex.: cabeçalhos compostos e sistemas de classificação).",
-    "armadilhaBanca": "INVERSÃO ENTRE PRÉ E PÓS-COORDENAÇÃO: Definir pós-coordenação chamando-a de pré-coordenação.",
+    "justificativa": "ERRADO. A combinação de termos durante a busca caracteriza pós-coordenação. Na pré-coordenação, os elementos são combinados antes, na representação, como em um cabeçalho composto. Um sistema pode oferecer diferentes formas de acesso; a classificação do procedimento depende do momento em que a combinação ocorre.",
+    "armadilhaBanca": "Inversão do momento da combinação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "A pré-coordenação na indexação ocorre quando a associação e o encadeamento dos termos de assunto são estabelecidos previamente pelo indexador no momento do processamento técnico (como em cabeçalhos de assunto), enquanto a pós-coordenação permite que o usuário combine livremente os termos no ato da busca por operadores booleanos."
+    "versao_correta": "Pré-coordenação combina elementos na representação; pós-coordenação permite combiná-los no momento da busca.",
+    "gatilho": "no momento da consulta",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 4: índices pré-coordenados. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-57",
@@ -1157,23 +1343,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.3",
     "contexto": "Com relação a resumos e índices, julgue os próximos itens.",
-    "item": "No que se refere a livros, o resumo cr ítico que analisa apenas uma das edições desse tipo de obra denomina-se recensão.",
+    "item": "Segundo a ABNT NBR 6028:2021, recensão é uma análise crítica, descritiva e/ou comparativa, geralmente elaborada por especialista.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"cr ítico que analisa apenas uma das\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A edição 2021 define recensão como análise crítica, descritiva e/ou comparativa, geralmente elaborada por especialista. A definição não a limita a uma edição de livro. A redação anterior vinha de uma distinção histórica e não devia ser apresentada como definição atual da norma.",
+    "armadilhaBanca": "Não transportar uma formulação de edição anterior como definição da norma vigente.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
       "ano": 2014,
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-165458"
+      "questaoOriginalId": "TecConcursos-165458",
+      "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165458"
     },
-    "gatilho": "cr ítico que analisa apenas uma das",
-    "versao_errada": "No que se refere a livros, o resumo indevidamente cr ítico que analisa apenas uma das edições desse tipo de obra denomina-se recensão."
+    "gatilho": "recensão",
+    "versao_errada": "A NBR 6028:2021 limita a recensão à análise de uma única edição de livro e exclui análises comparativas.",
+    "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.2: recensão; distinção da terminologia da edição 2003. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-58",
@@ -1183,15 +1372,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "A revogação da ABNT NBR 12676 retirou do bibliotecário brasileiro a obrigação de realizar a leitura técnica das partes componentes do documento durante a análise de assunto.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O cancelamento formal de uma norma de método da ABNT não desobriga a técnica científica. As diretrizes da leitura técnica para determinação do assunto compõem a doutrina universal de indexação (Lancaster, Chaumier, Guimarães; ISO 5963 / ISO 25964), permanecendo como pilar indeclinável da análise conceitual.",
-    "armadilhaBanca": "FALSA DESOBRIGAÇÃO METODOLÓGICA: Supor que a revogação de uma norma ABNT extingue os cânones técnicos universais da disciplina.",
+    "justificativa": "ERRADO. A mudança de status de uma norma técnica não elimina o fundamento metodológico da análise de assunto. Examinar partes informativas do documento continua sendo uma estratégia de leitura técnica. Isso não equivale a afirmar que uma norma cancelada ainda tem vigência nem cria, por si só, uma obrigação legal geral para todo bibliotecário.",
+    "armadilhaBanca": "Separar fundamento técnico, vigência de norma e obrigação legal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Apesar de a ABNT NBR 12676 ter sido cancelada sem substituição imediata, a realização da leitura técnica (exame de títulos, resumos, introdução, conclusão e sumário) permanece como método canônico obrigatório e consagrado da análise documentária na literatura e na prática profissional."
+    "versao_correta": "A análise de assunto continua exigindo exame adequado do documento, independentemente de uma norma específica estar vigente ou cancelada.",
+    "gatilho": "retirou do bibliotecário brasileiro a obrigação",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: análise conceitual e leitura documentária. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-59",
@@ -1201,15 +1393,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "Em sistemas de recuperação da informação, o aumento da exaustividade na indexação de um acervo — caracterizado pela atribuição de um número elevado de termos a cada documento — eleva a precisão das buscas ao restringir a recuperação de registros marginais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A regra canônica de Lancaster postula a relação inversa entre revocação e precisão. Ao atribuir um número maior de termos (alta exaustividade), aumenta-se a revocação (capacidade de encontrar qualquer documento que toque no assunto), mas diminui-se a precisão, trazendo documentos onde o assunto é apenas marginal (ruído).",
-    "armadilhaBanca": "INVERSÃO DA CORRELAÇÃO EXAUSTIVIDADE VS PRECISÃO: Dizer que alta exaustividade aumenta a precisão e restringe documentos marginais.",
+    "justificativa": "ERRADO. Atribuir mais assuntos pode ampliar os caminhos de recuperação e também trazer registros em que o tema é marginal. Isso não restringe automaticamente os resultados nem garante maior precisão. O efeito depende dos termos, da necessidade informacional e da consulta; não há proporcionalidade inversa obrigatória entre precisão e revocação.",
+    "armadilhaBanca": "Uma tendência de ampliação de acesso não é garantia automática de qualidade das respostas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Em sistemas de recuperação da informação, o aumento da exaustividade na indexação eleva a taxa de revocação (recuperam-se mais documentos), mas tende a reduzir a precisão, em decorrência do aumento de ruído documental."
+    "versao_correta": "Aumentar a exaustividade pode ampliar a recuperação, sem garantir maior precisão; o resultado depende da representação e da estratégia de busca.",
+    "gatilho": "eleva a precisão das buscas ao restringir",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 1–2: exaustividade e recuperação. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-60",
@@ -1219,16 +1414,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "Em uma busca em base de dados parlamentar, caso sejam recuperados 100 documentos, dos quais 80 são pertinentes ao tema pesquisado, a taxa de precisão da estratégia de busca foi de 80%.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A métrica de Precisão (Precision) afere a exatidão e a ausência de ruído na busca: calcula-se pela fórmula P = A / (A + B), onde A representa o número de documentos pertinentes recuperados e (A + B) é o total de documentos recuperados pela consulta. Na questão: 80 documentos pertinentes / 100 documentos totais recuperados = 0,80 (ou 80% de precisão). Os outros 20 documentos recuperados constituem o ruído do sistema (20%).",
-    "armadilhaBanca": "Cálculo matemático correto da taxa de precisão.",
+    "justificativa": "CERTO. Precisão é relevantes recuperados divididos pelo total recuperado: 80/100 = 0,80, ou 80%. Os outros 20 documentos constituem ruído nessa busca. A revocação não pode ser calculada sem saber o total de documentos relevantes existentes na base.",
+    "armadilhaBanca": "Não usar o total recuperado como total de relevantes da base.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "dos quais 80 são pertinentes ao tema",
-    "versao_errada": "Em uma busca em base de dados parlamentar, caso sejam recuperados 100 documentos, indevidamente dos quais 80 são pertinentes ao tema pesquisado, a taxa de precisão da estratégia de busca foi de 80%."
+    "gatilho": "80 são pertinentes",
+    "versao_errada": "Com 80 documentos pertinentes entre 100 recuperados, pode-se concluir que a revocação foi de 80%, mesmo sem conhecer os relevantes não recuperados.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 1: cálculo de precisão. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-61",
@@ -1238,16 +1435,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "A especificidade na indexação refere-se à extensão com que o vocabulário controlado permite identificar exatamente o conceito abordado, sem recorrer a classes mais amplas ou termos genéricos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Especificidade é o grau de precisão do descritor: quanto mais específico for o termo de indexação em relação ao assunto do documento, maior será a precisão na recuperação, evitando que buscas por conceitos específicos tragam documentos gerais.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Especificidade é a correspondência entre o termo e o conceito representado. Indexar uma obra sobre cardiopatias congênitas apenas por medicina perde detalhe disponível. Essa correspondência pode favorecer uma recuperação adequada, mas não garante uma taxa fixa de precisão nem substitui a avaliação dos resultados para a necessidade real do usuário.",
+    "armadilhaBanca": "Não confundir especificidade com exaustividade.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "vocabulário controlado permite identificar exatamente o conceito",
-    "versao_errada": "A especificidade na indexação refere-se à extensão com que o indevidamente vocabulário controlado permite identificar exatamente o conceito abordado, sem recorrer a classes mais amplas ou termos genéricos."
+    "gatilho": "exatamente o conceito abordado",
+    "versao_errada": "Especificidade é a quantidade de termos atribuídos, independentemente de seu nível de detalhe conceitual.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: especificidade. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-62",
@@ -1257,21 +1456,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
     "item": "A previsibilidade da relevância e a ausência de erros estão entre os critérios utilizados para avaliação de um resumo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"ausência de erros estão entre os critérios\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
+    "justificativa": "CERTO. Um resumo deve ajudar o leitor a decidir se o documento atende à sua necessidade, sem distorcer métodos, resultados ou conclusões. Essa capacidade é a previsibilidade da relevância; a ausência de erros exige fidelidade ao original. Um texto fluente, mas que atribui resultado inexistente ao estudo, falha na avaliação.",
+    "armadilhaBanca": "Separar boa redação e fidelidade informacional.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio (CADE)/CADE/2014",
       "ano": 2014,
       "orgao": "CADE",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-185266"
+      "questaoOriginalId": "TecConcursos-185266",
+      "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185266"
     },
-    "gatilho": "ausência de erros estão entre os critérios",
-    "versao_errada": "A previsibilidade da relevância e a indevidamente ausência de erros estão entre os critérios utilizados para avaliação de um resumo."
+    "gatilho": "previsibilidade da relevância e a ausência de erros",
+    "versao_errada": "Um resumo pode ser considerado de boa qualidade mesmo quando inventa resultados, desde que tenha redação fluente.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 9: avaliação de resumos. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-63",
@@ -1281,16 +1483,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "A indexação por atribuição diferencia-se da indexação por extração porque, na primeira, o indexador atribui conceitos e descritores padronizados que podem não figurar literalmente nas palavras do texto original.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na indexação por extração (linguagem natural), os termos são copiados literalmente do texto; na indexação por atribuição, utilizam-se termos autorizados de uma linguagem documentária, mesmo que o vocábulo exato não esteja no texto.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Na extração, selecionam-se expressões presentes no texto; na atribuição, podem ser usados termos de uma linguagem de indexação que não aparecem literalmente. Por exemplo, um descritor autorizado pode reunir variantes vocabulares do autor. O termo atribuído precisa corresponder ao conteúdo, não ser um assunto inventado pelo indexador.",
+    "armadilhaBanca": "A ausência literal de uma palavra não impede a representação de um conceito efetivamente tratado.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "primeira, o indexador atribui conceitos e descritores",
-    "versao_errada": "A indexação por atribuição diferencia-se da indexação por extração porque, na indevidamente primeira, o indexador atribui conceitos e descritores padronizados que podem não figurar literalmente nas palavras do texto original."
+    "gatilho": "podem não figurar literalmente",
+    "versao_errada": "A indexação por atribuição só pode utilizar expressões que apareçam literalmente no documento.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: extração e atribuição. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-64",
@@ -1300,21 +1504,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a resumos e índices, julgue os próximos itens.",
     "item": "O índice de assunto, ou índice analítico, é produto da indexação temática.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"assunto, ou índice analítico, é produto da\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. O índice de assuntos reúne entradas que representam os temas abordados e remetem às suas localizações. Em um livro, orçamento público pode apontar para páginas em que o assunto é tratado, mesmo sem ser título de capítulo. Isso difere do sumário, que acompanha a estrutura das seções, e do índice de autores, organizado por nomes.",
+    "armadilhaBanca": "Distinguir acesso por temas, acesso por nomes e estrutura da publicação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
       "ano": 2014,
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-165455"
+      "questaoOriginalId": "TecConcursos-165455",
+      "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165455"
     },
-    "gatilho": "assunto, ou índice analítico, é produto da",
-    "versao_errada": "O índice de indevidamente assunto, ou índice analítico, é produto da indexação temática."
+    "gatilho": "produto da indexação temática",
+    "versao_errada": "O índice de assunto reproduz exclusivamente os títulos dos capítulos na ordem em que aparecem, cumprindo a mesma função do sumário.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 1–2: indexação e produtos; CAD CESPE, item 958. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-65",
@@ -1324,16 +1531,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "O processo de indexação documentária preconizado por Lancaster é constituído fundamentalmente por duas etapas sequenciais: a análise conceitual, na qual se examina o documento e identificam-se os conceitos temáticos, e a tradução, na qual os conceitos identificados são convertidos para termos de uma linguagem documentária ou vocabulário controlado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme Lancaster (1993) e a NBR 12676, a indexação desdobra-se em: 1) Análise conceitual (determinação do assunto principal e conceitos centrais); 2) Tradução terminológica para descritores autorizados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Primeiro identificam-se os assuntos efetivamente tratados; depois se escolhem os elementos da linguagem de indexação que os representarão. Um documento pode falar em infarto e receber um descritor preferido diferente, conforme o vocabulário. A tradução terminológica não é tradução de idiomas nem simples cópia de palavras sem análise.",
+    "armadilhaBanca": "Não confundir tradução terminológica, tradução linguística e extração literal.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "examina o documento e identificam-se os conceitos",
-    "versao_errada": "O processo de indexação documentária preconizado por Lancaster é constituído fundamentalmente por duas etapas sequenciais: a análise conceitual, na qual se indevidamente examina o documento e identificam-se os conceitos temáticos, e a tradução, na qual os conceitos identificados são convertidos para termos de uma linguagem documentária ou vocabulário controlado."
+    "gatilho": "análise conceitual",
+    "versao_errada": "A tradução na indexação é apenas converter o texto para outro idioma, dispensando a análise do assunto.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: análise conceitual e tradução. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-66",
@@ -1343,20 +1552,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de indexação de documentos, julgue os próximos itens.",
     "item": "A precisão consiste em requisito específico dos sistemas de busca e recuperação de informações que independe do conhecimento das necessidades e exigências dos usuários.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A precisão mede a proporção de documentos recuperados que são efetivamente pertinentes para o usuário. Essa pertinência não é um dado mecânico ou intrínseco do sistema, mas uma medida subjetiva que depende do cotejo com a necessidade de informação manifestada pelo usuário.",
-    "armadilhaBanca": "FALSA AUTONOMIA DO SISTEMA: Declarar que a precisão seria independente das necessidades do usuário.",
+    "justificativa": "ERRADO. A precisão depende de quais resultados são julgados relevantes para uma necessidade de informação. Mesmo uma consulta sintaticamente correta pode recuperar documentos inadequados ao pedido. O julgamento pode seguir critérios operacionais de avaliação, mas esses critérios precisam estar definidos; não se presume relevância apenas porque o sistema encontrou o termo.",
+    "armadilhaBanca": "Não confundir coincidência de palavras com pertinência dos resultados.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
       "ano": 2012,
       "orgao": "STJ",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-104045"
+      "questaoOriginalId": "TecConcursos-104045",
+      "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104045"
     },
-    "versao_correta": "A precisão em sistemas de recuperação da informação é um indicador que depende intrinsecamente das necessidades e do julgamento de relevância dos usuários, visto que a pertinência é avaliada pelo atendimento à demanda real do consulente."
+    "versao_correta": "A precisão considera a proporção de resultados relevantes segundo a necessidade e os critérios de avaliação adotados.",
+    "gatilho": "independe do conhecimento das necessidades",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 1: relevância e precisão. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-67",
@@ -1366,8 +1579,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A linguagem de indexação é um tipo de linguagem documentária que permite a representação do conteúdo dos documentos e das consultas de forma analítica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na teoria clássica de Lancaster (1993, 2004) e Cintra et al. (2002), a linguagem de indexação é uma linguagem documentária criada especificamente para indexar e recuperar a informação. Consiste em um sistema artificial de signos que traduz o conteúdo dos documentos e as estratégias de busca em termos padronizados, viabilizando a representação analítica das matérias tratadas e o cotejo semântico entre demanda e acervo.",
-    "armadilhaBanca": "ASSERTIVA CANÔNICA: Definição estrutural exata da linguagem de indexação como instrumento de representação analítica em SRI.",
+    "justificativa": "CERTO. Uma linguagem de indexação aproxima a representação dos documentos e a formulação das buscas. Um descritor preferido pode reunir variantes da expressão usada pelo autor e pelo usuário. A função é representar assuntos e favorecer seu encontro, não reescrever integralmente o documento nem garantir que toda consulta seja automaticamente bem-sucedida.",
+    "armadilhaBanca": "Excluir a linguagem de busca apaga uma das funções da representação temática.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1375,7 +1588,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-cad-930",
       "declaracaoLegada": "Cebraspe / 2011 / 2011"
-    }
+    },
+    "gatilho": "conteúdo dos documentos e das consultas",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 1–2: linguagem de indexação. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "A linguagem de indexação serve apenas para representar documentos e não pode orientar a formulação de consultas."
   },
   {
     "id": "m3-q-68",
@@ -1385,8 +1602,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A análise conceitual e a tradução são as principais etapas da indexação de assuntos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. De acordo com a ABNT NBR 12676 / ISO 5963 e a doutrina de Lancaster, a indexação desdobra-se em duas etapas fundamentais e sucessivas: 1) Análise conceitual (determinação do assunto) — leitura técnica do documento para identificar os conceitos que representam sua essência temática; e 2) Tradução — conversão desses conceitos para a linguagem de indexação utilizada pelo sistema (vocabulário controlado, tesauro ou plano de classificação).",
-    "armadilhaBanca": "BIPARTIÇÃO CLÁSSICA DA INDEXAÇÃO: Cobrança direta do binômio canônico análise conceitual + tradução (NBR 12676 / ISO 5963).",
+    "justificativa": "CERTO. Analisar conceitualmente é identificar do que o documento trata; traduzir é representar esses conceitos pela linguagem adotada. São operações distintas, embora possam exigir retorno e ajuste durante o trabalho. Reconhecer uma palavra no título não substitui compreender o assunto nem conferir o descritor autorizado.",
+    "armadilhaBanca": "Não reduzir o processo intelectual à consulta mecânica do vocabulário.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1394,7 +1611,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-cad-932",
       "declaracaoLegada": "Cebraspe / 2011 / 2011"
-    }
+    },
+    "gatilho": "análise conceitual e a tradução",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: análise conceitual e tradução. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Na indexação, escolher termos do tesauro dispensa a análise conceitual do documento."
   },
   {
     "id": "m3-q-69",
@@ -1404,8 +1625,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
     "item": "O resumo documental caracteriza-se como síntese panorâmica que desconsidera correspondência fidedigna com os argumentos centrais do texto original, priorizando a avaliação crítica do indexador.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a ABNT NBR 6028:2021, o resumo deve ser fidedigno e neutro, espelhando com precisão as finalidades, metodologia, resultados e conclusões do autor original. O elaborador não deve emitir opiniões pessoais nem avaliações críticas (prerrogativa exclusiva da resenha/recensão crítica).",
-    "armadilhaBanca": "DETURPAÇÃO DO RESUMO DOCUMENTAL: Afirmar que o resumo prioriza a avaliação crítica subjetiva do indexador em detrimento da fidelidade ao texto original.",
+    "justificativa": "ERRADO. Resumo apresenta os pontos relevantes do documento e deve representar fielmente seu conteúdo. O informativo inclui finalidade, metodologia, resultados e conclusões; o indicativo não precisa detalhar todos esses elementos. Avaliação crítica não autoriza inventar conteúdo nem substituir a exposição do autor por opinião do resumidor.",
+    "armadilhaBanca": "Não confundir síntese, resumo informativo e avaliação crítica.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1414,7 +1635,10 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "origemAcervoLocal": "cespe-cad-925",
       "declaracaoLegada": "Cebraspe / 2012 / 2012"
     },
-    "versao_correta": "O resumo documental acadêmico ou técnico (conforme a ABNT NBR 6028:2021) deve apresentar uma síntese fiel, concisa e exata dos pontos essenciais do documento original, sendo expressamente vedada a emissão de juízos de valor pessoal ou avaliação crítica do elaborador."
+    "versao_correta": "O resumo deve manter fidelidade ao documento, com o grau de detalhe adequado ao tipo de resumo.",
+    "gatilho": "desconsidera correspondência fidedigna",
+    "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.4–2.6; 4.1.1. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-70",
@@ -1424,15 +1648,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "Segundo Lancaster, a introdução de vocabulários controlados com estrutura hierárquica elimina integralmente o erro humano e garante 100% de consistência entre diferentes indexadores.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Lancaster demonstrou empiricamente que a consistência interindexador raramente ultrapassa 50% a 60% em serviços normais de indexação. Nenhum vocabulário controlado tem o condão de eliminar 100% da subjetividade e da variação humana na tomada de decisão.",
-    "armadilhaBanca": "CATEGÓRICO ABSOLUTO: Atribuir 100% de consistência e erradicação integral de erros a vocabulários controlados.",
+    "justificativa": "ERRADO. Vocabulários controlados reduzem variações terminológicas e ajudam a padronizar a representação. Ainda há decisões humanas na interpretação e seleção de conceitos, além de limitações da própria ferramenta. Por isso, o vocabulário não elimina todos os erros nem garante concordância total. Não existe um teto universal de 50% ou 60% aplicável a qualquer serviço.",
+    "armadilhaBanca": "Rejeitar garantia absoluta sem substituí-la por uma porcentagem inventada.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Conforme demonstrado por F. W. Lancaster, a introdução de vocabulários controlados melhora o controle terminológico, mas não elimina o erro humano nem assegura 100% de consistência entre diferentes indexadores, a qual gira tipicamente em torno de 50% a 60% em condições reais."
+    "versao_correta": "Vocabulários controlados favorecem consistência, mas não eliminam integralmente erros de interpretação ou divergências entre indexadores.",
+    "gatilho": "elimina integralmente o erro humano",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 5–6: coerência e qualidade. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-71",
@@ -1440,22 +1667,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.3",
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
-    "item": "Todos os resumos críticos redigidos por especialistas são chamados de recensão.",
+    "item": "Toda análise crítica feita por especialista recebe obrigatoriamente a denominação recensão na ABNT NBR 6028:2021, independentemente da natureza e da finalidade do texto.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Cebraspe utilizou uma generalização categórica abusiva (\"Todos os resumos...\"). Conforme a NBR 6028:2021 (item 3.2), resumo crítico é a \"análise crítica de um documento, feita por especialistas\", mas a prática biblioteconômica distingue resenha, recensão e resumo crítico conforme a finalidade editorial e jornalística.",
-    "armadilhaBanca": "GENERALIZAÇÃO CATEGÓRICA: O emprego de \"Todos os resumos...\" para forçar uma equivalência terminológica absoluta.",
+    "justificativa": "ERRADO. A norma distingue recensão e resenha por suas definições, sem estabelecer que qualquer texto crítico produzido por um especialista receba automaticamente o mesmo nome. A finalidade e a natureza do texto precisam ser consideradas. A edição 2021 também não limita a recensão a uma única edição de livro, como fazia uma formulação histórica.",
+    "armadilhaBanca": "Não fazer do perfil do autor o único critério de classificação do texto.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio (CADE)/CADE/2014",
       "ano": 2014,
       "orgao": "CADE",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-185274"
+      "questaoOriginalId": "TecConcursos-185274",
+      "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185274"
     },
-    "versao_correta": "O resumo crítico (também chamado de resenha) consiste na análise interpretativa de um documento que expressa a opinião e avaliação do especialista, mas nem toda recensão é redigida por especialistas e a designação \"recensão\" é especificamente vinculada à análise crítica bibliográfica de obras recém-publicadas."
+    "versao_correta": "A NBR 6028:2021 define recensão como análise crítica, descritiva e/ou comparativa, geralmente elaborada por especialista.",
+    "gatilho": "Toda análise crítica feita por especialista",
+    "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.2–2.3: recensão e resenha. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-72",
@@ -1465,16 +1696,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "O ruído na recuperação da informação é caracterizado pela presença de documentos irrelevantes no conjunto de respostas fornecido pelo sistema a uma determinada consulta.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na teoria de Recuperação da Informação (Information Retrieval), o 'Ruído' (Noise) quantifica a falha de precisão do sistema: define-se pela recuperação indevida de documentos irrelevantes ou impertinentes à necessidade real do consulente. O ruído onera a carga cognitiva do usuário, que é obrigado a despender tempo descartando respostas inúteis, sendo o inverso complementar da taxa de precisão.",
-    "armadilhaBanca": "Conceito oficial de ruído em sistemas de recuperação.",
+    "justificativa": "CERTO. Ruído é a recuperação de documentos não relevantes para a consulta. Se 20 de 100 respostas são irrelevantes, a precisão é 80% e a proporção de ruído, nesse mesmo conjunto, é 20%. Isso não informa quantos documentos relevantes ficaram sem recuperação, problema associado ao silêncio.",
+    "armadilhaBanca": "Troca entre resultados irrelevantes recuperados e relevantes não recuperados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "presença de documentos irrelevantes no conjunto de",
-    "versao_errada": "O ruído na recuperação da informação é caracterizado pela indevidamente presença de documentos irrelevantes no conjunto de respostas fornecido pelo sistema a uma determinada consulta."
+    "gatilho": "documentos irrelevantes no conjunto de respostas",
+    "versao_errada": "Ruído é a quantidade de documentos relevantes da base que não foram recuperados.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 1: ruído. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-73",
@@ -1484,16 +1717,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "O silêncio na recuperação da informação ocorre quando o sistema não recupera documentos relevantes existentes no acervo que atenderiam à necessidade do usuário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O 'Silêncio' (Silence) constitui a mais grave falha de revocação em sistemas de busca e recuperação: ocorre quando documentos relevantes que pertencem ao acervo e atenderiam com perfeição à demanda informacional do usuário deixam de ser recuperados pela estratégia de busca (em decorrência de falhas na indexação, vocabulários desatualizados ou sintaxe de busca excessivamente restritiva).",
-    "armadilhaBanca": "Conceito oficial de silêncio na recuperação de informações.",
+    "justificativa": "CERTO. Silêncio corresponde a documentos relevantes existentes na base que a busca deixa de recuperar. Se há 50 relevantes e apenas 30 são encontrados, 20 ficaram em silêncio e a revocação é 60%. A existência de resultados na tela não prova que a busca tenha coberto os documentos relevantes.",
+    "armadilhaBanca": "Silêncio não significa necessariamente uma tela vazia.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "o sistema não recupera documentos relevantes existentes",
-    "versao_errada": "O silêncio na recuperação da informação ocorre quando indevidamente o sistema não recupera documentos relevantes existentes no acervo que atenderiam à necessidade do usuário."
+    "gatilho": "não recupera documentos relevantes existentes",
+    "versao_errada": "Silêncio ocorre somente quando a pesquisa não apresenta nenhuma resposta, mesmo que todos os documentos relevantes tenham sido recuperados.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 1: silêncio. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-74",
@@ -1501,22 +1736,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.3",
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
-    "item": "Ao recuperar três itens que correspondem à pesquisa de um total de oito itens úteis, chega -se ao índice denominado coeficiente de precisão.",
+    "item": "Ao recuperar três itens que correspondem à pesquisa de um total de oito itens úteis, chega-se ao índice denominado coeficiente de precisão.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Quando a relação considera os documentos úteis recuperados em comparação com a totalidade dos documentos úteis existentes no acervo (8 úteis no acervo, dos quais 3 foram recuperados), calcula-se a TAXA DE REVOCAÇÃO (Recall). A precisão exigiria comparar os 3 úteis com o total de documentos recuperados na busca.",
-    "armadilhaBanca": "TROCA DE MÉTRICA NA AVALIAÇÃO DE BUSCA: Confundir revocação (pertinentes recuperados / pertinentes existentes) com precisão.",
+    "justificativa": "ERRADO. O denominador indicado é o conjunto de itens úteis existentes, não o total de respostas. Assim, 3/8 = 37,5% é revocação. A precisão exigiria conhecer quantos documentos foram recuperados ao todo, incluindo os irrelevantes. Comece identificando o universo do denominador antes de fazer a divisão.",
+    "armadilhaBanca": "O mesmo numerador pode integrar métricas distintas conforme o denominador.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio (CADE)/CADE/2014",
       "ano": 2014,
       "orgao": "CADE",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-185267"
+      "questaoOriginalId": "TecConcursos-185267",
+      "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185267"
     },
-    "versao_correta": "Ao recuperar três itens pertinentes de um total de oito itens pertinentes existentes na base de dados, obtém-se o coeficiente de revocação (3/8 = 37,5%), e não de precisão."
+    "versao_correta": "Recuperar três dos oito documentos relevantes existentes corresponde a revocação de 37,5%.",
+    "gatilho": "total de oito itens úteis",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 1: revocação. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-75",
@@ -1526,15 +1765,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "De acordo com a teoria clássica da indexação de Lancaster, uma alta consistência entre indexadores é garantia necessária e suficiente de alta qualidade intrínseca e exatidão da representação temática do documento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Lancaster adverte enfaticamente que consistência é medida de concordância, e não de exatidão ou qualidade. Indexadores podem ser altamente consistentes ao cometerem o mesmo equívoco de interpretação ou ao adotarem uma política defasada.",
-    "armadilhaBanca": "CONFUSÃO ENTRE CONSISTÊNCIA E QUALIDADE: Equiparar concordância entre indexadores à qualidade intrínseca da representação.",
+    "justificativa": "ERRADO. Consistência é concordância; qualidade também exige representação adequada do assunto e das necessidades do serviço. Dois indexadores podem escolher o mesmo descritor inadequado e alcançar concordância alta. Assim, a consistência, isoladamente, não é uma garantia suficiente de qualidade temática.",
+    "armadilhaBanca": "Distinguir um indicador de concordância de uma garantia de qualidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "De acordo com F. W. Lancaster, alta consistência entre indexadores significa apenas que eles concordaram na escolha dos termos, não constituindo garantia de alta qualidade ou exatidão, pois múltiplos profissionais podem consistentemente atribuir termos errados ou imprecisos ao documento."
+    "versao_correta": "Uma alta consistência entre indexadores indica concordância, mas não garante sozinha que os termos escolhidos sejam adequados.",
+    "gatilho": "garantia necessária e suficiente",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 5–6: coerência e qualidade. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-76",
@@ -1543,17 +1785,20 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "submoduloId": "3.4",
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Em um tesauro documentário estruturado conforme as normas internacionais, a relação hierárquica entre um Termo Geral (TG) e um Termo Específico (TE) reflete uma relação intrínseca do tipo gênero-espécie ou todo-parte, devendo ser simétrica e recíproca.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a ISO 25964 e Gomes & Campos, a relação hierárquica (TG/TE) é estritamente simétrica e recíproca: se o conceito A é Termo Geral (TG) de B, obrigatoriamente o conceito B deve figurar como Termo Específico (TE) de A. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. A relação hierárquica tem reciprocidade por relações inversas: se A é TG de B, B é TE de A. Isso não significa que B também seja TG de A, como exigiria a simetria da mesma relação. Em contraste, TR é simétrica: A TR B implica B TR A. O comentário anterior confundia essas duas propriedades.",
+    "armadilhaBanca": "Reciprocidade de relações inversas não equivale à simetria de uma mesma relação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "Geral (TG) e um Termo Específico (TE)",
-    "versao_errada": "Em um tesauro documentário estruturado conforme as normas internacionais, a relação hierárquica entre um Termo indevidamente geral (tg) e um termo específico (te) reflete uma relação intrínseca do tipo gênero-espécie ou todo-parte, devendo ser simétrica e recíproca."
+    "gatilho": "simétrica e recíproca",
+    "versao_errada": "",
+    "fonte": "W3C — SKOS Reference, 2009 — 8.3: S23 e S25; relações hierárquicas inversas — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "A relação TG/TE é recíproca por inversão: se A é TG de B, B é TE de A; isso não torna TG uma relação simétrica."
   },
   {
     "id": "m3-q-77",
@@ -1563,20 +1808,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os seguintes itens, relativos a representação temática de recursos infor -",
     "item": "A representação temática permite a individualização do documento por meio da padronização dos pontos de acesso.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O objetivo de individualizar o documento e padronizar pontos de acesso de autoria e título pertence à representação DESCRITIVA (catalogação). A representação TEMÁTICA (classificação e indexação) tem a função oposta: não individualiza, mas reúne e agrupa documentos que compartilham o mesmo assunto.",
-    "armadilhaBanca": "INVERSÃO DE FUNÇÕES DA CATALOGAÇÃO E DA INDEXAÇÃO: Atribuir a função de individualização da representação descritiva à representação temática.",
+    "justificativa": "ERRADO. A representação temática oferece acesso ao conteúdo e reúne documentos por assuntos. A descrição bibliográfica, com dados como título, edição e publicação, permite identificar e distinguir recursos. Pontos de acesso de assunto também podem ser controlados, portanto o erro não é supor que só a descrição tenha padronização; é atribuir à representação temática a função caracterizadora da descrição.",
+    "armadilhaBanca": "Não transformar controle de pontos de acesso em exclusividade da representação descritiva.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
       "ano": 2018,
       "orgao": "STJ",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-624214"
+      "questaoOriginalId": "TecConcursos-624214",
+      "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624214"
     },
-    "versao_correta": "A representação descritiva (catalogação) é a responsável pela individualização física e bibliográfica do documento e pela padronização dos pontos de acesso formais (autores, títulos), enquanto a representação temática tem como função precípua agrupar documentos pelo seu conteúdo de assunto."
+    "versao_correta": "A representação temática organiza o acesso por assuntos, enquanto a descrição bibliográfica identifica e distingue os recursos.",
+    "gatilho": "individualização do documento",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 1–2: representação de assuntos. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-78",
@@ -1586,15 +1835,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Nos tesauros documentários, a relação de equivalência entre descritores autorizados e formas não preferidas é formalizada pelo operador Termo Relacionado (TR), indicando correlação conceitual associativa entre as entradas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A relação de equivalência semântica é expressa estritamente por USE (no termo rejeitado/sinônimo) e UP / Usado Para (no descritor autorizado). O operador TR (Termo Relacionado) é exclusivo para a relação ASSOCIATIVA entre termos conceituais conexos.",
-    "armadilhaBanca": "CONFUSÃO ENTRE RELAÇÃO DE EQUIVALÊNCIA E ASSOCIATIVA: Atribuir o operador TR à relação de equivalência.",
+    "justificativa": "ERRADO. TR liga conceitos associados; USE e UP encaminham formas não preferidas ao termo autorizado e registram a remissão inversa. Em um tesauro, a remissão de um sinônimo ao termo preferido não é a mesma operação que associar dois conceitos diferentes. As siglas revelam funções distintas, não intercambiáveis.",
+    "armadilhaBanca": "Distinguir equivalência entre denominações e associação entre conceitos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Nos tesauros documentários, a relação de equivalência entre descritores autorizados e formas não preferidas é expressa pelos operadores USE e UP (Usado Para); o operador Termo Relacionado (TR) formaliza a relação associativa entre termos afins."
+    "versao_correta": "A equivalência terminológica é indicada por USE/UP; TR indica relação associativa entre conceitos.",
+    "gatilho": "operador Termo Relacionado (TR)",
+    "fonte": "W3C — SKOS Reference, 2009 — 5 e 8: rótulos e relações semânticas — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-79",
@@ -1602,22 +1854,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.4",
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
-    "item": "Cobertura, intencionalidade, recuperabilidade e confidenciabilidade são os critérios utilizados para avaliação de uma base de dados.",
+    "item": "Na avaliação de uma base de dados, cobertura e confiabilidade são aspectos relevantes; para avaliar a recuperação, a taxa de precisão é sempre igual à revocação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva introduz termos espúrios e inexistentes na literatura técnica (\"intencionalidade\", \"confidenciabilidade\") para descaracterizar os parâmetros reais de avaliação de bases de dados (como cobertura, atualidade, facilidade de uso, revocação, precisão e consistência).",
-    "armadilhaBanca": "INVENTÁRIO DE CRITÉRIOS FICTÍCIOS: Inclusão de termos inventados pela banca (\"intencionalidade\", \"confidenciabilidade\") em rol de avaliação de bases.",
+    "justificativa": "ERRADO. Cobertura, capacidade de recuperação e confiabilidade são aspectos pertinentes à avaliação. Entretanto, precisão e revocação têm denominadores diferentes e não se tornam iguais por pertencerem ao mesmo processo avaliativo. É preciso distinguir completude da base, qualidade dos dados e qualidade da resposta a uma consulta.",
+    "armadilhaBanca": "A enumeração de critérios plausíveis não torna correta uma equivalência matemática falsa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio (CADE)/CADE/2014",
       "ano": 2014,
       "orgao": "CADE",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-185269"
+      "questaoOriginalId": "TecConcursos-185269",
+      "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185269"
     },
-    "versao_correta": "Os critérios clássicos consagrados na literatura para avaliação de bases de dados compreendem parâmetros como cobertura temática, atualidade dos dados, autoridade da fonte, revocação e precisão, ergonomia/usabilidade da interface e tempo de resposta."
+    "versao_correta": "Na avaliação de recuperação, precisão considera relevantes entre recuperados, e revocação considera recuperados entre todos os relevantes da base.",
+    "gatilho": "igual à revocação",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 1 e 9: avaliação de serviços e bases. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-80",
@@ -1627,15 +1883,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "O formato SKOS (Simple Knowledge Organization System), baseado nos padrões do W3C, é incompatível com a representação de tesauros e vocabulários controlados na Web Semântica.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O SKOS (Simple Knowledge Organization System) é exatamente o padrão oficial de interoperabilidade do W3C concebido para converter e serializar vocabulários controlados e tesauros na web semântica via Linked Open Data.",
-    "armadilhaBanca": "FALSA INCOMPATIBILIDADE TECNOLÓGICA: Dizer que o padrão SKOS do W3C seria incompatível com tesauros na Web Semântica.",
+    "justificativa": "ERRADO. SKOS foi concebido para representar sistemas de organização do conhecimento, como tesauros, taxonomias e esquemas de classificação, em RDF. Ele permite identificar conceitos, rótulos e relações. Isso não torna todos os vocabulários automaticamente abertos nem elimina o trabalho de modelagem e validação.",
+    "armadilhaBanca": "Não negar a finalidade do padrão nem confundir representação com abertura irrestrita.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "O padrão SKOS (Simple Knowledge Organization System), mantido pelo W3C, foi desenvolvido especificamente para representar e publicar tesauros, esquemas de classificação, taxonomias e vocabulários controlados em RDF na Web Semântica."
+    "versao_correta": "SKOS permite representar tesauros e outros sistemas de organização do conhecimento em RDF na Web.",
+    "gatilho": "incompatível",
+    "fonte": "W3C — SKOS Reference, 2009 — 1 e 8: sistemas de organização do conhecimento em RDF — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-81",
@@ -1645,16 +1904,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "A relação associativa em um tesauro, expressa pelo operador Termo Relacionado (TR), é simétrica e estabelece conexões entre termos que não mantêm relação hierárquica nem de equivalência, mas compartilham proximidade conceitual ou pragmática.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Se o termo A tem relação associativa com o termo B (A TR B), reciprocamente B deve apresentar A como termo relacionado (B TR A), sinalizando afinidade de contexto (ex.: Enfermagem TR Hospital). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Na relação associativa, A TR B implica B TR A. Hospital e assistência hospitalar podem ser associados sem que um seja simplesmente sinônimo do outro. No SKOS, related é simétrica e distinta da relação hierárquica transitiva; uma associação também não autoriza inferir automaticamente novas associações por transitividade.",
+    "armadilhaBanca": "Não confundir simetria e transitividade.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "simétrica e estabelece conexões entre termos que",
-    "versao_errada": "A relação associativa em um tesauro, expressa pelo operador Termo Relacionado (TR), é indevidamente simétrica e estabelece conexões entre termos que não mantêm relação hierárquica nem de equivalência, mas compartilham proximidade conceitual ou pragmática."
+    "gatilho": "simétrica",
+    "versao_errada": "Se A TR B e B TR C, então A TR C é obrigatoriamente verdadeiro em qualquer tesauro.",
+    "fonte": "W3C — SKOS Reference, 2009 — 8.3, S23: propriedade simétrica skos:related — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-82",
@@ -1664,8 +1925,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A prática do indexador, associada ao conhecimento das demandas e necessidades de informação dos usuários, é um procedimento utilizado para agilizar o trabalho de análise documentária.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na doutrina de Lancaster e Chaumier sobre indexação voltada ao usuário (user-centered indexing), o conhecimento prévio do perfil da comunidade atendida e das dúvidas mais frequentes permite uma leitura técnica orientada e seletiva. Essa bagagem prática do indexador agiliza a análise documentária sem comprometer a revocação e a precisão do sistema.",
-    "armadilhaBanca": "INDEXAÇÃO ORIENTADA AO USUÁRIO: Validação da experiência prática e do perfil de demanda como fatores de celeridade na análise conceitual.",
+    "justificativa": "CERTO. Conhecer a comunidade e acumular experiência ajuda a reconhecer partes relevantes do documento e selecionar conceitos úteis ao serviço. Isso pode agilizar a análise, mas não dispensa examinar o conteúdo nem garante resultados sem avaliação. O perfil do usuário orienta a leitura técnica; não autoriza atribuir temas inexistentes.",
+    "armadilhaBanca": "Conhecimento do contexto orienta a análise, mas não a substitui.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1673,7 +1934,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-cad-933",
       "declaracaoLegada": "Cebraspe / 2011 / 2011"
-    }
+    },
+    "gatilho": "conhecimento das demandas e necessidades de informação dos usuários",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 2–3: análise orientada às necessidades. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "A experiência do indexador permite dispensar a análise do documento e atribuir assuntos apenas pelas preferências presumidas dos usuários."
   },
   {
     "id": "m3-q-83",
@@ -1683,15 +1948,19 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de indexação de documentos, julgue os próximos itens.",
     "item": "Por meio da ferramenta de mineração de textos é possível realizar a sumarização de um conjunto de documentos em agrupamentos e apresentá-los sob a forma de gráficos indicativos das relações semânticas dos termos que os compõem.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A mineração de textos (text mining) utiliza processamento de linguagem natural (PLN), estatística e aprendizado de máquina para extrair padrões e conhecimento de grandes coleções textuais não estruturadas. Entre suas técnicas fundamentais estão o agrupamento (clustering), a sumarização temática automática e a geração de grafos e mapas de relações semânticas entre os termos indexados.",
-    "armadilhaBanca": "CONCEITO OPERACIONAL DE TEXT MINING: Descrição correta das etapas de agrupamento, sumarização e visualização de grafos conceituais.",
+    "justificativa": "CERTO. Mineração de textos pode agrupar documentos por semelhanças e apresentar padrões em mapas ou grafos de termos. Esse processamento ajuda a explorar um conjunto textual. As conexões calculadas, porém, podem refletir coocorrência ou similaridade e não provam, sozinhas, uma relação semântica válida ou causal entre conceitos.",
+    "armadilhaBanca": "Não converter padrão estatístico em prova de significado ou causalidade.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Baeza-Yates, R.; Ribeiro-Neto, B. Modern Information Retrieval (2013)",
       "verificado": false,
       "declaracaoLegada": "Cebraspe / STJ / 2012"
-    }
+    },
+    "gatilho": "é possível realizar a sumarização",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 15: indexação automática e processos afins. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Um grafo gerado por mineração de textos prova que toda ligação entre termos corresponde a uma relação causal entre seus conceitos."
   },
   {
     "id": "m3-q-84",
@@ -1701,15 +1970,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "As notas de escopo (NE) em tesauros documentários concentram-se na indicação da raiz etimológica e da evolução filológica dos termos, afastando orientações pragmáticas sobre o uso do descritor na indexação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Nota de Escopo (Scope Note) é uma instrução eminentemente pragmática do vocabulário controlado: serve para informar em que sentido o termo deve ser utilizado naquele sistema de informação e quando deve ser evitado. Não tem função etimológica.",
-    "armadilhaBanca": "DESVIO DE FINALIDADE DA NOTA DE ESCOPO: Afastar o uso prático da nota de escopo e vinculá-la a estudos etimológicos.",
+    "justificativa": "ERRADO. Nota de escopo delimita o sentido e as condições de uso de um conceito no vocabulário. Pode esclarecer inclusões, exclusões e diferenças em relação a termos próximos. Uma nota etimológica pode ter outra finalidade documental, mas não substitui a orientação de aplicação do descritor.",
+    "armadilhaBanca": "Distinguir delimitação de uso e história etimológica da palavra.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "As notas de escopo (NE) em tesauros documentários têm a função precípua de restringir, delimitar e orientar o uso prático e o alcance conceitual do descritor na indexação e recuperação, não se destinando a tratados etimológicos ou filológicos."
+    "versao_correta": "Notas de escopo esclarecem o sentido e as condições de aplicação do conceito na indexação.",
+    "gatilho": "afastando orientações pragmáticas",
+    "fonte": "W3C — SKOS Reference, 2009 — 7: skos:scopeNote — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-85",
@@ -1719,8 +1991,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "A cobertura do índice deve abranger todo o documento, inclusive as notas, os apêndices e os anexos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme estabelece expressamente a ABNT NBR 6034:2004 (item 4.1), o índice deve abranger todas as partes substantivas da publicação. A cobertura deve ser completa para garantir a recuperação de qualquer dado relevante, contemplando não apenas o corpo principal do texto, mas também as notas de rodapé/explicativas, os apêndices e os anexos.",
-    "armadilhaBanca": "GENERALIZAÇÃO APARENTE: A expressão \"inclusive as notas, os apêndices e os anexos\" soa como generalização excessiva, mas reflete o texto literal do item 4.1 da NBR 6034.",
+    "justificativa": "CERTO. A indexação da publicação não deve ignorar automaticamente conteúdo substantivo apenas por estar em notas ou elementos pós-textuais. Um conceito relevante desenvolvido em um apêndice também precisa ser localizável. Abranger o documento não significa criar entrada para toda palavra ou toda ocorrência sem importância.",
+    "armadilhaBanca": "Distinguir cobertura das partes do documento e indexação indiscriminada de cada palavra.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1728,7 +2000,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-cad-938",
       "declaracaoLegada": "Cebraspe / 2014 / 2014"
-    }
+    },
+    "gatilho": "inclusive as notas, os apêndices e os anexos",
+    "fonte": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada — Módulo 5, CADE/2014, item 951; índice da publicação. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "O índice deve ignorar assuntos desenvolvidos nos apêndices e anexos, mesmo quando são relevantes para o conteúdo da publicação."
   },
   {
     "id": "m3-q-86",
@@ -1738,15 +2014,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "A linguagem documentária artificial da CDU é classificada como uma linguagem pós-coordenada pura, pois não prevê classes prontas ou tabelas enumerativas para indexação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A CDU não é uma linguagem pós-coordenada pura. Trata-se de um sistema pré-coordenado de base hierárquica, dotado de síntese analítica (facetas e tabelas auxiliares) que enriquecem suas tabelas principais enumerativas.",
-    "armadilhaBanca": "CLASSIFICAÇÃO TEÓRICA INCORRETA: Rotular a CDU como uma linguagem pós-coordenada pura.",
+    "justificativa": "ERRADO. A CDU dispõe de classes enumeradas e mecanismos de síntese que podem combinar elementos durante a representação. Portanto, não é um sistema sem classes prontas nem uma linguagem puramente pós-coordenada. A possibilidade de pesquisar partes de uma notação não altera automaticamente o momento em que ela foi composta.",
+    "armadilhaBanca": "Não confundir composição da notação e operação posterior de busca.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "A linguagem documentária da Classificação Decimal Universal (CDU) é pré-coordenada e analítico-sintética, contendo tabelas principais com milhares de classes conceituais já estruturadas e enumeradas."
+    "versao_correta": "A CDU combina classes enumeradas e mecanismos de síntese na representação dos assuntos.",
+    "gatilho": "pós-coordenada pura",
+    "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — 1–4: classes e síntese — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-87",
@@ -1754,22 +2033,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.4",
     "contexto": "Julgue os próximos itens, relativos à indexação.",
-    "item": "A leitura documentária diferencia -se da leitura comum quanto ao contexto sociocognitivo do indexador, o qual não é relevante naquele tipo de leitura, dada a sua natureza.",
+    "item": "A leitura documentária diferencia-se da leitura comum quanto ao contexto sociocognitivo do indexador, o qual não é relevante naquele tipo de leitura, dada a sua natureza.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A dimensão sociocognitiva é o coração da leitura documentária. O profissional não lê como um leitor recreativo ou neutro; sua leitura é orientada pelas necessidades presumidas do usuário do sistema, contextualizando a extração de conceitos à missão da unidade de informação.",
-    "armadilhaBanca": "NEGAÇÃO DA ABORDAGEM SOCIOCOGNITIVA: Dizer que o contexto sociocognitivo não é relevante na leitura documentária.",
+    "justificativa": "ERRADO. O contexto do serviço, a experiência do indexador e as necessidades dos usuários influenciam a seleção de conceitos. A leitura documentária é orientada por uma tarefa profissional e não exclui fatores sociocognitivos. Essa orientação não justifica substituir o conteúdo do documento por expectativas sem evidência.",
+    "armadilhaBanca": "A finalidade técnica da leitura não elimina seu contexto sociocognitivo.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
       "ano": 2013,
       "orgao": "MPU",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-228966"
+      "questaoOriginalId": "TecConcursos-228966",
+      "declaracaoLegada": "Cebraspe / MPU / 2013 (Adaptada); identificador legado: TecConcursos-228966"
     },
-    "versao_correta": "A leitura documentária diferencia-se da leitura comum exatamente por exigir uma abordagem sociocognitiva focada, na qual o indexador analisa o documento orientando-se pelas demandas informacionais e pelo contexto cultural e profissional da comunidade de usuários que utilizará o acervo."
+    "versao_correta": "A leitura documentária considera o contexto do serviço e as necessidades informacionais ao analisar o conteúdo.",
+    "gatilho": "não é relevante",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — capítulos 2–3: análise documentária. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-88",
@@ -1779,8 +2062,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "A indicação textual do índice deve ser específica, como, por exemplo, índice de assuntos ou índice onomástico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. De acordo com a ABNT NBR 6034:2004 (item 4.2.1), o cabeçalho ou título do índice deve definir claramente sua abrangência ou critério de ordenação. Recomenda-se o uso de denominações específicas como \"Índice de autores\", \"Índice de assuntos\", \"Índice onomástico\" ou \"Índice cronológico\", rejeitando-se designações vagas ou ambíguas.",
-    "armadilhaBanca": "EXIGÊNCIA DE ESPECIFICIDADE NOMINATIVA: A NBR 6034 exige denominação textual precisa que evidencie a tipologia da chave de busca.",
+    "justificativa": "CERTO. Um título como Índice de assuntos ou Índice onomástico informa qual tipo de entrada o leitor encontrará. A identificação específica facilita escolher o instrumento de acesso adequado. Isso não equivale a exigir que todos os índices sejam de assuntos: um índice de nomes tem outra abrangência e deve ser identificado como tal.",
+    "armadilhaBanca": "Diferenciar a identificação do instrumento e o critério de suas entradas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1788,7 +2071,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-cad-940",
       "declaracaoLegada": "Cebraspe / 2014 / 2014"
-    }
+    },
+    "gatilho": "indicação textual do índice deve ser específica",
+    "fonte": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada — Módulo 5, CADE/2014, item 953. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "Um índice de autores deve receber o título Índice de assuntos, pois todos os índices têm a mesma natureza."
   },
   {
     "id": "m3-q-89",
@@ -1796,22 +2083,26 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.4",
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
-    "item": "Coerência intraindexador refere-se à concordância entre diferentes indexadores, e a coerência interindexadores refere -se à extensão com que determinado indexador é coer ente consigo mesmo.",
+    "item": "Coerência intraindexador refere-se à concordância entre diferentes indexadores, e a coerência interindexadores refere-se à extensão com que determinado indexador é coerente consigo mesmo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva cometeu a inversão clássica dos prefixos \"intra\" e \"inter\": intraindexador é a coerência interna de UM MESMO indivíduo consigo mesmo em momentos temporais distintos; interindexadores é a coerência ENTRE diferentes profissionais da equipe.",
-    "armadilhaBanca": "INVERSÃO DE PREFIXOS INTRA E INTER: Troca direta entre coerência intraindexador (individual) e interindexadores (coletiva).",
+    "justificativa": "ERRADO. Os prefixos foram invertidos. Intraindexador compara escolhas do mesmo profissional em momentos diferentes; interindexadores compara escolhas de profissionais distintos. Repetir um exercício logo após ver a resposta também não é uma avaliação independente da consistência em outro momento.",
+    "armadilhaBanca": "Ler os prefixos intra e inter e identificar quem está sendo comparado.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
       "ano": 2012,
       "orgao": "STJ",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-104031"
+      "questaoOriginalId": "TecConcursos-104031",
+      "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104031"
     },
-    "versao_correta": "A coerência intraindexador refere-se à estabilidade e concordância com que um mesmo indexador indexa documentos semelhantes ao longo do tempo, enquanto a coerência interindexadores refere-se ao grau de concordância entre diferentes indexadores que analisam o mesmo documento."
+    "versao_correta": "Coerência intraindexador refere-se ao mesmo indexador; coerência interindexadores, à comparação entre diferentes profissionais.",
+    "gatilho": "intraindexador refere-se à concordância entre diferentes indexadores",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 5: intra e interindexadores. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-90",
@@ -1819,18 +2110,20 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.4",
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
-    "item": "A estrutura de um tesauro funcional para a área jurídica e legislativa deve prever controle de homógrafos por meio de qualificadores entre parênteses, a exemplo de \"Mandato (Direito Político)\" e \"Mandato (Direito Civil)\".",
+    "item": "Um vocabulário controlado pode distinguir homógrafos por qualificadores, como Banco (instituição financeira) e Banco (mobiliário), para evitar a mistura de conceitos distintos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os qualificadores entre parênteses são elementos de desambiguação semântica indispensáveis em linguagens documentárias para diferenciar homógrafos e homônimos em domínios correlatos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Qualificadores distinguem conceitos que compartilham a mesma forma gráfica. Banco (instituição financeira) e Banco (mobiliário) designam conceitos diferentes; a qualificação evita reunir registros apenas pela palavra banco. Ela deve seguir a política do vocabulário, sem criar distinções arbitrárias para conceitos equivalentes.",
+    "armadilhaBanca": "Mesma forma gráfica não significa identidade de conceito.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "por meio de",
-    "versao_errada": "A estrutura de um tesauro funcional para a área jurídica e legislativa deve prever controle de homógrafos indevidamente por meio de qualificadores entre parênteses, a exemplo de \"Mandato (Direito Político)\" e \"Mandato (Direito Civil)\"."
+    "gatilho": "por qualificadores",
+    "versao_errada": "Os qualificadores Banco (instituição financeira) e Banco (mobiliário) indicam sinônimos que devem ser fundidos no mesmo conceito.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: controle de homógrafos. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-91",
@@ -1838,18 +2131,20 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.4",
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
-    "item": "Em um tesauro documentário, admite-se que um único descritor seja vinculado como Termo Específico (TE) de dois oumais Termos Gerais distintos, fenômeno técnico denominado poli-hierarquia.",
+    "item": "Em um tesauro documentário, um conceito pode estar subordinado a dois ou mais conceitos gerais, desde que cada relação hierárquica seja válida; essa estrutura é denominada poli-hierarquia.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A poli-hierarquia ocorre quando um conceito pertence legitimamente a mais de uma categoria lógica simultaneamente (ex.: \"Óptica\" como TE de \"Física\" e TE de \"Oftalmologia\"). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Poli-hierarquia permite que um conceito tenha mais de um conceito geral, quando as relações hierárquicas forem justificadas. O número de pais não é uma duplicação de sinônimos, nem toda associação entre assuntos é hierárquica. Cada ligação deve ser verificada, em vez de tratar proximidade temática como TG/TE.",
+    "armadilhaBanca": "Múltiplos pais hierárquicos exigem relações válidas, não apenas afinidade temática.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "seja vinculado como Termo Específico (TE) de",
-    "versao_errada": "Em um tesauro documentário, admite-se que um único descritor indevidamente seja vinculado como termo específico (te) de dois oumais Termos Gerais distintos, fenômeno técnico denominado poli-hierarquia."
+    "gatilho": "dois ou mais conceitos gerais",
+    "versao_errada": "Em uma estrutura poli-hierárquica, qualquer proximidade temática autoriza tratar um conceito como termo específico de outro.",
+    "fonte": "W3C — SKOS Reference, 2009 — 8: relações hierárquicas; múltiplas relações broader — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-92",
@@ -1859,20 +2154,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de indexação de documentos, julgue os próximos itens.",
     "item": "O descritor, por ser um elemento da linguagem natural, pode ser empregado para se representar um texto em sistemas de informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O descritor é o elemento básico de uma LINGUAGEM DOCUMENTÁRIA CONTROLADA. Ele é artificialmente normalizado para eliminar ambiguidades, sinônimos e ambiguidades da linguagem natural. Portanto, é falso categorizá-lo como elemento da linguagem natural.",
-    "armadilhaBanca": "CONFUSÃO ENTRE LINGUAGEM NATURAL E CONTROLADA: Afirmar que o descritor seria um elemento da linguagem natural.",
+    "justificativa": "ERRADO. Uma palavra pode vir da linguagem natural, mas funciona como descritor por ter sido selecionada e normalizada na linguagem documentária. O controle define seu sentido e suas relações no sistema. O erro é atribuir sua condição técnica apenas à origem natural da palavra, como se toda palavra livre fosse descritor.",
+    "armadilhaBanca": "Não confundir origem lexical e função terminológica controlada.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
       "ano": 2012,
       "orgao": "STJ",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-104043"
+      "questaoOriginalId": "TecConcursos-104043",
+      "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104043"
     },
-    "versao_correta": "O descritor é um termo autorizado e padronizado pertencente a uma linguagem documentária ou vocabulário controlado (e não à linguagem natural livre), empregado de forma unívoca para representar conceitos em sistemas de recuperação da informação."
+    "versao_correta": "Um descritor é um termo selecionado em uma linguagem de indexação para representar conceitos, podendo ter origem na linguagem natural.",
+    "gatilho": "por ser um elemento da linguagem natural",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: vocabulário controlado e descritores. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-93",
@@ -1882,16 +2181,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Uma lista de cabeçalhos de assunto tradicional caracteriza-se por adotar termos compostos pré-coordenados estruturados com subdivisões de forma, assunto, geográfica e cronológica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Cabeçalhos de assunto (como os da Library of Congress) operam sob forte pré-coordenação com subdivisões sintáticas canônicas (ex.: Brasil - História - Império, 1822-1889 - Dicionários). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Cabeçalhos podem combinar assunto com subdivisões geográficas, cronológicas e de forma antes da busca. Um cabeçalho como Brasil — História — Império — Dicionários fornece uma ordem de representação já construída. Nem toda subdivisão deve ser aplicada automaticamente: valem as regras e a linguagem adotadas.",
+    "armadilhaBanca": "Distinguir cabeçalho composto e combinação pós-coordenada na busca.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "por adotar termos compostos pré-coordenados estruturados com",
-    "versao_errada": "Uma lista de cabeçalhos de assunto tradicional caracteriza-se indevidamente por adotar termos compostos pré-coordenados estruturados com subdivisões de forma, assunto, geográfica e cronológica."
+    "gatilho": "termos compostos pré-coordenados",
+    "versao_errada": "Em listas tradicionais de cabeçalhos de assunto, os termos só podem ser combinados pelo usuário durante a consulta, nunca na representação.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 4: índices e cabeçalhos pré-coordenados. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-94",
@@ -1901,8 +2202,8 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "O índice pode complementar informações não expressas no documento.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na técnica de indexação (Cunha & Cavalcanti; NBR 6034:2004), o índice não precisa restringir-se às palavras literais do texto. O indexador pode — e deve — incluir termos padronizados, formas desenvolvidas de siglas, nomes verdadeiros de autores que usaram pseudônimos e notas de escopo, enriquecendo o índice com dados complementares indispensáveis para a recuperação da informação.",
-    "armadilhaBanca": "FALSA RESTRIÇÃO DE LITERALIDADE: Supor erroneamente que o índice deva ser restrito aos vocábulos literais grafados no documento.",
+    "justificativa": "CERTO. Um índice pode empregar formas normalizadas, nomes desenvolvidos ou termos que não aparecem literalmente, desde que correspondam ao conteúdo e favoreçam o acesso. Desenvolver uma sigla ou reunir um pseudônimo ao nome autorizado não é inventar um assunto. A permissão de complementar acesso não autoriza acrescentar fatos falsos ao documento.",
+    "armadilhaBanca": "Distinguir enriquecimento dos pontos de acesso e invenção de conteúdo.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1910,7 +2211,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "origemAcervoLocal": "cespe-cad-941",
       "declaracaoLegada": "Cebraspe / 2014 / 2014"
-    }
+    },
+    "gatilho": "informações não expressas",
+    "fonte": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada — Módulo 5, CADE/2014, item 954; CAPES/2023, item 69. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "O índice pode inventar assuntos e atribuí-los ao documento mesmo quando não há conteúdo que os sustente."
   },
   {
     "id": "m3-q-95",
@@ -1920,21 +2225,24 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
     "item": "O vocabulário controlado, que é uma lista de termos autorizados para o indexador, possui estrutura semântica para diferenciar homógrafos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"lista de termos autorizados para o indexador\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. O controle de vocabulário permite separar conceitos que usam a mesma palavra e orientar as relações entre termos. Qualificadores e notas de escopo podem distinguir manga como fruto de manga como parte da roupa. O vocabulário também trata variantes e sinônimos, mas não os resolve reunindo todos os sentidos de uma palavra em um único conceito.",
+    "armadilhaBanca": "Não confundir controle de sinônimos e separação de homógrafos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
-      "verificado": true,
+      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "verificado": false,
       "provaId": "Biblio (CADE)/CADE/2014",
       "ano": 2014,
       "orgao": "CADE",
       "banca": "Cebraspe",
-      "questaoOriginalId": "TecConcursos-185268"
+      "questaoOriginalId": "TecConcursos-185268",
+      "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185268"
     },
-    "gatilho": "lista de termos autorizados para o indexador",
-    "versao_errada": "O vocabulário controlado, que é uma indevidamente lista de termos autorizados para o indexador, possui estrutura semântica para diferenciar homógrafos."
+    "gatilho": "diferenciar homógrafos",
+    "versao_errada": "O controle de homógrafos exige reunir em um conceito único todos os sentidos que têm a mesma grafia.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: controle de vocabulário. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-96",
@@ -1944,15 +2252,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Na elaboração de tesauros documentários, os descritores compostos (termos polipalavrais) devem ser evitados em qualquer circunstância, sendo obrigatório decompor todo conceito em termos unipalavrais isolados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As normas de elaboração de tesauros (ISO 25964) não proíbem termos compostos. Recomenda-se o uso de termos polipalavrais quando a decomposição em palavras isoladas desfigurar o significado semântico do conceito especializado.",
-    "armadilhaBanca": "PROIBIÇÃO CATEGÓRICA FALSA: Declarar que termos compostos devem ser evitados em qualquer circunstância em tesauros.",
+    "justificativa": "ERRADO. Termos com várias palavras podem representar um único conceito. Separar biblioteca digital em biblioteca e digital pode perder uma unidade conceitual importante. A decisão sobre composição ou decomposição segue a estrutura do vocabulário e as necessidades de representação, não uma proibição universal de termos polipalavrais.",
+    "armadilhaBanca": "Quantidade de palavras não determina a quantidade de conceitos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Na elaboração de tesauros documentários (normas ISO 25964 e ANSI/NISO Z39.19), descritores compostos (termos polipalavrais) são plenamente admitidos e recomendados sempre que representarem um conceito unificado e consagrado na literatura (como \"Direito Administrativo\" ou \"Processo Legislativo\")."
+    "versao_correta": "Termos compostos podem ser mantidos quando representam uma unidade conceitual que seria prejudicada pela decomposição.",
+    "gatilho": "evitados em qualquer circunstância",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: termos compostos. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-97",
@@ -1962,15 +2273,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Nos tesauros documentários, a relação de equivalência expressa pelos operadores USE e UP (Usado Para) constitui uma relação puramente simétrica, de modo que ambos os termos possuem o mesmo status de autorização no momento da indexação temática.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A relação USE/UP não confere o mesmo status aos termos. Ela é assimétrica: o termo rejeitado encaminha o usuário (\"USE o termo autorizado\"), e o descritor autorizado registra que substitui o sinônimo (\"UP forma não preferida\"). Apenas o descritor autorizado pode ser indexado no sistema.",
-    "armadilhaBanca": "FALSA SIMETRIA DE AUTORIDADE: Declarar que termos ligados por USE e UP possuem o mesmo status de autorização na indexação.",
+    "justificativa": "ERRADO. USE direciona de uma forma não preferida ao termo autorizado; UP registra, no termo autorizado, a forma pela qual ele pode ser procurado. A remissão é recíproca, mas os papéis não são iguais. Permitir busca por um sinônimo não exige aceitá-lo como descritor de atribuição.",
+    "armadilhaBanca": "Reciprocidade de remissões não significa igualdade de status terminológico.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "versao_correta": "Nos tesauros documentários, a relação de equivalência entre os operadores USE e UP (Usado Para) é estritamente recíproca e ASSIMÉTRICA: o termo associado ao USE é uma forma rejeitada não autorizada para indexação, enquanto o termo que recebe UP é o descritor autorizado para uso exclusivo na representação documental."
+    "versao_correta": "USE e UP são remissões inversas entre formas com papéis diferentes: uma é preferida para indexar e a outra encaminha a ela.",
+    "gatilho": "mesmo status de autorização",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: equivalência, USE e UP. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-98",
@@ -1980,16 +2294,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Diferentemente dos tesauros documentários, as ontologias formais da Ciência da Informação permitem definir axiomas lógicos, propriedades de objetos e inferências automatizadas por máquinas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. As ontologias vão além das relações padronizadas de tesauros (TG/TE/TR), permitindo especificar restrições semânticas ricas e regras de inferência lógica computacional processáveis por algoritmos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Ontologias formais podem declarar classes, propriedades e axiomas que permitem inferências por ferramentas compatíveis com a semântica adotada. Tesauros tradicionais organizam conceitos e relações para recuperação. Essa distinção não significa que todo uso de RDF ou SKOS seja uma ontologia rica nem que qualquer inferência produzida seja uma verdade sobre o mundo sem validação do modelo.",
+    "armadilhaBanca": "Distinguir representação de vocabulário, formalização lógica e validade do modelo.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "Ciência da Informação permitem definir axiomas lógicos",
-    "versao_errada": "Diferentemente dos tesauros documentários, as ontologias formais da indevidamente ciência da informação permitem definir axiomas lógicos, propriedades de objetos e inferências automatizadas por máquinas."
+    "gatilho": "axiomas lógicos",
+    "versao_errada": "Qualquer vocabulário em RDF já permite inferir automaticamente todas as relações verdadeiras do domínio, mesmo sem axiomas definidos.",
+    "fonte": "W3C — OWL 2 Web Ontology Language Primer — axiomas de classes e propriedades; raciocínio automatizado — https://www.w3.org/TR/owl2-primer/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-99",
@@ -1997,10 +2313,10 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M3",
     "submoduloId": "3.4",
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
-    "item": "Um indexador tem a capacidade de atribuir termos a um documento mesmo que estes não estejam previstos em um vocabulário controlado.",
+    "item": "Em um serviço cuja política exige exclusivamente vocabulário controlado na atribuição de descritores, o indexador mantém a conformidade utilizando livremente termos não autorizados, sem submetê-los ao procedimento de inclusão.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Quando a unidade de informação adota uma política de indexação baseada em vocabulário controlado (como tesauro ou lista de cabeçalhos de assunto), o indexador atua sob controle terminológico estrito. Os termos atribuídos ao documento devem constar obrigatoriamente na ferramenta de controle terminológico. Atribuir termos livres não autorizados quebra a padronização, dispersa sinônimos e viola o princípio nuclear do controle de autoridade.",
-    "armadilhaBanca": "CONFUSÃO METODOLÓGICA: Confundir indexação livre/natural com indexação por vocabulário controlado, onde a autorização prévia do descritor é mandatória.",
+    "justificativa": "ERRADO. No contexto expressamente definido, os descritores de atribuição precisam seguir o vocabulário e a política do serviço. Um conceito novo pode motivar uma proposta de inclusão, com avaliação e registro; isso é diferente de empregar livremente uma forma ainda não autorizada. Fora desse contexto, existem práticas de indexação livre, por isso a redação anterior era abrangente demais.",
+    "armadilhaBanca": "A regra depende do contexto de indexação definido, não de uma proibição para toda prática profissional.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -2009,7 +2325,10 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "origemAcervoLocal": "cespe-cad-931",
       "declaracaoLegada": "Cebraspe / 2011 / 2011"
     },
-    "versao_correta": "Em sistemas que operam com indexação por vocabulário controlado, o indexador é estritamente obrigado a utilizar os termos autorizados (descritores) previstos na ferramenta, não podendo atribuir livremente termos ausentes do instrumento sem prévio processo formal de atualização."
+    "versao_correta": "Em um serviço que exige vocabulário controlado para atribuição, termos novos devem seguir o procedimento de inclusão antes de serem usados como descritores autorizados.",
+    "gatilho": "utilizando livremente termos não autorizados",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: atribuição em linguagem controlada. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m3-q-100",
@@ -2019,16 +2338,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "O vocabulário controlado desempenha papel de normalização terminológica, controlando sinônimos, diferenciando homônimos e estabelecendo relações semânticas para facilitar a busca do usuário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Essa é a função nuclear dos vocabulários controlados: agir como ponte intermediária padronizada entre a linguagem natural do autor e a linguagem de consulta do usuário. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. O vocabulário aproxima expressões de autores e usuários ao controlar variantes, distinguir sentidos e estabelecer relações entre conceitos. Assim, sinônimos podem conduzir ao termo preferido e homônimos podem ser separados. O controle precisa de manutenção e não garante, sozinho, recuperação perfeita.",
+    "armadilhaBanca": "Uma ferramenta de padronização favorece o acesso, mas não garante desempenho perfeito.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "gatilho": "controlando sinônimos, diferenciando homônimos e estabelecendo relações",
-    "versao_errada": "O vocabulário controlado desempenha papel de normalização terminológica, indevidamente controlando sinônimos, diferenciando homônimos e estabelecendo relações semânticas para facilitar a busca do usuário."
+    "gatilho": "normalização terminológica",
+    "versao_errada": "A normalização terminológica dispensa a manutenção do vocabulário e garante que toda busca recupere apenas documentos relevantes.",
+    "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — cap. 2: funções do controle de vocabulário. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   }
 ];
 

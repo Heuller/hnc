@@ -110,14 +110,14 @@ npm run dev
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
 | **Fixação no Banco Complementar** | **69 itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
 | **Itens no Banco de Questões** | **2.179 itens** | Soma exata de todos os 21 arquivos em `src/content/questions` |
-| **Distribuição Global de Gabaritos** | **50,4% Certo** | 1.099 C / 1.080 E (faixa editorial 46–56%, não regra da banca) |
+| **Distribuição Global de Gabaritos** | **50,3% Certo** | 1.096 C / 1.083 E (faixa editorial 46–56%, não regra da banca) |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
 | **Inéditas (`inedita`)** | **1.671** | **76,7%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
-| **Adaptadas (`adaptada`)** | **426** | **19,6%** | Itens de provas anteriores com ajuste factual de assertiva |
-| **Reais Confirmadas (`real-confirmada`)** | **49** | **2,2%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
+| **Adaptadas (`adaptada`)** | **428** | **19,6%** | Itens de provas anteriores com ajuste factual de assertiva |
+| **Reais Confirmadas (`real-confirmada`)** | **47** | **2,2%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
 | **Em Conferência (`em-conferencia`)** | **33** | **1,5%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **2.179** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
 
@@ -133,7 +133,7 @@ npm run dev
 | `m13-portugues-100q` | M13 - Língua Portuguesa & Redação Oficial | **100** | 50C / 50E | 50,0% |
 | `m14-tecnologia-dados-100q` | M14 - TI & Ciência de Dados | **100** | 50C / 50E | 50,0% |
 | `m2-catalogacao-100q` | M2 - Catalogação & Metadados | **100** | 50C / 50E | 50,0% |
-| `m3-classificacao-100q` | M3 - Classificação & Tesauros | **100** | 50C / 50E | 50,0% |
+| `m3-classificacao-100q` | M3 - Classificação & Tesauros | **100** | 47C / 53E | 47,0% |
 | `m4-recuperacao-100q` | M4 - Recuperação da Informação | **100** | 50C / 50E | 50,0% |
 | `m5-gestao-100q` | M5 - Gestão de Unidades & Coleções | **100** | 50C / 50E | 50,0% |
 | `m6-digital-ia-100q` | M6 - Bibliotecas Digitais & IA | **100** | 50C / 50E | 50,0% |
@@ -145,7 +145,7 @@ npm run dev
 | `questoes-submodulos-ampliados` | Submódulos Teóricos - Fixação | **69** | 44C / 25E | 63,8% |
 | `simulado-geral-180q` | Simulado Geral 180Q | **180** | 90C / 90E | 50,0% |
 | `simulado-oficial-camara-180q` | Simulado Oficial Câmara 90+90 (180Q) | **180** | 90C / 90E | 50,0% |
-| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1099C / 1080E** | **50,4% Certo (faixa alvo 46–56%)** |
+| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1096C / 1083E** | **50,3% Certo (faixa alvo 46–56%)** |
 <!-- METRICAS:FIM -->
 
 ---

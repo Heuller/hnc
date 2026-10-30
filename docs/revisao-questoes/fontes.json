@@ -1,0 +1,59 @@
+{
+  "oclc": {
+    "titulo": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23",
+    "url": "https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "localizador": "seções 4 (estrutura), 5 (classificação), 7 (notas e tabelas), 8 (construção de números)",
+    "arquivoConsulta": "/workspace/hnc-revisao-questoes/fontes/oclc-intro.txt"
+  },
+  "cdu": {
+    "titulo": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020",
+    "url": "https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "localizador": "seções 2–4: classes, auxiliares e sinais; distinguir regras gerais e política local",
+    "arquivoConsulta": "/workspace/hnc-revisao-questoes/fontes/bnb-cdu.txt"
+  },
+  "cduTabelas": {
+    "titulo": "CDU — edição do acervo, Parte 1",
+    "acervo": "acervo-estudos/Livros Extras/CDU - Parte 1.pdf",
+    "localizador": "introdução e tabelas auxiliares comuns 1a–1k",
+    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/06f838ced9fa.txt"
+  },
+  "cddir": {
+    "titulo": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI",
+    "url": "https://adm.senado.leg.br/cddir/vocab/",
+    "localizador": "Sobre; pesquisa por 341, 341.39, 341.46, 341.6, 342 e 342.6"
+  },
+  "lancaster": {
+    "titulo": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004",
+    "acervo": "acervo-estudos/Classificação e indexação/livro-indexac3a7c3a3o-e-resumos-teoria-e-prc3a1tica-lancaster.pdf",
+    "localizador": "capítulos 1–9: análise conceitual, tradução, coerência, qualidade e resumos",
+    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/116422768099-ocr-inicio.txt"
+  },
+  "nbr6028": {
+    "titulo": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação",
+    "acervo": "acervo-estudos/ABNT/6028-Resumo-atualizada-em-18.05.2021-.pdf",
+    "localizador": "2.2–2.6; 4.1.1–4.1.8; 4.2",
+    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/52f5a595fc26.txt"
+  },
+  "cad": {
+    "titulo": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada",
+    "acervo": "acervo-estudos/Questões/CAD CESPE.pdf",
+    "localizador": "Módulo 5: questões de indexação, resumos, índices e classificação. Compilação secundária, não substitui caderno e gabarito oficiais.",
+    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/fa3f93134ab8.txt"
+  },
+  "skos": {
+    "titulo": "W3C — SKOS Reference, 2009",
+    "url": "https://www.w3.org/TR/skos-reference/",
+    "localizador": "seções 5 (rótulos), 7 (notas), 8 (relações), condições S23–S27",
+    "arquivoConsulta": "/workspace/hnc-revisao-questoes/fontes/skos.html"
+  },
+  "marc": {
+    "titulo": "Library of Congress — MARC 21 formats",
+    "url": "https://www.loc.gov/marc/",
+    "localizador": "Bibliographic e Authority: formatos; OCLC é organização cooperativa, não formato"
+  },
+  "owl": {
+    "titulo": "W3C — OWL 2 Web Ontology Language Primer",
+    "url": "https://www.w3.org/TR/owl2-primer/",
+    "localizador": "seções sobre axiomas, propriedades, classes e inferência"
+  }
+}
