@@ -116,8 +116,8 @@ npm run dev
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
 | **Inéditas (`inedita`)** | **1.671** | **76,7%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
-| **Adaptadas (`adaptada`)** | **428** | **19,6%** | Itens de provas anteriores com ajuste factual de assertiva |
-| **Reais Confirmadas (`real-confirmada`)** | **47** | **2,2%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
+| **Adaptadas (`adaptada`)** | **434** | **19,9%** | Itens de provas anteriores com ajuste factual de assertiva |
+| **Reais Confirmadas (`real-confirmada`)** | **41** | **1,9%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
 | **Em Conferência (`em-conferencia`)** | **33** | **1,5%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **2.179** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
 

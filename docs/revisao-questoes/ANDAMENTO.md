@@ -16,8 +16,9 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 
 | Caderno | Itens revisados neste processo | Situação |
 | --- | ---: | --- |
-| M3 — Classificação e Indexação | 100/100 | Revisão individual aplicada; conferência técnica em andamento |
-| Demais cadernos e banco complementar | 0/2.079 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
+| M3 — Classificação e Indexação | 100/100 | Revisão individual aplicada |
+| M4 — Recuperação, Fontes e Referência | 100/100 | Revisão individual aplicada; conferência técnica em andamento |
+| Demais cadernos e banco complementar | 0/1.979 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
 

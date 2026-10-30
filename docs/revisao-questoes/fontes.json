@@ -55,5 +55,110 @@
     "titulo": "W3C — OWL 2 Web Ontology Language Primer",
     "url": "https://www.w3.org/TR/owl2-primer/",
     "localizador": "seções sobre axiomas, propriedades, classes e inferência"
+  },
+  "grogan": {
+    "titulo": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001",
+    "acervo": "acervo-estudos/Recuperação, fontes, referência e usuários/a-pratica-do-servio-de-referencia-denis-grogan-p_compress.pdf",
+    "localizador": "processo de referência, pp. 50–56: oito passos, retornos e avaliação conjunta"
+  },
+  "usuarios": {
+    "titulo": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015",
+    "acervo": "acervo-estudos/Livros Extras/CUNHA, Murilo Bastos da_; AMARAL, Sueli Angélica do_; DANTAS, Edmundo Brandão. Manual de estudo de usuários da informação.pdf",
+    "localizador": "necessidades, modelos e métodos de estudo de usuários"
+  },
+  "dicionario": {
+    "titulo": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008",
+    "acervo": "acervo-estudos",
+    "localizador": "verbetes sobre fontes, referência, fontes de informação e recuperação"
+  },
+  "kuhlthau": {
+    "titulo": "Carol Kuhlthau — Information Search Process",
+    "url": "https://wp.comminfo.rutgers.edu/ckuhlthau/information-search-process/",
+    "localizador": "estágios, pensamentos, sentimentos e ações"
+  },
+  "taylor": {
+    "titulo": "TAYLOR, Robert S. Question-Negotiation and Information Seeking in Libraries. 1968",
+    "url": "https://www.ideals.illinois.edu/items/38316",
+    "localizador": "quatro níveis de necessidade"
+  },
+  "acrl": {
+    "titulo": "ACRL — Framework for Information Literacy for Higher Education",
+    "url": "https://www.ala.org/acrl/standards/ilframework",
+    "localizador": "conceitos de autoridade, busca e uso ético"
+  },
+  "ir": {
+    "titulo": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008",
+    "url": "https://nlp.stanford.edu/IR-book/",
+    "localizador": "capítulos 1–2, 6, 8 e 11: operadores, processamento, ponderação, avaliação e BM25"
+  },
+  "lexml": {
+    "titulo": "Projeto LexML Brasil — documentação técnica",
+    "url": "https://projeto.lexml.gov.br/",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "rvbi": {
+    "titulo": "Senado Federal — A RVBI",
+    "url": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+    "localizador": "coordenação, cooperação e catálogo coletivo"
+  },
+  "rusa": {
+    "titulo": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services",
+    "url": "https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+    "localizador": "planejamento, pessoal, infraestrutura e privacidade"
+  },
+  "qpoint": {
+    "titulo": "OCLC — Relatório anual 2018–2019",
+    "url": "https://www.oclc.org/en/annual-report/2019/home.html",
+    "localizador": "transferência do QuestionPoint 24/7 Reference Cooperative para Springshare, em maio de 2019"
+  },
+  "bdtd": {
+    "titulo": "IBICT — Biblioteca Digital Brasileira de Teses e Dissertações",
+    "url": "https://bdtd.ibict.br/",
+    "localizador": "natureza e abrangência do sistema"
+  },
+  "cjf": {
+    "titulo": "Conselho da Justiça Federal — Jurisprudência Unificada",
+    "url": "https://www.cjf.jus.br/jurisprudencia/unificada/",
+    "localizador": "pesquisa integrada de jurisprudência federal"
+  },
+  "nbr6023": {
+    "titulo": "ABNT NBR 6023:2025 — Referências — Elaboração",
+    "acervo": "acervo-estudos/ABNT",
+    "localizador": "definição de referência e documentos disponíveis em meio eletrônico"
+  },
+  "cpc": {
+    "titulo": "Código de Processo Civil, Lei 13.105/2015",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html",
+    "localizador": "art. 1.029, §1º: comprovação de divergência jurisprudencial"
+  },
+  "cfb": {
+    "titulo": "CFB — Resolução 207/2018, Código de Ética e Deontologia",
+    "url": "https://www.crb15.org.br/codigo-de-etica/",
+    "localizador": "deveres profissionais e sigilo, arts. 5º e 9º"
+  },
+  "lexmlURN": {
+    "titulo": "LexML Brasil — Parte 2: LEXML URN",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "lexmlXML": {
+    "titulo": "LexML Brasil — Parte 3: XML Schema",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-3-XML-Schema.pdf",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "lexmlColeta": {
+    "titulo": "LexML Brasil — Parte 4: Coleta de Metadados",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "abin2018": {
+    "titulo": "CEBRASPE — ABIN 2018, Área 10, caderno 378_ABIN_014_01",
+    "url": "https://cdn.cebraspe.org.br/concursos/abin_17/arquivos/378_ABIN_014_01.PDF",
+    "localizador": "item 136; gabarito definitivo GAB_DEFINITIVO_378_ABIN_014_01.PDF, E"
+  },
+  "abin2018Gab": {
+    "titulo": "CEBRASPE — ABIN 2018, gabarito definitivo da Área 10",
+    "url": "https://cdn.cebraspe.org.br/concursos/abin_17/arquivos/GAB_DEFINITIVO_378_ABIN_014_01.PDF",
+    "localizador": "item 136, E"
   }
 }
