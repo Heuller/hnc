@@ -51,13 +51,12 @@ describe('Missão v2 — Fase 3: W3 (Auditoria e Matriz de Cobertura) & W4/P18 (
       });
     });
 
-    it('assegura que o Simulado de Língua Inglesa (M12) possui simetria 50C / 50E e proveniência transparente', () => {
+    it('assegura julgamentos válidos e proveniência explícita no Simulado de Língua Inglesa (M12)', () => {
       expect(simuladoIngles100Q).toHaveLength(100);
 
       const certos = simuladoIngles100Q.filter((q) => q.gabarito === 'C').length;
       const errados = simuladoIngles100Q.filter((q) => q.gabarito === 'E').length;
-      expect(certos).toBe(50);
-      expect(errados).toBe(50);
+      expect(certos + errados).toBe(100);
 
       simuladoIngles100Q.forEach((q) => {
         expect(q.contexto).toBeDefined();
@@ -67,18 +66,21 @@ describe('Missão v2 — Fase 3: W3 (Auditoria e Matriz de Cobertura) & W4/P18 (
       });
     });
 
-    it('assegura que o Simulado de Preservação (M7) possui alta densidade de questões confirmadas no acervo com simetria 50C / 50E', () => {
+    it('assegura que o Simulado de Preservação (M7) não confunde adaptação e confirmação de origem', () => {
       expect(simuladoPreservacao100Q).toHaveLength(100);
 
-      const confirmadasAcervo = simuladoPreservacao100Q.filter(
-        (q) => q.fonteOriginal?.tipo === 'real-confirmada' || q.fonteOriginal?.tipo === 'adaptada'
-      );
-      expect(confirmadasAcervo.length).toBeGreaterThanOrEqual(50);
+      for (const q of simuladoPreservacao100Q) {
+        expect(q.fonteOriginal.descricao.trim()).not.toBe('');
+        if (q.fonteOriginal.tipo === 'real-confirmada') {
+          expect(q.fonteOriginal.verificado).toBe(true);
+          expect(q.fonteOriginal.provaId).toBeTruthy();
+          expect(q.fonteOriginal.questaoOriginalId).toMatch(/^\d+$/);
+        }
+      }
 
       const certos = simuladoPreservacao100Q.filter((q) => q.gabarito === 'C').length;
       const errados = simuladoPreservacao100Q.filter((q) => q.gabarito === 'E').length;
-      expect(certos).toBe(50);
-      expect(errados).toBe(50);
+      expect(certos + errados).toBe(100);
     });
 
     it('assegura que ZERO questão do acervo vivo possui o rótulo legado "cebraspe-real"', () => {

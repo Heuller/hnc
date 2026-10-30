@@ -1,0 +1,2873 @@
+[
+  {
+    "id": "m7-q-1",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster",
+      "cad"
+    ],
+    "localizador": "vocabulários e representação temática",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4c8a3a48191625bf47f467a19d218c698c17619633450a6d73fdab8e44dfeec2",
+    "shaDepois": "bfaeef4a92e098d864a23eee3cc12ee9b54cbcb50ac939ae82941aa8412567a4",
+    "patch": {
+      "justificativa": "ERRADO. Vocabulários controlados coordenam termos e relações para representar e recuperar assuntos. Podem integrar ambientes de preservação, mas não preservam sozinhos suportes, formatos ou autenticidade. A assertiva troca uma função de organização e recuperação por uma finalidade de conservação documental.",
+      "gatilho": "finalidade",
+      "armadilhaBanca": "Confundir organização do conhecimento e conservação do objeto.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — vocabulários e representação temática. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Tesauros apoiam representação e recuperação temática; não substituem ações de preservação documental.",
+      "item": "A criação dos tesauros e dos vocabulários controlados constitui um esforço adicional na racionalização (categorização) da produção de informação, tendo por finalidade a preservação do documento.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
+        "ano": 2014,
+        "orgao": "TC DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-369842",
+        "declaracaoLegada": "Cebraspe / TC DF / 2014 (Adaptada); identificador legado: TecConcursos-369842"
+      },
+      "submoduloId": "3.3"
+    }
+  },
+  {
+    "id": "m7-q-2",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "serviços, necessidades e acesso à informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a5ffb7d90b5e59c39253702d91591d7ff34d4b7d3557ea131b08f10a8ac50523",
+    "shaDepois": "69e3aab20fdda43b15c82f2e77a90a35690729c1c5cd0076f523f6ab4c72a229",
+    "patch": {
+      "item": "A função social de uma biblioteca universitária esgota-se na conservação de documentos; por isso, oferecer acesso a periódicos de resumos constitui uma técnica de conservação física do acervo.",
+      "justificativa": "ERRADO. Uma biblioteca universitária apoia ensino, pesquisa e extensão por coleções, serviços e mediação. Conservação é uma responsabilidade, não sua função exclusiva. Serviços de resumos ajudam a identificar conteúdos; não constituem, por si só, uma técnica de conservação física.",
+      "gatilho": "esgota-se",
+      "armadilhaBanca": "Reduzir a missão da biblioteca a uma de suas funções.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — serviços, necessidades e acesso à informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Bibliotecas universitárias articulam organização, acesso, mediação e preservação para apoiar suas comunidades.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1302",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-1302"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m7-q-3",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "mudanças tecnológicas e planejamento da preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "189b51b31210e507a288b7af543494025412b5444706e5301d01494e721ed1fd",
+    "shaDepois": "32ffe70f58632afc1d910ae815b20a8c2ae4934f709207c5ddfe0a4b9808f180",
+    "patch": {
+      "justificativa": "ERRADO. Padronizar informações pode apoiar interoperabilidade e continuidade, mas preservar não exige congelar a tecnologia. O planejamento acompanha mudanças de formatos, sistemas e necessidades da comunidade. Metadados e estratégias devem ser avaliados para o contexto, sem copiar mecanicamente outro projeto.",
+      "gatilho": "mesmas tecnologias",
+      "armadilhaBanca": "Confundir continuidade do acesso e imobilidade tecnológica.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — mudanças tecnológicas e planejamento da preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Padrões e metadados apoiam a preservação, que pode exigir mudanças tecnológicas documentadas.",
+      "item": "Os projetos de preservação digital requerem padronização de metadados, os quais são estabelecidos anteriormente por outros projetos, com a finalidade de manter as mesmas tecnologias por muito tempo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-165424",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165424"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-4",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc",
+      "cad"
+    ],
+    "localizador": "ações ao longo do ciclo de vida",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "24af6b8af00bab2320c4db47212ff8fef2d4bd5d6883e36c295c8faefee98901",
+    "shaDepois": "2efeb91c1f10521921f52ce1f4103a5bb0f985f1a591fa96acd4c2fa692777bf",
+    "patch": {
+      "justificativa": "CERTO. Planejamento começa antes do depósito e acompanha seleção, documentação, acesso e destinação. Descarte, quando cabível, exige critérios e autorização, não eliminação indiscriminada. Considerar o ciclo de vida evita deixar para o fim decisões sobre direitos e capacidade de preservação.",
+      "gatilho": "produção e seu descarte",
+      "armadilhaBanca": "Reconhecer decisões de preservação antes do armazenamento final.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — ações ao longo do ciclo de vida — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A política de preservação só deve começar após o descarte, sem considerar produção ou seleção.",
+      "item": "Para que seja eficiente, a preservação de objetos digitais deve requerer uma política de cultura informacional que leve em consideração sua produção e seu descarte.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-165431",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165431"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-5",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "microfilme",
+      "cad"
+    ],
+    "localizador": "History: projetos em bibliotecas desde as décadas de 1920 e 1930",
+    "nota": "Gabarito C corrigido para E: origem nos anos 1970 é historicamente incorreta; NEDCC documenta iniciativas anteriores.",
+    "shaAntes": "587982ee9370dd023d0d257f2703798db04faba392e7b3b2245a895fcccecf93",
+    "shaDepois": "14f107668179ba0318b802dd9864e3b7324dfac7138d61d2b13f36f8416d8515",
+    "patch": {
+      "gabarito": "E",
+      "justificativa": "ERRADO. A microfotografia e seu uso em acervos antecedem os anos 1970. O histórico do NEDCC registra projeto de filmagem da Library of Congress em 1927 e microfilmagem de jornais nos anos 1930. O erro está na data de origem, não na possibilidade de usar microfilme para preservação.",
+      "gatilho": "década de 1970",
+      "armadilhaBanca": "Identificar anacronismo sem rejeitar a técnica.",
+      "fonte": "NEDCC — Preservation Leaflet 6.1: Microfilm and Microfiche — History: projetos em bibliotecas desde as décadas de 1920 e 1930 — https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O uso de microfilme por bibliotecas antecede a década de 1970, com projetos documentados nas décadas de 1920 e 1930.",
+      "versao_errada": "",
+      "item": "A preservação de documentos raros a partir da microfilmagem fotográfica surgiu no início da década de 1970, antes do surgimento da digitalização eletrônica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624254",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624254"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-6",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "objetos digitais e responsabilidades de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "99065a3c62804d8e91956ebd43a6be519e7287c9fa656affbcadfa4fe728ebe9",
+    "shaDepois": "ad0140206aca96fc8809d18b7222508758373dc2218f62bb0ad3743dd157d30d",
+    "patch": {
+      "justificativa": "CERTO. Objetos produzidos originalmente em meio digital e representações obtidas por digitalização precisam de gestão ao longo do tempo. A origem muda requisitos e evidências, mas não exclui uma dessas classes da preservação digital. Preservar o arquivo digital não decide automaticamente o destino do original físico.",
+      "gatilho": "digitalizados",
+      "armadilhaBanca": "Distinguir origem do objeto e necessidade de preservação.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — objetos digitais e responsabilidades de preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A preservação digital se aplica somente a arquivos nascidos digitais, excluindo imagens obtidas por digitalização.",
+      "item": "A preservação digital envolve os documentos provenientes do meio digital e os digitalizados.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624255",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624255"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-7",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace",
+      "cad"
+    ],
+    "localizador": "licença BSD e condições de redistribuição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7f8818f331743c7cae73d6ecc3a2f19224903e254cec49b5c053234902372a60",
+    "shaDepois": "eb1091a251a452547cc8445b3a5080eb6e4c3fab835d0bff5c9cdec953a70e75",
+    "patch": {
+      "item": "Uma licença de software livre exige que o código-fonte permaneça imutável e proíbe qualquer cobrança por distribuição, implantação ou suporte.",
+      "justificativa": "ERRADO. A liberdade de modificar o programa é compatível com condições de licença, como manter avisos em redistribuições. Software livre pode ser comercializado e gerar custos de implantação e suporte. Não exige manter o código imutável nem garante ausência de qualquer pagamento em todas as situações.",
+      "gatilho": "imutável",
+      "armadilhaBanca": "Confundir liberdade de código, imutabilidade e gratuidade.",
+      "fonte": "DSpace — documentação do projeto — licença BSD e condições de redistribuição — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Software livre admite modificação e pode envolver serviços pagos, conforme as condições da licença e da contratação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1645",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-1645"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m7-q-8",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "escopo e responsabilidades do modelo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "91208b8fc72adbc3087f65d97804c22b4fd789d2a7d32ece0d6fe3fd9ed0682e",
+    "shaDepois": "6e8f04f11d498780e88c45e2af66a1fd2db0da590c5929805212e1211e230de0",
+    "patch": {
+      "justificativa": "ERRADO. OAIS é modelo de referência para um arquivo com compromissos de preservação e acesso de longo prazo. Não é um produto nacional de gestão de propriedade intelectual. Uma instituição pode implementar serviços inspirados no modelo, mas citá-lo não equivale a certificação do repositório.",
+      "gatilho": "sistema brasileiro",
+      "armadilhaBanca": "Confundir modelo conceitual, software e sistema nacional.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — escopo e responsabilidades do modelo — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "OAIS é um modelo de referência para preservação e acesso de longo prazo, não um sistema brasileiro de gestão de direitos.",
+      "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro da gestão da propriedade intelectual para a promoção da preservação digital.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-9",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "autenticidade e atributos preservados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "420b120ab69a9e58760d6f5788cfab02eed153ee2b233cb7e8667ac4c3619b29",
+    "shaDepois": "0888c6b489a6842c1fafa0fbdfc0979137810e1e25ec73e1711e317b92342d94",
+    "patch": {
+      "item": "Definir as propriedades de um documento que devem ser preservadas é prova suficiente de sua autenticidade futura, mesmo sem registrar intervenções, custódia ou resultados de verificação.",
+      "justificativa": "ERRADO. Características a preservar e evidências de origem devem ser definidas e documentadas. Isso ajuda a avaliar autenticidade, mas definir uma lista não comprova que ela foi mantida. Cadeia de custódia, processos e verificações precisam sustentar a conclusão, tanto em ambientes físicos quanto digitais.",
+      "gatilho": "prova suficiente",
+      "armadilhaBanca": "Distinguir requisito declarado e comprovação de cumprimento.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — autenticidade e atributos preservados — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Definir propriedades relevantes é uma etapa; comprovar sua manutenção requer evidências e controles.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-104074",
+        "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104074"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-10",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lockss",
+      "cad"
+    ],
+    "localizador": "arquitetura distribuída de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bc2a755e94f7846fdb79662fb0d21390a58e27ab3daa547beae606fa219a4608",
+    "shaDepois": "c184f0935e6374c90ff8afd66843c19387b3eb1e1394a9fe98f768f48d533ce4",
+    "patch": {
+      "item": "LOCKSS (Lots of Copies Keep Stuff Safe) é uma infraestrutura de preservação digital distribuída, com software aberto e cooperação entre nós para manter e verificar cópias.",
+      "justificativa": "CERTO. LOCKSS é infraestrutura de preservação distribuída, baseada em múltiplas cópias e mecanismos de comparação e reparo. Não é uma técnica de captura de imagens. Réplicas precisam ser geridas e verificadas; possuir cópias dispersas sem controles não equivale automaticamente ao funcionamento dessa infraestrutura.",
+      "gatilho": "LOCKSS",
+      "armadilhaBanca": "Separar captura digital e preservação distribuída.",
+      "fonte": "Stanford Libraries — LOCKSS — arquitetura distribuída de preservação — https://www.lockss.org/about",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "LOCKSS é um procedimento de digitalização que substitui a manutenção e verificação de cópias.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624256",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624256"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-11",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis",
+      "cad"
+    ],
+    "localizador": "metadados de objetos, eventos, direitos e agentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "20220b5fa7fc72b16ffd3bf6128bc0ad5c4564d757636759e813c569c1e2f2c5",
+    "shaDepois": "c6d4760d0a79b7ec9722f6c93c1e984fe2bc113016c87ebfd2a9c173bb91a02e",
+    "patch": {
+      "item": "Metadados de preservação podem registrar estratégias, eventos, direitos e informações que apoiem a avaliação de autenticidade, mas não garantem, isoladamente, a autenticidade do objeto.",
+      "justificativa": "CERTO. Metadados registram características, intervenções, responsáveis e permissões relevantes à preservação. Eles apoiam verificações e interpretação das evidências. Registrar que houve uma validação não basta se o procedimento ou o registro é incorreto; autenticidade exige avaliação do conjunto de evidências.",
+      "gatilho": "não garantem",
+      "armadilhaBanca": "Distinguir evidência documentada e garantia automática.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — metadados de objetos, eventos, direitos e agentes — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A existência de metadados de preservação garante, isoladamente, que o conteúdo nunca sofreu alteração indevida.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Tec I (IPHAN)/IPHAN/Área 5/2018",
+        "ano": 2018,
+        "orgao": "IPHAN",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-696607",
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018 (Adaptada); identificador legado: TecConcursos-696607"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-12",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "preservação de longo prazo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5037035bfcb36a1559d70b0726376fee550df0236a6881c7a4f66b0caff2f505",
+    "shaDepois": "a91fdb0ca6b16980a96516d45ea36f1f93c2ecb05e108253cec8846ddd526804",
+    "patch": {
+      "item": "A preservação digital envolve ações para manter objetos digitais acessíveis e compreensíveis ao longo do tempo, indo além de seu armazenamento em condições físicas adequadas.",
+      "justificativa": "CERTO. Armazenar bits é necessário em muitos casos, mas não basta para manter informação compreensível e acessível. Formatos, dependências, contexto e comunidade designada também importam. A definição foi delimitada para evitar tratar preservação como mero espaço em disco.",
+      "gatilho": "armazenamento",
+      "armadilhaBanca": "Distinguir armazenamento de bits e continuidade de acesso inteligível.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — preservação de longo prazo — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Preservação digital consiste somente em guardar arquivos em um disco, dispensada sua compreensão futura.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "GPPGE (SEE DF)/SEE DF/Biblioteconomia/2017",
+        "ano": 2017,
+        "orgao": "SEE DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-464226",
+        "declaracaoLegada": "Cebraspe / SEE DF / 2017 (Adaptada); identificador legado: TecConcursos-464226"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-13",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "meios, representação e evidências de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6410f73cfe3c2bf80e03315ab9d74fbf5da1cc5548b8c993348a11adfe8672b4",
+    "shaDepois": "ce6ca9315c0a91f0bbdb904e02cd9470de2e91b8cc29e7a444442a07455c6380",
+    "patch": {
+      "item": "Uma distinção didática da preservação digital considera aspectos físicos dos suportes, lógicos de formatos e dependências e de manutenção de evidências de integridade e autenticidade; esses aspectos se articulam.",
+      "justificativa": "CERTO. É possível distinguir questões de suporte, interpretação dos formatos e evidências de integridade e autenticidade. São dimensões articuladas, não departamentos isolados. A tríade é uma organização didática, não a lista literal das entidades funcionais do OAIS.",
+      "gatilho": "didática",
+      "armadilhaBanca": "Separar uma classificação didática e o modelo funcional formal.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — meios, representação e evidências de preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As seis entidades funcionais do OAIS recebem os nomes preservação física, lógica e intelectual.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-104075",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1709",
+        "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: cespe-cad-1709"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-14",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "planejamento e avaliação de formatos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5101ea5f08f04ca3c6b8c8f765860c53895ef98262701eb302f948fc681c4beb",
+    "shaDepois": "db0851ddda6144be9cb426f8ac55d3b4ec448666e0e60047b1a31361db31c94d",
+    "patch": {
+      "item": "A adoção de padrões documentados e formatos abertos pode favorecer a preservação digital, mas não garante sozinha o acesso futuro nem elimina o planejamento de preservação.",
+      "justificativa": "CERTO. Padrões documentados e formatos adequados podem reduzir dependências e facilitar estratégias futuras. Abertura é critério importante, mas também contam adoção, ferramentas, complexidade e capacidade de gestão. Nenhum formato preserva sozinho contexto, suporte e acesso por tempo indeterminado.",
+      "gatilho": "não garante",
+      "armadilhaBanca": "Não transformar um critério de seleção em solução completa.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — planejamento e avaliação de formatos — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Escolher um formato aberto elimina a necessidade de monitorar obsolescência, integridade e condições de acesso.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-104076",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "104076",
+        "declaracaoLegada": "Cebraspe / STJ / 2012; identificador legado: 104076"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-15",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "necessidades cognitivas e orientadas à ação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e648a14097610c5d4c929c4fd9b7d9b06e0d04645c8d15d50688ca76034fa9b2",
+    "shaDepois": "fe576bd89e7b2d3b2b1ec25fbcb39414d5f1d4982d33c9a40ec457d0fa1719ba",
+    "patch": {
+      "item": "Necessidades de informação podem relacionar-se tanto ao desejo de compreender um assunto quanto à realização de atividades, sem que essas finalidades sejam necessariamente excludentes.",
+      "justificativa": "CERTO. Buscar compreensão e buscar meios para agir são finalidades possíveis e relacionadas. Uma pessoa pode precisar entender uma norma e aplicá-la a uma tarefa no mesmo atendimento. A distinção não é uma divisão exaustiva que impeça outras classificações de necessidades.",
+      "gatilho": "podem",
+      "armadilhaBanca": "Usar uma tipologia sem torná-la exclusão rígida.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — necessidades cognitivas e orientadas à ação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma necessidade de informação nunca pode combinar compreensão de um tema e realização de uma atividade.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-165484",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165484",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014; identificador legado: 165484"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m7-q-16",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic",
+      "cad"
+    ],
+    "localizador": "bibliologia, biblioteconomia e documentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2c9d2e6ad8c651fc5cd902e84d5defd396b33a7aa3c0f240858872e3789a3b68",
+    "shaDepois": "0734155cec7cec024f798cfdad20499692ee52eb9a287c2a34ceda83559b6fe5",
+    "patch": {
+      "item": "Bibliologia é definida exclusivamente como a regulamentação administrativa de bibliotecas e, por essa razão, constitui uma simples subdivisão operacional da biblioteconomia.",
+      "justificativa": "ERRADO. Biblioteconomia se relaciona à organização, gestão e mediação em bibliotecas, mas não torna os demais campos simples subpartes administrativas. Bibliologia estuda o livro e a comunicação escrita segundo suas tradições. É inadequado reduzir essa área à regulamentação de bibliotecas ou deduzir uma hierarquia universal entre disciplinas.",
+      "gatilho": "definida exclusivamente",
+      "armadilhaBanca": "Confundir objetos de estudo e classificação hierárquica de campos.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — bibliologia, biblioteconomia e documentação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Bibliologia e biblioteconomia têm relações e ênfases próprias, sem reduzir a primeira à regulamentação administrativa de bibliotecas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-2843047",
+        "ano": 2024,
+        "orgao": "MPE TO",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2449",
+        "declaracaoLegada": "Cebraspe / MPE TO / 2024 (Adaptada); identificador legado: cespe-tec-2449"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m7-q-17",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland",
+      "cad"
+    ],
+    "localizador": "ampliação do objeto documental e acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c374f4b710be33239290140267f9f8f679de36aea75d42ddf515dcbe8793181f",
+    "shaDepois": "9b685bd698af3be4aa1cda81c30c0d2ab74478b54800c17dfb1dcf421def466e",
+    "patch": {
+      "item": "O surgimento da documentação teve como única consequência fortalecer a conservação física, sem ampliar os tipos de documentos e as possibilidades de organização e acesso à informação.",
+      "justificativa": "ERRADO. A documentação ampliou discussões sobre tipos de documentos, tratamento e acesso ao conteúdo. Conservação continuou importante, mas não define sozinha essa mudança. O erro é reduzir uma transformação de práticas e conceitos ao reforço de uma função exclusiva de guarda.",
+      "gatilho": "única",
+      "armadilhaBanca": "Evitar redução de uma transformação histórica a uma função única.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — ampliação do objeto documental e acesso — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A documentação contribuiu para ampliar objetos, técnicas de organização e acesso, sem reduzir bibliotecas à guarda.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-1303089",
+        "ano": 2012,
+        "orgao": "BASA",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-11",
+        "declaracaoLegada": "Cebraspe / BASA / 2012 (Adaptada); identificador legado: cespe-cad-11"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m7-q-18",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc",
+      "cad"
+    ],
+    "localizador": "gestão e serviços de dados de pesquisa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "872f183e16162b2c51bc713068463a5746cedd6ae336193b8ade13add66e3fbd",
+    "shaDepois": "b66a093e9dc1686504da953d623874989a42fdcb96be64ace47704d8ec5370e1",
+    "patch": {
+      "item": "Em práticas de e-science, bibliotecas podem apoiar gestão de metadados, preservação, acesso e reúso de dados, em colaboração com pesquisadores e outras equipes responsáveis.",
+      "justificativa": "CERTO. E-science envolve práticas de pesquisa apoiadas por infraestrutura computacional e colaboração. Bibliotecas podem contribuir com documentação, acesso, preservação e formação, em coordenação com pesquisadores e outras equipes. Não se trata de uma ferramenta única nem de responsabilidade exclusiva da biblioteca por todo dado científico.",
+      "gatilho": "podem apoiar",
+      "armadilhaBanca": "Distinguir ecossistema de pesquisa e ferramenta isolada.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — gestão e serviços de dados de pesquisa — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "E-science é um único programa que transfere exclusivamente à biblioteca a responsabilidade por todos os dados de pesquisa.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-436559",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436559",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013; identificador legado: 436559"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-19",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair",
+      "cad"
+    ],
+    "localizador": "F1: identificadores persistentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1d68deed4de091bce3f0c1ca7345916eb49baea19cf276efed109e61583f459b",
+    "shaDepois": "8afc7e38a2bd7645756a1f49b364eb7fd7c2e06ffb4440f6dbfa49d103b43130",
+    "patch": {
+      "item": "Identificadores persistentes apoiam a localização de recursos após mudanças de endereço, desde que seus registros e serviços de resolução sejam mantidos; não substituem a preservação do conteúdo.",
+      "justificativa": "CERTO. Um identificador pode permanecer estável enquanto o endereço do recurso muda, desde que o serviço de resolução e os registros sejam mantidos. A persistência é compromisso de gestão, não propriedade mágica de uma sequência. Identificar um recurso tampouco garante que o arquivo seja preservado ou esteja aberto.",
+      "gatilho": "mantidos",
+      "armadilhaBanca": "Distinguir persistência planejada e disponibilidade automática.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — F1: identificadores persistentes — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A atribuição de um identificador persistente garante acesso eterno mesmo com o abandono do serviço de resolução.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-324588",
+        "ano": 2016,
+        "orgao": "DPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "324588",
+        "declaracaoLegada": "Cebraspe / DPU / 2016; identificador legado: 324588"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-20",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "armazenamento e informação de representação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3317d01c76e9840b5af4cb38c6e046872233cb4231211abe89f853c4a13cba50",
+    "shaDepois": "8b862f8ab8b6a6aaa0021be2146e7f56f5a96a24749cd5b54cc0b25b3add6939",
+    "patch": {
+      "item": "Transferir uma cópia íntegra para um suporte novo não resolve, por si só, a obsolescência do formato nem assegura que o arquivo possa ser interpretado no futuro.",
+      "justificativa": "CERTO. Copiar o arquivo para nova mídia pode preservar a sequência de bits sem resolver a obsolescência do formato. O leitor e as informações necessárias à interpretação também precisam ser considerados. Essa aplicação substitui uma repetição literal da definição de preservação.",
+      "gatilho": "formato",
+      "armadilhaBanca": "Separar renovação do suporte e interpretação do conteúdo.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — armazenamento e informação de representação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Copiar um arquivo intacto para uma mídia nova garante sua interpretação futura, mesmo sem formato conhecido ou leitor compatível.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-464226",
+        "ano": 2017,
+        "orgao": "SEE DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "464226",
+        "declaracaoLegada": "Cebraspe / SEE DF / 2017; identificador legado: 464226"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-21",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "política e planejamento ao longo do ciclo de vida",
+    "nota": "Redação adaptada para eliminar ambiguidade conceitual; mantém bloqueio editorial histórico até confirmação independente da origem, sem alegar alteração do gabarito oficial.",
+    "shaAntes": "76d2399177cbe2d7841b5dc61115fce1673ff3464b87dc5f059e51af8481a071",
+    "shaDepois": "19f703e5dd5d9900ac312503e2fb0564b84216420f03a3f297ffd74b5e92018c",
+    "patch": {
+      "item": "A existência de uma biblioteca digital assegura automaticamente a preservação de seus arquivos, dispensando políticas anteriores à ingestão e o acompanhamento posterior das mudanças tecnológicas.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Uma biblioteca digital oferece serviços de acesso, mas sua existência não prova preservação. Planejamento pode começar antes da produção ou aquisição e continuar depois da ingestão. A redação legada ambígua foi substituída por uma adaptação explícita; a divergência de origem permanece registrada para conferência.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Não inferir compromisso de preservação de uma interface disponível.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — política e planejamento ao longo do ciclo de vida — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Manter um portal digital em funcionamento não substitui uma política de preservação e ações de gestão ao longo do tempo.",
+      "versao_errada": "",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (DPU)/DPU/2016",
+        "ano": 2016,
+        "orgao": "DPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-324592",
+        "declaracaoLegada": "Cebraspe / DPU / 2016 (Adaptada); identificador legado: TecConcursos-324592"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-22",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "integridade dos bits e acesso compreensível",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e849444b36ba6602cd2fdda1ebe48140b8ccaa680dc9c7b8d588375807628034",
+    "shaDepois": "5b0fe264cff9722af1defb4bdad152fde4490add47ed2ae9938d20d06b971f66",
+    "patch": {
+      "item": "A integridade da sequência de bits é relevante à preservação, mas não garante que a comunidade designada consiga interpretar o objeto sem informação de representação adequada.",
+      "justificativa": "CERTO. Um checksum pode indicar que os bits continuam iguais à referência, mas não informa como decodificá-los. Informação de representação e dependências são necessárias para recuperar significado. A aplicação diferencia a integridade de uma cópia da sua possibilidade efetiva de uso.",
+      "gatilho": "não garante",
+      "armadilhaBanca": "Separar fixidez e inteligibilidade.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — integridade dos bits e acesso compreensível — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A igualdade de checksums garante que qualquer usuário futuro compreenderá o conteúdo sem conhecer o formato.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-104075",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1709",
+        "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: cespe-cad-1709"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-23",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "A1.2 e critérios de gestão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5998ef9017546dbc1d629f038141d3fa7c56cf86b922c16fdaff7a85342a20c8",
+    "shaDepois": "629c17f051445430e339f89526d4f8d14ce1836962354d15f490a061db0f6a8e",
+    "patch": {
+      "justificativa": "ERRADO. FAIR admite autenticação e autorização quando necessárias e não define, por si só, se um resultado é científico. Compartilhar requer respeitar restrições legais, éticas e contratuais. Acesso pode ser controlado sem excluir a adoção dos princípios de gestão e descrição.",
+      "gatilho": "sem qualquer tipo",
+      "armadilhaBanca": "Confundir FAIR, abertura irrestrita e validade científica.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — A1.2 e critérios de gestão — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Dados geridos segundo FAIR podem ter acesso controlado, com condições descritas e mecanismos adequados.",
+      "item": "Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser aberto, gratuito e disponibilizado sem qualquer tipo de restrição de acesso ou de necessidade de autenticação.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-24",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "escopo do modelo e distinção de OAI-PMH",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "356c8727eb34f2b0fa709a32bf7a5653cd664b17430196969b04a504cbe06788",
+    "shaDepois": "c4c963f8065bc5fd9a03abe739299f3bd08f8f0891765fa8150df2ab749e7a15",
+    "patch": {
+      "gabarito": "E",
+      "item": "OAIS é exclusivamente um esquema de metadados equivalente ao OAI-PMH; por isso, expor registros nesse protocolo comprova conformidade com o modelo de preservação.",
+      "justificativa": "ERRADO. OAIS define conceitos, responsabilidades, entidades funcionais e modelos de informação para preservação. PREMIS é um dicionário de metadados de preservação; OAI-PMH é protocolo de colheita. Podem coexistir numa implementação, mas não são equivalentes nem a adoção de um certifica conformidade com os outros.",
+      "gatilho": "metadados",
+      "armadilhaBanca": "Confundir modelo, esquema de metadados e protocolo.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — escopo do modelo e distinção de OAI-PMH — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "OAIS é um modelo de referência para preservação; PREMIS é um dicionário de metadados e OAI-PMH é protocolo de colheita.",
+      "versao_errada": "",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STF/2008",
+        "ano": 2008,
+        "orgao": "2008",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1804",
+        "declaracaoLegada": "Cebraspe / 2008 / 2008 (Adaptada); identificador legado: cespe-cad-1804"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-25",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "preservação de ambientes tecnológicos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "285511182812c971d5c1e99e7b633797952761138c6c90cf4a8e70b12e769c51",
+    "shaDepois": "053939f0dcd95fa50afdb6fcb04f8a4fbc8ddf13f6f4b00891740dd23590bf92",
+    "patch": {
+      "item": "A preservação tecnológica, ao manter hardware e software necessários ao ambiente original, pode gerar dificuldades de sustentabilidade de longo prazo por custos, obsolescência e disponibilidade de peças e conhecimentos.",
+      "justificativa": "CERTO. Manter equipamentos, sistemas e dependências originais pode permitir acesso, mas exige peças, conhecimento e recursos. A sustentabilidade precisa ser comparada com outras estratégias e com o objeto preservado. Não se pode concluir que a estratégia é sempre inviável ou que manter um computador evita todo risco.",
+      "gatilho": "pode gerar",
+      "armadilhaBanca": "Distinguir possibilidade técnica e sustentabilidade.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — preservação de ambientes tecnológicos — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Manter o ambiente original não tem custos continuados nem risco de obsolescência de peças e conhecimentos.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-26",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "verbete crédito e responsabilidade na publicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "757886d74c17a16b62732e80dc750d2a642a5c6e3435e1abd2cfe986f4ec05b2",
+    "shaDepois": "f04e422af26a32fcfc47729f3bb6922747dd4f5c4cf8ea4f183840bbb24ca3d9",
+    "patch": {
+      "justificativa": "CERTO. Crédito identifica pessoas ou instituições e o papel desempenhado na produção da publicação. Um ilustrador e um autor podem receber créditos distintos; isso não equivale a atribuir a todos a autoria integral da obra. Responsabilidade informada, direito autoral e fonte de financiamento também precisam ser distinguidos.",
+      "gatilho": "crédito",
+      "armadilhaBanca": "Distinguir reconhecimento de participação e autoria de toda a obra.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbete crédito e responsabilidade na publicação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo nome registrado nos créditos torna seu titular autor integral de todos os conteúdos da publicação.",
+      "item": "A indicação dos nomes pessoais ou institucionais e da natureza da participação intelectual, artística, técnica ou administrativa na elaboração da publicação em uma obra é conhecida como crédito.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1872",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1872"
+      },
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m7-q-27",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "formatos e dependências de interpretação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5982f7336ade03bc8a837b486e2c0d0b1507a1a2cb259e692838959c0b7c13f2",
+    "shaDepois": "c348a8216f6a480e24baf4f9582313b06230e6a8d664b233849aa37b9dbbe54a",
+    "patch": {
+      "justificativa": "ERRADO. Documentação e abertura do formato favorecem sustentabilidade, mas não preservam sozinhas os bits, o contexto ou as ferramentas de leitura. Também é necessário gerir dependências, riscos e acesso ao longo do tempo. Um arquivo pode permanecer intacto e tornar-se incompreensível.",
+      "gatilho": "suficiente",
+      "armadilhaBanca": "Trocar um fator favorável por condição suficiente.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — formatos e dependências de interpretação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Formato aberto e documentação são critérios úteis, mas não substituem ações continuadas de preservação.",
+      "item": "Assegurar que uma documentação esteja em um formato estável, não proprietário e independente de software é suficiente para garantir que ela seja lida no futuro.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-28",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "ciclo de vida e preservação de representações digitais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fdc199753859bfa33abb36b62f6bb24a2337eb75629ee4c3c87ed157041762bb",
+    "shaDepois": "93c77546495ec872d8274385cd06fdef40547eeb040886336793699d588beeb6",
+    "patch": {
+      "justificativa": "ERRADO. Digitalização produz uma representação que passa a exigir preservação própria. Não elimina riscos do original nem do arquivo, e pode perder características relevantes se mal planejada. Formato, captura, controle de qualidade, metadados e armazenamento precisam ser geridos.",
+      "gatilho": "garante",
+      "armadilhaBanca": "Confundir produção de uma cópia e preservação perene.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — ciclo de vida e preservação de representações digitais — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Digitalizar amplia possibilidades de acesso, mas exige preservar os arquivos e avaliar separadamente os originais.",
+      "item": "A digitalização de acervos garante a preservação perene das coleções das bibliotecas.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-29",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlColeta"
+    ],
+    "localizador": "metadados de coleta e relação com Dublin Core",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "86dfa0121ec700b0d5c937edfd80dfc1f912cf43b5844e0c7409d0b5e145139c",
+    "shaDepois": "474588d151f01eb44089d2b83053c470508639e15d5f24be32844717a283b2ca",
+    "patch": {
+      "justificativa": "ERRADO. A documentação LexML define condições de coleta e representação interoperável, articuladas a padrões e a perfis de metadados. Usar um perfil especializado não significa que ele seja proprietário ou incompatível com Dublin Core. A rede também não se reduz a um serviço de preservação.",
+      "gatilho": "incompatíveis",
+      "armadilhaBanca": "Confundir especialização de perfil e fechamento tecnológico.",
+      "fonte": "LexML Brasil — Parte 4: Coleta de Metadados — metadados de coleta e relação com Dublin Core — https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Perfis especializados do LexML podem articular padrões de metadados e interoperabilidade, sem serem por isso formatos proprietários.",
+      "item": "O LexML Brasil utiliza metadados proprietários desenvolvidos especificamente para a preservação de documentos legislativos e jurídicos, incompatíveis com padrões internacionais como o Dublin Core.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m7-q-30",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lockss",
+      "cad"
+    ],
+    "localizador": "múltiplas cópias e mecanismos de verificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "138adda91f29bcc76c8398bf6687c9357ab5733b05f1a27a1bab0882b614400f",
+    "shaDepois": "763d00505bf1ec3859e0ad6ee87845fb2fc9db970805926f3ee5f30606dd848f",
+    "patch": {
+      "item": "Em uma infraestrutura de preservação distribuída como LOCKSS, a manutenção de múltiplas cópias se articula a mecanismos de verificação e tratamento de divergências, não se reduzindo à duplicação inicial dos arquivos.",
+      "justificativa": "CERTO. Preservação distribuída requer acompanhar as réplicas, detectar divergências e tratar problemas. A multiplicação de cópias sem verificação pode apenas replicar um erro. Os nós cooperam, mas sua existência não elimina governança, permissões e procedimentos de preservação.",
+      "gatilho": "verificação",
+      "armadilhaBanca": "Distinguir redundância inicial e gestão continuada das cópias.",
+      "fonte": "Stanford Libraries — LOCKSS — múltiplas cópias e mecanismos de verificação — https://www.lockss.org/about",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Criar várias cópias idênticas uma única vez dispensa verificações e reparos durante toda a preservação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-624256",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1703",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: cespe-cad-1703"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-31",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "planejamento de sistemas e diagnóstico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "17b11cfeeec7591471fe8cc21a2368239d6b9f285c248327ad0834be2ad818a2",
+    "shaDepois": "3c6750a4738b0a4aa5cdd2647252eaecc4c3364e93fd7dfb90a29d19809e96cb",
+    "patch": {
+      "item": "A escolha de um sistema de automação deve ser precedida de diagnóstico e requisitos institucionais, considerando processos, usuários, recursos e condições locais, em vez de se apoiar apenas em modismos.",
+      "justificativa": "CERTO. Escolher software deve responder à missão, aos processos, aos usuários, aos recursos e à infraestrutura. A redação anterior poderia sugerir desprezar situações locais, que são essenciais ao diagnóstico. Modismo não substitui requisito, mas restrições concretas precisam ser analisadas.",
+      "gatilho": "requisitos",
+      "armadilhaBanca": "Separar preferência de mercado e adequação institucional.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — planejamento de sistemas e diagnóstico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma solução adotada por outra biblioteca dispensa levantamento de requisitos e condições locais.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m7-q-32",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc",
+      "cad"
+    ],
+    "localizador": "seleção, avaliação e destinação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "25b809b1f876af6e76b4ec289a6b5a611fc7c197e9a7fc45dbe13a5b610cbac8",
+    "shaDepois": "ae909cd6a1e6fd0f7cff00ea69015ae0ed66e84feb5f93e4cdbad58aa3dbd84d",
+    "patch": {
+      "item": "Uma política de preservação pode prever seleção e descarte documentado e autorizado, sem confundir preservação com retenção indiscriminada de todos os objetos.",
+      "justificativa": "CERTO. Política de preservação não significa guardar indiscriminadamente tudo. Avaliação pode resultar em retenção ou descarte autorizado, conforme valor e obrigações. A exclusão deve ser documentada; liberar espaço não é critério suficiente para eliminar registros com guarda necessária.",
+      "gatilho": "autorizado",
+      "armadilhaBanca": "Distinguir seleção responsável e eliminação arbitrária.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — seleção, avaliação e destinação — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma política de preservação permite eliminar qualquer arquivo pouco acessado, sem avaliação ou autorização.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-165431",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165431",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014; identificador legado: 165431"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-33",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "acesso e responsabilidades de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "be8135ea3f88bc33db8111d89d66bd80ad5be5edac2e7816c7d6e40bdd544eb2",
+    "shaDepois": "4668f5d551b17e549cb69ec362c9a07475a62d0d80a0b82619178962849cdf94",
+    "patch": {
+      "item": "A capacidade de acesso simultâneo e de exportação de referências para um gerenciador bibliográfico garantem, por si sós, a preservação de longo prazo dos arquivos digitais da biblioteca.",
+      "justificativa": "ERRADO. Suportar acessos simultâneos e exportar referências são recursos de uso e interoperabilidade. Não provam que o conteúdo foi preservado, continua íntegro ou poderá ser compreendido após mudanças tecnológicas. A recuperação de metadados não substitui a preservação do objeto descrito.",
+      "gatilho": "garantem",
+      "armadilhaBanca": "Confundir qualidade do acesso atual e continuidade futura.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — acesso e responsabilidades de preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Acesso simultâneo e exportação de referências não são suficientes para comprovar preservação de longo prazo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-3202811",
+        "ano": 2024,
+        "orgao": "TSE",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2074",
+        "revisar": true,
+        "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-34",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "acondicionamento e identificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "12b421553f2268ae1b505bdee2745624252017583c7047fc956dfe5b1e762119",
+    "shaDepois": "864350e4898a1810ac091c4318f8b1322869e0d440fc31f2a0637369dd564315",
+    "patch": {
+      "item": "A identificação registrada no acondicionamento deve manter vínculo com o documento e sua localização, favorecendo controle e recuperação sem depender apenas da memória dos funcionários.",
+      "justificativa": "CERTO. A identificação deve apoiar controle e localização sem introduzir material inadequado ou intervenção desnecessária no documento. Registro e vínculo entre objeto e descrição também ajudam a evitar dissociação. Não se deve confundir etiqueta de localização com tratamento de conservação.",
+      "gatilho": "registrada",
+      "armadilhaBanca": "Articular identificação, acondicionamento e controle do acervo.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — acondicionamento e identificação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer identificação feita no acondicionamento torna dispensável manter o vínculo com o registro e a localização do objeto.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / FUB / 2013 (Adaptada)\",\"verificado\":true,\"provaId\":\"TecConcursos-346424\",\"ano\":2013,\"orgao\":\"FUB\",\"banca\":\"Cebraspe\",\"origemAcervoLocal\":\"cespe-cad-1872\"}"
+      },
+      "submoduloId": "7.3"
+    }
+  },
+  {
+    "id": "m7-q-35",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster"
+    ],
+    "localizador": "política e decisões na indexação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4bf1f4a96e105625f97c224bb1dcbb59628f05d2289cf45a90599457364e0983",
+    "shaDepois": "de502179e3b7f207a62015a3eb15c932503860667c802b9e6a0f7d7c3bb0e49c",
+    "patch": {
+      "justificativa": "CERTO. Políticas definem parâmetros, mas sua aplicação ainda envolve interpretação e decisões de indexadores. Formação, domínio do assunto e contexto podem produzir diferenças. A existência de diretrizes não elimina a necessidade de treinamento e avaliação da consistência e da pertinência.",
+      "gatilho": "fatores pessoais",
+      "armadilhaBanca": "Separar diretriz formal e sua aplicação humana.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — política e decisões na indexação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma política escrita elimina automaticamente toda variação entre indexadores e dispensa avaliação dos resultados.",
+      "item": "O processo de indexação é considerado uma prática complexa, que demanda cuidado e reflexão, porque, apesar de a política de indexação estabelecer diretrizes para esse processo, fatores pessoais e profissionais, entre outros, podem influenciar na tomada de decisão.",
+      "submoduloId": "3.3"
+    }
+  },
+  {
+    "id": "m7-q-36",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "modelo de ciclo de vida",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8e6c6a5e059f0ff0c2dd424484977ecb5370bd8d8328fe064a9627de93f8da09",
+    "shaDepois": "3ed3d1b94a5797060919a9f0bf1a2e5d73f861246cbcb28cd11438d93c3b2afb",
+    "patch": {
+      "justificativa": "CERTO. Curadoria abrange ações de gestão e valorização de objetos ao longo do ciclo de vida, incluindo seleção, documentação, preservação e acesso. Não se resume ao arquivamento final. A manutenção de contexto e condições de reúso é parte importante de sua finalidade.",
+      "gatilho": "curadoria",
+      "armadilhaBanca": "Distinguir ciclo de vida e ação isolada de depósito.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — modelo de ciclo de vida — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Curadoria digital começa e termina no upload do arquivo, sem relação com seleção, documentação ou acesso posterior.",
+      "item": "A curadoria digital pode ser corretamente definida como o processo que compreende a seleção, a preservação, a manutenção, a coleção e o arquivamento de ativos digitais.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-37",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "temperatura, umidade e materiais higroscópicos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "c408a7b6988a005bfdf68ada2999eecc2cd56d9d2b7030017e31e96b5442b236",
+    "shaDepois": "22d272c193682cbeb54e484a9dc7c3d57125973999abc0f54d3c3acaf3654410",
+    "patch": {
+      "item": "Por ser higroscópico, o papel responde às condições de umidade do ambiente; flutuações podem produzir alterações dimensionais e tensões nos materiais do acervo.",
+      "justificativa": "CERTO. Materiais como papel absorvem e liberam umidade conforme o ambiente, sofrendo mudanças dimensionais. Oscilações podem criar tensões e agravar danos. O controle precisa considerar material, estado e condições locais; um número de referência não é garantia universal de conservação.",
+      "gatilho": "flutuações",
+      "armadilhaBanca": "Relacionar propriedade do material e risco ambiental.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — temperatura, umidade e materiais higroscópicos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Variações intensas de umidade não afetam papel, pois materiais higroscópicos permanecem dimensionalmente invariáveis.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / STJ / 2018\",\"verificado\":true,\"provaId\":\"TecConcursos-624255\",\"ano\":2018,\"orgao\":\"STJ\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"624255\"}"
+      },
+      "submoduloId": "7.1"
+    }
+  },
+  {
+    "id": "m7-q-38",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "luz e radiação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "10889f645e8f38e9511f39529e8ef33f39609a4eb2d544a4ea955d00f8378c8e",
+    "shaDepois": "edc8a9906952ba35ef28eb91d0799c92bc12b761a0f7b0b7e5525332dff4f30b",
+    "patch": {
+      "item": "A exposição à luz pode causar dano cumulativo e irreversível em materiais sensíveis; reduzir intensidade e tempo de exposição integra a conservação preventiva.",
+      "justificativa": "CERTO. Danos fotoquímicos dependem da sensibilidade, intensidade, duração e espectro de exposição. A diminuição da luz reduz risco, mas apagar a iluminação depois não reverte automaticamente o dano já ocorrido. Ausência de calor perceptível não demonstra ausência de risco luminoso.",
+      "gatilho": "cumulativo",
+      "armadilhaBanca": "Distinguir prevenção de novas exposições e reversão do dano.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — luz e radiação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Quando a luz é apagada, os danos fotoquímicos acumulados no papel são automaticamente revertidos.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / STJ / 2012\",\"verificado\":true,\"provaId\":\"TecConcursos-104076\",\"ano\":2012,\"orgao\":\"STJ\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"104076\"}"
+      },
+      "submoduloId": "7.1"
+    }
+  },
+  {
+    "id": "m7-q-39",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "modelo conceitual e implementação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "61b0ec9965222f7f6a20944d2be475145bf5843dc183da0337879d889b3e7d0c",
+    "shaDepois": "e77a2896b5ee994f8c576ea29032d0106f5d9116437a97b399c7f9f84d4f70e1",
+    "patch": {
+      "justificativa": "ERRADO. A sigla identifica um modelo internacional de referência, não um sistema brasileiro de propriedade intelectual. Direitos são parte das informações e restrições que uma implementação deve gerir, mas não resumem o escopo do modelo. A tradução da sigla não deve ser confundida com o nome de um software.",
+      "gatilho": "sistema brasileiro",
+      "armadilhaBanca": "Distinguir direitos como componente e finalidade integral do modelo.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — modelo conceitual e implementação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "OAIS é referência conceitual de preservação e acesso, e não um produto nacional de gestão da propriedade intelectual.",
+      "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro de gestão da propriedade intelectual para a promoção da preservação digital.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-40",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "armazenamento, planejamento e acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a652967e9a40731a7310ccf3c18fce54b8f1662a1acd7aa44a79ee61f30a3baa",
+    "shaDepois": "ea0343bcf27c8a09875fc536a47b5f8e24c097ae391384288901660db9c0d56b",
+    "patch": {
+      "justificativa": "ERRADO. Backup ajuda a recuperar cópias em situações determinadas, desde que cópias e restauração sejam verificadas. Não resolve sozinho obsolescência de formatos, perda de contexto ou compreensão futura. Um disco externo também pode falhar, ser perdido ou conter cópia já corrompida.",
+      "gatilho": "dispensando",
+      "armadilhaBanca": "Confundir recuperação de cópias e preservação integral.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — armazenamento, planejamento e acesso — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Backup integra a proteção dos arquivos, mas não substitui estratégias de preservação e verificação do acesso.",
+      "item": "As cópias de segurança (backup) de arquivos digitais em discos rígidos externos garantem a preservação a longo prazo, dispensando a necessidade de outras estratégias de preservação digital.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-41",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "manuseio e estrutura de livros",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "da0373858f32ca0c22e2253e7758847e5af3038a720dc7131a66252f2ac55757",
+    "shaDepois": "0b75ac3e66aec574cfe43c70ab85c90ec84c9cfffbdf99f941d2ca059219858c",
+    "patch": {
+      "item": "Durante consulta ou digitalização, a abertura do livro deve ser compatível com sua estrutura e estado, podendo exigir apoios que limitem o ângulo e reduzam tensões.",
+      "justificativa": "CERTO. O ângulo de abertura depende de encadernação, costura, fragilidade e estado do volume. Apoios podem reduzir tensões durante consulta ou captura. Forçar uma abertura padrão pode romper costura e suporte; conservação exige adequação ao objeto, não um ângulo universal.",
+      "gatilho": "compatível",
+      "armadilhaBanca": "Distinguir conforto de captura e limite estrutural do volume.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — manuseio e estrutura de livros. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo livro deve ser forçado a abrir a 180 graus para facilitar sua digitalização, independentemente da encadernação.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / DPU / 2016\",\"verificado\":true,\"provaId\":\"TecConcursos-324588\",\"ano\":2016,\"orgao\":\"DPU\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"324588\"}"
+      },
+      "submoduloId": "7.3"
+    }
+  },
+  {
+    "id": "m7-q-42",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "preservação tecnológica e ambiente original",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2ced6db2f40247b88bd0e4ac850667f49f601bad2453b388fe7591e9745801f5",
+    "shaDepois": "da29464caf92b894ec695a5974e215abe65a4107e16f97cea4e0b96fe50b53c8",
+    "patch": {
+      "justificativa": "CERTO. A estratégia conserva recursos do ambiente original para sustentar acesso aos objetos. Difere de emulação, que reproduz comportamentos em outro ambiente, e de migração, que transfere ou transforma representações. Dependências e conhecimentos necessários também precisam ser mantidos.",
+      "gatilho": "hardware e software",
+      "armadilhaBanca": "Distinguir manutenção do ambiente e reprodução de seu funcionamento.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — preservação tecnológica e ambiente original — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Preservação tecnológica e emulação são idênticas, pois ambas exigem necessariamente conservar o mesmo equipamento físico original.",
+      "item": "A preservação de documentos abrange as técnicas de preservação tecnológica, que cuidam da preservação de hardware e software para suportar sistemas originais de acesso a informações.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-43",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "fungos, controle ambiental e segurança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "8f7a01f8f52d1b4f3b14ba3dad954ebc58363a182f253f05e5e46d6eb6ec9e06",
+    "shaDepois": "71325e5172809ad3a7ba7fe0918ed63ff419f3886fdc72c27913e4e9eea9987c",
+    "patch": {
+      "item": "Ao identificar sinais de mofo, a biblioteca deve avaliar isolamento, segurança das pessoas e condições ambientais; remover sinais visíveis não substitui o controle das causas da infestação.",
+      "justificativa": "CERTO. Suspeita de mofo exige avaliar risco, isolar materiais quando apropriado e proteger pessoas antes do tratamento. Espalhar esporos por ventilação indiscriminada ou limpeza em área ocupada pode agravar exposição. Remover sinais visíveis sem corrigir umidade e causas não encerra o problema.",
+      "gatilho": "isolamento",
+      "armadilhaBanca": "Distinguir tratamento aparente e controle das causas.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — fungos, controle ambiental e segurança. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Retirar o mofo visível dispensa corrigir umidade e avaliar riscos de recontaminação e exposição das pessoas.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / SERPRO / 2013\",\"verificado\":true,\"provaId\":\"TecConcursos-436559\",\"ano\":2013,\"orgao\":\"SERPRO\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"436559\"}"
+      },
+      "submoduloId": "7.2"
+    }
+  },
+  {
+    "id": "m7-q-44",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "bibliografia comercial e bibliografia nacional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f4445357eb400c2d6d615ed9e41b1222005d50d4eebbffccaf1dd26a13c50a60",
+    "shaDepois": "e2dae76358a3bf3fcbbb619c015babada65393942edd541773a7a585378af7d5",
+    "patch": {
+      "item": "Uma bibliografia comercial corresponde necessariamente à bibliografia nacional completa e substitui o depósito legal na salvaguarda de toda a produção editorial de um país.",
+      "justificativa": "ERRADO. Bibliografia comercial serve à identificação e comercialização de publicações conforme seu recorte. Bibliografia nacional e depósito legal se relacionam à identificação e salvaguarda da produção de um país. A eventual utilidade histórica de um catálogo de vendas não o torna completo ou equivalente à bibliografia nacional.",
+      "gatilho": "necessariamente",
+      "armadilhaBanca": "Confundir finalidade comercial e cobertura patrimonial completa.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — bibliografia comercial e bibliografia nacional. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma bibliografia comercial pode apoiar identificação de títulos, mas não equivale necessariamente à bibliografia nacional ou ao depósito legal.",
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m7-q-45",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "controle de luz e exposições",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "5b9cad6b9a9a772585c50e0e2e5ca1b4aca979fd5388159cd056bbbeea5d744e",
+    "shaDepois": "31b0a1115f54ac826891e5e1295c6a015d47a8a836ecbd568d410b838279e573",
+    "patch": {
+      "item": "A instalação de filtro ultravioleta elimina todo risco de dano luminoso em documentos, tornando desnecessário controlar intensidade e duração da exposição à luz visível.",
+      "justificativa": "ERRADO. Radiação ultravioleta é um fator de risco, mas luz visível também pode causar danos em materiais sensíveis. Filtragem UV não elimina intensidade, duração e sensibilidade como variáveis de exposição. Preservação não se resume a instalar um filtro e abandonar monitoramento.",
+      "gatilho": "elimina",
+      "armadilhaBanca": "Confundir mitigação de uma faixa de radiação e eliminação de todo risco.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — controle de luz e exposições. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Eliminar ou reduzir UV não elimina todos os riscos de exposição à luz visível.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / SUFRAMA / 2014\",\"verificado\":true,\"provaId\":\"TecConcursos-165424\",\"ano\":2014,\"orgao\":\"SUFRAMA\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"165424\"}"
+      },
+      "submoduloId": "7.1"
+    }
+  },
+  {
+    "id": "m7-q-46",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "poluentes e materiais de acondicionamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "9f5062a9aa976e4c97ee05ba3915f0bf895ae79470a5f826f4a9eaada40abcf4",
+    "shaDepois": "f198e75616b76c59e9ebda305be6e663267f0a48866aca2117d7bff309677b4d",
+    "patch": {
+      "item": "A seleção de materiais de acondicionamento deve considerar composição, estabilidade e compatibilidade com o objeto, sem presumir que a aparência limpa ou um rótulo comercial assegure adequação universal.",
+      "justificativa": "CERTO. Escolher caixas e invólucros exige avaliar composição, estabilidade e adequação ao tipo de objeto. A aparência limpa ou a indicação comercial de material neutro não demonstra compatibilidade universal. Fotografias, papéis e materiais compostos podem demandar condições específicas.",
+      "gatilho": "compatibilidade",
+      "armadilhaBanca": "Não substituir avaliação de compatibilidade por rótulo comercial.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — poluentes e materiais de acondicionamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um material vendido como neutro é adequado a todo documento e fotografia, sem necessidade de avaliar sua composição e uso.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / SUFRAMA / 2014\",\"verificado\":true,\"provaId\":\"TecConcursos-165484\",\"ano\":2014,\"orgao\":\"SUFRAMA\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"165484\"}"
+      },
+      "submoduloId": "7.3"
+    }
+  },
+  {
+    "id": "m7-q-47",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "temperatura e processos de deterioração",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "5f1b1a346805bdb210f7e7c8df9f936e588c8a6cedd7bfd69b3b1ed43c82f665",
+    "shaDepois": "38249a7806f7a823d869b2b886b65cbd5735a901ec553cf99c693baa2d0764aa",
+    "patch": {
+      "item": "A conservação de acervos não depende dos níveis de temperatura e umidade, desde que ambos permaneçam estáveis, mesmo quando favorecem deterioração química e atividade biológica.",
+      "justificativa": "ERRADO. Taxas de reações e riscos biológicos dependem de condições ambientais e do material. Temperatura constante inadequada pode continuar causando dano. Estabilidade é desejável em contextos específicos, mas não torna qualquer condição estável aceitável nem dispensa monitoramento.",
+      "gatilho": "não depende",
+      "armadilhaBanca": "Confundir estabilidade e adequação do nível ambiental.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — temperatura e processos de deterioração. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Estabilidade ambiental deve ser avaliada junto aos níveis de temperatura, umidade e necessidades dos materiais.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / MPE TO / 2024 (Adaptada)\",\"verificado\":true,\"provaId\":\"TecConcursos-2843047\",\"ano\":2024,\"orgao\":\"MPE TO\",\"banca\":\"Cebraspe\",\"origemAcervoLocal\":\"cespe-tec-2449\"}"
+      },
+      "submoduloId": "7.1"
+    }
+  },
+  {
+    "id": "m7-q-48",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "planos de emergência e segurança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "13c7eeea0e7af46ef0dd65f2eff34ef198fcfeb8d840b53af0b5ee4af535e111",
+    "shaDepois": "ffa87830fa3506eb0ff41627d0617b547336618ff635a2d703b67529f8248a97",
+    "patch": {
+      "item": "Em uma inundação no acervo, a primeira providência deve ser entrar imediatamente na área e recolher livros, mesmo sem avaliação de riscos elétricos, estruturais ou de contaminação.",
+      "justificativa": "ERRADO. Antes de recuperar documentos, é necessário avaliar condições estruturais, eletricidade, contaminação e acesso seguro. Tentar salvar volumes em uma área insegura pode causar acidentes graves. A resposta deve articular pessoas capacitadas, prioridades e técnicas compatíveis com os materiais.",
+      "gatilho": "primeira providência",
+      "armadilhaBanca": "Priorizar segurança das pessoas na resposta ao sinistro.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — planos de emergência e segurança. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Em uma inundação, a retirada imediata dos livros deve preceder qualquer avaliação de segurança elétrica e estrutural.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / BASA / 2012 (Adaptada)\",\"verificado\":true,\"provaId\":\"TecConcursos-1303089\",\"ano\":2012,\"orgao\":\"BASA\",\"banca\":\"Cebraspe\",\"origemAcervoLocal\":\"cespe-cad-11\"}"
+      },
+      "submoduloId": "7.4"
+    }
+  },
+  {
+    "id": "m7-q-49",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nedccAgua",
+      "cassares"
+    ],
+    "localizador": "resposta a água e secagem de materiais; planejamento de conservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "114e2d2fde957676099d6e4b13328b50aa34cd6dd3beaea18a3613a667b9b295",
+    "shaDepois": "3adbc1d3a95bc376ebaa568c90ae93166dd5e61f6be4a26bfa939ce0a51f0699",
+    "patch": {
+      "item": "Em resposta a sinistros com água, o congelamento de materiais compatíveis pode estabilizar o lote e ganhar tempo, sem equivaler a esterilização ou recuperação completa dos documentos.",
+      "justificativa": "CERTO. Congelamento pode ganhar tempo quando materiais compatíveis não podem ser secos prontamente, mas exige seleção e procedimentos apropriados. Não remove danos nem esteriliza o conjunto. A técnica de secagem posterior e a identificação dos objetos precisam ser planejadas.",
+      "gatilho": "estabilizar",
+      "armadilhaBanca": "Distinguir estabilização temporária e recuperação completa.",
+      "fonte": "NEDCC — 3.12 Freezing and Drying Wet Books and Records — https://www.nedcc.org/free-resources/preservation-leaflets/3.-emergency-management/3.12-freezing-and-drying-wet-books-and-records; Cassares, agentes biológicos: congelamento não esteriliza.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Congelar qualquer documento molhado elimina todo microrganismo e dispensa planejamento de secagem e tratamento posterior.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / SEE DF / 2017\",\"verificado\":true,\"provaId\":\"TecConcursos-464226\",\"ano\":2017,\"orgao\":\"SEE DF\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"464226\"}"
+      },
+      "submoduloId": "7.4"
+    }
+  },
+  {
+    "id": "m7-q-50",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "agentes biológicos e prevenção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "4802df13cc2b3154ed96d2e1d320b6cd74d169458f6850928bed131b8bbe6c28",
+    "shaDepois": "7cab25a108b7c962c1281e8855c84ed0009aff0cd0456c3218de79ee53ef8090",
+    "patch": {
+      "item": "O controle integrado de pragas articula prevenção, inspeção, identificação e monitoramento, evitando reduzir a resposta à aplicação indiscriminada de produtos químicos.",
+      "justificativa": "CERTO. Controle integrado combina prevenção, inspeção, identificação e acompanhamento, com intervenção proporcional ao risco. Pulverizar produtos indiscriminadamente pode expor pessoas e danificar acervos. Um inseto encontrado também não define sozinho a espécie nem a extensão de uma infestação.",
+      "gatilho": "monitoramento",
+      "armadilhaBanca": "Distinguir controle integrado e aplicação automática de pesticidas.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — agentes biológicos e prevenção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O controle de pragas deve consistir apenas em pulverização periódica indiscriminada, dispensando identificação e monitoramento.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / STJ / 2012 (Adaptada)\",\"verificado\":true,\"provaId\":\"TecConcursos-104075\",\"ano\":2012,\"orgao\":\"STJ\",\"banca\":\"Cebraspe\",\"origemAcervoLocal\":\"cespe-cad-1709\"}"
+      },
+      "submoduloId": "7.2"
+    }
+  },
+  {
+    "id": "m7-q-51",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "umidade, agentes biológicos e prevenção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "13ce4f59da0a706e976eaff2004e094cf4703b8119e9d96a3e9a94e25419321e",
+    "shaDepois": "b70cbaf3a327e827c5e6f006074d932e09889372046659782e0b29ded128f27d",
+    "patch": {
+      "item": "A instalação de ar-condicionado impede a proliferação de fungos em qualquer acervo, mesmo sem monitoramento da umidade relativa e sem corrigir infiltrações.",
+      "justificativa": "ERRADO. Ar frio pode continuar apresentando condições favoráveis a problemas de umidade, dependendo do ambiente e das superfícies. Temperatura e umidade precisam ser medidas e analisadas em conjunto. Ar-condicionado, sem projeto e monitoramento adequados, não resolve automaticamente mofo ou condensação.",
+      "gatilho": "impede",
+      "armadilhaBanca": "Confundir presença de equipamento e controle efetivo do ambiente.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — umidade, agentes biológicos e prevenção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Climatização exige monitoramento de temperatura e umidade e não impede automaticamente a proliferação de fungos.",
+      "submoduloId": "7.1",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      }
+    }
+  },
+  {
+    "id": "m7-q-52",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "higienização e procedimentos de intervenção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "58383f636407686ff5733b52bb21588ea23daa20cd615bce106ac00826b452c0",
+    "shaDepois": "11ba1e8df5958d4bfb9211ed5c12125337d234dcea5b313a0e1e88fe4c2f54be",
+    "patch": {
+      "item": "Procedimentos de higienização devem ser escolhidos segundo o estado e as características do documento, considerando estabilidade de tintas e fragilidade do suporte.",
+      "justificativa": "CERTO. Higienização depende da resistência do suporte e da estabilidade de tintas, pigmentos e demais componentes. Uma técnica útil em um papel pode danificar outro. Diagnóstico e testes ajudam a escolher procedimentos, não autorizando padronização indiscriminada para todo acervo.",
+      "gatilho": "estado",
+      "armadilhaBanca": "Distinguir protocolo de trabalho e receita universal.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — higienização e procedimentos de intervenção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A mesma técnica de higienização pode ser aplicada a todo documento, sem examinar suporte, tintas ou fragilidade.",
+      "submoduloId": "7.3",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      }
+    }
+  },
+  {
+    "id": "m7-q-53",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "rede de informação e acesso jurídico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ac9abbb0a2d37083861356d41ecfd25d4c2043c3aed4860cdbe07cad8986e54c",
+    "shaDepois": "b575a99c54229161aba28cc5502fac9e92a592017eae3483309fe8ecd834ec92",
+    "patch": {
+      "justificativa": "ERRADO. LexML promove integração e acesso à informação jurídica e legislativa. Isso não o transforma em depositário universal de toda produção intelectual jurídica nem transfere a ele todas as responsabilidades patrimoniais dos produtores. Descoberta e identificação podem apontar para documentos mantidos por outras instituições.",
+      "gatilho": "depositária",
+      "armadilhaBanca": "Confundir rede de descoberta e obrigação universal de custódia.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — rede de informação e acesso jurídico — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "LexML integra acesso e identificação de informação jurídica; não é depositário universal de toda produção intelectual brasileira na área.",
+      "item": "A rede LexML funciona como depositária do patrimônio bibliográfico e documental, sendo responsável pela execução da política governamental de captação, preservação e difusão da produção intelectual brasileira na área do direito.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-3187374",
+        "ano": 2024,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-1986",
+        "revisar": true,
+        "declaracaoLegada": "Cebraspe / STJ / 2024 (Adaptada); identificador legado: cespe-tec-1986"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m7-q-54",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "papel, acidez e intervenções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "78a94120a9b409f40eadc10d997ddc54398451f98fbf2756abfe25e837023d5e",
+    "shaDepois": "a4953c0958e839acb516a7c32cab7a1fdb03101181c3eb7349aeb4757e48bf38",
+    "patch": {
+      "item": "A desacidificação reconstitui automaticamente as cadeias de celulose já rompidas, restituindo ao papel toda a resistência original, independentemente de seu estado.",
+      "justificativa": "ERRADO. Neutralizar acidez ou criar reserva alcalina não reconstrói automaticamente cadeias de celulose já rompidas. Estado do papel, composição e tintas limitam tratamentos. pH é uma medida relevante, mas não resume a resistência nem autoriza intervenção sem avaliação especializada.",
+      "gatilho": "reconstitui",
+      "armadilhaBanca": "Confundir redução de um fator de deterioração e reversão integral do dano.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — papel, acidez e intervenções. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Desacidificação pode tratar acidez, mas não recompõe automaticamente a resistência perdida por ruptura das cadeias de celulose.",
+      "submoduloId": "7.1",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / EMBRAPA / 2025"
+      }
+    }
+  },
+  {
+    "id": "m7-q-55",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "guarda e manuseio de volumes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "206ac220e4915cd293d199a32cbcdcd989fd8f7f9acc783464bc6413360eb173",
+    "shaDepois": "9555e03fc4c063a800e5c3a94cf9081fb981561a3cb5fcb48097b4e0c69415fc",
+    "patch": {
+      "item": "A escolha entre guarda vertical e horizontal de volumes deve considerar formato, peso, estrutura e estado, evitando posições que causem deformação ou tensão.",
+      "justificativa": "CERTO. Tamanho, peso, encadernação e condição orientam o posicionamento e os apoios. Livros grandes ou frágeis podem exigir guarda horizontal e cuidados específicos. Não há posição universal que sirva igualmente a todo material; estabilidade e facilidade de retirada precisam ser avaliadas.",
+      "gatilho": "formato",
+      "armadilhaBanca": "Distinguir arranjo comum e necessidade do objeto.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — guarda e manuseio de volumes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todos os livros, inclusive volumes muito grandes e frágeis, devem ser guardados em pé e sem apoio lateral.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / STJ / 2018 (Adaptada)\",\"verificado\":true,\"provaId\":\"TecConcursos-624256\",\"ano\":2018,\"orgao\":\"STJ\",\"banca\":\"Cebraspe\",\"origemAcervoLocal\":\"cespe-cad-1703\"}"
+      },
+      "submoduloId": "7.3"
+    }
+  },
+  {
+    "id": "m7-q-56",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "materiais de reparo e acondicionamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "3e81c687960d85141797bde4d8454013e0a851d98ed7d9bc9153eb86828fab20",
+    "shaDepois": "b4e94db27ba2401ddc7a7601f53305d8e3f7091b31dc1c255bcb425b2faea0f0",
+    "patch": {
+      "item": "A aplicação de fita adesiva transparente comum restaura de forma permanente e reversível qualquer rasgo em papel histórico, dispensando avaliação de compatibilidade.",
+      "justificativa": "ERRADO. Fitas autoadesivas comuns podem deixar resíduos, manchas e tensões, além de dificultar tratamentos posteriores. Transparência e rapidez de aplicação não demonstram compatibilidade com papel histórico. Um reparo deve ser indicado e documentado por quem tem competência para avaliar seus efeitos.",
+      "gatilho": "restaura",
+      "armadilhaBanca": "Confundir aparência imediata do reparo e estabilidade de longo prazo.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — materiais de reparo e acondicionamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Fita adesiva comum pode causar danos e não deve ser tratada como solução universal de reparo em acervos históricos.",
+      "submoduloId": "7.3",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / MPE CE / 2025"
+      }
+    }
+  },
+  {
+    "id": "m7-q-57",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "planejamento de conservação e prioridades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "3e4bd2fbe65c902e78fa30f5abb89bf18e5d85b5835d29e41e97894f00c2a27f",
+    "shaDepois": "3245e1b380f2a9b93ed7a8ec9682ccf10f13aba7f9f52daaa4dcdf453739fb2d",
+    "patch": {
+      "item": "O planejamento de conservação deve partir de diagnóstico do acervo e das condições de guarda, permitindo definir prioridades, responsabilidades e recursos de acordo com os riscos.",
+      "justificativa": "CERTO. Uma política precisa identificar materiais, condições, ameaças, responsabilidades e recursos. Priorizar não significa apenas tratar o objeto mais valioso isoladamente: medidas preventivas podem reduzir danos a muitos itens. Decisões devem se apoiar em riscos e objetivos explicitados.",
+      "gatilho": "diagnóstico",
+      "armadilhaBanca": "Distinguir levantamento de necessidades e solução comprada previamente.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — planejamento de conservação e prioridades. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O planejamento de conservação deve começar pela compra de produtos, dispensando diagnóstico do acervo e das ameaças.",
+      "submoduloId": "7.4",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / TJ AC / 2012"
+      }
+    }
+  },
+  {
+    "id": "m7-q-58",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "preservação do conteúdo e serviços de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d4c80a60f91cc19aedb65bf01dea611990f556553754c95bf0195ef4fa4b4499",
+    "shaDepois": "21f776409fa2c9e8c4788e6386fba204ec9fc38daeef5e7bd1dc8a9007fc7dcb",
+    "patch": {
+      "item": "A preservação de um artigo digital depende exclusivamente da possibilidade de exportar sua referência para um gerenciador bibliográfico, mesmo que o arquivo integral deixe de ser mantido.",
+      "justificativa": "ERRADO. A capacidade de exportar referências não preserva automaticamente os arquivos descritos. Controles de integridade, contexto, formatos e acesso futuro continuam necessários. A redação é uma adaptação para explicitar o erro conceitual sem afirmar o motivo histórico de julgamento da prova.",
+      "gatilho": "exclusivamente",
+      "armadilhaBanca": "Separar referência bibliográfica e objeto preservado.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — preservação do conteúdo e serviços de acesso — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Exportar referências é um recurso de uso; preservar o conteúdo exige outras ações de gestão e controle.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-3202811",
+        "ano": 2024,
+        "orgao": "TSE",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2074",
+        "revisar": true,
+        "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-59",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "conservação, restauração e avaliação de intervenções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "a837cd0812f44061cd64d34dfd8d9949562755a657529128f3c6e7d070910587",
+    "shaDepois": "ea26b713da508f515590c658f6cd02ebfb86be4c02ed44f8aaaf210081ffdc26",
+    "patch": {
+      "item": "A busca de reversibilidade em tratamentos não significa garantir que toda intervenção possa ser integralmente desfeita; sua necessidade, compatibilidade e documentação devem ser avaliadas.",
+      "justificativa": "CERTO. Reversibilidade é princípio ou objetivo a ponderar, não promessa de desfazer integralmente qualquer intervenção. Materiais mudam e tratamentos podem ter efeitos duradouros. Avaliar compatibilidade, necessidade e documentação é essencial para minimizar risco e informar futuras decisões.",
+      "gatilho": "não significa",
+      "armadilhaBanca": "Distinguir objetivo de intervenção e garantia absoluta.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — conservação, restauração e avaliação de intervenções. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um tratamento chamado reversível pode ser aplicado sem diagnóstico, pois sempre será possível desfazê-lo integralmente.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"real-confirmada\",\"descricao\":\"Cebraspe / SUFRAMA / 2014\",\"verificado\":true,\"provaId\":\"TecConcursos-165431\",\"ano\":2014,\"orgao\":\"SUFRAMA\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"165431\"}"
+      },
+      "submoduloId": "7.4"
+    }
+  },
+  {
+    "id": "m7-q-60",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "conservação preventiva e intervenção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "9cf96c2e5064d11db7ceaeceafcdc0220b7cdf84ab3fbcdf31f95832cacaa58c",
+    "shaDepois": "e7807dd2a4e58fb694ea596f03f883c8cafcfeb95d6ced4b86ce7232e44fee38",
+    "patch": {
+      "item": "Controlar condições de guarda e manuseio integra a conservação preventiva, buscando reduzir riscos sem depender de intervenções restaurativas em cada documento.",
+      "justificativa": "CERTO. A prevenção atua nas condições que favorecem dano, como ambiente, manuseio e acondicionamento. Restauração exige outras decisões sobre o objeto já afetado. Evitar novas lesões e reparar danos existentes são finalidades relacionadas, mas não idênticas.",
+      "gatilho": "preventiva",
+      "armadilhaBanca": "Separar redução de riscos e intervenção restaurativa.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — conservação preventiva e intervenção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Conservação preventiva tem como finalidade obrigatória reconstruir esteticamente cada documento já danificado.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / FUB / 2013 (Adaptada)\",\"verificado\":true,\"provaId\":\"TecConcursos-346424\",\"ano\":2013,\"orgao\":\"FUB\",\"banca\":\"Cebraspe\",\"origemAcervoLocal\":\"cespe-cad-1872\"}"
+      },
+      "submoduloId": "7.3"
+    }
+  },
+  {
+    "id": "m7-q-61",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "conarq51"
+    ],
+    "localizador": "Diretrizes RDC-Arq, versão 2: confiabilidade e autenticidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2f98a6e5dd6615046085faa7b2ca7e282663e48428c3586226752fefbce65373",
+    "shaDepois": "da23b5987d6a98bd150bd4dd0d12ab593c4a02b0c3a39785fac7823b41850f2a",
+    "patch": {
+      "justificativa": "ERRADO. Autenticidade não é um carimbo obtido uma vez para dispensar controles futuros. Custódia, intervenções e transferências precisam produzir evidências verificáveis. Lacunas sem documentação enfraquecem a possibilidade de avaliar integridade e identidade ao longo do tempo.",
+      "gatilho": "afasta",
+      "armadilhaBanca": "Confundir avaliação em um instante e dispensa de continuidade dos controles.",
+      "fonte": "CONARQ — Resolução 51, de 25/08/2023 — Diretrizes RDC-Arq, versão 2: confiabilidade e autenticidade — https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-conarq-no-51-de-25-de-agosto-de-2023",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Preservar evidências de autenticidade requer controles e documentação de custódia e eventos ao longo do tempo.",
+      "item": "Na custódia arquivística de documentos digitais, a comprovação de autenticidade afasta a necessidade de cadeia de custódia contínua, autorizando períodos de guarda intermediária em sistemas não auditados sem registro de trilha de eventos.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-62",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "modelos de informação: AIP e PDI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f87a2d14300a5c37948651fcefd25672f7455e5a19dfe1167bc3f5d8cc5f5adb",
+    "shaDepois": "3978506b5e20accd5859083bfa33823de28531e531aaff82224874a44790a275",
+    "patch": {
+      "justificativa": "ERRADO. AIP é pacote para arquivamento e reúne informação de conteúdo e informação de descrição de preservação, além de estrutura de empacotamento pertinente. DIP atende à disseminação. Metadados de preservação não são algo acrescentado apenas na cópia entregue ao usuário.",
+      "gatilho": "restringe-se",
+      "armadilhaBanca": "Trocar a composição e a finalidade dos pacotes.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — modelos de informação: AIP e PDI — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "AIP inclui informações de conteúdo e de descrição de preservação; DIP é preparado para disseminação.",
+      "item": "No modelo de referência OAIS, o pacote de informação de arquivamento (AIP) restringe-se ao arquivo binário de conteúdo, cabendo ao pacote de disseminação (DIP) a incorporação dos metadados contextuais de preservação.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-63",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "definição de longo prazo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "82d5efb14c7160d9ba5ad3366a8a4bc316408339129a8c35dd0ea805b6838da9",
+    "shaDepois": "995e8d8ab1304adbc46ac6f2cd79da504426147813478f7707e85a1495993687",
+    "patch": {
+      "justificativa": "ERRADO. Longo prazo refere-se à duração suficiente para enfrentar mudanças de tecnologia e da comunidade designada. Não corresponde a um limite fixo de noventa dias. O compromisso exige planejamento e revisão porque necessidades e dependências podem mudar.",
+      "gatilho": "noventa dias",
+      "armadilhaBanca": "Substituir um conceito funcional por prazo arbitrário.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — definição de longo prazo — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No OAIS, longo prazo considera mudanças tecnológicas e da comunidade, sem fixar universalmente noventa dias.",
+      "item": "No modelo OAIS, a preservação a longo prazo é definida como um período estrito e imutável de até noventa dias contados a partir da data de criação do arquivo de texto.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-64",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "modelo funcional: seis entidades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1ab0d6b85a087615243d022e8d9b6f6eed056f10d165054370203e8c19132cd8",
+    "shaDepois": "f2e8b20c47528a618af67132e9ef48325dcecf15bc1c602c31c910203ebe9f3c",
+    "patch": {
+      "justificativa": "CERTO. O modelo apresenta ingestão, armazenamento arquivístico, gestão de dados, administração, planejamento da preservação e acesso. Elas se articulam e não precisam corresponder a seis programas ou departamentos isolados. Um nome de entidade funcional indica responsabilidade, não um produto de mercado obrigatório.",
+      "gatilho": "seis",
+      "armadilhaBanca": "Distinguir decomposição funcional e arquitetura física da implementação.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — modelo funcional: seis entidades — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Implementar OAIS exige obrigatoriamente contratar seis softwares independentes, um para cada entidade funcional.",
+      "item": "A arquitetura funcional do OAIS é composta por seis entidades funcionais interdependentes: Ingestão (Ingest), Armazenamento Arquivístico (Archival Storage), Gestão de Dados (Data Management), Administração (Administration), Planejamento da Preservação (Preservation Planning) e Acesso (Access).",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-65",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "papéis e fluxos SIP, AIP e DIP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7ca679f283c85b86803d8e6976f7394a1c9896c81d8b13b5768d2d6eeeaf8bad",
+    "shaDepois": "2d7500f5ad3004d1e7addcbc683da4bd023052f5a1390931fdbdb6f96412895a",
+    "patch": {
+      "justificativa": "ERRADO. Produtor entrega SIP ao arquivo; a ingestão prepara informação para arquivamento conforme acordos e procedimentos. Consumidores recebem DIP no acesso. O item inverte tanto a direção quanto os pacotes e os papéis.",
+      "gatilho": "DIP do consumidor",
+      "armadilhaBanca": "Inverter direção dos fluxos e siglas dos pacotes.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — papéis e fluxos SIP, AIP e DIP — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A ingestão recebe SIP do produtor e prepara o arquivamento, enquanto o acesso fornece DIP ao consumidor.",
+      "item": "Na entidade funcional de Ingestão do OAIS, o sistema recebe o pacote DIP do consumidor e o transforma em um SIP para enviar ao produtor.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-66",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "informação de fixidez",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bee2b8f92b6547e22693ef8b82ec17c0692f8ab89ae82ca5c33becc9d5c3cfc0",
+    "shaDepois": "40a3c6d79d9b0d1b5bb222004e9b19777babddff1985fd4a7d4b18e2267efbe9",
+    "patch": {
+      "item": "A informação de fixidez pode apoiar a detecção de alterações nos bits por verificações como checksums; sua conferência não comprova, isoladamente, autoria ou veracidade do conteúdo.",
+      "justificativa": "CERTO. Comparar hashes com uma referência confiável pode detectar mudança da sequência de bits. Isso não identifica sozinho autoria, legitimidade da alteração ou verdade do conteúdo. A referência e o processo de verificação também precisam ser protegidos e documentados.",
+      "gatilho": "não comprova",
+      "armadilhaBanca": "Distinguir fixidez de autoria e autenticidade substantiva.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — informação de fixidez — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A igualdade de hashes comprova, sozinha, autoria intelectual e verdade de todas as afirmações do documento.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-67",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cariniana"
+    ],
+    "localizador": "serviços e cooperação de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6470503f67d4c13c789700d317bf4306a5bb75f37a3a98276e4bd554051b3169",
+    "shaDepois": "ff8bc524b6fb797eac682d5fa186d7717ab6dffcd8cca35e7384072608a869b1",
+    "patch": {
+      "item": "A Rede Cariniana, coordenada pelo Ibict, articula serviços cooperativos de preservação digital e utiliza infraestrutura distribuída, como LOCKSS, para reduzir riscos de perda dos conteúdos abrangidos por seus serviços.",
+      "justificativa": "CERTO. A Rede Cariniana, coordenada pelo Ibict, articula instituições e serviços de preservação, com uso de infraestrutura distribuída como LOCKSS. A cooperação busca reduzir perdas, mas não garante sobrevivência incondicional de todo objeto. Cobertura e compromissos dependem dos serviços e acordos concretos.",
+      "gatilho": "reduzir",
+      "armadilhaBanca": "Distinguir participação institucional e cobertura efetiva dos objetos.",
+      "fonte": "Ibict — Rede Cariniana — serviços e cooperação de preservação — https://cariniana.ibict.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Participar de uma rede de preservação garante automaticamente a proteção de todos os arquivos de uma instituição, mesmo os não incluídos nos acordos.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-68",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "escopo do modelo de referência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "758c0b387a842c72a7f355310d26c6761c82d24fd276a7da01105d6ab02056ab",
+    "shaDepois": "aca4d7835d1841f66793d364225e2529e9ab9cc553e4497f3d6722c5e9c57765",
+    "patch": {
+      "item": "OAIS é um modelo de referência para responsabilidades, funções e informação em preservação de longo prazo; citá-lo em uma política não equivale a certificar a confiabilidade de uma implementação.",
+      "justificativa": "CERTO. OAIS oferece conceitos e responsabilidades para arquivos que preservam informação para uma comunidade. Implementá-lo exige decisões institucionais e técnicas. Declarar adesão ao modelo ou usar suas siglas não equivale a obter certificação nem prova que todas as responsabilidades estão cumpridas.",
+      "gatilho": "não equivale",
+      "armadilhaBanca": "Distinguir referência conceitual e avaliação de conformidade.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — escopo do modelo de referência — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A simples utilização das siglas SIP, AIP e DIP certifica automaticamente um repositório como confiável.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-69",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "pacotes de arquivamento e disseminação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c3cfcc32f4ebe52ba0a3d79c274f500fe0840aef6266eea6c03b44a2d2bc311d",
+    "shaDepois": "c17802b647ebb06249fe40abe807423a4be63f126a28f52794719f3d080450dc",
+    "patch": {
+      "justificativa": "ERRADO. AIP atende à manutenção no arquivo; DIP é o pacote preparado para atender solicitações de disseminação. Um DIP pode derivar de um ou mais AIPs e não precisa reproduzir integralmente a estrutura interna. A inversão do item troca custódia e entrega ao consumidor.",
+      "gatilho": "AIP",
+      "armadilhaBanca": "Inverter papéis dos pacotes sem alterar as siglas.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — pacotes de arquivamento e disseminação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "AIP corresponde ao arquivamento e DIP à disseminação, conforme as necessidades e os acordos aplicáveis.",
+      "item": "No modelo de referência OAIS (ISO 14721), o pacote de informação de arquivamento (AIP) é a estrutura diretamente disponibilizada aos usuários finais na interface de busca para acesso e download na web, cabendo ao pacote de disseminação (DIP) o armazenamento interno das cópias mestras com metadados de preservação.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-70",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "Rights: permissões e restrições de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b12c87b2aede91d0847fedbd3ab086e133952cf5d99491daf8892cd4a795c13b",
+    "shaDepois": "5ff42d4216b0be96741865b62f9dbf0ad6c72c7da7c857a3f1a7b71d98557f52",
+    "patch": {
+      "item": "No PREMIS, registrar autorização para migrar um arquivo equivale a conceder autorização irrestrita para sua divulgação pública e exploração comercial, ainda que esses usos não estejam permitidos.",
+      "justificativa": "ERRADO. Metadados de direitos documentam fundamentos e condições de ações, como copiar, migrar ou disseminar. Registrar uma permissão não cria autorização para qualquer finalidade nem elimina direitos de terceiros. Preservação e acesso podem ter condições diferentes para o mesmo objeto.",
+      "gatilho": "equivale",
+      "armadilhaBanca": "Confundir autorização específica e licença para qualquer uso.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Rights: permissões e restrições de preservação — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Permissão para uma ação de preservação não implica necessariamente autorização para disseminação pública ou reutilização comercial.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-71",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "Preservation Planning",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e2f2549cc115803bac07ba23913da0756816e65489421626e6808882499d3756",
+    "shaDepois": "69298380e417fe9ed8f5fc42d81dd00bf8e43fe1196744eb347bff7b248bb346",
+    "patch": {
+      "item": "No OAIS, o planejamento da preservação deve começar somente após todos os arquivos se tornarem ilegíveis, pois monitorar tecnologias e necessidades antes da falha não integra sua função.",
+      "justificativa": "ERRADO. O planejamento acompanha tecnologia, necessidades da comunidade e estratégias, antecipando riscos. Aguardar indisponibilidade completa torna a ação mais difícil e pode causar perdas. Monitoramento não elimina risco, mas permite preparar e avaliar intervenções antes da falha.",
+      "gatilho": "somente após",
+      "armadilhaBanca": "Confundir reação à falha e planejamento antecipatório.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — Preservation Planning — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O planejamento da preservação acompanha riscos e mudanças e pode propor estratégias antes da perda de acesso.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-72",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "produtor, consumidor e comunidade designada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a8b324c122394ae1d8bee709fc84479f834896bca09d8b7435059375316dd8da",
+    "shaDepois": "48c73f6c96079455d5a34a6088b16ca59143534c7eaf5c3c6b7b6eb141b3a63f",
+    "patch": {
+      "justificativa": "ERRADO. Os papéis descrevem relações com o arquivo e não obrigam identidade entre produtor e consumidor. Consumidores podem estar fora da instituição custodiante. Uma entidade pode exercer mais de um papel, mas isso não reduz a finalidade de preservação ao uso dos administradores.",
+      "gatilho": "convergem",
+      "armadilhaBanca": "Confundir possibilidade de acumular papéis e identidade obrigatória.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — produtor, consumidor e comunidade designada — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Produtor e consumidor são papéis distintos; uma entidade pode exercer ambos, sem que o acesso se limite aos administradores.",
+      "item": "No modelo OAIS, os papéis de Produtor e de Consumidor convergem para a mesma entidade institucional produtora, cabendo ao arquivo preservar os pacotes para uso interno dos administradores do sistema.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-73",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "archivematica"
+    ],
+    "localizador": "fluxos de preservação e relação com AtoM",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3c281ae32e4c0cecd50b360049a0584fa5f656ae3c7257b40ac7849a8d5ccc82",
+    "shaDepois": "e82e2891742160185b3ee3c138b1e384ab511b1a3dcb2c35da2b1ae197cd9bf3",
+    "patch": {
+      "justificativa": "ERRADO. Archivematica executa fluxos de preservação, incluindo processamento e preparação de pacotes. AtoM é voltado à descrição e ao acesso arquivístico. Podem ser integrados, mas integração não inverte suas finalidades nem transforma automaticamente qualquer instalação em repositório certificado.",
+      "gatilho": "Archivematica",
+      "armadilhaBanca": "Inverter as funções de ferramentas complementares.",
+      "fonte": "Archivematica — Documentation — fluxos de preservação e relação com AtoM — https://www.archivematica.org/en/docs/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Archivematica apoia processamento de preservação; AtoM apoia descrição e acesso arquivístico.",
+      "item": "No ecossistema de preservação digital aberta, o Archivematica opera primariamente como o catálogo de descrição arquivística voltado à pesquisa e recuperação pública de fundos documentais pelos usuários finais, enquanto o software AtoM executa o pipeline técnico de ingestão, normalização de formatos e empacotamento de AIPs.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-74",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "Designated Community e conhecimento-base",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cdc9fe3ed8a25a3a239d98ec61a38d3641441d33a223f0dea4104cb7639e1561",
+    "shaDepois": "ccebd603bb2d15f4eb21fd11f4c953b1e8f00a96fb6ba56063623edc64ba03b1",
+    "patch": {
+      "item": "No OAIS, a comunidade designada é o grupo identificado para o qual o arquivo se compromete a manter informação compreensível, considerando o conhecimento-base necessário à sua interpretação.",
+      "justificativa": "CERTO. A comunidade designada é identificada pelo arquivo para orientar os compromissos de preservação e compreensão. Seu conhecimento-base influencia a informação de representação necessária. Ela não precisa coincidir com todos os cidadãos nem permanecer imutável para sempre.",
+      "gatilho": "compreensível",
+      "armadilhaBanca": "Distinguir público definido para compromissos de compreensão e audiência universal.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — Designated Community e conhecimento-base — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A comunidade designada deve ser sempre toda a população mundial e nunca pode mudar ao longo do tempo.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-75",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "Representation Information",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a09466ff38ccf01574d670ea442548dca5e76b13f5068ca2fdff292ba54bf597",
+    "shaDepois": "9f09461a3a90f7191f923dc12ae6f1cd53d1f742f5815c48dfdfb91741660b79",
+    "patch": {
+      "justificativa": "ERRADO. Bits precisam de informações que permitam interpretar estruturas e significado. Essa informação pode depender de outras, formando redes de representação. Presumir que qualquer computador futuro decodificará todo formato ignora justamente um dos problemas centrais da preservação.",
+      "gatilho": "dispensável",
+      "armadilhaBanca": "Confundir disponibilidade binária e capacidade de interpretação.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — Representation Information — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Informação de representação ajuda a interpretar estruturas e significado de objetos, não sendo dispensada pela mera existência dos bits.",
+      "item": "A 'Informação de Representação' (Representation Information) no OAIS é dispensável, pois os computadores do futuro saberão decodificar automaticamente qualquer fluxo binário sem necessidade de conhecer o formato ou o software leitor.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-76",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "fixidez, autenticidade e evidências",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1e49633104e93a1a9d91ca3b4a529c886ab29f4942eca19c1b2aeba9e2a0bb71",
+    "shaDepois": "c06311022c172a22ce06650a93afb74003d2314e63a32afed6989d8a8e19e1d2",
+    "patch": {
+      "justificativa": "ERRADO. Hash permite comparar uma sequência de bits com uma referência, não identificar por si só o autor ou verificar a verdade jurídica de um conteúdo. Um documento falso pode permanecer perfeitamente íntegro. Autenticidade exige avaliar identidade, integridade, contexto e evidências pertinentes.",
+      "gatilho": "autoria intelectual",
+      "armadilhaBanca": "Não confundir integridade técnica e validade substantiva.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — fixidez, autenticidade e evidências — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Verificação de hash apoia controle de integridade dos bits, sem comprovar isoladamente autoria ou verdade do conteúdo.",
+      "item": "Em repositórios digitais confiáveis, a geração e a verificação periódica de funções de dispersão criptográfica, como o algoritmo SHA-256, asseguram a autenticidade diplomática e a autoria intelectual dos documentos arquivísticos, atestando a veracidade jurídica das informações nele contidas.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-77",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "modelo 3.0: categorias de Object",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f8c0ff1cf3ac7e259f24596ffce757ccaf582b01c6be61e4abfff86e1082b6f0",
+    "shaDepois": "c11811173e315e088cfc516526ea4b937d205cfbe2606763b4befd0bc69041a0",
+    "patch": {
+      "item": "No PREMIS 3.0, a categoria Entidade Intelectual identifica uma unidade de conteúdo para gestão e descrição, como um livro, que pode possuir representações sem se confundir com cada arquivo ou fluxo de bits.",
+      "justificativa": "CERTO. No PREMIS 3.0, Intellectual Entity integra as categorias de Object, junto a Representation, File e Bitstream. Ela corresponde a uma unidade intelectual para gestão e descrição e pode ter representações. Não deve ser confundida com um arquivo específico nem ensinada como quinta entidade principal na versão 3.0.",
+      "gatilho": "Entidade Intelectual",
+      "armadilhaBanca": "Identificar a versão e o nível de abstração do objeto.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — modelo 3.0: categorias de Object — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No PREMIS 3.0, Entidade Intelectual e Bitstream são nomes equivalentes da mesma categoria de Object.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-78",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis",
+      "cad"
+    ],
+    "localizador": "Event e registro de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6d1528c6a69f86a3b96c1964cc391668631c88b92820e2f2090f0f8210d1fb51",
+    "shaDepois": "5db6033dc72e03faf6b4b8778bf5a16270540d97ec98e43e470482927d224aa6",
+    "patch": {
+      "item": "O registro de um evento de migração pode documentar objetos envolvidos, ação executada, data, agentes e resultado, apoiando a avaliação da história de preservação.",
+      "justificativa": "CERTO. Uma migração deve produzir registro de ação, data, responsáveis e resultado, com vínculos aos objetos envolvidos. Registrar apenas que houve migração omite informações úteis para avaliar o processo. A evidência não precisa significar que todos os atributos foram conservados; isso precisa ser verificado.",
+      "gatilho": "resultado",
+      "armadilhaBanca": "Distinguir menção de procedimento e documentação verificável.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Event e registro de preservação — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Basta escrever migração concluída, sem identificar objetos, agentes ou resultado, para comprovar a preservação de todos os atributos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Tec I (IPHAN)/IPHAN/Área 5/2018",
+        "ano": 2018,
+        "orgao": "IPHAN",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-696607",
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018 (Adaptada); identificador legado: TecConcursos-696607"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-79",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "pdfa"
+    ],
+    "localizador": "PDF/A: restrições e conformidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1c33469b58feb7fba388edf6e081e9c9f6baa8456a04c47ad0808806e2fbfa8d",
+    "shaDepois": "298d1eaa0970bc74fddf0a50f77fd45f58723616fa4c3e366bb0e7fffa1a7e48",
+    "patch": {
+      "item": "PDF/A reúne restrições de formato voltadas à preservação, mas sua conformidade não garante que a digitalização esteja completa ou reproduza corretamente todas as informações do original.",
+      "justificativa": "CERTO. A família PDF/A limita recursos que dificultam preservação, como criptografia, e estabelece requisitos de conformidade. Validar o formato não demonstra correção da captura ou completude do documento: uma página ausente pode não violar a sintaxe. A versão e o nível de conformidade também importam.",
+      "gatilho": "não garante",
+      "armadilhaBanca": "Distinguir conformidade de formato e fidelidade documental.",
+      "fonte": "Library of Congress — PDF/A family, Sustainability of Digital Formats — PDF/A: restrições e conformidade — https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A conformidade PDF/A comprova que todas as páginas e informações do original foram capturadas sem erro.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-80",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "acesso e abertura do modelo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d55efc6dd33340b8af36176a01d91c604375670c63d1aa6d11eb38abfb827ef8",
+    "shaDepois": "0415a1f7ddb7035704232d995801dd03f1f2db2bf2dcf0fd3c65d747c43b785f",
+    "patch": {
+      "item": "Por conter Open no nome, OAIS exige acesso irrestrito a todo documento preservado, proibindo embargos e restrições legais de consulta.",
+      "justificativa": "ERRADO. Open no nome do modelo não determina publicação irrestrita de todo conteúdo. O arquivo pode gerir condições e restrições legítimas de acesso. A abertura do desenvolvimento do modelo e a observância de direitos não devem ser confundidas com uma licença universal dos documentos.",
+      "gatilho": "acesso irrestrito",
+      "armadilhaBanca": "Confundir abertura do modelo e abertura obrigatória do conteúdo.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — acesso e abertura do modelo — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O uso do modelo OAIS é compatível com condições e restrições legítimas de acesso aos objetos.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-81",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace",
+      "cad"
+    ],
+    "localizador": "licença BSD: permissões e condições",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "15684abd2c57bdb3d930713384c3fa43968183b527bd030087efcfbc20d64cf4",
+    "shaDepois": "32336d7b099d964e3ca2e075241c34a309c7bce22bc3f67e312f72dec9159a0e",
+    "patch": {
+      "item": "Software livre significa código sem licença e sem condições de redistribuição, permitindo remover quaisquer avisos de autoria e ignorar as condições dos componentes utilizados.",
+      "justificativa": "ERRADO. Uma licença livre pode exigir manutenção de avisos e outras condições ao redistribuir o código. Liberdade não significa ausência de licença ou de deveres. As condições variam entre licenças e precisam ser examinadas para o componente e o uso concreto.",
+      "gatilho": "sem condições",
+      "armadilhaBanca": "Confundir liberdade concedida e inexistência de obrigações.",
+      "fonte": "DSpace — documentação do projeto — licença BSD: permissões e condições — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Software livre é distribuído sob licença e pode impor condições de redistribuição, como manutenção de avisos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1645",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-1645"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m7-q-82",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "microfilme",
+      "cad"
+    ],
+    "localizador": "histórico de projetos de microfilmagem",
+    "nota": "Repetição da data de origem incorreta também presente no q5; gabarito C corrigido para E com fundamento histórico do NEDCC.",
+    "shaAntes": "c303f26da2d7c08763ed6e743e9ccadfd4514318aa88ea4bbc4d407398acc11d",
+    "shaDepois": "f6e514614f9baacd7d6b0ff51d474ff7b7d73ae3562044fc98594c1b30dcb836",
+    "patch": {
+      "gabarito": "E",
+      "justificativa": "ERRADO. A cronologia está errada: projetos de filmagem da Library of Congress são registrados em 1927, e a filmagem sistemática de jornais já ocorria nos anos 1930. Uma técnica pode preceder a digitalização sem ter surgido apenas na década de 1970. Verifique separadamente as duas partes de uma afirmação histórica.",
+      "gatilho": "década de 1970",
+      "armadilhaBanca": "Uma parte cronologicamente correta não valida a data falsa.",
+      "fonte": "NEDCC — Preservation Leaflet 6.1: Microfilm and Microfiche — histórico de projetos de microfilmagem — https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A microfilmagem de acervos bibliográficos antecede a década de 1970, com iniciativas documentadas nas décadas de 1920 e 1930.",
+      "versao_errada": "",
+      "item": "A preservação de documentos raros a partir da microfilmagem fotográfica surgiu no início da década de 1970, antes do surgimento da digitalização eletrônica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624254",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624254"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-83",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "Event: ações e resultados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ddea0bd347477ae24d8d86aac8b2a9fbebe9e308d6389f8f6ef65f9d0735a0d9",
+    "shaDepois": "ecf6b1dd9eaca530283d8a76c3c8fce20e6f5d79e6a091aef52a175e56e91bc3",
+    "patch": {
+      "justificativa": "ERRADO. Eventos podem registrar migrações, validações e verificações de integridade, com identificação e relações com objetos e agentes. Não se limitam à movimentação física de servidores. O registro de resultado ajuda a distinguir operação executada e operação concluída com sucesso.",
+      "gatilho": "limita-se",
+      "armadilhaBanca": "Reduzir evento de preservação a logística de equipamentos.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Event: ações e resultados — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Eventos PREMIS incluem ações técnicas de preservação, como migração e verificação de integridade, além de seus resultados.",
+      "item": "No dicionário de dados PREMIS, a entidade Evento limita-se ao registro da cronologia de movimentação física dos servidores de dados, desconsiderando rotinas técnicas como migrações de formato e validações de checksum.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-84",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "codificação, propriedades e perfis; distinção de XML e apresentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "49ba45942fc61593acc760b624682434e5f32caa88c88c0d84923f37dcd9bf25",
+    "shaDepois": "1a3b8508a491b55546b52e5b24643be8147876172f35984fb5c8efa93c1fc567",
+    "patch": {
+      "justificativa": "ERRADO. XML permite estruturar dados por marcação; não tem por finalidade exclusiva definir a aparência na tela. Apresentação pode envolver folhas de estilo e outras tecnologias. Uma estrutura XML válida também não garante interpretação semântica compartilhada sem vocabulários e regras explícitos.",
+      "gatilho": "formatação visual",
+      "armadilhaBanca": "Inverter estrutura de dados e apresentação de interface.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — codificação, propriedades e perfis; distinção de XML e apresentação — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "XML estrutura dados por marcação, enquanto apresentação visual pode ser definida separadamente.",
+      "item": "No âmbito da preservação digital de esquemas de metadados, a linguagem XML (eXtensible Markup Language) destina-se primordialmente a definir a formatação visual e o layout gráfico de exibição dos documentos na tela do usuário, dependendo do formato HTML para a estruturação semântica e hierárquica dos elementos de dados.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m7-q-85",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "poluentes, mobiliário e acondicionamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "f0d4a5a813e11b94e1abf16042333a0d37b1ec4d1c95b353eb12f52ac7d20b4e",
+    "shaDepois": "d4b3b0c44cbe88980e95e523d16f6bc4a4cff22fe8a4b558f8f2bcfb901146a8",
+    "patch": {
+      "item": "A resistência mecânica de um móvel de madeira ou MDF garante sua adequação à guarda de documentos, dispensando avaliação de acabamentos, adesivos e possíveis emissões de compostos voláteis.",
+      "justificativa": "ERRADO. Móveis e invólucros podem emitir compostos que afetam os materiais guardados. Resistência física ou bom aspecto não prova estabilidade química. Composição, acabamento, cura e condições do espaço precisam ser considerados, sem tratar todo material como igualmente apropriado.",
+      "gatilho": "garante",
+      "armadilhaBanca": "Confundir suporte resistente e material quimicamente adequado.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — poluentes, mobiliário e acondicionamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A escolha de mobiliário deve avaliar estabilidade e possíveis emissões, além da resistência e da aparência.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / SUFRAMA / 2014 (Adaptada)\",\"verificado\":true,\"provaId\":\"Biblio (SUFRAMA)/SUFRAMA/2014\",\"ano\":2014,\"orgao\":\"SUFRAMA\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"TecConcursos-165424\"}"
+      },
+      "submoduloId": "7.1"
+    }
+  },
+  {
+    "id": "m7-q-86",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais",
+      "cad"
+    ],
+    "localizador": "estratégias de migração e transformação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "95a16422a56caba79966d15ce087421c95513a2a0ad88f061bc03a46009108c8",
+    "shaDepois": "1ecacf4d80e14d6f6b946547d7f36f5f28870c556d837547c4ab2dd0ad990781",
+    "patch": {
+      "justificativa": "CERTO. Migração transfere ou transforma informação entre bases tecnológicas, podendo envolver suporte ou formato conforme o caso. A ação exige verificar resultados e registrar alterações relevantes. Não equivale necessariamente a manter o mesmo equipamento nem autoriza eliminar evidências da representação anterior sem avaliação.",
+      "gatilho": "migração",
+      "armadilhaBanca": "Distinguir execução de conversão e validação da preservação.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — estratégias de migração e transformação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma migração pode ser considerada bem-sucedida apenas porque o arquivo resultante abre, dispensada a verificação de atributos relevantes.",
+      "item": "A migração é uma estratégia de preservação de documentos eletrônicos que envolve cópia, conversão ou transferência de informação de uma base tecnológica para outra mais atualizada.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANATEL/2009",
+        "ano": 2009,
+        "orgao": "2009",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1563",
+        "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-1563"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-87",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lockss",
+      "cad"
+    ],
+    "localizador": "verificação e reparação entre cópias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9b4c417c3d13f5347847d2394f143d8d77cb482d553339be652599bb47a0eb22",
+    "shaDepois": "615ffdfdae1341e969326fceec2f861c44f2bb0d7f7f66ed23a8ecce8a522735",
+    "patch": {
+      "item": "A preservação distribuída pode combinar comparação entre cópias e procedimentos de reparação, distinguindo-se da simples replicação de arquivos sem acompanhamento de integridade.",
+      "justificativa": "CERTO. Comparar réplicas pode ajudar a detectar problemas e orientar reparos. A confiabilidade depende de mecanismos e acordos do serviço, não da mera contagem de cópias. Replicar silenciosamente uma corrupção em todos os nós não é equivalente a manter evidências de integridade.",
+      "gatilho": "comparação",
+      "armadilhaBanca": "Separar replicação e verificação cooperativa.",
+      "fonte": "Stanford Libraries — LOCKSS — verificação e reparação entre cópias — https://www.lockss.org/about",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer replicação automática, mesmo de arquivos corrompidos, equivale à preservação distribuída verificada.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-624256",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1703",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: cespe-cad-1703"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-88",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "conarq51"
+    ],
+    "localizador": "arts. 1º e 5º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b1cc850b39e89e5804c6ef81c72ec3caceaa80d4014b7c681a002166fa281454",
+    "shaDepois": "f9ac656f67841584afe914805d7fb697d868ed90de9f7e6be2496dc05b257736",
+    "patch": {
+      "item": "No corte normativo adotado, a Resolução CONARQ 43/2015 continua sendo a única vigente sobre diretrizes de RDC-Arq, pois a Resolução 51/2023 não a revogou.",
+      "justificativa": "ERRADO. A Resolução 51/2023 dispõe sobre a versão 2 das Diretrizes RDC-Arq e revoga expressamente as resoluções 39/2014 e 43/2015. A referência temporal precisa respeitar a atualização anterior ao corte. Aplicar a versão revogada como única vigente produz erro normativo, mesmo que haja continuidade de conceitos.",
+      "gatilho": "43/2015",
+      "armadilhaBanca": "Ignorar revogação expressa e atualização de versão.",
+      "fonte": "CONARQ — Resolução 51, de 25/08/2023 — arts. 1º e 5º — https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-conarq-no-51-de-25-de-agosto-de-2023",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No corte adotado, a Resolução CONARQ 51/2023 institui a versão 2 das diretrizes e revoga a 43/2015.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-89",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster",
+      "cad"
+    ],
+    "localizador": "organização e recuperação da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "585e32531a298001cb836d081cb62570ebc0a3184e8c169c2738596073bb2bc4",
+    "shaDepois": "88d25e2fb37d9445e77bed16d4c700b5e427bd0e2c6b1a8facca014da857b5e4",
+    "patch": {
+      "item": "Catalogação, indexação e classificação têm como finalidade exclusiva preservar fisicamente os documentos, não contribuindo para identificação e recuperação da informação.",
+      "justificativa": "ERRADO. Catalogação, indexação e classificação apoiam identificação, organização e recuperação. Podem contribuir indiretamente para gestão e preservação, mas não têm como finalidade exclusiva conservar os suportes. Registros organizados e objetos preservados são responsabilidades articuladas, não equivalentes.",
+      "gatilho": "finalidade exclusiva",
+      "armadilhaBanca": "Confundir função de acesso e conservação exclusiva.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — organização e recuperação da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Organização bibliográfica apoia identificação e recuperação e pode contribuir para gestão, sem substituir preservação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Of Tec Int (ABIN)/ABIN/Área 10/2018",
+        "ano": 2018,
+        "orgao": "ABIN",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-620317",
+        "declaracaoLegada": "Cebraspe / ABIN / 2018 (Adaptada); identificador legado: TecConcursos-620317"
+      },
+      "submoduloId": "3.3"
+    }
+  },
+  {
+    "id": "m7-q-90",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "Object e Event no modelo 3.0",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a592d22a616814ea2e3c5640a01acde2a4d4b4627f3944b40c9320a907009d6e",
+    "shaDepois": "dec2f6e95f6c179907ea2a103309b2f07cc7691e17edd85dea7c126cdc07e1d3",
+    "patch": {
+      "justificativa": "ERRADO. Object identifica e descreve objetos de preservação; Event documenta ações que os afetam. Representação, arquivo e fluxo de bits são categorias de objeto, não tipos de evento. A relação entre entidades permite registrar uma migração sem confundir seu arquivo de entrada com a ação executada.",
+      "gatilho": "Objeto",
+      "armadilhaBanca": "Trocar entidades por terem relações no mesmo processo.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Object e Event no modelo 3.0 — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Object descreve objetos; Event registra ações e resultados, como migração e verificação de integridade.",
+      "item": "No modelo conceitual PREMIS 3.0, a entidade Objeto (Object) registra os procedimentos e as ações técnicas executados durante o ciclo de custódia digital, a exemplo de rotinas de migração e validações de integridade, cabendo à entidade Evento (Event) estruturar os níveis lógicos de representação, arquivo e fluxo de bits.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-91",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "escopo e limitações do dicionário de dados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "25f34dcb420bbc092a5ccd0e6a7c2566b7657b06170ad0445772c1590b373a11",
+    "shaDepois": "05554ab84c4453682b44ed852a8674cfb0c5f899b0493ff9fa5a7588a49da543",
+    "patch": {
+      "item": "PREMIS é um dicionário de dados de metadados de preservação; sua adoção apoia a documentação de evidências, mas não certifica automaticamente a autenticidade dos objetos.",
+      "justificativa": "CERTO. PREMIS define unidades semânticas para registrar informações de preservação sobre objetos, eventos, agentes e direitos. Sua adoção apoia evidências e intercâmbio, mas não certifica por si só a autenticidade ou a confiabilidade da instituição. Qualidade dos registros e dos processos precisa ser avaliada.",
+      "gatilho": "não certifica",
+      "armadilhaBanca": "Distinguir padrão de registro e certificação do objeto ou serviço.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — escopo e limitações do dicionário de dados — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Adotar campos PREMIS certifica automaticamente a autenticidade de todos os documentos do repositório.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-92",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "conarq51"
+    ],
+    "localizador": "Diretrizes RDC-Arq: autenticidade e controles",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3c345725d1d8783d6cf4ada9e5d1bca022e32879bcd4352984c41cd62f74f8a0",
+    "shaDepois": "d50327b26c6de3042e48cbc974d829d71fee341cb7f5eab492d2057234a07c04",
+    "patch": {
+      "justificativa": "ERRADO. Uma data gerada pelo sistema não comprova, isoladamente, identidade, integridade e trajetória do documento. Controles de acesso, registro de intervenções, fixidez e custódia ajudam a avaliar evidências. Nem hash isolado nem data isolada equivalem a uma avaliação integral de autenticidade.",
+      "gatilho": "carimbo de tempo",
+      "armadilhaBanca": "Trocar conjunto de evidências por um atributo técnico isolado.",
+      "fonte": "CONARQ — Resolução 51, de 25/08/2023 — Diretrizes RDC-Arq: autenticidade e controles — https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-conarq-no-51-de-25-de-agosto-de-2023",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A avaliação de autenticidade reúne evidências e controles; a data atribuída pelo sistema operacional não é prova suficiente.",
+      "item": "Em um Repositório Arquivístico Digital Confiável (RDC-Arq), a autenticidade de documentos de valor probatório independe de algoritmos de hash e trilhas de auditoria, fundando-se no carimbo de tempo atribuído pelo sistema operacional no momento da cópia.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-93",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "Agent e documentação de ambientes na versão 3.0",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f9c573ec69e4cdc885b5c4d58426e2f3d7e8279cd6c5b731e643e800e79cb1b8",
+    "shaDepois": "8bb235b7915e8c8750ec498977f6f0a2b7cda607545fcd57fc592204af371b1b",
+    "patch": {
+      "justificativa": "ERRADO. Agent registra pessoa, organização ou software associado a eventos ou a direitos. Um software pode atuar como agente em uma operação e também precisar de descrição como objeto em contexto de preservação. Isso não transforma a entidade Agent no lugar exclusivo de especificação de hardware e ambientes.",
+      "gatilho": "Agente",
+      "armadilhaBanca": "Confundir participante da ação e ambiente necessário ao objeto.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Agent e documentação de ambientes na versão 3.0 — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Agent documenta responsáveis ou participantes de eventos e direitos; a representação de ambientes e objetos possui modelagem própria.",
+      "item": "No modelo de dados PREMIS 3.0, a entidade Agente (Agent) destina-se a documentar a especificação dos equipamentos de hardware, placas controladoras e versões de sistemas operacionais indispensáveis à emulação ou renderização de um formato de arquivo.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-94",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "jhove",
+      "droid"
+    ],
+    "localizador": "identificação, validação e caracterização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6b69f0b523d7932f19f39a3739b128ec7e4538a49494c834b5b212559c092670",
+    "shaDepois": "06185a6bf27032e155d0681e8d243b9bcc6298cb1bd979d74b0c026bcf8bef93",
+    "patch": {
+      "item": "Identificar um formato por assinaturas com DROID é a mesma operação que validar integralmente a conformidade de seu conteúdo com JHOVE, de modo que ambas as ferramentas sempre produzem conclusões equivalentes.",
+      "justificativa": "ERRADO. Identificação de formato e validação de conformidade respondem a perguntas diferentes. DROID identifica formatos por assinaturas; JHOVE oferece validação e caracterização para formatos suportados. Reconhecer uma extensão ou um formato não demonstra conformidade nem completude intelectual do documento.",
+      "gatilho": "mesma operação",
+      "armadilhaBanca": "Confundir reconhecimento de formato e validação.",
+      "fonte": "Open Preservation Foundation — JHOVE — identificação, validação e caracterização — https://jhove.openpreservation.org/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Identificar o formato não equivale a validar toda sua conformidade; ferramentas possuem funções e coberturas específicas.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-95",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "z3950",
+      "cad"
+    ],
+    "localizador": "consulta e recuperação remota",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "efbf95d0f1e78245fd5ae857f55a1023468287d6aeccecbff0d1287c638d1fb0",
+    "shaDepois": "ddc690ee211cce86752d0902d8883714b15cfca0531d61d7d5418576f76837d5",
+    "patch": {
+      "justificativa": "ERRADO. Z39.50 permite busca e recuperação em bases remotas. Pode ser usado em serviços de bibliotecas, mas não é um sistema de preservação nem exige acesso aberto ao conteúdo. Encontrar um registro não comprova que seu objeto será preservado no futuro.",
+      "gatilho": "preservação",
+      "armadilhaBanca": "Confundir interoperabilidade de consulta e preservação de longo prazo.",
+      "fonte": "Library of Congress — Z39.50 / SRU — consulta e recuperação remota — https://www.loc.gov/z3950/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Z39.50 é protocolo de busca e recuperação, não sistema de preservação digital.",
+      "item": "O protocolo z39.50 é um sistema de preservação de registros em bibliotecas digitais de acesso aberto.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "IPHAN/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1768",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-1768"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m7-q-96",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "fatores ambientais e localização do acervo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "ca8cda38739b3a87dac5a9aa22142c09f82d61d2da6bb88599c65bd607da20bb",
+    "shaDepois": "f43583be30cb43ee422c04bf57f98a7f11946d56e5edc41ba3ad084bd3e4af1f",
+    "patch": {
+      "item": "Elevar livros em relação ao piso resolve a causa de qualquer infiltração, dispensando manutenção predial e inspeção de vazamentos nas áreas de guarda.",
+      "justificativa": "ERRADO. Elevar prateleiras pode reduzir exposição a pequenos acúmulos de água, mas não corrige a origem de infiltrações. A ação deve integrar manutenção, inspeção e planejamento. Uma medida mitigadora não elimina todos os cenários de inundação ou umidade.",
+      "gatilho": "dispensando",
+      "armadilhaBanca": "Confundir mitigação de consequência e controle da causa.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — fatores ambientais e localização do acervo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Elevar materiais pode reduzir um risco, sem dispensar manutenção e correção da origem da água.",
+      "submoduloId": "7.3",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018"
+      }
+    }
+  },
+  {
+    "id": "m7-q-97",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "categorias de Object na versão 3.0",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "928ab6d011a5a730f881c20ba6bc840180a4dd25028ac1ecc54e2c46cc35ba33",
+    "shaDepois": "97d6f31503a6c48b0ab05ca5c5e76b783fa748cd62307b6bb67753077645d4ad",
+    "patch": {
+      "justificativa": "ERRADO. Entidade intelectual é unidade de conteúdo para gestão e descrição, como um livro ou mapa. Bitstream é uma categoria distinta ligada a dados dentro de um arquivo com propriedades relevantes à preservação. O mesmo conteúdo pode ter representações diferentes, sem se reduzir a um único fluxo de bytes.",
+      "gatilho": "fluxos de bits",
+      "armadilhaBanca": "Trocar níveis de abstração no modelo de preservação.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — categorias de Object na versão 3.0 — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Entidade intelectual representa uma unidade de conteúdo; fluxo de bits é categoria distinta de objeto.",
+      "item": "No modelo conceitual PREMIS 3.0, a entidade Entidade Intelectual corresponde a fluxos de bits elementares e bytes contíguos de um arquivo, diferenciando-se das obras bibliográficas completas como monografias e relatórios.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-98",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "pdfa"
+    ],
+    "localizador": "formato, compressão e objetivos de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "430aff69de8ff5a1c0b1fa465f2ec3279e25b2b7e7a0e47bb165c354be7c1a8a",
+    "shaDepois": "928d484494dd2b778cfd561decfab1c085889804e3287c21ebf03edd9c365eca",
+    "patch": {
+      "justificativa": "ERRADO. Matriz de preservação deve manter a informação relevante segundo requisitos de captura e qualidade. Reduzir tamanho com perdas pode eliminar detalhes necessários e comprometer usos futuros. Isso não exige um único formato universal: compressão sem perdas e outros formatos podem ser adequados conforme requisitos.",
+      "gatilho": "prioritário",
+      "armadilhaBanca": "Confundir conveniência de armazenamento e fidelidade necessária.",
+      "fonte": "Library of Congress — PDF/A family, Sustainability of Digital Formats — formato, compressão e objetivos de preservação — https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A seleção da matriz deve priorizar requisitos de fidelidade e preservação, avaliando formato e compressão sem adotar perdas apenas para economizar espaço.",
+      "item": "Em projetos de digitalização e preservação de acervos bibliográficos históricos, recomenda-se a utilização de compressão destrutiva com perdas (lossy) para a matriz mestre (master de preservação), em detrimento do formato TIFF sem compressão, com o propósito prioritário de reduzir custos de armazenamento.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m7-q-99",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "materiais compostos e avaliação do estado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "da16f0b8941afdd15252522ae2027d96cd061461c8689dffc14b08d37d3c9ad4",
+    "shaDepois": "25462385b08a38d45efd5481d205c53916ac777601d9e7974f745bf559d5bda6",
+    "patch": {
+      "item": "A boa aparência externa de um volume não demonstra, por si só, estabilidade de todos os seus componentes; a avaliação deve considerar papel, tintas, adesivos e encadernação.",
+      "justificativa": "CERTO. Encadernação, papel, tintas e adesivos envelhecem de maneiras diferentes. Um volume aparentemente íntegro pode apresentar fragilidade interna ou problemas localizados. Inspeção e registro ajudam a identificar riscos que não se revelam apenas pela idade ou pela aparência da capa.",
+      "gatilho": "não demonstra",
+      "armadilhaBanca": "Distinguir aparência externa e estado dos componentes.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — materiais compostos e avaliação do estado. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A boa aparência da capa comprova a estabilidade de todos os papéis, tintas e adesivos do volume.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / STJ / 2018 (Adaptada)\",\"verificado\":true,\"provaId\":\"AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018\",\"ano\":2018,\"orgao\":\"STJ\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"TecConcursos-624255\"}"
+      },
+      "submoduloId": "7.3"
+    }
+  },
+  {
+    "id": "m7-q-100",
+    "caminho": "src/content/questions/m7-preservacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cassares"
+    ],
+    "localizador": "conservação preventiva e planejamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Item autoral novo sobre conservação substitui repetição ou questão de outro assunto; não representa julgamento oficial da redação legada.",
+    "shaAntes": "69a732e2ee718b2f8f508aaa4ba0cec3d38d25ee82fc9cef0d73c707d9f7e838",
+    "shaDepois": "0ba61fd6149672e3d9be41aad01376145b7666dd8f7fb3e8c7187181d3613719",
+    "patch": {
+      "item": "Um plano de conservação deve articular responsabilidades e monitoramento das condições do acervo, permitindo rever medidas e prioridades quando os riscos ou os recursos mudam.",
+      "justificativa": "CERTO. Acompanhar o ambiente e registrar ocorrências permite rever prioridades e avaliar medidas adotadas. Um plano sem aplicação e atualização não controla riscos por existir em documento. Prevenção precisa articular responsabilidades, recursos e procedimentos proporcionais ao acervo.",
+      "gatilho": "monitoramento",
+      "armadilhaBanca": "Distinguir documento de planejamento e gestão continuada.",
+      "fonte": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000 — conservação preventiva e planejamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A elaboração de um plano de conservação dispensa monitoramento posterior, pois as condições do acervo não mudam.",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC de conservação, elaborado para substituir repetição ou conteúdo fora do foco do caderno.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"adaptada\",\"descricao\":\"Cebraspe / SUFRAMA / 2014 (Adaptada)\",\"verificado\":true,\"provaId\":\"Biblio (SUFRAMA)/SUFRAMA/2014\",\"ano\":2014,\"orgao\":\"SUFRAMA\",\"banca\":\"Cebraspe\",\"questaoOriginalId\":\"TecConcursos-165431\"}"
+      },
+      "submoduloId": "7.4"
+    }
+  }
+]

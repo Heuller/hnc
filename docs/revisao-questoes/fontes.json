@@ -123,8 +123,9 @@
   },
   "nbr6023": {
     "titulo": "ABNT NBR 6023:2025 — Referências — Elaboração",
-    "acervo": "acervo-estudos/ABNT",
-    "localizador": "definição de referência e documentos disponíveis em meio eletrônico"
+    "acervo": "acervo-estudos/ABNT/Referencias-NBR-6023-2025.pdf",
+    "localizador": "definição de referência e documentos disponíveis em meio eletrônico",
+    "gitRef": "auditoria-2026-10"
   },
   "cpc": {
     "titulo": "Código de Processo Civil, Lei 13.105/2015",
@@ -232,9 +233,10 @@
     "localizador": "Memex e organização associativa; não confundir proposta e produto implementado"
   },
   "otlet": {
-    "titulo": "OTLET, Paul. Tratado de documentação, 1934",
+    "titulo": "OTLET, Paul. Tratado de documentação; original de 1934",
     "acervo": "acervo-estudos/Livros Extras/TRATADO DE DOCUMENTAÇÃO. OTLET.pdf",
-    "localizador": "concepção de documentação, princípio monográfico e repertório universal"
+    "gitRef": "auditoria-2026-10",
+    "localizador": "seção 124: O livro e a medida. Bibliometria"
   },
   "ranganathan": {
     "titulo": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009",
@@ -489,5 +491,286 @@
     "titulo": "Ex Libris — Aleph 24, Communication Requirements",
     "url": "https://knowledge.exlibrisgroup.com/Aleph/Product_Documentation/001_Version_24/Requirements_for_Aleph_24_Installation/04_Communication_Requirements",
     "localizador": "comunicação entre clientes e servidor; HTTP e Z39.50"
+  },
+  "cassares": {
+    "titulo": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000",
+    "acervo": "acervo-estudos/Preservação física/cf5.pdf",
+    "localizador": "fatores de degradação, agentes biológicos, higienização, acondicionamento e manuseio",
+    "gitRef": "auditoria-2026-10",
+    "sha256": "6bf0c6f103107b86c84b564f0941162b26997361709c7bf047245282e2499fba"
+  },
+  "premis": {
+    "titulo": "Library of Congress — PREMIS Data Dictionary, version 3.0",
+    "url": "https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+    "localizador": "modelo de dados; Object, Event, Agent e Rights; categorias de objetos"
+  },
+  "lockss": {
+    "titulo": "Stanford Libraries — LOCKSS",
+    "url": "https://www.lockss.org/about",
+    "localizador": "preservação distribuída, réplicas e verificação"
+  },
+  "cariniana": {
+    "titulo": "Ibict — Rede Cariniana",
+    "url": "https://cariniana.ibict.br/",
+    "localizador": "rede brasileira de preservação digital e infraestrutura distribuída"
+  },
+  "microfilme": {
+    "titulo": "NEDCC — Preservation Leaflet 6.1: Microfilm and Microfiche",
+    "url": "https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche",
+    "localizador": "histórico da microfilmagem em bibliotecas e requisitos de preservação"
+  },
+  "conarq51": {
+    "titulo": "CONARQ — Resolução 51, de 25/08/2023",
+    "url": "https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-conarq-no-51-de-25-de-agosto-de-2023",
+    "localizador": "Diretrizes RDC-Arq, versão 2; art. 5º revoga resoluções 39/2014 e 43/2015"
+  },
+  "archivematica": {
+    "titulo": "Archivematica — Documentation",
+    "url": "https://www.archivematica.org/en/docs/",
+    "localizador": "fluxos de preservação, normalização e pacotes; distinção em relação ao AtoM"
+  },
+  "pdfa": {
+    "titulo": "Library of Congress — PDF/A family, Sustainability of Digital Formats",
+    "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml",
+    "localizador": "restrições da família PDF/A e limites de conformidade"
+  },
+  "jhove": {
+    "titulo": "Open Preservation Foundation — JHOVE",
+    "url": "https://jhove.openpreservation.org/",
+    "localizador": "identificação, validação e caracterização de formatos"
+  },
+  "droid": {
+    "titulo": "The National Archives — DROID",
+    "url": "https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/",
+    "localizador": "identificação de formatos por assinaturas e base PRONOM"
+  },
+  "nedccAgua": {
+    "titulo": "NEDCC — 3.12 Freezing and Drying Wet Books and Records",
+    "url": "https://www.nedcc.org/free-resources/preservation-leaflets/3.-emergency-management/3.12-freezing-and-drying-wet-books-and-records",
+    "localizador": "estabilização de materiais molhados e seleção dos métodos de secagem"
+  },
+  "nbr6034": {
+    "titulo": "ABNT NBR 6034:2004 — Índice — Apresentação",
+    "url": "https://cnm.paginas.ufsc.br/files/2020/02/ABNT-NBR-6034.pdf",
+    "localizador": "escopo, definições e apresentação de índices"
+  },
+  "nbr10518": {
+    "titulo": "ABNT NBR 10518:2005 — Guias de unidades informacionais — Elaboração",
+    "url": "https://www.ufsm.br/app/uploads/sites/362/2019/04/colecao_abnt1.pdf",
+    "localizador": "registro do catálogo ABNT: objetivo da norma de 2005"
+  },
+  "nbr10520": {
+    "titulo": "ABNT NBR 10520:2023 — Citações em documentos",
+    "acervo": "acervo-estudos/ABNT/Abnt_nbr_10520_2023.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "sistemas de chamada, citação direta, indireta e citação de citação"
+  },
+  "nbr6024": {
+    "titulo": "ABNT NBR 6024:2012 — Numeração progressiva das seções",
+    "acervo": "acervo-estudos/ABNT/ABNT-NBR-6024.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "hierarquia, indicativos, alíneas e elementos sem numeração"
+  },
+  "nbr6027": {
+    "titulo": "ABNT NBR 6027:2012 — Sumário",
+    "acervo": "acervo-estudos/ABNT/ABNT-NBR-6027.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "definição, localização e apresentação"
+  },
+  "nbr14724": {
+    "titulo": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos",
+    "acervo": "acervo-estudos/ABNT/NBR14724.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "estrutura, elementos e regras gerais de apresentação"
+  },
+  "nbr6032": {
+    "titulo": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas",
+    "url": "https://fasamar.edu.br/wp-content/uploads/2020/02/ABNTS.pdf",
+    "localizador": "regras gerais de abreviação e apresentação das abreviaturas"
+  },
+  "cfb184": {
+    "titulo": "Conselho Federal de Biblioteconomia — Perguntas frequentes: ficha catalográfica e Resolução 184/2017",
+    "url": "https://cfb.org.br/perguntas-frequentes/",
+    "localizador": "identificação e registro do bibliotecário responsável"
+  },
+  "isbn": {
+    "titulo": "International ISBN Agency — What is an ISBN?",
+    "url": "https://www.isbn-international.org/content/what-isbn",
+    "localizador": "estrutura e finalidade do identificador"
+  },
+  "issn": {
+    "titulo": "Ibict — Centro Brasileiro do ISSN",
+    "url": "https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/centro-brasileiro-do-issn",
+    "localizador": "atribuição e gestão do ISSN no Brasil"
+  },
+  "depositoLegal": {
+    "titulo": "Lei 10.994/2004 — Depósito legal de publicações na Biblioteca Nacional",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-10994-14-dezembro-2004-534555-publicacaooriginal-21607-pl.html",
+    "localizador": "objetivo, abrangência e dever de depósito"
+  },
+  "bradfordCurva": {
+    "titulo": "Bibliometric analysis of the literature of randomized controlled trials. 2005",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1250321/",
+    "localizador": "curva cumulativa de artigos, postos logarítmicos e Groos droop"
+  },
+  "meiaVida": {
+    "titulo": "SZÁVA-KOVÁTS. Unfounded attribution of the half-life index-number of literature obsolescence to Burton and Kebler. 2002",
+    "url": "https://doi.org/10.1002/asi.10105",
+    "localizador": "distinção histórica e conceitual de meia-vida e idade mediana"
+  },
+  "acoplamento": {
+    "titulo": "KESSLER, M. M. Bibliographic coupling between scientific papers. 1963",
+    "url": "https://doi.org/10.1002/asi.5090140103",
+    "localizador": "referências compartilhadas e relação entre documentos"
+  },
+  "cocitacao": {
+    "titulo": "SMALL, Henry. Co-citation in the scientific literature. 1973",
+    "url": "https://doi.org/10.1002/asi.4630240406",
+    "localizador": "citação conjunta e distinção de acoplamento bibliográfico"
+  },
+  "goffman": {
+    "titulo": "ALVARADO. La ley de Zipf y el punto de transición de Goffman en la indización automática. 2011",
+    "url": "https://rev-ib.unam.mx/index.php/ib/article/view/27482",
+    "localizador": "frequências lexicais, transição e indexação"
+  },
+  "priceElite": {
+    "titulo": "NICHOLLS. Price’s square root law: empirical validity and relation to Lotka’s law. 1988",
+    "url": "https://www.sciencedirect.com/science/article/pii/0306457388900490",
+    "localizador": "hipótese da raiz quadrada e avaliação empírica"
+  },
+  "merton": {
+    "titulo": "MERTON, Robert K. The Matthew Effect in Science. 1968",
+    "url": "https://doi.org/10.1126/science.159.3810.56",
+    "localizador": "distribuição de reconhecimento e vantagens cumulativas"
+  },
+  "diamond": {
+    "titulo": "cOAlition S — OA Diamond Journals Study, 2021",
+    "url": "https://www.coalition-s.org/diamond-open-access/",
+    "localizador": "acesso sem cobrança de leitores e autores; sustentabilidade"
+  },
+  "vanti": {
+    "titulo": "VANTI, Nadia. Da bibliometria à webometria: uma exploração conceitual. Ciência da Informação, 2002",
+    "url": "https://www.scielo.br/j/ci/a/SLKfBsNL3XHPPqNn3jmqF3q/?lang=pt",
+    "localizador": "definições, aplicações e relações entre estudos métricos"
+  },
+  "hirsch": {
+    "titulo": "HIRSCH, J. E. An index to quantify an individual’s scientific research output. PNAS, 2005",
+    "url": "https://doi.org/10.1073/pnas.0507655102",
+    "localizador": "definição e limitações do índice h"
+  },
+  "egghe": {
+    "titulo": "EGGHE, Leo. Theory and practise of the g-index. Scientometrics, 2006",
+    "url": "https://doi.org/10.1007/s11192-006-0144-7",
+    "localizador": "definição e contraste com o índice h"
+  },
+  "jcr": {
+    "titulo": "Clarivate — Journal Citation Reports: Learn the Basics",
+    "url": "https://clarivate.libguides.com/jcr",
+    "localizador": "Journal Impact Factor, Immediacy Index e limites de interpretação"
+  },
+  "citescore": {
+    "titulo": "Elsevier — What is CiteScore?",
+    "url": "https://www.elsevier.support/scopus/answer/what-is-citescore",
+    "localizador": "janela de quatro anos e tipos documentais no cálculo"
+  },
+  "snip": {
+    "titulo": "CWTS — Journal Indicators",
+    "url": "https://www.journalindicators.com/indicators",
+    "localizador": "SNIP e normalização pelo potencial de citação"
+  },
+  "sjr": {
+    "titulo": "SCImago — Journal & Country Rank",
+    "url": "https://www.scimagojr.com/",
+    "localizador": "SJR e ponderação pelo prestígio das fontes citantes"
+  },
+  "leiden": {
+    "titulo": "HICKS et al. Bibliometrics: The Leiden Manifesto for research metrics. Nature, 2015",
+    "url": "https://doi.org/10.1038/520429a",
+    "localizador": "dez princípios de avaliação responsável"
+  },
+  "dora": {
+    "titulo": "San Francisco Declaration on Research Assessment — DORA",
+    "url": "https://sfdora.org/read/",
+    "localizador": "mérito dos resultados e limites de métricas de periódicos"
+  },
+  "leidenRanking": {
+    "titulo": "CWTS Leiden Ranking — Indicators",
+    "url": "https://www.leidenranking.com/information/indicators",
+    "localizador": "impacto, colaboração, dimensões e cobertura"
+  },
+  "boai": {
+    "titulo": "Budapest Open Access Initiative — declaração de 2002",
+    "url": "https://www.budapestopenaccessinitiative.org/read/",
+    "localizador": "definição de acesso aberto e estratégias de autoarquivamento e revistas"
+  },
+  "doaj": {
+    "titulo": "DOAJ — Guide to applying",
+    "url": "https://doaj.org/apply/guide/",
+    "localizador": "critérios de inclusão e abertura dos periódicos"
+  },
+  "jisc": {
+    "titulo": "Jisc — Sherpa services combined into Open Policy Finder, 04/11/2024",
+    "url": "https://www.jisc.ac.uk/news/all/sherpa-services-combined-into-new-user-friendly-platform-open-policy-finder",
+    "localizador": "integração de Romeo, Juliet e Fact e consulta de políticas"
+  },
+  "plans": {
+    "titulo": "cOAlition S — Plan S principles",
+    "url": "https://www.coalition-s.org/plan_s_principles/",
+    "localizador": "obrigações dos financiadores participantes e rotas de conformidade"
+  },
+  "cc": {
+    "titulo": "Creative Commons — About CC Licenses",
+    "url": "https://creativecommons.org/share-your-work/cclicenses/",
+    "localizador": "permissões, condições, atribuição e distinção entre licenças"
+  },
+  "capesPortal": {
+    "titulo": "CAPES — Portal de Periódicos",
+    "url": "https://www.periodicos.capes.gov.br/",
+    "localizador": "conteúdos de acesso aberto e conteúdos de acesso institucional restrito"
+  },
+  "capesQualis": {
+    "titulo": "CAPES — Sobre o Qualis Periódicos na Avaliação Quadrienal 2021–2024",
+    "url": "https://www.gov.br/capes/pt-br/assuntos/noticias/sobre-o-qualis-periodicos-na-avaliacao-quadrienal-2021-2024",
+    "localizador": "uso da lista para o ciclo e substituição no ciclo 2025–2028"
+  },
+  "altmetric": {
+    "titulo": "Altmetric — How is the Altmetric Attention Score calculated?",
+    "url": "https://help.altmetric.com/support/solutions/articles/6000233311-how-is-the-altmetric-attention-score-calculated-",
+    "localizador": "fontes de atenção, ponderação e limites de interpretação"
+  },
+  "cope": {
+    "titulo": "COPE — Core practices",
+    "url": "https://publicationethics.org/core-practices",
+    "localizador": "avaliação por pares, autoria, conflitos e correções da literatura"
+  },
+  "copeRetracao": {
+    "titulo": "COPE — Retraction guidelines",
+    "url": "https://doi.org/10.24318/cope.2019.1.4",
+    "localizador": "motivos, correções e manutenção transparente do registro"
+  },
+  "icmje": {
+    "titulo": "ICMJE — Defining the Role of Authors and Contributors",
+    "url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html",
+    "localizador": "critérios de autoria, colaboradores e responsabilidade"
+  },
+  "ori": {
+    "titulo": "Office of Research Integrity — Definition of Research Misconduct",
+    "url": "https://ori.hhs.gov/definition-research-misconduct",
+    "localizador": "fabricação, falsificação, plágio e distinção de erro honesto"
+  },
+  "unesco": {
+    "titulo": "UNESCO — Recommendation on Open Science, 2021",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000379949",
+    "localizador": "construto inclusivo, dimensões e participação social"
+  },
+  "rea": {
+    "titulo": "UNESCO — Recommendation on Open Educational Resources, 2019",
+    "url": "https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer",
+    "localizador": "definição de REA e permissões de licença aberta"
+  },
+  "crossref": {
+    "titulo": "Crossref — Reference linking",
+    "url": "https://www.crossref.org/services/reference-linking/",
+    "localizador": "ligações entre referências, DOI e acesso aos conteúdos"
   }
 }
