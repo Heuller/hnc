@@ -2,6 +2,7 @@ import React from 'react';
 import { Drawer } from 'vaul';
 import type { MnemonicosModulo } from '../../domain/schemas/mnemonico.schema';
 import { MnemonicosTabs } from './MnemonicosTabs';
+import { ConteudoMarkdown } from '../common/ConteudoMarkdown';
 import { Sparkles, X } from 'lucide-react';
 
 export interface MnemonicosDrawerMobileProps {
@@ -11,6 +12,7 @@ export interface MnemonicosDrawerMobileProps {
   isOpen?: boolean;
   onOpenChange?: (open: boolean) => void;
   className?: string;
+  resumo?: string;
 }
 
 /**
@@ -26,6 +28,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
   isOpen,
   onOpenChange,
   className = '',
+  resumo,
 }) => {
   return (
     <div className={`md:hidden inline-flex items-center ${className}`}>
@@ -42,7 +45,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
               aria-label="Abrir Resumo e Mnemônicos"
             >
               <Sparkles className="w-3.5 h-3.5 shrink-0" />
-              <span>Mnemônicos</span>
+              <span>{resumo ? 'Revisão' : 'Mnemônicos'}</span>
             </button>
           )}
         </Drawer.Trigger>
@@ -84,7 +87,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
               </div>
 
               <div className="flex-1 overflow-y-auto py-4">
-                <MnemonicosTabs mnemonicos={mnemonicos} isCompact />
+                {resumo ? <ConteudoMarkdown content={resumo} /> : <MnemonicosTabs mnemonicos={mnemonicos} isCompact />}
               </div>
             </div>
           </Drawer.Content>

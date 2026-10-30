@@ -2,6 +2,7 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { useProgressStore } from '../store/useProgressStore';
 import { COURSE_REGISTRY } from '../content/registry';
+import { getRequiredSectionsForSubmodule } from '../domain/learningEngine';
 import { deriveJornadaState } from '../domain/jornadaEngine';
 
 describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
@@ -17,13 +18,13 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
   });
 
   describe('Falha 1: Respostas na Teoria não liberam a Jornada / Etapas Filhas', () => {
-    it('REPRODUÇÃO: responder todos os micro-checkpoints de 1.1 na teoria com 100% acerto NÃO conclui o submódulo na Jornada devido ao bloqueio de N mínimo (3 < 8)', () => {
+    it('responder a rodada completa de 1.1 preserva respostas e registros atômicos', () => {
       const sub11 = COURSE_REGISTRY[0].modulosFilhos[0];
       expect(sub11.numero).toBe('1.1');
-      expect(sub11.checkpoints.length).toBe(3);
+      expect(sub11.checkpoints.length).toBeGreaterThanOrEqual(3);
 
       // Usuário lê todas as seções de 1.1
-      const secoes11 = ['sec-autores', 'sec-alertas', 'sec-quadro', 'sec-teoria', 'sec-checkpoints', 'sec-mnemonicos'];
+      const secoes11 = getRequiredSectionsForSubmodule(sub11);
       secoes11.forEach((sec) => {
         useProgressStore.getState().registrarSecaoVisualizada(sub11.id, sec);
       });
@@ -34,7 +35,7 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
       });
 
       const storeState = useProgressStore.getState();
-      expect(Object.keys(storeState.checkpointsRespondidos).length).toBe(3);
+      expect(Object.keys(storeState.checkpointsRespondidos).length).toBe(sub11.checkpoints.length);
 
       // Calcula o estado da Jornada com os dados reais do curso
       const jornada = deriveJornadaState({
@@ -56,23 +57,23 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
       expect(storeState.checkpointsRespondidos['cp-1-1-3']).toBe('C');
 
       // Agora existe registro atômico por item na Fonte Única (item_attempts)
-      expect(storeState.itemAttempts.length).toBe(3);
+      expect(storeState.itemAttempts.length).toBe(sub11.checkpoints.length);
       expect(storeState.itemAttempts.map((a) => a.item_id)).toContain('cp-1-1-1');
     });
 
-    it('CORREÇÃO U2.3: useProgressStore.salvarCheckpoint grava tentativa ao responder os 3 checkpoints mesmo com aproveitamento < 85%', () => {
+    it('salvarCheckpoint grava tentativa após a rodada completa, inclusive abaixo de 85%', () => {
       const sub11 = COURSE_REGISTRY[0].modulosFilhos[0];
       
-      // Responde 2 corretos e 1 errado (66% de aproveitamento)
-      useProgressStore.getState().salvarCheckpoint(sub11.checkpoints[0].id, sub11.checkpoints[0].gabarito);
-      useProgressStore.getState().salvarCheckpoint(sub11.checkpoints[1].id, sub11.checkpoints[1].gabarito);
-      const gabaritoInvertido = sub11.checkpoints[2].gabarito === 'C' ? 'E' : 'C';
-      useProgressStore.getState().salvarCheckpoint(sub11.checkpoints[2].id, gabaritoInvertido);
+      // Rodada completa com somente duas respostas corretas, abaixo de 85%.
+      sub11.checkpoints.forEach((cp, i) => {
+        const resposta = i < 2 ? cp.gabarito : cp.gabarito === 'C' ? 'E' : 'C';
+        useProgressStore.getState().salvarCheckpoint(cp.id, resposta);
+      });
 
       const storeState = useProgressStore.getState();
       // Fase U2 (U2.3): Agora que não há pendências fantasma de mnemônicos, a tentativa é registrada
       expect(storeState.tentativas.length).toBe(1);
-      expect(storeState.tentativas[0].totalItens).toBe(3);
+      expect(storeState.tentativas[0].totalItens).toBe(sub11.checkpoints.length);
       expect(storeState.tentativas[0].aprovado).toBe(false);
     });
   });

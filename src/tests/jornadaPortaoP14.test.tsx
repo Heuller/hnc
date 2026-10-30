@@ -62,10 +62,10 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
     expect(screen.getByRole('button', { name: /Próximo/i }).hasAttribute('disabled')).toBe(false);
   });
 
-  it('2. 3/3 na primeira tentativa com modoLivre:true -> getJornadaState devolve aprovado:true, status "concluida", tentativasCount 1', async () => {
+  it('2. Todos os checkpoints na primeira tentativa com modoLivre:true -> getJornadaState devolve aprovado:true, status "concluida", tentativasCount 1', async () => {
     const sub11 = COURSE_REGISTRY[0].modulosFilhos[0];
     const cps = sub11.checkpoints;
-    expect(cps.length).toBe(3);
+    expect(cps.length).toBeGreaterThanOrEqual(3);
 
     // Responde 3/3 no portão
     const mapaRespostas: Record<string, any> = {};
@@ -85,7 +85,7 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
       tipo: 'verificacao_submodulo',
       targetId: '1.1',
       moduloId: 'm1',
-      totalItens: 3,
+      totalItens: sub11.checkpoints.length,
       respostas: mapaRespostas,
       foraDaTrilha: false, // Decisão P14: Portão grava foraDaTrilha: false
     });
@@ -100,7 +100,7 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
     expect(etapa11.tentativasCount).toBe(1);
   });
 
-  it('3. Errou 1 -> "Tentar Novamente" -> acertou os 3 -> aprovado', async () => {
+  it('3. Errou a rodada completa -> Tentar Novamente retorna quiz limpo', async () => {
     const onClose = vi.fn();
     const { unmount } = render(
       <PortaoVerificacaoModal
@@ -113,17 +113,12 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
     // Inicia verificação
     fireEvent.click(screen.getByRole('button', { name: /Iniciar Verificação/i }));
 
-    // Item 1: Erra de propósito
-    fireEvent.click(screen.getByRole('button', { name: /ERRADO/i })); // Supondo gabarito C ou E, erra
-    fireEvent.click(screen.getByRole('button', { name: /Próximo/i }));
-
-    // Item 2: Responde
-    fireEvent.click(screen.getByRole('button', { name: /CERTO/i }));
-    fireEvent.click(screen.getByRole('button', { name: /Próximo/i }));
-
-    // Item 3: Finaliza
-    fireEvent.click(screen.getByRole('button', { name: /CERTO/i }));
-    fireEvent.click(screen.getByRole('button', { name: /Finalizar/i }));
+    const cps = COURSE_REGISTRY[0].modulosFilhos[0].checkpoints;
+    for (let i = 0; i < cps.length; i++) {
+      const errada = cps[i].gabarito === 'C' ? /ERRADO/i : /CERTO/i;
+      fireEvent.click(screen.getByRole('button', { name: errada }));
+      fireEvent.click(screen.getByRole('button', { name: i === cps.length - 1 ? /Finalizar/i : /Próximo/i }));
+    }
 
     // Espera tela de resultado
     await waitFor(() => {
@@ -161,7 +156,7 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
       tipo: 'verificacao_submodulo',
       targetId: '1.1',
       moduloId: 'm1',
-      totalItens: 3,
+      totalItens: sub11.checkpoints.length,
       respostas: mapaRespostas,
       foraDaTrilha: false,
     });
@@ -203,7 +198,7 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
       tipo: 'verificacao_submodulo',
       targetId: '1.1',
       moduloId: 'm1',
-      totalItens: 3,
+      totalItens: sub11.checkpoints.length,
       respostas: mapaRespostas,
       foraDaTrilha: false,
     });

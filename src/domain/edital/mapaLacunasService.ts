@@ -36,6 +36,7 @@ export interface DiagnosticoSubmodulo {
   totalCheckpoints: number;
   temQuadro: boolean;
   temMnemonicos: boolean;
+  temAulaEstruturada: boolean;
   densidadeNivel: 'ALTA' | 'SATISFATORIA' | 'MODERADA';
 }
 
@@ -84,14 +85,14 @@ export const DIRETRIZES_PODA_ESTRATEGICA: DiretrizPoda[] = [
     justificativaPoda:
       'Estudo isolado de regras antigas (como autor em CAIXA ALTA em citações indiretas na NBR 10520) sem contexto de pegadinha gera confusão e perda de pontos.',
     acaoRecomendada:
-      'Podar explicações extensas do padrão antigo. Manter apenas alertas comparativos da mudança para a NBR 10520:2023 (autor sempre em minúsculas) e NBR 6023:2018.',
+      'Distinguir regras vigentes e históricas conforme o edital. Usar NBR 10520:2023 e NBR 6023:2025; nomes pessoais nas chamadas não seguem a antiga caixa alta obrigatória, e siglas institucionais têm disciplina própria.',
   },
   {
     moduloId: 'm5',
     eixoNome: 'Gestão de Unidades de Informação e Coleções',
     topicoAlvo: 'Teorias Clássicas de Administração Geral',
     justificativaPoda:
-      'Abordagens generalistas de Taylor, Fayol e Ford sem vínculo com unidades de informação têm incidência quase nula na banca Cebraspe para Bibliotecários.',
+      'A profundidade deve acompanhar os tópicos do edital e sua aplicação a unidades de informação; não há levantamento de incidência que justifique excluir conteúdos por frequência presumida.',
     acaoRecomendada:
       'Podar digressões genéricas de TGA. Focar estritamente em Gestão de Bibliotecas (Maciel & Mendonça, Almeida, Lancaster) e Etapas de Desenvolvimento de Coleções de Vergueiro.',
   },
@@ -100,7 +101,7 @@ export const DIRETRIZES_PODA_ESTRATEGICA: DiretrizPoda[] = [
     eixoNome: 'Bibliotecas Digitais, Repositórios e Inteligência Artificial',
     topicoAlvo: 'Hardware, Topologia Física de Redes e Protocolos Antigos',
     justificativaPoda:
-      'Especificações de cabos, topologia de rede local e periféricos não são cobrados em bibliotecas digitais modernas pela banca Cebraspe.',
+      'Detalhes de infraestrutura devem ser priorizados conforme os tópicos cadastrados no edital, sem inferir exclusão por uma suposta regra geral da banca.',
     acaoRecomendada:
       'Podar qualquer menção a hardware periférico. Focar em interoperabilidade digital (OAI-PMH, Z39.50, SRU/SRW), DSpace, RAG e Governança de IA.',
   },
@@ -109,7 +110,7 @@ export const DIRETRIZES_PODA_ESTRATEGICA: DiretrizPoda[] = [
     eixoNome: 'Catalogação, Metadados e Modelos Conceituais',
     topicoAlvo: 'Regras Isoladas de AACR2r para Mídias Obsoletas',
     justificativaPoda:
-      'Capítulos do AACR2r dedicados a microfichas, fitas cassete e videodiscos não possuem aderência à realidade da Câmara dos Deputados nem às questões recentes.',
+      'O tratamento de tipos de material deve respeitar o escopo do edital; idade do suporte não basta para declarar um conteúdo dispensável.',
     acaoRecomendada:
       'Podar regras casuísticas de mídias analógicas do AACR2r. Focar em pontos de acesso, monografias, publicações seriadas, IFLA LRM (WEMI) e MARC 21.',
   },
@@ -151,7 +152,7 @@ export const DIRETRIZES_ENRIQUECIMENTO_ESTRATEGICO: DiretrizEnriquecimento[] = [
     topicoAlvo: 'Política de Desenvolvimento de Coleções (Vergueiro) e Avaliação',
     prioridadeEdital: 'CRITICA',
     lacunaIdentificada:
-      'As 6 etapas de Vergueiro (comunidade, seleção, aquisição, desbastamento, avaliação, preservação) e os métodos quantitativos/qualitativos de avaliação de coleções.',
+      'Conferir o processo de desenvolvimento de coleções na referência adotada, incluindo política de seleção, comunidade, seleção, aquisição, desbastamento e avaliação; preservação articula-se ao processo.',
     acaoRecomendada:
       'Criar caderno de 100 questões com cenários de restrições orçamentárias e descarte na administração pública.',
   },
@@ -173,17 +174,17 @@ export const DIRETRIZES_ENRIQUECIMENTO_ESTRATEGICO: DiretrizEnriquecimento[] = [
     lacunaIdentificada:
       'A preservação digital em repositórios confiáveis (RDC-Arq) e metadados PREMIS/METS constituem armadilhas clássicas do Cebraspe.',
     acaoRecomendada:
-      'Elaborar 100 itens C/E cobrindo as 6 entidades funcionais do OAIS e as 5 entidades semânticas do PREMIS.',
+      'Revisar os itens sobre as seis entidades funcionais do OAIS e as quatro entidades do PREMIS 3.0: Objects, Events, Agents e Rights, distinguindo versões e categorias internas.',
   },
   {
     moduloId: 'm8',
     eixoNome: 'Normalização Documental e ABNT',
-    topicoAlvo: 'NBR 10520:2023, NBR 6023:2018 e NBR 6028:2021',
+    topicoAlvo: 'NBR 10520:2023, NBR 6023:2025 e NBR 6028:2021',
     prioridadeEdital: 'CRITICA',
     lacunaIdentificada:
-      'Exige máxima acurácia nas regras de formatação e nas diferenças entre resumo indicativo, informativo e crítico.',
+      'Distinguir requisitos e recomendações; na NBR 6028:2021, estudar resumos indicativo/informativo e o tratamento próprio de resenha e recensão.',
     acaoRecomendada:
-      'Elaborar 100 itens C/E explorando minuciosamente as novas regras da NBR 10520:2023 (minúsculas na chamada) e autoria na NBR 6023.',
+      'Revisar itens segundo as edições cadastradas, incluindo chamadas pessoais/institucionais, autoria, localizadores e força de deve/convém.',
   },
   {
     moduloId: 'm9',
@@ -224,6 +225,17 @@ export function calcularDiagnosticoSubmodulo(
       (Array.isArray(sub.mnemonicos.pegadinhas) && sub.mnemonicos.pegadinhas.length > 0)
     )
   );
+  // Esta medida verifica estrutura editorial, não correção conceitual nem domínio do aluno.
+  const unidades = sub.unidadesAprendizagem ?? [];
+  const checkpointIds = new Set(sub.checkpoints.map(c => c.id));
+  const vinculados = unidades.flatMap(u => u.checkpointIds);
+  const temAulaEstruturada = Boolean(
+    sub.versaoTeoria && unidades.length > 0 &&
+    unidades.every(u => u.objetivos.length > 0 && u.conteudo.trim().length > 0) &&
+    vinculados.every(id => checkpointIds.has(id)) &&
+    new Set(vinculados).size === checkpointIds.size &&
+    (sub.fontesTeoria?.length ?? 0) > 0 && (sub.teoriaDidaticaMarkdown?.trim().length ?? 0) > 0
+  );
 
   let densidadeNivel: 'ALTA' | 'SATISFATORIA' | 'MODERADA' = 'SATISFATORIA';
   if (chars >= 4000 && alertas >= 5 && autores >= 4) {
@@ -243,6 +255,7 @@ export function calcularDiagnosticoSubmodulo(
     totalCheckpoints: checkpoints,
     temQuadro,
     temMnemonicos,
+    temAulaEstruturada,
     densidadeNivel,
   };
 }
@@ -303,9 +316,11 @@ export function gerarRelatorioLacunas(): RelatorioLacunasEdital {
       ? Math.max(0, 100 - questoesSimulado)
       : Math.max(0, 50 - questoesSimulado);
 
-    // Cobertura teórica baseada em completude estrutural (chars, autores, alertas, quadros, mnemônicos)
+    // Compatibilidade com aulas legadas e com o leitor por unidades. Sem certificação de conteúdo.
     const submodulosCompletos = submodulosDiag.filter(
-      s => s.caracteresTeoria >= 2500 && s.totalAutores >= 2 && s.totalAlertas >= 2 && s.temQuadro && s.temMnemonicos
+      s => s.temAulaEstruturada || (
+        s.caracteresTeoria >= 2500 && s.totalAutores >= 2 && s.totalAlertas >= 2 && s.temQuadro && s.temMnemonicos
+      )
     ).length;
     const coberturaPercentual = submodulosDiag.length > 0
       ? Math.round((submodulosCompletos / submodulosDiag.length) * 100)

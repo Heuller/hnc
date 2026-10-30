@@ -50,6 +50,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
         globIgnores: [
+          '**/content-theory-*.js',
           '**/content-questions-*.js',
           '**/registry-*.js',
           '**/*registry*.js',
@@ -70,7 +71,8 @@ export default defineConfig({
           {
             urlPattern: ({ url, sameOrigin }) =>
               sameOrigin &&
-              (url.pathname.includes('content-questions') ||
+              (url.pathname.includes('content-theory') ||
+                url.pathname.includes('content-questions') ||
                 url.pathname.includes('registry') ||
                 url.pathname.includes('elk') ||
                 url.pathname.includes('dicionario') ||
@@ -103,6 +105,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
+          const theoryModule = id.replaceAll('\\', '/').match(/content\/modules\/([^/]+)\//)?.[1];
+          if (theoryModule) return `content-theory-${theoryModule}`;
           if (id.includes('content/questions') || id.includes('content\\questions')) {
             if (id.includes('simulado') || id.includes('mini-modulo') || id.includes('ampliados')) {
               return 'content-questions-simulados';

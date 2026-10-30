@@ -24,373 +24,295 @@ export const submodulo67: ModuloFilho = {
   ],
   titulo: 'IA Aplicada à Informação: Classificação, OCR/HTR, Curadoria de Corpora, Avaliação e Vieses',
   antesDeLer: [
-    {
-      termo: 'OCR (Optical Character Recognition)',
-      definicao: 'Tecnologia de conversão de imagens de texto impresso ou datilografado em caracteres de texto legíveis e pesquisáveis por máquina.',
-      exemploBiblioteca: 'Digitalização e OCR dos diários da Constituinte de 1987-1988 para permitir busca por palavras no texto integral.',
-    },
-    {
-      termo: 'HTR (Handwritten Text Recognition)',
-      definicao: 'Tecnologia de aprendizado profundo focada na transcrição automática de manuscritos históricos com grafias cursivas complexas.',
-      exemploBiblioteca: 'Transcrição assistida por IA de livros de atas e correspondências do Império arquivados na Biblioteca Pedro Aleixo.',
-    },
-    {
-      termo: 'Processamento de Linguagem Natural (PLN)',
-      definicao: 'Subcampo da IA que investiga a compreensão, análise, síntese e geração automática de linguagem humana por sistemas computacionais.',
-      exemploBiblioteca: 'Sumarização automática de justificativas de projetos de lei para gerar ementas prévias nos sistemas legislativos.',
-    },
-    {
-      termo: 'Vieses Algorítmicos (Bias)',
-      definicao: 'Desvios sistemáticos e preconceitos incorporados em modelos de IA decorrentes de distorções nos dados de treinamento ou nos algoritmos.',
-      exemploBiblioteca: 'Auditoria ética de algoritmos de busca para evitar que determinados temas sociais sejam silenciados nos resultados.',
-    },
-  ],
+  {
+    "termo": "CER",
+    "definicao": "Distância de edição normalizada pelo comprimento da referência.",
+    "exemploBiblioteca": "Muitas inserções podem produzir taxa superior a 100%."
+  },
+  {
+    "termo": "Vazamento de dados",
+    "definicao": "Informação do teste interfere indevidamente no treinamento ou na seleção.",
+    "exemploBiblioteca": "Versões quase iguais do documento em partições distintas podem inflar a avaliação."
+  }
+],
   descricaoCurta:
-    'Aprendizado supervisionado vs. não supervisionado na organização informacional; sumarização extrativa vs. abstrativa; tecnologias de OCR e HTR (métricas CER e WER); curadoria e documentação de corpora (Datasheets for Datasets e Model Cards); avaliação em sistemas RAG (groundedness e alucinação); vieses algorítmicos e ética informacional.',
-  tempoEstimadoMinutos: 14,
+    "Escolher tarefa e reconhecer riscos de síntese. Aplicar OCR/HTR e calcular erro com referência definida. Documentar corpus e impedir vazamento entre conjuntos. Avaliar recuperação, fundamentação e adequação da resposta. Distinguir tipos de viés e responsabilidades.",
+  tempoEstimadoMinutos: 25,
   autoresChave: [
-    'Timnit Gebru et al. (Datasheets for Datasets, 2018/2021)',
-    'Margaret Mitchell et al. (Model Cards for Model Reporting, 2019)',
-    'Patrick Lewis et al. (RAG: Retrieval-Augmented Generation, NeurIPS 2020)',
-    'Kate Crawford (Atlas of AI, 2021)',
-  ],
+  "Gebru et al. — Datasheets for Datasets",
+  "Mitchell et al. — Model Cards for Model Reporting",
+  "Lewis et al. — Retrieval-Augmented Generation",
+  "Hugging Face Evaluate — CER",
+  "Lei 13.709/2018 — LGPD"
+],
   alertasCebraspe: [
-    'RAG Reduz, mas NÃO Elimina Alucinações: A arquitetura RAG (Retrieval-Augmented Generation) ancora a geração de texto em fragmentos documentais recuperados previamente de bases confiáveis, reduzindo expressivamente o risco de alucinação factual. Contudo, o Cebraspe frequentemente afirma que o RAG "garante a imunidade contra alucinações" ou "elimina integralmente qualquer erro factual do modelo": ERRADO! O modelo generativo ainda pode interpretar incorretamente os trechos recuperados ou preencher lacunas com inferências inverídicas.',
-    'Sumarização Extrativa vs. Abstrativa: A sumarização extrativa seleciona e concatena sentenças literais originais do próprio texto-fonte, preservando 100% da fidelidade terminológica da autoria (sem risco de alucinação criativa); já a sumarização abstrativa gera novas construções oracionais e paráfrases em linguagem natural através de modelos generativos, sendo mais fluida, porém sujeita a distorções semânticas e alucinações factuais.',
-    'Volume de Dados NÃO Compensa Viés de Amostragem: A técnica de distrator recorrente consiste em a falácia de que "um corpus com volume massivo de bilhões de palavras neutraliza automaticamente quaisquer vieses históricos ou de amostragem". ERRADO! A literatura de curadoria (Gebru et al., 2018; Bender et al., 2021) comprova que o aumento cego do volume de dados pode, ao contrário, amplificar e perpetuar preconceitos, termos discriminatórios e sub-representação histórica de minorias presentes na Web.',
-    'Métricas de Reconhecimento em Textos Históricos (CER e WER): Para avaliar a qualidade de conversão de imagens em texto digital, utilizam-se a Taxa de Erro de Caracteres (CER - Character Error Rate) e a Taxa de Erro de Palavras (WER - Word Error Rate). Enquanto o OCR (Optical Character Recognition) aplica-se a documentos impressos/tipografados, o HTR (Handwritten Text Recognition) destina-se ao reconhecimento de caligrafias e manuscritos históricos em arquivos patrimoniais.',
-  ],
-  quadroComparativo: {
-    titulo: 'Quadro Comparativo de Dimensões Avaliativas de Respostas e Modelos de IA',
-    colunas: [
-      'Dimensão Avaliativa',
-      'O que Mensura Formalmente',
-      'Método de Detecção / Cálculo',
-      'Falha Típica Associada',
-      'Ação de Mitigação Curatorial',
-    ],
-    linhas: [
-      [
-        'Precisão (Precision)',
-        'Proporção de itens recuperados/classificados que são verdadeiramente relevantes',
-        'Verdadeiros Positivos / (Verdadeiros Positivos + Falsos Positivos)',
-        'Retorno de ruído informacional (documentos irrelevantes misturados ao resultado)',
-        'Refinamento de filtros de busca e elevação do limiar de similaridade vetorial.',
-      ],
-      [
-        'Revocação (Recall)',
-        'Capacidade do sistema de encontrar todos os itens relevantes existentes na base',
-        'Verdadeiros Positivos / (Verdadeiros Positivos + Falsos Negativos)',
-        'Omissão de documentos vitais (silêncio informacional)',
-        'Expansão semântica da consulta via sinônimos, tesauros ou embeddings mais abrangentes.',
-      ],
-      [
-        'Fundamentação em Fonte (Groundedness / Faithfulness)',
-        'Grau de adesão estrita das afirmações da resposta aos fatos do contexto recuperado',
-        'Verificação cruzada de sentenças contra as passagens anexadas no prompt RAG',
-        'Alucinação intrínseca (geração de dados inexistentes nas fontes fornecidas)',
-        'Instruções de sistema rígidas ("Responda estritamente com base nos textos anexados") e penalização de extrapolamento.',
-      ],
-      [
-        'Relevância do Contexto (Context Relevance)',
-        'Pertinência dos fragmentos documentais selecionados pelo retriever para sanar a dúvida',
-        'Cálculo de similaridade por cosseno entre o vetor da pergunta e os chunks recuperados',
-        'Contexto truncado, ruidoso ou com fragmentos desconexos da dúvida real',
-        'Aprimoramento da estratégia de chunking (fragmentação semântica) e reranking de passagens.',
-      ],
-      [
-        'Alucinação (Hallucination)',
-        'Geração de informações factualmente falsas, datas inventadas ou citações fictícias de leis',
-        'Avaliação humana cega (HITL) ou modelos juízes (LLM-as-a-judge) com verificação em base real',
-        'Citação de número de lei ou decisão do STF que nunca existiu no mundo real',
-        'Uso mandatório de RAG ancorado em bases oficiais (LexML, portal da Câmara) e supervisão por especialista.',
-      ],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Aplicações de IA e Processamento de Linguagem Natural (PLN) na Gestão Documental
-
-A aplicação de técnicas de **Inteligência Artificial (IA)** e **Processamento de Linguagem Natural (PLN)** em bibliotecas e arquivos legislativos transforma radicalmente os fluxos de tratamento, análise e disseminação da informação:
-
-* **1. Aprendizado Supervisionado na Gestão da Informação:**
-  * O modelo é treinado com um conjunto de dados previamente rotulado por especialistas humanos (pares de entrada e saída esperada).
-  * *Classificação Automática de Documentos:* Atribuição automática de classes documentais (ex.: classificar uma petição como "Recurso", "Consulta" ou "Denúncia").
-  * *Reconhecimento de Entidades Nomeadas (NER - Named Entity Recognition):* Identificação e extração automatizada de entidades discretas em textos legislativos:
-    * Nomes de parlamentares e autoridades públicas;
-    * Nomes de órgãos da administração pública e entidades federativas;
-    * Citações expressas a normas jurídicas (ex.: "Lei nº 14.133/2021", "art. 5º da CF/88").
-
-* **2. Aprendizado Não Supervisionado na Gestão da Informação:**
-  * O algoritmo processa dados não rotulados para identificar padrões latentes, agrupamentos naturais ou reduções dimensionais.
-  * *Agrupamento Temático (Clustering):* Agregação de discursos parlamentares por similaridade semântica vetorial, sem categorização prévia.
-  * *Modelagem de Tópicos (Topic Modeling com LDA / BERTopic):* Descoberta automatizada dos temas latentes discutidos em milhões de proposições legislativas ao longo de uma década.
-
-* **3. Sumarização Automática: Extrativa vs. Abstrativa:**
-  * *Sumarização Extrativa:*
-    * O algoritmo pontua e extrai **frases e trechos literais originais** do próprio documento, concatenando-os para formar o resumo executivo.
-    * *Vantagens e Desvantagens:* Preserva integralmente a autenticidade e a precisão do texto original (risco zero de inventar fatos ou adulterar termos jurídicos), porém pode produzir textos com quebras de coesão e fluidez.
-  * *Sumarização Abstrativa:*
-    * O modelo generativo (como um LLM) "compreende" o conteúdo do documento e **redige um novo texto de síntese com suas próprias palavras e estruturas sintáticas**.
-    * *Vantagens e Desvantagens:* Gera resumos altamente fluídos, coesos e adaptados ao público leitor, mas carrega o risco intrínseco de **alucinações factuais**, omissões sutis de condicionantes legais e perda de nuances semânticas.
-
----
-
-### 2. Digitalização Avançada: OCR (Impresso) e HTR (Manuscrito)
-
-A preservação e o acesso a acervos históricos parlamentares dependem de tecnologias de visão computacional e reconhecimento de caracteres:
-
-* **1. OCR (Optical Character Recognition - Reconhecimento Óptico de Caracteres):**
-  * Converte imagens rasterizadas de **textos impressos ou tipografados** (documentos datilografados, livros impressos, diários oficiais) em texto digital pesquisável e codificado (UTF-8).
-  * Cria o formato **PDF Pesquisável (PDF/A)**, que sobrepõe à imagem escaneada uma camada invisível de texto correspondente, permitindo busca booleana e cópia de trechos.
-
-* **2. HTR (Handwritten Text Recognition - Reconhecimento de Manuscritos):**
-  * Tecnologia avançada baseada em redes neurais profundas (CNNs e Transformers) projetada para reconhecer **escrita manual, caligrafias históricas e documentos paleográficos**.
-  * Aplicada no acervo de obras raras e documentos fundacionais da Câmara dos Deputados (ex.: atas manuscritas da Assembleia Geral Constituinte do Império de 1823).
-
-* **3. Métricas Padronizadas de Acurácia em OCR/HTR:**
-  * **Taxa de Erro de Caracteres (CER - Character Error Rate):**
-    $\\text{CER} = \\frac{S + D + I}{N}$
-    Onde:
-    * $S$ = Substituições (caracteres trocados incorretamente);
-    * $D$ = Deleções (caracteres omitidos pelo leitor);
-    * $I$ = Inserções (caracteres espúrios adicionados);
-    * $N$ = Número total de caracteres no texto de referência (*ground truth*).
-  * **Taxa de Erro de Palavras (WER - Word Error Rate):**
-    * Mensura a proporção de palavras inteiras que sofreram falhas na transcrição.
-  * *Human-in-the-Loop (HITL):* Em acervos patrimoniais e jurídicos, nenhum sistema de OCR/HTR opera de forma 100% autônoma sem uma etapa de revisão, curadoria e pós-correção manual por arquivistas e bibliotecários.
-
----
-
-### 3. Curadoria de Dados e Governança de Corpora para IA
-
-A integridade e a confiabilidade de qualquer sistema de IA dependem estritamente da qualidade do seu corpus de dados de treinamento e avaliação:
-
-#### A. O Ciclo de Curadoria de Corpora
-1. **Seleção e Aquisição:** Coleta orientada a fins de pesquisa com critérios explícitos de representatividade e legalidade (respeito aos direitos autorais da Lei nº 9.610/1998 e à LGPD).
-2. **Limpeza e Normalização:** Remoção de caracteres de controle, correção de codificação (UTF-8), expurgo de ruídos de digitalização e eliminação de duplicatas (*deduplication*).
-3. **Anotação e Rotulagem:** Inserção de metadados semânticos e etiquetas de classe segundo diretrizes rigorosas (*guidelines*) com cálculo de concordância entre anotadores (ex.: Coeficiente Kappa de Cohen).
-4. **Particionamento Metodológico do Dataset:**
-   * *Conjunto de Treinamento (Training Set - ~70-80%):* Utilizado para ajustar os parâmetros e pesos matemáticos do modelo.
-   * *Conjunto de Validação / Desenvolvimento (Validation / Dev Set - ~10-15%):* Utilizado para ajuste de hiperparâmetros e prevenção de superajuste (*overfitting*).
-   * *Conjunto de Teste (Test Set - ~10-15%):* **Dados mantidos estritamente isolados**, nunca vistos pelo modelo durante o treino, utilizados para a avaliação final e independente de desempenho.
-
-#### B. Documentação Padronizada: Datasheets e Model Cards
-A literatura contemporânea de ética e governança de dados consagrou instrumentos de transparência audital:
-* **Datasheets for Datasets (Timnit Gebru et al., 2018/2021):**
-  * Documento formal que acompanha cada conjunto de dados publicado, detalhando:
-    * Motivação da criação do dataset e financiamento;
-    * Composição dos dados (atributos, presença de PII / dados pessoais, tamanho);
-    * Processo de coleta e consentimento de titulares;
-    * Pré-processamento e limpeza aplicados;
-    * Casos de uso recomendados e **usos expressamente desaconselhados**.
-* **Model Cards for Model Reporting (Margaret Mitchell et al., 2019):**
-  * Documentação transparente que acompanha modelos de IA treinados, explicitando:
-    * Detalhes do modelo (arquitetura, desenvolvedores, data);
-    * Usuários pretendidos e tarefas intencionais;
-    * Fatores de desempenho e métricas em subpopulações;
-    * Dados de treinamento e dados de avaliação;
-    * Limitações éticas, vieses conhecidos e advertências de segurança.
-
----
-
-### 4. Avaliação de Modelos de Linguagem e Sistemas RAG
-
-A arquitetura **RAG (Retrieval-Augmented Generation - Patrick Lewis et al., NeurIPS 2020)** combina um modelo de recuperação documental (*retriever*) com um modelo gerador (*LLM*):
-
-\`\`\`
-[Usuário Faz Pergunta] 
-        │
-        ▼
-[Mecanismo de Busca Vetorial / Retriever] ──> [Base de Documentos Oficiais / LexML]
-        │                                           │
-        ▼                                           ▼
-[Fragmentos Relevantes Recuperados (Contexto Chunks)]
-        │
-        ▼
-[Prompt Enriquecido: Contexto + Pergunta] ──> [Modelo de Linguagem (LLM)]
-                                                    │
-                                                    ▼
-                                            [Resposta Ancorada]
-\`\`\`
-
-#### A. A Tríade de Avaliação RAG
-Para auditar a confiabilidade de um sistema RAG em ambiente parlamentar, avaliam-se três pilares interdependentes:
-1. **Fidelidade / Fundamentação em Fonte (Faithfulness / Groundedness):**
-   * Mensura se todas as afirmações presentes na resposta final encontram respaldo direto nos fragmentos de contexto que foram fornecidos no prompt.
-   * Respostas que inventam artigos de leis não presentes nos chunks recuperados são penalizadas como **alucinações**.
-2. **Relevância do Contexto (Context Relevance):**
-   * Avalia se os documentos recuperados pelo retriever são pertinentes e suficientes para sanar a dúvida do usuário, evitando o envio de trechos irrelevantes que poluam a janela de contexto.
-3. **Relevância da Resposta (Answer Relevance):**
-   * Avalia se a resposta atende pontualmente ao que foi questionado pelo usuário, sem desviar do foco temático.
-
-#### B. O Papel do Bibliotecário e Human-in-the-Loop (HITL)
-Embora o RAG reduza drasticamente as alucinações ao forçar o modelo a consultar fontes verificadas, ele **não é à prova de falhas**. A curadoria das bases de vetores, a fragmentação semântica (*chunking strategy*) e a validação final por profissionais da informação são salvaguardas mandatórias em instituições do Estado Democrático de Direito.
-
----
-
-### 5. Vieses Algorítmicos, Ética e Governança no Setor Público
-
-A governança responsável de IA na administração pública exige a compreensão crítica dos tipos de vieses:
-
-* **1. Viés de Dados (Data Bias / Amostragem Histórica):**
-  * Decorre de distorções históricas presentes nos dados documentais do passado. Por exemplo, treinar um modelo de indexação com acervos bibliográficos do século XIX pode perpetuar terminologias preconceituosas ou categorias obsoletas se não houver mediação curatorial.
-* **2. Viés de Algoritmo (Algorithmic Bias):**
-  * Surge quando a função de otimização matemática do modelo prioriza padrões predominantes da maioria, marginalizando minorias ou outliers legítimos.
-* **3. Viés de Confirmação e Automação (Automation Bias):**
-  * Tendência psicológica de operadores humanos confiarem cegamente nas decisões ou sugestões emitidas pelo sistema automatizado, deixando de exercer o senso crítico e a checagem manual de evidências.
-* **4. Segurança e LGPD em Prompts de IA:**
-  * Enviar textos que contenham dados pessoais protegidos, relatórios de inteligência parlamentar sob sigilo ou minutas de votos em comissões para APIs públicas de IA em nuvem de terceiros viola as diretrizes de segurança da informação da Câmara dos Deputados e os preceitos da Lei nº 13.709/2018.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Tesauros, Ontologias e SKOS (sub-3-4):** Extração semântica de entidades e controle de alucinação em RAG.
-* **Governança da Informação e de Dados (sub-1-6):** Datasheets for Datasets, viés algorítmico e proveniência.
-* **Transparência, LAI e LGPD (sub-11-12):** Uso ético de dados e privacidade em sistemas inteligentes.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Curadoria de Corpora, o Processamento de Linguagem Natural (PLN) e a Ética Algorítmica** são temas de fronteira exigidos no edital do Cebraspe:
-1. **Curadoria de Dados e Corpora Textuais:**
-   - Processo ativo e contínuo de seleção, higienização, anonimização, padronização e documentação de coleções de textos (*corpora*) para treino e teste de modelos computacionais.
-   - **Princípios FAIR:** *Findable* (Localizável), *Accessible* (Acessível), *Interoperable* (Interoperável) e *Reusable* (Reutilizável).
-2. **Processamento de Linguagem Natural (PLN) e OCR/HTR:**
-   - **Pipeline de Pré-processamento Clássico:**
-     - *Tokenização:* Quebra do texto em palavras, símbolos ou termos individuais (*tokens*).
-     - *Remoção de Stopwords:* Exclusão de palavras gramaticais de alto vácuo semântico (artigos, preposições, conjunções: "de", "a", "o").
-     - *Stemming (Troncamento):* Redução morfológica da palavra ao seu radical mecânico (ex.: "livraria", "livros" $\to$ "livr").
-     - *Lematização:* Redução da palavra à sua forma canônica dicionarizada com base na morfossintaxe (ex.: "foram" $\to$ verbo "ir" ou "ser").
-   - **OCR (*Optical Character Recognition*) e HTR (*Handwritten Text Recognition*):** Tecnologias de visão computacional que convertem imagens de documentos impressos ou manuscritos em texto digital codificado em UTF-8.
-3. **Vieses Algorítmicos e Ética da IA na Gestão Pública:**
-   - Algoritmos não são neutros; eles reproduzem e amplificam preconceitos históricos, de gênero, raciais e regionais presentes nos dados de treino.
-   - **Auditoria de Vieses:** Exigência de avaliação independente da acurácia balanceada entre subpopulações e garantia da Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Curadoria de Corpus Textual das Proposições da Câmara):** O CEDI organiza o *Corpus Legislativo Brasileiro* com 1 milhão de discursos e projetos desde 1946. O bibliotecário higieniza os metadados, remove caracteres de controle corrompidos, anonimiza dados pessoais sensíveis conforme a LGPD e disponibiliza o dataset no padrão FAIR para que universidades treinem modelos de PLN.
-- **Cenário 2 (Lematização no Mecanismo de Busca do Sileg):** Ao pesquisar por *"regulamentando as concessões públicas"*, o motor de busca do portal parlamentar aplica a **lematização**, recuperando documentos que contenham "regulamentar", "regulamenta" e "regulamentação", garantindo que a inflexão verbal não impeça o deputado de encontrar a norma.
-- **Cenário 3 (Prevenção de Viés Algorítmico em Ferramenta de Seleção de Textos):** A equipe de IA testa um modelo de classificação para sugerir temas prioritários de tramitação. O bibliotecário identifica um viés de sub-representação histórica nos projetos da bancada feminina e ajusta o peso das classes para reequilibrar o aprendizado do algoritmo.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Etapa de PLN / Conceito | O que Faz | Exemplo de Saída | Vantagem / Risco |
-| :--- | :--- | :--- | :--- |
-| **Tokenização** | Quebra a frase em unidades mínimas | \`["Câmara", "dos", "Deputados"]\` | Base para qualquer processamento |
-| **Stopwords** | Palavras vazias eliminadas | Remove: \`"de"\`, \`"em"\`, \`"para"\` | Reduz ruído e volume de dados |
-| **Stemming** | Corta a palavra no radical bruto | \`"constitucional"\` $\to$ \`"constituc"\` | Rápido, mas pode gerar palavras inexistentes |
-| **Lematização** | Retorna o lema dicionarizado | \`"foram"\` $\to$ \`"ir"\` (ou \`"ser"\`) | Gramaticalmente exato, mas exige mais CPU |
-| **Viés Algorítmico** | Distorção sistemática nos resultados | Discriminação histórica nos dados | Fere a ética e a imparcialidade pública |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Stemming vs. Lematização:** O Cebraspe inverte os conceitos dizendo que *"o stemming utiliza análises morfológicas complexas para retornar a forma canônica dicionarizada da palavra"*. **Gabarito: ERRADO.** Quem utiliza análise morfológica e gramatical completa para encontrar a forma dicionarizada é a **lematização**; o *stemming* aplica apenas cortes heurísticos de sufixos.
-- **Princípios FAIR como Padrão de Hardware:** Afirmar que os princípios FAIR são requisitos físicos de servidores e discos rígidos. **Gabarito: ERRADO.** Os princípios FAIR (*Findable, Accessible, Interoperable, Reusable*) são diretrizes de **gestão e governança de dados científicos e metadados**.
-- **Neutralidade Inata dos Algoritmos:** A banca propõe que *"sistemas baseados em aprendizado de máquina são por natureza imunes a preconceitos humanos por utilizarem equações matemáticas"*. **Gabarito: ERRADO.** A doutrina moderna (Cathy O'Neil e EBIA) comprova que os algoritmos reproduzem integralmente os vieses dos dados com os quais foram treinados.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **JURAFSKY, Daniel; MARTIN, James H.** *Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition*. 3. ed. draft. Stanford University, 2023. (O clássico absoluto de Processamento de Linguagem Natural).
-- **WILKINSON, Mark D. et al.** The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, v. 3, n. 160018, 2016. (O manifesto original dos princípios FAIR).
-- **O'NEIL, Cathy.** *Algoritmos de destruição em massa: como o big data aumenta a desigualdade e ameaça a democracia*. Santo André: Editora Rua do Sabão, 2020.
-- **BRASIL.** *Lei Federal nº 13.709, de 14 de agosto de 2018*. Lei Geral de Proteção de Dados Pessoais (LGPD).
-- **BIRD, Steven; KLEIN, Ewan; LOPER, Edward.** *Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit (NLTK)*. Sebastopol: O'Reilly Media, 2009.`,
+  "Omissão, concatenação e perda de condição/referente podem alterar a interpretação.",
+  "Inserções podem superar o comprimento da referência.",
+  "Duplicatas e versões relacionadas podem vazar informação; é preciso examinar unidades de separação."
+],
+  teoriaDensaMarkdown: "### Aplicações de IA e Processamento de Linguagem Natural (PLN) na Gestão Documental\n\nA aplicação de técnicas de **Inteligência Artificial (IA)** e **Processamento de Linguagem Natural (PLN)** em bibliotecas e arquivos legislativos transforma radicalmente os fluxos de tratamento, análise e disseminação da informação:\n\n* **1. Aprendizado Supervisionado na Gestão da Informação:**\n  * O modelo é treinado com um conjunto de dados rotulado segundo o método; os rótulos podem ter diferentes processos de produção e precisam de qualidade/documentação (pares de entrada e saída esperada).\n  * *Classificação Automática de Documentos:* Atribuição automática de classes documentais (ex.: classificar uma petição como \"Recurso\", \"Consulta\" ou \"Denúncia\").\n  * *Reconhecimento de Entidades Nomeadas (NER - Named Entity Recognition):* Identificação e extração automatizada de entidades discretas em textos legislativos:\n    * Nomes de parlamentares e autoridades públicas;\n    * Nomes de órgãos da administração pública e entidades federativas;\n    * Citações expressas a normas jurídicas (ex.: \"Lei nº 14.133/2021\", \"art. 5º da CF/88\").\n\n* **2. Aprendizado Não Supervisionado na Gestão da Informação:**\n  * O algoritmo processa dados não rotulados para identificar padrões latentes, agrupamentos naturais ou reduções dimensionais.\n  * *Agrupamento Temático (Clustering):* Agregação de discursos parlamentares por similaridade semântica vetorial, sem categorização prévia.\n  * *Modelagem de Tópicos (Topic Modeling com LDA / BERTopic):* Descoberta automatizada dos temas latentes discutidos em milhões de proposições legislativas ao longo de uma década.\n\n* **3. Sumarização Automática: Extrativa vs. Abstrativa:**\n  * *Sumarização Extrativa:*\n    * O algoritmo pontua e extrai **frases e trechos literais originais** do próprio documento, concatenando-os para formar o resumo executivo.\n    * *Vantagens e Desvantagens:* Extrai material existente, mas a seleção/concatenação pode omitir condições, perder referentes e induzir sentido enganoso. Não há risco zero de erro factual da síntese, porém pode produzir textos com quebras de coesão e fluidez.\n  * *Sumarização Abstrativa:*\n    * O modelo generativo (como um LLM) processa a entrada e **redige um novo texto de síntese com suas próprias palavras e estruturas sintáticas**.\n    * *Vantagens e Desvantagens:* Gera resumos altamente fluídos, coesos e adaptados ao público leitor, mas carrega o risco intrínseco de **alucinações factuais**, omissões sutis de condicionantes legais e perda de nuances semânticas.\n\n**Aplicação e recuperação:** O documento diz “não se aplica aos contratos anteriores”. Um resumo extrativo conserva só “se aplica aos contratos anteriores” após corte indevido: usar palavras da fonte não garante fidelidade da seleção. NER detecta menção, mas ligar a menção à entidade correta é tarefa adicional. Classificação e extração também podem usar regras, sem um único método obrigatório.\n\n### Digitalização Avançada: OCR (Impresso) e HTR (Manuscrito)\n\nA preservação e o acesso a acervos históricos parlamentares dependem de tecnologias de visão computacional e reconhecimento de caracteres:\n\n* **1. OCR (Optical Character Recognition - Reconhecimento Óptico de Caracteres):**\n  * Converte imagens rasterizadas de **textos impressos ou tipografados** (documentos datilografados, livros impressos, diários oficiais) em texto digital pesquisável e codificado (UTF-8).\n  * Pode criar uma camada de texto num **PDF pesquisável**, que não é automaticamente conforme a um perfil PDF/A, que sobrepõe à imagem escaneada uma camada invisível de texto correspondente, permitindo busca booleana e cópia de trechos.\n\n* **2. HTR (Handwritten Text Recognition - Reconhecimento de Manuscritos):**\n  * Tecnologia avançada baseada em redes neurais profundas (CNNs e Transformers) projetada para reconhecer **escrita manual, caligrafias históricas e documentos paleográficos**.\n  * Aplicável, em cenário hipotético, a acervos de obras raras e documentos históricos (ex.: atas manuscritas da Assembleia Geral Constituinte do Império de 1823).\n\n* **3. Métricas Padronizadas de Acurácia em OCR/HTR:**\n  * **Taxa de Erro de Caracteres (CER - Character Error Rate):**\n    $\\text{CER} = \\frac{S + D + I}{N}$\n    Onde:\n    * $S$ = Substituições (caracteres trocados incorretamente);\n    * $D$ = Deleções (caracteres omitidos pelo leitor);\n    * $I$ = Inserções (caracteres espúrios adicionados);\n    * $N$ = Número total de caracteres no texto de referência (*ground truth*).\n  * **Taxa de Erro de Palavras (WER - Word Error Rate):**\n    * Mensura a proporção de palavras inteiras que sofreram falhas na transcrição.\n  * *Human-in-the-Loop (HITL):* A decisão sobre automação, amostragem e revisão deve considerar risco e finalidade. Não se declara inexistente toda operação automática: é necessário planejar controle e corrigir erros relevantes, especialmente em usos jurídicos/patrimoniais.\n\n**Aplicação e recuperação:** Referência com 100 caracteres; oito substituições, duas deleções e cinco inserções: CER = 15/100 = 15%. Muitas inserções podem levar a CER acima de 100%, pois o denominador é a referência. WER usa unidades de palavra, com alinhamento e regras de tokenização; não equivale à porcentagem de páginas corretas. Ignorar um “não” pode ser grave mesmo com CER global baixo.\n\n### Curadoria de Dados e Governança de Corpora para IA\n\nA integridade e a confiabilidade de qualquer sistema de IA dependem estritamente da qualidade do seu corpus de dados de treinamento e avaliação:\n\n#### A. O Ciclo de Curadoria de Corpora\n1. **Seleção e Aquisição:** Coleta orientada a fins de pesquisa com critérios explícitos de representatividade e legalidade (respeito aos direitos autorais da Lei nº 9.610/1998 e à LGPD).\n2. **Limpeza e Normalização:** Remoção de caracteres de controle, correção de codificação (UTF-8), expurgo de ruídos de digitalização e eliminação de duplicatas (*deduplication*).\n3. **Anotação e Rotulagem:** Inserção de metadados semânticos e etiquetas de classe segundo diretrizes rigorosas (*guidelines*) com cálculo de concordância entre anotadores (ex.: Coeficiente Kappa de Cohen).\n4. **Particionamento Metodológico do Dataset:**\n   * *Conjunto de Treinamento (Training Set — proporção a definir):* Utilizado para ajustar os parâmetros e pesos matemáticos do modelo.\n   * *Conjunto de Validação / Desenvolvimento (Validation / Dev Set — proporção a definir):* Utilizado para ajuste de hiperparâmetros e prevenção de superajuste (*overfitting*).\n   * *Conjunto de Teste (Test Set — proporção a definir):* **Dados mantidos estritamente isolados**, nunca vistos pelo modelo durante o treino, utilizados para avaliação final do desempenho. Independência exige verificar duplicatas, versões, pessoas/grupos e vazamento, não apenas separar arquivos aleatoriamente.\n\n#### B. Documentação Padronizada: Datasheets e Model Cards\nA literatura contemporânea de ética e governança de dados consagrou instrumentos de transparência audital:\n* **Datasheets for Datasets (Timnit Gebru et al., 2018/2021):**\n  * Documento formal que acompanha cada conjunto de dados publicado, detalhando:\n    * Motivação da criação do dataset e financiamento;\n    * Composição dos dados (atributos, presença de PII / dados pessoais, tamanho);\n    * Processo de coleta e consentimento de titulares;\n    * Pré-processamento e limpeza aplicados;\n    * Casos de uso recomendados e **usos expressamente desaconselhados**.\n* **Model Cards for Model Reporting (Margaret Mitchell et al., 2019):**\n  * Documentação transparente que acompanha modelos de IA treinados, explicitando:\n    * Detalhes do modelo (arquitetura, desenvolvedores, data);\n    * Usuários pretendidos e tarefas intencionais;\n    * Fatores de desempenho e métricas em subpopulações;\n    * Dados de treinamento e dados de avaliação;\n    * Limitações éticas, vieses conhecidos e advertências de segurança.\n\n**Aplicação e recuperação:** Duas versões quase idênticas de uma lei entram uma no treino e outra no teste. Separar arquivos não remove vazamento. Agrupe versões e escolha divisão temporal/por fonte quando adequada. Não existe proporção 80/10/10 universalmente superior; tamanho, distribuição e finalidade orientam o desenho. Datasheet documenta os dados; model card documenta o modelo e seu uso/avaliação.\n\n### Avaliação de Modelos de Linguagem e Sistemas RAG\n\nA arquitetura **RAG (Retrieval-Augmented Generation - Patrick Lewis et al., NeurIPS 2020)** combina um modelo de recuperação documental (*retriever*) com um modelo gerador (*LLM*):\n\n```\n[Usuário Faz Pergunta] \n        │\n        ▼\n[Mecanismo de Busca Vetorial / Retriever] ──> [Base de Documentos Oficiais / LexML]\n        │                                           │\n        ▼                                           ▼\n[Fragmentos Relevantes Recuperados (Contexto Chunks)]\n        │\n        ▼\n[Prompt Enriquecido: Contexto + Pergunta] ──> [Modelo de Linguagem (LLM)]\n                                                    │\n                                                    ▼\n                                            [Resposta Ancorada]\n```\n\n#### A. A Tríade de Avaliação RAG\nPara auditar a confiabilidade de um sistema RAG em ambiente parlamentar, avaliam-se três pilares interdependentes:\n1. **Fidelidade / Fundamentação em Fonte (Faithfulness / Groundedness):**\n   * Mensura se todas as afirmações presentes na resposta final encontram respaldo direto nos fragmentos de contexto que foram fornecidos no prompt.\n   * Respostas que inventam artigos de leis não presentes nos chunks recuperados são penalizadas como **alucinações**.\n2. **Relevância do Contexto (Context Relevance):**\n   * Avalia se os documentos recuperados pelo retriever são pertinentes e suficientes para sanar a dúvida do usuário, evitando o envio de trechos irrelevantes que poluam a janela de contexto.\n3. **Relevância da Resposta (Answer Relevance):**\n   * Avalia se a resposta atende pontualmente ao que foi questionado pelo usuário, sem desviar do foco temático.\n\n#### B. O Papel do Bibliotecário e Human-in-the-Loop (HITL)\nEmbora recuperação possa apoiar a geração e reduzir certos erros em avaliações específicas, ele **não é à prova de falhas**. A curadoria das bases de vetores, a fragmentação semântica (*chunking strategy*) e a validação final por profissionais da informação são decisões de projeto e governança a justificar conforme risco e regras aplicáveis; não se inventa uma obrigação legal universal para cada técnica.\n\n**Aplicação e recuperação:** Uma resposta pode ser fiel a fonte revogada e ainda errar a pergunta atual. Outra recupera fonte pertinente, mas não segue seu conteúdo. Avalie separadamente recuperação, fidelidade, correção temporal, completude e atendimento ao usuário. Uma tríade de métricas é ferramenta, não certificação universal. Registre também casos em que a evidência é insuficiente e o sistema deve abster-se.\n\n### Vieses Algorítmicos, Ética e Governança no Setor Público\n\nA governança responsável de IA na administração pública exige a compreensão crítica dos tipos de vieses:\n\n* **1. Viés de Dados (Data Bias / Amostragem Histórica):**\n  * Decorre de distorções históricas presentes nos dados documentais do passado. Por exemplo, treinar um modelo de indexação com acervos bibliográficos do século XIX pode perpetuar terminologias preconceituosas ou categorias obsoletas se não houver mediação curatorial.\n* **2. Viés de Algoritmo (Algorithmic Bias):**\n  * Surge quando a função de otimização matemática do modelo prioriza padrões predominantes da maioria, marginalizando minorias ou outliers legítimos.\n* **3. Viés de automação e confirmação: mecanismos distintos:**\n  * Viés de automação envolve confiar excessivamente em saída automática; confirmação envolve favorecer evidências que sustentam crença prévia. Ambos podem ocorrer na mesma tarefa. Operadores podem confiar nas decisões ou sugestões emitidas pelo sistema automatizado, deixando de exercer o senso crítico e a checagem manual de evidências.\n* **4. Segurança e LGPD em Prompts de IA:**\n  * Antes de enviar dados a terceiros, identifique classificação, finalidade, base legal, necessidade, condições contratuais, retenção e segurança. Não se presume autorização por a API estar disponível nem ilegalidade automática de todo uso de nuvem. Conteúdo sigiloso e dados sensíveis exigem os controles/regras pertinentes, sem atribuir proibição interna não documentada.\n\n**Aplicação e recuperação:** Em mil documentos, 900 são da classe A. Um sistema que responde sempre A atinge 90% de acurácia e não reconhece nenhum dos cem da classe B. Examine matriz de confusão, precisão/revocação/F1 por classe, erros críticos e dados fora da distribuição. Volume total ou média alta não provam equidade, adequação jurídica ou neutralidade terminológica.",
+  teoriaDidaticaMarkdown: "### Revisão: avalie por tarefa e por erro\n\nExtração não elimina omissão enganosa; geração não garante síntese fiel. OCR pesquisável não certifica PDF/A. CER/WER exigem referência, alinhamento e unidade; CER pode superar 100%. Controle duplicatas, versões e vazamento; percentuais de partição não são universais. Datasheet documenta dados; model card, modelo e avaliação. RAG precisa de exame de recuperação, fidelidade e correção temporal, além de resposta adequada. Médias podem ocultar falha em minorias; supervisão deve conferir evidência e erros críticos, sem presumir neutralidade por volume ou tecnologia.\n",
   checkpoints: [
-    {
-      id: 'cp-6-7-1',
-      pergunta: 'Micro-Checkpoint 1: Arquitetura RAG e o Controle de Alucinações',
-      item: 'A adoção da arquitetura de geração aumentada por recuperação (RAG) em bibliotecas digitais tem como finalidade primordial fundamentar as respostas do modelo de linguagem em evidências documentais extraídas de bases institucionais confiáveis, reduzindo significativamente as alucinações, embora não elimine por completo o risco de geração de imprecisões factuais pelo modelo generativo.',
-      gabarito: 'C',
-      justificativa:
-        'Correto! O RAG (Lewis et al., 2020) ancora a geração em fontes externas fornecidas no prompt, reduzindo alucinações factuais de forma expressiva; contudo, a literatura e a prática técnica reconhecem que o risco residual de inferências incorretas ou alucinações não é eliminado a zero.',
-    },
-    {
-      id: 'cp-6-7-2',
-      pergunta: 'Micro-Checkpoint 2: Documentação de Dados e Modelos (Datasheets e Model Cards)',
-      item: 'Segundo os padrões consagrados na literatura de ética e governança de inteligência artificial, o instrumento denominado Model Card é utilizado precipuamente para catalogar a proveniência e a coleta de dados de um dataset bruto, ao passo que o Datasheet for Datasets destina-se a reportar os hiperparâmetros de treinamento e as métricas de inferência de um modelo de aprendizado de máquina.',
-      gabarito: 'E',
-      justificativa:
-        'Errado! Os conceitos foram invertidos: "Datasheets for Datasets" (Gebru et al., 2018) destina-se a documentar o conjunto de DADOS (motivação, composição, coleta, usos recomendados); "Model Cards for Model Reporting" (Mitchell et al., 2019) destina-se a documentar os MODELOS treinados (arquitetura, limitações, métricas e casos de uso).',
-    },
-    {
-      id: 'cp-6-7-3',
-      pergunta: 'Micro-Checkpoint 3: Volume de Dados Massivo e Neutralização de Vieses',
-      item: 'Em projetos de inteligência artificial voltados à organização de acervos governamentais, a expansão quantitativa de um corpus textual para a escala de bilhões de palavras dispensa a necessidade de documentação qualitativa e auditoria de proveniência, uma vez que a representatividade matemática de grandes volumes de dados neutraliza automaticamente quaisquer vieses históricos e terminológicos.',
-      gabarito: 'E',
-      justificativa:
-        'Errado! Aumentar arbitrariamente o volume de um corpus textual sem curadoria crítica e auditoria qualitativa não neutraliza vieses; pelo contrário, modelos treinados em grandes volumes não filtrados da internet absorvem, amplificam e perpetuam preconceitos históricos, disparidades linguísticas e distorções terminológicas.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-6-7-1',
-        periodo: '2018 / 2019',
-        disciplina: 'Transparência e Governança de IA',
-        focoPrincipal: 'Proposição dos frameworks "Datasheets for Datasets" e "Model Cards for Model Reporting"',
-        figuraChave: 'Timnit Gebru e Margaret Mitchell',
-      },
-      {
-        id: 'tl-6-7-2',
-        periodo: '2020',
-        disciplina: 'Arquitetura RAG e Recuperação Semântica',
-        focoPrincipal: 'Publicação do artigo seminal sobre Retrieval-Augmented Generation (NeurIPS)',
-        figuraChave: 'Patrick Lewis et al. (Facebook AI / UCL)',
-      },
-      {
-        id: 'tl-6-7-3',
-        periodo: '2021 / 2024',
-        disciplina: 'Ética e Regulação de IA',
-        focoPrincipal: 'Consolidação de auditorias de viés algorítmico, marcos regulatórios globais e Human-in-the-Loop',
-        figuraChave: 'Kate Crawford / Comunidade Científica de IA',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-6-7-1',
-        nome: 'Timnit Gebru et al.',
-        ano: 2018,
-        obraPrincipal: 'Datasheets for Datasets (Communications of the ACM, 2021)',
-        ideiaChave: 'Ficha técnica padronizada documentando motivação, composição, processo de coleta e usos recomendados de conjuntos de dados.',
-        chipPegadinha: 'Datasheet documenta o DATASET (dados); Model Card documenta o MODELO de IA.',
-      },
-      {
-        id: 'aut-6-7-2',
-        nome: 'Patrick Lewis et al.',
-        ano: 2020,
-        obraPrincipal: 'Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (NeurIPS)',
-        ideiaChave: 'Arquitetura RAG combinando recuperação densa de trechos documentais com modelos generativos pré-treinados.',
-        chipPegadinha: 'RAG reduz alucinações ancorando em evidências, mas não garante a sua eliminação absoluta.',
-      },
-      {
-        id: 'aut-6-7-3',
-        nome: 'Margaret Mitchell et al.',
-        ano: 2019,
-        obraPrincipal: 'Model Cards for Model Reporting (FAT* 2019)',
-        ideiaChave: 'Relatório estruturado de transparência para modelos de aprendizado de máquina, detalhando limitações, métricas e casos de uso intencionais.',
-        chipPegadinha: 'O Model Card exige explicitar onde o modelo NÃO deve ser empregado.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-6-7-1',
-        afirmacao: 'A técnica de sumarização abstrativa de textos documentais caracteriza-se pela cópia literal e justaposição de fragmentos pré-existentes no texto original, não apresentando qualquer risco de distorção semântica.',
-        gabarito: 'E',
-        porQue: 'A técnica que copia trechos literais é a sumarização EXTRATIVA; a sumarização ABSTRATIVA gera novas orações e paráfrases, sujeitando-se a riscos de alucinação e distorção semântica.',
-      },
-      {
-        id: 'peg-6-7-2',
-        afirmacao: 'O emprego da arquitetura RAG elimina por completo a necessidade de validação humana das respostas geradas pelo modelo de inteligência artificial em unidades de informação jurídica.',
-        gabarito: 'E',
-        porQue: 'A supervisão humana (Human-in-the-Loop) permanece indispensável, pois o modelo ainda pode cometer erros de interpretação ou alucinar inferências a partir dos textos recuperados.',
-      },
-      {
-        id: 'peg-6-7-3',
-        afirmacao: 'Na avaliação de qualidade de OCR e HTR, a métrica CER (Character Error Rate) mensura o percentual de palavras grafadas incorretamente no texto resultante da transcrição digital.',
-        gabarito: 'E',
-        porQue: 'O CER mensura a taxa de erro no nível de CARACTERES (letras/símbolos); a métrica que avalia palavras inteiras é o WER (Word Error Rate).',
-      },
-    ],
+  {
+    "id": "cp-6-7-1",
+    "pergunta": "Micro-Checkpoint 1: Arquitetura RAG e o Controle de Alucinações",
+    "item": "RAG busca apoiar a geração em evidências recuperadas e pode reduzir certos erros, mas não elimina necessariamente imprecisões, omissões ou inadequação temporal da resposta.",
+    "gabarito": "C",
+    "justificativa": "O resultado depende do corpus, recuperação, contexto, gerador e avaliação. Não se atribui redução significativa universal sem experimento pertinente.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação."
   },
+  {
+    "id": "cp-6-7-2",
+    "pergunta": "Micro-Checkpoint 2: Documentação de Dados e Modelos (Datasheets e Model Cards)",
+    "item": "Segundo os padrões consagrados na literatura de ética e governança de inteligência artificial, o instrumento denominado Model Card é utilizado precipuamente para catalogar a proveniência e a coleta de dados de um dataset bruto, ao passo que o Datasheet for Datasets destina-se a reportar os hiperparâmetros de treinamento e as métricas de inferência de um modelo de aprendizado de máquina.",
+    "gabarito": "E",
+    "justificativa": "Datasheet é voltado ao conjunto de dados e suas condições; model card, ao modelo, uso e avaliação. Há informação relacionada, mas as finalidades não se invertem.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "versao_correta": "Datasheet documenta dados; model card documenta modelo e condições de avaliação/uso."
+  },
+  {
+    "id": "cp-6-7-3",
+    "pergunta": "Micro-Checkpoint 3: Volume de Dados Massivo e Neutralização de Vieses",
+    "item": "Em projetos de inteligência artificial voltados à organização de acervos governamentais, a expansão quantitativa de um corpus textual para a escala de bilhões de palavras dispensa a necessidade de documentação qualitativa e auditoria de proveniência, uma vez que a representatividade matemática de grandes volumes de dados neutraliza automaticamente quaisquer vieses históricos e terminológicos.",
+    "gabarito": "E",
+    "justificativa": "Mais dados não garantem representatividade nem neutralizam vieses. É preciso documentar composição, proveniência e desempenho por grupos/tarefas.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "versao_correta": "Volume não substitui curadoria, documentação e avaliação de vieses."
+  },
+  {
+    "id": "rt-6-7-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um resumo extrativo não pode induzir erro porque usa apenas frases do documento.",
+    "gabarito": "E",
+    "justificativa": "Omissão, concatenação e perda de condição/referente podem alterar a interpretação.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "editalRef": "Bloco C - Item 2.1 a 2.10",
+    "habilidade": "aplicar",
+    "versao_correta": "Extração não garante fidelidade de seleção e contexto."
+  },
+  {
+    "id": "rt-6-7-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "CER de 15 erros de edição em referência com 100 caracteres corresponde a 15%, no alinhamento definido.",
+    "gabarito": "C",
+    "justificativa": "Substituições, deleções e inserções são divididas pelo comprimento da referência.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "editalRef": "Bloco C - Item 2.1 a 2.10",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-7-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma taxa de erro de caracteres não pode exceder 100%, independentemente do número de inserções.",
+    "gabarito": "E",
+    "justificativa": "Inserções podem superar o comprimento da referência.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "editalRef": "Bloco C - Item 2.1 a 2.10",
+    "habilidade": "aplicar",
+    "versao_correta": "CER pode exceder 100% com muitas inserções."
+  },
+  {
+    "id": "rt-6-7-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Separar arquivos aleatoriamente garante teste independente mesmo quando versões quase idênticas estão no treino e teste.",
+    "gabarito": "E",
+    "justificativa": "Duplicatas e versões relacionadas podem vazar informação; é preciso examinar unidades de separação.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "editalRef": "Bloco C - Item 2.1 a 2.10",
+    "habilidade": "aplicar",
+    "versao_correta": "A independência exige controlar duplicatas, versões e outros vínculos."
+  },
+  {
+    "id": "rt-6-7-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma acurácia global de 90% pode coexistir com ausência total de reconhecimento de uma classe minoritária.",
+    "gabarito": "C",
+    "justificativa": "No caso de 90% de classe majoritária, predizer sempre essa classe produz a média alta e revocação zero na outra.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "editalRef": "Bloco C - Item 2.1 a 2.10",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-7-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma resposta fiel a fonte desatualizada pode falhar quanto à correção para a data perguntada.",
+    "gabarito": "C",
+    "justificativa": "Fundamentação no contexto não substitui adequação temporal e material.",
+    "fonte": "Gebru et al., Datasheets for Datasets (2021); Mitchell et al., Model Cards (2019); Lewis et al., RAG (2020); documentação CER; LGPD, arts. 6º–7º, 11 e 23–30; exemplos autorais de avaliação.",
+    "editalRef": "Bloco C - Item 2.1 a 2.10",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-7-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O uso de dados públicos para treinar IA afasta automaticamente os deveres de finalidade e necessidade da LGPD.",
+    "gabarito": "E",
+    "justificativa": "Publicidade não equivale a dispensa geral das condições de tratamento.",
+    "fonte": "Gebru et al. — Datasheets for Datasets",
+    "editalRef": "Bloco C - Item 2.1 a 2.10",
+    "habilidade": "aplicar",
+    "versao_correta": "O tratamento de dados pessoais públicos continua sujeito às condições e aos princípios aplicáveis."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-6-7-fonte-datasheets",
+      "nome": "Gebru et al. — Datasheets for Datasets",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Gebru et al. — Datasheets for Datasets",
+      "ideiaChave": "Motivação, composição, coleta, usos e manutenção do conjunto.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-7-fonte-cards",
+      "nome": "Mitchell et al. — Model Cards for Model Reporting",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Mitchell et al. — Model Cards for Model Reporting",
+      "ideiaChave": "Uso pretendido, avaliação desagregada e limitações.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-7-fonte-rag",
+      "nome": "Lewis et al. — Retrieval-Augmented Generation",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lewis et al. — Retrieval-Augmented Generation",
+      "ideiaChave": "Arquitetura e resultados experimentais, sem garantia universal.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-7-fonte-cer",
+      "nome": "Hugging Face Evaluate — CER",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Hugging Face Evaluate — CER",
+      "ideiaChave": "Cálculo, referência e possibilidade de resultado superior a um.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-7-fonte-lgpd",
+      "nome": "Lei 13.709/2018 — LGPD",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 13.709/2018 — LGPD",
+      "ideiaChave": "Finalidade, necessidade e condições do tratamento público.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-6-7-5",
+      "afirmacao": "Uma acurácia global de 90% pode coexistir com ausência total de reconhecimento de uma classe minoritária.",
+      "gabarito": "C",
+      "porQue": "No caso de 90% de classe majoritária, predizer sempre essa classe produz a média alta e revocação zero na outra."
+    },
+    {
+      "id": "memoria-rt-6-7-6",
+      "afirmacao": "Uma resposta fiel a fonte desatualizada pode falhar quanto à correção para a data perguntada.",
+      "gabarito": "C",
+      "porQue": "Fundamentação no contexto não substitui adequação temporal e material."
+    },
+    {
+      "id": "memoria-rt-6-7-7",
+      "afirmacao": "O uso de dados públicos para treinar IA afasta automaticamente os deveres de finalidade e necessidade da LGPD.",
+      "gabarito": "E",
+      "porQue": "Publicidade não equivale a dispensa geral das condições de tratamento."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-6-7-bloco-1",
+    "titulo": "Aplicações de IA e Processamento de Linguagem Natural (PLN) na Gestão Documental",
+    "objetivos": [
+      "Escolher tarefa e reconhecer riscos de síntese."
+    ],
+    "conteudo": "A aplicação de técnicas de **Inteligência Artificial (IA)** e **Processamento de Linguagem Natural (PLN)** em bibliotecas e arquivos legislativos transforma radicalmente os fluxos de tratamento, análise e disseminação da informação:\n\n* **1. Aprendizado Supervisionado na Gestão da Informação:**\n  * O modelo é treinado com um conjunto de dados rotulado segundo o método; os rótulos podem ter diferentes processos de produção e precisam de qualidade/documentação (pares de entrada e saída esperada).\n  * *Classificação Automática de Documentos:* Atribuição automática de classes documentais (ex.: classificar uma petição como \"Recurso\", \"Consulta\" ou \"Denúncia\").\n  * *Reconhecimento de Entidades Nomeadas (NER - Named Entity Recognition):* Identificação e extração automatizada de entidades discretas em textos legislativos:\n    * Nomes de parlamentares e autoridades públicas;\n    * Nomes de órgãos da administração pública e entidades federativas;\n    * Citações expressas a normas jurídicas (ex.: \"Lei nº 14.133/2021\", \"art. 5º da CF/88\").\n\n* **2. Aprendizado Não Supervisionado na Gestão da Informação:**\n  * O algoritmo processa dados não rotulados para identificar padrões latentes, agrupamentos naturais ou reduções dimensionais.\n  * *Agrupamento Temático (Clustering):* Agregação de discursos parlamentares por similaridade semântica vetorial, sem categorização prévia.\n  * *Modelagem de Tópicos (Topic Modeling com LDA / BERTopic):* Descoberta automatizada dos temas latentes discutidos em milhões de proposições legislativas ao longo de uma década.\n\n* **3. Sumarização Automática: Extrativa vs. Abstrativa:**\n  * *Sumarização Extrativa:*\n    * O algoritmo pontua e extrai **frases e trechos literais originais** do próprio documento, concatenando-os para formar o resumo executivo.\n    * *Vantagens e Desvantagens:* Extrai material existente, mas a seleção/concatenação pode omitir condições, perder referentes e induzir sentido enganoso. Não há risco zero de erro factual da síntese, porém pode produzir textos com quebras de coesão e fluidez.\n  * *Sumarização Abstrativa:*\n    * O modelo generativo (como um LLM) processa a entrada e **redige um novo texto de síntese com suas próprias palavras e estruturas sintáticas**.\n    * *Vantagens e Desvantagens:* Gera resumos altamente fluídos, coesos e adaptados ao público leitor, mas carrega o risco intrínseco de **alucinações factuais**, omissões sutis de condicionantes legais e perda de nuances semânticas.\n\n**Aplicação e recuperação:** O documento diz “não se aplica aos contratos anteriores”. Um resumo extrativo conserva só “se aplica aos contratos anteriores” após corte indevido: usar palavras da fonte não garante fidelidade da seleção. NER detecta menção, mas ligar a menção à entidade correta é tarefa adicional. Classificação e extração também podem usar regras, sem um único método obrigatório.",
+    "checkpointIds": [
+      "cp-6-7-1",
+      "rt-6-7-1"
+    ]
+  },
+  {
+    "id": "sub-6-7-bloco-2",
+    "titulo": "Digitalização Avançada: OCR (Impresso) e HTR (Manuscrito)",
+    "objetivos": [
+      "Aplicar OCR/HTR e calcular erro com referência definida."
+    ],
+    "conteudo": "A preservação e o acesso a acervos históricos parlamentares dependem de tecnologias de visão computacional e reconhecimento de caracteres:\n\n* **1. OCR (Optical Character Recognition - Reconhecimento Óptico de Caracteres):**\n  * Converte imagens rasterizadas de **textos impressos ou tipografados** (documentos datilografados, livros impressos, diários oficiais) em texto digital pesquisável e codificado (UTF-8).\n  * Pode criar uma camada de texto num **PDF pesquisável**, que não é automaticamente conforme a um perfil PDF/A, que sobrepõe à imagem escaneada uma camada invisível de texto correspondente, permitindo busca booleana e cópia de trechos.\n\n* **2. HTR (Handwritten Text Recognition - Reconhecimento de Manuscritos):**\n  * Tecnologia avançada baseada em redes neurais profundas (CNNs e Transformers) projetada para reconhecer **escrita manual, caligrafias históricas e documentos paleográficos**.\n  * Aplicável, em cenário hipotético, a acervos de obras raras e documentos históricos (ex.: atas manuscritas da Assembleia Geral Constituinte do Império de 1823).\n\n* **3. Métricas Padronizadas de Acurácia em OCR/HTR:**\n  * **Taxa de Erro de Caracteres (CER - Character Error Rate):**\n    $\\text{CER} = \\frac{S + D + I}{N}$\n    Onde:\n    * $S$ = Substituições (caracteres trocados incorretamente);\n    * $D$ = Deleções (caracteres omitidos pelo leitor);\n    * $I$ = Inserções (caracteres espúrios adicionados);\n    * $N$ = Número total de caracteres no texto de referência (*ground truth*).\n  * **Taxa de Erro de Palavras (WER - Word Error Rate):**\n    * Mensura a proporção de palavras inteiras que sofreram falhas na transcrição.\n  * *Human-in-the-Loop (HITL):* A decisão sobre automação, amostragem e revisão deve considerar risco e finalidade. Não se declara inexistente toda operação automática: é necessário planejar controle e corrigir erros relevantes, especialmente em usos jurídicos/patrimoniais.\n\n**Aplicação e recuperação:** Referência com 100 caracteres; oito substituições, duas deleções e cinco inserções: CER = 15/100 = 15%. Muitas inserções podem levar a CER acima de 100%, pois o denominador é a referência. WER usa unidades de palavra, com alinhamento e regras de tokenização; não equivale à porcentagem de páginas corretas. Ignorar um “não” pode ser grave mesmo com CER global baixo.",
+    "checkpointIds": [
+      "rt-6-7-2",
+      "rt-6-7-3"
+    ]
+  },
+  {
+    "id": "sub-6-7-bloco-3",
+    "titulo": "Curadoria de Dados e Governança de Corpora para IA",
+    "objetivos": [
+      "Documentar corpus e impedir vazamento entre conjuntos."
+    ],
+    "conteudo": "A integridade e a confiabilidade de qualquer sistema de IA dependem estritamente da qualidade do seu corpus de dados de treinamento e avaliação:\n\n#### A. O Ciclo de Curadoria de Corpora\n1. **Seleção e Aquisição:** Coleta orientada a fins de pesquisa com critérios explícitos de representatividade e legalidade (respeito aos direitos autorais da Lei nº 9.610/1998 e à LGPD).\n2. **Limpeza e Normalização:** Remoção de caracteres de controle, correção de codificação (UTF-8), expurgo de ruídos de digitalização e eliminação de duplicatas (*deduplication*).\n3. **Anotação e Rotulagem:** Inserção de metadados semânticos e etiquetas de classe segundo diretrizes rigorosas (*guidelines*) com cálculo de concordância entre anotadores (ex.: Coeficiente Kappa de Cohen).\n4. **Particionamento Metodológico do Dataset:**\n   * *Conjunto de Treinamento (Training Set — proporção a definir):* Utilizado para ajustar os parâmetros e pesos matemáticos do modelo.\n   * *Conjunto de Validação / Desenvolvimento (Validation / Dev Set — proporção a definir):* Utilizado para ajuste de hiperparâmetros e prevenção de superajuste (*overfitting*).\n   * *Conjunto de Teste (Test Set — proporção a definir):* **Dados mantidos estritamente isolados**, nunca vistos pelo modelo durante o treino, utilizados para avaliação final do desempenho. Independência exige verificar duplicatas, versões, pessoas/grupos e vazamento, não apenas separar arquivos aleatoriamente.\n\n#### B. Documentação Padronizada: Datasheets e Model Cards\nA literatura contemporânea de ética e governança de dados consagrou instrumentos de transparência audital:\n* **Datasheets for Datasets (Timnit Gebru et al., 2018/2021):**\n  * Documento formal que acompanha cada conjunto de dados publicado, detalhando:\n    * Motivação da criação do dataset e financiamento;\n    * Composição dos dados (atributos, presença de PII / dados pessoais, tamanho);\n    * Processo de coleta e consentimento de titulares;\n    * Pré-processamento e limpeza aplicados;\n    * Casos de uso recomendados e **usos expressamente desaconselhados**.\n* **Model Cards for Model Reporting (Margaret Mitchell et al., 2019):**\n  * Documentação transparente que acompanha modelos de IA treinados, explicitando:\n    * Detalhes do modelo (arquitetura, desenvolvedores, data);\n    * Usuários pretendidos e tarefas intencionais;\n    * Fatores de desempenho e métricas em subpopulações;\n    * Dados de treinamento e dados de avaliação;\n    * Limitações éticas, vieses conhecidos e advertências de segurança.\n\n**Aplicação e recuperação:** Duas versões quase idênticas de uma lei entram uma no treino e outra no teste. Separar arquivos não remove vazamento. Agrupe versões e escolha divisão temporal/por fonte quando adequada. Não existe proporção 80/10/10 universalmente superior; tamanho, distribuição e finalidade orientam o desenho. Datasheet documenta os dados; model card documenta o modelo e seu uso/avaliação.",
+    "checkpointIds": [
+      "cp-6-7-2",
+      "cp-6-7-3",
+      "rt-6-7-4"
+    ]
+  },
+  {
+    "id": "sub-6-7-bloco-4",
+    "titulo": "Avaliação de Modelos de Linguagem e Sistemas RAG",
+    "objetivos": [
+      "Avaliar recuperação, fundamentação e adequação da resposta."
+    ],
+    "conteudo": "A arquitetura **RAG (Retrieval-Augmented Generation - Patrick Lewis et al., NeurIPS 2020)** combina um modelo de recuperação documental (*retriever*) com um modelo gerador (*LLM*):\n\n```\n[Usuário Faz Pergunta] \n        │\n        ▼\n[Mecanismo de Busca Vetorial / Retriever] ──> [Base de Documentos Oficiais / LexML]\n        │                                           │\n        ▼                                           ▼\n[Fragmentos Relevantes Recuperados (Contexto Chunks)]\n        │\n        ▼\n[Prompt Enriquecido: Contexto + Pergunta] ──> [Modelo de Linguagem (LLM)]\n                                                    │\n                                                    ▼\n                                            [Resposta Ancorada]\n```\n\n#### A. A Tríade de Avaliação RAG\nPara auditar a confiabilidade de um sistema RAG em ambiente parlamentar, avaliam-se três pilares interdependentes:\n1. **Fidelidade / Fundamentação em Fonte (Faithfulness / Groundedness):**\n   * Mensura se todas as afirmações presentes na resposta final encontram respaldo direto nos fragmentos de contexto que foram fornecidos no prompt.\n   * Respostas que inventam artigos de leis não presentes nos chunks recuperados são penalizadas como **alucinações**.\n2. **Relevância do Contexto (Context Relevance):**\n   * Avalia se os documentos recuperados pelo retriever são pertinentes e suficientes para sanar a dúvida do usuário, evitando o envio de trechos irrelevantes que poluam a janela de contexto.\n3. **Relevância da Resposta (Answer Relevance):**\n   * Avalia se a resposta atende pontualmente ao que foi questionado pelo usuário, sem desviar do foco temático.\n\n#### B. O Papel do Bibliotecário e Human-in-the-Loop (HITL)\nEmbora recuperação possa apoiar a geração e reduzir certos erros em avaliações específicas, ele **não é à prova de falhas**. A curadoria das bases de vetores, a fragmentação semântica (*chunking strategy*) e a validação final por profissionais da informação são decisões de projeto e governança a justificar conforme risco e regras aplicáveis; não se inventa uma obrigação legal universal para cada técnica.\n\n**Aplicação e recuperação:** Uma resposta pode ser fiel a fonte revogada e ainda errar a pergunta atual. Outra recupera fonte pertinente, mas não segue seu conteúdo. Avalie separadamente recuperação, fidelidade, correção temporal, completude e atendimento ao usuário. Uma tríade de métricas é ferramenta, não certificação universal. Registre também casos em que a evidência é insuficiente e o sistema deve abster-se.",
+    "checkpointIds": [
+      "rt-6-7-5",
+      "rt-6-7-6"
+    ]
+  },
+  {
+    "id": "sub-6-7-bloco-5",
+    "titulo": "Vieses Algorítmicos, Ética e Governança no Setor Público",
+    "objetivos": [
+      "Distinguir tipos de viés e responsabilidades."
+    ],
+    "conteudo": "A governança responsável de IA na administração pública exige a compreensão crítica dos tipos de vieses:\n\n* **1. Viés de Dados (Data Bias / Amostragem Histórica):**\n  * Decorre de distorções históricas presentes nos dados documentais do passado. Por exemplo, treinar um modelo de indexação com acervos bibliográficos do século XIX pode perpetuar terminologias preconceituosas ou categorias obsoletas se não houver mediação curatorial.\n* **2. Viés de Algoritmo (Algorithmic Bias):**\n  * Surge quando a função de otimização matemática do modelo prioriza padrões predominantes da maioria, marginalizando minorias ou outliers legítimos.\n* **3. Viés de automação e confirmação: mecanismos distintos:**\n  * Viés de automação envolve confiar excessivamente em saída automática; confirmação envolve favorecer evidências que sustentam crença prévia. Ambos podem ocorrer na mesma tarefa. Operadores podem confiar nas decisões ou sugestões emitidas pelo sistema automatizado, deixando de exercer o senso crítico e a checagem manual de evidências.\n* **4. Segurança e LGPD em Prompts de IA:**\n  * Antes de enviar dados a terceiros, identifique classificação, finalidade, base legal, necessidade, condições contratuais, retenção e segurança. Não se presume autorização por a API estar disponível nem ilegalidade automática de todo uso de nuvem. Conteúdo sigiloso e dados sensíveis exigem os controles/regras pertinentes, sem atribuir proibição interna não documentada.\n\n**Aplicação e recuperação:** Em mil documentos, 900 são da classe A. Um sistema que responde sempre A atinge 90% de acurácia e não reconhece nenhum dos cem da classe B. Examine matriz de confusão, precisão/revocação/F1 por classe, erros críticos e dados fora da distribuição. Volume total ou média alta não provam equidade, adequação jurídica ou neutralidade terminológica.",
+    "checkpointIds": [
+      "rt-6-7-7"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "datasheets",
+    "titulo": "Gebru et al. — Datasheets for Datasets",
+    "localizador": "Motivação, composição, coleta, usos e manutenção do conjunto.",
+    "url": "https://arxiv.org/abs/1803.09010"
+  },
+  {
+    "id": "cards",
+    "titulo": "Mitchell et al. — Model Cards for Model Reporting",
+    "localizador": "Uso pretendido, avaliação desagregada e limitações.",
+    "url": "https://arxiv.org/abs/1810.03993"
+  },
+  {
+    "id": "rag",
+    "titulo": "Lewis et al. — Retrieval-Augmented Generation",
+    "localizador": "Arquitetura e resultados experimentais, sem garantia universal.",
+    "url": "https://arxiv.org/abs/2005.11401"
+  },
+  {
+    "id": "cer",
+    "titulo": "Hugging Face Evaluate — CER",
+    "localizador": "Cálculo, referência e possibilidade de resultado superior a um.",
+    "url": "https://huggingface.co/spaces/evaluate-metric/cer/blob/main/README.md"
+  },
+  {
+    "id": "lgpd",
+    "titulo": "Lei 13.709/2018 — LGPD",
+    "localizador": "Finalidade, necessidade e condições do tratamento público.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html"
+  }
+],
 };

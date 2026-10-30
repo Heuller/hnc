@@ -8,263 +8,183 @@ export const submodulo118: ModuloFilho = {
   titulo: 'Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública',
   titulo_curto: 'Modelos de Gestão e NPG',
   antesDeLer: [
-    {
-      termo: 'Modelos de Administração Pública',
-      definicao: 'Evolução histórica da gestão pública: Patrimonialismo (confusão público-privado), Burocracia (regras e impessoalidade) e Gerencialismo (resultados).',
-      exemploBiblioteca: 'Transição da gestão de acervos focada em carimbos e fichários burocráticos para sistemas ágeis orientados à satisfação do usuário.',
-    },
-    {
-      termo: 'Burocracia Weberiana',
-      definicao: 'Modelo organizacional racional-legal baseado na hierarquia formal, divisão rigorosa do trabalho, regras escritas e meritocracia.',
-      exemploBiblioteca: 'O concurso público para bibliotecário como expressão pura do princípio weberiano da competência técnica comprovada.',
-    },
-    {
-      termo: 'Nova Gestão Pública (NPM)',
-      definicao: 'Movimento de reforma da década de 1990 que introduziu conceitos de gestão privada: foco no cidadão-cliente, eficiência e contratualização.',
-      exemploBiblioteca: 'Adoção de metas de satisfação e acordos de nível de serviço (SLA) para entrega de pesquisas legislativas aos deputados.',
-    },
-    {
-      termo: 'Nova Governança Pública (NPG)',
-      definicao: 'Paradigma contemporâneo baseado em redes de cooperação, coprodução de serviços públicos, transparência ativa e participação social.',
-      exemploBiblioteca: 'Projetos de ciência cidadã e transcrição colaborativa de acervos históricos com a participação da sociedade civil no portal da Câmara.',
-    },
-  ],
-  descricaoCurta: 'A transição histórica: Patrimonialismo (prebendas), Burocracia Weberiana (formalismo e disfunções) e Nova Gestão Pública (NPM e gerencialismo). Nova Governança Pública (NPG): ação em redes, coprodução do bem público e transparência ativa. O Valor Público de Mark Moore e a Cadeia de Valor.',
-  tempoEstimadoMinutos: 11,
+  {
+    "termo": "Produto e resultado",
+    "definicao": "Produto é entrega; resultado é mudança associada à intervenção/uso.",
+    "exemploBiblioteca": "Páginas digitalizadas são entrega; melhoria de acesso precisa de avaliação."
+  },
+  {
+    "termo": "Valor público",
+    "definicao": "Valor proposto deve ser articulado a ambiente autorizador e capacidade operacional.",
+    "exemploBiblioteca": "Uma solução tecnicamente viável ainda exige legitimidade e autorização."
+  }
+],
+  descricaoCurta: "Comparar modelos sem pressupor substituição histórica integral. Reconhecer rede, coordenação e coprodução. Relacionar proposta de valor, autorização e capacidade.",
+  tempoEstimadoMinutos: 16,
   autoresChave: [
-    'Max Weber (Burocracia)',
-    'Luiz Carlos Bresser-Pereira (PDRAE 1995)',
-    'Stephen Osborne (New Public Governance)',
-    'Mark Moore (Creating Public Value)',
-    'David Osborne & Ted Gaebler (Reinventando o Governo)',
-  ],
+  "Plano Diretor da Reforma do Aparelho do Estado — 1995",
+  "TCU — Referencial Básico de Governança Organizacional"
+],
   alertasCebraspe: [
-    'DIFERENÇA CRUCIAL: O NPM (New Public Management) foca na lógica de mercado, eficiência econômica, controle por resultados e trata o cidadão como "cliente/consumidor" de serviços públicos. A NPG (New Public Governance) foca em "redes de cooperação", coprodução, engajamento cívico, valores democráticos e trata o cidadão como "coprodutor ativo" do bem público!',
-    'DISFUNÇÕES DA BUROCRACIA (ROBERT MERTON): A burocracia weberiana é idealmente racional, mas gera disfunções práticas: apego exagerado aos regulamentos (o meio transforma-se em fim), despersonalização do relacionamento com os cidadãos, lentidão excessiva e resistência tenaz a inovações.',
-    'TRIÂNGULO ESTRATÉGICO DE MARK MOORE (VALOR PÚBLICO): Para que uma iniciativa do setor público seja sustentável e crie valor público real, exige-se a convergência equilibrada de três vértices: 1) Valor substantivo (o que a sociedade realmente deseja e necessita); 2) Sustentabilidade política e legitimidade legal (apoio de partes interessadas e respaldo normativo); 3) Viabilidade operacional e administrativa (capacidade técnica, humana e financeira de entregar).',
-    'CADEIA DE VALOR PÚBLICO: A técnica de distrator recorrente consiste em cobrar a distinção entre OUTPUT (produto físico imediato gerado pelo processo, ex.: 1.000 livros catalogados e disponibilizados no acervo da Câmara) e OUTCOME (resultado real e transformação experimentada pelo usuário, ex.: redução do tempo de elaboração de relatórios pelos parlamentares e aumento da qualidade dos pareceres legislativos).',
-  ],
-  quadroComparativo: {
-    titulo: 'Comparativo dos Três Paradigmas da Administração Pública Moderna',
-    colunas: ['Critério', 'Administração Burocrática (Weber)', 'Nova Gestão Pública (NPM - Gerencialismo)', 'Nova Governança Pública (NPG - Redes)'],
-    linhas: [
-      ['Foco Primordial', 'Processos, regras e controle formal a priori', 'Resultados, eficiência e controle por metas a posteriori', 'Relações sociais, coprodução, redes e valor público'],
-      ['Papel do Cidadão', 'Administrado / Usuário passivo subordinado à regra', 'Cliente / Consumidor de serviços públicos', 'Cidadão coprodutor e parceiro na formulação pública'],
-      ['Estrutura Organizacional', 'Hierárquica, centralizada, vertical e piramidal', 'Descentralizada, contratualizada em agências executivas', 'Redes policêntricas, colaborativas e horizontais'],
-      ['Mecanismo de Coordenação', 'Comando e controle hierárquico estrito da autoridade', 'Quase-mercados, terceirização e competição administrada', 'Confiança mútua, diálogo institucional e pactuação em rede'],
-      ['Conceito de Sucesso', 'Conformidade legal estrita aos regulamentos', 'Economia orçamentária e cumprimento de metas numéricas', 'Sustentabilidade social, equidade e valor público percebido'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Evolução Histórica dos Modelos de Gestão Pública
-
-O estudo da evolução da gestão pública reflete a busca contínua do Estado por legitimidade, combate à corrupção e eficácia social. Três modelos sucessivos e coexistentes marcaram essa trajetória:
-
-#### 1.1 O Modelo Patrimonialista
-Predominante nas monarquias absolutistas e no Brasil colonial e imperial:
-* **Características:** Total confusão entre o patrimônio público (*res publica*) e os bens privados do soberano (*res principis*). O Estado é gerido como propriedade privada do governante.
-* **Mecanismos Típicos:** Concessão de cargos públicos como benesses pessoais, sinecuras, prebendas hereditárias, corrupção institucionalizada, compadrio, clientelismo e nepotismo. Não há carreiras estruturadas nem concurso público.
-
-#### 1.2 O Modelo Burocrático (Racional-Legal de Max Weber)
-Nasce a partir da segunda metade do século XIX (e no Brasil na década de 1930 com a criação do DASP na Era Vargas) com o objetivo primordial de combater a corrupção e o clientelismo patrimonialista:
-* **Pilares Centrais:**
-  1. **Formalismo e Impessoalidade:** A autoridade decorre da lei e do cargo, e não da pessoa que o ocupa. Todos os atos são documentados por escrito.
-  2. **Hierarquia Rigorosa:** Linha verticalizada de comando, supervisão e subordinação de competências.
-  3. **Profissionalização e Meritocracia:** Ingresso exclusivamente por concurso público, remuneração fixa em tabela e estabilidade funcional.
-  4. **Controle *a priori* dos Processos:** Controle preventivo rígido de procedimentos e compras para evitar qualquer desvio.
-* **Disfunções da Burocracia (Merton, Selznick e Gouldner):**
-  * O cumprimento cego das regras torna-se o próprio fim da organização (*inversão de meios e fins*);
-  * Rigidez procedimental absoluta, aversão ao risco, despersonalização do atendimento e lentidão exasperante perante demandas novas da sociedade.
-
-#### 1.3 A Nova Gestão Pública (New Public Management - NPM)
-Emerge na década de 1980 na Grã-Bretanha e nos EUA, refletindo a crise fiscal do Estado e o esgotamento da burocracia rígida:
-* **Pilares e Diretrizes (David Osborne e Ted Gaebler - *Reinventando o Governo*):**
-  * **Foco no Cidadão-Cliente:** O cidadão é visto como consumidor que merece serviços públicos de alto padrão e satisfação.
-  * **Orientação para Resultados:** Substituição do controle *a priori* de processos pelo **controle *a posteriori* de metas e desempenhos**.
-  * **Descentralização e Desregulamentação:** Delegação de autonomia operacional com contratualização de resultados (contratos de gestão).
-  * **Introdução de Mecanismos de Mercado:** Parcerias, terceirização de atividades-meio, leilões competitivos e privatizações de setores não estratégicos.
-* **O Gerencialismo no Brasil (O PDRAE de 1995):**
-  * O Plano Diretor da Reforma do Aparelho do Estado, liderado por Bresser-Pereira, dividiu o Estado em 4 setores:
-    1. *Núcleo Estratégico:* Formulação de leis e políticas (Poderes da República, Presidência, Ministérios) - propriedade estatal obrigatória;
-    2. *Atividades Exclusivas do Estado:* Poder de polícia e fiscalização (agências reguladoras, diplomacia, Receita Federal);
-    3. *Serviços Não Exclusivos:* Educação, saúde, cultura, pesquisa, bibliotecas e museus (prestados concorrencialmente pelo Estado e pelo terceiro setor, via Organizações Sociais - OS e OSCIPs);
-    4. *Produção de Bens e Serviços para o Mercado:* Empresas estatais concorrenciais sujeitas a privatização.
-
----
-
-### 2. A Nova Governança Pública (New Public Governance - NPG)
-
-Formulada academicamente por **Stephen Osborne** nos anos 2000, a **Nova Governança Pública** nasce para superar as limitações do NPM (que fragmentou excessivamente o Estado em agências autônomas que competiam entre si e reduziu o cidadão à condição mercadológica de mero consumidor passivo):
-
-* **Ação Pública em Redes de Cooperação:** O governo não é mais o único detentor do monopólio da solução de problemas complexos ("problemas perversos" ou *wicked problems*, como sustentabilidade, inclusão digital e desinformação). O Estado atua como **nó central e orquestrador de redes híbridas** compostas por órgãos públicos, empresas privadas, universidades, terceiro setor e coletivos cidadãos.
-* **Coprodução do Bem Público:**
-  * Rompe com a visão de que o Estado produz e o cidadão consome.
-  * Cidadãos e sociedade civil participam ativamente do diagnóstico, desenho, execução e avaliação dos serviços públicos (ex.: curadoria comunitária de acervos orais da Biblioteca Parlamentar, plataformas de legislação colaborativa e hackathons cívicos).
-* **Transparência Ativa e Governo Aberto:**
-  * O poder público divulga dados abertos proativamente em formatos legíveis por máquina, promovendo o *accountability* democrático e o controle social permanente.
-
----
-
-### 3. A Teoria do Valor Público de Mark Moore
-
-Desenvolvida na Universidade de Harvard por **Mark Moore** (*Creating Public Value*), a teoria estabelece que o objetivo primordial de qualquer gestor público não é meramente cumprir o orçamento ou obedecer regras burocráticas, mas **gerar Valor Público** — entendido como o benefício real, tangível e intangível, que melhora a vida coletiva e fortalece a coesão democrática.
-
-#### 3.1 O Triângulo Estratégico de Moore
-Para que uma política pública ou projeto governamental seja sustentável, o gestor deve alinhar três vértices:
-1. **Valor Substantivo (Objetivo da Política):** O que a instituição está propondo tem utilidade real para a sociedade e gera valor público?
-2. **Sustentabilidade Política e Legalidade (Ambiente Autorizador):** O projeto conta com respaldo legal, legitimidade institucional, apoio dos parlamentares, dos órgãos de controle e dos cidadãos?
-3. **Capacidade Operacional (Capacidade de Entrega):** A organização dispõe de orçamento, sistemas de tecnologia, processos de trabalho e pessoal qualificado para realizar o que prometeu?
-
-#### 3.2 A Cadeia de Valor Público
-A transformação da ação governamental em impacto social percorre cinco etapas integradas:
-
-$$\\text{Insumos (Inputs)} \\longrightarrow \\text{Processos (Activities)} \\longrightarrow \\text{Produtos (Outputs)} \\longrightarrow \\text{Resultados (Outcomes)} \\longrightarrow \\text{Impacto Social (Impacts)}$$
-
-* **Insumos (*Inputs*):** Orçamento, servidores bibliotecários, computadores, instalações físicas da biblioteca.
-* **Processos (*Activities*):** Indexação, catalogação descritiva, curadoria e restauração de documentos parlamentares.
-* **Produtos (*Outputs*):** O número exato de obras indexadas e disponibilizadas para consulta imediata no portal LexML.
-* **Resultados (*Outcomes*):** O aumento na celeridade e na precisão técnica dos pareceres emitidos pelas comissões legislativas em virtude do acervo acessível.
-* **Impacto (*Impacts*):** Leis de melhor qualidade para o país e fortalecimento da confiança democrática da sociedade no Parlamento.`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Evolução da Administração Pública** compreende três modelos paradigmáticos sucessivos que moldaram o Estado moderno:
-1. **Modelo Patrimonialista (Monarquias / Estado Pré-Moderno):**
-   - Não há distinção entre a *res publica* (coisa pública) e a *res principis* (bens pessoais do soberano).
-   - O patrimônio do Estado é gerido como extensão da propriedade privada do governante.
-   - Cargos públicos são preenchidos por apadrinhamento, laços de sangue e nepotismo; corrupção e prebendas endêmicas.
-2. **Modelo Burocrático / Burocracia Weberiana (Max Weber - Início do Séc. XX):**
-   - Surge com a industrialização e a consolidação do Estado de Direito para combater a corrupção e o nepotismo patrimonialista.
-   - **Princípios Canônicos:** Formalismo rígido, legalidade estrita, impessoalidade absoluta, hierarquia verticalizada inflexível, controle prévio dos processos e profissionalização (concurso público e mérito).
-   - **Disfunções da Burocracia (Robert K. Merton):** O apego exagerado às regras e aos procedimentos burocráticos transforma os meios em fins; lentidão, rigidez decisória, aversão à mudança e perda de foco nas necessidades do cidadão.
-3. **Modelo Gerencial / Nova Gestão Pública (*New Public Management* - NPM):**
-   - Surge nas décadas de 1980 e 1990 (Governos Thatcher, Reagan e Plano Diretor da Reforma do Estado de Bresser-Pereira em 1995 no Brasil).
-   - Foco na **eficiência, resultados, flexibilidade gerencial e satisfação do cidadão-usuário**.
-   - Substituição do controle prévio de processos (*a priori*) pelo **controle de resultados a posteriori**.
-   - Descentralização, terceirização de serviços de apoio e contratualização de metas (Contratos de Gestão).
-4. **Nova Governança Pública (Pós-NPM / Governança Colaborativa):**
-   - Integração em rede entre Estado, mercado e sociedade civil, valorizando a coprodução do bem público, transparência, integridade e sustentabilidade democrática.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (A Burocracia Weberiana no Ingresso do Bibliotecário):** O concurso público de provas e títulos com critérios objetivos cego, pelo qual Richard é selecionado para o cargo de Analista Legislativo, representa a consagração do **modelo burocrático weberiano** profissional baseado estritamente na competência técnica e na impessoalidade.
-- **Cenário 2 (Administração Gerencial na Contratualização de Metas do CEDI):** O Centro de Documentação e Informação celebra um acordo de metas de desempenho com a Diretoria-Geral da Câmara (NPM / Modelo Gerencial): em troca de autonomia para gerir seus horários e recursos de digitalização, o CEDI compromete-se a entregar 100% dos relatórios solicitados pelas comissões no prazo de 48 horas, sendo avaliado pelos **resultados alcançados**.
-- **Cenário 3 (Governança Pública Colaborativa nos Hackathons da Câmara):** A Câmara abre seus dados orçamentários e de tramitação via API e promove hackathons com a sociedade civil e universidades para criar aplicativos de transparência cidadã, aplicando o modelo contemporâneo de **Nova Governança Pública**.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Modelo de Gestão | Foco Principal | Mecanismo de Controle | Relação com o Cidadão |
-| :--- | :--- | :--- | :--- |
-| **Patrimonialista** | Manutenção do poder e bens do soberano | Inexistente / Favoritismo | Súdito dependente de favor |
-| **Burocrático** | Combate à corrupção e nepotismo | Controle rígido de processos *a priori* | Administrado submetido à regra formal |
-| **Gerencial (NPM)** | Eficiência, eficácia e custos | Controle de resultados *a posteriori* | Cidadão-cliente de serviços públicos |
-| **Governança Pública** | Redes colaborativas e legitimidade | Transparência, integridade e *accountability* | Cidadão participante e cocriador |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **O Modelo Gerencial Elimina a Burocracia:** O Cebraspe afirma que o advento da administração gerencial aboliu por completo todos os princípios da burocracia no serviço público. **Gabarito: ERRADO.** O modelo gerencial apoia-se sobre as bases da burocracia (concurso público, carreira profissional e impessoalidade), flexibilizando apenas as rotinas de processos para focar em resultados.
-- **Controle no Modelo Burocrático vs. Gerencial:** Inverter os momentos de controle: a burocracia faz controle **a priori** (preventivo nos processos e carimbos); o modelo gerencial privilegia o controle **a posteriori** (nos resultados e metas).
-- **Disfunções de Merton:** Dizer que a rigidez burocrática é uma virtude desejada por Max Weber. **Gabarito: ERRADO.** O formalismo excessivo e a lentidão são **disfunções patológicas** da burocracia mapeadas por Robert Merton.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRESSER-PEREIRA, Luiz Carlos.** *Reforma do Estado para a Cidadania: a reforma gerencial brasileira na perspectiva internacional*. São Paulo: Editora 34; Brasília: ENAP, 1998. (O texto fundamental sobre a reforma gerencial no Brasil).
-- **WEBER, Max.** *Economia e Sociedade: fundamentos da sociologia compreensiva*. Brasília: Ed. UnB, 1999. v. 1 e 2. (A formulação clássica da Burocracia).
-- **OSBORNE, David; GAEBLER, Ted.** *Reinventando o Governo: como o espírito empreendedor está transformando o setor público*. 7. ed. Brasília: MH Comunicação, 1994.
-- **SECCHI, Leonardo.** Modelos organizacionais e reformas da administração pública. *Revista de Administração Pública (RAP)*, v. 43, n. 2, p. 347-369, 2009.
-- **BRASIL. MINISTÉRIO DA ADMINISTRAÇÃO FEDERAL E REFORMA DO ESTADO (MARE).** *Plano Diretor da Reforma do Aparelho do Estado*. Brasília: Presidência da República, 1995.`,
+  "A ênfase muda, mas não elimina legalidade e controles necessários.",
+  "Os três vértices precisam de alinhamento; capacidade de executar não legitima por si uma iniciativa.",
+  "A entrega pode ser observada sem que se tenha demonstrado o efeito posterior e sua causalidade."
+],
+  teoriaDensaMarkdown: "### Evolução Histórica dos Modelos de Gestão Pública\n\nO estudo da evolução da gestão pública reflete a busca contínua do Estado por legitimidade, combate à corrupção e eficácia social. Três modelos sucessivos e coexistentes marcaram essa trajetória:\n\n#### 1.1 O Modelo Patrimonialista\nPredominante nas monarquias absolutistas e no Brasil colonial e imperial:\n* **Características:** Total confusão entre o patrimônio público (*res publica*) e os bens privados do soberano (*res principis*). O Estado é gerido como propriedade privada do governante.\n* **Mecanismos Típicos:** Concessão de cargos públicos como benesses pessoais, sinecuras, prebendas hereditárias, corrupção institucionalizada, compadrio, clientelismo e nepotismo. Não há carreiras estruturadas nem concurso público.\n\n#### 1.2 O Modelo Burocrático (Racional-Legal de Max Weber)\nNasce a partir da segunda metade do século XIX (e no Brasil na década de 1930 com a criação do DASP na Era Vargas) com o objetivo primordial de combater a corrupção e o clientelismo patrimonialista:\n* **Pilares Centrais:**\n  1. **Formalismo e Impessoalidade:** A autoridade decorre da lei e do cargo, e não da pessoa que o ocupa. Ênfase na documentação, regras e previsibilidade; isso não significa que qualquer atividade humana na organização seja obrigatoriamente um documento escrito.\n  2. **Hierarquia Rigorosa:** Linha verticalizada de comando, supervisão e subordinação de competências.\n  3. **Profissionalização e Meritocracia:** Seleção por qualificação, carreira e profissionalização no modelo ideal; concurso e estabilidade no Brasil têm disciplina constitucional própria e não se aplicam universalmente a todo vínculo.\n  4. **Controle *a priori* dos Processos:** Controle preventivo rígido de procedimentos e compras para evitar qualquer desvio.\n* **Disfunções da Burocracia (Merton, Selznick e Gouldner):**\n  * O cumprimento cego das regras torna-se o próprio fim da organização (*inversão de meios e fins*);\n  * Rigidez procedimental absoluta, aversão ao risco, despersonalização do atendimento e lentidão exasperante perante demandas novas da sociedade.\n\n#### 1.3 A Nova Gestão Pública (New Public Management - NPM)\nEmerge na década de 1980 na Grã-Bretanha e nos EUA, refletindo a crise fiscal do Estado e o esgotamento da burocracia rígida:\n* **Pilares e Diretrizes (David Osborne e Ted Gaebler - *Reinventando o Governo*):**\n  * **Foco no Cidadão-Cliente:** O cidadão é visto como consumidor que merece serviços públicos de alto padrão e satisfação.\n  * **Orientação para Resultados:** Ênfase em **resultados e desempenho**, sem eliminar controles de legalidade, procedimentos ou controles prévios necessários.\n  * **Descentralização e Desregulamentação:** Delegação de autonomia operacional com contratualização de resultados (contratos de gestão).\n  * **Introdução de Mecanismos de Mercado:** Parcerias, terceirização de atividades-meio, leilões competitivos e privatizações de setores não estratégicos.\n* **O Gerencialismo no Brasil (O PDRAE de 1995):**\n  * O Plano Diretor da Reforma do Aparelho do Estado, liderado por Bresser-Pereira, dividiu o Estado em 4 setores:\n    1. *Núcleo Estratégico:* Formulação de leis e políticas (Poderes da República, Presidência, Ministérios) - propriedade estatal obrigatória;\n    2. *Atividades Exclusivas do Estado:* Poder de polícia e fiscalização (agências reguladoras, diplomacia, Receita Federal);\n    3. *Serviços Não Exclusivos:* Educação, saúde, cultura, pesquisa, bibliotecas e museus (prestados concorrencialmente pelo Estado e pelo terceiro setor, com discussão histórica de publicização e organizações sociais; OSCIP pertence a marco legal posterior, não é criação do PDRAE de 1995);\n    4. *Produção de Bens e Serviços para o Mercado:* Empresas estatais concorrenciais sujeitas a privatização.\n\n**Aplicação e recuperação:** Um órgão usa seleção profissional e também avalia metas: os modelos coexistem. Descrever controle de resultados não autoriza dispensar licitação ou garantias. Diferencie características do tipo ideal de Weber, disfunções observadas e regras jurídicas brasileiras; não atribua automaticamente toda demora ao conceito de burocracia.\n\n### A Nova Governança Pública (New Public Governance - NPG)\n\nFormulada academicamente por **Stephen Osborne** nos anos 2000, a **Nova Governança Pública** nasce para superar as limitações do NPM (que fragmentou excessivamente o Estado em agências autônomas que competiam entre si e reduziu o cidadão à condição mercadológica de mero consumidor passivo):\n\n* **Ação Pública em Redes de Cooperação:** O governo não é mais o único detentor do monopólio da solução de problemas complexos (\"problemas perversos\" ou *wicked problems*, como sustentabilidade, inclusão digital e desinformação). O Estado pode atuar na coordenação de **redes híbridas**, sem que todo arranjo tenha obrigatoriamente um único centro compostas por órgãos públicos, empresas privadas, universidades, terceiro setor e coletivos cidadãos.\n* **Coprodução do Bem Público:**\n  * Rompe com a visão de que o Estado produz e o cidadão consome.\n  * Cidadãos e sociedade civil participam ativamente do diagnóstico, desenho, execução e avaliação dos serviços públicos (ex.: curadoria comunitária de acervos orais da Biblioteca Parlamentar, plataformas de legislação colaborativa e hackathons cívicos).\n* **Transparência Ativa e Governo Aberto:**\n  * O poder público divulga dados abertos proativamente em formatos legíveis por máquina, promovendo o *accountability* democrático e o controle social permanente.\n\n**Aplicação e recuperação:** A biblioteca pede opinião numa pesquisa: há participação, mas coprodução exige examinar como cidadãos contribuem para produzir o serviço/resultado. Uma rede de bibliotecas pode coordenar recursos sem competição mercantil. NPG é lente analítica, não promessa de que toda rede é inclusiva ou eficiente; conflitos e responsabilização permanecem.\n\n### A Teoria do Valor Público de Mark Moore\n\nDesenvolvida na Universidade de Harvard por **Mark Moore** (*Creating Public Value*), a teoria estabelece que o objetivo primordial de qualquer gestor público não é meramente cumprir o orçamento ou obedecer regras burocráticas, mas **gerar Valor Público** — entendido como o benefício real, tangível e intangível, que melhora a vida coletiva e fortalece a coesão democrática.\n\n#### 3.1 O Triângulo Estratégico de Moore\nPara que uma política pública ou projeto governamental seja sustentável, o gestor deve alinhar três vértices:\n1. **Valor Substantivo (Objetivo da Política):** O que a instituição está propondo tem utilidade real para a sociedade e gera valor público?\n2. **Sustentabilidade Política e Legalidade (Ambiente Autorizador):** O projeto conta com respaldo legal, legitimidade institucional, apoio dos parlamentares, dos órgãos de controle e dos cidadãos?\n3. **Capacidade Operacional (Capacidade de Entrega):** A organização dispõe de orçamento, sistemas de tecnologia, processos de trabalho e pessoal qualificado para realizar o que prometeu?\n\n#### 3.2 A Cadeia de Valor Público\nA transformação da ação governamental em impacto social percorre cinco etapas integradas:\n\n$$\\text{Insumos (Inputs)} \\longrightarrow \\text{Processos (Activities)} \\longrightarrow \\text{Produtos (Outputs)} \\longrightarrow \\text{Resultados (Outcomes)} \\longrightarrow \\text{Impacto Social (Impacts)}$$\n\n* **Insumos (*Inputs*):** Orçamento, servidores bibliotecários, computadores, instalações físicas da biblioteca.\n* **Processos (*Activities*):** Indexação, catalogação descritiva, curadoria e restauração de documentos parlamentares.\n* **Produtos (*Outputs*):** Quantidade de obras indexadas e disponibilizadas no serviço delimitado; LexML é uma rede/portal de informação jurídica, não o destino obrigatório de toda catalogação.\n* **Resultados (*Outcomes*):** O aumento na celeridade e na precisão técnica dos pareceres emitidos pelas comissões legislativas em virtude do acervo acessível.\n* **Impacto (*Impacts*):** Leis de melhor qualidade para o país e fortalecimento da confiança democrática da sociedade no Parlamento.\n\n**Aplicação e recuperação:** Um projeto tecnicamente viável carece de respaldo institucional. No triângulo de Moore, capacidade operacional não substitui ambiente autorizador e valor substantivo. Digitalizar dez mil páginas é produto; melhorar acesso pode ser resultado; atribuir melhora da democracia à digitalização exige evidência causal adicional. Um indicador de volume não prova impacto.",
+  teoriaDidaticaMarkdown: "### Revisão: modelos como lentes, não rótulos absolutos\n\nPatrimonialismo mistura interesses públicos e privados; burocracia racional-legal enfatiza regras e profissionalização; NPM enfatiza desempenho; NPG, relações e coprodução. Elementos coexistem. Controle de resultados não abole legalidade. Moore articula valor, autorização e capacidade. Produto é entrega; resultado é mudança associada ao uso; impacto pede exame mais amplo e evidência. Não atribua efeito social automaticamente ao volume produzido.\n",
   checkpoints: [
-    {
-      id: 'cp-11-8-1',
-      pergunta: 'Micro-Checkpoint 1: Distinção entre NPM e Nova Governança Pública (NPG)',
-      item: 'Enquanto a Nova Gestão Pública (NPM) introduziu a lógica de mercado e a centralidade do cidadão como cliente consumidor, a Nova Governança Pública (NPG) enfatiza a atuação estatal em redes de cooperação interinstitucional e a coprodução de bens e serviços públicos pelo cidadão.',
-      gabarito: 'C',
-      justificativa: 'Correto! A NPG supera a visão mercadológica do NPM, privilegiando redes colaborativas multissetoriais e o papel do cidadão como parceiro ativo e coprodutor de valor público.',
-    },
-    {
-      id: 'cp-11-8-2',
-      pergunta: 'Micro-Checkpoint 2: Triângulo Estratégico de Mark Moore e Capacidade Operacional',
-      item: 'No modelo do triângulo estratégico de Mark Moore, a criação de valor público prescinde da legitimidade política e do respaldo legal formal, bastando a existência de capacidade operacional técnica suficiente da administração para a execução da medida.',
-      gabarito: 'E',
-      justificativa: 'Errado! O triângulo estratégico exige a congruência indissociável de três vértices: 1) Valor substantivo; 2) Sustentabilidade política e legalidade (ambiente autorizador); 3) Capacidade operacional. A ausência de apoio no ambiente autorizador inviabiliza o projeto.',
-    },
-    {
-      id: 'cp-11-8-3',
-      pergunta: 'Micro-Checkpoint 3: Cadeia de Valor Público: Output vs. Outcome',
-      item: 'Na cadeia de valor público aplicada à gestão documental, a quantidade de proposições legislativas devidamente digitalizadas e disponibilizadas em repositório institucional consubstancia um resultado (outcome), e não um mero produto (output).',
-      gabarito: 'E',
-      justificativa: 'Errado! A contagem física/numérica de documentos digitalizados é um PRODUTO (output) gerado pela atividade. O RESULTADO (outcome) consiste na melhoria substantiva, na velocidade de pesquisa dos assessores e no impacto qualitativo do processo legislativo.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-11-8-1',
-        periodo: '1922',
-        disciplina: 'Sociologia da Administração',
-        focoPrincipal: 'Max Weber: publicação póstuma de "Economia e Sociedade" delineando o tipo ideal burocrático',
-        figuraChave: 'Max Weber',
-      },
-      {
-        id: 'tl-11-8-2',
-        periodo: '1992',
-        disciplina: 'Nova Gestão Pública',
-        focoPrincipal: 'David Osborne e Ted Gaebler: publicação de "Reinventando o Governo" (marcos do NPM)',
-        figuraChave: 'Reinventing Government',
-      },
-      {
-        id: 'tl-11-8-3',
-        periodo: '1995',
-        disciplina: 'Reforma do Estado no Brasil',
-        focoPrincipal: 'Plano Diretor da Reforma do Aparelho do Estado (PDRAE): introdução do gerencialismo',
-        figuraChave: 'Bresser-Pereira',
-      },
-      {
-        id: 'tl-11-8-4',
-        periodo: '2006',
-        disciplina: 'Nova Governança Pública',
-        focoPrincipal: 'Stephen Osborne: formulação da New Public Governance (NPG) e ação em redes',
-        figuraChave: 'Stephen Osborne',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-11-8-1',
-        nome: 'Mark H. Moore',
-        ano: '1995',
-        obraPrincipal: 'Creating Public Value: Strategic Management in Government',
-        ideiaChave: 'Conceito de valor público e o triângulo estratégico (valor substantivo, ambiente autorizador e capacidade operacional).',
-        chipPegadinha: 'Afirmar que valor público é medido apenas por métricas financeiras de custo-benefício contábil.',
-      },
-      {
-        id: 'aut-11-8-2',
-        nome: 'Stephen P. Osborne',
-        ano: '2010',
-        obraPrincipal: 'The New Public Governance? Emerging Perspectives on the Theory and Practice of Public Governance',
-        ideiaChave: 'A evolução da governança pública como superação do NPM, assentada em ecossistemas de serviços e coprodução.',
-        chipPegadinha: 'Dizer que a NPG defende o retorno ao controle rígido formalista da burocracia weberiana.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-11-8-1',
-        afirmacao: 'O modelo de administração patrimonialista caracteriza-se pela separação rígida entre a autoridade estatal e o patrimônio pessoal dos governantes.',
-        gabarito: 'E',
-        porQue: 'No patrimonialismo ocorre a CONFUSÃO completa entre a coisa pública e o patrimônio privado do governante. A separação estrita é pilar da burocracia.',
-      },
-      {
-        id: 'peg-11-8-2',
-        afirmacao: 'A substituição do controle procedimental a priori pelo controle a posteriori focado em indicadores de desempenho é característica marcante da administração burocrática weberiana.',
-        gabarito: 'E',
-        porQue: 'O controle a posteriori focado em resultados é marca distintiva da NOVA GESTÃO PÚBLICA (NPM/Gerencialismo). A burocracia controla processos e regras a priori.',
-      },
-      {
-        id: 'peg-11-8-3',
-        afirmacao: 'A coprodução do bem público na Nova Governança Pública pressupõe a participação direta da sociedade civil na entrega e na concepção de serviços públicos coletivos.',
-        gabarito: 'C',
-        porQue: 'Correto! Coprodução significa que cidadãos, voluntários e coletivos atuam ativamente ao lado dos servidores no desenho e na execução do serviço público.',
-      },
-    ],
+  {
+    "id": "cp-11-8-1",
+    "pergunta": "Micro-Checkpoint 1: Distinção entre NPM e Nova Governança Pública (NPG)",
+    "item": "Enquanto a Nova Gestão Pública (NPM) introduziu a lógica de mercado e a centralidade do cidadão como cliente consumidor, a Nova Governança Pública (NPG) enfatiza a atuação estatal em redes de cooperação interinstitucional e a coprodução de bens e serviços públicos pelo cidadão.",
+    "gabarito": "C",
+    "justificativa": "O contraste resume ênfases analíticas de NPM e NPG. Não afirma que todo cidadão foi passivo em toda gestão gerencial nem que um modelo eliminou o outro.",
+    "fonte": "PDRAE (1995); Mark Moore, Creating Public Value; Stephen Osborne, The New Public Governance?; TCU, Referencial Básico de Governança Organizacional (3ª ed.)."
   },
+  {
+    "id": "cp-11-8-2",
+    "pergunta": "Micro-Checkpoint 2: Triângulo Estratégico de Mark Moore e Capacidade Operacional",
+    "item": "No modelo do triângulo estratégico de Mark Moore, a criação de valor público prescinde da legitimidade política e do respaldo legal formal, bastando a existência de capacidade operacional técnica suficiente da administração para a execução da medida.",
+    "gabarito": "E",
+    "justificativa": "O ambiente autorizador é um dos vértices. Capacidade técnica não substitui legitimidade e autorização no modelo.",
+    "fonte": "PDRAE (1995); Mark Moore, Creating Public Value; Stephen Osborne, The New Public Governance?; TCU, Referencial Básico de Governança Organizacional (3ª ed.).",
+    "versao_correta": "Valor, ambiente autorizador e capacidade operacional precisam de alinhamento."
+  },
+  {
+    "id": "cp-11-8-3",
+    "pergunta": "Micro-Checkpoint 3: Cadeia de Valor Público: Output vs. Outcome",
+    "item": "Na cadeia de valor público aplicada à gestão documental, a quantidade de proposições legislativas devidamente digitalizadas e disponibilizadas em repositório institucional consubstancia um resultado (outcome), e não um mero produto (output).",
+    "gabarito": "E",
+    "justificativa": "O número de itens digitalizados mede entrega, ou output. Melhorias no uso e efeitos posteriores exigem indicadores e evidências diferentes.",
+    "fonte": "PDRAE (1995); Mark Moore, Creating Public Value; Stephen Osborne, The New Public Governance?; TCU, Referencial Básico de Governança Organizacional (3ª ed.).",
+    "versao_correta": "A quantidade digitalizada é produto; não prova por si resultado ou impacto."
+  },
+  {
+    "id": "rt-11-8-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Avaliar metas torna dispensável todo controle prévio de legalidade no modelo gerencial.",
+    "gabarito": "E",
+    "justificativa": "A ênfase muda, mas não elimina legalidade e controles necessários.",
+    "fonte": "PDRAE (1995); Mark Moore, Creating Public Value; Stephen Osborne, The New Public Governance?; TCU, Referencial Básico de Governança Organizacional (3ª ed.).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 8: Controle da Administração Pública)",
+    "habilidade": "aplicar",
+    "versao_correta": "A orientação a resultados convive com controles prévios pertinentes."
+  },
+  {
+    "id": "rt-11-8-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma contagem de documentos digitalizados mede diretamente produto; não demonstra, por si, impacto social.",
+    "gabarito": "C",
+    "justificativa": "A entrega pode ser observada sem que se tenha demonstrado o efeito posterior e sua causalidade.",
+    "fonte": "PDRAE (1995); Mark Moore, Creating Public Value; Stephen Osborne, The New Public Governance?; TCU, Referencial Básico de Governança Organizacional (3ª ed.).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 8: Controle da Administração Pública)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-11-8-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No triângulo de Moore, recursos técnicos bastam, independentemente de valor proposto e ambiente autorizador.",
+    "gabarito": "E",
+    "justificativa": "Os três vértices precisam de alinhamento; capacidade de executar não legitima por si uma iniciativa.",
+    "fonte": "PDRAE (1995); Mark Moore, Creating Public Value; Stephen Osborne, The New Public Governance?; TCU, Referencial Básico de Governança Organizacional (3ª ed.).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 8: Controle da Administração Pública)",
+    "habilidade": "aplicar",
+    "versao_correta": "Capacidade operacional deve ser alinhada a valor público e ambiente autorizador."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-11-8-fonte-pdrae",
+      "nome": "Plano Diretor da Reforma do Aparelho do Estado — 1995",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Plano Diretor da Reforma do Aparelho do Estado — 1995",
+      "ideiaChave": "Modelos e quatro setores; não confundir proposta histórica e arranjo atual.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-8-fonte-tcu",
+      "nome": "TCU — Referencial Básico de Governança Organizacional",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "TCU — Referencial Básico de Governança Organizacional",
+      "ideiaChave": "Governança, necessidades sociais e geração de valor público.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-11-8-1",
+      "afirmacao": "Avaliar metas torna dispensável todo controle prévio de legalidade no modelo gerencial.",
+      "gabarito": "E",
+      "porQue": "A ênfase muda, mas não elimina legalidade e controles necessários."
+    },
+    {
+      "id": "memoria-rt-11-8-2",
+      "afirmacao": "Uma contagem de documentos digitalizados mede diretamente produto; não demonstra, por si, impacto social.",
+      "gabarito": "C",
+      "porQue": "A entrega pode ser observada sem que se tenha demonstrado o efeito posterior e sua causalidade."
+    },
+    {
+      "id": "memoria-rt-11-8-3",
+      "afirmacao": "No triângulo de Moore, recursos técnicos bastam, independentemente de valor proposto e ambiente autorizador.",
+      "gabarito": "E",
+      "porQue": "Os três vértices precisam de alinhamento; capacidade de executar não legitima por si uma iniciativa."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-11-8-bloco-1",
+    "titulo": "Evolução Histórica dos Modelos de Gestão Pública",
+    "objetivos": [
+      "Comparar modelos sem pressupor substituição histórica integral."
+    ],
+    "conteudo": "O estudo da evolução da gestão pública reflete a busca contínua do Estado por legitimidade, combate à corrupção e eficácia social. Três modelos sucessivos e coexistentes marcaram essa trajetória:\n\n#### 1.1 O Modelo Patrimonialista\nPredominante nas monarquias absolutistas e no Brasil colonial e imperial:\n* **Características:** Total confusão entre o patrimônio público (*res publica*) e os bens privados do soberano (*res principis*). O Estado é gerido como propriedade privada do governante.\n* **Mecanismos Típicos:** Concessão de cargos públicos como benesses pessoais, sinecuras, prebendas hereditárias, corrupção institucionalizada, compadrio, clientelismo e nepotismo. Não há carreiras estruturadas nem concurso público.\n\n#### 1.2 O Modelo Burocrático (Racional-Legal de Max Weber)\nNasce a partir da segunda metade do século XIX (e no Brasil na década de 1930 com a criação do DASP na Era Vargas) com o objetivo primordial de combater a corrupção e o clientelismo patrimonialista:\n* **Pilares Centrais:**\n  1. **Formalismo e Impessoalidade:** A autoridade decorre da lei e do cargo, e não da pessoa que o ocupa. Ênfase na documentação, regras e previsibilidade; isso não significa que qualquer atividade humana na organização seja obrigatoriamente um documento escrito.\n  2. **Hierarquia Rigorosa:** Linha verticalizada de comando, supervisão e subordinação de competências.\n  3. **Profissionalização e Meritocracia:** Seleção por qualificação, carreira e profissionalização no modelo ideal; concurso e estabilidade no Brasil têm disciplina constitucional própria e não se aplicam universalmente a todo vínculo.\n  4. **Controle *a priori* dos Processos:** Controle preventivo rígido de procedimentos e compras para evitar qualquer desvio.\n* **Disfunções da Burocracia (Merton, Selznick e Gouldner):**\n  * O cumprimento cego das regras torna-se o próprio fim da organização (*inversão de meios e fins*);\n  * Rigidez procedimental absoluta, aversão ao risco, despersonalização do atendimento e lentidão exasperante perante demandas novas da sociedade.\n\n#### 1.3 A Nova Gestão Pública (New Public Management - NPM)\nEmerge na década de 1980 na Grã-Bretanha e nos EUA, refletindo a crise fiscal do Estado e o esgotamento da burocracia rígida:\n* **Pilares e Diretrizes (David Osborne e Ted Gaebler - *Reinventando o Governo*):**\n  * **Foco no Cidadão-Cliente:** O cidadão é visto como consumidor que merece serviços públicos de alto padrão e satisfação.\n  * **Orientação para Resultados:** Ênfase em **resultados e desempenho**, sem eliminar controles de legalidade, procedimentos ou controles prévios necessários.\n  * **Descentralização e Desregulamentação:** Delegação de autonomia operacional com contratualização de resultados (contratos de gestão).\n  * **Introdução de Mecanismos de Mercado:** Parcerias, terceirização de atividades-meio, leilões competitivos e privatizações de setores não estratégicos.\n* **O Gerencialismo no Brasil (O PDRAE de 1995):**\n  * O Plano Diretor da Reforma do Aparelho do Estado, liderado por Bresser-Pereira, dividiu o Estado em 4 setores:\n    1. *Núcleo Estratégico:* Formulação de leis e políticas (Poderes da República, Presidência, Ministérios) - propriedade estatal obrigatória;\n    2. *Atividades Exclusivas do Estado:* Poder de polícia e fiscalização (agências reguladoras, diplomacia, Receita Federal);\n    3. *Serviços Não Exclusivos:* Educação, saúde, cultura, pesquisa, bibliotecas e museus (prestados concorrencialmente pelo Estado e pelo terceiro setor, com discussão histórica de publicização e organizações sociais; OSCIP pertence a marco legal posterior, não é criação do PDRAE de 1995);\n    4. *Produção de Bens e Serviços para o Mercado:* Empresas estatais concorrenciais sujeitas a privatização.\n\n**Aplicação e recuperação:** Um órgão usa seleção profissional e também avalia metas: os modelos coexistem. Descrever controle de resultados não autoriza dispensar licitação ou garantias. Diferencie características do tipo ideal de Weber, disfunções observadas e regras jurídicas brasileiras; não atribua automaticamente toda demora ao conceito de burocracia.",
+    "checkpointIds": [
+      "rt-11-8-1"
+    ]
+  },
+  {
+    "id": "sub-11-8-bloco-2",
+    "titulo": "A Nova Governança Pública (New Public Governance - NPG)",
+    "objetivos": [
+      "Reconhecer rede, coordenação e coprodução."
+    ],
+    "conteudo": "Formulada academicamente por **Stephen Osborne** nos anos 2000, a **Nova Governança Pública** nasce para superar as limitações do NPM (que fragmentou excessivamente o Estado em agências autônomas que competiam entre si e reduziu o cidadão à condição mercadológica de mero consumidor passivo):\n\n* **Ação Pública em Redes de Cooperação:** O governo não é mais o único detentor do monopólio da solução de problemas complexos (\"problemas perversos\" ou *wicked problems*, como sustentabilidade, inclusão digital e desinformação). O Estado pode atuar na coordenação de **redes híbridas**, sem que todo arranjo tenha obrigatoriamente um único centro compostas por órgãos públicos, empresas privadas, universidades, terceiro setor e coletivos cidadãos.\n* **Coprodução do Bem Público:**\n  * Rompe com a visão de que o Estado produz e o cidadão consome.\n  * Cidadãos e sociedade civil participam ativamente do diagnóstico, desenho, execução e avaliação dos serviços públicos (ex.: curadoria comunitária de acervos orais da Biblioteca Parlamentar, plataformas de legislação colaborativa e hackathons cívicos).\n* **Transparência Ativa e Governo Aberto:**\n  * O poder público divulga dados abertos proativamente em formatos legíveis por máquina, promovendo o *accountability* democrático e o controle social permanente.\n\n**Aplicação e recuperação:** A biblioteca pede opinião numa pesquisa: há participação, mas coprodução exige examinar como cidadãos contribuem para produzir o serviço/resultado. Uma rede de bibliotecas pode coordenar recursos sem competição mercantil. NPG é lente analítica, não promessa de que toda rede é inclusiva ou eficiente; conflitos e responsabilização permanecem.",
+    "checkpointIds": [
+      "cp-11-8-1"
+    ]
+  },
+  {
+    "id": "sub-11-8-bloco-3",
+    "titulo": "A Teoria do Valor Público de Mark Moore",
+    "objetivos": [
+      "Relacionar proposta de valor, autorização e capacidade."
+    ],
+    "conteudo": "Desenvolvida na Universidade de Harvard por **Mark Moore** (*Creating Public Value*), a teoria estabelece que o objetivo primordial de qualquer gestor público não é meramente cumprir o orçamento ou obedecer regras burocráticas, mas **gerar Valor Público** — entendido como o benefício real, tangível e intangível, que melhora a vida coletiva e fortalece a coesão democrática.\n\n#### 3.1 O Triângulo Estratégico de Moore\nPara que uma política pública ou projeto governamental seja sustentável, o gestor deve alinhar três vértices:\n1. **Valor Substantivo (Objetivo da Política):** O que a instituição está propondo tem utilidade real para a sociedade e gera valor público?\n2. **Sustentabilidade Política e Legalidade (Ambiente Autorizador):** O projeto conta com respaldo legal, legitimidade institucional, apoio dos parlamentares, dos órgãos de controle e dos cidadãos?\n3. **Capacidade Operacional (Capacidade de Entrega):** A organização dispõe de orçamento, sistemas de tecnologia, processos de trabalho e pessoal qualificado para realizar o que prometeu?\n\n#### 3.2 A Cadeia de Valor Público\nA transformação da ação governamental em impacto social percorre cinco etapas integradas:\n\n$$\\text{Insumos (Inputs)} \\longrightarrow \\text{Processos (Activities)} \\longrightarrow \\text{Produtos (Outputs)} \\longrightarrow \\text{Resultados (Outcomes)} \\longrightarrow \\text{Impacto Social (Impacts)}$$\n\n* **Insumos (*Inputs*):** Orçamento, servidores bibliotecários, computadores, instalações físicas da biblioteca.\n* **Processos (*Activities*):** Indexação, catalogação descritiva, curadoria e restauração de documentos parlamentares.\n* **Produtos (*Outputs*):** Quantidade de obras indexadas e disponibilizadas no serviço delimitado; LexML é uma rede/portal de informação jurídica, não o destino obrigatório de toda catalogação.\n* **Resultados (*Outcomes*):** O aumento na celeridade e na precisão técnica dos pareceres emitidos pelas comissões legislativas em virtude do acervo acessível.\n* **Impacto (*Impacts*):** Leis de melhor qualidade para o país e fortalecimento da confiança democrática da sociedade no Parlamento.\n\n**Aplicação e recuperação:** Um projeto tecnicamente viável carece de respaldo institucional. No triângulo de Moore, capacidade operacional não substitui ambiente autorizador e valor substantivo. Digitalizar dez mil páginas é produto; melhorar acesso pode ser resultado; atribuir melhora da democracia à digitalização exige evidência causal adicional. Um indicador de volume não prova impacto.",
+    "checkpointIds": [
+      "cp-11-8-2",
+      "cp-11-8-3",
+      "rt-11-8-2",
+      "rt-11-8-3"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "pdrae",
+    "titulo": "Plano Diretor da Reforma do Aparelho do Estado — 1995",
+    "localizador": "Modelos e quatro setores; não confundir proposta histórica e arranjo atual.",
+    "url": "https://www.bresserpereira.org.br/documents/mare/planodiretor/planodiretor.pdf"
+  },
+  {
+    "id": "tcu",
+    "titulo": "TCU — Referencial Básico de Governança Organizacional",
+    "localizador": "Governança, necessidades sociais e geração de valor público.",
+    "url": "https://portal.tcu.gov.br/governanca/governancapublica/"
+  }
+],
 };

@@ -14,308 +14,242 @@ export const submodulo103: ModuloFilho = {
   ],
   titulo: 'Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública',
   antesDeLer: [
-    {
-      termo: 'Comissões Parlamentares',
-      definicao: 'Órgãos colegiados integrados por deputados constituídos para debater matérias técnicas especializadas antes do Plenário.',
-      exemploBiblioteca: 'Fornecimento de pesquisas temáticas diretamente aos consultores da Comissão de Constituição e Justiça e de Cidadania (CCJC).',
-    },
-    {
-      termo: 'Poder Conclusivo das Comissões',
-      definicao: 'Competência conferida pelo Regimento para que a comissão vote definitivamente o projeto de lei sem necessidade de ir ao Plenário, salvo recurso.',
-      exemploBiblioteca: 'Identificação em catálogo do rito conclusivo da proposição para fins de histórico e publicação nos diários da Casa.',
-    },
-    {
-      termo: 'Comissão Parlamentar de Inquérito (CPI)',
-      definicao: 'Comissão temporária dotada de poderes de investigação próprios das autoridades judiciais para apurar fato determinado e por prazo certo.',
-      exemploBiblioteca: 'Tratamento confidencial de acervos documentais e depoimentos coletados por CPIs depositados no CEDI.',
-    },
-    {
-      termo: 'Relator e Parecer',
-      definicao: 'Deputado designado para analisar a matéria e emitir relatório e voto; uma vez aprovado pelo colegiado, passa a se chamar Parecer da Comissão.',
-      exemploBiblioteca: 'Catalogação analítica do parecer do relator, destacando o voto em separado e emendas acatadas.',
-    },
-  ],
-  descricaoCurta: 'A Lei nº 12.527/2011 (LAI): princípio da publicidade máxima, transparência ativa vs. passiva, prazos do SIC, graus de sigilo (Reservada 5 anos, Secreta 15 anos, Ultrassecreta 25 anos), proteção de dados pessoais (100 anos), a LGPD (Lei 13.709/2018) e a neutralidade técnica na consultoria parlamentar.',
-  tempoEstimadoMinutos: 14,
-  autoresChave: ['Controladoria-Geral da União (CGU)', 'Autoridade Nacional de Proteção de Dados (ANPD)', 'Lei nº 12.527/2011', 'Lei nº 13.709/2018', 'Câmara dos Deputados'],
+  {
+    "termo": "Transparência ativa",
+    "definicao": "Divulgação de informações de ofício, independentemente de requerimento.",
+    "exemploBiblioteca": "O órgão publica despesas no portal antes de receber qualquer pedido."
+  },
+  {
+    "termo": "Acesso parcial",
+    "definicao": "Fornecimento da parcela acessível quando outra informação do documento estiver legitimamente protegida.",
+    "exemploBiblioteca": "A parte pública de um processo pode ser fornecida com ocultação fundamentada de informação protegida."
+  }
+],
+  descricaoCurta: "Aplicar publicidade e resposta a pedidos com âmbito e exceções próprios. Distinguir classificação de segurança, acesso parcial e proteção de direitos. Interpretar o art. 31 sem criar sigilo geral de cem anos. Compatibilizar base legal, princípios e categorias de dados. Produzir pesquisa imparcial com recorte e limites declarados.",
+  tempoEstimadoMinutos: 23,
+  autoresChave: [
+  "Lei 12.527/2011 — LAI",
+  "Lei 13.709/2018 — LGPD",
+  "ANPD — documentos e publicações"
+],
   alertasCebraspe: [
-    'A tríade dos graus de sigilo da LAI (Art. 24 da Lei nº 12.527/2011) e seus prazos MÁXIMOS exatos: 1. Reservada = até 5 anos; 2. Secreta = até 15 anos; 3. Ultrassecreta = até 25 anos (prorrogável uma única vez por mais 25 anos pela CMRI). O Cebraspe troca sistematicamente esses prazos e suas respectivas autoridades!',
-    'Informações Pessoais (Art. 31 da LAI): dados relativos à intimidade, vida privada, honra e imagem de pessoas naturais têm acesso restrito por até 100 ANOS contados de sua produção, proteção que independe de classificação prévia de autoridade.',
-    'Violação de Direitos Humanos (Art. 21, Parágrafo Único da LAI - regra absoluta): informações ou documentos que versem sobre condutas que impliquem violação de direitos humanos praticada por agentes públicos ou a mando de autoridades NÃO podem ser objeto de restrição de acesso em nenhuma hipótese!',
-    'Transparência Passiva (SIC) e Vedação de Motivação (Art. 10, § 3º): o cidadão tem direito de obter a informação pública sem justificar ou fundamentar seu pedido. O prazo de resposta é imediato se disponível, ou de até 20 DIAS (prorrogável por mais 10 DIAS mediante justificativa formal).',
-    'LGPD (Lei nº 13.709/2018) no Setor Público: o tratamento de dados pessoais pela Câmara dos Deputados e órgãos estatais dispensa o consentimento do titular quando realizado para o cumprimento de obrigação legal/regulatória ou para a execução de políticas públicas.',
-    'Ética e Neutralidade Parlamentar: no atendimento a gabinetes parlamentares e comissões, o bibliotecário legislativo deve pautar sua seleção pela estrita imparcialidade e neutralidade técnica, oferecendo um panorama plural e equilibrado de todas as correntes doutrinárias e jurídicas.',
-  ],
-  quadroComparativo: {
-    titulo: 'Graus de Sigilo, Prazos e Competências de Classificação na LAI (Lei 12.527/2011)',
-    colunas: ['Grau de Sigilo', 'Prazo Máximo de Restrição', 'Autoridades Competentes para Classificar', 'Hipóteses Típicas de Salvaguarda'],
-    linhas: [
-      ['Ultrassecreta', 'Até 25 anos (prorrogável 1x pela CMRI por mais 25)', 'Presidente da República, Vice-Presidente, Ministros de Estado, Comandantes Militares, Embaixadores', 'Ameaça extrema à soberania nacional, planos bélicos e integridade territorial'],
-      ['Secreta', 'Até 15 anos', 'As autoridades acima + dirigentes de autarquias, fundações e empresas estatais federais', 'Risco a relações diplomáticas, estabilidade financeira/cambial e espionagem'],
-      ['Reservada', 'Até 5 anos', 'As autoridades acima + servidores ocupantes de DAS 101.5 ou equivalentes de direção/chefia', 'Planos estratégicos em curso, operações policiais e projetos antes do anúncio oficial'],
-      ['Informações Pessoais', 'Até 100 anos (a contar da produção)', 'Não depende de classificação formal de autoridade (proteção legal automática)', 'Intimidade, vida privada, prontuários de saúde, honra e imagem de indivíduos'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. O Marco Regulatório da Transparência Pública: A Lei nº 12.527/2011 (LAI)
-
-A Lei de Acesso à Informação regulamenta o direito fundamental consagrado no **Art. 5º, XXXIII**, no **Art. 37, § 3º, II** e no **Art. 216, § 2º** da Constituição Federal de 1988, aplicável a todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios, bem como a entidades privadas que recebam recursos públicos para realização de ações de interesse coletivo:
-
-\`\`\`tree
-TITLE: Princípios Estruturantes da LAI (Lei nº 12.527/2011)
-- Direito Constitucional de Acesso (CF/88) | Arts. 5º XXXIII, 37 § 3º II e 216 § 2º
-  - Lei de Acesso à Informação (LAI) | Marco regulatório da transparência republicana
-    - Publicidade como Regra Geral | Acesso amplo de ofício (transparência ativa) e sob demanda (passiva)
-    - Sigilo como Exceção Estrita | Restrição admitida apenas quando indispensável à segurança social e do Estado
-    - Gratuidade do Acesso | Isenção total de tarifas, admitida cobrança exclusiva de custos de reprografia
-    - Vedação de Exigência de Motivo | Ilegalidade de qualquer exigência sobre os motivos determinantes do pedido
-\`\`\`
-
-#### A. Diretrizes Fundamentais (Art. 3º):
-1. A **publicidade como preceito geral** e o **sigilo como exceção**;
-2. Divulgação de informações de interesse público, independentemente de solicitações;
-3. Utilização de meios de comunicação viabilizados pela tecnologia da informação;
-4. Fomento ao desenvolvimento da cultura de transparência na administração pública;
-5. Desenvolvimento do controle social da administração pública.
-
-#### B. Transparência Ativa vs. Transparência Passiva
-* **Transparência Ativa (Art. 8º):**
-  * Dever de ofício dos órgãos e entidades públicas de promover a divulgação na Internet de informações de interesse coletivo ou geral produzidas ou custodiadas por eles, **independentemente de qualquer requerimento cidadão**.
-  * *Requisitos Mínimos Obrigatórios:* Registro das competências e estrutura organizacional; endereços e telefones das unidades e horários de atendimento; registros de quaisquer repasses ou transferências de recursos financeiros; registros das despesas e receitas; informações concernentes a procedimentos licitatórios (com editais e contratos na íntegra); dados gerais para o acompanhamento de programas, ações, projetos e obras; respostas a perguntas mais frequentes da sociedade (FAQ).
-  * *Padrões Tecnológicos:* Formatos abertos, estruturados e legíveis por máquina (ex.: CSV, JSON, XML), garantindo a autenticidade e a integridade das informações sem barreiras proprietárias de software.
-* **Transparência Passiva (Serviço de Informações ao Cidadão - SIC - Arts. 9º a 14):**
-  * Mecanismo pelo qual o órgão atende a demandas individuais específicas formuladas pela sociedade.
-  * *Proibição de Exigência de Motivação (Art. 10, § 3º — técnica de distrator recorrente):* **São expressamente vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.** O requerente precisa apenas identificar-se (nome e documento) e especificar a informação pretendida.
-  * *Prazos Oficiais de Resposta:*
-    * Se a informação requerida estiver disponível, o acesso deve ser concedido de forma **imediata**.
-    * Não sendo possível o acesso imediato, o órgão público tem o prazo de **até 20 dias** para responder, prazo este que pode ser prorrogado por mais **10 dias** mediante justificativa expressa encaminhada ao cidadão.
-
----
-
-### 2. A Classificação de Informações Sigilosas e os Prazos Máximos
-
-Quando a publicidade da informação comprometer a segurança da sociedade e do Estado (Art. 23), ela poderá ser excepcionalmente classificada em um dos três graus de sigilo (Art. 24):
-
-\`\`\`timeline
-RES | 1. Grau Reservado | Até 5 Anos de Restrição | Classificável por autoridades até DAS 101.5. Salvaguarda planos estratégicos e operações em andamento.
----> Escalação de Gravidade
-SEC | 2. Grau Secreto | Até 15 Anos de Restrição | Classificável por Ministros, Comandantes Militares e dirigentes de estatais/autarquias federais.
----> Grau Máximo
-ULTRA | 3. Grau Ultrassecreto | Até 25 Anos de Restrição | Prorrogável 1x pela CMRI (até +25 anos). Competência restrita: Presidência, Ministros, Forças Armadas e Chefes de Missão.
-\`\`\`
-
-#### A. A Escala Temporal e Competências de Classificação (Art. 27):
-1. **Ultrassecreta (até 25 anos):**
-   * Classificada privativamente por: Presidente e Vice-Presidente da República; Ministros de Estado e autoridades com prerrogativas equivalentes; Comandantes da Marinha, do Exército e da Aeronáutica; Chefes de Missões Diplomáticas permanentes no exterior.
-   * *Prorrogação Única:* Pode ser prorrogada uma única vez por igual período (mais 25 anos) exclusivamente pela **Comissão Mista de Reavaliação de Informações (CMRI)**.
-2. **Secreta (até 15 anos):**
-   * Classificada pelas autoridades acima indicadas, acrescidas dos dirigentes de autarquias, fundações públicas e empresas estatais federais.
-3. **Reservada (até 5 anos):**
-   * Classificada por todas as autoridades precedentes, acrescidas dos agentes públicos que exerçam funções de direção, comando ou chefia de nível DAS 101.5 (ou hierarquicamente equivalentes).
-
-#### B. A Cláusula Absoluta de Proteção aos Direitos Humanos (*⚠️ Pegadinha de Ouro Cebraspe*)
-O Art. 21, Parágrafo Único da LAI estabelece uma proibição categórica que não admite exceções ou interpretações flexibilizadoras:
-> *"Não poderá ser negado acesso à informação necessária à tutela judicial ou administrativa de direitos fundamentais.*  
-> ***As informações ou documentos que versem sobre condutas que impliquem violação dos direitos humanos praticada por agentes públicos ou a mando de autoridades públicas NÃO poderão ser objeto de restrição de acesso em nenhuma hipótese.***"
-
----
-
-### 3. Proteção das Informações Pessoais (Art. 31 da LAI)
-
-O tratamento de informações pessoais na administração pública obedece ao princípio da transparência com a devida salvaguarda da privacidade:
-* **Prazo de Restrição (Art. 31, § 1º, I):** Informações relativas à **intimidade, vida privada, honra e imagem** têm seu acesso restrito, independentemente de classificação de sigilo de qualquer autoridade, pelo **prazo máximo de 100 anos**, a contar da data de sua produção.
-* **Divulgação Excepcional sem Consentimento:** As informações pessoais poderão ser acessadas por terceiros sem o consentimento do titular nos casos de:
-  1. Prevenção e diagnóstico médico em caso de incapacidade física ou mental do titular;
-  2. Instrução de processos judiciais ou administrativos para apuração de irregularidades em que o titular for parte;
-  3. Cumprimento de ordem judicial;
-  4. Realização de pesquisas científicas e estatísticas de evidente interesse público (garantindo-se a anonimização dos dados);
-  5. Preservação de acervos históricos e recuperação da memória nacional de relevante interesse público.
-
----
-
-### 4. A Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) no Setor Público
-
-A LGPD aplica-se a qualquer operação de tratamento de dados pessoais realizada por pessoa natural ou por pessoa jurídica de direito público ou privado:
-
-\`\`\`tree
-TITLE: Conceitos Fundamentais da LGPD (Lei nº 13.709/2018)
-- Marco Legal da Proteção de Dados | Aplicação a pessoas naturais e pessoas jurídicas públicas e privadas
-  - Dado Pessoal | Informação relacionada a pessoa natural identificada ou identificável (nome, CPF, RG, IP, geolocalização)
-  - Dado Pessoal Sensível | Dados sobre origem racial/étnica, convicção religiosa, opinião política, saúde, biometria ou genética
-  - Tratamento pelo Setor Público | Dispensa consentimento do titular para cumprimento de obrigação legal ou execução de políticas públicas (Art. 23)
-  - Encarregado de Proteção (DPO) | Canal de comunicação institucional entre o controlador dos dados, os titulares e a ANPD
-\`\`\`
-
-#### A. Princípios Norteadores do Tratamento (Art. 6º):
-* **Finalidade e Adequação:** Propósitos legítimos, específicos e informados ao titular, compatíveis com as atribuições legais da instituição.
-* **Necessidade (Minimização):** Limitação do tratamento ao mínimo necessário para a realização das finalidades públicas.
-* **Livre Acesso e Qualidade dos Dados:** Garantia aos titulares de consulta facilitada e exatidão dos registros.
-* **Segurança e Prevenção:** Adoção de medidas técnicas e organizacionais contra acessos não autorizados, incidentes e vazamentos.
-
----
-
-### 5. Ética da Informação e Neutralidade Técnica na Pesquisa Parlamentar
-
-No ecossistema de assessoria informacional da Câmara dos Deputados e do Congresso Nacional, a atuação do bibliotecário e do analista documental rege-se por cânones deontológicos e funcionais intransigíveis:
-
-* **Princípio da Imparcialidade e Neutralidade Técnica:**
-  * O bibliotecário parlamentar atende a deputados federais de todas as agremiações políticas, ideologias e correntes partidárias (bancadas do governo e da oposição).
-  * Em consultas de pesquisa doutrinária, legislativa e jurisprudencial formuladas por parlamentares ou comissões, **é estritamente vedado ao bibliotecário direcionar a seleção informacional** para favorecer a tese política ou a preferência ideológica do solicitante.
-  * O dossiê bibliográfico deve refletir com **equidistância técnica e pluralismo científico** o estado da arte do tema em debate, apresentando tanto a corrente doutrinária majoritária quanto os argumentos das correntes minoritárias e dissidentes.
-* **Sigilo Profissional da Demanda Parlamentar:** As pesquisas encomendadas por gabinetes parlamentares para embasar projetos de lei em formulação gozam de confidencialidade funcional até que a proposição seja protocolada formalmente pela liderança ou parlamentar no sistema da Casa.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Transparência e LAI (sub-11-12):** Portal da Transparência da Câmara e dados abertos de despesas parlamentares.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Estrutura Orgânica da Câmara dos Deputados, a Mesa Diretora e o Colégio de Líderes** regem o funcionamento político e administrativo da Casa (RICD, arts. 4º a 21):
-1. **Composição e Eleição da Mesa Diretora:**
-   - Órgão colegiado diretivo da Câmara, eleito para mandato de **2 anos, vedada a recondução para o mesmo cargo** na eleição imediatamente subsequente dentro da mesma legislatura (CF art. 57, § 4º e RICD art. 5º).
-   - Composta por **7 membros titulares** e **4 suplentes**:
-     - *Presidente:* Representa a Câmara, define a Ordem do Dia (pauta de votação), preside as sessões e substitui o Presidente da República na linha sucessória (2º na linha, após o Vice-Presidente!).
-     - *1º Vice-Presidente:* Substitui o Presidente e elabora pareceres sobre requerimentos de informação.
-     - *2º Vice-Presidente:* Estimula a cooperação com outros parlamentos e analisa ressarcimentos.
-     - *1º Secretário:* Responsável pela superintendência dos serviços administrativos e de pessoal da Câmara (diretamente ligado ao CEDI e à Biblioteca!).
-     - *2º Secretário:* Gerencia programas de intercâmbio, passaportes diplomáticos e estágios.
-     - *3º e 4º Secretários:* Cuidam de concessões de diárias, licenças e habitação funcional.
-   - **Princípio da Proporcionalidade Partidária:** A composição da Mesa e das Comissões deve assegurar, tanto quanto possível, a representação proporcional dos partidos ou blocos parlamentares (art. 58, § 1º da CF).
-2. **O Colégio de Líderes:**
-   - Composto pelos Líderes das bancadas partidárias, dos blocos parlamentares e da liderança do Governo e da Oposição.
-   - Órgão de concertação política que negocia acordos de procedimentos e orienta a pauta de votações do Plenário com o Presidente da Casa.
-3. **A Procuradoria Parlamentar e a Ouvidoria:**
-   - Defesa jurídica institucional dos parlamentares no exercício do mandato e canal direto de comunicação da sociedade com a Câmara.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (A Subordinação Administrativa da Biblioteca ao 1º Secretário):** Ao tramitar o projeto de expansão do acervo de obras raras e o plano de carreira de analistas do CEDI, o bibliotecário sabe que as matérias administrativas internas da Casa submetem-se à supervisão direta da **Primeira-Secretaria da Mesa Diretora**, responsável pela gestão dos serviços e órgãos administrativos da Câmara.
-- **Cenário 2 (Definição da Pauta de Plenário no Colégio de Líderes):** Em uma manhã de terça-feira, o Colégio de Líderes reúne-se na Presidência e fecha um acordo para colocar em votação urgente o projeto de inteligência artificial. O bibliotecário de plantão no apoio ao plenário é acionado imediatamente para compilar a documentação temática da matéria nas duas horas que antecedem a abertura da Ordem do Dia.
-- **Cenário 3 (Aplicação da Regra de Proporcionalidade Partidária):** Ao catalogar as resoluções de posse da nova Mesa Diretora, o bibliotecário observa que a maior bancada eleita indicou o Presidente, enquanto a segunda maior indicou o 1º Vice-Presidente, cumprindo rigorosamente a proporcionalidade partidária prescrita no art. 58, § 1º da CF/88.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Cargo / Órgão da Mesa | Função Institucional Primária | Reeleição Permitida? | Atribuição Típica no Concurso |
-| :--- | :--- | :--- | :--- |
-| **Presidente da Câmara** | Pauta do Plenário / Representação externa | Proibida na mesma legislatura | 2º na linha de substituição da Presidência da República |
-| **1º Secretário** | Gestão Administrativa e Pessoal | Proibida para o mesmo cargo | Superintendência dos órgãos administrativos e do CEDI |
-| **Colégio de Líderes** | Órgão de Acordo Político | - | Negocia a pauta e acordos de procedimentos |
-| **Procuradoria Parlamentar** | Defesa institucional dos deputados | - | Atua em crimes contra a honra da Câmara |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Recondução da Mesa na Mesma Legislatura:** O Cebraspe afirma que os membros da Mesa Diretora podem ser reeleitos indefinidamente para os mesmos cargos. **Gabarito: ERRADO.** O art. 57, § 4º da CF/88 proíbe a reeleição para o mesmo cargo na eleição imediatamente subsequente dentro da mesma legislatura.
-- **Quem Pauta a Ordem do Dia:** Dizer que a Ordem do Dia é definida por votação de maioria absoluta do Plenário. **Gabarito: ERRADO.** A prerrogativa regimental indelegável de organizar e pautar a Ordem do Dia é do **Presidente da Câmara**, ouvindo o Colégio de Líderes.
-- **Número de Titulares da Mesa:** A banca altera o número de membros: a Mesa é composta por **7 titulares** (Presidente, 2 Vices e 4 Secretários) e **4 suplentes**.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **CÂMARA DOS DEPUTADOS.** *Regimento Interno da Câmara dos Deputados (RICD)*. Resolução nº 17, de 1989 e alterações. arts. 4º a 21.
-- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. arts. 51, 57 e 58.
-- **PACHECO, Luciana.** *Regimento Interno da Câmara dos Deputados Comentado*. Brasília. Edições Câmara, 2021.
-- **MORAES, Alexandre de.** *Direito Constitucional*. 38. ed. São Paulo: Atlas, 2022.
-- **SILVA, José Afonso da.** *Curso de Direito Constitucional Positivo*. 43. ed. São Paulo: Malheiros, 2020.`,
+  "Publicação de ofício e atendimento de requerimentos são deveres relacionados, mas distintos.",
+  "O regime exige analisar informação, contexto, hipóteses e acesso parcial.",
+  "Finalidade, necessidade e segurança continuam exigíveis."
+],
+  teoriaDensaMarkdown: "### O Marco Regulatório da Transparência Pública: A Lei nº 12.527/2011 (LAI)\n\nA Lei de Acesso à Informação regulamenta o direito fundamental consagrado no **Art. 5º, XXXIII**, no **Art. 37, § 3º, II** e no **Art. 216, § 2º** da Constituição Federal de 1988, aplicável a todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios, e, no que couber, às entidades privadas sem fins lucrativos abrangidas pelo art. 2º, quanto à parcela dos recursos públicos recebidos e sua destinação:\n\n```tree\nTITLE: Princípios Estruturantes da LAI (Lei nº 12.527/2011)\n- Direito Constitucional de Acesso (CF/88) | Arts. 5º XXXIII, 37 § 3º II e 216 § 2º\n  - Lei de Acesso à Informação (LAI) | Marco regulatório da transparência republicana\n    - Publicidade como Regra Geral | Acesso amplo de ofício (transparência ativa) e sob demanda (passiva)\n    - Sigilo como Exceção Estrita | Classificação por segurança é regime específico; proteção pessoal e outros sigilos legais têm fundamentos próprios\n    - Gratuidade do Acesso | Isenção total de tarifas, admitida cobrança exclusiva de custos de reprografia\n    - Vedação de Exigência de Motivo | Ilegalidade de qualquer exigência sobre os motivos determinantes do pedido\n```\n\n#### A. Diretrizes Fundamentais (Art. 3º):\n1. A **publicidade como preceito geral** e o **sigilo como exceção**;\n2. Divulgação de informações de interesse público, independentemente de solicitações;\n3. Utilização de meios de comunicação viabilizados pela tecnologia da informação;\n4. Fomento ao desenvolvimento da cultura de transparência na administração pública;\n5. Desenvolvimento do controle social da administração pública.\n\n#### B. Transparência Ativa vs. Transparência Passiva\n* **Transparência Ativa (Art. 8º):**\n  * Dever de ofício dos órgãos e entidades públicas de promover a divulgação na Internet de informações de interesse coletivo ou geral produzidas ou custodiadas por eles, **independentemente de qualquer requerimento cidadão**.\n  * *Requisitos Mínimos Obrigatórios:* Registro das competências e estrutura organizacional; endereços e telefones das unidades e horários de atendimento; registros de quaisquer repasses ou transferências de recursos financeiros; registros das despesas e receitas; informações concernentes a procedimentos licitatórios (com editais e contratos na íntegra); dados gerais para o acompanhamento de programas, ações, projetos e obras; respostas a perguntas mais frequentes da sociedade (FAQ).\n  * *Padrões Tecnológicos:* Formatos abertos, estruturados e legíveis por máquina (ex.: CSV, JSON, XML), observados requisitos de autenticidade, integridade e acesso; ser CSV ou JSON não comprova, sozinho, a autenticidade ou integridade.\n* **Transparência Passiva (Serviço de Informações ao Cidadão - SIC - Arts. 9º a 14):**\n  * Mecanismo pelo qual o órgão atende a demandas individuais específicas formuladas pela sociedade.\n  * *Proibição de Exigência de Motivação (Art. 10, § 3º — técnica de distrator recorrente):* **São expressamente vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.** O requerente precisa apenas identificar-se (nome e documento) e especificar a informação pretendida.\n  * *Prazos Oficiais de Resposta:*\n    * Se a informação requerida estiver disponível, o acesso deve ser concedido de forma **imediata**.\n    * Não sendo possível o acesso imediato, o órgão público tem o prazo de **até 20 dias** para responder, prazo este que pode ser prorrogado por mais **10 dias** mediante justificativa expressa encaminhada ao cidadão.\n\n---\n\n\n\nO art. 8º tem regras específicas, incluindo tratamento de municípios com até dez mil habitantes no § 4º, sem eliminar as obrigações fiscais de transparência ali ressalvadas. A busca e o fornecimento são gratuitos, admitido ressarcimento de serviços e materiais de reprodução nas condições do art. 12, com isenção para quem se enquadre na hipótese legal. Identificar o requerente não autoriza exigências que inviabilizem a solicitação. A decisão negativa deve indicar fundamentos e meios de recurso.\n\n**Aplicação e recuperação:** Se o órgão já possui informação acessível, deve fornecê-la de imediato. Não sendo possível, há prazo e prorrogação motivada, não silêncio administrativo ilimitado.\n\n### A Classificação de Informações Sigilosas e os Prazos Máximos\n\nQuando a publicidade da informação comprometer a segurança da sociedade e do Estado (Art. 23), ela poderá ser excepcionalmente classificada em um dos três graus de sigilo (Art. 24):\n\n```timeline\nRES | 1. Grau Reservado | Até 5 Anos de Restrição | Classificável por autoridades até DAS 101.5. Salvaguarda planos estratégicos e operações em andamento.\n---> Escalação de Gravidade\nSEC | 2. Grau Secreto | Até 15 Anos de Restrição | Classificável por Ministros, Comandantes Militares e dirigentes de estatais/autarquias federais.\n---> Grau Máximo\nULTRA | 3. Grau Ultrassecreto | Até 25 Anos de Restrição | Prorrogável 1x pela CMRI (até +25 anos). Competência restrita: Presidência, Ministros, Forças Armadas e Chefes de Missão.\n```\n\n#### A. Prazos e competências — atenção ao âmbito\n\nA enumeração de autoridades do art. 27 refere-se à **administração pública federal**. Outros Poderes e entes regulamentam a aplicação conforme suas competências. Não transforme ministros e DAS em autoridades universais para qualquer biblioteca municipal ou parlamentar. Os prazos contam da produção da informação, com possibilidade de termo final por evento nas condições do art. 24.\n1. **Ultrassecreta (até 25 anos):**\n   * Classificada privativamente por: Presidente e Vice-Presidente da República; Ministros de Estado e autoridades com prerrogativas equivalentes; Comandantes da Marinha, do Exército e da Aeronáutica; Chefes de Missões Diplomáticas permanentes no exterior.\n   * *Prorrogação Única:* No âmbito pertinente, a CMRI pode prorrogar uma vez o prazo ultrassecreto, por período não superior a 25 anos, **nas condições do art. 35, § 1º, III, e § 2º**. Não é extensão automática de qualquer classificação.\n2. **Secreta (até 15 anos):**\n   * Classificada pelas autoridades acima indicadas, acrescidas dos dirigentes de autarquias, fundações públicas e empresas estatais federais.\n3. **Reservada (até 5 anos):**\n   * Classificada por todas as autoridades precedentes, acrescidas dos agentes públicos que exerçam funções de direção, comando ou chefia de nível DAS 101.5 (ou hierarquicamente equivalentes).\n\n#### B. Tutela de direitos fundamentais e violações de direitos humanos\nO art. 21 veda negar informação necessária à tutela judicial ou administrativa de direitos fundamentais e impede restrição sobre condutas de violação de direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas. Não use classificação de segurança para encobrir esses fatos. A aplicação deve preservar o acesso ao conteúdo pertinente e considerar a proteção de terceiros e dados que não sejam necessários à finalidade, sem converter isso em pretexto para ocultação do abuso.\n\nQuando apenas uma parte estiver protegida, o art. 7º, § 2º, prevê acesso à parte não sigilosa por certidão, extrato ou cópia com ocultação. A existência de um anexo protegido não torna automaticamente todo o processo secreto.\n\n**Aplicação e recuperação:** Um relatório tem valores públicos e um anexo médico. Ocultar a parte protegida pode permitir acesso ao restante, sem classificar tudo como ultrassecreto.\n\n### Proteção das Informações Pessoais (Art. 31 da LAI)\n\nA LAI, art. 31, trata de informações pessoais com respeito à intimidade, vida privada, honra, imagem, liberdades e garantias individuais. A restrição das informações abrangidas pelo § 1º, I, é de **até cem anos desde a produção**, independentemente da classificação de segurança. Não constitui quarto grau de sigilo nem prazo obrigatório para todo dado pessoal.\n\nO acesso pode ocorrer por agentes legalmente autorizados e pelo titular; divulgação ou acesso por terceiros depende de previsão legal ou consentimento, ressalvadas as hipóteses pertinentes. O § 3º dispensa consentimento em situações específicas, como prevenção/diagnóstico médico com as condições legais, estatísticas/pesquisas de evidente interesse público sem identificação, ordem judicial, defesa de direitos humanos e proteção de interesse público geral preponderante.\n\nO § 4º impede invocar a restrição para prejudicar apuração de irregularidades em que o titular esteja envolvido ou recuperação de fatos históricos de maior relevância. Essa regra não equivale a uma autorização geral para expor qualquer dado íntimo em todo processo administrativo.\n\n**Roteiro de aplicação:** identifique a informação concreta e o titular; determine finalidade e base de acesso; verifique necessidade, hipótese legal e proteção de terceiros; forneça a parte acessível; documente a decisão. “Contém nomes” não é fundamento suficiente para negar integralmente um documento de interesse público.\n\n**Aplicação e recuperação:** A presença do nome de servidor não basta para impor restrição por cem anos. Identifique informação e fundamento concretos.\n\n### A Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) no Setor Público\n\nA LGPD tem âmbito definido nos arts. 1º–4º, com hipóteses de incidência e exclusões específicas; não se aplica indistintamente a toda operação de qualquer pessoa:\n\n```tree\nTITLE: Conceitos Fundamentais da LGPD (Lei nº 13.709/2018)\n- Marco Legal da Proteção de Dados | Aplicação a pessoas naturais e pessoas jurídicas públicas e privadas\n  - Dado Pessoal | Informação relacionada a pessoa natural identificada ou identificável (nome, CPF, RG, IP, geolocalização)\n  - Dado Pessoal Sensível | Dados sobre origem racial/étnica, convicção religiosa, opinião política, saúde, biometria ou genética\n  - Tratamento pelo Setor Público | Exige base legal adequada à operação, princípios e condições do setor público; consentimento não é a única base\n  - Encarregado de Proteção (DPO) | Canal de comunicação institucional entre o controlador dos dados, os titulares e a ANPD\n```\n\n#### A. Princípios Norteadores do Tratamento (Art. 6º):\n* **Finalidade e Adequação:** Propósitos legítimos, específicos e informados ao titular, compatíveis com as atribuições legais da instituição.\n* **Necessidade (Minimização):** Limitação do tratamento ao mínimo necessário para a realização das finalidades públicas.\n* **Livre Acesso e Qualidade dos Dados:** Garantia aos titulares de consulta facilitada e exatidão dos registros.\n* **Segurança e Prevenção:** Adoção de medidas técnicas e organizacionais contra acessos não autorizados, incidentes e vazamentos.\n\n---\n\n\n\nA Lei 15.352/2026 atualizou a definição de encarregado e a referência à **Agência Nacional de Proteção de Dados (ANPD)**. Distinga controlador, operador e encarregado. Nem todo dado pessoal é sensível; sensíveis são as categorias do art. 5º, II. Pseudonimização pode manter possibilidade de associação e não equivale automaticamente à anonimização do art. 12.\n\nNo setor público, arts. 23–30 devem ser lidos com as bases dos arts. 7º e 11 conforme o dado e a operação. A dispensa de consentimento não afasta necessidade, adequação, segurança, transparência e responsabilização. Acesso a documento público não autoriza qualquer tratamento posterior para qualquer finalidade.\n\n**Aplicação e recuperação:** Cumprir obrigação legal pode dispensar consentimento para uma operação, sem autorizar coletar dados excessivos.\n\n### Ética da Informação e Neutralidade Técnica na Pesquisa Parlamentar\n\nNo ecossistema de assessoria informacional da Câmara dos Deputados e do Congresso Nacional, a atuação do bibliotecário e do analista documental rege-se por cânones deontológicos e funcionais intransigíveis:\n\n* **Princípio da Imparcialidade e Neutralidade Técnica:**\n  * O bibliotecário parlamentar atende a deputados federais de todas as agremiações políticas, ideologias e correntes partidárias (bancadas do governo e da oposição).\n  * Em consultas de pesquisa doutrinária, legislativa e jurisprudencial formuladas por parlamentares ou comissões, **é estritamente vedado ao bibliotecário direcionar a seleção informacional** para favorecer a tese política ou a preferência ideológica do solicitante.\n  * O dossiê bibliográfico deve refletir com método explícito, pluralidade pertinente e avaliação da qualidade das evidências o estado da arte do tema em debate, apresentando tanto a corrente doutrinária majoritária quanto os argumentos das correntes minoritárias e dissidentes.\n* **Sigilo Profissional da Demanda Parlamentar:** A confidencialidade da demanda depende das normas, atribuições e condições aplicáveis; não existe regra geral de sigilo automático de toda pesquisa até o protocolo de uma proposição. Proteção de demanda, sigilo legal e restrição de dados pessoais são fundamentos distintos.\n\n---\n\n\nImparcialidade não exige atribuir igual peso a evidências robustas e alegações sem fundamento. Uma pesquisa pode ter escopo específico solicitado, mas precisa declarar esse recorte, evitar manipulação e não ocultar deliberadamente fontes relevantes que contradigam uma conclusão apresentada como abrangente.\n\n**Aplicação e recuperação:** Relatório encomendado para uma tese específica precisa declarar o escopo e não apresentar busca seletiva como revisão completa e neutra.",
+  teoriaDidaticaMarkdown: "LAI combina divulgação e resposta a pedidos. Classificação de segurança, informação pessoal e outros sigilos têm fundamentos próprios. Cem anos é máximo específico, não sigilo automático. Acesso parcial pode preservar publicidade e proteção. LGPD exige base e princípios; consentimento não é universal. Pesquisa imparcial explicita recorte, fontes e limites.",
   checkpoints: [
-    {
-      id: 'cp-10-3-1',
-      pergunta: 'Micro-Checkpoint 1: Prazos Máximos de Sigilo na LAI',
-      item: 'Nos termos da Lei nº 12.527/2011 (LAI), os prazos máximos de restrição de acesso a informações classificadas como reservadas, secretas e ultrassecretas são de cinco, quinze e vinte e cinco anos, respectivamente.',
-      gabarito: 'C',
-      justificativa: 'Correto! Essa é a exata escala temporal de sigilo do Art. 24 da LAI: Reservada (5 anos), Secreta (15 anos) e Ultrassecreta (25 anos).',
-    },
-    {
-      id: 'cp-10-3-2',
-      pergunta: 'Micro-Checkpoint 2: Sigilo e Violações de Direitos Humanos',
-      item: 'Autoridades públicas competentes podem classificar como ultrassecretos documentos oficiais que contenham relatos e provas de violações de direitos humanos perpetradas por agentes do Estado, com a finalidade de proteger a soberania nacional.',
-      gabarito: 'E',
-      justificativa: 'Errado! O Art. 21 da LAI proíbe expressamente qualquer restrição de acesso a informações e documentos que versem sobre condutas que impliquem violação de direitos humanos praticada por agentes do Estado.',
-    },
-    {
-      id: 'cp-10-3-3',
-      pergunta: 'Micro-Checkpoint 3: Neutralidade Técnica na Pesquisa Legislativa',
-      item: 'Na elaboração de pesquisas informacionais solicitadas por gabinetes parlamentares, o bibliotecário legislativo deve selecionar preferencialmente a doutrina alinhada ao posicionamento partidário do solicitante para resguardar a celeridade do trabalho.',
-      gabarito: 'E',
-      justificativa: 'Errado! O princípio fundamental da atuação do bibliotecário público legislativo é a imparcialidade e a neutralidade técnica e doutrinária, apresentando o panorama plural e equilibrado das correntes jurídicas e doutrinárias vigentes.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-10-3-1',
-        periodo: '2011 / 2012',
-        disciplina: 'Lei de Acesso à Informação',
-        focoPrincipal: 'Sancionada a Lei nº 12.527/11, consolidando a transparência ativa, passiva e a escala de sigilo',
-        figuraChave: 'Congresso Nacional / CGU',
-      },
-      {
-        id: 'tl-10-3-2',
-        periodo: '2018 / 2020',
-        disciplina: 'Proteção de Dados Pessoais',
-        focoPrincipal: 'Promulgação da Lei nº 13.709/18 (LGPD) e criação da Autoridade Nacional de Proteção de Dados (ANPD)',
-        figuraChave: 'Congresso Nacional / ANPD',
-      },
-      {
-        id: 'tl-10-3-3',
-        periodo: '2024 / 2026',
-        disciplina: 'Governança Digital no Parlamento',
-        focoPrincipal: 'Regulamentação de diretrizes de proteção de dados e inteligência artificial no âmbito da Câmara dos Deputados',
-        figuraChave: 'Mesa Diretora da Câmara dos Deputados',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-10-3-1',
-        nome: 'Controladoria-Geral da União (CGU)',
-        ano: 2012,
-        obraPrincipal: 'Guia de Aplicação da Lei de Acesso à Informação na Administração Pública Federal',
-        ideiaChave: 'A publicidade é a regra geral; o sigilo é a exceção estrita e temporária.',
-        chipPegadinha: 'Dados pessoais têm proteção legal de até 100 anos, independente de sigilo da autoridade.',
-      },
-      {
-        id: 'aut-10-3-2',
-        nome: 'Autoridade Nacional de Proteção de Dados (ANPD)',
-        ano: 2021,
-        obraPrincipal: 'Guia Orientativo: Tratamento de Dados Pessoais pelo Poder Público',
-        ideiaChave: 'Princípios de adequação, necessidade e segurança da informação aplicados a arquivos e sistemas públicos.',
-        chipPegadinha: 'O poder público não precisa de consentimento para cumprir obrigação legal ou política pública.',
-      },
-      {
-        id: 'aut-10-3-3',
-        nome: 'Câmara dos Deputados',
-        ano: 2023,
-        obraPrincipal: 'Código de Ética e Guia de Atendimento Técnico da Consultoria e Biblioteca',
-        ideiaChave: 'A neutralidade técnica e o pluralismo doutrinário garantem a legitimidade democrática do parlamento.',
-        chipPegadinha: 'O bibliotecário legislativo não atua como assessor partidário de bancada, mas como servidor público de Estado.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-10-3-1',
-        afirmacao: 'O cidadão que formula um pedido de acesso à informação no âmbito da transparência passiva da LAI deve demonstrar seu legítimo interesse e expor a motivação da consulta como condição para a admissibilidade do pedido.',
-        gabarito: 'E',
-        porQue: 'A LAI proíbe expressamente exigir do cidadão a motivação ou os motivos de sua solicitação. O acesso à informação pública é um direito fundamental universal.',
-      },
-      {
-        id: 'peg-10-3-2',
-        afirmacao: 'O prazo de restrição de acesso a documentos públicos que contenham dados pessoais relativos à intimidade e vida privada de um indivíduo é de no máximo cinco anos.',
-        gabarito: 'E',
-        porQue: 'Informações pessoais relativas à intimidade, vida privada, honra e imagem têm prazo de proteção de ATÉ 100 ANOS contados de sua produção (Art. 31 da LAI).',
-      },
-      {
-        id: 'peg-10-3-3',
-        afirmacao: 'A informação classificada no grau de sigilo reservado pode ter seu acesso restringido pelo prazo máximo improrrogável de até quinze anos.',
-        gabarito: 'E',
-        porQue: 'O grau RESERVADO tem prazo máximo de ATÉ 5 ANOS. O prazo de até 15 anos aplica-se exclusivamente ao grau SECRETO.',
-      },
-      {
-        id: 'peg-10-3-4',
-        afirmacao: 'Para atender com fidelidade aos interesses do parlamentar solicitante, o bibliotecário legislativo deve suprimir doutrinas contrárias ao posicionamento da base governista em pesquisas regimentais.',
-        gabarito: 'E',
-        porQue: 'A atuação do bibliotecário público legislativo orienta-se pela estrita imparcialidade, neutralidade doutrinária e representação plural das correntes do pensamento jurídico.',
-      },
-    ],
+  {
+    "id": "cp-10-3-1",
+    "pergunta": "Micro-Checkpoint 1: Prazos Máximos de Sigilo na LAI",
+    "item": "Nos termos da Lei nº 12.527/2011 (LAI), os prazos máximos de restrição de acesso a informações classificadas como reservadas, secretas e ultrassecretas são de cinco, quinze e vinte e cinco anos, respectivamente.",
+    "gabarito": "C",
+    "justificativa": "Correto! Essa é a exata escala temporal de sigilo do Art. 24 da LAI: Reservada (5 anos), Secreta (15 anos) e Ultrassecreta (25 anos).",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público."
   },
+  {
+    "id": "cp-10-3-2",
+    "pergunta": "Micro-Checkpoint 2: Sigilo e Violações de Direitos Humanos",
+    "item": "Autoridades públicas competentes podem classificar como ultrassecretos documentos oficiais que contenham relatos e provas de violações de direitos humanos perpetradas por agentes do Estado, com a finalidade de proteger a soberania nacional.",
+    "gabarito": "E",
+    "justificativa": "Errado! O Art. 21 da LAI proíbe expressamente qualquer restrição de acesso a informações e documentos que versem sobre condutas que impliquem violação de direitos humanos praticada por agentes do Estado.",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público.",
+    "versao_correta": "A LAI impede usar restrição de acesso para encobrir informações sobre violações de direitos humanos nas condições do art. 21."
+  },
+  {
+    "id": "cp-10-3-3",
+    "pergunta": "Micro-Checkpoint 3: Neutralidade Técnica na Pesquisa Legislativa",
+    "item": "Na elaboração de pesquisas informacionais solicitadas por gabinetes parlamentares, o bibliotecário legislativo deve selecionar preferencialmente a doutrina alinhada ao posicionamento partidário do solicitante para resguardar a celeridade do trabalho.",
+    "gabarito": "E",
+    "justificativa": "Errado. Atender com celeridade não autoriza selecionar doutrina apenas para confirmar preferência partidária e apresentar isso como pesquisa abrangente. O recorte pode ser delimitado, mas deve ser declarado e acompanhado de método e fontes pertinentes.",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público.",
+    "versao_correta": "A pesquisa deve observar método, escopo declarado, qualidade de fontes e imparcialidade profissional."
+  },
+  {
+    "id": "rt-10-3-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Transparência ativa dispensa responder qualquer pedido posterior sobre dados não publicados no portal.",
+    "gabarito": "E",
+    "justificativa": "Publicação de ofício e atendimento de requerimentos são deveres relacionados, mas distintos.",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público.",
+    "editalRef": "Conhecimentos Básicos - Administração da Câmara e Transparência",
+    "habilidade": "aplicar",
+    "versao_correta": "Pedidos devem ser analisados conforme a LAI."
+  },
+  {
+    "id": "rt-10-3-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A classificação de segurança e a proteção de informações pessoais são regimes distintos da LAI.",
+    "gabarito": "C",
+    "justificativa": "Os graus do art. 24 não se confundem com a restrição do art. 31.",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público.",
+    "editalRef": "Conhecimentos Básicos - Administração da Câmara e Transparência",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-10-3-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Todo documento que menciona pessoa natural deve permanecer integralmente inacessível por cem anos.",
+    "gabarito": "E",
+    "justificativa": "O regime exige analisar informação, contexto, hipóteses e acesso parcial.",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público.",
+    "editalRef": "Conhecimentos Básicos - Administração da Câmara e Transparência",
+    "habilidade": "aplicar",
+    "versao_correta": "A restrição é delimitada e não incide automaticamente sobre todo documento com nomes."
+  },
+  {
+    "id": "rt-10-3-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma base legal diferente de consentimento dispensa o cumprimento dos princípios da LGPD.",
+    "gabarito": "E",
+    "justificativa": "Finalidade, necessidade e segurança continuam exigíveis.",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público.",
+    "editalRef": "Conhecimentos Básicos - Administração da Câmara e Transparência",
+    "habilidade": "aplicar",
+    "versao_correta": "Base legal e princípios devem ser observados conjuntamente."
+  },
+  {
+    "id": "rt-10-3-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Imparcialidade exige conferir sempre peso idêntico a evidência científica robusta e alegação sem fundamento.",
+    "gabarito": "E",
+    "justificativa": "É preciso avaliar qualidade, pertinência e limites das evidências.",
+    "fonte": "Lei 12.527/2011 — LAI — Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.; Lei 13.709/2018 — LGPD — Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.; ANPD — documentos e publicações — Orientações de tratamento de dados pelo poder público.",
+    "editalRef": "Conhecimentos Básicos - Administração da Câmara e Transparência",
+    "habilidade": "aplicar",
+    "versao_correta": "Pluralidade não dispensa análise crítica das fontes."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-10-3-fonte-lai",
+      "nome": "Lei 12.527/2011 — LAI",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 12.527/2011 — LAI",
+      "ideiaChave": "Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-10-3-fonte-lgpd",
+      "nome": "Lei 13.709/2018 — LGPD",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 13.709/2018 — LGPD",
+      "ideiaChave": "Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-10-3-fonte-anpd",
+      "nome": "ANPD — documentos e publicações",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ANPD — documentos e publicações",
+      "ideiaChave": "Orientações de tratamento de dados pelo poder público.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-10-3-3",
+      "afirmacao": "Todo documento que menciona pessoa natural deve permanecer integralmente inacessível por cem anos.",
+      "gabarito": "E",
+      "porQue": "O regime exige analisar informação, contexto, hipóteses e acesso parcial."
+    },
+    {
+      "id": "memoria-rt-10-3-4",
+      "afirmacao": "Uma base legal diferente de consentimento dispensa o cumprimento dos princípios da LGPD.",
+      "gabarito": "E",
+      "porQue": "Finalidade, necessidade e segurança continuam exigíveis."
+    },
+    {
+      "id": "memoria-rt-10-3-5",
+      "afirmacao": "Imparcialidade exige conferir sempre peso idêntico a evidência científica robusta e alegação sem fundamento.",
+      "gabarito": "E",
+      "porQue": "É preciso avaliar qualidade, pertinência e limites das evidências."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-10-3-bloco-1",
+    "titulo": "O Marco Regulatório da Transparência Pública: A Lei nº 12.527/2011 (LAI)",
+    "objetivos": [
+      "Aplicar publicidade e resposta a pedidos com âmbito e exceções próprios."
+    ],
+    "conteudo": "A Lei de Acesso à Informação regulamenta o direito fundamental consagrado no **Art. 5º, XXXIII**, no **Art. 37, § 3º, II** e no **Art. 216, § 2º** da Constituição Federal de 1988, aplicável a todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios, e, no que couber, às entidades privadas sem fins lucrativos abrangidas pelo art. 2º, quanto à parcela dos recursos públicos recebidos e sua destinação:\n\n```tree\nTITLE: Princípios Estruturantes da LAI (Lei nº 12.527/2011)\n- Direito Constitucional de Acesso (CF/88) | Arts. 5º XXXIII, 37 § 3º II e 216 § 2º\n  - Lei de Acesso à Informação (LAI) | Marco regulatório da transparência republicana\n    - Publicidade como Regra Geral | Acesso amplo de ofício (transparência ativa) e sob demanda (passiva)\n    - Sigilo como Exceção Estrita | Classificação por segurança é regime específico; proteção pessoal e outros sigilos legais têm fundamentos próprios\n    - Gratuidade do Acesso | Isenção total de tarifas, admitida cobrança exclusiva de custos de reprografia\n    - Vedação de Exigência de Motivo | Ilegalidade de qualquer exigência sobre os motivos determinantes do pedido\n```\n\n#### A. Diretrizes Fundamentais (Art. 3º):\n1. A **publicidade como preceito geral** e o **sigilo como exceção**;\n2. Divulgação de informações de interesse público, independentemente de solicitações;\n3. Utilização de meios de comunicação viabilizados pela tecnologia da informação;\n4. Fomento ao desenvolvimento da cultura de transparência na administração pública;\n5. Desenvolvimento do controle social da administração pública.\n\n#### B. Transparência Ativa vs. Transparência Passiva\n* **Transparência Ativa (Art. 8º):**\n  * Dever de ofício dos órgãos e entidades públicas de promover a divulgação na Internet de informações de interesse coletivo ou geral produzidas ou custodiadas por eles, **independentemente de qualquer requerimento cidadão**.\n  * *Requisitos Mínimos Obrigatórios:* Registro das competências e estrutura organizacional; endereços e telefones das unidades e horários de atendimento; registros de quaisquer repasses ou transferências de recursos financeiros; registros das despesas e receitas; informações concernentes a procedimentos licitatórios (com editais e contratos na íntegra); dados gerais para o acompanhamento de programas, ações, projetos e obras; respostas a perguntas mais frequentes da sociedade (FAQ).\n  * *Padrões Tecnológicos:* Formatos abertos, estruturados e legíveis por máquina (ex.: CSV, JSON, XML), observados requisitos de autenticidade, integridade e acesso; ser CSV ou JSON não comprova, sozinho, a autenticidade ou integridade.\n* **Transparência Passiva (Serviço de Informações ao Cidadão - SIC - Arts. 9º a 14):**\n  * Mecanismo pelo qual o órgão atende a demandas individuais específicas formuladas pela sociedade.\n  * *Proibição de Exigência de Motivação (Art. 10, § 3º — técnica de distrator recorrente):* **São expressamente vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.** O requerente precisa apenas identificar-se (nome e documento) e especificar a informação pretendida.\n  * *Prazos Oficiais de Resposta:*\n    * Se a informação requerida estiver disponível, o acesso deve ser concedido de forma **imediata**.\n    * Não sendo possível o acesso imediato, o órgão público tem o prazo de **até 20 dias** para responder, prazo este que pode ser prorrogado por mais **10 dias** mediante justificativa expressa encaminhada ao cidadão.\n\n---\n\n\n\nO art. 8º tem regras específicas, incluindo tratamento de municípios com até dez mil habitantes no § 4º, sem eliminar as obrigações fiscais de transparência ali ressalvadas. A busca e o fornecimento são gratuitos, admitido ressarcimento de serviços e materiais de reprodução nas condições do art. 12, com isenção para quem se enquadre na hipótese legal. Identificar o requerente não autoriza exigências que inviabilizem a solicitação. A decisão negativa deve indicar fundamentos e meios de recurso.\n\n**Aplicação e recuperação:** Se o órgão já possui informação acessível, deve fornecê-la de imediato. Não sendo possível, há prazo e prorrogação motivada, não silêncio administrativo ilimitado.",
+    "checkpointIds": [
+      "rt-10-3-1"
+    ]
+  },
+  {
+    "id": "sub-10-3-bloco-2",
+    "titulo": "A Classificação de Informações Sigilosas e os Prazos Máximos",
+    "objetivos": [
+      "Distinguir classificação de segurança, acesso parcial e proteção de direitos."
+    ],
+    "conteudo": "Quando a publicidade da informação comprometer a segurança da sociedade e do Estado (Art. 23), ela poderá ser excepcionalmente classificada em um dos três graus de sigilo (Art. 24):\n\n```timeline\nRES | 1. Grau Reservado | Até 5 Anos de Restrição | Classificável por autoridades até DAS 101.5. Salvaguarda planos estratégicos e operações em andamento.\n---> Escalação de Gravidade\nSEC | 2. Grau Secreto | Até 15 Anos de Restrição | Classificável por Ministros, Comandantes Militares e dirigentes de estatais/autarquias federais.\n---> Grau Máximo\nULTRA | 3. Grau Ultrassecreto | Até 25 Anos de Restrição | Prorrogável 1x pela CMRI (até +25 anos). Competência restrita: Presidência, Ministros, Forças Armadas e Chefes de Missão.\n```\n\n#### A. Prazos e competências — atenção ao âmbito\n\nA enumeração de autoridades do art. 27 refere-se à **administração pública federal**. Outros Poderes e entes regulamentam a aplicação conforme suas competências. Não transforme ministros e DAS em autoridades universais para qualquer biblioteca municipal ou parlamentar. Os prazos contam da produção da informação, com possibilidade de termo final por evento nas condições do art. 24.\n1. **Ultrassecreta (até 25 anos):**\n   * Classificada privativamente por: Presidente e Vice-Presidente da República; Ministros de Estado e autoridades com prerrogativas equivalentes; Comandantes da Marinha, do Exército e da Aeronáutica; Chefes de Missões Diplomáticas permanentes no exterior.\n   * *Prorrogação Única:* No âmbito pertinente, a CMRI pode prorrogar uma vez o prazo ultrassecreto, por período não superior a 25 anos, **nas condições do art. 35, § 1º, III, e § 2º**. Não é extensão automática de qualquer classificação.\n2. **Secreta (até 15 anos):**\n   * Classificada pelas autoridades acima indicadas, acrescidas dos dirigentes de autarquias, fundações públicas e empresas estatais federais.\n3. **Reservada (até 5 anos):**\n   * Classificada por todas as autoridades precedentes, acrescidas dos agentes públicos que exerçam funções de direção, comando ou chefia de nível DAS 101.5 (ou hierarquicamente equivalentes).\n\n#### B. Tutela de direitos fundamentais e violações de direitos humanos\nO art. 21 veda negar informação necessária à tutela judicial ou administrativa de direitos fundamentais e impede restrição sobre condutas de violação de direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas. Não use classificação de segurança para encobrir esses fatos. A aplicação deve preservar o acesso ao conteúdo pertinente e considerar a proteção de terceiros e dados que não sejam necessários à finalidade, sem converter isso em pretexto para ocultação do abuso.\n\nQuando apenas uma parte estiver protegida, o art. 7º, § 2º, prevê acesso à parte não sigilosa por certidão, extrato ou cópia com ocultação. A existência de um anexo protegido não torna automaticamente todo o processo secreto.\n\n**Aplicação e recuperação:** Um relatório tem valores públicos e um anexo médico. Ocultar a parte protegida pode permitir acesso ao restante, sem classificar tudo como ultrassecreto.",
+    "checkpointIds": [
+      "cp-10-3-1",
+      "cp-10-3-2",
+      "rt-10-3-2"
+    ]
+  },
+  {
+    "id": "sub-10-3-bloco-3",
+    "titulo": "Proteção das Informações Pessoais (Art. 31 da LAI)",
+    "objetivos": [
+      "Interpretar o art. 31 sem criar sigilo geral de cem anos."
+    ],
+    "conteudo": "A LAI, art. 31, trata de informações pessoais com respeito à intimidade, vida privada, honra, imagem, liberdades e garantias individuais. A restrição das informações abrangidas pelo § 1º, I, é de **até cem anos desde a produção**, independentemente da classificação de segurança. Não constitui quarto grau de sigilo nem prazo obrigatório para todo dado pessoal.\n\nO acesso pode ocorrer por agentes legalmente autorizados e pelo titular; divulgação ou acesso por terceiros depende de previsão legal ou consentimento, ressalvadas as hipóteses pertinentes. O § 3º dispensa consentimento em situações específicas, como prevenção/diagnóstico médico com as condições legais, estatísticas/pesquisas de evidente interesse público sem identificação, ordem judicial, defesa de direitos humanos e proteção de interesse público geral preponderante.\n\nO § 4º impede invocar a restrição para prejudicar apuração de irregularidades em que o titular esteja envolvido ou recuperação de fatos históricos de maior relevância. Essa regra não equivale a uma autorização geral para expor qualquer dado íntimo em todo processo administrativo.\n\n**Roteiro de aplicação:** identifique a informação concreta e o titular; determine finalidade e base de acesso; verifique necessidade, hipótese legal e proteção de terceiros; forneça a parte acessível; documente a decisão. “Contém nomes” não é fundamento suficiente para negar integralmente um documento de interesse público.\n\n**Aplicação e recuperação:** A presença do nome de servidor não basta para impor restrição por cem anos. Identifique informação e fundamento concretos.",
+    "checkpointIds": [
+      "rt-10-3-3"
+    ]
+  },
+  {
+    "id": "sub-10-3-bloco-4",
+    "titulo": "A Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) no Setor Público",
+    "objetivos": [
+      "Compatibilizar base legal, princípios e categorias de dados."
+    ],
+    "conteudo": "A LGPD tem âmbito definido nos arts. 1º–4º, com hipóteses de incidência e exclusões específicas; não se aplica indistintamente a toda operação de qualquer pessoa:\n\n```tree\nTITLE: Conceitos Fundamentais da LGPD (Lei nº 13.709/2018)\n- Marco Legal da Proteção de Dados | Aplicação a pessoas naturais e pessoas jurídicas públicas e privadas\n  - Dado Pessoal | Informação relacionada a pessoa natural identificada ou identificável (nome, CPF, RG, IP, geolocalização)\n  - Dado Pessoal Sensível | Dados sobre origem racial/étnica, convicção religiosa, opinião política, saúde, biometria ou genética\n  - Tratamento pelo Setor Público | Exige base legal adequada à operação, princípios e condições do setor público; consentimento não é a única base\n  - Encarregado de Proteção (DPO) | Canal de comunicação institucional entre o controlador dos dados, os titulares e a ANPD\n```\n\n#### A. Princípios Norteadores do Tratamento (Art. 6º):\n* **Finalidade e Adequação:** Propósitos legítimos, específicos e informados ao titular, compatíveis com as atribuições legais da instituição.\n* **Necessidade (Minimização):** Limitação do tratamento ao mínimo necessário para a realização das finalidades públicas.\n* **Livre Acesso e Qualidade dos Dados:** Garantia aos titulares de consulta facilitada e exatidão dos registros.\n* **Segurança e Prevenção:** Adoção de medidas técnicas e organizacionais contra acessos não autorizados, incidentes e vazamentos.\n\n---\n\n\n\nA Lei 15.352/2026 atualizou a definição de encarregado e a referência à **Agência Nacional de Proteção de Dados (ANPD)**. Distinga controlador, operador e encarregado. Nem todo dado pessoal é sensível; sensíveis são as categorias do art. 5º, II. Pseudonimização pode manter possibilidade de associação e não equivale automaticamente à anonimização do art. 12.\n\nNo setor público, arts. 23–30 devem ser lidos com as bases dos arts. 7º e 11 conforme o dado e a operação. A dispensa de consentimento não afasta necessidade, adequação, segurança, transparência e responsabilização. Acesso a documento público não autoriza qualquer tratamento posterior para qualquer finalidade.\n\n**Aplicação e recuperação:** Cumprir obrigação legal pode dispensar consentimento para uma operação, sem autorizar coletar dados excessivos.",
+    "checkpointIds": [
+      "rt-10-3-4"
+    ]
+  },
+  {
+    "id": "sub-10-3-bloco-5",
+    "titulo": "Ética da Informação e Neutralidade Técnica na Pesquisa Parlamentar",
+    "objetivos": [
+      "Produzir pesquisa imparcial com recorte e limites declarados."
+    ],
+    "conteudo": "No ecossistema de assessoria informacional da Câmara dos Deputados e do Congresso Nacional, a atuação do bibliotecário e do analista documental rege-se por cânones deontológicos e funcionais intransigíveis:\n\n* **Princípio da Imparcialidade e Neutralidade Técnica:**\n  * O bibliotecário parlamentar atende a deputados federais de todas as agremiações políticas, ideologias e correntes partidárias (bancadas do governo e da oposição).\n  * Em consultas de pesquisa doutrinária, legislativa e jurisprudencial formuladas por parlamentares ou comissões, **é estritamente vedado ao bibliotecário direcionar a seleção informacional** para favorecer a tese política ou a preferência ideológica do solicitante.\n  * O dossiê bibliográfico deve refletir com método explícito, pluralidade pertinente e avaliação da qualidade das evidências o estado da arte do tema em debate, apresentando tanto a corrente doutrinária majoritária quanto os argumentos das correntes minoritárias e dissidentes.\n* **Sigilo Profissional da Demanda Parlamentar:** A confidencialidade da demanda depende das normas, atribuições e condições aplicáveis; não existe regra geral de sigilo automático de toda pesquisa até o protocolo de uma proposição. Proteção de demanda, sigilo legal e restrição de dados pessoais são fundamentos distintos.\n\n---\n\n\nImparcialidade não exige atribuir igual peso a evidências robustas e alegações sem fundamento. Uma pesquisa pode ter escopo específico solicitado, mas precisa declarar esse recorte, evitar manipulação e não ocultar deliberadamente fontes relevantes que contradigam uma conclusão apresentada como abrangente.\n\n**Aplicação e recuperação:** Relatório encomendado para uma tese específica precisa declarar o escopo e não apresentar busca seletiva como revisão completa e neutra.",
+    "checkpointIds": [
+      "cp-10-3-3",
+      "rt-10-3-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "lai",
+    "titulo": "Lei 12.527/2011 — LAI",
+    "localizador": "Arts. 2º, 7º–14, 21, 24, 27, 31 e 35.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+  },
+  {
+    "id": "lgpd",
+    "titulo": "Lei 13.709/2018 — LGPD",
+    "localizador": "Texto atualizado, inclusive alterações de 2026; arts. 4º–7º, 11–12 e 23–30.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html"
+  },
+  {
+    "id": "anpd",
+    "titulo": "ANPD — documentos e publicações",
+    "localizador": "Orientações de tratamento de dados pelo poder público.",
+    "url": "https://www.gov.br/anpd/pt-br/documentos-e-publicacoes"
+  }
+],
 };

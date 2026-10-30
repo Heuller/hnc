@@ -269,14 +269,14 @@ export function gerarBlocoMetricasMarkdown(): string {
 | **Suíte de Testes Automatizados** | **${totalTestes} testes** | 100% aprovados em Vitest (${arquivosTeste} arquivos de teste) |
 | **Qualidade e Estilo (Oxlint)** | **${avisos} avisos, ${erros} erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **${metricasQ.cadernosSimuladosCount} cadernos** | ${metricasQ.totalQuestoesSimulados.toLocaleString('pt-BR')} itens em cadernos de prova |
-| **Questões nos Submódulos Teóricos** | **${metricasQ.questoesAmpliadas} itens** | Checkpoints e fixação de conteúdo em teoria |
-| **Total Global de Questões Cebraspe** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')} itens** | Soma exata de todos os ${metricasQ.arquivosCount} arquivos em \`src/content/questions\` |
-| **Distribuição Global de Gabaritos** | **${metricasQ.pctCerto}% Certo** | ${metricasQ.totalCertos.toLocaleString('pt-BR')} C / ${metricasQ.totalErrados.toLocaleString('pt-BR')} E (faixa alvo 46–56%) |
+| **Fixação no Banco Complementar** | **${metricasQ.questoesAmpliadas} itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
+| **Itens no Banco de Questões** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')} itens** | Soma exata de todos os ${metricasQ.arquivosCount} arquivos em \`src/content/questions\` |
+| **Distribuição Global de Gabaritos** | **${metricasQ.pctCerto}% Certo** | ${metricasQ.totalCertos.toLocaleString('pt-BR')} C / ${metricasQ.totalErrados.toLocaleString('pt-BR')} E (faixa editorial 46–56%, não regra da banca) |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
-| **Inéditas (\`inedita\`)** | **${metricasQ.porTipo.inedita.toLocaleString('pt-BR')}** | **${pctInedita}%** | Elaboração própria alinhada ao padrão e jurisprudência Cebraspe |
+| **Inéditas (\`inedita\`)** | **${metricasQ.porTipo.inedita.toLocaleString('pt-BR')}** | **${pctInedita}%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
 | **Adaptadas (\`adaptada\`)** | **${metricasQ.porTipo.adaptada.toLocaleString('pt-BR')}** | **${pctAdaptada}%** | Itens de provas anteriores com ajuste factual de assertiva |
 | **Reais Confirmadas (\`real-confirmada\`)** | **${metricasQ.porTipo['real-confirmada'].toLocaleString('pt-BR')}** | **${pctReal}%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
 | **Em Conferência (\`em-conferencia\`)** | **${metricasQ.porTipo['em-conferencia'].toLocaleString('pt-BR')}** | **${pctConf}%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |

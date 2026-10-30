@@ -1,0 +1,170 @@
+{
+  "id": "sub-10-1",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-10-1-bloco-1",
+      "titulo": "Sede, sessões preparatórias, Mesa e lideranças",
+      "objetivos": [
+        "Aplicar permissões e restrições da Mesa na redação de 2026."
+      ],
+      "conteudo": "O **RICD**, aprovado pela Resolução 17/1989 e alterado por resoluções posteriores, disciplina trabalhos e organização da Câmara. O texto deve ser lido na redação aplicável à data de corte: uma regra antiga não permanece válida apenas por constar de uma apostila.\n\n### Sede e preparação da legislatura\n\nO art. 1º fixa funcionamento no Palácio do Congresso Nacional, na Capital Federal. Por motivo relevante ou de força maior, a Mesa pode deliberar pela reunião em outro edifício ou ponto do território nacional, **ad referendum da maioria absoluta dos deputados**. Não é simples decisão unilateral de qualquer parlamentar.\n\nA primeira e a terceira sessões legislativas ordinárias são precedidas de preparatórias. No primeiro ano, a sessão de posse ocorre em **1º de fevereiro**. A direção segue o art. 4º, § 1º: último Presidente, se reeleito deputado, e, na falta, o mais idoso dentre os de maior número de legislaturas. O compromisso não pode ser livremente modificado nem prestado por procurador. Há hipóteses regimentais específicas de participação por videoconferência; não confundir essa previsão com procuração.\n\n### Composição e competências da Mesa\n\nA Mesa compreende Presidente, dois Vice-Presidentes e quatro Secretários; conta ainda com quatro suplentes de Secretário (art. 14). Mandato é de dois anos; a regra de recondução deve ser lida na Constituição, no RICD e na jurisprudência aplicável, distinguindo legislaturas. A competência individual é fixada em ato da Mesa, conforme art. 14, § 6º. Não memorize como norma permanente uma lista informal de atribuições dos Secretários.\n\n**Alteração decisiva de 2026:** a Resolução **33/2026**, publicada em 24/04/2026, modificou o art. 14. Pelo § 7º, **exceto o Presidente**, membros da Mesa podem integrar comissão permanente ou temporária, sem exercer Presidência ou Vice-Presidência da comissão. Pelo § 5º, membros que exerçam atribuições de gestão, superintendência, supervisão e gerenciamento não podem ser Líder ou Vice-Líder nem integrar CPI e Conselho de Ética, conforme disciplina em Ato da Mesa.\n\nLogo, tanto “todos estão proibidos de integrar qualquer comissão” quanto “todos podem integrar qualquer comissão sem restrições” estão errados na redação atual. Leia conjuntamente as permissões, a exceção relativa ao Presidente e as vedações específicas.\n\n### Líderes e blocos\n\nOs arts. 9º–12 tratam de reconhecimento, escolha e prerrogativas. Líder pode indicar membros para comissões, orientar votação e exercer outras atribuições nos limites regimentais; não possui direito irrestrito de falar por qualquer tempo. Blocos resultam de duas ou mais representações, sob liderança comum. Não se admite bloco com menos de **três centésimos** dos membros; o desligamento que faça perder o mínimo extingue o bloco. Lideranças dos partidos integrantes perdem suas prerrogativas na forma do art. 12. Bloco e federação partidária não são institutos idênticos.\n\n**Aplicação e recuperação:** Um membro da Mesa pode integrar comissão permanente sem presidi-la, observadas as vedações específicas. A regra mudou em 2026; leia os §§ 5º e 7º juntos.",
+      "checkpointIds": [
+        "cp-10-1-1",
+        "rt-10-1-1"
+      ]
+    },
+    {
+      "id": "sub-10-1-bloco-2",
+      "titulo": "Sessões, fases e quóruns",
+      "objetivos": [
+        "Diferenciar fases, modalidades, presença e votos necessários."
+      ],
+      "conteudo": "O art. 65 distingue sessões preparatórias, deliberativas e não deliberativas. As deliberativas podem ser **ordinárias** ou **extraordinárias**; as não deliberativas incluem debates e solenidades. Sigilo tem disciplina própria nos arts. 92–94 e não elimina a necessidade de identificar a natureza e a finalidade da reunião.\n\nAs ordinárias ocorrem de terça a quinta-feira, às 14h, conforme o art. 65. As sessões de debates têm horários próprios às segundas e sextas-feiras e não possuem Ordem do Dia. Não transplante a duração de cinco horas de debates para uma regra geral de toda sessão ordinária.\n\n### Fases do art. 66\n\n| Fase | Previsão principal |\n|---|---|\n| Pequeno Expediente | Sessenta minutos improrrogáveis; expediente e comunicações. |\n| Grande Expediente | Cinquenta minutos improrrogáveis, observados os horários regimentais. |\n| Ordem do Dia | Início previsto às 16h; discussão e votação das matérias pautadas. |\n| Comunicações Parlamentares | Se houver tempo; representantes indicados pelos Líderes. |\n\nA sequência admite regras de adaptação: o Presidente pode determinar que a Ordem do Dia absorva o tempo do Grande Expediente; pode também não designar Ordem do Dia, convertendo a sessão em debates (art. 66, §§ 2º–3º). Portanto, “quatro fases compulsoriamente imutáveis” é generalização incorreta.\n\n### Abertura não equivale a votação\n\nO art. **79, § 2º**, prevê abertura com a décima parte dos deputados, **desprezada a fração**. Com 513 membros, resulta em **51**, e não 52. Sem o número, aguarda-se meia hora nas condições do § 3º. Para deliberação, aplicam-se presença e quórum de aprovação pertinentes: a regra constitucional geral exige maioria absoluta presente, com decisões por maioria de votos, salvo previsão diferente. Com composição de 513, a maioria absoluta é 257.\n\nNão use “quórum de abertura”, “presença para deliberação” e “votos favoráveis para aprovar” como sinônimos. Uma sessão pode começar sem haver número para votar; uma matéria pode exigir quórum de aprovação superior à maioria simples.\n\n### Extraordinárias, solenes e secretas\n\nA extraordinária é destinada às matérias de sua Ordem do Dia (art. 67). A solene, regulada no art. **68**, independe de número, com oradores designados e finalidade própria. Não é o art. 94 que regula sua abertura.\n\nNos termos do art. 92, a convocação secreta pode ocorrer automaticamente em hipóteses de requerimento ali previstas, ou por deliberação plenária nas condições do inciso II; há matérias obrigatoriamente secretas no parágrafo único. O art. 93 prevê retirada de pessoas estranhas, inclusive funcionários, e o art. 94 delimita quem pode assistir e quando convidados específicos participam. Não há regra de manter todo servidor presente bastando jurar sigilo.\n\n**Aplicação e recuperação:** Com 513 membros, a décima parte desprezada a fração é 51. Isso abre a sessão nos termos do art. 79, mas não autoriza deliberação sem presença suficiente.",
+      "checkpointIds": [
+        "cp-10-1-2",
+        "rt-10-1-2"
+      ]
+    },
+    {
+      "id": "sub-10-1-bloco-3",
+      "titulo": "Exercício do mandato, palavra, aparte e disciplina",
+      "objetivos": [
+        "Relacionar prerrogativas a limites e procedimentos."
+      ],
+      "conteudo": "O art. **226** reúne direitos de atuação parlamentar: oferecer proposições, discutir, deliberar, votar e ser votado, integrar comissões e representações e fazer uso da palavra nos termos do Regimento. Pedidos escritos de informação a Ministro de Estado são encaminhados **por intermédio da Mesa**; não equivalem a poder individual irrestrito de requisitar qualquer dado de qualquer autoridade.\n\nO art. 227 disciplina registro de presença; o art. 228, ciência de afastamento do território nacional; o art. 229, declaração de bens e fontes de renda. O art. 230 trata de afastamento para cargo do art. 56, I, da Constituição, não do aparte. A numeração correta ajuda a recuperar a regra e evita atribuir ao artigo um tema que ele não trata.\n\n### Uso da palavra e aparte\n\nO uso da palavra tem hipóteses e condições regimentais, entre elas discussão, questão de ordem, reclamação e encaminhamento. O **aparte**, no art. **176**, é interrupção breve e oportuna para indagação ou esclarecimento relativo à matéria. Exige solicitação e permissão do orador e integra seu tempo.\n\nO § 2º não admite aparte à palavra do Presidente, paralelo a discurso, a parecer oral, no encaminhamento de votação, quando houver recusa geral do orador, em questão de ordem ou reclamação e nas comunicações indicadas no dispositivo. **Consentimento não afasta uma proibição regimental**. Diferencie permissão necessária de condição suficiente.\n\n### Disciplina e mandato\n\nAs medidas disciplinares precisam ser lidas com o Código de Ética e Decoro Parlamentar, distinguindo autoridade competente, procedimento e defesa. Não atribua censura ou perda de mandato automaticamente ao art. 240 sem conferir sua hipótese.\n\nNa Constituição, art. 55, a perda por incompatibilidades, quebra de decoro e condenação criminal tem disciplina no § 2º; faltas às sessões ordinárias, perda/suspensão de direitos políticos e decisão da Justiça Eleitoral recebem disciplina no § 3º. Há nuances jurisprudenciais na execução de condenações. Não trate toda perda como “cassação automática pela Mesa”.\n\nNa hipótese de faltas, examine a terça parte das sessões ordinárias em cada sessão legislativa e a ressalva de licença ou missão autorizada. O direito de defesa permanece relevante. Uma pesquisa documental precisa identificar fundamento, órgão, decisão, fase e data, em vez de inferir o resultado de uma manchete.\n\n**Aplicação e recuperação:** O orador concorda com aparte durante questão de ordem. A concordância não torna lícito o que o art. 176 proíbe.",
+      "checkpointIds": [
+        "cp-10-1-3",
+        "rt-10-1-3"
+      ]
+    },
+    {
+      "id": "sub-10-1-bloco-4",
+      "titulo": "Administração, polícia e fontes institucionais",
+      "objetivos": [
+        "Localizar a norma correta para organização e serviços."
+      ],
+      "conteudo": "Nos arts. **262–264**, o RICD trata de regulamentos dos serviços administrativos, direção pela Mesa, parecer para modificações e encaminhamento de reclamações. Os regulamentos especiais e atos internos complementam o Regimento; não cabe inventar que cada unidade administrativa tenha sua estrutura descrita nos artigos finais.\n\nO art. **265** prevê órgãos próprios de administração e controle, ordenação de despesas pelo Diretor-Geral dentro dos limites e encaminhamento de contas ao TCU nas condições do dispositivo. O art. **266** trata do patrimônio, não da polícia. A organização de cargos e a iniciativa da Mesa devem ser compatibilizadas com o art. 51, IV, da Constituição, que exige lei específica para fixação de remuneração, observadas as condições constitucionais.\n\n### Polícia e segurança\n\nOs arts. **267–273** tratam de ordem, disciplina, inquérito, policiamento, armas, ingresso e comércio. Pelo art. 269, a presidência do inquérito depende inclusive de ser ou não membro da Casa o indiciado/preso; não é sempre o diretor da segurança. O art. 270 atribui o policiamento privativamente à Mesa, sob direção suprema do Presidente, e prevê formas de apoio nas condições do parágrafo único. Não transforme autonomia em inexistência de toda cooperação técnica.\n\nO art. 271 dispõe sobre porte de armas; o art. 272, ingresso e permanência; o art. 273, comércio. Assim, é falso afirmar que os arts. 271–273 definem as coordenações da biblioteca ou do Cedi. A regra de acesso às galerias também não significa acesso irrestrito a todas as áreas e documentos.\n\n### Biblioteca, Cedi e publicidade\n\nPara a Biblioteca Pedro Aleixo e o Cedi, consulte atos de organização e fontes institucionais. O organograma de abril de 2026 vincula o Cedi à Diretoria-Geral. O Regimento da Biblioteca e suas normas de serviço são referências específicas; não derive nomes de coordenações de um esquema genérico.\n\nDiários, atas, bases de tramitação e repositórios têm funções distintas. Publicidade de um ato exige localizar o veículo e a versão pertinentes. Uma cópia em repositório favorece acesso, mas não substitui automaticamente a publicação oficial exigida nem comprova que todos os anexos estejam completos.\n\n**Procedimento de pesquisa:** fixe a data normativa; localize o dispositivo; leia parágrafos, exceções e alterações; confira o ato institucional complementar; registre a fonte. Usar um PDF oficial antigo continua exigindo verificar mudanças posteriores até a data de corte.\n\n**Aplicação e recuperação:** Uma apostila atribui a organização do Cedi ao art. 271. Ao abrir a fonte, o aluno encontra regra de armas: a citação está errada mesmo que o parágrafo pareça convincente.",
+      "checkpointIds": [
+        "rt-10-1-4"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "RICD exige redação temporal correta. A Resolução 33/2026 permite participação de membros da Mesa em comissões com condições e vedações específicas. Abertura, presença e aprovação não são sinônimos. Art. 79 despreza a fração na décima parte; aparte é art. 176. Arts. 271–273 não descrevem o Cedi. Pesquise estrutura em atos e organograma próprios.",
+  "fontesTeoria": [
+    {
+      "id": "60a1be688fb6",
+      "titulo": "Regimento Interno da Câmara dos Deputados — PDF do projeto",
+      "localizador": "Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.",
+      "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Legisla%C3%A7%C3%A3o%20e%20contexto%20legislativo/RICD%20atualizado%20ate%20RCD%2034-2026.pdf"
+    },
+    {
+      "id": "res33",
+      "titulo": "Resolução da Câmara 33/2026",
+      "localizador": "Publicada em 24/04/2026: art. 14, §§ 5º e 7º.",
+      "url": "https://www2.camara.leg.br/legin/fed/rescad/2026/resolucaodacamaradosdeputados-33-22-abril-2026-798990-publicacaooriginal-179000-pl.html"
+    },
+    {
+      "id": "ricd",
+      "titulo": "RICD — texto atualizado oficial",
+      "localizador": "Conferência de dispositivos e notas de alteração.",
+      "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+    },
+    {
+      "id": "estrutura",
+      "titulo": "Câmara — estrutura administrativa",
+      "localizador": "Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "url": "https://www2.camara.leg.br/a-camara/estruturaadm/camara-dos-deputados"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-10-1-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Na redação de 2026 do art. 14, exceto o Presidente, membros da Mesa podem integrar comissão permanente ou temporária, observadas as restrições dos §§ 5º e 7º.",
+      "gabarito": "C",
+      "justificativa": "A Resolução 33/2026 afastou a antiga proibição geral e manteve restrições específicas.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — PDF do projeto — Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.; Resolução da Câmara 33/2026 — Publicada em 24/04/2026: art. 14, §§ 5º e 7º.; RICD — texto atualizado oficial — Conferência de dispositivos e notas de alteração.; Câmara — estrutura administrativa — Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "editalRef": "Conhecimentos Básicos - RICD arts. 1 a 24, 65 a 94, 226 a 251, 262 a 273",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-10-1-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Com 513 deputados, o quórum do art. 79, § 2º, desprezada a fração, equivale a 52 para abertura.",
+      "gabarito": "E",
+      "justificativa": "513/10=51,3; o dispositivo manda desprezar a fração.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — PDF do projeto — Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.; Resolução da Câmara 33/2026 — Publicada em 24/04/2026: art. 14, §§ 5º e 7º.; RICD — texto atualizado oficial — Conferência de dispositivos e notas de alteração.; Câmara — estrutura administrativa — Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "editalRef": "Conhecimentos Básicos - RICD arts. 1 a 24, 65 a 94, 226 a 251, 262 a 273",
+      "habilidade": "aplicar",
+      "versao_correta": "Nesse dispositivo, o resultado é 51, sem confundir abertura com deliberação."
+    },
+    {
+      "id": "rt-10-1-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O consentimento do orador basta para admitir aparte em qualquer hipótese.",
+      "gabarito": "E",
+      "justificativa": "Há proibições regimentais que o consentimento não afasta.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — PDF do projeto — Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.; Resolução da Câmara 33/2026 — Publicada em 24/04/2026: art. 14, §§ 5º e 7º.; RICD — texto atualizado oficial — Conferência de dispositivos e notas de alteração.; Câmara — estrutura administrativa — Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "editalRef": "Conhecimentos Básicos - RICD arts. 1 a 24, 65 a 94, 226 a 251, 262 a 273",
+      "habilidade": "aplicar",
+      "versao_correta": "O aparte exige consentimento e ausência de vedação regimental."
+    },
+    {
+      "id": "rt-10-1-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Os arts. 271–273 do RICD definem as coordenações de biblioteca, arquivo e museu do Cedi.",
+      "gabarito": "E",
+      "justificativa": "Tratam de armas, ingresso/permanência e comércio.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — PDF do projeto — Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.; Resolução da Câmara 33/2026 — Publicada em 24/04/2026: art. 14, §§ 5º e 7º.; RICD — texto atualizado oficial — Conferência de dispositivos e notas de alteração.; Câmara — estrutura administrativa — Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "editalRef": "Conhecimentos Básicos - RICD arts. 1 a 24, 65 a 94, 226 a 251, 262 a 273",
+      "habilidade": "aplicar",
+      "versao_correta": "A estrutura do Cedi deve ser pesquisada em atos e fontes institucionais próprios."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-10-1-1": {
+      "fonte": "Regimento Interno da Câmara dos Deputados — PDF do projeto — Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.; Resolução da Câmara 33/2026 — Publicada em 24/04/2026: art. 14, §§ 5º e 7º.; RICD — texto atualizado oficial — Conferência de dispositivos e notas de alteração.; Câmara — estrutura administrativa — Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "item": "Na redação do art. 14 do RICD dada pela Resolução 33/2026, membros da Mesa, exceto o Presidente, podem integrar comissão permanente ou temporária, sem exercer sua Presidência ou Vice-Presidência e observadas as vedações específicas do § 5º.",
+      "justificativa": "Certo. O § 7º deve ser lido junto ao § 5º. A redação anterior do checkpoint afirmava uma proibição geral que já não corresponde ao texto de 2026."
+    },
+    "cp-10-1-2": {
+      "fonte": "Regimento Interno da Câmara dos Deputados — PDF do projeto — Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.; Resolução da Câmara 33/2026 — Publicada em 24/04/2026: art. 14, §§ 5º e 7º.; RICD — texto atualizado oficial — Conferência de dispositivos e notas de alteração.; Câmara — estrutura administrativa — Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "justificativa": "Errado. A décima parte é regra de abertura da sessão no art. 79, § 2º. Para votar aplicam-se a presença e o quórum de aprovação da matéria; a regra geral exige maioria absoluta presente.",
+      "versao_correta": "Abertura com a décima parte não dispensa os requisitos de presença e votos para deliberação."
+    },
+    "cp-10-1-3": {
+      "fonte": "Regimento Interno da Câmara dos Deputados — PDF do projeto — Arts. 1º–14, 65–94, 176, 226–231 e 262–273; texto atualizado até a Resolução 34/2026.; Resolução da Câmara 33/2026 — Publicada em 24/04/2026: art. 14, §§ 5º e 7º.; RICD — texto atualizado oficial — Conferência de dispositivos e notas de alteração.; Câmara — estrutura administrativa — Organograma de abril de 2026; não atribuir sua estrutura aos arts. 271–273 do RICD.",
+      "justificativa": "Errado. O art. 176, § 2º, VI, proíbe aparte em questão de ordem ou reclamação. A permissão do orador não afasta essa vedação.",
+      "versao_correta": "Não se admite aparte quando o orador suscita questão de ordem."
+    }
+  },
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Ad referendum",
+      "definicao": "Decisão sujeita à ratificação da instância indicada.",
+      "exemploBiblioteca": "A Mesa decide mudança de local sujeita à ratificação da maioria absoluta dos deputados."
+    },
+    {
+      "termo": "Quórum",
+      "definicao": "Quantidade exigida para presença, funcionamento ou decisão, conforme a regra específica.",
+      "exemploBiblioteca": "Abertura da sessão e votos necessários para aprovar uma PEC têm exigências diferentes."
+    }
+  ],
+  "autoresChave": [
+    "Regimento Interno da Câmara dos Deputados — PDF do projeto",
+    "Resolução da Câmara 33/2026",
+    "RICD — texto atualizado oficial",
+    "Câmara — estrutura administrativa"
+  ],
+  "descricaoCurta": "Aplicar permissões e restrições da Mesa na redação de 2026. Diferenciar fases, modalidades, presença e votos necessários. Relacionar prerrogativas a limites e procedimentos. Localizar a norma correta para organização e serviços.",
+  "alertasCebraspe": [
+    "513/10=51,3; o dispositivo manda desprezar a fração.",
+    "Há proibições regimentais que o consentimento não afasta.",
+    "Tratam de armas, ingresso/permanência e comércio."
+  ],
+  "tempoEstimadoMinutos": 20
+}

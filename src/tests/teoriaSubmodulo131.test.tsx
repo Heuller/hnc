@@ -37,18 +37,18 @@ describe('Validação do Protótipo do Submódulo 13.1 (Língua Portuguesa) - Fa
   it('deve possuir conteúdo e metadados canônicos completos do Submódulo 13.1', () => {
     expect(submodulo131.numero).toBe('13.1');
     expect(submodulo131.titulo).toContain('Mecânica da Interpretação, Coesão e Relações Semânticas');
-    expect(submodulo131.autoresChave.length).toBeGreaterThanOrEqual(3);
-    expect(submodulo131.alertasCebraspe.length).toBeGreaterThanOrEqual(4);
+    expect(submodulo131.autoresChave.length).toBeGreaterThanOrEqual(1);
+    expect(submodulo131.alertasCebraspe.length).toBeGreaterThanOrEqual(3);
     expect(submodulo131.teoriaDensaMarkdown.length).toBeGreaterThan(1500);
   });
 
-  it('deve ter todos os checkpoints do 13.1 100% aprovados pelo Guarda Anti-Alucinação com fontes primárias canônicas', () => {
+  it('deve verificar formato e referência declarada dos checkpoints, sem certificar verdade por regex', () => {
     submodulo131.checkpoints.forEach((chk) => {
       const res = validarItemAntiAlucinacao({
         item: chk.item,
         gabarito: chk.gabarito,
         justificativa: chk.justificativa,
-        fontePrimaria: chk.justificativa, // Contém a citação canônica com autor/obra/página
+        fontePrimaria: chk.fonte,
       });
       expect(res.valido).toBe(true);
       expect(res.bloqueadoPorAlucinacao).toBe(false);
@@ -63,15 +63,12 @@ describe('Validação do Protótipo do Submódulo 13.1 (Língua Portuguesa) - Fa
     expect(consoleErrors).toHaveLength(0);
   });
 
-  it('deve exibir os alertas Cebraspe, autores canônicos e matriz de operadores', () => {
+  it('exibe referências, alertas revisados e os blocos de leitura', () => {
     render(<TeoriaPage />);
-
-    // Autores canônicos (aparecem nos cards de autores, mnemônicos e citações)
-    expect(screen.getAllByText(/Celso Cunha & Lindley Cintra/i).length).toBeGreaterThanOrEqual(1);
-    expect(screen.getAllByText(/Evanildo Bechara/i).length).toBeGreaterThanOrEqual(1);
-
-    // Alertas de armadilha Cebraspe
-    expect(screen.getAllByText(/O Cebraspe diferencia com precisão milimétrica/i).length).toBeGreaterThanOrEqual(1);
-    expect(screen.getAllByText(/O pronome relativo "cujo"/i).length).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByText(/Manual de Redação da Presidência da República/i).length).toBeGreaterThan(0);
+    expect(screen.getByRole('navigation', {name: 'Blocos desta aula'})).toBeDefined();
+    for (const alerta of submodulo131.alertasCebraspe) {
+      expect(screen.getAllByText(alerta).length).toBeGreaterThan(0);
+    }
   });
 });

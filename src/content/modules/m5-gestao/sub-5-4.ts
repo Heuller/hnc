@@ -14,355 +14,298 @@ export const submodulo54: ModuloFilho = {
   ],
   titulo: 'Gestão da Informação e Gestão do Conhecimento Organizacional',
   antesDeLer: [
-    {
-      termo: 'Gestão do Conhecimento (GC)',
-      definicao: 'Abordagem sistemática para identificar, capturar, estruturar, compartilhar e alavancar o capital intelectual coletivo da organização.',
-      exemploBiblioteca: 'Criação de um repositório interno de notas técnicas e pareceres da Consultoria Legislativa da Câmara para evitar retrabalho.',
-    },
-    {
-      termo: 'Conhecimento Tácito vs. Explícito',
-      definicao: 'Tácito é o saber pessoal internalizado e prático (Nonaka & Takeuchi); explícito é o conhecimento formalizado em documentos e sistemas.',
-      exemploBiblioteca: 'Entrevistas de saída com bibliotecários aposentados para registrar em manuais seus métodos de busca de legislação histórica.',
-    },
-    {
-      termo: 'Espiral do Conhecimento (SECI)',
-      definicao: 'Modelo de conversão contínua de conhecimento: Socialização, Externalização, Combinação e Internalização.',
-      exemploBiblioteca: 'Grupos de trabalho onde consultores seniores debatem tramitações complexas (Socialização) e redigem guias práticos (Externalização).',
-    },
-    {
-      termo: 'Comunidades de Prática (CoPs)',
-      definicao: 'Grupos de servidores que compartilham paixão por um domínio técnico e interagem regularmente para aprofundar seu aprendizado.',
-      exemploBiblioteca: 'Rede cooperativa de catalogadores da RVBI que se reúne para deliberar sobre aplicações práticas de novos padrões de metadados.',
-    },
-  ],
-  descricaoCurta: 'Distinção epistemológica entre Gestão da Informação e Gestão do Conhecimento, modelo da Organização do Conhecimento de Chun Wei Choo, Espiral do Conhecimento SECI de Nonaka e Takeuchi, e ecologia da informação de Davenport.',
-  tempoEstimadoMinutos: 15,
-  autoresChave: ['Chun Wei Choo', 'Ikujiro Nonaka', 'Hirotaka Takeuchi', 'Michael Polanyi', 'Thomas H. Davenport', 'Laurence Prusak', 'Etienne Wenger'],
+  {
+    "termo": "Tácito",
+    "definicao": "Dimensão pessoal e contextual do saber, difícil de expressar integralmente.",
+    "exemploBiblioteca": "Acompanhar entrevista conduzida por colega experiente pode apoiar aprendizagem por socialização."
+  },
+  {
+    "termo": "Racionalidade limitada",
+    "definicao": "Decisão condicionada por limites de informação, tempo e capacidade de processamento.",
+    "exemploBiblioteca": "Um gestor escolhe alternativa satisfatória sem conhecer todas as opções possíveis."
+  }
+],
+  descricaoCurta: "Distinguir ênfases de GI e GC sem separação absoluta. Explicar limites da codificação do conhecimento tácito. Identificar conversões SECI e os contextos de Ba. Relacionar as três arenas de Choo à racionalidade limitada. Reconhecer a abordagem ecológica e seus componentes informacionais. Avaliar ferramentas sem confundir registro de competência com o próprio saber. Interpretar dados e o quadro de competências sem equivalências inventadas.",
+  tempoEstimadoMinutos: 27,
+  autoresChave: [
+  "Choo — A organização do conhecimento",
+  "Nonaka e Konno — The Concept of Ba (1998)",
+  "JAIST — Knowledge Management Research",
+  "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)"
+],
   alertasCebraspe: [
-    'A técnica de distrator recorrente consiste em trocar os papéis da Gestão da Informação (GI) e da Gestão do Conhecimento (GC): a Gestão da Informação cuida dos fluxos formais, do conhecimento explícito e dos suportes documentais/tecnológicos; a Gestão do Conhecimento cuida do capital intelectual, dos fluxos informais e do conhecimento tácito residente nas pessoas.',
-    'Atenção máxima aos 4 modos de conversão do modelo SECI de Nonaka & Takeuchi: 1. Socialização (tácito para tácito via observação, convívio e mestre-aprendiz); 2. Externalização (tácito para explícito via metáforas, conceitos, modelos visuais e manuais - é a chave da criação do conhecimento); 3. Combinação (explícito para explícito via agregação, cruzamento de relatórios e bases); e 4. Internalização (explícito para tácito via "aprender fazendo" / learning by doing).',
-    'Conhecimento tácito não pode ser armazenado diretamente em bancos de dados digitais ou sistemas de TI; para ser gravado e manipulado computacionalmente, ele DEVE ser primeiramente articulado e transformado em conhecimento explícito (externalização).',
-    'Chun Wei Choo estabelece que a organização inteligente opera em três arenas articuladas: Construção de Sentido (Sense Making de Karl Weick), Criação do Conhecimento (SECI de Nonaka) e Tomada de Decisão (Racionalidade Limitada de Herbert Simon).',
-    'Davenport e Prusak rejeitam o tecnocentrismo: na Ecologia da Informação, a tecnologia é apenas um dos componentes e deve subordinar-se aos fatores humanos, políticos e culturais da organização.',
-  ],
-  quadroComparativo: {
-    titulo: 'Matriz Comparativa: Gestão da Informação vs. Gestão do Conhecimento',
-    colunas: ['Critério', 'Gestão da Informação (GI)', 'Gestão do Conhecimento (GC)'],
-    linhas: [
-      ['Objeto Central', 'Dados e informações estruturadas (conhecimento explícito e documentos)', 'Modelos mentais, intuições, experiências e competências das pessoas (conhecimento tácito)'],
-      ['Enfoque Primário', 'Processos técnicos, fluxos formais, repositórios digitais e sistemas de TI', 'Pessoas, cultura organizacional, liderança, colaboração e redes informais'],
-      ['Natureza do Fluxo', 'Fluxos verticais, padronizados, controlados e documentados', 'Fluxos horizontais, espontâneos, espiralados e interativos'],
-      ['Local de Armazenamento', 'Servidores, bases de dados, arquivos físicos e catálogos bibliográficos', 'Cérebros humanos, vivências individuais e memórias compartilhadas de equipes'],
-      ['Resultado Esperado', 'Disponibilidade, organização, integridade e recuperação rápida da informação', 'Inovação contínua, geração de novos saberes, tomada de decisão estratégica e aprendizado coletivo'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Fronteira Epistemológica entre Informação e Conhecimento
-
-A Ciência da Informação contemporânea estabelece uma clara demarcação teórica e prática entre a **Gestão da Informação (GI)** e a **Gestão do Conhecimento (GC)** (Choo, 2003; Davenport & Prusak, 1998):
-
-* **Gestão da Informação (GI):**
-  * Tem como objeto os **dados estruturados**, as **informações registradas** e o **conhecimento explícito**.
-  * Opera o ciclo documental completo: mapeamento de necessidades, coleta/aquisição, classificação/catalogação, armazenamento físico e digital, recuperação e disseminação.
-  * Atua predominantemente sobre os **fluxos formais** de comunicação organizacional (sistemas informatizados, memorandos, boletins oficiais, SIGBs e repositórios).
-* **Gestão do Conhecimento (GC):**
-  * Tem como objeto o **capital intelectual**, o **conhecimento tácito** e as pessoas que formam o tecido social da organização.
-  * Visa estabelecer um clima e uma cultura organizacional propícios ao compartilhamento de experiências, à retenção do saber crítico e à geração de inovações.
-  * Mobiliza os **fluxos informais** de comunicação (as conversas de trabalho, os encontros fortuitos, as comunidades de prática e o relacionamento interdepartamental).
-
----
-
-### 2. Conhecimento Tácito vs. Conhecimento Explícito (Michael Polanyi)
-
-A distinção canônica entre as naturezas do conhecimento foi formulada pelo filósofo **Michael Polanyi** (*The Tacit Dimension*, 1966) e popularizada na administração por Nonaka e Takeuchi:
-
-$\\text{"Podemos saber mais do que podemos dizer."} \\quad - \\; \\text{Michael Polanyi}$
-
-| Dimensão | Conhecimento Tácito | Conhecimento Explícito |
-| :--- | :--- | :--- |
-| **Definição** | Altamente pessoal, intuitivo, subjetivo e profundamente enraizado na ação e no contexto de cada indivíduo. | Formal, articulado, codificado e expresso em linguagem simbólica formal (palavras, números, diagramas). |
-| **Componentes** | *Dimensão técnica:* Habilidades práticas, *know-how*, truques de ofício (*craftsmanship*).<br>*Dimensão cognitiva:* Modelos mentais, esquemas conceituais, crenças e valores pessoais. | Manuais de instrução, especificações técnicas, patentes, bases de dados relacionais e livros de procedimentos. |
-| **Transmissibilidade** | Difícil de formalizar e comunicar; transmite-se sobretudo por convivência, observação direta e prática partilhada. | Facilmente comunicável, reproduzível, armazenável eletronicamente e transmissível por redes digitais. |
-| **Armazenamento em TI** | **Não pode ser armazenado diretamente em sistemas de TI.** Exige prévia explicitação/externalização. | Armazenado nativamente em servidores, bancos de dados, arquivos e catálogos. |
-
----
-
-### 3. A Espiral do Conhecimento (Modelo SECI) de Nonaka e Takeuchi (1995)
-
-Em sua obra seminal *Criação de Conhecimento na Empresa*, **Ikujiro Nonaka e Hirotaka Takeuchi** postulam que o conhecimento organizacional é criado a partir da interação dinâmica e contínua entre as dimensões ontológicas (indivíduo, grupo, organização, interorganizacional) e epistemológicas (tácito e explícito).
-
-Essa dinâmica ocorre por meio de **quatro modos de conversão do conhecimento (SECI)**:
-
-\`\`\`timeline
-S | 1. Socialização | Tácito → Tácito | Compartilhamento de modelos mentais e experiências pelo convívio, observação e prática mestre-aprendiz
----> Diálogo e Reflexão Coletiva
-E | 2. Externalização | Tácito → Explícito | Modo crítico: articulação do saber tácito em conceitos claros via metáforas, modelos visuais e manuais
----> Sistematização e Difusão
-C | 3. Combinação | Explícito → Explícito | Reconfiguração e agregação de conhecimentos explícitos em relatórios, bases de dados e repositórios
----> Aprendizagem Prática (Learning by Doing)
-I | 4. Internalização | Explícito → Tácito | Incorporação do conhecimento explícito aos modelos mentais individuais, reiniciando a espiral em nível superior
-\`\`\`
-
-1. **Socialização ($Tácito \rightarrow Tácito$):**
-   * Compartilhamento de experiências vividas, percepções e modelos mentais sem a mediação necessária de códigos escritos.
-   * Dá-se por observação, imitação, convívio diário e relação mestre-aprendiz.
-   * *Exemplo em biblioteca:* Um bibliotecário recém-empossado acompanha um colega sênior em entrevistas de referência difíceis com parlamentares, absorvendo o tom de voz, o equilíbrio postural e a perspicácia na condução do diálogo.
-2. **Externalização ($Tácito \rightarrow Explícito$):**
-   * **É o modo crítico da criação do conhecimento.** Consiste na articulação do saber tácito individual em conceitos compreensíveis a todos, por meio do uso deliberado de **metáforas, analogias, conceitos formalizados, hipóteses ou modelos visuais**.
-   * *Exemplo em biblioteca:* A equipe técnica de indexadores se reúne para redigir o *Manual de Indexação Parlamentar*, transformando regras intuitivas não escritas em diretrizes e fluxogramas objetivos.
-3. **Combinação ($Explícito \rightarrow Explícito$):**
-   * Reconfiguração, agregação e sistematização de diferentes corpos de conhecimentos explícitos já existentes.
-   * Envolve a coleta de fontes diversas, análise de dados e criação de novos documentos integrados.
-   * *Exemplo em biblioteca:* O bibliotecário cruza dados do catálogo automatizado com as estatísticas de votações da Câmara e relatórios de empréstimo para gerar um *Dashboard Executivo de Tendências Temáticas do Parlamento*.
-4. **Internalização ($Explícito \rightarrow Tácito$):**
-   * Incorporação do conhecimento explícito às rotinas mentais e à vivência prática dos colaboradores (*learning by doing*).
-   * Ocorre quando a leitura de manuais e procedimentos técnicos se transforma em um hábito quase instintivo de atuação.
-   * *Exemplo em biblioteca:* Após estudar profundamente o modelo conceitual IFLA LRM e o novo RDA Toolkit, o catalogador passa a atribuir atributos e relacionamentos de entidades de forma fluida e automática no dia a dia.
-
-#### O Conceito de "Ba" (Nonaka e Konno, 1998)
-O conhecimento não pode ser criado no vácuo; ele exige um espaço compartilhado de interação denominado **Ba**:
-* **Originating Ba:** Espaço físico individual e face a face onde opera a Socialização (conversas informais, cafezinho).
-* **Interacting / Dialoguing Ba:** Espaço de diálogo e reflexão coletiva onde atua a Externalização (oficinas de cocriação).
-* **Cyber / Systemizing Ba:** Espaço virtual mediado por redes computacionais onde ocorre a Combinação (intranets, bases de dados, wikis).
-* **Exercising Ba:** Espaço de treinamento prático e aplicação operacional onde se concretiza a Internalização.
-
----
-
-### 4. A Organização do Conhecimento de Chun Wei Choo (2003)
-
-Em *A Organização do Conhecimento: como as organizações usam a informação para criar significado, criar conhecimento e tomar decisões*, **Chun Wei Choo** articula a gestão em três arenas interdependentes:
-
-1. **Construção de Sentido (*Sense Making* de Karl Weick):**
-   * As organizações operam em ambientes externos turbulentos, dinâmicos e ambíguos.
-   * A construção de sentido é o processo pelo qual os colaboradores interpretam sinais fracos, filtram ruídos e atribuem significado coletivo compartilhado àquilo que está acontecendo no mundo exterior.
-2. **Criação de Conhecimento (Modelo de Nonaka & Takeuchi):**
-   * Uma vez compreendido o ambiente, a instituição gera novas ideias, competências e capacidades a partir da espiral SECI, integrando o conhecimento tácito pessoal ao conhecimento cultural da organização.
-3. **Tomada de Decisão (Racionalidade Limitada de Herbert Simon):**
-   * O ser humano possui limites cognitivos de processamento da informação (*racionalidade limitada*).
-   * A tomada de decisão consiste na identificação estruturada de alternativas, pesagem de consequências e seleção do curso de ação mais satisfatório para resolver problemas e cumprir a missão institucional.
-
-\`\`\`timeline
-A | Incerteza e Ruído do Ambiente | Ponto de Partida | Cenário externo dinâmico, turbulento e ambíguo com fluxo volumoso de dados dispersos
----> Filtragem Cognitiva
-B | 1. Construção de Sentido (Sense Making) | Interpretação Coletiva | Mapeamento de sinais fracos, filtragem de ruído e atribuição de significado compartilhado (Karl Weick)
----> Conversão Epistêmica
-C | 2. Criação de Conhecimento | Inovação Institucional | Geração de novas competências a partir da espiral SECI (tácito/explícito de Nonaka & Takeuchi)
----> Escolha Racional
-D | 3. Tomada de Decisão | Ação Eficaz e Racionalidade | Seleção de cursos de ação sob racionalidade limitada de Herbert Simon, retroalimentando o ambiente
-\`\`\`
-
----
-
-### 5. A Ecologia da Informação de Thomas Davenport e Laurence Prusak
-
-**Thomas H. Davenport** (*Ecologia da Informação*, 1997) faz uma crítica contundente ao reducionismo tecnicista (*tecnocentrismo*):
-
-* **O Erro Tecnológico Clássico:** A falsa premissa de que basta comprar softwares sofisticados, instalar servidores potentes ou adquirir plataformas de IA para que a organização se torne inteligente.
-* **A Visão Ecológica Integrada:**
-  A informação deve ser gerenciada com foco primordial no **comportamento humano, nos valores culturais, na política interna e nos hábitos informacionais**.
-* **Os Três Ambientes da Ecologia da Informação:**
-  1. *Ambiente Informacional:* Composto por estratégia, política de informação (quem tem poder sobre a informação), cultura informacional, equipe de informação e tecnologia.
-  2. *Ambiente Organizacional:* Estrutura hierárquica, modelo de negócios e processos operacionais da instituição.
-  3. *Ambiente Externo:* Mercados, legislação, concorrentes e sociedade civil.
-
----
-
-### 6. Ferramentas e Práticas de GC em Bibliotecas e CEDI
-
-No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gestão do conhecimento mobiliza práticas colaborativas avançadas:
-
-* **Comunidades de Prática (CoPs - Etienne Wenger):**
-  * Grupos de profissionais que compartilham uma paixão comum por determinado campo técnico e se reúnem regularmente para debater desafios, trocar soluções práticas e aprender continuamente.
-  * Em bibliotecas: grupos de estudos permanentes de catalogadores e indexadores para harmonização de terminologias no Vocabulário Controlado Básico (VCB).
-* **Mapeamento de Competências e Páginas Amarelas Corporativas (*Yellow Pages*):**
-  * Diretório institucional detalhado que cadastra não apenas cargos formais, mas as **competências tácitas, idiomas, especializações temáticas e experiências prévias** dos servidores, facilitando a formação rápida de forças-tarefa interdisciplinares.
-* **Memória Organizacional e Gestão de Lições Aprendidas (*After-Action Reviews*):**
-  * Metodologia estruturada de debriefing realizada logo após a conclusão de grandes projetos (ex.: inauguração de nova biblioteca digital ou implantação do RDA), documentando o que funcionou, o que falhou e como evitar erros no futuro.
-* **Barreiras ao Compartilhamento do Conhecimento:**
-  * *Barreiras Culturais:* A crença arcaica de que "reter informação é reter poder", gerando feudos departamentais.
-  * *Barreiras Organizacionais:* Estruturas excessivamente burocráticas e verticais que inibem o diálogo horizontal.
-  * *Barreiras Tecnológicas:* Sistemas fragmentados que não conversam entre si e interfaces pouco amigáveis.
-
----
-
-### 7. Competência em Dados (Data Literacy) na Gestão do Conhecimento Legislativo
-
-No paradigma contemporâneo da gestão pública fundamentada em evidências, a **Competência em Dados (*Data Literacy*)** consolida-se como habilidade nuclear para bibliotecários e gestores da informação (**Javier Calzada Prado & Miguel Ángel Marzal, 2013; Tibor Koltay, 2017**):
-
-* **Distinção Essencial:** Enquanto a competência informacional (*Information Literacy*) foca em textos, documentos e fontes bibliográficas, a competência em dados lida diretamente com **conjuntos de dados brutos e estruturados (*datasets* e matrizes)**, estatísticas oficiais e fluxos de APIs.
-* **As Cinco Dimensões Nucleares de Calzada Prado & Marzal (2013):**
-  1. *Acesso e Descoberta:* Localização de bases de dados abertos governamentais (Portal Brasileiro de Dados Abertos, repositórios parlamentares);
-  2. *Avaliação e Crítica de Dados:* Verificação de fidedignidade, integridade de amostragem, vieses de coleta e qualidade dos metadados (DAMA-DMBOK);
-  3. *Gestão e Curadoria de Dados:* Aplicação de planos de gestão de dados (PGD), princípios FAIR e formatos abertos (CSV, JSON, Parquet);
-  4. *Análise Quantitativa e Interpretação:* Extração de sentido estatístico, correlações e inferências válidas a partir de dados brutos;
-  5. *Visualização e Comunicação Ética:* Apresentação clara em painéis analíticos (*dashboards*), respeitando a privacidade (LGPD), a proveniência e a veracidade dos dados.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Governança da Informação e de Dados (sub-1-6):** Modelos de Gestão do Conhecimento (Nonaka & Takeuchi) e governança DAMA.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Gestão da Informação (GI)** e a **Gestão do Conhecimento (GC)** integram pessoas, processos e tecnologia para gerar valor organizacional:
-1. **Diferença Conceitual Canônica:**
-   - **Gestão da Informação (GI):** Gerencia fluxos, suportes, estoques, dados e registros explícitos formais (estruturados e recuperáveis).
-   - **Gestão do Conhecimento (GC):** Gerencia o contexto social, o aprendizado humano, as competências e as condições organizacionais para que as pessoas criem, compartilhem e apliquem conhecimento.
-2. **Conhecimento Tácito vs. Explícito (Polanyi / Nonaka & Takeuchi):**
-   - **Tácito:** Pessoal, intuitivo, subjetivo, difícil de formalizar e comunicar verbalmente, enraizado na experiência e nos modelos mentais (*know-how*, intuição).
-   - **Explícito:** Codificado, formal, articulado em palavras, números, diagramas, manuais e bases de dados (*know-what*).
-3. **O Modelo SECI de Criação do Conhecimento (Espiral do Conhecimento de Nonaka & Takeuchi):**
-   - **Socialização (Tácito $\to$ Tácito):** Compartilhamento de experiências diretas, mentoria, observação e prática conjunta (sem uso de manuais).
-   - **Externalização (Tácito $\to$ Explícito):** Expressão do conhecimento tácito em conceitos explícitos, metáforas, modelos e documentos formais (é a chave da criação do conhecimento).
-   - **Combinação (Explícito $\to$ Explícito):** Recombinação, síntese e sistematização de diferentes corpos de conhecimento explícito (ex.: cruzar relatórios e bancos de dados para gerar um novo plano).
-   - **Internalização (Explícito $\to$ Tácito):** O indivíduo assimila o conhecimento explícito na prática diária (*learning by doing*), enriquecendo seu repertório tácito.
-4. **O Modelo dos Três Círculos de Choo (*The Knowing Organization*):**
-   - A organização usa a informação em três arenas estratégicas: **Construção de Sentido (*Sense Making*)**, **Criação de Conhecimento** e **Tomada de Decisão**.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Socialização e Mentoria na Consultoria e na Biblioteca):** Um analista legislativo veterano que domina as peculiaridades regimentais do plenário senta-se ao lado de um bibliotecário recém-empossado para orientá-lo sobre como antecipar demandas de votação. Esse processo de aprendizado direto sem manuais é a **Socialização (Tácito $\to$ Tácito)** de Nonaka & Takeuchi.
-- **Cenário 2 (Externalização na Produção de POPs do CEDI):** O bibliotecário mais experiente decide codificar seu método de restauração de livros raros em um *Procedimento Operacional Padrão (POP)* ricamente ilustrado. Ele operou a **Externalização (Tácito $\to$ Explícito)**, transformando sua intuição técnica em patrimônio formal da Câmara.
-- **Cenário 3 (Combinação na Produção de Relatórios Orçamentários):** A equipe do CEDI reúne os dados abertos de execução orçamentária da Câmara, cruza com as publicações do Senado e gera um *painel de business intelligence* comparativo. Isso é **Combinação (Explícito $\to$ Explícito)**.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Modo de Conversão SECI | Origem $\to$ Destino | Ação Típica na Prática | Exemplo Cebraspe |
-| :--- | :--- | :--- | :--- |
-| **Socialização** | Tácito $\to$ Tácito | Mentoria, tutoria, diálogo direto | Mestre e aprendiz na bancada de conservação |
-| **Externalização** | Tácito $\to$ Explícito | Escrever manual, criar metáfora, diagramar | Registrar experiência prática em um manual |
-| **Combinação** | Explícito $\to$ Explícito | Cruzar bases de dados, compilar relatórios | Sintetizar dados de três pesquisas em um artigo |
-| **Internalização** | Explícito $\to$ Tácito | *Learning by doing*, prática profissional | Ler um manual e transformar em reflexo diário |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Inversão dos Modos SECI:** A técnica de elaboração de itens costuma dizer que *"a Socialização ocorre quando o profissional lê um manual técnico e assimila seu conteúdo"*. **Gabarito: ERRADO.** Ler manual e assimilar é **Internalização** (Explícito $\to$ Tácito). A Socialização é sempre Tácito $\to$ Tácito.
-- **Armazenamento de Conhecimento Tácito em Computadores:** Dizer que sistemas de TI armazenam conhecimento tácito. **Gabarito: ERRADO.** Computadores só armazenam dados e informações explícitas; conhecimento tácito reside exclusivamente no cérebro humano.
-- **Sinonímia entre GI e GC:** Tratar Gestão da Informação e Gestão do Conhecimento como sinônimos perfeitos. **Gabarito: ERRADO.** GI cuida de artefatos explícitos; GC cuida de pessoas, aprendizado e ambiente corporativo.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **NONAKA, Ikujiro; TAKEUCHI, Hirotaka.** *Criação de conhecimento na empresa: como as empresas japonesas geram a dinâmica da inovação*. Rio de Janeiro: Elsevier, 1997. (A teoria fundamental de conhecimento tácito/explícito e espiral SECI).
-- **CHOO, Chun Wei.** *A organização do conhecimento: como as organizações usam a informação para criar significado, construir conhecimento e tomar decisões*. São Paulo: Senac São Paulo, 2003.
-- **DAVENPORT, Thomas H.; PRUSAK, Laurence.** *Conhecimento empresarial: como as organizações gerenciam o seu capital intelectual*. Rio de Janeiro: Campus, 1998.
-- **POLANYI, Michael.** *The Tacit Dimension*. New York: Doubleday, 1966. (O autor pioneiro do conceito de conhecimento tácito).
-- **TARAPANOFF, Kira.** *Gestão da informação e do conhecimento*. Brasília: Thesaurus, 2001.`,
+  "Registro e aprendizagem são distintos; há aspectos contextuais e práticos.",
+  "Restrições de informação e processamento favorecem escolhas satisfatórias, não garantem otimização global.",
+  "A abordagem integra cultura, comportamento, política, pessoas e processos."
+],
+  teoriaDensaMarkdown: "### A Fronteira Epistemológica entre Informação e Conhecimento\n\nA Ciência da Informação contemporânea emprega distinções analíticas, com sobreposições entre as práticas entre a **Gestão da Informação (GI)** e a **Gestão do Conhecimento (GC)** (Choo, 2003; Davenport & Prusak, 1998):\n\n* **Gestão da Informação (GI):**\n  * Ocupa-se de recursos e fluxos informacionais, estruturados ou não, registrados em diferentes suportes, conforme necessidades organizacionais.\n  * Opera o ciclo documental completo: mapeamento de necessidades, coleta/aquisição, classificação/catalogação, armazenamento físico e digital, recuperação e disseminação.\n  * Atua predominantemente sobre os **fluxos formais** de comunicação organizacional (sistemas informatizados, memorandos, boletins oficiais, SIGBs e repositórios).\n* **Gestão do Conhecimento (GC):**\n  * Tem como objeto o **capital intelectual**, o **conhecimento tácito** e as pessoas que formam o tecido social da organização.\n  * Visa estabelecer um clima e uma cultura organizacional propícios ao compartilhamento de experiências, à retenção do saber crítico e à geração de inovações.\n  * Mobiliza os **fluxos informais** de comunicação (as conversas de trabalho, os encontros fortuitos, as comunidades de prática e o relacionamento interdepartamental).\n\n---\n\n\n\nNão há exclusividade absoluta: GC também utiliza documentos, repositórios e práticas formais; GI depende de pessoas e interações. A diferença de ênfase não permite reduzir GI a guardar suportes nem GC a administrar tudo o que é informal.\n\n**Aplicação e recuperação:** Uma biblioteca combina base documental e mentoria. A presença de um repositório não exclui GC; a atuação das pessoas não exclui GI.\n\n### Conhecimento Tácito vs. Conhecimento Explícito (Michael Polanyi)\n\nA distinção canônica entre as naturezas do conhecimento foi formulada pelo filósofo **Michael Polanyi** (*The Tacit Dimension*, 1966) e popularizada na administração por Nonaka e Takeuchi:\n\n$\\text{\"Podemos saber mais do que podemos dizer.\"} \\quad - \\; \\text{Michael Polanyi}$\n\n| Dimensão | Conhecimento Tácito | Conhecimento Explícito |\n| :--- | :--- | :--- |\n| **Definição** | Altamente pessoal, intuitivo, subjetivo e profundamente enraizado na ação e no contexto de cada indivíduo. | Formal, articulado, codificado e expresso em linguagem simbólica formal (palavras, números, diagramas). |\n| **Componentes** | *Dimensão técnica:* Habilidades práticas, *know-how*, truques de ofício (*craftsmanship*).<br>*Dimensão cognitiva:* Modelos mentais, esquemas conceituais, crenças e valores pessoais. | Manuais de instrução, especificações técnicas, patentes, bases de dados relacionais e livros de procedimentos. |\n| **Transmissibilidade** | Difícil de formalizar e comunicar; transmite-se sobretudo por convivência, observação direta e prática partilhada. | Mais suscetível de comunicação formal, embora sua interpretação dependa do contexto; pode ser, reproduzível, armazenável eletronicamente e transmissível por redes digitais. |\n| **Armazenamento em TI** | Um arquivo pode representar aspectos de uma prática, mas não captura automaticamente toda a experiência tácita. Vídeos, simulações e interação podem apoiar aprendizagem sem que o saber se reduza ao arquivo. | Armazenado nativamente em servidores, bancos de dados, arquivos e catálogos. |\n\n**Aplicação e recuperação:** Filmar um especialista cria um registro explícito, mas não faz o aprendiz adquirir automaticamente a mesma habilidade.\n\n### A Espiral do Conhecimento (Modelo SECI) de Nonaka e Takeuchi (1995)\n\nEm sua obra seminal *Criação de Conhecimento na Empresa*, **Ikujiro Nonaka e Hirotaka Takeuchi** postulam que o conhecimento organizacional é criado a partir da interação dinâmica e contínua entre as dimensões ontológicas (indivíduo, grupo, organização, interorganizacional) e epistemológicas (tácito e explícito).\n\nEssa dinâmica ocorre por meio de **quatro modos de conversão do conhecimento (SECI)**:\n\n```timeline\nS | 1. Socialização | Tácito → Tácito | Compartilhamento de modelos mentais e experiências pelo convívio, observação e prática mestre-aprendiz\n---> Diálogo e Reflexão Coletiva\nE | 2. Externalização | Tácito → Explícito | Modo crítico: articulação do saber tácito em conceitos claros via metáforas, modelos visuais e manuais\n---> Sistematização e Difusão\nC | 3. Combinação | Explícito → Explícito | Reconfiguração e agregação de conhecimentos explícitos em relatórios, bases de dados e repositórios\n---> Aprendizagem Prática (Learning by Doing)\nI | 4. Internalização | Explícito → Tácito | Incorporação do conhecimento explícito aos modelos mentais individuais, reiniciando a espiral em nível superior\n```\n\n1. **Socialização ($Tácito \rightarrow Tácito$):**\n   * Compartilhamento de experiências vividas, percepções e modelos mentais sem a mediação necessária de códigos escritos.\n   * Dá-se por observação, imitação, convívio diário e relação mestre-aprendiz.\n   * *Exemplo em biblioteca:* Um bibliotecário recém-empossado acompanha um colega sênior em entrevistas de referência difíceis com parlamentares, absorvendo o tom de voz, o equilíbrio postural e a perspicácia na condução do diálogo.\n2. **Externalização ($Tácito \rightarrow Explícito$):**\n   * **É o modo crítico da criação do conhecimento.** Consiste na articulação do saber tácito individual em conceitos compreensíveis a todos, por meio do uso deliberado de **metáforas, analogias, conceitos formalizados, hipóteses ou modelos visuais**.\n   * *Exemplo em biblioteca:* A equipe técnica de indexadores se reúne para redigir o *Manual de Indexação Parlamentar*, transformando regras intuitivas não escritas em diretrizes e fluxogramas objetivos.\n3. **Combinação ($Explícito \rightarrow Explícito$):**\n   * Reconfiguração, agregação e sistematização de diferentes corpos de conhecimentos explícitos já existentes.\n   * Envolve a coleta de fontes diversas, análise de dados e criação de novos documentos integrados.\n   * *Exemplo em biblioteca:* O bibliotecário cruza dados do catálogo automatizado com as estatísticas de votações da Câmara e relatórios de empréstimo para gerar um *Dashboard Executivo de Tendências Temáticas do Parlamento*.\n4. **Internalização ($Explícito \rightarrow Tácito$):**\n   * Incorporação do conhecimento explícito às rotinas mentais e à vivência prática dos colaboradores (*learning by doing*).\n   * Ocorre quando a leitura de manuais e procedimentos técnicos se transforma em um hábito quase instintivo de atuação.\n   * *Exemplo em biblioteca:* Após estudar profundamente o modelo conceitual IFLA LRM e o novo RDA Toolkit, o catalogador passa a atribuir atributos e relacionamentos de entidades de forma fluida e automática no dia a dia.\n\n#### O Conceito de \"Ba\" (Nonaka e Konno, 1998)\nNa formulação dos autores, a criação do conhecimento é situada em contexto compartilhado, denominado **Ba**:\n* **Originating Ba:** Contexto compartilhado de experiências e interação face a face onde opera a Socialização (conversas informais, cafezinho).\n* **Interacting / Dialoguing Ba:** Espaço de diálogo e reflexão coletiva onde atua a Externalização (oficinas de cocriação).\n* **Cyber / Systemizing Ba:** Espaço virtual mediado por redes computacionais onde ocorre a Combinação (intranets, bases de dados, wikis).\n* **Exercising Ba:** Espaço de treinamento prático e aplicação operacional onde se concretiza a Internalização.\n\n---\n\n\n\nAs nomenclaturas **interacting/dialoguing** e **cyber/systemizing** aparecem em formulações de épocas diferentes. Não as trate como quatro modos adicionais ao SECI. Ba é contexto relacional compartilhado, podendo envolver dimensões físicas, virtuais e mentais; não é simplesmente sala, software ou banco de dados. O SECI é modelo teórico, não prova de que todo conhecimento possa ser integralmente explicitado ou que toda leitura gere competência.\n\n**Aplicação e recuperação:** Aprender observando é exemplo de socialização; formular o procedimento em palavras é externalização; integrar manuais é combinação; incorporar a prática é internalização.\n\n### A Organização do Conhecimento de Chun Wei Choo (2003)\n\nEm *A Organização do Conhecimento: como as organizações usam a informação para criar significado, criar conhecimento e tomar decisões*, **Chun Wei Choo** articula a gestão em três arenas interdependentes:\n\n1. **Construção de Sentido (*Sense Making* de Karl Weick):**\n   * As organizações operam em ambientes externos turbulentos, dinâmicos e ambíguos.\n   * A construção de sentido é o processo pelo qual os colaboradores interpretam sinais fracos, filtram ruídos e atribuem significado coletivo compartilhado àquilo que está acontecendo no mundo exterior.\n2. **Criação de Conhecimento (Modelo de Nonaka & Takeuchi):**\n   * Uma vez compreendido o ambiente, a instituição gera novas ideias, competências e capacidades a partir da espiral SECI, integrando o conhecimento tácito pessoal ao conhecimento cultural da organização.\n3. **Tomada de Decisão (Racionalidade Limitada de Herbert Simon):**\n   * O ser humano possui limites cognitivos de processamento da informação (*racionalidade limitada*).\n   * A tomada de decisão consiste na identificação estruturada de alternativas, pesagem de consequências e seleção de curso de ação satisfatório sob restrições; não necessariamente o ótimo global para resolver problemas e cumprir a missão institucional.\n\n```timeline\nA | Incerteza e Ruído do Ambiente | Ponto de Partida | Cenário externo dinâmico, turbulento e ambíguo com fluxo volumoso de dados dispersos\n---> Filtragem Cognitiva\nB | 1. Construção de Sentido (Sense Making) | Interpretação Coletiva | Mapeamento de sinais fracos, filtragem de ruído e atribuição de significado compartilhado (Karl Weick)\n---> Conversão Epistêmica\nC | 2. Criação de Conhecimento | Inovação Institucional | Geração de novas competências a partir da espiral SECI (tácito/explícito de Nonaka & Takeuchi)\n---> Escolha Racional\nD | 3. Tomada de Decisão | Ação Eficaz e Racionalidade | Seleção de cursos de ação sob racionalidade limitada de Herbert Simon, retroalimentando o ambiente\n```\n\n**Aplicação e recuperação:** Decidir satisfatoriamente sob restrições não significa examinar todas as alternativas e encontrar sempre o máximo global.\n\n### A Ecologia da Informação de Thomas Davenport e Laurence Prusak\n\n**Thomas H. Davenport** (*Ecologia da Informação*, 1997) faz uma crítica contundente ao reducionismo tecnicista (*tecnocentrismo*):\n\n* **O Erro Tecnológico Clássico:** A falsa premissa de que basta comprar softwares sofisticados, instalar servidores potentes ou adquirir plataformas de IA para que a organização se torne inteligente.\n* **A Visão Ecológica Integrada:**\n  A informação deve ser gerenciada com foco primordial no **comportamento humano, nos valores culturais, na política interna e nos hábitos informacionais**.\n* **Os Três Ambientes da Ecologia da Informação:**\n  1. *Ambiente Informacional:* Abrange estratégia, política, cultura e comportamento informacional, equipe de informação, processos de administração da informação e arquitetura da informação. Tecnologia participa do contexto, mas não deve substituir essa enumeração de seis componentes.\n  2. *Ambiente Organizacional:* Estrutura hierárquica, modelo de negócios e processos operacionais da instituição.\n  3. *Ambiente Externo:* Mercados, legislação, concorrentes e sociedade civil.\n\n**Aplicação e recuperação:** Comprar uma plataforma sem rever cultura, responsabilidades e fluxos pode informatizar um problema sem resolvê-lo.\n\n### Ferramentas e Práticas de GC em Bibliotecas e CEDI\n\nNo âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gestão do conhecimento mobiliza práticas colaborativas avançadas:\n\n* **Comunidades de Prática (CoPs - Etienne Wenger):**\n  * Grupos de profissionais que compartilham uma paixão comum por determinado campo técnico e se reúnem regularmente para debater desafios, trocar soluções práticas e aprender continuamente.\n  * Em bibliotecas: grupos de estudos permanentes de catalogadores e indexadores para harmonização de terminologias no Vocabulário Controlado Básico (VCB).\n* **Mapeamento de Competências e Páginas Amarelas Corporativas (*Yellow Pages*):**\n  * Diretório institucional detalhado que cadastra não apenas cargos formais, mas informações declaradas sobre competências, idiomas, especializações e experiências; o diretório não armazena o próprio saber tácito dos servidores, facilitando a formação rápida de forças-tarefa interdisciplinares.\n* **Memória Organizacional e Gestão de Lições Aprendidas (*After-Action Reviews*):**\n  * Metodologia estruturada de debriefing realizada logo após a conclusão de grandes projetos (ex.: inauguração de nova biblioteca digital ou implantação do RDA), documentando o que funcionou, o que falhou e como evitar erros no futuro.\n* **Barreiras ao Compartilhamento do Conhecimento:**\n  * *Barreiras Culturais:* A crença arcaica de que \"reter informação é reter poder\", gerando feudos departamentais.\n  * *Barreiras Organizacionais:* Estruturas excessivamente burocráticas e verticais que inibem o diálogo horizontal.\n  * *Barreiras Tecnológicas:* Sistemas fragmentados que não conversam entre si e interfaces pouco amigáveis.\n\n---\n\n\n\nUma comunidade de prática envolve domínio compartilhado, comunidade e prática desenvolvida ao longo da interação. Um grupo formal de distribuição de mensagens não é automaticamente uma CoP. Lições aprendidas exigem contexto, responsáveis, evidências e oportunidade de reutilização; acumular relatos sem acesso ou validação produz arquivo, sem garantir aprendizagem organizacional.\n\n**Aplicação e recuperação:** Um diretório ajuda a localizar quem sabe; não contém toda a competência daquela pessoa. Registre contexto e consentimentos necessários.\n\n### Competência em Dados (Data Literacy) na Gestão do Conhecimento Legislativo\n\nA competência em dados abrange compreensão, busca, avaliação, gestão e uso responsável de dados. Está relacionada à competência informacional, que **não se limita a textos**: pode abranger dados, imagens, mídia e diferentes formas de produção e circulação de informação.\n\nNo quadro de **Calzada Prado e Marzal (2013)**, as cinco áreas são:\n\n1. **Compreender dados:** tipos, fontes e modos de produção; reconhecer que medições dependem de definições.\n2. **Encontrar e/ou obter dados:** identificar fontes e condições de acesso adequadas à pergunta.\n3. **Ler, interpretar e avaliar dados:** compreender tabelas, gráficos, método, cobertura, qualidade e limitações.\n4. **Gerenciar dados:** organizar, documentar, preservar e favorecer recuperação e reutilização.\n5. **Usar dados:** combinar, analisar e comunicar com correção, respeito a direitos e atenção aos efeitos éticos.\n\nEssas áreas não equivalem à lista “acesso, avaliação, curadoria, análise, visualização” apresentada como transcrição literal. Visualização e análise são atividades que atravessam o quadro; FAIR, LGPD e formatos abertos acrescentam referências de aplicação, sem serem a enumeração original de 2013.\n\n**Caso parlamentar:** um painel mostra aumento de acessos após nova interface. Antes de declarar ganho de aprendizagem, confira se mudou a definição do evento, se foram excluídos robôs, se há comparação temporal válida e se o indicador realmente mede aprendizagem. Correlação não estabelece causalidade. Apresentar o denominador e as limitações faz parte da comunicação ética.\n\n**Aplicação e recuperação:** Um gráfico pode estar correto numericamente e induzir erro pela seleção do período ou pela escala. Avalie construção e interpretação.",
+  teoriaDidaticaMarkdown: "GI e GC possuem ênfases distintas, com práticas sobrepostas. SECI: socialização T→T, externalização T→E, combinação E→E, internalização E→T. Ba é contexto compartilhado, não só local físico. Choo articula sentido, conhecimento e decisão sob limites. Tecnologia isolada não cria inteligência. Competência em dados exige compreender, obter, interpretar/avaliar, gerenciar e usar dados eticamente.",
   checkpoints: [
-    {
-      id: 'cp-5-4-1',
-      pergunta: 'Micro-Checkpoint 1: Modelo SECI de Nonaka e Takeuchi',
-      item: 'No modelo SECI de conversão do conhecimento, a externalização é o modo pelo qual o conhecimento tácito é convertido em conceitos explícitos por meio de metáforas, modelos visuais e manuais formalizados.',
-      gabarito: 'C',
-      justificativa: 'Correto! Externalização é a passagem do tácito para o explícito, permitindo que intuições individuais sejam formalizadas e compartilhadas pela organização.',
-    },
-    {
-      id: 'cp-5-4-2',
-      pergunta: 'Micro-Checkpoint 2: Escopo da Gestão da Informação vs. do Conhecimento',
-      item: 'A gestão da informação atua primordialmente na perspectiva do conhecimento tácito dos colaboradores, mapeando suas relações informais, enquanto a gestão do conhecimento restringe-se ao controle e armazenamento de suportes físicos de dados.',
-      gabarito: 'E',
-      justificativa: 'Errado! O item inverteu completamente os conceitos: a Gestão da Informação foca no conhecimento explícito e nos suportes registrados; a Gestão do Conhecimento foca no conhecimento tácito e no capital humano.',
-    },
-    {
-      id: 'cp-5-4-3',
-      pergunta: 'Micro-Checkpoint 3: Modelo SECI de Conversão do Conhecimento',
-      item: 'No modelo SECI de Nonaka e Takeuchi, a conversão de conhecimento tácito em conhecimento explícito recebe o nome técnico de Externalização.',
-      gabarito: 'C',
-      justificativa: 'Certo! As quatro conversões clássicas da espiral do conhecimento são: Socialização (tácito para tácito), Externalização (tácito para explícito), Combinação (explícito para explícito) e Internalização (explícito para tácito).',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-5-4-1',
-        periodo: '1966',
-        disciplina: 'Epistemologia do Conhecimento',
-        focoPrincipal: 'Michael Polanyi estabelece a dimensão tácita do conhecimento ("sabemos mais do que podemos dizer")',
-        figuraChave: 'Michael Polanyi',
-      },
-      {
-        id: 'tl-5-4-2',
-        periodo: '1995',
-        disciplina: 'Gestão do Conhecimento',
-        focoPrincipal: 'Criação do modelo SECI e da Espiral do Conhecimento Organizacional',
-        figuraChave: 'Ikujiro Nonaka e Hirotaka Takeuchi',
-      },
-      {
-        id: 'tl-5-4-3',
-        periodo: '1997 / 1998',
-        disciplina: 'Ecologia da Informação',
-        focoPrincipal: 'Abordagem humanística e ecológica da informação contra o reducionismo da engenharia de TI',
-        figuraChave: 'Thomas H. Davenport e Laurence Prusak',
-      },
-      {
-        id: 'tl-5-4-4',
-        periodo: '1998 / 2002',
-        disciplina: 'Comunidades de Prática',
-        focoPrincipal: 'Etienne Wenger sistematiza as Comunidades de Prática (CoPs) como motor de aprendizagem social',
-        figuraChave: 'Etienne Wenger',
-      },
-      {
-        id: 'tl-5-4-5',
-        periodo: '2003',
-        disciplina: 'Ciência da Informação Organizacional',
-        focoPrincipal: 'Modelo integrado: Construção de Sentido, Criação do Conhecimento e Tomada de Decisão',
-        figuraChave: 'Chun Wei Choo',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-5-4-1',
-        nome: 'Ikujiro Nonaka e Hirotaka Takeuchi',
-        ano: 1995,
-        obraPrincipal: 'The Knowledge-Creating Company (Criação de Conhecimento na Empresa)',
-        ideiaChave: 'Espiral do Conhecimento (SECI): Socialização, Externalização, Combinação e Internalização; conceito de Ba.',
-        chipPegadinha: 'Externalização converte Tácito em Explícito (chave da criação); Combinação converte Explícito em Explícito.',
-      },
-      {
-        id: 'aut-5-4-2',
-        nome: 'Chun Wei Choo',
-        ano: 2003,
-        obraPrincipal: 'A organização do conhecimento: como as organizações usam a informação para criar sentido, conhecimento e decisões',
-        ideiaChave: 'A organização inteligente opera em três arenas: Construção de Sentido (Sense Making), Criação de Conhecimento e Tomada de Decisão.',
-        chipPegadinha: 'A construção de sentido (Karl Weick) antecede a tomada de decisão em ambientes com alta ambiguidade.',
-      },
-      {
-        id: 'aut-5-4-3',
-        nome: 'Thomas H. Davenport',
-        ano: 1997,
-        obraPrincipal: 'Information Ecology (Ecologia da Informação)',
-        ideiaChave: 'A gestão informacional envolve pessoas, política, cultura e comportamento, superando o tecnocentrismo.',
-        chipPegadinha: 'Tecnologia sozinha não resolve a gestão do conhecimento; é apenas suporte às pessoas.',
-      },
-      {
-        id: 'aut-5-4-4',
-        nome: 'Etienne Wenger',
-        ano: 1998,
-        obraPrincipal: 'Communities of Practice: Learning, Meaning, and Identity',
-        ideiaChave: 'Comunidades de Prática (CoPs) como grupos informais de aprendizagem social e compartilhamento tácito.',
-        chipPegadinha: 'CoPs são auto-organizadas e focadas no domínio de uma prática, não equipes hierárquicas formais.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-5-4-1',
-        afirmacao: 'O conhecimento tácito pode ser diretamente arquivado em bancos de dados digitais de uma biblioteca sem passar por qualquer processo de formalização ou explicitação.',
-        gabarito: 'E',
-        porQue: 'Conhecimento tácito reside exclusivamente na mente, intuição e práticas das pessoas. Para entrar em sistemas de TI, deve ser externalizado em linguagem explícita.',
-      },
-      {
-        id: 'peg-5-4-2',
-        afirmacao: 'A aplicação da gestão do conhecimento na biblioteconomia é restrita a organizações privadas com fins lucrativos.',
-        gabarito: 'E',
-        porQue: 'A gestão do conhecimento é amplamente aplicada a bibliotecas universitárias, órgãos públicos e casas legislativas para retenção de memória e inovação de serviços.',
-      },
-      {
-        id: 'peg-5-4-3',
-        afirmacao: 'No modelo SECI de criação do conhecimento, a combinação consiste na troca de experiências e vivências interpessoais não documentadas entre mestres e aprendizes.',
-        gabarito: 'E',
-        porQue: 'A troca de experiências não documentadas entre mestre e aprendiz é a SOCIALIZAÇÃO (tácito para tácito). A Combinação é a síntese e agregação de conhecimentos EXPLÍCITOS existentes.',
-      },
-    ],
+  {
+    "id": "cp-5-4-1",
+    "pergunta": "Micro-Checkpoint 1: Modelo SECI de Nonaka e Takeuchi",
+    "item": "No modelo SECI de conversão do conhecimento, a externalização é o modo pelo qual o conhecimento tácito é convertido em conceitos explícitos por meio de metáforas, modelos visuais e manuais formalizados.",
+    "gabarito": "C",
+    "justificativa": "Correto! Externalização é a passagem do tácito para o explícito, permitindo que intuições individuais sejam formalizadas e compartilhadas pela organização.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores."
   },
+  {
+    "id": "cp-5-4-2",
+    "pergunta": "Micro-Checkpoint 2: Escopo da Gestão da Informação vs. do Conhecimento",
+    "item": "A gestão da informação atua primordialmente na perspectiva do conhecimento tácito dos colaboradores, mapeando suas relações informais, enquanto a gestão do conhecimento restringe-se ao controle e armazenamento de suportes físicos de dados.",
+    "gabarito": "E",
+    "justificativa": "Errado. O item inverte as ênfases e ainda restringe indevidamente a GC ao armazenamento. GI trata recursos e fluxos informacionais; GC enfatiza criação, compartilhamento e aplicação do conhecimento, utilizando também registros explícitos.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "versao_correta": "GI e GC têm ênfases diferentes e práticas sobrepostas; GC não se restringe ao controle de suportes."
+  },
+  {
+    "id": "cp-5-4-3",
+    "pergunta": "Micro-Checkpoint 3: Modelo SECI de Conversão do Conhecimento",
+    "item": "No modelo SECI, um catalogador que incorpora às suas habilidades o conhecimento explícito de um manual, mediante aplicação e reflexão, exemplifica internalização.",
+    "gabarito": "C",
+    "justificativa": "Certo. O movimento é do explícito para o tácito. A aplicação e a reflexão distinguem incorporar uma habilidade de simplesmente guardar ou distribuir o manual.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores."
+  },
+  {
+    "id": "rt-5-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Gestão do conhecimento pode utilizar repositórios de documentos explícitos.",
+    "gabarito": "C",
+    "justificativa": "A ênfase em criação e compartilhamento não exclui ferramentas documentais.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 4.1",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-5-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Registrar uma explicação em vídeo transfere automaticamente ao espectador todo o saber tácito do especialista.",
+    "gabarito": "E",
+    "justificativa": "Registro e aprendizagem são distintos; há aspectos contextuais e práticos.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 4.1",
+    "habilidade": "aplicar",
+    "versao_correta": "O vídeo pode apoiar aprendizagem, sem transferir automaticamente toda a competência."
+  },
+  {
+    "id": "rt-5-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Integrar relatórios explícitos em uma nova síntese caracteriza combinação no SECI.",
+    "gabarito": "C",
+    "justificativa": "A conversão é explícito para explícito, sem exigir criação por intuição tácita.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 4.1",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-5-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Racionalidade limitada implica necessariamente escolher a alternativa ótima global.",
+    "gabarito": "E",
+    "justificativa": "Restrições de informação e processamento favorecem escolhas satisfatórias, não garantem otimização global.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 4.1",
+    "habilidade": "aplicar",
+    "versao_correta": "A escolha ocorre sob limitações e pode ser satisfatória sem ser ótima."
+  },
+  {
+    "id": "rt-5-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A ecologia da informação reduz a gestão informacional à compra da melhor tecnologia disponível.",
+    "gabarito": "E",
+    "justificativa": "A abordagem integra cultura, comportamento, política, pessoas e processos.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 4.1",
+    "habilidade": "aplicar",
+    "versao_correta": "A tecnologia é considerada em conjunto com fatores humanos e organizacionais."
+  },
+  {
+    "id": "rt-5-4-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um cadastro de especialistas pode facilitar encontrar competências sem armazenar integralmente essas competências.",
+    "gabarito": "C",
+    "justificativa": "O diretório representa informações sobre pessoas; não incorpora o saber delas.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 4.1",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-5-4-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A competência informacional exclui necessariamente dados, abrangendo apenas documentos textuais.",
+    "gabarito": "E",
+    "justificativa": "Seu escopo pode abranger diferentes tipos e formatos de informação.",
+    "fonte": "Choo — A organização do conhecimento — Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.; Nonaka e Konno — The Concept of Ba (1998) — Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.; JAIST — Knowledge Management Research — SECI e contextos de interação; variantes da nomenclatura de Ba.; Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013) — Quadro de competências; registro no repositório dos autores.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 4.1",
+    "habilidade": "aplicar",
+    "versao_correta": "Competência informacional e competência em dados se relacionam e podem se sobrepor."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-5-4-fonte-8a4d3c6a5647",
+      "nome": "Choo — A organização do conhecimento",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Choo — A organização do conhecimento",
+      "ideiaChave": "Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-5-4-fonte-ba",
+      "nome": "Nonaka e Konno — The Concept of Ba (1998)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Nonaka e Konno — The Concept of Ba (1998)",
+      "ideiaChave": "Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-5-4-fonte-km",
+      "nome": "JAIST — Knowledge Management Research",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "JAIST — Knowledge Management Research",
+      "ideiaChave": "SECI e contextos de interação; variantes da nomenclatura de Ba.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-5-4-fonte-dados",
+      "nome": "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)",
+      "ideiaChave": "Quadro de competências; registro no repositório dos autores.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-5-4-5",
+      "afirmacao": "A ecologia da informação reduz a gestão informacional à compra da melhor tecnologia disponível.",
+      "gabarito": "E",
+      "porQue": "A abordagem integra cultura, comportamento, política, pessoas e processos."
+    },
+    {
+      "id": "memoria-rt-5-4-6",
+      "afirmacao": "Um cadastro de especialistas pode facilitar encontrar competências sem armazenar integralmente essas competências.",
+      "gabarito": "C",
+      "porQue": "O diretório representa informações sobre pessoas; não incorpora o saber delas."
+    },
+    {
+      "id": "memoria-rt-5-4-7",
+      "afirmacao": "A competência informacional exclui necessariamente dados, abrangendo apenas documentos textuais.",
+      "gabarito": "E",
+      "porQue": "Seu escopo pode abranger diferentes tipos e formatos de informação."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-5-4-bloco-1",
+    "titulo": "A Fronteira Epistemológica entre Informação e Conhecimento",
+    "objetivos": [
+      "Distinguir ênfases de GI e GC sem separação absoluta."
+    ],
+    "conteudo": "A Ciência da Informação contemporânea emprega distinções analíticas, com sobreposições entre as práticas entre a **Gestão da Informação (GI)** e a **Gestão do Conhecimento (GC)** (Choo, 2003; Davenport & Prusak, 1998):\n\n* **Gestão da Informação (GI):**\n  * Ocupa-se de recursos e fluxos informacionais, estruturados ou não, registrados em diferentes suportes, conforme necessidades organizacionais.\n  * Opera o ciclo documental completo: mapeamento de necessidades, coleta/aquisição, classificação/catalogação, armazenamento físico e digital, recuperação e disseminação.\n  * Atua predominantemente sobre os **fluxos formais** de comunicação organizacional (sistemas informatizados, memorandos, boletins oficiais, SIGBs e repositórios).\n* **Gestão do Conhecimento (GC):**\n  * Tem como objeto o **capital intelectual**, o **conhecimento tácito** e as pessoas que formam o tecido social da organização.\n  * Visa estabelecer um clima e uma cultura organizacional propícios ao compartilhamento de experiências, à retenção do saber crítico e à geração de inovações.\n  * Mobiliza os **fluxos informais** de comunicação (as conversas de trabalho, os encontros fortuitos, as comunidades de prática e o relacionamento interdepartamental).\n\n---\n\n\n\nNão há exclusividade absoluta: GC também utiliza documentos, repositórios e práticas formais; GI depende de pessoas e interações. A diferença de ênfase não permite reduzir GI a guardar suportes nem GC a administrar tudo o que é informal.\n\n**Aplicação e recuperação:** Uma biblioteca combina base documental e mentoria. A presença de um repositório não exclui GC; a atuação das pessoas não exclui GI.",
+    "checkpointIds": [
+      "cp-5-4-2",
+      "rt-5-4-1"
+    ]
+  },
+  {
+    "id": "sub-5-4-bloco-2",
+    "titulo": "Conhecimento Tácito vs. Conhecimento Explícito (Michael Polanyi)",
+    "objetivos": [
+      "Explicar limites da codificação do conhecimento tácito."
+    ],
+    "conteudo": "A distinção canônica entre as naturezas do conhecimento foi formulada pelo filósofo **Michael Polanyi** (*The Tacit Dimension*, 1966) e popularizada na administração por Nonaka e Takeuchi:\n\n$\\text{\"Podemos saber mais do que podemos dizer.\"} \\quad - \\; \\text{Michael Polanyi}$\n\n| Dimensão | Conhecimento Tácito | Conhecimento Explícito |\n| :--- | :--- | :--- |\n| **Definição** | Altamente pessoal, intuitivo, subjetivo e profundamente enraizado na ação e no contexto de cada indivíduo. | Formal, articulado, codificado e expresso em linguagem simbólica formal (palavras, números, diagramas). |\n| **Componentes** | *Dimensão técnica:* Habilidades práticas, *know-how*, truques de ofício (*craftsmanship*).<br>*Dimensão cognitiva:* Modelos mentais, esquemas conceituais, crenças e valores pessoais. | Manuais de instrução, especificações técnicas, patentes, bases de dados relacionais e livros de procedimentos. |\n| **Transmissibilidade** | Difícil de formalizar e comunicar; transmite-se sobretudo por convivência, observação direta e prática partilhada. | Mais suscetível de comunicação formal, embora sua interpretação dependa do contexto; pode ser, reproduzível, armazenável eletronicamente e transmissível por redes digitais. |\n| **Armazenamento em TI** | Um arquivo pode representar aspectos de uma prática, mas não captura automaticamente toda a experiência tácita. Vídeos, simulações e interação podem apoiar aprendizagem sem que o saber se reduza ao arquivo. | Armazenado nativamente em servidores, bancos de dados, arquivos e catálogos. |\n\n**Aplicação e recuperação:** Filmar um especialista cria um registro explícito, mas não faz o aprendiz adquirir automaticamente a mesma habilidade.",
+    "checkpointIds": [
+      "rt-5-4-2"
+    ]
+  },
+  {
+    "id": "sub-5-4-bloco-3",
+    "titulo": "A Espiral do Conhecimento (Modelo SECI) de Nonaka e Takeuchi (1995)",
+    "objetivos": [
+      "Identificar conversões SECI e os contextos de Ba."
+    ],
+    "conteudo": "Em sua obra seminal *Criação de Conhecimento na Empresa*, **Ikujiro Nonaka e Hirotaka Takeuchi** postulam que o conhecimento organizacional é criado a partir da interação dinâmica e contínua entre as dimensões ontológicas (indivíduo, grupo, organização, interorganizacional) e epistemológicas (tácito e explícito).\n\nEssa dinâmica ocorre por meio de **quatro modos de conversão do conhecimento (SECI)**:\n\n```timeline\nS | 1. Socialização | Tácito → Tácito | Compartilhamento de modelos mentais e experiências pelo convívio, observação e prática mestre-aprendiz\n---> Diálogo e Reflexão Coletiva\nE | 2. Externalização | Tácito → Explícito | Modo crítico: articulação do saber tácito em conceitos claros via metáforas, modelos visuais e manuais\n---> Sistematização e Difusão\nC | 3. Combinação | Explícito → Explícito | Reconfiguração e agregação de conhecimentos explícitos em relatórios, bases de dados e repositórios\n---> Aprendizagem Prática (Learning by Doing)\nI | 4. Internalização | Explícito → Tácito | Incorporação do conhecimento explícito aos modelos mentais individuais, reiniciando a espiral em nível superior\n```\n\n1. **Socialização ($Tácito \rightarrow Tácito$):**\n   * Compartilhamento de experiências vividas, percepções e modelos mentais sem a mediação necessária de códigos escritos.\n   * Dá-se por observação, imitação, convívio diário e relação mestre-aprendiz.\n   * *Exemplo em biblioteca:* Um bibliotecário recém-empossado acompanha um colega sênior em entrevistas de referência difíceis com parlamentares, absorvendo o tom de voz, o equilíbrio postural e a perspicácia na condução do diálogo.\n2. **Externalização ($Tácito \rightarrow Explícito$):**\n   * **É o modo crítico da criação do conhecimento.** Consiste na articulação do saber tácito individual em conceitos compreensíveis a todos, por meio do uso deliberado de **metáforas, analogias, conceitos formalizados, hipóteses ou modelos visuais**.\n   * *Exemplo em biblioteca:* A equipe técnica de indexadores se reúne para redigir o *Manual de Indexação Parlamentar*, transformando regras intuitivas não escritas em diretrizes e fluxogramas objetivos.\n3. **Combinação ($Explícito \rightarrow Explícito$):**\n   * Reconfiguração, agregação e sistematização de diferentes corpos de conhecimentos explícitos já existentes.\n   * Envolve a coleta de fontes diversas, análise de dados e criação de novos documentos integrados.\n   * *Exemplo em biblioteca:* O bibliotecário cruza dados do catálogo automatizado com as estatísticas de votações da Câmara e relatórios de empréstimo para gerar um *Dashboard Executivo de Tendências Temáticas do Parlamento*.\n4. **Internalização ($Explícito \rightarrow Tácito$):**\n   * Incorporação do conhecimento explícito às rotinas mentais e à vivência prática dos colaboradores (*learning by doing*).\n   * Ocorre quando a leitura de manuais e procedimentos técnicos se transforma em um hábito quase instintivo de atuação.\n   * *Exemplo em biblioteca:* Após estudar profundamente o modelo conceitual IFLA LRM e o novo RDA Toolkit, o catalogador passa a atribuir atributos e relacionamentos de entidades de forma fluida e automática no dia a dia.\n\n#### O Conceito de \"Ba\" (Nonaka e Konno, 1998)\nNa formulação dos autores, a criação do conhecimento é situada em contexto compartilhado, denominado **Ba**:\n* **Originating Ba:** Contexto compartilhado de experiências e interação face a face onde opera a Socialização (conversas informais, cafezinho).\n* **Interacting / Dialoguing Ba:** Espaço de diálogo e reflexão coletiva onde atua a Externalização (oficinas de cocriação).\n* **Cyber / Systemizing Ba:** Espaço virtual mediado por redes computacionais onde ocorre a Combinação (intranets, bases de dados, wikis).\n* **Exercising Ba:** Espaço de treinamento prático e aplicação operacional onde se concretiza a Internalização.\n\n---\n\n\n\nAs nomenclaturas **interacting/dialoguing** e **cyber/systemizing** aparecem em formulações de épocas diferentes. Não as trate como quatro modos adicionais ao SECI. Ba é contexto relacional compartilhado, podendo envolver dimensões físicas, virtuais e mentais; não é simplesmente sala, software ou banco de dados. O SECI é modelo teórico, não prova de que todo conhecimento possa ser integralmente explicitado ou que toda leitura gere competência.\n\n**Aplicação e recuperação:** Aprender observando é exemplo de socialização; formular o procedimento em palavras é externalização; integrar manuais é combinação; incorporar a prática é internalização.",
+    "checkpointIds": [
+      "cp-5-4-1",
+      "cp-5-4-3",
+      "rt-5-4-3"
+    ]
+  },
+  {
+    "id": "sub-5-4-bloco-4",
+    "titulo": "A Organização do Conhecimento de Chun Wei Choo (2003)",
+    "objetivos": [
+      "Relacionar as três arenas de Choo à racionalidade limitada."
+    ],
+    "conteudo": "Em *A Organização do Conhecimento: como as organizações usam a informação para criar significado, criar conhecimento e tomar decisões*, **Chun Wei Choo** articula a gestão em três arenas interdependentes:\n\n1. **Construção de Sentido (*Sense Making* de Karl Weick):**\n   * As organizações operam em ambientes externos turbulentos, dinâmicos e ambíguos.\n   * A construção de sentido é o processo pelo qual os colaboradores interpretam sinais fracos, filtram ruídos e atribuem significado coletivo compartilhado àquilo que está acontecendo no mundo exterior.\n2. **Criação de Conhecimento (Modelo de Nonaka & Takeuchi):**\n   * Uma vez compreendido o ambiente, a instituição gera novas ideias, competências e capacidades a partir da espiral SECI, integrando o conhecimento tácito pessoal ao conhecimento cultural da organização.\n3. **Tomada de Decisão (Racionalidade Limitada de Herbert Simon):**\n   * O ser humano possui limites cognitivos de processamento da informação (*racionalidade limitada*).\n   * A tomada de decisão consiste na identificação estruturada de alternativas, pesagem de consequências e seleção de curso de ação satisfatório sob restrições; não necessariamente o ótimo global para resolver problemas e cumprir a missão institucional.\n\n```timeline\nA | Incerteza e Ruído do Ambiente | Ponto de Partida | Cenário externo dinâmico, turbulento e ambíguo com fluxo volumoso de dados dispersos\n---> Filtragem Cognitiva\nB | 1. Construção de Sentido (Sense Making) | Interpretação Coletiva | Mapeamento de sinais fracos, filtragem de ruído e atribuição de significado compartilhado (Karl Weick)\n---> Conversão Epistêmica\nC | 2. Criação de Conhecimento | Inovação Institucional | Geração de novas competências a partir da espiral SECI (tácito/explícito de Nonaka & Takeuchi)\n---> Escolha Racional\nD | 3. Tomada de Decisão | Ação Eficaz e Racionalidade | Seleção de cursos de ação sob racionalidade limitada de Herbert Simon, retroalimentando o ambiente\n```\n\n**Aplicação e recuperação:** Decidir satisfatoriamente sob restrições não significa examinar todas as alternativas e encontrar sempre o máximo global.",
+    "checkpointIds": [
+      "rt-5-4-4"
+    ]
+  },
+  {
+    "id": "sub-5-4-bloco-5",
+    "titulo": "A Ecologia da Informação de Thomas Davenport e Laurence Prusak",
+    "objetivos": [
+      "Reconhecer a abordagem ecológica e seus componentes informacionais."
+    ],
+    "conteudo": "**Thomas H. Davenport** (*Ecologia da Informação*, 1997) faz uma crítica contundente ao reducionismo tecnicista (*tecnocentrismo*):\n\n* **O Erro Tecnológico Clássico:** A falsa premissa de que basta comprar softwares sofisticados, instalar servidores potentes ou adquirir plataformas de IA para que a organização se torne inteligente.\n* **A Visão Ecológica Integrada:**\n  A informação deve ser gerenciada com foco primordial no **comportamento humano, nos valores culturais, na política interna e nos hábitos informacionais**.\n* **Os Três Ambientes da Ecologia da Informação:**\n  1. *Ambiente Informacional:* Abrange estratégia, política, cultura e comportamento informacional, equipe de informação, processos de administração da informação e arquitetura da informação. Tecnologia participa do contexto, mas não deve substituir essa enumeração de seis componentes.\n  2. *Ambiente Organizacional:* Estrutura hierárquica, modelo de negócios e processos operacionais da instituição.\n  3. *Ambiente Externo:* Mercados, legislação, concorrentes e sociedade civil.\n\n**Aplicação e recuperação:** Comprar uma plataforma sem rever cultura, responsabilidades e fluxos pode informatizar um problema sem resolvê-lo.",
+    "checkpointIds": [
+      "rt-5-4-5"
+    ]
+  },
+  {
+    "id": "sub-5-4-bloco-6",
+    "titulo": "Ferramentas e Práticas de GC em Bibliotecas e CEDI",
+    "objetivos": [
+      "Avaliar ferramentas sem confundir registro de competência com o próprio saber."
+    ],
+    "conteudo": "No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gestão do conhecimento mobiliza práticas colaborativas avançadas:\n\n* **Comunidades de Prática (CoPs - Etienne Wenger):**\n  * Grupos de profissionais que compartilham uma paixão comum por determinado campo técnico e se reúnem regularmente para debater desafios, trocar soluções práticas e aprender continuamente.\n  * Em bibliotecas: grupos de estudos permanentes de catalogadores e indexadores para harmonização de terminologias no Vocabulário Controlado Básico (VCB).\n* **Mapeamento de Competências e Páginas Amarelas Corporativas (*Yellow Pages*):**\n  * Diretório institucional detalhado que cadastra não apenas cargos formais, mas informações declaradas sobre competências, idiomas, especializações e experiências; o diretório não armazena o próprio saber tácito dos servidores, facilitando a formação rápida de forças-tarefa interdisciplinares.\n* **Memória Organizacional e Gestão de Lições Aprendidas (*After-Action Reviews*):**\n  * Metodologia estruturada de debriefing realizada logo após a conclusão de grandes projetos (ex.: inauguração de nova biblioteca digital ou implantação do RDA), documentando o que funcionou, o que falhou e como evitar erros no futuro.\n* **Barreiras ao Compartilhamento do Conhecimento:**\n  * *Barreiras Culturais:* A crença arcaica de que \"reter informação é reter poder\", gerando feudos departamentais.\n  * *Barreiras Organizacionais:* Estruturas excessivamente burocráticas e verticais que inibem o diálogo horizontal.\n  * *Barreiras Tecnológicas:* Sistemas fragmentados que não conversam entre si e interfaces pouco amigáveis.\n\n---\n\n\n\nUma comunidade de prática envolve domínio compartilhado, comunidade e prática desenvolvida ao longo da interação. Um grupo formal de distribuição de mensagens não é automaticamente uma CoP. Lições aprendidas exigem contexto, responsáveis, evidências e oportunidade de reutilização; acumular relatos sem acesso ou validação produz arquivo, sem garantir aprendizagem organizacional.\n\n**Aplicação e recuperação:** Um diretório ajuda a localizar quem sabe; não contém toda a competência daquela pessoa. Registre contexto e consentimentos necessários.",
+    "checkpointIds": [
+      "rt-5-4-6"
+    ]
+  },
+  {
+    "id": "sub-5-4-bloco-7",
+    "titulo": "Competência em Dados (Data Literacy) na Gestão do Conhecimento Legislativo",
+    "objetivos": [
+      "Interpretar dados e o quadro de competências sem equivalências inventadas."
+    ],
+    "conteudo": "A competência em dados abrange compreensão, busca, avaliação, gestão e uso responsável de dados. Está relacionada à competência informacional, que **não se limita a textos**: pode abranger dados, imagens, mídia e diferentes formas de produção e circulação de informação.\n\nNo quadro de **Calzada Prado e Marzal (2013)**, as cinco áreas são:\n\n1. **Compreender dados:** tipos, fontes e modos de produção; reconhecer que medições dependem de definições.\n2. **Encontrar e/ou obter dados:** identificar fontes e condições de acesso adequadas à pergunta.\n3. **Ler, interpretar e avaliar dados:** compreender tabelas, gráficos, método, cobertura, qualidade e limitações.\n4. **Gerenciar dados:** organizar, documentar, preservar e favorecer recuperação e reutilização.\n5. **Usar dados:** combinar, analisar e comunicar com correção, respeito a direitos e atenção aos efeitos éticos.\n\nEssas áreas não equivalem à lista “acesso, avaliação, curadoria, análise, visualização” apresentada como transcrição literal. Visualização e análise são atividades que atravessam o quadro; FAIR, LGPD e formatos abertos acrescentam referências de aplicação, sem serem a enumeração original de 2013.\n\n**Caso parlamentar:** um painel mostra aumento de acessos após nova interface. Antes de declarar ganho de aprendizagem, confira se mudou a definição do evento, se foram excluídos robôs, se há comparação temporal válida e se o indicador realmente mede aprendizagem. Correlação não estabelece causalidade. Apresentar o denominador e as limitações faz parte da comunicação ética.\n\n**Aplicação e recuperação:** Um gráfico pode estar correto numericamente e induzir erro pela seleção do período ou pela escala. Avalie construção e interpretação.",
+    "checkpointIds": [
+      "rt-5-4-7"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "8a4d3c6a5647",
+    "titulo": "Choo — A organização do conhecimento",
+    "localizador": "Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Gest%C3%A3o%20e%20Cole%C3%A7%C3%B5es/choo-chun-wei-a-organizac3a7c3a3o-do-conhecimento.pdf"
+  },
+  {
+    "id": "ba",
+    "titulo": "Nonaka e Konno — The Concept of Ba (1998)",
+    "localizador": "Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.",
+    "url": "https://cmr.berkeley.edu/1998/05/40-3-the-concept-of-ba-building-a-foundation-for-knowledge-creation/"
+  },
+  {
+    "id": "km",
+    "titulo": "JAIST — Knowledge Management Research",
+    "localizador": "SECI e contextos de interação; variantes da nomenclatura de Ba.",
+    "url": "https://www.jaist.ac.jp/ks/labs/umemoto/km_e.html"
+  },
+  {
+    "id": "dados",
+    "titulo": "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)",
+    "localizador": "Quadro de competências; registro no repositório dos autores.",
+    "url": "https://e-archivo.uc3m.es/entities/publication/f8019e56-a49c-4dfa-9061-f601748de9bd"
+  }
+],
 };

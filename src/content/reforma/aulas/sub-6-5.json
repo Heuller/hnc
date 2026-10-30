@@ -1,0 +1,232 @@
+{
+  "id": "sub-6-5",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-6-5-bloco-1",
+      "titulo": "Engenharia de Requisitos em Ambientes Documentários e Legislativos",
+      "objetivos": [
+        "Definir requisito testável e distinguir norma de decisão de projeto."
+      ],
+      "conteudo": "O desenvolvimento e a implantação de sistemas de informação em unidades documentárias — como a Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo) e o Centro de Documentação e Informação (Cedi) — dependem de um rigoroso processo de **Engenharia de Requisitos**:\n\n* **1. Requisitos Funcionais (RF):**\n  * Descrevem as **funções, comportamentos e serviços específicos** que o sistema deve executar para atender aos processos de trabalho informacionais.\n  * *Exemplos Bibliotecários:*\n    * \"O sistema deve permitir a catalogação cooperativa com importação de registros via protocolo Z39.50 e SRU.\"\n    * \"O sistema deve gerar automaticamente fichas catalográficas no padrão AACR2/RDA e ABNT NBR 14724 em formato PDF/A.\"\n    * \"O sistema deve suportar recuperação booleana com operadores AND, OR, NOT, busca por proximidade (NEAR) e truncamento.\"\n    * \"O sistema deve controlar a circulação de itens, bloqueando empréstimos para usuários com penalidades ativas.\"\n\n* **2. Requisitos Não Funcionais (RNF):**\n  * Descrevem os **critérios de qualidade, restrições operacionais, segurança e arquitetura** sob os quais os serviços devem operar.\n  * *Exemplos Bibliotecários:*\n    * *Desempenho e Tempo de Resposta:* \"A consulta ao catálogo público (OPAC) deve retornar os primeiros 20 resultados em menos de 1,5 segundo sob carga simultânea de 1.000 usuários.\"\n    * *Segurança e Conformidade:* \"O armazenamento de dados biográficos de parlamentares e registros de leitura de cidadãos deve observar a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018), com controles de segurança adequados ao risco e à configuração. AES-256/TLS 1.3 podem integrar requisitos específicos, mas esses números não são imposição literal universal da LGPD.\"\n    * *Acessibilidade Digital:* \"Todas as interfaces do catálogo digital devem cumprir o nível AA das Diretrizes de Acessibilidade de Conteúdo Web (WCAG 2.1/2.2) e o modelo e-MAG.\"\n    * *Interoperabilidade:* \"O repositório institucional deve expor metadados descritivos em conformidade com o protocolo OAI-PMH no formato Dublin Core simples (oai_dc).\"\n\n* **3. Técnicas de Levantamento e Validação de Requisitos:**\n  * *Entrevistas Estruturadas e Semi-estruturadas:* Diálogo aprofundado com consultores legislativos, bibliotecários de referência e pesquisadores para mapear dores cognitivas.\n  * *Análise de Fluxo Documental (Workflow Analysis):* Rastreamento da trajetória física e digital dos documentos, da entrada por depósito legal/aquisição até a preservação permanente.\n  * *Prototipagem Rápida e Design Participativo:* Criação de wireframes de baixa e média fidelidade para validação precoce com usuários reais antes da codificação.\n\n**Aplicação e recuperação:** “O sistema deve ser rápido” não define teste. Especificar carga, percentil, dados e tempo torna o requisito verificável. Já nomear algoritmo de criptografia é decisão/restrição que precisa de fundamento, não transcrição automática da LGPD. Um requisito pode envolver comportamento e qualidade; sua classificação depende do contexto.",
+      "checkpointIds": [
+        "rt-6-5-7"
+      ]
+    },
+    {
+      "id": "sub-6-5-bloco-2",
+      "titulo": "MER: técnica conceitual geral e modelo de domínio bibliográfico",
+      "objetivos": [
+        "Separar modelagem conceitual, identificação e cardinalidade."
+      ],
+      "conteudo": "Formulado por **Peter Pin-Shan Chen** em 1976 (*The Entity-Relationship Model: Toward a Unified View of Data*), o MER constitui uma técnica de **modelagem conceitual** geral. Projeto lógico e físico vêm em níveis distintos; LRM também é conceitual, mas seu domínio e objetivo são bibliográficos:\n\n#### A. Componentes Primitivos do MER\n1. **Entidades:**\n   * Representam objetos do mundo real, concretos ou abstratos, sobre os quais a organização deseja manter dados.\n   * *Entidade Forte (Regular):* Possui existência autônoma e chave primária própria (ex.: `AUTOR`, `OBRA`, `DEPUTADO`).\n   * *Entidade Fraca:* Depende existencialmente de outra entidade proprietária para sua identificação (ex.: um dependente identificado pelo identificador do responsável e um número parcial local, no modelo explicitado. Um EXEMPLAR com identificador global próprio não é automaticamente entidade fraca só por estar relacionado à obra).\n2. **Atributos:**\n   * Propriedades ou características que qualificam uma entidade ou um relacionamento:\n     * *Simples (Atômico):* Não pode ser decomposto (ex.: `Ano_Publicacao`, `Numero_Mandato`).\n     * *Composto:* Pode ser subdividido em componentes menores com significado próprio (ex.: `Nome_Completo` decomposto em `Primeiro_Nome` e `Sobrenome`; `Endereco` em `Rua`, `Numero` e `CEP`).\n     * *Monovalorado:* Admite no máximo um valor para cada ocorrência da entidade (ex.: `CPF`, `Data_Nascimento`).\n     * *Multivalorado:* Admite múltiplos valores para uma mesma ocorrência da entidade (ex.: `Telefones_Contato`, `Assuntos_Topicos`). No modelo relacional clássico, a representação pode exigir relação separada para valores múltiplos; tipos complexos de SGBDs e a definição do domínio precisam ser explicitados.\n     * *Derivado:* Valor calculado ou inferido dinamicamente a partir de outros atributos (ex.: `Idade` derivada de `Data_Nascimento` e data atual; `Total_Obras` derivado de contagem).\n3. **Relacionamentos e Cardinalidade:**\n   * Associações semânticas entre duas ou mais entidades:\n     * **1:1 (Um para Um):** Cada ocorrência de A associa-se a no máximo uma ocorrência de B (ex.: `GABINETE_LIDER` ──(1:1)──> `LIDER_PARTIDARIO`).\n     * **1:N (Um para Muitos):** Uma ocorrência de A associa-se a várias de B, mas cada ocorrência de B associa-se a apenas uma de A (ex.: `EDITORA` ──(1:N)──> `LIVRO`; `PROPOSICAO` ──(1:N)──> `EMENDA`).\n     * **N:M (Muitos para Muitos):** Várias ocorrências de A associam-se a várias de B (ex.: `AUTOR` ──(N:M)──> `OBRA`; `PROPOSICAO` ──(N:M)──> `TEMA_COMISSAO`). No modelo relacional, relacionamentos N:M exigem a criação de uma **tabela associativa (de junção)** contendo as chaves estrangeiras de ambas as entidades.\n\n```text\nAUTOR  N ---- escreve ---- M  OBRA\n        relação AUTORIA(id_autor, id_obra)\nOBRA   1 ---- possui  ---- N  EXEMPLAR\n        EXEMPLAR(id_exemplar global, id_obra)\n```\n\nNeste exemplo, identificador global torna EXEMPLAR identificável por chave própria. Um modelo que usasse apenas numeração local dentro da obra teria condições de identificação diferentes.\n\n**Aplicação e recuperação:** AUTOR e OBRA têm relação N:M no exemplo e uma tabela AUTORIA. Uma editora por livro é hipótese do modelo, não verdade de toda publicação: coedição pode exigir outra cardinalidade. Entidade fraca depende de identificação, não de apenas haver uma chave estrangeira na implementação.",
+      "checkpointIds": [
+        "cp-6-5-1",
+        "rt-6-5-2"
+      ]
+    },
+    {
+      "id": "sub-6-5-bloco-3",
+      "titulo": "Modelo relacional: dependências, formas normais e transações",
+      "objetivos": [
+        "Analisar chaves candidatas, dependências e garantias transacionais."
+      ],
+      "conteudo": "Criado por **Edgar Frank Codd** nos laboratórios da IBM (*A Relational Model of Data for Large Shared Data Banks*, 1970), o modelo relacional organiza os dados sob a fundamentação matemática da teoria dos conjuntos e da lógica de predicados de primeira ordem:\n\n#### A. Estrutura e Chaves Relacionais\n* **Relação (Tabela):** Estrutura bidimensional composta por tuplas (linhas) e atributos (colunas).\n* **Chave Primária (Primary Key - PK):** Atributo (ou conjunto de atributos) que identifica de maneira unívoca cada linha da tabela. Rege-se pelo princípio da **Integridade de Entidade**: nenhum componente da chave primária pode admitir valor nulo (`NULL`).\n* **Chave Estrangeira (Foreign Key - FK):** Atributo de uma tabela que referencia chave/colunas únicas admissíveis no SGBD, inclusive chave candidata não escolhida como primária, de outra tabela ou da mesma. Rege-se pelo princípio da **Integridade Referencial**: o valor da FK deve coincidir com uma PK existente na tabela referenciada ou admitir nulo **se** a nulidade e as regras de correspondência permitirem; NOT NULL e detalhes de chave composta precisam ser observados.\n\n#### B. Teoria da Normalização (1FN, 2FN e 3FN)\nA normalização é uma técnica formal de análise de esquemas relacionais que busca reduzir redundâncias indevidas e anomalias de inserção, alteração e exclusão segundo dependências; não elimina automaticamente todo dado repetido ou erro de uso:\n\n1. **Primeira Forma Normal (1FN):**\n   * Uma tabela está na 1FN se, e somente se, **todos os seus atributos contiverem apenas valores atômicos e indivisíveis**, inexistindo atributos multivalorados, listas separadas por vírgula ou tabelas aninhadas.\n   * *Correção:* Se uma tabela de livros armazena \"Assuntos\" como `'Direito Constitucional, Processo Legislativo, Ciência Política'`, o campo viola a 1FN. Deve-se criar uma tabela separada de assuntos e relacioná-la via chave estrangeira.\n\n2. **Segunda Forma Normal (2FN):**\n   * Uma tabela está na 2FN se, e somente se, **já estiver na 1FN e todos os atributos não primos dependerem integralmente de **todas as chaves candidatas**, sem dependência parcial. Atributo primo pertence a alguma chave candidata; considerar só a primária pode ocultar violações** (inexistência de **dependência funcional parcial**).\n   * *Condição Crítica:* Se todas as chaves candidatas são simples, não há a dependência parcial pertinente a 2FN. Uma primária simples, sozinha, não basta para concluir isso quando existe outra chave candidata composta.\n   * *Exemplo de Violação:* Tabela associativa com chave primária composta (`id_aluno`, `id_curso`). Se a coluna `nome_curso` estiver nessa tabela, ela depende apenas de `id_curso`, configurando dependência parcial.\n\n3. **Terceira Forma Normal (3FN):**\n   * Uma tabela está na 3FN se, e somente se, **já estiver nas condições anteriores e satisfizer a restrição pertinente às dependências. Formalmente, para toda dependência funcional não trivial X → A, **X é superchave ou A é atributo primo**. A frase sobre dependência transitiva entre não-chave é uma síntese para casos simples, não definição que ignore chaves candidatas** (inexistência de **dependência funcional transitiva**).\n   * *Fórmula Lógica:* Se $A \\rightarrow B$ e $B \\rightarrow C$ (onde $A$ é a PK e $B, C$ são atributos não-chave), então $C$ depende transitivamente de $A$ através de $B$.\n   * *Exemplo de Violação:* Em uma tabela de exemplares com PK `id_exemplar`, temos as colunas `id_editora` e `cidade_editora`. A cidade da editora depende do `id_editora` (que não é PK da tabela), e não diretamente do exemplar. A solução exige transferir `cidade_editora` para a tabela própria de `EDITORA`.\n\n#### C. As Propriedades ACID em Sistemas RDBMS\nOs sistemas gerenciadores de bancos de dados relacionais transacionais (PostgreSQL, Oracle, MySQL, SQL Server) sustentam a confiabilidade dos dados através do acrônimo **ACID**:\n* **A - Atomicidade (Atomicity):** Uma transação é tratada como unidade atômica indivisível: ou todas as operações de escrita são executadas com sucesso (`COMMIT`), ou nenhuma é gravada, revertendo o estado anterior (`ROLLBACK`).\n* **C - Consistência (Consistency):** A transação só pode transformar o banco de um estado válido para outro estado válido, respeitando todas as restrições de integridade (PK, FK, CHECK, UNIQUE).\n* **I - Isolamento (Isolation):** Os níveis de isolamento controlam anomalias e visibilidade. **Serializabilidade** oferece equivalência a ordem serial, mas nem todo nível configurado possui a mesma garantia.\n* **D - Durabilidade (Durability):** Uma vez confirmada a transação (`COMMIT`), seus efeitos são mantidos segundo as garantias/configuração e modelo de falhas. Durabilidade não dispensa backup nem protege automaticamente contra destruição de todas as cópias.\n\n**Aplicação e recuperação:** AUTORIA(id_autor,id_obra,nome_autor) com chave composta possui dependência do nome apenas de id_autor no cenário. Retirar o nome reduz a dependência parcial. Em outro caso, EXEMPLAR(id_exemplar,id_editora,cidade_editora) repete cidade dependente de editora, sob as premissas. Confirme dependências reais; amostra pequena que coincide não prova regra funcional do domínio.",
+      "checkpointIds": [
+        "cp-6-5-2",
+        "rt-6-5-1",
+        "rt-6-5-3"
+      ]
+    },
+    {
+      "id": "sub-6-5-bloco-4",
+      "titulo": "Bancos de Dados Não Relacionais (NoSQL) e o Teorema CAP",
+      "objetivos": [
+        "Comparar modelos e CAP sob condições explícitas."
+      ],
+      "conteudo": "Com a explosão de dados da Web, mídias sociais, coleções multimídia e big data parlamentar, os modelos relacionais enfrentaram gargalos de escalabilidade e rigidez de esquemas. Surgiu o movimento **NoSQL** (*Not Only SQL*):\n\n#### A. CAP: o conflito precisa de condição\n\nA formulação de Brewer foi formalizada por Gilbert e Lynch. **Durante uma partição de rede**, não se pode garantir ao mesmo tempo a consistência forte pertinente à formulação e a disponibilidade de todas as operações nos nós não falhos. Não é uma regra livre “escolha quaisquer dois em todo momento”. Sem partição, o mesmo conflito não deve ser imposto automaticamente.\n\n**Consistência**, nesse contexto, está ligada à visão de uma operação atômica/linearizável, não é a mesma letra C das restrições de integridade ACID. **Disponibilidade** exige resposta da operação conforme o modelo; não basta devolver qualquer erro para dizer que a propriedade foi preservada. Partição é falha de comunicação entre partes do sistema.\n\nSob partição, um desenho pode recusar/adiar operações para manter consistência ou responder com condições de consistência enfraquecidas. Rótulos CP/AP resumem escolhas, mas sistemas podem ter configurações e operações diferentes. Consistência eventual não significa que qualquer dado converge imediatamente nem que toda solução AP seja idêntica.\n\n**Exemplo:** dois nós não conseguem se comunicar e recebem alterações concorrentes. Responder com disponibilidade e impor a mesma ordem forte em todos exige enfrentar essa limitação. Escolha deve considerar criticidade e semântica da operação: sugestão de leitura e confirmação de transação financeira não têm necessariamente os mesmos requisitos.\n#### B. As Quatro Grandes Famílias NoSQL\n1. **Orientados a Documentos:**\n   * Estruturam os dados em documentos semiestruturados autossuficientes, predominantemente em formato **JSON**, **BSON** ou **XML**.\n   * Não exigem esquemas fixos predefinidos (*schemaless* ou *schema-flexible*), permitindo que documentos na mesma coleção possuam campos totalmente heterogêneos.\n   * *Tecnologias:* **MongoDB**, **CouchDB**.\n   * *Uso em Informação:* Pode ser adequado a certos requisitos de repositórios e arquivos, onde um documento tem dezenas de metadados técnicos de vídeo e outro possui apenas autoria e resumo textual.\n\n2. **Chave-Valor (Key-Value):**\n   * Modelo de acesso por chave, com desempenho dependente da implementação: armazena pares de chave identificadora única e seu valor binário/texto associado.\n   * Complexidade depende do índice/estrutura e do caso; tabelas hash podem ter tempo esperado constante sob hipóteses, sem garantia universal para todo banco/consulta.\n   * *Tecnologias:* **Redis**, **Memcached**, **Amazon DynamoDB**.\n   * *Uso em Informação:* Armazenamento de sessões web de usuários, carrinho de reserva de publicações e cache de consultas pesadas ao catálogo.\n\n3. **Família de colunas (wide-column): não confundir com armazenamento colunar analítico:**\n   * Organizam linhas/chaves e famílias de colunas segundo o produto. Não são sinônimos de todo SGBD analítico que armazena fisicamente por colunas; o padrão de acesso e a modelagem precisam ser examinados.\n   * *Tecnologias:* **Apache Cassandra**, **Apache HBase**, **Google Bigtable**.\n   * *Uso em Informação:* Registro massivo de logs de acessos, downloads de proposições legislativas e métricas de audiência de transmissões.\n\n4. **Orientados a Grafos (Graph Databases):**\n   * Podem trabalhar com **grafos de propriedades** ou modelos como RDF, conforme o produto:\n     * **Nós (Vértices):** Entidades discretas (ex.: `Autor`, `Obra`, `Deputado`, `Lei`).\n     * **Arestas (Relacionamentos):** Conexões direcionadas e tipadas ligando nós (ex.: `:ESCREVEU`, `:CITOU`, `:RELATOU`, `:REVOGOU`).\n     * **Propriedades:** Pares chave-valor associados tanto aos nós quanto às próprias arestas (ex.: data da citação, peso da colaboração).\n   * Travessias podem ser adequadas a certas consultas relacionais, mas não há superioridade universal nem tempo constante para qualquer profundidade. Cardinalidade, ramificação, índices, algoritmo e dados afetam custo; JOIN não é necessariamente exponencial.\n   * *Tecnologias:* **Neo4j**, **Amazon Neptune**, **GraphDB**.\n   * *Uso em Informação:* Redes de coautoria, genealogia de leis (rastreio de revogações e emendas), e sustentação de Grafos de Conhecimento.\n\n**Aplicação e recuperação:** Trocar um JOIN por travessia não torna a consulta O(1) universal. Uma rede com alta ramificação pode gerar muitos caminhos. Escolha relacional, documental, wide-column ou grafo por operações, consistência e custos medidos. CAP só é aplicado com suas condições; não é veto universal a banco distribuído útil.",
+      "checkpointIds": [
+        "rt-6-5-4",
+        "rt-6-5-5"
+      ]
+    },
+    {
+      "id": "sub-6-5-bloco-5",
+      "titulo": "Grafos de Conhecimento (Knowledge Graphs) e Recuperação da Informação",
+      "objetivos": [
+        "Relacionar grafos e identidade de entidades."
+      ],
+      "conteudo": "Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica de entidades do mundo real e seus inter-relacionamentos formalizados por ontologias legíveis por máquina:\n\n* **Da Busca por Termos à Busca por Entidades (*Things, not strings*):**\n  * Motores de busca tradicionais comparam a presença de cadeias de caracteres em documentos.\n  * Grafos de conhecimento identificam a **entidade semântica** por trás do termo digitado, desambiguando pessoas, lugares e conceitos homônimos (ex.: distinguir \"Câmara dos Deputados\" enquanto instituição de \"Câmara municipal\" ou \"Câmara fotográfica\").\n* **Interoperabilidade com Padrões W3C:**\n  * Um grafo de conhecimento pode usar o modelo **RDF**, com serializações próprias, como Turtle/JSON-LD (Sujeito-Predicado-Objeto) e consultado via linguagem **SPARQL**.\n  * Permite conectar o acervo da Biblioteca Pedro Aleixo à Web Semântica global (Wikidata, VIAF, DBpedia, LexML Brasil).\n\n**Aplicação e recuperação:** Duas pessoas homônimas não são resolvidas apenas com um nó chamado pelo nome. Identificadores, fontes e relações precisam de curadoria. RDF permite ligações, mas não transforma automaticamente toda string em entidade correta. A qualidade do grafo é parte do projeto.",
+      "checkpointIds": [
+        "cp-6-5-3"
+      ]
+    },
+    {
+      "id": "sub-6-5-bloco-6",
+      "titulo": "Sistemas de Recomendação em Bibliotecas Digitais e Serviços de Informação",
+      "objetivos": [
+        "Avaliar recomendação, início a frio e privacidade."
+      ],
+      "conteudo": "Os **Sistemas de Recomendação (*Recommender Systems*)** são algoritmos de recuperação da informação que auxiliam o usuário na descoberta proativa de itens relevantes em meio a grandes acervos digitais (**Francesco Ricci, Lior Rokach & Bracha Shapira, 2015**):\n\n#### A. As Três Abordagens Canônicas\n1. **Filtragem Baseada em Conteúdo (*Content-Based Filtering*):**\n   * Recomenda itens com propriedades, termos de indexação ou metadados similares aos itens previamente consultados ou avaliados pelo usuário.\n   * Em bibliotecas: baseia-se na proximidade vetorial de descritores de tesauro (VCB/RVBI), cabeçalhos de assunto, termos do resumo ou classificação temática (CDD/CDDir).\n2. **Filtragem Colaborativa (*Collaborative Filtering*):**\n   * Recomenda itens com base nos padrões de comportamento, empréstimo e avaliação coletiva de usuários com histórico de interesse análogo (*user-based* ou *item-based*).\n   * Não depende dos metadados descritivos da obra: baseia-se na máxima \"usuários que emprestaram a obra A também emprestaram a obra B\".\n3. **Sistemas Híbridos (*Hybrid Recommender Systems*):**\n   * Combinam filtragem colaborativa e filtragem baseada em conteúdo para combinar sinais e mitigar certas limitações, com desempenho a avaliar.\n   * **Superação do Problema do Início a Frio (*Cold-Start Problem*):** Quando um novo livro é incorporado ao acervo (ou um novo parlamentar ingressa no sistema), a ausência de histórico de circulação inviabiliza a filtragem colaborativa; metadados e informações de preferências/onboarding podem ajudar. Um usuário novo sem qualquer sinal não recebe recomendação personalizada de qualidade só porque há metadados; híbrido não elimina todo início a frio.\n\n#### B. Aplicação no Ambiente Legislativo\nEm um projeto hipotético de portal parlamentar, recomendação poderia usar sinais autorizados e necessários, como temas de interesse explicitamente informados; uso de histórico de leitura exige cuidado com privacidade e governança, sem afirmar implantação real. Esses sinais podem apoiar a busca para sugerir notas técnicas, anteprojetos correlatos e doutrina jurídica pertinente em tramitação.\n\n**Aplicação e recuperação:** Poucos dados de usuário novo podem dificultar personalização. Recomendação popular, conteúdo e preferências explícitas são opções a avaliar, com diversidade e privacidade. Alta taxa de clique não prova satisfação de necessidade informacional nem autoriza coletar todo histórico de leitura.",
+      "checkpointIds": [
+        "rt-6-5-6"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "### Revisão: explicite premissas do modelo\n\nMER é técnica conceitual geral; LRM é modelo conceitual de domínio. Cardinalidade e entidade fraca dependem de regras de identificação. FK pode referenciar chave admissível não primária; nulo depende de restrições. Normalização considera todas as chaves candidatas e dependências, não só primária. Isolamento tem níveis; durabilidade não elimina backup. CAP envolve partição e consistência específica, diferente de ACID. Wide-column não é sinônimo de colunar analítico; grafos não garantem O(1) universal. Recomendação híbrida pode ajudar, sem dispensar dados, avaliação e privacidade.\n",
+  "fontesTeoria": [
+    {
+      "id": "chen",
+      "titulo": "Peter Chen — The Entity-Relationship Model (1976)",
+      "localizador": "Técnica conceitual geral; distinguir domínio e implementação.",
+      "url": "https://doi.org/10.1145/320434.320440"
+    },
+    {
+      "id": "postgres",
+      "titulo": "PostgreSQL — Constraints",
+      "localizador": "Chaves, referências, nulidade e unicidade; versão do SGBD deve ser considerada.",
+      "url": "https://www.postgresql.org/docs/18/ddl-constraints.html"
+    },
+    {
+      "id": "isolation",
+      "titulo": "PostgreSQL — Transaction Isolation",
+      "localizador": "Isolamento e níveis; serialização não é promessa de todo nível.",
+      "url": "https://www.postgresql.org/docs/18/transaction-iso.html"
+    },
+    {
+      "id": "cap",
+      "titulo": "Gilbert e Lynch — Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+      "localizador": "Formalização de 2002; disponibilidade/consistência durante partições.",
+      "url": "https://doi.org/10.1145/564585.564601"
+    },
+    {
+      "id": "lrm",
+      "titulo": "IFLA — Library Reference Model (2017)",
+      "localizador": "Modelo conceitual de domínio bibliográfico, não formato de armazenamento.",
+      "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-6-5-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma primária simples basta para provar 2FN mesmo que haja outra chave candidata composta com dependência parcial de atributo não primo.",
+      "gabarito": "E",
+      "justificativa": "A análise deve considerar todas as chaves candidatas; a escolhida como primária não elimina as demais.",
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "editalRef": "Bloco B - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "2FN deve ser analisada considerando todas as chaves candidatas."
+    },
+    {
+      "id": "rt-6-5-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma FK pode referenciar uma chave candidata admissível que não foi escolhida como primária.",
+      "gabarito": "C",
+      "justificativa": "A integridade referencial não se restringe universalmente ao rótulo de primária; restrições e SGBD devem ser respeitados.",
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "editalRef": "Bloco B - Item 1.1 a 1.4",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-5-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Em qualquer nível de isolamento SQL, toda execução concorrente equivale necessariamente a uma execução serial.",
+      "gabarito": "E",
+      "justificativa": "Serializabilidade é garantia específica; níveis distintos permitem anomalias diferentes.",
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "editalRef": "Bloco B - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "A garantia depende do nível e da implementação; nem todo isolamento é serializável."
+    },
+    {
+      "id": "rt-6-5-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "CAP deve ser interpretado durante partições, e não como escolha irrestrita de duas propriedades em todo momento.",
+      "gabarito": "C",
+      "justificativa": "A condição de falha de comunicação é decisiva para o conflito da formulação.",
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "editalRef": "Bloco B - Item 1.1 a 1.4",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-5-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Qualquer banco de grafos supera qualquer relacional para toda consulta, com travessias profundas sempre em tempo constante.",
+      "gabarito": "E",
+      "justificativa": "Custo depende de dados, consulta, índices e implementação.",
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "editalRef": "Bloco B - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "Modelos devem ser avaliados segundo carga e requisitos, sem superioridade universal."
+    },
+    {
+      "id": "rt-6-5-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um sistema híbrido de recomendação elimina todo início a frio mesmo sem preferências ou qualquer sinal sobre usuário novo.",
+      "gabarito": "E",
+      "justificativa": "Combinar métodos pode ajudar, mas não cria informação personalizada ausente.",
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "editalRef": "Bloco B - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "Híbridos podem mitigar, sem eliminar necessariamente, início a frio."
+    },
+    {
+      "id": "rt-6-5-7",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A exigência “busca rápida” basta para testar objetivamente desempenho sem definir carga, dados ou critério de aceitação.",
+      "gabarito": "E",
+      "justificativa": "Sem cenário e medida, não há critério verificável compartilhado.",
+      "fonte": "Peter Chen — The Entity-Relationship Model (1976)",
+      "editalRef": "Bloco B - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "O requisito de desempenho deve explicitar condições e critério de aceitação."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-6-5-1": {
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "item": "MER de Chen é técnica geral de modelagem conceitual; IFLA LRM também é conceitual, mas define um modelo de domínio voltado ao universo bibliográfico, sem impor um banco físico.",
+      "justificativa": "A distinção é de técnica/escopo, não uma oposição entre MER necessariamente lógico e LRM necessariamente conceitual."
+    },
+    "cp-6-5-2": {
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "justificativa": "O item inverte dependências. 2FN enfrenta parciais de atributos não primos em chaves candidatas; 3FN tem restrição formal que não pode ignorar chaves candidatas.",
+      "versao_correta": "2FN exclui a dependência parcial pertinente; 3FN exige, em cada dependência não trivial X→A, superchave em X ou atributo primo em A."
+    },
+    "cp-6-5-3": {
+      "fonte": "Chen (1976), modelo entidade-relacionamento; Codd (1970), modelo relacional; documentação PostgreSQL, constraints e isolamento; Gilbert e Lynch (2002), CAP; IFLA LRM (2017).",
+      "item": "Bancos de grafos podem ser adequados a redes de coautoria e ligações normativas, mas sua escolha deve considerar consultas e custos reais, sem pressupor superioridade universal nem travessia completa em tempo constante.",
+      "justificativa": "O modelo favorece certas representações, mas desempenho depende de carga, ramificação, índices e implementação. Não existe garantia O(1) para qualquer consulta profunda."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Chave candidata",
+      "definicao": "Conjunto mínimo de atributos que identifica tuplas no modelo.",
+      "exemploBiblioteca": "A chave não escolhida como primária continua pertinente às formas normais."
+    },
+    {
+      "termo": "Serializabilidade",
+      "definicao": "Equivalência do efeito da execução concorrente a alguma ordem serial.",
+      "exemploBiblioteca": "Não decorre automaticamente de qualquer nível de isolamento."
+    }
+  ],
+  "autoresChave": [
+    "Peter Chen — The Entity-Relationship Model (1976)",
+    "PostgreSQL — Constraints",
+    "PostgreSQL — Transaction Isolation",
+    "Gilbert e Lynch — Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+    "IFLA — Library Reference Model (2017)"
+  ],
+  "descricaoCurta": "Definir requisito testável e distinguir norma de decisão de projeto. Separar modelagem conceitual, identificação e cardinalidade. Analisar chaves candidatas, dependências e garantias transacionais. Comparar modelos e CAP sob condições explícitas. Relacionar grafos e identidade de entidades. Avaliar recomendação, início a frio e privacidade.",
+  "alertasCebraspe": [
+    "A análise deve considerar todas as chaves candidatas; a escolhida como primária não elimina as demais.",
+    "Serializabilidade é garantia específica; níveis distintos permitem anomalias diferentes.",
+    "Custo depende de dados, consulta, índices e implementação."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 31
+}

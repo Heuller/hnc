@@ -1,0 +1,231 @@
+{
+  "id": "sub-6-4",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-6-4-bloco-1",
+      "titulo": "A Inteligência Artificial como Novo Paradigma na Ciência da Informação",
+      "objetivos": [
+        "Distinguir arquiteturas, representações e alcance da atenção."
+      ],
+      "conteudo": "A Inteligência Artificial (IA), historicamente dividida entre as abordagens simbólicas (sistemas especialistas baseados em regras formais explícitas — GOFAI) e as abordagens conexionistas (redes neurais artificiais), vivenciou uma ruptura revolucionária a partir de 2017 com o desenvolvimento da arquitetura de **Transformers** (*Attention Is All You Need*, Vaswani et al., 2017):\n\n```timeline\nGOFAI | 1. IA Simbólica (GOFAI) | Regras Formais e Sistemas Especialistas | Engenharia de conhecimento artesanal: regras lógicas explícitas (*if-then*) com alta interpretabilidade e rigidez funcional\n---> Aprendizado Estatístico sobre Dados\nML | 2. Machine Learning Clássico | Extração Estatística de Padrões | Modelos de espaço vetorial (TF-IDF, Naive Bayes, SVM) para classificação e ranqueamento com representações esparsas\n---> Ruptura: Redes Neurais e Transformers (2017)\nTRANS | 3. Deep Learning & Transformers | Autoatenção Paralela e LLMs | Modelos fundacionais (*Foundation Models*) com bilhões de parâmetros treinados de forma auto-supervisionada\n---> Aplicação em Unidades de Informação\nRAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperação | Vetores densos de alta dimensionalidade (*embeddings*) combinados com documentos oficiais para resposta apoiada em contexto, com risco residual a avaliar\n```\n\n#### A. A Arquitetura de Transformers e os Grandes Modelos de Linguagem (LLMs)\n* **O Mecanismo de Autoatenção (*Self-Attention*):** Permite que o modelo analise relações entre posições de tokens no contexto e segundo as máscaras; atenção causal não acessa livremente posições futuras e janelas têm limites.\n* **Superação das Redes Anteriores:** As redes neurais recorrentes (RNNs) e LSTMs processavam o texto sequencialmente palavra por palavra, gerando lentidão e perda de memória de longo prazo em textos extensos. O treinamento permite paralelizar operações em muitas posições. A geração autorregressiva normalmente produz tokens em sequência; paralelismo não equivale a gerar todo texto de uma só vez.\n* **Foundation Models (*Modelos Fundacionais*):**\n  * Modelos treinados em dados amplos, frequentemente por auto-supervisão em redes profundas, e adaptáveis a várias tarefas; não são definidos por um mínimo universal de bilhões de parâmetros (*self-supervised learning*).\n  * **Distinção conceitual:** Os Foundation Models operam a partir da extração estatística de representações em redes neurais profundas, e **NÃO** a partir de sistemas dedutivos pré-programados com regras lógicas explícitas por engenheiros do conhecimento!\n\n#### B. Embeddings Vetoriais e Busca Semântica\n* Muitas técnicas usam **vetores numéricos**, que podem ser esparsos ou densos. Embeddings aprendidos são uma representação, não toda a definição de PLN:\n* A representação pode aproximar textos relevantes semanticamente, mas proximidade não prova equivalência, verdade ou pertinência para toda tarefa.\n* **Métricas de Similaridade Vetorial:** A distância entre o vetor da consulta do usuário e os vetores dos documentos é calculada matematicamente por meio da **Similaridade por Cosseno** (ângulo entre vetores), Produto Escalar (*Dot Product*) ou Distância Euclidiana ($L_2$).\n* Isso viabiliza a recuperação semântica por conceito: uma busca por \"remuneração de servidores\" recupera documentos sobre \"vencimentos e subsídios do funcionalismo\", mesmo sem coincidência literal de palavras.\n\n**Aplicação e recuperação:** Uma consulta e um documento têm cosseno elevado, mas o texto trata de outro regime jurídico. Similaridade é sinal para ranqueamento, não prova suficiente de pertinência. Busca lexical com vocabulário controlado também pode tratar significado; “semântica” não é exclusividade de uma rede neural.",
+      "checkpointIds": [
+        "cp-6-4-1",
+        "cp-6-4-2",
+        "rt-6-4-1"
+      ]
+    },
+    {
+      "id": "sub-6-4-bloco-2",
+      "titulo": "Paradigmas de Aprendizado de Máquina (Machine Learning)",
+      "objetivos": [
+        "Comparar paradigmas de aprendizado e limites do feedback."
+      ],
+      "conteudo": "1. **Aprendizado Supervisionado (*Supervised Learning*):**\n   * O algoritmo é treinado a partir de exemplos rotulados (*labeled data*), aprendendo a mapear entradas em saídas corretas conhecidas.\n   * *Classificação:* Atribuição a categorias discretas (ex.: classificar proposições legislativas em \"Tributário\", \"Saúde\" ou \"Educação\").\n   * *Regressão:* Previsão de valores contínuos (ex.: estimar o tempo em dias para a tramitação de uma PEC).\n2. **Aprendizado Não Supervisionado (*Unsupervised Learning*):**\n   * O algoritmo analisa dados brutos sem rótulos (*unlabeled data*), descobrindo padrões intrínsecos, agrupamentos naturais ou anomalias.\n   * *Agrupamento (*Clustering*):* Algoritmos como **K-Means** e agrupamento hierárquico, aplicados para segmentar perfis de usuários de bibliotecas e mapear frentes de pesquisa científica.\n   * *Redução de Dimensionalidade:* Técnicas como **PCA** (*Principal Component Analysis*) e **t-SNE**, utilizadas para projetar espaços vetoriais de milhares de dimensões em gráficos 2D/3D legíveis.\n3. **Aprendizado por Reforço (*Reinforcement Learning - RL*) e RLHF:**\n   * O modelo aprende por tentativa e erro em um ambiente interativo, guiado por um sinal de recompensa e política de interação, conforme o método.\n   * **RLHF (*Reinforcement Learning from Human Feedback*):** Avaliadores humanos pontuam e ranqueiam diferentes respostas geradas por um LLM. Esse feedback calibra a política do modelo, buscando comportamentos preferidos, sem garantir eliminação de conteúdo ofensivo ou erros factuais.\n\n**Aplicação e recuperação:** Um classificador usa rótulos; um agrupador procura estrutura sem esses rótulos; um agente por reforço recebe sinais de recompensa. Na prática podem existir métodos combinados. Preferência humana por uma resposta não prova que a afirmação jurídica está correta.",
+      "checkpointIds": [
+        "rt-6-4-7"
+      ]
+    },
+    {
+      "id": "sub-6-4-bloco-3",
+      "titulo": "Engenharia de Prompts e a Arquitetura RAG",
+      "objetivos": [
+        "Aplicar instrução e recuperação sem prometer correção automática."
+      ],
+      "conteudo": "#### A. Estratégias de instrução: finalidade e limites:\n* **Zero-Shot Prompting:** Envio direto do comando ou pergunta ao modelo sem incluir nenhum exemplo prévio no contexto. A ausência de exemplos da tarefa não impede instruções, contexto recuperado ou ferramentas; zero-shot não significa ausência de qualquer contexto.\n* **Few-Shot Prompting:** Inclusão no corpo do prompt de alguns pares exemplificativos de entrada e saída esperada antes do comando definitivo. O modelo aprende o formato e o tom desejados por aprendizado em contexto (*in-context learning*).\n* **Chain-of-Thought (CoT - Cadeia de Pensamento):** Técnica na qual o modelo é instruído a explicitar seu raciocínio passo a passo antes de emitir a conclusão final, podendo ajudar em determinadas tarefas, sem garantir correção de premissas, cálculo, conclusão ou explicação.\n\n#### B. Arquitetura RAG (*Retrieval-Augmented Generation*):\n* Em instituições como a Câmara dos Deputados, LLMs genéricos não devem responder consultas jurídicas diretamente de sua memória estatística, sob grave risco de **alucinação** (invenção de leis ou números inexistentes).\n* **O Fluxo RAG em Três Etapas:**\n  1. *Recuperação (*Retrieve*):* Um mecanismo de recuperação busca evidências em fontes selecionadas; pode ser lexical, vetorial ou híbrido. Recuperar fonte oficial exige ainda conferir versão e pertinência (bases do LexML, Diários da Câmara e jurisprudência consolidada).\n  2. *Aumento (*Augment*):* Os fragmentos factuais mais pertinentes recuperados são injetados diretamente no contexto do prompt enviado ao LLM.\n  3. *Geração (*Generate*):* O sistema busca produzir resposta apoiada nas evidências, com atribuição verificável; o gerador ainda pode omitir condições, citar trecho inadequado ou inventar.\n\n**Aplicação e recuperação:** Few-shot inclui exemplos no contexto e não altera necessariamente pesos do modelo. RAG pode usar busca lexical. Um pedido para explicar passos não garante cálculo certo. Avalie evidência e resultado; não aceite o método anunciado como certificado de qualidade.",
+      "checkpointIds": [
+        "cp-6-4-3",
+        "rt-6-4-2",
+        "rt-6-4-3"
+      ]
+    },
+    {
+      "id": "sub-6-4-bloco-4",
+      "titulo": "Segurança da Informação, Governança Digital e Salvaguarda contra Ransomware",
+      "objetivos": [
+        "Relacionar proteção, isolamento e recuperação testada."
+      ],
+      "conteudo": "* **A Ameaça Crítica do Ransomware:**\n  * Malware que realiza o sequestro digital de arquivos institucionais por técnicas que podem incluir criptografia e outras formas de bloqueio/extorsão; AES é simétrico, não um par de chaves pública/privada, exigindo resgates financeiros vultosos em criptomoedas.\n* **Cópias e controles articulados:**\n  * Backups em nuvem sincronizados em tempo real ou pastas compartilhadas em rede local (*network shares*) são vulneráveis à infecção cruzada imediata pelo ransomware durante o ataque.\n  * Uma estratégia pode incluir **cópias offline ou isoladas**, com retenção, testes e controles. Offline, air gap e imutabilidade não são propriedades idênticas: cópias de segurança gravadas em mídias físicas desconectadas de qualquer rede computacional (ex.: fitas desconectadas, quando apropriadas. WORM significa escrita única/leitura múltipla e não prova desconexão de rede — *Write Once, Read Many*).\n* **Mecanismos Complementares de Defesa:** Autenticação multifator (MFA) obrigatória, segmentação de redes em VLANs, privilégios mínimos de acesso (*least privilege*) e soluções de EDR (*Endpoint Detection and Response*).\n\n**Aplicação e recuperação:** A cópia em nuvem está na mesma conta comprometida: localização remota não implica isolamento. Uma fita desconectada pode ajudar, mas só é útil se puder ser restaurada com dados e dependências necessários. Teste recuperação e controle acesso em vez de chamar uma medida de definitiva.",
+      "checkpointIds": [
+        "rt-6-4-4"
+      ]
+    },
+    {
+      "id": "sub-6-4-bloco-5",
+      "titulo": "Visualização de Dados e Storytelling Analítico (Power BI & Métricas)",
+      "objetivos": [
+        "Escolher e interpretar visualizações com critérios."
+      ],
+      "conteudo": "* **Microsoft Power BI no Setor Público (STJ 2024):**\n  * O recurso *\"Analisar no Excel\"* viabiliza a criação de tabelas dinâmicas diretamente conectadas ao modelo semântico (*semantic model*) hospedado no Power BI Service, permitindo análise conectada nas condições de acesso/configuração; a conexão não certifica verdade, qualidade ou atualização de todos os dados.\n* **Seleção Criteriosa de Gráficos:**\n  * **Histograma:** Exibe a distribuição de frequências de uma **variável quantitativa contínua** agrupada em intervalos definidos, que podem ter larguras diferentes com tratamento gráfico apropriado. *Atenção:* Não confundir com gráfico de barras, que representa variáveis categóricas discretas.\n  * **Box Plot (Diagrama de Caixa):** Representa a dispersão e a simetria de um conjunto de dados por quartis/mediana e hastes segundo a convenção; em boxplot de Tukey, hastes não são necessariamente extremos globais e pontos além podem ser mostrados separadamente.\n  * **Gráfico de Dispersão (*Scatter Plot*):** Revela correlações e padrões de associação bivariada entre duas variáveis contínuas.\n* **Storytelling com Dados (Cole Nussbaumer Knaflic & Edward Tufte):**\n  * Maximização da taxa de dados-tinta (*data-ink ratio*): remoção de enfeites supérfluos (*chartjunk*, bordas pesadas, efeitos 3D falsos).\n  * Uso estratégico de **atributos pré-atencionais** (cor de destaque contrastante, tamanho e posicionamento) para direcionar o olhar do gestor imediatamente à conclusão analítica pretendida.\n\n**Aplicação e recuperação:** Um histograma muda de aparência ao alterar intervalos; um boxplot usa hastes até limites definidos. A apresentação deve declarar convenção e escala. Destacar uma cor pode orientar atenção, mas não autoriza esconder incerteza ou selecionar só dados favoráveis.",
+      "checkpointIds": [
+        "rt-6-4-6"
+      ]
+    },
+    {
+      "id": "sub-6-4-bloco-6",
+      "titulo": "Governança: recomendações e normas com origem identificada",
+      "objetivos": [
+        "Definir avaliação e responsabilidades sem inventar normas internas."
+      ],
+      "conteudo": "Uma política de IA deve definir tarefas permitidas, responsáveis, fontes, avaliação e resposta a falhas. Supervisão humana deve ser substantiva: confirmar origem e validade, confrontar a resposta com documentos e reconhecer quando o sistema não dispõe de evidência. Aprovar automaticamente a saída com uma assinatura não constitui revisão efetiva.\n\nHá guias institucionais, como o **Guia de uso de IA do Senado Federal**, que precisam ser identificados pelo órgão e âmbito. Não se atribui sem documento verificável uma suposta diretriz “Ditec/Cedi 2023” à Câmara. Recomendações desta aula não são apresentadas como atos normativos internos já publicados.\n\nNo tratamento de dados, examine finalidade, base legal, necessidade, acesso, retenção, compartilhamento e condições do serviço. Inserir dados pessoais/sigilosos em ferramenta externa exige análise jurídica e de segurança; não se conclui automaticamente que qualquer uso de nuvem viola toda LGPD nem que informação publicamente visível pode ser usada sem limites.\n\nLetramento em IA inclui reconhecer fontes, limites de modelos, riscos de automação e desigualdades de representação. Bibliotecas podem apoiar avaliação crítica e acesso, sem apresentar IA como substituta universal de profissionais ou afirmar que uma arquitetura neutraliza vieses.\n\n**Caso:** modelo responde com um artigo verdadeiro de lei revogada. Fluência, citação e fonte oficial não bastam: falta adequação temporal. A equipe deve registrar versão, contexto e limite da resposta, além de rever a base de recuperação.\n\n**Aplicação e recuperação:** Um servidor compara a saída com fonte atual e identifica omissão de exceção. Essa revisão detecta erro que passaria num exame de mera fluência. A política deve atribuir responsabilidade e permitir interromper/escalar o uso quando faltar evidência.",
+      "checkpointIds": [
+        "rt-6-4-5"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "### Revisão: método anunciado não certifica resultado\n\nAtenção tem máscaras e contexto; geração autorregressiva não produz todo texto simultaneamente. Vetores podem ser esparsos/densos e similaridade não prova pertinência. Modelos fundacionais não têm limiar universal de tamanho. Paradigmas de aprendizado têm sinais/tarefas distintos. Few-shot não é necessariamente ajuste de pesos; RAG não é exclusivamente vetorial e não elimina erros. Backup isolado é componente testável, não proteção definitiva. Gráficos exigem convenção e contexto. Governança deve identificar fonte, âmbito, responsável e avaliação, sem atribuir normas internas inexistentes.\n",
+  "fontesTeoria": [
+    {
+      "id": "attention",
+      "titulo": "Vaswani et al. — Attention Is All You Need (2017)",
+      "localizador": "Arquitetura Transformer; atenção depende de máscaras e operação.",
+      "url": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "id": "foundation",
+      "titulo": "Bommasani et al. — On the Opportunities and Risks of Foundation Models",
+      "localizador": "Treinamento amplo, adaptação e riscos; tamanho não é limiar definidor único.",
+      "url": "https://arxiv.org/abs/2108.07258"
+    },
+    {
+      "id": "rag",
+      "titulo": "Lewis et al. — Retrieval-Augmented Generation (2020)",
+      "localizador": "Recuperação e geração; não garante resposta sem erro.",
+      "url": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "id": "cert",
+      "titulo": "CERT.br — Cartilha de Segurança",
+      "localizador": "Ameaças, proteção e cópias; não existe salvaguarda definitiva isolada.",
+      "url": "https://cartilha.cert.br/"
+    },
+    {
+      "id": "senado",
+      "titulo": "Senado Federal — Guia de uso de IA",
+      "localizador": "Referência institucional identificada, sem atribuí-la à Câmara.",
+      "url": "https://www12.senado.leg.br/manualdecomunicacao/guia-de-uso-de-ia"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-6-4-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um modelo fundacional precisa ter necessariamente bilhões de parâmetros para satisfazer sua definição.",
+      "gabarito": "E",
+      "justificativa": "Treinamento amplo e adaptação a diversas tarefas são centrais; não há limiar numérico universal na definição.",
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "editalRef": "Bloco C - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "A definição não impõe um mínimo universal de bilhões de parâmetros."
+    },
+    {
+      "id": "rt-6-4-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Few-shot no contexto é necessariamente um novo treinamento que modifica os pesos.",
+      "gabarito": "E",
+      "justificativa": "Aprendizado em contexto não equivale obrigatoriamente a ajuste de parâmetros.",
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "editalRef": "Bloco C - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "Few-shot pode orientar a resposta sem mudar os pesos."
+    },
+    {
+      "id": "rt-6-4-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma busca RAG pode usar recuperação lexical ou híbrida, além de vetorial.",
+      "gabarito": "C",
+      "justificativa": "A arquitetura não é definida exclusivamente pelo uso de embeddings densos.",
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "editalRef": "Bloco C - Item 1.1 a 1.4",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-4-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "WORM significa necessariamente que o dispositivo está fisicamente desconectado de qualquer rede.",
+      "gabarito": "E",
+      "justificativa": "Imutabilidade/escrita única e isolamento são propriedades diferentes.",
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "editalRef": "Bloco C - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "WORM não prova desconexão física."
+    },
+    {
+      "id": "rt-6-4-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma citação a lei oficial revogada pode ser inadequada para responder sobre o regime atual, mesmo com texto reproduzido corretamente.",
+      "gabarito": "C",
+      "justificativa": "Fidelidade ao trecho não substitui pertinência temporal e jurídica.",
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "editalRef": "Bloco C - Item 1.1 a 1.4",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-6-4-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O uso de cores para destacar uma conclusão dispensa apresentar escala e incerteza.",
+      "gabarito": "E",
+      "justificativa": "Orientação visual deve preservar contexto e fidelidade.",
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "editalRef": "Bloco C - Item 1.1 a 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "Destaque visual não dispensa escala, contexto e incerteza pertinentes."
+    },
+    {
+      "id": "rt-6-4-7",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "No aprendizado supervisionado, exemplos rotulados apoiam o ajuste; no não supervisionado, busca-se estrutura sem esse mesmo alvo rotulado da tarefa.",
+      "gabarito": "C",
+      "justificativa": "A distinção é o papel dos rótulos no problema de treinamento, não ausência de todo trabalho humano.",
+      "fonte": "Vaswani et al. — Attention Is All You Need (2017)",
+      "editalRef": "Bloco C - Item 1.1 a 1.4",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-6-4-1": {
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "item": "Uma busca baseada em embeddings pode recuperar textos por similaridade de representação mesmo sem coincidência literal de palavras; essa similaridade ainda precisa ser avaliada quanto à pertinência da tarefa.",
+      "justificativa": "A representação amplia possibilidades, sem certificar significado perfeito. Também não implica que toda busca anterior fosse mera correspondência literal."
+    },
+    "cp-6-4-2": {
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "justificativa": "O item descreve regras simbólicas pré-programadas como se esgotassem modelos fundacionais. Modelos fundacionais contemporâneos são treinados em dados amplos e adaptáveis, sem limiar universal de tamanho.",
+      "versao_correta": "Modelos fundacionais aprendem representações em treinamento amplo e podem ser adaptados a tarefas diversas."
+    },
+    "cp-6-4-3": {
+      "fonte": "Vaswani et al. (2017), Attention Is All You Need; Bommasani et al. (2021), Foundation Models; Lewis et al. (2020), RAG; CERT.br; NIST/IFLA e guias institucionais identificados na aula.",
+      "justificativa": "Few-shot inclui demonstrações da tarefa; zero-shot não as inclui. Isso não impede contexto, fontes ou ferramentas em uma tarefa zero-shot.",
+      "versao_correta": "Few-shot inclui exemplos; zero-shot não inclui demonstrações da tarefa."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Modelo fundacional",
+      "definicao": "Modelo treinado em dados amplos, adaptável a tarefas conforme sua concepção.",
+      "exemploBiblioteca": "Não há limiar universal de bilhões de parâmetros que defina todo modelo fundacional."
+    },
+    {
+      "termo": "RAG",
+      "definicao": "Arquitetura que articula recuperação e geração.",
+      "exemploBiblioteca": "Uma fonte oficial revogada pode ser inadequada ao recorte temporal perguntado."
+    }
+  ],
+  "autoresChave": [
+    "Vaswani et al. — Attention Is All You Need (2017)",
+    "Bommasani et al. — On the Opportunities and Risks of Foundation Models",
+    "Lewis et al. — Retrieval-Augmented Generation (2020)",
+    "CERT.br — Cartilha de Segurança",
+    "Senado Federal — Guia de uso de IA"
+  ],
+  "descricaoCurta": "Distinguir arquiteturas, representações e alcance da atenção. Comparar paradigmas de aprendizado e limites do feedback. Aplicar instrução e recuperação sem prometer correção automática. Relacionar proteção, isolamento e recuperação testada. Escolher e interpretar visualizações com critérios. Definir avaliação e responsabilidades sem inventar normas internas.",
+  "alertasCebraspe": [
+    "Treinamento amplo e adaptação a diversas tarefas são centrais; não há limiar numérico universal na definição.",
+    "Aprendizado em contexto não equivale obrigatoriamente a ajuste de parâmetros.",
+    "Imutabilidade/escrita única e isolamento são propriedades diferentes."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 25
+}

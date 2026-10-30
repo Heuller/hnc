@@ -6,6 +6,7 @@ import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos'
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
 import { ItemCE } from '../components/common/ItemCE';
+import { AulaEmBlocos } from '../components/teoria/AulaEmBlocos';
 import { ExercicioRenderer } from '../components/exercicios';
 import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { MnemonicosTabs } from '../components/content-blocks/MnemonicosTabs';
@@ -72,10 +73,7 @@ export const TeoriaPage: React.FC = () => {
   const allSubmodules = ALL_COURSE_MODULES.flatMap((m) => m.modulosFilhos);
 
   // Submódulo ativo selecionado (com recuperação resiliente de sessão)
-  const targetSubId =
-    selectedSubmodule !== '1.1'
-      ? selectedSubmodule
-      : (ultimoModuloAcessado || selectedSubmodule);
+  const targetSubId = selectedSubmodule || ultimoModuloAcessado || '1.1';
 
   const currentSub =
     allSubmodules.find(
@@ -140,7 +138,7 @@ export const TeoriaPage: React.FC = () => {
   };
 
   const readingSections = [
-    { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
+    { id: 'sec-autores', numero: '1', titulo: 'Referências' },
     ...(currentSub.alertasCebraspe && currentSub.alertasCebraspe.length > 0
       ? [{ id: 'sec-alertas', numero: '2', titulo: 'Alertas Cebraspe' }]
       : []),
@@ -155,12 +153,12 @@ export const TeoriaPage: React.FC = () => {
       numero: '5',
       titulo:
         modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
-          ? 'Teoria Didática & Prática'
-          : 'Fundamentação Teórica',
+          ? 'Revisão essencial'
+          : 'Aula completa',
     },
     { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
-    { id: 'sec-mnemonicos', numero: '7', titulo: 'Mnemônicos e Síntese' },
-  ];
+    { id: 'sec-mnemonicos', numero: '7', titulo: 'Revisão e síntese' },
+  ].map((secao, index) => ({ ...secao, numero: String(index + 1) }));
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -466,7 +464,7 @@ export const TeoriaPage: React.FC = () => {
               {/* Indicador suplementar discreto se ainda não concluído */}
               {learningState.status !== 'concluida' && (learningState.status as string) !== 'concluido' && (
                 <span className="text-xs font-sans tabular-nums text-ink-2 hidden sm:inline">
-                  Meta de aprovação: 85% nos checkpoints
+                  Critério de consolidação: 85% nos checkpoints
                 </span>
               )}
             </div>
@@ -580,13 +578,13 @@ export const TeoriaPage: React.FC = () => {
               <div>
                 <span className="font-mono text-xs uppercase tracking-wider text-ink-2 font-semibold">
                   {modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
-                    ? 'Modo Prático & Didático • Vida Real / Câmara dos Deputados'
-                    : 'Doutrina e Bibliografia Especializada'}
+                    ? 'Síntese para retomar o que você estudou'
+                    : 'Conceitos, exemplos e aplicação'}
                 </span>
                 <h2 className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal mt-1">
                   {modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
-                    ? 'Teoria Didática & Aplicação Prática'
-                    : 'Fundamentação Teórica Canônica'}
+                    ? 'Revisão essencial'
+                    : 'Aula completa'}
                 </h2>
               </div>
 
@@ -606,10 +604,10 @@ export const TeoriaPage: React.FC = () => {
                       : 'text-ink-2 hover:text-ink'
                   }`}
                   aria-pressed={modoTeoriaAtivo === 'canonica'}
-                  title="Estudar pela teoria canônica e aprofundada institucional"
+                  title="Ler a explicação completa, com exemplos e microcheckpoints"
                 >
                   <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
-                  <span className="whitespace-nowrap">Teoria Canônica</span>
+                  <span className="whitespace-nowrap">Aula completa</span>
                 </button>
 
                 <button
@@ -622,11 +620,11 @@ export const TeoriaPage: React.FC = () => {
                       : 'text-ink-2 hover:text-ink'
                   }`}
                   aria-pressed={modoTeoriaAtivo === 'didatica'}
-                  title="Estudar pelo formato didático com foco na vida real e rotina da Câmara"
+                  title="Revisar as relações principais e voltar à explicação quando necessário"
                 >
                   <Sparkles className="w-3.5 h-3.5 shrink-0" />
                   <span className="whitespace-nowrap">
-                    Modo Prático<span className="hidden sm:inline"> & Vida Real</span>
+                    Revisão essencial
                   </span>
                 </button>
               </div>
@@ -647,14 +645,14 @@ export const TeoriaPage: React.FC = () => {
               </div>
             )}
 
-            <ConteudoMarkdown
+            {modoTeoriaAtivo !== 'didatica' && currentSub.unidadesAprendizagem?.length ? <AulaEmBlocos submodulo={currentSub} moduloId={currentMacro.id} forcarRetesteAtivo={learningState.status === 'em_revisao_dirigida'} /> : <ConteudoMarkdown
               content={
                 modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
                   ? currentSub.teoriaDidaticaMarkdown
                   : currentSub.teoriaDensaMarkdown
               }
               submoduloId={currentSub.id}
-            />
+            />}
 
             {/* Itens Seccionais de Recuperação Ativa (U4.3: 1 item por seção) */}
             {currentSub.secoes && currentSub.secoes.some((s) => s.itens && s.itens.length > 0) && (
@@ -716,12 +714,13 @@ export const TeoriaPage: React.FC = () => {
                 Micro-Checkpoints de Fixação
               </h2>
               <p className="text-xs sm:text-sm text-ink-2 font-serif mt-1">
-                Responda antes de consultar a justificativa. Julgue como a banca julgaria.
+                Responda antes de consultar a justificativa. Confira o conceito, as condições e o alcance da afirmação.
               </p>
             </div>
 
             <div className="space-y-4">
-              {currentSub.checkpoints.map((cp, idx) => {
+              {!!currentSub.unidadesAprendizagem?.length && modoTeoriaAtivo !== 'didatica' && <p className="text-sm text-ink-2">Os microcheckpoints estão distribuídos entre os blocos da aula. Suas respostas ficam registradas também na revisão essencial. Use o índice “Nesta aula” para voltar ao tópico que deseja praticar.</p>}
+              {currentSub.checkpoints.filter(cp => modoTeoriaAtivo === 'didatica' || !currentSub.unidadesAprendizagem?.some(unidade => unidade.checkpointIds.includes(cp.id))).map((cp, idx) => {
                 const isRevisaoDirigida = learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao';
                 return (
                   <ItemCE
@@ -747,14 +746,14 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             {/* Treino de Recuperação Ativa (Associação, Cronologia e Caça-Armadilha - Parte G) */}
-            <div className="mt-8">
+            {!currentSub.unidadesAprendizagem?.length && <div className="mt-8">
               <ActiveRetrievalExercises
                 submoduloNumero={currentSub.numero}
                 autores={currentSub.mnemonicos.autores}
                 timeline={currentSub.mnemonicos.timeline}
                 pegadinhas={currentSub.mnemonicos.pegadinhas}
               />
-            </div>
+            </div>}
           </section>
 
           {/* Bloco 6: Resumo e Mnemônicos Estruturados */}
@@ -776,11 +775,11 @@ export const TeoriaPage: React.FC = () => {
                 Resumo Rápido e Armadilhas
               </h2>
               <p className="text-xs sm:text-sm text-ink-2 font-serif mt-1">
-                Linha do tempo histórica, ficha dos autores canônicos e pegadinhas da banca.
+                {currentSub.unidadesAprendizagem?.length ? 'Retome as relações principais e tente explicá-las sem consultar.' : 'Linha do tempo histórica, referências e exercícios de contraste.'}
               </p>
             </div>
 
-            <MnemonicosTabs mnemonicos={currentSub.mnemonicos} />
+            {currentSub.unidadesAprendizagem?.length ? <ConteudoMarkdown content={currentSub.teoriaDidaticaMarkdown || ''} /> : <MnemonicosTabs mnemonicos={currentSub.mnemonicos} />}
           </section>
 
           {/* Card Prominente no Final do Último Submódulo Filho (Atalho Direto para o Simulado 100Q ou 30Q) */}
@@ -1014,7 +1013,7 @@ export const TeoriaPage: React.FC = () => {
                 })}
               </nav>
             ) : (
-              <MnemonicosTabs mnemonicos={currentSub.mnemonicos} isCompact />
+              currentSub.unidadesAprendizagem?.length ? <ConteudoMarkdown content={currentSub.teoriaDidaticaMarkdown || ''} /> : <MnemonicosTabs mnemonicos={currentSub.mnemonicos} isCompact />
             )}
           </div>
         </aside>

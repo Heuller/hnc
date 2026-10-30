@@ -27,7 +27,7 @@ describe('C13 — Integridade Estrita do README.md e Métricas Derivadas do Cód
     // Soma C + E deve bater com o total
     expect(metricas.totalCertos + metricas.totalErrados).toBe(metricas.totalQuestoes);
 
-    // Proporção de Certos deve estar na faixa alvo do edital (46-56%)
+    // Distribuição editorial do banco; não é proporção obrigatória do edital ou da banca.
     const pctCertoNum = (metricas.totalCertos / metricas.totalQuestoes) * 100;
     expect(pctCertoNum).toBeGreaterThanOrEqual(46);
     expect(pctCertoNum).toBeLessThanOrEqual(56);

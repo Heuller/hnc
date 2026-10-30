@@ -104,6 +104,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
         <div className="flex items-center gap-1.5 shrink-0">
           <MnemonicosDrawerMobile
             mnemonicos={submodulo.mnemonicos}
+            resumo={submodulo.unidadesAprendizagem?.length ? submodulo.teoriaDidaticaMarkdown : undefined}
             tituloModulo={`Submódulo ${submodulo.numero}: ${submodulo.titulo}`}
           />
           <span className="font-mono text-xs text-ink-2 bg-surface-2 px-1.5 py-1 rounded border border-border shrink-0">

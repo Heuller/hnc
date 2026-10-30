@@ -20,583 +20,381 @@ export const submodulo25: ModuloFilho = {
   titulo: 'Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara dos Deputados',
   titulo_curto: 'Órgãos Públicos & Bib. Câmara',
   antesDeLer: [
-    {
-      termo: 'Entrada de Órgãos Governamentais',
-      definicao: 'Regra canônica do AACR2r e ICP que estabelece a jurisdição seguida pelo nome do órgão subordinado que não possua autonomia funcional.',
-      exemploBiblioteca: 'Entrada correta: \'BRASIL. Congresso Nacional. Câmara dos Deputados\' e não \'Câmara dos Deputados do Brasil\'.',
-    },
-    {
-      termo: 'RVBI (Rede Virtual de Bibliotecas)',
-      definicao: 'Rede cooperativa de bibliotecas do Distrito Federal coordenada pelo Senado Federal, integrada pela Câmara dos Deputados, TCU e STF.',
-      exemploBiblioteca: 'Compartilhamento cooperativo de catalogação para que um livro processado pela Câmara fique imediatamente visível para o Senado.',
-    },
-    {
-      termo: 'Biblioteca Pedro Aleixo',
-      definicao: 'Biblioteca oficial da Câmara dos Deputados, vinculada ao CEDI, depositária legal da memória legislativa e doutrinária da Casa.',
-      exemploBiblioteca: 'Atendimento presencial e digital a deputados, comissões técnicas e cidadãos com acervo focado em direito e ciências sociais.',
-    },
-    {
-      termo: 'Publicação Oficial',
-      definicao: 'Documento editado por autoridade ou órgão do poder público contendo leis, atos normativos, relatórios de gestão ou anais.',
-      exemploBiblioteca: 'Catalogação em série dos \'Anais da Câmara dos Deputados\' com indicação de periodicidade e notas de continuação.',
-    },
-  ],
+  {
+    "termo": "Jurisdição",
+    "definicao": "No contexto catalográfico, pode designar o nome do governo usado como elemento de entrada; não equivale à função jurisdicional do juiz.",
+    "exemploBiblioteca": "Brasil pode ser elemento de entrada de órgão governamental sem que o registro seja sentença judicial."
+  },
+  {
+    "termo": "Registro de autoridade",
+    "definicao": "Registro que estabelece e documenta formas de nomes e relacionamentos para controle de pontos de acesso.",
+    "exemploBiblioteca": "Um catálogo distingue nomes variantes de uma instituição e informa a fonte da forma adotada."
+  }
+],
   descricaoCurta:
-    'Estrutura constitucional dos poderes e órgãos (STF, STJ, TJs, TCU, TCEs, MP, Câmara dos Deputados), catalogação sob jurisdição vs entrada direta (AACR2r 24.18/24.19 e RDA Cap. 11), campos MARC 21 (110/710) e a história e sistemas da Biblioteca Pedro Aleixo.',
-  tempoEstimadoMinutos: 17,
+    "Distinguir composição, função típica e limites das competências constitucionais. Diferenciar auxílio, subordinação e exercício de jurisdição. Aplicar a regra catalográfica ao nome, sem derivá-la apenas da natureza jurídica. Reconhecer a numeração e as condições dos tipos de subordinação governamental. Selecionar os níveis necessários em vez de copiar integralmente o organograma. Diferenciar nome autorizado, função bibliográfica e codificação dos campos. Distinguir antecedentes, criação efetiva, denominação e estrutura administrativa vigente. Relacionar sistemas, acervos e redes sem atribuir funções ou permissões indevidas.",
+  tempoEstimadoMinutos: 30,
   autoresChave: [
-    'Constituição da República Federativa do Brasil de 1988 (CF/88)',
-    'AACR2r (Anglo-American Cataloguing Rules, 2nd ed. rev. - Cap. 24)',
-    'RDA (Resource Description and Access - Cap. 11: Agentes Coletivos)',
-    'Formato MARC 21 Bibliográfico e de Autoridades (Campos 110 e 710)',
-    'Câmara dos Deputados / CEDI / Biblioteca Pedro Aleixo',
-    'Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional',
-  ],
+  "AACR2r — Código de catalogação anglo-americano",
+  "Library of Congress — MARC 21 Bibliographic: 110",
+  "Library of Congress — MARC 21 Bibliographic: 710",
+  "Constituição Federal",
+  "Câmara dos Deputados — Histórico da Biblioteca",
+  "Câmara dos Deputados — Estrutura administrativa",
+  "Senado Federal — Bibliotecas cooperantes da RVBI",
+  "Biblioteca Digital da Câmara dos Deputados"
+],
   alertasCebraspe: [
-    'CUIDADO: O Tribunal de Contas da União (TCU) e os TCEs NÃO integram o Poder Judiciário nem são subordinados hierarquicamente ao Poder Legislativo; são órgãos constitucionais autônomos que realizam o controle externo da administração pública.',
-    'ATENÇÃO NO AACR2 24.18: Nem todo órgão público entra subordinado à jurisdição territorial. Entidades da administração indireta com natureza jurídica própria (como Universidades Federais e Empresas Públicas) entram diretamente pelo seu próprio nome (ex.: "Universidade de Brasília", e NÃO "Brasil. Universidade de Brasília").',
-    'PEGADINHA CLÁSSICA DE MARC 21: O primeiro indicador dos campos 110/710 define a forma do nome: "1" para nome sob jurisdição geográfica (ex.: "Brasil. Congresso Nacional.") e "2" para nome em ordem direta (ex.: "Empresa Brasileira de Correios e Telégrafos"). O Cebraspe inverte com frequência esses indicadores.',
-    'SUBORDINAÇÃO DIRETA VS INDIRETA (AACR2 24.19): A regra geral prescreve a omissão de órgãos intermediários desnecessários, mas no caso do Poder Legislativo a Câmara dos Deputados subordina-se ao Congresso Nacional ("Brasil. Congresso Nacional. Câmara dos Deputados.").',
-    'BIBLIOTECA DA CÂMARA: Fundada em 1826 na Assembleia Constituinte do Império no Rio de Janeiro e transferida em 1960 para Brasília. É parte do CEDI (Centro de Documentação e Informação) subordinado à Diretoria-Geral. Seu repositório digital oficial é a BDCam (DSpace). A RVBI é coordenada pelo Senado Federal, e não pela Câmara.',
-  ],
-  quadroComparativo: {
-    titulo: 'Quadro Comparativo: Entidades Públicas, Formas de Entrada e MARC 21',
-    colunas: [
-      'Natureza Jurídica / Órgão',
-      'Ponto de Acesso Autorizado (AACR2r/RDA)',
-      'MARC 21 (Campo / Indicadores / Tags)',
-      'Regra Aplicável e Fundamentação Cebraspe',
-    ],
-    linhas: [
-      [
-        'Poder Legislativo Federal (Câmara dos Deputados)',
-        'Brasil. Congresso Nacional. Câmara dos Deputados.',
-        '110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados.',
-        'AACR2 24.18 (Tipo 5 e Tipo 11). Entrada sob jurisdição com subordinação hierárquica ao Congresso Nacional.',
-      ],
-      [
-        'Poder Judiciário Federal de Cúpula (STF e STJ)',
-        'Brasil. Supremo Tribunal Federal. / Brasil. Superior Tribunal de Justiça.',
-        '110 1# $a Brasil. $b Supremo Tribunal Federal.',
-        'AACR2 24.18 (Tipo 6 - Tribunais). Entrada sob a jurisdição política (Brasil), omitindo ministérios ou intermediários.',
-      ],
-      [
-        'Poder Judiciário Estadual (Tribunais de Justiça)',
-        'São Paulo (Estado). Tribunal de Justiça.',
-        '110 1# $a São Paulo (Estado). $b Tribunal de Justiça.',
-        'AACR2 24.18 (Tipo 6). Entrada sob o nome do Estado federado qualificado entre parênteses para distinguir de cidades homônimas.',
-      ],
-      [
-        'Tribunais de Contas (TCU e TCEs)',
-        'Brasil. Tribunal de Contas da União. / Minas Gerais. Tribunal de Contas do Estado.',
-        '110 1# $a Brasil. $b Tribunal de Contas da União.',
-        'AACR2 24.18 (Tipo 3 / Órgão de controle externo constitucional). Entrada sob jurisdição federal ou estadual.',
-      ],
-      [
-        'Ministério Público (MPU e MPEs)',
-        'Brasil. Ministério Público da União. / Rio de Janeiro (Estado). Ministério Público.',
-        '110 1# $a Brasil. $b Ministério Público da União.',
-        'Função Essencial à Justiça autônoma. Entrada sob jurisdição territorial correspondente.',
-      ],
-      [
-        'Universidades Públicas Federais e Estaduais',
-        'Universidade de Brasília. / Universidade de São Paulo.',
-        '110 2# $a Universidade de Brasília.',
-        'AACR2 24.17 e 24.1. Entrada DIRETA pelo nome próprio da instituição. NÃO se subordinam à jurisdição geográfica no ponto de acesso.',
-      ],
-      [
-        'Empresas Públicas e Sociedades de Economia Mista',
-        'Petróleo Brasileiro. / Empresa Brasileira de Correios e Telégrafos.',
-        '110 2# $a Petróleo Brasileiro.',
-        'Entidades empresariais estatais com personalidade jurídica de direito privado entram em ordem direta (indicador 2).',
-      ],
-      [
-        'Biblioteca da Câmara dos Deputados (Pedro Aleixo)',
-        'Brasil. Congresso Nacional. Câmara dos Deputados. Centro de Documentação e Informação. Coordenação de Biblioteca.',
-        '710 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados. $b Centro de Documentação e Informação. $b Coordenação de Biblioteca.',
-        'AACR2 24.18 e 24.19. Subordinação encadeada quando a unidade subordinada requer o contexto do órgão maior (CEDI).',
-      ],
-    ],
-  },
+  "O controle administrativo e financeiro e o controle dos deveres funcionais não transformam o CNJ em instância recursal jurisdicional. A troca de função é o erro decisivo.",
+  "As regras de nome e subordinação devem ser aplicadas ao caso, especialmente 24.17–24.18. Uma categoria do Direito Administrativo não substitui o teste catalográfico.",
+  "A regra prevê omissão de intermediários desnecessários e inclusão do nível necessário à identificação quando houver ambiguidade. Há ainda regras especiais, como a de corpos legislativos."
+],
   mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-2-5-1',
-        periodo: '1826',
-        disciplina: 'História da Biblioteca Parlamentar',
-        focoPrincipal:
-          'Instalação da Biblioteca da Câmara junto à primeira Assembleia Geral Constituinte do Império no Rio de Janeiro (Palácio da Cadeia Velha).',
-        figuraChave: 'Assembleia Constituinte do Império do Brasil',
-      },
-      {
-        id: 'tl-2-5-2',
-        periodo: '1960',
-        disciplina: 'Transferência e Nova Capital',
-        focoPrincipal:
-          'Transferência definitiva da Biblioteca da Câmara para o Palácio do Congresso Nacional em Brasília com a inauguração da capital federal.',
-        figuraChave: 'Câmara dos Deputados em Brasília',
-      },
-      {
-        id: 'tl-2-5-3',
-        periodo: '1978 / 2002',
-        disciplina: 'Catalogação Governamental',
-        focoPrincipal:
-          'Consolidação do Capítulo 24 do AACR2/AACR2r: fixação das regras de entrada sob jurisdição territorial vs entrada em ordem direta.',
-        figuraChave: 'Michael Gorman e Comitê Conjunto do AACR',
-      },
-      {
-        id: 'tl-2-5-4',
-        periodo: '1984',
-        disciplina: 'Patrono e Memória Parlamentar',
-        focoPrincipal:
-          'Resolução da Mesa nº 25/1984 oficializa a denominação "Biblioteca Pedro Aleixo", homenageando o jurista e parlamentar civil.',
-        figuraChave: 'Pedro Aleixo (1901-1975)',
-      },
-      {
-        id: 'tl-2-5-5',
-        periodo: '2000+',
-        disciplina: 'Bibliotecas Digitais e Cooperação',
-        focoPrincipal:
-          'Implantação da BDCam sobre DSpace para acesso aberto e consolidação cooperativa da Rede Virtual de Bibliotecas (RVBI).',
-        figuraChave: 'CEDI / Coordenação de Biblioteca / RVBI',
-      },
-      {
-        id: 'tl-2-5-6',
-        periodo: '1826–2026',
-        disciplina: 'Bicentenário da Biblioteca da Câmara',
-        focoPrincipal:
-          'Celebração de 200 anos de apoio ao processo legislativo, preservação da memória política e difusão do patrimônio bibliográfico nacional.',
-        figuraChave: 'Biblioteca Pedro Aleixo da Câmara dos Deputados',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-2-5-1',
-        nome: 'Constituição da República Federativa do Brasil',
-        ano: 1988,
-        obraPrincipal: 'CF/88: Título IV - Da Organização dos Poderes (arts. 44 a 135)',
-        ideiaChave:
-          'Estrutura a separação de poderes (Legislativo bicameral, Judiciário e Executivo), as competências do TCU no controle externo e a autonomia do Ministério Público.',
-        chipPegadinha:
-          'O TCU e os TCEs auxiliam o Legislativo, mas NÃO são subordinados nem integram o Poder Judiciário.',
-      },
-      {
-        id: 'aut-2-5-2',
-        nome: 'AACR2r / Michael Gorman & Paul Winkler',
-        ano: 2002,
-        obraPrincipal: 'Anglo-American Cataloguing Rules (2nd ed. rev. - Cap. 24)',
-        ideiaChave:
-          'Normatiza os 11 tipos de entidades governamentais com entrada sob jurisdição (24.18) e estabelece a regra da omissão de instâncias intermediárias (24.19).',
-        chipPegadinha:
-          'Universidades federais e estatais entram em ordem direta pelo próprio nome, e NÃO sob o nome do país/governo.',
-      },
-      {
-        id: 'aut-2-5-3',
-        nome: 'Centro de Documentação e Informação (CEDI)',
-        ano: 1984,
-        obraPrincipal: 'Estrutura Regimental e Gestão da Informação da Câmara',
-        ideiaChave:
-          'Integra a Biblioteca Pedro Aleixo, o Arquivo Histórico, as Edições Câmara e a BDCam sob a Diretoria-Geral para suporte integral ao mandato parlamentar.',
-        chipPegadinha:
-          'A Biblioteca Pedro Aleixo vincula-se ao CEDI/Diretoria-Geral, e não ao Gabinete da Presidência da Câmara.',
-      },
-      {
-        id: 'aut-2-5-4',
-        nome: 'Rede Virtual de Bibliotecas (RVBI)',
-        ano: 2000,
-        obraPrincipal: 'Catálogo Coletivo e Vocabulário Controlado Básico (VCB)',
-        ideiaChave:
-          'Rede cooperativa de bibliotecas dos Poderes da União com base de dados única e tesauro legislativo padronizado.',
-        chipPegadinha:
-          'A coordenação executiva da RVBI pertence ao Senado Federal, e não à Câmara dos Deputados.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-2-5-1',
-        afirmacao:
-          'O Tribunal de Contas da União (TCU) integra formalmente a estrutura do Poder Judiciário, possuindo competência para proferir sentenças transitadas em julgado com força de coisa julgada material.',
-        gabarito: 'E',
-        porQue:
-          'O TCU é órgão constitucional autônomo que auxilia o Congresso Nacional no controle externo. Não integra o rol taxativo do art. 92 da CF/88 e suas decisões condenatórias têm eficácia de título executivo extrajudicial.',
-      },
-      {
-        id: 'peg-2-5-2',
-        afirmacao:
-          'De acordo com as regras do AACR2r, uma universidade pública federal deve ser catalogada sob a jurisdição política nacional, adotando-se a forma "Brasil. Universidade Federal de Santa Catarina.".',
-        gabarito: 'E',
-        porQue:
-          'Segundo as regras 24.1 e 24.17 do AACR2r, universidades públicas com nomes distintivos e personalidades jurídicas próprias entram DIRETAMENTE sob seu nome institucional: "Universidade Federal de Santa Catarina.".',
-      },
-      {
-        id: 'peg-2-5-3',
-        afirmacao:
-          'No formato MARC 21 Bibliográfico, o primeiro indicador 1 nos campos 110 e 710 identifica que o ponto de acesso coletivo foi formulado sob jurisdição governamental.',
-        gabarito: 'C',
-        porQue:
-          'Correto! No MARC 21, o primeiro indicador 1 define entrada sob jurisdição geográfica (governo/lugar), enquanto o indicador 2 define entrada em ordem direta da instituição.',
-      },
-      {
-        id: 'peg-2-5-4',
-        afirmacao:
-          'A Biblioteca Digital da Câmara dos Deputados (BDCam) consiste em repositório restrito a parlamentares da Casa, operando sob protocolo proprietário protegido de interoperabilidade externa.',
-        gabarito: 'E',
-        porQue:
-          'A BDCam é um repositório em acesso aberto (Open Access) baseado no software livre DSpace, com metadados Dublin Core e protocolo aberto OAI-PMH para coleta interoperável.',
-      },
-      {
-        id: 'peg-2-5-5',
-        afirmacao:
-          'A coordenação executiva e a gestão tecnológica da Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional são de responsabilidade do Senado Federal.',
-        gabarito: 'C',
-        porQue:
-          'Correto! Embora a Câmara dos Deputados seja participante fundamental, a coordenação da RVBI cabe à Secretaria de Biblioteca e Arquivo do Senado Federal.',
-      },
-    ],
-  },
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A catalogação governamental e o conhecimento sobre a **Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo)** constituem temas obrigatórios e com forte peso na prova:
-1. **Regras Canônicas de Catalogação de Órgãos Públicos (AACR2r Cap. 24 e RDA Cap. 11):**
-   - **Regra Geral de Subordinação à Jurisdição (AACR2 24.18):** Entram subordinados diretamente à jurisdição territorial (País, Estado ou Município) os órgãos que integram o núcleo de autoridade política do Estado: ministérios, secretarias, órgãos legislativos, órgãos judiciários e forças armadas.
-     - *Exemplo:* \`Brasil. Congresso Nacional. Câmara dos Deputados.\`
-     - *Exemplo:* \`Brasil. Supremo Tribunal Federal.\`
-   - **Exceção Fundamental (Entidades com Entrada Direta - AACR2 24.17):** Entidades da administração pública indireta com personalidade jurídica própria e nomes distintivos — universidades públicas, hospitais estatais, empresas públicas, sociedades de economia mista e institutos de pesquisa — entram **diretamente sob o seu próprio nome**, sem a jurisdição!
-     - *Exemplo:* \`Universidade de Brasília.\` (E NUNCA \`Brasil. Universidade de Brasília.\`).
-     - *Exemplo:* \`Empresa Brasileira de Correios e Telégrafos.\`
-2. **História e Estrutura da Biblioteca da Câmara dos Deputados:**
-   - **Criação Secular:** Criada em **1826**, junto à instalação da primeira Assembleia Geral Constituinte e Legislativa do Império do Brasil, no Palácio Pedro Ernesto (Rio de Janeiro).
-   - **Transferência para Brasília:** Transferida em 1960 com a fundação da nova Capital Federal.
-   - **Patrono:** Denominada formalmente **Biblioteca Pedro Aleixo** pela Resolução da Câmara nº 25/1984.
-   - **Vinculação Institucional:** Integra a estrutura do **Centro de Documentação e Informação (CEDI)**, que por sua vez se subordina à Diretoria-Geral da Câmara.
-   - **Rede Virtual de Bibliotecas (RVBI):** Rede cooperativa coordenada pela Secretaria de Biblioteca e Arquivo do **Senado Federal**, da qual a Câmara é membro cofundador e usuário central.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Catalogação de Publicação de Comissão Parlamentar):** Ao dar entrada no livro técnico da *Comissão de Constituição e Justiça e de Cidadania (CCJC)*, o bibliotecário da Câmara aplica a regra de subordinação hierárquica sucessiva no MARC 21:
-  - \`110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados. $b Comissão de Constituição e Justiça e de Cidadania.\`
-- **Cenário 2 (Catalogação de Livro da Fiocruz ou Ipea):** A Fundação Oswaldo Cruz (Fiocruz) e o Instituto de Pesquisa Econômica Aplicada (Ipea) publicam um estudo sobre saúde pública para subsídio aos deputados. Como são fundações públicas da administração indireta com nomes distintivos (AACR2 24.17), a entrada principal é **direta**: \`110 2# $a Fundação Oswaldo Cruz.\` e \`110 2# $a Instituto de Pesquisa Econômica Aplicada.\`.
-- **Cenário 3 (Gestão de Obras Raras no Acervo Histórico):** A Seção de Obras Raras da Biblioteca Pedro Aleixo custodia os anais originais manuscritos do Império e as primeiras constituições do Brasil. O bibliotecário aplica políticas rigorosas de preservação física combinadas à digitalização e disponibilização na Biblioteca Digital da Câmara (BDCam / DSpace).
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Tipo de Órgão Público | Regra Canônica de Entrada | Indicador MARC 110 | Exemplo Correto Cebraspe |
-| :--- | :--- | :--- | :--- |
-| **Órgão Central de Poder (Exec./Leg./Jud.)** | Subordinado à Jurisdição territorial | 1 (Jurisdição) | \`Brasil. Ministério da Educação.\` |
-| **Entidade da Adm. Indireta (Universidade/Empresa)** | Ordem Direta pelo próprio nome | 2 (Ordem direta) | \`Universidade Federal do Rio de Janeiro.\` |
-| **Tribunal de Contas (TCU / TCEs)** | Órgão Constitucional Autônomo (não é do Judiciário!) | 1 (Jurisdição) | \`Brasil. Tribunal de Contas da União.\` |
-| **Coordenação da RVBI** | Órgão Gestor: **Senado Federal** | - | Não é a Câmara que coordena a RVBI! |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Jurisdição Forçada em Universidades:** A banca formula itens afirmando que, por ser federal, a universidade pública deve entrar precedida por "Brasil" (\`Brasil. Universidade Federal do Ceará\`). **Gabarito: ERRADO.** Entidades universitárias entram diretamente pelo seu nome oficial.
-- **Natureza Jurídica do TCU:** Dizer que o TCU entra subordinado ao Poder Legislativo ou que faz parte do Poder Judiciário. **Gabarito: ERRADO.** O rol do art. 92 da CF/88 é taxativo e não inclui o TCU no Judiciário; o TCU é órgão constitucional autônomo e entra como \`Brasil. Tribunal de Contas da União.\`.
-- **Quem Coordena a RVBI:** Afirmar que a gestão tecnológica da RVBI é de competência da Biblioteca da Câmara. **Gabarito: ERRADO.** A coordenação executiva e tecnológica da RVBI pertence ao **Senado Federal**.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. Brasília: Congresso Nacional, 1988. (Art. 44 a 75 sobre o Poder Legislativo e órgãos federais).
-- **ANGLO-AMERICAN CATALOGUING RULES (AACR2r).** 2. ed. rev. São Paulo: FEBAB, 2002. (Capítulo 24: Cabeçalhos para Entidades Coletivas, regras 24.17 e 24.18).
-- **CÂMARA DOS DEPUTADOS.** *Regulamento Administrativo da Câmara dos Deputados*. Resolução nº 20/1971 e atualizações. (Estrutura do Centro de Documentação e Informação - CEDI).
-- **REDE VIRTUAL DE BIBLIOTECAS (RVBI).** *Manual de Catalogação da RVBI*. Brasília: Senado Federal / Câmara dos Deputados, 2021.
-- **MEY, Eliane Serrão Alves.** *Introdução à catalogação*. Brasília: Briquet de Lemos, 1995.`,
-  checkpoints: [
+  "timeline": [],
+  "autores": [
     {
-      id: 'cp-2-5-1',
-      pergunta:
-        'Sobre a natureza institucional dos órgãos públicos e sua competência constitucional, julgue o item a seguir:',
-      item: 'O Tribunal de Contas da União (TCU) integra formalmente a estrutura do Poder Judiciário brasileiro, competindo-lhe proferir decisões transitadas em julgado com eficácia de coisa julgada material sobre as contas de gestores públicos federais.',
-      gabarito: 'E',
-      justificativa:
-        'ERRADO. O TCU NÃO integra o Poder Judiciário (o rol de órgãos do Judiciário é taxativo no art. 92 da CF/88 e não inclui os Tribunais de Contas). O TCU é órgão constitucional autônomo que auxilia o Poder Legislativo no controle externo. Suas decisões condenatórias têm eficácia de título executivo extrajudicial (art. 71, § 3º, da CF/88) e podem ter sua legalidade revista pelo Poder Judiciário.',
+      "id": "sub-2-5-fonte-aacr",
+      "nome": "AACR2r — Código de catalogação anglo-americano",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "AACR2r — Código de catalogação anglo-americano",
+      "ideiaChave": "Capítulo 24: regras 24.17, 24.18A, 24.19 e 24.21. Exemplar do acervo teórico do projeto.",
+      "chipPegadinha": "Fonte da aula"
     },
     {
-      id: 'cp-2-5-2',
-      pergunta:
-        'Acerca das regras de escolha e determinação de cabeçalhos para entidades coletivas no código AACR2r e no formato MARC 21, julgue o item a seguir:',
-      item: 'De acordo com o AACR2r e o formato MARC 21, as universidades públicas federais devem ser catalogadas com entrada principal subordinada à jurisdição territorial correspondente, utilizando-se o campo 110 com primeiro indicador 1 (ex.: 110 1# $a Brasil. $b Universidade Federal de Minas Gerais.).',
-      gabarito: 'E',
-      justificativa:
-        'ERRADO. Pelo AACR2r (Regras 24.1 e 24.17), entidades que não se enquadram nos tipos restritos da regra 24.18 — como instituições de ensino superior, hospitais públicos, bancos estatais e institutos de pesquisa com nomes distintivos — entram diretamente sob o seu próprio nome. Portanto, a forma autorizada é "Universidade Federal de Minas Gerais." e no MARC 21 utiliza-se o campo 110 com primeiro indicador 2 (ordem direta): 110 2# $a Universidade Federal de Minas Gerais.',
+      "id": "sub-2-5-fonte-marc110",
+      "nome": "Library of Congress — MARC 21 Bibliographic: 110",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Library of Congress — MARC 21 Bibliographic: 110",
+      "ideiaChave": "Indicadores e subcampos de nome de entidade coletiva.",
+      "chipPegadinha": "Fonte da aula"
     },
     {
-      id: 'cp-2-5-3',
-      pergunta:
-        'Em relação à Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo) e aos sistemas de informação do Congresso Nacional, julgue o item a seguir:',
-      item: 'A Biblioteca da Câmara dos Deputados, criada originalmente em 1826 no Rio de Janeiro e denominada Biblioteca Pedro Aleixo, integra o Centro de Documentação e Informação (CEDI) e mantém a Biblioteca Digital da Câmara (BDCam), plataforma baseada no software livre DSpace destinada a disponibilizar em acesso aberto a memória parlamentar, estudos técnicos e publicações institucionais.',
-      gabarito: 'C',
-      justificativa:
-        'CERTO. A assertiva reflete com exatidão os fatos históricos e institucionais da Biblioteca da Câmara: instituída com a Assembleia Geral do Império em 1826, batizada pela Resolução nº 25/1984 como Biblioteca Pedro Aleixo, alocada na estrutura do CEDI (subordinado à Diretoria-Geral) e operadora da BDCam sobre DSpace para difusão aberta do patrimônio legislativo.',
+      "id": "sub-2-5-fonte-marc710",
+      "nome": "Library of Congress — MARC 21 Bibliographic: 710",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Library of Congress — MARC 21 Bibliographic: 710",
+      "ideiaChave": "Segundo indicador: informação não fornecida ou entrada analítica.",
+      "chipPegadinha": "Fonte da aula"
     },
+    {
+      "id": "sub-2-5-fonte-cf",
+      "nome": "Constituição Federal",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Constituição Federal",
+      "ideiaChave": "Arts. 44–52, 70–75, 92–135.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-5-fonte-hist",
+      "nome": "Câmara dos Deputados — Histórico da Biblioteca",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Câmara dos Deputados — Histórico da Biblioteca",
+      "ideiaChave": "Antecedentes de 1823, criação efetiva em 1866 e Resolução 104/1984.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-5-fonte-organograma",
+      "nome": "Câmara dos Deputados — Estrutura administrativa",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Câmara dos Deputados — Estrutura administrativa",
+      "ideiaChave": "Organograma de abril de 2026: Cedi vinculado à Diretoria-Geral.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-5-fonte-rvbi",
+      "nome": "Senado Federal — Bibliotecas cooperantes da RVBI",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Senado Federal — Bibliotecas cooperantes da RVBI",
+      "ideiaChave": "Relação institucional de bibliotecas; composição pode mudar.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-5-fonte-bdcam",
+      "nome": "Biblioteca Digital da Câmara dos Deputados",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Biblioteca Digital da Câmara dos Deputados",
+      "ideiaChave": "Coleções, documentos, metadados e condições de acesso em cada registro.",
+      "chipPegadinha": "Fonte da aula"
+    }
   ],
-  teoriaDensaMarkdown: `
-# Mini-Módulo Especial 2.5: Órgãos Públicos, Catalogação Governamental e a Biblioteca da Câmara dos Deputados
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-2-5-6",
+      "afirmacao": "No MARC 21 Bibliográfico, o segundo indicador do campo 710 pode assumir o valor 2 para entrada analítica.",
+      "gabarito": "C",
+      "porQue": "No 710, o segundo indicador distingue informação não fornecida (#) e entrada analítica (2). No 110 bibliográfico, ele é indefinido."
+    },
+    {
+      "id": "memoria-rt-2-5-7",
+      "afirmacao": "A história oficial distingue antecedentes em 1823 da criação efetiva da Biblioteca da Câmara em 1866.",
+      "gabarito": "C",
+      "porQue": "A página histórica registra os primeiros pedidos de livros na Constituinte e a criação efetiva em momento posterior. Não se deve confundir a instalação do Parlamento em 1826 com a criação da biblioteca."
+    },
+    {
+      "id": "memoria-rt-2-5-8",
+      "afirmacao": "A disponibilização de um livro na BDCam autoriza, por si só, qualquer reutilização comercial de seu conteúdo.",
+      "gabarito": "E",
+      "porQue": "Acesso ao arquivo e licença de reutilização são condições distintas. Deve-se consultar os direitos, a licença, o domínio público e as limitações legais aplicáveis ao objeto."
+    }
+  ]
+},
+  teoriaDidaticaMarkdown: "## Revisão essencial\n\n1. TCU auxilia o Legislativo, sem integrar o Judiciário; CNJ não é instância recursal de mérito.\n2. AACR2r: teste as condições de 24.18A, os níveis de 24.19 e as regras especiais de 24.21.\n3. MARC 110 e 710 têm funções e segundos indicadores diferentes.\n4. Biblioteca: antecedentes em 1823, criação efetiva em 1866, denominação pela Resolução 104/1984.\n5. Cedi vinculado à Diretoria-Geral no organograma de abril de 2026; RVBI coordenada pelo Senado.\n\nSem consultar, explique por que um organograma não deve ser copiado automaticamente para um cabeçalho e por que acesso digital não equivale a licença irrestrita.",
+  checkpoints: [
+  {
+    "id": "cp-2-5-1",
+    "pergunta": "Sobre a natureza institucional dos órgãos públicos e sua competência constitucional, julgue o item a seguir:",
+    "item": "O Tribunal de Contas da União (TCU) integra formalmente a estrutura do Poder Judiciário brasileiro, competindo-lhe proferir decisões transitadas em julgado com eficácia de coisa julgada material sobre as contas de gestores públicos federais.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. O TCU NÃO integra o Poder Judiciário (o rol de órgãos do Judiciário é taxativo no art. 92 da CF/88 e não inclui os Tribunais de Contas). O TCU é órgão constitucional autônomo que auxilia o Poder Legislativo no controle externo. Suas decisões condenatórias têm eficácia de título executivo extrajudicial (art. 71, § 3º, da CF/88) e podem ter sua legalidade revista pelo Poder Judiciário.",
+    "fonte": "AACR2r, regras 24.17–24.21; Library of Congress, MARC 21, 110 e 710; CF/88, arts. 44–52, 71, 92–135; Câmara dos Deputados, Histórico e organograma de abril de 2026.",
+    "versao_correta": "O TCU auxilia o Congresso no controle externo e não integra o Judiciário; suas decisões de débito ou multa têm eficácia de título executivo."
+  },
+  {
+    "id": "cp-2-5-2",
+    "pergunta": "Acerca das regras de escolha e determinação de cabeçalhos para entidades coletivas no código AACR2r e no formato MARC 21, julgue o item a seguir:",
+    "item": "De acordo com o AACR2r e o formato MARC 21, as universidades públicas federais devem ser catalogadas com entrada principal subordinada à jurisdição territorial correspondente, utilizando-se o campo 110 com primeiro indicador 1 (ex.: 110 1# $a Brasil. $b Universidade Federal de Minas Gerais.).",
+    "gabarito": "E",
+    "justificativa": "Errado. Ser universidade pública não determina automaticamente subordinação à jurisdição. É necessário aplicar as regras 24.17–24.18 ao nome, consultar a autoridade adotada e distinguir a regra de conteúdo do indicador MARC. O exemplo generaliza uma obrigação inexistente.",
+    "fonte": "AACR2r, regras 24.17–24.21; Library of Congress, MARC 21, 110 e 710; CF/88, arts. 44–52, 71, 92–135; Câmara dos Deputados, Histórico e organograma de abril de 2026.",
+    "versao_correta": "A entrada de uma universidade depende das regras aplicáveis ao nome; a natureza pública não impõe, por si, subordinação à jurisdição."
+  },
+  {
+    "id": "cp-2-5-3",
+    "pergunta": "Em relação à Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo) e aos sistemas de informação do Congresso Nacional, julgue o item a seguir:",
+    "item": "A Biblioteca da Câmara dos Deputados, cuja criação efetiva é situada em 1866 pela história institucional, denomina-se Biblioteca Pedro Aleixo por força da Resolução nº 104/1984 e integra o Centro de Documentação e Informação.",
+    "gabarito": "C",
+    "justificativa": "Certo. A história oficial distingue antecedentes em 1823, criação efetiva em 1866 e denominação em 1984. O vínculo ao Cedi deve ser separado da data histórica de criação. A redação anterior associava indevidamente a biblioteca à instalação do Parlamento em 1826.",
+    "fonte": "AACR2r, regras 24.17–24.21; Library of Congress, MARC 21, 110 e 710; CF/88, arts. 44–52, 71, 92–135; Câmara dos Deputados, Histórico e organograma de abril de 2026."
+  },
+  {
+    "id": "rt-2-5-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O CNJ pode reformar o mérito de uma sentença judicial ao exercer o controle administrativo do Judiciário.",
+    "gabarito": "E",
+    "justificativa": "O controle administrativo e financeiro e o controle dos deveres funcionais não transformam o CNJ em instância recursal jurisdicional. A troca de função é o erro decisivo.",
+    "fonte": "CF/88, arts. 92 e 103-B.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "O CNJ exerce controle administrativo e financeiro, sem reformar o mérito de decisões jurisdicionais."
+  },
+  {
+    "id": "rt-2-5-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A Advocacia-Geral da União, embora exerça função essencial à Justiça, integra o Poder Executivo federal.",
+    "gabarito": "C",
+    "justificativa": "A classificação constitucional como função essencial à Justiça não implica estar fora de todos os Poderes. A AGU representa a União e presta consultoria e assessoramento jurídico ao Executivo.",
+    "fonte": "CF/88, art. 131.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-2-5-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A personalidade jurídica de uma autarquia basta, isoladamente, para determinar sua entrada direta no AACR2r.",
+    "gabarito": "E",
+    "justificativa": "As regras de nome e subordinação devem ser aplicadas ao caso, especialmente 24.17–24.18. Uma categoria do Direito Administrativo não substitui o teste catalográfico.",
+    "fonte": "AACR2r, regras 24.17–24.18.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "A entrada depende das regras catalográficas aplicáveis ao nome e à entidade, e não apenas de sua personalidade jurídica."
+  },
+  {
+    "id": "rt-2-5-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No AACR2r 24.18A, os corpos legislativos correspondem ao tipo 6, e as delegações a organizações internacionais, ao tipo 11.",
+    "gabarito": "C",
+    "justificativa": "São os tipos previstos no código. A omissão do verdadeiro tipo 4 deslocaria indevidamente toda a numeração subsequente.",
+    "fonte": "AACR2r, regra 24.18A, tipos 4–11.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-2-5-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Para aplicar a regra 24.19 do AACR2r, basta reproduzir todos os níveis do organograma administrativo no cabeçalho.",
+    "gabarito": "E",
+    "justificativa": "A regra prevê omissão de intermediários desnecessários e inclusão do nível necessário à identificação quando houver ambiguidade. Há ainda regras especiais, como a de corpos legislativos.",
+    "fonte": "AACR2r, regras 24.19 e 24.21.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "O cabeçalho seleciona os níveis exigidos pelas regras e pela identificação; não copia automaticamente o organograma."
+  },
+  {
+    "id": "rt-2-5-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No MARC 21 Bibliográfico, o segundo indicador do campo 710 pode assumir o valor 2 para entrada analítica.",
+    "gabarito": "C",
+    "justificativa": "No 710, o segundo indicador distingue informação não fornecida (#) e entrada analítica (2). No 110 bibliográfico, ele é indefinido.",
+    "fonte": "Library of Congress, MARC 21 Bibliographic, 110 e 710.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-2-5-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A história oficial distingue antecedentes em 1823 da criação efetiva da Biblioteca da Câmara em 1866.",
+    "gabarito": "C",
+    "justificativa": "A página histórica registra os primeiros pedidos de livros na Constituinte e a criação efetiva em momento posterior. Não se deve confundir a instalação do Parlamento em 1826 com a criação da biblioteca.",
+    "fonte": "Câmara dos Deputados, Histórico da Biblioteca.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-2-5-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A disponibilização de um livro na BDCam autoriza, por si só, qualquer reutilização comercial de seu conteúdo.",
+    "gabarito": "E",
+    "justificativa": "Acesso ao arquivo e licença de reutilização são condições distintas. Deve-se consultar os direitos, a licença, o domínio público e as limitações legais aplicáveis ao objeto.",
+    "fonte": "BDCam, registros e informações de direitos; Lei 9.610/1998.",
+    "editalRef": "Bloco A - Item 1.6 e Bloco D - Item 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "A reutilização depende dos direitos e da licença aplicáveis a cada objeto."
+  }
+],
+  teoriaDensaMarkdown: "### Poderes, representação e jurisdição\n\n### O Poder Legislativo\nNo plano federal, o Poder Legislativo adota o modelo **bicameral** (CF/88, art. 44), exercido pelo **Congresso Nacional**, que se compõe de duas casas:\n1. **Câmara dos Deputados**: Representa o **povo brasileiro**. Na legislatura em curso em 2026, possui **513 deputados federais**, eleitos pelo sistema eleitoral proporcional em cada Estado, no Distrito Federal e nos Territórios, com mandato de 4 anos. Possui competências privativas fundamentais (CF/88, art. 51), como autorizar a instauração de processo de impeachment contra o Presidente da República e elaborar seu regimento interno.\n2. **Senado Federal**: Representa os **Estados federados e o Distrito Federal**. Compõe-se de **81 senadores** (3 senadores por unidade federativa, eleitos pelo sistema majoritário), com mandato de 8 anos e renovação alternada de 1/3 e 2/3 a cada 4 anos. Possui competências privativas (CF/88, art. 52), como julgar o Presidente nos crimes de responsabilidade e aprovar a escolha de ministros do STF, tribunais superiores e chefes de missão diplomática.\n\nNo plano estadual e distrital, o Poder Legislativo é **unicameral**:\n- **Assembleias Legislativas dos Estados (ALs)**: compostas por deputados estaduais.\n- **Câmara Legislativa do Distrito Federal (CLDF)**: composta por deputados distritais (acumula competências estaduais e municipais).\n- **Câmaras Municipais**: compostas por vereadores (plano municipal).\n\n### 1.2 O Poder Judiciário (CF/88, arts. 92 a 126)\nO rol de órgãos do Poder Judiciário é expressamente taxativo (art. 92):\n1. **STF (Supremo Tribunal Federal)**: Órgão de cúpula máxima do Poder Judiciário, responsável pela guarda precípua da Constituição (art. 102). Composto por 11 ministros cidadãos brasileiros natos, nomeados pelo Presidente após sabatina do Senado. Julga ações diretas de inconstitucionalidade (ADI), ações declaratórias de constitucionalidade (ADC), arguições de descumprimento de preceito fundamental (ADPF) e recursos extraordinários (RE).\n2. **STJ (Superior Tribunal de Justiça)**: Órgão de cúpula da jurisdição federal e estadual comum infraconstitucional (art. 104 e 105). Guardião da legislação federal ordinária e uniformizador da jurisprudência federal. Composto por no mínimo 33 ministros. Julga em última instância o Recurso Especial (REsp).\n3. **TRFs (Tribunais Regionais Federais) e Juízes Federais**: Integram a Justiça Federal comum. Atualmente divididos em 6 regiões (TRF1 a TRF6). Julgam causas em que a União, suas autarquias e empresas públicas federais forem autoras, rés, assistentes ou oponentes (art. 109).\n4. **TJs (Tribunais de Justiça dos Estados) e Juízes de Direito**: Exercem a jurisdição estadual residual (tudo o que não for privativo da Justiça Federal ou das Justiças Especializadas). O **TJDFT** (Tribunal de Justiça do DF e dos Territórios) é mantido e organizado pela União (art. 21, XIII), mas exerce competência de tribunal local/estadual.\n5. **Justiças Especializadas**:\n   - **Justiça do Trabalho**: TST (Tribunal Superior do Trabalho), TRTs (Tribunais Regionais do Trabalho) e Varas do Trabalho.\n   - **Justiça Eleitoral**: TSE (Tribunal Superior Eleitoral), TREs (Tribunais Regionais Eleitorais), Juízes e Juntas Eleitorais.\n   - **Justiça Militar**: STM (Superior Tribunal Militar) e Auditorias Militares.\n6. **CNJ (Conselho Nacional de Justiça)**: Criado pela Emenda Constitucional nº 45/2004 (art. 103-B). É órgão de cúpula administrativa e financeira do Judiciário. **ATENÇÃO PARA O CEBRASPE**: O CNJ *não exerce função jurisdicional contenciosa*; ele não julga litígios judiciais nem pode rever o mérito de sentenças ou acórdãos judiciais.\n\n\n\n**Aplicação:** um relatório do CNJ é documento de órgão do Judiciário, mas isso não o transforma em sentença. Classifique o produtor e a função do documento separadamente.\n\n### Controle externo e funções essenciais à Justiça\n\n### Tribunais de Contas (CF/88, arts. 70 a 75)\n- **TCU (Tribunal de Contas da União)**: Órgão colegiado que auxilia o Congresso Nacional no exercício do controle externo contábil, financeiro, orçamentário, operacional e patrimonial da União e das entidades da administração direta e indireta.\n  - **NÃO integra o Poder Judiciário** nem profere sentenças judiciais transitadas em julgado.\n  - **NÃO é subordinado ao Poder Legislativo**: possui autonomia institucional, funcional, orçamentária e administrativa garantida pela CF/88.\n  - Suas decisões que resultem em imputação de débito ou multa têm eficácia de **título executivo extrajudicial** (art. 71, § 3º).\n- **TCEs (Tribunais de Contas dos Estados)**: Auxiliam as Assembleias Legislativas no controle externo estadual e municipal.\n- **TCDF (Tribunal de Contas do Distrito Federal)**: Auxilia a CLDF no controle distrital.\n- **TCMs (Tribunais de Contas dos Municípios)**: Existem tribunais de contas para municípios no plano estadual (TCM-PA, TCM-GO, TCM-BA) e órgãos municipais exclusivos apenas em **São Paulo** e no **Rio de Janeiro** (mantidos por terem sido criados antes da CF/88, já que o art. 31, § 4º da Carta veda a criação de novos tribunais de contas municipais).\n\n### 1.4 As Funções Essenciais à Justiça (CF/88, arts. 127 a 135)\nInstituições e atividades essenciais à Justiça, que **não se confundem com órgãos do Judiciário**. Não se pode afirmar que todas estejam fora dos três Poderes: a AGU integra o Executivo federal:\n1. **Ministério Público (MP)**: Instituição permanente, essencial à função jurisdicional, defensora da ordem jurídica, do regime democrático e dos interesses sociais e indisponíveis (art. 127). Possui autonomia funcional e orçamentária.\n   - **MPU (Ministério Público da União)**: compreende o MPF (Ministério Público Federal, chefiado pelo PGR), o MPT (Trabalho), o MPM (Militar) e o MPDFT (DF e Territórios).\n   - **MPEs (Ministérios Públicos dos Estados)**: MPSP, MPRJ, MPMG, etc., chefiados pelos respectivos Procuradores-Gerais de Justiça (PGJ).\n2. **Defensoria Pública**: Presta orientação jurídica e promove a defesa integral e gratuita dos necessitados (art. 134). Composta pela DPU (União) e pelas DPEs (Estados e DF).\n3. **Advocacia Pública**: Defende os interesses patrimoniais e a juridicidade dos entes federados: Advocacia-Geral da União (AGU), Procuradorias-Gerais dos Estados (PGEs) e Municípios (PGMs).\n\n---\n\n\n\n**Aplicação:** multa do TCU com eficácia de título executivo não equivale a sentença judicial. Verifique o órgão, a competência e o efeito jurídico antes de construir o ponto de acesso.\n\n### Entrada direta e entrada subordinada\n\nO AACR2r trata entidades governamentais em 24.17 e seguintes. A entrada direta pelo nome é a regra de partida, sujeita aos tipos de subordinação de 24.18 e às disposições específicas. Não é suficiente separar entidades entre “soberanas” e “não soberanas”, nem entre órgãos e autarquias.\n\n**Roteiro de decisão:** identifique a entidade real e seu nome; consulte a fonte de autoridade; verifique se o nome e a natureza se enquadram nos tipos da regra; aplique as regras de hierarquia; registre as variantes e as fontes consultadas. A identidade da entidade deve persistir mesmo quando o seu nome muda.\n\nUma universidade pública de nome distintivo pode ter entrada direta. A justificativa é catalográfica, e não simplesmente possuir personalidade jurídica. Uma repartição administrativa com nome genérico pode exigir subordinação. Nomes escolhidos para exemplificação não constituem prova de que um catálogo específico adote aquela forma.\n\nNo **Original RDA**, referências ao capítulo 11 pertencem àquela organização do texto. O RDA atual reorganizou seus elementos; indique a versão e o perfil de aplicação. Não transporte automaticamente os onze tipos numerados do AACR2r para qualquer versão do RDA.\n\n**Contraste resolvido:** “Toda entidade pública entra por Brasil” falha por universalização. “Toda autarquia entra diretamente” também. Ambas substituem as condições da regra por uma característica administrativa insuficiente.\n\n### Os onze tipos de 24.18A\n\nA enumeração a seguir é uma síntese didática da regra, não uma transcrição do código. As condições fazem parte da decisão:\n\n| Tipo | Situação abrangida |\n|---|---|\n| 1 | Nome com termo que exprime ser parte de outra entidade, como departamento, divisão ou seção. |\n| 2 | Nome com termo normalmente indicativo de subordinação administrativa, como comissão, quando a identificação necessita do nome do governo. |\n| 3 | Nome geral ou composto apenas de designações geográficas, cronológicas, numéricas ou alfabéticas. |\n| 4 | Nome que não transmite a ideia de entidade coletiva e não contém o nome do governo. |\n| 5 | Ministério ou órgão executivo semelhante que, pelas publicações oficiais, não tenha outra repartição acima de si. |\n| 6 | Corpos legislativos. |\n| 7 | Tribunais. |\n| 8 | Principais ramos das forças armadas. |\n| 9 | Chefes de Estado ou de governo. |\n| 10 | Embaixadas e consulados. |\n| 11 | Delegações junto a organizações internacionais ou intergovernamentais. |\n\n**Como raciocinar:** o tipo 2 exige verificar a necessidade de identificação; não basta localizar a palavra “comissão”. No tipo 4, teste se o nome comunica a existência de uma entidade e se contém o governo. Os tipos 6 a 11 dependem da natureza funcional expressamente tratada.\n\n**Erro a evitar:** inserir “órgão legislativo subordinado” como tipo 11 apagaria o verdadeiro tipo das delegações. A hierarquia entre casas legislativas é tratada nas regras próprias, incluindo 24.21.\n\n### Hierarquia e desambiguação\n\nA regra 24.19 prevê, em princípio, a entrada da unidade subordinada diretamente sob o governo. Se seu nome for usado, ou puder ser usado, por outra repartição do mesmo governo, acrescente o nível intermediário mais baixo necessário para distingui-la. O código também prevê remissiva quando a unidade imediatamente superior é omitida.\n\nA regra **24.21** trata especificamente de corpos legislativos: em uma legislatura bicameral, a casa é registrada subordinadamente à legislatura. Assim, a representação didática `Brasil. Congresso Nacional. Câmara dos Deputados.` não se explica apenas pela necessidade de copiar a estrutura administrativa, mas por regra específica. A forma exata de um registro de autoridade deve ser conferida no catálogo adotado.\n\n**Caso resolvido:** duas repartições possuem uma “Divisão de Biblioteca”. A jurisdição mais esse nome pode ser ambígua; um nível intermediário identificador pode ser necessário. Isso não obriga a carregar todos os níveis entre a divisão e a autoridade máxima.\n\nMudanças administrativas exigem controle de autoridades e de relacionamentos, sem presumir que toda alteração de chefia tenha criado uma nova entidade. Antes de alterar o cabeçalho, determine se houve mudança de nome, fusão, sucessão ou apenas modificação de vinculação.\n\n### MARC: conteúdo, função e indicadores\n\nO MARC 21 registra os dados escolhidos pelas regras de conteúdo. No formato bibliográfico, **110** identifica entrada principal de entidade coletiva e **710**, ponto de acesso adicional. A escolha depende da responsabilidade e das regras aplicáveis à obra; não basta que o documento tenha origem governamental. No formato de autoridades, 110 tem a função de cabeçalho estabelecido, e não de entrada principal de uma obra.\n\nO primeiro indicador distingue nome invertido (0), nome sob jurisdição (1) e nome em ordem direta (2). Um nome corporativo que contém qualificador geográfico não se torna, por isso, nome de jurisdição. No **110 bibliográfico**, o segundo indicador é indefinido (#). No **710 bibliográfico**, # significa informação não fornecida e 2 designa entrada analítica.\n\n| Subcampo | Uso no contexto do campo |\n|---|---|\n| `$a` | Nome da entidade ou jurisdição como elemento de entrada. |\n| `$b` | Unidade subordinada, repetível. |\n| `$c` | Local de reunião, quando aplicável; não é um campo genérico de endereço da sede. |\n| `$d` | Data de reunião ou contexto de tratado, conforme as definições do formato. |\n| `$e` | Termo de relação. |\n\nExemplos **hipotéticos**, destinados à leitura dos indicadores:\n\n```text\n110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados.\n710 2# $a Universidade de Brasília.\n```\n\nO primeiro exemplo só será entrada principal se a responsabilidade pela obra justificar 110. O segundo representa um ponto de acesso adicional, e não prova que toda universidade deva ocupar o mesmo campo em qualquer registro. Confira pontuação, forma autorizada e política local antes de reutilizar um exemplo.\n\n### Biblioteca Pedro Aleixo: história e estrutura\n\nA história institucional da Câmara registra pedidos de livros na Assembleia Constituinte de **1823**, como antecedentes da biblioteca, e sua criação efetiva em **1866**. A denominação **Biblioteca Pedro Aleixo** decorre da **Resolução da Câmara nº 104/1984**. A instalação do Parlamento em 1826 não comprova que a biblioteca tenha sido criada naquele ano; não cabe afirmar um bicentenário bibliotecário em 2026 a partir dessa associação.\n\nA Biblioteca integra o **Centro de Documentação e Informação (Cedi)**. No organograma de abril de 2026 publicado pela Câmara, o Cedi está vinculado à **Diretoria-Geral**. A criação do Cedi em 1971 e sua vinculação histórica não dispensam consultar o organograma aplicável à data da questão. Evite misturar estrutura de épocas diferentes.\n\nNo apoio parlamentar, o serviço informacional fornece pesquisa bibliográfica, acesso a fontes, organização e preservação de acervos e produtos para subsidiar a atividade legislativa e a administração. Bibliotecário não substitui a competência de consultoria legislativa, do relator ou do órgão jurídico.\n\n**Caso resolvido:** uma nota histórica menciona a Diretoria Legislativa em 1971; uma questão pergunta a estrutura de 2026. A resposta deve apoiar-se na estrutura de 2026, sem reescrever o fato histórico como se estivesse incorreto na sua época. Data da fonte e data do fato precisam permanecer separadas.\n\n### BDCam, cooperação e memória parlamentar\n\nA **BDCam**, Biblioteca Digital da Câmara dos Deputados, disponibiliza coleções institucionais em ambiente DSpace. Consultar registros, arquivos, fontes de direitos e coleções ajuda a distinguir publicação institucional, estudo técnico e obra histórica digitalizada. O catálogo e o repositório cumprem funções relacionadas, mas um registro catalográfico não garante texto integral disponível.\n\nA **RVBI** é uma rede cooperativa coordenada pelo **Senado Federal**; a Câmara participa como biblioteca cooperante. Reúne instituições de diferentes Poderes e do Distrito Federal. A participação não deve ser deduzida apenas da relevância jurídica de um órgão. Por exemplo, a relação institucional consultada inclui STF, STJ, STM, TST e TJDFT, mas isso não autoriza acrescentar automaticamente o TCU. A lista oficial é a referência para conferir integrantes e alterações.\n\nA catalogação cooperativa e o controle de autoridades reduzem retrabalho, mas exigem aplicação das políticas de descrição e representação temática da rede. Copiar um registro sem verificar edição, manifestação, identificadores e consistência local pode disseminar erros.\n\nSistemas de tramitação legislativa respondem a perguntas sobre andamento, versões, pareceres e decisões. Repositórios oferecem objetos e metadados; catálogos localizam recursos; redes compartilham processamento e recuperação. Nenhum deles garante sozinho a rastreabilidade integral de toda a produção da Casa.\n\n**Exemplo de pesquisa integrada:** para estudar uma lei, identifique a norma e a versão temporal; consulte a tramitação e os pareceres; localize estudos técnicos e bibliografia; registre os limites da busca e os direitos dos arquivos reutilizados. A preservação de obras raras requer critérios de seleção, conservação e acesso; digitalizar não torna dispensável conservar o original.",
 
-## Introdução e Relevância para o Concurso da Câmara dos Deputados
-
-Para o concurso de **Bibliotecário da Câmara dos Deputados** (Banca Cebraspe), o domínio sobre a **organização do Estado brasileiro**, as **competências dos órgãos federais e estaduais** e sua **representação descritiva nos catálogos bibliográficos (AACR2r, RDA e MARC 21)** constitui uma das zonas de maior incidência e diferenciação na prova.
-
-Além disso, a banca exige conhecimento institucional íntimo sobre a **Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo)**: sua história secular (desde o Império em 1826), seu papel no apoio ao processo legislativo, sua inserção no **Centro de Documentação e Informação (CEDI)**, seus repositórios (**BDCam** sobre software DSpace), suas publicações (**Edições Câmara**) e sua cooperação na **Rede Virtual de Bibliotecas (RVBI)**.
-
-\`\`\`tree
-TITLE: Organização do Estado Brasileiro (CF/88)
-- Estado Brasileiro (CF/88) | Estrutura Constitucional da República Federativa do Brasil
-  - Poder Legislativo | Modelo bicameral no plano federal (CF, art. 44)
-    - Congresso Nacional | Bicameralismo: Câmara dos Deputados e Senado Federal
-      - Câmara dos Deputados | 513 Deputados Federais — Representantes do Povo
-        - Centro de Documentação e Informação (CEDI) | Órgão de apoio informacional e patrimonial
-          - Coordenação de Biblioteca (Pedro Aleixo) | Criada em 1826 — Apoio direto ao processo legislativo
-            - BDCam / DSpace | Repositório institucional e memória parlamentar
-            - RVBI | Rede Virtual de Bibliotecas (cooperação interinstitucional)
-      - Senado Federal | 81 Senadores — Representantes dos Estados e DF
-  - Poder Judiciário | Estrutura taxativa de jurisdição (CF, art. 92)
-    - STF | Supremo Tribunal Federal — Guarda precípua da Constituição (11 ministros)
-    - STJ | Superior Tribunal de Justiça — Guardião da lei federal infraconstitucional (33 ministros)
-    - TRFs e Juízes Federais | Justiça Federal comum (6 Regiões: TRF1 a TRF6)
-    - TJs Estaduais e TJDFT | Justiça comum residual dos Estados e do DF
-    - CNJ | Conselho Nacional de Justiça — Controle administrativo e financeiro
-  - Poder Executivo | Chefiado pelo Presidente da República auxiliado pelos Ministros de Estado
-  - Tribunais de Contas | Controle externo exercido com auxílio do Poder Legislativo (art. 71)
-    - TCU | Tribunal de Contas da União
-    - TCEs | Tribunais de Contas dos Estados
-    - TCDF e TCMs | DF e Tribunais de Contas Municipais (SP e Rio de Janeiro)
-  - Funções Essenciais à Justiça | Advocacia e tutela da ordem jurídica
-    - Ministério Público | MPU (Federal, Trabalho, Militar, DF) e MPEs
-    - Defensoria Pública | DPU (União) e DPEs (Estados) — Acesso gratuito à justiça
-    - Advocacia Pública | AGU (União) e PGEs/PGMs (Estados e Municípios)
-\`\`\`
-
----
-
-## 1. Estrutura Constitucional dos Poderes e Órgãos no Brasil (CF/88)
-
-### 1.1 O Poder Legislativo
-No plano federal, o Poder Legislativo adota o modelo **bicameral** (CF/88, art. 44), exercido pelo **Congresso Nacional**, que se compõe de duas casas:
-1. **Câmara dos Deputados**: Representa o **povo brasileiro**. É composta por **513 deputados federais**, eleitos pelo sistema eleitoral proporcional em cada Estado, no Distrito Federal e nos Territórios, com mandato de 4 anos. Possui competências privativas fundamentais (CF/88, art. 51), como autorizar a instauração de processo de impeachment contra o Presidente da República e elaborar seu regimento interno.
-2. **Senado Federal**: Representa os **Estados federados e o Distrito Federal**. Compõe-se de **81 senadores** (3 senadores por unidade federativa, eleitos pelo sistema majoritário), com mandato de 8 anos e renovação alternada de 1/3 e 2/3 a cada 4 anos. Possui competências privativas (CF/88, art. 52), como julgar o Presidente nos crimes de responsabilidade e aprovar a escolha de ministros do STF, tribunais superiores e chefes de missão diplomática.
-
-No plano estadual e distrital, o Poder Legislativo é **unicameral**:
-- **Assembleias Legislativas dos Estados (ALs)**: compostas por deputados estaduais.
-- **Câmara Legislativa do Distrito Federal (CLDF)**: composta por deputados distritais (acumula competências estaduais e municipais).
-- **Câmaras Municipais**: compostas por vereadores (plano municipal).
-
-### 1.2 O Poder Judiciário (CF/88, arts. 92 a 126)
-O rol de órgãos do Poder Judiciário é expressamente taxativo (art. 92):
-1. **STF (Supremo Tribunal Federal)**: Órgão de cúpula máxima do Poder Judiciário, responsável pela guarda precípua da Constituição (art. 102). Composto por 11 ministros cidadãos brasileiros natos, nomeados pelo Presidente após sabatina do Senado. Julga ações diretas de inconstitucionalidade (ADI), ações declaratórias de constitucionalidade (ADC), arguições de descumprimento de preceito fundamental (ADPF) e recursos extraordinários (RE).
-2. **STJ (Superior Tribunal de Justiça)**: Órgão de cúpula da jurisdição federal e estadual comum infraconstitucional (art. 104 e 105). Guardião da legislação federal ordinária e uniformizador da jurisprudência federal. Composto por no mínimo 33 ministros. Julga em última instância o Recurso Especial (REsp).
-3. **TRFs (Tribunais Regionais Federais) e Juízes Federais**: Integram a Justiça Federal comum. Atualmente divididos em 6 regiões (TRF1 a TRF6). Julgam causas em que a União, suas autarquias e empresas públicas federais forem autoras, rés, assistentes ou oponentes (art. 109).
-4. **TJs (Tribunais de Justiça dos Estados) e Juízes de Direito**: Exercem a jurisdição estadual residual (tudo o que não for privativo da Justiça Federal ou das Justiças Especializadas). O **TJDFT** (Tribunal de Justiça do DF e dos Territórios) é mantido e organizado pela União (art. 21, XIII), mas exerce competência de tribunal local/estadual.
-5. **Justiças Especializadas**:
-   - **Justiça do Trabalho**: TST (Tribunal Superior do Trabalho), TRTs (Tribunais Regionais do Trabalho) e Varas do Trabalho.
-   - **Justiça Eleitoral**: TSE (Tribunal Superior Eleitoral), TREs (Tribunais Regionais Eleitorais), Juízes e Juntas Eleitorais.
-   - **Justiça Militar**: STM (Superior Tribunal Militar) e Auditorias Militares.
-6. **CNJ (Conselho Nacional de Justiça)**: Criado pela Emenda Constitucional nº 45/2004 (art. 103-B). É órgão de cúpula administrativa e financeira do Judiciário. **ATENÇÃO PARA O CEBRASPE**: O CNJ *não exerce função jurisdicional contenciosa*; ele não julga litígios judiciais nem pode rever o mérito de sentenças ou acórdãos judiciais.
-
-### 1.3 Os Tribunais de Contas (CF/88, arts. 70 a 75)
-- **TCU (Tribunal de Contas da União)**: Órgão colegiado que auxilia o Congresso Nacional no exercício do controle externo contábil, financeiro, orçamentário, operacional e patrimonial da União e das entidades da administração direta e indireta.
-  - **NÃO integra o Poder Judiciário** nem profere sentenças judiciais transitadas em julgado.
-  - **NÃO é subordinado ao Poder Legislativo**: possui autonomia institucional, funcional, orçamentária e administrativa garantida pela CF/88.
-  - Suas decisões que resultem em imputação de débito ou multa têm eficácia de **título executivo extrajudicial** (art. 71, § 3º).
-- **TCEs (Tribunais de Contas dos Estados)**: Auxiliam as Assembleias Legislativas no controle externo estadual e municipal.
-- **TCDF (Tribunal de Contas do Distrito Federal)**: Auxilia a CLDF no controle distrital.
-- **TCMs (Tribunais de Contas dos Municípios)**: Existem tribunais de contas para municípios no plano estadual (TCM-PA, TCM-GO, TCM-BA) e órgãos municipais exclusivos apenas em **São Paulo** e no **Rio de Janeiro** (mantidos por terem sido criados antes da CF/88, já que o art. 31, § 4º da Carta veda a criação de novos tribunais de contas municipais).
-
-### 1.4 As Funções Essenciais à Justiça (CF/88, arts. 127 a 135)
-Órgãos e instituições que viabilizam a realização do Direito, mas **não integram nenhum dos três Poderes**:
-1. **Ministério Público (MP)**: Instituição permanente, essencial à função jurisdicional, defensora da ordem jurídica, do regime democrático e dos interesses sociais e indisponíveis (art. 127). Possui autonomia funcional e orçamentária.
-   - **MPU (Ministério Público da União)**: compreende o MPF (Ministério Público Federal, chefiado pelo PGR), o MPT (Trabalho), o MPM (Militar) e o MPDFT (DF e Territórios).
-   - **MPEs (Ministérios Públicos dos Estados)**: MPSP, MPRJ, MPMG, etc., chefiados pelos respectivos Procuradores-Gerais de Justiça (PGJ).
-2. **Defensoria Pública**: Presta orientação jurídica e promove a defesa integral e gratuita dos necessitados (art. 134). Composta pela DPU (União) e pelas DPEs (Estados e DF).
-3. **Advocacia Pública**: Defende os interesses patrimoniais e a juridicidade dos entes federados: Advocacia-Geral da União (AGU), Procuradorias-Gerais dos Estados (PGEs) e Municípios (PGMs).
-
----
-
-## 2. Catalogação Governamental segundo AACR2r e RDA (Pontos de Acesso e MARC 21)
-
-### 2.1 A Dicotomia Fundamental: Entrada sob Jurisdição vs. Entrada Direta
-O Capítulo 24 do AACR2r (*Cabeçalhos para Entidades Coletivas*) e o Capítulo 11 do RDA (*Identificação de Agentes Coletivos*) estabelecem que uma entidade governamental pode ter seu ponto de acesso autorizado construído de duas formas fundamentais:
-
-1. **Entrada sob a Jurisdição Territorial (Subordinada ao Governo)**:
-   - Aplica-se a órgãos que exercem funções básicas, típicas e indelegáveis de soberania estatal (poder legislativo, poder judiciário, órgãos de cúpula executiva, tribunais de contas e forças armadas).
-   - Estrutura: \`Nome da Jurisdição Geográfica. Nome do Órgão.\`
-   - Exemplos:
-     - \`Brasil. Congresso Nacional.\`
-     - \`Brasil. Supremo Tribunal Federal.\`
-     - \`Brasil. Tribunal de Contas da União.\`
-     - \`Brasil. Ministério Público da União.\`
-     - \`São Paulo (Estado). Tribunal de Justiça.\`
-     - \`Minas Gerais. Tribunal de Contas.\`
-     - \`Distrito Federal (Brasil). Câmara Legislativa.\`
-
-2. **Entrada Direta pelo Nome da Própria Entidade (NÃO subordinada à Jurisdição)**:
-   - Aplica-se a entidades que, embora criadas pelo poder público e integrando a administração indireta, possuem personalidade jurídica própria e nome institucional distintivo, dedicando-se a atividades de ensino, pesquisa, serviços industriais ou comerciais.
-   - Exemplos:
-     - \`Universidade de Brasília.\` (e NUNCA \`Brasil. Universidade de Brasília.\`)
-     - \`Universidade de São Paulo.\`
-     - \`Petróleo Brasileiro.\`
-     - \`Empresa Brasileira de Correios e Telégrafos.\`
-     - \`Fundação Oswaldo Cruz.\`
-     - \`Instituto Brasileiro de Geografia e Estatística.\`
-
-\`\`\`decision
-START: Entidade Pública a Catalogar | Análise segundo regras de subordinação do AACR2 e MARC 21
-QUESTION: Exerce função básica de soberania ou enquadra-se no AACR2 24.18?
-YES: Entrada sob Jurisdição Geográfica | Órgãos de cúpula, Judiciário, Legislativo e Ministérios
-NO: Entrada Direta sob o próprio Nome | Universidades, Empresas Públicas e Autarquias Científicas
-YES_RESULT: 110 1# $a Brasil. $b Congresso Nacional. | 1º Indicador = 1 (Jurisdição territorial)
-NO_RESULT: 110 2# $a Universidade de Brasília. | 1º Indicador = 2 (Nome direto da entidade)
-\`\`\`
-
----
-
-### 2.2 Os 11 Tipos do AACR2 24.18 (Subordinação Governamental Obrigatória)
-A regra **24.18** é o dispositivo que determina quando uma entidade de governo DEVE ser registrada como cabeçalho subordinado ao nome da jurisdição territorial. Os 11 tipos canônicos são:
-
-| Tipo AACR2 | Definição Normativa | Exemplo de Ponto de Acesso Autorizado |
-| :--- | :--- | :--- |
-| **Tipo 1** | Nome com termo que indica subordinação (departamento, divisão, seção) | \`Brasil. Departamento de Polícia Federal.\` |
-| **Tipo 2** | Nome com termo que sugere administração subordinada (diretoria, serviço) | \`Brasil. Diretoria de Hidrografia e Navegação.\` |
-| **Tipo 3** | Nome de caráter descritivo geral comum a outras entidades governamentais | \`Brasil. Comissão Nacional de Energia Nuclear.\` |
-| **Tipo 4** | Ministério, secretaria de estado ou repartição pública equivalente | \`Brasil. Ministério da Educação.\` / \`São Paulo (Estado). Secretaria da Fazenda.\` |
-| **Tipo 5** | Órgão que é a cúpula do Poder Legislativo | \`Brasil. Congresso Nacional.\` / \`Paraná. Assembleia Legislativa.\` |
-| **Tipo 6** | Tribunal ou corte judicial | \`Brasil. Supremo Tribunal Federal.\` / \`Rio de Janeiro (Estado). Tribunal de Justiça.\` |
-| **Tipo 7** | Força armada (exército, marinha, aeronáutica) | \`Brasil. Exército.\` / \`Brasil. Marinha.\` |
-| **Tipo 8** | Chefe de Estado ou chefe de governo (com período e nome do titular) | \`Brasil. Presidente (2023- : Lula).\` |
-| **Tipo 9** | Embaixada, consulado ou legação diplomática | \`Brasil. Embaixada (França).\` |
-| **Tipo 10** | Delegação oficial junto a organismo internacional | \`Brasil. Delegação (UNESCO).\` |
-| **Tipo 11** | Órgão legislativo subordinado a outro | \`Brasil. Congresso Nacional. Câmara dos Deputados.\` |
-
----
-
-### 2.3 Regras de Subordinação Direta vs. Indireta (AACR2 24.19)
-A regra **24.19** comanda a simplificação de cabeçalhos por meio da **omissão de órgãos intermediários desnecessários**:
-- **Regra da Omissão**: Quando uma unidade subordinada for claramente identificável pelo nome da jurisdição e seu nome próprio, as unidades administrativas intermediárias NÃO devem constar no cabeçalho.
-  - Correto: \`Brasil. Departamento de Polícia Federal.\` (e não \`Brasil. Ministério da Justiça. Departamento de Polícia Federal.\`).
-- **Exceção da Hierarquia Necessária**: Mantém-se o órgão intermediário quando o nome da subunidade for genérico ou requerer o contexto do órgão pai para evitar ambiguidade.
-  - Para as Casas do Congresso Nacional:
-    - \`Brasil. Congresso Nacional. Câmara dos Deputados.\`
-    - \`Brasil. Congresso Nacional. Senado Federal.\`
-  - Para as Comissões Parlamentares:
-    - \`Brasil. Congresso Nacional. Câmara dos Deputados. Comissão de Constituição e Justiça e de Cidadania.\`
-
----
-
-### 2.4 Codificação no Formato MARC 21 Bibliográfico e de Autoridades
-No padrão MARC 21, o tratamento de nomes de entidades governamentais é codificado nos campos **110** (Entrada Principal - Nome Coletivo) e **710** (Entrada Secundária - Nome Coletivo):
-
-- **Primeiro Indicador**:
-  - \`1\`: **Nome sob jurisdição** (lugar geográfico / governo). Utilizado sempre que a entrada for feita pelo nome do país, estado ou município.
-  - \`2\`: **Nome em ordem direta** (nome da instituição). Utilizado para universidades, estatais e fundações autônomas.
-  - \`0\` (raro): Nome invertido por sobrenome.
-- **Segundo Indicador**:
-  - \`#\` (indefinido ou em branco).
-- **Subcampos Principais**:
-  - \`$a\`: Nome da jurisdição ou nome da entidade coletiva em ordem direta (obrigatório, não repetível).
-  - \`$b\`: Unidade subordinada (repetível para cada nível de subordinação hierárquica).
-  - \`$c\`: Local do evento ou sede (quando aplicável).
-  - \`$d\`: Data da reunião, conferência ou tratado.
-  - \`$e\`: Termo de relação (ex.: \`$e relator\`, \`$e editor\`).
-
-#### Exemplos de Aplicação Real em Provas Cebraspe:
-\`\`\`text
-110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados.
-110 1# $a Brasil. $b Supremo Tribunal Federal.
-110 1# $a São Paulo (Estado). $b Tribunal de Justiça.
-110 1# $a Brasil. $b Tribunal de Contas da União.
-110 2# $a Universidade de Brasília.
-110 2# $a Fundação Oswaldo Cruz.
-710 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados. $b Centro de Documentação e Informação. $b Coordenação de Biblioteca.
-\`\`\`
-
----
-
-## 3. A Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo)
-
-### 3.1 Origem Histórica e Trajetória Secular (1826 a 2026)
-A história da Biblioteca da Câmara dos Deputados confunde-se com a própria história do Parlamento brasileiro:
-- **1826 (Império)**: Criada na cidade do Rio de Janeiro com a instalação da primeira Assembleia Geral Legislativa do Império do Brasil, tendo como primeira sede o histórico Palácio da Cadeia Velha (posteriormente reconstruído como Palácio Tiradentes). Inicialmente, o acervo destinava-se a subsidiar os trabalhos constitucionais e as primeiras leis imperiais.
-- **1960 (Mudança da Capital)**: Com a inauguração de Brasília, em 21 de abril de 1960, a Biblioteca transferiu seu valioso acervo para a nova capital da República, instalando-se no complexo arquitetônico do Palácio do Congresso Nacional, no Anexo II da Câmara dos Deputados.
-- **1984 (O Patrono Pedro Aleixo)**: Por meio da **Resolução da Mesa nº 25 de 1984**, a Biblioteca da Câmara recebeu a denominação oficial de **Biblioteca Pedro Aleixo**, em homenagem à memória do jurista mineiro, deputado federal, presidente da Câmara e vice-presidente civil da República Pedro Aleixo (1901-1975), notabilizado pela intransigente defesa da legalidade democrática.
-- **Bicentenário (1826–2026)**: A Biblioteca Pedro Aleixo completa 200 anos de existência contínua como baluarte da memória bibliográfica, política e jurídica brasileira.
-
----
-
-### 3.2 Inserção Estrutural na Câmara dos Deputados
-A Biblioteca está inserida no nível estratégico de apoio à gestão da informação:
-- Subordinada diretamente ao **CEDI (Centro de Documentação e Informação)**.
-- O CEDI é órgão da **Diretoria-Geral (DG)** da Câmara dos Deputados.
-- Unidades irmãs dentro do CEDI:
-  - **Coordenação de Biblioteca (Cobib)**: gestão técnica do acervo, atendimento, referência legislativa e processamento técnico.
-  - **Coordenação de Arquivo (Coarq)**: guarda, tratamento e preservação dos documentos arquivísticos e históricos do processo legislativo.
-  - **Coordenação de Publicações / Edições Câmara**: selo editorial responsável por editar e difundir publicações de interesse cívico, histórico, parlamentar e legislativo.
-  - **Centro Cultural e Museu da Câmara**: preservação e difusão do patrimônio artístico, museológico e cultural da instituição.
-
-\`\`\`tree
-TITLE: Estrutura Administrativa e Serviços — CEDI / Câmara dos Deputados
-- Mesa Diretora da Câmara dos Deputados | Órgão diretor colegiado supremo
-  - Diretoria-Geral (DG) | Gestão executiva administrativa da Casa
-    - Centro de Documentação e Informação (CEDI) | Preservação, difusão e memória institucional
-      - Coordenação de Biblioteca (Cobib - Pedro Aleixo) | Atendimento legislativo e processamento técnico
-        - Atendimento ao Parlamentar & Comissões | Pesquisa jurídica, referência e apoio imediato
-        - Apoio à Conle & Conof | Consultoria Legislativa e de Orçamento da Câmara
-        - BDCam (DSpace) | Biblioteca Digital com livre acesso à memória parlamentar
-        - RVBI (Rede Virtual de Bibliotecas) | Catalogação cooperativa e base unificada
-        - Acervo de Obras Raras | Coleções especiais e patrimônio bibliográfico
-      - Coordenação de Arquivo (Coarq) | Arquivo Histórico e documentos do processo legislativo
-      - Coordenação de Publicações (Edições Câmara) | Selo editorial de obras cívicas e parlamentares
-      - Centro Cultural e Museu da Câmara | Patrimônio artístico, museológico e exposições
-\`\`\`
-
----
-
-### 3.3 Missão e Atendimento Prioritário ao Processo Legislativo
-A Biblioteca Pedro Aleixo é uma **biblioteca parlamentar especializada**, com missões e públicos prioritários bem delineados:
-1. **Público Prioritário**:
-   - Deputados Federais e suas assessorias parlamentares.
-   - Comissões Permanentes, Especiais e Parlamentares de Inquérito (CPIs).
-   - **Conle (Consultoria Legislativa)**: elaboração de minutas de proposições, estudos doutrinários e notas técnicas.
-   - **Conof (Consultoria de Orçamento e Fiscalização Financeira)**: subsídios para a apreciação da LOA, LDO e PPA.
-   - Mesa Diretora e órgãos administrativos da Casa.
-2. **Atendimento Público e Pesquisadores**:
-   - Aberta à sociedade civil, pesquisadores acadêmicos, estudantes e cidadãos em geral, democratizando o acesso às fontes do Direito e da História política nacional.
-3. **Serviços de Destaque**:
-   - Pesquisa legislativa e doutrinária sob demanda.
-   - Levantamentos temáticos e bibliografias selecionadas para subsidiar o debate em plenário.
-   - Disseminação Seletiva da Informação (DSI) para comissões e gabinetes.
-   - Preservação e digitalização de obras raras.
-
----
-
-### 3.4 Repositórios, Sistemas e Redes Cooperativas
-
-#### A) A Biblioteca Digital da Câmara dos Deputados (BDCam)
-- **Natureza**: Repositório institucional digital da Câmara dos Deputados, alinhado ao movimento internacional de **Acesso Aberto (Open Access)**.
-- **Plataforma Tecnológica**: Desenvolvido e mantido sobre o software livre **DSpace**.
-- **Conteúdo Disponibilizado**:
-  - Coleção de **Obras Raras** digitalizadas (incluindo Constituições históricas, relatórios de províncias e leis do Império).
-  - Estudos técnicos e notas produzidas pela Consultoria Legislativa (Conle) e Consultoria de Orçamento (Conof).
-  - Discursos parlamentares históricos e anais da Câmara dos Deputados.
-  - Livros e pesquisas publicados pelo selo **Edições Câmara**.
-  - Documentos institucionais e relatórios de gestão.
-- **Padrões de Metadados e Protocolos**: Utiliza metadados **Dublin Core qualificado** e suporta o protocolo **OAI-PMH** (Open Archives Initiative Protocol for Metadata Harvesting), permitindo a coleta e interoperabilidade com outros repositórios mundiais.
-
-#### B) A Rede Virtual de Bibliotecas (RVBI)
-- **Histórico**: Sucessora da antiga rede SABI (Sistema de Automação de Bibliotecas), criada nos anos 1970.
-- **Composição**: Rede cooperativa de bibliotecas que congrega unidades de informação do Poder Legislativo (Senado Federal e Câmara dos Deputados), do Poder Judiciário (STF, STJ, TST, STM, TJDFT), do Tribunal de Contas da União (TCU) e de órgãos do Poder Executivo federal.
-- **Coordenação**: **ATENÇÃO EXTREMA**: A coordenação geral da RVBI é de responsabilidade da **Secretaria de Biblioteca e Arquivo do SENADO FEDERAL**, e não da Câmara dos Deputados. A Câmara dos Deputados é membro cooperante fundamental da rede.
-- **Catálogo Coletivo e VCB**: Utiliza base de dados compartilhada para catalogação cooperativa de monografias, periódicos e artigos de doutrina jurídica, com controle terminológico padronizado por meio do **Vocabulário Controlado Básico (VCB)**.
-
-#### C) O Sistema de Informações Legislativas (SILEG)
-- Sistema corporativo que integra os dados de tramitação de proposições legislativas, textos de projetos de lei, emendas, pareceres de comissões, relatórios e a legislação federal referenciada, permitindo a rastreabilidade integral de toda a produção normativa da Casa.
-
-#### D) O Acervo de Obras Raras e Coleções Especiais
-- A Biblioteca Pedro Aleixo custodia uma das mais expressivas coleções de obras raras jurídicas e políticas da América Latina, abrangendo:
-  - Exemplares impressos dos séculos XVI ao XIX.
-  - A coleção completa dos **Anais do Parlamento Brasileiro** (desde o Império).
-  - Obras autografadas por grandes estadistas e juristas (Rui Barbosa, Joaquim Nabuco, Afonso Arinos).
-  - Tratados diplomáticos e mapas cartográficos históricos.
-`,
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-2-5-bloco-1",
+    "titulo": "Poderes, representação e jurisdição",
+    "objetivos": [
+      "Distinguir composição, função típica e limites das competências constitucionais."
+    ],
+    "conteudo": "### O Poder Legislativo\nNo plano federal, o Poder Legislativo adota o modelo **bicameral** (CF/88, art. 44), exercido pelo **Congresso Nacional**, que se compõe de duas casas:\n1. **Câmara dos Deputados**: Representa o **povo brasileiro**. Na legislatura em curso em 2026, possui **513 deputados federais**, eleitos pelo sistema eleitoral proporcional em cada Estado, no Distrito Federal e nos Territórios, com mandato de 4 anos. Possui competências privativas fundamentais (CF/88, art. 51), como autorizar a instauração de processo de impeachment contra o Presidente da República e elaborar seu regimento interno.\n2. **Senado Federal**: Representa os **Estados federados e o Distrito Federal**. Compõe-se de **81 senadores** (3 senadores por unidade federativa, eleitos pelo sistema majoritário), com mandato de 8 anos e renovação alternada de 1/3 e 2/3 a cada 4 anos. Possui competências privativas (CF/88, art. 52), como julgar o Presidente nos crimes de responsabilidade e aprovar a escolha de ministros do STF, tribunais superiores e chefes de missão diplomática.\n\nNo plano estadual e distrital, o Poder Legislativo é **unicameral**:\n- **Assembleias Legislativas dos Estados (ALs)**: compostas por deputados estaduais.\n- **Câmara Legislativa do Distrito Federal (CLDF)**: composta por deputados distritais (acumula competências estaduais e municipais).\n- **Câmaras Municipais**: compostas por vereadores (plano municipal).\n\n### 1.2 O Poder Judiciário (CF/88, arts. 92 a 126)\nO rol de órgãos do Poder Judiciário é expressamente taxativo (art. 92):\n1. **STF (Supremo Tribunal Federal)**: Órgão de cúpula máxima do Poder Judiciário, responsável pela guarda precípua da Constituição (art. 102). Composto por 11 ministros cidadãos brasileiros natos, nomeados pelo Presidente após sabatina do Senado. Julga ações diretas de inconstitucionalidade (ADI), ações declaratórias de constitucionalidade (ADC), arguições de descumprimento de preceito fundamental (ADPF) e recursos extraordinários (RE).\n2. **STJ (Superior Tribunal de Justiça)**: Órgão de cúpula da jurisdição federal e estadual comum infraconstitucional (art. 104 e 105). Guardião da legislação federal ordinária e uniformizador da jurisprudência federal. Composto por no mínimo 33 ministros. Julga em última instância o Recurso Especial (REsp).\n3. **TRFs (Tribunais Regionais Federais) e Juízes Federais**: Integram a Justiça Federal comum. Atualmente divididos em 6 regiões (TRF1 a TRF6). Julgam causas em que a União, suas autarquias e empresas públicas federais forem autoras, rés, assistentes ou oponentes (art. 109).\n4. **TJs (Tribunais de Justiça dos Estados) e Juízes de Direito**: Exercem a jurisdição estadual residual (tudo o que não for privativo da Justiça Federal ou das Justiças Especializadas). O **TJDFT** (Tribunal de Justiça do DF e dos Territórios) é mantido e organizado pela União (art. 21, XIII), mas exerce competência de tribunal local/estadual.\n5. **Justiças Especializadas**:\n   - **Justiça do Trabalho**: TST (Tribunal Superior do Trabalho), TRTs (Tribunais Regionais do Trabalho) e Varas do Trabalho.\n   - **Justiça Eleitoral**: TSE (Tribunal Superior Eleitoral), TREs (Tribunais Regionais Eleitorais), Juízes e Juntas Eleitorais.\n   - **Justiça Militar**: STM (Superior Tribunal Militar) e Auditorias Militares.\n6. **CNJ (Conselho Nacional de Justiça)**: Criado pela Emenda Constitucional nº 45/2004 (art. 103-B). É órgão de cúpula administrativa e financeira do Judiciário. **ATENÇÃO PARA O CEBRASPE**: O CNJ *não exerce função jurisdicional contenciosa*; ele não julga litígios judiciais nem pode rever o mérito de sentenças ou acórdãos judiciais.\n\n\n\n**Aplicação:** um relatório do CNJ é documento de órgão do Judiciário, mas isso não o transforma em sentença. Classifique o produtor e a função do documento separadamente.",
+    "checkpointIds": [
+      "rt-2-5-1"
+    ]
+  },
+  {
+    "id": "sub-2-5-bloco-2",
+    "titulo": "Controle externo e funções essenciais à Justiça",
+    "objetivos": [
+      "Diferenciar auxílio, subordinação e exercício de jurisdição."
+    ],
+    "conteudo": "### Tribunais de Contas (CF/88, arts. 70 a 75)\n- **TCU (Tribunal de Contas da União)**: Órgão colegiado que auxilia o Congresso Nacional no exercício do controle externo contábil, financeiro, orçamentário, operacional e patrimonial da União e das entidades da administração direta e indireta.\n  - **NÃO integra o Poder Judiciário** nem profere sentenças judiciais transitadas em julgado.\n  - **NÃO é subordinado ao Poder Legislativo**: possui autonomia institucional, funcional, orçamentária e administrativa garantida pela CF/88.\n  - Suas decisões que resultem em imputação de débito ou multa têm eficácia de **título executivo extrajudicial** (art. 71, § 3º).\n- **TCEs (Tribunais de Contas dos Estados)**: Auxiliam as Assembleias Legislativas no controle externo estadual e municipal.\n- **TCDF (Tribunal de Contas do Distrito Federal)**: Auxilia a CLDF no controle distrital.\n- **TCMs (Tribunais de Contas dos Municípios)**: Existem tribunais de contas para municípios no plano estadual (TCM-PA, TCM-GO, TCM-BA) e órgãos municipais exclusivos apenas em **São Paulo** e no **Rio de Janeiro** (mantidos por terem sido criados antes da CF/88, já que o art. 31, § 4º da Carta veda a criação de novos tribunais de contas municipais).\n\n### 1.4 As Funções Essenciais à Justiça (CF/88, arts. 127 a 135)\nInstituições e atividades essenciais à Justiça, que **não se confundem com órgãos do Judiciário**. Não se pode afirmar que todas estejam fora dos três Poderes: a AGU integra o Executivo federal:\n1. **Ministério Público (MP)**: Instituição permanente, essencial à função jurisdicional, defensora da ordem jurídica, do regime democrático e dos interesses sociais e indisponíveis (art. 127). Possui autonomia funcional e orçamentária.\n   - **MPU (Ministério Público da União)**: compreende o MPF (Ministério Público Federal, chefiado pelo PGR), o MPT (Trabalho), o MPM (Militar) e o MPDFT (DF e Territórios).\n   - **MPEs (Ministérios Públicos dos Estados)**: MPSP, MPRJ, MPMG, etc., chefiados pelos respectivos Procuradores-Gerais de Justiça (PGJ).\n2. **Defensoria Pública**: Presta orientação jurídica e promove a defesa integral e gratuita dos necessitados (art. 134). Composta pela DPU (União) e pelas DPEs (Estados e DF).\n3. **Advocacia Pública**: Defende os interesses patrimoniais e a juridicidade dos entes federados: Advocacia-Geral da União (AGU), Procuradorias-Gerais dos Estados (PGEs) e Municípios (PGMs).\n\n---\n\n\n\n**Aplicação:** multa do TCU com eficácia de título executivo não equivale a sentença judicial. Verifique o órgão, a competência e o efeito jurídico antes de construir o ponto de acesso.",
+    "checkpointIds": [
+      "cp-2-5-1",
+      "rt-2-5-2"
+    ]
+  },
+  {
+    "id": "sub-2-5-bloco-3",
+    "titulo": "Entrada direta e entrada subordinada",
+    "objetivos": [
+      "Aplicar a regra catalográfica ao nome, sem derivá-la apenas da natureza jurídica."
+    ],
+    "conteudo": "O AACR2r trata entidades governamentais em 24.17 e seguintes. A entrada direta pelo nome é a regra de partida, sujeita aos tipos de subordinação de 24.18 e às disposições específicas. Não é suficiente separar entidades entre “soberanas” e “não soberanas”, nem entre órgãos e autarquias.\n\n**Roteiro de decisão:** identifique a entidade real e seu nome; consulte a fonte de autoridade; verifique se o nome e a natureza se enquadram nos tipos da regra; aplique as regras de hierarquia; registre as variantes e as fontes consultadas. A identidade da entidade deve persistir mesmo quando o seu nome muda.\n\nUma universidade pública de nome distintivo pode ter entrada direta. A justificativa é catalográfica, e não simplesmente possuir personalidade jurídica. Uma repartição administrativa com nome genérico pode exigir subordinação. Nomes escolhidos para exemplificação não constituem prova de que um catálogo específico adote aquela forma.\n\nNo **Original RDA**, referências ao capítulo 11 pertencem àquela organização do texto. O RDA atual reorganizou seus elementos; indique a versão e o perfil de aplicação. Não transporte automaticamente os onze tipos numerados do AACR2r para qualquer versão do RDA.\n\n**Contraste resolvido:** “Toda entidade pública entra por Brasil” falha por universalização. “Toda autarquia entra diretamente” também. Ambas substituem as condições da regra por uma característica administrativa insuficiente.",
+    "checkpointIds": [
+      "cp-2-5-2",
+      "rt-2-5-3"
+    ]
+  },
+  {
+    "id": "sub-2-5-bloco-4",
+    "titulo": "Os onze tipos de 24.18A",
+    "objetivos": [
+      "Reconhecer a numeração e as condições dos tipos de subordinação governamental."
+    ],
+    "conteudo": "A enumeração a seguir é uma síntese didática da regra, não uma transcrição do código. As condições fazem parte da decisão:\n\n| Tipo | Situação abrangida |\n|---|---|\n| 1 | Nome com termo que exprime ser parte de outra entidade, como departamento, divisão ou seção. |\n| 2 | Nome com termo normalmente indicativo de subordinação administrativa, como comissão, quando a identificação necessita do nome do governo. |\n| 3 | Nome geral ou composto apenas de designações geográficas, cronológicas, numéricas ou alfabéticas. |\n| 4 | Nome que não transmite a ideia de entidade coletiva e não contém o nome do governo. |\n| 5 | Ministério ou órgão executivo semelhante que, pelas publicações oficiais, não tenha outra repartição acima de si. |\n| 6 | Corpos legislativos. |\n| 7 | Tribunais. |\n| 8 | Principais ramos das forças armadas. |\n| 9 | Chefes de Estado ou de governo. |\n| 10 | Embaixadas e consulados. |\n| 11 | Delegações junto a organizações internacionais ou intergovernamentais. |\n\n**Como raciocinar:** o tipo 2 exige verificar a necessidade de identificação; não basta localizar a palavra “comissão”. No tipo 4, teste se o nome comunica a existência de uma entidade e se contém o governo. Os tipos 6 a 11 dependem da natureza funcional expressamente tratada.\n\n**Erro a evitar:** inserir “órgão legislativo subordinado” como tipo 11 apagaria o verdadeiro tipo das delegações. A hierarquia entre casas legislativas é tratada nas regras próprias, incluindo 24.21.",
+    "checkpointIds": [
+      "rt-2-5-4"
+    ]
+  },
+  {
+    "id": "sub-2-5-bloco-5",
+    "titulo": "Hierarquia e desambiguação",
+    "objetivos": [
+      "Selecionar os níveis necessários em vez de copiar integralmente o organograma."
+    ],
+    "conteudo": "A regra 24.19 prevê, em princípio, a entrada da unidade subordinada diretamente sob o governo. Se seu nome for usado, ou puder ser usado, por outra repartição do mesmo governo, acrescente o nível intermediário mais baixo necessário para distingui-la. O código também prevê remissiva quando a unidade imediatamente superior é omitida.\n\nA regra **24.21** trata especificamente de corpos legislativos: em uma legislatura bicameral, a casa é registrada subordinadamente à legislatura. Assim, a representação didática `Brasil. Congresso Nacional. Câmara dos Deputados.` não se explica apenas pela necessidade de copiar a estrutura administrativa, mas por regra específica. A forma exata de um registro de autoridade deve ser conferida no catálogo adotado.\n\n**Caso resolvido:** duas repartições possuem uma “Divisão de Biblioteca”. A jurisdição mais esse nome pode ser ambígua; um nível intermediário identificador pode ser necessário. Isso não obriga a carregar todos os níveis entre a divisão e a autoridade máxima.\n\nMudanças administrativas exigem controle de autoridades e de relacionamentos, sem presumir que toda alteração de chefia tenha criado uma nova entidade. Antes de alterar o cabeçalho, determine se houve mudança de nome, fusão, sucessão ou apenas modificação de vinculação.",
+    "checkpointIds": [
+      "rt-2-5-5"
+    ]
+  },
+  {
+    "id": "sub-2-5-bloco-6",
+    "titulo": "MARC: conteúdo, função e indicadores",
+    "objetivos": [
+      "Diferenciar nome autorizado, função bibliográfica e codificação dos campos."
+    ],
+    "conteudo": "O MARC 21 registra os dados escolhidos pelas regras de conteúdo. No formato bibliográfico, **110** identifica entrada principal de entidade coletiva e **710**, ponto de acesso adicional. A escolha depende da responsabilidade e das regras aplicáveis à obra; não basta que o documento tenha origem governamental. No formato de autoridades, 110 tem a função de cabeçalho estabelecido, e não de entrada principal de uma obra.\n\nO primeiro indicador distingue nome invertido (0), nome sob jurisdição (1) e nome em ordem direta (2). Um nome corporativo que contém qualificador geográfico não se torna, por isso, nome de jurisdição. No **110 bibliográfico**, o segundo indicador é indefinido (#). No **710 bibliográfico**, # significa informação não fornecida e 2 designa entrada analítica.\n\n| Subcampo | Uso no contexto do campo |\n|---|---|\n| `$a` | Nome da entidade ou jurisdição como elemento de entrada. |\n| `$b` | Unidade subordinada, repetível. |\n| `$c` | Local de reunião, quando aplicável; não é um campo genérico de endereço da sede. |\n| `$d` | Data de reunião ou contexto de tratado, conforme as definições do formato. |\n| `$e` | Termo de relação. |\n\nExemplos **hipotéticos**, destinados à leitura dos indicadores:\n\n```text\n110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados.\n710 2# $a Universidade de Brasília.\n```\n\nO primeiro exemplo só será entrada principal se a responsabilidade pela obra justificar 110. O segundo representa um ponto de acesso adicional, e não prova que toda universidade deva ocupar o mesmo campo em qualquer registro. Confira pontuação, forma autorizada e política local antes de reutilizar um exemplo.",
+    "checkpointIds": [
+      "rt-2-5-6"
+    ]
+  },
+  {
+    "id": "sub-2-5-bloco-7",
+    "titulo": "Biblioteca Pedro Aleixo: história e estrutura",
+    "objetivos": [
+      "Distinguir antecedentes, criação efetiva, denominação e estrutura administrativa vigente."
+    ],
+    "conteudo": "A história institucional da Câmara registra pedidos de livros na Assembleia Constituinte de **1823**, como antecedentes da biblioteca, e sua criação efetiva em **1866**. A denominação **Biblioteca Pedro Aleixo** decorre da **Resolução da Câmara nº 104/1984**. A instalação do Parlamento em 1826 não comprova que a biblioteca tenha sido criada naquele ano; não cabe afirmar um bicentenário bibliotecário em 2026 a partir dessa associação.\n\nA Biblioteca integra o **Centro de Documentação e Informação (Cedi)**. No organograma de abril de 2026 publicado pela Câmara, o Cedi está vinculado à **Diretoria-Geral**. A criação do Cedi em 1971 e sua vinculação histórica não dispensam consultar o organograma aplicável à data da questão. Evite misturar estrutura de épocas diferentes.\n\nNo apoio parlamentar, o serviço informacional fornece pesquisa bibliográfica, acesso a fontes, organização e preservação de acervos e produtos para subsidiar a atividade legislativa e a administração. Bibliotecário não substitui a competência de consultoria legislativa, do relator ou do órgão jurídico.\n\n**Caso resolvido:** uma nota histórica menciona a Diretoria Legislativa em 1971; uma questão pergunta a estrutura de 2026. A resposta deve apoiar-se na estrutura de 2026, sem reescrever o fato histórico como se estivesse incorreto na sua época. Data da fonte e data do fato precisam permanecer separadas.",
+    "checkpointIds": [
+      "cp-2-5-3",
+      "rt-2-5-7"
+    ]
+  },
+  {
+    "id": "sub-2-5-bloco-8",
+    "titulo": "BDCam, cooperação e memória parlamentar",
+    "objetivos": [
+      "Relacionar sistemas, acervos e redes sem atribuir funções ou permissões indevidas."
+    ],
+    "conteudo": "A **BDCam**, Biblioteca Digital da Câmara dos Deputados, disponibiliza coleções institucionais em ambiente DSpace. Consultar registros, arquivos, fontes de direitos e coleções ajuda a distinguir publicação institucional, estudo técnico e obra histórica digitalizada. O catálogo e o repositório cumprem funções relacionadas, mas um registro catalográfico não garante texto integral disponível.\n\nA **RVBI** é uma rede cooperativa coordenada pelo **Senado Federal**; a Câmara participa como biblioteca cooperante. Reúne instituições de diferentes Poderes e do Distrito Federal. A participação não deve ser deduzida apenas da relevância jurídica de um órgão. Por exemplo, a relação institucional consultada inclui STF, STJ, STM, TST e TJDFT, mas isso não autoriza acrescentar automaticamente o TCU. A lista oficial é a referência para conferir integrantes e alterações.\n\nA catalogação cooperativa e o controle de autoridades reduzem retrabalho, mas exigem aplicação das políticas de descrição e representação temática da rede. Copiar um registro sem verificar edição, manifestação, identificadores e consistência local pode disseminar erros.\n\nSistemas de tramitação legislativa respondem a perguntas sobre andamento, versões, pareceres e decisões. Repositórios oferecem objetos e metadados; catálogos localizam recursos; redes compartilham processamento e recuperação. Nenhum deles garante sozinho a rastreabilidade integral de toda a produção da Casa.\n\n**Exemplo de pesquisa integrada:** para estudar uma lei, identifique a norma e a versão temporal; consulte a tramitação e os pareceres; localize estudos técnicos e bibliografia; registre os limites da busca e os direitos dos arquivos reutilizados. A preservação de obras raras requer critérios de seleção, conservação e acesso; digitalizar não torna dispensável conservar o original.",
+    "checkpointIds": [
+      "rt-2-5-8"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "aacr",
+    "titulo": "AACR2r — Código de catalogação anglo-americano",
+    "localizador": "Capítulo 24: regras 24.17, 24.18A, 24.19 e 24.21. Exemplar do acervo teórico do projeto.",
+    "url": "https://www.febab.org.br/"
+  },
+  {
+    "id": "marc110",
+    "titulo": "Library of Congress — MARC 21 Bibliographic: 110",
+    "localizador": "Indicadores e subcampos de nome de entidade coletiva.",
+    "url": "https://www.loc.gov/marc/bibliographic/bd110.html"
+  },
+  {
+    "id": "marc710",
+    "titulo": "Library of Congress — MARC 21 Bibliographic: 710",
+    "localizador": "Segundo indicador: informação não fornecida ou entrada analítica.",
+    "url": "https://www.loc.gov/marc/bibliographic/bd710.html"
+  },
+  {
+    "id": "cf",
+    "titulo": "Constituição Federal",
+    "localizador": "Arts. 44–52, 70–75, 92–135.",
+    "url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+  },
+  {
+    "id": "hist",
+    "titulo": "Câmara dos Deputados — Histórico da Biblioteca",
+    "localizador": "Antecedentes de 1823, criação efetiva em 1866 e Resolução 104/1984.",
+    "url": "https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca/bibhist.html"
+  },
+  {
+    "id": "organograma",
+    "titulo": "Câmara dos Deputados — Estrutura administrativa",
+    "localizador": "Organograma de abril de 2026: Cedi vinculado à Diretoria-Geral.",
+    "url": "https://www2.camara.leg.br/a-camara/estruturaadm/camara-dos-deputados"
+  },
+  {
+    "id": "rvbi",
+    "titulo": "Senado Federal — Bibliotecas cooperantes da RVBI",
+    "localizador": "Relação institucional de bibliotecas; composição pode mudar.",
+    "url": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/bibliotecas-cooperantes"
+  },
+  {
+    "id": "bdcam",
+    "titulo": "Biblioteca Digital da Câmara dos Deputados",
+    "localizador": "Coleções, documentos, metadados e condições de acesso em cada registro.",
+    "url": "https://bd.camara.leg.br/"
+  }
+],
 };

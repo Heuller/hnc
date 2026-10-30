@@ -128,3 +128,12 @@ describe('Guarda Anti-Alucinação de IA para Itens Cebraspe (antiHallucinationG
   });
 });
 
+
+describe('Limites do reconhecimento de fontes', () => {
+  it('distingue fonte genérica da palavra Internet no título de uma obra identificada', () => {
+    const base = {item: 'Uma cópia independente pode apoiar a recuperação após perda de dados.', gabarito: 'C' as const,
+      justificativa: 'A recuperação depende de cópia utilizável e de procedimento verificado.'};
+    expect(validarItemAntiAlucinacao({...base, fontePrimaria: 'Internet / Google'}).valido).toBe(false);
+    expect(validarItemAntiAlucinacao({...base, fontePrimaria: 'CERT.br — Cartilha de Segurança para Internet, capítulo Cópias de segurança.'}).valido).toBe(true);
+  });
+});

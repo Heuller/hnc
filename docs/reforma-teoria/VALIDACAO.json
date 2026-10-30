@@ -1,0 +1,31 @@
+{
+  "data": "2026-10-30T00:00:51.211Z",
+  "ambiente": "Vite local, modo local de autenticação",
+  "aulas": 75,
+  "verificacoesDeLayout": 150,
+  "fluxos": [
+    "navegação sem alterar rota",
+    "erro e fundamentação",
+    "nova tentativa por teclado",
+    "histórico da primeira tentativa",
+    "leitura por bloco",
+    "alternância de revisão",
+    "impressão",
+    "persistência após recarga"
+  ],
+  "erros": [],
+  "verificacaoLocal": {
+    "testes": 972,
+    "arquivosDeTeste": 124,
+    "lint": "sem avisos ou erros",
+    "build": "aprovado nos limites existentes",
+    "exemplosExecutados": "SQL, regex e paginação; casos positivos e negativos",
+    "gerador": "idempotente"
+  },
+  "build": {
+    "javascriptTotalMB": 13.5,
+    "entradaKB": 209.72,
+    "maiorChunkMB": 1.4,
+    "precacheMB": 4.77
+  }
+}

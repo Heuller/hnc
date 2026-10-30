@@ -1,0 +1,254 @@
+{
+  "id": "sub-11-1",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-11-1-bloco-1",
+      "titulo": "Estado, governo e Administração: três perguntas diferentes",
+      "objetivos": [
+        "Distinguir a organização política, a direção governamental e a atividade administrativa."
+      ],
+      "conteudo": "Imagine três decisões: criar uma regra geral sobre acesso à informação; escolher uma política de modernização; executar uma compra de equipamentos para a biblioteca. Todas pertencem à atuação estatal, mas não têm a mesma natureza. **Estado** designa a organização política e jurídica de uma população em um território, com poder soberano. **Governo** está associado à direção política e à definição de prioridades. **Administração** corresponde à estrutura e à atividade que concretizam fins públicos no regime jurídico aplicável.\n\nA soberania pertence à República Federativa do Brasil; os entes federativos têm autonomia nos termos constitucionais. Não confunda a pessoa União com a totalidade do Estado brasileiro. A autonomia de uma autarquia, por sua vez, é administrativa e delimitada pela lei: ela não recebe soberania nem o poder de se desligar de seus fins.\n\nNo **sentido subjetivo ou orgânico**, pergunte *quem administra*: órgãos, agentes e entidades. No **sentido objetivo ou material**, pergunte *qual atividade é realizada*: serviço público, regulação, fiscalização e outras atividades administrativas. A Câmara dos Deputados é órgão do Poder Legislativo da União; ao organizar o funcionamento de sua biblioteca, exerce atividade administrativa. O fato de o Executivo administrar como função típica não impede funções administrativas internas do Legislativo ou do Judiciário.\n\n**Exemplo resolvido.** “A compra de material pelo Judiciário é exercício de jurisdição porque foi realizada por um tribunal.” Primeiro identifique a operação: adquirir bens para funcionamento interno. Depois separe instituição e atividade. O sujeito pertence ao Judiciário, mas o ato tem natureza administrativa. A conclusão proposta troca o executor pela natureza da função.\n\nLeia o art. 2º da Constituição para a organização dos Poderes e o art. 37 para os princípios da Administração de qualquer dos Poderes. O aprofundamento sobre competências constitucionais está no M10; aqui importa construir as distinções que sustentam a organização administrativa.",
+      "checkpointIds": [
+        "rt-11-1-7"
+      ]
+    },
+    {
+      "id": "sub-11-1-bloco-2",
+      "titulo": "Órgão e entidade: personalidade não é competência",
+      "objetivos": [
+        "Identificar a pessoa jurídica à qual uma atuação é imputada."
+      ],
+      "conteudo": "**Órgão** é um centro de competências integrado à estrutura de uma pessoa jurídica. Ministério, secretaria e departamento não se tornam novas pessoas pelo simples fato de terem chefe, orçamento de trabalho, atribuições ou nome próprios. A atuação funcional é imputada à pessoa jurídica em cuja estrutura se inserem, respeitadas as regras de responsabilidade pertinentes.\n\n**Entidade** tem personalidade jurídica própria. União e autarquia são pessoas distintas. A primeira é pessoa política; a segunda é entidade administrativa. Logo, “entidade” não significa necessariamente empresa e “órgão” não significa qualquer organização pública. Uma autarquia pode ter seus próprios órgãos internos.\n\nA teoria do órgão explica a imputação da atuação do agente à pessoa jurídica, e não um contrato de representação entre dois sujeitos privados. Dizer que o órgão não possui personalidade não equivale a dizer que nada pode fazer: suas competências decorrem do ordenamento. Também não se deve confundir personalidade jurídica com capacidade processual excepcional reconhecida a certos órgãos para defender prerrogativas institucionais. Essa capacidade não cria uma nova pessoa jurídica.\n\n**Caso.** Uma diretoria e uma coordenação da mesma universidade federal discutem atribuições. Para identificar a relação, descubra primeiro qual é a universidade e sua natureza jurídica; depois localize os órgãos em sua estrutura. A universidade pode ser uma entidade da administração indireta, enquanto suas unidades permanecem órgãos internos. Não se conclui que cada unidade da indireta também é uma entidade.\n\nA distinção pode ser testada com três perguntas: existe personalidade própria? A competência é exercida em nome de qual pessoa? A mudança ocorreu dentro dela ou passou a envolver sujeito distinto? Essas perguntas são mais confiáveis do que memorizar exemplos isolados.",
+      "checkpointIds": []
+    },
+    {
+      "id": "sub-11-1-bloco-3",
+      "titulo": "Distribuir atividades: centralização e descentralização",
+      "objetivos": [
+        "Diferenciar distribuição interna de transferência a outro sujeito."
+      ],
+      "conteudo": "Na **centralização**, a pessoa política executa a atividade por seus próprios órgãos. Na **descentralização**, sua execução é atribuída a outro sujeito, nos termos da lei e do instrumento aplicável. A distribuição interna entre órgãos de uma única pessoa é **desconcentração**; a reunião de competências antes repartidas internamente é **concentração**. Os eixos são diferentes: pode haver uma entidade descentralizada que, internamente, atua de forma desconcentrada.\n\nO exemplo clássico combina os dois: instituir uma autarquia para uma finalidade específica envolve descentralização; distribuir o trabalho dessa autarquia entre diretorias e unidades regionais envolve desconcentração. No segundo movimento, a personalidade continua sendo a da autarquia. Não surgiu uma pessoa jurídica para cada agência interna.\n\nNa classificação doutrinária usual, a descentralização **por serviços, técnica ou funcional**, também chamada outorga, associa a atribuição legal de um serviço à entidade administrativa. A descentralização **por colaboração ou delegação** transfere a execução ao particular, preservada a titularidade pública, por concessão, permissão ou instrumento cabível. A classificação deve ser aplicada ao serviço e à relação descritos, não a qualquer compra, terceirização ou cooperação.\n\n**Contraexemplo ao macete “descentralizar é criar pessoa”.** Uma concessionária pode existir antes de receber a concessão. O serviço passa a ser executado por pessoa distinta sem que uma entidade nova seja criada naquele momento. Tampouco qualquer contrato com particular constitui descentralização de serviço público: contratar limpeza é situação diferente de delegar a prestação de um serviço público em sentido próprio.\n\n| Pergunta | Desconcentração | Descentralização |\n|---|---|---|\n| Onde se distribui a competência? | Dentro da mesma pessoa jurídica | Entre sujeitos distintos |\n| Exige nova pessoa criada no ato? | Não | Não necessariamente |\n| Relação a examinar | Organização interna e hierarquia cabível | Vinculação, fiscalização ou relação definida no instrumento |\n| Exemplo | Repartir atribuições entre unidades da autarquia | Delegar execução a concessionária |\n\nA referência legal básica da organização federal é o Decreto-Lei 200/1967, arts. 4º e 5º; a terminologia doutrinária não deve ser tomada como uma transcrição desses dispositivos.",
+      "checkpointIds": [
+        "cp-11-1-1",
+        "rt-11-1-1",
+        "rt-11-1-2"
+      ]
+    },
+    {
+      "id": "sub-11-1-bloco-4",
+      "titulo": "Direta, indireta e a diferença entre hierarquia e supervisão",
+      "objetivos": [
+        "Distinguir autonomia administrativa de independência em relação à lei."
+      ],
+      "conteudo": "A **administração direta** reúne os órgãos das pessoas políticas. A **indireta** é composta por entidades administrativas com personalidade própria, como autarquias, fundações públicas, empresas públicas e sociedades de economia mista. Para a organização federal, consulte o Decreto-Lei 200/1967; para a forma de criação, o art. 37, XIX, da Constituição.\n\nNo interior de uma estrutura hierarquizada há poderes de organização, orientação e controle nos limites legais. Entre a pessoa política e uma entidade da indireta não se presume a mesma subordinação existente entre chefe e subordinado. A vinculação e o controle finalístico verificam o atendimento às finalidades e às exigências previstas no ordenamento. Não autorizam intervenção ilimitada nem tornam a entidade soberana.\n\n**Exemplo resolvido.** “O ministério pode tratar a autarquia vinculada como departamento e avocar livremente qualquer decisão.” A primeira oração já sugere um erro de categoria: autarquia tem personalidade, departamento é órgão. A vinculação não cria poder hierárquico genérico. É necessário identificar fundamento legal para o controle concreto. Isso não significa que a entidade esteja sem controle.\n\nTambém não se deve universalizar que toda relação entre órgãos contém hierarquia: entre Poderes independentes não há subordinação hierárquica. O critério “mesma pessoa jurídica” identifica o plano organizacional, mas não dispensa a análise das competências e da posição constitucional dos órgãos.\n\nEntidades do terceiro setor e serviços sociais autônomos não passam a integrar a administração indireta somente porque recebem recursos públicos ou cooperam com o Estado. É preciso examinar sua natureza e o regime legal. “Colaborar com a Administração” e “integrar a Administração” são predicados diferentes.",
+      "checkpointIds": [
+        "rt-11-1-3"
+      ]
+    },
+    {
+      "id": "sub-11-1-bloco-5",
+      "titulo": "Autarquias e fundações públicas: nascimento e regime",
+      "objetivos": [
+        "Relacionar personalidade e forma de instituição sem tratar toda fundação como igual."
+      ],
+      "conteudo": "A **autarquia** é pessoa jurídica de direito público criada diretamente por lei específica para atividade administrativa especializada. A lei de criação não apenas permite a um gestor constituí-la posteriormente: ela institui a entidade, nos termos definidos. A autarquia administra seus meios e exerce competências próprias, mas deve cumprir sua finalidade e as regras de controle.\n\nAs **fundações públicas** exigem a distinção entre as de direito público, de natureza autárquica, e as de direito privado instituídas pelo poder público. Nas primeiras, a instituição acompanha o regime de criação legal das autarquias; nas segundas, há autorização legislativa e os atos constitutivos próprios. A formulação constitucional deve ser lida junto da interpretação jurídica sobre essas naturezas. A palavra “fundação” isolada não basta para inferir regime integralmente privado ou integralmente público.\n\n**Exemplo.** Se uma questão afirma que todas as fundações públicas têm bens submetidos, sem ressalvas, ao mesmo regime, identifique a generalização. A natureza da fundação e a destinação dos bens importam; não transfira automaticamente todas as prerrogativas de uma pessoa de direito público para qualquer fundação estatal de direito privado.\n\nAgências reguladoras são usualmente autarquias sob regime especial estabelecido em lei. O regime especial pode conferir garantias de autonomia e mandatos, mas não significa uma nova categoria de pessoa política ou ausência de prestação de contas. As características concretas dependem da legislação aplicável.\n\nAo estudar um exemplo institucional, separe três informações: natureza jurídica; forma de instituição; competências. Memorizar apenas que “instituição X é pública” é insuficiente para resolver uma questão sobre personalidade ou criação.",
+      "checkpointIds": []
+    },
+    {
+      "id": "sub-11-1-bloco-6",
+      "titulo": "Estatais: capital, forma e condicionamentos públicos",
+      "objetivos": [
+        "Diferenciar empresa pública e sociedade de economia mista por critérios próprios."
+      ],
+      "conteudo": "A Constituição, art. 37, XIX, exige lei específica para autorizar a instituição de empresa pública e sociedade de economia mista. A **Lei 13.303/2016**, arts. 3º e 4º, define seus critérios. Ambas têm personalidade de direito privado; isso não as equipara em todos os aspectos a empresas particulares, pois integram a administração indireta e estão sujeitas a condicionamentos públicos.\n\nNa **empresa pública**, o capital é inteiramente público, admitida a composição por entes e entidades nos termos legais. “Inteiramente público” não significa necessariamente um único participante. A forma societária não fica restrita à sociedade anônima. Na **sociedade de economia mista**, a forma é sociedade anônima e a maioria das ações com direito a voto deve pertencer à pessoa pública ou entidade indicada na lei. Capital votante e capital total são critérios distintos: não troque as expressões ao julgar o controle.\n\n| Critério | Empresa pública | Sociedade de economia mista |\n|---|---|---|\n| Personalidade | Direito privado | Direito privado |\n| Capital | Integralmente público | Composição mista, com controle votante público nos termos legais |\n| Forma | Formas admitidas pelo regime aplicável | Sociedade anônima |\n| Instituição | Autorização legislativa e atos constitutivos | Autorização legislativa e atos constitutivos |\n\nO art. 37, XX, disciplina autorização legislativa para subsidiárias e participação em empresa privada. A questão sobre suficiência de autorização genérica exige o entendimento jurisprudencial e o caso correspondente; não resolva pela regra simplista de que não há necessidade de autorização alguma. Diferencie ainda criação/extinção da pessoa, venda de participação e alienação do controle: não são acontecimentos juridicamente idênticos.\n\n**Resolução por critérios.** Se um enunciado atribui “qualquer forma societária” e “capital integralmente público” à sociedade de economia mista, teste cada predicado separadamente. A forma própria é S/A; o critério de capital descrito caracteriza empresa pública. Um enunciado composto pode conter mais de um erro; apontar ambos melhora a aprendizagem sem transformar a questão em busca de palavras suspeitas.",
+      "checkpointIds": [
+        "cp-11-1-3",
+        "rt-11-1-4",
+        "rt-11-1-5"
+      ]
+    },
+    {
+      "id": "sub-11-1-bloco-7",
+      "titulo": "Princípios: decidir dentro do ordenamento",
+      "objetivos": [
+        "Aplicar LIMPE a casos em vez de usar a sigla como explicação."
+      ],
+      "conteudo": "O art. 37, caput, exige **legalidade, impessoalidade, moralidade, publicidade e eficiência** da administração direta e indireta de qualquer dos Poderes. A sigla LIMPE ajuda a recuperar os nomes, mas não resolve a situação concreta.\n\n**Legalidade** vincula a atuação administrativa ao ordenamento e às competências. Não basta haver vantagem prática. Também não significa que cada movimento material precise ser literalmente descrito em lei: há aplicação de competências e discricionariedade dentro dos limites jurídicos. **Impessoalidade** exige finalidade pública, tratamento sem favoritismos incompatíveis com a lei e impede apropriação pessoal de realizações institucionais. O art. 37, § 1º, veda elementos de publicidade que caracterizem promoção pessoal; não proíbe de modo absoluto todo registro de nome de autoridade em qualquer documento.\n\n**Moralidade** constitui parâmetro jurídico de conduta administrativa e não se reduz ao gosto individual do agente. **Publicidade** favorece conhecimento, controle e transparência, observadas hipóteses legais de sigilo e proteção de dados. **Eficiência** pede boa utilização dos meios e resultados adequados, sem dispensar legalidade ou direitos.\n\n**Caso resolvido.** A biblioteca divulga um serviço acessível e informa seu horário: há finalidade informativa. A peça passa a exaltar a imagem pessoal do dirigente com recursos institucionais: surge o problema de promoção pessoal. A decisão depende do conteúdo e da finalidade da publicidade, não apenas da presença física de uma fotografia ou da palavra “gestão”.\n\nEntre princípios associados ao regime administrativo, a indisponibilidade do interesse público limita a liberdade de disposição do gestor; prerrogativas administrativas precisam de fundamento e finalidade. O interesse público não é fórmula que autoriza afastar direitos. Razoabilidade e proporcionalidade pedem examinar adequação, necessidade e relação entre meios e fins; motivação permite conhecer as razões, e segurança jurídica protege estabilidade e confiança nos termos legais. O aprofundamento sobre atos, processo e autotutela segue nos submódulos 11.2 e 11.4.\n\nPara resolver uma questão, descreva a conduta, identifique o dever específico, verifique condições e formule a conclusão. Um ato pode afetar mais de um princípio. Não force exclusividade se o enunciado não a exige.",
+      "checkpointIds": [
+        "cp-11-1-2",
+        "rt-11-1-6"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "### Organização administrativa: recuperar antes de reler\n\n1. **Estado / governo / Administração:** organização política, direção política e estrutura/atividade administrativa. Legislativo e Judiciário também administram internamente.\n2. **Órgão / entidade:** centro de competências sem personalidade própria versus pessoa jurídica. Capacidade processual excepcional de um órgão não lhe confere personalidade.\n3. **Desconcentração:** distribuição interna. **Descentralização:** envolve outro sujeito; pode usar pessoa já existente. Não confundir qualquer contratação com delegação de serviço público.\n4. **Direta / indireta:** órgãos das pessoas políticas versus entidades administrativas. Vinculação não é hierarquia genérica; autonomia não é soberania.\n5. **Autarquia:** lei cria. **Estatais:** lei autoriza e atos constitutivos completam a instituição. Nas fundações, distinguir natureza pública e privada.\n6. **EP / SEM:** capital inteiramente público e forma admitida em direito versus S/A com controle votante público nos termos da lei. Ambas são de direito privado e têm condicionamentos públicos.\n7. **LIMPE:** legalidade, impessoalidade, moralidade, publicidade e eficiência. Rapidez não dispensa direitos; publicidade informativa não pode ser promoção pessoal.\n\n**Explique sem consultar:** por que uma autarquia pode descentralizar a atuação estatal e, ao mesmo tempo, desconcentrar internamente? Por que nome próprio e orçamento não bastam para transformar um órgão em entidade?\n\n**Caso de transferência:** uma empresa já existente recebe concessão e cria departamentos para executá-la. Identifique a relação entre concedente e concessionária e, separadamente, a organização interna da empresa.\n",
+  "fontesTeoria": [
+    {
+      "id": "cf37",
+      "titulo": "Constituição Federal de 1988",
+      "localizador": "Arts. 2º e 37, caput, XIX, XX e § 1º.",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "dl200",
+      "titulo": "Decreto-Lei 200/1967",
+      "localizador": "Arts. 4º e 5º: organização federal e entidades.",
+      "url": "https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-200-25-fevereiro-1967-376033-norma-pe.html"
+    },
+    {
+      "id": "estatais",
+      "titulo": "Lei 13.303/2016",
+      "localizador": "Arts. 3º e 4º: critérios de empresa pública e sociedade de economia mista.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-11-1-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma secretaria da Câmara reorganiza tarefas entre duas coordenações da mesma estrutura, sem transferi-las a outra pessoa jurídica. A ausência de nova pessoa jurídica é compatível com a desconcentração.",
+      "gabarito": "C",
+      "justificativa": "O critério é a distribuição interna de competências. Não é necessário criar uma entidade para organizar órgãos; a redistribuição interna permanece na pessoa jurídica União. Compare com a transferência da execução a sujeito distinto, que exige examinar a relação jurídica estabelecida.",
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-11-1-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A concessão de um serviço público a empresa privada já existente pode representar descentralização, embora não haja criação de pessoa jurídica nessa operação.",
+      "gabarito": "C",
+      "justificativa": "Na descentralização por colaboração, a execução é atribuída ao particular por instrumento adequado. A empresa pode existir antes da concessão. Por isso, contar quantas pessoas foram criadas é um atalho inferior a identificar entre quais sujeitos a atividade foi distribuída.",
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-11-1-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Por possuir personalidade jurídica própria, uma autarquia federal pode afastar as finalidades previstas em sua lei de criação sempre que considerar a mudança eficiente.",
+      "gabarito": "E",
+      "justificativa": "Autonomia administrativa não significa soberania nem liberdade de abandonar a finalidade legal. Especialização e vinculação à lei limitam a atuação. Eficiência opera dentro do ordenamento e não substitui competência ou finalidade.",
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)",
+      "habilidade": "aplicar",
+      "versao_correta": "A autarquia deve observar a finalidade e as competências previstas em lei, mesmo ao buscar eficiência."
+    },
+    {
+      "id": "rt-11-1-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A Constituição exige autorização por lei específica para a instituição de empresa pública; a autorização, isoladamente, não substitui os atos constitutivos necessários à sua existência.",
+      "gabarito": "C",
+      "justificativa": "O art. 37, XIX, distingue criar autarquia de autorizar a instituição de empresa pública e sociedade de economia mista. Nas estatais, a personalidade de direito privado exige os atos constitutivos e registro pertinentes. A lei autoriza; não é idêntico ao nascimento direto de uma autarquia.",
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-11-1-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma empresa estatal de direito privado está dispensada dos princípios constitucionais da Administração porque seus contratos seguem exclusivamente a vontade dos administradores.",
+      "gabarito": "E",
+      "justificativa": "As estatais integram a administração indireta. A personalidade privada não as retira do art. 37 nem dispensa seus deveres legais. O regime combina regras privadas e condicionamentos públicos; é preciso identificar qual aspecto está em discussão.",
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)",
+      "habilidade": "aplicar",
+      "versao_correta": "A estatal de direito privado observa os princípios da Administração e as regras legais aplicáveis ao aspecto examinado."
+    },
+    {
+      "id": "rt-11-1-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma biblioteca pública pode buscar redução do tempo de atendimento sem eliminar os critérios legais de prioridade e de proteção de dados dos usuários. Essa decisão é compatível com a eficiência.",
+      "gabarito": "C",
+      "justificativa": "Eficiência significa melhorar a utilização de recursos e os resultados, respeitando os demais deveres jurídicos. A situação preserva as condições legais e otimiza a execução; não usa rapidez como autorização para descumprir direitos.",
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-11-1-7",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O Legislativo exerce função administrativa ao gerir seus servidores e seu acervo, embora legislar e fiscalizar sejam funções típicas desse Poder.",
+      "gabarito": "C",
+      "justificativa": "A divisão de Poderes não confina toda administração ao Executivo. A gestão interna da Câmara é atividade administrativa. É necessário distinguir o órgão/Poder que pratica o ato da natureza material da atividade.",
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-11-1-1": {
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "versao_correta": "A distribuição de competências entre órgãos da mesma pessoa jurídica configura desconcentração, sem atribuição de personalidade própria ao departamento."
+    },
+    "cp-11-1-2": {
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º."
+    },
+    "cp-11-1-3": {
+      "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
+      "versao_correta": "A sociedade de economia mista adota a forma de sociedade anônima e o controle público segue o critério das ações com direito a voto."
+    }
+  },
+  "alertasCebraspe": [
+    "Autonomia administrativa não significa soberania nem liberdade de abandonar a finalidade legal. Especialização e vinculação à lei limitam a atuação. Eficiência opera dentro do ordenamento e não substitui competência ou finalidade.",
+    "As estatais integram a administração indireta. A personalidade privada não as retira do art. 37 nem dispensa seus deveres legais. O regime combina regras privadas e condicionamentos públicos; é preciso identificar qual aspecto está em discussão.",
+    "O critério é a distribuição interna de competências. Não é necessário criar uma entidade para organizar órgãos; a redistribuição interna permanece na pessoa jurídica União. Compare com a transferência da execução a sujeito distinto, que exige examinar a relação jurídica estabelecida."
+  ],
+  "quadroComparativo": {
+    "titulo": "Organização administrativa: critérios de decisão",
+    "colunas": [
+      "Critério",
+      "Órgão",
+      "Autarquia",
+      "Empresa pública",
+      "Sociedade de economia mista"
+    ],
+    "linhas": [
+      [
+        "Personalidade própria",
+        "Não",
+        "Direito público",
+        "Direito privado",
+        "Direito privado"
+      ],
+      [
+        "Instituição",
+        "Organização da pessoa em que se integra",
+        "Lei específica cria",
+        "Lei específica autoriza e atos constitutivos",
+        "Lei específica autoriza e atos constitutivos"
+      ],
+      [
+        "Critério distintivo",
+        "Competências internas",
+        "Finalidade administrativa especializada",
+        "Capital inteiramente público",
+        "S/A e controle votante público nos termos legais"
+      ]
+    ]
+  },
+  "antesDeLer": [
+    {
+      "termo": "Órgão e entidade",
+      "definicao": "Órgão integra uma pessoa jurídica; entidade possui personalidade jurídica própria.",
+      "exemploBiblioteca": "A Câmara é órgão da União; uma autarquia pode ter órgãos internos próprios."
+    },
+    {
+      "termo": "Distribuição de competências",
+      "definicao": "Desconcentração ocorre internamente; descentralização envolve sujeito distinto, não necessariamente recém-criado.",
+      "exemploBiblioteca": "Repartir tarefas entre coordenações não cria uma pessoa; concessão pode envolver empresa já existente."
+    },
+    {
+      "termo": "Princípios administrativos",
+      "definicao": "Legalidade, impessoalidade, moralidade, publicidade e eficiência orientam a Administração.",
+      "exemploBiblioteca": "Melhorar prazo de atendimento sem afastar direitos ou promover pessoalmente a autoridade."
+    }
+  ],
+  "autoresChave": [
+    "Constituição Federal de 1988",
+    "Decreto-Lei 200/1967",
+    "Lei 13.303/2016"
+  ],
+  "descricaoCurta": "Distinguir a organização política, a direção governamental e a atividade administrativa. Identificar a pessoa jurídica à qual uma atuação é imputada. Diferenciar distribuição interna de transferência a outro sujeito. Distinguir autonomia administrativa de independência em relação à lei. Relacionar personalidade e forma de instituição sem tratar toda fundação como igual. Diferenciar empresa pública e sociedade de economia mista por critérios próprios. Aplicar LIMPE a casos em vez de usar a sigla como explicação.",
+  "tempoEstimadoMinutos": 27
+}

@@ -57,9 +57,8 @@ describe('U6.3 & U6.4: Tela de Leitura, Índice Lateral e Mnemônicos Não-Flutu
 
     // Alterna para a aba de mnemônicos
     fireEvent.click(botaoMnemonicos);
-    expect(within(aside).getByRole('button', { name: /Cronologia/i })).toBeDefined();
-    expect(within(aside).getByRole('button', { name: /Autores/i })).toBeDefined();
-    expect(within(aside).getByRole('button', { name: /Pegadinhas/i })).toBeDefined();
+    expect(aside.textContent).toContain('Lei de Mooers');
+    expect(within(aside).queryByRole('button', { name: /Cronologia/i })).toBeNull();
   });
 
   it('não deve possuir nenhum botão flutuante fixo (FAB) sobreposto ao texto', () => {

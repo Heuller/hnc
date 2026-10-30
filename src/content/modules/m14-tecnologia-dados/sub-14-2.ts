@@ -14,446 +14,434 @@ export const submodulo142: ModuloFilho = {
   ],
   titulo: 'Redes de Computadores, Internet/Intranet, Criptografia e Gestão de Riscos de Segurança da Informação',
   antesDeLer: [
-    {
-      termo: 'Hash',
-      definicao: 'Função matemática unidirecional que converte qualquer volume de dados em um resumo de tamanho fixo para atestar fixidez.',
-      exemploBiblioteca: 'Calcular SHA-256 de ata parlamentar para certificar que nenhum bit foi corrompido ou adulterado.',
-    },
-    {
-      termo: 'Criptografia Assimétrica',
-      definicao: 'Criptografia baseada em par de chaves: chave pública (para cifrar) e chave privada (para decifrar e assinar).',
-      exemploBiblioteca: 'Garantir que pareceres jurídicos sejam assinados com a chave privada do consultor legislativo.',
-    },
-    {
-      termo: 'Assinatura Digital',
-      definicao: 'Mecanismo criptográfico que atesta autoria, integridade e não repúdio a documentos digitais com certificado ICP-Brasil.',
-      exemploBiblioteca: 'Assinatura digital com token ICP-Brasil A3 para homologação oficial de autógrafos de leis.',
-    },
-    {
-      termo: 'Ransomware',
-      definicao: 'Software malicioso que sequestra sistemas informacionais criptografando arquivos e exigindo resgate financeiro.',
-      exemploBiblioteca: 'Risco cibernético enfrentado por repositórios digitais, exigindo backups desconectados (air-gapped).',
-    },
-    {
-      termo: 'Regra 3-2-1',
-      definicao: 'Estratégia de backup: manter pelo menos 3 cópias, em 2 mídias diferentes, com 1 cópia fora do local físico.',
-      exemploBiblioteca: 'Manter cópia dos arquivos digitais da Câmara no cofre local e réplica em nuvem governamental em outra cidade.',
-    },
-  ],
-  descricaoCurta: 'Arquitetura TCP/IP, modelos de rede e navegação web; ameaças cibernéticas (malware, ransomware, phishing e pharming); mecanismos de proteção (firewall, antivírus, MFA); criptografia simétrica, assimétrica, hash, assinatura digital e ICP-Brasil (MP nº 2.200-2/2001); políticas de backup (regra 3-2-1) e gestão de riscos informacionais (ABNT NBR ISO 31000:2018 e ISO/IEC 27005:2023).',
-  tempoEstimadoMinutos: 26,
+  {
+    "termo": "Hash e assinatura",
+    "definicao": "Resumo para comparação e mecanismo de assinatura atendem propriedades distintas.",
+    "exemploBiblioteca": "Fixidez binária não certifica verdade do conteúdo assinado."
+  },
+  {
+    "termo": "Risco residual",
+    "definicao": "Risco que permanece após medidas de tratamento.",
+    "exemploBiblioteca": "Uma cópia de segurança reduz exposição, sem tornar toda perda impossível."
+  }
+],
+  descricaoCurta: "Distinguir abrangência física e política de acesso. Relacionar transporte, endereçamento e serviços sem transformar padrões em garantia absoluta. Distinguir engenharia social, redirecionamento e classes de código malicioso. Escolher controles e distinguir identificação, autenticação e autorização. Distinguir completo, diferencial, incremental, localização e isolamento. Separar confidencialidade, integridade e verificação de bits. Distinguir assinar, verificar, certificar identidade e avaliar o conteúdo. Analisar incerteza sobre objetivos e distinguir avaliação de tratamento.",
+  tempoEstimadoMinutos: 33,
   autoresChave: [
-    'Andrew Tanenbaum (2021)',
-    'William Stallings (2018)',
-    'CERT.br / NIC.br (2021)',
-    'ABNT NBR ISO 31000:2018',
-    'ABNT NBR ISO/IEC 27005:2023',
-    'MP nº 2.200-2/2001 (ICP-Brasil)',
-  ],
+  "CERT.br — Cartilha de Segurança para Internet",
+  "RFC 9293 — Transmission Control Protocol",
+  "NIST FIPS 186-5 — Digital Signature Standard",
+  "MP 2.200-2/2001",
+  "Lei 14.063/2020",
+  "Library of Congress — PREMIS 3.0",
+  "ISO 31000:2018 — Risk management — Guidelines"
+],
   alertasCebraspe: [
-    'Internet vs. Intranet vs. Extranet: a Intranet utiliza exatamente a mesma pilha de protocolos e tecnologias da Internet (TCP/IP, HTTP, DNS), diferenciando-se unicamente pelo escopo de acesso (restrito aos colaboradores da organização). A Extranet representa a extensão segura da intranet para parceiros ou usuários externos autorizados.',
-    'Protocolos de Rede e Portas Críticas: DNS (porta 53 UDP/TCP - resolução de nomes em IPs); DHCP (portas 67/68 UDP - atribuição dinâmica de IPs); HTTP (porta 80 TCP) vs. HTTPS (porta 443 TCP com TLS/SSL); SSH (porta 22 TCP) vs. Telnet (porta 23 - tráfego em texto claro inseguro).',
-    'Classificação de Pragas Virtuais (Malware): Vírus necessita de hospedeiro e execução explícita pelo usuário para se propagar; Worm propaga-se de forma autônoma pelas redes explorando vulnerabilidades sem precisar de hospedeiro; Ransomware sequestra dados por criptografia simétrica/assimétrica exigindo resgate; Cavalo de Troia (Trojan) disfarça-se de programa legítimo para abrir portas dos fundos (backdoors).',
-    'Ataques Cibernéticos e Engenharia Social: Phishing visa induzir o usuário a entregar credenciais por e-mails ou mensagens falsas; Pharming adultera a resolução de nomes (tabela hosts local ou envenenamento de cache DNS - DNS Cache Poisoning) redirecionando o tráfego para sites espúrios mesmo quando a URL digitada estiver correta.',
-    'Criptografia Simétrica vs. Assimétrica: A simétrica utiliza uma única chave secreta compartilhada para cifrar e decifrar (DES, 3DES, AES), sendo rápida e adequada para grandes volumes de dados; a assimétrica utiliza um par de chaves matematicamente correlacionadas (chave pública para cifrar/verificar e chave privada para decifrar/assinar; RSA, ECC), resolvendo a distribuição de chaves, porém com custo computacional consideravelmente maior.',
-    'Funções de Hash Criptográfico e Fixidez: O hash (SHA-256, SHA-512) é unidirecional (one-way), gera um resumo de tamanho fixo a partir de qualquer entrada e possui efeito avalanche (alterar 1 único bit altera todo o digest). Na preservação digital (OAIS / PREMIS), o hash é a garantia técnica de fixidez (fixity) para auditar integridade de arquivos parlamentares contra degradação de bits (bit rot). MD5 e SHA-1 são vulneráveis a colisões e proibidos na ICP-Brasil.',
-    'Assinatura Digital vs. Eletrônica vs. Digitalizada: A assinatura digital é obtida cifrando-se o hash do documento com a chave privada do autor, garantindo autenticidade, integridade e não repúdio (irretratabilidade). Não se confunde com assinatura eletrônica genérica (termo amplo que inclui senhas e OTPs) nem com assinatura digitalizada (mera imagem escaneada sem segurança probatória).',
-    'ICP-Brasil e Tipos de Certificado (MP nº 2.200-2/2001): A Autoridade Certificadora Raiz é o ITI (Instituto Nacional de Tecnologia da Informação). Certificados A1 têm chave gerada e armazenada em software no computador/navegador (validade de 1 ano); certificados A3 têm chave gerada e armazenada em hardware criptográfico inviolável (smartcard ou token criptográfico FIPS 140-2, validade de até 3 a 5 anos). Conforme o art. 10, § 1º, declarações assinadas com certificado ICP-Brasil presumem-se verdadeiras em relação aos signatários.',
-    'Gestão de Riscos Informacionais (ABNT NBR ISO 31000:2018 e ISO/IEC 27005:2023): O processo de avaliação de riscos (risk assessment) compreende: identificação, análise (probabilidade x impacto) e avaliação de riscos (comparação com critérios/apetite a risco). O tratamento de riscos envolve quatro estratégias: mitigar (reduzir), aceitar (reter), evitar e transferir (compartilhar).',
-    'Tipos de Backup e Regra 3-2-1: Backup Completo (cópia total de todos os arquivos; restauração mais rápida com apenas 1 conjunto); Backup Diferencial (copia arquivos alterados desde o último backup completo; restauração exige o completo + o último diferencial); Backup Incremental (copia arquivos alterados desde o último backup completo ou incremental; restauração mais demorada, exigindo o completo + todos os incrementais intermediários na ordem). A regra 3-2-1 exige 3 cópias em 2 mídias diferentes com 1 cópia externa e offline (air-gapped) para imunidade a ransomware.',
-  ],
+  "Ambos pertencem à categoria de conhecimento. Repetir o que se sabe não cria, por si, fator distinto de posse ou inerência.",
+  "Localização externa e isolamento lógico/físico são propriedades diferentes. Uma cópia na nuvem pode estar acessível com a mesma conta comprometida. É preciso verificar controles e recuperação.",
+  "Esse modelo didático não descreve de forma universal os algoritmos de assinatura. A operação de assinar e a de verificar usam chaves e procedimentos definidos pelo esquema; nem toda assinatura é uma cifração reversível."
+],
   quadroComparativo: {
-    titulo: 'Quadro Comparativo Integrado: Mecanismos de Proteção Criptográfica e Integridade',
-    colunas: ['Mecanismo', 'Chaves Empregadas', 'Garantias Primárias (CIDAL)', 'Algoritmos Representativos', 'Aplicação Prática no Legislativo'],
-    linhas: [
-      [
-        'Criptografia Simétrica',
-        '1 chave secreta única (cifra e decifra)',
-        'Confidencialidade em alta velocidade',
-        'AES (128/256 bits), 3DES, ChaCha20',
-        'Cifração de grandes bases de dados da Câmara e mídias de backup em fita LTO',
-      ],
-      [
-        'Criptografia Assimétrica',
-        'Par de chaves: Pública (cifra) e Privada (decifra)',
-        'Confidencialidade e troca segura de chaves de sessão',
-        'RSA (2048/4096 bits), ECC (Curvas Elípticas), Diffie-Hellman',
-        'Estabelecimento de canal seguro HTTPS/TLS para navegação do portal da Câmara',
-      ],
-      [
-        'Hash Criptográfico (Resumo)',
-        'Nenhuma chave (algoritmo matemático unidirecional)',
-        'Integridade estrita e Fixidez (detecção de adulteração)',
-        'SHA-256, SHA-512, SHA-3 (MD5 e SHA-1 obsoletos por colisão)',
-        'Verificação de fixidez de acervos digitais legislativos no repositório OAIS/PREMIS',
-      ],
-      [
-        'Assinatura Digital (ICP-Brasil)',
-        'Par de chaves: Privada (assina o hash) e Pública (verifica)',
-        'Autenticidade, Integridade e Não Repúdio (irretratabilidade)',
-        'Padrão ICP-Brasil (RSA 2048+ / SHA-256) em certificados A1 e A3',
-        'Validação jurídica de autógrafos de leis, atas de plenário e certidões da Mesa Diretora',
-      ],
-      [
-        'Backup Corporativo (Regra 3-2-1)',
-        'Gestão de mídias (fita magnética, storage SAN, nuvem)',
-        'Disponibilidade e Resiliência contra desastres e ransomware',
-        'Backup Completo (Full), Diferencial e Incremental (cópia air-gapped)',
-        'Salvaguarda de bases de dados do processo legislativo eletrônico e do acervo documental',
-      ],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Fundamentos de Redes de Computadores e Arquitetura TCP/IP
-
-#### A. Topologias e Escopos Geográficos de Rede
-* **Classificação por Abrangência Geográfica:**
-  * **PAN (Personal Area Network):** Alcance individual de curta distância (ex.: conexões Bluetooth e NFC entre periféricos).
-  * **LAN (Local Area Network):** Rede local restrita a uma sala, andar, edifício ou campus legislativo (padrões Ethernet IEEE 802.3 cabeado e Wi-Fi IEEE 802.11 sem fio).
-  * **MAN (Metropolitan Area Network):** Conexão de alta velocidade interligando unidades distribuídas em uma região metropolitana (ex.: anel de fibra óptica infovia interligando o Congresso Nacional, Ministérios e tribunais em Brasília).
-  * **WAN (Wide Area Network):** Rede de longa distância com amplitude territorial interestadual ou global (a Internet pública é o exemplo canônico de WAN).
-* **Internet vs. Intranet vs. Extranet:**
-  * **Intranet:** Rede corporativa privada que opera **rigorosamente sobre a mesma pilha de protocolos TCP/IP e tecnologias da Internet pública** (servidores web HTTP/HTTPS, correio SMTP/IMAP, DNS corporativo), mas cujo perímetro de acesso é restrito e protegido por autenticação e firewalls exclusivamente aos colaboradores e servidores do órgão.
-  * **Extranet:** Extensão controlada e autenticada da intranet para acesso externo por partes autorizadas (parceiros interinstitucionais, fornecedores contratuais ou outros órgãos do Poder Público).
-
-#### B. Pilha de Protocolos TCP/IP e Portas Padronizadas
-* **Camada de Aplicação:**
-  * **DNS (Domain Name System - porta 53 UDP/TCP):** Resolve nomes de domínio amigáveis (ex.: \`camara.leg.br\`) em endereços IP roteáveis.
-  * **DHCP (Dynamic Host Configuration Protocol - portas 67/68 UDP):** Configura dinamicamente parâmetros de rede (endereço IP, máscara de sub-rede, gateway padrão e servidores DNS) para hosts conectados.
-  * **HTTP (porta 80 TCP) e HTTPS (porta 443 TCP):** Protocolo de transferência de hipertexto; o HTTPS implementa criptografia em trânsito com TLS/SSL.
-  * **SSH (Secure Shell - porta 22 TCP):** Acesso remoto e execução de comandos seguros com autenticação criptografada por chaves públicas/privadas, substituindo o obsoleto e inseguro Telnet (porta 23).
-* **Camada de Transporte:**
-  * **TCP (Transmission Control Protocol):** Orientado a conexão, confiável, garante entrega ordenada de pacotes com controle de fluxo e congestionamento por meio do *three-way handshake* (SYN $\rightarrow$ SYN-ACK $\rightarrow$ ACK).
-  * **UDP (User Datagram Protocol):** Não orientado a conexão, sem confirmação de entrega (*best-effort*), de baixa latência e alta velocidade, ideal para transmissões ao vivo de áudio e vídeo da TV Câmara e consultas DNS.
-* **Camada de Rede / Internet:**
-  * **IP (IPv4 e IPv6):** Roteamento e endereçamento lógico de pacotes. O IPv4 utiliza 32 bits (4 octetos decimais separados por pontos); o IPv6 utiliza 128 bits (8 grupos de 4 dígitos hexadecimais separados por dois-pontos).
-  * **ICMP (Internet Control Message Protocol):** Mensagens de controle e diagnóstico de rede (utilizado pelas ferramentas \`ping\` e \`traceroute\`).
-
----
-
-### 2. Ameaças Cibernéticas e Engenharia Social (Padrão CERT.br / Cebraspe)
-
-#### A. Tipologia Canônica de Códigos Maliciosos (*Malware*)
-* **Vírus:** Programa malicioso que **necessita de um hospedeiro** (arquivo executável, documento com macro) e de **execução explícita pelo usuário** para infectar novos arquivos e se propagar.
-* **Worm (Verme):** Programa malicioso autônomo que **não necessita de hospedeiro nem de intervenção do usuário**; propaga-se de máquina em máquina explorando vulnerabilidades em serviços de rede abertos.
-* **Ransomware:** Malware destrutivo que criptografa arquivos no armazenamento local e em unidades de rede compartilhadas, tornando-os inacessíveis, e exibe mensagem exigindo pagamento de resgate (frequentemente em criptomoedas):
-  * *Ransomware Locker:* Bloqueia o acesso à interface visual e periféricos do computador.
-  * *Ransomware Crypto:* Criptografa o sistema de arquivos mantendo a chave privada sob posse do atacante.
-* **Cavalo de Troia (*Trojan Horse*):** Programa que se apresenta como utilitário benigno ou aplicativo legítimo, mas que, ao ser executado, realiza ações maliciosas ocultas, frequentemente abrindo **Backdoors** (portas dos fundos) para acesso remoto do invasor.
-* **Spyware:** Software espião projetado para monitorar e capturar atividades do sistema sem consentimento:
-  * *Keylogger:* Registra todas as teclas digitadas no teclado físico.
-  * *Screenlogger:* Captura capturas de tela das regiões onde o ponteiro do mouse é clicado (para burlar teclados virtuais simples).
-  * *Adware:* Exibe propagandas abusivas não solicitadas.
-* **Bot e Botnet:** Programa que permite o controle remoto da máquina zumbi por um atacante (*botmaster*), formando redes massivas (*botnets*) empregadas em ataques de negação de serviço distribuída (**DDoS - Distributed Denial of Service**).
-
-#### B. Engenharia Social e Ataques de Redirecionamento
-* **Phishing:** Fraude eletrônica baseada em e-mails, SMS (*Smishing*) ou mensagens falsas simulando comunicações de instituições confiáveis, contendo links capciosos para páginas clonadas com intuito de subtrair credenciais e senhas.
-* **Spear-Phishing:** Ataque de phishing altamente direcionado e personalizado contra um indivíduo ou departamento específico de um órgão público (ex.: setor de licitações ou taquigrafia da Câmara), utilizando dados prévios da vítima para maximizar a credibilidade.
-* **Pharming (Envenenamento de Resolução de Nomes):** Ataque que compromete a resolução de nomes de domínio, alterando o arquivo local \`hosts\` do sistema operacional ou contaminando o cache de um servidor DNS (**DNS Cache Poisoning**). Como resultado, o usuário digita a URL oficial correta no navegador, mas é direcionado transparentemente para o endereço IP do servidor fraudulento controlado pelo criminoso.
-
----
-
-### 3. Mecanismos de Proteção, Autenticação e Governança de Backup
-
-#### A. Ferramentas e Mecanismos de Segurança
-* **Firewall:** Dispositivo ou software que atua na fronteira da rede ou no host (*host-based firewall*), inspecionando o tráfego de entrada e saída com base em uma tabela de regras de segurança (endereço IP de origem/destino, porta e protocolo):
-  * *Firewall Stateless:* Analisa pacotes isoladamente sem considerar o estado prévio da conexão.
-  * *Firewall Stateful (com estado):* Monitora o contexto e o fluxo das conexões ativas, permitindo respostas legítimas a requisições internas iniciadas pelo host.
-  * *Next-Generation Firewall (NGFW):* Inspeciona a camada de aplicação (Layer 7), detecta assinaturas de ataques em profundidade (DPI - Deep Packet Inspection) e integra sistemas de prevenção de intrusão (IPS).
-* **Antivírus e Mecanismos de Detecção:**
-  * *Assinatura:* Compara hash e padrões binários conhecidos com uma base de dados previamente catalogada (ineficaz contra ameaças de dia zero / *zero-day*).
-  * *Heurística:* Analisa estruturas e instruções potencialmente suspeitas no código sem necessitar de assinatura prévia.
-  * *Comportamental / Sandbox:* Executa o programa em ambiente virtual isolado para observar ações em tempo real (ex.: tentativas de modificar o registro do sistema ou criptografar arquivos em massa).
-* **Autenticação Multifator (MFA - Multi-Factor Authentication):**
-  * Exige ao menos dois fatores distintos de categorias independentes:
-    1. *O que você sabe:* Senha, PIN, frase secreta.
-    2. *O que você tem:* Token físico, aplicativo autenticador OTP (TOTP), chave FIDO2/U2F, certificado digital em cartão/token.
-    3. *O que você é:* Biometria (impressão digital, reconhecimento facial, íris).
-    *(Nota: Inserir duas senhas ou senha + pergunta de segurança constitui apenas fator único repetido, e não MFA).*
-
-#### B. Estratégias e Procedimentos de Backup Corporativo
-* **Janela e Tipos de Backup:**
-  * **Backup Completo (Full):** Cópia integral do acervo de dados. A restauração requer apenas o último volume completo.
-  * **Backup Diferencial:** Cópia dos arquivos alterados desde o último backup completo. Não desmarca o bit de arquivo. A restauração requer o último backup completo + o último backup diferencial.
-  * **Backup Incremental:** Cópia apenas dos arquivos alterados desde o último backup qualquer (completo ou incremental anterior). Desmarca o bit de arquivo. A restauração requer o último backup completo + todos os backups incrementais subsequentes na sequência exata.
-* **A Regra 3-2-1 de Resiliência de Dados:**
-  * Manter no mínimo **3 cópias** dos dados fundamentais (1 primária de produção + 2 backups).
-  * Armazenar em **2 tipos de mídias físicas diferentes** (ex.: storage em disco SAN/NAS e fita magnética LTO ou nuvem).
-  * Manter **1 cópia fora da organização (off-site)** e fisicamente isolada da rede corporativa (**air-gapped** / offline), garantindo recuperação garantida em catástrofes físicas ou incidentes graves de ransomware que propagam pela rede.
-
----
-
-### 4. Criptografia Simétrica, Assimétrica, Funções de Hash, Assinatura Digital e ICP-Brasil (Alvo E1)
-
-#### A. Criptografia Simétrica (Chave Secreta)
-* **Conceito:** Utiliza **a mesma chave secreta** para cifrar o texto em claro (*plaintext*) e para decifrar o texto cifrado (*ciphertext*).
-* **Vantagens e Desvantagens:**
-  * *Vantagens:* Altíssima velocidade de processamento e baixo consumo computacional; ideal para cifrar grandes volumes de dados em repouso (bancos de dados relacionais, unidades de disco e fitas de backup).
-  * *Desvantagens:* Problema crítico de **distribuição de chaves** (como enviar a chave secreta ao destinatário sem que ela seja interceptada no canal) e escalabilidade quadrática ($n(n-1)/2$ chaves necessárias para $n$ usuários se comunicarem aos pares em segredo).
-* **Algoritmos Canônicos:**
-  * **AES (Advanced Encryption Standard):** Padrão do NIST e mundial, cifra de bloco operando em blocos de 128 bits com chaves de 128, 192 ou 256 bits. Robusto contra ataques práticos.
-  * **DES / 3DES (Data Encryption Standard):** Obsoletos; o DES (chave efetiva de 56 bits) é vulnerável a ataques de força bruta; o 3DES aplica o DES três vezes, mas foi superado pelo AES em segurança e eficiência.
-  * **ChaCha20 / RC4:** Cifras de fluxo (stream ciphers). O RC4 é obsoleto e vulnerável; o ChaCha20 é moderno e veloz em plataformas móveis.
-
-#### B. Criptografia Assimétrica (Chave Pública)
-* **Conceito (Diffie e Hellman, 1976):** Baseia-se em problemas matemáticos de difícil inversão (fatoração de inteiros grandes, logaritmo discreto e curvas elípticas). Utiliza **um par de chaves matematicamente correlacionadas**:
-  * **Chave Pública:** Amplamente divulgada e acessível a qualquer pessoa; utilizada para cifrar mensagens destinadas ao titular ou para verificar a assinatura digital gerada por ele.
-  * **Chave Privada:** Mantida sob posse e segredo absoluto do titular; utilizada para decifrar mensagens recebidas ou para assinar digitalmente documentos.
-* **Propriedade Fundamental:** O que é cifrado com a chave pública só pode ser decifrado com a chave privada correspondente; inversamente, o que é cifrado com a chave privada só pode ser decifrado com a chave pública correspondente.
-* **Vantagens e Desvantagens:**
-  * *Vantagens:* Elimina a necessidade de compartilhamento prévio de segredos em canais inseguros; viabiliza assinaturas digitais com não repúdio.
-  * *Desvantagens:* Custo computacional centenas a milhares de vezes superior à simétrica; inviável para cifração direta de arquivos gigantescos.
-* **Algoritmos Canônicos:**
-  * **RSA (Rivest, Shamir, Adleman, 1977):** Baseado na dificuldade de fatoração de produtos de primos grandes. Chaves recomendadas de no mínimo 2048 ou 4096 bits.
-  * **ECC (Elliptic Curve Cryptography):** Baseado em logaritmos discretos em curvas elípticas. Oferece o mesmo nível de segurança do RSA com chaves drasticamente menores (ex.: 256 bits ECC $\\approx$ 3072 bits RSA), com menor consumo de memória e energia.
-
-#### C. Funções de Resumo Criptográfico (*Hash Functions*) e Fixidez na Preservação Digital
-* **Conceito:** Algoritmo matemático determinístico e **unidirecional (*one-way*)** que mapeia uma entrada de tamanho arbitrário em um resumo binário de tamanho estritamente fixo (*hash* ou *digest*).
-* **Propriedades Indispensáveis:**
-  1. *Determinismo:* O mesmo dado de entrada sempre produz exatamente o mesmo hash.
-  2. *Unidirecionalidade (Resistência à Primeira Pré-Imagem):* Dado um resumo $h$, é computacionalmente inviável encontrar a entrada $x$ tal que $\\text{Hash}(x) = h$.
-  3. *Resistência à Segunda Pré-Imagem:* Dada uma entrada $x$, é computacionalmente inviável encontrar outra entrada $y \\neq x$ tal que $\\text{Hash}(y) = \\text{Hash}(x)$.
-  4. *Resistência a Colisões:* É computacionalmente inviável encontrar quaisquer duas entradas distintas $x$ e $y$ que gerem o mesmo resumo.
-  5. *Efeito Avalanche:* A alteração de um único bit no arquivo original modifica de forma imprevisível cerca de 50% dos bits do resumo gerado.
-* **Famílias de Algoritmos:**
-  * **MD5 (128 bits) e SHA-1 (160 bits):** Criptograficamente **vulneráveis e obsoletos**. Ataques práticos comprovaram geração de colisões. Proibidos para segurança e certificação digital na ICP-Brasil.
-  * **Família SHA-2 (Secure Hash Algorithm 2):** SHA-256 (256 bits) e SHA-512 (512 bits), recomendados internacionalmente pelo NIST e obrigatórios no ecossistema governamental brasileiro.
-  * **Família SHA-3 (Keccak):** Padrão mais recente com arquitetura de esponja (*sponge construction*), independente do SHA-2.
-* **Aplicação Canônica em Bibliotecas e Arquivos (Fixidez / *Fixity*):**
-  * No modelo **OAIS (ISO 14721)** e no esquema de metadados **PREMIS (ISO 16363)**, a geração de resumos de hash (SHA-256) na ingestão de Pacotes de Informação para Submissão (SIP) e sua verificação periódica no armazenamento (AIP) constituem a rotina técnica de **auditoria de fixidez (*fixity check*)**, garantindo que nenhum documento legislativo sofreu alteração maliciosa ou degradação silenciosa de bits (*bit rot* / *silent data corruption*).
-
-### 5. Assinatura Digital e ICP-Brasil Asseguram Autenticidade, Integridade e Não Repúdio com Validade Jurídica
-
-#### A. Assinatura Digital: Funcionamento, Propriedades e Distinções Críticas
-* **Mecanismo de Geração e Verificação:**
-  1. *Geração (Signatário):* O software aplica uma função de hash (ex.: SHA-256) ao documento original, produzindo um resumo. Em seguida, cifra esse resumo utilizando a **chave privada** do signatário. O resultado cifrado é a **assinatura digital**, que é anexada ao documento.
-  2. *Verificação (Destinatário ou Cidadão):* O verificador decifra a assinatura digital utilizando a **chave pública** do signatário, obtendo o resumo original. Paralelamente, calcula o hash do documento recebido. Se ambos os resumos forem perfeitamente idênticos, a assinatura é matematicamente válida.
-* **Garantias Fornecidas:**
-  * **Autenticidade:** Confirma a identidade inequívoca do signatário (somente o detentor da chave privada exclusiva pôde gerar aquela assinatura).
-  * **Integridade:** Garante que o documento não sofreu qualquer adulteração posterior (qualquer alteração no texto faria o hash calculado divergir do hash decifrado).
-  * **Não Repúdio (Irretratabilidade):** O autor da assinatura não pode negar juridicamente a autoria do ato ou declaração perante terceiros.
-* **Quadro de Distratores Cebraspe: Assinatura Digital vs. Eletrônica vs. Digitalizada**
-  * *Assinatura Digitalizada:* Mera imagem gráfica escaneada da assinatura manuscrita (PNG, JPEG). **Não possui segurança criptográfica**, podendo ser recortada e colada livremente em qualquer fraude.
-  * *Assinatura Eletrônica:* Gênero amplo (Lei Federal nº 14.063/2020) que abrange qualquer método eletrônico de identificação (login e senha, código SMS, biometria). Divide-se em: simples, avançada e qualificada.
-  * *Assinatura Digital Qualificada (ICP-Brasil):* Espécie tecnicamente mais rigorosa, gerada por criptografia assimétrica lastreada em certificado digital emitido no âmbito da ICP-Brasil, com presunção legal absoluta de veracidade.
-
-#### B. A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil - MP nº 2.200-2/2001)
-* **Origem e Marco Legal:** Criada pela **Medida Provisória nº 2.200-2, de 24 de agosto de 2001**, com a finalidade de garantir a autenticidade, a integridade e a validade jurídica de documentos em forma eletrônica e das aplicações de suporte no Brasil.
-* **Estrutura Hierárquica da ICP-Brasil:**
-  * **AC Raiz (Autoridade Certificadora Raiz):** Única autoridade do topo da cadeia de confiança, operada pelo **ITI (Instituto Nacional de Tecnologia da Informação)**, autarquia vinculada à Casa Civil da Presidência da República. Executa a geração das chaves da AC Raiz e emite, expede, distribui, revoga e gerencia os certificados das Autoridades Certificadoras de primeiro nível.
-  * **Autoridades Certificadoras (ACs):** Entidades autorizadas a emitir, suspender, revogar e gerenciar os certificados digitais dos usuários finais e de servidores.
-  * **Autoridades de Registro (ARs):** Entidades operacionais responsáveis pelo atendimento presencial ou validação biométrica remota, identificação cadastral e conferência documental dos requerentes de certificados.
-* **Classificação dos Certificados Digitais na ICP-Brasil:**
-  * **Série A (Assinatura Digital):**
-    * **Certificado A1:** O par de chaves é gerado por software e armazenado diretamente no computador ou dispositivo móvel do usuário (arquivo com extensão \`.pfx\` ou \`.p12\`). Possui **validade máxima de 1 ano**. Vantagem: praticidade e uso automatizado em servidores; desvantagem: vulnerabilidade a cópia indevida caso o sistema seja invadido.
-    * **Certificado A3:** O par de chaves é gerado no interior de um **dispositivo físico de hardware criptográfico inviolável** (smartcard com leitora ou token USB criptográfico) que atende aos padrões de segurança internacionais (FIPS 140-2 nível 2 ou superior). A chave privada nunca sai do dispositivo nem pode ser exportada; as operações de assinatura ocorrem dentro do chip. Possui **validade de até 3 a 5 anos**.
-  * **Série S (Sigilo / Confidencialidade):** Utilizados para cifração simétrica/assimétrica de dados confidenciais (S1, S3 e S4).
-  * **Série T (Tempo / Carimbo do Tempo):** Emitidos por Autoridades de Carimbo do Tempo (ACT), atestam que um documento digital existia em determinado instante temporal sincronizado com o Observatório Nacional.
-* **Presunção Legal de Veracidade (Art. 10 da MP nº 2.200-2/2001):**
-  * *Art. 10, § 1º:* As declarações constantes dos documentos em forma eletrônica produzidos com a utilização de processo de certificação disponibilizado pela ICP-Brasil **presumem-se verdadeiros em relação aos signatários**, na forma do art. 131 da Lei nº 3.071/1916 (atual art. 219 do Código Civil).
-  * *Art. 10, § 2º:* O disposto na MP não obsta a utilização de outro meio de comprovação da autoria e integridade de documentos em forma eletrônica, desde que admitido pelas partes como válido ou aceito pela pessoa a quem for oposto o documento (origem das assinaturas eletrônicas avançadas).
-
----
-
-### 5. Gestão de Riscos de Segurança da Informação (Alvo E2)
-
-#### A. O Ecossistema Normativo: ABNT NBR ISO 31000:2018 e ISO/IEC 27005:2023
-* **ABNT NBR ISO 31000:2018 (Gestão de Riscos — Diretrizes):**
-  * Fornece princípios, estrutura (*framework*) e processo genérico de gestão de riscos aplicável a qualquer organização pública ou privada.
-  * Define **Risco** como: *"O efeito da incerteza nos objetivos"*. O efeito é um desvio em relação ao esperado, podendo ser positivo, negativo ou ambos.
-* **ABNT NBR ISO/IEC 27005:2023 (Segurança da Informação, Cibersegurança e Proteção da Privacidade — Gestão de Riscos de Segurança da Informação):**
-  * Norma setorial especializada que detalha a condução da gestão de riscos sob a perspectiva dos ativos de informação, ameaças, vulnerabilidades e impactos sobre os objetivos de segurança (Confidencialidade, Integridade e Disponibilidade).
-
-#### B. As Fases do Processo de Gestão de Riscos (ISO 31000 / ISO/IEC 27005)
-O processo é dinâmico, iterativo e compõe-se das seguintes etapas interligadas:
-1. **Comunicação e Consulta:** Diálogo contínuo com as partes interessadas (*stakeholders*) para reunir informações e justificar tomadas de decisão.
-2. **Escopo, Contexto e Critérios:** Definição dos limites do processo (ex.: repositório institucional digital da Biblioteca da Câmara), compreensão do ambiente interno e externo e estabelecimento dos **critérios de aceitação e apetite a risco**.
-3. **Processo de Avaliação de Riscos (*Risk Assessment*):** Compreende obrigatoriamente três etapas sucessivas:
-   * **Identificação de Riscos:** Mapear fontes de risco, eventos potenciais, ameaças (humanas ou ambientais), vulnerabilidades dos ativos de informação e suas causas.
-   * **Análise de Riscos:** Compreender a natureza e o nível do risco, determinando a combinação entre a **Probabilidade de Ocorrência** e o **Impacto / Consequência** caso o evento se concretize. Pode ser qualitativa (escalas ordinal: baixo, médio, alto), semi-quantitativa ou quantitativa (valores monetários ou perdas operacionais).
-   * **Avaliação de Riscos (*Risk Evaluation*):** Comparar os resultados da análise de riscos com os critérios de tolerância pré-estabelecidos para decidir se o risco é aceitável ou se demanda tratamento prioritário.
-4. **Tratamento de Riscos (*Risk Treatment*):** Seleção e implementação de uma ou mais opções estruturadas:
-   * **Mitigar / Reduzir (*Risk Mitigation*):** Aplicar controles de segurança técnicos, organizacionais ou procedimentais para diminuir a probabilidade de falha ou a severidade do impacto (ex.: instalar firewall de aplicação web, exigir MFA para administradores de rede, implementar controle de temperatura no CPD).
-   * **Aceitar / Reter (*Risk Acceptance*):** Assumir conscientemente o risco residual, sem medidas adicionais, quando o custo da contramedida supera o prejuízo potencial ou quando o risco residual situa-se dentro da tolerância institucional aprovada pela alta administração.
-   * **Evitar (*Risk Avoidance*):** Decidir não iniciar ou descontinuar a atividade, processo ou tecnologia vulnerável para eliminar completamente a exposição ao risco.
-   * **Transferir / Compartilhar (*Risk Sharing / Transfer*):** Repassar o risco ou parte de suas consequências financeiras e operacionais a terceiros (ex.: contratação de apólice de seguro cibernético ou contratação de serviço em nuvem com cláusulas de Acordo de Nível de Serviço - SLA rigorosas).
-5. **Monitoramento e Análise Crítica:** Acompanhamento permanente da evolução das ameaças, eficácia dos controles e reavaliação periódica dos riscos residuais.
-6. **Registro e Relato:** Documentação formal de todo o processo para auditoria, governança e prestação de contas.
-
-#### C. Matriz de Probabilidade $\\times$ Impacto Aplicada à Biblioteca Pedro Aleixo (Caso Concreto)
-
-A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos históricos do Império e da República quanto o Repositório Institucional da Câmara (depósito legal e produção legislativa digital). A tabela a seguir ilustra a aplicação prática da matriz de riscos $3 \\times 3$:
-
-| ID do Risco | Evento / Ameaça Identificada | Vulnerabilidade Associada | Probabilidade | Impacto | Nível de Risco | Estratégia de Tratamento Adotada |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **R-01** | Infecção por Ransomware no servidor do SIGB | Portas RDP expostas e ausência de MFA em contas de bibliotecários | Média | Extremo | **Crítico (Tratar Imediato)** | **Mitigar:** Fechamento de portas RDP, exigência de MFA obrigatório e isolamento de backups air-gapped offline. |
-| **R-02** | Corrupção silenciosa de bits (*Bit Rot*) em atas digitalizadas do século XIX | Mídias de disco ótico antigas e falta de rotina periódica de auditoria | Alta | Alto | **Alto (Prioritário)** | **Mitigar:** Migração para storage SAN redundante com rotina automatizada de checagem de fixidez (*checksum* SHA-256) a cada 90 dias conforme PREMIS. |
-| **R-03** | Indisponibilidade do catálogo público online (OPAC) por pico de acessos | Servidor web local com dimensionamento estático | Baixa | Médio | **Médio (Monitorar)** | **Transferir / Mitigar:** Migração da camada de apresentação para nuvem elástica (*autoscaling*) com balanceador de carga. |
-| **R-04** | Furto de terminal de consulta pública do salão de leitura | Ambiente aberto ao público sem ancoragem física dos cabos | Baixa | Baixo | **Baixo (Aceitável)** | **Aceitar:** O custo de blindagem supera o valor venal do computador desprovido de privilégios de rede. |
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Preservação Digital e Repositórios Confiáveis (sub-6-3):** Uso de criptografia hash para verificação de fixidez.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-As **Redes de Computadores, a Internet/Intranet, a Criptografia e a Segurança da Informação (ISO 27001)** formam a barreira de defesa cibernética das instituições de Estado:
-1. **Pilares da Segurança da Informação (Mnemônico CIDAL):**
-   - **Confidencialidade:** A informação só pode ser acessada por pessoas e sistemas expressamente autorizados.
-   - **Integridade:** A informação é exata, completa e protegida contra modificações ou exclusões não autorizadas.
-   - **Disponibilidade:** A informação e os serviços estão acessíveis aos usuários autorizados sempre que necessário.
-   - **Autenticidade:** Garantia da autoria e identidade do emissor do documento.
-   - **Não Repúdio (Irretratabilidade):** O autor da ação ou assinatura não pode negar legitimamente que a praticou.
-2. **Criptografia Simétrica vs. Assimétrica e Certificação Digital (ICP-Brasil):**
-   - **Simétrica (Chave Secreta):** Uma única chave secreta é usada para criptografar e descriptografar (ex.: AES, DES). Muito rápida, porém vulnerável na distribuição da chave.
-   - **Assimétrica (Chaves Pública e Privada):** Usa um par de chaves matematicamente correlacionadas:
-     - *Criptografia de Conteúdo:* Criptografa com a **chave pública** do destinatário $\to$ Apenas o destinatário abre com sua **chave privada** secreta (garante **Confidencialidade**).
-     - *Assinatura Digital:* O autor cifra o hash do documento com sua própria **chave privada** secreta $\to$ Qualquer pessoa decodifica com a **chave pública** do autor (garante **Autenticidade, Integridade e Não Repúdio**!).
-3. **Ameaças e Códigos Maliciosos (*Malware*):**
-   - **Vírus:** Depende da execução de um programa hospedeiro para infectar e se propagar.
-   - **Worm (Verme):** Não depende de hospedeiro; propaga-se **automaticamente pelas redes** explorando vulnerabilidades.
-   - **Cavalo de Troia (*Trojan*):** Programa aparentemente inofensivo (jogo, utilitário) que, ao ser executado, abre portas para invasores (*backdoors*).
-   - **Ransomware:** Criptografa os arquivos da vítima e exige resgate financeiro em criptomoeda para fornecer a chave de desbloqueio.
-   - **Phishing:** Engenharia social via e-mail ou mensagens falsas que induzem o usuário a entregar senhas e dados bancários.
-   - **Pharming:** Ataque de envenenamento de DNS que redireciona o usuário de um site legítimo para uma página falsa mesmo que ele digite a URL correta no navegador!
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Assinatura Digital de Autógrafo de Lei pelo Presidente da Câmara):** O Presidente da Câmara assina digitalmente a redação final de um projeto de lei aprovado para envio à sanção presidencial. Ele utiliza seu certificado digital ICP-Brasil com sua **chave privada secreta**. A Presidência da República valida o documento com a **chave pública**, garantindo **integridade e não repúdio** com fé pública.
-- **Cenário 2 (Defesa contra Ataque de Ransomware nos Servidores da BDCam):** Um atacante envia e-mail com anexo malicioso tentando sequestrar os bancos de dados da biblioteca. O firewall de borda da Câmara e as ferramentas de EDR bloqueiam a execução do script e ativam a política de backup imutável isolado (*air-gap*), assegurando a **disponibilidade contínua** da memória legislativa.
-- **Cenário 3 (VPN e Conexão Segura na Intranet da Biblioteca):** Um analista legislativo em teletrabalho acessa o SIGB Aleph da Câmara a partir de casa. A conexão é encapsulada por um túnel criptografado **VPN (*Virtual Private Network*) com protocolo IPsec/TLS**, garantindo a **confidencialidade** do tráfego através da internet pública.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Mecanismo / Tipo de Malware | Como Funciona Exatamente | Propriedade Garantida / Dano | Pegadinha Cebraspe |
-| :--- | :--- | :--- | :--- |
-| **Criptografia com Chave Pública** | Cifra com a pública do receptor | **Confidencialidade** | Dizer que garante assinatura digital |
-| **Assinatura com Chave Privada** | Cifra o hash com a privada do autor | **Autenticidade e Não Repúdio** | Dizer que garante confidencialidade |
-| **Worm (Verme)** | Auto-replicação pela rede sem hospedeiro | Consome banda e recursos de rede | Confundir com vírus comum |
-| **Pharming** | Envenenamento de cache DNS | Redireciona o navegador para site falso | Confundir com phishing por e-mail |
-| **Ransomware** | Cifra os discos e pede resgate | Viola a Disponibilidade dos dados | Chamar de mero spyware |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Assinatura Digital Garante Confidencialidade:** O Cebraspe afirma categoricamente que a assinatura digital serve para manter o documento em segredo/confidencial. **Gabarito: ERRADO.** A assinatura digital garante **Autenticidade, Integridade e Não Repúdio**; o documento assinado pode ser perfeitamente público e legível por qualquer cidadão!
-- **Worm Precisa de Hospedeiro:** Dizer que o worm precisa infectar arquivos executáveis para se espalhar. **Gabarito: ERRADO.** Quem precisa de hospedeiro é o **vírus**; o worm é um programa independente e autorreplicante pelas redes.
-- **Criptografia Simétrica com Duas Chaves:** Afirmar que a criptografia simétrica usa uma chave para codificar e outra diferente para decodificar. **Gabarito: ERRADO.** A criptografia simétrica utiliza **uma única e mesma chave secreta** para ambas as operações.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **TANENBAUM, Andrew S.; WETHERALL, David J.** *Redes de Computadores*. 6. ed. São Paulo: Pearson, 2021. (A obra canônica mundial de redes de dados).
-- **ABNT NBR ISO/IEC 27001:2022.** *Segurança da informação, segurança cibernética e proteção da privacidade — Sistemas de gestão da segurança da informação — Requisitos*. Rio de Janeiro: ABNT, 2022.
-- **STALLINGS, William.** *Criptografia e Segurança de Redes: princípios e práticas*. 6. ed. São Paulo: Pearson, 2014.
-- **CERT.BR.** *Cartilha de Segurança para a Internet*. São Paulo: Comitê Gestor da Internet no Brasil (CGI.br), 2021.
-- **INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO (ITI).** *Padrões da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)*. Brasília: ITI, 2022.
-
-### Pausa de Recuperação Ativa: Propriedades ACID vs. Teorema CAP
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Relembre as quatro propriedades ACID dos bancos relacionais (Atomicidade, Consistência, Isolamento e Durabilidade) e os três pilares do Teorema CAP para sistemas distribuídos (Consistência, Disponibilidade e Tolerância ao Particionamento).
-`,
-  checkpoints: [
-    {
-      id: 'cp-14-2-1',
-      pergunta: 'Micro-Checkpoint 1: Segurança da Informação - Phishing vs. Pharming',
-      item: 'No ataque de pharming, o usuário é induzido por um e-mail fraudulento a clicar em um link enganoso; diferentemente do phishing, no qual a tabela de resolução de nomes (DNS) é corrompida para redirecionar o tráfego mesmo quando o endereço correto é digitado.',
-      gabarito: 'E',
-      justificativa: 'Errado! Segundo as diretrizes do CERT.br (2021) e William Stallings (2018), os conceitos foram invertidos pela banca. O phishing baseia-se na indução humana por mensagens capciosas (engenharia social), enquanto o pharming compromete a resolução de nomes (DNS Cache Poisoning ou arquivo hosts) redirecionando o tráfego tecnicamente mesmo com a digitação da URL correta.',
-    },
-    {
-      id: 'cp-14-2-2',
-      pergunta: 'Micro-Checkpoint 2: Criptografia Assimétrica, Assinatura Digital e ICP-Brasil',
-      item: 'No âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, a assinatura digital qualificada é gerada a partir da cifração do resumo criptográfico (hash) do documento eletrônico com a chave pública do signatário, permitindo que qualquer terceiro decifre a assinatura com a chave privada correspondente para atestar a autenticidade.',
-      gabarito: 'E',
-      justificativa: 'Errado! Conforme preceituado por William Stallings (2018) e pela MP nº 2.200-2/2001, a assinatura digital é gerada mediante a cifração do hash do documento com a chave PRIVADA do signatário (de posse exclusiva deste). A verificação da assinatura é realizada por terceiros decifrando-a com a chave PÚBLICA do signatário. A assertiva inverteu a função das chaves.',
-    },
-    {
-      id: 'cp-14-2-3',
-      pergunta: 'Micro-Checkpoint 3: Gestão de Riscos Informacionais (ISO 31000 e ISO/IEC 27005)',
-      item: 'De acordo com a ABNT NBR ISO 31000:2018 e a ABNT NBR ISO/IEC 27005:2023, o processo de avaliação de riscos (risk assessment) compreende as etapas sequenciais de identificação de riscos, análise de riscos e avaliação de riscos, sendo esta última a fase em que os níveis de risco estimados são comparados com os critérios de tolerância definidos para orientar a tomada de decisão sobre o tratamento.',
-      gabarito: 'C',
-      justificativa: 'Certo! Em estrita consonância com a ABNT NBR ISO 31000:2018 (item 5.4) e a ABNT NBR ISO/IEC 27005:2023, o risk assessment engloba exatamente a tríade: identificação, análise (probabilidade x impacto) e avaliação (comparação do nível de risco contra o apetite a risco da organização).',
-    },
+  "titulo": "Segurança: distinguir o objetivo",
+  "colunas": [
+    "Mecanismo",
+    "Objetivo pertinente",
+    "Limite"
   ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-14-2-1',
-        periodo: '1983 / 1988',
-        disciplina: 'Redes e Segurança',
-        focoPrincipal: 'Migração oficial da ARPANET para o protocolo TCP/IP e eclosão do Morris Worm na Internet',
-        figuraChave: 'Vinton Cerf / Robert Tappan Morris',
-      },
-      {
-        id: 'tl-14-2-2',
-        periodo: '2001',
-        disciplina: 'Certificação Digital',
-        focoPrincipal: 'Publicação da Medida Provisória nº 2.200-2/2001, instituindo a ICP-Brasil e a AC Raiz sob gestão do ITI',
-        figuraChave: 'Poder Executivo Federal / ITI',
-      },
-      {
-        id: 'tl-14-2-3',
-        periodo: '2018 / 2023',
-        disciplina: 'Gestão de Riscos e Cibersegurança',
-        focoPrincipal: 'Consolidação das normas ABNT NBR ISO 31000:2018 (Diretrizes de Riscos) e ABNT NBR ISO/IEC 27005:2023 (Riscos em Segurança da Informação)',
-        figuraChave: 'ISO / ABNT / Stallings (2018)',
-      },
+  "linhas": [
+    [
+      "Autenticação",
+      "Verificar identidade alegada",
+      "Não concede toda permissão"
     ],
-    autores: [
-      {
-        id: 'aut-14-2-1',
-        nome: 'William Stallings',
-        ano: 2018,
-        obraPrincipal: 'Criptografia e Segurança de Redes: Princípios e Práticas',
-        ideiaChave: 'Diferença simétrica x assimétrica, funções de hash seguras (SHA-2/3), assinatura digital com chave privada e gestão de risco.',
-        chipPegadinha: 'Assina com chave PRIVADA e verifica com chave PÚBLICA.',
-      },
-      {
-        id: 'aut-14-2-2',
-        nome: 'Andrew Tanenbaum',
-        ano: 2021,
-        obraPrincipal: 'Redes de Computadores (6ª Ed.)',
-        ideiaChave: 'Camadas de transporte (TCP orientado vs UDP veloz), resolução DNS e arquitetura de intranet.',
-        chipPegadinha: 'Intranet usa a mesmíssima pilha TCP/IP da Internet.',
-      },
-      {
-        id: 'aut-14-2-3',
-        nome: 'ABNT NBR ISO 31000:2018 / ISO/IEC 27005:2023',
-        ano: 2023,
-        obraPrincipal: 'Gestão de Riscos de Segurança da Informação',
-        ideiaChave: 'Processo de avaliação de riscos (identificação, análise, avaliação) e estratégias de tratamento (mitigar, aceitar, evitar, transferir).',
-        chipPegadinha: 'Avaliação de riscos (evaluation) compara com os critérios de tolerância.',
-      },
+    [
+      "Hash de fixidez",
+      "Comparar representação binária",
+      "Não certifica verdade material"
     ],
-    pegadinhas: [
-      {
-        id: 'peg-14-2-1',
-        afirmacao: 'A intranet de um órgão público legislativo opera com protocolos proprietários e fechados, sendo tecnicamente incompatível com os protocolos abertos TCP/IP utilizados na Internet mundial.',
-        gabarito: 'E',
-        porQue: 'A intranet utiliza EXATAMENTE os mesmos protocolos e serviços da Internet (TCP/IP, HTTP/HTTPS, DNS), restringindo apenas o perímetro de acesso por motivos de segurança.',
-      },
-      {
-        id: 'peg-14-2-2',
-        afirmacao: 'Para restaurar um sistema a partir de uma estratégia de backup incremental, basta disponibilizar o último volume incremental gerado, o qual já incorpora todos os estados anteriores.',
-        gabarito: 'E',
-        porQue: 'O incremental só armazena as alterações do dia. Para restaurar, é OBRIGATÓRIO o backup completo + TODOS os incrementais em sequência.',
-      },
-      {
-        id: 'peg-14-2-3',
-        afirmacao: 'A assinatura digitalizada, obtida pelo escaneamento da firma manuscrita de uma autoridade parlamentar inserida em arquivo PDF, detém a mesma validade jurídica e garantias de não repúdio que a assinatura digital baseada em certificado ICP-Brasil.',
-        gabarito: 'E',
-        porQue: 'A assinatura digitalizada é mera imagem gráfica desprovida de segurança criptográfica ou presunção legal de veracidade (MP nº 2.200-2/2001, art. 10, § 1º).',
-      },
-      {
-        id: 'peg-14-2-4',
-        afirmacao: 'Na gestão de riscos segundo a ABNT NBR ISO 31000:2018, a decisão de aceitar conscientemente um risco residual dispensa qualquer aprovação formal ou comparação prévia com os critérios de tolerância definidos pela organização.',
-        gabarito: 'E',
-        porQue: 'A aceitação/retenção do risco requer comparação formal com os critérios pré-estabelecidos na avaliação de riscos e aprovação do nível de risco pela alta administração.',
-      },
+    [
+      "Assinatura",
+      "Apoiar autoria/integridade",
+      "Não dispensa competência e análise de conteúdo"
     ],
+    [
+      "Backup",
+      "Permitir recuperação",
+      "Depende de cadeia, retenção e testes"
+    ],
+    [
+      "Avaliação de risco",
+      "Orientar decisão por critérios",
+      "Não transforma suposição em dado objetivo"
+    ]
+  ]
+},
+  teoriaDensaMarkdown: "### Redes: alcance, serviços e acesso\n\nUma rede conecta dispositivos e serviços; sua classificação pode considerar alcance, tecnologia e finalidade. **PAN** descreve âmbito pessoal; **LAN**, uma rede local; **MAN**, âmbito metropolitano; **WAN**, ampla área. Essas categorias não definem por si velocidade, segurança ou se o serviço é público. Ethernet e Wi-Fi são tecnologias de acesso, não sinônimos universais de uma classe de alcance.\n\n**Internet** articula redes e serviços sob protocolos comuns. **Intranet** usa tecnologias de rede para um contexto organizacional restrito. **Extranet** descreve acesso controlado de partes externas a recursos organizacionais. Uma instituição pode oferecer serviço público e serviço interno nos mesmos padrões web, com políticas de acesso diferentes.\n\n**Caso:** o catálogo público é acessível remotamente; a ferramenta interna de aquisição exige autenticação e acesso autorizado. O uso de HTTPS em ambos não elimina a diferença de público. Também não permite inferir que a intranet só funciona dentro do prédio: pode haver acesso remoto controlado conforme o projeto.\n\nConsidere separadamente **endereço**, **nome**, **rota** e **permissão**. Saber o endereço de um servidor não concede autorização de uso. Conseguir resolver um nome não demonstra que a aplicação está disponível. Um problema de rede deve identificar qual etapa falhou, em vez de tratar todo erro como “a internet caiu”.\n\n**Recuperação:** descreva uma rede local que acessa a internet e um serviço interno dessa rede. Quais recursos permanecem restritos? Qual tecnologia de comunicação isso permite reconhecer e qual política continua precisando ser definida?\n\n### TCP/IP e serviços: o que cada camada resolve\n\n**IP** trata de endereçamento e encaminhamento de pacotes. IPv4 usa endereços de 32 bits; IPv6, de 128 bits. A notação exibida não é o tamanho em caracteres obrigatório de todo endereço: IPv6 admite abreviações sob regras. **TCP** oferece mecanismos de conexão, ordenação e retransmissão; **UDP** fornece datagramas sem esses mesmos mecanismos de confiabilidade no protocolo.\n\nNão conclua que UDP é sempre mais rápido em qualquer aplicação ou que TCP garante sucesso diante de toda falha. A aplicação pode implementar controles sobre UDP, e o ambiente determina perdas, latência e disponibilidade. O estabelecimento de conexão TCP costuma ser explicado pelo intercâmbio SYN, SYN-ACK e ACK; esse procedimento não substitui o restante do protocolo.\n\n**DNS** associa nomes e informações de domínio, incluindo registros de endereços; **DHCP** pode fornecer parâmetros de configuração a um dispositivo. São funções diferentes. Um endereço manual não prova ausência de DNS, e um servidor DNS não fornece automaticamente toda configuração de rede como DHCP.\n\nNo estudo das portas convencionais, reconheça exemplos: DNS 53 em UDP/TCP conforme operação, SSH 22/TCP, HTTP 80 e HTTPS 443 em seus usos usuais. Não trate essa tabela como descrição de todas as versões: HTTP/3 usa QUIC sobre UDP, por exemplo. Um item precisa delimitar protocolo e contexto quando essa distinção muda a resposta.\n\n**TLS** protege a comunicação conforme negociação e validação aplicáveis; SSL é referência histórica que não deve ser recomendada como equivalente técnico atual sem ressalva. **ICMP** apoia controle e diagnóstico; responder a ping não certifica que o catálogo ou outro serviço de aplicação funciona corretamente.\n\n### Ameaças: comportamento e mecanismo, não apenas o nome\n\n**Phishing** envolve comunicação fraudulenta para induzir ação, como fornecer credenciais ou abrir um anexo. Pode usar diferentes canais; uma mensagem dirigida a pessoa/setor específico caracteriza o recorte direcionado conhecido como spear phishing. **Pharming** envolve redirecionamento associado a manipulação de resolução/caminho, como comprometimento de DNS ou arquivo de nomes local, conforme o cenário.\n\n**Vírus** associa sua propagação a código hospedeiro; não é seguro afirmar que toda infecção depende de um clique explícito consciente. **Worm** pode propagar-se de modo autônomo em redes. **Cavalo de Troia** aparenta funcionalidade legítima e executa ação maliciosa; não precisa cumprir toda característica de vírus ou worm. **Ransomware** restringe acesso para extorsão e pode empregar criptografia, bloqueio e outras práticas; nem toda variante se resume ao mesmo mecanismo.\n\nProgramas de espionagem e captura de atividade podem recolher informações. Uma **botnet** reúne dispositivos controlados para fins como ataques distribuídos. As categorias podem se sobrepor: o vetor de entrada e a ação posterior não são a mesma dimensão.\n\n**Caso resolvido:** um e-mail imita o suporte e pede senha numa página falsa. O texto descreve engenharia social compatível com phishing. Não é necessário supor que o DNS foi alterado. Se o usuário digita o domínio correto e um comprometimento de resolução o conduz a outro destino, o mecanismo descrito é diferente.\n\nA prevenção combina verificação de origem, atualização, configuração, autorização e resposta a incidentes. Nenhuma instrução como “nunca clique” resolve todas as formas de ataque. A aprendizagem deve permitir explicar como a ação solicitada e o ambiente se relacionam ao risco.\n\n### Proteção e autenticação: controles têm alcance\n\n**Identificar** é declarar/associar identidade; **autenticar** busca verificar a alegação; **autorizar** define o que o sujeito pode fazer. Entrar no sistema não concede acesso irrestrito a todos os documentos. O princípio de menor privilégio orienta conceder o necessário à finalidade, com revisão de permissões.\n\nAutenticação multifator combina fatores de categorias distintas, como conhecimento, posse e inerência. Senha mais pergunta secreta continua usando conhecimento. Um aplicativo ou dispositivo de posse, com controles próprios, é outra categoria. A segurança concreta também depende de recuperação de conta, resistência a fraude e configuração; o nome MFA não elimina todas as ameaças.\n\n**Firewall** aplica políticas sobre tráfego conforme suas capacidades e regras; não é sinônimo de antivírus nem prova de que todo ataque será bloqueado. Ferramentas de detecção podem usar assinaturas, análise heurística e comportamento. Ausência de alerta não certifica ausência de comprometimento. **Sandbox** permite observação controlada, mas também tem limites de representação do ambiente e do comportamento da ameaça.\n\n**Exemplo:** o usuário possui credencial válida, mas precisa somente consultar um relatório. Conceder função de administrador para tornar o acesso mais fácil amplia exposição desnecessária. Separar a permissão de consulta da gestão do sistema atende à tarefa com menor alcance.\n\nControles devem ser articulados: atualização, cópias de segurança, monitoramento, gestão de contas e resposta. Uma camada não autoriza abandonar as demais. Em prova, examine qual propriedade o mecanismo atende e qual garantia excessiva foi atribuída a ele.\n\n### Backup: reconstruir o estado e testar a recuperação\n\nNo esquema tradicional, **completo** copia o conjunto definido; **diferencial** reúne mudanças desde o último completo; **incremental** reúne mudanças desde o ponto anterior pertinente da cadeia. Implementações modernas podem usar estratégias sintéticas e outros mecanismos, portanto o enunciado precisa delimitar o modelo.\n\n**Exemplo resolvido:** completo no domingo e incrementais na segunda, terça e quarta. Para restaurar o estado de quarta nesse esquema, parte-se do completo e aplica-se a cadeia necessária. Com diferenciais, o completo e o diferencial do ponto escolhido podem bastar. O critério decisivo é de onde cada cópia calcula suas alterações, não só o volume aparente.\n\n**3-2-1** é uma orientação de redundância de cópias, diversidade de meios e localização externa. Off-site não é sinônimo de offline nem de air gap: uma cópia externa pode continuar acessível com a mesma credencial comprometida. Isolamento, imutabilidade, retenção e teste de restauração são decisões adicionais.\n\n**RPO** relaciona-se ao ponto de recuperação e perda de dados tolerada no enquadramento do plano; **RTO**, ao tempo para recuperar serviço. Ter cópias a cada dia não demonstra que a restauração ocorrerá em poucos minutos. Um projeto precisa testar dados, dependências, chaves e procedimentos.\n\nA sincronização tratada em 14.1 pode propagar exclusões. Redundância de disco também não substitui backup contra toda perda lógica ou incidente. O aluno deve explicar de qual falha a medida protege e como os dados serão efetivamente recuperados, em vez de repetir “backup garante tudo”.\n\n### Criptografia, hash e fixidez: propriedades diferentes\n\n**Criptografia simétrica** usa segredo compartilhado no esquema pertinente; **assimétrica** usa chaves relacionadas com operações definidas pelo algoritmo. Sistemas podem combinar métodos, usando estabelecimento de segredo e proteção eficiente do conteúdo. Não se deve afirmar que toda chave pública serve indistintamente para cifrar e verificar em qualquer algoritmo.\n\n**AES** é exemplo de cifra simétrica; **RSA** e algoritmos de curvas elípticas ilustram famílias de criptografia de chave pública em usos definidos. A segurança depende de parâmetros, implementação e ciclo de vida das chaves. Evite regras universais de custo ou recomendações numéricas descontextualizadas de versão e finalidade.\n\n**Hash criptográfico** produz um resumo conforme a função. Mesma entrada e algoritmo determinam o mesmo resultado. Para usos de segurança, são relevantes resistências a pré-imagem e colisões, com níveis que dependem da função. O espaço finito de resumos implica que colisões são matematicamente possíveis; o objetivo de resistência é torná-las inviáveis de explorar no cenário de segurança considerado.\n\n**Fixidez:** comparar um valor calculado ao valor de referência confiável ajuda a verificar manutenção dos bits. Isso não demonstra que a informação escrita é verdadeira nem reconstrói automaticamente um arquivo danificado. Referência, algoritmo, registro do procedimento e proteção dos valores precisam ser considerados.\n\n**PREMIS** descreve metadados de preservação, incluindo informação pertinente à fixidez. Não é a ISO 16363, referência de auditoria/certificação de repositórios confiáveis. Tampouco impõe uma regra universal de checar todo acervo a cada noventa dias. Periodicidade e controles dependem de política, risco e ambiente.\n\n**Caso:** um PDF materialmente incorreto pode ter o mesmo hash durante anos. Sua integridade binária não converte conteúdo falso em verdadeiro. Essa distinção reaparece na assinatura digital.\n\n### Assinatura digital e ICP-Brasil: autoria não é verdade material\n\nUma assinatura digital usa um esquema criptográfico de geração e verificação. O signatário utiliza a chave privada pertinente; a verificação usa material público correspondente conforme o algoritmo. A explicação “cifrar hash e depois decifrar” pode ser uma simplificação de alguns tratamentos didáticos, mas não descreve universalmente algoritmos como os contemplados pelo padrão de assinaturas do NIST.\n\nA assinatura apoia verificar autoria associada à chave e integridade nos termos do procedimento. **Certificado** vincula identidade e chave pública sob uma cadeia e política de confiança; **carimbo do tempo** acrescenta evidência temporal segundo seu serviço. Validação envolve também estado do certificado, cadeia e demais condições aplicáveis, não apenas verificar se há uma imagem de rubrica.\n\nA MP 2.200-2/2001 institui a ICP-Brasil e, no art. 10, trata da presunção em relação aos signatários. Isso não deve ser ensinado como verdade absoluta e incontestável de toda declaração. Assinar um relatório com erro não torna o dado correto nem dispensa examinar competência, validade do ato e eventual contestação.\n\nA Lei 14.063/2020 distingue assinaturas eletrônicas **simples, avançadas e qualificadas** em seu alcance. Qualificada utiliza certificado ICP-Brasil. Uma assinatura digitalizada é imagem, e não o mesmo mecanismo criptográfico. O regime admite análise dos meios e exigências específicos; não conclua que qualquer documento fora da ICP-Brasil seja necessariamente sem valor.\n\nNa infraestrutura, ACs emitem certificados e ARs realizam identificação conforme as regras; o ITI atua como autoridade certificadora raiz. Tipos e requisitos precisam ser consultados no normativo aplicável. A3 não deve ser reduzido a “somente um token USB inviolável”: há serviços de armazenamento/uso em nuvem sob condições próprias. Não invente duração universal para todo certificado sem fonte de versão.\n\n### Gestão de riscos: critérios, decisão e acompanhamento\n\nGerir riscos envolve reconhecer incertezas que afetam objetivos, compreender contexto e critérios, identificar eventos e fontes, analisar consequências e decidir respostas. A **ISO 31000:2018** oferece diretrizes gerais; a família de segurança da informação trata seu domínio específico. Referenciar uma norma não autoriza inventar número de cláusula nem aplicar toda redação de uma edição a outra.\n\n**Identificação** descreve o que pode ocorrer e em quais condições. **Análise** estuda natureza, consequências, probabilidade e nível conforme o método. **Avaliação** compara resultados com critérios para orientar prioridades e decisões. **Tratamento** seleciona e implementa respostas. Comunicação, registro, monitoramento e revisão acompanham o processo, que é iterativo.\n\n**Caso hipotético, não diagnóstico da Câmara:** um repositório pode ficar indisponível por falha de energia. Primeiro defina o objetivo de disponibilidade e o contexto. Depois examine histórico, dependências, consequências e controles. Classificar probabilidade como alta sem dado ou critério não constitui avaliação demonstrada. Uma matriz é ferramenta de organização; multiplicar categorias ordinais sem método não cria medida objetiva de perda.\n\nOpções podem reduzir exposição/consequências, evitar uma atividade, compartilhar efeitos ou aceitar risco segundo critérios e competência. Contratar serviço não transfere automaticamente toda responsabilidade. Aceitar também exige decisão informada e acompanhamento; não é sinônimo de ignorar.\n\n**Exemplo de retorno:** o controle reduziu a probabilidade estimada, mas permanece risco residual. Novos dados podem pedir revisão. O sucesso de um controle não garante que o risco se tornou zero. Uma aula de nível alto precisa ensinar a explicar a decisão e suas premissas, em vez de apresentar uma tabela inventada como caso concreto institucional.",
+  teoriaDidaticaMarkdown: "### Revisão: qual propriedade está sendo avaliada?\n\nRede: tecnologia, alcance e acesso são eixos distintos. IP endereça/encaminha; TCP e UDP oferecem mecanismos diferentes; aplicação pode falhar mesmo com transporte adequado. DNS e DHCP têm funções distintas. Phishing manipula a vítima; pharming pode alterar o caminho de resolução. MFA requer fatores de categorias diferentes. Backup precisa de cadeia, isolamento e teste; off-site não é automaticamente offline. Hash apoia fixidez com referência confiável, sem provar verdade material. Assinatura usa chave privada para gerar e material público para verificar segundo o algoritmo; certificado e carimbo têm papéis próprios. ICP-Brasil não torna toda declaração incontestável. Riscos exigem critérios e acompanhamento; matriz não cria probabilidade a partir de suposição.\n\n**Recupere:** explique por que sincronização não substitui backup; por que hash íntegro não é texto verdadeiro; por que uma assinatura não dispensa análise de competência; e por que um risco residual pode continuar mesmo após controle eficaz.\n",
+  checkpoints: [
+  {
+    "id": "cp-14-2-1",
+    "pergunta": "Micro-Checkpoint 1: Segurança da Informação - Phishing vs. Pharming",
+    "item": "No ataque de pharming, o usuário é induzido por um e-mail fraudulento a clicar em um link enganoso; diferentemente do phishing, no qual a tabela de resolução de nomes (DNS) é corrompida para redirecionar o tráfego mesmo quando o endereço correto é digitado.",
+    "gabarito": "E",
+    "justificativa": "O item inverte os mecanismos. A mensagem enganosa para induzir ação é compatível com phishing; comprometimento de resolução para redirecionar descreve pharming no cenário. Eles podem coexistir, mas não são definidos pela inversão proposta.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "versao_correta": "Phishing usa indução por comunicação fraudulenta; pharming pode envolver redirecionamento por resolução comprometida."
   },
+  {
+    "id": "cp-14-2-2",
+    "pergunta": "Micro-Checkpoint 2: Criptografia Assimétrica, Assinatura Digital e ICP-Brasil",
+    "item": "Na assinatura digital, utiliza-se a chave pública do signatário para produzir a assinatura e exige-se divulgar sua chave privada a todos que desejem verificar o documento.",
+    "gabarito": "E",
+    "justificativa": "O item inverte a função e a proteção das chaves. A geração usa a chave privada e a verificação usa o material público pertinente ao algoritmo. Não é necessário nem adequado divulgar a chave privada. A descrição como cifração de hash não é universal.",
+    "fonte": "NIST FIPS 186-5; conceitos de assinatura digital e MP 2.200-2/2001.",
+    "versao_correta": "A geração utiliza a chave privada; a verificação usa o material público correspondente, conforme o algoritmo."
+  },
+  {
+    "id": "cp-14-2-3",
+    "pergunta": "Micro-Checkpoint 3: Gestão de Riscos Informacionais (ISO 31000 e ISO/IEC 27005)",
+    "item": "No processo de avaliação de riscos, identificar, analisar e comparar os resultados com critérios para decisão são atividades diferentes; essa comparação não deve ser confundida com a execução das medidas de tratamento.",
+    "gabarito": "C",
+    "justificativa": "A comparação com critérios orienta a decisão. Executar medidas faz parte do tratamento. O processo é iterativo; não se exige uma única conta probabilidade vezes impacto como método universal nem se atribui cláusula não conferida.",
+    "fonte": "ISO 31000:2018 — diretrizes e processo de gestão de riscos; síntese didática."
+  },
+  {
+    "id": "rt-14-2-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma intranet pode usar tecnologias web e TCP/IP com acesso restrito; o uso dessas tecnologias não a torna automaticamente aberta a qualquer usuário da internet.",
+    "gabarito": "C",
+    "justificativa": "Tecnologia e política de acesso são eixos diferentes. Serviços internos podem usar protocolos também usados na internet pública sem conceder acesso irrestrito.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-2-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "TCP oferece mecanismos de entrega ordenada e retransmissão, mas não garante que uma aplicação concluirá sua tarefa mesmo se a conexão ou o destino falhar.",
+    "gabarito": "C",
+    "justificativa": "Confiabilidade do transporte descreve mecanismos do protocolo dentro de suas condições. Ela não é garantia de disponibilidade infinita ou de sucesso de toda tarefa da aplicação.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-2-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma mensagem que imita a instituição para induzir o usuário a fornecer credenciais é compatível com phishing, sem exigir que haja alteração do DNS.",
+    "gabarito": "C",
+    "justificativa": "A manipulação da vítima por mensagem fraudulenta é o ponto do cenário. Redirecionamento por comprometimento de resolução é outra técnica, podendo coexistir em ataques.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-2-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Usar uma senha e responder a uma pergunta secreta constitui necessariamente dois fatores de autenticação independentes.",
+    "gabarito": "E",
+    "justificativa": "Ambos pertencem à categoria de conhecimento. Repetir o que se sabe não cria, por si, fator distinto de posse ou inerência.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar",
+    "versao_correta": "Senha e pergunta secreta são exemplos da mesma categoria de fator."
+  },
+  {
+    "id": "rt-14-2-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No esquema tradicional, restaurar uma cópia completa de domingo com incrementais de segunda, terça e quarta requer a cadeia incremental pertinente até o ponto desejado.",
+    "gabarito": "C",
+    "justificativa": "Cada incremental registra alterações desde o ponto anterior do esquema. Perder um componente necessário pode impedir a restauração íntegra daquele estado. O enunciado delimita a modalidade tradicional.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-2-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma cópia off-site está necessariamente offline e isolada de toda conta comprometida da organização.",
+    "gabarito": "E",
+    "justificativa": "Localização externa e isolamento lógico/físico são propriedades diferentes. Uma cópia na nuvem pode estar acessível com a mesma conta comprometida. É preciso verificar controles e recuperação.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar",
+    "versao_correta": "Uma cópia off-site pode estar online; seu isolamento e controle de acesso precisam ser avaliados."
+  },
+  {
+    "id": "rt-14-2-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um hash de fixidez que coincide com um valor de referência confiável é evidência de manutenção dos bits sob as condições do procedimento, mas não certifica a veracidade do texto.",
+    "gabarito": "C",
+    "justificativa": "Fixidez examina representação binária e comparação com referência. Um documento falso pode permanecer inalterado, e uma referência adulterada pode comprometer o procedimento. O alcance da evidência precisa ser preservado.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-2-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Todo algoritmo de assinatura digital deve ser explicado como cifrar um hash com chave privada e decifrá-lo com chave pública.",
+    "gabarito": "E",
+    "justificativa": "Esse modelo didático não descreve de forma universal os algoritmos de assinatura. A operação de assinar e a de verificar usam chaves e procedimentos definidos pelo esquema; nem toda assinatura é uma cifração reversível.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar",
+    "versao_correta": "Assinar e verificar são operações do algoritmo de assinatura; a descrição como cifração inversa não é universal."
+  },
+  {
+    "id": "rt-14-2-9",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma assinatura digital válida permite dispensar análise da competência de quem assinou e da verdade material de todas as declarações.",
+    "gabarito": "E",
+    "justificativa": "Validade criptográfica e competência/verdade do conteúdo são questões diferentes. A assinatura apoia autoria e integridade nos termos do procedimento e regime jurídico, sem tornar materialmente verdadeiro qualquer enunciado.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar",
+    "versao_correta": "A assinatura não dispensa a análise da competência e do conteúdo do ato."
+  },
+  {
+    "id": "rt-14-2-10",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Na gestão de riscos, comparar o resultado da análise com critérios previamente definidos é diferente de selecionar e executar medidas de tratamento.",
+    "gabarito": "C",
+    "justificativa": "A avaliação orienta prioridades e decisões; o tratamento altera o risco segundo as opções escolhidas. O processo é iterativo e deve ser monitorado, sem colapsar todas as etapas numa única operação.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-2-11",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "PREMIS é um dicionário de metadados de preservação; não se confunde com a ISO 16363, voltada à auditoria/certificação de repositórios digitais confiáveis.",
+    "gabarito": "C",
+    "justificativa": "São referências com funções distintas. Associar automaticamente PREMIS ao número ISO 16363 troca a identidade do instrumento e prejudica a compreensão da preservação.",
+    "fonte": "CERT.br, Cartilha de Segurança para Internet; RFC 9293 (TCP); NIST FIPS 186-5; MP 2.200-2/2001, art. 10; Lei 14.063/2020, art. 4º; ISO 31000:2018, gestão de riscos; exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 4: Segurança da Informação, Criptografia e Riscos)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-14-2-fonte-cert",
+      "nome": "CERT.br — Cartilha de Segurança para Internet",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "CERT.br — Cartilha de Segurança para Internet",
+      "ideiaChave": "Ameaças, proteção, autenticação, cópias e criptografia.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-2-fonte-tcp",
+      "nome": "RFC 9293 — Transmission Control Protocol",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "RFC 9293 — Transmission Control Protocol",
+      "ideiaChave": "Conceitos e mecanismos de TCP; não é garantia de sucesso de toda aplicação.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-2-fonte-dss",
+      "nome": "NIST FIPS 186-5 — Digital Signature Standard",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "NIST FIPS 186-5 — Digital Signature Standard",
+      "ideiaChave": "Geração, verificação e propriedades de assinaturas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-2-fonte-icp",
+      "nome": "MP 2.200-2/2001",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "MP 2.200-2/2001",
+      "ideiaChave": "Art. 10 e estrutura da ICP-Brasil.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-2-fonte-assinaturas",
+      "nome": "Lei 14.063/2020",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 14.063/2020",
+      "ideiaChave": "Art. 4º e alcance da classificação das assinaturas eletrônicas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-2-fonte-premis",
+      "nome": "Library of Congress — PREMIS 3.0",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Library of Congress — PREMIS 3.0",
+      "ideiaChave": "Dicionário de metadados de preservação; fixity.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-2-fonte-risco",
+      "nome": "ISO 31000:2018 — Risk management — Guidelines",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ISO 31000:2018 — Risk management — Guidelines",
+      "ideiaChave": "Diretrizes gerais, contexto e processo; não é uma norma de certificação.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-14-2-9",
+      "afirmacao": "Uma assinatura digital válida permite dispensar análise da competência de quem assinou e da verdade material de todas as declarações.",
+      "gabarito": "E",
+      "porQue": "Validade criptográfica e competência/verdade do conteúdo são questões diferentes. A assinatura apoia autoria e integridade nos termos do procedimento e regime jurídico, sem tornar materialmente verdadeiro qualquer enunciado."
+    },
+    {
+      "id": "memoria-rt-14-2-10",
+      "afirmacao": "Na gestão de riscos, comparar o resultado da análise com critérios previamente definidos é diferente de selecionar e executar medidas de tratamento.",
+      "gabarito": "C",
+      "porQue": "A avaliação orienta prioridades e decisões; o tratamento altera o risco segundo as opções escolhidas. O processo é iterativo e deve ser monitorado, sem colapsar todas as etapas numa única operação."
+    },
+    {
+      "id": "memoria-rt-14-2-11",
+      "afirmacao": "PREMIS é um dicionário de metadados de preservação; não se confunde com a ISO 16363, voltada à auditoria/certificação de repositórios digitais confiáveis.",
+      "gabarito": "C",
+      "porQue": "São referências com funções distintas. Associar automaticamente PREMIS ao número ISO 16363 troca a identidade do instrumento e prejudica a compreensão da preservação."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-14-2-bloco-1",
+    "titulo": "Redes: alcance, serviços e acesso",
+    "objetivos": [
+      "Distinguir abrangência física e política de acesso."
+    ],
+    "conteudo": "Uma rede conecta dispositivos e serviços; sua classificação pode considerar alcance, tecnologia e finalidade. **PAN** descreve âmbito pessoal; **LAN**, uma rede local; **MAN**, âmbito metropolitano; **WAN**, ampla área. Essas categorias não definem por si velocidade, segurança ou se o serviço é público. Ethernet e Wi-Fi são tecnologias de acesso, não sinônimos universais de uma classe de alcance.\n\n**Internet** articula redes e serviços sob protocolos comuns. **Intranet** usa tecnologias de rede para um contexto organizacional restrito. **Extranet** descreve acesso controlado de partes externas a recursos organizacionais. Uma instituição pode oferecer serviço público e serviço interno nos mesmos padrões web, com políticas de acesso diferentes.\n\n**Caso:** o catálogo público é acessível remotamente; a ferramenta interna de aquisição exige autenticação e acesso autorizado. O uso de HTTPS em ambos não elimina a diferença de público. Também não permite inferir que a intranet só funciona dentro do prédio: pode haver acesso remoto controlado conforme o projeto.\n\nConsidere separadamente **endereço**, **nome**, **rota** e **permissão**. Saber o endereço de um servidor não concede autorização de uso. Conseguir resolver um nome não demonstra que a aplicação está disponível. Um problema de rede deve identificar qual etapa falhou, em vez de tratar todo erro como “a internet caiu”.\n\n**Recuperação:** descreva uma rede local que acessa a internet e um serviço interno dessa rede. Quais recursos permanecem restritos? Qual tecnologia de comunicação isso permite reconhecer e qual política continua precisando ser definida?",
+    "checkpointIds": [
+      "rt-14-2-1"
+    ]
+  },
+  {
+    "id": "sub-14-2-bloco-2",
+    "titulo": "TCP/IP e serviços: o que cada camada resolve",
+    "objetivos": [
+      "Relacionar transporte, endereçamento e serviços sem transformar padrões em garantia absoluta."
+    ],
+    "conteudo": "**IP** trata de endereçamento e encaminhamento de pacotes. IPv4 usa endereços de 32 bits; IPv6, de 128 bits. A notação exibida não é o tamanho em caracteres obrigatório de todo endereço: IPv6 admite abreviações sob regras. **TCP** oferece mecanismos de conexão, ordenação e retransmissão; **UDP** fornece datagramas sem esses mesmos mecanismos de confiabilidade no protocolo.\n\nNão conclua que UDP é sempre mais rápido em qualquer aplicação ou que TCP garante sucesso diante de toda falha. A aplicação pode implementar controles sobre UDP, e o ambiente determina perdas, latência e disponibilidade. O estabelecimento de conexão TCP costuma ser explicado pelo intercâmbio SYN, SYN-ACK e ACK; esse procedimento não substitui o restante do protocolo.\n\n**DNS** associa nomes e informações de domínio, incluindo registros de endereços; **DHCP** pode fornecer parâmetros de configuração a um dispositivo. São funções diferentes. Um endereço manual não prova ausência de DNS, e um servidor DNS não fornece automaticamente toda configuração de rede como DHCP.\n\nNo estudo das portas convencionais, reconheça exemplos: DNS 53 em UDP/TCP conforme operação, SSH 22/TCP, HTTP 80 e HTTPS 443 em seus usos usuais. Não trate essa tabela como descrição de todas as versões: HTTP/3 usa QUIC sobre UDP, por exemplo. Um item precisa delimitar protocolo e contexto quando essa distinção muda a resposta.\n\n**TLS** protege a comunicação conforme negociação e validação aplicáveis; SSL é referência histórica que não deve ser recomendada como equivalente técnico atual sem ressalva. **ICMP** apoia controle e diagnóstico; responder a ping não certifica que o catálogo ou outro serviço de aplicação funciona corretamente.",
+    "checkpointIds": [
+      "rt-14-2-2"
+    ]
+  },
+  {
+    "id": "sub-14-2-bloco-3",
+    "titulo": "Ameaças: comportamento e mecanismo, não apenas o nome",
+    "objetivos": [
+      "Distinguir engenharia social, redirecionamento e classes de código malicioso."
+    ],
+    "conteudo": "**Phishing** envolve comunicação fraudulenta para induzir ação, como fornecer credenciais ou abrir um anexo. Pode usar diferentes canais; uma mensagem dirigida a pessoa/setor específico caracteriza o recorte direcionado conhecido como spear phishing. **Pharming** envolve redirecionamento associado a manipulação de resolução/caminho, como comprometimento de DNS ou arquivo de nomes local, conforme o cenário.\n\n**Vírus** associa sua propagação a código hospedeiro; não é seguro afirmar que toda infecção depende de um clique explícito consciente. **Worm** pode propagar-se de modo autônomo em redes. **Cavalo de Troia** aparenta funcionalidade legítima e executa ação maliciosa; não precisa cumprir toda característica de vírus ou worm. **Ransomware** restringe acesso para extorsão e pode empregar criptografia, bloqueio e outras práticas; nem toda variante se resume ao mesmo mecanismo.\n\nProgramas de espionagem e captura de atividade podem recolher informações. Uma **botnet** reúne dispositivos controlados para fins como ataques distribuídos. As categorias podem se sobrepor: o vetor de entrada e a ação posterior não são a mesma dimensão.\n\n**Caso resolvido:** um e-mail imita o suporte e pede senha numa página falsa. O texto descreve engenharia social compatível com phishing. Não é necessário supor que o DNS foi alterado. Se o usuário digita o domínio correto e um comprometimento de resolução o conduz a outro destino, o mecanismo descrito é diferente.\n\nA prevenção combina verificação de origem, atualização, configuração, autorização e resposta a incidentes. Nenhuma instrução como “nunca clique” resolve todas as formas de ataque. A aprendizagem deve permitir explicar como a ação solicitada e o ambiente se relacionam ao risco.",
+    "checkpointIds": [
+      "cp-14-2-1",
+      "rt-14-2-3"
+    ]
+  },
+  {
+    "id": "sub-14-2-bloco-4",
+    "titulo": "Proteção e autenticação: controles têm alcance",
+    "objetivos": [
+      "Escolher controles e distinguir identificação, autenticação e autorização."
+    ],
+    "conteudo": "**Identificar** é declarar/associar identidade; **autenticar** busca verificar a alegação; **autorizar** define o que o sujeito pode fazer. Entrar no sistema não concede acesso irrestrito a todos os documentos. O princípio de menor privilégio orienta conceder o necessário à finalidade, com revisão de permissões.\n\nAutenticação multifator combina fatores de categorias distintas, como conhecimento, posse e inerência. Senha mais pergunta secreta continua usando conhecimento. Um aplicativo ou dispositivo de posse, com controles próprios, é outra categoria. A segurança concreta também depende de recuperação de conta, resistência a fraude e configuração; o nome MFA não elimina todas as ameaças.\n\n**Firewall** aplica políticas sobre tráfego conforme suas capacidades e regras; não é sinônimo de antivírus nem prova de que todo ataque será bloqueado. Ferramentas de detecção podem usar assinaturas, análise heurística e comportamento. Ausência de alerta não certifica ausência de comprometimento. **Sandbox** permite observação controlada, mas também tem limites de representação do ambiente e do comportamento da ameaça.\n\n**Exemplo:** o usuário possui credencial válida, mas precisa somente consultar um relatório. Conceder função de administrador para tornar o acesso mais fácil amplia exposição desnecessária. Separar a permissão de consulta da gestão do sistema atende à tarefa com menor alcance.\n\nControles devem ser articulados: atualização, cópias de segurança, monitoramento, gestão de contas e resposta. Uma camada não autoriza abandonar as demais. Em prova, examine qual propriedade o mecanismo atende e qual garantia excessiva foi atribuída a ele.",
+    "checkpointIds": [
+      "rt-14-2-4"
+    ]
+  },
+  {
+    "id": "sub-14-2-bloco-5",
+    "titulo": "Backup: reconstruir o estado e testar a recuperação",
+    "objetivos": [
+      "Distinguir completo, diferencial, incremental, localização e isolamento."
+    ],
+    "conteudo": "No esquema tradicional, **completo** copia o conjunto definido; **diferencial** reúne mudanças desde o último completo; **incremental** reúne mudanças desde o ponto anterior pertinente da cadeia. Implementações modernas podem usar estratégias sintéticas e outros mecanismos, portanto o enunciado precisa delimitar o modelo.\n\n**Exemplo resolvido:** completo no domingo e incrementais na segunda, terça e quarta. Para restaurar o estado de quarta nesse esquema, parte-se do completo e aplica-se a cadeia necessária. Com diferenciais, o completo e o diferencial do ponto escolhido podem bastar. O critério decisivo é de onde cada cópia calcula suas alterações, não só o volume aparente.\n\n**3-2-1** é uma orientação de redundância de cópias, diversidade de meios e localização externa. Off-site não é sinônimo de offline nem de air gap: uma cópia externa pode continuar acessível com a mesma credencial comprometida. Isolamento, imutabilidade, retenção e teste de restauração são decisões adicionais.\n\n**RPO** relaciona-se ao ponto de recuperação e perda de dados tolerada no enquadramento do plano; **RTO**, ao tempo para recuperar serviço. Ter cópias a cada dia não demonstra que a restauração ocorrerá em poucos minutos. Um projeto precisa testar dados, dependências, chaves e procedimentos.\n\nA sincronização tratada em 14.1 pode propagar exclusões. Redundância de disco também não substitui backup contra toda perda lógica ou incidente. O aluno deve explicar de qual falha a medida protege e como os dados serão efetivamente recuperados, em vez de repetir “backup garante tudo”.",
+    "checkpointIds": [
+      "rt-14-2-5",
+      "rt-14-2-6"
+    ]
+  },
+  {
+    "id": "sub-14-2-bloco-6",
+    "titulo": "Criptografia, hash e fixidez: propriedades diferentes",
+    "objetivos": [
+      "Separar confidencialidade, integridade e verificação de bits."
+    ],
+    "conteudo": "**Criptografia simétrica** usa segredo compartilhado no esquema pertinente; **assimétrica** usa chaves relacionadas com operações definidas pelo algoritmo. Sistemas podem combinar métodos, usando estabelecimento de segredo e proteção eficiente do conteúdo. Não se deve afirmar que toda chave pública serve indistintamente para cifrar e verificar em qualquer algoritmo.\n\n**AES** é exemplo de cifra simétrica; **RSA** e algoritmos de curvas elípticas ilustram famílias de criptografia de chave pública em usos definidos. A segurança depende de parâmetros, implementação e ciclo de vida das chaves. Evite regras universais de custo ou recomendações numéricas descontextualizadas de versão e finalidade.\n\n**Hash criptográfico** produz um resumo conforme a função. Mesma entrada e algoritmo determinam o mesmo resultado. Para usos de segurança, são relevantes resistências a pré-imagem e colisões, com níveis que dependem da função. O espaço finito de resumos implica que colisões são matematicamente possíveis; o objetivo de resistência é torná-las inviáveis de explorar no cenário de segurança considerado.\n\n**Fixidez:** comparar um valor calculado ao valor de referência confiável ajuda a verificar manutenção dos bits. Isso não demonstra que a informação escrita é verdadeira nem reconstrói automaticamente um arquivo danificado. Referência, algoritmo, registro do procedimento e proteção dos valores precisam ser considerados.\n\n**PREMIS** descreve metadados de preservação, incluindo informação pertinente à fixidez. Não é a ISO 16363, referência de auditoria/certificação de repositórios confiáveis. Tampouco impõe uma regra universal de checar todo acervo a cada noventa dias. Periodicidade e controles dependem de política, risco e ambiente.\n\n**Caso:** um PDF materialmente incorreto pode ter o mesmo hash durante anos. Sua integridade binária não converte conteúdo falso em verdadeiro. Essa distinção reaparece na assinatura digital.",
+    "checkpointIds": [
+      "rt-14-2-7",
+      "rt-14-2-11"
+    ]
+  },
+  {
+    "id": "sub-14-2-bloco-7",
+    "titulo": "Assinatura digital e ICP-Brasil: autoria não é verdade material",
+    "objetivos": [
+      "Distinguir assinar, verificar, certificar identidade e avaliar o conteúdo."
+    ],
+    "conteudo": "Uma assinatura digital usa um esquema criptográfico de geração e verificação. O signatário utiliza a chave privada pertinente; a verificação usa material público correspondente conforme o algoritmo. A explicação “cifrar hash e depois decifrar” pode ser uma simplificação de alguns tratamentos didáticos, mas não descreve universalmente algoritmos como os contemplados pelo padrão de assinaturas do NIST.\n\nA assinatura apoia verificar autoria associada à chave e integridade nos termos do procedimento. **Certificado** vincula identidade e chave pública sob uma cadeia e política de confiança; **carimbo do tempo** acrescenta evidência temporal segundo seu serviço. Validação envolve também estado do certificado, cadeia e demais condições aplicáveis, não apenas verificar se há uma imagem de rubrica.\n\nA MP 2.200-2/2001 institui a ICP-Brasil e, no art. 10, trata da presunção em relação aos signatários. Isso não deve ser ensinado como verdade absoluta e incontestável de toda declaração. Assinar um relatório com erro não torna o dado correto nem dispensa examinar competência, validade do ato e eventual contestação.\n\nA Lei 14.063/2020 distingue assinaturas eletrônicas **simples, avançadas e qualificadas** em seu alcance. Qualificada utiliza certificado ICP-Brasil. Uma assinatura digitalizada é imagem, e não o mesmo mecanismo criptográfico. O regime admite análise dos meios e exigências específicos; não conclua que qualquer documento fora da ICP-Brasil seja necessariamente sem valor.\n\nNa infraestrutura, ACs emitem certificados e ARs realizam identificação conforme as regras; o ITI atua como autoridade certificadora raiz. Tipos e requisitos precisam ser consultados no normativo aplicável. A3 não deve ser reduzido a “somente um token USB inviolável”: há serviços de armazenamento/uso em nuvem sob condições próprias. Não invente duração universal para todo certificado sem fonte de versão.",
+    "checkpointIds": [
+      "cp-14-2-2",
+      "rt-14-2-8",
+      "rt-14-2-9"
+    ]
+  },
+  {
+    "id": "sub-14-2-bloco-8",
+    "titulo": "Gestão de riscos: critérios, decisão e acompanhamento",
+    "objetivos": [
+      "Analisar incerteza sobre objetivos e distinguir avaliação de tratamento."
+    ],
+    "conteudo": "Gerir riscos envolve reconhecer incertezas que afetam objetivos, compreender contexto e critérios, identificar eventos e fontes, analisar consequências e decidir respostas. A **ISO 31000:2018** oferece diretrizes gerais; a família de segurança da informação trata seu domínio específico. Referenciar uma norma não autoriza inventar número de cláusula nem aplicar toda redação de uma edição a outra.\n\n**Identificação** descreve o que pode ocorrer e em quais condições. **Análise** estuda natureza, consequências, probabilidade e nível conforme o método. **Avaliação** compara resultados com critérios para orientar prioridades e decisões. **Tratamento** seleciona e implementa respostas. Comunicação, registro, monitoramento e revisão acompanham o processo, que é iterativo.\n\n**Caso hipotético, não diagnóstico da Câmara:** um repositório pode ficar indisponível por falha de energia. Primeiro defina o objetivo de disponibilidade e o contexto. Depois examine histórico, dependências, consequências e controles. Classificar probabilidade como alta sem dado ou critério não constitui avaliação demonstrada. Uma matriz é ferramenta de organização; multiplicar categorias ordinais sem método não cria medida objetiva de perda.\n\nOpções podem reduzir exposição/consequências, evitar uma atividade, compartilhar efeitos ou aceitar risco segundo critérios e competência. Contratar serviço não transfere automaticamente toda responsabilidade. Aceitar também exige decisão informada e acompanhamento; não é sinônimo de ignorar.\n\n**Exemplo de retorno:** o controle reduziu a probabilidade estimada, mas permanece risco residual. Novos dados podem pedir revisão. O sucesso de um controle não garante que o risco se tornou zero. Uma aula de nível alto precisa ensinar a explicar a decisão e suas premissas, em vez de apresentar uma tabela inventada como caso concreto institucional.",
+    "checkpointIds": [
+      "cp-14-2-3",
+      "rt-14-2-10"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "cert",
+    "titulo": "CERT.br — Cartilha de Segurança para Internet",
+    "localizador": "Ameaças, proteção, autenticação, cópias e criptografia.",
+    "url": "https://cartilha.cert.br/"
+  },
+  {
+    "id": "tcp",
+    "titulo": "RFC 9293 — Transmission Control Protocol",
+    "localizador": "Conceitos e mecanismos de TCP; não é garantia de sucesso de toda aplicação.",
+    "url": "https://www.rfc-editor.org/rfc/rfc9293.html"
+  },
+  {
+    "id": "dss",
+    "titulo": "NIST FIPS 186-5 — Digital Signature Standard",
+    "localizador": "Geração, verificação e propriedades de assinaturas.",
+    "url": "https://csrc.nist.gov/pubs/fips/186-5/final"
+  },
+  {
+    "id": "icp",
+    "titulo": "MP 2.200-2/2001",
+    "localizador": "Art. 10 e estrutura da ICP-Brasil.",
+    "url": "https://legis.senado.gov.br/norma/559102/publicacao/34949825"
+  },
+  {
+    "id": "assinaturas",
+    "titulo": "Lei 14.063/2020",
+    "localizador": "Art. 4º e alcance da classificação das assinaturas eletrônicas.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2020/lei-14063-23-setembro-2020-790659-normaatualizada-pl.html"
+  },
+  {
+    "id": "premis",
+    "titulo": "Library of Congress — PREMIS 3.0",
+    "localizador": "Dicionário de metadados de preservação; fixity.",
+    "url": "https://www.loc.gov/standards/premis/v3/index.html"
+  },
+  {
+    "id": "risco",
+    "titulo": "ISO 31000:2018 — Risk management — Guidelines",
+    "localizador": "Diretrizes gerais, contexto e processo; não é uma norma de certificação.",
+    "url": "https://www.iso.org/standard/31000"
+  }
+],
 };
 

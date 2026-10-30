@@ -1,0 +1,205 @@
+{
+  "id": "sub-7-3",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-7-3-bloco-1",
+      "titulo": "A Hierarquia Conceitual da Salvaguarda Patrimonial",
+      "objetivos": [
+        "Distinguir finalidades de preservação, conservação e restauração segundo a fonte."
+      ],
+      "conteudo": "Na doutrina contemporânea da conservação (Cassares, 2000; Beck, 1995; Soares, 2005; IFLA, 2010), é necessário indicar o vocabulário adotado: em obras brasileiras, preservação costuma designar políticas abrangentes; no ICOM-CC (2008), conservation abrange conservação preventiva, curativa e restauração. Não se universaliza uma tradução como única hierarquia possível:\n\n| Ação | Critério de distinção |\n| --- | --- |\n| Preventiva | Evita/reduz danos futuros no contexto do bem; atua em condições, uso e gestão. |\n| Curativa | Intervém para deter processo ativo ou reforçar estrutura em risco. |\n| Restauração | Favorece apreciação, compreensão ou uso de bem estável com perdas, segundo avaliação. |\n\nA mesma ação pode atender mais de uma finalidade. Higienização recebe enquadramentos diferentes conforme a tradição e o objetivo; classifique pelo contexto e pela fonte indicada, não apenas pelo nome.\n\n* **Preservação:** Conceito abrangente e macroestrutural. Engloba todas as decisões gerenciais, políticas, orçamentárias, prediais, de segurança contra incêndio/pânico e de capacitação profissional que asseguram a integridade e o acesso continuado às coleções a longo prazo.\n* **Conservação Preventiva:** Conjunto de ações de **intervenção indireta**, voltadas a desacelerar a taxa de deterioração e prevenir sinistros atuando sobre o meio ambiente e as condições de guarda (controle de temperatura e UR, filtragem de luz, controle integrado de pragas, higienização periódica de estantes, acondicionamento individual estável e treinamento de usuários).\n* **Conservação Curativa:** Ações de **intervenção direta** sobre o documento quando este já se encontra em processo ativo de degradação, para **deter processos prejudiciais ou reforçar sua estrutura**, conforme diagnóstico e estabilizar o suporte (ex.: secagem emergencial após alagamento, controle de contaminação fúngica ativa, remoção de ferrugem ativa).\n* **Restauração:** Conjunto de intervenções especializadas de ação direta sobre a matéria degradada, para facilitar apreciação, compreensão ou uso, respeitando matéria e significado; não promete recuperar integralmente um estado original perdido.\n  * **Princípios Éticos Fundamentais da Restauração:**\n    1. *Intervenção Mínima:* Agir apenas no estritamente necessário para garantir a estabilidade física do item.\n    2. *Reversibilidade dos Materiais:* Busca-se removibilidade e possibilidade de retratamento, reconhecendo limites reais. Solubilidade de um adesivo não certifica reversão integral e inócua de qualquer intervenção.\n    3. *Compatibilidade Físico-Química:* Os materiais introduzidos devem ser química e mecanicamente compatíveis com os originais históricos.\n    4. *Respeito à Autenticidade:* A reintegração não pode falsificar a história do documento; o restauro deve ser discernível da matéria original.\n\n**Aplicação e recuperação:** Controlar iluminação é ação preventiva. Tratar infestação ativa pode ter finalidade curativa. Reintegrar uma perda para permitir leitura pode ter finalidade restaurativa. O ato concreto pode combinar finalidades; a fonte adotada na questão delimita a terminologia.",
+      "checkpointIds": [
+        "rt-7-3-6"
+      ]
+    },
+    {
+      "id": "sub-7-3-bloco-2",
+      "titulo": "Protocolo de Higienização Mecânica a Seco",
+      "objetivos": [
+        "Decidir se o objeto suporta limpeza antes de escolher o método."
+      ],
+      "conteudo": "A poeira acumulada é uma matriz agressiva composta por sílica abrasiva, fuligem, esporos de fungos, ácaros e células epiteliais. É higroscópica (retém água ácida) e nutre pragas biológicas:\n\n* **Antes de escolher instrumentos:** avalie suporte, tintas, fragmentação e contaminação. Cassares ressalta que certos objetos não suportam sequer limpeza mecânica suave; interromper e encaminhar é decisão técnica válida.\n\n**Materiais e equipamentos a selecionar:**\n  * **Trinchas e Pincéis Macios:** Cerdas naturais de animais (pelo de marta, cabra ou cavalo suave), macias o suficiente para não riscar nem arranhar os papéis e tintas históricas.\n  * **Aspirador de Pó Regulável com Filtro HEPA:** O aspirador deve possuir motor com controle de potência de sucção e **filtro HEPA** de classificação e especificação adequadas, instalado e mantido corretamente. A eficiência de referência de 99,97% a 0,3 µm de certas classificações não significa “todas as partículas menores que isso” nem garante ausência absoluta de recirculação. O bocal deve ser recoberto com tela de tule ou gaze de algodão para evitar que fragmentos de folhas soltas sejam sugados.\n  * **Esponjas de limpeza a seco:** composições e aplicações variam por produto. Teste antes; abrasão, resíduos e pigmentos friáveis podem contraindicar seu uso. Ausência de líquido não significa ausência de risco.\n* **Sequência ilustrativa para exemplar estável, não contaminado:** treine a equipe, apoie o livro e controle a dispersão de partículas. Não execute em livro com mofo ativo na área comum.\n  1. Segurar o livro firmemente fechado, com o **corte superior voltado para baixo**, impedindo que a poeira penetre no interior das folhas durante a limpeza.\n  2. Passar a trincha suavemente nos cortes: primeiro o **corte superior**, depois o **corte dianteiro** e por último o **corte inferior**.\n  3. Limpar a encadernação externa (capas anterior e posterior e lombada).\n  4. Para a limpeza de folhas internas empoeiradas: passar o pincel suavemente **do centro da folha (canaleta interna) em direção às bordas externas**, em movimentos unidirecionais contínuos.\n  5. *Proibição Terminante:* O uso de panos úmidos, álcool líquido ou em gel, lustra-móveis, solventes e produtos de limpeza doméstica sobre as obras bibliográficas é terminantemente proibido.\n\n**Aplicação e recuperação:** Há tinta em pó na folha. Esfregar mesmo uma borracha considerada boa pode remover informação. A primeira escolha é avaliação e encaminhamento, não aplicar mecanicamente a receita de limpeza de um livro estável.",
+      "checkpointIds": [
+        "rt-7-3-1"
+      ]
+    },
+    {
+      "id": "sub-7-3-bloco-3",
+      "titulo": "Acondicionamento Científico de Documentos",
+      "objetivos": [
+        "Selecionar invólucros pela compatibilidade, não apenas pelo nome comercial."
+      ],
+      "conteudo": "O acondicionamento individual atua como uma microbarreira protetora contra luz, poeira e flutuações higrotérmicas:\n\n* **Papel e Cartão Alcalino Permanente (Norma ISO 9706):**\n  * Confeccionado com celulose química purificada, propriedades verificadas e compatíveis com o objeto. O rótulo “alcalino” não é prescrição universal: certos processos fotográficos e materiais podem exigir invólucros sem reserva alcalina. ISO 9706 trata de papel permanente, não certifica automaticamente todo cartão ou caixa.\n  * Utilizado para confeccionar envelopes, camisas, pastas de quatro abas e caixas de guarda tipo concha (*clamshell* ou *phase boxes*).\n* **Plásticos Quimicamente Estáveis vs. Nocivos:**\n  * **Aprovados:** Filmes de **Poliéster puro** (Mylar tipo D ou Melinex 516), **Polietileno (PE)** e **Polipropileno (PP)** virgens. Podem ser apropriados quando de qualidade arquivística e sem aditivos nocivos; o nome do polímero sozinho não certifica o produto. Poliéster pode gerar eletricidade estática e ser inadequado a meios pulverulentos, como pastel ou carvão.\n  * **Proibição Absoluta do PVC (Policloreto de Vinila):**\n    * O PVC é extremamente instável: na presença de calor e luz, sua estrutura polimérica quebra-se, liberando **gás ácido clorídrico ($HCl$)**, que corrói e acidifica o papel ao redor.\n    * Além disso, os plastificantes voláteis (ftalatos) adicionados para dar maleabilidade ao PVC exsudam com o tempo, formando uma camada pegajosa oleosa que dissolve tintas, gravuras e emulsões fotográficas, colando os documentos de forma irreversível.\n* **Elementos de Fixação Proibidos:**\n  * Banimento total de clipes metálicos comuns, grampos de metal ferroso, alfinetes e elásticos de borracha.\n  * O metal oxida em contato com a umidade relativa, gerando ferrugem que queima e perfura o papel. O elástico de borracha de escritório degrada-se rapidamente: pode ressecar, romper ou adquirir pegajosidade conforme composição e envelhecimento, aderindo à celulose em uma pasta ácida destrutiva.\n  * Para prender papéis soltos ou cadernos descolados, utilizam-se **fitas de cadarço de algodão cru não alvejado** ou clipes plásticos quimicamente inertes com proteção de papel alcalino.\n\n**Aplicação e recuperação:** Um desenho a carvão desprende partículas. Uma película de poliéster pode atrair esse material por estática. O invólucro adequado a outro documento não se transfere automaticamente a esse caso; qualidade do polímero não elimina incompatibilidade.",
+      "checkpointIds": [
+        "cp-7-3-2",
+        "rt-7-3-2"
+      ]
+    },
+    {
+      "id": "sub-7-3-bloco-4",
+      "titulo": "Pequenos Reparos Científicos e Princípio da Reversibilidade",
+      "objetivos": [
+        "Reconhecer limites da reversibilidade e riscos do reparo improvisado."
+      ],
+      "conteudo": "O reparo emergencial de rasgos em livros de valor histórico ou patrimonial não pode ser executado com materiais improvisados de escritório:\n* **O Desastre das Fitas Adesivas Comerciais:**\n  * O uso de fitas adesivas comuns (durex, fita crepe, fita isolante, fitas plásticas) é um dos maiores causadores de destruição em bibliotecas.\n  * Os adesivos de fitas comerciais contêm borracha sintética e solventes ácidos altamente instáveis. Com o tempo, o adesivo sofre oxidação, resseca, perde a aderência e deixa o filme plástico solto, enquanto a massa adesiva ácida penetra nas fibras do papel, deixando uma **mancha castanho-escura translúcida indelével** que torna o texto ilegível e quebra o suporte.\n* **O Reparo Científico Reversível:**\n  * Pode empregar **papel japonês de fibras longas**, selecionado por composição, resistência, espessura e compatibilidade. Não é material único nem todo papel denominado japonês tem propriedades idênticas.\n  * Pode ser fixado com pasta de amido purificado ou éteres de celulose selecionados pelo conservador. Éteres de celulose são derivados modificados, não simples sinônimo de adesivos naturais; reversibilidade depende do envelhecimento e da interação com suporte e tintas. Não se garante remoção de 100% em qualquer momento.\n\n**Aplicação e recuperação:** Um rasgo é pequeno, mas atravessa assinatura sensível à água. Pasta de amido não é automaticamente segura. É preciso avaliar solubilidade, aplicação e consequência sobre o registro, com documentação da intervenção.",
+      "checkpointIds": [
+        "rt-7-3-3"
+      ]
+    },
+    {
+      "id": "sub-7-3-bloco-5",
+      "titulo": "Regras Ergonômicas de Armazenamento e Manuseio nas Estantes",
+      "objetivos": [
+        "Manusear e armazenar sem forçar estruturas frágeis."
+      ],
+      "conteudo": "* **Como Retirar o Livro da Estante:**\n  * O procedimento correto exige empurrar suavemente os livros vizinhos (à esquerda e à direita) cerca de 2 a 3 centímetros para trás na prateleira, expondo as faces laterais do volume desejado.\n  * Segura-se o livro com os dedos pelo meio do corpo da lombada, puxando-o para a frente.\n  * *Vício Crítico Condenado:* Puxar o livro pela borda superior da lombada (a cabeça ou *headcap*). Esse hábito corriqueiro pode provocar ruptura e rasgamento da coifa e da encadernação do volume.\n* **Disposição nas Estantes:**\n  * Os livros devem ser armazenados na posição vertical, apoiados por suportes metálicos de estante (*aparadores de livros* com pintura epóxi e bordas arredondadas).\n  * Os livros não devem ficar excessivamente apertados (dificulta a retirada e comprime a costura) nem folgados demais (faz com que o livro tombe lateralmente, empenando a encadernação).\n* **Armazenamento de Obras de Grandes Formatos (In-fólio, Jornais e Atlas):**\n  * Livros pesados e de grandes dimensões podem exigir **guarda horizontal**, conforme dimensões, estrutura e estado, pois o peso do próprio miolo deforma e rompe a costura da lombada pela gravidade.\n  * Devem ser guardados **deitados na posição horizontal** em prateleiras planas ou mapotecas, com empilhamento limitado segundo peso, dimensões e fragilidade; uma referência de dois ou três volumes não é autorização para esmagar um volume frágil, evitando que o sobrepeso excessivo esmague a encadernação dos livros da base.\n\n**Aplicação e recuperação:** Um atlas pesado está tombando na estante. Guarda horizontal e apoio adequado podem reduzir a tensão. Empilhar três atlas pesados sobre uma encadernação frágil não fica seguro por respeitar um número decorado.",
+      "checkpointIds": [
+        "cp-7-3-1",
+        "rt-7-3-4"
+      ]
+    },
+    {
+      "id": "sub-7-3-bloco-6",
+      "titulo": "Convergência com a Preservação Digital",
+      "objetivos": [
+        "Relacionar original e cópia digital sem garantias automáticas."
+      ],
+      "conteudo": "Digitalizar reduz certos manuseios e amplia acesso, mas não substitui a conservação do original. O arquivo digital também exige gestão: metadados, cópias, verificação de fixidez, estratégias de preservação e controle de acesso. OAIS é modelo de referência; PDF/A é uma família de normas; TIFF genérico não deve ser confundido com TIFF/IT da ISO 12639. Hash não prova verdade do documento nem, sozinho, autenticidade jurídica. Ver a aula 6.3 para a distinção entre formatos, modelos e evidências.\n\n**Aplicação e recuperação:** O original tem valor material que não aparece na imagem. Mesmo com cópia acessível, o plano deve preservar o objeto e as evidências do processo digital. Nenhuma extensão de arquivo garante as duas coisas.",
+      "checkpointIds": [
+        "cp-7-3-3",
+        "rt-7-3-5"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "Inspecione antes de limpar. O suporte pode não tolerar uma técnica usual. Selecione invólucros pela compatibilidade e qualidade, evitando PVC e improvisos. Não puxe o livro pela cabeça da lombada; apoie a estrutura e limite o peso. Removibilidade é objetivo a avaliar, não garantia de 100%. Digitalização não substitui conservação do original.",
+  "fontesTeoria": [
+    {
+      "id": "cassares",
+      "titulo": "Cassares — Como fazer conservação preventiva (2000)",
+      "localizador": "PDF do projeto; avaliação, higienização, acondicionamento e armazenamento.",
+      "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Preserva%C3%A7%C3%A3o%20f%C3%ADsica/cf5.pdf"
+    },
+    {
+      "id": "icom",
+      "titulo": "ICOM-CC — Terminology for conservation (2008)",
+      "localizador": "Preventiva, curativa e restauração; não impor hierarquia terminológica única a todas as obras.",
+      "url": "https://www.icom-cc.org/en/terminology-for-conservation"
+    },
+    {
+      "id": "cci",
+      "titulo": "CCI — Caring for paper objects",
+      "localizador": "Seleção de invólucros, manuseio e riscos.",
+      "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/paper-objects.html"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-7-3-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma limpeza mecânica suave pode ser contraindicada em documento com pigmento friável ou suporte muito fragmentado.",
+      "gabarito": "C",
+      "justificativa": "A avaliação individual precede a técnica e pode indicar suspensão.",
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-7-3-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O nome poliéster certifica que qualquer película comercial será adequada a qualquer desenho a carvão.",
+      "gabarito": "E",
+      "justificativa": "Aditivos, qualidade e estática precisam ser considerados.",
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Material deve ser selecionado conforme objeto e propriedades do produto."
+    },
+    {
+      "id": "rt-7-3-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Solubilidade em água de um adesivo garante reversão integral de toda intervenção após qualquer envelhecimento.",
+      "gabarito": "E",
+      "justificativa": "Interações, penetração e mudanças no tempo limitam a reversibilidade.",
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Removibilidade e retratamento devem ser avaliados, sem garantia universal."
+    },
+    {
+      "id": "rt-7-3-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A disposição horizontal elimina a necessidade de avaliar peso e quantidade dos volumes empilhados.",
+      "gabarito": "E",
+      "justificativa": "Sobrecarga também pode danificar volumes guardados horizontalmente.",
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Peso e fragilidade determinam apoios e empilhamento."
+    },
+    {
+      "id": "rt-7-3-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Digitalizar um manuscrito dispensa conservar o original porque toda informação material é reproduzida na imagem.",
+      "gabarito": "E",
+      "justificativa": "Imagem não conserva automaticamente todos os atributos materiais ou probatórios.",
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Original e representação digital exigem planos próprios de preservação."
+    },
+    {
+      "id": "rt-7-3-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A classificação preventiva, curativa ou restaurativa deve considerar finalidade, contexto e terminologia da fonte.",
+      "gabarito": "C",
+      "justificativa": "As operações não se classificam somente por um verbo isolado.",
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-7-3-1": {
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "justificativa": "Puxar pela cabeça pode rasgar a coifa. Deve-se abrir espaço com cuidado e segurar o corpo do livro, apoiando exemplares frágeis.",
+      "versao_correta": "Retire o livro apoiando e segurando seu corpo, sem tracionar a cabeça da lombada."
+    },
+    "cp-7-3-2": {
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "justificativa": "PVC e seus aditivos podem produzir problemas de estabilidade e interação. Prefira invólucros adequados ao processo fotográfico ou suporte; não se presume compatibilidade universal de todo plástico de outro nome."
+    },
+    "cp-7-3-3": {
+      "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel.",
+      "justificativa": "Conservar equipamento original é preservação de tecnologia. Emulação busca reproduzir seu ambiente em outro sistema; as estratégias não são equivalentes.",
+      "versao_correta": "Emulação reproduz o ambiente operacional; preservar hardware original é outra estratégia."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Compatibilidade",
+      "definicao": "Adequação do material ou processo ao objeto e seu estado.",
+      "exemploBiblioteca": "Poliéster pode ser inadequado a pigmento friável por estática."
+    },
+    {
+      "termo": "Removibilidade",
+      "definicao": "Possibilidade de retirar material introduzido sob condições avaliadas.",
+      "exemploBiblioteca": "Ser solúvel não torna toda intervenção integralmente reversível."
+    }
+  ],
+  "autoresChave": [
+    "Cassares — Como fazer conservação preventiva (2000)",
+    "ICOM-CC — Terminology for conservation (2008)",
+    "CCI — Caring for paper objects"
+  ],
+  "descricaoCurta": "Distinguir finalidades de preservação, conservação e restauração segundo a fonte. Decidir se o objeto suporta limpeza antes de escolher o método. Selecionar invólucros pela compatibilidade, não apenas pelo nome comercial. Reconhecer limites da reversibilidade e riscos do reparo improvisado. Manusear e armazenar sem forçar estruturas frágeis. Relacionar original e cópia digital sem garantias automáticas.",
+  "alertasCebraspe": [
+    "Aditivos, qualidade e estática precisam ser considerados.",
+    "Interações, penetração e mudanças no tempo limitam a reversibilidade.",
+    "Sobrecarga também pode danificar volumes guardados horizontalmente."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 24
+}

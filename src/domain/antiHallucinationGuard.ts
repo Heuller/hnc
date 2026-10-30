@@ -9,7 +9,7 @@ const FONTES_GENERICAS_PROIBIDAS = [
   /edital\s+c[âa]mara/i,
   /banca\s+examinadora/i,
   /quest[ãa]o\s+cebraspe/i,
-  /internet/i,
+  /^\s*internet(?:\s*\/\s*google)?\s*[.!]?\s*$/i,
   /doutrina\s+geral/i,
   /conhecimento\s+comum/i,
   /gerado\s+por\s+ia/i,
@@ -21,7 +21,8 @@ const FONTES_GENERICAS_PROIBIDAS = [
 ];
 
 /**
- * Padrões aceitos que comprovam lastro em fonte primária canônica:
+ * Padrões de referências reconhecíveis. Reconhecimento textual não comprova
+ * existência da obra, fidelidade da citação ou correção do gabarito.
  * - Leis federais, Decretos, CF/88, Regimento Interno da Câmara
  * - Normas ABNT NBR, ISO, RDA, IFLA LRM, AACR2, ISBD, Dublin Core, MARC 21
  * - Teóricos de Biblioteconomia e Ciência da Informação (Ranganathan, Vergueiro, Lancaster, Otlet, Briet, etc.)
@@ -58,6 +59,7 @@ const FONTES_PRIMARIAS_VALIDAS = [
   /bechara|cunha\s*(&|e)\s*(lindley\s+)?cintra|cintra|cegalla|rocha\s+lima|azeredo|garcia|luft|marcuschi|koch/i,
   /volp|academia\s+brasileira\s+de\s+letras/i,
   /manual\s+de\s+reda[çc][ãa]o\s+da\s+presid[êe]ncia/i,
+  /lgpd\s*,?\s*arts?\./i,
   /acordo\s+ortogr[áa]fico/i,
 
   // Lógica e Raciocínio Lógico-Matemático (RLM)
@@ -72,6 +74,7 @@ const FONTES_PRIMARIAS_VALIDAS = [
   /vaswani|tufte|knaflic|russell|norvig|wei|microsoft|power\s*bi|dax|power\s*query|tableau/i,
   /tcp|udp|ip|dns|dhcp|smtp|imap|pop3|http|https|ssh|tls|ssl/i,
   /sql|json|xml|yaml|etl|elt|star\s*schema|snowflake|k-means|pca|rag|prompt/i,
+  /\bcrisp-dm\b/i,
 
   // Citações bibliográficas formais com autor e ano (ex: Autor, 1989)
   /\(\s*\d{4}\s*\)/,
@@ -133,8 +136,8 @@ export const ItemValidadoIASchema = z.object({
 });
 
 /**
- * Validador estrito que atua como bloqueio contra alucinações de IA.
- * Rejeita assertivas sem lastro em fontes primárias verificáveis e fora do formato Cebraspe.
+ * Filtro de formato e referências declaradas. Não consulta as fontes nem certifica
+ * ausência de alucinações; a revisão conceitual/documental continua necessária.
  */
 export function validarItemAntiAlucinacao(
   candidato: ItemCandidatoIA

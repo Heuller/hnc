@@ -7,209 +7,388 @@ export const submodulo141: ModuloFilho = {
   preRequisitos: [],
   titulo: 'MSOffice 365 e Ferramentas de Comunicação e Colaboração',
   antesDeLer: [
-    {
-      termo: 'Microsoft 365 e Nuvem Corporativa',
-      definicao: 'Suíte de produtividade e colaboração em nuvem (Teams, SharePoint, OneDrive, Word, Excel) adotada na administração pública.',
-      exemploBiblioteca: 'Armazenamento compartilhado de minutas e controle de versão de pareceres no SharePoint da biblioteca.',
-    },
-    {
-      termo: 'Controle de Versão Colaborativo',
-      definicao: 'Capacidade de múltiplos usuários editarem o mesmo documento simultaneamente com histórico de alterações auditável.',
-      exemploBiblioteca: 'Edição simultânea por bibliotecários e técnicos do relatório semestral de aquisições no Word Online.',
-    },
-    {
-      termo: 'SharePoint Online',
-      definicao: 'Plataforma de intranet e gerenciamento eletrônico de documentos com controle granular de permissões e listas estruturadas.',
-      exemploBiblioteca: 'Construção do portal interno da biblioteca para comunicação rápida com os gabinetes parlamentares.',
-    },
-    {
-      termo: 'Segurança e Permissões de Acesso (RBAC)',
-      definicao: 'Controle de acesso baseado em papéis (Role-Based Access Control) que restringe permissões a arquivos conforme a função do usuário.',
-      exemploBiblioteca: 'Configuração de pastas restritas a servidores comissionados da Mesa Diretora para matérias em elaboração.',
-    },
-  ],
-  descricaoCurta: 'Suíte Microsoft 365 (Word, Excel, PowerPoint e OneDrive), sincronização na nuvem e versionamento; ferramentas colaborativas corporativas: Microsoft Teams, Google Meet, webmail e clientes de correio eletrônico.',
-  tempoEstimadoMinutos: 10,
-  autoresChave: ['Microsoft Corporation', 'João Antonio Carvalho', 'CERT.br', 'Câmara dos Deputados (Ditec)'],
+  {
+    "termo": "Estilo e estrutura",
+    "definicao": "Formatação e marcação de função textual são dimensões relacionadas.",
+    "exemploBiblioteca": "Título visual pode ser feito manualmente, mas estilo facilita sumário e consistência."
+  },
+  {
+    "termo": "Sincronização e backup",
+    "definicao": "Sincronizar estados não equivale a manter recuperação independente.",
+    "exemploBiblioteca": "Uma exclusão pode ser propagada para outros dispositivos."
+  }
+],
+  descricaoCurta: "Distinguir função do aplicativo, armazenamento e direitos de acesso. Aplicar estilos e seções sem confundir aparência com estrutura. Distinguir comentários, alterações registradas e decisão editorial. Calcular resultados e explicar o deslocamento relativo, absoluto e misto. Interpretar argumentos, correspondência e resultados de funções. Separar herança visual, substituição local e informações privadas de apresentação. Distinguir arquivo listado, conteúdo local e cópia de segurança. Separar privacidade de destinatários, proteção do conteúdo e autorização de colaboração.",
+  tempoEstimadoMinutos: 30,
+  autoresChave: [
+  "Microsoft — Referências relativas, absolutas e mistas",
+  "Microsoft — Função PROCX",
+  "Microsoft — Inserir um sumário",
+  "Microsoft — Arquivos Sob Demanda",
+  "Microsoft — Coautoria no Excel"
+],
   alertasCebraspe: [
-    'Microsoft Excel 365: operadores aritméticos fundamentais (+, -, *, /, ^ para exponenciação e % para percentual); referências relativas (A1), absolutas ($A$1) e mistas ($A1 ou A$1); funções estatísticas e de busca (PROCV, PROCX, SOMA, MÉDIA, SE, SOMASE e CONT.SE); tabelas dinâmicas conectadas a modelos semânticos.',
-    'OneDrive e Nuvem: o recurso "Arquivos Sob Demanda" (Files On-Demand) permite visualizar e gerenciar arquivos na nuvem sem ocupar espaço de armazenamento no disco rígido local; o versionamento automático preserva o histórico de revisões para recuperação contra corrupção acidental.',
-    'Microsoft Word 365: controle de alterações (Track Changes), comentários, estilos hierárquicos para sumários automatizados, quebras de seção (para numeração e orientação de página diferenciada) e mala direta.',
-    'PowerPoint 365: slides mestres para padronização institucional de layout, transições e animações de elementos pré-atencionais, e modo de exibição do apresentador com anotações confidenciais.',
-    'Ferramentas Colaborativas (Teams e Meet): canais públicos vs. privados, reuniões com criptografia em trânsito, gravação com transcrição automática por IA, integração de arquivos via SharePoint e boas práticas de etiqueta corporativa.',
-  ],
+  "O cifrão fixa somente a coluna A; a linha permanece relativa e passa a 2. A referência resultante é $A2. Para fixar ambos seria necessário $A$1.",
+  "A aparência manual não assegura a marcação estrutural usada pelo sumário. Aplicar o estilo/nível pertinente organiza o título; há também recursos de configuração de sumário que não se reduzem à formatação visual.",
+  "Aceitar alteração é uma operação editorial sobre a versão do documento. Não realiza, por si, conferência factual, jurídica ou de fontes. A revisão de conteúdo exige trabalho específico."
+],
   quadroComparativo: {
-    titulo: 'Comparação de Aplicações da Suíte Microsoft 365 no Serviço Público',
-    colunas: ['Aplicativo', 'Finalidade Primordial', 'Funcionalidades Críticas Cebraspe', 'Pegadinha Mapeada'],
-    linhas: [
-      ['Microsoft Word', 'Processamento e redação técnica de textos normativos', 'Controle de alterações, quebras de seção, mala direta e estilos', 'Dizer que quebra de página permite alterar a orientação para paisagem isoladamente (FALSO: exige quebra de seção).'],
-      ['Microsoft Excel', 'Planilhas de cálculo, modelagem financeira e estatística', 'Fórmulas, referências relativas/absolutas ($), PROCV/PROCX e tabelas dinâmicas', 'Confundir PROCX (bidirecional, não exige ordenação prévia) com PROCV (apenas esquerda para direita).'],
-      ['Microsoft PowerPoint', 'Comunicação visual e apresentações institucionais', 'Slide mestre, modos de exibição, animações e exportação em PDF/vídeo', 'Afirmar que a alteração de fonte no slide mestre não se propaga aos slides normais (FALSO: propaga-se a todos).'],
-      ['Microsoft OneDrive', 'Armazenamento em nuvem e compartilhamento seguro', 'Arquivos sob demanda, versionamento automático e permissões de link', 'Dizer que arquivos sob demanda exigem download obrigatório prévio de todo o acervo (FALSO).'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Suíte Microsoft 365 no Ambiente Corporativo e Legislativo
-
-O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administração pública federal e pela Câmara dos Deputados:
-
-#### A. Microsoft Word 365
-* **Estrutura de Documentos Técnicos e Legislativos:**
-  * **Quebras de Seção vs. Quebras de Página:** Para alternar entre orientação retrato e paisagem, ou iniciar numeração de páginas distinta (ex.: algarismos romanos na introdução e arábicos no texto), é **obrigatório inserir quebra de seção** (*Próxima Página* ou *Contínua*).
-  * **Controle de Alterações (*Track Changes*):** Ferramenta basilar na instrução de pareceres e proposições. Registra inclusões, exclusões e modificações de formatação realizadas por múltiplos revisores, permitindo aceitar ou rejeitar cada alteração.
-  * **Estilos e Sumários Automáticos:** O uso dos estilos de título (*Título 1, Título 2*) é o único mecanismo que permite gerar sumários analíticos automáticos e navegáveis.
-
-#### B. Microsoft Excel 365
-* **Sintaxe e Prioridade de Operadores:**
-  * Parênteses () $\rightarrow$ Exponenciação (^) $\rightarrow$ Multiplicação (*) e Divisão (/) $\rightarrow$ Adição (+) e Subtração (-).
-* **Tipos de Referências de Células (*⚠️ Clássico Cebraspe*):**
-  * **Relativa (\`A1\`):** Desloca-se dinamicamente ao copiar e colar ou arrastar pela alça de preenchimento.
-  * **Absoluta (\`$A$1\`):** Trava completamente a coluna A e a linha 1 através do caractere cifrão (\`$\`), permanecendo fixa independentemente do destino da cópia.
-  * **Mista (\`$A1\` ou \`A$1\`):** Trava apenas a coluna (\`$A1\`) ou apenas a linha (\`A$1\`).
-* **Funções Essenciais:**
-  * \`=SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)\`
-  * \`=PROCV(valor_procurado; matriz_tabela; núm_índice_coluna; [procurar_intervalo])\`: Busca apenas da esquerda para a direita.
-  * \`=PROCX(pesquisa_valor; matriz_pesquisa; matriz_retorno)\`: Sucessora moderna do PROCV; opera em qualquer direção (esquerda/direita/cima/baixo), suporta correspondência exata por padrão e dispensa ordenação prévia.
-  * \`=SOMASE\` e \`=CONT.SE\`: Cálculos condicionais baseados em critérios textuais ou numéricos.
-
-#### C. Microsoft PowerPoint 365
-* **Slide Mestre:** O modelo hierárquico superior que armazena as configurações de design, logotipo institucional, fontes e cores da apresentação. Alterações feitas no slide mestre refletem-se compulsoriamente em todos os slides subordinados.
-* **Modo de Exibição do Apresentador:** Permite que o orador visualize em sua tela privada o cronômetro, as anotações do orador e o próximo slide, enquanto a plateia visualiza apenas o slide atual projetado.
-
-#### D. Microsoft OneDrive e Sincronização em Nuvem
-* **Arquivos Sob Demanda (*Files On-Demand*):** Três estados de sincronização de arquivos:
-  1. *Apenas online (ícone de nuvem):* Não ocupa espaço no disco local; é baixado dinamicamente quando aberto.
-  2. *Disponível localmente (ícone de círculo verde com visto):* Baixado para o dispositivo quando aberto; pode voltar a ser online se o espaço em disco for liberado.
-  3. *Sempre disponível (círculo verde preenchido com visto branco):* Marcado explicitamente para download permanente, disponível mesmo offline.
-* **Histórico de Versões:** Preserva o histórico de alterações de cada arquivo, viabilizando a restauração de versões anteriores em caso de edições equivocadas ou corrupção de dados.
-
----
-
-### 2. Ferramentas de Comunicação e Colaboração
-
-* **Microsoft Teams e Google Meet:**
-  * Canais públicos (abertos aos membros da equipe) e canais privados (restritos a subgrupos específicos).
-  * Recursos corporativos: compartilhamento de tela com controle remoto, legendas e transcrição simultânea automatizada, salas simultâneas (*breakout rooms*) e armazenamento de gravações no SharePoint/OneDrive com controle de acesso por privilégios mínimos.
-* **Correio Eletrônico e Clientes de E-mail (Outlook / Webmail):**
-  * **Campos de Destinatários:** *Para* (destinatários principais), *Cc* (com cópia visível) e *Cco / Bcc* (com cópia oculta — os demais destinatários não enxergam os endereços constantes neste campo, protegendo a privacidade em comunicações em massa).
-  * **Protocolos de E-mail:**
-    * **SMTP (Simple Mail Transfer Protocol - porta 587 com TLS):** Protocolo para *envio* de mensagens.
-    * **POP3 (Post Office Protocol - porta 995 com SSL):** Baixa as mensagens para a máquina local e tradicionalmente as apaga do servidor.
-    * **IMAP (Internet Message Access Protocol - porta 993 com SSL):** Mantém a sincronização bidirecional em tempo real entre o cliente e o servidor de e-mail, refletindo pastas, leituras e exclusões em todos os dispositivos.`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-O ecossistema **Microsoft Office 365 e as Ferramentas de Comunicação e Colaboração** operam o fluxo de trabalho digital e em nuvem nos órgãos públicos:
-1. **Ferramentas de Produtividade em Nuvem (MS 365):**
-   - **Microsoft Word / Excel / PowerPoint:** Edição colaborativa em tempo real (*coauthoring*), histórico de versões automatizado e integração nativa com nuvem corporativa (OneDrive/SharePoint).
-   - **Microsoft OneDrive for Business:** Armazenamento em nuvem individual e sincronização de arquivos de trabalho do servidor público com versionamento automático e controle granular de permissões de acesso (leitura, edição, expiração de links).
-   - **Microsoft SharePoint:** Plataforma de intranet, repositório de documentos institucionais e gerenciamento de conteúdo corporativo com controle de metadados e fluxos de aprovação.
-2. **Comunicação e Trabalho Híbrido:**
-   - **Microsoft Teams:** Centro de trabalho em equipe (*hub*) que integra chat corporativo, chamadas de voz/vídeo, reuniões gravadas em nuvem, canais temáticos e compartilhamento seguro de documentos.
-   - **Microsoft Outlook:** Gestão de correio eletrônico corporativo, calendários compartilhados, delegação de caixas de entrada e agendamento de salas de reunião.
-3. **Segurança e Conformidade no Office 365:**
-   - Criptografia de dados em trânsito (TLS) e em repouso (BitLocker / AES-256); Autenticação Multifator (MFA / 2FA); e Prevenção contra Perda de Dados (DLP - *Data Loss Prevention*), que bloqueia o vazamento acidental de CPFs e dados sigilosos por e-mail ou chat.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Coautoria em Tempo Real no Parecer Legislativo):** Três analistas da Consultoria Legislativa e um bibliotecário do CEDI redigem simultaneamente uma nota técnica sobre o mercado de carbono utilizando o **Word Online via SharePoint da Câmara**. Todos visualizam os cursores em tempo real com comentários e sugestões rastreadas sem gerar conflitos de versões de arquivo.
-- **Cenário 2 (Reunião Deliberativa de Comissão Híbrida no Teams):** Durante a pandemia e nas sessões deliberativas descentralizadas, as comissões parlamentares realizam audiências públicas pelo **Microsoft Teams Corporativo da Câmara**, com tradução simultânea, transcrição automática em tempo real e gravação arquivada diretamente no portal da BDCam.
-- **Cenário 3 (Prevenção de Vazamento com DLP no Outlook da Câmara):** Um servidor tenta anexar em e-mail externo uma planilha contendo a relação com dados fiscais sigilosos de investigados de uma CPI. A ferramenta **DLP do Microsoft 365** identifica automaticamente o padrão de dados sensíveis e bloqueia o envio da mensagem, notificando a equipe de segurança da informação da Casa.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Ferramenta MS 365 | Função Primária | Ambiente Principal | Controle de Segurança |
-| :--- | :--- | :--- | :--- |
-| **OneDrive for Business** | Armazenamento pessoal em nuvem do servidor | Arquivos individuais de trabalho | Compartilhamento com expiração de link |
-| **SharePoint** | Intranet e repositório corporativo compartilhado | Documentos departamentais/equipes | Metadados institucionais e fluxos de aprovação |
-| **Teams** | Comunicação e colaboração síncrona | Chat, canais, reuniões e conferências | Criptografia de ponta a ponta e auditoria |
-| **DLP (Data Loss Prevention)** | Bloqueio de vazamento de dados sensíveis | E-mail, arquivos e chats | Regras automatizadas de conformidade e LGPD |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Edição Concorrente sem Internet:** O Cebraspe afirma que a coautoria colaborativa em tempo real com múltiplos usuários editando a mesma linha de texto no Word pode ser realizada sem conexão à internet. **Gabarito: ERRADO.** A coautoria síncrona exige obrigatoriamente conexão de rede ativa com o serviço de nuvem (OneDrive ou SharePoint).
-- **OneDrive Pessoal vs. OneDrive for Business:** A banca confunde: no ambiente corporativo público, o OneDrive for Business é gerido sob as políticas de segurança da instituição (com controle de retenção e auditoria), não se confundindo com contas pessoais gratuitas de consumidores domésticos.
-- **DLP como Antivírus:** Afirmar que a tecnologia DLP (*Data Loss Prevention*) serve para remover vírus do computador. **Gabarito: ERRADO.** DLP serve especificamente para **prevenir vazamento acidental ou não autorizado de informações confidenciais**.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **MICROSOFT.** *Documentação Oficial do Microsoft 365 para Empresas e Governos*. Redmond: Microsoft Corporation, 2023.
-- **STALLINGS, William.** *Sistemas Operacionais: princípios e prática*. 8. ed. São Paulo: Pearson, 2018.
-- **CÂMARA DOS DEPUTADOS.** *Norma de Uso de Recursos Tecnológicos e Ferramentas de Produtividade em Nuvem*. Brasília: Diretoria de Inovação e TI (DITEC), 2022.
-- **LAUDON, Kenneth C.; LAUDON, Jane P.** *Sistemas de Informação Gerenciais*. 14. ed. São Paulo: Pearson, 2018.
-- **CERT.BR.** *Cartilha de Segurança para Internet: Trabalho Seguro e em Nuvem*. São Paulo: NIC.br, 2021.`,
-  checkpoints: [
-    {
-      id: 'cp-14-1-1',
-      pergunta: 'Micro-Checkpoint 1: Microsoft Excel - Referências e PROCX',
-      item: 'No Microsoft Excel 365, a função PROCX permite localizar dados tanto à direita quanto à esquerda da coluna de pesquisa, diferentemente da função PROCV tradicional, que restringe a busca da esquerda para a direita.',
-      gabarito: 'C',
-      justificativa: 'Correto! Conforme a documentação oficial da Microsoft (2022), a função PROCX supera a limitação unidirecional do PROCV, permitindo retornos em qualquer sentido matricial.',
-    },
-    {
-      id: 'cp-14-1-2',
-      pergunta: 'Micro-Checkpoint 2: OneDrive e Arquivos Sob Demanda',
-      item: 'O recurso de Arquivos Sob Demanda do Microsoft OneDrive exige que todo o conteúdo armazenado na nuvem seja compulsoriamente baixado para o disco rígido local do usuário para que os arquivos possam ser listados no Explorador de Arquivos.',
-      gabarito: 'E',
-      justificativa: 'Errado! Segundo a Microsoft (2022), o recurso Arquivos Sob Demanda lista os metadados dos arquivos sem consumir espaço local no disco; o download só ocorre quando o usuário solicita a abertura do arquivo.',
-    },
-    {
-      id: 'cp-14-1-3',
-      pergunta: 'Micro-Checkpoint 3: Microsoft Word - Quebras de Seção',
-      item: 'No Microsoft Word 365, a alteração da orientação de página de retrato para paisagem em apenas uma página intermediária do documento exige a inserção de quebras de seção no início e no término da referida página.',
-      gabarito: 'C',
-      justificativa: 'Certo! Conforme documentação de suporte do Microsoft Word (Carvalho, 2022), formatações de página distintas (orientação, margens e numeração) exigem seções independentes delimitadas por quebras de seção.',
-    },
+  "titulo": "Recursos de produtividade: o que cada um faz",
+  "colunas": [
+    "Recurso",
+    "Função",
+    "Não prova sozinho"
   ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-14-1-1',
-        periodo: '1989 / 1995',
-        disciplina: 'Suíte Office',
-        focoPrincipal: 'Lançamento do pacote Microsoft Office integrando Word, Excel e PowerPoint',
-        figuraChave: 'Microsoft Corporation',
-      },
-      {
-        id: 'tl-14-1-2',
-        periodo: '2011 / 2020',
-        disciplina: 'Nuvem e Colaboração',
-        focoPrincipal: 'Evolução do Office para a nuvem (Office 365 / Microsoft 365) e consolidação do Microsoft Teams',
-        figuraChave: 'Satya Nadella / Microsoft',
-      },
+  "linhas": [
+    [
+      "Estilo de título",
+      "Estruturar e formatar título",
+      "Correção de todo o documento"
     ],
-    autores: [
-      {
-        id: 'aut-14-1-1',
-        nome: 'João Antonio Carvalho',
-        ano: 2022,
-        obraPrincipal: 'Informática para Concursos Públicos (Padrão Cebraspe)',
-        ideiaChave: 'Operadores, funções avançadas do Excel, quebras de seção do Word e protocolos de correio (SMTP/IMAP).',
-        chipPegadinha: 'SMTP envia; POP3 e IMAP recebem/sincronizam.',
-      },
-      {
-        id: 'aut-14-1-2',
-        nome: 'Satya Nadella & Microsoft Architecture Team',
-        ano: 2022,
-        obraPrincipal: 'Arquitetura e Recursos do Microsoft 365 Enterprise',
-        ideiaChave: 'Arquivos sob demanda no OneDrive, versionamento contínuo e sincronização de dados no Teams.',
-        chipPegadinha: 'Arquivos sob demanda mantêm o catálogo visível sem ocupar espaço local.',
-      },
+    [
+      "Controle de alterações",
+      "Registrar edições",
+      "Validade jurídica do texto"
     ],
-    pegadinhas: [
-      {
-        id: 'peg-14-1-1',
-        afirmacao: 'O protocolo SMTP é utilizado pelos clientes de correio eletrônico tanto para o envio de mensagens para servidores remotos quanto para a sincronização de pastas de mensagens recebidas na máquina do usuário.',
-        gabarito: 'E',
-        porQue: 'O SMTP atua exclusivamente no ENVIO (Simple Mail Transfer). O recebimento e sincronização cabem ao IMAP ou POP3.',
-      },
-      {
-        id: 'peg-14-1-2',
-        afirmacao: 'Ao inserir um endereço no campo Cco (Cópia Oculta) de uma mensagem de e-mail, os destinatários listados no campo Para conseguirão identificar quem recebeu a cópia caso utilizem o recurso Responder a Todos.',
-        gabarito: 'E',
-        porQue: 'Os endereços em Cco são estritamente ocultos; nenhum destinatário dos campos Para ou Cc tem conhecimento de sua existência.',
-      },
+    [
+      "Sincronização",
+      "Relacionar estados de arquivos",
+      "Backup isolado"
     ],
+    [
+      "Cco",
+      "Ocultar destinatários do campo",
+      "Criptografia de ponta a ponta"
+    ],
+    [
+      "PROCX",
+      "Procurar e retornar dados",
+      "Qualidade e unicidade da base"
+    ]
+  ]
+},
+  teoriaDensaMarkdown: "### Produtividade por tarefa: versões, arquivos e permissões\n\nMicrosoft 365 reúne aplicativos e serviços com recursos que dependem de licença, versão, plataforma e configuração institucional. Um procedimento no aplicativo de desktop pode ter posição ou disponibilidade diferente na versão web. Esta aula ensina operações e relações; não presume que todos os órgãos públicos adotam exatamente a mesma suíte nem que todo recurso está ativo para qualquer conta.\n\nPara uma tarefa, identifique **aplicativo**, **arquivo**, **local de armazenamento**, **permissão** e **estado da operação**. Um documento aberto no Word pode estar só no computador, em OneDrive ou em uma biblioteca SharePoint. O local afeta colaboração, histórico e sincronização, mas não altera automaticamente o significado do conteúdo.\n\n**Caso:** duas pessoas precisam revisar um relatório. Enviar anexos separados gera cópias que podem divergir; compartilhar um documento em local compatível permite outra dinâmica, desde que permissões e clientes suportem a colaboração. O compartilhamento não dispensa controle de destinatários nem define sozinho quem pode aprovar a versão final.\n\nNão confunda **salvar**, **sincronizar**, **compartilhar** e **publicar**. Salvar registra uma versão no destino; sincronizar relaciona estados entre locais; compartilhar concede acesso conforme regras; publicar disponibiliza a um público em uma forma definida. A interface deve confirmar o resultado real, não apenas a intenção do usuário.\n\nAo resolver um item, observe a operação solicitada e as condições dadas. Se ele pergunta sobre cópia de fórmula, não aplique sem ressalvas uma regra de movimentação de células. Se pergunta sobre link de leitura, não presuma direito de edição.\n\n### Word: estrutura de documento, seções e sumário\n\n**Estilos** associam um conjunto de propriedades a um papel do texto. Aplicar Título 1 e Título 2 é um caminho usual para organizar níveis, navegação e sumário. Aumentar fonte e usar negrito manualmente pode produzir aparência semelhante sem a mesma estrutura. O sumário automático depende das configurações e dos elementos selecionados, e precisa ser atualizado quando títulos ou paginação mudam.\n\n**Quebra de página** leva o texto à página seguinte; **quebra de seção** delimita partes que podem receber configurações próprias, como orientação e certas opções de cabeçalho/numeração. Inserir uma quebra de página não cria, por si, uma seção independente.\n\n**Exemplo resolvido:** um relatório está todo em retrato e uma tabela intermediária deve ficar em paisagem, mantendo as páginas anteriores e seguintes em retrato. A região precisa integrar uma seção com orientação própria, delimitada em relação ao restante. Dependendo do comando e da seleção, o Word pode inserir as quebras pertinentes; o conceito é separar a configuração por seção, e não obrigar uma sequência manual única em toda versão.\n\nCabeçalhos e rodapés podem permanecer vinculados à seção anterior. Mudar seção não garante automaticamente um cabeçalho totalmente independente: examine a opção de vínculo e o resultado. Numeração também pede conferir continuidade ou reinício, formato e seção a que a alteração se aplica.\n\n**Procedimento de revisão:** mostre marcas de formatação quando necessário, identifique quebras, confira os níveis dos títulos e atualize o sumário. A estrutura ajuda também na navegação acessível, mas não certifica, sozinha, que todo documento está acessível.\n\n### Word: revisão e colaboração não são certificação de conteúdo\n\n**Controle de alterações** registra edições conforme as opções do aplicativo. **Comentários** registram observações e discussões. Um comentário pode pedir confirmação de um dado sem alterar diretamente a frase; uma edição pode modificar o texto e aguardar aceitação. Aceitar/rejeitar alteração e resolver comentário são operações diferentes.\n\n**Caso:** a equipe troca o prazo de 20 por 30 dias numa minuta. O controle mostra a mudança; aceitar a alteração incorpora a edição. Nenhuma dessas operações demonstra que o novo prazo está correto na lei. A validação precisa consultar a fonte e o contexto. A ferramenta facilita a rastreabilidade editorial, mas não substitui o responsável técnico.\n\nCoautoria permite trabalhar no mesmo arquivo sob condições de serviço, formato e aplicativo. Não basta que todos tenham um programa com nome parecido. A documentação da Microsoft indica requisitos, como localização compatível no OneDrive/SharePoint Online e versões que suportem o recurso, para os cenários apresentados.\n\n**Histórico de versões** e **controle de alterações** também não são idênticos. Histórico permite examinar/recuperar estados do arquivo conforme retenção; controle evidencia edições no documento. Restaurar uma versão pode descartar alterações posteriores no estado corrente, portanto exige entender a ação.\n\nUma boa prática de estudo é comparar dois cenários: revisão de texto em cópias separadas e coautoria em arquivo compartilhado. Liste onde ficam as alterações e quem pode vê-las. Isso ensina o mecanismo em vez de memorizar a cor de um botão que pode variar.\n\n### Excel: fórmulas, valores e referências de cópia\n\nUma fórmula relaciona valores e operações. A célula pode mostrar o resultado, enquanto a barra de fórmulas mostra a expressão. No exemplo **A2=10** e **B2=3**, `=A2+B2*2` resulta em 16; `=(A2+B2)*2`, em 26. Os parênteses alteram a ordem da operação. Para problemas mais complexos, examine a precedência específica, incluindo operadores distintos, em vez de aplicar só uma regra de aritmética incompleta.\n\nNa **cópia**, referência relativa acompanha o deslocamento. De C2 para C3, `=A2*B2` torna-se `=A3*B3`. Referência absoluta fixa coluna e linha: `=$A$2*B2` mantém `$A$2` e desloca B2. Referência mista fixa apenas o componente precedido por cifrão: `$A2` fixa A; `A$2` fixa a linha 2.\n\n**Exemplo resolvido:** copiar `=$A2+B$1` de C2 para D3 desloca uma coluna e uma linha. `$A2` passa a `$A3`; `B$1` passa a `C$1`. A fórmula copiada é `=$A3+C$1`. A presença de um único cifrão não fixa toda a referência.\n\nO enunciado deve distinguir cópia de operações que movem, inserem ou excluem células/linhas. “Absoluta” no contexto de copiar não significa imunidade a toda transformação estrutural da planilha. Para o julgamento, trabalhe com a operação explicitamente descrita.\n\n**Recuperação:** aplique separadamente deslocamento horizontal e vertical a cada componente da referência. Só depois calcule com os valores. Misturar a etapa de copiar com a de calcular é uma fonte comum de erro e pode ser diagnosticada no comentário.\n\n### Excel: decisões, critérios e procura de dados\n\nOs exemplos usam nomes e separadores do Excel em português conforme a configuração apresentada. **SE** seleciona resultados conforme um teste: `=SE(B2>=10;\"Revisar\";\"Aguardar\")`. Se B2 vale 10, o teste é verdadeiro e o resultado é Revisar. O sinal >= inclui a igualdade; trocá-lo por > pode mudar o resultado na fronteira.\n\n**SOMASE** e **CONT.SE** atendem a perguntas diferentes: somar valores que cumprem um critério e contar ocorrências que o cumprem. Se uma tabela contém três solicitações de uma categoria, cujos valores são 2, 4 e 5, contar retorna 3 e somar retorna 11. Identifique a medida desejada antes de escolher a função.\n\n**PROCV** procura na primeira coluna da matriz e retorna valor de coluna indicada dentro dela. A configuração de correspondência importa: aproximação e igualdade não são intercambiáveis. Não omita o argumento de modo sem saber seu efeito. **PROCX** permite separar matriz de pesquisa e matriz de retorno, inclusive para retornar elemento situado à esquerda, e tem correspondência exata como padrão no uso documentado.\n\n**Caso:** códigos estão em C e descrições em A. A disposição não impede usar PROCX com pesquisa em C e retorno em A. Já a aplicação direta de PROCV pressupõe a estrutura de sua matriz e não funciona simplesmente invertendo um número de coluna para qualquer lado.\n\nValores ausentes, espaços, tipos de dados e duplicidades também afetam resultados. Encontrar um código não garante que todos os registros são únicos ou corretos. Ao comentar um exercício, explique dados, argumentos e retorno; não atribua à função uma capacidade de corrigir automaticamente a qualidade da base.\n\n### Apresentações: mestre, layout e uso pelo apresentador\n\nNo PowerPoint, **slide mestre** e **layouts** ajudam a organizar design e posições de elementos. Um slide usa um layout; elementos e formatações podem ter relações de herança e alterações locais. Por isso, uma mudança no mestre não deve ser descrita como obrigação de sobrescrever todo elemento de todo slide sem exceção.\n\n**Exemplo:** a apresentação usa um mestre com fonte e rodapé institucional. Um layout contém título e conteúdo; outro contém duas colunas. A consistência é apoiada pela estrutura, mas um elemento inserido manualmente num slide ou uma formatação local pode exigir tratamento específico. Antes de concluir que tudo mudou, examine o tipo de elemento e a relação com o mestre/layout.\n\n**Modo do apresentador** pode permitir notas e controles em uma tela enquanto a plateia vê a apresentação. O resultado depende da configuração das telas e do compartilhamento. Compartilhar a tela inteira errada numa reunião pode expor notas; o recurso não torna privadas quaisquer informações por força do nome.\n\n**Tarefa de estudo:** monte uma apresentação curta e teste alterar um elemento do mestre, um do layout e um objeto criado num slide. Compare o resultado. Depois configure a exibição e confirme qual janela o público recebe. Isso desenvolve raciocínio sobre níveis e contexto, útil quando o item descreve uma situação em vez de perguntar o nome de um comando.\n\n### OneDrive e SharePoint: disponibilidade, sincronização e recuperação\n\n**Arquivos Sob Demanda** permite listar recursos sem baixar todo seu conteúdo. A identificação e o estado podem estar disponíveis localmente; abrir um arquivo apenas online requer obter conteúdo quando não existe cópia acessível no dispositivo. Não é correto transformar economia de espaço em ausência absoluta de qualquer metadado local.\n\nNo cenário documentado para Windows, os estados distinguem arquivo apenas online, disponível localmente e mantido disponível no dispositivo. A marcação para manter local envolve download e precisa ser confirmada; não é uma garantia abstrata contra falha de disco ou corrupção.\n\n**Sincronização** pode propagar alterações e exclusões. Se o usuário apaga um arquivo sincronizado, a exclusão pode alcançar o estado na nuvem e outros dispositivos. Isso a diferencia de uma estratégia de backup planejada com retenção, isolamento e recuperação testada. Lixeira e histórico oferecem recursos específicos, cujos limites precisam ser conhecidos.\n\n**Caso resolvido:** uma pessoa vai trabalhar sem internet e apenas viu o nome do relatório na pasta sincronizada. A listagem não demonstra que o conteúdo completo estará disponível offline. Ela precisa verificar seu estado e preparar a cópia local apropriada. Depois, ao retomar a rede, conflitos e sincronização também podem exigir atenção.\n\nCompartilhamento deve identificar público e permissão: leitura e edição não são equivalentes; link para pessoas específicas e link mais amplo podem ter alcances distintos. A aplicação da política institucional continua necessária, sobretudo com dados pessoais e documentos restritos.\n\n### Comunicação: destinatários, reuniões e condições do serviço\n\nEm e-mail, **Para** identifica destinatários principais, **Cc** adiciona cópias visíveis e **Cco/Bcc** oculta dos demais destinatários os endereços desse campo conforme o funcionamento do serviço. Essa ocultação não é criptografia de ponta a ponta e não impede que um destinatário autorizado encaminhe a mensagem.\n\n**SMTP** é associado ao envio/transferência de mensagens; **IMAP**, ao acesso e sincronização do estado da caixa conforme o servidor; **POP3**, à recuperação com comportamento de retenção/exclusão dependente de configuração. Não ensine que POP3 sempre apaga tudo do servidor. Portas e proteção dependem do modo: submissão SMTP com STARTTLS, TLS implícito e outros cenários não se reduzem a uma única combinação universal.\n\nFerramentas de reunião podem oferecer compartilhamento de tela, chat, legendas, gravação e controle de participantes, mas recursos variam por produto, plano e política. Teams e Meet não têm necessariamente a mesma estrutura de equipes/canais; não transfira uma funcionalidade de um para outro apenas por ambos realizarem videoconferência.\n\n**Caso:** compartilhar a tela numa reunião não equivale a conceder controle remoto, acesso permanente ao arquivo ou direito de gravar. Cada ação precisa de recurso e permissão próprios. Uma gravação também tem destino, retenção e público que devem ser conferidos.\n\nPara resolver itens, leia as condições de produto/versão e identifique a função concreta. Um comentário útil explica por que aquela operação atende à tarefa e quais permissões não são criadas automaticamente.",
+  teoriaDidaticaMarkdown: "### Revisão: operação, condição e resultado\n\nWord: estilo estrutura; negrito manual não garante título no sumário. Seção permite configuração própria; quebra de página não é igual. Controle de alterações registra edição, sem certificar sua verdade. Excel: calcule a operação e desloque cada componente da referência na cópia; cifrão fixa somente o componente seguinte. SE decide por teste; contar e somar têm objetivos distintos; PROCX separa pesquisa e retorno. PowerPoint: mestre, layout e objeto local têm relações próprias. OneDrive: listado não significa baixado; sincronização pode propagar exclusão e não é backup completo. Compartilhamento concede permissão conforme configuração. Cco oculta endereços, não criptografa automaticamente a mensagem.\n\n**Recupere:** copie =$A2+B$1 uma linha abaixo e uma coluna à direita; diferencie arquivo local, somente online e backup; explique por que aceitar alteração não valida o prazo de uma lei.\n",
+  checkpoints: [
+  {
+    "id": "cp-14-1-1",
+    "pergunta": "Micro-Checkpoint 1: Microsoft Excel - Referências e PROCX",
+    "item": "No Microsoft Excel 365, a função PROCX permite localizar dados tanto à direita quanto à esquerda da coluna de pesquisa, diferentemente da função PROCV tradicional, que restringe a busca da esquerda para a direita.",
+    "gabarito": "C",
+    "justificativa": "PROCX permite definir matrizes de pesquisa e retorno separadas, inclusive com retorno à esquerda. PROCV usa a primeira coluna da matriz e um índice de coluna de retorno dentro dela. A comparação é da estrutura das funções, não de uma certificação de dados corretos.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração."
   },
+  {
+    "id": "cp-14-1-2",
+    "pergunta": "Micro-Checkpoint 2: OneDrive e Arquivos Sob Demanda",
+    "item": "O recurso de Arquivos Sob Demanda do Microsoft OneDrive exige que todo o conteúdo armazenado na nuvem seja compulsoriamente baixado para o disco rígido local do usuário para que os arquivos possam ser listados no Explorador de Arquivos.",
+    "gabarito": "E",
+    "justificativa": "O recurso permite exibir a listagem e o estado sem baixar todo o conteúdo. Metadados locais e conteúdo completo são coisas diferentes. Abertura e disponibilidade offline precisam considerar o estado efetivo do arquivo.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "versao_correta": "Arquivos Sob Demanda pode listar arquivos sem baixar todo seu conteúdo para o dispositivo."
+  },
+  {
+    "id": "cp-14-1-3",
+    "pergunta": "Micro-Checkpoint 3: Microsoft Word - Quebras de Seção",
+    "item": "Em um documento do Word inicialmente todo em retrato, manter somente uma região intermediária em paisagem e retornar ao retrato depois exige delimitar a configuração dessa região por seções, ainda que um comando insira as quebras automaticamente.",
+    "gabarito": "C",
+    "justificativa": "Orientação de página pode ser organizada por seção. A região intermediária precisa ser separada das configurações anterior e posterior. Isso não obriga que todo usuário insira manualmente duas quebras se o comando ou a estrutura já realiza a delimitação.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração."
+  },
+  {
+    "id": "rt-14-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Ao copiar de C2 para C3 a fórmula =A2*$B$1, sem outra alteração na estrutura da planilha, a referência relativa A2 passa a A3, enquanto $B$1 permanece fixa.",
+    "gabarito": "C",
+    "justificativa": "O deslocamento da cópia é uma linha. A2 varia na mesma direção; os cifrões fixam coluna B e linha 1. O item trata de cópia, não de toda operação de mover, inserir ou excluir células.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Ao copiar uma fórmula uma coluna para a direita e uma linha para baixo, $A1 permanece $A1, pois a presença de um cifrão fixa toda a referência.",
+    "gabarito": "E",
+    "justificativa": "O cifrão fixa somente a coluna A; a linha permanece relativa e passa a 2. A referência resultante é $A2. Para fixar ambos seria necessário $A$1.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar",
+    "versao_correta": "Nessa cópia, $A1 passa a $A2."
+  },
+  {
+    "id": "rt-14-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Com A2=10 e B2=3, =A2+B2*2 retorna 16, enquanto =(A2+B2)*2 retorna 26.",
+    "gabarito": "C",
+    "justificativa": "Na primeira, a multiplicação 3*2 é calculada antes da soma: 10+6=16. Na segunda, os parênteses determinam a soma 10+3 antes de multiplicar por 2.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A fórmula =SE(B2>=10;\"Revisar\";\"Aguardar\"), com B2=10, retorna Revisar no exemplo de sintaxe em português apresentado.",
+    "gabarito": "C",
+    "justificativa": "A condição B2>=10 é verdadeira quando B2 é igual a 10; SE seleciona o segundo argumento. Separadores e nomes de função dependem da configuração regional e do idioma.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-1-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No Word, colocar uma linha em negrito e fonte maior garante, por si só, que ela tenha estrutura de título e participe de um sumário automático configurado por níveis.",
+    "gabarito": "E",
+    "justificativa": "A aparência manual não assegura a marcação estrutural usada pelo sumário. Aplicar o estilo/nível pertinente organiza o título; há também recursos de configuração de sumário que não se reduzem à formatação visual.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar",
+    "versao_correta": "A linha precisa da estrutura ou configuração pertinente para participar do sumário automático."
+  },
+  {
+    "id": "rt-14-1-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Aceitar uma alteração no Word equivale necessariamente a verificar a verdade técnica e jurídica do trecho alterado.",
+    "gabarito": "E",
+    "justificativa": "Aceitar alteração é uma operação editorial sobre a versão do documento. Não realiza, por si, conferência factual, jurídica ou de fontes. A revisão de conteúdo exige trabalho específico.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar",
+    "versao_correta": "Aceitar uma alteração incorpora a edição, sem certificar automaticamente seu conteúdo."
+  },
+  {
+    "id": "rt-14-1-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A sincronização pode propagar uma exclusão para a nuvem e outros dispositivos; por isso, não deve ser confundida com uma estratégia completa de backup.",
+    "gabarito": "C",
+    "justificativa": "A sincronização mantém estados relacionados, inclusive alterações indesejadas. Histórico, retenção e cópias separadas podem oferecer recursos de recuperação, mas devem ser configurados e testados conforme o serviço.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-1-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um arquivo somente online pode ser listado sem que todo seu conteúdo esteja baixado; abri-lo sem conectividade pode falhar se não houver cópia local.",
+    "gabarito": "C",
+    "justificativa": "Listagem usa informações de identificação e estado. Disponibilidade de todo o conteúdo offline é outra condição. O recurso Sob Demanda não elimina a necessidade de planejar arquivos locais para trabalho sem rede.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-1-9",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Compartilhar um link de edição e compartilhar um link de leitura são operações que podem conceder permissões diferentes, conforme a configuração.",
+    "gabarito": "C",
+    "justificativa": "O link precisa ser interpretado junto de destinatário, permissão e política do serviço. A possibilidade de abrir um documento não implica autorização para alterá-lo.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-1-10",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em uma mensagem, Cco oculta dos demais destinatários os endereços desse campo, mas não criptografa automaticamente o conteúdo do e-mail de ponta a ponta.",
+    "gabarito": "C",
+    "justificativa": "Ocultar a lista de destinatários e proteger o conteúdo por criptografia são funções distintas. Não se deve inferir sigilo integral apenas pelo uso de Cco.",
+    "fonte": "Microsoft Support: referências de células, PROCX, títulos/sumário, coautoria e Arquivos Sob Demanda. Exemplos autorais para Microsoft 365; recursos variam por versão e configuração.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-14-1-fonte-microsoft-referencias",
+      "nome": "Microsoft — Referências relativas, absolutas e mistas",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Referências relativas, absolutas e mistas",
+      "ideiaChave": "Comportamento na cópia de fórmulas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-procx",
+      "nome": "Microsoft — Função PROCX",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Função PROCX",
+      "ideiaChave": "Matrizes de pesquisa/retorno e correspondência.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-word",
+      "nome": "Microsoft — Inserir um sumário",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Inserir um sumário",
+      "ideiaChave": "Títulos e atualização do sumário.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-onedrive",
+      "nome": "Microsoft — Arquivos Sob Demanda",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Arquivos Sob Demanda",
+      "ideiaChave": "Estados de disponibilidade no Windows; conferir versão e configuração.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-coautoria",
+      "nome": "Microsoft — Coautoria no Excel",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Coautoria no Excel",
+      "ideiaChave": "Requisitos de localização, cliente e colaboração.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-14-1-8",
+      "afirmacao": "Um arquivo somente online pode ser listado sem que todo seu conteúdo esteja baixado; abri-lo sem conectividade pode falhar se não houver cópia local.",
+      "gabarito": "C",
+      "porQue": "Listagem usa informações de identificação e estado. Disponibilidade de todo o conteúdo offline é outra condição. O recurso Sob Demanda não elimina a necessidade de planejar arquivos locais para trabalho sem rede."
+    },
+    {
+      "id": "memoria-rt-14-1-9",
+      "afirmacao": "Compartilhar um link de edição e compartilhar um link de leitura são operações que podem conceder permissões diferentes, conforme a configuração.",
+      "gabarito": "C",
+      "porQue": "O link precisa ser interpretado junto de destinatário, permissão e política do serviço. A possibilidade de abrir um documento não implica autorização para alterá-lo."
+    },
+    {
+      "id": "memoria-rt-14-1-10",
+      "afirmacao": "Em uma mensagem, Cco oculta dos demais destinatários os endereços desse campo, mas não criptografa automaticamente o conteúdo do e-mail de ponta a ponta.",
+      "gabarito": "C",
+      "porQue": "Ocultar a lista de destinatários e proteger o conteúdo por criptografia são funções distintas. Não se deve inferir sigilo integral apenas pelo uso de Cco."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-14-1-bloco-1",
+    "titulo": "Produtividade por tarefa: versões, arquivos e permissões",
+    "objetivos": [
+      "Distinguir função do aplicativo, armazenamento e direitos de acesso."
+    ],
+    "conteudo": "Microsoft 365 reúne aplicativos e serviços com recursos que dependem de licença, versão, plataforma e configuração institucional. Um procedimento no aplicativo de desktop pode ter posição ou disponibilidade diferente na versão web. Esta aula ensina operações e relações; não presume que todos os órgãos públicos adotam exatamente a mesma suíte nem que todo recurso está ativo para qualquer conta.\n\nPara uma tarefa, identifique **aplicativo**, **arquivo**, **local de armazenamento**, **permissão** e **estado da operação**. Um documento aberto no Word pode estar só no computador, em OneDrive ou em uma biblioteca SharePoint. O local afeta colaboração, histórico e sincronização, mas não altera automaticamente o significado do conteúdo.\n\n**Caso:** duas pessoas precisam revisar um relatório. Enviar anexos separados gera cópias que podem divergir; compartilhar um documento em local compatível permite outra dinâmica, desde que permissões e clientes suportem a colaboração. O compartilhamento não dispensa controle de destinatários nem define sozinho quem pode aprovar a versão final.\n\nNão confunda **salvar**, **sincronizar**, **compartilhar** e **publicar**. Salvar registra uma versão no destino; sincronizar relaciona estados entre locais; compartilhar concede acesso conforme regras; publicar disponibiliza a um público em uma forma definida. A interface deve confirmar o resultado real, não apenas a intenção do usuário.\n\nAo resolver um item, observe a operação solicitada e as condições dadas. Se ele pergunta sobre cópia de fórmula, não aplique sem ressalvas uma regra de movimentação de células. Se pergunta sobre link de leitura, não presuma direito de edição.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-14-1-bloco-2",
+    "titulo": "Word: estrutura de documento, seções e sumário",
+    "objetivos": [
+      "Aplicar estilos e seções sem confundir aparência com estrutura."
+    ],
+    "conteudo": "**Estilos** associam um conjunto de propriedades a um papel do texto. Aplicar Título 1 e Título 2 é um caminho usual para organizar níveis, navegação e sumário. Aumentar fonte e usar negrito manualmente pode produzir aparência semelhante sem a mesma estrutura. O sumário automático depende das configurações e dos elementos selecionados, e precisa ser atualizado quando títulos ou paginação mudam.\n\n**Quebra de página** leva o texto à página seguinte; **quebra de seção** delimita partes que podem receber configurações próprias, como orientação e certas opções de cabeçalho/numeração. Inserir uma quebra de página não cria, por si, uma seção independente.\n\n**Exemplo resolvido:** um relatório está todo em retrato e uma tabela intermediária deve ficar em paisagem, mantendo as páginas anteriores e seguintes em retrato. A região precisa integrar uma seção com orientação própria, delimitada em relação ao restante. Dependendo do comando e da seleção, o Word pode inserir as quebras pertinentes; o conceito é separar a configuração por seção, e não obrigar uma sequência manual única em toda versão.\n\nCabeçalhos e rodapés podem permanecer vinculados à seção anterior. Mudar seção não garante automaticamente um cabeçalho totalmente independente: examine a opção de vínculo e o resultado. Numeração também pede conferir continuidade ou reinício, formato e seção a que a alteração se aplica.\n\n**Procedimento de revisão:** mostre marcas de formatação quando necessário, identifique quebras, confira os níveis dos títulos e atualize o sumário. A estrutura ajuda também na navegação acessível, mas não certifica, sozinha, que todo documento está acessível.",
+    "checkpointIds": [
+      "cp-14-1-3",
+      "rt-14-1-5"
+    ]
+  },
+  {
+    "id": "sub-14-1-bloco-3",
+    "titulo": "Word: revisão e colaboração não são certificação de conteúdo",
+    "objetivos": [
+      "Distinguir comentários, alterações registradas e decisão editorial."
+    ],
+    "conteudo": "**Controle de alterações** registra edições conforme as opções do aplicativo. **Comentários** registram observações e discussões. Um comentário pode pedir confirmação de um dado sem alterar diretamente a frase; uma edição pode modificar o texto e aguardar aceitação. Aceitar/rejeitar alteração e resolver comentário são operações diferentes.\n\n**Caso:** a equipe troca o prazo de 20 por 30 dias numa minuta. O controle mostra a mudança; aceitar a alteração incorpora a edição. Nenhuma dessas operações demonstra que o novo prazo está correto na lei. A validação precisa consultar a fonte e o contexto. A ferramenta facilita a rastreabilidade editorial, mas não substitui o responsável técnico.\n\nCoautoria permite trabalhar no mesmo arquivo sob condições de serviço, formato e aplicativo. Não basta que todos tenham um programa com nome parecido. A documentação da Microsoft indica requisitos, como localização compatível no OneDrive/SharePoint Online e versões que suportem o recurso, para os cenários apresentados.\n\n**Histórico de versões** e **controle de alterações** também não são idênticos. Histórico permite examinar/recuperar estados do arquivo conforme retenção; controle evidencia edições no documento. Restaurar uma versão pode descartar alterações posteriores no estado corrente, portanto exige entender a ação.\n\nUma boa prática de estudo é comparar dois cenários: revisão de texto em cópias separadas e coautoria em arquivo compartilhado. Liste onde ficam as alterações e quem pode vê-las. Isso ensina o mecanismo em vez de memorizar a cor de um botão que pode variar.",
+    "checkpointIds": [
+      "rt-14-1-6"
+    ]
+  },
+  {
+    "id": "sub-14-1-bloco-4",
+    "titulo": "Excel: fórmulas, valores e referências de cópia",
+    "objetivos": [
+      "Calcular resultados e explicar o deslocamento relativo, absoluto e misto."
+    ],
+    "conteudo": "Uma fórmula relaciona valores e operações. A célula pode mostrar o resultado, enquanto a barra de fórmulas mostra a expressão. No exemplo **A2=10** e **B2=3**, `=A2+B2*2` resulta em 16; `=(A2+B2)*2`, em 26. Os parênteses alteram a ordem da operação. Para problemas mais complexos, examine a precedência específica, incluindo operadores distintos, em vez de aplicar só uma regra de aritmética incompleta.\n\nNa **cópia**, referência relativa acompanha o deslocamento. De C2 para C3, `=A2*B2` torna-se `=A3*B3`. Referência absoluta fixa coluna e linha: `=$A$2*B2` mantém `$A$2` e desloca B2. Referência mista fixa apenas o componente precedido por cifrão: `$A2` fixa A; `A$2` fixa a linha 2.\n\n**Exemplo resolvido:** copiar `=$A2+B$1` de C2 para D3 desloca uma coluna e uma linha. `$A2` passa a `$A3`; `B$1` passa a `C$1`. A fórmula copiada é `=$A3+C$1`. A presença de um único cifrão não fixa toda a referência.\n\nO enunciado deve distinguir cópia de operações que movem, inserem ou excluem células/linhas. “Absoluta” no contexto de copiar não significa imunidade a toda transformação estrutural da planilha. Para o julgamento, trabalhe com a operação explicitamente descrita.\n\n**Recuperação:** aplique separadamente deslocamento horizontal e vertical a cada componente da referência. Só depois calcule com os valores. Misturar a etapa de copiar com a de calcular é uma fonte comum de erro e pode ser diagnosticada no comentário.",
+    "checkpointIds": [
+      "rt-14-1-1",
+      "rt-14-1-2",
+      "rt-14-1-3"
+    ]
+  },
+  {
+    "id": "sub-14-1-bloco-5",
+    "titulo": "Excel: decisões, critérios e procura de dados",
+    "objetivos": [
+      "Interpretar argumentos, correspondência e resultados de funções."
+    ],
+    "conteudo": "Os exemplos usam nomes e separadores do Excel em português conforme a configuração apresentada. **SE** seleciona resultados conforme um teste: `=SE(B2>=10;\"Revisar\";\"Aguardar\")`. Se B2 vale 10, o teste é verdadeiro e o resultado é Revisar. O sinal >= inclui a igualdade; trocá-lo por > pode mudar o resultado na fronteira.\n\n**SOMASE** e **CONT.SE** atendem a perguntas diferentes: somar valores que cumprem um critério e contar ocorrências que o cumprem. Se uma tabela contém três solicitações de uma categoria, cujos valores são 2, 4 e 5, contar retorna 3 e somar retorna 11. Identifique a medida desejada antes de escolher a função.\n\n**PROCV** procura na primeira coluna da matriz e retorna valor de coluna indicada dentro dela. A configuração de correspondência importa: aproximação e igualdade não são intercambiáveis. Não omita o argumento de modo sem saber seu efeito. **PROCX** permite separar matriz de pesquisa e matriz de retorno, inclusive para retornar elemento situado à esquerda, e tem correspondência exata como padrão no uso documentado.\n\n**Caso:** códigos estão em C e descrições em A. A disposição não impede usar PROCX com pesquisa em C e retorno em A. Já a aplicação direta de PROCV pressupõe a estrutura de sua matriz e não funciona simplesmente invertendo um número de coluna para qualquer lado.\n\nValores ausentes, espaços, tipos de dados e duplicidades também afetam resultados. Encontrar um código não garante que todos os registros são únicos ou corretos. Ao comentar um exercício, explique dados, argumentos e retorno; não atribua à função uma capacidade de corrigir automaticamente a qualidade da base.",
+    "checkpointIds": [
+      "cp-14-1-1",
+      "rt-14-1-4"
+    ]
+  },
+  {
+    "id": "sub-14-1-bloco-6",
+    "titulo": "Apresentações: mestre, layout e uso pelo apresentador",
+    "objetivos": [
+      "Separar herança visual, substituição local e informações privadas de apresentação."
+    ],
+    "conteudo": "No PowerPoint, **slide mestre** e **layouts** ajudam a organizar design e posições de elementos. Um slide usa um layout; elementos e formatações podem ter relações de herança e alterações locais. Por isso, uma mudança no mestre não deve ser descrita como obrigação de sobrescrever todo elemento de todo slide sem exceção.\n\n**Exemplo:** a apresentação usa um mestre com fonte e rodapé institucional. Um layout contém título e conteúdo; outro contém duas colunas. A consistência é apoiada pela estrutura, mas um elemento inserido manualmente num slide ou uma formatação local pode exigir tratamento específico. Antes de concluir que tudo mudou, examine o tipo de elemento e a relação com o mestre/layout.\n\n**Modo do apresentador** pode permitir notas e controles em uma tela enquanto a plateia vê a apresentação. O resultado depende da configuração das telas e do compartilhamento. Compartilhar a tela inteira errada numa reunião pode expor notas; o recurso não torna privadas quaisquer informações por força do nome.\n\n**Tarefa de estudo:** monte uma apresentação curta e teste alterar um elemento do mestre, um do layout e um objeto criado num slide. Compare o resultado. Depois configure a exibição e confirme qual janela o público recebe. Isso desenvolve raciocínio sobre níveis e contexto, útil quando o item descreve uma situação em vez de perguntar o nome de um comando.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-14-1-bloco-7",
+    "titulo": "OneDrive e SharePoint: disponibilidade, sincronização e recuperação",
+    "objetivos": [
+      "Distinguir arquivo listado, conteúdo local e cópia de segurança."
+    ],
+    "conteudo": "**Arquivos Sob Demanda** permite listar recursos sem baixar todo seu conteúdo. A identificação e o estado podem estar disponíveis localmente; abrir um arquivo apenas online requer obter conteúdo quando não existe cópia acessível no dispositivo. Não é correto transformar economia de espaço em ausência absoluta de qualquer metadado local.\n\nNo cenário documentado para Windows, os estados distinguem arquivo apenas online, disponível localmente e mantido disponível no dispositivo. A marcação para manter local envolve download e precisa ser confirmada; não é uma garantia abstrata contra falha de disco ou corrupção.\n\n**Sincronização** pode propagar alterações e exclusões. Se o usuário apaga um arquivo sincronizado, a exclusão pode alcançar o estado na nuvem e outros dispositivos. Isso a diferencia de uma estratégia de backup planejada com retenção, isolamento e recuperação testada. Lixeira e histórico oferecem recursos específicos, cujos limites precisam ser conhecidos.\n\n**Caso resolvido:** uma pessoa vai trabalhar sem internet e apenas viu o nome do relatório na pasta sincronizada. A listagem não demonstra que o conteúdo completo estará disponível offline. Ela precisa verificar seu estado e preparar a cópia local apropriada. Depois, ao retomar a rede, conflitos e sincronização também podem exigir atenção.\n\nCompartilhamento deve identificar público e permissão: leitura e edição não são equivalentes; link para pessoas específicas e link mais amplo podem ter alcances distintos. A aplicação da política institucional continua necessária, sobretudo com dados pessoais e documentos restritos.",
+    "checkpointIds": [
+      "cp-14-1-2",
+      "rt-14-1-7",
+      "rt-14-1-8",
+      "rt-14-1-9"
+    ]
+  },
+  {
+    "id": "sub-14-1-bloco-8",
+    "titulo": "Comunicação: destinatários, reuniões e condições do serviço",
+    "objetivos": [
+      "Separar privacidade de destinatários, proteção do conteúdo e autorização de colaboração."
+    ],
+    "conteudo": "Em e-mail, **Para** identifica destinatários principais, **Cc** adiciona cópias visíveis e **Cco/Bcc** oculta dos demais destinatários os endereços desse campo conforme o funcionamento do serviço. Essa ocultação não é criptografia de ponta a ponta e não impede que um destinatário autorizado encaminhe a mensagem.\n\n**SMTP** é associado ao envio/transferência de mensagens; **IMAP**, ao acesso e sincronização do estado da caixa conforme o servidor; **POP3**, à recuperação com comportamento de retenção/exclusão dependente de configuração. Não ensine que POP3 sempre apaga tudo do servidor. Portas e proteção dependem do modo: submissão SMTP com STARTTLS, TLS implícito e outros cenários não se reduzem a uma única combinação universal.\n\nFerramentas de reunião podem oferecer compartilhamento de tela, chat, legendas, gravação e controle de participantes, mas recursos variam por produto, plano e política. Teams e Meet não têm necessariamente a mesma estrutura de equipes/canais; não transfira uma funcionalidade de um para outro apenas por ambos realizarem videoconferência.\n\n**Caso:** compartilhar a tela numa reunião não equivale a conceder controle remoto, acesso permanente ao arquivo ou direito de gravar. Cada ação precisa de recurso e permissão próprios. Uma gravação também tem destino, retenção e público que devem ser conferidos.\n\nPara resolver itens, leia as condições de produto/versão e identifique a função concreta. Um comentário útil explica por que aquela operação atende à tarefa e quais permissões não são criadas automaticamente.",
+    "checkpointIds": [
+      "rt-14-1-10"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "microsoft-referencias",
+    "titulo": "Microsoft — Referências relativas, absolutas e mistas",
+    "localizador": "Comportamento na cópia de fórmulas.",
+    "url": "https://support.microsoft.com/pt-br/excel/switch-between-relative-absolute-and-mixed-references"
+  },
+  {
+    "id": "procx",
+    "titulo": "Microsoft — Função PROCX",
+    "localizador": "Matrizes de pesquisa/retorno e correspondência.",
+    "url": "https://support.microsoft.com/pt-br/excel/functions/xlookup-function"
+  },
+  {
+    "id": "word",
+    "titulo": "Microsoft — Inserir um sumário",
+    "localizador": "Títulos e atualização do sumário.",
+    "url": "https://support.microsoft.com/pt-br/word/training/insert-a-table-of-contents"
+  },
+  {
+    "id": "onedrive",
+    "titulo": "Microsoft — Arquivos Sob Demanda",
+    "localizador": "Estados de disponibilidade no Windows; conferir versão e configuração.",
+    "url": "https://support.microsoft.com/pt-br/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows"
+  },
+  {
+    "id": "coautoria",
+    "titulo": "Microsoft — Coautoria no Excel",
+    "localizador": "Requisitos de localização, cliente e colaboração.",
+    "url": "https://support.microsoft.com/pt-br/excel/get-started/collaborate-on-excel-workbooks-at-the-same-time-with-co-authoring"
+  }
+],
 };

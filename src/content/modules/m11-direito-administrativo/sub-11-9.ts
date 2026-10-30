@@ -8,231 +8,207 @@ export const submodulo119: ModuloFilho = {
   titulo: 'Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)',
   titulo_curto: 'Governança Pública Federal',
   antesDeLer: [
-    {
-      termo: 'Governança Pública (Decreto nº 9.203/2017)',
-      definicao: 'Conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão pública.',
-      exemploBiblioteca: 'Atuação do Comitê de Governança Digital da Câmara para homologar novos projetos de modernização da biblioteca.',
-    },
-    {
-      termo: 'Princípios da Governança (Decreto nº 9.203)',
-      definicao: 'Capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas (accountability) e transparência.',
-      exemploBiblioteca: 'Publicação anual de relatórios de gestão da biblioteca demonstrando custos e volumes de consultas atendidas.',
-    },
-    {
-      termo: 'Mecanismos de Governança',
-      definicao: 'Três pilares fundamentais: Liderança (pessoas e competências), Estratégia (diretrizes e metas) e Controle (gestão de riscos e auditoria).',
-      exemploBiblioteca: 'Elaboração da Matriz de Riscos de TI da Biblioteca Pedro Aleixo para mitigar falhas de backup no repositório digital.',
-    },
-    {
-      termo: 'Accountability',
-      definicao: 'Dever legal e ético de prestar contas, assumir responsabilidade pelos atos e resultados e submeter-se ao escrutínio público.',
-      exemploBiblioteca: 'Disponibilização do catálogo patrimonial de obras raras para auditoria regular do TCU e dos órgãos de controle interno.',
-    },
-  ],
-  descricaoCurta: 'Conceito e distinção: Governança vs. Gestão vs. Governabilidade. A tríade de mecanismos: Liderança, Estratégia e Controle. Princípios e diretrizes do Decreto nº 9.203/2017. Gestão de riscos, programas de integridade e o modelo das Três Linhas de Defesa no serviço público federal.',
-  tempoEstimadoMinutos: 10,
+  {
+    "termo": "Governança e gestão",
+    "definicao": "Governança avalia/direciona/monitora; gestão planeja e executa dentro das diretrizes.",
+    "exemploBiblioteca": "Priorizar o serviço e distribuir tarefas diárias têm funções distintas."
+  },
+  {
+    "termo": "Três Linhas",
+    "definicao": "Papéis articulados de gestão e avaliação independente, com órgão de governança.",
+    "exemploBiblioteca": "Auditoria não assume a propriedade dos riscos operacionais para avaliar depois sua própria decisão."
+  }
+],
+  descricaoCurta: "Distinguir legitimidade política, direção e execução. Aplicar liderança, estratégia e controle ao problema descrito. Separar princípios e mecanismos, respeitando âmbito normativo. Reconhecer responsabilidade da gestão e independência da auditoria.",
+  tempoEstimadoMinutos: 15,
   autoresChave: [
-    'Decreto Federal nº 9.203/2017',
-    'Tribunal de Contas da União (TCU - Referencial Básico de Governança)',
-    'Instituto dos Auditores Internos (IIA - Três Linhas de Defesa)',
-    'Comitê Interministerial de Governança (CIG)',
-  ],
+  "Decreto 9.203/2017",
+  "TCU — Governança pública",
+  "IIA — Three Lines Model"
+],
   alertasCebraspe: [
-    'DISTINÇÃO INDISPENSÁVEL (GOVERNANÇA VS. GESTÃO VS. GOVERNABILIDADE): A técnica de distrator recorrente consiste em trocar esses três conceitos! 1) GOVERNABILIDADE: condições políticas de legitimidade e apoio partidário no Parlamento para governar; 2) GOVERNANÇA: mecanismos de liderança, estratégia e controle para AVALIAR, DIRECIONAR e MONITORAR a atuação organizacional; 3) GESTÃO: função técnico-operacional responsável por PLANEJAR, EXECUTAR, CONTROLAR e AGIR no dia a dia da instituição.',
-    'MECANISMOS DE GOVERNANÇA DO DECRETO 9.203/2017 (TRÍADE LEC): São três e apenas três mecanismos fundamentais: Liderança (capacidade da alta administração), Estratégia (diretrizes, planos e objetivos) e Controle (gestão de riscos e integridade).',
-    'PRINCÍPIOS DA GOVERNANÇA PÚBLICA (ART. 3º): Capacidade de resposta (responsiveness), Integridade, Confiabilidade, Melhoria regulatória, Prestação de contas (accountability) e Transparência.',
-    'MODELO DAS TRÊS LINHAS DE DEFESA (CONTROLE E RISCOS): 1ª Linha: Gestores operacionais diretos da atividade-fim (são os donos dos riscos e responsáveis pelo controle operacional imediato); 2ª Linha: Funções de conformidade, riscos e controle interno da gestão (monitoram e apoiam a 1ª linha); 3ª Linha: Auditoria Interna (presta avaliação e consultoria independente e objetiva à alta administração).',
-  ],
-  quadroComparativo: {
-    titulo: 'Distinção Técnica: Governança, Gestão e Governabilidade',
-    colunas: ['Conceito', 'Definição Central', 'Verbos de Ação Típicos', 'Nível de Atuação', 'Responsáveis Primordiais'],
-    linhas: [
-      ['Governabilidade', 'Condições políticas substantivas e legitimidade para exercer o poder', 'Articular, pactuar, coligar, negociar', 'Macropolítico / Constitucional', 'Chefes de Poder e Lideranças Parlamentares'],
-      ['Governança Pública', 'Mecanismos que avaliam, direcionam e monitoram as estratégias', 'Avaliar, Direcionar e Monitorar', 'Estratégico / Diretivo', 'Alta Administração e Comitês de Governança'],
-      ['Gestão Pública', 'Processos operacionais e técnicos de entrega dos serviços públicos', 'Planejar, Executar, Controlar e Agir (PDCA)', 'Tático e Operacional', 'Secretários, Diretores, Chefes de Setor e Servidores'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Conceito e Distinção Essencial: Governança, Gestão e Governabilidade
-
-Para o Cebraspe, a precisão terminológica entre estas três dimensões institucionais é decisiva:
-
-* **Governabilidade:** Refere-se à **dimensão política** do poder. É a capacidade política substantiva e a legitimidade que o governante possui para governar, derivada do apoio da sociedade civil, da estabilidade democrática e da construção de maioria partidária no Poder Legislativo (coalizão governamental). Sem governabilidade, o Executivo perde a capacidade de aprovar leis e reformas.
-* **Governança Pública:** Refere-se à **dimensão institucional e instrumental** de direção. Conforme a definição canônica do art. 2º, I, do Decreto Federal nº 9.203/2017:
-  > *"Governança pública: conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade."*
-  * A governança atua na alta cúpula, determinando para *onde* a instituição deve ir, quais os limites éticos de risco e como será medida a criação de valor público.
-* **Gestão Pública:** Refere-se à **dimensão executiva e operacional**. É a engrenagem interna incumbida de planejar, executar, alocar recursos orçamentários, gerir pessoas e controlar os processos cotidianos para materializar as diretrizes e metas fixadas pela governança.
-
----
-
-### 2. A Tríade de Mecanismos de Governança (Decreto nº 9.203/2017)
-
-A governança pública federal estrutura-se sob três mecanismos vitais (**L-E-C**):
-
-$$\\text{Mecanismos de Governança} = \\text{Liderança} + \\text{Estratégia} + \\text{Controle}$$
-
-1. **Mecanismo de Liderança:** Compreende as competências técnicas e comportamentais, o comprometimento ético, a integridade funcional e o engajamento da alta administração para guiar os servidores e a organização em direção aos objetivos públicos prioritários.
-2. **Mecanismo de Estratégia:** Compreende a definição clara da visão de futuro, dos objetivos institucionais de longo prazo, dos planos de ação, do alinhamento das políticas públicas às necessidades da sociedade e da alocação racional dos recursos orçamentários.
-3. **Mecanismo de Controle:** Compreende os processos estruturados de gestão de riscos, salvaguardas internas, auditorias, ouvidorias e prestação de contas (*accountability*), com o objetivo de assegurar que as metas sejam alcançadas com integridade e tempestividade, prevenindo fraudes, desvios e ineficiências.
-
----
-
-### 3. Princípios e Diretrizes da Política de Governança Federal
-
-O Decreto nº 9.203/2017 fixa seis princípios cardeais no seu art. 3º:
-* **Capacidade de Resposta (*Responsiveness*):** Agilidade e aptidão da instituição pública para atender com presteza e qualidade às demandas reais e mutáveis dos cidadãos.
-* **Integridade:** Coerência inabalável entre os atos administrativos e os padrões éticos, com combate permanente a conflitos de interesse, nepotismo e corrupção.
-* **Confiabilidade:** Capacidade de gerar segurança jurídica, previsibilidade e estabilidade na prestação dos serviços e na guarda de informações oficiais.
-* **Melhoria Regulatória:** Produção de normas e regulamentos simples, claros, necessários e baseados em evidências empíricas, evitando inflação legislativa inútil.
-* **Prestação de Contas (*Accountability*):** Dever indeclinável de justificar publicamente as decisões, resultados e o uso dos recursos públicos à sociedade.
-* **Transparência:** Acesso proativo, amplo e tempestivo aos dados e atos governamentais.
-
----
-
-### 4. Gestão de Riscos e o Modelo das Três Linhas de Defesa
-
-A gestão de riscos é elemento central da governança pública, conceituada como o processo contínuo de identificar, avaliar, tratar e monitorar eventos potenciais que possam comprometer os objetivos estratégicos do órgão:
-
-#### O Modelo das Três Linhas (The Three Lines Model do IIA / TCU)
-Para mitigar falhas e fraudes na Administração Pública Federal, adota-se o modelo estruturado em três linhas interdependentes:
-1. **Primeira Linha (Gestão Operacional):**
-   * Composta pelos servidores e gestores que executam diretamente a atividade-fim e a atividade-meio (ex.: bibliotecários que realizam a aquisição e preservação do acervo).
-   * **Papel:** São os "donos dos riscos". Devem identificar os riscos operacionais no dia a dia e aplicar controles preventivos imediatos.
-2. **Segunda Linha (Funções de Conformidade, Riscos e Controle Interno):**
-   * Composta por comitês de risco, assessorias de integridade e órgãos setoriais de controle interno da gestão.
-   * **Papel:** Estabelecem as metodologias de risco, monitoram o cumprimento das normas de conformidade (*compliance*) e apoiam tecnicamente a primeira linha.
-3. **Terceira Linha (Auditoria Interna Governamental):**
-   * Atua com independência funcional em relação à gestão executiva, reportando-se diretamente à alta administração e aos comitês de governança.
-   * **Papel:** Presta avaliação (*assurance*) e consultoria imparcial e independente sobre a eficácia de toda a estrutura de governança, gestão de riscos e controles internos.`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Governança no Setor Público Federal (Decreto nº 9.203/2017 e Referencial do TCU)** orienta as instâncias de liderança para assegurar resultados que atendam às necessidades da sociedade:
-1. **Governança vs. Gestão (A Diferença Crítica no Cebraspe!):**
-   - **Governança Pública:** Conjunto de mecanismos de **Liderança, Estratégia e Controle** postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade. A governança responde à pergunta: *"O que fazer e para onde ir?"*.
-   - **Gestão Pública:** É a ação executiva e operacional responsável por planejar, executar, gerenciar recursos, construir e entregar produtos e serviços de acordo com as diretrizes da governança. A gestão responde à pergunta: *"Como fazer no dia a dia?"*.
-2. **Princípios da Governança Pública (Decreto nº 9.203/2017, art. 3º):**
-   - Capacidade de resposta; Integridade; Confiabilidade; Melhoria regulatória; Prestação de contas e responsabilidade (*Accountability*); e Transparência.
-3. **As Diretrizes e os Mecanismos da Governança (TCU):**
-   - **Liderança:** Recursos humanos qualificados, integridade, competência técnica e ética dos altos dirigentes.
-   - **Estratégia:** Definição de objetivos de longo prazo, alinhamento institucional, planos táticos e escuta das partes interessadas (*stakeholders*).
-   - **Controle:** Gestão de riscos corporativos, controle interno e auditoria independente.
-4. **Gestão de Riscos (ISO 31000 e COSO-ERM):**
-   - Processo para identificar, analisar, avaliar e tratar incertezas que possam comprometer os objetivos estratégicos da organização pública.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Comitê de Governança Estratégica da Câmara dos Deputados):** A Mesa Diretora e a Diretoria-Geral instituem o Comitê de Governança da Câmara (órgão de governança pura). O comitê define que o plano quadrienal deve focar na digitalização total de processos e na transparência legislativa, transmitindo essas diretrizes estratégicas para o CEDI e para a biblioteca executarem (gestão).
-- **Cenário 2 (Gestão de Riscos Operacionais no Acervo Histórico):** A chefia da Biblioteca Pedro Aleixo elabora a matriz de riscos do acervo de acordo com o referencial do TCU: identifica o risco de alagamento por rompimento de ar-condicionado (Probabilidade Média / Impacto Alto) e estabelece controles preventivos imediatos (instalação de sensores de umidade com alerta no celular da brigada).
-- **Cenário 3 (Aplicação do Princípio da *Accountability* no Relatório de Gestão):** Anualmente, a Câmara dos Deputados publica em seu portal o Relatório Integrado de Gestão no formato preconizado pelo TCU, prestando contas de cada real do orçamento executado na compra de livros e assinaturas de bases de dados.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Dimensão | Governança Pública | Gestão Pública |
-| :--- | :--- | :--- |
-| **Instância** | Alta Administração / Comitês Estratégicos | Diretorias, Coordenações e Chefias Operacionais |
-| **Ações Chave** | **Avaliar, Direcionar e Monitorar** | **Planejar, Executar e Controlar** |
-| **Pergunta Central** | *"O que fazer?"* / *"Para onde vamos?"* | *"Como fazer?"* / *"Com quais recursos?"* |
-| **Mecanismos TCU** | Liderança, Estratégia e Controle | Pessoas, Processos e Tecnologia |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Inversão entre Governança e Gestão:** A banca diz que a governança é responsável por executar diretamente as compras e rotinas de catalogação da biblioteca. **Gabarito: ERRADO.** Quem executa é a **Gestão**; a Governança apenas avalia, direciona e monitora a estratégia.
-- **Os Três Mecanismos do TCU:** O Cebraspe testa os três mecanismos canônicos de governança do TCU: **Liderança, Estratégia e Controle**.
-- **Gestão de Riscos Visa Eliminar 100% dos Riscos:** Afirmar que a gestão de riscos tem como meta eliminar completamente todo e qualquer risco da organização. **Gabarito: ERRADO.** O risco zero não existe; a gestão de riscos busca manter as incertezas dentro do nível aceitável de tolerância da instituição.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRASIL.** *Decreto Federal nº 9.203, de 22 de novembro de 2017*. Dispõe sobre a política de governança da administração pública federal direta, autárquica e fundacional.
-- **TRIBUNAL DE CONTAS DA UNIÃO (TCU).** *Referencial Básico de Governança Aplicável a Órgãos e Entidades da Administração Pública*. 3. ed. Brasília: TCU, 2020.
-- **COSO (Committee of Sponsoring Organizations of the Treadway Commission).** *Gerenciamento de Riscos Corporativos: estrutura integrada (COSO-ERM)*. 2017.
-- **ABNT NBR ISO 31000:2018.** *Gestão de riscos — Diretrizes*. Rio de Janeiro: ABNT, 2018.
-- **MATIAS-PEREIRA, José.** *Governança no setor público*. São Paulo: Atlas, 2010.`,
+  "Gestão continua responsável por seus riscos e controles. Auditoria avalia independentemente e não substitui os responsáveis operacionais.",
+  "O art. 3º trata de princípios; o art. 5º apresenta liderança, estratégia e controle. Trocar as listas ou artigos prejudica a interpretação.",
+  "As duas primeiras linhas têm papéis de gestão; a terceira fornece avaliação independente, conforme o modelo."
+],
+  teoriaDensaMarkdown: "### Conceito e Distinção Essencial: Governança, Gestão e Governabilidade\n\nAs três dimensões ajudam a diagnosticar situações; não são sinônimos e seus recortes dependem do referencial:\n\n* **Governabilidade:** Refere-se à **dimensão política** do poder. É a capacidade política substantiva e a legitimidade que o governante possui para governar, derivada do apoio da sociedade civil, da estabilidade democrática e da construção de maioria partidária no Poder Legislativo (coalizão governamental). Sem governabilidade, o Executivo perde a capacidade de aprovar leis e reformas.\n* **Governança Pública:** Refere-se à **dimensão institucional e instrumental** de direção. Conforme a definição canônica do art. 2º, I, do Decreto Federal nº 9.203/2017:\n  > *\"Governança pública: conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.\"*\n  * A governança envolve direção e supervisão institucional, determinando para *onde* a instituição deve ir, quais os limites éticos de risco e como será medida a criação de valor público.\n* **Gestão Pública:** Refere-se à **dimensão executiva e operacional**. É a engrenagem interna incumbida de planejar, executar, alocar recursos orçamentários, gerir pessoas e controlar os processos cotidianos para materializar as diretrizes e metas fixadas pela governança.\n\n**Aplicação e recuperação:** Uma chefia distribui tarefas diárias; um colegiado define prioridades e monitora resultados. Há funções de gestão e governança, que interagem. Não se infere que a gestão nunca planeje ou que a governança faça toda execução. Governabilidade acrescenta condições políticas, não uma quarta etapa operacional.\n\n### A Tríade de Mecanismos de Governança (Decreto nº 9.203/2017)\n\nO art. 5º do Decreto 9.203 prevê liderança, estratégia e controle. Seu âmbito normativo é a Administração federal direta, autárquica e fundacional do Executivo; o uso como referência conceitual em outros Poderes não significa aplicação automática de toda sua estrutura:\n\n$$\\text{Mecanismos de Governança} = \\text{Liderança} + \\text{Estratégia} + \\text{Controle}$$\n\n1. **Mecanismo de Liderança:** Compreende as competências técnicas e comportamentais, o comprometimento ético, a integridade funcional e o engajamento da alta administração para guiar os servidores e a organização em direção aos objetivos públicos prioritários.\n2. **Mecanismo de Estratégia:** Compreende a definição clara da visão de futuro, dos objetivos institucionais de longo prazo, dos planos de ação, do alinhamento das políticas públicas às necessidades da sociedade e da alocação racional dos recursos orçamentários.\n3. **Mecanismo de Controle:** Compreende os processos estruturados de gestão de riscos, salvaguardas internas, auditorias, ouvidorias e prestação de contas (*accountability*), com o objetivo de apoiar que as metas sejam alcançadas com integridade e tempestividade, prevenindo fraudes, desvios e ineficiências.\n\n**Aplicação e recuperação:** Definir prioridades para acesso ao acervo envolve estratégia; escolher dirigentes íntegros envolve liderança; monitorar riscos e prestação de contas envolve controle. Uma prática pode apoiar mais de um mecanismo. A classificação depende da função descrita, não de uma palavra isolada.\n\n### Princípios e Diretrizes da Política de Governança Federal\n\nO Decreto nº 9.203/2017 fixa seis princípios cardeais no seu art. 3º:\n* **Capacidade de Resposta (*Responsiveness*):** Agilidade e aptidão da instituição pública para atender com presteza e qualidade às demandas reais e mutáveis dos cidadãos.\n* **Integridade:** Coerência inabalável entre os atos administrativos e os padrões éticos, com combate permanente a conflitos de interesse, nepotismo e corrupção.\n* **Confiabilidade:** Capacidade de gerar segurança jurídica, previsibilidade e estabilidade na prestação dos serviços e na guarda de informações oficiais.\n* **Melhoria Regulatória:** Produção de normas e regulamentos simples, claros, necessários e baseados em evidências empíricas, evitando inflação legislativa inútil.\n* **Prestação de Contas (*Accountability*):** Dever indeclinável de justificar publicamente as decisões, resultados e o uso dos recursos públicos à sociedade.\n* **Transparência:** Acesso proativo, amplo e tempestivo aos dados e atos governamentais.\n\n**Aplicação e recuperação:** O decreto oferece lista própria de princípios. Outra referência pode usar lista diferente. Cite qual lista está sendo cobrada; não some todas como se fossem transcrição do mesmo artigo. Transparência não permite divulgar indiscriminadamente dados pessoais: seu exercício precisa ser compatível com o regime de acesso e proteção.\n\n### Gestão de Riscos e o Modelo das Três Linhas de Defesa\n\nA gestão de riscos é elemento central da governança pública, conceituada como o processo contínuo de identificar, avaliar, tratar e monitorar eventos potenciais que possam comprometer os objetivos estratégicos do órgão:\n\n#### O Modelo das Três Linhas (The Three Lines Model do IIA / TCU)\nO IIA apresenta papéis articulados, não três barreiras isoladas. O modelo inclui também o órgão de governança e relações de prestação de contas; não impõe a toda instituição um organograma único:\n1. **Primeira Linha (Gestão Operacional):**\n   * Composta pelos servidores e gestores que executam diretamente a atividade-fim e a atividade-meio (ex.: bibliotecários que realizam a aquisição e preservação do acervo).\n   * **Papel:** São os \"donos dos riscos\". Devem identificar os riscos operacionais no dia a dia e aplicar controles preventivos imediatos.\n2. **Segunda Linha (Funções de Conformidade, Riscos e Controle Interno):**\n   * Composta por comitês de risco, assessorias de integridade e órgãos setoriais de controle interno da gestão.\n   * **Papel:** Estabelecem as metodologias de risco, monitoram o cumprimento das normas de conformidade (*compliance*) e apoiam tecnicamente a primeira linha.\n3. **Terceira Linha (Auditoria Interna Governamental):**\n   * Atua com independência funcional em relação à gestão executiva, com relação de reporte apropriada ao órgão de governança, preservando independência frente à gestão segundo o arranjo institucional.\n   * **Papel:** Presta avaliação (*assurance*) e consultoria imparcial e independente sobre a eficácia de toda a estrutura de governança, gestão de riscos e controles internos.\n\n**Aplicação e recuperação:** Quem executa aquisição é responsável por controles dessa atividade. Riscos/conformidade apoiam e monitoram a gestão. Auditoria presta avaliação independente e pode aconselhar sem assumir a decisão gerencial auditada. Se a auditoria passa a aprovar rotineiramente cada compra, cria ameaça à independência para avaliar depois sua própria atuação.",
+  teoriaDidaticaMarkdown: "### Revisão: finalidade dos papéis\n\nGovernabilidade: condições políticas; governança: avaliar, direcionar e monitorar; gestão: planejar e executar dentro das diretrizes, com responsabilidade operacional. No Decreto 9.203, princípios estão no art. 3º e mecanismos no art. 5º; observe seu âmbito. Três Linhas: gestão operacional e apoio/monitoramento nas duas primeiras; auditoria independente na terceira; órgão de governança mantém sua função. Cooperação não elimina responsabilidade nem independência.\n",
   checkpoints: [
-    {
-      id: 'cp-11-9-1',
-      pergunta: 'Micro-Checkpoint 1: Distinção entre Governança e Gestão Pública',
-      item: 'No âmbito da administração pública federal, a governança é responsável pelo planejamento operacional, execução das rotinas administrativas e gestão orçamentária cotidiana, cabendo à gestão a definição de estratégias e o monitoramento da alta administração.',
-      gabarito: 'E',
-      justificativa: 'Errado! O Cebraspe inverteu os papéis: a GOVERNANÇA avalia, direciona e monitora a alta administração e as diretrizes estratégicas. A GESTÃO é a responsável por planejar, executar, controlar e coordenar as rotinas e orçamentos operacionais no dia a dia.',
-    },
-    {
-      id: 'cp-11-9-2',
-      pergunta: 'Micro-Checkpoint 2: Mecanismos da Governança Federal (Decreto 9.203/2017)',
-      item: 'De acordo com o Decreto Federal nº 9.203/2017, a política de governança da administração pública federal fundamenta-se nos mecanismos essenciais de liderança, estratégia e controle.',
-      gabarito: 'C',
-      justificativa: 'Correto! O art. 2º, II, do Decreto nº 9.203/2017 prevê textualmente a tríade de mecanismos de governança pública: liderança, estratégia e controle.',
-    },
-    {
-      id: 'cp-11-9-3',
-      pergunta: 'Micro-Checkpoint 3: Modelo das Três Linhas e Auditoria Interna',
-      item: 'No modelo das três linhas de defesa acolhido pelos órgãos federais e pelo TCU, a auditoria interna integra a primeira linha, sendo responsável imediata pela execução dos controles operacionais preventivos contra fraudes.',
-      gabarito: 'E',
-      justificativa: 'Errado! A Auditoria Interna compõe a TERCEIRA LINHA de defesa, atuando com independência e prestando avaliação objetiva da governança. Quem executa os controles operacionais preventivos imediatos é a PRIMEIRA LINHA (gestores e servidores da atividade-fim).',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-11-9-1',
-        periodo: '2014',
-        disciplina: 'Controle Externo',
-        focoPrincipal: 'TCU publica o Referencial Básico de Governança Aplicável a Órgãos e Entidades Públicas',
-        figuraChave: 'Tribunal de Contas da União',
-      },
-      {
-        id: 'tl-11-9-2',
-        periodo: '2017',
-        disciplina: 'Governança Federal',
-        focoPrincipal: 'Publicação do Decreto Federal nº 9.203/2017: marco normativo da governança no Executivo e reflexos na Administração',
-        figuraChave: 'Decreto 9.203/2017',
-      },
-      {
-        id: 'tl-11-9-3',
-        periodo: '2020',
-        disciplina: 'Gestão de Riscos',
-        focoPrincipal: 'Atualização do Modelo das Três Linhas pelo Institute of Internal Auditors (IIA)',
-        figuraChave: 'IIA Global',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-11-9-1',
-        nome: 'Tribunal de Contas da União (TCU)',
-        ano: '2020',
-        obraPrincipal: 'Referencial Básico de Governança do Setor Público (3ª edição)',
-        ideiaChave: 'A separação conceitual rígida entre Governança (direcionar, monitorar) e Gestão (executar) e a relevância do valor público.',
-        chipPegadinha: 'Afirmar que comitês de governança devem interferir na execução operacional dos contratos.',
-      },
-      {
-        id: 'aut-11-9-2',
-        nome: 'José Matias-Pereira',
-        ano: '2021',
-        obraPrincipal: 'Governança no Setor Público',
-        ideiaChave: 'Distinção ontológica entre governança (capacidade de direção e controle) e governabilidade (condições políticas de apoio).',
-        chipPegadinha: 'Tratar governabilidade e governança como sinônimos intercambiáveis.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-11-9-1',
-        afirmacao: 'Governabilidade e governança pública são conceitos equivalentes que designam o conjunto de processos internos de compras e controle financeiro de uma instituição.',
-        gabarito: 'E',
-        porQue: 'Governabilidade é a capacidade POLÍTICA de sustentação e legitimidade de um governo perante o Parlamento e o eleitorado. Governança é a capacidade institucional de liderança, estratégia e controle.',
-      },
-      {
-        id: 'peg-11-9-2',
-        afirmacao: 'O princípio da capacidade de resposta (responsiveness), consagrado no Decreto nº 9.203/2017, exige que os órgãos públicos adaptem suas entregas e serviços com celeridade às necessidades da sociedade.',
-        gabarito: 'C',
-        porQue: 'Correto! A capacidade de resposta é princípio expresso no art. 3º, I, do Decreto nº 9.203/2017.',
-      },
-      {
-        id: 'peg-11-9-3',
-        afirmacao: 'A segunda linha de defesa na governança é constituída exclusivamente pelos órgãos de controle externo, como o TCU e o Congresso Nacional.',
-        gabarito: 'E',
-        porQue: 'A segunda linha de defesa é INTERNA à organização, composta pelas áreas de conformidade (compliance), gestão de riscos e assessorias jurídicas de controle interno. O TCU atua no controle externo.',
-      },
-    ],
+  {
+    "id": "cp-11-9-1",
+    "pergunta": "Micro-Checkpoint 1: Distinção entre Governança e Gestão Pública",
+    "item": "No âmbito da administração pública federal, a governança é responsável pelo planejamento operacional, execução das rotinas administrativas e gestão orçamentária cotidiana, cabendo à gestão a definição de estratégias e o monitoramento da alta administração.",
+    "gabarito": "E",
+    "justificativa": "O cenário troca funções centrais de governança e gestão. A distinção não significa que a gestão nunca formule plano nem que a governança execute toda rotina.",
+    "fonte": "Decreto 9.203/2017, arts. 1º–5º; TCU, Referencial Básico de Governança Organizacional; IIA, Modelo das Três Linhas (2020, atualização 2024).",
+    "versao_correta": "Governança avalia, direciona e monitora; gestão planeja e executa atividades dentro das diretrizes."
   },
+  {
+    "id": "cp-11-9-2",
+    "pergunta": "Micro-Checkpoint 2: Mecanismos da Governança Federal (Decreto 9.203/2017)",
+    "item": "De acordo com o Decreto Federal nº 9.203/2017, a política de governança da administração pública federal fundamenta-se nos mecanismos essenciais de liderança, estratégia e controle.",
+    "gabarito": "C",
+    "justificativa": "Liderança, estratégia e controle são mecanismos previstos no art. 5º. O art. 2º, I, os menciona na definição; atribuí-los ao inciso II, como antes, seria referência incorreta.",
+    "fonte": "Decreto 9.203/2017, arts. 1º–5º; TCU, Referencial Básico de Governança Organizacional; IIA, Modelo das Três Linhas (2020, atualização 2024)."
+  },
+  {
+    "id": "cp-11-9-3",
+    "pergunta": "Micro-Checkpoint 3: Modelo das Três Linhas e Auditoria Interna",
+    "item": "No modelo das três linhas de defesa acolhido pelos órgãos federais e pelo TCU, a auditoria interna integra a primeira linha, sendo responsável imediata pela execução dos controles operacionais preventivos contra fraudes.",
+    "gabarito": "E",
+    "justificativa": "Auditoria interna é terceira linha. Execução de controles e propriedade dos riscos pertencem à gestão, que não se desresponsabiliza.",
+    "fonte": "Decreto 9.203/2017, arts. 1º–5º; TCU, Referencial Básico de Governança Organizacional; IIA, Modelo das Três Linhas (2020, atualização 2024).",
+    "versao_correta": "A auditoria interna presta avaliação independente como terceira linha; a gestão executa controles operacionais."
+  },
+  {
+    "id": "rt-11-9-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Mecanismos e princípios do Decreto 9.203 são listas conceitualmente distintas.",
+    "gabarito": "C",
+    "justificativa": "O art. 3º trata de princípios; o art. 5º apresenta liderança, estratégia e controle. Trocar as listas ou artigos prejudica a interpretação.",
+    "fonte": "Decreto 9.203/2017, arts. 1º–5º; TCU, Referencial Básico de Governança Organizacional; IIA, Modelo das Três Linhas (2020, atualização 2024).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 9: Improbidade Administrativa - Lei 8.429/1992)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-11-9-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A auditoria interna deve assumir a propriedade de todos os riscos operacionais para manter a primeira linha livre de responsabilidade.",
+    "gabarito": "E",
+    "justificativa": "Gestão continua responsável por seus riscos e controles. Auditoria avalia independentemente e não substitui os responsáveis operacionais.",
+    "fonte": "Decreto 9.203/2017, arts. 1º–5º; TCU, Referencial Básico de Governança Organizacional; IIA, Modelo das Três Linhas (2020, atualização 2024).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 9: Improbidade Administrativa - Lei 8.429/1992)",
+    "habilidade": "aplicar",
+    "versao_correta": "A gestão responde pelos riscos e controles; a auditoria presta avaliação independente."
+  },
+  {
+    "id": "rt-11-9-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A segunda linha pode apoiar e monitorar a gestão sem se tornar, por isso, auditoria interna independente.",
+    "gabarito": "C",
+    "justificativa": "As duas primeiras linhas têm papéis de gestão; a terceira fornece avaliação independente, conforme o modelo.",
+    "fonte": "Decreto 9.203/2017, arts. 1º–5º; TCU, Referencial Básico de Governança Organizacional; IIA, Modelo das Três Linhas (2020, atualização 2024).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 9: Improbidade Administrativa - Lei 8.429/1992)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-11-9-fonte-decreto",
+      "nome": "Decreto 9.203/2017",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Decreto 9.203/2017",
+      "ideiaChave": "Âmbito do Executivo federal e mecanismos do art. 5º.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-9-fonte-tcu",
+      "nome": "TCU — Governança pública",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "TCU — Governança pública",
+      "ideiaChave": "Referencial organizacional e distinção de gestão.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-9-fonte-iia",
+      "nome": "IIA — Three Lines Model",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "IIA — Three Lines Model",
+      "ideiaChave": "Papéis de gestão, órgão de governança e auditoria; atualização de setembro de 2024.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-11-9-1",
+      "afirmacao": "Mecanismos e princípios do Decreto 9.203 são listas conceitualmente distintas.",
+      "gabarito": "C",
+      "porQue": "O art. 3º trata de princípios; o art. 5º apresenta liderança, estratégia e controle. Trocar as listas ou artigos prejudica a interpretação."
+    },
+    {
+      "id": "memoria-rt-11-9-2",
+      "afirmacao": "A auditoria interna deve assumir a propriedade de todos os riscos operacionais para manter a primeira linha livre de responsabilidade.",
+      "gabarito": "E",
+      "porQue": "Gestão continua responsável por seus riscos e controles. Auditoria avalia independentemente e não substitui os responsáveis operacionais."
+    },
+    {
+      "id": "memoria-rt-11-9-3",
+      "afirmacao": "A segunda linha pode apoiar e monitorar a gestão sem se tornar, por isso, auditoria interna independente.",
+      "gabarito": "C",
+      "porQue": "As duas primeiras linhas têm papéis de gestão; a terceira fornece avaliação independente, conforme o modelo."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-11-9-bloco-1",
+    "titulo": "Conceito e Distinção Essencial: Governança, Gestão e Governabilidade",
+    "objetivos": [
+      "Distinguir legitimidade política, direção e execução."
+    ],
+    "conteudo": "As três dimensões ajudam a diagnosticar situações; não são sinônimos e seus recortes dependem do referencial:\n\n* **Governabilidade:** Refere-se à **dimensão política** do poder. É a capacidade política substantiva e a legitimidade que o governante possui para governar, derivada do apoio da sociedade civil, da estabilidade democrática e da construção de maioria partidária no Poder Legislativo (coalizão governamental). Sem governabilidade, o Executivo perde a capacidade de aprovar leis e reformas.\n* **Governança Pública:** Refere-se à **dimensão institucional e instrumental** de direção. Conforme a definição canônica do art. 2º, I, do Decreto Federal nº 9.203/2017:\n  > *\"Governança pública: conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.\"*\n  * A governança envolve direção e supervisão institucional, determinando para *onde* a instituição deve ir, quais os limites éticos de risco e como será medida a criação de valor público.\n* **Gestão Pública:** Refere-se à **dimensão executiva e operacional**. É a engrenagem interna incumbida de planejar, executar, alocar recursos orçamentários, gerir pessoas e controlar os processos cotidianos para materializar as diretrizes e metas fixadas pela governança.\n\n**Aplicação e recuperação:** Uma chefia distribui tarefas diárias; um colegiado define prioridades e monitora resultados. Há funções de gestão e governança, que interagem. Não se infere que a gestão nunca planeje ou que a governança faça toda execução. Governabilidade acrescenta condições políticas, não uma quarta etapa operacional.",
+    "checkpointIds": [
+      "cp-11-9-1"
+    ]
+  },
+  {
+    "id": "sub-11-9-bloco-2",
+    "titulo": "A Tríade de Mecanismos de Governança (Decreto nº 9.203/2017)",
+    "objetivos": [
+      "Aplicar liderança, estratégia e controle ao problema descrito."
+    ],
+    "conteudo": "O art. 5º do Decreto 9.203 prevê liderança, estratégia e controle. Seu âmbito normativo é a Administração federal direta, autárquica e fundacional do Executivo; o uso como referência conceitual em outros Poderes não significa aplicação automática de toda sua estrutura:\n\n$$\\text{Mecanismos de Governança} = \\text{Liderança} + \\text{Estratégia} + \\text{Controle}$$\n\n1. **Mecanismo de Liderança:** Compreende as competências técnicas e comportamentais, o comprometimento ético, a integridade funcional e o engajamento da alta administração para guiar os servidores e a organização em direção aos objetivos públicos prioritários.\n2. **Mecanismo de Estratégia:** Compreende a definição clara da visão de futuro, dos objetivos institucionais de longo prazo, dos planos de ação, do alinhamento das políticas públicas às necessidades da sociedade e da alocação racional dos recursos orçamentários.\n3. **Mecanismo de Controle:** Compreende os processos estruturados de gestão de riscos, salvaguardas internas, auditorias, ouvidorias e prestação de contas (*accountability*), com o objetivo de apoiar que as metas sejam alcançadas com integridade e tempestividade, prevenindo fraudes, desvios e ineficiências.\n\n**Aplicação e recuperação:** Definir prioridades para acesso ao acervo envolve estratégia; escolher dirigentes íntegros envolve liderança; monitorar riscos e prestação de contas envolve controle. Uma prática pode apoiar mais de um mecanismo. A classificação depende da função descrita, não de uma palavra isolada.",
+    "checkpointIds": [
+      "cp-11-9-2"
+    ]
+  },
+  {
+    "id": "sub-11-9-bloco-3",
+    "titulo": "Princípios e Diretrizes da Política de Governança Federal",
+    "objetivos": [
+      "Separar princípios e mecanismos, respeitando âmbito normativo."
+    ],
+    "conteudo": "O Decreto nº 9.203/2017 fixa seis princípios cardeais no seu art. 3º:\n* **Capacidade de Resposta (*Responsiveness*):** Agilidade e aptidão da instituição pública para atender com presteza e qualidade às demandas reais e mutáveis dos cidadãos.\n* **Integridade:** Coerência inabalável entre os atos administrativos e os padrões éticos, com combate permanente a conflitos de interesse, nepotismo e corrupção.\n* **Confiabilidade:** Capacidade de gerar segurança jurídica, previsibilidade e estabilidade na prestação dos serviços e na guarda de informações oficiais.\n* **Melhoria Regulatória:** Produção de normas e regulamentos simples, claros, necessários e baseados em evidências empíricas, evitando inflação legislativa inútil.\n* **Prestação de Contas (*Accountability*):** Dever indeclinável de justificar publicamente as decisões, resultados e o uso dos recursos públicos à sociedade.\n* **Transparência:** Acesso proativo, amplo e tempestivo aos dados e atos governamentais.\n\n**Aplicação e recuperação:** O decreto oferece lista própria de princípios. Outra referência pode usar lista diferente. Cite qual lista está sendo cobrada; não some todas como se fossem transcrição do mesmo artigo. Transparência não permite divulgar indiscriminadamente dados pessoais: seu exercício precisa ser compatível com o regime de acesso e proteção.",
+    "checkpointIds": [
+      "rt-11-9-1"
+    ]
+  },
+  {
+    "id": "sub-11-9-bloco-4",
+    "titulo": "Gestão de Riscos e o Modelo das Três Linhas de Defesa",
+    "objetivos": [
+      "Reconhecer responsabilidade da gestão e independência da auditoria."
+    ],
+    "conteudo": "A gestão de riscos é elemento central da governança pública, conceituada como o processo contínuo de identificar, avaliar, tratar e monitorar eventos potenciais que possam comprometer os objetivos estratégicos do órgão:\n\n#### O Modelo das Três Linhas (The Three Lines Model do IIA / TCU)\nO IIA apresenta papéis articulados, não três barreiras isoladas. O modelo inclui também o órgão de governança e relações de prestação de contas; não impõe a toda instituição um organograma único:\n1. **Primeira Linha (Gestão Operacional):**\n   * Composta pelos servidores e gestores que executam diretamente a atividade-fim e a atividade-meio (ex.: bibliotecários que realizam a aquisição e preservação do acervo).\n   * **Papel:** São os \"donos dos riscos\". Devem identificar os riscos operacionais no dia a dia e aplicar controles preventivos imediatos.\n2. **Segunda Linha (Funções de Conformidade, Riscos e Controle Interno):**\n   * Composta por comitês de risco, assessorias de integridade e órgãos setoriais de controle interno da gestão.\n   * **Papel:** Estabelecem as metodologias de risco, monitoram o cumprimento das normas de conformidade (*compliance*) e apoiam tecnicamente a primeira linha.\n3. **Terceira Linha (Auditoria Interna Governamental):**\n   * Atua com independência funcional em relação à gestão executiva, com relação de reporte apropriada ao órgão de governança, preservando independência frente à gestão segundo o arranjo institucional.\n   * **Papel:** Presta avaliação (*assurance*) e consultoria imparcial e independente sobre a eficácia de toda a estrutura de governança, gestão de riscos e controles internos.\n\n**Aplicação e recuperação:** Quem executa aquisição é responsável por controles dessa atividade. Riscos/conformidade apoiam e monitoram a gestão. Auditoria presta avaliação independente e pode aconselhar sem assumir a decisão gerencial auditada. Se a auditoria passa a aprovar rotineiramente cada compra, cria ameaça à independência para avaliar depois sua própria atuação.",
+    "checkpointIds": [
+      "cp-11-9-3",
+      "rt-11-9-2",
+      "rt-11-9-3"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "decreto",
+    "titulo": "Decreto 9.203/2017",
+    "localizador": "Âmbito do Executivo federal e mecanismos do art. 5º.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm"
+  },
+  {
+    "id": "tcu",
+    "titulo": "TCU — Governança pública",
+    "localizador": "Referencial organizacional e distinção de gestão.",
+    "url": "https://portal.tcu.gov.br/governanca/governancapublica/"
+  },
+  {
+    "id": "iia",
+    "titulo": "IIA — Three Lines Model",
+    "localizador": "Papéis de gestão, órgão de governança e auditoria; atualização de setembro de 2024.",
+    "url": "https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/"
+  }
+],
 };

@@ -1,0 +1,201 @@
+{
+  "id": "sub-7-4",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-7-4-bloco-1",
+      "titulo": "A Teoria da Restauração e a Ética Internacional",
+      "objetivos": [
+        "Aplicar princípios éticos reconhecendo limites de reversibilidade."
+      ],
+      "conteudo": "A restauração de bens culturais e documentos históricos apoia-se nos pilares conceituais formulados por **Cesare Brandi** (*Teoria da Restauração*, 1963) e nas convenções internacionais do patrimônio (Carta de Veneza de 1964 e Carta do Restauro):\n\nA teoria de Brandi discute a materialidade e as dimensões histórica e estética da obra. Sua aplicação a documentos exige considerar função e significado do objeto. Não se atribui uma paráfrase editorial a uma citação literal não conferida, nem se deriva dela uma receita química universal.\n| Princípio | Implicação prática | Limite a reconhecer |\n| --- | --- | --- |\n| Intervenção mínima | Justificar cada ação necessária. | Não significa nunca intervir em dano ativo. |\n| Compatibilidade | Avaliar suporte, meios gráficos e material introduzido. | Produto reputado estável pode ser inadequado ao objeto. |\n| Removibilidade e retratamento | Preferir soluções que permitam intervenção futura. | Não há garantia de reversão integral de todo tratamento. |\n| Discernibilidade | Não criar falso histórico; registrar o que foi acrescentado. | Não obriga contraste visual grosseiro. |\n| Documentação | Registrar estado, testes, decisões e resultado. | Fotografia isolada não substitui relatório do tratamento. |\n\n#### Princípios éticos e sua aplicação:\n1. **Reversibilidade:**  \n   Reversibilidade é diretriz histórica importante, mas **não garantia de desfazer integralmente qualquer procedimento a qualquer momento**. Limpeza pode remover matéria de forma irreversível. Considere removibilidade, limites, envelhecimento e possibilidade de retratamento.\n2. **Mínima Intervenção:**  \n   Não se restaura para conferir ao livro aspecto de novidade estética. A intervenção deve ser justificada pelas necessidades de estabilidade, compreensão e uso, respeitando o significado; não se prescreve tornar toda obra “nova” nem toda lacuna invisível.\n3. **Distinguibilidade (Discernibilidade da Intervenção):**  \n   O restauro não pode se constituir em falsificação histórica (*falso histórico* ou *pastiche*). A intervenção deve ser reconhecível por exame e documentação adequados, sem falsificação; isso não exige uma única técnica de lupa ou contraste ostensivo em todo caso.\n4. **Compatibilidade dos Materiais:**  \n   Os materiais introduzidos devem possuir características mecânicas e químicas harmoniosas com o documento antigo (não podem ser mais rígidos, mais ácidos ou mais pesados que a folha original).\n5. **Respeito à Autenticidade Histórica:**  \n   Marcas de proveniência histórica, ex-líbris, carimbos de gabinetes parlamentares antigos e anotações marginais de estadistas são partes integrantes do valor documental da obra e não devem ser apagados por simples desejo de embelezamento; a avaliação documentada deve considerar seu significado e possíveis conflitos de conservação.\n\n**Aplicação e recuperação:** Remover uma sujidade pode ser irreversível. Isso exige avaliar se a ação é necessária e registrar o que se faz, em vez de anunciar que todo tratamento é plenamente reversível. Um reparo compatível deve favorecer intervenções futuras e preservar significado.",
+      "checkpointIds": [
+        "cp-7-4-1",
+        "rt-7-4-1"
+      ]
+    },
+    {
+      "id": "sub-7-4-bloco-2",
+      "titulo": "O Processo Laboratorial de Restauração em Papel",
+      "objetivos": [
+        "Relacionar diagnóstico, testes e procedimentos sem receita química universal."
+      ],
+      "conteudo": "O fluxo técnico de tratamento em laboratórios de conservação e restauração de obras raras é definido após diagnóstico, não como sequência obrigatória de banhos e reparos para todo objeto (Spinelli, 2003; Beck, 1995; Cassares, 2000):\n\n#### A. Diagnóstico e Registro Fotográfico\n* Exame organoléptico preliminar, verificação do pH superficial por fitas medidoras de pH ou peagômetro digital de contato, mapeamento de danos e abertura da **Ficha Técnica de Diagnóstico e Tratamento**, acompanhada de registro fotográfico antes, durante e após a intervenção.\n\n#### B. Testes Obrigatórios de Solubilidade das Tintas\n* **Procedimento Crítico de Segurança:** Antes de qualquer contato do documento com água ou solventes líquidos, o conservador seleciona e executa testes localizados adequados aos materiais e à proposta de tratamento; testes podem causar alterações e exigem competência, documentação e análise de risco.\n* Se a tinta soltar pigmento ou sangrar no papel absorvente, o banho aquoso é expressamente proibido, não autorizando prosseguir com um fixador genérico. Fixação pode ser uma opção especializada em determinados casos, mas nem ciclododecano nem Paraloid B-72 são solução universal, intercambiável ou automaticamente reversível.\n\n#### C. Higienização e Desacidificação\n* **Banho de Lavagem Aquosa:** Realizado em cubas de aço inoxidável com água desionizada para remoção de produtos solúveis da degradação ácida.\n* **Desacidificação e Neutralização:** Aplicação de soluções alcalinas contendo **hidróxido de cálcio [$Ca(OH)_2$], bicarbonato de cálcio [$Ca(HCO_3)_2$] ou bicarbonato de magnésio**. O objetivo pode envolver neutralizar acidez e introduzir reserva alcalina, conforme processo e materiais. Não há pH-alvo único para todos os objetos; sais de magnésio não são automaticamente reserva de carbonato de cálcio. Desacidificação não recompõe cadeias de celulose já rompidas.\n\n#### D. Remendos, Enxertos e Papel Japonês\n* **O Papel Japonês (*Washi*):** Confeccionado artesanalmente no Japão a partir das fibras de entrecasca de arbustos nobres: **Kozo** (amoreira-de-papel, de fibras extra-longas e resistentes), **Mitsumata** e **Gampi**. Suas propriedades variam por fibra, processo e produto. Gramatura, resistência e espessura devem ser compatíveis; o nome washi não certifica uma faixa única ou neutralidade.\n* **Adesivos Reversíveis Aprovados:**\n  * *Cola de Amido de Trigo Purificado (*Wheat Starch Paste*):* Excelente adesividade mecânica, pH neutro e comportamento de remoção a avaliar no sistema e após envelhecimento.\n  * *Metilcelulose / Carboximetilcelulose (CMC):* Derivados modificados de celulose com propriedades distintas conforme grau e formulação; **não são imunes universalmente a biodeterioração** nem garantem remoção integral em água fria após qualquer envelhecimento.\n* **Reintegração Mecânica de Suporte (*Leafcasting*):**\n  * Para folhas crivadas por centenas de furos de brocas ou com bordas esfaceladas, utiliza-se a máquina de obturação de folhas (*leafcaster*). A folha é disposta sobre uma tela e uma suspensão aquosa de polpa pura de algodão é succionada a vácuo, buscando preencher lacunas. Condições, tintas e suporte precisam de testes; a operação não possui garantia automática de nunca recobrir ou alterar uma área.\n\n**Aplicação e recuperação:** Tinta solúvel é detectada. Não se continua automaticamente o banho adicionando “qualquer fixador reversível”. Pode ser necessário mudar ou abandonar a proposta. Elevar pH também não reconstrói a resistência molecular já perdida.",
+      "checkpointIds": [
+        "cp-7-4-2",
+        "rt-7-4-2",
+        "rt-7-4-3"
+      ]
+    },
+    {
+      "id": "sub-7-4-bloco-3",
+      "titulo": "Encadernação de Conservação",
+      "objetivos": [
+        "Definir abertura e estrutura de encadernação pelo objeto."
+      ],
+      "conteudo": "Diferencia-se da encadernação comercial ou artesanal estética comum por priorizar a integridade mecânica permanente da obra:\n* **Preservação de Margens Históricas:** É estritamente **proibido guilhotinar, aparar ou refilar os cortes das folhas**. Todas as barbas de papel, cortes irregulares históricos e marcas d'água originais devem ser mantidos intactos.\n* **Costura Flexível:** Emprego de fio de linho cru não alvejado costurado manualmente sobre suportes flexíveis (cadarços de linho ou tiras de material escolhido pelo conservador; pergaminho animal e papel denominado vegetal não são equivalentes).\n* **Abertura em 180°:** A abertura deve ser compatível com a estrutura e o estado do volume. **Não se força todo livro a 180°**; apoios podem limitar o ângulo e reduzir tensão. Abertura plana não é requisito universal de encadernação de conservação.\n\n**Aplicação e recuperação:** O volume abre confortavelmente até 110°. Forçá-lo a 180° para cumprir uma suposta regra de conservação cria tensão. Apoiar e limitar a abertura pode ser a medida correta, inclusive durante digitalização.",
+      "checkpointIds": [
+        "rt-7-4-4"
+      ]
+    },
+    {
+      "id": "sub-7-4-bloco-4",
+      "titulo": "Gestão de Riscos e Planos de Salvaguarda contra Desastres (Michalski, Waller, Conarq)",
+      "objetivos": [
+        "Priorizar pessoas, triagem e estabilização em um sinistro."
+      ],
+      "conteudo": "A preservação preventiva contemporânea adota o método de gerenciamento de riscos patrimoniais apoiado em abordagens como as de Michalski e Waller e em materiais do CCI/ICCROM. Os **dez agentes de deterioração** são uma estrutura de identificação de riscos; não se atribui toda metodologia a uma única autoria conjunta:\n1. Forças Físicas Diretas (impactos, terremotos, manuseio incorreto);\n2. Criminosos (furto, roubo, vandalismo);\n3. Fogo / Incêndio;\n4. Água / Inundações e vazamentos prediais;\n5. Pragas Biológicas (insetos, roedores, mofo);\n6. Poluentes Atmosféricos;\n7. Luz e Radiação UV;\n8. Temperatura Inadequada (calor excessivo);\n9. Umidade Relativa Inadequada (seca ou umidade excessiva);\n10. Dissociação (perda de proveniência, extravio de registros catalográficos e desorganização).\n\n#### Protocolo Emergencial em Caso de Inundação / Grandes Alagamentos:\n* **A Janela Crítica das 48 Horas:** Há urgência porque crescimento pode ocorrer em poucos dias sob condições favoráveis. **48–72 horas é alerta operacional frequente, não cronômetro universal**: temperatura, substrato, contaminação e umidade alteram a evolução.\n* **Escolha de estabilização conforme diagnóstico:** antes de entrar, assegure condições estruturais/elétricas e proteção das pessoas. Água contaminada pode exigir resposta especializada.\n  * O congelamento pode estabilizar **materiais compatíveis**, sobretudo quando não há capacidade de secagem rápida. Triar, identificar e acondicionar segundo protocolo; não prescrever congelamento e embalagem idênticos para todo suporte ou objeto molhado.\n  * Reduz a atividade biológica e reações enquanto o material permanece congelado, ganhando tempo; **não esteriliza**, não desfaz dano existente e não garante perda zero. O objeto leva tempo para atingir a temperatura do equipamento.\n  * *Técnicas de Secagem Subsequentes:*\n    * **Liofilização (*Freeze-Drying* / Sublimação):** Os livros congelados são colocados em câmara de vácuo onde a água congelada passa diretamente do estado sólido para o gasoso (sublimação), podendo reduzir certos danos em comparação com alternativas, mas sem garantir ausência de deformações ou aderências em qualquer material.\n    * **Secagem Manual Controlada:** Para livros estáveis e compatíveis com secagem ao ar, apoio e ventilação controlada podem ajudar. Volumes frágeis ou grandes não devem ser postos em pé indiscriminadamente. Intercalação excessiva pode deformar a lombada; não se espalham esporos com ventiladores em área ocupada.\n\n**Aplicação e recuperação:** Uma inundação atinge dois mil volumes. Primeiro vêm segurança e coordenação; depois identificação, prioridades e técnicas compatíveis. Congelamento de parte do lote pode ganhar tempo quando não é possível secá-lo rapidamente. A operação não elimina a necessidade de tratar contaminação e planejar a secagem.",
+      "checkpointIds": [
+        "cp-7-4-3",
+        "rt-7-4-5",
+        "rt-7-4-6"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "Intervenha com justificativa, documentação e compatibilidade. Reversibilidade não é promessa de desfazer toda ação. Desacidificação não reconstrói cadeias rompidas; adesivos não são imunes universalmente a pragas. Em sinistros, segurança vem primeiro. Congelamento pode estabilizar materiais compatíveis; não esteriliza nem substitui secagem e acompanhamento.",
+  "fontesTeoria": [
+    {
+      "id": "cassares",
+      "titulo": "Cassares — Como fazer conservação preventiva (2000)",
+      "localizador": "PDF do projeto; limites de técnicas, avaliação de suporte e intervenção.",
+      "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Preserva%C3%A7%C3%A3o%20f%C3%ADsica/cf5.pdf"
+    },
+    {
+      "id": "icom",
+      "titulo": "ICOM-CC — Terminology for conservation (2008)",
+      "localizador": "Finalidades da conservação e restauração.",
+      "url": "https://www.icom-cc.org/en/terminology-for-conservation"
+    },
+    {
+      "id": "appelbaum",
+      "titulo": "Barbara Appelbaum — Criteria for treatment: reversibility (1987)",
+      "localizador": "Graus de reversibilidade e possibilidade de retratamento; JAIC 26(2), 65–73.",
+      "url": "https://cool.culturalheritage.org/jaic/articles/jaic26-02-001_indx.html"
+    },
+    {
+      "id": "cci-mould",
+      "titulo": "CCI — Mould Outbreak: An Immediate Response",
+      "localizador": "Segurança, estabilização e opções conforme situação.",
+      "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/mould-outbreak-immediate-response.html"
+    },
+    {
+      "id": "loc",
+      "titulo": "Library of Congress — Books: frequently asked questions",
+      "localizador": "Livros molhados, secagem e encaminhamento ao congelamento.",
+      "url": "https://www.loc.gov/preservation/about/faqs/books.html"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-7-4-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A diretriz de reversibilidade garante que toda limpeza possa devolver integralmente a matéria removida, a qualquer tempo.",
+      "gabarito": "E",
+      "justificativa": "Limpeza pode ser irreversível; a diretriz não elimina limites materiais.",
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Avaliam-se necessidade, removibilidade e possibilidade de retratamento."
+    },
+    {
+      "id": "rt-7-4-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Desacidificar um papel recompõe necessariamente as cadeias de celulose já rompidas.",
+      "gabarito": "E",
+      "justificativa": "Neutralizar acidez não reverte automaticamente a despolimerização.",
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Desacidificação pode reduzir risco futuro, sem recuperar necessariamente a resistência perdida."
+    },
+    {
+      "id": "rt-7-4-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Metilcelulose é imune a toda biodeterioração e dispensa avaliação do ambiente.",
+      "gabarito": "E",
+      "justificativa": "Nenhum desses materiais autoriza tal garantia universal.",
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Formulação, aplicação e condições ambientais devem ser avaliadas."
+    },
+    {
+      "id": "rt-7-4-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Abrir todo livro raro a 180° é requisito universal de encadernação de conservação.",
+      "gabarito": "E",
+      "justificativa": "A estrutura e o estado definem o ângulo seguro.",
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "A abertura deve respeitar o volume e pode exigir apoio e limitação."
+    },
+    {
+      "id": "rt-7-4-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Congelar livros molhados compatíveis pode ganhar tempo, mas não equivale a esterilizar o lote nem garante perda zero.",
+      "gabarito": "C",
+      "justificativa": "A estabilização é parte de uma resposta, com triagem e secagem posteriores.",
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-7-4-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A contagem de 48 horas dispensa avaliar condições locais porque o mofo começa necessariamente no mesmo instante em todo material.",
+      "gabarito": "E",
+      "justificativa": "É alerta operacional, não limiar universal.",
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "editalRef": "Bloco D - Item 4.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Tempo e urgência devem ser analisados com substrato, ambiente e contaminação."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-7-4-1": {
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "item": "Na restauração documental, a diretriz de reversibilidade orienta a escolha de intervenções removíveis e favoráveis ao retratamento futuro, reconhecendo que não se garante desfazer integralmente toda ação em qualquer momento.",
+      "justificativa": "A diretriz precisa ser interpretada com limites materiais. Removibilidade, envelhecimento, compatibilidade e documentação são pertinentes; limpeza pode ser irreversível."
+    },
+    "cp-7-4-2": {
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "justificativa": "Celofane e cianoacrilato não são prescrição adequada para esse reparo patrimonial. A escolha exige diagnóstico, materiais compatíveis e registro; papel japonês e adesivos selecionados são opções, sem exclusividade universal.",
+      "versao_correta": "O reparo deve ser definido por avaliação especializada, com materiais compatíveis e possibilidade de retratamento."
+    },
+    "cp-7-4-3": {
+      "fonte": "Cassares (2000), conservação preventiva e critérios de intervenção; ICOM-CC, Terminology (2008); Appelbaum, Criteria for treatment: reversibility (1987); CCI e Library of Congress, resposta a água e mofo.",
+      "item": "Em emergência por inundação, o congelamento rápido pode ser técnica válida para estabilizar livros molhados compatíveis com esse tratamento e ganhar tempo para secagem planejada, sem equivaler a esterilização.",
+      "justificativa": "É opção reconhecida quando há demora/capacidade limitada de secagem. Compatibilidade, segurança, acondicionamento e monitoramento permanecem necessários; não existe garantia universal por temperatura isolada."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Retratamento",
+      "definicao": "Possibilidade de realizar intervenções futuras sem impedimentos indevidos.",
+      "exemploBiblioteca": "A escolha do reparo considera envelhecimento e interação com suporte."
+    },
+    {
+      "termo": "Estabilização",
+      "definicao": "Medida para controlar risco ou deterioração, sem equivaler a reparação completa.",
+      "exemploBiblioteca": "Congelar material molhado compatível pode ganhar tempo, sem esterilizar."
+    }
+  ],
+  "autoresChave": [
+    "Cassares — Como fazer conservação preventiva (2000)",
+    "ICOM-CC — Terminology for conservation (2008)",
+    "Barbara Appelbaum — Criteria for treatment: reversibility (1987)",
+    "CCI — Mould Outbreak: An Immediate Response",
+    "Library of Congress — Books: frequently asked questions"
+  ],
+  "descricaoCurta": "Aplicar princípios éticos reconhecendo limites de reversibilidade. Relacionar diagnóstico, testes e procedimentos sem receita química universal. Definir abertura e estrutura de encadernação pelo objeto. Priorizar pessoas, triagem e estabilização em um sinistro.",
+  "alertasCebraspe": [
+    "Limpeza pode ser irreversível; a diretriz não elimina limites materiais.",
+    "Neutralizar acidez não reverte automaticamente a despolimerização.",
+    "Nenhum desses materiais autoriza tal garantia universal."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 22
+}

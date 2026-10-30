@@ -19,407 +19,221 @@ export const submodulo21: ModuloFilho = {
   ],
   titulo: 'Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r',
   antesDeLer: [
-    {
-      termo: 'Princípios Internacionais de Catalogação (ICP)',
-      definicao: 'Declaração emitida pela IFLA que orienta a formulação de códigos de catalogação globais baseados nos interesses primordiais dos usuários.',
-      exemploBiblioteca: 'Adesão aos ICP na definição de pontos de acesso de pessoas e órgãos públicos no catálogo da RVBI.',
-    },
-    {
-      termo: 'Ponto de Acesso Principal',
-      definicao: 'Nome, título ou termo formal escolhido de acordo com as regras de catalogação para encabeçar o registro de uma obra no catálogo.',
-      exemploBiblioteca: 'Determinar se um projeto de lei com múltiplos signatários deve ter como entrada principal o primeiro autor ou o título.',
-    },
-    {
-      termo: 'Controle de Autoridade',
-      definicao: 'Processo de padronização dos pontos de acesso para garantir que autores, títulos uniformes e assuntos tenham uma única forma autorizada.',
-      exemploBiblioteca: 'Registro de autoridade unificado para \'BRASIL. Congresso Nacional. Câmara dos Deputados\' com suas remissivas \'ver\' e \'ver também\'.',
-    },
-    {
-      termo: 'Áreas de Descrição do AACR2r',
-      definicao: 'Oito áreas padronizadas baseadas na ISBD (título, edição, publicação, descrição física, série, notas, etc.) com pontuação prescrita.',
-      exemploBiblioteca: 'Aplicação de espaço-travessão-espaço ( . — ) entre áreas na catalogação tradicional de monografias e relatórios parlamentares.',
-    },
-  ],
-  descricaoCurta: 'Teoria e objetivos dos catálogos (Cutter), Catálogo Dicionário vs Sistemático, Declaração de Princípios da IFLA (ICP 2016), estrutura do AACR2r, as 8 áreas da ISBD, os 3 níveis de descrição bibliográfica (Regra 1.0D) e regras aprofundadas de escolha e forma de pontos de acesso (autoria pessoal, pseudônimos, entidades coletivas, eventos e atos legislativos).',
-  tempoEstimadoMinutos: 21,
-  autoresChave: ['Eliane Serrão Alves Mey', 'Naira Christofoletti Silveira', 'Charles Ammi Cutter', 'Anthony Panizzi', 'Michael Gorman', 'Paul Winkler'],
+  {
+    "termo": "Descrição e acesso",
+    "definicao": "Descrever características e estabelecer pontos de acesso são operações complementares.",
+    "exemploBiblioteca": "Responsabilidade transcrita não é a mesma forma do cabeçalho autorizado."
+  },
+  {
+    "termo": "Nível de descrição",
+    "definicao": "Conjunto mínimo de elementos aplicáveis conforme AACR2 e objetivo do catálogo.",
+    "exemploBiblioteca": "Notas aplicáveis podem aparecer no primeiro nível."
+  }
+],
+  descricaoCurta: "Comparar funções e arranjo de catálogo sem impor arquitetura tecnológica. Aplicar os treze princípios de 2016 e explicar conflitos. Separar áreas e conteúdos descritivos. Distinguir mínimos dos níveis de descrição. Escolher ponto de acesso pela responsabilidade e tipo de obra. Julgar contrastes com condições explícitas.",
+  tempoEstimadoMinutos: 27,
+  autoresChave: [
+  "IFLA — Princípios Internacionais de Catalogação (2016)",
+  "AACR2 — revisão 2002, tradução brasileira no acervo HNC"
+],
   alertasCebraspe: [
-    'O Catálogo Dicionário concebido por Cutter (1876) caracteriza-se pela interfilação em ordem alfabética ÚNICA e integrada de autores, títulos e assuntos. O Cebraspe frequentemente afirma falsamente que o catálogo dicionário exige a separação física estrita entre autores e assuntos para tornar o item errado.',
-    'O Catálogo Sistemático (ou Classificado) divide-se em duas partes estruturais obrigatórias: a seção principal classificada (ordenada numericamente por notações da CDD ou CDU) e o índice alfabético auxiliar de autores, títulos e assuntos.',
-    'Níveis de Descrição Bibliográfica do AACR2r (Regra 1.0D): o Nível 1 é o mais enxuto/mínimo (título próprio, primeira indicação de responsabilidade se diferir do cabeçalho, menção de edição, primeiro publicador, data, extensão e ISBN). Notas exaustivas, ilustrações secundárias e dimensões exatas pertencem aos Níveis 2 e 3.',
-    'Princípio Supremo do ICP 2016 (IFLA): a CONVENIÊNCIA DO USUÁRIO é o princípio basilar inegociável que precede todas as decisões de descrição e escolha de pontos de acesso. O Cebraspe costuma tentar substituir por "conveniência da instituição" ou "economia do acervo".',
-    'Regra dos Três Autores no AACR2r: para obras com até 3 autores sem destaque, a entrada principal é pelo primeiro autor citado, gerando-se entradas secundárias para os outros dois. Se houver 4 ou mais autores sem destaque, a entrada principal é OBRIGATORIAMENTE PELO TÍTULO, gerando-se secundária apenas para o primeiro autor citado seguido de et al.',
-    'Coletâneas sob coordenação, organização ou compilação: no AACR2r (Regra 21.7), organizadores e coordenadores NUNCA recebem entrada principal! A entrada principal é feita pelo TÍTULO, e eles recebem entrada secundária.',
-    'Leis, Decretos e Jurisprudência: a entrada principal de atos normativos é realizada sob o cabeçalho da JURISDIÇÃO territorial (ex.: "Brasil", "Distrito Federal (Brasil)"), seguido do título uniforme da lei ou de [Leis, etc.]. Tribunais entram pela jurisdição seguida do nome do tribunal (ex.: "Brasil. Supremo Tribunal Federal").',
-    'Eventos e Conferências: a entrada é sob o nome oficial da reunião, seguido entre parênteses de (número em ordinal : ano : local de realização). Ex.: Congresso Brasileiro de Biblioteconomia e Documentação (28. : 2019 : Vitória, ES).',
-    'A Área 3 da ISBD/AACR2r (Detalhes Específicos do Material) NÃO é utilizada para monografias e livros impressos comuns. É exclusiva de: materiais cartográficos (escala/projeção), música impressa, publicações seriadas e recursos eletrônicos.',
-  ],
-  quadroComparativo: {
-    titulo: 'Comparativo Canônico: Os Três Níveis de Descrição Bibliográfica do AACR2r (Regra 1.0D)',
-    colunas: ['Elemento da Descrição', 'Nível 1 (Regra 1.0D1 - Mínimo)', 'Nível 2 (Regra 1.0D2 - Padrão Médio)', 'Nível 3 (Regra 1.0D3 - Exaustivo)'],
-    linhas: [
-      ['Título e Subtítulo', 'Apenas o Título Próprio', 'Título Próprio [DGM] = Título Equivalente : Subtítulo', 'Todos os títulos, equivalentes e subtítulos com exaustão'],
-      ['Indicações de Responsabilidade', 'Primeira indicação apenas se diferir do cabeçalho principal', 'Primeira indicação de responsabilidade + responsabilidades subsequentes', 'Todas as indicações de responsabilidade que figuram no recurso'],
-      ['Menção de Edição', 'Menção de edição transcrita', 'Menção de edição + indicação de responsabilidade da edição', 'Menção de edição, aditamentos e responsabilidades completas'],
-      ['Detalhes Específicos (Área 3)', 'Dados da Área 3 (se aplicável ao suporte)', 'Dados da Área 3 completos (se aplicável)', 'Dados da Área 3 exaustivos'],
-      ['Publicação / Imprenta (Área 4)', 'Apenas o primeiro publicador e a data', 'Lugar de publicação : Nome do publicador, Data', 'Todos os lugares, publicadores, distribuidores, fabricantes e datas'],
-      ['Descrição Física / Colação (Área 5)', 'Apenas a Extensão (número de páginas ou volumes)', 'Extensão : Outros detalhes físicos (il.) ; Dimensões (cm) + Material adicional', 'Extensão completa, detalhes físicos pormenorizados, dimensões e encarte'],
-      ['Série (Área 6)', 'Não consta no Nível 1', 'Menção de Série completa : (Título da série ; número)', 'Menção de Série, subséries e responsabilidades da série'],
-      ['Notas (Área 7)', 'Apenas notas indispensáveis', 'Notas padrão e relevantes para identificação', 'Todas as notas prescritas aplicáveis pelo código'],
-      ['ISBN / Disponibilidade (Área 8)', 'Número normalizado (ISBN/ISSN)', 'ISBN/ISSN : Termos de disponibilidade/preço', 'ISBN/ISSN com todas as qualificações e encadernações'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Teoria Geral da Catalogação e Tipologia de Catálogos
-
-A catalogação descritiva é o ramo instrumental da Biblioteconomia voltado à identificação, representação padronizada e individualização dos recursos informacionais existentes em um acervo, construindo substitutos bibliográficos que viabilizam a comunicação e a recuperação documental (Mey & Silveira, 2009, *Catalogação no Plural*).
-
-#### A. A Herança de Panizzi (1841) e Charles Ammi Cutter (1876)
-A moderna catalogação descritiva consolidou-se a partir de dois marcos históricos fundamentais:
-* **Anthony Panizzi (1841):** Elaborou as célebres *91 Regras do Museu Britânico*, estabelecendo a primazia do autor como ponto de acesso principal, a adoção de títulos uniformes para obras sagradas e a necessidade de remissivas padronizadas.
-* **Charles Ammi Cutter (1876):** Publicou as seminais *Rules for a Dictionary Catalog*, nas quais postulou os **três objetivos primordiais do catálogo bibliográfico**:
-  1. **Permitir a localização** de um livro quando se conhece o autor, o título ou o assunto (*função de localização/busca direta*);
-  2. **Mostrar o que a biblioteca possui** de determinado autor, sobre determinado assunto ou em determinado gênero literário (*função de congregação/agrupamento de acervo*);
-  3. **Auxiliar na escolha** de um livro quanto à sua edição (critério bibliográfico) ou quanto ao seu caráter literário ou técnico (*função de seleção/avaliação crítica*).
-
----
-
-#### B. Tipologia Estrutural de Catálogos Bibliográficos
-Uma das distinções conceituais clássicas mais recorrentes na banca Cebraspe reside na arquitetura física e lógica dos catálogos:
-
-| Tipo de Catálogo | Princípio de Organização e Interfilação | Vantagens no Uso | Limitações Técnicas |
-| :--- | :--- | :--- | :--- |
-| **Catálogo Dicionário** | **Interfilação alfabética única e integrada** de pontos de acesso de autor, título e assunto na mesma sequência corrida, exatamente como em um dicionário geral. | Máxima simplicidade para o leitor leigo: busca autor, título ou tema em um único índice alfabético contínuo. | Crescimento desordenado e complexidade de regras de alfabetação com homônimos e subdivisões de assunto extensas. |
-| **Catálogo Sistemático (Classificado)** | **Bipartição estrutural obrigatória:**<br>1. *Catálogo Principal:* ordenado logicamente pela notação de classificação (CDD ou CDU).<br>2. *Índice Alfabético Auxiliar:* fichas remissivas alfabéticas de autores, títulos e cabeçalhos de assunto que apontam para o número de classificação. | Reúne obras por afinidade temática em conformidade com o arranjo físico das estantes; independe do idioma do cabeçalho. | Exige do usuário consulta em duas etapas: pesquisa o termo no índice alfabético para depois localizar a notação no catálogo classificado. |
-| **Catálogo Alfabético de Autores e Títulos** | Reúne em sequência alfabética estrita apenas pontos de acesso de pessoas, entidades e títulos, **excluindo totalmente cabeçalhos de assunto**. | Agiliza a busca de usuários que já possuem referências bibliográficas prontas (conhecem o autor ou o título). | Não permite pesquisa temática por disciplina ou matéria. |
-| **Catálogo Alfabético de Assuntos** | Ordena exclusivamente cabeçalhos de assunto em ordem alfabética direta ou pré-coordenada. | Concentra pesquisas de pesquisa temática específica. | Requer manutenção rigorosa de vocabulários controlados e listas de remissivas (*ver* e *ver também*). |
-| **OPAC (Online Public Access Catalog)** | Catálogo eletrônico em base de dados relacional. | Pesquisa por múltiplos pontos de acesso simultâneos, operadores booleanos e hiperlinks. | Requer interfaces acessíveis e formatos de intercâmbio padronizados (MARC 21, Dublin Core). |
-
----
-
-### 2. A Declaração de Princípios Internacionais de Catalogação (ICP - IFLA 2016)
-
-Aprovada originalmente na Conferência de Paris de 1961 e atualizada pela IFLA em 2009 e 2016 (*Statement of International Cataloguing Principles*), a Declaração de Princípios da IFLA constitui a base filosófica e conceitual que orienta todos os códigos modernos (AACR2r, RDA e normas da ISBD):
-
-1. **Conveniência do Usuário (*Princípio Supremo e Inegociável*):**
-   * Todas as decisões relativas à escolha de pontos de acesso, descrições bibliográficas e terminologia devem ser tomadas tendo em vista o esforço mínimo e a máxima facilidade de recuperação pelo usuário da unidade de informação.
-   * *Alerta Cebraspe:* A técnica de elaboração de itens costuma tentar induzir o candidato ao erro afirmando que a regra prioriza a "conveniência dos bibliotecários" ou a "economia da instituição".
-2. **Uso Comum (*Common Usage*):** O vocabulário empregado nas descrições e nos pontos de acesso autorizados deve refletir a linguagem natural e predominante utilizada pela maioria dos usuários do acervo.
-3. **Representação Fidedigna (*Representation*):**
-   * O recurso informacional deve ser descrito **exatamente como se apresenta** em sua fonte principal de informação.
-   * Não cabe ao catalogador corrigir tacitamente erros tipográficos, anacronismos ou variações na folha de rosto; estes devem ser transcritos fidedignamente, cabendo notas explicativas ou pontos de acesso secundários padronizados para eventuais correções.
-4. **Precisão (*Accuracy*):** A representação deve espelhar fielmente as características e atributos da entidade bibliográfica descrita.
-5. **Suficiência e Necessidade (*Sufficiency and Necessity*):** Devem ser incluídos apenas os elementos essenciais para identificar, selecionar e acessar o recurso, evitando prolixidades inúteis.
-6. **Significância (*Significance*):** Os dados catalográficos devem ser bibliograficamente relevantes para o universo de busca.
-7. **Economia (*Economy*):** Quando houver caminhos alternativos para atingir o mesmo objetivo de recuperação, deve-se selecionar a solução mais simples e econômica em termos de esforço e armazenamento.
-8. **Consistência e Padronização (*Consistency and Standardization*):** A descrição e a criação de cabeçalhos devem ser uniformizadas por regras padronizadas compartilhadas entre redes cooperativas.
-9. **Interoperabilidade (*Interoperability*):** Os registros devem ser modelados em formatos estruturados abertos para permitir a troca global de dados (*Linked Open Data* e Web Semântica).
-
----
-
-### 3. A Estrutura do Código AACR2r (*Anglo-American Cataloguing Rules*, 2ª Edição Revisada)
-
-O AACR2r divide-se estruturalmente em duas grandes partes complementares:
-
-#### A. Parte I (Capítulos 1 a 13) — Descrição Bibliográfica
-Baseada na estrutura internacional da **ISBD (M)**, a Parte I estabelece as regras de transcrição dos dados em **oito áreas padronizadas**:
-* *Capítulo 1:* Regras Gerais de Descrição (aplicáveis a todo e qualquer suporte).
-* *Capítulo 2:* Livros, folhetos e folhas impressas (monografias).
-* *Capítulo 3:* Materiais cartográficos (mapas, globos, plantas).
-* *Capítulo 4:* Manuscritos.
-* *Capítulo 5:* Música impressa (partituras).
-* *Capítulo 6:* Gravações de som.
-* *Capítulo 7:* Filmes e gravações de vídeo.
-* *Capítulo 8:* Materiais gráficos (fotografias, gravuras, transparências).
-* *Capítulo 9:* Recursos eletrônicos (arquivos de dados e programas).
-* *Capítulo 10:* Artefatos tridimensionais e realia (objetos naturais e manufaturados).
-* *Capítulo 11:* Microformas.
-* *Capítulo 12:* Recursos contínuos (publicações seriadas e recursos integradores).
-* *Capítulo 13:* Análise (registros de partes componentes, analíticas de artigos e capítulos).
-
-#### B. As Oito Áreas de Descrição da ISBD / AACR2r e Pontuação Prescrita
-1. **Área 1 — Título e Indicação de Responsabilidade:**
-   * Título próprio [DGM] = Título equivalente : Subtítulo / Primeira indicação de responsabilidade ; Responsabilidade subsequente.
-2. **Área 2 — Edição:**
-   * . – Menção de edição / Primeira indicação de responsabilidade da edição.
-3. **Área 3 — Detalhes Específicos do Material (Restrita):**
-   * . – Utilizada *exclusivamente* para materiais cartográficos (escala e projeção), música (formato de apresentação musical), recursos contínuos (numeração/datas) e recursos eletrônicos (tipo de arquivo). **Livros comuns NÃO utilizam a Área 3!**
-4. **Área 4 — Publicação, Distribuição etc. (Imprenta):**
-   * . – Lugar de publicação : Nome do publicador, Data de publicação (Lugar de fabricação : Nome do fabricante, Data de fabricação).
-5. **Área 5 — Descrição Física (Colação):**
-   * . – Extensão do item (número de páginas ou volumes) : Outros detalhes físicos (il., retr.) ; Dimensões (cm) + Material adicional.
-6. **Área 6 — Série:**
-   * . – (Título da série = Título equivalente da série / Indicação de responsabilidade da série, ISSN ; Número na série).
-7. **Área 7 — Notas:**
-   * . – Parágrafos livres ou estruturados para informar teses, bibliografias, conteúdo sumário e restrições de acesso.
-8. **Área 8 — Número Normalizado e Termos de Disponibilidade:**
-   * . – ISBN ou ISSN : Preço ou termos de obtenção.
-
----
-
-### 4. Os Três Níveis de Descrição Bibliográfica do AACR2r (Regra 1.0D)
-
-Para garantir flexibilidade às bibliotecas de diferentes portes e vocações, o AACR2r prevê três níveis de detalhamento da descrição:
-
-#### Nível 1 (Regra 1.0D1 — Descrição Sumária / Mínima)
-Recomendado para bibliotecas pequenas, escolares ou acervos de alta rotatividade:
-* **Elementos Obrigatórios:**
-  1. Título próprio;
-  2. Primeira indicação de responsabilidade (apenas se diferir do cabeçalho principal de entrada ou se não houver cabeçalho de autor);
-  3. Menção de edição;
-  4. Dados específicos do material (se aplicável);
-  5. Primeiro publicador;
-  6. Data de publicação;
-  7. Extensão do item (paginação ou volumes);
-  8. Número normalizado (ISBN ou ISSN).
-* *Exemplo Nível 1:*  
-  \`\`\`text
-  Manual de direito constitucional / Alexandre de Moraes. – 38. ed. – Atlas, 2022. – 950 p. – ISBN 978-65-5977-123-4.
-  \`\`\`
-
-#### Nível 2 (Regra 1.0D2 — Descrição Padrão Médio / Recomendada)
-É o nível padrão adotado pela maioria das bibliotecas universitárias, especializadas e parlamentares (como a Câmara dos Deputados):
-* **Elementos Obrigatórios:**
-  1. Título próprio [designação geral do material] = título equivalente : subtítulo / primeira indicação de responsabilidade ; indicações de responsabilidade subsequentes;
-  2. Menção de edição / primeira indicação de responsabilidade da edição ; indicações de responsabilidade subsequentes da edição;
-  3. Detalhes específicos do material (Área 3, quando cabível);
-  4. Primeiro lugar de publicação : primeiro publicador, data de publicação;
-  5. Extensão : outros detalhes físicos (ilustrações) ; dimensões (altura em centímetros);
-  6. Menção de série completa;
-  7. Notas necessárias para identificação da obra;
-  8. Número normalizado e termos de disponibilidade.
-
-#### Nível 3 (Regra 1.0D3 — Descrição Completa / Exaustiva)
-Aplicado em bibliotecas nacionais, acervos de obras raras, coleções especiais e bibliografias analíticas:
-* Inclui **absolutamente todos os elementos** previstos nas regras do AACR2r aplicáveis àquele tipo de suporte físico (todos os lugares de publicação, distribuidores, impressor, encadernações, notas detalhadas de proveniência e filigrana).
-
----
-
-### 5. Regras Avançadas de Escolha e Forma dos Pontos de Acesso (Parte II: Capítulos 21 a 26)
-
-#### A. Autoria Pessoal e a Regra dos Autores (Capítulo 21)
-* **Até três autores sem destaque:**
-  * Entrada principal: sob o **primeiro autor citado na fonte principal**.
-  * Entradas secundárias: geradas obrigatoriamente para o **segundo e o terceiro autores**.
-* **Quatro ou mais autores sem destaque:**
-  * Entrada principal: **OBRIGATORIAMENTE PELO TÍTULO**.
-  * Entrada secundária: gerada **apenas para o primeiro autor citado** na fonte principal seguido de *[et al.]*.
-* **Obras com destaque tipográfico ou redacional:**
-  * Se a folha de rosto der destaque claro a um autor específico (ex.: "Por Fulano de Tal, com a colaboração de Sicrano, Beltrano e Outros"), a entrada principal é atribuída ao **autor em destaque**, gerando-se secundárias para os colaboradores conforme as regras gerais.
-
-#### B. Obras Sob Coordenação, Organização e Compilação (Regra 21.7)
-* Coletâneas de trabalhos produzidas sob a direção de um coordenador ou organizador têm **ENTRADA PRINCIPAL PELO TÍTULO**.
-* Coordenadores, organizadores e compiladores recebem **ENTRADAS SECUNDÁRIAS** de responsabilidade, nunca a entrada principal.
-
-#### C. Autoria sob Pseudônimo (Regras 22.2B)
-* Se um autor pessoal for conhecido predominantemente por um **único pseudônimo**, a entrada deve ser feita sob o pseudônimo (ex.: \`Twain, Mark\`, e não \`Clemens, Samuel Langhorne\`; \`Tristão de Athayde\`, e não \`Alceu Amoroso Lima\`).
-* Se o autor utilizar pseudônimos múltiplos para gêneros literários distintos e for amplamente identificado por eles, criam-se cabeçalhos independentes interligados por remissivas *ver também*.
-
-#### D. Nomes com Prefixos, Partículas e Sobrenomes Compostos (Regra 22.5)
-A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
-* **Língua Portuguesa:** Entra pela parte posterior ao prefixo (ex.: \`Silva, Maria da\`; \`Santos, João dos\`; \`Moraes, Alexandre de\`).
-* **Língua Francesa:** Entra pelo prefixo se for artigo ou contração de artigo com preposição (ex.: \`La Fontaine, Jean de\`; \`Du Bellay, Joachim\`), mas após a preposição simples (ex.: \`Balzac, Honoré de\`).
-* **Língua Alemã e Holandesa:** Entra após a preposição (ex.: \`Goethe, Johann Wolfgang von\`; \`Beethoven, Ludwig van\`), salvo em nomes naturalizados de língua inglesa (ex.: \`Van Buren, Martin\`).
-* **Sobrenomes Compostos Hifenizados ou Consagrados:** Entram pela primeira parte do composto (ex.: \`Castelo Branco, Humberto de Alencar\`; \`Espirito Santo, Carlos do\`).
-* **Papas, Soberanos e Bispos (Regras 22.16 e 22.17):** Entram pelo **primeiro nome oficial**, seguido do numeral ordinal em algarismos romanos e do título de identificação (ex.: \`Francisco, Papa\`; \`João Paulo II, Papa\`; \`Elizabeth II, Rainha do Reino Unido\`; \`Pedro II, Imperador do Brasil\`).
-
-#### E. Entidades Coletivas e Órgãos Governamentais (Capítulo 24)
-* **Entrada Direta:** Entidades com nomes distintivos e autônomos entram diretamente sob sua própria denominação oficial (ex.: \`Universidade de Brasília\`; \`Petróleo Brasileiro S.A.\`).
-* **Entrada Subordinada à Jurisdição Territorial:** Órgãos de governo que expressam funções legislativas, executivas, judiciárias ou militares entram sob o nome da jurisdição territorial responsável:
-  * *Poder Legislativo:* \`Brasil. Congresso Nacional\`; \`Brasil. Congresso Nacional. Câmara dos Deputados\`; \`Brasil. Congresso Nacional. Senado Federal\`.
-  * *Poder Judiciário:* \`Brasil. Supremo Tribunal Federal\`; \`Brasil. Superior Tribunal de Justiça\`; \`Distrito Federal (Brasil). Tribunal de Justiça\`.
-  * *Poder Executivo:* \`Brasil. Presidência da República\`; \`Brasil. Ministério da Educação\`.
-
-#### F. Atos Legislativos e Normativos (Regra 21.31)
-* **Leis, Decretos e Constituições:** Entrada principal sob o cabeçalho da jurisdição que promulgou o ato, seguido do título uniforme:
-  * Ex.: \`Brasil. [Constituição (1988)]\`.
-  * Ex.: \`Brasil. [Lei n. 8.112, de 11 de dezembro de 1990]\`.
-  * Ex.: \`Distrito Federal (Brasil). [Lei orgânica (1993)]\`.
-* Se a publicação contiver compilação de leis diversas sobre uma matéria sem uma lei única em destaque: **Entrada pelo título da compilação**, com secundária para a jurisdição governamental.
-
-#### G. Eventos, Conferências, Congressos e Seminários (Regras 21.1B2d e 24.7)
-* Uma conferência é considerada entidade coletiva se possuir denominação oficial formal.
-* A entrada é feita sob o **nome oficial do evento**, seguido, entre parênteses, de três elementos padronizados: **(número em algarismo ordinal : ano de realização : localidade do evento)**.
-* Exemplo canônico Cebraspe:  
-  \`\`\`text
-  Congresso Brasileiro de Biblioteconomia e Documentação (28. : 2019 : Vitória, ES)
-  \`\`\`
-
----
-
-### 6. Padrões Decisórios e Cascas de Banana do Cebraspe em Catalogação
-
-| Padrão da Banca / Armadilha | Como o Cebraspe Formula para Induzir ao Erro | Padrão Doutrinário Correto (Gabarito Oficial) |
-| :--- | :--- | :--- |
-| **Catálogo Dicionário vs Sistemático** | *"O catálogo dicionário caracteriza-se pela separação física em fichários distintos para autores, títulos e assuntos."* | **ERRADO.** O catálogo dicionário une autores, títulos e assuntos em uma **única ordem alfabética contínua**. Quem separa em fichário numérico e índice alfabético é o catálogo sistemático. |
-| **Níveis de Descrição (Regra 1.0D)** | *"No primeiro nível de catalogação do AACR2r, exige-se a transcrição de subtítulos completos, notas gerais e dimensões físicas da obra."* | **ERRADO.** O Nível 1 exige apenas título próprio, 1ª responsabilidade (se diferir do cabeçalho), menção de edição, 1º publicador, data, extensão e ISBN. Notas e dimensões pertencem aos Níveis 2 e 3. |
-| **Coordenação / Organização de Coletâneas** | *"Em livro composto por artigos de dez especialistas organizado por um professor eminente, a entrada principal é feita sob o nome do organizador."* | **ERRADO.** Obras organizadas ou coordenadas têm **entrada principal pelo TÍTULO** (Regra 21.7). Organizadores recebem apenas entrada secundária. |
-| **Regra de Quatro ou Mais Autores** | *"Na catalogação de monografia de quatro autores sem destaque, a entrada principal é pelo primeiro autor citado, usando-se et al. para os demais."* | **ERRADO.** Com 4 ou mais autores sem destaque, a entrada principal é **OBRIGATORIAMENTE PELO TÍTULO**. O primeiro autor recebe entrada secundária acompanhado de *et al.* |
-| **Área 3 em Livros Comuns** | *"A Área 3 da ISBD destina-se a registrar a paginação e o tamanho físico de livros impressos comuns."* | **ERRADO.** Paginação e tamanho pertencem à **Área 5 (Descrição Física)**. A Área 3 é de preenchimento restrito a cartográficos, música, seriados e recursos eletrônicos. |
-| **Entrada de Leis Federais** | *"Uma lei federal tem entrada principal sob o cabeçalho Brasil. Congresso Nacional. Câmara dos Deputados, por ter sido originada nessa Casa."* | **ERRADO.** Leis federais entram diretamente sob o cabeçalho da jurisdição territorial soberana: **Brasil.**, seguido do título uniforme, e não sob órgãos fracionários. |
-
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Padrão RDA e Transição Catalográfica (sub-2-2):** Substituição das regras de pontos de acesso do AACR2r pelas diretrizes do RDA.
-* **Formato MARC 21 Bibliográfico e Autoridades (sub-2-4):** Codificação dos pontos de acesso e dados descritivos em campos padronizados.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A catalogação descritiva moderna baseia-se em dois pilares fundamentais cobrados pelo **Cebraspe**:
-1. **Princípios Internacionais de Catalogação (ICP - IFLA):** Documento normativo global que coloca a **conveniência do usuário** (*user convenience*) como o princípio orientador supremo da catalogação.
-2. **Código de Catalogação Anglo-Americano (AACR2r):**
-   - **Estrutura ISBD:** 8 áreas padronizadas separadas por pontuação prescrita (ponto, espaço, travessão, espaço: \` . — \`).
-   - **Regra de Entrada de Autoria:** Autor pessoal único (entrada direta pelo sobrenome); até 3 autores (entrada pelo primeiro citado); mais de 3 autores (entrada direta pelo título, com entrada secundária para o primeiro autor).
-   - **Entrada de Órgãos Governamentais:** Jurisdição em primeiro lugar, seguida do órgão subordinado competente: \`BRASIL. Congresso Nacional. Câmara dos Deputados\`.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Caso 1: Catalogação Cooperativa na RVBI:** A Rede Virtual de Bibliotecas unifica o catálogo da Câmara, Senado e STF. Quando um bibliotecário da Câmara cataloga um livro de autoria de um deputado federal, ele cria um registro de autoridade com a forma canônica do nome e suas remissivas (apelidos, nomes parlamentares). Esse registro é instantaneamente aproveitado por todas as bibliotecas da rede.
-- **Caso 2: Relatório de CPI com Múltiplos Relatores:** Se uma Comissão Parlamentar de Inquérito publica relatório subscrito por 12 parlamentares, pela regra tradicional do AACR2r a entrada principal é feita pelo **Título** da publicação ou pelo órgão coletivo competente (\`BRASIL. Congresso Nacional. Câmara dos Deputados. Comissão Parlamentar de Inquérito...\`), fazendo-se entradas secundárias para os relatores.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido: Entradas Governamentais no AACR2r
-| Tipo de Órgão | Regra Canônica do AACR2r | Exemplo Correto na Câmara |
-| :--- | :--- | :--- |
-| **Órgão Central Legislativo** | Jurisdição + Nome do Órgão | \`BRASIL. Congresso Nacional. Câmara dos Deputados.\` |
-| **Comissão Subordinada** | Jurisdição + Órgão Maior + Comissão | \`BRASIL. Congresso Nacional. Câmara dos Deputados. Comissão de Constituição e Justiça e de Cidadania.\` |
-| **Órgão com Autonomia / Autarquia** | Entrada Direta pelo Próprio Nome | \`BANCO CENTRAL DO BRASIL.\` (e não BRASIL. Banco Central) |
-| **Poder Executivo / Chefia de Estado** | Jurisdição + Cargo Político | \`BRASIL. Presidente (2023- : Lula).\` |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Inversão da Jurisdição:** Propor entrada como \`CÂMARA DOS DEPUTADOS DO BRASIL.\` **Gabarito: ERRADO** (a jurisdição sempre encabeça o órgão governamental: \`BRASIL. Congresso Nacional...\`).
-- **O Princípio Supremo do ICP:** Dizer que a facilidade do catalogador ou o rigor do sistema interno de informática prevalecem sobre a conveniência do usuário. **Gabarito: ERRADO.**
-- **Pontuação Prescrita:** A banca afirma que a pontuação entre as áreas da descrição do AACR2r é facultativa ou livremente escolhida pela instituição. **Gabarito: ERRADO** (a pontuação é rígida e prescrita pela ISBD).
-
----
-
-### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
-- *Qual o princípio soberano que rege o ICP da IFLA?* (Conveniência do Usuário).
-- *Como é a pontuação entre áreas na ISBD/AACR2r?* (Ponto-espaço-travessão-espaço: \` . — \`).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-* **IFLA.** *Declaração de Princípios Internacionais de Catalogação (ICP)*. Tradução de Antonia Memória. Haia/Brasília: IFLA/FEBAB, 2016. (Princípio da Conveniência do Usuário e princípios gerais de catalogação).
-* **CÓDIGO de Catalogação Anglo-Americano (AACR2r).** 2. ed. rev. São Paulo: FEBAB/Imprensa Oficial, 2004. (Regras descritivas, pontuação ISBD e pontos de acesso).
-* **MEY, Eliane Serrão Alves; SILVEIRA, Naira Christofoletti.** *Catalogação no plural*. Brasília: Briquet de Lemos, 2009. (Tratamento descritivo da informação e evolução dos instrumentos).
-* **OLIVER, Chris.** *Introdução ao RDA: um guia básico*. Brasília: Briquet de Lemos, 2011.
-
-### Pausa de Recuperação Ativa: Escolha da Entrada Principal no AACR2
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Como opera a regra de três no AACR2 quando há mais de três autores com a mesma função intelectual? Quem recebe a entrada principal e quais autores recebem entradas secundárias? Relembre a regra do primeiro mencionado e a entrada pelo título.
-`,
+  "A regra 1.0D1 inclui notas aplicáveis no conjunto mínimo. A exclusão universal das notas estava incorreta.",
+  "Transcrição da responsabilidade e forma do ponto de acesso são operações distintas.",
+  "OPAC designa acesso público online; não obriga essa implementação ou arranjo."
+],
+  teoriaDensaMarkdown: "### Teoria Geral da Catalogação e Tipologia de Catálogos\n\nA catalogação descritiva é o ramo instrumental da Biblioteconomia voltado à identificação, representação padronizada e individualização dos recursos informacionais existentes em um acervo, construindo substitutos bibliográficos que viabilizam a comunicação e a recuperação documental (Mey & Silveira, 2009, *Catalogação no Plural*).\n\n#### A. A Herança de Panizzi (1841) e Charles Ammi Cutter (1876)\nA moderna catalogação descritiva consolidou-se a partir de dois marcos históricos fundamentais:\n* **Anthony Panizzi (1841):** Elaborou as célebres *91 Regras do Museu Britânico*, estabelecendo a primazia do autor como ponto de acesso principal, a adoção de títulos uniformes para obras sagradas e a necessidade de remissivas padronizadas.\n* **Charles Ammi Cutter (1876):** Publicou as seminais *Rules for a Dictionary Catalog*, nas quais postulou os **três objetivos primordiais do catálogo bibliográfico**:\n  1. **Permitir a localização** de um livro quando se conhece o autor, o título ou o assunto (*função de localização/busca direta*);\n  2. **Mostrar o que a biblioteca possui** de determinado autor, sobre determinado assunto ou em determinado gênero literário (*função de congregação/agrupamento de acervo*);\n  3. **Auxiliar na escolha** de um livro quanto à sua edição (critério bibliográfico) ou quanto ao seu caráter literário ou técnico (*função de seleção/avaliação crítica*).\n\n---\n\n#### B. Tipologia Estrutural de Catálogos Bibliográficos\nDistinguir arranjo de catálogo e funcionalidade da interface evita extrapolações:\n\n| Tipo de Catálogo | Princípio de Organização e Interfilação | Vantagens no Uso | Limitações Técnicas |\n| :--- | :--- | :--- | :--- |\n| **Catálogo Dicionário** | **Interfilação alfabética única e integrada** de pontos de acesso de autor, título e assunto na mesma sequência corrida, exatamente como em um dicionário geral. | Máxima simplicidade para o leitor leigo: busca autor, título ou tema em um único índice alfabético contínuo. | Crescimento desordenado e complexidade de regras de alfabetação com homônimos e subdivisões de assunto extensas. |\n| **Catálogo Sistemático (Classificado)** | **Arranjo clássico por classificação, frequentemente apoiado por índice alfabético:**<br>1. *Catálogo Principal:* ordenado logicamente pela notação de classificação (CDD ou CDU).<br>2. *Índice Alfabético Auxiliar:* entradas de termos de assunto que apontam para o número de classificação. | Reúne obras por afinidade temática em conformidade com o arranjo físico das estantes; independe do idioma do cabeçalho. | Pode exigir consulta ao índice para localizar uma notação desconhecida; quem conhece a notação pode consultá-la diretamente. |\n| **Catálogo Alfabético de Autores e Títulos** | Reúne em sequência alfabética estrita apenas pontos de acesso de pessoas, entidades e títulos, **excluindo totalmente cabeçalhos de assunto**. | Agiliza a busca de usuários que já possuem referências bibliográficas prontas (conhecem o autor ou o título). | Não permite pesquisa temática por disciplina ou matéria. |\n| **Catálogo Alfabético de Assuntos** | Ordena exclusivamente cabeçalhos de assunto em ordem alfabética direta ou pré-coordenada. | Concentra pesquisas de pesquisa temática específica. | Requer manutenção rigorosa de vocabulários controlados e listas de remissivas (*ver* e *ver também*). |\n| **OPAC (Online Public Access Catalog)** | Catálogo público de acesso online; sua definição não obriga um único modelo de banco de dados. | Pesquisa por múltiplos pontos de acesso simultâneos, operadores booleanos e hiperlinks. | Requer interfaces acessíveis e formatos de intercâmbio padronizados (MARC 21, Dublin Core). |\n\n**Aplicação e recuperação:** Um usuário sabe o número de classificação e vai direto ao catálogo classificado. Não precisa obrigatoriamente começar pelo índice. Num OPAC, a interface pode oferecer busca por assunto e autor sem reproduzir o arranjo de fichas. Catálogo online não é sinônimo de uma tecnologia específica de armazenamento.\n\n### A Declaração de Princípios Internacionais de Catalogação (ICP - IFLA 2016)\n\nAprovada originalmente na Conferência de Paris de 1961 e atualizada pela IFLA em 2009 e 2016 (*Statement of International Cataloguing Principles*), a Declaração de Princípios da IFLA oferece princípios para elaboração de códigos e políticas; não significa que códigos anteriores sejam transcrições integrais da versão de 2016:\n\n1. **Conveniência do Usuário (*Princípio Supremo e Inegociável*):**\n   * Todas as decisões relativas à escolha de pontos de acesso, descrições bibliográficas e terminologia devem ser tomadas tendo em vista o esforço mínimo e a máxima facilidade de recuperação pelo usuário da unidade de informação.\n   * *Alerta Cebraspe:* A técnica de elaboração de itens costuma tentar induzir o candidato ao erro afirmando que a regra prioriza a \"conveniência dos bibliotecários\" ou a \"economia da instituição\".\n2. **Uso Comum (*Common Usage*):** O vocabulário empregado nas descrições e nos pontos de acesso autorizados deve refletir a linguagem natural e predominante utilizada pela maioria dos usuários do acervo.\n3. **Representação Fidedigna (*Representation*):**\n   * A descrição representa o recurso como se apresenta; formas controladas de nomes e títulos também seguem os critérios do princípio. Transcrição e normalização não são operações idênticas.\n   * Não cabe ao catalogador corrigir tacitamente erros tipográficos, anacronismos ou variações na folha de rosto; estes devem ser transcritos fidedignamente, cabendo notas explicativas ou pontos de acesso secundários padronizados para eventuais correções.\n4. **Precisão (*Accuracy*):** A representação deve espelhar fielmente as características e atributos da entidade bibliográfica descrita.\n5. **Suficiência e Necessidade (*Sufficiency and Necessity*):** Devem ser incluídos apenas os elementos essenciais para identificar, selecionar e acessar o recurso, evitando prolixidades inúteis.\n6. **Significância (*Significance*):** Os dados catalográficos devem ser bibliograficamente relevantes para o universo de busca.\n7. **Economia (*Economy*):** Quando houver caminhos alternativos para atingir o mesmo objetivo de recuperação, deve-se selecionar a solução mais simples e econômica em termos de esforço e armazenamento.\n8. **Consistência e Padronização (*Consistency and Standardization*):** A descrição e a criação de cabeçalhos devem ser uniformizadas por regras padronizadas compartilhadas entre redes cooperativas.\n9. **Interoperabilidade (*Interoperability*):** Deve-se favorecer intercâmbio e reutilização de dados dentro e fora da comunidade bibliotecária. Abertura e acessibilidade são princípios relacionados, mas distintos.\n10. **Integração:** buscar regras comuns para diferentes tipos de recurso e entidade.\n11. **Abertura:** minimizar restrições aos dados e explicitar as existentes.\n12. **Acessibilidade:** atender necessidades de acesso e normas pertinentes.\n13. **Racionalidade:** regras defensáveis; conflitos entre princípios pedem solução justificada. A declaração de 2016 não se limita aos nove itens antes listados.\n\n**Aplicação e recuperação:** Economizar tempo de processamento retirando dados indispensáveis à identificação contraria a finalidade do catálogo. Interesse do usuário é princípio prevalente; economia não autoriza perder distinções essenciais. Abertura dos dados tampouco substitui acessibilidade da interface.\n\n### A Estrutura do Código AACR2r (*Anglo-American Cataloguing Rules*, 2ª Edição Revisada)\n\nO AACR2r divide-se estruturalmente em duas grandes partes complementares:\n\n#### A. Parte I (Capítulos 1 a 13) — Descrição Bibliográfica\nEstruturada com base na **ISBD**, com regras gerais e regras por tipo de material, a Parte I estabelece as regras de transcrição dos dados em **oito áreas padronizadas**:\n* *Capítulo 1:* Regras Gerais de Descrição (aplicáveis a todo e qualquer suporte).\n* *Capítulo 2:* Livros, folhetos e folhas impressas (monografias).\n* *Capítulo 3:* Materiais cartográficos (mapas, globos, plantas).\n* *Capítulo 4:* Manuscritos.\n* *Capítulo 5:* Música impressa (partituras).\n* *Capítulo 6:* Gravações de som.\n* *Capítulo 7:* Filmes e gravações de vídeo.\n* *Capítulo 8:* Materiais gráficos (fotografias, gravuras, transparências).\n* *Capítulo 9:* Recursos eletrônicos (arquivos de dados e programas).\n* *Capítulo 10:* Artefatos tridimensionais e realia (objetos naturais e manufaturados).\n* *Capítulo 11:* Microformas.\n* *Capítulo 12:* Recursos contínuos (publicações seriadas e recursos integradores).\n* *Capítulo 13:* Análise (registros de partes componentes, analíticas de artigos e capítulos).\n\n#### B. As Oito Áreas de Descrição da ISBD / AACR2r e Pontuação Prescrita\n1. **Área 1 — Título e Indicação de Responsabilidade:**\n   * Título próprio [DGM] = Título equivalente : Subtítulo / Primeira indicação de responsabilidade ; Responsabilidade subsequente.\n2. **Área 2 — Edição:**\n   * . – Menção de edição / Primeira indicação de responsabilidade da edição.\n3. **Área 3 — Detalhes Específicos do Material (Restrita):**\n   * . – Utilizada *exclusivamente* para materiais cartográficos (escala e projeção), música (formato de apresentação musical), recursos contínuos (numeração/datas) e recursos eletrônicos (tipo de arquivo). **Livros comuns NÃO utilizam a Área 3!**\n4. **Área 4 — Publicação, Distribuição etc. (Imprenta):**\n   * . – Lugar de publicação : Nome do publicador, Data de publicação (Lugar de fabricação : Nome do fabricante, Data de fabricação).\n5. **Área 5 — Descrição Física (Colação):**\n   * . – Extensão do item (número de páginas ou volumes) : Outros detalhes físicos (il., retr.) ; Dimensões (cm) + Material adicional.\n6. **Área 6 — Série:**\n   * . – (Título da série = Título equivalente da série / Indicação de responsabilidade da série, ISSN ; Número na série).\n7. **Área 7 — Notas:**\n   * . – Parágrafos livres ou estruturados para informar teses, bibliografias, conteúdo sumário e restrições de acesso.\n8. **Área 8 — Número Normalizado e Termos de Disponibilidade:**\n   * . – ISBN ou ISSN : Preço ou termos de obtenção.\n\n**Aplicação e recuperação:** Paginação e dimensões não se tornam dados específicos da área 3 só porque descrevem um livro. Área 5 trata descrição física; a aplicabilidade da área 3 depende do tipo. Não transporte a área 0 da ISBD consolidada para a lista de oito áreas do AACR2 sem explicitar versões.\n\n### Os Três Níveis de Descrição Bibliográfica do AACR2r (Regra 1.0D)\n\nPara garantir flexibilidade às bibliotecas de diferentes portes e vocações, o AACR2r prevê três níveis de detalhamento da descrição:\n\n#### Nível 1 (Regra 1.0D1 — Descrição Sumária / Mínima)\nA escolha do nível deve atender aos objetivos do catálogo; não decorre automaticamente do tamanho da biblioteca:\n* **Elementos Obrigatórios:**\n  1. Título próprio;\n  2. Primeira indicação de responsabilidade (apenas se diferir do cabeçalho principal de entrada ou se não houver cabeçalho de autor);\n  3. Menção de edição;\n  4. Dados específicos do material (se aplicável);\n  5. Primeiro publicador;\n  6. Data de publicação;\n  7. Extensão do item (paginação ou volumes);\n  8. Notas aplicáveis;\n  9. Número normalizado (quando pertinente).\n* *Exemplo Nível 1:*  \n  ```text\n  Exemplo didático fictício (dados editoriais não representam edição real): Manual de organização / Ana Lima. – 2. ed. – Editora Exemplo, 2024. – 120 p. – Inclui bibliografia.\n  ```\n\n#### Nível 2 (Regra 1.0D2 — Descrição Padrão Médio / Recomendada)\nOferece um conjunto mínimo mais detalhado; não se atribui adoção institucional sem documentação da política local:\n* **Elementos Obrigatórios:**\n  1. Título próprio [designação geral do material] = título equivalente : subtítulo / primeira indicação de responsabilidade ; indicações de responsabilidade subsequentes;\n  2. Menção de edição / primeira indicação de responsabilidade da edição ; indicações de responsabilidade subsequentes da edição;\n  3. Detalhes específicos do material (Área 3, quando cabível);\n  4. Primeiro lugar de publicação : primeiro publicador, data de publicação;\n  5. Extensão : outros detalhes físicos (ilustrações) ; dimensões (altura em centímetros);\n  6. Menção de série completa;\n  7. Notas necessárias para identificação da obra;\n  8. Número normalizado e termos de disponibilidade.\n\n#### Nível 3 (Regra 1.0D3 — Descrição Completa / Exaustiva)\nAplicado em bibliotecas nacionais, acervos de obras raras, coleções especiais e bibliografias analíticas:\n* Inclui os elementos especificados nas regras aplicáveis ao item. Não é uma ordem para inventar dados inexistentes nem reunir indiscriminadamente qualquer detalhe de proveniência.\n\n**Aplicação e recuperação:** O primeiro nível não significa “nunca notas”. A regra 1.0D1 inclui notas no esquema, conforme sua aplicabilidade. Compare um dado não exigido como mínimo e um dado proibido: são afirmações diferentes. Não é legítimo inventar um ISBN para preencher o exemplo.\n\n### Regras Avançadas de Escolha e Forma dos Pontos de Acesso (Parte II: Capítulos 21 a 26)\n\n#### A. Autoria Pessoal e a Regra dos Autores (Capítulo 21)\n* **Até três autores sem destaque:**\n  * Entrada principal: sob o **primeiro autor citado na fonte principal**.\n  * Entradas secundárias: geradas obrigatoriamente para o **segundo e o terceiro autores**.\n* **Quatro ou mais autores sem destaque:**\n  * Entrada principal: **OBRIGATORIAMENTE PELO TÍTULO**.\n  * Entrada secundária: para o primeiro autor citado, conforme a regra 21.6C2. **[et al.] pertence à indicação de responsabilidade quando aplicável, não ao cabeçalho do nome pessoal.**\n* **Obras com destaque tipográfico ou redacional:**\n  * Se a folha de rosto der destaque claro a um autor específico (ex.: \"Por Fulano de Tal, com a colaboração de Sicrano, Beltrano e Outros\"), a entrada principal é atribuída ao **autor em destaque**, gerando-se secundárias para os colaboradores conforme as regras gerais.\n\n#### B. Obras Sob Coordenação, Organização e Compilação (Regra 21.7)\n* Na regra 21.7B, coletâneas com título coletivo entram pelo título coletivo. A regra 21.7C trata separadamente as sem título coletivo; não basta o rótulo “organizador” para decidir toda situação.\n* Os responsáveis podem receber entradas secundárias conforme a regra. Isso não impede que alguém, em outra obra, seja autor com entrada principal.\n\n#### C. Autoria sob Pseudônimo (Regras 22.2B)\n* Se um autor pessoal for conhecido predominantemente por um **único pseudônimo**, a entrada deve ser feita sob o pseudônimo (ex.: `Twain, Mark`, e não `Clemens, Samuel Langhorne`; `Tristão de Athayde`, e não `Alceu Amoroso Lima`).\n* Se o autor utilizar pseudônimos múltiplos para gêneros literários distintos e for amplamente identificado por eles, criam-se cabeçalhos independentes interligados por remissivas *ver também*.\n\n#### D. Nomes com Prefixos, Partículas e Sobrenomes Compostos (Regra 22.5)\nA entrada de nomes compostos ou com partículas obedece ao idioma do autor:\n* **Língua Portuguesa:** Entra pela parte posterior ao prefixo (ex.: `Silva, Maria da`; `Santos, João dos`; `Moraes, Alexandre de`).\n* **Língua Francesa:** Entra pelo prefixo se for artigo ou contração de artigo com preposição (ex.: `La Fontaine, Jean de`; `Du Bellay, Joachim`), mas após a preposição simples (ex.: `Balzac, Honoré de`).\n* **Alemão e holandês exigem distinguir práticas:** no alemão, artigo/contração pode integrar entrada; outras preposições usualmente não. No holandês, a regra própria e suas exceções devem ser consultadas (22.5D1). Não use “sempre excluir o prefixo” para todas as línguas.\n* **Sobrenomes Compostos Hifenizados ou Consagrados:** Entram pela primeira parte do composto (ex.: `Castelo Branco, Humberto de Alencar`; `Espirito Santo, Carlos do`).\n* **Papas, Soberanos e Bispos (Regras 22.16 e 22.17):** Entram pelo **primeiro nome oficial**, seguido do numeral ordinal em algarismos romanos e do título de identificação (ex.: `Francisco, Papa`; `João Paulo II, Papa`; `Elizabeth II, Rainha do Reino Unido`; `Pedro II, Imperador do Brasil`).\n\n#### E. Entidades Coletivas e Órgãos Governamentais (Capítulo 24)\n* **Entrada Direta:** Entidades com nomes distintivos e autônomos entram diretamente sob sua própria denominação oficial (ex.: `Universidade de Brasília`; `Petróleo Brasileiro S.A.`).\n* **Entrada Subordinada à Jurisdição Territorial:** Órgãos de governo que expressam funções legislativas, executivas, judiciárias ou militares entram sob o nome da jurisdição territorial responsável:\n  * *Poder Legislativo:* `Brasil. Congresso Nacional`; `Brasil. Congresso Nacional. Câmara dos Deputados`; `Brasil. Congresso Nacional. Senado Federal`.\n  * *Poder Judiciário:* `Brasil. Supremo Tribunal Federal`; `Brasil. Superior Tribunal de Justiça`; `Distrito Federal (Brasil). Tribunal de Justiça`.\n  * *Poder Executivo:* `Brasil. Presidência da República`; `Brasil. Ministério da Educação`.\n\n#### F. Atos Legislativos e Normativos (Regra 21.31)\n* **Leis, Decretos e Constituições:** Entrada principal sob o cabeçalho da jurisdição que promulgou o ato, seguido do título uniforme:\n  * Ex.: `Brasil. [Constituição (1988)]`.\n  * Ex.: `Brasil. [Lei n. 8.112, de 11 de dezembro de 1990]`.\n  * Ex.: `Distrito Federal (Brasil). [Lei orgânica (1993)]`.\n* Se a publicação contiver compilação de leis diversas sobre uma matéria sem uma lei única em destaque: **Entrada pelo título da compilação**, com secundária para a jurisdição governamental.\n\n#### G. Eventos, Conferências, Congressos e Seminários (Regras 21.1B2d e 24.7)\n* Uma conferência é considerada entidade coletiva se possuir denominação oficial formal.\n* A entrada é feita sob o **nome oficial do evento**, seguido, entre parênteses, de três elementos padronizados: **(número do evento na forma prescrita : ano de realização : localidade do evento)**.\n* Exemplo canônico Cebraspe:  \n  ```text\n  Congresso Brasileiro de Biblioteconomia e Documentação (28. : 2019 : Vitória, ES)\n  ```\n\n**Aplicação e recuperação:** Quatro autores com responsabilidade compartilhada e sem principal destacado: no AACR2, a regra pertinente leva ao título. Isso não é regra do RDA nem da referência ABNT. Separar indicação de responsabilidade transcrita e cabeçalho de acesso evita adicionar et al. ao nome autorizado. Para coletânea, confira existência de título coletivo.\n\n### Contrastes autorais para julgar itens de catalogação\n\n| Contraste conceitual | Assertiva autoral para análise | Análise do exemplo (não é gabarito oficial) |\n| :--- | :--- | :--- |\n| **Catálogo Dicionário vs Sistemático** | *\"O catálogo dicionário caracteriza-se pela separação física em fichários distintos para autores, títulos e assuntos.\"* | **ERRADO.** O catálogo dicionário une autores, títulos e assuntos em uma **única ordem alfabética contínua**. Quem separa em fichário numérico e índice alfabético é o catálogo sistemático. |\n| **Níveis de Descrição (Regra 1.0D)** | *\"No primeiro nível de catalogação do AACR2r, exige-se a transcrição de subtítulos completos, notas gerais e dimensões físicas da obra.\"* | **ERRADO.** O Nível 1 exige apenas título próprio, 1ª responsabilidade (se diferir do cabeçalho), menção de edição, 1º publicador, data, extensão e ISBN. Notas aplicáveis já integram o esquema mínimo do nível 1; dimensões aparecem no nível 2. Não confunda notas com exigência indiscriminada de todas as notas possíveis. |\n| **Coordenação / Organização de Coletâneas** | *\"Em livro composto por artigos de dez especialistas organizado por um professor eminente, a entrada principal é feita sob o nome do organizador.\"* | **ERRADO.** Obras organizadas ou coordenadas têm **entrada principal pelo TÍTULO** (Regra 21.7). Organizadores recebem apenas entrada secundária. |\n| **Regra de Quatro ou Mais Autores** | *\"Na catalogação de monografia de quatro autores sem destaque, a entrada principal é pelo primeiro autor citado, usando-se et al. para os demais.\"* | **ERRADO.** Com 4 ou mais autores sem destaque, a entrada principal é **OBRIGATORIAMENTE PELO TÍTULO**. O primeiro autor recebe entrada secundária; *[et al.]* não integra o cabeçalho pessoal. |\n| **Área 3 em Livros Comuns** | *\"A Área 3 da ISBD destina-se a registrar a paginação e o tamanho físico de livros impressos comuns.\"* | **ERRADO.** Paginação e tamanho pertencem à **Área 5 (Descrição Física)**. A Área 3 é de preenchimento restrito a cartográficos, música, seriados e recursos eletrônicos. |\n| **Entrada de Leis Federais** | *\"Uma lei federal tem entrada principal sob o cabeçalho Brasil. Congresso Nacional. Câmara dos Deputados, por ter sido originada nessa Casa.\"* | **ERRADO.** Leis federais entram diretamente sob o cabeçalho da jurisdição territorial soberana: **Brasil.**, seguido do título uniforme, e não sob órgãos fracionários. |\n\n**Aplicação e recuperação:** Leia a assertiva e declare primeiro o código adotado e as condições. Só então decida. Catálogo dicionário integra acessos numa ordem alfabética; a presença de tecnologia digital não transforma todas as buscas em catálogo dicionário. Uma mesma palavra de título não dispensa analisar o padrão de descrição solicitado.",
+  teoriaDidaticaMarkdown: "### Revisão: princípio, código e formato\n\nICP 2016 tem treze princípios; usuário orienta decisões, sem eliminar critérios técnicos. Catálogo dicionário integra autor, título e assunto alfabeticamente; classificado organiza por notação, com apoios de acesso. AACR2 possui descrição e escolha/forma dos acessos. Níveis indicam mínimos aplicáveis, não exclusões absolutas: notas podem estar no primeiro. Regras de autoria compartilhada e coletâneas dependem das condições. Não misture responsabilidade transcrita, cabeçalho, referência ABNT e codificação MARC.\n",
   checkpoints: [
-    {
-      id: 'cp-2-1-1',
-      pergunta: 'Micro-Checkpoint 1: Tipologia de Catálogos e Regras de Cutter (1876)',
-      item: 'No modelo de catálogo dicionário formulado por Charles Ammi Cutter, os pontos de acesso de autor, título e assunto devem ser fisicamente separados em seções estanques, vedando-se a sua interfilação em ordem alfabética contínua.',
-      gabarito: 'E',
-      justificativa: 'Errado! A própria essência e definição do Catálogo Dicionário é a interfilação contínua de autores, títulos e assuntos em uma ÚNICA sequência alfabética integrada, tal como em um dicionário comum.',
-    },
-    {
-      id: 'cp-2-1-2',
-      pergunta: 'Micro-Checkpoint 2: Princípios Internacionais de Catalogação (ICP 2016)',
-      item: 'De acordo com a Declaração de Princípios Internacionais de Catalogação (ICP 2016) da IFLA, a conveniência do usuário constitui o princípio primordial e orientador supremo de todas as decisões relativas à descrição e escolha de pontos de acesso.',
-      gabarito: 'C',
-      justificativa: 'Correto! O princípio orientador basilar da ICP 2016 é inegociavelmente a conveniência do usuário (item 2.1), superando interesses burocráticos ou administrativos da instituição.',
-    },
-    {
-      id: 'cp-2-1-3',
-      pergunta: 'Micro-Checkpoint 3: Níveis de Descrição do AACR2r (Regra 1.0D)',
-      item: 'O primeiro nível de descrição bibliográfica previsto no AACR2r é o mais sumário, prescrevendo obrigatoriamente apenas o título próprio, a primeira indicação de responsabilidade se diferir do cabeçalho principal, a menção de edição, os detalhes específicos (se aplicável), o primeiro publicador, a data, a extensão e o número normalizado.',
-      gabarito: 'C',
-      justificativa: 'Correto! Conforme a regra 1.0D1 do AACR2r, esses são exatamente os elementos mínimos integrantes do primeiro nível de catalogação.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-2-1-1',
-        periodo: '1841',
-        disciplina: 'Origens da Catalogação Moderna',
-        focoPrincipal: 'As 91 Regras de Panizzi no Museu Britânico: consolidação do autor como ponto de acesso principal',
-        figuraChave: 'Anthony Panizzi',
-      },
-      {
-        id: 'tl-2-1-2',
-        periodo: '1876',
-        disciplina: 'Teoria dos Catálogos',
-        focoPrincipal: 'Rules for a Dictionary Catalog: os 3 objetivos clássicos do catálogo (localizar, mostrar e escolher) e interfilação única',
-        figuraChave: 'Charles Ammi Cutter',
-      },
-      {
-        id: 'tl-2-1-3',
-        periodo: '1961',
-        disciplina: 'Princípios Internacionais',
-        focoPrincipal: 'Conferência de Paris: Princípios Internacionais de Catalogação e consagração da autoria corporativa',
-        figuraChave: 'IFLA / Comitê de Paris',
-      },
-      {
-        id: 'tl-2-1-4',
-        periodo: '1978 / 1988 / 2002',
-        disciplina: 'Códigos Anglo-Americanos',
-        focoPrincipal: 'Publicação do AACR2 e AACR2r, estruturação em 8 áreas da ISBD, 3 níveis de descrição e regras dos capítulos 21-26',
-        figuraChave: 'Michael Gorman e Paul Winkler',
-      },
-      {
-        id: 'tl-2-1-5',
-        periodo: '2009 / 2016',
-        disciplina: 'Princípios Internacionais IFLA',
-        focoPrincipal: 'Declaração dos Princípios Internacionais de Catalogação (ICP): primazia da Conveniência do Usuário e Interoperabilidade',
-        figuraChave: 'IFLA Cataloguing Section',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-2-1-1',
-        nome: 'Eliane Serrão Alves Mey',
-        ano: 2009,
-        obraPrincipal: 'Catalogação no plural: para além do formato',
-        ideiaChave: 'A catalogação como sistema semiótico de mensagens codificadas que viabiliza a interseção entre o documento e o usuário.',
-        chipPegadinha: 'A catalogação descritiva abrange três etapas indissociáveis: descrição bibliográfica, pontos de acesso e localização.',
-      },
-      {
-        id: 'aut-2-1-2',
-        nome: 'Charles Ammi Cutter',
-        ano: 1876,
-        obraPrincipal: 'Rules for a Dictionary Catalog',
-        ideiaChave: 'Objetivos supremos do catálogo: encontrar um livro conhecido, mostrar o que a biblioteca possui e auxiliar na escolha.',
-        chipPegadinha: 'Catálogo Dicionário reúne autor, título e assunto na MESMA sequência alfabética integrada.',
-      },
-      {
-        id: 'aut-2-1-3',
-        nome: 'Anthony Panizzi',
-        ano: 1841,
-        obraPrincipal: 'Rules for the Compilation of the Catalogue',
-        ideiaChave: '91 regras para o British Museum que fundaram o rigor dos cabeçalhos de autor e remissivas padronizadas.',
-        chipPegadinha: 'Estabeleceu que obras anônimas entram pelo título e obras sagradas por título uniforme.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-2-1-1',
-        afirmacao: 'No AACR2r, em um livro com quatro organizadores na folha de rosto, deve-se fazer a entrada principal pelo nome do primeiro organizador e entradas secundárias para os outros três.',
-        gabarito: 'E',
-        porQue: 'No AACR2r, obras sob coordenação ou organização têm entrada principal OBRIGATORIAMENTE PELO TÍTULO, recebendo os organizadores apenas entradas secundárias.',
-      },
-      {
-        id: 'peg-2-1-2',
-        afirmacao: 'O primeiro nível de catalogação do AACR2r exige o preenchimento de todas as notas gerais, dimensões em centímetros e detalhes físicos da obra.',
-        gabarito: 'E',
-        porQue: 'O Nível 1 é o mais conciso e sumário: requer apenas título próprio, 1ª responsabilidade (se diferir do cabeçalho), edição, 1º publicador, data, extensão e ISBN. Notas e dimensões pertencem aos Níveis 2 e 3.',
-      },
-      {
-        id: 'peg-2-1-3',
-        afirmacao: 'O catálogo dicionário exige que as fichas de assunto sejam armazenadas em móvel separado do catálogo alfabético de autores e títulos.',
-        gabarito: 'E',
-        porQue: 'O Catálogo Dicionário reúne e interfila autores, títulos e assuntos em uma ÚNICA sequência alfabética contínua. Quem separa por assunto e notação é o Catálogo Sistemático.',
-      },
-    ],
+  {
+    "id": "cp-2-1-1",
+    "pergunta": "Micro-Checkpoint 1: Tipologia de Catálogos e Regras de Cutter (1876)",
+    "item": "No modelo de catálogo dicionário formulado por Charles Ammi Cutter, os pontos de acesso de autor, título e assunto devem ser fisicamente separados em seções estanques, vedando-se a sua interfilação em ordem alfabética contínua.",
+    "gabarito": "E",
+    "justificativa": "O catálogo dicionário integra acessos de autor, título e assunto numa ordem alfabética, em vez de separá-los como descrito no item.",
+    "fonte": "IFLA, ICP 2016, seções 2 e 6; AACR2, revisão 2002, regras 1.0D, 21.6C, 21.7 e 22.5D; exemplos autorais de aplicação.",
+    "versao_correta": "O catálogo dicionário integra esses pontos de acesso em sequência alfabética única."
   },
+  {
+    "id": "cp-2-1-2",
+    "pergunta": "Micro-Checkpoint 2: Princípios Internacionais de Catalogação (ICP 2016)",
+    "item": "De acordo com a Declaração de Princípios Internacionais de Catalogação (ICP 2016) da IFLA, a conveniência do usuário constitui o princípio primordial e orientador supremo de todas as decisões relativas à descrição e escolha de pontos de acesso.",
+    "gabarito": "C",
+    "justificativa": "A seção 2 dos ICP 2016 estabelece interesse/conveniência do usuário como princípio prevalente. Os demais princípios continuam orientando decisões e conflitos devem ser justificados.",
+    "fonte": "IFLA, ICP 2016, seções 2 e 6; AACR2, revisão 2002, regras 1.0D, 21.6C, 21.7 e 22.5D; exemplos autorais de aplicação."
+  },
+  {
+    "id": "cp-2-1-3",
+    "pergunta": "Micro-Checkpoint 3: Níveis de Descrição do AACR2r (Regra 1.0D)",
+    "item": "O primeiro nível de descrição do AACR2 contém um conjunto mínimo de elementos aplicáveis, incluindo título principal, responsabilidade nas condições da regra, edição, detalhes específicos, primeiro editor, data, extensão, notas e número normalizado.",
+    "gabarito": "C",
+    "justificativa": "A regra 1.0D1 inclui notas no esquema. A lista anterior omitia esse elemento e dizia apenas; o texto foi corrigido para não ensinar exclusão universal de notas.",
+    "fonte": "IFLA, ICP 2016, seções 2 e 6; AACR2, revisão 2002, regras 1.0D, 21.6C, 21.7 e 22.5D; exemplos autorais de aplicação."
+  },
+  {
+    "id": "rt-2-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O ICP de 2016 inclui abertura, acessibilidade e racionalidade, além dos princípios de representação e economia.",
+    "gabarito": "C",
+    "justificativa": "A lista da seção 2 tem treze princípios; interesse do usuário prevalece e os demais não formam ordem fixa de preferência.",
+    "fonte": "IFLA, ICP 2016, seções 2 e 6; AACR2, revisão 2002, regras 1.0D, 21.6C, 21.7 e 22.5D; exemplos autorais de aplicação.",
+    "editalRef": "Bloco D - Item 2.1 e 2.2",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-2-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No AACR2, a presença de notas numa descrição é incompatível com o primeiro nível.",
+    "gabarito": "E",
+    "justificativa": "A regra 1.0D1 inclui notas aplicáveis no conjunto mínimo. A exclusão universal das notas estava incorreta.",
+    "fonte": "IFLA, ICP 2016, seções 2 e 6; AACR2, revisão 2002, regras 1.0D, 21.6C, 21.7 e 22.5D; exemplos autorais de aplicação.",
+    "editalRef": "Bloco D - Item 2.1 e 2.2",
+    "habilidade": "aplicar",
+    "versao_correta": "Notas aplicáveis podem integrar o primeiro nível conforme a regra 1.0D1."
+  },
+  {
+    "id": "rt-2-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A expressão et al. omitindo nomes na responsabilidade deve integrar também o cabeçalho autorizado do primeiro autor.",
+    "gabarito": "E",
+    "justificativa": "Transcrição da responsabilidade e forma do ponto de acesso são operações distintas.",
+    "fonte": "IFLA, ICP 2016, seções 2 e 6; AACR2, revisão 2002, regras 1.0D, 21.6C, 21.7 e 22.5D; exemplos autorais de aplicação.",
+    "editalRef": "Bloco D - Item 2.1 e 2.2",
+    "habilidade": "aplicar",
+    "versao_correta": "Et al. não integra o cabeçalho pessoal apenas porque foi usado na indicação de responsabilidade."
+  },
+  {
+    "id": "rt-2-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A organização de um OPAC exige necessariamente banco relacional e o mesmo arranjo das fichas de um catálogo dicionário.",
+    "gabarito": "E",
+    "justificativa": "OPAC designa acesso público online; não obriga essa implementação ou arranjo.",
+    "fonte": "IFLA, ICP 2016, seções 2 e 6; AACR2, revisão 2002, regras 1.0D, 21.6C, 21.7 e 22.5D; exemplos autorais de aplicação.",
+    "editalRef": "Bloco D - Item 2.1 e 2.2",
+    "habilidade": "aplicar",
+    "versao_correta": "Um OPAC pode ter diferentes arquiteturas e recursos de busca."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-2-1-fonte-icp",
+      "nome": "IFLA — Princípios Internacionais de Catalogação (2016)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "IFLA — Princípios Internacionais de Catalogação (2016)",
+      "ideiaChave": "Seções 2 e 6; tradução portuguesa do PDF do acervo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-1-fonte-aacr",
+      "nome": "AACR2 — revisão 2002, tradução brasileira no acervo HNC",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "AACR2 — revisão 2002, tradução brasileira no acervo HNC",
+      "ideiaChave": "Regras 1.0D, 21.6C, 21.7, 22.5D e capítulos indicados. Arquivo: acervo-estudos/Livros Extras/AACR2 - COMPLETO com busca.pdf; fonte histórica para questões que adotam esse código.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-2-1-2",
+      "afirmacao": "No AACR2, a presença de notas numa descrição é incompatível com o primeiro nível.",
+      "gabarito": "E",
+      "porQue": "A regra 1.0D1 inclui notas aplicáveis no conjunto mínimo. A exclusão universal das notas estava incorreta."
+    },
+    {
+      "id": "memoria-rt-2-1-3",
+      "afirmacao": "A expressão et al. omitindo nomes na responsabilidade deve integrar também o cabeçalho autorizado do primeiro autor.",
+      "gabarito": "E",
+      "porQue": "Transcrição da responsabilidade e forma do ponto de acesso são operações distintas."
+    },
+    {
+      "id": "memoria-rt-2-1-4",
+      "afirmacao": "A organização de um OPAC exige necessariamente banco relacional e o mesmo arranjo das fichas de um catálogo dicionário.",
+      "gabarito": "E",
+      "porQue": "OPAC designa acesso público online; não obriga essa implementação ou arranjo."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-2-1-bloco-1",
+    "titulo": "Teoria Geral da Catalogação e Tipologia de Catálogos",
+    "objetivos": [
+      "Comparar funções e arranjo de catálogo sem impor arquitetura tecnológica."
+    ],
+    "conteudo": "A catalogação descritiva é o ramo instrumental da Biblioteconomia voltado à identificação, representação padronizada e individualização dos recursos informacionais existentes em um acervo, construindo substitutos bibliográficos que viabilizam a comunicação e a recuperação documental (Mey & Silveira, 2009, *Catalogação no Plural*).\n\n#### A. A Herança de Panizzi (1841) e Charles Ammi Cutter (1876)\nA moderna catalogação descritiva consolidou-se a partir de dois marcos históricos fundamentais:\n* **Anthony Panizzi (1841):** Elaborou as célebres *91 Regras do Museu Britânico*, estabelecendo a primazia do autor como ponto de acesso principal, a adoção de títulos uniformes para obras sagradas e a necessidade de remissivas padronizadas.\n* **Charles Ammi Cutter (1876):** Publicou as seminais *Rules for a Dictionary Catalog*, nas quais postulou os **três objetivos primordiais do catálogo bibliográfico**:\n  1. **Permitir a localização** de um livro quando se conhece o autor, o título ou o assunto (*função de localização/busca direta*);\n  2. **Mostrar o que a biblioteca possui** de determinado autor, sobre determinado assunto ou em determinado gênero literário (*função de congregação/agrupamento de acervo*);\n  3. **Auxiliar na escolha** de um livro quanto à sua edição (critério bibliográfico) ou quanto ao seu caráter literário ou técnico (*função de seleção/avaliação crítica*).\n\n---\n\n#### B. Tipologia Estrutural de Catálogos Bibliográficos\nDistinguir arranjo de catálogo e funcionalidade da interface evita extrapolações:\n\n| Tipo de Catálogo | Princípio de Organização e Interfilação | Vantagens no Uso | Limitações Técnicas |\n| :--- | :--- | :--- | :--- |\n| **Catálogo Dicionário** | **Interfilação alfabética única e integrada** de pontos de acesso de autor, título e assunto na mesma sequência corrida, exatamente como em um dicionário geral. | Máxima simplicidade para o leitor leigo: busca autor, título ou tema em um único índice alfabético contínuo. | Crescimento desordenado e complexidade de regras de alfabetação com homônimos e subdivisões de assunto extensas. |\n| **Catálogo Sistemático (Classificado)** | **Arranjo clássico por classificação, frequentemente apoiado por índice alfabético:**<br>1. *Catálogo Principal:* ordenado logicamente pela notação de classificação (CDD ou CDU).<br>2. *Índice Alfabético Auxiliar:* entradas de termos de assunto que apontam para o número de classificação. | Reúne obras por afinidade temática em conformidade com o arranjo físico das estantes; independe do idioma do cabeçalho. | Pode exigir consulta ao índice para localizar uma notação desconhecida; quem conhece a notação pode consultá-la diretamente. |\n| **Catálogo Alfabético de Autores e Títulos** | Reúne em sequência alfabética estrita apenas pontos de acesso de pessoas, entidades e títulos, **excluindo totalmente cabeçalhos de assunto**. | Agiliza a busca de usuários que já possuem referências bibliográficas prontas (conhecem o autor ou o título). | Não permite pesquisa temática por disciplina ou matéria. |\n| **Catálogo Alfabético de Assuntos** | Ordena exclusivamente cabeçalhos de assunto em ordem alfabética direta ou pré-coordenada. | Concentra pesquisas de pesquisa temática específica. | Requer manutenção rigorosa de vocabulários controlados e listas de remissivas (*ver* e *ver também*). |\n| **OPAC (Online Public Access Catalog)** | Catálogo público de acesso online; sua definição não obriga um único modelo de banco de dados. | Pesquisa por múltiplos pontos de acesso simultâneos, operadores booleanos e hiperlinks. | Requer interfaces acessíveis e formatos de intercâmbio padronizados (MARC 21, Dublin Core). |\n\n**Aplicação e recuperação:** Um usuário sabe o número de classificação e vai direto ao catálogo classificado. Não precisa obrigatoriamente começar pelo índice. Num OPAC, a interface pode oferecer busca por assunto e autor sem reproduzir o arranjo de fichas. Catálogo online não é sinônimo de uma tecnologia específica de armazenamento.",
+    "checkpointIds": [
+      "cp-2-1-1",
+      "rt-2-1-4"
+    ]
+  },
+  {
+    "id": "sub-2-1-bloco-2",
+    "titulo": "A Declaração de Princípios Internacionais de Catalogação (ICP - IFLA 2016)",
+    "objetivos": [
+      "Aplicar os treze princípios de 2016 e explicar conflitos."
+    ],
+    "conteudo": "Aprovada originalmente na Conferência de Paris de 1961 e atualizada pela IFLA em 2009 e 2016 (*Statement of International Cataloguing Principles*), a Declaração de Princípios da IFLA oferece princípios para elaboração de códigos e políticas; não significa que códigos anteriores sejam transcrições integrais da versão de 2016:\n\n1. **Conveniência do Usuário (*Princípio Supremo e Inegociável*):**\n   * Todas as decisões relativas à escolha de pontos de acesso, descrições bibliográficas e terminologia devem ser tomadas tendo em vista o esforço mínimo e a máxima facilidade de recuperação pelo usuário da unidade de informação.\n   * *Alerta Cebraspe:* A técnica de elaboração de itens costuma tentar induzir o candidato ao erro afirmando que a regra prioriza a \"conveniência dos bibliotecários\" ou a \"economia da instituição\".\n2. **Uso Comum (*Common Usage*):** O vocabulário empregado nas descrições e nos pontos de acesso autorizados deve refletir a linguagem natural e predominante utilizada pela maioria dos usuários do acervo.\n3. **Representação Fidedigna (*Representation*):**\n   * A descrição representa o recurso como se apresenta; formas controladas de nomes e títulos também seguem os critérios do princípio. Transcrição e normalização não são operações idênticas.\n   * Não cabe ao catalogador corrigir tacitamente erros tipográficos, anacronismos ou variações na folha de rosto; estes devem ser transcritos fidedignamente, cabendo notas explicativas ou pontos de acesso secundários padronizados para eventuais correções.\n4. **Precisão (*Accuracy*):** A representação deve espelhar fielmente as características e atributos da entidade bibliográfica descrita.\n5. **Suficiência e Necessidade (*Sufficiency and Necessity*):** Devem ser incluídos apenas os elementos essenciais para identificar, selecionar e acessar o recurso, evitando prolixidades inúteis.\n6. **Significância (*Significance*):** Os dados catalográficos devem ser bibliograficamente relevantes para o universo de busca.\n7. **Economia (*Economy*):** Quando houver caminhos alternativos para atingir o mesmo objetivo de recuperação, deve-se selecionar a solução mais simples e econômica em termos de esforço e armazenamento.\n8. **Consistência e Padronização (*Consistency and Standardization*):** A descrição e a criação de cabeçalhos devem ser uniformizadas por regras padronizadas compartilhadas entre redes cooperativas.\n9. **Interoperabilidade (*Interoperability*):** Deve-se favorecer intercâmbio e reutilização de dados dentro e fora da comunidade bibliotecária. Abertura e acessibilidade são princípios relacionados, mas distintos.\n10. **Integração:** buscar regras comuns para diferentes tipos de recurso e entidade.\n11. **Abertura:** minimizar restrições aos dados e explicitar as existentes.\n12. **Acessibilidade:** atender necessidades de acesso e normas pertinentes.\n13. **Racionalidade:** regras defensáveis; conflitos entre princípios pedem solução justificada. A declaração de 2016 não se limita aos nove itens antes listados.\n\n**Aplicação e recuperação:** Economizar tempo de processamento retirando dados indispensáveis à identificação contraria a finalidade do catálogo. Interesse do usuário é princípio prevalente; economia não autoriza perder distinções essenciais. Abertura dos dados tampouco substitui acessibilidade da interface.",
+    "checkpointIds": [
+      "cp-2-1-2",
+      "rt-2-1-1"
+    ]
+  },
+  {
+    "id": "sub-2-1-bloco-3",
+    "titulo": "A Estrutura do Código AACR2r (*Anglo-American Cataloguing Rules*, 2ª Edição Revisada)",
+    "objetivos": [
+      "Separar áreas e conteúdos descritivos."
+    ],
+    "conteudo": "O AACR2r divide-se estruturalmente em duas grandes partes complementares:\n\n#### A. Parte I (Capítulos 1 a 13) — Descrição Bibliográfica\nEstruturada com base na **ISBD**, com regras gerais e regras por tipo de material, a Parte I estabelece as regras de transcrição dos dados em **oito áreas padronizadas**:\n* *Capítulo 1:* Regras Gerais de Descrição (aplicáveis a todo e qualquer suporte).\n* *Capítulo 2:* Livros, folhetos e folhas impressas (monografias).\n* *Capítulo 3:* Materiais cartográficos (mapas, globos, plantas).\n* *Capítulo 4:* Manuscritos.\n* *Capítulo 5:* Música impressa (partituras).\n* *Capítulo 6:* Gravações de som.\n* *Capítulo 7:* Filmes e gravações de vídeo.\n* *Capítulo 8:* Materiais gráficos (fotografias, gravuras, transparências).\n* *Capítulo 9:* Recursos eletrônicos (arquivos de dados e programas).\n* *Capítulo 10:* Artefatos tridimensionais e realia (objetos naturais e manufaturados).\n* *Capítulo 11:* Microformas.\n* *Capítulo 12:* Recursos contínuos (publicações seriadas e recursos integradores).\n* *Capítulo 13:* Análise (registros de partes componentes, analíticas de artigos e capítulos).\n\n#### B. As Oito Áreas de Descrição da ISBD / AACR2r e Pontuação Prescrita\n1. **Área 1 — Título e Indicação de Responsabilidade:**\n   * Título próprio [DGM] = Título equivalente : Subtítulo / Primeira indicação de responsabilidade ; Responsabilidade subsequente.\n2. **Área 2 — Edição:**\n   * . – Menção de edição / Primeira indicação de responsabilidade da edição.\n3. **Área 3 — Detalhes Específicos do Material (Restrita):**\n   * . – Utilizada *exclusivamente* para materiais cartográficos (escala e projeção), música (formato de apresentação musical), recursos contínuos (numeração/datas) e recursos eletrônicos (tipo de arquivo). **Livros comuns NÃO utilizam a Área 3!**\n4. **Área 4 — Publicação, Distribuição etc. (Imprenta):**\n   * . – Lugar de publicação : Nome do publicador, Data de publicação (Lugar de fabricação : Nome do fabricante, Data de fabricação).\n5. **Área 5 — Descrição Física (Colação):**\n   * . – Extensão do item (número de páginas ou volumes) : Outros detalhes físicos (il., retr.) ; Dimensões (cm) + Material adicional.\n6. **Área 6 — Série:**\n   * . – (Título da série = Título equivalente da série / Indicação de responsabilidade da série, ISSN ; Número na série).\n7. **Área 7 — Notas:**\n   * . – Parágrafos livres ou estruturados para informar teses, bibliografias, conteúdo sumário e restrições de acesso.\n8. **Área 8 — Número Normalizado e Termos de Disponibilidade:**\n   * . – ISBN ou ISSN : Preço ou termos de obtenção.\n\n**Aplicação e recuperação:** Paginação e dimensões não se tornam dados específicos da área 3 só porque descrevem um livro. Área 5 trata descrição física; a aplicabilidade da área 3 depende do tipo. Não transporte a área 0 da ISBD consolidada para a lista de oito áreas do AACR2 sem explicitar versões.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-2-1-bloco-4",
+    "titulo": "Os Três Níveis de Descrição Bibliográfica do AACR2r (Regra 1.0D)",
+    "objetivos": [
+      "Distinguir mínimos dos níveis de descrição."
+    ],
+    "conteudo": "Para garantir flexibilidade às bibliotecas de diferentes portes e vocações, o AACR2r prevê três níveis de detalhamento da descrição:\n\n#### Nível 1 (Regra 1.0D1 — Descrição Sumária / Mínima)\nA escolha do nível deve atender aos objetivos do catálogo; não decorre automaticamente do tamanho da biblioteca:\n* **Elementos Obrigatórios:**\n  1. Título próprio;\n  2. Primeira indicação de responsabilidade (apenas se diferir do cabeçalho principal de entrada ou se não houver cabeçalho de autor);\n  3. Menção de edição;\n  4. Dados específicos do material (se aplicável);\n  5. Primeiro publicador;\n  6. Data de publicação;\n  7. Extensão do item (paginação ou volumes);\n  8. Notas aplicáveis;\n  9. Número normalizado (quando pertinente).\n* *Exemplo Nível 1:*  \n  ```text\n  Exemplo didático fictício (dados editoriais não representam edição real): Manual de organização / Ana Lima. – 2. ed. – Editora Exemplo, 2024. – 120 p. – Inclui bibliografia.\n  ```\n\n#### Nível 2 (Regra 1.0D2 — Descrição Padrão Médio / Recomendada)\nOferece um conjunto mínimo mais detalhado; não se atribui adoção institucional sem documentação da política local:\n* **Elementos Obrigatórios:**\n  1. Título próprio [designação geral do material] = título equivalente : subtítulo / primeira indicação de responsabilidade ; indicações de responsabilidade subsequentes;\n  2. Menção de edição / primeira indicação de responsabilidade da edição ; indicações de responsabilidade subsequentes da edição;\n  3. Detalhes específicos do material (Área 3, quando cabível);\n  4. Primeiro lugar de publicação : primeiro publicador, data de publicação;\n  5. Extensão : outros detalhes físicos (ilustrações) ; dimensões (altura em centímetros);\n  6. Menção de série completa;\n  7. Notas necessárias para identificação da obra;\n  8. Número normalizado e termos de disponibilidade.\n\n#### Nível 3 (Regra 1.0D3 — Descrição Completa / Exaustiva)\nAplicado em bibliotecas nacionais, acervos de obras raras, coleções especiais e bibliografias analíticas:\n* Inclui os elementos especificados nas regras aplicáveis ao item. Não é uma ordem para inventar dados inexistentes nem reunir indiscriminadamente qualquer detalhe de proveniência.\n\n**Aplicação e recuperação:** O primeiro nível não significa “nunca notas”. A regra 1.0D1 inclui notas no esquema, conforme sua aplicabilidade. Compare um dado não exigido como mínimo e um dado proibido: são afirmações diferentes. Não é legítimo inventar um ISBN para preencher o exemplo.",
+    "checkpointIds": [
+      "cp-2-1-3",
+      "rt-2-1-2"
+    ]
+  },
+  {
+    "id": "sub-2-1-bloco-5",
+    "titulo": "Regras Avançadas de Escolha e Forma dos Pontos de Acesso (Parte II: Capítulos 21 a 26)",
+    "objetivos": [
+      "Escolher ponto de acesso pela responsabilidade e tipo de obra."
+    ],
+    "conteudo": "#### A. Autoria Pessoal e a Regra dos Autores (Capítulo 21)\n* **Até três autores sem destaque:**\n  * Entrada principal: sob o **primeiro autor citado na fonte principal**.\n  * Entradas secundárias: geradas obrigatoriamente para o **segundo e o terceiro autores**.\n* **Quatro ou mais autores sem destaque:**\n  * Entrada principal: **OBRIGATORIAMENTE PELO TÍTULO**.\n  * Entrada secundária: para o primeiro autor citado, conforme a regra 21.6C2. **[et al.] pertence à indicação de responsabilidade quando aplicável, não ao cabeçalho do nome pessoal.**\n* **Obras com destaque tipográfico ou redacional:**\n  * Se a folha de rosto der destaque claro a um autor específico (ex.: \"Por Fulano de Tal, com a colaboração de Sicrano, Beltrano e Outros\"), a entrada principal é atribuída ao **autor em destaque**, gerando-se secundárias para os colaboradores conforme as regras gerais.\n\n#### B. Obras Sob Coordenação, Organização e Compilação (Regra 21.7)\n* Na regra 21.7B, coletâneas com título coletivo entram pelo título coletivo. A regra 21.7C trata separadamente as sem título coletivo; não basta o rótulo “organizador” para decidir toda situação.\n* Os responsáveis podem receber entradas secundárias conforme a regra. Isso não impede que alguém, em outra obra, seja autor com entrada principal.\n\n#### C. Autoria sob Pseudônimo (Regras 22.2B)\n* Se um autor pessoal for conhecido predominantemente por um **único pseudônimo**, a entrada deve ser feita sob o pseudônimo (ex.: `Twain, Mark`, e não `Clemens, Samuel Langhorne`; `Tristão de Athayde`, e não `Alceu Amoroso Lima`).\n* Se o autor utilizar pseudônimos múltiplos para gêneros literários distintos e for amplamente identificado por eles, criam-se cabeçalhos independentes interligados por remissivas *ver também*.\n\n#### D. Nomes com Prefixos, Partículas e Sobrenomes Compostos (Regra 22.5)\nA entrada de nomes compostos ou com partículas obedece ao idioma do autor:\n* **Língua Portuguesa:** Entra pela parte posterior ao prefixo (ex.: `Silva, Maria da`; `Santos, João dos`; `Moraes, Alexandre de`).\n* **Língua Francesa:** Entra pelo prefixo se for artigo ou contração de artigo com preposição (ex.: `La Fontaine, Jean de`; `Du Bellay, Joachim`), mas após a preposição simples (ex.: `Balzac, Honoré de`).\n* **Alemão e holandês exigem distinguir práticas:** no alemão, artigo/contração pode integrar entrada; outras preposições usualmente não. No holandês, a regra própria e suas exceções devem ser consultadas (22.5D1). Não use “sempre excluir o prefixo” para todas as línguas.\n* **Sobrenomes Compostos Hifenizados ou Consagrados:** Entram pela primeira parte do composto (ex.: `Castelo Branco, Humberto de Alencar`; `Espirito Santo, Carlos do`).\n* **Papas, Soberanos e Bispos (Regras 22.16 e 22.17):** Entram pelo **primeiro nome oficial**, seguido do numeral ordinal em algarismos romanos e do título de identificação (ex.: `Francisco, Papa`; `João Paulo II, Papa`; `Elizabeth II, Rainha do Reino Unido`; `Pedro II, Imperador do Brasil`).\n\n#### E. Entidades Coletivas e Órgãos Governamentais (Capítulo 24)\n* **Entrada Direta:** Entidades com nomes distintivos e autônomos entram diretamente sob sua própria denominação oficial (ex.: `Universidade de Brasília`; `Petróleo Brasileiro S.A.`).\n* **Entrada Subordinada à Jurisdição Territorial:** Órgãos de governo que expressam funções legislativas, executivas, judiciárias ou militares entram sob o nome da jurisdição territorial responsável:\n  * *Poder Legislativo:* `Brasil. Congresso Nacional`; `Brasil. Congresso Nacional. Câmara dos Deputados`; `Brasil. Congresso Nacional. Senado Federal`.\n  * *Poder Judiciário:* `Brasil. Supremo Tribunal Federal`; `Brasil. Superior Tribunal de Justiça`; `Distrito Federal (Brasil). Tribunal de Justiça`.\n  * *Poder Executivo:* `Brasil. Presidência da República`; `Brasil. Ministério da Educação`.\n\n#### F. Atos Legislativos e Normativos (Regra 21.31)\n* **Leis, Decretos e Constituições:** Entrada principal sob o cabeçalho da jurisdição que promulgou o ato, seguido do título uniforme:\n  * Ex.: `Brasil. [Constituição (1988)]`.\n  * Ex.: `Brasil. [Lei n. 8.112, de 11 de dezembro de 1990]`.\n  * Ex.: `Distrito Federal (Brasil). [Lei orgânica (1993)]`.\n* Se a publicação contiver compilação de leis diversas sobre uma matéria sem uma lei única em destaque: **Entrada pelo título da compilação**, com secundária para a jurisdição governamental.\n\n#### G. Eventos, Conferências, Congressos e Seminários (Regras 21.1B2d e 24.7)\n* Uma conferência é considerada entidade coletiva se possuir denominação oficial formal.\n* A entrada é feita sob o **nome oficial do evento**, seguido, entre parênteses, de três elementos padronizados: **(número do evento na forma prescrita : ano de realização : localidade do evento)**.\n* Exemplo canônico Cebraspe:  \n  ```text\n  Congresso Brasileiro de Biblioteconomia e Documentação (28. : 2019 : Vitória, ES)\n  ```\n\n**Aplicação e recuperação:** Quatro autores com responsabilidade compartilhada e sem principal destacado: no AACR2, a regra pertinente leva ao título. Isso não é regra do RDA nem da referência ABNT. Separar indicação de responsabilidade transcrita e cabeçalho de acesso evita adicionar et al. ao nome autorizado. Para coletânea, confira existência de título coletivo.",
+    "checkpointIds": [
+      "rt-2-1-3"
+    ]
+  },
+  {
+    "id": "sub-2-1-bloco-6",
+    "titulo": "Contrastes autorais para julgar itens de catalogação",
+    "objetivos": [
+      "Julgar contrastes com condições explícitas."
+    ],
+    "conteudo": "| Contraste conceitual | Assertiva autoral para análise | Análise do exemplo (não é gabarito oficial) |\n| :--- | :--- | :--- |\n| **Catálogo Dicionário vs Sistemático** | *\"O catálogo dicionário caracteriza-se pela separação física em fichários distintos para autores, títulos e assuntos.\"* | **ERRADO.** O catálogo dicionário une autores, títulos e assuntos em uma **única ordem alfabética contínua**. Quem separa em fichário numérico e índice alfabético é o catálogo sistemático. |\n| **Níveis de Descrição (Regra 1.0D)** | *\"No primeiro nível de catalogação do AACR2r, exige-se a transcrição de subtítulos completos, notas gerais e dimensões físicas da obra.\"* | **ERRADO.** O Nível 1 exige apenas título próprio, 1ª responsabilidade (se diferir do cabeçalho), menção de edição, 1º publicador, data, extensão e ISBN. Notas aplicáveis já integram o esquema mínimo do nível 1; dimensões aparecem no nível 2. Não confunda notas com exigência indiscriminada de todas as notas possíveis. |\n| **Coordenação / Organização de Coletâneas** | *\"Em livro composto por artigos de dez especialistas organizado por um professor eminente, a entrada principal é feita sob o nome do organizador.\"* | **ERRADO.** Obras organizadas ou coordenadas têm **entrada principal pelo TÍTULO** (Regra 21.7). Organizadores recebem apenas entrada secundária. |\n| **Regra de Quatro ou Mais Autores** | *\"Na catalogação de monografia de quatro autores sem destaque, a entrada principal é pelo primeiro autor citado, usando-se et al. para os demais.\"* | **ERRADO.** Com 4 ou mais autores sem destaque, a entrada principal é **OBRIGATORIAMENTE PELO TÍTULO**. O primeiro autor recebe entrada secundária; *[et al.]* não integra o cabeçalho pessoal. |\n| **Área 3 em Livros Comuns** | *\"A Área 3 da ISBD destina-se a registrar a paginação e o tamanho físico de livros impressos comuns.\"* | **ERRADO.** Paginação e tamanho pertencem à **Área 5 (Descrição Física)**. A Área 3 é de preenchimento restrito a cartográficos, música, seriados e recursos eletrônicos. |\n| **Entrada de Leis Federais** | *\"Uma lei federal tem entrada principal sob o cabeçalho Brasil. Congresso Nacional. Câmara dos Deputados, por ter sido originada nessa Casa.\"* | **ERRADO.** Leis federais entram diretamente sob o cabeçalho da jurisdição territorial soberana: **Brasil.**, seguido do título uniforme, e não sob órgãos fracionários. |\n\n**Aplicação e recuperação:** Leia a assertiva e declare primeiro o código adotado e as condições. Só então decida. Catálogo dicionário integra acessos numa ordem alfabética; a presença de tecnologia digital não transforma todas as buscas em catálogo dicionário. Uma mesma palavra de título não dispensa analisar o padrão de descrição solicitado.",
+    "checkpointIds": []
+  }
+],
+fontesTeoria: [
+  {
+    "id": "icp",
+    "titulo": "IFLA — Princípios Internacionais de Catalogação (2016)",
+    "localizador": "Seções 2 e 6; tradução portuguesa do PDF do acervo.",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-pt.pdf"
+  },
+  {
+    "id": "aacr",
+    "titulo": "AACR2 — revisão 2002, tradução brasileira no acervo HNC",
+    "localizador": "Regras 1.0D, 21.6C, 21.7, 22.5D e capítulos indicados. Arquivo: acervo-estudos/Livros Extras/AACR2 - COMPLETO com busca.pdf; fonte histórica para questões que adotam esse código."
+  }
+],
 };

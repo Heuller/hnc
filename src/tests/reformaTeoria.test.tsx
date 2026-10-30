@@ -1,0 +1,85 @@
+// @vitest-environment jsdom
+import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { render, screen, fireEvent, within, cleanup } from '@testing-library/react';
+import { ALL_COURSE_MODULES } from '../content/registry';
+import { ModuloFilhoSchema } from '../domain/schemas/modulo.schema';
+import { getRequiredSectionsForSubmodule, getUnitReadingKey, calculateSubmoduleStatus } from '../domain/learningEngine';
+import { AulaEmBlocos } from '../components/teoria/AulaEmBlocos';
+import { useProgressStore } from '../store/useProgressStore';
+vi.mock('../components/common/ConteudoMarkdown', () => ({ ConteudoMarkdown: ({ content }: {content: string}) => <div>{content}</div> }));
+const subs = ALL_COURSE_MODULES.flatMap(m => m.modulosFilhos);
+const sub = subs.find(s => s.numero === '11.1')!;
+beforeEach(() => { cleanup(); useProgressStore.getState().limparTodoProgresso(); });
+describe('Reforma teórica e microcheckpoints por bloco', () => {
+  it('mantém identidades, fontes e ligações válidas em todo capítulo reformado', () => {
+    expect(subs.length).toBe(75);
+    for (const s of subs) {
+      const validacao = ModuloFilhoSchema.safeParse(s);
+      expect(validacao.success, `${s.id}: ${JSON.stringify(validacao.error?.issues)}`).toBe(true);
+      expect(s.unidadesAprendizagem?.length, s.id).toBeGreaterThan(0);
+      const cps = s.checkpoints.map(c => c.id);
+      const usados = s.unidadesAprendizagem!.flatMap(u => u.checkpointIds);
+      expect(new Set(cps).size).toBe(cps.length);
+      expect(new Set(usados).size).toBe(usados.length);
+      expect([...usados].sort(), s.id).toEqual([...cps].sort());
+      for (const id of usados) expect(cps).toContain(id);
+      expect(s.fontesTeoria?.length).toBeGreaterThan(0);
+      expect(s.checkpoints.some(c => !c.fonte)).toBe(false);
+      for (const cp of s.checkpoints.filter(c => c.gabarito === 'E')) {
+        expect(cp.versao_correta?.trim().length, `${cp.id}: versão corrigida`).toBeGreaterThan(10);
+      }
+    }
+  });
+  it('preserva a leitura antiga sem concluir automaticamente a edição ampliada', () => {
+    const antigas = getRequiredSectionsForSubmodule({...sub, unidadesAprendizagem: undefined});
+    const respostas = Object.fromEntries(sub.checkpoints.map(cp => [cp.id, cp.gabarito]));
+    expect(calculateSubmoduleStatus(sub, antigas, respostas).todasSecoesLidas).toBe(false);
+    const completas = getRequiredSectionsForSubmodule(sub);
+    expect(calculateSubmoduleStatus(sub, completas, respostas).todasSecoesLidas).toBe(true);
+  });
+  it('não conclui a aula após responder somente um checkpoint', () => {
+    const completas = getRequiredSectionsForSubmodule(sub);
+    const estado = calculateSubmoduleStatus(sub, completas, {[sub.checkpoints[0].id]: sub.checkpoints[0].gabarito});
+    expect(estado.todasSecoesLidas).toBe(true);
+    expect(estado.status).toBe('em_andamento');
+    expect(estado.checkpointsRespondidosCount).toBe(1);
+  });
+  it('insere checkpoints após o bloco pertinente e registra leitura na versão atual', () => {
+    render(<AulaEmBlocos submodulo={sub} moduloId="m11" />);
+    const unidade = sub.unidadesAprendizagem![0];
+    const secao = document.getElementById(unidade.id)!;
+    expect(within(secao).getByText('Pare e recupere')).toBeTruthy();
+    fireEvent.click(within(secao).getByRole('button', {name: 'Marcar bloco como lido'}));
+    expect(useProgressStore.getState().secoesVisualizadas[sub.id]).toContain(getUnitReadingKey(sub, unidade.id));
+    expect(screen.getAllByRole('navigation', {name: 'Blocos desta aula'})).toHaveLength(1);
+  });
+  it('um atalho num checkpoint não responde os outros itens da aula', async () => {
+    render(<AulaEmBlocos submodulo={sub} moduloId="m11" />);
+    const buttons = screen.getAllByRole('button', {name: /Certo/i});
+    buttons[0].focus();
+    fireEvent.keyDown(buttons[0], {key: 'c'});
+    await vi.waitFor(() => {
+      expect(useProgressStore.getState().itemAttempts.filter(a => a.contexto === 'teoria')).toHaveLength(1);
+    });
+  });
+  it('reteste nos blocos oculta resposta antiga, mostra novo feedback e permite outra rodada', async () => {
+    const id = sub.unidadesAprendizagem![0].checkpointIds[0];
+    const cp = sub.checkpoints.find(c => c.id === id)!;
+    await useProgressStore.getState().adicionarItemAttempt({
+      itemId: id, submoduloId: sub.numero, moduloId: 'm11', contexto: 'teoria',
+      resposta: cp.gabarito === 'C' ? 'E' : 'C', gabarito: cp.gabarito,
+    });
+    render(<AulaEmBlocos submodulo={sub} moduloId="m11" forcarRetesteAtivo />);
+    const secao = document.getElementById(sub.unidadesAprendizagem![0].id)!;
+    expect(within(secao).queryByText(cp.justificativa)).toBeNull();
+    fireEvent.click(within(secao).getByRole('button', {name: cp.gabarito === 'C'
+      ? 'Julgar assertiva como Certo (Atalho C)' : 'Julgar assertiva como Errado (Atalho E)'}));
+    await vi.waitFor(() => expect(within(secao).getByText(cp.justificativa)).toBeTruthy());
+    expect(useProgressStore.getState().itemAttempts.filter(a => a.item_id === id)).toHaveLength(2);
+    fireEvent.click(within(secao).getByRole('button', {name: 'Praticar'}));
+    await vi.waitFor(() => expect(within(secao).queryByText(cp.justificativa)).toBeNull());
+    fireEvent.click(within(secao).getByRole('button', {name: 'Julgar assertiva como Certo (Atalho C)'}));
+    await vi.waitFor(() => expect(within(secao).getByRole('button', {name: 'Praticar novamente'})).toBeTruthy());
+    expect(useProgressStore.getState().itemAttempts.filter(a => a.item_id === id)).toHaveLength(3);
+  });
+});

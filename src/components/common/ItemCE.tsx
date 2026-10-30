@@ -1,5 +1,5 @@
 import { PainelEstudoReverso } from './PainelEstudoReverso';
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   CheckCircle2,
@@ -45,6 +45,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   onAnswered,
   forcarRetesteAtivo = false,
 }) => {
+  const articleRef = useRef<HTMLElement>(null);
   const {
     obterPrimeiraTentativa,
     obterUltimaTentativa,
@@ -67,7 +68,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
       ? {
           resposta: respostaPratica,
           correto: respostaPratica === item.gabarito,
-          tentativa_n: (ultimaTentativa?.tentativa_n || 1) + 1,
+          tentativa_n: ultimaTentativa?.tentativa_n || 1,
         }
       : null
     : ultimaTentativa || primeiraTentativa;
@@ -78,7 +79,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
 
   const handleJulgamento = useCallback(
     async (resposta: 'C' | 'E' | 'BRANCO') => {
-      if (isRespondido && !modoPraticaAtivo && !deveIniciarLimpo) return;
+      if (isRespondido) return;
 
       const subId = item.submoduloId || '1.1';
       const modId = item.moduloId || 'm1';
@@ -92,7 +93,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
         gabarito: item.gabarito,
       });
 
-      if (modoPraticaAtivo) {
+      if (modoPraticaAtivo || deveIniciarLimpo) {
         setRespostaPratica(resposta);
       }
 
@@ -117,6 +118,8 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   // Atalhos de teclado (C, E, B) desativados se focado em campos de texto (WCAG 2.1.4)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      // Vários microcheckpoints podem coexistir na aula. Só o item com foco responde.
+      if (!articleRef.current?.contains(document.activeElement)) return;
       const activeTag = document.activeElement?.tagName.toLowerCase();
       if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') {
         return;
@@ -162,6 +165,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
 
   return (
     <article
+      ref={articleRef}
       className="p-4 sm:p-5 rounded-xl border border-border bg-surface shadow-editorial-xs space-y-4 transition-all"
       aria-labelledby={`item-titulo-${item.id}`}
     >
@@ -205,15 +209,15 @@ export const ItemCE: React.FC<ItemCEProps> = ({
                 Prática (Tentativa {attemptAtual?.tentativa_n})
               </span>
             )}
-            {!modoPraticaAtivo && (
+            {isRespondido && (
               <button
                 type="button"
                 onClick={handleIniciarPratica}
                 className="text-xs font-semibold text-ink-2 hover:text-ink flex items-center gap-1 cursor-pointer transition-colors"
-                title="Refazer como prática (não altera a nota do portão)"
+                title="Responder novamente e registrar uma nova tentativa"
               >
                 <RotateCcw className="w-3 h-3" />
-                <span>Praticar</span>
+                <span>{modoPraticaAtivo ? 'Praticar novamente' : 'Praticar'}</span>
               </button>
             )}
           </div>
@@ -230,7 +234,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
         <button
           type="button"
           onClick={() => handleJulgamento('C')}
-          disabled={isRespondido && !modoPraticaAtivo}
+          disabled={isRespondido}
           className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer ${
             respostaDada === 'C'
               ? isCorreto
@@ -252,7 +256,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
         <button
           type="button"
           onClick={() => handleJulgamento('E')}
-          disabled={isRespondido && !modoPraticaAtivo}
+          disabled={isRespondido}
           className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer ${
             respostaDada === 'E'
               ? isCorreto
@@ -275,7 +279,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
           <button
             type="button"
             onClick={() => handleJulgamento('BRANCO')}
-            disabled={isRespondido && !modoPraticaAtivo}
+            disabled={isRespondido}
             className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-semibold transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer ${
               respostaDada === 'BRANCO'
                 ? 'bg-ink text-surface shadow-xs'

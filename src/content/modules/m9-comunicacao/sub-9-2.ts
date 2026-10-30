@@ -14,282 +14,271 @@ export const submodulo92: ModuloFilho = {
   ],
   titulo: 'Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR',
   antesDeLer: [
-    {
-      termo: 'Acesso Aberto (Open Access)',
-      definicao: 'Movimento global que defende o acesso digital gratuito, público e sem barreiras de licenciamento a publicações científicas financiadas com fundos públicos.',
-      exemploBiblioteca: 'A política de acesso aberto da Câmara que disponibiliza 100% da produção bibliográfica institucional sem custos para a sociedade.',
-    },
-    {
-      termo: 'Vias Verde, Dourada e Diamante',
-      definicao: 'Verde: autoarquivamento em repositórios; Dourada: periódicos com taxas (APCs); Diamante: periódicos gratuitos para autores e leitores.',
-      exemploBiblioteca: 'A revista acadêmica da Câmara operando estritamente na Via Diamante, sem cobrança de taxa de processamento de artigos.',
-    },
-    {
-      termo: 'Princípios FAIR',
-      definicao: 'Diretrizes para que dados e metadados científicos sejam Localizáveis (Findable), Acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable).',
-      exemploBiblioteca: 'Adesão aos princípios FAIR no repositório de dados de votações e emendas orçamentárias da Câmara.',
-    },
-    {
-      termo: 'Declarações de Budapeste, Bethesda e Berlim',
-      definicao: 'Marcos históricos fundacionais do movimento mundial de acesso aberto que definiram seus pilares e diretrizes.',
-      exemploBiblioteca: 'Fundamentação teórica do ato da Mesa Diretora que instituiu o Repositório Digital BDCam em consonância com as declarações internacionais.',
-    },
-  ],
-  descricaoCurta: 'A crise dos periódicos, as 3 declarações fundacionais (Budapest, Bethesda, Berlin), as vias do Acesso Aberto (Dourada, Verde, Diamante, Híbrida e Bronze), licenças Creative Commons e os Princípios FAIR (Findable, Accessible, Interoperable, Reusable).',
-  tempoEstimadoMinutos: 14,
-  autoresChave: ['Peter Suber', 'Stevan Harnad', 'Barend Mons', 'Mark D. Wilkinson', 'John Willinsky', 'Abel Packer (SciELO)'],
+  {
+    "termo": "APC",
+    "definicao": "Taxa de processamento de artigo; sua presença ou ausência não define sozinha abertura ou qualidade.",
+    "exemploBiblioteca": "Uma revista aberta pode ser sustentada pela universidade sem cobrar APC."
+  },
+  {
+    "termo": "FAIR",
+    "definicao": "Princípios para dados e metadados encontráveis, acessíveis, interoperáveis e reutilizáveis.",
+    "exemploBiblioteca": "Dados sensíveis podem ter metadados documentados e acesso condicionado a autorização."
+  }
+],
+  descricaoCurta: "Relacionar acesso e sustentabilidade sem afirmar ausência de custos. Distinguir conteúdo e força institucional das declarações fundacionais. Separar canal de publicação, cobrança e permissões. Interpretar condições e versões de licenças. Aplicar FAIR sem confundir acesso controlado com ausência de conformidade.",
+  tempoEstimadoMinutos: 22,
+  autoresChave: [
+  "BOAI10 — Dez anos depois da Budapest Open Access Initiative",
+  "Declaração de Berlim (2003)",
+  "Wilkinson et al. — FAIR Guiding Principles (2016)",
+  "Bethesda Statement on Open Access Publishing (2003)",
+  "Creative Commons — FAQ"
+],
   alertasCebraspe: [
-    'A tríade dos "Três B\'s" do Acesso Aberto: 1. Declaração de Budapeste (BOAI, 2002); 2. Declaração de Bethesda (2003); e 3. Declaração de Berlim (2003). A Declaração de Budapeste inaugurou o movimento formal e estabeleceu as duas vias complementares da abertura: autoarquivamento em repositórios (Via Verde) e periódicos de acesso aberto (Via Dourada).',
-    'As Vias do Acesso Aberto: Via Dourada (publicação direta em periódicos de acesso aberto, podendo haver cobrança de taxa APC paga pelos autores); Via Verde (autoarquivamento de preprints ou pós-prints em Repositórios Institucionais pelo próprio autor); Via Diamante/Platina (acesso aberto pleno e gratuito tanto para autores quanto para leitores, sem taxa APC, financiado por universidades públicas e agências estatais - modelo hegemônico do SciELO no Brasil).',
-    'Pegadinha recente de altíssima incidência da banca (UNEAL 2026): afirmar que os princípios FAIR exigem que todo dado de pesquisa seja obrigatoriamente público, gratuito e sem qualquer restrição de acesso. ERRADO! O lema orientador do GO FAIR é "tão aberto quanto possível, tão fechado quanto necessário" (dados confidenciais de saúde, patentes ou sigilos governamentais podem ser FAIR e ter acesso controlado sob autenticação estrita).',
-    'Revistas Híbridas: periódicos comerciais fechados por assinatura que cobram APC avulsa para abrir artigos individuais na web (prática abusiva do "double dipping", onde a editora recebe duplamente: pela assinatura institucional paga pelas bibliotecas e pela taxa de processamento paga pelos autores).',
-    'Licenças Creative Commons (CC): a licença mais aberta e amplamente recomendada pela Ciência Aberta é a CC BY (permite reutilização, adaptação e compartilhamento para qualquer finalidade, desde que atribuída a autoria original).',
-  ],
-  quadroComparativo: {
-    titulo: 'As Principais Vias de Publicação do Movimento de Acesso Aberto',
-    colunas: ['Via de Acesso Aberto', 'Canal Principal de Disponibilização', 'Custo para o Leitor', 'Custo para o Autor (Taxa APC)', 'Pegadinha Cebraspe Mapeada'],
-    linhas: [
-      ['Via Verde (*Green Road*)', 'Autoarquivamento em Repositórios Institucionais ou Temáticos', 'Gratuito', 'Zero (gratuito para o autor)', 'Afirmar que a Via Verde é a publicação direta em revistas abertas com taxa paga.'],
-      ['Via Dourada (*Gold Road*)', 'Revistas científicas de acesso aberto pleno na Web', 'Gratuito', 'Variável: frequentemente cobra taxa APC (*Article Processing Charge*)', 'Dizer que na Via Dourada o leitor precisa pagar taxa de download por artigo.'],
-      ['Via Diamante / Platina', 'Revistas de acesso aberto mantidas por universidades públicas e sociedades', 'Gratuito', 'Zero (financiado integralmente por fundos públicos institucionais)', 'Afirmar que a Via Diamante cobra taxas de processamento para acelerar pareceres.'],
-      ['Via Híbrida (*Hybrid Road*)', 'Revistas comerciais por assinatura com artigos individuais liberados', 'Gratuito apenas para o artigo com APC pago', 'Cobra taxa APC elevada do autor, mantendo o restante da revista sob assinatura', 'Ignorar o fenômeno do double dipping (duplo pagamento cobrado pelas editoras comerciais).'],
-      ['Via Bronze (*Bronze Road*)', 'Artigos com acesso livre no site da editora comercial sem licença aberta', 'Gratuito temporariamente', 'Zero', 'Confundir Via Bronze com Acesso Aberto formal (a editora pode fechar o acesso a qualquer instante).'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Crise dos Periódicos e o Nascimento do Acesso Aberto
-
-A partir do final da década de 1970 e ao longo dos anos 1980 e 1990, as bibliotecas universitárias e de pesquisa de todo o planeta foram asfixiadas pelo fenômeno denominado **"Crise dos Periódicos"** (*Serials Crisis*):
-
-* **O Oligopólio Editorial Comercial:** Grandes conglomerados editoriais multinacionais com fins lucrativos (Elsevier, Springer, Wiley, Taylor & Francis) passaram a aplicar reajustes anuais de preços de assinaturas de revistas científicas em índices astronômicos, muito acima das taxas de inflação mundiais.
-* **A Paralisia Orçamentária das Bibliotecas:** Universidades foram forçadas a cancelar milhares de assinaturas de revistas essenciais por falta de verbas.
-* **A Contradição Ética e Financeira:** Gerou-se uma aberração econômica estrutural no ecossistema da ciência:
-  1. A pesquisa científica era financiada com verbas públicas estatais e impostos dos cidadãos;
-  2. Os cientistas realizavam as pesquisas, redigiam os artigos e atuavam como pareceristas (*peer review*) de forma totalmente gratuita para as editoras;
-  3. No entanto, as editoras comerciais apropriavam-se com exclusividade dos direitos patrimoniais de autor (*copyright*) e revendiam o acesso a esses mesmos artigos para as universidades públicas a preços milionários.
-* **A Reação Comunitária:** Pesquisadores, bibliotecários e reitores uniram-se para conceber o **Movimento de Acesso Aberto** (*Open Access Movement*), capitaneado por teóricos como **Peter Suber** (*Open Access*, 2012) e **Stevan Harnad**.
-
----
-
-### 2. As Três Declarações Fundacionais (Os Três "B"s do Acesso Aberto)
-
-O movimento foi consagrado e sistematizado internacionalmente por três declarações seminais sucessivas:
-
-\`\`\`timeline
-BUD | 1. Declaração de Budapeste (BOAI 2002) | Marco Inaugural do Movimento | Fixa a definição universal de Acesso Aberto e consagra as duas vias canônicas: Verde (autoarquivamento) e Dourada (periódicos abertos)
----> Foco nas Ciências Biomédicas e Agências de Fomento
-BETH | 2. Declaração de Bethesda (2003) | Mandato de Depósito em Repositórios | Enfatiza o depósito obrigatório de artigos em repositórios abertos (ex: PubMed Central) como condição de financiamento público
----> Expansão Universal para Todas as Áreas do Conhecimento
-BER | 3. Declaração de Berlim (2003) | Pacto Global Interdisciplinar | Ratificada por governos e academias mundiais (Sociedade Max Planck), estendendo o Acesso Aberto às Artes, Humanidades e Patrimônio
-\`\`\`
-
-1. **Iniciativa de Acesso Aberto de Budapeste (BOAI — *Budapest Open Access Initiative*, 2002):**
-   * Convocada pelo *Open Society Institute*, estabeleceu a definição canônica e universal do termo:
-   * *Definição:* Acesso aberto à literatura científica significa a sua **disponibilização livre e gratuita na Internet pública**, permitindo a qualquer usuário ler, descarregar, copiar, distribuir, imprimir, pesquisar, vincular aos textos completos, indexá-los ou usá-los para qualquer outro fim legítimo, **sem barreiras financeiras, legais ou técnicas**, exigindo apenas a manutenção da integridade do trabalho e o direito dos autores de serem devidamente reconhecidos e citados.
-   * Estabeleceu as **duas estratégias complementares** de efetivação: o autoarquivamento em repositórios (Via Verde) e a publicação em novos periódicos abertos (Via Dourada).
-2. **Declaração de Bethesda sobre Publicação em Acesso Aberto (2003):**
-   * Formulada por pesquisadores, editores e agências de fomento com ênfase no setor biomédico, estipulando que o depósito do texto integral em repositórios digitais abertos (como o PubMed Central) é condição mandatória para concessão de financiamentos de pesquisa.
-3. **Declaração de Berlim sobre o Acesso Aberto ao Conhecimento em Ciências e Humanidades (2003):**
-   * Ratificada pela Sociedade Max Planck e subscrita por centenas de governos, academias de ciências e universidades globais, ampliando expressamente o escopo do acesso aberto para abranger as ciências humanas, sociais, patrimônio cultural e humanidades.
-
----
-
-### 3. A Taxonomia das Vias de Acesso Aberto
-
-* **Via Verde (*Green Open Access* — Autoarquivamento):**
-  * O autor submete e publica seu artigo em uma revista tradicional (mesmo em revistas por assinatura fechada), mas mantém o direito de depositar uma cópia digital da versão aceita pós-revisão (*post-print* ou *accepted manuscript*) ou preprint no **Repositório Institucional** de sua universidade ou em repositórios temáticos.
-  * O acesso é totalmente gratuito para o leitor e tem **custo zero para o autor**. Em alguns casos, as editoras comerciais impõem um período de embargo temporário (de 6 a 12 meses) antes da liberação pública do arquivo.
-* **Via Dourada (*Gold Open Access*):**
-  * Publicação em periódicos científicos eletrônicos em que **a totalidade dos artigos é disponibilizada de forma livre e imediata** no sítio web da revista.
-  * O modelo de sustentação de muitas revistas comerciais baseia-se na cobrança da taxa **APC (*Article Processing Charge*)**, transferindo o custo da assinatura para o bolso do autor ou de sua agência financiadora.
-* **Via Diamante / Platina (*Diamond / Platinum Open Access*):**
-  * **O Modelo Público Ideal:** Periódicos científicos geridos e sustentados por universidades públicas, institutos governamentais ou associações científicas sem fins lucrativos.
-  * **Nem o leitor paga para ler, nem o autor paga taxa APC para publicar.** É o modelo público hegemônico no Brasil e na América Latina, capitaneado pela infraestrutura da rede **SciELO** (*Scientific Electronic Library Online*).
-* **Via Híbrida (*Hybrid Open Access*):**
-  * O periódico comercial permanece sob o modelo fechado de assinaturas pagas, mas oferece aos autores a alternativa de pagarem uma taxa APC avulsa para liberar o seu artigo específico em acesso aberto no portal da revista.
-  * *O Problema do Double Dipping:* A editora comercial recebe duas vezes pela mesma mercadoria: cobra assinaturas milionárias das bibliotecas universitárias e, simultaneamente, cobra taxas APC dos pesquisadores dessas mesmas universidades.
-* **Via Bronze (*Bronze Open Access*):**
-  * O artigo encontra-se disponível gratuitamente para leitura na página da editora comercial, mas **não possui uma licença formal aberta (como Creative Commons)**. A editora pode reinserir o conteúdo sob barreira de pagamento (*paywall*) a qualquer momento.
-
----
-
-### 4. Licenças de Acesso Aberto: O Padrão Creative Commons (CC)
-
-O movimento de Acesso Aberto rejeita o modelo restritivo de *"todos os direitos reservados"*, adotando o princípio de *"alguns direitos reservados"* viabilizado pelas licenças públicas **Creative Commons**:
-* **CC BY (Atribuição):** É a licença mais aberta e a recomendada oficialmente pela Ciência Aberta. Permite que outros distribuam, remixem, adaptem e usem a obra para qualquer finalidade (inclusive comercial), desde que atribuam o devido crédito de autoria ao criador original.
-* **CC BY-SA (Atribuição + CompartilhaIgual):** Permite derivações, desde que licenciadas sob os mesmos termos da licença original.
-* **CC BY-NC (Atribuição + NãoComercial):** Veda a exploração econômica e comercial da obra por terceiros.
-* **CC BY-ND (Atribuição + SemDerivações):** Permite a redistribuição da obra exclusivamente em sua forma original e inalterada.
-
----
-
-### 5. Os Princípios FAIR para Gestão de Dados de Pesquisa
-
-Formulados em 2016 por **Mark D. Wilkinson e Barend Mons** no periódico *Nature Scientific Data*, os princípios **FAIR** constituem as diretrizes globais para a gestão de dados de pesquisa científica na era do *Big Data* e da Ciência Aberta:
-
-* **Findable (Localizável / Encontrável):**
-  * Os dados e metadados devem possuir identificadores persistentes e globais únicos (PIDs, como DOI ou Handle).
-  * Devem ser descritos por metadados ricos e arquivados em repositórios indexados em mecanismos de busca.
-* **Accessible (Acessível):**
-  * Os metadados e os dados devem ser recuperáveis por meio de identificadores através de **protocolos de comunicação padronizados, abertos, gratuitos e universais** (como HTTP/HTTPS).
-  * O protocolo deve permitir autenticação e controle de autorização quando o tipo de dado assim exigir.
-  * Os metadados devem continuar acessíveis mesmo quando o arquivo bruto de dados for arquivado ou retirado.
-* **Interoperable (Interoperável):**
-  * Os dados devem utilizar formatos abertos e **linguagens formais, acessíveis e estruturadas** de representação do conhecimento (ontologias, RDF, esquemas XML ou JSON-LD).
-  * Os vocabulários utilizados devem seguir, eles próprios, os princípios FAIR.
-* **Reusable (Reutilizável):**
-  * Os dados devem conter documentação detalhada sobre sua proveniência e cadeia de custódia (como foram gerados e calibrados).
-  * Devem possuir **licenças de uso claras e transparentes** (ex.: Creative Commons) e atender aos padrões e normas estabelecidos pela comunidade científica da disciplina.
-
-> [!IMPORTANT]
-> **A Pegadinha Mais Cobrada pelo Cebraspe (UNEAL 2026):**
-> Os Princípios FAIR **NÃO são sinônimos de dados 100% públicos e abertos sem controle**. Dados confidenciais de pacientes médicos, segredos militares, patentes de inovação ou investigações judiciais podem ser plenamente compatíveis com os princípios FAIR: seus metadados são localizáveis e interoperáveis, mas o acesso ao dado bruto é estritamente restrito e condicionado à autenticação de usuários credenciados. O princípio orientador é: **"Tão aberto quanto possível, tão fechado quanto necessário"** (*as open as possible, as closed as necessary*).
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Bibliotecas Digitais e DSpace (sub-6-1):** Plataformas de repositório e políticas de autoarquivamento.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-O **Acesso Aberto (*Open Access* - OA)** e os **Princípios FAIR** redefiniram a circulação do conhecimento científico global e das políticas públicas de informação:
-1. **As Declarações Fundacionais do Acesso Aberto (O Trio BBB):**
-   - **Budapest Open Access Initiative (BOAI, 2002):** Marco inaugural que definiu formalmente o acesso aberto: disponibilidade gratuita na internet pública, permitindo a qualquer usuário ler, baixar, copiar, distribuir, imprimir e vincular ao texto completo sem barreiras financeiras, legais ou técnicas, preservando apenas o direito do autor à integridade da obra e ao devido reconhecimento de citação.
-   - **Declaração de Bethesda (2003):** Foco nas ciências biomédicas e depósito imediato em repositórios abertos.
-   - **Declaração de Berlim (2003):** Expansão internacional do compromisso institucional com o acesso aberto.
-2. **As Vias Canônicas do Acesso Aberto:**
-   - **Via Dourada (*Gold Open Access*):** Publicação em periódicos de acesso aberto pleno. O artigo fica imediatamente gratuito na página da revista no momento da publicação (pode ou não envolver taxas de processamento de artigos - APCs).
-   - **Via Verde (*Green Open Access* - Autoarquivamento):** O autor publica em qualquer periódico (mesmo tradicional por assinatura) e deposita uma cópia do manuscrito aceito (*post-print* / *preprint*) em um **Repositório Institucional ou Temático**.
-   - **Via Diamante / Platina (*Diamond OA*):** Periódicos de acesso aberto financiados integralmente por universidades e órgãos públicos onde **nem os leitores pagam para ler, nem os autores pagam APCs para publicar** (ex.: a imensa maioria das revistas do SciELO e da Câmara dos Deputados).
-   - **Via Híbrida:** Periódico comercial por assinatura que cobra taxa extra do autor para liberar acesso aberto individual a um artigo específico (prática duramente criticada pelo duplo pagamento - *double dipping*).
-3. **Princípios FAIR para Gestão de Dados de Pesquisa:**
-   - **Findable (Localizável):** Metadados ricos e identificadores persistentes e universais (DOI, Handle).
-   - **Accessible (Acessível):** Recuperáveis por protocolos de comunicação abertos e padronizados (HTTPS).
-   - **Interoperable (Interoperável):** Vocabulários controlados e esquemas que se comunicam entre sistemas.
-   - **Reusable (Reutilizável):** Licenças de uso claras (Creative Commons) e documentação de proveniência dos dados.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (A BDCam como Expoente da Via Verde de Acesso Aberto):** A Câmara dos Deputados adota política mandatória de acesso aberto: todos os servidores e consultores que publicam artigos em revistas externas autorizam o depósito de uma cópia no repositório institucional da Câmara (BDCam), operando a **Via Verde** para dar retorno imediato ao cidadão que financiou a pesquisa pública.
-- **Cenário 2 (Publicação na Via Diamante pela Revista da Câmara):** A revista técnica editada pela Câmara dos Deputados opera no modelo **Acesso Aberto Diamante**: nenhum cidadão paga assinatura e nenhum pesquisador paga taxa de submissão (APC). Todo o custeio é institucional pelo orçamento público da Casa.
-- **Cenário 3 (Implementação de Princípios FAIR nos Dados das Votações Nominais):** O portal de transparência da Câmara disponibiliza os dados de votação nominal de cada deputado em formato CSV/JSON com documentação de metadados, schemas abertos e licença CC BY, cumprindo integralmente os 4 pilares **FAIR** para reuso por jornalistas de dados e cidadãos.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Via do Acesso Aberto | Onde o Documento é Publicado/Guardado | Quem Paga o Custo Editorial | Taxa de Publicação (APC) |
-| :--- | :--- | :--- | :--- |
-| **Via Dourada (Gold)** | Periódico científico de acesso aberto | Autor, agência ou instituição | Frequente (quando há APC) |
-| **Via Verde (Green)** | Repositório Institucional (Autoarquivamento) | Custeado pelo repositório | **Zero para o autor** |
-| **Via Diamante** | Periódico de acesso aberto institucional | Universidade / Órgão público | **Zero para autor e leitor** |
-| **Via Híbrida** | Periódico comercial fechado | Modelo duplo (*double dipping*) | Altas taxas cobradas do autor |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Via Verde Exige Pagamento de Taxa:** A banca afirma que a via verde de acesso aberto exige o pagamento de elevadas APCs pelo autor. **Gabarito: ERRADO.** A Via Verde baseia-se no **autoarquivamento gratuito** do manuscrito em repositórios institucionais (como o DSpace).
-- **Princípios FAIR como Sinônimo de Acesso 100% Aberto:** O Cebraspe afirma que dados FAIR precisam ser obrigatoriamente abertos a qualquer pessoa sem qualquer restrição de sigilo. **Gabarito: ERRADO.** O princípio internacional preconiza: *"tão aberto quanto possível, tão fechado quanto necessário"*. Dados que contenham segredo de Estado ou privacidade médica podem ser FAIR (ter metadados ricos e interoperáveis), mas com acesso restrito controlado.
-- **Eliminação dos Direitos Autorais no Acesso Aberto:** Afirmar que o Acesso Aberto extingue o direito moral de autor. **Gabarito: ERRADO.** O Acesso Aberto preserva rigorosamente a autoria moral e o direito à citação.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **SUBER, Peter.** *Open Access*. Cambridge, MA: MIT Press, 2012. (A obra de referência mundial sobre os fundamentos do acesso aberto).
-- **BUDAPEST OPEN ACCESS INITIATIVE (BOAI).** *Budapest Open Access Initiative: 20th Anniversary Recommendations*. Budapest: BOAI, 2022.
-- **WILKINSON, Mark D. et al.** The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, v. 3, n. 160018, 2016. (Artigo canônico dos princípios FAIR).
-- **KURAMOTO, Hélio.** Acesso livre à informação científica: rumo à consolidação da ciência aberta. *Liinc em Revista*, v. 4, n. 2, 2008.
-- **BRASIL. CÂMARA DOS DEPUTADOS.** *Política de Acesso Aberto à Produção Intelectual da Câmara dos Deputados*. Ato da Mesa nº 123/2019.`,
+  "Acesso para o leitor e custo de produção são dimensões diferentes.",
+  "A declaração não tem essa força normativa universal.",
+  "Há periódicos abertos sem cobrança ao autor."
+],
+  teoriaDensaMarkdown: "### A Crise dos Periódicos e o Nascimento do Acesso Aberto\n\nA partir do final da década de 1970 e ao longo dos anos 1980 e 1990, as bibliotecas universitárias e de pesquisa de diferentes países enfrentaram pressões orçamentárias pelo fenômeno denominado **\"Crise dos Periódicos\"** (*Serials Crisis*):\n\n* **O Oligopólio Editorial Comercial:** Grandes conglomerados editoriais multinacionais com fins lucrativos (Elsevier, Springer, Wiley, Taylor & Francis) passaram a aplicar reajustes anuais de preços de assinaturas de revistas científicas com aumentos que, em diferentes contextos, superaram a capacidade dos orçamentos.\n* **A Paralisia Orçamentária das Bibliotecas:** Universidades foram forçadas a cancelar milhares de assinaturas de revistas essenciais por falta de verbas.\n* **A Contradição Ética e Financeira:** Gerou-se uma aberração econômica estrutural no ecossistema da ciência:\n  1. A pesquisa científica era financiada com verbas públicas estatais e impostos dos cidadãos;\n  2. Os cientistas realizavam as pesquisas, redigiam os artigos e atuavam como pareceristas (*peer review*) frequentemente sem remuneração específica para as editoras;\n  3. No entanto, as editoras comerciais podiam obter cessão ou licença exclusiva dos direitos patrimoniais, segundo os contratos (*copyright*) e revendiam o acesso a esses mesmos artigos para as universidades públicas a preços milionários.\n* **A Reação Comunitária:** Pesquisadores, bibliotecários e reitores uniram-se para conceber o **Movimento de Acesso Aberto** (*Open Access Movement*), capitaneado por teóricos como **Peter Suber** (*Open Access*, 2012) e **Stevan Harnad**.\n\n---\n\n\n\nAcesso aberto não significa produção sem custo. Diferentes modelos distribuem despesas entre instituições, consórcios, financiadores, autores e outras fontes; a ausência de cobrança ao leitor não comprova ausência de trabalho editorial ou infraestrutura.\n\n**Aplicação e recuperação:** Uma revista não cobra do leitor, mas tem despesas editoriais pagas pela universidade. Gratuito para um público não significa custo inexistente.\n\n### As Três Declarações Fundacionais (Os Três \"B\"s do Acesso Aberto)\n\nO movimento foi consagrado e sistematizado internacionalmente por três declarações seminais sucessivas:\n\n```timeline\nBUD | 1. Declaração de Budapeste (BOAI 2002) | Marco Inaugural do Movimento | Fixa a definição universal de Acesso Aberto e consagra as duas vias canônicas: Verde (autoarquivamento) e Dourada (periódicos abertos)\n---> Foco nas Ciências Biomédicas e Agências de Fomento\nBETH | 2. Declaração de Bethesda (2003) | Definição de contribuição aberta e depósito | Articula permissão de uso e depósito de versão completa em repositório adequado\n---> Expansão Universal para Todas as Áreas do Conhecimento\nBER | 3. Declaração de Berlim (2003) | Pacto Global Interdisciplinar | Ratificada por governos e academias mundiais (Sociedade Max Planck), estendendo o Acesso Aberto às Artes, Humanidades e Patrimônio\n```\n\n1. **Iniciativa de Acesso Aberto de Budapeste (BOAI — *Budapest Open Access Initiative*, 2002):**\n   * Convocada pelo *Open Society Institute*, estabeleceu uma definição fundacional amplamente adotada do termo:\n   * *Definição:* Acesso aberto à literatura científica significa a sua **disponibilização livre e gratuita na Internet pública**, permitindo a qualquer usuário ler, descarregar, copiar, distribuir, imprimir, pesquisar, vincular aos textos completos, indexá-los ou usá-los para qualquer outro fim legítimo, **sem barreiras financeiras, legais ou técnicas**, exigindo apenas a manutenção da integridade do trabalho e o direito dos autores de serem devidamente reconhecidos e citados.\n   * Estabeleceu as **duas estratégias complementares** de efetivação: o autoarquivamento em repositórios (Via Verde) e a publicação em novos periódicos abertos (Via Dourada).\n2. **Declaração de Bethesda sobre Publicação em Acesso Aberto (2003):**\n   * Propõe duas condições para uma publicação aberta: concessão de direitos de acesso e reutilização com atribuição e depósito da versão completa, materiais suplementares e permissão em repositório apropriado, imediatamente na publicação inicial. A declaração não é, por si, lei universal que vincule todo financiamento público.\n3. **Declaração de Berlim sobre o Acesso Aberto ao Conhecimento em Ciências e Humanidades (2003):**\n   * Promovida no contexto da Sociedade Max Planck e subscrita por instituições, ampliando expressamente o escopo do acesso aberto para abranger as ciências humanas, sociais, patrimônio cultural e humanidades.\n\n**Aplicação e recuperação:** Uma declaração define condições desejadas; um financiador pode adotá-las em política própria. São atos diferentes.\n\n### A Taxonomia das Vias de Acesso Aberto\n\n* **Via Verde (*Green Open Access* — Autoarquivamento):**\n  * O autor submete e publica seu artigo em uma revista tradicional (mesmo em revistas por assinatura fechada), e pode depositar, conforme direitos, licença e política aplicáveis, uma cópia digital da versão aceita pós-revisão (*post-print* ou *accepted manuscript*) ou preprint no **Repositório Institucional** de sua universidade ou em repositórios temáticos.\n  * O acesso é totalmente gratuito para o leitor e não implica necessariamente uma taxa de publicação para depositar, embora repositórios e serviços tenham custos. Em alguns casos, as editoras comerciais impõem um período de embargo temporário (com duração dependente da política aplicável) antes da liberação pública do arquivo.\n* **Via Dourada (*Gold Open Access*):**\n  * Publicação em periódicos científicos eletrônicos em que **a totalidade dos artigos é disponibilizada de forma livre e imediata** no sítio web da revista.\n  * O modelo de sustentação de muitas revistas comerciais baseia-se na cobrança da taxa **APC (*Article Processing Charge*)**, transferindo o custo da assinatura para o bolso do autor ou de sua agência financiadora.\n* **Via Diamante / Platina (*Diamond / Platinum Open Access*):**\n  * **Modelo sem taxas de publicação e leitura:** Periódicos científicos geridos e sustentados por universidades públicas, institutos governamentais ou associações científicas sem fins lucrativos.\n  * **Nem o leitor paga para ler, nem o autor paga taxa APC para publicar.** Há muitos exemplos na América Latina. Não se deve classificar todo periódico SciELO como diamante sem verificar se cobra APC ou outras taxas de publicação.\n* **Via Híbrida (*Hybrid Open Access*):**\n  * O periódico comercial permanece sob o modelo fechado de assinaturas pagas, mas oferece aos autores a alternativa de pagarem uma taxa APC avulsa para liberar o seu artigo específico em acesso aberto no portal da revista.\n  * *O Problema do Double Dipping:* Pode haver dupla cobrança quando assinatura e APC cobrem sobrepostamente o mesmo conteúdo; acordos e compensações precisam ser examinados, sem presumir que toda revista híbrida opera do mesmo modo.\n* **Via Bronze (*Bronze Open Access*):**\n  * O artigo encontra-se disponível gratuitamente para leitura na página da editora comercial, mas **não possui uma licença formal aberta (como Creative Commons)**. A editora pode reinserir o conteúdo sob barreira de pagamento (*paywall*) a qualquer momento.\n\n**Aplicação e recuperação:** Uma revista dourada pode cobrar ou não APC. Uma revista SciELO só é diamante se não cobrar taxas de publicação nem leitura.\n\n### Licenças de Acesso Aberto: O Padrão Creative Commons (CC)\n\nAs seis licenças Creative Commons combinam **BY**, **SA**, **NC** e **ND**. A ferramenta **CC0** é distinta das seis licenças e procura permitir uso sem condições de copyright até o limite legal. Direitos de personalidade, privacidade e outros direitos podem continuar aplicáveis.\n\n| Elemento | Efeito principal na versão 4.0 |\n|---|---|\n| BY | Atribuição adequada, referência à licença e indicação de alterações nos termos exigidos. |\n| SA | Compartilhamento de adaptações sob a mesma licença ou licença compatível permitida. |\n| NC | Uso não predominantemente dirigido a vantagem comercial ou compensação monetária. Não depende apenas de o usuário ser empresa ou entidade sem fins lucrativos. |\n| ND | Não permite compartilhar material adaptado sob a licença. Na 4.0, produzir adaptação sem compartilhá-la é situação distinta. |\n\nCC BY permite uso comercial e adaptações com as condições da licença. CC BY-ND também permite compartilhar o original comercialmente; a restrição ND não equivale a NC. Nem toda licença CC satisfaz a definição mais ampla de abertura: NC e ND limitam reutilizações. Confira versão, termos legais e a titularidade de quem licencia. A licença não cria direitos que o licenciante não possua.\n\n**Aplicação e recuperação:** Publicar uma tradução é compartilhar uma adaptação. Verifique ND, versão e eventual autorização adicional.\n\n### Os Princípios FAIR para Gestão de Dados de Pesquisa\n\nFormulados em 2016 por **Wilkinson e colaboradores** no periódico *Nature Scientific Data*, os princípios **FAIR** constituem as diretrizes globais para a gestão de dados de pesquisa científica na era do *Big Data* e da Ciência Aberta:\n\n* **Findable (Localizável / Encontrável):**\n  * Os dados e metadados devem possuir identificadores persistentes e globais únicos (PIDs, como DOI ou Handle).\n  * Devem ser descritos por metadados ricos e arquivados em repositórios indexados em mecanismos de busca.\n* **Accessible (Acessível):**\n  * Os metadados e os dados devem ser recuperáveis por meio de identificadores através de **protocolos de comunicação padronizados, abertos, gratuitos e universais** (como HTTP/HTTPS).\n  * O protocolo deve permitir autenticação e controle de autorização quando o tipo de dado assim exigir.\n  * Os metadados devem continuar acessíveis mesmo quando o arquivo bruto de dados for arquivado ou retirado.\n* **Interoperable (Interoperável):**\n  * Dados e metadados devem empregar linguagem formal, acessível, compartilhada e amplamente aplicável à representação de conhecimento, vocabulários também FAIR e referências qualificadas a outros dados/metadados. Uma extensão XML ou JSON-LD, sozinha, não comprova interoperabilidade semântica.\n  * Os vocabulários utilizados devem seguir, eles próprios, os princípios FAIR.\n* **Reusable (Reutilizável):**\n  * Os dados devem conter documentação detalhada sobre sua proveniência e cadeia de custódia (como foram gerados e calibrados).\n  * Devem possuir **licenças de uso claras e transparentes** (ex.: Creative Commons) e atender aos padrões e normas estabelecidos pela comunidade científica da disciplina.\n\n> [!IMPORTANT]\n> **Contraste autoral para julgamento:**\n> Os Princípios FAIR **NÃO são sinônimos de dados 100% públicos e abertos sem controle**. Dados confidenciais de pacientes médicos, segredos militares, patentes de inovação ou investigações judiciais podem ser geridos segundo FAIR, dependendo das condições efetivamente implementadas: seus metadados são localizáveis e interoperáveis, mas o acesso ao dado bruto é estritamente restrito e condicionado à autenticação de usuários credenciados. O princípio orientador é: **\"Tão aberto quanto possível, tão fechado quanto necessário\"** (*as open as possible, as closed as necessary*).\n\n---\n\n\nFAIR não é selo binário de qualidade científica, autenticidade ou ausência de viés. O artigo de 2016 enfatiza processamento por pessoas e máquinas. Licença clara pode definir acesso e uso restritos justificadamente; o princípio A1.2 admite autenticação e autorização, e A2 prevê metadados acessíveis mesmo quando os dados não estão mais disponíveis.\n\n**Aplicação e recuperação:** Um conjunto sensível pode exigir credenciamento e ainda adotar FAIR. Metadados e política de acesso precisam ser efetivamente documentados.",
+  teoriaDidaticaMarkdown: "Verde é depósito; dourada é publicação aberta no veículo. APC não define toda via dourada, e SciELO não equivale automaticamente a diamante. Declarações não são leis universais de financiamento. CC depende de condições e versão; ND e NC são distintas. FAIR trata localização, acesso, interoperabilidade e reúso, admitindo autenticação e autorização.",
   checkpoints: [
-    {
-      id: 'cp-9-2-1',
-      pergunta: 'Micro-Checkpoint 1: Os Princípios FAIR e a Abertura de Dados',
-      item: 'Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser compulsoriamente aberto, gratuito e disponibilizado sem qualquer tipo de restrição de acesso ou necessidade de autenticação.',
-      gabarito: 'E',
-      justificativa: 'Errado! O Cebraspe cobrou esse item na UNEAL 2026. Os princípios FAIR orientam que os dados sejam "tão abertos quanto possível, tão fechados quanto necessário", permitindo controle de acesso e autenticação para dados sigilosos ou sensíveis.',
-    },
-    {
-      id: 'cp-9-2-2',
-      pergunta: 'Micro-Checkpoint 2: As Vias Verde e Dourada do Acesso Aberto',
-      item: 'A Via Verde do acesso aberto caracteriza-se pela publicação direta em revistas científicas de acesso irrestrito mediante pagamento de APC, enquanto a Via Dourada baseia-se no autoarquivamento de artigos em repositórios institucionais.',
-      gabarito: 'E',
-      justificativa: 'Errado! O item inverteu as definições: a Via Dourada é a publicação direta em periódicos abertos; a Via Verde é o autoarquivamento em repositórios institucionais.',
-    },
-    {
-      id: 'cp-9-2-3',
-      pergunta: 'Micro-Checkpoint 3: Lei de Lotka sobre Produtividade de Autores',
-      item: 'A Lei do Quadrado Inverso de Lotka demonstra que a proporção de autores que publicam apenas um único trabalho em um determinado campo científico é de aproximadamente 60% do total de autores.',
-      gabarito: 'C',
-      justificativa: 'Certo! Alfred J. Lotka (1926) calculou que o número de pesquisadores que escrevem "n" artigos é aproximadamente 1/n² daqueles que escrevem um único artigo, resultando em cerca de 60% de autores com apenas uma publicação.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-9-2-1',
-        periodo: '2002',
-        disciplina: 'Marco do Acesso Aberto',
-        focoPrincipal: 'Declaração da Iniciativa de Acesso Aberto de Budapeste (BOAI) e definição das Vias Verde e Dourada',
-        figuraChave: 'Open Society Institute / Peter Suber',
-      },
-      {
-        id: 'tl-9-2-2',
-        periodo: '2003',
-        disciplina: 'Bethesda e Berlim',
-        focoPrincipal: 'Expansão do pacto de Acesso Aberto para a pesquisa biomédica e para todas as áreas do conhecimento',
-        figuraChave: 'Max Planck Society e Howard Hughes Medical Institute',
-      },
-      {
-        id: 'tl-9-2-3',
-        periodo: '2016',
-        disciplina: 'Princípios FAIR',
-        focoPrincipal: 'Publicação dos Princípios FAIR para gestão de dados de pesquisa científica na Nature (Wilkinson et al.)',
-        figuraChave: 'Barend Mons e Mark Wilkinson',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-9-2-1',
-        nome: 'Peter Suber',
-        ano: 2002,
-        obraPrincipal: 'Open Access',
-        ideiaChave: 'Líder intelectual da BOAI; o acesso aberto remove barreiras de preço (assinaturas) e barreiras de permissão (direitos).',
-        chipPegadinha: 'Acesso Aberto não viola direitos autorais; apoia-se no consentimento formal do autor com licenças CC.',
-      },
-      {
-        id: 'aut-9-2-2',
-        nome: 'Barend Mons',
-        ano: 2016,
-        obraPrincipal: 'The FAIR Guiding Principles for scientific data management and stewardship',
-        ideiaChave: 'Criador do acrônimo FAIR: Localizável, Acessível, Interoperável e Reutilizável por humanos e máquinas.',
-        chipPegadinha: 'FAIR é sobre governança de dados e metadados legíveis por máquina, não significa necessariamente dado 100% público.',
-      },
-      {
-        id: 'aut-9-2-3',
-        nome: 'Abel Packer',
-        ano: 1998,
-        obraPrincipal: 'SciELO: Uma Metodologia para Publicação Eletrônica Cooperativa',
-        ideiaChave: 'Pioneirismo mundial na criação da rede SciELO como infraestrutura de Acesso Aberto Diamante público na América Latina.',
-        chipPegadinha: 'SciELO é modelo de Via Diamante sem cobrança de taxas de autores e sustentado por fundos de pesquisa públicos.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-9-2-1',
-        afirmacao: 'Na publicação por via diamante de acesso aberto, os custos de processamento de artigos (APC) são repassados integralmente aos autores ou às suas instituições de pesquisa.',
-        gabarito: 'E',
-        porQue: 'A Via Diamante/Platina NÃO cobra taxas de ninguém: nem de leitores, nem de autores. É subsidiada por instituições públicas (como a rede SciELO).',
-      },
-      {
-        id: 'peg-9-2-2',
-        afirmacao: 'O movimento do Acesso Aberto defende a extinção dos direitos autorais morais do pesquisador sobre suas descobertas.',
-        gabarito: 'E',
-        porQue: 'O direito moral de autoria (ser reconhecido e citado como autor) é inalienável e permanentemente protegido no Acesso Aberto.',
-      },
-      {
-        id: 'peg-9-2-3',
-        afirmacao: 'Para que um repositório de dados de pesquisa atenda aos Princípios FAIR, é mandatório que todos os arquivos brutos sejam disponibilizados na Internet sem qualquer procedimento de controle de acesso ou autenticação.',
-        gabarito: 'E',
-        porQue: 'Cobrada na UNEAL 2026! O princípio FAIR prevê protocolos abertos que suportem autenticação e autorização para dados sensíveis ou protegidos por sigilo.',
-      },
-    ],
+  {
+    "id": "cp-9-2-1",
+    "pergunta": "Micro-Checkpoint 1: Os Princípios FAIR e a Abertura de Dados",
+    "item": "Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser compulsoriamente aberto, gratuito e disponibilizado sem qualquer tipo de restrição de acesso ou necessidade de autenticação.",
+    "gabarito": "E",
+    "justificativa": "Errado! O Cebraspe cobrou esse item na UNEAL 2026. Os princípios FAIR orientam que os dados sejam \"tão abertos quanto possível, tão fechados quanto necessário\", permitindo controle de acesso e autenticação para dados sigilosos ou sensíveis.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
+    "versao_correta": "FAIR admite acesso controlado e não define, sozinho, a cientificidade do dado."
   },
+  {
+    "id": "cp-9-2-2",
+    "pergunta": "Micro-Checkpoint 2: As Vias Verde e Dourada do Acesso Aberto",
+    "item": "A Via Verde do acesso aberto caracteriza-se pela publicação direta em revistas científicas de acesso irrestrito mediante pagamento de APC, enquanto a Via Dourada baseia-se no autoarquivamento de artigos em repositórios institucionais.",
+    "gabarito": "E",
+    "justificativa": "Errado! O item inverteu as definições: a Via Dourada é a publicação direta em periódicos abertos; a Via Verde é o autoarquivamento em repositórios institucionais.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
+    "versao_correta": "Verde envolve repositórios; dourada envolve publicação aberta no veículo e não exige APC."
+  },
+  {
+    "id": "cp-9-2-3",
+    "pergunta": "Micro-Checkpoint 3: Lei de Lotka sobre Produtividade de Autores",
+    "item": "Uma revista científica pode publicar todos os artigos em acesso aberto sem cobrar taxa de processamento aos autores, sustentando-se por financiamento institucional.",
+    "gabarito": "C",
+    "justificativa": "Certo. Publicação aberta e cobrança de APC não são equivalentes. Custos existem, mas podem ser cobertos por instituições ou outros arranjos. O item foi alinhado ao tema desta aula.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA."
+  },
+  {
+    "id": "rt-9-2-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Acesso aberto significa que produzir e manter a publicação não envolve custos.",
+    "gabarito": "E",
+    "justificativa": "Acesso para o leitor e custo de produção são dimensões diferentes.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
+    "editalRef": "Bloco E - Item 1.6 e Bloco D - Item 4.9",
+    "habilidade": "aplicar",
+    "versao_correta": "Modelos de financiamento sustentam a produção e a infraestrutura."
+  },
+  {
+    "id": "rt-9-2-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A declaração de Bethesda, por si só, cria uma obrigação legal para qualquer agência pública de financiamento no mundo.",
+    "gabarito": "E",
+    "justificativa": "A declaração não tem essa força normativa universal.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
+    "editalRef": "Bloco E - Item 1.6 e Bloco D - Item 4.9",
+    "habilidade": "aplicar",
+    "versao_correta": "Mandatos concretos dependem das políticas e normas aplicáveis."
+  },
+  {
+    "id": "rt-9-2-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A via dourada exige necessariamente pagamento de APC pelo autor.",
+    "gabarito": "E",
+    "justificativa": "Há periódicos abertos sem cobrança ao autor.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
+    "editalRef": "Bloco E - Item 1.6 e Bloco D - Item 4.9",
+    "habilidade": "aplicar",
+    "versao_correta": "A via dourada se refere à publicação aberta no periódico, não a um modelo único de cobrança."
+  },
+  {
+    "id": "rt-9-2-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No CC 4.0, ND impede compartilhar uma adaptação sob a licença, sem equivaler a proibição de todo uso comercial do original.",
+    "gabarito": "C",
+    "justificativa": "ND e NC são condições diferentes, com termos e versões próprios.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
+    "editalRef": "Bloco E - Item 1.6 e Bloco D - Item 4.9",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-9-2-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "FAIR admite procedimentos de autenticação e autorização quando necessários.",
+    "gabarito": "C",
+    "justificativa": "A1.2 prevê explicitamente essa possibilidade; abertura irrestrita não é requisito universal.",
+    "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
+    "editalRef": "Bloco E - Item 1.6 e Bloco D - Item 4.9",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-9-2-fonte-12a6635027ef",
+      "nome": "BOAI10 — Dez anos depois da Budapest Open Access Initiative",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "BOAI10 — Dez anos depois da Budapest Open Access Initiative",
+      "ideiaChave": "Estratégias verde e dourada, custos e definição de acesso aberto.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-9-2-fonte-64ef9a453267",
+      "nome": "Declaração de Berlim (2003)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Declaração de Berlim (2003)",
+      "ideiaChave": "Condições de permissão e depósito para contribuições abertas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-9-2-fonte-c6f6ed654557",
+      "nome": "Wilkinson et al. — FAIR Guiding Principles (2016)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Wilkinson et al. — FAIR Guiding Principles (2016)",
+      "ideiaChave": "Box 2, especialmente A1.2, A2, I1–I3 e R1.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-9-2-fonte-bethesda",
+      "nome": "Bethesda Statement on Open Access Publishing (2003)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Bethesda Statement on Open Access Publishing (2003)",
+      "ideiaChave": "Duas condições de publicação aberta; não equivale a lei universal de financiamento.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-9-2-fonte-cc",
+      "nome": "Creative Commons — FAQ",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Creative Commons — FAQ",
+      "ideiaChave": "Versões, NC, ND e compatibilidade de SA.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-9-2-3",
+      "afirmacao": "A via dourada exige necessariamente pagamento de APC pelo autor.",
+      "gabarito": "E",
+      "porQue": "Há periódicos abertos sem cobrança ao autor."
+    },
+    {
+      "id": "memoria-rt-9-2-4",
+      "afirmacao": "No CC 4.0, ND impede compartilhar uma adaptação sob a licença, sem equivaler a proibição de todo uso comercial do original.",
+      "gabarito": "C",
+      "porQue": "ND e NC são condições diferentes, com termos e versões próprios."
+    },
+    {
+      "id": "memoria-rt-9-2-5",
+      "afirmacao": "FAIR admite procedimentos de autenticação e autorização quando necessários.",
+      "gabarito": "C",
+      "porQue": "A1.2 prevê explicitamente essa possibilidade; abertura irrestrita não é requisito universal."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-9-2-bloco-1",
+    "titulo": "A Crise dos Periódicos e o Nascimento do Acesso Aberto",
+    "objetivos": [
+      "Relacionar acesso e sustentabilidade sem afirmar ausência de custos."
+    ],
+    "conteudo": "A partir do final da década de 1970 e ao longo dos anos 1980 e 1990, as bibliotecas universitárias e de pesquisa de diferentes países enfrentaram pressões orçamentárias pelo fenômeno denominado **\"Crise dos Periódicos\"** (*Serials Crisis*):\n\n* **O Oligopólio Editorial Comercial:** Grandes conglomerados editoriais multinacionais com fins lucrativos (Elsevier, Springer, Wiley, Taylor & Francis) passaram a aplicar reajustes anuais de preços de assinaturas de revistas científicas com aumentos que, em diferentes contextos, superaram a capacidade dos orçamentos.\n* **A Paralisia Orçamentária das Bibliotecas:** Universidades foram forçadas a cancelar milhares de assinaturas de revistas essenciais por falta de verbas.\n* **A Contradição Ética e Financeira:** Gerou-se uma aberração econômica estrutural no ecossistema da ciência:\n  1. A pesquisa científica era financiada com verbas públicas estatais e impostos dos cidadãos;\n  2. Os cientistas realizavam as pesquisas, redigiam os artigos e atuavam como pareceristas (*peer review*) frequentemente sem remuneração específica para as editoras;\n  3. No entanto, as editoras comerciais podiam obter cessão ou licença exclusiva dos direitos patrimoniais, segundo os contratos (*copyright*) e revendiam o acesso a esses mesmos artigos para as universidades públicas a preços milionários.\n* **A Reação Comunitária:** Pesquisadores, bibliotecários e reitores uniram-se para conceber o **Movimento de Acesso Aberto** (*Open Access Movement*), capitaneado por teóricos como **Peter Suber** (*Open Access*, 2012) e **Stevan Harnad**.\n\n---\n\n\n\nAcesso aberto não significa produção sem custo. Diferentes modelos distribuem despesas entre instituições, consórcios, financiadores, autores e outras fontes; a ausência de cobrança ao leitor não comprova ausência de trabalho editorial ou infraestrutura.\n\n**Aplicação e recuperação:** Uma revista não cobra do leitor, mas tem despesas editoriais pagas pela universidade. Gratuito para um público não significa custo inexistente.",
+    "checkpointIds": [
+      "rt-9-2-1"
+    ]
+  },
+  {
+    "id": "sub-9-2-bloco-2",
+    "titulo": "As Três Declarações Fundacionais (Os Três \"B\"s do Acesso Aberto)",
+    "objetivos": [
+      "Distinguir conteúdo e força institucional das declarações fundacionais."
+    ],
+    "conteudo": "O movimento foi consagrado e sistematizado internacionalmente por três declarações seminais sucessivas:\n\n```timeline\nBUD | 1. Declaração de Budapeste (BOAI 2002) | Marco Inaugural do Movimento | Fixa a definição universal de Acesso Aberto e consagra as duas vias canônicas: Verde (autoarquivamento) e Dourada (periódicos abertos)\n---> Foco nas Ciências Biomédicas e Agências de Fomento\nBETH | 2. Declaração de Bethesda (2003) | Definição de contribuição aberta e depósito | Articula permissão de uso e depósito de versão completa em repositório adequado\n---> Expansão Universal para Todas as Áreas do Conhecimento\nBER | 3. Declaração de Berlim (2003) | Pacto Global Interdisciplinar | Ratificada por governos e academias mundiais (Sociedade Max Planck), estendendo o Acesso Aberto às Artes, Humanidades e Patrimônio\n```\n\n1. **Iniciativa de Acesso Aberto de Budapeste (BOAI — *Budapest Open Access Initiative*, 2002):**\n   * Convocada pelo *Open Society Institute*, estabeleceu uma definição fundacional amplamente adotada do termo:\n   * *Definição:* Acesso aberto à literatura científica significa a sua **disponibilização livre e gratuita na Internet pública**, permitindo a qualquer usuário ler, descarregar, copiar, distribuir, imprimir, pesquisar, vincular aos textos completos, indexá-los ou usá-los para qualquer outro fim legítimo, **sem barreiras financeiras, legais ou técnicas**, exigindo apenas a manutenção da integridade do trabalho e o direito dos autores de serem devidamente reconhecidos e citados.\n   * Estabeleceu as **duas estratégias complementares** de efetivação: o autoarquivamento em repositórios (Via Verde) e a publicação em novos periódicos abertos (Via Dourada).\n2. **Declaração de Bethesda sobre Publicação em Acesso Aberto (2003):**\n   * Propõe duas condições para uma publicação aberta: concessão de direitos de acesso e reutilização com atribuição e depósito da versão completa, materiais suplementares e permissão em repositório apropriado, imediatamente na publicação inicial. A declaração não é, por si, lei universal que vincule todo financiamento público.\n3. **Declaração de Berlim sobre o Acesso Aberto ao Conhecimento em Ciências e Humanidades (2003):**\n   * Promovida no contexto da Sociedade Max Planck e subscrita por instituições, ampliando expressamente o escopo do acesso aberto para abranger as ciências humanas, sociais, patrimônio cultural e humanidades.\n\n**Aplicação e recuperação:** Uma declaração define condições desejadas; um financiador pode adotá-las em política própria. São atos diferentes.",
+    "checkpointIds": [
+      "rt-9-2-2"
+    ]
+  },
+  {
+    "id": "sub-9-2-bloco-3",
+    "titulo": "A Taxonomia das Vias de Acesso Aberto",
+    "objetivos": [
+      "Separar canal de publicação, cobrança e permissões."
+    ],
+    "conteudo": "* **Via Verde (*Green Open Access* — Autoarquivamento):**\n  * O autor submete e publica seu artigo em uma revista tradicional (mesmo em revistas por assinatura fechada), e pode depositar, conforme direitos, licença e política aplicáveis, uma cópia digital da versão aceita pós-revisão (*post-print* ou *accepted manuscript*) ou preprint no **Repositório Institucional** de sua universidade ou em repositórios temáticos.\n  * O acesso é totalmente gratuito para o leitor e não implica necessariamente uma taxa de publicação para depositar, embora repositórios e serviços tenham custos. Em alguns casos, as editoras comerciais impõem um período de embargo temporário (com duração dependente da política aplicável) antes da liberação pública do arquivo.\n* **Via Dourada (*Gold Open Access*):**\n  * Publicação em periódicos científicos eletrônicos em que **a totalidade dos artigos é disponibilizada de forma livre e imediata** no sítio web da revista.\n  * O modelo de sustentação de muitas revistas comerciais baseia-se na cobrança da taxa **APC (*Article Processing Charge*)**, transferindo o custo da assinatura para o bolso do autor ou de sua agência financiadora.\n* **Via Diamante / Platina (*Diamond / Platinum Open Access*):**\n  * **Modelo sem taxas de publicação e leitura:** Periódicos científicos geridos e sustentados por universidades públicas, institutos governamentais ou associações científicas sem fins lucrativos.\n  * **Nem o leitor paga para ler, nem o autor paga taxa APC para publicar.** Há muitos exemplos na América Latina. Não se deve classificar todo periódico SciELO como diamante sem verificar se cobra APC ou outras taxas de publicação.\n* **Via Híbrida (*Hybrid Open Access*):**\n  * O periódico comercial permanece sob o modelo fechado de assinaturas pagas, mas oferece aos autores a alternativa de pagarem uma taxa APC avulsa para liberar o seu artigo específico em acesso aberto no portal da revista.\n  * *O Problema do Double Dipping:* Pode haver dupla cobrança quando assinatura e APC cobrem sobrepostamente o mesmo conteúdo; acordos e compensações precisam ser examinados, sem presumir que toda revista híbrida opera do mesmo modo.\n* **Via Bronze (*Bronze Open Access*):**\n  * O artigo encontra-se disponível gratuitamente para leitura na página da editora comercial, mas **não possui uma licença formal aberta (como Creative Commons)**. A editora pode reinserir o conteúdo sob barreira de pagamento (*paywall*) a qualquer momento.\n\n**Aplicação e recuperação:** Uma revista dourada pode cobrar ou não APC. Uma revista SciELO só é diamante se não cobrar taxas de publicação nem leitura.",
+    "checkpointIds": [
+      "cp-9-2-2",
+      "cp-9-2-3",
+      "rt-9-2-3"
+    ]
+  },
+  {
+    "id": "sub-9-2-bloco-4",
+    "titulo": "Licenças de Acesso Aberto: O Padrão Creative Commons (CC)",
+    "objetivos": [
+      "Interpretar condições e versões de licenças."
+    ],
+    "conteudo": "As seis licenças Creative Commons combinam **BY**, **SA**, **NC** e **ND**. A ferramenta **CC0** é distinta das seis licenças e procura permitir uso sem condições de copyright até o limite legal. Direitos de personalidade, privacidade e outros direitos podem continuar aplicáveis.\n\n| Elemento | Efeito principal na versão 4.0 |\n|---|---|\n| BY | Atribuição adequada, referência à licença e indicação de alterações nos termos exigidos. |\n| SA | Compartilhamento de adaptações sob a mesma licença ou licença compatível permitida. |\n| NC | Uso não predominantemente dirigido a vantagem comercial ou compensação monetária. Não depende apenas de o usuário ser empresa ou entidade sem fins lucrativos. |\n| ND | Não permite compartilhar material adaptado sob a licença. Na 4.0, produzir adaptação sem compartilhá-la é situação distinta. |\n\nCC BY permite uso comercial e adaptações com as condições da licença. CC BY-ND também permite compartilhar o original comercialmente; a restrição ND não equivale a NC. Nem toda licença CC satisfaz a definição mais ampla de abertura: NC e ND limitam reutilizações. Confira versão, termos legais e a titularidade de quem licencia. A licença não cria direitos que o licenciante não possua.\n\n**Aplicação e recuperação:** Publicar uma tradução é compartilhar uma adaptação. Verifique ND, versão e eventual autorização adicional.",
+    "checkpointIds": [
+      "rt-9-2-4"
+    ]
+  },
+  {
+    "id": "sub-9-2-bloco-5",
+    "titulo": "Os Princípios FAIR para Gestão de Dados de Pesquisa",
+    "objetivos": [
+      "Aplicar FAIR sem confundir acesso controlado com ausência de conformidade."
+    ],
+    "conteudo": "Formulados em 2016 por **Wilkinson e colaboradores** no periódico *Nature Scientific Data*, os princípios **FAIR** constituem as diretrizes globais para a gestão de dados de pesquisa científica na era do *Big Data* e da Ciência Aberta:\n\n* **Findable (Localizável / Encontrável):**\n  * Os dados e metadados devem possuir identificadores persistentes e globais únicos (PIDs, como DOI ou Handle).\n  * Devem ser descritos por metadados ricos e arquivados em repositórios indexados em mecanismos de busca.\n* **Accessible (Acessível):**\n  * Os metadados e os dados devem ser recuperáveis por meio de identificadores através de **protocolos de comunicação padronizados, abertos, gratuitos e universais** (como HTTP/HTTPS).\n  * O protocolo deve permitir autenticação e controle de autorização quando o tipo de dado assim exigir.\n  * Os metadados devem continuar acessíveis mesmo quando o arquivo bruto de dados for arquivado ou retirado.\n* **Interoperable (Interoperável):**\n  * Dados e metadados devem empregar linguagem formal, acessível, compartilhada e amplamente aplicável à representação de conhecimento, vocabulários também FAIR e referências qualificadas a outros dados/metadados. Uma extensão XML ou JSON-LD, sozinha, não comprova interoperabilidade semântica.\n  * Os vocabulários utilizados devem seguir, eles próprios, os princípios FAIR.\n* **Reusable (Reutilizável):**\n  * Os dados devem conter documentação detalhada sobre sua proveniência e cadeia de custódia (como foram gerados e calibrados).\n  * Devem possuir **licenças de uso claras e transparentes** (ex.: Creative Commons) e atender aos padrões e normas estabelecidos pela comunidade científica da disciplina.\n\n> [!IMPORTANT]\n> **Contraste autoral para julgamento:**\n> Os Princípios FAIR **NÃO são sinônimos de dados 100% públicos e abertos sem controle**. Dados confidenciais de pacientes médicos, segredos militares, patentes de inovação ou investigações judiciais podem ser geridos segundo FAIR, dependendo das condições efetivamente implementadas: seus metadados são localizáveis e interoperáveis, mas o acesso ao dado bruto é estritamente restrito e condicionado à autenticação de usuários credenciados. O princípio orientador é: **\"Tão aberto quanto possível, tão fechado quanto necessário\"** (*as open as possible, as closed as necessary*).\n\n---\n\n\nFAIR não é selo binário de qualidade científica, autenticidade ou ausência de viés. O artigo de 2016 enfatiza processamento por pessoas e máquinas. Licença clara pode definir acesso e uso restritos justificadamente; o princípio A1.2 admite autenticação e autorização, e A2 prevê metadados acessíveis mesmo quando os dados não estão mais disponíveis.\n\n**Aplicação e recuperação:** Um conjunto sensível pode exigir credenciamento e ainda adotar FAIR. Metadados e política de acesso precisam ser efetivamente documentados.",
+    "checkpointIds": [
+      "cp-9-2-1",
+      "rt-9-2-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "12a6635027ef",
+    "titulo": "BOAI10 — Dez anos depois da Budapest Open Access Initiative",
+    "localizador": "Estratégias verde e dourada, custos e definição de acesso aberto.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Comunica%C3%A7%C3%A3o%20cient%C3%ADfica%2C%20Ci%C3%AAncia%20Aberta%20e%20m%C3%A9tricas/BOAI10%20Portuguese%20Translation%20%E2%80%93%20Budapest%20Open%20Access%20Initiative.pdf"
+  },
+  {
+    "id": "64ef9a453267",
+    "titulo": "Declaração de Berlim (2003)",
+    "localizador": "Condições de permissão e depósito para contribuições abertas.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Comunica%C3%A7%C3%A3o%20cient%C3%ADfica%2C%20Ci%C3%AAncia%20Aberta%20e%20m%C3%A9tricas/BerlinDeclaration_pt.pdf"
+  },
+  {
+    "id": "c6f6ed654557",
+    "titulo": "Wilkinson et al. — FAIR Guiding Principles (2016)",
+    "localizador": "Box 2, especialmente A1.2, A2, I1–I3 e R1.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Comunica%C3%A7%C3%A3o%20cient%C3%ADfica%2C%20Ci%C3%AAncia%20Aberta%20e%20m%C3%A9tricas/sdata201618.pdf"
+  },
+  {
+    "id": "bethesda",
+    "titulo": "Bethesda Statement on Open Access Publishing (2003)",
+    "localizador": "Duas condições de publicação aberta; não equivale a lei universal de financiamento.",
+    "url": "https://legacy.earlham.edu/~peters/fos/bethesda.htm"
+  },
+  {
+    "id": "cc",
+    "titulo": "Creative Commons — FAQ",
+    "localizador": "Versões, NC, ND e compatibilidade de SA.",
+    "url": "https://creativecommons.org/faq/"
+  }
+],
 };

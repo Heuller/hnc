@@ -1,0 +1,192 @@
+{
+  "id": "sub-1-5",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-1-5-bloco-1",
+      "titulo": "O Ciclo de Vida da Informação: Perspectiva Gerencial e Sistêmica",
+      "objetivos": [
+        "Relacionar processos do ciclo e autoria do modelo sem enumerações intercambiáveis."
+      ],
+      "conteudo": "A compreensão da informação como fluxo dinâmico exige o rompimento com visões estáticas ou exclusivamente tecnicistas. Na Ciência da Informação e na Administração, múltiplos teóricos formularam modelos conceituais para mapear o **ciclo de vida da informação** (*information lifecycle*).\n\n```timeline\n1. NECESSIDADE | Identificação das Necessidades | Mapeamento dos requisitos informacionais dos usuários e tomadores de decisão\n---> Prospecção e Coleta\n2. AQUISIÇÃO | Aquisição / Coleta | Obtenção de dados e documentos de fontes internas ou externas qualificadas\n---> Tratamento Técnico\n3. ORGANIZAÇÃO | Organização e Armazenamento | Classificação, indexação, catalogação, modelagem e preservação em repositórios\n---> Agregação de Valor\n4. PRODUTOS | Desenvolvimento de Produtos e Serviços | Criação de relatórios analíticos, bases de dados, dossiês e boletins temáticos\n---> Comunicação Estratégica\n5. DISTRIBUIÇÃO | Distribuição e Disseminação | Entrega tempestiva da informação no canal, suporte e formato adequados ao usuário\n---> Apropriação Cognitiva\n6. USO | Uso e Avaliação | Aplicação prática na tomada de decisão legislativa, com retroalimentação contínua\n```\n\n#### A. Processos gerenciais: síntese de aplicação\nO roteiro a seguir explica funções de um fluxo gerencial. Não se deve apresentá-lo como enumeração literal de seis etapas de McGee e Prusak sem conferir sua formulação própria. O ciclo de seis processos de **Choo** aparece no PDF do projeto, pp. 403–404:\n1. **Identificação de Necessidades:** Diagnóstico contínuo do que a organização e seus membros realmente necessitam para operar estrategicamente. Em um parlamento, traduz-se no mapeamento das demandas informacionais de deputados, comissões técnicas e cidadãos.\n2. **Aquisição:** Obtenção ativa dos dados e documentos relevantes a partir de fontes internas e externas, selecionando materiais de autoridade e confiabilidade.\n3. **Organização e Armazenamento:** Tratamento documental clássico e tecnológico (estruturação, catalogação, indexação, armazenamento seguro e controle terminológico) para viabilizar a recuperação posterior.\n4. **Desenvolvimento de Produtos e Serviços:** Etapa de agregação de valor intelectual, transformando dados brutos em produtos acabados (dossiês legislativos, notas técnicas, resumos informativos, bases analíticas).\n5. **Distribuição:** Disseminação ativa ou passiva, buscando entregar no momento e formato pertinentes. Canal de distribuição não garante ausência de ruído ou sobrecarga; é preciso avaliar o uso (*information overload*).\n6. **Uso:** A aplicação da informação na tomada de decisão, formulação de políticas públicas ou produção de novas proposições legislativas. O uso encerra o ciclo e imediatamente gera **retroalimentação** (*feedback*), identificando novas carências informacionais.\n\n#### B. O Ciclo de Gestão da Informação de Chun Wei Choo (2006)\nEm *A Organização do Conhecimento* (visto em detalhe no submódulo 5.4), **Chun Wei Choo** articula o ciclo de gerenciamento da informação a partir de um processo contínuo de seis etapas interdependentes integradas à tomada de decisão e à aprendizagem organizacional:\n* Identificação de necessidades de informação;\n* Aquisição de informação;\n* Organização e armazenamento da informação;\n* Desenvolvimento de produtos e serviços de informação;\n* Distribuição de informação;\n* Uso da informação.\n\n> [!IMPORTANT]\n> **Atenção Doutrinária para o Cebraspe:** A doutrina contemporânea enfatiza que **não há consenso absoluto** sobre o número e a nomenclatura exata das etapas do ciclo de vida da informação. Há modelos de 4, 5, 6 ou mais etapas. O que a banca Cebraspe avalia é a **lógica holística de fluxo contínuo, a interdependência funcional entre as fases e a consideração de retroalimentação nos modelos em que ela é prevista**, rejeitando concepções lineares que tratem o ciclo como um processo rígido que se encerra sem gerar novos insumos.\n\n**Aplicação e recuperação:** Um relatório foi entregue, mas usuários não compreendem suas categorias. O fluxo não se encerra na distribuição: investigar uso pode levar a revisar produto e necessidades. Isso não prova que todo autor enumere exatamente as mesmas seis etapas.",
+      "checkpointIds": [
+        "cp-1-5-2",
+        "rt-1-5-1"
+      ]
+    },
+    {
+      "id": "sub-1-5-bloco-2",
+      "titulo": "Qualidade da Informação: O Modelo de Wang & Strong (1996) e os Atributos do Edital",
+      "objetivos": [
+        "Separar qualidade, autenticidade, integridade e adequação à tarefa."
+      ],
+      "conteudo": "O edital nº 1/2026 exige a apreensão de **qualidade, confiabilidade, autenticidade, integridade, disponibilidade e acessibilidade da informação** (item 1.8 do Bloco A). A abordagem seminal de mensuração da qualidade de dados e informação é o modelo multidimensional de **Richard Y. Wang e Diane M. Strong (1996)** (*Beyond Accuracy: What Data Quality Means to Data Consumers*).\n\nWang e Strong demonstraram empiricamente que a qualidade da informação não se resume à \"exatidão\" (*accuracy*), mas deve ser avaliada a partir da perspectiva do consumidor da informação em **quatro categorias fundamentais e 15 dimensões**:\n\n| Categoria de Qualidade (Wang & Strong, 1996) | Definição Teórica da Categoria | Dimensões Operacionais Componentes | Relação de aplicação, sem equivalência literal |\n| :--- | :--- | :--- | :--- |\n| **1. Qualidade Intrínseca** (*Intrinsic Data Quality*) | Dimensões inerentes aos dados em si, independentemente do contexto de uso pelo consumidor. | • **Exatidão** (*Accuracy*): dados corretos e verossímeis.<br>• **Objetividade** (*Objectivity*): isenção de vieses tendenciosos.<br>• **Credibilidade / Veracidade** (*Believability*): dado crível.<br>• **Reputação** (*Reputation*): prestígio e autoridade da fonte. | Reputação e credibilidade não certificam autoria ou verdade de todo dado. Autenticidade exige evidências próprias. |\n| **2. Qualidade Contextual** (*Contextual Data Quality*) | Qualidade que depende diretamente da tarefa e do contexto em que a informação é aplicada. | • **Relevância** (*Relevancy*): pertinência ao problema em análise.<br>• **Valor Agregado** (*Value-added*): vantagem competitiva/cognitiva gerada.<br>• **Atualidade / Tempestividade** (*Timeliness*): disponibilidade no momento certo.<br>• **Completude** (*Completeness*): abrangência sem lacunas críticas.<br>• **Quantidade Apropriada** (*Appropriate Amount*): volume ideal, sem omissão ou sobrecarga. | **Disponibilidade e Confiabilidade:** Informação tempestiva, abrangente e suficiente para embasar pareceres e votos. |\n| **3. Qualidade Representacional** (*Representational Data Quality*) | Qualidade relacionada à forma, formato, legibilidade e codificação dos dados no sistema. | • **Interpretabilidade** (*Interpretability*): símbolos claros e inequívocos.<br>• **Facilidade de Compreensão** (*Ease of understanding*): linguagem clara.<br>• **Consistência Representacional** (*Representational consistency*): padronização de formatos.<br>• **Concisão** (*Concise representation*): ausência de redundâncias prolixas. | Representação clara ajuda o uso, mas não comprova ausência de alteração não autorizada. |\n| **4. Qualidade de Acessibilidade** (*Accessibility Data Quality*) | Qualidade vinculada à facilidade de obtenção e às salvaguardas de proteção dos dados. | • **Acesso / Acessibilidade** (*Accessibility*): facilidade de recuperação e desobstrução técnica.<br>• **Segurança de Acesso** (*Access security*): controle de privilégios e proteção contra acessos indevidos. | **Acessibilidade, Disponibilidade e Integridade:** Diretrizes da LAI (Lei 12.527/2011), dados abertos e segurança da informação. |\n\n#### Distinção Crítica dos Atributos do Edital (Item 1.8):\n* **Autenticidade:** refere-se à identidade/autoria/proveniência conforme o referencial adotado. Na LAI, relaciona-se à informação produzida, expedida, recebida ou modificada por determinado indivíduo, equipamento ou sistema. Documento autêntico pode conter erro factual; autenticidade não é sinônimo de verdade.\n* **Integridade:** refere-se à manutenção das características e à proteção contra alteração indevida segundo o contexto. Alteração autorizada e documentada não é automaticamente fraude; a LAI considera inclusive origem, trânsito e destino. Hash auxilia fixidez binária, sem certificar sozinho a identidade do autor.\n* **Confiabilidade:** Capacidade de a informação servir como testemunho fidedigno e base segura para a tomada de decisões, decorrente de sua completude formal, rigor metodológico e competência da autoridade emissora.\n* **Disponibilidade:** Propriedade pela qual a informação está pronta para ser acessada e utilizada pelos indivíduos ou sistemas autorizados no momento exato em que for requerida.\n* **Acessibilidade:** Condição de facilidade, transparência e redução de barreiras físicas, digitais e linguísticas, observadas condições de acesso e direitos; pode permitir aos usuários (inclusive pessoas com deficiência) consultar e compreender o conteúdo informacional.\n\n**Aplicação e recuperação:** A planilha veio do órgão correto e seu hash foi mantido, mas o valor original estava errado. Há indícios de autenticidade/fixidez, sem acurácia factual garantida. Corrigir o valor com autorização e histórico pode melhorar a qualidade, sem ser adulteração clandestina.",
+      "checkpointIds": [
+        "cp-1-5-1",
+        "rt-1-5-2"
+      ]
+    },
+    {
+      "id": "sub-1-5-bloco-3",
+      "titulo": "Informação Estruturada, Semiestruturada e Não Estruturada",
+      "objetivos": [
+        "Classificar representação segundo o nível analisado, sem receitas por extensão."
+      ],
+      "conteudo": "O edital exige a distinção das formas de organização da informação (item 1.4 do Bloco A). Essa classificação depende do nível de representação examinado e ajuda a escolher as técnicas de indexação, armazenamento em bancos de dados e ferramentas de inteligência artificial aplicáveis:\n\n#### A. Informação Estruturada\n* **Conceito:** Dados representados segundo esquema explícito, tipos e relações definidos. Tabelas relacionais são exemplo, não local exclusivo de dados estruturados; campo de texto não precisa ter tamanho fixo.\n* **No universo bibliográfico:** Um registro no padrão **MARC 21**, onde cada campo de três dígitos possui significado unívoco (campo 100 para autor pessoal, 245 para título, 260/264 para publicação) e subcampos delimitados pelo delimitador subcampo (`$a`, `$b`, `$c`).\n* **Em cenário legislativo hipotético:** tabelas de proposições e votações com campos definidos; não se certifica aqui a arquitetura interna de um sistema real.\n* **Vantagens e Limitações:** Esquema e restrições favorecem certas validações e consultas; desempenho e custo de evolução dependem de projeto e implementação, sem rigidez extrema universal.\n\n#### B. Informação Semiestruturada\n* **Conceito:** Dados que não residem em tabelas relacionais fixas, mas contêm marcadores, rótulos (*tags*) ou esquemas hierárquicos autodescritivos (*self-describing*) que separam elementos de conteúdo e estabelecem relações hierárquicas.\n* **No universo bibliográfico:** Registros em **XML**, **JSON**, esquemas de metadados **Dublin Core** ou ontologias codificadas em **RDF/OWL**. XML/JSON podem adotar esquemas estritos ou flexíveis. Dublin Core é vocabulário/conjunto de termos, não sintaxe de arquivo; RDF é modelo de grafo. Repetição ou ausência pode violar um esquema/perfil: a extensão ou serialização não dispensa as restrições.\n* **No universo da Câmara:** Os documentos legislativos estruturados sob a linguagem de marcação XML do **LexML Brasil** (onde artigos, parágrafos, incisos e alíneas são delimitados por tags semânticas formais).\n* **Vantagens e Limitações:** Flexibilidade para intercâmbio de dados entre sistemas heterogêneos; exige parsers dedicados e consultas mais complexas (como XPath, XQuery ou SPARQL).\n\n#### C. Informação Não Estruturada\n* **Conceito:** Conteúdo que, para o processamento em questão, não está organizado em campos semânticos previamente modelados. Um texto possui organização linguística e o arquivo possui estrutura técnica; “não estruturado” não significa ausência de toda estrutura. São compostas predominantemente por linguagem natural humana em texto corrido, ou arquivos multimídia binários (imagens rasterizadas, áudio, vídeo).\n* **No universo bibliográfico:** O conteúdo textual integral de uma monografia em PDF, artigos de periódicos digitalizados sem metadados estruturados, ou coleções iconográficas e sonoras históricas.\n* **No universo da Câmara:** O texto narrativo de discursos proferidos em plenário, o PDF escaneado de um parecer de comissão antigo sem reconhecimento óptico de caracteres (OCR), gravações das transmissões da TV Câmara.\n* **Vantagens e Limitações:** O volume varia conforme organização e método; não há percentual universal demonstrado nesta aula. Recuperação pode usar busca lexical, indexação humana ou outras técnicas, além de PLN/vetores. **LLM ou RAG não é requisito para toda recuperação de texto.**\n\n**Aplicação e recuperação:** Um JSON passa no parser, mas omite campo obrigatório de um esquema específico. Sintaxe JSON válida e conformidade ao esquema não são a mesma verificação. Um PDF pode conter texto, tabela e imagem: o nível analisado importa mais que sua extensão.",
+      "checkpointIds": [
+        "cp-1-5-3",
+        "rt-1-5-3",
+        "rt-1-5-4"
+      ]
+    },
+    {
+      "id": "sub-1-5-bloco-4",
+      "titulo": "Memória Institucional, Patrimônio Documental e o Centro de Documentação e Informação (Cedi)",
+      "objetivos": [
+        "Articular memória, gestão, preservação e acesso com contexto e direitos."
+      ],
+      "conteudo": "A **memória institucional** constitui a totalidade dos registros materiais, cognitivos e culturais que documentam as origens, o desenvolvimento, os debates políticos e as decisões tomadas por uma organização ao longo de sua existência.\n\nNa Câmara dos Deputados, biblioteca, arquivo, preservação de conteúdos, museu e publicações contribuem para memória e acesso com atribuições específicas. A estrutura e os nomes das unidades devem ser conferidos em atos e fontes institucionais vigentes. Não se deve inventar “Coordenação de Museu e Memória” ou subordinação a uma “Diretoria Técnico-Documental” atual a partir de rótulos genéricos.\n\nA Portaria-DG 65/2023 é referência identificada para inventário do patrimônio informacional e responsabilidades. Estudar memória exige distinguir **produção/acumulação de registros**, **seleção e gestão documental**, **preservação** e **acesso**. Nem toda informação permanece disponível a todos irrestritamente: existem condições legais de sigilo, proteção de dados, direitos e conservação.\n\nMemória não se reduz a armazenamento de tudo. Avaliação documental, contexto, proveniência e critérios de seleção influem no que se mantém e em como pode ser interpretado. Digitalizar amplia possibilidades de acesso, mas não elimina a necessidade de manter o original quando pertinente, nem garante preservação do arquivo digital. OAIS e metadados apoiam gestão; não são selo automático de repositório infalível.\n\n**Aplicação:** um fundo arquivístico não deve perder sua relação com a atividade que o produziu só para parecer uma coleção temática de biblioteca. Uma exposição pode reorganizar a apresentação sem autorizar apagar proveniência nos registros de controle. O acesso público ganha qualidade quando permite compreender origem, seleção, contexto e limites do documento.\n\n**Aplicação e recuperação:** Uma digitalização está íntegra, mas perdeu a identificação da série e do processo de origem. O arquivo pode continuar legível e ainda ser mais difícil de interpretar como evidência. Recuperar contexto e registrar decisões integra a gestão da memória.",
+      "checkpointIds": [
+        "rt-1-5-5",
+        "rt-1-5-6"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "Choo descreve seis processos correlatos; outros modelos exigem consulta própria. Qualidade não se reduz a exatidão e não equivale a autenticidade ou integridade. Uma fonte autêntica pode errar. Sintaxe de JSON/XML não garante esquema; texto livre não é ausência de toda organização. Memória requer contexto, gestão e preservação; repositório não assegura acesso e validade futuros sozinho.",
+  "fontesTeoria": [
+    {
+      "id": "choo",
+      "titulo": "Chun Wei Choo — A organização do conhecimento",
+      "localizador": "PDF do projeto, pp. 403–404: seis processos correlatos; não atribuir automaticamente a mesma enumeração a McGee e Prusak.",
+      "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Gest%C3%A3o%20e%20Cole%C3%A7%C3%B5es/choo-chun-wei-a-organizac3a7c3a3o-do-conhecimento.pdf"
+    },
+    {
+      "id": "qualidade",
+      "titulo": "Wang e Strong — Beyond Accuracy (1996)",
+      "localizador": "Quatro categorias e quinze dimensões; não é tabela de equivalência literal com conceitos legais.",
+      "url": "https://web.mit.edu/tdqm/www/tdqmpub/beyondaccuracy_files/beyondaccuracy.html"
+    },
+    {
+      "id": "lai",
+      "titulo": "Lei 12.527/2011 — LAI",
+      "localizador": "Art. 4º: conceitos legais de disponibilidade, autenticidade, integridade e primariedade.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
+    },
+    {
+      "id": "memoria",
+      "titulo": "Câmara — Portaria-DG 65/2023",
+      "localizador": "Inventário de conteúdos e responsabilidades; não substituir por organograma inventado.",
+      "url": "https://www2.camara.leg.br/legin/int/portar/2023/portaria-65-21-marco-2023-793916-norma-cd-dg.html"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-1-5-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A enumeração de seis processos de Choo permite atribuir literalmente a mesma lista a todo modelo de gestão da informação.",
+      "gabarito": "E",
+      "justificativa": "Modelos têm formulações próprias; o texto de Choo não comprova uma lista literal de outro autor.",
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "editalRef": "Bloco A - Item 1.2, 1.7 e 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Conferir etapas e referência específica de cada modelo."
+    },
+    {
+      "id": "rt-1-5-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um documento autêntico pode conter dado factual incorreto.",
+      "gabarito": "C",
+      "justificativa": "Autoria/proveniência e acurácia são dimensões distintas.",
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "editalRef": "Bloco A - Item 1.2, 1.7 e 1.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-1-5-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Todo JSON válido sintaticamente atende necessariamente ao esquema ou perfil de aplicação escolhido.",
+      "gabarito": "E",
+      "justificativa": "O esquema pode impor campos, tipos e cardinalidades adicionais.",
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "editalRef": "Bloco A - Item 1.2, 1.7 e 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Sintaxe válida não garante conformidade a todo esquema."
+    },
+    {
+      "id": "rt-1-5-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Um texto chamado não estruturado pode ter organização linguística e estar em arquivo com estrutura técnica definida.",
+      "gabarito": "C",
+      "justificativa": "A classificação se refere ao processamento/representação considerado.",
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "editalRef": "Bloco A - Item 1.2, 1.7 e 1.8",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-1-5-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Estar disponível em repositório garante que um arquivo digital nunca perderá contexto ou se tornará obsoleto.",
+      "gabarito": "E",
+      "justificativa": "Disponibilização não substitui preservação e gestão de contexto.",
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "editalRef": "Bloco A - Item 1.2, 1.7 e 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Manutenção e estratégias de preservação continuam necessárias."
+    },
+    {
+      "id": "rt-1-5-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Preservar memória institucional implica manter qualquer informação sempre acessível irrestritamente a toda pessoa.",
+      "gabarito": "E",
+      "justificativa": "Há critérios de gestão, proteção e acesso definidos por normas e direitos.",
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "editalRef": "Bloco A - Item 1.2, 1.7 e 1.8",
+      "habilidade": "aplicar",
+      "versao_correta": "Preservação e condições de acesso devem ser articuladas."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-1-5-1": {
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "justificativa": "A distinção indicada é pertinente. Não significa que origem autêntica garanta verdade factual nem que toda modificação autorizada seja violação de integridade."
+    },
+    "cp-1-5-2": {
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "justificativa": "Há modelos com etapas e nomenclaturas próprias; a referência indicada no enunciado deve orientar a análise. Não se inventa consenso de uma única lista.",
+      "versao_correta": "Os modelos variam e devem ser interpretados conforme a fonte e a finalidade."
+    },
+    "cp-1-5-3": {
+      "fonte": "Choo, A organização do conhecimento, PDF do projeto, pp. 403–404; Wang e Strong, Beyond Accuracy (1996); LAI, art. 4º; conceitos de representação e preservação; Câmara, fontes institucionais identificadas.",
+      "item": "Considerando o nível da representação semântica, campos/subcampos MARC 21 são estruturados, enquanto texto narrativo livre de um PDF sem marcação semântica pode ser tratado como não estruturado para extração automática de campos.",
+      "justificativa": "A classificação explicita o nível analisado. O arquivo PDF possui estrutura técnica e pode conter objetos diferentes; extensão não decide toda classificação."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Qualidade para uso",
+      "definicao": "Adequação depende de tarefa e dimensões explícitas.",
+      "exemploBiblioteca": "Fonte autêntica pode ter número errado e precisar de correção documentada."
+    },
+    {
+      "termo": "Nível de representação",
+      "definicao": "Forma de estruturação depende da camada examinada.",
+      "exemploBiblioteca": "PDF tem estrutura técnica e pode conter texto livre sem campos semânticos definidos."
+    }
+  ],
+  "autoresChave": [
+    "Chun Wei Choo — A organização do conhecimento",
+    "Wang e Strong — Beyond Accuracy (1996)",
+    "Lei 12.527/2011 — LAI",
+    "Câmara — Portaria-DG 65/2023"
+  ],
+  "descricaoCurta": "Relacionar processos do ciclo e autoria do modelo sem enumerações intercambiáveis. Separar qualidade, autenticidade, integridade e adequação à tarefa. Classificar representação segundo o nível analisado, sem receitas por extensão. Articular memória, gestão, preservação e acesso com contexto e direitos.",
+  "alertasCebraspe": [
+    "Modelos têm formulações próprias; o texto de Choo não comprova uma lista literal de outro autor.",
+    "O esquema pode impor campos, tipos e cardinalidades adicionais.",
+    "Disponibilização não substitui preservação e gestão de contexto."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 25
+}

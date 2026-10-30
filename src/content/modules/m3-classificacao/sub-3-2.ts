@@ -19,302 +19,227 @@ export const submodulo32: ModuloFilho = {
   ],
   titulo: 'Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)',
   antesDeLer: [
-    {
-      termo: 'Classificação Decimal de Direito (CDDir)',
-      definicao: 'Sistema brasileiro especializado desenvolvido por Doris de Queiroz Carvalho e adotado pelas bibliotecas jurídicas para o detalhamento da classe 340.',
-      exemploBiblioteca: 'Classificação temática específica dos tratados de direito tributário e processual na Rede Virtual de Bibliotecas (RVBI).',
-    },
-    {
-      termo: 'Tabela PHA (Paulo Homem de Albuquerque)',
-      definicao: 'Tabela de notação de autor desenvolvida especificamente para a língua portuguesa, concorrente da Cutter-Sanborn em bibliotecas brasileiras.',
-      exemploBiblioteca: 'Atribuição de código alfanumérico para autores nacionais com grafias compostas na Biblioteca da Câmara.',
-    },
-    {
-      termo: 'Número de Chamada',
-      definicao: 'Conjunto alfanumérico composto pela notação de classificação, notação de autor e elementos complementares (ano, volume, exemplar) que localiza a obra.',
-      exemploBiblioteca: 'Etiqueta na lombada: 342.53 C172p 2023 ex. 1, permitindo ao usuário ou atendente retirar o livro exato na estante.',
-    },
-    {
-      termo: 'Doutrina Jurídica',
-      definicao: 'Conjunto de estudos, pareceres e teorias formulados pelos juristas que interpretam as normas legais e orientam a aplicação do direito.',
-      exemploBiblioteca: 'Acervo central da Biblioteca Pedro Aleixo que subsidia pareceres das comissões temáticas da Câmara.',
-    },
-  ],
-  descricaoCurta: 'A Classificação Decimal de Direito de Doris de Queiroz Carvalho (CDDir), classes jurídicas 340 a 349, divisões de forma, a espinha dorsal temática da RVBI e do LexML, e as regras avançadas de Notação de Autor (Cutter-Sanborn e Tabela PHA de Prado).',
-  tempoEstimadoMinutos: 13,
-  autoresChave: ['Doris de Queiroz Carvalho', 'Comissão de Atualização da CDDir / RVBI (Arouck, Jaegger & Pinha)', 'Charles Ammi Cutter', 'Kate Emery Sanborn', 'Heloísa de Almeida Prado'],
+  {
+    "termo": "Sistema e edição",
+    "definicao": "Notações devem ser interpretadas na tabela e versão pertinentes.",
+    "exemploBiblioteca": "O mesmo número pode ter significado diferente em CDD, CDU e CDDir."
+  },
+  {
+    "termo": "Número de chamada",
+    "definicao": "Combinação de elementos para organizar/localizar conforme política.",
+    "exemploBiblioteca": "Arranjo pelo biografado não altera autoria do biógrafo."
+  }
+],
+  descricaoCurta: "Distinguir sistema especializado e regras de catalogação. Validar significado antes de construir notação. Separar assunto, entrada, marca de obra e exemplar. Aplicar a notação à entrada adotada sem universalizar o acesso. Distinguir opção de arranjo e autoria intelectual.",
+  tempoEstimadoMinutos: 17,
+  autoresChave: [
+  "Senado Federal — CDDir: apresentação e vocabulário",
+  "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI",
+  "Doris de Queiroz Carvalho — Classificação Decimal de Direito, 4ª edição (2002)"
+],
   alertasCebraspe: [
-    'A CDDir foi criada pela bibliotecária brasileira Doris de Queiroz Carvalho na década de 1940 para superar a inadequação das classificações gerais (CDD e CDU) ao ordenamento jurídico brasileiro. As tabelas universais foram desenhadas sob a tradição da Common Law anglo-americana, ao passo que o Brasil adota a tradição Romano-Germânica (Civil Law), com codificações e ramificações dogmáticas próprias.',
-    'A CDDir é o padrão classificatório oficial da Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) — adotada pela Biblioteca da Câmara dos Deputados, pelo Senado Federal, pelo STF, pelo STJ e pela PGR —, servindo também como ontologia temática estruturante do Portal LexML Brasil.',
-    'Divisões de Forma na CDDir: são subdivisões decimais (.01 a .09) utilizadas para agrupar obras pelo seu formato de apresentação ou gênero documental (dicionários, códigos comentados, periódicos, projetos de lei, jurisprudência), independentemente do ramo substantivo do Direito.',
-    'Notação de Autor para Entidades com Sigla (ex.: OAB, STF, IBGE, IPEA): Na tabela Cutter-Sanborn, a notação numérica é extraída DIRETAMENTE DAS LETRAS DA SIGLA (ex.: primeira letra maiúscula da sigla seguida do código numérico correspondente às letras da sigla), e NUNCA a partir do nome por extenso do órgão. A técnica de distrator recorrente consiste em afirmar que se deve decodificar a sigla por extenso para aplicar o Cutter: assertiva totalmente ERRADA!',
-    'Notação de Autor em Obras de Entrada por Título (obras com 4 ou mais autores ou anônimas): O código Cutter é extraído da primeira palavra do título (desprezando artigo inicial), e a "workmark" (marca de obra) é a primeira letra minúscula da SEGUNDA palavra do título.',
-    'Notação de Autor em Biografias Individuais: Para que todas as biografias de uma personalidade fiquem agrupadas no mesmo ponto da estante, o número de Cutter é atribuído ao BIOGRAFADO, e a workmark minúscula é a inicial do sobrenome do BIÓGRAFO.',
-  ],
-  quadroComparativo: {
-    titulo: 'Estrutura Completa das Classes Jurídicas da CDDir (Doris de Queiroz Carvalho / RVBI)',
-    colunas: ['Classe CDDir', 'Ramo Jurídico Canônico', 'Conteúdo Doutrinário e Normativo Abrangido', 'Aplicação Prática no Congresso e Tribunais'],
-    linhas: [
-      ['340', 'Direito em Geral e Propedêutica', 'Filosofia e Teoria Geral do Direito, Sociologia Jurídica, Hermenêutica, Enciclopédias e Dicionários Jurídicos', 'Obras de introdução ao estudo do Direito e teoria da norma jurídica'],
-      ['341', 'Direito Internacional', 'Direito Internacional Público e Privado, Tratados, Organizações Internacionais, Direitos Humanos, Direito Humanitário', 'Acordos internacionais apreciados pela Comissão de Relações Exteriores da Câmara'],
-      ['342', 'Direito Constitucional e Administrativo', 'Poder Constituinte, Direitos Fundamentais, Organização do Estado, Processo Legislativo, Atos Administrativos, Licitações, Servidores', 'Projetos de Emenda à Constituição (PECs), regimentos internos e controle de constitucionalidade'],
-      ['343', 'Direito Penal e Criminologia', 'Código Penal, Parte Geral e Especial, Criminologia, Execução Penal, Crimes Hediondos, Direito Penal Econômico', 'Projetos de lei de segurança pública e reformas da legislação penal na CCJC'],
-      ['344', 'Direito do Trabalho e Previdência Social', 'CLT, Relações de Trabalho, Direito Sindical, Seguridade Social, Previdência Pública e Complementar, Acidentes', 'Reformas trabalhistas e previdenciárias em tramitação no Congresso Nacional'],
-      ['345', 'Direito Processual Penal', 'Código de Processo Penal, Inquérito Policial, Ação Penal, Teoria da Prova, Prisão Cautelar, Tribunal do Júri, Recursos Criminais', 'Legislação processual penal e garantias fundamentais da ampla defesa'],
-      ['346', 'Direito Civil', 'Código Civil (Pessoas, Bens, Fatos Jurídicos, Obrigações, Contratos, Direitos Reais, Família, Sucessões, Responsabilidade Civil)', 'Projetos de atualização do Código Civil e direito das famílias'],
-      ['347', 'Direito Empresarial e Processo Civil', 'Código de Processo Civil (CPC), Falência e Recuperação Judicial, Títulos de Crédito, Sociedades Anônimas, Arbitragem', 'Normas sobre mercado de capitais, processo de conhecimento e execução civil'],
-      ['348', 'Leis, Decretos e Jurisprudência', 'Textos legais consolidados, diários oficiais, repertórios de jurisprudência, acórdãos e súmulas de tribunais', 'Bases de jurisprudência do STF, STJ e repositórios da legislação federal'],
-      ['349', 'Ramos Especiais do Direito', 'Direito Ambiental, Direito Tributário e Financeiro, Direito Agrário, Direito Sanitário, Direito Urbanístico, Direito Desportivo', 'Códigos de Defesa do Consumidor, Código Tributário e legislação de zoneamento urbano'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho
-
-A **Classificação Decimal de Direito (CDDir)**, concebida na década de 1940 pela notável bibliotecária jurídica brasileira **Doris de Queiroz Carvalho**, é o mais respeitado e difundido sistema especializado de classificação jurídica do mundo lusófono (disponível no acervo em \`Classificação e indexação/003017427.pdf\`).
-
-#### A. A Inadequação dos Esquemas Universais e a Gênese da CDDir
-Tanto a Classificação Decimal de Dewey (CDD) quanto a Classificação Decimal Universal (CDU) foram arquitetadas nos países centrais sob o prisma do direito anglo-saxônico (*Common Law*), no qual imperam o direito consuetudinário e a força dos precedentes jurisprudenciais judiciais.
-
-O Brasil, em contrapartida, filia-se à tradição romano-germânica (*Civil Law*), caracterizada pela primazia da lei escrita, pela codificação sistemática (Código Civil, Código Penal, CLT, CPC, CPP) e por divisões dogmáticas que não encontravam correspondência harmônica nas tabelas gerais:
-* Na CDD, a classe \`340\` dispersava matérias nucleares da tradição brasileira ou as subordinava a categorias exóticas;
-* Na CDU, a notação para ramificações jurídicas detalhadas resultava em extensas e convolutas fórmulas notacionais com excesso de pontuação.
-
-Para solucionar essa carência técnica, Doris de Queiroz Carvalho elaborou um esquema decimal autóctone, rigorosamente adaptado ao Direito Positivo Brasileiro e ao Direito Comparado.
-
-#### B. As Quatro Edições Históricas e a Atualização pela RVBI
-A evolução da CDDir deu-se ao longo de quatro edições fundamentais:
-1. **1ª Edição (1948):** Publicada no Rio de Janeiro pelo Departamento Administrativo do Serviço Público (DASP).
-2. **2ª Edição (1953):** Revista e substancialmente ampliada, consolidando a estrutura decimal.
-3. **3ª Edição (1977):** Publicada em Brasília pelo Ministério da Justiça.
-4. **4ª Edição (2002):** Conduzida pela *Comissão de Atualização da CDDir da Rede Virtual de Bibliotecas do Congresso Nacional (RVBI)*, integrada pelos bibliotecários Osmar Arouck, Fátima Jaegger e Stelina Pinha.
-
-Atualmente, a CDDir é a ferramenta oficial de catalogação e indexação temática das bibliotecas da **Câmara dos Deputados**, do **Senado Federal**, do **Supremo Tribunal Federal (STF)**, do **Superior Tribunal de Justiça (STJ)**, do **Tribunal Superior do Trabalho (TST)**, do **Tribunal de Contas da União (TCU)** e da **Procuradoria-Geral da República (PGR)**, servindo adicionalmente de ontologia classificatória para o **Portal LexML Brasil**.
-
----
-
-#### C. As Divisões de Forma na CDDir
-À semelhança da CDD e da CDU, a CDDir dispõe de **divisões de forma**, representadas por um ponto seguido de dígitos específicos, cuja função precípua é ordenar os documentos de acordo com a forma bibliográfica ou o gênero documental de sua apresentação:
-
-* \`.01\`: Filosofia, teoria e metodologia do ramo jurídico.
-* \`.02\`: Compêndios, manuais, tratados gerais e roteiros práticos.
-* \`.03\`: Dicionários, enciclopédias, vocabulários e terminologias.
-* \`.04\`: Ensaios, conferências, pareceres e artigos avulsos.
-* \`.05\`: Publicações periódicas, anais e revistas jurídicas especializadas.
-* \`.06\`: Sociedades, associações, congressos, simpósios e encontros jurídicos.
-* \`.07\`: Estudo, ensino e formação profissional jurídica.
-* \`.08\`: Coletâneas de obras de autores individuais.
-* \`.09\`: História do Direito, evolução das instituições e fontes históricas.
-
-*Exemplo Prático de Síntese:*
-* \`342.1\`: Teoria Geral do Estado e Direitos Fundamentais.
-* \`342.103\`: Dicionário de Direitos Fundamentais.
-* \`342.105\`: Revista Periódica sobre Direitos Fundamentais.
-
----
-
-### 2. Notação de Autor: As Tabelas Cutter-Sanborn e PHA
-
-A notação de autor é o código alfanumérico que complementa a notação de classificação, formando com ela a coluna central do **Número de Chamada (*Call Number*)**, cujo objetivo é individualizar o item na estante e garantir a sua guarda em ordem lógica e alfabética contínua.
-
-#### A. A Tabela Cutter-Sanborn de Três Algarismos
-Concebida por Charles Ammi Cutter e ampliada por Kate Emery Sanborn:
-* Estrutura básica: Uma letra maiúscula (primeira letra do sobrenome ou da palavra de entrada) seguida de dois ou três algarismos retirados da tabela alfabética.
-* **A Marca de Obra (*Work Mark*):** Uma letra minúscula correspondente à primeira letra da primeira palavra do título da obra (excluindo-se os artigos definidos e indefinidos).
-  * *Exemplo:* Obra *Teoria Pura do Direito*, de Hans Kelsen (Cutter \`K29\`): o número de Cutter com marca de obra será \`K29t\`.
-  * Se o autor tiver duas obras que começam com a mesma letra (ex.: *Teoria Geral do Estado* e *Teoria Pura do Direito*), a segunda obra recebe duas letras minúsculas extraídas do título: \`K29tg\` e \`K29tp\`.
-
-#### B. A Tabela PHA (Heloísa de Almeida Prado)
-Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
-* Foi estruturada com base na fonética, nos prefixos silábicos e na morfologia da **língua portuguesa**.
-* Elimina o problema da saturação de números de autores idênticos nos sobrenomes mais comuns do Brasil (como Silva, Santos, Souza, Pereira, Oliveira), permitindo uma ordenação homogênea nas bibliotecas nacionais.
-
----
-
-#### C. Casos Especiais Exigidos em Concursos do Cebraspe
-
-1. **Entidades com Entrada por Sigla:**
-   * Quando uma entidade coletiva tem entrada autorizada por sua sigla oficial (ex.: \`IBGE\`, \`IPEA\`, \`OAB\`, \`UNESCO\`), o número de Cutter é retirado **das letras que compõem a sigla**, e NUNCA do nome por extenso do órgão.
-   * *técnica de distrator recorrente:* A técnica de elaboração de itens costuma afirmar que o catalogador deve converter a sigla em nome por extenso (ex.: "Instituto Brasileiro de...") para buscar o Cutter. **ITEM ERRADO.** O Cutter é composto na letra 'I' com as letras 'B', 'G', 'E'.
-
-2. **Entrada Principal por Título (Obras Anônimas ou com 4 ou mais Autores):**
-   * O número de Cutter é gerado a partir da **primeira palavra do título** (desprezando artigo inicial).
-   * A **marca de obra** (*work mark*) passa a ser a primeira letra **minúscula da segunda palavra do título**.
-   * *Exemplo:* Para a obra de 5 autores intitulada *"A modernização do processo legislativo brasileiro"*:
-     * Despreza-se o artigo "A";
-     * A entrada é pela palavra "Modernização" -> Letra \`M\` maiúscula + código numérico de "Modernização" (ex.: \`M689\`);
-     * A marca de obra é a inicial da segunda palavra ("do") -> \`d\`;
-     * Notação final de autor: \`M689d\`.
-
-3. **Biografias Individuais:**
-   * Para assegurar que todos os estudos biográficos sobre uma mesma personalidade fiquem agrupados fisicamente no mesmo ponto da estante, o número de Cutter é gerado sobre o sobrenome do **BIOGRAFADO**.
-   * A marca de obra minúscula é extraída do sobrenome do **BIÓGRAFO**.
-   * *Exemplo:* Uma biografia de Rui Barbosa escrita por Fernando Nagle:
-     * Cutter principal: \`B238\` (Barbosa, Rui);
-     * Marca de obra: \`n\` (Nagle, Fernando);
-     * Notação final: \`B238n\`.
-
----
-
-### 3. Padrões de Cobrança e Armadilhas do Cebraspe em Provas
-
-| Tema de Prova | Como o Cebraspe Tenta Confundir o Candidato | Fundamentação Técnica Oficial (Gabarito) |
-| :--- | :--- | :--- |
-| **Gênese da CDDir** | *"A CDDir foi criada com o propósito de adaptar o direito inglês (Common Law) ao acervo da biblioteca do Senado norte-americano."* | **ERRADO.** A CDDir foi criada pela brasileira Doris de Queiroz Carvalho para adaptar o Direito Positivo Brasileiro e a tradição Romano-Germânica (*Civil Law*). |
-| **Entrada por Sigla no Cutter** | *"Ao classificar uma publicação oficial da OAB, o catalogador deve extrair o código de Cutter do nome por extenso 'Ordem dos Advogados do Brasil'."* | **ERRADO.** Entidades que entram por sigla têm a notação de Cutter extraída **diretamente das letras da própria sigla**. |
-| **Marca de Obra em Entrada por Título** | *"Nas obras com entrada principal pelo título, a marca de obra deve ser a letra minúscula da primeira palavra do título, incluindo os artigos."* | **ERRADO.** Artigos iniciais são sempre desprezados. Quando a entrada é por título, o Cutter vem da 1ª palavra e a marca de obra vem da **2ª palavra**. |
-| **Divisões de Forma da CDDir** | *"As divisões de forma da CDDir são usadas exclusivamente para classificar o teor substantivo de crimes previstos no Código Penal."* | **ERRADO.** As divisões de forma (.01 a .09) representam o **gênero documental** (dicionários, códigos, revistas, jurisprudência), aplicáveis a qualquer ramo jurídico. |
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Classificação Decimal de Dewey (CDD) (sub-3-1):** Uso de tabelas auxiliares e síntese notacional.
-* **Classificação Decimal de Direito (CDDir) (sub-3-3):** Especialização da classe 34 para o ordenamento jurídico brasileiro.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-No âmbito jurídico-legislativo, a **Classificação Decimal de Direito (CDDir)** e as **Notações de Autor** são instrumentos indispensáveis para a precisão técnica do acervo:
-1. **A Classificação Decimal de Direito (CDDir de Doris de Queiroz Carvalho):**
-   - Sistema decimal especializado desenvolvido no Brasil por **Doris de Queiroz Carvalho** (criado originalmente no Ministério da Fazenda em 1948 e adotado pelo STF, Senado e Câmara).
-   - Toma como raiz a classe **34 (Direito)** da CDU e desdobra minuciosamente as ramificações jurídicas nacionais:
-     - \`340\`: Teoria Geral, Filosofia do Direito, Enciclopédia Jurídica.
-     - \`341\`: Direito Internacional (Público e Privado).
-     - \`342\`: Direito Público e Constitucional (Sistemas políticos, processo legislativo).
-     - \`343\`: Direito Penal (Crimes, criminologia, processo penal).
-     - \`344\`: Direito Militar.
-     - \`345\`: Direito Administrativo (Serviços públicos, servidores, licitações).
-     - \`346\`: Direito Econômico e Tributário.
-     - \`347\`: Direito Civil e Comercial / Direito Privado.
-     - \`348\`: Direito Canônico e Eclesiástico.
-     - \`349\`: Ramos Especiais (Direito do Trabalho, Direito Agrário, Direito Ambiental).
-2. **Notação de Autor (Cutter-Sanborn e Tabela PHA):**
-   - **Tabela Cutter-Sanborn:** Letra inicial maiúscula do sobrenome + dois ou três algarismos.
-   - **Tabela PHA (Paula Hawkins de Azevedo):** Criada para superar a limitação da Cutter-Sanborn em nomes de língua portuguesa (com abundância de Silva, Santos, Souza, Oliveira, Pereira).
-   - **Obra-Marca (*Workmark*):** Letra minúscula adicionada ao final da notação de autor correspondente à primeira letra do título da obra (desconsiderando artigo inicial) para diferenciar livros do mesmo autor na mesma classe.
-   - **Edição e Data no Número de Chamada:** Registrados em linhas sucessivas para garantir a ordenação cronológica e evolutiva das edições.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (CDDir na Biblioteca Pedro Aleixo):** Ao dar entrada nas obras clássicas de Direito Constitucional de José Afonso da Silva e Michel Temer, a biblioteca utiliza a CDDir \`342.1\` (Direito Constitucional Brasileiro). A notação Cutter de Silva é \`S586\` e a obra-marca para o livro *Curso de Direito Constitucional Positivo* é \`c\` minúsculo, resultando no número de chamada:
-  \`342.1\` / \`S586c\` / \`45. ed.\` / \`2022\`.
-- **Cenário 2 (Diferenciação PHA em Homônimos):** Em uma biblioteca parlamentar com dezenas de juristas com sobrenome "Oliveira", a Tabela PHA fornece granularidade específica para a antroponímia brasileira, evitando que obras de autores distintos recebam exatamente o mesmo número de chamada.
-- **Cenário 3 (Organização da Coleção Especial de Pareceres da CCJ):** Os pareceres da Comissão de Constituição e Justiça são classificados pela CDDir sob a classe \`342.52\` (Poder Legislativo e Processo de Elaboração das Leis), permitindo que consultores e parlamentares localizem em segundos qualquer precedente normativo nas estantes do CEDI.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Sistema de Classificação / Notação | Autoria / Origem | Foco Principal | Vantagem Competitiva no Concurso |
-| :--- | :--- | :--- | :--- |
-| **CDDir** | Doris de Queiroz Carvalho | Direito e Legislação Brasileira | Granularidade exata para ramos do direito nacional |
-| **Cutter-Sanborn** | C. A. Cutter e Kate Sanborn | Nomes de autores em geral (anglo-saxão) | Padrão mundial mais cobrado em concursos |
-| **Tabela PHA** | Paula Hawkins de Azevedo | Autores luso-brasileiros | Desempate refinado de sobrenomes ibéricos (Silva, Santos) |
-| **Obra-Marca (Workmark)** | Teoria da Notação | Letra minúscula do título | Desempata obras do mesmo autor na mesma classe |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Artigo Inicial na Obra-Marca:** O Cebraspe afirma que a obra-marca do livro *"O Direito Administrativo"* do autor Celso Antônio Bandeira de Mello deve ser a letra \`o\`. **Gabarito: ERRADO.** Artigos iniciais são sumariamente ignorados na composição da obra-marca; a letra correta é \`d\` (de Direito).
-- **Autoria da CDDir:** Atribuir a criação da Classificação Decimal de Direito a Melvil Dewey ou Paul Otlet. **Gabarito: ERRADO.** Trata-se de obra genuinamente brasileira criada pela bibliotecária **Doris de Queiroz Carvalho**.
-- **Maiúscula vs. Minúscula na Notação de Autor:** A letra inicial do sobrenome é sempre **maiúscula** e a obra-marca do título é sempre **minúscula**. A inversão dessas caixas tipográficas constitui erro de notação.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **CARVALHO, Doris de Queiroz.** *Classificação decimal de direito*. 4. ed. Brasília: Ministério da Justiça, 2002. (Tabela canônica adotada pelos tribunais superiores e pelo Congresso Nacional).
-- **SILVEIRA, Amélia.** *A notação de autor e a tabela Cutter-Sanborn*. Florianópolis: Ed. da UFSC, 2002.
-- **AZEVEDO, Paula Hawkins de.** *Tabela de notação de autor (PHA)*. Rio de Janeiro: s.n., 1965.
-- **CÂMARA DOS DEPUTADOS.** *Manual de Processamento Técnico da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2019.
-- **LEHNUS, Donald J.** *Book numbers: history, principles, and application to materials*. Chicago: ALA, 1980.`,
+  "O instrumento organiza classes, mas não faz sozinho a análise documental. Título pode ser insuficiente ou ambíguo; confirme conteúdo, disciplina e notas.",
+  "Arranjo físico e responsabilidade bibliográfica são dimensões distintas. A opção de agrupar biografias não altera a autoria do texto.",
+  "Cada sistema tem tabelas, divisões e edições próprias. É preciso declarar qual classificação está sendo usada antes de interpretar ou sintetizar a notação."
+],
+  teoriaDensaMarkdown: "### CDDir: especialização de um domínio\n\nA Classificação Decimal de Direito está associada a **Doris de Queiroz Carvalho** e ao detalhamento da representação de documentos jurídicos. A especialização responde à necessidade de organizar o domínio do direito brasileiro e comparado. Não é um código de descrição bibliográfica, uma tabela de autoria ou uma ontologia OWL pronta.\n\nA relação histórica com a classe de direito da CDD não torna as notações intercambiáveis. Também é incorreto explicar sua origem afirmando que a CDU belga foi criada sob a mesma matriz inglesa e é necessariamente inadequada a todo direito de tradição romano-germânica. Sistemas e contextos são distintos; sua adequação deve ser avaliada por cobertura, atualização, granularidade e necessidades do acervo.\n\n**Linha histórica delimitada:** as quatro edições tradicionalmente estudadas são 1948, 1953, 1977 e 2002. A quarta teve participação da Subchefia para Assuntos Jurídicos da Casa Civil da Presidência. A página do Senado informa autorização para atualizar a CDDir desde 2014. Não se deve atribuir a edição de 2002 a autores de estudos posteriores para outra revisão.\n\n**Aplicação:** uma biblioteca jurídica pode precisar distinguir ramos, instituições e tipos de documentos que uma classificação geral apresenta com outro recorte. Especialização aumenta possibilidades, mas não dispensa análise do conteúdo. Classifique pela questão tratada e abordagem; título, resumo e estrutura ajudam a reconhecer o assunto, sem uma regra automática de palavras-chave.\n\n**Recupere:** por que “usa números decimais” não permite concluir que CDDir, CDD e CDU têm as mesmas classes?\n\n### Consultar classes, notas e versões\n\nComece identificando a **edição ou versão** e o objetivo da classificação. Consulte o termo no índice, confirme a posição hierárquica e examine notas e subdivisões. Um índice auxilia localizar; não substitui a tabela. A atualização de um portal deve ser distinguida de uma edição impressa histórica.\n\nO vocabulário CDDir publicado pelo Senado oferece, por exemplo, **341.253 — Direito parlamentar. Parlamentos e assembleias**. O exemplo demonstra uma correspondência consultável; não autoriza deduzir todas as demais classes a partir de memória de outro sistema. Não se pode atribuir a esse ramo qualquer número lembrado de outro sistema sem consulta à tabela adequada.\n\n**Forma, assunto e lugar** são dimensões que podem exigir subdivisões diferentes. Uma revista de direito parlamentar tem assunto e apresentação seriada; a construção final depende das instruções de forma da edição. Não copie a Tabela 1 da CDD ou os parênteses de lugar da CDU para CDDir supondo equivalência universal.\n\n**Exemplo resolvido:** o documento compara procedimentos de parlamentos e não é simplesmente o texto de uma lei. A análise distingue tema, gênero documental e âmbito. Depois consulta a classe e a possibilidade de subdivisão. Se faltar a tabela ou a instrução necessária, não invente sufixo numérico para fazer o exemplo parecer completo: localize a referência e confirme a construção.\n\nO catálogo coletivo da RVBI utiliza CDDir no tratamento de documentos jurídicos segundo suas diretrizes. Isso não prova que todas as bibliotecas mencionadas em listas antigas usem exclusivamente o mesmo sistema para todo acervo. Confirme política e documentação institucional quando a questão nomear uma instituição.\n\n### Número de chamada e notação de autor\n\nO **número de chamada** organiza/localiza recursos segundo uma política. Frequentemente combina notação de classificação, notação de autor/entrada, marca de obra e dados como edição, volume e cópia. Não existe uma etiqueta universal obrigatória com o mesmo número de linhas em toda biblioteca.\n\nA notação de autor é instrumento de ordenação. **Cutter-Sanborn** e **PHA**, esta associada a Heloísa de Almeida Prado, são tabelas distintas. Não misture suas regras nem atribua um código de dois algarismos à tabela de três algarismos sem verificar edição e uso. PHA atende contexto linguístico de nomes em português, mas não garante eliminação absoluta de colisões.\n\n**Marca de obra** diferencia títulos sob a mesma entrada; costuma empregar letras significativas conforme política. Quando duas obras começam com a mesma letra, podem ser necessários caracteres adicionais ou outro desempate. O procedimento deve preservar a ordenação e ser documentado, em vez de afirmar uma regra universal para qualquer colisão.\n\n**Caso:** duas obras do mesmo autor e mesma classe não podem ter localização indistinguível se a biblioteca precisa reuni-las e separá-las. O sistema pode usar marcas diferentes. Já duas cópias da mesma edição podem compartilhar a base bibliográfica e diferir no indicador de exemplar. Patrimônio, número de controle de registro e número de chamada não são sinônimos.\n\n**Exercício sem código fabricado:** dado autor, título e uma tabela real, encontre a entrada, consulte a faixa numérica, forme a notação segundo a política e compare com os vizinhos. Um código lembrado de outra biblioteca não substitui essa verificação.\n\n### Entradas por sigla ou título: explicitar a premissa\n\nPrimeiro determine a entrada conforme o código e a política de autoridade; depois aplique a tabela de notação. Se a premissa do exercício informa que a entrada autorizada é a **sigla**, a consulta considera essa forma. Isso não significa que toda entidade com sigla conhecida tenha obrigatoriamente entrada por sigla em qualquer catálogo.\n\nSe a entrada é pelo título, a política de ordenação e de marca de obra precisa ser explicitada. Desconsiderar artigo inicial em determinadas operações não autoriza descartar qualquer palavra funcional de todo título. A regra “marca de obra sempre é a segunda palavra, inclusive do/de” não deve ser apresentada como universal da tabela Cutter-Sanborn.\n\nO código de catalogação importa: a regra de responsabilidade compartilhada de quatro ou mais autores sem principal no AACR2 não é regra universal de entrada por título em RDA ou referência ABNT. O mesmo documento pode receber tratamentos diferentes conforme padrão e finalidade, sem que os códigos se tornem equivalentes.\n\n**Caso resolvido:** o enunciado fixa entrada por uma sigla e pede apenas o elemento para consultar a tabela. Expandir arbitrariamente o nome mudaria a premissa. Em outro cenário, o catálogo adota o nome por extenso: é essa entrada que deve ser considerada. Não decida a forma autorizada só olhando o logotipo da publicação.\n\n### Biografias e controle de consistência\n\nAlgumas políticas organizam biografias individuais pela pessoa biografada, acrescentando marca para o biógrafo. O propósito é reunir estudos sobre a mesma pessoa. Trata-se de uma convenção de arranjo a ser delimitada, não de regra que transforma o biografado em autor da obra.\n\n**Exemplo:** duas biografias de uma parlamentar, escritas por pessoas diferentes. A política informada pode usar a mesma base associada à biografada e marcas distintas dos biógrafos. O registro bibliográfico continua indicando quem escreveu cada texto, e os assuntos permitem recuperar a pessoa estudada. Não confunda o código de estante com o ponto de acesso de responsabilidade.\n\nVerifique consistência com o acervo existente, tratamento de homônimos, títulos semelhantes, volumes e exemplares. Consistência não é repetir um erro antigo: alteração de política pode exigir registro de decisão, remissões e revisão de etiquetas/registros, preservando a possibilidade de localizar o material.\n\n**Recuperação final:** diferencie quatro operações: identificar o autor intelectual, escolher a forma autorizada de seu nome, classificar o assunto e ordenar o exemplar. Explique qual instrumento orienta cada uma. Esse raciocínio permite julgar casos novos sem decorar códigos possivelmente inventados de um exemplo.",
+  teoriaDidaticaMarkdown: "### Revisão: consultar, distinguir e documentar\n\nCDDir é classificação especializada de domínio jurídico, associada a Doris de Queiroz Carvalho. Não confunda histórico de edições e atualizações posteriores. Números de sistemas diferentes não garantem o mesmo significado. Confirme classe, notas e regras de construção; não copie auxiliares de outro sistema. Número de chamada combina elementos conforme política. Cutter-Sanborn e PHA precisam de consulta e versão; não eliminam toda colisão. Entrada por sigla depende da premissa/código. Arranjo de biografias pelo biografado não altera autoria. Não há código numérico inventado que substitua a tabela.\n",
   checkpoints: [
-    {
-      id: 'cp-3-2-1',
-      pergunta: 'Micro-Checkpoint 1: Origem e Aplicação da CDDir',
-      item: 'A Classificação Decimal de Direito (CDDir), concebida por Doris de Queiroz Carvalho, foi estruturada para adaptar a classificação jurídica às particularidades do ordenamento jurídico brasileiro e comparado de matriz romano-germânica (Civil Law).',
-      gabarito: 'C',
-      justificativa: 'Correto! A CDDir é amplamente utilizada nas bibliotecas jurídicas federais e na RVBI para superar as limitações das tabelas gerais anglo-saxônicas.',
-    },
-    {
-      id: 'cp-3-2-2',
-      pergunta: 'Micro-Checkpoint 2: Notação de Autor para Entidades com Sigla',
-      item: 'Na composição do número de Cutter segundo a tabela Cutter-Sanborn, caso a autoria de uma obra seja atribuída a uma entidade cuja entrada seja por sigla oficial, a notação numérica deve ser extraída do significado por extenso da denominação do órgão.',
-      gabarito: 'E',
-      justificativa: 'Errado! A notação numérica de Cutter é extraída diretamente das letras da sigla oficial (ex.: OAB, STF, IPEA), e não do seu significado por extenso.',
-    },
-    {
-      id: 'cp-3-2-3',
-      pergunta: 'Micro-Checkpoint 3: Notação de Autor em Biografias Individuais',
-      item: 'Na catalogação de biografias individuais, a notação de autor extraída da tabela Cutter é atribuída ao nome do biografado, cabendo ao biógrafo fornecer a letra minúscula representativa da marca de obra.',
-      gabarito: 'C',
-      justificativa: 'Correto! Essa regra clássica garante que todas as biografias escritas por diferentes autores sobre a mesma pessoa fiquem reunidas fisicamente na mesma estante.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-3-2-1',
-        periodo: '1948 / 1953',
-        disciplina: 'Classificação Jurídica Nacional',
-        focoPrincipal: 'Publicação da 1ª e 2ª edições da Classificação Decimal de Direito (CDDir) por Doris de Queiroz Carvalho no DASP.',
-        figuraChave: 'Doris de Queiroz Carvalho',
-      },
-      {
-        id: 'tl-3-2-2',
-        periodo: '1899',
-        disciplina: 'Tabela de Notação de Autor',
-        focoPrincipal: 'Expansão de Kate Sanborn sobre as tabelas alfanuméricas de Cutter (Tabela Cutter-Sanborn de Três Algarismos).',
-        figuraChave: 'Charles Ammi Cutter e Kate Emery Sanborn',
-      },
-      {
-        id: 'tl-3-2-3',
-        periodo: '2002',
-        disciplina: 'Consolidação na RVBI e LexML',
-        focoPrincipal: 'Publicação da 4ª edição da CDDir pela Comissão da RVBI (Arouck, Jaegger e Pinha), consolidando o sistema nas bibliotecas do Congresso e Tribunais.',
-        figuraChave: 'Comissão de Atualização da RVBI',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-3-2-1',
-        nome: 'Doris de Queiroz Carvalho',
-        ano: 1948,
-        obraPrincipal: 'Classificação Decimal de Direito (CDDir)',
-        ideiaChave: 'Bibliotecária pioneira que formulou o esquema especializado de classificação decimal para o ordenamento jurídico brasileiro.',
-        chipPegadinha: 'A CDDir baseia-se na Civil Law brasileira, não na Common Law norte-americana.',
-      },
-      {
-        id: 'aut-3-2-2',
-        nome: 'Heloísa de Almeida Prado',
-        ano: 1955,
-        obraPrincipal: 'Tabela de Notação de Autor (PHA)',
-        ideiaChave: 'Criadora da tabela alfanumérica de autor adaptada aos sobrenomes em língua portuguesa, evitando concentrações excessivas em sobrenomes ibéricos.',
-        chipPegadinha: 'Tabela PHA é notação de autor para estante, e não sistema de classificação temática de assuntos.',
-      },
-      {
-        id: 'aut-3-2-3',
-        nome: 'Charles Ammi Cutter',
-        ano: 1880,
-        obraPrincipal: 'Cutter Author Tables',
-        ideiaChave: 'Criador da notação alfanumérica de autor e do conceito de marca de obra (workmark) para ordenação física dos acervos.',
-        chipPegadinha: 'Entidades que entram por sigla têm a notação extraída das letras da sigla, nunca do nome por extenso.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-3-2-1',
-        afirmacao: 'Na Classificação Decimal de Direito (CDDir), a classe 342 destina-se a classificar exclusivamente normas de direito penal e penitenciário.',
-        gabarito: 'E',
-        porQue: 'A classe 342 é dedicada ao Direito Constitucional e ao Direito Administrativo. O Direito Penal e Criminologia pertencem à classe 343.',
-      },
-      {
-        id: 'peg-3-2-2',
-        afirmacao: 'Ao elaborar o número de Cutter para uma monografia com cinco autores sem indicação de destaque, o catalogador deve extrair a notação do sobrenome do primeiro autor citado.',
-        gabarito: 'E',
-        porQue: 'Obras com 4 ou mais autores sem destaque entram OBRIGATORIAMENTE PELO TÍTULO; logo, o número de Cutter é extraído da primeira palavra do título.',
-      },
-      {
-        id: 'peg-3-2-3',
-        afirmacao: 'A tabela PHA foi elaborada nos Estados Unidos como uma extensão da Tabela Cutter para atender a imigrantes de origem hispânica.',
-        gabarito: 'E',
-        porQue: 'A tabela PHA é genuinamente brasileira, desenvolvida por Heloísa de Almeida Prado para a estrutura silábica e fonética dos sobrenomes da língua portuguesa.',
-      },
-    ],
+  {
+    "id": "cp-3-2-1",
+    "pergunta": "Micro-Checkpoint 1: Origem e Aplicação da CDDir",
+    "item": "A Classificação Decimal de Direito (CDDir), concebida por Doris de Queiroz Carvalho, foi estruturada para adaptar a classificação jurídica às particularidades do ordenamento jurídico brasileiro e comparado de matriz romano-germânica (Civil Law).",
+    "gabarito": "C",
+    "justificativa": "A especialização responde à representação do domínio jurídico; isso não permite chamar toda classificação geral de anglo-saxônica nem presume adoção exclusiva por toda instituição.",
+    "fonte": "Senado Federal, CDDir — apresentação e vocabulário; Carvalho, Classificação Decimal de Direito, 4ª ed. (2002); política de número de chamada explicitada no exemplo."
   },
+  {
+    "id": "cp-3-2-2",
+    "pergunta": "Micro-Checkpoint 2: Notação de Autor para Entidades com Sigla",
+    "item": "Se a entrada autorizada adotada no exercício é uma sigla, deve-se substituí-la necessariamente pelo nome por extenso para consultar a tabela de notação.",
+    "gabarito": "E",
+    "justificativa": "A notação parte da entrada estabelecida na premissa e da tabela/política. Não existe obrigação de mudar para nome por extenso nessa situação.",
+    "fonte": "Senado Federal, CDDir — apresentação e vocabulário; Carvalho, Classificação Decimal de Direito, 4ª ed. (2002); política de número de chamada explicitada no exemplo.",
+    "versao_correta": "A consulta considera a entrada adotada e as regras da tabela e política aplicáveis."
+  },
+  {
+    "id": "cp-3-2-3",
+    "pergunta": "Micro-Checkpoint 3: Notação de Autor em Biografias Individuais",
+    "item": "Em uma política que ordena biografias individuais pela pessoa biografada e distingue o biógrafo por marca, a base de notação é atribuída ao biografado, sem alterar a autoria intelectual da biografia.",
+    "gabarito": "C",
+    "justificativa": "O item explicita a convenção de arranjo. O efeito é reunir estudos da pessoa; não declarar que ela escreveu a biografia.",
+    "fonte": "Senado Federal, CDDir — apresentação e vocabulário; Carvalho, Classificação Decimal de Direito, 4ª ed. (2002); política de número de chamada explicitada no exemplo."
+  },
+  {
+    "id": "rt-3-2-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "CDD, CDU e CDDir podem usar números parecidos, mas isso não garante identidade de significado para uma mesma sequência.",
+    "gabarito": "C",
+    "justificativa": "Cada sistema tem tabelas, divisões e edições próprias. É preciso declarar qual classificação está sendo usada antes de interpretar ou sintetizar a notação.",
+    "fonte": "Senado Federal, CDDir — apresentação e vocabulário; Carvalho, Classificação Decimal de Direito, 4ª ed. (2002); política de número de chamada explicitada no exemplo.",
+    "editalRef": "Bloco D - Item 3.2 e 3.3",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-3-2-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma adaptação de classificação jurídica dispensa analisar assunto e pode ser aplicada escolhendo apenas uma palavra do título.",
+    "gabarito": "E",
+    "justificativa": "O instrumento organiza classes, mas não faz sozinho a análise documental. Título pode ser insuficiente ou ambíguo; confirme conteúdo, disciplina e notas.",
+    "fonte": "Senado Federal, CDDir — apresentação e vocabulário; Carvalho, Classificação Decimal de Direito, 4ª ed. (2002); política de número de chamada explicitada no exemplo.",
+    "editalRef": "Bloco D - Item 3.2 e 3.3",
+    "habilidade": "aplicar",
+    "versao_correta": "A classificação exige análise do conteúdo e consulta às tabelas, notas e edição."
+  },
+  {
+    "id": "rt-3-2-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A notação de autor atribuída pelo biografado numa política de estante prova que o biografado é autor intelectual da biografia.",
+    "gabarito": "E",
+    "justificativa": "Arranjo físico e responsabilidade bibliográfica são dimensões distintas. A opção de agrupar biografias não altera a autoria do texto.",
+    "fonte": "Senado Federal, CDDir — apresentação e vocabulário; Carvalho, Classificação Decimal de Direito, 4ª ed. (2002); política de número de chamada explicitada no exemplo.",
+    "editalRef": "Bloco D - Item 3.2 e 3.3",
+    "habilidade": "aplicar",
+    "versao_correta": "Arranjar pelo biografado não altera a autoria intelectual do biógrafo."
+  },
+  {
+    "id": "rt-3-2-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Para aplicar uma tabela Cutter, é necessário considerar a entrada escolhida e a edição da tabela; o número não deve ser inventado apenas pela inicial do nome.",
+    "gabarito": "C",
+    "justificativa": "A sequência depende da consulta e pode precisar de ajustes para ordenação e colisões. Um exemplo de código sem conferência não deve ser usado como tabela normativa.",
+    "fonte": "Senado Federal, CDDir — apresentação e vocabulário; Carvalho, Classificação Decimal de Direito, 4ª ed. (2002); política de número de chamada explicitada no exemplo.",
+    "editalRef": "Bloco D - Item 3.2 e 3.3",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-3-2-fonte-cddir",
+      "nome": "Senado Federal — CDDir: apresentação e vocabulário",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Senado Federal — CDDir: apresentação e vocabulário",
+      "ideiaChave": "Histórico da quarta edição e autorização de atualização; classes consultáveis, incluindo 341.253.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-3-2-fonte-rvbi",
+      "nome": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI",
+      "ideiaChave": "Tratamento de classificação de direito e campos de registro; verificar versão das diretrizes.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-3-2-fonte-carvalho",
+      "nome": "Doris de Queiroz Carvalho — Classificação Decimal de Direito, 4ª edição (2002)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Doris de Queiroz Carvalho — Classificação Decimal de Direito, 4ª edição (2002)",
+      "ideiaChave": "Consultar tabelas e instruções da edição; não copiar automaticamente códigos de outras classificações.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-3-2-2",
+      "afirmacao": "Uma adaptação de classificação jurídica dispensa analisar assunto e pode ser aplicada escolhendo apenas uma palavra do título.",
+      "gabarito": "E",
+      "porQue": "O instrumento organiza classes, mas não faz sozinho a análise documental. Título pode ser insuficiente ou ambíguo; confirme conteúdo, disciplina e notas."
+    },
+    {
+      "id": "memoria-rt-3-2-3",
+      "afirmacao": "A notação de autor atribuída pelo biografado numa política de estante prova que o biografado é autor intelectual da biografia.",
+      "gabarito": "E",
+      "porQue": "Arranjo físico e responsabilidade bibliográfica são dimensões distintas. A opção de agrupar biografias não altera a autoria do texto."
+    },
+    {
+      "id": "memoria-rt-3-2-4",
+      "afirmacao": "Para aplicar uma tabela Cutter, é necessário considerar a entrada escolhida e a edição da tabela; o número não deve ser inventado apenas pela inicial do nome.",
+      "gabarito": "C",
+      "porQue": "A sequência depende da consulta e pode precisar de ajustes para ordenação e colisões. Um exemplo de código sem conferência não deve ser usado como tabela normativa."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-3-2-bloco-1",
+    "titulo": "CDDir: especialização de um domínio",
+    "objetivos": [
+      "Distinguir sistema especializado e regras de catalogação."
+    ],
+    "conteudo": "A Classificação Decimal de Direito está associada a **Doris de Queiroz Carvalho** e ao detalhamento da representação de documentos jurídicos. A especialização responde à necessidade de organizar o domínio do direito brasileiro e comparado. Não é um código de descrição bibliográfica, uma tabela de autoria ou uma ontologia OWL pronta.\n\nA relação histórica com a classe de direito da CDD não torna as notações intercambiáveis. Também é incorreto explicar sua origem afirmando que a CDU belga foi criada sob a mesma matriz inglesa e é necessariamente inadequada a todo direito de tradição romano-germânica. Sistemas e contextos são distintos; sua adequação deve ser avaliada por cobertura, atualização, granularidade e necessidades do acervo.\n\n**Linha histórica delimitada:** as quatro edições tradicionalmente estudadas são 1948, 1953, 1977 e 2002. A quarta teve participação da Subchefia para Assuntos Jurídicos da Casa Civil da Presidência. A página do Senado informa autorização para atualizar a CDDir desde 2014. Não se deve atribuir a edição de 2002 a autores de estudos posteriores para outra revisão.\n\n**Aplicação:** uma biblioteca jurídica pode precisar distinguir ramos, instituições e tipos de documentos que uma classificação geral apresenta com outro recorte. Especialização aumenta possibilidades, mas não dispensa análise do conteúdo. Classifique pela questão tratada e abordagem; título, resumo e estrutura ajudam a reconhecer o assunto, sem uma regra automática de palavras-chave.\n\n**Recupere:** por que “usa números decimais” não permite concluir que CDDir, CDD e CDU têm as mesmas classes?",
+    "checkpointIds": [
+      "cp-3-2-1",
+      "rt-3-2-1"
+    ]
+  },
+  {
+    "id": "sub-3-2-bloco-2",
+    "titulo": "Consultar classes, notas e versões",
+    "objetivos": [
+      "Validar significado antes de construir notação."
+    ],
+    "conteudo": "Comece identificando a **edição ou versão** e o objetivo da classificação. Consulte o termo no índice, confirme a posição hierárquica e examine notas e subdivisões. Um índice auxilia localizar; não substitui a tabela. A atualização de um portal deve ser distinguida de uma edição impressa histórica.\n\nO vocabulário CDDir publicado pelo Senado oferece, por exemplo, **341.253 — Direito parlamentar. Parlamentos e assembleias**. O exemplo demonstra uma correspondência consultável; não autoriza deduzir todas as demais classes a partir de memória de outro sistema. Não se pode atribuir a esse ramo qualquer número lembrado de outro sistema sem consulta à tabela adequada.\n\n**Forma, assunto e lugar** são dimensões que podem exigir subdivisões diferentes. Uma revista de direito parlamentar tem assunto e apresentação seriada; a construção final depende das instruções de forma da edição. Não copie a Tabela 1 da CDD ou os parênteses de lugar da CDU para CDDir supondo equivalência universal.\n\n**Exemplo resolvido:** o documento compara procedimentos de parlamentos e não é simplesmente o texto de uma lei. A análise distingue tema, gênero documental e âmbito. Depois consulta a classe e a possibilidade de subdivisão. Se faltar a tabela ou a instrução necessária, não invente sufixo numérico para fazer o exemplo parecer completo: localize a referência e confirme a construção.\n\nO catálogo coletivo da RVBI utiliza CDDir no tratamento de documentos jurídicos segundo suas diretrizes. Isso não prova que todas as bibliotecas mencionadas em listas antigas usem exclusivamente o mesmo sistema para todo acervo. Confirme política e documentação institucional quando a questão nomear uma instituição.",
+    "checkpointIds": [
+      "rt-3-2-2"
+    ]
+  },
+  {
+    "id": "sub-3-2-bloco-3",
+    "titulo": "Número de chamada e notação de autor",
+    "objetivos": [
+      "Separar assunto, entrada, marca de obra e exemplar."
+    ],
+    "conteudo": "O **número de chamada** organiza/localiza recursos segundo uma política. Frequentemente combina notação de classificação, notação de autor/entrada, marca de obra e dados como edição, volume e cópia. Não existe uma etiqueta universal obrigatória com o mesmo número de linhas em toda biblioteca.\n\nA notação de autor é instrumento de ordenação. **Cutter-Sanborn** e **PHA**, esta associada a Heloísa de Almeida Prado, são tabelas distintas. Não misture suas regras nem atribua um código de dois algarismos à tabela de três algarismos sem verificar edição e uso. PHA atende contexto linguístico de nomes em português, mas não garante eliminação absoluta de colisões.\n\n**Marca de obra** diferencia títulos sob a mesma entrada; costuma empregar letras significativas conforme política. Quando duas obras começam com a mesma letra, podem ser necessários caracteres adicionais ou outro desempate. O procedimento deve preservar a ordenação e ser documentado, em vez de afirmar uma regra universal para qualquer colisão.\n\n**Caso:** duas obras do mesmo autor e mesma classe não podem ter localização indistinguível se a biblioteca precisa reuni-las e separá-las. O sistema pode usar marcas diferentes. Já duas cópias da mesma edição podem compartilhar a base bibliográfica e diferir no indicador de exemplar. Patrimônio, número de controle de registro e número de chamada não são sinônimos.\n\n**Exercício sem código fabricado:** dado autor, título e uma tabela real, encontre a entrada, consulte a faixa numérica, forme a notação segundo a política e compare com os vizinhos. Um código lembrado de outra biblioteca não substitui essa verificação.",
+    "checkpointIds": [
+      "rt-3-2-4"
+    ]
+  },
+  {
+    "id": "sub-3-2-bloco-4",
+    "titulo": "Entradas por sigla ou título: explicitar a premissa",
+    "objetivos": [
+      "Aplicar a notação à entrada adotada sem universalizar o acesso."
+    ],
+    "conteudo": "Primeiro determine a entrada conforme o código e a política de autoridade; depois aplique a tabela de notação. Se a premissa do exercício informa que a entrada autorizada é a **sigla**, a consulta considera essa forma. Isso não significa que toda entidade com sigla conhecida tenha obrigatoriamente entrada por sigla em qualquer catálogo.\n\nSe a entrada é pelo título, a política de ordenação e de marca de obra precisa ser explicitada. Desconsiderar artigo inicial em determinadas operações não autoriza descartar qualquer palavra funcional de todo título. A regra “marca de obra sempre é a segunda palavra, inclusive do/de” não deve ser apresentada como universal da tabela Cutter-Sanborn.\n\nO código de catalogação importa: a regra de responsabilidade compartilhada de quatro ou mais autores sem principal no AACR2 não é regra universal de entrada por título em RDA ou referência ABNT. O mesmo documento pode receber tratamentos diferentes conforme padrão e finalidade, sem que os códigos se tornem equivalentes.\n\n**Caso resolvido:** o enunciado fixa entrada por uma sigla e pede apenas o elemento para consultar a tabela. Expandir arbitrariamente o nome mudaria a premissa. Em outro cenário, o catálogo adota o nome por extenso: é essa entrada que deve ser considerada. Não decida a forma autorizada só olhando o logotipo da publicação.",
+    "checkpointIds": [
+      "cp-3-2-2"
+    ]
+  },
+  {
+    "id": "sub-3-2-bloco-5",
+    "titulo": "Biografias e controle de consistência",
+    "objetivos": [
+      "Distinguir opção de arranjo e autoria intelectual."
+    ],
+    "conteudo": "Algumas políticas organizam biografias individuais pela pessoa biografada, acrescentando marca para o biógrafo. O propósito é reunir estudos sobre a mesma pessoa. Trata-se de uma convenção de arranjo a ser delimitada, não de regra que transforma o biografado em autor da obra.\n\n**Exemplo:** duas biografias de uma parlamentar, escritas por pessoas diferentes. A política informada pode usar a mesma base associada à biografada e marcas distintas dos biógrafos. O registro bibliográfico continua indicando quem escreveu cada texto, e os assuntos permitem recuperar a pessoa estudada. Não confunda o código de estante com o ponto de acesso de responsabilidade.\n\nVerifique consistência com o acervo existente, tratamento de homônimos, títulos semelhantes, volumes e exemplares. Consistência não é repetir um erro antigo: alteração de política pode exigir registro de decisão, remissões e revisão de etiquetas/registros, preservando a possibilidade de localizar o material.\n\n**Recuperação final:** diferencie quatro operações: identificar o autor intelectual, escolher a forma autorizada de seu nome, classificar o assunto e ordenar o exemplar. Explique qual instrumento orienta cada uma. Esse raciocínio permite julgar casos novos sem decorar códigos possivelmente inventados de um exemplo.",
+    "checkpointIds": [
+      "cp-3-2-3",
+      "rt-3-2-3"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "cddir",
+    "titulo": "Senado Federal — CDDir: apresentação e vocabulário",
+    "localizador": "Histórico da quarta edição e autorização de atualização; classes consultáveis, incluindo 341.253.",
+    "url": "https://adm.senado.leg.br/cddir/vocab/sobre.php"
+  },
+  {
+    "id": "rvbi",
+    "titulo": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI",
+    "localizador": "Tratamento de classificação de direito e campos de registro; verificar versão das diretrizes.",
+    "url": "https://www2.senado.leg.br/bdsf/handle/id/231030"
+  },
+  {
+    "id": "carvalho",
+    "titulo": "Doris de Queiroz Carvalho — Classificação Decimal de Direito, 4ª edição (2002)",
+    "localizador": "Consultar tabelas e instruções da edição; não copiar automaticamente códigos de outras classificações."
+  }
+],
 };

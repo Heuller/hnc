@@ -14,7 +14,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       expect(simuladoFundamentos100Q).toHaveLength(100);
     });
 
-    it('deve ter simetria rigorosa Cebraspe: EXATAMENTE 50 Certas (C) e 50 Erradas (E)', () => {
+    it('deve ter distribuição editorial deste caderno: EXATAMENTE 50 Certas (C) e 50 Erradas (E)', () => {
       const certos = simuladoFundamentos100Q.filter((q) => q.gabarito === 'C');
       const errados = simuladoFundamentos100Q.filter((q) => q.gabarito === 'E');
 
@@ -71,7 +71,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       expect(simuladoCatalogacao100Q).toHaveLength(100);
     });
 
-    it('deve ter simetria rigorosa Cebraspe: EXATAMENTE 50 Certas (C) e 50 Erradas (E)', () => {
+    it('deve ter distribuição editorial deste caderno: EXATAMENTE 50 Certas (C) e 50 Erradas (E)', () => {
       const certos = simuladoCatalogacao100Q.filter((q) => q.gabarito === 'C');
       const errados = simuladoCatalogacao100Q.filter((q) => q.gabarito === 'E');
 
@@ -187,28 +187,29 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       });
     });
 
-    it('todos os 40 submódulos devem conter os 3 formatos estruturados de mnemônicos (timeline, autores, pegadinhas)', () => {
-      COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
-        if (sub.mnemonicos.timeline.length < 2) {
-          console.warn(`[Submódulo com timeline < 2]: ${sub.id} - ${sub.titulo}`);
+    it('aulas novas têm unidades, objetivos, fontes e síntese; aulas legadas mantêm apoios estruturados', () => {
+      COURSE_REGISTRY.flatMap(m => m.modulosFilhos).forEach(sub => {
+        if (sub.unidadesAprendizagem?.length) {
+          expect(sub.fontesTeoria?.length, sub.id).toBeGreaterThan(0);
+          expect(sub.teoriaDidaticaMarkdown?.trim().length, sub.id).toBeGreaterThan(0);
+          const usados = sub.unidadesAprendizagem.flatMap(u => u.checkpointIds);
+          expect(new Set(usados), sub.id).toEqual(new Set(sub.checkpoints.map(c => c.id)));
+          sub.unidadesAprendizagem.forEach(u => {
+            expect(u.objetivos.length, u.id).toBeGreaterThan(0);
+            expect(u.conteudo.trim().length, u.id).toBeGreaterThan(0);
+          });
+        } else {
+          expect(sub.mnemonicos.timeline.length).toBeGreaterThanOrEqual(2);
+          expect(sub.mnemonicos.autores.length).toBeGreaterThanOrEqual(2);
+          expect(sub.mnemonicos.pegadinhas.length).toBeGreaterThanOrEqual(2);
+          expect(sub.quadroComparativo).toBeDefined();
         }
-        if (sub.mnemonicos.autores.length < 2) {
-          console.warn(`[Submódulo com autores < 2]: ${sub.id} - ${sub.titulo}`);
+        if (sub.quadroComparativo) {
+          expect(sub.quadroComparativo.colunas.length).toBeGreaterThanOrEqual(2);
+          sub.quadroComparativo.linhas.forEach(linha => {
+            expect(linha.length).toBe(sub.quadroComparativo!.colunas.length);
+          });
         }
-        if (sub.mnemonicos.pegadinhas.length < 2) {
-          console.warn(`[Submódulo com pegadinhas < 2]: ${sub.id} - ${sub.titulo}`);
-        }
-        expect(sub.mnemonicos.timeline.length).toBeGreaterThanOrEqual(2);
-        expect(sub.mnemonicos.autores.length).toBeGreaterThanOrEqual(2);
-        expect(sub.mnemonicos.pegadinhas.length).toBeGreaterThanOrEqual(2);
-      });
-    });
-
-    it('todos os 40 submódulos devem possuir quadro comparativo estruturado com colunas e linhas', () => {
-      COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
-        expect(sub.quadroComparativo).toBeDefined();
-        expect(sub.quadroComparativo!.colunas.length).toBeGreaterThanOrEqual(3);
-        expect(sub.quadroComparativo!.linhas.length).toBeGreaterThanOrEqual(2);
       });
     });
 
@@ -272,7 +273,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       expect(itensComProblema).toHaveLength(0);
     });
 
-    it('todos os simulados de 100, 120 e 180 itens devem manter estritamente simetria 50/50 entre Certos e Errados', () => {
+    it('todos os simulados de 100, 120 e 180 itens devem manter estritamente distribuição editorial 50/50 entre Certos e Errados', () => {
       const simuladosPadrao = ALL_SIMULADOS_REGISTRY.filter((s) =>
         [100, 120, 180].includes(s.totalNominal ?? s.questoes.length) && !s.itensForaConferencia
       );

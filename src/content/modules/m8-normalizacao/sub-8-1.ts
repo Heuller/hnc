@@ -35,288 +35,277 @@ export const submodulo81: ModuloFilho = {
       exemploBiblioteca: 'BRASIL. Lei nº 14.133, de 1º de abril de 2021. Diário Oficial da União: seção 1, Brasília, DF, ano 159, n. 61-E, p. 1-43, 1 abr. 2021.',
     },
   ],
-  descricaoCurta: 'Norma ABNT NBR 6023:2025 (3ª edição de 21.05.2025), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.',
-  tempoEstimadoMinutos: 13,
-  autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro de Informação e Documentação (CB-014)', 'Antônio Agenor Briquet de Lemos', 'Maria Luísa Leite Leão'],
+  descricaoCurta: "Selecionar o modelo pelo documento consultado e distinguir elementos essenciais e complementares. Aplicar as regras de até três e de quatro ou mais autores. Escolher a entrada sem confundir órgão subordinado e entidade de denominação própria. Montar modelos com dados fictícios suficientes e identificar a publicação hospedeira. Distinguir data do documento, data de acesso e endereço de disponibilidade. Detectar erros por checklist e explicar a correção.",
+  tempoEstimadoMinutos: 27,
+  autoresChave: [
+  "ABNT NBR 6023:2025 — Referências — Elaboração"
+],
   alertasCebraspe: [
-    'O destaque tipográfico na NBR 6023:2025: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.',
-    'Regras de Autoria na NBR 6023:2025: para obras com até três autores, indicam-se todos, separados por ponto e vírgula seguidos de espaço. Para obras com quatro ou mais autores, a regra geral é indicar todos os autores; permite-se, facultativamente, indicar apenas o primeiro seguido da expressão "et al.". A técnica de distrator consiste em afirmar que o uso de "et al." é obrigatório: na edição vigente (ABNT NBR 6023:2025), é uma FACULDADE!',
-    'Em artigos de periódicos (revistas científicas), quem recebe o destaque tipográfico (negrito/itálico) é o TÍTULO DO PERIÓDICO, e JAMAIS o título do artigo!',
-    'Documentos Eletrônicos em Linha: a indicação da disponibilidade e da data de acesso é elemento essencial, registrada no formato: "Disponível em: URL. Acesso em: dia mês abreviado ano" (ex.: "Disponível em: https://www.camara.leg.br. Acesso em: 15 mar. 2026."). Todos os meses do ano são abreviados nas três primeiras letras com ponto, COM A EXCEÇÃO ABSOLUTA DO MÊS DE MAIO, que se grafa por extenso!',
-    'Indicação de Edição: indica-se a partir da segunda edição, utilizando números arábicos seguidos de ponto e da abreviatura da palavra edição na língua do texto (ex.: "2. ed.", "3. ed. rev. e ampl."). A primeira edição NUNCA se indica.',
-    'Alinhamento da Lista de Referências: conforme a NBR 6023:2025 e NBR 14724, as referências devem ser alinhadas exclusivamente À MARGEM ESQUERDA do texto (não são justificadas), em espaçamento simples e separadas entre si por um espaço simples em branco.',
-  ],
+  "Uniformidade é coerência de apresentação, não troca dos dados do documento. O artigo pertence ao periódico identificado, e sua referência precisa preservar essa relação. A identidade do autor não autoriza substituir a fonte.",
+  "Quando não há indicação de autoria ou responsabilidade, a entrada é feita pelo título, conforme o modelo aplicável. Não se deve inventar um nome de autor para preencher o campo.",
+  "URL e data de acesso complementam os elementos de identificação pertinentes ao tipo documental. Não substituem título, autoria quando identificada e demais dados exigidos pelo modelo."
+],
   quadroComparativo: {
-    titulo: 'Elementos Essenciais para os Principais Tipos de Documentos na ABNT NBR 6023:2025',
-    colunas: ['Tipo de Documento', 'Ordem dos Elementos Essenciais Obrigatórios', 'Exemplo Canônico Formatado', 'Pegadinha Cebraspe Mapeada'],
-    linhas: [
-      ['Monografia / Livro no todo', 'AUTOR. Título: subtítulo. Edição. Local: Editora, data de publicação.', 'VERGUEIRO, Waldomiro. **Desenvolvimento de coleções**. 2. ed. São Paulo: Polis, 1989.', 'Destacar o subtítulo ou registrar "1. ed." para a primeira edição (ambos são ERROS crassos).'],
-      ['Parte de Monografia (Capítulo)', 'AUTOR DA PARTE. Título da parte. In: AUTOR DO LIVRO. Título do livro. Edição. Local: Editora, data. Paginação da parte.', 'MEADOWS, A. J. Como a pesquisa é comunicada. In: MEADOWS, A. J. **A comunicação científica**. Brasília: Briquet de Lemos, 1999. p. 35-68.', 'Destacar o título do capítulo em vez do título da obra coletiva no todo.'],
-      ['Artigo de Periódico', 'AUTOR DO ARTIGO. Título do artigo. Título do Periódico, Local, volume, número, fascículo, paginação inicial-final, data.', 'BORKO, Harold. Information science: what is it? **American Documentation**, Washington, v. 19, n. 1, p. 3-5, jan. 1968.', 'Colocar o título do artigo em negrito/itálico (quem leva destaque é o título do periódico).'],
-      ['Documento em Meio Eletrônico', 'Elementos do documento + Disponível em: URL. Acesso em: dia mês abreviado ano.', 'BRASIL. [Constituição (1988)]. **Constituição da República Federativa do Brasil**. Brasília: Senado Federal, 1988. Disponível em: https://www.planalto.gov.br. Acesso em: 10 fev. 2026.', 'Abreviar o mês de maio como "mai." (ERRADO: maio grafa-se sempre por extenso).'],
-      ['Obra sem Autoria Declarada', 'PRIMEIRA PALAVRA DO TÍTULO EM MAIÚSCULAS... Local: Editora, data.', '**DIAGNÓSTICO** do setor editorial brasileiro. São Paulo: Câmara Brasileira do Livro, 1993.', 'Iniciar a referência pela expressão "ANÔNIMO" (terminantemente PROIBIDO pela ABNT).'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. O Escopo e a Sistemática da ABNT NBR 6023:2025 (3ª Edição)
-
-A norma **ABNT NBR 6023:2025** (*Informação e Documentação — Referências — Elaboração*, 3ª edição, publicada em 21/05/2025) estabelece os requisitos exigíveis para a apresentação e padronização de referências destinadas a trabalhos acadêmicos, relatórios técnicos, artigos científicos, livros e documentos oficiais, consolidando e revogando a edição anterior (2018 com Emenda 1:2020):
-
-* **Conceito Canônico de Referência:** Conjunto padronizado de elementos descritivos estruturados, retirados diretamente de um documento consultado, que permite sua identificação individual unívoca e rastreabilidade por terceiros.
-* **Elementos Essenciais vs. Complementares:**
-  * *Elementos Essenciais:* São os dados mínimos indispensáveis sem os quais o documento não pode ser identificado no comércio livreiro ou em acervos: autor(es), título da obra, edição (a partir da 2ª), local de publicação, editora e ano de publicação.
-  * *Elementos Complementares:* Informações adicionais que enriquecem o registro bibliográfico: subtítulo, número de páginas ou volumes, ilustrações, dimensões físicas (altura em cm), coleção/série editorial e ISBN/ISSN.
-  * *Regra Geral de Padronização:* A decisão de incluir elementos complementares deve ser aplicada uniformemente a **todas as referências do trabalho**.
-* **Apresentação e Alinhamento Gráfico:**
-  * As referências devem ser alinhadas exclusivamente **à margem esquerda** da página (não são justificadas à direita).
-  * O espaçamento entrelinhas interno da referência é **simples**.
-  * As referências são separadas entre si por **um espaço simples em branco** (linha em branco).
-
----
-
-### 2. Regras Fundamentais de Autoria e Tipografia
-
-\`\`\`tree
-TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
-- Autoria na ABNT NBR 6023 | Regras formais para representação e ordenação de pontos de acesso
-  - Autoria Pessoal | Sobrenome em MAIÚSCULAS seguido de prenomes por extenso ou abreviados
-    - Até 3 Autores | Indicam-se obrigatoriamente TODOS, separados por ponto e vírgula (; )
-    - 4 ou Mais Autores | Regra geral indica TODOS; é facultativo indicar o primeiro seguido de et al.
-    - Organizadores e Coordenadores | Sobrenome em MAIÚSCULAS seguido do tipo de responsabilidade (Org., Coord., Ed.)
-  - Autoria Institucional / Governamental | Entidades coletivas, órgãos públicos e associações
-    - Administração Direta | Entrada pela jurisdição geográfica em MAIÚSCULAS (ex: BRASIL. Congresso Nacional.)
-    - Entidades com Nome Distintivo | Entrada direta pelo nome da entidade em MAIÚSCULAS (ex: UNIVERSIDADE DE BRASÍLIA.)
-  - Obra sem Autoria Declarada (Anônima) | Inexistência de autor pessoal ou institucional identificado
-    - Entrada pelo Título | Primeira palavra do título em MAIÚSCULAS (desconsiderando artigo definido inicial)
-    - Proibição de Anon | É terminantemente vedado o uso da expressão latina 'Anon.' ou 'Anônimo'
-\`\`\`
-
-#### A. Entrada de Autoria Pessoal
-* O sobrenome do autor entra em **letras maiúsculas (caixa alta)**, seguido do prenome e demais nomes:
-  * Ex.: \`CUNHA, Murilo Bastos da;\` ou abreviado: \`CUNHA, M. B. da.\` (a opção por abreviar prenomes deve ser uniforme em todo o trabalho).
-* **Obras com 1, 2 ou 3 autores:** Indicam-se obrigatoriamente os nomes de todos os autores, separados por **ponto e vírgula** seguido de um espaço:
-  * Ex.: \`ROSENFELD, Louis; MORVILLE, Peter; ARANGO, Jorge.\`
-* **Obras com 4 ou mais autores:**
-  * *Regra canônica da versão atualizada:* **Convém indicar todos os autores**.
-  * Permite-se, facultativamente, indicar apenas o primeiro autor seguido da expressão latina **et al.** (em fonte redonda ou itálica):
-  * Ex.: \`NONAKA, Ikujiro et al.\`
-  * *Pegadinha Cebraspe:* A banca afirma que "em obras com quatro ou mais autores é obrigatório o emprego de et al.". **ERRADO!** É facultativo.
-* **Organizadores, Compiladores e Coordenadores:**
-  * Quando não há um autor único, mas uma figura responsável pela compilação intelectual da coletânea, a entrada é feita pelo seu nome seguido da abreviatura da função entre parênteses:
-  * Ex.: \`FERREIRA, Sueli Mara Soares Pinto (org.).\` / \`TARAPANOFF, Kira (coord.).\`.
-
-#### B. Entrada de Autoria Institucional e Governamental
-* **Órgãos Governamentais de Administração Direta:** A entrada é feita obrigatoriamente pelo nome geográfico da respectiva jurisdição em letras maiúsculas:
-  * Federal: \`BRASIL. Congresso Nacional. Câmara dos Deputados.\`
-  * Estadual: \`SÃO PAULO (Estado). Secretaria da Educação.\`
-  * Municipal: \`RIO DE JANEIRO (Município). Secretaria Municipal de Cultura.\`
-* **Entidades Coletivas com Denominação Própria Distintiva:** Autarquias, universidades, empresas públicas e associações entram diretamente por seu nome oficial em letras maiúsculas:
-  * Ex.: \`UNIVERSIDADE DE BRASÍLIA.\` / \`EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS.\` / \`INSTITUTO BRASILEIRO DE INFORMAÇÃO EM CIÊNCIA E TECNOLOGIA.\`
-
-#### C. Obra sem Autoria Declarada (Anônima)
-* A entrada é feita diretamente pelo **título da obra**, com a **primeira palavra grafada em letras maiúsculas**:
-  * Ex.: \`DIAGNÓSTICO do setor editorial brasileiro. São Paulo: CBL, 1993.\`
-  * Se a obra iniciar por artigo (definido ou indefinido) ou monossílabo, este é incluído em letras maiúsculas juntamente com a palavra subsequente:
-  * Ex.: \`A BÍBLIA sagrada. Tradução de João Ferreira de Almeida...\`
-* *Atenção:* É expressamente proibido o uso da palavra "Anônimo" ou das iniciais "A.N." como cabeçalho de autoria.
-
----
-
-### 3. Destaque Tipográfico e Pontuação Canônica
-
-* **O Elemento que Recebe Destaque:**
-  * O **título principal da obra** deve ser destacado graficamente utilizando **negrito, itálico OU sublinhado** (o padrão deve ser uniforme em toda a lista).
-  * **O subtítulo NUNCA recebe destaque tipográfico!** É registrado em fonte redonda comum, separado do título por dois pontos:
-  * Ex.: \`VERGUEIRO, Waldomiro. **Seleção de materiais de informação**: princípios e técnicas. 3. ed. Brasília: Briquet de Lemos, 2010.\`
-  * *Proibição Terminante:* O uso de aspas para destacar títulos de livros é expressamente vedado na NBR 6023.
-* **Destaque em Partes de Coletâneas (*In:*):**
-  * O título do capítulo fica em fonte redonda normal. O elemento que recebe destaque tipográfico é o **título do livro que contém a parte**:
-  * Ex.: \`KOBASHI, Nair. Análise documentária. In: SMIT, Johanna (org.). **A representação do conhecimento**. São Paulo: Polis, 1993. p. 15-32.\`
-* **Destaque em Artigos de Periódicos:**
-  * O título do artigo permanece em fonte redonda comum. O elemento que recebe o destaque tipográfico é o **TÍTULO DA REVISTA / PERIÓDICO**:
-  * Ex.: \`LANCASTER, F. W. Ameaças à biblioteca tradicional. **Ciência da Informação**, Brasília, v. 24, n. 1, p. 10-15, jan./abr. 1995.\`
-
----
-
-### 4. Imprenta: Local, Editora, Edição e Casos de Omissão
-
-* **Indicação de Edição:**
-  * Registra-se a partir da **segunda edição**, em algarismos arábicos seguidos de ponto e da abreviatura da palavra na língua do texto: \`2. ed.\`, \`5. ed. rev. e ampl.\`, \`3rd ed.\`. A primeira edição **jamais se indica**.
-* **Omissões de Local e Editora (Sine Loco e Sine Nomine):**
-  * Quando não é possível identificar o local de publicação: utiliza-se entre colchetes a expressão latina abreviada \`[S.l.]\` (*sine loco*).
-  * Quando não é possível identificar a editora comercial: utiliza-se entre colchetes a expressão \`[s.n.]\` (*sine nomine*).
-  * Quando ambos faltam: indica-se \`[S.l.: s.n.]\`.
-  * Se o local for inferido com certeza embora não esteja expresso na obra: registra-se entre colchetes (ex.: \`[Brasília]\` ou \`[São Paulo?]\`).
-* **Regras Estritas para Abreviatura dos Meses:**
-  * Na indicação de datas de fascículos periódicos ou datas de acesso a documentos eletrônicos na Web, **todos os meses são abreviados pelas suas três primeiras letras seguidas de ponto final**:
-  * \`jan.\`, \`fev.\`, \`mar.\`, \`abr.\`, \`jun.\`, \`jul.\`, \`ago.\`, \`set.\`, \`out.\`, \`nov.\`, \`dez.\`.
-  * **A Exceção Inegociável da Norma:** O mês de **MAIO** possui quatro letras e **NÃO se abrevia** (grafa-se integralmente por extenso: \`maio\`).
-
----
-
-
-### 6. Atualizações Específicas da ABNT NBR 6023:2025 (3ª Edição)
-
-A leitura do texto técnico da 3ª edição da ABNT NBR 6023 (publicada em 21/05/2025) consolida cinco inovações cruciais para provas de concurso:
-1. **ISSN como Elemento Complementar (subseção 7.7.1):** O ISSN em publicações periódicas deixa de ser categorizado como elemento essencial e passa expressamente a elemento complementar.
-2. **Suplementos e Números Especiais (subseção 7.7.4):** A indicação de suplementos e números especiais, quando presentes no documento, passa a ser obrigatória logo após a data de publicação do fascículo.
-3. **Artigos Eletrônicos com DOI e e-localização (subseção 7.7.6):** A inclusão de identificador persistente (DOI) e da e-localização (*e-location ID*) passa a ser expressamente integrada na descrição de artigos eletrônicos.
-4. **Cidade do Evento Científico (subseção 7.8.1):** Em anais de eventos científicos, a indicação do local (cidade) de realização deixa de ser obrigatória quando essa informação não estiver disponível no documento consultado.
-5. **Data de Julgamento em Jurisprudência (subseção 7.11.3):** Para decisões judiciais, súmulas e acórdãos, a data de julgamento passa a ser elemento de indicação obrigatória na referência, sempre que disponível.
-
----
-
-### 5. Documentos Eletrônicos em Linha e Legislação
-
-* **Documentos Obtidos na Internet:**
-  * Registram-se todos os elementos essenciais da obra física, seguidos obrigatoriamente por:
-  * \`Disponível em: <URL ou URL direta>. Acesso em: dia mês abreviado ano.\`
-  * Ex.: \`Disponível em: https://www.camara.leg.br. Acesso em: 18 maio 2026.\`
-* **Legislação e Atos Normativos Federais:**
-  * Estrutura canônica:
-    $\\text{JURISDIÇÃO. } \\text{Tipo de Ato e Número, de dia mês ano. } \\text{Ementa oficial. } \\textbf{Veículo Oficial}, \\text{ Local, data de publicação. Seção, páginas.}$
-  * Ex.: \`BRASIL. Lei nº 14.133, de 1º de abril de 2021. Lei de Licitações e Contratos Administrativos. **Diário Oficial da União**, Brasília, Seção 1, p. 1, 1 abr. 2021.\`
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **NBR 10520 (Citações) (sub-8-2):** Regras de citação e remissão cruzada para referências bibliográficas.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **ABNT NBR 6023 (Versões 2018 e 2025)** estabelece as regras de elaboração de referências bibliográficas no Brasil e é fonte contínua de questões no Cebraspe:
-1. **Regras Gerais de Apresentação:**
-   - **Alinhamento:** Alinhadas **à margem esquerda** do texto (e não justificadas!) e com **espaçamento simples** entre linhas.
-   - **Separação:** Separadas entre si por um espaço simples em branco.
-   - **Destaque Tipográfico (Itálico, Negrito ou Sublinhado):** Aplicado uniformemente no **título da publicação** (ou no título do periódico). Nunca se destaca o subtítulo!
-2. **Autoria e Sobrenomes:**
-   - Entrada pelo último sobrenome em letras MAIÚSCULAS seguido dos prenomes.
-   - *Até 3 autores:* Indicam-se todos, separados por ponto e vírgula (\`;\`). Ex.: \`SILVA, José; SOUZA, Maria; PEREIRA, Carlos.\`
-   - *Mais de 3 autores:* Convenciona-se indicar apenas o primeiro seguido da expressão latina \`et al.\`, embora a norma faculte indicar todos os nomes caso seja necessário para a instituição.
-   - *Sobrenomes Compostos / Parentesco:* \`JÚNIOR\`, \`FILHO\`, \`NETO\`, \`SOBRINHO\` acompanham o sobrenome que os precede: \`SILVA FILHO, José da.\`
-   - *Responsabilidade Intelectual Destacada:* Organizadores, compiladores ou coordenadores levam indicação abreviada entre parênteses: \`(coord.)\`, \`(org.)\`.
-3. **Elementos Essenciais vs. Complementares:**
-   - **Livro no Todo:** AUTOR. **Título**: subtítulo. Edição. Local: Editora, data.
-   - **Capítulo de Livro (Autor do capítulo = Autor do livro):** AUTOR DO CAPÍTULO. Título do capítulo. *In*: **Título do livro**...
-   - **Artigo de Periódico:** AUTOR. Título do artigo. **Título da Revista**, local, volume, número, páginas inicial e final, data.
-   - **Documento Online:** Acrescenta-se obrigatoriamente: \`Disponível em: URL. Acesso em: dia mês abreviado. ano.\` (O mês de maio não se abrevia!).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Normalização de Parecer Técnico na Consultoria Legislativa):** Ao revisar as referências bibliográficas de uma Nota Técnica sobre a reforma tributária elaborada para a Mesa Diretora, o bibliotecário aplica a NBR 6023:
-  \`BRASIL. Congresso Nacional. Câmara dos Deputados. **Regimento interno da Câmara dos Deputados**. Brasília: Edições Câmara, 2023.\`
-  O título recebe o negrito, o órgão entra padronizado e o alinhamento fica rigorosamente à esquerda.
-- **Cenário 2 (Referência de Documento Eletrônico no Portal LexML):** O bibliotecário referencia um projeto de lei obtido na web:
-  \`BRASIL. Congresso Nacional. Câmara dos Deputados. **Projeto de Lei nº 2.630, de 2020**. Institui a Lei Brasileira de Liberdade, Responsabilidade e Transparência na Internet. Brasília: Câmara dos Deputados, 2020. Disponível em: https://www.camara.leg.br/proposicoesWeb/... Acesso em: 15 out. 2024.\`
-- **Cenário 3 (Abreviação de Meses na Revista de Informação Legislativa):** Ao catalogar artigos de revistas para a RVBI, abrevia-se os meses com três letras seguidas de ponto (\`jan.\`, \`fev.\`, \`mar.\`, \`abr.\`, \`jun.\`, \`jul.\`, \`ago.\`, \`set.\`, \`out.\`, \`nov.\`, \`dez.\`), exceto o mês de **maio**, que se escreve por extenso sem ponto (\`maio\`).
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Tipo de Documento | Ordem dos Elementos Essenciais | Onde Fica o Destaque Tipográfico |
-| :--- | :--- | :--- |
-| **Monografia (Livro)** | AUTOR. Título: subtítulo. Ed. Local: Editora, ano. | No **Título** principal (subtítulo sem destaque) |
-| **Artigo de Revista** | AUTOR. Título do artigo. Título da Revista, dados. | No **Título da Revista** (o artigo fica sem destaque) |
-| **Capítulo de Livro** | AUTOR DO CAP. Título do cap. *In*: AUTOR. Título do livro... | No **Título do Livro** que contém o capítulo |
-| **Legislação / Lei** | JURISDIÇÃO. Tipo, número e data. Ementa... | Na **Identificação do Ato** (ex.: **Lei nº 14.133...**) |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Destaque no Subtítulo:** A banca coloca em negrito tanto o título quanto o subtítulo após os dois pontos (\`**Direito Constitucional: Teoria e Prática**\`). **Gabarito: ERRADO.** O subtítulo é grafado em caracteres normais, sem negrito e sem itálico!
-- **Alinhamento Justificado das Referências:** Afirmar que a NBR 6023 prescreve o alinhamento justificado para a lista de referências ao final do trabalho. **Gabarito: ERRADO.** O alinhamento obrigatório segundo a ABNT é à **margem esquerda**.
-- **Abreviação do Mês de Maio:** A banca escreve \`mai.\` na data de acesso web. **Gabarito: ERRADO.** Pela norma ABNT, todos os meses são abreviados com 3 letras e ponto, exceto **maio**, que é escrito integralmente por extenso (\`maio\`).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6023:2018/Emenda 1:2020: Informação e documentação — Referências — Elaboração*. Rio de Janeiro: ABNT, 2020.
-- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019. (O guia mais utilizado por universidades e bancas).
-- **MEDEIROS, João Bosco.** *Redação científica: a prática de fichamentos, resumos, resenhas*. 13. ed. São Paulo: Atlas, 2019.
-- **IBICT.** *Manual de Normalização de Documentos Científicos*. Brasília: IBICT, 2021.
-- **CÂMARA DOS DEPUTADOS.** *Manual de Editoração das Edições Câmara*. Brasília: Coordenação Edições Câmara, 2022.
-
-### Pausa de Recuperação Ativa: Elementos Essenciais da Referência
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Para uma monografia no todo segundo a NBR 6023, quais são os elementos estritamente essenciais e qual o destaque tipográfico obrigatório do título? Lembre-se: Autor, Título (em destaque: negrito, itálico ou sublinhado), Edição, Local, Editora e Ano.
-`,
-  checkpoints: [
-    {
-      id: 'cp-8-1-1',
-      pergunta: 'Micro-Checkpoint 1: Destaque Tipográfico na NBR 6023',
-      item: 'Na elaboração de referências conforme a norma ABNT NBR 6023, o título e o subtítulo da obra devem receber o mesmo destaque tipográfico, podendo ser empregado o itálico, o negrito ou aspas duplas.',
-      gabarito: 'E',
-      justificativa: 'Errado! O subtítulo NUNCA recebe destaque tipográfico (permanece em fonte redonda). Além disso, aspas duplas são expressamente proibidas para destacar títulos de livros na NBR 6023.',
-    },
-    {
-      id: 'cp-8-1-2',
-      pergunta: 'Micro-Checkpoint 2: Indicação de Mês na NBR 6023',
-      item: 'Ao se referenciar um documento acessado em sítio da Internet segundo a ABNT NBR 6023, todos os meses do ano devem ser abreviados pelas suas três primeiras letras seguidas de ponto, excetuando-se apenas o mês de maio, que deve ser grafado por extenso.',
-      gabarito: 'C',
-      justificativa: 'Correto! Essa é uma das regras mais minuciosas da ABNT: maio não se abrevia.',
-    },
-    {
-      id: 'cp-8-1-3',
-      pergunta: 'Micro-Checkpoint 3: ABNT NBR 6023 e Autoria Institucional',
-      item: 'De acordo com a norma ABNT NBR 6023, publicações de órgãos governamentais de administração direta devem ter sua entrada de autoria realizada pelo nome do órgão subordinado, omitindo-se a jurisdição geográfica correspondente.',
-      gabarito: 'E',
-      justificativa: 'Errado! A entrada oficial de órgãos governamentais deve ser iniciada pelo nome geográfico da jurisdição que o subordina (ex: BRASIL. Congresso Nacional. Câmara dos Deputados).',
-    },
+  "titulo": "Referência: perguntas que orientam o modelo",
+  "colunas": [
+    "Situação",
+    "Decisão",
+    "Cuidado"
   ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-8-1-1',
-        periodo: '2002',
-        disciplina: 'NBR 6023:2002',
-        focoPrincipal: 'Versão histórica anterior que vigorou por 16 anos',
-        figuraChave: 'ABNT / CB-014',
-      },
-      {
-        id: 'tl-8-1-2',
-        periodo: '2025 (Vigente)',
-        disciplina: 'NBR 6023:2025 (3ª Edição)',
-        focoPrincipal: 'Publicação da 3ª edição da NBR 6023 em 21.05.2025: consolidação de formatos digitais, flexibilização de quatro ou mais autores e alinhamento à margem esquerda',
-        figuraChave: 'Comitê Brasileiro de Documentação (CB-014)',
-      },
+  "linhas": [
+    [
+      "Livro no todo",
+      "Identificar obra e responsabilidade",
+      "Não confundir com capítulo"
     ],
-    autores: [
-      {
-        id: 'aut-8-1-1',
-        nome: 'ABNT / CB-014',
-        ano: 2025,
-        obraPrincipal: 'ABNT NBR 6023:2025: Informação e documentação — Referências — Elaboração (3ª Edição)',
-        ideiaChave: 'Padronização nacional de elementos essenciais e complementares para listas de referências bibliográficas.',
-        chipPegadinha: 'A NBR 6023 regula as referências no final do texto; quem regula as citações no corpo é a NBR 10520.',
-      },
-      {
-        id: 'aut-8-1-2',
-        nome: 'Antonio Agenor Briquet de Lemos',
-        ano: 2000,
-        obraPrincipal: 'Para uma história da normalização bibliográfica no Brasil',
-        ideiaChave: 'Pioneirismo na transposição das normas da ISO (ISO 690) para o sistema normativo brasileiro.',
-        chipPegadinha: 'A NBR 6023 adota a lógica internacional da ISO 690 adaptada à prática bibliotecária brasileira.',
-      },
+    [
+      "Capítulo",
+      "Identificar parte, obra e localização",
+      "Organizador do todo não é automaticamente autor da parte"
     ],
-    pegadinhas: [
-      {
-        id: 'peg-8-1-1',
-        afirmacao: 'Conforme a ABNT NBR 6023, caso uma obra monográfica tenha sido publicada em sua primeira edição, o elemento "1. ed." deve constar compulsoriamente como elemento essencial da referência.',
-        gabarito: 'E',
-        porQue: 'A primeira edição NUNCA é indicada. A menção de edição na NBR 6023 só é registrada a partir da segunda edição (ex.: "2. ed.").',
-      },
-      {
-        id: 'peg-8-1-2',
-        afirmacao: 'Na referência de um artigo extraído de um periódico científico, o título do artigo é o elemento que deve receber destaque em negrito ou itálico.',
-        gabarito: 'E',
-        porQue: 'Em artigos de periódicos, quem recebe o destaque tipográfico é o TÍTULO DA REVISTA/PERIÓDICO, e não o título do artigo.',
-      },
-      {
-        id: 'peg-8-1-3',
-        afirmacao: 'Na compilação de referências bibliográficas conforme a ABNT NBR 6023, o alinhamento do texto deve ser justificado e com recuo de parágrafo de 1,25 cm na primeira linha.',
-        gabarito: 'E',
-        porQue: 'A norma determina alinhamento exclusivo À MARGEM ESQUERDA (sem justificação) e sem recuo de parágrafo, com espaçamento simples entre linhas.',
-      },
+    [
+      "Artigo",
+      "Identificar artigo e periódico",
+      "Título do artigo e da publicação cumprem funções distintas"
     ],
+    [
+      "Online",
+      "Manter modelo e acrescentar acesso pertinente",
+      "URL não substitui identificação"
+    ],
+    [
+      "Sem autoria",
+      "Entrada pelo título",
+      "Não inventar Anônimo"
+    ]
+  ]
+},
+  teoriaDensaMarkdown: "### O que uma referência precisa permitir ao leitor\n\nUma referência funciona como uma identificação estruturada. O leitor deve conseguir reconhecer o documento que sustentou a informação e distingui-lo de outros. Não se trata apenas de colocar sobrenome em maiúsculas. Uma referência visualmente elegante pode apontar para a obra errada; uma lista uniforme pode estar incompleta para o tipo de recurso consultado.\n\nA **NBR 6023:2025** é a edição trabalhada neste capítulo. A seção 4 distingue elementos essenciais e complementares. **Essenciais** são os necessários à identificação, definidos conforme o tipo documental. **Complementares** acrescentam caracterização. Não existe uma lista única de essenciais válida de modo idêntico para livro, artigo, legislação, vídeo e página de site.\n\n**Exemplo resolvido.** Você consultou um artigo em uma revista. Registrar apenas autora, título do artigo e ano deixa de identificar adequadamente a publicação hospedeira e a localização pertinentes. Copiar um modelo de livro e acrescentar uma URL não resolve essa falta. Primeiro reconheça o objeto: artigo; depois examine os elementos daquele modelo.\n\nOs dados devem refletir o documento consultado. Quando a informação for obtida de outra fonte ou precisar de indicação específica, use a convenção prevista, em vez de inventar editora, data ou cidade. A ausência de um dado não autoriza preencher com aquilo que parece provável. Colchetes também não são licença para adivinhação: distinguem informação suprida nas condições da norma.\n\n**Roteiro de montagem:** identifique tipo e parte/no todo; recolha os elementos do documento; determine responsabilidade e entrada; organize a sequência do modelo; acrescente meio e acesso quando pertinentes; confira uniformidade. Essa sequência é um procedimento didático, não uma lista de passos obrigatoriamente transcrita da norma.\n\nDiferencie referência de citação: uma chamada no texto remete à fonte e é tratada pela NBR 10520; a referência descreve o documento e é tratada pela NBR 6023. Uma não substitui a outra.\n\n### Autoria pessoal: transcrever sem transformar uma permissão em obrigação\n\nNa seção 8.1.1, a autoria pessoal começa pelo sobrenome seguido dos demais nomes, com a apresentação pertinente. Os autores são separados por ponto e vírgula. A padronização dos nomes precisa respeitar as informações e os casos especiais; não reduza toda estrutura de nome a “pegar a última palavra”, pois sobrenomes compostos, parentesco e outras convenções exigem tratamento.\n\nCom **até três autores**, indicam-se todos. Com **quatro ou mais**, convém indicar todos e é permitido indicar o primeiro seguido de *et al.*. O contraste decisivo é entre recomendação e alternativa permitida. “Todos são obrigatórios em qualquer situação” desconsidera a permissão; “com três autores pode-se sempre abreviar a lista por et al.” transporta a alternativa para a faixa errada.\n\n**Exemplo didático fictício.** Livro assinado por Ana Lima, Bruno Costa e Carla Reis. A entrada reúne os três, na ordem de responsabilidade apresentada no documento: `LIMA, Ana; COSTA, Bruno; REIS, Carla.` Se uma quarta pessoa também for autora, passa a existir a alternativa de primeiro autor seguido de *et al.*, sem que os demais dados bibliográficos desapareçam.\n\nOrganizador, coordenador e editor não são automaticamente o autor intelectual de cada capítulo. Em obra coletiva, a responsabilidade pelo todo e a responsabilidade pela parte devem ser distinguidas. O indicador de responsabilidade acompanha o nome conforme o modelo; não deve ser inventado a partir de suposição sobre a profissão da pessoa.\n\n**Contraexemplo:** duas referências do mesmo autor trazem prenomes por extenso numa ocorrência e abreviados noutra sem critério. O problema é de padronização. Já duas pessoas diferentes com sobrenome igual não devem ser fundidas como um único autor por mera semelhança. A normalização melhora a identificação; não pode apagar diferenças reais.\n\n### Autoria institucional e ausência de autoria\n\nA seção 8.1.2 trata de pessoa jurídica. A forma conhecida ou destacada no documento orienta a apresentação, com atenção às regras específicas. Para instituição governamental da administração direta, o nome é precedido pelo órgão superior ou pela jurisdição pertinente. Quando houver denominação específica que a identifique, examine a regra correspondente antes de impor uma cadeia hierárquica a toda instituição.\n\n**Exemplo próprio:** um relatório da Câmara dos Deputados pode exigir a representação da jurisdição e da estrutura institucional pertinente: `BRASIL. Congresso Nacional. Câmara dos Deputados.` Não se deve colocar apenas o nome da unidade subordinada e omitir todos os elementos necessários à identificação. Já uma universidade de denominação específica pede análise distinta, e não uma cópia automática da entrada de um ministério.\n\n**Sem autoria identificada**, a entrada pelo título não equivale a criar o autor “Anônimo”. A referência deve descrever o que se conhece. A primeira palavra recebe o tratamento de entrada; se o título começa por artigo definido ou indefinido, a seção 8.2.1 determina maiúsculas no artigo e na palavra subsequente. Não descarte o artigo com base numa regra de outro sistema.\n\n**Exemplo fictício:** `OS ARQUIVOS da memória: práticas de organização.` Aqui, OS e ARQUIVOS identificam o início da entrada pelo título. Isso é diferente de destacar tipograficamente um título com autor conhecido. Entrada e destaque são decisões relacionadas, mas não idênticas.\n\nAo resolver o item, responda: existe responsabilidade identificada? É pessoa física, jurídica ou obra sem indicação? Há órgão subordinado ou denominação própria? A referência é do todo ou de uma parte? Essa análise evita tentar resolver tudo por caixa alta.\n\n### Tipos documentais: do livro ao artigo e à parte de obra\n\nOs modelos da seção 7 especificam a identificação de diferentes recursos. A estrutura deve corresponder ao objeto consultado. **Livro no todo**, **capítulo** e **artigo** não são categorias intercambiáveis: um capítulo integra uma monografia; um artigo integra uma publicação periódica. O autor pode ser o mesmo, mas a relação documental muda.\n\n**Livro fictício:** `LIMA, Ana. Gestão de acervos: decisões e práticas. 2. ed. Brasília, DF: Editora Exemplo, 2025.` O título destacado no modelo é o da obra; o subtítulo a complementa e não recebe automaticamente o mesmo destaque. Os dados foram criados para exercício, não constituem uma referência a livro real.\n\n**Parte de livro fictício:** `COSTA, Bruno. Seleção de documentos. In: LIMA, Ana (org.). Gestão de acervos: decisões e práticas. Brasília, DF: Editora Exemplo, 2025. p. 21-35.` A entrada começa pela responsabilidade da parte. Depois de `In:`, identifica-se a obra hospedeira e, ao final, a localização da parte. Não atribua a autoria do capítulo ao organizador apenas por ele aparecer na capa do livro.\n\n**Artigo fictício:** `REIS, Carla. Indicadores em bibliotecas. Revista Exemplo de Informação, Brasília, DF, v. 4, n. 2, p. 10-22, jul./dez. 2025.` O nome da publicação periódica identifica a fonte hospedeira; volume, número e localização cumprem papéis próprios. Na aplicação do destaque, não troque o título do artigo pelo título da revista.\n\n| Objeto consultado | Relação que precisa ficar clara |\n|---|---|\n| Livro no todo | Responsabilidade e identificação da obra |\n| Capítulo | Parte consultada e obra que a contém |\n| Artigo | Artigo e publicação periódica hospedeira |\n| Documento online | Tipo documental e condições de disponibilidade/acesso pertinentes |\n\nEstes modelos ensinam relações estruturais. Tipos como legislação, jurisprudência, evento, tese, audiovisual e documento cartográfico têm particularidades na norma. Ao aplicar um modelo novo, consulte sua seção, em vez de substituir todo recurso por “página da internet”.\n\n### Disponibilidade online, datas e informações não identificadas\n\n“Está na internet” descreve uma condição de acesso, não um tipo documental único. Pode haver um livro digital, artigo, relatório, lei, vídeo ou página institucional. A seção 6.6 estabelece os dados de disponibilidade e acesso aplicáveis ao recurso online. Eles se somam à identificação pertinente; não substituem título e responsabilidade por uma URL isolada.\n\n**Exemplo resolvido.** Um relatório foi publicado em 2024 e consultado em 2026. A data de publicação identifica a edição/documento; a data de acesso registra a consulta. Usar 2026 como ano de publicação sem evidência alteraria o dado bibliográfico. Do mesmo modo, o ano de copyright, o ano de atualização e o de publicação não devem ser fundidos sem analisar o recurso.\n\nA data de acesso usa a forma pertinente de dia, mês e ano. No **Anexo A**, a tabela em português apresenta `jan., fev., mar., abr., maio, jun., jul., ago., set., out., nov., dez.`. Maio não é reduzido a “mai.” nesse quadro. Para documentos e informações em outros idiomas, é preciso observar a regra aplicável e a tabela correspondente; não generalize a frase “três letras e ponto” a todas as línguas.\n\nQuando local ou editora não forem identificados, examine a convenção indicada na seção de transcrição pertinente, em vez de presumir a cidade da instituição que digitalizou o arquivo. A digitalização por uma biblioteca não transforma essa biblioteca em editora da obra original. A data aproximada, quando admitida, também deve representar informação fundamentada e sinalizada, não um ano conveniente.\n\nEm provas antigas, pode haver regras de outra edição. A NBR 6023:2002 e as edições posteriores não devem ser sobrepostas retroativamente. O julgamento de uma questão histórica exige saber a referência temporal pedida; a aula atual não deve chamar um item antigo de errado apenas porque a regra mudou. Quando o enunciado omite edição relevante, esse é um ponto de revisão editorial.\n\n### Padronização e revisão: conferir relações, não só pontuação\n\nAs regras gerais da seção 6 tratam da sequência, alinhamento, espaçamento, pontuação, destaque e uso de elementos complementares. Nas listas, as referências são alinhadas à esquerda e elaboradas em espaço simples, separadas por linha em branco de espaço simples. Notas de rodapé têm tratamento específico; não se deve transferir automaticamente toda regra visual da lista para qualquer contexto.\n\nO recurso tipográfico usado para destacar o elemento título precisa ser uniforme conforme o modelo. Negrito, itálico ou sublinhado são alternativas indicadas na regra geral; aspas não são uma quarta alternativa equivalente. Há particularidades para entradas pelo título, sem indicação de autoria/responsabilidade. Logo, “destacar título e subtítulo de qualquer referência exatamente do mesmo modo” é uma regra excessiva.\n\n**Revisão em cinco perguntas:** o documento está correto? A responsabilidade e a entrada correspondem ao caso? A publicação hospedeira foi identificada quando necessária? Elementos e sequência seguem o modelo? Tipografia, abreviações e complementares mantêm coerência?\n\n**Caso de comparação.** Dois artigos estão identificados com seus respectivos periódicos. Um foi referenciado só com URL e acesso; o outro possui todos os dados pertinentes. O primeiro não se torna completo apenas porque segue o mesmo estilo de fonte e pontuação. Inversamente, duas referências de tipos diferentes podem ter elementos distintos sem violar uniformidade. A regra não manda tornar um capítulo idêntico a um livro no todo.\n\nA leitura de um item deve separar obrigação, recomendação, permissão e hipótese. Nas questões sobre quatro ou mais autores, esse cuidado é decisivo. Um único “deve” no lugar de “permite-se” pode alterar a conclusão, mas a palavra só importa porque modifica a força da regra específica.\n\nPara estudar ativamente, corrija uma referência com dados fornecidos e explique cada alteração. Não complete o que o exercício não informa. Quando a tarefa admite opções normativas, apresente uma solução válida e declare a opção usada; não marque como errada outra alternativa permitida apenas por ser diferente do exemplo.",
+  teoriaDidaticaMarkdown: "### Revisão: NBR 6023:2025\n\n1. Identifique o documento: todo, parte, artigo, legislação ou outro tipo. “Online” não substitui essa classificação.\n2. Recolha dados do recurso consultado. Essenciais variam por tipo; complementares melhoram a caracterização.\n3. Até três autores: indicar todos. Quatro ou mais: convém todos; permite-se primeiro e et al.\n4. Pessoa jurídica exige contexto institucional. Sem autoria identificada, use entrada pelo título; não invente “Anônimo”. Em entrada por título iniciado por artigo, artigo e palavra seguinte ficam em maiúsculas.\n5. Capítulo identifica parte e livro; artigo identifica artigo e periódico. A publicação hospedeira importa.\n6. Disponibilidade e acesso complementam a referência online. A data de acesso não vira ano de publicação.\n7. Uniformidade não significa elementos idênticos para todos os tipos. Distinga título, subtítulo e título da fonte hospedeira.\n8. Em português, a tabela usa maio por extenso. Não estenda essa regra a todos os idiomas.\n\n**Recupere:** por que uma URL não basta? Quando et al. é alternativa permitida? Como a referência do capítulo distingue autoria da parte e responsabilidade pelo todo?\n",
+  checkpoints: [
+  {
+    "id": "cp-8-1-1",
+    "pergunta": "Micro-Checkpoint 1: Destaque Tipográfico na NBR 6023",
+    "item": "Na elaboração de referências conforme a norma ABNT NBR 6023, o título e o subtítulo da obra devem receber o mesmo destaque tipográfico, podendo ser empregado o itálico, o negrito ou aspas duplas.",
+    "gabarito": "E",
+    "justificativa": "A regra geral prevê negrito, itálico ou sublinhado para o elemento título, com uniformidade e particularidades por modelo; aspas não são alternativa equivalente. O subtítulo não recebe automaticamente o mesmo destaque do título. Deve-se distinguir ainda a entrada pelo título quando não há autoria.",
+    "fonte": "ABNT NBR 6023:2025, seções 6.7 e 8.2.",
+    "versao_correta": "O destaque do elemento título segue a regra e o tipo documental, com recurso uniforme; não se estende automaticamente ao subtítulo."
   },
+  {
+    "id": "cp-8-1-2",
+    "pergunta": "Micro-Checkpoint 2: Indicação de Mês na NBR 6023",
+    "item": "Na tabela de meses em português do Anexo A da ABNT NBR 6023:2025, os meses são apresentados por três letras e ponto, com exceção de maio, grafado por extenso.",
+    "gabarito": "C",
+    "justificativa": "O item delimita idioma, edição e tabela. A coluna portuguesa apresenta jan., fev., mar., abr., maio, jun., jul., ago., set., out., nov. e dez. A generalização para todos os idiomas seria inadequada.",
+    "fonte": "ABNT NBR 6023:2025, Anexo A, coluna Português."
+  },
+  {
+    "id": "cp-8-1-3",
+    "pergunta": "Micro-Checkpoint 3: ABNT NBR 6023 e Autoria Institucional",
+    "item": "De acordo com a norma ABNT NBR 6023, publicações de órgãos governamentais de administração direta devem ter sua entrada de autoria realizada pelo nome do órgão subordinado, omitindo-se a jurisdição geográfica correspondente.",
+    "gabarito": "E",
+    "justificativa": "A instituição governamental da administração direta é precedida do órgão superior ou da jurisdição pertinente. O item manda omitir o elemento que contextualiza a instituição e por isso não segue a regra. Denominações específicas exigem exame do caso correspondente.",
+    "fonte": "ABNT NBR 6023:2025, seção 8.1.2.2.",
+    "versao_correta": "A entrada da instituição governamental da administração direta observa o órgão superior ou a jurisdição pertinente, conforme a norma."
+  },
+  {
+    "id": "rt-8-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Os elementos essenciais de uma referência variam conforme o tipo de documento, razão pela qual um modelo de livro não pode ser aplicado mecanicamente a um artigo de periódico.",
+    "gabarito": "C",
+    "justificativa": "A seção 4.1 vincula os elementos ao tipo documental. Um artigo precisa ser identificado em sua publicação hospedeira; um livro no todo tem outra estrutura. Primeiro classifique o objeto que foi consultado e só então selecione o modelo.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-8-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Ao referenciar um artigo, deve-se substituir o título do periódico pelo título de um livro do mesmo autor para uniformizar a lista.",
+    "gabarito": "E",
+    "justificativa": "Uniformidade é coerência de apresentação, não troca dos dados do documento. O artigo pertence ao periódico identificado, e sua referência precisa preservar essa relação. A identidade do autor não autoriza substituir a fonte.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar",
+    "versao_correta": "A referência do artigo deve identificar o próprio artigo e o periódico em que foi publicado."
+  },
+  {
+    "id": "rt-8-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em obra com quatro autores, a NBR 6023:2025 permite indicar apenas o primeiro seguido de et al., embora recomende indicar todos.",
+    "gabarito": "C",
+    "justificativa": "A seção 8.1.1.2 diferencia recomendação e permissão. Convém não equivale a obrigação exclusiva. A opção não dispensa seguir a apresentação coerente dos nomes e demais elementos.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-8-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A inexistência de autor identificado permite iniciar a referência com ANÔNIMO, dispensando a entrada pelo título.",
+    "gabarito": "E",
+    "justificativa": "Quando não há indicação de autoria ou responsabilidade, a entrada é feita pelo título, conforme o modelo aplicável. Não se deve inventar um nome de autor para preencher o campo.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar",
+    "versao_correta": "Sem autoria ou responsabilidade identificada, a entrada é feita pelo título, conforme a norma."
+  },
+  {
+    "id": "rt-8-1-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em uma referência com entrada pelo título iniciado por artigo, devem ficar em maiúsculas o artigo e a palavra seguinte, conforme a regra específica da NBR 6023:2025.",
+    "gabarito": "C",
+    "justificativa": "A seção 8.2.1 trata dessa situação. No exemplo didático OS ARQUIVOS da memória, o artigo não é simplesmente descartado. A regra de entrada da referência não deve ser substituída por regra de ordenação de outro sistema.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-8-1-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Adicionar a data de acesso a um documento online permite omitir seu título, porque a data torna o recurso identificável por si só.",
+    "gabarito": "E",
+    "justificativa": "URL e data de acesso complementam os elementos de identificação pertinentes ao tipo documental. Não substituem título, autoria quando identificada e demais dados exigidos pelo modelo.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar",
+    "versao_correta": "O documento online deve conservar os elementos pertinentes ao seu tipo e acrescentar os dados de disponibilidade e acesso aplicáveis."
+  },
+  {
+    "id": "rt-8-1-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma referência de capítulo precisa identificar tanto a parte consultada quanto a obra que a contém.",
+    "gabarito": "C",
+    "justificativa": "O leitor precisa localizar a unidade citada e sua publicação hospedeira. O modelo de parte de monografia articula responsabilidade e título da parte, In:, dados da obra e localização da parte, conforme o caso.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-8-1-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A opção por um recurso de destaque tipográfico deve ser aplicada de modo coerente ao elemento que recebe destaque nos modelos, sem presumir que o título da parte e o da obra hospedeira tenham a mesma função.",
+    "gabarito": "C",
+    "justificativa": "A seção 6.7 exige padronização. O elemento destacado depende do tipo de referência: em artigo, a publicação periódica é diferente do título do artigo. A coerência não é destacar indiscriminadamente todos os títulos.",
+    "fonte": "ABNT NBR 6023:2025, seções 4, 6, 7 e 8 e Anexo A; exemplar disponível no acervo do projeto.",
+    "editalRef": "Bloco D - Item 5.1 e 5.2",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-8-1-fonte-nbr6023",
+      "nome": "ABNT NBR 6023:2025 — Referências — Elaboração",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 6023:2025 — Referências — Elaboração",
+      "ideiaChave": "Seção 4 (elementos); seção 6 (regras gerais); seção 7 (modelos); 8.1 (responsabilidade), 8.2 (título), transcrição e datas; Anexo A (meses). Exemplar do acervo ABNT do projeto. Exemplos bibliográficos da aula são fictícios e didáticos.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-8-1-6",
+      "afirmacao": "Adicionar a data de acesso a um documento online permite omitir seu título, porque a data torna o recurso identificável por si só.",
+      "gabarito": "E",
+      "porQue": "URL e data de acesso complementam os elementos de identificação pertinentes ao tipo documental. Não substituem título, autoria quando identificada e demais dados exigidos pelo modelo."
+    },
+    {
+      "id": "memoria-rt-8-1-7",
+      "afirmacao": "Uma referência de capítulo precisa identificar tanto a parte consultada quanto a obra que a contém.",
+      "gabarito": "C",
+      "porQue": "O leitor precisa localizar a unidade citada e sua publicação hospedeira. O modelo de parte de monografia articula responsabilidade e título da parte, In:, dados da obra e localização da parte, conforme o caso."
+    },
+    {
+      "id": "memoria-rt-8-1-8",
+      "afirmacao": "A opção por um recurso de destaque tipográfico deve ser aplicada de modo coerente ao elemento que recebe destaque nos modelos, sem presumir que o título da parte e o da obra hospedeira tenham a mesma função.",
+      "gabarito": "C",
+      "porQue": "A seção 6.7 exige padronização. O elemento destacado depende do tipo de referência: em artigo, a publicação periódica é diferente do título do artigo. A coerência não é destacar indiscriminadamente todos os títulos."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-8-1-bloco-1",
+    "titulo": "O que uma referência precisa permitir ao leitor",
+    "objetivos": [
+      "Selecionar o modelo pelo documento consultado e distinguir elementos essenciais e complementares."
+    ],
+    "conteudo": "Uma referência funciona como uma identificação estruturada. O leitor deve conseguir reconhecer o documento que sustentou a informação e distingui-lo de outros. Não se trata apenas de colocar sobrenome em maiúsculas. Uma referência visualmente elegante pode apontar para a obra errada; uma lista uniforme pode estar incompleta para o tipo de recurso consultado.\n\nA **NBR 6023:2025** é a edição trabalhada neste capítulo. A seção 4 distingue elementos essenciais e complementares. **Essenciais** são os necessários à identificação, definidos conforme o tipo documental. **Complementares** acrescentam caracterização. Não existe uma lista única de essenciais válida de modo idêntico para livro, artigo, legislação, vídeo e página de site.\n\n**Exemplo resolvido.** Você consultou um artigo em uma revista. Registrar apenas autora, título do artigo e ano deixa de identificar adequadamente a publicação hospedeira e a localização pertinentes. Copiar um modelo de livro e acrescentar uma URL não resolve essa falta. Primeiro reconheça o objeto: artigo; depois examine os elementos daquele modelo.\n\nOs dados devem refletir o documento consultado. Quando a informação for obtida de outra fonte ou precisar de indicação específica, use a convenção prevista, em vez de inventar editora, data ou cidade. A ausência de um dado não autoriza preencher com aquilo que parece provável. Colchetes também não são licença para adivinhação: distinguem informação suprida nas condições da norma.\n\n**Roteiro de montagem:** identifique tipo e parte/no todo; recolha os elementos do documento; determine responsabilidade e entrada; organize a sequência do modelo; acrescente meio e acesso quando pertinentes; confira uniformidade. Essa sequência é um procedimento didático, não uma lista de passos obrigatoriamente transcrita da norma.\n\nDiferencie referência de citação: uma chamada no texto remete à fonte e é tratada pela NBR 10520; a referência descreve o documento e é tratada pela NBR 6023. Uma não substitui a outra.",
+    "checkpointIds": [
+      "rt-8-1-1"
+    ]
+  },
+  {
+    "id": "sub-8-1-bloco-2",
+    "titulo": "Autoria pessoal: transcrever sem transformar uma permissão em obrigação",
+    "objetivos": [
+      "Aplicar as regras de até três e de quatro ou mais autores."
+    ],
+    "conteudo": "Na seção 8.1.1, a autoria pessoal começa pelo sobrenome seguido dos demais nomes, com a apresentação pertinente. Os autores são separados por ponto e vírgula. A padronização dos nomes precisa respeitar as informações e os casos especiais; não reduza toda estrutura de nome a “pegar a última palavra”, pois sobrenomes compostos, parentesco e outras convenções exigem tratamento.\n\nCom **até três autores**, indicam-se todos. Com **quatro ou mais**, convém indicar todos e é permitido indicar o primeiro seguido de *et al.*. O contraste decisivo é entre recomendação e alternativa permitida. “Todos são obrigatórios em qualquer situação” desconsidera a permissão; “com três autores pode-se sempre abreviar a lista por et al.” transporta a alternativa para a faixa errada.\n\n**Exemplo didático fictício.** Livro assinado por Ana Lima, Bruno Costa e Carla Reis. A entrada reúne os três, na ordem de responsabilidade apresentada no documento: `LIMA, Ana; COSTA, Bruno; REIS, Carla.` Se uma quarta pessoa também for autora, passa a existir a alternativa de primeiro autor seguido de *et al.*, sem que os demais dados bibliográficos desapareçam.\n\nOrganizador, coordenador e editor não são automaticamente o autor intelectual de cada capítulo. Em obra coletiva, a responsabilidade pelo todo e a responsabilidade pela parte devem ser distinguidas. O indicador de responsabilidade acompanha o nome conforme o modelo; não deve ser inventado a partir de suposição sobre a profissão da pessoa.\n\n**Contraexemplo:** duas referências do mesmo autor trazem prenomes por extenso numa ocorrência e abreviados noutra sem critério. O problema é de padronização. Já duas pessoas diferentes com sobrenome igual não devem ser fundidas como um único autor por mera semelhança. A normalização melhora a identificação; não pode apagar diferenças reais.",
+    "checkpointIds": [
+      "rt-8-1-3"
+    ]
+  },
+  {
+    "id": "sub-8-1-bloco-3",
+    "titulo": "Autoria institucional e ausência de autoria",
+    "objetivos": [
+      "Escolher a entrada sem confundir órgão subordinado e entidade de denominação própria."
+    ],
+    "conteudo": "A seção 8.1.2 trata de pessoa jurídica. A forma conhecida ou destacada no documento orienta a apresentação, com atenção às regras específicas. Para instituição governamental da administração direta, o nome é precedido pelo órgão superior ou pela jurisdição pertinente. Quando houver denominação específica que a identifique, examine a regra correspondente antes de impor uma cadeia hierárquica a toda instituição.\n\n**Exemplo próprio:** um relatório da Câmara dos Deputados pode exigir a representação da jurisdição e da estrutura institucional pertinente: `BRASIL. Congresso Nacional. Câmara dos Deputados.` Não se deve colocar apenas o nome da unidade subordinada e omitir todos os elementos necessários à identificação. Já uma universidade de denominação específica pede análise distinta, e não uma cópia automática da entrada de um ministério.\n\n**Sem autoria identificada**, a entrada pelo título não equivale a criar o autor “Anônimo”. A referência deve descrever o que se conhece. A primeira palavra recebe o tratamento de entrada; se o título começa por artigo definido ou indefinido, a seção 8.2.1 determina maiúsculas no artigo e na palavra subsequente. Não descarte o artigo com base numa regra de outro sistema.\n\n**Exemplo fictício:** `OS ARQUIVOS da memória: práticas de organização.` Aqui, OS e ARQUIVOS identificam o início da entrada pelo título. Isso é diferente de destacar tipograficamente um título com autor conhecido. Entrada e destaque são decisões relacionadas, mas não idênticas.\n\nAo resolver o item, responda: existe responsabilidade identificada? É pessoa física, jurídica ou obra sem indicação? Há órgão subordinado ou denominação própria? A referência é do todo ou de uma parte? Essa análise evita tentar resolver tudo por caixa alta.",
+    "checkpointIds": [
+      "cp-8-1-3",
+      "rt-8-1-4",
+      "rt-8-1-5"
+    ]
+  },
+  {
+    "id": "sub-8-1-bloco-4",
+    "titulo": "Tipos documentais: do livro ao artigo e à parte de obra",
+    "objetivos": [
+      "Montar modelos com dados fictícios suficientes e identificar a publicação hospedeira."
+    ],
+    "conteudo": "Os modelos da seção 7 especificam a identificação de diferentes recursos. A estrutura deve corresponder ao objeto consultado. **Livro no todo**, **capítulo** e **artigo** não são categorias intercambiáveis: um capítulo integra uma monografia; um artigo integra uma publicação periódica. O autor pode ser o mesmo, mas a relação documental muda.\n\n**Livro fictício:** `LIMA, Ana. Gestão de acervos: decisões e práticas. 2. ed. Brasília, DF: Editora Exemplo, 2025.` O título destacado no modelo é o da obra; o subtítulo a complementa e não recebe automaticamente o mesmo destaque. Os dados foram criados para exercício, não constituem uma referência a livro real.\n\n**Parte de livro fictício:** `COSTA, Bruno. Seleção de documentos. In: LIMA, Ana (org.). Gestão de acervos: decisões e práticas. Brasília, DF: Editora Exemplo, 2025. p. 21-35.` A entrada começa pela responsabilidade da parte. Depois de `In:`, identifica-se a obra hospedeira e, ao final, a localização da parte. Não atribua a autoria do capítulo ao organizador apenas por ele aparecer na capa do livro.\n\n**Artigo fictício:** `REIS, Carla. Indicadores em bibliotecas. Revista Exemplo de Informação, Brasília, DF, v. 4, n. 2, p. 10-22, jul./dez. 2025.` O nome da publicação periódica identifica a fonte hospedeira; volume, número e localização cumprem papéis próprios. Na aplicação do destaque, não troque o título do artigo pelo título da revista.\n\n| Objeto consultado | Relação que precisa ficar clara |\n|---|---|\n| Livro no todo | Responsabilidade e identificação da obra |\n| Capítulo | Parte consultada e obra que a contém |\n| Artigo | Artigo e publicação periódica hospedeira |\n| Documento online | Tipo documental e condições de disponibilidade/acesso pertinentes |\n\nEstes modelos ensinam relações estruturais. Tipos como legislação, jurisprudência, evento, tese, audiovisual e documento cartográfico têm particularidades na norma. Ao aplicar um modelo novo, consulte sua seção, em vez de substituir todo recurso por “página da internet”.",
+    "checkpointIds": [
+      "rt-8-1-2",
+      "rt-8-1-7"
+    ]
+  },
+  {
+    "id": "sub-8-1-bloco-5",
+    "titulo": "Disponibilidade online, datas e informações não identificadas",
+    "objetivos": [
+      "Distinguir data do documento, data de acesso e endereço de disponibilidade."
+    ],
+    "conteudo": "“Está na internet” descreve uma condição de acesso, não um tipo documental único. Pode haver um livro digital, artigo, relatório, lei, vídeo ou página institucional. A seção 6.6 estabelece os dados de disponibilidade e acesso aplicáveis ao recurso online. Eles se somam à identificação pertinente; não substituem título e responsabilidade por uma URL isolada.\n\n**Exemplo resolvido.** Um relatório foi publicado em 2024 e consultado em 2026. A data de publicação identifica a edição/documento; a data de acesso registra a consulta. Usar 2026 como ano de publicação sem evidência alteraria o dado bibliográfico. Do mesmo modo, o ano de copyright, o ano de atualização e o de publicação não devem ser fundidos sem analisar o recurso.\n\nA data de acesso usa a forma pertinente de dia, mês e ano. No **Anexo A**, a tabela em português apresenta `jan., fev., mar., abr., maio, jun., jul., ago., set., out., nov., dez.`. Maio não é reduzido a “mai.” nesse quadro. Para documentos e informações em outros idiomas, é preciso observar a regra aplicável e a tabela correspondente; não generalize a frase “três letras e ponto” a todas as línguas.\n\nQuando local ou editora não forem identificados, examine a convenção indicada na seção de transcrição pertinente, em vez de presumir a cidade da instituição que digitalizou o arquivo. A digitalização por uma biblioteca não transforma essa biblioteca em editora da obra original. A data aproximada, quando admitida, também deve representar informação fundamentada e sinalizada, não um ano conveniente.\n\nEm provas antigas, pode haver regras de outra edição. A NBR 6023:2002 e as edições posteriores não devem ser sobrepostas retroativamente. O julgamento de uma questão histórica exige saber a referência temporal pedida; a aula atual não deve chamar um item antigo de errado apenas porque a regra mudou. Quando o enunciado omite edição relevante, esse é um ponto de revisão editorial.",
+    "checkpointIds": [
+      "cp-8-1-2",
+      "rt-8-1-6"
+    ]
+  },
+  {
+    "id": "sub-8-1-bloco-6",
+    "titulo": "Padronização e revisão: conferir relações, não só pontuação",
+    "objetivos": [
+      "Detectar erros por checklist e explicar a correção."
+    ],
+    "conteudo": "As regras gerais da seção 6 tratam da sequência, alinhamento, espaçamento, pontuação, destaque e uso de elementos complementares. Nas listas, as referências são alinhadas à esquerda e elaboradas em espaço simples, separadas por linha em branco de espaço simples. Notas de rodapé têm tratamento específico; não se deve transferir automaticamente toda regra visual da lista para qualquer contexto.\n\nO recurso tipográfico usado para destacar o elemento título precisa ser uniforme conforme o modelo. Negrito, itálico ou sublinhado são alternativas indicadas na regra geral; aspas não são uma quarta alternativa equivalente. Há particularidades para entradas pelo título, sem indicação de autoria/responsabilidade. Logo, “destacar título e subtítulo de qualquer referência exatamente do mesmo modo” é uma regra excessiva.\n\n**Revisão em cinco perguntas:** o documento está correto? A responsabilidade e a entrada correspondem ao caso? A publicação hospedeira foi identificada quando necessária? Elementos e sequência seguem o modelo? Tipografia, abreviações e complementares mantêm coerência?\n\n**Caso de comparação.** Dois artigos estão identificados com seus respectivos periódicos. Um foi referenciado só com URL e acesso; o outro possui todos os dados pertinentes. O primeiro não se torna completo apenas porque segue o mesmo estilo de fonte e pontuação. Inversamente, duas referências de tipos diferentes podem ter elementos distintos sem violar uniformidade. A regra não manda tornar um capítulo idêntico a um livro no todo.\n\nA leitura de um item deve separar obrigação, recomendação, permissão e hipótese. Nas questões sobre quatro ou mais autores, esse cuidado é decisivo. Um único “deve” no lugar de “permite-se” pode alterar a conclusão, mas a palavra só importa porque modifica a força da regra específica.\n\nPara estudar ativamente, corrija uma referência com dados fornecidos e explique cada alteração. Não complete o que o exercício não informa. Quando a tarefa admite opções normativas, apresente uma solução válida e declare a opção usada; não marque como errada outra alternativa permitida apenas por ser diferente do exemplo.",
+    "checkpointIds": [
+      "cp-8-1-1",
+      "rt-8-1-8"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "nbr6023",
+    "titulo": "ABNT NBR 6023:2025 — Referências — Elaboração",
+    "localizador": "Seção 4 (elementos); seção 6 (regras gerais); seção 7 (modelos); 8.1 (responsabilidade), 8.2 (título), transcrição e datas; Anexo A (meses). Exemplar do acervo ABNT do projeto. Exemplos bibliográficos da aula são fictícios e didáticos."
+  }
+],
 };

@@ -1,0 +1,197 @@
+{
+  "id": "sub-4-1",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-4-1-bloco-1",
+      "titulo": "A Gênese e os Fundamentos da Recuperação da Informação (*Information Retrieval - IR*)",
+      "objetivos": [
+        "Distinguir necessidade, consulta e relevância sem opor rigidamente produtos."
+      ],
+      "conteudo": "O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da computação **Calvin Mooers**. Na tradição conceitual associada a Gerard Salton e às referências contemporâneas de Ricardo Baeza-Yates e Berthier Ribeiro-Neto (*Modern Information Retrieval*):\n\nRecuperação da informação envolve representar, organizar, armazenar e dar acesso a documentos em função de necessidades informacionais. A consulta expressa parte da necessidade; satisfazer correspondência textual não basta para certificar utilidade. Esta é uma síntese didática, não citação literal atribuída a vários autores.\nA distinção entre recuperação de dados e de informação destaca, em formulações clássicas, correspondência bem definida versus relevância interpretativa. Não é uma divisão rígida de produtos: SGBDs podem oferecer busca textual e vetorial; SRI podem usar metadados estruturados e filtros exatos. Relevância depende também da tarefa, do usuário e do momento.\n```decision\nSTART: Coleção de Documentos | Textos não estruturados na base informacional\nSTEP: Pré-processamento Textual | Tokenização e outras operações escolhidas conforme idioma, tarefa e modelo; remover stopwords e aplicar stemming não são etapas obrigatórias universais\nSTEP: Indexação & Arquivo Invertido | Mapeamento estruturado de termos para os respectivos documentos\nSTEP: Formulação da Consulta (Query) | Usuário traduz necessidade de informação com termos e operadores\nSTEP: Casamento & Similaridade | Algoritmo (vetorial/probabilístico) compara query e índice invertido\nSTEP: Ranqueamento por Relevância | Atribuição de pesos (TF-IDF/BM25) e ordenação por pertinência\nEND: Entrega ao Usuário | Apresentação dos resultados para validação da necessidade\n```\n\n**Aplicação e recuperação:** O usuário pede “a lei”, mas precisa do texto vigente em uma data passada. Recuperar uma página com as palavras certas pode falhar na necessidade temporal. Acrescentar filtro e verificar versão faz parte da recuperação, não só do casamento textual.",
+      "checkpointIds": [
+        "rt-4-1-1"
+      ]
+    },
+    {
+      "id": "sub-4-1-bloco-2",
+      "titulo": "Os Modelos Clássicos de Recuperação da Informação",
+      "objetivos": [
+        "Comparar modelos e calcular pesos com hipóteses explícitas."
+      ],
+      "conteudo": "Compare as hipóteses dos modelos clássicos. As linhas abaixo descrevem modelos, não garantias de qualidade de qualquer produto:\n\n| Critério Analítico | Modelo Booleano Clássico | Modelo do Espaço Vetorial (Gerard Salton) | Modelo Probabilístico (Robertson & Spärck Jones) |\n| :--- | :--- | :--- | :--- |\n| **Base Teórica Formal** | Teoria dos Conjuntos e Álgebra de George Boole (1854). | Álgebra Linear e Geometria Euclidiana multidimensional. | Modelagem probabilística e princípio de ordenação por probabilidade de relevância; não confundir teorema de Bayes com probabilidade total. |\n| **Ponderação de Termos** | **Binária** (pesos $0$ ou $1$ — o termo está presente ou ausente). | Pesos numéricos; **TF-IDF** é um esquema possível, não o único. | Probabilística baseada na distribuição de termos em classes de relevância. |\n| **Tipo de Casamento (*Matching*)** | Exato e determinístico (Tudo ou Nada). Não aceita correspondência parcial. | **Casamento Parcial** baseado no ângulo de proximidade entre vetores. | Estimação da probabilidade de um documento ser relevante dada uma consulta. |\n| **Ranqueamento dos Resultados** | **INEXISTENTE**. Os documentos recuperados não são ordenados por relevância. | Pode ordenar por similaridade, como cosseno, sem garantir excelência empírica. | Ordenação decrescente pelo princípio da probabilidade de relevância (PRP). |\n| **Vantagens Principais** | Simplicidade lógica, precisão em consultas de especialistas (Direito/Medicina). | Casamento gradual e ordenação; revocação depende de representação, dados e corte. | Fundamentação teórica rigorosa em inferência estatística bayesiana. |\n| **Limitações Críticas** | Rigidez extrema: não tolera sinônimos sem o operador OR; gera silêncio ou excesso. | Assume independência mútua entre os termos (o que não ocorre na linguagem real). | Pode usar julgamentos e estimativas; há modelos que operam sem rótulos prévios para cada consulta. |\n\n#### A. Detalhamento do Modelo do Espaço Vetorial e o Esquema TF-IDF (Gerard Salton, 1975)\nNo Modelo Vetorial desenvolvido no projeto SMART da Universidade de Cornell, cada documento $d_j$ e a consulta $q$ são representados como vetores multidimensionais em um espaço de $t$ dimensões, onde cada dimensão corresponde a um termo único do vocabulário:\n* **Frequência do Termo no Documento (*Term Frequency - TF*):**\n  $TF_{i, j} = \\frac{f_{i, j}}{\\max_k f_{k, j}}$\n  *Aqui se usa TF normalizado pela frequência máxima no documento. Há outras fórmulas de TF; frequência pode ser indício de assunto, sem provar relevância. A fórmula pressupõe denominador não nulo.*\n* **Inverso da Frequência no Documento (*Inverse Document Frequency - IDF*):**\n  $IDF_i = \\log \\left( \\frac{N}{n_i} \\right)$\n  *Onde $N$ é o número total de documentos da coleção e $n_i$ é o número de documentos que contêm o termo $t_i$. O IDF penaliza termos triviais que aparecem em quase todos os livros (baixo poder de discriminação) e valoriza termos raros e específicos.*\n* **Peso TF-IDF Combinado:**\n  $w_{i, j} = TF_{i, j} \\times IDF_i$\n* **Medida de Similaridade do Cosseno (*Cosine Similarity*):**\n  A proximidade entre o vetor da consulta $\\vec{q}$ e o vetor do documento $\\vec{d_j}$ é calculada pelo cosseno do ângulo $\\theta$ formado entre eles no espaço vetorial:\n  $\\text{Sim}(\\vec{q}, \\vec{d_j}) = \\cos(\\theta) = \\frac{\\vec{q} \\cdot \\vec{d_j}}{\\|\\vec{q}\\| \\times \\|\\vec{d_j}\\|}$\n  *Para vetores não nulos com a mesma direção, cosseno é 1, mesmo com magnitudes diferentes. Em vetores lexicais não negativos, ausência de termos comuns implica produto escalar zero; isso não prova ausência de relação semântica. Vetor nulo exige tratamento específico.*\n\n**Aplicação e recuperação:** Se N=100 e o termo ocorre em 10 documentos, usando log de base 10, IDF=1. Se ocorre nos 100, IDF=0 nessa fórmula. Isso não torna o termo sem significado; apenas reduz sua discriminação no corpus. Vetores (1,1) e (2,2) têm cosseno 1, mesmo sem igualdade de magnitudes.",
+      "checkpointIds": [
+        "cp-4-1-3",
+        "rt-4-1-2"
+      ]
+    },
+    {
+      "id": "sub-4-1-bloco-3",
+      "titulo": "Estratégias de Busca, Álgebra Booleana e Operadores Sintáticos",
+      "objetivos": [
+        "Separar efeito de conjuntos e efeito sobre métricas de relevância."
+      ],
+      "conteudo": "Em conjuntos documentais, AND representa interseção $A \\cap B$ e OR representa união $A \\cup B$. O diagrama de conjuntos descreve pertença, não prova relevância.\n\nA elaboração de uma estratégia de busca exige o domínio cirúrgico dos operadores e de seus impactos nas taxas de Revocação (*Recall*) e Precisão (*Precision*):\n\n#### A. Operadores Lógicos Booleanos\n1. **Operador AND (E) — Interseção de Conjuntos:**\n   * Exige a presença simultânea de todos os termos vinculados no documento.\n   * *Efeito Matemático:* Restringe e afunila o universo de recuperação.\n   * *Impacto no Desempenho:* Adicionar uma condição AND ao mesmo conjunto só mantém ou reduz o conjunto recuperado. A revocação não aumenta nessa comparação de subconjuntos; **a precisão pode aumentar, cair ou permanecer igual**, conforme os itens removidos.\n2. **Operador OR (OU) — União de Conjuntos:**\n   * Recupera documentos que contenham qualquer um dos termos informados (ou todos eles).\n   * *Finalidade Primordial:* Agrupar sinônimos, variantes linguísticas, plurais e termos correlatos (ex.: `\"biblioteca digital\" OR \"digital library\"`).\n   * *Impacto no Desempenho:* Adicionar alternativas OR, mantendo a base, mantém ou amplia a recuperação e não diminui a revocação. **A precisão depende da relevância dos itens acrescentados**, não cai necessariamente.\n3. **Operador NOT / AND NOT (NÃO) — Diferença / Exclusão:**\n   * Elimina da recuperação os documentos que apresentem determinado termo indesejado (ex.: `Licitação NOT \"Pregão Eletrônico\"`).\n   * *Impacto no Desempenho:* Pode aumentar ou reduzir a precisão e exige cuidado, pois pode descartar documentos altamente pertinentes que apenas citem o termo excluído de passagem em uma nota de rodapé.\n\n#### B. Ordem de Precedência e Parênteses\nEm expressões booleanas complexas, verifique a precedência documentada pelo sistema (normalmente `NOT` $\\rightarrow$ `AND` $\\rightarrow$ `OR`). O uso de parênteses é mandatório para alterar a precedência:\n$\\text{(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência}$\n\n#### C. Operadores Sintáticos de Proximidade e Truncagem\n* **Truncagem (*Wildcards*):**\n  * *À Direita:* Pode recuperar termos com o prefixo indicado, conforme regras e limites da base; prefixo gráfico não é necessariamente radical morfossintático (ex.: `legisla*` recupera legislação, legislativo, legislador, legislatura).\n  * *Interna / Coringa Unicactere:* Substitui um único caractere para absorver variantes ortográficas (ex.: `wom?n` para *woman* e *women*; `colo?r` em um sistema em que ? substitua exatamente um caractere; operadores variam e precisam de consulta ao manual).\n* **Operadores de proximidade e adjacência:** a lista é ilustrativa. ADJ, NEAR, WITH e SAME não têm semântica única entre plataformas; distância, ordem e limites precisam ser definidos no enunciado.\n  * `ADJ` ou aspas duplas `\"...\"`: Exigem que os termos apareçam imediatamente contíguos na mesma ordem (frase exata);\n  * `NEAR/n`: Exige que os termos estejam a uma distância máxima de $n$ palavras um do outro, em qualquer ordem;\n  * `WITH`: Exige que os termos estejam na mesma frase (*sentence*);\n  * `SAME`: Exige que os termos estejam no mesmo campo ou parágrafo.\n\n**Aplicação e recuperação:** A tem dois documentos relevantes. B acrescenta três relevantes: A OR B mantém precisão 100% e aumenta revocação. Se B acrescentasse três irrelevantes, cairia a precisão. A união é fixa matematicamente; sua qualidade depende dos documentos. AND também pode remover justamente os relevantes.",
+      "checkpointIds": [
+        "cp-4-1-1",
+        "rt-4-1-3"
+      ]
+    },
+    {
+      "id": "sub-4-1-bloco-4",
+      "titulo": "A Estrutura Interna de Dados: O Arquivo Invertido (*Inverted Index*)",
+      "objetivos": [
+        "Interpretar índice invertido sem prescrever uma implementação única."
+      ],
+      "conteudo": "Como os sistemas de busca conseguem responder consultas booleanas em bilhões de páginas em frações de segundo? Através da arquitetura do **Arquivo Invertido**:\n\n```timeline\nT | Textos Originais na Base | Coleção de Documentos Brutos | Doc 1: \"processo legislativo\" | Doc 2: \"regimento legislativo\"\n---> Tokenização e Inversão dos Ponteiros\nINV | Arquivo Invertido (Inverted Index) | Dicionário em Memória & Postings | 'legislativo' → Doc 1 (pos 2), Doc 2 (pos 2) • 'processo' → Doc 1 (pos 1) • 'regimento' → Doc 2 (pos 1)\n```\n\n* **Vocabulário / Dicionário de Termos:** Estrutura de termos indexados, possivelmente normalizados; pode usar diferentes organizações e níveis de armazenamento. Não precisa manter todas as palavras originais nem residir integralmente em RAM.\n* **Listas de Ocorrências (*Postings Lists*):** Para cada termo do vocabulário, há uma estrutura de ocorrências que pode registrar IDs, frequências e posições, conforme o índice; não precisa ser lista encadeada e nem todo índice armazena posições (viabilizando operadores de frase e proximidade).\n* **Processamento Booleano:** A operação `termoA AND termoB` resume-se a fazer a interseção das duas listas de ponteiros na memória RAM, podendo evitar leitura integral dos documentos para o casamento; armazenamento, exibição de trechos e verificações podem exigir outros acessos.\n\n**Aplicação e recuperação:** O índice diz “lei → documentos 1 e 3”, mas não registra posições. Ele permite reconhecer presença; não basta para provar que “lei complementar” aparece como frase. É preciso índice posicional ou verificação adicional.",
+      "checkpointIds": [
+        "rt-4-1-4"
+      ]
+    },
+    {
+      "id": "sub-4-1-bloco-5",
+      "titulo": "Mecanismos de Busca Diretos vs. Metabuscadores (Busca Federada)",
+      "objetivos": [
+        "Comparar índice pré-coletado, consulta distribuída e soluções híbridas."
+      ],
+      "conteudo": "Diferencie busca em índice próprio e consulta distribuída. Há serviços híbridos; o nome comercial sozinho não define a arquitetura:\n\n| Característica | Mecanismo de Busca Direto (Ex.: Google, Bing) | Metabuscador / Busca Federada (exemplo conceitual: interface que consulta várias fontes remotas) |\n| :--- | :--- | :--- |\n| **Base de Dados Própria** | **SIM**. Armazena terabytes de páginas e índices em datacenters próprios. | Não necessita manter cópia documental própria para realizar a consulta distribuída; pode manter configurações, cache e outros dados. |\n| **Coleta da Web (*Crawling*)** | Emprega robôs rastreadores (*spiders/crawlers*) que navegam continuamente. | **Não realiza rastreamento**. Consulta APIs ou formulários de motores externos. |\n| **Funcionamento Operacional** | Pesquisa diretamente no seu próprio arquivo invertido local. | Envia a consulta simultaneamente em paralelo para múltiplos motores externos. |\n| **Tratamento dos Resultados** | Pode combinar sinais e algoritmos de ordenação. PageRank é sinal de estrutura de links, não sinônimo de toda relevância. | Recebe as listas externas, pode identificar duplicatas, fundir e reordenar, sujeito à qualidade de metadados e regras. |\n| **Vantagem Principal** | Velocidade extrema e controle total do índice. | Amplitude e cobertura: permite consultar acervos heterogêneos com uma única busca. |\n\n**Aplicação e recuperação:** Um discovery usa índice agregado e consulta remota adicional para certas fontes. Não se o classifica corretamente afirmando que toda interface única é metabusca pura. Examine onde a consulta é executada e de quando são os dados.",
+      "checkpointIds": [
+        "cp-4-1-2",
+        "rt-4-1-5"
+      ]
+    },
+    {
+      "id": "sub-4-1-bloco-6",
+      "titulo": "Aplicações autorais: delimitar o que a afirmação permite concluir",
+      "objetivos": [
+        "Identificar generalizações que não decorrem do modelo."
+      ],
+      "conteudo": "| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"No modelo booleano clássico de recuperação, os documentos recuperados são automaticamente ordenados pelo grau decrescente de pertinência temática.\"* | **ERRADO** | O modelo booleano **não ranqueia** resultados; o casamento é binário (pertence ou não pertence ao conjunto). |\n| *\"A aplicação do operador booleano OR tem por objetivo primordial elevar a precisão da pesquisa documental.\"* | **ERRADO** | OR faz união. A precisão não tem direção garantida; os novos itens podem ser relevantes ou não. |\n| *\"Os metabuscadores destacam-se por manter o maior repositório indexado próprio de documentos científicos da Internet.\"* | **ERRADO** | Metabusca consulta fontes externas sem exigir repositório documental próprio; a arquitetura não garante ser o maior acervo. |\n| *\"No cálculo do TF-IDF de Gerard Salton, palavras presentes em praticamente todos os documentos da base recebem os maiores valores de IDF.\"* | **ERRADO** | Quanto mais frequente o termo na coleção ($n_i \\approx N$), menor o seu IDF (tende a zero); o IDF valoriza termos **raros**. |\n\n**Aplicação e recuperação:** “O modelo permite ordenar” é uma afirmação de capacidade; “sempre produz alta precisão” é garantia empírica. Para avaliar a segunda, são necessários consultas, corpus, julgamentos e métrica, não apenas o nome do algoritmo.",
+      "checkpointIds": [
+        "rt-4-1-6"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "Booleana: conjuntos e casamento binário no modelo clássico. Vetorial: pesos e similaridade, sem garantia de relevância perfeita. AND restringe, OR une; precisão depende dos itens, não apenas do operador. Índices e sintaxe variam. Cosseno 1 indica mesma direção, não mesma magnitude. Metabusca distribui consultas; discovery pode usar índice pré-coletado ou arquitetura híbrida.",
+  "fontesTeoria": [
+    {
+      "id": "iir",
+      "titulo": "Manning, Raghavan e Schütze — Introduction to Information Retrieval (2008)",
+      "localizador": "Capítulos 1, 6 e 8: modelos, ponderação e avaliação.",
+      "url": "https://nlp.stanford.edu/IR-book/"
+    },
+    {
+      "id": "lancaster",
+      "titulo": "F. W. Lancaster — Indexação e resumos (2004)",
+      "localizador": "Edição brasileira identificada no PDF do projeto; análise de assunto e finalidade da recuperação.",
+      "url": "https://github.com/Heuller/hnc/tree/auditoria-2026-10/acervo-estudos"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-4-1-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Usar palavras da consulta em um documento basta para demonstrar que ele resolve a necessidade temporal do usuário.",
+      "gabarito": "E",
+      "justificativa": "Correspondência textual não prova versão ou utilidade para a tarefa.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "editalRef": "Bloco B - Item 3.1 a 3.9",
+      "habilidade": "aplicar",
+      "versao_correta": "É preciso avaliar conteúdo, contexto e data pertinente."
+    },
+    {
+      "id": "rt-4-1-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Vetores não nulos (1,1) e (2,2) possuem cosseno 1, apesar de terem magnitudes diferentes.",
+      "gabarito": "C",
+      "justificativa": "São proporcionais e têm a mesma direção.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "editalRef": "Bloco B - Item 3.1 a 3.9",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-4-1-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Acrescentar alternativas OR pode manter precisão em 100% se todos os novos itens forem relevantes.",
+      "gabarito": "C",
+      "justificativa": "A união não obriga queda de precisão; depende da relevância dos itens acrescentados.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "editalRef": "Bloco B - Item 3.1 a 3.9",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-4-1-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Todo índice invertido registra necessariamente posições exatas e cabe integralmente na RAM.",
+      "gabarito": "E",
+      "justificativa": "São decisões de implementação; índices podem omitir posições e usar armazenamento em disco.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "editalRef": "Bloco B - Item 3.1 a 3.9",
+      "habilidade": "aplicar",
+      "versao_correta": "A estrutura e os campos dependem da implementação."
+    },
+    {
+      "id": "rt-4-1-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma interface única de busca prova que todas as fontes são consultadas remotamente em tempo real.",
+      "gabarito": "E",
+      "justificativa": "A interface pode buscar em índice previamente agregado ou combinar arquiteturas.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "editalRef": "Bloco B - Item 3.1 a 3.9",
+      "habilidade": "aplicar",
+      "versao_correta": "É necessário examinar onde e quando se executa a busca."
+    },
+    {
+      "id": "rt-4-1-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A capacidade de gerar ranking garante que o modelo vetorial terá precisão superior em toda coleção e consulta.",
+      "gabarito": "E",
+      "justificativa": "Ranking é capacidade; superioridade empírica requer avaliação.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "editalRef": "Bloco B - Item 3.1 a 3.9",
+      "habilidade": "aplicar",
+      "versao_correta": "Desempenho depende de corpus, tarefa, representação e parâmetros."
+    }
+  ],
+  "checkpointEdits": {
+    "cp-4-1-1": {
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "justificativa": "OR produz união, não restrição. Em base fixa, acrescentar alternativas não reduz o conjunto nem a revocação; precisão pode subir, cair ou manter-se.",
+      "versao_correta": "OR une alternativas e pode ampliar a recuperação; não garante direção para a precisão."
+    },
+    "cp-4-1-2": {
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "justificativa": "A consulta federada usa fontes externas sem exigir cópia documental própria. Isso não proíbe cache, configurações ou arquiteturas híbridas."
+    },
+    "cp-4-1-3": {
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval (2008), capítulos 1, 6 e 8; Lancaster, Indexação e resumos (edição brasileira de 2004), acervo do projeto; sintaxe de busca depende do sistema.",
+      "justificativa": "A representação e medida de similaridade possibilitam ranking; TF-IDF e cosseno são escolhas conhecidas, sem garantia automática de desempenho."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Ranking",
+      "definicao": "Ordenação segundo medida definida; não certifica relevância perfeita.",
+      "exemploBiblioteca": "Vetores proporcionais têm cosseno 1 mesmo sem a mesma magnitude."
+    },
+    {
+      "termo": "Operador e métrica",
+      "definicao": "União ou interseção define conjunto; precisão depende da relevância dos itens.",
+      "exemploBiblioteca": "OR pode ampliar recuperação sem reduzir precisão se todos os novos forem relevantes."
+    }
+  ],
+  "autoresChave": [
+    "Manning, Raghavan e Schütze — Introduction to Information Retrieval (2008)",
+    "F. W. Lancaster — Indexação e resumos (2004)"
+  ],
+  "descricaoCurta": "Distinguir necessidade, consulta e relevância sem opor rigidamente produtos. Comparar modelos e calcular pesos com hipóteses explícitas. Separar efeito de conjuntos e efeito sobre métricas de relevância. Interpretar índice invertido sem prescrever uma implementação única. Comparar índice pré-coletado, consulta distribuída e soluções híbridas. Identificar generalizações que não decorrem do modelo.",
+  "alertasCebraspe": [
+    "Correspondência textual não prova versão ou utilidade para a tarefa.",
+    "São decisões de implementação; índices podem omitir posições e usar armazenamento em disco.",
+    "A interface pode buscar em índice previamente agregado ou combinar arquiteturas."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 26
+}
