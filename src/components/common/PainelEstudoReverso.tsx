@@ -1,5 +1,6 @@
 import { comentarioGenerico, contrasteArtificial } from '../../domain/qualidadeEditorial';
 import React, { useState } from 'react';
+import { AplicacaoEstudoReverso } from './AplicacaoEstudoReverso';
 import type { AnaliseItemReverso } from '../../domain/treinoReverso';
 import {
   AlertTriangle,
@@ -215,6 +216,8 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
           <p className="m-0 text-xs sm:text-sm font-sans text-ink leading-relaxed">{explicacao}</p>
         </div>
       )}
+
+      {raciocinio && <AplicacaoEstudoReverso transferencia={raciocinio.transferencia} />}
 
       {onReverTeoria && subId && (
         <button

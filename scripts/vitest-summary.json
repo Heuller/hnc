@@ -1,12 +1,12 @@
 {
-  "numTotalTestSuites": 392,
-  "numPassedTestSuites": 392,
+  "numTotalTestSuites": 394,
+  "numPassedTestSuites": 394,
   "numFailedTestSuites": 0,
-  "numTotalTests": 972,
-  "numPassedTests": 972,
+  "numTotalTests": 977,
+  "numPassedTests": 977,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 124,
-  "source": "vitest run: execução integral local da reforma teórica"
+  "testFiles": 125,
+  "source": "vitest run: execução integral local — simulados e estudo reverso de 30/10/2026"
 }

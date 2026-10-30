@@ -8,9 +8,9 @@ const acervo = montarAcervoReverso(ALL_SIMULADOS_REGISTRY.flatMap(s => s.questoe
 const tentativa = (extra: Partial<ItemAttempt> = {}): ItemAttempt => ({ id: 'audit-1', user_id: 'aluno', item_id: acervo[0].questao.id, submodulo_id: '2.1', modulo_id: 'M2', contexto: 'treino', resposta: 'C', correto: true, certeza: 'alta', tentativa_n: 1, criado_em: '2026-10-29T12:00:00Z', ...extra });
 
 describe('Treino de raciocínio e revisão espaçada', () => {
-  it('usa 12 itens elegíveis distintos, com gatilho literal, contraste e fontes localizáveis', () => {
-    expect(acervo).toHaveLength(12);
-    expect(new Set(acervo.map(i => i.questao.id)).size).toBe(12);
+  it('usa 13 itens elegíveis distintos, com gatilho literal, contraste e fontes localizáveis', () => {
+    expect(acervo).toHaveLength(13);
+    expect(new Set(acervo.map(i => i.questao.id)).size).toBe(13);
     for (const { questao, analise } of acervo) {
       expect(questao.item.includes(questao.gatilho!)).toBe(true);
       expect(questao.gabarito === 'C' ? questao.versao_errada : questao.versao_correta).toBeTruthy();
@@ -23,6 +23,7 @@ describe('Treino de raciocínio e revisão espaçada', () => {
 
   it('não oferece conteúdo em conferência ou com gabarito divergente da análise', () => {
     const q = acervo[0].questao;
+    expect(montarAcervoReverso([{ ...q, revisar: true }], PILOTO_RACIOCINIO)).toEqual([]);
     expect(montarAcervoReverso([{ ...q, fonteOriginal: { ...q.fonteOriginal, revisar: true } }], PILOTO_RACIOCINIO)).toEqual([]);
     expect(montarAcervoReverso([{ ...q, gabarito: q.gabarito === 'C' ? 'E' : 'C' }], PILOTO_RACIOCINIO)).toEqual([]);
   });
@@ -52,7 +53,7 @@ describe('Treino de raciocínio e revisão espaçada', () => {
 
   it('distingue cálculo, competência, aplicação de princípio e confusão de entidades', () => {
     const habilidades = new Set(acervo.map(i => i.analise.habilidade));
-    expect(habilidades.size).toBe(12);
+    expect(habilidades.size).toBe(13);
     expect(acervo.find(i => i.questao.id === 'm4-q-57')!.questao.justificativa).toContain('12 sobre 30 calcula revocação');
     expect(acervo.find(i => i.questao.id === 'm4-q-56')!.questao.item).toContain('não estabelece uma proporcionalidade inversa obrigatória');
     expect(acervo.find(i => i.questao.id === 'm9-q-5')!.questao.item).not.toMatch(/ouro maciço|extorsivas/);
