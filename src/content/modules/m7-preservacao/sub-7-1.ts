@@ -43,9 +43,9 @@ export const submodulo71: ModuloFilho = {
   {
     "id": "cp-7-1-1",
     "pergunta": "Micro-Checkpoint 1: Parâmetros Ambientais de Preservação",
-    "item": "Em unidades de conservação de acervos bibliográficos, a oscilação brusca diária de temperatura e umidade relativa é considerada um dos mais graves agentes mecânicos de deterioração das fibras de celulose.",
+    "item": "Variações bruscas da umidade relativa podem provocar tensões e alterações dimensionais em materiais de acervos bibliográficos, contribuindo para sua deterioração mecânica.",
     "gabarito": "C",
-    "justificativa": "O papel responde à umidade; variações grandes podem gerar tensões e mudanças dimensionais. Isso não significa quebra instantânea de todas as cadeias de celulose nem exclui dano químico por calor estável.",
+    "justificativa": "O papel e outros materiais respondem à umidade, podendo expandir ou contrair de modos diferentes. Variações grandes podem gerar tensões, deformações e danos nas estruturas. A avaliação considera amplitude, frequência, materiais e histórico; calor elevado também pode acelerar reações químicas mesmo sem oscilações.",
     "fonte": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto."
   },
   {

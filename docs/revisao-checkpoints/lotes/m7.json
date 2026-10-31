@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cp-7-1-1",
+    "caminho": "src/content/modules/m7-preservacao/sub-7-1.ts",
+    "modulo": "m7",
+    "submodulo": "7.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Variação de umidade produz tensões e alterações dimensionais; retirar ranking de gravidade não fundamentado.",
+    "referencia": "Cassares, Como fazer conservação preventiva em arquivos e bibliotecas (2000), seções 1–3 e 6–8; CCI, Caring for paper objects; recomendações ambientais dependem do material e do contexto.",
+    "shaAntes": "82e4f3b2d830c7e450a06f065d43b47b5c0c5b5afd6888bc180cf8f57a7a26aa",
+    "shaDepois": "0909adf22f419e11f2fbe40f7db155c418381edd422fc4a78b0898772aa6d665",
+    "patch": {
+      "item": "Variações bruscas da umidade relativa podem provocar tensões e alterações dimensionais em materiais de acervos bibliográficos, contribuindo para sua deterioração mecânica.",
+      "justificativa": "O papel e outros materiais respondem à umidade, podendo expandir ou contrair de modos diferentes. Variações grandes podem gerar tensões, deformações e danos nas estruturas. A avaliação considera amplitude, frequência, materiais e histórico; calor elevado também pode acelerar reações químicas mesmo sem oscilações."
+    }
+  }
+]

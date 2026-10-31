@@ -62,9 +62,9 @@ export const submodulo24: ModuloFilho = {
   {
     "id": "cp-2-4-2",
     "pergunta": "Micro-Checkpoint 2: Campo 264 no Padrão RDA",
-    "item": "Na catalogação em formato MARC 21 sob as diretrizes do RDA, o campo 264 utiliza o segundo indicador para definir a função da menção, sendo o indicador 4 reservado para registrar a data e o aviso de direitos autorais (copyright).",
+    "item": "No formato MARC 21 Bibliográfico, o campo 264 utiliza o segundo indicador para definir a função da menção, sendo o indicador 4 reservado para a data de direitos autorais (copyright).",
     "gabarito": "C",
-    "justificativa": "O segundo indicador de 264 diferencia funções; 4 corresponde a copyright notice date. O campo não é um código exclusivo que só possa existir com RDA.",
+    "justificativa": "No campo 264, o segundo indicador distingue produção (0), publicação (1), distribuição (2), fabricação (3) e data de copyright (4). O valor 4 identifica a data, não o aviso completo de titularidade dos direitos. O campo pode ser usado em registros RDA, sem ser exclusivo desse código.",
     "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata."
   },
   {

@@ -61,7 +61,7 @@ export const submodulo63: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 2: Formatos de Preservação e a Norma ISO 19005 (PDF/A)",
     "item": "A família PDF/A permite cifrar o documento inteiro com senha em qualquer parte/perfil e, só por isso, garante preservação e acesso futuros sem necessidade de manter chaves ou outras condições.",
     "gabarito": "E",
-    "justificativa": "A afirmação atribui permissivo e garantia universais incorretos. As partes/perfis têm requisitos e a preservação não decorre de cifrar e guardar um arquivo. Não se generaliza, em sentido contrário, que toda parte proíba qualquer arquivo multimídia associado.",
+    "justificativa": "PDF/A exige conformidade à parte e ao perfil aplicáveis; a cifragem do documento não é permitida. Mesmo um arquivo conforme necessita de gestão de contexto, fixidez e acesso para preservação futura. Não confunda essa restrição com regras sobre anexos e conteúdo multimídia, que variam entre partes e perfis.",
     "fonte": "CCSDS 650.0-M-3 (2024), OAIS, seções 1–4, correspondente à edição ISO 14721:2025; LoC, PREMIS 3.0; RFC 8493, RFC 9043 e RFC 9559; referências de formatos e preservação do acervo.",
     "versao_correta": "PDF/A exige conformidade ao perfil aplicável e não garante por si preservação futura."
   },

@@ -52,7 +52,7 @@ export const submodulo13: ModuloFilho = {
     "item": "Para Michael Buckland, a dimensão da 'informação como coisa' exclui qualquer objeto tridimensional ou artefato da natureza, aplicando-se apenas a livros impressos.",
     "gabarito": "E",
     "justificativa": "O conceito não se limita a papel. Objetos, dados e registros podem ser tratados como informativos; isso não certifica verdade do conteúdo ou uma qualidade essencial fixa fora de todo contexto.",
-    "versao_correta": "Para Michael Buckland, a dimensão da 'informação como coisa' abrange qualquer entidade física tangível portadora de evidência informativa, inclusive objetos tridimensionais, documentos e fósseis.",
+    "versao_correta": "Na acepção de informação como coisa de Buckland, objetos, dados e documentos podem ser tratados como informativos em determinado contexto, inclusive objetos tridimensionais e fósseis.",
     "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação."
   },
   {

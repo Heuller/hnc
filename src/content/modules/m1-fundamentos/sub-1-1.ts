@@ -64,7 +64,7 @@ export const submodulo11: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 2: A Divisão de Yves-François Le Coadic",
     "item": "No capítulo consultado de A ciência da informação, Le Coadic limita os problemas da Biblioteconomia ao acervo e exclui expressamente os leitores e o serviço organizado.",
     "gabarito": "E",
-    "justificativa": "As pp. 14–15 do PDF incluem acervos, biblioteca como serviço organizado e leitores. A antiga atribuição de uma divisão binária literal foi retirada.",
+    "justificativa": "Le Coadic inclui problemas dos acervos, da biblioteca como serviço organizado e dos leitores nas pp. 14–15. O erro é excluir duas dessas dimensões e reduzir a Biblioteconomia ao acervo.",
     "versao_correta": "Le Coadic inclui problemas dos acervos, do serviço organizado e dos leitores.",
     "fonte": "Le Coadic, A ciência da informação, PDF do projeto, capítulo 2, pp. 14–15; Borko, Information Science: What is it? (1968); Buckland, Informação como coisa (1991); Manifesto IFLA/UNESCO 2022; Lei 12.244/2010 com Lei 14.837/2024; IBICT, CDU; CBL, ISBN."
   },
@@ -81,11 +81,11 @@ export const submodulo11: ModuloFilho = {
     "pergunta": "Julgue a situação apresentada.",
     "item": "Os marcos IIB de 1895, Tratado de Otlet de 1934 e texto de Briet de 1951 podem ser usados como se fossem um único acontecimento da mesma data.",
     "gabarito": "E",
-    "justificativa": "São eventos diferentes e não devem ser colapsados.",
+    "justificativa": "A fundação do IIB ocorreu em 1895; o Tratado de Documentação de Otlet foi publicado em 1934, e o texto de Briet, em 1951. São três marcos distintos, não um acontecimento com data única.",
     "fonte": "Le Coadic, A ciência da informação, PDF do projeto, capítulo 2, pp. 14–15; Borko, Information Science: What is it? (1968); Buckland, Informação como coisa (1991); Manifesto IFLA/UNESCO 2022; Lei 12.244/2010 com Lei 14.837/2024; IBICT, CDU; CBL, ISBN.",
     "editalRef": "Bloco A - Item 1.1 e 1.6",
     "habilidade": "aplicar",
-    "versao_correta": "Distinguir marco, autor e data."
+    "versao_correta": "A fundação do IIB (1895), o tratado de Otlet (1934) e o texto de Briet (1951) são marcos distintos da Documentação."
   },
   {
     "id": "rt-1-1-2",
