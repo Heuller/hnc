@@ -111,7 +111,7 @@ export const PainelPage: React.FC = () => {
   return (
     <div className="space-y-7 animate-fadeIn max-w-5xl mx-auto">
       {/* CABEÇALHO DO PAINEL "HOJE" (Regras C5, C6 e U.3) */}
-      <section className="border-b border-border pb-5 flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <section className="pb-2 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="space-y-1.5 max-w-2xl">
           <div className="flex flex-wrap items-center gap-2">
             <span className="font-sans text-xs text-accent font-semibold tracking-wide">

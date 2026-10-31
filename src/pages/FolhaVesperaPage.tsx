@@ -110,27 +110,27 @@ export const FolhaVesperaPage: React.FC = () => {
   return (
     <div className="space-y-8 max-w-5xl mx-auto py-2 px-1 sm:px-0 folha-vespera-container">
       {/* Barra de Ações (Oculta na Impressão) */}
-      <div className="flex items-center justify-between no-print">
+      <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 no-print">
         <button
           type="button"
           onClick={() => setActiveView('painel')}
-          className="inline-flex items-center gap-2 text-xs font-semibold text-ink-2 hover:text-ink transition-colors cursor-pointer"
+          className="inline-flex items-center gap-2 whitespace-nowrap text-xs font-semibold text-ink-2 hover:text-ink transition-colors cursor-pointer"
         >
-          <ArrowLeft className="w-4 h-4" />
+          <ArrowLeft className="w-4 h-4 shrink-0" />
           <span>Voltar ao Painel</span>
         </button>
 
-        <div className="flex items-center gap-2">
-          <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/10 text-accent font-bold">
+        <div className="contents sm:flex sm:flex-wrap sm:items-center sm:gap-2">
+          <span className="order-last basis-full sm:basis-auto sm:order-none text-xs font-mono uppercase tracking-wider px-2 py-1 rounded-md bg-accent/10 text-accent font-bold">
             Revisão de Véspera (48h) • Edital nº 1/2026
           </span>
           <button
             type="button"
             onClick={handlePrint}
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary text-primary-text text-xs font-bold shadow-editorial-sm cursor-pointer hover:opacity-95"
+            className="inline-flex items-center gap-2 whitespace-nowrap px-3.5 py-1.5 rounded-lg bg-primary text-primary-text text-xs font-bold shadow-editorial-sm cursor-pointer hover:opacity-95 active:scale-[0.98] transition"
             title="Imprimir ou Salvar em PDF"
           >
-            <Printer className="w-4 h-4" />
+            <Printer className="w-4 h-4 shrink-0" />
             <span>Imprimir / Salvar PDF</span>
           </button>
         </div>

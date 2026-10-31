@@ -345,20 +345,18 @@ export const DiscursivaPage: React.FC = () => {
       {/* Cabeçalho Editorial */}
       <div className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-3">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="flex items-center gap-3.5">
-            <div className="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 text-purple-600 dark:text-purple-400 flex items-center justify-center shrink-0">
+          <div className="grid grid-cols-[auto_1fr] items-center gap-x-3.5 gap-y-2 min-w-0">
+            <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 text-purple-600 dark:text-purple-400 flex items-center justify-center shrink-0">
               <PenTool className="w-6 h-6" />
             </div>
-            <div>
-              <div className="flex items-center gap-2 flex-wrap">
-                <h1 className="text-xl sm:text-2xl font-serif font-bold text-ink">
-                  Avaliador Cebraspe de Discursivas
-                </h1>
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-purple-500/15 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase">
-                  Fórmulas Oficiais: NQ = NC - 3×(NE/TL) · NPT = NC - 6×(NE/TL) · Edital 1/2026 (Item 9)
-                </span>
-              </div>
-              <p className="text-xs sm:text-sm text-ink-2">
+            <h1 className="min-w-0 text-xl sm:text-2xl font-serif font-bold text-ink text-balance">
+              Avaliador Cebraspe de Discursivas
+            </h1>
+            <div className="col-span-2 sm:col-span-1 sm:col-start-2 min-w-0 space-y-2">
+              <span className="inline-block max-w-full px-2.5 py-1 rounded-lg text-[11px] leading-snug font-mono font-bold bg-purple-500/15 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase tracking-wide">
+                Fórmulas Oficiais: NQ = NC - 3×(NE/TL) · NPT = NC - 6×(NE/TL) · Edital 1/2026 (Item 9)
+              </span>
+              <p className="text-sm text-ink-2 max-w-prose">
                 Escrita e avaliação formativa por rubrica para a preparação ao concurso da Câmara dos Deputados. A estimativa de IA não é uma correção oficial.
               </p>
             </div>

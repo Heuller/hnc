@@ -126,7 +126,7 @@ export const ProgressoPage: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto space-y-8 animate-fadeIn">
       {/* Cabeçalho */}
-      <section className="border-b border-border pb-6">
+      <section className="pb-2">
         <div className="flex items-center gap-2 mb-2">
           <TrendingUp className="w-5 h-5 text-accent" />
           <span className="font-mono text-xs font-bold text-accent uppercase tracking-wider">

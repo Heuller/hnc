@@ -39,25 +39,25 @@ export const AvisoNovaVersaoSW: React.FC = () => {
     <div
       aria-live="polite"
       role="status"
-      className="mx-auto my-3 w-[calc(100%-2rem)] max-w-7xl p-3 sm:p-4 rounded-xl bg-surface border border-border text-ink"
+      className="mx-auto my-3 w-[calc(100%-2rem)] max-w-7xl py-2 pl-4 pr-2 sm:py-3 sm:pl-5 sm:pr-3 rounded-2xl bg-surface border border-border shadow-editorial-sm text-ink"
       data-testid="aviso-nova-versao-sw"
     >
-      <div className="flex items-start justify-between gap-3">
+      <div className="flex items-center justify-between gap-3">
         <div className="flex items-center gap-2 text-accent font-semibold text-xs uppercase tracking-wider">
-          <RefreshCw className={`w-4 h-4 `} />
+          <RefreshCw className="w-4 h-4 shrink-0" aria-hidden="true" />
           <span>Nova versão disponível</span>
         </div>
         <button
           type="button"
           onClick={() => setDispensado(true)}
-          className="min-h-[44px] min-w-[44px] inline-flex items-center justify-center text-ink-2 hover:text-ink p-1 rounded-md transition-colors"
+          className="min-h-[44px] min-w-[44px] -my-1 inline-flex items-center justify-center text-ink-2 hover:text-ink hover:bg-surface-3 p-1 rounded-lg transition-colors"
           aria-label="Dispensar aviso de atualização"
         >
-          <X className="w-4 h-4" />
+          <X className="w-4 h-4" aria-hidden="true" />
         </button>
       </div>
 
-      <p className="mt-2 text-xs text-ink-2 leading-relaxed">
+      <p className="-mt-1.5 pr-2 text-xs text-ink-2 leading-relaxed">
         {simuladoEmAndamento || escritaAtiva ? (
           <span className="flex items-center gap-1.5 text-alerta-cebraspe">
             <ShieldAlert className="w-4 h-4 shrink-0" />
@@ -68,7 +68,7 @@ export const AvisoNovaVersaoSW: React.FC = () => {
         )}
       </p>
 
-      <div className="mt-3 flex items-center justify-end gap-2">
+      <div className="mt-1 pr-1 flex items-center justify-end gap-2">
         <button
           type="button"
           onClick={() => setDispensado(true)}

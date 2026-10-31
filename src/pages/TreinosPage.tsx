@@ -55,15 +55,15 @@ export const TreinosPage: React.FC = () => {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8 select-none">
       {/* Cabeçalho */}
       <div className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-2">
-        <div className="flex items-center gap-3.5">
-          <div className="w-12 h-12 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent shrink-0">
+        <div className="grid grid-cols-[auto_1fr] sm:grid-cols-[auto_1fr] items-center gap-x-3.5 gap-y-2">
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent shrink-0">
             <Dumbbell className="w-6 h-6" />
           </div>
-          <div>
-            <h1 className="text-xl sm:text-2xl font-serif font-bold text-ink">
-              Hub de Treinos e Recuperação Ativa
-            </h1>
-            <p className="text-xs sm:text-sm text-ink-2">
+          <h1 className="min-w-0 text-xl sm:text-2xl font-serif font-bold text-ink text-balance">
+            Hub de Treinos e Recuperação Ativa
+          </h1>
+          <div className="col-span-2 sm:col-span-1 sm:col-start-2 min-w-0">
+            <p className="text-sm text-ink-2 max-w-prose">
               Prática deliberada: repetição espaçada, superação de erros e ferramentas de retenção de longo prazo.
             </p>
           </div>

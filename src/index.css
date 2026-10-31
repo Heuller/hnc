@@ -459,6 +459,29 @@ html.dark {
     line-height: 1.65;
   }
 
+  /* Acabamento: controles nativos, seleção e toque */
+  html {
+    scroll-padding-top: 5rem;
+    -webkit-tap-highlight-color: transparent;
+    text-size-adjust: 100%;
+  }
+  html.light { color-scheme: light; }
+  html.dark { color-scheme: dark; }
+  ::selection {
+    background-color: var(--accent-fill);
+    color: #1A2238;
+  }
+  input[type="checkbox"], input[type="radio"], input[type="range"], progress {
+    accent-color: var(--accent);
+  }
+  button, a, summary, [role="button"], [role="tab"], select, label {
+    touch-action: manipulation;
+  }
+  /* Números alinhados em métricas, contadores e tabelas */
+  table, .font-mono, [data-metric] {
+    font-variant-numeric: tabular-nums;
+  }
+
   /* Foco acessível WCAG 2.2 */
   :focus-visible {
     outline: 2px solid var(--accent);
@@ -769,6 +792,16 @@ pre, table, .mermaid-svg-container {
 }
 @media (pointer: coarse) {
   button:not([role="tab"]), summary { min-height: 44px; }
+  /* Campos com menos de 16px fazem o iOS Safari dar zoom ao focar; alvo mínimo de 44px. */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
+  select,
+  textarea {
+    font-size: max(16px, 1em);
+  }
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
+  select {
+    min-height: 44px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }

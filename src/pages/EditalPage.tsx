@@ -123,7 +123,7 @@ export const EditalPage: React.FC = () => {
             href="https://www.cebraspe.org.br/concursos/cd_26_analista"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-ink hover:text-amber-600 dark:hover:text-amber-400 font-bold transition-colors"
+            className="inline-flex items-center gap-1.5 min-h-[44px] text-ink hover:text-amber-600 dark:hover:text-amber-400 font-bold transition-colors"
           >
             <span>Acessar Página Oficial no Cebraspe</span>
             <ExternalLink className="w-3.5 h-3.5" />
