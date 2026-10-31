@@ -2022,11 +2022,11 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "origemModulo": "M14",
     "questaoOrigemId": "m14-q-11",
     "submoduloId": "14.1",
-    "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
+    "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
     "item": "No Microsoft Teams e no Google Meet, a gravação de reuniões na nuvem gera automaticamente transcrições textuais que podem ser pesquisadas e integradas a fluxos de trabalho institucionais, respeitadas as diretrizes de consentimento e privacidade.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. As plataformas corporativas Microsoft Teams e Google Meet contam com recursos nativos de inteligência artificial que realizam o reconhecimento de fala em tempo real (Speech-to-Text), transcrevendo e indexando os diálogos das reuniões gravadas na nuvem. A funcionalidade viabiliza a pesquisa semântica dos temas discutidos, gera atas automatizadas e amplia a acessibilidade, exigindo aviso prévio aos participantes para conformidade ética e legal.",
-    "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. Gravação e transcrição têm configurações, permissões e requisitos próprios. Pode haver configuração para iniciar ambas, mas gravar não garante transcrição em toda reunião do Teams e Meet. A afirmação omite condições do serviço e transforma capacidade em consequência automática.",
+    "armadilhaBanca": "Tratar recursos relacionados como consequência obrigatória.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -2034,8 +2034,11 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "provaBloco": "P1_BASICOS",
-    "gatilho": "automaticamente transcrições textuais que podem ser pesquisadas",
-    "versao_errada": "No Microsoft Teams e no Google Meet, a gravação de reuniões na nuvem gera indevidamente automaticamente transcrições textuais que podem ser pesquisadas e integradas a fluxos de trabalho institucionais, respeitadas as diretrizes de consentimento e privacidade."
+    "gatilho": "automaticamente",
+    "versao_errada": "",
+    "fonte": "Microsoft Teams — gravação de reuniões — gravação e transcrição: políticas e opções — https://learn.microsoft.com/en-us/microsoftteams/cloud-recording",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "A disponibilidade e o início de transcrição dependem de configurações e recursos; não decorrem universalmente de qualquer gravação."
   },
   {
     "id": "oficial-180q-086",

@@ -1044,5 +1044,320 @@
     "titulo": "Decreto 6.583/2008 — Acordo Ortográfico, texto atualizado",
     "url": "https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.pdf",
     "localizador": "anexo: bases IX e XVI; efeitos e transição no Brasil"
+  },
+  "m14googleVersoes": {
+    "titulo": "Google — histórico de versões de Docs, Sheets e Slides",
+    "url": "https://support.google.com/docs/answer/190843",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14googleCompartilhar": {
+    "titulo": "Google Drive — compartilhamento e permissões",
+    "url": "https://support.google.com/drive/answer/2494822",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msPrivados": {
+    "titulo": "Microsoft Teams — canais privados",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/private-channels",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msCompartilhados": {
+    "titulo": "Microsoft Teams — canais compartilhados",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/shared-channels",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msDLP": {
+    "titulo": "Microsoft Purview — DLP e Microsoft Teams",
+    "url": "https://learn.microsoft.com/en-us/purview/dlp-microsoft-teams",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msGravar": {
+    "titulo": "Microsoft Teams — gravação de reuniões",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/cloud-recording",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14googleTranscrever": {
+    "titulo": "Google Meet — transcrições de reuniões",
+    "url": "https://support.google.com/meet/answer/12849897",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msSobDemanda": {
+    "titulo": "Microsoft OneDrive — arquivos sob demanda",
+    "url": "https://support.microsoft.com/en-us/office/save-disk-space-with-onedrive-files-on-demand-for-windows-0e6860d3-d9f3-4971-b321-7092438fb38e",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerQuery": {
+    "titulo": "Microsoft — Power Query e linguagem M",
+    "url": "https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14slideMestre": {
+    "titulo": "Microsoft PowerPoint — editar e reaplicar layouts",
+    "url": "https://support.microsoft.com/en-gb/powerpoint/edit-and-re-apply-a-slide-layout",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc1939": {
+    "titulo": "IETF — RFC 1939: POP3",
+    "url": "https://www.rfc-editor.org/rfc/rfc1939.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc9293": {
+    "titulo": "IETF — RFC 9293: TCP",
+    "url": "https://www.rfc-editor.org/rfc/rfc9293.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc768": {
+    "titulo": "IETF — RFC 768: UDP",
+    "url": "https://www.rfc-editor.org/rfc/rfc768.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc1034": {
+    "titulo": "IETF — RFC 1034: DNS",
+    "url": "https://www.rfc-editor.org/rfc/rfc1034.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc8446": {
+    "titulo": "IETF — RFC 8446: TLS 1.3",
+    "url": "https://www.rfc-editor.org/rfc/rfc8446.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc4253": {
+    "titulo": "IETF — RFC 4253: SSH",
+    "url": "https://www.rfc-editor.org/rfc/rfc4253.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14owaspPrompt": {
+    "titulo": "OWASP — prompt injection em aplicações com LLMs",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14webAuthn": {
+    "titulo": "W3C — Web Authentication Level 2",
+    "url": "https://www.w3.org/TR/webauthn-2/",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14transformer": {
+    "titulo": "Vaswani et al. — Attention Is All You Need, 2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rlhf": {
+    "titulo": "Ouyang et al. — Training language models to follow instructions with human feedback, 2022",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14chainThought": {
+    "titulo": "Wei et al. — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, 2022",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14fewShot": {
+    "titulo": "Brown et al. — Language Models are Few-Shot Learners, 2020",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14daxCalculate": {
+    "titulo": "Microsoft — DAX CALCULATE",
+    "url": "https://learn.microsoft.com/en-us/dax/calculate-function-dax",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14daxSumx": {
+    "titulo": "Microsoft — DAX SUMX",
+    "url": "https://learn.microsoft.com/en-us/dax/sumx-function-dax",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerCalculos": {
+    "titulo": "Microsoft Power BI — opções de cálculo",
+    "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-calculations-options",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerEstrela": {
+    "titulo": "Microsoft Power BI — esquema estrela e modelagem dimensional",
+    "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerRelacoes": {
+    "titulo": "Microsoft Power BI — relacionamentos muitos para muitos",
+    "url": "https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14postgresTransacoes": {
+    "titulo": "PostgreSQL — transações",
+    "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14imputacao": {
+    "titulo": "Scikit-learn — imputação de valores ausentes",
+    "url": "https://scikit-learn.org/stable/modules/impute.html",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14vazamentoDados": {
+    "titulo": "Scikit-learn — armadilhas e vazamento de dados",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14declutter": {
+    "titulo": "Storytelling with Data — reduzir desordem e destacar a mensagem",
+    "url": "https://www.storytellingwithdata.com/blog/what-your-audience-really-wants",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14normalizacao": {
+    "titulo": "Microsoft — descrição de normalização de bancos de dados",
+    "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14Coautoria": {
+    "titulo": "Microsoft — colaboração de documentos e coautoria",
+    "url": "https://support.microsoft.com/en-us/sharepoint/get-started-with-sharepoint/document-collaboration-and-co-authoring",
+    "localizador": "armazenamento compartilhado, formatos e aplicativos compatíveis"
+  },
+  "m14CompartilharOneDrive": {
+    "titulo": "Microsoft OneDrive — compartilhar arquivos e pastas",
+    "url": "https://support.microsoft.com/en-us/onedrive/share-files-and-folders-in-microsoft-onedrive",
+    "localizador": "permissões, expiração e senha conforme plano e configuração"
+  },
+  "m14Rotulos": {
+    "titulo": "Microsoft Purview — rótulos de sensibilidade",
+    "url": "https://learn.microsoft.com/en-us/purview/sensitivity-labels",
+    "localizador": "proteção configurável, criptografia, marcação e permissões"
+  },
+  "m14SQL": {
+    "titulo": "OWASP — SQL Injection Prevention Cheat Sheet",
+    "url": "https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md",
+    "localizador": "consultas parametrizadas e separação entre comando e dados"
+  },
+  "m14RPO": {
+    "titulo": "IBM — RTO e RPO",
+    "url": "https://www.ibm.com/docs/en/i/7.5.0?topic=criteria-recovery-point-objective-rpo",
+    "localizador": "tempo para recuperação e ponto de recuperação dos dados"
+  },
+  "m14RTO": {
+    "titulo": "IBM — Recovery time objective",
+    "url": "https://www.ibm.com/docs/en/i/7.5.0?topic=criteria-recovery-time-objective-rto",
+    "localizador": "tempo de recuperação para retomada da operação"
+  },
+  "m14Backup321": {
+    "titulo": "US-CERT/CISA — Data Backup Options",
+    "url": "https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf",
+    "localizador": "regra 3-2-1 e opções de cópia"
+  },
+  "m14NistAI": {
+    "titulo": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024",
+    "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+    "localizador": "confabulação, vieses, privacidade, avaliação e documentação"
+  },
+  "m14Circular": {
+    "titulo": "Microsoft Excel — remover ou permitir referência circular",
+    "url": "https://support.microsoft.com/en-us/excel/remove-or-allow-a-circular-reference-in-excel",
+    "localizador": "detecção, avisos e cálculo iterativo"
+  },
+  "m14VersoesSharePoint": {
+    "titulo": "Microsoft SharePoint — restaurar versão anterior",
+    "url": "https://support.microsoft.com/en-us/sharepoint/documents-and-library/restore-a-previous-version-of-an-item-or-file-in-sharepoint",
+    "localizador": "cópia da versão restaurada passa a atual sem exclusão automática do histórico"
+  },
+  "m14E2EE": {
+    "titulo": "Microsoft Teams — criptografia ponta a ponta",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-end-to-end-encryption",
+    "localizador": "escopo, configuração e recursos de mídia cifrada ponta a ponta"
+  },
+  "m14MeetAcesso": {
+    "titulo": "Google Meet — participar de uma videochamada",
+    "url": "https://support.google.com/meet/answer/9302870",
+    "localizador": "conta, organização e regras de admissão"
+  },
+  "m14TeamsExcluir": {
+    "titulo": "Microsoft Teams — arquivar ou excluir equipe",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/archive-or-delete-a-team",
+    "localizador": "efeitos da exclusão, recuperação e retenção"
+  },
+  "m14DHCP": {
+    "titulo": "IETF — RFC 2131: DHCP",
+    "url": "https://www.rfc-editor.org/rfc/rfc2131",
+    "localizador": "configuração dinâmica e concessão de endereços"
+  },
+  "m14NGFW": {
+    "titulo": "Microsoft Azure Firewall Premium — recursos",
+    "url": "https://learn.microsoft.com/en-us/azure/firewall/premium-features",
+    "localizador": "inspeção TLS, aplicações e prevenção de intrusão"
+  },
+  "m14NistAuth": {
+    "titulo": "NIST SP 800-63B-4 — autenticação e fatores",
+    "url": "https://pages.nist.gov/800-63-4/sp800-63b.html",
+    "localizador": "fatores de autenticação e autenticadores; conteúdo público consultado por indexação"
+  },
+  "m14TiposBackup": {
+    "titulo": "IBM — Backup as a Service: tipos de backup",
+    "url": "https://www.ibm.com/think/topics/backup-as-a-service",
+    "localizador": "incremental desde último backup e diferencial desde último completo"
+  },
+  "m14Embeddings": {
+    "titulo": "Reimers e Gurevych — Sentence-BERT, 2019",
+    "url": "https://arxiv.org/abs/1908.10084",
+    "localizador": "representações vetoriais e comparação por similaridade"
+  },
+  "m14ShadowAI": {
+    "titulo": "Microsoft — segurança de acesso e uso não autorizado de IA",
+    "url": "https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-security-operations",
+    "localizador": "Shadow AI como uso não autorizado ou não alinhado à política institucional"
+  },
+  "m14Prompts": {
+    "titulo": "Anthropic — boas práticas de estruturação de prompts",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables",
+    "localizador": "separação de instruções, contexto e exemplos; uso de delimitadores XML"
+  },
+  "m14ELT": {
+    "titulo": "IBM — Extract, Load, Transform",
+    "url": "https://www.ibm.com/think/topics/elt",
+    "localizador": "ordem das etapas e transformação no destino"
+  },
+  "m14Graficos": {
+    "titulo": "Government Analysis Function — Data visualisation: charts",
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+    "localizador": "tipos de gráfico, comparação e evitar formas 3D desnecessárias"
+  },
+  "m14Grafo": {
+    "titulo": "Neo4j — What is a graph database",
+    "url": "https://neo4j.com/docs/getting-started/graph-database/",
+    "localizador": "nós, relações, propriedades e restrições"
+  },
+  "inglesGeralHnc": {
+    "titulo": "HNC — textos autorais: AI in parliament e Open parliamentary data",
+    "arquivo": "src/content/questions/simulado-geral-180q.ts",
+    "localizador": "textos de apoio reconstruídos editorialmente; não transcrição de prova oficial"
+  },
+  "rvbiManual2025": {
+    "titulo": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI, arquivo de 06/09/2025",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/231030/Descricao_bibliografica_RVBI_2025-09-06.pdf?isAllowed=y&sequence=33",
+    "localizador": "seção 650: indicadores; trecho público indexado consultado, não certificação de novas regras em 2026"
+  },
+  "marcDC": {
+    "titulo": "Library of Congress — MARC to Dublin Core Crosswalk, 2008",
+    "url": "https://www.loc.gov/marc/marc2dc.html",
+    "localizador": "introdução e mapeamento de Title"
+  },
+  "dataOwnership": {
+    "titulo": "GOV.UK — Data ownership model",
+    "url": "https://www.gov.uk/government/publications/data-ownership-in-government/data-ownership-model",
+    "localizador": "responsabilidades de data owner e data steward; modelo de referência para caso hipotético"
+  },
+  "gettyAnoxia": {
+    "titulo": "Selwitz e Maekawa — Inert Gases in the Control of Museum Insect Pests, Getty, 1998",
+    "url": "https://www.getty.edu/publications/resources/virtuallibrary/0892365021.pdf",
+    "localizador": "anoxia com concentração residual de oxigênio e condições controladas; apresentação pública da obra"
+  },
+  "cciPapel": {
+    "titulo": "Canadian Conservation Institute — Caring for paper objects",
+    "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/paper-objects.html",
+    "localizador": "hidrólise ácida, oxidação e corrosão por tinta ferrogálica"
+  },
+  "naraManuseio": {
+    "titulo": "National Archives — General Considerations for Rehousing and Preservation Processes",
+    "url": "https://www.archives.gov/preservation/holdings-maintenance/considerations",
+    "localizador": "mãos limpas para papel e luvas de nitrilo para fotografias e certos metais"
+  },
+  "rdaMudancas2013": {
+    "titulo": "Library of Congress — Summary of RDA Updates, July 2013",
+    "url": "https://www.loc.gov/aba/rda/pdf/summary_rda_changes_2013.pdf",
+    "localizador": "11.2.2.14–15: entidades subordinadas, incluindo governamentais; numeração da edição original RDA"
   }
 }

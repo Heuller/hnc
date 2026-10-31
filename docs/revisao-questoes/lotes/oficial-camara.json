@@ -111,5 +111,32 @@
       "item": "No Texto II, o pronome demonstrativo 'ele' na expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'.",
       "submoduloId": "13.3"
     }
+  },
+  {
+    "id": "oficial-180q-085",
+    "caminho": "src/content/questions/simulado-oficial-camara-180q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msGravar",
+      "m14googleTranscrever"
+    ],
+    "localizador": "gravação e transcrição: políticas e opções",
+    "nota": "Cópia lida após conflito: C corrigido para E; gravar reunião não garante transcrição automática universal. Fonte primária de produto e condições verificadas, sem certificar gabarito da prova original.",
+    "shaAntes": "b6bcad4041b1dc316adb13620a9b4eb58aa7341edbd8f9a9bd59fb72e0dad5d4",
+    "shaDepois": "f76ca04149ab60dd2d7727303302dc0a94a8b2bc30333e5e257bd07419fe0a39",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Gravação e transcrição têm configurações, permissões e requisitos próprios. Pode haver configuração para iniciar ambas, mas gravar não garante transcrição em toda reunião do Teams e Meet. A afirmação omite condições do serviço e transforma capacidade em consequência automática.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Tratar recursos relacionados como consequência obrigatória.",
+      "fonte": "Microsoft Teams — gravação de reuniões — gravação e transcrição: políticas e opções — https://learn.microsoft.com/en-us/microsoftteams/cloud-recording",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A disponibilidade e o início de transcrição dependem de configurações e recursos; não decorrem universalmente de qualquer gravação.",
+      "versao_errada": "",
+      "item": "No Microsoft Teams e no Google Meet, a gravação de reuniões na nuvem gera automaticamente transcrições textuais que podem ser pesquisadas e integradas a fluxos de trabalho institucionais, respeitadas as diretrizes de consentimento e privacidade.",
+      "submoduloId": "14.1"
+    }
   }
 ]

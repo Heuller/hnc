@@ -1,0 +1,488 @@
+[
+  {
+    "id": "orgaos-q-001",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 102 e 105: competências do STF e do STJ",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6fd33e336f4f5fe6cacb7a4c6dfebfa09c3e46f23aa5ae472fbfc8c686732803",
+    "shaDepois": "c335ccc207d05349872a52cf2eaa85c030db7e2f602ec4b32d24d4ad544ca479",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "CERTO. STF tem a guarda constitucional como competência precípua; STJ examina questões de direito federal nas hipóteses constitucionais, inclusive recurso especial. Não são instâncias universais para reexaminar todos os fatos e provas de qualquer processo.",
+      "gatilho": "guarda da Constituição",
+      "armadilhaBanca": "Trocar a função constitucional dos tribunais superiores.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 102 e 105: competências do STF e do STJ — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O STJ exerce a guarda precípua da Constituição, enquanto o STF uniformiza exclusivamente lei federal infraconstitucional."
+    }
+  },
+  {
+    "id": "orgaos-q-002",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 71 e 92: controle externo e órgãos do Judiciário",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "7d2bd7395b8cdb11c53b025426e6c4977cdd2b0d6f571336b9cf2cd1e6682d54",
+    "shaDepois": "7e6610752faf341d6efce139da1fa37e9244b4867602d64c669124390308846d",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "ERRADO. O TCU auxilia o Congresso no controle externo e não integra o rol de órgãos do Judiciário. Suas decisões têm efeitos próprios, mas não a imunidade absoluta à revisão judicial alegada. Controle judicial de legalidade não converte todo processo de contas em nova análise irrestrita de mérito.",
+      "gatilho": "Poder Judiciário",
+      "armadilhaBanca": "Confundir tribunal de contas com órgão jurisdicional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 71 e 92: controle externo e órgãos do Judiciário — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O TCU exerce controle externo sem integrar o Poder Judiciário, e seus atos estão sujeitos ao controle judicial cabível.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-003",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 92, I-A, e 103-B, §4º",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "62e6f83f6bb61f1b84060e8c6d3fa6dc509a507727f9728abd8877b516a05298",
+    "shaDepois": "8912e04811ce51b84f333f109b7eedee310fb11bac631099fca5c34648118842",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "CERTO. CNJ integra o Judiciário e controla sua atuação administrativa e financeira e deveres funcionais dos juízes. Essas atribuições não o transformam em instância recursal para reformar decisões jurisdicionais em litígios. Controle disciplinar e julgamento judicial têm objetos distintos.",
+      "gatilho": "controle administrativo e financeiro",
+      "armadilhaBanca": "Separar controle administrativo e atividade jurisdicional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 92, I-A, e 103-B, §4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O CNJ funciona como tribunal de apelação competente para reformar sentenças judiciais em causas entre particulares."
+    }
+  },
+  {
+    "id": "orgaos-q-004",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 127, §§1º e 2º, e art. 128: autonomia do Ministério Público",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "538c4d14468d2fa701ad542ecc7df54fa0dfcb70df9635259b9c5bea6d15496c",
+    "shaDepois": "17422601bd662a8741d307df694fa0503a05ab4208eaf5961edba058a9a49973",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "ERRADO. A Constituição assegura autonomia funcional e administrativa ao Ministério Público, que não é departamento do Ministério da Justiça. A participação de outros poderes em orçamento ou nomeações, nos termos constitucionais, não cria a subordinação hierárquica afirmada.",
+      "gatilho": "subordinado",
+      "armadilhaBanca": "Confundir participação constitucional de poderes e hierarquia administrativa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 127, §§1º e 2º, e art. 128: autonomia do Ministério Público — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O MPU dispõe de autonomia funcional e administrativa nos termos constitucionais, sem subordinação hierárquica ao Ministério da Justiça.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-005",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 45 e 46: composição das Casas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "89e0fd9f5a9848899063bf0636c8fb194fad1152d6204907b46cf31ced045125",
+    "shaDepois": "cb105c32d6804d40b2695624924f79c73d5e15242e4b5cb287c0ae0d5957fdcf",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "item": "A Câmara dos Deputados compõe-se de representantes do povo eleitos pelo sistema proporcional em cada Estado, Território e no Distrito Federal; o Senado representa os Estados e o Distrito Federal, com eleição pelo princípio majoritário.",
+      "justificativa": "CERTO. A Câmara representa o povo com eleição proporcional nos Estados, no DF e nos Territórios; o Senado representa Estados e DF, com eleição majoritária e três senadores por unidade. Não se deve generalizar o mesmo sistema eleitoral para ambas as Casas.",
+      "gatilho": "sistema proporcional",
+      "armadilhaBanca": "Trocar representação e sistema eleitoral de cada Casa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 45 e 46: composição das Casas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Deputados federais e senadores são ambos eleitos pelo sistema proporcional."
+    }
+  },
+  {
+    "id": "orgaos-q-006",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 102, I, d: mandado de segurança contra atos das Mesas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "b219025e978e367d114f196a032c2cf8954b9abfc0aa6f4b2b194a6abb824272",
+    "shaDepois": "c8c78b43b252bf27070ef2d2da8307756c115ac96b58c2b032b7ada753baef24",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "ERRADO. O art. 102, I, d atribui ao STF competência originária para mandado de segurança contra atos das Mesas da Câmara e do Senado. O fato de a autoridade atuar na esfera federal não desloca essa hipótese expressa aos TRFs.",
+      "gatilho": "Tribunais Regionais Federais",
+      "armadilhaBanca": "Aplicar regra específica de competência em lugar de associação genérica com a esfera federal.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 102, I, d: mandado de segurança contra atos das Mesas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Compete originariamente ao STF julgar mandado de segurança contra atos das Mesas da Câmara dos Deputados e do Senado Federal.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-007",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 109, 114, 121, 124 e 125: competências jurisdicionais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "f4cb49420ef52a853a7356408b5314e777fc09e91ab9f260a13fe49efba3db08",
+    "shaDepois": "785118c2217771dbf311982c9f0e0460453a55e10fb182d14f01e76bc909e4a2",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "CERTO. A Justiça comum estadual aprecia, em regra, o que não foi atribuído a outra justiça. A caracterização residual não significa que todo processo relativo a direito federal vá à Justiça Federal: a competência depende também de partes e hipóteses constitucionais.",
+      "gatilho": "competência residual",
+      "armadilhaBanca": "Distinguir matéria legislativa e competência jurisdicional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 109, 114, 121, 124 e 125: competências jurisdicionais — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Toda demanda que aplique qualquer lei federal é necessariamente excluída da Justiça estadual."
+    }
+  },
+  {
+    "id": "orgaos-q-008",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 31, §4º: vedação à criação municipal",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "4f74bc973e895133c455f09cf2bc9e48beeb24e262962f69c0b0c2cf367fa3ff",
+    "shaDepois": "efcf0a25510eaba1a7c555f727dc3f4952523b8c88c8589eb1cd1592e18f2472",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "ERRADO. A Constituição proíbe criar tribunais, conselhos ou órgãos de contas municipais. Isso não extingue os tribunais municipais preexistentes nem se confunde com tribunal de contas dos municípios criado na estrutura estadual. Lei orgânica local não afasta a proibição.",
+      "gatilho": "criarem",
+      "armadilhaBanca": "Distinguir órgão municipal de órgão estadual de fiscalização dos municípios.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 31, §4º: vedação à criação municipal — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A Constituição veda a criação de tribunais, conselhos ou órgãos de contas municipais.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-009",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 71, §3º, e 75: eficácia executiva de decisões de contas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "0381ae152547bd166bb52523a34bc9dfb8a13f3012d04fdc5d7bdf8442ae9fda",
+    "shaDepois": "8f1d7d0680f324a22194b2a38a8cc315d7700753f392cf237cad7a149c57311e",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "item": "As decisões do TCU e, por simetria constitucional, dos tribunais de contas estaduais de que resulte imputação de débito ou multa têm eficácia de título executivo extrajudicial.",
+      "justificativa": "CERTO. Decisão que imputa débito ou multa tem eficácia de título executivo. A regra não depende de transformar a decisão do tribunal de contas em sentença judicial; a cobrança judicial segue o regime próprio e o título continua sujeito ao controle cabível.",
+      "gatilho": "título executivo extrajudicial",
+      "armadilhaBanca": "Separar formação administrativa do título e execução judicial.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 71, §3º, e 75: eficácia executiva de decisões de contas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A decisão de tribunal de contas que imputa débito ou multa só adquire eficácia executiva após nova sentença que constitua a dívida."
+    }
+  },
+  {
+    "id": "orgaos-q-010",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 21, XIII, e 22, XVII: Judiciário do DF e Territórios",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "2425324403fd3a3f9020ca4f3bca8adf687db60559672d624d01f1d60b11c5d5",
+    "shaDepois": "d5323fd34eb4e172bdd72ba3c252112de843587c7292cc57427e09f70cfc3aa5",
+    "patch": {
+      "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
+      "submoduloId": "10.4",
+      "justificativa": "ERRADO. Compete à União organizar e manter o Poder Judiciário do Distrito Federal e dos Territórios, além da competência legislativa constitucionalmente prevista. Localização no DF não equivale a manutenção exclusivamente por receitas distritais.",
+      "gatilho": "sem qualquer vinculação",
+      "armadilhaBanca": "Confundir localização geográfica e responsabilidade federativa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 21, XIII, e 22, XVII: Judiciário do DF e Territórios — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Compete à União organizar e manter o Poder Judiciário do Distrito Federal e dos Territórios.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-011",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.18A, tipos 5, 6 e 7: órgãos governamentais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "248b020e65d4e676bba1f5b8f38175334edb1026a018ab28fe76c4649ae551f4",
+    "shaDepois": "a2e44271679daa7aa918fff7e21f6c4ac08ab6b8d75cfe1c8531ad808f26048f",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "No AACR2r, ministérios, órgãos legislativos e tribunais integram tipos de órgãos governamentais com entrada subordinada sob a jurisdição correspondente, observadas as regras específicas de formação do cabeçalho.",
+      "justificativa": "CERTO. Ministérios, órgãos legislativos e tribunais são tipos com entrada subordinada ao governo pertinente. Isso não implica subordinar toda entidade pública: universidades e empresas devem ser examinadas pelas regras e pelo nome, não apenas por sua natureza pública.",
+      "gatilho": "sob a jurisdição",
+      "armadilhaBanca": "Aplicar os tipos previstos em vez de generalizar pela natureza pública.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipos 5, 6 e 7: órgãos governamentais. Texto ou obra no acervo HNC.",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "No AACR2r, todo órgão e toda universidade pública têm obrigatoriamente entrada subordinada ao nome do país, sem exceções."
+    }
+  },
+  {
+    "id": "orgaos-q-012",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.17 e 24.18: entrada direta e tipos de entrada subordinada",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "eb87fd5cc7e6cc1eccfbcdb9f08130066012518ef990e0145d159e02bda9a3fc",
+    "shaDepois": "1366d5e7e657a5f1854647bd78cba0cd8972539c3639b7f66f3b396b4dccadfd",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "ERRADO. Ser instituição pública não basta para impor entrada pelo governo. Nomes distintivos de universidades e empresas podem ter entrada direta, conforme as regras. Não se acrescenta Brasil compulsoriamente à frente dos dois exemplos apenas porque são entidades federais.",
+      "gatilho": "têm sua entrada principal subordinada",
+      "armadilhaBanca": "Transformar natureza jurídica em critério catalográfico universal.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.17 e 24.18: entrada direta e tipos de entrada subordinada. Texto ou obra no acervo HNC.",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "No AACR2r, a natureza pública de uma universidade ou empresa não impõe, por si, entrada subordinada ao governo.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-013",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.21A: órgão legislativo com mais de uma câmara",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "298c28a3f9c47df9d6a10d912926126838bd714ae3f7e96eea1e2d8db03cd6c8",
+    "shaDepois": "25513b3db197dcc7197e42520b9cd28e7baff6c68653a03df257b06ba2503c96",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "Pela regra 24.21A do AACR2r, o cabeçalho da Câmara dos Deputados integra a forma \"Brasil. Congresso Nacional. Câmara dos Deputados\", por se tratar de uma câmara do legislativo bicameral.",
+      "justificativa": "CERTO. Em legislativo bicameral, a regra faz cada câmara subordinada ao cabeçalho do órgão legislativo. A forma inclui Brasil, Congresso Nacional e Câmara dos Deputados. Uma publicação oficial só recebe entrada principal pela entidade quando também satisfaz as condições de autoria coletiva aplicáveis.",
+      "gatilho": "Congresso Nacional. Câmara dos Deputados",
+      "armadilhaBanca": "Aplicar a regra específica de legislativo bicameral.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.21A: órgão legislativo com mais de uma câmara. Texto ou obra no acervo HNC.",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "No AACR2r, uma câmara de legislativo bicameral deve sempre omitir o nome do órgão legislativo no cabeçalho."
+    }
+  },
+  {
+    "id": "orgaos-q-014",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.18A, tipo 7, e 24.23: tribunais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "5e8569d46ad31ad5d83a1cb8d402caba7ba9c8aae0e3ee7ea75bf9f1ccec1c6c",
+    "shaDepois": "cec09e965b666aaefeaafb4547449cd23447a064a163d70fae2f8e18c2775375",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "ERRADO. A entrada de tribunal segue a jurisdição cuja autoridade exerce e o nome do órgão. O nome geográfico no título não autoriza ignorar essa estrutura. Qualificadores são acrescentados quando necessários à identificação, sem confundir sede, área atendida e jurisdição governamental.",
+      "gatilho": "forma direta",
+      "armadilhaBanca": "Confundir presença de lugar no nome e forma de entrada pela jurisdição.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 7, e 24.23: tribunais. Texto ou obra no acervo HNC.",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O cabeçalho de um tribunal deve observar a jurisdição cuja autoridade exerce e as regras específicas de identificação do órgão.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-015",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.19A: subcabeçalho direto ou indireto",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "882f0c702257ac8f07b513ac8f4d8b7aa661dd6c30ab044475e75b87ca8ebba7",
+    "shaDepois": "403a62f38c7b170315c435e26ec5a6298f405c20cf6081d00ee5135ab8b3549b",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "CERTO. A regra manda entrar diretamente sob o governo, em princípio, omitindo intermediários. Se outra entidade sob o mesmo governo usar ou puder usar o mesmo nome, interpõe-se o elemento hierárquico necessário para distinguir. Omissão é economia controlada, não exclusão absoluta de ministérios.",
+      "gatilho": "não depender dele",
+      "armadilhaBanca": "Distinguir regra geral de omissão e exceção de desambiguação.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.19A: subcabeçalho direto ou indireto. Texto ou obra no acervo HNC.",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O AACR2r proíbe incluir qualquer elemento intermediário no cabeçalho, mesmo se necessário para distinguir órgãos homônimos."
+    }
+  },
+  {
+    "id": "orgaos-q-016",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "MARC 21 bibliográfico, 110: primeiro indicador",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "994303172cc9e42060c3ec5fed2ece50cee28ad580f9c46763ff2ceb94b64194",
+    "shaDepois": "1a239ed85d15b0d8e161c4b3c6ffdb4f0ceb86cc0c2dc628b021bd1984144b96",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "ERRADO. O primeiro indicador 1 identifica nome de jurisdição e 2, nome em ordem direta. O item inverte os significados; os números não representam nível da hierarquia administrativa. O segundo indicador do 110 é indefinido.",
+      "gatilho": "indicador",
+      "armadilhaBanca": "Inverter códigos de indicador e confundir com nível hierárquico.",
+      "fonte": "Library of Congress — MARC 21 formats — MARC 21 bibliográfico, 110: primeiro indicador — https://www.loc.gov/marc/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "No campo 110, o primeiro indicador 1 corresponde a nome de jurisdição e 2 a nome em ordem direta.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-017",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "MARC 21 bibliográfico, 110: $a e $b",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "fcde93ceff97e6726e30b47ac0d219847f0305a33f2e2dca6f201c84eff9c1cb",
+    "shaDepois": "c737a04b367fbe620508c880ae1d6105216ec778b3d0bf67f923cd023c1ce302",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "CERTO. No 110, $a registra o nome da entidade ou jurisdição usado como elemento de entrada, enquanto $b representa unidade subordinada e pode repetir-se. Repetibilidade permite representar mais de um nível; isso não exige reproduzir todos os níveis do organograma.",
+      "gatilho": "repetível",
+      "armadilhaBanca": "Distinguir função e repetibilidade de subcampos.",
+      "fonte": "Library of Congress — MARC 21 formats — MARC 21 bibliográfico, 110: $a e $b — https://www.loc.gov/marc/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "No 110, $b não pode repetir-se e só admite o nome da jurisdição principal."
+    }
+  },
+  {
+    "id": "orgaos-q-018",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rdaMudancas2013"
+    ],
+    "localizador": "11.2.2.14–15 da edição original: reorganização de órgãos subordinados",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "089a82772c75bde91a21aea92f9af492b920dc1e63f2d9146715b9ff1dd82cfb",
+    "shaDepois": "649f3b6b7741a604bcb9a41973c0aa3470f36591b3cfe339fc7bc89aea213920",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "ERRADO. A adoção de RDA não extinguiu os pontos de acesso subordinados de entidades governamentais. A documentação da reorganização da edição original mantém instruções de entidades subordinadas, inclusive governamentais. Não se deve transportar numeração histórica sem indicar a edição ou afirmar que toda entrada passou a ser direta.",
+      "gatilho": "extinguiu",
+      "armadilhaBanca": "Deduzir ruptura absoluta a partir da mudança de código.",
+      "fonte": "Library of Congress — Summary of RDA Updates, July 2013 — 11.2.2.14–15 da edição original: reorganização de órgãos subordinados — https://www.loc.gov/aba/rda/pdf/summary_rda_changes_2013.pdf",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "RDA mantém orientações para entidades subordinadas, incluindo órgãos governamentais, conforme a edição e as instruções aplicáveis.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-019",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.18A, tipos 6 e 7, e 24.23: tribunais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6efba065b8b327d20fffaf0f6f0b772f2f9da971a75f1ecfab367becc10dee5b",
+    "shaDepois": "5e1b5f6994b2eb919fd5f1d80885b4b164e5ca8cceff261029a7f529400e0a69",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "gabarito": "E",
+      "item": "Na enumeração da regra 24.18A do AACR2r, os tribunais pertencem ao Tipo 6, reservado aos órgãos com funções judiciais.",
+      "justificativa": "ERRADO. Na enumeração consultada, o tipo 6 trata de órgãos legislativos e o tipo 7 de tribunais. O cabeçalho de tribunal considera a jurisdição cuja autoridade exerce, não se deduz automaticamente da unidade federativa da sede. A adaptação concentra o julgamento na classificação expressa da regra.",
+      "gatilho": "Tipo 6",
+      "armadilhaBanca": "Trocar a categoria numerada de uma regra catalográfica.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipos 6 e 7, e 24.23: tribunais. Texto ou obra no acervo HNC.",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "No AACR2r 24.18A, tribunais pertencem ao tipo 7; órgãos legislativos pertencem ao tipo 6.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-020",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "24.18A, tipo 9, e 24.20B–C: autoridades governamentais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "f0b3c185aa007ef4a79b2d859f3cb4f883785ce6d6f94960ee63d9c45b041c18",
+    "shaDepois": "a98393663781867cb9234df8c9867c5064374d919e7423141f565f0a94fd2708",
+    "patch": {
+      "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "ERRADO. A regra distingue manifestações no exercício oficial e obras pessoais. No exercício oficial, aplicam-se cabeçalho de jurisdição e cargo, com complementos conforme o caso. Além disso, chefes de Estado e governo estão no tipo 9; o tipo 8 trata das forças armadas.",
+      "gatilho": "sem indicação do cargo",
+      "armadilhaBanca": "Confundir pessoa e cargo e trocar o número do tipo normativo.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 9, e 24.20B–C: autoridades governamentais. Texto ou obra no acervo HNC.",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Manifestações de autoridade no exercício oficial devem observar as regras de jurisdição e cargo do AACR2r, distinguindo-se de obras pessoais.",
+      "versao_errada": ""
+    }
+  }
+]

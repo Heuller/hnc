@@ -2,7 +2,7 @@
 
 Referência: edital e corte cadastrados no HNC. Iniciada em 30/10/2026. Em andamento: **não concluída**.
 
-Situação atual: **1.506 de 2.179 revisadas individualmente; 673 pendentes**. Não equivale a confirmação de origem oficial nem a liberação dos itens historicamente isolados.
+Situação atual: **1.806 de 2.179 revisadas individualmente; 373 pendentes**. Não equivale a confirmação de origem oficial nem a liberação dos itens historicamente isolados.
 
 O inventário de `src/content/questions` contém **2.179 itens**: 2.110 em 20 cadernos e 69 complementares. A revisão inclui itens fora do treino e não equivale à simples aprovação dos atualmente elegíveis. A interface compartilhada também atende outras atividades; checkpoints da reforma teórica têm registro separado.
 
@@ -33,10 +33,12 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 | M11 — Direito Administrativo, gestão pública e contratações | 100/100 | Revisão individual aplicada |
 | M12 — Inglês: leitura, coesão e vocabulário contextual | 100/100 | Revisão individual aplicada |
 | M13 — Português: interpretação, reescrita, sintaxe e ortografia | 100/100 | Revisão individual aplicada |
-| Simulado integral Câmara — cópias divergentes | 4/180 | Itens 13, 57, 147 e 173 revisados; demais itens do arquivo pendentes |
-| Mega simulado — competência do Secretário | 1/120 | Item 117 revisado; demais itens do arquivo pendentes |
-| Simulado geral — cópia de pronome | 1/180 | Item 7 revisado; demais itens do arquivo pendentes |
-| Demais cadernos e banco complementar | 0/199 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
+| M14 — Tecnologia, colaboração, redes, segurança, IA e dados | 100/100 | Revisão individual aplicada |
+| Simulado integral Câmara | 5/180 | Itens 13, 57, 85, 147 e 173 revisados; 175 pendentes |
+| Mega simulado | 1/120 | Item 117 revisado; 119 pendentes |
+| Simulado geral Câmara | 180/180 | Revisão individual aplicada, inclusive cópias conferidas com os módulos |
+| Mini módulo de órgãos | 20/30 | Itens 1–20 revisados; 10 pendentes |
+| Banco complementar | 0/69 | Pendente |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
 
@@ -85,3 +87,8 @@ O detector textual de proveniência foi corrigido para não interpretar concurso
 Duas cópias adicionais do erro de classificação de ele foram lidas e corrigidas: oficial-180q-013 e geral-180q-7. O Texto II autoral reconstruído acompanha as cópias. Total atualizado: **1.506**, com **673 pendentes**. Os testes de conferência preservam isolamento e ausência de verificação oficial, permitindo apenas redações adaptadas com decisão individual registrada. Não congelam uma resposta conceitualmente errada como se fosse gabarito oficial confirmado.
 
 Validação em 31/10/2026 do marco de 1.506: **979 testes em 125 arquivos aprovados**, lint sem avisos, auditoria estrutural e build com orçamentos aprovados. Os testes de navegador validaram estudo/prova, sigilo de gabarito no modo prova, prática de aplicação sem alterar a resposta, texto de apoio antes da resposta, feedback em branco, parágrafos e idioma em 1440 e 390 px; sem erros de execução nem overflow. Corrigida a sincronização dos cliques do script durante recomposição do layout. O README voltou a exibir distribuição apenas descritiva, sem faixa alvo de gabaritos. O registro de 673 pendências é conceitual e não é substituído por esses checks técnicos.
+
+
+Marco de 1.806 itens: concluídos M14 e simulado geral; revisados os primeiros 20 itens do mini módulo de órgãos. No M14, as explicações delimitam versão, plano e configuração de serviços, limites de RAG, representação vetorial e funções de protocolos. Corrigido também o julgamento da cópia oficial 85 sobre transcrição automática. No simulado geral, os textos ingleses ausentes foram reconstruídos e identificados como autorais HNC; não são recuperação de prova oficial. O perfil RVBI do campo 650 foi distinguido das opções gerais do MARC. LAI não limita restrições à classificação formal, e OAIS não impõe PREMIS como esquema único. No mini módulo, corrigido o item 19: tribunais são tipo 7 na regra 24.18A do AACR2r, e não tipo 6. As demais 373 questões continuam pendentes.
+
+Validação do marco de 1.806: 979 testes em 125 arquivos aprovados; lint, auditoria estrutural e compilação com orçamentos aprovados. Navegador local validou estudo, prova, prática guiada sem alteração da resposta, textos de apoio e ausência de overflow nas larguras 1440 e 390. A verificação foi refeita com Vite iniciado sobre o banco atual. Eliminadas as últimas cotas de gabarito do teste do mini módulo; preservados seus 30 itens, IDs, schemas e três blocos temáticos. Essas verificações não certificam semanticamente os 373 itens pendentes.
