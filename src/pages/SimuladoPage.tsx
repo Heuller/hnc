@@ -485,7 +485,7 @@ export const SimuladoPage: React.FC = () => {
               : 'text-ink-2 hover:text-ink'
           }`}
         >
-          Mega, Geral & Especiais (3)
+          Mega, Geral & Especiais (4)
         </button>
       </div>
 
