@@ -631,5 +631,104 @@
       "versao_correta": "A Biblioteca do Senado Federal coordena a RVBI, da qual participam bibliotecas de diferentes órgãos.",
       "versao_errada": ""
     }
+  },
+  {
+    "id": "orgaos-q-027",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rvbiManual2025"
+    ],
+    "localizador": "650: utilização de descritores autorizados no VCB",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "e6371022ed6d7568199a0615a4bac91ce13071c8ab7359db1f2d339af18a5bfa",
+    "shaDepois": "5694ac235fd24426418456005a5e8dd853e2e6c4f171250314922c4fbe5150fe",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "CERTO. O VCB fornece termos autorizados e relações para representar assuntos na cooperação da rede. Não é tabela de localização física nem substitui todos os demais padrões catalográficos. A padronização contribui para reunir variantes e recuperar conteúdos, mas exige aplicação consistente.",
+      "gatilho": "Vocabulário Controlado Básico",
+      "armadilhaBanca": "Distinguir vocabulário de assunto e notação de localização.",
+      "fonte": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI, arquivo de 06/09/2025 — 650: utilização de descritores autorizados no VCB — https://www2.senado.leg.br/bdsf/bitstream/handle/id/231030/Descricao_bibliografica_RVBI_2025-09-06.pdf?isAllowed=y&sequence=33",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O VCB é apenas uma tabela de números de estante e não controla a representação temática na RVBI."
+    }
+  },
+  {
+    "id": "orgaos-q-028",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "serviços editoriais e catálogo de publicações da Câmara",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "2bffdfa69fa45ad2b621e7e7c4930cf1c1596e1985c6d426071aed30b363e72b",
+    "shaDepois": "c58af612d164bcb8cb81e1fa22634f787155597ce03fac785352c0153c1044c7",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "O selo Edições Câmara limita obrigatoriamente seu catálogo à reprodução literal de leis sancionadas, sendo proibida a publicação de obras históricas e culturais.",
+      "justificativa": "ERRADO. O catálogo institucional inclui produção histórica, cultural e de outros temas, além da legislação. A função editorial não se restringe à reprodução literal de leis. O item foi concentrado no escopo de publicação, sem deduzir a cadeia administrativa pela semelhança de nomes.",
+      "gatilho": "limita obrigatoriamente",
+      "armadilhaBanca": "Confundir especialização institucional com exclusividade de gênero editorial.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — serviços editoriais e catálogo de publicações da Câmara — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O catálogo Edições Câmara pode incluir obras históricas e culturais, além de publicações legislativas.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-029",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "sileg"
+    ],
+    "localizador": "cadastro e acompanhamento do ciclo de vida de proposições",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "5c317ceb89dfa2d1a7959b2198c010affe52963b1a009d8ecda738378d30621c",
+    "shaDepois": "6ceb23ce8519095ec98944d8ba6151d9ccf242b845e3d2718f906218fe46b181",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "O Sileg-Tramitação permite cadastrar proposições e acompanhar seu ciclo de tramitação na Câmara dos Deputados, incluindo comissões e eventual encaminhamento ao Plenário.",
+      "justificativa": "CERTO. O sistema registra proposições e acompanha etapas desde apresentação até arquivamento ou transformação em lei, incluindo comissões e Plenário quando cabível. Não se confunde com catálogo bibliográfico nem implica que toda proposição necessariamente passe pelo Plenário ou vire lei.",
+      "gatilho": "Sileg-Tramitação",
+      "armadilhaBanca": "Separar acompanhamento legislativo e descrição de acervo.",
+      "fonte": "Câmara dos Deputados — Sileg-Tramitação — cadastro e acompanhamento do ciclo de vida de proposições — https://www.camara.leg.br/internet/servicos-tic/atv-parlamentar-ficha-sileg.htm",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O Sileg-Tramitação é um catálogo de livros e não acompanha a tramitação de proposições."
+    }
+  },
+  {
+    "id": "orgaos-q-030",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "coleções e acesso a obras raras",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "88f1a383620070bb25a4be1bbc8ff225e625ae545cf5635e1cda5ce786c0cdb0",
+    "shaDepois": "84c20cd0a2409ddc544f5028900e39eb9868e70ebf60868eb3f1efe6534a6dc0",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "A Biblioteca Pedro Aleixo mantém apenas obras posteriores à Constituição de 1988, pois transferiu integralmente seus livros raros históricos ao Arquivo Nacional.",
+      "justificativa": "ERRADO. A instituição mantém coleção de obras raras e fontes históricas. O recorte exclusivo após 1988 contradiz a existência e a missão desse acervo. A preservação pode exigir condições de acesso próprias, sem implicar transferência de toda a custódia ao Arquivo Nacional.",
+      "gatilho": "apenas obras posteriores",
+      "armadilhaBanca": "Transformar marco constitucional em corte inexistente de coleção.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — coleções e acesso a obras raras — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A Biblioteca Pedro Aleixo mantém coleções de obras raras e históricas, sujeitas às condições de preservação e acesso aplicáveis.",
+      "versao_errada": ""
+    }
   }
 ]

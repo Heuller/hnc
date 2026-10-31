@@ -108,9 +108,9 @@
       "cad"
     ],
     "localizador": "passagem security; evidência indicada no comentário",
-    "nota": "E corrigido para C: a relação é sustentada por especially in the case of determined and capable threat actors. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: a relação é sustentada por especially in the case of determined and capable threat actors. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O texto diz que reduzir ameaças é difícil especially in the case of determined and capable threat actors. A ressalva sustenta a relação com determinação e capacidade. Não afirma impossibilidade absoluta nem êxito garantido para os demais casos. Fontes/localizador: textosInglesHnc, cad; passagem security; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "0df5a7febd0cc083677f9ac0f97fa847166f8fe0b9321915e9e26c0d5f0b79da",
-    "shaDepois": "15729680c0469312c6feb7e594bcf372ac8ee6f159a882baabe2d533d919a3a7",
+    "shaDepois": "48d2ea857b3ec30ad76950b3b5798b253d1b31dbc1143b4ba2292cd7aaeb020e",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -124,16 +124,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2360",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -286,9 +285,9 @@
       "cambridgeDictionary"
     ],
     "localizador": "passagem draft; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Latitude é figurado: margem de decisão. O contexto liga essa margem a perguntar menos sobre os desejos do cliente e exercer mais discricionariedade. Não trata de localização geográfica nem de autorização para ignorar limites profissionais. O texto-base ausente foi restaurado. Fontes/localizador: textosInglesHnc, cad, cambridgeDictionary; passagem draft; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "3f2666ac1d8a0fbc3d27e728d25ee0601cf8ca2917c5c5c9d30b69a28627225d",
-    "shaDepois": "244d804bbbba925d9cf7ae05e6d322d9854c38efd4cacc9a56cc13764e595e00",
+    "shaDepois": "85c1f164071e5a7daaaddf6480d6959e185c51a3cdab77b85c2c491f64e23027",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. \n\nFor example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidestepping the duty of abiding by a client’s decisions concerning the objectives of representation. \n\nBut this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. \n\nThe legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft.\n\nJudge the following statement according to the passage.\n\nGreater latitude to exercise discretion means greater leeway for the drafter to make judgments.",
@@ -300,16 +299,15 @@
       "versao_errada": "Greater latitude refers here to the drafter moving to a different geographical region.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2370",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.4"
     },
@@ -361,9 +359,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "C corrigido para E: a narrativa identifica quatro pessoas. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "C corrigido para E: a narrativa identifica quatro pessoas. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. O narrador menciona a esposa, o bebê e Evangeline, além de si próprio: quatro pessoas. Kids é compatível com os dois filhos, não com um passageiro único. Conte os referentes identificados em vez de inferir o total apenas por uma ocorrência de baby. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "dc1aa0433f3d5ed7642bcf3056fedd80e2a586c9b3c280cf3504cb4d6fa19788",
-    "shaDepois": "f27a9b20e742e456e96cc11f7cf041eb30f18da264c3ebfe7e145fd4070d7524",
+    "shaDepois": "ab655bf33ef5fa0824369bf43abf8f92fa0bac8a50045a5587203b85877168fd",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -375,7 +373,15 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "The narrator, his wife, the baby and Evangeline were in the car.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2371",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -476,9 +482,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem truancy; evidência indicada no comentário",
-    "nota": "C corrigido para E: not new contradiz novidade; may não sustenta most people. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "C corrigido para E: not new contradiz novidade; may não sustenta most people. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. But it’s not new rejeita a novidade. May come as a shock expressa possibilidade de surpresa, sem quantificar uma maioria nacional. O item amplia simultaneamente cronologia e alcance da reação; nenhuma das duas ampliações é sustentada. Fontes/localizador: textosInglesHnc; passagem truancy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "93be9b610e9a443fb8166c6a5e39a83064c3fd26bc90e3b7df51ee658b9b6323",
-    "shaDepois": "97f12a32e2689c1c3c412cc96fa75b7ca0d09dd0647dc725d156c11012049678",
+    "shaDepois": "5285cef555420d4357d0824a4f19bacc2fbb010379bfb371dcc32d0faf0aa221",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -490,7 +496,15 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "The article says fines are not new and only suggests they may come as a shock.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2374",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "truancy"
   },
@@ -604,9 +618,9 @@
       "cad"
     ],
     "localizador": "passagem history; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A passagem menciona sistemas antigos, a escrituração por partidas dobradas e episódios europeus de fraude. A questão verifica a organização histórica da exposição, sem certificar que uma narrativa resumida esgote a história da contabilidade ou fixe sua origem definitiva. Fontes/localizador: textosInglesHnc, cad; passagem history; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "2b9bcff7e5ecd9e83ecb3d5eba50de511f1a9c8e6730965bfb0bf7f533bfae16",
-    "shaDepois": "7ed83dd05d3a278500b07e8036643a59b704ec239c9318b2ae5cd0f1d8e63895",
+    "shaDepois": "c2928ec3f9e3614d9def26c34d2e878da6aeb8ce759d540b8c08ebc57d951934",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. \n\nSpecifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. \n\nEven the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. \n\nHistorically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers.\n\nJudge the following statement according to the passage.\n\nThe passage connects accounting controls with examples drawn from several periods of European history.",
@@ -618,16 +632,15 @@
       "versao_errada": "All the examples of accounting controls in the passage belong to a single year in European history.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2386",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -679,9 +692,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem truancy; evidência indicada no comentário",
-    "nota": "C corrigido para E: prisão mencionada para pais, não estudantes. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "C corrigido para E: prisão mencionada para pais, não estudantes. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. A referência a prisão é parents have been sentenced to jail time. A passagem não atribui essa pena aos estudantes. O tema são faltas dos filhos, mas a pessoa penalizada naquela frase é outra; transferir o sujeito altera a informação. Fontes/localizador: textosInglesHnc; passagem truancy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "8e7f3402175a5c8376074ea6c67c5b558fb5e7c55231f0ba72719ddb05730754",
-    "shaDepois": "a0b3e9876849035e3d6a24e72805f7a0b9c9419942111ddbcf64e0c5b3e90c73",
+    "shaDepois": "7b661b663cacbca402ce8e65d05ccdd7b565f2ce7cce1011ecbc20ed9b2ab23e",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -693,7 +706,15 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "The passage mentions parents being jailed for failing to get their children to school.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2387",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "truancy"
   },
@@ -706,9 +727,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "E corrigido para C: analogia sustentada pela abertura do texto. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: analogia sustentada pela abertura do texto. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A comparação aparece expressamente em a natural continuation of family life e é desenvolvida pelos sentimentos opostos. Ela não afirma identidade literal entre conduzir uma família e estacionar. A paráfrase mantém a analogia sem extrair uma equivalência total. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "df774bde322b76af84e662768dc00c947132cff477ea909996a960281c2d6209",
-    "shaDepois": "9a19d09977ceed7589748c24aed1b3aa9635be84b557080fe2fe2883ff4b97cd",
+    "shaDepois": "30b0af678b0a62a6824e1500a8dca7cac4ce6ebf9c05fdeafa6075785fc9016e",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -720,7 +741,15 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "The narrator draws no connection at all between parking and family life.",
       "versao_correta": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2378",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -734,9 +763,9 @@
       "cad"
     ],
     "localizador": "passagem audit; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. It limited e set up a new regulator retomam a lei citada na frase anterior. As duas medidas são exemplos de reforma da governança narrados. A passagem histórica não precisa ser confundida com uma descrição exaustiva da lei ou da regulamentação atual. Fontes/localizador: textosInglesHnc, cad; passagem audit; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "485301cfe4d661f81f9f05750c5e27ab426f9a63f12df7d31563699aeaccb2ff",
-    "shaDepois": "02b9797afb0fc719bee623fdb64ecf0ef12af406c5151a57e2f3d2f19e069590",
+    "shaDepois": "b49a7c03d25ba2bb9d0db09a3dc88993b849824a58efeb53eb113e01620c3820",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Shining a light on the auditors Every financial meltdown prompts a hunt for scapegoats. In the wake of the most recent one, calls to reform accounting have grown particularly loud, and action is on the way. In the coming months both America and the European Union are expected to introduce new rules aimed at enhancing auditors’ independence. But for all the heated debate over the changes, any improvement is likely to be modest. \n\nAmerica’s bean-counters were effectively self-regulating until 2002. That year, following a wave of accounting scandals, Congress passed the Sarbanes-Oxley act to reform corporate governance. It limited the consulting work firms could do for their audit clients and set up a new regulator, the Public Company Accounting Oversight Board. \n\nAt a meeting on December 4th it outlined three policies it expects to implement by the end of 2014. One aims to make audit reports more useful by requiring a section highlighting “critical audit matters” — the high-stakes judgment calls that keep accountants up at night, such as how the business being audited has valued its intangible assets. \n\nAnother would cut the share of an audit that accounting firms can outsource without disclosure from 20% to 5%. Such information is valuable in emerging markets, where local accountants vary widely in quality. \n\nThe most controversial reform would identify by name the lead partner responsible for each audit. Although identifying partners does not increase their legal liability, it does put their reputation on the line. This seems to make accountants more cautious.\n\nJudge the following statement according to the passage.\n\nThe passage links the 2002 Sarbanes-Oxley Act to restrictions on consulting and the creation of an audit regulator.",
@@ -748,16 +777,15 @@
       "versao_errada": "According to the passage, the Act abolished the audit regulator and removed all consulting restrictions.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2388",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -773,9 +801,9 @@
       "cad"
     ],
     "localizador": "passagem kealy; evidência indicada no comentário",
-    "nota": "E corrigido para C: at times frightening sustenta a paráfrase delimitada. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: at times frightening sustenta a paráfrase delimitada. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. At times comical — at times frightening explicita as duas avaliações. Laughed não elimina frightening; uma experiência pode receber qualificações diferentes em momentos diferentes. O enunciado não diz que todo participante o assustava em toda ocasião. Fontes/localizador: textosInglesHnc, cad; passagem kealy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "14a9867b5c294dafd8fe22936c5caea2da4bd1ff4080781a55bd10b41fc21f0a",
-    "shaDepois": "c0a4829e7ac96bedc600216dc321c874a88cdbfc6011884a532059e92cb04457",
+    "shaDepois": "5dd635d67ccf1efd21149e6bb9d354ed8a1ee704e7d905679042f701b811a0f8",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -789,16 +817,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2380",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -889,9 +916,9 @@
       "cad"
     ],
     "localizador": "passagem screen; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Insufficient evidence to assess the balance descreve limitação da evidência para esse grupo. Não significa comprovação de benefício nulo em todas as idades. A passagem é histórica e seu recorte de idade deve ser preservado na interpretação. Fontes/localizador: textosInglesHnc, cad; passagem screen; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "d461e06fb8c872d29124a416ab229fe3df47febbb2b14eeb3b42761720e82530",
-    "shaDepois": "8bbab303c93af657eabcb927b493e13e856d6e451ff57650d6b31f4a4201bfde",
+    "shaDepois": "245c4bf53f4784cf271dc8c2d4d455bec4b6f9cb7e90cc63f79717b41e7c4bbc",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. \n\nIn March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. \n\nBased on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostate-cancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older.\n\nJudge the following statement according to the passage.\n\nThe passage reports uncertainty about the balance of benefits and harms of screening for men younger than 75.",
@@ -903,16 +930,15 @@
       "versao_errada": "The passage says the evidence conclusively proves that screening benefits every age group.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2391",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -928,9 +954,9 @@
       "cambridgeDictionary"
     ],
     "localizador": "passagem history; evidência indicada no comentário",
-    "nota": "E corrigido para C: allay corresponde a aliviar ou reduzir preocupações. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: allay corresponde a aliviar ou reduzir preocupações. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. To introduz o infinitivo e their concerns é o objeto. Allay significa diminuir ou aliviar preocupação, de modo coerente com a finalidade dos controles descritos. Não se trata de aumentar os receios ou de um substantivo que nomeie registros contábeis. Fontes/localizador: textosInglesHnc, cambridgeDictionary; passagem history; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "bf91d0b5d9da74a20cb6e9c475ded0072535e8272bb4a86025d79e80e0a77ff3",
-    "shaDepois": "f6297a839a320dc774ee3cbbc47e4c43d7c9ee6012dc361223521a9b2a488b31",
+    "shaDepois": "a34ce0a4dcf3507e648a106beb10723af186249ab5a99e9248b0ee4f7073caf6",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -942,7 +968,15 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "Allay means to intensify the concerns described in the sentence.",
       "versao_correta": "",
-      "submoduloId": "12.4"
+      "submoduloId": "12.4",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2382",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "history"
   },
@@ -955,9 +989,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. A cópia anterior tinha contagem falsa de três pessoas; substituída por inferência distinta sobre os dois filhos. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. A cópia anterior tinha contagem falsa de três pessoas; substituída por inferência distinta sobre os dois filhos. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O bebê precisa ser acordado e banhado; Evangeline, de cinco anos, ainda poderia dormir em horário razoável. As referências distintas e kids sustentam a leitura de dois filhos. A nova pergunta substitui uma cópia da contagem errada de três pessoas. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "d0e78699bdd35f1d0a588f5146b11c463a7846f6b4b78cf61d0bd6500a1bda7f",
-    "shaDepois": "c82115da2413b949c615b85324f9d73622fe6d46d3010f2a8596446d74f128ff",
+    "shaDepois": "5bf60d4793555f31af80e887ffcb2961ae9e498e574f82de71170a7a66a50f47",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. \n\nTake one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. \n\nWe approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” \n\nShe doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic.\n\nJudge the following statement according to the passage.\n\nEvangeline and the sleeping baby are presented as two distinct children.",
@@ -967,7 +1001,15 @@
       "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "Evangeline is identified as the same sleeping baby who must be awakened and bathed.",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2371",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -981,9 +1023,9 @@
       "cad"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "E corrigido para C: esperança em conflito com desespero está explícita. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: esperança em conflito com desespero está explícita. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A tremor of hope e battling despair nomeiam diretamente os sentimentos em disputa. O narrador não descreve certeza de sucesso. A versão revisada mantém a intensidade figurada sem transformar a esperança em garantia de encontrar vaga. Fontes/localizador: textosInglesHnc, cad; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "125c661e86923879deb4f566c647de0bcce6788378b590214f689a81681ca4c3",
-    "shaDepois": "ee466ed7a7064f77ca24a670797162569ee800f441225dbe78a9780054bcb5a0",
+    "shaDepois": "d520057b50e1118c1cc3ef9a1eb73f685a5e07e0b6b398a17038b9d0dbfc7e62",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -997,16 +1039,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2383",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -1148,9 +1189,9 @@
       "cad"
     ],
     "localizador": "passagem kealy; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. I asked this question based on my own experience liga pesquisa e experiência. As cenas do aparelho percebido como objeto de Marte e do redator zangado exemplificam estranhamento. Não se afirma que todos os parlamentares reagiram da mesma maneira. Fontes/localizador: textosInglesHnc, cad; passagem kealy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "59b83f02ddd1df98b8afb0f3c3b34b1c20f36309c358f0287d1e2eab46ea7bec",
-    "shaDepois": "abbd13b1ad3dea88e24c93d3f432152a8be99be6bb5ea80491958ff48b206364",
+    "shaDepois": "514674d64deca6f61d82c0588a5068a75c6a8547bb2cad7c351851589bd5b7d7",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "When conducting a survey on the use of technology in the legislative process, one of the questions I asked was “Has the legislature, as an institution or in part, resisted technology based changes?” I asked this question based on my own experience with the Massachusetts Legislature. I spent 9 years working with legislators and senior staff, and the way they sometimes approached technology was at times comical―at times frightening. \n\nMy friends and I watched on―and laughed―the first time a laptop computer or an iPhone made its way onto the floor of the Massachusetts House or Senate and the members gathered around it, acting as though they were looking at an artifact that had been dropped from Mars. \n\nI also saw an older legislative drafter become befuddled and angry when he was forced to start using the “track changes” and “comment” functions on Microsoft Word rather than marking up a bill with his beloved red pencil.\n\nJudge the following statement according to the passage.\n\nThe author uses personal anecdotes to illustrate initial resistance or confusion about technology in the legislature.",
@@ -1162,16 +1203,15 @@
       "versao_errada": "The passage contains only numerical survey results and no personal anecdotes.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2398",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2398"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2398 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -1224,9 +1264,9 @@
       "cad"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O bebê teria de ser acordado e banhado e a possibilidade de Evangeline deitar em horário razoável dependeria do estacionamento. Esses detalhes sustentam impacto na rotina. A resposta não depende de supor que toda família nova-iorquina viva a mesma situação. Fontes/localizador: textosInglesHnc, cad; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "43971962c4fb97b2bdf6b42b957e2d23b45ec8174ad244d14bacb341120e472e",
-    "shaDepois": "2e7a6e1a23ce8307377b8ef6605b4a3b0999a083a0a51ab17bc102411d8552c5",
+    "shaDepois": "6ffd0da9199c48cb148d3394f8ebe484db05eb3d59892bd5b517001dd94f17aa",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. \n\nTake one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. \n\nWe approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” \n\nShe doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic.\n\nJudge the following statement according to the passage.\n\nThe parking search affects the family’s evening schedule, including the children’s bedtime.",
@@ -1238,16 +1278,15 @@
       "versao_errada": "The passage presents parking as entirely unrelated to the family’s bedtime arrangements.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2402",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2402"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2402 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -1287,9 +1326,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. She doesn’t find this choice easy equivale à dificuldade da escolha mencionada. I don’t blame her reforça compreensão, não repreensão. A frase não prova qual alternativa ela acabou escolhendo, por isso o enunciado se limita à avaliação do narrador. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "5154c12dc63136c592501fb8753673e84be491c415d17e0429e6448126857564",
-    "shaDepois": "7a43ee5eea1bb86cf5ab570077d462efe87d0bf14be704499d46d2f8cad36567",
+    "shaDepois": "d788e2ce6c77b6e1b00c6ea2e737856dfc0dfb505412e7ed112a27aa5e62d90d",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. \n\nTake one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. \n\nWe approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” \n\nShe doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic.\n\nJudge the following statement according to the passage.\n\nThe narrator acknowledges that his wife finds the choice between leaving with the children and staying in the car difficult.",
@@ -1299,7 +1338,14 @@
       "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "The narrator states that his wife finds the choice effortless and obvious.",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -1312,9 +1358,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem truancy; evidência indicada no comentário",
-    "nota": "E corrigido para C: possibilidade de multa na terceira ocorrência está expressa. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: possibilidade de multa na terceira ocorrência está expressa. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A evidência é a $20 penalty may still be handed out for the third offense. Could preserva a possibilidade de may; não a transforma em penalidade obrigatória na primeira falta. A avaliação se refere à regra histórica da passagem, não à legislação atual de Los Angeles. Fontes/localizador: textosInglesHnc; passagem truancy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "aafd68bce8e2fd845cdd66780a5379bf13bc067cffdb18a252d31b4901e7ff0f",
-    "shaDepois": "fbf9e4e562ad03a6a1d1c53de96923e8981e2fa4639ca6b0ab1f908f5faafaec",
+    "shaDepois": "762d240766fb171deb2c4f1d1ecc5b56f8838dbd55b2bd2cb5a2b35700807b22",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -1326,7 +1372,15 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "The amended rule eliminated every possibility of a fine, including for a third offense.",
       "versao_correta": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2399",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "truancy"
   },
@@ -1451,9 +1505,9 @@
       "cad"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "E corrigido para C: a sequência reconhece a dificuldade e afasta censura. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: a sequência reconhece a dificuldade e afasta censura. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A sequência She doesn’t find this choice easy. I don’t blame her explicita reconhecimento da dificuldade sem censura. A ausência de culpa não equivale a ausência de dificuldade. A variante substitui uma cópia cujo julgamento contrariava essa mesma evidência. Fontes/localizador: textosInglesHnc, cad; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "28059b209347e999e87d828aa0081815b536c1c727446b7a7680c39cdc193cc1",
-    "shaDepois": "e182740cec40371ed7d6c9c881d03ffae7529a4f665a4267aeff63d904e5e94f",
+    "shaDepois": "8a8d3c74f0f511886ccb251239f0b0c9cdd68a9aaeedad2e81589072be5fd819",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -1467,16 +1521,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2401",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2401"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2401 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -1566,9 +1619,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O narrador elogia a habilidade da esposa e, em seguida, associa a tarefa à sua própria percepção de papel familiar. As informações coexistem: assumir a tarefa não demonstra incompetência da outra pessoa. A interpretação não exige concordar com a visão de papéis expressa no relato. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "71772589bd42989ae4966146d2c8661cf5528cbb5b270886a2d4148835894a06",
-    "shaDepois": "3ac52923e7f76251b1ca874038675f350f567bff79634662eca51e4ab5aa7198",
+    "shaDepois": "a0d83bf291a632c90c83acc2b01a209ef34e6e2bdbe1e22c8640bc4edf1705fc",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. \n\nTake one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. \n\nWe approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” \n\nShe doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic.\n\nJudge the following statement according to the passage.\n\nCalling his wife an excellent driver is compatible with the narrator’s decision to take responsibility for parking.",
@@ -1578,7 +1631,14 @@
       "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "The narrator’s taking responsibility for parking necessarily cancels his explicit praise of his wife’s driving.",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -1668,9 +1728,9 @@
       "cambridgeGrammar"
     ],
     "localizador": "passagem rotation; evidência indicada no comentário",
-    "nota": "E corrigido para C: that retoma a situação expressa na oração anterior. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: that retoma a situação expressa na oração anterior. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A oração anterior descreve the same incumbent firm has been in place for 100 years. That retoma essa situação para compará-la ironicamente a joint venture. É referência a uma situação, não tradução obrigatória de uma única palavra antecedente. Fontes/localizador: textosInglesHnc, cad, cambridgeGrammar; passagem rotation; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "e13425bc410066e2178fa06dce47ff3e7977ba7767703f8bab2ec5ad68f9b288",
-    "shaDepois": "06f85808defa9c424ba03017ac781f38ad314233ac293bb5edca8e5aa85fa8a5",
+    "shaDepois": "89011f9f1f4ebdd1e40da0e24d62a73004316c2410549ef536e1b6675236abbe",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -1684,16 +1744,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2406",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2406"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2406 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.3"
     },
@@ -1745,9 +1804,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem truancy; evidência indicada no comentário",
-    "nota": "E corrigido para C: estrutura binária explícita no texto. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: estrutura binária explícita no texto. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. IPads e outros incentivos exemplificam recompensa; multas e sanções exemplificam punição. A estrutura confirma two options do início. Não se deve inverter o gabarito porque as consequências de cada estratégia são discutíveis fora do texto. Fontes/localizador: textosInglesHnc; passagem truancy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "41f6087ebd6a3153e88acabba8e2e540270cff251040048aee7f5e10278819a7",
-    "shaDepois": "086c192eb2ed57fbe3f4b78933653cc241f697f46e6c58c932c7b4c56109e2e9",
+    "shaDepois": "65719bcb4b12e74ebf5caafbd824739b93fdad0ebe0ef65325b59570cb9fe590",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -1759,7 +1818,14 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "The article’s examples all concern rewards, with no mention of sanctions.",
       "versao_correta": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "truancy"
   },
@@ -1773,9 +1839,9 @@
       "cad"
     ],
     "localizador": "passagem draft; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Many may even be unaware of their power aparece junto da influência consciente ou subconsciente das agendas. O texto distingue efeito das escolhas e consciência desse efeito. Não é preciso intenção declarada de interferir para reconhecer o papel ativo descrito. Fontes/localizador: textosInglesHnc, cad; passagem draft; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "f438099125f93c7ea74db8d360d458213b298c038413222c5d7719c2d03f82ed",
-    "shaDepois": "fd7979c9fb3f6dcef21ab0f14581f3a757214fdba4c56ac9d96bd0fa0bc64554",
+    "shaDepois": "3a09032a5efbc2fac676cce79ef14357ec33b442e2c01c51b6929f0805f42952",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. \n\nFor example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidestepping the duty of abiding by a client’s decisions concerning the objectives of representation. \n\nBut this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. \n\nThe legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft.\n\nJudge the following statement according to the passage.\n\nA drafter’s choices may shape policy even when the drafter is not fully aware of that influence.",
@@ -1787,16 +1853,15 @@
       "versao_errada": "The text says policy influence occurs only when the drafter openly announces an advocacy objective.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2417",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2417"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2417 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -1813,9 +1878,9 @@
       "cambridgeGrammar"
     ],
     "localizador": "passagem draft; evidência indicada no comentário",
-    "nota": "E corrigido para C: referência a segmento anterior, não apenas palavra isolada. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: referência a segmento anterior, não apenas palavra isolada. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O demonstrativo retoma a argumentação anterior para limitar uma conclusão excessivamente negativa. Os redatores não são descritos como quinta-coluna que sempre busca fins próprios. A referência é discursiva, não exige um único substantivo imediatamente anterior como antecedente. Fontes/localizador: textosInglesHnc, cad, cambridgeGrammar; passagem draft; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "945188827616eaf44125bdc77984420ebcf05ca067e5661005b17a0d3fee8831",
-    "shaDepois": "3640420e50ae4d88149c88000006f8d2c0b8734437256a8958ffaf76f483f311",
+    "shaDepois": "72e6f6fe75628f312a294e7bf00c1c989339bc6044db729b11921570547d6c3d",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -1829,16 +1894,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2411",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2411"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2411 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.3"
     },
@@ -1854,9 +1918,9 @@
       "cad"
     ],
     "localizador": "passagem security; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O texto enumera reducing the threat, reducing the vulnerability, or reducing the impact e admite combinações. A enumeração é o modelo utilizado na passagem, não garantia de que qualquer diminuição seja fácil. A coordenação or não exclui o uso combinado explicitamente ressalvado. Fontes/localizador: textosInglesHnc, cad; passagem security; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "3db76e5ea946122cb46615c5821c5ccb45e24b5316640acc74e4513403e04cb6",
-    "shaDepois": "c43935b6dae1ed64e3631a4c3220b9acc24c6b3809e4370b0342424de0b56e44",
+    "shaDepois": "6cf8e9350f32263823ed9e35c74aa1281871f40a62c662a3b8b9451ce99b24be",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. \n\nGiven that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). \n\nReducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. \n\nThat said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred.\n\nJudge the following statement according to the passage.\n\nThreat, vulnerability and impact are the three factors the passage says can be reduced to lower security risk.",
@@ -1868,16 +1932,15 @@
       "versao_errada": "The passage says only threat reduction matters and excludes changes in vulnerability or impact.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2418",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2418"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2418 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -1993,9 +2056,9 @@
       "cad"
     ],
     "localizador": "passagem police; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Not the people, but the regime constrói a primeira oposição; by contrast introduz o caso democrático. A comparação é a organização central da passagem. Não se pode inverter os polos sem contrariar as expressões explícitas de contraste. Fontes/localizador: textosInglesHnc, cad; passagem police; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "601ae87b5c87b466c556dfe636fb40c07d06703c611ddcea4b9dce1fbeeafa6d",
-    "shaDepois": "0cd181e125010a170416b7f383ae7a57fc7d8e63e573ae8b4729d93fbcb5f87c",
+    "shaDepois": "0a9e3e396f2bb53906e2c591d914430cfe7833d21bb84f33ada1b8c5f5a109f8",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "The role of the police in a healthy democracy is radically different from their role in authoritarian societies. \n\nIn autocratic regimes, the police serve mainly to protect not the people, but the regime. The police are therefore typically politicized, with appointments being part of the patronage system that rewards regime loyalists. Police officers spend a great deal of time spying on the populace to unmask political opposition; crime against citizens is less of a concern. Abuse and corruption are usually rife, because police are not held accountable for their actions. Rather, political leaders tolerate abuses by the police in return for police loyalty to the regime. \n\nBy contrast, in democratic societies the primary mission of the police is to protect citizens against crime and disorder, including illegal or corrupt behavior by officials. In democracies, police have carefully circumscribed roles that require close and positive relations with ordinary citizens. The use of arms and pursuit of criminals are rare and take up only a tiny fraction of police time. Instead, police officers spend the vast bulk of their time building relationships with the community through patrols, community-enhancing activities, and listening to citizens. \n\nThe goal of democratic policing is to build a web of relationships between the community and the police that helps to control crime by making police aware of the persons and activities in the communities that they are assigned to protect and by inclining citizens to trust and cooperate with police. This also achieves the primary goal of making citizens feel secure in their daily activities, thereby fostering a climate that encourages increased legitimate business activity, investment, and planning for the future.\n\nJudge the following statement according to the passage.\n\nThe author contrasts protecting an autocratic regime with the citizen-protection mission attributed to democratic policing.",
@@ -2007,16 +2070,15 @@
       "versao_errada": "The passage assigns citizen protection exclusively to autocracies and regime protection exclusively to democracies.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2424",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2424"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2424 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -2032,9 +2094,9 @@
       "cambridgeDictionary"
     ],
     "localizador": "passagem alignment; evidência indicada no comentário",
-    "nota": "E corrigido para C: outperform corresponde a superar em desempenho. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: outperform corresponde a superar em desempenho. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O prefixo out- em outperform indica superar em desempenho. Those that do not fornece o grupo comparado: organizações sem aquele alinhamento bem-sucedido. O sentido não é realizar tarefa fora do escritório nem piorar o resultado. Fontes/localizador: textosInglesHnc, cambridgeDictionary; passagem alignment; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "8596e5ad59fccaeb5662d6aa228f151e0ab00dea2adf7c524cbc0444490d9ef5",
-    "shaDepois": "af9c2c24386486f711d7fe3290a4b37ed169b33657ab44072db274bea7014a04",
+    "shaDepois": "b896eacb0182c85ba13b2a0890d252ad15af2c9a004fc33dc8db50b9b8fad351",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -2046,7 +2108,15 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "Outperform means to perform worse than the comparison group.",
       "versao_correta": "",
-      "submoduloId": "12.4"
+      "submoduloId": "12.4",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2425",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "alignment"
   },
@@ -2059,9 +2129,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Which is to say apresenta a segunda frase como reformulação da primeira, e natural continuation of family life cria o vínculo. A analogia não depende de uma palavra como similar aparecer literalmente. Reconhecer relação discursiva evita uma leitura limitada a sinônimos isolados. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "2c9be4f01cee3b2a0c5e6f490de87326204b0858b6b16400fc6a927a90ba4fa4",
-    "shaDepois": "7170b4ccb7337d31fa3625fef164c1263708608f2171186ec1fe6bd9c5b06a6a",
+    "shaDepois": "e4812ba2859a34122cb1e80595fd6be0e392222e0186545b00acf8e7530985b9",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. \n\nTake one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. \n\nWe approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” \n\nShe doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic.\n\nJudge the following statement according to the passage.\n\nThe opening comparison links parking and family life rather than presenting them as completely separate experiences.",
@@ -2071,7 +2141,14 @@
       "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_errada": "The opening explicitly denies any connection between parking and family life.",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -2235,9 +2312,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem truancy; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. It’s not new e os exemplos de Ohio e Los Angeles afastam a primazia mundial atribuída. O texto informa uma proposta particular em análise, não a invenção da estratégia. First ever é uma ampliação temporal que exigiria demonstração adicional. Fontes/localizador: textosInglesHnc; passagem truancy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "776f4150d41fd80f0fa116f8569c5131c23f37d01b748e463d21b69f2db4bc1e",
-    "shaDepois": "f3daf3c406b36af85683a63020268ecb9cd7c57636b03bb3cbe5b9eb4c410dcf",
+    "shaDepois": "691869c6a419afaf555ed544e8dfd4eefa73b4c9048bba480853797580663db1",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. \n\nIn New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. \n\nThe concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. \n\nUntil recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense.\n\nJudge the following statement according to the passage.\n\nThe passage identifies Cooper as the first person ever to propose monetary penalties for truancy.",
@@ -2247,7 +2324,14 @@
       "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem truancy; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
       "dataConferencia": "2026-10-30",
       "versao_correta": "Cooper’s proposal is presented alongside earlier examples of monetary penalties.",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "truancy"
   },
@@ -2298,9 +2382,9 @@
       "cad"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "E corrigido para C: contraste entre esperança e desespero sustentado no trecho. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: contraste entre esperança e desespero sustentado no trecho. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Hope that a miracle would occur e despair as the alternative scenario são associações explícitas. O narrador personifica a disputa entre sentimentos. Não se exige adivinhar o desfecho para identificar o contraste apresentado naquele momento. Fontes/localizador: textosInglesHnc, cad; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "e0d3430e8c60781d7799084edcf45f953872a48d87b47bdd2047a65ba05efbb2",
-    "shaDepois": "2acf78b4d2e6a1f8a5082a5a4cc84cf47cdf6de56377d776b7b1518b638ac536",
+    "shaDepois": "6aff1df8ea0c4c4f73757c55315baadaf44a9a8504a18f8c9edb1514338b0f64",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -2314,16 +2398,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2383",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -2340,9 +2423,9 @@
       "cambridgeDictionary"
     ],
     "localizador": "passagem technology; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. O objeto requirements e o sujeito laws orientam a leitura de lay out como estabelecer ou expor exigências. O sentido literal de deitar ou dispor objetos no chão é inadequado. A equivalência foi mantida na combinação efetivamente usada na passagem. Fontes/localizador: textosInglesHnc, cad, cambridgeDictionary; passagem technology; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "a877030722565921abcdbffd0585448e57fe799b0e4e1d09203b113618932f19",
-    "shaDepois": "707128a187fdae2059d2b806f82d4ccac8d8634285ad9a32edf2428a40c7e534",
+    "shaDepois": "a9a82bd340c980b3fe8b9d3ce45fc9b9d559b5ccbce5c8669ebe0c81a23efefd",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Technology Legislation Technology-related legislation can have a huge impact on growing businesses, and some interesting issues are likely to pop up with the new Congress of the United States this year. Of great interest to growing businesses are the topics of data protection and net neutrality. \n\nLaws that lay out more stringent requirements for retaining and protecting employee and customer data could be on the horizon. \"The laws that apply to big business are going to trickle down to small business,\" says Ann Westerheim, founder and president of technology consulting firm Ekaru. \"Businesses need to have that on their radar. You don't want to get hit with a fine because you're not complying.\" She suggests looking at laws like Sarbanes-Oxley to get an idea of where new tech laws could be heading. \n\nThe good news is that proper data protection is something businesses should be doing anyway. \"A lot of the measures required to protect employee and customer data are just good business practices,\" says Westerheim. Growing businesses can head off potential compliance costs by gradually shoring up their IT security and data protection now. \n\nNet neutrality is likely to be a hot issue again after stalling in the Senate last year. Net neutrality proponents want regulations to prevent network providers from prioritizing certain Internet traffic. \"Net neutrality is a big issue for small businesses,\" says Westerheim. A net neutrality law stands a better chance of passing with strong Democratic backing this year, but it figures to be a hard-fought battle. \n\nDigital copyright issues could also come to the fore in Congress. With the changes brought about by the last election, it will be an interesting year for entrepreneurs to keep an eye on the goings-on in Washington.\n\nJudge the following statement according to the passage.\n\nLay out in laws that lay out more stringent requirements means to set forth or specify those requirements.",
@@ -2354,16 +2437,15 @@
       "versao_errada": "Lay out means to abolish the requirements mentioned in the sentence.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2432",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2432"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2432 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.4"
     },
@@ -2379,9 +2461,9 @@
       "cad"
     ],
     "localizador": "passagem security; evidência indicada no comentário",
-    "nota": "E corrigido para C: especially introduz o caso destacado de maior dificuldade. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: especially introduz o caso destacado de maior dificuldade. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Especially restringe o destaque dentro da afirmação geral sobre dificuldade. O texto diferencia casos, sem dizer que só esses agentes oferecem risco. A nova variante confere o papel do marcador em vez de repetir literalmente a mesma inferência sobre capacidade. Fontes/localizador: textosInglesHnc, cad; passagem security; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "6e02b92512bd0f2ed718ba3714f366d58fe75018b661e91679e21419ecadb781",
-    "shaDepois": "a1c5dd5f19e77d79430dfd8133269f62457fc3eec3516a38c57fc06b513b50ba",
+    "shaDepois": "f00ce948435fabd20e0a76c6e740e9fe67eb88f01c0c741f5eb08b12add02b57",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -2395,16 +2477,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2360",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -2706,9 +2787,9 @@
       "cambridgeDictionary"
     ],
     "localizador": "passagem draft; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. The drafter who less frequently inquires ... will have greater latitude liga as duas informações. O texto alerta para efeitos possíveis dessa margem, sem dizer que consultar menos elimina o dever de respeitar os objetivos do cliente. A relação descrita não é uma licença ética. Fontes/localizador: textosInglesHnc, cad, cambridgeDictionary; passagem draft; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "deedd610fb336a4b1685e4088815f11d19a7c108e3ed9b41d106cde53ce45e15",
-    "shaDepois": "7d998483692b1468bdbc3d03b1eec9d36d475a9a6abbed47c347e55a5ac73661",
+    "shaDepois": "cb878bfb56d51eec3b6fc98169785b46cfbb7bcbbfde45483eabfea1a4f820fd",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. \n\nFor example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidestepping the duty of abiding by a client’s decisions concerning the objectives of representation. \n\nBut this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. \n\nThe legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft.\n\nJudge the following statement according to the passage.\n\nLess frequent consultation of the client is associated with greater room for the drafter’s own discretion.",
@@ -2720,16 +2801,15 @@
       "versao_errada": "The text says consulting the client less often necessarily removes all discretion from the drafter.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2370",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.4"
     },
@@ -2769,9 +2849,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "C corrigido para E: a cópia original contava três pessoas; a variante confere a mesma falha de referência. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "C corrigido para E: a cópia original contava três pessoas; a variante confere a mesma falha de referência. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. As rotinas mencionadas são distintas: acordar e banhar o bebê e avaliar o horário de sono de Evangeline, de cinco anos. Kids reforça a pluralidade. A passagem identifica dois filhos e, com os pais, quatro pessoas; não se deve fundir os referentes. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "437f16510c1de4e001872c54b88f4f349936dfc6d5b7332cd769aa7f5ca323c4",
-    "shaDepois": "b3a885687fdb30547919c76cde4b0715275b4773043064ed93750875206e3540",
+    "shaDepois": "c99391b30c1b7080394b4ff9c25549cc0eca90e10874356d5b6bb55aa56f4baf",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -2783,7 +2863,15 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "The baby and five-year-old Evangeline are two children, in addition to the narrator and his wife.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2371",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -2884,9 +2972,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem truancy; evidência indicada no comentário",
-    "nota": "C corrigido para E: a narrativa apresenta multas anteriores à proposta. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "C corrigido para E: a narrativa apresenta multas anteriores à proposta. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. Ohio e a regra anterior de Los Angeles são contraexemplos descritos, e not new explicita a conclusão. O item faz uma negação histórica universal incompatível com esses exemplos. A proposta de um novo valor local não inaugura necessariamente uma prática. Fontes/localizador: textosInglesHnc; passagem truancy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "51a01f2ae051f06a4caba828529dd5c11ccfa031fc89eded40035efb4546a4d7",
-    "shaDepois": "7f4080dea94b3c9388bdf93a0366412e9f6281a58db7fd499affcc0dfef36545",
+    "shaDepois": "2a7e41f6a81444002324445c52b552ad8c20632609717a46da5ec45f204069bd",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -2898,7 +2986,15 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "The passage provides earlier examples of monetary penalties in Ohio and Los Angeles.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2374",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "truancy"
   },
@@ -2985,9 +3081,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "E corrigido para C: a analogia é explícita e foi delimitada. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: a analogia é explícita e foi delimitada. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A expressão liga experiências por alternância de sentimentos. Analogia preserva diferenças entre as atividades e destaca um aspecto comum. Ler continuation literalmente como identidade integral produziria uma conclusão que o episódio e o tom narrativo não exigem. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "53bdaf903072d2bd77d3fd7db916476bbc522d62303db5e506f84f35c2621cc4",
-    "shaDepois": "31ccabc88fd72643b4e9cbd30e055a292321951fcd9f90c9da05577eac5b975b",
+    "shaDepois": "bbf33fc3fe54dbb147204aea55ba48ad619dd7990293eca169e46e3e1100d0c6",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -2999,7 +3095,15 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "The comparison claims parking and family life are literally the same activity in every respect.",
       "versao_correta": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2378",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },
@@ -3013,9 +3117,9 @@
       "cad"
     ],
     "localizador": "passagem history; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Critical need for exercising stewardship and control associa práticas contábeis à gestão responsável e ao controle. A pergunta verifica essa relação explicativa, sem afirmar que o desenvolvimento contábil teve uma única causa comprovada em toda a história. Fontes/localizador: textosInglesHnc, cad; passagem history; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "9de27e50d200b3acec6a4f820ff46502048a94a997c2659d14b1c620ca8f9552",
-    "shaDepois": "9c7b2c672e087b3826a6d9b39d48cbdaa1b04c832fcb63d27287b04e3642ca76",
+    "shaDepois": "986802780d6f59ed477003a4ea8d460208928d61feb9ed9be04248bc60f5b135",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. \n\nSpecifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. \n\nEven the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. \n\nHistorically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers.\n\nJudge the following statement according to the passage.\n\nStewardship and control are presented as motivations for developing accounting practices.",
@@ -3027,16 +3131,15 @@
       "versao_errada": "The passage presents accounting practices as unrelated to control or responsible management of resources.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2386",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -3052,9 +3155,9 @@
       "cad"
     ],
     "localizador": "passagem kealy; evidência indicada no comentário",
-    "nota": "E corrigido para C: as duas avaliações estão expressas no texto. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: as duas avaliações estão expressas no texto. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. At times ... at times distribui as avaliações por momentos. O narrador pode ter achado certas reações engraçadas e outras assustadoras; laughed não cancela a segunda qualificação. A versão delimita a leitura e não atribui medo a todos os episódios. Fontes/localizador: textosInglesHnc, cad; passagem kealy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "6f41f2eb47ff7c9b22c5b6ed51c15abd9416135c3d193152ce7dce769f96c98b",
-    "shaDepois": "06a2a90105714ad2c4b5da4bcebc373d1b65ac766d2ca5797524196e36a50a10",
+    "shaDepois": "916262cc7e0794c67c1482e99864202d24f79922d3d6b65a16a1dfaccfe94f19",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -3068,16 +3171,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2380",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -3092,9 +3194,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem truancy; evidência indicada no comentário",
-    "nota": "C corrigido para E: a referência a prisão incide sobre pais. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "C corrigido para E: a referência a prisão incide sobre pais. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. A oração relevante tem parents como sujeito de have been sentenced. O motivo da sanção envolve os filhos, mas não transfere a eles a identidade dos condenados. O contraste rather than torna explícita a troca responsável pelo erro. Fontes/localizador: textosInglesHnc; passagem truancy; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "47484a607fccc91315acacd68245567ce32d972934f431219b5ed11c7e4a7abb",
-    "shaDepois": "a19519348c25f405b4dbe4c94b24cc78149ae984185ff6838d1673c01207ce69",
+    "shaDepois": "94b93a7ddc4685e2a30330e939a0bb1fa584045cee50a1eba4f9b4ddda61c4eb",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -3106,7 +3208,15 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "The jail sentences described were imposed on parents, not on the students themselves.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2387",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "truancy"
   },
@@ -3159,9 +3269,9 @@
       "cambridgeGrammar"
     ],
     "localizador": "passagem audit; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A lei é o antecedente na frase anterior. A oração acrescenta limited ... and set up a new regulator; o regulador só é introduzido como objeto da segunda ação. Não pode ser tomado como sujeito já identificado pelo pronome inicial. Fontes/localizador: textosInglesHnc, cad, cambridgeGrammar; passagem audit; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "47338c52a29b0a183e103532c417f0c5e6c91d41e97c1c399796307f446ddcbc",
-    "shaDepois": "d0ea8464082cf1d1c51c64f80e1566da29a8b491188d756e19068c0d9cde2d92",
+    "shaDepois": "6b4a44f49c74c0eaa235753ed68bd03350f48256d136585b7c8aef9aedcb3fac",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "Shining a light on the auditors Every financial meltdown prompts a hunt for scapegoats. In the wake of the most recent one, calls to reform accounting have grown particularly loud, and action is on the way. In the coming months both America and the European Union are expected to introduce new rules aimed at enhancing auditors’ independence. But for all the heated debate over the changes, any improvement is likely to be modest. \n\nAmerica’s bean-counters were effectively self-regulating until 2002. That year, following a wave of accounting scandals, Congress passed the Sarbanes-Oxley act to reform corporate governance. It limited the consulting work firms could do for their audit clients and set up a new regulator, the Public Company Accounting Oversight Board. \n\nAt a meeting on December 4th it outlined three policies it expects to implement by the end of 2014. One aims to make audit reports more useful by requiring a section highlighting “critical audit matters” — the high-stakes judgment calls that keep accountants up at night, such as how the business being audited has valued its intangible assets. \n\nAnother would cut the share of an audit that accounting firms can outsource without disclosure from 20% to 5%. Such information is valuable in emerging markets, where local accountants vary widely in quality. \n\nThe most controversial reform would identify by name the lead partner responsible for each audit. Although identifying partners does not increase their legal liability, it does put their reputation on the line. This seems to make accountants more cautious.\n\nJudge the following statement according to the passage.\n\nIt in It limited the consulting work refers to the Sarbanes-Oxley Act, not to the regulator introduced later.",
@@ -3173,16 +3283,15 @@
       "versao_errada": "It refers to the regulator that had already been introduced as the subject before the Act.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2388",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.3"
     },
@@ -3198,9 +3307,9 @@
       "cambridgeGrammar"
     ],
     "localizador": "passagem history; evidência indicada no comentário",
-    "nota": "E corrigido para C: allay significa aliviar; to introduz a finalidade. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: allay significa aliviar; to introduz a finalidade. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. To indica finalidade nessa estrutura: os registros visavam reduzir preocupações com receitas, desembolsos e tributos. O verbo não significa eliminá-las comprovadamente nem garante êxito do sistema. Uma finalidade declarada deve ser distinguida de resultado universal. Fontes/localizador: textosInglesHnc, cambridgeGrammar; passagem history; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "e8ae7c4086850b8641ad8452047a5f44a937a08e4e7278c209b7f02947ff1770",
-    "shaDepois": "f7df7a4a9b941712146cb8de77e7b42ff540ebc9a994bb5ff9830cf6ba808357",
+    "shaDepois": "df3d6f7b370e10c88e02c6ea2fd4879205f2426ef5fbc0c3fda6448e68ee1920",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -3212,7 +3321,15 @@
       "dataConferencia": "2026-10-30",
       "versao_errada": "To allay their concerns states that record keeping was intended to intensify those worries.",
       "versao_correta": "",
-      "submoduloId": "12.4"
+      "submoduloId": "12.4",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2382",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "history"
   },
@@ -3264,9 +3381,9 @@
       "cad"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "E corrigido para C: a disputa emocional é textual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "E corrigido para C: a disputa emocional é textual. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. Hope e despair são polos da disputa figurada. A personificação battling reforça tensão, enquanto a miracle sugere resultado incerto e desejado. O trecho não informa, nesse ponto, que a vaga já estava garantida. Fontes/localizador: textosInglesHnc, cad; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "ba9d52b17fa57617d4599d4bff05d72c0b1fa097fcb1e4debe76e19fda072a43",
-    "shaDepois": "aad1ad1fd2a366cee4abf25c3d9140beb7233d8c8baf7b1c53e9e8bc4f7e4f71",
+    "shaDepois": "dfd9b5cf0aea7468f6491c0b352b7aa00819441c095bb68cc1fba81a85bc1b00",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "C",
@@ -3280,16 +3397,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2383",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -3305,9 +3421,9 @@
       "cad"
     ],
     "localizador": "passagem screen; evidência indicada no comentário",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Texto-base reintegrado ao item para tornar a análise autossuficiente. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A frase task force recommended against ... in men 75 and older apresenta a recomendação narrada. A questão se limita a identificar sua atribuição e faixa etária, sem afirmar que essa seja orientação médica atual ou que alcance indistintamente todos os homens. Fontes/localizador: textosInglesHnc, cad; passagem screen; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "293856a77f30a1175da256f854fab7e12c85cc5194da50ed5b83962a549f1eb4",
-    "shaDepois": "409dd5ef84371f6a6674caf5f91beef0ce072f858cd01ff71149ab9ad8ce99cd",
+    "shaDepois": "4355ca3b4b3cb5da5611d18aba3bb7ea620e4282f5ba93432bd8b651bb68e2fc",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. \n\nIn March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. \n\nBased on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostate-cancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older.\n\nJudge the following statement according to the passage.\n\nThe recommendation about men aged 75 and older is reported as a task-force position in this historical passage.",
@@ -3319,16 +3435,15 @@
       "versao_errada": "The passage attributes that recommendation to every participant and applies it equally to all ages.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2391",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "12.1"
     },
@@ -3380,9 +3495,9 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "C corrigido para E: a cópia original omitia uma pessoa; a variante explicita a inclusão do narrador. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original.",
+    "nota": "C corrigido para E: a cópia original omitia uma pessoa; a variante explicita a inclusão do narrador. Bloqueio histórico de elegibilidade preservado; revisão conceitual não confirma gabarito de prova original. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. A primeira pessoa identifica o narrador como participante: we arrived e my wife and me situam ambos na cena. A eles somam-se o bebê e Evangeline. Não há regra linguística que exclua o narrador da contagem de passageiros. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "2fbd175afc988e04fb07c43b0a0343ed96def2fade59b0d696238d0456d84a46",
-    "shaDepois": "a96e2dc039d036b3fe0206535aeaa40ec4f85f86dcb5e17a800436c9fb144a61",
+    "shaDepois": "29a2a64a0bf4406e04e0389322ede8bfcbc3b8261e6220d31e8875bda968544b",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -3394,7 +3509,15 @@
       "dataConferencia": "2026-10-30",
       "versao_correta": "The first-person narrator is one of the four people identified in the episode.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2371",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     },
     "textoBase": "parking"
   },

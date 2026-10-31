@@ -1,3 +1,5 @@
+> Atualização de 31/10/2026: este é um registro histórico de divergências de origem. Os itens atuais foram revisados e liberados como adaptações editoriais, com decisões individuais em `docs/revisao-questoes/disposicoes-historicas.json`. Isso não confirma redação nem gabarito da prova originalmente atribuída.
+
 # Relatório de Itens em Conferência — Língua Inglesa (Prompts C2 & C8)
 
 > [!IMPORTANT]

@@ -1,3 +1,4 @@
+import { respostaDaVersaoAtual } from './versaoConteudoSimulado';
 import { COURSE_REGISTRY } from '../content/registry';
 import { ALL_SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
@@ -18,6 +19,10 @@ export interface ItemCadernoErro {
   submoduloNumero?: string;
   tituloContexto: string;
   assertiva: string;
+  contexto?: string;
+  versao_errada?: string;
+  gatilho?: string;
+  dataConferencia?: string;
   gabarito: 'C' | 'E';
   respostaUsuario: 'C' | 'E' | null;
   justificativa: string;
@@ -113,7 +118,7 @@ export function getItensCadernoErros(
               (q) => q.numero.toString() === respItem.questionId || q.id === respItem.questionId
             );
 
-          if (questao && elegivelParaEstudo(questao)) {
+          if (questao && elegivelParaEstudo(questao) && respostaDaVersaoAtual(respItem, questao)) {
             const itemKey = `sim-${questao.id}`;
             if (!erros.some((e) => e.id === itemKey)) {
               const attempt = attemptsPorItem.get(questao.id);
@@ -130,6 +135,10 @@ export function getItensCadernoErros(
                 submoduloNumero: questao.submoduloId,
                 tituloContexto: `Simulado 100Q · Questão ${questao.numero}`,
                 assertiva: questao.item,
+                contexto: questao.contexto,
+                gatilho: questao.gatilho,
+                versao_errada: questao.versao_errada,
+                dataConferencia: questao.dataConferencia,
                 gabarito: questao.gabarito,
                 respostaUsuario: respItem.resposta,
                 justificativa: questao.justificativa,

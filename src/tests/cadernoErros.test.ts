@@ -1,3 +1,5 @@
+import { versaoQuestao } from '../domain/versaoConteudoSimulado';
+import { getSimuladoById } from '../content/simuladosRegistry';
 import { describe, it, expect } from 'vitest';
 import { getItensCadernoErros, agruparErrosPorModulo } from '../domain/cadernoErros';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
@@ -44,6 +46,8 @@ describe('Caderno de Erros (cadernoErros.ts - H1)', () => {
       respostas: {
         'fund-q-1': {
           questionId: 'fund-q-1',
+          versaoQuestao: versaoQuestao(getSimuladoById('m1-fundamentos').questoes.find(q => q.id === 'fund-q-1')!),
+          gabaritoNaResposta: 'E',
           resposta: 'C',
           acertou: false,
           timestamp: Date.now(),

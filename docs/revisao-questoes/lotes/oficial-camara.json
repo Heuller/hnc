@@ -1131,10 +1131,10 @@
       "textosInglesHnc"
     ],
     "localizador": "passagem parking; evidência indicada no comentário",
-    "nota": "Instância lida e confrontada com m12-q-11, cuja revisão individual e fontes já foram verificadas. Enunciado de origem literal, sem inferir equivalência por similaridade; redação/contexto, fundamento, contraste e vínculo atualizados para manter o mesmo conceito. Origem oficial não certificada. Julgamento C corrigido para E.",
+    "nota": "Instância lida e confrontada com m12-q-11, cuja revisão individual e fontes já foram verificadas. Enunciado de origem literal, sem inferir equivalência por similaridade; redação/contexto, fundamento, contraste e vínculo atualizados para manter o mesmo conceito. Origem oficial não certificada. Julgamento C corrigido para E. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. O narrador menciona a esposa, o bebê e Evangeline, além de si próprio: quatro pessoas. Kids é compatível com os dois filhos, não com um passageiro único. Conte os referentes identificados em vez de inferir o total apenas por uma ocorrência de baby. Fontes/localizador: textosInglesHnc; passagem parking; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "replicaDe": "m12-q-11",
     "shaAntes": "85b9d36319fb3a14f9ffa2f661f01f5b1b99b6a1b31e685939e41e7313ead21c",
-    "shaDepois": "cc69daee416e6dd93b81cbcdc6fb96bc6903c2d088124940cb394542c89cf249",
+    "shaDepois": "405cfb51cbf71cce6e49f2603745a8b058cb3ef8928251f15d5c5ff49f93bfbc",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "gabarito": "E",
@@ -1146,7 +1146,15 @@
       "dataConferencia": "2026-10-31",
       "versao_correta": "The narrator, his wife, the baby and Evangeline were in the car.",
       "versao_errada": "",
-      "submoduloId": "12.1"
+      "submoduloId": "12.1",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2371",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
+      }
     }
   },
   {
@@ -5175,10 +5183,10 @@
       "cad"
     ],
     "localizador": "passagem history; evidência indicada no comentário",
-    "nota": "Leitura e confronto manual com m12-q-19: mesma proposição nuclear, com redação/contexto adaptados explicitamente para estudo. Não se inferiu equivalência por similaridade automática nem se confirmou gabarito oficial. Texto anterior preservado pelo hash e histórico Git.",
+    "nota": "Leitura e confronto manual com m12-q-19: mesma proposição nuclear, com redação/contexto adaptados explicitamente para estudo. Não se inferiu equivalência por similaridade automática nem se confirmou gabarito oficial. Texto anterior preservado pelo hash e histórico Git. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento C: CERTO. A passagem menciona sistemas antigos, a escrituração por partidas dobradas e episódios europeus de fraude. A questão verifica a organização histórica da exposição, sem certificar que uma narrativa resumida esgote a história da contabilidade ou fixe sua origem definitiva. Fontes/localizador: textosInglesHnc, cad; passagem history; evidência indicada no comentário. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "replicaDe": "m12-q-19",
     "shaAntes": "711e23cb7541dc3e3209b8c391ca7dec4cbc022d90c9e5d9208cd64148b9d49f",
-    "shaDepois": "fd152d97bff6b6993f1c4eb55596f093e06b2f8460348222435adbc9eec47f92",
+    "shaDepois": "be85946168e9ba09b0ed67bd6852602fc8d4caa56c02c553c0b7efeb768f49e3",
     "patch": {
       "contexto": "Read the passage and judge the statement according to it.",
       "item": "As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. \n\nSpecifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. \n\nEven the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. \n\nHistorically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers.\n\nJudge the following statement according to the passage.\n\nThe passage connects accounting controls with examples drawn from several periods of European history.",
@@ -5193,16 +5201,15 @@
       "versao_correta": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; origem de prova legada não confirmada.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2386",
-        "revisar": true,
-        "statusConferencia": "em-conferencia",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       }
     }
   },

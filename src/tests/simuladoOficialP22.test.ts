@@ -67,9 +67,9 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
       expect(simulado).toBeDefined();
       expect(simulado.id).toBe('simulado-oficial-camara-2027');
       expect(simulado.totalNominal).toBe(180);
-      expect(simulado.questoes).toHaveLength(178);
-      expect(simulado.itensForaConferencia).toBe(2);
-      expect(simulado.titulo).toContain('Simulado Oficial Câmara 2027');
+      expect(simulado.questoes).toHaveLength(180);
+      expect(simulado.itensForaConferencia).toBeUndefined();
+      expect(simulado.titulo).toContain('Simulado integral Câmara 2027');
     });
 
     it('deve detectar o ID do simulado oficial a partir dos IDs de questão', () => {

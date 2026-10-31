@@ -1,8 +1,8 @@
 # Revisão individual do banco e dos simulados
 
-Referência: edital e corte cadastrados no HNC. Iniciada em 30/10/2026. Em andamento: **não concluída**.
+Referência: edital e corte cadastrados no HNC. Iniciada em 30/10/2026. Revisão individual do banco e validação final concluídas; publicação em andamento.
 
-Situação atual: **2.106 de 2.179 revisadas individualmente; 73 pendentes**. Não equivale a confirmação de origem oficial nem a liberação dos itens historicamente isolados.
+Situação atual: **2.179 de 2.179 revisadas individualmente; nenhuma pendência no inventário do banco**. A revisão não equivale a confirmação de origem oficial. As 59 adaptações historicamente isoladas receberam disposição editorial específica, sem certificar a prova atribuída.
 
 O inventário de `src/content/questions` contém **2.179 itens**: 2.110 em 20 cadernos e 69 complementares. A revisão inclui itens fora do treino e não equivale à simples aprovação dos atualmente elegíveis. A interface compartilhada também atende outras atividades; checkpoints da reforma teórica têm registro separado.
 
@@ -37,8 +37,8 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 | Simulado integral Câmara | 180/180 | Revisão individual aplicada, incluindo textos de apoio e cópias divergentes |
 | Mega simulado | 120/120 | Revisão individual aplicada |
 | Simulado geral Câmara | 180/180 | Revisão individual aplicada, inclusive cópias conferidas com os módulos |
-| Mini módulo de órgãos | 26/30 | Itens 1–26 revisados; 4 pendentes |
-| Banco complementar | 0/69 | Pendente |
+| Mini módulo de órgãos | 30/30 | Revisão individual aplicada |
+| Banco complementar | 69/69 | Revisão individual aplicada e caderno disponibilizado |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
 
@@ -97,3 +97,17 @@ Validação do marco de 1.806: 979 testes em 125 arquivos aprovados; lint, audit
 Marco de 2.106 itens: concluídos o simulado integral de 180 e o mega simulado de 120. As instâncias repetidas foram lidas e mapeadas explicitamente para as revisões dos módulos; conteúdos diferentes receberam análise própria. No mega, corrigidos julgamentos sobre autorização de obras protegidas, aplicação do índice h, doação, modelos da ciência da informação e leitura de inglês. Foram retirados fragmentos de OCR e substituídas perguntas fora de escopo ou afirmações institucionais sem comprovação por adaptações declaradas. Dez vínculos do mini módulo retornaram à teoria específica 2.5, que ensina órgãos públicos. Permanecem 73 questões: quatro do mini módulo e 69 complementares.
 
 Validação do marco de 2.106: 979 testes em 125 arquivos aprovados; lint, auditoria estrutural e compilação com orçamentos aprovados. Navegador local validou os fluxos de estudo/prova, transferência guiada, textos antes da resposta e ausência de overflow em 1440 e 390 px. Os scripts de navegação usam o destino atômico de questão, evitando a corrida entre mudança de hash e definição de alvo. Retiradas cotas remanescentes de proporção C/E e quantidade mínima de originais certificados: uma adaptação não deve receber selo oficial para satisfazer um teste. Bloqueios históricos e requisitos de identificação continuam conferidos.
+
+
+Fechamento do inventário: 2.179 registros individuais vigentes. Concluídos os 69 complementares e os quatro itens restantes do mini módulo. Os complementares, antes sem entrada no catálogo, passam a ter caderno próprio e a integrar treinos por eixo e adaptativos. Todas as 2.179 questões do banco passam a estar disponíveis no registro.
+
+As 59 adaptações historicamente isoladas foram relidas com enunciado, texto de apoio, fundamento e fonte e receberam disposição individual em `disposicoes-historicas.json`. Foram liberadas como adaptações editoriais, mantendo `verificado: false`, descrição explícita e declaração legada. Nenhuma delas foi promovida a original oficial certificado. O predicado de elegibilidade continua bloqueando itens efetivamente marcados para revisão; não houve exceção genérica no filtro.
+
+A folha de véspera teve seus 60 exercícios revisados individualmente em registro separado (`vespera.json`). Corrigidas generalizações de RAG, PREMIS, sigilo, percentuais de esforço, direitos autorais e atribuições bibliográficas. Foram incluídos contraste, trecho decisivo, referência e data. A antiga base de 28 exemplos adaptativos independentes foi substituída pela fonte única do banco revisado, eliminando a manutenção paralela.
+
+Histórico e aprendizagem: respostas e sessões recebem versão de conteúdo; tentativas anteriores sem versão ou de outro conteúdo não são recorrentemente corrigidas contra o banco atual. O aluno pode arquivar a tentativa preservando respostas e tempo e iniciar outra; cópias de segurança incluem os arquivos preservados. Mesclagem não combina tentativas diferentes e preserva a primeira resposta em conflitos da mesma tentativa. A sincronização de um caderno não cancela a de outro. Textos de apoio acompanham itens nos simulados, adaptativo, desafios e caderno de erros. Retestes mantêm seleção após F5 e pontuam somente os itens selecionados; cronômetro e atalhos não continuam respondendo no relatório final.
+
+Escopo: as 2.179 questões e 60 exercícios de véspera possuem registros desta revisão. Os 669 checkpoints da reforma teórica anterior permanecem inventariados separadamente; a contagem deste processo não os apresenta como novos itens individualmente homologados. Dificuldade e padrões editoriais não são apresentados como calibração psicométrica nem previsão de aprovação. Mantém-se o corte do edital cadastrado; a data futura de corte jurisprudencial não foi apresentada como já conferida.
+
+
+Validação final em 31/10/2026: **990 testes em 126 arquivos aprovados**, lint sem avisos, verificação de tipos, registros individuais do banco e da véspera, auditoria estrutural e build com orçamentos aprovados. Três verificações de navegador em 1440 e 390 px cobriram estudo/prova, feedback e prática guiada, textos de apoio, arquivamento sem recorreção, reteste após F5, escopo da nota, cronômetro e atalhos no relatório. Nenhum erro de execução ou overflow nos cenários verificados. Os testes técnicos complementam os registros conceituais; não certificam a origem oficial nem garantem ausência absoluta de erros.

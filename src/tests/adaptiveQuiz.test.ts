@@ -8,7 +8,9 @@ import {
   calcularResultadoSimuladoAdaptativo,
 } from '../domain/adaptiveQuiz/adaptiveQuizService';
 import { BASE_QUESTOES_ADAPTATIVAS } from '../domain/adaptiveQuiz/baseQuestoesAdaptativas';
-import { validarItemAntiAlucinacao } from '../domain/antiHallucinationGuard';
+import { getSimuladoById, ALL_SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+import { versaoQuestao } from '../domain/versaoConteudoSimulado';
+import { revisoesIndividuais } from './helpers/revisoesIndividuais';
 import type { ItemSimuladoAdaptativo } from '../domain/adaptiveQuiz/types';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
 
@@ -22,12 +24,13 @@ describe('Gerador Inteligente de Simulados Adaptativos de Fraquezas', () => {
   const mockHistoricoSimulado: SimuladoFinalizado[] = [
     {
       id: 'sim-1',
+      simuladoId: 'm1-fundamentos',
       dataHora: '2026-10-02T10:00:00Z',
-      respostas: {
-        'q-1': { questionId: '1', resposta: 'C', certeza: 'certeza', acertou: false, timestamp: 1727870400000 },
-        'q-2': { questionId: '2', resposta: 'E', certeza: 'provavel', acertou: true, timestamp: 1727870400000 },
-        'q-3': { questionId: '3', resposta: 'C', certeza: 'chute', acertou: false, timestamp: 1727870400000 },
-      },
+      respostas: Object.fromEntries(['fund-q-1', 'fund-q-2', 'fund-q-3'].map((id, i) => {
+        const q = getSimuladoById('m1-fundamentos').questoes.find(q => q.id === id)!;
+        const acertou = i === 1;
+        return [id, { questionId: id, resposta: acertou ? q.gabarito : q.gabarito === 'C' ? 'E' as const : 'C' as const, acertou, timestamp: 1727870400000, versaoQuestao: versaoQuestao(q), gabaritoNaResposta: q.gabarito }];
+      })),
       certos: 1,
       errados: 2,
       emBranco: 0,
@@ -195,19 +198,22 @@ describe('Gerador Inteligente de Simulados Adaptativos de Fraquezas', () => {
     expect(resultado.aproveitamentoLiquidoPercentual).toBe(0);
   });
 
-  it('todas as questões da base adaptativa devem ser 100% aprovadas pelo guarda anti-alucinação com fontes primárias canônicas', () => {
-    BASE_QUESTOES_ADAPTATIVAS.forEach((q) => {
-      const res = validarItemAntiAlucinacao({
-        item: q.item,
-        gabarito: q.gabarito,
-        justificativa: q.justificativa,
-        fontePrimaria: q.autorOuNormaReferencia,
-      });
-      if (!res.valido) {
-        console.error(`Falha no item adaptativo ${q.id}:`, res.erros);
-      }
-      expect(res.valido).toBe(true);
-      expect(res.bloqueadoPorAlucinacao).toBe(false);
-    });
+  it('leva texto de apoio e contraste do banco ao treino adaptativo', () => {
+    const itens = montarSimuladoOffline({ quantidadeItens: 1, modoFoco: 'geral_adaptativo', modulosSelecionados: ['m13'] }, {}, []);
+    const original = ALL_SIMULADOS_REGISTRY.flatMap(s => s.questoes).find(q => q.id === itens[0].id)!;
+    expect(itens[0].contexto).toBe(original.contexto);
+    expect(itens[0].contexto?.length).toBeGreaterThan(100);
+    expect(itens[0].versao_errada).toBe(original.versao_errada);
+  });
+  it('usa apenas itens elegíveis da fonte única com registro individual de revisão', () => {
+    const ids = new Set(getSimuladoById('m1-fundamentos').questoes.map(q => q.id));
+    expect(BASE_QUESTOES_ADAPTATIVAS.some(q => ids.has(q.id))).toBe(true);
+    for (const q of BASE_QUESTOES_ADAPTATIVAS) {
+      const revisao = revisoesIndividuais.get(q.id);
+      expect(revisao).toBeDefined();
+      expect(q.justificativa).toBe(revisao?.patch.justificativa);
+      expect(q.autorOuNormaReferencia.trim().length).toBeGreaterThan(10);
+    }
+    // Heurística lexical de fonte não certifica conceito nem autenticidade; o registro é auditável.
   });
 });

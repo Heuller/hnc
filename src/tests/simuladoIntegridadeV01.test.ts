@@ -11,9 +11,9 @@ describe('V-01: Integridade do Simulado e Blindagem da Nota Líquida Cebraspe', 
   it('(1) Responder C e depois E no mesmo item mantém exclusivamente a primeira resposta', () => {
     const store = useProgressStore.getState();
     const simId = 'm1-fundamentos';
-    const qId = 'fund-q-1';
+    const qId = 'fund-q-2';
 
-    // 1. Julga 'C' (supondo que o gabarito é C -> acertou: true)
+    // 1. Julga 'C' (gabarito cadastrado C)
     store.salvarRespostaSimulado(simId, qId, 'C', 'certeza', true);
 
     let sessao = useProgressStore.getState().obterSessaoSimulado(simId);
@@ -35,11 +35,11 @@ describe('V-01: Integridade do Simulado e Blindagem da Nota Líquida Cebraspe', 
     const simId = 'm1-fundamentos';
 
     // Item 1: Acerto (+1)
-    store.salvarRespostaSimulado(simId, 'q1', 'C', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'fund-q-2', 'C', 'certeza', true);
     // Item 2: Erro (-1)
-    store.salvarRespostaSimulado(simId, 'q2', 'E', 'certeza', false);
+    store.salvarRespostaSimulado(simId, 'fund-q-3', 'E', 'certeza', false);
     // Item 3: Acerto (+1)
-    store.salvarRespostaSimulado(simId, 'q3', 'C', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'fund-q-5', 'C', 'certeza', true);
 
     const sessao = useProgressStore.getState().obterSessaoSimulado(simId);
     let certos = 0;
@@ -64,9 +64,9 @@ describe('V-01: Integridade do Simulado e Blindagem da Nota Líquida Cebraspe', 
     const simId = 'm1-fundamentos';
 
     // Item 1: Acerto (+1)
-    store.salvarRespostaSimulado(simId, 'q1', 'C', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'fund-q-2', 'C', 'certeza', true);
     // Item 2: Branco (0)
-    store.salvarRespostaSimulado(simId, 'q2', 'BRANCO', undefined, undefined);
+    store.salvarRespostaSimulado(simId, 'fund-q-3', 'BRANCO', undefined, undefined);
 
     const sessao = useProgressStore.getState().obterSessaoSimulado(simId);
     let certos = 0;
@@ -90,19 +90,19 @@ describe('V-01: Integridade do Simulado e Blindagem da Nota Líquida Cebraspe', 
     const store = useProgressStore.getState();
     const simId = 'm1-fundamentos';
 
-    store.salvarRespostaSimulado(simId, 'q1', 'C', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'fund-q-2', 'C', 'certeza', true);
 
     // Simula reidratação
     await useProgressStore.persist.rehydrate();
 
     const sessao = useProgressStore.getState().obterSessaoSimulado(simId);
-    expect(sessao.respostas['q1']).toBeDefined();
-    expect(sessao.respostas['q1']?.resposta).toBe('C');
+    expect(sessao.respostas['fund-q-2']).toBeDefined();
+    expect(sessao.respostas['fund-q-2']?.resposta).toBe('C');
 
     // Tentar sobrescrever após reidratar continua bloqueado
-    useProgressStore.getState().salvarRespostaSimulado(simId, 'q1', 'E', 'certeza', false);
+    useProgressStore.getState().salvarRespostaSimulado(simId, 'fund-q-2', 'E', 'certeza', false);
     const sessaoApos = useProgressStore.getState().obterSessaoSimulado(simId);
-    expect(sessaoApos.respostas['q1']?.resposta).toBe('C');
+    expect(sessaoApos.respostas['fund-q-2']?.resposta).toBe('C');
   });
 
   it('(5) Sequência C, B, E no item 1 resulta na pontuação da primeira resposta (nunca manipulada para +1)', () => {
@@ -110,17 +110,17 @@ describe('V-01: Integridade do Simulado e Blindagem da Nota Líquida Cebraspe', 
     const simId = 'm1-fundamentos';
 
     // 1. Usuário responde C (erra: -1)
-    store.salvarRespostaSimulado(simId, 'q1', 'C', 'certeza', false);
+    store.salvarRespostaSimulado(simId, 'fund-q-1', 'C', 'certeza', false);
 
     // 2. Usuário tenta mudar para B (0)
-    store.salvarRespostaSimulado(simId, 'q1', 'BRANCO', undefined, undefined);
+    store.salvarRespostaSimulado(simId, 'fund-q-1', 'BRANCO', undefined, undefined);
 
     // 3. Usuário tenta mudar para E (+1) após ver o gabarito
-    store.salvarRespostaSimulado(simId, 'q1', 'E', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'fund-q-1', 'E', 'certeza', true);
 
     const sessao = useProgressStore.getState().obterSessaoSimulado(simId);
-    expect(sessao.respostas['q1']?.resposta).toBe('C');
-    expect(sessao.respostas['q1']?.acertou).toBe(false);
+    expect(sessao.respostas['fund-q-1']?.resposta).toBe('C');
+    expect(sessao.respostas['fund-q-1']?.acertou).toBe(false);
 
     let certos = 0;
     let errados = 0;

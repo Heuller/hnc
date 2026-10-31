@@ -5,7 +5,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://heuller.vercel.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-979%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Tests-990%20passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
@@ -105,18 +105,18 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **979 testes** | 100% aprovados em Vitest (125 arquivos de teste) |
+| **Suíte de Testes Automatizados** | **990 testes** | 100% aprovados em Vitest (126 arquivos de teste) |
 | **Qualidade e Estilo (Oxlint)** | **0 avisos, 0 erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
 | **Fixação no Banco Complementar** | **69 itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
 | **Itens no Banco de Questões** | **2.179 itens** | Soma exata de todos os 21 arquivos em `src/content/questions` |
-| **Distribuição Global de Gabaritos** | **48,9% Certo** | 1.065 C / 1.114 E; distribuição observada, sem cota da banca |
+| **Distribuição Global de Gabaritos** | **48,8% Certo** | 1.063 C / 1.116 E; distribuição observada, sem cota da banca |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
-| **Inéditas (`inedita`)** | **1.691** | **77,6%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
-| **Adaptadas (`adaptada`)** | **488** | **22,4%** | Adaptações editoriais; a confirmação da prova de origem é indicada separadamente |
+| **Inéditas (`inedita`)** | **1.670** | **76,6%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
+| **Adaptadas (`adaptada`)** | **509** | **23,4%** | Adaptações editoriais; a confirmação da prova de origem é indicada separadamente |
 | **Reais Confirmadas (`real-confirmada`)** | **0** | **0,0%** | Itens declarados reais no cadastro; a verificação documental de origem é distinta da revisão conceitual |
 | **Em Conferência (`em-conferencia`)** | **0** | **0,0%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **2.179** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
@@ -142,10 +142,10 @@ npm run dev
 | `m9-comunicacao-100q` | M9 - Comunicação Científica & Bibliometria | **100** | 52C / 48E | 52,0% |
 | `mega-simulado-camara-120q` | Mega Simulado Câmara 120Q | **120** | 64C / 56E | 53,3% |
 | `mini-modulo-orgaos-30q` | Mini 2.5 - Órgãos & Bib. Câmara | **30** | 14C / 16E | 46,7% |
-| `questoes-submodulos-ampliados` | Submódulos Teóricos - Fixação | **69** | 44C / 25E | 63,8% |
+| `questoes-submodulos-ampliados` | Submódulos Teóricos - Fixação | **69** | 42C / 27E | 60,9% |
 | `simulado-geral-180q` | Simulado Geral 180Q | **180** | 84C / 96E | 46,7% |
 | `simulado-oficial-camara-180q` | Simulado Oficial Câmara 90+90 (180Q) | **180** | 82C / 98E | 45,6% |
-| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1065C / 1114E** | **48,9% Certo; dado descritivo** |
+| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1063C / 1116E** | **48,8% Certo; dado descritivo** |
 <!-- METRICAS:FIM -->
 
 ---

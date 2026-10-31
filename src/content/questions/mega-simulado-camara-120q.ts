@@ -294,16 +294,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem legada ainda não confirmada em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2348",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "several periods",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem history; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -324,16 +323,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2349",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "had suggested",
@@ -354,16 +352,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2350",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "Babylonia, Greece",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem histórica integral apresentada no item; julgamento restrito ao texto. Texto ou obra no acervo HNC.",
@@ -384,16 +381,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2353",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "not a guaranteed complete solution",
@@ -414,16 +410,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2351",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "contrasts attendance incentives",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem histórica integral apresentada no item; julgamento restrito ao texto. Texto ou obra no acervo HNC.",
@@ -443,11 +438,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Selecionar o sentido contextual de uma expressão idiomática.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Arquiteto/2012 (Cebraspe)",
-      "revisar": true
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Arquiteto/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "controversy",
@@ -496,16 +491,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2358",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "contrasts police protection",
@@ -554,16 +548,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2359",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "Rather and Instead express correction or alternative in their contexts, rather than the causal function of because.",
     "gatilho": "synonyms of because",
@@ -1062,16 +1055,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "GAAPC (PC DF)/PC DF/Analista de Informática/Banco de Dados/2025",
       "ano": 2025,
       "orgao": "PC DF",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2298",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / PC DF / 2025"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / PC DF / 2025 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "Consultar DNS não altera por si o IP local do cliente; resolução de nomes e configuração de endereços são funções diferentes.",
     "gatilho": "altera automaticamente",
@@ -2302,17 +2294,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "justificativa": "ERRADO. Obras protegidas também podem ser disponibilizadas com autorização ou licença adequada, observados os direitos envolvidos. Produção institucional não significa automaticamente domínio público ou titularidade de todos os direitos. Digitalizar e publicar na internet são atos distintos e não possuem uma dispensa genérica por finalidade educativa.",
     "armadilhaBanca": "Trocar condição de autorização por proibição absoluta de toda obra protegida.",
     "dificuldade": "media",
-    "revisar": true,
+    "revisar": false,
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não certificada pela revisão conceitual.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "Biblio (DPU)/DPU/2016",
       "ano": 2016,
       "orgao": "DPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-324487",
-      "declaracaoLegada": "Cebraspe / DPU / 2016 (Adaptada)"
+      "declaracaoLegada": "Cebraspe / DPU / 2016 (Adaptada) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "Apenas obras",
     "versao_errada": "",

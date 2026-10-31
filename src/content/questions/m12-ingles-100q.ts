@@ -85,16 +85,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2360",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "depends in part",
@@ -219,16 +218,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2370",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "greater leeway",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem draft; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -274,13 +272,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Rastrear referentes para conferir informação quantitativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "Only three",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -373,13 +370,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Separar modalidade, quantificação e cronologia.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Time Magazine / Cebraspe",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2374",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "a new practice",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem truancy; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -477,16 +473,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2386",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "several periods",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem history; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -532,13 +527,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Trocar o sujeito que recebe a penalidade.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Time Magazine / Cebraspe",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2387",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "students themselves",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem truancy; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -558,13 +552,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Reconhecer analogia explícita e seus limites.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2378",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "compares parking",
@@ -585,16 +578,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2388",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "creation of an audit regulator",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem audit; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -614,16 +606,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2380",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "sometimes frightening",
@@ -698,16 +689,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2391",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "uncertainty",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem screen; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -726,13 +716,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conferir classe gramatical e sentido contextual.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2382",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "ease or reduce",
@@ -752,13 +741,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Resolver referentes sem fundir personagens.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "two distinct children",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -778,16 +766,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2383",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "conflict between hope",
@@ -909,16 +896,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2398",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2398"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2398 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "personal anecdotes",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem kealy; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -965,16 +951,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2402",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2402"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2402 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "children’s bedtime",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -1016,11 +1001,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Reconhecer paráfrase negativa de dificuldade.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)",
-      "revisar": true
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "finds the choice",
     "versao_errada": "The narrator states that his wife finds the choice effortless and obvious.",
@@ -1039,13 +1024,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Preservar possibilidade, momento e recorte temporal.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2399",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "could still",
@@ -1147,16 +1131,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2401",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2401"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2401 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "understanding",
@@ -1230,11 +1213,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Evitar uma inferência que contradiz avaliação explícita.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
-      "revisar": true
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "compatible",
     "versao_errada": "The narrator’s taking responsibility for parking necessarily cancels his explicit praise of his wife’s driving.",
@@ -1308,16 +1291,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2406",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2406"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2406 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "refers back",
@@ -1364,12 +1346,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conferir a tese introdutória pelos exemplos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "incentives and penalties",
@@ -1390,16 +1371,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2417",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2417"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2417 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "not fully aware",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem draft; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -1419,16 +1399,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2411",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2411"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2411 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "preceding account",
@@ -1449,16 +1428,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2418",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2418"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2418 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "three factors",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem security; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -1555,16 +1533,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2424",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2424"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2424 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "contrasts protecting",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem police; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -1583,13 +1560,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Combinar formação vocabular e estrutura comparativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2425",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "perform better",
@@ -1609,11 +1585,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Identificar reformulação e analogia na abertura.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
-      "revisar": true
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "links parking and family life",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life [corretamente formatado: is somewhat similar to parking in new york].",
@@ -1742,11 +1718,11 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Acrescentar primazia histórica não demonstrada.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
-      "revisar": true
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe) | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "Cooper’s proposal is presented alongside earlier examples of monetary penalties.",
     "gatilho": "first person ever",
@@ -1793,16 +1769,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2383",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "contrast to the hope",
@@ -1823,16 +1798,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2432",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2432"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2432 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "set forth or specify",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem technology; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -1852,16 +1826,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2360",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2360 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "particularly difficult",
@@ -2094,16 +2067,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2370",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2370 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "Less frequent consultation",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem draft; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -2145,13 +2117,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Não fundir referentes de personagens diferentes.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "one and the same",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -2244,13 +2215,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Refutar universalidade com contraexemplos do texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Time Magazine / Cebraspe",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2374",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "No monetary",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem truancy; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -2324,13 +2294,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinguir analogia e identidade literal.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2378",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "an analogy",
@@ -2351,16 +2320,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2386",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2386 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "motivations",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem history; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -2380,16 +2348,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
       "ano": 2026,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2380",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026; identificador legado: cespe-tec-2380 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "mixed reactions",
@@ -2409,13 +2376,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Identificar sujeito gramatical da sanção.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Time Magazine / Cebraspe",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2387",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "rather than their parents",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem truancy; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -2463,16 +2429,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2388",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014; identificador legado: cespe-tec-2388 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "refers to the Sarbanes-Oxley Act",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem audit; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -2491,13 +2456,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinguir finalidade, sentido lexical e garantia de resultado.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2382",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "versao_correta": "",
     "gatilho": "easing worries",
@@ -2545,16 +2509,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2383",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2383 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "",
     "gatilho": "competing emotions",
@@ -2575,16 +2538,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
       "ano": 2012,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2391",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012; identificador legado: cespe-tec-2391 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "gatilho": "reported",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem screen; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",
@@ -2630,13 +2592,12 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Reconhecer narrador participante na contagem.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "gatilho": "should be excluded",
     "fonte": "Textos-base de Inglês fornecidos no banco HNC — passagem parking; evidência indicada no comentário. Fonte no acervo de estudos do HNC.",

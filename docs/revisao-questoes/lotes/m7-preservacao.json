@@ -699,9 +699,9 @@
       "cad"
     ],
     "localizador": "política e planejamento ao longo do ciclo de vida",
-    "nota": "Redação adaptada para eliminar ambiguidade conceitual; mantém bloqueio editorial histórico até confirmação independente da origem, sem alegar alteração do gabarito oficial.",
+    "nota": "Redação adaptada para eliminar ambiguidade conceitual; mantém bloqueio editorial histórico até confirmação independente da origem, sem alegar alteração do gabarito oficial. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. Uma biblioteca digital oferece serviços de acesso, mas sua existência não prova preservação. Planejamento pode começar antes da produção ou aquisição e continuar depois da ingestão. A redação legada ambígua foi substituída por uma adaptação explícita; a divergência de origem permanece registrada para conferência. Fontes/localizador: oais, cad; política e planejamento ao longo do ciclo de vida. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "76d2399177cbe2d7841b5dc61115fce1673ff3464b87dc5f059e51af8481a071",
-    "shaDepois": "19f703e5dd5d9900ac312503e2fb0564b84216420f03a3f297ffd74b5e92018c",
+    "shaDepois": "cafb16527307d39f683b3c2e154facedd5b6d4ea8e90ceb0a50fea65f8d02acc",
     "patch": {
       "item": "A existência de uma biblioteca digital assegura automaticamente a preservação de seus arquivos, dispensando políticas anteriores à ingestão e o acompanhamento posterior das mudanças tecnológicas.",
       "gabarito": "E",
@@ -714,16 +714,18 @@
       "versao_errada": "",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "Biblio (DPU)/DPU/2016",
         "ano": 2016,
         "orgao": "DPU",
         "banca": "Cebraspe",
         "questaoOriginalId": "TecConcursos-324592",
-        "declaracaoLegada": "Cebraspe / DPU / 2016 (Adaptada); identificador legado: TecConcursos-324592"
+        "declaracaoLegada": "Cebraspe / DPU / 2016 (Adaptada); identificador legado: TecConcursos-324592 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+        "revisar": false
       },
-      "submoduloId": "6.3"
+      "submoduloId": "6.3",
+      "revisar": false
     }
   },
   {
@@ -1051,9 +1053,9 @@
       "cad"
     ],
     "localizador": "acesso e responsabilidades de preservação",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. Suportar acessos simultâneos e exportar referências são recursos de uso e interoperabilidade. Não provam que o conteúdo foi preservado, continua íntegro ou poderá ser compreendido após mudanças tecnológicas. A recuperação de metadados não substitui a preservação do objeto descrito. Fontes/localizador: oais, cad; acesso e responsabilidades de preservação. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "be8135ea3f88bc33db8111d89d66bd80ad5be5edac2e7816c7d6e40bdd544eb2",
-    "shaDepois": "4668f5d551b17e549cb69ec362c9a07475a62d0d80a0b82619178962849cdf94",
+    "shaDepois": "85c9846d1daae67ab3cbc0268f319c8d4bf6b3e2dedb72623dd257c2b9cf2bfa",
     "patch": {
       "item": "A capacidade de acesso simultâneo e de exportação de referências para um gerenciador bibliográfico garantem, por si sós, a preservação de longo prazo dos arquivos digitais da biblioteca.",
       "justificativa": "ERRADO. Suportar acessos simultâneos e exportar referências são recursos de uso e interoperabilidade. Não provam que o conteúdo foi preservado, continua íntegro ou poderá ser compreendido após mudanças tecnológicas. A recuperação de metadados não substitui a preservação do objeto descrito.",
@@ -1064,15 +1066,15 @@
       "versao_correta": "Acesso simultâneo e exportação de referências não são suficientes para comprovar preservação de longo prazo.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "TecConcursos-3202811",
         "ano": 2024,
         "orgao": "TSE",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2074",
-        "revisar": true,
-        "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "6.3"
     }
@@ -1603,9 +1605,9 @@
       "cad"
     ],
     "localizador": "rede de informação e acesso jurídico",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. LexML promove integração e acesso à informação jurídica e legislativa. Isso não o transforma em depositário universal de toda produção intelectual jurídica nem transfere a ele todas as responsabilidades patrimoniais dos produtores. Descoberta e identificação podem apontar para documentos mantidos por outras instituições. Fontes/localizador: lexml, cad; rede de informação e acesso jurídico. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "ac9abbb0a2d37083861356d41ecfd25d4c2043c3aed4860cdbe07cad8986e54c",
-    "shaDepois": "b575a99c54229161aba28cc5502fac9e92a592017eae3483309fe8ecd834ec92",
+    "shaDepois": "5c5f43205a8464d78196c337289cd7653f18363d6ea600d8285f6909dc2a1068",
     "patch": {
       "justificativa": "ERRADO. LexML promove integração e acesso à informação jurídica e legislativa. Isso não o transforma em depositário universal de toda produção intelectual jurídica nem transfere a ele todas as responsabilidades patrimoniais dos produtores. Descoberta e identificação podem apontar para documentos mantidos por outras instituições.",
       "gatilho": "depositária",
@@ -1616,15 +1618,15 @@
       "item": "A rede LexML funciona como depositária do patrimônio bibliográfico e documental, sendo responsável pela execução da política governamental de captação, preservação e difusão da produção intelectual brasileira na área do direito.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "TecConcursos-3187374",
         "ano": 2024,
         "orgao": "STJ",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-1986",
-        "revisar": true,
-        "declaracaoLegada": "Cebraspe / STJ / 2024 (Adaptada); identificador legado: cespe-tec-1986"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / STJ / 2024 (Adaptada); identificador legado: cespe-tec-1986 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "4.3"
     }
@@ -1755,9 +1757,9 @@
       "cad"
     ],
     "localizador": "preservação do conteúdo e serviços de acesso",
-    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. DISPOSIÇÃO EDITORIAL: liberado para treino como adaptação revisada após releitura individual. Fundamento do julgamento E: ERRADO. A capacidade de exportar referências não preserva automaticamente os arquivos descritos. Controles de integridade, contexto, formatos e acesso futuro continuam necessários. A redação é uma adaptação para explicitar o erro conceitual sem afirmar o motivo histórico de julgamento da prova. Fontes/localizador: oais, cad; preservação do conteúdo e serviços de acesso. Não equivale a homologar redação ou gabarito da prova atribuída no cadastro antigo.",
     "shaAntes": "d4c80a60f91cc19aedb65bf01dea611990f556553754c95bf0195ef4fa4b4499",
-    "shaDepois": "21f776409fa2c9e8c4788e6386fba204ec9fc38daeef5e7bd1dc8a9007fc7dcb",
+    "shaDepois": "cd16dac31e184500f8d310c6dcf4f10ff57435ef5a24c83e1d62cbb983d9a497",
     "patch": {
       "item": "A preservação de um artigo digital depende exclusivamente da possibilidade de exportar sua referência para um gerenciador bibliográfico, mesmo que o arquivo integral deixe de ser mantido.",
       "justificativa": "ERRADO. A capacidade de exportar referências não preserva automaticamente os arquivos descritos. Controles de integridade, contexto, formatos e acesso futuro continuam necessários. A redação é uma adaptação para explicitar o erro conceitual sem afirmar o motivo histórico de julgamento da prova.",
@@ -1768,15 +1770,15 @@
       "versao_correta": "Exportar referências é um recurso de uso; preservar o conteúdo exige outras ações de gestão e controle.",
       "fonteOriginal": {
         "tipo": "adaptada",
-        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
         "verificado": false,
         "provaId": "TecConcursos-3202811",
         "ano": 2024,
         "orgao": "TSE",
         "banca": "Cebraspe",
         "origemAcervoLocal": "cespe-tec-2074",
-        "revisar": true,
-        "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074"
+        "revisar": false,
+        "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
       },
       "submoduloId": "6.3"
     }

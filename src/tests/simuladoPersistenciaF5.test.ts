@@ -18,8 +18,8 @@ describe('Resiliência de Simulado contra Atualização de Navegador (F5 / Reloa
     const store = useProgressStore.getState();
 
     store.iniciarOuRetomarSimulado(simId);
-    store.salvarRespostaSimulado(simId, 'm1-q-1', 'C', 'certeza', true);
-    store.salvarRespostaSimulado(simId, 'm1-q-2', 'E', 'provavel', false);
+    store.salvarRespostaSimulado(simId, 'fund-q-1', 'C', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'fund-q-2', 'E', 'provavel', false);
     store.mudarQuestaoSimulado(3, simId);
     store.salvarTempoSimulado(simId, 95);
 
@@ -28,8 +28,8 @@ describe('Resiliência de Simulado contra Atualização de Navegador (F5 / Reloa
     expect(snapshot).not.toBeNull();
     expect(snapshot?.currentIndex).toBe(3);
     expect(snapshot?.tempoGastoSegundos).toBe(95);
-    expect(snapshot?.respostas['m1-q-1']?.resposta).toBe('C');
-    expect(snapshot?.respostas['m1-q-2']?.resposta).toBe('E');
+    expect(snapshot?.respostas['fund-q-1']?.resposta).toBe('C');
+    expect(snapshot?.respostas['fund-q-2']?.resposta).toBe('E');
     expect(simuladoSessionService.obterUltimoSimuladoIdAtivo()).toBe(simId);
   });
 
@@ -39,8 +39,8 @@ describe('Resiliência de Simulado contra Atualização de Navegador (F5 / Reloa
 
     // 1. Usuário responde itens e avança
     store.iniciarOuRetomarSimulado(simId);
-    store.salvarRespostaSimulado(simId, 'm2-q-10', 'C', 'certeza', true);
-    store.salvarRespostaSimulado(simId, 'm2-q-11', 'BRANCO', undefined, undefined);
+    store.salvarRespostaSimulado(simId, 'cat-q-10', 'C', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'cat-q-11', 'BRANCO', undefined, undefined);
     store.mudarQuestaoSimulado(12, simId);
 
     // 2. Simula reload do navegador (F5): zera memória em tempo de execução
@@ -52,14 +52,14 @@ describe('Resiliência de Simulado contra Atualização de Navegador (F5 / Reloa
 
     // 3. Ao reabrir o simulado (obterSessaoSimulado), deve restaurar imediatamente do storage atômico
     const sessaoRecuperada = useProgressStore.getState().obterSessaoSimulado(simId);
-    expect(sessaoRecuperada.respostas['m2-q-10']?.resposta).toBe('C');
-    expect(sessaoRecuperada.respostas['m2-q-11']?.resposta).toBe('BRANCO');
+    expect(sessaoRecuperada.respostas['cat-q-10']?.resposta).toBe('C');
+    expect(sessaoRecuperada.respostas['cat-q-11']?.resposta).toBe('BRANCO');
     expect(sessaoRecuperada.currentIndex).toBe(12);
 
     // 4. iniciarOuRetomarSimulado NÃO deve zerar as respostas existentes
     useProgressStore.getState().iniciarOuRetomarSimulado(simId);
     const sessaoAposRetomar = useProgressStore.getState().obterSessaoSimulado(simId);
-    expect(sessaoAposRetomar.respostas['m2-q-10']?.resposta).toBe('C');
+    expect(sessaoAposRetomar.respostas['cat-q-10']?.resposta).toBe('C');
     expect(sessaoAposRetomar.currentIndex).toBe(12);
   });
 
@@ -104,12 +104,15 @@ describe('Resiliência de Simulado contra Atualização de Navegador (F5 / Reloa
     const store = useProgressStore.getState();
 
     store.iniciarOuRetomarSimulado(simId);
-    store.salvarRespostaSimulado(simId, 'm1-q-1', 'C', 'certeza', true);
+    store.salvarRespostaSimulado(simId, 'fund-q-1', 'C', 'certeza', true);
     expect(simuladoSessionService.obterSessaoLocal(simId)).not.toBeNull();
 
     // Reinicia simulado
     store.reiniciarSimulado(simId);
-    expect(simuladoSessionService.obterSessaoLocal(simId)).toBeNull();
+    const reiniciada = simuladoSessionService.obterSessaoLocal(simId);
+    expect(reiniciada?.respostas).toEqual({});
+    expect(reiniciada?.tentativasArquivadas).toHaveLength(1);
+    expect(reiniciada?.tentativasArquivadas?.[0].respostas['fund-q-1'].resposta).toBe('C');
   });
 
   it('(6) Navegação sequencial pós-restauração de hash: permite avançar e retroceder sem travar o índice', () => {

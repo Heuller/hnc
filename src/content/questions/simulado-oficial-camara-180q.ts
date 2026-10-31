@@ -860,16 +860,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; origem de prova legada não confirmada.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
       "ano": 2014,
       "orgao": "Câmara dos Deputados",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2386",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "provaBloco": "P1_BASICOS",
     "gatilho": "several periods",
@@ -923,13 +922,12 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Rastrear referentes para conferir informação quantitativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "tipo": "adaptada",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
-      "revisar": true,
-      "statusConferencia": "em-conferencia"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
     "provaBloco": "P1_BASICOS",
     "gatilho": "Only three",

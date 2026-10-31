@@ -550,16 +550,17 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "Biblio (DPU)/DPU/2016",
       "ano": 2016,
       "orgao": "DPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-324592",
-      "declaracaoLegada": "Cebraspe / DPU / 2016 (Adaptada); identificador legado: TecConcursos-324592"
+      "declaracaoLegada": "Cebraspe / DPU / 2016 (Adaptada); identificador legado: TecConcursos-324592 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial.",
+      "revisar": false
     },
-    "revisar": true,
+    "revisar": false,
     "gatilho": "automaticamente",
     "versao_errada": "",
     "fonte": "CCSDS — Reference Model for an Open Archival Information System — política e planejamento ao longo do ciclo de vida — https://ccsds.org/Pubs/650x0m3.pdf",
@@ -847,15 +848,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TecConcursos-3202811",
       "ano": 2024,
       "orgao": "TSE",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2074",
-      "revisar": true,
-      "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "Acesso simultâneo e exportação de referências não são suficientes para comprovar preservação de longo prazo.",
     "gatilho": "garantem",
@@ -1293,15 +1294,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TecConcursos-3187374",
       "ano": 2024,
       "orgao": "STJ",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-1986",
-      "revisar": true,
-      "declaracaoLegada": "Cebraspe / STJ / 2024 (Adaptada); identificador legado: cespe-tec-1986"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / STJ / 2024 (Adaptada); identificador legado: cespe-tec-1986 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "LexML integra acesso e identificação de informação jurídica; não é depositário universal de toda produção intelectual brasileira na área.",
     "gatilho": "depositária",
@@ -1409,15 +1410,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
-      "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+      "descricao": "Adaptação editorial revisada HNC; a atribuição e o gabarito da prova de origem legada não foram certificados.",
       "verificado": false,
       "provaId": "TecConcursos-3202811",
       "ano": 2024,
       "orgao": "TSE",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2074",
-      "revisar": true,
-      "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074"
+      "revisar": false,
+      "declaracaoLegada": "Cebraspe / TSE / 2024 (Adaptada); identificador legado: cespe-tec-2074 | Bloqueio histórico de origem: revisar=true, statusConferencia=em-conferencia; conteúdo atual foi tratado como adaptação editorial."
     },
     "versao_correta": "Exportar referências é um recurso de uso; preservar o conteúdo exige outras ações de gestão e controle.",
     "gatilho": "exclusivamente",

@@ -2,20 +2,20 @@
   "oclc": {
     "titulo": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23",
     "url": "https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
-    "localizador": "seções 4 (estrutura), 5 (classificação), 7 (notas e tabelas), 8 (construção de números)",
-    "arquivoConsulta": "/workspace/hnc-revisao-questoes/fontes/oclc-intro.txt"
+    "localizador": "seções 4 (estrutura), 5 (classificação), 7 (notas e tabelas), 8 (construção de números)"
   },
   "cdu": {
     "titulo": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020",
     "url": "https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
-    "localizador": "seções 2–4: classes, auxiliares e sinais; distinguir regras gerais e política local",
-    "arquivoConsulta": "/workspace/hnc-revisao-questoes/fontes/bnb-cdu.txt"
+    "localizador": "seções 2–4: classes, auxiliares e sinais; distinguir regras gerais e política local"
   },
   "cduTabelas": {
     "titulo": "CDU — edição do acervo, Parte 1",
     "acervo": "acervo-estudos/Livros Extras/CDU - Parte 1.pdf",
     "localizador": "introdução e tabelas auxiliares comuns 1a–1k",
-    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/06f838ced9fa.txt"
+    "gitBlobSha": "a6a8fb6fadd88d99cca8be5230edea602a846637",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "cddir": {
     "titulo": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI",
@@ -26,25 +26,30 @@
     "titulo": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004",
     "acervo": "acervo-estudos/Classificação e indexação/livro-indexac3a7c3a3o-e-resumos-teoria-e-prc3a1tica-lancaster.pdf",
     "localizador": "capítulos 1–9: análise conceitual, tradução, coerência, qualidade e resumos",
-    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/116422768099-ocr-inicio.txt"
+    "gitBlobSha": "484eaa6abe50a692e92d96adf47b8de0db92a7f9",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "nbr6028": {
     "titulo": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação",
     "acervo": "acervo-estudos/ABNT/6028-Resumo-atualizada-em-18.05.2021-.pdf",
     "localizador": "2.2–2.6; 4.1.1–4.1.8; 4.2",
-    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/52f5a595fc26.txt"
+    "gitBlobSha": "0aaaa876ca16fb1d1f530d773d71c4c1ad8462ee",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "cad": {
     "titulo": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada",
     "acervo": "acervo-estudos/Questões/CAD CESPE.pdf",
     "localizador": "Módulo 5: questões de indexação, resumos, índices e classificação. Compilação secundária, não substitui caderno e gabarito oficiais.",
-    "arquivoConsulta": "/workspace/hnc-plano-teoria/fontes/fa3f93134ab8.txt"
+    "gitBlobSha": "3c79bc9e743b63dcc3830daf86542bc7765993da",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "skos": {
     "titulo": "W3C — SKOS Reference, 2009",
     "url": "https://www.w3.org/TR/skos-reference/",
-    "localizador": "seções 5 (rótulos), 7 (notas), 8 (relações), condições S23–S27",
-    "arquivoConsulta": "/workspace/hnc-revisao-questoes/fontes/skos.html"
+    "localizador": "seções 5 (rótulos), 7 (notas), 8 (relações), condições S23–S27"
   },
   "marc": {
     "titulo": "Library of Congress — MARC 21 formats",
@@ -59,7 +64,10 @@
   "grogan": {
     "titulo": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001",
     "acervo": "acervo-estudos/Recuperação, fontes, referência e usuários/a-pratica-do-servio-de-referencia-denis-grogan-p_compress.pdf",
-    "localizador": "processo de referência, pp. 50–56: oito passos, retornos e avaliação conjunta"
+    "localizador": "processo de referência, pp. 50–56: oito passos, retornos e avaliação conjunta",
+    "gitBlobSha": "e0c01810a1af2d352176fae563712acee9418a62",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "usuarios": {
     "titulo": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015",
@@ -68,8 +76,11 @@
   },
   "dicionario": {
     "titulo": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008",
-    "acervo": "acervo-estudos",
-    "localizador": "verbetes sobre fontes, referência, fontes de informação e recuperação"
+    "acervo": "acervo-estudos/Fundamentos/LIVRO_DicionarioBiblioteconomiaArquivologia.pdf",
+    "localizador": "verbetes sobre fontes, referência, fontes de informação e recuperação",
+    "gitBlobSha": "c3465c9fec53dcc16680058ebf3a5f35b8de913e",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "kuhlthau": {
     "titulo": "Carol Kuhlthau — Information Search Process",
@@ -125,7 +136,9 @@
     "titulo": "ABNT NBR 6023:2025 — Referências — Elaboração",
     "acervo": "acervo-estudos/ABNT/Referencias-NBR-6023-2025.pdf",
     "localizador": "definição de referência e documentos disponíveis em meio eletrônico",
-    "gitRef": "auditoria-2026-10"
+    "gitRef": "auditoria-2026-10",
+    "gitBlobSha": "2507a44d9790c1c694d03be910bd828e19a1c61a",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "cpc": {
     "titulo": "Código de Processo Civil, Lei 13.105/2015",
@@ -185,12 +198,18 @@
   "rdaLivro": {
     "titulo": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM",
     "acervo": "acervo-estudos/Catalogação/Catalogação dos princípios e teorias RDA e IFLA lRM.pdf",
-    "localizador": "capítulos de modelos conceituais, RDA e Projeto 3R"
+    "localizador": "capítulos de modelos conceituais, RDA e Projeto 3R",
+    "gitBlobSha": "3840d5cfa16b618f961a069430931c8e0d3cbdd9",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "rdaBrochura": {
     "titulo": "RDA: Descrição e Acesso de Recursos — brochura histórica em português",
     "acervo": "acervo-estudos/Catalogação/rdabrochure-por.pdf",
-    "localizador": "fundamentos do desenvolvimento do RDA original; contexto histórico, não descrição completa do RDA atual"
+    "localizador": "fundamentos do desenvolvimento do RDA original; contexto histórico, não descrição completa do RDA atual",
+    "gitBlobSha": "cfc7227ae287a6b558e2bd1390840c913ecd9d54",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "rdaRegistry": {
     "titulo": "RDA Registry — elementos e vocabulários",
@@ -220,7 +239,10 @@
   "lecoadic": {
     "titulo": "LE COADIC, Yves-François. A ciência da informação",
     "acervo": "acervo-estudos/Livros Extras/Livro - A ciência da Informação - LeCoadic.pdf",
-    "localizador": "biblioteconomia, documentação, ciência da informação e ciclo da informação"
+    "localizador": "biblioteconomia, documentação, ciência da informação e ciclo da informação",
+    "gitBlobSha": "343a44cd915a162352f98633330a798fc7a33856",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "borko": {
     "titulo": "BORKO, Harold. Information Science: What is it? American Documentation, 1968",
@@ -236,16 +258,22 @@
     "titulo": "OTLET, Paul. Tratado de documentação; original de 1934",
     "acervo": "acervo-estudos/Livros Extras/TRATADO DE DOCUMENTAÇÃO. OTLET.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "seção 124: O livro e a medida. Bibliometria"
+    "localizador": "seção 124: O livro e a medida. Bibliometria",
+    "gitBlobSha": "96679b22b2f104f0f1b394ea667d4c4300357a17",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "ranganathan": {
     "titulo": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009",
     "acervo": "acervo-estudos/Fundamentos/pdf-as-cinco-leis-da-biblioteconomi-ranganathanpdf_compress.pdf",
-    "localizador": "enunciados, discussão e aplicações das cinco leis"
+    "localizador": "enunciados, discussão e aplicações das cinco leis",
+    "gitBlobSha": "3d34fc36e85c7c805a2c4cec360d322719a5c2a9",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "gorman": {
-    "titulo": "CRAWFORD, Walt; GORMAN, Michael. Future Libraries: Dreams, Madness & Reality. 1995",
-    "localizador": "propostas para bibliotecas e uso inteligente da tecnologia"
+    "titulo": "GORMAN, Michael. Five New Laws of Librarianship. American Libraries, setembro de 1995, p. 784–785",
+    "url": "https://wiki.lib.sun.ac.za/images/1/17/Michael_Gorman_-_Five_new_laws_of_librarianship.pdf",
+    "localizador": "cinco novas leis: humanidade, formas de comunicação, tecnologia inteligente, acesso e passado/futuro"
   },
   "noruzi": {
     "titulo": "NORUZI, Alireza. Application of Ranganathan’s Laws to the Web. 2004",
@@ -296,27 +324,42 @@
   "vergueiro": {
     "titulo": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções",
     "acervo": "acervo-estudos/Livros Extras/Livro - Desenvolvimento de coleções - Autor Waldomiro Vergueiro.pdf",
-    "localizador": "modelo de Evans, política, seleção, aquisição, avaliação e desbastamento"
+    "localizador": "modelo de Evans, política, seleção, aquisição, avaliação e desbastamento",
+    "gitBlobSha": "7a374fbfcefedadcc75784fca763bfd71c559377",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "vergueiroSelecao": {
     "titulo": "VERGUEIRO, Waldomiro. Seleção de materiais de informação",
     "acervo": "acervo-estudos/Livros Extras/VERGUEIRO-Seleção de materiais de informação.pdf",
-    "localizador": "política, critérios, instrumentos e responsabilidades de seleção"
+    "localizador": "política, critérios, instrumentos e responsabilidades de seleção",
+    "gitBlobSha": "407800559d9990f0234aa2590aaaeda8b5711287",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "almeida": {
     "titulo": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação",
     "acervo": "acervo-estudos/Livros Extras/ALMEIDA. Planejamento.pdf",
-    "localizador": "planejamento, diagnóstico, avaliação e indicadores"
+    "localizador": "planejamento, diagnóstico, avaliação e indicadores",
+    "gitBlobSha": "7d178c00eb0553419e86e3f7e45ab59bf5a18a33",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "amaral": {
     "titulo": "AMARAL, Sueli Angélica do. Marketing: abordagem em unidades de informação",
     "acervo": "acervo-estudos/Livros Extras/AMARAL, S. A. Marketing abordagem em Unidades de Informação.pdf",
-    "localizador": "usuários, relações, oferta e avaliação de serviços"
+    "localizador": "usuários, relações, oferta e avaliação de serviços",
+    "gitBlobSha": "727dd3b5600433016204b86ed531926a1b5a0a2d",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "choo": {
     "titulo": "CHOO, Chun Wei. A organização do conhecimento",
-    "acervo": "acervo-estudos/Livros Extras",
-    "localizador": "criação, compartilhamento e uso do conhecimento; Nonaka e Takeuchi; comunidades de prática"
+    "acervo": "acervo-estudos/Gestão e Coleções/choo-chun-wei-a-organizac3a7c3a3o-do-conhecimento.pdf",
+    "localizador": "criação, compartilhamento e uso do conhecimento; Nonaka e Takeuchi; comunidades de prática",
+    "gitBlobSha": "67b16c4ef2122092ab4b9f287f22b79e04657541",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "counter": {
     "titulo": "COUNTER — Code of Practice for Research Content Usage Metrics, Release 5.1",
@@ -335,7 +378,8 @@
   },
   "herzberg": {
     "titulo": "HERZBERG, Frederick. One More Time: How Do You Motivate Employees?",
-    "localizador": "distinção entre fatores higiênicos e motivacionais"
+    "localizador": "distinção entre fatores higiênicos e motivacionais; edição republicada em janeiro de 2003, texto original de 1968",
+    "url": "https://store.hbr.org/product/one-more-time-how-do-you-motivate-employees/R0301F"
   },
   "situacional": {
     "titulo": "Hersey e Blanchard — modelo de liderança situacional",
@@ -497,7 +541,9 @@
     "acervo": "acervo-estudos/Preservação física/cf5.pdf",
     "localizador": "fatores de degradação, agentes biológicos, higienização, acondicionamento e manuseio",
     "gitRef": "auditoria-2026-10",
-    "sha256": "6bf0c6f103107b86c84b564f0941162b26997361709c7bf047245282e2499fba"
+    "sha256": "6bf0c6f103107b86c84b564f0941162b26997361709c7bf047245282e2499fba",
+    "gitBlobSha": "50b7222b782154cffcd421f2f310cb030bedba15",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "premis": {
     "titulo": "Library of Congress — PREMIS Data Dictionary, version 3.0",
@@ -563,25 +609,33 @@
     "titulo": "ABNT NBR 10520:2023 — Citações em documentos",
     "acervo": "acervo-estudos/ABNT/Abnt_nbr_10520_2023.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "sistemas de chamada, citação direta, indireta e citação de citação"
+    "localizador": "sistemas de chamada, citação direta, indireta e citação de citação",
+    "gitBlobSha": "45506f2a4e22baaed958c54c968d6b874465da4a",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "nbr6024": {
     "titulo": "ABNT NBR 6024:2012 — Numeração progressiva das seções",
     "acervo": "acervo-estudos/ABNT/ABNT-NBR-6024.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "hierarquia, indicativos, alíneas e elementos sem numeração"
+    "localizador": "hierarquia, indicativos, alíneas e elementos sem numeração",
+    "gitBlobSha": "0b2dfb5a76427c4b494636b35fddd4f011f9c98a",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "nbr6027": {
     "titulo": "ABNT NBR 6027:2012 — Sumário",
     "acervo": "acervo-estudos/ABNT/ABNT-NBR-6027.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "definição, localização e apresentação"
+    "localizador": "definição, localização e apresentação",
+    "gitBlobSha": "ff56749f7befb232eb1b2b15760261b21df22628",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "nbr14724": {
     "titulo": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos",
     "acervo": "acervo-estudos/ABNT/NBR14724.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "estrutura, elementos e regras gerais de apresentação"
+    "localizador": "estrutura, elementos e regras gerais de apresentação",
+    "gitBlobSha": "1ea04fd51e811dd4512164890a85c278a2f0c6d6",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "nbr6032": {
     "titulo": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas",
@@ -607,7 +661,9 @@
     "titulo": "Lei 10.994/2004 — Depósito legal de publicações na Biblioteca Nacional",
     "localizador": "objetivo, abrangência e dever de depósito",
     "acervo": "acervo-estudos/Legislação e contexto legislativo/Lei 10.994.pdf",
-    "gitRef": "auditoria-2026-10"
+    "gitRef": "auditoria-2026-10",
+    "gitBlobSha": "10a7ea1660cfe40a1c31a93ba853d794139e2661",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "bradfordCurva": {
     "titulo": "Bibliometric analysis of the literature of randomized controlled trials. 2005",
@@ -793,7 +849,9 @@
     "titulo": "Lei 9.610/1998 — direitos autorais",
     "acervo": "acervo-estudos/Legislação e contexto legislativo/L9610.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "reprodução, utilização e limitações aos direitos autorais"
+    "localizador": "reprodução, utilização e limitações aos direitos autorais",
+    "gitBlobSha": "f792bc603e29a8fd3b214ba0a367e2db17a49dae",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "lei10753": {
     "titulo": "Lei 10.753/2003 — Política Nacional do Livro",
@@ -809,19 +867,25 @@
     "titulo": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026",
     "acervo": "acervo-estudos/Legislação e contexto legislativo/RICD atualizado ate RCD 34-2026.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "artigos indicados individualmente"
+    "localizador": "artigos indicados individualmente",
+    "gitBlobSha": "d4f945a0e213a4c63eadbfd8bf02f66c0f55f969",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "rccn": {
     "titulo": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN",
     "acervo": "acervo-estudos/Legislação e contexto legislativo/RCCN.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "sessões conjuntas e regras comuns; artigos indicados"
+    "localizador": "sessões conjuntas e regras comuns; artigos indicados",
+    "gitBlobSha": "dbb9dbd6fc522fb61c6cabdca5ef57670d3b6dfb",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "codigoEticaCamara": {
     "titulo": "Câmara dos Deputados — Código de Ética e Decoro Parlamentar",
     "acervo": "acervo-estudos/Legislação e contexto legislativo/codigo_etica_4ed.2reimp.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "condutas, procedimentos e sanções"
+    "localizador": "condutas, procedimentos e sanções",
+    "gitBlobSha": "bb521e611b21d15d2a95ee5f5ca5e23586e3efce",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "stfDefensoria": {
     "titulo": "STF — Informativo 1202/2025: ADI 5662/AC",
@@ -852,7 +916,9 @@
     "titulo": "Lei 14.837/2024 — alteração da Lei 12.244/2010 e Sistema Nacional de Bibliotecas Escolares",
     "acervo": "acervo-estudos/Legislação e contexto legislativo/Lei-14837-2024-04-08.pdf",
     "gitRef": "auditoria-2026-10",
-    "localizador": "conceito e funções da biblioteca escolar e respeito à legislação profissional"
+    "localizador": "conceito e funções da biblioteca escolar e respeito à legislação profissional",
+    "gitBlobSha": "4d703c46a8324744750e25973ff9f4709bd6d1d0",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
   },
   "ccn": {
     "titulo": "Ibict — Catálogo Coletivo Nacional de Publicações Seriadas",
@@ -1389,5 +1455,155 @@
     "titulo": "IBICT — Guia para utilização da CDU",
     "url": "https://livroaberto.ibict.br/bitstream/123456789/772/6/Guia%20para%20utiliza%C3%A7%C3%A3o%20da%20CDU.pdf",
     "localizador": "p. 11: classes simples, compostas e complexas; trecho público consultado"
+  },
+  "sileg": {
+    "titulo": "Câmara dos Deputados — Sileg-Tramitação",
+    "url": "https://www.camara.leg.br/internet/servicos-tic/atv-parlamentar-ficha-sileg.htm",
+    "localizador": "cadastro de proposições e acompanhamento de seu ciclo de tramitação"
+  },
+  "dmpDcc": {
+    "titulo": "Digital Curation Centre — Data Management Plans",
+    "url": "https://www.dcc.ac.uk/resources/data-management-plans",
+    "localizador": "planejamento e atualização da gestão dos dados ao longo da pesquisa"
+  },
+  "doi": {
+    "titulo": "DOI Foundation — DOI Handbook",
+    "url": "https://www.doi.org/doi-handbook/",
+    "localizador": "persistência, resolução e manutenção dos dados de destino"
+  },
+  "mods": {
+    "titulo": "Library of Congress — MODS: Uses and Features",
+    "url": "https://www.loc.gov/standards/mods/mods-overview",
+    "localizador": "XML, nomes de elementos e relação com MARC"
+  },
+  "mets": {
+    "titulo": "Library of Congress — METS Overview and Tutorial",
+    "url": "https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+    "localizador": "METS 1.x: metadados, arquivos e mapa estrutural"
+  },
+  "bibframe": {
+    "titulo": "Library of Congress — Overview of the BIBFRAME 2.0 Model",
+    "url": "https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+    "localizador": "Work, Instance e Item; distinção de níveis"
+  },
+  "rdf": {
+    "titulo": "W3C — RDF 1.1 Concepts and Abstract Syntax",
+    "url": "https://www.w3.org/TR/rdf11-concepts/",
+    "localizador": "triplas, grafos e recursos"
+  },
+  "linkedData": {
+    "titulo": "Tim Berners-Lee — Linked Data, Design Issues",
+    "url": "https://www.w3.org/DesignIssues/LinkedData.html",
+    "localizador": "quatro princípios de dados conectados"
+  },
+  "sparql": {
+    "titulo": "W3C — SPARQL 1.1 Query Language",
+    "url": "https://www.w3.org/TR/sparql11-query/",
+    "localizador": "consulta a grafos RDF"
+  },
+  "postgresConstraints": {
+    "titulo": "PostgreSQL — Constraints",
+    "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "localizador": "foreign keys, valores nulos e referências a chaves únicas"
+  },
+  "postgresSelect": {
+    "titulo": "PostgreSQL — Table Expressions",
+    "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html",
+    "localizador": "WHERE, GROUP BY e HAVING"
+  },
+  "mongoSchema": {
+    "titulo": "MongoDB — Schema Validation",
+    "url": "https://www.mongodb.com/docs/manual/core/schema-validation/",
+    "localizador": "esquema flexível e regras de validação opcionais"
+  },
+  "regexMDN": {
+    "titulo": "MDN — JavaScript Regular Expressions",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+    "localizador": "classes de caracteres, quantificadores, âncoras e grupos"
+  },
+  "openrefine": {
+    "titulo": "OpenRefine — Reconciling",
+    "url": "https://openrefine.org/docs/manual/reconciling",
+    "localizador": "serviços, candidatos e decisão de reconciliação"
+  },
+  "wcagContraste": {
+    "titulo": "W3C — WCAG 2.2, Understanding 1.4.3 Contrast Minimum",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "localizador": "nível AA, 4.5:1, texto grande e exceções"
+  },
+  "wcagImagem": {
+    "titulo": "W3C WAI — Images Tutorial",
+    "url": "https://www.w3.org/WAI/tutorials/images/",
+    "localizador": "imagens informativas, funcionais, complexas e decorativas"
+  },
+  "wcagCor": {
+    "titulo": "W3C — WCAG 2.2, Understanding 1.4.1 Use of Color",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+    "localizador": "cor não é o único meio visual de transmitir informação"
+  },
+  "wcagTabelas": {
+    "titulo": "W3C WAI — Tables Tutorial",
+    "url": "https://www.w3.org/WAI/tutorials/tables/",
+    "localizador": "cabeçalhos, escopo e relações de células"
+  },
+  "pdfUA": {
+    "titulo": "PDF Association — Tagged PDF and PDF/UA",
+    "url": "https://pdfa.org/techniques-for-accessible-pdf/content-order-correctly-set/UA1_Tpdf-G4_01/",
+    "localizador": "estrutura semântica e ordem lógica; tags não bastam sem correção"
+  },
+  "decreto9758": {
+    "titulo": "Decreto 9.758/2019 — formas de tratamento e endereçamento",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9758-11-abril-2019-787965-publicacaooriginal-157737-pe.html",
+    "localizador": "arts. 1º–3º: âmbito, exceções e tratamento senhor"
+  },
+  "lc95": {
+    "titulo": "Lei Complementar 95/1998 — elaboração e redação das leis",
+    "url": "https://www2.camara.leg.br/legin/fed/leicom/1998/leicomplementar-95-26-fevereiro-1998-363948-normaatualizada-pl.html",
+    "localizador": "art. 10: artigos e parágrafos"
+  },
+  "anpd2026": {
+    "titulo": "Lei 15.352/2026 — transformação em Agência Nacional de Proteção de Dados",
+    "url": "https://legis.senado.gov.br/norma/42835651/publicacao/42841343",
+    "localizador": "denominação da ANPD e alterações da LGPD vigentes antes do corte"
+  },
+  "dataInk": {
+    "titulo": "Publications Office of the European Union — Chart elements: introduction",
+    "url": "https://data.europa.eu/apps/data-visualisation-guide/chart-junk-and-data-ink-origins",
+    "localizador": "origem de chartjunk e definição de data-ink ratio em Tufte"
+  },
+  "crisp": {
+    "titulo": "IBM — CRISP-DM: metodologia e fases",
+    "url": "https://www.ibm.com/docs/en/spss-modeler/18.5.0?topic=dm-crisp-help-overview",
+    "localizador": "seis fases iterativas; não estabelece uma porcentagem obrigatória universal por fase"
+  },
+  "luhn": {
+    "titulo": "Luhn — The Automatic Creation of Literature Abstracts, 1958",
+    "url": "https://courses.ischool.berkeley.edu/i256/f06/papers/luhn58.pdf",
+    "localizador": "frequência e distribuição de palavras e medida de significância"
+  },
+  "cap": {
+    "titulo": "Gilbert e Lynch — Brewer’s conjecture and the feasibility of consistent, available, partition-tolerant web services, 2002",
+    "url": "https://doi.org/10.1145/564585.564601",
+    "localizador": "consistência e disponibilidade na presença de partições; não equivale a proibição de ACID em NoSQL"
+  },
+  "marraqueche": {
+    "titulo": "Decreto 9.522/2018 — Tratado de Marraqueche",
+    "url": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9522.htm",
+    "localizador": "arts. 2º–4º do tratado: beneficiários, entidades autorizadas e formatos acessíveis"
+  },
+  "lda": {
+    "titulo": "Blei, Ng e Jordan — Latent Dirichlet Allocation, 2003",
+    "url": "https://jmlr.org/papers/v3/blei03a.html",
+    "localizador": "modelo generativo probabilístico com tópicos latentes"
+  },
+  "cer": {
+    "titulo": "Hugging Face Evaluate — implementação da métrica CER",
+    "url": "https://github.com/huggingface/evaluate/blob/main/metrics/cer/cer.py",
+    "localizador": "fórmula (substituições + deleções + inserções) / caracteres de referência"
+  },
+  "assinaturaDigital": {
+    "titulo": "NIST — FIPS 186-5: Digital Signature Standard",
+    "url": "https://csrc.nist.gov/pubs/fips/186-5/final",
+    "localizador": "assinatura e verificação, integridade e autenticação de origem"
   }
 }

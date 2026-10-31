@@ -1,3 +1,4 @@
+import { disposicoesHistoricas } from './helpers/revisoesIndividuais';
 import { describe, it, expect } from 'vitest';
 import { simuladoPreservacao100Q } from '../content/questions/m7-preservacao-100q';
 import { megaSimuladoCamara120Q } from '../content/questions/mega-simulado-camara-120q';
@@ -38,14 +39,18 @@ describe('P17: Regressões editoriais de preservação (M7 e Conferências)', ()
     }
   });
 
-  it('marca os 2 itens divergentes (m7-q-21 e mega-q-85) com flag revisar: true', () => {
+  it('preserva origem não certificada e decisão editorial individual dos 2 itens históricos', () => {
     const q21 = simuladoPreservacao100Q.find((q) => q.id === 'm7-q-21');
     expect(q21).toBeDefined();
-    expect(q21?.revisar, 'm7-q-21 deve ter flag revisar: true para aferição no portal oficial').toBe(true);
+    expect(q21?.revisar).toBe(false);
+    expect(q21?.fonteOriginal.verificado).toBe(false);
+    expect(disposicoesHistoricas.has('m7-q-21')).toBe(true);
 
     const qMega85 = megaSimuladoCamara120Q.find((q) => q.id === 'mega-q-85');
     expect(qMega85).toBeDefined();
-    expect(qMega85?.revisar, 'mega-q-85 deve ter flag revisar: true para aferição no portal oficial').toBe(true);
+    expect(qMega85?.revisar).toBe(false);
+    expect(qMega85?.fonteOriginal.verificado).toBe(false);
+    expect(disposicoesHistoricas.has('mega-q-85')).toBe(true);
   });
 
   it('confirma que m10-q-94 mantém o gabarito oficial ERRADO do IPHAN 2018', () => {

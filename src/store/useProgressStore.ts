@@ -43,6 +43,9 @@ import {
   migrarTentativasPortaoForaDaTrilha,
 } from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
+import { versaoSimulado, versaoQuestao, sessaoPrecisaAtualizacao, registrarArquivoSessao, unirArquivosSessoes } from '../domain/versaoConteudoSimulado';
+import { SessaoSimuladoStateSchema } from '../domain/schemas/progress.schema';
+import { z } from 'zod';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
@@ -81,7 +84,7 @@ interface ProgressStoreState extends UserProgress {
   sincronizarTentativasNuvem: () => Promise<void>;
   // Simulado com persistência total multi-simulados
   obterSessaoSimulado: (simuladoId: string) => SessaoSimuladoState;
-  iniciarOuRetomarSimulado: (simuladoId?: string) => void;
+  iniciarOuRetomarSimulado: (simuladoId?: string, itensSelecionados?: string[]) => void;
   salvarRespostaSimulado: (
     arg1: string,
     arg2: string | ('C' | 'E' | 'BRANCO'),
@@ -598,12 +601,13 @@ export const useProgressStore = create<ProgressStoreState>()(
 
         // Consulta persistência atômica local dedicada
         const localSessao = simuladoSessionService.obterSessaoLocal(simuladoId);
+        if (sessaoStore && localSessao) return simuladoSessionService.mesclarSessoes(sessaoStore, localSessao) || sessaoStore;
 
         if (sessaoStore && Object.keys(sessaoStore.respostas || {}).length > 0) {
           if (localSessao && Object.keys(localSessao.respostas || {}).length > Object.keys(sessaoStore.respostas || {}).length) {
             sessaoStore = simuladoSessionService.mesclarSessoes(sessaoStore, localSessao) || sessaoStore;
           }
-          return sessaoStore;
+          return simuladoSessionService.mesclarSessoes(sessaoStore, localSessao) || sessaoStore;
         }
 
         if (localSessao && Object.keys(localSessao.respostas || {}).length > 0) {
@@ -638,18 +642,13 @@ export const useProgressStore = create<ProgressStoreState>()(
         };
       },
 
-      iniciarOuRetomarSimulado: (simuladoIdParam?: string) => {
+      iniciarOuRetomarSimulado: (simuladoIdParam?: string, itensSelecionados?: string[]) => {
         const state = get();
         const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
         const sessoes = state.sessoesSimulados || {};
         const localSessao = simuladoSessionService.obterSessaoLocal(simuladoId);
 
-        let sessaoAtual = sessoes[simuladoId];
-        if (!sessaoAtual || Object.keys(sessaoAtual.respostas || {}).length === 0) {
-          if (localSessao && Object.keys(localSessao.respostas || {}).length > 0) {
-            sessaoAtual = localSessao;
-          }
-        }
+        let sessaoAtual = simuladoSessionService.mesclarSessoes(sessoes[simuladoId], localSessao) || undefined;
 
         if (!sessaoAtual) {
           sessaoAtual = {
@@ -662,8 +661,17 @@ export const useProgressStore = create<ProgressStoreState>()(
           };
         }
 
+        const questoes = getSimuladoById(simuladoId)?.questoes || simuladoFundamentos100Q;
         const novaSessao: SessaoSimuladoState = {
           ...sessaoAtual,
+          ...(itensSelecionados && Object.keys(sessaoAtual.respostas).length === 0 ? {
+            itensSelecionados: [...new Set(itensSelecionados)].filter(id => questoes.some(q => q.id === id)),
+          } : {}),
+          // Nunca atribuir a versão atual a respostas antigas sem referência editorial.
+          ...(Object.keys(sessaoAtual.respostas).length === 0 ? {
+            versaoConteudo: versaoSimulado(questoes),
+            tentativaId: sessaoAtual.tentativaId || crypto.randomUUID(),
+          } : {}),
           emAndamento: true,
           ultimoAcessoTimestamp: Date.now(),
         };
@@ -729,6 +737,12 @@ export const useProgressStore = create<ProgressStoreState>()(
             ultimoAcessoTimestamp: Date.now(),
           };
 
+          const questoes = getSimuladoById(simuladoId)?.questoes || simuladoFundamentos100Q;
+          const questao = questoes.find(q => q.id === questionId);
+          if (!questao || sessaoPrecisaAtualizacao(sessaoAtual, questoes)) return state;
+          if (sessaoAtual.itensSelecionados?.length && !sessaoAtual.itensSelecionados.includes(questionId)) return state;
+          acertou = resposta === 'BRANCO' ? undefined : resposta === questao.gabarito;
+
           // V-01: Resposta única por item (Fator Cebraspe estrito)
           // Impede sobrescrita ou troca de resposta após o primeiro julgamento
           if (sessaoAtual.respostas[questionId]?.resposta !== undefined) {
@@ -739,6 +753,8 @@ export const useProgressStore = create<ProgressStoreState>()(
             ...sessaoAtual.respostas,
             [questionId]: {
               questionId,
+              versaoQuestao: versaoQuestao(questao),
+              gabaritoNaResposta: questao.gabarito,
               resposta,
               certeza,
               acertou,
@@ -748,6 +764,8 @@ export const useProgressStore = create<ProgressStoreState>()(
 
           const novaSessao: SessaoSimuladoState = {
             ...sessaoAtual,
+            versaoConteudo: versaoSimulado(questoes),
+            tentativaId: sessaoAtual.tentativaId || crypto.randomUUID(),
             respostas: novasRespostas,
             emAndamento: true,
             ultimoAcessoTimestamp: Date.now(),
@@ -838,14 +856,16 @@ export const useProgressStore = create<ProgressStoreState>()(
         const state = get();
         const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
         const sessoes = state.sessoesSimulados || {};
-        const sessao = sessoes[simuladoId] || state.sessaoAtivaSimulado || { respostas: {} };
+        const sessao = state.obterSessaoSimulado(simuladoId);
         const respostas = sessao.respostas || {};
 
         const manifest = getSimuladoById(simuladoId);
         const questoes = manifest?.questoes || simuladoFundamentos100Q;
         const tituloSimulado = manifest?.titulo || 'Simulado no Modelo Cebraspe';
+        if (sessaoPrecisaAtualizacao(sessao, questoes)) throw new Error('O conteúdo deste simulado mudou. Preserve a tentativa anterior e inicie a versão atual.');
 
-        const itensCebraspe = questoes.map((q) => {
+        const questoesDaTentativa = sessao.itensSelecionados?.length ? questoes.filter(q => sessao.itensSelecionados!.includes(q.id)) : questoes;
+        const itensCebraspe = questoesDaTentativa.map((q) => {
           const r = respostas[q.id];
           return {
             id: q.id,
@@ -862,7 +882,9 @@ export const useProgressStore = create<ProgressStoreState>()(
         const resultado: SimuladoFinalizado = {
           id: `simulado-${Date.now()}`,
           simuladoId,
-          tituloSimulado,
+          versaoConteudo: versaoSimulado(questoes),
+          tituloSimulado: sessao.itensSelecionados?.length ? `Reteste · ${tituloSimulado}` : tituloSimulado,
+          itensSelecionados: sessao.itensSelecionados,
           dataHora: new Date().toISOString(),
           tempoGastoSegundos,
           certos: pontuacao.certos,
@@ -882,14 +904,21 @@ export const useProgressStore = create<ProgressStoreState>()(
         const novasSessoes = {
           ...sessoes,
           [simuladoId]: {
+            ...sessao,
             simuladoId,
+            tentativaId: crypto.randomUUID(),
             respostas: {},
+            itensSelecionados: undefined,
             currentIndex: 0,
             emAndamento: false,
             tempoGastoSegundos: 0,
             ultimoAcessoTimestamp: Date.now(),
           },
         };
+
+        simuladoSessionService.salvarSessaoLocal(simuladoId, novasSessoes[simuladoId]);
+        const authUser = useAuthStore.getState().user;
+        if (authUser) simuladoSessionService.salvarSessaoNuvemDebounced(authUser.id, simuladoId, novasSessoes[simuladoId]);
 
         set({
           historicoSimulados: [resultado, ...state.historicoSimulados],
@@ -951,25 +980,26 @@ export const useProgressStore = create<ProgressStoreState>()(
       reiniciarSimulado: (simuladoIdParam?: string) => {
         const state = get();
         const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
-        simuladoSessionService.limparSessaoLocal(simuladoId);
-        const sessoes = state.sessoesSimulados || {};
+        const sessao = state.obterSessaoSimulado(simuladoId);
+        const arquivos = unirArquivosSessoes(sessao);
+        if (Object.keys(sessao.respostas).length > 0) {
+          const arquivo = registrarArquivoSessao(sessao);
+          if (!arquivos.some(a => a.id === arquivo.id)) arquivos.push(arquivo);
+        }
+        const novaSessao: SessaoSimuladoState = {
+          simuladoId,
+          respostas: {}, currentIndex: 0, emAndamento: false,
+          tempoGastoSegundos: 0, ultimoAcessoTimestamp: Date.now(),
+          tentativaId: crypto.randomUUID(),
+          versaoConteudo: versaoSimulado(getSimuladoById(simuladoId)?.questoes || simuladoFundamentos100Q),
+          tentativasArquivadas: arquivos,
+        };
+        simuladoSessionService.salvarSessaoLocal(simuladoId, novaSessao);
+        const authUser = useAuthStore.getState().user;
+        if (authUser) simuladoSessionService.salvarSessaoNuvemDebounced(authUser.id, simuladoId, novaSessao);
         set({
-          sessoesSimulados: {
-            ...sessoes,
-            [simuladoId]: {
-              simuladoId,
-              respostas: {},
-              currentIndex: 0,
-              emAndamento: false,
-              tempoGastoSegundos: 0,
-              ultimoAcessoTimestamp: Date.now(),
-            },
-          },
-          sessaoAtivaSimulado: {
-            respostas: {},
-            currentIndex: 0,
-            emAndamento: false,
-          },
+          sessoesSimulados: { ...state.sessoesSimulados, [simuladoId]: novaSessao },
+          sessaoAtivaSimulado: { respostas: {}, currentIndex: 0, emAndamento: false },
         });
       },
 
@@ -982,6 +1012,7 @@ export const useProgressStore = create<ProgressStoreState>()(
           modulosLidosIds: state.modulosLidosIds,
           checkpointsRespondidos: state.checkpointsRespondidos,
           historicoSimulados: state.historicoSimulados,
+          sessoesSimulados: state.sessoesSimulados,
           constancia: state.constancia,
           ultimoModuloAcessado: state.ultimoModuloAcessado,
         };
@@ -1042,6 +1073,8 @@ export const useProgressStore = create<ProgressStoreState>()(
           const tentativasImportadas = ItemAttemptSchema.array().safeParse(parsed.itemAttempts ?? get().itemAttempts);
           if (!tentativasImportadas.success) return { success: false, error: 'Histórico de respostas inválido. Nenhum dado foi alterado.' };
 
+          const sessoesImportadas = z.record(z.string(), SessaoSimuladoStateSchema).safeParse(parsed.sessoesSimulados ?? get().sessoesSimulados);
+          if (!sessoesImportadas.success) return { success: false, error: 'Sessões de simulado inválidas. Nenhum dado foi alterado.' };
           const modulosLidosIds = Array.isArray(parsed.modulosLidosIds)
             ? parsed.modulosLidosIds
             : [];
@@ -1058,6 +1091,7 @@ export const useProgressStore = create<ProgressStoreState>()(
           set({
             versao: 4,
             itemAttempts: tentativasImportadas.data,
+            sessoesSimulados: sessoesImportadas.data,
             modulosLidosIds,
             checkpointsRespondidos,
             historicoSimulados,
@@ -1070,6 +1104,7 @@ export const useProgressStore = create<ProgressStoreState>()(
             },
           });
 
+          for (const [id, sessao] of Object.entries(sessoesImportadas.data)) simuladoSessionService.salvarSessaoLocal(id, sessao);
           itemAttemptsSyncService.salvarLocais(tentativasImportadas.data);
           return { success: true };
         } catch (err: unknown) {
@@ -1120,13 +1155,14 @@ registerAuthStateListener(async (user) => {
     const cloudProgress = await progressSyncService.baixarProgressoNuvem(user.id);
     if (cloudProgress) {
       const currentState = useProgressStore.getState();
+      const sessoesMescladas = Object.fromEntries([...new Set([
+        ...Object.keys(cloudProgress.sessoesSimulados || {}), ...Object.keys(currentState.sessoesSimulados || {}),
+      ])].map(id => [id, simuladoSessionService.mesclarSessoes(currentState.sessoesSimulados?.[id], cloudProgress.sessoesSimulados?.[id])! ]));
+      for (const [id, sessao] of Object.entries(sessoesMescladas)) simuladoSessionService.salvarSessaoLocal(id, sessao);
       useProgressStore.setState({
         ...currentState,
         ...cloudProgress,
-        sessoesSimulados: {
-          ...(cloudProgress.sessoesSimulados || {}),
-          ...(currentState.sessoesSimulados || {}),
-        },
+        sessoesSimulados: sessoesMescladas,
       });
     }
   } catch (err) {

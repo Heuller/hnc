@@ -794,7 +794,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     },
     "versao_correta": "O uso inteligente da tecnologia pode combinar recursos e suportes segundo as necessidades, sem exigir substituição integral de toda coleção física.",
     "gatilho": "substituir integralmente",
-    "fonte": "CRAWFORD, Walt; GORMAN, Michael. Future Libraries: Dreams, Madness & Reality. 1995 — uso de tecnologia e pluralidade de suportes. Fonte no acervo de estudos do HNC.",
+    "fonte": "GORMAN, Michael. Five New Laws of Librarianship. American Libraries, setembro de 1995, p. 784–785 — uso de tecnologia e pluralidade de suportes. Fonte no acervo de estudos do HNC. — https://wiki.lib.sun.ac.za/images/1/17/Michael_Gorman_-_Five_new_laws_of_librarianship.pdf",
     "dataConferencia": "2026-10-30"
   },
   {
@@ -815,7 +815,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     },
     "gatilho": "servem à humanidade",
     "versao_errada": "Qualquer tecnologia nova melhora necessariamente a biblioteca, independentemente de usuários, custos e condições de aplicação.",
-    "fonte": "CRAWFORD, Walt; GORMAN, Michael. Future Libraries: Dreams, Madness & Reality. 1995 — princípios propostos para bibliotecas. Fonte no acervo de estudos do HNC.",
+    "fonte": "GORMAN, Michael. Five New Laws of Librarianship. American Libraries, setembro de 1995, p. 784–785 — princípios propostos para bibliotecas. Fonte no acervo de estudos do HNC. — https://wiki.lib.sun.ac.za/images/1/17/Michael_Gorman_-_Five_new_laws_of_librarianship.pdf",
     "dataConferencia": "2026-10-30"
   },
   {

@@ -581,13 +581,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
     "item": "Na Rede Virtual de Bibliotecas (RVBI), a indexação e a recuperação temática de documentos doutrinários e legislativos utilizam como instrumento de controle terminológico padronizado o Vocabulário Controlado Básico (VCB).",
     "gabarito": "C",
-    "justificativa": "CERTO. O VCB (Vocabulário Controlado Básico) é a linguagem documental e tesauro cooperativo utilizado pelas bibliotecas consorciadas à RVBI para a indexação unificada de monografias, artigos e normas jurídicas, assegurando consistência na recuperação da informação em toda a rede.",
+    "justificativa": "CERTO. O VCB fornece termos autorizados e relações para representar assuntos na cooperação da rede. Não é tabela de localização física nem substitui todos os demais padrões catalográficos. A padronização contribui para reunir variantes e recuperar conteúdos, mas exige aplicação consistente.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "Vocabulário Controlado Básico",
+    "armadilhaBanca": "Distinguir vocabulário de assunto e notação de localização.",
+    "fonte": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI, arquivo de 06/09/2025 — 650: utilização de descritores autorizados no VCB — https://www2.senado.leg.br/bdsf/bitstream/handle/id/231030/Descricao_bibliografica_RVBI_2025-09-06.pdf?isAllowed=y&sequence=33",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "O VCB é apenas uma tabela de números de estante e não controla a representação temática na RVBI."
   },
   {
     "id": "orgaos-q-028",
@@ -595,17 +601,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "O selo editorial Edições Câmara integra a Coordenação de Biblioteca (Cobib) da Câmara dos Deputados, sendo tecnicamente proibido de publicar obras literárias, históricas ou culturais, devendo restringir seu catálogo a textos literais de leis sancionadas.",
+    "item": "O selo Edições Câmara limita obrigatoriamente seu catálogo à reprodução literal de leis sancionadas, sendo proibida a publicação de obras históricas e culturais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O selo Edições Câmara possui catálogo qualificado e diversificado de obras intelectuais, publicando coleções consagradas em história do Brasil, ciência política, sociologia, literatura clássica e pensamento nacional, não se limitando à reprodução de atos normativos em texto frio.",
+    "justificativa": "ERRADO. O catálogo institucional inclui produção histórica, cultural e de outros temas, além da legislação. A função editorial não se restringe à reprodução literal de leis. O item foi concentrado no escopo de publicação, sem deduzir a cadeia administrativa pela semelhança de nomes.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "O selo editorial Edições Câmara integra o Centro de Documentação e Informação (CEDI) e possui a missão de editar obras cívicas, históricas, literárias, doutrinárias e de memória parlamentar brasileira, muito além da mera publicação de textos de leis.",
-    "armadilhaBanca": "Redução burocrática indevida do escopo editorial cultural e memorialista do Parlamento."
+    "versao_correta": "O catálogo Edições Câmara pode incluir obras históricas e culturais, além de publicações legislativas.",
+    "armadilhaBanca": "Confundir especialização institucional com exclusividade de gênero editorial.",
+    "gatilho": "limita obrigatoriamente",
+    "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — serviços editoriais e catálogo de publicações da Câmara — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-029",
@@ -613,15 +623,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "O Sistema de Informações Legislativas (SILEG) constitui a base estruturante na Câmara dos Deputados que viabiliza o acompanhamento e o controle informacional de projetos de lei, emendas, pareceres técnicos e da tramitação legislativa de proposições.",
+    "item": "O Sileg-Tramitação permite cadastrar proposições e acompanhar seu ciclo de tramitação na Câmara dos Deputados, incluindo comissões e eventual encaminhamento ao Plenário.",
     "gabarito": "C",
-    "justificativa": "CERTO. O SILEG é o sistema corporativo da Câmara dos Deputados responsável pelo registro, catalogação da tramitação e controle das proposições legislativas e normas jurídicas, integrando-se aos serviços de documentação e informação legislativa.",
+    "justificativa": "CERTO. O sistema registra proposições e acompanha etapas desde apresentação até arquivamento ou transformação em lei, incluindo comissões e Plenário quando cabível. Não se confunde com catálogo bibliográfico nem implica que toda proposição necessariamente passe pelo Plenário ou vire lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "Sileg-Tramitação",
+    "armadilhaBanca": "Separar acompanhamento legislativo e descrição de acervo.",
+    "fonte": "Câmara dos Deputados — Sileg-Tramitação — cadastro e acompanhamento do ciclo de vida de proposições — https://www.camara.leg.br/internet/servicos-tic/atv-parlamentar-ficha-sileg.htm",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "O Sileg-Tramitação é um catálogo de livros e não acompanha a tramitação de proposições."
   },
   {
     "id": "orgaos-q-030",
@@ -629,17 +645,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "A Biblioteca da Câmara dos Deputados transferiu a custódia permanente de seus manuscritos e livros raros dos séculos XVI a XIX ao Arquivo Nacional, restringindo o acervo da Biblioteca Pedro Aleixo às publicações editadas após a promulgação da Constituição de 1988.",
+    "item": "A Biblioteca Pedro Aleixo mantém apenas obras posteriores à Constituição de 1988, pois transferiu integralmente seus livros raros históricos ao Arquivo Nacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Seção de Obras Raras da Biblioteca da Câmara dos Deputados conserva fisicamente em suas instalações acervos documentais e bibliográficos raros desde os primórdios da história constitucional e parlamentar brasileira, não tendo transferido tais acervos ao Arquivo Nacional.",
+    "justificativa": "ERRADO. A instituição mantém coleção de obras raras e fontes históricas. O recorte exclusivo após 1988 contradiz a existência e a missão desse acervo. A preservação pode exigir condições de acesso próprias, sem implicar transferência de toda a custódia ao Arquivo Nacional.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "A Biblioteca Pedro Aleixo da Câmara dos Deputados mantém sob sua custódia e guarda permanente um valioso acervo de obras raras, incunábulos, manuscritos e documentos parlamentares que remontam ao período imperial brasileiro.",
-    "armadilhaBanca": "Falsa afirmação de descarte ou transferência de custódia de obras raras do acervo parlamentar."
+    "versao_correta": "A Biblioteca Pedro Aleixo mantém coleções de obras raras e históricas, sujeitas às condições de preservação e acesso aplicáveis.",
+    "armadilhaBanca": "Transformar marco constitucional em corte inexistente de coleção.",
+    "gatilho": "apenas obras posteriores",
+    "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — coleções e acesso a obras raras — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   }
 ];
 

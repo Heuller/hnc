@@ -5,7 +5,7 @@ import type {
   RespostaItemAdaptativo,
 } from './types';
 import { diagnosticarVulnerabilidades } from './diagnosticEngine';
-import { ALL_SIMULADOS_REGISTRY } from '../../content/simuladosRegistry';
+import { BASE_QUESTOES_ADAPTATIVAS } from './baseQuestoesAdaptativas';
 import { getItensCadernoErros } from '../cadernoErros';
 import type { SimuladoFinalizado } from '../schemas/progress.schema';
 
@@ -42,9 +42,7 @@ export function montarSimuladoOffline(
   const qtdAlvo = config.quantidadeItens || 10;
 
   const escopo = config.modulosSelecionados?.map(m => m.toLowerCase());
-  const BASE_QUESTOES_ADAPTATIVAS: ItemSimuladoAdaptativo[] = [...new Map(ALL_SIMULADOS_REGISTRY.flatMap(s => s.questoes).map(q => [q.id, q])).values()]
-    .filter(q => !escopo?.length || escopo.includes(q.macroModuloId.toLowerCase()))
-    .map(q => ({ ...q, armadilhaBanca: q.armadilhaBanca || '', topicoNome: `Submódulo ${q.submoduloId}`, autorOuNormaReferencia: q.fonte || q.fonteOriginal.descricao }));
+  const baseNoEscopo = BASE_QUESTOES_ADAPTATIVAS.filter(q => !escopo?.length || escopo.includes(q.macroModuloId.toLowerCase()));
 
   // Prioriza módulos com fraquezas identificadas
   const modulosPrioritarios = new Set(
@@ -66,6 +64,12 @@ export function montarSimuladoOffline(
         submoduloId: err.submoduloId || '1.1',
         topicoNome: `Reteste de Ponto Cego: ${err.tituloContexto}`,
         item: err.assertiva,
+        contexto: err.contexto,
+        versao_correta: err.versao_correta,
+        versao_errada: err.versao_errada,
+        gatilho: err.gatilho,
+        fonte: err.fonte,
+        dataConferencia: err.dataConferencia,
         gabarito: err.gabarito,
         justificativa: err.justificativa,
         armadilhaBanca: err.armadilhaBanca || 'Atenção aos distratores conceituais do Cebraspe.',
@@ -75,10 +79,10 @@ export function montarSimuladoOffline(
   }
 
   // 2. Completa com itens da base de questões adaptativas priorizando fraquezas
-  const questoesPrioritarias = BASE_QUESTOES_ADAPTATIVAS.filter((q) =>
+  const questoesPrioritarias = baseNoEscopo.filter((q) =>
     modulosPrioritarios.has(q.macroModuloId.toLowerCase())
   );
-  const outrasQuestoes = BASE_QUESTOES_ADAPTATIVAS.filter(
+  const outrasQuestoes = baseNoEscopo.filter(
     (q) => !modulosPrioritarios.has(q.macroModuloId.toLowerCase())
   );
 

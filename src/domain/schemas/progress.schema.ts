@@ -6,11 +6,15 @@ export const RespostaItemSimuladoSchema = z.object({
   certeza: z.enum(['certeza', 'provavel', 'chute']).optional(),
   acertou: z.boolean().optional(),
   timestamp: z.number(),
+  versaoQuestao: z.string().optional(),
+  gabaritoNaResposta: z.enum(['C', 'E']).optional(),
 });
 
 export const SimuladoFinalizadoSchema = z.object({
   id: z.string(),
   simuladoId: z.string().optional(),
+  versaoConteudo: z.string().optional(),
+  itensSelecionados: z.array(z.string()).optional(),
   tituloSimulado: z.string().optional(),
   dataHora: z.string(),
   tempoGastoSegundos: z.number(),
@@ -31,6 +35,18 @@ export const SimuladoFinalizadoSchema = z.object({
 export const SessaoSimuladoStateSchema = z.object({
   simuladoId: z.string(),
   modoProva: z.boolean().optional(),
+  tentativaId: z.string().optional(),
+  versaoConteudo: z.string().optional(),
+  itensSelecionados: z.array(z.string()).optional(),
+  tentativasArquivadas: z.array(z.object({
+    id: z.string(),
+    arquivadaEm: z.number(),
+    versaoConteudo: z.string().optional(),
+  itensSelecionados: z.array(z.string()).optional(),
+    respostas: z.record(z.string(), RespostaItemSimuladoSchema),
+    tempoGastoSegundos: z.number(),
+    modoProva: z.boolean().optional(),
+  })).optional(),
   respostas: z.record(z.string(), RespostaItemSimuladoSchema).default({}),
   currentIndex: z.number().default(0),
   emAndamento: z.boolean().default(false),
