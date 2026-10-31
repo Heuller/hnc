@@ -8,9 +8,13 @@ export const AvisoNovaVersaoSW: React.FC = () => {
   const escritaAtiva = useNavigationStore(s => s.activeView === 'discursiva');
   const [dispensado, setDispensado] = useState(false);
 
+  // A trava vale apenas enquanto a pessoa está de fato na tela do simulado:
+  // cada resposta já é gravada localmente, então recarregar em outra tela não perde nada.
   const simuladoEmAndamento = useProgressStore(
     (s) => Boolean(s.sessaoAtivaSimulado?.emAndamento)
   );
+  const naTelaDoSimulado = useNavigationStore((s) => s.activeView === 'simulado');
+  const simuladoEmCurso = simuladoEmAndamento && naTelaDoSimulado;
 
   useEffect(() => {
     const handleUpdate = () => {
@@ -29,7 +33,7 @@ export const AvisoNovaVersaoSW: React.FC = () => {
   }
 
   const handleAtualizar = () => {
-    if (simuladoEmAndamento || escritaAtiva) return;
+    if (simuladoEmCurso || escritaAtiva) return;
     if (typeof window !== 'undefined') {
       window.location.reload();
     }
@@ -58,7 +62,7 @@ export const AvisoNovaVersaoSW: React.FC = () => {
       </div>
 
       <p className="-mt-1.5 pr-2 text-xs text-ink-2 leading-relaxed">
-        {simuladoEmAndamento || escritaAtiva ? (
+        {simuladoEmCurso || escritaAtiva ? (
           <span className="flex items-center gap-1.5 text-alerta-cebraspe">
             <ShieldAlert className="w-4 h-4 shrink-0" />
             <span>{escritaAtiva ? 'Atualização pausada enquanto você escreve. Saia da oficina após salvar o rascunho para atualizar.' : 'Atualização pausada para não interromper seu simulado em andamento.'}</span>
@@ -78,17 +82,17 @@ export const AvisoNovaVersaoSW: React.FC = () => {
         </button>
         <button
           type="button"
-          disabled={simuladoEmAndamento || escritaAtiva}
-          aria-disabled={simuladoEmAndamento || escritaAtiva}
+          disabled={simuladoEmCurso || escritaAtiva}
+          aria-disabled={simuladoEmCurso || escritaAtiva}
           onClick={handleAtualizar}
           data-testid="btn-atualizar-sw"
           className={`min-h-[44px] px-3.5 py-1.5 rounded-lg text-xs font-sans font-semibold transition-all ${
-            simuladoEmAndamento || escritaAtiva
+            simuladoEmCurso || escritaAtiva
               ? 'bg-surface-2 text-ink-2/50 border border-border cursor-not-allowed'
               : 'bg-accent text-surface hover:bg-accent/90 active:scale-95 shadow-xs'
           }`}
           title={
-            simuladoEmAndamento || escritaAtiva
+            simuladoEmCurso || escritaAtiva
               ? 'Conclua ou reinicie o simulado para atualizar'
               : 'Recarregar a plataforma com a nova versão'
           }
