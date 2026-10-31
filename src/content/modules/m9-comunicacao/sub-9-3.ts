@@ -54,7 +54,7 @@ export const submodulo93: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 1: Conceito de Curadoria Digital",
     "item": "A curadoria digital pode ser corretamente definida como o processo dinâmico que compreende a seleção, a preservação, a manutenção, a agregação de valor e o arquivamento de ativos digitais ao longo de seu ciclo de vida para viabilizar seu reúso futuro.",
     "gabarito": "C",
-    "justificativa": "Correto! Essa definição canônica do Digital Curation Centre (DCC) foi cobrada literalmente pelo Cebraspe em provas recentes (STJ 2024 e EMBRAPA 2025).",
+    "justificativa": "O DCC trata curadoria como gestão ativa de dados ao longo do ciclo de vida: selecionar, manter, preservar e agregar valor para apoiar uso e reúso. Ela não se resume a arquivar no fim do projeto e depende de decisões documentadas sobre contexto, direitos e conservação.",
     "fonte": "Digital Curation Centre — Curation Lifecycle Model — Ações sequenciais, de todo o ciclo e ocasionais.; Wilkinson et al. — FAIR Guiding Principles — Box 2: acesso controlado, metadados e reúso.; Lei 9.610/1998 — texto atualizado da Câmara — Arts. 7º–8º, 18, 24–29, 37, 41–48.; Decreto 10.882/2021 — Regulamentação do Tratado de Marraqueche.; STJ — interpretação das limitações autorais — Decisão com referência à interpretação do rol dos arts. 46–48 e direitos fundamentais; não é autorização universal.; Creative Commons — FAQ — ND 4.0, NC, SA e direitos que a licença não cobre.; Clarivate — JCR, Open Access — Itens citáveis indexados como artigos e revisões."
   },
   {

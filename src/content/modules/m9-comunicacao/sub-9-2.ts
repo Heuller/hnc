@@ -47,7 +47,7 @@ export const submodulo92: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 1: Os Princípios FAIR e a Abertura de Dados",
     "item": "Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser compulsoriamente aberto, gratuito e disponibilizado sem qualquer tipo de restrição de acesso ou necessidade de autenticação.",
     "gabarito": "E",
-    "justificativa": "Errado! O Cebraspe cobrou esse item na UNEAL 2026. Os princípios FAIR orientam que os dados sejam \"tão abertos quanto possível, tão fechados quanto necessário\", permitindo controle de acesso e autenticação para dados sigilosos ou sensíveis.",
+    "justificativa": "FAIR orienta encontrabilidade, acessibilidade, interoperabilidade e reúso. O princípio A1.2 admite autenticação e autorização quando necessárias, portanto acessível não significa irrestritamente aberto. FAIR também não define, sozinho, se um dado é científico.",
     "fonte": "BOAI10 — Dez anos depois da Budapest Open Access Initiative — Estratégias verde e dourada, custos e definição de acesso aberto.; Declaração de Berlim (2003) — Condições de permissão e depósito para contribuições abertas.; Wilkinson et al. — FAIR Guiding Principles (2016) — Box 2, especialmente A1.2, A2, I1–I3 e R1.; Bethesda Statement on Open Access Publishing (2003) — Duas condições de publicação aberta; não equivale a lei universal de financiamento.; Creative Commons — FAQ — Versões, NC, ND e compatibilidade de SA.",
     "versao_correta": "FAIR admite acesso controlado e não define, sozinho, a cientificidade do dado."
   },

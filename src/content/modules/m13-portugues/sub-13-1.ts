@@ -98,7 +98,8 @@ export const submodulo131: ModuloFilho = {
     "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)",
     "habilidade": "aplicar",
-    "versao_correta": "A qualidade do auxílio à pesquisa não foi avaliada no período descrito."
+    "versao_correta": "A qualidade do auxílio à pesquisa não foi avaliada no período descrito.",
+    "contexto": "A biblioteca estendeu o atendimento em duas noites por semana. Nos primeiros trinta dias, aumentou a presença de estudantes, mas não houve avaliação da qualidade do auxílio à pesquisa. A equipe propôs manter o projeto por mais um mês antes de decidir sobre sua expansão."
   },
   {
     "id": "rt-13-1-2",
@@ -108,7 +109,8 @@ export const submodulo131: ModuloFilho = {
     "justificativa": "A abertura atribui a posição a alguns gestores. Porém introduz a crítica, e a conclusão integra infraestrutura e mediação. Identificar a voz é essencial ao julgamento.",
     "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)",
-    "habilidade": "aplicar"
+    "habilidade": "aplicar",
+    "contexto": "Alguns gestores afirmam que disponibilizar arquivos basta para democratizar o acesso. Essa visão, porém, ignora barreiras de descrição e de acessibilidade. Um catálogo sem rótulos compreensíveis pode afastar leitores. A política de acesso deve, portanto, integrar infraestrutura e mediação."
   },
   {
     "id": "rt-13-1-3",

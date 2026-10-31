@@ -55,7 +55,7 @@ export const submodulo94: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 1: Associação das Leis Bibliométricas",
     "item": "A lei de Lotka estabelece que a distribuição de artigos científicos em periódicos organiza-se em um núcleo de revistas dedicadas e zonas sucessivas que crescem em progressão geométrica.",
     "gabarito": "E",
-    "justificativa": "Errado! Essa definição refere-se à LEI DE BRADFORD (dispersão de periódicos em zonas 1 : n : n²). A Lei de Lotka trata da produtividade de autores segundo a regra do quadrado inverso (An = A1 / n²).",
+    "justificativa": "A descrição de dispersão em núcleo e zonas corresponde a Bradford. Lotka estuda produtividade de autores; o quadrado inverso é uma formulação clássica aproximada, sem impor expoente exatamente dois a todo corpus empírico.",
     "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico.",
     "versao_correta": "A descrição corresponde à dispersão de Bradford, não à produtividade de Lotka."
   },
@@ -64,7 +64,7 @@ export const submodulo94: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 2: Aplicação do Índice h",
     "item": "O índice h, formulado por Jorge Hirsch, caracteriza-se por quantificar conjuntamente a produtividade e o impacto das publicações de um pesquisador, baseando-se no número de artigos que atingiram determinado patamar de citações.",
     "gabarito": "C",
-    "justificativa": "Correto! O índice h sintetiza volume de produção com relevância/citação acumulada (h artigos com pelo menos h citações cada).",
+    "justificativa": "Um pesquisador tem índice h quando possui h trabalhos com pelo menos h citações cada, sem alcançar o patamar seguinte. A medida combina quantidade de publicações e citações observadas na base escolhida; não mede diretamente qualidade, relevância ou contribuição individual.",
     "fonte": "Bradford, Lotka e Zipf — regularidades bibliométricas — Síntese didática das distribuições clássicas; regularidades empíricas, não garantias universais.; Hirsch — An index to quantify an individual’s scientific research output (2005) — Definição e limites do índice h.; Elsevier — What is CiteScore? — Quatro anos de citações e documentos elegíveis na mesma janela.; Clarivate — Journal Profile — Contribuições de tipos documentais ao numerador e itens citáveis.; Altmetric — Attention Score — Atenção pode ser positiva ou negativa; não mede qualidade.; Elsevier — PlumX Metrics — Cinco categorias e respectivas fontes.; CAPES — Qualis na Avaliação Quadrienal 2021–2024 — Lista restrita ao ciclo e descontinuidade para 2025–2028.; DORA — Declaration on Research Assessment — Não substituir avaliação de pesquisa e pesquisadores por métricas do periódico."
   },
   {

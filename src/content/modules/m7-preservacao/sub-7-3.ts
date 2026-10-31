@@ -53,7 +53,7 @@ export const submodulo73: ModuloFilho = {
   {
     "id": "cp-7-3-2",
     "pergunta": "Micro-Checkpoint 2: Materiais para Acondicionamento de Obras Raras",
-    "item": "No acondicionamento e proteção de fotografias e papéis históricos, o emprego de invólucros plásticos confeccionados em PVC (policloreto de vinila) é expressamente desaconselhado pelos conservadores em virtude da liberação contínua de gases ácidos e plastificantes químicos voláteis.",
+    "item": "No acondicionamento de fotografias e papéis históricos, invólucros de PVC são desaconselhados por riscos de instabilidade do polímero e de seus aditivos, que podem interagir com os materiais preservados.",
     "gabarito": "C",
     "justificativa": "PVC e seus aditivos podem produzir problemas de estabilidade e interação. Prefira invólucros adequados ao processo fotográfico ou suporte; não se presume compatibilidade universal de todo plástico de outro nome.",
     "fonte": "Cassares (2000), seções 6–10, especialmente avaliação individual antes da higienização; ICOM-CC, terminologia de conservação (2008); CCI, cuidados com objetos em papel."

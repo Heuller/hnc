@@ -138,7 +138,8 @@ export const submodulo132: ModuloFilho = {
     "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 2: Coesão, Coerência e Reescrita)",
     "habilidade": "aplicar",
-    "versao_correta": "O texto registra uma avaliação ainda necessária, sem fornecer resultado de reprovação."
+    "versao_correta": "O texto registra uma avaliação ainda necessária, sem fornecer resultado de reprovação.",
+    "contexto": "A equipe concluiu a descrição de parte do acervo. Embora o novo catálogo possa facilitar a localização dos documentos, a instituição ainda precisa avaliar sua acessibilidade. Por isso, a versão anterior continuará disponível durante a transição."
   }
 ],
   mnemonicos: {

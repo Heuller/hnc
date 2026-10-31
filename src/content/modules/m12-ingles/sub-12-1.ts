@@ -74,7 +74,8 @@ export const submodulo121: ModuloFilho = {
     "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
     "habilidade": "aplicar",
-    "versao_correta": "A equipe recomendou manter a extensão de terça-feira e coletar mais dados antes de ampliar o programa."
+    "versao_correta": "A equipe recomendou manter a extensão de terça-feira e coletar mais dados antes de ampliar o programa.",
+    "contexto": "The parliamentary library extended its opening hours during a six-week pilot. Attendance increased on Tuesdays, but the average number of visitors remained unchanged on other weekdays. Staff therefore recommended keeping the Tuesday extension and collecting more data before expanding the scheme. The report did not assess whether longer hours improved the quality of research assistance."
   },
   {
     "id": "rt-12-1-2",
@@ -85,7 +86,8 @@ export const submodulo121: ModuloFilho = {
     "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
     "habilidade": "aplicar",
-    "versao_correta": "O relatório não avaliou se o novo horário melhorou a qualidade do auxílio à pesquisa."
+    "versao_correta": "O relatório não avaliou se o novo horário melhorou a qualidade do auxílio à pesquisa.",
+    "contexto": "The parliamentary library extended its opening hours during a six-week pilot. Attendance increased on Tuesdays, but the average number of visitors remained unchanged on other weekdays. Staff therefore recommended keeping the Tuesday extension and collecting more data before expanding the scheme. The report did not assess whether longer hours improved the quality of research assistance."
   },
   {
     "id": "rt-12-1-3",
@@ -95,7 +97,8 @@ export const submodulo121: ModuloFilho = {
     "justificativa": "A segunda frase nega essa garantia, e a terceira acrescenta metadados, interfaces acessíveis e informações de reúso. A assertiva preserva a limitação sem dizer que digitalizar é inútil.",
     "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
-    "habilidade": "aplicar"
+    "habilidade": "aplicar",
+    "contexto": "Digital collections can broaden access to historical records. However, putting scanned files online does not ensure that users will find or understand them. Descriptive metadata, accessible interfaces and clear information about reuse are also needed. A small institution may begin with a limited collection and improve its service through feedback rather than wait until every record has been digitised."
   },
   {
     "id": "rt-12-1-4",
@@ -105,7 +108,8 @@ export const submodulo121: ModuloFilho = {
     "justificativa": "A primeira frase apresenta a possibilidade de ampliar acesso; a seguinte limita a suficiência de disponibilizar arquivos. Há contraste entre potencial benefício e condições para realizá-lo, não negação de todo benefício.",
     "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
-    "habilidade": "aplicar"
+    "habilidade": "aplicar",
+    "contexto": "Digital collections can broaden access to historical records. However, putting scanned files online does not ensure that users will find or understand them. Descriptive metadata, accessible interfaces and clear information about reuse are also needed. A small institution may begin with a limited collection and improve its service through feedback rather than wait until every record has been digitised."
   },
   {
     "id": "rt-12-1-5",
@@ -116,7 +120,8 @@ export const submodulo121: ModuloFilho = {
     "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
     "habilidade": "aplicar",
-    "versao_correta": "A fotografia depende da condição do material e das restrições autorais; o prazo de pedido não dispensa essas condições."
+    "versao_correta": "A fotografia depende da condição do material e das restrições autorais; o prazo de pedido não dispensa essas condições.",
+    "contexto": "Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection."
   },
   {
     "id": "rt-12-1-6",
@@ -126,7 +131,8 @@ export const submodulo121: ModuloFilho = {
     "justificativa": "At least fixa um mínimo; working days restringe o tipo de dia. Traduzir como exatamente dois dias ou como dois dias corridos mudaria a condição.",
     "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
-    "habilidade": "aplicar"
+    "habilidade": "aplicar",
+    "contexto": "Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection."
   },
   {
     "id": "rt-12-1-7",
@@ -137,7 +143,8 @@ export const submodulo121: ModuloFilho = {
     "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
     "habilidade": "aplicar",
-    "versao_correta": "Uma restrição deve ser comparada ao texto; a palavra only não determina, por si, o julgamento."
+    "versao_correta": "Uma restrição deve ser comparada ao texto; a palavra only não determina, por si, o julgamento.",
+    "contexto": "Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection."
   }
 ],
   mnemonicos: {

@@ -77,7 +77,7 @@ export const submodulo111: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 1: Desconcentração vs. Descentralização Administrativa",
     "item": "A criação de um novo departamento especializado em curadoria digital de documentos parlamentares dentro da estrutura do Centro de Documentação e Informação (Cedi) da Câmara dos Deputados consubstancia hipótese de descentralização por serviços, uma vez que confere nova titularidade ao órgão criado.",
     "gabarito": "E",
-    "justificativa": "Errado! Trata-se de hipótese típica de DESCONCENTRAÇÃO administrativa (criação interna de órgãos dentro da mesma pessoa jurídica, a União Federal, sem outorga de personalidade jurídica própria nem de nova titularidade). A descentralização exigiria a transferência da competência a uma pessoa jurídica autônoma.",
+    "justificativa": "O novo departamento continua dentro da União e não recebe personalidade jurídica própria: há desconcentração. Na descentralização, a atividade é atribuída a sujeito distinto, nas condições do regime aplicável; a pessoa destinatária pode inclusive já existir. Criar um órgão não transfere titularidade a uma nova entidade.",
     "fonte": "Constituição Federal, arts. 2º e 37, caput, XIX, XX e § 1º; Decreto-Lei 200/1967, arts. 4º e 5º; Lei 13.303/2016, arts. 3º e 4º.",
     "versao_correta": "A distribuição de competências entre órgãos da mesma pessoa jurídica configura desconcentração, sem atribuição de personalidade própria ao departamento."
   },

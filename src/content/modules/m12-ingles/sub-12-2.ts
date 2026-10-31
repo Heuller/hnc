@@ -99,7 +99,8 @@ export const submodulo122: ModuloFilho = {
     "justificativa": "A oração explica para que o serviço foi mantido, dentro do plano de transição. Ela não afirma que usuários deveriam interromper sua pesquisa.",
     "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 2: Morfossintaxe e Coesão Textual)",
-    "habilidade": "aplicar"
+    "habilidade": "aplicar",
+    "contexto": "The library planned to replace its catalogue in July. However, the migration required additional testing. The team therefore postponed the launch. Moreover, it kept the old catalogue available so that users could continue their research. Although the change was delayed, the staff did not abandon the project."
   }
 ],
   mnemonicos: {

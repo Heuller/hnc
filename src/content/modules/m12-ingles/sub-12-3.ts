@@ -99,7 +99,8 @@ export const submodulo123: ModuloFilho = {
     "justificativa": "O par foi estabelecido na primeira frase e retomado pelas expressões former e latter. Both conserva os dois elementos na decisão de retenção.",
     "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)",
-    "habilidade": "aplicar"
+    "habilidade": "aplicar",
+    "contexto": "The library compared printed manuals and digital guides. The former were easier to consult during a power outage; the latter could be updated more quickly. Both were retained. Some readers preferred the manuals, while others chose the guides. The team did not replace one format with the other."
   }
 ],
   mnemonicos: {

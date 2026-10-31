@@ -1,0 +1,438 @@
+[
+  {
+    "id": "chk-12-1-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Scanning localiza dados; skimming constrói visão panorâmica.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "40ade2c40b9077ce136e0caa92f6ab7a9bb8cb70a15533796b23c064654e7188",
+    "shaDepois": "40ade2c40b9077ce136e0caa92f6ab7a9bb8cb70a15533796b23c064654e7188",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-1-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Modelo compensatório admite contexto sem garantir compreensão automática.",
+    "referencia": "Stanovich (1980), Toward an Interactive-Compensatory Model of Individual Differences in the Development of Reading Fluency.",
+    "shaAntes": "efdd79d4578c46cf205889ee9898c142faad5a96cf3edeefbdf1489e292689af",
+    "shaDepois": "efdd79d4578c46cf205889ee9898c142faad5a96cf3edeefbdf1489e292689af",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-1-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Compreensão exige apoio textual explícito ou inferencial conforme comando.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "3f6993b8825e11bdac03bf17b6a5325a305010181956660f8261a310fd14a134",
+    "shaDepois": "3f6993b8825e11bdac03bf17b6a5325a305010181956660f8261a310fd14a134",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-1-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Piloto só ampliou público na terça; vincular texto integral ao item.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "5de605f181065627faa9d13717e7b84be292719a32ab16d8ced729e45236f244",
+    "shaDepois": "2ba3682a839a0dfb239291895e6c535b06fa4c1b79985614036298a1bf4639a9",
+    "patch": {
+      "contexto": "The parliamentary library extended its opening hours during a six-week pilot. Attendance increased on Tuesdays, but the average number of visitors remained unchanged on other weekdays. Staff therefore recommended keeping the Tuesday extension and collecting more data before expanding the scheme. The report did not assess whether longer hours improved the quality of research assistance."
+    }
+  },
+  {
+    "id": "rt-12-1-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Qualidade não avaliada não é melhora comprovada; incluir contexto.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "2b27f08dd5f5a7acce3c3e59181b4f77818ea9d7c6574d80dcff11b9879f4c3f",
+    "shaDepois": "86f4334e53c3f97b74701b77b28d1ed39df39e62b917a5c5d4321b3e2c6d5b80",
+    "patch": {
+      "contexto": "The parliamentary library extended its opening hours during a six-week pilot. Attendance increased on Tuesdays, but the average number of visitors remained unchanged on other weekdays. Staff therefore recommended keeping the Tuesday extension and collecting more data before expanding the scheme. The report did not assess whether longer hours improved the quality of research assistance."
+    }
+  },
+  {
+    "id": "rt-12-1-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Digitalização isolada insuficiente; fornecer texto de coleções digitais.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "218cdec8c7e4df770a408ff5a16176dfd53817fc2f15bfb92f7e00a30538a765",
+    "shaDepois": "0f778bb742fbcf9fe166f3b0ca14e34f6397cb310468301ebca7ef3502993abf",
+    "patch": {
+      "contexto": "Digital collections can broaden access to historical records. However, putting scanned files online does not ensure that users will find or understand them. Descriptive metadata, accessible interfaces and clear information about reuse are also needed. A small institution may begin with a limited collection and improve its service through feedback rather than wait until every record has been digitised."
+    }
+  },
+  {
+    "id": "rt-12-1-4",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "However ressalva benefício sem negá-lo; incluir parágrafo referido.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "ea579eae065e0d072ebd66427ab0254ef8f666dfb08a4ac47a8e384c3c59e33a",
+    "shaDepois": "db0eadeb4ee3d3c8891324b122510a6d1753c8f9ebabb368a63160534956c1aa",
+    "patch": {
+      "contexto": "Digital collections can broaden access to historical records. However, putting scanned files online does not ensure that users will find or understand them. Descriptive metadata, accessible interfaces and clear information about reuse are also needed. A small institution may begin with a limited collection and improve its service through feedback rather than wait until every record has been digitised."
+    }
+  },
+  {
+    "id": "rt-12-1-5",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Prazo de pedido não dispensa restrições fotográficas; fornecer regulamento.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "a5698dc743bb8e3c44e344caded05073972da27898f81b34fe677e0c468daa88",
+    "shaDepois": "517c364281a36865914cca76ca57931829e11de2529a0a8fbb12ac24d3c45ba2",
+    "patch": {
+      "contexto": "Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection."
+    }
+  },
+  {
+    "id": "rt-12-1-6",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "At least fixa mínimo e working days restringe dias; incluir regulamento.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "fa61a7e0dc61e0069373ac9f849c46b5d1e377b53ae845eb3e358cc8c68684a3",
+    "shaDepois": "6fbefd23f92807bddd03db587cbd3be86b18dd6f05263e3d4df4bca33b9012a2",
+    "patch": {
+      "contexto": "Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection."
+    }
+  },
+  {
+    "id": "rt-12-1-7",
+    "caminho": "src/content/modules/m12-ingles/sub-12-1.ts",
+    "modulo": "m12",
+    "submodulo": "12.1",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Only não determina gabarito sem confronto com texto; incluir regulamento.",
+    "referencia": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "shaAntes": "e55822c2588bf816729fbfaa2ab77cd5bf2e117b86eadfe3e0001f41b927303b",
+    "shaDepois": "654207908c0bcc99ea9eac6b75e65bcf00e8c70bb8afda1492d807759c5c4877",
+    "patch": {
+      "contexto": "Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection."
+    }
+  },
+  {
+    "id": "chk-12-2-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-2.ts",
+    "modulo": "m12",
+    "submodulo": "12.2",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "However e Therefore diferem em contraste e conclusão.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "3dd7046e2bfb74d91d4ab6280d6fb2b363953c1438949c275a23feeed1404ae2",
+    "shaDepois": "3dd7046e2bfb74d91d4ab6280d6fb2b363953c1438949c275a23feeed1404ae2",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-2-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-2.ts",
+    "modulo": "m12",
+    "submodulo": "12.2",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Despite não recebe diretamente a oração finita apresentada.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "2c1324faab817d7d6c5922759ce6b60907b254552b86fea86a54008eaf481e2a",
+    "shaDepois": "2c1324faab817d7d6c5922759ce6b60907b254552b86fea86a54008eaf481e2a",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-2-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-2.ts",
+    "modulo": "m12",
+    "submodulo": "12.2",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Moreover e Furthermore preservam adição no contexto fornecido.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "b69a3711dc307371062b6167b72149d5677b8fa51f80bf06f023ead1f1f5bb06",
+    "shaDepois": "b69a3711dc307371062b6167b72149d5677b8fa51f80bf06f023ead1f1f5bb06",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-2-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-2.ts",
+    "modulo": "m12",
+    "submodulo": "12.2",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Although e Despite exigem construções sintáticas diferentes.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "a323c3dc2ff21acd2b398491ae47936874dc4f0b5ad43496b4324d75c0f56e51",
+    "shaDepois": "a323c3dc2ff21acd2b398491ae47936874dc4f0b5ad43496b4324d75c0f56e51",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-2-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-2.ts",
+    "modulo": "m12",
+    "submodulo": "12.2",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Since admite leitura causal no exemplo.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "76f8f2349bd6088094120835e8df5670e033fffc73a14fc7e5823db0689b2055",
+    "shaDepois": "76f8f2349bd6088094120835e8df5670e033fffc73a14fc7e5823db0689b2055",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-2-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-2.ts",
+    "modulo": "m12",
+    "submodulo": "12.2",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Condição suficiente não estabelece exclusividade inversa de acesso.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "623fd3a34b0c5d1e6608cd8c8e9415badf2d906fa72868418db599fd94f8bdb4",
+    "shaDepois": "623fd3a34b0c5d1e6608cd8c8e9415badf2d906fa72868418db599fd94f8bdb4",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-2-4",
+    "caminho": "src/content/modules/m12-ingles/sub-12-2.ts",
+    "modulo": "m12",
+    "submodulo": "12.2",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "So that apresenta finalidade; incluir parágrafo do catálogo.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "3841865fb1961bb9af19af41005fca7dadf44ffae7f0fa63e19374ffb8f9dae9",
+    "shaDepois": "0474a0a1d0261de6e15335ef5309f4bd4a5247259b2c2b4b67db5d4ed3da3c07",
+    "patch": {
+      "contexto": "The library planned to replace its catalogue in July. However, the migration required additional testing. The team therefore postponed the launch. Moreover, it kept the old catalogue available so that users could continue their research. Although the change was delayed, the staff did not abandon the project."
+    }
+  },
+  {
+    "id": "chk-12-3-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-3.ts",
+    "modulo": "m12",
+    "submodulo": "12.3",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Which retoma acontecimento da renúncia, não apenas a pessoa.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "cb6836bbf46a6eba08e6314145a8a09c629720a602afc45743e42c2b1d681e79",
+    "shaDepois": "cb6836bbf46a6eba08e6314145a8a09c629720a602afc45743e42c2b1d681e79",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-3-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-3.ts",
+    "modulo": "m12",
+    "submodulo": "12.3",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Latter retoma segundo elemento, electronic journals.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "181cad12f0e9f267ecccb277d9859a69ecd882e5f5f6b5c6c4b4c799c59fbd40",
+    "shaDepois": "181cad12f0e9f267ecccb277d9859a69ecd882e5f5f6b5c6c4b4c799c59fbd40",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-3-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-3.ts",
+    "modulo": "m12",
+    "submodulo": "12.3",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Whose estabelece pertença entre pesquisador e trabalho.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "ff5d9def04c07e445c5f9156b7d2493fbf52dde25ebd8266497d1d2b5be8a180",
+    "shaDepois": "ff5d9def04c07e445c5f9156b7d2493fbf52dde25ebd8266497d1d2b5be8a180",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-3-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-3.ts",
+    "modulo": "m12",
+    "submodulo": "12.3",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "It favorece donation por compatibilidade semântica, sem algoritmo de proximidade.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "bd3ad6bd6cb9d23b97c9342add3198b2e6c9bf728af42f7163c211c83f6995c1",
+    "shaDepois": "bd3ad6bd6cb9d23b97c9342add3198b2e6c9bf728af42f7163c211c83f6995c1",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-3-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-3.ts",
+    "modulo": "m12",
+    "submodulo": "12.3",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Whose pode ter antecedente institucional não humano.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "4df2b617cd65486e56fedf6f00b4a13b4e7f346280c7f4cb7c0d57ae5724663b",
+    "shaDepois": "4df2b617cd65486e56fedf6f00b4a13b4e7f346280c7f4cb7c0d57ae5724663b",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-3-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-3.ts",
+    "modulo": "m12",
+    "submodulo": "12.3",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Vírgula com which não obriga referência à oração inteira.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "420a391e7b99fd622bbf700b507241ece53800a2690c7c72cfc84626ce8a9254",
+    "shaDepois": "420a391e7b99fd622bbf700b507241ece53800a2690c7c72cfc84626ce8a9254",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-3-4",
+    "caminho": "src/content/modules/m12-ingles/sub-12-3.ts",
+    "modulo": "m12",
+    "submodulo": "12.3",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Both retoma manuais e guias; fornecer parágrafo para resolver referência.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "66e56347864fee22ac46cf1ecaf9242ad21b4020097282c388865414603e580c",
+    "shaDepois": "5bd2b8e38190353fff3207ccde9dd25b17c3c51e79ccb945421a76f5662fa50e",
+    "patch": {
+      "contexto": "The library compared printed manuals and digital guides. The former were easier to consult during a power outage; the latter could be updated more quickly. Both were retained. Some readers preferred the manuals, while others chose the guides. The team did not replace one format with the other."
+    }
+  },
+  {
+    "id": "chk-12-4-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Actually indica de fato, não atualmente.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "28b63850c176b38f6df5fab9a48bb35f4bb73d692b2d0b3456a8eecce5b9d028",
+    "shaDepois": "28b63850c176b38f6df5fab9a48bb35f4bb73d692b2d0b3456a8eecce5b9d028",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-4-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "May reduce não implica certeza nem extinção integral de custos.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "670f6c7fa78eff26166461937cde2d140d93cde77b6559bfc0631c41706dbf41",
+    "shaDepois": "670f6c7fa78eff26166461937cde2d140d93cde77b6559bfc0631c41706dbf41",
+    "patch": {}
+  },
+  {
+    "id": "chk-12-4-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Comprehensive indica abrangência, não empatia.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "28de5a463761d99ef47895be44a4de54e400d065ad116c22555f6b33b32f3489",
+    "shaDepois": "28de5a463761d99ef47895be44a4de54e400d065ad116c22555f6b33b32f3489",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-4-1",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Comprehensive e conclusive têm sentidos distintos no contraste.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "087a940676a41de92bdf7af39e489e0c7421970de8212f629f34201d88ae92b8",
+    "shaDepois": "087a940676a41de92bdf7af39e489e0c7421970de8212f629f34201d88ae92b8",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-4-2",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Eventually indica desfecho, não frequência ocasional.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "b7eb30efd3d708f00405d0cdd6768d9f9293d447ceda278603bd5448c5e0f4a8",
+    "shaDepois": "b7eb30efd3d708f00405d0cdd6768d9f9293d447ceda278603bd5448c5e0f4a8",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-4-3",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Must pode expressar dedução, não obrigação no exemplo.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "ff97bfb36df50d53150e90d2edc366ebc622fefd6ade05b347cdafe92cfc883b",
+    "shaDepois": "ff97bfb36df50d53150e90d2edc366ebc622fefd6ade05b347cdafe92cfc883b",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-4-4",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Must not proíbe; do not have to dispensa obrigação.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "7056dc4e93aa05aa403a1c8827c60c3b30b31057f8160049ebd71dc97369399a",
+    "shaDepois": "7056dc4e93aa05aa403a1c8827c60c3b30b31057f8160049ebd71dc97369399a",
+    "patch": {}
+  },
+  {
+    "id": "rt-12-4-5",
+    "caminho": "src/content/modules/m12-ingles/sub-12-4.ts",
+    "modulo": "m12",
+    "submodulo": "12.4",
+    "data": "2026-10-31",
+    "status": "revisado",
+    "decisao": "Piloto não generaliza todas as instituições; incluir texto da plataforma.",
+    "referencia": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "shaAntes": "b2db990477ddb33652763ad5e14eb4fca246075988e926cb3424ace052217548",
+    "shaDepois": "b05fdecd4e4d81f4724fb027a285424971e72875dd464f4efe65363a3e8f1b8b",
+    "patch": {
+      "contexto": "The revised platform may help small libraries describe their collections more consistently. It does not remove the need for professional judgment. Although the pilot covered several types of material, its results cannot yet be generalised to every institution. The team intends to test the tool again before recommending wider adoption."
+    }
+  }
+]

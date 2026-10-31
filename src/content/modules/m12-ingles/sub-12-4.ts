@@ -109,7 +109,8 @@ export const submodulo124: ModuloFilho = {
     "justificativa": "Although admite a variedade, mas a oração principal limita a generalização. A assertiva preserva essa relação concessiva e o escopo do resultado.",
     "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
     "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 3: Reescrita e Paráfrase Semântica)",
-    "habilidade": "aplicar"
+    "habilidade": "aplicar",
+    "contexto": "The revised platform may help small libraries describe their collections more consistently. It does not remove the need for professional judgment. Although the pilot covered several types of material, its results cannot yet be generalised to every institution. The team intends to test the tool again before recommending wider adoption."
   }
 ],
   mnemonicos: {

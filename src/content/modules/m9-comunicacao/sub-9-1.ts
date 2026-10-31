@@ -45,7 +45,7 @@ export const submodulo91: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 1: Os Colégios Invisíveis de Solla Price",
     "item": "No âmbito da comunicação científica, a teoria dos colégios invisíveis descreve redes de trabalho científico compostas por pesquisadores que se isolam institucionalmente e que não se comunicam entre si.",
     "gabarito": "E",
-    "justificativa": "Errado! Técnica de distrator com inversão conceitual (SUFRAMA). Os colégios invisíveis são exatamente o OPOSTO: redes intensas e ágeis de comunicação informal direta e compartilhamento entre cientistas.",
+    "justificativa": "Colégios invisíveis são redes informais de comunicação e cooperação entre pesquisadores com interesses comuns. A ausência de estrutura institucional própria não significa isolamento ou ausência de troca; o item inverte a característica central.",
     "fonte": "UNESCO — Recommendation on Open Science (2021) — Comunicação, transparência e abertura; não pressupõe que toda pesquisa seja livre de restrições.; COPE — Ethical guidelines for peer reviewers — Responsabilidades, conflitos e confidencialidade na revisão.; SciELO Preprints — Políticas e identificação das versões disponibilizadas.",
     "versao_correta": "Colégios invisíveis envolvem comunicação e cooperação informal entre pesquisadores."
   },
@@ -62,7 +62,7 @@ export const submodulo91: ModuloFilho = {
     "pergunta": "Micro-Checkpoint 3: Canais Formais vs Informais de Garvey-Griffith",
     "item": "No modelo de comunicação científica de Garvey e Griffith, os artigos publicados em periódicos científicos indexados com revisão por pares enquadram-se na categoria de canais informais de comunicação.",
     "gabarito": "E",
-    "justificativa": "Errado! Artigos em periódicos científicos com peer review são o exemplo canônico e central de canal FORMAL (público, arquivável e validado pela comunidade). Canais informais englobam cartas, e-mails, pré-prints e conversas orais em congressos.",
+    "justificativa": "No modelo clássico de Garvey e Griffith, artigos publicados em periódicos são canais formais, com registro público e controle bibliográfico. Conversas, cartas e trocas pessoais exemplificam comunicação informal. O caráter formal não exige acesso gratuito nem garante a verdade dos resultados.",
     "fonte": "UNESCO — Recommendation on Open Science (2021) — Comunicação, transparência e abertura; não pressupõe que toda pesquisa seja livre de restrições.; COPE — Ethical guidelines for peer reviewers — Responsabilidades, conflitos e confidencialidade na revisão.; SciELO Preprints — Políticas e identificação das versões disponibilizadas.",
     "versao_correta": "Artigos publicados em periódicos arbitrados são exemplos de comunicação formal."
   },

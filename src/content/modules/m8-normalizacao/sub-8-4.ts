@@ -61,9 +61,9 @@ export const submodulo84: ModuloFilho = {
   {
     "id": "cp-8-4-3",
     "pergunta": "Micro-Checkpoint 3: Estrutura do Identificador de Objeto Digital (DOI)",
-    "item": "Um número DOI (Digital Object Identifier) é composto por duas partes separadas por uma barra oblíqua: o prefixo, que identifica a autoridade nomeadora, e o sufixo, que identifica o objeto específico.",
+    "item": "Um DOI (Digital Object Identifier) possui prefixo e sufixo separados por barra: o prefixo é atribuído a um registrante no sistema, e o sufixo, definido sob sua responsabilidade, identifica o objeto no âmbito desse prefixo.",
     "gabarito": "C",
-    "justificativa": "A estrutura prefixo/sufixo distingue o registrante e o nome específico no sistema. Não se conclui do sufixo, sozinho, conteúdo, qualidade ou acesso.",
+    "justificativa": "O nome DOI completo combina prefixo e sufixo. O prefixo identifica o registrante, que pode ter mais de um prefixo; o sufixo não precisa carregar informação legível sobre o conteúdo. Identificação e resolução não certificam qualidade, verdade ou acesso aberto.",
     "fonte": "ABNT NBR 6028:2021, seções 2–4; NBR 6027:2012; NBR 6022:2018, seções 4–5; DOI Foundation, What is a DOI?; exemplos autorais."
   },
   {
