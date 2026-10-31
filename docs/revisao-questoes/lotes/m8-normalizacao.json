@@ -1,0 +1,2734 @@
+[
+  {
+    "id": "m8-q-1",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "citação indireta e sistema autor-data",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "e1e7c91b28fa59bf8feab0176803d2d6da3ed26a35ec50c40dd0243ab61ea77c",
+    "shaDepois": "1121a3754bab4dcd946f524fb8c02e0363c5d14d6f57cfc7dc6defb55057968a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No sistema autor-data da NBR 10520:2023, a citação indireta apresenta ideias da fonte com redação própria e identificação de responsabilidade e data; a indicação de página ou localização é opcional.",
+      "justificativa": "CERTO. Paráfrase apresenta ideias com redação própria sem retirar o dever de identificar a fonte. No sistema autor-data, responsabilidade e data integram a chamada; página ou localização é opcional na indireta. Isso não vale como exigência de autor e ano em qualquer sistema, pois existe chamada numérica.",
+      "gatilho": "sistema autor-data",
+      "armadilhaBanca": "Distinguir redação própria e reconhecimento da fonte.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — citação indireta e sistema autor-data. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma paráfrase no sistema autor-data dispensa a indicação da fonte porque o texto foi reescrito.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-2",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "documentos online: endereço e data de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4046df9aa53ecddaaec3825f2de5cf5952227343576c5d3d536afd0353d978b4",
+    "shaDepois": "2a8f9354a69fab9a6e377ea0f78fed2dd3d0c2b791a969267c14515e3fbffa9b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "item": "Na NBR 6023:2025, o endereço eletrônico de uma referência online deve obrigatoriamente ser delimitado por sinais angulares, como em Disponível em: <https://exemplo.org>.",
+      "justificativa": "ERRADO. A edição 2025 exige endereço precedido de Disponível em: e data precedida de Acesso em:, nos casos pertinentes. Não exige envolver a URL com sinais angulares, prática de edição antiga. Uma exigência histórica não deve ser transferida sem conferência à edição vigente.",
+      "gatilho": "obrigatoriamente",
+      "armadilhaBanca": "Transportar regra de edição antiga para a atual.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — documentos online: endereço e data de acesso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na NBR 6023:2025, endereço e data de acesso são registrados conforme a regra para documentos online, sem obrigatoriedade dos sinais angulares na URL.",
+      "versao_errada": "",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-3",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "escopo: elaboração de referências",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0c0f00d572b421b4f734b1f5aeaaa7dfe9bbe8f239b7cb4a2b34662506de8d46",
+    "shaDepois": "a12616f05f63da04614bd55ae665ed5862240c106cca6df385ddd90b52a424b9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. NBR 6023 trata de referências; NBR 6028 trata de resumo, resenha e recensão. As referências identificam documentos e permitem localizá-los; o resumo sintetiza conteúdo. O número da norma precisa ser associado à função, sem confundir produtos relacionados.",
+      "gatilho": "resumos",
+      "armadilhaBanca": "Trocar normas próximas na organização do trabalho.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — escopo: elaboração de referências. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "NBR 6023 disciplina referências; NBR 6028 disciplina resumos, resenhas e recensões.",
+      "item": "A ABNT NBR 6023 refere-se a procedimentos de resumos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1813",
+        "declaracaoLegada": "Cebraspe / 2017 / 2017 (Adaptada); identificador legado: cespe-cad-1813"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-4",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "definições: monografia e publicação periódica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "089dc0641737bf042c5f27bd5e59742a17442bfae7ffb6123eaaf4e081bc59b5",
+    "shaDepois": "bb3758ebd63ad30abc13311f62e2998a3c8c591e5d755dd491fe76d41937b33b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 6023:2025, monografia é uma publicação destinada a ser continuada indefinidamente em unidades sucessivas com designações numéricas ou cronológicas.",
+      "justificativa": "ERRADO. Monografia é publicação completa ou prevista para se completar em um número determinado de partes. Continuação indefinida com designações sucessivas caracteriza outra categoria, como publicação periódica. Ter vários volumes não torna, sozinho, um documento periódico.",
+      "gatilho": "indefinidamente",
+      "armadilhaBanca": "Confundir múltiplas partes finitas e continuidade indefinida.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — definições: monografia e publicação periódica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Monografia pode ser completa em uma parte ou ter um conjunto finito de partes previsto.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "CAPES",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-2711393",
+        "declaracaoLegada": "Cebraspe / CAPES / 2012 (Adaptada); identificador legado: TecConcursos-2711393"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-5",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "6.1.8: chamadas de autores diferentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "c79fb32ace39c1a858548442271e9482f85ce11f032a23a15dd8c7a70cff4ddb",
+    "shaDepois": "6885a05fc78e1c300dcf2abd253147e08f920425ecdd75d7e7cb2b7b505b6e06",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Em chamadas de citações indiretas de documentos de vários autores, mencionadas simultaneamente entre parênteses, a NBR 10520:2023 prevê separação por ponto e vírgula e recomenda ordem alfabética, como (Almeida, 2020; Castro, 2022; Silva, 2024).",
+      "justificativa": "CERTO. Para citações indiretas de vários documentos de autores diferentes dentro dos mesmos parênteses, a separação é por ponto e vírgula. A ordem alfabética é recomendada. Não confundir essa situação com datas de documentos da mesma autoria, separadas por vírgula e ordenadas cronologicamente.",
+      "gatilho": "ponto e vírgula",
+      "armadilhaBanca": "Distinguir autores diferentes e anos da mesma autoria.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.8: chamadas de autores diferentes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Documentos de autores diferentes em uma mesma chamada parentética devem ser separados apenas por vírgulas, sem ponto e vírgula.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-6",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "escopo e transcrição dos elementos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3f004e0a781abe74290ff2b2475de132e0236a370517d65586c04107d976e5ae",
+    "shaDepois": "a1425eb2b1ec633616b810cc511dff7843375d382e61f2240d18f3306fe78752",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6023:2025 estabelece elementos das referências, sua ordem e convenções de transcrição e apresentação da informação proveniente do documento referenciado.",
+      "justificativa": "CERTO. A norma estabelece elementos, ordem e convenções para referências. Isso não a transforma em código de catalogação completo nem em norma de redação de todo trabalho acadêmico. Tipo documental e suporte influenciam os elementos que devem ser identificados.",
+      "gatilho": "ordem",
+      "armadilhaBanca": "Distinguir elaboração de referências e catalogação.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — escopo e transcrição dos elementos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A NBR 6023 é um código completo de catalogação que substitui todas as regras de descrição bibliográfica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1819",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1819"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-7",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "referência de artigo de periódico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3aaccff37778c3c53c0c0693ec9ffd9f7ea0e9a3c51235c2ff195d9169875a75",
+    "shaDepois": "c95d9e4da9a18cf53202055002d8747cef46ddcb80f8b31ad6f8578e04cabda2",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na referência de um artigo de periódico, o nome da editora deve ocupar o lugar do título do periódico, pois ambos identificam necessariamente o mesmo elemento documental.",
+      "justificativa": "ERRADO. Uma referência de artigo identifica o artigo e seu periódico, com elementos como autoria, título, volume, número, páginas ou identificador e data, conforme o caso. A editora não substitui o título do periódico. O leitor precisa distinguir o conteúdo individual do veículo que o publicou.",
+      "gatilho": "editora",
+      "armadilhaBanca": "Trocar entidade editora e título da publicação periódica.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — referência de artigo de periódico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na referência de artigo, título do artigo e título do periódico identificam níveis distintos do documento.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "MPU/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1911",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1911"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-8",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "6.1.1.1: pessoa física",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "a53013981973baab0c37b1e935e134e1035345026d3db9bb2298519aab6580ad",
+    "shaDepois": "4d906018de339f4785f261020bd5bdc4084947ef483b2a4234b9c5d065a2edf7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A edição 2023 indica sobrenome com letras maiúsculas e minúsculas, inclusive em chamada parentética. Assim, (Silva, 2024) é o padrão pertinente. A forma em caixa alta da entrada em uma referência não deve ser transferida para a chamada da citação.",
+      "gatilho": "maiúsculas integrais",
+      "armadilhaBanca": "Confundir apresentação da chamada e da entrada na referência.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.1.1: pessoa física. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na chamada parentética de autoria pessoal, usa-se sobrenome em maiúsculas e minúsculas, como (Silva, 2024).",
+      "item": "De acordo com a ABNT NBR 10520:2023, quando a chamada de citação de autoria pessoal estiver entre parênteses ao final da frase, o sobrenome do autor deve figurar em letras maiúsculas integrais (caixa alta), a exemplo de \"(SILVA, 2024)\".",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-9",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "citação de citação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "448da7e256403a4285660b16a299f1550f6eb9557baaacae98abc2c8f7fd3e2b",
+    "shaDepois": "39af5cbeedab839cae2089d8ab110a72abe28d27f07e435d9a5d3e4049953515",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Apud sinaliza que se chegou a uma fonte por intermédio de outra. Não demonstra que o documento original foi consultado nem estabelece preferência por evitar sua leitura. É preciso identificar adequadamente o intermediário e não apresentar a informação como verificada diretamente na origem.",
+      "gatilho": "dispensando",
+      "armadilhaBanca": "Confundir acesso indireto e leitura da fonte primária.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — citação de citação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Apud identifica mediação por outra fonte e não equivale a consulta direta ao documento original.",
+      "item": "A citação de citação, expressa pela locução latina 'apud' (citado por), deve ser utilizada como regra geral preferencial em trabalhos acadêmicos e pareceres, dispensando o pesquisador de buscar o documento original.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-10",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "6.9: casos omissos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "97338eedea560541832dc755618518e4d2914a0d845300a3344ae6e2cdf0a636",
+    "shaDepois": "90000d0d61ac7bd832e26d33350240d87eece47da4e3c22e71dc404555766653",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6023:2025 prevê que casos omissos sejam resolvidos utilizando o código de catalogação vigente.",
+      "justificativa": "CERTO. A norma prevê recorrer ao código de catalogação vigente para casos omissos. Isso não torna todas as regras de referências idênticas às regras do catálogo, nem exige interpretar uma menção histórica ao AACR como exclusividade imutável. Primeiro se aplica a regra pertinente da própria norma.",
+      "gatilho": "código de catalogação vigente",
+      "armadilhaBanca": "Distinguir regra de referência e apoio para resolver omissões.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 6.9: casos omissos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Em casos omissos, a NBR 6023 proíbe consultar códigos de catalogação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "CAPES",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-2711394",
+        "declaracaoLegada": "Cebraspe / CAPES / 2012 (Adaptada); identificador legado: TecConcursos-2711394"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-11",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "sistemas de chamada e consistência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "b9d30636a9c25909b88cebf8b561ae52e71d2b650b7ca8f45a13be3413d74515",
+    "shaDepois": "2ecea0cf91af88bc704d985a85279c1a544fb68583e2e48daa766a5ef89ae193",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O sistema escolhido precisa ser mantido de forma consistente, permitindo remissão à referência. Alternar aleatoriamente números e autor-data no mesmo texto não é uma faculdade geral da norma. Diferentes elementos de um trabalho não devem ser confundidos com liberdade de usar chamadas incompatíveis sem critério.",
+      "gatilho": "misturado",
+      "armadilhaBanca": "Confundir alternativas admitidas e mistura arbitrária.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — sistemas de chamada e consistência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O sistema de chamada adotado deve ser mantido com consistência ao longo do trabalho.",
+      "item": "O sistema de chamada numérico para citações pode ser utilizado concomitantemente e misturado no mesmo capítulo com o sistema autor-data, cabendo ao autor alternar entre números e sobrenomes ao longo da mesma página.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-12",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "6.1.5: coincidência de sobrenome e data",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "0c523988bf8017aadeeb8abecc778b278df5c5bd35622a0c04bc1b5b343c4253",
+    "shaDepois": "eec73a4e3237844137b1a6296c58df73182b185971761541ee64dfcddce339ef",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Para distinguir autores diferentes de mesmo sobrenome e mesmo ano, a NBR 10520:2023 determina usar somente letras após o ano, como Silva (2024a) e Silva (2024b), sem recorrer aos prenomes.",
+      "justificativa": "ERRADO. Autores diferentes de mesmo sobrenome e ano são distinguidos pelas iniciais dos prenomes; se necessário, pelos prenomes completos. Letras após o ano distinguem documentos da mesma autoria publicados no mesmo ano. A escolha errada confunde duas regras de desambiguação.",
+      "gatilho": "letras após o ano",
+      "armadilhaBanca": "Trocar desambiguação de pessoas e de documentos da mesma autoria.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.5: coincidência de sobrenome e data. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Autores diferentes de mesmo sobrenome e ano são diferenciados pelas iniciais dos prenomes e, persistindo coincidência, pelos prenomes por extenso.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-13",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "6.2.1: sequência e remissão numérica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "53dd0183193aac40614d7606591b75fd1a2a5aeaf362b4d609bfa5cfe607076b",
+    "shaDepois": "91e4ae52b8a30446058a05aa7508ddfe8bfcb59db7989ed5031d903f88dca4cd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No sistema numérico da NBR 10520:2023, a fonte consultada é numerada consecutivamente e, quando repetida, deve ser representada pela mesma numeração; a sequência não pode reiniciar a cada página.",
+      "justificativa": "CERTO. A fonte recebe número conforme a sequência de citação e conserva esse número quando reaparece. A lista acompanha a ordem pertinente de ocorrência no documento, capítulo ou parte. A numeração não deve ser reiniciada a cada página: uma nova menção não cria automaticamente uma nova referência.",
+      "gatilho": "mesma numeração",
+      "armadilhaBanca": "Distinguir nova fonte e repetição da fonte já numerada.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.2.1: sequência e remissão numérica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Cada repetição da mesma fonte recebe um número novo, mesmo que remeta ao mesmo documento.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-14",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "conferência dos elementos e modelos de referências",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "58ae176f90c14e59e73627ef3ee21623f22c2ed6a95efaec9e87b8bc2019b8e8",
+    "shaDepois": "220db3254aa51911515d717d791827684645af74b0ac8e5c9fb2be6cef1a127b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma referência produzida automaticamente por buscador ou gerenciador dispensa conferência dos metadados e da edição da NBR 6023, pois a geração automática assegura conformidade normativa.",
+      "justificativa": "ERRADO. Geradores podem ajudar, mas dependem dos metadados e do estilo implementado. O rótulo de um estilo não prova aderência à edição vigente nem correção de nomes, datas e títulos. A referência deve ser conferida no documento e nas regras aplicáveis, independentemente da ferramenta.",
+      "gatilho": "dispensa",
+      "armadilhaBanca": "Confundir saída de ferramenta e conformidade validada.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — conferência dos elementos e modelos de referências. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A referência gerada automaticamente deve ser conferida quanto aos dados e à edição da norma adotada.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio Doc (FUB)/FUB/2013",
+        "ano": 2013,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-346481",
+        "declaracaoLegada": "Cebraspe / FUB / 2013 (Adaptada); identificador legado: TecConcursos-346481"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-15",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "fidelidade da transcrição e intervenções; distinguir sic e supressão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "c7c3f88cf09a1ea1e48d66bf6cb6b7a3e980dc75b3c66ff220da5467ceb665ae",
+    "shaDepois": "b66cbb9fb087e4f72d1b4c418d0e12d52ad9a11140e0b70ca3653d4929693969",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A indicação [sic] dentro de uma citação direta serve para marcar a supressão de um trecho original, substituindo as reticências entre colchetes.",
+      "justificativa": "ERRADO. Sic assinala que uma forma incomum ou erro pertence ao texto transcrito, sem significar concordância. Supressões usam reticências entre colchetes. Não é adequado substituir um sinal pelo outro, pois o leitor precisa distinguir característica do original e intervenção do redator.",
+      "gatilho": "supressão",
+      "armadilhaBanca": "Trocar marca de fidelidade e marca de omissão.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — fidelidade da transcrição e intervenções; distinguir sic e supressão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Sic indica fidelidade a uma particularidade do original; uma supressão deve ser assinalada por [...].",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-16",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "bibliografia analítica e anotação de referências",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a334611f7774ee49400d40ef2e6ece8f7b7e0da08d118a5dbe1548900d9f0f19",
+    "shaDepois": "cfd9a1bbb5c1657d9fd40a899aa970e92641262286fb92b0e1d0372e1f976bfe",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na acepção de repertório bibliográfico que apresenta sínteses de conteúdo, a bibliografia analítica acompanha as referências com resumos, distinguindo-se de uma simples lista de identificação.",
+      "justificativa": "CERTO. Na acepção adotada, a bibliografia analítica acrescenta síntese de conteúdo às referências, permitindo conhecer o assunto sem depender somente dos títulos. A terminologia pode variar entre tradições; não se trata da bibliografia material que examina características de fabricação do livro. A definição precisa deixar claro o uso adotado.",
+      "gatilho": "resumo",
+      "armadilhaBanca": "Distinguir tipologias de repertórios e sentidos diferentes do mesmo termo.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — bibliografia analítica e anotação de referências. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na acepção de repertório com síntese de conteúdo, bibliografia analítica proíbe qualquer resumo junto à referência.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "GAAPC (PC DF)/PC DF/Bibliotecário/2025",
+        "ano": 2025,
+        "orgao": "PC DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-3240831",
+        "declaracaoLegada": "Cebraspe / PC DF / 2025 (Adaptada); identificador legado: TecConcursos-3240831"
+      },
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m8-q-17",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "6.1.6: documentos da mesma autoria e ano",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "414494da921218e110322da898b243eb9612fce5fbffa3dcdfd5f5b753926963",
+    "shaDepois": "ff43fe41c76e71fc4ca35c3148be02df72b8a0c33e07711f6ddd15651d0365ea",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. As letras distinguem documentos da mesma autoria com data igual e devem corresponder às usadas na lista de referências. Não são escolhidas independentemente em cada chamada. A desambiguação acompanha o documento, permitindo identificar qual obra sustenta cada passagem.",
+      "gatilho": "letras minúsculas",
+      "armadilhaBanca": "Manter correspondência entre chamada e documento referenciado.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.6: documentos da mesma autoria e ano. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As letras após o ano podem variar livremente para o mesmo documento a cada chamada, sem relação com a lista de referências.",
+      "item": "Para citar documentos de um mesmo autor publicados no mesmo ano, a NBR 10520 estabelece que se devem acrescentar letras minúsculas após o ano, sem espaçamento, tanto na chamada quanto na lista de referências (ex: Brasil, 2024a, 2024b).",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-18",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "6.1.1.2 e 6.1.1.3: entidades e órgãos governamentais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "2907a011a2cbd632e5f5a918cae64b3c6edf83a26858922b696bbb2bba827ae7",
+    "shaDepois": "8e5336c05f546b244d42f5a07839850f1722134627671e32050c9d2956ed809e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A regra de chamada não exige caixa alta de todo nome por extenso. Pessoa jurídica pode aparecer por nome ou sigla; siglas têm recomendação própria de caixa alta. Na administração direta, é preciso observar também a jurisdição ou o órgão superior, sem copiar mecanicamente o nome da unidade.",
+      "gatilho": "caixa alta integral",
+      "armadilhaBanca": "Confundir nome por extenso, sigla e entrada de órgão governamental.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.1.2 e 6.1.1.3: entidades e órgãos governamentais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A chamada de entidade não exige todo nome por extenso em caixa alta; siglas e órgãos governamentais têm orientações específicas.",
+      "item": "Conforme a NBR 10520:2023, a indicação de autoria corporativa de órgãos públicos inserida entre parênteses é redigida em caixa alta integral, a exemplo de \"(MINISTÉRIO DA FAZENDA, 2024)\".",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-19",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "7.1.5: destaque acrescentado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "157990c1a330e97ca9a54a2394e346e39a2f83410250f98e39cd3fe05e8496fa",
+    "shaDepois": "d408acfb0f22c3386822be1ba06b6d2d3b8a7a960b0a64e9fd38c656d951f2b0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Destaque introduzido pelo redator deve ser indicado por grifo nosso ou grifo próprio no final da chamada. Se o trecho original já tinha destaque, a edição 2023 não exige informar o grifo. É a origem da ênfase que determina a necessidade de indicação.",
+      "gatilho": "prescinde",
+      "armadilhaBanca": "Trocar ênfase acrescentada e destaque já existente.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 7.1.5: destaque acrescentado. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Quando o destaque é acrescentado à citação pelo redator, indica-se grifo nosso ou grifo próprio na chamada.",
+      "item": "Em citações diretas, o destaque tipográfico de palavras inserido pelo autor do trabalho acadêmico prescinde de menção específica, presumindo-se a ênfase conferida pelo texto fonte original.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-20",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "7.1.1: citação direta longa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "d7ae3dc199ac2aefb35b163eea74c009b381ca36fcfc5c0903d9d8fff2aa05f9",
+    "shaDepois": "9c9dc7b0c0e2db3b07ee3669fed952d77042cf67c5bfcfcc2a34b48e7eee3345",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 10520:2023 torna obrigatório o recuo exato de 4 cm para toda citação direta com mais de três linhas, não admitindo recuo padronizado de outra medida.",
+      "justificativa": "ERRADO. O recuo deve ser padronizado, com letra menor, espaço simples e sem aspas. A medida de 4 cm é recomendada, não uma obrigação expressa da edição 2023. Trocar recomenda-se por exige-se muda a força da orientação e pode tornar falsa uma descrição quase correta.",
+      "gatilho": "obrigatório",
+      "armadilhaBanca": "Transformar recomendação de medida em exigência.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 7.1.1: citação direta longa. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Para citação direta longa, a edição 2023 exige recuo padronizado e recomenda a medida de 4 cm.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-21",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "intervenções no texto citado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "58e4698ebd54db30588127f4d6361c1d5f6b92f1b609d9586959b23b19718e08",
+    "shaDepois": "050c3361ef9ea5532c567b4032932077d2731bc731d02e36538a702ff7f7133d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Interpolações, acréscimos ou comentários introduzidos pelo redator no interior de uma citação devem ser indicados entre colchetes, permitindo distingui-los do texto original.",
+      "justificativa": "CERTO. Interpolações e comentários devem ser distinguíveis do conteúdo da fonte. Colchetes assinalam intervenções, evitando atribuir ao original uma explicação acrescentada. Isso não autoriza alterar o sentido da passagem nem confundir comentário com indicação de supressão.",
+      "gatilho": "colchetes",
+      "armadilhaBanca": "Distinguir texto da fonte e intervenção do citante.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — intervenções no texto citado. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um comentário acrescentado pelo redator deve ser incorporado à citação sem qualquer marca, como se constasse do original.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-22",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "7.3: citação de citação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "924ce2dfeebbe765f2988b4d20a15866fbc3412ede648f450be393c346bdc84b",
+    "shaDepois": "9049dded65e40f5574be82b738be7440ccd365dc2e8dc3b4e8551aca0551f96f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A primeira autoria é a da fonte conhecida indiretamente; após apud aparece a fonte efetivamente consultada. A página deve corresponder ao que se está localizando nessa consulta, quando aplicável. A lista de referências deve identificar a obra consultada, sem fingir leitura do original não acessado.",
+      "gatilho": "apud",
+      "armadilhaBanca": "Distinguir autoria original e fonte efetivamente consultada.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 7.3: citação de citação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na citação de citação, apud indica que a obra original foi necessariamente lida diretamente pelo redator.",
+      "item": "Na aplicação da locução 'apud', a chamada no texto deve indicar primeiro o autor da obra original não consultada, seguido da expressão 'apud', do autor da obra efetivamente consultada, da data e da página, a exemplo de 'Segundo Darcy Ribeiro (1975 apud Silva, 2024, p. 50)'.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-23",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "data e abreviatura dos meses",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "528ed74d90bb5191c8ba07d3996c387e8135ae2f0506517431d679762e93cc71",
+    "shaDepois": "1f136dac9d0ead45b8d4efb5437d2e9e48d5fbc93ef639e8b6ed48055fb05ae3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na referência de um artigo de periódico estrangeiro, o mês da publicação deve ser sempre traduzido e abreviado em português, independentemente do idioma do documento.",
+      "justificativa": "ERRADO. Mês na referência deve observar as convenções e o idioma da publicação, quando pertinente. Não é correto traduzir obrigatoriamente toda data para português apenas porque o trabalho está nessa língua. Também é necessário distinguir data do fascículo e periodicidade geral da revista.",
+      "gatilho": "português",
+      "armadilhaBanca": "Confundir idioma do trabalho e forma da data na referência.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — data e abreviatura dos meses. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A abreviatura do mês deve observar o idioma e as convenções pertinentes à publicação, não uma tradução obrigatória para português.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-24",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "autoria pessoal e separação de autores",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9edb84be6980f2408df2756e6c6d026408acfa5401713b331ff1df35a26aa637",
+    "shaDepois": "097e8962e57884aa11fd3aeb9966aaeaa76391e2a6e60c4a28a8f31bd8582970",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Nas referências, a autoria pessoal é indicada por sobrenome em maiúsculas seguido de prenomes e outros sobrenomes, abreviados ou não, conforme as regras aplicáveis; nomes de diferentes autores são separados por ponto e vírgula e espaço.",
+      "justificativa": "CERTO. A entrada pessoal usa sobrenome e prenomes conforme as regras, mantendo uma forma consistente. Mais de uma responsabilidade é separada por ponto e vírgula e espaço. Sobrenomes compostos e outras tradições de nomeação exigem atenção: não basta recortar sempre a última palavra mecanicamente.",
+      "gatilho": "ponto e vírgula",
+      "armadilhaBanca": "Aplicar a regra de entrada sem ignorar particularidades de nomes.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — autoria pessoal e separação de autores. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os nomes de vários autores pessoais devem ser fundidos em um único nome, sem separação entre responsabilidades.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "SEDUC-AM/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1905",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1905"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-25",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "supressões em citação direta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "98f4dc59dec6188f24508c85298f9aa3f93fddb89de43e30444a6b092b4e6278",
+    "shaDepois": "59f2927b4eef46582aa536ce011f5abcf749240a6cda1922574081613810e289",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 10520:2023, as supressões feitas pelo redator em uma citação direta devem ser indicadas por reticências entre parênteses, na forma (...), em lugar de colchetes.",
+      "justificativa": "ERRADO. A convenção é usar reticências entre colchetes: [...]. Isso torna explícita uma supressão realizada no trecho citado. A omissão também precisa preservar o sentido da fonte; marcar corretamente não legitima uma seleção que inverta o argumento.",
+      "gatilho": "parênteses",
+      "armadilhaBanca": "Trocar sinais de uma intervenção editorial.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — supressões em citação direta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma supressão em citação direta é indicada por [...], respeitando o sentido do original.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-26",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "título, subtítulo e uniformidade tipográfica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9b2b8358c0aeb06e03cd171e4672020cb08637245283e2593e86fedadb606fec",
+    "shaDepois": "b31fa42c4fce7bd592e86a1b13684fce7f3e46544376f1a01ce56a85d452ed74",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na referência de um livro com título e subtítulo, conforme a NBR 6023:2025, o destaque tipográfico deve recair simultaneamente sobre ambos, incluindo obrigatoriamente o subtítulo.",
+      "justificativa": "ERRADO. O título é o elemento destacado; o subtítulo é transcrito separado por dois-pontos, sem receber automaticamente o mesmo destaque. Não se deve estender mecanicamente a ênfase a toda a informação que vem depois do título. A apresentação deve ser uniforme na lista.",
+      "gatilho": "simultaneamente",
+      "armadilhaBanca": "Confundir transcrição do subtítulo e seu destaque.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — título, subtítulo e uniformidade tipográfica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O destaque aplicado ao título não se estende automaticamente ao subtítulo.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-27",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "7.11.1: legislação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "685082c051cd30101b966a1c5807ab9b325ef9bfe8ddb3a458b1a10961da64ff",
+    "shaDepois": "58c6ff5d3bdaa4cdbd308903554a9e1422c3bfb9e653e2b579a60d57b32716ae",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A jurisdição identifica o âmbito de origem do ato e é seguida pelos elementos necessários à identificação da norma e publicação. Município, estado e União não devem ser confundidos apenas porque possuem leis com o mesmo número. Acréscimos de qualificação ajudam a evitar homonímia.",
+      "gatilho": "jurisdição",
+      "armadilhaBanca": "Distinguir autoria do trabalho e responsabilidade pelo ato.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 7.11.1: legislação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A entrada da referência de qualquer lei é feita pelo nome do autor que a citou no trabalho, independentemente da jurisdição.",
+      "item": "Para documentos jurídicos legislativos (leis e decretos), a entrada da referência deve ser feita pelo nome da jurisdição em letras maiúsculas (ex: BRASIL; SÃO PAULO (Estado); BELO HORIZONTE), seguido da denominação do ato, número, data e dados da publicação oficial.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-28",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "local e editora não identificados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2157fa1149a6f93917003d2f82d055360325e751f47de97fd0024e5d916968c6",
+    "shaDepois": "75b3bf9e15b5171602a4e807a4918cabfd37c792d9f099818450a1f6047eee61",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Sine loco indica local não identificado e sine nomine indica editora não identificada. Na edição vigente, empregam-se as formas padronizadas pertinentes, como [S. l.] e [s. n.]. Antes disso, é preciso tentar identificar a informação por fontes adequadas; dado inferido é sinalizado conforme a regra.",
+      "gatilho": "[s.n.]",
+      "armadilhaBanca": "Inverter expressões relativas a local e editora.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — local e editora não identificados. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Quando o local não é identificado, utiliza-se [S. l.]; [s. n.] refere-se à editora não identificada.",
+      "item": "Na referência bibliográfica de monografia impressa, quando o local de publicação não puder ser identificado na obra ou em fontes externas de pesquisa, registra-se a expressão \"[s.n.]\" entre colchetes.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-29",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "parte de monografia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6017fadc4bb910a3b2c3f5e046a829f6177dbdd75141a97dd4951547c5ce0592",
+    "shaDepois": "519654b765bdd67701c6cc79fb87420c7b7ff9889808946ecff5531178b7b8e9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A parte é identificada por sua autoria e título, seguida de In: e da referência da obra que a contém. O título da obra hospedeira recebe o destaque pertinente, não o título do capítulo por ser o objeto citado. São dois níveis de identificação na mesma referência.",
+      "gatilho": "capítulo específico",
+      "armadilhaBanca": "Confundir parte e obra que a contém.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — parte de monografia. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na referência de capítulo de livro, o destaque recai no título da obra hospedeira, mantendo-se a identificação do capítulo.",
+      "item": "Na referência de capítulo de livro com autoria individual reunido em coletânea (in:), a ênfase tipográfica escolhida recai sobre o título do capítulo específico, mantendo-se o título da obra coletiva em tipo comum.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-30",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "ordenação das referências e sistema de chamada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "31ae3b31ddc26bfedecd83efbdee8bdb9ba5925e527bc7896028bc1360c226dc",
+    "shaDepois": "527458f51048f330c99e0a208be1f81035e4d6f54ad65e98f0baa4a057aeec0c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. No sistema autor-data, a lista segue ordenação alfabética conforme entradas e regras aplicáveis. A data pode auxiliar a ordenar obras sob uma mesma autoria, mas não substitui o critério geral de entrada por um agrupamento global de todos os autores por ano.",
+      "gatilho": "ano de edição",
+      "armadilhaBanca": "Trocar critério geral da lista e ordenação dentro de uma mesma entrada.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — ordenação das referências e sistema de chamada. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No sistema autor-data, a lista é ordenada alfabeticamente pelas entradas, observadas as regras aplicáveis.",
+      "item": "A ordenação dos elementos na lista de referências elaborada pelo sistema autor-data orienta-se pela data cronológica de lançamento das obras, agrupando as publicações pelo ano de edição.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-31",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "jurisprudência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3e96f9d850c525bba21718df870126946852564289c19238d159413b95196697",
+    "shaDepois": "fdee4f74692d9b77bdcaebf7b3a898b2fe06fe765c82dbf1b06f5a20bd94b6c6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Referências de decisões judiciais identificam jurisdição, órgão, natureza e identificação da decisão, além de dados pertinentes como relator e publicação. O advogado de uma parte não é o autor institucional do acórdão. Trocar a entrada dificulta reconhecer a autoridade e a origem da decisão.",
+      "gatilho": "advogado",
+      "armadilhaBanca": "Confundir participante do processo e órgão prolator.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — jurisprudência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A referência de decisão judicial é iniciada pela jurisdição e pelo órgão judiciário pertinente, não pelo advogado da parte.",
+      "item": "Na referência de acórdãos dos tribunais judiciais, a entrada é feita pelo sobrenome do advogado que assinou a petição inicial da ação.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-32",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "6.1.7: mesma autoria e anos diferentes",
+    "nota": "Item autoral substitui assertiva literária isolada sem texto-base e fora do foco do caderno. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "a5a2bf8d2915c9194f997e7f8570de8e9e8130389a80979cde77155ad88b20c7",
+    "shaDepois": "f02485c2a16878aec654f1aeca3c1b78eb4f64b980a549626129eddde4ab9fef",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 10520:2023, chamadas de citações indiretas de documentos da mesma autoria e de anos diferentes, mencionados simultaneamente, apresentam datas em ordem cronológica separadas por vírgula, como (Silva, 2019, 2021, 2024).",
+      "justificativa": "CERTO. Vários documentos da mesma autoria, de anos diferentes, são indicados com datas em ordem cronológica e separadas por vírgula. Autores diferentes exigem outra organização. O item anterior dependia de um texto literário ausente, sem permitir julgamento autossuficiente; foi substituído por aplicação de normalização.",
+      "gatilho": "ordem cronológica",
+      "armadilhaBanca": "Distinguir documentos da mesma autoria e autores diferentes.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 6.1.7: mesma autoria e anos diferentes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Documentos da mesma autoria com anos diferentes devem ter suas datas embaralhadas e separadas por ponto e vírgula.",
+      "submoduloId": "8.2",
+      "fonteOriginal": {
+        "tipo": "inedita",
+        "descricao": "Item autoral HNC sobre chamadas de citações da mesma autoria.",
+        "verificado": false,
+        "declaracaoLegada": "{\"tipo\":\"inedita\",\"descricao\":\"Machado de Assis, \\\"Pai contra Mãe\\\" (1906); Prova Cebraspe (Compreensão de Texto)\",\"verificado\":false,\"origemAcervoLocal\":\"real-prova_recente-2287\",\"declaracaoLegada\":\"Cebraspe / Biblioteconomia / 2024\"}"
+      }
+    }
+  },
+  {
+    "id": "m8-q-33",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "8.1.1.1: até três autores",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a11c54ec83d8fc473dbd268331385026209ba83db29d5f1f6d5010cf0f354744",
+    "shaDepois": "9678623393ae6345897083455d1fed6eec7da0d9ee517074e3e33b82460f8c88",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na referência de um livro com três autores, a NBR 6023:2025 determina registrar somente o primeiro seguido de et al., omitindo os demais.",
+      "justificativa": "ERRADO. Até três autores devem ser indicados na referência. A possibilidade de indicar primeiro autor e et al. aplica-se à situação de quatro ou mais, conforme a regra. Não se deve importar para três autores uma faculdade destinada a outro limiar.",
+      "gatilho": "três autores",
+      "armadilhaBanca": "Trocar o limiar de aplicação de et al.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 8.1.1.1: até três autores. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Para obra com três autores, a NBR 6023:2025 determina indicar todos os três.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-34",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "8.1.1.2: quatro ou mais autores",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cff78ccc9e30a921bb35b82c99a4bcbfb3ab4b702ac3f0097b8ae0cd24c144b1",
+    "shaDepois": "8fa1cc9c951692a523934c01d2147b754bd2da27497e2e42707ef66437fb7e80",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 6023:2025, quando houver quatro ou mais autores, convém indicar todos; permite-se indicar apenas o primeiro seguido de et al.",
+      "justificativa": "CERTO. A norma recomenda indicar todos quando há quatro ou mais autores e permite registrar apenas o primeiro seguido de et al. Recomendação e permissão não estabelecem a mesma preferência. A redação anterior invertia a ênfase ao apresentar a omissão como regra prioritária.",
+      "gatilho": "convém",
+      "armadilhaBanca": "Distinguir recomendação de completude e alternativa permitida.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 8.1.1.2: quatro ou mais autores. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Para quatro ou mais autores, é proibido indicar todos, devendo constar sempre apenas o primeiro e et al.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-35",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10520"
+    ],
+    "localizador": "7.1.1: citação direta com mais de três linhas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.1 para 8.2, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "a885b48fa2aced69d6ec48eb28dfa4b74a8f1165e913b6546afaa1a1de2ecdd8",
+    "shaDepois": "1821af07b2d108f772a967523be77d39fe6f5e292b663ec784f1c9e3deccfa96",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Segundo a NBR 10520:2023, uma citação direta com mais de três linhas deve permanecer entre aspas duplas, mesmo quando apresentada em bloco destacado.",
+      "justificativa": "ERRADO. A citação longa é destacada em bloco, com recuo padronizado, fonte menor e espaço simples, sem aspas. As aspas duplas delimitam citações diretas de até três linhas no texto. A extensão é o ponto de decisão entre as formas de apresentação.",
+      "gatilho": "aspas duplas",
+      "armadilhaBanca": "Aplicar a regra da citação curta ao bloco longo.",
+      "fonte": "ABNT NBR 10520:2023 — Citações em documentos — 7.1.1: citação direta com mais de três linhas. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Citação direta com mais de três linhas é apresentada em bloco, sem aspas.",
+      "submoduloId": "8.2"
+    }
+  },
+  {
+    "id": "m8-q-36",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "mensagens e documentos de acesso restrito",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c909c0a980451ea87006af12435bb4df9a8bf63f33d026315a7f90fe05281cd6",
+    "shaDepois": "fddc9c90215364012a5eba5e3fe83f81591c1618219a815104dd0c2ac3bb7e65",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Identificação de responsabilidade, data e assunto ou título auxilia a individualizar a mensagem. Acesso privado não torna esses dados irrelevantes, mas exige atenção à confidencialidade e à possibilidade de divulgação. Não se deve inventar uma URL pública inexistente para cumprir uma regra de acesso online.",
+      "gatilho": "desnecessário",
+      "armadilhaBanca": "Confundir acesso restrito e ausência de identificação.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — mensagens e documentos de acesso restrito. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A referência de uma mensagem deve identificar os elementos pertinentes e respeitar seu acesso e confidencialidade.",
+      "item": "Para referenciar mensagens privadas de correio eletrônico (e-mail) ou conversas de WhatsApp, é desnecessário indicar o remetente, a data e o assunto da mensagem.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-37",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "título e subtítulo em monografia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "46264f18e17789e1368d4ba22aa904688ce28e4f6b309c8609adfaa17b32b09b",
+    "shaDepois": "7295e592a4ba39ca89f3dc1374534501ced072a7b18cb9e75193bc72e0d184e7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na referência de um livro no todo conforme a NBR 6023:2025, o destaque tipográfico adotado para o título não deve ser estendido automaticamente ao subtítulo.",
+      "justificativa": "CERTO. O subtítulo deve ser identificado e transcrito quando pertinente, mas não recebe automaticamente o destaque do título. Uma obra hospedeira de um capítulo e uma monografia no todo também exigem distinguir qual título ocupa cada posição. Uniformidade tipográfica deve ser mantida entre referências do mesmo tipo.",
+      "gatilho": "título",
+      "armadilhaBanca": "Separar transcrição do subtítulo e recurso de destaque.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — título e subtítulo em monografia. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na referência de livro, deve-se destacar obrigatoriamente todo o subtítulo da mesma forma que o título.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-38",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "anexo A: meses em português",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "75d7477ba3945b02c0762d2a58596c3650ca948d5762235976db046af3ab8c9f",
+    "shaDepois": "ed28d57df77ea2c252a9b7c8906ba695e3030e5179dcc0f68e165d64b93a1f15",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Maio é registrado sem abreviação nesse padrão. Não se cria m. por analogia com outros meses, pois isso perderia identificação e contrariaria a tabela. Abreviar exige observar idioma e convenção, não reduzir livremente qualquer palavra a uma letra.",
+      "gatilho": "maio",
+      "armadilhaBanca": "Inventar abreviatura por analogia superficial.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — anexo A: meses em português. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Em referências com mês em português, maio é registrado como maio.",
+      "item": "Na padronização de meses em referências de periódicos segundo a ABNT NBR 6023, o mês de maio é abreviado grafando-se \"m.\" com ponto abreviativo.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-39",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "7.9: patente",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0c72d2c0be627a525e5b8cd89424d6b7a02c8aae9afa02e02c188e879815e977",
+    "shaDepois": "f9f9b79a6bb52c85135cedb07b36f50098fdbb0d32902cc3573f4b7345201583",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma referência de patente deve distinguir os responsáveis e os dados de identificação pertinentes, incluindo inventor, título, número e informações de depósito, sem presumir identidade entre inventor e depositante.",
+      "justificativa": "CERTO. A referência identifica inventor, título, informações de depósito ou titularidade pertinentes, número e datas conforme a norma. Inventor e depositante podem ser entidades distintas em papéis diferentes; não devem ser tratados automaticamente como sinônimos. Os elementos precisam individualizar o documento de patente.",
+      "gatilho": "inventor",
+      "armadilhaBanca": "Distinguir papéis jurídicos e técnicos na identificação da patente.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 7.9: patente. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Inventor, depositante e titular são necessariamente a mesma pessoa, bastando registrar qualquer um desses papéis sem distinção.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-40",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "apresentação da lista de referências",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cf028aaf9d35d8b722e5f475a4f03673419142316f98810b3cf39572ef0171bf",
+    "shaDepois": "e0a978c780806c261192ab4fad79572e3669469d3ba4be219c270b28276a9636",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na lista de referências da NBR 6023:2025, as referências devem ser alinhadas à margem esquerda, em espaço simples, e separadas entre si por uma linha em branco de espaço simples.",
+      "justificativa": "CERTO. Na lista, as referências ficam alinhadas à esquerda, em espaço simples, separadas entre si por uma linha em branco de espaço simples. Isso não equivale a justificar cada referência para preencher ambas as margens. Regras de notas e de outras partes do trabalho não devem ser confundidas com a lista final.",
+      "gatilho": "alinhadas",
+      "armadilhaBanca": "Separar alinhamento, entrelinhas e separação entre entradas.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — apresentação da lista de referências. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na lista final, as referências devem ser obrigatoriamente justificadas e digitadas com espaço duplo entre todas as linhas.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-41",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "obra sem autoria identificada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c40e38c91bfa6c0489ed1e7c08704996783a9013580a1f3ea182da459525ca94",
+    "shaDepois": "4f40c6fec855cfdfacb461328f2ef80c16dc73903a8c7ed2198d573c218f6894",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A entrada é feita pelo título, observadas as regras de destaque de sua primeira palavra. Não se inventa um autor chamado Anônimo para qualquer obra sem responsabilidade identificada. A ausência de autoria não impede identificar o documento por outros elementos.",
+      "gatilho": "ANÔNIMO",
+      "armadilhaBanca": "Trocar ausência de autoria e atribuição fictícia de nome.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — obra sem autoria identificada. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na ausência de autoria identificada, a entrada é feita pelo título conforme as regras da norma.",
+      "item": "Em obras anônimas ou cuja autoria não seja indicada na publicação, a entrada na referência deve ser feita pela palavra 'ANÔNIMO' grafada em letras garrafais.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-42",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "indicação de edição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c138634094f529ae9a4a5d3152f32fd5d712ae63f0a5d2559eb3c8373a58d41e",
+    "shaDepois": "bd351ac439d126774565b67d43a2e1aca85144eae046340d563df311bd797371",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A indicação de edição deve ser transcrita quando constar no documento, utilizando numerais e abreviatura da palavra edição no idioma pertinente, como 2. ed.",
+      "justificativa": "CERTO. A edição deve ser transcrita quando indicada, usando forma abreviada pertinente ao idioma. Não se deve inventar primeira edição se a informação não consta do documento. Reformulou-se a regra para não sugerir que uma edição explicitamente identificada deva ser ignorada por ser a primeira.",
+      "gatilho": "edição",
+      "armadilhaBanca": "Distinguir transcrição de informação e inferência sem fundamento.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — indicação de edição. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Deve-se acrescentar 1. ed. a todo livro sem edição indicada, pois a falta de informação comprova primeira edição.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-43",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "artigo de periódico: título destacado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e2357c14aec87dc005bfc95737f282c8474755a1f7496e6c912892e28e62cd0f",
+    "shaDepois": "752d7f26f6ce568b433bff16a82408feccb19e44aa3ed657215e5485d4a8f54b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O título do periódico identifica o veículo e recebe o destaque pertinente. O título do artigo permanece identificado em sua posição, sem assumir por isso a função da publicação hospedeira. O mesmo princípio de distinguir parte e todo aparece em capítulos de livros.",
+      "gatilho": "TÍTULO DO PERIÓDICO",
+      "armadilhaBanca": "Distinguir obra hospedeira e contribuição individual.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — artigo de periódico: título destacado. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O título de um artigo deve receber o destaque no lugar do título do periódico que o publicou.",
+      "item": "Na referência de artigos publicados em periódicos científicos, o elemento que deve receber o destaque tipográfico (negrito ou itálico) é o TÍTULO DO PERIÓDICO (revista), e não o título do artigo individual.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-44",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "ordenação e autor-data",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "da57cfcb2572e8347de18200c262b9cfc2d2b4f421e41918e6ef468d95e080b4",
+    "shaDepois": "32fe85a94697928dad3da0b094cd0ee946df7f3336989b61a251db6f7bc316ab",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No sistema autor-data, toda a lista de referências deve ser organizada exclusivamente por ano, misturando autores de modo que a ordem alfabética das entradas seja desconsiderada.",
+      "justificativa": "ERRADO. A lista alfabética deve permitir localizar a entrada indicada na chamada. Ordenar tudo exclusivamente pela data pode separar entradas que deveriam ser reconhecidas pelo autor ou título. Obras da mesma autoria exigem critérios próprios, sem eliminar a regra geral de ordenação.",
+      "gatilho": "exclusivamente",
+      "armadilhaBanca": "Confundir ordenação geral e critério de desempate.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — ordenação e autor-data. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A ordenação geral do sistema autor-data é alfabética por entradas, com regras para distinguir documentos sob a mesma autoria.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-45",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "documentos eletrônicos e identificador DOI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "283bf8ef967730ad1d38b43cccd9a29b0cf8f1eaf6dc3dc6f55da4e2ab1a1de5",
+    "shaDepois": "d43a7c20ddbac46e7f9507b2f6da553b5fda2e0dd9bc47e8c241ed76c0914dce",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na referência de artigo de periódico em meio eletrônico, a NBR 6023:2025 prevê acrescentar o DOI, se houver, sem substituir os demais elementos de identificação.",
+      "justificativa": "CERTO. A norma prevê DOI em referências eletrônicas quando disponível, conforme o tipo documental. Não se deve classificar sua inclusão como mera ornamentação opcional em qualquer caso. O identificador apoia localização, mas sua presença não comprova qualidade científica nem dispensa os demais elementos.",
+      "gatilho": "se houver",
+      "armadilhaBanca": "Distinguir identificador persistente e referência completa.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — documentos eletrônicos e identificador DOI. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A presença de DOI substitui automaticamente todos os demais elementos de identificação da referência.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-46",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "responsabilidade pela organização de coletânea",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c01c15530e890fa6afce7df9e615d7ed39a1b822facecc2e15d4dcfb98968775",
+    "shaDepois": "c9cbab088bc3db580e3e8f6f78540c69b04d9a911c7adf8717f3046e6e47b17a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Quando a responsabilidade pelo conjunto é atribuída a organizador ou papel equivalente, a função é indicada com a abreviatura pertinente. Não significa que o organizador seja autor de todos os capítulos. Na referência de uma parte, a autoria e o título dessa parte também precisam ser identificados.",
+      "gatilho": "(org.)",
+      "armadilhaBanca": "Distinguir responsabilidade pelo conjunto e autoria das partes.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — responsabilidade pela organização de coletânea. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Identificar alguém como organizador de uma coletânea comprova que essa pessoa escreveu todos os capítulos.",
+      "item": "Quando a autoria de uma obra for atribuída a um organizador, compilador ou coordenador, a entrada é feita pelo seu sobrenome em maiúsculas acompanhado da respectiva abreviatura da função entre parênteses, a exemplo de 'SILVA, Paulo (org.).' ou 'SANTOS, Ana (coord.).'.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-47",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "6.6: referência de documento online",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ebe2bc2ead118a60320f189483e3c39f8ae04275fe86a9d56c3926a334f74422",
+    "shaDepois": "f8ff75a42c65906e3a45273742f09182515cb04b953f23e1adcba3c5052e9f84",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6023:2025 prevê endereço precedido de Disponível em: e data precedida de Acesso em: para documentos online, ressalvando mensagens e documentos cujos endereços não estejam disponíveis.",
+      "justificativa": "CERTO. A regra online acrescenta endereço e data de acesso com as expressões indicadas. Há ressalva para mensagens e documentos cujos endereços não estejam disponíveis. Não é preciso inventar URL pública nem exigir sinais angulares de edição antiga.",
+      "gatilho": "endereço",
+      "armadilhaBanca": "Aplicar regra de acesso respeitando a ressalva expressa.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 6.6: referência de documento online. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda referência de mensagem privada deve inventar um endereço público quando a URL não está disponível.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-48",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "artigo ou matéria de jornal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5eb6721e3fc02b31f58e2df84dc691c3adf32d949854024cb69cc97c58ed2bb7",
+    "shaDepois": "f15fddb104cf313082b3f5ffd73772412872f31a94f2481b85040e0807704381",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na referência de matéria de jornal, devem ser identificados autoria quando houver, título da matéria, jornal e data, acrescentando seção, caderno, paginação e acesso conforme disponíveis e pertinentes ao documento consultado.",
+      "justificativa": "CERTO. A referência identifica matéria e jornal, com data e localização pertinentes. Nem toda versão online tem paginação ou caderno de uma edição impressa. Não se devem fabricar esses elementos; adicionam-se as informações de acesso e identificação aplicáveis ao documento efetivamente consultado.",
+      "gatilho": "conforme disponíveis",
+      "armadilhaBanca": "Distinguir modelo impresso e dados efetivamente existentes.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — artigo ou matéria de jornal. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda matéria de jornal online deve receber paginação fictícia caso o site não apresente páginas.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-49",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "8.1.1: prenomes de autores",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2e32a6693d3f64ac8cec1b07edd687ef92279d3e6af6b9d98e43def6b5be93aa",
+    "shaDepois": "bb0271fbb23b3e633055c1c9fc90bca7e445e1e8e838832ea34e44e0b6eb08b6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A norma permite prenomes abreviados ou não, conforme as regras e a informação do documento. Convém manter consistência para a mesma autoria na lista. Não há proibição geral de prenomes por extenso; a abreviação também não autoriza confundir autores homônimos.",
+      "gatilho": "por extenso",
+      "armadilhaBanca": "Trocar alternativa permitida por obrigação de abreviar.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 8.1.1: prenomes de autores. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "É possível usar prenomes abreviados ou por extenso, observando as regras e a consistência de identificação.",
+      "item": "A NBR 6023 proíbe categoricamente a utilização de prenomes por extenso dos autores na lista de referências, obrigando a abreviatura de todos os prenomes em uma única letra.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-50",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023"
+    ],
+    "localizador": "7.1.2: trabalho acadêmico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b74e8799d875e8873fa7bf940ec2fd15ba867fbaa924696342976a1d9c26e4aa",
+    "shaDepois": "6e742c794a4814cee937d4b1fea521599483dafb3cd1d3ece6fddc71dcac043a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Tese, dissertação ou trabalho acadêmico devem ser identificados com natureza, grau ou curso e vínculo institucional pertinente, além dos outros elementos essenciais. Universidade não é automaticamente editora comercial. Dados de apresentação ou defesa e de publicação precisam ser distinguidos quando diferentes.",
+      "gatilho": "tipo de documento",
+      "armadilhaBanca": "Distinguir trabalho acadêmico e edição comercial derivada.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — 7.1.2: trabalho acadêmico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Referenciar uma tese equivale a referenciar um livro comercial, devendo-se omitir grau e instituição.",
+      "item": "Em trabalhos acadêmicos como teses e dissertações, a referência deve indicar o tipo de documento, o grau acadêmico pretendido, o vínculo institucional com universidade/faculdade, o local e o ano da defesa.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-51",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028",
+      "cad"
+    ],
+    "localizador": "4.2.2: resenha e recensão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "4b68619a6804535bf6f03401c3191959b198f34edd641959708ced696a0f5f67",
+    "shaDepois": "600c3f13f1a3586477f55b4d60ac57fbf6ff928cd86d6dad2eca195eaaef922e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 6028:2021, resenha e recensão não estão sujeitas a limite de palavras estabelecido pela própria norma, sem impedir regras editoriais específicas.",
+      "justificativa": "CERTO. A edição 2021 trata resenha e recensão separadamente dos tipos de resumo e informa que não estão sujeitas a limite de palavras. Não se deve aplicar a elas automaticamente a faixa dos resumos. Isso não impede orientações editoriais específicas de extensão para submissão a uma revista.",
+      "gatilho": "limite",
+      "armadilhaBanca": "Distinguir regra geral da norma e exigência editorial específica.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.2.2: resenha e recensão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A NBR 6028:2021 impõe a toda resenha a mesma faixa de palavras do resumo de artigo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "CAPES/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1885",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-1885"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-52",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "2.5: resumo indicativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "3ba834a2adf9ce50103923e527e60f5415c8e5f8fa9fdc3bb5c793ec07f1ceec",
+    "shaDepois": "e66f59dfb6eac127d0406e5d7a9f065edb1ac64c75de45026435cf4dd09ab742",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O indicativo assinala os pontos principais sem detalhar dados qualitativos e quantitativos; em geral, não dispensa o original. Finalidades, metodologia, resultados e conclusões caracterizam o informativo. Confundir os dois pode induzir o aluno a atribuir ao indicativo uma autonomia que a definição não prevê.",
+      "gatilho": "dispensável",
+      "armadilhaBanca": "Trocar síntese indicativa e informativa.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.5: resumo indicativo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O resumo indicativo apresenta pontos principais sem detalhamento e, em geral, não dispensa consulta ao original.",
+      "item": "O resumo indicativo condensa as conclusões, metodologias e resultados substantivos de uma pesquisa, tornando dispensável a leitura do texto original completo.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-53",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6034"
+    ],
+    "localizador": "3.3 e 3.4: cabeçalho composto e entrada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "fa437736194500e39c985fcbe174b9144d4b0bc3b44fb119085e0c86946ec14b",
+    "shaDepois": "5f326239d0971045bad47bbfe9258e51b602d712628cd73addc8d7f2fb426d32",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Entrada reúne cabeçalho e localização no texto. Cabeçalho composto diz respeito à composição do próprio cabeçalho por palavras ou símbolos. Uma estrutura que contém um cabeçalho não é, por isso, um tipo desse cabeçalho.",
+      "gatilho": "cabeçalho e indicativo",
+      "armadilhaBanca": "Confundir componente e unidade que o inclui.",
+      "fonte": "ABNT NBR 6034:2004 — Índice — Apresentação — 3.3 e 3.4: cabeçalho composto e entrada — https://cnm.paginas.ufsc.br/files/2020/02/ABNT-NBR-6034.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A unidade formada por cabeçalho e indicação de localização é a entrada do índice.",
+      "item": "Cabeçalho composto é a unidade do índice que consiste em cabeçalho e indicativo de sua localização no texto.",
+      "submoduloId": "8.5"
+    }
+  },
+  {
+    "id": "m8-q-54",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027"
+    ],
+    "localizador": "6.2: correspondência tipográfica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "f6f5cad4aa166ca15c867d49fb65dca91a67c12c5f9e94bf66246fd74640937d",
+    "shaDepois": "bbb96fddbc36d748a9deefad7f67830634f4d20847ab507e5186a13e01849af6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O sumário deve refletir a apresentação tipográfica das seções para tornar reconhecível sua hierarquia e correspondência. Não se trata de inventar uma hierarquia visual oposta. A função é orientar o leitor na mesma estrutura efetivamente encontrada no documento.",
+      "gatilho": "diferente",
+      "armadilhaBanca": "Inverter correspondência estrutural e contraste arbitrário.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — 6.2: correspondência tipográfica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A tipografia do sumário deve corresponder à apresentação das seções no documento.",
+      "item": "No sumário, a tipografia utilizada para cada seção (caixa alta, negrito, itálico) deve ser totalmente diferente e contraditória com a tipografia adotada nos títulos das seções no corpo do texto.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-55",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6024"
+    ],
+    "localizador": "seções secundárias e indicativos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "1636600e39d2e78b93bfffdb4beff1ccabeb51e62d164460d2abe039934bc153",
+    "shaDepois": "fcac4da07a3c5b821a38fa26f9a23acc998b9e61aa0a8975a51075b0632ba706",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O indicativo combina o número da seção primária e o número da subdivisão, separados por ponto, como 2.3. Esse ponto interno é diferente de um sinal colocado entre indicativo completo e título. Escrever 2.3 Métodos não exige um ponto adicional após 3.",
+      "gatilho": "separado por ponto",
+      "armadilhaBanca": "Distinguir ponto interno da hierarquia e separação do título.",
+      "fonte": "ABNT NBR 6024:2012 — Numeração progressiva das seções — seções secundárias e indicativos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma seção secundária deve ser indicada por letra isolada, sem relação com a seção primária.",
+      "item": "Na numeração progressiva em um documento, o indicativo de uma seção secundária é constituído pelo indicativo da seção primária a que pertence, seguido do número que lhe for atribuído na sequência do assunto e separado por ponto.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-56",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027"
+    ],
+    "localizador": "definição e localização do sumário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "94f93b5eacdb107c6b58bdab68825f01820cac6cf42212df80e0ed7fdb99b20c",
+    "shaDepois": "0a91a6c20b02bc84f4b15bbafe5f8556bf1466b7c75579fc69c76ef5636a24e5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Sumário acompanha a sequência e grafia das divisões do documento e é pré-textual. Não organiza assuntos alfabeticamente como certos índices. Seu papel é mostrar a estrutura e indicar onde as partes podem ser encontradas.",
+      "gatilho": "mesma ordem",
+      "armadilhaBanca": "Distinguir ordem estrutural e ordenação de assuntos.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — definição e localização do sumário. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O sumário deve reorganizar alfabeticamente as seções, independentemente da ordem do texto.",
+      "item": "Conforme a ABNT NBR 6027:2012, o 'sumário' é a enumeração das divisões, seções e outras partes de um documento na mesma ordem e grafia em que a matéria se sucede no corpo da obra, sendo classificado como elemento pré-textual.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-57",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028",
+      "cad"
+    ],
+    "localizador": "4.1.2: forma de apresentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "7dbeec8599cf2426f10da578b2685ae6cd37d57d568c57779d8d0003c0a5f930",
+    "shaDepois": "5d997e4895de26e09996e614534d4fd1bc0e8a287f90bd1619c7477412e83034",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Segundo a NBR 6028:2021, o resumo deve ser organizado em tópicos enumerados, pois a apresentação em parágrafo único impede a recuperação da informação.",
+      "justificativa": "ERRADO. O resumo é composto por frases concisas em parágrafo único, sem enumeração de tópicos. A existência de resumos não é condição universal para qualquer mecanismo de recuperação. Um título ou índice também pode apoiar busca; a norma de resumo não determina que toda obra existente precise contê-lo.",
+      "gatilho": "tópicos",
+      "armadilhaBanca": "Confundir apresentação de resumo e condição para toda recuperação.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.2: forma de apresentação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O resumo segue parágrafo único e frases concisas, sem enumeração de tópicos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
+        "ano": 2014,
+        "orgao": "TC DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-369852",
+        "declaracaoLegada": "Cebraspe / TC DF / 2014 (Adaptada); identificador legado: TecConcursos-369852"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-58",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "4.1.7: palavras-chave",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "f9d42c773c8de107ed409a981031b5f59c1e70a8c4b48b72d4a61491cf1cbfe2",
+    "shaDepois": "4649bcfb3c79640b48fe7a98fedc33a50603005157d8afb375b2d2b1cde70594",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 6028:2021, as palavras-chave abaixo do resumo devem ser separadas entre si por ponto final, ficando o ponto e vírgula reservado ao encerramento da sequência.",
+      "justificativa": "ERRADO. Palavras-chave ficam abaixo do resumo, após a expressão própria, separadas por ponto e vírgula e finalizadas por ponto. Confundir o separador com o sinal final muda a regra. Iniciais são minúsculas, ressalvados substantivos próprios e nomes científicos.",
+      "gatilho": "ponto final",
+      "armadilhaBanca": "Trocar separador entre termos e pontuação final.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.7: palavras-chave. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "As palavras-chave são separadas por ponto e vírgula, finalizando-se a sequência com ponto.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-59",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6024"
+    ],
+    "localizador": "indicativos e títulos de seções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "e42b8189ba01792607cb01a8437b147dfcec404a25275ba2cd32e7d1fb18f5e3",
+    "shaDepois": "bacb4c833f1a0201d4689dcfba7673a20bcdc5ca04765968c2922cb22f80862e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O indicativo é separado do título por espaço, sem ponto, hífen ou travessão adicional entre eles. Pontos internos, como em 1.2.3, indicam níveis hierárquicos. Não confundir esse uso com acrescentar sinal após o último número.",
+      "gatilho": "ponto gráfico",
+      "armadilhaBanca": "Transferir a pontuação interna do indicativo para sua terminação.",
+      "fonte": "ABNT NBR 6024:2012 — Numeração progressiva das seções — indicativos e títulos de seções. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Entre o indicativo completo da seção e seu título utiliza-se espaço, sem sinal adicional.",
+      "item": "Na numeração progressiva de seções disciplinada pela NBR 6024:2012, o indicativo numérico de cada seção é sucedido por ponto gráfico antes do título, a exemplo de \"1.\", \"1.1.\" e \"1.1.1.\".",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-60",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "5.2.3: títulos sem indicativo numérico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "acd2ed0936b89e9210af6190d89f1754a5c07326f1a36be788ee882077daaa6f",
+    "shaDepois": "fa61aab8a05d3c29c258f8d7ed4ae7e372a20bbbd8273911207f0f633847db0b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 14724:2024, títulos sem indicativo numérico, como resumo, sumário e referências, devem ser centralizados, observadas as regras de apresentação desses elementos.",
+      "justificativa": "CERTO. Elementos como referências, sumário, apêndices e anexos possuem títulos sem indicativo numérico e seguem a orientação de centralização. Isso não autoriza numerá-los como novas seções textuais apenas para obter alinhamento. Identificadores de apêndices e anexos seguem regras específicas.",
+      "gatilho": "centralizados",
+      "armadilhaBanca": "Distinguir seção textual numerada e elemento com título próprio.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.2.3: títulos sem indicativo numérico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Referências e sumário devem sempre receber números de seção textual apenas para poder aparecer no trabalho.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-61",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028",
+      "cad"
+    ],
+    "localizador": "4.1.1 e 4.1.2: conteúdo e forma",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "c361d331c2a2324569b3fd1e28344fc5dc5fca1c17d6115f21dea4fb6839302c",
+    "shaDepois": "03355d0fce307983f5b0a91d94547d701c086de86f3a1901d362582b9439198c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Todo resumo da NBR 6028:2021 deve obrigatoriamente começar com uma lista de categorias de tratamento, antes de abordar o conteúdo, independentemente de ser indicativo ou informativo.",
+      "justificativa": "ERRADO. A ordem e extensão dos elementos dependem do tipo de resumo e do tratamento no documento. Não existe uma fórmula que obrigue iniciar por uma listagem separada de todas as categorias. O parágrafo deve ressaltar o conteúdo sucintamente e respeitar a distinção entre resumo indicativo e informativo.",
+      "gatilho": "obrigatoriamente",
+      "armadilhaBanca": "Converter orientação de conteúdo em roteiro rígido universal.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.1 e 4.1.2: conteúdo e forma. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A ordem e a extensão das informações dependem do tipo de resumo e do tratamento recebido no documento.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANTT/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1847",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1847"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-62",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027"
+    ],
+    "localizador": "6.3: elementos pré-textuais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "c5889bc79e7606f599739635ac4796b961bb311f10d5a9129a3dbeb5d2a8ff80",
+    "shaDepois": "5ab0b08e6c278d4317510a0e133aef8a4c10ada19897a0ebec60009517ed9884",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O sumário registra as divisões e partes pertinentes sem listar elementos pré-textuais. O próprio sumário, resumos e listas prévias não entram como itens de si mesmos. Isso difere de elementos pós-textuais, que podem integrar a estrutura indicada.",
+      "gatilho": "NÃO",
+      "armadilhaBanca": "Distinguir posição pré-textual e conteúdo listado.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — 6.3: elementos pré-textuais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O sumário deve listar obrigatoriamente todos os elementos pré-textuais, inclusive ele próprio.",
+      "item": "No sumário elaborado conforme a NBR 6027:2012, os elementos pré-textuais (como errata, folha de aprovação, dedicatória, agradecimentos, resumos e listas de ilustrações) NÃO devem constar do sumário.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-63",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "2.6: definição de informativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "a377766c11b87dd79d003df0414f5c7cdbb8d1f7338ee07d906362af16d00d39",
+    "shaDepois": "e91f440a169874aeb34797424fe5d0354cddc801d5f768a0e993cec663ee1c2e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O informativo expõe finalidades, metodologia, resultados e conclusões, diferentemente de apenas indicar a existência dos assuntos. A presença de alguma informação de método não basta se a síntese desfigura o conteúdo. A seleção deve refletir o documento, sem inventar resultados ausentes.",
+      "gatilho": "resultados e conclusões",
+      "armadilhaBanca": "Distinguir síntese de conteúdo e simples indicação de estrutura.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.6: definição de informativo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Resumo informativo deve omitir finalidades, métodos, resultados e conclusões, limitando-se a listar títulos de seções.",
+      "item": "O resumo informativo tem como objetivo informar ao leitor finalidades, metodologia, resultados e conclusões do documento.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-64",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "4.1.8: extensão recomendada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "8f274e7f92d5a33997fa083e5f57048b3e3eddf7cf5053ea82ed929c4410ce5d",
+    "shaDepois": "78a3add37195fbdf2f0c487fbad9202abaa20d43eff1e7fdfc4e372cb2302b82",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 6028:2021, convém que os resumos tenham 150 a 500 palavras para trabalhos acadêmicos e relatórios técnicos ou científicos, 100 a 250 para artigos de periódicos e 50 a 100 para documentos não abrangidos pelas categorias anteriores.",
+      "justificativa": "CERTO. Convém indica recomendação de extensão, não limite obrigatório em toda situação editorial. A edição 2021 diferencia trabalhos acadêmicos e relatórios, artigos e demais documentos. Não se deve manter a categoria mais restrita de notas breves como se fosse a única abrangida pela última faixa.",
+      "gatilho": "convém",
+      "armadilhaBanca": "Distinguir recomendação normativa e requisito de uma submissão.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.8: extensão recomendada. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As três faixas de palavras são limites obrigatórios e absolutos, sem possibilidade de exigência editorial específica.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-65",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6024"
+    ],
+    "localizador": "4.1: hierarquia até a seção quinária",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "35748aad617a7b9d695acf638784b40b3b3cde53c1eb908be12857a3e4a8d0b4",
+    "shaDepois": "1a2256f2b532053b7a21fc7130881e80edc9aebc372590d58253783e454ad1c4",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6024:2012 limita a numeração progressiva à seção quinária, correspondente a cinco níveis de hierarquia, sem reduzir essa regra a um máximo de cinco algarismos.",
+      "justificativa": "CERTO. A norma limita a subdivisão à seção quinária, o quinto nível. Isso não significa cinco dígitos: um nível pode usar números com mais de um algarismo, como 2.10.3.1.4. O ponto separa níveis, enquanto o número em cada posição identifica a seção.",
+      "gatilho": "cinco níveis",
+      "armadilhaBanca": "Confundir quantidade de níveis e quantidade de dígitos.",
+      "fonte": "ABNT NBR 6024:2012 — Numeração progressiva das seções — 4.1: hierarquia até a seção quinária. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Seção quinária significa indicativo com exatamente cinco algarismos no total, sem admitir números como 10 em um nível.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-66",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "2.6: alcance do resumo informativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "96092027e116e2c1688badde0a3868b7a7db334ed421cbfec5e5fc6967ee8284",
+    "shaDepois": "55fd4c186a49c674082ebcb9d319a0a80e7c84d92578fa4bb72a80a721c23c97",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O informativo reúne conteúdo suficiente para certos usos de avaliação e decisão, podendo inclusive dispensar o original. A palavra pode não afirma suficiência universal. Quem precisa conferir dados, métodos completos ou passagens específicas ainda pode necessitar da fonte integral.",
+      "gatilho": "pode",
+      "armadilhaBanca": "Distinguir possibilidade de suficiência e dispensa universal.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.6: alcance do resumo informativo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um resumo informativo sempre torna desnecessária qualquer consulta ao documento original, seja qual for a finalidade da leitura.",
+      "item": "Segundo a ABNT NBR 6028:2021, o 'resumo informativo' é aquele que informa a finalidade, a metodologia, os resultados e as conclusões do documento, de tal forma que pode dispensar a consulta ao texto original completo.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-67",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028",
+      "cad"
+    ],
+    "localizador": "4.1.8: trabalhos acadêmicos e artigos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "70773f2d282dbb20e8ec15810791c6a57c07cc00ec02e0b4e79eddab2570127a",
+    "shaDepois": "14b62ca45467848aad568e0f6d1a84439eda51a0ea2e3d54636b078cece73b87",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na recomendação de extensão da NBR 6028:2021, a faixa destinada a trabalhos acadêmicos e relatórios técnicos ou científicos é de 100 a 250 palavras.",
+      "justificativa": "ERRADO. A faixa recomendada de 100 a 250 corresponde aos artigos de periódicos. Para trabalhos acadêmicos e relatórios técnicos ou científicos, convém 150 a 500. O erro é trocar as categorias, não afirmar que uma instituição nunca possa adotar uma exigência editorial própria.",
+      "gatilho": "100 a 250",
+      "armadilhaBanca": "Trocar faixas mantendo números familiares.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.8: trabalhos acadêmicos e artigos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A recomendação é 150 a 500 para trabalhos acadêmicos e relatórios e 100 a 250 para artigos de periódicos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ECT/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1822",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1822"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-68",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "2.5: resumo indicativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "29b7deec8e759af7242fd4eef68dc108a51cdacdabd419f73f32230c368bb6fe",
+    "shaDepois": "89eb9348510685006dcbf8e43f64cede5757552dabbdf3161370d950c2bc222e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O indicativo apresenta pontos principais sem detalhar dados qualitativos e quantitativos. Em geral, não dispensa consulta ao original. A descrição do item se aproxima de uma pretensão de resumo exaustivo e ainda exagera a autonomia, confundindo finalidade e alcance.",
+      "gatilho": "dispensando",
+      "armadilhaBanca": "Atribuir ao indicativo conteúdo e autonomia que sua definição não prevê.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.5: resumo indicativo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O resumo indicativo assinala os pontos principais, sem detalhamento e sem dispensar, em geral, a consulta ao original.",
+      "item": "O 'resumo indicativo' é aquele que apresenta detalhadamente todos os dados quantitativos, tabelas numéricas e as conclusões completas da pesquisa, dispensando integralmente a leitura do texto original.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-69",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "2.2, 2.3 e 4.2: resenha e recensão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "c7f47c35b8f344483aa22d7503331e303cdd14f9326e98ba0517669db73ff78f",
+    "shaDepois": "fb5f2a12313207f6010eabbf80387e879ddffbcc3ff12d5b25c723cf02d523b3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 6028:2021, resenha e recensão possuem definições próprias, distintas das definições de resumo indicativo e resumo informativo.",
+      "justificativa": "CERTO. A edição 2021 define resenha e recensão e as distingue dos tipos de resumo. Recensão pode ser crítica, descritiva ou comparativa, geralmente feita por especialista. Não se deve tratar três termos de tradições diferentes como sinônimos absolutos nem manter a categoria resumo crítico sem informar a edição histórica.",
+      "gatilho": "distintas",
+      "armadilhaBanca": "Distinguir termos e atualizar a edição da norma.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 2.2, 2.3 e 4.2: resenha e recensão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na NBR 6028:2021, resenha, recensão e resumo informativo são termos intercambiáveis com a mesma definição.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-70",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028",
+      "cad"
+    ],
+    "localizador": "4.1.8, b: artigos de periódicos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "63fe1443d527da0b0f4733379cc8422073fad05ac16df425083990d482125fd9",
+    "shaDepois": "30163509a7c73cea92168ba7cba0124d34ab0627f2d5731b07346d0fb9c57a59",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6028:2021 recomenda a extensão de 100 a 250 palavras para resumos de artigos de periódicos.",
+      "justificativa": "CERTO. A norma usa convém para a faixa de 100 a 250 palavras em resumos de artigos. Essa escolha verbal importa: trata-se de recomendação, não de uma prova automática de invalidade de qualquer resumo fora da faixa. Uma revista pode definir exigência específica para aceitação.",
+      "gatilho": "recomenda",
+      "armadilhaBanca": "Não converter recomendação de extensão em sanção universal.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.8, b: artigos de periódicos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A norma torna inválido todo artigo cujo resumo tenha 251 palavras, independentemente da regra editorial adotada.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "CPRM/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1858",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1858"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-71",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027"
+    ],
+    "localizador": "definição e localização; distinguir índice",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "b3c20f2a032356fbe01baf77878a2d1f43128dc11d48a4cef25e45ee0d3a4b7c",
+    "shaDepois": "bf05c57f3589c62453df22eed804ad5ce2dffc32d6256a23ce4dc502ff272904",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O sumário reflete a ordem das partes do documento e é pré-textual. Um índice permite localizar entradas por critérios próprios, como assuntos em ordem alfabética, e geralmente é pós-textual. As funções se complementam sem identidade entre os elementos.",
+      "gatilho": "equivalentes",
+      "armadilhaBanca": "Confundir mapa da estrutura e instrumento de acesso por entradas.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — definição e localização; distinguir índice. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Sumário mostra a estrutura na sequência do texto; índice organiza entradas para localização segundo seu critério.",
+      "item": "No projeto gráfico editorial segundo a ABNT, sumário e índice constituem elementos funcionais equivalentes, situando-se o sumário ao término da publicação estruturado em ordem alfabética de assuntos.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-72",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028"
+    ],
+    "localizador": "4.1.2: parágrafo único",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "e4201b82f2630d80453bdced08684efcdc72cd527ec17fe3e8fee012286c8700",
+    "shaDepois": "ae84ff73bb0439910196ec64daf5e70cb632713d8e6bf717b71bfcc601807ca1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A regra prevê sequência de frases concisas em parágrafo único, sem enumeração de tópicos. Uma síntese pode apresentar método e conclusões de modo articulado sem marcadores. O fato de tópicos parecerem visualmente práticos não altera a prescrição da norma.",
+      "gatilho": "tópicos",
+      "armadilhaBanca": "Substituir conveniência visual pela regra efetiva.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.2: parágrafo único. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O resumo deve usar frases concisas em parágrafo único, sem enumeração de tópicos.",
+      "item": "A ABNT NBR 6028:2021 estabelece que o resumo de monografias e dissertações acadêmicas seja organizado em itens tópicos com marcadores (bullet points), segmentando cada conclusão metodológica.",
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-73",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6024",
+      "cad"
+    ],
+    "localizador": "separação do indicativo e título",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "22576b584954f0498c62f32ddc6f8d23f286239aa188aa46e4c40d603253d82c",
+    "shaDepois": "09df4b359aa07e44b712366dedc0bbc6b61206560a18ddb73b9443e7d2165c8d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Segundo a NBR 6024:2012, deve-se inserir hífen ou travessão entre o indicativo e o título da seção, como em 11 – Tutorial no uso do LaTeX.",
+      "justificativa": "ERRADO. Após o indicativo completo vem espaço e título, sem hífen ou travessão separador. A palavra ou símbolo dentro do título deve ser tratado como parte do título, não como sinal obrigatório de separação. A grafia correta de LaTeX também não muda a regra de numeração.",
+      "gatilho": "hífen",
+      "armadilhaBanca": "Inserir sinal inexistente entre número e título.",
+      "fonte": "ABNT NBR 6024:2012 — Numeração progressiva das seções — separação do indicativo e título. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um título pode ser apresentado como 11 Tutorial no uso do LaTeX, sem hífen entre indicativo e título.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio Doc (FUB)/FUB/2015",
+        "ano": 2015,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-289191",
+        "declaracaoLegada": "Cebraspe / FUB / 2015 (Adaptada); identificador legado: TecConcursos-289191"
+      },
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-74",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027",
+      "cad"
+    ],
+    "localizador": "5.1 e 5.2: indicativos e títulos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "1d25e4ab0c3b42f58d15fcb10e301202d87e395eab08979bafe8c34da343db47",
+    "shaDepois": "243921f4efd459d7cc752ab190033d8cc7a63b84ce83ee47eadabc4abbc28c76",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Quando há indicativos, eles se alinham à esquerda e precedem títulos e subtítulos. A correspondência com o corpo do documento deve ser preservada. Localizadores de páginas não substituem o indicativo da seção nem devem ser confundidos com sua numeração hierárquica.",
+      "gatilho": "alinhados à esquerda",
+      "armadilhaBanca": "Distinguir indicativo hierárquico e página de localização.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — 5.1 e 5.2: indicativos e títulos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No sumário, o número da página substitui obrigatoriamente o indicativo da seção antes de cada título.",
+      "item": "Caso um sumário contenha indicativos de seções, estes devem ser alinhados à esquerda e precederem o título, sendo dele separado por espaço.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STM/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1852",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1852"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-75",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6028",
+      "cad"
+    ],
+    "localizador": "4.1.8, c: demais documentos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "12bd98496130e87a1caca0a12f1a35720803296b3de4d7453882370ef4cb5a1b",
+    "shaDepois": "086e8cfeca58f7a867a9e97b37bfe5c64e7921141817bed6fd96eba12860051b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 6028:2021, convém que resumos de documentos não contemplados nas categorias de trabalhos acadêmicos, relatórios técnicos ou científicos e artigos de periódicos tenham de 50 a 100 palavras.",
+      "justificativa": "CERTO. A faixa de 50 a 100 palavras é recomendada para documentos não contemplados nas categorias de trabalhos acadêmicos, relatórios e artigos de periódicos. A redação foi atualizada para a abrangência de 2021 e para o caráter recomendatório. Não se trata de impor a mesma faixa a todo tipo de resumo.",
+      "gatilho": "convém",
+      "armadilhaBanca": "Distinguir categoria residual e regra universal.",
+      "fonte": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação — 4.1.8, c: demais documentos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A faixa de 50 a 100 palavras é obrigatória para todo resumo, incluindo teses e artigos de periódicos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-165433",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165433"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-76",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724",
+      "cad"
+    ],
+    "localizador": "4.2.1.1: dados de catalogação na publicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "4d10f045ad817c4c0e5564af0893ca8423938cedf238bd13c3b0382b76eca5a5",
+    "shaDepois": "f5ee015e4db116ba5b7cf57f259d80800d1b4cea80f7b9b2b67263594818d813",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 14724:2024 determina que os dados internacionais de catalogação na publicação sejam apresentados conforme o código de catalogação vigente.",
+      "justificativa": "CERTO. A norma remete ao código vigente e indica a localização dos dados de catalogação. Não impõe interpretar uma menção antiga ao AACR como obrigação exclusiva em qualquer cenário. Também é necessário distinguir catalogação na publicação e simples lista de referências do trabalho.",
+      "gatilho": "código de catalogação vigente",
+      "armadilhaBanca": "Distinguir descrição do próprio trabalho e documentos citados nele.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 4.2.1.1: dados de catalogação na publicação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os dados de catalogação na publicação equivalem à lista de referências e dispensam regras de catalogação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1816",
+        "declaracaoLegada": "Cebraspe / 2017 / 2017 (Adaptada); identificador legado: cespe-cad-1816"
+      },
+      "submoduloId": "8.5"
+    }
+  },
+  {
+    "id": "m8-q-77",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6032",
+      "cad"
+    ],
+    "localizador": "2.1.6: palavras de mesma raiz e sentido",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "cd93bef7226195a0f92dde246114ffbffe05021dc56db045418aa0379345eeef",
+    "shaDepois": "5e5abbfcae6cb0a0477b3d84529cbc2088ba0cdc69bae8efcf63b1889d2fc07a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Segundo a NBR 6032:1989, abreviam-se preferencialmente de maneira idêntica vocábulos de línguas diferentes com a mesma raiz e o mesmo sentido, quando a ortografia permitir.",
+      "justificativa": "CERTO. A norma busca consistência entre vocábulos de línguas diferentes quando compartilham raiz e sentido e a ortografia permite. A orientação é condicionada, não autorização para aplicar a mesma abreviação a palavras apenas parecidas. O idioma e as listas de abreviaturas continuam relevantes.",
+      "gatilho": "preferencialmente",
+      "armadilhaBanca": "Preservar condição de sentido e compatibilidade ortográfica.",
+      "fonte": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas — 2.1.6: palavras de mesma raiz e sentido — https://fasamar.edu.br/wp-content/uploads/2020/02/ABNTS.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Palavras de idiomas diferentes devem sempre receber a mesma abreviação, mesmo quando têm sentidos distintos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646345",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646345"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-78",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb184"
+    ],
+    "localizador": "identificação do responsável pela ficha",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "06670c377b27a69105af51ecf26a1fb7d74189d40ab184dfacad8854967a0fb6",
+    "shaDepois": "e0081eed4d657828de2fec1f71020f07ef6cb302ffd50c4ce6ee814f90476953",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O CFB orienta a identificação do bibliotecário responsável, com registro profissional, inclusive na ficha catalográfica. Ferramenta automatizada não afasta automaticamente essa responsabilidade. Regras da profissão não se reduzem ao uso de um gerador ou de um formulário institucional.",
+      "gatilho": "qualquer pessoa",
+      "armadilhaBanca": "Confundir produção assistida por software e dispensa de responsabilidade profissional.",
+      "fonte": "Conselho Federal de Biblioteconomia — Perguntas frequentes: ficha catalográfica e Resolução 184/2017 — identificação do responsável pela ficha — https://cfb.org.br/perguntas-frequentes/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A ficha deve observar a responsabilidade e a identificação profissional aplicáveis, inclusive quando apoiada por sistema automatizado.",
+      "item": "A elaboração da ficha catalográfica de um livro publicado no Brasil pode ser feita livremente por qualquer pessoa sem registro profissional no Conselho Regional de Biblioteconomia, dispensando o número de CRB.",
+      "submoduloId": "8.5"
+    }
+  },
+  {
+    "id": "m8-q-79",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027",
+      "cad"
+    ],
+    "localizador": "escopo: sumário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "883c923a8632f55db352f53744961fef26bd0e92a57c97f7a09b7859f1d02be5",
+    "shaDepois": "f542737b256c01909a83ade86cc39b06dccb4bc4db9bcf1684d8a9dbd15f34ec",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6027 é a norma que disciplina a numeração progressiva das seções, substituindo a NBR 6024 nessa função.",
+      "justificativa": "ERRADO. NBR 6027 trata do sumário; NBR 6024 trata da numeração progressiva das seções. O sumário pode reproduzir indicativos definidos no texto, mas essa relação não torna as normas idênticas. Saber o elemento que está sendo regulamentado evita a troca por proximidade numérica.",
+      "gatilho": "numeração progressiva",
+      "armadilhaBanca": "Trocar funções de normas relacionadas.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — escopo: sumário. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A NBR 6027 trata do sumário, enquanto a NBR 6024 disciplina a numeração progressiva das seções.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1815",
+        "declaracaoLegada": "Cebraspe / 2017 / 2017 (Adaptada); identificador legado: cespe-cad-1815"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-80",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr10518",
+      "cad"
+    ],
+    "localizador": "escopo: guias de unidades informacionais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "61ef6001733acf27a8f6f7c2e92045a5cb66b656483f72361b8e2abc06e5708d",
+    "shaDepois": "e9d185f0c37cfa7c646bd809e640c1641a7c39485820679187ac3ed17fedd82f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 10518:2005 tem como objeto principal a numeração progressiva de seções de documentos escritos, correspondendo à mesma finalidade da NBR 6024.",
+      "justificativa": "ERRADO. A NBR 10518:2005 foi elaborada para requisitos de organização e informação básica de guias de unidades informacionais. Numeração progressiva de seções é tema da NBR 6024. A reformulação elimina a troca de sessões e seções e concentra o julgamento na finalidade normativa.",
+      "gatilho": "numeração progressiva",
+      "armadilhaBanca": "Confundir objeto da norma e recurso de organização de documentos.",
+      "fonte": "ABNT NBR 10518:2005 — Guias de unidades informacionais — Elaboração — escopo: guias de unidades informacionais — https://www.ufsm.br/app/uploads/sites/362/2019/04/colecao_abnt1.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A NBR 10518:2005 trata de guias de unidades informacionais; numeração progressiva de seções é tema da NBR 6024.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1821",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1821"
+      },
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m8-q-81",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027",
+      "cad"
+    ],
+    "localizador": "4.1: obra em mais de um volume",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "e7ea73793f761b2a28332bc4dfa43c0812debd57d2f4ed29a475d3634ff3dc90",
+    "shaDepois": "b233e59b64fa4ee4bb3d451952dc7a1dde3eeec4a01606583edc0a2763b3269b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A inclusão do sumário de toda a obra em cada volume permite conhecer a organização do conjunto sem ter todos os volumes em mãos. Isso não obriga repetir o texto integral de cada parte. Sumário e paginação também são aspectos distintos da apresentação multivolume.",
+      "gatilho": "todos os volumes",
+      "armadilhaBanca": "Distinguir mapa do conjunto e reprodução integral dos conteúdos.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — 4.1: obra em mais de um volume. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Cada volume deve omitir o sumário do conjunto, impedindo conhecer as partes presentes nos demais volumes.",
+      "item": "A Norma Brasileira 6027 (Informação e documentação — Sumário — Apresentação) determina que, no caso de mais de um volume de uma obra, deve ser incluído o sumário de toda a obra em todos os volumes, de forma que se tenha conhecimento do conteúdo, independentemente do volume consultado.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ABNT",
+        "ano": 2024,
+        "orgao": "ABNT",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1827",
+        "declaracaoLegada": "Cebraspe / ABNT / 2024 (Adaptada); identificador legado: cespe-cad-1827"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-82",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6032",
+      "cad"
+    ],
+    "localizador": "2.1.7: palavras compostas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "d2eab4384e201d1e94820cfdfd2f9a855c3b050d6e8df825caa9cf1cd8b26925",
+    "shaDepois": "e050e0e61b4b78b64cdc87fd5648375878d307dda7e24176578f37f890799d4f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Segundo a NBR 6032:1989, os elementos de uma palavra composta devem ser abreviados sem conservar o traço de união que liga esses elementos.",
+      "justificativa": "ERRADO. Os elementos de uma palavra composta são abreviados como se isolados, unidos por traço de união. Suprimir a união pode alterar a forma convencional do título abreviado. A questão foi reescrita para julgar a regra, evitando depender de abreviação lexical não apresentada ao aluno.",
+      "gatilho": "sem conservar",
+      "armadilhaBanca": "Confundir abreviação dos elementos e eliminação de sua ligação.",
+      "fonte": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas — 2.1.7: palavras compostas — https://fasamar.edu.br/wp-content/uploads/2020/02/ABNTS.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na abreviação de palavra composta, abreviam-se seus elementos e mantém-se a união pelo traço conforme a regra.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646346",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646346"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-83",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "5.1: margens de anverso e verso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "e5805c161555634d84cfed7e609fe8765c6f0f1cd9beab77015f1d0fd13ed34b",
+    "shaDepois": "bf51758e3de94be5b6da666d741b863295ebcaee135808d7565b4c177d46235b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Para o anverso de trabalhos acadêmicos, a NBR 14724:2024 prevê margens esquerda e superior de 3 cm e direita e inferior de 2 cm.",
+      "justificativa": "CERTO. No anverso, superior e esquerda são 3 cm e inferior e direita são 2 cm. Para o verso, a distribuição lateral se inverte: direita 3 cm e esquerda 2 cm. O erro comum é aplicar a mesma margem lateral a ambas as faces em um trabalho frente e verso.",
+      "gatilho": "anverso",
+      "armadilhaBanca": "Distinguir faces da folha ao aplicar margens.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.1: margens de anverso e verso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No verso, as margens laterais devem permanecer obrigatoriamente iguais às do anverso, sem inversão.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-84",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "issn"
+    ],
+    "localizador": "atribuição nacional e rede internacional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 4.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "5bb718475963bff847dcf0ddbcb3f01006e7f9728dfa756fc28b4a0f515368fe",
+    "shaDepois": "f68ce45bb8ff61e1bff69aa23a327abc7635ddf68e3c8c3a1d4f74e84ae60b92",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No Brasil, o Centro Brasileiro do ISSN, sediado no Ibict, atua na atribuição do identificador em articulação com a Rede Internacional do ISSN.",
+      "justificativa": "CERTO. O Centro Brasileiro do ISSN funciona no Ibict e integra a rede internacional. A atribuição identifica a publicação continuada segundo as regras próprias. ISSN não é número individual de cada artigo nem certificado da qualidade editorial do conteúdo.",
+      "gatilho": "Ibict",
+      "armadilhaBanca": "Separar identificação da publicação e avaliação científica.",
+      "fonte": "Ibict — Centro Brasileiro do ISSN — atribuição nacional e rede internacional — https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/centro-brasileiro-do-issn",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Receber ISSN comprova a qualidade científica de todos os artigos e funciona como identificador individual de cada artigo.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m8-q-85",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "4.2.1.1 e 5.1: localização dos dados de catalogação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "241dd01746c297018f4009d659fb8933755bfa62d7e001f89ad848daad071003",
+    "shaDepois": "3461004f7405218e4f0d3b7203faa09a05a04586b428b0f08f9c4d949c423ffd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 14724:2024, os dados de catalogação na publicação constam no verso da folha de rosto no impresso e, em formato eletrônico, imediatamente após a página de rosto.",
+      "justificativa": "CERTO. No trabalho impresso, os dados ficam no verso da folha de rosto; no eletrônico, imediatamente após a página de rosto. Essa regra do trabalho acadêmico não deve ser generalizada indistintamente a qualquer produto editorial. A localização tampouco substitui o controle da qualidade da descrição.",
+      "gatilho": "formato eletrônico",
+      "armadilhaBanca": "Aplicar a regra ao suporte e ao tipo documental pertinentes.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 4.2.1.1 e 5.1: localização dos dados de catalogação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Em trabalhos eletrônicos, os dados de catalogação devem ser inseridos apenas após todos os anexos.",
+      "submoduloId": "8.5"
+    }
+  },
+  {
+    "id": "m8-q-86",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "seção 4: estrutura externa e interna",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "77cb970474084963122bf44b7582c59b590a3ebffbdfcd71964603984dbbc2e8",
+    "shaDepois": "0abc68a103a7e854c7eb500f62831a4e6464316afa50150bf2d302a7d7ae1ba0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na estrutura da NBR 14724:2024, a parte interna do trabalho compreende elementos pré-textuais, textuais e pós-textuais, distinguindo-se da parte externa.",
+      "justificativa": "CERTO. A norma distingue parte externa e parte interna. Os grupos pré-textuais, textuais e pós-textuais organizam a parte interna, não substituem essa primeira distinção. A nova redação explicita o nível da classificação para não transformar um agrupamento correto em descrição incompleta do todo.",
+      "gatilho": "parte interna",
+      "armadilhaBanca": "Distinguir divisão geral e subdivisão da parte interna.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — seção 4: estrutura externa e interna. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Pré-textuais, textuais e pós-textuais correspondem à parte externa, enquanto capa e lombada constituem a parte interna.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-87",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6032",
+      "cad"
+    ],
+    "localizador": "orientação de apresentação em bibliografias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "0dc326d1613d9bda55abde6c7ca3b9a06858eaa245d86f3c7a515ed9921d3f27",
+    "shaDepois": "1f895e2f86c055db6ce140d4bfdc942055c907f39dda7450e30ba841c8cb84b0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na aplicação da NBR 6032:1989 a bibliografias, prevê-se lista das abreviaturas e respectivos títulos completos dos periódicos, com local de publicação e, opcionalmente, editores e endereços.",
+      "justificativa": "CERTO. A lista de abreviaturas e títulos completos ajuda o leitor a identificar os periódicos citados. Local e demais informações previstas apoiam a desambiguação. A abreviação não deve depender de adivinhação nem se tornar livre criação de uma forma diferente para cada ocorrência.",
+      "gatilho": "lista",
+      "armadilhaBanca": "Distinguir economia gráfica e perda de identificação.",
+      "fonte": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas — orientação de apresentação em bibliografias — https://fasamar.edu.br/wp-content/uploads/2020/02/ABNTS.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Em bibliografias, as abreviaturas devem ser usadas sem qualquer possibilidade de identificação dos títulos completos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1817",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1817"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-88",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6032",
+      "cad"
+    ],
+    "localizador": "2.2.3: título constituído por uma única palavra",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "fdd28aec647dc6ee6bef53a5dc6ef0f8e6f01ba1ff53a7d61264e63e6248e40d",
+    "shaDepois": "45c00575cffe6632593b490269dc0387a7362a784da8fb7d3cfd97bdfb028035",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Aplicando a NBR 6032:1989, o título de periódico constituído pela única palavra Nature deve obrigatoriamente ser abreviado para Nat.",
+      "justificativa": "ERRADO. A norma prevê que títulos constituídos de uma palavra não sejam abreviados. Essa regra de título difere das listas de abreviaturas de palavras usadas em títulos compostos. A substituição da pergunta antiga evita exigir uma abreviação avulsa sem contexto suficiente.",
+      "gatilho": "Nature",
+      "armadilhaBanca": "Confundir regra de palavra em título composto e título de uma só palavra.",
+      "fonte": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas — 2.2.3: título constituído por uma única palavra — https://fasamar.edu.br/wp-content/uploads/2020/02/ABNTS.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um título de periódico constituído por uma única palavra não é abreviado nessa regra.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646347",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646347"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-89",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6024",
+      "cad"
+    ],
+    "localizador": "escopo: numeração progressiva",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "4b72db2e855e880fcc9f65ab20263ac35f8e5e23c956c2e0def36fb3667f89ed",
+    "shaDepois": "bcbb0d313b2236801b62cb3cb15e79865c3f267260de34ac0da5fd0f57828dea",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. NBR 6024 disciplina a numeração progressiva; sumário é objeto da NBR 6027. O sumário pode reproduzir a hierarquia numérica, mas isso é aplicação articulada, não identidade de escopos. As duas normas ajudam a manter correspondência entre estrutura e apresentação.",
+      "gatilho": "sumários",
+      "armadilhaBanca": "Trocar objetos de normas complementares.",
+      "fonte": "ABNT NBR 6024:2012 — Numeração progressiva das seções — escopo: numeração progressiva. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "NBR 6024 trata de numeração progressiva e NBR 6027 de sumário.",
+      "item": "A ABNT NBR 6024 regulamenta procedimentos de sumários.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1814",
+        "declaracaoLegada": "Cebraspe / 2017 / 2017 (Adaptada); identificador legado: cespe-cad-1814"
+      },
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-90",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "5.3: contagem e exibição da paginação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "4463c8a01578d34084b5e839b6ac0a862fdf699df2dd6d52ec935b4c851c3466",
+    "shaDepois": "918777058772be8be767e05488ddeb5ae87697eb97946c0d4f35efc20878f371",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 14724:2024, o verso da folha de rosto com os dados internacionais de catalogação deve ser contado e numerado como as demais páginas, sem exceção.",
+      "justificativa": "ERRADO. A contagem parte da folha de rosto conforme suporte e faces, com exceção do verso que contém os dados de catalogação. A numeração visível começa na primeira parte textual. Capa não é a página 1 impressa do trabalho e não deve ser confundida com a folha de rosto.",
+      "gatilho": "verso da folha",
+      "armadilhaBanca": "Confundir contar, numerar e distinguir capa de folha de rosto.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.3: contagem e exibição da paginação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A contagem e a exibição da paginação seguem regras distintas; capa não é o início numerado visível do texto.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-91",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "estrutura: capa e folha de aprovação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "ecc66c24f54758e77dd6368be05e24180ca6ec1913f1412986cbacbf82533eec",
+    "shaDepois": "13b101bdc77aefad69abf0306fff338b20af27ed27c0f17832d4a396d8517608",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Capa pertence à parte externa; folha de aprovação é elemento pré-textual da parte interna. Não são pós-textuais facultativos localizados após referências. A localização estrutural precisa ser distinguida do momento em que um elemento é produzido ou aprovado.",
+      "gatilho": "pós-textuais",
+      "armadilhaBanca": "Confundir produção administrativa do elemento e posição no trabalho.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — estrutura: capa e folha de aprovação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Capa é elemento externo e folha de aprovação integra os pré-textuais, conforme a estrutura da norma.",
+      "item": "Na NBR 14724:2024, a capa e a folha de aprovação são classificadas formalmente como elementos pós-textuais de inserção facultativa após a bibliografia.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-92",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "isbn"
+    ],
+    "localizador": "estrutura e identificação de edições e formatos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 4.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "a18a690b1e68b51933b78b846e08c2d588c2b305096f3d1d675b2cfa6dfe76cc",
+    "shaDepois": "7afd58c4bcbc3c1320a9de14da8c31d2c56448a46fff94fe29dbd67274b87dfd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O ISBN atual possui 13 dígitos em cinco elementos e identifica publicações monográficas segundo edição e formato, sem funcionar como número individual de cada exemplar físico.",
+      "justificativa": "CERTO. O ISBN atual tem treze dígitos distribuídos em cinco elementos. Identifica edição e formato de uma publicação monográfica, não cada exemplar físico; versões com características relevantes distintas podem exigir identificadores distintos. Não deve ser apresentado como código de um único título abstrato válido para todas as edições.",
+      "gatilho": "13 dígitos",
+      "armadilhaBanca": "Distinguir título, edição, formato e exemplar.",
+      "fonte": "International ISBN Agency — What is an ISBN? — estrutura e identificação de edições e formatos — https://www.isbn-international.org/content/what-isbn",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todas as edições e formatos de um livro devem usar necessariamente o mesmo ISBN, pois ele identifica apenas o título abstrato.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m8-q-93",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "isbn"
+    ],
+    "localizador": "diferença entre ISBN e ISSN",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 4.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "cfa8aaa585204556d7d38df5f066577d74f957b279d78496599ab0443a544acc",
+    "shaDepois": "f65f7b4eb4123fa78afe8550e1b7ae4bfcf9a8b67a94ba96bbb1f1a142e1cd59",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. ISBN e ISSN possuem estruturas e escopos diferentes: publicações monográficas e publicações continuadas, respectivamente, segundo suas regras. Uma série monográfica pode envolver os dois em níveis distintos. Essa coexistência não torna os códigos idênticos ou intercambiáveis.",
+      "gatilho": "idênticos",
+      "armadilhaBanca": "Confundir coexistência e identidade de sistemas.",
+      "fonte": "International ISBN Agency — What is an ISBN? — diferença entre ISBN e ISSN — https://www.isbn-international.org/content/what-isbn",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "ISBN e ISSN são identificadores distintos e podem coexistir em níveis diferentes de certas publicações.",
+      "item": "O ISBN e o ISSN são códigos idênticos destinados ao mesmo tipo de publicação, sendo o ISBN atribuído a revistas diárias e o ISSN a enciclopédias em volume único.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m8-q-94",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6027",
+      "cad"
+    ],
+    "localizador": "5.6: versões em mais de um idioma",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.4, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "b6429b15ed7d9e8e6dd4a8fec038e1ab275c97dbc8ae87c520baf7486e022814",
+    "shaDepois": "71e95519a5a166ec57fa47a998341be3b9f6938d6a8669049b956668892fc40e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6027:2012 proíbe sumários separados por idioma em páginas distintas quando um documento apresenta o mesmo texto em mais de um idioma.",
+      "justificativa": "ERRADO. Para o mesmo texto em vários idiomas, a edição 2012 recomenda sumário separado para cada idioma em páginas distintas. Não é uma proibição desse arranjo. A redação foi atualizada para não julgar uma regra antiga como se fosse a única aplicável ao corte.",
+      "gatilho": "proíbe",
+      "armadilhaBanca": "Inverter recomendação de organização multilíngue.",
+      "fonte": "ABNT NBR 6027:2012 — Sumário — 5.6: versões em mais de um idioma. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A norma recomenda sumários separados em páginas distintas para cada idioma quando o mesmo texto é apresentado em mais de um idioma.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1818",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1818"
+      },
+      "submoduloId": "8.4"
+    }
+  },
+  {
+    "id": "m8-q-95",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "identificação de apêndices e anexos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "206159c789a661087f638a0a16f0e0718ed95852642e0cb6f9b4634ea110c911",
+    "shaDepois": "679683a5a772c14e20e1993d614333cf566a4a3d1593d50f189674859e5f82fa",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na NBR 14724:2024, anexos devem ser identificados por indicativos numéricos de seções textuais, continuando obrigatoriamente a mesma hierarquia de subseções da conclusão.",
+      "justificativa": "ERRADO. Apêndices e anexos recebem letras maiúsculas consecutivas, travessão e título conforme a norma. Não se aplica a eles uma sequência de números decimais. A letra de identificação também não faz parte da paginação contínua do trabalho.",
+      "gatilho": "indicativos numéricos",
+      "armadilhaBanca": "Confundir identificador do elemento e numeração hierárquica ou de páginas.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — identificação de apêndices e anexos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Anexos são identificados por letras maiúsculas consecutivas, travessão e título, conforme a norma.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-96",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "definições: apêndice e anexo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "bf822242f3a93a01b96135f8ac215b076cc61690578194dbbde461f79717f3ac",
+    "shaDepois": "c8fa468288ba4a41e79bfe845a7b02d3229b756b1385322f2c96d05ecd934630",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Apêndice é elaborado pelo autor para complementar o trabalho; anexo não é elaborado por ele e serve às finalidades pertinentes. A distinção considera autoria, não tamanho ou importância. Um texto legal de terceiro não vira apêndice apenas porque foi digitado novamente pelo pesquisador.",
+      "gatilho": "próprio autor",
+      "armadilhaBanca": "Distinguir criação do conteúdo e reprodução de documento de terceiro.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — definições: apêndice e anexo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Reproduzir por digitação uma lei transforma-a em apêndice de autoria do pesquisador.",
+      "item": "A distinção formal entre 'Apêndice' e 'Anexo' reside no fato de que o Apêndice é um documento ou texto elaborado pelo próprio autor da pesquisa para complementar sua argumentação, enquanto o Anexo é um documento não elaborado pelo autor (texto legal, mapa oficial, laudo de terceiro) incorporado para fundamentação.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-97",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "depositoLegal"
+    ],
+    "localizador": "finalidade e obrigação de depósito",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 1.2 para 1.1, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "94bf23d77212a1472e0337f96a27f85014ef4821cd90b5657b60974a8a0b63f1",
+    "shaDepois": "5246286535e8dd87243b75b4e98d8d243c225f5188fcb403074261574c82c7eb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na Lei 10.994/2004, a atribuição de ISBN a um livro substitui o depósito legal, dispensando o envio dos exemplares abrangidos pela obrigação à Biblioteca Nacional.",
+      "justificativa": "ERRADO. A lei estabelece depósito de publicações na Biblioteca Nacional para assegurar coleta e guarda da produção abrangida. Não proíbe a remessa como excesso de doação. Depósito legal é obrigação e instrumento patrimonial próprio, distinto de seleção voluntária de qualquer doação.",
+      "gatilho": "ISBN",
+      "armadilhaBanca": "Confundir identificação editorial e obrigação patrimonial.",
+      "fonte": "Lei 10.994/2004 — arts. 1º a 5º e 8º — acervo-estudos/Legislação e contexto legislativo/Lei 10.994.pdf (ref. auditoria-2026-10).",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Lei 10.994/2004 institui depósito legal de publicações na Biblioteca Nacional, conforme sua abrangência e seus requisitos.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m8-q-98",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "jurisprudência: elementos de identificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4e9746f308c39f09da508e49176ff8145e30ca9628931387182bba6123e8e6f5",
+    "shaDepois": "498935169088c76da3883f562de10cdc6c70b3f77044f70c17ec65302be7c873",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A referência de jurisprudência deve identificar jurisdição, órgão judiciário, natureza e número da decisão, além de relator, data e publicação e dos demais dados pertinentes, conforme a NBR 6023:2025.",
+      "justificativa": "CERTO. Jurisdição e órgão identificam a origem da decisão; natureza, número, relator e publicação permitem individualizá-la. Partes e outros dados são registrados conforme pertinência e disponibilidade. Referenciar uma ementa não equivale a consultar o inteiro teor nem prova, sozinho, que a decisão é vinculante.",
+      "gatilho": "órgão judiciário",
+      "armadilhaBanca": "Distinguir parte processual e identificação documental da decisão.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — jurisprudência: elementos de identificação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A referência de um acórdão dispensa identificar órgão e decisão quando se conhece o nome de uma das partes.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ECT/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1825",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1825"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m8-q-99",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr14724"
+    ],
+    "localizador": "5.3: paginação de trabalho somente no anverso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.3, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "0ac738e0a32bc458625d65a54214f62cb99d8767b8b981f8577bb1027dd56bd5",
+    "shaDepois": "fa049fee4b58610f73503f2bb005c67a9204fe4984515a61812d870f6986fe8d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Em trabalho apresentado somente no anverso, a NBR 14724:2024 prevê contagem das folhas a partir da folha de rosto e numeração visível desde a primeira folha textual, em algarismos arábicos no canto superior direito.",
+      "justificativa": "CERTO. No trabalho apenas no anverso, contam-se folhas desde a folha de rosto e a numeração visível começa na primeira folha textual, na posição prevista. Em anverso e verso há regras de posição diferentes para cada face. O verso de catalogação não é contado nem numerado; não se pode generalizar toda face como página contada.",
+      "gatilho": "somente no anverso",
+      "armadilhaBanca": "Distinguir contagem, impressão de número e exceção da catalogação.",
+      "fonte": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos — 5.3: paginação de trabalho somente no anverso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A numeração visível deve começar na própria folha de rosto e o verso de catalogação deve ser contado e numerado.",
+      "submoduloId": "8.3"
+    }
+  },
+  {
+    "id": "m8-q-100",
+    "caminho": "src/content/questions/m8-normalizacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6034"
+    ],
+    "localizador": "escopo: índices impressos e automatizados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Correção do vínculo de teoria: 8.2 para 8.5, após conferir conteúdo e título efetivos da aula.",
+    "shaAntes": "4e94f54fad524c1d11c259cf6e14e491bcb3fa7b7c14d841916c1da3519c3363",
+    "shaDepois": "7c815407797f86c2737335abd42b813cbb4984f9cc62b5c50e31dd3d9c1c849b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A NBR 6034:2004 aplica-se à apresentação de índices e, no que couber, aos índices automatizados.",
+      "justificativa": "CERTO. A edição 2004 estabelece requisitos para índices e declara aplicação, no que couber, aos automatizados. Isso não torna todo mecanismo de busca uma implementação integral da norma nem elimina diferenças técnicas. A ressalva impede uma aplicação literal indiscriminada de regras do impresso ao digital.",
+      "gatilho": "no que couber",
+      "armadilhaBanca": "Preservar ressalva de aplicabilidade sem excluir o ambiente digital.",
+      "fonte": "ABNT NBR 6034:2004 — Índice — Apresentação — escopo: índices impressos e automatizados — https://cnm.paginas.ufsc.br/files/2020/02/ABNT-NBR-6034.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A NBR 6034:2004 exclui expressamente qualquer aplicação aos índices automatizados.",
+      "submoduloId": "8.5"
+    }
+  }
+]

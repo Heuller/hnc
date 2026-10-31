@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
+import { revisoesIndividuais, disposicoesHistoricas } from './helpers/revisoesIndividuais';
 import { simuladoIngles100Q } from '../content/questions/m12-ingles-100q';
 import { megaSimuladoCamara120Q } from '../content/questions/mega-simulado-camara-120q';
 import { simuladoOficialCamara180Q } from '../content/questions/simulado-oficial-camara-180q';
@@ -18,26 +19,33 @@ describe('Passo 1 (Prompt C8) — Itens de Inglês em Conferência: Rótulo e Te
     todasQuestoesMap.set(q.id, q);
   });
 
-  it('1. Todos os 33 IDs existem e possuem tipo em-conferencia, verificado false e revisar true', () => {
+  it('1. Os 33 IDs preservam origem não confirmada e têm disposição editorial rastreável', () => {
     expect(ids33.length).toBe(33);
 
     for (const id of ids33) {
       const q = todasQuestoesMap.get(id);
       expect(q, `Questão ${id} deve existir no acervo`).toBeDefined();
-      expect(q?.fonteOriginal?.tipo, `Item ${id} deve ter tipo em-conferencia`).toBe('em-conferencia');
+      expect(q?.fonteOriginal?.tipo, `Origem do item ${id}`).toBe(revisoesIndividuais.has(id) ? 'adaptada' : 'em-conferencia');
       expect(q?.fonteOriginal?.verificado, `Item ${id} não pode estar verificado`).toBe(false);
-      expect(q?.fonteOriginal?.revisar, `Item ${id} deve estar com flag revisar`).toBe(true);
-      expect(q?.fonteOriginal?.statusConferencia, `Item ${id} deve ter statusConferencia em-conferencia`).toBe('em-conferencia');
+      expect(q?.fonteOriginal?.revisar).toBe(!disposicoesHistoricas.has(id));
+      expect(q?.fonteOriginal?.statusConferencia).toBe(disposicoesHistoricas.has(id) ? undefined : 'em-conferencia');
+      if (disposicoesHistoricas.has(id)) {
+        expect(disposicoesHistoricas.get(id)?.origemOficialConfirmada).toBe(false);
+        expect(disposicoesHistoricas.get(id)?.motivo).toContain('Fundamento');
+        expect(revisoesIndividuais.get(id)?.nota).toContain('DISPOSIÇÃO EDITORIAL');
+      }
     }
   });
 
-  it('2. Todos os 33 itens possuem justificativa e armadilha com texto neutro de advertência', () => {
+  it('2. Itens pendentes mantêm advertência; adaptações revisadas têm conteúdo individual registrado', () => {
     const textoNeutro = 'Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.';
 
     for (const id of ids33) {
       const q = todasQuestoesMap.get(id);
-      expect(q?.justificativa, `Justificativa do item ${id} deve ser o texto neutro`).toBe(textoNeutro);
-      expect(q?.armadilhaBanca, `Armadilha do item ${id} deve ser o texto neutro`).toBe(textoNeutro);
+      const revisao = revisoesIndividuais.get(id);
+      expect(q?.justificativa, id).toBe(revisao ? revisao.patch.justificativa : textoNeutro);
+      expect(q?.armadilhaBanca, id).toBe(revisao ? revisao.patch.armadilhaBanca : textoNeutro);
+      if (revisao) expect(q?.item, id).toBe(revisao.patch.item);
     }
   });
 
@@ -70,7 +78,9 @@ describe('Passo 1 (Prompt C8) — Itens de Inglês em Conferência: Rótulo e Te
   it('4. elegivelParaEstudo rejeita estritamente itens com tipo em-conferencia e revisar true', () => {
     for (const id of ids33) {
       const q = todasQuestoesMap.get(id)!;
-      expect(elegivelParaEstudo(q), `Item ${id} não deve ser elegível para estudo`).toBe(false);
+      expect(elegivelParaEstudo(q)).toBe(disposicoesHistoricas.has(id));
+      expect(elegivelParaEstudo({ ...q, revisar: true })).toBe(false);
+      expect(elegivelParaEstudo({ ...q, fonteOriginal: { ...q.fonteOriginal, tipo: 'em-conferencia' } })).toBe(false);
     }
 
     const itemNormal: CebraspeQuestion = {
@@ -91,6 +101,19 @@ describe('Passo 1 (Prompt C8) — Itens de Inglês em Conferência: Rótulo e Te
     } as any;
 
     expect(elegivelParaEstudo(itemNormal)).toBe(true);
+  });
+
+  it('liberação dos 59 itens exige registro específico, revisão e origem não certificada', () => {
+    expect(disposicoesHistoricas.size).toBe(59);
+    const mapa = new Map(ALL_SIMULADOS_REGISTRY.flatMap(s => s.questoes).map(q => [q.id, q]));
+    for (const [id, disposicao] of disposicoesHistoricas) {
+      expect(disposicao.situacao).toBe('adaptacao-revisada-liberada');
+      expect(disposicao.origemOficialConfirmada).toBe(false);
+      expect(revisoesIndividuais.get(id)?.nota).toContain('DISPOSIÇÃO EDITORIAL');
+      expect(mapa.get(id)?.fonteOriginal.tipo).toBe('adaptada');
+      expect(mapa.get(id)?.fonteOriginal.verificado).toBe(false);
+      expect(mapa.get(id)?.fonteOriginal.declaracaoLegada).toContain('Bloqueio histórico');
+    }
   });
 
   it('5. Nenhum item com tipo em-conferencia aparece nas questões ativas de simulados no registro', () => {

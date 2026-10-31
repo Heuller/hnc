@@ -26,7 +26,7 @@ export type QuestaoEstudoReverso = Pick<
   CebraspeQuestion,
   'id' | 'item' | 'gabarito' | 'justificativa'
 > &
-  Partial<Pick<CebraspeQuestion, 'armadilhaBanca' | 'versao_correta' | 'versao_errada' | 'gatilho' | 'submoduloId'>>;
+  Partial<Pick<CebraspeQuestion, 'armadilhaBanca' | 'versao_correta' | 'versao_errada' | 'gatilho' | 'submoduloId' | 'fonte' | 'dataConferencia'>>;
 
 export interface PainelEstudoReversoProps {
   questao: QuestaoEstudoReverso;
@@ -158,6 +158,11 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
           <span>Por que o item está {rotuloGabarito}</span>
         </div>
         <p className="m-0 text-sm font-serif text-ink leading-relaxed">{limparPrefixoGabarito(questao.justificativa)}</p>
+        {questao.fonte && !raciocinio && (
+          <p className="m-0 pt-2 border-t border-border text-xs text-ink-2 leading-relaxed break-words">
+            <strong>Referência para conferir:</strong> {questao.fonte}
+          </p>
+        )}
       </div>
 
       {raciocinio && (

@@ -1,4 +1,5 @@
 declare module '*/auditoriaProveniencia.mjs' {
+  export const REGEX_FORBIDDEN_INEDITA: RegExp;
   export interface ErroProveniencia {
     id: string;
     file: string;

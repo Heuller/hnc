@@ -271,14 +271,14 @@ export function gerarBlocoMetricasMarkdown(): string {
 | **Cadernos de Simulados Cadastrados** | **${metricasQ.cadernosSimuladosCount} cadernos** | ${metricasQ.totalQuestoesSimulados.toLocaleString('pt-BR')} itens em cadernos de prova |
 | **Fixação no Banco Complementar** | **${metricasQ.questoesAmpliadas} itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
 | **Itens no Banco de Questões** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')} itens** | Soma exata de todos os ${metricasQ.arquivosCount} arquivos em \`src/content/questions\` |
-| **Distribuição Global de Gabaritos** | **${metricasQ.pctCerto}% Certo** | ${metricasQ.totalCertos.toLocaleString('pt-BR')} C / ${metricasQ.totalErrados.toLocaleString('pt-BR')} E (faixa editorial 46–56%, não regra da banca) |
+| **Distribuição Global de Gabaritos** | **${metricasQ.pctCerto}% Certo** | ${metricasQ.totalCertos.toLocaleString('pt-BR')} C / ${metricasQ.totalErrados.toLocaleString('pt-BR')} E; distribuição observada, sem cota da banca |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
 | **Inéditas (\`inedita\`)** | **${metricasQ.porTipo.inedita.toLocaleString('pt-BR')}** | **${pctInedita}%** | Elaboração própria; o rótulo não certifica estilo ou correção conceitual |
-| **Adaptadas (\`adaptada\`)** | **${metricasQ.porTipo.adaptada.toLocaleString('pt-BR')}** | **${pctAdaptada}%** | Itens de provas anteriores com ajuste factual de assertiva |
-| **Reais Confirmadas (\`real-confirmada\`)** | **${metricasQ.porTipo['real-confirmada'].toLocaleString('pt-BR')}** | **${pctReal}%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
+| **Adaptadas (\`adaptada\`)** | **${metricasQ.porTipo.adaptada.toLocaleString('pt-BR')}** | **${pctAdaptada}%** | Adaptações editoriais; a confirmação da prova de origem é indicada separadamente |
+| **Reais Confirmadas (\`real-confirmada\`)** | **${metricasQ.porTipo['real-confirmada'].toLocaleString('pt-BR')}** | **${pctReal}%** | Itens declarados reais no cadastro; a verificação documental de origem é distinta da revisão conceitual |
 | **Em Conferência (\`em-conferencia\`)** | **${metricasQ.porTipo['em-conferencia'].toLocaleString('pt-BR')}** | **${pctConf}%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')}** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
 
@@ -286,7 +286,7 @@ export function gerarBlocoMetricasMarkdown(): string {
 | Banco / Arquivo | Título / Descrição | Total Itens | Gabaritos (C/E) | Proporção Certo |
 | :--- | :--- | :---: | :---: | :---: |
 ${linhasTabelaArquivos}
-| **TOTAL GERAL** | **${metricasQ.cadernosSimuladosCount} Cadernos + Submódulos** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')}** | **${metricasQ.totalCertos}C / ${metricasQ.totalErrados}E** | **${metricasQ.pctCerto}% Certo (faixa alvo 46–56%)** |
+| **TOTAL GERAL** | **${metricasQ.cadernosSimuladosCount} Cadernos + Submódulos** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')}** | **${metricasQ.totalCertos}C / ${metricasQ.totalErrados}E** | **${metricasQ.pctCerto}% Certo; dado descritivo** |
 <!-- METRICAS:FIM -->`;
 }
 

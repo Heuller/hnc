@@ -12,7 +12,7 @@
     "generate:metrics": "node --experimental-strip-types scripts/gerarMetricasReadme.ts",
     "generate:machine-doc": "tsx scripts/gerarDocumentoPlataformaLegivelPorMaquina.ts",
     "preview": "vite preview",
-    "verify": "npm run lint && npm test && node scripts/auditoriaIndependente.mjs && npm run build",
+    "verify": "npm run lint && node scripts/revisaoQuestoes.mjs validar && node scripts/validarRevisaoVespera.mjs && npm test && node scripts/auditoriaIndependente.mjs && npm run build",
     "audit:mobile": "node scripts/auditarLayoutMobile.mjs"
   },
   "dependencies": {

@@ -27,10 +27,7 @@ describe('C13 — Integridade Estrita do README.md e Métricas Derivadas do Cód
     // Soma C + E deve bater com o total
     expect(metricas.totalCertos + metricas.totalErrados).toBe(metricas.totalQuestoes);
 
-    // Distribuição editorial do banco; não é proporção obrigatória do edital ou da banca.
-    const pctCertoNum = (metricas.totalCertos / metricas.totalQuestoes) * 100;
-    expect(pctCertoNum).toBeGreaterThanOrEqual(46);
-    expect(pctCertoNum).toBeLessThanOrEqual(56);
+    // A distribuição é descritiva; não se altera conteúdo para cumprir percentuais.
   });
 
   it('README.md não deve conter termos adjetivos ou hiperbólicos banidos pelo Prompt C13', () => {

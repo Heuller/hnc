@@ -1,3 +1,4 @@
+// Referência editorial para elaboração; não é estudo estatístico de incidência ou calibração psicométrica.
 // Serviço Canônico de Engenharia Reversa de Provas e Armadilhas Cebraspe (Fase E3)
 // Referência: Edital nº 1/2026 - Analista Legislativo - Bibliotecário (Cebraspe)
 // HNC - Heuller na Câmara
@@ -29,13 +30,11 @@ export interface MatrizIncidenciaCebraspe {
   moduloCodigo: string;
   nomeEixo: string;
   pesoConcurso: 'CRITICA' | 'ALTA' | 'MEDIA';
-  frequenciaHistoricaPorcentagem: number;
+  criterioPriorizacao: 'editorial-sem-estimativa-estatistica';
   armadilhasPredominantes: TipoArmadilhaCebraspe[];
   padroesEspecificos: PadraoArmadilhaCebraspe[];
   diretrizesElaboracaoSimulado100Q: {
-    proporcaoCertos: number; // 50
-    proporcaoErrados: number; // 50
-    distribuicaoPorSubmodulo: number; // 25 por submódulo
+    cobertura: 'conforme-edital-e-necessidades';
     focoArmadilhasPrioritarias: string[];
   };
 }
@@ -67,10 +66,10 @@ export const ARQUETIPOS_ARMADILHAS_CEBRASPE: PadraoArmadilhaCebraspe[] = [
     gatilhosLinguistiscos: ['apenas', 'exclusivamente', 'sempre', 'em qualquer hipótese', 'prescinde', 'é vedado terminantemente'],
     exemploItemCebraspe: {
       enunciado:
-        'Nas referências elaboradas segundo a NBR 6023:2018, quando uma publicação possui quatro ou mais autores, é obrigatório indicar apenas o primeiro seguido da expressão et al., sendo vedado citar todos os autores.',
+        'Nas referências elaboradas segundo a NBR 6023:2025, quando uma publicação possui quatro ou mais autores, é obrigatório indicar apenas o primeiro seguido da expressão et al., sendo vedado citar todos os autores.',
       gabarito: 'E',
       justificativaArmadilha:
-        'A NBR 6023:2018 faculta a indicação de todos os autores caso a instituição assim decida por política editorial. O termo "sendo vedado" torna o item categoricamente falso.',
+        'A NBR 6023:2025 recomenda indicar todos os autores e admite, no caso previsto de quatro ou mais, indicar o primeiro seguido de et al.; não proíbe listar todos. O termo "sendo vedado" torna o item categoricamente falso.',
     },
     remedioCognitivo:
       'Acionar freio inibitório (Sistema 2) diante de termos absolutos e verificar se a norma admite exceção ou faculdade.',
@@ -87,7 +86,7 @@ export const ARQUETIPOS_ARMADILHAS_CEBRASPE: PadraoArmadilhaCebraspe[] = [
         'Em conformidade com a ABNT NBR 10520:2023, quando a autoria de uma citação indireta for indicada entre parênteses no final do parágrafo, o sobrenome do autor deve ser grafado obrigatoriamente em letras maiúsculas, como em (SILVA, 2024).',
       gabarito: 'E',
       justificativaArmadilha:
-        'A NBR 10520:2023 revogou expressamente a CAIXA ALTA entre parênteses! Agora a chamada é sempre em maiúsculas e minúsculas: (Silva, 2024).',
+        'A NBR 10520:2023 revogou expressamente a CAIXA ALTA entre parênteses! Na chamada de pessoa desse exemplo, emprega-se maiúscula inicial e minúsculas: (Silva, 2024). Não se generaliza isso a toda sigla ou nome institucional.',
     },
     remedioCognitivo:
       'Memorizar as rupturas das novas normas: NBR 10520:2023 (fim da caixa alta); NBR 6028:2021 (extensão e tipologia de resumos); RDA Toolkit 3R.',
@@ -104,10 +103,10 @@ export const ARQUETIPOS_ARMADILHAS_CEBRASPE: PadraoArmadilhaCebraspe[] = [
         'Ao aplicar operadores booleanos OR na estratégia de busca em um catálogo informatizado, o bibliotecário restringe o conjunto recuperado, aumentando a precisão e diminuindo a revocação.',
       gabarito: 'E',
       justificativaArmadilha:
-        'O operador OR é de união lógica (ampliativo), o que eleva a revocação e tende a diminuir a precisão. O operador que restringe é o AND.',
+        'OR corresponde à união e não restringe o conjunto quando comparado aos mesmos termos isolados. A precisão depende da relevância dos documentos acrescentados; AND corresponde à interseção.',
     },
     remedioCognitivo:
-      'Lembrar que AND restringe (interseção $\\rightarrow$ precisão sobe); OR expande (união $\\rightarrow$ revocação sobe); NOT exclui.',
+      'Lembrar que AND forma interseção; OR forma união; NOT exclui. O efeito na precisão depende dos documentos relevantes recuperados.',
   },
   {
     id: 'arq-5',
@@ -121,10 +120,10 @@ export const ARQUETIPOS_ARMADILHAS_CEBRASPE: PadraoArmadilhaCebraspe[] = [
         'Uma Proposta de Emenda à Constituição (PEC) será discutida e votada em cada Casa do Congresso Nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, três quintos dos votos dos membros presentes.',
       gabarito: 'E',
       justificativaArmadilha:
-        'A Constituição e o RICD exigem três quintos dos votos dos MEMBROS DA CASA (308 deputados federais), e não apenas dos membros presentes!',
+        'A Constituição e o RICD exigem três quintos dos votos dos MEMBROS DA CASA (sobre o total de membros da Casa), e não apenas dos membros presentes!',
     },
     remedioCognitivo:
-      'Quórum de PEC é sempre sobre a totalidade dos membros (3/5 = 308 deputados na CD). Maioria simples é que calcula sobre os presentes.',
+      'Quórum de PEC é sempre sobre a totalidade dos membros (3/5 do total de membros). Maioria simples é que calcula sobre os presentes.',
   },
   {
     id: 'arq-6',
@@ -141,7 +140,7 @@ export const ARQUETIPOS_ARMADILHAS_CEBRASPE: PadraoArmadilhaCebraspe[] = [
         'A prorrogação por até 10 dias exige justificativa expressa e motivada comunicada ao requerente; jamais pode ser tácita ou imotivada.',
     },
     remedioCognitivo:
-      'Na LAI e no Direito Administrativo, prazos excepcionais exigem sempre comunicação formal e justificativa circunstanciada.',
+      'Na prorrogação do art. 11, §2º, da LAI, confira justificativa expressa e ciência ao requerente.',
   },
 ];
 
@@ -151,15 +150,13 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M3',
     nomeEixo: 'Classificação Documentária e Indexação',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 18.5,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['INVERSAO_CANONICA', 'INVERSAO_METRICA', 'CATEGORICO_ABSOLUTO'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['INVERSAO_CANONICA', 'INVERSAO_METRICA', 'CATEGORICO_ABSOLUTO'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'CDD: tabelas auxiliares T1 a T6 e regra do zero',
         'CDU: sinais de relação reversível (:) vs fixa (::) e auxiliares independentes',
@@ -174,15 +171,13 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M4',
     nomeEixo: 'Recuperação da Informação, Fontes e Usuários',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 16.0,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['INVERSAO_CANONICA', 'INVERSAO_METRICA', 'MODALIZADOR_EPISTEMICO'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['INVERSAO_CANONICA', 'INVERSAO_METRICA', 'MODALIZADOR_EPISTEMICO'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'Denis Grogan: as 8 fases da entrevista de referência',
         'Robert S. Taylor: níveis de necessidade Q1 a Q4',
@@ -197,15 +192,13 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M5',
     nomeEixo: 'Gestão de Unidades de Informação e Coleções',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 14.5,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['INVERSAO_CANONICA', 'CATEGORICO_ABSOLUTO', 'MODALIZADOR_EPISTEMICO'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['INVERSAO_CANONICA', 'CATEGORICO_ABSOLUTO', 'MODALIZADOR_EPISTEMICO'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'Waldomiro Vergueiro: 6 etapas do desenvolvimento de coleções',
         'Desbaste (remanejamento) vs Descarte (baixa patrimonial)',
@@ -220,15 +213,13 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M6',
     nomeEixo: 'Bibliotecas Digitais, Repositórios e IA',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 15.0,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['INVERSAO_CANONICA', 'CATEGORICO_ABSOLUTO', 'ANACRONISMO_NORMATIVO'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['INVERSAO_CANONICA', 'CATEGORICO_ABSOLUTO', 'ANACRONISMO_NORMATIVO'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'OAI-PMH: os 6 verbos e restrição estrita a metadados XML',
         'DSpace: hierarquia Comunidade-Coleção-Item-Bundle-Bitstream',
@@ -243,15 +234,13 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M7',
     nomeEixo: 'Preservação, Conservação e Memória Institucional',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 12.0,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['INVERSAO_CANONICA', 'CATEGORICO_ABSOLUTO', 'ANACRONISMO_NORMATIVO'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['INVERSAO_CANONICA', 'CATEGORICO_ABSOLUTO', 'ANACRONISMO_NORMATIVO'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'Modelo OAIS (ISO 14721): SIP, AIP, DIP e 6 entidades funcionais',
         'PREMIS 3.0: 5 entidades semânticas e finalidade estrita de preservação',
@@ -266,18 +255,16 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M8',
     nomeEixo: 'Normalização Documental e ABNT',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 17.5,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['ANACRONISMO_NORMATIVO', 'CATEGORICO_ABSOLUTO', 'INVERSAO_CANONICA'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['ANACRONISMO_NORMATIVO', 'CATEGORICO_ABSOLUTO', 'INVERSAO_CANONICA'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'NBR 10520:2023: fim da caixa alta e autor sempre em minúsculas',
-        'NBR 6023:2018: 3 autores vs 4 ou mais e destaque restrito ao título',
+        'NBR 6023:2025: 3 autores vs 4 ou mais e destaque restrito ao título',
         'NBR 6028:2021: indicativo, informativo e crítico',
         'NBR 14724: elementos pré, textuais e pós-textuais e paginação',
       ],
@@ -289,15 +276,13 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M9',
     nomeEixo: 'Comunicação Científica, Ciência Aberta e Métricas',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 13.5,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['INVERSAO_CANONICA', 'INVERSAO_METRICA', 'CATEGORICO_ABSOLUTO'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['INVERSAO_CANONICA', 'INVERSAO_METRICA', 'CATEGORICO_ABSOLUTO'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'Bradford (periódicos/zonas), Lotka (autores/n²) e Zipf (palavras/frequência)',
         'Princípios FAIR (Wilkinson, 2016)',
@@ -312,15 +297,13 @@ export const MATRIZ_INCIDENCIA_MODULOS_ESPECIFICOS: Record<string, MatrizInciden
     moduloCodigo: 'M10',
     nomeEixo: 'Legislação, Processo Legislativo e RVBI',
     pesoConcurso: 'CRITICA',
-    frequenciaHistoricaPorcentagem: 15.5,
+    criterioPriorizacao: 'editorial-sem-estimativa-estatistica',
     armadilhasPredominantes: ['PEGADINHA_REGIMENTAL', 'MODALIZADOR_EPISTEMICO', 'CATEGORICO_ABSOLUTO'],
     padroesEspecificos: ARQUETIPOS_ARMADILHAS_CEBRASPE.filter(a =>
       ['PEGADINHA_REGIMENTAL', 'MODALIZADOR_EPISTEMICO', 'CATEGORICO_ABSOLUTO'].includes(a.tipo)
     ),
     diretrizesElaboracaoSimulado100Q: {
-      proporcaoCertos: 50,
-      proporcaoErrados: 50,
-      distribuicaoPorSubmodulo: 25,
+      cobertura: 'conforme-edital-e-necessidades',
       focoArmadilhasPrioritarias: [
         'Regimento Interno da Câmara (RICD): órgãos e poder terminativo das comissões',
         'Quóruns regimentais: maioria simples vs maioria absoluta vs 3/5 para PEC',

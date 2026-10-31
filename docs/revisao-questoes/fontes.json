@@ -1,0 +1,1609 @@
+{
+  "oclc": {
+    "titulo": "OCLC — Introduction to the Dewey Decimal Classification, DDC 23",
+    "url": "https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf",
+    "localizador": "seções 4 (estrutura), 5 (classificação), 7 (notas e tabelas), 8 (construção de números)"
+  },
+  "cdu": {
+    "titulo": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020",
+    "url": "https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+    "localizador": "seções 2–4: classes, auxiliares e sinais; distinguir regras gerais e política local"
+  },
+  "cduTabelas": {
+    "titulo": "CDU — edição do acervo, Parte 1",
+    "acervo": "acervo-estudos/Livros Extras/CDU - Parte 1.pdf",
+    "localizador": "introdução e tabelas auxiliares comuns 1a–1k",
+    "gitBlobSha": "a6a8fb6fadd88d99cca8be5230edea602a846637",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "cddir": {
+    "titulo": "Senado Federal — Classificação Decimal de Direito (CDDir), vocabulário mantido pela RVBI",
+    "url": "https://adm.senado.leg.br/cddir/vocab/",
+    "localizador": "Sobre; pesquisa por 341, 341.39, 341.46, 341.6, 342 e 342.6"
+  },
+  "lancaster": {
+    "titulo": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004",
+    "acervo": "acervo-estudos/Classificação e indexação/livro-indexac3a7c3a3o-e-resumos-teoria-e-prc3a1tica-lancaster.pdf",
+    "localizador": "capítulos 1–9: análise conceitual, tradução, coerência, qualidade e resumos",
+    "gitBlobSha": "484eaa6abe50a692e92d96adf47b8de0db92a7f9",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "nbr6028": {
+    "titulo": "ABNT NBR 6028:2021 — Resumo, resenha e recensão — Apresentação",
+    "acervo": "acervo-estudos/ABNT/6028-Resumo-atualizada-em-18.05.2021-.pdf",
+    "localizador": "2.2–2.6; 4.1.1–4.1.8; 4.2",
+    "gitBlobSha": "0aaaa876ca16fb1d1f530d773d71c4c1ad8462ee",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "cad": {
+    "titulo": "Acervo de questões — CAD CESPE / Papirvm Biblioteconomia Esquematizada",
+    "acervo": "acervo-estudos/Questões/CAD CESPE.pdf",
+    "localizador": "Módulo 5: questões de indexação, resumos, índices e classificação. Compilação secundária, não substitui caderno e gabarito oficiais.",
+    "gitBlobSha": "3c79bc9e743b63dcc3830daf86542bc7765993da",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "skos": {
+    "titulo": "W3C — SKOS Reference, 2009",
+    "url": "https://www.w3.org/TR/skos-reference/",
+    "localizador": "seções 5 (rótulos), 7 (notas), 8 (relações), condições S23–S27"
+  },
+  "marc": {
+    "titulo": "Library of Congress — MARC 21 formats",
+    "url": "https://www.loc.gov/marc/",
+    "localizador": "Bibliographic e Authority: formatos; OCLC é organização cooperativa, não formato"
+  },
+  "owl": {
+    "titulo": "W3C — OWL 2 Web Ontology Language Primer",
+    "url": "https://www.w3.org/TR/owl2-primer/",
+    "localizador": "seções sobre axiomas, propriedades, classes e inferência"
+  },
+  "grogan": {
+    "titulo": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001",
+    "acervo": "acervo-estudos/Recuperação, fontes, referência e usuários/a-pratica-do-servio-de-referencia-denis-grogan-p_compress.pdf",
+    "localizador": "processo de referência, pp. 50–56: oito passos, retornos e avaliação conjunta",
+    "gitBlobSha": "e0c01810a1af2d352176fae563712acee9418a62",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "usuarios": {
+    "titulo": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015",
+    "acervo": "acervo-estudos/Livros Extras/CUNHA, Murilo Bastos da_; AMARAL, Sueli Angélica do_; DANTAS, Edmundo Brandão. Manual de estudo de usuários da informação.pdf",
+    "localizador": "necessidades, modelos e métodos de estudo de usuários"
+  },
+  "dicionario": {
+    "titulo": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008",
+    "acervo": "acervo-estudos/Fundamentos/LIVRO_DicionarioBiblioteconomiaArquivologia.pdf",
+    "localizador": "verbetes sobre fontes, referência, fontes de informação e recuperação",
+    "gitBlobSha": "c3465c9fec53dcc16680058ebf3a5f35b8de913e",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "kuhlthau": {
+    "titulo": "Carol Kuhlthau — Information Search Process",
+    "url": "https://wp.comminfo.rutgers.edu/ckuhlthau/information-search-process/",
+    "localizador": "estágios, pensamentos, sentimentos e ações"
+  },
+  "taylor": {
+    "titulo": "TAYLOR, Robert S. Question-Negotiation and Information Seeking in Libraries. 1968",
+    "url": "https://www.ideals.illinois.edu/items/38316",
+    "localizador": "quatro níveis de necessidade"
+  },
+  "acrl": {
+    "titulo": "ACRL — Framework for Information Literacy for Higher Education",
+    "url": "https://www.ala.org/acrl/standards/ilframework",
+    "localizador": "conceitos de autoridade, busca e uso ético"
+  },
+  "ir": {
+    "titulo": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008",
+    "url": "https://nlp.stanford.edu/IR-book/",
+    "localizador": "capítulos 1–2, 6, 8 e 11: operadores, processamento, ponderação, avaliação e BM25"
+  },
+  "lexml": {
+    "titulo": "Projeto LexML Brasil — documentação técnica",
+    "url": "https://projeto.lexml.gov.br/",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "rvbi": {
+    "titulo": "Senado Federal — A RVBI",
+    "url": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+    "localizador": "coordenação, cooperação e catálogo coletivo"
+  },
+  "rusa": {
+    "titulo": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services",
+    "url": "https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+    "localizador": "planejamento, pessoal, infraestrutura e privacidade"
+  },
+  "qpoint": {
+    "titulo": "OCLC — Relatório anual 2018–2019",
+    "url": "https://www.oclc.org/en/annual-report/2019/home.html",
+    "localizador": "transferência do QuestionPoint 24/7 Reference Cooperative para Springshare, em maio de 2019"
+  },
+  "bdtd": {
+    "titulo": "IBICT — Biblioteca Digital Brasileira de Teses e Dissertações",
+    "url": "https://bdtd.ibict.br/",
+    "localizador": "natureza e abrangência do sistema"
+  },
+  "cjf": {
+    "titulo": "Conselho da Justiça Federal — Jurisprudência Unificada",
+    "url": "https://www.cjf.jus.br/jurisprudencia/unificada/",
+    "localizador": "pesquisa integrada de jurisprudência federal"
+  },
+  "nbr6023": {
+    "titulo": "ABNT NBR 6023:2025 — Referências — Elaboração",
+    "acervo": "acervo-estudos/ABNT/Referencias-NBR-6023-2025.pdf",
+    "localizador": "definição de referência e documentos disponíveis em meio eletrônico",
+    "gitRef": "auditoria-2026-10",
+    "gitBlobSha": "2507a44d9790c1c694d03be910bd828e19a1c61a",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "cpc": {
+    "titulo": "Código de Processo Civil, Lei 13.105/2015",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html",
+    "localizador": "art. 1.029, §1º: comprovação de divergência jurisprudencial"
+  },
+  "cfb": {
+    "titulo": "CFB — Resolução 207/2018, Código de Ética e Deontologia",
+    "url": "https://www.crb15.org.br/codigo-de-etica/",
+    "localizador": "deveres profissionais e sigilo, arts. 5º e 9º"
+  },
+  "lexmlURN": {
+    "titulo": "LexML Brasil — Parte 2: LEXML URN",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "lexmlXML": {
+    "titulo": "LexML Brasil — Parte 3: XML Schema",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-3-XML-Schema.pdf",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "lexmlColeta": {
+    "titulo": "LexML Brasil — Parte 4: Coleta de Metadados",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+    "localizador": "Partes 2 (URN), 3 (XML) e 4 (coleta de metadados)"
+  },
+  "abin2018": {
+    "titulo": "CEBRASPE — ABIN 2018, Área 10, caderno 378_ABIN_014_01",
+    "url": "https://cdn.cebraspe.org.br/concursos/abin_17/arquivos/378_ABIN_014_01.PDF",
+    "localizador": "item 136; gabarito definitivo GAB_DEFINITIVO_378_ABIN_014_01.PDF, E"
+  },
+  "abin2018Gab": {
+    "titulo": "CEBRASPE — ABIN 2018, gabarito definitivo da Área 10",
+    "url": "https://cdn.cebraspe.org.br/concursos/abin_17/arquivos/GAB_DEFINITIVO_378_ABIN_014_01.PDF",
+    "localizador": "item 136, E"
+  },
+  "aacr": {
+    "titulo": "AACR2 — Revisão 2002, edição em português do acervo",
+    "acervo": "acervo-estudos/Catalogação/AACR2COMPLETO.pdf",
+    "localizador": "regras de descrição e escolha e forma dos pontos de acesso"
+  },
+  "icp": {
+    "titulo": "IFLA — Princípios Internacionais de Catalogação, 2016",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+    "localizador": "2: princípios gerais e conveniência do usuário"
+  },
+  "lrm": {
+    "titulo": "IFLA Library Reference Model, 2017, revisão de dezembro",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "localizador": "3: tarefas; 4: entidades e relações; 5.7: agregados"
+  },
+  "frbr": {
+    "titulo": "IFLA — FRBR, 1998, versão com alterações de 2009",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "localizador": "entidades dos grupos 1–3 e tarefas do usuário"
+  },
+  "rdaLivro": {
+    "titulo": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM",
+    "acervo": "acervo-estudos/Catalogação/Catalogação dos princípios e teorias RDA e IFLA lRM.pdf",
+    "localizador": "capítulos de modelos conceituais, RDA e Projeto 3R",
+    "gitBlobSha": "3840d5cfa16b618f961a069430931c8e0d3cbdd9",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "rdaBrochura": {
+    "titulo": "RDA: Descrição e Acesso de Recursos — brochura histórica em português",
+    "acervo": "acervo-estudos/Catalogação/rdabrochure-por.pdf",
+    "localizador": "fundamentos do desenvolvimento do RDA original; contexto histórico, não descrição completa do RDA atual",
+    "gitBlobSha": "cfc7227ae287a6b558e2bd1390840c913ecd9d54",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "rdaRegistry": {
+    "titulo": "RDA Registry — elementos e vocabulários",
+    "url": "https://www.rdaregistry.info/",
+    "localizador": "elementos de entidades, relações e listas de valores"
+  },
+  "rdaToolkit": {
+    "titulo": "RDA Toolkit — documentação e orientação pública",
+    "url": "https://www.rdatoolkit.org/",
+    "localizador": "RDA original, Official RDA e perfis de aplicação"
+  },
+  "dcmi": {
+    "titulo": "DCMI — Dublin Core Metadata Element Set, version 1.1",
+    "url": "https://www.dublincore.org/specifications/dublin-core/dces/",
+    "localizador": "15 elementos e respectivas definições"
+  },
+  "dcmiAM": {
+    "titulo": "DCMI Abstract Model",
+    "url": "https://www.dublincore.org/specifications/dublin-core/abstract-model/",
+    "localizador": "descrição, recurso descrito e conjunto de descrições"
+  },
+  "oaipmh": {
+    "titulo": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0",
+    "url": "https://www.openarchives.org/OAI/openarchivesprotocol.html",
+    "localizador": "3.4: metadataPrefix e suporte ao Dublin Core não qualificado"
+  },
+  "lecoadic": {
+    "titulo": "LE COADIC, Yves-François. A ciência da informação",
+    "acervo": "acervo-estudos/Livros Extras/Livro - A ciência da Informação - LeCoadic.pdf",
+    "localizador": "biblioteconomia, documentação, ciência da informação e ciclo da informação",
+    "gitBlobSha": "343a44cd915a162352f98633330a798fc7a33856",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "borko": {
+    "titulo": "BORKO, Harold. Information Science: What is it? American Documentation, 1968",
+    "url": "https://doi.org/10.1002/asi.5090190103",
+    "localizador": "definição e relações da ciência da informação"
+  },
+  "bush": {
+    "titulo": "BUSH, Vannevar. As We May Think. 1945",
+    "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+    "localizador": "Memex e organização associativa; não confundir proposta e produto implementado"
+  },
+  "otlet": {
+    "titulo": "OTLET, Paul. Tratado de documentação; original de 1934",
+    "acervo": "acervo-estudos/Livros Extras/TRATADO DE DOCUMENTAÇÃO. OTLET.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "seção 124: O livro e a medida. Bibliometria",
+    "gitBlobSha": "96679b22b2f104f0f1b394ea667d4c4300357a17",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "ranganathan": {
+    "titulo": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009",
+    "acervo": "acervo-estudos/Fundamentos/pdf-as-cinco-leis-da-biblioteconomi-ranganathanpdf_compress.pdf",
+    "localizador": "enunciados, discussão e aplicações das cinco leis",
+    "gitBlobSha": "3d34fc36e85c7c805a2c4cec360d322719a5c2a9",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "gorman": {
+    "titulo": "GORMAN, Michael. Five New Laws of Librarianship. American Libraries, setembro de 1995, p. 784–785",
+    "url": "https://wiki.lib.sun.ac.za/images/1/17/Michael_Gorman_-_Five_new_laws_of_librarianship.pdf",
+    "localizador": "cinco novas leis: humanidade, formas de comunicação, tecnologia inteligente, acesso e passado/futuro"
+  },
+  "noruzi": {
+    "titulo": "NORUZI, Alireza. Application of Ranganathan’s Laws to the Web. 2004",
+    "url": "https://www.webology.org/2004/v1n2/a8.html",
+    "localizador": "releituras das leis no ambiente web"
+  },
+  "buckland": {
+    "titulo": "BUCKLAND, Michael. Information as thing. 1991",
+    "acervo": "acervo-estudos/Fundamentos",
+    "url": "https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+    "localizador": "processo, conhecimento e coisa; discussão do documento e exemplo de Briet"
+  },
+  "capurro": {
+    "titulo": "CAPURRO, Rafael. Epistemologia e ciência da informação. 2003",
+    "url": "https://www.capurro.de/enancib_p.htm",
+    "localizador": "paradigmas físico, cognitivo e social"
+  },
+  "lei4084": {
+    "titulo": "Lei 4.084/1962 — exercício da profissão de bibliotecário",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+    "localizador": "arts. 1º–7º, 15 e 20"
+  },
+  "lei9674": {
+    "titulo": "Lei 9.674/1998 — exercício profissional e sistema de conselhos",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html",
+    "localizador": "registro, conselhos e regime disciplinar"
+  },
+  "cfb261": {
+    "titulo": "CFB — Resolução 261/2023, processo ético-disciplinar",
+    "url": "https://crb6.org.br/2020/wp-content/uploads/2023/09/Resolucao-CFB-n-261-de-19-de-setembro-de-2023.pdf",
+    "localizador": "competência, procedimento, julgamento e recursos"
+  },
+  "ackoff": {
+    "titulo": "ACKOFF, Russell. From Data to Wisdom. 1989",
+    "url": "https://doi.org/10.1002/j.2075-7905.1989.tb00524.x",
+    "localizador": "dados, informação, conhecimento, entendimento e sabedoria"
+  },
+  "shannon": {
+    "titulo": "SHANNON, Claude. A Mathematical Theory of Communication. 1948",
+    "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+    "localizador": "problema de transmissão e distinção de semântica"
+  },
+  "cfb286": {
+    "titulo": "CFB — Resolução 286/2026, eleições dos CRBs",
+    "url": "https://crb6.org.br/2020/wp-content/uploads/2026/05/Resolucao-CFB-n.o-286-Eleicoes-CRB-2026.pdf",
+    "localizador": "norma de 9/04/2026, publicada em 27/04/2026; voto e requisitos de aptidão"
+  },
+  "vergueiro": {
+    "titulo": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções",
+    "acervo": "acervo-estudos/Livros Extras/Livro - Desenvolvimento de coleções - Autor Waldomiro Vergueiro.pdf",
+    "localizador": "modelo de Evans, política, seleção, aquisição, avaliação e desbastamento",
+    "gitBlobSha": "7a374fbfcefedadcc75784fca763bfd71c559377",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "vergueiroSelecao": {
+    "titulo": "VERGUEIRO, Waldomiro. Seleção de materiais de informação",
+    "acervo": "acervo-estudos/Livros Extras/VERGUEIRO-Seleção de materiais de informação.pdf",
+    "localizador": "política, critérios, instrumentos e responsabilidades de seleção",
+    "gitBlobSha": "407800559d9990f0234aa2590aaaeda8b5711287",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "almeida": {
+    "titulo": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação",
+    "acervo": "acervo-estudos/Livros Extras/ALMEIDA. Planejamento.pdf",
+    "localizador": "planejamento, diagnóstico, avaliação e indicadores",
+    "gitBlobSha": "7d178c00eb0553419e86e3f7e45ab59bf5a18a33",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "amaral": {
+    "titulo": "AMARAL, Sueli Angélica do. Marketing: abordagem em unidades de informação",
+    "acervo": "acervo-estudos/Livros Extras/AMARAL, S. A. Marketing abordagem em Unidades de Informação.pdf",
+    "localizador": "usuários, relações, oferta e avaliação de serviços",
+    "gitBlobSha": "727dd3b5600433016204b86ed531926a1b5a0a2d",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "choo": {
+    "titulo": "CHOO, Chun Wei. A organização do conhecimento",
+    "acervo": "acervo-estudos/Gestão e Coleções/choo-chun-wei-a-organizac3a7c3a3o-do-conhecimento.pdf",
+    "localizador": "criação, compartilhamento e uso do conhecimento; Nonaka e Takeuchi; comunidades de prática",
+    "gitBlobSha": "67b16c4ef2122092ab4b9f287f22b79e04657541",
+    "gitRef": "auditoria-2026-10",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "counter": {
+    "titulo": "COUNTER — Code of Practice for Research Content Usage Metrics, Release 5.1",
+    "url": "https://cop5.countermetrics.org/en/5.1.1/",
+    "localizador": "métricas, contagem, processamento e escolha da unidade de uso"
+  },
+  "lei14133": {
+    "titulo": "Lei 14.133/2021 — licitações e contratos",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+    "localizador": "planejamento, contratação direta e procedimento licitatório"
+  },
+  "nr17": {
+    "titulo": "Ministério do Trabalho e Emprego — NR 17, Ergonomia",
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+    "localizador": "condições de trabalho e organização do trabalho"
+  },
+  "herzberg": {
+    "titulo": "HERZBERG, Frederick. One More Time: How Do You Motivate Employees?",
+    "localizador": "distinção entre fatores higiênicos e motivacionais; edição republicada em janeiro de 2003, texto original de 1968",
+    "url": "https://store.hbr.org/product/one-more-time-how-do-you-motivate-employees/R0301F"
+  },
+  "situacional": {
+    "titulo": "Hersey e Blanchard — modelo de liderança situacional",
+    "url": "https://situational.com/situational-leadership/",
+    "localizador": "comportamentos de liderança e prontidão para a tarefa"
+  },
+  "ba": {
+    "titulo": "NONAKA, Ikujiro; KONNO, Noboru. The Concept of Ba: Building a Foundation for Knowledge Creation. 1998",
+    "url": "https://doi.org/10.2307/41165942",
+    "localizador": "contexto compartilhado de criação do conhecimento"
+  },
+  "libqual": {
+    "titulo": "Association of Research Libraries — LibQUAL+",
+    "url": "https://www.libqual.org/",
+    "localizador": "avaliação da qualidade percebida dos serviços"
+  },
+  "gesac": {
+    "titulo": "Ministério das Comunicações — GESAC",
+    "url": "https://www.gov.br/mcom/pt-br/acesso-a-informacao/acoes-e-programas/wi-fi-brasil",
+    "localizador": "inclusão digital e conectividade"
+  },
+  "dspace": {
+    "titulo": "DSpace — documentação do projeto",
+    "url": "https://wiki.lyrasis.org/display/DSDOC7x",
+    "localizador": "DSpace 7: arquitetura, submissão, itens, arquivos, autorização e interoperabilidade"
+  },
+  "koha": {
+    "titulo": "Koha — Manual do sistema integrado de bibliotecas",
+    "url": "https://koha-community.org/manual/",
+    "localizador": "catalogação, exemplares, circulação e interfaces de integração"
+  },
+  "ojs": {
+    "titulo": "Public Knowledge Project — Open Journal Systems",
+    "url": "https://pkp.sfu.ca/software/ojs/",
+    "localizador": "gestão editorial e publicação de periódicos"
+  },
+  "atom": {
+    "titulo": "Access to Memory — AtoM documentation",
+    "url": "https://www.accesstomemory.org/en/docs/",
+    "localizador": "descrição arquivística e normas de referência"
+  },
+  "biblivre": {
+    "titulo": "Biblivre — sistema de automação de bibliotecas",
+    "url": "https://biblivre.org.br/",
+    "localizador": "funções do software e distinção de sistema operacional"
+  },
+  "bdcamara": {
+    "titulo": "Câmara dos Deputados — Biblioteca Digital",
+    "url": "https://bd.camara.leg.br/",
+    "localizador": "coleções e política de acesso"
+  },
+  "bdjur": {
+    "titulo": "Superior Tribunal de Justiça — Biblioteca Digital Jurídica",
+    "url": "https://bdjur.stj.jus.br/",
+    "localizador": "coleções, depósito e acesso; distinguir o portal local e a cooperação entre instituições"
+  },
+  "dcc": {
+    "titulo": "Digital Curation Centre — Curation Lifecycle Model",
+    "url": "https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+    "localizador": "ações de curadoria ao longo do ciclo de vida"
+  },
+  "oais": {
+    "titulo": "CCSDS — Reference Model for an Open Archival Information System",
+    "url": "https://ccsds.org/Pubs/650x0m3.pdf",
+    "localizador": "responsabilidades de preservação e funções; edição de 2024"
+  },
+  "scholar": {
+    "titulo": "Google Scholar — Inclusion Guidelines",
+    "url": "https://scholar.google.com/intl/en/scholar/inclusion.html",
+    "localizador": "condições para rastreamento e indexação de conteúdos acadêmicos"
+  },
+  "z3950": {
+    "titulo": "Library of Congress — Z39.50 / SRU",
+    "url": "https://www.loc.gov/z3950/",
+    "localizador": "consulta e recuperação, clientes, servidores e formatos de registro"
+  },
+  "sru": {
+    "titulo": "Library of Congress — SRU 1.2",
+    "url": "https://www.loc.gov/standards/sru/sru-1-2.html",
+    "localizador": "CQL, operações e respostas XML; distinguir SRU e SRW e extensões de implementação"
+  },
+  "base": {
+    "titulo": "BASE — Bielefeld Academic Search Engine",
+    "url": "https://www.base-search.net/about/en/",
+    "localizador": "serviço de agregação de metadados e acesso a fontes"
+  },
+  "fair": {
+    "titulo": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016",
+    "url": "https://doi.org/10.1038/sdata.2016.18",
+    "localizador": "F1–F4, A1–A2, I1–I3, R1–R1.3"
+  },
+  "prov": {
+    "titulo": "W3C — PROV-O: The PROV Ontology. 2013",
+    "url": "https://www.w3.org/TR/prov-o/",
+    "localizador": "entidades, atividades, agentes e relações de proveniência"
+  },
+  "dataverse": {
+    "titulo": "The Dataverse Project — User Guide",
+    "url": "https://guides.dataverse.org/en/latest/user/",
+    "localizador": "datasets, arquivos, versões, citações e identificadores persistentes"
+  },
+  "dados5estrelas": {
+    "titulo": "5-star Open Data — Tim Berners-Lee",
+    "url": "https://5stardata.info/en/",
+    "localizador": "esquema incremental e ligação a outros dados"
+  },
+  "rtp": {
+    "titulo": "IETF — RFC 3550, RTP: A Transport Protocol for Real-Time Applications",
+    "url": "https://www.rfc-editor.org/rfc/rfc3550",
+    "localizador": "transporte de dados em tempo real e limitações de garantia"
+  },
+  "tcp": {
+    "titulo": "IETF — RFC 9293, Transmission Control Protocol",
+    "url": "https://www.rfc-editor.org/rfc/rfc9293",
+    "localizador": "transporte TCP e distinção das funções IP"
+  },
+  "http": {
+    "titulo": "IETF — RFC 9110, HTTP Semantics",
+    "url": "https://www.rfc-editor.org/rfc/rfc9110",
+    "localizador": "requisições, representações e recursos"
+  },
+  "ftp": {
+    "titulo": "IETF — RFC 959, File Transfer Protocol",
+    "url": "https://www.rfc-editor.org/rfc/rfc959",
+    "localizador": "transferência de arquivos"
+  },
+  "lei11419": {
+    "titulo": "Lei 11.419/2006 — informatização do processo judicial",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm",
+    "localizador": "art. 4º e §2º: publicação eletrônica e exceções legais"
+  },
+  "decreto9215": {
+    "titulo": "Decreto 9.215/2017 — publicação do Diário Oficial da União",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9215-29-novembro-2017-785835-normaatualizada-pe.html",
+    "localizador": "publicação eletrônica e assinatura"
+  },
+  "rag": {
+    "titulo": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "localizador": "arquitetura e avaliação; não é garantia de correção de toda resposta"
+  },
+  "fewshot": {
+    "titulo": "BROWN et al. Language Models are Few-Shot Learners. 2020",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "localizador": "condicionamento por exemplos e limites"
+  },
+  "lgpd": {
+    "titulo": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "localizador": "finalidade, princípios, bases e condições de tratamento"
+  },
+  "aleph": {
+    "titulo": "Ex Libris — Aleph 24, Communication Requirements",
+    "url": "https://knowledge.exlibrisgroup.com/Aleph/Product_Documentation/001_Version_24/Requirements_for_Aleph_24_Installation/04_Communication_Requirements",
+    "localizador": "comunicação entre clientes e servidor; HTTP e Z39.50"
+  },
+  "cassares": {
+    "titulo": "CASSARES, Norma Cianflone. Como fazer conservação preventiva em arquivos e bibliotecas. 2000",
+    "acervo": "acervo-estudos/Preservação física/cf5.pdf",
+    "localizador": "fatores de degradação, agentes biológicos, higienização, acondicionamento e manuseio",
+    "gitRef": "auditoria-2026-10",
+    "sha256": "6bf0c6f103107b86c84b564f0941162b26997361709c7bf047245282e2499fba",
+    "gitBlobSha": "50b7222b782154cffcd421f2f310cb030bedba15",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "premis": {
+    "titulo": "Library of Congress — PREMIS Data Dictionary, version 3.0",
+    "url": "https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+    "localizador": "modelo de dados; Object, Event, Agent e Rights; categorias de objetos"
+  },
+  "lockss": {
+    "titulo": "Stanford Libraries — LOCKSS",
+    "url": "https://www.lockss.org/about",
+    "localizador": "preservação distribuída, réplicas e verificação"
+  },
+  "cariniana": {
+    "titulo": "Ibict — Rede Cariniana",
+    "url": "https://cariniana.ibict.br/",
+    "localizador": "rede brasileira de preservação digital e infraestrutura distribuída"
+  },
+  "microfilme": {
+    "titulo": "NEDCC — Preservation Leaflet 6.1: Microfilm and Microfiche",
+    "url": "https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche",
+    "localizador": "histórico da microfilmagem em bibliotecas e requisitos de preservação"
+  },
+  "conarq51": {
+    "titulo": "CONARQ — Resolução 51, de 25/08/2023",
+    "url": "https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-conarq-no-51-de-25-de-agosto-de-2023",
+    "localizador": "Diretrizes RDC-Arq, versão 2; art. 5º revoga resoluções 39/2014 e 43/2015"
+  },
+  "archivematica": {
+    "titulo": "Archivematica — Documentation",
+    "url": "https://www.archivematica.org/en/docs/",
+    "localizador": "fluxos de preservação, normalização e pacotes; distinção em relação ao AtoM"
+  },
+  "pdfa": {
+    "titulo": "Library of Congress — PDF/A family, Sustainability of Digital Formats",
+    "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml",
+    "localizador": "restrições da família PDF/A e limites de conformidade"
+  },
+  "jhove": {
+    "titulo": "Open Preservation Foundation — JHOVE",
+    "url": "https://jhove.openpreservation.org/",
+    "localizador": "identificação, validação e caracterização de formatos"
+  },
+  "droid": {
+    "titulo": "The National Archives — DROID",
+    "url": "https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/",
+    "localizador": "identificação de formatos por assinaturas e base PRONOM"
+  },
+  "nedccAgua": {
+    "titulo": "NEDCC — 3.12 Freezing and Drying Wet Books and Records",
+    "url": "https://www.nedcc.org/free-resources/preservation-leaflets/3.-emergency-management/3.12-freezing-and-drying-wet-books-and-records",
+    "localizador": "estabilização de materiais molhados e seleção dos métodos de secagem"
+  },
+  "nbr6034": {
+    "titulo": "ABNT NBR 6034:2004 — Índice — Apresentação",
+    "url": "https://cnm.paginas.ufsc.br/files/2020/02/ABNT-NBR-6034.pdf",
+    "localizador": "escopo, definições e apresentação de índices"
+  },
+  "nbr10518": {
+    "titulo": "ABNT NBR 10518:2005 — Guias de unidades informacionais — Elaboração",
+    "url": "https://www.ufsm.br/app/uploads/sites/362/2019/04/colecao_abnt1.pdf",
+    "localizador": "registro do catálogo ABNT: objetivo da norma de 2005"
+  },
+  "nbr10520": {
+    "titulo": "ABNT NBR 10520:2023 — Citações em documentos",
+    "acervo": "acervo-estudos/ABNT/Abnt_nbr_10520_2023.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "sistemas de chamada, citação direta, indireta e citação de citação",
+    "gitBlobSha": "45506f2a4e22baaed958c54c968d6b874465da4a",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "nbr6024": {
+    "titulo": "ABNT NBR 6024:2012 — Numeração progressiva das seções",
+    "acervo": "acervo-estudos/ABNT/ABNT-NBR-6024.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "hierarquia, indicativos, alíneas e elementos sem numeração",
+    "gitBlobSha": "0b2dfb5a76427c4b494636b35fddd4f011f9c98a",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "nbr6027": {
+    "titulo": "ABNT NBR 6027:2012 — Sumário",
+    "acervo": "acervo-estudos/ABNT/ABNT-NBR-6027.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "definição, localização e apresentação",
+    "gitBlobSha": "ff56749f7befb232eb1b2b15760261b21df22628",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "nbr14724": {
+    "titulo": "ABNT NBR 14724:2024, versão corrigida 2025 — Trabalhos acadêmicos",
+    "acervo": "acervo-estudos/ABNT/NBR14724.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "estrutura, elementos e regras gerais de apresentação",
+    "gitBlobSha": "1ea04fd51e811dd4512164890a85c278a2f0c6d6",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "nbr6032": {
+    "titulo": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas",
+    "url": "https://fasamar.edu.br/wp-content/uploads/2020/02/ABNTS.pdf",
+    "localizador": "regras gerais de abreviação e apresentação das abreviaturas"
+  },
+  "cfb184": {
+    "titulo": "Conselho Federal de Biblioteconomia — Perguntas frequentes: ficha catalográfica e Resolução 184/2017",
+    "url": "https://cfb.org.br/perguntas-frequentes/",
+    "localizador": "identificação e registro do bibliotecário responsável"
+  },
+  "isbn": {
+    "titulo": "International ISBN Agency — What is an ISBN?",
+    "url": "https://www.isbn-international.org/content/what-isbn",
+    "localizador": "estrutura e finalidade do identificador"
+  },
+  "issn": {
+    "titulo": "Ibict — Centro Brasileiro do ISSN",
+    "url": "https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/centro-brasileiro-do-issn",
+    "localizador": "atribuição e gestão do ISSN no Brasil"
+  },
+  "depositoLegal": {
+    "titulo": "Lei 10.994/2004 — Depósito legal de publicações na Biblioteca Nacional",
+    "localizador": "objetivo, abrangência e dever de depósito",
+    "acervo": "acervo-estudos/Legislação e contexto legislativo/Lei 10.994.pdf",
+    "gitRef": "auditoria-2026-10",
+    "gitBlobSha": "10a7ea1660cfe40a1c31a93ba853d794139e2661",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "bradfordCurva": {
+    "titulo": "Bibliometric analysis of the literature of randomized controlled trials. 2005",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1250321/",
+    "localizador": "curva cumulativa de artigos, postos logarítmicos e Groos droop"
+  },
+  "meiaVida": {
+    "titulo": "SZÁVA-KOVÁTS. Unfounded attribution of the half-life index-number of literature obsolescence to Burton and Kebler. 2002",
+    "url": "https://doi.org/10.1002/asi.10105",
+    "localizador": "distinção histórica e conceitual de meia-vida e idade mediana"
+  },
+  "acoplamento": {
+    "titulo": "KESSLER, M. M. Bibliographic coupling between scientific papers. 1963",
+    "url": "https://doi.org/10.1002/asi.5090140103",
+    "localizador": "referências compartilhadas e relação entre documentos"
+  },
+  "cocitacao": {
+    "titulo": "SMALL, Henry. Co-citation in the scientific literature. 1973",
+    "url": "https://doi.org/10.1002/asi.4630240406",
+    "localizador": "citação conjunta e distinção de acoplamento bibliográfico"
+  },
+  "goffman": {
+    "titulo": "ALVARADO. La ley de Zipf y el punto de transición de Goffman en la indización automática. 2011",
+    "url": "https://rev-ib.unam.mx/index.php/ib/article/view/27482",
+    "localizador": "frequências lexicais, transição e indexação"
+  },
+  "priceElite": {
+    "titulo": "NICHOLLS. Price’s square root law: empirical validity and relation to Lotka’s law. 1988",
+    "url": "https://www.sciencedirect.com/science/article/pii/0306457388900490",
+    "localizador": "hipótese da raiz quadrada e avaliação empírica"
+  },
+  "merton": {
+    "titulo": "Robert K. Merton — Bureaucratic Structure and Personality, 1940",
+    "url": "https://doi.org/10.2307/2570634",
+    "localizador": "deslocamento de objetivos e disfunções burocráticas"
+  },
+  "diamond": {
+    "titulo": "cOAlition S — OA Diamond Journals Study, 2021",
+    "url": "https://www.coalition-s.org/diamond-open-access/",
+    "localizador": "acesso sem cobrança de leitores e autores; sustentabilidade"
+  },
+  "vanti": {
+    "titulo": "VANTI, Nadia. Da bibliometria à webometria: uma exploração conceitual. Ciência da Informação, 2002",
+    "url": "https://www.scielo.br/j/ci/a/SLKfBsNL3XHPPqNn3jmqF3q/?lang=pt",
+    "localizador": "definições, aplicações e relações entre estudos métricos"
+  },
+  "hirsch": {
+    "titulo": "HIRSCH, J. E. An index to quantify an individual’s scientific research output. PNAS, 2005",
+    "url": "https://doi.org/10.1073/pnas.0507655102",
+    "localizador": "definição e limitações do índice h"
+  },
+  "egghe": {
+    "titulo": "EGGHE, Leo. Theory and practise of the g-index. Scientometrics, 2006",
+    "url": "https://doi.org/10.1007/s11192-006-0144-7",
+    "localizador": "definição e contraste com o índice h"
+  },
+  "jcr": {
+    "titulo": "Clarivate — Journal Citation Reports: Learn the Basics",
+    "url": "https://clarivate.libguides.com/jcr",
+    "localizador": "Journal Impact Factor, Immediacy Index e limites de interpretação"
+  },
+  "citescore": {
+    "titulo": "Elsevier — What is CiteScore?",
+    "url": "https://www.elsevier.support/scopus/answer/what-is-citescore",
+    "localizador": "janela de quatro anos e tipos documentais no cálculo"
+  },
+  "snip": {
+    "titulo": "CWTS — Journal Indicators",
+    "url": "https://www.journalindicators.com/indicators",
+    "localizador": "SNIP e normalização pelo potencial de citação"
+  },
+  "sjr": {
+    "titulo": "SCImago — Journal & Country Rank",
+    "url": "https://www.scimagojr.com/",
+    "localizador": "SJR e ponderação pelo prestígio das fontes citantes"
+  },
+  "leiden": {
+    "titulo": "HICKS et al. Bibliometrics: The Leiden Manifesto for research metrics. Nature, 2015",
+    "url": "https://doi.org/10.1038/520429a",
+    "localizador": "dez princípios de avaliação responsável"
+  },
+  "dora": {
+    "titulo": "San Francisco Declaration on Research Assessment — DORA",
+    "url": "https://sfdora.org/read/",
+    "localizador": "mérito dos resultados e limites de métricas de periódicos"
+  },
+  "leidenRanking": {
+    "titulo": "CWTS Leiden Ranking — Indicators",
+    "url": "https://www.leidenranking.com/information/indicators",
+    "localizador": "impacto, colaboração, dimensões e cobertura"
+  },
+  "boai": {
+    "titulo": "Budapest Open Access Initiative — declaração de 2002",
+    "url": "https://www.budapestopenaccessinitiative.org/read/",
+    "localizador": "definição de acesso aberto e estratégias de autoarquivamento e revistas"
+  },
+  "doaj": {
+    "titulo": "DOAJ — Guide to applying",
+    "url": "https://doaj.org/apply/guide/",
+    "localizador": "critérios de inclusão e abertura dos periódicos"
+  },
+  "jisc": {
+    "titulo": "Jisc — Sherpa services combined into Open Policy Finder, 04/11/2024",
+    "url": "https://www.jisc.ac.uk/news/all/sherpa-services-combined-into-new-user-friendly-platform-open-policy-finder",
+    "localizador": "integração de Romeo, Juliet e Fact e consulta de políticas"
+  },
+  "plans": {
+    "titulo": "cOAlition S — Plan S principles",
+    "url": "https://www.coalition-s.org/plan_s_principles/",
+    "localizador": "obrigações dos financiadores participantes e rotas de conformidade"
+  },
+  "cc": {
+    "titulo": "Creative Commons — About CC Licenses",
+    "url": "https://creativecommons.org/share-your-work/cclicenses/",
+    "localizador": "permissões, condições, atribuição e distinção entre licenças"
+  },
+  "capesPortal": {
+    "titulo": "CAPES — Portal de Periódicos",
+    "url": "https://www.periodicos.capes.gov.br/",
+    "localizador": "conteúdos de acesso aberto e conteúdos de acesso institucional restrito"
+  },
+  "capesQualis": {
+    "titulo": "CAPES — Sobre o Qualis Periódicos na Avaliação Quadrienal 2021–2024",
+    "url": "https://www.gov.br/capes/pt-br/assuntos/noticias/sobre-o-qualis-periodicos-na-avaliacao-quadrienal-2021-2024",
+    "localizador": "uso da lista para o ciclo e substituição no ciclo 2025–2028"
+  },
+  "altmetric": {
+    "titulo": "Altmetric — How is the Altmetric Attention Score calculated?",
+    "url": "https://help.altmetric.com/support/solutions/articles/6000233311-how-is-the-altmetric-attention-score-calculated-",
+    "localizador": "fontes de atenção, ponderação e limites de interpretação"
+  },
+  "cope": {
+    "titulo": "COPE — Core practices",
+    "url": "https://publicationethics.org/core-practices",
+    "localizador": "avaliação por pares, autoria, conflitos e correções da literatura"
+  },
+  "copeRetracao": {
+    "titulo": "COPE — Retraction guidelines",
+    "url": "https://doi.org/10.24318/cope.2019.1.4",
+    "localizador": "motivos, correções e manutenção transparente do registro"
+  },
+  "icmje": {
+    "titulo": "ICMJE — Defining the Role of Authors and Contributors",
+    "url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html",
+    "localizador": "critérios de autoria, colaboradores e responsabilidade"
+  },
+  "ori": {
+    "titulo": "Office of Research Integrity — Definition of Research Misconduct",
+    "url": "https://ori.hhs.gov/definition-research-misconduct",
+    "localizador": "fabricação, falsificação, plágio e distinção de erro honesto"
+  },
+  "unesco": {
+    "titulo": "UNESCO — Recommendation on Open Science, 2021",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000379949",
+    "localizador": "construto inclusivo, dimensões e participação social"
+  },
+  "rea": {
+    "titulo": "UNESCO — Recommendation on Open Educational Resources, 2019",
+    "url": "https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer",
+    "localizador": "definição de REA e permissões de licença aberta"
+  },
+  "crossref": {
+    "titulo": "Crossref — Reference linking",
+    "url": "https://www.crossref.org/services/reference-linking/",
+    "localizador": "ligações entre referências, DOI e acesso aos conteúdos"
+  },
+  "abranches": {
+    "titulo": "ABRANCHES, Sérgio. Presidencialismo de coalizão: o dilema institucional brasileiro. Dados, 1988",
+    "url": "https://dados.iesp.uerj.br/artigos/?id=348",
+    "localizador": "eixos partidário e regional da formação de coalizões"
+  },
+  "prodasen": {
+    "titulo": "Senado Federal — Secretaria de Tecnologia da Informação (Prodasen)",
+    "url": "https://www12.senado.leg.br/institucional/institucional/orgaosenado?codorgao=8927",
+    "localizador": "competências de tecnologia da informação; não é uma base bibliográfica"
+  },
+  "lei8159": {
+    "titulo": "Lei 8.159/1991 — política nacional de arquivos públicos e privados",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html",
+    "localizador": "arts. 3º, 9º e 19: gestão, eliminação e competência dos arquivos legislativos"
+  },
+  "lei9610": {
+    "titulo": "Lei 9.610/1998 — direitos autorais",
+    "acervo": "acervo-estudos/Legislação e contexto legislativo/L9610.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "reprodução, utilização e limitações aos direitos autorais",
+    "gitBlobSha": "f792bc603e29a8fd3b214ba0a367e2db17a49dae",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "lei10753": {
+    "titulo": "Lei 10.753/2003 — Política Nacional do Livro",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2003/lei-10753-30-outubro-2003-497306-normaatualizada-pl.html",
+    "localizador": "diretrizes e incentivos; distinguir da legislação de atribuições profissionais"
+  },
+  "cf": {
+    "titulo": "Constituição da República Federativa do Brasil — texto atualizado",
+    "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital"
+  },
+  "ricd": {
+    "titulo": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026",
+    "acervo": "acervo-estudos/Legislação e contexto legislativo/RICD atualizado ate RCD 34-2026.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "artigos indicados individualmente",
+    "gitBlobSha": "d4f945a0e213a4c63eadbfd8bf02f66c0f55f969",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "rccn": {
+    "titulo": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN",
+    "acervo": "acervo-estudos/Legislação e contexto legislativo/RCCN.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "sessões conjuntas e regras comuns; artigos indicados",
+    "gitBlobSha": "dbb9dbd6fc522fb61c6cabdca5ef57670d3b6dfb",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "codigoEticaCamara": {
+    "titulo": "Câmara dos Deputados — Código de Ética e Decoro Parlamentar",
+    "acervo": "acervo-estudos/Legislação e contexto legislativo/codigo_etica_4ed.2reimp.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "condutas, procedimentos e sanções",
+    "gitBlobSha": "bb521e611b21d15d2a95ee5f5ca5e23586e3efce",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "stfDefensoria": {
+    "titulo": "STF — Informativo 1202/2025: ADI 5662/AC",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1202.htm",
+    "localizador": "autonomia e incompatibilidade do status de secretário de Estado com a chefia da Defensoria"
+  },
+  "stfCPI": {
+    "titulo": "STF — ADPF 848: referendo de cautelar sobre convocação de governadores por CPI federal, 2021",
+    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468315&tip=UN",
+    "localizador": "fundamentos de separação de poderes e autonomia federativa; distinguir convocação e convite"
+  },
+  "lai": {
+    "titulo": "Lei 12.527/2011 — Lei de Acesso à Informação",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+    "localizador": "publicidade, transparência, pedidos, restrições e classificação"
+  },
+  "cedi": {
+    "titulo": "Câmara dos Deputados — Diretoria-Geral e atribuições do Centro de Documentação e Informação",
+    "url": "https://www2.camara.leg.br/a-camara/estruturaadm/diretorias/diretoria-geral",
+    "localizador": "atribuições administrativas e documentais; distinguir descrição institucional e hipótese didática"
+  },
+  "bibliotecaCamara": {
+    "titulo": "Câmara dos Deputados — Biblioteca Pedro Aleixo",
+    "url": "https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+    "localizador": "história, coleções, pesquisa e serviços"
+  },
+  "lei14837": {
+    "titulo": "Lei 14.837/2024 — alteração da Lei 12.244/2010 e Sistema Nacional de Bibliotecas Escolares",
+    "acervo": "acervo-estudos/Legislação e contexto legislativo/Lei-14837-2024-04-08.pdf",
+    "gitRef": "auditoria-2026-10",
+    "localizador": "conceito e funções da biblioteca escolar e respeito à legislação profissional",
+    "gitBlobSha": "4d703c46a8324744750e25973ff9f4709bd6d1d0",
+    "consultaRepositorio": "Arquivo no acervo do repositório HNC; hash Git identifica a versão consultável."
+  },
+  "ccn": {
+    "titulo": "Ibict — Catálogo Coletivo Nacional de Publicações Seriadas",
+    "url": "https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/catalogo-coletivo-nacional-de-publicacoes-seriadas-ccn",
+    "localizador": "acesso público e localização de coleções nacionais e estrangeiras"
+  },
+  "lindb": {
+    "titulo": "Decreto-Lei 4.657/1942 — LINDB",
+    "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+    "localizador": "art. 1º: publicação e entrada em vigor"
+  },
+  "indexacaoCamara": {
+    "titulo": "Câmara dos Deputados — Ato da Mesa 80/2013",
+    "url": "https://www2.camara.leg.br/legin/int/atomes/2013/atodamesa-80-31-janeiro-2013-775250-publicacaooriginal-138914-cd-mesa.html",
+    "localizador": "política de indexação e Tesauro da Câmara; arts. 1º, 2º e 5º"
+  },
+  "cert": {
+    "titulo": "CERT.br — Cartilha de Segurança para Internet: Criptografia",
+    "url": "https://cartilha.cert.br/criptografia/",
+    "localizador": "assinatura digital e distinção de autenticação, integridade e confidencialidade"
+  },
+  "stfMPPauta": {
+    "titulo": "STF — MS 27931, julgamento de 29/06/2017: alcance do sobrestamento por MP",
+    "url": "https://noticias.stf.jus.br/postsnoticias/stf-decide-que-trancamento-de-pauta-da-camara-por-mps-nao-alcanca-todos-os-projetos-e-propostas/",
+    "localizador": "bloqueio de projetos de lei sobre matérias passíveis de MP; exclusões"
+  },
+  "stfJabuti": {
+    "titulo": "STF — ADI 5127, Informativo 803/2015",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo803.htm",
+    "localizador": "pertinência temática de emendas em conversão de MP; efeitos temporais da decisão"
+  },
+  "stfTCU": {
+    "titulo": "STF — MS 25888/DF e compatibilidade da Súmula 347, 2023",
+    "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=513011&ori=1",
+    "localizador": "limites do afastamento incidental de norma pelos tribunais de contas"
+  },
+  "stfIniciativa": {
+    "titulo": "STF — Constituição e Supremo, art. 66",
+    "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF",
+    "localizador": "iniciativa reservada e ausência de convalidação por sanção"
+  },
+  "stfPEC": {
+    "titulo": "STF — Constituição e Supremo, art. 60",
+    "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=60&abrirBase=CF",
+    "localizador": "limites da reforma, mandado de segurança e controle de emendas"
+  },
+  "stfCPIpoderes": {
+    "titulo": "STF — Constituição e Supremo, art. 58",
+    "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF",
+    "localizador": "colegialidade, fundamentação, direitos e reserva de jurisdição"
+  },
+  "camaraLegis": {
+    "titulo": "Câmara dos Deputados — Legislação Informatizada",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao",
+    "localizador": "texto atualizado, publicação original e anotações de alterações"
+  },
+  "mesaAtribuicoes": {
+    "titulo": "Câmara dos Deputados — Mesa Diretora: atribuições das Secretarias",
+    "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/mesa-diretora",
+    "localizador": "divisão de atribuições entre Segunda, Terceira e Quarta Secretarias"
+  },
+  "lei8112": {
+    "titulo": "Lei 8.112/1990 — regime jurídico dos servidores federais",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+    "localizador": "provimento, movimentação, responsabilidade e processo disciplinar"
+  },
+  "lei9784": {
+    "titulo": "Lei 9.784/1999 — processo administrativo federal",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+    "localizador": "princípios, competência, invalidação, convalidação e recursos"
+  },
+  "lei8429": {
+    "titulo": "Lei 8.429/1992 — improbidade administrativa, texto atualizado",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.pdf",
+    "localizador": "ler em conjunto com decisões do STF, inclusive ADIs 7156 e 7236 de 2026"
+  },
+  "stfImprobidade2026": {
+    "titulo": "STF — ADIs 7156 e 7236, Informativo 1225/2026",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm",
+    "localizador": "julgamento concluído em 01/07/2026; divulgação em 24/08/2026; prescrição e outros dispositivos da reforma"
+  },
+  "stfImprobidadeLegitimidade": {
+    "titulo": "STF — ADIs 7042 e 7043, Informativo 1066/2022",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1066.htm",
+    "localizador": "legitimidade concorrente e disjuntiva para ação e ANPC"
+  },
+  "stfPolicia532": {
+    "titulo": "STF — Tema 532: delegação do poder de polícia",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=532",
+    "localizador": "RE 633782; delegação por lei e requisitos cumulativos"
+  },
+  "stfResponsabilidade940": {
+    "titulo": "STF — Tema 940: legitimidade passiva e regresso",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=940",
+    "localizador": "RE 1027633; Estado ou prestador privado de serviço público e regresso por dolo ou culpa"
+  },
+  "stfDetento592": {
+    "titulo": "STF — Tema 592: morte de detento",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4645403&numeroProcesso=841526&numeroTema=592",
+    "localizador": "inobservância do dever específico de proteção; nexo causal e circunstâncias do caso"
+  },
+  "decreto9203": {
+    "titulo": "Decreto 9.203/2017 — política de governança federal",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+    "localizador": "âmbito, conceitos, princípios e mecanismos; não confundir com extensão automática ao Legislativo"
+  },
+  "riscosCamara": {
+    "titulo": "Câmara — Ato da Mesa 233/2018 e Política de Gestão Corporativa de Riscos",
+    "url": "https://www2.camara.leg.br/legin/int/atomes/2018/atodamesa-233-24-maio-2018-786753-publicacaooriginal-155674-cd-mesa.html",
+    "localizador": "política própria da Câmara; gestão de riscos não substituída por autodeclaração"
+  },
+  "tresLinhas": {
+    "titulo": "IIA — The Three Lines Model, 2020",
+    "url": "https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense",
+    "localizador": "papéis de gestão de primeira e segunda linhas e avaliação independente da auditoria interna"
+  },
+  "pdrae": {
+    "titulo": "Presidência da República/MARE — Plano Diretor da Reforma do Aparelho do Estado, 1995",
+    "url": "https://mail.bresserpereira.org.br/documents/mare/PlanoDiretor/planodiretor.pdf",
+    "localizador": "formas de administração e quatro setores do Estado; atividades exclusivas e serviços não exclusivos"
+  },
+  "tcuGovernanca": {
+    "titulo": "TCU — Referencial Básico de Governança Organizacional, 3ª edição, 2020",
+    "url": "https://portal.tcu.gov.br/data/files/FB/B6/FB/85/1CD4671023455957E18818A8/Referencial_basico_governanca_organizacional_3_edicao.pdf",
+    "localizador": "governança, gestão, cadeia de valor, liderança, estratégia e controle"
+  },
+  "stfSumulasAdmin": {
+    "titulo": "STF — Constituição e Supremo, art. 37",
+    "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=37&abrirBase=CF",
+    "localizador": "princípios administrativos; SV 13 e controle de atos"
+  },
+  "stfSV5": {
+    "titulo": "STF — Súmula Vinculante 5",
+    "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1199",
+    "localizador": "defesa técnica por advogado em PAD; não dispensa contraditório e ampla defesa"
+  },
+  "stj635": {
+    "titulo": "STJ — Súmula 635",
+    "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?O=JT&livre=%27635%27.num.",
+    "localizador": "interrupção por sindicância punitiva ou PAD e retomada após 140 dias"
+  },
+  "osborne": {
+    "titulo": "Stephen P. Osborne — The New Public Governance?, 2006",
+    "url": "https://doi.org/10.1080/14719030600853022",
+    "localizador": "redes interorganizacionais, pluralidade e coprodução"
+  },
+  "lei13303": {
+    "titulo": "Lei 13.303/2016 — estatuto jurídico das empresas estatais",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html",
+    "localizador": "arts. 3º e 4º: empresa pública e sociedade de economia mista"
+  },
+  "textosInglesHnc": {
+    "titulo": "Textos-base de Inglês fornecidos no banco HNC",
+    "arquivo": "src/content/questions/m12-ingles-100q.ts",
+    "gitRef": "ce5fee9ef400a069c4c5013b11e2316b578e889f",
+    "localizador": "passagens reproduzidas no banco; a revisão compara a assertiva com o texto, sem certificar origem de prova nem atualizar fatos históricos"
+  },
+  "cambridgeGrammar": {
+    "titulo": "Cambridge Dictionary — English Grammar Today",
+    "url": "https://dictionary.cambridge.org/grammar/british-grammar/",
+    "localizador": "relative pronouns, present perfect, linking words e interpretação contextual"
+  },
+  "cambridgeDictionary": {
+    "titulo": "Cambridge Dictionary — dicionário de inglês",
+    "url": "https://dictionary.cambridge.org/dictionary/english/",
+    "localizador": "allay, comply, outperform, entrepreneur e phrasal verbs no contexto"
+  },
+  "textosPortuguesHnc": {
+    "titulo": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar",
+    "arquivo": "src/content/questions/m13-portugues-100q.ts",
+    "localizador": "Textos I e II na edição revisada; Texto II reconstruído editorialmente porque não constava do banco anterior"
+  },
+  "redacaoPR": {
+    "titulo": "Presidência da República — Manual de Redação, 3ª edição, 2018",
+    "url": "https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "localizador": "capítulo III; seções 9, 11 e 12: ortografia, sintaxe, regência, concordância, pontuação e semântica"
+  },
+  "michaelisNecessitar": {
+    "titulo": "Michaelis — Dicionário Brasileiro da Língua Portuguesa: necessitar",
+    "url": "https://michaelis.uol.com.br/palavra/la9KO/necessitar/",
+    "localizador": "transitividade direta e indireta no sentido de ter necessidade"
+  },
+  "senadoVisar": {
+    "titulo": "Senado Federal — Manual de Comunicação: visar",
+    "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/visar",
+    "localizador": "preferência de estilo pela regência indireta; distinção de preferência e exclusividade gramatical"
+  },
+  "acordoOrtografico": {
+    "titulo": "Decreto 6.583/2008 — Acordo Ortográfico, texto atualizado",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.pdf",
+    "localizador": "anexo: bases IX e XVI; efeitos e transição no Brasil"
+  },
+  "m14googleVersoes": {
+    "titulo": "Google — histórico de versões de Docs, Sheets e Slides",
+    "url": "https://support.google.com/docs/answer/190843",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14googleCompartilhar": {
+    "titulo": "Google Drive — compartilhamento e permissões",
+    "url": "https://support.google.com/drive/answer/2494822",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msPrivados": {
+    "titulo": "Microsoft Teams — canais privados",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/private-channels",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msCompartilhados": {
+    "titulo": "Microsoft Teams — canais compartilhados",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/shared-channels",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msDLP": {
+    "titulo": "Microsoft Purview — DLP e Microsoft Teams",
+    "url": "https://learn.microsoft.com/en-us/purview/dlp-microsoft-teams",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msGravar": {
+    "titulo": "Microsoft Teams — gravação de reuniões",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/cloud-recording",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14googleTranscrever": {
+    "titulo": "Google Meet — transcrições de reuniões",
+    "url": "https://support.google.com/meet/answer/12849897",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14msSobDemanda": {
+    "titulo": "Microsoft OneDrive — arquivos sob demanda",
+    "url": "https://support.microsoft.com/en-us/office/save-disk-space-with-onedrive-files-on-demand-for-windows-0e6860d3-d9f3-4971-b321-7092438fb38e",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerQuery": {
+    "titulo": "Microsoft — Power Query e linguagem M",
+    "url": "https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14slideMestre": {
+    "titulo": "Microsoft PowerPoint — editar e reaplicar layouts",
+    "url": "https://support.microsoft.com/en-gb/powerpoint/edit-and-re-apply-a-slide-layout",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc1939": {
+    "titulo": "IETF — RFC 1939: POP3",
+    "url": "https://www.rfc-editor.org/rfc/rfc1939.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc9293": {
+    "titulo": "IETF — RFC 9293: TCP",
+    "url": "https://www.rfc-editor.org/rfc/rfc9293.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc768": {
+    "titulo": "IETF — RFC 768: UDP",
+    "url": "https://www.rfc-editor.org/rfc/rfc768.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc1034": {
+    "titulo": "IETF — RFC 1034: DNS",
+    "url": "https://www.rfc-editor.org/rfc/rfc1034.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc8446": {
+    "titulo": "IETF — RFC 8446: TLS 1.3",
+    "url": "https://www.rfc-editor.org/rfc/rfc8446.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rfc4253": {
+    "titulo": "IETF — RFC 4253: SSH",
+    "url": "https://www.rfc-editor.org/rfc/rfc4253.txt",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14owaspPrompt": {
+    "titulo": "OWASP — prompt injection em aplicações com LLMs",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14webAuthn": {
+    "titulo": "W3C — Web Authentication Level 2",
+    "url": "https://www.w3.org/TR/webauthn-2/",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14transformer": {
+    "titulo": "Vaswani et al. — Attention Is All You Need, 2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14rlhf": {
+    "titulo": "Ouyang et al. — Training language models to follow instructions with human feedback, 2022",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14chainThought": {
+    "titulo": "Wei et al. — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, 2022",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14fewShot": {
+    "titulo": "Brown et al. — Language Models are Few-Shot Learners, 2020",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14daxCalculate": {
+    "titulo": "Microsoft — DAX CALCULATE",
+    "url": "https://learn.microsoft.com/en-us/dax/calculate-function-dax",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14daxSumx": {
+    "titulo": "Microsoft — DAX SUMX",
+    "url": "https://learn.microsoft.com/en-us/dax/sumx-function-dax",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerCalculos": {
+    "titulo": "Microsoft Power BI — opções de cálculo",
+    "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-calculations-options",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerEstrela": {
+    "titulo": "Microsoft Power BI — esquema estrela e modelagem dimensional",
+    "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14powerRelacoes": {
+    "titulo": "Microsoft Power BI — relacionamentos muitos para muitos",
+    "url": "https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14postgresTransacoes": {
+    "titulo": "PostgreSQL — transações",
+    "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14imputacao": {
+    "titulo": "Scikit-learn — imputação de valores ausentes",
+    "url": "https://scikit-learn.org/stable/modules/impute.html",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14vazamentoDados": {
+    "titulo": "Scikit-learn — armadilhas e vazamento de dados",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14declutter": {
+    "titulo": "Storytelling with Data — reduzir desordem e destacar a mensagem",
+    "url": "https://www.storytellingwithdata.com/blog/what-your-audience-really-wants",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14normalizacao": {
+    "titulo": "Microsoft — descrição de normalização de bancos de dados",
+    "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário"
+  },
+  "m14Coautoria": {
+    "titulo": "Microsoft — colaboração de documentos e coautoria",
+    "url": "https://support.microsoft.com/en-us/sharepoint/get-started-with-sharepoint/document-collaboration-and-co-authoring",
+    "localizador": "armazenamento compartilhado, formatos e aplicativos compatíveis"
+  },
+  "m14CompartilharOneDrive": {
+    "titulo": "Microsoft OneDrive — compartilhar arquivos e pastas",
+    "url": "https://support.microsoft.com/en-us/onedrive/share-files-and-folders-in-microsoft-onedrive",
+    "localizador": "permissões, expiração e senha conforme plano e configuração"
+  },
+  "m14Rotulos": {
+    "titulo": "Microsoft Purview — rótulos de sensibilidade",
+    "url": "https://learn.microsoft.com/en-us/purview/sensitivity-labels",
+    "localizador": "proteção configurável, criptografia, marcação e permissões"
+  },
+  "m14SQL": {
+    "titulo": "OWASP — SQL Injection Prevention Cheat Sheet",
+    "url": "https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md",
+    "localizador": "consultas parametrizadas e separação entre comando e dados"
+  },
+  "m14RPO": {
+    "titulo": "IBM — RTO e RPO",
+    "url": "https://www.ibm.com/docs/en/i/7.5.0?topic=criteria-recovery-point-objective-rpo",
+    "localizador": "tempo para recuperação e ponto de recuperação dos dados"
+  },
+  "m14RTO": {
+    "titulo": "IBM — Recovery time objective",
+    "url": "https://www.ibm.com/docs/en/i/7.5.0?topic=criteria-recovery-time-objective-rto",
+    "localizador": "tempo de recuperação para retomada da operação"
+  },
+  "m14Backup321": {
+    "titulo": "US-CERT/CISA — Data Backup Options",
+    "url": "https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf",
+    "localizador": "regra 3-2-1 e opções de cópia"
+  },
+  "m14NistAI": {
+    "titulo": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024",
+    "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+    "localizador": "confabulação, vieses, privacidade, avaliação e documentação"
+  },
+  "m14Circular": {
+    "titulo": "Microsoft Excel — remover ou permitir referência circular",
+    "url": "https://support.microsoft.com/en-us/excel/remove-or-allow-a-circular-reference-in-excel",
+    "localizador": "detecção, avisos e cálculo iterativo"
+  },
+  "m14VersoesSharePoint": {
+    "titulo": "Microsoft SharePoint — restaurar versão anterior",
+    "url": "https://support.microsoft.com/en-us/sharepoint/documents-and-library/restore-a-previous-version-of-an-item-or-file-in-sharepoint",
+    "localizador": "cópia da versão restaurada passa a atual sem exclusão automática do histórico"
+  },
+  "m14E2EE": {
+    "titulo": "Microsoft Teams — criptografia ponta a ponta",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-end-to-end-encryption",
+    "localizador": "escopo, configuração e recursos de mídia cifrada ponta a ponta"
+  },
+  "m14MeetAcesso": {
+    "titulo": "Google Meet — participar de uma videochamada",
+    "url": "https://support.google.com/meet/answer/9302870",
+    "localizador": "conta, organização e regras de admissão"
+  },
+  "m14TeamsExcluir": {
+    "titulo": "Microsoft Teams — arquivar ou excluir equipe",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/archive-or-delete-a-team",
+    "localizador": "efeitos da exclusão, recuperação e retenção"
+  },
+  "m14DHCP": {
+    "titulo": "IETF — RFC 2131: DHCP",
+    "url": "https://www.rfc-editor.org/rfc/rfc2131",
+    "localizador": "configuração dinâmica e concessão de endereços"
+  },
+  "m14NGFW": {
+    "titulo": "Microsoft Azure Firewall Premium — recursos",
+    "url": "https://learn.microsoft.com/en-us/azure/firewall/premium-features",
+    "localizador": "inspeção TLS, aplicações e prevenção de intrusão"
+  },
+  "m14NistAuth": {
+    "titulo": "NIST SP 800-63B-4 — autenticação e fatores",
+    "url": "https://pages.nist.gov/800-63-4/sp800-63b.html",
+    "localizador": "fatores de autenticação e autenticadores; conteúdo público consultado por indexação"
+  },
+  "m14TiposBackup": {
+    "titulo": "IBM — Backup as a Service: tipos de backup",
+    "url": "https://www.ibm.com/think/topics/backup-as-a-service",
+    "localizador": "incremental desde último backup e diferencial desde último completo"
+  },
+  "m14Embeddings": {
+    "titulo": "Reimers e Gurevych — Sentence-BERT, 2019",
+    "url": "https://arxiv.org/abs/1908.10084",
+    "localizador": "representações vetoriais e comparação por similaridade"
+  },
+  "m14ShadowAI": {
+    "titulo": "Microsoft — segurança de acesso e uso não autorizado de IA",
+    "url": "https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-security-operations",
+    "localizador": "Shadow AI como uso não autorizado ou não alinhado à política institucional"
+  },
+  "m14Prompts": {
+    "titulo": "Anthropic — boas práticas de estruturação de prompts",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables",
+    "localizador": "separação de instruções, contexto e exemplos; uso de delimitadores XML"
+  },
+  "m14ELT": {
+    "titulo": "IBM — Extract, Load, Transform",
+    "url": "https://www.ibm.com/think/topics/elt",
+    "localizador": "ordem das etapas e transformação no destino"
+  },
+  "m14Graficos": {
+    "titulo": "Government Analysis Function — Data visualisation: charts",
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+    "localizador": "tipos de gráfico, comparação e evitar formas 3D desnecessárias"
+  },
+  "m14Grafo": {
+    "titulo": "Neo4j — What is a graph database",
+    "url": "https://neo4j.com/docs/getting-started/graph-database/",
+    "localizador": "nós, relações, propriedades e restrições"
+  },
+  "inglesGeralHnc": {
+    "titulo": "HNC — textos autorais: AI in parliament e Open parliamentary data",
+    "arquivo": "src/content/questions/simulado-geral-180q.ts",
+    "localizador": "textos de apoio reconstruídos editorialmente; não transcrição de prova oficial"
+  },
+  "rvbiManual2025": {
+    "titulo": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI, arquivo de 06/09/2025",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/231030/Descricao_bibliografica_RVBI_2025-09-06.pdf?isAllowed=y&sequence=33",
+    "localizador": "seção 650: indicadores; trecho público indexado consultado, não certificação de novas regras em 2026"
+  },
+  "marcDC": {
+    "titulo": "Library of Congress — MARC to Dublin Core Crosswalk, 2008",
+    "url": "https://www.loc.gov/marc/marc2dc.html",
+    "localizador": "introdução e mapeamento de Title"
+  },
+  "dataOwnership": {
+    "titulo": "GOV.UK — Data ownership model",
+    "url": "https://www.gov.uk/government/publications/data-ownership-in-government/data-ownership-model",
+    "localizador": "responsabilidades de data owner e data steward; modelo de referência para caso hipotético"
+  },
+  "gettyAnoxia": {
+    "titulo": "Selwitz e Maekawa — Inert Gases in the Control of Museum Insect Pests, Getty, 1998",
+    "url": "https://www.getty.edu/publications/resources/virtuallibrary/0892365021.pdf",
+    "localizador": "anoxia com concentração residual de oxigênio e condições controladas; apresentação pública da obra"
+  },
+  "cciPapel": {
+    "titulo": "Canadian Conservation Institute — Caring for paper objects",
+    "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/paper-objects.html",
+    "localizador": "hidrólise ácida, oxidação e corrosão por tinta ferrogálica"
+  },
+  "naraManuseio": {
+    "titulo": "National Archives — General Considerations for Rehousing and Preservation Processes",
+    "url": "https://www.archives.gov/preservation/holdings-maintenance/considerations",
+    "localizador": "mãos limpas para papel e luvas de nitrilo para fotografias e certos metais"
+  },
+  "rdaMudancas2013": {
+    "titulo": "Library of Congress — Summary of RDA Updates, July 2013",
+    "url": "https://www.loc.gov/aba/rda/pdf/summary_rda_changes_2013.pdf",
+    "localizador": "11.2.2.14–15: entidades subordinadas, incluindo governamentais; numeração da edição original RDA"
+  },
+  "bbdHistorica": {
+    "titulo": "Senado Federal — Bibliografia Brasileira de Direito: apresentação histórica",
+    "url": "https://imagem.camara.leg.br/Imagem/d/pdf/DCD26AGO2000.pdf",
+    "localizador": "apresentação dos produtos bibliográficos: monografias e artigos, português e outros idiomas, editados no Brasil desde 1980"
+  },
+  "lisaProquest": {
+    "titulo": "ProQuest — Library and Information Science Abstracts: Content",
+    "url": "https://proquest.libguides.com/lisa/content",
+    "localizador": "base de referências e resumos em Biblioteconomia e Ciência da Informação; condições de acesso por licença"
+  },
+  "greenstone": {
+    "titulo": "Greenstone — Building collections",
+    "url": "https://wiki.greenstone.org/doku.php?id=en%3Abeginner%3Abuilding_collections",
+    "localizador": "banco de dados da coleção: JDBM, GDBM ou SQLite, conforme configuração"
+  },
+  "stjRes8": {
+    "titulo": "STJ — Resolução 8, de 20/09/2007",
+    "url": "https://www.stj.jus.br/webstj/Institucional/Biblioteca/Clipping/2Imprimir2.asp?seq_edicao=1499&seq_materia=13104",
+    "localizador": "art. 2º: assinatura digital das edições do DJe; referência histórica expressamente delimitada"
+  },
+  "historiaBiblioteca": {
+    "titulo": "Câmara dos Deputados — Histórico da Biblioteca",
+    "url": "https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca/bibhist.html",
+    "localizador": "origem em 1823, criação efetiva em 1866 e denominação pela Resolução 104/1984"
+  },
+  "guiaCDUIbict": {
+    "titulo": "IBICT — Guia para utilização da CDU",
+    "url": "https://livroaberto.ibict.br/bitstream/123456789/772/6/Guia%20para%20utiliza%C3%A7%C3%A3o%20da%20CDU.pdf",
+    "localizador": "p. 11: classes simples, compostas e complexas; trecho público consultado"
+  },
+  "sileg": {
+    "titulo": "Câmara dos Deputados — Sileg-Tramitação",
+    "url": "https://www.camara.leg.br/internet/servicos-tic/atv-parlamentar-ficha-sileg.htm",
+    "localizador": "cadastro de proposições e acompanhamento de seu ciclo de tramitação"
+  },
+  "dmpDcc": {
+    "titulo": "Digital Curation Centre — Data Management Plans",
+    "url": "https://www.dcc.ac.uk/resources/data-management-plans",
+    "localizador": "planejamento e atualização da gestão dos dados ao longo da pesquisa"
+  },
+  "doi": {
+    "titulo": "DOI Foundation — DOI Handbook",
+    "url": "https://www.doi.org/doi-handbook/",
+    "localizador": "persistência, resolução e manutenção dos dados de destino"
+  },
+  "mods": {
+    "titulo": "Library of Congress — MODS: Uses and Features",
+    "url": "https://www.loc.gov/standards/mods/mods-overview",
+    "localizador": "XML, nomes de elementos e relação com MARC"
+  },
+  "mets": {
+    "titulo": "Library of Congress — METS Overview and Tutorial",
+    "url": "https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+    "localizador": "METS 1.x: metadados, arquivos e mapa estrutural"
+  },
+  "bibframe": {
+    "titulo": "Library of Congress — Overview of the BIBFRAME 2.0 Model",
+    "url": "https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+    "localizador": "Work, Instance e Item; distinção de níveis"
+  },
+  "rdf": {
+    "titulo": "W3C — RDF 1.1 Concepts and Abstract Syntax",
+    "url": "https://www.w3.org/TR/rdf11-concepts/",
+    "localizador": "triplas, grafos e recursos"
+  },
+  "linkedData": {
+    "titulo": "Tim Berners-Lee — Linked Data, Design Issues",
+    "url": "https://www.w3.org/DesignIssues/LinkedData.html",
+    "localizador": "quatro princípios de dados conectados"
+  },
+  "sparql": {
+    "titulo": "W3C — SPARQL 1.1 Query Language",
+    "url": "https://www.w3.org/TR/sparql11-query/",
+    "localizador": "consulta a grafos RDF"
+  },
+  "postgresConstraints": {
+    "titulo": "PostgreSQL — Constraints",
+    "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "localizador": "foreign keys, valores nulos e referências a chaves únicas"
+  },
+  "postgresSelect": {
+    "titulo": "PostgreSQL — Table Expressions",
+    "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html",
+    "localizador": "WHERE, GROUP BY e HAVING"
+  },
+  "mongoSchema": {
+    "titulo": "MongoDB — Schema Validation",
+    "url": "https://www.mongodb.com/docs/manual/core/schema-validation/",
+    "localizador": "esquema flexível e regras de validação opcionais"
+  },
+  "regexMDN": {
+    "titulo": "MDN — JavaScript Regular Expressions",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+    "localizador": "classes de caracteres, quantificadores, âncoras e grupos"
+  },
+  "openrefine": {
+    "titulo": "OpenRefine — Reconciling",
+    "url": "https://openrefine.org/docs/manual/reconciling",
+    "localizador": "serviços, candidatos e decisão de reconciliação"
+  },
+  "wcagContraste": {
+    "titulo": "W3C — WCAG 2.2, Understanding 1.4.3 Contrast Minimum",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "localizador": "nível AA, 4.5:1, texto grande e exceções"
+  },
+  "wcagImagem": {
+    "titulo": "W3C WAI — Images Tutorial",
+    "url": "https://www.w3.org/WAI/tutorials/images/",
+    "localizador": "imagens informativas, funcionais, complexas e decorativas"
+  },
+  "wcagCor": {
+    "titulo": "W3C — WCAG 2.2, Understanding 1.4.1 Use of Color",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+    "localizador": "cor não é o único meio visual de transmitir informação"
+  },
+  "wcagTabelas": {
+    "titulo": "W3C WAI — Tables Tutorial",
+    "url": "https://www.w3.org/WAI/tutorials/tables/",
+    "localizador": "cabeçalhos, escopo e relações de células"
+  },
+  "pdfUA": {
+    "titulo": "PDF Association — Tagged PDF and PDF/UA",
+    "url": "https://pdfa.org/techniques-for-accessible-pdf/content-order-correctly-set/UA1_Tpdf-G4_01/",
+    "localizador": "estrutura semântica e ordem lógica; tags não bastam sem correção"
+  },
+  "decreto9758": {
+    "titulo": "Decreto 9.758/2019 — formas de tratamento e endereçamento",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9758-11-abril-2019-787965-publicacaooriginal-157737-pe.html",
+    "localizador": "arts. 1º–3º: âmbito, exceções e tratamento senhor"
+  },
+  "lc95": {
+    "titulo": "Lei Complementar 95/1998 — elaboração e redação das leis",
+    "url": "https://www2.camara.leg.br/legin/fed/leicom/1998/leicomplementar-95-26-fevereiro-1998-363948-normaatualizada-pl.html",
+    "localizador": "art. 10: artigos e parágrafos"
+  },
+  "anpd2026": {
+    "titulo": "Lei 15.352/2026 — transformação em Agência Nacional de Proteção de Dados",
+    "url": "https://legis.senado.gov.br/norma/42835651/publicacao/42841343",
+    "localizador": "denominação da ANPD e alterações da LGPD vigentes antes do corte"
+  },
+  "dataInk": {
+    "titulo": "Publications Office of the European Union — Chart elements: introduction",
+    "url": "https://data.europa.eu/apps/data-visualisation-guide/chart-junk-and-data-ink-origins",
+    "localizador": "origem de chartjunk e definição de data-ink ratio em Tufte"
+  },
+  "crisp": {
+    "titulo": "IBM — CRISP-DM: metodologia e fases",
+    "url": "https://www.ibm.com/docs/en/spss-modeler/18.5.0?topic=dm-crisp-help-overview",
+    "localizador": "seis fases iterativas; não estabelece uma porcentagem obrigatória universal por fase"
+  },
+  "luhn": {
+    "titulo": "Luhn — The Automatic Creation of Literature Abstracts, 1958",
+    "url": "https://courses.ischool.berkeley.edu/i256/f06/papers/luhn58.pdf",
+    "localizador": "frequência e distribuição de palavras e medida de significância"
+  },
+  "cap": {
+    "titulo": "Gilbert e Lynch — Brewer’s conjecture and the feasibility of consistent, available, partition-tolerant web services, 2002",
+    "url": "https://doi.org/10.1145/564585.564601",
+    "localizador": "consistência e disponibilidade na presença de partições; não equivale a proibição de ACID em NoSQL"
+  },
+  "marraqueche": {
+    "titulo": "Decreto 9.522/2018 — Tratado de Marraqueche",
+    "url": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9522.htm",
+    "localizador": "arts. 2º–4º do tratado: beneficiários, entidades autorizadas e formatos acessíveis"
+  },
+  "lda": {
+    "titulo": "Blei, Ng e Jordan — Latent Dirichlet Allocation, 2003",
+    "url": "https://jmlr.org/papers/v3/blei03a.html",
+    "localizador": "modelo generativo probabilístico com tópicos latentes"
+  },
+  "cer": {
+    "titulo": "Hugging Face Evaluate — implementação da métrica CER",
+    "url": "https://github.com/huggingface/evaluate/blob/main/metrics/cer/cer.py",
+    "localizador": "fórmula (substituições + deleções + inserções) / caracteres de referência"
+  },
+  "assinaturaDigital": {
+    "titulo": "NIST — FIPS 186-5: Digital Signature Standard",
+    "url": "https://csrc.nist.gov/pubs/fips/186-5/final",
+    "localizador": "assinatura e verificação, integridade e autenticação de origem"
+  }
+}

@@ -1,0 +1,1639 @@
+[
+  {
+    "id": "fund-q-101",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "ações de ciclo completo e ações sequenciais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6871306cd8f5a069f5cc56e4e96298c80007a2fab135fb4f4c1426bd209d6a21",
+    "shaDepois": "54c3f787455a15000f77407f1958ab6766fc49f670c32774591805dc64e4fd9d",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "O modelo de curadoria digital do DCC distingue ações de ciclo completo, como descrição e representação e planejamento da preservação, de ações sequenciais, como ingestão e ações de preservação.",
+      "justificativa": "CERTO. O modelo distingue ações que atravessam o ciclo de ações sequenciais, como ingestão e ações de preservação. Planejar preservação e descrever informação não se confundem com executar toda operação em todas as etapas. O modelo pode orientar decisões e não garante integridade só por ser adotado.",
+      "gatilho": "planejamento da preservação",
+      "armadilhaBanca": "Distinguir planejamento contínuo e execução sequencial.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — ações de ciclo completo e ações sequenciais — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "No modelo DCC, ingestão e toda ação de preservação são obrigatoriamente operações contínuas executadas em cada instante do ciclo."
+    }
+  },
+  {
+    "id": "fund-q-102",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "princípios F, A, I e R; uso por humanos e máquinas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "80485f3c481914687b7c20aac14e5a6233691d81186ab32e58dcf79cdc3f439b",
+    "shaDepois": "26dfa37543ec03f441cf994e8b41859da9a8a1d00f7cf35f74f7f0b7481ba792",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. FAIR orienta descoberta, acesso sob condições, interoperabilidade e reuso por pessoas e máquinas. Localizar dados não implica poder usá-los para qualquer finalidade: licença, documentação e condições de acesso continuam relevantes. Automação exige metadados que possam ser interpretados, não apenas um PDF disponível na web.",
+      "gatilho": "agentes computacionais",
+      "armadilhaBanca": "Não reduzir disponibilidade computacional a leitura humana.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — princípios F, A, I e R; uso por humanos e máquinas — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "FAIR se destina apenas à leitura humana e dispensa metadados interpretáveis por máquinas."
+    }
+  },
+  {
+    "id": "fund-q-103",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dmpDcc"
+    ],
+    "localizador": "plano de gestão de dados como documento vivo",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6449402c139f1ddaadc39ee37096d5188e2763716c18d801b4327dc7f8a61fe2",
+    "shaDepois": "70b8d90bc3df1ec1a94ae12b9307d816b42fbcea086c98e295f7d74b6bcbd549",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "O plano de gestão de dados deve ser elaborado apenas após a publicação final dos resultados, pois não orienta decisões durante a pesquisa.",
+      "justificativa": "ERRADO. O plano deve antecipar coleta, organização, segurança, responsabilidades, preservação e compartilhamento, sendo atualizado durante o projeto. Elaborá-lo apenas no fim impede orientar decisões que já precisavam ter sido tomadas. Registrar o passado pode ajudar, mas não substitui planejamento.",
+      "gatilho": "apenas após",
+      "armadilhaBanca": "Inverter a função temporal do planejamento.",
+      "fonte": "Digital Curation Centre — Data Management Plans — plano de gestão de dados como documento vivo — https://www.dcc.ac.uk/resources/data-management-plans",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Um plano de gestão de dados deve ser preparado desde o planejamento e atualizado durante a pesquisa.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "fund-q-104",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dataverse"
+    ],
+    "localizador": "repositórios de dados: descrição, versões e identificadores",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "9a4259812bb879f22d7d2e3e50491aa895a18775991b8e061cabeb82d6f59b3f",
+    "shaDepois": "7a685bd2f7019c8fcd0883785be8e7a41fd2f7688ba0bb16d00b05411f9da8f5",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Repositórios orientados a dados, como Dataverse, podem oferecer descrição, versionamento e identificadores para conjuntos ou arquivos; essa capacidade não é exclusiva a ponto de impedir que outros repositórios, inclusive DSpace, armazenem dados.",
+      "justificativa": "CERTO. Repositórios de dados podem oferecer funções específicas para conjuntos e arquivos, com versões e identificadores conforme configuração. DSpace também pode armazenar dados. Não se define a categoria pela proibição de datasets em outro software nem se presume DOI individual para toda tabela de qualquer depósito.",
+      "gatilho": "não é exclusiva",
+      "armadilhaBanca": "Distinguir especialização de serviço e exclusividade de software.",
+      "fonte": "The Dataverse Project — User Guide — repositórios de dados: descrição, versões e identificadores — https://guides.dataverse.org/en/latest/user/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "DSpace é tecnicamente proibido de armazenar conjuntos de dados, e todo repositório de dados atribui DOI a cada tabela automaticamente."
+    }
+  },
+  {
+    "id": "fund-q-105",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "ingestão: recebimento, verificação e preparação para preservação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "11f2d150e0edf595e2f6bf7fcdb2a44669ba92082ce18aa2e05a356f7430a412",
+    "shaDepois": "f01c948df896316bb47c2e8d1fe72999a4d09411bc60965dd95c68af3f68bd5f",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Na curadoria digital, ingestão significa descartar os metadados de proveniência como requisito para reduzir o armazenamento.",
+      "justificativa": "ERRADO. Ingestão recebe e prepara informação para o arquivo, podendo verificar conteúdo e produzir pacote de arquivamento. Proveniência ajuda a interpretar origem e transformações. Eliminá-la por definição compromete rastreabilidade, em vez de constituir uma economia obrigatória.",
+      "gatilho": "descartar",
+      "armadilhaBanca": "Trocar preparação para preservação por perda de contexto.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — ingestão: recebimento, verificação e preparação para preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Ingestão pode verificar conteúdo e metadados e preparar o pacote de arquivamento, preservando informações de proveniência necessárias.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "fund-q-106",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "I2 e I3: vocabulários FAIR e referências qualificadas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "f81225da99e4aeb224a630d95729352f010dc131ddc90b86c0250ddea1ea4f6e",
+    "shaDepois": "a99c588855bffe6dac98678da6ba74f1f28466b27fb325bf8b712b1842014610",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Os princípios FAIR de interoperabilidade recomendam vocabulários que também sigam FAIR e referências qualificadas a outros dados e metadados.",
+      "justificativa": "CERTO. I2 orienta usar vocabulários que sigam FAIR; I3, referências qualificadas a outros dados e metadados. Não se trata apenas de pôr um link sem indicar relação. Tampouco se conclui que qualquer vocabulário dito controlado satisfaça automaticamente todos os princípios.",
+      "gatilho": "referências qualificadas",
+      "armadilhaBanca": "Relacionar cada recomendação ao princípio de interoperabilidade.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — I2 e I3: vocabulários FAIR e referências qualificadas — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "FAIR recomenda eliminar referências a outros dados e usar vocabulários inacessíveis e sem descrição."
+    }
+  },
+  {
+    "id": "fund-q-107",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "doi"
+    ],
+    "localizador": "persistência do identificador e manutenção da resolução",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "e4cbcf9b78c395ccdfdf7d0c1b986ea075680ea468084879e24276a9ddcf9dac",
+    "shaDepois": "7187f79285e7286567753b180f3fbf5d7cff62c1ace88e9e7fd07f77c4ff3d71",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "gabarito": "E",
+      "item": "A simples atribuição de DOI ou Handle garante automaticamente acesso funcional eterno aos dados, mesmo sem manutenção dos registros de resolução e do recurso.",
+      "justificativa": "ERRADO. Um PID separa a identidade da URL de destino e pode manter o acesso após mudança, desde que os registros de resolução sejam mantidos. Não é garantia técnica de disponibilidade eterna: servidor pode falhar ou destino deixar de ser atualizado. Persistência é compromisso e infraestrutura.",
+      "gatilho": "garante automaticamente",
+      "armadilhaBanca": "Converter objetivo de persistência em garantia incondicional.",
+      "fonte": "DOI Foundation — DOI Handbook — persistência do identificador e manutenção da resolução — https://www.doi.org/doi-handbook/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Identificadores persistentes apoiam continuidade de referência, mas exigem manutenção dos registros de resolução e do recurso.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "fund-q-108",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "R1.1: licença clara e acessível",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "8945f0f999c4785e7a6b4f67f7f1933289ecec660bfefd324966463b38c529eb",
+    "shaDepois": "c987d02026999106c8512546cad72de8a0a36ad85aeacba0cf20c66222ebb01f",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. Reuso precisa de condições claras, e R1.1 recomenda licença bem definida e acessível. Dado científico não se torna automaticamente domínio público nem fica livre de privacidade e outros limites. Mesmo quando não há exclusividade autoral sobre fatos, condições legais e de uso precisam ser tratadas.",
+      "gatilho": "domínio público automático",
+      "armadilhaBanca": "Confundir natureza científica e dispensa automática de condições de uso.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — R1.1: licença clara e acessível — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "FAIR recomenda condições de reuso claras e licença acessível, observados direitos e restrições legais.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "fund-q-109",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "curadoria ao longo do ciclo e preservação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "65b86ef2f040a9d815e2c6b178381c55b28a7c0973c93aa1302a2da891134fd2",
+    "shaDepois": "490d6e78ac669025626ee35ab01ce60d1338c2fa3f1a0bb19b609c0e64e14d3f",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A curadoria de dados realiza intervenções ao longo do tempo e busca manter dados compreensíveis e reutilizáveis, tratando riscos de obsolescência e perda de contexto.",
+      "justificativa": "CERTO. Curadoria envolve ações planejadas para manter interpretação, integridade e possibilidade de reuso. Trocar formato sem documentar significado não basta. A continuidade depende de recursos e decisões; o trabalho reduz riscos e não garante que todo dado será compreensível indefinidamente.",
+      "gatilho": "busca manter",
+      "armadilhaBanca": "Distinguir depósito pontual e cuidado continuado.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — curadoria ao longo do ciclo e preservação — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Curadoria digital termina no upload e dispensa monitorar formatos, contexto e documentação ao longo do tempo."
+    }
+  },
+  {
+    "id": "fund-q-110",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "A1.2: autenticação e autorização quando necessárias",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "d894b4c502f7692e2e7410891d41f240f19b1251089cafef0c306ed6115846a1",
+    "shaDepois": "17f367637a3eff345e9cbc4be87d028d18f4624a5140504a4d2c4a205bbce4c9",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. FAIR permite protocolos com autenticação e autorização. Metadados podem ser descobertos e condições de acesso descritas sem abrir os dados sensíveis a todos. Acesso controlado fundamentado não é, por si, incompatível com FAIR.",
+      "gatilho": "sinônimo",
+      "armadilhaBanca": "Confundir FAIR e abertura irrestrita.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — A1.2: autenticação e autorização quando necessárias — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Dados podem seguir princípios FAIR com acesso controlado, desde que suas condições e metadados sejam adequadamente tratados.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "fund-q-111",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "arts. 1º, 3º, 6º e 23: tratamento em bibliotecas públicas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "69e6d3eaf6f7097a3e2d205e77b12708fe79a0f4921686b33e2b17e41d5afd1c",
+    "shaDepois": "1fb85d0995ad3296afd365443362273591b1f42bb8514ec498b8f225c5074fce",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. Cadastro e circulação envolvem tratamento de dados pessoais e podem estar no âmbito da LGPD. Natureza pública da biblioteca não cria isenção geral. Devem-se observar hipóteses de incidência, finalidade e base legal, distinguindo dados pessoais de estatísticas efetivamente anonimizadas.",
+      "gatilho": "aplica-se",
+      "armadilhaBanca": "Confundir finalidade pública e isenção de proteção de dados.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 1º, 3º, 6º e 23: tratamento em bibliotecas públicas — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Bibliotecas públicas são sempre isentas da LGPD por prestarem serviço gratuito à sociedade."
+    }
+  },
+  {
+    "id": "fund-q-112",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "art. 6º, III: necessidade",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "c5ed6bd8b976d366d807d2c9da3bea1ee679757bb799d586c723d0545f762e6b",
+    "shaDepois": "95a55d504132de1f0c8ee577046e5ba49fd5827c33c48ff21e7a6d728ecf8f5c",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Pelo princípio da necessidade da LGPD, o tratamento de dados no serviço de empréstimo deve limitar-se ao mínimo necessário para sua finalidade, com pertinência e proporcionalidade.",
+      "justificativa": "CERTO. A necessidade limita dados ao que é pertinente, proporcional e não excessivo para a finalidade. Coletar dado só porque um formulário antigo o pede não demonstra necessidade. A avaliação deve considerar o serviço, evitando pedir informação sem relação com a circulação do acervo.",
+      "gatilho": "mínimo necessário",
+      "armadilhaBanca": "Aplicar minimização ao vínculo entre dado e finalidade.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 6º, III: necessidade — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O princípio da necessidade permite coletar qualquer dado disponível, ainda que sem relação com a finalidade."
+    }
+  },
+  {
+    "id": "fund-q-113",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "arts. 5º, II, 6º e 11: dados sensíveis e necessidade",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "9d5d118d0210b00e9001cd3331ac998ce5fc26e1a8445ecdc91a73fb48f9afc9",
+    "shaDepois": "231a9ac6266393054af92dd9237ef7d75ce19ae691e60de9ed0ca42af16e2e67",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A finalidade exclusiva de cadastrar um leitor para empréstimo é suficiente para tornar obrigatória a coleta de filiação partidária, religião e perfil genético do usuário.",
+      "justificativa": "ERRADO. Filiação política, convicção religiosa e dados genéticos são sensíveis. Cadastrar alguém para empréstimo não demonstra necessidade desses dados. O fato de o órgão ser público não fornece autorização universal: exige-se finalidade e hipótese legal pertinente, além dos princípios.",
+      "gatilho": "suficiente",
+      "armadilhaBanca": "Confundir condição do serviço e justificativa universal para dado sensível.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 5º, II, 6º e 11: dados sensíveis e necessidade — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O cadastro de empréstimo deve coletar dados necessários ao serviço, sem presumir legitimidade para exigir dados sensíveis sem relação com ele.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "fund-q-114",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "arts. 7º, II e III, 11 e 23: bases e finalidade pública",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "9418ff941f06ace550f60ce876a7bb37a2a2b1227c00e0df756927861b12b82b",
+    "shaDepois": "5a8ed69a35d0ba3e9174b36e4b8c6d4a91f0e1ebf12d8bff4195e2ec07289bff",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "O tratamento de dados pessoais por biblioteca pública exige finalidade e base legal adequada; conforme a operação, podem ser pertinentes obrigação legal ou execução de políticas públicas, sem dispensa dos princípios da LGPD.",
+      "justificativa": "CERTO. Tratamento pelo poder público pode apoiar-se em bases legais pertinentes a obrigações e políticas públicas, com finalidade e competência explicitadas. Não basta chamar toda operação de institucional: dados sensíveis têm regime próprio e nenhuma base afasta necessidade e transparência. Consentimento não é fundamento obrigatório universal.",
+      "gatilho": "base legal adequada",
+      "armadilhaBanca": "Distinguir possibilidade de base pública e autorização genérica.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 7º, II e III, 11 e 23: bases e finalidade pública — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Toda atividade chamada institucional dispensa identificar finalidade, competência e base legal para tratar dados pessoais."
+    }
+  },
+  {
+    "id": "fund-q-115",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "art. 12: anonimização e possibilidade de reversão",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "e6f3ce89a427c0288afc6bb5812488927a146ec3e0410a3420a4647f8283c541",
+    "shaDepois": "be80b28e75893f97663ebd4bd83a4543482b89bd29fc171c3f0833e84c1563d3",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A LGPD impede qualquer divulgação de estatísticas de uso de bibliotecas, mesmo quando os dados estejam efetivamente anonimizados nos termos da lei.",
+      "justificativa": "ERRADO. Dados efetivamente anonimizados, observadas as condições legais, não são tratados da mesma forma que perfis identificáveis. Estatísticas podem ser divulgadas com avaliação de risco de reidentificação. Apagar apenas o nome não assegura anonimização se outras combinações permitem identificar pessoas.",
+      "gatilho": "impede qualquer",
+      "armadilhaBanca": "Confundir anonimização efetiva e mera retirada do nome.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 12: anonimização e possibilidade de reversão — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A divulgação de estatísticas efetivamente anonimizadas pode ser admissível, com avaliação de finalidade e risco de reidentificação.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "fund-q-116",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd",
+      "anpd2026"
+    ],
+    "localizador": "arts. 5º, VIII, e 41; denominação ANPD pela Lei 15.352/2026",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "97587c9b020dd44f79ce7a2b5820eeec40f68c418289825c907da3a991155720",
+    "shaDepois": "1ac09a11248a5eddfd58da1f97775ed9321443333ef3117562b06a3771a8c4db",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "O encarregado pelo tratamento de dados pessoais atua como canal de comunicação entre o controlador, os titulares e a Agência Nacional de Proteção de Dados (ANPD).",
+      "justificativa": "CERTO. O encarregado atua no canal entre controlador, titulares e ANPD, recebendo comunicações e orientando providências nos termos legais. Não se torna automaticamente controlador ou único responsável por toda decisão. A revisão atualiza a denominação da ANPD para Agência, vigente antes do corte do edital.",
+      "gatilho": "canal de comunicação",
+      "armadilhaBanca": "Distinguir canal e orientação das responsabilidades do controlador.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 5º, VIII, e 41; denominação ANPD pela Lei 15.352/2026 — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O encarregado substitui o controlador e passa a responder sozinho por toda decisão de tratamento da instituição."
+    }
+  },
+  {
+    "id": "fund-q-117",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "tcuGovernanca"
+    ],
+    "localizador": "governança: políticas, riscos e monitoramento",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "adab12a39208442bd9524614df682e2da88d620c2a5c9674e3da590a0528232c",
+    "shaDepois": "01193f282c485ab6344e1e7cf5bcc1b3a53aefd5ecd404d0a227bb64ddd7aaf2",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A governança da informação pode estabelecer responsabilidades, políticas, controle de acesso e monitoramento para proteger o patrimônio informacional, mas não elimina por si todos os riscos.",
+      "justificativa": "CERTO. Governança orienta responsabilidades e controles para objetivos e riscos. Disponibilidade, integridade, confidencialidade e autenticidade podem ser protegidas por medidas proporcionais, mas publicar política não garante ausência de incidentes. É necessário implementar, acompanhar e corrigir controles.",
+      "gatilho": "não elimina",
+      "armadilhaBanca": "Separar instrumento de governança e resultado garantido.",
+      "fonte": "TCU — Referencial Básico de Governança Organizacional, 3ª edição, 2020 — governança: políticas, riscos e monitoramento — https://portal.tcu.gov.br/data/files/FB/B6/FB/85/1CD4671023455957E18818A8/Referencial_basico_governanca_organizacional_3_edicao.pdf",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Uma política de governança elimina por si todo risco de perda, acesso indevido ou indisponibilidade."
+    }
+  },
+  {
+    "id": "fund-q-118",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "arts. 6º e 23; LAI art. 31: dados pessoais e transparência",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "619d6bc2b6777ab64011921814743fd2289fe6b57edd0f6841211050b1b51c75",
+    "shaDepois": "7770cb606f31791fa7d9a7b212b5082dd03814001beb7d18740a37d575f62322",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. Histórico individual pode revelar hábitos e preferências e não se torna de divulgação irrestrita porque o leitor ocupa cargo público. É preciso finalidade, base, necessidade e avaliação dos direitos envolvidos. Transparência pode ser atendida por dados agregados adequados, sem expor toda trajetória de leitura.",
+      "gatilho": "livremente",
+      "armadilhaBanca": "Usar interesse público como autorização ilimitada de exposição.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 6º e 23; LAI art. 31: dados pessoais e transparência — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A divulgação de históricos individuais exige fundamento e condições legais, não uma presunção de transparência absoluta.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "cat-q-201",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "mods"
+    ],
+    "localizador": "MODS: nomes de elementos e relação com MARC",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "98eb4309fe7a2d69e62facbab29eb5ddc6f7c7e1ab5aac99878a204020e3d7e9",
+    "shaDepois": "79414ca174bbf18d1e2ba8b39c17a93d111a1a0562e803274ab839dfa0108ff9",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. MODS é um esquema XML com elementos nomeados e seleção de dados de tradição MARC. Não é mera troca de etiquetas com conversão perfeitamente reversível: diferenças de estrutura podem alterar granularidade. Ser legível por humanos não elimina validação por máquina.",
+      "gatilho": "rótulos textuais",
+      "armadilhaBanca": "Distinguir derivação de elementos e identidade estrutural.",
+      "fonte": "Library of Congress — MODS: Uses and Features — MODS: nomes de elementos e relação com MARC — https://www.loc.gov/standards/mods/mods-overview",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Converter qualquer registro MARC em MODS consiste apenas em renomear tags e garante ida e volta sem perda."
+    }
+  },
+  {
+    "id": "cat-q-202",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "mets"
+    ],
+    "localizador": "METS 1.x: estrutura e seções de metadados",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "54e55a4036ab6b6632840ebfeb294bdbf0b5cd72b9364ca41f970b546bbec43f",
+    "shaDepois": "235d3dbf1212751af2bb80c73415917de432f45775cade00680e4a1196b91859",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "METS 1.x pode reunir ou referenciar metadados descritivos, administrativos e estruturais de um objeto digital; não precisa incorporar fisicamente todos os arquivos do conteúdo.",
+      "justificativa": "CERTO. METS pode organizar descrição, administração, arquivos e estrutura do objeto, com metadados embutidos ou referenciados. Não exige copiar todo conteúdo e todos os esquemas para dentro de um único arquivo. Empacotamento e descrição de partes são funções relacionadas, mas distintas.",
+      "gatilho": "não precisa incorporar",
+      "armadilhaBanca": "Distinguir organização do pacote e incorporação obrigatória.",
+      "fonte": "Library of Congress — METS Overview and Tutorial — METS 1.x: estrutura e seções de metadados — https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "METS exige incorporar fisicamente todos os arquivos e proíbe referenciar metadados externos."
+    }
+  },
+  {
+    "id": "cat-q-203",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "mets"
+    ],
+    "localizador": "METS 1.x: structMap e hierarquia de partes",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "93dea98bc141b2aab646bcf939a4a408c83d2bdc8e0f7c092ffc0e6d61886bc0",
+    "shaDepois": "c9d0d771ad01442d40bc3f4008d0bbbb79a1a4d6b450c6b502dd428b3d9285ac",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Um documento válido em METS 1.x pode dispensar completamente structMap, pois o mapa estrutural é sempre opcional.",
+      "justificativa": "ERRADO. O mapa estrutural organiza as partes e suas ligações a arquivos. No METS 1.x, não é seção simplesmente descartável: é componente requerido. Para um livro, a estrutura permite representar páginas ou divisões, sem exigir um único modelo universal de segmentação.",
+      "gatilho": "dispensar",
+      "armadilhaBanca": "Trocar papel estrutural por metadado opcional.",
+      "fonte": "Library of Congress — METS Overview and Tutorial — METS 1.x: structMap e hierarquia de partes — https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "No METS 1.x, structMap é requerido e representa a hierarquia das partes do objeto.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "cat-q-204",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "versão 3.0: entidades e categorias de Objeto",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "4546cae66d324f076876859c21e6cbb121206ad6cf2347d6aedbdb93de29f026",
+    "shaDepois": "45c5f121b793a32915894e1e64e44fc99f8db6d7caf5615d814b7bda6260d4fc",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "O modelo do PREMIS 3.0 organiza quatro entidades: Objetos, Eventos, Agentes e Direitos; as categorias de Objeto incluem Entidade Intelectual, Representação, Arquivo e Bitstream.",
+      "justificativa": "CERTO. PREMIS 3.0 distingue Objetos, Eventos, Agentes e Direitos. Entidade intelectual é categoria do Objeto nessa versão, não uma quinta entidade separada. A distinção de versão evita importar o desenho de versões anteriores como se o modelo não tivesse mudado.",
+      "gatilho": "quatro entidades",
+      "armadilhaBanca": "Distinguir entidades e categorias na versão indicada.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — versão 3.0: entidades e categorias de Objeto — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "No PREMIS 3.0, Entidade Intelectual é obrigatoriamente uma quinta entidade independente, fora da entidade Objeto."
+    }
+  },
+  {
+    "id": "cat-q-205",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "Event: tipo, data, resultado e vínculos",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6302a4b1698e6a965666207cd4e84f7021fc216bcf92dd79829b60f648fb22d6",
+    "shaDepois": "8717c30231c2a87ab3e97fa7e533c9858a26a5cd5374eda103e36b03e6468fb2",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. Evento registra ação ligada à preservação e seus resultados, relacionando objetos e agentes quando pertinentes. Gerar ou verificar checksum e validar formato são exemplos, não provas automáticas de autenticidade. Registrar o evento não substitui executar e avaliar a ação.",
+      "gatilho": "Evento",
+      "armadilhaBanca": "Distinguir registro de ação e garantia de resultado.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Event: tipo, data, resultado e vínculos — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Um evento PREMIS substitui a execução da verificação: basta registrá-lo para provar que os bits estão íntegros."
+    }
+  },
+  {
+    "id": "cat-q-206",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "elementos e termos DCMI; qualificações",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "093573f52035b7081e1e0e313c79adfbc6928d8d13c35b73d836a0a2adc277f4",
+    "shaDepois": "0f2a1303f2e09bf24ff2999267fc406c47085171e40b525a28bef96a7ed4373d",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. Qualificação ampliou possibilidades com refinamentos e esquemas de codificação, sem converter Dublin Core em conjunto proprietário desconexo. No OAI-PMH, repositórios devem suportar o formato Dublin Core não qualificado exigido; outros formatos podem coexistir quando anunciados.",
+      "gatilho": "rejeitou totalmente",
+      "armadilhaBanca": "Confundir enriquecimento de metadados e ruptura de compatibilidade.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — elementos e termos DCMI; qualificações — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Refinamentos e outros termos DCMI não tornam Dublin Core proprietário nem impedem oferecer o formato Dublin Core exigido pelo OAI-PMH.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "cat-q-207",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "mets"
+    ],
+    "localizador": "seções descritivas e administrativas; esquemas externos",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "c863f215555031eab47650a90fc1c2749a23635d763352d6c3724fb0e25956db",
+    "shaDepois": "75f88aeb24251964c4e63fd97b5a4b42ffc14ca515f3bfb40e0641a02d576653",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "METS permite combinar metadados descritivos em MODS ou Dublin Core com metadados de preservação em PREMIS, segundo o perfil de aplicação.",
+      "justificativa": "CERTO. METS permite usar esquemas externos para funções distintas: MODS ou DC podem descrever o recurso, PREMIS pode apoiar preservação. Não torna os vocabulários sinônimos nem garante preservação apenas por incluí-los. A adequação depende do perfil e da implementação.",
+      "gatilho": "permite",
+      "armadilhaBanca": "Distinguir complementaridade e exclusão entre esquemas.",
+      "fonte": "Library of Congress — METS Overview and Tutorial — seções descritivas e administrativas; esquemas externos — https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Ao adotar METS, é proibido combinar metadados descritivos MODS com metadados PREMIS de preservação."
+    }
+  },
+  {
+    "id": "cat-q-208",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "Rights: permissões e restrições para ações de preservação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "be9180d374f6309dc367f88d550b1ce72b2ffb60d0e7df0485a1faccd7a83dad",
+    "shaDepois": "0a279e511a785a38711e4c25973f3111670264355fd9cbb8462b16ac97e60caa",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Registrar uma declaração em PREMIS Rights basta para autorizar acesso irrestrito e republicação de qualquer objeto preservado, independentemente da titularidade ou licença.",
+      "justificativa": "ERRADO. Direitos registram permissões, restrições e fundamentos para ações aplicáveis à preservação. A disponibilidade de uma cópia não comprova autorização para publicar ou conceder todo tipo de acesso. Também não se confundem esses metadados com licença concedida automaticamente pelo repositório.",
+      "gatilho": "autorizar acesso irrestrito",
+      "armadilhaBanca": "Confundir registro de permissão e criação de direitos.",
+      "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Rights: permissões e restrições para ações de preservação — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "PREMIS Rights pode registrar condições e fundamento de permissões para ações de preservação, sem conceder automaticamente acesso irrestrito.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "cat-q-209",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rdf"
+    ],
+    "localizador": "RDF 1.1: triplas e grafos",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "2c8e4bd7a310134af889be05ba8276e76942965c7d1debbe349dd8604b7dadc2",
+    "shaDepois": "774828e57b345ea4e8e8a41848577f689fda2e3a660d4c3af4cd70e4da4d3f7c",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. A tripla exprime uma relação: sujeito, propriedade e objeto. Objeto pode ser recurso ou literal; não é obrigatoriamente um arquivo digital. O modelo de grafo não se reduz à serialização XML, pois admite diferentes sintaxes.",
+      "gatilho": "Sujeito, Predicado e Objeto",
+      "armadilhaBanca": "Separar modelo abstrato e formato de serialização.",
+      "fonte": "W3C — RDF 1.1 Concepts and Abstract Syntax — RDF 1.1: triplas e grafos — https://www.w3.org/TR/rdf11-concepts/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "RDF exige que todo objeto de tripla seja arquivo PDF e só pode ser representado em XML."
+    }
+  },
+  {
+    "id": "cat-q-210",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "linkedData"
+    ],
+    "localizador": "princípios de identificação, consulta e ligação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6a2c65b9ba8b7be02477af7da2ef95e7bf7e50b120a3787749c36ad0c49bf16c",
+    "shaDepois": "9c43ed165bae4c9aafdcf2145addf70811e81c1325e6290fc0756ecacd3bec50",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. Os princípios propõem identificadores, possibilidade de consulta por HTTP, informação útil segundo padrões e links para outros recursos. Não impõem um único programa de banco de dados nem abrem direitos de uso automaticamente. Identificar e conectar dados são diferentes de licenciar conteúdo.",
+      "gatilho": "HTTP URIs",
+      "armadilhaBanca": "Distinguir princípios de conexão e imposição de produto.",
+      "fonte": "Tim Berners-Lee — Linked Data, Design Issues — princípios de identificação, consulta e ligação — https://www.w3.org/DesignIssues/LinkedData.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Os princípios de Linked Data exigem usar um único software proprietário e proíbem links entre instituições."
+    }
+  },
+  {
+    "id": "cat-q-211",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibframe"
+    ],
+    "localizador": "três níveis centrais do modelo 2.0",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "5988431f8bb9978056ed927b469a004b03483ae914645e5948bca7c62ad90f0e",
+    "shaDepois": "6426efc73b752235ba3ed6eaba24aaa57e0b2b14423688116f844968e70b2e70",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. BIBFRAME 2.0 distingue Work, Instance e Item. Work trata da essência conceitual, Instance de materialização/publicação e Item de exemplar. Não se deve equiparar automaticamente suas classes às quatro entidades de LRM sem examinar o mapeamento.",
+      "gatilho": "Work",
+      "armadilhaBanca": "Não inferir identidade entre modelos pela semelhança dos nomes.",
+      "fonte": "Library of Congress — Overview of the BIBFRAME 2.0 Model — três níveis centrais do modelo 2.0 — https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "BIBFRAME 2.0 adota exatamente Obra, Expressão, Manifestação e Item com correspondência integral obrigatória ao LRM."
+    }
+  },
+  {
+    "id": "cat-q-212",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibframe"
+    ],
+    "localizador": "Instance e Work",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "c7acc84ba7fe8f540a255e8a8060a7adda8e05390a78a1b0e2ee1de0f1044cfb",
+    "shaDepois": "fd7267313a1345ec309f2ad2f7417b7214ad432f9baf4201c260b912e2e9b3aa",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. Instance se relaciona à incorporação e publicação do recurso, enquanto Work expressa o nível conceitual. O item atribui a Instance uma definição que se aproxima do papel de Work e exclui suas características próprias. Item, por sua vez, individualiza um exemplar.",
+      "gatilho": "Instância",
+      "armadilhaBanca": "Trocar os níveis de abstração do modelo.",
+      "fonte": "Library of Congress — Overview of the BIBFRAME 2.0 Model — Instance e Work — https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Em BIBFRAME 2.0, Instance representa aspectos de incorporação/publicação do recurso, distinguindo-se de Work e Item.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "cat-q-213",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibframe"
+    ],
+    "localizador": "objetivo de transição e representação em dados conectados",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "ae4237223c043e2ca05b40a9fde79f38ec1f565e71116bda5a314eb176296dff",
+    "shaDepois": "02ac4457b8289fe6296fc8d6e79c6e5b79778e2716d954efeaa35b17a3256f34",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "BIBFRAME apoia a transição da descrição bibliográfica para dados conectados na Web; isso não implica extinção imediata do MARC nem licença aberta automática para todo dado convertido.",
+      "justificativa": "CERTO. BIBFRAME busca apoiar a transição da descrição bibliográfica para dados conectados. Isso não significa que MARC já tenha sido extinto em todas as instituições nem que todo registro MARC seja incapaz de conter identificadores. Publicação aberta exige ainda decisão e condições próprias.",
+      "gatilho": "não implica",
+      "armadilhaBanca": "Distinguir projeto de transição e estado universal de implantação.",
+      "fonte": "Library of Congress — Overview of the BIBFRAME 2.0 Model — objetivo de transição e representação em dados conectados — https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "BIBFRAME já extinguiu obrigatoriamente o MARC em todas as bibliotecas e concede licença aberta a qualquer dado convertido."
+    }
+  },
+  {
+    "id": "cat-q-214",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "sparql"
+    ],
+    "localizador": "SPARQL 1.1: consulta a grafos RDF",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "c9c5b059c90592565ae2c7ede4c5e7f466d1b67bfa2c624168c5877020bfb5d8",
+    "shaDepois": "4003c445ab22d0134bb999839eca50ed6e0ffa9e2a44a12aee5ef249809ff868",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "SPARQL limita-se a pesquisar palavras em registros MARC e é incapaz de consultar padrões de triplas RDF.",
+      "justificativa": "ERRADO. SPARQL consulta padrões de triplas e permite selecionar, filtrar e combinar resultados sobre grafos RDF. A linguagem não é uma ferramenta limitada a textos de registros MARC. Endpoint e permissões definem o acesso real, sem alterar a função da linguagem.",
+      "gatilho": "incapaz",
+      "armadilhaBanca": "Confundir linguagem de consulta a grafos e busca textual restrita.",
+      "fonte": "W3C — SPARQL 1.1 Query Language — SPARQL 1.1: consulta a grafos RDF — https://www.w3.org/TR/sparql11-query/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "SPARQL permite consultas sobre grafos RDF por padrões de triplas, filtros e combinações.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "cat-q-215",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "skos"
+    ],
+    "localizador": "SKOS: modelos de organização do conhecimento em RDF",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "5dbcfdfbcd80364450d5eaff9c123a0a9015112dffe18bc24cd396225db4a25f",
+    "shaDepois": "5e5d9a63fdbf1f59134a94a72b617eac414fbc0ecfb9cd9b7f8e3c430a83f955",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. SKOS fornece propriedades para rótulos, conceitos e relações em esquemas de organização. Não transforma todo tesauro em uma ontologia com a mesma expressividade de OWL nem exige uma hierarquia estritamente única. É preciso preservar o sentido de cada relação no mapeamento.",
+      "gatilho": "tesauros",
+      "armadilhaBanca": "Distinguir organização do conhecimento e restrições inexistentes do vocabulário.",
+      "fonte": "W3C — SKOS Reference, 2009 — SKOS: modelos de organização do conhecimento em RDF — https://www.w3.org/TR/skos-reference/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "SKOS só representa árvores de hierarquia única e proíbe relações associativas entre conceitos."
+    }
+  },
+  {
+    "id": "cat-q-216",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "owl"
+    ],
+    "localizador": "OWL 2: classes, propriedades e restrições",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "cf8bb82a89440a7fdb0d684751b6284b4f3c0954043f6d6973c9ac7380757087",
+    "shaDepois": "733f3229bc3dd4011fb04b793b82e12dc634b9cfb3c2ae5baa33889d919f8626",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "OWL proíbe expressar restrições formais entre classes e propriedades, admitindo apenas rótulos alfabéticos para os termos.",
+      "justificativa": "ERRADO. OWL pode expressar axiomas e restrições que permitem raciocínio com ferramentas adequadas. Isso não significa que toda inferência seja prova de verdade no mundo: depende dos axiomas e dos dados. Limitar o modelo a rótulos alfabéticos ou proibir restrições troca sua função por simples lista de termos.",
+      "gatilho": "proíbe",
+      "armadilhaBanca": "Confundir representação lógica e lista de rótulos.",
+      "fonte": "W3C — OWL 2 Web Ontology Language Primer — OWL 2: classes, propriedades e restrições — https://www.w3.org/TR/owl2-primer/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "OWL permite axiomas e restrições, que podem apoiar inferências por mecanismos compatíveis.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m6-q-201",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "postgresConstraints"
+    ],
+    "localizador": "foreign keys: correspondência, unicidade e valores nulos",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "ae964af32e8f7620f0606b55ec63406eb15e6fd71390366a524d7e685f7eff43",
+    "shaDepois": "a2ff6a93c761d9949355651018b04908c046233fe5c141261ccd7645cb970849",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Uma restrição de chave estrangeira exige que o valor não nulo encontre correspondência na chave referenciada elegível, observadas as regras do SGBD; valores nulos podem ser permitidos pela definição.",
+      "justificativa": "CERTO. A chave estrangeira impõe correspondência com uma chave referenciada elegível; valores nulos podem ser permitidos conforme a definição. A referência não precisa ser exclusivamente a chave primária: restrição única apropriada também pode servir. Integridade referencial não valida por si a correção semântica de cada dado.",
+      "gatilho": "não nulo",
+      "armadilhaBanca": "Preservar condições de nulidade e chave referenciada.",
+      "fonte": "PostgreSQL — Constraints — foreign keys: correspondência, unicidade e valores nulos — https://www.postgresql.org/docs/current/ddl-constraints.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Toda chave estrangeira é obrigatoriamente não nula e só pode referenciar a chave primária, nunca uma chave única elegível."
+    }
+  },
+  {
+    "id": "m6-q-202",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "postgresConstraints"
+    ],
+    "localizador": "definição de estruturas e restrições",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "7de3c0dc79f08355e2d1a616b63866e26a6beacabf9ccda1fedbbc172a876157",
+    "shaDepois": "f91c8be81d3244a3b65b404c0265f7b4aa38995bac9834a50cbbffded393e6a5",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. CREATE, ALTER e DROP atuam na definição de estruturas, usualmente classificados como DDL. Inserir, atualizar e excluir linhas são operações de manipulação de dados. Alterar uma tabela e alterar um valor armazenado não são a mesma categoria apenas porque ambos mudam algo.",
+      "gatilho": "DML",
+      "armadilhaBanca": "Confundir alteração de estrutura e de conteúdo.",
+      "fonte": "PostgreSQL — Constraints — definição de estruturas e restrições — https://www.postgresql.org/docs/current/ddl-constraints.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "CREATE, ALTER e DROP são comandos de definição de dados, enquanto INSERT, UPDATE e DELETE manipulam linhas.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m6-q-203",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "mongoSchema"
+    ],
+    "localizador": "esquema flexível e validação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "b00f5139d4729a71f54a89b35ad306050a7b8980032a7ecfcfd66f05efa7ac4b",
+    "shaDepois": "58a9a5487ad434531bcc20df5a302743eda0c13295da0758743758d2e162db5c",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Bancos documentais como MongoDB admitem documentos com esquema flexível; isso não impede definir regras de validação ou planejar a estrutura dos dados.",
+      "justificativa": "CERTO. Flexibilidade permite documentos com estruturas variadas, mas regras podem validar tipos e campos quando configuradas. Não ter esquema rígido obrigatório não significa ausência de modelagem, integridade ou governança. A adequação depende da aplicação e dos padrões de consulta.",
+      "gatilho": "não impede",
+      "armadilhaBanca": "Distinguir flexibilidade e ausência obrigatória de controle.",
+      "fonte": "MongoDB — Schema Validation — esquema flexível e validação — https://www.mongodb.com/docs/manual/core/schema-validation/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Um banco documental não permite definir qualquer validação de campos ou tipos."
+    }
+  },
+  {
+    "id": "m6-q-204",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Grafo"
+    ],
+    "localizador": "nós, relações e travessia",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "f926e0572833cbeade21a9eb5266fd1b6da6f037218cdea0e04b9e5591e2b753",
+    "shaDepois": "927aa6c260008ef8504202fff71c356ab75a9b19959aa3960946efd51a98a707",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Bancos de grafos podem ser adequados a problemas centrados em conexões e caminhos, como redes de coautoria ou relações normativas, conforme os requisitos e padrões de consulta.",
+      "justificativa": "CERTO. Grafos representam entidades e suas conexões, favorecendo consultas sobre caminhos e vizinhanças em problemas apropriados. Redes de coautoria e relações normativas são exemplos. Não são automaticamente superiores a todo banco relacional nem dispensam índices, restrições e avaliação do padrão de acesso.",
+      "gatilho": "podem ser adequados",
+      "armadilhaBanca": "Distinguir adequação ao problema e superioridade universal.",
+      "fonte": "Neo4j — What is a graph database — nós, relações e travessia — https://neo4j.com/docs/getting-started/graph-database/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Um banco de grafos é superior a qualquer relacional em toda operação e dispensa modelagem das relações."
+    }
+  },
+  {
+    "id": "m6-q-205",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "postgresSelect"
+    ],
+    "localizador": "WHERE antes do agrupamento e HAVING sobre grupos",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "ea495686740c3737ca7984aab35f750f5adaa4ec1adac76bfcf070f6313f01c9",
+    "shaDepois": "dba9c39dc33245a46eca0aae729f19d21264fac36c7867e02961852fb7ce1e68",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. WHERE restringe linhas de entrada antes do agrupamento; HAVING impõe condições aos grupos formados. São funções distintas, não uma mera preferência de estilo. Uma condição sobre resultado agregado geralmente pertence ao estágio apropriado de HAVING, conforme a consulta.",
+      "gatilho": "WHERE",
+      "armadilhaBanca": "Inverter a ordem lógica e a unidade do filtro.",
+      "fonte": "PostgreSQL — Table Expressions — WHERE antes do agrupamento e HAVING sobre grupos — https://www.postgresql.org/docs/current/queries-table-expressions.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "WHERE filtra linhas antes do agrupamento; HAVING aplica condições aos grupos resultantes.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m6-q-206",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "regexMDN"
+    ],
+    "localizador": "JavaScript: ponto e flag dotAll s",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "a562f8a377196ea949cbc637a41c833d336028fccdc24bc16671714caecd4ccf",
+    "shaDepois": "1a981dbfca43cdc081ddb62da1f895d1345ef59f9e812668ae2cbef1a3eb1b05",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Em JavaScript, o ponto de uma expressão regular, sem a flag s, não corresponde aos terminadores de linha; com s, esse comportamento é ampliado.",
+      "justificativa": "CERTO. Em JavaScript, . não inclui terminadores de linha no modo usual; a flag s amplia esse comportamento. A flag u também afeta o tratamento de caracteres Unicode. Portanto, não se deve ensinar o metacaractere como qualquer unidade em toda linguagem e conjunto de flags.",
+      "gatilho": "sem a flag s",
+      "armadilhaBanca": "Delimitar linguagem e modificadores da expressão.",
+      "fonte": "MDN — JavaScript Regular Expressions — JavaScript: ponto e flag dotAll s — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Em JavaScript, . tem comportamento idêntico em relação a quebras de linha com e sem a flag s."
+    }
+  },
+  {
+    "id": "m6-q-207",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "regexMDN"
+    ],
+    "localizador": "padrão lexical e validação de calendário",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "bc9e315cdaa065dd6953ff408d30751a655445d82ade710ddcc9bb2aa260f786",
+    "shaDepois": "760a82ab90efe8d08be8b117b9506dd69fc10781bd5e6df9526f1078727d5473",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A expressão regular `^[0-9]{4}-[0-9]{2}-[0-9]{2}$` reconhece um padrão numérico ano-mês-dia, mas não verifica sozinha a validade do calendário.",
+      "justificativa": "CERTO. O padrão verifica a disposição dos grupos numéricos e separadores. Não limita meses a 01–12 nem resolve dias de cada mês ou anos bissextos. Uma sequência como 2026-99-99 satisfaz o desenho numérico, mas não é data válida. Validar calendário exige outras regras.",
+      "gatilho": "não verifica",
+      "armadilhaBanca": "Separar forma lexical e validade semântica.",
+      "fonte": "MDN — JavaScript Regular Expressions — padrão lexical e validação de calendário — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O padrão numérico de quatro, dois e dois dígitos valida automaticamente meses, dias e anos bissextos."
+    }
+  },
+  {
+    "id": "m6-q-208",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "regexMDN"
+    ],
+    "localizador": "quantificadores * e +",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "f4519358ed4dbc8f674a994ac9619fa9f9b5e747130db5ebbeb69a21db075b5c",
+    "shaDepois": "97d75a67e3fb79eafc7c4f540fd8968433a965f4334cac2060248c065d48bec4",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Em expressões regulares, * exige uma ou mais ocorrências do elemento precedente, tendo o mesmo limite mínimo de +.",
+      "justificativa": "ERRADO. Asterisco admite zero ou mais ocorrências; + exige pelo menos uma. Uma correspondência vazia pode ser válida para um trecho com *, o que afeta extração e validação. Não se deve trocar o mínimo de ocorrências mantendo a mesma operação.",
+      "gatilho": "uma ou mais",
+      "armadilhaBanca": "Trocar o limite mínimo de repetição.",
+      "fonte": "MDN — JavaScript Regular Expressions — quantificadores * e + — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O quantificador * admite zero ou mais ocorrências do elemento precedente, enquanto + exige uma ou mais.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m6-q-209",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "openrefine"
+    ],
+    "localizador": "candidatos e serviços de reconciliação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "e892e32497e26b2ebbc2d55f59718f4df094a8e82abf6ea0d7313bf877f4c3c6",
+    "shaDepois": "12d11fecd843191e4db03e8c735e738f3d7a22951e090a113bb034ba22ccc5de",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "OpenRefine pode apoiar limpeza e reconciliação de entidades com serviços externos configurados, mas a pontuação dos candidatos não prova automaticamente a identidade dos registros.",
+      "justificativa": "CERTO. A ferramenta pode consultar serviços, sugerir candidatos e associar identificadores. A pontuação não prova identidade: nomes homônimos e dados incompletos exigem conferir características. Acesso a cada base depende da existência e configuração de serviço apropriado, não é garantia de conector permanente.",
+      "gatilho": "não prova",
+      "armadilhaBanca": "Distinguir candidato de identidade confirmada.",
+      "fonte": "OpenRefine — Reconciling — candidatos e serviços de reconciliação — https://openrefine.org/docs/manual/reconciling",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O maior score de reconciliação prova automaticamente identidade e dispensa revisão de homônimos."
+    }
+  },
+  {
+    "id": "m6-q-210",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "regexMDN"
+    ],
+    "localizador": "grupos de captura e extração",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6a48de20e0ee71e5d3b1a3d60707b44f5ad8851b09308550cf5e22888617496b",
+    "shaDepois": "536a1285f715a0966839b1dc1fefd2ccc7781eba34ce84a1d5af624dde17f597",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Expressões regulares não podem usar grupos de captura para extrair partes de metadados, pois parênteses servem exclusivamente para fins gráficos.",
+      "justificativa": "ERRADO. Parênteses podem formar grupos de captura para recuperar trechos, conforme a sintaxe. Grupos não capturantes também existem e têm outra função. Extrair corretamente requer padrão compatível com os dados; não é necessário recorrer à linguagem C por uma incapacidade geral de regex.",
+      "gatilho": "não podem",
+      "armadilhaBanca": "Confundir função de agrupamento e impossibilidade de extração.",
+      "fonte": "MDN — JavaScript Regular Expressions — grupos de captura e extração — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Expressões regulares podem usar grupos de captura para extrair partes de uma cadeia de texto.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m6-q-211",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "recuperação, geração e qualidade das fontes",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "97581912494292b47edf190d78c24cfda4ab6beec2bfca8eba32cd7d094875cd",
+    "shaDepois": "cc3166f23b2f08324dc50aed49a89fc78e003a9174aac4c8c310113063cef1f2",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "RAG combina recuperação de informação e geração, podendo apoiar respostas com documentos; não garante correção universal nem exige uma única modalidade de busca.",
+      "justificativa": "CERTO. A arquitetura condiciona geração a material recuperado, que pode vir de busca lexical, vetorial ou híbrida. Fonte inadequada, desatualizada ou mal utilizada ainda produz erro. Avaliar recuperação e fidelidade é necessário; não há garantia universal de redução significativa ou eliminação de alucinações.",
+      "gatilho": "não garante",
+      "armadilhaBanca": "Separar possibilidade de fundamentação e garantia de resultado.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — recuperação, geração e qualidade das fontes — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "RAG exige sempre busca vetorial e elimina qualquer erro factual em toda resposta."
+    }
+  },
+  {
+    "id": "m6-q-212",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Embeddings"
+    ],
+    "localizador": "representação vetorial e comparação por similaridade",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "284a7378ca8b15ff88a5c406baaa0af624bc543bdf342f59110a7e5330a5d748",
+    "shaDepois": "f243b82b29a08843b65f93c0b12937ee7a0305ed2bcde3f6603dc7e631508df8",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Uma busca com embeddings pode aproximar consultas e documentos semanticamente relacionados mesmo sem correspondência literal de palavras, conforme o modelo e a medida de similaridade.",
+      "justificativa": "CERTO. Representações aprendidas podem reunir textos relacionados mesmo sem termos literais em comum. O resultado depende do modelo e da medida; proximidade não comprova identidade, verdade factual ou equivalência de todos os sentidos. É preciso avaliar a busca no domínio de uso.",
+      "gatilho": "pode aproximar",
+      "armadilhaBanca": "Distinguir proximidade vetorial e validade factual.",
+      "fonte": "Reimers e Gurevych — Sentence-BERT, 2019 — representação vetorial e comparação por similaridade — https://arxiv.org/abs/1908.10084",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Vetores próximos garantem que as duas afirmações sejam factualmente verdadeiras e semanticamente idênticas."
+    }
+  },
+  {
+    "id": "m6-q-213",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAI"
+    ],
+    "localizador": "confabulação e verificação factual",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "8d57c6b6563cbe792c559a499721c779e487bde6b820058d235f0a1d84ac41f9",
+    "shaDepois": "98f597681da5c23a2e6e608aafb034ec5942f4d2f5fb1b368da81056ececdf52",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. Modelos podem produzir citações inexistentes e referências normativas incorretas com linguagem fluente. A fluência não equivale a consulta de fonte autêntica. Conferir texto, vigência e aderência da norma continua necessário, mesmo quando a resposta inclui aparência de citação formal.",
+      "gatilho": "infalível",
+      "armadilhaBanca": "Confundir aparência de segurança e comprovação.",
+      "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — confabulação e verificação factual — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Saídas de LLMs podem conter referências inexistentes e exigem verificação adequada de fontes e fatos.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m6-q-214",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14transformer"
+    ],
+    "localizador": "self-attention e máscaras causais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "393b498a6b3a42706cd9be1590ad94b46306333e61cf0dea92033caa19d2062c",
+    "shaDepois": "063d2100378ffbbb422aee8d3616175e36d952526af40f14e8c666bef91d3901",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Transformers usam mecanismos de atenção para relacionar representações de tokens; isso não significa acesso irrestrito a tokens futuros em configurações com máscara causal.",
+      "justificativa": "CERTO. A atenção relaciona representações das posições na sequência, dentro dos limites e máscaras do modelo. Na configuração causal, posições futuras são bloqueadas. Chamar atenção de mecanismo central não permite afirmar acesso irrestrito a toda informação ou ausência de limites de contexto.",
+      "gatilho": "não significa",
+      "armadilhaBanca": "Preservar condições técnicas do mecanismo de atenção.",
+      "fonte": "Vaswani et al. — Attention Is All You Need, 2017 — self-attention e máscaras causais — https://arxiv.org/abs/1706.03762",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Todo Transformer permite acesso a tokens futuros mesmo quando usa máscara causal."
+    }
+  },
+  {
+    "id": "m6-q-215",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAI"
+    ],
+    "localizador": "riscos, vieses, governança e avaliação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "75c3fff92d21cff559158cd10708f7cde6c664cfd090e0d69dfb322b94a92584",
+    "shaDepois": "07e8fb366f69574a8e29a7f6ba30937e15e7ebd94f0cca8c304f1e5823ae3029",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. Dados, objetivos e escolhas de projeto podem reproduzir vieses e produzir danos. Uso público exige avaliar finalidade, qualidade, privacidade e responsabilidades conforme o contexto. Uma saída automatizada não se torna neutra apenas por vir de um modelo estatístico.",
+      "gatilho": "neutros por natureza",
+      "armadilhaBanca": "Confundir automação e neutralidade.",
+      "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — riscos, vieses, governança e avaliação — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Sistemas de IA podem refletir vieses e exigem avaliação e governança adequadas ao uso público.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m8-q-201",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dataInk"
+    ],
+    "localizador": "relação entre tinta dedicada aos dados e tinta total",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "1d18312c057be35533fa41bcb82adf153fbf454d6e14fb80f5a91d919f162dfa",
+    "shaDepois": "819db5c7c154609246c52d44ee9dc9dc36c0a20d768e93dc459c0a99bacf73bf",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A relação dados-tinta discutida por Tufte favorece reduzir elementos gráficos desnecessários, sem retirar rótulos, unidades ou contexto indispensáveis à compreensão.",
+      "justificativa": "CERTO. A razão relaciona a parcela dedicada aos dados ao total usado no gráfico. Reduzir decoração desnecessária pode elevar essa proporção, mas não exige apagar rótulos, unidades e contexto necessários à compreensão. É princípio de projeto, não limiar numérico universal de qualidade.",
+      "gatilho": "sem retirar",
+      "armadilhaBanca": "Distinguir redução de ruído e perda de informação útil.",
+      "fonte": "Publications Office of the European Union — Chart elements: introduction — relação entre tinta dedicada aos dados e tinta total — https://data.europa.eu/apps/data-visualisation-guide/chart-junk-and-data-ink-origins",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Maximizar a relação dados-tinta exige eliminar títulos, unidades e toda legenda mesmo quando necessários à interpretação."
+    }
+  },
+  {
+    "id": "m8-q-202",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Graficos"
+    ],
+    "localizador": "escolha de gráfico para evolução temporal",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "a6419fbbca266e76672902864b3af6160fb331d9dfa6804aeaf342891e2afbfd",
+    "shaDepois": "bc65ddf12faebba3781cf43b2b3a8732437a2f772cde227ecdb804367d658db9",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Para mostrar a evolução de gastos ao longo de dez anos, gráficos de linhas ou colunas ordenadas no tempo tendem a comunicar melhor a trajetória do que uma pizza de setores.",
+      "justificativa": "CERTO. Linhas facilitam acompanhar variação ordenada no tempo; colunas também podem comparar períodos. Pizza representa partes de um total e é menos adequada para mostrar trajetória de dez anos. A escolha depende da mensagem, evitando tratar um gráfico como superior em qualquer contexto.",
+      "gatilho": "ao longo",
+      "armadilhaBanca": "Escolher forma de gráfico pela pergunta e pela relação entre os dados.",
+      "fonte": "Government Analysis Function — Data visualisation: charts — escolha de gráfico para evolução temporal — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Um gráfico de pizza é sempre a melhor opção para mostrar a trajetória de uma mesma variável ao longo de dez anos."
+    }
+  },
+  {
+    "id": "m8-q-203",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Graficos"
+    ],
+    "localizador": "comparação visual e efeitos 3D",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "76b77bfca3bb1e3f861ebca2ccbbba2fea1b94afd0fc9d947696170338e13467",
+    "shaDepois": "4ce4c5a91b9265cd2007a12874257ac20a53e513461356b4561808413e85f2e8",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Usar trinta fatias em perspectiva 3D torna um gráfico de pizza necessariamente mais confiável para comparar valores próximos do que barras alinhadas.",
+      "justificativa": "ERRADO. Muitas fatias dificultam comparar parcelas próximas e efeitos 3D podem distorcer a percepção. Isso não torna toda pizza proibida: poucas categorias e uma pergunta de composição podem justificá-la. A adaptação substitui apelo vago à melhor prática por uma comparação verificável.",
+      "gatilho": "mais confiável",
+      "armadilhaBanca": "Confundir efeito decorativo e precisão da comparação.",
+      "fonte": "Government Analysis Function — Data visualisation: charts — comparação visual e efeitos 3D — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Para muitas categorias, barras ordenadas podem facilitar a comparação; perspectiva 3D não garante fidelidade perceptual.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m8-q-204",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "wcagContraste"
+    ],
+    "localizador": "critério 1.4.3: texto normal, texto grande e exceções",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "019b62c92ccb8d71eb174f6b159733314bc327b718c3c71fde32b76469269ca1",
+    "shaDepois": "07d51e40dce31885de2da8d6d6719a2c735b235193a7ce05acc2462e93172fb5",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Pelo critério 1.4.3 da WCAG 2.2, a regra geral no nível AA é contraste mínimo de 4,5:1 para texto normal, observadas as exceções do critério.",
+      "justificativa": "CERTO. No nível AA, a regra geral para texto normal é 4,5:1; texto grande admite 3:1 e há exceções previstas. O valor não descreve todo elemento visual nem substitui os demais critérios. Medição usa contraste entre cores de apresentação, não preferência estética subjetiva.",
+      "gatilho": "4,5:1",
+      "armadilhaBanca": "Associar o limiar ao tipo de conteúdo e nível de conformidade.",
+      "fonte": "W3C — WCAG 2.2, Understanding 1.4.3 Contrast Minimum — critério 1.4.3: texto normal, texto grande e exceções — https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A WCAG 2.2 AA exige apenas 3:1 para todo texto normal, sem distinção por tamanho ou exceções."
+    }
+  },
+  {
+    "id": "m8-q-205",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "wcagImagem"
+    ],
+    "localizador": "alternativas para imagens informativas e complexas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "1b9eb2cb0a3de2998d3703eacc1b35b8d506271ccc7567fa0833ee4f9671af55",
+    "shaDepois": "ce0ce03d38659d69a32519e227231a8e7b6249c7d475e9d4e799863743ba6dab",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Imagens informativas precisam de alternativa adequada à informação ou função; infográficos complexos podem exigir descrição ou dados adicionais além de um texto alternativo curto.",
+      "justificativa": "CERTO. A alternativa deve transmitir informação ou função relevante ao contexto. Um gráfico complexo pode precisar de explicação ou tabela adicional, não apenas uma frase no alt. Imagens decorativas têm outro tratamento; repetir aparência sem informação não garante acesso equivalente.",
+      "gatilho": "podem exigir",
+      "armadilhaBanca": "Distinguir alternativa equivalente e mera descrição de aparência.",
+      "fonte": "W3C WAI — Images Tutorial — alternativas para imagens informativas e complexas — https://www.w3.org/WAI/tutorials/images/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Todo gráfico complexo deve ter apenas uma descrição visual curta, sem alternativa para os valores e relações importantes."
+    }
+  },
+  {
+    "id": "m8-q-206",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "wcagImagem"
+    ],
+    "localizador": "imagens decorativas e alternativas nulas",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "b784b17dc581812090dcb7aa8790222bdeab9774e6ebf0aafbc4215233ce7a2c",
+    "shaDepois": "10fb7aa6eac16c8b9d8feb859d72a6a0af97fa502ba831a616d7123aa281f310",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Uma imagem puramente decorativa deve sempre descrever detalhadamente suas cores no texto alternativo, mesmo sem transmitir qualquer informação.",
+      "justificativa": "ERRADO. Quando uma imagem é puramente decorativa, deve ser ignorável pela tecnologia assistiva, como com alt vazio em HTML. Descrição longa de cores sem significado acrescenta ruído. Se a imagem transmite uma informação real, ela deixa de ser puramente decorativa e pede outra avaliação.",
+      "gatilho": "descrever detalhadamente",
+      "armadilhaBanca": "Não transformar decoração em obstáculo de leitura.",
+      "fonte": "W3C WAI — Images Tutorial — imagens decorativas e alternativas nulas — https://www.w3.org/WAI/tutorials/images/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Uma imagem puramente decorativa deve poder ser ignorada por tecnologia assistiva, conforme a técnica do formato.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m8-q-207",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "wcagCor"
+    ],
+    "localizador": "critério 1.4.1: cor não é meio visual único",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "d7da2050e0707b0df0d69e6204910bf52ce82ebefdfd90cf7f1689c09195e2ca",
+    "shaDepois": "6003caf7086b5709b8153fb172943c03e5c929693dea3f511bc04fb09923e7ec",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. O critério exige outra pista visual quando a cor transmite informação, ação ou distinção, como texto, forma ou padrão. Não proíbe usar cores nem exige que todo gráfico seja preto e branco. Um rótulo apenas para leitor de tela não resolve sozinho a exigência de pista visual.",
+      "gatilho": "único meio visual",
+      "armadilhaBanca": "Distinguir uso de cor e dependência exclusiva dela.",
+      "fonte": "W3C — WCAG 2.2, Understanding 1.4.1 Use of Color — critério 1.4.1: cor não é meio visual único — https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "É suficiente distinguir erro e acerto somente por vermelho e verde, sem qualquer outra pista visual."
+    }
+  },
+  {
+    "id": "m8-q-208",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "pdfUA"
+    ],
+    "localizador": "estrutura semântica e leitura lógica em PDF marcado",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "d44fb82b8798fd3e92240f5bd6240d1fca4101b70a541f291136e128ec766a7b",
+    "shaDepois": "653af8d975269e98196b723e25e04785ad0c2b9450fc9c388f9960b2d980692d",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Em PDF marcado e acessível, a estrutura semântica e a ordem lógica precisam ser corretas; a simples presença de tags não basta para garantir conformidade PDF/UA.",
+      "justificativa": "CERTO. As tags devem refletir papéis e relações, e a sequência precisa corresponder ao sentido do documento. Um PDF pode conter tags incorretas e continuar inacessível. Ordem visual aparente e ordem de leitura assistiva podem divergir, especialmente em colunas, tabelas e elementos interativos.",
+      "gatilho": "não basta",
+      "armadilhaBanca": "Separar presença de marcação e correção da estrutura.",
+      "fonte": "PDF Association — Tagged PDF and PDF/UA — estrutura semântica e leitura lógica em PDF marcado — https://pdfa.org/techniques-for-accessible-pdf/content-order-correctly-set/UA1_Tpdf-G4_01/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A presença de qualquer árvore de tags garante conformidade PDF/UA, independentemente da ordem e da semântica."
+    }
+  },
+  {
+    "id": "m8-q-209",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "wcagTabelas"
+    ],
+    "localizador": "associação de cabeçalhos e células de dados",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "be1fd436ecaace52b5134acf29bc58fdab0971fd76d5e359ae2814601652b3dc",
+    "shaDepois": "b78dad8d3d7d02e9f2a70e633133304f01c2acb1a1cb450ba8ca22d9dfed6b52",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. Cabeçalhos e suas relações permitem interpretar o valor de uma célula ao navegar com tecnologia assistiva. Aparência de negrito ou cor não substitui semântica e associação adequadas. Tabelas complexas exigem identificar a que linhas e colunas cada cabeçalho se aplica.",
+      "gatilho": "dispensável",
+      "armadilhaBanca": "Confundir aparência de cabeçalho e associação semântica.",
+      "fonte": "W3C WAI — Tables Tutorial — associação de cabeçalhos e células de dados — https://www.w3.org/WAI/tutorials/tables/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Tabelas de dados acessíveis devem identificar cabeçalhos e suas relações com as células, conforme o formato e a complexidade.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m8-q-210",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Graficos"
+    ],
+    "localizador": "clareza, representação fiel e comunicação de dados",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6e2d46f9d546cf0252eb8e2c75a665678305dfbaa3c273194ef11f76bdc77d8a",
+    "shaDepois": "24e9c63fa9d6498bb7e432075938cda850ccc200a63004307732ed343e00e940",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A infografia em documentos públicos deve apoiar compreensão e fidelidade; a busca de apelo estético não autoriza distorcer valores, escalas ou contexto dos dados.",
+      "justificativa": "CERTO. Boa apresentação ajuda a compreender, mas não justifica manipular escalas, omitir unidades ou selecionar dados para criar impressão enganosa. Beleza e precisão podem coexistir quando o projeto orienta a atenção sem distorcer a informação. O objetivo comunicativo precisa ser explicitado.",
+      "gatilho": "não autoriza",
+      "armadilhaBanca": "Separar recurso visual e distorção de evidência.",
+      "fonte": "Government Analysis Function — Data visualisation: charts — clareza, representação fiel e comunicação de dados — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Tornar um infográfico mais atraente autoriza alterar valores ou escalas para reforçar a mensagem desejada."
+    }
+  },
+  {
+    "id": "m13-q-201",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "redacaoPR"
+    ],
+    "localizador": "3ª edição, capítulo I: atributos da redação oficial",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "1728a580be760d73eac6834bfd62d68076efcd3b664a4300ee0f0bbbe7ddcc1d",
+    "shaDepois": "2d1c2b548d29d6ef72ac479ab699a62d2b4e71dc9283fc2098a7dc556a0213be",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "CERTO. O manual inclui esses atributos para tornar a comunicação compreensível e apropriada à finalidade pública. A enumeração não é exaustiva: também trata de objetividade, coesão/coerência e uso da norma padrão. Formalidade não exige linguagem rebuscada nem impede organização direta das informações.",
+      "gatilho": "clareza",
+      "armadilhaBanca": "Distinguir formalidade, clareza e ornamentação.",
+      "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — 3ª edição, capítulo I: atributos da redação oficial — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A redação oficial exige rebuscamento e obscuridade para demonstrar formalidade."
+    }
+  },
+  {
+    "id": "m13-q-202",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "decreto9758"
+    ],
+    "localizador": "arts. 1º–3º: âmbito, exceções e senhor",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "da7f63c23a18dee40d8558bf277cadc54816e840ac89ba2a566a067fe7557fa6",
+    "shaDepois": "58983131fec8948fbc641d80419645f8577ba56035a479df842ad5b07c774a8f",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "gabarito": "E",
+      "item": "No âmbito de aplicação do Decreto 9.758/2019, o único tratamento previsto é Vossa Excelência, independentemente do nível hierárquico do agente público.",
+      "justificativa": "ERRADO. No âmbito delimitado do decreto, o tratamento é senhor, com flexão para feminino e plural. Vossa Excelência figura entre as formas vedadas, não como forma única imposta. Há exceções e relações com outros poderes e autoridades, portanto não se aplica a regra indistintamente a toda comunicação estatal.",
+      "gatilho": "Vossa Excelência",
+      "armadilhaBanca": "Trocar a forma adotada por uma das expressamente vedadas.",
+      "fonte": "Decreto 9.758/2019 — formas de tratamento e endereçamento — arts. 1º–3º: âmbito, exceções e senhor — https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9758-11-abril-2019-787965-publicacaooriginal-157737-pe.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "No âmbito do Decreto 9.758/2019, o tratamento previsto é senhor, com flexões e observadas as exceções do art. 1º.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m13-q-203",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "redacaoPR"
+    ],
+    "localizador": "3ª edição, §4.4: vocativo; distinguir regra posterior do Decreto 9.758/2019",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "22bbb04cdceba081889625ac9a6fbe285696b4cd16ae925ba75f27238714814d",
+    "shaDepois": "6bd73a5346ef37a48a4ee2d68a1f1dc7e5b0e89f0e5769ff2bf61fc7af517e0b",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Segundo a disciplina de vocativos da 3ª edição do MRPR, de 2018, Excelentíssimo Senhor deve ser aplicado indistintamente a todas as autoridades, incluindo qualquer diretor de departamento.",
+      "justificativa": "ERRADO. O manual de 2018 reserva o vocativo com Excelentíssimo aos chefes de Poder, não o aplica a toda autoridade. O decreto posterior possui âmbito e exceções próprios e não pode ser apagado por uma leitura atemporal do manual. A pergunta indica expressamente a referência do vocativo.",
+      "gatilho": "indistintamente",
+      "armadilhaBanca": "Preservar destinatário e referência temporal da regra.",
+      "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — 3ª edição, §4.4: vocativo; distinguir regra posterior do Decreto 9.758/2019 — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "No tratamento descrito no MRPR de 2018, Excelentíssimo Senhor não é vocativo indistinto para qualquer autoridade.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m13-q-204",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "redacaoPR"
+    ],
+    "localizador": "3ª edição, capítulo II, §6.1: variações dos documentos oficiais",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "905888110c6d345a2d863f40f89a95efb3b8d6be1b4a300ce51ee9eca513f8e7",
+    "shaDepois": "331f602f224e40e0060366ce695fcb0e29de246b508912740290bf8b5b5c3d38",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A 3ª edição do MRPR unifica a denominação e a diagramação antes distinguidas entre aviso, ofício e memorando, adotando o padrão ofício.",
+      "justificativa": "CERTO. O manual de 2018 adota denominação e diagramação unificadas no lugar da antiga distinção entre aviso, ofício e memorando. Essa orientação do manual não prova revogação automática de toda norma documental de qualquer poder. Deve-se conferir a referência exigida pelo edital e o âmbito institucional.",
+      "gatilho": "padrão ofício",
+      "armadilhaBanca": "Distinguir padronização do manual e extinção legal universal.",
+      "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — 3ª edição, capítulo II, §6.1: variações dos documentos oficiais — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "O MRPR de 2018 mantém obrigatoriamente três denominações distintas, aviso, memorando e ofício, sem qualquer unificação."
+    }
+  },
+  {
+    "id": "m13-q-205",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "redacaoPR"
+    ],
+    "localizador": "§5.1.7: fechos; ressalva das comunicações estrangeiras",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "77f9fb464e97c95e8bce2d3578b20fac24a5066d73f2faebd27fd235a5a99599",
+    "shaDepois": "4748a6166f64d2a58fa76478acd1ee5e7d318913ddeada1b1b4657aad3d0c5b2",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "No padrão do MRPR, ressalvados os casos de rito próprio, emprega-se Respeitosamente para autoridade superior e Atenciosamente para mesma hierarquia, inferior e demais casos.",
+      "justificativa": "CERTO. No modelo do manual, Respeitosamente se dirige a autoridade superior e Atenciosamente à mesma hierarquia, inferior e demais casos. Comunicações com autoridades estrangeiras seguem rito e tradição próprios. O fecho depende da relação, não de preferência pessoal ou desejo de exibir deferência excessiva.",
+      "gatilho": "Respeitosamente",
+      "armadilhaBanca": "Inverter a relação hierárquica dos fechos.",
+      "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §5.1.7: fechos; ressalva das comunicações estrangeiras — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "No MRPR, Atenciosamente é o fecho reservado às autoridades superiores, e Respeitosamente às inferiores."
+    }
+  },
+  {
+    "id": "m13-q-206",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "redacaoPR"
+    ],
+    "localizador": "§5.1.7: fechos simplificados",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "6bf161229b6b5c3189696a32080e31002e8c3f7c478b1d001663b38ec1884276",
+    "shaDepois": "32c3a2264cbf2ec003ff2a0ad10f3cdedd3e4097a5dd18e01e927e62356b6333",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. A fórmula extensa não é o fecho padronizado pelo manual. Para superior, usa-se Respeitosamente conforme a regra; formalidade não exige promessas ou elogios. Concisão e adequação institucional evitam fórmulas ornamentais que não acrescentam informação ao expediente.",
+      "gatilho": "estima e consideração",
+      "armadilhaBanca": "Confundir deferência e prolixidade ornamental.",
+      "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §5.1.7: fechos simplificados — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Na comunicação a superior segundo o padrão do MRPR, usa-se o fecho Respeitosamente, observadas as regras aplicáveis.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m13-q-207",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "redacaoPR"
+    ],
+    "localizador": "§6.2: definição, finalidades e autoria da exposição de motivos",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "7ea2f20766cf016cbe8af09cb5de4c2f2b9ec82b30dbd87aab14b49811d9ba50",
+    "shaDepois": "071a8a712fabe7d03e7c4c96ac805d52bde3bbf6f116d7c2d64e20615eb43029",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "No MRPR, exposição de motivos é expediente dirigido ao Presidente da República por ministro de Estado, inclusive conjuntamente por mais de um ministro, para finalidades como propor medidas ou submeter projeto normativo.",
+      "justificativa": "CERTO. Exposição de motivos dirige-se ao Presidente da República, em regra por ministro, para propor medida, submeter projeto ou informar assunto conforme o manual. Pode ser interministerial. Não é a mensagem presidencial dirigida ao Congresso nem expediente livre de qualquer cidadão.",
+      "gatilho": "ministro",
+      "armadilhaBanca": "Trocar autor e destinatário de gêneros oficiais.",
+      "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §6.2: definição, finalidades e autoria da exposição de motivos — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "Exposição de motivos é o expediente pelo qual o Presidente se dirige ao Congresso para encaminhar projeto de lei."
+    }
+  },
+  {
+    "id": "m13-q-208",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lc95"
+    ],
+    "localizador": "art. 10, I: numeração de artigos",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "4b3b0986904ced4ccc5e753e75edd589915bf8b15686678291b3d9a6e8db3279",
+    "shaDepois": "71cb79776fab96bc970bc7b52785f5b49f00e53ccfb08b2da7ca44c3e2208fee",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "Pela técnica da LC 95/1998, os artigos usam numeração ordinal até o nono e cardinal a partir do décimo, como Art. 9º e Art. 10.",
+      "justificativa": "CERTO. A regra muda do ordinal para cardinal depois do nono: Art. 9º e Art. 10. A revisão mantém exemplos claros e evita a ambiguidade literal de cardinal a partir deste na leitura isolada. Essa regra de articulação não autoriza renumerar livremente artigos de lei já alterada.",
+      "gatilho": "nono",
+      "armadilhaBanca": "Identificar o marco de transição entre ordinal e cardinal.",
+      "fonte": "Lei Complementar 95/1998 — elaboração e redação das leis — art. 10, I: numeração de artigos — https://www2.camara.leg.br/legin/fed/leicom/1998/leicomplementar-95-26-fevereiro-1998-363948-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A numeração ordinal dos artigos deve continuar até o décimo nono: Art. 19º."
+    }
+  },
+  {
+    "id": "m13-q-209",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lc95"
+    ],
+    "localizador": "art. 10, III: parágrafos e parágrafo único",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "f8c8ed83e676a336304a8e56617edc13bcf4af99a9f6448855413e1113bf7ec3",
+    "shaDepois": "78aafa2bf4f2aba61abd2792be36dd732a158c44f9510366ab91ce678712d7b0",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "justificativa": "ERRADO. O limite ordinal também é o nono para parágrafos; no décimo passa-se ao cardinal. Havendo apenas um, emprega-se Parágrafo único por extenso. A regra não se estende até o décimo nono por analogia com qualquer outra enumeração.",
+      "gatilho": "décimo nono",
+      "armadilhaBanca": "Deslocar o marco numérico de uma regra de articulação.",
+      "fonte": "Lei Complementar 95/1998 — elaboração e redação das leis — art. 10, III: parágrafos e parágrafo único — https://www2.camara.leg.br/legin/fed/leicom/1998/leicomplementar-95-26-fevereiro-1998-363948-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Parágrafos usam ordinal até o nono e cardinal a partir do décimo; se houver apenas um, emprega-se Parágrafo único.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "m13-q-210",
+    "caminho": "src/content/questions/questoes-submodulos-ampliados.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "redacaoPR"
+    ],
+    "localizador": "§6.3: definição e finalidades da mensagem",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "50d228875492806f3ee319cccf12d79898567f6a78f133dbf2bd9834144e168d",
+    "shaDepois": "42a68c1bc68338a171870af057a8e81aa1e08df3754972674c78d1425a4386a8",
+    "patch": {
+      "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+      "item": "A mensagem presidencial pode encaminhar ao Congresso Nacional projetos de lei e propostas de emenda constitucional ou prestar informações, conforme as hipóteses constitucionais e o modelo do MRPR.",
+      "justificativa": "CERTO. Mensagem é comunicação oficial entre chefes dos poderes, com exemplos de encaminhamento de projetos e informações presidenciais ao Legislativo. Exposição de motivos tem outro remetente e destinatário. A enumeração de usos não é autorização para qualquer cidadão iniciar lei por mensagem presidencial.",
+      "gatilho": "Congresso",
+      "armadilhaBanca": "Distinguir remetente, destinatário e finalidade do expediente.",
+      "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §6.3: definição e finalidades da mensagem — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A mensagem ao Congresso é remetida por ministro em nome próprio e substitui a exposição de motivos ao Presidente."
+    }
+  }
+]

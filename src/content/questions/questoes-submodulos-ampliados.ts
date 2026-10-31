@@ -11,11 +11,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O Modelo de Ciclo de Vida de Curadoria Digital do Digital Curation Centre (DCC) estabelece ações sequenciais e ações contínuas, sendo a preservação, a descrição com metadados e a garantia de integridade consideradas ações que perpassam todo o ciclo de vida dos dados.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "O modelo de curadoria digital do DCC distingue ações de ciclo completo, como descrição e representação e planejamento da preservação, de ações sequenciais, como ingestão e ações de preservação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No Modelo de Ciclo de Vida de Curadoria Digital formulado pelo Digital Curation Centre (DCC) do Reino Unido, distinguem-se 'ações sequenciais' (conceituação, criação, ingestão, preservação, armazenamento e transformação) e 'ações contínuas' pervasivas: o desenvolvimento de metadados, a gestão de preservação a longo prazo, a avaliação comunitária e o monitoramento ético/legal acompanham os dados em todas as etapas de sua existência.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. O modelo distingue ações que atravessam o ciclo de ações sequenciais, como ingestão e ações de preservação. Planejar preservação e descrever informação não se confundem com executar toda operação em todas as etapas. O modelo pode orientar decisões e não garante integridade só por ser adotado.",
+    "armadilhaBanca": "Distinguir planejamento contínuo e execução sequencial.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -24,8 +24,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "DCC Curation Lifecycle Model / Higgins (2008)"
     },
-    "fonte": "DCC Curation Lifecycle Model / Higgins (2008)",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Digital Curation Centre — Curation Lifecycle Model — ações de ciclo completo e ações sequenciais — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "planejamento da preservação",
+    "versao_correta": "",
+    "versao_errada": "No modelo DCC, ingestão e toda ação de preservação são obrigatoriamente operações contínuas executadas em cada instante do ciclo."
   },
   {
     "id": "fund-q-102",
@@ -37,11 +40,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Os princípios FAIR recomendam que os dados de pesquisa sejam Findable (Localizáveis), Accessible (Acessíveis), Interoperable (Interoperáveis) e Reusable (Reutilizáveis), aplicando-se tanto para humanos quanto para agentes computacionais automatizados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Publicados em 2016 (Wilkinson et al., Nature Scientific Data), os Princípios FAIR fornecem as diretrizes basilares para a gestão e compartilhamento de dados científicos na Ciência Aberta: exigem que dados e metadados sejam Localizáveis (Findable), Acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable), com foco primordial na capacidade de processamento autônomo por agentes computacionais e algoritmos.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. FAIR orienta descoberta, acesso sob condições, interoperabilidade e reuso por pessoas e máquinas. Localizar dados não implica poder usá-los para qualquer finalidade: licença, documentação e condições de acesso continuam relevantes. Automação exige metadados que possam ser interpretados, não apenas um PDF disponível na web.",
+    "armadilhaBanca": "Não reduzir disponibilidade computacional a leitura humana.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -50,8 +53,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Wilkinson et al. (2016) / Princípios FAIR"
     },
-    "fonte": "Wilkinson et al. (2016) / Princípios FAIR",
-    "dataConferencia": "2026-10-14"
+    "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — princípios F, A, I e R; uso por humanos e máquinas — https://doi.org/10.1038/sdata.2016.18",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "agentes computacionais",
+    "versao_correta": "",
+    "versao_errada": "FAIR se destina apenas à leitura humana e dispensa metadados interpretáveis por máquinas."
   },
   {
     "id": "fund-q-103",
@@ -63,11 +69,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Um Plano de Gestão de Dados (DMP) deve ser formulado após a conclusão e publicação final dos resultados da pesquisa científica, com vistas a registrar os arquivos remanescentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "O plano de gestão de dados deve ser elaborado apenas após a publicação final dos resultados, pois não orienta decisões durante a pesquisa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O DMP é um instrumento de planejamento prévio obrigatório em agências de fomento modernas (como FAPESP, CNPq e programas internacionais). Sua elaboração no final da pesquisa inviabiliza a padronização adequada e a conformidade com as diretrizes de governança de dados abertos.",
-    "armadilhaBanca": "Postergação indevida do planejamento de dados para a fase póstuma da pesquisa científica.",
+    "justificativa": "ERRADO. O plano deve antecipar coleta, organização, segurança, responsabilidades, preservação e compartilhamento, sendo atualizado durante o projeto. Elaborá-lo apenas no fim impede orientar decisões que já precisavam ter sido tomadas. Registrar o passado pode ajudar, mas não substitui planejamento.",
+    "armadilhaBanca": "Inverter a função temporal do planejamento.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -75,9 +81,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Diretrizes de Gestão de Dados / FAPESP e CNPq",
       "verificado": false
     },
-    "fonte": "Diretrizes de Gestão de Dados / FAPESP e CNPq",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "O Plano de Gestão de Dados (DMP - Data Management Plan) deve ser elaborado prospectivamente antes ou no início da pesquisa científica, detalhando métodos de coleta, tratamento, metadados, armazenamento, compartilhamento e preservação de longo prazo dos dados."
+    "fonte": "Digital Curation Centre — Data Management Plans — plano de gestão de dados como documento vivo — https://www.dcc.ac.uk/resources/data-management-plans",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Um plano de gestão de dados deve ser preparado desde o planejamento e atualizado durante a pesquisa.",
+    "gatilho": "apenas após",
+    "versao_errada": ""
   },
   {
     "id": "fund-q-104",
@@ -89,11 +97,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Repositórios de dados de pesquisa (como Dataverse e Zenodo) diferenciam-se dos repositórios institucionais tradicionais de publicações (como DSpace) por suportarem conjuntos de dados brutos (datasets), controle de versão de arquivos de dados e atribuição de DOIs próprios para tabelas e matrizes experimentais.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Repositórios orientados a dados, como Dataverse, podem oferecer descrição, versionamento e identificadores para conjuntos ou arquivos; essa capacidade não é exclusiva a ponto de impedir que outros repositórios, inclusive DSpace, armazenem dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Repositórios de dados de pesquisa (como Dataverse, Zenodo e Figshare) possuem requisitos de arquitetura funcional distintos dos repositórios bibliográficos tradicionais (como DSpace): são projetados especificamente para custodiar matrizes tabulares brutas (datasets), suportar arquivos volumosos de código-fonte de scripts analíticos, controlar versões de matrizes numéricas e atribuir DOIs específicos para tabelas de dados.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Repositórios de dados podem oferecer funções específicas para conjuntos e arquivos, com versões e identificadores conforme configuração. DSpace também pode armazenar dados. Não se define a categoria pela proibição de datasets em outro software nem se presume DOI individual para toda tabela de qualquer depósito.",
+    "armadilhaBanca": "Distinguir especialização de serviço e exclusividade de software.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -101,8 +109,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Sayão e Sales / Curadoria Digital de Dados de Pesquisa",
       "verificado": false
     },
-    "fonte": "Sayão e Sales / Curadoria Digital de Dados de Pesquisa",
-    "dataConferencia": "2026-10-14"
+    "fonte": "The Dataverse Project — User Guide — repositórios de dados: descrição, versões e identificadores — https://guides.dataverse.org/en/latest/user/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não é exclusiva",
+    "versao_correta": "",
+    "versao_errada": "DSpace é tecnicamente proibido de armazenar conjuntos de dados, e todo repositório de dados atribui DOI a cada tabela automaticamente."
   },
   {
     "id": "fund-q-105",
@@ -114,11 +125,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Na curadoria digital, a etapa de ingestão de dados refere-se à eliminação sumária dos metadados de proveniência para compactar o arquivo e economizar espaço de armazenamento em nuvem.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Na curadoria digital, ingestão significa descartar os metadados de proveniência como requisito para reduzir o armazenamento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Metadados de proveniência registram a origem histórica, autoria, alterações e cadeia de custódia dos dados (PREMIS). Eliminá-los anula a autenticidade e fidedignidade do objeto digital, violando o núcleo fundamental da preservação e curadoria digital.",
-    "armadilhaBanca": "Destruição de metadados vitais de proveniência sob o pretexto de economia de armazenamento em nuvem.",
+    "justificativa": "ERRADO. Ingestão recebe e prepara informação para o arquivo, podendo verificar conteúdo e produzir pacote de arquivamento. Proveniência ajuda a interpretar origem e transformações. Eliminá-la por definição compromete rastreabilidade, em vez de constituir uma economia obrigatória.",
+    "armadilhaBanca": "Trocar preparação para preservação por perda de contexto.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -126,9 +137,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Modelo OAIS / DCC Lifecycle Model",
       "verificado": false
     },
-    "fonte": "Modelo OAIS / DCC Lifecycle Model",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Na curadoria e preservação digital (modelo OAIS), a fase de ingestão engloba o recebimento formal do pacote de submissão (SIP), verificação de integridade e geração do pacote de arquivamento (AIP), sendo mandatória a preservação integral dos metadados de proveniência."
+    "fonte": "CCSDS — Reference Model for an Open Archival Information System — ingestão: recebimento, verificação e preparação para preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Ingestão pode verificar conteúdo e metadados e preparar o pacote de arquivamento, preservando informações de proveniência necessárias.",
+    "gatilho": "descartar",
+    "versao_errada": ""
   },
   {
     "id": "fund-q-106",
@@ -140,11 +153,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O princípio FAIR da Interoperabilidade exige a utilização de vocabulários controlados que também sigam os princípios FAIR, além da inclusão de referências qualificadas a outros metadados.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Os princípios FAIR de interoperabilidade recomendam vocabulários que também sigam FAIR e referências qualificadas a outros dados e metadados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O princípio de Interoperabilidade dos Princípios FAIR (requisitos I1 e I2) prescreve que os metadados descritivos devem adotar linguagens formais de representação do conhecimento compartilhadas (como RDF, OWL, JSON-LD) e vocabulários ontológicos controlados que também sejam aderentes aos princípios FAIR, assegurando convergência sintática e semântica global entre bases heterogêneas.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. I2 orienta usar vocabulários que sigam FAIR; I3, referências qualificadas a outros dados e metadados. Não se trata apenas de pôr um link sem indicar relação. Tampouco se conclui que qualquer vocabulário dito controlado satisfaça automaticamente todos os princípios.",
+    "armadilhaBanca": "Relacionar cada recomendação ao princípio de interoperabilidade.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -153,8 +166,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Princípios FAIR (Wilkinson et al., 2016)"
     },
-    "fonte": "Princípios FAIR (Wilkinson et al., 2016)",
-    "dataConferencia": "2026-10-14"
+    "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — I2 e I3: vocabulários FAIR e referências qualificadas — https://doi.org/10.1038/sdata.2016.18",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "referências qualificadas",
+    "versao_correta": "",
+    "versao_errada": "FAIR recomenda eliminar referências a outros dados e usar vocabulários inacessíveis e sem descrição."
   },
   {
     "id": "fund-q-107",
@@ -166,11 +182,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Identificadores persistentes (PIDs), como DOI e Handle, garantem que o link de acesso aos dados permaneça funcional ao longo do tempo, mesmo que a URL do servidor físico onde o dado está hospedado seja modificada.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Identificadores persistentes (PIDs), como o DOI (Digital Object Identifier) e o Handle System, utilizam tecnologia de resolução indireta baseada em tabelas de redirecionamento centralizadas. Isso assegura que a citação bibliográfica a um dataset de pesquisa permaneça estável e permanentemente acionável ao longo das décadas, mesmo diante de eventuais migrações de servidores físicos ou reestruturações de domínios web.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A simples atribuição de DOI ou Handle garante automaticamente acesso funcional eterno aos dados, mesmo sem manutenção dos registros de resolução e do recurso.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. Um PID separa a identidade da URL de destino e pode manter o acesso após mudança, desde que os registros de resolução sejam mantidos. Não é garantia técnica de disponibilidade eterna: servidor pode falhar ou destino deixar de ser atualizado. Persistência é compromisso e infraestrutura.",
+    "armadilhaBanca": "Converter objetivo de persistência em garantia incondicional.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -178,8 +194,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Diretrizes de Identificadores Persistentes / Crossref e Handle System",
       "verificado": false
     },
-    "fonte": "Diretrizes de Identificadores Persistentes / Crossref e Handle System",
-    "dataConferencia": "2026-10-14"
+    "fonte": "DOI Foundation — DOI Handbook — persistência do identificador e manutenção da resolução — https://www.doi.org/doi-handbook/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "garante automaticamente",
+    "versao_correta": "Identificadores persistentes apoiam continuidade de referência, mas exigem manutenção dos registros de resolução e do recurso.",
+    "versao_errada": ""
   },
   {
     "id": "fund-q-108",
@@ -191,11 +210,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Para atender plenamente ao princípio FAIR de Reusabilidade, é irrelevante associar licenças de uso aos dados depositados em repositórios, visto que todo dado científico é de domínio público automático.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Dados científicos não entram automaticamente em domínio público irrestrito e desprovido de condicionantes de autoria. O princípio R1.1 preconiza o emprego de licenças abertas expressas e padronizadas para que outros pesquisadores e algoritmos saibam exatamente quais utilizações são legalmente permitidas.",
-    "armadilhaBanca": "Falácia de que ausência de licença equivale a permissão livre e irrestrita de reuso na ciência aberta.",
+    "justificativa": "ERRADO. Reuso precisa de condições claras, e R1.1 recomenda licença bem definida e acessível. Dado científico não se torna automaticamente domínio público nem fica livre de privacidade e outros limites. Mesmo quando não há exclusividade autoral sobre fatos, condições legais e de uso precisam ser tratadas.",
+    "armadilhaBanca": "Confundir natureza científica e dispensa automática de condições de uso.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -204,9 +223,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Princípios FAIR (Wilkinson et al., 2016)"
     },
-    "fonte": "Princípios FAIR (Wilkinson et al., 2016)",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "O princípio FAIR de Reusabilidade (princípio R1.1) exige expressamente que os dados e metadados sejam divulgados com uma licença de uso clara, acessível e interpretável por máquinas (como licenças Creative Commons CC-BY ou CC0), viabilizando seu reuso seguro."
+    "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — R1.1: licença clara e acessível — https://doi.org/10.1038/sdata.2016.18",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "FAIR recomenda condições de reuso claras e licença acessível, observados direitos e restrições legais.",
+    "gatilho": "domínio público automático",
+    "versao_errada": ""
   },
   {
     "id": "fund-q-109",
@@ -218,11 +239,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A curadoria de dados envolve intervenções ativas ao longo do tempo para prevenir a obsolescência de formatos e garantir que os dados de pesquisas parlamentares continuem compreensíveis e reutilizáveis por gerações futuras.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A curadoria de dados realiza intervenções ao longo do tempo e busca manter dados compreensíveis e reutilizáveis, tratando riscos de obsolescência e perda de contexto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A Curadoria Digital de Dados transcende o mero armazenamento ou arquivamento passivo de arquivos: caracteriza-se pela gestão ativa e contínua do patrimônio digital, envolvendo a validação e higienização de matrizes, a conversão preventiva contra obsolescência de formatos proprietários e a contextualização rica de metadados para garantir que os dados científicos e legislativos continuem inteligíveis e reutilizáveis por futuras gerações.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Curadoria envolve ações planejadas para manter interpretação, integridade e possibilidade de reuso. Trocar formato sem documentar significado não basta. A continuidade depende de recursos e decisões; o trabalho reduz riscos e não garante que todo dado será compreensível indefinidamente.",
+    "armadilhaBanca": "Distinguir depósito pontual e cuidado continuado.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -231,8 +252,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Sayão e Sales (2012) / Curadoria Digital"
     },
-    "fonte": "Sayão e Sales (2012) / Curadoria Digital",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Digital Curation Centre — Curation Lifecycle Model — curadoria ao longo do ciclo e preservação — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "busca manter",
+    "versao_correta": "",
+    "versao_errada": "Curadoria digital termina no upload e dispensa monitorar formatos, contexto e documentação ao longo do tempo."
   },
   {
     "id": "fund-q-110",
@@ -244,11 +268,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "O conceito de dados FAIR é sinônimo de dados totalmente abertos e irrestritos, não permitindo que conjuntos de dados com informações sensíveis ou de segurança nacional sejam catalogados sob o modelo FAIR.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Dados FAIR (Localizáveis, Acessíveis, Interoperáveis e Reutilizáveis) não são sinônimo de dados totalmente abertos (Open Data). Bases de dados que contenham segredos de Estado, patentes ou dados pessoais sensíveis podem ser plenamente catalogadas sob os princípios FAIR, com acesso restrito mediante controle de autorização.",
-    "armadilhaBanca": "Confusão simétrica entre Princípios FAIR e Dados Abertos Irrestritos.",
+    "justificativa": "ERRADO. FAIR permite protocolos com autenticação e autorização. Metadados podem ser descobertos e condições de acesso descritas sem abrir os dados sensíveis a todos. Acesso controlado fundamentado não é, por si, incompatível com FAIR.",
+    "armadilhaBanca": "Confundir FAIR e abertura irrestrita.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -256,9 +280,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "European Commission / FAIR Data Guidelines",
       "verificado": false
     },
-    "fonte": "European Commission / FAIR Data Guidelines",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Os princípios FAIR aplicam-se a dados abertos e também a dados sujeitos a restrições legítimas de acesso (\"as open as possible, as closed as necessary\"), bastando que seus metadados descritivos sejam públicos e os protocolos de autorização transparentes."
+    "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — A1.2: autenticação e autorização quando necessárias — https://doi.org/10.1038/sdata.2016.18",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Dados podem seguir princípios FAIR com acesso controlado, desde que suas condições e metadados sejam adequadamente tratados.",
+    "gatilho": "sinônimo",
+    "versao_errada": ""
   },
   {
     "id": "fund-q-111",
@@ -270,11 +296,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "A Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 - LGPD) aplica-se ao tratamento de dados de usuários cadastrados nos sistemas de empréstimo e atendimento ao cidadão de bibliotecas e centros de documentação públicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O art. 1º e 3º da LGPD estabelecem a incidência da lei sobre qualquer operação de tratamento de dados pessoais realizada por pessoa natural ou pessoa jurídica de direito público ou privado.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Cadastro e circulação envolvem tratamento de dados pessoais e podem estar no âmbito da LGPD. Natureza pública da biblioteca não cria isenção geral. Devem-se observar hipóteses de incidência, finalidade e base legal, distinguindo dados pessoais de estatísticas efetivamente anonimizadas.",
+    "armadilhaBanca": "Confundir finalidade pública e isenção de proteção de dados.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -283,8 +309,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei nº 13.709/2018 (LGPD), arts. 1º e 3º"
     },
-    "fonte": "Lei nº 13.709/2018 (LGPD), arts. 1º e 3º",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 1º, 3º, 6º e 23: tratamento em bibliotecas públicas — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "aplica-se",
+    "versao_correta": "",
+    "versao_errada": "Bibliotecas públicas são sempre isentas da LGPD por prestarem serviço gratuito à sociedade."
   },
   {
     "id": "fund-q-112",
@@ -296,11 +325,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O princípio da necessidade (minimização), previsto no art. 6º, III da LGPD, preconiza que a biblioteca deve coletar e tratar apenas os dados pessoais estritamente indispensáveis para a prestação do serviço de empréstimo e circulação de acervo.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Pelo princípio da necessidade da LGPD, o tratamento de dados no serviço de empréstimo deve limitar-se ao mínimo necessário para sua finalidade, com pertinência e proporcionalidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O princípio da necessidade (também denominado princípio da minimização de dados), consagrado expressamente no art. 6º, inciso III, da Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018), preconiza que o tratamento de dados pessoais deve limitar-se estritamente ao mínimo necessário para a realização de suas finalidades específicas, vedando a coleta abusiva de dados cadastrais dispensáveis à operação da biblioteca.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A necessidade limita dados ao que é pertinente, proporcional e não excessivo para a finalidade. Coletar dado só porque um formulário antigo o pede não demonstra necessidade. A avaliação deve considerar o serviço, evitando pedir informação sem relação com a circulação do acervo.",
+    "armadilhaBanca": "Aplicar minimização ao vínculo entre dado e finalidade.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -309,8 +338,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei nº 13.709/2018, art. 6º, III"
     },
-    "fonte": "Lei nº 13.709/2018, art. 6º, III",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 6º, III: necessidade — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "mínimo necessário",
+    "versao_correta": "",
+    "versao_errada": "O princípio da necessidade permite coletar qualquer dado disponível, ainda que sem relação com a finalidade."
   },
   {
     "id": "fund-q-113",
@@ -322,11 +354,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Para o cadastramento de um cidadão com a finalidade exclusiva de retirar um livro na biblioteca pública, é legítimo e obrigatório exigir informações sobre sua filiação partidária, convicção religiosa e dados biométricos de DNA.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A finalidade exclusiva de cadastrar um leitor para empréstimo é suficiente para tornar obrigatória a coleta de filiação partidária, religião e perfil genético do usuário.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 6º da LGPD veda a coleta excessiva de dados desproporcionais à finalidade do serviço prestado. Exigir dados pessoais sensíveis (art. 5º, II da LGPD) de usuários para prestar serviço rotineiro de circulação de livros viola flagrantemente a legislação de proteção de dados.",
-    "armadilhaBanca": "Coleta abusiva e ilegal de dados sensíveis sob manto de formalismo cadastral.",
+    "justificativa": "ERRADO. Filiação política, convicção religiosa e dados genéticos são sensíveis. Cadastrar alguém para empréstimo não demonstra necessidade desses dados. O fato de o órgão ser público não fornece autorização universal: exige-se finalidade e hipótese legal pertinente, além dos princípios.",
+    "armadilhaBanca": "Confundir condição do serviço e justificativa universal para dado sensível.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -335,9 +367,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei nº 13.709/2018, art. 6º e 11"
     },
-    "fonte": "Lei nº 13.709/2018, art. 6º e 11",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Em conformidade com os princípios da finalidade, adequação e necessidade (minimização de dados - art. 6º da LGPD), é ilícito exigir dados sensíveis como convicção religiosa, filiação partidária ou perfil de DNA para a finalidade de simples empréstimo bibliotecário."
+    "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 5º, II, 6º e 11: dados sensíveis e necessidade — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "O cadastro de empréstimo deve coletar dados necessários ao serviço, sem presumir legitimidade para exigir dados sensíveis sem relação com ele.",
+    "gatilho": "suficiente",
+    "versao_errada": ""
   },
   {
     "id": "fund-q-114",
@@ -349,11 +383,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O tratamento de dados pessoais de servidores e parlamentares pela Biblioteca da Câmara dos Deputados para controle de circulação de obras e atendimento institucional fundamenta-se primordialmente no cumprimento de obrigação legal e na execução de políticas públicas e atividades institucionais do órgão estatal.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "O tratamento de dados pessoais por biblioteca pública exige finalidade e base legal adequada; conforme a operação, podem ser pertinentes obrigação legal ou execução de políticas públicas, sem dispensa dos princípios da LGPD.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 7º, II e III da LGPD, as pessoas jurídicas de direito público tratam dados para cumprimento de obrigações legais e execução de atribuições públicas regimentais.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Tratamento pelo poder público pode apoiar-se em bases legais pertinentes a obrigações e políticas públicas, com finalidade e competência explicitadas. Não basta chamar toda operação de institucional: dados sensíveis têm regime próprio e nenhuma base afasta necessidade e transparência. Consentimento não é fundamento obrigatório universal.",
+    "armadilhaBanca": "Distinguir possibilidade de base pública e autorização genérica.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -362,8 +396,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei nº 13.709/2018, art. 7º, II e III c/c art. 23"
     },
-    "fonte": "Lei nº 13.709/2018, art. 7º, II e III c/c art. 23",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 7º, II e III, 11 e 23: bases e finalidade pública — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "base legal adequada",
+    "versao_correta": "",
+    "versao_errada": "Toda atividade chamada institucional dispensa identificar finalidade, competência e base legal para tratar dados pessoais."
   },
   {
     "id": "fund-q-115",
@@ -375,11 +412,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A Lei Geral de Proteção de Dados Pessoais impede que bibliotecas públicas divulguem relatórios com dados estatísticos anonimizados referentes aos termos mais buscados em seus catálogos em linha.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A LGPD impede qualquer divulgação de estatísticas de uso de bibliotecas, mesmo quando os dados estejam efetivamente anonimizados nos termos da lei.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A vedação legal de tratamento e divulgação recai sobre dados que identifiquem ou tornem identificável uma pessoa física natural. Uma vez aplicado processo técnico irreversível de anonimização (que impeça a reidentificação), as métricas agregadas do catálogo tornam-se dados abertos de livre difusão.",
-    "armadilhaBanca": "Extensão indevida das restrições da LGPD a relatórios métricos totalmente anonimizados.",
+    "justificativa": "ERRADO. Dados efetivamente anonimizados, observadas as condições legais, não são tratados da mesma forma que perfis identificáveis. Estatísticas podem ser divulgadas com avaliação de risco de reidentificação. Apagar apenas o nome não assegura anonimização se outras combinações permitem identificar pessoas.",
+    "armadilhaBanca": "Confundir anonimização efetiva e mera retirada do nome.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -388,9 +425,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei nº 13.709/2018, art. 12"
     },
-    "fonte": "Lei nº 13.709/2018, art. 12",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Nos termos do art. 12 da LGPD, dados anonimizados não são considerados dados pessoais para os fins da lei, sendo plenamente lícita a divulgação de relatórios estatísticos e termos de busca agregados para estudos métricos e transparência pública."
+    "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 12: anonimização e possibilidade de reversão — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "A divulgação de estatísticas efetivamente anonimizadas pode ser admissível, com avaliação de finalidade e risco de reidentificação.",
+    "gatilho": "impede qualquer",
+    "versao_errada": ""
   },
   {
     "id": "fund-q-116",
@@ -402,11 +441,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O Encarregado pelo Tratamento de Dados Pessoais (Data Protection Officer - DPO) atua como canal de comunicação entre o órgão controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "O encarregado pelo tratamento de dados pessoais atua como canal de comunicação entre o controlador, os titulares e a Agência Nacional de Proteção de Dados (ANPD).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o Artigo 41 da Lei Geral de Proteção de Dados (LGPD), o Encarregado pelo Tratamento de Dados Pessoais (Data Protection Officer - DPO) atua formalmente como o canal institucional de ligação entre a instituição controladora, os titulares de dados pessoais e a Autoridade Nacional de Proteção de Dados (ANPD), orientando os servidores quanto às práticas de conformidade e recebendo requisições dos titulares.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. O encarregado atua no canal entre controlador, titulares e ANPD, recebendo comunicações e orientando providências nos termos legais. Não se torna automaticamente controlador ou único responsável por toda decisão. A revisão atualiza a denominação da ANPD para Agência, vigente antes do corte do edital.",
+    "armadilhaBanca": "Distinguir canal e orientação das responsabilidades do controlador.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -415,8 +454,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei nº 13.709/2018, art. 41"
     },
-    "fonte": "Lei nº 13.709/2018, art. 41",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 5º, VIII, e 41; denominação ANPD pela Lei 15.352/2026 — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "canal de comunicação",
+    "versao_correta": "",
+    "versao_errada": "O encarregado substitui o controlador e passa a responder sozinho por toda decisão de tratamento da instituição."
   },
   {
     "id": "fund-q-117",
@@ -428,11 +470,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A governança da informação em unidades de informação parlamentar estabelece políticas de segurança, gestão de riscos, controle de acesso e auditoria para garantir a disponibilidade, integridade, confidencialidade e autenticidade do patrimônio informacional.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A governança da informação pode estabelecer responsabilidades, políticas, controle de acesso e monitoramento para proteger o patrimônio informacional, mas não elimina por si todos os riscos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A governança da informação em unidades documentais públicas fundamenta-se nos preceitos da família de normas ISO/IEC 27001 e no arcabouço metodológico do DMBOK (Data Management Body of Knowledge da DAMA): institui controles de acesso baseados em papéis (RBAC), classificação da informação, gestão de continuidade e trilhas de auditoria para proteger a confidencialidade, integridade, disponibilidade e autenticidade dos dados.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Governança orienta responsabilidades e controles para objetivos e riscos. Disponibilidade, integridade, confidencialidade e autenticidade podem ser protegidas por medidas proporcionais, mas publicar política não garante ausência de incidentes. É necessário implementar, acompanhar e corrigir controles.",
+    "armadilhaBanca": "Separar instrumento de governança e resultado garantido.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -441,8 +483,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "ISO/IEC 27001 / DAMA DMBOK"
     },
-    "fonte": "ISO/IEC 27001 / DAMA DMBOK",
-    "dataConferencia": "2026-10-14"
+    "fonte": "TCU — Referencial Básico de Governança Organizacional, 3ª edição, 2020 — governança: políticas, riscos e monitoramento — https://portal.tcu.gov.br/data/files/FB/B6/FB/85/1CD4671023455957E18818A8/Referencial_basico_governanca_organizacional_3_edicao.pdf",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não elimina",
+    "versao_correta": "",
+    "versao_errada": "Uma política de governança elimina por si todo risco de perda, acesso indevido ou indisponibilidade."
   },
   {
     "id": "fund-q-118",
@@ -454,11 +499,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 4,
     "habilidade": "avaliar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "O histórico de empréstimos e leituras individuais de um deputado ou de um usuário comum pode ser publicado livremente na página principal da biblioteca na internet sem qualquer anonimização, em nome da transparência pública absoluta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As escolhas de leitura e pesquisa bibliográfica refletem convicções intelectuais e a intimidade pessoal do cidadão. O princípio da transparência pública não autoriza a violação desproporcional da vida privada e da liberdade de informação dos usuários dos serviços de biblioteca.",
-    "armadilhaBanca": "Falso conflito entre transparência pública e direito fundamental à privacidade dos hábitos intelectuais.",
+    "justificativa": "ERRADO. Histórico individual pode revelar hábitos e preferências e não se torna de divulgação irrestrita porque o leitor ocupa cargo público. É preciso finalidade, base, necessidade e avaliação dos direitos envolvidos. Transparência pode ser atendida por dados agregados adequados, sem expor toda trajetória de leitura.",
+    "armadilhaBanca": "Usar interesse público como autorização ilimitada de exposição.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -467,9 +512,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CF/88, art. 5º, X / Lei 13.709/2018 / IFLA Statement on Privacy"
     },
-    "fonte": "CF/88, art. 5º, X / Lei 13.709/2018 / IFLA Statement on Privacy",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "O histórico individual de leituras e empréstimos de qualquer consulente ou parlamentar consubstancia dado pessoal protegido pela garantia constitucional da privacidade e intimidade (CF/88, art. 5º, X e LGPD), sendo vedada sua exposição pública nominal."
+    "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 6º e 23; LAI art. 31: dados pessoais e transparência — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "A divulgação de históricos individuais exige fundamento e condições legais, não uma presunção de transparência absoluta.",
+    "gatilho": "livremente",
+    "versao_errada": ""
   },
   {
     "id": "cat-q-201",
@@ -481,11 +528,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "O Metadata Object Description Schema (MODS), mantido pela Biblioteca do Congresso dos EUA, é um esquema baseado em XML que deriva de elementos do formato MARC 21, utilizando rótulos textuais legíveis por humanos em vez de tags numéricas de três dígitos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O MODS foi desenvolvido como formato intermediário entre a simplicidade do Dublin Core e a complexidade do MARC 21, expressando metadados bibliográficos ricos em sintaxe XML com tags semânticas (como <titleInfo>, <name>).",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. MODS é um esquema XML com elementos nomeados e seleção de dados de tradição MARC. Não é mera troca de etiquetas com conversão perfeitamente reversível: diferenças de estrutura podem alterar granularidade. Ser legível por humanos não elimina validação por máquina.",
+    "armadilhaBanca": "Distinguir derivação de elementos e identidade estrutural.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -493,8 +540,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Library of Congress / MODS Guidelines",
       "verificado": false
     },
-    "fonte": "Library of Congress / MODS Guidelines",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Library of Congress — MODS: Uses and Features — MODS: nomes de elementos e relação com MARC — https://www.loc.gov/standards/mods/mods-overview",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "rótulos textuais",
+    "versao_correta": "",
+    "versao_errada": "Converter qualquer registro MARC em MODS consiste apenas em renomear tags e garante ida e volta sem perda."
   },
   {
     "id": "cat-q-202",
@@ -506,11 +556,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O Metadata Encoding and Transmission Standard (METS) é um esquema XML para codificação de metadados descritivos, administrativos e estruturais de objetos digitais complexos dentro de um repositório.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "METS 1.x pode reunir ou referenciar metadados descritivos, administrativos e estruturais de um objeto digital; não precisa incorporar fisicamente todos os arquivos do conteúdo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Metadata Encoding and Transmission Standard (METS), mantido pela Library of Congress e pela Digital Library Federation (DLF), é um esquema XML padronizado projetado para codificar e empacotar metadados estruturais, descritivos e administrativos de objetos digitais complexos (como livros digitalizados multifolhas), articulando as seções Header, Descriptive Metadata, Administrative Metadata, File Section e Structural Map.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. METS pode organizar descrição, administração, arquivos e estrutura do objeto, com metadados embutidos ou referenciados. Não exige copiar todo conteúdo e todos os esquemas para dentro de um único arquivo. Empacotamento e descrição de partes são funções relacionadas, mas distintas.",
+    "armadilhaBanca": "Distinguir organização do pacote e incorporação obrigatória.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -518,8 +568,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Library of Congress / METS Schema",
       "verificado": false
     },
-    "fonte": "Library of Congress / METS Schema",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Library of Congress — METS Overview and Tutorial — METS 1.x: estrutura e seções de metadados — https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não precisa incorporar",
+    "versao_correta": "",
+    "versao_errada": "METS exige incorporar fisicamente todos os arquivos e proíbe referenciar metadados externos."
   },
   {
     "id": "cat-q-203",
@@ -531,11 +584,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A seção de mapa estrutural (structMap) de um documento METS é opcional e prescindível para a representação de um livro digitalizado com múltiplas páginas.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Um documento válido em METS 1.x pode dispensar completamente structMap, pois o mapa estrutural é sempre opcional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O esquema METS define cinco seções opcionais (metsHdr, dmdSec, amdSec, fileSec, behaviorSec) e apenas UMA seção estritamente OBRIGATÓRIA: o `<structMap>`. É o mapa estrutural que amarra os arquivos de conteúdo às divisões hierárquicas (páginas, volumes, capítulos) do recurso.",
-    "armadilhaBanca": "Qualificar como opcional a única seção com preenchimento mandatório no esquema METS.",
+    "justificativa": "ERRADO. O mapa estrutural organiza as partes e suas ligações a arquivos. No METS 1.x, não é seção simplesmente descartável: é componente requerido. Para um livro, a estrutura permite representar páginas ou divisões, sem exigir um único modelo universal de segmentação.",
+    "armadilhaBanca": "Trocar papel estrutural por metadado opcional.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -543,9 +596,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "METS Primer / Library of Congress",
       "verificado": false
     },
-    "fonte": "METS Primer / Library of Congress",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "No padrão de metadados METS (Metadata Encoding & Transmission Standard), a seção de mapa estrutural (<structMap>) é o único elemento de inclusão compulsoriamente obrigatória no arquivo XML, por definir a ordenação lógica e hierárquica das partes do objeto digital."
+    "fonte": "Library of Congress — METS Overview and Tutorial — METS 1.x: structMap e hierarquia de partes — https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "No METS 1.x, structMap é requerido e representa a hierarquia das partes do objeto.",
+    "gatilho": "dispensar",
+    "versao_errada": ""
   },
   {
     "id": "cat-q-204",
@@ -557,11 +612,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O PREMIS (Preservation Metadata: Implementation Strategies) estrutura seumodelo conceitual em quatro entidades fundamentais: Objetos (Objects), Eventos (Events), Agentes (Agents) e Direitos (Rights).",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "O modelo do PREMIS 3.0 organiza quatro entidades: Objetos, Eventos, Agentes e Direitos; as categorias de Objeto incluem Entidade Intelectual, Representação, Arquivo e Bitstream.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O modelo de dados do PREMIS 3.0 (Preservation Metadata: Implementation Strategies da Library of Congress) estrutura o universo da preservação digital em quatro entidades centrais: Objetos (Objects - representações, arquivos ou bitstreams), Eventos (Events - ações de preservação como ingestão, migração ou validação de hash), Agentes (Agents - pessoas, softwares ou instituições executoras) e Direitos (Rights - permissões e restrições legais).",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. PREMIS 3.0 distingue Objetos, Eventos, Agentes e Direitos. Entidade intelectual é categoria do Objeto nessa versão, não uma quinta entidade separada. A distinção de versão evita importar o desenho de versões anteriores como se o modelo não tivesse mudado.",
+    "armadilhaBanca": "Distinguir entidades e categorias na versão indicada.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -569,8 +624,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "PREMIS Data Dictionary for Preservation Metadata, versão 3.0",
       "verificado": false
     },
-    "fonte": "PREMIS Data Dictionary for Preservation Metadata, versão 3.0",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — versão 3.0: entidades e categorias de Objeto — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "quatro entidades",
+    "versao_correta": "",
+    "versao_errada": "No PREMIS 3.0, Entidade Intelectual é obrigatoriamente uma quinta entidade independente, fora da entidade Objeto."
   },
   {
     "id": "cat-q-205",
@@ -582,11 +640,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Na arquitetura do PREMIS, a entidade Evento registra ações que afetam um Objeto digital no repositório, como a geração de um hash checksum, uma validação de formato ou uma migração de arquivo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No padrão internacional PREMIS, a entidade 'Evento' (Event) é fundamental para comprovar a proveniência e a cadeia de custódia do documento digital: registra de forma unívoca cada intervenção técnica executada sobre o Objeto custodiado (como cálculo de checksum criptográfico, migração de formato TIFF para JPEG2000, extração de metadados via FITS ou verificação de vírus), vinculando-a a um Agente responsável e carimbo de data/hora.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Evento registra ação ligada à preservação e seus resultados, relacionando objetos e agentes quando pertinentes. Gerar ou verificar checksum e validar formato são exemplos, não provas automáticas de autenticidade. Registrar o evento não substitui executar e avaliar a ação.",
+    "armadilhaBanca": "Distinguir registro de ação e garantia de resultado.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -594,8 +652,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "PREMIS Data Dictionary 3.0",
       "verificado": false
     },
-    "fonte": "PREMIS Data Dictionary 3.0",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Event: tipo, data, resultado e vínculos — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "Evento",
+    "versao_correta": "",
+    "versao_errada": "Um evento PREMIS substitui a execução da verificação: basta registrá-lo para provar que os bits estão íntegros."
   },
   {
     "id": "cat-q-206",
@@ -607,11 +668,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "O padrão Dublin Core Qualificado rejeitou totalmente os 15 elementos do Dublin Core Simples, criando um conjunto de etiquetas proprietárias incompatíveis com o protocolo OAI-PMH.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O DC Qualificado não rejeitou o DC Simples; ele o enriqueceu seguindo o princípio da \"regra do dumbing-down\" (simplificação segura): um sistema que não entenda os qualificadores refinados pode simplesmente ignorá-los e ler o elemento básico de forma transparente.",
-    "armadilhaBanca": "Alegação de ruptura e incompatibilidade entre os padrões Dublin Core Simples e Qualificado.",
+    "justificativa": "ERRADO. Qualificação ampliou possibilidades com refinamentos e esquemas de codificação, sem converter Dublin Core em conjunto proprietário desconexo. No OAI-PMH, repositórios devem suportar o formato Dublin Core não qualificado exigido; outros formatos podem coexistir quando anunciados.",
+    "armadilhaBanca": "Confundir enriquecimento de metadados e ruptura de compatibilidade.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -620,9 +681,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "DCMI Metadata Terms / RFC 5013"
     },
-    "fonte": "DCMI Metadata Terms / RFC 5013",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "O Dublin Core Qualificado mantém integralmente os 15 elementos centrais do Dublin Core Simples, agregando refinamentos de significado (qualificadores de elemento) e esquemas formais de codificação, plenamente interoperáveis com o protocolo OAI-PMH."
+    "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — elementos e termos DCMI; qualificações — https://www.dublincore.org/specifications/dublin-core/dces/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Refinamentos e outros termos DCMI não tornam Dublin Core proprietário nem impedem oferecer o formato Dublin Core exigido pelo OAI-PMH.",
+    "gatilho": "rejeitou totalmente",
+    "versao_errada": ""
   },
   {
     "id": "cat-q-207",
@@ -634,11 +697,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O esquema METS suporta o empacotamento simultâneo de metadados descritivos codificados em Dublin Core ou MODS e metadados de preservação codificados em PREMIS.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "METS permite combinar metadados descritivos em MODS ou Dublin Core com metadados de preservação em PREMIS, segundo o perfil de aplicação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O esquema METS foi arquitetado como um invólucro ou 'envelope' flexível de empacotamento digital em XML: suas seções dedicadas de metadados descritivos (<dmdSec>) e administrativos (<amdSec>) acolhem esquemas externos consagrados na biblioteconomia e preservação digital, como metadados descritivos codificados em Dublin Core ou MODS e metadados de preservação codificados em PREMIS.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. METS permite usar esquemas externos para funções distintas: MODS ou DC podem descrever o recurso, PREMIS pode apoiar preservação. Não torna os vocabulários sinônimos nem garante preservação apenas por incluí-los. A adequação depende do perfil e da implementação.",
+    "armadilhaBanca": "Distinguir complementaridade e exclusão entre esquemas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -646,8 +709,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "METS / Library of Congress",
       "verificado": false
     },
-    "fonte": "METS / Library of Congress",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Library of Congress — METS Overview and Tutorial — seções descritivas e administrativas; esquemas externos — https://www.loc.gov/standards/mets/METSOverview.v3_en.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "permite",
+    "versao_correta": "",
+    "versao_errada": "Ao adotar METS, é proibido combinar metadados descritivos MODS com metadados PREMIS de preservação."
   },
   {
     "id": "cat-q-208",
@@ -659,11 +725,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "No dicionário de dados PREMIS, a entidade Direitos (Rights) destina-se ao recolhimento de tarifas aduaneiras e controle de notas fiscais de aquisição de suportes físicos.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Registrar uma declaração em PREMIS Rights basta para autorizar acesso irrestrito e republicação de qualquer objeto preservado, independentemente da titularidade ou licença.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A entidade Rights no modelo PREMIS é voltada estritamente para a governança jurídica da preservação digital (se o repositório tem direito de migrar formatos, normalizar bits, criar cópias de segurança ou liberar acesso a classes de usuários), sem qualquer vínculo com tarifas fiscais ou alfandegárias.",
-    "armadilhaBanca": "Desvio da finalidade técnica de preservação da entidade Rights para controle aduaneiro/tributário.",
+    "justificativa": "ERRADO. Direitos registram permissões, restrições e fundamentos para ações aplicáveis à preservação. A disponibilidade de uma cópia não comprova autorização para publicar ou conceder todo tipo de acesso. Também não se confundem esses metadados com licença concedida automaticamente pelo repositório.",
+    "armadilhaBanca": "Confundir registro de permissão e criação de direitos.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -671,9 +737,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "PREMIS Data Dictionary 3.0",
       "verificado": false
     },
-    "fonte": "PREMIS Data Dictionary 3.0",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "No dicionário de dados de metadados de preservação PREMIS, a entidade Direitos (Rights Entity) documenta permissões legais, licenças, restrições e direitos de propriedade intelectual para autorizar ações de preservação digital e acesso aos objetos."
+    "fonte": "Library of Congress — PREMIS Data Dictionary, version 3.0 — Rights: permissões e restrições para ações de preservação — https://www.loc.gov/standards/premis/premis-3-0-final.pdf",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "PREMIS Rights pode registrar condições e fundamento de permissões para ações de preservação, sem conceder automaticamente acesso irrestrito.",
+    "gatilho": "autorizar acesso irrestrito",
+    "versao_errada": ""
   },
   {
     "id": "cat-q-209",
@@ -685,11 +753,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "O modelo Resource Description Framework (RDF) é a infraestrutura básica da Web Semântica e expressa afirmações sobre recursos na forma de triplas constituídas por Sujeito, Predicado e Objeto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Resource Description Framework (RDF), especificação fundamental do W3C para a Web Semântica, modela qualquer afirmação sobre o mundo na forma de uma tripla semântica atômica: Sujeito (o recurso que está sendo descrito, identificado por uma URI), Predicado (a propriedade ou relação conceitual, também uma URI) e Objeto (o valor da propriedade, que pode ser outra URI de recurso ou um literal textual).",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A tripla exprime uma relação: sujeito, propriedade e objeto. Objeto pode ser recurso ou literal; não é obrigatoriamente um arquivo digital. O modelo de grafo não se reduz à serialização XML, pois admite diferentes sintaxes.",
+    "armadilhaBanca": "Separar modelo abstrato e formato de serialização.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -697,8 +765,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "W3C / RDF 1.1 Primer",
       "verificado": false
     },
-    "fonte": "W3C / RDF 1.1 Primer",
-    "dataConferencia": "2026-10-14"
+    "fonte": "W3C — RDF 1.1 Concepts and Abstract Syntax — RDF 1.1: triplas e grafos — https://www.w3.org/TR/rdf11-concepts/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "Sujeito, Predicado e Objeto",
+    "versao_correta": "",
+    "versao_errada": "RDF exige que todo objeto de tripla seja arquivo PDF e só pode ser representado em XML."
   },
   {
     "id": "cat-q-210",
@@ -710,11 +781,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Os quatro princípios do Linked Data formulados por Tim Berners-Lee incluem o uso de URIs como nomes para coisas, o uso de HTTP URIs para que pessoas possam consultar esses nomes, o fornecimento de informações úteis utilizando padrões como RDF e SPARQL, e a inclusão de links para outras URIs.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Formulados por Tim Berners-Lee em 2006, os Quatro Princípios do Linked Data (Dados Conectados) prescrevem: 1) Utilizar URIs como nomes para identificar coisas; 2) Utilizar URIs no protocolo HTTP para que as entidades possam ser consultadas na web; 3) Fornecer informações úteis sobre o recurso utilizando padrões como RDF e consultas SPARQL; e 4) Incluir links apontando para outras URIs externas para expandir a descoberta em rede.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Os princípios propõem identificadores, possibilidade de consulta por HTTP, informação útil segundo padrões e links para outros recursos. Não impõem um único programa de banco de dados nem abrem direitos de uso automaticamente. Identificar e conectar dados são diferentes de licenciar conteúdo.",
+    "armadilhaBanca": "Distinguir princípios de conexão e imposição de produto.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -723,8 +794,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Tim Berners-Lee (2006) / Linked Data Design Issues"
     },
-    "fonte": "Tim Berners-Lee (2006) / Linked Data Design Issues",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Tim Berners-Lee — Linked Data, Design Issues — princípios de identificação, consulta e ligação — https://www.w3.org/DesignIssues/LinkedData.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "HTTP URIs",
+    "versao_correta": "",
+    "versao_errada": "Os princípios de Linked Data exigem usar um único software proprietário e proíbem links entre instituições."
   },
   {
     "id": "cat-q-211",
@@ -736,11 +810,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "O modelo BIBFRAME 2.0 (Bibliographic Framework) da Biblioteca do Congresso organiza a descrição bibliográfica em três classes centrais de entidades: Obra (Work), Instância (Instance) e Item.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Desenvolvido pela Library of Congress para transpor os catálogos bibliográficos para a Web Semântica, o modelo BIBFRAME 2.0 substitui a complexa tétrade WEMI do modelo FRBR por três classes ontológicas primárias: 1) Obra (Work - a essência conceitual do recurso intelectual); 2) Instância (Instance - a corporificação física ou digital da obra); e 3) Item (o exemplar específico singular mantido sob custódia).",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. BIBFRAME 2.0 distingue Work, Instance e Item. Work trata da essência conceitual, Instance de materialização/publicação e Item de exemplar. Não se deve equiparar automaticamente suas classes às quatro entidades de LRM sem examinar o mapeamento.",
+    "armadilhaBanca": "Não inferir identidade entre modelos pela semelhança dos nomes.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -748,8 +822,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Library of Congress / BIBFRAME 2.0 Model",
       "verificado": false
     },
-    "fonte": "Library of Congress / BIBFRAME 2.0 Model",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Library of Congress — Overview of the BIBFRAME 2.0 Model — três níveis centrais do modelo 2.0 — https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "Work",
+    "versao_correta": "",
+    "versao_errada": "BIBFRAME 2.0 adota exatamente Obra, Expressão, Manifestação e Item com correspondência integral obrigatória ao LRM."
   },
   {
     "id": "cat-q-212",
@@ -761,11 +838,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "No vocabulário BIBFRAME, a entidade Instância (Instance) expressa a concepção intelectual ou artística pura de um recurso, desvinculada de corporificação editorial ou distribuição física.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva inverteu as entidades fundamentais do BIBFRAME: Work é a obra abstrata e conceitual; Instance é o reflexo da publicação com suas características de suporte, editora e data.",
-    "armadilhaBanca": "Inversão conceitual simétrica entre as entidades Work e Instance no vocabulário BIBFRAME.",
+    "justificativa": "ERRADO. Instance se relaciona à incorporação e publicação do recurso, enquanto Work expressa o nível conceitual. O item atribui a Instance uma definição que se aproxima do papel de Work e exclui suas características próprias. Item, por sua vez, individualiza um exemplar.",
+    "armadilhaBanca": "Trocar os níveis de abstração do modelo.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -773,9 +850,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "BIBFRAME 2.0 / Library of Congress",
       "verificado": false
     },
-    "fonte": "BIBFRAME 2.0 / Library of Congress",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "No vocabulário semântico BIBFRAME 2.0, a concepção intelectual pura corresponde à entidade Obra (Work), enquanto a entidade Instância (Instance) expressa a corporificação material ou distribuição específica (publicação em livro impresso, e-book, áudio)."
+    "fonte": "Library of Congress — Overview of the BIBFRAME 2.0 Model — Instance e Work — https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Em BIBFRAME 2.0, Instance representa aspectos de incorporação/publicação do recurso, distinguindo-se de Work e Item.",
+    "gatilho": "Instância",
+    "versao_errada": ""
   },
   {
     "id": "cat-q-213",
@@ -787,11 +866,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O BIBFRAME foi concebido para substituir progressivamente os padrões MARC 21, promovendo a transição de registros isolados baseados em strings de texto para grafos de dados conectados na web abertos.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "BIBFRAME apoia a transição da descrição bibliográfica para dados conectados na Web; isso não implica extinção imediata do MARC nem licença aberta automática para todo dado convertido.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O principal motivador da transição tecnológica do formato MARC 21 para o padrão BIBFRAME é o paradigma da Web Semântica ('records to graphs' e 'strings to things'): visa desmontar os registros catalográficos legados fechados em 'silos' de texto e convertê-los em grafos de dados abertos e conectados (Linked Open Data), nos quais autores, assuntos e editoras são identificados por URIs persistentes globais.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. BIBFRAME busca apoiar a transição da descrição bibliográfica para dados conectados. Isso não significa que MARC já tenha sido extinto em todas as instituições nem que todo registro MARC seja incapaz de conter identificadores. Publicação aberta exige ainda decisão e condições próprias.",
+    "armadilhaBanca": "Distinguir projeto de transição e estado universal de implantação.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -799,8 +878,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Miller et al. / Library of Congress BIBFRAME Initiative",
       "verificado": false
     },
-    "fonte": "Miller et al. / Library of Congress BIBFRAME Initiative",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Library of Congress — Overview of the BIBFRAME 2.0 Model — objetivo de transição e representação em dados conectados — https://www.loc.gov/bibframe/docs/bibframe2-model.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não implica",
+    "versao_correta": "",
+    "versao_errada": "BIBFRAME já extinguiu obrigatoriamente o MARC em todas as bibliotecas e concede licença aberta a qualquer dado convertido."
   },
   {
     "id": "cat-q-214",
@@ -812,11 +894,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O protocolo SPARQL é utilizado para formatação gráfica de capas de livros digitais e não possui capacidade de consultar triplas RDF em repositórios Linked Data.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "SPARQL limita-se a pesquisar palavras em registros MARC e é incapaz de consultar padrões de triplas RDF.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. SPARQL é a linguagem de consulta por excelência da Web Semântica (análoga ao SQL para bancos de dados relacionais). Sua finalidade exclusiva é realizar buscas lógicas através de padrões de triplas (sujeito-predicado-objeto) sobre bases RDF.",
-    "armadilhaBanca": "Deturpação tecnológica: associar linguagem de consulta semântica RDF à formatação gráfica de capas de livros.",
+    "justificativa": "ERRADO. SPARQL consulta padrões de triplas e permite selecionar, filtrar e combinar resultados sobre grafos RDF. A linguagem não é uma ferramenta limitada a textos de registros MARC. Endpoint e permissões definem o acesso real, sem alterar a função da linguagem.",
+    "armadilhaBanca": "Confundir linguagem de consulta a grafos e busca textual restrita.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -824,9 +906,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "W3C / SPARQL 1.1 Query Language",
       "verificado": false
     },
-    "fonte": "W3C / SPARQL 1.1 Query Language",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "O SPARQL (SPARQL Protocol and RDF Query Language) é a linguagem de consulta semântica e protocolo padronizado pelo W3C para consultar, recuperar e manipular triplas RDF em repositórios de dados abertos interligados (Linked Data)."
+    "fonte": "W3C — SPARQL 1.1 Query Language — SPARQL 1.1: consulta a grafos RDF — https://www.w3.org/TR/sparql11-query/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "SPARQL permite consultas sobre grafos RDF por padrões de triplas, filtros e combinações.",
+    "gatilho": "incapaz",
+    "versao_errada": ""
   },
   {
     "id": "cat-q-215",
@@ -838,11 +922,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "O vocabulário SKOS (Simple Knowledge Organization System) do W3C é um padrão baseado em RDF amplamente utilizado para expressar tesauros, esquemas de classificação e listas de cabeçalhos de assunto no ambiente da Web Semântica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O padrão SKOS (Simple Knowledge Organization System), recomendação formal do W3C baseada em RDF, foi concebido para representar sistemas de organização do conhecimento na Web Semântica: fornece propriedades padronizadas (como `skos:prefLabel`, `skos:altLabel`, `skos:broader`, `skos:narrower` e `skos:related`) para publicar tesauros, taxonomias e esquemas de classificação como dados conectados abertos.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. SKOS fornece propriedades para rótulos, conceitos e relações em esquemas de organização. Não transforma todo tesauro em uma ontologia com a mesma expressividade de OWL nem exige uma hierarquia estritamente única. É preciso preservar o sentido de cada relação no mapeamento.",
+    "armadilhaBanca": "Distinguir organização do conhecimento e restrições inexistentes do vocabulário.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -850,8 +934,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "W3C / SKOS Simple Knowledge Organization System Primer",
       "verificado": false
     },
-    "fonte": "W3C / SKOS Simple Knowledge Organization System Primer",
-    "dataConferencia": "2026-10-14"
+    "fonte": "W3C — SKOS Reference, 2009 — SKOS: modelos de organização do conhecimento em RDF — https://www.w3.org/TR/skos-reference/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "tesauros",
+    "versao_correta": "",
+    "versao_errada": "SKOS só representa árvores de hierarquia única e proíbe relações associativas entre conceitos."
   },
   {
     "id": "cat-q-216",
@@ -863,11 +950,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 4,
     "habilidade": "avaliar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Na Web Semântica, ontologias formuladas em OWL (Web Ontology Language) limitam-se a ordenar termos alfabeticamente, sendo incapazes de inferir novos conhecimentos lógicos a partir de axiomas estabelecidos.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "OWL proíbe expressar restrições formais entre classes e propriedades, admitindo apenas rótulos alfabéticos para os termos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A linguagem OWL vai muito além de taxonomias e listas ordenadas: com base formal em Lógicas Descritivas, ela possibilita expressar propriedades transitivas, simétricas, inversas e disjunções, viabilizando inferência lógica computadorizada que descobre novos fatos de forma automática.",
-    "armadilhaBanca": "Rebaixamento de ontologia baseada em lógica formal para mera lista alfabética de termos estáticos.",
+    "justificativa": "ERRADO. OWL pode expressar axiomas e restrições que permitem raciocínio com ferramentas adequadas. Isso não significa que toda inferência seja prova de verdade no mundo: depende dos axiomas e dos dados. Limitar o modelo a rótulos alfabéticos ou proibir restrições troca sua função por simples lista de termos.",
+    "armadilhaBanca": "Confundir representação lógica e lista de rótulos.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -875,9 +962,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "W3C / OWL 2 Web Ontology Language",
       "verificado": false
     },
-    "fonte": "W3C / OWL 2 Web Ontology Language",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Na Web Semântica, ontologias desenvolvidas na linguagem OWL (Web Ontology Language) apoiam-se em lógicas descritivas, permitindo que motores de inferência automatizada (reasoners) deduzam novos conhecimentos lógicos a partir dos axiomas e regras declaradas."
+    "fonte": "W3C — OWL 2 Web Ontology Language Primer — OWL 2: classes, propriedades e restrições — https://www.w3.org/TR/owl2-primer/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "OWL permite axiomas e restrições, que podem apoiar inferências por mecanismos compatíveis.",
+    "gatilho": "proíbe",
+    "versao_errada": ""
   },
   {
     "id": "m6-q-201",
@@ -889,11 +978,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Em bancos de dados relacionais (como PostgreSQL e MySQL), a integridade referencial assegura que um valor de chave estrangeira (foreign key) em uma tabela deve corresponder a uma chave primária (primary key) válida na tabela referenciada, prevenindo registros órfãos.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Uma restrição de chave estrangeira exige que o valor não nulo encontre correspondência na chave referenciada elegível, observadas as regras do SGBD; valores nulos podem ser permitidos pela definição.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No modelo relacional de banco de dados formulado por Edgar F. Codd em 1970, a 'Integridade Referencial' é a regra fundamental que assegura a coerência entre tabelas relacionadas: exige que qualquer valor presente em uma coluna definida como chave estrangeira (foreign key) corresponda a um valor existente de chave primária (primary key) na tabela de origem referenciada, impedindo a criação de registros órfãos.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A chave estrangeira impõe correspondência com uma chave referenciada elegível; valores nulos podem ser permitidos conforme a definição. A referência não precisa ser exclusivamente a chave primária: restrição única apropriada também pode servir. Integridade referencial não valida por si a correção semântica de cada dado.",
+    "armadilhaBanca": "Preservar condições de nulidade e chave referenciada.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -901,8 +990,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Silberschatz, Korth e Sudarshan / Sistemas de Banco de Dados",
       "verificado": false
     },
-    "fonte": "Silberschatz, Korth e Sudarshan / Sistemas de Banco de Dados",
-    "dataConferencia": "2026-10-14"
+    "fonte": "PostgreSQL — Constraints — foreign keys: correspondência, unicidade e valores nulos — https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não nulo",
+    "versao_correta": "",
+    "versao_errada": "Toda chave estrangeira é obrigatoriamente não nula e só pode referenciar a chave primária, nunca uma chave única elegível."
   },
   {
     "id": "m6-q-202",
@@ -914,11 +1006,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Na linguagem SQL, os comandos CREATE, ALTER e DROP pertencem à categoria DML (Data Manipulation Language), visto que alteram os dados contidos nas tuplas dos registros.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. DDL (CREATE, ALTER, DROP, TRUNCATE) define e altera a estrutura física dos objetos do banco de dados (tabelas, índices, visões). DML (INSERT, UPDATE, DELETE) manipula as linhas e tuplas de dados armazenados dentro dessas estruturas.",
-    "armadilhaBanca": "Confusão clássica em banco de dados entre comandos estruturais DDL e comandos de manipulação DML.",
+    "justificativa": "ERRADO. CREATE, ALTER e DROP atuam na definição de estruturas, usualmente classificados como DDL. Inserir, atualizar e excluir linhas são operações de manipulação de dados. Alterar uma tabela e alterar um valor armazenado não são a mesma categoria apenas porque ambos mudam algo.",
+    "armadilhaBanca": "Confundir alteração de estrutura e de conteúdo.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -926,9 +1018,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Padrão ANSI/ISO SQL / Elmasri e Navathe",
       "verificado": false
     },
-    "fonte": "Padrão ANSI/ISO SQL / Elmasri e Navathe",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Na linguagem SQL, os comandos CREATE, ALTER e DROP pertencem à categoria DDL (Data Definition Language - Linguagem de Definição de Dados), pois manipulam a estrutura e o esquema das tabelas, ao passo que a DML compreende SELECT, INSERT, UPDATE e DELETE."
+    "fonte": "PostgreSQL — Constraints — definição de estruturas e restrições — https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "CREATE, ALTER e DROP são comandos de definição de dados, enquanto INSERT, UPDATE e DELETE manipulam linhas.",
+    "gatilho": "DML",
+    "versao_errada": ""
   },
   {
     "id": "m6-q-203",
@@ -940,11 +1034,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Os bancos de dados NoSQL orientados a documentos (como MongoDB) armazenam dados em documentos flexíveis e semiestruturados (como JSON ou BSON), dispensando a obrigatoriedade de esquemas estáticos e rígidos para todas as coleções.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Bancos documentais como MongoDB admitem documentos com esquema flexível; isso não impede definir regras de validação ou planejar a estrutura dos dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os bancos de dados NoSQL orientados a documentos (como MongoDB e CouchDB) organizam suas coleções em estruturas de documentos semiestruturados (típicos formatos JSON ou BSON). Caracterizam-se pelo esquema flexível e dinâmico (schema-less), permitindo que documentos dentro da mesma coleção possuam diferentes campos e aninhamentos sem necessidade de migrações complexas de esquema relacional prévio.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Flexibilidade permite documentos com estruturas variadas, mas regras podem validar tipos e campos quando configuradas. Não ter esquema rígido obrigatório não significa ausência de modelagem, integridade ou governança. A adequação depende da aplicação e dos padrões de consulta.",
+    "armadilhaBanca": "Distinguir flexibilidade e ausência obrigatória de controle.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -952,8 +1046,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Sadalage e Fowler / NoSQL Essencial",
       "verificado": false
     },
-    "fonte": "Sadalage e Fowler / NoSQL Essencial",
-    "dataConferencia": "2026-10-14"
+    "fonte": "MongoDB — Schema Validation — esquema flexível e validação — https://www.mongodb.com/docs/manual/core/schema-validation/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não impede",
+    "versao_correta": "",
+    "versao_errada": "Um banco documental não permite definir qualquer validação de campos ou tipos."
   },
   {
     "id": "m6-q-204",
@@ -965,11 +1062,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Bancos de dados NoSQL orientados a grafos (como Neo4j) são especialmente adequados para modelar relações complexas e redes de interconexão, como redes de coautoria científica, linhagens normativas e tesauros polihierárquicos.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Bancos de grafos podem ser adequados a problemas centrados em conexões e caminhos, como redes de coautoria ou relações normativas, conforme os requisitos e padrões de consulta.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Bancos de dados NoSQL orientados a grafos (como Neo4j) utilizam modelos de grafos de propriedades onde entidades do mundo real são representadas como nós (vertices) e os relacionamentos diretos como arestas (edges), ambos dotados de propriedades. Essa arquitetura proporciona altíssima performance para consultas de travessia profunda em redes de coautoria científica, linhagens legislativas e grafos semânticos.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Grafos representam entidades e suas conexões, favorecendo consultas sobre caminhos e vizinhanças em problemas apropriados. Redes de coautoria e relações normativas são exemplos. Não são automaticamente superiores a todo banco relacional nem dispensam índices, restrições e avaliação do padrão de acesso.",
+    "armadilhaBanca": "Distinguir adequação ao problema e superioridade universal.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -977,8 +1074,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Robinson, Webber e Eifrem / Graph Databases",
       "verificado": false
     },
-    "fonte": "Robinson, Webber e Eifrem / Graph Databases",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Neo4j — What is a graph database — nós, relações e travessia — https://neo4j.com/docs/getting-started/graph-database/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "podem ser adequados",
+    "versao_correta": "",
+    "versao_errada": "Um banco de grafos é superior a qualquer relacional em toda operação e dispensa modelagem das relações."
   },
   {
     "id": "m6-q-205",
@@ -990,11 +1090,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Na linguagem SQL, a cláusula WHERE é utilizada para filtrar grupos consolidados após a execução da agregação GROUP BY, ao passo que a cláusula HAVING filtra linhas individuais antes do agrupamento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A cláusula WHERE não aceita funções de agregação (como SUM, AVG, COUNT) porque atua no momento em que as linhas são escaneadas individualmente. Para filtrar o resultado consolidado dessas agregações de grupos geradas pelo GROUP BY, a sintaxe SQL exige compulsoriamente a cláusula HAVING.",
-    "armadilhaBanca": "Inversão da ordem e do momento de filtragem das cláusulas WHERE e HAVING em consultas relacionais.",
+    "justificativa": "ERRADO. WHERE restringe linhas de entrada antes do agrupamento; HAVING impõe condições aos grupos formados. São funções distintas, não uma mera preferência de estilo. Uma condição sobre resultado agregado geralmente pertence ao estágio apropriado de HAVING, conforme a consulta.",
+    "armadilhaBanca": "Inverter a ordem lógica e a unidade do filtro.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1002,9 +1102,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Padrão SQL / Silberschatz",
       "verificado": false
     },
-    "fonte": "Padrão SQL / Silberschatz",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Em consultas SQL, a cláusula WHERE filtra registros e linhas individuais antes da aplicação do agrupamento (GROUP BY), enquanto a cláusula HAVING atua filtrando os grupos e cálculos consolidados após as funções de agregação."
+    "fonte": "PostgreSQL — Table Expressions — WHERE antes do agrupamento e HAVING sobre grupos — https://www.postgresql.org/docs/current/queries-table-expressions.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "WHERE filtra linhas antes do agrupamento; HAVING aplica condições aos grupos resultantes.",
+    "gatilho": "WHERE",
+    "versao_errada": ""
   },
   {
     "id": "m6-q-206",
@@ -1016,11 +1118,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Em expressões regulares (Regex), o metacaractere ponto (.) casa com qualquer caractere individual, exceto, na maioria das configurações padrão, o caractere de quebra de linha.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Em JavaScript, o ponto de uma expressão regular, sem a flag s, não corresponde aos terminadores de linha; com s, esse comportamento é ampliado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na sintaxe padrão de Expressões Regulares (Regex - padrões PCRE, Python e JavaScript), o metacaractere ponto (`.`) representa o coringa universal que casa com qualquer caractere individual arbitrário (letras, dígitos, símbolos ou espaços em branco), exceto, nas configurações padrões da maioria das engines, os caracteres de quebra de linha (`\\n` e `\\r`).",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Em JavaScript, . não inclui terminadores de linha no modo usual; a flag s amplia esse comportamento. A flag u também afeta o tratamento de caracteres Unicode. Portanto, não se deve ensinar o metacaractere como qualquer unidade em toda linguagem e conjunto de flags.",
+    "armadilhaBanca": "Delimitar linguagem e modificadores da expressão.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1028,8 +1130,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Friedl / Mastering Regular Expressions",
       "verificado": false
     },
-    "fonte": "Friedl / Mastering Regular Expressions",
-    "dataConferencia": "2026-10-14"
+    "fonte": "MDN — JavaScript Regular Expressions — JavaScript: ponto e flag dotAll s — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "sem a flag s",
+    "versao_correta": "",
+    "versao_errada": "Em JavaScript, . tem comportamento idêntico em relação a quebras de linha com e sem a flag s."
   },
   {
     "id": "m6-q-207",
@@ -1041,11 +1146,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "aplicar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A expressão regular `^\\d{4}-\\d{2}-\\d{2}$` é adequada para validar se uma sequência textual corresponde ao formato de data ISO 8601 (ano-mês-dia), em que `\\d` representa um dígito numérico.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A expressão regular `^[0-9]{4}-[0-9]{2}-[0-9]{2}$` reconhece um padrão numérico ano-mês-dia, mas não verifica sozinha a validade do calendário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Análise da expressão regular `^\\d{4}-\\d{2}-\\d{2}$`: o metacaractere circunflexo `^` ancora o início da string; a sequência `\\d{4}` exige exatamente quatro dígitos numéricos de ano; o caractere `-` representa o hífen literal; `\\d{2}` exige dois dígitos de mês; `-` é o segundo hífen; `\\d{2}` exige dois dígitos de dia; e o cifrão `$` ancora o final da string, garantindo conformidade estrita com o padrão de data ISO 8601.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. O padrão verifica a disposição dos grupos numéricos e separadores. Não limita meses a 01–12 nem resolve dias de cada mês ou anos bissextos. Uma sequência como 2026-99-99 satisfaz o desenho numérico, mas não é data válida. Validar calendário exige outras regras.",
+    "armadilhaBanca": "Separar forma lexical e validade semântica.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1053,8 +1158,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Goyvaerts e Levithan / Regular Expressions Cookbook",
       "verificado": false
     },
-    "fonte": "Goyvaerts e Levithan / Regular Expressions Cookbook",
-    "dataConferencia": "2026-10-14"
+    "fonte": "MDN — JavaScript Regular Expressions — padrão lexical e validação de calendário — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não verifica",
+    "versao_correta": "",
+    "versao_errada": "O padrão numérico de quatro, dois e dois dígitos valida automaticamente meses, dias e anos bissextos."
   },
   {
     "id": "m6-q-208",
@@ -1066,11 +1174,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O quantificador asterisco `*` em expressões regulares exige a ocorrência de uma oumais repetições do padrão precedente para que haja correspondência válida no texto analisado.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Em expressões regulares, * exige uma ou mais ocorrências do elemento precedente, tendo o mesmo limite mínimo de +.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na teoria de linguagens formais e regex: o asterisco (*) é a operação de Fecho de Kleene (zero ou mais ocorrências); o sinal de mais (+) denota o fecho positivo (pelo menos uma ocorrência obrigatória). A assertiva atribuiu a regra de repetição mínima obrigatória ao asterisco.",
-    "armadilhaBanca": "Troca conceitual entre os quantificadores básicos de expressões regulares: * (zero ou mais) e + (um ou mais).",
+    "justificativa": "ERRADO. Asterisco admite zero ou mais ocorrências; + exige pelo menos uma. Uma correspondência vazia pode ser válida para um trecho com *, o que afeta extração e validação. Não se deve trocar o mínimo de ocorrências mantendo a mesma operação.",
+    "armadilhaBanca": "Trocar o limite mínimo de repetição.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1078,9 +1186,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Friedl / Regular Expressions",
       "verificado": false
     },
-    "fonte": "Friedl / Regular Expressions",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Em expressões regulares (Regex), o quantificador asterisco \"*\" estabelece a ocorrência de zero ou mais repetições do caractere precedente, ao passo que a exigência de uma ou mais repetições é determinada pelo quantificador \"+\"."
+    "fonte": "MDN — JavaScript Regular Expressions — quantificadores * e + — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "O quantificador * admite zero ou mais ocorrências do elemento precedente, enquanto + exige uma ou mais.",
+    "gatilho": "uma ou mais",
+    "versao_errada": ""
   },
   {
     "id": "m6-q-209",
@@ -1092,11 +1202,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A ferramenta OpenRefine permite realizar limpeza de dados e reconciliação semântica de entidades de autoridade bibliográfica com bases externas como o Wikidata e o VIAF.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "OpenRefine pode apoiar limpeza e reconciliação de entidades com serviços externos configurados, mas a pontuação dos candidatos não prova automaticamente a identidade dos registros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O software livre OpenRefine (originalmente Google Refine) é a principal ferramenta de tratamento de dados (data wrangling) e curadoria de metadados em bibliotecas e arquivos: permite explorar grandes conjuntos de dados desestruturados, aplicar transformações em lote com a linguagem GREL, executar agrupamento facetado (clustering) e reconciliar nomes e assuntos via API com bases como o Wikidata e o VIAF.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A ferramenta pode consultar serviços, sugerir candidatos e associar identificadores. A pontuação não prova identidade: nomes homônimos e dados incompletos exigem conferir características. Acesso a cada base depende da existência e configuração de serviço apropriado, não é garantia de conector permanente.",
+    "armadilhaBanca": "Distinguir candidato de identidade confirmada.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1104,8 +1214,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Verborgh e De Wilde / Using OpenRefine",
       "verificado": false
     },
-    "fonte": "Verborgh e De Wilde / Using OpenRefine",
-    "dataConferencia": "2026-10-14"
+    "fonte": "OpenRefine — Reconciling — candidatos e serviços de reconciliação — https://openrefine.org/docs/manual/reconciling",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não prova",
+    "versao_correta": "",
+    "versao_errada": "O maior score de reconciliação prova automaticamente identidade e dispensa revisão de homônimos."
   },
   {
     "id": "m6-q-210",
@@ -1117,11 +1230,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Expressões regulares são incapazes de utilizar grupos de captura entre parênteses para extrair partes específicas de uma string de metadados, exigindo programação em baixo nível em linguagem C.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Expressões regulares não podem usar grupos de captura para extrair partes de metadados, pois parênteses servem exclusivamente para fins gráficos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Parênteses em expressões regulares servem primordialmente para formar grupos de captura. Cada grupo capturado pode ser extraído diretamente por rotinas em qualquer linguagem de script (Python, JavaScript, SQL) através de referências como \\1, $1 ou métodos de correspondência estruturada.",
-    "armadilhaBanca": "Negação de funcionalidade nuclear de Regex alegando necessidade injustificada de programação de baixo nível.",
+    "justificativa": "ERRADO. Parênteses podem formar grupos de captura para recuperar trechos, conforme a sintaxe. Grupos não capturantes também existem e têm outra função. Extrair corretamente requer padrão compatível com os dados; não é necessário recorrer à linguagem C por uma incapacidade geral de regex.",
+    "armadilhaBanca": "Confundir função de agrupamento e impossibilidade de extração.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1129,9 +1242,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Friedl / Mastering Regular Expressions",
       "verificado": false
     },
-    "fonte": "Friedl / Mastering Regular Expressions",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Expressões regulares utilizam o agrupamento por parênteses \"()\" como grupos de captura para isolar e extrair fragmentos específicos de strings de metadados, viabilizando o uso de referências retroativas e variáveis de substituição."
+    "fonte": "MDN — JavaScript Regular Expressions — grupos de captura e extração — https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Expressões regulares podem usar grupos de captura para extrair partes de uma cadeia de texto.",
+    "gatilho": "não podem",
+    "versao_errada": ""
   },
   {
     "id": "m6-q-211",
@@ -1143,11 +1258,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A técnica de Geração Aumentada por Recuperação (Retrieval-Augmented Generation — RAG) combina modelos de linguagem com sistemas de busca semântica em bases de documentos institucionais para fornecer respostas fundamentadas e reduzir significativamente o risco de alucinações.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "RAG combina recuperação de informação e geração, podendo apoiar respostas com documentos; não garante correção universal nem exige uma única modalidade de busca.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A arquitetura de Geração Aumentada por Recuperação (RAG - Retrieval-Augmented Generation) conjuga o poder expressivo de modelos de linguagem (LLMs) com sistemas de busca e recuperação vetorial: diante de uma pergunta, o sistema busca os trechos documentais pertinentes na base institucional confiável e os injeta no prompt, ancorando a resposta do modelo em fontes fáticas verificadas e mitigando alucinações.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A arquitetura condiciona geração a material recuperado, que pode vir de busca lexical, vetorial ou híbrida. Fonte inadequada, desatualizada ou mal utilizada ainda produz erro. Avaliar recuperação e fidelidade é necessário; não há garantia universal de redução significativa ou eliminação de alucinações.",
+    "armadilhaBanca": "Separar possibilidade de fundamentação e garantia de resultado.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1156,8 +1271,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lewis et al. (2020) / Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
     },
-    "fonte": "Lewis et al. (2020) / Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-    "dataConferencia": "2026-10-14"
+    "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — recuperação, geração e qualidade das fontes — https://arxiv.org/abs/2005.11401",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não garante",
+    "versao_correta": "",
+    "versao_errada": "RAG exige sempre busca vetorial e elimina qualquer erro factual em toda resposta."
   },
   {
     "id": "m6-q-212",
@@ -1169,11 +1287,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Em sistemas de busca vetorial para serviços bibliotecários, os \"embeddings\" transformam textos em vetores numéricos em um espaço multidimensional, permitindo capturar a similaridade semântica entre consultas e documentos mesmo sem correspondência literal de palavras-chave.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Uma busca com embeddings pode aproximar consultas e documentos semanticamente relacionados mesmo sem correspondência literal de palavras, conforme o modelo e a medida de similaridade.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na arquitetura moderna de processamento de linguagem natural e busca vetorial em bibliotecas digitais, os modelos de embedding convertem sentenças e documentos em vetores matemáticos densos em espaços multidimensionais. A busca semântica calcula a distância matemática (como a similaridade de cosseno) entre o vetor da consulta e os vetores dos textos, recuperando conceitos afins mesmo que não compartilhem palavras idênticas.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Representações aprendidas podem reunir textos relacionados mesmo sem termos literais em comum. O resultado depende do modelo e da medida; proximidade não comprova identidade, verdade factual ou equivalência de todos os sentidos. É preciso avaliar a busca no domínio de uso.",
+    "armadilhaBanca": "Distinguir proximidade vetorial e validade factual.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1181,8 +1299,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Jurafsky e Martin / Speech and Language Processing",
       "verificado": false
     },
-    "fonte": "Jurafsky e Martin / Speech and Language Processing",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Reimers e Gurevych — Sentence-BERT, 2019 — representação vetorial e comparação por similaridade — https://arxiv.org/abs/1908.10084",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "pode aproximar",
+    "versao_correta": "",
+    "versao_errada": "Vetores próximos garantem que as duas afirmações sejam factualmente verdadeiras e semanticamente idênticas."
   },
   {
     "id": "m6-q-213",
@@ -1194,11 +1315,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Modelos de linguagem generativos (LLMs) possuem verificação factual intrínseca e infalível, garantindo que qualquer citação a leis ou decisões judiciais gerada por eles seja 100% autêntica e auditada.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Os LLMs não têm banco de dados interno infalível ou capacidade de verificar verdades universais: geram continuações textuais plausíveis estatisticamente. No contexto jurídico e bibliográfico, a verificação humana e o acoplamento de sistemas de busca semântica em repositórios fidedignos (RAG) são mandatórios para prevenir invenções factuais.",
-    "armadilhaBanca": "Mito da confiabilidade jurídica absoluta de saídas geradas por inteligência artificial generativa.",
+    "justificativa": "ERRADO. Modelos podem produzir citações inexistentes e referências normativas incorretas com linguagem fluente. A fluência não equivale a consulta de fonte autêntica. Conferir texto, vigência e aderência da norma continua necessário, mesmo quando a resposta inclui aparência de citação formal.",
+    "armadilhaBanca": "Confundir aparência de segurança e comprovação.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1206,9 +1327,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Bender et al. / On the Dangers of Stochastic Parrots",
       "verificado": false
     },
-    "fonte": "Bender et al. / On the Dangers of Stochastic Parrots",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Modelos de linguagem generativos (LLMs) são redes neurais probabilísticas que geram texto por estimativa estocástica de próximo token, estando intrinsecamente passíveis de \"alucinações\" e citações fictícias de leis ou acórdãos caso operem sem ancoragem factual externa."
+    "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — confabulação e verificação factual — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Saídas de LLMs podem conter referências inexistentes e exigem verificação adequada de fontes e fatos.",
+    "gatilho": "infalível",
+    "versao_errada": ""
   },
   {
     "id": "m6-q-214",
@@ -1220,11 +1343,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A arquitetura Transformer, que revolucionou o processamento de linguagem natural e viabilizou os grandes modelos de linguagem contemporâneos, tem no mecanismo de autoatenção (self-attention) o seu esteio técnico central.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Transformers usam mecanismos de atenção para relacionar representações de tokens; isso não significa acesso irrestrito a tokens futuros em configurações com máscara causal.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Proposta no seminal artigo \"Attention Is All You Need\" (Vaswani et al., 2017), a autoatenção pondera as relações entre todas as palavras de uma sequência de forma paralela.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A atenção relaciona representações das posições na sequência, dentro dos limites e máscaras do modelo. Na configuração causal, posições futuras são bloqueadas. Chamar atenção de mecanismo central não permite afirmar acesso irrestrito a toda informação ou ausência de limites de contexto.",
+    "armadilhaBanca": "Preservar condições técnicas do mecanismo de atenção.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1233,8 +1356,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Vaswani et al. (2017) / Attention Is All You Need"
     },
-    "fonte": "Vaswani et al. (2017) / Attention Is All You Need",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Vaswani et al. — Attention Is All You Need, 2017 — self-attention e máscaras causais — https://arxiv.org/abs/1706.03762",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não significa",
+    "versao_correta": "",
+    "versao_errada": "Todo Transformer permite acesso a tokens futuros mesmo quando usa máscara causal."
   },
   {
     "id": "m6-q-215",
@@ -1246,11 +1372,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "A aplicação de inteligência artificial em bibliotecas públicas prescinde de diretrizes éticas e de transparência algorítmica, haja vista que os sistemas de IA são neutros por natureza.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Sistemas de inteligência artificial refletem e podem amplificar os vieses dos conjuntos de dados utilizados em seu treinamento. As organizações bibliotecárias globais reforçam que a curadoria algorítmica deve pautar-se por transparência, diversidade, responsabilidade social e combate à discriminação.",
-    "armadilhaBanca": "Falsa premissa de neutralidade algorítmica isenta de regulação ética e social.",
+    "justificativa": "ERRADO. Dados, objetivos e escolhas de projeto podem reproduzir vieses e produzir danos. Uso público exige avaliar finalidade, qualidade, privacidade e responsabilidades conforme o contexto. Uma saída automatizada não se torna neutra apenas por vir de um modelo estatístico.",
+    "armadilhaBanca": "Confundir automação e neutralidade.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1258,9 +1384,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "IFLA Statement on Libraries and Artificial Intelligence / UNESCO Ethics of AI",
       "verificado": false
     },
-    "fonte": "IFLA Statement on Libraries and Artificial Intelligence / UNESCO Ethics of AI",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "A adoção de inteligência artificial em bibliotecas públicas requer observância mandatória a diretrizes éticas internacionais (UNESCO, IFLA), exigindo explicabilidade, auditoria de vieses de treinamento e proteção estrita à privacidade dos cidadãos."
+    "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — riscos, vieses, governança e avaliação — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Sistemas de IA podem refletir vieses e exigem avaliação e governança adequadas ao uso público.",
+    "gatilho": "neutros por natureza",
+    "versao_errada": ""
   },
   {
     "id": "m8-q-201",
@@ -1272,11 +1400,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Na teoria da visualização de dados de Edward Tufte, o princípio da \"relação dados-tinta\" (data-ink ratio) preconiza que a maior parte da tinta aplicada em um gráfico deve ser dedicada à exibição direta dos dados, eliminando-se elementos decorativos supérfluos (chartjunk).",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A relação dados-tinta discutida por Tufte favorece reduzir elementos gráficos desnecessários, sem retirar rótulos, unidades ou contexto indispensáveis à compreensão.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Em sua obra clássica 'The Visual Display of Quantitative Information' (1983), Edward R. Tufte formulou o conceito de 'Data-Ink Ratio' (Relação Dados-Tinta), que postula que a proporção de tinta destinada à exibição direta dos dados deve aproximar-se de 1. Tufte defende a eliminação do 'chartjunk' (elementos gráficos decorativos supérfluos, fundos carregados e efeitos 3D) para maximizar a densidade informativa e a clareza analítica.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A razão relaciona a parcela dedicada aos dados ao total usado no gráfico. Reduzir decoração desnecessária pode elevar essa proporção, mas não exige apagar rótulos, unidades e contexto necessários à compreensão. É princípio de projeto, não limiar numérico universal de qualidade.",
+    "armadilhaBanca": "Distinguir redução de ruído e perda de informação útil.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1285,8 +1413,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Edward Tufte (1983) / The Visual Display of Quantitative Information"
     },
-    "fonte": "Edward Tufte (1983) / The Visual Display of Quantitative Information",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Publications Office of the European Union — Chart elements: introduction — relação entre tinta dedicada aos dados e tinta total — https://data.europa.eu/apps/data-visualisation-guide/chart-junk-and-data-ink-origins",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "sem retirar",
+    "versao_correta": "",
+    "versao_errada": "Maximizar a relação dados-tinta exige eliminar títulos, unidades e toda legenda mesmo quando necessários à interpretação."
   },
   {
     "id": "m8-q-202",
@@ -1298,11 +1429,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Para representar a evolução temporal de gastos públicos de uma instituição ao longo de dez anos consecutivos, o gráfico de linhas ou de colunas cronológicas é mais adequado perceptual e semanticamente do que o gráfico de pizza (setores).",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Para mostrar a evolução de gastos ao longo de dez anos, gráficos de linhas ou colunas ordenadas no tempo tendem a comunicar melhor a trajetória do que uma pizza de setores.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Gráficos de linha transmitem a noção de continuidade temporal e tendência; gráficos de pizza são inadequados para séries históricas e comparações de múltiplos períodos.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Linhas facilitam acompanhar variação ordenada no tempo; colunas também podem comparar períodos. Pizza representa partes de um total e é menos adequada para mostrar trajetória de dez anos. A escolha depende da mensagem, evitando tratar um gráfico como superior em qualquer contexto.",
+    "armadilhaBanca": "Escolher forma de gráfico pela pergunta e pela relação entre os dados.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1310,8 +1441,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Cairo / The Functional Art / Few / Show Me the Numbers",
       "verificado": false
     },
-    "fonte": "Cairo / The Functional Art / Few / Show Me the Numbers",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Government Analysis Function — Data visualisation: charts — escolha de gráfico para evolução temporal — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "ao longo",
+    "versao_correta": "",
+    "versao_errada": "Um gráfico de pizza é sempre a melhor opção para mostrar a trajetória de uma mesma variável ao longo de dez anos."
   },
   {
     "id": "m8-q-203",
@@ -1323,11 +1457,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Gráficos de pizza com trinta fatias e efeitos de rotação em 3D constituem a melhor prática internacional de visualização de dados segundo especialistas como Stephen Few e Alberto Cairo.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Usar trinta fatias em perspectiva 3D torna um gráfico de pizza necessariamente mais confiável para comparar valores próximos do que barras alinhadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Gráficos de pizza já possuem baixa eficiência cognitiva para comparações finas; a introdução de efeitos 3D agrava o problema ao distorcer áreas e perspectivas geométricas. Trinta categorias tornam as fatias ilegíveis, sendo mandatório o emprego de gráficos de barras horizontais ordenadas.",
-    "armadilhaBanca": "Consagração de antipadrão grave de design de informação como suposta boa prática analítica.",
+    "justificativa": "ERRADO. Muitas fatias dificultam comparar parcelas próximas e efeitos 3D podem distorcer a percepção. Isso não torna toda pizza proibida: poucas categorias e uma pergunta de composição podem justificá-la. A adaptação substitui apelo vago à melhor prática por uma comparação verificável.",
+    "armadilhaBanca": "Confundir efeito decorativo e precisão da comparação.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1335,9 +1469,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "Stephen Few / Save the Pies for Dessert / Alberto Cairo",
       "verificado": false
     },
-    "fonte": "Stephen Few / Save the Pies for Dessert / Alberto Cairo",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Conforme preceituam os cânones internacionais de visualização de dados (Stephen Few, Alberto Cairo), o emprego de gráficos de pizza 3D com dezenas de fatias é categoricamente reprovado por distorcer proporções visuais e comprometer a percepção de dados."
+    "fonte": "Government Analysis Function — Data visualisation: charts — comparação visual e efeitos 3D — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Para muitas categorias, barras ordenadas podem facilitar a comparação; perspectiva 3D não garante fidelidade perceptual.",
+    "gatilho": "mais confiável",
+    "versao_errada": ""
   },
   {
     "id": "m8-q-204",
@@ -1349,11 +1485,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Conforme as Diretrizes de Acessibilidade para Conteúdo Web (WCAG 2.2), o contraste de cor mínimo exigido para textos normais em relação ao fundo é de 4.5:1 no nível AA.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Pelo critério 1.4.3 da WCAG 2.2, a regra geral no nível AA é contraste mínimo de 4,5:1 para texto normal, observadas as exceções do critério.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Critério de Sucesso 1.4.3 das Diretrizes de Acessibilidade para Conteúdo Web (WCAG 2.2 da W3C) estabelece como requisito de conformidade Nível AA que a razão de contraste visual entre a cor do texto normal e a cor de fundo seja de no mínimo 4.5:1. Para textos em grande escala (no mínimo 18pt ou 14pt em negrito), a exigência de contraste mínimo reduz-se para 3:1.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. No nível AA, a regra geral para texto normal é 4,5:1; texto grande admite 3:1 e há exceções previstas. O valor não descreve todo elemento visual nem substitui os demais critérios. Medição usa contraste entre cores de apresentação, não preferência estética subjetiva.",
+    "armadilhaBanca": "Associar o limiar ao tipo de conteúdo e nível de conformidade.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1361,8 +1497,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "W3C / Web Content Accessibility Guidelines (WCAG) 2.2",
       "verificado": false
     },
-    "fonte": "W3C / Web Content Accessibility Guidelines (WCAG) 2.2",
-    "dataConferencia": "2026-10-14"
+    "fonte": "W3C — WCAG 2.2, Understanding 1.4.3 Contrast Minimum — critério 1.4.3: texto normal, texto grande e exceções — https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "4,5:1",
+    "versao_correta": "",
+    "versao_errada": "A WCAG 2.2 AA exige apenas 3:1 para todo texto normal, sem distinção por tamanho ou exceções."
   },
   {
     "id": "m8-q-205",
@@ -1374,11 +1513,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O texto alternativo (atributo alt-text) em publicações digitais acessíveis deve descrever de forma sucinta e precisa a informação ou a função transmitida pela imagem ou infográfico, permitindo que usuários de leitores de tela compreendam seu conteúdo.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Imagens informativas precisam de alternativa adequada à informação ou função; infográficos complexos podem exigir descrição ou dados adicionais além de um texto alternativo curto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme prescreve o Critério de Sucesso 1.1.1 da WCAG (Conteúdo Não Textual), qualquer elemento imagético, infográfico, diagrama ou ícone veiculado em páginas web ou documentos digitais deve conter uma alternativa textual descritiva equivalente (atributo alt-text), garantindo que usuários com deficiência visual apoiados por leitores de tela (como NVDA ou JAWS) compreendam a informação comunicada.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A alternativa deve transmitir informação ou função relevante ao contexto. Um gráfico complexo pode precisar de explicação ou tabela adicional, não apenas uma frase no alt. Imagens decorativas têm outro tratamento; repetir aparência sem informação não garante acesso equivalente.",
+    "armadilhaBanca": "Distinguir alternativa equivalente e mera descrição de aparência.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1386,8 +1525,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "W3C / WCAG 2.2 / Modelo de Acessibilidade em Governo Eletrônico (eMAG)",
       "verificado": false
     },
-    "fonte": "W3C / WCAG 2.2 / Modelo de Acessibilidade em Governo Eletrônico (eMAG)",
-    "dataConferencia": "2026-10-14"
+    "fonte": "W3C WAI — Images Tutorial — alternativas para imagens informativas e complexas — https://www.w3.org/WAI/tutorials/images/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "podem exigir",
+    "versao_correta": "",
+    "versao_errada": "Todo gráfico complexo deve ter apenas uma descrição visual curta, sem alternativa para os valores e relações importantes."
   },
   {
     "id": "m8-q-206",
@@ -1399,11 +1541,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Para atender plenamente às diretrizes de acessibilidade documental, imagens puramente decorativas (como bordas e separadores gráficos) devem receber textos alternativos longos detalhando a paleta hexadecimal de suas cores.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Uma imagem puramente decorativa deve sempre descrever detalhadamente suas cores no texto alternativo, mesmo sem transmitir qualquer informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Imagens decorativas não agregam conteúdo substantivo ao documento. Inserir descrições textuais extensas com valores hexadecimais de cores polui a leitura em áudio e confunde o usuário de leitores de tela (como NVDA ou JAWS). O padrão de acessibilidade determina deixá-las invisíveis à tecnologia assistiva via alt=\"\".",
-    "armadilhaBanca": "Deturpação da diretriz de texto alternativo em acessibilidade de elementos puramente visuais.",
+    "justificativa": "ERRADO. Quando uma imagem é puramente decorativa, deve ser ignorável pela tecnologia assistiva, como com alt vazio em HTML. Descrição longa de cores sem significado acrescenta ruído. Se a imagem transmite uma informação real, ela deixa de ser puramente decorativa e pede outra avaliação.",
+    "armadilhaBanca": "Não transformar decoração em obstáculo de leitura.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1411,9 +1553,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "W3C / WCAG 2.2, Critério 1.1.1",
       "verificado": false
     },
-    "fonte": "W3C / WCAG 2.2, Critério 1.1.1",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Em conformidade com as normas de acessibilidade digital (WCAG 2.1 e eMAG), imagens de finalidade puramente decorativa ou separadores estéticos devem conter o atributo alternativo vazio (alt=\"\") ou \"aria-hidden=true\", orientando leitores de tela a ignorá-las."
+    "fonte": "W3C WAI — Images Tutorial — imagens decorativas e alternativas nulas — https://www.w3.org/WAI/tutorials/images/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Uma imagem puramente decorativa deve poder ser ignorada por tecnologia assistiva, conforme a técnica do formato.",
+    "gatilho": "descrever detalhadamente",
+    "versao_errada": ""
   },
   {
     "id": "m8-q-207",
@@ -1425,11 +1569,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "A utilização exclusiva da cor como único meio visual de transmitir uma informação, indicar uma ação ou distinguir um elemento visual viola o Critério de Sucesso 1.4.1 da WCAG 2.2.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A informação não deve depender apenas da cor (para contemplar usuários com daltonismo ou deficiências visuais); deve haver suporte adicional por texto, forma ou textura.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. O critério exige outra pista visual quando a cor transmite informação, ação ou distinção, como texto, forma ou padrão. Não proíbe usar cores nem exige que todo gráfico seja preto e branco. Um rótulo apenas para leitor de tela não resolve sozinho a exigência de pista visual.",
+    "armadilhaBanca": "Distinguir uso de cor e dependência exclusiva dela.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1437,8 +1581,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "WCAG 2.2, Critério 1.4.1 (Uso da Cor)",
       "verificado": false
     },
-    "fonte": "WCAG 2.2, Critério 1.4.1 (Uso da Cor)",
-    "dataConferencia": "2026-10-14"
+    "fonte": "W3C — WCAG 2.2, Understanding 1.4.1 Use of Color — critério 1.4.1: cor não é meio visual único — https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "único meio visual",
+    "versao_correta": "",
+    "versao_errada": "É suficiente distinguir erro e acerto somente por vermelho e verde, sem qualquer outra pista visual."
   },
   {
     "id": "m8-q-208",
@@ -1450,11 +1597,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Documentos em formato PDF acessíveis (PDF/UA — ISO 14289) baseiam-se em árvores de tags estruturais para definir a ordem lógica de leitura de títulos, parágrafos, listas e tabelas.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Em PDF marcado e acessível, a estrutura semântica e a ordem lógica precisam ser corretas; a simples presença de tags não basta para garantir conformidade PDF/UA.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O padrão internacional PDF/UA (Universal Accessibility, normatizado pela ISO 14289) define os requisitos técnicos para a acessibilidade universal de documentos em formato PDF: exige a presença de uma árvore estrutural completa de tags semânticas (<H1>, <H2>, <P>, <Table>, <Figure>) que explicite a ordem lógica de leitura linear e o papel estrutural de cada elemento para tecnologias assistivas.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. As tags devem refletir papéis e relações, e a sequência precisa corresponder ao sentido do documento. Um PDF pode conter tags incorretas e continuar inacessível. Ordem visual aparente e ordem de leitura assistiva podem divergir, especialmente em colunas, tabelas e elementos interativos.",
+    "armadilhaBanca": "Separar presença de marcação e correção da estrutura.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1463,8 +1610,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "ISO 14289-1 (PDF/UA)"
     },
-    "fonte": "ISO 14289-1 (PDF/UA)",
-    "dataConferencia": "2026-10-14"
+    "fonte": "PDF Association — Tagged PDF and PDF/UA — estrutura semântica e leitura lógica em PDF marcado — https://pdfa.org/techniques-for-accessible-pdf/content-order-correctly-set/UA1_Tpdf-G4_01/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não basta",
+    "versao_correta": "",
+    "versao_errada": "A presença de qualquer árvore de tags garante conformidade PDF/UA, independentemente da ordem e da semântica."
   },
   {
     "id": "m8-q-209",
@@ -1476,11 +1626,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Em tabelas de dados inseridas em relatórios legislativos acessíveis, é dispensável a identificação das células de cabeçalho de linha ou coluna, bastando que a tabela possua visual agradável aos olhos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Para que uma pessoa cega compreenda uma tabela, o leitor de tela deve anunciar o cabeçalho correspondente antes do valor da célula em navegação linear. A ausência de cabeçalhos estruturais transforma a leitura da tabela em uma sequência desconexa de números e palavras.",
-    "armadilhaBanca": "Reduzir requisitos de acessibilidade estrutural de tabelas a atributos meramente cosméticos.",
+    "justificativa": "ERRADO. Cabeçalhos e suas relações permitem interpretar o valor de uma célula ao navegar com tecnologia assistiva. Aparência de negrito ou cor não substitui semântica e associação adequadas. Tabelas complexas exigem identificar a que linhas e colunas cada cabeçalho se aplica.",
+    "armadilhaBanca": "Confundir aparência de cabeçalho e associação semântica.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1488,9 +1638,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "descricao": "WCAG 2.2, Critério 1.3.1 (Informações e Relações)",
       "verificado": false
     },
-    "fonte": "WCAG 2.2, Critério 1.3.1 (Informações e Relações)",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Nas diretrizes de acessibilidade documental (WCAG e eMAG), tabelas de dados exigem estruturação explícita de cabeçalhos de coluna e de linha (tags \"th\" com escopos definidos), permitindo a correta verbalização das relações de células pelos leitores de tela."
+    "fonte": "W3C WAI — Tables Tutorial — associação de cabeçalhos e células de dados — https://www.w3.org/WAI/tutorials/tables/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Tabelas de dados acessíveis devem identificar cabeçalhos e suas relações com as células, conforme o formato e a complexidade.",
+    "gatilho": "dispensável",
+    "versao_errada": ""
   },
   {
     "id": "m8-q-210",
@@ -1502,11 +1654,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A infografia funcional nos documentos parlamentares prioriza a clareza e a facilidade de apreensão cognitiva pelo cidadão, submetendo o apelo estético à precisão e à fidedignidade dos dados públicos.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A infografia em documentos públicos deve apoiar compreensão e fidelidade; a busca de apelo estético não autoriza distorcer valores, escalas ou contexto dos dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A infografia funcional na comunicação pública e nos relatórios de assessoramento legislativo pauta-se pelo princípio da veracidade e da redução da carga cognitiva: o design e os recursos visuais devem estar estritamente subordinados à precisão matemática e documental dos dados, evitando distorções de escala ou apelos puramente estéticos que possam induzir o cidadão ou o parlamentar ao erro.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Boa apresentação ajuda a compreender, mas não justifica manipular escalas, omitir unidades ou selecionar dados para criar impressão enganosa. Beleza e precisão podem coexistir quando o projeto orienta a atenção sem distorcer a informação. O objetivo comunicativo precisa ser explicitado.",
+    "armadilhaBanca": "Separar recurso visual e distorção de evidência.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1515,8 +1667,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Cairo / The Functional Art / Comunicação Pública da Câmara"
     },
-    "fonte": "Cairo / The Functional Art / Comunicação Pública da Câmara",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Government Analysis Function — Data visualisation: charts — clareza, representação fiel e comunicação de dados — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "não autoriza",
+    "versao_correta": "",
+    "versao_errada": "Tornar um infográfico mais atraente autoriza alterar valores ou escalas para reforçar a mensagem desejada."
   },
   {
     "id": "m13-q-201",
@@ -1528,11 +1683,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "De acordo com a 3ª edição do Manual de Redação da Presidência da República (MRPR), a redação oficial deve caracterizar-se pela clareza, precisão, concisão, impessoalidade, formalidade e padronização.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o item 1.2 da 3ª edição do Manual de Redação da Presidência da República (MRPR 2018), a redação oficial é a maneira pela qual o Poder Público redige seus atos e comunicações. Deve pautar-se compulsoriamente por seis atributos fundamentais decorrentes do princípio da impessoalidade e publicidade: clareza, precisão, concisão, impessoalidade, formalidade/padronização e uso da norma padrão do vernáculo culto.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. O manual inclui esses atributos para tornar a comunicação compreensível e apropriada à finalidade pública. A enumeração não é exaustiva: também trata de objetividade, coesão/coerência e uso da norma padrão. Formalidade não exige linguagem rebuscada nem impede organização direta das informações.",
+    "armadilhaBanca": "Distinguir formalidade, clareza e ornamentação.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1541,8 +1696,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Manual de Redação da Presidência da República (MRPR, 3ª ed., 2018)"
     },
-    "fonte": "Manual de Redação da Presidência da República (MRPR, 3ª ed., 2018)",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — 3ª edição, capítulo I: atributos da redação oficial — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "clareza",
+    "versao_correta": "",
+    "versao_errada": "A redação oficial exige rebuscamento e obscuridade para demonstrar formalidade."
   },
   {
     "id": "m13-q-202",
@@ -1554,11 +1712,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O Decreto nº 9.758/2019 unificou as formas de tratamento na administração pública federal, estabelecendo que o único pronome de tratamento formal a ser utilizado na comunicação com agentes públicos de qualquer escalão é \"Vossa Excelência\", sendo vedado o uso de tratamentos como \"Doutor\" ou \"Ilustríssimo\".",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Decreto Federal nº 9.758/2019 simplificou e uniformizou as formas de tratamento na administração pública federal: estabeleceu que o pronome de tratamento formal único a ser dispensado a agentes públicos federais de qualquer hierarquia ou cargo é 'Vossa Excelência' (ou 'Senhor'/'Senhora' na linguagem direta), proibindo categoricamente tratamentos laudatórios como 'Doutor', 'Ilustríssimo' ou 'Digníssimo'.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "No âmbito de aplicação do Decreto 9.758/2019, o único tratamento previsto é Vossa Excelência, independentemente do nível hierárquico do agente público.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. No âmbito delimitado do decreto, o tratamento é senhor, com flexão para feminino e plural. Vossa Excelência figura entre as formas vedadas, não como forma única imposta. Há exceções e relações com outros poderes e autoridades, portanto não se aplica a regra indistintamente a toda comunicação estatal.",
+    "armadilhaBanca": "Trocar a forma adotada por uma das expressamente vedadas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1567,8 +1725,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Decreto nº 9.758/2019 / MRPR (3ª ed.)"
     },
-    "fonte": "Decreto nº 9.758/2019 / MRPR (3ª ed.)",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Decreto 9.758/2019 — formas de tratamento e endereçamento — arts. 1º–3º: âmbito, exceções e senhor — https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9758-11-abril-2019-787965-publicacaooriginal-157737-pe.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "Vossa Excelência",
+    "versao_correta": "No âmbito do Decreto 9.758/2019, o tratamento previsto é senhor, com flexões e observadas as exceções do art. 1º.",
+    "versao_errada": ""
   },
   {
     "id": "m13-q-203",
@@ -1580,11 +1741,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 3,
     "habilidade": "analisar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "O vocativo \"Excelentíssimo Senhor\" (ou Excelentíssima Senhora) deve ser utilizado indistintamente para todas as autoridades públicas federais, incluindo auditores fiscais e diretores de departamento.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Segundo a disciplina de vocativos da 3ª edição do MRPR, de 2018, Excelentíssimo Senhor deve ser aplicado indistintamente a todas as autoridades, incluindo qualquer diretor de departamento.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O MRPR aboliu a proliferação cerimoniosa de pronomes e vocativos honoríficos. \"Excelentíssimo Senhor\" é privativo do Presidente da República, Presidente do Congresso Nacional e Presidente do Supremo Tribunal Federal. Diretores, auditores, parlamentares e ministros recebem o vocativo uniforme \"Senhor [Cargo]\" (ex.: Senhor Deputado, Senhor Auditor).",
-    "armadilhaBanca": "Generalização do vocativo cerimonial \"Excelentíssimo Senhor\" a escalões administrativos que exigem vocativo ordinário.",
+    "justificativa": "ERRADO. O manual de 2018 reserva o vocativo com Excelentíssimo aos chefes de Poder, não o aplica a toda autoridade. O decreto posterior possui âmbito e exceções próprios e não pode ser apagado por uma leitura atemporal do manual. A pergunta indica expressamente a referência do vocativo.",
+    "armadilhaBanca": "Preservar destinatário e referência temporal da regra.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1593,9 +1754,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "MRPR (3ª ed., 2018), item 2.1.2"
     },
-    "fonte": "MRPR (3ª ed., 2018), item 2.1.2",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Conforme as normas do Manual de Redação da Presidência da República (MRPR), o vocativo \"Excelentíssimo Senhor\" (ou Excelentíssima Senhora) é reservado com exclusividade aos chefes dos três Poderes da República, utilizando-se para as demais autoridades o vocativo \"Senhor [Cargo]\"."
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — 3ª edição, §4.4: vocativo; distinguir regra posterior do Decreto 9.758/2019 — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "No tratamento descrito no MRPR de 2018, Excelentíssimo Senhor não é vocativo indistinto para qualquer autoridade.",
+    "gatilho": "indistintamente",
+    "versao_errada": ""
   },
   {
     "id": "m13-q-204",
@@ -1607,11 +1770,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A 3ª edição do MRPR aboliu as distinções entre \"aviso\" e \"memorando\", uniformizando a correspondência oficial sob a denominação única de \"padrão ofício\".",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A 3ª edição do MRPR unifica a denominação e a diagramação antes distinguidas entre aviso, ofício e memorando, adotando o padrão ofício.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Uma das maiores reformas introduzidas pela 3ª edição do Manual de Redação da Presidência da República (MRPR 2018) foi a extinção formal das modalidades isoladas de 'aviso' (comunicação entre Ministros de Estado) e 'memorando' (comunicação interna): ambos foram unificados sob a denominação única de 'Padrão Ofício', que passou a ser o modelo universal de correspondência oficial na administração pública.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. O manual de 2018 adota denominação e diagramação unificadas no lugar da antiga distinção entre aviso, ofício e memorando. Essa orientação do manual não prova revogação automática de toda norma documental de qualquer poder. Deve-se conferir a referência exigida pelo edital e o âmbito institucional.",
+    "armadilhaBanca": "Distinguir padronização do manual e extinção legal universal.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1620,8 +1783,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "MRPR (3ª ed., 2018), item 3.1"
     },
-    "fonte": "MRPR (3ª ed., 2018), item 3.1",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — 3ª edição, capítulo II, §6.1: variações dos documentos oficiais — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "padrão ofício",
+    "versao_correta": "",
+    "versao_errada": "O MRPR de 2018 mantém obrigatoriamente três denominações distintas, aviso, memorando e ofício, sem qualquer unificação."
   },
   {
     "id": "m13-q-205",
@@ -1633,11 +1799,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "Os fechos para correspondência oficial dividem-se em duas fórmulas simplificadas: \"Respeitosamente\", para autoridades de hierarquia superior; e \"Atenciosamente\", para autoridades de mesma hierarquia ou de hierarquia inferior.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "No padrão do MRPR, ressalvados os casos de rito próprio, emprega-se Respeitosamente para autoridade superior e Atenciosamente para mesma hierarquia, inferior e demais casos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. De acordo com o item 3.2 da 3ª edição do MRPR, as fórmulas de fecho nas correspondências oficiais do Poder Executivo federal foram reduzidas a apenas duas opções simplificadas: 1) 'Respeitosamente', utilizado exclusivamente para autoridades de hierarquia superior à do signatário (incluindo o Presidente da República); e 2) 'Atenciosamente', para autoridades de mesma hierarquia ou de hierarquia inferior.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. No modelo do manual, Respeitosamente se dirige a autoridade superior e Atenciosamente à mesma hierarquia, inferior e demais casos. Comunicações com autoridades estrangeiras seguem rito e tradição próprios. O fecho depende da relação, não de preferência pessoal ou desejo de exibir deferência excessiva.",
+    "armadilhaBanca": "Inverter a relação hierárquica dos fechos.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1646,8 +1812,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "MRPR (3ª ed., 2018), item 3.2"
     },
-    "fonte": "MRPR (3ª ed., 2018), item 3.2",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §5.1.7: fechos; ressalva das comunicações estrangeiras — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "Respeitosamente",
+    "versao_correta": "",
+    "versao_errada": "No MRPR, Atenciosamente é o fecho reservado às autoridades superiores, e Respeitosamente às inferiores."
   },
   {
     "id": "m13-q-206",
@@ -1659,11 +1828,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "Em um ofício oficial endereçado a autoridade superior, é plenamente correto e recomendado utilizar fechos como \"Sem mais para o momento, renovo meus mais sinceros votos de estima e consideração\".",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Expressões laudatórias e floreadas (como \"Sem mais para o momento, renovo protestos de estima...\") foram expressamente banidas da redação oficial brasileira. Exige-se concisão, clareza e impessoalidade republicana, limitando os fechos às duas modalidades oficiais consagradas.",
-    "armadilhaBanca": "Validação de fechos laudatórios obsoletos expressamente vedados pelo padrão oficial do MRPR.",
+    "justificativa": "ERRADO. A fórmula extensa não é o fecho padronizado pelo manual. Para superior, usa-se Respeitosamente conforme a regra; formalidade não exige promessas ou elogios. Concisão e adequação institucional evitam fórmulas ornamentais que não acrescentam informação ao expediente.",
+    "armadilhaBanca": "Confundir deferência e prolixidade ornamental.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1672,9 +1841,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "MRPR (3ª ed., 2018), item 3.2"
     },
-    "fonte": "MRPR (3ª ed., 2018), item 3.2",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "O Manual de Redação da Presidência da República padronizou estritamente os fechos das comunicações oficiais em apenas duas fórmulas sóbrias: \"Respeitosamente,\" (para autoridades superiores) e \"Atenciosamente,\" (para autoridades de mesma hierarquia ou inferiores), abolindo saudações prolixas."
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §5.1.7: fechos simplificados — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Na comunicação a superior segundo o padrão do MRPR, usa-se o fecho Respeitosamente, observadas as regras aplicáveis.",
+    "gatilho": "estima e consideração",
+    "versao_errada": ""
   },
   {
     "id": "m13-q-207",
@@ -1686,11 +1857,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A Exposição de Motivos (EM) é o expediente dirigido ao Presidente da República por um Ministro de Estado para propor a edição de ato normativo ou submeter assunto de sua competência à consideração presidencial.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "No MRPR, exposição de motivos é expediente dirigido ao Presidente da República por ministro de Estado, inclusive conjuntamente por mais de um ministro, para finalidades como propor medidas ou submeter projeto normativo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Nos termos do item 4.1 do Manual de Redação da Presidência da República, a Exposição de Motivos (EM) é o expediente formal dirigido ao Presidente da República por um Ministro de Estado: visa propor a edição de ato normativo (como anteprojeto de lei ou medida provisória), submeter assunto de relevância à consideração presidencial ou prestar informações sobre questões de competência ministerial.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Exposição de motivos dirige-se ao Presidente da República, em regra por ministro, para propor medida, submeter projeto ou informar assunto conforme o manual. Pode ser interministerial. Não é a mensagem presidencial dirigida ao Congresso nem expediente livre de qualquer cidadão.",
+    "armadilhaBanca": "Trocar autor e destinatário de gêneros oficiais.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1699,8 +1870,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "MRPR (3ª ed., 2018), item 4.1"
     },
-    "fonte": "MRPR (3ª ed., 2018), item 4.1",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §6.2: definição, finalidades e autoria da exposição de motivos — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "ministro",
+    "versao_correta": "",
+    "versao_errada": "Exposição de motivos é o expediente pelo qual o Presidente se dirige ao Congresso para encaminhar projeto de lei."
   },
   {
     "id": "m13-q-208",
@@ -1712,11 +1886,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 1,
     "habilidade": "memorizar",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "De acordo com a Lei Complementar nº 95/1998, a numeração dos artigos de uma lei é indicada por ordinais até o nono (Art. 1º ao Art. 9º) e por cardinais seguidos de ponto a partir do dez (Art. 10. em diante).",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "Pela técnica da LC 95/1998, os artigos usam numeração ordinal até o nono e cardinal a partir do décimo, como Art. 9º e Art. 10.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Artigo 10, inciso I, da Lei Complementar nº 95/1998 (que disciplina a elaboração, redação e alteração das leis no Brasil) estabelece a regra canônica de numeração de artigos: empregam-se numerais ordinais do primeiro ao nono ('Art. 1º' a 'Art. 9º'); e numerais cardinais seguidos de ponto gráfico a partir do artigo dez em diante ('Art. 10.', 'Art. 11.' etc.).",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. A regra muda do ordinal para cardinal depois do nono: Art. 9º e Art. 10. A revisão mantém exemplos claros e evita a ambiguidade literal de cardinal a partir deste na leitura isolada. Essa regra de articulação não autoriza renumerar livremente artigos de lei já alterada.",
+    "armadilhaBanca": "Identificar o marco de transição entre ordinal e cardinal.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1725,8 +1899,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei Complementar nº 95/1998, art. 10, I"
     },
-    "fonte": "Lei Complementar nº 95/1998, art. 10, I",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Lei Complementar 95/1998 — elaboração e redação das leis — art. 10, I: numeração de artigos — https://www2.camara.leg.br/legin/fed/leicom/1998/leicomplementar-95-26-fevereiro-1998-363948-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "nono",
+    "versao_correta": "",
+    "versao_errada": "A numeração ordinal dos artigos deve continuar até o décimo nono: Art. 19º."
   },
   {
     "id": "m13-q-209",
@@ -1738,11 +1915,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
     "item": "A técnica legislativa prevista na Lei Complementar nº 95/1998 determina que a numeração de parágrafos normativos adote a forma ordinal até o décimo nono (§ 19º) e cardinal a partir do vigésimo (§ 20).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 10, III da LC 95/1998 determina que os parágrafos serão designados pelos caracteres de parágrafo, seguidos de numeração ordinal até o nono e cardinal a partir do décimo, sucedida de ponto: § 1º, § 2º... § 9º, § 10., § 11. A assertiva alterou a transição para o vigésimo, o que viola a lei complementar.",
-    "armadilhaBanca": "Invenção de marco numérico falso (vigésimo em vez de décimo) nas regras formais da LC 95/1998.",
+    "justificativa": "ERRADO. O limite ordinal também é o nono para parágrafos; no décimo passa-se ao cardinal. Havendo apenas um, emprega-se Parágrafo único por extenso. A regra não se estende até o décimo nono por analogia com qualquer outra enumeração.",
+    "armadilhaBanca": "Deslocar o marco numérico de uma regra de articulação.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1751,9 +1928,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Lei Complementar nº 95/1998, art. 10, III"
     },
-    "fonte": "Lei Complementar nº 95/1998, art. 10, III",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "A técnica legislativa estabelecida pela Lei Complementar nº 95/1998 (art. 10, inciso III) prescreve que os parágrafos normativos são numerados por ordinais do primeiro ao nono (§ 1º a § 9º) e por cardinais seguidos de ponto a partir do dez (§ 10., § 11.)."
+    "fonte": "Lei Complementar 95/1998 — elaboração e redação das leis — art. 10, III: parágrafos e parágrafo único — https://www2.camara.leg.br/legin/fed/leicom/1998/leicomplementar-95-26-fevereiro-1998-363948-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "Parágrafos usam ordinal até o nono e cardinal a partir do décimo; se houver apenas um, emprega-se Parágrafo único.",
+    "gatilho": "décimo nono",
+    "versao_errada": ""
   },
   {
     "id": "m13-q-210",
@@ -1765,11 +1944,11 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "editalRef": "Conhecimentos Específicos / Biblioteconomia e Ciência da Informação",
     "nivel": 2,
     "habilidade": "compreender",
-    "contexto": "Julgue o item a seguir segundo as normas técnicas, legislações e doutrinas pertinentes.",
-    "item": "A Mensagem é o instrumento de comunicação oficial utilizado pelo Chefe do Poder Executivo para encaminhar ao Congresso Nacional projetos de lei ordinária, propostas de emenda constitucional ou para prestar informações na abertura da sessão legislativa.",
+    "contexto": "Julgue o item considerando a referência e as condições indicadas.",
+    "item": "A mensagem presidencial pode encaminhar ao Congresso Nacional projetos de lei e propostas de emenda constitucional ou prestar informações, conforme as hipóteses constitucionais e o modelo do MRPR.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o item 4.2 do Manual de Redação da Presidência da República, a 'Mensagem' é o instrumento formal de comunicação entre Chefes de Poder: no plano federal, é utilizada pelo Presidente da República para encaminhar projetos de lei ao Congresso Nacional, comunicar veto a proposição aprovada ou prestar a prestação de contas anual na sessão solene de abertura dos trabalhos legislativos.",
-    "armadilhaBanca": "Pegadinha conceitual sobre o tema.",
+    "justificativa": "CERTO. Mensagem é comunicação oficial entre chefes dos poderes, com exemplos de encaminhamento de projetos e informações presidenciais ao Legislativo. Exposição de motivos tem outro remetente e destinatário. A enumeração de usos não é autorização para qualquer cidadão iniciar lei por mensagem presidencial.",
+    "armadilhaBanca": "Distinguir remetente, destinatário e finalidade do expediente.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1778,7 +1957,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "MRPR (3ª ed., 2018), item 4.2"
     },
-    "fonte": "MRPR (3ª ed., 2018), item 4.2",
-    "dataConferencia": "2026-10-14"
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — §6.3: definição e finalidades da mensagem — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-31",
+    "gatilho": "Congresso",
+    "versao_correta": "",
+    "versao_errada": "A mensagem ao Congresso é remetida por ministro em nome próprio e substitui a exposição de motivos ao Presidente."
   }
 ];

@@ -1,0 +1,2534 @@
+[
+  {
+    "id": "m10b-q-1",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 14: Mesa e suplência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9e4749bd401003fedb597b7ced6d03fd51b1ea5b74d3f984d0495432de54e45f",
+    "shaDepois": "60b89d55d79eef1bf50f1a7b5c69b771fb83a9cb8d0cffd0cfd209c6b3349648",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A direção da Mesa compreende Presidente, dois Vice-Presidentes e quatro Secretários. Os quatro suplentes de Secretário não se confundem com quatro novas Secretarias titulares. Diferencie a composição titular da previsão de substituição, em vez de somar todos como ocupantes simultâneos dos mesmos cargos.",
+      "gatilho": "quatro Secretários",
+      "armadilhaBanca": "Distinguir titulares e suplentes.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 14: Mesa e suplência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Mesa possui oito Secretários titulares, além do Presidente e dos dois Vice-Presidentes.",
+      "item": "A Mesa Diretora da Câmara dos Deputados compõe-se do Presidente, de dois Vice-Presidentes e de quatro Secretários, além de quatro Suplentes de Secretário.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-2",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 5º e 6º: eleição da Mesa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "23d21407b199df8876fc7beca66c77e797dc667e374d8e47461f7d6396521bb5",
+    "shaDepois": "688d2aea81a949e3ff51eea79d953b793a5e2a591e5fc93eb2c69cf42706862e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O mandato na Mesa é de dois anos; a legislatura dura quatro. Há eleição para o segundo biênio, não um único mandato da Mesa coincidente com a legislatura. A coincidência do início dos trabalhos não torna iguais as durações dos dois institutos.",
+      "gatilho": "quatro anos",
+      "armadilhaBanca": "Trocar biênio e legislatura.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 5º e 6º: eleição da Mesa. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O mandato da Mesa é de dois anos, enquanto a legislatura dura quatro anos.",
+      "item": "Os membros da Mesa Diretora da Câmara dos Deputados são eleitos para mandato de quatro anos, coincidente com a duração integral da legislatura parlamentar.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-3",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "art. 58, §1º; RICD, art. 8º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4b20c74844f0ab5e41079b6ff8d59dd6956287414dd50d5d3b26b430fa381322",
+    "shaDepois": "951f2bb1e1e9202e1b9b3feecf7030ca6fa817402b851b8309840c220a1bffcb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A ressalva constitucional exige buscar a proporcionalidade na composição, sem prometer reprodução aritmética perfeita de todas as bancadas em cada órgão. Partidos e blocos são as referências expressas. A expressão qualificadora faz parte da regra, não autoriza ignorar o princípio.",
+      "gatilho": "tanto quanto possível",
+      "armadilhaBanca": "Preservar a ressalva da proporcionalidade.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §1º; RICD, art. 8º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Constituição exige identidade matemática absoluta entre a proporção de cada bancada no Plenário e em todos os órgãos.",
+      "item": "Na constituição da Mesa e de cada Comissão, é assegurada, tanto quanto possível, a representação proporcional dos partidos ou dos blocos parlamentares que participam da Câmara dos Deputados.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-4",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 17, §1º: voto do Presidente",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "838d8933ca278093a6e915d17856a3ac036fd505149619326c33623b5372c756",
+    "shaDepois": "8f631f2546ea7467823cc628100608a737d162842f05928e000058ebc92d667c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O Presidente não profere voto ordinário em todas as deliberações. O RICD distingue escrutínio secreto e desempate de votação ostensiva. Conduzir a votação, anunciar o resultado e votar são funções diferentes, mesmo quando exercidas pela mesma autoridade em hipóteses específicas.",
+      "gatilho": "todas",
+      "armadilhaBanca": "Generalizar uma competência sujeita a hipóteses.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 17, §1º: voto do Presidente. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O voto do Presidente observa as hipóteses regimentais, como escrutínio secreto e desempate na votação ostensiva.",
+      "item": "O Presidente da Câmara dos Deputados vota em todas as deliberações plenárias ordinárias para manifestar a posição política da Presidência da Casa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-5",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 18: Vice-Presidentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5331640bfe0eeb35a994cc668a266d3eaeb00d1cd854ecf2d1bc69ec70fe9dc2",
+    "shaDepois": "92ee992eddaa75c50828b2fa2a39d24979e4c4e9af88d5ea196285c02962a89c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A substituição pelos Vice-Presidentes segue a ordem ordinal. A regra não transfere a Presidência ao líder da maior bancada nem elimina as demais regras de substituição quando ambos faltam. Observe o encadeamento: Primeiro e, na falta deste, Segundo.",
+      "gatilho": "Primeiro-Vice-Presidente",
+      "armadilhaBanca": "Inverter a ordem de substituição.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 18: Vice-Presidentes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na ausência do Presidente, o Segundo-Vice-Presidente tem precedência sobre o Primeiro.",
+      "item": "Substitui o Presidente da Câmara dos Deputados em suas faltas ou impedimentos o Primeiro-Vice-Presidente e, na ausência deste, o Segundo-Vice-Presidente.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-6",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 19, caput e II",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5ac75042edd87d9830eb4ffe9e388192ebc00d4a3e9af8c8939dbf13af4c2c65",
+    "shaDepois": "9009849eac93f087f45a4deaccabf6c485f0d845ddbdede0a50942a1ef5a373e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Compete ao Primeiro-Secretário superintender os serviços administrativos da Câmara e receber e fazer a correspondência oficial da Casa, exceto a das Comissões.",
+      "justificativa": "CERTO. Superintender os serviços administrativos cabe ao Primeiro-Secretário. Na correspondência, o artigo ressalva a das comissões. A exceção delimita a competência da Secretaria e impede transformar coordenação administrativa geral em centralização de toda comunicação oficial.",
+      "gatilho": "exceto",
+      "armadilhaBanca": "Omitir exceção expressa da competência.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 19, caput e II. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Cabe ao Primeiro-Secretário fazer também toda a correspondência das comissões, sem exceção.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-7",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "mesaAtribuicoes"
+    ],
+    "localizador": "atribuições da Segunda e da Terceira Secretarias",
+    "nota": "Julgamento C corrigido para E: atribuições distintas indevidamente reunidas; fonte institucional consultada.",
+    "shaAntes": "53e60bf661d47a3a125d719ff9bcdedf407638f6f5d993c8aae801f581a08e81",
+    "shaDepois": "88f48e061add08f83f2e83a489260f806ae17bf195cc46ef5bcd72b3fd61698b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O enunciado mistura funções de Secretarias diferentes. A Segunda auxilia na emissão de passaportes e relações com embaixadas; a autorização prévia de reembolso de passagens aéreas internacionais é atribuída à Terceira. Uma primeira parcela correta não valida a competência composta; verbas de gabinete tampouco devem ser agregadas sem fundamento específico.",
+      "gatilho": "Segundo-Secretário",
+      "armadilhaBanca": "Agrupar atribuições verdadeiras sob o órgão errado.",
+      "fonte": "Câmara dos Deputados — Mesa Diretora: atribuições das Secretarias — atribuições da Segunda e da Terceira Secretarias — https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/mesa-diretora",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Segunda-Secretaria auxilia na emissão de passaportes; à Terceira cabe a autorização prévia de reembolso de despesas com passagens aéreas internacionais.",
+      "versao_errada": "",
+      "item": "A expedição de passaportes diplomáticos e a fiscalização de passagens aéreas e verbas indenizatórias de gabinetes parlamentares competem regimentarmente ao Segundo-Secretário da Mesa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-8",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "mesaAtribuicoes"
+    ],
+    "localizador": "Quarta-Secretaria e sistema habitacional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "382fe7e65070c4d0a057aecf204462dbf20c637c182480bb87d16aa14a0f3bc7",
+    "shaDepois": "a61f198636827b4671254eeac9b9ac7289d54f3c1c7a4afc9520927b6ff86bff",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A Quarta-Secretaria supervisiona o sistema habitacional da Câmara, atua na distribuição de apartamentos funcionais e no encaminhamento da concessão de auxílio-moradia aos deputados que não residam em imóveis funcionais.",
+      "justificativa": "CERTO. A Quarta-Secretaria supervisiona o sistema habitacional, distribui apartamentos e encaminha a concessão de auxílio-moradia. Encaminhar um pedido à Diretoria-Geral não equivale a possuir competência privativa para conceder todos os benefícios. A redação foi delimitada às atribuições efetivamente informadas pela Câmara.",
+      "gatilho": "encaminhamento",
+      "armadilhaBanca": "Distinguir encaminhar, supervisionar e conceder.",
+      "fonte": "Câmara dos Deputados — Mesa Diretora: atribuições das Secretarias — Quarta-Secretaria e sistema habitacional — https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/mesa-diretora",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O encaminhamento do auxílio-moradia pela Quarta-Secretaria significa que ela concede privativamente o benefício, sem participação de outros órgãos.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-9",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 19, III: recursos contra atos do Diretor-Geral",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4ea116ed216c837b71e32fe0a8fa8cba02d3399df2b58f21c1072d732bf8d98c",
+    "shaDepois": "c5b955a8eee3917dddd4df93ee4f7d3c60cad945abc4e0e07eabd40f8473e5c8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O dispositivo atribui ao Primeiro-Secretário decidir, em primeira instância, recursos contra atos do Diretor-Geral. Não cria uma competência exclusiva da Terceira-Secretaria para servidores do CEDI. Identifique o autor do ato recorrido, a instância e a autoridade competente.",
+      "gatilho": "Terceiro-Secretário",
+      "armadilhaBanca": "Trocar autoridade recursal e restringir arbitrariamente seu âmbito.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 19, III: recursos contra atos do Diretor-Geral. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Cabe ao Primeiro-Secretário decidir, em primeira instância, recursos contra atos do Diretor-Geral.",
+      "item": "O Terceiro-Secretário da Mesa Diretora tem como atribuição exclusiva julgar os recursos interpostos contra decisões disciplinares aplicadas a servidores concursados do CEDI.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-10",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 20, caput e §§1º e 2º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7ffe7cc472093c528c73750063e2ebfaa22cbd11463997e0a24827fae5bdd947",
+    "shaDepois": "2a25d348ad84d81a2b6f929506e6ae7a261726cd8028d8a0ff3d44790887a6b8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O rol do art. 20 inclui essas lideranças. Isso não significa igualdade de votos: líderes de partidos integrantes de bloco e o líder do Governo têm voz, mas não voto. Na falta de consenso, há maioria absoluta com ponderação pela expressão numérica das bancadas.",
+      "gatilho": "Colégio de Líderes",
+      "armadilhaBanca": "Não confundir composição com direitos de voto.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 20, caput e §§1º e 2º. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todos os integrantes do Colégio de Líderes têm, necessariamente, um voto de mesmo peso.",
+      "item": "O Colégio de Líderes é órgão consultivo e deliberativo de coordenação política da Câmara dos Deputados, composto pelos Líderes da Maioria, da Minoria, dos partidos políticos, dos blocos parlamentares e do Governo.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-11",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 17, I, s, e 20",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a436c3f8526ddffbeff6517bfee8671db2d29fd99bc9607a406809b69fd1bd94",
+    "shaDepois": "29ed240a9f38d6f395b50b22dbb21f345d4518c797b3e2c06b7020a41527a3e1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A organização da agenda envolve a Presidência, ouvido o Colégio de Líderes, mas não existe o veto geral descrito. Consultar e coordenar não transforma todo desacordo em impedimento jurídico à inclusão. Deve-se distinguir a competência da Presidência dos critérios internos de decisão do Colégio.",
+      "gatilho": "impedindo",
+      "armadilhaBanca": "Converter consulta política em veto obrigatório.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 17, I, s, e 20. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A participação do Colégio de Líderes na coordenação não institui veto geral a qualquer inclusão de matéria na pauta pelo Presidente.",
+      "item": "As deliberações do Colégio de Líderes possuem natureza vinculante sobre os atos da Presidência da Casa, impedindo o Presidente de incluir na Ordem do Dia matéria objeto de desacordo majoritário entre as lideranças.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-12",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 12: formação e dissolução de blocos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d4634ca7063d80020e8af7ffe2b695beb977438a04709806fa0ed73a7fcfc4b3",
+    "shaDepois": "fbd1b348c62a3c807e0397a832e230f15ac1d05405ffd69c24709f29d8d6108a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O bloco depende de deliberação das bancadas e admite desvinculação, sujeita às consequências regimentais. A referência à legislatura como limite de existência não significa proibição absoluta de saída. O erro está em transformar duração máxima em permanência compulsória.",
+      "gatilho": "proibido",
+      "armadilhaBanca": "Confundir limite de duração e vínculo irrevogável.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 12: formação e dissolução de blocos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A existência de bloco parlamentar não impede a desvinculação de partido, observadas as consequências regimentais.",
+      "item": "O Bloco Parlamentar constituído pela união de duas ou mais bancadas partidárias vigora durante toda a legislatura, sendo proibido aos partidos que o compõem dele se desvincular em qualquer momento.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-13",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 21: finalidade da Procuradoria Parlamentar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3ff97ffb928c3934beba891e5e8ff6a0f4e70e19cb9f9664ee6cd9e182885894",
+    "shaDepois": "2610f7bfbe17abec3ca84e7da532383adbd06ea63e24a0d6a222fbfc3b6fdd31",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A defesa é institucional: protege a Câmara, seus órgãos e membros em razão do mandato ou das funções. O nexo funcional distingue essa atuação da advocacia de interesses particulares sem relação com a Casa. A colaboração com a Mesa e os meios do §3º também delimitam sua atuação.",
+      "gatilho": "em razão",
+      "armadilhaBanca": "Identificar o nexo funcional da defesa.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 21: finalidade da Procuradoria Parlamentar. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Procuradoria Parlamentar presta defesa particular irrestrita a qualquer pessoa, independentemente de vínculo com a Câmara.",
+      "item": "A Procuradoria Parlamentar da Câmara dos Deputados tem por finalidade institucional a defesa da Câmara, de seus órgãos e de seus membros quando atingidos em sua honra ou na sua imagem pública em razão do exercício do mandato ou das funções institucionais.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-14",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 21-A, IV e V: Ouvidoria",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e8fcf6606dc3e6c5f5e049138700b7c266b56200b73fbf291c8d4ad95091681b",
+    "shaDepois": "e098c2068fa1911cba5fba944d2ccf5c7b8b5848ad4f1313fbf2c3cfca85972f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Ao receber denúncia de crime, a Ouvidoria Parlamentar passa a ter competência para instaurar e presidir diretamente o respectivo inquérito policial, em substituição aos órgãos de investigação.",
+      "justificativa": "ERRADO. A Ouvidoria pode propor a abertura de apuração e encaminhar denúncias a órgãos competentes. Isso não lhe transfere as atribuições desses órgãos para instaurar e presidir qualquer inquérito criminal. Receber denúncia e promover encaminhamento são etapas distintas da investigação penal.",
+      "gatilho": "diretamente",
+      "armadilhaBanca": "Confundir encaminhamento com competência investigatória.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 21-A, IV e V: Ouvidoria. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Ouvidoria pode encaminhar denúncias à Polícia Federal e ao Ministério Público, sem se substituir a eles na investigação penal.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-15",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "codigoEticaCamara"
+    ],
+    "localizador": "competência do Conselho e procedimento disciplinar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "44dbd95b5b3e96e3f71a3d55bd503bfa1ba7d7533f5af89daadde68e998367dc",
+    "shaDepois": "ac5a48ba27d1c156510076cb85dffe70c19d6e7a078e617df04b9be5337e8883",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O Conselho de Ética e Decoro Parlamentar atua na instauração e instrução dos procedimentos disciplinares contra deputados, observadas as hipóteses, a iniciativa e as etapas previstas no Código de Ética.",
+      "justificativa": "CERTO. O Conselho atua nos procedimentos disciplinares e na instrução conforme as hipóteses e etapas do Código. Sua competência não autoriza instaurar qualquer processo sem provocação exigida, nem aplicar sozinho perda de mandato. Investigar, instruir, emitir parecer e decidir são atos com competências próprias.",
+      "gatilho": "instrução",
+      "armadilhaBanca": "Distinguir competência do órgão e requisitos do procedimento.",
+      "fonte": "Câmara dos Deputados — Código de Ética e Decoro Parlamentar — competência do Conselho e procedimento disciplinar. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A competência instrutória do Conselho dispensa a observância da iniciativa e das etapas previstas no Código de Ética.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-16",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 55, II e §2º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fd4236fcd675abb9012ac10773e14947159f689d10a16608971ce426a6459d50",
+    "shaDepois": "fed22d4e7381fff7eccc882ef038f5780eeb8975acd4efe32f24bf2eae4333d9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Na quebra de decoro, a perda de mandato depende da decisão da Câmara pelo quórum constitucional, assegurada ampla defesa. O Conselho instrui e apresenta suas conclusões, mas não substitui a deliberação plenária. Parecer recomendando a sanção não é, por si só, cassação.",
+      "gatilho": "dispensando",
+      "armadilhaBanca": "Trocar órgão de instrução e órgão decisório.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 55, II e §2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A perda de mandato por quebra de decoro depende da deliberação da Câmara na forma constitucional, e não apenas do parecer do Conselho.",
+      "item": "A perda de mandato de Deputado Federal por quebra de decoro parlamentar pode ser decretada sumariamente pelo Conselho de Ética, dispensando a submissão do parecer ao Plenário da Câmara dos Deputados.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-17",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 10, I, e 89: comunicações de liderança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b1bbc37608163e70f717d59d91fb2aab816cab4c1e9ab4e3cbf09b78fa89ab42",
+    "shaDepois": "1aa72ae22ccb77b47d18eff8f103978eb8375d00d38d95ba5e7e6918c607d03e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A comunicação de liderança é uma prerrogativa regimental, exercida dentro das condições e do tempo próprios. A expressão em qualquer fase não autoriza ignorar momento de votação, disciplina da palavra ou limites específicos. A ressalva impede a leitura como interrupção ilimitada da sessão.",
+      "gatilho": "limites regimentais",
+      "armadilhaBanca": "Não apagar os limites de uma prerrogativa.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 10, I, e 89: comunicações de liderança. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A comunicação de liderança permite interromper qualquer votação sem limite de tempo ou condição regimental.",
+      "item": "As lideranças parlamentares têm direito ao uso da palavra em qualquer fase da sessão, mediante o instituto da \"comunicação de liderança\", observados os tempos e limites regimentais fixados pelo RICD.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-18",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 9º e 10: representação e prerrogativas dos líderes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "326058320b22d7c90ff78ad91a5a470d6777a9b40540720125f0694ef3465d24",
+    "shaDepois": "62b86a200cba4b5d9d36127bfb00823905bc0296878985f6aefc2675b4a197a6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O deputado que não integre bancada adquire automaticamente, nessa condição individual, todas as prerrogativas regimentais atribuídas ao líder de partido ou bloco.",
+      "justificativa": "ERRADO. As prerrogativas de liderança derivam da representação e das condições regimentais da bancada. A condição individual de deputado sem bancada não institui automaticamente liderança com os mesmos direitos de líder partidário. Representação parlamentar individual e representação de bancada não são equivalentes.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Transferir direito da bancada ao parlamentar isolado.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 9º e 10: representação e prerrogativas dos líderes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O deputado sem bancada não adquire automaticamente todas as prerrogativas regimentais de líder partidário.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-19",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 267, 269, §2º, e 270",
+    "nota": "C corrigido para E: a exclusividade material de servidores efetivos contraria as possibilidades do art. 270.",
+    "shaAntes": "8270aabed8768945b9751767a156835ba4f0e3bae90571741a94eb354880ae71",
+    "shaDepois": "5ec1bbfb736fc968acc4afba2bee3387aa0fc46301862fac1c39a047f187add7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O art. 270 atribui o policiamento à Mesa sob a direção do Presidente, mas admite segurança própria ou contratada e, se necessário, efetivos policiais requisitados. O art. 269 admite cooperação técnica em inquérito. Competência institucional privativa não significa execução material exclusiva por servidores efetivos.",
+      "gatilho": "privativamente por seus servidores efetivos",
+      "armadilhaBanca": "Confundir titularidade da competência e exclusividade dos executores.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 267, 269, §2º, e 270. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O policiamento compete à Mesa sob a direção do Presidente, admitidos os meios e a cooperação previstos no RICD.",
+      "versao_errada": "",
+      "item": "A polícia da Câmara dos Deputados é exercida privativamente por seus servidores efetivos do Departamento de Polícia Legislativa (DEPOL), sob a direção da Mesa e a supervisão direta do Presidente da Câmara.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-20",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 269 e 270: polícia e cooperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a951b9792edf08f57efa4e412336ef36d5216ee8e150f3ac8077208980040143",
+    "shaDepois": "b3175ab1a9dcad658b5c1c835e6e981d63c57dca2b56bf0ae7ad3712035f38af",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A competência própria da Câmara para seu policiamento torna suas dependências imunes ao cumprimento de qualquer mandado judicial, ainda que regularmente expedido por autoridade competente.",
+      "justificativa": "ERRADO. Autonomia do policiamento legislativo não cria imunidade geral a decisões judiciais. A execução deve observar autoridade competente, direitos e procedimentos aplicáveis, sem converter a direção interna em poder para ignorar mandados válidos. A nova redação evita presumir uma regra universal de ingresso sem fonte específica.",
+      "gatilho": "imune",
+      "armadilhaBanca": "Transformar autonomia institucional em imunidade jurisdicional.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 269 e 270: polícia e cooperação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A autonomia policial da Câmara não dispensa o cumprimento de decisões judiciais válidas pelos meios juridicamente adequados.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-21",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 56, I: investidura em cargo de Ministro",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0247f90af8734e1cca01942499d5f4190b9548e964fe8500ee6041e01988e017",
+    "shaDepois": "89d20bd662e67f6c0256862aa410648f612fc4a62074ba725a696609661399e5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A investidura de deputado em cargo de Ministro de Estado assegura, pela não perda do mandato prevista no art. 56, o exercício simultâneo e integral de suas funções parlamentares e ministeriais.",
+      "justificativa": "ERRADO. Não perder o mandato ao assumir Ministério não significa exercer simultaneamente todas as funções parlamentares. A investidura implica afastamento do exercício parlamentar na hipótese constitucional. Separe titularidade preservada do mandato e exercício efetivo, sem deduzir acumulação plena de cargos da regra de não perda.",
+      "gatilho": "exercício simultâneo",
+      "armadilhaBanca": "Confundir conservação do mandato e acumulação do exercício.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 56, I: investidura em cargo de Ministro — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A preservação do mandato na investidura como Ministro de Estado não assegura exercício parlamentar simultâneo.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-22",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 20-A, caput e §§2º e 8º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cb5f7da116dc270951809ab8d64b2375d15c5932aa25b23fdec968972570165c",
+    "shaDepois": "9161221492fa996a35283b011a41341af3a6f95261dec80b4dad9ca188f16563",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A Secretaria da Mulher compreende a Procuradoria da Mulher e a Coordenadoria dos Direitos da Mulher, sem subordinação entre elas, e conta também com outras estruturas previstas no art. 20-A do RICD.",
+      "justificativa": "CERTO. O caput distingue Procuradoria e Coordenadoria sem subordinação entre elas. A Secretaria conta também com Comitê de Defesa da Mulher e Observatório, nos parágrafos do artigo. Reconhecer os dois órgãos do caput não autoriza afirmar que esgotam a estrutura atual.",
+      "gatilho": "sem subordinação",
+      "armadilhaBanca": "Distinguir composição do caput e órgãos adicionais.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 20-A, caput e §§2º e 8º. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Procuradoria da Mulher é subordinada à Coordenadoria dos Direitos da Mulher, que esgota a estrutura da Secretaria.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-23",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 7º: eleição da Mesa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5ca14c639db9623998c478f3660c6c55550706be1fb29705110ed1f5b2b0b95b",
+    "shaDepois": "dbf47f4c2c1cbfedbb115566d497e64f80311f5b12a513193d62ac0044efd5d9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O primeiro escrutínio exige maioria absoluta de votos, presente a maioria absoluta dos deputados; no segundo, vale maioria simples, conforme o artigo. Quórum de presença e critério de eleição são medidas diferentes. A eleição do Presidente precede a dos demais cargos e o escrutínio é secreto.",
+      "gatilho": "primeiro escrutínio",
+      "armadilhaBanca": "Trocar os requisitos do primeiro e do segundo escrutínios.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 7º: eleição da Mesa. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A eleição do Presidente da Câmara exige apenas maioria simples de votos já no primeiro escrutínio.",
+      "item": "A eleição dos membros da Mesa da Câmara dos Deputados realiza-se em votação secreta, exigindo-se maioria absoluta de votos no primeiro escrutínio para a eleição do Presidente.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-24",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 8º, §2º: vacância na Mesa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "493d76015efad680b3378f67657f73902dec9d8193cfbd1bf7b62701c163cf8d",
+    "shaDepois": "23867204c2eb5ad214f0c729099ac15d4aa17850cadd75008bb502a20aa91588",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Até 30 de novembro do segundo ano do mandato, a vaga é preenchida por eleição dentro de cinco sessões. Depois dessa data, a Mesa designa um titular para responder pelo cargo. O marco não é todo o último semestre e o prazo não é de 48 horas.",
+      "gatilho": "quarenta e oito horas",
+      "armadilhaBanca": "Trocar prazo e marco temporal da vacância.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 8º, §2º: vacância na Mesa. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Vaga ocorrida até 30 de novembro do segundo ano da Mesa é preenchida por eleição dentro de cinco sessões; depois, há designação pela Mesa.",
+      "item": "A vaga ocorrida na Mesa da Câmara será preenchida mediante eleição convocada em até quarenta e oito horas, se a vacância ocorrer no último semestre do mandato da Mesa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-25",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 21: defesa institucional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b38d1e4ede671553de2b9ab9a22ca47b8d35b4c0c2469de4947cddc0023b1ca8",
+    "shaDepois": "2dfdcf98aeda6c7d7d8a8817349ab55165c658e601191d0ce56f6afc7ca7fb9a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A finalidade exige vínculo entre a ofensa e o mandato ou a função institucional. O tipo de medida judicial não basta para ampliar a missão da Procuradoria a defesa geral de terceiros. Antes de escolher o instrumento, verifique quem é defendido e por qual razão institucional.",
+      "gatilho": "sem qualquer relação",
+      "armadilhaBanca": "Ampliar o destinatário da proteção sem nexo funcional.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 21: defesa institucional. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A atuação da Procuradoria Parlamentar deve observar seu nexo de defesa institucional, não abrangendo indistintamente interesses de terceiros.",
+      "item": "A Procuradoria Parlamentar pode ser acionada para ingressar com pedido de habeas corpus oumandado de segurança em benefício de terceiros sem qualquer relação com a função institucional da Câmara.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-26",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 22: comissões permanentes e temporárias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3850950ad2ecf172e94a019e55b0e0e8cbe609afd2e6398c079d37e0e895b65a",
+    "shaDepois": "6c8d6c9ba88234f079d539562ffd075b480ef9b59e676a059ff95f9928e490ef",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Permanentes integram a estrutura e subsistem pelas legislaturas. Temporárias têm objeto e duração delimitados: podem acabar antes da legislatura pelo cumprimento de sua finalidade ou término do prazo. O item não afirma que toda temporária deve durar até o último dia da legislatura.",
+      "gatilho": "término da legislatura",
+      "armadilhaBanca": "Distinguir prazo máximo e extinção antecipada.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 22: comissões permanentes e temporárias. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Comissão temporária sempre deve permanecer ativa até o fim da legislatura, mesmo após cumprir sua finalidade.",
+      "item": "As Comissões da Câmara dos Deputados são Permanentes (aquelas que subsistem através das legislaturas) e Temporárias (as que se extinguem com o término da legislatura ou antes dele, se alcançado o fim para que foram criadas).",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-27",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "art. 58, §2º, I; RICD, art. 24, II",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "366cb0f421a1c457efee3bc982451472eaeba8100daa4e0b0096d706ea5b655a",
+    "shaDepois": "ddecb418c42697b1461208ed1331aec61759b5e2f9a2a2eb0496b71883fb4bb5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Há projetos sujeitos à apreciação conclusiva das comissões, ressalvadas as exclusões e o recurso ao Plenário. A Constituição admite dispensar a deliberação plenária nessas hipóteses. Parecer consultivo e decisão conclusiva são funções distintas que podem coexistir no sistema de comissões.",
+      "gatilho": "meramente informativo",
+      "armadilhaBanca": "Negar a competência conclusiva das comissões.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §2º, I; RICD, art. 24, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "As comissões podem deliberar conclusivamente sobre projetos nas hipóteses admitidas, ressalvado o recurso e as exclusões regimentais.",
+      "item": "A apreciação de proposições pelas comissões tem caráter meramente informativo, sendo expressamente nula a aprovação de qualquer projeto de lei sem a manifestação e o voto soberano do Plenário da Câmara dos Deputados.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-28",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 58, §1º, e 132, §2º: recurso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b701cfe66c190588110d78641bca17ca18e9758d7fc73989389a084a8c4f0284",
+    "shaDepois": "1ab3b3cd630cbba8225e85f0f8af5efd354f9160402973f1cdc3aa897a5d3c58",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O apoio mínimo e o prazo devem ser satisfeitos juntos. O prazo de cinco sessões observa a contagem regimental a partir do anúncio pertinente, não uma estimativa de cinco dias corridos. O recurso é o mecanismo de passagem da apreciação conclusiva para a plenária, não uma nova iniciativa de projeto.",
+      "gatilho": "um décimo",
+      "armadilhaBanca": "Separar prazo, apoio e efeito do recurso.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 58, §1º, e 132, §2º: recurso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O recurso contra decisão conclusiva independe de apoio mínimo e pode ser interposto a qualquer tempo.",
+      "item": "O recurso contra a aprovação conclusiva de projeto de lei pelas comissões permanentes deve ser subscrito por, no mínimo, um décimo dos membros da Câmara dos Deputados, no prazo regimental de cinco sessões, para que a matéria seja submetida ao Plenário.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-29",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 32, IV, a, 34 e 54",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "83b6e753ca9ddfb277c0fc9d2dd95e0aaa72bbf9b8097afcb05d0f3490069cf1",
+    "shaDepois": "61bf42f06627a1887949d00982ac3383a4fcfb481107e7fdc6f098d00fa7ead8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A CCJC examina constitucionalidade, juridicidade e técnica legislativa nos termos da repartição regimental de competências; o efeito terminativo previsto no art. 54, I, refere-se à constitucionalidade e à juridicidade.",
+      "justificativa": "CERTO. A CCJC tem atribuições de constitucionalidade, juridicidade e técnica legislativa, mas a distribuição observa competências e procedimentos próprios, incluindo comissão especial. Tampouco todo reparo de técnica tem efeito terminativo: o art. 54 delimita esse efeito à constitucionalidade e juridicidade.",
+      "gatilho": "repartição regimental",
+      "armadilhaBanca": "Não equiparar competência técnica e efeito terminativo.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 32, IV, a, 34 e 54. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer observação da CCJC sobre técnica legislativa constitui necessariamente parecer terminativo.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-30",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 54, I, e 58: parecer terminativo e recurso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "06e500b6c6e3dabee1743cd3df80a7ee9b25d3bd878c33bc758358a43248cb42",
+    "shaDepois": "16f434203561382bb2d609dbcd7680d848055be879c125467093974109c10c5a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O parecer terminativo da CCJC pela inconstitucionalidade ou injuridicidade pode levar ao arquivamento da proposição, observado o procedimento e ressalvado o recurso regimental ao Plenário.",
+      "justificativa": "CERTO. O parecer terminativo desfavorável sujeita a proposição ao procedimento de anúncio e ao recurso regimental. Não é a unanimidade que cria esse efeito: o fundamento relevante é a conclusão sobre constitucionalidade ou juridicidade. Enquanto cabível o recurso, não se deve tratar o arquivamento como absolutamente irrecorrível.",
+      "gatilho": "recurso",
+      "armadilhaBanca": "Trocar fundamento do efeito e unanimidade.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 54, I, e 58: parecer terminativo e recurso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O parecer terminativo desfavorável da CCJC é sempre irrecorrível e só tem esse efeito quando unânime.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-31",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 54, II e III: admissibilidade",
+    "nota": "C corrigido para E: exclusividade contrariada pelo art. 54, III.",
+    "shaAntes": "fb77e9d6023b150c605421556a85a749450bffe91427cd5ff912ec7058a2eeaf",
+    "shaDepois": "ac865bdfa4fded052f0ccbc830b6c9fccb60321fa79125aeeb63d73af5c1fa20",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. A CFT emite parecer terminativo sobre adequação e compatibilidade financeira ou orçamentária. Entretanto, o inciso III também atribui à comissão especial o exame das duas preliminares nos casos próprios. O erro está em tornar exclusiva uma atribuição que o Regimento também prevê para outro órgão.",
+      "gatilho": "privativa",
+      "armadilhaBanca": "Apagar a competência da comissão especial.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 54, II e III: admissibilidade. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A admissibilidade financeira e orçamentária pode ser examinada pela CFT ou pela comissão especial competente, nas hipóteses regimentais.",
+      "versao_errada": "",
+      "item": "A Comissão de Finanças e Tributação (CFT) possui competência privativa para examinar a admissibilidade orçamentária e financeira das proposições, sendo terminativo o seu parecer que concluir pela incompatibilidade ou inadequação orçamentária.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-32",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 25 a 27: composição das comissões",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1c1e91c30dc4e4af7acf94b56c5cb6db177bdc093864c03c25b91318ae5a11fe",
+    "shaDepois": "ba3d7446f88939bfd0d6609b54bd59bd58540e666ffeffa92c9f592d60ec5f7b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A Constituição não fixa 27 titulares para cada comissão permanente. O RICD disciplina a definição de composição e a distribuição proporcional de vagas. Proporcionalidade partidária dentro do órgão não equivale a exigir tamanho idêntico de todos os órgãos.",
+      "gatilho": "mesmo número exato",
+      "armadilhaBanca": "Confundir proporcionalidade e tamanho fixo.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 25 a 27: composição das comissões. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O tamanho das comissões é definido segundo o RICD, com distribuição proporcional de vagas, e não por uma composição constitucional uniforme de 27 titulares.",
+      "item": "Todas as Comissões Permanentes da Câmara dos Deputados contam com o mesmo número exato de membros, fixado pela Constituição em vinte e sete deputados titulares.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-33",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 39, caput e §5º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d5a017791a878765ceaba228de4e99f51fa2544d67fb73362dd4ea8fde34852e",
+    "shaDepois": "6ddd1fc1f991a3fd719790a893ddf83fc2220607d33a7e45c63c1232a3d61f51",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Os membros das comissões elegem Presidente e três Vice-Presidentes, com mandato até a posse dos novos eleitos no ano subsequente, vedada a reeleição, nos termos do art. 39 do RICD.",
+      "justificativa": "CERTO. O mandato alcança a posse dos novos eleitos no ano subsequente e o artigo veda reeleição. Suplentes não podem ser eleitos para a Presidência ou Vice-Presidência da comissão. A redação reproduz o marco regimental sem criar uma proibição adicional para qualquer retorno futuro no restante da legislatura.",
+      "gatilho": "ano subsequente",
+      "armadilhaBanca": "Distinguir elegibilidade e duração do mandato.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 39, caput e §5º. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Suplentes podem ser eleitos para a Presidência da comissão em igualdade com os titulares.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-34",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 56, §2º: empate em comissão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "766a8ce67e7fe916ecab28ddbc2f32702772087bf88ca29534a4e19173345577",
+    "shaDepois": "382045bb0f2c98423965b1a4be807e87af8088b0621f55331a38e81017e2d597",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Em caso de empate nas deliberações da comissão, prevalece o voto do relator. Não se atribui ao Presidente um segundo voto de desempate somado ao ordinário. A regra não deve ser confundida com as hipóteses de voto do Presidente da Câmara no Plenário.",
+      "gatilho": "voto de desempate",
+      "armadilhaBanca": "Transportar voto de desempate de outro órgão.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 56, §2º: empate em comissão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Em caso de empate na comissão, prevalece o voto do relator, conforme o art. 56, §2º.",
+      "item": "O Presidente de uma Comissão Permanente tem direito a proferir o voto ordinário de bancada e, persistindo o empate, proferir o voto de desempate (voto de minerva).",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-35",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 34, II, redação da Resolução 1/2023",
+    "nota": "C corrigido para E: critério atualizado pela Resolução 1/2023 é mais de quatro comissões de mérito.",
+    "shaAntes": "1ccbcb8197f069848f71554bfcc53127f5e2bea64ed83390e9d09ca9fe217802",
+    "shaDepois": "58bdd3f8ca7c0bc65b114b04d296ddce424cc97a151367674b440dc618f7ef6b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. A redação vigente prevê matéria de competência de mais de quatro comissões de mérito. Quatro comissões, portanto, não satisfazem esse critério. Não basta contar todos os órgãos do despacho: o dispositivo se refere aos que devam pronunciar-se quanto ao mérito.",
+      "gatilho": "mais de três",
+      "armadilhaBanca": "Cobrar alteração normativa de número e base de contagem.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 34, II, redação da Resolução 1/2023. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Essa hipótese de comissão especial exige competência de mais de quatro comissões que devam pronunciar-se quanto ao mérito.",
+      "versao_errada": "",
+      "item": "As Comissões Especiais são constituídas pelo Presidente da Câmara para dar parecer sobre propostas de emenda à Constituição, projetos de código oumatérias que envolvam a competência de mais de três comissões de mérito.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-36",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 57: deliberação sobre o parecer do relator",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cd2161641022d5d0513c8f24966ff054e0a12aa2f446eb977d876b709b0955cb",
+    "shaDepois": "79ec30057d16fe155a68a6bd2620a29555bb3026843e0f64d7669eebaec5fc73",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O voto do relator é submetido ao colegiado. Se vencido, é preciso produzir o parecer correspondente à decisão da comissão, segundo o procedimento próprio; não extinguir automaticamente a proposição. Separe relatório individual, parecer aprovado e resultado da tramitação do projeto.",
+      "gatilho": "extinta",
+      "armadilhaBanca": "Confundir rejeição do parecer e extinção do projeto.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 57: deliberação sobre o parecer do relator. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A rejeição do voto do relator não extingue automaticamente a proposição; o parecer da comissão deve refletir a deliberação do colegiado.",
+      "item": "O parecer do relator em comissão permanente que for rejeitado pela maioria dos membros será imediatamente arquivado, e a proposição legislativa será extinta sumariamente.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-37",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 57, XVI: vista",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0e717242edf3df7d3699d071697060dc1394078df15cc571355d4a59ea5d948d",
+    "shaDepois": "b242eb23ff7fcdc2b9f6a45dbec6339e20f78bd17f5e2559c7a3edf5c0b10e0b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Em matéria sem regime de urgência, concede-se vista por duas sessões ao membro da comissão que a requerer; pedidos simultâneos são atendidos conjuntamente, na própria comissão, vedados pedidos sucessivos.",
+      "justificativa": "CERTO. A vista é de duas sessões quando a matéria não está em urgência. Pedidos simultâneos são conjuntos, na própria comissão, e não se admitem pedidos sucessivos. A condição sobre o regime de tramitação evita ensinar que a vista é invariável em qualquer procedimento.",
+      "gatilho": "sem regime de urgência",
+      "armadilhaBanca": "Distinguir vista conjunta e soma de prazos.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 57, XVI: vista. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Pedidos simultâneos de vista autorizam prazos sucessivos de duas sessões para cada membro.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-38",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 57, XVI: limite dos pedidos de vista",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "141309238f08d45fa569dfa46b566a3c1e04299b2278a8eabd0894d29a59e445",
+    "shaDepois": "9ebb8557249a4e982ff082dd5017c170b99f8579306e1bacf02238dbf5d8889a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Se vários membros requererem vista da mesma matéria, cada um terá direito sucessivamente a duas sessões, iniciadas somente depois de encerrado o prazo do membro anterior.",
+      "justificativa": "ERRADO. O Regimento veda pedidos sucessivos; os simultâneos recebem vista conjunta. A faculdade de exame não cria uma fila de prazos individuais capaz de prolongar indefinidamente a tramitação. O prazo também depende de a matéria não se encontrar sob regime de urgência.",
+      "gatilho": "sucessivamente",
+      "armadilhaBanca": "Multiplicar prazo individual por quantidade de requerentes.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 57, XVI: limite dos pedidos de vista. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Os pedidos simultâneos são atendidos em vista conjunta, sem concessão de vistas sucessivas.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-39",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 255 e 256: audiência pública",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cdd8ca65c9e523fd00b5e9a064cc3669967fd21342560c7410adc89c5ce86807",
+    "shaDepois": "e3bad02c987f177b8f930dcf0e1a143b7241243a94947dccece648442a1e8b57",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A audiência fornece subsídios ao exame da matéria e abre espaço ao debate público. Ouvir especialistas e representantes não transfere a eles a competência de votar o parecer da comissão. Sua função instrutória deve ser distinguida da deliberação reservada aos parlamentares competentes.",
+      "gatilho": "instruir",
+      "armadilhaBanca": "Distinguir participação na instrução e poder de voto.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 255 e 256: audiência pública. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os participantes externos da audiência substituem os membros da comissão na votação do parecer.",
+      "item": "As audiências públicas realizadas pelas comissões permanentes destinam-se a instruir matéria legislativa em trâmite ou debater assuntos de interesse público relevante, podendo contar com a presença de especialistas, autoridades e representantes da sociedade civil.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-40",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 53: prerrogativas parlamentares",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d635614ec1e6c56fd05d1a334e1ce3c5995df9a042f749652f868d5612d33ba3",
+    "shaDepois": "4da700f1ed0c6a692a654566e2fa47830cd028d8498d07e6d0144f1ba94a8b8e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O cidadão convidado para falar em audiência pública passa, em razão dessa participação, a ter o mesmo foro por prerrogativa de função de um deputado federal.",
+      "justificativa": "ERRADO. Prerrogativas do mandato não são transmitidas a cidadãos pela participação em audiência. Contribuir para a instrução não altera automaticamente o juiz competente nem cria imunidade material parlamentar. A condição relevante é a titularidade do mandato e seu regime, não apenas falar em recinto legislativo.",
+      "gatilho": "foro",
+      "armadilhaBanca": "Transferir prerrogativa do cargo a quem participa do ato.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 53: prerrogativas parlamentares — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A participação de cidadão em audiência pública não lhe confere, por si só, foro por prerrogativa de função.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-41",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 22, II, e 35: CPI temporária",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4269bfa9c24d3c91bdf170afe03442008ed46b578ed061f0cc3c870849c52070",
+    "shaDepois": "b8f52524c5bb1f780f9aa3aa37f2b38cf62b29ca61a7eb45ab3381c0165bd776",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A sessão legislativa é anual; a legislatura compreende quatro anos. A CPI tem prazo certo e se submete ao regime das comissões temporárias, mas não há extinção automática apenas por terminar o ano parlamentar. Prazo próprio e limite da legislatura não podem ser substituídos pelo final da sessão anual.",
+      "gatilho": "sessão legislativa",
+      "armadilhaBanca": "Trocar sessão legislativa e legislatura.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 22, II, e 35: CPI temporária. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O encerramento da sessão legislativa anual não é, por si só, causa automática de extinção de toda CPI.",
+      "item": "As Comissões Parlamentares de Inquérito constituídas no âmbito da Câmara dos Deputados extinguem-se com o término do prazo deliberado pelo Plenário ou no encerramento da sessão legislativa ordinária em que foram criadas.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-42",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 50 e 56, §2º: trabalhos e deliberação",
+    "nota": "C corrigido para E: art. 50 prevê metade, não metade mais um, e contém exceções.",
+    "shaAntes": "7a8cf9b2db78a225b6ae49842dbf3f4f182554a3756cf88c7991a207d8e9a8e6",
+    "shaDepois": "f98a4a33577945a474e8947b9e8a86364d98322408c4975a571f16514bede276",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O início dos trabalhos exige pelo menos metade dos membros; o art. 50 admite qualquer número em hipóteses sem deliberação e de instrução. Para deliberar, exige-se presença da maioria absoluta e maioria dos votos, salvo regra constitucional. O item transforma quóruns diferentes em uma exigência única.",
+      "gatilho": "metade mais um",
+      "armadilhaBanca": "Confundir início dos trabalhos e deliberação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 50 e 56, §2º: trabalhos e deliberação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O art. 50 exige pelo menos metade para iniciar trabalhos, com as exceções ali previstas; a deliberação observa o art. 56, §2º.",
+      "versao_errada": "",
+      "item": "O quórum para abertura dos trabalhos de reunião de Comissão Permanente é de metade mais um de seus membros, e para votação de proposições exige-se a presença da maioria absoluta de seus integrantes.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-43",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 56 e 185: forma de votação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "44bc26da6572d7e65e756b5561ee7a381f817475b5f95f39a4a85e3018e6095b",
+    "shaDepois": "280515fadec7fa6237a5d14d8ed0a61bd07f98a5878c0fc856d6cafe02e0af00",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A chamada nominal não é o procedimento geral obrigatório para toda deliberação de comissão. O processo simbólico é a regra geral de votação de proposições, com hipóteses e verificações que levam ao nominal. Maioria de votos não determina, por si, que o registro deva ocorrer por chamada alfabética.",
+      "gatilho": "em regra, por voto nominal",
+      "armadilhaBanca": "Confundir critério de aprovação e processo de votação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 56 e 185: forma de votação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A votação nominal não é o procedimento geral obrigatório de todas as deliberações das comissões.",
+      "item": "Nas comissões, as deliberações são tomadas, em regra, por voto nominal através de chamada alfabética de todos os deputados titulares.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-44",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 118, §4º: substitutiva e substitutivo",
+    "nota": "C corrigido para E: definição do art. 118, §4º, distingue substitutiva de substitutivo.",
+    "shaAntes": "307a0fccae43c7dca964afbea08eb36d7bef6b5ca1a0afca464396962d0b6548",
+    "shaDepois": "b6b98f96860a4b8c958c0d8d4174736818d9dc43c13fd7c65317661f9e761de6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Emenda substitutiva é sucedânea de parte de outra proposição. Recebe o nome de substitutivo quando altera a proposição, substancial ou formalmente, em seu conjunto. O item define a categoria inteira por uma hipótese específica e apaga a substituição parcial prevista no dispositivo.",
+      "gatilho": "integralmente",
+      "armadilhaBanca": "Trocar a categoria geral e sua hipótese integral.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 118, §4º: substitutiva e substitutivo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A emenda substitutiva pode substituir parte da proposição; chama-se substitutivo quando a altera em seu conjunto.",
+      "versao_errada": "",
+      "item": "A emenda substitutiva apresentada por deputado a um projeto de lei em comissão é aquela que visa a substituir integralmente o texto da proposição original.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-45",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 118, §§2º e 6º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e16cdda9dbbb073052b32f6267d3230f35a895b6f80e1bdc59ba0c3c3d82e1b9",
+    "shaDepois": "ebd7ff70fab45fafa517766bbee5b62bece6fb82704719962e61c17d19239ab2",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A aditiva acrescenta; a supressiva manda erradicar parte da proposição. O critério é a operação normativa realizada, não a intenção política de simplificar ou melhorar o texto. Identifique se houve inserção ou retirada antes de classificar a emenda.",
+      "gatilho": "retira",
+      "armadilhaBanca": "Inverter categorias pela operação textual.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 118, §§2º e 6º. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A emenda supressiva retira parte da proposição, enquanto a aditiva acrescenta texto.",
+      "item": "A emenda aditiva é aquela que retira expressamente dispositivos do texto da proposição original para enxugar o texto da futura lei.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-46",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 118, §7º: subemenda",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3898fd271f6a55204d7dcddfae7a6094c37e4b5edda36a707d8399cd3d6f3400",
+    "shaDepois": "d1ff20c0bfa91b04e229c99e2daac21af57a799be90a777828a7bd410fadfbb8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Subemenda é a emenda apresentada em Comissão a outra emenda, observadas as modalidades e a ressalva do art. 118, §7º, do RICD.",
+      "justificativa": "CERTO. O objeto imediato da subemenda é outra emenda, e o dispositivo trata de sua apresentação em comissão. Ela pode ser supressiva, substitutiva ou aditiva, com a ressalva expressa para supressiva. Não basta qualquer mudança ao projeto principal para caracterizar subemenda.",
+      "gatilho": "em Comissão",
+      "armadilhaBanca": "Identificar o objeto sobre o qual incide a alteração.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 118, §7º: subemenda. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda emenda diretamente ao texto original do projeto é, por isso só, uma subemenda.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-47",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 24, II, c; art. 252: iniciativa popular",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bdf9cf7ec5e419247f9d79d10092c75fc6b525b5690e438b110f3aaa1f31ebc4",
+    "shaDepois": "b68379e277b4798c27f31858ee09fc6fef1e198cf514b7a3cd4870cf9a466b87",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Por serem excluídos da apreciação conclusiva, os projetos de iniciativa popular seguem diretamente para votação do Plenário, o que dispensa sua instrução pelas comissões competentes.",
+      "justificativa": "ERRADO. A iniciativa popular está excluída da decisão conclusiva, mas isso não dispensa a instrução pelas comissões. Exigir deliberação do Plenário e eliminar etapas anteriores são efeitos diferentes. O erro não é dizer que há apreciação plenária: é deduzir que ela ocorre sem tramitação e pareceres pertinentes.",
+      "gatilho": "dispensa",
+      "armadilhaBanca": "Confundir exclusão da conclusividade e dispensa de instrução.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 24, II, c; art. 252: iniciativa popular. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Projetos de iniciativa popular não têm decisão conclusiva, mas passam pela instrução das comissões antes da deliberação plenária.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-48",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 32, XI: fiscalização financeira e controle",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d87b4490c56efc73ce7a4f144f370fc4e438d8033fdd25d0fdd15754698c12fb",
+    "shaDepois": "d22acefbdf1f856d71283a0623b5ec0d9fadad98060931c5978bcfbcd842685f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A fiscalização alcança atos do Executivo, inclusive da administração indireta, e pode envolver o auxílio técnico do TCU nos instrumentos próprios. A CFFC não se confunde com a CFT: fiscalização de atos não é a mesma função de admissibilidade financeira de proposições.",
+      "gatilho": "administração indireta",
+      "armadilhaBanca": "Trocar fiscalização de atos e admissibilidade de proposições.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 32, XI: fiscalização financeira e controle. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A CFFC se limita à admissibilidade financeira de projetos e não fiscaliza atos da administração indireta.",
+      "item": "A Comissão de Fiscalização Financeira e Controle (CFFC) possui competência para fiscalizar os atos do Poder Executivo, incluídos os da administração indireta, em cooperação com o Tribunal de Contas da União.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-49",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "art. 50, caput: convocação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4ccde1f95bf00e29510759f36bee9414698d6731492aaa45c2be8b319d209208",
+    "shaDepois": "6f7ebf24137409b5c52c4069e9d4ee07395f9cb2759e38b747429bb717dc7d71",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Câmara, Senado e suas comissões podem convocar Ministro para informações sobre assunto determinado. Ausência sem justificativa adequada configura a consequência constitucional indicada. Convocação compulsória e convite para exposição voluntária não são equivalentes, nem se estendem indistintamente a qualquer autoridade.",
+      "gatilho": "ausência injustificada",
+      "armadilhaBanca": "Distinguir convocação, convite e ausência justificada.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 50, caput: convocação — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O comparecimento do Ministro regularmente convocado é sempre facultativo, ainda que não apresente justificativa.",
+      "item": "As comissões permanentes da Câmara podem convocar Ministros de Estado para prestar pessoalmente informações sobre assunto previamente determinado, importando crime de responsabilidade a ausência injustificada.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-50",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "art. 50: destinatários da convocação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "27e063842284f52654185c7a24a91e40b7268ab1a0b94938ce3c1195d1afd698",
+    "shaDepois": "5755f639d97b4cf58b265c208f5fabf2edba04addc7c4732b5b6677a982e96e2",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A competência de convocação do art. 50 não transforma ministro do STF em Ministro de Estado. O objeto de justificar decisões judiciais também exige respeito à separação de poderes e aos meios processuais de revisão. A palavra ministro não cria identidade entre cargos de Poderes diferentes.",
+      "gatilho": "Supremo Tribunal Federal",
+      "armadilhaBanca": "Explorar homonímia entre cargos de Poderes distintos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 50: destinatários da convocação — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A competência de convocação de Ministros de Estado não se estende, por identidade de título, aos ministros do STF para justificar decisões judiciais.",
+      "item": "Ministros do Supremo Tribunal Federal podem ser convocados coercitivamente por comissões da Câmara dos Deputados para justificar o teor de suas decisões judiciais transitadas em julgado.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-51",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 48, caput e §§1º e 2º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c6f79dc55a8501f49ee3ec3910d6f3b5d735b82ba485e80f1a2d1ef39c069dbe",
+    "shaDepois": "c7dfe730b2ff44a57c2519421b1115e596169522868ea8751fd964333137ba4d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "As reuniões das comissões são públicas como regra; o art. 48 do RICD admite deliberação em contrário e disciplina reuniões reservadas ou secretas.",
+      "justificativa": "CERTO. A publicidade é a regra; o Regimento prevê deliberação em contrário e disciplina reuniões reservadas e secretas. Reservada não é sinônimo de secreta: o artigo diferencia presença admitida e hipóteses. A nova redação não inventa um único fundamento genérico de sigilo como se esgotasse o dispositivo.",
+      "gatilho": "reservadas ou secretas",
+      "armadilhaBanca": "Distinguir modalidades de restrição de publicidade.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 48, caput e §§1º e 2º. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Reunião reservada e reunião secreta têm sempre idênticas hipóteses e regras de presença.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-52",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 39, §5º: elegibilidade da direção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0884994bf545cc8513a23baef0e1a3d746eab3384567a3efce5a4a90e2e33a61",
+    "shaDepois": "d74e22f37f24e6310353a68bba5554b788e89bbc025011b08a166bb89e135117",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O membro suplente não pode ser eleito Presidente ou Vice-Presidente da comissão. Além disso, suplência não cria voto cumulativo junto com o titular na mesma vaga. O item reúne duas permissões indevidas; presença eventual na reunião não equivale a elegibilidade para a direção.",
+      "gatilho": "ser eleitos Presidente",
+      "armadilhaBanca": "Confundir participação, substituição e elegibilidade.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 39, §5º: elegibilidade da direção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O membro suplente não pode ser eleito Presidente ou Vice-Presidente da comissão.",
+      "item": "Deputados suplentes de uma Comissão Permanente podem votar e ser eleitos Presidente da referida Comissão mesmo na presença dos titulares.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-53",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 152, §1º, II: urgência e parecer",
+    "nota": "C corrigido para E: urgência não anula automaticamente pareceres já aprovados.",
+    "shaAntes": "0dbf796a7f8f3598f3ec5e9a5e92c31d87a03a5eac9ad8b242dc4675b4b0cd31",
+    "shaDepois": "827911263c50fa2ddf397cfd26e5ef4e0fd54c8b1518c2d7554487ee6ba34d98",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Urgência altera o rito e pode afetar prazos de instrução, mas não invalida automaticamente parecer aprovado. O próprio art. 152 preserva parecer de comissão ou de relator designado. É preciso separar aceleração da tramitação, competência para emitir parecer e validade do parecer já produzido.",
+      "gatilho": "perda de eficácia",
+      "armadilhaBanca": "Criar efeito de invalidação que o regime não prevê.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 152, §1º, II: urgência e parecer. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A aprovação da urgência não torna automaticamente ineficaz o parecer anteriormente aprovado em comissão.",
+      "versao_errada": "",
+      "item": "A perda de eficácia de um parecer aprovado em comissão ocorre se o Plenário aprovar requerimento de urgência que avoque a matéria para votação imediata.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-54",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 105, redação da Resolução 33/2022",
+    "nota": "C corrigido para E: rol de arquivamento desatualizado diante da Resolução 33/2022.",
+    "shaAntes": "da437c92e8ffa1078e1b01fd10da52d57f479bdc6ba53e8556ddae863d486027",
+    "shaDepois": "ad36c489067425c98b43d0c1e2c9c33e722c14129a0a676c9e6e047118745257",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O rol vigente não é o descrito. Inclui iniciativa popular, projetos de código e proposições normativas que não tenham tramitado por três legislaturas completas, entre outras hipóteses. Ser originária do Senado não é exceção geral autônoma na redação atual. Não se deve estudar o rol antigo como vigente.",
+      "gatilho": "exceto",
+      "armadilhaBanca": "Usar regra revogada ou exceções incompletas como rol vigente.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 105, redação da Resolução 33/2022. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O arquivamento ao fim da legislatura observa as exceções atuais do art. 105, não uma dispensa genérica para tudo que venha do Senado.",
+      "versao_errada": "",
+      "item": "O encerramento da legislatura acarreta o arquivamento automático de todas as proposições em tramitação nas comissões, exceto as originárias do Senado Federal ou já aprovadas por uma Casa legislativa.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-55",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 105, §1º revogado pela Resolução 33/2022",
+    "nota": "C corrigido para E: o antigo parágrafo único, transformado em §1º, foi revogado pela Resolução 33/2022.",
+    "shaAntes": "cd264dcc6610e537f48711713f374b2c4a9f18a810728d80e519143b96c0a4a8",
+    "shaDepois": "b9ef90f26c1320d66e13fa0cc3d97ff98dc632bad75f054c1f5eafce4813c103",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O antigo mecanismo de desarquivamento a pedido do autor reeleito não pode ser ensinado como regra atual: o dispositivo correspondente foi revogado. Primeiro se verifica se a proposição realmente se enquadra no arquivamento sob o novo rol; não se recupera automaticamente um procedimento revogado porque o autor voltou à Casa.",
+      "gatilho": "autor reeleito",
+      "armadilhaBanca": "Manter procedimento revogado sob regra nova.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 105, §1º revogado pela Resolução 33/2022. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O antigo desarquivamento por requerimento do autor reeleito não subsiste como regra do art. 105 após a revogação de seu §1º.",
+      "versao_errada": "",
+      "item": "Um projeto de lei de iniciativa de deputado que tenha sido arquivado por término de legislatura pode ser desarquivado na legislatura subsequente mediante requerimento subscrito pelo autor reeleito.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10b-q-56",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 57, caput e §1º: períodos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c8adfdcbd44c8c08fc88c7944f346605563938f97a85da822c17f52105463e93",
+    "shaDepois": "960e139a3b253401dc059c4f5dbabca446c5a099dff29bc1c38b70bc73d9afc7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. As datas delimitam os períodos ordinários. Se caírem em sábado, domingo ou feriado, as reuniões marcadas para essas datas são transferidas para o primeiro dia útil subsequente. As datas de referência não autorizam ignorar essa ressalva nem confundir sessão anual com uma reunião plenária.",
+      "gatilho": "2 de fevereiro",
+      "armadilhaBanca": "Preservar calendário e ressalva de dia útil.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, caput e §1º: períodos — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As reuniões de abertura nessas datas devem ocorrer mesmo se coincidirem com domingo, sem a transferência prevista na Constituição.",
+      "item": "A Câmara dos Deputados reúne-se anualmente em sua sede, em Brasília, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro, dividindo-se o ano legislativo em dois períodos ordinários.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-57",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 57, §2º: LDO e interrupção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "663bdc77b000a5fb548211d7a3d2ebbeff760109be37b5f3608979a28a2630d0",
+    "shaDepois": "0936b7c33301b788b5d9ed3c1a31724e3af11ec3202dd24c340896e657bc3570",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Constituição condiciona a interrupção à aprovação do projeto de LDO. A ressalva trata do recesso de meio de ano e da LDO; não significa que toda pendência legislativa impeça qualquer recesso. Identifique o projeto mencionado e o efeito específico sobre o calendário.",
+      "gatilho": "sem a aprovação",
+      "armadilhaBanca": "Identificar a condição constitucional de interrupção.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §2º: LDO e interrupção — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A pendência da LDO nunca impede a interrupção da sessão legislativa em julho.",
+      "item": "A sessão legislativa não será interrompida em 17 de julho sem a aprovação prévia do projeto de lei de diretrizes orçamentárias (LDO).",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-58",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 57, §7º: convocação extraordinária",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b07232a5ba0c7b127dae9308e7b226506ce4aff8db8a416b6164123faf42009d",
+    "shaDepois": "e19d25e23277d13d6d05ea3c118ba6b26de2c9c2864452ed8b6759daf71e410c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A convocação extraordinária autoriza parcela indenizatória adicional aos parlamentares, desde que ela seja denominada ajuda de custo.",
+      "justificativa": "ERRADO. É vedado pagamento de parcela indenizatória em razão da convocação extraordinária. A vedação se refere ao fato gerador, não apenas ao nome que se dê à verba. Chamar o pagamento de ajuda de custo não afasta a proibição constitucional.",
+      "gatilho": "indenizatória",
+      "armadilhaBanca": "Tentar afastar vedação mudando o nome da parcela.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §7º: convocação extraordinária — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Constituição veda parcela indenizatória em razão da convocação extraordinária.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-59",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 3º, 6º e 65, I: preparatórias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3a9b864966149be2aa110733203fae2930d14d20fc51974af4c15c9fab6805b7",
+    "shaDepois": "f01409ddb070dc4ccbd501deee5de49545ad789c2bbef75edbdea7eea5c0c886",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "As sessões preparatórias precedem a inauguração dos trabalhos na primeira e na terceira sessões legislativas da legislatura, observadas suas finalidades regimentais.",
+      "justificativa": "CERTO. Há sessões preparatórias na primeira e na terceira sessões legislativas da legislatura. O terceiro ano envolve a eleição da Mesa do segundo biênio, sem nova posse geral dos deputados eleitos quatro anos antes. Preparatória não significa apenas a reunião de posse no início da legislatura.",
+      "gatilho": "terceira",
+      "armadilhaBanca": "Confundir início da legislatura e início de biênio da Mesa.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 3º, 6º e 65, I: preparatórias. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Só existem sessões preparatórias no primeiro ano da legislatura, nunca para a eleição da Mesa do segundo biênio.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-60",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 65: classificação das sessões",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "87cfd6431ce60899c988a6423b46d322cd7efe8125a5e45f479f4df42a1a14b5",
+    "shaDepois": "01dc28b88f2731a6a6a6510950fd94539aac56bee0d2e29a45cc07a500517251",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O RICD distingue sessões preparatórias, deliberativas — ordinárias e extraordinárias — e não deliberativas — de debates e solenes.",
+      "justificativa": "CERTO. As ordinárias e extraordinárias integram as deliberativas; debates e solenes integram as não deliberativas. As preparatórias constituem outra categoria. A inclusão de debates evita o rol incompleto anterior e ajuda a distinguir classificação pelo caráter da sessão e pelo horário de realização.",
+      "gatilho": "de debates",
+      "armadilhaBanca": "Separar categoria principal e subtipos de sessão.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 65: classificação das sessões. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As sessões de debates pertencem à categoria das deliberativas e incluem necessariamente Ordem do Dia.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-61",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 65, III, b: sessões solenes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "22d20cf3000720cc320a0ce58a1d09efe9d858d226245a61f57f2f30c6c393df",
+    "shaDepois": "24875ed28145c89632a15ad57c3d9d92414beaefe88a66fe680e52179727da03",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Solenes são não deliberativas e se destinam a comemorações ou homenagens nas condições regimentais. A reunião de autoridades e a solenidade do ato não a convertem em sessão de aprovação de proposições. Compare a finalidade de homenagem com a competência deliberativa exercida em outro tipo de sessão.",
+      "gatilho": "não havendo",
+      "armadilhaBanca": "Confundir solenidade e caráter deliberativo.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 65, III, b: sessões solenes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Sessões solenes incluem Ordem do Dia para votação ordinária de projetos legislativos.",
+      "item": "As sessões solenes destinam-se a comemorações cívicas, homenagens especiais ou recepção de chefes de Estado, não havendo nelas deliberação nem votação de proposições legislativas.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-62",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 82 a 86: Ordem do Dia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a7e5be7b77539f802bee53ffc762d63bf14cfad1edfaa73fcdc07d1753b1fc7a",
+    "shaDepois": "0fa77927ae4acbd619e075ee985e3da212c55652e738b470b0c6f1c64225729e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A fase concentra a apreciação das matérias pautadas e observa quórum e regras de ordenação. Não se confunde com Pequeno Expediente ou comunicações parlamentares. Estar na pauta, contudo, não assegura aprovação: ainda são necessários procedimento e votos para cada espécie de proposição.",
+      "gatilho": "deliberação",
+      "armadilhaBanca": "Separar inclusão na pauta e resultado da deliberação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 82 a 86: Ordem do Dia. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A inclusão na Ordem do Dia equivale à aprovação automática da proposição, sem votação.",
+      "item": "A Ordem do Dia é a fase da sessão plenária em que se realiza a discussão e a deliberação das matérias constantes da pauta previamente organizada pela Presidência da Casa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-63",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 79, §2º: abertura da sessão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0dcbdd55b677c91201bf9c5d96763a551257f622b7a1136e3f6b243f2ed1ac43",
+    "shaDepois": "f539369d48a95ad20aba0dc4958233cb066f23e1cb09b807a07ce49987b755ff",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Para declarar aberta a sessão, exige-se pelo menos a décima parte do total, desprezada a fração. Com 513 deputados, esse cálculo corresponde a 51, não 52, segundo a regra expressa. A presença da maioria absoluta exigida para deliberar não deve ser transportada para a abertura da sessão.",
+      "gatilho": "metade mais um",
+      "armadilhaBanca": "Trocar quórum e regra de arredondamento.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 79, §2º: abertura da sessão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A abertura observa a décima parte do total, desprezada a fração, sem se confundir com o quórum de deliberação.",
+      "item": "Para a abertura de sessão ordinária e início da fase do Pequeno Expediente, exige-se a presença em plenário de metade mais um de todos os 513 deputados federais.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-64",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 154 e 155: modalidades de urgência",
+    "nota": "C corrigido para E: art. 155 requer maioria absoluta, não um terço.",
+    "shaAntes": "ec1a7503c745bfd420ac5fee53d91481aadb7669fb86a0e4224fba5140422fe7",
+    "shaDepois": "b35df5476f8326ba0aee049c691a9702029832b9bfec314290f6e909e4856e1b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O art. 155 exige requerimento da maioria absoluta da composição ou de líderes que representem esse número, e aprovação por maioria absoluta. Um terço é referência de outra hipótese de requerimento de urgência, não da urgentíssima descrita. A semelhança do nome não autoriza misturar requisitos.",
+      "gatilho": "um terço",
+      "armadilhaBanca": "Transportar requisito de outra modalidade de urgência.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 154 e 155: modalidades de urgência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O requerimento e a aprovação da urgência do art. 155 dependem da maioria absoluta nos termos do dispositivo.",
+      "versao_errada": "",
+      "item": "A urgência urgentíssima (ou urgência regimental do art. 155 do RICD) pode ser requerida por um terço dos membros da Câmara ou por líderes que representem esse número, permitindo que a proposição seja incluída de imediato na Ordem do Dia da mesma sessão para votação.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-65",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 152, §1º, III, e 155",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "55aff9953fa76cc84f2795b1cc89a1c643a3d964158919201d5f6f389d1ca12a",
+    "shaDepois": "8d289bb6a100430aeb42bafbf977539e9085bbc61c5d8f968e0093f8aab81c07",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A urgência do art. 155 é aprovada pela maioria absoluta da composição da Casa. O regime não dispensa o quórum. O ponto decisivo é o número constitucional ou regimental de votos exigidos; o nome do processo de votação não transforma qualquer quantidade de presentes em maioria absoluta.",
+      "gatilho": "qualquer número",
+      "armadilhaBanca": "Confundir aceleração do rito e dispensa de quórum.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 152, §1º, III, e 155. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A urgência do art. 155 exige aprovação por maioria absoluta, sem dispensa de quórum.",
+      "item": "O requerimento de urgência do art. 155 do RICD é aprovado por votação simbólica com qualquer número de deputados presentes em plenário.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-66",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 184: modalidades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "652ae15a146f2fd5ac5304ac9f59a8e3b9945216245b230d71e708aeef62606b",
+    "shaDepois": "c44ce4cdb3e614e113503aed2fff26d8054cfc2d6ccc27014d89e357c9187ac5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O Regimento distingue ostensiva, pelos processos simbólico e nominal, e secreta, nos casos próprios. A classificação não diz que o Presidente escolhe livremente qualquer modalidade para toda matéria. Espécie de deliberação, exigência normativa e verificação podem determinar o processo aplicável.",
+      "gatilho": "simbólico ou nominal",
+      "armadilhaBanca": "Distinguir publicidade e modo de coleta do voto.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 184: modalidades. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O processo nominal é modalidade de votação secreta e não permite identificar o voto parlamentar.",
+      "item": "As votações na Câmara dos Deputados processam-se por dois métodos fundamentais: ostensivo (simbólico ou nominal) e secreto.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-67",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 185, caput: processo simbólico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9591ed2bf4e93ce19f7b146d1e1464617425f3985dafff155710b12d46c967da",
+    "shaDepois": "9e505dcad207c9fc8966c7780ce2a586c3cfb679e5902efbc7eca3e94f92f944",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A orientação regimental pede que os favoráveis permaneçam sentados, e o resultado manifesto é proclamado pelo Presidente. Esse resultado pode ser objeto de verificação nos termos dos parágrafos. Não se deve inverter o sinal corporal nem tratar o anúncio como impedimento absoluto à verificação.",
+      "gatilho": "permanecerem sentados",
+      "armadilhaBanca": "Inverter o sinal de manifestação no processo simbólico.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 185, caput: processo simbólico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No processo simbólico, os favoráveis devem levantar-se e os contrários permanecer sentados.",
+      "item": "No processo simbólico de votação, o Presidente da Câmara convida os deputados que forem favoráveis à matéria a permanecerem sentados, manifestando-se contrários aqueles que se levantarem.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-68",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 185, §§3º e 4º: verificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a2afea4bcd7b5d67493e0519ee704015d69747aee75002da92ed70d92425f64b",
+    "shaDepois": "bd29e22b730c4ad232f76ca63262ad07b2e632ab6b7e665f675c381f1c5d90fa",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O pedido depende de apoio de seis centésimos dos membros ou de líderes que representem esse número. Há ainda regra específica para nova verificação dentro de uma hora. Não confunda o apoio inicial de seis centésimos com o décimo exigido para requerer a quebra desse interstício.",
+      "gatilho": "sem exigência de quórum",
+      "armadilhaBanca": "Trocar apoio inicial e requisito para nova verificação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 185, §§3º e 4º: verificação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A verificação exige apoio de seis centésimos dos membros ou de líderes que representem esse número, observadas as demais regras do art. 185.",
+      "item": "O pedido de verificação de votação simbólica constitui prerrogativa individual e irrecusável atribuída ao parlamentar isolado presente na sessão, sem exigência de quórum de apoio de bancada partidária.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-69",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 187: votação nominal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "02a84562824417445c003c8195ecd3cc71b71eb00591ae933c69ae19a474647f",
+    "shaDepois": "6040bc33976298c21c026009b7dc18fc12852ce43174dcaafa5a669df931072d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O sistema eletrônico registra os votos individualmente. O caráter nominal permite identificar o voto, diferentemente do escrutínio secreto. O artigo também prevê procedimentos quando se usa a chamada: eletrônico é o meio principal, não condição de validade absolutamente exclusiva de toda votação nominal.",
+      "gatilho": "individualmente",
+      "armadilhaBanca": "Confundir meio usual e único meio admitido.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 187: votação nominal. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Sem sistema eletrônico, a votação nominal é sempre juridicamente impossível.",
+      "item": "A votação nominal na Câmara dos Deputados realiza-se prioritariamente por meio de sistema eletrônico de votação, registrando-se individualmente os votos SIM, NÃO e ABSTENÇÃO no painel e nos anais da Casa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-70",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "EC 76/2013; RICD, art. 7º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b167ea6a3e2b88429a173f2ece96034e5e22631eb9f558a79f58ab3bcb5096dd",
+    "shaDepois": "45849655e511610f4555289f606bd2d240ca09f65339fed44a85b4361659ebe9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A emenda tornou ostensivas votações de perda de mandato e de veto; não eliminou toda votação secreta. A eleição da Mesa é exemplo regimental de escrutínio secreto. Para avaliar uma reforma, delimite seu objeto em vez de ampliar seu efeito a todos os procedimentos da Casa.",
+      "gatilho": "totalmente",
+      "armadilhaBanca": "Generalizar o alcance de uma emenda constitucional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — EC 76/2013; RICD, art. 7º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A EC 76/2013 não aboliu todas as hipóteses de escrutínio secreto, como a eleição da Mesa.",
+      "item": "O voto secreto foi totalmente abolido do ordenamento regimental da Câmara dos Deputados pela Emenda Constitucional nº 76/2013, não remanescendo qualquer hipótese de escrutínio secreto na Casa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-71",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 95 e 96: questão de ordem e reclamação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8a488993d0a29965e474caedcac113a13aba8703585d545304deaedb5e456880",
+    "shaDepois": "bc8e98285aed23186fb2bb571b7fd48b763d57d35d8b5174312995c3608820b3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Considera-se questão de ordem a dúvida sobre a interpretação do RICD, na sua prática exclusiva ou relacionada com a Constituição Federal, observadas as condições do art. 95.",
+      "justificativa": "CERTO. Questão de ordem é dúvida sobre interpretação do RICD, na prática exclusiva ou relacionada à Constituição. Reclamação tem disciplina própria sobre observância de norma e serviços. A nova redação evita tratar os dois instrumentos como sinônimos e indica o objeto interpretativo que caracteriza a questão.",
+      "gatilho": "dúvida",
+      "armadilhaBanca": "Separar interpretação e observância da norma.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 95 e 96: questão de ordem e reclamação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Questão de ordem e reclamação são indistintamente o mesmo instrumento, sem diferença de objeto.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-72",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 95, §§8º e 9º: recurso e efeito suspensivo",
+    "nota": "C corrigido para E: apoio inventado; requisitos distintos no art. 95, §§8º e 9º.",
+    "shaAntes": "6240ca440db5931174d71b01644c9bb0078062675934e372d2b61cad97c6c42a",
+    "shaDepois": "f3c1f003d9d357e06965b91ee4c956930c9d9cf7276204b39c8ad034442e52f6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O deputado pode recorrer ao Plenário sem esse apoio e, em regra, sem efeito suspensivo. Para pedir decisão imediata sobre efeito suspensivo, o §9º exige apoio de um terço dos presentes. O item inventa um décimo da Casa como requisito geral e confunde interpor recurso com suspender a decisão.",
+      "gatilho": "um décimo",
+      "armadilhaBanca": "Trocar admissibilidade do recurso e concessão de efeito.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 95, §§8º e 9º: recurso e efeito suspensivo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O deputado pode recorrer sem efeito suspensivo; o apoio de um terço dos presentes é exigido para requerer decisão imediata sobre esse efeito.",
+      "versao_errada": "",
+      "item": "Cabe recurso ao Plenário da Câmara das decisões do Presidente sobre questão de ordem, desde que interposto com apoio de um décimo dos membros da Casa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-73",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 95, §§1º, 2º e 4º: formulação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "28b52bfd01e49ecd74def5557c5d72668eda889a9f2e0c68b0b7d1d2c6c02102",
+    "shaDepois": "8a59aeca242008fdea4858c2c93d05a383d6177e0e040ec1b1883a2833cfa6d1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Durante a Ordem do Dia, a questão de ordem pode versar sobre tema alheio à pauta e ser formulada sem indicar a disposição regimental ou constitucional a esclarecer.",
+      "justificativa": "ERRADO. O prazo é de três minutos e a formulação deve ser objetiva, indicando as disposições cuja interpretação se pretende esclarecer. Durante a Ordem do Dia, deve guardar relação direta com a matéria. Afinidade política com o tema não substitui pertinência regimental e fundamento expresso.",
+      "gatilho": "sem indicar",
+      "armadilhaBanca": "Confundir fala política e dúvida regimental fundamentada.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 95, §§1º, 2º e 4º: formulação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A questão de ordem deve indicar precisamente a disposição regimental ou constitucional cuja observância se pretende elucidar.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-74",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 82, §6º, e 185: obstrução e instrumentos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3bc678ea7a4ef1f166a976e572cd6141c68aa0312c1c1fb903a48597d0505af8",
+    "shaDepois": "4b9549e11b53b78ffd81073ac190eff3c0c920b0186344a29f7fdfa7a4c7fd63",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A obstrução parlamentar utiliza instrumentos regimentais para influir na tramitação e na negociação, observados os requisitos e limites de cada procedimento.",
+      "justificativa": "CERTO. A oposição pode usar instrumentos previstos no Regimento para influir no andamento e negociar. A legitimidade depende de observar seus requisitos, sem promessa de que toda estratégia impedirá a votação. O resultado também depende do quórum, da decisão colegiada e das regras de cada requerimento.",
+      "gatilho": "requisitos e limites",
+      "armadilhaBanca": "Separar legitimidade da estratégia e garantia de resultado.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 82, §6º, e 185: obstrução e instrumentos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A declaração de obstrução impede obrigatoriamente qualquer votação, mesmo quando permanecem satisfeitos os requisitos regimentais para deliberar.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-75",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 82, §6º: ausência e obstrução legítima",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8d70ef3d692c7342d59db45242634e6f423741a55f87ed96a9d4f58e7efdb8db",
+    "shaDepois": "fc578d48709c1de979a19c68f4851753c0ea5073bd9445d53375805da1ca5cf9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A equiparação da ausência às votações à ausência às sessões ressalva a obstrução parlamentar legítima aprovada pela bancada ou liderança e comunicada à Mesa, nos termos do art. 82, §6º.",
+      "justificativa": "CERTO. A ressalva exige obstrução aprovada pelas bancadas ou lideranças e comunicada à Mesa. Não é imunidade geral a faltas de toda espécie, nem uma regra que apaga a presença física para qualquer quórum. O item foi delimitado à consequência específica prevista nesse parágrafo.",
+      "gatilho": "comunicada à Mesa",
+      "armadilhaBanca": "Distinguir ausência individual e obstrução formalmente reconhecida.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 82, §6º: ausência e obstrução legítima. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer ausência individual à votação é automaticamente considerada obstrução legítima, sem decisão da bancada ou comunicação à Mesa.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-76",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 150 e 202, §6º: interstício",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f154eee73ef5747f34807ba7f76ae988b5abeaf881125b98ef17897c454dbab6",
+    "shaDepois": "ba4b0913d5de451a5318adb997d228663b73c982a87a9f925b397b3627b27cba",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A PEC tem regra especial de cinco sessões entre os turnos. A dispensa de interstício não é uma faculdade unilateral irrestrita da Presidência; devem ser observados procedimento e competência próprios. Interstício, dois turnos e quórum de três quintos são exigências distintas, não substituíveis por despacho ordinatório.",
+      "gatilho": "discricionária",
+      "armadilhaBanca": "Converter condução dos trabalhos em dispensa unilateral de requisito.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 150 e 202, §6º: interstício. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A disciplina do interstício da PEC não confere ao Presidente poder unilateral irrestrito de suprimi-lo por despacho.",
+      "item": "A supressão do interstício regimental entre o primeiro e o segundo turno de votação de proposta de emenda à Constituição insere-se na competência discricionária do Presidente da Câmara dos Deputados mediante despacho ordinatório.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-77",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 32, IV, q, 195 e 197: redação final",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8b62d8effcee8ce22abcb9ccfda6906163e538452d47dfd75b19111393555565",
+    "shaDepois": "eff174bd46b00be362feb53646f0a8cc2d50a95ce1f8bfe81bb6465da4e4dd29",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A CCJC exerce a competência de redação final prevista no RICD, ressalvadas hipóteses específicas como as reservadas à comissão competente pelo art. 197.",
+      "justificativa": "CERTO. Há competência da CCJC para redação final nas hipóteses regimentais, mas o art. 197 reserva certos casos à comissão específica, como PEC e projetos de código. A redação deve refletir o vencido, sem reabrir livremente o mérito. A ressalva evita apresentar a CCJC como autora necessária de toda redação final.",
+      "gatilho": "ressalvadas",
+      "armadilhaBanca": "Generalizar a competência e omitir exceções.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 32, IV, q, 195 e 197: redação final. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A CCJC elabora necessariamente toda redação final, inclusive nos casos que o art. 197 reserva à comissão específica.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-78",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "arts. 272 e 176: galerias e apartes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b8766d68789c55b1ab3ac5e458c5e0e9b5aefbe3e225c079ad332b2a4740faa4",
+    "shaDepois": "163a284ec8a5f204312566510a0ae352b8002905b068539d1dff8a4a5ae6f279",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A presença de público nas galerias não confere uso da palavra no debate ou na votação plenária. Aparte é instrumento parlamentar, depende de permissão e possui restrições. Publicidade das sessões permite acompanhamento, não voto ou intervenção oral de qualquer pessoa.",
+      "gatilho": "cidadãos presentes nas galerias",
+      "armadilhaBanca": "Confundir publicidade da sessão e direito de intervenção.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — arts. 272 e 176: galerias e apartes. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O acompanhamento pelas galerias não atribui ao público o direito de apartear oradores na sessão plenária.",
+      "item": "Durante a fase de votação da Ordem do Dia, é admitido que cidadãos presentes nas galerias do Plenário Ulysses Guimarães profiram apartes e façam perguntas aos deputados oradores.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-79",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 176: aparte",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "924e06257ad82b71b9343c6d6a05887fe969ae987dde3820a143b337975f9124",
+    "shaDepois": "8252e01359bfce5774ef5c40c0ed18e93f59113ca1c196350f96dac80d8be05f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O aparte é interrupção breve e oportuna, consentida pelo orador, para indagação ou esclarecimento relativo à matéria em debate, observadas as vedações regimentais.",
+      "justificativa": "CERTO. O aparte requer solicitação e permissão do orador, deve ser breve e pertinente e está sujeito às vedações específicas. O art. 176 não fixa nesse dispositivo um número universal de minutos; por isso foi retirado o suposto limite numérico implícito. Seu tempo integra o do orador.",
+      "gatilho": "consentida",
+      "armadilhaBanca": "Preservar consentimento, pertinência e restrições.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 176: aparte. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O aparte pode ser feito sem permissão do orador e fora do tema, bastando que o parlamentar queira interromper.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-80",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "art. 176, §2º, IV e VI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "99022e19bd22e46b8dc88484a678cb6a7c8d6c68c5f41eed82a7727b5c93a24e",
+    "shaDepois": "19301eb901b52cf65d2dd0262f2a1dc04d9ad4687164f39b209a31e065c4fd1e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Não se admite aparte quando o orador estiver no encaminhamento de votação, suscitando questão de ordem ou falando para reclamação.",
+      "justificativa": "CERTO. A restrição alcança, entre outras hipóteses, encaminhamento de votação, questão de ordem e reclamação. Não se deve deduzir que consentimento basta para afastar vedação expressa. A redação foi ajustada às hipóteses identificadas no dispositivo, evitando acrescentar rótulos não demonstrados.",
+      "gatilho": "encaminhamento de votação",
+      "armadilhaBanca": "Distinguir consentimento necessário e ausência de vedação.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 176, §2º, IV e VI. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O consentimento do orador permite aparte mesmo durante encaminhamento de votação ou formulação de questão de ordem.",
+      "submoduloId": "10.1",
+      "submodulo": "10.1"
+    }
+  },
+  {
+    "id": "m10b-q-81",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "art. 57, §5º: Mesa do Congresso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7605617d8940c81cd558e2eac9d10ea0f5791715f54c34bbaaa586fa9409687b",
+    "shaDepois": "35f0d8f22a8d1dc8474572ae60249fe6fb0a5a7776930c4204d764b558885b2b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A Mesa do Congresso Nacional é presidida pelo Presidente do Senado Federal, conforme o art. 57, §5º, da Constituição.",
+      "justificativa": "CERTO. A Constituição atribui a Presidência da Mesa do Congresso ao Presidente do Senado. Isso não torna a Mesa composta exclusivamente por senadores, nem elimina regras de substituição. A redação foi delimitada à titularidade constitucional, sem transformar privatividade do cargo em impossibilidade de substituição.",
+      "gatilho": "Presidente do Senado",
+      "armadilhaBanca": "Distinguir titularidade da Presidência e composição da Mesa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §5º: Mesa do Congresso — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Mesa do Congresso é presidida, como titular, pelo Presidente da Câmara, por ser esta a Casa de maior número de membros.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-82",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "art. 57, §5º: cargos equivalentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7a35ed5512c463763ac5c93d7f3b866c60f42741b1eb44b625d330ded9232cde",
+    "shaDepois": "1ff8414a3d356d52c353de0150bcfae997377e8c1eb5dbc262f5499f6acfd751",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Os demais cargos são exercidos alternadamente por ocupantes de cargos equivalentes nas Mesas das Casas. A Primeira-Vice-Presidência cabe ao Primeiro-Vice-Presidente da Câmara; a Segunda, ao Segundo-Vice-Presidente do Senado. O Presidente da Câmara não é o ocupante equivalente à Primeira-Vice-Presidência.",
+      "gatilho": "Presidente da Câmara",
+      "armadilhaBanca": "Trocar equivalência de cargos por simples ordem de autoridades.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §5º: cargos equivalentes — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Primeira-Vice-Presidência da Mesa do Congresso cabe ao Primeiro-Vice-Presidente da Câmara, e a Segunda ao Segundo-Vice-Presidente do Senado.",
+      "item": "Na Mesa do Congresso Nacional, a Primeira-Vice-Presidência cabe ao Presidente da Câmara dos Deputados, ao passo que a Segunda-Vice-Presidência é exercida pelo Primeiro-Vice-Presidente do Senado.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-83",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "ricd"
+    ],
+    "localizador": "art. 57, §5º: alternância",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4aae34f13e904f52c07f31be55420d93bae368a85b23a3d0bc61b1b85361945c",
+    "shaDepois": "b4c762e250d9e6765781ab328d59909c12fa118035577eb5ff2be57a15121bb6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A alternância também respeita equivalência dos cargos nas Mesas de origem. Não se trata de escolher livremente qualquer membro de uma Casa e depois outro da outra. A organização combina a titularidade da Presidência com posições correspondentes nos demais cargos.",
+      "gatilho": "alternadamente",
+      "armadilhaBanca": "Preservar alternância e equivalência cumulativamente.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §5º: alternância — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os Secretários da Mesa do Congresso são escolhidos livremente entre quaisquer parlamentares, sem equivalência com os cargos nas Mesas das Casas.",
+      "item": "Os demais cargos da Mesa do Congresso Nacional (secretarias) são ocupados alternadamente pelos membros das Mesas da Câmara dos Deputados e do Senado Federal.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-84",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 57, §3º, III: compromisso presidencial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0ddf30484ef52424b7b903a0b5a1f0da373644a1c6bfdee0965922a8ab201395",
+    "shaDepois": "96633898584d951fb3cb9172325ed35279de280beff807c32e1ff02664ac243b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O compromisso do Presidente e do Vice-Presidente da República é recebido em sessão exclusiva do Senado Federal, porque seu Presidente dirige o Congresso Nacional.",
+      "justificativa": "ERRADO. O compromisso do Presidente e do Vice-Presidente da República é recebido em sessão conjunta. A competência da Presidência do Senado para dirigir a Mesa do Congresso não transforma esse ato em sessão exclusiva do Senado. Órgão dirigente e composição da sessão são aspectos diferentes.",
+      "gatilho": "exclusiva do Senado",
+      "armadilhaBanca": "Trocar sessão conjunta e sessão exclusiva da Casa do Presidente.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §3º, III: compromisso presidencial — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O compromisso do Presidente e do Vice-Presidente da República é recebido pelas duas Casas em sessão conjunta.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-85",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rccn"
+    ],
+    "localizador": "art. 43: cômputo separado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2a19fa75c4f7d56d8ad87b1a034018ad063dc90b12ccfbbf454d2cd0daa8e61f",
+    "shaDepois": "3929eac801c2279a210a6eb03b3965bfbbb7baa1ad0e1b521e2182a36a36d9fd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Os votos são computados separadamente em cada Casa. Somar deputados e senadores num único total permitiria que uma Casa compensasse a rejeição da outra, contrariando a regra. Sessão conjunta significa reunião conjunta dos trabalhos, não fusão dos dois colégios de votação.",
+      "gatilho": "computados conjuntamente",
+      "armadilhaBanca": "Confundir reunião conjunta e colégio eleitoral único.",
+      "fonte": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN — art. 43: cômputo separado. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Nas deliberações conjuntas, os votos de cada Casa são computados separadamente; a rejeição por uma delas importa rejeição da matéria.",
+      "item": "Nas sessões conjuntas do Congresso Nacional, os votos de deputados e senadores são computados conjuntamente em uma urna ou painel único, considerando-se aprovada a matéria que obtiver maioria dos votos de todos os parlamentares somados.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-86",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §4º; EC 76/2013",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "378fa123f382953fdb197c70974dbec707347bac8e4ecd5c4866afb063231444",
+    "shaDepois": "a0285e557f0f867aa0ae22f2b8248d05ebce998a749bf2bf977f66c3161992ba",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Para rejeitar veto presidencial, basta maioria absoluta do conjunto de deputados e senadores somados, ainda que não se alcance maioria absoluta em uma das Casas.",
+      "justificativa": "ERRADO. A rejeição exige maioria absoluta dos deputados e maioria absoluta dos senadores, com cômputos separados. Uma maioria absoluta obtida pela soma global pode esconder falta do requisito em uma Casa. O voto é aberto após a EC 76/2013; não se deduz o quórum pela quantidade total de parlamentares presentes.",
+      "gatilho": "conjunto de deputados e senadores",
+      "armadilhaBanca": "Confundir quórum bicameral e maioria conjunta agregada.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §4º; EC 76/2013 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A rejeição do veto depende de maioria absoluta em cada Casa, e não de uma soma global de votos.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-87",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §§4º e 6º: veto pendente",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7c62f9008d352c99c1c1b2ab7af0963c0eebefa167cd7215a560ce2b0cd60b45",
+    "shaDepois": "f72f90ff6a4f90c755eb1db439d288de47930fa5265b420e6afdb2bf709dcf82",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O prazo constitucional não torna o veto definitivo por omissão. Esgotado o prazo sem deliberação, ele é colocado na Ordem do Dia da sessão imediata, com o sobrestamento previsto até votação final. Arquivamento automático e prioridade de apreciação são consequências opostas.",
+      "gatilho": "automaticamente arquivada",
+      "armadilhaBanca": "Inverter a consequência da perda do prazo.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §§4º e 6º: veto pendente — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O decurso do prazo sem deliberação não impede nova apreciação do veto e aciona a regra do art. 66, §6º.",
+      "item": "Caso o veto presidencial não seja deliberado pelo Congresso Nacional no prazo de trinta dias a contar de seu recebimento, a proposição é automaticamente arquivada e o veto torna-se insuscetível de nova votação.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-88",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 166, §1º: comissão mista permanente",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e2717652f554c26505e0987f33afb42895a954ff2e5bea1c44ec15fb7cd23530",
+    "shaDepois": "15b65a21fac09df1781e183e25dacdbb96308366fa2921fd2f052ae9f01fa965",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A CMO é comissão temporária que se extingue automaticamente com a aprovação da lei orçamentária anual que motivou sua instalação.",
+      "justificativa": "ERRADO. A Constituição prevê comissão mista permanente para examinar e emitir parecer sobre os projetos orçamentários e as contas, além das atribuições constitucionais. O ciclo anual da LOA não extingue o órgão que a examina. Permanência da comissão e periodicidade do objeto são características independentes.",
+      "gatilho": "temporária",
+      "armadilhaBanca": "Transferir a anualidade do orçamento para a duração do órgão.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 166, §1º: comissão mista permanente — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A CMO é comissão mista permanente; a aprovação da LOA não a extingue.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-89",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 166, caput e §1º: leis orçamentárias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3282d7abfb52338d51ba3220b81bd07704aaa866079a686f4d37d09b461f44d6",
+    "shaDepois": "7219b872812901258278df8ebfa1b3ddd5255c48ecc2cae9ca1c347cb83fadaf",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Os projetos de PPA, LDO, LOA e créditos adicionais são apreciados pelas duas Casas, na forma do Regimento Comum. A comissão mista emite parecer, sem tornar a Câmara única Casa competente. O tema orçamentário não elimina a participação constitucional do Senado.",
+      "gatilho": "privativamente",
+      "armadilhaBanca": "Excluir uma Casa de procedimento bicameral.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 166, caput e §1º: leis orçamentárias — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Os projetos orçamentários são apreciados pelas duas Casas do Congresso na forma do Regimento Comum.",
+      "item": "Os projetos de lei orçamentária (LOA, LDO e PPA) são votados privativamente pela Câmara dos Deputados em sessão exclusiva, dispensada qualquer manifestação do Senado Federal.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-90",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 166, §3º, I: compatibilidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "152f317f7441d34a85e56ebfcc3faf342f90784db0b00a097806eed2457ec5a0",
+    "shaDepois": "b5b4b0614eccd17a937be102b484acd6cd8e420e8fb08002a4ea32dfbc205621",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A aprovação de emendas à LOA exige compatibilidade com PPA e LDO, além dos demais requisitos. Classificar uma obra como prioridade regional não cria exceção à compatibilidade constitucional. Importância política da finalidade e admissibilidade da emenda devem ser verificadas separadamente.",
+      "gatilho": "prescindem",
+      "armadilhaBanca": "Criar exceção a requisito por apelo à finalidade.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 166, §3º, I: compatibilidade — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Emendas à LOA devem ser compatíveis com PPA e LDO; prioridade regional não afasta esse requisito.",
+      "item": "As emendas parlamentares ao projeto de lei orçamentária anual prescindem de compatibilidade com o plano plurianual quando destinadas a ações prioritárias de infraestrutura regional.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-91",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 166, §3º, II, a: fonte de recursos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a52e911ce3862d0f3626d8b021bed7cb6a768e05120e252f51a7e2ff984b77dc",
+    "shaDepois": "19dbe21f6a87c0421edf7f5b2ee4ff90bccf2b9d4e6321d0340e211ffec3efdb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A anulação é fonte prevista, mas o dispositivo exclui dotações para pessoal e encargos, serviço da dívida e transferências tributárias constitucionais. Saber a regra geral não basta: a origem concreta do recurso deve respeitar as exclusões. O item utiliza justamente uma fonte expressamente ressalvada.",
+      "gatilho": "pessoal e seus encargos",
+      "armadilhaBanca": "Apresentar como regra uma hipótese expressamente excluída.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 166, §3º, II, a: fonte de recursos — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A anulação de dotações de pessoal e encargos não é fonte admitida para esse fim pelo art. 166, §3º, II.",
+      "item": "São admitidas emendas parlamentares ao projeto de lei orçamentária anual que indiquem como fonte de recursos a anulação de despesas com pessoal e seus encargos.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-92",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "rccn"
+    ],
+    "localizador": "art. 58, §4º; Resolução 3/1990-CN, art. 2º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3d93fb188d8458af3378756e3bda08263fed441d7628cef365ebe82dc00a571a",
+    "shaDepois": "4809373464b70964f92ce79f318dff06a07a9ba438ddc2d3b6a6a18e96812d7b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A eleição da Comissão Representativa ocorre somente depois do início do recesso que ela deverá acompanhar, em sessão extraordinária convocada para essa finalidade.",
+      "justificativa": "ERRADO. A comissão é eleita na última sessão ordinária do período legislativo, para atuar no recesso seguinte. Eleição e início do mandato não ocorrem pela regra descrita no item. A redação elimina a dupla negação e concentra a avaliação no marco temporal da constituição do órgão.",
+      "gatilho": "depois do início",
+      "armadilhaBanca": "Inverter constituição antecipada e funcionamento no recesso.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §4º; Resolução 3/1990-CN, art. 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Comissão Representativa é eleita na última sessão ordinária do período legislativo, para o recesso seguinte.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-93",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rccn"
+    ],
+    "localizador": "Resolução 3/1990-CN, art. 7º: competências",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d3d6d602a50d9a88b420c85ea83b24f6bfe64f4305857de92c0e2de7ae542449",
+    "shaDepois": "fb7b0c19d91b91b28b9931527d81c3a1ffa1a1174a40b30a5d0231230e9353c1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A comissão exerce competências delimitadas para o recesso, como zelar por prerrogativas e fiscalizar atos. Não substitui universalmente os Plenários para aprovar leis e PECs. O fato de representar o Congresso fora do período ordinário não elimina os procedimentos e quóruns constitucionais.",
+      "gatilho": "definitivo",
+      "armadilhaBanca": "Ampliar representação no recesso para poder legislativo irrestrito.",
+      "fonte": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN — Resolução 3/1990-CN, art. 7º: competências. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Comissão Representativa não dispõe de competência geral para aprovar definitivamente leis e PECs em substituição aos Plenários.",
+      "item": "A Comissão Representativa pode, durante o recesso parlamentar, aprovar projetos de lei ordinária e emendas à Constituição em caráter terminativo definitivo.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-94",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rccn"
+    ],
+    "localizador": "Resolução 1/2002-CN, art. 2º, §§2º e 3º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f335c71c9998b08ccf97b5d8104ca66bb4073c860e1cfc8da2c89ed00009ed21",
+    "shaDepois": "7f107b7e7ab48daa3b76fb7d2e9f50a622efeab965c61c5d00abd7d2ba8f34bc",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A previsão de doze senadores e doze deputados no art. 2º, §2º, da Resolução 1/2002-CN esgota a composição da comissão de MP, vedado qualquer acréscimo para bancadas minoritárias.",
+      "justificativa": "ERRADO. O §2º prevê doze senadores e doze deputados, com igual número de suplentes; o §3º acrescenta uma vaga destinada a cada Casa para rodízio das bancadas minoritárias indicadas. O erro não está no número do §2º isolado, mas em dizer que ele esgota a composição e afastar o acréscimo.",
+      "gatilho": "esgota",
+      "armadilhaBanca": "Omitir acréscimo previsto em parágrafo subsequente.",
+      "fonte": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN — Resolução 1/2002-CN, art. 2º, §§2º e 3º. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O art. 2º, §3º, acrescenta uma vaga para cada Casa, a ser preenchida em rodízio pelas bancadas minoritárias nas condições previstas.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-95",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §9º: parecer prévio",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a141458d1f2d7e1556de25576d58a1c3e1a46142628cd709f194152835586e43",
+    "shaDepois": "0c34fda82cd87754cb4510f648ae390be021a5eb6f00dab76b7744842c95f4c5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O rito constitucional exige exame e parecer da comissão mista antes da apreciação pelos Plenários. Relevância e urgência justificam a edição da MP, mas não concedem ao Presidente da República poder para dispensar essa etapa parlamentar. Não se deve transformar uma qualidade constitucional da medida em autorização de suprimir o controle.",
+      "gatilho": "dispensável",
+      "armadilhaBanca": "Usar pressuposto da edição para eliminar requisito de apreciação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §9º: parecer prévio — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A declaração de urgência pelo Presidente da República não dispensa o parecer da comissão mista exigido no rito constitucional da MP.",
+      "item": "O parecer da Comissão Mista de Medida Provisória é dispensável, podendo a MP ser levada a voto direto no Plenário da Câmara sem qualquer comissão prévia em caso de urgência declarada pelo Presidente da República.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-96",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rccn"
+    ],
+    "localizador": "arts. 128 a 130: alteração do Regimento Comum",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3d7a0f26455743a13074d8383b1fcf75cd5ac8686ee9df80fa820220dd0cdde9",
+    "shaDepois": "d37a754bb73e27ebc6a064f9fb73856cd939e79ce9e4b37817b35b9d8ed50d9e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O Regimento Comum não pode ser alterado por projeto de resolução do Congresso Nacional, ainda que observados os requisitos de iniciativa e tramitação dos arts. 128 a 130.",
+      "justificativa": "ERRADO. A alteração se faz por projeto de resolução, com iniciativa e procedimento próprios, em sessão conjunta. A aprovação observa o cômputo separado e o quórum aplicável; não há impossibilidade geral de alteração por resolução. A nova redação identifica o instrumento correto sem sugerir soma indiferenciada de votos das Casas.",
+      "gatilho": "não pode",
+      "armadilhaBanca": "Negar o instrumento expressamente previsto.",
+      "fonte": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN — arts. 128 a 130: alteração do Regimento Comum. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Regimento Comum pode ser alterado por projeto de resolução, observado o procedimento dos arts. 128 a 130.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-97",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rccn"
+    ],
+    "localizador": "art. 3º: local das sessões conjuntas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "897d5917105a0c4c7711d15bc1cccb4cae583f69775dbdf47e4d6343c404cf1a",
+    "shaDepois": "41dc096dd3a69c524185ace186d33dbcbcbb8ca80ec8dd0af4d6aa0168ded34b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. As sessões conjuntas se realizam no Plenário da Câmara, salvo escolha prévia de outro local devidamente anunciado. A Presidência pelo Presidente do Senado não determina o local da reunião. Há uma regra geral e uma possibilidade de local diverso, não uma exclusividade física de qualquer das Casas.",
+      "gatilho": "Plenário do Senado",
+      "armadilhaBanca": "Deduzir o local pela autoridade que preside.",
+      "fonte": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN — art. 3º: local das sessões conjuntas. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "As sessões conjuntas realizam-se no Plenário da Câmara, salvo outro local previamente escolhido e anunciado.",
+      "item": "As sessões conjuntas do Congresso Nacional são sediadas no Plenário do Senado Federal, em razão de sua Presidência caber ao Presidente daquela Casa legislativa.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-98",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 57, §§3º e 5º: direção e serviços comuns",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f77a407e699b5bc4f9683449541df7544e2938be39e6c3b01ae64bca07dc9991",
+    "shaDepois": "a262c567d11a05056c9894b2919c729d95978ffeade703b6b9430c827b99aafd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O assessoramento técnico prestado aos trabalhos conjuntos confere aos servidores responsáveis poder de voto para desempatar as deliberações entre deputados e senadores.",
+      "justificativa": "ERRADO. Órgãos técnicos podem prestar apoio aos trabalhos, mas assessoramento administrativo não cria um terceiro voto além dos deputados e senadores. Competência para deliberar decorre da Constituição e do Regimento. A redação abandona nome de unidade administrativa não confirmado e avalia uma distinção institucional verificável.",
+      "gatilho": "poder de voto",
+      "armadilhaBanca": "Converter assessoramento técnico em competência deliberativa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 57, §§3º e 5º: direção e serviços comuns — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O apoio técnico não confere a servidores poder de voto nas deliberações do Congresso.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-99",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rccn"
+    ],
+    "localizador": "Resolução 1/2006-CN, arts. 66 a 68: relatoria-geral",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ff89b26244715e4ef83ec47f477ae38fa5c9e1e9ee06f483a4b77c8796cbf32e",
+    "shaDepois": "3a9663a759acc07533661597842f497365f73f5c338d3c94496e0b64b4d829be",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O art. 66 admite propor acréscimos e cancelamentos nos valores de emendas coletivas aprovados nos pareceres setoriais, com as fontes definidas e o limite de cancelamento previsto. Há outras condições e vedações, como a do art. 67. Logo, não existe intangibilidade absoluta, nem liberdade total de alteração.",
+      "gatilho": "não podem",
+      "armadilhaBanca": "Trocar limites de revisão por proibição absoluta.",
+      "fonte": "Regimento Comum do Congresso Nacional — Resolução 1/1970-CN — Resolução 1/2006-CN, arts. 66 a 68: relatoria-geral. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O relator-geral pode propor alterações nas hipóteses e limites regimentais, sem liberdade irrestrita sobre os pareceres setoriais.",
+      "item": "Nas votações de matérias orçamentárias na CMO, os pareceres setoriais aprovados não podem ser alterados pelo relator-geral da proposta orçamentária.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  },
+  {
+    "id": "m10b-q-100",
+    "caminho": "src/content/questions/m10b-regimentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf",
+      "lindb"
+    ],
+    "localizador": "art. 66, §§4º a 7º; LINDB, art. 1º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2889cf6a7f012dce047c60ea2c4eb92ee3bbee0f2184e60b8dc1884e96cf3acc",
+    "shaDepois": "02d40f2e9aa493e4b132f98888e56e1f8a9e773ca2c5852b3419b652f3cb4b3d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A rejeição de um veto parcial restaura automaticamente todos os demais dispositivos vetados do mesmo projeto e os coloca imediatamente em vigor, independentemente de promulgação e publicação.",
+      "justificativa": "ERRADO. Rejeitar um veto parcial faz prosseguir para promulgação a parte cuja rejeição foi aprovada; não derruba automaticamente outros vetos. Também se distinguem promulgação, publicação e início de vigência. O item reúne dois saltos indevidos: ampliar o objeto da decisão e dispensar as etapas posteriores.",
+      "gatilho": "todos os demais",
+      "armadilhaBanca": "Ampliar o objeto da decisão e confundir etapas de formação da lei.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §§4º a 7º; LINDB, art. 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A rejeição de um veto parcial alcança a parte apreciada e exige as etapas pertinentes de promulgação, publicação e entrada em vigor.",
+      "submoduloId": "10.6",
+      "submodulo": "10.6"
+    }
+  }
+]

@@ -13,9 +13,11 @@ export interface InfoProveniencia {
 }
 
 /**
- * Padrão regex que proíbe qualquer alegação de concurso real ou banca em itens inéditos (C1).
+ * Triagem de alegações de origem em prova. Não confundir o tema jurídico
+ * "concurso público" ou "concurso doloso" com atribuição a uma banca.
+ * A confirmação da origem exige também os metadados e documentos do acervo.
  */
-export const REGEX_TERMOS_PROIBIDOS_INEDITA = /gabarito oficial|cobrado no concurso|pela banca|concurso [A-Z]/i;
+export const REGEX_TERMOS_PROIBIDOS_INEDITA = /gabarito oficial|cobrado no concurso|pela banca|(?:questão|item)\s+(?:do|da)\s+(?:concurso|prova)\b|(?:concurso|prova)\s+(?:CESPE|CEBRASPE|FCC|FGV|VUNESP|IBFC|CESGRANRIO)\b/i;
 
 /**
  * Gera o texto de rodapé padrão para a proveniência do item.
@@ -36,6 +38,9 @@ export function obterTextoRodapeProveniencia(fonteOriginal?: FonteOriginal): str
   }
 
   if (fonteOriginal.tipo === 'adaptada') {
+    if (!fonteOriginal.verificado) {
+      return 'Adaptação editorial; atribuição à prova de origem ainda não confirmada em documento oficial.';
+    }
     const orgaoAno = [fonteOriginal.banca || 'Cebraspe', fonteOriginal.orgao, fonteOriginal.ano].filter(Boolean).join(' / ');
     return `Questão adaptada a partir de prova oficial: ${orgaoAno}.`;
   }
@@ -77,6 +82,17 @@ export function obterInfoProveniencia(fonteOriginal?: FonteOriginal): InfoProven
   }
 
   if (fonteOriginal.tipo === 'adaptada') {
+    if (!fonteOriginal.verificado) {
+      return {
+        rotulo: 'Adaptada — origem não confirmada',
+        badgeClass: 'bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/30',
+        isReal: false,
+        isAdaptada: true,
+        isInedita: false,
+        verificado: false,
+        textoRodape,
+      };
+    }
     const orgaoAno = [fonteOriginal.orgao, fonteOriginal.ano].filter(Boolean).join(' ');
     return {
       rotulo: orgaoAno ? `Adaptada (${orgaoAno})` : 'Adaptada',

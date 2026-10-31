@@ -22,24 +22,22 @@ try {
   await page.waitForFunction(() => document.body.innerText.includes('Finalizar Simulado'));
 
   async function clickText(texto) {
-    for (const button of await page.$$('button')) {
-      if ((await button.evaluate(e => e.innerText)).includes(texto)) {
-        await button.click();
-        return;
-      }
-    }
-    throw Error('Botão não encontrado: ' + texto);
+    await page.locator(`button::-p-text(${texto})`).click();
   }
 
   async function selecionarItem(prova = false) {
-    await page.evaluate(async prova => {
+    await page.evaluate(async () => {
       const { useProgressStore } = await import('/src/store/useProgressStore.ts');
       const { useNavigationStore } = await import('/src/store/useNavigationStore.ts');
       useProgressStore.getState().reiniciarSimulado('mini-modulo-orgaos');
-      useProgressStore.getState().definirModoProvaSimulado('mini-modulo-orgaos', prova);
-      useNavigationStore.getState().setTargetQuestionId('orgaos-q-021');
-    }, prova);
+      useProgressStore.getState().iniciarOuRetomarSimulado('mini-modulo-orgaos');
+      useNavigationStore.getState().navigateToQuestao('mini-modulo-orgaos', 'orgaos-q-021');
+    });
     await page.waitForFunction(() => document.body.innerText.includes('foi efetivamente criada em 1866'));
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+    await page.waitForFunction(() => Array.from(document.querySelectorAll('button')).some(b => b.innerText.includes('Estudo · feedback') && !b.disabled));
+    await clickText(prova ? 'Prova · correção ao final' : 'Estudo · feedback a cada resposta');
+    await page.waitForFunction(prova => Array.from(document.querySelectorAll('button')).some(b => b.innerText.includes(prova ? 'Prova · correção ao final' : 'Estudo · feedback a cada resposta') && b.getAttribute('aria-pressed') === 'true'), {}, prova);
   }
 
   async function respostasOriginais() {

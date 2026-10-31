@@ -1,3 +1,4 @@
+import { EnunciadoQuestao } from '../common/EnunciadoQuestao';
 import { PainelEstudoReverso } from '../common/PainelEstudoReverso';
 import { AccessibleModal } from '../common/AccessibleModal';
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
@@ -253,9 +254,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
 
               {/* Texto da Assertiva */}
               <div className="card-editorial p-6 sm:p-8 bg-surface border border-border shadow-editorial-sm">
-                <p className="font-serif-reading text-base sm:text-lg text-ink leading-relaxed m-0 select-text">
-                  {itemAtual.item}
-                </p>
+                <EnunciadoQuestao {...itemAtual} />
               </div>
 
               {/* Botões de Decisão Cebraspe */}
@@ -527,9 +526,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                         </div>
                       </div>
 
-                      <p className="font-serif-reading text-sm text-ink leading-relaxed m-0">
-                        "{it.item}"
-                      </p>
+                      <EnunciadoQuestao {...it} />
 
                       <div className="grid grid-cols-2 gap-2 text-xs font-mono">
                         <div className="p-2 rounded bg-surface-2 border border-border">

@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
+import { revisoesIndividuais, disposicoesHistoricas } from './helpers/revisoesIndividuais';
 import { simuladoIngles100Q } from '../content/questions/m12-ingles-100q';
 import { megaSimuladoCamara120Q } from '../content/questions/mega-simulado-camara-120q';
 import { simuladoOficialCamara180Q } from '../content/questions/simulado-oficial-camara-180q';
@@ -24,7 +25,7 @@ describe('C2 / C8 — Conferência dos Itens de Inglês com Divergência Cebrasp
     expect(content.toLowerCase()).toContain('espelho oficial');
   });
 
-  it('2. Todos os 10 itens de m12-ingles-100q.ts e os 3 de mega-simulado estão marcados com revisar: true', () => {
+  it('2. Origem permanece não certificada; liberação editorial exige decisão individual registrada', () => {
     const m12Ids = [
       'm12-q-4', 'm12-q-9', 'm12-q-23', 'm12-q-44', 'm12-q-50',
       'm12-q-54', 'm12-q-59', 'm12-q-70', 'm12-q-79', 'm12-q-93'
@@ -33,16 +34,26 @@ describe('C2 / C8 — Conferência dos Itens de Inglês com Divergência Cebrasp
     for (const id of m12Ids) {
       const q = simuladoIngles100Q.find((x) => x.id === id);
       expect(q, `Questão ${id} deve existir em m12`).toBeDefined();
-      expect(q?.fonteOriginal?.revisar, `Item ${id} deve ter flag revisar: true`).toBe(true);
-      expect(q?.fonteOriginal?.tipo, `Item ${id} deve ter tipo em-conferencia`).toBe('em-conferencia');
+      expect(q?.fonteOriginal?.revisar, `Item ${id} deve ter flag revisar: true`).toBe(!disposicoesHistoricas.has(id));
+      expect(q?.fonteOriginal?.tipo, `Item ${id} deve manter origem não certificada`).toBe(revisoesIndividuais.has(id) ? 'adaptada' : 'em-conferencia');
+      expect(q?.fonteOriginal?.verificado).toBe(false);
+      if (revisoesIndividuais.has(id)) {
+        expect(q?.item).toBe(revisoesIndividuais.get(id)?.patch.item);
+        expect(q?.justificativa).toBe(revisoesIndividuais.get(id)?.patch.justificativa);
+      }
     }
 
     for (const id of ['mega-q-13', 'mega-q-14', 'mega-q-16']) {
       const q = megaSimuladoCamara120Q.find((x) => x.id === id);
       expect(q, `Questão ${id} deve existir no mega-simulado`).toBeDefined();
-      expect(q?.fonteOriginal?.revisar, `Item ${id} deve ter flag revisar: true`).toBe(true);
+      expect(q?.fonteOriginal?.revisar).toBe(!disposicoesHistoricas.has(id));
       if (id !== 'mega-q-16') {
-        expect(q?.fonteOriginal?.tipo, `Item ${id} deve ter tipo em-conferencia`).toBe('em-conferencia');
+        expect(q?.fonteOriginal?.tipo, `Item ${id} deve manter origem não certificada`).toBe(revisoesIndividuais.has(id) ? 'adaptada' : 'em-conferencia');
+      expect(q?.fonteOriginal?.verificado).toBe(false);
+      if (revisoesIndividuais.has(id)) {
+        expect(q?.item).toBe(revisoesIndividuais.get(id)?.patch.item);
+        expect(q?.justificativa).toBe(revisoesIndividuais.get(id)?.patch.justificativa);
+      }
       }
     }
   });
@@ -60,15 +71,16 @@ describe('C2 / C8 — Conferência dos Itens de Inglês com Divergência Cebrasp
 
     // q33 sob C8 está marcado em-conferencia
     expect(q33?.gabarito).toBe('C');
-    expect(q33?.fonteOriginal?.tipo).toBe('em-conferencia');
-    expect(q33?.fonteOriginal?.revisar).toBe(true);
+    expect(q33?.fonteOriginal?.tipo).toBe(revisoesIndividuais.has('oficial-180q-033') ? 'adaptada' : 'em-conferencia');
+    expect(q33?.fonteOriginal?.verificado).toBe(false);
+    if (revisoesIndividuais.has('oficial-180q-033')) expect(q33?.justificativa).toBe(revisoesIndividuais.get('oficial-180q-033')?.patch.justificativa);
+    expect(q33?.fonteOriginal?.revisar).toBe(!disposicoesHistoricas.has('oficial-180q-033'));
 
-    // Assegura paridade e integridade estrutural
+    // Correção individual prevalece sobre cota artificial de gabarito.
     expect(simuladoOficialCamara180Q).toHaveLength(180);
     const p1Certos = simuladoOficialCamara180Q.slice(0, 90).filter((q) => q.gabarito === 'C').length;
     const p1Errados = simuladoOficialCamara180Q.slice(0, 90).filter((q) => q.gabarito === 'E').length;
-    expect(p1Certos).toBe(45);
-    expect(p1Errados).toBe(45);
+    expect(p1Certos + p1Errados).toBe(90);
   });
 
   it('4. PortaoVerificacaoModal exclui programaticamente questões marcadas com revisar: true', () => {
@@ -76,14 +88,20 @@ describe('C2 / C8 — Conferência dos Itens de Inglês com Divergência Cebrasp
     expect(portaoCode).toMatch(/revisar|elegivelParaEstudo/);
   });
 
-  it('5. Nenhum gabarito das questões sob divergência foi alterado sem fonte primária Cebraspe', () => {
-    const m12_q4 = simuladoIngles100Q.find((q) => q.id === 'm12-q-4');
-    expect(m12_q4?.gabarito).toBe('E');
-
-    const m12_q9 = simuladoIngles100Q.find((q) => q.id === 'm12-q-9');
-    expect(m12_q9?.gabarito).toBe('C');
-
-    const m12_q23 = simuladoIngles100Q.find((q) => q.id === 'm12-q-23');
-    expect(m12_q23?.gabarito).toBe('C');
+  it('5. Alteração editorial não é apresentada como confirmação do gabarito oficial', () => {
+    for (const id of ['m12-q-4', 'm12-q-9', 'm12-q-23']) {
+      const q = simuladoIngles100Q.find(q => q.id === id)!;
+      const revisao = revisoesIndividuais.get(id);
+      expect(q.fonteOriginal.verificado).toBe(false);
+      expect(q.fonteOriginal.revisar).toBe(!disposicoesHistoricas.has(id));
+      if (revisao) {
+        expect(q.item).toBe(revisao.patch.item);
+        expect(q.justificativa).toBe(revisao.patch.justificativa);
+        if (revisao.patch.gabarito) expect(q.gabarito).toBe(revisao.patch.gabarito);
+        expect(revisao.fonteIds.length).toBeGreaterThan(0);
+      } else {
+        expect(q.fonteOriginal.tipo).toBe('em-conferencia');
+      }
+    }
   });
 });

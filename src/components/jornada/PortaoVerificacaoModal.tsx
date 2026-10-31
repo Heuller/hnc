@@ -1,3 +1,5 @@
+import { EnunciadoQuestao } from '../common/EnunciadoQuestao';
+import { PainelEstudoReverso } from '../common/PainelEstudoReverso';
 import { AccessibleModal } from '../common/AccessibleModal';
 import React, { useState, useMemo } from 'react';
 import { motion } from 'motion/react';
@@ -44,6 +46,12 @@ interface ItemQuiz {
   id: string;
   pergunta?: string;
   assertiva: string;
+  contexto?: string;
+  macroModuloId?: string;
+  gatilho?: string;
+  versao_errada?: string;
+  fonte?: string;
+  dataConferencia?: string;
   gabarito: 'C' | 'E';
   justificativa: string;
   armadilhaBanca?: string;
@@ -133,6 +141,12 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
           id: q.id,
           pergunta: `Item ${q.numero} · Submódulo ${q.submoduloId}`,
           assertiva: q.item,
+          contexto: q.contexto,
+          macroModuloId: q.macroModuloId,
+          gatilho: q.gatilho,
+          versao_errada: q.versao_errada,
+          fonte: q.fonte,
+          dataConferencia: q.dataConferencia,
           gabarito: q.gabarito,
           justificativa: q.justificativa,
           armadilhaBanca: q.armadilhaBanca,
@@ -513,9 +527,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                     {currentItem.pergunta}
                   </span>
                 )}
-                <p className="text-sm sm:text-base text-ink font-serif leading-relaxed">
-                  {currentItem.assertiva}
-                </p>
+                <EnunciadoQuestao item={currentItem.assertiva} contexto={currentItem.contexto} macroModuloId={currentItem.macroModuloId} />
               </div>
 
               {/* Seleção de Resposta Cebraspe */}
@@ -600,37 +612,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                     </span>
                   </div>
 
-                  {/* Armadilha da Banca */}
-                  {currentItem.armadilhaBanca && (
-                    <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/25 space-y-1 text-amber-800 dark:text-amber-200">
-                      <div className="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wide text-accent dark:text-amber-400">
-                        <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
-                        <span>Armadilha Cebraspe Identificada</span>
-                      </div>
-                      <p className="leading-relaxed font-sans">{currentItem.armadilhaBanca}</p>
-                    </div>
-                  )}
-
-                  {/* Justificativa Técnica */}
-                  <div className="p-3 rounded-lg bg-surface border border-border/80 space-y-1 text-ink">
-                    <span className="font-bold text-xs uppercase tracking-wide text-ink-2 block">
-                      Justificativa e Fundamentação Técnica
-                    </span>
-                    <p className="font-serif leading-relaxed text-xs sm:text-[13px]">{currentItem.justificativa}</p>
-                  </div>
-
-                  {/* Como ficaria correto (para itens com gabarito ERRADO) */}
-                  {currentItem.gabarito === 'E' && currentItem.versao_correta && (
-                    <div className="p-3 rounded-lg bg-surface border border-emerald-500/30 space-y-1 text-ink">
-                      <div className="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
-                        <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
-                        <span>Como ficaria correto (Fixação Canônica)</span>
-                      </div>
-                      <p className="font-serif leading-relaxed text-xs sm:text-[13px] italic m-0">
-                        "{currentItem.versao_correta}"
-                      </p>
-                    </div>
-                  )}
+                  <PainelEstudoReverso questao={{...currentItem, item: currentItem.assertiva}} resposta={respostas[currentItem.id]} autoexplicacao={false} />
                 </div>
               )}
             </div>

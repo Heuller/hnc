@@ -9,8 +9,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos princípios internacionais de catalogação e de suas repercussões na construção de catálogos bibliográficos, julgue o item a seguir.",
     "item": "Ao escolher entre duas formas de apresentação de dados no catálogo, a equipe deve considerar a conveniência do usuário como princípio geral prioritário, conforme os ICP de 2016.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A conveniência do usuário orienta a escolha entre soluções de catalogação. Recupere o princípio geral dos ICP: conveniência do usuário. Verifique se a prioridade atribuída à equipe coincide com esse princípio.",
-    "armadilhaBanca": "Técnica: Aplicação de princípio. O cenário muda, mas a prioridade deve permanecer vinculada ao usuário do catálogo.",
+    "justificativa": "CERTO. Os ICP de 2016 dão prioridade à conveniência do usuário nas decisões de catalogação. A escolha deve ser avaliada por sua utilidade para encontrar e compreender os recursos, não apenas por facilitar o trabalho interno. A prioridade não elimina os demais princípios nem autoriza alterar silenciosamente dados transcritos.",
+    "armadilhaBanca": "Distinguir a finalidade do catálogo e a comodidade de sua produção.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -18,10 +18,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "conveniência do usuário como princípio geral prioritário",
-    "versao_errada": "O princípio geral prioritário deve ser a conveniência do catalogador, conforme os ICP de 2016.",
-    "fonte": "IFLA — Princípios Internacionais de Catalogação (2016, revisão 2017) — seção 2, princípios 2.1 e 2.3",
-    "dataConferencia": "2026-10-29",
+    "gatilho": "conveniência do usuário",
+    "versao_errada": "Uma decisão mais cômoda para a equipe deve sempre prevalecer sobre a conveniência do usuário.",
+    "fonte": "IFLA — Princípios Internacionais de Catalogação, 2016 — 2.1: conveniência do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+    "dataConferencia": "2026-10-30",
     "habilidade": "aplicar"
   },
   {
@@ -32,16 +32,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos princípios internacionais de catalogação e de suas repercussões na construção de catálogos bibliográficos, julgue o item a seguir.",
     "item": "O princípio do uso comum estabelece que o vocabulário empregado nas descrições e nos pontos de acesso deve ser compatível com a linguagem corrente e esperada pelo público-alvo a que o catálogo se destina.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o Princípio 2.2 da Declaração de Princípios Internacionais de Catalogação (ICP 2016 da IFLA), o princípio do 'Uso comum' prescreve que o vocabulário empregado nas descrições bibliográficas e na padronização de pontos de acesso deve estar em estrita consonância com a linguagem habitual e corrente da maioria dos usuários a que o catálogo se destina, evitando tecnicismos herméticos que criem barreiras à recuperação.",
-    "armadilhaBanca": "Afirmação precisa sobre o princípio do uso comum da IFLA.",
+    "justificativa": "CERTO. O uso comum orienta a linguagem de descrições e pontos de acesso à compreensão dos usuários. Isso não significa aceitar toda variante como forma autorizada nem substituir títulos transcritos por termos mais modernos. Controle e remissivas podem aproximar vocabulários diferentes sem apagar a representação do recurso.",
+    "armadilhaBanca": "A orientação à linguagem do usuário não dispensa regras de transcrição e controle.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "pontos de acesso deve ser compatível com",
-    "versao_errada": "O princípio do uso comum estabelece que o vocabulário empregado nas descrições e nos indevidamente pontos de acesso deve ser compatível com a linguagem corrente e esperada pelo público-alvo a que o catálogo se destina."
+    "gatilho": "linguagem corrente e esperada pelo público-alvo",
+    "versao_errada": "O princípio do uso comum obriga substituir silenciosamente todo título por uma expressão coloquial escolhida pelo catalogador.",
+    "fonte": "IFLA — Princípios Internacionais de Catalogação, 2016 — 2.2: uso comum — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-3",
@@ -51,18 +53,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos princípios de catalogação da IFLA (ICP 2016), julgue o item seguinte.",
     "item": "Ao transcrever um título com grafia histórica, o catalogador pode substituí-lo silenciosamente pela grafia atual, pois o princípio da representação exige registrar a forma linguística mais moderna.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Representar o recurso não equivale a reescrever livremente sua informação transcrita. Compare a mudança silenciosa com a representação do recurso. Não transfira para a transcrição uma liberdade própria de outros elementos do registro.",
-    "armadilhaBanca": "Técnica: Troca de finalidade. Uma possível conveniência de busca é apresentada como autorização para alterar a representação do recurso.",
+    "justificativa": "ERRADO. Representar o recurso não é modernizar livremente sua grafia. A forma transcrita e as formas adicionais para acesso têm funções distintas. Uma entrada variante pode favorecer a busca sem fazer parecer que o documento apresenta um título diferente.",
+    "armadilhaBanca": "Separar transcrição e normalização dos pontos de acesso.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "A representação do recurso não autoriza substituir silenciosamente a grafia do título pela forma que o catalogador considera mais moderna.",
-    "gatilho": "substituí-lo silenciosamente pela grafia atual",
-    "fonte": "IFLA — Princípios Internacionais de Catalogação (2016, revisão 2017) — seção 2, princípios 2.1 e 2.3",
-    "dataConferencia": "2026-10-29",
+    "versao_correta": "A grafia transcrita pode ser preservada, com formas adicionais de acesso quando cabíveis, sem modernização silenciosa do título.",
+    "gatilho": "substituí-lo silenciosamente",
+    "fonte": "IFLA — Princípios Internacionais de Catalogação, 2016 — 2.3: representação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+    "dataConferencia": "2026-10-30",
     "habilidade": "analisar"
   },
   {
@@ -73,8 +75,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à teoria da catalogação descritiva e aos objetivos clássicos do catálogo, julgue o item subsequente.",
     "item": "Charles Ammi Cutter, em suas clássicas regras de 1876, formulou os três objetivos fundamentais do catálogo bibliográfico: permitir a localização de um livro, mostrar o que a biblioteca possui e auxiliar na escolha de uma obra.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Charles Ammi Cutter, em suas históricas 'Rules for a Printed Dictionary Catalogue' (1876), definiu os três objetivos seminais que moldaram a catalogação moderna: 1) Permitir a localização de um livro por autor, título ou assunto; 2) Mostrar o que a biblioteca possui de determinado autor, sobre dado assunto ou em determinado gênero literário; e 3) Auxiliar na escolha de um livro quanto à sua edição e quanto ao seu caráter literário ou material.",
-    "armadilhaBanca": "Item histórico literal e canônico frequentemente cobrado pelo Cebraspe.",
+    "justificativa": "CERTO. Cutter descreveu objetivos de encontrar um livro conhecido, mostrar o que a biblioteca possui e ajudar na escolha. Cada objetivo envolve critérios, como autor, título, assunto, edição ou caráter da obra. São funções históricas que influenciam a catalogação; não são idênticas à lista posterior de tarefas FRBR ou LRM.",
+    "armadilhaBanca": "Não confundir influência histórica e identidade de modelos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -82,8 +84,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "gatilho": "catálogo bibliográfico: permitir a localização de um",
-    "versao_errada": "Charles Ammi Cutter, em suas clássicas regras de 1876, formulou os três objetivos fundamentais do indevidamente catálogo bibliográfico: permitir a localização de um livro, mostrar o que a biblioteca possui e auxiliar na escolha de uma obra."
+    "gatilho": "localização de um livro",
+    "versao_errada": "Os objetivos de Cutter de 1876 são exatamente a mesma lista de cinco tarefas do IFLA LRM de 2017.",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — objetivos do catálogo de Cutter, 1876. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-5",
@@ -93,15 +97,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à teoria da catalogação descritiva e aos objetivos clássicos do catálogo, julgue o item subsequente.",
     "item": "As regras para catálogo dicionário de Cutter preconizavam a separação física estrita entre os fichários de autor, título e assunto, organizando-os em móveis catalográficos independentes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O catálogo dicionário formulado por Cutter caracteriza-se precisamente pela reunião e interfilação de autores, títulos e assuntos em uma única sequência alfabética integrada. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. O catálogo dicionário reúne entradas de diferentes tipos numa sequência alfabética, em vez de exigir arquivos separados por autor, título e assunto. Outros catálogos podem adotar separações, mas isso não caracteriza a proposta do catálogo dicionário.",
+    "armadilhaBanca": "Troca entre integração alfabética e separação por tipo de acesso.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "As regras para catálogo dicionário de Charles Ammi Cutter preconizavam a reunião e interfilação de entradas de autor, título e assunto em uma única ordem alfabética integrada (semelhante aos verbetes de um dicionário), e não sua separação física em móveis independentes."
+    "versao_correta": "O catálogo dicionário integra entradas de autor, título e assunto em uma sequência alfabética.",
+    "gatilho": "separação física estrita",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — catálogo dicionário e regras de Cutter. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-6",
@@ -111,8 +118,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação à estrutura geral do Código de Catalogação Anglo-Americano (AACR2r), julgue o item a seguir.",
     "item": "O AACR2r divide-se estruturalmente em duas partes principais: a Parte I, dedicada à descrição bibliográfica baseada nas áreas da ISBD, e a Parte II, dedicada à determinação e forma dos pontos de acesso e títulos uniformes.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O AACR2r possui divisão macro bipartida: a Parte I (Capítulos 1 a 13) estabelece as regras de descrição bibliográfica estruturadas com base no padrão ISBD da IFLA em oito áreas padronizadas organizadas por tipos de suporte; e a Parte II (Capítulos 21 a 26) rege a determinação e escolha dos pontos de acesso (autoria principal e secundária), a forma autorizada dos cabeçalhos de nomes e entidades, títulos uniformes e remissivas.",
-    "armadilhaBanca": "Assertiva conceitual exata sobre a macroestrutura do código.",
+    "justificativa": "CERTO. A Parte I trata da descrição por categorias de material e áreas; a Parte II trata da escolha e forma de cabeçalhos, títulos uniformes e remissivas. Uma decisão sobre autoria principal não se resolve apenas transcrevendo a indicação de responsabilidade. Descrição e escolha de acesso são operações relacionadas e distintas.",
+    "armadilhaBanca": "Distinguir descrição bibliográfica e escolha e forma dos pontos de acesso.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -120,8 +127,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJDFT / Bibliotecário"
     },
-    "gatilho": "baseada nas áreas da ISBD, e a",
-    "versao_errada": "O AACR2r divide-se estruturalmente em duas partes principais: a Parte I, dedicada à descrição bibliográfica indevidamente baseada nas áreas da isbd, e a Parte II, dedicada à determinação e forma dos pontos de acesso e títulos uniformes."
+    "gatilho": "duas partes principais",
+    "versao_errada": "A Parte I do AACR2r determina os cabeçalhos de autoria, e a Parte II contém exclusivamente a descrição física.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — estrutura do código, Partes I e II. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-7",
@@ -129,10 +138,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "Em relação à estrutura geral do Código de Catalogação Anglo-Americano (AACR2r), julgue o item a seguir.",
-    "item": "A Área 3 da ISBD/AACR2r (Área de Detalhes Específicos do Material) é de preenchimento obrigatório para a catalogação de qualquer livro oumonografia impressa comum.",
+    "item": "No AACR2r, a área de detalhes específicos do material é obrigatória para qualquer monografia impressa comum, mesmo quando não há dados dessa natureza aplicáveis.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! A Área 3 é restrita a tipos documentais específicos: materiais cartográficos (escala/projeção), música impressa, publicações seriadas e recursos eletrônicos. Livros e monografias comuns NÃO possuem Área 3, passando da Área 2 (Edição) direto para a Área 4 (Publicação).",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. A área de detalhes específicos se aplica a categorias e situações previstas, como dados matemáticos de material cartográfico, e não obrigatoriamente a todo livro comum. A organização das áreas do AACR2 não deve ser confundida com mudanças posteriores da ISBD, como a área 0.",
+    "armadilhaBanca": "Uma área prevista no esquema não é preenchida em todo tipo de recurso.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -140,7 +149,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "A Área 3 da ISBD/AACR2r (Área de Detalhes Específicos do Material) é reservada exclusivamente a tipos documentais específicos (materiais cartográficos, música impressa, publicações seriadas e recursos eletrônicos), não devendo ser preenchida na catalogação de livros e monografias comuns (que passam direto da Área 2 para a Área 4)."
+    "versao_correta": "No AACR2r, a área de detalhes específicos é usada quando aplicável ao material, não obrigatoriamente em todo livro impresso.",
+    "gatilho": "qualquer monografia impressa comum",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.3 e capítulo 2: livros. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-8",
@@ -148,17 +160,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "A respeito dos níveis de descrição bibliográfica previstos no AACR2r, julgue o item subsequente.",
-    "item": "O primeiro nível de catalogação do AACR2r exige o registro completo de todas as notas, dimensões físicas da obra e cabeçalhos secundários de todos os colaboradores.",
+    "item": "O primeiro nível de descrição do AACR2r exige todos os elementos descritivos possíveis, incluindo todas as notas e dimensões que caberiam no terceiro nível.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O primeiro nível de descrição do AACR2r é o mais sumário (mínimo indispensável), contendo apenas título próprio, primeira menção de responsabilidade, menção de edição, imprenta, extensão e número normalizado (ISBN). Notas exaustivas e dimensões pertencem aos níveis 2 e 3.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Os níveis definem conjuntos mínimos de elementos descritivos conforme os objetivos do catálogo. O primeiro não exige todos os detalhes do terceiro. Escolher pontos de acesso é matéria da Parte II e não se confunde com a quantidade de elementos do nível de descrição.",
+    "armadilhaBanca": "Não confundir nível de descrição e determinação de todos os pontos de acesso.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "O primeiro nível de catalogação do AACR2r (regra 1.0D1) prescreve a descrição mínima indispensável (título próprio, primeira indicação de responsabilidade, menção de edição, publicação/distribuição, extensão e número normalizado), reservando o registro de notas e dimensões físicas para os níveis mais detalhados 2 e 3."
+    "versao_correta": "O primeiro nível do AACR2r estabelece elementos mínimos; o terceiro contempla todos os elementos aplicáveis previstos nas regras.",
+    "gatilho": "todos os elementos descritivos possíveis",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.0D1: primeiro nível de descrição. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-9",
@@ -168,8 +183,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos níveis de descrição bibliográfica previstos no AACR2r, julgue o item subsequente.",
     "item": "Na catalogação de livros e monografias impressas segundo o AACR2r, a página de rosto (ou seu substituto) constitui a fonte principal de informação prioritária para a transcrição do título próprio e da menção de responsabilidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a regra 2.0B1 do Capítulo 2 do AACR2r (Livros, Folhetos e Folhas Impressas), a página de rosto (ou folha de rosto) é a fonte principal de informação prioritária e soberana para a transcrição do título próprio, título equivalente, outras informações sobre o título (subtítulo) e as menções de responsabilidade intelectual.",
-    "armadilhaBanca": "Assertiva canônica irretocável sobre fontes de informação.",
+    "justificativa": "CERTO. Para livros impressos, a página de rosto ou substituto previsto é a fonte principal. A capa não a substitui automaticamente por ser mais chamativa. Outras áreas podem admitir fontes diferentes, e dados obtidos fora da fonte prescrita exigem o tratamento indicado pelas regras.",
+    "armadilhaBanca": "Distinguir destaque gráfico e fonte prescrita de informação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -177,8 +192,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TRE / Bibliotecário"
     },
-    "gatilho": "(ou seu substituto) constitui a fonte principal",
-    "versao_errada": "Na catalogação de livros e monografias impressas segundo o AACR2r, a página de rosto indevidamente (ou seu substituto) constitui a fonte principal de informação prioritária para a transcrição do título próprio e da menção de responsabilidade."
+    "gatilho": "página de rosto",
+    "versao_errada": "A capa deve prevalecer sempre sobre a página de rosto na transcrição do título de qualquer livro.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 2.0B1: fonte principal para monografias impressas. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-10",
@@ -188,16 +205,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à pontuação padronizada da ISBD incorporada ao AACR2r, julgue o item que se segue.",
     "item": "Na Área 4 (Publicação, Distribuição etc.), a pontuação padronizada que separa o local de publicação do nome da editora é o sinal de dois-pontos precedido e sucedido por um espaço.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Pela prescrição de pontuação padronizada do padrão ISBD e da regra 1.4B1 do AACR2r para a Área 4 (Publicação, Distribuição etc.), os elementos de imprenta sucedem-se com pontuação rigorosa: o local de publicação é seguido de espaço, dois-pontos e espaço ('Lugar : '), o nome da editora ou distribuidora é sucedido por vírgula e espaço (', Editora, '), culminando na data de publicação e ponto final (ex.: 'Brasília : Edições Câmara, 2026.').",
-    "armadilhaBanca": "A banca testa a atenção à pontuação com espaçamento prévio e posterior.",
+    "justificativa": "CERTO. Na descrição com pontuação ISBD prevista pelo AACR2r, local e editor são separados por dois-pontos, com espaços conforme o padrão. Essa pontuação de apresentação não é um identificador de subcampo MARC. Dados estruturados e exibição podem separar esses elementos de outra forma.",
+    "armadilhaBanca": "Não confundir pontuação de apresentação e estrutura de codificação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "local de publicação do nome da editora",
-    "versao_errada": "Na Área 4 (Publicação, Distribuição etc.), a pontuação padronizada que separa o indevidamente local de publicação do nome da editora é o sinal de dois-pontos precedido e sucedido por um espaço."
+    "gatilho": "dois-pontos",
+    "versao_errada": "Os dois-pontos da descrição ISBD são um subcampo MARC que substitui a identificação do local e do editor.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.4A1: pontuação da área de publicação. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-11",
@@ -205,10 +224,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "No que tange à escolha dos pontos de acesso e à regra de responsabilidade compartilhada no AACR2r, julgue o item.",
-    "item": "Em uma obra com autoria compartilhada entre três pessoas físicas na folha de rosto, sem que nenhuma delas receba destaque tipográfico, a entrada principal é feita sob o nome do primeiro autor citado, gerando-se entradas secundárias para os outros dois autores.",
+    "item": "Segundo o AACR2r, em obra de responsabilidade compartilhada igualmente entre três pessoas, sem indicação de responsabilidade principal, a entrada principal é pelo primeiro autor nomeado, com entradas secundárias para os outros dois.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Aplicação estrita da regra 21.6B1 do AACR2r para obras de autoria compartilhada: quando a responsabilidade principal é dividida entre duas ou três pessoas e nenhuma delas recebe destaque tipográfico especial na fonte principal, a entrada principal é feita obrigatoriamente sob o cabeçalho do primeiro autor mencionado, gerando-se entradas secundárias para o segundo e o terceiro autores.",
-    "armadilhaBanca": "Assertiva de ouro do AACR2r frequentemente cobrada em concursos de tribunais e legislativos.",
+    "justificativa": "CERTO. No caso delimitado, até três pessoas compartilham a responsabilidade e nenhuma é indicada como principal. A entrada é pelo primeiro nomeado, com acessos adicionais para os demais conforme a regra. Destaque tipográfico, isoladamente, não é toda a análise de responsabilidade: a menção e a natureza da obra importam.",
+    "armadilhaBanca": "Identificar quantidade e natureza da responsabilidade antes de escolher a entrada.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -216,8 +235,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Câmara dos Deputados"
     },
-    "gatilho": "delas receba destaque tipográfico, a entrada principal",
-    "versao_errada": "Em uma obra com autoria compartilhada entre três pessoas físicas na folha de rosto, sem que nenhuma indevidamente delas receba destaque tipográfico, a entrada principal é feita sob o nome do primeiro autor citado, gerando-se entradas secundárias para os outros dois autores."
+    "gatilho": "primeiro autor nomeado",
+    "versao_errada": "Uma obra de responsabilidade igual entre três autores, sem indicação de principal, deve sempre ter entrada principal apenas pelo título.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.6C: responsabilidade compartilhada. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-12",
@@ -227,8 +248,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à escolha dos pontos de acesso e à regra de responsabilidade compartilhada no AACR2r, julgue o item.",
     "item": "Caso uma obra seja elaborada em colaboração por quatro autores sem que nenhum deles receba destaque, a entrada principal deve ser efetuada sob o cabeçalho do primeiro autor mencionado, seguido da expressão et al., dispensando-se a entrada pelo título.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Pela regra 21.6C2 do AACR2r, se houver quatro oumais autores sem destaque de qualquer um deles, a entrada principal é OBRIGATORIAMENTE PELO TÍTULO, fazendo-se entrada secundária apenas para o primeiro autor citado. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. No AACR2r, o caso de mais de três pessoas com responsabilidade igual e sem principal leva à entrada pelo título, com acesso adicional conforme as regras. Et al. pertence ao tratamento de menções em contextos descritivos, não torna o primeiro autor o cabeçalho principal desse caso.",
+    "armadilhaBanca": "Separar indicação de responsabilidade e escolha do cabeçalho principal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -236,7 +257,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / MPU / Bibliotecário"
     },
-    "versao_correta": "Caso uma obra seja elaborada em colaboração por quatro ou mais autores sem destaque tipográfico para nenhum deles, a entrada principal é obrigatoriamente efetuada sob o título, fazendo-se entrada secundária apenas para o primeiro autor mencionado (AACR2r, regra 21.6C2)."
+    "versao_correta": "No AACR2r, obra de mais de três autores com responsabilidade igual e sem principal recebe entrada pelo título.",
+    "gatilho": "primeiro autor mencionado",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.6C: mais de três responsáveis sem principal. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-13",
@@ -244,10 +268,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "No que diz respeito à escolha de cabeçalhos no AACR2r, julgue o item a seguir.",
-    "item": "Uma coletânea de artigos científicos sob a responsabilidade de dois organizadores deve receber a entrada principal sob o cabeçalho do primeiro organizador, com a adição da designação abreviada (org.) ao nome.",
+    "item": "No AACR2r, uma coletânea com título coletivo e artigos de autores diferentes deve ter entrada principal pelo primeiro organizador, e não pelo título coletivo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! No AACR2r (regra 21.7B1), obras produzidas sob direção editorial, organização, compilação ou coordenação têm entrada principal OBRIGATORIAMENTE PELO TÍTULO. Os organizadores recebem apenas entradas secundárias. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. Uma coletânea com título coletivo e trabalhos de autores diferentes tem entrada principal pelo título, e pode ter acessos adicionais para organizadores. A função de organizar não transforma automaticamente alguém em autor principal de todo o conteúdo. A ausência de título coletivo exige examinar outras disposições.",
+    "armadilhaBanca": "Distinguir autoria das contribuições e responsabilidade de organização.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -255,7 +279,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "versao_correta": "Uma coletânea de artigos científicos produzida sob coordenação ou organização deve receber a entrada principal obrigatoriamente pelo título, atribuindo-se aos organizadores apenas entradas secundárias com a designação relatora correspondente (AACR2r, regra 21.7B1)."
+    "versao_correta": "Uma coletânea com título coletivo e artigos de autores diferentes tem entrada principal pelo título, com acessos adicionais cabíveis.",
+    "gatilho": "primeiro organizador",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.7B: coletâneas com título coletivo. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-14",
@@ -263,10 +290,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "No que diz respeito à escolha de cabeçalhos no AACR2r, julgue o item a seguir.",
-    "item": "A entrada principal de leis, decretos legislativos e atos normativos deve ser realizada pelo nome da jurisdição que rege a matéria, seguido do título uniforme da lei ou da expressão convencional aplicável.",
+    "item": "No AACR2r, leis abrangidas pelas regras de atos com força de lei têm entrada pelo nome da jurisdição pertinente, com o tratamento de título uniforme cabível.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. De acordo com a regra 21.31B1 do AACR2r, atos legislativos, leis promulgadas e decretos emanados de qualquer esfera de governo têm sua entrada principal formulada obrigatoriamente sob o cabeçalho do nome da jurisdição territorial competente (ex.: 'Brasil', 'Distrito Federal (Brasil)', 'São Paulo (Estado)'), seguido da especificação do título uniforme ou do ato normativo.",
-    "armadilhaBanca": "Regra fundamental para concursos de assembleias e Congresso Nacional.",
+    "justificativa": "CERTO. No caso das leis abrangidas pela regra, o cabeçalho da jurisdição responsável organiza a entrada, e o título uniforme pode reunir o texto ou a categoria pertinente. A autoria institucional não é o nome da pessoa que assinou o ato. Nem todo documento produzido por um órgão público é, porém, uma lei.",
+    "armadilhaBanca": "Distinguir autoridade jurídica da jurisdição e assinatura de uma pessoa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -274,8 +301,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Senado Federal"
     },
-    "gatilho": "pelo nome da jurisdição que rege a",
-    "versao_errada": "A entrada principal de leis, decretos legislativos e atos normativos deve ser realizada indevidamente pelo nome da jurisdição que rege a matéria, seguido do título uniforme da lei ou da expressão convencional aplicável."
+    "gatilho": "nome da jurisdição",
+    "versao_errada": "Uma lei federal deve ter entrada principal pelo nome pessoal de quem a assinou, independentemente da jurisdição.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.31: leis e atos com força de lei. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-15",
@@ -285,15 +314,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de órgãos governamentais e tribunais no AACR2r, julgue o item.",
     "item": "Tribunais superiores brasileiros, como o Superior Tribunal de Justiça (STJ), devem ser catalogados com entrada direta sob sua própria denominação, sendo incorreto subordiná-los ao cabeçalho da jurisdição nacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Pela regra 24.23A do AACR2r, tribunais e cortes judiciais têm entrada principal OBRIGATORIAMENTE subordinada à jurisdição da qual emana sua autoridade (ex.: 'Brasil. Superior Tribunal de Justiça', e não entrada direta).",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. O tipo 7 prevê entrada subordinada para tribunais, conforme as regras próprias. Assim, Brasil. Superior Tribunal de Justiça não é uma subordinação administrativa inventada: é uma forma de cabeçalho catalográfico. Autonomia constitucional do tribunal e entrada bibliográfica são planos distintos.",
+    "armadilhaBanca": "Não usar autonomia institucional como critério isolado de entrada direta.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "Tribunais superiores e cortes judiciais brasileiras (como o STJ e o STF) devem ser catalogados obrigatoriamente sob forma de entrada subordinada à jurisdição da qual emana sua autoridade: \"Brasil. Superior Tribunal de Justiça\" (AACR2r, regra 24.23A)."
+    "versao_correta": "No AACR2r, tribunais seguem a entrada subordinada à jurisdição prevista nas regras de órgãos governamentais.",
+    "gatilho": "entrada direta",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 7; 24.23: tribunais. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-16",
@@ -303,16 +335,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de títulos uniformes no AACR2r, julgue o item subsequente.",
     "item": "O título uniforme tem por finalidade reunir sob um cabeçalho único todas as manifestações de uma obra que tenha sido publicada sob diferentes títulos ao longo do tempo ou em diferentes idiomas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Correto. O capítulo 25 do AACR2r estabelece o título uniforme como instrumento de coligação de obras de autoria complexa, anônimas clássicas (Bíblia, Alcorão) ou publicadas com títulos variantes. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. O título uniforme permite reunir ocorrências da mesma obra que aparecem sob títulos diferentes, inclusive por traduções. Ele não substitui a transcrição do título próprio de cada recurso nem torna toda obra com título semelhante a mesma obra. Identificação da obra e apresentação de uma edição precisam ser distinguidas.",
+    "armadilhaBanca": "Reunir a obra não significa apagar sua apresentação em cada recurso.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "manifestações de uma obra que tenha sido",
-    "versao_errada": "O título uniforme tem por finalidade reunir sob um cabeçalho único todas as indevidamente manifestações de uma obra que tenha sido publicada sob diferentes títulos ao longo do tempo ou em diferentes idiomas."
+    "gatilho": "diferentes títulos",
+    "versao_errada": "Um título uniforme obriga apagar dos registros os títulos próprios apresentados nas diferentes edições.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 25.1: títulos uniformes. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-17",
@@ -322,8 +356,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às remissivas e ao controle de autoridade no AACR2r, julgue o item seguinte.",
     "item": "A remissiva 'Ver' (See reference) orienta o usuário de uma forma de nome ou termo não admitida como ponto de acesso para a forma canônica autorizada adotada pelo catálogo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme as regras do Capítulo 26 do AACR2r e as diretrizes internacionais de controle de autoridade, a remissiva 'Ver' (See reference) possui função direcionadora exclusiva: encaminha o usuário de uma forma de nome, variação ortográfica ou pseudônimo não autorizado diretamente para a forma canônica e oficial acolhida pelo catálogo como ponto de acesso autorizado.",
-    "armadilhaBanca": "Conceito fundamental e claro de remissiva de exclusão.",
+    "justificativa": "CERTO. A remissiva ver encaminha uma forma variante ou não adotada à forma escolhida. Pode aproximar o nome usado pelo pesquisador do cabeçalho autorizado. A forma de partida não recebe por isso o mesmo status de cabeçalho, e a remissiva difere da ligação entre cabeçalhos relacionados.",
+    "armadilhaBanca": "Distinguir variante de acesso e relação entre formas autorizadas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -331,8 +365,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / UnB / Bibliotecário"
     },
-    "gatilho": "de nome ou termo não admitida como",
-    "versao_errada": "A remissiva 'Ver' (See reference) orienta o usuário de uma forma indevidamente de nome ou termo não admitida como ponto de acesso para a forma canônica autorizada adotada pelo catálogo."
+    "gatilho": "forma de nome ou termo não admitida",
+    "versao_errada": "A remissiva ver liga obrigatoriamente dois cabeçalhos igualmente autorizados, sem diferença de status.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 26: remissivas ver. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-18",
@@ -342,8 +378,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às remissivas e ao controle de autoridade no AACR2r, julgue o item seguinte.",
     "item": "A remissiva \"Ver também\" (see also reference) é utilizada na catalogação de autoridades para conduzir o usuário de uma forma não autorizada de nome pessoal para o cabeçalho oficial padronizado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A remissiva \"Ver também\" conecta cabeçalhos que são ambos autorizados, indicando assuntos correlatos ou pseudônimos; quem remete da forma não autorizada para a autorizada é a remissiva \"Ver\". A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. A remissiva ver é a que conduz da forma não adotada à escolhida. Ver também relaciona cabeçalhos autorizados ou conexões previstas no controle. Usar os dois rótulos como sinônimos torna pouco claro se o usuário deve substituir uma forma ou explorar outra relação.",
+    "armadilhaBanca": "Troca entre remissão de variante e remissão associativa ou relacionada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -351,7 +387,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "A remissiva \"Ver\" (see reference) é utilizada na catalogação de autoridades para conduzir o consulente de uma forma não autorizada para o cabeçalho padronizado oficial; a remissiva \"Ver também\" (see also reference) interliga cabeçalhos que já são ambos autorizados."
+    "versao_correta": "Ver encaminha de uma forma não autorizada à escolhida; ver também orienta relações entre cabeçalhos admitidos.",
+    "gatilho": "forma não autorizada",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 26: remissivas ver e ver também. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-19",
@@ -361,8 +400,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à formação de cabeçalhos de nomes pessoais no AACR2r, julgue o item a seguir.",
     "item": "Na catalogação de autores de língua espanhola que utilizam sobrenomes compostos paterno e materno, a entrada principal deve ser efetuada sob o último sobrenome (materno).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Pela regra 22.5C2 do AACR2r, em nomes espanhóis a entrada é feita pelo sobrenome PATERNO (que é o penúltimo na ordem de aparição: ex.: García Márquez, Gabriel e NÃO Márquez, Gabriel). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. A regra geral para sobrenomes espanhóis compostos considera o primeiro sobrenome, observadas as disposições e a forma de uso da pessoa. Aplicar automaticamente o último sobrenome segundo um hábito de outra língua pode gerar entrada inadequada. A língua e o uso precisam ser verificados.",
+    "armadilhaBanca": "Não transportar a prática de uma língua para todos os nomes.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -370,7 +409,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / MRE / Diplomacia"
     },
-    "versao_correta": "Na catalogação de autores de língua espanhola que utilizam sobrenomes compostos paterno e materno, a entrada deve ser efetuada sob o sobrenome paterno (o primeiro dos dois sobrenomes), como em: \"García Márquez, Gabriel\" (AACR2r, regra 22.5C2)."
+    "versao_correta": "Para sobrenomes espanhóis compostos, a entrada geralmente considera o primeiro sobrenome, observadas as regras e o uso da pessoa.",
+    "gatilho": "último sobrenome (materno)",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 22.5 e disposições para nomes espanhóis. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-20",
@@ -380,8 +422,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à formação de cabeçalhos de nomes pessoais no AACR2r, julgue o item a seguir.",
     "item": "Em nomes em língua portuguesa que apresentem prefixos prepositivos ou artigos (como 'da', 'de', 'do'), a entrada deve ser realizada diretamente pelo prefixo em maiúsculas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Conforme a regra 22.5D1 do AACR2r, em língua portuguesa os prefixos prepositivos e artigos NÃO recebem a entrada, entrando-se pela parte principal do sobrenome (ex.: 'Silva, João da', e nunca 'Da Silva, João'). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. Preposições e artigos em nomes portugueses não se tornam automaticamente o elemento de entrada. Consideram-se as regras linguísticas e o uso do nome, como a entrada pelo sobrenome significativo. Colocar a partícula em maiúsculas não altera sua função catalográfica.",
+    "armadilhaBanca": "A posição gráfica de uma partícula não determina sozinha a entrada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -389,7 +431,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCE-PA"
     },
-    "versao_correta": "Em nomes em língua portuguesa que apresentem prefixos prepositivos ou artigos (como \"da\", \"de\", \"do\"), a entrada deve ser realizada diretamente pelo sobrenome principal substantivo, pospondo-se o prefixo: \"Silva, João da\" (AACR2r, regra 22.5D1)."
+    "versao_correta": "Em nomes portugueses, a escolha do elemento de entrada deve seguir as regras de sobrenome e partículas, não obrigatoriamente a primeira preposição.",
+    "gatilho": "diretamente pelo prefixo",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 22.5: prefixos em nomes pessoais portugueses. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-21",
@@ -397,18 +442,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "No que se refere a eventos e conferências no AACR2r, julgue o item subsequente.",
-    "item": "Congressos, conferências e seminários que ocorram periodicamente e possuam nome próprio são catalogados com entrada pelo nome do evento, seguido do número da edição, do ano de realização e do local entre parênteses.",
+    "item": "No AACR2r, o cabeçalho de uma conferência com nome identificado pode incluir número da reunião, data e lugar para distinguir sua ocorrência, conforme as regras aplicáveis.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Certo. Conforme a regra 24.7B do AACR2r, a fórmula canônica para eventos é: Nome da Conferência (Número : Ano : Local). Ex.: Congresso Brasileiro de Biblioteconomia e Documentação (28. : 2019 : Vitória, ES). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. O nome identificado do evento pode receber os acréscimos de número, data e lugar para distinguir ocorrências. O nome da instituição promotora não é necessariamente o nome da conferência. A forma e a pontuação dos acréscimos seguem a regra e a informação disponível.",
+    "armadilhaBanca": "Distinguir entidade-evento, promotor e ocorrência específica.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "com entrada pelo nome do evento, seguido",
-    "versao_errada": "Congressos, conferências e seminários que ocorram periodicamente e possuam nome próprio são catalogados indevidamente com entrada pelo nome do evento, seguido do número da edição, do ano de realização e do local entre parênteses."
+    "gatilho": "nome identificado",
+    "versao_errada": "O cabeçalho de uma conferência é sempre apenas o nome da instituição promotora, sem distinguir número, data ou lugar.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.7: conferências e reuniões. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-22",
@@ -418,8 +465,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere a eventos e conferências no AACR2r, julgue o item subsequente.",
     "item": "Ministérios e secretarias de Estado do Poder Executivo devem ser catalogados com entrada direta sob sua própria denominação, dispensando qualquer menção à jurisdição política superior.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Ministérios, secretarias e órgãos diretos do Poder Executivo são órgãos estatais subordinados e têm entrada obrigatoriamente subordinada à jurisdição política (ex.: 'Brasil. Ministério da Educação', e não 'Ministério da Educação').",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. Ministérios e órgãos executivos superiores similares têm tratamento de entrada subordinada à jurisdição no tipo 5. Um órgão público não ganha automaticamente entrada direta porque seu nome é conhecido. Também não se deve aplicar a mesma subordinação indiscriminadamente a qualquer entidade mantida pelo governo.",
+    "armadilhaBanca": "Distinguir o tipo específico da regra e uma generalização para todo órgão público.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -427,7 +474,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / IPEA / 2024"
     },
-    "versao_correta": "Ministérios, secretarias de Estado e órgãos da administração pública direta do Poder Executivo devem ser catalogados com entrada subordinada à respectiva jurisdição política superior: \"Brasil. Ministério da Educação\" (AACR2r, regra 24.18, Tipo 1)."
+    "versao_correta": "No AACR2r, ministérios e órgãos executivos superiores similares seguem o tratamento de subordinação à jurisdição.",
+    "gatilho": "entrada direta",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 5. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-23",
@@ -437,16 +487,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação às áreas de descrição física e edição no AACR2r, julgue o item a seguir.",
     "item": "A menção de edição na Área 2 deve ser transcrita utilizando-se as abreviaturas padrão e os algarismos arábicos previstos nos apêndices do AACR2r, mesmo que na fonte conste por extenso.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a regra 1.2B1 e as diretrizes do Apêndice B do AACR2r, a transcrição da menção de edição na Área 2 exige a conversão de numerais por extenso para algarismos arábicos seguidos da abreviatura padrão do idioma do recurso. Em língua portuguesa, termos como 'Segunda edição revista e ampliada' são abreviados compulsoriamente pelo catalogador para '2. ed. rev. e ampl.'.",
-    "armadilhaBanca": "Regra clássica de transcrição com abreviatura normalizada no AACR2r (diferente da transcrição fidedigna do RDA).",
+    "justificativa": "CERTO. O AACR2r prevê normalização de abreviaturas e numerais na indicação de edição, conforme as disposições aplicáveis. Segunda edição pode ser registrada em forma padronizada, por exemplo. Isso difere de tomar toda transcrição como reprodução absolutamente literal e também difere das orientações de transcrição de outros códigos.",
+    "armadilhaBanca": "Identificar o código e o elemento antes de aplicar uma regra de transcrição.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "abreviaturas padrão e os algarismos arábicos previstos",
-    "versao_errada": "A menção de edição na Área 2 deve ser transcrita utilizando-se as indevidamente abreviaturas padrão e os algarismos arábicos previstos nos apêndices do AACR2r, mesmo que na fonte conste por extenso."
+    "gatilho": "abreviaturas padrão e os algarismos arábicos",
+    "versao_errada": "No AACR2r, a indicação de edição nunca admite abreviaturas ou normalização de numerais que não estejam literalmente na fonte.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.2B e apêndices de abreviaturas e numerais. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-24",
@@ -456,8 +508,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação às áreas de descrição física e edição no AACR2r, julgue o item a seguir.",
     "item": "Na descrição física de monografias impressas (Área 5), a altura do livro em centímetros deve ser arredondada para baixo quando a fração for inferior a cinco milímetros.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Conforme a regra 2.5D1 do AACR2r, registra-se a altura do livro em centímetros inteiros, arredondando-se QUALQUER fração para o centímetro seguinte inteiro (ex.: 20,2 cm deve ser registrado como 21 cm). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. A altura é registrada com aproximação das frações ao centímetro seguinte. Um volume de 21,2 cm recebe 22 cm nessa aplicação, e não 21 cm por uma regra de arredondamento decimal comum. É uma convenção de descrição, não uma alteração na medida física real.",
+    "armadilhaBanca": "Não aplicar o arredondamento matemático comum a uma convenção específica de registro.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -465,7 +517,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2023"
     },
-    "versao_correta": "Na descrição física de monografias impressas (Área 5 do AACR2r, regra 2.5D1), a altura do livro em centímetros deve ser registrada em número inteiro, arredondando-se qualquer fração de centímetro (mesmo menor que 5 mm) para o centímetro inteiro imediatamente superior."
+    "versao_correta": "No AACR2r, a altura de 21,2 cm é registrada como 22 cm na aplicação da regra de dimensões.",
+    "gatilho": "arredondada para baixo",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 2.5D1: dimensões. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-25",
@@ -475,16 +530,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação às áreas de descrição física e edição no AACR2r, julgue o item a seguir.",
     "item": "O material adicional ou encarte que acompanha uma publicação monográfica deve ser indicado ao final da Área 5 de descrição física, precedido pelo sinal de adição (+).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a regra 1.5E1 do AACR2r, os materiais complementares que acompanham o recurso principal e que se destinam a uso conjunto (como folhetos, encartes, mapas desdobráveis ou mídias ópticas) são indicados ao final da Área 5 de descrição física, precedidos por espaço, sinal de adição e espaço (' + '), seguidos do número de unidades e do termo descritivo correspondente.",
-    "armadilhaBanca": "Sintaxe exata de ISBD para material adicional.",
+    "justificativa": "CERTO. A menção do material adicional pode ser registrada ao final da descrição física com + e os dados cabíveis. O sinal faz parte da descrição; não confere ao encarte o mesmo estatuto de outro exemplar nem substitui automaticamente a análise de uma descrição separada quando necessária.",
+    "armadilhaBanca": "Distinguir inclusão de material acompanhante e exclusão de descrição.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "deve ser indicado ao final da Área",
-    "versao_errada": "O material adicional ou encarte que acompanha uma publicação monográfica indevidamente deve ser indicado ao final da área 5 de descrição física, precedido pelo sinal de adição (+)."
+    "gatilho": "sinal de adição (+)",
+    "versao_errada": "O sinal + na descrição física indica que o material adicional deve ser omitido do registro.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 1.5E e 2.5E: material adicional. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-26",
@@ -492,10 +549,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.2",
     "contexto": "No que se refere aos fundamentos e à transição paradigmática promovida pelo padrão RDA (Resource Description and Access), julgue o item subsequente.",
-    "item": "O RDA foi desenvolvido para substituir o AACR2r, operando a transição de um código voltado para a confecção de fichas bibliográficas em gavetas para um padrão de dados projetado para o ambiente digital e a web semântica.",
+    "item": "O RDA foi desenvolvido como sucessor do AACR2, com diretrizes para descrição e acesso orientadas a dados e relacionamentos em ambientes digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Correto. O RDA substitui a lógica orientada a fichas e texto linear do AACR2r por uma estrutura orientada a entidades, atributos e relacionamentos, otimizada para o ambiente web e linked data. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
+    "justificativa": "CERTO. RDA foi desenvolvido como sucessor do AACR2, com orientação a dados e relacionamentos adequada a ambientes digitais. Isso não significa que o AACR2 só pudesse ser usado em fichas: ele também foi aplicado em catálogos automatizados. A mudança não se resume a trocar o suporte do catálogo.",
+    "armadilhaBanca": "Não confundir origem histórica e impossibilidade de aplicação em outro ambiente.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -503,8 +560,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "gatilho": "para a confecção de fichas bibliográficas em",
-    "versao_errada": "O RDA foi desenvolvido para substituir o AACR2r, operando a transição de um código voltado indevidamente para a confecção de fichas bibliográficas em gavetas para um padrão de dados projetado para o ambiente digital e a web semântica."
+    "gatilho": "ambientes digitais",
+    "versao_errada": "O AACR2 nunca pôde ser utilizado em um catálogo automatizado, sendo tecnicamente exclusivo de fichas em papel.",
+    "fonte": "RDA: Descrição e Acesso de Recursos — brochura histórica em português — desenvolvimento do RDA e relação com AACR2. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-27",
@@ -514,8 +573,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos fundamentos e à transição paradigmática promovida pelo padrão RDA (Resource Description and Access), julgue o item subsequente.",
     "item": "No RDA, a Designação Geral do Material (DGM), que anteriormente era inserida em colchetes após o título próprio no AACR2r, foi extinta e substituída por três elementos desmembrados: tipo de conteúdo, tipo de mídia e tipo de suporte.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Certo. A DGM (ex.: [recurso eletrônico], [filme]) misturava conteúdo com formato físico. O RDA resolveu essa ambiguidade criando três atributos independentes (campos MARC 336, 337 e 338). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A DGM do AACR2 não é mantida como um único elemento equivalente no RDA; conteúdo, mídia e suporte são tratados separadamente. Um mesmo recurso pode ter texto como conteúdo e recurso online como suporte. A separação evita confundir a expressão intelectual com o meio que a incorpora.",
+    "armadilhaBanca": "Separar o que é comunicado, a mediação necessária e o suporte.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -523,8 +582,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "gatilho": "título próprio no AACR2r, foi extinta e",
-    "versao_errada": "No RDA, a Designação Geral do Material (DGM), que anteriormente era inserida em colchetes após o indevidamente título próprio no aacr2r, foi extinta e substituída por três elementos desmembrados: tipo de conteúdo, tipo de mídia e tipo de suporte."
+    "gatilho": "tipo de conteúdo, tipo de mídia e tipo de suporte",
+    "versao_errada": "No RDA, texto e recurso online são necessariamente o mesmo elemento e não podem ser registrados separadamente.",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA original: conteúdo, mídia e suporte. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-28",
@@ -534,16 +595,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos três novos tipos de dados introduzidos pelo RDA para substituir a DGM, julgue o item a seguir.",
     "item": "O tipo de conteúdo (Content type) refere-se à forma fundamental de comunicação intelectual ou artística na qual o conteúdo é expresso, como texto, música notada, imagem estática ou imagem cartográfica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No padrão RDA e no Formato MARC 21 (campo 336), o 'Tipo de conteúdo' (Content type) categoriza a forma fundamental de comunicação intelectual ou artística por meio da qual o conteúdo de uma expressão é transmitido (ex.: texto, música notada, imagem cartográfica, movimento computadorizado), distinguindo a essência expressiva da matéria física de seu suporte.",
-    "armadilhaBanca": "Definição precisa do elemento Tipo de Conteúdo do RDA.",
+    "justificativa": "CERTO. Tipo de conteúdo descreve a forma de expressão, como texto ou música notada. Isso não diz sozinho se o recurso é um volume impresso ou um arquivo online. O mesmo tipo de conteúdo pode aparecer em suportes diferentes, por isso esses elementos não são intercambiáveis.",
+    "armadilhaBanca": "Não confundir forma intelectual de expressão e suporte.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "intelectual ou artística na qual o conteúdo",
-    "versao_errada": "O tipo de conteúdo (Content type) refere-se à forma fundamental de comunicação indevidamente intelectual ou artística na qual o conteúdo é expresso, como texto, música notada, imagem estática ou imagem cartográfica."
+    "gatilho": "forma fundamental de comunicação intelectual ou artística",
+    "versao_errada": "Tipo de conteúdo indica exclusivamente o objeto físico, como volume ou videodisco.",
+    "fonte": "RDA Registry — elementos e vocabulários — lista de valores de tipo de conteúdo — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-29",
@@ -553,8 +616,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação aos elementos de conteúdo e suporte no RDA, julgue o próximo item.",
     "item": "No modelo do RDA, o tipo de mídia (Media type) caracteriza a forma de comunicação intelectual e o gênero artístico do conteúdo do recurso, como texto, música notada ou imagem cartográfica bidimensional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! A forma fundamental de comunicação intelectual (texto, música notada, imagem estática etc.) corresponde ao TIPO DE CONTEÚDO (Content type). O TIPO DE MÍDIA (Media type) caracteriza unicamente o dispositivo intermediário necessário para visualizar ou executar o recurso (áudio, computador, não mediado etc.).",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Tipo de mídia se relaciona à mediação ou equipamento necessário ao acesso ao conteúdo, não à sua forma intelectual. Texto é um tipo de conteúdo; sem mediação e computador são categorias de mídia. O mesmo conteúdo pode ser disponibilizado sob mídias e suportes diferentes.",
+    "armadilhaBanca": "Troca entre conteúdo e mediação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -562,7 +625,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / Adaptada"
     },
-    "versao_correta": "No padrão RDA, o tipo de conteúdo (Content type) caracteriza a forma de comunicação intelectual e o gênero artístico do recurso (como texto, música notada ou imagem cartográfica), ao passo que o tipo de mídia (Media type) caracteriza o dispositivo instrumental intermediário necessário para acessá-lo (computador, áudio, projetado, não mediado)."
+    "versao_correta": "Tipo de mídia caracteriza a mediação necessária ao acesso; texto e música notada são exemplos de tipo de conteúdo.",
+    "gatilho": "tipo de mídia",
+    "fonte": "RDA Registry — elementos e vocabulários — tipos de conteúdo e mídia — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-30",
@@ -572,16 +638,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos três novos tipos de dados introduzidos pelo RDA para substituir a DGM, julgue o item a seguir.",
     "item": "O tipo de suporte (Carrier type) refere-se ao suporte físico tangível ou eletrônico no qual o conteúdo é alojado, como volume, folha, cartão, videodisco ou recurso online.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No RDA e no campo 338 do MARC 21, o 'Tipo de suporte' (Carrier type) designa o formato de alojamento ou dispositivo físico/digital onde o conteúdo foi corporificado (ex.: volume encadernado, folha avulsa, videodisco, cartão, microficha, recurso online), substituindo e refinando a antiga Designação Geral do Material (DGM) do AACR2r.",
-    "armadilhaBanca": "Definição exata do elemento Tipo de Suporte.",
+    "justificativa": "CERTO. Tipo de suporte identifica o formato do suporte que incorpora o conteúdo, como volume ou recurso online. Não é sinônimo de assunto, gênero literário ou tipo de conteúdo. Livro eletrônico pode conter texto, com mídia e suporte próprios, sem ser descrito como volume impresso apenas por semelhança de leitura.",
+    "armadilhaBanca": "Distinguir conteúdo textual e suporte de sua disponibilização.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "tangível ou eletrônico no qual o conteúdo",
-    "versao_errada": "O tipo de suporte (Carrier type) refere-se ao suporte físico indevidamente tangível ou eletrônico no qual o conteúdo é alojado, como volume, folha, cartão, videodisco ou recurso online."
+    "gatilho": "suporte físico tangível ou eletrônico",
+    "versao_errada": "O tipo de suporte de todo livro eletrônico deve ser volume impresso, independentemente da forma de acesso.",
+    "fonte": "RDA Registry — elementos e vocabulários — lista de tipos de suporte — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-31",
@@ -591,8 +659,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao princípio de transcrição 'Take What You See' no RDA, julgue o item seguinte.",
     "item": "O princípio da representação fidedigna no RDA, conhecido como 'Take what you see' (registre o que você vê), orienta que os dados sejam transcritos preferencialmente tal como aparecem na fonte, evitando-se o emprego indiscriminado de abreviaturas não presentes no recurso.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O postulado da representação fidedigna no RDA ('Take what you see') orienta o catalogador a transcrever títulos, menções de responsabilidade e dados de publicação com fidelidade estrita à fonte de informação, evitando a imposição de abreviaturas artificiais latinas (como 's.l.', 's.n.', 'et al.') que não constem expressamente da obra, o que facilita o reconhecimento inequívoco pelo usuário.",
-    "armadilhaBanca": "Princípio fundamental da política de dados do RDA.",
+    "justificativa": "CERTO. O princípio orienta preservar a forma encontrada nos elementos transcritos, sem abreviar tudo por conveniência. Isso não significa ausência de regras de capitalização, registro de dados supridos ou opções de aplicação. Também não determina que o ponto de acesso autorizado reproduza sem controle toda forma transcrita.",
+    "armadilhaBanca": "Separar transcrição, dados supridos e normalização dos pontos de acesso.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -600,8 +668,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "vê), orienta que os dados sejam transcritos",
-    "versao_errada": "O princípio da representação fidedigna no RDA, conhecido como 'Take what you see' (registre o que você indevidamente vê), orienta que os dados sejam transcritos preferencialmente tal como aparecem na fonte, evitando-se o emprego indiscriminado de abreviaturas não presentes no recurso."
+    "gatilho": "tal como aparecem na fonte",
+    "versao_errada": "O princípio de transcrição obriga que todo ponto de acesso autorizado reproduza qualquer grafia encontrada, sem controle de identidade.",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA: representação e transcrição. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-32",
@@ -611,8 +681,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao princípio de transcrição 'Take What You See' no RDA, julgue o item seguinte.",
     "item": "Na catalogação pelo padrão RDA, quando o local de publicação ou o nome da editora não constarem no documento, o catalogador permanece obrigado a registrar as expressões latinas abreviadas [s.l.] e [s.n.] entre colchetes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O RDA aboliu definitivamente as abreviaturas latinas arcaicas [s.l.] (sine loco) e [s.n.] (sine nomine), substituindo-as por expressões em língua natural compreensíveis ao usuário, tais como [local de publicação não identificado] ou [editora não identificada].",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. O RDA não torna obrigatórias as abreviaturas latinas usadas no AACR2 para esses casos. Devem ser seguidas as orientações de fornecimento ou registro de informação não identificada, conforme a versão e o perfil. Não é correto apenas manter automaticamente s.l. e s.n. por serem familiares no catálogo legado.",
+    "armadilhaBanca": "Não importar uma convenção do AACR2 como obrigação invariável do RDA.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -620,7 +690,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCE-MG / 2026"
     },
-    "versao_correta": "Na catalogação pelo padrão RDA, quando o local de publicação ou o nome da editora não constarem no documento, o catalogador deve registrar expressões descritivas equivalentes em língua natural (\"[local de publicação não identificado]\" e \"[editora não identificada]\"), tendo o RDA abolido as abreviaturas latinas arcaicas [s.l.] e [s.n.]."
+    "versao_correta": "O tratamento de local ou editor não identificado no RDA segue suas diretrizes e o perfil adotado, sem obrigação de manter s.l. e s.n.",
+    "gatilho": "[s.l.] e [s.n.]",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA original: dados de publicação não identificados. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-33",
@@ -630,8 +703,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das regras de responsabilidade no RDA em comparação com o AACR2r, julgue o item.",
     "item": "O padrão RDA manteve inalterada a restrição rígida do AACR2r denominada regra dos três autores, impedindo que obras com mais de três coautores recebam pontos de acesso secundários para todos eles.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O RDA aboliu a regra restritiva dos três autores (Rule of Three). No RDA, é facultado ou recomendado catalogar e criar pontos de acesso para TODOS os autores que participaram da criação da obra, independentemente da quantidade.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. RDA não conserva a regra dos três como limite rígido de representação dos responsáveis. Isso não significa que o AACR2 proibisse qualquer acesso adicional a outros nomes em toda situação: havia regras e opções. O perfil de aplicação do RDA define escolhas e requisitos de registro, sem esse teto universal.",
+    "armadilhaBanca": "Distinguir mudança de política de acesso e uma caricatura das regras do código anterior.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -639,7 +712,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "versao_correta": "O padrão RDA aboliu expressamente a restritiva \"regra dos três autores\" do AACR2r, permitindo e incentivando a criação de pontos de acesso autorizados para todos os criadores e colaboradores intelectuais que participaram da concepção da obra, independentemente da quantidade."
+    "versao_correta": "RDA não impõe uma proibição universal de registrar acessos para todos os coautores quando há mais de três responsáveis.",
+    "gatilho": "regra dos três autores",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA e responsabilidade compartilhada. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-34",
@@ -647,17 +723,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.2",
     "contexto": "A respeito das regras de responsabilidade no RDA em comparação com o AACR2r, julgue o item.",
-    "item": "O RDA preserva com o mesmo rigor conceitual a distinção do AACR2r entre 'cabeçalho de entrada principal' e 'entradas secundárias', sendo essa diferenciação o esteio operacional de seumodelo de dados.",
+    "item": "O RDA preserva com o mesmo rigor conceitual a distinção do AACR2r entre 'cabeçalho de entrada principal' e 'entradas secundárias', sendo essa diferenciação o esteio operacional de seu modelo de dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! No RDA e nos modelos conceituais modernos, todos os pontos de acesso são tratados como pontos de acesso autorizados (Authorized Access Points) e pontos de acesso variantes. O conceito tradicional de 'entrada principal' perdeu relevância estrutural no ambiente de bancos de dados relacionais.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. RDA trabalha com identificação de entidades, pontos de acesso e relacionamentos. A escolha de um ponto autorizado para uma obra não equivale a preservar integralmente a estrutura e a terminologia de entrada principal e secundária do AACR2. Também não elimina a necessidade de decidir como identificar a obra.",
+    "armadilhaBanca": "Não tomar continuidade de objetivos como identidade de arquitetura conceitual.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "O padrão RDA fundamenta-se na modelagem de entidades e atributos relacionais, tratando os cabeçalhos como pontos de acesso autorizados e pontos de acesso variantes, superando a centralidade da distinção rígida entre entrada principal e secundárias herdada da era do catálogo em fichas."
+    "versao_correta": "RDA reformula a representação de entidades e relacionamentos, sem simplesmente conservar todas as categorias operacionais do AACR2.",
+    "gatilho": "preserva com o mesmo rigor",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — pontos de acesso e identificação da obra. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-35",
@@ -665,18 +744,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.2",
     "contexto": "No que concerne aos relacionamentos e vocabulários controlados no RDA, julgue o item.",
-    "item": "Os designadores de relação (Relationship designators) previstos nos apêndices do RDA têm a função de explicitar a natureza exata da conexão entre um agente e um recurso, como autor, ilustrador, relator, tradutor ou editor.",
+    "item": "No RDA, a representação de relações entre agentes e recursos permite explicitar a natureza da conexão, como autoria, tradução ou ilustração.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os designadores de relacionamento (Relationship designators) previstos nos Apêndices I e J do RDA explicitam a natureza semântica precisa do vínculo entre um agente e um recurso bibliográfico (ex.: autor, relator, ilustrador, tradutor, editor, doador), superando a opacidade de meros pontos de acesso secundários e alimentando redes semânticas e grafos de conhecimento.",
-    "armadilhaBanca": "Item afirmativo direto sobre a rica semântica de papéis no RDA.",
+    "justificativa": "CERTO. Relações como autoria, tradução e ilustração tornam explícita a participação de um agente. No RDA original, designadores apareciam em apêndices; no RDA atual, a navegação por elementos e relações tem outra organização. O significado do papel não se resume a acrescentar uma sigla ao nome.",
+    "armadilhaBanca": "Distinguir identidade do agente e natureza da sua participação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "de explicitar a natureza exata da conexão",
-    "versao_errada": "Os designadores de relação (Relationship designators) previstos nos apêndices do RDA têm a função indevidamente de explicitar a natureza exata da conexão entre um agente e um recurso, como autor, ilustrador, relator, tradutor ou editor."
+    "gatilho": "natureza da conexão",
+    "versao_errada": "No RDA, todos os agentes de um recurso recebem necessariamente o mesmo papel, sem distinguir autoria, tradução e ilustração.",
+    "fonte": "RDA Registry — elementos e vocabulários — elementos de relacionamento entre agente e recurso — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-36",
@@ -686,16 +767,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne aos relacionamentos e vocabulários controlados no RDA, julgue o item.",
     "item": "O RDA Toolkit é a ferramenta oficial em ambiente web mantida pela American Library Association e outras agências para gerenciar e consultar as diretrizes e instruções de catalogação do RDA.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O RDA Toolkit é a suíte oficial online interativa desenvolvida e mantida pelo RDA Steering Committee (RSC) e pelo consórcio de editoras da ALA, CILIP e CFLA, na qual residem todas as instruções técnicas, orientações de boas práticas, políticas institucionais e perfis de aplicação do padrão RDA para bibliotecas mundiais.",
-    "armadilhaBanca": "Item institucional e informativo.",
+    "justificativa": "CERTO. RDA Toolkit oferece acesso às instruções e recursos de aplicação do RDA. Ele não é o próprio formato MARC nem um modelo conceitual como LRM. Versão do código, políticas e perfil de aplicação devem ser identificados, pois uma instrução do Original RDA não deve ser atribuída automaticamente ao Official RDA.",
+    "armadilhaBanca": "Separar ferramenta de consulta, padrão de conteúdo, modelo e codificação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "American Library Association e outras agências para",
-    "versao_errada": "O RDA Toolkit é a ferramenta oficial em ambiente web mantida pela indevidamente american library association e outras agências para gerenciar e consultar as diretrizes e instruções de catalogação do RDA."
+    "gatilho": "ferramenta oficial em ambiente web",
+    "versao_errada": "RDA Toolkit é um formato de codificação de registros MARC e substitui a necessidade de identificar a versão das instruções.",
+    "fonte": "RDA Toolkit — documentação e orientação pública — RDA Toolkit e versões do RDA — https://www.rdatoolkit.org/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-37",
@@ -703,18 +786,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.2",
     "contexto": "Acerca do projeto de reestruturação do RDA (Projeto 3R), julgue o item a seguir.",
-    "item": "O Projeto 3R (RDA Restructure and Redesign Project) teve como objetivo reestruturar o código e o RDA Toolkit para alinhá-los integralmente ao modelo conceitual consolidado IFLA LRM.",
+    "item": "O Projeto 3R reestruturou o RDA e redesenhou o Toolkit no contexto de seu alinhamento ao modelo IFLA LRM.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Concluído em 2020, o Projeto 3R (RDA Restructure and Redesign Project) reestruturou profundamente o código de catalogação e o RDA Toolkit para alinhá-los ontologicamente às definições conceituais, entidades e relacionamentos consolidados pelo modelo IFLA LRM (Library Reference Model), viabilizando uma transição robusta para a web de dados conectados.",
-    "armadilhaBanca": "Assertiva avançada sobre a história contemporânea do RDA Toolkit.",
+    "justificativa": "CERTO. O 3R reestruturou o conteúdo e redesenhou o Toolkit no contexto do alinhamento ao LRM. Alinhar não significa que RDA e LRM sejam o mesmo produto ou tenham listas idênticas de entidades. LRM é modelo conceitual; RDA fornece elementos e orientações para dados bibliográficos.",
+    "armadilhaBanca": "Não confundir alinhamento conceitual e identidade de produtos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "objetivo reestruturar o código e o RDA",
-    "versao_errada": "O Projeto 3R (RDA Restructure and Redesign Project) teve como indevidamente objetivo reestruturar o código e o rda Toolkit para alinhá-los integralmente ao modelo conceitual consolidado IFLA LRM."
+    "gatilho": "Projeto 3R",
+    "versao_errada": "O Projeto 3R tornou RDA e LRM um único formato de codificação, com funções idênticas.",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — Projeto 3R e alinhamento ao LRM. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-38",
@@ -724,15 +809,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da estrutura de dados do RDA, julgue o item subsequente.",
     "item": "A arquitetura de metadados do padrão RDA preserva as oito áreas prescritivas de pontuação da ISBD, mostrando-se inadequada para serialização de entidades em grafos de dados RDF.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A arquitetura do RDA baseia-se em entidades, atributos e relacionamentos (modelo IFLA LRM / FRBR) e foi desenhada especificamente para a web semântica e Linked Data em tripletas RDF. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. RDA separa conteúdo dos dados e sua codificação ou apresentação. Seus elementos e vocabulários têm representação utilizável em RDF; não ficam presos às oito áreas do AACR2/ISBD. Exibir dados em uma forma conhecida não prova que essa seja a arquitetura obrigatória do padrão.",
+    "armadilhaBanca": "Distinguir arquitetura dos dados e forma de apresentação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "A arquitetura de metadados do padrão RDA é estruturada em entidades, atributos e relacionamentos (alinhada aos modelos IFLA LRM / FRBR) desenhada especificamente para serialização na web semântica em tripletas RDF (Linked Open Data), independente das oito áreas de pontuação da ISBD."
+    "versao_correta": "Os elementos RDA podem ser utilizados em diferentes codificações, inclusive RDF, sem se restringir às áreas de uma apresentação ISBD.",
+    "gatilho": "inadequada para serialização",
+    "fonte": "RDA Registry — elementos e vocabulários — representação dos elementos em RDF — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-39",
@@ -742,15 +830,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da estrutura de dados do RDA, julgue o item subsequente.",
     "item": "A inserção da pontuação prescritiva da ISBD dentro dos campos de dados de um registro RDA é um requisito obrigatório para a validação do registro em bancos relacionais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! No RDA, a pontuação ISBD não é inerente aos dados e não é obrigatória para armazenamento; é considerada uma sintaxe de apresentação (saída/display), não um elemento de dado essencial. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Pontuação ISBD pode ser utilizada em apresentações e perfis, mas não é uma condição universal para dados RDA serem válidos em bancos relacionais. Estrutura do banco, formato de intercâmbio, padrão de conteúdo e exibição são decisões distintas. Uma regra local não se torna obrigatória para todo uso do RDA.",
+    "armadilhaBanca": "Não elevar uma convenção de exibição a condição de validade de qualquer banco.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No padrão RDA, a pontuação prescritiva da ISBD é tratada como sintaxe opcional de exibição/apresentação (display syntax), não constituindo requisito essencial ou mandatório para a estruturação e validação dos dados em bancos de dados relacionais ou grafos."
+    "versao_correta": "A apresentação com pontuação ISBD pode ser adotada por um perfil, sem ser requisito universal de todo registro RDA.",
+    "gatilho": "requisito obrigatório",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — independência de codificação e apresentação. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-40",
@@ -760,15 +851,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos elementos núcleo e à flexibilidade de aplicação do RDA, julgue o item a seguir.",
     "item": "No padrão RDA, os elementos de núcleo (Core Elements) constituem relação fechada e estrita, impossibilitando que agências catalogadoras nacionais estabeleçam outros atributos como mandatórios em suas diretrizes de aplicação institucional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Os Core Elements do RDA definem uma linha de base mínima recomendada; cada instituição ou consórcio possui autonomia para estabelecer elementos complementares como obrigatórios em suas políticas de aplicação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Elementos de núcleo no RDA original eram uma base de requisitos, não proibição de uma agência exigir outros dados. No RDA atual, perfis de aplicação explicitam necessidades e escolhas. É preciso distinguir os conceitos entre versões, sem tratar o núcleo histórico como lista universal e imutável.",
+    "armadilhaBanca": "Um conjunto mínimo não é necessariamente um conjunto máximo.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No padrão RDA, os elementos de núcleo (Core Elements) estabelecem apenas um patamar mínimo recomendado de descrição, possuindo cada agência catalogadora ou rede cooperativa total autonomia para definir outros atributos adicionais como obrigatórios em sua política de aplicação local."
+    "versao_correta": "Uma agência pode definir requisitos adicionais de registro em seu perfil, respeitando o padrão adotado.",
+    "gatilho": "relação fechada e estrita",
+    "fonte": "RDA Toolkit — documentação e orientação pública — Original RDA e perfis de aplicação — https://www.rdatoolkit.org/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-41",
@@ -778,15 +872,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às entidades e níveis de abstração no RDA, julgue o item seguinte.",
     "item": "A reimpressão de uma monografia clássica que incorpore correções de erros tipográficos e ligeira diagramação editorial sem alteração no texto substantivo enseja a criação de uma nova Obra segundo o modelo RDA.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o modelo ontológico WEMI dos FRBR e do RDA, a reimpressão ou republicação de uma monografia que contenha apenas diagramação gráfica nova ou correção de pequenas gralhas tipográficas não altera o conteúdo intelectual (mesma Obra e mesma Expressão). Tal evento acarreta unicamente a criação de uma nova Manifestação comercial no catálogo, mantendo intocada a Obra abstrata original.",
-    "armadilhaBanca": "Confusão entre Obra (criação abstrata) e Manifestação/Item.",
+    "justificativa": "ERRADO. Pequenas correções de impressão e mudanças de apresentação não implicam automaticamente uma criação intelectual distinta. Dependendo da alteração, podem ser consideradas diferenças de manifestação ou de expressão segundo o contexto e as regras aplicadas. O ponto seguro é que uma nova edição ou reimpressão não equivale, por si só, a nova obra.",
+    "armadilhaBanca": "Não confundir mudança editorial, realização do conteúdo e identidade da obra.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "A reimpressão de uma monografia clássica que incorpore pequenas correções tipográficas e diagramação editorial sem alterar o conteúdo textual intelectual substantivo constitui uma nova Manifestação (ou Item), mantendo inalteradas a Obra e a Expressão originais no modelo conceitual do RDA."
+    "versao_correta": "Uma nova reimpressão não determina automaticamente a existência de uma nova obra intelectual distinta.",
+    "gatilho": "nova Obra",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4: Obra, Expressão e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-42",
@@ -796,15 +893,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às entidades e níveis de abstração no RDA, julgue o item seguinte.",
     "item": "No RDA, caso o título impresso na folha de rosto de um livro apresente um erro ortográfico flagrante, o catalogador deve corrigir o vocábulo diretamente no elemento de título próprio, sem registrar a grafia original defeituosa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Pelo princípio 'Take what you see' do RDA, o título próprio deve ser transcrito exatamente como aparece no recurso (com o erro ortográfico), facultando-se a criação de um título variante corrigido em elemento separado para busca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. No caso delimitado de título de livro, a transcrição registra a forma apresentada, e a correção ou variante pode ser tratada conforme as instruções. Corrigir silenciosamente faz o registro parecer reproduzir algo que não está na fonte. Outras categorias de recurso podem ter disposições próprias, que precisam ser identificadas.",
+    "armadilhaBanca": "Separar fidelidade da transcrição e apoio à recuperação pela forma corrigida.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No RDA, orientando-se pelo princípio \"Take what you see\" (representação fidedigna), o título próprio impresso com erro ortográfico deve ser transcrito exatamente como aparece no recurso, admitindo-se a inserção da grafia corrigida em um ponto de acesso de título variante."
+    "versao_correta": "Na transcrição do título de um livro, a forma apresentada não deve ser substituída silenciosamente; correções e variantes seguem as instruções aplicáveis.",
+    "gatilho": "sem registrar a grafia original",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA: transcrição de títulos de monografias. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-43",
@@ -814,16 +914,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à modelagem de agentes e entidades no RDA, julgue o item a seguir.",
     "item": "No RDA, pessoas, famílias e entidades coletivas são modeladas como agentes que se relacionam com as entidades de conteúdo (obra, expressão, manifestação e item) desempenhando papéis específicos de responsabilidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No padrão RDA e no IFLA LRM, agentes (Pessoa, Família e Entidade Coletiva) são concebidos como instâncias que agem no universo bibliográfico, desempenhando papéis de responsabilidade formalmente tipificados perante as quatro entidades de conteúdo do Grupo 1 (WEMI): criação de Obras, realização de Expressões, produção de Manifestações e posse/custódia de Itens.",
-    "armadilhaBanca": "Assertiva precisa sobre a relação entre agentes e entidades no RDA.",
+    "justificativa": "CERTO. RDA representa agentes e os papéis que desempenham em relação aos recursos. A família aparece em sua estrutura de entidades; isso não autoriza inserir Família como entidade autônoma do Grupo 2 do FRBR de 1998, que continha Pessoa e Entidade coletiva. O modelo e a versão precisam ser explicitados.",
+    "armadilhaBanca": "Não transportar uma entidade de outro modelo ou versão para o FRBR original.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "que se relacionam com as entidades de",
-    "versao_errada": "No RDA, pessoas, famílias e entidades coletivas são modeladas como agentes indevidamente que se relacionam com as entidades de conteúdo (obra, expressão, manifestação e item) desempenhando papéis específicos de responsabilidade."
+    "gatilho": "pessoas, famílias e entidades coletivas",
+    "versao_errada": "O FRBR original de 1998 já apresentava Família como terceira entidade autônoma do Grupo 2.",
+    "fonte": "RDA Registry — elementos e vocabulários — entidades de agentes e elementos de relacionamento — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-44",
@@ -831,18 +933,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.2",
     "contexto": "Quanto à modelagem de agentes e entidades no RDA, julgue o item a seguir.",
-    "item": "O vocabulário do RDA foi estruturado para viabilizar sua publicação no Open Metadata Registry (OMR) e sua compatibilidade com as tecnologias do linked open data.",
+    "item": "Os elementos e vocabulários publicados no RDA Registry são projetados para uso com tecnologias de dados conectados e representação em RDF.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O vocabulário do RDA foi expressamente estruturado para a Web Semântica: seus elementos e conceitos possuem identificadores uniformes de recursos (URIs) persistentes hospedados no Open Metadata Registry (OMR), permitindo a interoperabilidade com ontologias RDF e a integração de catálogos bibliográficos à web de dados abertos (Linked Open Data).",
-    "armadilhaBanca": "Característica moderna essencial do padrão RDA.",
+    "justificativa": "CERTO. RDA Registry publica conjuntos de elementos e vocabulários voltados a dados conectados. Identificadores de elementos e valores podem integrar grafos e mapeamentos. A passagem histórica por plataformas de registro não significa que o OMR deva ser tratado como único ambiente atual nem que todo dado publicado seja automaticamente aberto sem condições.",
+    "armadilhaBanca": "Distinguir o padrão, o serviço atual de publicação e plataformas históricas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "publicação no Open Metadata Registry (OMR) e",
-    "versao_errada": "O vocabulário do RDA foi estruturado para viabilizar sua indevidamente publicação no open metadata registry (omr) e sua compatibilidade com as tecnologias do linked open data."
+    "gatilho": "RDA Registry",
+    "versao_errada": "Os vocabulários RDA só podem existir em texto impresso e não têm identificadores utilizáveis em RDF.",
+    "fonte": "RDA Registry — elementos e vocabulários — vocabulários e publicação em RDF — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-45",
@@ -852,8 +956,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do escopo institucional do padrão RDA, julgue o item subsequente.",
     "item": "O código RDA destina-se ao emprego em bibliotecas nacionais de países anglo-saxões, mantendo-se restrito a acervos formulados em língua inglesa e sem tradução para redes cooperativas latino-americanas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O RDA é um padrão internacional de abrangência global, neutro em relação a idiomas e projetado para uso multilíngue. No Brasil, foi formalmente adotado pela Fundação Biblioteca Nacional (FBN) e pela Rede Virtual de Bibliotecas do Congresso Nacional (RVBI), integrando acervos legislativos da Câmara dos Deputados e do Senado Federal em conformidade com as diretrizes internacionais.",
-    "armadilhaBanca": "Restrição geográfica descabida: o RDA é global e já está no Congresso Nacional.",
+    "justificativa": "ERRADO. RDA foi concebido para aplicação internacional e diferentes tipos de recursos, e não exclusivamente para países de língua inglesa. Traduções, políticas e perfis de comunidades podem apoiar sua aplicação. A história anglo-americana do código anterior não estabelece uma proibição para acervos em outros idiomas.",
+    "armadilhaBanca": "Origem histórica não equivale a restrição obrigatória de uso.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -861,7 +965,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "versao_correta": "O código RDA é um padrão internacional e multilíngue adotado globalmente, inclusive no Brasil pela Biblioteca Nacional e pela Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional, não sendo restrito ao idioma inglês nem a países anglo-saxões."
+    "versao_correta": "RDA pode ser aplicado a recursos e comunidades de diferentes idiomas, com políticas e perfis apropriados.",
+    "gatilho": "restrito a acervos formulados em língua inglesa",
+    "fonte": "RDA: Descrição e Acesso de Recursos — brochura histórica em português — objetivos de desenvolvimento internacional. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-46",
@@ -871,16 +978,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do escopo institucional do padrão RDA, julgue o item subsequente.",
     "item": "São atributos associados à entidade Manifestação no RDA a menção de publicação, o número normalizado internacional (como o ISBN), a menção de responsabilidade e a descrição física do suporte.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o modelo FRBR/RDA, a entidade Manifestação materializa o plano físico de produção e distribuição comercial de um recurso. São atributos típicos da Manifestação: o título da manifestação, a menção de responsabilidade formal, o local de publicação, a editora, a data de publicação, a descrição física (extensão, dimensões), a menção de série e o identificador normalizado (ISBN/ISSN).",
-    "armadilhaBanca": "Relação correta entre atributos e a entidade Manifestação.",
+    "justificativa": "CERTO. Dados da apresentação e produção de uma edição, como menções e identificadores de manifestação, podem ser associados a Manifestação. A menção de responsabilidade transcrita não é a própria entidade Pessoa: um texto apresentado e um agente identificado são coisas distintas. ISBN incorreto ou compartilhado não resolve sozinho a identidade de uma manifestação.",
+    "armadilhaBanca": "Separar declaração no recurso, identificador e entidade representada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "publicação, o número normalizado internacional (como o",
-    "versao_errada": "São atributos associados à entidade Manifestação no RDA a menção de indevidamente publicação, o número normalizado internacional (como o ISBN), a menção de responsabilidade e a descrição física do suporte."
+    "gatilho": "menção de publicação",
+    "versao_errada": "Uma menção de responsabilidade transcrita é a própria entidade Pessoa e não pode ser tratada como dado da manifestação.",
+    "fonte": "RDA Registry — elementos e vocabulários — elementos de Manifestação — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-47",
@@ -890,15 +999,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere a recursos digitais no RDA, julgue o item.",
     "item": "A descrição de um livro eletrônico acessível via web segundo as diretrizes do RDA restringe o preenchimento de suportes à categoria de volume impresso, em razão da compatibilidade com os acervos legados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Pelas diretrizes de catalogação de recursos eletrônicos no RDA, um livro digital acessível via rede de computadores (e-book) deve ser descrito com o tipo de mídia 'computador' (computer) e o tipo de suporte 'recurso online' (online resource), associados ao campo 337 e 338 do MARC 21, sendo descabido e incorreto categorizá-lo como 'volume', termo restrito a suportes impressos encadernados.",
-    "armadilhaBanca": "Erro crasso de catalogação eletrônica: e-book não é 'volume', é recurso online com mídia de computador.",
+    "justificativa": "ERRADO. Um recurso acessível online deve ser descrito segundo suas características, e não forçado a um suporte impresso por compatibilidade com registros antigos. Texto pode ser seu tipo de conteúdo, enquanto a mídia e o suporte expressam sua forma de acesso. O catálogo pode integrar recursos diferentes sem fingir que são materialmente iguais.",
+    "armadilhaBanca": "A integração do catálogo não exige apagar diferenças de suporte.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "A descrição de um livro eletrônico (e-book) acessível online segundo o RDA deve registrar como tipo de mídia 'computador' e como tipo de suporte 'recurso online', sendo incorreto categorizá-lo sob a especificação de suporte 'volume' (exclusiva de impressos encadernados)."
+    "versao_correta": "Um livro online pode ter conteúdo textual e suporte de recurso online, sem ser identificado como volume impresso.",
+    "gatilho": "volume impresso",
+    "fonte": "RDA Registry — elementos e vocabulários — tipos de suporte e recursos online — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-48",
@@ -908,16 +1020,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere a recursos digitais no RDA, julgue o item.",
     "item": "No RDA, dados biográficos como ano de nascimento e ano de morte de um autor constituem atributos da entidade Pessoa utilizados para diferenciar indivíduos homônimos em registros de autoridade.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No controle de autoridade do RDA e do IFLA LRM, os dados cronológicos de nascimento e falecimento constituem atributos essenciais associados à entidade Pessoa (campo 100/700 subcampo $d do MARC 21). Esses atributos são fundamentais para distinguir indivíduos homônimos em catálogos de grandes bibliotecas públicas e legislativas.",
-    "armadilhaBanca": "Assertiva clara sobre atributos de pessoas físicas.",
+    "justificativa": "CERTO. Datas associadas a uma pessoa podem auxiliar a distingui-la de homônimos e apoiar o controle de identidade. Elas não são a identidade em si nem precisam ser inventadas quando desconhecidas. Devem ser registradas com evidência e conforme o perfil, respeitando considerações éticas e de proteção de dados.",
+    "armadilhaBanca": "Diferenciar evidência de identificação e preenchimento artificial de dados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "morte de um autor constituem atributos da",
-    "versao_errada": "No RDA, dados biográficos como ano de nascimento e ano de indevidamente morte de um autor constituem atributos da entidade Pessoa utilizados para diferenciar indivíduos homônimos em registros de autoridade."
+    "gatilho": "ano de nascimento e ano de morte",
+    "versao_errada": "Datas de nascimento desconhecidas devem ser inventadas para que o registro de autoridade pareça completo.",
+    "fonte": "RDA Registry — elementos e vocabulários — elementos de Pessoa e datas associadas — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-49",
@@ -927,15 +1041,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao tratamento de idiomas no RDA, julgue o item subsequente.",
     "item": "Ao catalogar uma obra em alfabeto não latino pelo RDA, é mandatória a conversão imediata do título para caracteres latinos, sendo estritamente proibido preservar os caracteres originais no registro.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O RDA suporta plenamente múltiplos scripts (Unicode) e encoraja a transcrição na escrita original do recurso (ex.: árabe, cirílico, chinês), admitindo a transliteração paralela para o alfabeto latino como recurso de acesso.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. RDA admite representar dados nas escritas dos recursos e usar transliterações conforme as diretrizes e o perfil. Transliterar pode favorecer acesso, mas não exige banir o original. A escolha de script também depende das capacidades do sistema e da comunidade, sem uma proibição universal de caracteres não latinos.",
+    "armadilhaBanca": "Não confundir opção de transliteração e proibição de manter a escrita original.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "Na catalogação de recursos em alfabetos não latinos pelo RDA, é permitido e estimulado o registro do título nos caracteres originais do recurso (em escrita nativa via Unicode), admitindo-se a transliteração para o alfabeto latino como ponto de acesso paralelo complementar."
+    "versao_correta": "Caracteres originais podem ser preservados, com transliteração ou formas adicionais conforme a política de aplicação.",
+    "gatilho": "proibido preservar os caracteres originais",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — RDA: língua e escrita da transcrição. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-50",
@@ -943,10 +1060,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.2",
     "contexto": "Em relação ao tratamento de idiomas no RDA, julgue o item subsequente.",
-    "item": "Embora o RDA seja independente de formatos de codificação, seus elementos possuem correspondência e mapeamento direto estabelecidos para os campos, indicadores e subcampos do Formato MARC 21 Bibliográfico.",
+    "item": "Existem mapeamentos entre elementos RDA e campos MARC 21, o que permite utilizar o padrão com esse formato sem eliminar sua independência de codificação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Correto. A Library of Congress e a comissão do RDA mantêm mapeamentos exaustivos entre as instruções RDA e as tags do MARC 21 para garantir a operação prática nas redes mundiais de bibliotecas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. RDA é independente de codificação e pode ser aplicado com MARC 21 por mapeamentos e perfis. Isso não garante uma correspondência única, direta e completa para todo elemento. Alguns dados exigem decisões de aplicação, e os campos do formato não são as entidades do modelo conceitual.",
+    "armadilhaBanca": "Não converter possibilidade de mapeamento em equivalência perfeita.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -954,8 +1071,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "possuem correspondência e mapeamento direto estabelecidos para",
-    "versao_errada": "Embora o RDA seja independente de formatos de codificação, seus elementos indevidamente possuem correspondência e mapeamento direto estabelecidos para os campos, indicadores e subcampos do Formato MARC 21 Bibliográfico."
+    "gatilho": "mapeamentos entre elementos RDA e campos MARC 21",
+    "versao_errada": "Cada elemento RDA corresponde necessariamente a um único campo MARC, sem decisões de perfil ou perda de detalhe.",
+    "fonte": "RDA Registry — elementos e vocabulários — mapeamentos e aplicação com MARC 21 — https://www.rdaregistry.info/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-51",
@@ -965,8 +1084,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos Requisitos Funcionais para Registros Bibliográficos (FRBR) formulados pela IFLA, julgue o item subsequente.",
     "item": "O modelo conceitual FRBR fundamenta-se na metodologia entidade-relacionamento para estruturar o universo bibliográfico com foco centrado nas tarefas realizadas pelos usuários.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O relatório final do estudo FRBR (Functional Requirements for Bibliographic Records), aprovado pela IFLA em 1998, revolucionou a catalogação mundial ao adotar a modelagem conceitual entidade-relacionamento (E-R), orientando o tratamento bibliográfico para o atendimento eficaz das necessidades e tarefas realizadas pelos usuários finais na busca de informação.",
-    "armadilhaBanca": "Conceito clássico e basilar dos FRBR.",
+    "justificativa": "CERTO. FRBR usa entidades, atributos e relacionamentos para analisar o universo bibliográfico segundo necessidades dos usuários. Não é um conjunto de campos MARC nem um código de pontuação. Adotar um modelo conceitual pode orientar aplicações diferentes sem impor um único software.",
+    "armadilhaBanca": "Separar modelo conceitual e formato de registro.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -974,8 +1093,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCU / 2015"
     },
-    "gatilho": "entidade-relacionamento para estruturar o universo bibliográfico com",
-    "versao_errada": "O modelo conceitual FRBR fundamenta-se na metodologia indevidamente entidade-relacionamento para estruturar o universo bibliográfico com foco centrado nas tarefas realizadas pelos usuários."
+    "gatilho": "entidade-relacionamento",
+    "versao_errada": "FRBR é um formato de intercâmbio que determina os bytes e indicadores de cada campo MARC.",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — metodologia e tarefas do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-52",
@@ -985,8 +1106,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos modelos conceituais da família FR (FRBR, FRAD, FRSAD), julgue o item que se segue.",
     "item": "São quatro as tarefas clássicas do usuário definidas originalmente no modelo FRBR de 1998: encontrar (find), identificar (identify), justificar (justify) e catalogar (catalog).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! As quatro tarefas do usuário no modelo FRBR são: Encontrar (find), Identificar (identify), Selecionar (select) e Obter (obtain). 'Justificar' e 'Catalogar' não são tarefas do usuário no modelo da IFLA. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. As quatro tarefas clássicas do FRBR são encontrar, identificar, selecionar e obter. Justificar é associada ao controle de autoridades no FRAD; catalogar é atividade profissional, não integra essa lista de tarefas do usuário. Reconhecer palavras plausíveis não basta sem verificar o modelo.",
+    "armadilhaBanca": "Mistura de tarefas de outro modelo e atividade de produção do catálogo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -994,7 +1115,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / Adaptada"
     },
-    "versao_correta": "As quatro tarefas clássicas do usuário definidas originariamente no modelo FRBR (IFLA, 1998) são: Encontrar (find), Identificar (identify), Selecionar (select) e Obter (obtain)."
+    "versao_correta": "No FRBR, as tarefas clássicas são encontrar, identificar, selecionar e obter.",
+    "gatilho": "justificar (justify) e catalogar (catalog)",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — tarefas do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-53",
@@ -1004,8 +1128,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere às entidades do Grupo 1 dos FRBR, julgue o item a seguir.",
     "item": "As entidades do Grupo 1 dos FRBR representam os produtos do esforço intelectual ou artístico e são compostas pela tétrade hierárquica: Obra, Expressão, Manifestação e Item.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. As entidades do Grupo 1 do modelo FRBR representam os diferentes aspectos do produto da criação artística ou intelectual, organizadas na célebre tétrade hierárquica WEMI: Obra (Work), Expressão (Expression), Manifestação (Manifestation) e Item (Item), transitando progressivamente da pura abstração conceitual até o objeto físico individualizado.",
-    "armadilhaBanca": "Definição precisa do Grupo 1 dos FRBR (WEMI).",
+    "justificativa": "CERTO. As quatro entidades distinguem criação intelectual, sua realização, incorporação e exemplar. Não são simplesmente quatro tipos de ficha nem uma hierarquia de assunto. Uma tradução e um exemplar com marca de posse envolvem diferenças em níveis distintos.",
+    "armadilhaBanca": "Distinguir níveis conceituais em vez de tratá-los como sinônimos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1013,8 +1137,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "gatilho": "do esforço intelectual ou artístico e são",
-    "versao_errada": "As entidades do Grupo 1 dos FRBR representam os produtos indevidamente do esforço intelectual ou artístico e são compostas pela tétrade hierárquica: Obra, Expressão, Manifestação e Item."
+    "gatilho": "Obra, Expressão, Manifestação e Item",
+    "versao_errada": "Obra, Expressão, Manifestação e Item são apenas nomes intercambiáveis para o mesmo objeto físico.",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — entidades do Grupo 1 — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-54",
@@ -1024,16 +1150,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere às entidades do Grupo 1 dos FRBR, julgue o item a seguir.",
     "item": "A Obra (Work) no modelo FRBR é definida como uma criação intelectual ou artística abstrata e distinta, existindo independentemente de qualquer corporificação em suporte físico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No modelo conceitual FRBR/RDA, a Obra (Work) é definida como uma criação intelectual ou artística abstrata e distinta. Trata-se de uma entidade puramente imaterial que define a essência conceitual do recurso, existindo antes e independentemente de qualquer tradução, versão linguística, encadernação ou suporte físico que venha a corporificá-la.",
-    "armadilhaBanca": "Definição conceitual exata da entidade Obra.",
+    "justificativa": "CERTO. Obra é a criação intelectual ou artística distinta, não um exemplar específico nem o suporte onde é acessada. Isso permite relacionar diferentes realizações e publicações. Ser abstrata não significa existir um arquivo mestre físico que seja a obra, nem dispensa critérios de identificação.",
+    "armadilhaBanca": "Separar criação intelectual e objeto individual.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "uma criação intelectual ou artística abstrata e",
-    "versao_errada": "A Obra (Work) no modelo FRBR é definida como indevidamente uma criação intelectual ou artística abstrata e distinta, existindo independentemente de qualquer corporificação em suporte físico."
+    "gatilho": "criação intelectual ou artística abstrata",
+    "versao_errada": "A Obra é o exemplar físico individual guardado na biblioteca e muda sempre que esse exemplar recebe uma marca de posse.",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — entidade Obra — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-55",
@@ -1043,8 +1171,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito às entidades do Grupo 1 do modelo FRBR, julgue o item.",
     "item": "De acordo com o modelo conceitual FRBR, a tradução de um romance do original em língua inglesa para o português dá origem a uma nova Obra (Work), autônoma e desvinculada da criação intelectual originária.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! No modelo FRBR, a tradução de um texto para outro idioma gera uma nova EXPRESSÃO (Expression) da mesma Obra originária, mantendo a relação 'a Expressão X realiza a Obra Y'. Não se cria uma nova Obra apenas pela mudança linguística.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. Uma tradução que mantém a identidade da criação intelectual é tratada como outra expressão da obra. Uma adaptação substancial pode exigir análise diferente, mas traduzir não implica sempre uma nova obra autônoma. A língua em que o conteúdo é realizado não se confunde com a identidade do exemplar.",
+    "armadilhaBanca": "Distinguir mudança de realização linguística e criação intelectual distinta.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1052,7 +1180,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "De acordo com o modelo conceitual FRBR, a tradução de um romance para outro idioma dá origem a uma nova Expressão (Expression) da mesma Obra (Work) originária, e não a uma nova Obra autônoma."
+    "versao_correta": "Uma tradução pode ser outra expressão da mesma obra, conforme a natureza da realização.",
+    "gatilho": "nova Obra",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — Obra e Expressão: tradução — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-56",
@@ -1060,10 +1191,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Quanto às distinções ontológicas entre Manifestação e Item nos FRBR, julgue o item.",
-    "item": "A Manifestação (Manifestation) representa a corporificação física da expressão de uma obra, correspondendo ao conjunto ou tiragem comercial de exemplares produzidos por uma editora.",
+    "item": "No FRBR, a Manifestação corresponde à incorporação da expressão, considerada pelas características comuns de produção dos itens, sem se limitar a tiragens comerciais impressas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No arcabouço ontológico dos FRBR, a Manifestação (Manifestation) representa a materialização física ou digital da expressão de uma obra, correspondendo à tiragem, edição ou conjunto de todos os exemplares produzidos por uma editora que compartilham rigorosamente as mesmas características materiais, tipográficas e dados de imprenta.",
-    "armadilhaBanca": "Conceito correto da entidade Manifestação.",
+    "justificativa": "CERTO. Manifestação incorpora a realização do conteúdo e reúne itens com características de produção pertinentes. Ela não se limita a uma tiragem comercial: pode haver publicações digitais, produção não comercial e situações de item único. Conteúdo, produção e exemplar precisam ser analisados separadamente.",
+    "armadilhaBanca": "Não transformar um exemplo editorial frequente em condição necessária da entidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1071,8 +1202,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "de uma obra, correspondendo ao conjunto ou",
-    "versao_errada": "A Manifestação (Manifestation) representa a corporificação física da expressão indevidamente de uma obra, correspondendo ao conjunto ou tiragem comercial de exemplares produzidos por uma editora."
+    "gatilho": "características comuns de produção",
+    "versao_errada": "Uma manifestação só pode existir se houver tiragem comercial de vários exemplares impressos.",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-57",
@@ -1082,18 +1215,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto às distinções ontológicas entre Manifestação e Item nos FRBR, julgue o item.",
     "item": "Dois exemplares pertencem à mesma manifestação editorial. A anotação de proveniência de apenas um deles deve ser associada ao item correspondente, sem atribuí-la a todos os exemplares da manifestação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item é o exemplar individual; uma particularidade de sua história não se estende à manifestação. Associe a particularidade ao exemplar individual. Evite generalizar a proveniência para toda a edição. A distinção deve ser aplicada aos dados e às condições do enunciado, sem decidir apenas pela presença de palavras específicas.",
-    "armadilhaBanca": "Técnica: Discriminação de entidades. A informação se refere a um exemplar e não ao conjunto editorial.",
+    "justificativa": "CERTO. Uma proveniência ou anotação exclusiva pertence ao item que a apresenta. Os demais exemplares não adquirem essa história apenas por integrarem a mesma manifestação. Dados compartilhados de produção e dados particulares do exemplar devem ficar distinguíveis.",
+    "armadilhaBanca": "Não generalizar uma característica individual para toda a edição.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "associada ao item correspondente",
-    "versao_errada": "A proveniência particular de um exemplar deve ser atribuída a todos os itens da mesma manifestação.",
-    "fonte": "IFLA Library Reference Model (2017, revisão dezembro) — seção 4.2, entidades LRM-E3, LRM-E4 e LRM-E5",
-    "dataConferencia": "2026-10-29",
+    "gatilho": "apenas um deles",
+    "versao_errada": "Uma marca de posse encontrada em um exemplar deve ser atribuída à manifestação inteira e a todos os seus itens.",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Manifestação e Item — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30",
     "habilidade": "aplicar"
   },
   {
@@ -1104,8 +1237,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas relações entre as entidades WEMI dos FRBR, julgue o item subsequente.",
     "item": "Uma tradução de um romance do espanhol para o português deve ser tratada como simples mudança de exemplar, sem distinguir a expressão linguística do conteúdo traduzido.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A tradução do conteúdo distingue uma expressão; o exemplar individual pertence ao nível de item. Diferencie conteúdo expresso de exemplar individual. Julgue a atribuição da tradução ao nível de item. A distinção deve ser aplicada aos dados e às condições do enunciado, sem decidir apenas pela presença de palavras específicas.",
-    "armadilhaBanca": "Técnica: Confusão de níveis. A tradução é reduzida ao nível do exemplar em vez de distinguir a expressão.",
+    "justificativa": "ERRADO. A tradução modifica a realização linguística do conteúdo e precisa ser distinguida no nível de expressão. Item é o exemplar individual. Trocar um exemplar pelo outro não representa adequadamente a diferença entre o texto original e sua tradução.",
+    "armadilhaBanca": "Não reduzir uma mudança intelectual a uma diferença de objeto individual.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1113,10 +1246,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "Uma tradução distingue a expressão linguística do conteúdo; não é apenas uma troca de exemplar.",
+    "versao_correta": "A tradução deve ser distinguida como realização linguística do conteúdo, e não tratada apenas como troca de exemplar.",
     "gatilho": "simples mudança de exemplar",
-    "fonte": "IFLA Library Reference Model (2017, revisão dezembro) — seção 4.2, entidades LRM-E3, LRM-E4 e LRM-E5",
-    "dataConferencia": "2026-10-29",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Expressão e Item — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30",
     "habilidade": "analisar"
   },
   {
@@ -1127,15 +1260,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Com base nas relações entre as entidades WEMI dos FRBR, julgue o item subsequente.",
     "item": "A presença de uma dedicatória autografada pelo autor em um exemplar preservado na Seção de Obras Raras da Biblioteca da Câmara dos Deputados altera ontologicamente a Manifestação do livro para todos os leitores do país.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Uma dedicatória ou autógrafo afeta exclusivamente o ITEM concreto singular (aquele exemplar específico da biblioteca). A Manifestação compartilhada no mercado editorial permanece idêntica e inalterada. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. Uma dedicatória manuscrita em um exemplar é uma característica desse item. Não altera automaticamente todos os exemplares da manifestação. O interesse histórico ou valor de uma cópia não muda o nível em que se deve registrar sua particularidade.",
+    "armadilhaBanca": "Uma característica valiosa continua sendo particular do exemplar.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "A presença de uma dedicatória manuscrita ou autógrafo do autor em um exemplar físico específico afeta exclusivamente a entidade Item singular sob custódia da biblioteca, permanecendo a entidade Manifestação idêntica para todos os demais exemplares publicados daquela tiragem."
+    "versao_correta": "A dedicatória exclusiva de um exemplar deve ser registrada no nível do item correspondente.",
+    "gatilho": "para todos os leitores do país",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Item e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-60",
@@ -1145,8 +1281,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das entidades dos Grupos 2 e 3 dos FRBR, julgue o item a seguir.",
     "item": "O Grupo 2 de entidades do modelo FRBR original (IFLA, 1998) contempla em sua estrutura nativa três entidades: Pessoa, Família e Entidade Coletiva.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! No modelo FRBR original publicado em 1998, o Grupo 2 era composto por apenas DUAS entidades: Pessoa (Person) e Entidade Coletiva (Corporate Body). A entidade Família (Family) só foi incorporada posteriormente com a publicação do modelo FRAD (2009) e consolidada no IFLA LRM (2017).",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. O Grupo 2 original do FRBR reúne Pessoa e Entidade coletiva. Família aparece no FRAD e em estruturas posteriores, mas isso não a transforma retrospectivamente em terceira entidade original do Grupo 2. Identificar a versão é parte do julgamento.",
+    "armadilhaBanca": "Não transferir uma entidade de um modelo posterior para a lista original.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1154,7 +1290,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TST / 2024"
     },
-    "versao_correta": "No modelo FRBR original (IFLA, 1998), o Grupo 2 de entidades contemplava apenas duas entidades: Pessoa (Person) e Entidade Coletiva (Corporate Body); a entidade Família (Family) foi incorporada posteriormente pelo modelo FRAD (2009) e consolidada no IFLA LRM (2017)."
+    "versao_correta": "O Grupo 2 do FRBR original contém Pessoa e Entidade coletiva; não apresenta Família como terceira entidade autônoma.",
+    "gatilho": "Pessoa, Família e Entidade Coletiva",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — entidades do Grupo 2 no modelo de 1998 — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-61",
@@ -1162,18 +1301,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Acerca dos Grupos 2 e 3 de entidades dos FRBR, julgue o item a seguir.",
-    "item": "O Grupo 3 dos FRBR reúne as entidades que podem ser assunto de uma Obra e é composto por Conceito, Objeto, Evento e Lugar.",
+    "item": "No FRBR original, Conceito, Objeto, Evento e Lugar compõem o Grupo 3, mas entidades dos demais grupos também podem ser assunto de uma Obra.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Grupo 3 do modelo conceitual FRBR compreende o universo de entidades abstratas e concretas que podem constituir o assunto (subject) de uma Obra, composto pela téride: Conceito (Concept - ideias e teorias), Objeto (Object - coisas materiais), Evento (Event - fatos históricos e reuniões) e Lugar (Place - localidades geográficas).",
-    "armadilhaBanca": "Quarteto de entidades temáticas do Grupo 3 dos FRBR.",
+    "justificativa": "CERTO. O Grupo 3 original apresenta essas quatro entidades. Elas não esgotam o universo de assuntos: uma obra também pode tratar de outra obra ou de uma pessoa, por exemplo. A organização em grupos não impede relações de assunto com entidades dos demais grupos.",
+    "armadilhaBanca": "Não confundir a lista de um grupo e o conjunto de entidades que podem funcionar como assunto.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "podem ser assunto de uma Obra e",
-    "versao_errada": "O Grupo 3 dos FRBR reúne as entidades que indevidamente podem ser assunto de uma obra e é composto por Conceito, Objeto, Evento e Lugar."
+    "gatilho": "Conceito, Objeto, Evento e Lugar",
+    "versao_errada": "No FRBR, somente as quatro entidades do Grupo 3 podem ser assunto de uma obra, sendo impossível uma pessoa ser seu tema.",
+    "fonte": "IFLA — FRBR, 1998, versão com alterações de 2009 — Grupos 1–3 e relações de assunto — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-62",
@@ -1181,10 +1322,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Em relação ao modelo FRAD (Requisitos Funcionais para Dados de Autoridade), julgue o item.",
-    "item": "O modelo FRAD introduziu duas novas tarefas de usuário adicionais às dos FRBR voltadas para o controle de autoridade: justificar (justify) e contextualizar (contextualize).",
+    "item": "O FRAD inclui contextualizar e justificar entre suas tarefas de usuário voltadas ao controle de autoridade, ao lado de encontrar e identificar.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Certo. O FRAD expandiu as tarefas clássicas, adicionando Justificar (explicitar por que uma autoridade foi criada) e Contextualizar (situar a pessoa/entidade em seu contexto histórico). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. FRAD prevê encontrar, identificar, contextualizar e justificar. Contextualizar situa a identidade ou o relacionamento; justificar documenta a base para escolhas de autoridade. Não é simplesmente acrescentar duas tarefas à lista do FRBR e conservar todas as anteriores, pois a finalidade do modelo é outra.",
+    "armadilhaBanca": "Comparar a lista e a finalidade dos modelos, sem apenas somar palavras.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1192,8 +1333,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2023"
     },
-    "gatilho": "adicionais às dos FRBR voltadas para o",
-    "versao_errada": "O modelo FRAD introduziu duas novas tarefas de usuário indevidamente adicionais às dos frbr voltadas para o controle de autoridade: justificar (justify) e contextualizar (contextualize)."
+    "gatilho": "contextualizar e justificar",
+    "versao_errada": "FRAD mantém selecionar e obter como suas únicas tarefas de autoridade, sem contextualizar ou justificar escolhas.",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — tarefas do usuário no FRAD. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-63",
@@ -1203,15 +1346,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao modelo conceitual FRSAD (Requisitos Funcionais para Dados de Autoridade de Assunto), julgue o próximo item.",
     "item": "O modelo conceitual FRSAD incorporou as entidades do Grupo 1 dos FRBR para representar o universo temático, determinando que temas documentais sejam expressos por meio das entidades Obra, Expressão, Manifestação e Item.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O modelo FRSAD formulou modelagem temática própria baseada em duas entidades universais: Thema (qualquer objeto de discurso ou assunto de uma Obra) e Nomen (qualquer signo pelo qual um Thema é conhecido). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. FRSAD utiliza Thema para o que pode ser assunto e Nomen para as designações pelas quais se faz referência ao tema. Não substitui essa estrutura pela tétrade WEMI. Um tema pode ter diversas designações, e uma mesma forma de designação pode exigir desambiguação.",
+    "armadilhaBanca": "Não transferir os produtos bibliográficos do FRBR para o lugar das entidades de FRSAD.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "O modelo conceitual FRSAD (Functional Requirements for Subject Authority Data) estruturou a representação temática em torno de duas entidades próprias fundamentais: Thema (qualquer objeto de discurso ou assunto de uma Obra) e Nomen (qualquer signo ou designação pelo qual um Thema é conhecido)."
+    "versao_correta": "FRSAD distingue Thema e Nomen, em vez de representar todo o universo temático apenas por WEMI.",
+    "gatilho": "Obra, Expressão, Manifestação e Item",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — FRSAD: Thema e Nomen. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-64",
@@ -1221,15 +1367,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao modelo FRSAD (Requisitos Funcionais para Dados de Autoridade de Assunto), julgue o item.",
     "item": "No modelo conceitual FRSAD, a entidade Nomen limita-se a termos textuais da linguagem natural alfabética, rejeitando notações numéricas e códigos alfanuméricos de esquemas de classificação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a modelagem conceitual do FRSAD (Requisitos Funcionais para Dados de Autoridade de Assunto, IFLA 2010), a entidade 'Nomen' abrange qualquer signo, símbolo, palavra ou sequência alfanumérica utilizada para denominar ou expressar um 'Thema'. Isso inclui não apenas termos em linguagem natural, mas também notações numéricas da CDU e CDD, códigos alfanuméricos e descritores de tesauros controlados.",
-    "armadilhaBanca": "Restrição indevida: números de classificação também são Nomens no FRSAD.",
+    "justificativa": "ERRADO. Nomen pode ser uma designação textual, notação ou outro sinal pelo qual um tema é referido. Um código de classificação pode funcionar como designação; não precisa ser uma palavra em alfabeto natural. Tema e sua forma de nomeação são entidades distintas no modelo.",
+    "armadilhaBanca": "Distinguir o assunto e os sinais que o designam.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No modelo conceitual FRSAD, a entidade Nomen engloba qualquer signo utilizado para denominar ou representar um Thema, incluindo termos alfabéticos de linguagem natural, notações numéricas da CDD/CDU, símbolos e códigos alfanuméricos de tesauros."
+    "versao_correta": "Nomen pode abranger designações como termos e notações, sem se limitar a palavras alfabéticas.",
+    "gatilho": "limita-se a termos textuais",
+    "fonte": "Catalogação: dos princípios e teorias ao RDA e IFLA LRM — FRSAD: Nomen. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-65",
@@ -1239,8 +1388,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à evolução e consolidação do IFLA LRM (Library Reference Model), julgue o item a seguir.",
     "item": "O modelo IFLA LRM, aprovado em 2017 pela IFLA, foi desenvolvido para integrar e consolidar os três modelos conceituais anteriores (FRBR, FRAD e FRSAD) em uma estrutura conceitual única de nível superior.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Aprovado pela IFLA em 2017, o IFLA LRM (Library Reference Model) realizou a unificação e consolidação harmônica dos três modelos conceituais anteriores (FRBR para dados bibliográficos, FRAD para autoridades de pessoas/entidades e FRSAD para assuntos), concebido como uma ontologia de nível superior (high-level) plenamente compatível com o ambiente de dados abertos interligados da Web Semântica.",
-    "armadilhaBanca": "Definição histórica do propósito de criação do IFLA LRM.",
+    "justificativa": "CERTO. LRM consolidou os modelos da família FR, reconciliando aspectos de seus domínios. A consolidação não significa conservar intactas todas as entidades e tarefas de cada um nem dispensar um código para orientar registros. Um modelo conceitual unificado continua diferente de um formato de dados.",
+    "armadilhaBanca": "Consolidar exige harmonização, não mera união de listas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1248,8 +1397,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "e consolidar os três modelos conceituais anteriores",
-    "versao_errada": "O modelo IFLA LRM, aprovado em 2017 pela IFLA, foi desenvolvido para integrar indevidamente e consolidar os três modelos conceituais anteriores (FRBR, FRAD e FRSAD) em uma estrutura conceitual única de nível superior."
+    "gatilho": "FRBR, FRAD e FRSAD",
+    "versao_errada": "O LRM conserva integralmente todas as listas e definições anteriores, sem resolver diferenças entre os três modelos.",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — introdução e escopo da consolidação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-66",
@@ -1259,8 +1410,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à evolução e consolidação do IFLA LRM (Library Reference Model), julgue o item a seguir.",
     "item": "No IFLA LRM, a entidade topo de hierarquia, que atua como superclasse que abrange qualquer coisa passível de ser objeto de interesse bibliográfico, denomina-se 'Res'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No modelo ontológico IFLA LRM, a entidade topo da hierarquia geral (top-level entity) denomina-se 'Res' (vocábulo latino que significa 'coisa'). 'Res' atua como uma superclasse universal da qual todas as demais entidades do universo bibliográfico (Agentes, Obras, Expressões, Manifestações, Itens, Lugares, Lapsos Temporais) derivam como subclasses especializadas.",
-    "armadilhaBanca": "Termo técnico canônico supremo do IFLA LRM: a entidade Res.",
+    "justificativa": "CERTO. Res é a entidade mais geral do modelo, abrangendo aquilo que pode ser objeto de interesse bibliográfico. As demais entidades se especializam nesse universo. Res não é abreviação de recurso eletrônico nem um campo que deve ser digitado em todo registro MARC.",
+    "armadilhaBanca": "Não reduzir a superclasse a um tipo de suporte.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1268,8 +1419,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "gatilho": "atua como superclasse que abrange qualquer coisa",
-    "versao_errada": "No IFLA LRM, a entidade topo de hierarquia, que indevidamente atua como superclasse que abrange qualquer coisa passível de ser objeto de interesse bibliográfico, denomina-se 'Res'."
+    "gatilho": "Res",
+    "versao_errada": "Res é uma entidade reservada exclusivamente a arquivos digitais e exclui pessoas, lugares e obras impressas.",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2, LRM-E1: Res — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-67",
@@ -1279,8 +1432,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das tarefas do usuário no IFLA LRM, julgue o item.",
     "item": "No modelo IFLA LRM, a lista de tarefas do usuário foi enxugada para três ações: Buscar, Comparar e Copiar.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O modelo conceitual IFLA LRM consagra CINCO tarefas fundamentais do usuário (User Tasks): Encontrar (Find - reunir recursos com critérios de busca), Identificar (Identify - confirmar que o recurso encontrado corresponde ao buscado), Selecionar (Select - avaliar a adequação do recurso à necessidade), Obter (Obtain - adquirir, acessar ou descarregar o recurso) e a nova e crucial tarefa Explorar (Explore - navegar por relações contextuais).",
-    "armadilhaBanca": "Invenção de tarefas espúrias para testar se o candidato conhece as 5 tarefas oficiais do LRM.",
+    "justificativa": "ERRADO. As tarefas do LRM são encontrar, identificar, selecionar, obter e explorar. Comparar pode ajudar a selecionar, mas não substitui a lista; copiar não equivale à tarefa obter, que considera o acesso ao recurso. O enunciado mistura atividades plausíveis e uma contagem incorreta.",
+    "armadilhaBanca": "Reconhecer a lista do modelo sem aceitar uma enumeração apenas por soar plausível.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1288,7 +1441,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "versao_correta": "O modelo conceitual IFLA LRM estabelece cinco tarefas essenciais do usuário: Encontrar (Find), Identificar (Identify), Selecionar (Select), Obter (Obtain) e a nova tarefa Explorar (Explore)."
+    "versao_correta": "As cinco tarefas do LRM são encontrar, identificar, selecionar, obter e explorar.",
+    "gatilho": "Buscar, Comparar e Copiar",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 3: tarefas do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-68",
@@ -1298,16 +1454,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das tarefas do usuário no IFLA LRM, julgue o item.",
     "item": "A tarefa 'Explorar' (Explore), incorporada pelo IFLA LRM, visa apoiar o usuário na descoberta de relacionamentos e na navegação contextualizada em redes semânticas e grafos de conhecimento.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A inclusão da tarefa 'Explorar' (Explore) no IFLA LRM reflete a transição dos catálogos tradicionais para grafos de conhecimento: visa dar suporte à descoberta aberta de recursos e relacionamentos semânticos imprevistos, incentivando o usuário a explorar contextos históricos, trajetórias intelectuais de agentes e vínculos entre entidades na web de dados conectados.",
-    "armadilhaBanca": "Conceito exato da nova tarefa Explorar do IFLA LRM.",
+    "justificativa": "CERTO. Explorar permite descobrir recursos e compreender relações entre entidades, situando-os em um contexto. Não se reduz a recuperar um registro já conhecido. Um catálogo pode apoiar essa tarefa com relações, navegação e conexões sem que o modelo exija uma única interface ou tecnologia.",
+    "armadilhaBanca": "Distinguir navegação contextual e localização de um item conhecido.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "o usuário na descoberta de relacionamentos e",
-    "versao_errada": "A tarefa 'Explorar' (Explore), incorporada pelo IFLA LRM, visa apoiar indevidamente o usuário na descoberta de relacionamentos e na navegação contextualizada em redes semânticas e grafos de conhecimento."
+    "gatilho": "descoberta de relacionamentos",
+    "versao_errada": "Explorar significa apenas confirmar um número de chamada já conhecido, sem descobrir relações ou outros recursos.",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 3: tarefa Explorar — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-69",
@@ -1315,17 +1473,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "No que se refere à modelagem de agentes e responsabilidades no IFLA LRM, julgue o item.",
-    "item": "No modelo IFLA LRM, a entidade Agente (Agent) foi concebida de modo a abranger indistintamente seres humanos, animais de serviço treinados e sistemas autônomos de inteligência artificial gerativa como agentes legítimos dotados de direitos e deveres autorais sobre obras bibliográficas.",
+    "item": "No IFLA LRM, todo algoritmo autônomo que gere um texto deve ser classificado como Agente, na mesma condição conceitual de uma Pessoa, independentemente da definição de agente do modelo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O modelo IFLA LRM define explicitamente que a entidade Agente (LRM-E2) restringe-se a entidades capazes de agir e assumir responsabilidade legal/moral por suas ações, compreendendo exclusivamente seres humanos individuais (Pessoa) ou agregados de seres humanos (Agente Coletivo). Animais, softwares de IA e robôs NÃO são agentes no IFLA LRM.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. No LRM, agentes são pessoas ou agentes coletivos no sentido humano definido pelo modelo. Um software que participa de um processo não passa automaticamente a integrar essa classe. A definição conceitual também não decide, por si só, direitos autorais ou personalidade jurídica de tecnologias.",
+    "armadilhaBanca": "Não inferir uma entidade conceitual nem um direito jurídico apenas pela execução de uma tarefa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No modelo IFLA LRM, a entidade Agente (LRM-E2) restringe-se a entidades dotadas de capacidade jurídica e responsabilidade moral por suas ações, compreendendo unicamente seres humanos individuais (Pessoa) ou agregados de pessoas (Agente Coletivo), excluindo-se animais, máquinas e softwares de inteligência artificial."
+    "versao_correta": "No LRM, a categoria Agente segue as entidades humanas definidas pelo modelo, sem incluir automaticamente qualquer software autônomo.",
+    "gatilho": "todo algoritmo autônomo",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Agente, Pessoa e Agente coletivo — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-70",
@@ -1333,17 +1494,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "No que se refere à modelagem de agentes no IFLA LRM, julgue o item subsequente.",
-    "item": "Sistemas computacionais autônomos e algoritmos de inteligência artificial generativa são categorizados como Agentes na mesma classe das Pessoas no IFLA LRM.",
+    "item": "Se uma publicação credita um sistema de inteligência artificial como autor, essa menção basta para classificá-lo como Pessoa no LRM, sem análise da definição da entidade.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! A definição estrita do IFLA LRM estabelece que Agente é unicamente um ser humano individual ou um coletivo de seres humanos capaz de assumir responsabilidade legal. Máquinas, softwares e animais são excluídos da entidade Agente.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. O nome atribuído a um sistema em uma menção não prova que o sistema corresponda à entidade Pessoa do LRM. É necessário distinguir a forma de uma declaração no recurso e a entidade conceitual que se está identificando. Registrar o que aparece não obriga aceitar literalmente toda alegação de identidade.",
+    "armadilhaBanca": "Separar informação transcrita e afirmação sobre uma entidade do modelo.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "Sistemas computacionais, robôs e algoritmos de inteligência artificial generativa não são categorizados como Agentes no modelo IFLA LRM, visto que a definição de Agente exige capacidade de assumir responsabilidade legal e ética sobre atos autorais."
+    "versao_correta": "Registrar uma menção a um sistema não obriga classificá-lo como Pessoa no modelo LRM.",
+    "gatilho": "basta para classificá-lo como Pessoa",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Agente e Nomen — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-71",
@@ -1351,18 +1515,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Com relação às entidades Lugar e Tempo no IFLA LRM, julgue o item.",
-    "item": "O modelo IFLA LRM incluiu Lugar (Place) e Lapso Temporal (Time-span) como entidades autônomas de primeiro nível para contextualizar geograficamente e cronologicamente os recursos.",
+    "item": "O IFLA LRM inclui as entidades Lugar e Lapso Temporal para representar aspectos espaciais e temporais no universo bibliográfico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No modelo conceitual IFLA LRM (2017), a entidade Lugar (LRM-E10 / Place) e a entidade Lapso Temporal (LRM-E11 / Time-span) foram definidas como entidades autônomas de primeiro nível, subordinadas à superclasse Res (LRM-E1). Essa modelagem permite que o sistema vincule e contextualize recursos, agentes e eventos a pontos geográficos determinados e a intervalos cronológicos específicos, enriquecendo as conexões em grafos de dados na web semântica.",
-    "armadilhaBanca": "Afirmação correta sobre as entidades espaciotemporais do LRM.",
+    "justificativa": "CERTO. Essas entidades permitem representar localização e extensão temporal de modo distinguível. Um nome de lugar é uma designação, não o próprio Lugar, e um intervalo não se confunde com a data transcrita em uma manifestação. Relações permitem conectar esses elementos aos demais recursos.",
+    "armadilhaBanca": "Distinguir entidade, designação e dado transcrito.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "Temporal (Time-span) como entidades autônomas de primeiro",
-    "versao_errada": "O modelo IFLA LRM incluiu Lugar (Place) e Lapso indevidamente temporal (time-span) como entidades autônomas de primeiro nível para contextualizar geograficamente e cronologicamente os recursos."
+    "gatilho": "Lugar e Lapso Temporal",
+    "versao_errada": "No LRM, Lugar é apenas uma sequência de letras e não pode ser distinguido da forma de seu nome.",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.2: Lugar e Lapso temporal — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-72",
@@ -1370,18 +1536,21 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Com relação às entidades Lugar e Tempo no IFLA LRM, julgue o item.",
-    "item": "Em coletâneas e antologias de poemas de múltiplos autores, o IFLA LRM modela o livro como uma Obra Agregada que agrega as diversas expressões individuais de cada autor.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Para resolver o desafio da representação de coletâneas, antologias e números periódicos, o IFLA LRM introduziu o modelo de 'Obra Agregadora' e 'Expressão Agregadora': a Obra Agregadora representa o plano editorial e intelectual de seleção e estruturação dos conteúdos reunidos, ao passo que as obras individuais contidas na coletânea mantêm sua identidade ontológica e autoria intactas.",
-    "armadilhaBanca": "Item técnico sobre a modelagem de agregados no IFLA LRM.",
+    "item": "No IFLA LRM, uma antologia elimina a identidade das expressões individuais e as transforma em partes de uma única expressão agregadora, sem uma manifestação que incorpore múltiplas expressões.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. Um agregado é modelado como manifestação que incorpora múltiplas expressões. A seleção e organização podem envolver uma obra e expressão agregadoras, mas as contribuições não perdem suas identidades nem se tornam partes intelectuais da expressão agregadora. O comentário anterior reduzia o livro inteiro a uma obra agregada e confundia os níveis.",
+    "armadilhaBanca": "Distinguir manifestação agregada e trabalho intelectual de seleção e organização.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "LRM modela o livro como uma Obra",
-    "versao_errada": "Em coletâneas e antologias de poemas de múltiplos autores, o IFLA indevidamente lrm modela o livro como uma obra Agregada que agrega as diversas expressões individuais de cada autor."
+    "gatilho": "elimina a identidade",
+    "versao_errada": "",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 5.7: modelo de agregados; LRM-R25 — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "Uma manifestação agregada pode incorporar expressões de várias obras e uma expressão agregadora, sem eliminar a identidade das contribuições."
   },
   {
     "id": "cat-q-73",
@@ -1389,10 +1558,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Quanto à relação entre modelos conceituais e formatos de catalogação, julgue o item a seguir.",
-    "item": "Por ser um modelo conceitual teórico e abstrato, a publicação do IFLA LRM impôs o encerramento compulsório e imediato do uso do formato MARC 21 em todas as redes cooperativas do mundo.",
+    "item": "A adoção do IFLA LRM exige obrigatoriamente um formato RDF e torna conceitualmente inválida qualquer implementação que ainda utilize MARC 21.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Modelos conceituais como o IFLA LRM não substituem formatos de codificação ou comunicação como o MARC 21; eles oferecem a estrutura conceitual para orientar regras e esquemas, e o MARC continua em uso pleno sendo adaptado.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. LRM descreve entidades e relacionamentos; não impõe um único formato de codificação. Uma implementação precisa avaliar como representar os dados em seu ambiente. Adotar o modelo não encerra automaticamente o uso de MARC nem torna RDF condição conceitual obrigatória.",
+    "armadilhaBanca": "Separar modelo conceitual e escolha de implementação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1400,7 +1569,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "versao_correta": "A introdução do modelo conceitual de alto nível IFLA LRM não revoga nem impede o uso continuado de formatos de codificação e comunicação de dados como o MARC 21, servindo antes para orientar a evolução e o mapeamento dos esquemas de metadados existentes."
+    "versao_correta": "A adoção do LRM não determina por si só um único formato de codificação, como RDF ou MARC.",
+    "gatilho": "obrigatoriamente um formato RDF",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — escopo: modelo conceitual e implementação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-74",
@@ -1410,15 +1582,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à relação entre modelos conceituais e formatos de catalogação, julgue o item a seguir.",
     "item": "No modelo conceitual WEMI, a relação semântica entre a entidade Obra e a entidade Expressão é expressa formalmente pela fórmula 'Obra corporifica Expressão'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! A fórmula canônica é: a Obra É REALIZADA POR uma Expressão (Work is realized through Expression). Quem 'corporifica' a Expressão é a MANIFESTAÇÃO (Expression is embodied in Manifestation). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "justificativa": "ERRADO. A obra é realizada por uma expressão; a expressão é incorporada em manifestação, exemplificada por item. Trocar os verbos muda a relação formal entre entidades. Uma expressão não é o suporte da obra, e a manifestação não é apenas uma realização intelectual abstrata.",
+    "armadilhaBanca": "Verificar o verbo da relação e os níveis de suas entidades.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No modelo conceitual WEMI dos FRBR/LRM, as relações estruturais fundamentais são: a Obra é realizada por (is realized through) uma Expressão; a Expressão é corporificada em (is embodied in) uma Manifestação; e a Manifestação é exemplificada por (is exemplified by) um Item."
+    "versao_correta": "A Obra é realizada por Expressão, que é incorporada em Manifestação.",
+    "gatilho": "Obra corporifica Expressão",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.3: Obra, Expressão e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-75",
@@ -1428,15 +1603,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das relações entre entidades no IFLA LRM, julgue o item a seguir.",
     "item": "No modelo IFLA LRM, a relação entre Manifestação e Item é de incorporação conceitual (is a realization of), de tal forma que um único Item sob custódia física da biblioteca exemplifica simultaneamente múltiplas manifestações editoriais distintas lançadas por editoras comerciais diferentes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! A relação entre Expressão e Obra é 'realiza' (is a realization of). A relação entre Manifestação e Item é de exemplificação (is exemplified by / exemplifica). Ademais, cada item físico é exemplar de UMA ÚNICA manifestação específica, não podendo exemplificar simultaneamente manifestações de tiragens/editoras concorrentes distintas.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Item exemplifica uma manifestação; realização conecta obra e expressão. A afirmação mistura o verbo e os níveis e ainda trata o mesmo item como exemplar indistinto de manifestações editoriais diferentes. Um objeto físico que reúna unidades precisa de modelagem adequada, sem apagar as identidades pertinentes.",
+    "armadilhaBanca": "Não confundir exemplar, incorporação e realização intelectual.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No modelo IFLA LRM, a relação entre Manifestação e Item é de exemplificação (a Manifestação é exemplificada por Item), sendo que cada Item físico singular existente é exemplar de apenas uma Manifestação específica."
+    "versao_correta": "Item exemplifica Manifestação; Expressão realiza Obra.",
+    "gatilho": "is a realization of",
+    "fonte": "IFLA Library Reference Model, 2017, revisão de dezembro — 4.3: exemplificação; Item e Manifestação — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-76",
@@ -1444,10 +1622,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.4",
     "contexto": "No que se refere à arquitetura do Formato MARC 21 para Dados Bibliográficos, julgue o item subsequente.",
-    "item": "A estrutura de um registro bibliográfico MARC 21 compõe-se de três seções físicas indispensáveis: o Líder (Leader), o Diretório (Directory) e os Campos Variáveis de Dados.",
+    "item": "Um registro MARC 21 bibliográfico tem líder, diretório e campos variáveis, que incluem campos de controle e campos de dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. De acordo com a norma internacional ISO 2709 e as especificações oficiais da Library of Congress para o Formato MARC 21, um registro bibliográfico é composto por três partes estruturais físicas: 1) o Líder (Leader - 24 caracteres com parâmetros de processamento do registro); 2) o Diretório (Directory - índice de localização e tamanho de cada campo); e 3) os Campos Variáveis (subdivididos em campos de controle e campos de dados).",
-    "armadilhaBanca": "Composição física básica e indispensável do padrão MARC 21.",
+    "justificativa": "CERTO. O líder e o diretório fornecem informações estruturais; os campos variáveis incluem campos de controle e de dados. Não são três áreas de descrição ISBD nem três tarefas de catalogação. A estrutura deve ser diferenciada da interface em que o catalogador visualiza ou edita campos.",
+    "armadilhaBanca": "Separar seções estruturais do registro e campos de descrição de conteúdo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1455,8 +1633,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "gatilho": "três seções físicas indispensáveis: o Líder (Leader)",
-    "versao_errada": "A estrutura de um registro bibliográfico MARC 21 compõe-se de indevidamente três seções físicas indispensáveis: o líder (leader), o Diretório (Directory) e os Campos Variáveis de Dados."
+    "gatilho": "líder, diretório e campos variáveis",
+    "versao_errada": "O registro MARC tem somente três campos de assunto, chamados líder, diretório e dados.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — MARC 21 bibliográfico: estrutura do registro — https://www.loc.gov/marc/bibliographic/bdintro.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-77",
@@ -1466,8 +1646,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à arquitetura do Formato MARC 21 para Dados Bibliográficos, julgue o item subsequente.",
     "item": "O Líder do Formato MARC 21 possui comprimento dinâmico e variável, que se expande automaticamente à medida que novos campos de cabeçalho são adicionados ao registro.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O Líder do MARC 21 possui tamanho RIGOROSAMENTE FIXO de exatamente 24 caracteres (posições de 00 a 23), contendo parâmetros vitais como status do registro e tipo de registro. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. O líder tem comprimento fixo de 24 posições e codifica informações estruturais do registro. A ampliação dos campos muda outros valores, como comprimento total do registro, mas não faz o líder crescer. Os valores são usualmente gerados pelo sistema conforme o registro.",
+    "armadilhaBanca": "Um valor variável dentro da seção não torna variável o comprimento da seção.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1475,7 +1655,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "O Líder do formato MARC 21 possui comprimento rigorosamente fixo de exatamente 24 caracteres (posições de byte de 00 a 23), contendo parâmetros estruturais essenciais sobre o registro."
+    "versao_correta": "O líder MARC tem 24 posições fixas, embora codifique valores que podem mudar com o conteúdo do registro.",
+    "gatilho": "comprimento dinâmico e variável",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — Leader: estrutura de 24 posições — https://www.loc.gov/marc/bibliographic/bdintro.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-78",
@@ -1485,8 +1668,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao Diretório (Directory) do Formato MARC 21, julgue o item subsequente.",
     "item": "No registro MARC 21, o Diretório (Directory) é uma seção de preenchimento manual obrigatório pelo catalogador em formulário de tela, no qual devem ser digitados a tag, o número de palavras e o nome do operador do sistema para cada campo inserido.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O Diretório do registro MARC 21 é gerado AUTOMATICAMENTE pelo sistema computacional no momento da indexação/salvamento do registro conforme a norma ISO 2709. Ele é composto por entradas fixas de 12 caracteres (3 para tag, 4 para tamanho do campo e 5 para posição de início). O catalogador não preenche o diretório manualmente.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Uma entrada do diretório identifica a etiqueta, o comprimento do campo e sua posição inicial relativa à área de dados. São dados estruturais normalmente calculados pelo sistema, não uma lista de autoria profissional ou quantidade de palavras. A tela de edição não reproduz necessariamente o diretório bruto.",
+    "armadilhaBanca": "Não confundir descrição do registro de intercâmbio e formulário de trabalho.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1494,7 +1677,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJDFT / Bibliotecário"
     },
-    "versao_correta": "No formato MARC 21, o Diretório (Directory) é uma tabela estruturada gerada e atualizada automaticamente pelo software de catalogação (composta por entradas fixas de 12 caracteres por campo, segundo a ISO 2709), não havendo digitação manual de tags ou posições pelo catalogador."
+    "versao_correta": "O diretório registra etiqueta, comprimento e posição dos campos, normalmente calculados pelo sistema.",
+    "gatilho": "número de palavras e o nome do operador",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — Directory: etiqueta, comprimento e posição — https://www.loc.gov/marc/bibliographic/bdintro.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-79",
@@ -1504,8 +1690,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos campos de controle e campos variáveis de dados no MARC 21, julgue o item.",
     "item": "Os campos de controle 001 a 008 do padrão MARC 21 Bibliográfico caracterizam-se pela presença de dois indicadores numéricos e pela subdivisão em subcampos alfanuméricos precedidos por delimitadores.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No Formato MARC 21, os campos de controle (tags 001 a 008) caracterizam-se exatamente por NÃO possuírem indicadores de posição nem códigos delimitadores de subcampo ($). Eles armazenam dados elementares de controle e gerenciamento dispostos em posições fixas de caracteres (ex.: campo 008 com 40 posições contínuas de 00 a 39).",
-    "armadilhaBanca": "Pegadinha recorrente: apenas os campos de dados variáveis (010 a 999) possuem indicadores e subcampos!",
+    "justificativa": "ERRADO. Campos de controle, como 001 e 008, não usam os dois indicadores e a estrutura de subcampos dos campos variáveis de dados. No 008, significados decorrem de posições fixas. Não se deve acrescentar $a ou indicadores apenas por analogia com 245 ou 650.",
+    "armadilhaBanca": "Distinguir controle por posições e campos de dados com indicadores e subcampos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1513,7 +1699,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TJDFT / 2022"
     },
-    "versao_correta": "Os campos de controle 001 a 008 do padrão MARC 21 Bibliográfico não possuem indicadores numéricos nem delimitadores de subcampo, armazenando dados dispostos em posições fixas de caracteres."
+    "versao_correta": "Os campos de controle 00X não têm indicadores nem subcampos; campos de dados usam sua estrutura própria.",
+    "gatilho": "dois indicadores",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — campos variáveis de controle 00X — https://www.loc.gov/marc/bibliographic/bdintro.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-80",
@@ -1523,16 +1712,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos campos de controle e campos variáveis de dados no MARC 21, julgue o item.",
     "item": "O campo de controle 008 (Elementos Fixos) possui exatamente 40 posições de caracteres e registra parâmetros cruciais como data de publicação, código de país de publicação e código de idioma da obra.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O campo de controle 008 do MARC 21 (Elementos de Comprimento Fixo) possui exatamente 40 posições de caracteres (00 a 39). É um dos campos mais estratégicos do registro, pois codifica em posições predefinidas a data de entrada do registro, o tipo de data, o ano de publicação, o código de país, o código de idioma, o público-alvo e a presença de índices ou ilustrações.",
-    "armadilhaBanca": "Estrutura e conteúdo clássico do campo 008 do MARC 21.",
+    "justificativa": "CERTO. O 008 tem 40 posições, com códigos para aspectos definidos por tipo de material e posições gerais, como datas, país e idioma. O significado depende da posição e do tipo de recurso. Não se trata de um campo livre onde se pode digitar quarenta palavras para substituir notas.",
+    "armadilhaBanca": "Comprimento fixo e significado posicional não equivalem a texto de extensão limitada.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "e registra parâmetros cruciais como data de",
-    "versao_errada": "O campo de controle 008 (Elementos Fixos) possui exatamente 40 posições de caracteres indevidamente e registra parâmetros cruciais como data de publicação, código de país de publicação e código de idioma da obra."
+    "gatilho": "40 posições",
+    "versao_errada": "O 008 é um campo textual livre de até quarenta palavras, sem significado associado às posições.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 008: elementos de comprimento fixo — https://www.loc.gov/marc/bibliographic/bd008.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-81",
@@ -1542,8 +1733,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange aos campos de números e códigos do MARC 21 (01X-09X), julgue o item subsequente.",
     "item": "O campo 020 do Formato MARC 21 Bibliográfico é o campo padronizado reservado para a gravação do Número Internacional Normalizado para Livro (ISBN).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No padrão MARC 21 Bibliográfico, o campo 020 é expressamente reservado para o Número Internacional Normalizado para Livros (ISBN - International Standard Book Number). O subcampo $a recebe o número do ISBN padronizado (de 10 ou 13 dígitos) e o subcampo $c recebe informações sobre o preço, termos de disponibilidade ou encadernação do volume.",
-    "armadilhaBanca": "Correspondência correta entre tag e identificador.",
+    "justificativa": "CERTO. 020 registra ISBN e informações associadas previstas nos subcampos. É distinto de 022, destinado ao ISSN. Um identificador presente no recurso pode ser inválido ou cancelado, com registro apropriado; a mera sequência de dígitos não garante sua validade.",
+    "armadilhaBanca": "Distinguir os identificadores e seus campos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1551,8 +1742,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2023"
     },
-    "gatilho": "é o campo padronizado reservado para a",
-    "versao_errada": "O campo 020 do Formato MARC 21 Bibliográfico indevidamente é o campo padronizado reservado para a gravação do Número Internacional Normalizado para Livro (ISBN)."
+    "gatilho": "ISBN",
+    "versao_errada": "Todo ISSN deve ser registrado no 020 porque 020 reúne indistintamente todos os números normalizados.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 020: International Standard Book Number — https://www.loc.gov/marc/bibliographic/bd020.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-82",
@@ -1562,8 +1755,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange aos campos de números e códigos do MARC 21 (01X-09X), julgue o item subsequente.",
     "item": "O campo 022 do MARC 21 é destinado ao registro do ISBN de obras monográficas impressas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No Formato MARC 21 Bibliográfico, há uma divisão rigorosa de campos normalizados: o campo 020 é privativo do ISBN para livros e monografias, enquanto o campo 022 é expressamente reservado para o registro do ISSN (International Standard Serial Number), identificador numérico internacional de oito dígitos exclusivo de publicações seriadas e periódicos.",
-    "armadilhaBanca": "Inversão clássica entre 020 (ISBN/Livros) e 022 (ISSN/Seriados).",
+    "justificativa": "ERRADO. 022 é o campo de ISSN, usado na identificação de publicações seriadas e recursos abrangidos pelo identificador. ISBN é registrado em 020. A semelhança dos acrônimos e a proximidade das etiquetas não tornam os campos intercambiáveis.",
+    "armadilhaBanca": "Troca entre dois identificadores e suas etiquetas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1571,7 +1764,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Câmara dos Deputados"
     },
-    "versao_correta": "No Formato MARC 21 Bibliográfico, o campo 020 é destinado ao registro do ISBN (International Standard Book Number) para monografias e livros; o campo 022 é reservado ao ISSN (International Standard Serial Number) para publicações seriadas."
+    "versao_correta": "020 registra ISBN, enquanto 022 registra ISSN.",
+    "gatilho": "ISBN",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 020 e 022 — https://www.loc.gov/marc/bibliographic/bd022.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-83",
@@ -1581,8 +1777,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos campos de classificação no MARC 21, julgue o item a seguir.",
     "item": "No MARC 21 Bibliográfico, o campo 080 é destinado à notação da Classificação Decimal Universal (CDU), enquanto o campo 082 é destinado ao número da Classificação Decimal de Dewey (CDD).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No Formato MARC 21 Bibliográfico, a gravação de números de classificação segue tags específicas: o campo 080 destina-se ao registro da notação da Classificação Decimal Universal (CDU), enquanto o campo 082 é reservado para a notação da Classificação Decimal de Dewey (CDD). Ambas as tags são essenciais na catalogação cooperativa da RVBI no Congresso Nacional.",
-    "armadilhaBanca": "Mapeamento correto de tags de classificação bibliográfica decimal.",
+    "justificativa": "CERTO. 080 é o campo para CDU e 082 para CDD. Esses campos não são a notação de autor nem o número completo de localização do exemplar em qualquer biblioteca. Os indicadores e subcampos especificam informação adicional conforme cada campo e a aplicação.",
+    "armadilhaBanca": "Conferir a correspondência entre sistema e etiqueta antes de interpretar a notação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1590,8 +1786,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Senado Federal"
     },
-    "gatilho": "Classificação Decimal Universal (CDU), enquanto o campo",
-    "versao_errada": "No MARC 21 Bibliográfico, o campo 080 é destinado à notação da Classificação Decimal Universal (CDD), enquanto o campo 082 é destinado ao número da Classificação Decimal de Dewey (CDD)."
+    "gatilho": "080",
+    "versao_errada": "080 e 082 representam respectivamente a CDD e a CDU, nessa ordem.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 080 e 082: números de classificação — https://www.loc.gov/marc/bibliographic/bd080.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-84",
@@ -1601,8 +1799,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos campos de classificação no MARC 21, julgue o item a seguir.",
     "item": "O campo 100 do Formato MARC 21 é utilizado para registrar a entrada principal sob o nome de uma entidade governamental ou pessoa jurídica.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O campo 100 é exclusivo para entrada principal sob nome de PESSOA FÍSICA. Nomes corporativos, órgãos governamentais e pessoas jurídicas têm entrada principal registrada no campo 110. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. No MARC bibliográfico, 100 é nome pessoal; 110 é nome de entidade coletiva; 111 é nome de evento. Uma entidade governamental não se torna pessoa física porque tem um responsável humano. O formato codifica o ponto de acesso escolhido pelas regras de conteúdo.",
+    "armadilhaBanca": "Distinguir natureza do ponto de acesso e responsabilidade de pessoas vinculadas ao órgão.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1610,7 +1808,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TRE / Bibliotecário"
     },
-    "versao_correta": "No Formato MARC 21 Bibliográfico, o campo 100 é utilizado para a entrada principal sob nome de pessoa física (autor individual); a entrada principal sob o nome de entidade coletiva governamental ou pessoa jurídica é registrada no campo 110."
+    "versao_correta": "110 registra entrada principal por entidade coletiva; 100, por nome pessoal.",
+    "gatilho": "campo 100",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 100, 110 e 111: entradas principais — https://www.loc.gov/marc/bibliographic/bd100.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-85",
@@ -1620,16 +1821,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos campos de entrada principal (1XX) no MARC 21, julgue o item.",
     "item": "O campo 111 do MARC 21 Bibliográfico é empregado para a entrada principal sob o nome de conferências, congressos, simpósios e reuniões científicas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No Formato MARC 21 Bibliográfico, o campo 111 (Entrada Principal - Nome de Evento/Conferência) é utilizado especificamente para registrar atas, anais, simpósios, congressos e reuniões científicas ou governamentais tratadas como autoras corporativas. Seus subcampos essenciais incluem $a (nome do evento), $c (local de realização), $d (data de realização) e $n (número do evento em algarismos arábicos).",
-    "armadilhaBanca": "Tag canônica de eventos científicos e parlamentares.",
+    "justificativa": "CERTO. 111 codifica a entrada principal por nome de reunião ou evento, quando escolhida conforme o código de catalogação. A existência do campo não determina que toda publicação com menção a um congresso tenha automaticamente essa entrada. É preciso identificar a responsabilidade e a forma do cabeçalho.",
+    "armadilhaBanca": "A disponibilidade de um campo não decide sozinha a escolha do acesso.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "empregado para a entrada principal sob o",
-    "versao_errada": "O campo 111 do MARC 21 Bibliográfico é indevidamente empregado para a entrada principal sob o nome de conferências, congressos, simpósios e reuniões científicas."
+    "gatilho": "campo 111",
+    "versao_errada": "Todo livro que mencione uma conferência em qualquer parte deve ter entrada principal em 111.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 111: Main Entry — Meeting Name — https://www.loc.gov/marc/bibliographic/bd111.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-86",
@@ -1639,8 +1842,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos subcampos do campo 245 no MARC 21 Bibliográfico, julgue o item seguinte.",
     "item": "No campo 245 do MARC 21 Bibliográfico, o subcampo $b destina-se privativamente à indicação de responsabilidade e autoria intelectual da obra, enquanto o subcampo $c é reservado para a transcrição do subtítulo ou resto do título.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! Há uma clássica inversão: o subcampo $b destina-se ao subtítulo ou resto do título, enquanto o subcampo $c destina-se à indicação de responsabilidade (menção de autoria e colaboradores). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. No 245, $b registra o restante do título conforme as regras do campo, e $c a indicação de responsabilidade. O enunciado trocou essas funções. Transcrever uma indicação de autoria em $c não substitui a criação do ponto de acesso de nome no campo adequado.",
+    "armadilhaBanca": "Separar subcampos descritivos e pontos de acesso de autoria.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1648,7 +1851,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / Adaptada"
     },
-    "versao_correta": "No campo 245 do MARC 21 Bibliográfico, o subcampo $b destina-se ao subtítulo ou resto do título, ao passo que a indicação de responsabilidade e autoria intelectual é registrada no subcampo $c."
+    "versao_correta": "No 245, $b registra restante do título e $c registra indicação de responsabilidade.",
+    "gatilho": "subcampo $b",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 245: $b e $c — https://www.loc.gov/marc/bibliographic/bd245.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-87",
@@ -1658,8 +1864,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao campo de título e responsabilidade (245) no MARC 21, julgue o item subsequente.",
     "item": "No campo 245, o segundo indicador é utilizado pelo sistema automatizado para determinar a quantidade de caracteres não ordenáveis (como artigos definidos e indefinidos) que devem ser desprezados na indexação alfabética do título.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Certo. Por exemplo, no título 'O Processo Legislativo', o segundo indicador será '2' (desconsidera o 'O' e o espaço na ordenação). No título 'A Constituição', o indicador será '2'. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. O indicador conta caracteres iniciais a desconsiderar na ordenação, incluindo os espaços e sinais abrangidos pela regra. Em A biblioteca, A e o espaço totalizam dois caracteres, não apenas um artigo. O texto permanece no campo: não se apagam os caracteres do título transcrito.",
+    "armadilhaBanca": "Distinguir contagem de caracteres para ordenação e alteração do dado transcrito.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1667,8 +1873,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "a quantidade de caracteres não ordenáveis (como",
-    "versao_errada": "No campo 245, o segundo indicador é utilizado pelo sistema automatizado para determinar indevidamente a quantidade de caracteres não ordenáveis (como artigos definidos e indefinidos) que devem ser desprezados na indexação alfabética do título."
+    "gatilho": "quantidade de caracteres não ordenáveis",
+    "versao_errada": "O segundo indicador do 245 manda apagar definitivamente do título os artigos iniciais.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 245: segundo indicador, nonfiling characters — https://www.loc.gov/marc/bibliographic/bd245.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-88",
@@ -1678,16 +1886,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos campos de edição e publicação no MARC 21, julgue o item a seguir.",
     "item": "O campo 250 do MARC 21 destina-se ao registro da menção de edição do recurso bibliográfico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O campo 250 (Menção de Edição) do Formato MARC 21 armazena a informação da edição do documento (equivalente à Área 2 da ISBD/AACR2r). O subcampo $a recebe a menção principal de edição (ex.: \"3. ed. rev. e ampl.\") e o subcampo $b destina-se a informações adicionais de edição, sendo de preenchimento mandatório quando o recurso traz explicitamente tal especificação.",
-    "armadilhaBanca": "Identificação correta do campo de edição.",
+    "justificativa": "CERTO. 250 codifica a menção de edição. Não é usado para registrar o ano de nascimento do autor nem o número do exemplar local. A forma do conteúdo depende do código e do perfil; a etiqueta MARC não manda abreviar ou transcrever sozinha toda indicação de edição.",
+    "armadilhaBanca": "Distinguir função do campo e regra de conteúdo aplicada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "21 destina-se ao registro da menção de",
-    "versao_errada": "O campo 250 do MARC indevidamente 21 destina-se ao registro da menção de edição do recurso bibliográfico."
+    "gatilho": "menção de edição",
+    "versao_errada": "250 determina, por si só, a abreviação obrigatória de toda menção de edição, independentemente do código de catalogação.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 250: Edition Statement — https://www.loc.gov/marc/bibliographic/bd250.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-89",
@@ -1697,8 +1907,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos campos de edição e publicação no MARC 21, julgue o item a seguir.",
     "item": "No campo de imprenta 260 do MARC 21, o subcampo $a armazena o nome da editora e o subcampo $b armazena a cidade ou local de publicação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No campo de imprenta 260 (e no moderno campo 264) do MARC 21, a ordem e o significado dos subcampos é padronizada: o subcampo $a recebe o local (cidade) de publicação; o subcampo $b recebe o nome da editora, impressora ou distribuidora; e o subcampo $c recebe o ano ou data de publicação do recurso.",
-    "armadilhaBanca": "Inversão dos subcampos: $a é o Lugar e $b é a Editora!",
+    "justificativa": "ERRADO. No 260, $a registra lugar, $b nome do editor/distribuidor e $c datas pertinentes. Os dois primeiros foram invertidos. O campo 264 também pode representar funções de produção e publicação, conforme a aplicação, sem mudar retroativamente o significado dos subcampos de 260.",
+    "armadilhaBanca": "Troca de subcampos que a semelhança da informação de publicação pode esconder.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1706,7 +1916,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "versao_correta": "No campo de imprenta 260 do MARC 21, o subcampo $a destina-se ao local (cidade) de publicação, enquanto o nome da editora ou distribuidora é registrado no subcampo $b (e a data de publicação no subcampo $c)."
+    "versao_correta": "No 260, $a registra o lugar e $b o editor ou distribuidor.",
+    "gatilho": "subcampo $a armazena o nome da editora",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 260: $a, $b e $c — https://www.loc.gov/marc/bibliographic/bd260.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-90",
@@ -1714,18 +1927,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.4",
     "contexto": "No que se refere ao campo moderno 264 do MARC 21 adaptado ao RDA, julgue o item.",
-    "item": "O campo 264 do MARC 21 emprega o segundo indicador para explicitar a função da entidade comercial, diferenciando de forma clara produção (indicador 0), publicação (indicador 1), distribuição (indicador 2) e fabricação (indicador 3).",
+    "item": "No MARC 21, o segundo indicador de 264 distingue produção (0), publicação (1), distribuição (2), fabricação (3) e data de copyright (4).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O campo 264 do MARC 21 foi introduzido para compatibilizar o formato aos preceitos do RDA, que desmembra os papéis das entidades ligadas ao recurso. O segundo indicador define com exatidão a função exercida: 0 = Produção (materiais não publicados), 1 = Publicação, 2 = Distribuição, 3 = Fabricação e 4 = Aviso de Copyright (©) ou Fonograma (℗), superando a ambiguidade cumulativa do antigo campo 260.",
-    "armadilhaBanca": "Conhecimento avançado da evolução do MARC 21 em sintonia com o RDA.",
+    "justificativa": "CERTO. O segundo indicador identifica a função: 0 produção, 1 publicação, 2 distribuição e 3 fabricação; 4 indica data de copyright. A categoria não exige que o agente seja uma empresa comercial, pois há produção não comercial. Lugar, nome e data continuam distinguíveis nos subcampos.",
+    "armadilhaBanca": "Conferir a função do indicador, sem presumir que toda produção seja comercial.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "da entidade comercial, diferenciando de forma clara",
-    "versao_errada": "O campo 264 do MARC 21 emprega o segundo indicador para explicitar a função indevidamente da entidade comercial, diferenciando de forma clara produção (indicador 0), publicação (indicador 1), distribuição (indicador 2) e fabricação (indicador 3)."
+    "gatilho": "segundo indicador",
+    "versao_errada": "No 264, o segundo indicador 4 identifica fabricação, e 3 identifica data de copyright.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 264: segundo indicador — https://www.loc.gov/marc/bibliographic/bd264.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-91",
@@ -1735,8 +1950,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação à descrição física (campo 300) no MARC 21, julgue o item subsequente.",
     "item": "No campo 300 de descrição física, o subcampo $a recebe as dimensões da obra em centímetros e o subcampo $c recebe a paginação ou extensão do volume.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No campo 300 (Descrição Física) do padrão MARC 21, a distribuição padronizada dos subcampos é: subcampo $a = extensão/paginação da obra (ex.: '250 p.'); subcampo $b = outros detalhes físicos, como ilustrações ou mapas (ex.: 'il. color.'); e subcampo $c = dimensões da peça em centímetros (ex.: '23 cm'). A inversão entre paginação e dimensões constitui erro de codificação.",
-    "armadilhaBanca": "Inversão clássica de subcampos da colação: $a é paginação e $c são as dimensões.",
+    "justificativa": "ERRADO. No 300, $a registra extensão, como paginação, e $c dimensões. A assertiva trocou os subcampos. A unidade e a forma do dado seguem as regras de descrição; o mesmo número pode ter significado diferente quando registrado no subcampo errado.",
+    "armadilhaBanca": "A etiqueta correta não compensa um dado colocado no subcampo errado.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1744,7 +1959,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / TCU / 2015"
     },
-    "versao_correta": "No campo 300 de descrição física do MARC 21, a paginação ou extensão do recurso bibliográfico é registrada no subcampo $a, outros detalhes físicos no subcampo $b, e as dimensões físicas em centímetros no subcampo $c."
+    "versao_correta": "No 300, $a registra extensão e $c registra dimensões.",
+    "gatilho": "subcampo $a recebe as dimensões",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 300: $a e $c — https://www.loc.gov/marc/bibliographic/bd300.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-92",
@@ -1754,8 +1972,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos campos de assuntos e entradas secundárias no MARC 21, julgue o item.",
     "item": "Os campos do bloco 6XX são destinados à atribuição de pontos de acesso de assunto, sendo o campo 650 reservado para termos tópicos e o campo 651 para nomes geográficos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No MARC 21 Bibliográfico, o bloco 6XX destina-se aos pontos de acesso de assunto: o campo 600 recebe nomes pessoais como assunto; o 610, entidades coletivas; o 611, conferências/eventos; o 650, termos tópicos gerais; o 651, termos geográficos; e o campo 655, termos de gênero e forma documental.",
-    "armadilhaBanca": "Mapeamento preciso do bloco 6XX do MARC 21.",
+    "justificativa": "CERTO. 6XX reúne campos de acesso de assunto. 650 registra termo tópico e 651 nome geográfico, com detalhes de origem e subdivisão conforme o campo. Um nome geográfico pode ter função diferente em outro contexto, por isso o dado não deve ser enviado a 651 apenas porque menciona um lugar em qualquer parte do recurso.",
+    "armadilhaBanca": "Distinguir forma da expressão e sua função como assunto.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1763,8 +1981,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "acesso de assunto, sendo o campo 650",
-    "versao_errada": "Os campos do bloco 6XX são destinados à atribuição de pontos de indevidamente acesso de assunto, sendo o campo 650 reservado para termos tópicos e o campo 651 para nomes geográficos."
+    "gatilho": "650",
+    "versao_errada": "Todo nome de lugar mencionado no recurso deve ser registrado como assunto em 651, mesmo sem constituir tema.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 6XX, 650 e 651 — https://www.loc.gov/marc/bibliographic/bd650.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-93",
@@ -1774,16 +1994,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos campos de assuntos e entradas secundárias no MARC 21, julgue o item.",
     "item": "No Formato MARC 21, coautores e colaboradores intelectuais que não receberam a entrada principal têm seus pontos de acesso secundários cadastrados nos campos do bloco 7XX.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No Formato MARC 21, coautores, organizadores, ilustradores e demais colaboradores intelectuais que não receberam a entrada principal (reservada ao bloco 1XX) têm seus pontos de acesso secundários registrados nos campos do bloco 7XX (700 para pessoas físicas, 710 para entidades coletivas e 740 para títulos analíticos ou variantes).",
-    "armadilhaBanca": "Função correta do bloco 7XX.",
+    "justificativa": "CERTO. 7XX permite acessos adicionais para nomes e títulos relacionados, conforme os campos e as regras. Coautores, tradutores e outros responsáveis podem ser representados em campos adequados. Transcrever seus nomes em 245 $c não cria por si só esses acessos, nem todos os 7XX são de pessoas.",
+    "armadilhaBanca": "Separar descrição da menção e codificação de acesso adicional.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "receberam a entrada principal têm seus pontos",
-    "versao_errada": "No Formato MARC 21, coautores e colaboradores intelectuais que não indevidamente receberam a entrada principal têm seus pontos de acesso secundários cadastrados nos campos do bloco 7XX."
+    "gatilho": "bloco 7XX",
+    "versao_errada": "Transcrever um coautor em 245 $c cria automaticamente seu ponto de acesso em 700, sem qualquer registro adicional.",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 7XX: entradas adicionais — https://www.loc.gov/marc/bibliographic/bd700.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-94",
@@ -1793,8 +2015,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto aos campos de assuntos e entradas secundárias no MARC 21, julgue o item.",
     "item": "No formato MARC 21 Bibliográfico, o campo 856 destina-se ao registro de dados fiscais e preço comercial de aquisição de monografias e periódicos impressos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O campo 856 registra Localização e Acesso Eletrônico (Electronic Location and Access), informando endereços de rede (URLs) e protocolos de acesso a recursos eletrônicos. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. 856 registra localização e acesso eletrônico, com informações pertinentes como o URI e notas. Preço e aquisição têm outros campos e contextos. Um URI no registro também não garante acesso aberto ao conteúdo, pois podem existir autenticação, licença ou restrição.",
+    "armadilhaBanca": "Não confundir endereço eletrônico, preço e direito de acesso.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1802,7 +2024,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "No Formato MARC 21 Bibliográfico, o campo 856 destina-se ao registro de Localização e Acesso Eletrônico (endereço web/URL e protocolo de acesso ao recurso digital), e não a dados fiscais ou preço de aquisição."
+    "versao_correta": "856 registra localização e acesso eletrônico, que podem estar sujeitos a condições de uso.",
+    "gatilho": "dados fiscais e preço comercial",
+    "fonte": "MARC 21 Bibliographic — Library of Congress — 856: Electronic Location and Access — https://www.loc.gov/marc/bibliographic/bd856.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-95",
@@ -1812,8 +2037,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere ao padrão de metadados Dublin Core, julgue o item a seguir.",
     "item": "O conjunto básico do Dublin Core Simples (Simple Dublin Core) é composto por 25 elementos obrigatórios e intransferíveis.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O conjunto básico de metadados do Dublin Core Simples (Simple Dublin Core - ISO 15836) compõe-se de exatamente 15 elementos descritivos universais (Title, Creator, Subject, Description, Publisher, Contributor, Date, Type, Format, Identifier, Source, Language, Relation, Coverage e Rights). Crucialmente, todos os 15 elementos são opcionais e repetíveis.",
-    "armadilhaBanca": "Erro duplo de número e obrigatoriedade: são 15 elementos, todos opcionais e repetíveis.",
+    "justificativa": "ERRADO. Dublin Core simples tem quinze elementos, não vinte e cinco. No padrão básico, obrigatoriedade e repetição podem ser definidas por perfis de aplicação; não existe a imposição apresentada no item. Os elementos descrevem aspectos do recurso sem determinar sozinhos uma interface ou formato único.",
+    "armadilhaBanca": "Conferir a quantidade e separar o vocabulário básico das exigências locais.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1821,7 +2046,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
-    "versao_correta": "O conjunto básico do Dublin Core Simples (Simple Dublin Core) é composto por 15 elementos descritivos universais, sendo todos eles de preenchimento opcional e repetíveis."
+    "versao_correta": "Dublin Core simples possui quinze elementos, cuja aplicação pode receber requisitos específicos de um perfil.",
+    "gatilho": "25 elementos obrigatórios",
+    "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — conjunto de 15 elementos — https://www.dublincore.org/specifications/dublin-core/dces/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-96",
@@ -1829,18 +2057,20 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.4",
     "contexto": "No que se refere ao padrão de metadados Dublin Core, julgue o item a seguir.",
-    "item": "O Princípio de Um-para-Um (One-to-One Principle) do Dublin Core determina que um registro de metadados deve descrever apenas uma manifestação ou versão de um recurso, e não agrupar múltiplas versões físicas e digitais em um único registro.",
+    "item": "No DCMI Abstract Model, cada descrição se refere a um recurso descrito, e um conjunto de descrições pode reunir recursos relacionados sem confundir suas identidades.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Princípio de Um-para-Um (One-to-One Principle) da Dublin Core Metadata Initiative (DCMI) estabelece que um registro de metadados em Dublin Core deve descrever com rigor uma única versão ou manifestação de um recurso, prescrevendo que um livro impresso e sua reprodução digitalizada em PDF devem receber registros de metadados separados, interligados pelo elemento 'Relation'.",
-    "armadilhaBanca": "Princípio basilar do Dublin Core para evitar confusão entre versões originais e derivadas.",
+    "justificativa": "CERTO. Uma descrição identifica um recurso e apresenta declarações sobre ele; recursos relacionados podem receber descrições distinguíveis num conjunto. Isso não obriga todo recurso a ser uma Manifestação FRBR nem impede reunir várias descrições em uma serialização. O princípio não deve ser confundido com um único objeto físico por arquivo.",
+    "armadilhaBanca": "Separar descrição, recurso e conjunto de descrições.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "deve descrever apenas uma manifestação ou versão",
-    "versao_errada": "O Princípio de Um-para-Um (One-to-One Principle) do Dublin Core determina que um registro de metadados indevidamente deve descrever apenas uma manifestação ou versão de um recurso, e não agrupar múltiplas versões físicas e digitais em um único registro."
+    "gatilho": "um recurso descrito",
+    "versao_errada": "Um arquivo ou conjunto de descrições Dublin Core só pode mencionar um objeto físico e não pode registrar relações com outros recursos.",
+    "fonte": "DCMI Abstract Model — modelo de descrição e conjunto de descrições — https://www.dublincore.org/specifications/dublin-core/abstract-model/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-97",
@@ -1850,15 +2080,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere ao padrão de metadados Dublin Core, julgue o item.",
     "item": "O padrão Dublin Core Qualificado substitui de forma excludente os 15 elementos originais do Dublin Core Simples por uma nova sintaxe hierárquica e rígida, tornando os registros qualificados permanentemente incompatíveis com sistemas legados que operam sob o padrão de 15 elementos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O Dublin Core Qualificado fundamenta-se expressamente no Princípio do 'Dumb-Down' (simplificação regressiva): qualquer qualificador refina o significado do elemento, mas um sistema que não reconheça o qualificador pode simplesmente ignorá-lo e tratar o valor como o elemento básico correspondente do Dublin Core Simples, preservando total interoperabilidade.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Qualificações e refinamentos acrescentam precisão; não substituem obrigatoriamente os quinze elementos por uma sintaxe única e incompatível. A interoperabilidade depende da semântica, do mapeamento e do perfil. Simplificar um dado pode perder detalhe, sem que isso signifique incompatibilidade absoluta entre todo uso qualificado e simples.",
+    "armadilhaBanca": "Distinguir perda de detalhe em um mapeamento e impossibilidade absoluta de interoperar.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "O Dublin Core Qualificado adota o Princípio do \"Dumb-Down\" (simplificação regressiva), segundo o qual qualquer qualificador que refine um elemento pode ser ignorado por sistemas legados sem que se perca o significado básico do elemento raiz, mantendo plena interoperabilidade com o Dublin Core Simples."
+    "versao_correta": "Refinamentos podem aumentar detalhe e exigir mapeamento, sem tornar todo Dublin Core qualificado permanentemente incompatível com o simples.",
+    "gatilho": "permanentemente incompatíveis",
+    "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — qualificação e interoperabilidade — https://www.dublincore.org/specifications/dublin-core/dces/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-98",
@@ -1868,8 +2101,8 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do Dublin Core Qualificado (Qualified Dublin Core), julgue o item subsequente.",
     "item": "Por ser considerado tecnicamente obsoleto, o padrão Dublin Core foi banido do protocolo de coleta OAI-PMH adotado por repositórios institucionais modernos como o DSpace.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O Dublin Core Simples é o padrão de metadados MÍNIMO E MANDATÓRIO exigido pelo protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) em todo o mundo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. OAI-PMH exige suporte ao formato Dublin Core não qualificado correspondente a oai_dc. Provedores podem oferecer outros formatos além dele. Assim, a existência de modelos mais ricos não significa banimento do formato básico nem impede que um repositório disponibilize múltiplas representações de metadados.",
+    "armadilhaBanca": "Não confundir a disponibilidade de formatos adicionais e a exclusão do formato básico.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1877,7 +2110,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "versao_correta": "O esquema Dublin Core Simples (oai_dc) é o padrão de metadados obrigatório e universalmente adotado para a interoperabilidade e coleta de registros pelo protocolo OAI-PMH em repositórios digitais como o DSpace."
+    "versao_correta": "OAI-PMH prevê suporte ao Dublin Core não qualificado e permite formatos adicionais de metadados.",
+    "gatilho": "banido",
+    "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — 3.4: Dublin Core não qualificado — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-99",
@@ -1887,15 +2123,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação aos elementos de autoria e direitos no Dublin Core, julgue o item.",
     "item": "No esquema Dublin Core Simples, o elemento Creator restringe-se a pessoas físicas individuais, determinando que obras produzidas por órgãos públicos sejam inseridas no elemento Contributor.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No Dublin Core, o elemento Creator abrange pessoas físicas, organizações corporativas ou serviços primariamente responsáveis pela concepção intelectual do recurso. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
+    "justificativa": "ERRADO. Creator identifica a entidade com responsabilidade principal pela criação, podendo ser pessoa, organização ou serviço conforme a descrição. Contributor representa contribuição ao conteúdo; não é uma categoria obrigatória para toda entidade coletiva. A natureza institucional, sozinha, não muda a responsabilidade de criador para colaborador.",
+    "armadilhaBanca": "Distinguir tipo de agente e papel exercido na criação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "No esquema Dublin Core Simples, o elemento Creator abrange tanto pessoas físicas individuais quanto entidades corporativas, órgãos governamentais ou instituições coletivas primariamente responsáveis pela criação intelectual do recurso."
+    "versao_correta": "Creator pode identificar uma organização responsável pela criação; órgãos públicos não são obrigatoriamente deslocados para Contributor.",
+    "gatilho": "restringe-se a pessoas físicas",
+    "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — Creator e Contributor — https://www.dublincore.org/specifications/dublin-core/dces/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "cat-q-100",
@@ -1905,16 +2144,18 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação aos elementos de autoria e direitos no Dublin Core, julgue o item.",
     "item": "O elemento Rights no Dublin Core é destinado ao registro de informações relativas a direitos de propriedade intelectual, licenças de uso (como Creative Commons), restrições de acesso e termos de domínio público aplicáveis ao recurso.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No padrão Dublin Core (ISO 15836), o elemento 'Rights' abrange a declaração formal de direitos de propriedade intelectual aplicáveis ao recurso, incluindo menções a direitos autorais, termos de licenças abertas (como Creative Commons), condições de acesso público ou restrições institucionais de distribuição comercial.",
-    "armadilhaBanca": "Definição canônica completa do elemento Rights do Dublin Core.",
+    "justificativa": "CERTO. Rights comporta informação sobre direitos incidentes no recurso, como uma declaração ou referência a licença. Isso não significa que o recurso seja de acesso aberto, nem substitui todos os termos específicos, como licença, titular de direitos e direitos de acesso nos vocabulários qualificados. A condição deve ser registrada com evidência.",
+    "armadilhaBanca": "Registrar uma condição de direitos não cria essa condição.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "direitos de propriedade intelectual, licenças de uso",
-    "versao_errada": "O elemento Rights no Dublin Core é destinado ao registro de informações relativas a indevidamente direitos de propriedade intelectual, licenças de uso (como Creative Commons), restrições de acesso e termos de domínio público aplicáveis ao recurso."
+    "gatilho": "informações relativas a direitos",
+    "versao_errada": "O simples preenchimento de Rights torna o recurso automaticamente de domínio público ou de acesso aberto.",
+    "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — Rights e termos relacionados de direitos — https://www.dublincore.org/specifications/dublin-core/dces/",
+    "dataConferencia": "2026-10-30"
   }
 ];
 

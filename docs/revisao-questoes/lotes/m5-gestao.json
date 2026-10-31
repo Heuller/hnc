@@ -1,0 +1,2814 @@
+[
+  {
+    "id": "m5-q-1",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "usabilidade e avaliação com usuários",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "a03a49d0e0edcecc5be31008bf5ca85d31cd0516abb951537ef50183ae0b52d1",
+    "shaDepois": "364c85d73701b38f96e83553a50153d173a74c3c2902e48e116804f6885777a8",
+    "patch": {
+      "item": "O planejamento de um sistema de informação pode incluir estudos de usabilidade baseados na interação dos usuários com tarefas, para identificar melhorias necessárias.",
+      "justificativa": "CERTO. Observar como pessoas executam tarefas ajuda a identificar problemas de compreensão, navegação e acesso. Isso não se reduz a perguntar se gostaram do sistema. A avaliação precisa definir tarefas, público e critérios; uma interface visualmente agradável pode continuar difícil de usar.",
+      "gatilho": "estudos de usabilidade",
+      "armadilhaBanca": "Distinguir percepção estética e execução efetiva das tarefas.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — usabilidade e avaliação com usuários. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Usabilidade pode ser avaliada apenas pela aparência, sem observar tarefas ou dificuldades dos usuários.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-436553",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013 (Adaptada); identificador legado: TecConcursos-436553"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-2",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "entrevista: planejamento e condições de coleta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "04d590c8070d952b492eac93ccfda45de5bf457d28d94766894f2f9da757c210",
+    "shaDepois": "362e6d297be2fdb50eff50ef9dfca5f4a9a295bb4294dc51a1137658654e7936",
+    "patch": {
+      "item": "A qualidade da entrevista em estudos de usuários depende de planejamento que considere participantes, oportunidade, roteiro e condições de confidencialidade.",
+      "justificativa": "CERTO. Seleção dos participantes, oportunidade, roteiro e confidencialidade afetam a qualidade e a ética da coleta. O mesmo roteiro pode não servir a todos os objetivos. Uma entrevista bem planejada também não elimina automaticamente vieses de memória, seleção ou interação.",
+      "gatilho": "planejamento que considere participantes",
+      "armadilhaBanca": "O cuidado com a coleta começa antes de formular as perguntas.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — entrevista: planejamento e condições de coleta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A qualidade de uma entrevista independe da escolha dos participantes e das condições de confidencialidade.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "ANTT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-206236",
+        "declaracaoLegada": "Cebraspe / ANTT / 2013 (Adaptada); identificador legado: TecConcursos-206236"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-3",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "amostragem e limites de generalização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "c443fbc9399df6dcf8c23cce41761162fe650927572d9086b404ad7dffa87603",
+    "shaDepois": "bff57db811060708880054058a219b58a66c7926eb51ad39b0fa1a9fa0692c10",
+    "patch": {
+      "justificativa": "ERRADO. A possibilidade de generalizar depende da pergunta, do método e da amostra. Estudos qualitativos ou diagnósticos locais podem oferecer evidências úteis sem estimar estatisticamente toda a população. Servir ao planejamento não torna automaticamente representativo um grupo de respondentes.",
+      "gatilho": "devem ser generalizáveis",
+      "armadilhaBanca": "Não confundir utilidade decisória e representatividade estatística.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — amostragem e limites de generalização. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Resultados podem subsidiar decisões locais, e sua generalização depende do desenho e dos limites da pesquisa.",
+      "item": "Os resultados dos estudos de usuários devem ser generalizáveis, visto que nortearão as ações de planejamento nas bibliotecas universitárias.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ECT/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-371",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-371"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-4",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "política de desenvolvimento de coleções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "8c6353e21738eb2ae227dc041aeddd2835c860cc53ccc89002f262cba96975a9",
+    "shaDepois": "be5ebe006a6e6bd82e2d8e9af982e0f1be013f293a17070a4d6765cc95bd657c",
+    "patch": {
+      "justificativa": "ERRADO. Uma política documentada permite explicitar objetivos, critérios e responsabilidades e sustentar continuidade e avaliação. Conhecimento de profissionais experientes é valioso, mas não substitui toda formalização. O documento deve ser revisto; escrevê-lo uma vez não garante uma boa decisão para sempre.",
+      "gatilho": "tradição oral",
+      "armadilhaBanca": "Distinguir experiência da equipe e instrumento institucional de continuidade.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — política de desenvolvimento de coleções. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A política deve explicitar critérios e responsabilidades e ser revista, sem depender exclusivamente de memória individual.",
+      "item": "Em bibliotecas públicas e legislativas, a política de desenvolvimento de coleções pode prescindir de documento escrito formalizado, bastando a tradição oral e a memória individual do bibliotecário mais antigo da seção.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-5",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "abordagens e estruturas de entrevista",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "4c21eebe862318530ccea52bd4defc4939cc3786eadde1c7da65adade7bdfcd8",
+    "shaDepois": "aa11c6e7a930043799e83610837fbac63245f276ec8d7a66171dc3ef20f06616",
+    "patch": {
+      "justificativa": "ERRADO. Uma entrevista voltada a dados padronizados costuma usar maior estrutura e comparabilidade das respostas. Perguntas abertas e exploração de experiências são frequentemente associadas à investigação qualitativa. Técnicas podem ser combinadas; a distinção não transforma toda pergunta aberta em incompatível com qualquer análise quantitativa.",
+      "gatilho": "preponderância de questões abertas",
+      "armadilhaBanca": "Evitar confundir um perfil metodológico com proibição de combinação de técnicas.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — abordagens e estruturas de entrevista. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Entrevistas podem variar em estrutura e uso, e a escolha deve ser coerente com os objetivos e a análise pretendida.",
+      "item": "A estrutura de uma entrevista elaborada no âmbito de uma pesquisa quantitativa apresenta as seguintes características: baixo grau de estruturas impositivas, preponderância de questões abertas e foco em situações específicas e sequências de ações do mundo do entrevistado.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-181040",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "181040",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012; identificador legado: 181040"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-6",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao"
+    ],
+    "localizador": "responsabilidades e comissão de seleção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "968c61ac07e2900e41205a69ef524e69c2c2217614d7057f4da85bd59a87b7b2",
+    "shaDepois": "777dbe104dd2ca7e38a80bdbeeab300ea5e839225d59cb9dfa0bb3e1bdd1b30a",
+    "patch": {
+      "item": "Uma comissão de seleção pode assessorar decisões de coleção e favorecer participação de diferentes áreas, sem substituir critérios técnicos e responsabilidades institucionais.",
+      "justificativa": "CERTO. Uma comissão pode trazer perspectivas de áreas e públicos, conforme sua composição e regras. Ela assessora a decisão e não elimina critérios, análise técnica e responsabilidade institucional. Sua existência sozinha não garante pluralidade real nem torna toda sugestão uma aquisição obrigatória.",
+      "gatilho": "comissão de seleção",
+      "armadilhaBanca": "Distinguir participação no processo e garantia automática de qualidade.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — responsabilidades e comissão de seleção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Criar uma comissão garante automaticamente representatividade e obriga adquirir qualquer título por ela sugerido.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-7",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "aquisição por permuta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "9d3150504601256aa09effc1962b55dcdf53d6efb5a1db59704d7c28c16307bc",
+    "shaDepois": "8f62b0abd21ce7d0bde3442fa406cda8c3fba3c810da342baece00320a8fed08",
+    "patch": {
+      "justificativa": "CERTO. A troca de publicações pode ampliar acesso e aproveitar a produção institucional. Há custos de seleção, preparo, envio e tratamento, portanto não é uma aquisição sem custo. Os materiais recebidos precisam ser pertinentes e estar sujeitos à política, como em outras modalidades.",
+      "gatilho": "permuta",
+      "armadilhaBanca": "Trocar recursos não elimina custos nem a seleção.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — aquisição por permuta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda publicação recebida por permuta deve ser incorporada sem avaliação, pois a modalidade não gera custos.",
+      "item": "A permuta de publicações entre bibliotecas governamentais e instituições de ensino constitui modalidade de aquisição que valoriza a produção editorial própria do órgão (edições da Câmara dos Deputados) e economiza recursos orçamentários.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-8",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "métodos e abordagem qualitativa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "ebc54d0c6e4d53da5f0db8f362df416f132ac448107f203392313812d57e1444",
+    "shaDepois": "81a9aa53d2355a8bc6c3d97770bca44af1ef22c20d5e10d3603a9981003b32b8",
+    "patch": {
+      "item": "Questionários estruturados e análise de logs são sempre as técnicas mais adequadas para qualquer estudo qualitativo de usuários, independentemente do problema e do desenho de pesquisa.",
+      "justificativa": "ERRADO. Entrevistas, questionários e logs podem apoiar análises diferentes conforme o desenho. Questionários estruturados e logs não são automaticamente qualitativos nem sempre os mais adequados. É preciso examinar o que se quer conhecer, como os dados serão produzidos e seus limites éticos e interpretativos.",
+      "gatilho": "sempre as técnicas mais adequadas",
+      "armadilhaBanca": "Uma técnica não determina sozinha a abordagem de toda pesquisa.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — métodos e abordagem qualitativa. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A adequação de entrevistas, questionários e logs depende do problema, do desenho e do tipo de análise.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-440",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-440"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-9",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "ciclo de Evans apresentado pelo autor",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "f89f2e9a865e3485f1af5128f915d4931cacfb3aba037b029d3268ea64a1100b",
+    "shaDepois": "4e830a189874b1d048ee1c24736973c4dbd02aff27cf1d3718751ecc98c16f39",
+    "patch": {
+      "justificativa": "ERRADO. Aquisição deve se orientar por necessidades e critérios definidos, não criar o perfil da coleção apenas pelas oportunidades do mercado. O ciclo permite avaliações e ajustes, sem uma linearidade absoluta. Vergueiro apresenta o modelo de Evans; isso não o torna autor original de todas as etapas do modelo.",
+      "gatilho": "aquisição antecede",
+      "armadilhaBanca": "Distinguir realimentação do ciclo e compra sem critérios prévios.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — ciclo de Evans apresentado pelo autor. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A aquisição deve considerar a política e a seleção, podendo gerar dados para avaliação e revisão do processo.",
+      "item": "Na sistemática de desenvolvimento de coleções de Vergueiro, a etapa de aquisição antecede logicamente a definição da política de seleção, viabilizando compras de oportunidade no mercado editorial para moldar o perfil do acervo.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-10",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "cooperação na seleção e desenvolvimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "1a9c8e9d1c23a35f77504149e519134c17e0cf0e305017382ae013dab25e19ca",
+    "shaDepois": "5f3944d7f21f49abdcccdd261e4b520a4693c86771e3ca65624f4acfd14c7540",
+    "patch": {
+      "item": "A seleção cooperativa tem como consequência necessária aumentar compras duplicadas de materiais de baixa demanda, independentemente dos acordos e critérios da rede.",
+      "justificativa": "ERRADO. Cooperação pode evitar duplicações desnecessárias e ampliar cobertura, segundo acordos, demandas e acesso. Não garante ausência de duplicação: cópias podem ser justificadas por uso simultâneo ou localização. A assertiva atribui à cooperação um aumento obrigatório que não decorre dela.",
+      "gatilho": "consequência necessária",
+      "armadilhaBanca": "Distinguir coordenação de coleções e uniformização sem análise da demanda.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — cooperação na seleção e desenvolvimento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Seleção cooperativa pode reduzir duplicações desnecessárias, sem proibir toda aquisição de títulos em comum.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-11",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "desbastamento e destinação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "95a3ab55c3b84398d73a6480423666a4e2490e0a5936033600f4c1e1ddd6d381",
+    "shaDepois": "cd7b972ab92af02e8216d35d9378b8e6d5c1c3ba2e3e7dfd042937a46c4606a2",
+    "patch": {
+      "justificativa": "ERRADO. Patrimônio público pode ter destinação regular, inclusive descarte, conforme avaliação, competência e procedimentos. Isso não autoriza eliminar livremente qualquer documento, nem torna obrigatória a retenção eterna de material sem exame. Coleção bibliográfica e documentos arquivísticos também podem seguir regimes de avaliação diferentes.",
+      "gatilho": "retenção indefinida",
+      "armadilhaBanca": "Separar descarte regular, eliminação irregular e guarda permanente definida.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — desbastamento e destinação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A destinação de materiais públicos exige avaliação e procedimento competente, sem uma proibição universal de qualquer descarte.",
+      "item": "O descarte e o desbastamento de materiais bibliográficos em órgãos públicos federais configuram infração administrativa ao princípio da indisponibilidade do patrimônio público, impondo a retenção indefinida de volumes deteriorados.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-12",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir",
+      "cad"
+    ],
+    "localizador": "ligações e representação de recursos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 6.1 segundo o assunto efetivo.",
+    "shaAntes": "7bdd033b076c9d9a5572dc4e3b9f1e493301bf13da4c33399cfba3c34823c63d",
+    "shaDepois": "ec15ee39d8a878827fd294db2de2a0d9ba213cb575142f6237bc49d48ba3da1c",
+    "patch": {
+      "justificativa": "CERTO. Ligações podem relacionar verbetes e recursos por temas, referências e outros critérios. Isso favorece navegação, mas o simples fato de haver um link não prova validade semântica ou verdade da conexão. A qualidade da rede de referências precisa ser planejada e mantida.",
+      "gatilho": "hipertexto",
+      "armadilhaBanca": "Um mecanismo de navegação não valida sozinho a relação estabelecida.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — ligações e representação de recursos — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda ligação hipertextual prova automaticamente que os conteúdos ligados têm a mesma autoridade e significado.",
+      "item": "O hipertexto é um recurso empregado em enciclopédias eletrônicas para formar estruturas associadas entre si mediante relações semânticas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANATEL/2009",
+        "ano": 2009,
+        "orgao": "2009",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-244",
+        "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-244"
+      },
+      "submoduloId": "6.1"
+    }
+  },
+  {
+    "id": "m5-q-13",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao"
+    ],
+    "localizador": "missão, usuários e critérios de seleção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4ea7d85896eb75809b4e695e3ce2c1db1528ecdf2868558d3f4fab5da32cca5a",
+    "shaDepois": "aa5b0bd98824b58ebac701f66b4b8f5f15ef2642aa7f81c86bc800edfbe88d25",
+    "patch": {
+      "item": "Uma biblioteca parlamentar deve excluir sistematicamente posições divergentes da maioria política, usando a preferência partidária como critério suficiente de seleção.",
+      "justificativa": "ERRADO. A seleção deve considerar missão, necessidades e critérios justificáveis, sem censura por preferência partidária da gestão. Isso não obriga adquirir indistintamente todas as obras nem impede recortes temáticos de uma biblioteca especializada. Pluralidade e pertinência precisam ser examinadas no contexto institucional.",
+      "gatilho": "preferência partidária",
+      "armadilhaBanca": "Distinguir seleção fundamentada e censura ideológica.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — missão, usuários e critérios de seleção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Critérios de missão e pertinência podem orientar a seleção sem excluir sistematicamente perspectivas apenas pela preferência partidária da gestão."
+    }
+  },
+  {
+    "id": "m5-q-14",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao"
+    ],
+    "localizador": "critérios: autoridade e aspectos físicos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "ab17b22c9c7f4ed26d790f1607edf65d7451212eba13677756a880afaae114e4",
+    "shaDepois": "02cd6e93d511d76970a7c1eecaca03b919ce2aaf794118c98da25e3de9056f0b",
+    "patch": {
+      "justificativa": "ERRADO. Autoridade envolve responsabilidade, competência e credibilidade da autoria ou entidade pertinente ao assunto. Qualidade física e apresentação são outros critérios. Uma boa encadernação não prova rigor intelectual, e um autor conhecido também não elimina a necessidade de verificar atualização e finalidade da obra.",
+      "gatilho": "volumetria e à qualidade gráfica",
+      "armadilhaBanca": "Não substituir avaliação intelectual pela aparência do objeto.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — critérios: autoridade e aspectos físicos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Autoridade se relaciona à responsabilidade e credibilidade pertinentes ao conteúdo; acabamento físico é outro critério.",
+      "item": "Na avaliação de itens para aquisição, o critério de autoridade refere-se à volumetria e à qualidade gráfica do acabamento editorial da obra, desconsiderando a qualificação científica do autor.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-15",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "desenho de pesquisa e evidência empírica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "9b58e6a4965477eaffd3e56ba01e0d675d841ba729d58f18fec2203f74dedc55",
+    "shaDepois": "3d32d4a5cbc6c1c8c09b7edc89fa6cf614763e8d8a991420da8fd7aa65270528",
+    "patch": {
+      "item": "Em qualquer estudo empírico de usuários, a revisão de literatura substitui integralmente a coleta de dados da comunidade e garante conhecer seus comportamentos atuais.",
+      "justificativa": "ERRADO. Revisão de literatura ajuda a formular problemas e interpretar evidências, mas não substitui automaticamente dados sobre a comunidade estudada. Quando o objetivo exige conhecer práticas locais, precisam ser escolhidos métodos adequados. Isso não significa negar a validade de pesquisa bibliográfica para outros objetivos.",
+      "gatilho": "substitui integralmente",
+      "armadilhaBanca": "Separar fundamentação teórica e evidência sobre uma comunidade concreta.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — desenho de pesquisa e evidência empírica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A revisão de literatura pode orientar o estudo, mas não substitui automaticamente a coleta empírica quando ela é necessária ao objetivo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-318097",
+        "ano": 2015,
+        "orgao": "TJDFT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "318097",
+        "declaracaoLegada": "Cebraspe / TJDFT / 2015; identificador legado: 318097"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-16",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "doação e critérios de incorporação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "2c0fe3473855a66f3b01f793b94d17160d221fab358b30f8c3fef2040050147c",
+    "shaDepois": "62d419032d1ea3b2941da5775879b80666ec8f48748cc0d4c1fabb15336f15ff",
+    "patch": {
+      "justificativa": "ERRADO. Doações devem ser avaliadas quanto a pertinência, condições, duplicação, custos e eventuais restrições. Receber uma oferta não obriga incorporá-la integralmente. Aceitação, incorporação bibliográfica e baixa ou destinação patrimonial são decisões distintas, sujeitas às regras da instituição.",
+      "gatilho": "incorporação direta",
+      "armadilhaBanca": "Gratuidade da oferta não elimina custos nem responsabilidade de seleção.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — doação e critérios de incorporação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Materiais doados também devem ser avaliados segundo critérios e condições de incorporação.",
+      "item": "O recebimento de materiais por doação de pessoas físicas ou entidades privadas impõe a incorporação direta dos volumes ao acervo patrimonial, afastando a aplicação dos critérios temáticos fixados na política de seleção.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-17",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "capurro"
+    ],
+    "localizador": "informação, interpretação e conhecimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.4 segundo o assunto efetivo.",
+    "shaAntes": "6ca42138e66fa48652893f493ab4ab4a77c231fd550bee884001b0aeb10beab2",
+    "shaDepois": "3e31892cc0078e78439df5a58878cf92772c88d12e897cbabf0694d098dac997",
+    "patch": {
+      "item": "Em abordagens que relacionam informação e produção do conhecimento, a informação pode exercer função mediadora, cujo efeito depende também do sujeito e do contexto.",
+      "justificativa": "CERTO. Informação pode ser discutida como mediação na construção do conhecimento. O registro não produz o mesmo efeito em todo sujeito e contexto. A formulação não deve ser tratada como uma definição única aceita por toda teoria, nem como promessa de que disponibilizar dados garante aprendizagem.",
+      "gatilho": "mediadora",
+      "armadilhaBanca": "Distinguir mediação possível e efeito cognitivo automático.",
+      "fonte": "CAPURRO, Rafael. Epistemologia e ciência da informação. 2003 — informação, interpretação e conhecimento — https://www.capurro.de/enancib_p.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer informação disponibilizada produz automaticamente o mesmo conhecimento em todas as pessoas.",
+      "submoduloId": "5.4"
+    }
+  },
+  {
+    "id": "m5-q-18",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "observação e adequação metodológica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "a1e3e62ffdc8037bd3cba89daa76049eff2622a42a179e87ab0a8231df4709fe",
+    "shaDepois": "cb7907b4db88044fea62cc423eb8ec8d85febdef9a480e00a442cbf8442a45a8",
+    "patch": {
+      "item": "Por ocupar uma posição fixa de segundo método mais usado, a observação deve ser escolhida independentemente da pergunta de pesquisa, da comunidade e das condições de coleta.",
+      "justificativa": "ERRADO. A técnica deve ser escolhida pelo problema, pelas condições e pela análise prevista, não por uma suposta posição em um ranking universal. Observação pode assumir diferentes graus de estrutura; isso não a torna adequada a toda necessidade. Os limites e a ética da coleta precisam ser considerados.",
+      "gatilho": "independentemente da pergunta",
+      "armadilhaBanca": "Não converter popularidade suposta em critério suficiente de método.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — observação e adequação metodológica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Observação, entrevista e questionário devem ser selecionados segundo o problema e o desenho, e não por um ranking universal.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-437",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-437"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-19",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "amaral"
+    ],
+    "localizador": "satisfação e planejamento de serviços",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4d8c0398b854c2d3caba1681d7173b3c8bddf4cf73227b22e5571af6ac445166",
+    "shaDepois": "6b2b646022a7da5691239dee6ed8ddd0ceb28b1f2d356afe509558249a710206",
+    "patch": {
+      "justificativa": "CERTO. Satisfação é uma evidência útil para compreender experiências e ajustar a oferta. Pode coexistir com barreiras não percebidas ou necessidades não atendidas, por isso não é indicador único de qualidade. Ouvir apenas os satisfeitos também pode ocultar motivos de não uso.",
+      "gatilho": "satisfação do usuário",
+      "armadilhaBanca": "Não transformar um indicador percebido em avaliação completa.",
+      "fonte": "AMARAL, Sueli Angélica do. Marketing: abordagem em unidades de informação — satisfação e planejamento de serviços. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma taxa alta de satisfação dispensa examinar barreiras, necessidades de não usuários e outros resultados do serviço.",
+      "item": "A medição da satisfação do usuário é uma ação de administração de marketing, além de importante indicador para definir funções, objetivos, produtos e serviços no contexto do planejamento em centros de documentação."
+    }
+  },
+  {
+    "id": "m5-q-20",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "planejamento, licitação e contratação direta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "321639082d4fe40f2941236de33af0d5c52e1164c987ccef40edc12adb07d327",
+    "shaDepois": "4bd28124c770da2d9b32d3d8394859528947340b05e00a5d4b3ac8f00c30a20f",
+    "patch": {
+      "item": "Compras e outras formas de contratação de recursos informacionais por órgãos públicos devem observar a legislação aplicável, inclusive os requisitos de licitação, contratação direta ou uso de registro de preços.",
+      "justificativa": "CERTO. A aquisição pública deve observar o regime jurídico e os requisitos de sua hipótese, inclusive na contratação direta. Exclusividade, valor ou oportunidade não dispensam por si sós planejamento e justificativa. Comprar um livro ou licença exige analisar objeto, competição possível e condições concretas.",
+      "gatilho": "legislação",
+      "armadilhaBanca": "Distinguir uma hipótese legal de contratação direta e dispensa geral de procedimento.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — planejamento, licitação e contratação direta — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda compra de livro pode ser feita diretamente sem justificativa, por se tratar de produção intelectual.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-21",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "técnicas e abordagens de análise",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "8bd18eb7d6eecd3fd2aa40aee66a0e3c25365643793b033d772d0fe0e688ec22",
+    "shaDepois": "3170fe0ec824ca77c84bcbe6e74598462e3f0d525d0e3ed33a4b9574d5c83842",
+    "patch": {
+      "justificativa": "ERRADO. A classificação de uma pesquisa não decorre apenas da lista de técnicas. Logs e questionários estruturados podem gerar medidas quantitativas; entrevistas podem ter usos qualitativos ou quantitativos. Um desenho misto pode combiná-los, desde que as perguntas, os dados e as análises sejam coerentes.",
+      "gatilho": "são métodos qualitativos",
+      "armadilhaBanca": "Não atribuir uma natureza metodológica única a toda utilização de uma técnica.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — técnicas e abordagens de análise. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Técnicas podem apoiar diferentes abordagens, conforme sua aplicação e a análise planejada.",
+      "item": "Questionários estruturados, análise de log de eventos em sistemas de informação e entrevistas são métodos qualitativos apropriados para a condução de estudos de usuários.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-1303117",
+        "ano": 2012,
+        "orgao": "BASA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "1303117",
+        "declaracaoLegada": "Cebraspe / BASA / 2012; identificador legado: 1303117"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-22",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "necessidades e planejamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "b9852e66ae12c4a3b7e2d2ad51e796ee8454273d2848b66e93d1b2d2a3b5e7ec",
+    "shaDepois": "a9902817c2ec0e75b70be99888b31585e14390321f58d3906bc33dc40db28025",
+    "patch": {
+      "justificativa": "CERTO. Conhecer demandas, necessidades e condições de uso permite orientar decisões e prioridades. Solicitações registradas são apenas uma parte das evidências; ausência de pedido não prova ausência de necessidade. O diagnóstico pode incluir usuários potenciais e barreiras de acesso.",
+      "gatilho": "necessidades de informação",
+      "armadilhaBanca": "Separar demanda expressa e universo de necessidades.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — necessidades e planejamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Somente os pedidos já registrados revelam necessidades, sendo desnecessário ouvir pessoas que ainda não utilizam o serviço.",
+      "item": "O amplo conhecimento das necessidades de informação dos usuários constitui subsídio estratégico para o planejamento das atividades de uma unidade informacional pelo bibliotecário.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ECT/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-380",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-380"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-23",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "critérios de avaliação e desbastamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "5077fb40155fca65527b5eae410c1eea0d465a075088eec85eabf07166cbb19d",
+    "shaDepois": "588776e3bdd2747e8b7f951b7698b6890e4a77f44c19060b5bc0433b7e4f3211",
+    "patch": {
+      "justificativa": "CERTO. Danos, atualização, pertinência e possibilidades de conservação podem orientar decisões de destinação. Uma norma superada pode continuar necessária para pesquisa histórica ou para um caso situado no tempo. Critério não é descarte automático: valor, missão, acesso e regras institucionais precisam ser considerados.",
+      "gatilho": "critérios explícitos",
+      "armadilhaBanca": "Distinguir falta de atualidade para uma finalidade e ausência de valor para todas as outras.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — critérios de avaliação e desbastamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda obra com legislação superada deve ser eliminada, mesmo que a missão inclua pesquisa histórica ou jurídica retrospectiva.",
+      "item": "A política de desenvolvimento de coleções deve prever critérios explícitos para o descarte de materiais danificados além da possibilidade de restauração e para obras com conteúdo fático ou normativo flagrantemente superado.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-24",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "capítulo de desbastamento, pp. 74–75",
+    "nota": "Gabarito C corrigido para E; redação vinculada ao uso de Vergueiro, que inclui descarte no desbastamento. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "62502164630119aa771dd54ffba13a151cd1752d093a450222670248fb413d21",
+    "shaDepois": "b19916da9b6e48ef4c4c3faa795c4d650c341287ca468b33c24254778b95be0d",
+    "patch": {
+      "gabarito": "E",
+      "item": "Segundo Vergueiro, desbastamento se restringe ao remanejamento físico e exclui o descarte e a conservação como atividades do processo.",
+      "justificativa": "ERRADO. No uso de Vergueiro, desbastamento é mais amplo e inclui atividades como remanejamento, descarte e conservação. Remanejamento não significa necessariamente saída definitiva, enquanto descarte implica retirada da coleção. A distinção precisa identificar o autor, pois terminologias podem variar entre textos e políticas.",
+      "gatilho": "exclui o descarte",
+      "armadilhaBanca": "Não apresentar uma acepção restrita como definição universal ou como a do autor adotado.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — capítulo de desbastamento, pp. 74–75. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Em Vergueiro, desbastamento é um processo amplo que pode incluir remanejamento, descarte e conservação.",
+      "versao_errada": "",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-25",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao"
+    ],
+    "localizador": "seleção e licenciamento de recursos digitais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.1 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "7c84f4a2af9a12fde8cf0973f030fa8dde480263c991042956965c247d756e87",
+    "shaDepois": "655b1bc63bede9bc52ccd6db2fb4080a161cfa461c5672ccb0ae82fd2fa57ddc",
+    "patch": {
+      "justificativa": "ERRADO. A contratação precisa considerar usuários autorizados, acessos, usos, restrições, continuidade e custos. Conteúdo acadêmico não é automaticamente bem de uso irrestrito por estar na Web. A assinatura de uma plataforma tampouco garante acesso perpétuo a todo item nela indexado.",
+      "gatilho": "prescinde da análise",
+      "armadilhaBanca": "Distinguir presença na Web, indexação e direito de uso contratado.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — seleção e licenciamento de recursos digitais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O licenciamento e as condições de acesso devem ser avaliados na seleção e contratação de recursos digitais.",
+      "item": "A contratação de bases de dados acadêmicas internacionais prescinde da análise de termos de licenciamento de uso, considerando-se os materiais acadêmicos indexados bens de fruição pública no ambiente web.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-26",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro",
+      "cad"
+    ],
+    "localizador": "estudo de comunidade e revisão da política",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "b04265a5b985483f069ac7bc2290268a9870c524d7e3f5abb2b7f3337ebed844",
+    "shaDepois": "ff1e1591d6a48af9b6043e9f5ee35ffc28086abc25a4ddb2225b85fc7fd30641",
+    "patch": {
+      "justificativa": "CERTO. Evidências de demandas, necessidades e barreiras ajudam a rever prioridades e critérios de coleção. Um estudo não deve congelar a política para sempre, nem representar apenas usuários já atendidos. As mudanças precisam ser justificadas à luz da missão e dos recursos.",
+      "gatilho": "insumos estratégicos",
+      "armadilhaBanca": "O diagnóstico orienta decisões, mas não elimina a necessidade de atualização.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — estudo de comunidade e revisão da política. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma política baseada em um estudo de usuários nunca precisa ser revista, mesmo quando a comunidade muda.",
+      "item": "Os resultados das análises dos estudos de usuários constituem insumos estratégicos para a manutenção e a constante atualização da política de desenvolvimento de coleções de uma biblioteca, razão por que devem ser considerados na formulação dessa política.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ECT/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-382",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-382"
+      },
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-27",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "avaliação e obsolescência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "daecf4f04c92be2dd836cc0d0f6b1effa10b91d2c9f6e6bccbbd3c2782149ad7",
+    "shaDepois": "d6911bbaf9cb7e734bb27518600e7f7a1459689edf340f102448f07f802b2f38",
+    "patch": {
+      "item": "A análise de obsolescência pode considerar idade, citações e uso da literatura, mas a meia-vida não é indicador suficiente para determinar sozinha o descarte de cada documento.",
+      "justificativa": "CERTO. Idade de publicação, citações e uso medem aspectos diferentes. Uma meia-vida pode descrever uma distribuição de idades de literatura citada, conforme o estudo, mas não indica quando metade das obras perdeu valor. Decisões de coleção exigem considerar área, missão e demanda, não uma única idade.",
+      "gatilho": "indicador suficiente",
+      "armadilhaBanca": "Não confundir distribuição estatística e prazo de validade de cada obra.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — avaliação e obsolescência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A meia-vida bibliométrica determina a data em que metade dos documentos se torna inútil e deve ser descartada.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-28",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "processos e serviços em unidades de informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "f419700d4c23156d16680163ff344aaea4e8db74cbe45806af4ce65c798932e4",
+    "shaDepois": "de1e691c8d5cfecf59a1ab6bf0bc1f99530de36cb51abb20ccefb325ee064304",
+    "patch": {
+      "item": "Sistemas e serviços de informação podem articular seleção, aquisição ou acesso, organização, disponibilização e orientação aos usuários, com atividades adequadas ao contexto e aos suportes.",
+      "justificativa": "CERTO. Unidades podem articular seleção, aquisição ou acesso, organização e mediação do uso. O meio digital acrescenta formas de disponibilização que não dependem da transferência física de um exemplar. A enumeração é funcional, não uma cadeia obrigatória idêntica em todos os serviços.",
+      "gatilho": "podem articular",
+      "armadilhaBanca": "Separar funções do serviço e uma tecnologia de entrega.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — processos e serviços em unidades de informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo serviço informacional só entrega resultados por transferência física de materiais impressos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-103226",
+        "declaracaoLegada": "Cebraspe / CNJ / 2013 (Adaptada); identificador legado: TecConcursos-103226"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-29",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "uso da coleção e análise de concentração",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "6f87196eb6adfadc4d912a07fe1d1b138776ee91ba4edfd350b35d0fa855ba0c",
+    "shaDepois": "d17bb77c2340f36e8b3bf41ed89614dea619977c2d08e56905f80b7e6a4ed955",
+    "patch": {
+      "item": "A regra 80/20 pode ser utilizada como referência aproximada para investigar concentração de uso em coleções, não como lei universal nem como critério automático de descarte.",
+      "justificativa": "CERTO. A referência 80/20 é uma aproximação usada para discutir concentração de demanda, que deve ser verificada localmente. Percentuais e unidades podem variar por acervo, período e serviço. Não se conclui que os itens menos usados sejam automaticamente dispensáveis ou sem valor.",
+      "gatilho": "não como lei universal",
+      "armadilhaBanca": "Não transformar uma heurística em proporção matemática obrigatória.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — uso da coleção e análise de concentração. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Em toda biblioteca, exatamente 20% dos títulos respondem por exatamente 80% dos usos, independentemente do período e da área.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-30",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "negociação e avaliação da solução",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "c83b4cb4fd1eac4f1e4caff16e1a37f936f3ad0bd0a42fe79aaade0d97e1a528",
+    "shaDepois": "896703a61021451371dff362109d13b6435244eddedf6ddd9823bba85dc5e806",
+    "patch": {
+      "item": "No processo de referência, o usuário pode participar do esclarecimento da necessidade, da negociação e da avaliação da resposta, inclusive motivando reformulações.",
+      "justificativa": "CERTO. O usuário pode contribuir ao esclarecer a necessidade e avaliar a pertinência das respostas. Isso pode levar a renegociação ou refinamento. A colaboração não elimina a responsabilidade técnica do bibliotecário nem obriga o consulente a dominar todo sistema de indexação.",
+      "gatilho": "pode participar",
+      "armadilhaBanca": "Distinguir colaboração ao longo do processo e recepção passiva.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — negociação e avaliação da solução. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A participação do usuário termina na pergunta inicial e ele não pode avaliar a utilidade da resposta.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Tec I (IPHAN)/IPHAN/Área 5/2018",
+        "ano": 2018,
+        "orgao": "IPHAN",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-696548",
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018 (Adaptada); identificador legado: TecConcursos-696548"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-31",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "avaliação de coleções: foco na coleção e no uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "8511a6981bd608e78e263d95a74e2ee27de5470ef367e0f92c55b84eb0c0b3b8",
+    "shaDepois": "22d75c73a0e39caaea7bd35d5bb71c5735343a16e1e0d7e7f568b2675a35ccf4",
+    "patch": {
+      "item": "Na avaliação de coleções, podem ser distinguidos métodos centrados na coleção e métodos centrados no uso ou no usuário, que podem ser combinados conforme o objetivo.",
+      "justificativa": "CERTO. Uma avaliação pode examinar características da coleção ou evidências de uso e necessidades. As abordagens são complementares, não uma obrigação de escolher só uma. Listas de verificação analisam cobertura; circulação e consultas revelam comportamentos sob condições específicas, sem esgotar todo valor da coleção.",
+      "gatilho": "centrados no uso",
+      "armadilhaBanca": "Distinguir enfoque de análise e exclusão de evidências complementares.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — avaliação de coleções: foco na coleção e no uso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Métodos centrados na coleção e no uso são incompatíveis e nunca podem ser combinados na mesma avaliação.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-32",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro",
+      "cad"
+    ],
+    "localizador": "missão e política de coleções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "2a226ec7056292f02631b5085740556e8e567d7c959b1888e837d056f1580a16",
+    "shaDepois": "435f4ab7ca02ae533d0fa124a7839a5eb848a463034ac942d84bd6d4135eb26f",
+    "patch": {
+      "justificativa": "ERRADO. A política de coleções deve servir à missão e aos objetivos institucionais, e não substituir sua definição. Evidências do acervo podem alimentar revisão do planejamento, mas não tornam a coleção existente a única razão de ser do serviço. Primeiro é preciso compreender para quem e para que se atua.",
+      "gatilho": "a partir da política de desenvolvimento",
+      "armadilhaBanca": "Não inverter a relação entre finalidade institucional e instrumento de gestão.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — missão e política de coleções. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A política de coleções deve se orientar por missão, objetivos e necessidades, podendo oferecer evidências para sua revisão.",
+      "item": "Os objetivos das bibliotecas e centros de documentação devem ser definidos a partir da política de desenvolvimento de coleções.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "IPHAN/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1231",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-1231"
+      },
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-33",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "avaliação por análise de citações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "60b1f21113b5cc52cad9df065c7261ec18d90fafa6c9007a957b74b635272563",
+    "shaDepois": "86e1f68a867e5aa1c1b2b3e73e1faccbd70f765b046c93652312160d3eaa9bd8",
+    "patch": {
+      "item": "A análise de citações em produções da instituição pode mapear fontes efetivamente citadas e confrontá-las com a cobertura do acervo, observados os limites do método.",
+      "justificativa": "CERTO. Citações ajudam a conhecer parte das fontes usadas em uma produção e comparar sua presença na coleção. Não revelam tudo que foi consultado nem provam que toda ausência de citação seja ausência de necessidade. Tipo de produção, área e período influenciam a análise.",
+      "gatilho": "fontes efetivamente citadas",
+      "armadilhaBanca": "Distinguir evidência de uso registrada e cobertura total de comportamento.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — avaliação por análise de citações. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Analisar citações revela integralmente todas as necessidades e todas as fontes consultadas por qualquer usuário.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-34",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao"
+    ],
+    "localizador": "seleção de formatos e condições de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "4010a80c9f0a6115adc638c650d6fbd75cb74cd676b396ec2c605a29a4fbbe30",
+    "shaDepois": "b6061204735b225e14835070f0196e9b8f7cd64e5beefdd5cd6c832e1bd8853c",
+    "patch": {
+      "justificativa": "ERRADO. A escolha depende de usuários, custos, conservação, espaço, licenças e continuidade de acesso. O aumento da ocupação física é um fator, mas também não torna todo digital preferível. Não há uma preferência universal pelo impresso ou digital que dispense analisar as condições.",
+      "gatilho": "preferir o formato tradicional",
+      "armadilhaBanca": "Comparar alternativas concretas em vez de adotar uma preferência fixa de suporte.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — seleção de formatos e condições de acesso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O formato deve ser escolhido conforme necessidades, custos e condições de acesso, sem preferência universal pelo impresso.",
+      "item": "Na elaboração da política de desenvolvimento de coleções, no que tange à assinatura de periódicos, deve-se preferir o formato tradicional ao digital, mesmo considerando-se o aumento significativo da área do acervo destinada a esse tipo de documento em formato tradicional.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-35",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "indicadores de uso e coleção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "9e30ffba72e99f3ad0e383541ab3c7ba4063d0805d49f5d0bebe0d30c4b8905b",
+    "shaDepois": "c1cdf6388a797ac84dabfbb603b4872f9b2ce476052661ea0daee44769daaa2b",
+    "patch": {
+      "justificativa": "ERRADO. Ampliar o acervo não garante aumento proporcional de uso. Pertinência, descoberta, condições de acesso e perfil do público interferem. Uma coleção maior pode até se tornar mais difícil de explorar se o crescimento não for orientado por critérios e organização.",
+      "gatilho": "sempre aumenta proporcionalmente",
+      "armadilhaBanca": "Não converter correlação possível em proporcionalidade necessária.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — indicadores de uso e coleção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Crescimento do acervo e uso precisam ser avaliados, sem uma relação proporcional obrigatória.",
+      "item": "O uso de um acervo (em número de itens emprestados) sempre aumenta proporcionalmente à taxa de crescimento das coleções.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "ANTT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-206211",
+        "declaracaoLegada": "Cebraspe / ANTT / 2013 (Adaptada); identificador legado: TecConcursos-206211"
+      },
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-36",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao",
+      "cad"
+    ],
+    "localizador": "seleção de informação jurídica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "1b4e1f6b0f2f167f4447a3627a9416302bbb94e6c446a7e912ee557587e12886",
+    "shaDepois": "26a066f7ba9f604063eeb875ae85fdf57f9468b01e9a0280b6ac9a28f1f22968",
+    "patch": {
+      "justificativa": "CERTO. Atualização e diversidade de documentos influenciam a seleção, mas o texto vigente não substitui toda fonte histórica. É preciso saber se o pedido exige direito atual, contexto de uma decisão antiga ou evolução legislativa. Formato e autoridade devem ser avaliados junto à finalidade.",
+      "gatilho": "mudanças nas leis e na jurisprudência",
+      "armadilhaBanca": "Distinguir atualização para aplicação presente e valor de uma versão histórica.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — seleção de informação jurídica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A seleção jurídica deve eliminar todas as versões antigas, mesmo quando necessárias à pesquisa de um fato passado.",
+      "item": "No processo de seleção da informação jurídica, devem ser considerados fatores como a explosão informacional, a aceleração das mudanças nas leis e na jurisprudência e a variedade de formatos e suportes documentais.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-104060",
+        "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104060"
+      },
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-37",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "avaliação de atendimento e métodos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "80a46b752bd7c0442fd3cf04add5b0973c97ff39d16d2cc574042e7f3af6981e",
+    "shaDepois": "64a71dcce0a0932e47521d138391446d70e8098f0f7495024a128d26b84e63a8",
+    "patch": {
+      "item": "A avaliação de atendimento por situações simuladas é sempre ilegal e inaplicável, independentemente do desenho, da finalidade e dos cuidados éticos.",
+      "justificativa": "ERRADO. Avaliações com situações simuladas podem examinar desempenho, desde que tenham desenho ético e finalidade legítima. Não são universalmente ilegais nem automaticamente isentas de cuidados com profissionais e usuários. Os resultados precisam de contexto e não devem ser usados como prova absoluta a partir de um único atendimento.",
+      "gatilho": "sempre ilegal",
+      "armadilhaBanca": "Distinguir a técnica, suas condições éticas e a interpretação das evidências.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — avaliação de atendimento e métodos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Situações simuladas podem integrar uma avaliação planejada e ética, com limites e critérios definidos.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-38",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro",
+      "cad"
+    ],
+    "localizador": "aquisição e permuta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "3f0969473da6bc879764c63f95e382ff6c2925b884f0f481e32ff6ef8947579f",
+    "shaDepois": "cdba8e23a2df2c168db897487c1b323b16e44284e0ef0587fd189619370ae4e9",
+    "patch": {
+      "item": "A permuta dispensa critérios de seleção e análise de custos, pois a troca de publicações garante por si só a adequação dos materiais recebidos.",
+      "justificativa": "ERRADO. Compra, doação e permuta são modalidades clássicas, sem esgotar todas as formas atuais de acesso a recursos. Trocar publicações não dispensa pertinência, custos e condições de recebimento. Não existe uma classificação universal que torne uma modalidade a mais trabalhosa em todo contexto.",
+      "gatilho": "dispensa critérios de seleção",
+      "armadilhaBanca": "A forma de entrada do material não substitui sua seleção.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — aquisição e permuta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Materiais recebidos por permuta precisam de avaliação de pertinência, custos e condições, assim como outras aquisições.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1332",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-1332"
+      },
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-39",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "listas de verificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "a3416d66021a280001a6119f4347abf2e9b7926ef20343070f6260b9353a0379",
+    "shaDepois": "64c4b88dd2848b7abfa7f24a18d773d1830124ebb51504fef7f9dffd005c6db8",
+    "patch": {
+      "justificativa": "CERTO. Uma lista representa escolhas e um recorte de época, área e finalidade. Confrontar a coleção com ela ajuda a detectar lacunas segundo esse recorte, sem provar qualidade universal. Deve-se avaliar a pertinência da lista para a comunidade e combinar outras evidências quando necessário.",
+      "gatilho": "interesses dos seus compiladores",
+      "armadilhaBanca": "O instrumento de avaliação também precisa ser avaliado.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — listas de verificação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer lista especializada comprova a qualidade integral do acervo, independentemente de seus critérios e do público atendido.",
+      "item": "Entre as limitações do método de avaliação por listas de verificação, destaca-se o fato de que a lista reflete o viés e os interesses dos seus compiladores originais, podendo não corresponder às necessidades específicas da clientela da biblioteca avaliada.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-40",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "seleção de participantes e limites da amostra",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "26af4e95ae55ec5ae4a50bfdc3be140caea600b20b1aea23ee4f85335f36910c",
+    "shaDepois": "ab67cc535d87b21611d09596c50606f478941bc3ec720af7babfa3a892089275",
+    "patch": {
+      "item": "Usuários frequentes e participantes de redes relacionadas à biblioteca podem integrar estudos de usuários, observados o objetivo e o desenho da pesquisa e a necessidade de considerar outros públicos.",
+      "justificativa": "CERTO. Usuários frequentes e participantes de redes podem oferecer evidências pertinentes. Incluí-los não representa automaticamente toda a comunidade nem dispensa não usuários. A escolha precisa considerar objetivo, viés de participação, consentimento e limites de inferência.",
+      "gatilho": "observados o objetivo e o desenho",
+      "armadilhaBanca": "Não confundir acesso fácil aos participantes e representatividade.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — seleção de participantes e limites da amostra. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Ouvir usuários frequentes garante representar toda a população, tornando desnecessário examinar seleção e não resposta.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-181039",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012 (Adaptada); identificador legado: TecConcursos-181039"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-41",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "counter"
+    ],
+    "localizador": "escolha de métricas e unidades de uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "254f4ab6d181a5df9c7a61be557c6df2cbdf70a51bbec0f0632741fc65fd65c3",
+    "shaDepois": "4e2c73d33f0360bb6a4f1785163bdcbc0fe828b54b565fbc3a5887b0f0bb7cb6",
+    "patch": {
+      "item": "O custo por uso de um recurso pode ser calculado pela divisão de um custo definido pelo número de usos, desde que se especifiquem um período e uma métrica de uso compatíveis com a análise.",
+      "justificativa": "CERTO. Custo por uso divide custo definido pelo número de usos da unidade escolhida, no mesmo período. Por exemplo, R$12.000 por 2.000 solicitações resulta em R$6 por solicitação. Consultas, investigações, solicitações e usuários únicos não são a mesma medida; não devem ser misturados sem explicação. Uso zero também exige tratamento explícito.",
+      "gatilho": "período e uma métrica de uso compatíveis",
+      "armadilhaBanca": "Alinhar período, custo e unidade do denominador antes de comparar.",
+      "fonte": "COUNTER — Code of Practice for Research Content Usage Metrics, Release 5.1 — escolha de métricas e unidades de uso — https://cop5.countermetrics.org/en/5.1.1/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Dividir o custo anual por consultas de um mês e comparar o resultado com custo por download de outro serviço produz sempre indicadores equivalentes.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-42",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "métodos centrados na coleção e no uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "c5359f23f15567e2a61d15aec7ed113b69d3dc0a3f9cff71c0a0b57d8143ab1c",
+    "shaDepois": "bf6659d4286948ade91ca2ddb8dd618fa9b167d2ceab3c07b409b837c61ba258",
+    "patch": {
+      "justificativa": "ERRADO. Comparar os títulos de uma coleção a uma lista analisa sua cobertura segundo um referencial; não mede diretamente empréstimos ou consultas. O resultado pode ser combinado com estudos de uso, mas a combinação não muda a natureza da evidência obtida pela lista.",
+      "gatilho": "centrado no uso",
+      "armadilhaBanca": "Distinguir o que cada método efetivamente observa.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — métodos centrados na coleção e no uso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Confronto com listas examina cobertura da coleção; dados de circulação e consulta fornecem outras evidências de uso.",
+      "item": "A avaliação de uma biblioteca mediante o confronto do seu acervo com 'listas de verificação' (checklists) e bibliografias especializadas autorizadas é um exemplo típico de método centrado no uso.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-43",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "inventário e controle da coleção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "14f8e0e40078948337cd2cb9a53fe743c8a3ac7e60253bf1b06fa21bb64dea41",
+    "shaDepois": "b601167b5870f11c79ab49def6a1192d0b81e7426e5f9e047821bef4cff4db75",
+    "patch": {
+      "justificativa": "ERRADO. O cadastro pode conter erros, perdas não registradas ou divergências de localização. Inventário e controles adequados confrontam registro e situação efetiva, conforme a política e as exigências aplicáveis. A existência de um software não prova a presença e integridade de todo item físico.",
+      "gatilho": "fé pública absoluta",
+      "armadilhaBanca": "Automatização não elimina necessidade de verificação.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — inventário e controle da coleção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Registros informatizados devem ser confrontados com a situação do acervo por controles e inventários adequados.",
+      "item": "O inventário físico periódico do acervo (verificação item a item) é um procedimento dispensável em órgãos públicos federais, já que os dados cadastrados no software de biblioteca possuem fé pública absoluta que substitui a existência física do livro.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-44",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiro",
+      "cad"
+    ],
+    "localizador": "modelo de Evans e suas atividades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "d90d4d04787fc66d7c09e94655ac38e183cc4a76ffa5a9081782c90f6178518c",
+    "shaDepois": "dcd61c6e95236cdc4d37982da26971c0df43479a42555c3ea41e00156c5f7779",
+    "patch": {
+      "item": "No ciclo de desenvolvimento de coleções de Evans apresentado por Vergueiro, o marketing substitui a avaliação da coleção, que deixa de ser uma atividade do processo.",
+      "justificativa": "ERRADO. O modelo apresentado por Vergueiro articula estudo de comunidade, política, seleção, aquisição, avaliação e desbastamento. Marketing pode se relacionar à gestão e comunicação, mas não substitui a avaliação na lista desse modelo. A identificação do referencial evita proibições universais sobre a relação entre atividades.",
+      "gatilho": "substitui a avaliação",
+      "armadilhaBanca": "Identificar o modelo e não trocar uma de suas atividades por outra função de gestão.",
+      "fonte": "VERGUEIRO, Waldomiro. Desenvolvimento de coleções — modelo de Evans e suas atividades. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No modelo de Evans apresentado por Vergueiro, marketing não substitui a etapa de avaliação da coleção.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "DPU/2016",
+        "ano": 2016,
+        "orgao": "2016",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-343",
+        "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-343"
+      },
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-45",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "circulação como evidência de uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "09214260c2b9bb000f1b343f207b49ae7686f52a387965c1d026e52b346ee287",
+    "shaDepois": "ddafa62b9038aaacd9a79a5d1119ed1c991d966851b168c20710e98a619ef0dc",
+    "patch": {
+      "justificativa": "ERRADO. Circulação reflete movimentações e usos registrados sob regras e condições específicas. Não é uma propriedade intrínseca do conteúdo do livro. Baixa circulação pode decorrer de pouca descoberta, restrição de empréstimo ou consulta local, além de baixa demanda; é preciso examinar o contexto.",
+      "gatilho": "desvinculadas das condutas",
+      "armadilhaBanca": "Não tratar o indicador como característica intrínseca e autossuficiente do documento.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — circulação como evidência de uso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Dados de circulação são evidências de uso registrado e devem ser interpretados junto às condições do serviço.",
+      "item": "A taxa de circulação de uma coleção constitui indicador centrado na coleção física, medindo as características intrínsecas dos itens bibliográficos desvinculadas das condutas efetivas de consulta e empréstimo.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-46",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "diagnóstico e indicadores da coleção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "be313cbd447076ac4dcf405b9597e7265a4029976db63c73cd215a84971ace50",
+    "shaDepois": "e5642be80ddeaf00bac53279671037e13811bb20c724e7888c702cbf72bb892f",
+    "patch": {
+      "justificativa": "ERRADO. Idade do acervo descreve sua distribuição cronológica, mas não prova sozinha pertinência, estado físico, acesso e resultados. Obras antigas podem ser essenciais e novas podem ser inadequadas. O objetivo da avaliação define quais dados são necessários.",
+      "gatilho": "suficiente",
+      "armadilhaBanca": "Uma medida descritiva não resume toda a qualidade.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — diagnóstico e indicadores da coleção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Idade é um indicador parcial e deve ser interpretada conforme finalidade, área e outras evidências.",
+      "item": "A análise de idade do acervo (distribuição cronológica por ano de publicação) é suficiente para avaliar a qualidade integral de uma biblioteca, tornando irrelevante saber se os livros são efetivamente lidos pelos usuários.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-47",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "disponibilidade na estante",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "a15d8f8732b2ba7e417f017b3ad2cfbb353937346c3dcb663369132cf2427f62",
+    "shaDepois": "3652436486e05e3ab89c941548c5c210571c386cd75577748b2b1156a673e038",
+    "patch": {
+      "item": "A avaliação de disponibilidade na estante pode estimar a chance de encontrar na estante um documento procurado, conforme a amostra e as condições de disponibilidade definidas no estudo.",
+      "justificativa": "CERTO. O indicador examina a chance de localizar o documento sob as condições e a amostra definidas. Pode revelar problemas de circulação, localização ou arrumação, mas não equivale à satisfação geral com todo serviço. Deve-se explicitar quais pedidos e causas de indisponibilidade entram no cálculo.",
+      "gatilho": "encontrar na estante",
+      "armadilhaBanca": "Delimitar o universo e a dimensão que o indicador mede.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — disponibilidade na estante. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma alta disponibilidade na estante comprova, sozinha, a qualidade de todos os serviços e a satisfação de toda a comunidade.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-48",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "relatórios e diagnóstico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "beae9d326ff1b0f71b2c718a24bab3a83605b28f274129cb35fc9af425f7d44c",
+    "shaDepois": "3b733b5da841583ca2672b10e40c68ab120a1a23188ac58568bb83d89e1a4149",
+    "patch": {
+      "justificativa": "CERTO. Um relatório organiza dados de recursos, atividades e resultados de um período para comunicar a situação e apoiar decisões. Contar atendimentos não basta para demonstrar impacto. Dados precisam de definição, contexto e comparação coerente, sem confundir ausência de registro e ausência de atividade.",
+      "gatilho": "dado período de tempo",
+      "armadilhaBanca": "Separar registro de produção e avaliação de resultados.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — relatórios e diagnóstico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um relatório prova a qualidade do serviço apenas pelo total de atividades, dispensando contexto e critérios.",
+      "item": "O relatório de uma biblioteca consiste em um conjunto de informações sobre acervo, serviços prestados, usuários e recursos humanos, físicos, materiais e financeiros que são ordenadas de modo a evidenciar a situação da biblioteca em dado período de tempo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-180999",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "180999",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012; identificador legado: 180999"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-49",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "avaliação de periódicos e concentração de literatura",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 5.3 segundo o assunto efetivo.",
+    "shaAntes": "496412427ebd07484f42690378697491d8a01212a48ca4c7bd008e88febd4f6e",
+    "shaDepois": "a1f8ee491915bfd467a4a1a3984d3cf1d6da398756ee13dace8eae9cb66428e9",
+    "patch": {
+      "justificativa": "ERRADO. A dispersão por periódicos pode ajudar a analisar concentração e cobertura de uma área. Ela não fornece automaticamente uma lista universal de assinaturas nem autoriza eliminar todos os títulos fora de um núcleo. Perfil da instituição, acesso, qualidade e demanda continuam necessários.",
+      "gatilho": "não possui qualquer aplicabilidade",
+      "armadilhaBanca": "Distinguir subsídio bibliométrico e regra de aquisição ou cancelamento.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — avaliação de periódicos e concentração de literatura. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A análise de dispersão da literatura pode subsidiar decisões de periódicos, sem impor uma seleção automática de títulos.",
+      "item": "A Lei de Bradford de dispersão da literatura não possui qualquer aplicabilidade no planejamento e avaliação de coleções de periódicos em bibliotecas especializadas.",
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m5-q-50",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "empréstimo entre bibliotecas e comutação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.2 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "53659007f53c21280202037ffc59db95425568a67bc2a81e2eaee438811cca83",
+    "shaDepois": "9e95277842206d3ea516997576f44a6834cce61b4f6d5f5a327cb06124098548",
+    "patch": {
+      "item": "A cooperação para obtenção de documentos entre bibliotecas ocorre exclusivamente por reproduções, sendo impossível o empréstimo temporário de materiais originais de uma instituição para atender usuários de outra.",
+      "justificativa": "ERRADO. A cooperação pode viabilizar empréstimo de originais e fornecimento de cópias, conforme modalidades e regras próprias. Transferir temporariamente um exemplar não é o mesmo que reproduzi-lo. A denominação e o escopo do serviço devem ser explicitados, sem dizer que toda cooperação ocorre exclusivamente por um dos meios.",
+      "gatilho": "exclusivamente por reproduções",
+      "armadilhaBanca": "Separar circulação do exemplar e reprodução do conteúdo.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — empréstimo entre bibliotecas e comutação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Serviços cooperativos podem envolver empréstimo de originais ou fornecimento de cópias, com regras e direitos pertinentes a cada modalidade.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Tec I (IPHAN)/IPHAN/Área 5/2018",
+        "ano": 2018,
+        "orgao": "IPHAN",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-696561",
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018 (Adaptada); identificador legado: TecConcursos-696561"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-51",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "avaliação e públicos interessados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "cc96ccaceaf8cb960df8821e38ab165125f293ae72ead444d5ec43ca4487a7e5",
+    "shaDepois": "e35c20fae7094a184e293778822fd261ea448b48fc36dcc608731b84d7fc44c6",
+    "patch": {
+      "justificativa": "ERRADO. A avaliação informa decisões da equipe, da administração e de outros públicos, incluindo usuários. Ela pode apoiar transparência e melhoria, respeitando privacidade e contexto. Restringir seu interesse às chefias impede compreender experiências e resultados que elas não observam diretamente.",
+      "gatilho": "interesse restrito",
+      "armadilhaBanca": "Não confundir responsabilidade gerencial e exclusividade de interesse.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — avaliação e públicos interessados. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A avaliação pode interessar a usuários, equipes e administração, com comunicação adequada aos diferentes públicos.",
+      "item": "A avaliação dos produtos e serviços informacionais é um procedimento de interesse restrito das chefias das bibliotecas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "SEDUC-AM/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1275",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1275"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-52",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "situacional"
+    ],
+    "localizador": "estilo de liderança e prontidão para a tarefa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "38b2faf93deaa1ee875bb7b483c00ce50771ab6d28cf8f6bb2fe8ed2d3f0da76",
+    "shaDepois": "f18a55940eac250106a5dfbd377d9f93cf211d21bf34357434b3b497f81d6163",
+    "patch": {
+      "justificativa": "CERTO. No modelo, liderança deve considerar capacidade e disposição relacionadas à tarefa, com graus de direção e apoio. Uma pessoa pode precisar de suporte diferente em tarefas distintas. Isso não é diagnóstico fixo de personalidade nem garantia de que qualquer mudança de estilo produzirá sucesso.",
+      "gatilho": "realização da tarefa",
+      "armadilhaBanca": "Distinguir prontidão em uma tarefa e rótulo global sobre a pessoa.",
+      "fonte": "Hersey e Blanchard — modelo de liderança situacional — estilo de liderança e prontidão para a tarefa — https://situational.com/situational-leadership/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A liderança situacional fixa um estilo permanente para cada pessoa, independentemente da tarefa e de seu desenvolvimento.",
+      "item": "No modelo de Liderança Situacional formulado por Hersey e Blanchard, o estilo do líder (direção, orientação, apoio ou delegação) deve ser adaptado dinamicamente ao nível de maturidade e prontidão da equipe para a realização da tarefa.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-53",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "evidências quantitativas e qualitativas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "a088cc33eb77852d299e91a5baf411360fbffc5c17209d0563f1feff110c5d9d",
+    "shaDepois": "ae7a2f21b86e56257177a904c7f25218416f5a8457a048abb8e6c53da3737657",
+    "patch": {
+      "item": "Padrões quantitativos devem substituir os qualitativos em toda avaliação informacional, por serem sempre superiores, mais flexíveis e suficientes para explicar qualquer resultado.",
+      "justificativa": "ERRADO. Medidas numéricas e evidências qualitativas respondem a perguntas diferentes e podem ser combinadas. Quantificar não torna um indicador automaticamente flexível ou mais válido. Uma contagem de acessos, por exemplo, não explica sozinha por que pessoas abandonam uma busca.",
+      "gatilho": "por serem sempre superiores",
+      "armadilhaBanca": "O formato numérico de um dado não garante validade ou suficiência.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — evidências quantitativas e qualitativas. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A escolha e combinação de evidências quantitativas e qualitativas deve seguir os objetivos e limites da avaliação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-180998",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012 (Adaptada); identificador legado: TecConcursos-180998"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-54",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "herzberg"
+    ],
+    "localizador": "fatores higiênicos e motivacionais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "bb1b66c535ee78f5653d3b5db8d116d7cc86a9f7e817f72a8a38aeffeb16b69f",
+    "shaDepois": "afd278b3e230d76ba76af645b832d764373c870cc9e3e2eef3986830d956ec8d",
+    "patch": {
+      "justificativa": "ERRADO. Na teoria, fatores higiênicos se relacionam à prevenção de insatisfação, enquanto realização, reconhecimento e responsabilidade se associam à motivação. A classificação é um modelo explicativo; não prova que salário ou condições de trabalho sejam irrelevantes. O erro é atribuir aos higiênicos exclusividade da motivação intrínseca.",
+      "gatilho": "únicos responsáveis",
+      "armadilhaBanca": "Não confundir prevenir insatisfação e explicar motivação pela tarefa.",
+      "fonte": "HERZBERG, Frederick. One More Time: How Do You Motivate Employees? — fatores higiênicos e motivacionais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na teoria de Herzberg, fatores higiênicos e motivacionais são distinguidos, sem tornar condições de trabalho irrelevantes.",
+      "item": "A Teoria dos Dois Fatores de Herzberg estabelece que os fatores higiênicos (como salário, condições físicas de trabalho e segurança no emprego) são os únicos responsáveis pela motivação intrínseca profunda e pelo entusiasmo no trabalho.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-55",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "diagnóstico de ambiente interno e externo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "735122c80f9fa08f455e015ba59aab77356e421ef4f84d82c9824f830b333b3d",
+    "shaDepois": "c39a50bf94796eaf88c0acb57e514b981dbe91b9fec704a9fdbef1e35d95b1c2",
+    "patch": {
+      "justificativa": "ERRADO. Tomando a biblioteca como unidade, a imposição externa ligada à crise pode ser analisada como ameaça. Já limitações internas de gestão e recursos podem ser fraquezas. O enquadramento exige definir a unidade e distinguir causa externa e condição interna, não decorar que todo orçamento pertença sempre a uma categoria.",
+      "gatilho": "fraqueza interna do setor",
+      "armadilhaBanca": "Conferir o nível de análise antes de classificar um fator.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — diagnóstico de ambiente interno e externo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A classificação SWOT exige delimitar a unidade analisada e distinguir fatores internos e condições externas.",
+      "item": "Na matriz SWOT de uma biblioteca universitária, a redução orçamentária imposta pelo Ministério da Fazenda decorrente de crise econômica global é classificada tecnicamente como uma fraqueza interna do setor de processamento técnico.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-56",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "avaliação diagnóstica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "e092a310ad30c6f8b22e50f9fcde24e61cf160ef9e7b6b7aba3e83f6e26ecee2",
+    "shaDepois": "891b7f8870b33ce2466031b301483b9de6642dc9ad4e4595ee2bfbcb38110097",
+    "patch": {
+      "item": "Uma avaliação diagnóstica pode identificar pontos fortes, falhas, causas e condições de desempenho, oferecendo evidências para planejar melhorias.",
+      "justificativa": "CERTO. O diagnóstico busca compreender a situação, inclusive pontos fortes, limitações e possíveis causas de falhas. Não basta registrar que um indicador caiu. As hipóteses devem ser investigadas e priorizadas para orientar melhorias, sem garantir um resultado apenas por nomear problemas.",
+      "gatilho": "causas e condições",
+      "armadilhaBanca": "Distinguir descrição de sintomas e análise diagnóstica.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — avaliação diagnóstica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O diagnóstico se completa ao listar falhas, sem investigar condições, causas ou possibilidades de ação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (CADE)/CADE/2014",
+        "ano": 2014,
+        "orgao": "CADE",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-185295",
+        "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185295"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-57",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "qualidade do atendimento e indicadores",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "fa366c9125d5689d693fc9333e1d651768541c1d533aa79395e3a776f1434375",
+    "shaDepois": "5a08a809877a15c4b27f27e0d5b3d8d37c4f0e54c608aab7deaa1743c7979c4a",
+    "patch": {
+      "justificativa": "CERTO. Sinalização e condições físicas podem ser observadas junto à experiência de interação, como clareza e cordialidade. Aspectos percebidos podem ser investigados por instrumentos e critérios. Não é correto supor que só o tangível possa ser medido ou que satisfação explique toda a qualidade.",
+      "gatilho": "tangíveis",
+      "armadilhaBanca": "Distinguir natureza do aspecto e possibilidades de produzir evidências sobre ele.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — qualidade do atendimento e indicadores. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Somente características físicas podem ser avaliadas, sendo impossível investigar clareza, acolhimento e experiência dos usuários.",
+      "item": "A avaliação da qualidade do atendimento em bibliotecas deve considerar aspectos tangíveis — por exemplo, sinalização do ambiente — e aspectos intangíveis — por exemplo, cordialidade dos funcionários —, ambos com seus respectivos indicadores de qualidade.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624028",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624028"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-58",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nr17"
+    ],
+    "localizador": "condições e organização do trabalho",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "37ce7ceed40f363867997463ff6122ebc446356c334e472c2d489ac254cc5a14",
+    "shaDepois": "3a3b1a4b489fe7c7114908835bf18361188ae4ac9dabab67d1d33eb9497ff67f",
+    "patch": {
+      "justificativa": "CERTO. Ergonomia considera a relação entre pessoas, tarefas, equipamentos e organização, não apenas cadeiras. Iluminação, exigências cognitivas e pausas podem participar da análise conforme a atividade. A aplicação jurídica da NR depende de seu âmbito; o conceito técnico não se limita a uma categoria de mobiliário.",
+      "gatilho": "fadiga cognitiva",
+      "armadilhaBanca": "Não reduzir adaptação do trabalho a um único objeto físico.",
+      "fonte": "Ministério do Trabalho e Emprego — NR 17, Ergonomia — condições e organização do trabalho — https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Ergonomia se limita à compra de cadeiras e não considera tarefas, organização ou exigências cognitivas.",
+      "item": "A ergonomia no ambiente de trabalho da biblioteca abrange tanto a adaptação do mobiliário e iluminação às características biomecânicas dos servidores quanto a organização dos processos para mitigar fadiga cognitiva e estresse ocupacional.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-59",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "amaral",
+      "cad"
+    ],
+    "localizador": "canais, custos e avaliação de comunicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "4b5a10d0912c29342f4ff37ce0a520a117337bdef9b21c53516da3033358078b",
+    "shaDepois": "6785a450faae74d6ca165f60f78718a3d1b6617270bc6a8f70806d60b6c3af0f",
+    "patch": {
+      "justificativa": "ERRADO. Custos e efetividade de canais dependem de equipe, público, conteúdo e objetivos. Redes digitais podem reduzir alguns gastos e exigir outros, como tempo de produção e moderação. Não se conclui universalmente que sejam mais caras e menos efetivas, nem que toda ação digital seja gratuita ou eficiente.",
+      "gatilho": "maior custo",
+      "armadilhaBanca": "Não inferir efetividade apenas pela categoria do canal.",
+      "fonte": "AMARAL, Sueli Angélica do. Marketing: abordagem em unidades de informação — canais, custos e avaliação de comunicação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Custos e resultados de canais digitais e convencionais devem ser comparados no contexto, com objetivos e recursos definidos.",
+      "item": "Na estratégia de marketing de bibliotecas, a efetividade de ferramentas da Web 2.0, como o Twitter e o Facebook, é comprometida devido ao maior custo gerado pelo uso dessas ferramentas, em comparação aos custos gerados pelas estratégias de marketing convencional.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-436543",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436543",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013; identificador legado: 436543"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-60",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "níveis de planejamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "efdcfe71949d89e64ee945791cfda0eb4dee2c8aceadb1b94c59a27dcb4e17b2",
+    "shaDepois": "dfeab759e32fe0477a0af263d6e6079c6ce8d0c41f5f4bc0a0a4e178e17095f2",
+    "patch": {
+      "justificativa": "CERTO. Os níveis distinguem alcance institucional, desdobramento setorial e execução de ações. Horizontes temporais são relativos ao contexto, não números fixos universais. Uma escala de atendimento é operacional; orientar a missão e prioridades tem alcance estratégico. Os níveis precisam ser coerentes entre si.",
+      "gatilho": "estratégico",
+      "armadilhaBanca": "Distinguir nível da decisão e duração isolada de uma tarefa.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — níveis de planejamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Planejamento estratégico se limita à escala diária de balcão, sem relação com missão e prioridades institucionais.",
+      "item": "Segundo Maria Christina Barbosa de Almeida, o planejamento em unidades de informação estrutura-se em três níveis hierárquicos e complementares: estratégico (macro, de longo prazo e voltado à missão institucional), tático (intermediário, setorial e de médio prazo) e operacional (micro, rotinas práticas e planos de ação de curto prazo).",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-61",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "recursos, produtos e resultados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "a2cd0943d0f701c423d51b669c9dc64be66c14a2346966aa1ffbff5f6499f27f",
+    "shaDepois": "ab8d8953318391decd972228be35436c3aaa30aecbfadbf94b023f7e4280b5e4",
+    "patch": {
+      "item": "Avaliar uma unidade de informação requer distinguir recursos, atividades, produtos e resultados e impactos para os usuários, que podem exigir métodos e indicadores diferentes.",
+      "justificativa": "CERTO. Recursos e atividades podem ser descritos por medidas como custos e horas, enquanto mudanças na vida do usuário exigem outras evidências. Há também insumos intangíveis e resultados mensuráveis. A dificuldade de avaliar impacto não elimina sua importância nem torna uma contagem de produtos equivalente a resultado.",
+      "gatilho": "resultados e impactos",
+      "armadilhaBanca": "Separar recursos, produção e efeitos, sem uma oposição absoluta entre mensurável e intangível.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — recursos, produtos e resultados. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todos os insumos são tangíveis e todos os resultados são impossíveis de mensurar, independentemente do serviço.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "SEDUC-AM/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1276",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1276"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-62",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "cronogramas e controle de execução",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "58dd56dca9600024b981f841319f52eb39d4ba68efb68f89703aa2eef45ce6b1",
+    "shaDepois": "271f7e0d4b7c4e750bda0e141680e760ea24d4dc326dd84906fffedb5e6c26f0",
+    "patch": {
+      "justificativa": "CERTO. O gráfico situa tarefas no tempo e permite visualizar duração e sobreposição. Dependências podem ser explicitadas conforme a ferramenta e o plano. Uma barra temporal não comprova que o caminho crítico tenha sido calculado nem substitui definir responsáveis e recursos.",
+      "gatilho": "gráfico de Gantt",
+      "armadilhaBanca": "Distinguir representação temporal e análise específica de dependências.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — cronogramas e controle de execução. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer gráfico de Gantt calcula automaticamente o caminho crítico e dispensa conhecer dependências entre atividades.",
+      "item": "O gráfico de Gantt é uma ferramenta clássica de controle e cronograma no planejamento operacional de bibliotecas, permitindo visualizar a duração, o encadeamento e a sobreposição das tarefas de um projeto ao longo do tempo.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-63",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "direção, equipe e comunicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "e7b9fbe813aec0db6e1824dd4d6064a767f9ff5a9531698d390f136a22f6e778",
+    "shaDepois": "1d0dcafdd20ed1f41708336706915450ebac4d43361fedc1a09ae597323b1607",
+    "patch": {
+      "justificativa": "ERRADO. Estilo e comunicação devem ser adequados à tarefa e às condições, sem uma proibição universal de diálogo horizontal. Coordenação e responsabilidade não exigem eliminar intercâmbio entre setores. Uma regra de sigilo pode delimitar informação sem impedir toda cooperação.",
+      "gatilho": "autocrático inflexível",
+      "armadilhaBanca": "Não confundir coordenação de equipe e impedimento absoluto de comunicação.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — direção, equipe e comunicação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Direção pode combinar responsabilidade, coordenação e comunicação entre setores conforme as necessidades do serviço.",
+      "item": "Na administração contemporânea de bibliotecas, o líder deve manter um estilo autocrático inflexível, proibindo qualquer tipo de comunicação horizontal entre os bibliotecários de diferentes setores.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-64",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "missão, visão e objetivos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "342ee822921f6bf4b91a98a96cf24b902fa70604afcba6cb1b5de1466e832642",
+    "shaDepois": "5b3232a5dfa5da905393a2a1c728a2171ef741884e24729c4f651fdb748435ab",
+    "patch": {
+      "justificativa": "CERTO. Visão expressa uma situação futura desejada e orienta escolhas. Missão comunica finalidade e papel institucional, enquanto metas e indicadores tornam objetivos acompanháveis. Escrever uma visão ambiciosa não comprova que ela será atingida nem equivale a um plano de ação completo.",
+      "gatilho": "estado futuro desejado",
+      "armadilhaBanca": "Separar aspiração de futuro, finalidade e meios de execução.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — missão, visão e objetivos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A visão institucional descreve exclusivamente as rotinas atuais e substitui metas, indicadores e ações.",
+      "item": "A 'Visão' institucional no planejamento estratégico expressa o estado futuro desejado que a biblioteca pretende alcançar em um horizonte de tempo determinado (ex: 'ser reconhecida como centro de excelência em informação legislativa até 2030').",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-65",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "organização e ambiente",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "da8bfb1afbabc56a1ec43246645c5dcadcc81ebf2a4e03019d10d17a0670e56f",
+    "shaDepois": "f13a3455482466e8e85b7c221906444c325a8911f1fe45e3d14397cad0a5c0cf",
+    "patch": {
+      "item": "Relações internas e externas podem influenciar o papel social e o desempenho da biblioteca, devendo ser consideradas no diagnóstico de suas condições de atuação.",
+      "justificativa": "CERTO. A biblioteca depende de equipe, processos, comunidade e instituições com as quais se relaciona. Esses vínculos ajudam a compreender sua função social e desempenho. Não se deve isolar uma metade como causa exclusiva de um resultado: fatores internos e externos podem interagir.",
+      "gatilho": "Relações internas e externas",
+      "armadilhaBanca": "Distinguir dimensões de análise e exclusividade causal.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — organização e ambiente. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O desempenho de uma biblioteca depende exclusivamente das relações internas e não pode ser influenciado pelo ambiente externo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "SEGER-ES/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1284",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-1284"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-66",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "planejamento operacional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "b336d8c34bffe3220217381fb703624ae84f1a0bb067f100a9d835ef2f5ea8af",
+    "shaDepois": "49b708de57a1e8042a261d78bbedda65869f6e429149eb3f5de4eae2e8ddb6ae",
+    "patch": {
+      "justificativa": "ERRADO. Escalas e procedimentos rotineiros são decisões operacionais, que devem se alinhar a orientações e objetivos mais amplos. Seu efeito sobre o público pode ser importante, mas isso não muda automaticamente seu nível de detalhamento para estratégico.",
+      "gatilho": "privativas do planejamento estratégico",
+      "armadilhaBanca": "Importância de uma rotina não é o mesmo que nível estratégico da decisão.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — planejamento operacional. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Escalas de atendimento e procedimentos de rotina pertencem ao planejamento operacional, articulado às orientações mais amplas.",
+      "item": "No planejamento de uma biblioteca, a definição de escalas diárias de revezamento no balcão de atendimento e a padronização do carimbo de tombamento são atribuições privativas do planejamento estratégico da instituição.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-67",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "recursos, viabilidade e execução",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "162d752afa73ce455ef49532c4d98858fcffa9d9085a130635906db47ef09599",
+    "shaDepois": "86031be0291f2bffb160a9796e4b7282b6090afd4db2d0880aef435805dc8f5d",
+    "patch": {
+      "justificativa": "CERTO. Decisões exigem avaliar custos, disponibilidade e consequências de mudanças, inclusive em serviços sem finalidade lucrativa. Recursos limitados não autorizam ignorar direitos, missão e qualidade. Uma alternativa de menor preço pode ter custo total maior ou condições inadequadas.",
+      "gatilho": "aspectos financeiros",
+      "armadilhaBanca": "Separar preço inicial, custo total e adequação da alternativa.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — recursos, viabilidade e execução. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A opção de menor preço inicial é sempre a melhor, independentemente de custos de manutenção e condições de acesso.",
+      "item": "O domínio de aspectos financeiros, como cortes e incrementos de custos, é indispensável à execução do ato de administrar, tanto da instituição quanto de sua biblioteca.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624237",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624237"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-68",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "diagnóstico SWOT/FOFA",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "42ccb1bb8cf6ef39c7fd4e72480f2ec2c4f2bd2bad84cc5a98173d4b33df6681",
+    "shaDepois": "1606bfea1b847d90d97426e03179671d312e6bf9f5e38181d449e9891d3d8efe",
+    "patch": {
+      "item": "A SWOT permite analisar forças e fraquezas internas e oportunidades e ameaças externas à unidade delimitada, considerando seu contexto e sua capacidade de atuação.",
+      "justificativa": "CERTO. Forças e fraquezas se referem ao ambiente interno delimitado; oportunidades e ameaças, ao externo. Não estar sob controle direto não significa ausência de qualquer influência. A matriz descreve relações para decisão e não produz estratégia eficaz apenas por preencher quatro quadrantes.",
+      "gatilho": "forças e fraquezas internas e oportunidades e ameaças externas",
+      "armadilhaBanca": "Distinguir ferramenta de diagnóstico e decisão estratégica fundamentada.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — diagnóstico SWOT/FOFA. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Preencher uma SWOT garante uma estratégia adequada, sem análise das relações e sem ações decorrentes.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-69",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "planejamento e adaptação de indicadores a instituições públicas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "58abb1cd59b9c1c8916a2e9d7148eaa9263f34ae6b68096e55b3f72714f4b27a",
+    "shaDepois": "4b4069c766da8f2fd47f712649a3adfa72019cfec55d4711bc167e2aedd46d9f",
+    "patch": {
+      "justificativa": "ERRADO. Uma aplicação pública deve se orientar à missão e ao valor entregue à sociedade, com uso responsável de recursos. Medidas financeiras são relevantes, mas não fazem do lucro o objetivo final de toda instituição pública. Perspectivas e indicadores precisam ser adaptados e articulados, não copiados sem contexto.",
+      "gatilho": "lucro operacional",
+      "armadilhaBanca": "Distinguir sustentabilidade e controle de recursos da finalidade lucrativa.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — planejamento e adaptação de indicadores a instituições públicas. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma aplicação do BSC ao setor público pode considerar recursos financeiros sem substituir a missão por maximização de lucro.",
+      "item": "A metodologia do Balanced Scorecard (BSC) aplicada a instituições públicas estabelece o lucro operacional e a rentabilidade do capital investido como vetores orientadores das principais metas estratégicas setoriais.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-70",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "capacitação e competências",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "e32ffa0ba5d7a09c7c3939c93a0dc95287d5164c9a543e3215edc13bda642897",
+    "shaDepois": "6459ef507130a40faec7fcb64642aacf806eaf10aa34e6b0164e8f3f106d8f37",
+    "patch": {
+      "justificativa": "CERTO. CHA organiza conhecimentos, habilidades e atitudes como aspectos a considerar no desempenho. Não é uma prova de que obter certificados produza automaticamente competência. Definir o que a função exige e observar atuação são passos necessários para planejar e avaliar desenvolvimento.",
+      "gatilho": "Conhecimentos",
+      "armadilhaBanca": "Separar comprovação de formação e evidência de atuação competente.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — capacitação e competências. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um certificado comprova automaticamente todos os conhecimentos, habilidades e atitudes necessários ao desempenho de qualquer função.",
+      "item": "A gestão por competências em bibliotecas públicas orienta os processos de capacitação, avaliação funcional e alocação de servidores com base no tripé CHA: Conhecimentos (saber), Habilidades (saber fazer) e Atitudes (querer fazer).",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-71",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "necessidade, demanda e uso: distinções de Line",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "cf2a72529ba795f0a7a2f6029b03d809f56b97a58b0ad539e76dcae6bfacfb36",
+    "shaDepois": "10dba9f7f5e0be3281e864912521e844d1d2767e838c753a66c7250b92ea7ecc",
+    "patch": {
+      "item": "Necessidade e demanda de informação são sinônimos exatos: ambas se limitam aos pedidos explicitamente apresentados ao serviço.",
+      "justificativa": "ERRADO. Demanda é o pedido expresso; necessidade não se reduz ao que foi solicitado. Pessoas podem precisar de informação sem procurar o serviço, ou pedir algo que não resolve o problema. O estudo deve considerar essas diferenças, em vez de tratar toda ausência de solicitação como inexistência de necessidade.",
+      "gatilho": "Necessidade e demanda",
+      "armadilhaBanca": "Não confundir expressão do pedido e situação que o motiva.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — necessidade, demanda e uso: distinções de Line. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Necessidade e demanda são distinguíveis: um pedido expresso não representa necessariamente toda necessidade informacional.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio Doc (FUB)/FUB/2015",
+        "ano": 2015,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-289226",
+        "declaracaoLegada": "Cebraspe / FUB / 2015 (Adaptada); identificador legado: TecConcursos-289226"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m5-q-72",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "amaral",
+      "cad"
+    ],
+    "localizador": "gestão de relacionamento e conhecimento dos públicos",
+    "nota": "Redação reformulada com julgamento C para explicitar aplicação possível de CRM; isso não altera o gabarito da prova histórica sem conferência primária. Vínculo de teoria corrigido de 5.3 para 5.2 segundo o assunto efetivo.",
+    "shaAntes": "a7795a020c10ebcd4fdf85221a056aa9f758f697eecc2d1338f283efe17ae90c",
+    "shaDepois": "159d7896d2c6d1948a530ae6975411dac671b1c1d50055f85629c96fb1c74431",
+    "patch": {
+      "gabarito": "C",
+      "item": "A gestão do relacionamento com usuários, apoiada por práticas e ferramentas de CRM, pode apoiar o conhecimento de necessidades e a melhoria dos serviços de uma biblioteca.",
+      "justificativa": "CERTO. CRM pode apoiar registro e análise das interações e orientar melhorias no relacionamento. Aplicá-lo a uma biblioteca exige adequação à missão, proteção de dados e atenção a não usuários. Não se limita a vendas nem garante que todo dado disponível possa ser coletado e usado sem finalidade.",
+      "gatilho": "pode apoiar",
+      "armadilhaBanca": "Distinguir origem de uma ferramenta de gestão e possibilidades de aplicação contextualizada.",
+      "fonte": "AMARAL, Sueli Angélica do. Marketing: abordagem em unidades de informação — gestão de relacionamento e conhecimento dos públicos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "CRM só pode ser usado para venda comercial e é incompatível com qualquer serviço público de biblioteca.",
+      "versao_correta": "",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-103240",
+        "declaracaoLegada": "Cebraspe / CNJ / 2013 (Adaptada); identificador legado: TecConcursos-103240"
+      },
+      "submoduloId": "5.2"
+    }
+  },
+  {
+    "id": "m5-q-73",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "direção e controle",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "34900fb64f280e04efae6a157f06bda6d30e4f71276a56015e56d705e7b3e5f9",
+    "shaDepois": "2b136211a8beadd3c49b45ebb14c4a47b73f4116fb894cc475223589768abc4b",
+    "patch": {
+      "item": "Entre as funções administrativas, direção e controle se relacionam, respectivamente, à orientação de pessoas e ao acompanhamento e avaliação da execução e dos resultados.",
+      "justificativa": "CERTO. Na exposição administrativa, direção envolve orientar e coordenar pessoas, enquanto controle compara condições e resultados com o planejado e apoia correções. As funções se relacionam: avaliar um processo não dispensa diálogo com a equipe, e dirigir não elimina acompanhamento de resultados.",
+      "gatilho": "respectivamente",
+      "armadilhaBanca": "Reconhecer a ênfase de cada função sem torná-las isoladas.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — direção e controle. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Direção se ocupa exclusivamente de inventariar livros e controle não participa da avaliação de resultados.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1288",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1288"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-74",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "planejamento e avaliação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "6bd57c0ceb1f715d58c2f9d58c81956bb33b3b1e33520ea3a6258c13d822845c",
+    "shaDepois": "c4144e03fd4aca5f2c4c8f2d4c2af35420f5dc061db93be60280ddd962a435ff",
+    "patch": {
+      "item": "Resultados de avaliação dispensam planejamento e garantem, por si sós, redução de riscos, aproveitamento de oportunidades e eliminação de incertezas futuras.",
+      "justificativa": "ERRADO. Avaliação pode produzir dados para reduzir incertezas e melhorar decisões, mas isso precisa alimentar planejamento e ação. Observar resultados não cria por si só eventos futuros nem elimina riscos. As funções se articulam, sem que uma substitua automaticamente a outra.",
+      "gatilho": "dispensam planejamento",
+      "armadilhaBanca": "Distinguir produzir evidências e executar ações decorrentes.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — planejamento e avaliação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Avaliação pode subsidiar planejamento e melhorias, sem dispensar decisões e ações para tratar riscos e oportunidades.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1320",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-1320"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-75",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "planejamento operacional e plano de ação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.3 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "0a3cc792d4dfe109b177d6d134df7339348741ad4ea1a5ad455d1c24587b12f3",
+    "shaDepois": "b035565e6809305f7ea9b3ef42bf936626d9bf57c3c6b2dfb8039fc13c0f3c72",
+    "patch": {
+      "item": "No 5W2H, basta definir apenas responsável e prazo, pois perguntas sobre finalidade, método e custo são excluídas da ferramenta.",
+      "justificativa": "ERRADO. 5W2H reúne perguntas sobre o que, por quê, onde, quando, quem, como e quanto. Definir só responsável e prazo deixa de examinar finalidade, método, local e recursos. A ferramenta organiza decisões, mas não substitui análise de viabilidade nem garante execução por seu preenchimento.",
+      "gatilho": "apenas responsável e prazo",
+      "armadilhaBanca": "Não reduzir a ferramenta a duas de suas perguntas.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — planejamento operacional e plano de ação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O 5W2H pode organizar finalidade, ação, responsáveis, tempo, lugar, método e custo, conforme o plano.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-76",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "distribuidores e acesso a bases de dados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 4.2 segundo o assunto efetivo.",
+    "shaAntes": "dc4bdeef0aaa3623e6e0232b275b11a1dee7022c9962201594c9398d75b10afa",
+    "shaDepois": "06202d3fc5b43673f5abe38f2116b2793eb05ea029c1c61574eb2952a9029278",
+    "patch": {
+      "item": "Serviços distribuidores de bases de dados podem atuar como intermediários de acesso a conteúdos de diferentes provedores, com interfaces e condições contratuais próprias.",
+      "justificativa": "CERTO. Distribuidores podem reunir bases e oferecer interfaces e formas de acesso, conforme acordos com provedores. Isso não os torna necessariamente autores de todo conteúdo nem elimina termos de licença. Nomes como Dialog e STN devem ser situados historicamente, sem presumir que produtos e proprietários permaneçam inalterados.",
+      "gatilho": "intermediários de acesso",
+      "armadilhaBanca": "Distinguir produção do conteúdo, distribuição e condições de acesso.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — distribuidores e acesso a bases de dados. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo distribuidor é necessariamente o autor de todos os registros e conteúdos que disponibiliza.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANATEL/2009",
+        "ano": 2009,
+        "orgao": "2009",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-245",
+        "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-245"
+      },
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m5-q-77",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir",
+      "cad"
+    ],
+    "localizador": "coleções, indexação e sistemas de recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "519fa4838ff6c55f74c062e9ef133aa157e056c79696117904cfe2928e3f508e",
+    "shaDepois": "9f0708f9ce6a8951fea96578fa063b7ac9096795d6f9dc4fde4cd430b7c5cca3",
+    "patch": {
+      "item": "Um sistema de busca e um sistema gerenciador de banco de dados desempenham necessariamente funções idênticas, de modo que indexação e consulta dispensam qualquer gestão de integridade ou atualização dos dados.",
+      "justificativa": "ERRADO. Gestão de dados e recuperação podem estar integradas, mas um sistema de busca não equivale por definição a todo SGBD. Armazenamento, integridade, atualização, indexação e consulta têm funções distinguíveis. As expressões banco e base também variam em uso; não se deve criar um gabarito apenas por trocar essas palavras sem definir o contexto.",
+      "gatilho": "necessariamente funções idênticas",
+      "armadilhaBanca": "Distinguir funções e contexto em vez de inventar uma oposição terminológica universal.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — coleções, indexação e sistemas de recuperação — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Gestão de dados e ferramentas de busca podem se integrar, sem desempenhar necessariamente funções idênticas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646355",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646355"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-78",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "comunidades de prática",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1647dd219cf1af9a40d7d8e1825fbd2cb43ddb434ca8f3195922bfbee07c6640",
+    "shaDepois": "14bfb8bb86ef10416f32c9c11517615b49f35fddaa1c5541ba1e9ca57dc013ab",
+    "patch": {
+      "item": "Comunidades de prática somente existem quando instituídas por formalização hierárquica obrigatória, sendo irrelevantes a aprendizagem, a interação e a prática compartilhada.",
+      "justificativa": "ERRADO. Comunidades de prática se desenvolvem em torno de atividades, aprendizagem e repertórios compartilhados. Podem ter apoio institucional e diferentes graus de formalização, mas não se definem por um decreto ou cadeia hierárquica. Um grupo formal também não se torna comunidade de prática apenas pelo nome.",
+      "gatilho": "formalização hierárquica obrigatória",
+      "armadilhaBanca": "Não confundir arranjo formal e relações de aprendizagem na prática.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — comunidades de prática. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A comunidade de prática se caracteriza pela aprendizagem e prática compartilhadas, sem exigir formalização hierárquica obrigatória."
+    }
+  },
+  {
+    "id": "m5-q-79",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ba"
+    ],
+    "localizador": "contexto compartilhado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ea21a1542e6e196ce81c16f9da2ee2470849b9aee4c7c4f149cc52a96d21877d",
+    "shaDepois": "17b47a76456246863258249aa93334dcaf5f41ee8e6a76594ee5814a77ebc705",
+    "patch": {
+      "item": "No conceito de Ba, basta existir apenas um repositório digital: interação, contexto compartilhado e relações entre pessoas são dispensáveis para caracterizá-lo.",
+      "justificativa": "ERRADO. Ba designa contexto compartilhado que favorece criação e interação do conhecimento, podendo ter dimensões físicas, virtuais e mentais. Um repositório pode participar desse contexto, mas não o define sozinho. A ferramenta precisa ser distinguida das relações e práticas que sustenta.",
+      "gatilho": "apenas um repositório",
+      "armadilhaBanca": "Separar espaço de interação e equipamento de armazenamento.",
+      "fonte": "NONAKA, Ikujiro; KONNO, Noboru. The Concept of Ba: Building a Foundation for Knowledge Creation. 1998 — contexto compartilhado — https://doi.org/10.2307/41165942",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Ba é um contexto compartilhado de criação do conhecimento, que não se reduz a um software ou repositório."
+    }
+  },
+  {
+    "id": "m5-q-80",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "acrl",
+      "cad"
+    ],
+    "localizador": "competência em informação e aprendizagem social",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "64045221d388d3c0d557ad8e40b2f88da539468d9a2420cc619d175738687e2b",
+    "shaDepois": "115242865c239d45d4e74e74f4aab372ffe5e48e24b1f774a2654a8045df78f6",
+    "patch": {
+      "item": "A competência em informação pode envolver aprendizagem e participação social, além de apropriação tecnológica e processos cognitivos, conforme a abordagem adotada.",
+      "justificativa": "CERTO. Competência em informação não se limita a operar tecnologia; inclui práticas de busca, interpretação, avaliação e participação em contextos sociais. Modelos específicos podem usar classificações próprias, que não devem ser apresentados como níveis universais. Aprender exige atuação e reflexão, não apenas acesso a uma ferramenta.",
+      "gatilho": "pode envolver aprendizagem",
+      "armadilhaBanca": "Distinguir habilidade operacional e conjunto de práticas e capacidades.",
+      "fonte": "ACRL — Framework for Information Literacy for Higher Education — competência em informação e aprendizagem social — https://www.ala.org/acrl/standards/ilframework",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Dominar uma interface de busca é suficiente para comprovar toda competência informacional, sem avaliação de fontes ou contexto.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANATEL/2009",
+        "ano": 2009,
+        "orgao": "2009",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-242",
+        "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-242"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-81",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "disseminação seletiva da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.2 segundo o assunto efetivo.",
+    "shaAntes": "1ae77c1824a8678e0acd5b21caafd58e9bfd7e7dbb6f9c25cf0ffb7e8ec5413e",
+    "shaDepois": "d5a1e86ebb7b00933d9d01a792902f3edda80ba3117e053ce0d22a015a251b98",
+    "patch": {
+      "justificativa": "ERRADO. A DSI relaciona seleção de novidades a perfis de interesse definidos e atualizados. Um alerta amplo pode ser útil, mas não é automaticamente DSI personalizada. A especialização decorre da seleção para necessidades, não de o envio usar um meio eletrônico.",
+      "gatilho": "não ser direcionada a perfis",
+      "armadilhaBanca": "Não confundir canal de envio e personalização do serviço.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — disseminação seletiva da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A DSI seleciona informação de acordo com perfis de interesse, que devem ser mantidos e avaliados.",
+      "item": "A disseminação seletiva da informação é considerada como não especializada, em virtude de não ser direcionada a perfis específicos de público usuário da informação ou de unidade de informação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-349",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-349"
+      },
+      "submoduloId": "5.2"
+    }
+  },
+  {
+    "id": "m5-q-82",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "memória e compartilhamento do conhecimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d79822dabf8ce069f69253bbe7d32012616bc05fac474ba0198b9f222bb50f88",
+    "shaDepois": "bd4235534941668a1eb85b84ef9d1544c320a9799c828add198fb1b3ebccb8a6",
+    "patch": {
+      "item": "Uma instituição pode perder continuidade de conhecimentos práticos com a saída de profissionais quando depende de experiências pouco compartilhadas, o que motiva ações de memória e aprendizagem coletiva.",
+      "justificativa": "CERTO. Saída de profissionais pode levar consigo conhecimentos práticos, contatos e critérios pouco compartilhados. Documentação, acompanhamento de tarefas e aprendizagem coletiva podem reduzir a dependência, sem garantir transferência integral do tácito. Não é a aposentadoria, sozinha, que determina perda inevitável em todo órgão.",
+      "gatilho": "pode perder continuidade",
+      "armadilhaBanca": "Distinguir reduzir dependência e garantir transferência total de experiência.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — memória e compartilhamento do conhecimento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Registrar um manual transfere integralmente todo conhecimento tácito e elimina qualquer risco de descontinuidade após saída de servidores."
+    }
+  },
+  {
+    "id": "m5-q-83",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "DSI, perfil e monitoramento",
+    "nota": "Gabarito E substituído por C em redação condicionada e pedagogicamente explícita: monitoramento temático é aplicação possível de DSI. Vínculo de teoria corrigido de 5.4 para 5.2 segundo o assunto efetivo.",
+    "shaAntes": "dbc16ab3b70ed760960fc27e907f77b88164758562673e239403eca2b0743ab1",
+    "shaDepois": "e580d7fed363873f15b4e58c3fab108db990b561aeb540a9a39b552b29bba105",
+    "patch": {
+      "gabarito": "C",
+      "item": "O monitoramento de novidades em uma área de pesquisa pode ser atendido por DSI, após negociar o perfil de interesse e as condições de acompanhamento e entrega.",
+      "justificativa": "CERTO. Monitoramento de novidades em uma área pode ser apoiado por DSI, após esclarecer interesses, fontes, prazos e forma de entrega. O serviço precisa de revisão do perfil e avaliação de pertinência. Oferecer essa alternativa não obriga tratar qualquer pedido como DSI nem garante cobertura completa da literatura.",
+      "gatilho": "pode ser atendido",
+      "armadilhaBanca": "Relacionar a necessidade de acompanhamento e o serviço, com perfil e escopo definidos.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — DSI, perfil e monitoramento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A DSI é incompatível com monitoramento de novidades em uma área e só pode responder a perguntas factuais isoladas.",
+      "versao_correta": "",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646357",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646357"
+      },
+      "submoduloId": "5.2"
+    }
+  },
+  {
+    "id": "m5-q-84",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "circulação e regras de atendimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "5ca1b014c84bf424c4cd07b8e752d1fc5188d8767086c66302ec85afb98bbbc1",
+    "shaDepois": "394b6b47ae80c035ae989e7884db84552a10567a66f3e2c6b6b899b71ebb7529",
+    "patch": {
+      "justificativa": "ERRADO. A gestão de empréstimos e devoluções inclui aplicar e comunicar regras de circulação pela equipe competente. Não se transfere toda sanção ao serviço de referência apenas porque ele teve um primeiro contato. A instituição deve definir políticas, recursos e limites, inclusive de eventuais penalidades.",
+      "gatilho": "não faz parte de suas atribuições",
+      "armadilhaBanca": "Separar contato inicial e competência para um procedimento específico.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — circulação e regras de atendimento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A política de circulação deve definir procedimentos e responsabilidades sobre devoluções e atrasos, sem atribuí-los automaticamente ao primeiro atendente de referência.",
+      "item": "Embora a circulação seja responsável pelo controle da movimentação das coleções da biblioteca, inclusive de empréstimos entre bibliotecas, a aplicação de penalidades em razão do atraso na devolução de obras emprestadas não faz parte de suas atribuições mas sim do serviço de referência, já que este estabelece o primeiro contato com o usuário que adentra a biblioteca.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-696559",
+        "ano": 2018,
+        "orgao": "IPHAN",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "696559",
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018; identificador legado: 696559"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-85",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "modelo SECI: exteriorização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c8f93fa13746271281a16f024b644b6d2856baa6a3ad815dd5bded08570c48fb",
+    "shaDepois": "682b540e28a6c89ba614fdfc1da8d7b8b3827156d08b87a1ca5545c911b69a81",
+    "patch": {
+      "justificativa": "CERTO. Exteriorização ou externalização envolve articular aspectos do conhecimento tácito em conceitos e representações explícitas. Metáforas e relatos podem apoiar esse processo. Isso não garante que todo saber prático tenha sido exaurido ou que outra pessoa o domine só por ler um manual.",
+      "gatilho": "tácito para o conhecimento explícito",
+      "armadilhaBanca": "Distinguir explicitação de aspectos do saber e transferência total de competência.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — modelo SECI: exteriorização. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A externalização garante converter integralmente toda experiência tácita em um manual e transferi-la sem perda a qualquer leitor.",
+      "item": "O modo de conversão 'Externalização' no modelo SECI é a passagem do conhecimento tácito para o conhecimento explícito, concretizada pela elaboração de conceitos, metáforas, hipóteses, manuais técnicos ou fluxogramas que tornam compreensível a terceiros o saber acumulado pelos indivíduos."
+    }
+  },
+  {
+    "id": "m5-q-86",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "gestão de informação e conhecimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2139451d06a7951d8ab46f0a46d44fb4bff42c690e36fe8d886bf67d8181b6fb",
+    "shaDepois": "15a32ffd970bff53a320f0510f21c92095240af1ebe08bddc62c77f4b88ea570",
+    "patch": {
+      "justificativa": "ERRADO. Criar e compartilhar conhecimento depende de pessoas, práticas e registros, sem tornar organização bibliográfica e memória institucional inúteis. Catálogos e arquivos podem apoiar descoberta, continuidade e evidência. Implantar gestão do conhecimento não autoriza eliminar documentos fora das regras e critérios de avaliação.",
+      "gatilho": "completamente inútil",
+      "armadilhaBanca": "Não tratar abordagens complementares como substituição total.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — gestão de informação e conhecimento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Gestão do conhecimento pode se articular com catálogos, registros e arquivos, sem substituí-los por uma eliminação generalizada.",
+      "item": "A Gestão do Conhecimento substitui e torna completamente inútil a catalogação bibliográfica e os arquivos históricos da instituição, que devem ser eliminados das bibliotecas modernas."
+    }
+  },
+  {
+    "id": "m5-q-87",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "libqual"
+    ],
+    "localizador": "qualidade percebida dos serviços",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "3fd70ba1f85ad227d58d26697c97b5f73ba1277087ccdb8cda8752dfa3468dd1",
+    "shaDepois": "66989ad54113949f7da1b8b8fc09265d432963791e2d08495dda07a664e95197",
+    "patch": {
+      "justificativa": "ERRADO. LibQUAL+ é associado à avaliação da qualidade percebida, com instrumento e interpretação próprios. Não é uma modalidade de envio de novidades por perfil. Seus resultados precisam de contexto e não substituem toda evidência de desempenho ou de necessidades da comunidade.",
+      "gatilho": "disseminação seletiva",
+      "armadilhaBanca": "Não confundir instrumento de avaliação e serviço de disseminação.",
+      "fonte": "Association of Research Libraries — LibQUAL+ — qualidade percebida dos serviços — https://www.libqual.org/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "LibQUAL+ apoia avaliação da qualidade percebida; DSI acompanha informação segundo perfis de interesse.",
+      "item": "A metodologia LibQUAL+ é utilizada pelos bibliotecários para a disseminação seletiva da informação.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-88",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "modelo SECI: internalização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cd3b0613c674562f24aeb9c21a6bd48d9f3b7a4e0837f75cd1478d7030f4d738",
+    "shaDepois": "39b6f5624106debd82fbd246161e63e7b722ec764729d24e82eca1c6b04ec26c",
+    "patch": {
+      "justificativa": "CERTO. Internalização envolve incorporar conhecimento explícito à experiência e prática. Ler uma rotina pode apoiar o processo, mas não equivale automaticamente a dominar sua execução. Prática, contexto e feedback ajudam a desenvolver o saber-fazer, sem uma garantia universal de aprendizagem pela exposição.",
+      "gatilho": "explícito em conhecimento tácito",
+      "armadilhaBanca": "Distinguir acesso ao registro e incorporação à atuação prática.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — modelo SECI: internalização. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A internalização ocorre automaticamente após uma única leitura de qualquer manual, sem prática nem contexto.",
+      "item": "A 'Internalização' no modelo SECI corresponde à incorporação do conhecimento explícito em conhecimento tácito (o aprendizado prático pelo 'aprender fazendo'), no qual os indivíduos internalizam as diretrizes e manuais em seus modelos mentais e hábitos de trabalho."
+    }
+  },
+  {
+    "id": "m5-q-89",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "amaral",
+      "cad"
+    ],
+    "localizador": "planejamento de serviços e relacionamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.2 segundo o assunto efetivo.",
+    "shaAntes": "e6956c19b3c5c000f73532656420d3caeab011f74dbf0ec47c07fc932017b70f",
+    "shaDepois": "1cf81c0db76fbd0d99913d8967dc3851553e28795725136178d83b1f0ee67e7b",
+    "patch": {
+      "item": "O planejamento de serviços ao público pode considerar diretrizes institucionais, pesquisas e consultas a usuários e equipes para definir compromissos e condições de qualidade.",
+      "justificativa": "CERTO. Diretrizes, pesquisa e consulta aos públicos podem fundamentar o plano de serviços. Não é obrigatório aplicar a mesma sequência e os mesmos instrumentos em toda unidade. A qualidade precisa ser acompanhada com critérios e revisão, em vez de prometida por um documento formal.",
+      "gatilho": "pode considerar",
+      "armadilhaBanca": "Distinguir instrumento de planejamento e garantia de execução ou resultado.",
+      "fonte": "AMARAL, Sueli Angélica do. Marketing: abordagem em unidades de informação — planejamento de serviços e relacionamento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um plano formal garante qualidade e dispensa consultar usuários ou acompanhar resultados depois de aprovado.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624023",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624023"
+      },
+      "submoduloId": "5.2"
+    }
+  },
+  {
+    "id": "m5-q-90",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "ambiente, informação e decisão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.2 segundo o assunto efetivo.",
+    "shaAntes": "b23da61d9f39ccb4d14f4fa23beab0ba65144ccd64947dfb75448023dda3f91c",
+    "shaDepois": "c26d54d9ae44c4fa93ebbba0829a5ecdbbdb7974b8c9ee1b0183dfddbdc01dfd",
+    "patch": {
+      "item": "Atividades de inteligência podem organizar planejamento, coleta, análise e disseminação de informações para subsidiar decisões públicas sobre tendências e condições do ambiente.",
+      "justificativa": "CERTO. Um ciclo de inteligência pode organizar necessidades, fontes, coleta, análise e comunicação para decisões. Não se reduz a coletar o máximo possível nem prevê infalivelmente o futuro. Na atuação pública, finalidade, qualidade, legalidade e limites de uso das informações precisam ser observados.",
+      "gatilho": "subsidiar decisões",
+      "armadilhaBanca": "Separar acumulação de dados e produção de subsídios úteis.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — ambiente, informação e decisão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A inteligência se completa na coleta, dispensando análise, comunicação e avaliação de pertinência para a decisão.",
+      "submoduloId": "5.2"
+    }
+  },
+  {
+    "id": "m5-q-91",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "gesac"
+    ],
+    "localizador": "finalidade de conectividade e inclusão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 6.1 segundo o assunto efetivo.",
+    "shaAntes": "318dd4e56fb051134282c031373a1e17a8b6c5ef30b1a13404f1cbf0b3263830",
+    "shaDepois": "3fb1ea53ba38ba225a074dcb4f9a82b0e1de29a35f3fd38de022a8e914a9157d",
+    "patch": {
+      "justificativa": "CERTO. GESAC apoia conectividade e inclusão em públicos e localidades definidos pelo programa. A existência de conexão não garante, por si só, letramento ou uso adequado da informação. É preciso observar regras e ações do programa, sem presumir que qualquer instituição receba serviço irrestrito automaticamente.",
+      "gatilho": "inclusão digital",
+      "armadilhaBanca": "Separar infraestrutura de conectividade e desenvolvimento de competências.",
+      "fonte": "Ministério das Comunicações — GESAC — finalidade de conectividade e inclusão — https://www.gov.br/mcom/pt-br/acesso-a-informacao/acoes-e-programas/wi-fi-brasil",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Disponibilizar conexão pelo GESAC comprova automaticamente competência informacional de todos os usuários atendidos.",
+      "item": "O programa governamental GESAC, do Ministério das Comunicações, visa promover ou ampliar o processo de inclusão digital e acesso à Internet em instituições públicas de ensino, instituições públicas de saúde, unidades de serviço público localizadas em áreas remotas, bem como em entidades da sociedade civil sem fins lucrativos.",
+      "submoduloId": "6.1"
+    }
+  },
+  {
+    "id": "m5-q-92",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "ética, finalidade e responsabilidade no uso de informações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "cfcce3aadfb2981a8a3e52399c19e6798a82265b90cbedf8e8b9456eb9fe0b92",
+    "shaDepois": "48d6e847e44cae48e0819e0fda2bcd78f974948b4ce94d6cea0b8fe168a3d198",
+    "patch": {
+      "item": "Na inteligência aplicada a órgãos públicos, a disponibilidade de uma informação na Internet dispensa toda análise de finalidade, qualidade e proteção de dados em seu uso.",
+      "justificativa": "ERRADO. A finalidade institucional não dispensa verificar qualidade, legitimidade de obtenção e condições de uso. Uma informação publicamente acessível pode envolver dados pessoais e não autoriza qualquer tratamento sem finalidade. Inteligência não é licença para práticas ilícitas ou desrespeito a direitos.",
+      "gatilho": "dispensa",
+      "armadilhaBanca": "Distinguir disponibilidade da informação e autorização irrestrita para qualquer uso.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — ética, finalidade e responsabilidade no uso de informações — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A atividade de inteligência deve observar finalidade e condições legítimas de obtenção e uso das informações.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-93",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "aprendizagem organizacional e lições aprendidas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8a6b5d7cf38f70c7aa3a72c1951be2a0ab38677b79ae3332b0374a689e90f337",
+    "shaDepois": "603f0f20dba20a42a4f0338e725e96b2e63b868429a8dd916cce1fa6f655a323",
+    "patch": {
+      "item": "Lições aprendidas podem registrar resultados e experiências de projetos, durante ou após sua execução, e apoiar decisões futuras quando contextualizadas e utilizadas.",
+      "justificativa": "CERTO. Registrar resultados, condições, dificuldades e soluções pode apoiar outros projetos. A lição precisa de contexto e uso posterior; arquivar um relatório não impede automaticamente repetir erros. Aprendizagem também pode ocorrer durante a execução, não apenas depois do encerramento.",
+      "gatilho": "apoiar decisões futuras",
+      "armadilhaBanca": "Distinguir registro, interpretação e incorporação da experiência.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — aprendizagem organizacional e lições aprendidas. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um documento de lições aprendidas garante que nenhum erro será repetido e só pode ser produzido ao término do projeto."
+    }
+  },
+  {
+    "id": "m5-q-94",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "valor para o usuário e adequação do serviço",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "b68bc8093e9b1abf72a9cb6308cc3f0875f9cdabebe76f395b982cf8d9b49194",
+    "shaDepois": "11ec72314701fe8a76f9647be7371660509523bfee7d59a14d54415ae94baeab",
+    "patch": {
+      "item": "Uma abordagem de valor adicionado pode analisar o serviço do ponto de vista do usuário e de sua contribuição à resolução de necessidades e dificuldades informacionais.",
+      "justificativa": "CERTO. A avaliação de valor pode examinar como o serviço ajuda a resolver uma necessidade e reduz dificuldades. Isso vai além de acrescentar funções técnicas sem verificar sua utilidade. A percepção do usuário é uma evidência importante, mas não elimina critérios de qualidade, confiabilidade e responsabilidade.",
+      "gatilho": "ponto de vista do usuário",
+      "armadilhaBanca": "Separar quantidade de funções e contribuição efetiva à resolução de um problema.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — valor para o usuário e adequação do serviço. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Acrescentar qualquer função tecnológica sempre adiciona valor, mesmo sem utilidade para as necessidades dos usuários.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "MPU/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-239",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-239"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-95",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "modelo de Nonaka e Takeuchi: dimensões de análise",
+    "nota": "Gabarito C corrigido para E: tácito/explícito pertence à dimensão epistemológica, não à ontológica.",
+    "shaAntes": "a8e245991dd6ead457af24f1d551f89966be52aa4914d7b6bbac21010930bdfe",
+    "shaDepois": "3819a55d61e7dfa4e305a7b2e90ec6e18c3d18e942aad81c05368c3c2c895cd5",
+    "patch": {
+      "gabarito": "E",
+      "justificativa": "ERRADO. Tácito e explícito distinguem a dimensão epistemológica do conhecimento no modelo. A dimensão ontológica se refere aos níveis de criação e ampliação, como indivíduo, grupo e organização. O enunciado troca os eixos; não basta reconhecer duas palavras familiares para confirmar a classificação.",
+      "gatilho": "naturezas ontológicas",
+      "armadilhaBanca": "Distinguir natureza do conhecimento e níveis em que é criado e compartilhado.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — modelo de Nonaka e Takeuchi: dimensões de análise. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No modelo, tácito e explícito distinguem a dimensão epistemológica, enquanto a dimensão ontológica trata dos níveis de criação e ampliação do conhecimento.",
+      "versao_errada": "",
+      "item": "No modelo de criação do conhecimento organizacional desenvolvido por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o conhecimento manifesta-se em duas naturezas ontológicas: conhecimento tácito (pessoal, contextual, subjetivo e de difícil formalização) e conhecimento explícito (codificado, sistemático, transmissível em linguagem formal e registros documentais)."
+    }
+  },
+  {
+    "id": "m5-q-96",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "bibliotecas híbridas e recursos digitais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 6.1 segundo o assunto efetivo.",
+    "shaAntes": "a2ac346a240baaee3fd1cd847b22b9736fff6415412a0bbff116373d22a3c61b",
+    "shaDepois": "622058a485d5b62ca2edd0d4c6fc1a6a4dd3ac50d9f60b976f6a5f0ce56c8bf0",
+    "patch": {
+      "justificativa": "ERRADO. Híbrida se refere à articulação de recursos e serviços em diferentes meios, não à simples ausência de localização física. Uma biblioteca pode oferecer recursos digitais e manter espaços e coleções físicas. A classificação deve explicitar seu critério, sem usar virtual, digital e híbrida como sinônimos automáticos.",
+      "gatilho": "bibliotecas híbridas",
+      "armadilhaBanca": "Separar combinação de meios e inexistência de instalação física.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — bibliotecas híbridas e recursos digitais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma biblioteca híbrida articula recursos e serviços de diferentes meios, sem ser definida pela ausência de espaço físico.",
+      "item": "As bibliotecas que dispensam localização física para disseminar informações, constituindo-se, simplesmente, em um conjunto de mecanismos eletrônicos que facilitam a localização da demanda informacional e que interligam recursos e usuários, denominam-se bibliotecas híbridas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "MPU/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-240",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-240"
+      },
+      "submoduloId": "6.1"
+    }
+  },
+  {
+    "id": "m5-q-97",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida"
+    ],
+    "localizador": "processos e rotinas de trabalho",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 5.1 segundo o assunto efetivo.",
+    "shaAntes": "fce4b6faee9aa5b168e178cbda99cf2fe4d8394a9c642901f6e0235e7874046d",
+    "shaDepois": "2c957d8035732bea8521bf3a6a798835b22cf01b6fde73b071c81a793a4c366e",
+    "patch": {
+      "justificativa": "CERTO. Mapear etapas, responsabilidades e fluxos torna visíveis dependências e dificuldades e pode apoiar melhoria e capacitação. O mapa precisa ser validado com quem realiza o trabalho e atualizado. Desenhar um fluxo não transfere automaticamente toda experiência tácita nem corrige um processo inadequado.",
+      "gatilho": "identificação de gargalos",
+      "armadilhaBanca": "Distinguir representar o processo e melhorá-lo efetivamente.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — processos e rotinas de trabalho. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A simples produção de um fluxograma garante um processo eficiente e dispensa ouvir a equipe ou avaliar a execução.",
+      "item": "O mapeamento de processos de trabalho (workflow) em bibliotecas viabiliza a identificação de gargalos de produção, padronização de procedimentos e transferência de conhecimento entre servidores mais experientes e novatos.",
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m5-q-98",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "modelo SECI: combinação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a236ca64ffc36047fbec54e29e48d5df85d5ed02e11509b87aeff12e1af7dfde",
+    "shaDepois": "c2469b60de23802c27badb82ac4f4daf2a87b13afb28c04717e62c2934505809",
+    "patch": {
+      "justificativa": "ERRADO. Combinação articula conhecimentos explícitos, como ao reunir e reorganizar dados de relatórios em uma síntese. Não é a passagem para crenças tácitas secretas. Integrar documentos exige verificar coerência e fontes, sem tornar verdadeiro qualquer resultado apenas por compilar dados.",
+      "gatilho": "crenças místicas orais",
+      "armadilhaBanca": "Identificar os tipos de conhecimento de origem e destino no modelo.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — modelo SECI: combinação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Combinação envolve articular conhecimentos explícitos, como na produção de uma síntese a partir de relatórios.",
+      "item": "No modelo SECI, a 'Combinação' é o processo de transformação de conhecimento explícito em crenças místicas orais não articuladas mantidas em segredo absoluto pelos bibliotecários."
+    }
+  },
+  {
+    "id": "m5-q-99",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo"
+    ],
+    "localizador": "modelo SECI: socialização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "800105dbdc101346af0332440d9eb13f9ac75880b0494b5e9640f5101ddedbf7",
+    "shaDepois": "7700e2b4dd6b5f0e5bd3dca98d706efe670782f78c4cc8501bc76b4693f4c254",
+    "patch": {
+      "justificativa": "ERRADO. Socialização corresponde ao compartilhamento de conhecimento tácito por experiências, observação e prática. Articular em fórmulas ou conceitos explícitos se relaciona à exteriorização. As formas se articulam no modelo, mas não são nomes intercambiáveis para qualquer troca de informação.",
+      "gatilho": "fórmulas matemáticas explícitas",
+      "armadilhaBanca": "Conferir origem e destino de cada modo, em vez de aceitar palavras apenas associadas ao tema.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — modelo SECI: socialização. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Socialização envolve compartilhar conhecimento tácito por experiência; exteriorização envolve sua articulação explícita.",
+      "item": "Na espiral do conhecimento do modelo SECI, o modo de conversão denominado 'Socialização' consiste na transformação de conhecimento tácito em fórmulas matemáticas explícitas publicadas em manuais digitais."
+    }
+  },
+  {
+    "id": "m5-q-100",
+    "caminho": "src/content/questions/m5-gestao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "não usuários, públicos potenciais e barreiras",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 5.4 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "cb9ab9b176ff793688c83f23d04ca8923dcc025a1b0e85b33e95bb4366b896f1",
+    "shaDepois": "3131e9cef78416c9c4a4c528117446dedbbf934138b43d4688a14f838d892c45",
+    "patch": {
+      "item": "Não usuários e públicos potenciais podem ser considerados em estudos, pois ausência de uso não demonstra, por si só, inexistência de necessidades ou barreiras de acesso.",
+      "justificativa": "CERTO. Não usar um serviço pode decorrer de desconhecimento, barreiras, alternativas ou falta de necessidade naquele contexto. Investigar razões ajuda a planejar ações; uma contagem de não usuários, sozinha, não explica o fenômeno. Dados qualitativos e quantitativos podem ser necessários conforme o objetivo.",
+      "gatilho": "não demonstra, por si só",
+      "armadilhaBanca": "Separar comportamento observado e causas que precisam ser investigadas.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — não usuários, públicos potenciais e barreiras. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A ausência de uso prova que a pessoa não tem qualquer necessidade de informação e deve ser excluída do estudo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624026",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624026"
+      },
+      "submoduloId": "4.4"
+    }
+  }
+]

@@ -9,13 +9,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "O Supremo Tribunal Federal (STF) atua como órgão de cúpula do Poder Judiciário, competindo-lhe precipuamente a guarda da Constituição Federal, ao passo que ao Superior Tribunal de Justiça (STJ) cabe a uniformização da interpretação da lei federal infraconstitucional em todo o território nacional.",
     "gabarito": "C",
-    "justificativa": "CERTO. A assertiva reflete com exatidão a repartição constitucional de competências: o STF é o guardião precípuo da Carta Magna (art. 102 da CF/88), julgando em sede recursal o Recurso Extraordinário e ações de controle concentrado de constitucionalidade. O STJ, por sua vez, é a corte de cúpula da jurisdição federal e estadual comum ordinária (art. 104 e 105 da CF/88), responsável pela uniformização da legislação federal infraconstitucional por meio do Recurso Especial.",
+    "justificativa": "CERTO. STF tem a guarda constitucional como competência precípua; STJ examina questões de direito federal nas hipóteses constitucionais, inclusive recurso especial. Não são instâncias universais para reexaminar todos os fatos e provas de qualquer processo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "guarda da Constituição",
+    "armadilhaBanca": "Trocar a função constitucional dos tribunais superiores.",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 102 e 105: competências do STF e do STJ — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "O STJ exerce a guarda precípua da Constituição, enquanto o STF uniformiza exclusivamente lei federal infraconstitucional."
   },
   {
     "id": "orgaos-q-002",
@@ -25,15 +31,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "O Tribunal de Contas da União (TCU) integra formalmente a estrutura do Poder Judiciário, possuindo competência para anular definitivamente atos administrativos do Poder Executivo com eficácia de coisa julgada material impassível de revisão judicial.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O TCU NÃO integra a estrutura do Poder Judiciário, cujo rol constitucional no art. 92 da CF/88 é taxativo. O TCU é órgão técnico de estatura constitucional que assessora o Poder Legislativo no exercício da fiscalização contábil, financeira e orçamentária da União. Além disso, as decisões do TCU não têm eficácia de coisa julgada material em sentido estrito judicial, podendo ser revistas pelo Poder Judiciário sempre que houver vício de legalidade ou ofensa a direitos fundamentais.",
+    "justificativa": "ERRADO. O TCU auxilia o Congresso no controle externo e não integra o rol de órgãos do Judiciário. Suas decisões têm efeitos próprios, mas não a imunidade absoluta à revisão judicial alegada. Controle judicial de legalidade não converte todo processo de contas em nova análise irrestrita de mérito.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "O Tribunal de Contas da União (TCU) é órgão constitucional autônomo e independente que auxilia o Congresso Nacional no controle externo (arts. 70 e 71 da CF/88), não integrando o Poder Judiciário (art. 92 da CF/88) e estando suas deliberações sujeitas a controle judicial de legalidade.",
-    "armadilhaBanca": "Equiparação do TCU a órgão jurisdicional judiciário com coisa julgada impassível de controle jurisdicional."
+    "versao_correta": "O TCU exerce controle externo sem integrar o Poder Judiciário, e seus atos estão sujeitos ao controle judicial cabível.",
+    "armadilhaBanca": "Confundir tribunal de contas com órgão jurisdicional.",
+    "gatilho": "Poder Judiciário",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 71 e 92: controle externo e órgãos do Judiciário — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-003",
@@ -43,13 +53,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "O Conselho Nacional de Justiça (CNJ) é órgão integrante do Poder Judiciário com atribuições de controle administrativo e financeiro, competindo-lhe fiscalizar o cumprimento dos deveres funcionais de magistrados, sendo-lhe vedado, contudo, exercer jurisdição judicante sobre causas judiciais entre litigantes.",
     "gabarito": "C",
-    "justificativa": "CERTO. Criado pela Emenda Constitucional nº 45/2004 e alocado no art. 103-B da CF/88, o CNJ integra o Poder Judiciário, mas sua competência é exclusivamente administrativa, disciplinar e financeira. O CNJ não possui jurisdição judicante ou contenciosa (jurisdição estrita para julgar litígios), não podendo apreciar o mérito de sentenças ou acórdãos judiciais.",
+    "justificativa": "CERTO. CNJ integra o Judiciário e controla sua atuação administrativa e financeira e deveres funcionais dos juízes. Essas atribuições não o transformam em instância recursal para reformar decisões jurisdicionais em litígios. Controle disciplinar e julgamento judicial têm objetos distintos.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "controle administrativo e financeiro",
+    "armadilhaBanca": "Separar controle administrativo e atividade jurisdicional.",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 92, I-A, e 103-B, §4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "O CNJ funciona como tribunal de apelação competente para reformar sentenças judiciais em causas entre particulares."
   },
   {
     "id": "orgaos-q-004",
@@ -59,15 +75,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "O Ministério Público da União (MPU) é subordinado hierárquica e administrativamente ao Ministério da Justiça e Segurança Pública, cabendo ao Poder Executivo deliberar sobre a abertura de seus concursos públicos e lotação de seus membros.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Carta Magna de 1988 concedeu ao Ministério Público autonomia orgânica e orçamentária completa, desvinculando-o de qualquer ministério do Poder Executivo. Cabe à própria administração do MPU deliberar sobre suas propostas orçamentárias, realização de concursos públicos, criação de cargos e lotação de seus membros e servidores.",
+    "justificativa": "ERRADO. A Constituição assegura autonomia funcional e administrativa ao Ministério Público, que não é departamento do Ministério da Justiça. A participação de outros poderes em orçamento ou nomeações, nos termos constitucionais, não cria a subordinação hierárquica afirmada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "O Ministério Público da União (art. 127 da CF/88) é instituição permanente essencial à função jurisdicional do Estado, dotada de autonomia funcional, administrativa e orçamentária plena, não possuindo qualquer subordinação ao Poder Executivo ou ao Ministério da Justiça.",
-    "armadilhaBanca": "Subordinação espúria do Ministério Público à estrutura ministerial do Poder Executivo."
+    "versao_correta": "O MPU dispõe de autonomia funcional e administrativa nos termos constitucionais, sem subordinação hierárquica ao Ministério da Justiça.",
+    "armadilhaBanca": "Confundir participação constitucional de poderes e hierarquia administrativa.",
+    "gatilho": "subordinado",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 127, §§1º e 2º, e art. 128: autonomia do Ministério Público — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-005",
@@ -75,15 +95,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-    "item": "No bicameralismo federal brasileiro, a Câmara dos Deputados é composta por representantes do povo, eleitos pelo sistema proporcional em cada unidade federativa, ao passo que o Senado Federal é composto por representantes dos Estados e do Distrito Federal, eleitos pelo princípio majoritário.",
+    "item": "A Câmara dos Deputados compõe-se de representantes do povo eleitos pelo sistema proporcional em cada Estado, Território e no Distrito Federal; o Senado representa os Estados e o Distrito Federal, com eleição pelo princípio majoritário.",
     "gabarito": "C",
-    "justificativa": "CERTO. Nos termos do art. 45 da CF/88, a Câmara dos Deputados compõe-se de representantes do povo (513 deputados federais), eleitos pelo sistema proporcional. O Senado Federal (art. 46 da CF/88) compõe-se de representantes dos Estados e do Distrito Federal (81 senadores, 3 por UF), eleitos segundo o princípio majoritário, com mandatos de oito anos.",
+    "justificativa": "CERTO. A Câmara representa o povo com eleição proporcional nos Estados, no DF e nos Territórios; o Senado representa Estados e DF, com eleição majoritária e três senadores por unidade. Não se deve generalizar o mesmo sistema eleitoral para ambas as Casas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "sistema proporcional",
+    "armadilhaBanca": "Trocar representação e sistema eleitoral de cada Casa.",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 45 e 46: composição das Casas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "Deputados federais e senadores são ambos eleitos pelo sistema proporcional."
   },
   {
     "id": "orgaos-q-006",
@@ -93,15 +119,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "A competência para julgar originariamente mandados de segurança impetrados contra atos da Mesa da Câmara dos Deputados ou do Senado Federal pertence aos Tribunais Regionais Federais (TRFs).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme expressamente preceitua o art. 102, I, \"d\", da CF/88, compete ao STF, em competência originária indelegável, julgar mandados de segurança e habeas data contra atos do Presidente da República, das Mesas da Câmara dos Deputados e do Senado Federal, do TCU, do Procurador-Geral da República e do próprio STF. Os TRFs julgam mandados de segurança contra juízes federais e autoridades federais inferiores.",
+    "justificativa": "ERRADO. O art. 102, I, d atribui ao STF competência originária para mandado de segurança contra atos das Mesas da Câmara e do Senado. O fato de a autoridade atuar na esfera federal não desloca essa hipótese expressa aos TRFs.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "Compete originariamente ao Supremo Tribunal Federal (STF) processar e julgar mandados de segurança impetrados contra atos das Mesas da Câmara dos Deputados e do Senado Federal, nos termos do art. 102, inciso I, alínea \"d\", da Constituição Federal.",
-    "armadilhaBanca": "Atribuição errônea de competência jurisdicional aos TRFs para controlar atos da cúpula do Parlamento."
+    "versao_correta": "Compete originariamente ao STF julgar mandado de segurança contra atos das Mesas da Câmara dos Deputados e do Senado Federal.",
+    "armadilhaBanca": "Aplicar regra específica de competência em lugar de associação genérica com a esfera federal.",
+    "gatilho": "Tribunais Regionais Federais",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 102, I, d: mandado de segurança contra atos das Mesas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-007",
@@ -111,13 +141,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "Os Tribunais de Justiça dos Estados (TJs) exercem a chamada competência residual da jurisdição ordinária no Brasil, processando e julgando as demandas que não estejam constitucionalmente afetadas à Justiça Federal nem às justiças especializadas do Trabalho, Eleitoral ou Militar.",
     "gabarito": "C",
-    "justificativa": "CERTO. A competência da Justiça Estadual (art. 125 da CF/88) é residual ou remanescente. Todas as matérias e lides que a Constituição Federal não outorgou expressamente à competência da Justiça Federal (art. 108/109) nem às especializadas (Trabalho, Eleitoral e Militar) recaem sob a jurisdição da Justiça Comum dos Estados federados.",
+    "justificativa": "CERTO. A Justiça comum estadual aprecia, em regra, o que não foi atribuído a outra justiça. A caracterização residual não significa que todo processo relativo a direito federal vá à Justiça Federal: a competência depende também de partes e hipóteses constitucionais.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "competência residual",
+    "armadilhaBanca": "Distinguir matéria legislativa e competência jurisdicional.",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 109, 114, 121, 124 e 125: competências jurisdicionais — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "Toda demanda que aplique qualquer lei federal é necessariamente excluída da Justiça estadual."
   },
   {
     "id": "orgaos-q-008",
@@ -127,15 +163,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "A Constituição Federal de 1988 autoriza os municípios brasileiros a criarem seus próprios Tribunais de Contas municipais por meio de lei orgânica municipal aprovada por maioria absoluta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 31, § 4º da Carta de 1988 estatui: \"É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais\". As Cortes de Contas Municipais existentes em São Paulo e no Rio de Janeiro foram preservadas apenas pelo princípio do direito adquirido anterior, não sendo lícito a nenhum município instituir novo órgão de contas.",
+    "justificativa": "ERRADO. A Constituição proíbe criar tribunais, conselhos ou órgãos de contas municipais. Isso não extingue os tribunais municipais preexistentes nem se confunde com tribunal de contas dos municípios criado na estrutura estadual. Lei orgânica local não afasta a proibição.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "A Constituição Federal de 1988 veda terminantemente a criação de novos Tribunais, Conselhos ou órgãos de Contas municipais (art. 31, § 4º), mantendo unicamente os já existentes à época de sua promulgação (São Paulo e Rio de Janeiro).",
-    "armadilhaBanca": "Ignorar a vedação constitucional peremptória à criação de novos tribunais de contas de municípios."
+    "versao_correta": "A Constituição veda a criação de tribunais, conselhos ou órgãos de contas municipais.",
+    "armadilhaBanca": "Distinguir órgão municipal de órgão estadual de fiscalização dos municípios.",
+    "gatilho": "criarem",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 31, §4º: vedação à criação municipal — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-009",
@@ -143,15 +183,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-    "item": "As decisões do Tribunal de Contas da União (TCU) e dos Tribunais de Contas dos Estados (TCEs) de que resulte imputação de débito oumulta possuem eficácia de título executivo extrajudicial.",
+    "item": "As decisões do TCU e, por simetria constitucional, dos tribunais de contas estaduais de que resulte imputação de débito ou multa têm eficácia de título executivo extrajudicial.",
     "gabarito": "C",
-    "justificativa": "CERTO. Nos termos do art. 71, § 3º da Constituição Federal de 1988 (aplicável aos TCEs por simetria conforme art. 75), as decisões do Tribunal de que resulte imputação de débito oumulta terão eficácia de título executivo. Por serem emitidas por órgão administrativo/constitucional de controle, constituem títulos executivos extrajudiciais executáveis perante o Poder Judiciário.",
+    "justificativa": "CERTO. Decisão que imputa débito ou multa tem eficácia de título executivo. A regra não depende de transformar a decisão do tribunal de contas em sentença judicial; a cobrança judicial segue o regime próprio e o título continua sujeito ao controle cabível.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "título executivo extrajudicial",
+    "armadilhaBanca": "Separar formação administrativa do título e execução judicial.",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 71, §3º, e 75: eficácia executiva de decisões de contas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "A decisão de tribunal de contas que imputa débito ou multa só adquire eficácia executiva após nova sentença que constitua a dívida."
   },
   {
     "id": "orgaos-q-010",
@@ -161,15 +207,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
     "item": "O Tribunal de Justiça do Distrito Federal e dos Territórios (TJDFT) é órgão estadual mantido financeiramente com receitas tributárias próprias do Governo do Distrito Federal, sem qualquer vinculação orçamentária ou legislativa com a União.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Por força do art. 21, XIII, da CF/88, compete privativamente à União organizar e manter o Poder Judiciário, o Ministério Público e a Defensoria Pública do Distrito Federal e dos Territórios. Portanto, o TJDFT tem orçamento e magistratura custeados pelo Tesouro Nacional federal, e não pelo Tesouro Distrital.",
+    "justificativa": "ERRADO. Compete à União organizar e manter o Poder Judiciário do Distrito Federal e dos Territórios, além da competência legislativa constitucionalmente prevista. Localização no DF não equivale a manutenção exclusivamente por receitas distritais.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "O Tribunal de Justiça do Distrito Federal e dos Territórios (TJDFT) integra a estrutura do Poder Judiciário mantida e organizada privativamente pela União com recursos federais, nos termos do art. 21, inciso XIII, da Constituição Federal.",
-    "armadilhaBanca": "Equiparação do TJDFT a um tribunal de justiça estadual comum mantido por receita do ente subnacional."
+    "versao_correta": "Compete à União organizar e manter o Poder Judiciário do Distrito Federal e dos Territórios.",
+    "armadilhaBanca": "Confundir localização geográfica e responsabilidade federativa.",
+    "gatilho": "sem qualquer vinculação",
+    "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 21, XIII, e 22, XVII: Judiciário do DF e Territórios — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-011",
@@ -177,15 +227,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
-    "item": "Segundo as regras do AACR2r (Capítulo 24), órgãos que exercem funções básicas de governo, tais como os poderes legislativo, executivo e judiciário, devem ter seus pontos de acesso autorizados formulados como cabeçalhos subordinados ao nome da jurisdição territorial a que pertencem.",
+    "item": "No AACR2r, ministérios, órgãos legislativos e tribunais integram tipos de órgãos governamentais com entrada subordinada sob a jurisdição correspondente, observadas as regras específicas de formação do cabeçalho.",
     "gabarito": "C",
-    "justificativa": "CERTO. A regra 24.17 e especialmente os 11 tipos da regra 24.18 do AACR2r prescrevem que entidades governamentais que exerçam funções constitucionais básicas de soberania (órgãos executivos de cúpula, legislativos, cortes judiciais, forças armadas) entram subordinadas ao nome do governo/jurisdição territorial (ex.: \"Brasil. Congresso Nacional.\", \"Brasil. Supremo Tribunal Federal.\").",
+    "justificativa": "CERTO. Ministérios, órgãos legislativos e tribunais são tipos com entrada subordinada ao governo pertinente. Isso não implica subordinar toda entidade pública: universidades e empresas devem ser examinadas pelas regras e pelo nome, não apenas por sua natureza pública.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "sob a jurisdição",
+    "armadilhaBanca": "Aplicar os tipos previstos em vez de generalizar pela natureza pública.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipos 5, 6 e 7: órgãos governamentais. Texto ou obra no acervo HNC.",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "No AACR2r, todo órgão e toda universidade pública têm obrigatoriamente entrada subordinada ao nome do país, sem exceções."
   },
   {
     "id": "orgaos-q-012",
@@ -195,15 +251,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
     "item": "No código AACR2r, as instituições públicas de ensino superior e as empresas públicas estatais têm sua entrada principal subordinada à jurisdição territorial da União, adotando-se formas como \"Brasil. Universidade Federal de Santa Catarina.\" e \"Brasil. Petróleo Brasileiro.\".",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Pelo AACR2r, somente órgãos governamentais que exercem funções básicas de soberania (legislativa, executiva, judiciária ou militar) ou cuja denominação implique subordinação direta entram sob o nome da jurisdição. Universidades, institutos de pesquisa e sociedades de economia mista entram diretamente por sua denominação corporativa autônoma.",
+    "justificativa": "ERRADO. Ser instituição pública não basta para impor entrada pelo governo. Nomes distintivos de universidades e empresas podem ter entrada direta, conforme as regras. Não se acrescenta Brasil compulsoriamente à frente dos dois exemplos apenas porque são entidades federais.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "No AACR2r (Regras 24.1 e 24.17), universidades públicas, fundações e empresas estatais dotadas de personalidade jurídica própria e denominação distintiva recebem entrada principal direta pelo seu próprio nome: \"Universidade Federal de Santa Catarina.\" e \"Petróleo Brasileiro.\".",
-    "armadilhaBanca": "Subordinação indevida de entidades autárquicas e estatais com denominação própria ao cabeçalho da jurisdição federal."
+    "versao_correta": "No AACR2r, a natureza pública de uma universidade ou empresa não impõe, por si, entrada subordinada ao governo.",
+    "armadilhaBanca": "Transformar natureza jurídica em critério catalográfico universal.",
+    "gatilho": "têm sua entrada principal subordinada",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.17 e 24.18: entrada direta e tipos de entrada subordinada. Texto ou obra no acervo HNC.",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-013",
@@ -211,15 +271,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
-    "item": "Para catalogar uma publicação oficial de autoria da Câmara dos Deputados pelo AACR2r, o cabeçalho autorizado correto que reflete a hierarquia legislativa federal é \"Brasil. Congresso Nacional. Câmara dos Deputados.\".",
+    "item": "Pela regra 24.21A do AACR2r, o cabeçalho da Câmara dos Deputados integra a forma \"Brasil. Congresso Nacional. Câmara dos Deputados\", por se tratar de uma câmara do legislativo bicameral.",
     "gabarito": "C",
-    "justificativa": "CERTO. Pelo AACR2r (Regra 24.18, Tipo 5 e Tipo 11), a Câmara dos Deputados é um órgão legislativo subordinado à cúpula do Poder Legislativo federal (o Congresso Nacional). A entrada correta sob a jurisdição é \"Brasil. Congresso Nacional. Câmara dos Deputados.\"",
+    "justificativa": "CERTO. Em legislativo bicameral, a regra faz cada câmara subordinada ao cabeçalho do órgão legislativo. A forma inclui Brasil, Congresso Nacional e Câmara dos Deputados. Uma publicação oficial só recebe entrada principal pela entidade quando também satisfaz as condições de autoria coletiva aplicáveis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "Congresso Nacional. Câmara dos Deputados",
+    "armadilhaBanca": "Aplicar a regra específica de legislativo bicameral.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.21A: órgão legislativo com mais de uma câmara. Texto ou obra no acervo HNC.",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "No AACR2r, uma câmara de legislativo bicameral deve sempre omitir o nome do órgão legislativo no cabeçalho."
   },
   {
     "id": "orgaos-q-014",
@@ -229,15 +295,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
     "item": "Na catalogação de um Tribunal de Justiça estadual de acordo com o AACR2r, a entrada autorizada prescinde de qualquer qualificativo geográfico adicional, devendo ser estabelecida na forma direta \"Tribunal de Justiça do Estado de São Paulo.\".",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Órgãos judiciais têm entrada compulsoriamente subordinada à jurisdição de que emana seu poder (AACR2r 24.18, Tipo 6). No caso de estados homônimos a capitais (como São Paulo e Rio de Janeiro), acrescenta-se o qualificador \"(Estado)\" para distinguir da respectiva jurisdição municipal (\"São Paulo (SP)\"). A entrada direta \"Tribunal de Justiça...\" está incorreta.",
+    "justificativa": "ERRADO. A entrada de tribunal segue a jurisdição cuja autoridade exerce e o nome do órgão. O nome geográfico no título não autoriza ignorar essa estrutura. Qualificadores são acrescentados quando necessários à identificação, sem confundir sede, área atendida e jurisdição governamental.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "Na catalogação de tribunais de justiça estaduais de acordo com o AACR2r (Regra 24.18, Tipo 6), a entrada autorizada é subordinada à jurisdição política do estado com termo qualificativo distintivo: \"São Paulo (Estado). Tribunal de Justiça.\".",
-    "armadilhaBanca": "Desconsideração da regra de subordinação judicial à jurisdição e do uso de qualificativo de homonímia."
+    "versao_correta": "O cabeçalho de um tribunal deve observar a jurisdição cuja autoridade exerce e as regras específicas de identificação do órgão.",
+    "armadilhaBanca": "Confundir presença de lugar no nome e forma de entrada pela jurisdição.",
+    "gatilho": "forma direta",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 7, e 24.23: tribunais. Texto ou obra no acervo HNC.",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-015",
@@ -247,13 +317,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
     "item": "A regra 24.19 do AACR2r estabelece o princípio da subordinação direta com omissão de elementos intermediários, o que implica que uma repartição pública subordinada a um ministério deve, em regra, ser registrada diretamente sob o nome da jurisdição, dispensando-se o nome do ministério quando a identificação da repartição não depender dele.",
     "gabarito": "C",
-    "justificativa": "CERTO. A regra AACR2 24.19 preceitua expressamente que se devem omitir os órgãos intermediários da cadeia hierárquica, a menos que o nome da unidade subordinada seja tão genérico que necessite do órgão superior para ser identificado ou para evitar homônimos.",
+    "justificativa": "CERTO. A regra manda entrar diretamente sob o governo, em princípio, omitindo intermediários. Se outra entidade sob o mesmo governo usar ou puder usar o mesmo nome, interpõe-se o elemento hierárquico necessário para distinguir. Omissão é economia controlada, não exclusão absoluta de ministérios.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "não depender dele",
+    "armadilhaBanca": "Distinguir regra geral de omissão e exceção de desambiguação.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.19A: subcabeçalho direto ou indireto. Texto ou obra no acervo HNC.",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "O AACR2r proíbe incluir qualquer elemento intermediário no cabeçalho, mesmo se necessário para distinguir órgãos homônimos."
   },
   {
     "id": "orgaos-q-016",
@@ -263,15 +339,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
     "item": "No formato MARC 21 Bibliográfico, o primeiro indicador com valor \"1\" no campo 110 é atribuído quando a entidade coletiva for cadastrada em ordem direta, reservando-se o indicador \"2\" para as entradas subordinadas a jurisdição governamental.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Os valores dos indicadores estão invertidos na assertiva: no campo 110, indicador 1 = Nome sob jurisdição (ex: 110 1# $a Brasil. $b Ministério da Saúde); indicador 2 = Nome em ordem direta (ex: 110 2# $a Fundação Getulio Vargas).",
+    "justificativa": "ERRADO. O primeiro indicador 1 identifica nome de jurisdição e 2, nome em ordem direta. O item inverte os significados; os números não representam nível da hierarquia administrativa. O segundo indicador do 110 é indefinido.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "No Formato MARC 21 Bibliográfico, o primeiro indicador do campo 110/710 com valor \"1\" indica \"Nome sob jurisdição\" (governo/jurisdição), enquanto o indicador \"2\" define \"Nome em ordem direta\" (entidades autônomas).",
-    "armadilhaBanca": "Inversão simétrica dos indicadores 1 e 2 no campo 110/710 do MARC 21."
+    "versao_correta": "No campo 110, o primeiro indicador 1 corresponde a nome de jurisdição e 2 a nome em ordem direta.",
+    "armadilhaBanca": "Inverter códigos de indicador e confundir com nível hierárquico.",
+    "gatilho": "indicador",
+    "fonte": "Library of Congress — MARC 21 formats — MARC 21 bibliográfico, 110: primeiro indicador — https://www.loc.gov/marc/",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-017",
@@ -281,13 +361,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
     "item": "No campo 110 do formato MARC 21, o subcampo $a destina-se a armazenar o nome da jurisdição geográfica ou da entidade principal, enquanto o subcampo $b é repetível e acolhe as unidades e órgãos subordinados na hierarquia institucional.",
     "gabarito": "C",
-    "justificativa": "CERTO. No MARC 21 (campos 110 e 710), $a armazena o cabeçalho principal (seja a jurisdição geográfica como \"Brasil.\" ou o nome institucional direto) e o subcampo $b armazena as subdivisões subordinadas repetíveis (ex.: $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados.).",
+    "justificativa": "CERTO. No 110, $a registra o nome da entidade ou jurisdição usado como elemento de entrada, enquanto $b representa unidade subordinada e pode repetir-se. Repetibilidade permite representar mais de um nível; isso não exige reproduzir todos os níveis do organograma.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "repetível",
+    "armadilhaBanca": "Distinguir função e repetibilidade de subcampos.",
+    "fonte": "Library of Congress — MARC 21 formats — MARC 21 bibliográfico, 110: $a e $b — https://www.loc.gov/marc/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "No 110, $b não pode repetir-se e só admite o nome da jurisdição principal."
   },
   {
     "id": "orgaos-q-018",
@@ -297,15 +383,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
     "item": "Segundo as orientações do padrão RDA, a formulação de pontos de acesso autorizados para órgãos públicos extinguiu a combinação de jurisdição política com nomes de ministérios e secretarias.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O RDA não extinguiu a formulação de pontos de acesso sob a jurisdição territorial para órgãos públicos. Ele padronizou a regra sob o conceito de \"Agente Corporativo Governamental\", mantendo a estrutura hierárquica \"Jurisdição. Órgão subordinado\" para órgãos da administração direta.",
+    "justificativa": "ERRADO. A adoção de RDA não extinguiu os pontos de acesso subordinados de entidades governamentais. A documentação da reorganização da edição original mantém instruções de entidades subordinadas, inclusive governamentais. Não se deve transportar numeração histórica sem indicar a edição ou afirmar que toda entrada passou a ser direta.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "As diretrizes do RDA preservam a prática de utilizar a jurisdição política como ponto de acesso autorizado superior para agentes governamentais que exercem competências essenciais de Estado (ministérios, secretarias, forças armadas e cortes judiciais).",
-    "armadilhaBanca": "Supor abolição da entrada subordinada à jurisdição política na transição para o RDA."
+    "versao_correta": "RDA mantém orientações para entidades subordinadas, incluindo órgãos governamentais, conforme a edição e as instruções aplicáveis.",
+    "armadilhaBanca": "Deduzir ruptura absoluta a partir da mudança de código.",
+    "gatilho": "extinguiu",
+    "fonte": "Library of Congress — Summary of RDA Updates, July 2013 — 11.2.2.14–15 da edição original: reorganização de órgãos subordinados — https://www.loc.gov/aba/rda/pdf/summary_rda_changes_2013.pdf",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-019",
@@ -313,15 +403,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
-    "item": "No caso de órgãos com funções judiciais (Tipo 6 da regra 24.18 do AACR2r), como o Tribunal Superior do Trabalho ou o Tribunal Regional Eleitoral da Bahia, a entrada é feita sob a jurisdição territorial correspondente (\"Brasil.\" e \"Bahia.\", respectivamente), omitindo-se qualquer menção ao Ministério da Justiça no ponto de acesso.",
-    "gabarito": "C",
-    "justificativa": "CERTO. Tribunais constituem o Poder Judiciário independente, não tendo nenhuma subordinação administrativa ao Ministério da Justiça (órgão do Executivo). Pelo Tipo 6 do AACR2 24.18, a entrada é diretamente sob a jurisdição territorial (\"Brasil. Tribunal Superior do Trabalho.\" e \"Bahia. Tribunal Regional Eleitoral.\").",
+    "item": "Na enumeração da regra 24.18A do AACR2r, os tribunais pertencem ao Tipo 6, reservado aos órgãos com funções judiciais.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. Na enumeração consultada, o tipo 6 trata de órgãos legislativos e o tipo 7 de tribunais. O cabeçalho de tribunal considera a jurisdição cuja autoridade exerce, não se deduz automaticamente da unidade federativa da sede. A adaptação concentra o julgamento na classificação expressa da regra.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "Tipo 6",
+    "armadilhaBanca": "Trocar a categoria numerada de uma regra catalográfica.",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipos 6 e 7, e 24.23: tribunais. Texto ou obra no acervo HNC.",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "No AACR2r 24.18A, tribunais pertencem ao tipo 7; órgãos legislativos pertencem ao tipo 6.",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-020",
@@ -331,15 +427,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.",
     "item": "A regra 24.18 (Tipo 8) do AACR2r preceitua que publicações oficiais que contenham manifestações privativas de Chefes de Estado ou de governo devem ter como cabeçalho autorizado o nome pessoal civil do titular sem indicação do cargo ou da jurisdição territorial.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Quando o chefe de Estado ou de governo se manifesta oficialmente em exercício das prerrogativas constitucionais do cargo, o ponto de acesso autorizado é corporativo governamental, estruturado como \"Jurisdição. Título do Cargo (período : nome pessoal)\", e não como simples entrada de pessoa física civil.",
+    "justificativa": "ERRADO. A regra distingue manifestações no exercício oficial e obras pessoais. No exercício oficial, aplicam-se cabeçalho de jurisdição e cargo, com complementos conforme o caso. Além disso, chefes de Estado e governo estão no tipo 9; o tipo 8 trata das forças armadas.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "A regra 24.18 (Tipo 8) do AACR2r determina que pronunciamentos oficiais de Chefes de Estado no exercício funcional recebam cabeçalho oficial sob o nome da jurisdição seguido do título do cargo e dados cronológicos: \"Brasil. Presidente (2023- : Lula).\".",
-    "armadilhaBanca": "Confusão entre responsabilidade pessoal civil e cabeçalho corporativo oficial de chefe de Estado no AACR2r."
+    "versao_correta": "Manifestações de autoridade no exercício oficial devem observar as regras de jurisdição e cargo do AACR2r, distinguindo-se de obras pessoais.",
+    "armadilhaBanca": "Confundir pessoa e cargo e trocar o número do tipo normativo.",
+    "gatilho": "sem indicação do cargo",
+    "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 9, e 24.20B–C: autoridades governamentais. Texto ou obra no acervo HNC.",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-021",
@@ -349,18 +449,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
     "item": "A Biblioteca da Câmara dos Deputados tem antecedentes na Assembleia Constituinte de 1823, foi efetivamente criada em 1866 e passou a denominar-se Biblioteca Pedro Aleixo pela Resolução da Câmara dos Deputados nº 104/1984.",
     "gabarito": "C",
-    "justificativa": "CERTO. O histórico oficial distingue os antecedentes de 1823, quando foram solicitados livros para a Assembleia Constituinte, da criação efetiva da Biblioteca em 1866. A denominação Biblioteca Pedro Aleixo decorre da Resolução da Câmara dos Deputados nº 104/1984. A instalação da legislatura de 1826 não é a data de criação efetiva da Biblioteca, e a referência à Resolução da Mesa nº 25/1984 é incorreta.",
-    "gatilho": "tem antecedentes na Assembleia Constituinte de 1823, foi efetivamente criada em 1866",
-    "versao_errada": "A Biblioteca da Câmara dos Deputados foi efetivamente criada em 1826 e recebeu a denominação Biblioteca Pedro Aleixo pela Resolução da Mesa nº 25/1984.",
-    "armadilhaBanca": "Técnica: Confusão entre marcos históricos. Diferencie os antecedentes da biblioteca, sua criação efetiva e o ato que lhe deu o nome atual; a história da Câmara não fornece automaticamente as datas da Biblioteca.",
-    "fonte": "Câmara dos Deputados — Histórico da Biblioteca: https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca/bibhist.html (antecedentes, criação e denominação).",
-    "dataConferencia": "2026-10-30",
+    "justificativa": "CERTO. O histórico institucional distingue os antecedentes de 1823 da criação efetiva em 1866. A denominação Pedro Aleixo veio pela Resolução 104/1984. Essas datas designam eventos distintos: a origem não prova criação formal em 1823, e a homenagem de 1984 não inaugura a biblioteca.",
+    "gatilho": "criada em 1866",
+    "versao_errada": "A biblioteca foi criada efetivamente em 1984, sem antecedentes no século XIX.",
+    "armadilhaBanca": "Trocar origem, criação efetiva e mudança de denominação.",
+    "fonte": "Câmara dos Deputados — Histórico da Biblioteca — seções de origem, criação efetiva e denominação — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca/bibhist.html",
+    "dataConferencia": "2026-10-31",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "versao_correta": ""
   },
   {
     "id": "orgaos-q-022",
@@ -368,17 +469,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "Na estrutura administrativa da Câmara dos Deputados, a Biblioteca Pedro Aleixo é subordinada diretamente ao Gabinete do Presidente da Câmara dos Deputados, não possuindo vinculação orgânica com a Diretoria-Geral da Casa.",
+    "item": "A Biblioteca Pedro Aleixo funciona como unidade diretamente subordinada ao Gabinete do Presidente, sem integração à Coordenação de Biblioteca e ao Cedi.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo não se subordina ao Gabinete do Presidente da Câmara, mas sim ao Centro de Documentação e Informação (CEDI), que por sua vez compõe a estrutura executiva técnico-administrativa gerida pela Diretoria-Geral da Câmara dos Deputados.",
+    "justificativa": "ERRADO. A identificação institucional vincula a biblioteca à estrutura documental da Casa, com Coordenação de Biblioteca e Cedi. Atribuir subordinação direta e exclusiva ao gabinete presidencial ignora essa estrutura. Não se deve inferir a cadeia administrativa completa apenas pela autoridade que dirige politicamente a Casa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "Na estrutura organizacional da Câmara dos Deputados, a Coordenação de Biblioteca (Biblioteca Pedro Aleixo) subordina-se administrativamente ao Centro de Documentação e Informação (CEDI), vinculado à Diretoria-Geral (DG) da Casa.",
-    "armadilhaBanca": "Atribuição de subordinação política ao Gabinete da Presidência a um órgão eminentemente técnico e de documentação permanente."
+    "versao_correta": "A Biblioteca Pedro Aleixo integra a estrutura de serviços documentais da Câmara, identificada institucionalmente com a Coordenação de Biblioteca e o Cedi.",
+    "armadilhaBanca": "Confundir direção política da Casa e vinculação administrativa da unidade.",
+    "gatilho": "Gabinete do Presidente",
+    "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — estrutura e identificação da Coordenação de Biblioteca no Cedi — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-023",
@@ -386,15 +491,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "Como biblioteca parlamentar especializada, a Biblioteca Pedro Aleixo tem como público prioritário os deputados federais, as comissões parlamentares e os consultores das Consultorias Legislativa (Conle) e de Orçamento e Fiscalização Financeira (Conof), aos quais presta suporte de pesquisa doutrinária, legislativa e temática.",
+    "item": "Como biblioteca parlamentar, a Biblioteca Pedro Aleixo apoia necessidades informacionais da atividade legislativa, incluindo deputados, comissões e equipes de assessoramento, sem excluir os serviços e formas de acesso oferecidos à sociedade.",
     "gabarito": "C",
-    "justificativa": "CERTO. A missão primordial de uma biblioteca parlamentar é dar sustentáculo técnico e informacional de ponta à atividade-fim do Poder Legislativo. Na Câmara, os parlamentares, suas assessorias, comissões técnicas e os corpos consultivos de carreira (Conle e Conof) constituem o núcleo prioritário de usuários atendidos.",
+    "justificativa": "CERTO. A missão parlamentar justifica serviços voltados às necessidades de deputados, comissões e equipes de assessoramento. Prioridade de missão não significa exclusividade absoluta de público: há serviços e formas de acesso destinados à sociedade, sujeitos às condições institucionais.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "sem excluir",
+    "armadilhaBanca": "Distinguir público prioritário e público exclusivo.",
+    "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — biblioteca parlamentar: apoio à atividade legislativa e serviços — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "A prioridade de atendimento parlamentar proíbe qualquer serviço da biblioteca à sociedade."
   },
   {
     "id": "orgaos-q-024",
@@ -404,15 +515,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
     "item": "A Biblioteca Digital da Câmara dos Deputados (BDCam) opera como intranet restrita a parlamentares e consultores legislativos, impondo barreira de autenticação institucional para consulta aos estudos técnicos e pareceres.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A BDCam funciona sob a premissa republicana do Acesso Aberto (Open Access). Qualquer cidadão pode consultar, ler e baixar livremente os estudos da Consultoria Legislativa e Consultoria de Orçamento, documentos históricos e obras raras digitalizadas, sem necessidade de senha ou restrição corporativa.",
+    "justificativa": "ERRADO. O portal disponibiliza consulta pública a coleções digitais. Eventuais restrições de objetos, direitos ou operações administrativas não o convertem em intranet exclusiva de servidores. Deve-se distinguir acesso ao material público de permissão para depositar ou administrar documentos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "A Biblioteca Digital da Câmara dos Deputados (BDCam) é um repositório institucional digital de livre acesso público na internet, proporcionando ampla difusão de estudos técnicos, pareceres e obras institucionais a toda a cidadania.",
-    "armadilhaBanca": "Redução de repositório institucional de acesso público aberto a um ambiente de intranet restrita fechada."
+    "versao_correta": "A Biblioteca Digital da Câmara oferece consulta pública a suas coleções abertas, sem exigir conta institucional para toda leitura.",
+    "armadilhaBanca": "Generalizar controle de administração para consulta pública.",
+    "gatilho": "intranet restrita",
+    "fonte": "Câmara dos Deputados — Biblioteca Digital — acesso público ao portal e às coleções — https://bd.camara.leg.br/",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-025",
@@ -420,15 +535,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "A Biblioteca Digital da Câmara dos Deputados (BDCam) utiliza a plataforma de software livre DSpace, adota o padrão de metadados Dublin Core e implementa o protocolo OAI-PMH para permitir a coleta automatizada e interoperabilidade de seus dados com outros repositórios digitais.",
+    "item": "Na Biblioteca Digital da Câmara, DSpace, metadados Dublin Core e OAI-PMH correspondem a camadas diferentes; a colheita de metadados não se confunde com autorização para republicar integralmente todas as obras.",
     "gabarito": "C",
-    "justificativa": "CERTO. A BDCam foi construída e é mantida sobre o software livre DSpace, utilizando o padrão Dublin Core qualificado para descrição de metadados e o protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) para disseminação interoperável de seu patrimônio digital.",
+    "justificativa": "CERTO. DSpace é o software de repositório, Dublin Core é um vocabulário de metadados e OAI-PMH serve à colheita. São camadas distintas; não se deve chamar o protocolo de formato de texto integral. Colheita também não concede automaticamente permissão para republicar todas as obras.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "não se confunde",
+    "armadilhaBanca": "Distinguir software, vocabulário de metadados e protocolo.",
+    "fonte": "Câmara dos Deputados — Biblioteca Digital — plataforma, metadados e serviço de interoperabilidade — https://bd.camara.leg.br/",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "OAI-PMH é o formato de texto integral que substitui os metadados Dublin Core na Biblioteca Digital."
   },
   {
     "id": "orgaos-q-026",
@@ -438,15 +559,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
     "item": "A coordenação executiva e tecnológica da Rede Virtual de Bibliotecas (RVBI) é exercida pela Diretoria-Geral da Câmara dos Deputados, incumbindo ao Senado Federal a adesão como membro participante secundário.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Embora a RVBI seja uma rede cooperativa que congrega bibliotecas do Congresso Nacional, do Poder Executivo, Judiciário e órgãos federais, o órgão coordenador e gestor do sistema automatizado compartilhado é o Senado Federal.",
+    "justificativa": "ERRADO. A RVBI é rede cooperativa coordenada pela Biblioteca do Senado Federal. A Câmara integra a cooperação, o que não a torna automaticamente coordenadora. Compartilhar catálogo e padrões não elimina responsabilidades locais de cada biblioteca.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "A coordenação geral e tecnológica da Rede Virtual de Bibliotecas (RVBI) é exercida pela Secretaria de Biblioteca e Arquivo do Senado Federal, atuando a Câmara dos Deputados e demais órgãos como membros cooperantes do consórcio.",
-    "armadilhaBanca": "Inversão da entidade coordenadora da RVBI entre a Câmara dos Deputados e o Senado Federal."
+    "versao_correta": "A Biblioteca do Senado Federal coordena a RVBI, da qual participam bibliotecas de diferentes órgãos.",
+    "armadilhaBanca": "Trocar coordenação da rede e participação cooperativa.",
+    "gatilho": "Diretoria-Geral da Câmara",
+    "fonte": "Senado Federal — A RVBI — coordenação da rede pela Biblioteca do Senado — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-027",
@@ -456,13 +581,19 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
     "item": "Na Rede Virtual de Bibliotecas (RVBI), a indexação e a recuperação temática de documentos doutrinários e legislativos utilizam como instrumento de controle terminológico padronizado o Vocabulário Controlado Básico (VCB).",
     "gabarito": "C",
-    "justificativa": "CERTO. O VCB (Vocabulário Controlado Básico) é a linguagem documental e tesauro cooperativo utilizado pelas bibliotecas consorciadas à RVBI para a indexação unificada de monografias, artigos e normas jurídicas, assegurando consistência na recuperação da informação em toda a rede.",
+    "justificativa": "CERTO. O VCB fornece termos autorizados e relações para representar assuntos na cooperação da rede. Não é tabela de localização física nem substitui todos os demais padrões catalográficos. A padronização contribui para reunir variantes e recuperar conteúdos, mas exige aplicação consistente.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "Vocabulário Controlado Básico",
+    "armadilhaBanca": "Distinguir vocabulário de assunto e notação de localização.",
+    "fonte": "Senado Federal — Descrição bibliográfica: diretrizes para a RVBI, arquivo de 06/09/2025 — 650: utilização de descritores autorizados no VCB — https://www2.senado.leg.br/bdsf/bitstream/handle/id/231030/Descricao_bibliografica_RVBI_2025-09-06.pdf?isAllowed=y&sequence=33",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "O VCB é apenas uma tabela de números de estante e não controla a representação temática na RVBI."
   },
   {
     "id": "orgaos-q-028",
@@ -470,17 +601,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "O selo editorial Edições Câmara integra a Coordenação de Biblioteca (Cobib) da Câmara dos Deputados, sendo tecnicamente proibido de publicar obras literárias, históricas ou culturais, devendo restringir seu catálogo a textos literais de leis sancionadas.",
+    "item": "O selo Edições Câmara limita obrigatoriamente seu catálogo à reprodução literal de leis sancionadas, sendo proibida a publicação de obras históricas e culturais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O selo Edições Câmara possui catálogo qualificado e diversificado de obras intelectuais, publicando coleções consagradas em história do Brasil, ciência política, sociologia, literatura clássica e pensamento nacional, não se limitando à reprodução de atos normativos em texto frio.",
+    "justificativa": "ERRADO. O catálogo institucional inclui produção histórica, cultural e de outros temas, além da legislação. A função editorial não se restringe à reprodução literal de leis. O item foi concentrado no escopo de publicação, sem deduzir a cadeia administrativa pela semelhança de nomes.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "O selo editorial Edições Câmara integra o Centro de Documentação e Informação (CEDI) e possui a missão de editar obras cívicas, históricas, literárias, doutrinárias e de memória parlamentar brasileira, muito além da mera publicação de textos de leis.",
-    "armadilhaBanca": "Redução burocrática indevida do escopo editorial cultural e memorialista do Parlamento."
+    "versao_correta": "O catálogo Edições Câmara pode incluir obras históricas e culturais, além de publicações legislativas.",
+    "armadilhaBanca": "Confundir especialização institucional com exclusividade de gênero editorial.",
+    "gatilho": "limita obrigatoriamente",
+    "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — serviços editoriais e catálogo de publicações da Câmara — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   },
   {
     "id": "orgaos-q-029",
@@ -488,15 +623,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "O Sistema de Informações Legislativas (SILEG) constitui a base estruturante na Câmara dos Deputados que viabiliza o acompanhamento e o controle informacional de projetos de lei, emendas, pareceres técnicos e da tramitação legislativa de proposições.",
+    "item": "O Sileg-Tramitação permite cadastrar proposições e acompanhar seu ciclo de tramitação na Câmara dos Deputados, incluindo comissões e eventual encaminhamento ao Plenário.",
     "gabarito": "C",
-    "justificativa": "CERTO. O SILEG é o sistema corporativo da Câmara dos Deputados responsável pelo registro, catalogação da tramitação e controle das proposições legislativas e normas jurídicas, integrando-se aos serviços de documentação e informação legislativa.",
+    "justificativa": "CERTO. O sistema registra proposições e acompanha etapas desde apresentação até arquivamento ou transformação em lei, incluindo comissões e Plenário quando cabível. Não se confunde com catálogo bibliográfico nem implica que toda proposição necessariamente passe pelo Plenário ou vire lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
-    }
+    },
+    "gatilho": "Sileg-Tramitação",
+    "armadilhaBanca": "Separar acompanhamento legislativo e descrição de acervo.",
+    "fonte": "Câmara dos Deputados — Sileg-Tramitação — cadastro e acompanhamento do ciclo de vida de proposições — https://www.camara.leg.br/internet/servicos-tic/atv-parlamentar-ficha-sileg.htm",
+    "dataConferencia": "2026-10-31",
+    "versao_correta": "",
+    "versao_errada": "O Sileg-Tramitação é um catálogo de livros e não acompanha a tramitação de proposições."
   },
   {
     "id": "orgaos-q-030",
@@ -504,17 +645,21 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     "macroModuloId": "m2-5",
     "submoduloId": "2.5",
     "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
-    "item": "A Biblioteca da Câmara dos Deputados transferiu a custódia permanente de seus manuscritos e livros raros dos séculos XVI a XIX ao Arquivo Nacional, restringindo o acervo da Biblioteca Pedro Aleixo às publicações editadas após a promulgação da Constituição de 1988.",
+    "item": "A Biblioteca Pedro Aleixo mantém apenas obras posteriores à Constituição de 1988, pois transferiu integralmente seus livros raros históricos ao Arquivo Nacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Seção de Obras Raras da Biblioteca da Câmara dos Deputados conserva fisicamente em suas instalações acervos documentais e bibliográficos raros desde os primórdios da história constitucional e parlamentar brasileira, não tendo transferido tais acervos ao Arquivo Nacional.",
+    "justificativa": "ERRADO. A instituição mantém coleção de obras raras e fontes históricas. O recorte exclusivo após 1988 contradiz a existência e a missão desse acervo. A preservação pode exigir condições de acesso próprias, sem implicar transferência de toda a custódia ao Arquivo Nacional.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
       "verificado": false
     },
-    "versao_correta": "A Biblioteca Pedro Aleixo da Câmara dos Deputados mantém sob sua custódia e guarda permanente um valioso acervo de obras raras, incunábulos, manuscritos e documentos parlamentares que remontam ao período imperial brasileiro.",
-    "armadilhaBanca": "Falsa afirmação de descarte ou transferência de custódia de obras raras do acervo parlamentar."
+    "versao_correta": "A Biblioteca Pedro Aleixo mantém coleções de obras raras e históricas, sujeitas às condições de preservação e acesso aplicáveis.",
+    "armadilhaBanca": "Transformar marco constitucional em corte inexistente de coleção.",
+    "gatilho": "apenas obras posteriores",
+    "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — coleções e acesso a obras raras — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+    "dataConferencia": "2026-10-31",
+    "versao_errada": ""
   }
 ];
 

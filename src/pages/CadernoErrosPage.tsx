@@ -1,3 +1,4 @@
+import { EnunciadoQuestao } from '../components/common/EnunciadoQuestao';
 import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
 import React, { useState, useMemo } from 'react';
 import {
@@ -137,9 +138,10 @@ export const CadernoErrosPage: React.FC = () => {
         </h1>
 
         <p className="font-serif-reading text-base text-theme-ink-2 leading-relaxed m-0">
-          O erro é o diagnóstico mais preciso para a aprovação. Todos os itens de micro-checkpoints e do Simulado 100Q respondidos incorretamente são catalogados aqui para que você re-treine a assertiva, compreenda a armadilha da banca e consolide a doutrina.
+          Revise seus erros, identifique o trecho decisivo e pratique novamente com a explicação. Respostas de simulados só entram neste treino quando correspondem à versão atual da questão.
         </p>
 
+        {historicoSimulados.some(s => Object.values(s.respostas).some(r => !r.versaoQuestao)) && <p role="note" className="text-sm text-ink-2 rounded-xl border border-border p-3">As notas e respostas antigas continuam no histórico. Itens sem versão registrada não são comparados aos novos enunciados e gabaritos; faça uma nova tentativa para atualizar seu diagnóstico.</p>}
         {/* Métricas do Caderno */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-2">
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
@@ -367,7 +369,7 @@ export const CadernoErrosPage: React.FC = () => {
                         Efeito da Hipercorreção (Butterfield &amp; Metcalfe, 2001):
                       </span>
                       <p className="m-0 leading-relaxed">
-                        Este erro foi cometido com alta certeza. Equívocos conceituais sustentados com convicção geram a maior retenção duradoura quando corrigidos imediatamente com justificativa factual (prioridade máxima e peso 2.0x).
+                        Este erro foi cometido com alta certeza. Erros cometidos com alta confiança merecem atenção. A plataforma os prioriza para revisão com explicação; essa prioridade é uma escolha de organização do estudo, não uma garantia individual de retenção.
                       </p>
                     </div>
                   </div>
@@ -375,9 +377,7 @@ export const CadernoErrosPage: React.FC = () => {
 
                 {/* Assertiva */}
                 <div className="p-4 rounded-lg bg-surface-2 border border-border/80">
-                  <p className="font-serif-reading text-base text-ink leading-relaxed m-0 select-text">
-                    {item.assertiva}
-                  </p>
+                  <EnunciadoQuestao item={item.assertiva} contexto={item.contexto} macroModuloId={item.macroModuloId} />
                 </div>
 
                 {/* Área de Re-tentativa / Treino de Recuperação */}
@@ -453,7 +453,7 @@ export const CadernoErrosPage: React.FC = () => {
 
                   <PainelEstudoReverso questao={{ id: item.id, item: item.assertiva, gabarito: item.gabarito,
                     justificativa: item.justificativa, versao_correta: item.versao_correta, armadilhaBanca: item.armadilhaBanca,
-                    submoduloId: item.submoduloNumero }} resposta={tentativas[item.id] || item.respostaUsuario} autoexplicacao={false} />
+                    submoduloId: item.submoduloNumero, versao_errada: item.versao_errada, gatilho: item.gatilho, fonte: item.fonte, dataConferencia: item.dataConferencia }} resposta={tentativas[item.id] || item.respostaUsuario} autoexplicacao={false} />
                   {tentativas[item.id] && <button type="button" className="min-h-[44px] px-4 border border-border rounded-xl" onClick={() => setItensEmCorrecao(prev => { const next = { ...prev }; delete next[item.id]; return next; })}>Concluir revisão deste item</button>}
                   {/* Ação Socrática: Discutir com a Banca Cebraspe (IA) */}
                   <div className="pt-2">

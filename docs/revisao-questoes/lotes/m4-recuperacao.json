@@ -1,0 +1,2662 @@
+[
+  {
+    "id": "m4-q-1",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "verbete disseminação seletiva da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "b04c244b47a79c59dd4b589f74a8e790cdbec124a6b0014168c3049e172a7594",
+    "shaDepois": "e3b678f0eb7e6320d96c9e11738c024a66749f47ca67aa8272505895013a8cb0",
+    "patch": {
+      "justificativa": "ERRADO. A DSI cruza interesses previamente identificados com novidades pertinentes e comunica resultados ao usuário. O perfil precisa ser mantido e avaliado, mas não se exige um novo pedido presencial para cada alerta. O serviço pode usar ferramentas automáticas sem se reduzir a elas.",
+      "gatilho": "estritamente reativo",
+      "armadilhaBanca": "Distinguir cadastro inicial do perfil e solicitação de cada resposta.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbete disseminação seletiva da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A DSI é um serviço de acompanhamento de novidades conforme perfis de interesse, sem depender de novo pedido a cada envio.",
+      "item": "A Disseminação Seletiva da Informação (DSI) é um serviço estritamente reativo, no qual a biblioteca só fornece informações aos pesquisadores mediante preenchimento prévio e presencial de formulário a cada consulta.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-2",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "entrevista de referência e negociação da questão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "d7606ca2633f82d9c867a0cfbed890267fcaee3b13fd3565433c837c9832aa47",
+    "shaDepois": "c0ceab919075ca97d3b0cdb7b2348943acc9a42d5d75fd9e6c678107e9fd4461",
+    "patch": {
+      "justificativa": "ERRADO. Perguntas abertas ajudam a compreender o propósito e o contexto; perguntas fechadas podem confirmar limites, como período e idioma. Não existe uma proibição de perguntas fechadas no início, mas priorizá-las mecanicamente para abreviar a conversa pode ocultar a necessidade real.",
+      "gatilho": "perguntas fechadas de resposta binária",
+      "armadilhaBanca": "Evitar transformar uma técnica de confirmação em roteiro rígido de toda a entrevista.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — entrevista de referência e negociação da questão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A entrevista deve combinar perguntas abertas e fechadas conforme a necessidade de explorar e confirmar o pedido.",
+      "item": "Na condução da entrevista de referência em bibliotecas especializadas, o bibliotecário deve priorizar perguntas fechadas de resposta binária (sim/não) desde o primeiro contato, a fim de acelerar o atendimento e reduzir o tempo de interação.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-3",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "verbete literatura cinzenta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.2 segundo o assunto efetivo.",
+    "shaAntes": "9892c12c8d09a5cbce524087f6ae271055da1e12b95e121811a7e8d3795fdfd8",
+    "shaDepois": "2e75653819fe10bd1c2c12cba95a76c8652962622e141dc0632bbaff70595334",
+    "patch": {
+      "item": "A literatura cinzenta pode incluir relatos originais de pesquisa e favorecer a difusão rápida de resultados fora dos circuitos editoriais comerciais convencionais.",
+      "justificativa": "CERTO. Relatórios técnicos, teses e outros documentos fora dos circuitos comerciais convencionais podem comunicar resultados originais rapidamente. Literatura cinzenta designa condições de produção e circulação; nem todo documento dessa categoria é necessariamente primário, confidencial ou de acesso aberto.",
+      "gatilho": "favorecer a difusão rápida",
+      "armadilhaBanca": "Não confundir forma de circulação, função informacional e regime de acesso.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbete literatura cinzenta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo documento de literatura cinzenta é necessariamente uma fonte primária e de livre acesso.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "ANTT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-206252",
+        "declaracaoLegada": "Cebraspe / ANTT / 2013 (Adaptada); identificador legado: TecConcursos-206252"
+      },
+      "submoduloId": "4.2"
+    }
+  },
+  {
+    "id": "m4-q-4",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "kuhlthau"
+    ],
+    "localizador": "estágios de iniciação, seleção, exploração, formulação, coleta e apresentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "5f6fa076267a4efbd5014c3997d5ed5f1566a9b27f8e7e137509eac0f839cba1",
+    "shaDepois": "04ee586faf17f4dd5aa7859532a3ec505c7bd2f254265050e8b80697928160d9",
+    "patch": {
+      "justificativa": "ERRADO. No ISP, os sentimentos não seguem uma queda linear. A seleção pode trazer otimismo e a exploração pode aumentar confusão e dúvida; a formulação do foco tende a favorecer clareza. Na apresentação pode haver satisfação ou decepção. O modelo descreve padrões, não uma trajetória emocional obrigatória para cada usuário.",
+      "gatilho": "declinam linearmente",
+      "armadilhaBanca": "Distinguir os estágios e evitar universalizar a trajetória afetiva.",
+      "fonte": "Carol Kuhlthau — Information Search Process — estágios de iniciação, seleção, exploração, formulação, coleta e apresentação — https://wp.comminfo.rutgers.edu/ckuhlthau/information-search-process/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No ISP, a incerteza pode aumentar na exploração, e a formulação do foco tende a favorecer clareza, sem evolução linear obrigatória.",
+      "item": "No modelo de Processo de Busca de Informação (ISP) proposto por Carol Kuhlthau, os sentimentos de incerteza e ansiedade do usuário declinam linearmente no início da pesquisa, atingindo os níveis mais críticos durante a fase final de apresentação.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-5",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "taylor"
+    ],
+    "localizador": "necessidade comprometida, Q4",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "6608ed84cb5d8c8f77ebe1358e0f62bc650b7272a6105404d958f05e03a72876",
+    "shaDepois": "1c71f7220b38753219fe5eaf2f6debf6917efcb8b0957440e32aa25b5a47d99c",
+    "patch": {
+      "item": "Para Taylor, a necessidade comprometida Q4 depende apenas de formular oralmente uma pergunta em linguagem natural e não considera os limites do sistema ou do interlocutor.",
+      "justificativa": "ERRADO. Q4 é a pergunta ajustada ao que o usuário considera possível obter do sistema ou interlocutor. Ela pode ser formulada oralmente ou em linguagem natural: o meio e a linguagem não definem sozinhos o nível. O traço distintivo é o compromisso com as possibilidades percebidas de resposta.",
+      "gatilho": "não considera os limites do sistema",
+      "armadilhaBanca": "Não reduzir um nível cognitivo a uma forma oral ou a um código de busca.",
+      "fonte": "TAYLOR, Robert S. Question-Negotiation and Information Seeking in Libraries. 1968 — necessidade comprometida, Q4 — https://www.ideals.illinois.edu/items/38316",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A necessidade comprometida Q4 envolve ajustar a pergunta às possibilidades percebidas do sistema ou do interlocutor.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-6",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "verbetes enciclopédia, dicionário e fonte de informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "69eead4f71ca8d6eaf9c71243b399c694aeb5ad4d37e59c6c090dfdfd074eb13",
+    "shaDepois": "2bd8ba895305f11fe1b3ea93a622c7b12d58b3f48581eb6e55c6044808039e34",
+    "patch": {
+      "justificativa": "ERRADO. Dicionários e enciclopédias fornecem definições, explicações e dados, portanto são fontes de informação e obras de referência. As categorias se cruzam: ser obra de referência descreve uma função de consulta, não uma exclusão da condição de fonte. A classificação como primária ou secundária depende também do uso e do conteúdo.",
+      "gatilho": "não figuram como fontes de informação",
+      "armadilhaBanca": "Uma categoria funcional não exclui a outra.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbetes enciclopédia, dicionário e fonte de informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Dicionários e enciclopédias são obras de referência que também funcionam como fontes de informação.",
+      "item": "As enciclopédias e os dicionários são obras de referência, por isso não figuram como fontes de informação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "DPU/2016",
+        "ano": 2016,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-523",
+        "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-523"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-7",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "deveres profissionais e sigilo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "cf5bd031573759bc8f6037e75add338840b33be3962e652ebf9ef7fe3a0d37cf",
+    "shaDepois": "ad45921c7fcd1788b2cfb5a943979b3402fdf73aa4a605b3110e5f3147a0ea3d",
+    "patch": {
+      "item": "No atendimento institucional de referência parlamentar, o bibliotecário pode impor uma posição político-partidária pessoal ao selecionar a resposta, ainda que isso contrarie a finalidade técnica do pedido.",
+      "justificativa": "ERRADO. O atendimento institucional deve fornecer informação fundamentada e respeitar o usuário, sem impor a posição partidária pessoal do profissional. Isso não impede avaliar criticamente a qualidade das fontes nem explicar controvérsias documentadas. Sigilo também tem limites legais e não equivale a ocultar irregularidades em qualquer hipótese.",
+      "gatilho": "impor uma posição político-partidária",
+      "armadilhaBanca": "Distinguir avaliação crítica de fontes e imposição de preferência política.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — deveres profissionais e sigilo — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O bibliotecário deve prestar atendimento técnico fundamentado, sem impor sua posição partidária à pesquisa do consulente.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-8",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "taylor"
+    ],
+    "localizador": "Q1 e Q3",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "5f35a47baee107fd4bc94f70a5071a800484647b13ca4bd106c15c8c8ccc27cc",
+    "shaDepois": "1e205b46eb37f31fbb1d67888930a038770d98596f86fbaa79d6af045cfb0d02",
+    "patch": {
+      "justificativa": "ERRADO. Q1 corresponde à necessidade ainda não articulada de modo claro. A formulação compreensível para terceiros se aproxima de Q3, não define a necessidade visceral. A mediação pode ajudar a desenvolver a pergunta; não se transfere automaticamente ao usuário a obrigação de dominar os termos do catálogo.",
+      "gatilho": "necessidade visceral (Q1)",
+      "armadilhaBanca": "Não confundir percepção de uma lacuna e formulação explícita da pergunta.",
+      "fonte": "TAYLOR, Robert S. Question-Negotiation and Information Seeking in Libraries. 1968 — Q1 e Q3 — https://www.ideals.illinois.edu/items/38316",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A necessidade visceral Q1 é ainda pouco articulada; a formalização clara para terceiros se aproxima de Q3.",
+      "item": "Na tipologia de necessidades de Robert Taylor, a necessidade visceral (Q1) manifesta-se sob a forma de questionamento objetivo em linguagem natural, cabendo ao consulente convertê-la nos termos do catálogo da biblioteca.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-9",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "acrl"
+    ],
+    "localizador": "busca estratégica, avaliação de autoridade e uso da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "be4accef1c429599d243b838b34d4a67928f4f3563455a3801c982fa1c6f5e27",
+    "shaDepois": "df83f9444aa0c7d89ecac2fc6df00e28b89033104293e36a590cef8ac8d805b8",
+    "patch": {
+      "justificativa": "CERTO. Competência em informação inclui reconhecer necessidades, buscar, avaliar e usar informação com reflexão e responsabilidade. Saber operar uma base é apenas parte desse conjunto. Uma resposta encontrada rapidamente ainda precisa de avaliação de autoridade, contexto, pertinência e condições de uso.",
+      "gatilho": "avaliá-la criticamente e utilizá-la eticamente",
+      "armadilhaBanca": "Não reduzir uma competência integrada a habilidade operacional.",
+      "fonte": "ACRL — Framework for Information Literacy for Higher Education — busca estratégica, avaliação de autoridade e uso da informação — https://www.ala.org/acrl/standards/ilframework",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Competência em informação se resume a operar ferramentas de busca, dispensando avaliação crítica e uso ético.",
+      "item": "A competência informacional (Information Literacy) promovida pelo serviço de referência busca capacitar o usuário a reconhecer quando uma informação é necessária, bem como a localizá-la, avaliá-la criticamente e utilizá-la eticamente.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-10",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "verbetes alerta e disseminação seletiva",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "763a1bf09b4b8ad838bdb06c44d0a4a00949daeced8482d2d83ab5d2120b0dbd",
+    "shaDepois": "40b09080e5b0ada380bbed683e8a5eafeda8f9874a0deb5c4057fa51493f7b42",
+    "patch": {
+      "justificativa": "CERTO. Alertas acompanham fontes e comunicam novidades sem esperar cada pedido pontual. Um serviço de sumários pode atender um público amplo; a DSI se diferencia por selecionar segundo perfis de interesse. Alerta não prevê o futuro: antecipa o envio em relação à solicitação individual, com informação já disponível.",
+      "gatilho": "antes que o usuário precise solicitar expressamente",
+      "armadilhaBanca": "Distinguir comunicação de novidades e personalização por perfil.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbetes alerta e disseminação seletiva. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo serviço de alerta é necessariamente DSI individualizada, mesmo sem perfis de interesse ou seleção temática.",
+      "item": "O serviço de alerta antecipado em bibliotecas especializadas consiste no envio regular de sumários correntes de periódicos, pautas de tramitação de proposições ou clipping temático de notícias antes que o usuário precise solicitar expressamente.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-11",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "questão inicial e negociação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "c4fe1eb7c09d78d4deaf6d4236655b5b1bc16b666f9dd90c5fbb5cd31cd1b661",
+    "shaDepois": "00e208c652b01d1c09665ef646b8c8af88c14edb23c0b0dd4b05a9a73cec724e",
+    "patch": {
+      "justificativa": "ERRADO. Uma busca de título conhecido pode ser resolvida com confirmação breve, mas a menção do título não garante que a necessidade esteja completamente compreendida. É útil confirmar edição, finalidade ou equivalência quando houver dúvida. A entrevista deve ser proporcional ao pedido, sem interrogatório obrigatório em toda consulta.",
+      "gatilho": "torna-se desnecessária",
+      "armadilhaBanca": "Evitar tanto dispensar toda confirmação quanto exigir uma entrevista extensa em todo atendimento.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — questão inicial e negociação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um título conhecido pode dispensar uma entrevista longa, mas não elimina a necessidade de esclarecer ambiguidades relevantes.",
+      "item": "A entrevista de referência torna-se desnecessária diante da solicitação verbal de um título específico no balcão de atendimento, considerando-se a busca de item conhecido suficiente para atender à demanda de pesquisa.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-12",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "estratégia de busca, pp. 50–56",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "53ae3f934d861c1c64caf402e3c0df557bb1977b1f5f4971907578d1ce6a0ae5",
+    "shaDepois": "456a3198bdf11e246f0aaf5c1e30421f883a63a42dda997dc75e7d92b5c73eb2",
+    "patch": {
+      "justificativa": "ERRADO. A estratégia seleciona fontes e caminhos adequados ao problema. Pode mobilizar o acervo local, catálogos coletivos, fontes digitais e encaminhamento a especialistas. O limite é a adequação e as condições de acesso, não a parede física da biblioteca.",
+      "gatilho": "proibido recorrer a catálogos coletivos",
+      "armadilhaBanca": "Não confundir responsabilidade pelo atendimento e posse local de todas as fontes.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — estratégia de busca, pp. 50–56. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A estratégia de referência pode combinar fontes internas e externas conforme a necessidade e as condições de acesso.",
+      "item": "Segundo Grogan, na fase de 'estratégia de busca', o bibliotecário deve restringir-se a consultar fontes internas do acervo físico da biblioteca, sendo proibido recorrer a catálogos coletivos ou a contatos com especialistas externos.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-13",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa"
+    ],
+    "localizador": "comunicação e operação de referência virtual",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "201721f8ccc141b929a502fdd3dcefa4bbe86a7b118c8a55dc09345deb097081",
+    "shaDepois": "2f4f0dc621de5f4d629eb249ceb9c3266c4a212c989d7cfbedbf3d015c30ec28",
+    "patch": {
+      "justificativa": "ERRADO. No atendimento assíncrono, dúvidas podem ser esclarecidas por retorno ao usuário, perguntas objetivas e formulários bem desenhados. A falta de contato imediato não torna a interpretação literal mais segura. Prazos e canais de retorno devem ser combinados, respeitando a finalidade da coleta de dados.",
+      "gatilho": "negociação da questão dispensável",
+      "armadilhaBanca": "Uma limitação do canal reforça o cuidado de comunicação, não elimina a negociação.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — comunicação e operação de referência virtual — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A referência assíncrona pode exigir esclarecimentos adicionais para negociar uma questão ambígua antes de concluir a busca.",
+      "item": "No serviço de referência digital assíncrono (como o correio eletrônico ou formulários web), a ausência de comunicação não verbal e de retorno imediato torna a negociação da questão dispensável, devendo a busca ser executada com base estrita no texto literal submetido.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-14",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "questão inicial e questão negociada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "66c2fb337bd10b42959134a75eb0a28608bb72aa0a3d7a18d031ec547ca64426",
+    "shaDepois": "94fc4a33e06437d656dc1fc1efac23d948765981cbeb3ecce0ad46284fda50a9",
+    "patch": {
+      "justificativa": "ERRADO. A pergunta apresentada pode representar apenas parte da necessidade. Negociar significa esclarecer finalidade, escopo e condições, em diálogo com o consulente. A coincidência entre pedido e necessidade é possível, mas não uma garantia que torne a negociação sempre dispensável.",
+      "gatilho": "tornando desnecessárias",
+      "armadilhaBanca": "Diferenciar uma coincidência possível e uma regra que dispensa verificação.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — questão inicial e questão negociada. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A pergunta inicial pode precisar de negociação para representar adequadamente a necessidade do consulente.",
+      "item": "No modelo de serviço de referência de Denis Grogan, a formulação inicial apresentada pelo usuário no balcão de consulta coincide com a sua real necessidade de informação, tornando desnecessárias etapas de negociação contextual da pergunta.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-15",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "concepções de assistência no serviço de referência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "45e4e403a11cc6b29af7a576e8a535867202d434bbc3bddea6916d90ee126539",
+    "shaDepois": "d2dfcb8537e43559463b9d018bd54b529509b88a87af6945d8691e35628194b6",
+    "patch": {
+      "item": "Na concepção conservadora do serviço de referência, o bibliotecário assume a responsabilidade integral pela pesquisa e dispensa qualquer participação do usuário na investigação.",
+      "justificativa": "ERRADO. Na concepção conservadora, a intervenção tende a ser limitada e o usuário conserva maior responsabilidade na pesquisa. Assumir toda a investigação sem participação do consulente não caracteriza esse polo. As concepções são modelos de assistência, não proibições universais sobre o que uma biblioteca pode oferecer.",
+      "gatilho": "responsabilidade integral pela pesquisa",
+      "armadilhaBanca": "Comparar o grau de intervenção profissional, e não apenas a localização física do atendimento.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — concepções de assistência no serviço de referência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na concepção conservadora, a assistência é mais limitada e não transfere integralmente ao bibliotecário toda a pesquisa do usuário.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-16",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "taylor"
+    ],
+    "localizador": "Q2 e Q3",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "cf9bde45e44af4fd780aa79ee2d4431e7adbb3fd9b4244d8bea5248265c76c74",
+    "shaDepois": "932558cb81ca0263608a75c32a01b33606dca7bb1afa4fbe7c4a183315a685b1",
+    "patch": {
+      "justificativa": "CERTO. Q2 corresponde à percepção consciente da necessidade; em Q3 ela ganha uma formulação que pode ser apresentada a terceiros. A passagem não exige codificar a pergunta na sintaxe de uma base. A adequação às possibilidades percebidas do sistema é a distinção associada a Q4.",
+      "gatilho": "declaração concreta em linguagem natural",
+      "armadilhaBanca": "Separar formalização da pergunta e adaptação ao sistema de resposta.",
+      "fonte": "TAYLOR, Robert S. Question-Negotiation and Information Seeking in Libraries. 1968 — Q2 e Q3 — https://www.ideals.illinois.edu/items/38316",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A passagem de Q2 para Q3 exige obrigatoriamente converter a dúvida em uma consulta codificada na sintaxe de uma base de dados.",
+      "item": "No modelo de Taylor, a passagem do nível consciente (Q2) para o nível formalizado (Q3) envolve a estruturação mental da dúvida em uma declaração concreta em linguagem natural inteligível para terceiros.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-17",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "oito passos do processo, pp. 50–56",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "0f688abd958a4b46d1915867bfc22241f2f173b5342a7075bafffc97552e77b5",
+    "shaDepois": "c6cf79ae543f6ee81ac82766fb6f67bbcbccc7205ec2722915c912b5a99b4296",
+    "patch": {
+      "justificativa": "ERRADO. A estratégia deve ser orientada pela necessidade e pela pergunta compreendida. Inverter essa relação faz o acervo disponível ditar a demanda do usuário. Os oito passos são uma decomposição didática com possíveis retornos, não uma sequência rígida que proíba reformular a pergunta depois de iniciar a busca.",
+      "gatilho": "antes da identificação e negociação",
+      "armadilhaBanca": "Não transformar uma ordem didática em linearidade rígida nem fazer a oferta substituir a demanda.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — oito passos do processo, pp. 50–56. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A estratégia de busca é orientada pela necessidade negociada e pode ser ajustada durante o atendimento.",
+      "item": "No ciclo de referência de Grogan, a seleção da estratégia de busca deve ocorrer antes da identificação e negociação da necessidade real de informação, garantindo que o acervo dite o que o usuário pode obter.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-18",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios"
+    ],
+    "localizador": "mediação e apropriação da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "d4cc0c898b1f8313e5e7edaa78966e153ef113166c15404c2e6358eabd969c42",
+    "shaDepois": "bea760e13df48ce626b1cad709f70c5105f1fd627d62b59edffa2eb220449077",
+    "patch": {
+      "item": "A mediação da informação não se limita à entrega física de documentos: pode envolver práticas explícitas e implícitas que favorecem a apropriação da informação pelo sujeito.",
+      "justificativa": "CERTO. Mediação envolve condições, práticas e interações que favorecem a apropriação da informação. Pode ocorrer em ações explícitas de atendimento e em escolhas implícitas de organização. Não se reduz ao empréstimo ou à entrega do documento, nem garante que toda intervenção produza efeito positivo.",
+      "gatilho": "não se limita à entrega física",
+      "armadilhaBanca": "Distinguir o acesso material e o processo de apropriação.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — mediação e apropriação da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Mediação da informação ocorre apenas quando um documento é entregue fisicamente ao usuário.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-19",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios"
+    ],
+    "localizador": "modelo Sense-Making de Brenda Dervin",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "d7a2fb72e4a33c65323dbfacfb15ddfeba0eba05474288a45d6d9e884e8689bb",
+    "shaDepois": "a5af8a7b95b4c5cd6165c431437fa41f7777a40114902169712e82e38bb8ab97",
+    "patch": {
+      "justificativa": "CERTO. O Sense-Making considera o sujeito em uma situação, a lacuna que encontra e as formas de construir uma ponte para prosseguir. A mesma informação pode ter usos diferentes conforme o contexto. Não se trata apenas de preencher um formulário nem de supor uma necessidade igual para todos.",
+      "gatilho": "superar descontinuidades",
+      "armadilhaBanca": "Relacionar situação, lacuna e uso, sem reduzir o modelo a uma lista universal de necessidades.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — modelo Sense-Making de Brenda Dervin. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No Sense-Making, a necessidade de informação é fixa e independe da situação vivida pelo sujeito.",
+      "item": "O modelo de 'Sense-Making' formulado por Brenda Dervin compreende a busca de informação como um comportamento humano de construção de sentido para superar descontinuidades ('gaps') cognitivas no enfrentamento de situações problemáticas.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-20",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "tipos de consulta e pesquisa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "7d13056c0995a003fd9ddbf044fa962dd81f96a0cd926f5448a30485923f8f98",
+    "shaDepois": "3d35d320be49f7b1fb715dc3830b52a5fc4dcaf28c19285de9a583140989aa06",
+    "patch": {
+      "justificativa": "ERRADO. Consultas factuais podem pedir uma data ou definição localizada rapidamente. Uma pesquisa abrangente pode exigir combinação e análise de várias fontes, com prazo e escopo negociados. Não é o nome da obra consultada que define a complexidade de toda a demanda.",
+      "gatilho": "respostas imediatas e pontuais",
+      "armadilhaBanca": "Troca entre demanda factual e investigação abrangente.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — tipos de consulta e pesquisa. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma pesquisa temática abrangente pode exigir múltiplas fontes e consolidação, enquanto uma consulta factual pode ser resolvida por um dado pontual.",
+      "item": "Na tipologia das questões de referência estabelecida pela literatura biblioteconômica, as consultas do tipo 'pesquisa temática abrangente' (ou de pesquisa profunda) exigem respostas imediatas e pontuais extraídas de um único anuário ou dicionário biográfico.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-21",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios"
+    ],
+    "localizador": "técnica de incidentes críticos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "e0e29033a9cf91418ef66bcb7e9674c13fa7910f44dd4eb80dcdbf5ad6d8609f",
+    "shaDepois": "9eef2ef0c15d81deb14c67241a5680ffdd91f57bb63f15962d64a045ddbd4ce3",
+    "patch": {
+      "justificativa": "CERTO. A técnica examina episódios concretos significativos para compreender ações, condições e consequências. Perguntar sobre a última tentativa bem-sucedida de localizar uma norma produz dados diferentes de pedir uma opinião geral sobre a biblioteca. Os relatos precisam ser analisados e não garantem representatividade estatística.",
+      "gatilho": "situações concretas de sucesso ou insucesso",
+      "armadilhaBanca": "Distinguir relato de uma ocorrência e avaliação abstrata de satisfação.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — técnica de incidentes críticos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A técnica de incidentes críticos dispensa episódios concretos e se limita a opiniões genéricas sobre o serviço.",
+      "item": "A metodologia de incidentes críticos desenvolvida por John Flanagan é uma técnica de coleta de dados frequentemente empregada em estudos de usuários para analisar comportamentos de busca frente a situações concretas de sucesso ou insucesso.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-22",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios"
+    ],
+    "localizador": "planejamento e estudo de usuários",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "9163044869e5ca1149c595907d67016b8d04023df1f9758f979a5c7189123457",
+    "shaDepois": "b3062cdcf24f73b90b03a166c03ba84ca73a3916349fe07d0dd4bd98b79956c1",
+    "patch": {
+      "justificativa": "CERTO. Mapear demandas, prazos e formas de uso ajuda a planejar serviços legislativos. Um parecer para votação iminente pode exigir síntese com fontes verificáveis, enquanto uma pesquisa histórica pede outro recorte. O estudo não deve se limitar a usuários já atendidos nem presumir que todos os parlamentares tenham preferências idênticas.",
+      "gatilho": "hábitos de busca, formatos preferidos",
+      "armadilhaBanca": "Evitar generalizar um perfil institucional para todas as pessoas e situações.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — planejamento e estudo de usuários. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O estudo de usuários pode ignorar públicos potenciais e tratar todas as demandas legislativas como idênticas.",
+      "item": "Em serviços de referência legislativos e parlamentares, o estudo de usuários constitui ferramenta indispensável para mapear hábitos de busca, formatos preferidos de informação e a urgência temporal associada à tomada de decisão legislativa.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-23",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios"
+    ],
+    "localizador": "ansiedade de biblioteca; estudos de Mellon e escala de Bostick",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "2bb34f1e30aff076ce9b49f244a9953be41a87e997aef121a126cac686174435",
+    "shaDepois": "cc55733d887e9033e041de0d6116ea584b04dcc34a359f775832d56306891e34",
+    "patch": {
+      "item": "A ansiedade de biblioteca, investigada por Constance Mellon e pela escala de Sharon Bostick, pode ser mitigada por orientação acessível e atitudes acolhedoras no serviço de referência.",
+      "justificativa": "CERTO. A ansiedade de biblioteca foi estudada por Constance Mellon; Sharon Bostick desenvolveu uma escala para investigá-la. Pode envolver insegurança, barreiras percebidas e receio de pedir ajuda. Acolhimento e orientação podem reduzir essas barreiras, sem garantir sua eliminação em todos os casos.",
+      "gatilho": "pode ser mitigada",
+      "armadilhaBanca": "Distinguir a formulação do fenômeno e o desenvolvimento de instrumentos de medida.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — ansiedade de biblioteca; estudos de Mellon e escala de Bostick. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A ansiedade de biblioteca decorre exclusivamente da falta de livros e não pode ser reduzida por atendimento acolhedor.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-24",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "solução e avaliação conjunta, pp. 53–56",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "5ec135ff446af1a936c631bf0aae1a78690440c0ef43a30a01941797552d6996",
+    "shaDepois": "3f6068b64faf6d2d65279362caa38ad4fb0d7223ffcdda48bdaaf43be314113d",
+    "patch": {
+      "justificativa": "CERTO. A resposta recuperada ainda precisa ser confrontada com o problema do usuário. Bibliotecário e consulente verificam pertinência e utilidade, podendo renegociar a questão. Entregar uma lista de documentos não prova que a necessidade foi atendida, e a avaliação não pertence exclusivamente a uma das partes.",
+      "gatilho": "respondeu efetivamente à necessidade",
+      "armadilhaBanca": "Diferenciar resposta produzida e solução adequada ao problema.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — solução e avaliação conjunta, pp. 53–56. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A solução é considerada atingida sempre que o bibliotecário entrega algum documento, sem avaliação pelo consulente.",
+      "item": "A etapa de avaliação da resposta no ciclo de Denis Grogan inclui a verificação de se a informação recuperada respondeu efetivamente à necessidade original do consulente e se o nível de profundidade e o formato de apresentação foram adequados.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-25",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "entrevista de referência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.1 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "6b40225292f5b15c9c348e3c2eb0e942a2514174e32c69f17bdbb88118e4a484",
+    "shaDepois": "440efffbb68bafc32938274359fe87ec5cdd39c15f0e58ab7b3562254e1604c2",
+    "patch": {
+      "justificativa": "CERTO. Perguntas abertas permitem ao usuário explicar finalidade e contexto com suas palavras. Depois, perguntas de confirmação podem precisar datas, formatos ou idiomas. A recomendação não proíbe perguntas fechadas em outros momentos: o objetivo é compreender a demanda, não cumprir uma ordem mecânica.",
+      "gatilho": "perguntas abertas",
+      "armadilhaBanca": "Uma técnica de exploração não deve ser substituída por fechamento prematuro da questão.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — entrevista de referência. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A entrevista deve evitar que o consulente explique o contexto, limitando-se sempre a respostas sim ou não.",
+      "item": "Durante a entrevista de referência, a utilização de perguntas abertas é recomendada na fase exploratória inicial porque permite ao consulente explicar amplamente sua demanda com suas próprias palavras, evitando conclusões precipitadas do entrevistador.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-26",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "acrl"
+    ],
+    "localizador": "autoridade contextual e avaliação da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "36c2cafc43fc38acbdeb924227992bfbb2ceb9ae851942032edbeda53e9cbf1b",
+    "shaDepois": "f0504b39100389327f339fe6066638528ba3b147edbc19efd0d4d228f2144c4c",
+    "patch": {
+      "justificativa": "CERTO. Identificar autoria e evidências, conferir atualização e avaliar condições de uso ajuda a decidir se uma fonte serve ao pedido. Boa aparência e navegação não provam correção factual. A importância de cada critério depende do contexto: uma fonte histórica não é inadequada apenas por ser antiga.",
+      "gatilho": "autoridade do emissor, precisão das informações",
+      "armadilhaBanca": "Não tomar qualidade da interface como prova de autoridade e exatidão.",
+      "fonte": "ACRL — Framework for Information Literacy for Higher Education — autoridade contextual e avaliação da informação — https://www.ala.org/acrl/standards/ilframework",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um sítio bem apresentado e fácil de navegar dispensa conferência de autoria, evidências e atualização.",
+      "item": "Na avaliação da qualidade de fontes de informação digitais, critérios como autoridade do emissor, precisão das informações, tempestividade/atualização, navegabilidade e objetividade são parâmetros consolidados na literatura biblioteconômica."
+    }
+  },
+  {
+    "id": "m4-q-27",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "verbete vade-mécum",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "a64f5b72c709d0ad1ed4b99ab88f41523a57c99172fda116c5db6a350f217050",
+    "shaDepois": "40ddeda732e325d4c97d7e6034d8e52970f5fa31f910c9df2e26988b9c8de7bf",
+    "patch": {
+      "item": "Vade-mécuns auxiliam pesquisas jurídicas, mas não pode constar jurisprudência nessas obras, que devem conter apenas legislação.",
+      "justificativa": "ERRADO. Vade-mécuns reúnem instrumentos de consulta prática e podem incluir legislação, súmulas, enunciados, remissões e outros materiais conforme o projeto editorial. Não há uma definição que proíba jurisprudência em qualquer edição. Para um caso concreto, é preciso conferir a edição, a atualização e o conteúdo efetivamente incluído.",
+      "gatilho": "não pode constar jurisprudência",
+      "armadilhaBanca": "Não converter uma característica frequente de seleção em proibição universal.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbete vade-mécum. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Vade-mécuns podem incluir legislação e elementos jurisprudenciais, conforme a seleção editorial.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-103212",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "103212",
+        "declaracaoLegada": "Cebraspe / CNJ / 2013; identificador legado: 103212"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-28",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "finalidade do portal; distinção de repositórios",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "3a16e2eeca3bce95e034f3fe45cef725833681a0f7302e07fc67b87bf07e3198",
+    "shaDepois": "abd8e154e02bcb3fa1f2789b0fecbfd3c438b8431687f54a7fe7ceae6d5fb0b4",
+    "patch": {
+      "item": "Arca, arXiv e LexML são bases especializadas que indexam exclusivamente legislação e jurisprudência brasileiras.",
+      "justificativa": "ERRADO. LexML é especializado em informação legislativa e jurídica. Arca, da Fiocruz, e arXiv, de preprints em diversas áreas científicas, não têm esse mesmo escopo exclusivo. Isso não significa que sejam incapazes de conter um trabalho relacionado a direito: especialização da base e assunto eventual de um documento são coisas distintas.",
+      "gatilho": "exclusivamente legislação e jurisprudência",
+      "armadilhaBanca": "Não confundir escopo principal e impossibilidade de conter um assunto.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — finalidade do portal; distinção de repositórios — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "LexML é especializado em informação jurídica; Arca e arXiv têm outros escopos e podem conter trabalhos interdisciplinares.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJDFT)/TJDFT/Apoio Especializado/Biblioteconomia/2015",
+        "ano": 2015,
+        "orgao": "TJDFT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-318030",
+        "declaracaoLegada": "Cebraspe / TJDFT / 2015 (Adaptada); identificador legado: TecConcursos-318030"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-29",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "ajuda de pesquisa: curingas ? e *",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "375c5de805256e78297fd82493c00d83a7c2f4af00c78bdece607b019425c3d1",
+    "shaDepois": "60d41ee6052ec2a1ee83351a4f7c10468c084ae9790382f111c94e56d4ed3bcd",
+    "patch": {
+      "item": "Na sintaxe de pesquisa do LexML em que ? substitui um caractere, a busca legis? equivale a legis* e recupera todas as variações de comprimento a partir desse prefixo.",
+      "justificativa": "ERRADO. Na sintaxe descrita, ? substitui um caractere, enquanto * permite truncamento de uma sequência variável. Logo, legis? não equivale a pesquisar todo sufixo iniciado por legis. A sintaxe deve ser conferida no sistema efetivamente utilizado: operadores não têm funcionamento universal em qualquer interface.",
+      "gatilho": "todas as variações",
+      "armadilhaBanca": "Distinguir curinga de um caractere e truncamento de vários caracteres.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — ajuda de pesquisa: curingas ? e * — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na busca do LexML com essa sintaxe, ? representa um caractere, e * permite variações de comprimento no truncamento.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
+        "ano": 2014,
+        "orgao": "TC DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-369892",
+        "declaracaoLegada": "Cebraspe / TC DF / 2014 (Adaptada); identificador legado: TecConcursos-369892"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-30",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "escopo: legislação, jurisprudência e doutrina",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "1cf16182e0fdecb719ae987d41e48ae58e07c20945bd22b4de82a9da41a7fbe6",
+    "shaDepois": "86bd241c9824d2917bfc1d532f1c6c01435bdb8420fc36ef76861869a10e30aa",
+    "patch": {
+      "item": "Legislação, jurisprudência e doutrina são categorias centrais da documentação jurídica, com funções e condições de autoridade distintas.",
+      "justificativa": "CERTO. Na documentação jurídica, legislação registra atos normativos, jurisprudência reúne decisões e entendimentos judiciais, e doutrina apresenta estudos e interpretações. A existência dessas três categorias não resolve a discussão jurídica sobre fontes formais nem dá a toda opinião doutrinária força vinculante. A classificação documental deve ser separada da eficácia jurídica.",
+      "gatilho": "Legislação, jurisprudência e doutrina",
+      "armadilhaBanca": "Separar categoria de informação e eficácia jurídica.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — escopo: legislação, jurisprudência e doutrina — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda obra doutrinária tem, por sua categoria documental, a mesma força vinculante de uma lei.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-31",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "verbete literatura cinzenta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3eb23f28fc5b2a354c9ca683b681a6f29a05e87a1dfaf573d2e3ea06f9940d67",
+    "shaDepois": "23c4c814e39511f598d4af1e6748272d53ea1d2d96f2d917f6c802f7a85e979b",
+    "patch": {
+      "justificativa": "ERRADO. Literatura cinzenta é caracterizada por condições de produção e circulação fora dos canais editoriais comerciais convencionais. Uma tese recente pode ser cinzenta e continuar protegida por direitos autorais. Um romance em domínio público não se torna cinzento apenas por estar gratuitamente disponível.",
+      "gatilho": "direitos autorais expiraram",
+      "armadilhaBanca": "Distinguir circulação editorial, domínio público e disponibilidade digital.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbete literatura cinzenta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Literatura cinzenta não é definida pela expiração de direitos autorais e pode incluir documentos ainda protegidos.",
+      "item": "A denominação \"literatura cinzenta\" (grey literature) designa obras clássicas em domínio público cujos direitos autorais expiraram e que se encontram reproduzidas em bibliotecas digitais abertas."
+    }
+  },
+  {
+    "id": "m4-q-32",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bdtd",
+      "cad"
+    ],
+    "localizador": "apresentação da BDTD; distinção do LexML",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b150f2c28b8d64d334c61391975e6fbde1b2cf206f247286ed04ba5ea2598ad8",
+    "shaDepois": "26edd46ac7e10374baf84b99e47b5fe8a2ebc4fe3b162ad0c3ec0c7b93766cce",
+    "patch": {
+      "item": "A pesquisa de teses brasileiras de qualquer área pode ser feita exaustivamente no LexML, que substitui a consulta à BDTD e garante a mesma cobertura acadêmica.",
+      "justificativa": "ERRADO. A BDTD integra registros de teses e dissertações de instituições brasileiras; LexML tem foco legislativo e jurídico. Mesmo que uma tese jurídica possa ser referenciada por diferentes serviços, isso não permite tratar LexML como substituto integral da BDTD nem presumir cobertura de toda produção acadêmica.",
+      "gatilho": "substitui a consulta à BDTD",
+      "armadilhaBanca": "Não transformar sobreposição eventual em integração exaustiva.",
+      "fonte": "IBICT — Biblioteca Digital Brasileira de Teses e Dissertações — apresentação da BDTD; distinção do LexML — https://bdtd.ibict.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A BDTD e o LexML têm objetivos e coberturas diferentes; consultar um não garante acesso a todos os registros do outro.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (CADE)/CADE/2014",
+        "ano": 2014,
+        "orgao": "CADE",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-185319",
+        "declaracaoLegada": "Cebraspe / CADE / 2014 (Adaptada); identificador legado: TecConcursos-185319"
+      },
+      "contexto": "Acerca de fontes, busca e serviços de referência, julgue o item a seguir."
+    }
+  },
+  {
+    "id": "m4-q-33",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "verbetes anuário e almanaque",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "28c3c046e09d5f3d7003d64d705df734d7de64d00085cb702fa25f314a277515",
+    "shaDepois": "0be7084925fb7604f576e24643b83df275d11c10e0e2cb6d461bab89fd590026",
+    "patch": {
+      "item": "Anuários e almanaques podem reunir fatos, eventos e estatísticas organizados por período de referência, auxiliando consultas factuais no serviço de referência.",
+      "justificativa": "CERTO. Anuários e almanaques podem reunir fatos, estatísticas e informações úteis a consultas factuais, com um período de referência identificado. Publicação anual não significa que todo dado corresponda exatamente aos doze meses anteriores: podem existir séries históricas, previsões e datas diferentes de fechamento.",
+      "gatilho": "período de referência",
+      "armadilhaBanca": "Separar periodicidade de publicação e período coberto pelos dados.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbetes anuário e almanaque. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo anuário contém exclusivamente fatos ocorridos nos doze meses imediatamente anteriores à publicação, sem séries históricas."
+    }
+  },
+  {
+    "id": "m4-q-34",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "verbetes dicionário biográfico e Who is who",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7f3769a7126c36bab17be80a3daf65632e3b05e0fa3ec5b12e90a64e9a1b4b58",
+    "shaDepois": "93c0892d3970818f44195b0361d9689374451cab197f22bd35258ee2c8d1d96d",
+    "patch": {
+      "justificativa": "CERTO. Repertórios biográficos oferecem dados sobre pessoas segundo uma seleção temática, profissional ou geográfica. É preciso observar atualização e critérios de inclusão: ausência de uma pessoa no repertório não prova inexistência ou irrelevância. Quem é quem não substitui automaticamente pesquisa histórica aprofundada.",
+      "gatilho": "trajetórias curriculares",
+      "armadilhaBanca": "Não converter seleção editorial em cobertura total de uma população.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbetes dicionário biográfico e Who is who. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um dicionário biográfico é sempre exaustivo, de modo que a ausência de uma pessoa prova que ela não existiu.",
+      "item": "Os dicionários biográficos, também chamados de obras do tipo 'Who's Who', são obras de referência que fornecem dados sumários e trajetórias curriculares de personalidades notáveis em âmbitos temáticos, geográficos ou profissionais específicos."
+    }
+  },
+  {
+    "id": "m4-q-35",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "documentação jurídica e instrumentos de pesquisa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "fb6ceba45a189fdb231aad33c309273b26befc26647be84137ecb35716360fc7",
+    "shaDepois": "231bb05afffd7a83156024a560c9af4ace66a6da03863372afa3a511ec1f9fc0",
+    "patch": {
+      "item": "O tratamento e a recuperação de documentação jurídica exigem conhecer instrumentos como coletâneas, índices e ementários e interpretar os pedidos dos usuários para selecionar fontes adequadas.",
+      "justificativa": "CERTO. Conhecer o sistema jurídico ajuda a selecionar a espécie documental, o órgão competente e a versão pertinente. Índices, ementários e coletâneas dão acesso aos textos, mas a ementa não substitui toda decisão quando os fundamentos e limites importam. A interpretação do pedido orienta a escolha da fonte.",
+      "gatilho": "interpretar os pedidos dos usuários",
+      "armadilhaBanca": "Combinar conhecimento das fontes e compreensão da demanda.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — documentação jurídica e instrumentos de pesquisa. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Conhecer a documentação jurídica dispensa esclarecer o pedido e permite usar qualquer ementa como substituta integral de uma decisão.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANEEL/2010",
+        "ano": 2010,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-672",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-672"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-36",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "categorias de informação jurídica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "d8c6c77808801644f500c7bf1aabc18a85fbb7af2bce67e0a165742ccd241f67",
+    "shaDepois": "1cc6eab2b3f2866f85b3ee033868111963724b32d1e369021562eabd51b0b5c2",
+    "patch": {
+      "justificativa": "ERRADO. Doutrina apresenta interpretações e sistematizações e pode influenciar legislação e decisões. Isso não a torna a fonte normativa principal nem confere a toda obra doutrinária força vinculante. Para responder a uma pergunta jurídica, deve-se distinguir o comentário de um autor do texto normativo e dos precedentes aplicáveis.",
+      "gatilho": "fonte principal",
+      "armadilhaBanca": "Influência intelectual não equivale a autoridade normativa geral.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — categorias de informação jurídica — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Doutrina é uma categoria relevante de informação jurídica, mas não substitui automaticamente legislação e precedentes aplicáveis.",
+      "item": "A doutrina, base para a formação de leis e da jurisprudência, é a fonte principal da informação jurídica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TJDFT/2015",
+        "ano": 2015,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-608",
+        "declaracaoLegada": "Cebraspe / 2015 / 2015 (Adaptada); identificador legado: cespe-cad-608"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-37",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "vocabulário de autoridades e tipos documentais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "d7dede28f7e031e45adc8729dd253d6c349952558b44b16df8fcf22efe8eae9d",
+    "shaDepois": "8367258db0841439be76dc0d18ec7411510cbc7701c313b88ad7609653a30b29",
+    "patch": {
+      "justificativa": "CERTO. Os três Poderes podem produzir atos normativos dentro de suas competências. Um decreto, uma resolução administrativa de tribunal e uma lei têm autoridades e regimes distintos. Ser fonte autorizada significa considerar origem e competência; não significa colocar todos os atos na mesma posição hierárquica ou validar qualquer ato pelo nome do órgão.",
+      "gatilho": "Poderes Executivo, Legislativo e Judiciário",
+      "armadilhaBanca": "Distinguir autenticidade da fonte, competência e hierarquia.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — vocabulário de autoridades e tipos documentais — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo ato de qualquer Poder possui a mesma hierarquia e dispensa exame da competência da autoridade emissora.",
+      "item": "As normas legais criadas pelos Poderes Executivo, Legislativo e Judiciário são consideradas fontes de informação autorizadas no âmbito da documentação jurídica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "BASA/2012",
+        "ano": 2012,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-645",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-645"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-38",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "fontes primárias e publicação oficial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "4c92629cf654bbfce54d560b66595ab133b504235f8b1b4c28cd664361c27d2a",
+    "shaDepois": "b323a6ef967ab0b96b6b0c4e41a95dab6761b65170a7c1f827b8626601e7c880",
+    "patch": {
+      "justificativa": "ERRADO. O texto de um ato publicado no veículo oficial funciona como fonte primária para consultá-lo. A distribuição impressa ou digital não o torna terciário. Também não se deve afirmar que toda publicação marca imediatamente a vigência: um ato pode prever vacatio legis ou outra data de produção de efeitos.",
+      "gatilho": "fontes terciárias",
+      "armadilhaBanca": "Separar tipo de fonte, suporte e início da vigência.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — fontes primárias e publicação oficial. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A publicação oficial de um ato é fonte primária, e sua forma impressa ou digital não determina a classificação como terciária.",
+      "item": "Os Diários Oficiais da União e dos Estados são classificados pela doutrina biblioteconômica como fontes terciárias, em virtude de sua distribuição impressa e digital para órgãos públicos.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-39",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "verbetes atlas e dicionário geográfico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0bffdeca4a5990faee97c726073c805dda075fd81535e746eabaa08a632ee476",
+    "shaDepois": "86c6f31b2dbb69cb5f4963f5a384553c4c53439620e80ee12deb8f0ad99844a3",
+    "patch": {
+      "justificativa": "ERRADO. Gazetteers organizam informações sobre lugares, como nomes, localização e características; atlas têm predominância cartográfica. Ambos podem combinar texto e mapas. A diferença de predominância não autoriza dizer que um dicionário geográfico dispensa verbetes nem que um atlas nunca contém texto.",
+      "gatilho": "dispensando verbetes descritivos textuais",
+      "armadilhaBanca": "Uma diferença de predominância não é exclusão absoluta de outros recursos.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbetes atlas e dicionário geográfico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Dicionários geográficos apresentam entradas sobre lugares, enquanto atlas têm predominância de mapas, podendo ambos combinar recursos.",
+      "item": "Os dicionários geográficos (gazetteers) desempenham o mesmo papel dos atlas tradicionais, priorizando pranchas cartográficas vetoriais e dispensando verbetes descritivos textuais de acidentes geográficos."
+    }
+  },
+  {
+    "id": "m4-q-40",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario",
+      "cad"
+    ],
+    "localizador": "fontes de informação jurídica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "0ad83b5f374c240a08bd8a996aad03a95da22c2d615318e8871a037b902b406f",
+    "shaDepois": "310e0b34d42245e861939dfc3b4e0b517695f381c7bb2382d642e498a329f150",
+    "patch": {
+      "justificativa": "ERRADO. A publicação original de atos nos diários oficiais é uma fonte primária para o texto publicado. Índices e repertórios que descrevem ou encaminham a esses atos podem funcionar como fontes secundárias. A classificação deve considerar o conteúdo usado: o diário e o índice de seus atos não desempenham a mesma função.",
+      "gatilho": "fontes secundárias",
+      "armadilhaBanca": "Distinguir o texto original e o instrumento de acesso a ele.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — fontes de informação jurídica. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Textos de atos publicados em diários oficiais são fontes primárias; instrumentos que os descrevem ou indexam podem funcionar como fontes secundárias.",
+      "item": "O Diário Oficial da União, os diários oficiais dos estados e o do Distrito Federal podem ser considerados fontes secundárias de informação jurídica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "CNJ/2013",
+        "ano": 2013,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-599",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-599"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-41",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "fontes terciárias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "407ed89a09aca3ac47446e4f369df7e2060ff8c2990af0309ec562a7ea9261fd",
+    "shaDepois": "6e4ebdc68571ebb02292b03bd9c683ee9359863dce35f3d394c2ff308a6f8c82",
+    "patch": {
+      "justificativa": "CERTO. Na tipologia tradicional, fontes terciárias orientam caminhos para outras fontes, como guias de literatura e bibliografias de bibliografias. O papel na consulta importa: uma mesma instituição pode produzir documentos primários e também manter um guia de fontes. Não classifique todos os produtos apenas pelo nome do emissor.",
+      "gatilho": "guiar o usuário na localização",
+      "armadilhaBanca": "Classificar a função do produto, e não apenas a natureza de seu produtor.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — fontes terciárias. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um guia de fontes é necessariamente primário apenas porque foi publicado por uma instituição pública.",
+      "item": "As fontes terciárias têm por finalidade principal guiar o usuário na localização de fontes primárias e secundárias, incluindo bibliografias de bibliografias, guias de literatura, diretórios de fontes de informação e listas de instituições especializadas."
+    }
+  },
+  {
+    "id": "m4-q-42",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "verbetes enciclopédia e fonte de atualização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9211caf6b92886839e8bde15dbe5d68c2c5b31f1bfc8cf985e3749c01b5afb49",
+    "shaDepois": "8a494d1b7cdedef683ce2645ca4dda500f8f717d682aab5e29dce753b8197927",
+    "patch": {
+      "justificativa": "ERRADO. Enciclopédias oferecem sínteses conceituais e contextuais. Cotações em tempo real exigem uma fonte com atualização compatível, não um anuário ou uma enciclopédia apenas por conter dados econômicos. Uma fonte pode ser confiável e ainda ser inadequada à velocidade exigida pelo pedido.",
+      "gatilho": "cotações financeiras em tempo real",
+      "armadilhaBanca": "Confiabilidade e adequação temporal são critérios diferentes.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — verbetes enciclopédia e fonte de atualização. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma enciclopédia de atualização eventual é fonte suficiente para informar uma cotação financeira em tempo real.",
+      "item": "As enciclopédias gerais prestam-se primordialmente à consulta de dados estatísticos diários e cotações financeiras em tempo real, sendo inadequadas para a obtenção de sínteses históricas introdutórias sobre conceitos consolidados."
+    }
+  },
+  {
+    "id": "m4-q-43",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "fontes primárias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d7b2f265a5df4f29585156240d04e9c664bd2ffd25caa68b513b027cf6d3908a",
+    "shaDepois": "f7ae2e42f7b3b11d082a2812009dfe1efc4f700a485ff4b330e4b4b89190829d",
+    "patch": {
+      "justificativa": "CERTO. Fontes primárias dão acesso a relatos, dados ou atos originais, como uma tese com resultados de pesquisa ou o texto oficial de uma lei. Elas também podem conter interpretação e vieses: primário não significa neutro, infalível ou superior para qualquer objetivo. A escolha depende da pergunta.",
+      "gatilho": "informações originais",
+      "armadilhaBanca": "Não converter proximidade da produção original em garantia de qualidade.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — fontes primárias. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda fonte primária é necessariamente neutra e mais adequada do que qualquer fonte secundária, independentemente da pesquisa.",
+      "item": "Segundo a classificação tradicional sistematizada por Murilo Bastos da Cunha, fontes primárias são aquelas que contêm informações originais publicadas pela primeira vez pelos próprios autores ou órgãos emissores, a exemplo de relatórios de pesquisa, teses, anais de congressos, patentes e atos normativos oficiais."
+    }
+  },
+  {
+    "id": "m4-q-44",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cjf",
+      "cad"
+    ],
+    "localizador": "Jurisprudência Unificada; distinção entre decisão e registro de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "4b6ebb7853643449e541c4d03ec702fe06eea68fc9691ab5c0051dbc17222229",
+    "shaDepois": "bfabfc5dc69cf356d3828dfddee61a07229221b72f9c88fdbc55b0ba2589f5b5",
+    "patch": {
+      "item": "A Jurisprudência Unificada do Conselho da Justiça Federal é um instrumento de pesquisa integrada, e seu uso não dispensa distinguir os registros de acesso dos textos originais das decisões.",
+      "justificativa": "CERTO. A plataforma do CJF reúne acesso à jurisprudência federal. Seus mecanismos de pesquisa e registros organizam o acesso; as decisões originais consultadas continuam sendo documentos primários de sua produção judicial. O banco anterior atribuía a plataforma ao CNJ e misturava produto de acesso com natureza de todos os documentos recuperados.",
+      "gatilho": "Conselho da Justiça Federal",
+      "armadilhaBanca": "Distinguir instituição responsável, instrumento de pesquisa e documento recuperado.",
+      "fonte": "Conselho da Justiça Federal — Jurisprudência Unificada — Jurisprudência Unificada; distinção entre decisão e registro de acesso — https://www.cjf.jus.br/jurisprudencia/unificada/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Jurisprudência Unificada do CJF transforma todas as decisões nela localizadas em comentários doutrinários, sem caráter de documento judicial original.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-684",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-684"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-45",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cpc"
+    ],
+    "localizador": "decisões e recursos; distinguir afastamento de aplicação e revogação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "015676356f55bb06a482d2d7d84e272c6ec19090d324f64ffcffeeb722615bbc",
+    "shaDepois": "eb0a155036c7e3c21416c4306efd639a05d62063020b2c335d4cbe524fce47a6",
+    "patch": {
+      "item": "Uma decisão judicial em caso concreto revoga automaticamente, com efeitos gerais, toda norma legal que o órgão julgador tenha deixado de aplicar.",
+      "justificativa": "ERRADO. Afastar a aplicação de uma norma ao julgar um caso não equivale automaticamente a revogá-la com efeitos gerais. O alcance da decisão depende da competência, da espécie processual e do regime jurídico aplicável. O pesquisador deve conferir esses elementos antes de afirmar que a lei deixou de existir para todos.",
+      "gatilho": "revoga automaticamente, com efeitos gerais",
+      "armadilhaBanca": "Não confundir decisão em caso concreto, efeitos de precedentes e revogação de lei.",
+      "fonte": "Código de Processo Civil, Lei 13.105/2015 — decisões e recursos; distinguir afastamento de aplicação e revogação — https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O alcance de uma decisão deve ser verificado; a não aplicação de uma norma em um caso não equivale automaticamente à sua revogação geral.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-46",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "fontes secundárias e instrumentos bibliográficos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c83de2fbdc8c79d163f28e1206864f9e486e2fa468e00b4ab0ee62d73f0b4146",
+    "shaDepois": "caa2246914cd4ec28e2943b5a03d56f9e2955b17ae90cf38fd18c3fef663e896",
+    "patch": {
+      "justificativa": "ERRADO. Catálogos, bibliografias e índices organizam dados sobre documentos e podem encaminhar ao conteúdo original. Um link para o texto completo não transforma automaticamente a descrição bibliográfica em relato original de pesquisa. Separe o registro de acesso e o documento acessado.",
+      "gatilho": "fontes de informação primárias",
+      "armadilhaBanca": "A disponibilidade de um link não muda a natureza de todos os componentes do serviço.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — fontes secundárias e instrumentos bibliográficos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Registros de catálogos e bibliografias organizam o acesso a documentos, mesmo quando incluem links para textos completos.",
+      "item": "As bibliografias analíticas, os índices de citações e os catálogos de bibliotecas são considerados fontes de informação primárias, pois disponibilizam a obra completa do autor sem qualquer tratamento documentário."
+    }
+  },
+  {
+    "id": "m4-q-47",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "coordenação e cooperação da rede",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "b4826eadeacb4301b6e3265a1bf2cfc3a3d8fd1d6ef7c6b0e387f70a4bf60c5b",
+    "shaDepois": "4cbe8d00d39579cb756c1e5dc5f1152e37b6a11b45dd9686d09808df66e94c63",
+    "patch": {
+      "justificativa": "CERTO. A Biblioteca do Senado coordena a RVBI, que compartilha trabalho e recursos entre bibliotecas de diferentes Poderes. O catálogo coletivo facilita localizar registros e exemplares. Cooperação não implica que toda biblioteca mantenha acervo idêntico nem que todo material possa ser emprestado ou acessado integralmente sem restrições.",
+      "gatilho": "coordenada pela Biblioteca do Senado Federal",
+      "armadilhaBanca": "Integração de registros não significa identidade de coleções e políticas.",
+      "fonte": "Senado Federal — A RVBI — coordenação e cooperação da rede — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A RVBI exige que todas as bibliotecas mantenham exatamente os mesmos acervos e regras de acesso.",
+      "item": "A RVBI é uma rede cooperativa que, coordenada pela Biblioteca do Senado Federal, é composta por bibliotecas dos Poderes Legislativo, Executivo e Judiciário que compartilham recursos bibliográficos e estruturam suas bases de dados de forma inter-relacionada, a fim de facilitar a recuperação da informação.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-48",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cpc"
+    ],
+    "localizador": "art. 1.029, §1º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "1921e606e2194f4bd6fb9174c1a26f760297d1f4320d64a74453a11182e49766",
+    "shaDepois": "7261ca047140b93fc68dae4f9cbf03bfee6a50bb0b189eaeff2fcfe37fb59ca4",
+    "patch": {
+      "justificativa": "CERTO. Repositórios oficiais ou autorizados são meios previstos para comprovar divergência jurisprudencial. O CPC também admite outras formas, como reprodução de julgado disponível na Internet com indicação da fonte e demonstração das circunstâncias pertinentes. Portanto, a autorização de um repositório não é o único caminho de comprovação em qualquer recurso.",
+      "gatilho": "oficialmente reconhecidas",
+      "armadilhaBanca": "Não transformar um meio admitido em meio exclusivo.",
+      "fonte": "Código de Processo Civil, Lei 13.105/2015 — art. 1.029, §1º — https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A divergência jurisprudencial só pode ser comprovada por uma publicação impressa autorizada, nunca por julgado disponível na Internet.",
+      "item": "Os 'repertórios autorizados de jurisprudência' são publicações periódicas ou coleções digitais oficialmente reconhecidas pelos tribunais superiores (como STF e STJ) para fins de comprovação de divergência jurisprudencial e citação em recursos processuais.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-49",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "composição e finalidades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "2ca7ac0ca739e423d4ec465b388ea518c463c1db82ed13e718790b3642063bee",
+    "shaDepois": "0116a49939c841a3cb7320314df1868e4eefe1b44413a4a0ca9153397e61c2d7",
+    "patch": {
+      "justificativa": "CERTO. A RVBI coopera entre bibliotecas da administração federal e do Distrito Federal, com presença dos três Poderes. A composição é uma informação sujeita a atualização; não se deve fixar um total de bibliotecas sem referência temporal. O nome da rede não a restringe às duas Casas do Congresso.",
+      "gatilho": "administração pública federal",
+      "armadilhaBanca": "Não inferir o alcance da rede apenas a partir de uma denominação abreviada.",
+      "fonte": "Senado Federal — A RVBI — composição e finalidades — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A RVBI é formada exclusivamente pela Câmara e pelo Senado e não admite bibliotecas de outros Poderes.",
+      "item": "A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) é uma rede cooperativa de bibliotecas que agrega recursos bibliográficos, materiais e humanos de variadas bibliotecas da administração pública federal, do governo do Distrito Federal e dos Poderes Legislativo, Executivo e Judiciário.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-50",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "autoridades produtoras e informação institucional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.2 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "31f59a5219b1dbf69214063c0568e2546958fc514107ea0654546d6ba9a0ddc7",
+    "shaDepois": "8a45cd090b3952156e0cf06971febcf60e3b05671d34ddadec1865a1c06a8279",
+    "patch": {
+      "justificativa": "CERTO. Órgãos públicos podem produzir atos, decisões, orientações e dados úteis à pesquisa jurídica. O Ministério da Saúde, por exemplo, produz atos em sua área; isso não o transforma em tribunal nem dá a qualquer página institucional o valor de legislação. A autoridade deve ser examinada em relação ao assunto e ao documento.",
+      "gatilho": "fontes de informação jurídica",
+      "armadilhaBanca": "Relacionar competência do emissor e natureza do documento.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — autoridades produtoras e informação institucional — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A produção de informação jurídica é exclusiva de tribunais, não podendo ser feita por órgãos administrativos ou legislativos.",
+      "item": "Instituições públicas como a Câmara dos Deputados, o Superior Tribunal Militar e o Ministério da Saúde são consideradas fontes de informação jurídica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-685",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-685"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-51",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "6.2: inverse document frequency",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "d5c27d5a5e8f6b39f6ae3029dd8db80255bb9b942ac356e3067ffe818d7cc4b4",
+    "shaDepois": "326570a7553ee4cfd8bf264425c408eabbb13c372335728fbc853a524a018230",
+    "patch": {
+      "justificativa": "ERRADO. Na forma clássica, IDF usa o logaritmo de N dividido pela frequência documental do termo. Se o termo aparece em muitos documentos, discrimina pouco e recebe menor peso IDF. Frequência dentro de um documento é TF; frequência entre documentos é df. As fórmulas podem ter ajustes, sem inverter essa função básica.",
+      "gatilho": "maior peso numérico",
+      "armadilhaBanca": "Não confundir frequência no documento e frequência na coleção.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 6.2: inverse document frequency — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No IDF clássico, termos presentes em poucos documentos recebem maior peso discriminatório do que termos presentes em quase todos.",
+      "item": "No esquema de ponderação de termos TF-IDF, a Frequência Inversa do Documento (IDF) atribui maior peso numérico às palavras que aparecem com frequência em praticamente todos os documentos da base de dados, a exemplo de artigos e preposições.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-52",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa",
+      "cad"
+    ],
+    "localizador": "planejamento e ferramentas colaborativas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "29f6621693ae14a92b0a06b44e24711bf3cb4147e5e5181bd8e119094366896a",
+    "shaDepois": "ca6335077f47ac77dc05a4115e596f8fd30020901494614b324f64dce50789b4",
+    "patch": {
+      "justificativa": "CERTO. Wikis podem reunir contribuições de usuários e profissionais para indicar fontes e construir respostas reutilizáveis. Colaboração exige moderação, revisão, atribuição e manutenção dos links. A contribuição de muitas pessoas não torna a informação automaticamente correta ou adequada para qualquer pergunta.",
+      "gatilho": "participar de wikis",
+      "armadilhaBanca": "Colaboração amplia contribuições, mas não substitui avaliação.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — planejamento e ferramentas colaborativas — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma wiki colaborativa dispensa verificação das fontes porque a participação de muitos usuários garante sua correção.",
+      "item": "Os usuários podem participar de wikis nos serviços de referência virtual colaborativa, aumentando a indicação de fontes disponíveis de pesquisa.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-227",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-227"
+      },
+      "contexto": "Acerca de fontes, busca e serviços de referência, julgue o item a seguir.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-53",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "escopo de assistência e orientação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "8f817e42ac5d2caed3353e09dcd165679bcca6e5177c30bc4467abba76511b13",
+    "shaDepois": "109f93177f92ade09827be51bada6f207707756a40a1631f472d77fddd69af6b",
+    "patch": {
+      "item": "A orientação sobre normalização técnica de trabalhos e publicações pode integrar os serviços de referência, conforme a missão e a política da instituição.",
+      "justificativa": "CERTO. Serviços de referência podem orientar usuários na apresentação e normalização de trabalhos, conforme a missão e a política da instituição. Isso não significa que todo bibliotecário de referência deva revisar integralmente toda publicação nem que normalização substitua avaliação do conteúdo científico.",
+      "gatilho": "normalização técnica",
+      "armadilhaBanca": "Distinguir um serviço possível e uma obrigação universal.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — escopo de assistência e orientação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O serviço de referência tem obrigação universal de revisar integralmente toda publicação da instituição, independentemente de sua política.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624010",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624010"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-54",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "negociação da questão e ajuste da estratégia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "98f1d5fd4bf84086bfcbfa9ac09d30951ef36c209ba2b84a0f3d27e3f34b704b",
+    "shaDepois": "2fdb968963b5f78b4f60f85e859f7b6594c16eb46fce0586aec9cf2c287c05a7",
+    "patch": {
+      "item": "No processo de referência, a identificação da terminologia utilizada pelo usuário deve ocorrer somente depois de concluir a pesquisa, sem influenciar a estratégia inicial.",
+      "justificativa": "ERRADO. A terminologia precisa ser compreendida ao negociar a questão e planejar a busca; pode ser refinada durante a pesquisa. Adiar essa compreensão até a conclusão compromete a estratégia. A redação foi explicitada para não sugerir uma proibição artificial de ajustar termos enquanto se pesquisa.",
+      "gatilho": "somente depois de concluir a pesquisa",
+      "armadilhaBanca": "Separar planejamento prévio de uma falsa proibição de revisão durante o processo.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — negociação da questão e ajuste da estratégia. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A terminologia do usuário deve ser compreendida na negociação e pode ser refinada durante a busca.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-230",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-230"
+      },
+      "contexto": "Acerca de fontes, busca e serviços de referência, julgue o item a seguir.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-55",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "solução e avaliação conjunta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "65b0de5ab3bb2228358d8647967558138f9e6580e420cb43e8e79089bb1a3127",
+    "shaDepois": "847db4ceec7905710bbe4e7a8a014a728280a464f14cd458203e0d6e00fb1cc0",
+    "patch": {
+      "justificativa": "ERRADO. O usuário ajuda a definir pertinência e avaliar se a resposta resolveu o problema. O bibliotecário contribui com estratégias, fontes e avaliação técnica. Não é uma disputa de protagonismo que torne uma das partes dispensável; a colaboração melhora a compreensão da necessidade.",
+      "gatilho": "participação do usuário",
+      "armadilhaBanca": "Não reduzir o consulente a receptor passivo da lista de resultados.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — solução e avaliação conjunta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A avaliação da resposta e da pertinência pode envolver bibliotecário e consulente, segundo os objetivos da consulta.",
+      "item": "A participação do usuário na avaliação do índice de precisão e no processo de busca e recuperação da informação é secundária, pois o bibliotecário é o principal agente desse processo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-103237",
+        "declaracaoLegada": "Cebraspe / CNJ / 2013 (Adaptada); identificador legado: TecConcursos-103237"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-56",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "8: precisão e revocação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8fc1e8a7ce730896345240c7e638ca40691b057bd5ee44227610688c78a897fa",
+    "shaDepois": "050250141b31c7fa6bef59f905a79ea4dfe9e3f4d5358406c7b928418a6496ba",
+    "patch": {
+      "justificativa": "CERTO. Uma consulta mais ampla pode recuperar relevantes antes omitidos e também trazer irrelevantes. Nesse caso, a revocação pode subir e a precisão cair. Isso não é uma lei inversa necessária: melhorar indexação, desambiguação ou consulta pode favorecer ambas. O julgamento depende do caráter possível, e não obrigatório, descrito no enunciado.",
+      "gatilho": "não estabelece uma proporcionalidade inversa obrigatória",
+      "armadilhaBanca": "Distinguir uma possibilidade observada e uma relação matemática universal.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 8: precisão e revocação — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Em qualquer busca, precisão e revocação são obrigatoriamente inversas e nunca podem melhorar simultaneamente.",
+      "item": "Em uma consulta, ampliar o conjunto recuperado pode elevar a revocação e reduzir a precisão. Essa possibilidade não estabelece uma proporcionalidade inversa obrigatória entre as duas medidas em toda busca."
+    }
+  },
+  {
+    "id": "m4-q-57",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "8: cálculo de precisão e revocação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "54ab6ac0bdfe6f5f84b4b8269852675019455a77e3ec6fa56816fed03f1def5e",
+    "shaDepois": "6e5df999a310dcf00ed1a5723b73a3658ccef1456f5a214644eb806bc8cf8e22",
+    "patch": {
+      "justificativa": "ERRADO. Precisão usa o total recuperado: 12/20 = 60%. Já 12 sobre 30 calcula revocação: 40% dos relevantes existentes foram encontrados. O enunciado chamou a segunda proporção de precisão. Reconheça o universo do denominador antes de converter a fração em porcentagem.",
+      "gatilho": "precisão dessa busca é de 40%",
+      "armadilhaBanca": "A troca de denominadores altera a métrica, mesmo que a conta esteja correta.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 8: cálculo de precisão e revocação — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A precisão da busca é 60%, e sua revocação é 40%.",
+      "item": "Uma busca recuperou 20 documentos, dos quais 12 são relevantes. Sabendo que existem 30 documentos relevantes no acervo, a precisão dessa busca é de 40%."
+    }
+  },
+  {
+    "id": "m4-q-58",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "1: união e interseção booleanas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "570cb20782986ab21167f6af87849e093bf7b7d09840c07283d3de6dc9205966",
+    "shaDepois": "0f06f8b04b042134f8b839b28f35eeb1a5e4e63bb4f9dfd8e7751adb8980778a",
+    "patch": {
+      "justificativa": "ERRADO. No mesmo universo de documentos, A AND B é a interseção e A OR B é a união. A união inclui os documentos de qualquer dos conjuntos e não exige que ambos os termos ocorram. Isso descreve conjuntos, sem garantir maior relevância de todos os resultados adicionais.",
+      "gatilho": "restringe o resultado",
+      "armadilhaBanca": "Não confundir ampliação de conjunto e melhoria automática de pertinência.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 1: união e interseção booleanas — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A OR B reúne documentos que satisfazem A ou B; A AND B exige simultaneamente as duas condições.",
+      "item": "Em uma base que interpreta OR como união booleana, trocar a consulta A AND B por A OR B restringe o resultado aos documentos que contêm os dois termos simultaneamente."
+    }
+  },
+  {
+    "id": "m4-q-59",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "2.2: stemming and lemmatization",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "a2a6480f9e5e0882246198fd077541ca8fd47652e392aaf90b830162da22060d",
+    "shaDepois": "e4042c6603f9959face3e6e590c7dc74c52a30551174c4b0636b9a67ee9d0ffb",
+    "patch": {
+      "justificativa": "CERTO. Lematização usa análise linguística e vocabulário para obter a forma de dicionário; stemming pode aplicar cortes heurísticos que geram radicais não lexicais. A qualidade depende da língua e da implementação. Nenhuma técnica garante que formas parecidas tenham sempre o mesmo sentido no contexto.",
+      "gatilho": "forma de dicionário canônica (lema)",
+      "armadilhaBanca": "Separar normalização morfológica e compreensão semântica.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 2.2: stemming and lemmatization — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Stemming sempre produz uma palavra válida de dicionário e garante desambiguação de todos os sentidos.",
+      "item": "A técnica de lematização (lemmatization) em processamento de linguagem natural difere do 'stemming' básico porque utiliza análise morfológica e vocabulário para reduzir a palavra à sua forma de dicionário canônica (lema), e não apenas podar afixos mecânicos.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-60",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa",
+      "cad"
+    ],
+    "localizador": "1.4 e 2: diferenças e planejamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "4346d9f03880c8f6bbd156b88c4abc594c6ecfeeb63eacede7ddbf04f1151d27",
+    "shaDepois": "43d897632103a7bf083defcf1c6ceaf85ff732c4e4525c3d8b80ad7953c67092",
+    "patch": {
+      "item": "O planejamento de referência virtual deve reproduzir integralmente os procedimentos presenciais, sem qualquer adaptação de comunicação, infraestrutura ou privacidade.",
+      "justificativa": "ERRADO. Princípios de qualidade e ética valem em ambos os contextos, mas o atendimento virtual exige decisões sobre canal, comunicação, privacidade, infraestrutura e avaliação. Nem todo serviço precisa funcionar 24 horas. Adaptar o planejamento não significa abandonar os fundamentos do serviço presencial.",
+      "gatilho": "sem qualquer adaptação",
+      "armadilhaBanca": "Distinguir princípios comuns e requisitos operacionais específicos.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — 1.4 e 2: diferenças e planejamento — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O planejamento virtual compartilha fundamentos com o presencial, mas precisa tratar as condições do canal e da instituição.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-225",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-225"
+      },
+      "contexto": "Acerca de fontes, busca e serviços de referência, julgue o item a seguir.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-61",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "2: consultas de proximidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "e78dfd21b34e6c28027e9667e36afc5e9a6ed210a89391e53972acd8bfc29302",
+    "shaDepois": "fa710e23d0757371d010e79df6179def7dcbbc927b1f90e246d56b047d6b2db0",
+    "patch": {
+      "justificativa": "ERRADO. Operadores de proximidade impõem uma condição de distância ou adjacência entre ocorrências, conforme a sintaxe da base. OR é uma união de condições e não exige proximidade. NEAR e ADJ não têm, em todos os produtos, a mesma distância, ordenação ou sintaxe; é preciso conferir a implementação.",
+      "gatilho": "idêntica ao operador booleano OR",
+      "armadilhaBanca": "Não presumir equivalência entre operadores nem sintaxe universal entre bases.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 2: consultas de proximidade — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um operador de proximidade exige a distância ou adjacência definida pelo sistema e não equivale à união booleana OR.",
+      "item": "O operador de proximidade NEAR (ou ADJ) atua de forma idêntica ao operador booleano OR, dispensando a exigência de que as palavras pesquisadas estejam próximas ou contíguas no texto.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-62",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "2.2: eliminação de stopwords",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "c24ee4a2b8178825df43aae14def59e0555e5cfd2536aae055366fdab49876f6",
+    "shaDepois": "73cd41e0cf2af5962248f93ac38cf307f69ce119170a2f30c9e5aada60f62900",
+    "patch": {
+      "justificativa": "ERRADO. Eliminar stopwords significa deixar de indexar ou de considerar certas palavras frequentes, conforme o sistema; não lhes dar preferência. Essas palavras podem ter importância em nomes e expressões, por isso sua remoção não é sempre vantajosa. Um mecanismo moderno pode mantê-las em vez de adotar uma lista fixa.",
+      "gatilho": "indexar preferencialmente",
+      "armadilhaBanca": "Não transformar uma opção de processamento em uma regra universal de irrelevância linguística.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 2.2: eliminação de stopwords — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Eliminar stopwords é desconsiderar determinados termos frequentes, com possíveis perdas conforme a consulta e a implementação.",
+      "item": "A eliminação de 'stopwords' em um mecanismo de busca digital tem por objetivo indexar preferencialmente artigos definidos, conjunções e pronomes oblíquos, dada a sua excepcional capacidade de representação temática do documento.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-63",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "1 e 6: booleano e recuperação ordenada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "237da4b998f8305921a1ee999438785e483d4033d72897981f2c44b864fa2287",
+    "shaDepois": "cdeb607fd348a373d83587bf5e92ef34d2561901692fc3c31b655662227b57fb",
+    "patch": {
+      "justificativa": "CERTO. O booleano clássico testa se o documento satisfaz uma expressão lógica, sem pontuação gradual de relevância inerente ao modelo. Um produto pode combinar filtro booleano com outra função de ordenação; isso não prova que o booleano clássico sozinho produz o ranking. A palavra clássico delimita o julgamento.",
+      "gatilho": "Modelo Booleano clássico",
+      "armadilhaBanca": "Separar o modelo teórico e recursos extras de um produto.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 1 e 6: booleano e recuperação ordenada — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O modelo booleano clássico, sem qualquer mecanismo adicional, sempre atribui uma pontuação gradual de relevância a cada documento.",
+      "item": "No Modelo Booleano clássico de recuperação da informação, a correspondência entre os termos da consulta e os termos do documento é binária e exata, o que impossibilita a atribuição natural de ordenação por grau de relevância (ranking) aos documentos recuperados.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-64",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "8: conjuntos, relevância e avaliação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "760ce6107b923e89c50f89f6e60b93fa335e4e79ce9eb4d1af7adf03c6164908",
+    "shaDepois": "16f19a83bafa4160c1ae77d49d899a064587150ab0dcde6376c7d201322a92fb",
+    "patch": {
+      "item": "A adoção de inteligência artificial em uma base documental garante simultaneamente 100% de precisão e 100% de revocação para qualquer consulta temática em linguagem natural.",
+      "justificativa": "ERRADO. É possível obter precisão e revocação perfeitas em um conjunto de avaliação definido, mas a presença de IA não garante isso para qualquer consulta ou necessidade. Relevância e cobertura precisam ser avaliadas. O comentário anterior errava ao declarar uma impossibilidade matemática universal baseada em suposta proporcionalidade inversa.",
+      "gatilho": "garante simultaneamente",
+      "armadilhaBanca": "Rejeitar uma garantia indevida sem afirmar que o resultado perfeito seja matematicamente impossível.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 8: conjuntos, relevância e avaliação — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A presença de IA não garante precisão e revocação perfeitas; as métricas dependem da consulta, do conjunto e dos julgamentos de relevância.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-65",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa",
+      "cad"
+    ],
+    "localizador": "5: privacidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "c03421508495751d26d0f7a8c5e141d603cf5142ba8a3f464cb6222a54a3550d",
+    "shaDepois": "9daf79fd38cdafd2dc33327151bbd1630d70412f0b176fcb64e7f52f363b9fce",
+    "patch": {
+      "item": "Um serviço de referência virtual pode armazenar dados necessários à continuidade do atendimento, desde que adote salvaguardas de privacidade e confidencialidade e respeite a finalidade e as regras aplicáveis.",
+      "justificativa": "CERTO. O serviço pode registrar dados e interações para finalidades legítimas, mas precisa de política de privacidade, controle de acesso e retenção adequada. O canal digital não preserva sigilo automaticamente. Devem ser coletados apenas dados pertinentes ao serviço, observadas as obrigações legais aplicáveis.",
+      "gatilho": "salvaguardas de privacidade e confidencialidade",
+      "armadilhaBanca": "Distinguir possibilidade técnica de armazenamento e condições éticas e legais de tratamento.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — 5: privacidade — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Por ser virtual, o atendimento permite reter e divulgar todos os dados das consultas sem finalidade definida ou controles de acesso.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-436539",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013 (Adaptada); identificador legado: TecConcursos-436539"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-66",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa",
+      "cad"
+    ],
+    "localizador": "1.4 e 2: planejamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "f26e6a00762e5c87281327f1994fedff2d57f4f4c0efaec5b02180b844d25fe5",
+    "shaDepois": "fee7e144f9ea2d9881f846b9ed0bd20a1b69ba345d2d4be05a83606bc597e3e5",
+    "patch": {
+      "item": "As características digitais do acervo determinam, por si sós, o nível de especialização do serviço de referência, independentemente das necessidades dos usuários, da missão e dos recursos da biblioteca.",
+      "justificativa": "ERRADO. O planejamento deve considerar público, demandas, canais, recursos e formas de mediação. O suporte digital traz requisitos próprios, mas não determina sozinho a especialização nem elimina o estudo de usuários. A redação foi explicitada para evitar uma falsa oposição entre biblioteca digital e biblioteca tradicional, que também pode oferecer recursos digitais.",
+      "gatilho": "independentemente das necessidades dos usuários",
+      "armadilhaBanca": "Uma característica do suporte não substitui o diagnóstico do serviço.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — 1.4 e 2: planejamento — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O nível de especialização de referência deve considerar necessidades, missão, recursos e canais, além das características do acervo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-103236",
+        "declaracaoLegada": "Cebraspe / CNJ / 2013 (Adaptada); identificador legado: TecConcursos-103236"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-67",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "qpoint",
+      "cad"
+    ],
+    "localizador": "QuestionPoint 24/7 Reference Cooperative e transição de 2019",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "591bb55bdb3d6720488df71c8c57a5b1de926ccba300f6eb2a855b710e699536",
+    "shaDepois": "c874bd856c1483b69104bd400658c2c01cdf784055b14814689f912021cf9e1e",
+    "patch": {
+      "item": "O histórico QuestionPoint era uma rede destinada apenas à troca interna de informações entre bibliotecários, sem prestar atendimento ao público das bibliotecas participantes.",
+      "justificativa": "ERRADO. O QuestionPoint foi um serviço cooperativo de referência que apoiava o atendimento aos usuários das bibliotecas. Ferramentas de gestão entre profissionais não significam ausência de contato com o público. O exemplo é histórico: a OCLC transferiu o serviço para Springshare em 2019; não deve ser apresentado como produto atual da OCLC sem essa ressalva.",
+      "gatilho": "sem prestar atendimento ao público",
+      "armadilhaBanca": "Distinguir a equipe que gerencia o serviço e o público que ele atende.",
+      "fonte": "OCLC — Relatório anual 2018–2019 — QuestionPoint 24/7 Reference Cooperative e transição de 2019 — https://www.oclc.org/en/annual-report/2019/home.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Historicamente, a cooperação QuestionPoint apoiava atendimento aos usuários, com trabalho compartilhado entre bibliotecas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624011",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624011"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-68",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "qpoint",
+      "cad"
+    ],
+    "localizador": "referência cooperativa 24/7",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "a4150fe4226380a979420a8d2448b82910f410eb9bb0025573b10a117dba40e7",
+    "shaDepois": "50fbc0499563dcbc1e710a68d0ac6a33d6214e44f5f932187fff533ab5ad1ce7",
+    "patch": {
+      "item": "Redes cooperativas de referência virtual, como o histórico QuestionPoint 24/7, ilustram a possibilidade de atendimento em tempo real com cobertura de vinte e quatro horas, conforme a organização do serviço.",
+      "justificativa": "CERTO. A cooperação entre equipes e instituições pode viabilizar atendimento em tempo real por períodos ampliados, inclusive 24/7 quando contratado e organizado. Isso não significa que qualquer biblioteca ou qualquer serviço virtual funcione continuamente. QuestionPoint é um exemplo histórico, transferido da OCLC para Springshare em 2019.",
+      "gatilho": "possibilidade de atendimento",
+      "armadilhaBanca": "Uma possibilidade de uma rede não é garantia universal de um canal.",
+      "fonte": "OCLC — Relatório anual 2018–2019 — referência cooperativa 24/7 — https://www.oclc.org/en/annual-report/2019/home.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo serviço de referência virtual funciona automaticamente 24 horas por dia, independentemente de equipe, contrato e organização.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-436541",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436541",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013; identificador legado: 436541"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-69",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "1: diferença de conjuntos por NOT",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "79ae68f79ebe9b9d3525fbb755516bb8bdd567a0d957b1d10ac1f9e82a5cde60",
+    "shaDepois": "59aa8f633fb8c1688d035b3db0d69ff6b3453f5b342122ee7e7b9f3881618d64",
+    "patch": {
+      "justificativa": "CERTO. NOT exclui documentos que satisfazem a condição negada, mesmo se também forem relevantes por outro aspecto. Uma busca por responsabilidade civil NOT família pode perder uma obra útil que compare os dois temas. A exclusão deve ser testada, em vez de presumir que reduzir resultados sempre melhora a busca.",
+      "gatilho": "excluir documentos altamente relevantes",
+      "armadilhaBanca": "O operador testa uma condição, não compreende sozinho a pertinência de cada ocorrência.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 1: diferença de conjuntos por NOT — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "NOT elimina somente documentos irrelevantes, pois reconhece automaticamente quando o termo negado é apenas secundário.",
+      "item": "O operador lógico NOT (NÃO) deve ser utilizado com cautela na formulação de estratégias de busca, pois corre o risco de excluir documentos altamente relevantes que abordem o termo excluído de maneira secundária ou comparativa.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-70",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "11.4: Okapi BM25",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "7f7d96f7e066a656d60afb5dd72f65a639568999f7f7e86049a929f1e36fd692",
+    "shaDepois": "e690e0dcad6c66248c20b98f283cb6d1e2ed6790214454a44d2a42cfb97c40e4",
+    "patch": {
+      "item": "O BM25 é uma função de pontuação com fundamentos probabilísticos que combina ponderação dos termos, saturação da frequência e normalização pelo comprimento dos documentos.",
+      "justificativa": "CERTO. BM25 atribui uma pontuação de recuperação com origem no modelo probabilístico, usando frequência dos termos, frequência documental e normalização por comprimento. A saturação reduz o ganho de repetir um termo indefinidamente. A pontuação não é, por si só, uma probabilidade calibrada de relevância entre zero e um.",
+      "gatilho": "saturação da frequência",
+      "armadilhaBanca": "Não interpretar uma pontuação de ordenação como probabilidade calibrada.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 11.4: Okapi BM25 — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A pontuação BM25 de 0,8 significa necessariamente 80% de probabilidade calibrada de o documento ser relevante.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-71",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "8: revocação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f4bbc3247a380ebe251600179c29f3eba9954322bd3b9c72038a31e0e8558b3a",
+    "shaDepois": "5ed9d4d3e91eba108a8b685555d71d8be09683effeb1577214868d5562957d3a",
+    "patch": {
+      "justificativa": "CERTO. Revocação é 15/50 = 30%. Documentos irrelevantes recuperados afetam a precisão, mas não entram nesse denominador. Sem conhecer o total de respostas, não se calcula a precisão. Identifique que o enunciado já forneceu o total de relevantes existentes.",
+      "gatilho": "50 documentos relevantes",
+      "armadilhaBanca": "Separar o universo de relevantes da base e o conjunto recuperado.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 8: revocação — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Ao recuperar 15 de 50 documentos relevantes, a precisão é necessariamente 30%, mesmo sem saber o total de respostas.",
+      "item": "Uma coleção possui 50 documentos relevantes para uma necessidade de informação. Se a busca recupera 15 deles, sua revocação é de 30%, independentemente da quantidade de documentos não relevantes também recuperados."
+    }
+  },
+  {
+    "id": "m4-q-72",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "questões residuais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "98bd54991a2870a8efd6640470e8107de64db44869c0b0a19c34281241f84d81",
+    "shaDepois": "b4e4b75aa34c7a5cd4feb44a22b5e383e16900a4921831c77845d47d9aaa5a7c",
+    "patch": {
+      "justificativa": "ERRADO. Questões residuais são as que permanecem sem resposta após os caminhos de busca empregados, e não uma categoria definida exclusivamente por impossibilidade lógica. A dificuldade pode decorrer de fontes, recursos ou limites do atendimento. O comentário anterior errava ao afirmar que a expressão era inexistente na literatura de referência.",
+      "gatilho": "impossibilidade lógica",
+      "armadilhaBanca": "Uma questão sem resposta não é necessariamente uma pergunta logicamente impossível.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — questões residuais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Questões residuais são as que permanecem sem solução no atendimento após os caminhos de investigação utilizados.",
+      "item": "Consulta residual é aquela a que, por impossibilidade lógica da questão apresentada pelo usuário demandante, o bibliotecário de referência não tem resposta a oferecer.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2018",
+        "ano": 2018,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-218",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-218"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-73",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "negociação da questão, pp. 50–56",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "a57ca637f963f2ea7a871dca9f9f39631b07934df72afee39b49596bfe09ba43",
+    "shaDepois": "491bf7721f052ea5c8e8d759ef74c94343ea1e194beb92766c78c1f1b62e23fb",
+    "patch": {
+      "item": "Na referência, a negociação pode revelar ambiguidades na necessidade inicialmente expressa pelo usuário e orientar sua reformulação, sem garantir a eliminação de toda incerteza.",
+      "justificativa": "CERTO. Uma necessidade pode ser difícil de expressar, e a conversa pode revelar restrições e ambiguidades antes ocultas. Negociar ajuda a compreendê-las; não aumenta necessariamente a imprecisão nem garante sua eliminação completa. A busca pode exigir retornos quando aparecem novas informações.",
+      "gatilho": "revelar ambiguidades",
+      "armadilhaBanca": "Distinguir revelar uma ambiguidade existente e produzir necessariamente mais imprecisão.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — negociação da questão, pp. 50–56. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A negociação da questão garante eliminar toda ambiguidade e impede qualquer reformulação posterior da busca.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-103238",
+        "declaracaoLegada": "Cebraspe / CNJ / 2013 (Adaptada); identificador legado: TecConcursos-103238"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-74",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "6.3: modelo vetorial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "c0b97742df5cdfd235135c63c9619b5b9c155ecd76a3c85a7fd93bce1e18f7c8",
+    "shaDepois": "afc17bdeec000c8e799525610962cf1a4f798887f6abeaca119b34454d19c10a",
+    "patch": {
+      "justificativa": "CERTO. Na representação vetorial clássica, consultas e documentos têm pesos em dimensões de termos, e o cosseno mede a proximidade de suas direções. Um cosseno alto indica similaridade segundo essa representação; não comprova relevância para qualquer finalidade nem verdade factual do conteúdo. Vetores nulos exigem tratamento específico, pois a fórmula não é definida para eles.",
+      "gatilho": "cosseno do ângulo",
+      "armadilhaBanca": "Similaridade segundo uma representação não equivale a verdade nem pertinência universal.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 6.3: modelo vetorial — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O cosseno entre consulta e documento comprova a verdade factual do texto e sua relevância para qualquer usuário.",
+      "item": "No Modelo Vetorial de recuperação da informação, documentos e consultas são representados como vetores multidimensionais em um espaço vetorial, onde a similaridade temática é calculada pelo cosseno do ângulo formado entre eles.",
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-75",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "questão inicial e questão negociada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.3 para 4.4 segundo o assunto efetivo.",
+    "shaAntes": "6eae9e6efbe4bfa31d96deca4231cea9d8763b470f810a508dc3d7c220ee03ae",
+    "shaDepois": "2e018c9f9ae51fa3f10433b371f474495717edae51b23dc8536cda37b8b98683",
+    "patch": {
+      "item": "No processo de referência, a distinção entre questão inicial e questão negociada ajuda a compreender a reformulação da pergunta em diálogo entre bibliotecário e consulente.",
+      "justificativa": "CERTO. A questão inicial é apresentada pelo consulente; a negociada resulta de esclarecimentos sobre o que precisa ser resolvido. A reformulação é construída em diálogo, não imposta unilateralmente pelo bibliotecário. São passos didáticos do processo e podem ser revisitados, em vez de duas etapas rígidas de toda entrevista.",
+      "gatilho": "questão inicial e questão negociada",
+      "armadilhaBanca": "Reformular em colaboração não significa substituir a necessidade por decisão do profissional.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — questão inicial e questão negociada. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A questão negociada é definida unilateralmente pelo bibliotecário e dispensa confirmação com o consulente.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio Doc (FUB)/FUB/2013",
+        "ano": 2013,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-346459",
+        "declaracaoLegada": "Cebraspe / FUB / 2013 (Adaptada); identificador legado: TecConcursos-346459"
+      },
+      "contexto": "Acerca de fontes, busca e serviços de referência, julgue o item a seguir.",
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m4-q-76",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa",
+      "cad"
+    ],
+    "localizador": "1.1–1.3: definição e canais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "338dacb517b0b874f8ebba9190eb622f745b408378933061137a093cceb856d7",
+    "shaDepois": "cda2fbd7f072fd5f5eb6eaefd61208dea99f135da4398350624dbede84a0c748",
+    "patch": {
+      "item": "O serviço de referência virtual pode usar comunicação remota por chat, e-mail ou videoconferência, enquanto bases e páginas de FAQ podem apoiar o atendimento e o autoatendimento.",
+      "justificativa": "CERTO. Referência virtual envolve comunicação mediada eletronicamente com a equipe, como chat, videoconferência e e-mail. Consultar uma base sozinho não é, por si só, referência virtual. Uma FAQ pode apoiar autoatendimento, mas não equivale em toda situação à interação com um profissional; telefone pode complementar o atendimento sem ser classificado como virtual por toda definição.",
+      "gatilho": "comunicação remota",
+      "armadilhaBanca": "Separar recurso digital, autoatendimento e comunicação de referência.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — 1.1–1.3: definição e canais — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer consulta autônoma a uma base eletrônica constitui, por si só, atendimento de referência virtual por um profissional.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-436542",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436542",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013; identificador legado: 436542"
+      }
+    }
+  },
+  {
+    "id": "m4-q-77",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlURN"
+    ],
+    "localizador": "Parte 2: identificação e resolução de URN",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "ddb44b635d85e1e22ee044001a45ff1b62a32fc2b74f0bb193c78c056ab77260",
+    "shaDepois": "58f56c9576fbc8c69119761bdaf3d425fbe581d69331efee759b52a68fe6285c",
+    "patch": {
+      "justificativa": "ERRADO. A URN identifica o documento independentemente de um endereço de rede específico. Um serviço de resolução associa o nome aos recursos disponíveis. A persistência não é mágica: exige manutenção; ela não torna uma URL imune a mudanças. O comentário anterior citava a RFC 8288, que trata de links na Web e não define a URN LexML.",
+      "gatilho": "prescindindo",
+      "armadilhaBanca": "Separar nome persistente, localização e manutenção do resolvedor.",
+      "fonte": "LexML Brasil — Parte 2: LEXML URN — Parte 2: identificação e resolução de URN — https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "LexML usa URNs para identificação persistente e serviços de resolução para localizar recursos associados.",
+      "item": "O esquema de identificação persistente do portal LexML Brasil estrutura-se em endereços de rede (URLs) dinâmicos vinculados à arquitetura de servidores de cada tribunal, prescindindo do padrão de nomes uniformes de recursos (URNs).",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-78",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad"
+    ],
+    "localizador": "documentos disponíveis em meio eletrônico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 8.1 segundo o assunto efetivo.",
+    "shaAntes": "df176d01008fb04810cd5fccad2e566782b7b9db2d01d691e6b1c2044da2d6c9",
+    "shaDepois": "4d23795ac127f09ff229092d7b169b63f9270bdd087dcc5c6f867f2a2c6f4d97",
+    "patch": {
+      "item": "Segundo a ABNT NBR 6023:2025, o endereço eletrônico de um documento disponível online deve ser colocado entre aspas na referência.",
+      "justificativa": "ERRADO. A NBR 6023:2025 não exige colocar aspas em torno do endereço eletrônico. Devem ser seguidas as regras aplicáveis ao tipo documental e à disponibilidade, com as expressões e dados de acesso pertinentes. A edição 2018 também não era a versão vigente no corte adotado; não reutilize instruções de 2002 sem identificar a edição.",
+      "gatilho": "entre aspas",
+      "armadilhaBanca": "Conferir edição e delimitadores, sem confundir endereço com título entre aspas.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — documentos disponíveis em meio eletrônico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na referência de um documento disponível online, o endereço e a data de acesso seguem as regras da edição aplicável, sem exigir aspas em torno do endereço.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-104037",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "104037",
+        "declaracaoLegada": "Cebraspe / STJ / 2012; identificador legado: 104037"
+      },
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m4-q-79",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "oito passos e atores, pp. 50–56",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0d84b69dcc6f0561dbe4320bed812b9708d3d0e3aaff20fb6a1df1a31177c799",
+    "shaDepois": "d726a371da9f791d524d11b15dab606c94008c7f098eaba68c96ad9c096e4c27",
+    "patch": {
+      "item": "No processo de referência de Grogan, as primeiras manifestações do problema são atribuídas exclusivamente ao bibliotecário, enquanto o usuário participa apenas após a resposta pronta.",
+      "justificativa": "ERRADO. O problema e a necessidade se manifestam na situação do consulente, que apresenta a pergunta inicial. Bibliotecário e usuário participam da negociação e da avaliação. O modelo não autoriza tomar a pergunta como algo criado exclusivamente pelo profissional nem impõe uma marcha sem retornos.",
+      "gatilho": "primeiras manifestações do problema são atribuídas exclusivamente ao bibliotecário",
+      "armadilhaBanca": "Distinguir papéis sem tratar os passos como uma sequência inflexível.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — oito passos e atores, pp. 50–56. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Problema, necessidade e questão inicial partem da situação do consulente; negociação e avaliação envolvem colaboração.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "BASA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-1303115",
+        "declaracaoLegada": "Cebraspe / BASA / 2012 (Adaptada); identificador legado: TecConcursos-1303115"
+      }
+    }
+  },
+  {
+    "id": "m4-q-80",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlXML"
+    ],
+    "localizador": "Partes 2 e 3: autoridade, ato jurisdicional e metadados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "9da5a1279b2e63a745d5cb9bbc975344283592d541a01d5c1a97fd0c72cce8dd",
+    "shaDepois": "8eec95d13b66a5e2f1294f169ec4b7e7954298ea8a6178d80113fd81b5f45d8d",
+    "patch": {
+      "justificativa": "CERTO. Dados de identificação ajudam a distinguir decisões semelhantes e conferir sua origem. Julgamento e publicação podem ocorrer em datas diferentes; uma não substitui automaticamente a outra. Identificar a decisão também não prova que seu entendimento permanece aplicável ou que tem o mesmo alcance de outro precedente.",
+      "gatilho": "órgão julgador, relator, número do processo",
+      "armadilhaBanca": "Separar identificação documental, datas e alcance jurídico.",
+      "fonte": "LexML Brasil — Parte 3: XML Schema — Partes 2 e 3: autoridade, ato jurisdicional e metadados — https://projeto.lexml.gov.br/documentacao/Parte-3-XML-Schema.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Data de julgamento e data de publicação são sempre idênticas e podem ser substituídas uma pela outra sem conferência.",
+      "item": "Na representação de acórdãos judiciais no LexML, metadados como órgão julgador, relator, número do processo, data de julgamento e data de publicação no Diário da Justiça são cruciais para a desambiguação e correta citação da jurisprudência.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-81",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "avaliação da solução",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "784b2efc6372c91d39e5a949b2907eb29df3345f64f7e36cf8278255acd2ecc4",
+    "shaDepois": "d4a591dde4e0d464998d278853714edde5f2c3f2a9b47982ac22b0b06c6c9c5e",
+    "patch": {
+      "item": "A variedade de necessidades e a negociação entre usuário e bibliotecário tornam a avaliação do serviço de referência metodologicamente desafiadora, exigindo critérios qualitativos e quantitativos adequados.",
+      "justificativa": "CERTO. As necessidades e os critérios de sucesso variam, o que exige avaliação cuidadosa. Podem ser combinados análise de respostas, satisfação, utilidade, tempo e resolução do problema. A dificuldade metodológica não torna o serviço impossível de avaliar nem permite usar quantidade de atendimentos como único indicador de qualidade.",
+      "gatilho": "metodologicamente desafiadora",
+      "armadilhaBanca": "Dificuldade de mensuração não equivale a impossibilidade de avaliação.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — avaliação da solução. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Por envolver necessidades subjetivas, o serviço de referência não pode ser avaliado por qualquer método."
+    }
+  },
+  {
+    "id": "m4-q-82",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlURN"
+    ],
+    "localizador": "Parte 2: estrutura de identificação e elemento documento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "dd786307518e1bb5d311fe726a74c0ff469b732a94e79fc5f21c90885a4858f9",
+    "shaDepois": "54db327fa1e25f9d32aa181e0b1479899675ab7bedd4c5b0ba0ce7bf0aca2dcc",
+    "patch": {
+      "item": "A URN LexML estrutura componentes de jurisdição, autoridade, tipo documental e identificação do ato, como em urn:lex:br:federal:lei:2011-11-18;12527.",
+      "justificativa": "CERTO. A URN identifica jurisdição, autoridade e tipo de documento, seguidos da data representativa e do número, conforme o padrão. No exemplo, br, federal e lei identificam esses componentes, e 2011-11-18;12527 identifica a lei. A data representativa não deve ser chamada indistintamente de publicação ou julgamento para toda espécie documental.",
+      "gatilho": "urn:lex:br:federal:lei:2011-11-18;12527",
+      "armadilhaBanca": "Distinguir identificador estruturado, espécie documental e significado da data.",
+      "fonte": "LexML Brasil — Parte 2: LEXML URN — Parte 2: estrutura de identificação e elemento documento — https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A URN LexML de uma lei é apenas a URL dinâmica do servidor e não contém componentes de identificação do ato.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-83",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir",
+      "cad"
+    ],
+    "localizador": "1–2: consulta e operadores",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "4422ce7b1b876aaac5d61891570030557926db8674d3d2ef19f603abe64d9be8",
+    "shaDepois": "2cbf7f9a9ec7308a8528cefabe875939cf69deb32dd255872a5f864257e42061",
+    "patch": {
+      "justificativa": "CERTO. Uma consulta pode combinar termos naturais, palavras-chave e descritores com operadores conforme a base. A estratégia também envolve escolher fontes, campos, limites e revisar resultados. Assim, a expressão de busca é parte importante, mas não esgota todo o planejamento da pesquisa.",
+      "gatilho": "operadores lógicos booleanos",
+      "armadilhaBanca": "Não reduzir toda a estratégia a uma expressão isolada.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 1–2: consulta e operadores — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A estratégia de busca se limita a digitar palavras e dispensa escolher fontes, campos e limites ou avaliar resultados.",
+      "item": "A estratégia de busca, mecanismo que possibilita a recuperação de uma informação, é a pergunta, ou o conjunto de perguntas, formada por palavras da linguagem natural, por palavras -chave ou descritores, que podem estar unidos por operadores lógicos booleanos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-185311",
+        "ano": 2014,
+        "orgao": "CADE",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "185311",
+        "declaracaoLegada": "Cebraspe / CADE / 2014; identificador legado: 185311"
+      },
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-84",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan",
+      "cad"
+    ],
+    "localizador": "entrevista e negociação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ecec7f44db224a18809134517808ba6c3907b5368701639e5344b25f4c48a6bd",
+    "shaDepois": "516cf9f4522e71ed1171507794c36282a31dfe3329ae015d4da713aa89421bdb",
+    "patch": {
+      "justificativa": "ERRADO. Roteiros podem apoiar consistência e lembrar pontos importantes, mas precisam de adaptação à demanda. Não garantem rapidez nem qualidade em todos os atendimentos. Uma sequência rígida pode ignorar uma urgência, uma dúvida de edição ou uma necessidade que só aparece no diálogo.",
+      "gatilho": "garante",
+      "armadilhaBanca": "Uma ferramenta de apoio não é garantia de resultado.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — entrevista e negociação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Roteiros podem apoiar o atendimento, mas devem ser adaptados e não garantem rapidez ou sucesso em toda consulta.",
+      "item": "A padronização de um roteiro, que seja aplicado em todos os atendimentos do serviço de referê n- cia, garante a agilidade e rapidez no processo de busca e recuperação da informação nesse serviço.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-624008",
+        "declaracaoLegada": "Cebraspe / STJ / 2018 (Adaptada); identificador legado: TecConcursos-624008"
+      }
+    }
+  },
+  {
+    "id": "m4-q-85",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "apresentação e objetivos do projeto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "96ca2d6be18c155fb47a46b55f4390dc9fba5a24a695d18742c485b762f692f8",
+    "shaDepois": "3fd470899ed1f549730313485ed7f10c9727fc7e46cc843592e47ab6ead89075",
+    "patch": {
+      "item": "O portal LexML Brasil facilita localizar informação legislativa e jurídica de diferentes órgãos e esferas por meio de identificação padronizada, registros e ligações para recursos de origem.",
+      "justificativa": "CERTO. LexML integra identificação e pesquisa de informação legislativa e jurídica de diferentes órgãos e esferas. Seus registros e links ajudam a chegar aos recursos de origem. Isso não garante que todo documento jurídico exista na base nem que todos os textos completos estejam centralizados no próprio portal.",
+      "gatilho": "facilita localizar informação",
+      "armadilhaBanca": "Distinguir portal integrador, repositórios de origem e cobertura efetiva.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — apresentação e objetivos do projeto — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "LexML centraliza obrigatoriamente todo texto jurídico integral produzido no Brasil e garante cobertura completa de qualquer pesquisa.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-86",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "interoperabilidade e padrões abertos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "8e646b78156e846f81b75daf74d6bf221fef6ba9dfe3f8be6b689e5448b0ec39",
+    "shaDepois": "abb72d5664bae8f65f216ac17296bf539be42b1a5948a6eaf321009e9b2bd9a9",
+    "patch": {
+      "justificativa": "ERRADO. O projeto estabelece padrões e mecanismos de integração, sem tornar obrigatória a troca de todo sistema local por um software comercial específico. Um órgão pode adaptar a exportação de metadados e a identificação dos documentos. Compartilhar padrões não exige arquitetura local idêntica.",
+      "gatilho": "substituição compulsória",
+      "armadilhaBanca": "Distinguir interoperabilidade e uniformização de fornecedores.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — interoperabilidade e padrões abertos — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A integração pode ser feita por padrões de identificação, estruturação e troca de metadados sem substituição compulsória de todos os sistemas locais.",
+      "item": "A adesão de um tribunal ou órgão público à rede LexML Brasil exige a substituição compulsória de todos os seus sistemas de gestão documental por software comercial proprietário imposto pelo consórcio.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-87",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlXML"
+    ],
+    "localizador": "Partes 2 e 3: identificação, estrutura e relações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "401c507d941a66bd1afe313599caf899834ac0a83e247bcf1f8308bad72982cd",
+    "shaDepois": "2c728525ef495cd2d0a601f228a4810482e686baad19d916c833e4963eeb1fee",
+    "patch": {
+      "justificativa": "CERTO. Identificadores e estruturas comuns ajudam a localizar documentos e representar relações como alteração e revogação. Uma relação precisa ser registrada e validada; ela não surge corretamente apenas porque dois arquivos estão em XML. Interoperabilidade favorece o tratamento, mas não certifica a interpretação jurídica dos dados.",
+      "gatilho": "referenciados, relacionados",
+      "armadilhaBanca": "Separar compatibilidade técnica e correção jurídica das relações.",
+      "fonte": "LexML Brasil — Parte 3: XML Schema — Partes 2 e 3: identificação, estrutura e relações — https://projeto.lexml.gov.br/documentacao/Parte-3-XML-Schema.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A validade sintática de um arquivo XML garante, sozinha, que todas as relações de revogação nele declaradas estão juridicamente corretas.",
+      "item": "O princípio da interoperabilidade jurídica no LexML visa garantir que documentos normativos publicados em diferentes sistemas informatizados possam ser referenciados, relacionados (ex: 'altera', 'revoga', 'regulamenta') e localizados de maneira uniforme pelos cidadãos.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-88",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa"
+    ],
+    "localizador": "cooperação e organização do serviço",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b1fa0ced659f62a30ba3e4520a1cfd6e54f1637c75001cd655a96d746d59d2b1",
+    "shaDepois": "b9e78004c4ae7dd97528cc06054ef38cb79dc1b974a82ab6a02d92cf0e8c469d",
+    "patch": {
+      "justificativa": "ERRADO. Bibliotecas podem cooperar na referência, compartilhando especialistas, horários e encaminhamentos. É necessário combinar responsabilidades, padrões de qualidade, comunicação e proteção de dados. A cooperação não elimina a obrigação de acompanhar a demanda nem autoriza divulgar consultas confidenciais sem fundamento.",
+      "gatilho": "não podem constituir objeto de cooperação",
+      "armadilhaBanca": "Não confundir cooperação e abandono da responsabilidade pelo atendimento.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — cooperação e organização do serviço — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A referência pode ser organizada cooperativamente, com responsabilidades e regras de atendimento definidas.",
+      "item": "Por sua natureza, serviços de referência não podem constituir objeto de cooperação entre bibliotecas."
+    }
+  },
+  {
+    "id": "m4-q-89",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "catálogo coletivo e condições de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "1e60b111f81a30f8ad0217785b6786b14996ee3c206bee5452eb62c191c9d28d",
+    "shaDepois": "deeacef7234b58fd4b42ad1eafd0ff0f521ee64f251ba1a66294ad9f1677429b",
+    "patch": {
+      "item": "A pesquisa no catálogo coletivo da RVBI garante acesso integral gratuito e reprodução livre de toda obra localizada, independentemente das políticas das bibliotecas e dos direitos incidentes.",
+      "justificativa": "ERRADO. O catálogo coletivo permite localizar registros e exemplares nas bibliotecas participantes. Acesso ao registro não equivale a direito de obter reprodução integral gratuita de toda obra. Empréstimo, consulta e uso digital dependem das políticas e condições aplicáveis ao material.",
+      "gatilho": "garante acesso integral gratuito",
+      "armadilhaBanca": "Distinguir descoberta bibliográfica e condições de acesso ao conteúdo.",
+      "fonte": "Senado Federal — A RVBI — catálogo coletivo e condições de acesso — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A consulta ao catálogo coletivo não garante reprodução integral gratuita de todos os materiais localizados.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-90",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "nbr6023",
+      "cad",
+      "abin2018",
+      "abin2018Gab"
+    ],
+    "localizador": "definição de referência; ABIN/2018, item 136, texto e gabarito definitivo conferidos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 8.1 segundo o assunto efetivo.",
+    "shaAntes": "03159f0d57f039592a2b6197c6391a501ffe87f0d24828cdf4ae91be6bea1879",
+    "shaDepois": "e31fec0d37644e88626fff54a4fcf484cfa4fc6ddfef156548232ae74322e41d",
+    "patch": {
+      "item": "Na ABNT NBR 6023:2025, a referência dispensa a padronização dos elementos descritivos, bastando qualquer menção informal que possa lembrar o documento.",
+      "justificativa": "ERRADO. Uma referência organiza elementos descritivos segundo um padrão para identificar um documento ou parte dele. Um endereço ou uma menção informal pode ajudar a localizar algo, mas não substitui automaticamente a referência conforme a norma. A questão histórica da ABIN tem gabarito E; a redação foi explicitada para ensinar a regra sem inventar a motivação da banca pela escolha de uma palavra.",
+      "gatilho": "dispensa a padronização",
+      "armadilhaBanca": "Separar uma menção informal e uma referência elaborada conforme a norma.",
+      "fonte": "ABNT NBR 6023:2025 — Referências — Elaboração — definição de referência; ABIN/2018, item 136, texto e gabarito definitivo conferidos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A referência reúne elementos descritivos padronizados que permitem identificar um documento no todo ou em parte.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "378_ABIN_014_01",
+        "ano": 2018,
+        "orgao": "ABIN",
+        "banca": "CEBRASPE",
+        "questaoOriginalId": "136",
+        "declaracaoLegada": "Cebraspe / ABIN / 2018 (Adaptada); identificador legado: TecConcursos-620307",
+        "origemAcervoLocal": "Prova oficial e gabarito definitivo consultados; redação atual adaptada à NBR 6023:2025."
+      },
+      "contexto": "Acerca de fontes, busca e serviços de referência, julgue o item a seguir.",
+      "submoduloId": "8.1"
+    }
+  },
+  {
+    "id": "m4-q-91",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "catalogação cooperativa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "d4313149c07a860bc909d1ff01936881e705f91fc9a508e5b99911268bb07ee1",
+    "shaDepois": "ee2620908d214632611a883109b81832b1162b65cc4f5138bf35227d0b0f308c",
+    "patch": {
+      "justificativa": "CERTO. A cooperação permite reaproveitar dados e evitar repetição desnecessária do trabalho. O registro ainda deve ser verificado e ajustado quando necessário, inclusive para dados do exemplar e políticas do serviço. Reaproveitar não significa copiar qualquer registro sem conferir qualidade e correspondência com o recurso.",
+      "gatilho": "compartilhado e aproveitado",
+      "armadilhaBanca": "Reuso de trabalho não elimina controle de qualidade.",
+      "fonte": "Senado Federal — A RVBI — catalogação cooperativa — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A catalogação cooperativa exige copiar todo registro sem conferência, pois a origem na rede garante ausência de erros.",
+      "item": "Na RVBI, a catalogação cooperativa possibilita que o registro bibliográfico de um ato normativo, livro doutrinário ou artigo de periódico jurídico elaborado pela Biblioteca Pedro Aleixo da Câmara dos Deputados seja compartilhado e aproveitado pelas demais bibliotecas consorciadas.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-92",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir",
+      "cad"
+    ],
+    "localizador": "introdução e avaliação: componentes do processo de recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.1 segundo o assunto efetivo.",
+    "shaAntes": "11c75bc834b3afc8342b73785b020df43177155c49674aa89a4e77a484cf15ea",
+    "shaDepois": "1a25d37de925310c0b6c09d16b6efcd0557617d9f100b6ab4241470f11398b62",
+    "patch": {
+      "item": "Sistemas de recuperação da informação articulam atividades de representação, formulação de consultas, busca e avaliação dos resultados, realizadas com participação humana e recursos computacionais.",
+      "justificativa": "CERTO. Recuperar informação envolve representar documentos, formular consultas e avaliar o que foi obtido. Pessoas e mecanismos computacionais participam dessas atividades. Feedback pode levar a novos termos ou estratégias; não é uma operação isolada que termina necessariamente na primeira lista de resultados.",
+      "gatilho": "representação, formulação de consultas, busca e avaliação",
+      "armadilhaBanca": "Não reduzir o processo de recuperação à infraestrutura de armazenamento.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — introdução e avaliação: componentes do processo de recuperação — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um sistema de recuperação limita-se a armazenar arquivos e não envolve representação, consultas ou avaliação dos resultados.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-181034",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "181034",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012; identificador legado: 181034"
+      },
+      "submoduloId": "4.1"
+    }
+  },
+  {
+    "id": "m4-q-93",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlXML"
+    ],
+    "localizador": "Parte 3: identificação de dispositivos; Parte 2: fragmentos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "0b094b3032190a9a9d77073e21d52270a0ff2d0fc9b82f5f5087c8ec6222ccb9",
+    "shaDepois": "316baa2f9d68e3ec9fb895d5f7193dc6619318a1dbd070923a83c380b4f7e725",
+    "patch": {
+      "justificativa": "ERRADO. A estrutura LexML admite identificar dispositivos como artigos, parágrafos e incisos. A Parte 3 exemplifica art5 e art20_par2_inc2. Isso permite referenciar partes, sem garantir que qualquer arquivo antigo já tenha marcação completa e correta. O comentário anterior usava uma combinação incorreta de separadores de fragmento.",
+      "gatilho": "inviabilizando a referenciação granular",
+      "armadilhaBanca": "Distinguir possibilidade do padrão e completude da implementação.",
+      "fonte": "LexML Brasil — Parte 3: XML Schema — Parte 3: identificação de dispositivos; Parte 2: fragmentos — https://projeto.lexml.gov.br/documentacao/Parte-3-XML-Schema.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "LexML permite identificar dispositivos e referenciar partes do texto quando a estruturação correspondente estiver disponível.",
+      "item": "Na arquitetura de metadados do LexML Brasil, os dispositivos de uma lei formam corpo textual monolítico, inviabilizando a referenciação granular de artigos e parágrafos por identificadores específicos.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-94",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlColeta"
+    ],
+    "localizador": "Parte 4: protocolo OAI-PMH e provedores de dados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "5a31401ab5777978f6adb77b46fe7bf64d046dec63829e354b74b1de894bd6da",
+    "shaDepois": "f6f696c03af3fbc6b853980ec7dd4116241aa42c22cb7c1221bbc817c3d27acb",
+    "patch": {
+      "justificativa": "CERTO. OAI-PMH é utilizado para coletar registros de metadados de provedores. Coletar metadados não significa copiar necessariamente o texto integral de cada ato nem sincronizar tudo em tempo real. Frequência, formatos e atualização dependem da implementação e das regras do intercâmbio.",
+      "gatilho": "OAI-PMH",
+      "armadilhaBanca": "Separar coleta de metadados, transferência de conteúdo e consulta interativa.",
+      "fonte": "LexML Brasil — Parte 4: Coleta de Metadados — Parte 4: protocolo OAI-PMH e provedores de dados — https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A coleta OAI-PMH exige transferir o texto integral de todos os documentos em tempo real a cada consulta do usuário.",
+      "item": "No processo de colheita de metadados do LexML, o protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) é comumente empregado para coletar periodicamente registros normativos estruturados dos repositórios dos órgãos parceiros.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-95",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "consulta pública ao catálogo e políticas de serviços",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "bf2f7b0d9de78b40fa7c79e5e0ca2c4537d5b83e1db7b5fb398254f483a38f5d",
+    "shaDepois": "1f5816dc0adbf57e775a9e2d8c4d3eb74fadaf1acb7bba234adc31c422e4efa2",
+    "patch": {
+      "item": "A consulta a registros no catálogo público da RVBI depende obrigatoriamente de autorização para empréstimo em todas as bibliotecas da rede.",
+      "justificativa": "ERRADO. Consulta ao catálogo e autorização para empréstimo são serviços distintos. A descoberta pública de registros não torna o pesquisador automaticamente usuário habilitado a qualquer empréstimo. De modo inverso, a restrição de empréstimo não significa que o catálogo só possa ser pesquisado por servidores.",
+      "gatilho": "depende obrigatoriamente de autorização para empréstimo",
+      "armadilhaBanca": "Distinguir acesso à descrição e habilitação a um serviço de circulação.",
+      "fonte": "Senado Federal — A RVBI — consulta pública ao catálogo e políticas de serviços — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Consultar registros do catálogo não exige, por esse único motivo, estar habilitado ao empréstimo de todos os materiais.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-96",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "informação legislativa e histórico documental",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "6a382c99e6e9ceafb87837caa333c293d73272991b2727b2c5f3f693aaba6f22",
+    "shaDepois": "56bf7e31101c7650bd81b92413b8ccc0803c59f9f01f5e9fdfbf395b9aab7b32",
+    "patch": {
+      "justificativa": "ERRADO. A conclusão da tramitação não torna uma proposição sem valor para pesquisa histórica e interpretação do processo legislativo. Não há uma regra do padrão que determine descartá-la automaticamente nessa ocasião. Isso também não permite prometer cobertura integral ou preservação eterna de todo registro sem examinar o serviço.",
+      "gatilho": "descartados da base de dados assim que",
+      "armadilhaBanca": "Distinguir situação legislativa e política de manutenção de registros.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — informação legislativa e histórico documental — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O encerramento da tramitação não determina, por regra do LexML, descarte automático da proposição.",
+      "item": "No LexML Brasil, as propostas de emenda à Constituição (PECs), os projetos de lei (PLs) e as medidas provisórias (MPVs) são descartados da base de dados assim que promulgados ou arquivados, a fim de evitar sobrecarga no servidor.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-97",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "função do serviço no acesso à informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dccca8111db7c7432d114763adff1c327ca9988e5ef52ffb86c06bf9b0b744d5",
+    "shaDepois": "72d86fbb28f6eecb0acff467944a0602c8480bff719426716fadad0a8e23b3d3",
+    "patch": {
+      "justificativa": "CERTO. O serviço de referência pode ser situado funcionalmente na disseminação por aproximar informação e usuário. Na prática, também depende de organização, recuperação e avaliação. Essa localização em um ciclo didático não significa que o atendimento ocorra em uma única fase isolada nem que todo autor adote o mesmo ciclo.",
+      "gatilho": "fase de disseminação",
+      "armadilhaBanca": "Um enquadramento funcional não elimina as relações com outras atividades.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — função do serviço no acesso à informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Situar a referência na disseminação significa que ela independe de recuperação, organização e avaliação da informação.",
+      "item": "Na representação de um ciclo da informação, os serviços de referência estão funcionalmente situados na fase de disseminação."
+    }
+  },
+  {
+    "id": "m4-q-98",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "instrumentos de representação e cooperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de teoria corrigido de 4.4 para 4.3 segundo o assunto efetivo.",
+    "shaAntes": "d523be33db7d7a7259aa70caa2b5542eda9907e4fef45c62910b9407f9b6ab02",
+    "shaDepois": "47a79de587b085c2b1d958dc17e8335e5634e70db622cf931af4ff26be5de977",
+    "patch": {
+      "item": "Vocabulários controlados e instrumentos de autoridade usados em bibliotecas legislativas e na RVBI podem favorecer consistência semântica na representação e na consulta, sem garantir recuperação perfeita.",
+      "justificativa": "CERTO. Vocabulários controlados e instrumentos de autoridade ajudam a aproximar escolhas de representação entre bibliotecas e usuários. A RVBI possui seu vocabulário e a Câmara também mantém instrumentos próprios; não devem ser confundidos como se todo registro usasse automaticamente um único tesauro legislativo. Consistência é um objetivo apoiado pelo controle, não garantia de acerto integral.",
+      "gatilho": "favorecer consistência semântica",
+      "armadilhaBanca": "Distinguir instrumentos cooperativos, instrumentos locais e garantia de desempenho.",
+      "fonte": "Senado Federal — A RVBI — instrumentos de representação e cooperação — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Usar um vocabulário controlado garante que toda consulta recuperará apenas documentos relevantes, sem qualquer revisão dos registros.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m4-q-99",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "pp. 50–56: retornos no processo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4236917382626ddff81abfd3c9e703d1dbfda75290c1de71663ff2f843416f9b",
+    "shaDepois": "a2c0e487d68151d0141497d779423f3d36e74bc1ecde5945b5170961cfe51522",
+    "patch": {
+      "justificativa": "ERRADO. O modelo pode ser descrito em passos, mas o atendimento admite retorno à negociação, revisão da estratégia e nova avaliação. Uma resposta insatisfatória não precisa encerrar a investigação. O erro está em transformar uma decomposição didática em uma trajetória obrigatória sem retornos.",
+      "gatilho": "linear",
+      "armadilhaBanca": "Uma sequência de apresentação não prova linearidade do processo real.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — pp. 50–56: retornos no processo. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O processo de referência admite retornos e reformulações durante a busca de uma solução adequada.",
+      "item": "O processo de referência é linear e abrange a totalidade de procedimentos adotados pelo bibliotecário ao responder as questões que lhe são apresentadas."
+    }
+  },
+  {
+    "id": "m4-q-100",
+    "caminho": "src/content/questions/m4-recuperacao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rusa",
+      "cad"
+    ],
+    "localizador": "preparação, cooperação e avaliação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "80220c9da4086594dd5cbf6f1423189a964a5e256e969af3fb642df406765d40",
+    "shaDepois": "33105d6d7a7f320a613dd9bfb59d656d8dde1a67452f144fa13fa256e0559ada",
+    "patch": {
+      "justificativa": "CERTO. O planejamento pode incluir redes e divisão de atendimento, conforme missão, recursos, público e acordos. A equipe precisa de formação e procedimentos claros para encaminhar e acompanhar consultas. A adesão a uma rede não substitui planejamento local nem garante atendimento contínuo sem organização.",
+      "gatilho": "redes colaborativas de referência virtual",
+      "armadilhaBanca": "Cooperação é uma decisão de planejamento, não substituto de todas as outras.",
+      "fonte": "RUSA — Guidelines for Implementing and Maintaining Virtual Reference Services — preparação, cooperação e avaliação — https://www.ala.org/sites/default/files/rusa/content/resources/guidelines/GuidelinesVirtualReference_2017.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Participar de uma rede dispensa definir equipe, responsabilidades, horários e critérios de avaliação do serviço.",
+      "item": "O planejamento poderá incluir a participação da equipe bibliotecária em redes colaborativas de referência virtual, com o serviço de consultas a documentos de referência digital.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-226",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-226"
+      },
+      "contexto": "Acerca de fontes, busca e serviços de referência, julgue o item a seguir."
+    }
+  }
+]

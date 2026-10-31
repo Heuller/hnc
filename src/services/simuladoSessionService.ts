@@ -1,3 +1,4 @@
+import { registrarArquivoSessao, unirArquivosSessoes } from '../domain/versaoConteudoSimulado';
 import { getEffectiveUserId } from '../lib/userScopedStorage';
 import { progressSyncService } from './progressSyncService';
 import type { SessaoSimuladoState } from '../domain/schemas/progress.schema';
@@ -5,7 +6,7 @@ import type { SessaoSimuladoState } from '../domain/schemas/progress.schema';
 const SESSION_PREFIX = 'hnc_simulado_session_';
 const ACTIVE_SIMULADO_KEY = 'hnc_active_simulado_id';
 
-let cloudSyncTimeout: ReturnType<typeof setTimeout> | null = null;
+const cloudSyncTimeouts = new Map<string, ReturnType<typeof setTimeout>>();
 
 function getStorageKey(simuladoId: string): string {
   const uid = getEffectiveUserId();
@@ -24,7 +25,7 @@ export const simuladoSessionService = {
       const payload: SessaoSimuladoState = {
         ...sessao,
         simuladoId,
-        emAndamento: true,
+        emAndamento: sessao.emAndamento,
         ultimoAcessoTimestamp: sessao.ultimoAcessoTimestamp || Date.now(),
       };
       localStorage.setItem(key, JSON.stringify(payload));
@@ -123,17 +124,15 @@ export const simuladoSessionService = {
   ): void {
     if (!userId) return;
 
-    if (cloudSyncTimeout) {
-      clearTimeout(cloudSyncTimeout);
-    }
-
-    cloudSyncTimeout = setTimeout(() => {
-      progressSyncService
-        .salvarSessaoSimuladoNuvem(userId, simuladoId, sessao)
-        .catch((err) => {
-          console.warn('[simuladoSessionService] Erro na sincronização em nuvem:', err);
-        });
-    }, delayMs);
+    const chave = `${userId}:${simuladoId}`;
+    const anterior = cloudSyncTimeouts.get(chave);
+    if (anterior) clearTimeout(anterior);
+    cloudSyncTimeouts.set(chave, setTimeout(() => {
+      cloudSyncTimeouts.delete(chave);
+      progressSyncService.salvarSessaoSimuladoNuvem(userId, simuladoId, sessao).catch(err => {
+        console.warn('[simuladoSessionService] Erro na sincronização em nuvem:', err);
+      });
+    }, delayMs));
   },
 
   /**
@@ -148,17 +147,24 @@ export const simuladoSessionService = {
 
     const respostasA = sessaoA.respostas || {};
     const respostasB = sessaoB.respostas || {};
-
-    // Combina todas as respostas (nenhuma resposta é descartada)
+    const maisRecente = (sessaoA.ultimoAcessoTimestamp || 0) >= (sessaoB.ultimoAcessoTimestamp || 0) ? sessaoA : sessaoB;
+    const arquivos = unirArquivosSessoes(sessaoA, sessaoB);
+    if (sessaoA.tentativaId !== sessaoB.tentativaId || sessaoA.versaoConteudo !== sessaoB.versaoConteudo) {
+      const anterior = maisRecente === sessaoA ? sessaoB : sessaoA;
+      if (Object.keys(anterior.respostas).length) {
+        const arquivo = registrarArquivoSessao(anterior);
+        if (!arquivos.some(a => a.id === arquivo.id)) arquivos.push(arquivo);
+      }
+      return { ...maisRecente, tentativasArquivadas: arquivos };
+    }
     const combinadas = { ...respostasB, ...respostasA };
-
-    const maisRecente =
-      (sessaoA.ultimoAcessoTimestamp || 0) >= (sessaoB.ultimoAcessoTimestamp || 0)
-        ? sessaoA
-        : sessaoB;
+    for (const id of Object.keys(respostasB)) {
+      if (respostasA[id] && respostasB[id].timestamp < respostasA[id].timestamp) combinadas[id] = respostasB[id];
+    }
 
     return {
       ...maisRecente,
+      tentativasArquivadas: arquivos,
       respostas: combinadas,
       currentIndex: Math.max(sessaoA.currentIndex || 0, sessaoB.currentIndex || 0),
       tempoGastoSegundos: Math.max(

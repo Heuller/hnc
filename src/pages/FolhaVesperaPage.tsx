@@ -348,7 +348,7 @@ export const FolhaVesperaPage: React.FC = () => {
                             </span>
                           )}
                           <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-accent dark:text-amber-400 font-bold">
-                            GABARITO: {item.gabaritoOficial === 'E' ? 'ERRADO' : 'CERTO'}
+                            GABARITO EDITORIAL: {item.gabaritoOficial === 'E' ? 'ERRADO' : 'CERTO'}
                           </span>
                         </div>
                       ) : (
@@ -392,7 +392,7 @@ export const FolhaVesperaPage: React.FC = () => {
 
                     {respostasTreino[item.id] && <PainelEstudoReverso questao={{ id: item.id, item: item.afirmacaoFalsa,
                       gabarito: item.gabaritoOficial, justificativa: item.fundamentacaoCanonico, armadilhaBanca: item.armadilhaCebraspe,
-                      submoduloId: item.submoduloRef }} resposta={respostasTreino[item.id]} autoexplicacao={false} />}
+                      submoduloId: item.submoduloRef, versao_correta: item.versao_correta, gatilho: item.gatilho, fonte: item.fontePrimaria, dataConferencia: item.dataConferencia }} resposta={respostasTreino[item.id]} autoexplicacao={false} />}
                     {/* Explicação e Fundamentação */}
                     <div className={`text-xs space-y-1 ${revelarConteudo ? 'block' : 'hidden print:block'}`}>
                       <p className="m-0 text-rose-700 dark:text-rose-400">

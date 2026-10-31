@@ -1,0 +1,2419 @@
+[
+  {
+    "id": "m14-q-1",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Coautoria"
+    ],
+    "localizador": "requisitos de coautoria: aplicativo, formato e armazenamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c06025644457f08e518d87b9c5bb4681c481313dcc07276c8d98444f9195d6f3",
+    "shaDepois": "0f17e9909935014b444bc2e2c79f5596ac7685f65b7d18d1d09ebf79b60c5df7",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Em aplicativos e formatos compatíveis do Microsoft 365, documentos compartilhados no OneDrive ou SharePoint podem ser editados simultaneamente por coautores com as permissões necessárias.",
+      "justificativa": "CERTO. Coautoria permite edição simultânea nas condições suportadas. Arquivo em OneDrive ou SharePoint não basta se formato, aplicativo ou permissão impedirem o recurso. Salvamento automático e presença dependem do cenário compatível; não são garantia para todo arquivo e versão do Office.",
+      "gatilho": "aplicativos e formatos compatíveis",
+      "armadilhaBanca": "Preservar as condições de uma funcionalidade.",
+      "fonte": "Microsoft — colaboração de documentos e coautoria — requisitos de coautoria: aplicativo, formato e armazenamento — https://support.microsoft.com/en-us/sharepoint/get-started-with-sharepoint/document-collaboration-and-co-authoring",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Qualquer arquivo local, em qualquer formato e versão do Office, tem coautoria em tempo real sem compartilhamento.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-2",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Coautoria"
+    ],
+    "localizador": "coautoria e bloqueio exclusivo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b13782b949ce1822f70f01daa45fe86a62c4e7152b429ec052dfa05457acb7be",
+    "shaDepois": "6620acaf39d629811b7643952f8e5f535ab34583def7371db003dfabb3c44a4d",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Coautoria permite trabalho simultâneo; o bloqueio exclusivo descrito impede justamente esse fluxo. Certos recursos incompatíveis podem bloquear edição, mas não constituem requisito geral de funcionamento da coautoria no Excel para Web. Diferencie exceção de compatibilidade e definição da função.",
+      "gatilho": "bloqueio exclusivo",
+      "armadilhaBanca": "Inverter o requisito operacional da coautoria.",
+      "fonte": "Microsoft — colaboração de documentos e coautoria — coautoria e bloqueio exclusivo — https://support.microsoft.com/en-us/sharepoint/get-started-with-sharepoint/document-collaboration-and-co-authoring",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Na coautoria compatível, os participantes podem editar simultaneamente, sem bloqueio exclusivo obrigatório do arquivo inteiro.",
+      "item": "No Microsoft Excel para a Web, o recurso de coautoria simultânea exige o bloqueio exclusivo de todo o arquivo pelo primeiro usuário que o abrir, impedindo a visualização ou inserção de dados por outros membros da equipe até que a sessão seja encerrada.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-3",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14googleVersoes"
+    ],
+    "localizador": "restaurar e nomear versões; versões agrupadas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f435102e33f9c6ee366951534ac38d75e6dc713ff47ad4a0c49786da5a938a3a",
+    "shaDepois": "427250ea248b44c54b68b8b6accaa30628fb86a650e9d4bcff32ed2021265c00",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "No Google Docs e no Google Sheets, editores podem consultar e restaurar versões anteriores e nomear marcos; isso não significa que cada edição individual permaneça eternamente como revisão separada.",
+      "justificativa": "CERTO. O histórico permite consultar, restaurar e nomear versões com as permissões adequadas. A documentação informa que revisões podem ser agrupadas, e nomear ajuda a preservar marcos. Histórico de versões não equivale a um registro separado e eterno de cada toque no teclado.",
+      "gatilho": "não significa",
+      "armadilhaBanca": "Distinguir histórico de versões e registro integral de cada operação.",
+      "fonte": "Google — histórico de versões de Docs, Sheets e Slides — restaurar e nomear versões; versões agrupadas — https://support.google.com/docs/answer/190843",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "O histórico garante guardar eternamente cada edição individual sem agrupar revisões ou observar limites.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-4",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14VersoesSharePoint"
+    ],
+    "localizador": "restauração e continuidade do histórico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "35b5c4e0ae0cb7af2d3539b3b29b37f377f1452bca7d4eba02cca04f9febe252",
+    "shaDepois": "3bf0db34aad0fe8fdfb362bfd31b7daba659d1536c292758ff8f6573126e7f45",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. O SharePoint cria uma cópia da versão restaurada como versão atual. Isso não equivale a apagar irreversivelmente todas as posteriores; restauração e exclusão de versões são operações distintas. Exclusão de versões e restauração são operações distintas; não se deve deduzir eliminação definitiva da simples volta a um estado anterior.",
+      "gatilho": "exclui permanentemente",
+      "armadilhaBanca": "Confundir restauração de conteúdo e exclusão de histórico.",
+      "fonte": "Microsoft SharePoint — restaurar versão anterior — restauração e continuidade do histórico — https://support.microsoft.com/en-us/sharepoint/documents-and-library/restore-a-previous-version-of-an-item-or-file-in-sharepoint",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Restaurar uma versão não implica, por si só, excluir permanentemente todo o histórico posterior.",
+      "item": "Ao restaurar uma versão anterior de um arquivo compartilhado no Microsoft SharePoint, o sistema exclui permanentemente todo o histórico de versões subsequentes, impossibilitando qualquer reversão futura à versão mais recente.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-5",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msPrivados"
+    ],
+    "localizador": "site do SharePoint e associação do canal privado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ad39fb835688e6110b793af842a88a78573d59b9c3b66e508c1763599bd38016",
+    "shaDepois": "46418e00d96bf0f1400a7d4d458d0e022e939d4ab44005fb4002015e0acd4642",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. O canal privado atende a um subconjunto e mantém site próprio do SharePoint para seus arquivos. Participação na equipe não implica automaticamente acesso a todos os canais privados. A administração e as políticas ainda se aplicam; isolamento de associação não significa invisibilidade à governança.",
+      "gatilho": "subconjunto",
+      "armadilhaBanca": "Separar associação à equipe e associação ao canal.",
+      "fonte": "Microsoft Teams — canais privados — site do SharePoint e associação do canal privado — https://learn.microsoft.com/en-us/microsoftteams/private-channels",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Todo membro da equipe tem automaticamente acesso aos arquivos de todos os canais privados, mesmo sem integrar esses canais.",
+      "item": "No Microsoft Teams, os canais privados permitem delimitar a colaboração e o acesso a arquivos e conversas a um subconjunto restrito de membros da equipe, criando automaticamente uma coleção de sites dedicada no SharePoint para armazenar seus documentos com isolamento de permissões.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-6",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msCompartilhados"
+    ],
+    "localizador": "compartilhamento e limites de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "954fe4315127030a3bf05a8fda4270fdbf935e6e52ee3e89475f612a6c2db411",
+    "shaDepois": "a2309f8c07d581b7f4f377cab841ebf1e11e02a3dcc0f6bed86bba0a98255a41",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Ao participar de um canal compartilhado do Teams, um usuário externo passa automaticamente a ter acesso a todos os canais privados e arquivos da equipe que hospeda esse canal.",
+      "justificativa": "ERRADO. Acesso ao canal compartilhado não se estende automaticamente a todos os recursos da equipe hospedeira. Participantes externos mantêm o modelo de identidade e permissões pertinente. Compartilhar um espaço não concede administração global nem transforma o usuário em membro irrestrito de todos os canais.",
+      "gatilho": "todos os canais",
+      "armadilhaBanca": "Ampliar permissão de um recurso a toda a estrutura.",
+      "fonte": "Microsoft Teams — canais compartilhados — compartilhamento e limites de acesso — https://learn.microsoft.com/en-us/microsoftteams/shared-channels",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Participar do canal compartilhado não concede automaticamente acesso a todos os canais da equipe hospedeira.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-7",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14googleCompartilhar",
+      "m14CompartilharOneDrive"
+    ],
+    "localizador": "controles de compartilhamento conforme conta e serviço",
+    "nota": "C corrigido para E: retirada equivalência universal entre produtos; controles variam por plano e tipo de link.",
+    "shaAntes": "8d1704f8e3a992953779120db149818dec41eec2c257f49919678aa38d373488",
+    "shaDepois": "8d8d05ad7c6711d0cc083c4c09d419c3036b47dd60386a5b4b6a5244543e01e6",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "gabarito": "E",
+      "item": "No Google Drive e no OneDrive, qualquer conta e qualquer tipo de link compartilhado permitem nativamente configurar senha e data de expiração, sem depender de plano ou política administrativa.",
+      "justificativa": "ERRADO. A generalização é falsa. Expiração no Drive depende de conta e condições; senha de link não é um controle nativo universal do Drive. OneDrive também distingue planos e tipos de link. Não se pode tratar recursos de produtos diferentes como sempre disponíveis e idênticos.",
+      "gatilho": "qualquer conta",
+      "armadilhaBanca": "Transferir funcionalidades entre produtos e planos.",
+      "fonte": "Google Drive — compartilhamento e permissões — controles de compartilhamento conforme conta e serviço — https://support.google.com/drive/answer/2494822",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Os controles de expiração e senha dependem do produto, plano e tipo de compartilhamento; não são universais para qualquer conta.",
+      "versao_errada": "",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-8",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14googleCompartilhar"
+    ],
+    "localizador": "papéis de leitor, comentador e editor",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0d13328646d265a5256db96b11807b74a4595d7b10c3583d7f4052ce55e5fb20",
+    "shaDepois": "ac348f8696c02bfd69b53eb5e965fdca7468c15c83d48fd4cda025a8c7aaf13b",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Comentador pode comentar e, conforme o aplicativo, sugerir alterações; não equivale a editor com poder irrestrito de modificar o texto final. Sugerir exclusão e efetivá-la são ações distintas. É preciso examinar o papel atribuído, não apenas a capacidade de abrir o documento.",
+      "gatilho": "poderes irrestritos",
+      "armadilhaBanca": "Confundir sugestão/comentário e edição efetiva.",
+      "fonte": "Google Drive — compartilhamento e permissões — papéis de leitor, comentador e editor — https://support.google.com/drive/answer/2494822",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A permissão de comentador não equivale à de editor para excluir livremente o conteúdo definitivo.",
+      "item": "No Google Docs, a permissão de 'Comentador' confere ao usuário poderes irrestritos para excluir parágrafos do texto definitivo sem que a exclusão passe por aprovação prévia do proprietário do arquivo.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-9",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msDLP"
+    ],
+    "localizador": "políticas, tipos de informação sensível e licenças",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f7b456404f953740654d9d8594c19b808e9f9c7e354c88de054584abdd63df63",
+    "shaDepois": "98c255bd4b9cb0cd57b3455f22bc6a25bb7bc7f7c825ada98b7136018f3c218d",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Políticas DLP do Microsoft Purview podem identificar tipos de informação sensível e restringir compartilhamento em cargas suportadas, como Teams e OneDrive, conforme configuração, permissões e licenciamento.",
+      "justificativa": "CERTO. DLP pode aplicar condições e ações de proteção a mensagens e arquivos nas cargas suportadas. Identificação depende de tipos de informação e regras, e cobertura depende de configuração e licenciamento. Isso não garante detectar todo dado sensível nem bloquear automaticamente todo envio externo.",
+      "gatilho": "conforme configuração, permissões e licenciamento",
+      "armadilhaBanca": "Separar capacidade configurável e garantia universal.",
+      "fonte": "Microsoft Purview — DLP e Microsoft Teams — políticas, tipos de informação sensível e licenças — https://learn.microsoft.com/en-us/purview/dlp-microsoft-teams",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Uma política DLP garante identificar qualquer informação sensível e bloquear todo envio externo sem configuração ou licença.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-10",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msDLP"
+    ],
+    "localizador": "cobertura de Teams e arquivos em SharePoint/OneDrive",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dcec2869a230faa301cd6bb5418b2237cf91a90594f90dc638bf7b0988470a2f",
+    "shaDepois": "aa00e509040feea5c419c45819c8cceb03af8a5b720c4ee3780d5c268f149698",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. DLP não se limita ao Exchange. A documentação diferencia mensagens do Teams e arquivos armazenados em SharePoint ou OneDrive, inclusive requisitos de licença. Ver uma conversa no Teams não significa que o arquivo esteja fisicamente no serviço de mensagens.",
+      "gatilho": "restringem-se",
+      "armadilhaBanca": "Reduzir cobertura a uma única carga e confundir armazenamento.",
+      "fonte": "Microsoft Purview — DLP e Microsoft Teams — cobertura de Teams e arquivos em SharePoint/OneDrive — https://learn.microsoft.com/en-us/purview/dlp-microsoft-teams",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A proteção DLP pode abranger mensagens e arquivos de serviços suportados, observadas suas condições e licenças.",
+      "item": "As políticas de Prevenção contra Perda de Dados (DLP) no ecossistema corporativo da Microsoft restringem-se ao tráfego de mensagens no Exchange Online, operando de modo desvinculado dos arquivos compartilhados no OneDrive ou das conversas realizadas no Teams.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-11",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msGravar",
+      "m14googleTranscrever"
+    ],
+    "localizador": "gravação e transcrição: políticas e opções",
+    "nota": "C corrigido para E: gravação não implica transcrição automática universal nas duas plataformas.",
+    "shaAntes": "bca8e1e39c9e6f1ec38818831f4d9917c441c1581eb198fc53d074350243a099",
+    "shaDepois": "9ef4c625faa9540c823d0da4860dc2a928e9c3c102d8c020f321680269ba9da7",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Gravação e transcrição têm configurações, permissões e requisitos próprios. Pode haver configuração para iniciar ambas, mas gravar não garante transcrição em toda reunião do Teams e Meet. A afirmação omite condições do serviço e transforma capacidade em consequência automática.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Tratar recursos relacionados como consequência obrigatória.",
+      "fonte": "Microsoft Teams — gravação de reuniões — gravação e transcrição: políticas e opções — https://learn.microsoft.com/en-us/microsoftteams/cloud-recording",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A disponibilidade e o início de transcrição dependem de configurações e recursos; não decorrem universalmente de qualquer gravação.",
+      "versao_errada": "",
+      "item": "No Microsoft Teams e no Google Meet, a gravação de reuniões na nuvem gera automaticamente transcrições textuais que podem ser pesquisadas e integradas a fluxos de trabalho institucionais, respeitadas as diretrizes de consentimento e privacidade.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-12",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msGravar"
+    ],
+    "localizador": "avisos aos participantes e permissão para gravar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "015a8580b826b66273a066842235b82c2bcbc2512f5058d35b112fb773ef18f7",
+    "shaDepois": "cf883db09e5b44a744b15ce8a43b28f3f643f3d172040c61fd5f3bab0597bbb3",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. As plataformas informam participantes quando a gravação se inicia nos fluxos previstos. Permissão para organizar não elimina essas indicações nem autoriza tratá-las como recurso de gravação invisível. Aviso técnico também não substitui toda obrigação jurídica de tratamento de dados.",
+      "gatilho": "sem a exibição",
+      "armadilhaBanca": "Confundir permissão de gravar e ausência de aviso.",
+      "fonte": "Microsoft Teams — gravação de reuniões — avisos aos participantes e permissão para gravar — https://learn.microsoft.com/en-us/microsoftteams/cloud-recording",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A gravação nos fluxos previstos é sinalizada aos participantes; a função não autoriza presumir captura institucional invisível.",
+      "item": "A funcionalidade de gravação de reuniões em plataformas colaborativas corporativas autoriza o organizador a realizar a captura audiovisual em segundo plano sem a exibição de indicativos visuais ou alertas aos participantes conectados.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-13",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msSobDemanda"
+    ],
+    "localizador": "arquivos online, disponíveis localmente e fixados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "55a362006af4ff30ce54bbd930aaf3b23f76c6d9fa8e26b03dd60fcf8a970d8f",
+    "shaDepois": "972be9bafeb373b0ee89dcbd24e1faec96621cc2f9bc9ff4eab7ad23c86c15df",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Clientes de sincronização com arquivos sob demanda podem exibir arquivos apenas online no explorador sem baixar antecipadamente seu conteúdo integral; abrir ou fixar um arquivo pode torná-lo disponível localmente.",
+      "justificativa": "CERTO. Arquivos apenas online podem aparecer no explorador sem baixar integralmente seu conteúdo. Metadados e marcadores ainda ocupam recursos; abrir ou marcar para manter no dispositivo pode baixar dados. A redação evita prometer ocupação literalmente zero em qualquer estado.",
+      "gatilho": "conteúdo integral",
+      "armadilhaBanca": "Distinguir marcador local e conteúdo baixado.",
+      "fonte": "Microsoft OneDrive — arquivos sob demanda — arquivos online, disponíveis localmente e fixados — https://support.microsoft.com/en-us/office/save-disk-space-with-onedrive-files-on-demand-for-windows-0e6860d3-d9f3-4971-b321-7092438fb38e",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Ativar arquivos sob demanda exige baixar previamente o conteúdo integral de todos os arquivos da nuvem.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-14",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14msSobDemanda"
+    ],
+    "localizador": "arquivos apenas online e download sob demanda",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "27ba65db8b971ceb72726f717797cf4a323170038576f77dd10b7f5d58b247d2",
+    "shaDepois": "a77753a80e6051e0b9f3b018464fff0561a35c45344f970401bde8a2b8c502b7",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. O recurso permite manter conteúdo na nuvem e baixar conforme a necessidade. Não exige clonar todo o armazenamento antes da consulta. Disponibilidade offline de um arquivo é uma condição diferente de visualizá-lo na listagem online.",
+      "gatilho": "integralmente clonados",
+      "armadilhaBanca": "Confundir listagem, sincronização e disponibilidade offline.",
+      "fonte": "Microsoft OneDrive — arquivos sob demanda — arquivos apenas online e download sob demanda — https://support.microsoft.com/en-us/office/save-disk-space-with-onedrive-files-on-demand-for-windows-0e6860d3-d9f3-4971-b321-7092438fb38e",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Arquivos apenas online podem ser listados sem download prévio de todo o conteúdo armazenado na conta.",
+      "item": "O recurso de sincronização de arquivos sob demanda no OneDrive requer que todos os gigabytes armazenados na nuvem sejam integralmente clonados na unidade de disco rígido local antes que qualquer busca de arquivos possa ser iniciada.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-15",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerQuery"
+    ],
+    "localizador": "conexão, transformação e destinos de carga",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "37989eaf3e278e258784addc43123b8929a3d5658c717320ad9019957ff84a55",
+    "shaDepois": "140a7d7acdbb9b84263b67c416cdd1d23e385b298c81e8a918822ae979502499",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Power Query registra transformações aplicadas às fontes e permite destinos de carga compatíveis. Extrair e transformar não significa modificar obrigatoriamente a fonte original. Conector, credencial e produto determinam o que se pode acessar e onde carregar o resultado.",
+      "gatilho": "etapas",
+      "armadilhaBanca": "Separar transformação de consulta e mutação da fonte.",
+      "fonte": "Microsoft — Power Query e linguagem M — conexão, transformação e destinos de carga — https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Toda transformação do Power Query altera obrigatoriamente os dados na fonte original.",
+      "item": "No Microsoft Excel, a funcionalidade 'Power Query' permite extrair dados de diversas fontes externas (bancos de dados, arquivos CSV, páginas web), transformar esses dados por meio de etapas sequenciais gravadas e carregá-los em planilhas ou no modelo de dados interno.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-16",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Circular"
+    ],
+    "localizador": "referências circulares e cálculo iterativo no Excel",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4f6b0cae9a74f2f7f777582b69b9778f417c89ee939a9d2821175e3f1ab11764",
+    "shaDepois": "4943db743cc3f2dd610c1c8e9361d7b3ec43d09af19354971e9c14d487439ca7",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Referência circular não é processamento ordinário garantido: pode gerar aviso e depende de configuração para cálculo iterativo. Quando habilitada, a iteração tem critérios de parada e não assegura convergência para qualquer fórmula. A ausência de um aviso em cenário configurado não torna válida a generalização.",
+      "gatilho": "sem qualquer alerta",
+      "armadilhaBanca": "Distinguir detecção de circularidade e iteração configurada.",
+      "fonte": "Microsoft Excel — remover ou permitir referência circular — referências circulares e cálculo iterativo no Excel — https://support.microsoft.com/en-us/excel/remove-or-allow-a-circular-reference-in-excel",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Referências circulares podem gerar alerta e, quando se usa cálculo iterativo, dependem de configuração e limites.",
+      "item": "No Microsoft Excel, uma fórmula que contenha uma referência circular (uma célula que depende direta ou indiretamente de seu próprio valor) é processada normalmente sem qualquer alerta ou limitação matemática pelo software.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-17",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14slideMestre"
+    ],
+    "localizador": "reaplicação de layout e formatação local",
+    "nota": "C corrigido para E: garantia de qualquer alteração uniforme contraria a necessidade documentada de reaplicar layouts em certos casos.",
+    "shaAntes": "42d6eab995f1fab1da48313937ed7923f122351b6ea71d34f951c6fa4040b3c0",
+    "shaDepois": "392278c454f6b05e7b1ea96036d90bb676a098e7340be0211d96040e21530dae",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Mestre e layouts centralizam estilos, mas nem toda alteração se propaga de modo uniforme sem ações adicionais. A documentação prevê reaplicar layouts após mudanças estruturais; formatações locais também interferem. Centralização facilita consistência, sem garantir atualização irrestrita de qualquer slide.",
+      "gatilho": "qualquer alteração",
+      "armadilhaBanca": "Trocar herança de estilo e atualização automática universal.",
+      "fonte": "Microsoft PowerPoint — editar e reaplicar layouts — reaplicação de layout e formatação local — https://support.microsoft.com/en-gb/powerpoint/edit-and-re-apply-a-slide-layout",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Mudanças em layouts podem exigir reaplicação e a formatação local pode afetar o resultado.",
+      "versao_errada": "",
+      "item": "Em apresentações no Microsoft PowerPoint e Google Slides, o slide mestre (ou tema mestre) centraliza a formatação de fontes, cores, logotipos e leiautes, garantindo que qualquer alteração nele efetuada se propague uniformemente por todos os slides que dele derivam.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-18",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14slideMestre"
+    ],
+    "localizador": "mestre e múltiplos layouts",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "90f43a8eee1ad6ead375e5e3a84dbab46e1f334df3cb93ba4bca40cddb76a991",
+    "shaDepois": "19547315df5f4f4c1c369f2d8a9a7db4e19b45f9586e441a52b5752870a74c1f",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Um mestre pode estar associado a múltiplos layouts para título, conteúdo e outras estruturas. O slide usa o layout escolhido e pode exigir reaplicação após alteração. Centralizar estilo não restringe toda apresentação a uma única organização visual.",
+      "gatilho": "único leiaute",
+      "armadilhaBanca": "Confundir estilo comum e estrutura única.",
+      "fonte": "Microsoft PowerPoint — editar e reaplicar layouts — mestre e múltiplos layouts — https://support.microsoft.com/en-gb/powerpoint/edit-and-re-apply-a-slide-layout",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Um mestre pode oferecer diferentes layouts, como título, seção e conteúdo em colunas.",
+      "item": "No Microsoft PowerPoint, o uso do slide mestre restringe a criação da apresentação a um único leiaute fixo, impossibilitando a utilização de leiautes diferenciados para títulos, seções e conteúdo com duas colunas.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-19",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc1939"
+    ],
+    "localizador": "comandos DELE e QUIT; distinção de IMAP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. A afirmação sobre IMAP contrasta sincronização com a ausência desse modelo no POP3; exclusão no servidor depende de comandos/configuração.",
+    "shaAntes": "eee02ee838446a1ff24e5c928565eafe797932e6749a2a911f962b55a5c6733e",
+    "shaDepois": "2a1b8660cebf38b20706d05fcfee4ec85ea800eb28a5ada7c487160860a17185",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "IMAP é apropriado à sincronização de pastas e estados entre clientes; POP3 tem outro modelo e não exige que toda mensagem baixada seja sempre apagada imediatamente do servidor.",
+      "justificativa": "CERTO. POP3 não oferece o mesmo modelo de sincronização de pastas e estados do IMAP. Excluir do servidor depende de comandos e configurações; a transferência não exige sempre remoção imediata. Deixar cópia no servidor também não converte POP3 em sincronização completa de pastas.",
+      "gatilho": "não exige",
+      "armadilhaBanca": "Distinguir protocolo, comando de exclusão e opção do cliente.",
+      "fonte": "IETF — RFC 1939: POP3 — comandos DELE e QUIT; distinção de IMAP — https://www.rfc-editor.org/rfc/rfc1939.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "O download via POP3 exige apagar imediatamente toda mensagem do servidor, sem possibilidade de manter cópia.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-20",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc1939"
+    ],
+    "localizador": "modelo de acesso POP3 e sincronização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. A afirmação sobre IMAP contrasta sincronização com a ausência desse modelo no POP3; exclusão no servidor depende de comandos/configuração.",
+    "shaAntes": "54b608dbecfdc94f55df7a4636315e6b9577a5367f1599b67f9d753fbeb1618f",
+    "shaDepois": "e9e40e79bcbf2d886641b1aa174df4f677dc29593c6f1adc51010893070f1d99",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Manter cópias para vários dispositivos não equivale a sincronizar todas as pastas e estados como IMAP. A avaliação de superioridade absoluta não decorre do protocolo. O critério relevante do item é a capacidade de sincronização alegada, não preferência pessoal por um cliente.",
+      "gatilho": "todas as pastas",
+      "armadilhaBanca": "Confundir cópias acessíveis e sincronização de estado.",
+      "fonte": "IETF — RFC 1939: POP3 — modelo de acesso POP3 e sincronização — https://www.rfc-editor.org/rfc/rfc1939.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "POP3 não fornece o mesmo modelo de sincronização de pastas e estados do IMAP.",
+      "item": "O protocolo POP3 é superior ao IMAP para usuários que acessam simultaneamente suas mensagens corporativas a partir de celulares, tablets e computadores, pois mantém todas as pastas rigorosamente sincronizadas em tempo real na nuvem.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-21",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14E2EE"
+    ],
+    "localizador": "mídia cifrada ponta a ponta e recursos compatíveis",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5387e230400ad70922d39a9492a3a30fa012ac3be3326272aecc5ea2ed3c08dd",
+    "shaDepois": "86269492e4e32f2e207d41e0285d6888c147ddfde0898943854b7d47b3b5fc9e",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "A criptografia ponta a ponta, quando efetivamente ativada e aplicável à mídia da chamada, impede que o serviço intermediário decifre essa mídia, diferentemente da proteção apenas entre cliente e servidor.",
+      "justificativa": "CERTO. Ponta a ponta se distingue da cifragem apenas entre cliente e servidor: o serviço intermediário não deve ter acesso às chaves para decifrar a mídia abrangida. Isso depende da função realmente ativada, clientes e licença, e pode tornar indisponíveis recursos de processamento da mídia no servidor.",
+      "gatilho": "quando efetivamente ativada",
+      "armadilhaBanca": "Separar criptografia de transporte e ponta a ponta.",
+      "fonte": "Microsoft Teams — criptografia ponta a ponta — mídia cifrada ponta a ponta e recursos compatíveis — https://learn.microsoft.com/en-us/microsoftteams/teams-end-to-end-encryption",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Qualquer chamada cifrada em trânsito já é necessariamente ponta a ponta e permite ao servidor decifrar a mídia.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-22",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14MeetAcesso"
+    ],
+    "localizador": "regras de admissão e participação sem conta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1a77eb3bd8225177e99e93bf40f643a067ece306604527027a9a6b2a9c3be9b9",
+    "shaDepois": "2d694d331972fda2a430f2a7ab1e5422d08a94aa6dca2a40ab65da96048864eb",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Conta, organização e configuração da reunião influenciam a admissão. Não existe permissão universal para qualquer anônimo entrar em reunião institucional restrita sem controle. Possibilidade de participação externa em certos cenários não elimina a necessidade de regras do organizador e da instituição.",
+      "gatilho": "qualquer usuário",
+      "armadilhaBanca": "Converter possibilidade condicionada em entrada irrestrita.",
+      "fonte": "Google Meet — participar de uma videochamada — regras de admissão e participação sem conta — https://support.google.com/meet/answer/9302870",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A entrada de participantes externos ou anônimos depende das regras de admissão e da configuração pertinente.",
+      "item": "No Google Meet, qualquer usuário anônimo sem conta Google pode ingressar diretamente em uma reunião institucional restrita sem autorização prévia do organizador ou passagem pela sala de espera (lobby).",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-23",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Rotulos"
+    ],
+    "localizador": "rótulo, classificação e proteção configurada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "22705955638408dd4765143d2508d6dfc9ae0f39335f53f78091d194b22c72b6",
+    "shaDepois": "2596be147e21b9e15945e23030bac41a0e7bf36f2d96e9eb54590e59e8d9d8ba",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Um rótulo de sensibilidade do Microsoft Purview pode aplicar marcações, criptografia e restrições de uso conforme a proteção configurada e os recursos suportados.",
+      "justificativa": "CERTO. Rótulos podem combinar classificação, marcação e proteção, conforme a configuração. O nome Confidencial não cria sozinho qualquer conjunto universal de permissões; criptografia e restrições precisam estar previstas e aplicáveis. Rotular e aplicar automaticamente todos os controles não são sinônimos.",
+      "gatilho": "conforme a proteção configurada",
+      "armadilhaBanca": "Distinguir nome da classificação e política de proteção.",
+      "fonte": "Microsoft Purview — rótulos de sensibilidade — rótulo, classificação e proteção configurada — https://learn.microsoft.com/en-us/purview/sensitivity-labels",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Qualquer rótulo chamado Confidencial aplica obrigatoriamente a mesma criptografia, marca d’água e restrição de impressão em todo produto.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-24",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Rotulos"
+    ],
+    "localizador": "identidade e permissões de conteúdo protegido",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "01bb02cc869a756b04a515b287ecc2b26f2d7084323001a93c1b72a28c58fbfd",
+    "shaDepois": "a16628d665749c76b9ce4d1b30ccb0c5d8f134642272cdab38e409572455f106",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Criptografar segundo um rótulo não implica impedir o autor de abrir novamente o arquivo. O acesso depende da identidade e dos direitos de proteção, que podem ser administrados. Não se deve ensinar nem bloqueio automático do autor nem acesso eterno garantido em qualquer alteração de permissões.",
+      "gatilho": "impede que o autor",
+      "armadilhaBanca": "Confundir proteção por direitos e bloqueio automático do criador.",
+      "fonte": "Microsoft Purview — rótulos de sensibilidade — identidade e permissões de conteúdo protegido — https://learn.microsoft.com/en-us/purview/sensitivity-labels",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A criptografia por rótulo controla acesso segundo direitos e identidade, sem bloquear automaticamente o autor após fechar o arquivo.",
+      "item": "A aplicação de rótulo de confidencialidade com criptografia em um documento do Microsoft Word impede que o autor legítimo do arquivo consiga abri-lo novamente após fechar o programa.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-25",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14TeamsExcluir"
+    ],
+    "localizador": "exclusão, arquivamento e retenção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "00279f0b11ec86f557f9524cfb3940ae13eea1115707ca9bdfd6f388d3732e95",
+    "shaDepois": "c481b3c0250c3b023165d7fc1f8d541c0d33b9911fa916713d909a697f835268",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Excluir uma equipe afeta recursos associados e tem mecanismos próprios de retenção e recuperação. Arquivar é uma operação diferente, e retenção legal pode preservar conteúdo em condições específicas. Isso não torna todos os dados indeléveis nem deixa a exclusão sem impacto.",
+      "gatilho": "indelével",
+      "armadilhaBanca": "Trocar retenção condicionada e imutabilidade irrestrita.",
+      "fonte": "Microsoft Teams — arquivar ou excluir equipe — exclusão, arquivamento e retenção — https://learn.microsoft.com/en-us/microsoftteams/archive-or-delete-a-team",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Exclusão, arquivamento e retenção têm efeitos diferentes; excluir a equipe não garante preservação indelével e intacta de todos os recursos.",
+      "item": "No Microsoft Teams, a exclusão de uma equipe departamental preserva intactos e de forma indelével todos os canais, mensagens de chat e arquivos associados no SharePoint, não gerando qualquer impacto sobre os dados históricos da unidade.",
+      "submoduloId": "14.1"
+    }
+  },
+  {
+    "id": "m14-q-26",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc9293",
+      "m14rfc768"
+    ],
+    "localizador": "conexão, fluxo de bytes e confirmações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ca64a9935dda273a95197cb3aa846093a35df3d86f9d527a5afac57316395b61",
+    "shaDepois": "04f4db31f468ed242ccdc7a47d0a4a2ab569963197f2c002e53e753bd57835b9",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "No TCP, o handshake estabelece a conexão; sequenciamento, confirmações e retransmissões sustentam um fluxo confiável de bytes. UDP não oferece nativamente o mesmo serviço orientado à conexão.",
+      "justificativa": "CERTO. O handshake estabelece a conexão e não é o nome do mecanismo de confirmação de cada dado transmitido. Sequenciamento, reconhecimentos e retransmissão sustentam o serviço confiável de bytes, sujeito a falhas detectáveis da conexão. UDP não oferece nativamente as mesmas garantias.",
+      "gatilho": "handshake",
+      "armadilhaBanca": "Separar estabelecimento da conexão e confiabilidade do fluxo.",
+      "fonte": "IETF — RFC 9293: TCP — conexão, fluxo de bytes e confirmações — https://www.rfc-editor.org/rfc/rfc9293.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "O handshake de abertura do TCP, sozinho, confirma a entrega de todo o conteúdo que será transmitido pela conexão.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-27",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc768"
+    ],
+    "localizador": "UDP e funções implementadas pela aplicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "21ab38b034fcdfbd27ae9a1781a9a316364745626b48d405381aeced551308a1",
+    "shaDepois": "a88a45f09c4382775b957c6e1a8ca8cb5bdde380b00f41813e7000e270409aeb",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Por usar UDP, um protocolo de aplicação nunca pode implementar confirmações, retransmissões ou controle próprio de entrega.",
+      "justificativa": "ERRADO. UDP não fornece por si confirmações, retransmissão ou ordenação confiável. Uma aplicação ou protocolo sobre ele pode implementá-las, como ocorre em soluções de transporte superiores. Ausência de garantia na camada UDP não equivale a impossibilidade de construí-la em outra camada.",
+      "gatilho": "nunca pode",
+      "armadilhaBanca": "Confundir serviço nativo e impossibilidade arquitetural.",
+      "fonte": "IETF — RFC 768: UDP — UDP e funções implementadas pela aplicação — https://www.rfc-editor.org/rfc/rfc768.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Protocolos construídos sobre UDP podem implementar confirmações e retransmissões próprias.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-28",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc1034"
+    ],
+    "localizador": "resolução de nomes e registros DNS",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1832cd6cdf553004d2d8a637024876db35c01c607bc77e2f2ce27ba7df5b99a9",
+    "shaDepois": "1c91bbaa00bab54fa623752c33b02ea8a8b3fd0e91dbc29e083fcc3034d739fa",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. DNS pode resolver nomes em endereços por registros apropriados, mas também transporta outros tipos de informação, como MX e TXT. O resolvedor consulta dados; não substitui o roteamento IP. Resolução bem-sucedida não garante que o servidor esteja disponível ou seja confiável.",
+      "gatilho": "endereços IP",
+      "armadilhaBanca": "Separar resolução, roteamento e disponibilidade.",
+      "fonte": "IETF — RFC 1034: DNS — resolução de nomes e registros DNS — https://www.rfc-editor.org/rfc/rfc1034.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "DNS substitui os roteadores e garante que qualquer nome resolvido corresponda a um serviço disponível e confiável.",
+      "item": "O protocolo DNS (Domain Name System) desempenha a função de resolução de nomes, traduzindo nomes de domínio alfanuméricos legíveis por humanos (como www.camara.leg.br) em endereços IP numéricos necessários para o roteamento na internet.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-29",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14DHCP"
+    ],
+    "localizador": "configuração de rede e concessões",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b1d025f086b724183672d4c2baa0591a058ac3ffed9f2bc91538ffcd1dad6edb",
+    "shaDepois": "0c1b43ccce79f8a85b14c90493fa28867d257ebd86562e14132af27313f82e66",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "DHCP tem como função principal converter nomes de domínio em seus registros de endereço, substituindo a consulta ao DNS.",
+      "justificativa": "ERRADO. DHCP fornece configuração de rede a clientes, incluindo endereço e outros parâmetros conforme a implantação. Resolver nomes é função do DNS, embora DHCP possa informar qual servidor DNS usar. A comunicação entre serviços não torna suas funções equivalentes.",
+      "gatilho": "nomes de domínio",
+      "armadilhaBanca": "Trocar configuração de rede e resolução de nomes.",
+      "fonte": "IETF — RFC 2131: DHCP — configuração de rede e concessões — https://www.rfc-editor.org/rfc/rfc2131",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "DHCP distribui configuração de rede; DNS resolve nomes segundo os registros consultados.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-30",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc8446"
+    ],
+    "localizador": "TLS e autenticação do servidor; HTTPS",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4c380ec41122d75ef836637fe3eacb5f347fe7e3c49b9da198f6c3419be0a378",
+    "shaDepois": "9ba94a374c0e2ba03fca05d22865f1e6f7afcf96254268b54bdbb7a643714691",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Nas implementações atuais, HTTPS protege a comunicação HTTP com TLS; usa por padrão a porta 443 e normalmente autentica o servidor por certificado validado para a identidade esperada.",
+      "justificativa": "CERTO. HTTPS usa TLS nas implementações atuais; 443 é porta padrão, não única porta possível. Certificado e validação ligam a identidade esperada à autenticação do servidor. A cifra não prova que o conteúdo do site seja verdadeiro nem legitima um domínio malicioso.",
+      "gatilho": "por padrão",
+      "armadilhaBanca": "Distinguir padrão de porta, autenticação e confiabilidade editorial.",
+      "fonte": "IETF — RFC 8446: TLS 1.3 — TLS e autenticação do servidor; HTTPS — https://www.rfc-editor.org/rfc/rfc8446.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "HTTPS só pode funcionar na porta 443 e garante que toda informação publicada no site seja verdadeira.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-31",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc8446"
+    ],
+    "localizador": "proteção de transporte e HTTP sem TLS",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e721535417197bc0f35a3db14f1abf74a87d4a13444c349bc9a45a1709317190",
+    "shaDepois": "d79e6e5d818c1b64449efda5743447fecc580cfe8a60861b6bcd1da13239e7eb",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. HTTP, por si só, não fornece a proteção de transporte alegada. Usar TLS é que protege o canal conforme a configuração. Uma aplicação pode cifrar um conteúdo específico, mas isso não significa que o protocolo HTTP básico cifre automaticamente corpo, cabeçalhos ou credenciais.",
+      "gatilho": "sem camada TLS",
+      "armadilhaBanca": "Não atribuir à aplicação básica a proteção de uma camada adicional.",
+      "fonte": "IETF — RFC 8446: TLS 1.3 — proteção de transporte e HTTP sem TLS — https://www.rfc-editor.org/rfc/rfc8446.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "HTTP sem TLS não fornece, por si só, cifragem automática do transporte das requisições.",
+      "item": "O protocolo de comunicação HTTP em sua versão básica sem camada TLS cifra o corpo das requisições web por meio de chaves simétricas, inviabilizando a captura de senhas em trânsito por ferramentas de monitoramento de tráfego na rede local.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-32",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cert"
+    ],
+    "localizador": "malware: ransomware e recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cd3cab5636e236ecc32242e121bce2c23cd83fdf4a8daa80b32e22a9c76ca542",
+    "shaDepois": "df771adc4581a45f54679de67c0023676a88a0df692d5869e975956dc7c0b924",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Uma modalidade de ransomware criptografa arquivos para exigir resgate; o pagamento não garante recuperação e não esgota as formas de extorsão envolvendo dados.",
+      "justificativa": "CERTO. Criptografar arquivos para extorquir é uma modalidade frequente de ransomware. Há também bloqueio e extorsão envolvendo vazamento, e pagar não garante recuperação. O item foi delimitado para não definir todos os ataques por uma técnica nem prometer que o resgate devolve os dados.",
+      "gatilho": "Uma modalidade",
+      "armadilhaBanca": "Distinguir modalidade de ataque e garantia de recuperação.",
+      "fonte": "CERT.br — Cartilha de Segurança para Internet: Criptografia — malware: ransomware e recuperação — https://cartilha.cert.br/criptografia/",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Todo ransomware usa necessariamente a mesma técnica de criptografia e o pagamento garante a devolução dos arquivos.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-33",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cert"
+    ],
+    "localizador": "golpes: phishing e direcionamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f1829f957ccfd62867d5effd766ed8b6f3edf96a11e4105c4297444c4e2c6421",
+    "shaDepois": "43cf7d7ecee74f57ee24cbf0ec3565d9d7081608d42784280a08316d2b7abe6d",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Spear-phishing é direcionado a pessoa ou grupo identificado, frequentemente com pesquisa e personalização. O item lhe atribui o disparo indiscriminado que pretende contrastar. Personalização não exige conhecer a senha da vítima; informações públicas podem alimentar a abordagem.",
+      "gatilho": "disparos em massa",
+      "armadilhaBanca": "Inverter categoria geral e modalidade direcionada.",
+      "fonte": "CERT.br — Cartilha de Segurança para Internet: Criptografia — golpes: phishing e direcionamento — https://cartilha.cert.br/criptografia/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Spear-phishing envolve direcionamento e personalização, em vez de ser definido por disparos impessoais a vítimas aleatórias.",
+      "item": "Ataques de Phishing diferenciam-se do Spear-Phishing porque o Spear-Phishing consiste em disparos em massa e impessoais de e-mails para milhões de vítimas aleatórias sem qualquer pesquisa prévia de perfil.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-34",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cert"
+    ],
+    "localizador": "negação de serviço distribuída",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9bd124116d7af74968c36569739d7a0f9a079538ab07d1ea894235eff227c69b",
+    "shaDepois": "e91c9afd55578dea3d91af38dace4391e52c820397b906ddf783ea3ab0d5af42",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Um DDoS procura comprometer a disponibilidade por tráfego ou requisições de fontes distribuídas, que podem envolver botnets e outras técnicas, sem exigir alteração prévia dos dados do alvo.",
+      "justificativa": "CERTO. DDoS busca comprometer disponibilidade usando fontes distribuídas e pode envolver botnets, reflexão ou outros arranjos. Não é definido por invasão e alteração de todos os dados do alvo. A mesma indisponibilidade pode ter outras causas, que precisam ser investigadas.",
+      "gatilho": "fontes distribuídas",
+      "armadilhaBanca": "Distinguir sobrecarga distribuída e alteração de dados.",
+      "fonte": "CERT.br — Cartilha de Segurança para Internet: Criptografia — negação de serviço distribuída — https://cartilha.cert.br/criptografia/",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Todo DDoS exige que o atacante modifique primeiro o conteúdo do banco de dados do serviço-alvo.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-35",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cert"
+    ],
+    "localizador": "conceitos: confidencialidade e disponibilidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "24c83a1b6989a8c0aa871d44c09d5e124f7f3294f15a93367f6706a6f6e6a1b5",
+    "shaDepois": "26a5919ef301843249fa9feb47a61894ca99eecd0847d3f4e63ee0d9901b8683",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Acesso tempestivo corresponde à disponibilidade. Confidencialidade trata de acesso e divulgação apenas a quem está autorizado. Um serviço pode estar disponível e, ainda assim, expor dados indevidamente; as propriedades são relacionadas, mas distintas.",
+      "gatilho": "acesso tempestivo",
+      "armadilhaBanca": "Trocar propriedades da tríade de segurança.",
+      "fonte": "CERT.br — Cartilha de Segurança para Internet: Criptografia — conceitos: confidencialidade e disponibilidade — https://cartilha.cert.br/criptografia/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Disponibilidade diz respeito ao acesso tempestivo; confidencialidade restringe acesso e divulgação não autorizados.",
+      "item": "No modelo da segurança da informação, o atributo da confidencialidade assegura o acesso tempestivo aos sistemas de informação e bancos de dados institucionais por parte dos colaboradores credenciados.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-36",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cert"
+    ],
+    "localizador": "conceitos: integridade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "06273d676caeee8111c3771ea1b644afac6835b505e72e6c05639265ac074a53",
+    "shaDepois": "d3d04d785aa42f8c83260a69f8fc8e0cb2abe71a3edf3152ab1c9f42bc1d1a48",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Integridade se relaciona à proteção contra alteração ou destruição indevida e à preservação da correção da informação. Nem toda alteração é violação: uma edição autorizada pode ser legítima. A qualidade de um controle deve ser avaliada separadamente da definição da propriedade.",
+      "gatilho": "alterada ou corrompida de forma indevida",
+      "armadilhaBanca": "Distinguir alteração legítima e modificação indevida.",
+      "fonte": "CERT.br — Cartilha de Segurança para Internet: Criptografia — conceitos: integridade — https://cartilha.cert.br/criptografia/",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Integridade significa proibir toda edição, inclusive alterações autorizadas que mantenham o registro correto.",
+      "item": "Na tríade fundamental de segurança da informação (CID - Confidencialidade, Integridade e Disponibilidade), a integridade assegura que a informação não seja alterada ou corrompida de forma indevida ou fraudulenta durante o armazenamento ou transmissão.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-37",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NGFW"
+    ],
+    "localizador": "inspeção de aplicação e TLS conforme recursos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5a855e465ee8794a855256ef3e14a7de91a6bb14bf7b793557b0a22943a38edd",
+    "shaDepois": "c20900996292c14f62ede5249dea86f60b32f525ad0787e14fe16ef4b0e08b70",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Firewalls de nova geração podem incorporar identificação de aplicações, inspeção e prevenção de intrusão. A visibilidade sobre conteúdo cifrado depende de recursos e políticas de inspeção; não se pode afirmar incapacidade técnica universal de atuar em camada de aplicação.",
+      "gatilho": "restrito",
+      "armadilhaBanca": "Transformar limite de configuração em impossibilidade técnica universal.",
+      "fonte": "Microsoft Azure Firewall Premium — recursos — inspeção de aplicação e TLS conforme recursos — https://learn.microsoft.com/en-us/azure/firewall/premium-features",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Recursos de aplicação e inspeção podem compor NGFW, respeitados configuração e limites de visibilidade.",
+      "item": "Um Firewall de Próxima Geração (NGFW) opera restrito à inspeção do cabeçalho de pacotes nas camadas 3 e 4 do modelo OSI, sendo tecnicamente incapaz de inspecionar o conteúdo de aplicações (camada 7) ou bloquear comandos específicos de banco de dados.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-38",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAuth"
+    ],
+    "localizador": "fatores distintos de autenticação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c5ca69ddff6b1e3765074e2fe387a4693d1298fb5778d7282493523146e6c1ca",
+    "shaDepois": "e9836fa4d302f6780297d405ca278b3c60df842ab023813fb39bfb9f45fb2e62",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. MFA combina mais de um tipo de fator, como conhecimento, posse ou característica inerente. Duas solicitações não bastam se ambas testam apenas o mesmo tipo. A segurança depende também do autenticador, de sua proteção e do processo de recuperação, não só de contar etapas.",
+      "gatilho": "categorias distintas",
+      "armadilhaBanca": "Separar quantidade de etapas e tipos de fatores.",
+      "fonte": "NIST SP 800-63B-4 — autenticação e fatores — fatores distintos de autenticação — https://pages.nist.gov/800-63-4/sp800-63b.html",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Qualquer sequência de duas senhas do mesmo tipo constitui necessariamente MFA.",
+      "item": "A autenticação multifator (MFA) eleva a segurança ao exigir que o usuário comprove sua identidade combinando pelo menos dois fatores de categorias distintas: algo que ele sabe (como uma senha), algo que ele possui (como um token físico ou aplicativo autenticador) ou algo que ele é (como biometria facial ou digital).",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-39",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAuth"
+    ],
+    "localizador": "MFA e conhecimento repetido",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cad006eb2aef79e8b8f9daaec9ad820c915e2ea9ced242016624f175b795aaae",
+    "shaDepois": "dfdaf23fcfb2fcdff98327798d9926c5ab10e63b5f2b19dc8b8629731a68d520",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Duas senhas continuam sendo fatores de conhecimento, ainda que usadas por sistemas diferentes. A definição exige tipos distintos, não apenas dois segredos ou duas telas. O número de senhas não prova resistência a phishing nem substitui a análise dos autenticadores.",
+      "gatilho": "duas senhas",
+      "armadilhaBanca": "Não confundir multiplicação de segredos com multiplicidade de fatores.",
+      "fonte": "NIST SP 800-63B-4 — autenticação e fatores — MFA e conhecimento repetido — https://pages.nist.gov/800-63-4/sp800-63b.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Duas senhas não constituem, por si só, fatores de categorias diferentes.",
+      "item": "A inserção de duas senhas textuais sequenciais criadas pelo próprio usuário (como a senha de rede e a senha do correio eletrônico) caracteriza formalmente uma autenticação multifator robusta segundo os padrões internacionais de segurança.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-40",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Backup321"
+    ],
+    "localizador": "uma cópia primária, duas de backup; mídias e local",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8a26db992e449a057f2f7cd62d5c5d13b69d91122d904e1b5583157954db151d",
+    "shaDepois": "a5b36b0409d954b10dea51d73540bb816f835b129c74f123caac4bb4365248be",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. A regra soma a cópia primária e duas de backup, distribui em dois tipos de mídia e mantém uma fora do local principal. Não exige três backups além do original. Também não dispensa testar restauração, proteção das cópias e adequação aos riscos.",
+      "gatilho": "3 cópias",
+      "armadilhaBanca": "Interpretar a contagem e separar regra de garantia de recuperação.",
+      "fonte": "US-CERT/CISA — Data Backup Options — uma cópia primária, duas de backup; mídias e local — https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "A regra exige três backups adicionais à cópia primária e autoriza manter todas as cópias no mesmo equipamento.",
+      "item": "A regra de backup 3-2-1 preconiza que a organização mantenha pelo menos 3 cópias dos dados importantes, armazenadas em 2 mídias de tipos diferentes, com pelo menos 1 dessas cópias guardada fora das instalações físicas principais (offsite ou nuvem).",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-41",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14TiposBackup"
+    ],
+    "localizador": "backup completo, incremental e diferencial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5c005a130d611cb7ac259126311cd5a9e5cd550847036023d1a472a5adb6c68c",
+    "shaDepois": "5fabad0be1bdd6aa5ddefb610882c3dec38b44fb4815d5eceeef170d06f4c224",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. A descrição corresponde ao diferencial, que acumula mudanças desde o último completo. O incremental considera o backup anterior da cadeia; a restauração tradicional precisa do completo e dos incrementais pertinentes. Produtos podem oferecer otimizações, sem transformar essas duas definições na mesma coisa.",
+      "gatilho": "último backup integral",
+      "armadilhaBanca": "Trocar referência de comparação e conjunto de restauração.",
+      "fonte": "IBM — Backup as a Service: tipos de backup — backup completo, incremental e diferencial — https://www.ibm.com/think/topics/backup-as-a-service",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O diferencial acumula mudanças desde o completo; o incremental tradicional depende da cadeia de incrementais para restauração.",
+      "item": "No procedimento de backup incremental, a rotina diária copia as modificações ocorridas em relação ao último backup integral (full), permitindo que a restauração de desastre requeira o conjunto de fitas do backup full e o suporte referente ao dia mais recente.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-42",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14RPO",
+      "m14RTO"
+    ],
+    "localizador": "objetivos de ponto e tempo de recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bc079be0ad756c7f03baebe686c924ceb2a09d61705205e1b5f887c477e95ca4",
+    "shaDepois": "f204f6b0997950fdf8d21d9b154a3fbf521da521d5b29ffd1908c71cdaf5a66f",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. RPO delimita a perda tolerável expressa em tempo dos dados; RTO, o tempo para recuperar a operação. Uma organização pode ter RPO curto e RTO maior. Confundir os dois leva a escolher backup e recuperação inadequados para a necessidade.",
+      "gatilho": "RPO",
+      "armadilhaBanca": "Separar idade máxima da perda e duração da indisponibilidade.",
+      "fonte": "IBM — RTO e RPO — objetivos de ponto e tempo de recuperação — https://www.ibm.com/docs/en/i/7.5.0?topic=criteria-recovery-point-objective-rpo",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "RPO de uma hora significa obrigatoriamente que o serviço deve voltar em uma hora, independentemente da perda de dados.",
+      "item": "O Recovery Point Objective (RPO) define a quantidade máxima tolerável de dados perdidos medida em tempo (por exemplo, 1 hora de transações), enquanto o Recovery Time Objective (RTO) estipula o tempo máximo aceitável para que o sistema volte a operar após a ocorrência de um desastre.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-43",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14RPO",
+      "m14RTO"
+    ],
+    "localizador": "ponto de recuperação e tolerância a perda",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f3cf0cbbdd7cf3ab1e706a4be7461ad886bf95c767324ee22e6d6fb01d46991b",
+    "shaDepois": "e4460d6567c15c870ddc25820522d9b210a46063854e666155a7aa45397ac6d0",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Definir RPO de uma hora obriga que o sistema volte a operar em até uma hora, ainda que o objetivo de recuperação do serviço não tenha sido definido.",
+      "justificativa": "ERRADO. Um RPO de uma hora trata de quanto histórico de dados se tolera perder, não do prazo para restaurar o serviço. Esse último é RTO. A nova redação substitui um cenário absurdo de RPO infinito por troca plausível entre métricas.",
+      "gatilho": "volte a operar",
+      "armadilhaBanca": "Aplicar os dois objetivos a um caso concreto.",
+      "fonte": "IBM — RTO e RPO — ponto de recuperação e tolerância a perda — https://www.ibm.com/docs/en/i/7.5.0?topic=criteria-recovery-point-objective-rpo",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "O prazo de retomada é descrito pelo RTO; RPO limita a perda tolerável de dados em tempo.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-44",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc8446"
+    ],
+    "localizador": "intermediação maliciosa e validação da identidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2ec8275fcc0007596c66ce93232742a1a26fc23153c8d859aff75c49db19d77b",
+    "shaDepois": "50582c19863d146120755eac4552c0a7cc47ca2580b40b8853dc151bc0ea09ec",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Cifrar sem validar a identidade esperada pode permitir falar com um intermediário malicioso. TLS corretamente validado ajuda a mitigar essa interceptação. Não basta haver certificado qualquer: é preciso confiança e correspondência com a identidade pretendida, sem ignorar falhas de configuração.",
+      "gatilho": "validação estrita",
+      "armadilhaBanca": "Separar existência de cifra e autenticação da parte correta.",
+      "fonte": "IETF — RFC 8446: TLS 1.3 — intermediação maliciosa e validação da identidade — https://www.rfc-editor.org/rfc/rfc8446.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Aceitar qualquer certificado apresentado torna a conexão automaticamente imune a intermediários maliciosos.",
+      "item": "Em um ataque de Man-in-the-Middle (MitM), o invasor intercepta e potencialmente altera as mensagens trocadas entre duas partes que acreditam estar se comunicando diretamente de forma privada, o que pode ser mitigado pelo uso de canais criptografados com validação estrita de certificados digitais.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-45",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14SQL"
+    ],
+    "localizador": "parametrização e escape manual",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2273267165bc79fe78b9b552147fbbd89a6e99b1cafed5e6bee18115302167dc",
+    "shaDepois": "46c3838514200295408998f265d66b9776ac4a94d7539c250381c0fb2c135a56",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Escapar aspas manualmente em entradas do usuário equivale integralmente a consultas parametrizadas e garante, em qualquer dialeto e configuração, a eliminação de SQL injection.",
+      "justificativa": "ERRADO. Consultas parametrizadas separam valores e estrutura do comando. Escape manual depende de dialeto e configuração e não deve ser tratado como substituto universal. Parametrizar valores também não autoriza usar entrada livre como nome de tabela ou cláusula SQL.",
+      "gatilho": "equivale integralmente",
+      "armadilhaBanca": "Distinguir mitigação contextual e garantia universal.",
+      "fonte": "OWASP — SQL Injection Prevention Cheat Sheet — parametrização e escape manual — https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Escape manual não substitui universalmente a parametrização; valores e estrutura da consulta precisam de controles adequados.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-46",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "art. 46, §2º: concepção e execução",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ba6aa2c04a6371e1d5d29512eeea7d2be5dc7d5eb483a6dde8794de3aaa4cc93",
+    "shaDepois": "60f022475cc3b69101840d5e71b6d08ab51435348384e5624ff1eeff9f4d6a8e",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "A LGPD prevê medidas de segurança desde a concepção do produto ou serviço até sua execução, não apenas na configuração final entregue ao usuário.",
+      "justificativa": "CERTO. A LGPD situa medidas de segurança desde a concepção até a execução. Isso não se resume a mudar configurações depois que o sistema já está em uso. A redação retira a atribuição não demonstrada de uma lista universal de configurações máximas à LGPD ou à ISO 27001.",
+      "gatilho": "concepção",
+      "armadilhaBanca": "Localizar a proteção ao longo do ciclo, sem inventar parâmetro universal.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 46, §2º: concepção e execução — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "A LGPD exige que medidas de segurança sejam consideradas apenas depois de iniciada a operação do sistema.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-47",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "arts. 23, 33 e 46: finalidade, transferência e segurança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2f1c66eeb92eaab95fb365e1b66ddf4b1d2cd78caa2385ae9c655a9697a4bdab",
+    "shaDepois": "5df16534af9b65f3dcb45db21a35da09794b8db140a9ebba9495a44cb59feada",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. A LGPD não estabelece a proibição geral de nuvem pública descrita. É preciso avaliar base legal, finalidade, segurança, contratos e eventual transferência internacional. Localização física nacional, por si só, tampouco garante conformidade ou proteção.",
+      "gatilho": "ilícita",
+      "armadilhaBanca": "Trocar avaliação de requisitos e proibição territorial inexistente.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 23, 33 e 46: finalidade, transferência e segurança — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Uso de nuvem deve ser avaliado segundo os requisitos legais e de segurança, sem uma vedação geral por ser nuvem pública.",
+      "item": "A Lei Geral de Proteção de Dados Pessoais condiciona o tratamento de bases cadastrais da administração pública à guarda física em servidores locais instalados na sede do órgão, considerando ilícita a contratação de infraestrutura em nuvem pública.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-48",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14webAuthn",
+      "m14NistAuth"
+    ],
+    "localizador": "credencial de chave pública e vínculo ao serviço",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "296a566815d42291f356083d9b6c68878650a78fe8cb50ad4e513122344dd7aa",
+    "shaDepois": "2a2723c3b11c581960f1d3e97a4b8ed397f4ea16666266c1f1056ac8dfa321ec",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "WebAuthn pode apoiar autenticação sem senha compartilhada e resistente a phishing pelo vínculo da credencial ao serviço; isso não elimina todos os riscos de sessão, recuperação de conta ou dispositivo.",
+      "justificativa": "CERTO. WebAuthn usa credenciais de chave pública vinculadas à parte confiável e à origem verificada. A resistência a phishing não decorre só de guardar uma chave em hardware e não elimina roubo de sessão, recuperação fraca ou comprometimento do dispositivo. O exemplo não exige TPM em todas as implementações.",
+      "gatilho": "não elimina",
+      "armadilhaBanca": "Distinguir propriedade do autenticador e segurança integral da conta.",
+      "fonte": "W3C — Web Authentication Level 2 — credencial de chave pública e vínculo ao serviço — https://www.w3.org/TR/webauthn-2/",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Usar WebAuthn torna automaticamente todo processo de recuperação de conta e todo dispositivo imunes a ataques.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-49",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rfc4253"
+    ],
+    "localizador": "SSH: transporte protegido e conexão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "09352e222fd8500cd2550c80204a3f9ebee8cc91df172c8e0b22fffbcfb1506d",
+    "shaDepois": "871e766bafe6fbe8feca0ea0699a5e7c1168844155516fe706697d12854dd6a7",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. SSH usa transporte protegido e porta padrão 22; a descrição remete a acesso remoto não protegido e troca a porta por aquela usualmente associada a Telnet. Porta pode ser reconfigurada, mas isso não torna correto o padrão atribuído.",
+      "gatilho": "porta 23",
+      "armadilhaBanca": "Trocar protocolo, proteção e porta padrão.",
+      "fonte": "IETF — RFC 4253: SSH — SSH: transporte protegido e conexão — https://www.rfc-editor.org/rfc/rfc4253.txt",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "SSH utiliza transporte protegido e tem porta padrão 22, ainda que a implantação possa usar outra porta.",
+      "item": "O protocolo SSH (Secure Shell) opera por padrão na porta 23 e trafega todo o fluxo de comandos e senhas de administração remota em texto claro sem criptografia.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-50",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NGFW"
+    ],
+    "localizador": "detecção e prevenção de intrusão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "503268ca8231e48977a968f02b11a5ecec58ea0f364a709e4bcb93392a8c7474",
+    "shaDepois": "050bd48f0a73d41f43ddc37801031ae04a4634596ee41e140fe75d79cd48c14e",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Uma função de detecção identifica e sinaliza atividade suspeita; uma implantação de prevenção pode bloquear tráfego conforme a política, havendo soluções que combinam essas funções.",
+      "justificativa": "CERTO. Detecção identifica e sinaliza atividade; prevenção pode agir sobre o tráfego. Sistemas combinados e ações configuráveis existem, por isso a redação não proíbe toda resposta ativa em qualquer produto chamado IDS. A capacidade efetiva depende da implantação e da política.",
+      "gatilho": "pode bloquear",
+      "armadilhaBanca": "Distinguir funções sem transformar nomes de produto em limites absolutos.",
+      "fonte": "Microsoft Azure Firewall Premium — recursos — detecção e prevenção de intrusão — https://learn.microsoft.com/en-us/azure/firewall/premium-features",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Prevenção de intrusão nunca pode bloquear tráfego, limitando-se obrigatoriamente a enviar alertas.",
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m14-q-51",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14transformer"
+    ],
+    "localizador": "self-attention, tokens e máscaras",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "153e36dfd08015d2e0a4d1a7ac724ab8abf3466799af1e42e965b8db6d456e38",
+    "shaDepois": "4a71a7fdadd720a308aa42775cab5fd4fbe8b4b8a156530129d40c59c87f9221",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Transformers usam mecanismos de atenção para relacionar representações de tokens; isso não significa acesso irrestrito a todos os tokens, pois há limites de contexto e máscaras, como a causal.",
+      "justificativa": "CERTO. Self-attention relaciona representações de tokens, mas opera dentro da janela e das máscaras do modelo. Em decodificadores causais, posições futuras são mascaradas. Paralelização de treinamento não significa que qualquer token tenha acesso irrestrito a todos os demais em todo momento.",
+      "gatilho": "não significa acesso irrestrito",
+      "armadilhaBanca": "Preservar limites de janela e mascaramento.",
+      "fonte": "Vaswani et al. — Attention Is All You Need, 2017 — self-attention, tokens e máscaras — https://arxiv.org/abs/1706.03762",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Todo Transformer permite que qualquer posição consulte tokens futuros, mesmo quando há máscara causal.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-52",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14transformer"
+    ],
+    "localizador": "recorrência e dependência entre estados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d34c99bbe66f8dc90c26d9ff8c7fafb713449bc1a5b94c1a2e33e73a83394c55",
+    "shaDepois": "cc9d5421d613e454556097d06d8264c33d05da2852f7ec54baddd913f4f322ce",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Uma RNN calcula todos os estados de uma sequência independentemente dos estados anteriores, como requisito essencial de seu mecanismo recorrente.",
+      "justificativa": "ERRADO. A RNN usa estado anterior para calcular a sequência, criando dependência recorrente. Isso difere da forma de paralelização de atenção e não elimina problemas de gradiente em sequências longas. A questão foi reescrita para comparar mecanismos, sem a caricatura de paralelismo perfeito.",
+      "gatilho": "independentemente",
+      "armadilhaBanca": "Distinguir dependência recorrente e processamento paralelo.",
+      "fonte": "Vaswani et al. — Attention Is All You Need, 2017 — recorrência e dependência entre estados — https://arxiv.org/abs/1706.03762",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Na recorrência, o estado anterior participa do cálculo do próximo estado.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-53",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Embeddings"
+    ],
+    "localizador": "representações vetoriais e similaridade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f71fdd9ab7f9ebc7020371daa1fb3c2803c506851e78761e247eb81db7dbac94",
+    "shaDepois": "7b1b00487d4e7e9dc6bc52600fbdd0fd14f7c193ed0dccaee0316125d63544bf",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Embeddings representam unidades de linguagem por vetores; a proximidade pode refletir afinidades aprendidas, sem garantir sinonímia, verdade factual ou distância elevada entre todo par de antônimos.",
+      "justificativa": "CERTO. A proximidade pode representar afinidade conforme modelo, treino e medida. Não é uma lei de sinonímia: termos opostos podem compartilhar contexto e estar próximos. Vetor não contém, por si, prova de verdade ou identidade de todos os sentidos.",
+      "gatilho": "pode refletir",
+      "armadilhaBanca": "Separar similaridade de representação e equivalência semântica absoluta.",
+      "fonte": "Reimers e Gurevych — Sentence-BERT, 2019 — representações vetoriais e similaridade — https://arxiv.org/abs/1908.10084",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Vetores próximos demonstram necessariamente que os termos são sinônimos em todos os contextos.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-54",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Embeddings"
+    ],
+    "localizador": "antônimos, contexto e distância vetorial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6fff6f147be89ee50e5a171201729846087c49b122dc881648f0b2f68340244c",
+    "shaDepois": "14bbe66200dda8250432c87ab9a58aa60bde82e3b9bc81c074f65015c0f2e9d6",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Não há regra universal de que antônimos tenham distância de cosseno zero. Eles podem ter contextos parecidos e ficar próximos, mas isso depende da representação. Distância, similaridade e oposição linguística são conceitos diferentes; a afirmação inventa uma convergência necessária.",
+      "gatilho": "converge para zero",
+      "armadilhaBanca": "Não transformar relação linguística em teorema geométrico.",
+      "fonte": "Reimers e Gurevych — Sentence-BERT, 2019 — antônimos, contexto e distância vetorial — https://arxiv.org/abs/1908.10084",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A relação entre antônimos e distância depende do modelo; não existe convergência universal para zero.",
+      "item": "No espaço vetorial de representação de linguagem natural (embeddings), a distância de cosseno entre vetores associados a vocábulos com forte oposição semântica converge para zero.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-55",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14rlhf"
+    ],
+    "localizador": "pipeline clássico de preferências, recompensa e reforço",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bb211ecb42402a6f4826c1699e6b2a5f6b2850b4ba7db7f31704e2e66ad311cb",
+    "shaDepois": "b5232344a340d1b57179b4f593bb7bc6eea34e74b4fe47e03ffec0be5e21c3c3",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Na configuração clássica de RLHF, preferências humanas podem treinar um modelo de recompensa usado para orientar a otimização do modelo de linguagem, sem garantir correção universal das respostas.",
+      "justificativa": "CERTO. Na configuração clássica descrita no estudo, comparações humanas treinam uma função de recompensa que orienta otimização. A preferência dos avaliadores não prova verdade ou segurança absoluta. Há também métodos de preferência com outros procedimentos, portanto o item delimita o pipeline examinado.",
+      "gatilho": "configuração clássica",
+      "armadilhaBanca": "Distinguir objetivo de alinhamento e garantia de resultado.",
+      "fonte": "Ouyang et al. — Training language models to follow instructions with human feedback, 2022 — pipeline clássico de preferências, recompensa e reforço — https://arxiv.org/abs/2203.02155",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Treinar com preferências humanas garante que toda resposta gerada seja verdadeira e livre de vieses.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-56",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "pré-treinamento e exemplos no prompt",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "27cdbe4cd703da5f47d7a8c7d20fdd9a3e6bcb15489d06a44b972bcd73f1b062",
+    "shaDepois": "56d39fa04a3e65e2eb17d5f2569664acf9fedb5c9e7cd05cca1b84ba2b189af2",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Pré-treinamento envolve otimização de parâmetros sobre dados e objetivo de treino, não apenas apresentar alguns exemplos curtos ao modelo em uso. Few-shot prompting é outro procedimento. O custo e a complexidade variam, sem a hierarquia simplista e universal proposta.",
+      "gatilho": "mais simplificada",
+      "armadilhaBanca": "Confundir treinamento de parâmetros e exemplos em contexto.",
+      "fonte": "Brown et al. — Language Models are Few-Shot Learners, 2020 — pré-treinamento e exemplos no prompt — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Pré-treinamento atualiza parâmetros por um objetivo de treino; exemplos no prompt são um mecanismo diferente.",
+      "item": "O pré-treinamento de grandes modelos de linguagem (LLMs) constitui a fase mais simplificada do ciclo de desenvolvimento, dependendo da inserção de exemplos curtos estruturados manualmente por anotadores humanos.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-57",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "recuperação e condicionamento da geração",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6afd2db730a749785f600985b5ba18d10724e536db52bfd6956c57e25d9ea1a3",
+    "shaDepois": "837cdfeb4996a233d1fdb79dabe036f1108a2f839bb53e2062e94077b6141337",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "RAG combina recuperação de informação e geração; o material recuperado pode apoiar a resposta, mas qualidade, atualização e fidelidade precisam ser avaliadas.",
+      "justificativa": "CERTO. RAG recupera informação para condicionar a geração, podendo apoiar fundamentação. Se o documento estiver errado, desatualizado ou mal recuperado, a resposta pode continuar incorreta. A técnica não garante frescor, fontes corretas ou eliminação de alucinações em qualquer implantação.",
+      "gatilho": "qualidade, atualização e fidelidade precisam ser avaliadas",
+      "armadilhaBanca": "Distinguir apoio documental e garantia de fidelidade.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — recuperação e condicionamento da geração — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Qualquer arquitetura RAG garante que as fontes sejam atuais e elimina toda alucinação.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-58",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "memória paramétrica e recuperação externa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "33e6fd413c60d0959bfb13004108179185cbbc5004eabf0dbad1c2e13aa233fa",
+    "shaDepois": "f4ada14db93bacc6741fecffae138d612661156d75d732807e4f17a9f6e81cb0",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Recuperar trechos na consulta não os grava automaticamente nos pesos. Além disso, busca pode ser lexical, vetorial ou híbrida; banco vetorial não é requisito universal de toda RAG. O item combina uma possibilidade real de busca sem vetores com uma justificativa falsa de atualização dos parâmetros.",
+      "gatilho": "gravados nos pesos",
+      "armadilhaBanca": "Avaliar a justificativa sem inventar requisito universal de vetor.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — memória paramétrica e recuperação externa — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "RAG pode usar busca lexical ou vetorial sem gravar automaticamente os documentos recuperados nos pesos do modelo.",
+      "item": "O uso de arquiteturas RAG elimina a necessidade de bancos de dados vetoriais, pois todos os documentos corporativos da organização são automaticamente gravados nos pesos fixos da rede neural do modelo durante a fase de consulta em tempo real.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-59",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14chainThought"
+    ],
+    "localizador": "experimentos de raciocínio e limites de generalização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d71a48dd1e0f75e125e48338ed90fd3d261a2bfa8ad774beb4627023d88e2e8d",
+    "shaDepois": "af58a60481232048f8e0a4aed5084e17cccab5b62cb082eed6056a30dc2872ba",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Apresentar ou solicitar etapas intermediárias de solução pode ajudar em certas tarefas e modelos, como nos experimentos de Chain-of-Thought, mas não garante melhora universal nem correção de cada etapa.",
+      "justificativa": "CERTO. O estudo relata ganhos em tarefas e modelos específicos com exemplos de etapas intermediárias. Isso não prova aumento significativo em todo modelo ou problema. Uma explicação plausível também pode conter erro; etapas devem ser verificadas, em vez de tratadas como certificado de correção.",
+      "gatilho": "pode ajudar",
+      "armadilhaBanca": "Separar resultado experimental delimitado e promessa universal.",
+      "fonte": "Wei et al. — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, 2022 — experimentos de raciocínio e limites de generalização — https://arxiv.org/abs/2201.11903",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Pedir etapas garante precisão significativamente maior em qualquer tarefa e modelo.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-60",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "zero-shot e few-shot",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e077e03bbfdbe162883e332c93db293bf79706ca67c77845860e9ace809207de",
+    "shaDepois": "c109527db56fa293403b2a4e38eb54395189c5546b0c27739a1db97d5858cc40",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Zero-shot não inclui exemplos demonstrativos da tarefa no prompt, embora possa haver instruções e contexto. Few-shot inclui alguns exemplos. Não confunda quantidade de instruções com quantidade de demonstrações de entrada e saída.",
+      "gatilho": "dezenas de exemplos",
+      "armadilhaBanca": "Distinguir instrução, contexto e demonstração.",
+      "fonte": "Brown et al. — Language Models are Few-Shot Learners, 2020 — zero-shot e few-shot — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Zero-shot pode fornecer instruções sem exemplos demonstrativos; few-shot inclui exemplos da tarefa.",
+      "item": "O 'zero-shot prompting' caracteriza-se pelo fornecimento prévio de dezenas de exemplos comentados de entrada e saída dentro do prompt para que o modelo aprenda o padrão antes de resolver o novo caso.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-61",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "exemplos em contexto e ausência de atualização de pesos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2b5a7ea9ace18572b5b8ca41618bb47f32b7f7b74324ed8b872305e16380d12e",
+    "shaDepois": "7e7e62386e5b5134fa01d1160d5471a630dd582a7dafa21031deae05f4e13a69",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Few-shot fornece demonstrações na entrada para orientar a resposta em contexto. Isso não é ajuste fino nem prova de retenção permanente dos exemplos para futuras consultas. A capacidade de seguir o padrão também depende do modelo e da qualidade das demonstrações.",
+      "gatilho": "sem necessidade de atualizar",
+      "armadilhaBanca": "Separar adaptação em contexto e treinamento persistente.",
+      "fonte": "Brown et al. — Language Models are Few-Shot Learners, 2020 — exemplos em contexto e ausência de atualização de pesos — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Incluir exemplos no prompt grava obrigatoriamente esses exemplos nos pesos para todas as consultas futuras.",
+      "item": "Na interação com LLMs, a técnica de 'Few-shot Prompting' consiste em incluir no prompt alguns exemplos representativos do formato e do resultado esperado, permitindo que o modelo aprenda o padrão por indução em contexto (in-context learning) sem necessidade de atualizar os parâmetros da rede neural.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-62",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "treinamento, parâmetros e engenharia de prompt",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "347f0edf2a4e7fdc5f79ae9c90be5b825642970fdd0374d0a477f31f78ba1b40",
+    "shaDepois": "b17a48aeb8247c792244c32c428871b01146c63abde8a5d3b63f257b753a31cd",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Ajuste fino envolve otimizar parâmetros treináveis; engenharia de prompt organiza a entrada sem, por si só, treiná-los. Em ajustes eficientes, parte do modelo pode ficar congelada e adaptadores podem ser treinados. Congelar a base não significa ausência de qualquer parâmetro treinável.",
+      "gatilho": "idêntico",
+      "armadilhaBanca": "Não confundir base congelada, adaptadores e ausência de treino.",
+      "fonte": "Brown et al. — Language Models are Few-Shot Learners, 2020 — treinamento, parâmetros e engenharia de prompt — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Ajuste fino e exemplos no prompt são procedimentos distintos; o primeiro envolve treinamento de parâmetros.",
+      "item": "O ajuste fino (Fine-Tuning) de um modelo de linguagem é idêntico à engenharia de prompt, pois nenhum dos dois altera os pesos ou parâmetros matemáticos da rede neural subjacente.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-63",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAI"
+    ],
+    "localizador": "confabulação e verificação da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a303293f7c18e97ad854b2f9c33d2e66325977684b6bd49d22e8e5c4230be507",
+    "shaDepois": "3dedcd17dddc0d7f424f1629a9674ec8264db1d14ae5110d12ea62063d54d7bf",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "LLMs podem produzir fatos e referências inexistentes; fluência e tom de confiança não comprovam a correção factual da resposta.",
+      "justificativa": "CERTO. Um modelo pode inventar fato ou fonte e ainda produzir texto coerente. Fluência e tom seguro não são validação. A revisão retira a explicação monocausal de que toda falha decorreria apenas da previsão de tokens: dados, objetivos, contexto e recuperação também importam.",
+      "gatilho": "fluência e tom de confiança não comprovam",
+      "armadilhaBanca": "Separar plausibilidade textual e verificação factual.",
+      "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — confabulação e verificação da informação — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Uma resposta fluente e confiante constitui prova suficiente de verdade factual e existência das referências.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-64",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAI"
+    ],
+    "localizador": "saída factual e determinismo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c6d43cb6a4c03f86b0f1842f07c15a8ee4f85541d7667e0be116b6142391c959",
+    "shaDepois": "925b2f40603db13a7f610405ed2014476028d5065bfe49f13aa520c663d64f22",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Um procedimento determinístico também pode produzir informação falsa. LLM não equivale a um sistema lógico com prova de verdade de cada afirmação. Reduzir aleatoriedade de amostragem não transforma referências inventadas em fontes existentes.",
+      "gatilho": "impede",
+      "armadilhaBanca": "Distinguir repetibilidade e validade factual.",
+      "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — saída factual e determinismo — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Mesmo uma geração determinística pode produzir erro factual ou referência inexistente.",
+      "item": "Os grandes modelos de linguagem contemporâneos operam com base em mecanismos lógicos estritamente determinísticos, o que impede a geração de respostas factualmente inconsistentes ou citações doutrinárias fictícias.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-65",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAI"
+    ],
+    "localizador": "vieses e avaliação no contexto de uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3eb0faeb08f68f5d47969559a02ad4c89ea9e605d052266d5df5720efd2ec1e3",
+    "shaDepois": "769f09091648a85bb615aa9603455757e0b3433cc43e64464d64ad402e853691",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Dados e decisões de modelagem podem reproduzir desigualdades e estereótipos. O efeito depende do contexto e precisa ser avaliado; não é necessário que todo modelo apresente o mesmo viés da mesma forma. Amostra grande não é prova automática de representatividade ou equidade.",
+      "gatilho": "pode refletir e amplificar",
+      "armadilhaBanca": "Não confundir volume e representatividade.",
+      "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — vieses e avaliação no contexto de uso — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Usar uma quantidade enorme de dados elimina automaticamente qualquer viés histórico do sistema.",
+      "item": "O viés algorítmico (algorithmic bias) em sistemas de inteligência artificial pode refletir e amplificar preconceitos históricos, desigualdades sociais e estereótipos presentes nos dados brutos da internet utilizados para o treinamento dos modelos.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-66",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14ShadowAI"
+    ],
+    "localizador": "uso não autorizado e governança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d35848ad9b7353e404ee14a2625691d5f36684f00d1641f5771b72239c08a386",
+    "shaDepois": "5236633eb85d9fa80b922d908c2565566b6b0769458e5ec3231bd5b24b9a330c",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Shadow AI refere-se a uso de ferramentas de IA fora da aprovação ou visibilidade da governança pertinente. O item inverte esse núcleo ao defini-lo por certificação formal. Uma ferramenta conhecida no mercado pode ser usada de forma não autorizada dentro da instituição.",
+      "gatilho": "certificados e auditados",
+      "armadilhaBanca": "Separar reputação do produto e autorização de uso institucional.",
+      "fonte": "Microsoft — segurança de acesso e uso não autorizado de IA — uso não autorizado e governança — https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-security-operations",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Shadow AI pode envolver uso de IA sem autorização ou controle institucional adequado.",
+      "item": "A prática de 'Shadow AI' no serviço público refere-se ao desenvolvimento de sistemas de inteligência artificial certificados e auditados formalmente pela equipe de governança de TI do órgão.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-67",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "finalidade, base legal, segurança e condições do fornecedor",
+    "nota": "C corrigido para E: não há ilicitude automática por gratuidade nem regra universal de treino; retiradas políticas institucionais presumidas.",
+    "shaAntes": "7fbe33e54cf9a8485c643767567ef59df22a147fd4f9fe66153262d781ed20a4",
+    "shaDepois": "e2bb97adeaead589b3d541584616adb1853b90e78a97d780687e67e7d41943be",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "gabarito": "E",
+      "item": "Qualquer uso de plataforma gratuita de IA é necessariamente ilícito pela LGPD, pois todo fornecedor gratuito obrigatoriamente usa qualquer entrada para retreinar seus modelos.",
+      "justificativa": "ERRADO. Gratuidade não determina, sozinha, ilicitude nem uso obrigatório dos dados para treino. É necessário examinar dados, finalidade, base legal, segurança, políticas e condições do serviço. Isso não autoriza enviar informação sigilosa sem permissão; pagamento também não assegura conformidade.",
+      "gatilho": "qualquer",
+      "armadilhaBanca": "Trocar análise jurídica e técnica por uma característica comercial.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — finalidade, base legal, segurança e condições do fornecedor — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A avaliação do uso de IA depende dos dados, da finalidade e dos requisitos aplicáveis; preço não prova conformidade nem ilicitude.",
+      "versao_errada": "",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-68",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Prompts",
+      "m14owaspPrompt"
+    ],
+    "localizador": "delimitadores para instruções, contexto e exemplos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "60352aee41d6f2643b51e3e416a41db6956a506040df6572fcd5d02987564439",
+    "shaDepois": "b7e5c04f995d124453ebab6ae1e6f558f94a487fcaa943672a7d34055bef4c50",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Guias de fornecedores recomendam delimitadores em cenários adequados para organizar o prompt. Isso não torna XML obrigatório nem uma barreira de segurança suficiente contra injeção. A afirmação de proibição geral por sobrecarga não corresponde à recomendação consultada.",
+      "gatilho": "é desaconselhada pelas fornecedoras de LLMs",
+      "armadilhaBanca": "Distinguir organização do texto, custo e segurança.",
+      "fonte": "Anthropic — boas práticas de estruturação de prompts — delimitadores para instruções, contexto e exemplos — https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Delimitadores podem ajudar a organizar o prompt, sem garantir segurança nem ser exigência universal.",
+      "item": "A engenharia de prompt que utiliza delimitadores estruturados (como tags XML ou blocos de código Markdown) é desaconselhada pelas fornecedoras de LLMs por gerar sobrecarga de processamento nos transformadores.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-69",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14owaspPrompt"
+    ],
+    "localizador": "injeção direta e indireta; limites de confiança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "651e1ab0ef0e643aab6ef10addaf6baed1f5da546b423c8b418f3b3bf7f553c2",
+    "shaDepois": "d3647ffa275c3da00d3d29bc69c8e92799a5054b0d293b143e96a1bbb4194622",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Prompt injection pode inserir instruções maliciosas na entrada direta ou em documentos ou resultados recuperados, tentando fazer o sistema tratar conteúdo não confiável como instrução autorizada.",
+      "justificativa": "CERTO. Instruções maliciosas podem chegar diretamente ou em conteúdo externo, como páginas e documentos recuperados. O risco é tratar dados não confiáveis como comandos autorizados. Ações efetivas dependem também das ferramentas e permissões concedidas, não apenas de texto imperativo.",
+      "gatilho": "documentos ou resultados",
+      "armadilhaBanca": "Separar origem do conteúdo e autoridade para instruir.",
+      "fonte": "OWASP — prompt injection em aplicações com LLMs — injeção direta e indireta; limites de confiança — https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Prompt injection só pode vir de um usuário digitando diretamente e nunca de documentos recuperados.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-70",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "amostragem e concentração da distribuição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "37959811540854c54217d9557f46a8b1e4171e01821d9cc2bb97767572e90954",
+    "shaDepois": "7326b47db1ac055af7518d9fdb32eb14c2658c7c09ddaf383a20c221e43df119",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Temperatura menor tende a concentrar a escolha em alternativas de maior probabilidade; zero não representa máxima aleatoriedade. A implementação pode usar convenções específicas, e isso não prova repetibilidade absoluta entre execuções ou correção factual. Criatividade, distribuição e verdade são dimensões diferentes.",
+      "gatilho": "máxima aleatoriedade",
+      "armadilhaBanca": "Não confundir controle da amostragem e garantia de verdade.",
+      "fonte": "Brown et al. — Language Models are Few-Shot Learners, 2020 — amostragem e concentração da distribuição — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Temperatura zero não significa máxima aleatoriedade nem garante que a resposta seja factualmente correta.",
+      "item": "Em processamento de linguagem natural, a 'temperatura' de amostragem em um LLM é um hiperparâmetro que, quando configurado com valor zero, faz com que o modelo gere respostas com máxima aleatoriedade, criatividade e imprevisibilidade léxica.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-71",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAI"
+    ],
+    "localizador": "explicação, documentação e avaliação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6d29a7f12c27ea3490c19c76032927e6fddae89ac18176274ff8722014b5977a",
+    "shaDepois": "9beb2e64e1077567f149faee2d764b05dc47cd77adcea57624058445a241f464",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "XAI busca apoiar compreensão e avaliação de resultados de IA, mas uma explicação não garante por si só fidelidade causal, precisão ou legitimidade da decisão.",
+      "justificativa": "CERTO. XAI busca apoiar compreensão e avaliação, mas uma explicação gerada pode ser incompleta ou não fiel ao mecanismo real. Auditoria também requer dados, registros e critérios de validação. Tornar um resultado compreensível não demonstra, sozinho, legalidade, ausência de viés ou precisão.",
+      "gatilho": "não garante",
+      "armadilhaBanca": "Separar objetivo de explicação e prova de validade.",
+      "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — explicação, documentação e avaliação — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Toda explicação textual de IA garante fidelidade causal e torna a decisão automaticamente legítima.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-72",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14NistAI"
+    ],
+    "localizador": "avaliação de riscos no contexto de uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "45d93f4d59c6e82c01e43e9929198a69ec43407e0b99a0ea3e7e3cb926227dba",
+    "shaDepois": "5453cd0f4837ed565e5244f2a87350a641bd856431bb6b2253c24dc75aab55a2",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Fornecedor consolidado não dispensa avaliação de desempenho, vieses, privacidade e adequação ao serviço público. Resultados dependem dos dados e do contexto da instituição. Certificação ou reputação externa pode fornecer evidência, mas não substitui a análise da implantação concreta.",
+      "gatilho": "afasta avaliações de viés algorítmico e equidade",
+      "armadilhaBanca": "Transferir responsabilidade de avaliação ao prestígio do fornecedor.",
+      "fonte": "NIST — AI 600-1: Generative Artificial Intelligence Profile, 2024 — avaliação de riscos no contexto de uso — https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958388",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A instituição deve avaliar riscos e adequação no seu contexto, mesmo com fornecedor consolidado.",
+      "item": "A governança de soluções de inteligência artificial no setor público afasta avaliações de viés algorítmico e equidade quando os modelos fundacionais forem obtidos de fornecedores comerciais consolidados no mercado internacional.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-73",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "orçamento de tokens e limites de entrada/saída",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d9206fa54310fbfb9dc29bcce489b8159397475f7ca4754a70add55105a3b5c7",
+    "shaDepois": "fa582f6b38c873f5e120ad0d7645ac18d6140082a84db415cf20fce0bae36c2a",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Em uma API que usa orçamento conjunto de contexto, instruções, histórico e resposta ocupam tokens conforme os limites da arquitetura; pode existir também um limite específico para a saída.",
+      "justificativa": "CERTO. A contagem é em tokens, que não equivalem a palavras. Em APIs com orçamento conjunto, instruções, histórico e saída disputam espaço; pode haver também limite próprio de saída. A regra concreta deve ser conferida na arquitetura e na API, sem presumir que todos os modelos contabilizam de modo idêntico.",
+      "gatilho": "conforme os limites",
+      "armadilhaBanca": "Distinguir token, janela e limites específicos da API.",
+      "fonte": "Brown et al. — Language Models are Few-Shot Learners, 2020 — orçamento de tokens e limites de entrada/saída — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Toda API reserva a mesma quantidade fixa de palavras apenas para a entrada, independentemente da saída.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-74",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "tokens e segmentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b1fda089698e3fd7be46f62326a7ca518fa5b0abb125612c019ca360d8ba1c12",
+    "shaDepois": "f5ba71aeec77d20a6a8ab2f7f4fda6af62931c695e4eeb076efa479782428aeb",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Um token pode ser parte de palavra, palavra, sinal ou outra unidade do vocabulário do tokenizador. A relação varia por língua e modelo. Contar palavras não determina exatamente custo ou limite de contexto, especialmente com acentos, código e termos pouco frequentes.",
+      "gatilho": "palavra individual",
+      "armadilhaBanca": "Não equiparar unidade computacional e palavra ortográfica.",
+      "fonte": "Brown et al. — Language Models are Few-Shot Learners, 2020 — tokens e segmentação — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Tokens não correspondem obrigatoriamente a palavras inteiras; a segmentação depende do tokenizador.",
+      "item": "No processo de tokenização de modelos de linguagem, a unidade de token corresponde à delimitação ortográfica de uma palavra individual presente no léxico gramatical.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-75",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "consulta, contexto e pesos do modelo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8ed60b347f338e5952146e50f378ad8429517b2b6edc96618bc43bbd09c3d3f1",
+    "shaDepois": "5a840ea51fc740c298c8e306c181b17389f0395b93e3935908f773a438aa0ac5",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Pesquisa pode fornecer conteúdo ao contexto sem atualizar os pesos. Treino, ajuste fino e políticas de uso posterior de dados são processos diferentes da consulta em tempo real. O modelo responder sobre notícia recuperada não prova aprendizagem paramétrica automática e permanente daquela notícia.",
+      "gatilho": "a cada pesquisa",
+      "armadilhaBanca": "Distinguir nova informação na entrada e atualização paramétrica.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — consulta, contexto e pesos do modelo — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Usar resultados da web no contexto não equivale a atualizar automaticamente os pesos a cada pesquisa.",
+      "item": "Modelos de linguagem generativos possuem atualização contínua e autônoma de seus pesos neurais em tempo real a cada pesquisa feita na web pelo usuário comum, prescindindo de processos formais de fine-tuning ou retreinamento periódico.",
+      "submoduloId": "14.3"
+    }
+  },
+  {
+    "id": "m14-q-76",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14ELT"
+    ],
+    "localizador": "ETL e ordem de transformação/carga",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "88651a82e13c2e61a31ca01d606d9e62bf33e26934464a0acdbe36900dcb9d1a",
+    "shaDepois": "883823afa57889703a515c1836ecd0e65a25180f43c429fcb8f5618167a36eff",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "No ETL, a transformação ocorre antes da carga no destino do fluxo; a implementação pode usar área intermediária, sem que isso seja requisito universal de toda ferramenta ou arquitetura.",
+      "justificativa": "CERTO. No ETL, a transformação antecede a carga no destino do fluxo. Pode haver área intermediária e múltiplos destinos, mas isso não define obrigatoriamente toda implantação. A diferença central para ELT é a posição da transformação em relação à carga.",
+      "gatilho": "antes da carga",
+      "armadilhaBanca": "Preservar a ordem sem inventar infraestrutura obrigatória.",
+      "fonte": "IBM — Extract, Load, Transform — ETL e ordem de transformação/carga — https://www.ibm.com/think/topics/elt",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "ETL significa obrigatoriamente carregar todos os dados no destino antes de qualquer transformação.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-77",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14ELT"
+    ],
+    "localizador": "ELT: carga antes da transformação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6eccf839e7e16115451144e079bdeed65b701c7d51c4b63e9bb87afb07e9178b",
+    "shaDepois": "cae13f42a8b9271f44350e6bf64bfef6e18c003cd67f3efb3a379c11bba53dd0",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. ELT carrega e depois transforma no ambiente de destino pertinente. Não exige servidores intermediários locais nem uma nuvem específica. Fazer alguma validação anterior não transforma a definição em todas as transformações antes da carga.",
+      "gatilho": "antes que qualquer registro",
+      "armadilhaBanca": "Inverter ordem e impor localização física inexistente na definição.",
+      "fonte": "IBM — Extract, Load, Transform — ELT: carga antes da transformação — https://www.ibm.com/think/topics/elt",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "No ELT, a transformação principal ocorre depois da carga, no ambiente de destino pertinente.",
+      "item": "Na abordagem moderna de ELT (Extract, Load, Transform), todas as transformações e higienizações de dados são executadas em servidores intermediários locais antes que qualquer registro seja inserido no repositório de destino em nuvem.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-78",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14postgresTransacoes"
+    ],
+    "localizador": "transações: atomicidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fea7aa2dfa9717527d3849dc6c05c138a0e05ba409b71909d0673b567bae8a64",
+    "shaDepois": "44fd48216e075ee25f5bd72d2214d7bdc055fcc81f1d5ab9921a47b0e089ff8d",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Atomicidade dá efeito lógico de tudo ou nada à transação: ou as alterações são confirmadas, ou não ficam parcialmente confirmadas. Isso não significa que o processador nunca execute etapas intermediárias. Rollback trata efeitos da transação, e não desfaz automaticamente ações externas fora dela.",
+      "gatilho": "totalidade",
+      "armadilhaBanca": "Separar execução interna e confirmação indivisível.",
+      "fonte": "PostgreSQL — transações — transações: atomicidade — https://www.postgresql.org/docs/current/tutorial-transactions.html",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Atomicidade exige que metade das alterações seja confirmada mesmo se a transação falhar antes do commit.",
+      "item": "Em bancos de dados relacionais, as propriedades ACID asseguram a confiabilidade das transações, onde a Atomicidade garante que uma transação seja executada em sua totalidade ou completamente revertida caso ocorra alguma falha.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-79",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14postgresTransacoes"
+    ],
+    "localizador": "consistência e isolamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c2d53ffa34dffe916ee745c819c7c97e07ef37fa90cc28614cfed9144f51eee8",
+    "shaDepois": "77eb1a51332ee775d2f364ed0d645ffb999afcd6cd896ec51f7d0dd8e2f219d7",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Consistência diz respeito a manter as regras e invariantes pertinentes, não a tornar leitura suja desejável. Visibilidade entre transações depende do isolamento e do SGBD. A existência de níveis menos fortes não converte um fenômeno de concorrência em definição de consistência.",
+      "gatilho": "leitura suja",
+      "armadilhaBanca": "Trocar propriedade e fenômeno de concorrência.",
+      "fonte": "PostgreSQL — transações — consistência e isolamento — https://www.postgresql.org/docs/current/tutorial-transactions.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Consistência e isolamento são propriedades distintas; leitura suja não é o objetivo da consistência.",
+      "item": "A propriedade de Consistência no modelo ACID determina que duas transações concorrentes possam ler dados não confirmados uma da outra, gerando o fenômeno de leitura suja (dirty read) como comportamento desejável.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-80",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerEstrela"
+    ],
+    "localizador": "fatos, dimensões, granularidade e fatos sem medidas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6d0261101aa397e5b50cca35f9c11f76f023ff1ce3f83a347f2a42497f2540c7",
+    "shaDepois": "302431440d6e7a7bb6a8046e6494e92f5ca8ec8d9c3725c5ffca3344958e0e0c",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "No esquema estrela, a tabela fato se relaciona a dimensões descritivas; medidas são usuais, mas existem fatos sem medidas, e a granularidade deve ser definida explicitamente.",
+      "justificativa": "CERTO. O esquema separa eventos ou observações e contexto descritivo. Medidas são usuais, mas há tabelas fato sem medidas, como registros de ocorrência ou associação. A definição do grão é essencial para evitar somas duplicadas ou interpretações indevidas.",
+      "gatilho": "fatos sem medidas",
+      "armadilhaBanca": "Não transformar estrutura típica em exigência sem exceção.",
+      "fonte": "Microsoft Power BI — esquema estrela e modelagem dimensional — fatos, dimensões, granularidade e fatos sem medidas — https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Toda tabela fato exige obrigatoriamente uma medida numérica e nunca pode apenas registrar uma ocorrência.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-81",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerEstrela"
+    ],
+    "localizador": "papéis de fato e dimensão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a6931db54b831fa3ca8976c30bd2f6785158acc894465ca4ef3c729ef6fd2d84",
+    "shaDepois": "6085754b1bbd40f92c69db4c168ffe0e31500cc6b5ae0ec6cc01d3ccaf003bdc",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. No desenho típico, a fato registra eventos e medidas no grão definido; dimensões fornecem atributos descritivos. O item inverte esses papéis. Existirem fatos sem medidas ou atributos especiais não torna correta a inversão geral proposta.",
+      "gatilho": "dimensão concentram",
+      "armadilhaBanca": "Trocar os papéis centrais da modelagem dimensional.",
+      "fonte": "Microsoft Power BI — esquema estrela e modelagem dimensional — papéis de fato e dimensão — https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Dimensões fornecem contexto descritivo e fatos registram ocorrências e, quando presentes, medidas no grão definido.",
+      "item": "Na modelagem multidimensional em estrela (star schema), a tabela fato reúne atributos descritivos e textuais do negócio, enquanto as tabelas de dimensão concentram medidas quantitativas numéricas sujeitas a operações de agregação.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-82",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerEstrela"
+    ],
+    "localizador": "dimensões snowflake e normalização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "771ecbe3230100100eed6a367643d6f34e4e4c03d38254f73ee766aa98382d39",
+    "shaDepois": "0cecdb5c77660ac79fd27b4a6838de3eb5de182134ed43311641a8e303b9059e",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. A dimensão pode ser dividida em tabelas relacionadas para reduzir redundância, em vez de ficar desnormalizada em uma única tabela. Isso pode aumentar junções e complexidade. O formato não é escolha universalmente superior: desempenho, ferramenta e objetivos precisam ser considerados.",
+      "gatilho": "múltiplas tabelas",
+      "armadilhaBanca": "Separar efeito estrutural e garantia de desempenho.",
+      "fonte": "Microsoft Power BI — esquema estrela e modelagem dimensional — dimensões snowflake e normalização — https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Normalizar dimensões garante sempre menos junções e melhor desempenho em qualquer consulta.",
+      "item": "O Esquema Floco de Neve (Snowflake Schema) constitui uma variação da modelagem dimensional na qual as tabelas de dimensão são normalizadas em múltiplas tabelas hierárquicas, visando reduzir redundâncias de dados à custa de consultas com maior número de junções (joins).",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-83",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerEstrela"
+    ],
+    "localizador": "surrogate key e chave de negócio",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "50bc34b92e8c09272d39485c0588c01b79581789212321562cf1b8d8ed7aa50c",
+    "shaDepois": "070c5568aa1e80569594e56aabf09d52f0342e38d9cae2fb4e0b182baec38080",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Chave substituta é introduzida para identificar registros no modelo, distinguindo-se da chave natural ou de negócio. CPF do sistema de origem não se torna substituto apenas por ser numérico. A geração, estabilidade e finalidade da chave são relevantes.",
+      "gatilho": "CPF",
+      "armadilhaBanca": "Não classificar chave apenas por seu formato numérico.",
+      "fonte": "Microsoft Power BI — esquema estrela e modelagem dimensional — surrogate key e chave de negócio — https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Uma chave substituta pode ser gerada no modelo e não se confunde obrigatoriamente com CPF ou identificador do sistema transacional.",
+      "item": "Em Business Intelligence, as Chaves Substitutas (Surrogate Keys) são números de CPF ou códigos de identificação fiscal gerados diretamente pelo sistema de origem transacional da organização.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-84",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerCalculos"
+    ],
+    "localizador": "coluna e medida no modelo importado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c4b682b34c8d4852e507d4ae30670e754b9055edcb6bb3ee323c102380b0b282",
+    "shaDepois": "ff6d3a4cbddb5b1683940faa48877a4b932a524b87c19435bbaa2a06f8bbcc4d",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "No modo de importação do Power BI, colunas calculadas DAX têm resultados armazenados por linha, enquanto medidas são avaliadas sob o contexto da consulta quando necessárias.",
+      "justificativa": "CERTO. No cenário delimitado, coluna DAX é calculada no processamento e seu resultado é armazenado por linha; medida é avaliada conforme a consulta e o contexto. DirectQuery e outros modos têm particularidades. A comparação não deve ser apresentada como descrição física idêntica de toda arquitetura.",
+      "gatilho": "modo de importação",
+      "armadilhaBanca": "Delimitar modo de armazenamento e momento de avaliação.",
+      "fonte": "Microsoft Power BI — opções de cálculo — coluna e medida no modelo importado — https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-calculations-options",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "No modelo importado, cada resultado de uma medida é armazenado antecipadamente como coluna para todas as linhas.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-85",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerCalculos"
+    ],
+    "localizador": "armazenamento de resultados de medidas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c9a32692e34f3dedb5a9755860b9bdf6c187e6b1b5178a2626d00aa872aba669",
+    "shaDepois": "0a2d0f4f262515c10a5e6e37268c99a8101ca2cf6db8fa1647c9098d8b0152ae",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Definir medida armazena sua expressão e metadados, não um resultado permanente para cada linha da tabela. O resultado é avaliado conforme contexto. Pode haver custo de consulta e cache, mas isso não equivale ao crescimento linear de coluna materializada descrito no item.",
+      "gatilho": "proporção direta",
+      "armadilhaBanca": "Distinguir expressão, resultado de consulta e coluna armazenada.",
+      "fonte": "Microsoft Power BI — opções de cálculo — armazenamento de resultados de medidas — https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-calculations-options",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A definição de uma medida não materializa automaticamente um resultado permanente por linha da tabela.",
+      "item": "No Power BI, a criação de uma medida com DAX aumenta permanentemente o tamanho do arquivo em disco em proporção direta ao número de linhas da tabela subjacente.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-86",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14daxCalculate"
+    ],
+    "localizador": "filtros opcionais e transição de contexto",
+    "nota": "C corrigido para E em hipótese explícita: documentação marca filtros como opcionais e explica transição sem filtros; retirado superlativo sem critério.",
+    "shaAntes": "b66f809ba4e3e8c7a09f006ead6e6222c62a8d41d4706c5419ab40b925165a4f",
+    "shaDepois": "2f4518e1e024d6ee7b51465dae64b962ea5d1b22e2427855373b35e35c54888a",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "gabarito": "E",
+      "item": "CALCULATE exige pelo menos um filtro explícito além da expressão; sem esse argumento de filtro a chamada é necessariamente inválida.",
+      "justificativa": "ERRADO. Os parâmetros de filtro são opcionais. Sem filtros explícitos, CALCULATE pode realizar transição de contexto de linha para contexto de filtro, conforme a expressão e a situação. O superlativo mais poderosa foi retirado; o comportamento verificável é o requisito de argumentos.",
+      "gatilho": "pelo menos",
+      "armadilhaBanca": "Não transformar argumento opcional em requisito obrigatório.",
+      "fonte": "Microsoft — DAX CALCULATE — filtros opcionais e transição de contexto — https://learn.microsoft.com/en-us/dax/calculate-function-dax",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "CALCULATE pode ser chamada sem filtros explícitos e realizar transição de contexto nas condições pertinentes.",
+      "versao_errada": "",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-87",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14daxSumx"
+    ],
+    "localizador": "iterador de tabela e expressão por linha",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ee9e0c8512471e4fd2e3ae83f82d31918e7303be0d9fca6c4bc364788428610f",
+    "shaDepois": "89a2f5bf262d37207aa7d9a1e86d4009f94a1983b15d9397bc5afcb98a0d8287",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. SUMX itera uma tabela, avalia uma expressão no contexto de cada linha e soma os resultados numéricos pertinentes. SUM opera de outra forma sobre uma coluna. A letra X não é apenas parte do nome: indica a família de iteradores que o item tenta negar.",
+      "gatilho": "não possui capacidade",
+      "armadilhaBanca": "Distinguir agregador sobre coluna e iterador de expressão.",
+      "fonte": "Microsoft — DAX SUMX — iterador de tabela e expressão por linha — https://learn.microsoft.com/en-us/dax/sumx-function-dax",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "SUMX avalia uma expressão por linha de uma tabela antes de somar os resultados.",
+      "item": "Na linguagem DAX, a função SUMX é classificada como uma função de agregação escalar simples que não possui capacidade de iterar linha a linha sobre uma tabela.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-88",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerQuery"
+    ],
+    "localizador": "linguagem M, etapas e execução da consulta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6f3a873263bdcc8f157dfe638ed2f27e041e2edd0192c1fe8ff670d204028f6b",
+    "shaDepois": "b4dd53e05457c215d534965999dbb74513bd4dcb9a656e1e3d217432b86f02e7",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Power Query usa M para expressar transformações. As etapas são uma descrição lógica; query folding pode levar operações à fonte. Não é preciso que toda transformação seja executada fisicamente no computador local nem que cada etapa gere uma tabela permanente.",
+      "gatilho": "linguagem",
+      "armadilhaBanca": "Separar sequência lógica e local físico de execução.",
+      "fonte": "Microsoft — Power Query e linguagem M — linguagem M, etapas e execução da consulta — https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Toda etapa M é obrigatoriamente executada apenas no computador local e materializada como tabela permanente.",
+      "item": "No Power BI, a ferramenta Power Query utiliza a linguagem de fórmulas M para realizar etapas sequenciais de transformação de dados (como remoção de colunas, tipagem de dados, substituição de valores e mesclagem de consultas) antes que os dados sejam carregados no modelo relacional.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-89",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerQuery"
+    ],
+    "localizador": "transformação em M e cálculos em DAX",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "96c526a5c3dd4a209f263103aeee43206964ab7a947bce5f0de8b63c73752dd5",
+    "shaDepois": "8580e1a0e11c2224cfe444e8fa3acfef13c3789f6d14a4d667b4e8d257cb45d3",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. M descreve preparação de dados no Power Query. DAX é usado em medidas e outros cálculos do modelo; os visuais são outra camada. A distinção não impede recursos avançados, mas torna falsa a identificação geral de M como linguagem das medidas DAX.",
+      "gatilho": "medidas analíticas",
+      "armadilhaBanca": "Trocar linguagem de preparação e linguagem de cálculo analítico.",
+      "fonte": "Microsoft — Power Query e linguagem M — transformação em M e cálculos em DAX — https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "M prepara consultas; DAX define medidas e outros cálculos no modelo, com papéis diferentes.",
+      "item": "No Power BI, a linguagem M do Power Query é a linguagem utilizada para criar gráficos e medidas analíticas dinâmicas nos relatórios em tempo real.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-90",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14imputacao"
+    ],
+    "localizador": "estratégias para valores ausentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "46cd650ffaf56383eb70bd1b6facc649b43bc16a14a2f60357d64eeb0554b477",
+    "shaDepois": "4805f91b5895e172b7867054c497098aa78977eeea389a2b454d8f0d29ec5acf",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Imputar preenche ausências por uma estratégia, como média, mediana ou método mais elaborado. Preservar linhas não elimina viés nem garante que a ausência seja aleatória. A estratégia deve ser ajustada em dados adequados e avaliada quanto ao efeito nas análises.",
+      "gatilho": "estimativas",
+      "armadilhaBanca": "Separar tratamento de ausência e recuperação da verdade.",
+      "fonte": "Scikit-learn — imputação de valores ausentes — estratégias para valores ausentes — https://scikit-learn.org/stable/modules/impute.html",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Preencher valores ausentes pela média garante eliminar todo viés e reproduzir os valores verdadeiros.",
+      "item": "Em preparação de dados (Data Wrangling), a imputação consiste na técnica de preenchimento de valores ausentes (missing values) utilizando estimativas estatísticas, como a média, a mediana ou algoritmos de vizinhos mais próximos (K-NN), permitindo preservar o tamanho da amostra.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-91",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14vazamentoDados"
+    ],
+    "localizador": "separação de treino/teste e ajuste de imputador",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e9b2b710156a662ea15ca38a63d5cc4e8240044c54387bfc689717344c6d936b",
+    "shaDepois": "2b89bb1e41b7a0cfc0094d9094dec9dd9ed94dc9cf3c65f2b5fd2706a160b2b4",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Para avaliar corretamente a generalização, deve-se calcular a média de imputação na base completa, incluindo o conjunto de teste, antes de separar treino e avaliação.",
+      "justificativa": "ERRADO. Calcular parâmetros de imputação usando também o teste pode vazar informação para o treinamento. O procedimento deve ajustar a estratégia no treino e aplicá-la de forma consistente na validação, conforme o desenho. Tamanho da base não torna esse vazamento desejável.",
+      "gatilho": "base completa",
+      "armadilhaBanca": "Identificar vazamento mesmo sem usar diretamente o rótulo.",
+      "fonte": "Scikit-learn — armadilhas e vazamento de dados — separação de treino/teste e ajuste de imputador — https://scikit-learn.org/stable/common_pitfalls.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Em avaliação de generalização, ajusta-se o imputador no conjunto de treino, sem usar o teste para estimar seus parâmetros.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-92",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14ELT"
+    ],
+    "localizador": "data lake, dados brutos e leitura com esquema",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9870568369dce7e73421888a1b8602e3fe0a000934a42531e82b5d490c9c1f36",
+    "shaDepois": "5270562e147d0ef11c6d8eea114598b20ceb8d5bc0c80e3c835989d6a0ca4445",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Um data lake pode preservar dados em formatos variados e permitir schema-on-read; essa flexibilidade não elimina metadados, validação e governança nem impõe ausência total de estrutura na escrita.",
+      "justificativa": "CERTO. Data lakes podem preservar dados em formatos variados e aplicar interpretação de esquema na leitura. Isso não dispensa catálogo, controles, validação ou estruturas mantidas na escrita em partes da arquitetura. O termo não garante ausência total de esquema até qualquer consulta.",
+      "gatilho": "não elimina metadados, validação e governança",
+      "armadilhaBanca": "Distinguir flexibilidade e ausência de governança.",
+      "fonte": "IBM — Extract, Load, Transform — data lake, dados brutos e leitura com esquema — https://www.ibm.com/think/topics/elt",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Schema-on-read proíbe manter qualquer metadado, validação ou estrutura antes da primeira consulta.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-93",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14ELT"
+    ],
+    "localizador": "lakehouse e capacidades transacionais/analíticas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b6a11e73c34d59f642fb6e8ce5e976b500378805842d4cc8b44669f0af676cff",
+    "shaDepois": "8ec2548ab1f3f10303e4ce60c156ddc3cffe622027a2eb6236f86fd669aac0fb",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "A adoção de lakehouse dispensa qualquer controle transacional e torna tecnicamente impossível executar consultas de BI sobre os dados armazenados.",
+      "justificativa": "ERRADO. Lakehouse combina características de armazenamento em lake e gestão/consulta analítica, podendo oferecer transações e recursos de BI. Nomear a arquitetura não dispensa avaliar implementação e requisitos. O item troca essa combinação por uma ausência necessária de capacidades.",
+      "gatilho": "dispensa",
+      "armadilhaBanca": "Não transformar flexibilidade de armazenamento em incapacidade transacional.",
+      "fonte": "IBM — Extract, Load, Transform — lakehouse e capacidades transacionais/analíticas — https://www.ibm.com/think/topics/elt",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Lakehouses podem combinar armazenamento de dados variados com gestão transacional e consultas analíticas.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-94",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14declutter"
+    ],
+    "localizador": "reduzir desordem e preservar informação útil",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a9fb14bdd874372ca7861c894f46d3ad187a5d426259053fbc85b8c6655e38bc",
+    "shaDepois": "e7a86f6f2bc5353da5a24fffcd40770dc16409d680129b766acd78f9c5f3f3aa",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Decluttering retira elementos sem função informativa e destaca a mensagem. Não autoriza apagar escala, incerteza ou fonte essenciais apenas para tornar o gráfico bonito. A decisão depende do público e do objetivo, sem converter minimalismo em redução da evidência.",
+      "gatilho": "cores saturadas sem função comunicativa",
+      "armadilhaBanca": "Distinguir desordem decorativa e informação indispensável.",
+      "fonte": "Storytelling with Data — reduzir desordem e destacar a mensagem — reduzir desordem e preservar informação útil — https://www.storytellingwithdata.com/blog/what-your-audience-really-wants",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Decluttering exige remover toda escala, legenda e indicação de incerteza, mesmo quando necessárias para compreender os dados.",
+      "item": "Segundo as diretrizes consagradas de Storytelling com Dados (como as postuladas por Cole Nussbaumer Knaflic), o processo de 'decluttering' (eliminação da desordem visual) recomenda a remoção de bordas desnecessárias, cores saturadas sem função comunicativa e linhas de grade excessivas, direcionando a carga cognitiva do usuário para as mensagens e dados centrais.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-95",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Graficos"
+    ],
+    "localizador": "comparação de partes e efeitos 3D",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "55618e553d49eee7b93797c3065ad299ac8d3e6e6039bce40561eb67d93b974c",
+    "shaDepois": "95f2d4eda6f4b988cefc12f3902b1e5ba7e3697a7e3edc22d5100beb31b5045c",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Efeitos 3D distorcem a percepção de áreas e ângulos, e muitas fatias dificultam comparar valores próximos. Não há recomendação geral de 3D com mais de dez partes para precisão. A escolha deve priorizar comparação e legibilidade, podendo usar barras em muitos cenários.",
+      "gatilho": "tridimensionais",
+      "armadilhaBanca": "Separar apelo visual e precisão perceptiva.",
+      "fonte": "Government Analysis Function — Data visualisation: charts — comparação de partes e efeitos 3D — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Para comparar categorias próximas, deve-se evitar efeitos 3D desnecessários e considerar alternativas mais legíveis.",
+      "item": "O uso de gráficos de pizza tridimensionais (3D) com mais de dez fatias é altamente recomendado em relatórios de diretoria por facilitar a comparação precisa de ângulos e áreas entre categorias muito semelhantes.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-96",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Graficos"
+    ],
+    "localizador": "série temporal e ordem das observações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3e4ef1b6a1058ec625e4da1a1cd8093e7dd570a1266dc97d9dcc5cf16dc050ca",
+    "shaDepois": "7e0507d90787710ee9ba9d0ce703b5d00d1389199b948154e4a41fdc4ef901ad",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "CERTO. Linha pode evidenciar a trajetória de um indicador ordenado no tempo. É importante conservar intervalos temporais apropriados, unidades e eventuais lacunas. Isso não significa que toda série deva ser contínua por interpolação nem que dispersão seja sempre proibida.",
+      "gatilho": "conexões sequenciais",
+      "armadilhaBanca": "Preservar a estrutura temporal na escolha do visual.",
+      "fonte": "Government Analysis Function — Data visualisation: charts — série temporal e ordem das observações — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Ao usar linha temporal, a ordem das datas e as lacunas deixam de importar porque os pontos estão conectados.",
+      "item": "Para a representação da evolução temporal contínua de um indicador financeiro ou orçamentário ao longo de meses ou anos, o gráfico de linhas é preferível ao gráfico de dispersão sem linhas, pois as conexões sequenciais evidenciam com clareza as tendências de alta, queda e sazonalidade.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-97",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Graficos"
+    ],
+    "localizador": "dispersão e relação entre variáveis quantitativas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c845c7b75832eed67e703ae2b81f966ee513c33432742aeb16e788d69ff5a2ce",
+    "shaDepois": "679f998d680d30a0f5c2b4456588aa70259492b959a45f29fe88218c59f9d485",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Dispersão é especialmente útil para relações entre variáveis quantitativas por pares de observações. Divisão de um total entre categorias pede outro desenho, conforme objetivo e condições. O fato de haver três valores numéricos não torna dispersão o visual primordial para partes do orçamento.",
+      "gatilho": "divisão proporcional",
+      "armadilhaBanca": "Distinguir associação, composição e número de categorias.",
+      "fonte": "Government Analysis Function — Data visualisation: charts — dispersão e relação entre variáveis quantitativas — https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Dispersão pode mostrar associação entre duas variáveis quantitativas; composição de um total é outra relação visual.",
+      "item": "Em visualização de dados, o gráfico de dispersão (scatter plot) é indicado primordialmente para exibir a divisão proporcional estática de um orçamento municipal em três categorias de despesas.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-98",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14powerRelacoes"
+    ],
+    "localizador": "grão, cardinalidade, propagação de filtros e tabela ponte",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3acaa7a4f77029e7eedeb0fa7afab47f70bcfb81302b2f60079056a51893d48f",
+    "shaDepois": "5ee83cb0c4f3b2fe8505327d03bf84b0bf942fba73a9cac1a51aac43f0a0ac74",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "Um relacionamento muitos para muitos pode exigir tratamento do grão e da propagação de filtros; uma tabela ponte é uma solução possível, conforme a semântica e a ferramenta.",
+      "justificativa": "CERTO. Relações muitos para muitos exigem cuidado com grão e propagação de filtros. Uma ponte é solução possível, mas não proibição universal de cardinalidade N:N nativa. A correção do cálculo depende do modelo e da medida, não apenas do nome do relacionamento.",
+      "gatilho": "conforme a semântica e a ferramenta",
+      "armadilhaBanca": "Distinguir risco de modelagem e proibição absoluta.",
+      "fonte": "Microsoft Power BI — relacionamentos muitos para muitos — grão, cardinalidade, propagação de filtros e tabela ponte — https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "Toda relação N:N é sempre inválida e nenhuma ferramenta admite tratá-la sem uma ponte obrigatória.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-99",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14normalizacao"
+    ],
+    "localizador": "dependências funcionais e formas normais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4f091d1abbb9ce5a86a23a85a7c74471300178787b201bd2e3eca1b749e460f2",
+    "shaDepois": "7d6d0882a13ab8af7aa1a9cd549f42795d53f7e47529e4e388340f97addfa9b2",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "item": "A normalização até a 3FN busca reduzir redundâncias e anomalias associadas às dependências funcionais, sem garantir redundância zero nem desempenho ótimo para toda consulta.",
+      "justificativa": "CERTO. A normalização organiza dependências para reduzir redundâncias e anomalias. A 3FN não garante ausência de toda redundância possível nem desempenho ótimo para qualquer consulta. Modelagem analítica pode adotar desnormalização deliberada; objetivo de integridade não é receita única de armazenamento.",
+      "gatilho": "busca reduzir",
+      "armadilhaBanca": "Separar objetivo de normalização e garantia irrestrita.",
+      "fonte": "Microsoft — descrição de normalização de bancos de dados — dependências funcionais e formas normais — https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+      "dataConferencia": "2026-10-31",
+      "versao_errada": "A 3FN garante simultaneamente redundância zero e melhor desempenho em qualquer consulta analítica.",
+      "submoduloId": "14.4"
+    }
+  },
+  {
+    "id": "m14-q-100",
+    "caminho": "src/content/questions/m14-tecnologia-dados-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14Grafo"
+    ],
+    "localizador": "modelo de grafo de propriedades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e7ae2f777b93a5b7e329fc757babda646aeb7da775522030a2c3b85ca4c274e5",
+    "shaDepois": "44bbb60e64d930250338623597df8d9f3a41494f08ec0d2fcad490d5de6f6c3d",
+    "patch": {
+      "contexto": "Julgue o item considerando a documentação e as condições indicadas.",
+      "justificativa": "ERRADO. Grafos representam entidades e relações, podendo associar propriedades e restrições conforme o SGBD. Não são definidos pela matriz relacional rígida descrita. A forma física de armazenar dados e o modelo lógico são níveis diferentes; usar grafo não elimina qualquer regra de integridade.",
+      "gatilho": "inadequados",
+      "armadilhaBanca": "Distinguir modelo lógico e organização relacional exclusiva.",
+      "fonte": "Neo4j — What is a graph database — modelo de grafo de propriedades — https://neo4j.com/docs/getting-started/graph-database/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "Bancos de grafos podem representar nós, relações e propriedades, sendo adequados a diversas consultas sobre conexões.",
+      "item": "Bancos de dados orientados a grafos armazenam registros sob a estrutura matricial de tabelas relacionais com esquemas rígidos, revelando-se inadequados para representar redes de interconexão entre entidades complexas.",
+      "submoduloId": "14.4"
+    }
+  }
+]

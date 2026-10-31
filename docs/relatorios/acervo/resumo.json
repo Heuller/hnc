@@ -1,27 +1,24 @@
 {
-  "foraDoRegistro": 69,
-  "emConferencia": 59,
-  "exerciciosDerivadosDosCheckpoints": 225,
-  "data": "2026-10-29",
-  "limite": "Cobertura integral de inventário e triagem técnica; revisão conceitual integral PENDENTE. Ausência de sinal não equivale a aprovação editorial.",
+  "foraDoRegistro": 0,
+  "emConferencia": 0,
+  "exerciciosDerivadosDosCheckpoints": 669,
+  "data": "2026-10-31",
+  "limite": "Banco e véspera possuem registros individuais próprios; checkpoints têm inventário separado. Ausência de sinal técnico não certifica conceito ou origem oficial.",
   "contagens": {
     "banco": 2179,
-    "checkpoint": 225,
+    "checkpoint": 669,
     "exercicio": 0,
     "vespera": 60,
-    "base-adaptativa-legada": 28
+    "base-adaptativa-legada": 0
   },
-  "ativosBanco": 2051,
-  "revisaoFocal": 26,
+  "ativosBanco": 2179,
+  "revisaoFocalHistorica": 26,
+  "revisaoIndividualVigente": 2179,
   "homologadosNestaRodada": 0,
-  "gruposRepetidos": 255,
+  "gruposRepetidos": 217,
   "sinais": {
-    "texto-repetido": 681,
-    "fonte-sem-localizador-especifico": 1957,
-    "contraste-artificial": 810,
-    "sem-trecho-decisivo-cadastrado": 1594,
-    "justificativa-generica": 152,
-    "gatilho-nao-literal": 4
+    "texto-repetido": 571,
+    "sem-trecho-decisivo-cadastrado": 669
   },
-  "pendenciasConceituais": 2466
+  "pendenciasConceituais": 669
 }

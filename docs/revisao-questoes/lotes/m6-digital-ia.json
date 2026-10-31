@@ -1,0 +1,2781 @@
+[
+  {
+    "id": "m6-q-1",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "arquitetura do DSpace 7",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5ed59872a78d7f26c065abb9d2b40e9bdc62f27f99e1c205b0260e176d841ca0",
+    "shaDepois": "ea55c0dd056544110c4f9885cf88a406c12920954014fa2db0171c531804507d",
+    "patch": {
+      "justificativa": "CERTO. A versão 7 passou a usar interface Angular separada do servidor Java, com comunicação por API REST. A mudança está na arquitetura dessa versão, não na invenção de qualquer API REST: versões anteriores já ofereciam serviços REST. Não confunda interface, servidor e banco de dados.",
+      "gatilho": "Angular",
+      "armadilhaBanca": "Distinguir componentes e versões do produto.",
+      "fonte": "DSpace — documentação do projeto — arquitetura do DSpace 7 — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No DSpace 7, Angular é o banco de dados que substitui o servidor Java.",
+      "item": "O DSpace 7 introduziu uma reformulação arquitetural profunda em sua camada de apresentação, adotando uma interface de usuário baseada em Angular e uma API REST desacoplada para comunicação com o backend em Java.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-2",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "responsabilidades de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f9ed522157b07d4b101d5cdf4913b34a5b23e3d147b714898a66f50a2739e485",
+    "shaDepois": "2dc61e787ffd35067f21dfd181d8e2d4bbd95cd4d8a6491f76a5b2cce39b9e65",
+    "patch": {
+      "justificativa": "ERRADO. Disponibilizar arquivos hoje não assegura acesso amanhã. Formatos, suportes, dependências e direitos precisam ser geridos ao longo do tempo. Um repositório pode adotar serviços de preservação externos, mas isso não elimina sua política nem suas responsabilidades.",
+      "gatilho": "prescindir",
+      "armadilhaBanca": "Separar compartilhamento imediato e preservação.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — responsabilidades de preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Bibliotecas digitais e repositórios precisam planejar preservação e acesso continuado.",
+      "item": "Uma biblioteca digital e um repositório institucional caracterizam-se por prescindir de políticas de preservação digital de longo prazo, funcionando como repositórios temporários de arquivos digitais compartilhados por redes sociais.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-3",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "licenciamento do projeto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d39057131940a8e2ef8be5df4a7b431f5cf069cde019c5c68ce62f7666f21dca",
+    "shaDepois": "3a9eda23bfece8dbc7f42df280e346c67db8d48fe62336bc4766451aae4a6dfe",
+    "patch": {
+      "justificativa": "ERRADO. O código do DSpace é distribuído sob licença livre BSD. Hospedagem, manutenção e suporte podem custar dinheiro; esses custos não constituem uma licença anual proprietária obrigatória para usar o programa. Verifique sempre a licença do componente e do serviço contratado.",
+      "gatilho": "licença de uso",
+      "armadilhaBanca": "Distinguir licença do código e custo total do serviço.",
+      "fonte": "DSpace — documentação do projeto — licenciamento do projeto — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O uso do DSpace não exige licença proprietária anual, embora operação e suporte possam gerar custos.",
+      "item": "O DSpace exige o pagamento anual compulsório de licença de uso à empresa proprietária do código-fonte para que órgãos públicos possam manter seus repositórios ativos na internet.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-4",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "koha"
+    ],
+    "localizador": "exemplares e circulação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2baa0f809f533f46f7df2d07d6ef8472f41bb7cdd4d1c7f5cf685e24574fcd72",
+    "shaDepois": "32dec26b400fa5905120aea6d251c912a41c09ded41209c659cf20ec5b1731f9",
+    "patch": {
+      "item": "No Koha, o controle de circulação identifica somente o título bibliográfico, dispensando distinguir os exemplares quando a biblioteca possui várias cópias da mesma edição.",
+      "justificativa": "ERRADO. A circulação precisa distinguir o exemplar emprestado: dois exemplares da mesma edição podem ter situações, usuários e datas de devolução diferentes. Um registro bibliográfico descreve a publicação; o registro de exemplar individualiza a unidade. Leitores e etiquetas são meios de identificação, não substitutos dessa distinção.",
+      "gatilho": "somente o título",
+      "armadilhaBanca": "Confundir registro bibliográfico com unidade de circulação.",
+      "fonte": "Koha — Manual do sistema integrado de bibliotecas — exemplares e circulação — https://koha-community.org/manual/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A circulação identifica exemplares vinculados ao registro bibliográfico, permitindo controlar empréstimos distintos da mesma publicação.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-5",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "submissão e interoperabilidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3cce9f50c4fe56aa33a744063f7234f0218b64e20739dddefc8c29629b29b37d",
+    "shaDepois": "d72c56d49686527bfa2295ec82d3288f16b3933052c3692f1dc2905baa616f98",
+    "patch": {
+      "item": "No DSpace, autoarquivamento designa exclusivamente a colheita automática de metadados de outros repositórios por OAI-PMH, sem participação de um depositante.",
+      "justificativa": "ERRADO. Autoarquivamento é o depósito realizado pelo autor ou depositante autorizado, sujeito ao fluxo e às permissões institucionais. Colheita obtém metadados de um provedor para outro serviço. Nenhum desses conceitos autoriza capturar arquivos pessoais sem consentimento ou base jurídica.",
+      "gatilho": "colheita automática",
+      "armadilhaBanca": "Trocar depósito e colheita de metadados.",
+      "fonte": "DSpace — documentação do projeto — submissão e interoperabilidade — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Autoarquivamento envolve depósito pelo responsável autorizado; colheita OAI-PMH é intercâmbio de metadados.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-6",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ojs",
+      "cad"
+    ],
+    "localizador": "OJS e adoção brasileira como SEER",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "67364836d3cd68a7e310092bd92018dae5ab7690e3b4e20655d0808bc5a229a1",
+    "shaDepois": "9aba4383c1e2bfdbb06bfa7565ed251b259033c34451256a4078f5e2c7711db5",
+    "patch": {
+      "item": "O Sistema Eletrônico de Editoração de Revistas (SEER), difundido no Brasil pelo IBICT, tem como base o Open Journal Systems (OJS).",
+      "justificativa": "CERTO. O SEER corresponde à adaptação e difusão brasileira do OJS para gestão e publicação de revistas. Isso não significa que todo sistema de editoração do mundo seja baseado em OJS. Identificar o sistema específico evita transformar uma relação verdadeira em universalização.",
+      "gatilho": "SEER",
+      "armadilhaBanca": "Distinguir um sistema específico e a categoria de software.",
+      "fonte": "Public Knowledge Project — Open Journal Systems — OJS e adoção brasileira como SEER — https://pkp.sfu.ca/software/ojs/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo software de editoração eletrônica, independentemente de fabricante e finalidade, deriva do OJS.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1596",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1596"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-7",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir",
+      "cad"
+    ],
+    "localizador": "hipertexto e navegação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "de2ec48ee4b69c0284017c0a0b600dc5c676b8312ad142a1d1b57999fc780c0f",
+    "shaDepois": "d9f2b9fdfe69ff9b796674ba0213683d5ce980e64521c0826225cd3bfaeb4fa4",
+    "patch": {
+      "justificativa": "CERTO. Links permitem relacionar verbetes, conceitos e outros recursos, apoiando percursos associativos. A relação pode ser planejada semanticamente; a existência material de um link não prova equivalência de significado nem qualidade de ambas as fontes.",
+      "gatilho": "hipertexto",
+      "armadilhaBanca": "Não converter mecanismo de navegação em prova de equivalência.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — hipertexto e navegação — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer ligação hipertextual comprova equivalência semântica entre os recursos ligados.",
+      "item": "O hipertexto é um recurso empregado em enciclopédias eletrônicas para formar estruturas associadas entre si mediante relações semânticas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANATEL/2009",
+        "ano": 2009,
+        "orgao": "2009",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-244",
+        "declaracaoLegada": "Cebraspe / 2009 / 2009 (Adaptada); identificador legado: cespe-cad-244"
+      },
+      "submoduloId": "6.1"
+    }
+  },
+  {
+    "id": "m6-q-8",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace",
+      "cad"
+    ],
+    "localizador": "finalidade: repositório institucional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b08fe41ab718c72f1bfa4f7f0f4284fa79c518c27c6572215d00074b45e725e5",
+    "shaDepois": "0367473a3ca5138240f071a403f24c2c357ae708edef6d1d02c307cba47fe76f",
+    "patch": {
+      "item": "O DSpace é um sistema de editoração de periódicos equivalente ao OJS, tendo como finalidade principal gerenciar avaliação por pares, decisões editoriais e preparação de fascículos.",
+      "justificativa": "ERRADO. DSpace gerencia repositórios; OJS gerencia processos editoriais de periódicos. Ambos lidam com publicações, mas isso não torna suas finalidades idênticas. Um repositório pode receber um artigo já publicado sem executar sua avaliação por pares e editoração.",
+      "gatilho": "editoração",
+      "armadilhaBanca": "Confundir a custódia de publicações com seu fluxo editorial.",
+      "fonte": "DSpace — documentação do projeto — finalidade: repositório institucional — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "DSpace é software de repositório; OJS é voltado à gestão editorial de periódicos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "ANTT/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-892",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-892"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-9",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei11419",
+      "cad"
+    ],
+    "localizador": "art. 4º, §2º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "92ab0975573bd56db2255b63593ff21b716cf2ac7dacdbc6715220a9b1571d07",
+    "shaDepois": "db6ff8ac1c8da3e7c17f1e2eead69981adbad4481d368235f49dc86431c93910",
+    "patch": {
+      "item": "Segundo o art. 4º, §2º, da Lei 11.419/2006, a publicação eletrônica na forma desse artigo substitui qualquer outro meio de publicação oficial para efeitos legais, à exceção dos casos em que, por lei, se exige intimação ou vista pessoal.",
+      "justificativa": "CERTO. A regra legal atribui efeito à publicação eletrônica e ressalva as situações que exigem intimação ou vista pessoal. A exceção é decisiva: publicidade oficial e comunicação pessoal não são sempre intercambiáveis. Isso também não resolve, por si só, regras operacionais de DJEN e Domicílio Judicial.",
+      "gatilho": "à exceção",
+      "armadilhaBanca": "Preservar a exceção expressa da norma.",
+      "fonte": "Lei 11.419/2006 — informatização do processo judicial — art. 4º, §2º — https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A publicação no diário eletrônico substitui inclusive toda intimação pessoal exigida por lei.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-181022",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012 (Adaptada); identificador legado: TecConcursos-181022"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m6-q-10",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "preservação, armazenamento e recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0400fcf582cb02e66f0a161a21dad541ade9df92fb807af045e794bed12edc4c",
+    "shaDepois": "216fa645a72cd0db35bab69787cb9c7cd02c23838e2b513972b0682a499ca47d",
+    "patch": {
+      "justificativa": "ERRADO. Nuvem é uma forma de infraestrutura, não imunidade contra exclusão, corrupção, erro de configuração ou indisponibilidade. Redundância não garante recuperar uma versão íntegra se o erro se replica. Políticas de cópias, verificação e testes de restauração continuam necessárias conforme o risco.",
+      "gatilho": "afasta a necessidade",
+      "armadilhaBanca": "Confundir disponibilidade de infraestrutura e recuperação de conteúdo.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — preservação, armazenamento e recuperação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Hospedagem em nuvem não elimina planejamento de backup, integridade e recuperação.",
+      "item": "A implantação de repositórios digitais em infraestrutura de computação em nuvem afasta a necessidade de protocolos de backup redundantes e testes de restauração de desastres, visto que a arquitetura em nuvem suprime os riscos de corrupção lógica de dados.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-11",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "migração e informação de preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "591bc3413aadbfc86bb949a0f455a44781b1fb4f71f7ea3f661b761d22d4df78",
+    "shaDepois": "c91a943ca000446bec8ddf740d08a38a3749c08434f424d9f838ccc746aa372c",
+    "patch": {
+      "item": "Uma migração de formato só pode preservar a autenticidade de um documento digital se o arquivo convertido mantiver exatamente o mesmo hash criptográfico do arquivo de origem.",
+      "justificativa": "ERRADO. Uma migração pode mudar a sequência de bits e, portanto, seu hash. A autenticidade precisa ser sustentada por documentação de origem, procedimentos, eventos e verificação dos atributos relevantes. Fixidez verifica integridade de uma representação; não exige que toda representação futura tenha os mesmos bytes.",
+      "gatilho": "mesmo hash",
+      "armadilhaBanca": "Distinguir identidade dos bits e autenticidade documental.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — migração e informação de preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma migração documentada pode alterar o hash do arquivo preservando atributos relevantes e evidências de autenticidade.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-12",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "submission workflow e autorização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c8ff8e795b839e6fdd26636d6d2dec92de33bdf62c78d12f9d4e36c7792b352b",
+    "shaDepois": "bc23527a0b0d5212f1b335a94faa2ee8a325212ba63bf01960c51de589bbd38f",
+    "patch": {
+      "justificativa": "CERTO. Etapas de avaliação podem integrar o fluxo de submissão. Sua configuração define quem revisa e aprova. Aprovar um depósito não exige liberar todos os arquivos: políticas de acesso, embargos e visibilidade de metadados precisam ser consideradas separadamente.",
+      "gatilho": "pode ser parametrizado",
+      "armadilhaBanca": "Separar aprovação editorial/técnica e autorização de acesso.",
+      "fonte": "DSpace — documentação do projeto — submission workflow e autorização — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A aprovação no fluxo de submissão obriga tornar públicos todos os arquivos, mesmo sob embargo.",
+      "item": "No DSpace, o fluxo de submissão (workflow) pode ser parametrizado para exigir aprovação técnica por revisores e bibliotecários catalogadores antes que o item se torne visível ao público geral no repositório.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-13",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc",
+      "cad"
+    ],
+    "localizador": "identificação, versões e documentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "017009ad4f5eda4a1f540a9840c916da25c1227b545531bc0f76294d6c94dcaa",
+    "shaDepois": "fd2e389ee22d277c1ed26e2e3677baeb8a2616fbe46446c9488e87c38ebb15e0",
+    "patch": {
+      "item": "Na descrição de uma fonte digital atualizável, identificar a versão ou a data pertinente ajuda a distinguir o conteúdo consultado, pois a manutenção do mesmo endereço não assegura conteúdo imutável.",
+      "justificativa": "CERTO. Recursos em linha podem mudar sem que o endereço mude. Data de consulta, versão, identificador e registro de alterações ajudam a identificar a manifestação consultada. O suporte impresso também pode ter edições e correções: estabilidade não é superioridade universal de um meio.",
+      "gatilho": "identificar a versão",
+      "armadilhaBanca": "Distinguir persistência do endereço e estabilidade do conteúdo.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — identificação, versões e documentação — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um endereço eletrônico estável garante que o conteúdo nunca mudou, dispensando identificar a versão consultada.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "EBESERH/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-612",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018 (Adaptada); identificador legado: cespe-cad-612"
+      },
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-14",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bdcamara"
+    ],
+    "localizador": "missão e coleções da Biblioteca Digital",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a38548d63738ffe34a44b930b948886eaf0f9e9edb5a980833b97a07c0448232",
+    "shaDepois": "1ec06aa3ae05197f581ad55380052ef5873ddc6f150b2ff2dcdbefffa12ee207",
+    "patch": {
+      "justificativa": "CERTO. A Biblioteca Digital reúne e oferece acesso a coleções institucionais e de interesse legislativo. Contribui para memória e difusão da produção da Câmara. Isso não significa conter toda informação parlamentar nem transferir automaticamente direitos autorais de cada obra ao domínio público.",
+      "gatilho": "memória",
+      "armadilhaBanca": "Distinguir acesso à coleção e regime de direitos.",
+      "fonte": "Câmara dos Deputados — Biblioteca Digital — missão e coleções da Biblioteca Digital — https://bd.camara.leg.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A presença de uma obra na Biblioteca Digital transfere automaticamente seus direitos autorais ao domínio público.",
+      "item": "O repositório digital da Câmara dos Deputados organiza e dissemina a memória legislativa e a produção técnico-científica de seus servidores e parlamentares, facilitando o acesso aberto às publicações institucionais da Casa.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-15",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "modelo de objetos: item e bitstreams",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fbb4d97bb4e11defbf69f7495c37ccfb46fd8c611f9604af772b169b2230e119",
+    "shaDepois": "dbe4d7f8d621967e2d4d8e2ebb98ad56dc84f3a1a557d02c5c6bddf0d452a72f",
+    "patch": {
+      "justificativa": "ERRADO. O item reúne metadados e pode ter arquivos associados, os bitstreams, organizados em bundles. Pode haver registro sem arquivo, mas isso não é uma restrição universal da arquitetura. DSpace também admite esquemas de metadados além do conjunto Dublin Core inicialmente configurado.",
+      "gatilho": "limita-se",
+      "armadilhaBanca": "Transformar uma possibilidade de registro em limitação obrigatória.",
+      "fonte": "DSpace — documentação do projeto — modelo de objetos: item e bitstreams — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um item DSpace pode conter metadados e arquivos associados, conforme a configuração e a política do repositório.",
+      "item": "Na arquitetura de objetos do DSpace, cada item depositado limita-se ao registro de metadados descritivos em Dublin Core, cabendo a servidores web externos a custódia e entrega dos arquivos digitais primários (bitstreams).",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-16",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "Discovery, Solr e extração de texto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4386a860fb9028125af49005a28d85ca58b72f043bb6e557be336cee5fed0cdd",
+    "shaDepois": "963eed63fd266f87836c9e0db6229ff0d45c858a4c3bc307560824fcbceccfc5",
+    "patch": {
+      "item": "No DSpace, serviços integrados como o Solr podem apoiar a busca por texto completo, desde que o conteúdo dos arquivos seja extraível e o processamento correspondente esteja configurado.",
+      "justificativa": "CERTO. Solr pode indexar texto extraído de arquivos por processos configurados no repositório. Um PDF composto apenas de imagens não oferece necessariamente texto pesquisável; pode exigir OCR. Busca por texto completo não garante extração perfeita nem compreensão semântica do documento.",
+      "gatilho": "conteúdo dos arquivos",
+      "armadilhaBanca": "Distinguir arquivo PDF, imagem e camada textual.",
+      "fonte": "DSpace — documentação do projeto — Discovery, Solr e extração de texto — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Solr torna todo PDF digitalizado pesquisável sem extração textual nem OCR, independentemente do conteúdo do arquivo.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-17",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "decreto9215",
+      "cad"
+    ],
+    "localizador": "publicação eletrônica e assinatura do DOU",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f453030ac714be78842da119c4d5ed9aec36e153e4ea1f8a579efd40fd08c185",
+    "shaDepois": "2af7a9382e074d477341fa9cc07fc8d539a0ff15a20289c4eedba54fcfa6e384",
+    "patch": {
+      "justificativa": "ERRADO. A publicação oficial eletrônica exige mecanismos de assinatura e verificação previstos no regime aplicável. Ser acessível pela Web não substitui essas garantias. A assinatura ajuda a conferir autoria e integridade; não atesta a correção material de todo conteúdo publicado.",
+      "gatilho": "dispensa",
+      "armadilhaBanca": "Confundir acesso eletrônico com dispensa de autenticação.",
+      "fonte": "Decreto 9.215/2017 — publicação do Diário Oficial da União — publicação eletrônica e assinatura do DOU — https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9215-29-novembro-2017-785835-normaatualizada-pe.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A edição eletrônica oficial do DOU observa requisitos de assinatura e verificação de autenticidade.",
+      "item": "A versão eletrônica do DOU é uma cópia digital que dispensa a assinatura eletrônica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "SEDUC-AM/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-664",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-664"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m6-q-18",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "embargos e políticas de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "00c4375732a8a509a3bd808ddca073fc7d9c0cc55039e15d35327591f97d58b2",
+    "shaDepois": "1eb93a0ab552c9689e42909037c1ff0fccf2df486f65931b9e663d91bdf040de",
+    "patch": {
+      "justificativa": "ERRADO. O DSpace permite restrições de acesso e embargos conforme configuração e política. Metadados públicos e arquivo restrito podem coexistir. A instituição precisa avaliar prazos, direitos e fundamento da restrição, sem presumir abertura integral ou sigilo automático para todo depósito.",
+      "gatilho": "imediata",
+      "armadilhaBanca": "Não confundir depósito, descrição pública e liberação do texto completo.",
+      "fonte": "DSpace — documentação do projeto — embargos e políticas de acesso — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O DSpace admite embargos e políticas de acesso diferenciadas para arquivos e registros.",
+      "item": "O sistema DSpace rejeita a aplicação de embargos temporais sobre teses e dissertações, exigindo a disponibilização pública imediata dos arquivos de texto completo no momento da aprovação do depósito.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-19",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "bitstream e item",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5719d64b184aa6a54ca410df88565ba81f25cc4d46bf361e42deb8eed046bbda",
+    "shaDepois": "e80073faacf26097bbfeaf11c137f01af941c64e4dc7da50e5e1c5c2a61c06e3",
+    "patch": {
+      "item": "No modelo de objetos do DSpace, a exclusão de um único bitstream elimina necessariamente o item e todos os seus metadados descritivos, pois arquivo e item são o mesmo objeto.",
+      "justificativa": "ERRADO. O arquivo é um componente associado ao item; excluí-lo não equivale conceitualmente a eliminar todos os metadados do item. Exclusão, retirada de exibição e políticas de retenção são operações diferentes. As consequências concretas dependem da operação e das permissões, não de uma regra universal de apagamento catalográfico.",
+      "gatilho": "elimina necessariamente",
+      "armadilhaBanca": "Confundir componente digital e objeto que o reúne.",
+      "fonte": "DSpace — documentação do projeto — bitstream e item — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Excluir um bitstream e excluir ou retirar o item são operações distintas no modelo do repositório.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-20",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "atom"
+    ],
+    "localizador": "finalidade e normas de descrição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6b96a195e4341e2d4117ce0304d0af683f2dfbea8ffb11aafcf6cb675e00d2f5",
+    "shaDepois": "d381e822f9b8913029f588314dde3f47af744f63ae6052288ea6750faaa14c37",
+    "patch": {
+      "justificativa": "CERTO. AtoM foi concebido para descrição arquivística na Web, com apoio a normas como ISAD(G) e ISAAR(CPF). Não se deve confundi-lo com um SIGB de circulação ou uma plataforma de revistas. O suporte à norma não garante que todos os registros produzidos estejam completos ou corretos.",
+      "gatilho": "descrição arquivística",
+      "armadilhaBanca": "Distinguir descrição arquivística e automação bibliotecária.",
+      "fonte": "Access to Memory — AtoM documentation — finalidade e normas de descrição — https://www.accesstomemory.org/en/docs/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "AtoM é um sistema de circulação bibliográfica cuja finalidade principal é controlar empréstimos e multas de exemplares.",
+      "item": "A plataforma AtoM (Access to Memory) é um software livre baseado na web concebido para a descrição arquivística em conformidade com as normas internacionais do Conselho Internacional de Arquivos (ICA), como a ISAD(G) e a ISAAR(CPF).",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-21",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace"
+    ],
+    "localizador": "licença e desenvolvimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a0e9734209cb3f81f9ec7762d90bae005b53c173043b880cecef46ce2dbcea12",
+    "shaDepois": "47b7b2aa881bf39ff8c6400015b013ae4c75e9f53fefb8b47ca15c43e1b8e7c5",
+    "patch": {
+      "justificativa": "ERRADO. Software livre permite modificar o código segundo as condições da licença. Isso não equivale a ausência de deveres sobre avisos, redistribuição ou componentes, nem a garantia de suporte gratuito. Alteração de código também exige manutenção e compatibilidade técnica.",
+      "gatilho": "proibida",
+      "armadilhaBanca": "Separar liberdade de modificação e ausência de obrigações.",
+      "fonte": "DSpace — documentação do projeto — licença e desenvolvimento — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O código livre pode ser modificado respeitadas as condições de sua licença.",
+      "item": "Em softwares livres como Koha e DSpace, é proibida a alteração do código-fonte pelos desenvolvedores da biblioteca, sob pena de bloqueio do acesso aos bancos de dados pelo consórcio internacional.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-22",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "biblivre"
+    ],
+    "localizador": "aplicação e ambiente operacional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c4fa68a9f37d47c20a9c90ea7ccef856b5d6f6aceacf3344a863cb0c57425fa1",
+    "shaDepois": "58bb8feeb18c6b388ef8117a6de1be2b083737a2ff0d64f4fc6dfb0f4fad6714",
+    "patch": {
+      "justificativa": "ERRADO. Biblivre é aplicação para automação de funções bibliotecárias. O sistema operacional oferece a infraestrutura na qual aplicações e serviços executam; o catálogo e a circulação são funções de outra camada. Instalar um SIGB não transforma esse programa em substituto de Linux ou Windows.",
+      "gatilho": "sistema operacional",
+      "armadilhaBanca": "Confundir aplicação com plataforma operacional.",
+      "fonte": "Biblivre — sistema de automação de bibliotecas — aplicação e ambiente operacional — https://biblivre.org.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Biblivre é uma aplicação de gestão bibliotecária, que depende de um ambiente operacional compatível.",
+      "item": "O software livre Biblivre é um sistema operacional completo que substitui o Linux e o Windows no hardware dos computadores da biblioteca.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-23",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "objetos digitais e manutenção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "56402d409b5d79e295c1cc9242d61f1dae7bb47246043b796cc18c08e0d1f128",
+    "shaDepois": "92943e085f2c9e46182cc640654172e89ac9f177c2c0e6df1d060f0dce81f751",
+    "patch": {
+      "justificativa": "CERTO. Publicações em linha podem receber atualizações e reduzir a necessidade de estantes locais. Ainda dependem de servidores, energia, armazenamento e manutenção, em algum lugar. Atualização possível não garante atualização efetiva; versões e preservação continuam importantes.",
+      "gatilho": "podem ser atualizadas",
+      "armadilhaBanca": "Distinguir redução de espaço local e inexistência de infraestrutura.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — objetos digitais e manutenção — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Recursos digitais não dependem de infraestrutura física e permanecem atualizados automaticamente.",
+      "item": "As obras eletrônicas disponíveis em linha, como, por exemplo, bases de dados, bibliografias, dicionários e enciclopédias, ocupam espaço físico muito reduzido e podem ser atualizadas constantemente, sendo essas características consideradas uma vantagem em comparação às obras de referência tradicionais.",
+      "submoduloId": "6.1"
+    }
+  },
+  {
+    "id": "m6-q-24",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ojs"
+    ],
+    "localizador": "gestão de periódicos e fluxo editorial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7098ea35afab1e4e53ccbefde1758bfe362b596e88218786f2efc1d0cf0fa00c",
+    "shaDepois": "0f8a6eb6521dc25c5a1f32e0f61b15d23eaa2b274caf6b9d16aa3122682b9ded",
+    "patch": {
+      "item": "O OJS é um repositório institucional que substitui o fluxo de avaliação editorial por simples depósito de artigos, sem recursos de gerenciamento de submissões e avaliação por pares.",
+      "justificativa": "ERRADO. OJS apoia submissão, avaliação, edição e publicação de periódicos. Um repositório pode preservar e disseminar os artigos resultantes, mas executar esse fluxo editorial não é sua finalidade equivalente. Interoperabilidade entre sistemas não apaga a diferença funcional.",
+      "gatilho": "substitui",
+      "armadilhaBanca": "Trocar plataforma editorial e repositório.",
+      "fonte": "Public Knowledge Project — Open Journal Systems — gestão de periódicos e fluxo editorial — https://pkp.sfu.ca/software/ojs/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "OJS é voltado ao fluxo editorial de revistas; um repositório tem funções distintas de depósito, organização e acesso.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-25",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "política institucional e responsabilidades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ba18110386faa353a5b649957a15dd9cbb0e6f216073882d6f3bf628539ef8d4",
+    "shaDepois": "3d5c726a97f3c89e7cc2c6c91f9fa467f9aff4f577e4346757a22c9568bb03b2",
+    "patch": {
+      "justificativa": "CERTO. A política precisa definir conteúdo aceito, responsáveis, condições de uso e compromissos de preservação. Creative Commons é uma opção de licenciamento quando o titular pode concedê-la, não uma autorização presumida para toda obra depositada. Depósito e licença de reutilização são decisões distintas.",
+      "gatilho": "direitos autorais",
+      "armadilhaBanca": "Distinguir política de depósito e titularidade para licenciar.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — política institucional e responsabilidades — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo documento depositado em repositório recebe automaticamente uma licença Creative Commons, dispensada autorização do titular.",
+      "item": "A política institucional de informação de um repositório universitário ou parlamentar deve disciplinar os tipos de documentos aceitos, os direitos autorais e licenças de uso (como Creative Commons), as responsabilidades de depósito e a política de preservação digital.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-26",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic",
+      "cad"
+    ],
+    "localizador": "comunicação científica e modelos de difusão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3029ed53f87065b2a5e9d18d5b81f172f21285c8c7608d9231755e0770fc09e0",
+    "shaDepois": "420cf7ccb9b97ce66ff45fe3efd1153efa7a218856dbb1d093fc6fc7119e67a4",
+    "patch": {
+      "justificativa": "CERTO. Modelos epidemiológicos foram utilizados como analogia para estudar como informações circulam por contatos em comunidades. A analogia não transforma informação em agente infeccioso nem explica sozinha toda comunicação científica. A população, os canais e as hipóteses do modelo precisam ser definidos.",
+      "gatilho": "análogo",
+      "armadilhaBanca": "Distinguir modelo explicativo e lei universal do comportamento.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — comunicação científica e modelos de difusão. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A analogia epidemiológica prova que toda informação científica se difunde com a mesma taxa, independentemente dos contatos e canais.",
+      "item": "Os estudos da comunicação científica que se fundamentam nas leis epidemiológicas propõem-se a explicar a difusão oral de informações em comunidades científicas de modo análogo ao processo de propagação de epidemias.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "MPU/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-146",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-146"
+      },
+      "submoduloId": "5.4"
+    }
+  },
+  {
+    "id": "m6-q-27",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bdjur",
+      "cad"
+    ],
+    "localizador": "repositório do STJ e cooperação institucional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "03db9133ea4fa72df306a313515cba89f3ac3f566a2ee5c2365b0f942bf14f19",
+    "shaDepois": "453deaa6eaa864105f68121583815a3d47b8f58503d7e41a04b9e574c5168935",
+    "patch": {
+      "item": "A cooperação de bibliotecas jurídicas com a BDJur do STJ implica que todo documento das instituições participantes seja autoarquivado diretamente em uma única base central, dispensadas as políticas e permissões locais.",
+      "justificativa": "ERRADO. A cooperação entre bibliotecas não implica que todos os participantes depositem diretamente em uma única base central, sem regras locais. Depósito, colheita e pesquisa integrada são funções distintas. A BDJur do STJ possui sua organização e condições próprias de inclusão.",
+      "gatilho": "única base central",
+      "armadilhaBanca": "Não deduzir centralização do depósito a partir da cooperação.",
+      "fonte": "Superior Tribunal de Justiça — Biblioteca Digital Jurídica — repositório do STJ e cooperação institucional — https://bdjur.stj.jus.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Cooperação entre repositórios e busca integrada não significam depósito livre de todos os participantes em uma única base central.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJDFT)/TJDFT/Apoio Especializado/Biblioteconomia/2015",
+        "ano": 2015,
+        "orgao": "TJDFT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-318031",
+        "declaracaoLegada": "Cebraspe / TJDFT / 2015 (Adaptada); identificador legado: TecConcursos-318031"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-28",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "especificação 2.0: introdução e protocolo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cecba9b69d651f31ef7363fa54855b12b8535e4ebaa6c111d013e37e85c42ff4",
+    "shaDepois": "16b15112d4ea8f372d2a68f0803087a2e0d3b3012846e337d2b5748fba455cb6",
+    "patch": {
+      "justificativa": "CERTO. OAI-PMH define requisições e respostas HTTP/XML para colheita de metadados. A periodicidade é escolhida pelo serviço que colhe, não uma promessa de sincronização instantânea. Um registro pode indicar acesso a um objeto, mas o protocolo não exige transportar o arquivo completo.",
+      "gatilho": "metadados",
+      "armadilhaBanca": "Distinguir metadados colhidos e objeto descrito.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — especificação 2.0: introdução e protocolo — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "OAI-PMH exige transferir o conteúdo integral de cada documento em todas as colheitas.",
+      "item": "O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) é uma especificação técnica aberta baseada em HTTP e XML destinada à colheita automatizada e periódica de metadados entre repositórios digitais.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-29",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "almeida",
+      "cad"
+    ],
+    "localizador": "relatórios, planejamento e comunicação de resultados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "144a579c6a8b2d05f773e6c78209812d1c2a0a0e283138017f97a4e207730341",
+    "shaDepois": "4ec60511d0f9854305c83fcc2f8acfe384c1632322fb286238a16c399d13765a",
+    "patch": {
+      "justificativa": "CERTO. Relatórios podem reunir evidências de atividade e resultados para planejamento, prestação de contas e divulgação. Listar muitas ações não demonstra necessariamente impacto; objetivos e indicadores precisam permitir interpretação. A utilidade depende de informação confiável e adequada ao público.",
+      "gatilho": "relatório",
+      "armadilhaBanca": "Separar registro de atividade e avaliação de resultado.",
+      "fonte": "ALMEIDA, Maria Christina Barbosa de. Planejamento de bibliotecas e serviços de informação — relatórios, planejamento e comunicação de resultados. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O número de atividades listado em um relatório comprova, sozinho, o impacto social da biblioteca.",
+      "item": "O relatório pode ser utilizado como instrumento não só de planejamento para fornecimento de subsídios no aprimoramento de serviços da biblioteca, mas também de marketing para divulgação e prestação de conta aos dirigentes e à comunidade potencialmente atingida.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "MPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-228980",
+        "declaracaoLegada": "Cebraspe / MPU / 2013 (Adaptada); identificador legado: TecConcursos-228980"
+      },
+      "submoduloId": "5.1"
+    }
+  },
+  {
+    "id": "m6-q-30",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "z3950"
+    ],
+    "localizador": "consulta e recuperação em catálogos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "061f424861a60abb7bd38c8176fc9821a2f333f2ddd794a6a9afa5364d2e2a87",
+    "shaDepois": "43d2ea5bd0a291b33109515dd4c4e26f7a985577be3fe078f047241c063f6ff7",
+    "patch": {
+      "justificativa": "ERRADO. Z39.50 permite consultar bases remotas e recuperar registros em uma interação cliente-servidor. OAI-PMH destina-se à colheita de metadados para posterior processamento. O contraste é de função; não significa que toda consulta distribuída seja rápida ou que toda colheita seja um arquivo estático manual.",
+      "gatilho": "incapaz",
+      "armadilhaBanca": "Trocar recuperação por consulta e agregação por colheita.",
+      "fonte": "Library of Congress — Z39.50 / SRU — consulta e recuperação em catálogos — https://www.loc.gov/z3950/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Z39.50 apoia consulta e recuperação remota; OAI-PMH apoia colheita de metadados.",
+      "item": "O protocolo Z39.50 opera com a mesma filosofia de colheita periódica de arquivos estáticos em lote do OAI-PMH, sendo incapaz de realizar buscas dinâmicas em tempo real em catálogos remotos.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-31",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic",
+      "cad"
+    ],
+    "localizador": "relações interdisciplinares",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1388bce87220da0fa5cbf740c6468f0250966f225fca8ef6d20d22e753e5245c",
+    "shaDepois": "b43d27678775edda7fb4f6171f09d09abca011040457108d685ba6358ff0d45d",
+    "patch": {
+      "item": "A sociologia pode contribuir para estudos biblioteconômicos sobre comunidades científicas, redes de comunicação e usos da informação, exemplificando relações interdisciplinares.",
+      "justificativa": "CERTO. Estudar comunidades, instituições e redes de comunicação requer também compreender relações sociais. A sociologia pode contribuir com conceitos e métodos, sem substituir todas as abordagens da biblioteconomia. Interdisciplinaridade implica diálogo, não perda de toda identidade disciplinar.",
+      "gatilho": "sociologia",
+      "armadilhaBanca": "Distinguir cooperação disciplinar e substituição integral.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — relações interdisciplinares. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A contribuição da sociologia dispensa conhecimentos de organização e recuperação da informação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-436513",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013 (Adaptada); identificador legado: TecConcursos-436513"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m6-q-32",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "sru"
+    ],
+    "localizador": "SRU 1.2 e distinção SRW",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "070ece9a51d6cec5c3cf5351bc54b37bdcc8cf699f9596a8e4e349f9727acfc6",
+    "shaDepois": "c3abef44edf5c09e257fe1ed0a7df903efbb0171c5c45bed1c52073b1ab75af4",
+    "patch": {
+      "item": "Na especificação SRU 1.2, consultas podem ser expressas em CQL e os resultados são retornados em respostas XML; a abordagem SRW está associada ao uso de SOAP.",
+      "justificativa": "CERTO. SRU 1.2 utiliza CQL para expressar consultas e respostas XML no ambiente Web. SRW está associado à abordagem SOAP. Não se deve atribuir JSON indistintamente a todas as versões e serviços: formatos e extensões dependem da especificação e implementação consideradas.",
+      "gatilho": "CQL",
+      "armadilhaBanca": "Identificar versão, linguagem de consulta e formato de resposta.",
+      "fonte": "Library of Congress — SRU 1.2 — SRU 1.2 e distinção SRW — https://www.loc.gov/standards/sru/sru-1-2.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na especificação SRU 1.2, toda resposta deve ser exclusivamente JSON, sendo vedado XML.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-33",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "choo",
+      "cad"
+    ],
+    "localizador": "registros e memória organizacional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c58d5abf913fbcb4052740f4bf26f6905e1c7e8f69a89eb50e6f30b5081b1635",
+    "shaDepois": "61b678a5bf7229347d5f6ee59b489da4349c7fa99ced8007c93d3e5f7128665b",
+    "patch": {
+      "item": "Manuais corporativos, bases de dados, sistemas de arquivamento e relatórios podem integrar os registros que apoiam a memória organizacional.",
+      "justificativa": "CERTO. Manuais, relatórios e bases registram procedimentos, decisões e experiências que podem apoiar a memória da organização. Apenas acumulá-los não assegura recuperação nem aprendizagem: contexto, organização, acesso e preservação importam. Conhecimento tácito também não se esgota nesses registros.",
+      "gatilho": "memória organizacional",
+      "armadilhaBanca": "Não equiparar acúmulo documental e uso do conhecimento.",
+      "fonte": "CHOO, Chun Wei. A organização do conhecimento — registros e memória organizacional. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Armazenar relatórios, por si só, captura integralmente todo o conhecimento tácito e garante aprendizagem organizacional.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-436504",
+        "declaracaoLegada": "Cebraspe / SERPRO / 2013 (Adaptada); identificador legado: TecConcursos-436504"
+      },
+      "submoduloId": "5.4"
+    }
+  },
+  {
+    "id": "m6-q-34",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "seis verbos da especificação 2.0",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8f01363ab30f7dfbbb5af0ea9f515cb86d1740f31f61691635935b9d1c260f81",
+    "shaDepois": "3d130a837b7347335b0e5f6839686934b41d71d2567d7a11e2dd9c9d0cdfbc61",
+    "patch": {
+      "item": "No OAI-PMH, ListIdentifiers retorna o conteúdo completo dos metadados de cada registro, enquanto ListRecords se limita aos identificadores e demais campos dos cabeçalhos.",
+      "justificativa": "ERRADO. ListIdentifiers retorna cabeçalhos com identificadores, datas e informações previstas no protocolo; ListRecords retorna registros, incluindo metadados no formato solicitado. A troca parece pequena, mas muda o conteúdo recuperado. Os seis verbos são Identify, ListMetadataFormats, ListSets, ListIdentifiers, ListRecords e GetRecord.",
+      "gatilho": "ListIdentifiers",
+      "armadilhaBanca": "Inverter duas operações próximas do mesmo protocolo.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — seis verbos da especificação 2.0 — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "ListIdentifiers retorna cabeçalhos; ListRecords retorna registros com metadados no formato solicitado.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-35",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "Data Providers e Service Providers",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c48453ecde69fbb451f018b5cec929e6fcee136695292953cf43fd95b266e24f",
+    "shaDepois": "2176d77c11dbb7240e987d1f47f1b353b5897bdb227d02337945b5d830ad39fd",
+    "patch": {
+      "justificativa": "CERTO. O provedor de dados expõe metadados; o de serviços os colhe para construir serviços, como pesquisa agregada. São papéis funcionais: uma instituição pode desempenhar ambos. A distinção não indica quem detém direitos autorais sobre todos os documentos.",
+      "gatilho": "Provedor de Serviços",
+      "armadilhaBanca": "Distinguir papéis arquiteturais e entidades obrigatoriamente separadas.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — Data Providers e Service Providers — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma mesma instituição é proibida de atuar simultaneamente como provedora de dados e de serviços.",
+      "item": "Na arquitetura do OAI-PMH, distinguem-se duas entidades operacionais fundamentais: o Provedor de Dados (Data Provider), que armazena e expõe os metadados para colheita, e o Provedor de Serviços (Service Provider), que colhe os metadados para oferecer serviços agregados de busca aos usuários.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-36",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace",
+      "cad"
+    ],
+    "localizador": "aplicações e infraestrutura de dados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a87169f6b6f6d62ffb273f91aa3bd0f9bda9ff8967620ed92d964e98c460a10e",
+    "shaDepois": "a6b6bcf8777bd3f95f422943943a81dcb423c07aa980ec0f2e5a99da818d59bd",
+    "patch": {
+      "justificativa": "ERRADO. MySQL e PostgreSQL são sistemas gerenciadores de bancos de dados; SQL é linguagem para operar sobre bases relacionais. DSpace é aplicação de repositório e Joomla é sistema de gestão de conteúdo. Utilizar um banco não torna toda aplicação um SGBD.",
+      "gatilho": "SQL",
+      "armadilhaBanca": "Confundir ferramenta que usa o banco, gerenciador e linguagem.",
+      "fonte": "DSpace — documentação do projeto — aplicações e infraestrutura de dados — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "MySQL e PostgreSQL são SGBDs; SQL é uma linguagem, enquanto DSpace e Joomla são aplicações de outras categorias.",
+      "item": "MySQL, DSpace, PostgreSQL, Joomla e SQL são exemplos de sistemas gerenciadores de bancos de dados.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "MPU/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1616",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013 (Adaptada); identificador legado: cespe-cad-1616"
+      },
+      "submoduloId": "6.5"
+    }
+  },
+  {
+    "id": "m6-q-37",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "DCMI Terms: created e issued",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fb251a89346720341c6ec606d159f951be18c6325e7903c4b6875c8e46d2d553",
+    "shaDepois": "ad955dcb77d3a57d944f9095e6ed3e7f420703dd47b650987ba2f57d72722c75",
+    "patch": {
+      "item": "O vocabulário DCMI distingue dcterms:created, referente à criação do recurso, e dcterms:issued, referente à sua emissão formal, permitindo descrições mais específicas do que uma data sem qualificação.",
+      "justificativa": "CERTO. O vocabulário DCMI distingue datas de criação e emissão/publicação por propriedades específicas. Campos locais do DSpace, como dc.date.issued, não são o nome universal de uma propriedade em qualquer sistema. Um perfil deve explicitar a correspondência entre campos e vocabulários.",
+      "gatilho": "dcterms:issued",
+      "armadilhaBanca": "Distinguir refinamento semântico e convenção local de campo.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — DCMI Terms: created e issued — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na DCMI, created e issued são sinônimos obrigatórios, devendo representar sempre o mesmo evento.",
+      "submoduloId": "2.6"
+    }
+  },
+  {
+    "id": "m6-q-38",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "vergueiroSelecao",
+      "cad"
+    ],
+    "localizador": "critérios e necessidades da comunidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a3efb1f0d38354f0d5fe3b1bd1c3c48d15f00d9937aa03583f9c2b134f3b8444",
+    "shaDepois": "18719df597dd76269a6c227dd1f389c1c5ade3d03eb85f4339a7376d637a52cc",
+    "patch": {
+      "item": "Conhecer as necessidades da comunidade e adotar critérios explícitos de seleção orienta o desenvolvimento de coleções, mas não garante, por si só, que toda obra incorporada seja confiável e permaneça atualizada.",
+      "justificativa": "CERTO. Necessidades da comunidade e critérios explícitos orientam seleção e desenvolvimento. Selecionar com cuidado reduz riscos, mas não assegura ausência absoluta de erros, desatualização ou inadequação futura. A coleção precisa ser avaliada e revista conforme missão, uso e recursos.",
+      "gatilho": "não garante",
+      "armadilhaBanca": "Distinguir orientação da qualidade e garantia absoluta.",
+      "fonte": "VERGUEIRO, Waldomiro. Seleção de materiais de informação — critérios e necessidades da comunidade. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A adoção de critérios de seleção garante que nenhuma obra da coleção apresentará erro ou ficará desatualizada.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646361",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646361"
+      },
+      "submoduloId": "5.3"
+    }
+  },
+  {
+    "id": "m6-q-39",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "GetRecord: argumentos e resposta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f5e1cb08e05bab0daad98559f8a99d246b6b2c815ef7e76449b6ee0b85c40da6",
+    "shaDepois": "76c4c6e83f344fcbcf44f7db97d6546e534279afec220ffe7bdc665d53a9f8b7",
+    "patch": {
+      "justificativa": "ERRADO. GetRecord recupera um registro identificado pelo argumento identifier, no formato indicado por metadataPrefix. A resposta segue a estrutura XML do protocolo. Para listar registros ou cabeçalhos usam-se outros verbos, com eventual paginação.",
+      "gatilho": "GetRecord",
+      "armadilhaBanca": "Trocar recuperação individual e listagem em lote.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — GetRecord: argumentos e resposta — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "GetRecord recupera um registro identificado; ListIdentifiers lista cabeçalhos e identificadores.",
+      "item": "O verbo `GetRecord` do OAI-PMH tem como finalidade listar todos os milhares de identificadores de um repositório simultaneamente em uma única resposta de texto simples sem XML.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-40",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "base",
+      "cad"
+    ],
+    "localizador": "agregação de fontes e condições de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e15c07ba279cbed64b2717c3e8be052f529bed7cff0c78d0251ea53187bfec07",
+    "shaDepois": "4210ebbe9042cfdc66a17dbff3270567a7baf82eeb1f6df7d518159058bdf617",
+    "patch": {
+      "justificativa": "CERTO. BASE agrega metadados de diferentes fontes e oferece pesquisa integrada. Encontrar um resultado não garante acesso aberto ao texto completo nem certifica qualidade científica. É preciso conferir o registro de origem, seus direitos e as condições de acesso ao arquivo.",
+      "gatilho": "provedor de serviços",
+      "armadilhaBanca": "Distinguir descoberta, acesso e validação científica.",
+      "fonte": "BASE — Bielefeld Academic Search Engine — agregação de fontes e condições de acesso — https://www.base-search.net/about/en/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo documento encontrado no BASE está necessariamente disponível em texto completo e acesso irrestrito.",
+      "item": "O Bielefeld Academic Search Engine (BASE), uma iniciativa de acesso aberto à informação científica, constitui um provedor de serviços que, por meio de interface web, disponibiliza serviço de pesquisa que propicia busca simultânea de informações em metadados de bibliotecas digitais, periódicos científicos, repositórios institucionais e repositórios temáticos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-493",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-493"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-41",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios",
+      "cad"
+    ],
+    "localizador": "desenho de estudos de usuários",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "60c6ca974ad3532dc5c4fd239648b377abb72c875607d96cf397a0528b5a4780",
+    "shaDepois": "d40a19b01f446a7581a82ce4ba5c68d7373280781645bebd076af73223efc2cf",
+    "patch": {
+      "item": "Para levantar o perfil socioeconômico de uma comunidade, a entrevista é sempre mais adequada do que questionários e dados secundários, independentemente do tamanho da população e dos objetivos da pesquisa.",
+      "justificativa": "ERRADO. O método deve atender à pergunta, à população, ao tipo de dado e às condições de coleta. Questionários e dados secundários podem ser adequados para perfis; entrevistas podem aprofundar experiências. Não há superioridade universal da entrevista para qualquer levantamento socioeconômico.",
+      "gatilho": "sempre",
+      "armadilhaBanca": "Transformar adequação contextual em preferência universal.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — desenho de estudos de usuários. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A técnica de coleta depende dos objetivos e condições do estudo, podendo combinar entrevistas, questionários e dados secundários.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-229001",
+        "ano": 2013,
+        "orgao": "MPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "229001",
+        "declaracaoLegada": "Cebraspe / MPU / 2013; identificador legado: 229001"
+      },
+      "submoduloId": "4.4"
+    }
+  },
+  {
+    "id": "m6-q-42",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "DCMI Metadata Element Set e Metadata Terms",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a2a4c773370b33a9b30322cbdfa4fbfc1fff3e80b79eb8e880e81e9a6e33c48e",
+    "shaDepois": "8d3e2e7ff1444d8b4c08586216f6af460cb5d9c76b0a52e3de11a2c3aa782b5f",
+    "patch": {
+      "item": "Os quinze elementos do Dublin Core simples são todos obrigatórios e de ocorrência única em qualquer aplicação, não sendo permitido a perfis locais definir exigências próprias de preenchimento.",
+      "justificativa": "ERRADO. O Dublin Core simples possui quinze elementos; o vocabulário DCMI Metadata Terms é mais amplo. Obrigatoriedade, cardinalidade e regras de preenchimento precisam ser definidas pelo perfil de aplicação, sem atribuir ao conjunto simples uma exigência universal de preencher cada elemento.",
+      "gatilho": "todos obrigatórios",
+      "armadilhaBanca": "Confundir vocabulário geral e exigências do perfil.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — DCMI Metadata Element Set e Metadata Terms — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O conjunto simples tem quinze elementos, e um perfil de aplicação pode definir obrigatoriedade e cardinalidade para um uso específico.",
+      "submoduloId": "2.6"
+    }
+  },
+  {
+    "id": "m6-q-43",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster",
+      "cad"
+    ],
+    "localizador": "análise de assunto, política e qualidade da indexação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "51f9f27a30134e56c149aa77f14b28d250beca4acf2af7c1161743a041d06712",
+    "shaDepois": "a18584d02c6291b125f9503f8057331a33d6ce6fc672cc2659a70f10b46567c0",
+    "patch": {
+      "item": "O conhecimento empírico do indexador sobre uma linguagem documentária é suficiente para garantir fidelidade na representação dos documentos, dispensando análise de conteúdo e política de indexação.",
+      "justificativa": "ERRADO. Experiência contribui para decisões de indexação, mas não garante fidelidade por si só. Análise do documento, política, vocabulário, contexto e controle de qualidade precisam se articular. A existência de um tesauro tampouco dispensa compreender o conteúdo.",
+      "gatilho": "suficiente",
+      "armadilhaBanca": "Não converter experiência em garantia isolada.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — análise de assunto, política e qualidade da indexação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Experiência profissional deve se articular à análise documental, à política de indexação e ao controle de qualidade.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TecConcursos-180933",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "180933",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012; identificador legado: 180933"
+      },
+      "submoduloId": "3.3"
+    }
+  },
+  {
+    "id": "m6-q-44",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "scholar",
+      "cad"
+    ],
+    "localizador": "condições de inclusão e rastreamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fb2a7185c1c29296f8ac5c65a23cf0d3589d939df606421a3a8deceb18fa1e61",
+    "shaDepois": "e3f0134d12119517c1e43a41aa3f4c27782a78b43adea8e15f6332cb4c31da3e",
+    "patch": {
+      "item": "Repositórios que expõem metadados pelo OAI-PMH não são indexados pelo Google Scholar, pois a adoção desse protocolo impede o rastreamento de suas páginas e documentos.",
+      "justificativa": "ERRADO. Expor metadados por OAI-PMH não impede disponibilizar páginas e documentos rastreáveis pelo Google Scholar. A inclusão depende das condições de acesso e das exigências técnicas desse serviço. Ter OAI-PMH, por outro lado, não garante indexação automática no Scholar.",
+      "gatilho": "não são indexados",
+      "armadilhaBanca": "Tratar mecanismos compatíveis como alternativas excludentes.",
+      "fonte": "Google Scholar — Inclusion Guidelines — condições de inclusão e rastreamento — https://scholar.google.com/intl/en/scholar/inclusion.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um repositório pode expor OAI-PMH e também ter conteúdo indexado pelo Google Scholar, conforme as condições técnicas de inclusão.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "FUB/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-492",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011 (Adaptada); identificador legado: cespe-cad-492"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-45",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dspace",
+      "cad"
+    ],
+    "localizador": "finalidade do repositório e diferença de SIGB",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "698271a50d8abcf351b02f260444b4b6ee91591d33117898571384d7a48219c4",
+    "shaDepois": "75925e85df401d90820523cdd87f446a66752a31efffc6c72b456fae07c0b276",
+    "patch": {
+      "item": "O DSpace tem como função principal substituir o SIGB no controle de empréstimos físicos, devoluções e multas de exemplares, sendo o depósito de objetos digitais apenas uma função acessória.",
+      "justificativa": "ERRADO. DSpace organiza depósito, descrição, acesso e gestão de objetos digitais. Circulação de exemplares e multas são funções típicas de SIGBs como Koha. Uma biblioteca pode usar ambos, mas a instituição usuária não determina que todas as ferramentas tenham a mesma finalidade.",
+      "gatilho": "função principal",
+      "armadilhaBanca": "Confundir software usado por biblioteca e software de circulação.",
+      "fonte": "DSpace — documentação do projeto — finalidade do repositório e diferença de SIGB — https://wiki.lyrasis.org/display/DSDOC7x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "DSpace é voltado a repositórios digitais; um SIGB gerencia funções como circulação de exemplares.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "SEE-DF/2016",
+        "ano": 2016,
+        "orgao": "2016",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-699",
+        "declaracaoLegada": "Cebraspe / 2016 / 2016 (Adaptada); identificador legado: cespe-cad-699"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-46",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "Identify",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8b86fa6990302c70985c7e3ff98d017eade84c5ece84216388e6eebab4d27259",
+    "shaDepois": "c4146bf2b84d52441f79ed8801800285cb83a21668d2ea8eb1772d3f3823a4f1",
+    "patch": {
+      "justificativa": "CERTO. Identify descreve o repositório e informa dados como nome, endereço-base, versão, contatos e tratamento de registros excluídos. Não retorna o texto completo de todos os itens nem substitui a consulta a um registro específico. A resposta ajuda o coletor a conhecer o serviço.",
+      "gatilho": "Identify",
+      "armadilhaBanca": "Separar descrição do serviço e conteúdo dos registros.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — Identify — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Identify retorna os metadados e os arquivos completos de todos os documentos do repositório.",
+      "item": "No OAI-PMH, a requisição que utiliza o verbo `Identify` retorna informações globais sobre o repositório, incluindo o nome institucional, a URL base, a versão do protocolo suportada, o e-mail do administrador e a política de exclusão de registros.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-47",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "controle de fluxo e resumptionToken",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "713b0af2099b88cc4ef28f78f497165d276d1c85ec480af4f2cda7268f8411d5",
+    "shaDepois": "1b44c87cf4f60982fc1f00f0a3e95dc80e637bf6577ad700377d84c940887b7a",
+    "patch": {
+      "justificativa": "CERTO. O provedor pode dividir uma resposta e fornecer um token opaco para continuação. O coletor reutiliza esse token conforme as regras do protocolo, sem precisar interpretar seu conteúdo. Não é senha de acesso nem promessa de validade ilimitada; erros e expiração precisam ser tratados.",
+      "gatilho": "resumptionToken",
+      "armadilhaBanca": "Distinguir continuação de resultados e autenticação.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — controle de fluxo e resumptionToken — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "resumptionToken é uma credencial permanente que autentica o usuário e dispensa novas requisições.",
+      "item": "No protocolo OAI-PMH, o mecanismo de 'resumptionToken' é utilizado para paginar e particionar respostas volumosas que excedem o limite de registros configurado no servidor, permitindo que a colheita ocorra em sucessivas requisições controladas.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-48",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "metadataPrefix oai_dc e conformidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7543dae3a4fa6682897a7d8961487f207442e7cf6cbb8cf064c161b68f80202e",
+    "shaDepois": "6085440aa4c4b8a7ebaa635e0ef404c74e9bf683149cb02e486d412eec45df3b",
+    "patch": {
+      "justificativa": "CERTO. A interoperabilidade mínima requer disponibilizar registros no formato Dublin Core não qualificado definido pelo protocolo. Outros formatos podem coexistir e ser identificados por ListMetadataFormats. O requisito mínimo não obriga descartar os metadados mais ricos do repositório.",
+      "gatilho": "oai_dc",
+      "armadilhaBanca": "Distinguir mínimo obrigatório e limite máximo de descrição.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — metadataPrefix oai_dc e conformidade — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um repositório OAI-PMH está proibido de expor formatos mais ricos do que oai_dc.",
+      "item": "A especificação do OAI-PMH estabelece o suporte ao formato Dublin Core simples (oai_dc) codificado em XML como requisito mínimo obrigatório para qualquer repositório em conformidade com o protocolo.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-49",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "elemento creator",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "962aad17b46cbbf06d622a561a9ab20c6297bbf74443f8d36358e646983315ef",
+    "shaDepois": "df974d4344d46099a639210e1e16cfe6feeb081d2212b5a5a16b8a049f5b9913",
+    "patch": {
+      "justificativa": "ERRADO. Creator indica quem é responsável pela criação do conteúdo do recurso, podendo ser pessoa ou organização. A gráfica que apenas imprime um texto não se torna autora intelectual por executar a produção física. O papel precisa ser identificado no recurso e no perfil descritivo.",
+      "gatilho": "Creator",
+      "armadilhaBanca": "Confundir responsabilidade pelo conteúdo e fabricação do suporte.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — elemento creator — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Creator identifica a entidade responsável pela criação do conteúdo, não automaticamente a gráfica que imprimiu o suporte.",
+      "item": "No esquema Dublin Core Simples, o elemento Creator é utilizado para identificar a empresa gráfica responsável pela impressão física e encadernação do suporte material.",
+      "submoduloId": "2.6"
+    }
+  },
+  {
+    "id": "m6-q-50",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "registro e objeto descrito",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c9f674459ec0058e775b51cc2512b27111ae4524bb5eee18ee2390dcd7823c8b",
+    "shaDepois": "a2ff534ef54e6cb50f3fb0bbbbac0845650437fe63dfbdbacb03575df09b274a",
+    "patch": {
+      "item": "Para cumprir o OAI-PMH, cada resposta de colheita deve incluir o arquivo integral do documento descrito, pois metadados sem os respectivos bytes não constituem um registro válido.",
+      "justificativa": "ERRADO. O protocolo colhe metadados; o objeto descrito pode ser acessado por outro endereço e sob condições próprias. OAI-PMH não obriga incluir os bytes do documento em cada registro. Disponibilidade do registro não prova que o arquivo esteja aberto ou mesmo disponível.",
+      "gatilho": "arquivo integral",
+      "armadilhaBanca": "Distinguir metadados e transferência do objeto.",
+      "fonte": "Open Archives Initiative — Protocol for Metadata Harvesting, v2.0 — registro e objeto descrito — https://www.openarchives.org/OAI/openarchivesprotocol.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A resposta OAI-PMH contém metadados; a entrega do arquivo integral não é exigência de cada registro colhido.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-51",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "prov"
+    ],
+    "localizador": "PROV-O: entidades, atividades e agentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4d5e58a8d1a91f320d9cef2cfa1a9e91521a627b603c10831fa715a6844f59b2",
+    "shaDepois": "d840341615853ccbd80481d09b0d7c835dcbe753340f129b51966a9302e634ad",
+    "patch": {
+      "justificativa": "CERTO. A proveniência registra origem e processos relevantes, permitindo reconstruir como um dado foi produzido ou transformado. No modelo PROV, entidades, atividades e agentes são relacionados para esse fim. Essa rastreabilidade apoia avaliação e reprodução, mas não prova que todo procedimento ou resultado seja verdadeiro.",
+      "gatilho": "proveniência",
+      "armadilhaBanca": "Distinguir rastreabilidade e validação substantiva.",
+      "fonte": "W3C — PROV-O: The PROV Ontology. 2013 — PROV-O: entidades, atividades e agentes — https://www.w3.org/TR/prov-o/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Conhecer a proveniência de um dado garante sua verdade, mesmo que o método que o produziu seja inadequado.",
+      "item": "A proveniência dos dados (data provenance) registra a linhagem, a cadeia de custódia, os métodos experimentais e as transformações sofridas pelos dados desde sua geração original, sendo crucial para a validação da credibilidade científica.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-52",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "owl",
+      "cad"
+    ],
+    "localizador": "OWL 2 Primer: classes, propriedades e axiomas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "766c9e6c720e3e559d98d26cedf7bdfec899e03f5de7255d81210fe83d455534",
+    "shaDepois": "38fb61fca67a8401489694834d1c1fc64786d97998667febfb5ad6658c33e9a9",
+    "patch": {
+      "item": "Ontologias explicitam conceitos e relações de um domínio e podem apoiar interoperabilidade e compartilhamento, embora a adoção de uma ontologia não elimine automaticamente conflitos terminológicos entre sistemas.",
+      "justificativa": "CERTO. Ontologias explicitam conceitos, relações e restrições em um domínio, apoiando interpretação e integração. Diferenças entre vocabulários podem exigir mapeamentos e análise de contexto. Adotar uma ontologia não elimina automaticamente conflitos nem assegura que todos os dados a representem corretamente.",
+      "gatilho": "podem apoiar",
+      "armadilhaBanca": "Distinguir explicitação formal e solução automática de divergências.",
+      "fonte": "W3C — OWL 2 Web Ontology Language Primer — OWL 2 Primer: classes, propriedades e axiomas — https://www.w3.org/TR/owl2-primer/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A simples adoção de uma ontologia elimina automaticamente todos os conflitos semânticos entre bases.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "GPPGE (SEE DF)/SEE DF/Biblioteconomia/2017",
+        "ano": 2017,
+        "orgao": "SEE DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-464246",
+        "declaracaoLegada": "Cebraspe / SEE DF / 2017 (Adaptada); identificador legado: TecConcursos-464246"
+      },
+      "submoduloId": "3.4"
+    }
+  },
+  {
+    "id": "m6-q-53",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "z3950",
+      "cad"
+    ],
+    "localizador": "cliente, servidores e consulta distribuída",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b0783c7f4254f3b8179772643f66e2180b557522b3715b942037651392e39c10",
+    "shaDepois": "533ebeef8cbfde88fc66b01be282f4f944c2c4ae5d5f8c834a70ebdbec4fbff2",
+    "patch": {
+      "item": "Um cliente Z39.50 pode oferecer, em uma mesma interface, consulta a catálogos remotos com servidores e alvos configurados, inclusive com recuperação de registros MARC.",
+      "justificativa": "CERTO. Uma interface cliente pode consultar diferentes servidores Z39.50, se disponíveis e configurados para isso. MARC pode ser um formato dos registros recuperados, não o protocolo de consulta. A possibilidade técnica não garante conexão a qualquer catálogo nem uniformidade de todos os campos de pesquisa.",
+      "gatilho": "alvos configurados",
+      "armadilhaBanca": "Distinguir capacidade de integração e disponibilidade universal.",
+      "fonte": "Library of Congress — Z39.50 / SRU — cliente, servidores e consulta distribuída — https://www.loc.gov/z3950/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Z39.50 garante acesso a qualquer catálogo do mundo, mesmo sem servidor habilitado ou autorização.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "MPU/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-913",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-913"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-54",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "introdução e quatro grupos de princípios",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c364b96a9d25f5a5b3e345ca0440f7e9dd63fe722ccb3c46db14b962df89487d",
+    "shaDepois": "c73cedbc28a0927db0a00bf24ce665013c0be7db63b06c3b00e74ac635ce2fc1",
+    "patch": {
+      "justificativa": "CERTO. FAIR significa localizável, acessível, interoperável e reutilizável. Os princípios enfatizam também a atuação de sistemas computacionais na descoberta e no uso de dados e metadados. Não equivalem a selo de verdade científica nem impõem acesso público irrestrito a todo dado.",
+      "gatilho": "computacionais",
+      "armadilhaBanca": "Separar princípios de gestão, qualidade e regime de acesso.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — introdução e quatro grupos de princípios — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "FAIR é um certificado que comprova automaticamente a qualidade científica e a abertura irrestrita dos dados.",
+      "item": "Os Princípios FAIR, formulados em 2016 pela comunidade científica internacional, estabelecem que os dados e metadados de pesquisa devem ser Localizáveis (Findable), Acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable), tanto por seres humanos quanto por sistemas computacionais automatizados.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-55",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "F1–F4",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "59dc08c3a82e0df6df6072d179f279714473d688cd74feab1abed0f4cc9f2992",
+    "shaDepois": "6cf4ed2926c229e5b1ad3857612a6116bca77394e714cf45d79013b99fc8f31e",
+    "patch": {
+      "item": "Para satisfazer os princípios FAIR de localização, é suficiente publicar um arquivo em qualquer endereço público, dispensando identificador persistente, metadados e registro ou indexação pesquisável.",
+      "justificativa": "ERRADO. F1 requer identificadores globalmente únicos e persistentes; F2 prevê metadados ricos, F3 vincula o identificador aos metadados e F4 requer registro ou indexação pesquisável. Colocar um arquivo na Web sem esses cuidados não satisfaz o conjunto de requisitos de localização.",
+      "gatilho": "é suficiente",
+      "armadilhaBanca": "Reduzir descoberta e identificação a mera disponibilidade.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — F1–F4 — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A localização FAIR envolve identificadores persistentes, metadados e registro ou indexação pesquisável, não apenas um arquivo público.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-56",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rtp",
+      "cad"
+    ],
+    "localizador": "seções 1 e 2: aplicações em tempo real",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de protocolos e redes corrigido para 14.2 após conferir o título e conteúdo da aula; 14.1 trata de ferramentas Office.",
+    "shaAntes": "7a352e7e9195b0c1a39d27c9f70c9a83f574f1c4d0868b5adf63752373c8c2a9",
+    "shaDepois": "8cab386465f37994ebe863ca3cb7595f623531ca2da1d9838f0f3b3f561fa862",
+    "patch": {
+      "item": "Na telefonia por VoIP, o simples uso de IP garante a entrega de todos os pacotes de áudio sem perda, atraso ou variação de atraso, independentemente das condições da rede.",
+      "justificativa": "ERRADO. Comunicação de voz sobre IP depende de redes de pacotes e pode sofrer perdas, atrasos e variação de atraso. RTP fornece mecanismos úteis a aplicações em tempo real, mas não reserva recursos nem garante qualidade de serviço por si só. Aplicações podem integrar áudio e vídeo, por isso vídeo não é uma exclusão conceitual segura.",
+      "gatilho": "garante",
+      "armadilhaBanca": "Confundir transporte por pacotes com garantia de serviço.",
+      "fonte": "IETF — RFC 3550, RTP: A Transport Protocol for Real-Time Applications — seções 1 e 2: aplicações em tempo real — https://www.rfc-editor.org/rfc/rfc3550",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A transmissão de voz por IP pode sofrer perdas e atrasos; o uso de IP não garante qualidade constante.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "MPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-228956",
+        "declaracaoLegada": "Cebraspe / MPU / 2013 (Adaptada); identificador legado: TecConcursos-228956"
+      },
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m6-q-57",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "http",
+      "cad"
+    ],
+    "localizador": "semântica HTTP e transferência de representações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de protocolos e redes corrigido para 14.2 após conferir o título e conteúdo da aula; 14.1 trata de ferramentas Office.",
+    "shaAntes": "0a74dbc4c9ebef003d904975f7b2bd73b8a8e52071f52f95d67469b4eb070c53",
+    "shaDepois": "05dc382fee2ffabcd983cdca3c4589fdb165d1d147d20fe65262e22e0ad76293",
+    "patch": {
+      "justificativa": "CERTO. HTTP transfere representações de recursos e é central à Web; também pode entregar arquivos e apoiar APIs. FTP foi concebido para transferência de arquivos. A distinção de finalidades não autoriza afirmar que HTTP transporta somente hipertexto ou que FTP seja sinônimo de SFTP.",
+      "gatilho": "HTTP",
+      "armadilhaBanca": "Evitar transformar uso característico em exclusividade.",
+      "fonte": "IETF — RFC 9110, HTTP Semantics — semântica HTTP e transferência de representações — https://www.rfc-editor.org/rfc/rfc9110",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "HTTP é incapaz de transferir arquivos, pois só transporta hipertexto.",
+      "item": "O protocolo HTTP é utilizado para a transferência de hipertextos, enquanto o protocolo FTP é utilizado para transferência de arquivos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "MPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-228955",
+        "declaracaoLegada": "Cebraspe / MPU / 2013 (Adaptada); identificador legado: TecConcursos-228955"
+      },
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m6-q-58",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "codificação bibliográfica e padrões complementares",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dc686ea2f718aa6a0365609aed19bdae5a35fbf8cbfa7ce36e831b1e3ebad5d9",
+    "shaDepois": "563b318e9cfd5f4dd43024b8badf13c7a9ccadbe06a140631e587853c45f0435",
+    "patch": {
+      "item": "A interoperabilidade bibliográfica pode articular padrões com funções distintas: MARC21 e UNIMARC para registros, AACR2 para regras de catalogação e Z39.50 para busca e recuperação remota.",
+      "justificativa": "CERTO. MARC e UNIMARC tratam da representação e intercâmbio de registros; AACR2 é código de catalogação; Z39.50 é protocolo de busca e recuperação. São camadas complementares, não formatos idênticos. Compatibilidade depende também dos perfis, versões e configurações efetivamente usados.",
+      "gatilho": "funções distintas",
+      "armadilhaBanca": "Distinguir regras de conteúdo, codificação e protocolo.",
+      "fonte": "Library of Congress — MARC 21 formats — codificação bibliográfica e padrões complementares — https://www.loc.gov/marc/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "MARC21, AACR2 e Z39.50 são nomes equivalentes do mesmo formato de intercâmbio.",
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-59",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "A1.1, A1.2 e A2",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6cb8cd8dbdf4b36a657b3548e9f8e8bfb6b0ffa549c5bbc4a1b3bd8aed8f9391",
+    "shaDepois": "e6b3b78a25e8a9ba8e0ef41f05f57621e710d1fa7742593343ebfe9e66790fb4",
+    "patch": {
+      "justificativa": "ERRADO. A1.2 admite autenticação e autorização quando necessárias; A2 prevê que metadados permaneçam acessíveis mesmo quando os dados não estiverem mais disponíveis. Dados pessoais ou protegidos podem exigir acesso controlado. FAIR não significa ignorar sigilo, consentimento ou base jurídica aplicável.",
+      "gatilho": "impedindo",
+      "armadilhaBanca": "Confundir acessibilidade protocolar com abertura irrestrita.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — A1.1, A1.2 e A2 — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Dados FAIR podem ter acesso controlado por autenticação e autorização, respeitadas as condições aplicáveis.",
+      "item": "A observância dos princípios FAIR na gestão de dados de pesquisa impõe a disponibilização pública imediata dos conjuntos de dados custodiados, impedindo a instituição de salvaguardas de acesso para dados pessoais sensíveis ou segredos industriais.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-60",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "z3950",
+      "cad"
+    ],
+    "localizador": "distinção entre Z39.50 e ANSI/NISO Z39.19",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a59cede5011245d754225f50753b425d67472171ea5d6b7462650f7cb1f55e55",
+    "shaDepois": "45a4a3bb38b6b6fc7f403a59613f8b78ee880fbbd1ee318fa9ea3bc0b6d6a35e",
+    "patch": {
+      "justificativa": "ERRADO. A numeração não expressa uma sequência de versões do mesmo sistema. Z39.50 trata de busca e recuperação; Z39.19 trata de construção e gestão de vocabulários controlados monolíngues. Uma norma terminológica e um protocolo podem apoiar a recuperação por funções diferentes.",
+      "gatilho": "evolução",
+      "armadilhaBanca": "Inferir evolução tecnológica apenas da semelhança dos números.",
+      "fonte": "Library of Congress — Z39.50 / SRU — distinção entre Z39.50 e ANSI/NISO Z39.19 — https://www.loc.gov/z3950/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Z39.19 orienta vocabulários controlados; Z39.50 trata de busca e recuperação de informação.",
+      "item": "O Protocolo Z39.19 é uma evolução do Z39.50, embora seja mais específico para bibliotecas digitais.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
+        "ano": 2013,
+        "orgao": "ANTT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-206246",
+        "declaracaoLegada": "Cebraspe / ANTT / 2013 (Adaptada); identificador legado: TecConcursos-206246"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-61",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "A1, A1.1 e A1.2",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "02ea20bf1470214bc8d28dea9c57cd70db267578c73dd8a0c0bd7c9a5eaea941",
+    "shaDepois": "bd01f06b8073f870c36ec505515116f5d6619e099996440a2b450ce6c4d238e6",
+    "patch": {
+      "justificativa": "CERTO. O protocolo deve ser aberto, gratuito e universalmente implementável. Essa propriedade do protocolo não torna todo conjunto de dados público: a própria especificação admite autenticação e autorização quando necessárias. Verifique se a assertiva fala da implementação do protocolo ou do direito de acesso ao conteúdo.",
+      "gatilho": "aberto",
+      "armadilhaBanca": "Distinguir abertura do protocolo e autorização de acesso.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — A1, A1.1 e A1.2 — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O uso de um protocolo aberto proíbe autenticação e torna públicos todos os dados recuperáveis por ele.",
+      "item": "Conforme os Princípios FAIR, para que os dados sejam 'Acessíveis' (Accessible), o protocolo de comunicação utilizado para recuperação dos metadados e dos dados deve ser aberto, livre e universalmente implementável, a exemplo do protocolo HTTP/HTTPS.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-62",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dataverse"
+    ],
+    "localizador": "datasets, versões e identificadores persistentes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dc38a7d98b3dbe91d8b04f51c9ba6e1d2c5e3db4eda3f76a0cd1063601738a92",
+    "shaDepois": "acd930d29c10de8a698bc7504e71ce87cd8a995dfd00b744175965136bcad0c9",
+    "patch": {
+      "item": "O Dataverse permite gerir datasets, arquivos e versões e produzir citações com identificadores persistentes, conforme o serviço de identificação configurado para o repositório.",
+      "justificativa": "CERTO. Dataverse gerencia conjuntos de dados, arquivos, versões e citações. Identificadores persistentes dependem da configuração e do provedor utilizado, podendo envolver DOI ou outras opções suportadas. Não é apenas um diretório de dados brutos nem garante DOI válido sem integração adequada.",
+      "gatilho": "configurado",
+      "armadilhaBanca": "Distinguir funcionalidade disponível e implantação efetiva.",
+      "fonte": "The Dataverse Project — User Guide — datasets, versões e identificadores persistentes — https://guides.dataverse.org/en/latest/user/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Instalar Dataverse gera automaticamente DOIs válidos para todos os arquivos, sem configuração ou provedor de identificadores.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-63",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "R1–R1.3 e documentação para reutilização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f73cef65d2137cb73dc82cfd72ccf1a558feac160bff2a084209158a19d297a5",
+    "shaDepois": "9e12c72bb85cc68b38cf69f85d8dc1e6ce081a12874e57e0097c37f47b1f1bc0",
+    "patch": {
+      "justificativa": "ERRADO. Citar dados identifica a fonte, reconhece contribuições e permite rastrear a versão utilizada. A referência deve apontar o conjunto pertinente, não apenas uma página genérica quando há identificação específica. Citação e autorização são dimensões distintas: citar não elimina restrições legais ou de licença.",
+      "gatilho": "omitir",
+      "armadilhaBanca": "Confundir acesso técnico, crédito e permissão de reutilização.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — R1–R1.3 e documentação para reutilização — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A reutilização de dados deve reconhecer a fonte e respeitar as condições de uso; citar não substitui autorização quando ela é necessária.",
+      "item": "A citação de dados (data citation) é uma prática repudiada pela comunidade científica internacional, devendo o autor que reutilizou dados alheios omitir a fonte para evitar redundância textual.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-64",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dados5estrelas"
+    ],
+    "localizador": "dados estruturados e formatos abertos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ee9d716138b46016f1843ff1667d7df2709bcba3c8403fb928621915b9b87010",
+    "shaDepois": "850d6623de40d42f6c807598157e26bd40e764a4ffa4045d6476fd9dd32707e9",
+    "patch": {
+      "justificativa": "ERRADO. Uma imagem pode conservar a aparência de uma tabela, mas dificulta processamento automático de valores e relações. Dados abertos exigem considerar estrutura, formato, acesso e licença. OCR pode auxiliar extração, porém acrescenta risco de erros e não torna a imagem equivalente à tabela estruturada original.",
+      "gatilho": "imagens matriciais",
+      "armadilhaBanca": "Confundir fidelidade visual e legibilidade por máquina.",
+      "fonte": "5-star Open Data — Tim Berners-Lee — dados estruturados e formatos abertos — https://5stardata.info/en/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Publicar uma tabela em formato estruturado e aberto favorece processamento; preservar apenas sua imagem não satisfaz, por si só, esses requisitos.",
+      "item": "Em portais de dados abertos governamentais, a conversão de tabelas de execução orçamentária em imagens matriciais compactadas atende aos requisitos técnicos de abertura, pois assegura a integridade visual dos demonstrativos contábeis.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-65",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "R1.1: licença clara e acessível",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6dc569bacb9e6ac46d117e5b450de6e15d98e28eebe44b03b2a5445a9c372802",
+    "shaDepois": "f1da8d4610cadfa112360e946b696521bfe045db6ac154bdf226406ec82c52fc",
+    "patch": {
+      "item": "Para cumprir o princípio FAIR de reutilização, deve-se omitir qualquer licença, pois a ausência de condições explícitas é o que torna os dados reutilizáveis.",
+      "justificativa": "ERRADO. R1.1 exige uma licença de uso clara e acessível, não sua proibição. R1.2 e R1.3 acrescentam proveniência detalhada e padrões pertinentes à comunidade. Não há exigência universal de uma licença específica nem autorização automática para usos incompatíveis com direitos e restrições.",
+      "gatilho": "licença",
+      "armadilhaBanca": "Inverter exigência de explicitar condições em proibição de licença.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — R1.1: licença clara e acessível — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Reutilização FAIR requer condições de uso claras, acompanhadas de proveniência e padrões pertinentes.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-66",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fair"
+    ],
+    "localizador": "I1–I3",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1593ec080a66b8dc838be82ac996a6a054e3baf4c64226ae30c04cd6757047e0",
+    "shaDepois": "a0dd4f3a9d9be1978b84958c3ac2704770af52792609380f25348a04e4e52833",
+    "patch": {
+      "item": "A interoperabilidade FAIR envolve representação formal compartilhada, vocabulários adequados e referências qualificadas; não basta serializar campos locais em XML ou JSON sem explicitar seu significado.",
+      "justificativa": "CERTO. I1 prevê linguagem formal, acessível, compartilhada e amplamente aplicável à representação do conhecimento; I2, vocabulários que sigam FAIR; I3, referências qualificadas. Uma sintaxe como XML pode carregar nomes locais opacos. Serializar sem explicitar o significado não assegura interoperabilidade semântica.",
+      "gatilho": "não basta",
+      "armadilhaBanca": "Distinguir sintaxe de intercâmbio e significado compartilhado.",
+      "fonte": "WILKINSON et al. The FAIR Guiding Principles for scientific data management and stewardship. 2016 — I1–I3 — https://doi.org/10.1038/sdata.2016.18",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A simples conversão de nomes de campos locais para XML garante interoperabilidade semântica entre quaisquer instituições.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-67",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlColeta",
+      "cad"
+    ],
+    "localizador": "parte 4: coleta de metadados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dec2ee08619acd55593ba8107df3074584a44690cf5bb9907d9356b860b06fad",
+    "shaDepois": "b53803fcad22c73795881defe6ca850370f02130785ee69142e60aa591317cd4",
+    "patch": {
+      "item": "O mecanismo documentado de coleta de metadados do LexML utiliza Z39.50, em substituição ao OAI-PMH.",
+      "justificativa": "ERRADO. A documentação de coleta do LexML adota OAI-PMH para intercâmbio de metadados. Z39.50 tem outra função característica, a busca e recuperação remota. O fato de ambos favorecerem integração não os torna protocolos substituíveis em qualquer projeto.",
+      "gatilho": "Z39.50",
+      "armadilhaBanca": "Trocar protocolos por compartilharem uma finalidade geral de integração.",
+      "fonte": "LexML Brasil — Parte 4: Coleta de Metadados — parte 4: coleta de metadados — https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A coleta de metadados documentada no LexML utiliza OAI-PMH, não Z39.50.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-682",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-682"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-68",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dados5estrelas"
+    ],
+    "localizador": "níveis quatro e cinco do esquema",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b0f890eb1172b0cac1f92af8a3fe8dacaa33858b7f5d7888602252fdf59d176d",
+    "shaDepois": "490e514c394e52e5c6daf7d2c27a2b490dc399b15c9d52c5d52c21d0bf215386",
+    "patch": {
+      "justificativa": "CERTO. No esquema incremental, identificadores e padrões de dados ligados apoiam o quarto nível; ligações a outros dados acrescentam contexto no quinto. Os níveis anteriores continuam necessários, inclusive a licença aberta. Ter cinco estrelas não prova exatidão científica nem autoriza violar proteção de dados.",
+      "gatilho": "conectados",
+      "armadilhaBanca": "Distinguir requisitos incrementais e presença superficial de links.",
+      "fonte": "5-star Open Data — Tim Berners-Lee — níveis quatro e cinco do esquema — https://5stardata.info/en/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A quinta estrela pode ser obtida mantendo os dados sob licença fechada, desde que haja qualquer hiperlink na página.",
+      "item": "O esquema de classificação de dados abertos em 5 Estrelas proposto por Tim Berners-Lee estabelece que a 5ª estrela máxima é alcançada quando os dados estão disponíveis na web em padrão aberto estruturado (como RDF) e conectados a outros dados por meio de links (Linked Open Data).",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-69",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "tcp",
+      "cad"
+    ],
+    "localizador": "transporte TCP e camada IP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Vínculo de protocolos e redes corrigido para 14.2 após conferir o título e conteúdo da aula; 14.1 trata de ferramentas Office.",
+    "shaAntes": "c2a70fd2157e77be85df4e3fedfb1818fb20f5a9b7e0dc059b774b9eaa618047",
+    "shaDepois": "1b58ebdb43b27f7bb011cf8ed2e681280d8cb1abfa36a7c32456d8e108daa0bc",
+    "patch": {
+      "item": "Na suíte TCP/IP, cabe ao TCP determinar as rotas entre redes e ao IP assegurar a entrega ordenada e confiável de um fluxo de bytes às aplicações.",
+      "justificativa": "ERRADO. TCP fornece transporte de fluxo de bytes com mecanismos de confiabilidade; IP cuida do endereçamento e entrega de datagramas através da rede, com encaminhamento pelos roteadores. A divisão apresentada está invertida e simplificada de modo incorreto. Nem toda aplicação da Internet utiliza TCP.",
+      "gatilho": "TCP determinar as rotas",
+      "armadilhaBanca": "Inverter responsabilidades entre camadas.",
+      "fonte": "IETF — RFC 9293, Transmission Control Protocol — transporte TCP e camada IP — https://www.rfc-editor.org/rfc/rfc9293",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "TCP atua no transporte confiável de um fluxo de bytes; IP fornece endereçamento e entrega de datagramas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio Doc (FUB)/FUB/2013",
+        "ano": 2013,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-346473",
+        "declaracaoLegada": "Cebraspe / FUB / 2013 (Adaptada); identificador legado: TecConcursos-346473"
+      },
+      "submoduloId": "14.2"
+    }
+  },
+  {
+    "id": "m6-q-70",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aleph"
+    ],
+    "localizador": "integração de catálogos e sistemas cliente-servidor",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5940376cb6dec60c7fb92f4418b98cea6701e876da07797de4e738cf3a843a27",
+    "shaDepois": "8f4d51cf84d5389039211431b6cc557fb62dec854bfc73a8d1c13518d17cea05",
+    "patch": {
+      "item": "O Aleph é um sistema de gerenciamento de bibliotecas com arquitetura cliente-servidor e suporte a padrões bibliográficos e de integração, como MARC e Z39.50, conforme a versão e a configuração utilizadas.",
+      "justificativa": "CERTO. Aleph é um SIGB de arquitetura cliente-servidor que oferece funções bibliográficas e recursos de integração. MARC é formato de registro e Z39.50 é protocolo; disponibilidade concreta depende da versão e configuração. Essas funcionalidades não tornam o produto automaticamente livre ou dispensado de licenciamento.",
+      "gatilho": "conforme a versão",
+      "armadilhaBanca": "Não deduzir regime de licença de padrões interoperáveis.",
+      "fonte": "Ex Libris — Aleph 24, Communication Requirements — https://knowledge.exlibrisgroup.com/Aleph/Product_Documentation/001_Version_24/Requirements_for_Aleph_24_Installation/04_Communication_Requirements",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Compatibilidade com MARC e Z39.50 torna qualquer SIGB automaticamente um software de código aberto.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STF/2008",
+        "ano": 2008,
+        "orgao": "2008",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-922",
+        "declaracaoLegada": "Cebraspe / 2008 / 2008 (Adaptada); identificador legado: cespe-cad-922"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-71",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlColeta",
+      "cad"
+    ],
+    "localizador": "parte 4: arquitetura de coleta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ca8055aeb9be239334e828dd942ac0f87a2e076421e5984529dbe5419ea20f04",
+    "shaDepois": "0282c9fc9c31aa2bfbc29246bc9dd64448eafca215b18a3cd1d324e0192a3d61",
+    "patch": {
+      "item": "Na arquitetura de coleta documentada do LexML, colher metadados por OAI-PMH significa executar consultas Z39.50 nos catálogos de origem a cada pesquisa feita pelo usuário.",
+      "justificativa": "ERRADO. A coleta OAI-PMH permite ao serviço reunir metadados para processamento e pesquisa posteriores. Isso difere de consultar os catálogos de origem por Z39.50 a cada busca do usuário. Identifique se a operação da assertiva é colheita ou consulta distribuída em tempo de pesquisa.",
+      "gatilho": "consultas Z39.50",
+      "armadilhaBanca": "Confundir integração prévia por coleta e consulta distribuída.",
+      "fonte": "LexML Brasil — Parte 4: Coleta de Metadados — parte 4: arquitetura de coleta — https://projeto.lexml.gov.br/documentacao/Parte-4-Coleta-de-Metadados.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Colher metadados por OAI-PMH não equivale a executar consultas Z39.50 nos catálogos de origem a cada busca.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-855",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010 (Adaptada); identificador legado: cespe-cad-855"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-72",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "planejamento da gestão de dados no ciclo de vida",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "734ecba9d9d8fe2a33721b0b952d98b02c554d04d6782a301f584281681aa8c2",
+    "shaDepois": "a81ec31ce417c9df29035fe81aee337e3d315371952a3e9abbf2a8d23e9b3d36",
+    "patch": {
+      "justificativa": "CERTO. O PGD explicita como dados serão produzidos, documentados, protegidos e mantidos, com responsabilidades e recursos. Deve ser revisto quando o projeto muda. Compartilhamento precisa considerar ética, direitos e restrições; planejar não significa publicar tudo nem garante execução automática do plano.",
+      "gatilho": "ciclo de vida",
+      "armadilhaBanca": "Distinguir gestão ao longo do projeto e formulário estático de depósito.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — planejamento da gestão de dados no ciclo de vida — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um PGD só descreve o local de armazenamento final e nunca deve ser revisto durante o projeto.",
+      "item": "Um Plano de Gestão de Dados (PGD) é um documento formal que descreve como os dados serão coletados, processados, organizados, documentados com metadados, armazenados com segurança, compartilhados e preservados ao longo do ciclo de vida de um projeto de pesquisa.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-73",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "z3950",
+      "cad"
+    ],
+    "localizador": "interfaces clientes e alvos remotos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3b33a016275959864ebb6793db997634b081d176be4bd6d765f8f3906b03fe74",
+    "shaDepois": "6c8b3bb80ebd5affa428bcc4af3e11664ad9356906fbf0e0176c13a6159ee80e",
+    "patch": {
+      "item": "Para pesquisar três catálogos remotos por Z39.50, o usuário deve obrigatoriamente abrir três interfaces diferentes, pois o protocolo impede consultas a múltiplos alvos a partir de um mesmo cliente.",
+      "justificativa": "ERRADO. Um cliente pode apresentar uma interface comum para consultas a vários alvos. O protocolo não obriga abrir uma interface de usuário para cada biblioteca. Ter interfaces distintas em uma implementação possível não constitui a finalidade definidora da busca integrada.",
+      "gatilho": "obrigatoriamente",
+      "armadilhaBanca": "Não transformar uma configuração possível em obrigação do protocolo.",
+      "fonte": "Library of Congress — Z39.50 / SRU — interfaces clientes e alvos remotos — https://www.loc.gov/z3950/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um cliente Z39.50 pode reunir consultas a diferentes servidores por uma interface comum.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-104078",
+        "declaracaoLegada": "Cebraspe / STJ / 2012 (Adaptada); identificador legado: TecConcursos-104078"
+      },
+      "submoduloId": "6.2"
+    }
+  },
+  {
+    "id": "m6-q-74",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "ações do modelo de ciclo de vida",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "283bb3b3c1b7e4b536088daeb28ca113198167a7ed0662e5de7105a63b138161",
+    "shaDepois": "678cdcf88c8dcac8ce29d9fb6e42dacfcbe8f9f5e1dc91dc7950811ecbcb0f3a",
+    "patch": {
+      "justificativa": "ERRADO. Curadoria inclui seleção, documentação, preservação, acesso e reavaliação ao longo do tempo. O upload é uma etapa, não o encerramento da responsabilidade. Mudanças técnicas e novas necessidades podem exigir ações posteriores, inclusive migração e revisão de condições de acesso.",
+      "gatilho": "cessa",
+      "armadilhaBanca": "Confundir ingestão no repositório e ciclo completo de curadoria.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — ações do modelo de ciclo de vida — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A curadoria continua após o depósito e inclui ações para manter os dados compreensíveis, íntegros e utilizáveis.",
+      "item": "A curadoria digital de dados de pesquisa cessa de forma imediata assim que o pesquisador clica no botão de submissão do formulário de upload, não exigindo qualquer preservação a longo prazo.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-75",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei11419",
+      "cad"
+    ],
+    "localizador": "art. 4º, §1º: assinatura digital",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0bb0606fc11436f8ab96ad44467ab2c67e33580255230c2a4293ea9741c9f0e7",
+    "shaDepois": "c74865feea42e7400bde8cd05a81a0d7597df0b34072a2f59bf634c3c3de8d8c",
+    "patch": {
+      "item": "Segundo o art. 4º, §1º, da Lei 11.419/2006, o sítio e o conteúdo das publicações do diário eletrônico criado na forma desse artigo devem ser assinados digitalmente com certificado emitido por autoridade certificadora credenciada na ICP-Brasil.",
+      "justificativa": "CERTO. A Lei 11.419 exige assinatura digital do sítio e do conteúdo da publicação eletrônica nos termos do artigo, com certificado emitido por autoridade credenciada. Essa garantia diz respeito à autenticação e integridade; não prova que toda interpretação jurídica contida na edição seja correta. Não se confunde com publicação em qualquer página sem verificação.",
+      "gatilho": "ICP-Brasil",
+      "armadilhaBanca": "Distinguir publicação eletrônica oficial e página eletrônica comum.",
+      "fonte": "Lei 11.419/2006 — informatização do processo judicial — art. 4º, §1º: assinatura digital — https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A simples hospedagem de um diário judicial na Web dispensa assinatura digital do sítio e de seu conteúdo.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "STJ/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-604",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012 (Adaptada); identificador legado: cespe-cad-604"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m6-q-76",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "preservação, avaliação e responsabilidades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "707623fafa06476bb7b772f01383514f34896ce967169ef0568094f0feb039d6",
+    "shaDepois": "5a9d96359f81801f187dd25b9c00f6bbc903a860f31ecec0eab8caf54480a7fc",
+    "patch": {
+      "item": "A obtenção de imagem digital e texto por OCR autoriza automaticamente a eliminação do documento original, independentemente da avaliação e das regras de guarda aplicáveis ao acervo.",
+      "justificativa": "ERRADO. Digitalizar ou extrair texto não determina o valor nem o prazo de guarda do original. Eliminação depende de avaliação, competência e regras aplicáveis ao acervo. Qualidade da imagem, autenticidade e utilidade de consulta também precisam ser examinadas; IA não substitui essa decisão documental.",
+      "gatilho": "autoriza automaticamente",
+      "armadilhaBanca": "Confundir mudança de suporte e autorização de eliminação.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — preservação, avaliação e responsabilidades — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Digitalização não autoriza, por si só, eliminar originais sem avaliação e procedimento competente.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-77",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "fundamentação em documentos e limites de geração",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fa5b2ad72ecc963d35f48e64b43ba2c540bc04769b1bbddbf4d4f6671175bdde",
+    "shaDepois": "2e93668d6b1e6e5ec2b4c15904982eb5c76ffb1c41ad4a9c2863114771c8efef",
+    "patch": {
+      "item": "Em respostas jurídicas geradas por IA, a revisão humana deve conferir fontes, contexto e vigência normativa; sua presença não garante, por si só, a correção de todas as afirmações.",
+      "justificativa": "CERTO. A revisão deve verificar o conteúdo contra fontes autênticas, vigência, contexto e data de corte. Recuperar um documento ou exibir uma referência não prova que a resposta decorra dele. Uma pessoa também pode errar: revisão é controle de qualidade com procedimentos, não certificado automático de infalibilidade.",
+      "gatilho": "não garante",
+      "armadilhaBanca": "Distinguir controle de risco e garantia absoluta.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — fundamentação em documentos e limites de geração — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A mera aprovação humana de um texto de IA garante que toda norma citada esteja vigente e interpretada corretamente.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-78",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "arts. 6º, 7º, 11 e regras de compartilhamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2417ea0e92a4c4c0b169dafd9545290b2ba1e19c50bcf72329b41ce28dbb02b3",
+    "shaDepois": "05dc9566f5e2aebcccc777cbc5d07de69c602a242ec20fc4905a9ce89a047993",
+    "patch": {
+      "justificativa": "ERRADO. Dados de leitura podem identificar pessoas e revelar aspectos sensíveis conforme o contexto. Treinamento por terceiros exige examinar finalidade, base legal, necessidade, segurança e condições de compartilhamento. Consentimento não é a única base possível nem dispensa os demais requisitos quando utilizado.",
+      "gatilho": "dispensada",
+      "armadilhaBanca": "Não presumir isenção legal pelo objetivo tecnológico.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 6º, 7º, 11 e regras de compartilhamento — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O uso de dados pessoais para treinamento de IA exige análise das bases e condições legais, da finalidade, da necessidade e da proteção dos titulares.",
+      "item": "A utilização de dados pessoais não anonimizados de leitores para o treinamento de modelos comerciais públicos de IA de terceiros é uma conduta incentivada e dispensada de qualquer conformidade com a LGPD.",
+      "submoduloId": "1.6"
+    }
+  },
+  {
+    "id": "m6-q-79",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland",
+      "cad"
+    ],
+    "localizador": "informação como coisa e documento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4f2df29a5542644da8eb8d023fe94cdf96855f717a18ff43f7079381587479ee",
+    "shaDepois": "97970b9a68885ed37565d95e3eae0619502b560a6736389ea08106b70f7822ee",
+    "patch": {
+      "item": "Abordagens documentais podem considerar materialidade, organização e contexto de uso para compreender um objeto como documento, sem reduzir essa identificação a uma lista universal de propriedades físicas.",
+      "justificativa": "CERTO. A compreensão de documento pode envolver materialidade, contexto, organização e uso como evidência. Buckland discute a ampliação do conceito, inclusive a partir de Briet. Isso não fornece uma lista universal em que qualquer objeto físico seja necessariamente documento em toda situação.",
+      "gatilho": "podem considerar",
+      "armadilhaBanca": "Distinguir potencial documental e condição atribuída em contexto.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — informação como coisa e documento — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer objeto material é documento em todas as situações, independentemente de contexto e uso informacional.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-165405",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165405"
+      },
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "m6-q-80",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcc"
+    ],
+    "localizador": "qualidade, documentação e preservação de representações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3a7a4be0bcafbc999c6a3011914a499b9f872b57b6a79d182bbc939a1b3e73f6",
+    "shaDepois": "bb26a6f77c028bcc3cbd1ca0d21f5000604e714b8b6683039e09657fac16ef25",
+    "patch": {
+      "justificativa": "CERTO. OCR reconhece caracteres em imagens e pode gerar uma camada textual pesquisável. Impressão antiga, colunas, hifens e degradação podem provocar trocas e junções indevidas. É necessário confrontar passagens relevantes com a imagem; gerar texto não prova que o conteúdo foi transcrito corretamente.",
+      "gatilho": "OCR",
+      "armadilhaBanca": "Distinguir pesquisabilidade e fidelidade da transcrição.",
+      "fonte": "Digital Curation Centre — Curation Lifecycle Model — qualidade, documentação e preservação de representações — https://www.dcc.ac.uk/guidance/curation-lifecycle-model",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo texto obtido por OCR reproduz fielmente a imagem e dispensa conferência, mesmo em documentos degradados.",
+      "item": "O uso de técnicas de Reconhecimento Óptico de Caracteres (OCR) associadas a modelos de inteligência artificial de visão computacional permite transformar documentos históricos impressos ou datilografados da Câmara em textos digitais pesquisáveis em bases de dados.",
+      "submoduloId": "6.3"
+    }
+  },
+  {
+    "id": "m6-q-81",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster",
+      "cad"
+    ],
+    "localizador": "indexação e recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6cb6103b22348e33b9ac4bbf14daa8b60ec67b90dc1e54d5ec85686823075847",
+    "shaDepois": "5dfe6da9a8d60ee7b70f2b6febe7d8880a8af5269da1ce75108ded760aef88b0",
+    "patch": {
+      "item": "Os processos de indexação e de recuperação da informação demandam atenção à linguagem documentária e às relações entre os termos de representação e de busca.",
+      "justificativa": "CERTO. A representação de assuntos e a formulação de buscas precisam considerar vocabulário e relações de significado. Linguagens controladas ajudam a coordenar termos, mas sua adequação depende do domínio e dos usuários. Isso não implica que toda busca só possa ocorrer por descritores, excluindo texto livre.",
+      "gatilho": "indexação e de recuperação",
+      "armadilhaBanca": "Reconhecer a articulação entre representar e buscar.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — indexação e recuperação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Linguagens documentárias só influenciam a consulta, sem qualquer papel na representação dos assuntos durante a indexação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-180932",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012 (Adaptada); identificador legado: TecConcursos-180932"
+      },
+      "submoduloId": "3.3"
+    }
+  },
+  {
+    "id": "m6-q-82",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "geração fundamentada e verificação das fontes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "534fdacf16c52ce751801178bc08842c98e7448ce46d1fd6523cdfc97a682f99",
+    "shaDepois": "fe887fab2884e5c4368e755f40a4dfe4b9cebeb858ffb6f9e6927b858c57b649",
+    "patch": {
+      "item": "Quando uma resposta de IA cita um DOI real, a existência desse identificador garante que a fonte sustente todas as afirmações associadas à citação, dispensando a leitura do documento.",
+      "justificativa": "ERRADO. Um modelo pode apresentar uma fonte existente e atribuir a ela uma conclusão que não está no texto. Verificar a existência do DOI é apenas uma etapa; é preciso conferir correspondência, contexto e alcance da evidência. Fluência e confiança aparente também não demonstram verdade factual.",
+      "gatilho": "DOI real",
+      "armadilhaBanca": "Confundir existência da fonte com suporte à conclusão.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — geração fundamentada e verificação das fontes — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma referência existente precisa ser conferida para verificar se realmente sustenta a afirmação gerada.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-83",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster",
+      "cad"
+    ],
+    "localizador": "análise de assunto e representação temática",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3082780a3be08ab4bb0928ef30366379e0aa4540371a39cc5fae3efb488437ef",
+    "shaDepois": "46645a13b5470a555edf44949a0c7bb40e75059494679121142f334984ee2f40",
+    "patch": {
+      "item": "Para representar tematicamente um documento, basta apenas transcrever título e autoria, pois a análise de conceitos é uma operação exclusiva da descrição física.",
+      "justificativa": "ERRADO. Indexação temática exige identificar conceitos e selecionar sua representação conforme política e linguagem. Título, autoria e outros elementos descritivos podem oferecer pistas, mas copiá-los não substitui análise de assunto. Descrição bibliográfica e representação temática possuem funções complementares.",
+      "gatilho": "apenas transcrever",
+      "armadilhaBanca": "Confundir descrição formal e análise temática.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — análise de assunto e representação temática. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Representar o assunto requer análise conceitual; transcrever título e autoria não substitui essa análise.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646318",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646318"
+      },
+      "submoduloId": "3.3"
+    }
+  },
+  {
+    "id": "m6-q-84",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "arquitetura e resultados experimentais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d3719e594adc39a5bd8aa79b922976050b6d6d91cdeba0a212948c112c48b0fd",
+    "shaDepois": "1b2f34aa88930d3d52a7277f167219232343275d0790e6a672affa46c6e9f953",
+    "patch": {
+      "item": "Sistemas RAG combinam recuperação de documentos e geração de linguagem para apoiar respostas fundamentadas, mas essa arquitetura não assegura ausência de alucinações nem correção automática das referências.",
+      "justificativa": "CERTO. RAG combina recuperação de informação e geração, condicionando a resposta a conteúdos recuperados. A busca pode ser vetorial, lexical ou híbrida conforme a implementação. Resultados dependem de cobertura, atualização, recuperação e uso das evidências; nem fonte confiável impede interpretação ou citação errada.",
+      "gatilho": "não assegura",
+      "armadilhaBanca": "Separar acesso à evidência e uso correto dessa evidência.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — arquitetura e resultados experimentais — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "RAG garante respostas verdadeiras sempre que exista ao menos um documento confiável na base.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-85",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "representações densas e recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "52b545cb66f69022414a437c5e7a0b0f0500ec20785c353b3fe32881d35212b1",
+    "shaDepois": "87d9b28aa2f78cd7166da243e1cb05361378354098fec4b44aeadfd44d647780",
+    "patch": {
+      "item": "Embeddings podem apoiar recuperação de textos semanticamente próximos, inclusive entre idiomas quando o modelo é compatível com essa tarefa, sem garantir equivalência exata de significado.",
+      "justificativa": "CERTO. Embeddings representam textos por vetores aprendidos e podem recuperar proximidades sem coincidência literal de palavras. Para idiomas distintos, o modelo precisa oferecer alinhamento multilíngue adequado. Similaridade não demonstra equivalência exata nem que um documento implique a resposta procurada.",
+      "gatilho": "compatível",
+      "armadilhaBanca": "Distinguir proximidade estatística e equivalência semântica.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — representações densas e recuperação — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer modelo de embeddings garante equivalência de significado entre quaisquer textos e idiomas.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-86",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "tipos de informação jurídica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9f537564c9e0b9cd0c206bf43ce05d8908a325a582c27458b35255d4daaf4344",
+    "shaDepois": "106523a04c4a67443aca481f96d5eb69a1491880af2f20fa8fd7d7cfaea40c2b",
+    "patch": {
+      "item": "Uma classificação usual da informação jurídica distingue legislação, jurisprudência e doutrina; nesta última situam-se análises e interpretações de autores sobre o direito, sem força normativa automática.",
+      "justificativa": "CERTO. Legislação reúne atos normativos; jurisprudência se relaciona às decisões judiciais; doutrina compreende elaboração intelectual sobre o direito. Chamar a doutrina de informação descritiva não lhe confere força vinculante de lei ou decisão. Obras doutrinárias também podem interpretar e criticar, não apenas reproduzir textos.",
+      "gatilho": "doutrina",
+      "armadilhaBanca": "Distinguir natureza da fonte e autoridade jurídica.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — tipos de informação jurídica — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Doutrina tem sempre a mesma força vinculante de uma lei vigente, por integrar a informação jurídica.",
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m6-q-87",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "borko",
+      "cad"
+    ],
+    "localizador": "Information science: what is it?, 1968",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7fdb06285c8ab5b9bf6ab487fd43a7260d475c536f4840a32d5da6f75bf93609",
+    "shaDepois": "cc7f63e7f533da28f0bd03702118c77cc11ac3eb8bf0e5fa9bbd9717e141402e",
+    "patch": {
+      "item": "Distinguir a ciência da informação e a biblioteconomia não implica reservar toda pesquisa científica à primeira nem reduzir a segunda à execução de técnicas sem teoria.",
+      "justificativa": "CERTO. Borko associa ciência da informação tanto a aspectos de investigação quanto de aplicação. Biblioteconomia também produz pesquisa e teoria. Há diferenças históricas e institucionais, mas não uma divisão em que uma área detenha toda ciência e a outra seja incapaz de investigar.",
+      "gatilho": "não implica",
+      "armadilhaBanca": "Não transformar uma ênfase profissional em exclusão da pesquisa.",
+      "fonte": "BORKO, Harold. Information Science: What is it? American Documentation, 1968 — Information science: what is it?, 1968 — https://doi.org/10.1002/asi.5090190103",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A biblioteconomia é exclusivamente execução prática, sendo incapaz de produzir teoria ou pesquisa científica.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "CAPES",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-2711386",
+        "declaracaoLegada": "Cebraspe / CAPES / 2012 (Adaptada); identificador legado: TecConcursos-2711386"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m6-q-88",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "recuperação por representações vetoriais; distinção matemática de métricas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4746a2e974e90757fd0916abb9a7e4c516280316b32ffe760605040cc597a1a3",
+    "shaDepois": "54c508c05b42d854ba5b4799f4b11d335acf9badd53bffce76cacc98eb2a8e7d",
+    "patch": {
+      "item": "Na convenção usual de busca vetorial, um valor maior de similaridade por cosseno indica menor alinhamento entre os vetores, enquanto uma distância euclidiana maior indica maior proximidade.",
+      "justificativa": "ERRADO. Na convenção usual, maior similaridade por cosseno indica vetores mais alinhados; menor distância euclidiana indica maior proximidade geométrica. Distância e similaridade não têm necessariamente a mesma orientação. O significado e a normalização do escore devem ser conferidos na implementação.",
+      "gatilho": "maior de similaridade",
+      "armadilhaBanca": "Inverter o sentido de ordenação de similaridade e distância.",
+      "fonte": "LEWIS et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020 — recuperação por representações vetoriais; distinção matemática de métricas — https://arxiv.org/abs/2005.11401",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na convenção usual, maior similaridade por cosseno indica maior alinhamento; menor distância euclidiana indica maior proximidade.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-89",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland",
+      "cad"
+    ],
+    "localizador": "discussão do conceito de documento em Otlet e Briet",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6fe1f60b831dc02fbf2947f8dc885c838ce7978259e0f79ebd9d798f39501ed0",
+    "shaDepois": "52379752a5128eaedb31945247f71ff0a4e0d5064bf40414a64b6204426e1bc9",
+    "patch": {
+      "item": "O conceito de documento permaneceu idêntico e imutável em todas as tradições da biblioteconomia e da documentação, de modo que autores como Otlet e Briet não trouxeram mudanças ao debate.",
+      "justificativa": "ERRADO. A história das áreas inclui diferentes recortes sobre livro, registro e evidência. Otlet e Briet contribuíram para ampliar a discussão documental. Não é correto projetar um conceito único, amplo e imutável sobre todas as práticas desde a origem, ignorando contextos e debates.",
+      "gatilho": "idêntico e imutável",
+      "armadilhaBanca": "Evitar anacronismo e generalização histórica.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — discussão do conceito de documento em Otlet e Briet — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A noção de documento foi discutida e ampliada por diferentes tradições e autores, sem permanecer historicamente idêntica em todos os contextos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "CAPES",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-2711385",
+        "declaracaoLegada": "Cebraspe / CAPES / 2012 (Adaptada); identificador legado: TecConcursos-2711385"
+      },
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "m6-q-90",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fewshot"
+    ],
+    "localizador": "condicionamento por instruções e exemplos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e1e4621fd5c3419d99e4c9deedec9ab98e919001cfa9739477c891155cae4c40",
+    "shaDepois": "7e836dc9dc0d0a95cc15509bc8192164289e1b20baf20c6aecf82979337f4285",
+    "patch": {
+      "item": "Um prompt detalhado garante a autenticidade de todas as citações geradas por um modelo de linguagem, tornando desnecessárias a recuperação de fontes e a conferência factual.",
+      "justificativa": "ERRADO. Instruções claras ajudam a orientar tarefa e formato, mas não instalam uma verificação factual infalível no modelo. Uma resposta organizada ainda pode conter fontes inventadas ou conclusões sem suporte. Prompts devem ser combinados com recuperação, conferência e critérios de avaliação pertinentes ao uso.",
+      "gatilho": "garante",
+      "armadilhaBanca": "Confundir obediência ao formato e verdade factual.",
+      "fonte": "BROWN et al. Language Models are Few-Shot Learners. 2020 — condicionamento por instruções e exemplos — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um prompt bem estruturado pode orientar a resposta, mas não dispensa conferir fatos, fontes e limites.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-91",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "princípios de qualidade, transparência e não discriminação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "351b17be06088ed4d3424ed867b919a1e5f724302237dc354e418591cde077c1",
+    "shaDepois": "e11417ba44e7080dc6437dc520eef76cc778d612ce9b3e4291c150ae02869c5a",
+    "patch": {
+      "justificativa": "CERTO. Dados de treinamento e outras escolhas de projeto podem produzir representações e resultados desiguais. Avaliar grupos, contextos, seleção de fontes e efeitos ajuda a identificar problemas. Auditoria não assegura neutralidade perfeita e não deve se limitar a uma avaliação inicial sem acompanhamento.",
+      "gatilho": "pode reproduzir",
+      "armadilhaBanca": "Distinguir identificação e mitigação de risco e eliminação definitiva.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — princípios de qualidade, transparência e não discriminação — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A realização de uma auditoria inicial torna um sistema de IA permanentemente livre de discriminação e dispensa acompanhamento.",
+      "item": "O viés algorítmico (algorithmic bias) em sistemas de IA em unidades de informação pode reproduzir e amplificar preconceitos históricos presentes nos textos de treinamento, exigindo auditorias contínuas de equidade e representatividade dos dados.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-92",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster"
+    ],
+    "localizador": "indexação automática e controle de qualidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e7fc007ec2cdb6948730e74b17b5b2cdda27570bafea008676eade4db21f457c",
+    "shaDepois": "1cfc4b4ca69cf6f89baa85650851370f633a15fdafa3dd88436ba89fafd46614",
+    "patch": {
+      "justificativa": "CERTO. A automação pode sugerir termos, resumos e campos, mas essas propostas precisam ser avaliadas quanto a pertinência e fidelidade. Conferir uma amostra ou aprovar mecanicamente tudo não demonstra qualidade de todo o acervo. Ganho de produtividade precisa ser medido junto aos erros e ao trabalho de revisão.",
+      "gatilho": "pode acelerar",
+      "armadilhaBanca": "Distinguir apoio ao processamento e delegação sem controle.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — indexação automática e controle de qualidade. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Sugestões de metadados produzidas por IA devem ser aceitas sem revisão, pois automatização equivale a precisão catalográfica.",
+      "item": "A automação da catalogação e da extração de metadados auxiliada por IA pode acelerar o processamento técnico de acervos digitais volumosos, atuando na sugestão prévia de termos de tesauro e resumos para posterior homologação pelo bibliotecário.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-93",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland",
+      "cad"
+    ],
+    "localizador": "registros e produção documental",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e390ea309b77164b159a5230e7455660b5aa7cadb8ca20c41a5a8b16360986ca",
+    "shaDepois": "0a7aa9a08da8b9bcd372f50a45c98d6b2fbf1560a1cf53f816c9f2b05a507f63",
+    "patch": {
+      "item": "A produção de documentação restringe-se aos profissionais de bibliotecas e centros de informação, pois somente quem realiza tratamento técnico pode produzir documentos.",
+      "justificativa": "ERRADO. Pessoas e instituições de muitas áreas produzem documentos em suas atividades. Bibliotecários e outros profissionais organizam e mediam parte desses registros, mas tratamento técnico e produção não são a mesma função. Um relatório de laboratório não passa a existir apenas quando é catalogado.",
+      "gatilho": "restringe-se",
+      "armadilhaBanca": "Confundir produção de documentos e tratamento da documentação.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — registros e produção documental — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Documentos podem ser produzidos por diversos atores; o tratamento profissional não é condição para toda produção documental.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "BASA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-1303090",
+        "declaracaoLegada": "Cebraspe / BASA / 2012 (Adaptada); identificador legado: TecConcursos-1303090"
+      },
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "m6-q-94",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "borko",
+      "cad"
+    ],
+    "localizador": "definição de ciência da informação, 1968",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f5ff0818fd67e0dc90891fb0f5a458c60f72a5b2443d8f52177745e5e3fecec3",
+    "shaDepois": "9312d548668eb470e0c6af0f5fa804ccc6cc2c16a743a8e172a1396b463730af",
+    "patch": {
+      "item": "A investigação das propriedades, do comportamento e dos fluxos da informação é uma definição atribuída por Borko exclusivamente à biblioteconomia, ficando fora do campo da ciência da informação.",
+      "justificativa": "ERRADO. A investigação das propriedades, do comportamento e do fluxo da informação integra a definição de ciência da informação apresentada por Borko. Biblioteconomia pode estudar esses temas, mas não é correto excluir a ciência da informação ou trocar o referente da definição como se fossem campos isolados.",
+      "gatilho": "exclusivamente",
+      "armadilhaBanca": "Identificar a definição sem impor exclusividade temática entre áreas.",
+      "fonte": "BORKO, Harold. Information Science: What is it? American Documentation, 1968 — definição de ciência da informação, 1968 — https://doi.org/10.1002/asi.5090190103",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Borko caracteriza a ciência da informação pela investigação das propriedades, do comportamento e dos fluxos da informação e de seu processamento para acesso e uso.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "CAPES",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-2711384",
+        "declaracaoLegada": "Cebraspe / CAPES / 2012 (Adaptada); identificador legado: TecConcursos-2711384"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m6-q-95",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lancaster",
+      "cad"
+    ],
+    "localizador": "linguagens de indexação e busca",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d3acb59822cdff22edca88f3ff8ebfb86b55e5588abc1f0e54ef75521f50ef2d",
+    "shaDepois": "0e9ed677f693bf5ed7a079df4320d8ebcf6d4a2611efd6e11e3b51315e0c8b87",
+    "patch": {
+      "justificativa": "ERRADO. A linguagem documentária participa da representação de assuntos e pode apoiar a formulação das consultas. Restringi-la à recuperação ignora sua função na indexação. Coerência entre os termos usados para representar e para buscar favorece o encontro, sem garantir sozinho o resultado ideal.",
+      "gatilho": "somente",
+      "armadilhaBanca": "Excluir uma das fases articuladas do processo.",
+      "fonte": "LANCASTER, F. W. Indexação e resumos: teoria e prática. 2ª ed. brasileira, 2004 — linguagens de indexação e busca. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A linguagem documentária pode atuar tanto na indexação quanto na recuperação da informação.",
+      "item": "A linguagem documentária é considerada necessária somente na recuperação da informação.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-180934",
+        "declaracaoLegada": "Cebraspe / TJ RR / 2012 (Adaptada); identificador legado: TecConcursos-180934"
+      },
+      "submoduloId": "3.3"
+    }
+  },
+  {
+    "id": "m6-q-96",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic",
+      "cad"
+    ],
+    "localizador": "relações entre biblioteconomia, documentação e ciência da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ecb12d3c3850e1560c47ab030b34f5341ae65820f0264a5ed4d8aeaeac54f486",
+    "shaDepois": "50f0fd89a452c01e71cb700d89e34b72b21907687a35b8286cbc26f4b71ea4c5",
+    "patch": {
+      "item": "Biblioteconomia, documentação e ciência da informação possuem trajetórias históricas inteiramente idênticas e não apresentam diferenças de ênfase, sendo suas denominações intercambiáveis em qualquer contexto.",
+      "justificativa": "ERRADO. As áreas possuem trajetórias, instituições e ênfases que se relacionam, sem identidade completa. O uso de tecnologia não fornece sozinho uma hierarquia de superioridade nem elimina debates sobre seus objetos. A comparação precisa ser situada, evitando uma evolução linear universal de uma área para outra.",
+      "gatilho": "idênticas",
+      "armadilhaBanca": "Confundir aproximação entre campos e identidade histórica total.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — relações entre biblioteconomia, documentação e ciência da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "As áreas dialogam e compartilham problemas, mas suas trajetórias e ênfases não são inteiramente idênticas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "CAPES",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-2711387",
+        "declaracaoLegada": "Cebraspe / CAPES / 2012 (Adaptada); identificador legado: TecConcursos-2711387"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "m6-q-97",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml",
+      "cad"
+    ],
+    "localizador": "jurisprudência e tipos de fonte jurídica",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "35b72c6f44a4264efc7d349fb5cf029afdc23fee8b130457374c1a1503f8fca8",
+    "shaDepois": "69023ba8936089d91b1fcc52807dd3c593fb159605f0e5e0e39e88497e7c8b35",
+    "patch": {
+      "justificativa": "CERTO. Jurisprudência se refere a decisões judiciais sobre questões jurídicas, podendo ser estudada em suas linhas de interpretação. A existência de decisões sobre um tema não significa uniformidade nem efeito vinculante de cada decisão. Órgão, data, situação processual e regime jurídico importam para avaliar sua autoridade.",
+      "gatilho": "decisões judiciais",
+      "armadilhaBanca": "Distinguir conjunto de decisões e força vinculante de cada precedente.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — jurisprudência e tipos de fonte jurídica — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda decisão judicial integrante de uma pesquisa jurisprudencial vincula obrigatoriamente todos os demais juízes.",
+      "item": "No âmbito da documentação jurídica, jurisprudência é o conjunto de decisões judiciais acerca de determinado assunto.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-165404",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165404"
+      },
+      "submoduloId": "4.3"
+    }
+  },
+  {
+    "id": "m6-q-98",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "art. 6º: atribuições profissionais; responsabilidade no uso de ferramentas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a05fd6df4efbff127daf5634b2595457a0479db59f80f409bdac1a81190a0a53",
+    "shaDepois": "8bf481331d294865312bd552d1f361525a5bcdece84ae3a314a1b5291ab9391b",
+    "patch": {
+      "item": "Ao utilizar um modelo de IA na catalogação, a biblioteca transfere integralmente ao fornecedor todas as responsabilidades técnicas e profissionais, ficando dispensada de revisar os registros gerados.",
+      "justificativa": "ERRADO. Ferramentas podem auxiliar o trabalho, mas não assumem automaticamente as atribuições e os deveres de quem as utiliza. Responsabilidades da instituição, do profissional e do fornecedor precisam ser analisadas no caso e no regime aplicável. Usar IA não torna dispensável a revisão técnica necessária.",
+      "gatilho": "transfere integralmente",
+      "armadilhaBanca": "Confundir contratação de ferramenta e transferência de responsabilidade.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — art. 6º: atribuições profissionais; responsabilidade no uso de ferramentas — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A utilização de IA não transfere automaticamente todas as responsabilidades profissionais ao fornecedor nem dispensa controle técnico.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-99",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "fewshot"
+    ],
+    "localizador": "aprendizagem em contexto com exemplos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "096423fd6f5764fc7537bea5d162cee9f631d137f263b865e8544579fd986a32",
+    "shaDepois": "6d32876ab5f41e5b5a6ed4dbc34271bdea1e287702e3ce11131fc34d41a2f346",
+    "patch": {
+      "item": "No few-shot prompting, alguns exemplos de entrada e saída são fornecidos no contexto para orientar o modelo na tarefa, sem que isso implique necessariamente atualizar seus parâmetros.",
+      "justificativa": "CERTO. Few-shot prompting fornece alguns exemplos da tarefa no contexto de entrada. Eles orientam padrões e formato sem equivaler, necessariamente, a atualizar os parâmetros do modelo. Exemplos inadequados também podem induzir erros; seu uso não garante precisão nem valida as fontes da resposta.",
+      "gatilho": "exemplos",
+      "armadilhaBanca": "Distinguir exemplos no contexto e treinamento de parâmetros.",
+      "fonte": "BROWN et al. Language Models are Few-Shot Learners. 2020 — aprendizagem em contexto com exemplos — https://arxiv.org/abs/2005.14165",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Few-shot prompting exige sempre reentreinar os parâmetros do modelo antes de cada consulta.",
+      "submoduloId": "6.4"
+    }
+  },
+  {
+    "id": "m6-q-100",
+    "caminho": "src/content/questions/m6-digital-ia-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic",
+      "cad"
+    ],
+    "localizador": "dimensão social e humana da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3498f68846c4d631e33269a6cedcfa938e2bcfdd12aec58129ba66a234ab9638",
+    "shaDepois": "4b2db05492de1d41a96d0202fd790a1d1d7ffdf91b5951a232235291a5a80b6e",
+    "patch": {
+      "item": "O estudo da informação possui dimensões humanas e sociais; esse reconhecimento não elimina o uso de métodos quantitativos nem o estudo de tecnologias na ciência da informação.",
+      "justificativa": "CERTO. Informação envolve pessoas, instituições, produção de sentido e práticas sociais, além de tecnologias. Reconhecer essa dimensão não exclui pesquisa quantitativa, métodos computacionais ou estudo de infraestrutura. A caracterização da área não deve se apoiar na expressão imprecisa de que estaria fora ou acima da ciência.",
+      "gatilho": "não elimina",
+      "armadilhaBanca": "Evitar oposição artificial entre dimensão humana e métodos técnicos.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — dimensão social e humana da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Reconhecer a dimensão humana da ciência da informação obriga excluir métodos quantitativos e estudos tecnológicos.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-165400",
+        "declaracaoLegada": "Cebraspe / SUFRAMA / 2014 (Adaptada); identificador legado: TecConcursos-165400"
+      },
+      "submoduloId": "1.1"
+    }
+  }
+]

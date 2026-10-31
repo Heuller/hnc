@@ -1,3 +1,4 @@
+import { questoesSubmodulosAmpliados } from './questions/questoes-submodulos-ampliados';
 import { EDITAL_CAMARA_2026 } from '../domain/edital/matrizEdital2026';
 import { filtrarQuestoesElegiveis } from '../domain/questoesElegiveis.ts';
 import type { CebraspeQuestion } from '../domain/types';
@@ -285,9 +286,9 @@ export const SIMULADOS_FASE8_REGISTRY: SimuladoManifest[] = [
     numero: 16,
     titulo: 'Simulado Geral Oficial: Prova Integral da Câmara dos Deputados (180 Itens)',
     tituloCurto: 'Simulado Geral 180Q',
-    subtitulo: '180 Itens C/E no Formato Real do Edital: P1 Básicos (70Q) + P2 Específicos (110Q) | 5h00 de Duração',
+    subtitulo: '180 itens de conhecimentos básicos e específicos com casos integradores',
     descricao:
-      'Simulação fidedigna da Prova Objetiva Oficial da Câmara dos Deputados (Edital nº 1/2026): 70 itens de Conhecimentos Básicos (P1) e 110 itens de Conhecimentos Específicos (P2), com tempo de prova de 5h00 no padrão Cebraspe (1 errada anula 1 certa). Inclui os Casos Integradores CI-1 a CI-5 e calibração contra a meta de corte recalibrada (118,00 pontos líquidos).',
+      'Caderno editorial de estudo com questões autorais e adaptadas de conhecimentos básicos e específicos e casos integradores. A nota líquida segue a regra de um erro anular um acerto; a composição deste caderno é destinada à prática dos conteúdos.',
     questoes: simuladoGeral180Q,
     submodulosIds: [
       '13.1', '13.2', '13.3', '13.4', '12.1', '12.2', '12.3', '12.4', '11.1', '11.2', '11.3', '11.4', '14.1', '14.2', '14.3', '14.4',
@@ -304,11 +305,11 @@ export const SIMULADOS_OFICIAIS_REGISTRY: SimuladoManifest[] = [
     id: 'simulado-oficial-camara-2027',
     macroModuloId: 'OFICIAL2027',
     numero: 17,
-    titulo: 'Simulado Oficial Câmara 2027: Prova Objetiva Integral (180 Itens)',
-    tituloCurto: 'Simulado Oficial 90+90',
+    titulo: 'Simulado integral Câmara 2027: modelo do edital (180 itens)',
+    tituloCurto: 'Simulado integral 90+90',
     subtitulo: '180 Itens C/E: P1 Básicos (90Q) + P2 Específicos (90Q) | Pisos 18/27/54 | 5h00 de Prova',
     descricao:
-      'Simulação oficial integral da Prova Objetiva da Câmara dos Deputados (Edital nº 1/2026, Cargo 5): 90 itens de Conhecimentos Básicos (P1) e 90 itens de Conhecimentos Específicos (P2), com duração de 5h00 (manhã) e avaliação dos 3 pisos eliminatórios do Cebraspe (P1 < 18, P2 < 27 e Total < 54 eliminam).',
+      'Treino com questões autorais e adaptadas segundo a estrutura da prova objetiva da Câmara dos Deputados (Edital nº 1/2026, Cargo 5): 90 itens de Conhecimentos Básicos (P1) e 90 itens de Conhecimentos Específicos (P2), com duração de 5h00 (manhã) e avaliação dos 3 pisos eliminatórios do Cebraspe (P1 < 18, P2 < 27 e Total < 54 eliminam).',
     questoes: simuladoOficialCamara180Q,
     submodulosIds: [
       '13.1', '13.2', '13.3', '13.4', '12.1', '12.2', '12.3', '12.4', '11.1', '11.2', '11.3', '11.4',
@@ -321,8 +322,19 @@ export const SIMULADOS_OFICIAIS_REGISTRY: SimuladoManifest[] = [
   },
 ].map(processarManifest);
 
+export const SIMULADOS_COMPLEMENTARES_REGISTRY: SimuladoManifest[] = [processarManifest({
+  id: 'submodulos-ampliados', macroModuloId: 'COMPLEMENTARES', numero: 18,
+  titulo: 'Questões complementares: dados, metadados, acessibilidade e redação',
+  tituloCurto: 'Complementares · 69 questões',
+  subtitulo: 'Estudo dos submódulos ampliados com feedback por questão',
+  descricao: 'Questões autorais e adaptadas sobre os conteúdos ampliados, com referências e estudo reverso individual.',
+  questoes: questoesSubmodulosAmpliados.map((q, i) => ({ ...q, numero: i + 1 })),
+  submodulosIds: [...new Set(questoesSubmodulosAmpliados.map(q => q.submoduloId))],
+})];
+
 export const ALL_SIMULADOS_REGISTRY: SimuladoManifest[] = [
   ...SIMULADOS_OFICIAIS_REGISTRY,
+  ...SIMULADOS_COMPLEMENTARES_REGISTRY,
   ...SIMULADOS_REGISTRY,
   ...MINI_SIMULADOS_REGISTRY,
   ...SIMULADOS_FASE8_REGISTRY,
@@ -356,6 +368,7 @@ export function getSimuladoById(id: string): SimuladoManifest {
 }
 
 export function detectSimuladoIdFromQuestionId(questionId: string): string {
+  if (questoesSubmodulosAmpliados.some(q => q.id === questionId)) return 'submodulos-ampliados';
   if (questionId.startsWith('oficial-180q-') || questionId.startsWith('camara-2027-')) return 'simulado-oficial-camara-2027';
   if (questionId.startsWith('geral-180q-')) return 'simulado-geral-180q';
   if (questionId.startsWith('mega-q-')) return 'mega-simulado-camara';

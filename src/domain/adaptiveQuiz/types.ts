@@ -22,6 +22,11 @@ export interface ItemSimuladoAdaptativo {
   submoduloId: string;
   topicoNome: string;
   item: string;
+  contexto?: string;
+  versao_errada?: string;
+  gatilho?: string;
+  fonte?: string;
+  dataConferencia?: string;
   gabarito: 'C' | 'E';
   justificativa: string;
   armadilhaBanca: string;

@@ -1,0 +1,782 @@
+[
+  {
+    "id": "bloco-a-1",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "tcuGovernanca"
+    ],
+    "localizador": "governança, gestão, cadeia de valor, liderança, estratégia e controle",
+    "shaAntes": "0db76ba110d2ec694f1a8a6eba100568b57acaa0b5765f53720b71165e982931",
+    "shaDepois": "c41903b94202711cacebc8779f96243d69e1f6a2be287ea165a3d3ea4101cbc4",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-2",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dataOwnership"
+    ],
+    "localizador": "responsabilidades de data owner e data steward; modelo de referência para caso hipotético",
+    "shaAntes": "4ce2bbfe60555a1700ffd97cbfe2ffdd1aabbaf767ed95d63707d08234206ca4",
+    "shaDepois": "7780f8e492059fa3dc7b8278e8f89536bf1711adaaab88365e8eca1e67b8092c",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-3",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dataOwnership"
+    ],
+    "localizador": "responsabilidades de data owner e data steward; modelo de referência para caso hipotético",
+    "shaAntes": "747eb0b1ee0b5363d658edc5081d6ca74b2cb85420c302a4921da3033d4447a4",
+    "shaDepois": "78e9603d71ae8287941b2cc975abb3ff9534ef2250d116ea63c57fe804e54530",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-4",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "prov"
+    ],
+    "localizador": "entidades, atividades, agentes e relações de proveniência",
+    "shaAntes": "152b33900d232aab7dcc4c074ec0ba523fa0e2f72f641f3a175b5818dd57d953",
+    "shaDepois": "d9eb4134ab54567d2f39444c5fe2d4ceb97978eec9e9dad875152f2ef752e096",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-5",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dataOwnership"
+    ],
+    "localizador": "responsabilidades de data owner e data steward; modelo de referência para caso hipotético",
+    "shaAntes": "3fa6158f4a48e4cb923cb8840e6a13061d7c4974b69538a7871d1994ecad9cd1",
+    "shaDepois": "6f8b60c02a9b57d145e102dcf77750e1d347bee973f4dcd018ba448015ef7d65",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-6",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dataOwnership"
+    ],
+    "localizador": "responsabilidades de data owner e data steward; modelo de referência para caso hipotético",
+    "shaAntes": "47aa54d28b629b4eca15b8c3d4c74e6ae89ac917d97bb91bb89475642e2e6572",
+    "shaDepois": "236abbbda726ebe234ccf3b43897dce12514bb7a0cdb84973642d53b6a866306",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-7",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "otlet"
+    ],
+    "localizador": "seção 124: O livro e a medida. Bibliometria",
+    "shaAntes": "54577bd451c15e99527f4ed8515bca19b7c35ff0d59d2c6e2182cfff7b923e3b",
+    "shaDepois": "2f650fbae51ddf18e98552b144aaa61a37f9f573e0d818fcb0cef2e5e5a7756d",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-8",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "processo, conhecimento e coisa; discussão do documento e exemplo de Briet",
+    "shaAntes": "345e1a6d7ff0499434f82ac963c782aa16c317dceec29ce70fede2b8a329faac",
+    "shaDepois": "377334fc3c9f0127af1a598ca8dcc983dbdbc1b26931d723f4ee0611f219e923",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-9",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "capurro"
+    ],
+    "localizador": "paradigmas físico, cognitivo e social",
+    "shaAntes": "8c6fba037fb59cdbf7908e3c934a968fcad9cb2c3dcf91886e7a560628757c08",
+    "shaDepois": "acf4c0a758fc16be6e0c052806a57e5576cdc83aa04dd7745ec5f6f177b937f3",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-10",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "processo, conhecimento e coisa; discussão do documento e exemplo de Briet",
+    "shaAntes": "19a561962d575b637fd9557189c2df411d87310e988b8ea3b9bedaae204f597a",
+    "shaDepois": "ed4ae9b75b0d5fdd478584c041d75ff2bd6a2198a9658227b14ee5609bedec47",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-11",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "deveres profissionais e sigilo, arts. 5º e 9º",
+    "shaAntes": "2ca3458cf8054394ffe12939bc80735aa73a467a733ff2b8bfaf5a293936dc5e",
+    "shaDepois": "b1ea97da2d68b89936617fb9d4fddba7704a9d9a6548ef99a9ca801d136a872f",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-a-12",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "finalidade, princípios, bases e condições de tratamento",
+    "shaAntes": "97b15eab1d132a74afe7cb9263e4f8d2a84784cd9f57ac1b0938bbef220aced4",
+    "shaDepois": "659c9165c9eb359e90c1554502e3197fb5ce06d8c240da70d5a471a994adbaf7",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-1",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "crisp"
+    ],
+    "localizador": "seis fases iterativas; não estabelece uma porcentagem obrigatória universal por fase",
+    "shaAntes": "a954e60042cb6803f4d371820653387612077891b2529964da9bf13c711ee35e",
+    "shaDepois": "06ba8e92d1e331e40b891b6f5d9690b5267676d83f3a5745821b6466d2af051e",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-2",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "capítulos 1–2, 6, 8 e 11: operadores, processamento, ponderação, avaliação e BM25",
+    "shaAntes": "bff7b3be85b3ad2c2209b1b2d697ad452b9d061a4262bdd6294d82223c1b284c",
+    "shaDepois": "d2655a27431b6e6419da6e621c02bbbd663141d30992ce429a33ca6f6af550e3",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-3",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "luhn"
+    ],
+    "localizador": "frequência e distribuição de palavras e medida de significância",
+    "shaAntes": "817456ddc1d1185a6f1ebddc7a0a01ada9482bd84619a5f089888e1559a98403",
+    "shaDepois": "9fdeced20b1640f1e0388992bb0abd139f82b38d9537fcb79b87db3ff5ab6cdc",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-4",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "capítulos 1–2, 6, 8 e 11: operadores, processamento, ponderação, avaliação e BM25",
+    "shaAntes": "7d49fde293a1436ab36343c4ff4c441f43fdf7ff4300e4b653d7b9f1b07344fc",
+    "shaDepois": "c39d771989a64fdd83a00408db295c9210db8409c6d038a232aad0a2d5a21e8a",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-5",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lda"
+    ],
+    "localizador": "modelo generativo probabilístico com tópicos latentes",
+    "shaAntes": "bd924fad1ecd9eccf124f00e8d57db75ce8dbe73e5ba58dee8e3fa552edd3db4",
+    "shaDepois": "0fb61db4961fa934e138b02292cfa6c664101a60e5906adb97e6c0e001fbb9c0",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-6",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "m14fewShot"
+    ],
+    "localizador": "seção específica identificada em cada revisão; documentação e versões indicadas no comentário",
+    "shaAntes": "821bfb794ea962a2695e867728bc17108b96d331dcdb0ae07cc5e00b043e3036",
+    "shaDepois": "77b037ff904f060da7b74d1e9eb8f20396af5c077bde535fea0e5e80103a8b4c",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-7",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rag"
+    ],
+    "localizador": "arquitetura e avaliação; não é garantia de correção de toda resposta",
+    "shaAntes": "a55683e96ec9378c72433691eb124fca3378256c721109c5da12294d512845a9",
+    "shaDepois": "4f3874b14b876cd90bcf81e623accca16dfd2c01df1a071391104171cff1518c",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-8",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cer"
+    ],
+    "localizador": "fórmula (substituições + deleções + inserções) / caracteres de referência",
+    "shaAntes": "ab7596a4a89d964c74f4cc4efb964ab69d19b8b366c9f598e32dd3dbf28cd7a2",
+    "shaDepois": "3d08fcae4f8b15064ccde31cadcb15e3ddc19bada73898198ee2d64752e9b8a1",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-9",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "postgresSelect"
+    ],
+    "localizador": "WHERE, GROUP BY e HAVING",
+    "shaAntes": "263b3f350ee2b8de1117907827386329d491ca5f0b2548e439ca4999bfa4fc2d",
+    "shaDepois": "86e07205d303ae377fccea924eb794399a0643e391a3444ba04fedecd5fe8211",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-10",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cap"
+    ],
+    "localizador": "consistência e disponibilidade na presença de partições; não equivale a proibição de ACID em NoSQL",
+    "shaAntes": "64caae0e42274ee1b522df452c714c9b8d33580618bd1709296242744d1d2ce4",
+    "shaDepois": "99044d9f6804f8a6b426fcd6fd76b0871c7bfa8df027593d430ec9b8939801b8",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-11",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "regexMDN"
+    ],
+    "localizador": "classes de caracteres, quantificadores, âncoras e grupos",
+    "shaAntes": "a1e4697b894269ba1f8c2ff5dbda7b0560a4ca0cff5842e20a9b4d7558587e00",
+    "shaDepois": "d2af16cc5b7b228d864065ccf7c43c53bfc834b8064aeecd7687ec072ce7a4f9",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-b-12",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "assinaturaDigital"
+    ],
+    "localizador": "assinatura e verificação, integridade e autenticação de origem",
+    "shaAntes": "dab2cec44d0b783e7f88f847f815417eb247799f629e830e35dee55fcf3df93c",
+    "shaDepois": "06272abcbd7dcff37ff4ffe91cbda52f8d61ad8ebdcfa5392eb577d638f34a07",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-1",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "c737d0eb0ce81d2d0e26a85f0a4e4d68c85dac625dcf98e4ff2198511b36a852",
+    "shaDepois": "d739a865e7340ff852803521a693727bf5f8a50cee62379b672acb7749ef4943",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-2",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "973050d7eed9f404c65e2b1360bc34efbfc0c14122095818c95b56fdfdedfd98",
+    "shaDepois": "ac0fc9b4378d15775366cd5fed93e34edc89ddb8e7a65f962266a0403586df33",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-3",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "b8185d107a4828486ffb2e75cf9d1de4408c07c9762641ddc0f339365a2ec3fe",
+    "shaDepois": "2ed77fb9b7a3b069fac539ac6a7be9a6bf7ffd9710c81778d93f3f64f4329483",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-4",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "1c11fd082e62729c99a742e9e2cf6cf48776ed2a629308a02da6944440e9535e",
+    "shaDepois": "17b9831736d31a2a0e87bd6771bc7d888b50841c34a7cb71dc8a0824c56b345a",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-5",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "010d8bc4189e92d9bcb0f9ae45fd5dd452384ff26d6c4fd90b8fc46859e5cc45",
+    "shaDepois": "c7dc40a2f0f74f714e499b104efdc15a813b3b7d747d71c87007f96fb4b43346",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-6",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "ricd"
+    ],
+    "localizador": "artigos indicados individualmente",
+    "shaAntes": "d89b62712cd80a66616340520e34d171f4ea8f1b551b3115df80092a67375a8e",
+    "shaDepois": "6cbeeb940b7e13f0cc6ed50a04a98570c37d0bbbd6c278bc3b0a8e1613557077",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-7",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "432a7a0d09c71a9ba707565934b768204e77ef03dd66167a0e1e869f92a88480",
+    "shaDepois": "9b4201876d7dbadfbd8a1a9cce0c87528f5f12689fddb9eacf094e990ae98552",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-8",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "45bdf3d987228145e46acd1da9f8a588574977686d29ff4ced197e83af0dc116",
+    "shaDepois": "e38ad90b80ea9b890663bba1d944257fd30403c251f5cb04f2a6f5fae61d5e44",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-9",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "dispositivos indicados em cada questão; observar o corte do edital",
+    "shaAntes": "1913618fbeb7c15cf86e13140647ce01eed3821e11addabb7ad969503cdf5cd0",
+    "shaDepois": "0aa7437cb8b201ebcd627a9d3532964acfbbbd96366b1aef190acb8d02141f9d",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-10",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "stfSumulasAdmin"
+    ],
+    "localizador": "princípios administrativos; SV 13 e controle de atos",
+    "shaAntes": "39edce7580b1865352e8c6e76b8f8bc1d7446662ca9e5ab4a62cd2a01984d2df",
+    "shaDepois": "4fbe484de343d3eea926c1076c9ca7a66c5a3b5727cbfa5e0092ca2df35ca3f5",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-11",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "provimento, movimentação, responsabilidade e processo disciplinar",
+    "shaAntes": "8fb4be501ac8018b8a585c49b864137d9d97df304f19f8f65a48be6e8a67d0ed",
+    "shaDepois": "573c346de9237a615495e2f3e9b692974009ac415453b4c47737ebaa26176175",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-c-12",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "publicidade, transparência, pedidos, restrições e classificação",
+    "shaAntes": "6d82091a262c88c8143c3a3e11ddebe96f50d5cc76fce50491db8961172eba1b",
+    "shaDepois": "b82bd36811ac4def658c1f3c1b77f05375b7ed438101b98bbb7a5b836dab2519",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-1",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lrm"
+    ],
+    "localizador": "3: tarefas; 4: entidades e relações; 5.7: agregados",
+    "shaAntes": "358a8f87218cf7893974d7ebd5712ea7d4fa1954da9cb8f461b7170d2b64dc97",
+    "shaDepois": "75640756bc500f94c95aae791b269455de1b8770abc68319eeefb5b3f0b7314c",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-2",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rdaBrochura"
+    ],
+    "localizador": "fundamentos do desenvolvimento do RDA original; contexto histórico, não descrição completa do RDA atual",
+    "shaAntes": "ab90d36082b8457477e14820339e15e547e9fbb705f50aaf08a6942ed2ae1524",
+    "shaDepois": "343dae514089df09f6be45854de889565fc01c43a59b8809a5d1641ae3bd2afb",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-3",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "Bibliographic e Authority: formatos; OCLC é organização cooperativa, não formato",
+    "shaAntes": "291d64975a39afc8fdaf6e71ed63cbc4fab798260a0288b0b6a807a0e9849753",
+    "shaDepois": "3a38437ebc0c1a15e9d75d6975db351678a444b218cdda73059bf1e9a7e18483",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-4",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "Bibliographic e Authority: formatos; OCLC é organização cooperativa, não formato",
+    "shaAntes": "0b92591fa44221a5fec95df82d99529032fa4236901e61795dcaf2f69f2f308e",
+    "shaDepois": "d1e859c2dbc72f95d020a3bb917f1c29698be5fb4a681ddf155b91ca5c45a4b4",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-5",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibframe"
+    ],
+    "localizador": "Work, Instance e Item; distinção de níveis",
+    "shaAntes": "d238d96e0f88ab2bc86590354aba7e8e5c452e8a064009210971b06f56bba8c0",
+    "shaDepois": "037d829f0850bf79620d1143090a16af6da6d989406d174fe0fa05e057ee4689",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-6",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "15 elementos e respectivas definições",
+    "shaAntes": "144a838831c0f6faaa33d985482a6fad71e24b73145912d83de55f80da9e525c",
+    "shaDepois": "0e7e8016c9e6f28c73612756b843d5c1e053362775caa4bf7350ea0862dfeba5",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-7",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "cdu"
+    ],
+    "localizador": "seções 2–4: classes, auxiliares e sinais; distinguir regras gerais e política local",
+    "shaAntes": "c41cfd584012c934624be98a8ed5db1dd472ee51aa67fae95b0cb2182b30144d",
+    "shaDepois": "b6e118a4860755ec468a8e33bf21d65c90ba2a9982734db3b18b24eb7fcc6cc3",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-8",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "oclc"
+    ],
+    "localizador": "seções 4 (estrutura), 5 (classificação), 7 (notas e tabelas), 8 (construção de números)",
+    "shaAntes": "23e7de1b8beb902344403427f8d800f6f85ffd3d4262247994c97a913d20bb16",
+    "shaDepois": "8c002a79beb5d311ed83d5f622c72e041a440f29da2404ce205fa63bb0ac92ac",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-9",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lancaster"
+    ],
+    "localizador": "capítulos 1–9: análise conceitual, tradução, coerência, qualidade e resumos",
+    "shaAntes": "b81f3dc663c3766c298c7868c6a980f991d7ae3696acb0d0649ae3aa28bddfb1",
+    "shaDepois": "917b62e5e6ef6aac9c57f7322c75901ca4926633d1168aa7c93e29d59083f515",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-10",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lancaster"
+    ],
+    "localizador": "capítulos 1–9: análise conceitual, tradução, coerência, qualidade e resumos",
+    "shaAntes": "c120f3a95128d1a2539c0921d33b07c027d17988f9977dfbd5d146d289b1c167",
+    "shaDepois": "3d3423dd9a66dd6b18533efe46c799e6b6e803b6114c6e3d1e4eca35a0579288",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-11",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "lei9610"
+    ],
+    "localizador": "reprodução, utilização e limitações aos direitos autorais",
+    "shaAntes": "f4346371a4cb25f0816e9dfcf0a7dba178b1b628f4fe939c53880006bd2b88a5",
+    "shaDepois": "5e96edf214d56be84b16cf3fffeef0dffa6608f43e2d360a4efeba16c4c40af3",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-d-12",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "marraqueche"
+    ],
+    "localizador": "arts. 2º–4º do tratado: beneficiários, entidades autorizadas e formatos acessíveis",
+    "shaAntes": "ecc9fc290fded08ea04933fb348d9e7d33e82ff12aded91189a5c96eaa190301",
+    "shaDepois": "26d7d6a9a303362ee993ee167de9c979fdee305639131d5b3a19499e170ce713",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-1",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "usuarios"
+    ],
+    "localizador": "necessidades, modelos e métodos de estudo de usuários",
+    "shaAntes": "bb9acdfacf23675bbe0dea3eaafb50f38d51a1582e685935576d883c450b9e43",
+    "shaDepois": "feb961e0ddc415839e984f0d0963fb4570c7ea46172abec61c4009aa177dede9",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-2",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "kuhlthau"
+    ],
+    "localizador": "estágios, pensamentos, sentimentos e ações",
+    "shaAntes": "62d4e226f6e9edb1370f5a2a9bab6b34bb7b45de23ffeeb5061ca6bd60728a1c",
+    "shaDepois": "2d25aca743e3106f06d2ee4ebd8c93eb734d576eecb2f21eefb0ef5cd0aaa460",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-3",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "processo de referência, pp. 50–56: oito passos, retornos e avaliação conjunta",
+    "shaAntes": "0232a45b505b7c1130a5626fe8cd1953c2f864dd7c10d76ca41b4e672eea06a2",
+    "shaDepois": "fa383b697b0fbfee040df21984df2fb270539d14979056b2b6e72d638e34a6cf",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-4",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "processo de referência, pp. 50–56: oito passos, retornos e avaliação conjunta",
+    "shaAntes": "c1eb6174741cf8177918777a0a4bb23d375608df9902492b88391add4bb3fe02",
+    "shaDepois": "88bf85be8a79222da5c7498d33337f2189910b7c59b2f0f051c430df8a215347",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-5",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "modelo de Evans, política, seleção, aquisição, avaliação e desbastamento",
+    "shaAntes": "f52f499c97766a87cf7c130f9561f1a3b255c4fc7de8fcfb107da316122f4b70",
+    "shaDepois": "fa1a7b9bb20b980bb132c8c003862106431cf974a95334b5254777266dd12542",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-6",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "vergueiro"
+    ],
+    "localizador": "modelo de Evans, política, seleção, aquisição, avaliação e desbastamento",
+    "shaAntes": "6633283dc765c887a4d4fab7946a3612dde8974a9b5bc512ba845eff9ad4395b",
+    "shaDepois": "541ed2a1dfb9e34d07a885a8b9dd2134df94866370acef2cbfcf49c1e9aab2b5",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-7",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "counter"
+    ],
+    "localizador": "métricas, contagem, processamento e escolha da unidade de uso",
+    "shaAntes": "8ef9f208e992b9a740412dab23067c4bfad1706ea0eeb77a7bf35563f786faa4",
+    "shaDepois": "c49f0960a25894dbbfe9c4f5f79ad4809f1a3ec1b089525e00fc72e92405d656",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-8",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "responsabilidades de preservação e funções; edição de 2024",
+    "shaAntes": "5d5d6508fe60ee01cd8643dcc8ef796caf953dbf807873ad80fb4a9b6ac017dc",
+    "shaDepois": "af26bcc789b542d0b906266e5cf4ad573d32bab630e80d1dce4f9bd7c283abc7",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-9",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "responsabilidades de preservação e funções; edição de 2024",
+    "shaAntes": "ea2095102301723bf6b4a6254b344927070430869ddf900ba6abc46ab06c8920",
+    "shaDepois": "09287ebe01db765f0180d5b8afc2e1eedaf450393b7cc2b689e24e6fb8cd97d5",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-10",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "premis"
+    ],
+    "localizador": "modelo de dados; Object, Event, Agent e Rights; categorias de objetos",
+    "shaAntes": "1199b47926f11b3170904e47a1c3b8ffaa942fc6436db470b27826f7549d6b1e",
+    "shaDepois": "1681b0c51cd214e67154804030eb3088fa13cbe9d61a409ede59e36212cc4505",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-11",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "oaipmh"
+    ],
+    "localizador": "3.4: metadataPrefix e suporte ao Dublin Core não qualificado",
+    "shaAntes": "bad8fea3fa08b1803f97bd8f9403c7047cf0f3fedecef5f15110790a4f528650",
+    "shaDepois": "d85cf7628f6a2eb02d8f3b49274750b8eabb8bd4ff936cfe93f021bfd44abd8e",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  },
+  {
+    "id": "bloco-e-12",
+    "caminho": "src/domain/folhaVespera/pegadinhasBlocos.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "coordenação, cooperação e catálogo coletivo",
+    "shaAntes": "642843c019c00220cb6144ba1777ce84a84dff726a9f5dd9300446964bac54c9",
+    "shaDepois": "f568c001f9229372c79834441fe32906ab01c75b20a586bce4a99c4247703462",
+    "nota": "Leitura individual e revisão de conceito, julgamento editorial, fundamento, contraste e referência. Exercício autoral de véspera, sem certificar origem em prova."
+  }
+]

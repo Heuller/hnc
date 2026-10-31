@@ -104,13 +104,13 @@ describe('Validação da Fase E3: Engenharia Reversa de Provas e Armadilhas Cebr
       const matriz = obterEngenhariaModulo(id);
       expect(matriz).toBeDefined();
       expect(matriz!.pesoConcurso).toBe('CRITICA');
-      expect(matriz!.diretrizesElaboracaoSimulado100Q.proporcaoCertos).toBe(50);
-      expect(matriz!.diretrizesElaboracaoSimulado100Q.proporcaoErrados).toBe(50);
-      expect(matriz!.diretrizesElaboracaoSimulado100Q.distribuicaoPorSubmodulo).toBe(25);
+      expect(matriz!.criterioPriorizacao).toBe('editorial-sem-estimativa-estatistica');
+      expect(matriz!.diretrizesElaboracaoSimulado100Q.cobertura).toBe('conforme-edital-e-necessidades');
+      expect('frequenciaHistoricaPorcentagem' in matriz!).toBe(false);
     });
   });
 
-  describe('Metodologia de Simetria Estrita Cebraspe (50% C / 50% E)', () => {
+  describe('Contagem descritiva de gabaritos (sem cota de elaboração)', () => {
     it('deve validar positivamente blocos rigorosamente simétricos', () => {
       const blocoSimetrico = [
         ...Array(50).fill({ gabarito: 'C' as const }),

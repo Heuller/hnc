@@ -1,12 +1,12 @@
 {
-  "numTotalTestSuites": 394,
-  "numPassedTestSuites": 394,
+  "numTotalTestSuites": 396,
+  "numPassedTestSuites": 396,
   "numFailedTestSuites": 0,
-  "numTotalTests": 977,
-  "numPassedTests": 977,
+  "numTotalTests": 990,
+  "numPassedTests": 990,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 125,
-  "source": "vitest run: execução integral local — simulados e estudo reverso de 30/10/2026"
+  "testFiles": 126,
+  "source": "vitest run: revisão individual concluída — 2.179 questões e 60 exercícios de véspera, validado em 31/10/2026"
 }

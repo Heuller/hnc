@@ -58,7 +58,7 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
     fireEvent.click(btnCerto);
 
     expect(screen.getByText(/Gabarito:/i)).not.toBeNull();
-    expect(screen.getByText(/Justificativa e Fundamentação Técnica/i)).not.toBeNull();
+    expect(screen.getByRole('region', { name: 'Estudo reverso do item' })).not.toBeNull();
     expect(screen.getByRole('button', { name: /Próximo/i }).hasAttribute('disabled')).toBe(false);
   });
 

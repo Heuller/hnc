@@ -1,0 +1,2350 @@
+[
+  {
+    "id": "fund-q-1",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "borko",
+      "cad"
+    ],
+    "localizador": "definição de Information Science, 1968",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0eacf5baae42dac8794f83234a8e4f34686c8c85746979d76a83fc2faf07c9a8",
+    "shaDepois": "a80371ffdee4bae699b8ca33a34d6a64ab826ae1ef342bede5d35641081e5b34",
+    "patch": {
+      "justificativa": "ERRADO. A formulação citada é a definição de ciência da informação de Borko. Biblioteconomia e ciência da informação se relacionam, mas isso não autoriza trocar o nome da área em uma definição atribuída. A distinção é histórica e conceitual; não significa que o bibliotecário não possa pesquisar fluxos de informação.",
+      "gatilho": "biblioteconomia",
+      "armadilhaBanca": "Distinguir relações entre áreas e autoria de uma definição.",
+      "fonte": "BORKO, Harold. Information Science: What is it? American Documentation, 1968 — definição de Information Science, 1968 — https://doi.org/10.1002/asi.5090190103",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A formulação de Borko citada no item se refere à ciência da informação.",
+      "item": "Denomina-se biblioteconomia a área do conhecimento que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+        "ano": 2012,
+        "orgao": "CAPES",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-2711384",
+        "declaracaoLegada": "Cebraspe / CAPES / 2012 (Adaptada); identificador legado: TecConcursos-2711384"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-2",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "origens e recuperação da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "918b280eb301143962aac9402b5ad244fc8f7976be2d68b67da73b145cc3a909",
+    "shaDepois": "78dea4553a6aea46d3b043269cd0ee23b2672f3e7ba88c2875aa6b3d703a5c0f",
+    "patch": {
+      "justificativa": "CERTO. Mooers empregou information retrieval em 1950, em um contexto de organização e acesso à informação. Recuperação tornou-se uma preocupação importante da área, mas não explica sozinha sua formação. Diferencie esse marco da teoria matemática de Shannon e da documentação de Otlet.",
+      "gatilho": "Calvin Mooers",
+      "armadilhaBanca": "Não confundir marcos e problemas de tradições relacionadas.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — origens e recuperação da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O termo information retrieval foi criado por Shannon para designar exclusivamente transmissão elétrica de sinais.",
+      "item": "O conceito de recuperação da informação (information retrieval), cunhado na década de 1950 por Calvin Mooers, foi um dos sustentáculos conceituais e tecnológicos para o surgimento da ciência da informação.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-3",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "otlet"
+    ],
+    "localizador": "Traité de Documentation, 1934",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5bcd6da6a7ad1d38c36b40bfd7b608556913c9e6b9ee6e3a9e2c5f5f351cebf1",
+    "shaDepois": "8e7d2e4333091c48dbcd43eb2ae6cea37d763cac18ebe1bb921307fb0640ca9d",
+    "patch": {
+      "justificativa": "CERTO. O tratado amplia a discussão para técnicas e formas documentais além do livro tradicional. É um marco de documentação e organização do conhecimento, anterior à consolidação institucional da ciência da informação. Não se deve apresentá-lo como manual de informática nem como produto surgido após a Internet.",
+      "gatilho": "1934 por Paul Otlet",
+      "armadilhaBanca": "Distinguir uma proposta documental histórica e tecnologias que surgiram depois.",
+      "fonte": "OTLET, Paul. Tratado de documentação, 1934 — Traité de Documentation, 1934. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O tratado de Otlet foi publicado depois da Internet e limitava documentação a bancos de dados eletrônicos.",
+      "item": "O Tratado de Documentação (Traité de Documentation), publicado em 1934 por Paul Otlet, é considerado um dos marcos precursores dos estudos informacionais ao defender a universalização do conhecimento e o tratamento de múltiplos suportes documentais.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-4",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic",
+      "cad"
+    ],
+    "localizador": "biblioteconomia e relações com o uso da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6b1388ac64af2d2b825e0ac2e51ae7feca1e3e707eb88bc690779310f4c802e2",
+    "shaDepois": "53419cfb31eab766ce49bf2923625627b7f763ad4b62b381aeab8eca34a4a90e",
+    "patch": {
+      "item": "A biblioteconomia se limita à administração material e financeira de acervos, sem relação com usuários, serviços e uso da informação.",
+      "justificativa": "ERRADO. A biblioteconomia inclui organização e gestão de bibliotecas, mas também serviços e condições de uso. Reduzi-la a suporte e administração apaga sua dimensão de atendimento. A antiga redação atribuía uma divisão rígida entre biblioteconomia dos livros e dos leitores sem demonstrar a formulação no autor.",
+      "gatilho": "sem relação com usuários",
+      "armadilhaBanca": "Não transformar uma ênfase técnica em exclusão dos usuários.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — biblioteconomia e relações com o uso da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A biblioteconomia articula organização, gestão e serviços voltados ao uso dos recursos informacionais.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "AAD (UNEAL)/UNEAL/Biblioteconomia/2026",
+        "ano": 2026,
+        "orgao": "UNEAL",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-4145121",
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026 (Adaptada); identificador legado: TecConcursos-4145121"
+      },
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-5",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bush"
+    ],
+    "localizador": "Memex e trilhas associativas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c1aee76ce06464c68cae75f107c00e00a1c4c6faf5722424e2763769e5e9dc5d",
+    "shaDepois": "112fd35c71458658cad91c59a0db938226a991fa96e23bd149aa56575bb1fd6c",
+    "patch": {
+      "justificativa": "CERTO. Bush descreveu uma proposta de dispositivo para registrar e percorrer relações associativas entre documentos. Ela antecipou ideias importantes para a história do hipertexto, mas Memex não foi a Web nem um sistema digital implantado na forma imaginada. A influência conceitual não deve ser confundida com identidade tecnológica.",
+      "gatilho": "idealização do dispositivo Memex",
+      "armadilhaBanca": "Distinguir antecipação conceitual e tecnologia efetivamente implementada.",
+      "fonte": "BUSH, Vannevar. As We May Think. 1945 — Memex e trilhas associativas — https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O Memex de 1945 já era uma implementação operacional da World Wide Web com endereços HTTP.",
+      "item": "O ensaio As We May Think, publicado por Vannevar Bush em 1945, antecipou conceitualmente a navegação hipertextual e os sistemas de recuperação por meio da idealização do dispositivo Memex.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-6",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "borko"
+    ],
+    "localizador": "interdisciplinaridade da ciência da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5f1b6632651184bb9b75c5d5630860334e202b36a36b23d24b601c11aadae610",
+    "shaDepois": "9fe8b2e81885c52481e6b632ea8c7004c955c9a82603012aaefa17059d209a67",
+    "patch": {
+      "justificativa": "ERRADO. A ciência da informação dialoga com campos como computação, linguística, psicologia e comunicação. O estudo de representações, usos e sistemas não fica restrito a uma metodologia única. Isso também não significa ausência de problemas próprios ou que todas as disciplinas se tornem equivalentes.",
+      "gatilho": "autonomia unidisciplinar",
+      "armadilhaBanca": "Interdisciplinaridade não equivale a isolamento nem a ausência de identidade.",
+      "fonte": "BORKO, Harold. Information Science: What is it? American Documentation, 1968 — interdisciplinaridade da ciência da informação — https://doi.org/10.1002/asi.5090190103",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A ciência da informação tem relações interdisciplinares sem perder a possibilidade de formular problemas próprios.",
+      "item": "A ciência da informação caracteriza-se por sua estrita autonomia unidisciplinar, não estabelecendo diálogos teóricos ou metodológicos com a linguística ou com a ciência da computação.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-7",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "história dos registros e comunicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "04fe5303c1b60e631ee6eaf84912fae9686555235e5f1f97c6c083234f596d22",
+    "shaDepois": "65cbfc8841da39d5ff238784e021f228a06575c8654a6be920cd8c346af0f481",
+    "patch": {
+      "justificativa": "ERRADO. A imprensa alterou as condições de reprodução e circulação dos textos. Não foi apenas uma mudança de classificação temática que deixou a difusão igual. Seu impacto ocorreu em processos históricos e sociais, e não por uma transformação instantânea e idêntica em todas as comunidades.",
+      "gatilho": "mantendo inalterada",
+      "armadilhaBanca": "Não deslocar uma mudança de reprodução e circulação para uma função restrita de indexação.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — história dos registros e comunicação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A imprensa modificou a produção e circulação dos textos, com efeitos históricos sobre o acesso à informação.",
+      "item": "A invenção da imprensa de tipos móveis no século XV revolucionou precipuamente a representação temática da informação, mantendo inalterada a sua velocidade e capacidade de difusão social.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-8",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "bibliotecas e função social",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9155167f8d17140485f4b8d392f39c98dae07c24a1b49bd9c9ba9e8260ee453e",
+    "shaDepois": "b1697d9d9ad1efab1deb59100729d5608937084a693e1264d5ff2856fd7d5459",
+    "patch": {
+      "justificativa": "CERTO. Abordagens funcionalistas destacam serviços e funções sociais, em contraste com uma ênfase exclusiva na guarda patrimonial. Essa leitura não exige afirmar que toda biblioteca anterior fosse inútil ou que preservação e acesso sejam incompatíveis. A organização deve considerar para quem e para que o acervo existe.",
+      "gatilho": "caráter social, educativo e democrático",
+      "armadilhaBanca": "Distinguir crítica à guarda como fim exclusivo e rejeição da preservação.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — bibliotecas e função social. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Reconhecer função social da biblioteca exige abandonar toda preservação de seu acervo.",
+      "item": "A perspectiva funcionalista conferiu às bibliotecas um caráter social, educativo e democrático, contrapondo-se à postura histórica puramente patrimonialista e custodial.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-9",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "otlet"
+    ],
+    "localizador": "princípio monográfico",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "57f6ef91ccdfbe54d4270657ea3274eb1566059f203ed6a523d24621c1d69c11",
+    "shaDepois": "c26fbca500c6d0eaa09198b95967d73f9e44712fe7a4b7adce36ce058d9f44cf",
+    "patch": {
+      "justificativa": "ERRADO. O princípio monográfico favorece analisar e organizar unidades de informação para combinações e acessos além da sequência do volume. Não declara o tomo encadernado a unidade intelectual indivisível. Essa ideia não autoriza destruir documentos físicos: unidade de análise e conservação do objeto são questões diferentes.",
+      "gatilho": "unidade indivisível",
+      "armadilhaBanca": "Separar análise intelectual do conteúdo e preservação material do documento.",
+      "fonte": "OTLET, Paul. Tratado de documentação, 1934 — princípio monográfico. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O princípio monográfico permite tratar unidades informacionais e suas relações sem considerar o volume uma unidade intelectual indivisível.",
+      "item": "O princípio monográfico formulado por Paul Otlet estabelece que a preservação e a catalogação dos documentos devem priorizar a integridade do suporte encadernado, de modo que cada tomo constitua a unidade indivisível de análise informacional.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-10",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "bibliografia e formação das práticas documentais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "74b9a05485207bf05afd9b224a2b4ce3472948e5fb3d9e498ff75b737d04f4fe",
+    "shaDepois": "f68271b496579e022eceb6130aa332f8e3a89cfa92f8aa726d759bbf0a0d180d",
+    "patch": {
+      "justificativa": "CERTO. Bibliografias identificam e descrevem conjuntos de documentos para fins de controle e acesso. Podem ser organizadas por tema, autor, lugar ou período, entre outros recortes. Sua contribuição histórica não torna bibliografia, catálogo e biblioteca a mesma coisa: um catálogo relaciona-se a uma coleção ou serviço definido.",
+      "gatilho": "identificação e descrição",
+      "armadilhaBanca": "Distinguir identificação de um conjunto bibliográfico e representação de uma coleção.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — bibliografia e formação das práticas documentais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Bibliografia e catálogo são sempre o mesmo instrumento, com o mesmo recorte de coleção e finalidade.",
+      "item": "A bibliografia constituiu-se historicamente como disciplina e técnica de identificação e descrição de repertórios de obras, servindo de alicerce para as práticas da biblioteconomia e da documentação.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-11",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "controle bibliográfico e acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ce1eca3d765869afe256c71ab2c582a75fd73b44a96f77a934647cf2035a35a5",
+    "shaDepois": "58a9496bebf60a05a07b88cd576ef83d854a6a8f46c4c9c688c67ea1f4dc44bf",
+    "patch": {
+      "justificativa": "ERRADO. A Internet amplia meios de descoberta, mas não garante identificação sistemática e preservada da produção editorial nacional. Bibliografias nacionais apoiam controle bibliográfico e podem existir em meios digitais. Mudar de suporte ou interface não elimina automaticamente a função do instrumento.",
+      "gatilho": "desnecessário e obsoleto",
+      "armadilhaBanca": "Não confundir mudança de meio e desaparecimento da função.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — controle bibliográfico e acesso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Bibliografias nacionais podem ser produzidas digitalmente e continuam apoiando identificação e controle da produção editorial.",
+      "item": "O advento da Internet e dos catálogos em linha tornou a elaboração e a manutenção de bibliografias nacionais um processo tecnicamente desnecessário e obsoleto para as bibliotecas nacionais.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-12",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "otlet"
+    ],
+    "localizador": "IIB e Repertório Bibliográfico Universal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c28656b60f886718fd76742e3f13e76491a3d5475cb4f4f2de424850e7bcfd0a",
+    "shaDepois": "86cdd549ab36ce91bbfc973bca98e42675ba024723152553ad466d5c1fb6aa88",
+    "patch": {
+      "justificativa": "CERTO. O IIB e o projeto do repertório universal se associam à cooperação bibliográfica internacional de Otlet e La Fontaine. A ambição era registrar amplamente a produção, não afirmar que toda ela foi efetivamente coberta. Objetivo universal e completude histórica comprovada são afirmações diferentes.",
+      "gatilho": "1895 por Paul Otlet e Henri La Fontaine",
+      "armadilhaBanca": "Não converter objetivo de um empreendimento em comprovação de cobertura completa.",
+      "fonte": "OTLET, Paul. Tratado de documentação, 1934 — IIB e Repertório Bibliográfico Universal. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O projeto de um repertório universal comprova que toda produção escrita da humanidade foi efetivamente registrada sem lacunas.",
+      "item": "Criado em 1895 por Paul Otlet e Henri La Fontaine, o Instituto Internacional de Bibliografia tinha como um de seus objetivos a criação de um Repertório Bibliográfico Universal que registrasse toda a produção escrita da humanidade.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-13",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "borko"
+    ],
+    "localizador": "escopo e relações da ciência da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7e123ca20a42a5cc39e380aa60faeed518ef22e0a4fcf1b3b860e9dbf04f2055",
+    "shaDepois": "39190bf0857e8163c78e28583e7735baf6d654f71a108abb3f3a3801d9c5b9e2",
+    "patch": {
+      "justificativa": "ERRADO. Sistemas e tecnologias são parte do campo, mas seus problemas também envolvem organização, interpretação e uso da informação. Excluir dimensões sociais e cognitivas impede compreender por que o mesmo sistema atende pessoas e situações de modo diferente. Computação e ciência da informação não são termos idênticos.",
+      "gatilho": "desprovida de dimensões sociológicas",
+      "armadilhaBanca": "Não reduzir o campo ao equipamento que participa de suas práticas.",
+      "fonte": "BORKO, Harold. Information Science: What is it? American Documentation, 1968 — escopo e relações da ciência da informação — https://doi.org/10.1002/asi.5090190103",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A ciência da informação abrange problemas tecnológicos e questões de representação, interpretação e uso.",
+      "item": "A ciência da informação limita seu campo de aplicação ao estudo de hardwares e redes de telecomunicação, sendo desprovida de dimensões sociológicas, cognitivas ou políticas.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-14",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "dimensões de organização e comunicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "eff8574d2b0ab9325e2c5d5526f48ce9deb5368e27f42a67904232aa9ebd82e2",
+    "shaDepois": "3d02afd4ef19a0279bb8c62a96037158a144493dd2bdc4eef48fe2042c5f970e",
+    "patch": {
+      "item": "Na análise de uma biblioteca, podem ser considerados aspectos materiais, organizacionais e comunicacionais, sem reduzir suas funções a uma lista universal fechada.",
+      "justificativa": "CERTO. Analisar suportes, organização e comunicação ajuda a compreender atividades da biblioteca. Essa é uma decomposição didática, não uma lista universal fechada atribuída a toda teoria. Um mesmo serviço, como acesso a coleção digital, pode envolver os três aspectos ao mesmo tempo.",
+      "gatilho": "podem ser considerados",
+      "armadilhaBanca": "Uma distinção analítica não exige separar rigidamente as atividades.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — dimensões de organização e comunicação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Suporte, organização e comunicação são funções mutuamente exclusivas, de modo que um serviço não pode envolver mais de uma.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-15",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "owl"
+    ],
+    "localizador": "representação de conceitos e relações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a87aa99f3910213bb3ad6671a97444777bcc6a13f026e5c36b4d4cd16be7cdee",
+    "shaDepois": "b6d457d4f05c4967c26e96d9fc0231da18187461025c721e055113ff4152d2fb",
+    "patch": {
+      "justificativa": "CERTO. Instrumentos de organização do conhecimento podem apoiar representação, recuperação e integração de dados usados por aplicações de IA. Isso não garante que um modelo produza respostas verdadeiras nem que uma taxonomia resolva toda ambiguidade. É necessário avaliar fontes, modelos e resultados no contexto da aplicação.",
+      "gatilho": "taxonomia, classificação, ontologias",
+      "armadilhaBanca": "Distinguir contribuição de uma estrutura de conhecimento e garantia de correção da aplicação.",
+      "fonte": "W3C — OWL 2 Web Ontology Language Primer — representação de conceitos e relações — https://www.w3.org/TR/owl2-primer/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Usar uma taxonomia ou ontologia garante que qualquer sistema generativo deixará de produzir respostas falsas.",
+      "item": "A biblioteconomia contribui para o desenvolvimento da inteligência artificial e de sistemas generativos por meio de seus instrumentos de taxonomia, classificação, ontologias e indexação estruturada.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-16",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "otlet"
+    ],
+    "localizador": "história da documentação e continuidade de estudos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c5cd0340c6c6fe8990a3739bd6e86be70582ecd5f1e2e2ac2e49e07b05571951",
+    "shaDepois": "594f543f67b975d532a9e190ba9e059722e09cc1a01f3ef754ee482cc689bd4c",
+    "patch": {
+      "justificativa": "ERRADO. A documentação e as propostas de Otlet são anteriores ao livro de Briet de 1951. Briet desenvolve a discussão do que pode funcionar como documento, sem que isso a torne criadora do vocábulo naquele ano. Um marco de ampliação conceitual não é necessariamente a origem de todo o campo.",
+      "gatilho": "criado por Suzanne Briet em 1951",
+      "armadilhaBanca": "Não confundir contribuição conceitual e invenção de um termo ou disciplina.",
+      "fonte": "OTLET, Paul. Tratado de documentação, 1934 — história da documentação e continuidade de estudos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Briet ampliou a discussão de documento em 1951, em uma tradição documental anterior que inclui Otlet.",
+      "item": "O vocábulo documentação foi criado por Suzanne Briet em 1951, que rejeitou expressamente as ideias anteriormente preconizadas por Paul Otlet no século XIX.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-17",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "legislação, jurisprudência e doutrina",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0e96df9a3a05c513795fdbeb37c40fae0c6bc2a2dc820fe7d76731a9754c221a",
+    "shaDepois": "1421d15e4af5a335f22e8a50f3ecf3845ea2390c266c371d79013980c446a7a5",
+    "patch": {
+      "justificativa": "CERTO. Legislação se relaciona a atos normativos; jurisprudência, a decisões e entendimentos judiciais; doutrina, a estudos e interpretações. A classificação documental não torna toda decisão precedente vinculante nem toda opinião de jurista norma obrigatória. Origem, vigência e alcance precisam ser verificados conforme o pedido.",
+      "gatilho": "legislação",
+      "armadilhaBanca": "Separar categoria de informação e efeitos jurídicos.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — legislação, jurisprudência e doutrina — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda decisão judicial e toda obra doutrinária têm automaticamente a mesma força normativa de uma lei.",
+      "item": "A informação jurídica compreende três categorias fundamentais: a legislação (normas positivadas), a jurisprudência (decisões judiciais reiteradas) e a doutrina (estudos e interpretações científicas do direito).",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-18",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "tipos documentais: legislação e jurisprudência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "128eec68a795ef7e3ebd693876d7aba6653755f9fd873a9f87d8cd111b4be758",
+    "shaDepois": "867241146c0b317be427eac52b989be2777a776e714c84c6ab93d13f3226e7e9",
+    "patch": {
+      "justificativa": "ERRADO. Acórdãos e súmulas pertencem ao universo jurisprudencial, não se tornam leis ordinárias ou complementares. Um acórdão oficial pode ser fonte primária para a própria decisão judicial, mas isso é diferente de classificá-lo como fonte legislativa. Distinguir o eixo da classificação evita uma falsa equivalência.",
+      "gatilho": "informação legislativa",
+      "armadilhaBanca": "Tipo documental e classificação como fonte primária são distinções diferentes.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — tipos documentais: legislação e jurisprudência — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Acórdãos são documentos judiciais; sua condição de fonte para jurisprudência não os transforma em atos legislativos.",
+      "item": "No âmbito dos sistemas de informação legislativa, os acórdãos e súmulas dos tribunais superiores são classificados como fontes primárias de informação legislativa, ao lado das leis ordinárias e complementares.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-19",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ir"
+    ],
+    "localizador": "8: revocação e silêncio",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ae8239845f41db4ce42253890a915c8aa44ef3c3994451ac7cb8205f0d610efc",
+    "shaDepois": "d4336af44903de0b9758e76819c2e9b3ca29813043529cacb0d77c68f3351c56",
+    "patch": {
+      "justificativa": "ERRADO. Silêncio corresponde a relevantes não recuperados; adotá-lo como objetivo exclui justamente o acesso que se pretende viabilizar. A estratégia deve considerar pertinência, cobertura e necessidade do usuário. Nem recuperar tudo sem critério nem suprimir todos os relevantes é uma política adequada por definição.",
+      "gatilho": "silêncio documental absoluto",
+      "armadilhaBanca": "Não transformar uma falha de recuperação em finalidade do serviço.",
+      "fonte": "MANNING, RAGHAVAN e SCHÜTZE. Introduction to Information Retrieval. 2008 — 8: revocação e silêncio — https://nlp.stanford.edu/IR-book/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma estratégia de recuperação deve buscar resultados pertinentes e cobertura adequada à necessidade, avaliando precisão e revocação.",
+      "item": "Bibliotecas universitárias e centros de documentação parlamentar compartilham a premissa de que a recuperação da informação deve privilegiar o silêncio documental absoluto em detrimento de qualquer revocação.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-20",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "formação histórica da ciência da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "88febb9e52924f97b673ac86b951e9ac7c0bdfcc66afb3b310626f806ed92f30",
+    "shaDepois": "4a92ed2200e6cc5c33d1006d415283ad006fa069886346d96316c42befe3acaa",
+    "patch": {
+      "justificativa": "ERRADO. A formação do campo envolve recuperação, documentação, comunicação científica e contextos tecnológicos e sociais. Não se explica como uma evolução linear de uma modalidade de biblioteca. Uma relação com biblioteconomia não autoriza reduzir a história inteira a práticas de leitura escolar.",
+      "gatilho": "evolução linear da biblioteconomia escolar",
+      "armadilhaBanca": "Distinguir relação histórica e explicação monocausal.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — formação histórica da ciência da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A ciência da informação se formou por relações entre diferentes tradições e problemas informacionais, sem uma origem linear exclusiva na biblioteca escolar.",
+      "item": "A Ciência da Informação surgiu na década de 1960 como uma evolução linear da biblioteconomia escolar, voltada a aprimorar as práticas pedagógicas de leitura nas redes de ensino fundamental.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-21",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "otlet"
+    ],
+    "localizador": "cooperação e projeto internacionalista",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7c397db8aa495d1ae188d1438ede1cd58c943aa43c2afa48af0d73d991a81304",
+    "shaDepois": "a1182911e09cffcccbf96a4bd899d2a909ca6a7a2344e2f6b1f8449b30839b4a",
+    "patch": {
+      "justificativa": "CERTO. A circulação organizada do conhecimento integra o projeto internacionalista associado a Otlet e La Fontaine. É uma finalidade histórica e política, não uma prova de que informação compartilhada produza automaticamente paz. A tecnologia e a documentação dependem também de condições sociais e institucionais.",
+      "gatilho": "cooperação internacional e a paz",
+      "armadilhaBanca": "Uma finalidade normativa não é uma relação causal universal comprovada.",
+      "fonte": "OTLET, Paul. Tratado de documentação, 1934 — cooperação e projeto internacionalista. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O projeto documental de Otlet demonstra que qualquer compartilhamento de informação elimina automaticamente conflitos internacionais.",
+      "item": "A concepção pacifista de Paul Otlet e Henri La Fontaine baseava-se na premissa de que o acesso universal e compartilhado ao conhecimento científico e cultural promoveria a cooperação internacional e a paz entre os povos.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-22",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "capurro"
+    ],
+    "localizador": "paradigma social",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6afc08fa1c08bdb77fddd8bf973c0ffcf1d3efb46057cda264153b87c0e4b3aa",
+    "shaDepois": "485285ed0ce595ce27562413cfa5547611d37d550b358c176f5af1584619d038",
+    "patch": {
+      "justificativa": "CERTO. O paradigma social enfatiza práticas, linguagens e contextos de comunidades, em vez de explicar informação apenas como sinal físico ou estado mental individual. Isso não elimina indivíduos nem tecnologias da análise. Muda-se a ênfase e a unidade de compreensão, sem uma proibição de estudar outros aspectos.",
+      "gatilho": "contextos culturais, sociais e linguísticos",
+      "armadilhaBanca": "Não converter uma ênfase teórica em exclusão de todos os demais aspectos.",
+      "fonte": "CAPURRO, Rafael. Epistemologia e ciência da informação. 2003 — paradigma social — https://www.capurro.de/enancib_p.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O paradigma social proíbe considerar tecnologias e indivíduos e aceita apenas análise de máquinas isoladas.",
+      "item": "O paradigma social da ciência da informação desloca o foco da mera máquina ou do processo mental isolado para os contextos culturais, sociais e linguísticos em que as comunidades de usuários interagem com a informação.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-23",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cdu"
+    ],
+    "localizador": "origem e síntese da CDU",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0229468d05ef462b2895fa8d7a45bc400fdef9e345fd1f628470c685fd85872c",
+    "shaDepois": "90643684e7b15e6cb107faf12e8abdb8704d0519ab40c448242fc398bfe3b3c4",
+    "patch": {
+      "justificativa": "ERRADO. A CDU se desenvolveu a partir da CDD com ampliação de recursos de representação e combinação. Sinais e auxiliares são características importantes, não elementos eliminados pelo sistema. O erro é inverter a natureza da adaptação, não apenas trocar a ordem dos nomes dos autores.",
+      "gatilho": "simplificação restritiva",
+      "armadilhaBanca": "Distinguir uma expansão analítico-sintética de uma redução que elimina os sinais.",
+      "fonte": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU, 3ª ed., 2020 — origem e síntese da CDU — https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A CDU se desenvolveu a partir da CDD e ampliou recursos de combinação e representação de assuntos.",
+      "item": "A Classificação Decimal Universal (CDU) foi desenvolvida por Paul Otlet e Henri La Fontaine a partir de uma simplificação restritiva da Classificação Decimal de Dewey (CDD), eliminando o uso de sinais de associação e tabelas auxiliares.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-24",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lecoadic"
+    ],
+    "localizador": "problemas tecnológicos e humanos da ciência da informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b0627fef3de968d6d6951369547a80fe5b464939c99652a020b8297819fe650b",
+    "shaDepois": "55809798cb71c76f4c836e1143accbed1774d6e944977dd4b8aec0548411e759",
+    "patch": {
+      "item": "A ciência da informação articula problemas de tecnologias de representação e recuperação com necessidades humanas e contextos sociais de uso da informação.",
+      "justificativa": "CERTO. A discussão do campo articula tecnologia e necessidades humanas e sociais. Desenvolver um mecanismo de busca não resolve sozinho pertinência, interpretação e uso. Tratar essas dimensões como relacionadas é diferente de afirmar que a tecnologia seja irrelevante ou que determine tudo.",
+      "gatilho": "necessidades humanas e contextos sociais",
+      "armadilhaBanca": "Não reduzir uma relação entre dimensões a determinismo tecnológico.",
+      "fonte": "LE COADIC, Yves-François. A ciência da informação — problemas tecnológicos e humanos da ciência da informação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A solução tecnológica de busca elimina a necessidade de estudar usuários, interpretação e contexto social.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-25",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "controle de vocabulário e indexação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ad34918a78b1b993e367b40c5bc579c1a08d8fef7c74db79e9b2d8c74b568576",
+    "shaDepois": "b12e6386a85991dbda03c2f2c8fdf4e44bbd457336d9f04ecf3d01e203d1b278",
+    "patch": {
+      "justificativa": "ERRADO. A linguagem jurídica também apresenta ambiguidades, variantes e mudanças de sentido. Extração automática pode apoiar o trabalho, mas não dispensa por definição o controle terminológico e a avaliação. Termos iguais em diferentes normas ou contextos não garantem o mesmo conceito.",
+      "gatilho": "dispensando vocabulários controlados",
+      "armadilhaBanca": "Não presumir uniformidade semântica apenas pelo caráter especializado de um vocabulário.",
+      "fonte": "Senado Federal — A RVBI — controle de vocabulário e indexação — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A indexação jurídica pode combinar recursos automáticos e controle terminológico, com avaliação de seus resultados.",
+      "item": "Em bibliotecas parlamentares, a indexação de atos legislativos e pronunciamentos baseia-se na extração automática de palavras-chave da linguagem natural, dispensando vocabulários controlados devido à uniformidade conceitual intrínseca ao jargão jurídico.",
+      "submoduloId": "1.1"
+    }
+  },
+  {
+    "id": "fund-q-26",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "primeira lei: livros são para usar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b27a46d3e72efdef382150a450b0d54fd603f8aab508096696f946aaecc39415",
+    "shaDepois": "cb5394df0bb79667ae5f800c805a1442b15696929ea40701c12cb8f329c158cc",
+    "patch": {
+      "item": "A primeira lei de Ranganathan, os livros são para usar, orienta a biblioteca a viabilizar o uso de seus recursos, em vez de tratar sua guarda como finalidade exclusiva.",
+      "justificativa": "CERTO. A primeira lei desloca a atenção da guarda como finalidade exclusiva para condições de uso. Preservar continua importante, inclusive para permitir uso futuro. A aplicação não exige acesso irrestrito a qualquer objeto sem considerar conservação, segurança e alternativas de consulta.",
+      "gatilho": "viabilizar o uso",
+      "armadilhaBanca": "Distinguir acesso como finalidade e ausência de cuidados de conservação.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — primeira lei: livros são para usar. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A primeira lei exige abandonar a preservação, pois qualquer restrição de manuseio é proibida em toda situação.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-27",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan",
+      "cad"
+    ],
+    "localizador": "primeira lei e condições de uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b97371e73460cadf9d682bb4559af4bf4a56493cf1711e7524cee203dc9ca2c7",
+    "shaDepois": "d6fa81cf7c32b0f6bd9c87e3cd4844e2c9aacd20caba6ba12fb019261e601440",
+    "patch": {
+      "justificativa": "CERTO. Horários, localização, circulação e orientação podem reduzir barreiras entre pessoas e recursos. A política deve considerar a comunidade e as condições da coleção. Facilitar o uso não se resume a abrir fisicamente toda estante nem significa dispensar proteção de materiais especiais.",
+      "gatilho": "facilitação de acesso e circulação",
+      "armadilhaBanca": "Não confundir tamanho do acervo e possibilidade efetiva de uso.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — primeira lei e condições de uso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A primeira lei se cumpre apenas aumentando o número de livros, mesmo que horários e regras impeçam sua consulta.",
+      "item": "Para que o princípio fundamental contido na primeira lei da biblioteconomia seja efetivado, é primordial que se criem políticas ativas de facilitação de acesso e circulação dos livros nas bibliotecas.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "GAAPC (PC DF)/PC DF/Bibliotecário/2025",
+        "ano": 2025,
+        "orgao": "PC DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-3240707",
+        "declaracaoLegada": "Cebraspe / PC DF / 2025 (Adaptada); identificador legado: TecConcursos-3240707"
+      },
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-28",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "segunda lei: a cada leitor seu livro",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a0c0f4d0a8ed0247c4a264057a3523f60f174c35f903f3a151816440b0736605",
+    "shaDepois": "6eb388e2ecfb2388f99a41bcb58752b8a01fcfa833b6674aaadea6b86b184bbc",
+    "patch": {
+      "justificativa": "ERRADO. A segunda lei volta-se às necessidades e à diversidade de leitores. Guardar o acervo sem acesso não atende a essa orientação. Seleção e serviços precisam considerar diferentes públicos, sem presumir que todos buscam o mesmo conteúdo ou tenham as mesmas condições de uso.",
+      "gatilho": "guardados e intocados",
+      "armadilhaBanca": "O usuário é referência para o atendimento, não justificativa para manter o acervo intocado.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — segunda lei: a cada leitor seu livro. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A segunda lei orienta considerar necessidades diversas e favorecer o encontro de cada leitor com recursos pertinentes.",
+      "item": "Em atendimento à segunda lei da biblioteconomia, as bibliotecas devem partir da premissa básica de que os livros de seu acervo estão à disposição primordialmente para serem guardados e intocados.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-29",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "segunda lei e diversidade de públicos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ca01a43ec22961cfbbfd939fddfad9b16b78499db380470fbe002f421e26780c",
+    "shaDepois": "4116e7e9c9caa35efe1ad9ea6daf5908de8a836e63be7a184d2d444bec717e3c",
+    "patch": {
+      "justificativa": "CERTO. A orientação exige olhar para pessoas e necessidades variadas, não apenas um público dominante. Isso apoia seleção, acessibilidade e mediação pertinentes ao contexto. Não significa que uma biblioteca especializada precise comprar todo documento existente ou abandonar sua missão.",
+      "gatilho": "a cada leitor o seu livro",
+      "armadilhaBanca": "Diversidade de necessidades não equivale a aquisição universal sem critérios.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — segunda lei e diversidade de públicos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A segunda lei obriga toda biblioteca especializada a adquirir indistintamente todos os assuntos, sem considerar missão e comunidade.",
+      "item": "A segunda lei — a cada leitor o seu livro — tem o usuário como ponto central, fundamentando o princípio da democratização da leitura e da criação de acervos plurais que atendam a todos os segmentos sociais.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-30",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "terceira lei: a cada livro seu leitor",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "adfff1ce7153fd7df7713445e4a942378bc1edefea7382505f7329189230f72d",
+    "shaDepois": "999985e388329ac0149d9d65e922777f628a6f6af63f5b74dae90c8a89d509a1",
+    "patch": {
+      "item": "A terceira lei de Ranganathan, a cada livro seu leitor, pode orientar estratégias de visibilidade, descoberta e mediação para aproximar os recursos de públicos interessados.",
+      "justificativa": "CERTO. A terceira lei motiva formas de tornar recursos descobríveis e aproximá-los de interessados. Catálogo, exposições e divulgação podem contribuir, inclusive quando o material exige guarda especial. A função pode ser atendida por estratégias diferentes, não apenas por uma única regra de acesso às estantes.",
+      "gatilho": "visibilidade",
+      "armadilhaBanca": "Distinguir finalidade de descoberta e um único meio operacional.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — terceira lei: a cada livro seu leitor. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A terceira lei só pode ser cumprida com livre manuseio de todo original, sendo inúteis catálogos e alternativas de acesso.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-31",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quarta lei: poupe o tempo do leitor",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f692bb05151f94eafaf2b9992b6361a387675753e7920309882be8f7d6858c3d",
+    "shaDepois": "ea549def278a28ddb24de3d6e03cb01b15a163487e00c21ef1871d95b0e68d50",
+    "patch": {
+      "justificativa": "ERRADO. A quarta lei se refere ao tempo do leitor e à eficiência das condições de acesso. Organização do espaço pode contribuir, assim como catálogo e atendimento, mas a arquitetura não substitui o usuário como referência. Um meio de aplicação não deve ser confundido com a finalidade do princípio.",
+      "gatilho": "elemento central",
+      "armadilhaBanca": "Distinguir o objetivo e os meios que podem favorecê-lo.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quarta lei: poupe o tempo do leitor. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A quarta lei pode orientar organização do espaço e serviços para poupar o tempo do usuário.",
+      "item": "O princípio fundamental que emana da quarta lei da biblioteconomia — poupe o tempo do leitor — tem o espaço arquitetônico da biblioteca como seu elemento central de preocupação doutrinária.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-32",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quarta lei e recuperação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "377a7cfd3f303e208bc81cf527f8ab256fe1286b93f18e54ed2995de5193a061",
+    "shaDepois": "0e63c3d6ff3fe075c0b22560a351b3faec25f69211351766194590b558c9942e",
+    "patch": {
+      "justificativa": "CERTO. Representações coerentes, interfaces compreensíveis e atendimento adequado podem reduzir esforço desnecessário. A velocidade técnica não basta se os resultados são impertinentes ou incompreensíveis. Poupar tempo inclui ajudar o usuário a resolver a necessidade, não somente responder antes.",
+      "gatilho": "poupar o tempo",
+      "armadilhaBanca": "Não reduzir eficiência a rapidez sem pertinência.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quarta lei e recuperação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A quarta lei é atendida por qualquer resposta rápida, mesmo que seja incorreta ou não responda à necessidade.",
+      "item": "A organização de tesauros legislativos consolidados, catálogos automatizados rápidos e serviços de referência ágeis constituem aplicações diretas do postulado de poupar o tempo do usuário.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-33",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quinta lei: organismo em crescimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "083275c1d0797ca20901f3808a05ea7f932324ea1056300f456948d93b4641ca",
+    "shaDepois": "f0b1f36e2b4611abcfe820d2e6eec6a0057ba294d5fa56cd34c939d4b700f766",
+    "patch": {
+      "justificativa": "ERRADO. A quinta lei chama atenção à evolução da biblioteca em pessoas, recursos, espaços e serviços. Ela contraria a ideia de um estado final sem mudança. Crescer não significa acumular sem critério: também envolve adaptação à comunidade e ao ambiente.",
+      "gatilho": "definitivo e imutável",
+      "armadilhaBanca": "Não confundir consolidação de um serviço com impossibilidade de mudança.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quinta lei: organismo em crescimento. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A quinta lei reconhece a necessidade de adaptação da biblioteca ao longo do tempo.",
+      "item": "Ranganathan formulou a quinta lei — a biblioteca é um organismo em crescimento — com o objetivo de demonstrar que, uma vez concluído o catálogo e preenchidas as estantes, a instituição atinge um estado definitivo e imutável.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-34",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quinta lei e renovação da coleção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fb780c72bd5284bc0b9fa7868891913e5122a0ca220cca2694e5ccbff5e627d6",
+    "shaDepois": "280b6d61bad3d7c41ac20f0d4b663a3e2f1f6fa2fcb38fcf16c392f2b9b4df7d",
+    "patch": {
+      "justificativa": "CERTO. A adaptação de uma coleção pode envolver retirar, remanejar ou conservar materiais segundo critérios e políticas. Essa leitura se relaciona ao crescimento como renovação, não apenas aumento numérico. A lei não fornece uma taxa de descarte nem autoriza eliminar automaticamente tudo que seja antigo.",
+      "gatilho": "descarte criterioso",
+      "armadilhaBanca": "Relacionar renovação e critérios, sem inventar uma regra de descarte por idade.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quinta lei e renovação da coleção. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A quinta lei obriga descartar automaticamente todo documento antigo e dispensa avaliação da coleção.",
+      "item": "O processo de desbaste e descarte criterioso de materiais obsoletos nas bibliotecas é uma prática que encontra justificativa e sustentação teórica na quinta lei de Ranganathan.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-35",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "noruzi"
+    ],
+    "localizador": "releitura das leis para a Web",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d7879f1bf9375b2aeac9a9332defcfc252e9cbe23ab3552b6b28a6726eca3308",
+    "shaDepois": "e519bb78b32d3139a4916369b290e189a8a71d07a6067acfb22b7a0db4064018",
+    "patch": {
+      "item": "Releituras das leis de Ranganathan podem aplicar seus princípios a informação e usuários em ambientes digitais, sem serem transcrições literais da formulação original.",
+      "justificativa": "CERTO. Há aplicações das leis a recursos e ambientes digitais que adaptam livro e leitor para outras formas de informação e usuário. São releituras identificadas, não a redação literal de Ranganathan. Avaliar uma aplicação exige explicar sua relação com o princípio, sem atribuir tecnologias posteriores ao texto original.",
+      "gatilho": "Releituras",
+      "armadilhaBanca": "Separar formulação histórica e adaptação posterior.",
+      "fonte": "NORUZI, Alireza. Application of Ranganathan’s Laws to the Web. 2004 — releitura das leis para a Web — https://www.webology.org/2004/v1n2/a8.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Expressões sobre informação e usuário em ambientes web são necessariamente a transcrição literal das leis originais de Ranganathan.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-36",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "gorman"
+    ],
+    "localizador": "uso de tecnologia e pluralidade de suportes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Referência refinada para o artigo original de Gorman, pp. 784–785, disponível em cópia institucional.",
+    "shaAntes": "7768883eb3ed76f5aaf1fd94b45e3e60ac2c3ffb49e9240bb0199999715006d4",
+    "shaDepois": "691ae7c6593494537b02a72c6d62b96a051f1fc35cc4ddde9c996d4bdba69b0a",
+    "patch": {
+      "justificativa": "ERRADO. As propostas de Crawford e Gorman não se resumem a substituir todo papel por digital. Defendem orientação humana e uso inteligente da tecnologia, considerando continuidade e diversidade de recursos. O meio deve ser avaliado pela função e pelas necessidades, não por uma promessa de desmaterialização total.",
+      "gatilho": "substituir integralmente",
+      "armadilhaBanca": "Não confundir modernização e eliminação obrigatória de um suporte.",
+      "fonte": "GORMAN, Michael. Five New Laws of Librarianship. American Libraries, setembro de 1995, p. 784–785 — uso de tecnologia e pluralidade de suportes. Fonte no acervo de estudos do HNC. — https://wiki.lib.sun.ac.za/images/1/17/Michael_Gorman_-_Five_new_laws_of_librarianship.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O uso inteligente da tecnologia pode combinar recursos e suportes segundo as necessidades, sem exigir substituição integral de toda coleção física.",
+      "item": "Em sua releitura contemporânea das leis da biblioteconomia, Michael Gorman sustentou que as bibliotecas modernas devem substituir integralmente os suportes físicos pelas coleções digitais em rede, em consonância com a dinâmica de desmaterialização dos acervos.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-37",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "gorman"
+    ],
+    "localizador": "princípios propostos para bibliotecas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Referência refinada para o artigo original de Gorman, pp. 784–785, disponível em cópia institucional.",
+    "shaAntes": "cd72d9150ebf0d4b68fca9266ecc60a62bdafafa61a1fbb7419cf8ddf6fa8f36",
+    "shaDepois": "9cf33f81810aefccad479722ed67b272aa4ee5f451ed4cc9d203cee82ac6640f",
+    "patch": {
+      "justificativa": "CERTO. Servir à humanidade e usar tecnologia inteligentemente são ideias associadas às propostas de Gorman. Elas avaliam a técnica por sua contribuição às pessoas e ao acesso, não por novidade isolada. São orientações profissionais, não garantias experimentais de que qualquer adoção tecnológica melhorará o serviço.",
+      "gatilho": "servem à humanidade",
+      "armadilhaBanca": "Uma orientação ao uso inteligente exige avaliação, não aceitação automática de novidades.",
+      "fonte": "GORMAN, Michael. Five New Laws of Librarianship. American Libraries, setembro de 1995, p. 784–785 — princípios propostos para bibliotecas. Fonte no acervo de estudos do HNC. — https://wiki.lib.sun.ac.za/images/1/17/Michael_Gorman_-_Five_new_laws_of_librarianship.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer tecnologia nova melhora necessariamente a biblioteca, independentemente de usuários, custos e condições de aplicação.",
+      "item": "Entre as leis propostas por Michael Gorman para a biblioteconomia moderna inclui-se o postulado de que as bibliotecas servem à humanidade e devem utilizar a tecnologia inteligentemente para aprimorar seus serviços.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-38",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "segunda lei e responsabilidades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dfb44ceb5c9ff65c5a0ba088247ddf681fc77c702b139b86f76fd2d6c6c4c502",
+    "shaDepois": "4486e8e3eef597a0650433c78328d2d3cac02d9cb38e82400101d1925c6b7cf1",
+    "patch": {
+      "justificativa": "ERRADO. A segunda lei envolve responsabilidades e condições para aproximar leitores e recursos, sem tornar o usuário um receptor sem necessidades ou participação. Bibliotecário, instituição e comunidade têm papéis. Mediação não substitui a compreensão das pessoas por decisões totalmente unilaterais.",
+      "gatilho": "papel passivo",
+      "armadilhaBanca": "Não confundir responsabilidade de mediação e exclusão da participação do público.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — segunda lei e responsabilidades. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A segunda lei reconhece necessidades diversas dos leitores e exige condições para atendê-las, sem impor passividade universal.",
+      "item": "De acordo com a formulação original de Ranganathan, as exigências da segunda lei da biblioteconomia concentram-se no dever técnico de mediação do bibliotecário, cabendo aos leitores papel passivo na recepção dos acervos disponibilizados.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-39",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "terceira lei e descoberta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2a8d2ceb5a1c19a2fa99eecde2160ec72a4877367214700a30947abaf49dec17",
+    "shaDepois": "c7c796bc47c7f49ae275186ff995a4d18e58b216fd164d065c5e42aece18669d",
+    "patch": {
+      "item": "Impedir a visualização dos livros e sua descoberta pelo público, sem catálogo ou alternativa de acesso, é sempre a melhor forma de cumprir a terceira lei de Ranganathan.",
+      "justificativa": "ERRADO. Ocultar os recursos e impedir sua descoberta não favorece o encontro com leitores. Guardas restritas podem ser legítimas para materiais especiais, desde que existam instrumentos e alternativas adequadas de acesso. Portanto, estantes fechadas não devem ser julgadas por um slogan, mas por finalidade, riscos e formas de descoberta disponíveis.",
+      "gatilho": "sempre a melhor forma",
+      "armadilhaBanca": "Distinguir uma restrição justificada e o impedimento generalizado de descoberta.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — terceira lei e descoberta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Materiais podem ter guarda restrita, mas a biblioteca deve considerar instrumentos e alternativas para torná-los descobríveis e utilizáveis.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-40",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quarta lei e serviços proativos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7576447c18061a3e6eb1c7fdba30f8236c02e548e1526c0863e4d8ceb230fe8e",
+    "shaDepois": "7efdd9d72f155159a654dd8eba92cd3082f6c5d5138d4ecfbf5ccb56672f0e48",
+    "patch": {
+      "justificativa": "CERTO. Uma DSI pertinente reduz a necessidade de acompanhar manualmente várias fontes e pode poupar tempo. Isso depende de perfis, seleção e atualização: excesso de alertas sem pertinência também gera trabalho. O exemplo pode se relacionar a mais de uma lei e não constitui classificação exclusiva de todo serviço.",
+      "gatilho": "Disseminação Seletiva da Informação",
+      "armadilhaBanca": "O efeito depende da qualidade do serviço, não apenas de seu nome.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quarta lei e serviços proativos. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda DSI poupa tempo automaticamente, mesmo com perfis desatualizados e excesso de alertas irrelevantes.",
+      "item": "O serviço de Disseminação Seletiva da Informação (DSI), ao enviar previamente aos parlamentares os atos e doutrinas de seu interesse imediato, é um exemplo prático de atendimento à quarta lei de Ranganathan.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-41",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quinta lei e adaptação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "113932a6f0783b1001c4ac6e75cf7f2e900677eb4a8c88c871a1fedfe6af28f2",
+    "shaDepois": "c63118b68eacc2bedceab4cf164bbd68bf00ba6e3ae0c4fc4840492ca30ce620",
+    "patch": {
+      "justificativa": "ERRADO. Crescimento envolve planejar e reavaliar coleção, espaços e serviços. Acumulação autônoma sem critérios pode aumentar custos e dificultar acesso. A quinta lei não dispensa políticas de desenvolvimento nem obriga manter todo documento indefinidamente na mesma localização.",
+      "gatilho": "dispensando diretrizes",
+      "armadilhaBanca": "Não reduzir o organismo em crescimento à acumulação física sem gestão.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quinta lei e adaptação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A adaptação da biblioteca pode exigir revisão de coleção, espaços e processos segundo critérios.",
+      "item": "Na formulação da quinta lei da biblioteconomia, Ranganathan concebe o crescimento do acervo como processo autônomo e cumulativo, dispensando diretrizes prévias de desbastamento e readequação de layout arquitetônico.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-42",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "introdução e formulação dos princípios",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fec6ce3df3fda949b3068f559e3c33d0f247787ca29a35fea38db192180769be",
+    "shaDepois": "a1f6d4ee3a95a10f814936d5719b4e34d5957746027f0540be9d65461041ccb5",
+    "patch": {
+      "item": "As cinco leis de Ranganathan são princípios orientadores para analisar decisões bibliotecárias, e não fórmulas que fixem taxas obrigatórias de desempenho para toda biblioteca.",
+      "justificativa": "CERTO. As leis são princípios para orientar e discutir a atividade bibliotecária. Sua interpretação envolve teoria, observação e aplicação profissional; não são fórmulas que obriguem uma taxa de desempenho em toda biblioteca. A formação matemática de Ranganathan não prova que cada aplicação seja uma dedução numérica universal.",
+      "gatilho": "princípios orientadores",
+      "armadilhaBanca": "Distinguir orientação teórica e regularidade estatística universal.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — introdução e formulação dos princípios. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As cinco leis determinam uma porcentagem matemática obrigatória de sucesso para todos os serviços bibliotecários.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-43",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "primeira lei e condições de uso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4a008296558076c62f41019995f933c2e71a7234188c921812700fe2d14178d4",
+    "shaDepois": "42a87d990e004495b9a15c7e62fb7416bbb8637ed91ebe985e49930855303e43",
+    "patch": {
+      "justificativa": "ERRADO. Iluminação, ventilação e mobiliário podem facilitar ou impedir o uso. Não são apenas decoração sem relação com a primeira lei. O planejamento precisa considerar pessoas, atividades e condições da coleção, sem deduzir uma única solução arquitetônica universal.",
+      "gatilho": "desvinculados",
+      "armadilhaBanca": "O que parece um detalhe físico pode atuar como barreira efetiva de uso.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — primeira lei e condições de uso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Condições ambientais e mobiliário podem contribuir para tornar o acervo utilizável e acessível.",
+      "item": "Para Ranganathan, a iluminação adequada, a ventilação do ambiente e a ergonomia do mobiliário da biblioteca constituem fatores estéticos externos desvinculados dos preceitos teóricos da primeira lei da biblioteconomia.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-44",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "icp"
+    ],
+    "localizador": "2.1: conveniência do usuário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "724e5bbb685735cc7f0d9f6c8ebba0aa0f9252b5b286e37bf53a78d2bef440bd",
+    "shaDepois": "264d0e1e7927ea0a2431397578b69b0901163319e552d05ebc4acf9839a6443b",
+    "patch": {
+      "item": "Um serviço orientado ao usuário deve manter regras burocráticas pela comodidade interna da equipe, mesmo quando elas não têm justificativa e impedem o acesso adequado.",
+      "justificativa": "ERRADO. A orientação ao usuário exige avaliar regras e processos pela finalidade do serviço, sem torná-los instrumentos de conveniência exclusiva da equipe. Regras podem ser necessárias para segurança, direitos e organização, mas precisam de justificativa. Não se deve atribuir uma frase a um autor sem localizá-la na fonte.",
+      "gatilho": "comodidade interna",
+      "armadilhaBanca": "Distinguir regra justificada e burocracia adotada apenas por conveniência interna.",
+      "fonte": "IFLA — Princípios Internacionais de Catalogação, 2016 — 2.1: conveniência do usuário — https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-en.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Regras de serviço devem ter justificativa e ser avaliadas também por seu impacto no acesso e nas necessidades dos usuários.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-45",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quinta lei: releitura para o ambiente digital",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2d5773d7e9ab1e17aaa4c1f836270c6fdd330254fec56290f7c9ceb7e7755ac3",
+    "shaDepois": "b1231cd72aea62dcf085ba8e9fb6168aad1c02dbad61e68dd37447fa32ad190b",
+    "patch": {
+      "item": "A adoção de repositórios ou infraestrutura digital pode expressar adaptação da biblioteca, quando planejada segundo necessidades e requisitos de acesso e continuidade.",
+      "justificativa": "CERTO. Migrar ou integrar recursos digitais pode ser uma forma de adaptação, desde que responda às necessidades e preserve condições de acesso e continuidade. Nuvem não garante preservação por si só. É uma aplicação contemporânea do princípio, não uma tecnologia prevista literalmente na formulação histórica.",
+      "gatilho": "requisitos de acesso e continuidade",
+      "armadilhaBanca": "Uma opção de infraestrutura não substitui a gestão do serviço.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quinta lei: releitura para o ambiente digital. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A simples contratação de armazenamento em nuvem cumpre a quinta lei e garante preservação permanente sem planejamento.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-46",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "segunda lei e diversidade dos leitores",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9fe1c2514a91fdca728318b0829ac3b8b198498cdbc04925b4350e10a5679e1b",
+    "shaDepois": "c7b30c0e34ee5319b3a5f72e0263c252d4d33dc76bc0ab5f70223f27a9a2150c",
+    "patch": {
+      "justificativa": "ERRADO. A lei não limita o compromisso aos leitores acadêmicos nem justifica excluir pessoas por deficiência ou condições de literacia. Recursos acessíveis, mediação e formas variadas de conteúdo ajudam a atender a comunidade. Encaminhamento especializado pode apoiar o serviço, mas não equivale a uma dispensa universal de inclusão.",
+      "gatilho": "formalmente alfabetizados",
+      "armadilhaBanca": "Não reduzir leitor a um único perfil escolar ou funcional.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — segunda lei e diversidade dos leitores. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A segunda lei pode orientar atendimento inclusivo, com recursos e mediação adequados a diferentes condições de acesso.",
+      "item": "A formulação \"a cada leitor seu livro\" restringe o compromisso da biblioteca aos usuários formalmente alfabetizados e habilitados para a leitura acadêmica, direcionando públicos com deficiência ou baixa literacia para instituições assistenciais especializadas.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-47",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "primeira lei e barreiras de acesso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b870d34ac5928885709ea8efad8e9b69e9c681111177f20e2caa5be1c22f77a7",
+    "shaDepois": "9ad47a89dd7a0c809b8c75399ae0b4231cffc182f7f47d9ad632f475a4034375",
+    "patch": {
+      "justificativa": "CERTO. Barreiras financeiras desproporcionais podem impedir o uso e contrariar a finalidade de acesso. Isso não permite deduzir que toda cobrança de serviço adicional seja sempre proibida pelas cinco leis. É preciso distinguir a barreira indevida e condições justificadas de atividades específicas.",
+      "gatilho": "taxas escorchantes",
+      "armadilhaBanca": "Aplicar o princípio exige avaliar a condição concreta, sem generalizar além do item.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — primeira lei e barreiras de acesso. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda condição financeira de qualquer serviço é idêntica a uma barreira abusiva, independentemente de finalidade e contexto.",
+      "item": "A exigência de depósitos em dinheiro e taxas escorchantes para simples consulta de livros na biblioteca atenta diretamente contra os postulados da primeira lei de Ranganathan.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-48",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "noruzi"
+    ],
+    "localizador": "adaptações dos enunciados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c9b269743293a1e75d3774120efd9aec66143d94fdcbc1f9c6b707ef5ad4db6b",
+    "shaDepois": "8055992e7077a708fdd4e031b8f3e8bc93b31db2696e413b44b14d981ec6a8f3",
+    "patch": {
+      "justificativa": "CERTO. As duas formulações aproximam a orientação ao usuário e a descoberta dos recursos das segunda e terceira leis. São aplicações terminológicas posteriores, não a redação original. A correspondência deve explicar a finalidade: necessidades das pessoas e encontro de recursos com seus públicos.",
+      "gatilho": "segunda e terceira leis",
+      "armadilhaBanca": "Relacionar o enunciado e sua finalidade sem trocar a numeração dos princípios.",
+      "fonte": "NORUZI, Alireza. Application of Ranganathan’s Laws to the Web. 2004 — adaptações dos enunciados — https://www.webology.org/2004/v1n2/a8.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A cada usuário sua informação corresponde exclusivamente à quinta lei e não tem relação com a segunda.",
+      "item": "A assertiva 'A cada usuário sua informação e a cada informação seu usuário' corresponde à tradução das premissas da segunda e terceira leis de Ranganathan para a terminologia da Ciência da Informação.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-49",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quarta lei: tempo do leitor",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "21292158859cb87a42ef9268d8035d0c590fa9448a39c4b47d24fcad0e7094a3",
+    "shaDepois": "1f9edac8893ffd585d92ff674a791bfe32288c113884fbd8907432108f82ddb5",
+    "patch": {
+      "justificativa": "ERRADO. Catálogos difíceis de interpretar criam esforço que não atende à finalidade de poupar tempo. Orientação e educação de usuários são importantes, mas não justificam manter deliberadamente um instrumento confuso. Aprender a pesquisar e sofrer barreiras de projeto são situações diferentes.",
+      "gatilho": "deve ser estimulado",
+      "armadilhaBanca": "Não usar a finalidade educativa como justificativa para uma barreira evitável.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quarta lei: tempo do leitor. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A educação de usuários pode apoiar a pesquisa sem justificar a manutenção deliberada de um catálogo confuso.",
+      "item": "Ranganathan defendeu que o tempo gasto pelos usuários na decifração de catálogos confusos deve ser estimulado como método pedagógico de fortalecimento da cognição.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-50",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ranganathan"
+    ],
+    "localizador": "quarta lei: aplicação a catálogos digitais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8bedcdbf30d695d423ea0b6a15c8c39d5a8a8ec0c968e00fd24b2f477adc4d87",
+    "shaDepois": "c83cc07b3a3ffac4c368aa8f0408afbb586da08bfa87b946031864b74c2413a9",
+    "patch": {
+      "item": "A evolução para um catálogo automatizado pode favorecer a quarta lei quando sua organização e interface ajudam o usuário a localizar recursos com menos esforço desnecessário.",
+      "justificativa": "CERTO. Um catálogo digital pode reduzir etapas e permitir acesso remoto, mas seu efeito depende de organização, interface e pertinência. Automatizar um catálogo não prova por si só que todos os usuários pouparão tempo. A relação com a lei é uma avaliação funcional, não uma consequência automática da tecnologia.",
+      "gatilho": "pode favorecer",
+      "armadilhaBanca": "Distinguir potencial tecnológico e resultado observado.",
+      "fonte": "RANGANATHAN, S. R. As cinco leis da biblioteconomia. Tradução brasileira, 2009 — quarta lei: aplicação a catálogos digitais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A conversão de qualquer catálogo para meio digital garante poupar tempo de todos os usuários, mesmo com busca e interface inadequadas.",
+      "submoduloId": "1.2"
+    }
+  },
+  {
+    "id": "fund-q-51",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ackoff"
+    ],
+    "localizador": "dados e contextualização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cfefc5a608d6d166c79a484360ae34f9da7b7d9147484ffd5b3bf46bb25f0fe1",
+    "shaDepois": "fa4c830b5e786a5c6dfa2c64415126c2c59a1b28e6bdf53c5e0e08d07fa18de4",
+    "patch": {
+      "item": "Um valor isolado, como 24, não informa univocamente se representa idade, temperatura ou quantidade; sua interpretação depende do contexto.",
+      "justificativa": "CERTO. Um mesmo valor pode representar idade, temperatura ou quantidade conforme unidade, origem e pergunta. Interpretá-lo exige relações e contexto. Essa distinção ajuda a discutir dados e informação, sem provar que todo dado seja absolutamente destituído de significado em qualquer teoria.",
+      "gatilho": "depende do contexto",
+      "armadilhaBanca": "Não atribuir um significado único a um valor sem examinar as condições de produção.",
+      "fonte": "ACKOFF, Russell. From Data to Wisdom. 1989 — dados e contextualização — https://doi.org/10.1002/j.2075-7905.1989.tb00524.x",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O número 24 informa necessariamente a mesma grandeza em qualquer registro, sem depender de unidade ou contexto.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-52",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "informação como conhecimento e como coisa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "78868e3359098ac428c6d6f6f7cc34148f42d76ea140f5111fd628d485876d10",
+    "shaDepois": "982e89a00ba5bb90b86a99175858248a15e8694ebfb6579014917cc15ca3bde8",
+    "patch": {
+      "justificativa": "ERRADO. Um registro pode representar conhecimento e participar de sua comunicação, mas não é o próprio processo de compreensão de cada pessoa. Leitores com experiências distintas podem interpretá-lo de modos diferentes. Armazenar um texto não prova que seu conteúdo foi aprendido ou que se tornou conhecimento do usuário.",
+      "gatilho": "idêntico ao processo cognitivo",
+      "armadilhaBanca": "Separar representação externa e processo cognitivo.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — informação como conhecimento e como coisa — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um registro de informação e a compreensão construída pelo leitor são distinguíveis, embora possam se relacionar.",
+      "item": "Informação e conhecimento configuram termos equivalentes na Ciência da Informação, considerando-se o texto gravado no suporte idêntico ao processo cognitivo de compreensão pelo leitor.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-53",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "três usos de informação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1014736bd08651661c6bfffdd962de71777a4385c5c004d19141e078e9f748d4",
+    "shaDepois": "262289f433ecfa6a7cb01ae5352696932d2cee4e4217f525cd18dd69887ee519",
+    "patch": {
+      "item": "Buckland distingue usos da informação como processo, conhecimento e coisa.",
+      "justificativa": "CERTO. Buckland distingue o processo de informar, o conhecimento comunicado ou adquirido e os objetos considerados informativos. A distinção analisa usos do termo, não três suportes obrigatórios de um arquivo. Um documento pode ser tratado como coisa informativa sem ser idêntico ao conhecimento de seu leitor.",
+      "gatilho": "processo, conhecimento e coisa",
+      "armadilhaBanca": "Não confundir dimensões de um conceito e tipos de suporte.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — três usos de informação — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As três categorias de Buckland correspondem exclusivamente a papel, fita magnética e arquivo digital.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-54",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland",
+      "cad"
+    ],
+    "localizador": "informação como coisa e evidência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "81dbb75f5ddf9b52177fcc77aef414bc10e19babfac3f2bf1cdd57d52cb0f792",
+    "shaDepois": "80a13688328b6ce2d7be3f512baf2b722b19cb15cc3561fa0134eae9593d5849",
+    "patch": {
+      "justificativa": "ERRADO. Informação como coisa abrange objetos e registros considerados informativos, não apenas papel bibliográfico. Imagens, sons e objetos podem fornecer evidências em contextos apropriados. Isso não significa que todo objeto tenha, independentemente do contexto, um único significado documental.",
+      "gatilho": "registros bibliográficos em papel",
+      "armadilhaBanca": "Não reduzir evidência documental a um formato bibliográfico.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — informação como coisa e evidência — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Informação como coisa pode abranger registros e objetos considerados informativos, inclusive fora do papel.",
+      "item": "No âmbito da documentação, a informação-como-coisa refere-se a uma classe restrita de registros bibliográficos em papel, razão pela qual objetos da natureza, artefatos, imagens e sons são excluídos dessa categoria.",
+      "fonteOriginal": {
+        "tipo": "adaptada",
+        "descricao": "Adaptação editorial HNC; atribuição de prova legada ainda não conferida em caderno oficial.",
+        "verificado": false,
+        "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+        "ano": 2018,
+        "orgao": "HU Brasil",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "TecConcursos-646317",
+        "declaracaoLegada": "Cebraspe / HU Brasil / 2018 (Adaptada); identificador legado: TecConcursos-646317"
+      },
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-55",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "armazenamento e representação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0d350ecace871bd8ec24fd029ee3430085909109bb44480de0fe271c8e80fa8a",
+    "shaDepois": "2f3e068b224bbad13653bce0c4d8437f06de848af4cf7e98aa51589a008300da",
+    "patch": {
+      "item": "Na distinção de Buckland, os sistemas armazenam e processam representações e objetos informativos; isso não equivale a armazenar diretamente o estado cognitivo de uma pessoa.",
+      "justificativa": "CERTO. Sistemas armazenam e processam representações e objetos informativos. Eles não transferem diretamente o estado cognitivo de uma pessoa para outra apenas por copiar um arquivo. Na análise de Buckland, informação como conhecimento e como processo se distingue dessa materialização utilizada pelos sistemas.",
+      "gatilho": "representações e objetos informativos",
+      "armadilhaBanca": "Separar armazenamento de representação e aquisição de conhecimento.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — armazenamento e representação — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Copiar um arquivo para um servidor transfere automaticamente o conhecimento de seu autor para todos os usuários.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-56",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "discussão da definição de Briet",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "60eba68f506d06016abe35402cf7186558aad4e6159cd3cedde68d7a765ab83b",
+    "shaDepois": "d6a9a246b17e545b43e5acacdf1aca0b3d539f72b7049ebb4bdc963c6e262b72",
+    "patch": {
+      "item": "Na discussão de Briet retomada por Buckland, documentos podem envolver indícios concretos ou simbólicos preservados ou registrados para representar ou evidenciar fenômenos físicos ou intelectuais.",
+      "justificativa": "CERTO. Briet ampliou a concepção de documento para indícios preservados ou registrados para representar, reconstruir ou evidenciar fenômenos. Isso permite discutir objetos além do livro. A função de evidência e o contexto documental importam, sem exigir que todo documento seja um texto criado por seu produtor para publicação.",
+      "gatilho": "indícios concretos ou simbólicos",
+      "armadilhaBanca": "Distinguir forma editorial e função documental de evidência.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — discussão da definição de Briet — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Na concepção de Briet, somente livros publicados comercialmente podem funcionar como documentos.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-57",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "exemplo do antílope em Briet",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "067767d3ebb6c88f5e824178e2513d76458b57d2e3dd9d6568b2a07c539c7f31",
+    "shaDepois": "6d5d2ec2576fc452771bb016937ae676a259ae2b2d1874a79636bb37a932acfa",
+    "patch": {
+      "justificativa": "ERRADO. No exemplo, o animal em seu habitat não é tratado automaticamente como documento apenas por existir. Seu ingresso em um contexto de estudo, classificação e evidência permite discutir sua condição documental. A ideia não torna todos os animais documentos em qualquer situação nem limita documentos a objetos mortos.",
+      "gatilho": "por si mesmo",
+      "armadilhaBanca": "A existência de um objeto não basta para fixar sua função documental em todo contexto.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — exemplo do antílope em Briet — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No exemplo de Briet, o contexto de estudo e tratamento como evidência é relevante para considerar o animal um documento.",
+      "item": "Conforme o pensamento de Suzanne Briet, um animal selvagem vivo em seu habitat natural já constitui, por si mesmo, um documento para a ciência zoológica.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-58",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "documento, evidência e contexto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "93d0767e30b228550a29d772713fac857bc027a7e98c70c5219d2e5990a51ed8",
+    "shaDepois": "225bafa37f73b293d444905a60deb661f5b60e7806ee946b379595aed49de0f0",
+    "patch": {
+      "item": "A análise de um objeto como documento pode considerar seu contexto documental, sua identificação e seu tratamento como evidência, sem exigir que ele tenha sido originalmente produzido como livro.",
+      "justificativa": "CERTO. O enquadramento como documento envolve como o objeto é reconhecido, organizado e usado como evidência. Materialidade e intenções podem ser discutidas nessa relação, mas não devem virar um checklist universal atribuído literalmente a Briet para toda teoria. A concepção adotada precisa ser explicitada.",
+      "gatilho": "contexto documental",
+      "armadilhaBanca": "Distinguir objeto existente e objeto reconhecido em uma prática documental.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — documento, evidência e contexto — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo objeto tem a mesma condição documental independentemente de sua identificação, tratamento e uso como evidência.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-59",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "registros e suportes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "415c8af15c0529958568a0a578797f4c8cd7741cfbc5f220e34ab5dc3e127511",
+    "shaDepois": "ce446360302fbc2c6bfc7d8bd3e310b25edb78e8d4d105d17a6ef39641f5a1b3",
+    "patch": {
+      "item": "Sinais em cartões perfurados, fitas magnéticas e bancos de dados podem constituir registros documentais, conforme sua função e as condições de representação.",
+      "justificativa": "CERTO. Diferentes formas de inscrição e registro podem materializar informação em contextos documentais, inclusive sinais digitais ou magnéticos. O suporte não garante sozinho autenticidade, pertinência ou significado. Representações dependem de regras e condições para serem interpretadas e preservadas.",
+      "gatilho": "registros documentais",
+      "armadilhaBanca": "Não reduzir documento a uma única técnica de inscrição.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — registros e suportes — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Um registro magnético ou digital nunca pode ser considerado documento, independentemente de sua função e contexto.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-60",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "descrição e acesso; distinção da análise de assunto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2b1e4a6f50db1b67721db788822ad385917085f326dbe651a2b85671331bd57f",
+    "shaDepois": "81e8baf4b56e35708889616e4cc99984aacf173bacf8c45b34627296e97075e0",
+    "patch": {
+      "item": "A análise de assunto trata da representação temática, enquanto a representação descritiva identifica e distingue recursos por seus dados bibliográficos, sem se limitar à medição do exemplar físico.",
+      "justificativa": "CERTO. Análise de assunto identifica conceitos para a representação temática. Descrição bibliográfica identifica e distingue recursos por dados como título, edição, publicação e características pertinentes. Não se deve restringir descrição ao objeto físico de uma cópia, nem tratar todo título transcrito como uma decisão de assunto.",
+      "gatilho": "representação descritiva",
+      "armadilhaBanca": "Separar identificação do recurso e representação temática.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — descrição e acesso; distinção da análise de assunto. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A análise de assunto se limita a medir a altura do exemplar, enquanto a descrição bibliográfica substitui todo vocabulário de assuntos.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-61",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "documentos eletrônicos e digitais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cd7426b629ea47ae1ad6191066c6b890611f19cf79fb8de2548c73f27e51d1f8",
+    "shaDepois": "dc05d83d588567274f693988225ec4c86d5dd8811190707ea3bc1966e9fb77c7",
+    "patch": {
+      "justificativa": "ERRADO. Há distinções conceituais e históricas: eletrônico pode abranger registros analógicos que dependem de equipamento eletrônico, enquanto digital envolve codificação discreta. Equipamento eletrônico não implica, por si só, representação binária. A terminologia precisa ser aplicada segundo a definição adotada, não apenas pelo meio de acesso.",
+      "gatilho": "sinônima e restrita",
+      "armadilhaBanca": "Não confundir equipamento de acesso e forma de codificação.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — documentos eletrônicos e digitais. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Nem todo registro que depende de equipamento eletrônico é necessariamente digital ou binário.",
+      "item": "Na tipologia documental contemporânea, a categoria de documento eletrônico é sinônima e restrita à de documento digital, pois o registro codificado em impulsos elétricos estrutura-se em formato binário.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-62",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "capurro"
+    ],
+    "localizador": "dimensão cognitiva e interpretação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f4eb0180faab326a563bdeb619cdf7018cfdb864b867c9afdb3ba932ab66e4a6",
+    "shaDepois": "7c06c59f462faa29534cc39832d07f63d668a9346cce97199698c007a67a9ddc",
+    "patch": {
+      "item": "Ao ser interpretada por uma pessoa, a informação pode reduzir incertezas e também suscitar novas questões, conforme o contexto e os conhecimentos prévios.",
+      "justificativa": "CERTO. A assimilação pode modificar conhecimento e reduzir algumas incertezas, mas também revelar dúvidas antes desconhecidas. Isso não exige que toda informação produza o mesmo efeito em todas as pessoas. O contexto e os conhecimentos prévios influenciam a interpretação.",
+      "gatilho": "pode reduzir incertezas",
+      "armadilhaBanca": "Não converter uma função possível em efeito universal obrigatório.",
+      "fonte": "CAPURRO, Rafael. Epistemologia e ciência da informação. 2003 — dimensão cognitiva e interpretação — https://www.capurro.de/enancib_p.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Assimilar informação sempre reduz linearmente toda incerteza, sem poder gerar novas perguntas.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-63",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "documento e interpretação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "57c3597aa2731f9f1f2ea3dfc62e3ee653bfc7aab603bba576413fffcf2f951a",
+    "shaDepois": "fd6f899af48c867acc75d6205e65bdbc2f63e4b955e3cc38c83eb36f7fbb78bf",
+    "patch": {
+      "justificativa": "ERRADO. A função documental pode envolver produção, organização e usos posteriores. Reconhecer a interpretação do leitor não elimina automaticamente os propósitos de registro nem a proveniência. Uma carta pode ter um objetivo original e receber usos históricos posteriores, que precisam ser distinguidos.",
+      "gatilho": "afastando a influência",
+      "armadilhaBanca": "Não escolher artificialmente apenas produtor ou apenas leitor como fonte de todo sentido.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — documento e interpretação — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A interpretação posterior pode ampliar usos, sem apagar os propósitos de produção e a proveniência do registro.",
+      "item": "Segundo a teoria da documentação contemporânea, a intencionalidade de um objeto cultural decorre do ato interpretativo do leitor no momento da consulta, afastando a influência dos propósitos de registro definidos pelo produtor original.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-64",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "registros, representação e comunicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cb3d6b0339b5880818c20f0b4d6c4a277bfd6498f1b902aea7ad20f6d55ab7c0",
+    "shaDepois": "2245bb1f714a9f36ec24d7a059488c67c435775883ca83755487039c35e1220f",
+    "patch": {
+      "item": "Registros documentais podem fixar e transmitir representações de conhecimento no tempo e no espaço, sem garantir compreensão idêntica por todos os leitores.",
+      "justificativa": "CERTO. Registros permitem comunicar algo entre tempos e lugares, mas sua interpretação depende de condições e contexto. Isso não significa que todo conhecimento humano possa ser fixado integralmente nem que um arquivo transmita automaticamente a compreensão de seu autor. A atribuição literal a Mey foi retirada por não estar localizada.",
+      "gatilho": "fixar e transmitir",
+      "armadilhaBanca": "Distinguir possibilidade de registrar e equivalência integral entre registro e conhecimento.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — registros, representação e comunicação — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo conhecimento tácito é integralmente fixado em qualquer documento e compreendido de forma idêntica por todos os leitores.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-65",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "tipos documentais e natureza da fonte",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "38df2d99aae73eeb1142c8d9435e06b7d64ad513b3282dfbe0d0ed9848881ec9",
+    "shaDepois": "bbce36373d618d9fa280d4d6c040ba7df404acc324b1f0004174a2830fac0e1c",
+    "patch": {
+      "justificativa": "ERRADO. O texto oficial de um ato funciona como fonte primária para a norma; um artigo que o comenta produz análise doutrinária. A tipologia pode variar conforme o objeto de pesquisa, mas não se deve inverter automaticamente essas funções no estudo da informação jurídica. O suporte impresso ou digital não decide essa diferença.",
+      "gatilho": "legislação positivada constitui fonte secundária",
+      "armadilhaBanca": "Separar documento original e análise produzida sobre ele.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — tipos documentais e natureza da fonte — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O ato normativo original e o artigo que o comenta têm funções distintas; a publicação oficial é fonte primária para o texto do ato.",
+      "item": "Fontes primárias de informação jurídica incluem os artigos de periódicos que comentam decisões judiciais, ao passo que a legislação positivada constitui fonte secundária.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-66",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ackoff"
+    ],
+    "localizador": "dados, informação, conhecimento, entendimento e sabedoria",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "befefff8b0fedb2a0a72eecfc5578ff05163865a30d7b00891a83420ac3def35",
+    "shaDepois": "f34ee301f062adcc447de58caf2878edcbfebe3b87fe6ea85732a6b1c05b2d28",
+    "patch": {
+      "justificativa": "ERRADO. Na exposição de Ackoff, dados e informação não são extraídos de uma sabedoria rudimentar situada na base. O autor também distingue entendimento, frequentemente omitido em simplificações DIKW. Trata-se de um modelo expositivo, não uma prova de que toda aprendizagem siga uma escada automática e linear.",
+      "gatilho": "base da pirâmide",
+      "armadilhaBanca": "Não inverter o modelo nem tratá-lo como mecanismo universal de aprendizagem.",
+      "fonte": "ACKOFF, Russell. From Data to Wisdom. 1989 — dados, informação, conhecimento, entendimento e sabedoria — https://doi.org/10.1002/j.2075-7905.1989.tb00524.x",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na exposição de Ackoff, sabedoria não é a matéria-prima básica da qual se extraem dados, e entendimento é uma dimensão distinguida.",
+      "item": "A sabedoria (wisdom) localiza-se na base da pirâmide informacional, constituindo a matéria-prima rudimentar a partir da qual os dados e informações são extraídos.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-67",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexml"
+    ],
+    "localizador": "proposições legislativas e documentos de tramitação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "662e3ebb5fd12173c45393f3a33e373ee3dc6e4ea26c9c992f4312ea354eb9c6",
+    "shaDepois": "6f8912ce42e060aa6d33645c34a9c8a37056a9916722ee76c023a95cd369e619",
+    "patch": {
+      "item": "Uma PEC em tramitação e pareceres de comissões são registros do processo legislativo que podem ter valor administrativo e probatório, sem equivaler a uma emenda já promulgada.",
+      "justificativa": "CERTO. Esses registros documentam atos e atividades do processo legislativo e podem servir como evidência de sua tramitação. Isso não significa que o texto de uma PEC já tenha força de norma constitucional vigente. Valor documental, autenticidade e eficácia jurídica são aspectos diferentes.",
+      "gatilho": "PEC em tramitação e pareceres",
+      "armadilhaBanca": "Separar evidência documental e efeito jurídico.",
+      "fonte": "Projeto LexML Brasil — documentação técnica — proposições legislativas e documentos de tramitação — https://projeto.lexml.gov.br/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma PEC em tramitação já altera a Constituição apenas por existir como documento administrativo autêntico.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-68",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "materialização e sistemas digitais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cb051e536df20b82f5126f7e986262933b25f4d6f1957815acc958b85025224d",
+    "shaDepois": "5101720befac504647e505b5948a3881de324999e6de7995c4611c2b6b8d6e4b",
+    "patch": {
+      "justificativa": "ERRADO. Recursos digitais dependem de dispositivos, infraestrutura e codificações materiais. Acesso remoto ou abstração da localização não elimina essa dependência. O usuário pode não perceber o suporte, mas preservação, energia e integridade continuam exigindo gestão.",
+      "gatilho": "qualquer materialidade física",
+      "armadilhaBanca": "Não confundir invisibilidade do suporte na interface e ausência de suporte.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — materialização e sistemas digitais — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A disponibilização em rede não elimina a dependência de suportes, dispositivos e condições materiais.",
+      "item": "No ambiente digital, a desmaterialização do suporte físico significa que os documentos em rede deixam de possuir qualquer materialidade física ou registro em hardware.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-69",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "buckland"
+    ],
+    "localizador": "objetos e informação como coisa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6f8ea04185c751e9180144f02fdb25357a35689810b9d9f424b6a3c431ea8828",
+    "shaDepois": "972eb59ec2dbf4fa8f2fdeb0e16a722aed97aea370f6c7d919b8e1d8ec02576f",
+    "patch": {
+      "justificativa": "ERRADO. Objetos tridimensionais podem funcionar como documentos em contextos de estudo, memória ou prova. Uma medalha pode informar sobre um evento e sua produção institucional. Isso exige identificação e contextualização; o simples fato de estar numa coleção não torna todas as interpretações sobre ela verdadeiras.",
+      "gatilho": "tridimensionalidade",
+      "armadilhaBanca": "Não restringir a função documental ao formato plano ou textual.",
+      "fonte": "BUCKLAND, Michael. Information as thing. 1991 — objetos e informação como coisa — https://doi.org/10.1002/(SICI)1097-4571(199106)42:5<351::AID-ASI5>3.0.CO;2-3",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A forma tridimensional não impede que um objeto seja tratado como documento em um contexto pertinente.",
+      "item": "Condecorações, medalhas comemorativas e maquetes arquitetônicas pertencentes ao acervo histórico do Congresso Nacional não podem ser categorizados como documentos em razão de sua tridimensionalidade.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-70",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "literatura cinzenta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fa02e873ff859c3ba6c1ae0e69d42a40ab5d15dd3bf9d353d9eee0a5862fd221",
+    "shaDepois": "e7b30dc29431b44defb3c5205043577c88a8900d0db71d131a1c57075f833b64",
+    "patch": {
+      "justificativa": "CERTO. Teses, relatórios e documentos institucionais podem circular fora dos canais editoriais comerciais convencionais. A categoria não determina acesso gratuito, ausência de avaliação ou pouca relevância científica. Também é necessário examinar a forma concreta de produção e difusão, em vez de classificar apenas pelo título do documento.",
+      "gatilho": "canais comerciais tradicionais",
+      "armadilhaBanca": "Distinguir circuito de circulação, regime de acesso e avaliação do conteúdo.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — literatura cinzenta. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda literatura cinzenta é necessariamente de acesso aberto, sem proteção autoral e sem avaliação.",
+      "item": "A literatura cinzenta compreende documentos como teses, relatórios técnicos de consultorias e normas internas que não são veiculados pelos canais comerciais tradicionais de publicação.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-71",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "shannon"
+    ],
+    "localizador": "problema técnico de comunicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "88ac78d3846856cfc364f3f12a94a02099796248cb4fc3a01269c39a51387313",
+    "shaDepois": "ff62a14874c55a9fb7f9800f3c512ced5aa2207ef05b32becaa0a7e5816f7b6a",
+    "patch": {
+      "justificativa": "ERRADO. O foco do modelo matemático é a transmissão e a escolha entre mensagens, com conceitos como canal, ruído e entropia. Ele não mede diretamente a qualidade do significado para um usuário. A semântica pode ser estudada em outras abordagens, mas não deve ser confundida com o objeto técnico delimitado por Shannon.",
+      "gatilho": "dimensão semântica",
+      "armadilhaBanca": "Separar medida técnica e interpretação semântica.",
+      "fonte": "SHANNON, Claude. A Mathematical Theory of Communication. 1948 — problema técnico de comunicação — https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O modelo matemático de Shannon se concentra no problema técnico de comunicação e não mede diretamente o significado para o receptor.",
+      "item": "A teoria matemática da comunicação de Shannon e Weaver foca primordialmente na dimensão semântica e na qualidade do significado da mensagem para o usuário humano.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-72",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "capurro"
+    ],
+    "localizador": "contexto e interpretação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "81214e2a9172b008789b3f84dc8748fb53d0cb01ec4d6066eba68cf6a40c2337",
+    "shaDepois": "880c928269b706904a6329507cacc864182ac1819707e5b7afbcdd119f55cf25",
+    "patch": {
+      "justificativa": "CERTO. O registro não determina sozinho uma compreensão idêntica para todos. Conhecimentos prévios, situação de uso e condições de recepção influenciam o sentido construído. Isso não torna toda interpretação igualmente sustentada: o conteúdo e as evidências também limitam conclusões.",
+      "gatilho": "usuário e o documento",
+      "armadilhaBanca": "Reconhecer contexto não equivale a abandonar evidência e fidelidade ao registro.",
+      "fonte": "CAPURRO, Rafael. Epistemologia e ciência da informação. 2003 — contexto e interpretação — https://www.capurro.de/enancib_p.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Como há interpretação, qualquer leitura de um documento é igualmente válida, mesmo quando contradiz seu conteúdo.",
+      "item": "Significação e recepção são fenômenos intrínsecos à relação entre o usuário e o documento, determinando a interpretação do conteúdo registrado.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-73",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dicionario"
+    ],
+    "localizador": "valores primário e secundário",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6113cc2d0fa435ccbed7a3a263fa1cdd7b2d305d17b5754b2796dca96f5b5f07",
+    "shaDepois": "426ffcc390178a7d15811b22be5707b64ad0d2f6d69f5611417bfabf440836b8",
+    "patch": {
+      "justificativa": "CERTO. Valor primário se relaciona aos usos que motivaram a produção; o secundário envolve outros usos, como evidência e pesquisa. O envelhecimento não cria automaticamente valor permanente. A avaliação considera funções, contexto e critérios, sem equiparar prazo de guarda a uma impressão de importância histórica.",
+      "gatilho": "razões originais",
+      "armadilhaBanca": "Distinguir uso posterior e atribuição automática de guarda permanente.",
+      "fonte": "CUNHA e CAVALCANTI. Dicionário de biblioteconomia e arquivologia. 2008 — valores primário e secundário. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo documento antigo adquire automaticamente valor secundário permanente, sem avaliação de sua função e contexto.",
+      "item": "O valor primário de um documento relaciona-se às razões originais de sua criação (administrativas, legais ou fiscais), enquanto o valor secundário decorre de seu uso histórico, testemunhal e científico.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-74",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "usuarios"
+    ],
+    "localizador": "conhecimento tácito e explicitação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "79130c68e3d42d1fdcdac7d86b1c981a0f4bfed8784a743108a198f21b242265",
+    "shaDepois": "79a6b0167fec636e8d6732bf54d518a9faf3f1bc14a7212920abd17c01cdc3a3",
+    "patch": {
+      "justificativa": "ERRADO. Parte do saber prático envolve experiência e julgamento difíceis de explicitar integralmente. Procedimentos e relatos podem externalizar aspectos, mas um manual não reproduz automaticamente toda competência de quem o escreveu. Diferentes tradições teóricas tratam a relação de formas próprias; não se deve atribuir uma conversão perfeita a todas.",
+      "gatilho": "direto e linear",
+      "armadilhaBanca": "Separar documentação de um procedimento e domínio da prática por outra pessoa.",
+      "fonte": "CUNHA, AMARAL e DANTAS. Manual de estudo de usuários da informação. 2015 — conhecimento tácito e explicitação. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Manuais podem registrar aspectos do conhecimento prático, sem transferir integral e automaticamente toda experiência tácita.",
+      "item": "O conhecimento tácito, teorizado por Michael Polanyi e desenvolvido por Nonaka e Takeuchi, pode ser convertido de modo direto e linear em manuais formais sem retenção de intuições práticas ou experiência acumulada.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-75",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "dcmi"
+    ],
+    "localizador": "funções descritivas e gestão dos metadados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "042dc193afc6e2456adcdd6d72b5ab301122ba8bdfcf91169be3ff66d6b445c9",
+    "shaDepois": "792b2470a86f763e843c43d271ff411abc160a9596e2d8f0de41edd78f3c6b58",
+    "patch": {
+      "justificativa": "CERTO. Metadados descrevem recursos e podem apoiar identificação, descoberta, gestão e preservação. Seu resultado depende de qualidade, manutenção e interoperabilidade. Ter metadados não garante autenticidade, preservação ou acesso perpétuo sem procedimentos e infraestrutura correspondentes.",
+      "gatilho": "dados estruturados",
+      "armadilhaBanca": "Uma ferramenta de gestão não é garantia automática do resultado.",
+      "fonte": "DCMI — Dublin Core Metadata Element Set, version 1.1 — funções descritivas e gestão dos metadados — https://www.dublincore.org/specifications/dublin-core/dces/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A simples existência de metadados garante preservação e acesso permanente, sem manutenção ou infraestrutura.",
+      "item": "Os metadados desempenham a função de dados estruturados que descrevem, explicam e localizam outros recursos informacionais, permitindo sua gestão e preservação ao longo do tempo.",
+      "submoduloId": "1.3"
+    }
+  },
+  {
+    "id": "fund-q-76",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9674"
+    ],
+    "localizador": "arts. 3º, 4º e 29: habilitação e registro",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "376d13e6f0fa3c4b90c77a6ad3f323fd8e88b7d68842b8c02111dfadf1458922",
+    "shaDepois": "4e42a07cf28184712402647d2560fd094b0dbecd1fe6fd3de6ce4253209889c9",
+    "patch": {
+      "item": "O exercício da profissão de bibliotecário exige habilitação legal e registro no CRB competente, observadas as hipóteses e condições previstas na legislação.",
+      "justificativa": "CERTO. A legislação define as hipóteses de habilitação, incluindo diploma nacional, diploma estrangeiro revalidado e situações legalmente amparadas. O exercício profissional exige o registro pertinente. A regra não pode ser reduzida à posse de qualquer diploma de nível superior nem ignorar as exceções legais expressas.",
+      "gatilho": "habilitação legal e registro",
+      "armadilhaBanca": "Separar formação genérica, habilitação legal e registro profissional.",
+      "fonte": "Lei 9.674/1998 — exercício profissional e sistema de conselhos — arts. 3º, 4º e 29: habilitação e registro — https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer diploma de nível superior habilita automaticamente ao exercício da profissão, mesmo sem registro no CRB.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-77",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "arts. 6º–7º: âmbito das atividades profissionais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "70e23a3fb2e9b157352d046cbf736165450946e7295f6278792221d3ded88e49",
+    "shaDepois": "8191604304795cd5c67e8ec78157b766ab57d4d1a86d7bb07761f8bbfe379dd6",
+    "patch": {
+      "item": "A execução de atos técnicos reservados à Biblioteconomia em avaliação de acervos é aberta a qualquer graduado em ciências humanas, bastando especialização genérica em patrimônio.",
+      "justificativa": "ERRADO. Uma especialização genérica não substitui a habilitação para atos técnicos reservados à profissão. Ao mesmo tempo, não se deve afirmar monopólio bibliotecário sobre toda perícia de qualquer documento: o objeto e a competência profissional precisam ser delimitados. O item trata da atuação técnica em serviços bibliotecários.",
+      "gatilho": "aberta a qualquer graduado",
+      "armadilhaBanca": "Distinguir atividade regulamentada e perícia documental em sentido amplo.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — arts. 6º–7º: âmbito das atividades profissionais — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Atos técnicos reservados à Biblioteconomia exigem habilitação pertinente; isso não abrange automaticamente toda perícia documental de outras áreas.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-78",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "art. 6º, especialmente alínea e",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9e462668fb342ba60f7ed589437ea72a24f9143ac5b442bc7a02851947c6fcad",
+    "shaDepois": "3dae50ba630a1d0ded91e0121b99a7e476ec11a5ea897bb1c19c0a1b78cf1f3a",
+    "patch": {
+      "justificativa": "ERRADO. A lei inclui serviços técnicos de classificação, catalogação, bibliografia e referência no âmbito das atribuições. Apoio operacional e trabalho em equipe não autorizam substituir integralmente a responsabilidade profissional por pessoas sem habilitação. É necessário distinguir tarefas auxiliares e atos técnicos reservados.",
+      "gatilho": "integralmente a técnicos administrativos sem supervisão",
+      "armadilhaBanca": "Não confundir colaboração administrativa e exercício autônomo de atividade privativa.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — art. 6º, especialmente alínea e — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Serviços podem contar com apoio operacional, sem delegar integralmente a leigos os atos técnicos e a responsabilidade reservados à profissão.",
+      "item": "O planejamento, a organização e a execução dos serviços de catalogação e classificação de documentos constituem atividades meramente facultativas, podendo ser delegadas integralmente a técnicos administrativos sem supervisão.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-79",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "art. 6º, alínea a: ensino de Biblioteconomia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "19cb552fd1ac75a13df957712fa23db82bbf6ac18a09fc317b955ed4a8e3ba32",
+    "shaDepois": "71d98ba9b2a931b1102995ac012cb077ad95f5b4a2023e4a2c12bd688f041f7f",
+    "patch": {
+      "item": "Uma pós-graduação em área correlata confere habilitação automática como bibliotecário para todas as atividades reservadas, inclusive as de ensino tratadas na legislação profissional, sem atender aos demais requisitos legais.",
+      "justificativa": "ERRADO. A lei menciona o ensino de Biblioteconomia entre as atribuições. Uma pós-graduação correlata não transforma automaticamente seu portador em bibliotecário nem afasta requisitos de atividades reservadas. Isso não deve virar afirmação de que toda disciplina geral de qualquer curso só pode ser ensinada por um registrado no CRB.",
+      "gatilho": "habilitação automática",
+      "armadilhaBanca": "Delimitar a atividade e não transformar especialização em habilitação automática.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — art. 6º, alínea a: ensino de Biblioteconomia — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma pós-graduação correlata não substitui automaticamente a habilitação legal para atividades profissionais reservadas.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-80",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb261"
+    ],
+    "localizador": "competência, julgamento e recursos; art. 36",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "110f04fcf344998f5d5d05bf5c1fe29c2ef29ec23075a8be27cb0786711b980c",
+    "shaDepois": "51e90eb71c08bd7bdff9f6bf7df3b12606377d30c8560b9354d55fb2163520bf",
+    "patch": {
+      "justificativa": "ERRADO. A cassação exige competência e processo regular, com defesa e recursos previstos. O código processual prevê atuação do CRB e comunicação ao CFB quando imposta a cassação; não autoriza um delegado a impor sumariamente a sanção. Também é incorreto afirmar que toda cassação só possa ser aplicada originariamente pelo CFB.",
+      "gatilho": "delegados regionais",
+      "armadilhaBanca": "Conferir o órgão competente e o procedimento, sem inventar competência sumária.",
+      "fonte": "CFB — Resolução 261/2023, processo ético-disciplinar — competência, julgamento e recursos; art. 36 — https://crb6.org.br/2020/wp-content/uploads/2023/09/Resolucao-CFB-n-261-de-19-de-setembro-de-2023.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A aplicação de cassação depende de competência e processo regular, com defesa, recursos e comunicação ao CFB conforme o regulamento.",
+      "item": "A penalidade disciplinar de cassação definitiva do registro profissional de bibliotecário pode ser aplicada de ofício por delegados regionais de biblioteconomia em procedimento sumário sem duplo grau de jurisdição.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-81",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "arts. 5º e 9º, I: sigilo e exceções legais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a1891ad8c62c031deebdc7dc1f5f6903cb41f7716fbac411514d833f7fa10a91",
+    "shaDepois": "643daa6f68a821c07417c55f00386099c8bad71cf58e63a1f3afd7d7ef82cb6c",
+    "patch": {
+      "justificativa": "CERTO. O sigilo protege informações conhecidas no exercício profissional, mas a norma ressalva hipóteses legais de comunicação, denúncia ou relato. Isso não permite divulgar livremente dados de usuários por curiosidade ou conveniência. É preciso identificar o dever aplicável e limitar a comunicação ao que é devido.",
+      "gatilho": "salvo em situações de obrigação legal",
+      "armadilhaBanca": "Distinguir exceção legal e divulgação por conveniência.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — arts. 5º e 9º, I: sigilo e exceções legais — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O sigilo permite divulgar qualquer consulta sempre que a equipe considerar a informação interessante para outras pessoas.",
+      "item": "Constitui dever fundamental do bibliotecário guardar sigilo sobre fatos ou informações de que tenha conhecimento em decorrência do exercício de suas funções, salvo em situações de obrigação legal.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-82",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "art. 7º, especialmente alíneas h e i",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8213f36519c0b23351cf8fcf6700007e574df03da0606618c6666830618bd481",
+    "shaDepois": "d62ba838df92a41b4d68a4bb0444fc5d34bcc482833f50f3274b1662608ed5f6",
+    "patch": {
+      "justificativa": "ERRADO. Cobrar uma taxa não legitima emprestar assinatura ou assumir trabalho alheio sem orientação, supervisão e fiscalização efetivas. A proibição não equivale a negar qualquer participação de auxiliares em tarefas permitidas. O ponto é a responsabilidade profissional real pelo que é subscrito.",
+      "gatilho": "taxa de validação",
+      "armadilhaBanca": "Distinguir trabalho em equipe e mero aluguel de assinatura.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — art. 7º, especialmente alíneas h e i — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A assinatura deve corresponder à atuação e responsabilidade efetivas, não ser cedida mediante pagamento para validar trabalho alheio sem supervisão.",
+      "item": "É permitido ao bibliotecário referendar e assinar fichas catalográficas elaboradas por pessoas sem formação superior em biblioteconomia, contanto que haja cobrança de taxa de validação de assinatura.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-83",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "deveres e proibições no exercício profissional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8c7775fa9168e76060688054f6d26791212175300bd825e7810fd08851745f3a",
+    "shaDepois": "f540a827364092d30fb57dd4b2efd25524faed44ef8e2a49acedc7b87efca630",
+    "patch": {
+      "justificativa": "ERRADO. A cobrança por um serviço deve seguir meios legítimos e não autoriza retenção abusiva de documentos ou condutas lesivas ao cliente. Relações de honorários exigem correção e responsabilidade, sem transformar regras éticas em autorização para impor qualquer tabela comercial. O inadimplemento não elimina direitos sobre documentos.",
+      "gatilho": "retenção proposital",
+      "armadilhaBanca": "Um direito de cobrar não legitima qualquer meio de pressão.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — deveres e proibições no exercício profissional — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A cobrança deve usar meios legítimos, sem reter abusivamente documentos para forçar pagamento.",
+      "item": "É lícito ao bibliotecário praticar o aviltamento de preços de serviços profissionais e a retenção proposital de documentos de clientes com vistas a forçar a liquidação de faturas em atraso.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-84",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "arts. 15 e 20: CFB e CRBs",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5cc7d518f86134f631f1f7826f676b05109fa0772933feeed2c9449eeca8a74d",
+    "shaDepois": "d2bfd6a35f4721e2e2a3801312f7f6fc0916368b67cd5097821585d9edcfd3ed",
+    "patch": {
+      "justificativa": "CERTO. O CFB exerce funções normativas e recursais no sistema, e os CRBs têm competências próprias de registro, fiscalização e julgamento. A competência recursal não torna o CFB o executor originário de toda fiscalização nem dispensa os procedimentos nos regionais. Atos normativos devem respeitar a lei.",
+      "gatilho": "órgão normativo superior",
+      "armadilhaBanca": "Distinguir coordenação normativa, recurso e atuação regional.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — arts. 15 e 20: CFB e CRBs — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Por ser instância superior, o CFB substitui automaticamente toda competência de registro, fiscalização e julgamento dos CRBs.",
+      "item": "O CFB funciona como órgão normativo superior e tribunal recursal ético da profissão, possuindo competência para editar resoluções e fiscalizar as ações dos Conselhos Regionais (CRBs).",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-85",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "deveres com usuários e proibições éticas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4bc47881c71529c0374c6f0eeb1fa57140f142d5822e68496e542dc50db105ed",
+    "shaDepois": "66ee1d104c719a70c50e264240ea892545917b6b3227d9829b20daf7190d9393",
+    "patch": {
+      "justificativa": "ERRADO. Divergência de crença ou posição política não é fundamento ético para discriminar o usuário. Restrições de serviço podem existir por regras legítimas de segurança, conservação ou finalidade, mas precisam de justificativa pertinente e tratamento adequado. Não se confundem com preferência ideológica do profissional.",
+      "gatilho": "convicções políticas, partidárias ou religiosas",
+      "armadilhaBanca": "Distinguir regra de serviço e restrição discriminatória.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — deveres com usuários e proibições éticas — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O atendimento deve respeitar o usuário; regras legítimas não autorizam discriminação por convicções pessoais.",
+      "item": "O Código de Ética autoriza expressamente o bibliotecário a recusar ou restringir atendimento e empréstimo a usuários em virtude de suas convicções políticas, partidárias ou religiosas divergentes.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-86",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "conduta profissional; deveres e atos ilícitos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "035ce275c5032096613ca07ffa5c85edabd65f63366920f8177051b91e053669",
+    "shaDepois": "05b136cfee947da36b52552978e8c94d8e3c5ebd11b32436616fe46a96835798",
+    "patch": {
+      "justificativa": "ERRADO. Eficiência não autoriza ocultar ou destruir registros para proteger uma pessoa de repercussão pública. Destinação documental deve seguir competência, critérios e procedimentos aplicáveis. Isso não significa que toda eliminação seja ilegal: o problema é o fim indevido e a falta de procedimento legítimo.",
+      "gatilho": "evitar o desgaste político",
+      "armadilhaBanca": "Separar destinação regular e destruição para impedir controle público.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — conduta profissional; deveres e atos ilícitos — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A eliminação documental exige critérios e procedimentos legítimos, não podendo servir a ocultação de informação por conveniência política.",
+      "item": "Em virtude do princípio da eficiência, o bibliotecário parlamentar pode reter e destruir documentos de interesse público para evitar o desgaste político de um parlamentar perante a opinião pública.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-87",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9674"
+    ],
+    "localizador": "art. 40, §1º: combinação de multa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0b83c9f92173bb56129a9abf6e3cc3325bab79952732852e46cb07370361f27a",
+    "shaDepois": "6f9661aee5eed3a42542f9cabf7624288d02264894f2f87b3f140abd326cca7d",
+    "patch": {
+      "justificativa": "CERTO. A lei permite combinar multa com as demais penalidades previstas. A aplicação deve observar gravidade, circunstâncias e processo; não significa punir automaticamente com todas as sanções. É preciso consultar também o procedimento vigente, sem criar uma pena não prevista.",
+      "gatilho": "cumulada",
+      "armadilhaBanca": "Distinguir possibilidade de combinação e cumulação automática de todas as penas.",
+      "fonte": "Lei 9.674/1998 — exercício profissional e sistema de conselhos — art. 40, §1º: combinação de multa — https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A pena de multa nunca pode ser combinada com outra sanção disciplinar prevista na lei.",
+      "item": "A pena de multa pode ser cumulada com outras sanções disciplinares, tais como a censura pública ou a suspensão do exercício profissional.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-88",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "art. 5º, alínea j; art. 9º, VIII",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "586d52bc657fcf1ecf8ab9f9c6393dfb9a6faec16fc842113a04d24c55a60cb6",
+    "shaDepois": "23121bc6aea95b61712cebf4c4857e81efc3290d521aee52b8fed587a3931c30",
+    "patch": {
+      "justificativa": "ERRADO. O código prevê combater o exercício ilegal e não ser conivente com práticas ilícitas. Isso exige agir pelos canais e com os elementos pertinentes, não produzir acusações sem fundamento. Preservar o ambiente de trabalho não transforma uma infração conhecida em algo eticamente indiferente.",
+      "gatilho": "manter omissão",
+      "armadilhaBanca": "Distinguir dever de agir e exposição acusatória sem prova.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — art. 5º, alínea j; art. 9º, VIII — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A atuação contra exercício ilegal deve seguir canais adequados e elementos pertinentes, sem conivência nem acusações infundadas.",
+      "item": "O Código de Ética estabelece que é mera faculdade do bibliotecário denunciar o exercício clandestino ou ilegal da profissão, sendo-lhe recomendado manter omissão para preservar o clima de trabalho.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-89",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "art. 20, alínea c: fiscalização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "165a9648ffc6db82765bb9b3b8e506c3a6500e31b95db59faabc096ea2805724",
+    "shaDepois": "8ab14a73871790d8baf99c54b393ebff641026b16ec2b096a7b1e47a983083b9",
+    "patch": {
+      "justificativa": "CERTO. A competência fiscalizatória profissional alcança o exercício das atividades regulamentadas, inclusive em órgãos públicos. Isso não atribui ao CRB poder para dirigir o processo legislativo ou julgar o mérito político de documentos da Câmara. A fiscalização deve respeitar objeto, competência e garantias aplicáveis.",
+      "gatilho": "habilitação dos responsáveis técnicos",
+      "armadilhaBanca": "Delimitar fiscalização profissional e competência institucional do órgão fiscalizado.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — art. 20, alínea c: fiscalização — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Fiscalizar habilitação profissional confere ao CRB poder para decidir o mérito político das proposições legislativas pesquisadas.",
+      "item": "Os Conselhos Regionais de Biblioteconomia têm o poder-dever de fiscalizar os setores técnicos de bibliotecas de órgãos públicos, inclusive do Poder Legislativo, verificando a habilitação dos responsáveis técnicos.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-90",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "art. 8º e sanções de outras naturezas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a8e6fc8f9df2ceec1e5a2ad7d4cb47f6a8b04278b7b25add4af4916ba8e64159",
+    "shaDepois": "17df37fcb41725db2015f2ffd337016d8e7110e044ef19ef8f244d9ec5a5b5a0",
+    "patch": {
+      "item": "Condutas profissionais podem gerar responsabilidades em diferentes esferas, conforme os requisitos próprios de cada uma, sem cumulação automática apenas pela existência de uma falha.",
+      "justificativa": "CERTO. Uma conduta pode ter repercussões em esferas distintas, com pressupostos e procedimentos próprios. Isso não significa responsabilidade penal automática por toda falha: tipificação, elemento subjetivo e demais requisitos devem ser verificados. Apurar eticamente e responsabilizar civilmente não são atos idênticos.",
+      "gatilho": "requisitos próprios",
+      "armadilhaBanca": "Separar a possibilidade de diferentes responsabilizações e sua aplicação automática.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — art. 8º e sanções de outras naturezas — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda falha profissional gera automaticamente responsabilidade penal, civil e administrativa simultâneas, sem requisitos próprios.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-91",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "deveres de desenvolvimento e atuação profissional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "95805bc8fdd687565e95f633d36e2a9b5eb7e3fcd56ba9b2a9f2208a8c2327b8",
+    "shaDepois": "394015e8644f59bc5ae6cc1b0bbe2aee75f0125aebd3249fd69de058397fa611",
+    "patch": {
+      "justificativa": "CERTO. Atualização apoia competência, qualidade e responsabilidade diante de mudanças técnicas e sociais. Fazer um curso ou dominar uma ferramenta não garante desempenho perfeito nem substitui a verificação de fontes e limites profissionais. Compartilhar conhecimentos também deve respeitar autoria e sigilo.",
+      "gatilho": "manter-se atualizado",
+      "armadilhaBanca": "Atualização é parte da responsabilidade, não dispensa dos demais deveres.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — deveres de desenvolvimento e atuação profissional — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A obtenção de um certificado de atualização dispensa o profissional de verificar fontes e respeitar sigilo e direitos autorais.",
+      "item": "O bibliotecário tem o dever ético de manter-se atualizado cultural e tecnologicamente, participando de processos de capacitação contínua e compartilhando saberes com a comunidade profissional.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-92",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9674"
+    ],
+    "localizador": "arts. 3º, 4º e 29",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4ccb8d9dd672c1c7a468a21bc22b476931729912dd180b4434753d361879f4f1",
+    "shaDepois": "22577ed9db822972854c5c583a5954f685b121d011634635cf7affefef87f90a",
+    "patch": {
+      "justificativa": "ERRADO. A mera formação em área afim não constitui habilitação provisória geral para atos privativos. Situações de registro provisório e hipóteses legais têm requisitos específicos; não se confundem com autorização automática para qualquer graduado enquanto aguarda um processo. O vínculo de emprego também não substitui a habilitação.",
+      "gatilho": "bacharéis em áreas afins",
+      "armadilhaBanca": "Distinguir modalidade de registro e dispensa indevida de habilitação.",
+      "fonte": "Lei 9.674/1998 — exercício profissional e sistema de conselhos — arts. 3º, 4º e 29 — https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A habilitação e o registro dependem das condições legais e regulamentares, não de simples graduação em área afim.",
+      "item": "A legislação que regulamenta a profissão de bibliotecário autoriza a atuação provisória de bacharéis em áreas afins na gestão de bibliotecas especializadas enquanto tramita o registro profissional definitivo no conselho de classe.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-93",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "art. 5º, h; art. 7º: publicidade e veracidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "abbf0a01094331bda7691252665ba468ab0b5f4a17b8a5164b38f5329985dc23",
+    "shaDepois": "5c0ee49a9fb21375477bdf233cd23e04e072fb1e86315c89a935d000449c26e6",
+    "patch": {
+      "justificativa": "ERRADO. Publicidade deve ser digna e compatível com o que o profissional pode comprovar. Prometer aprovação automática por órgão avaliador não transforma uma consultoria em garantia de decisão institucional. Preço e concorrência não justificam falsidade ou práticas que comprometam a dignidade profissional.",
+      "gatilho": "promessas infundadas",
+      "armadilhaBanca": "Distinguir divulgação de capacidade e promessa de decisão de terceiros.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — art. 5º, h; art. 7º: publicidade e veracidade — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O anúncio de serviços deve respeitar veracidade, limites da atuação e dignidade profissional, sem prometer resultado institucional infundado.",
+      "item": "Ao anunciar seus serviços técnicos, é facultado ao bibliotecário veicular promessas infundadas de aprovação automática de acervos pelo MEC e divulgar tabelas com preços aviltantes para captar clientes da concorrência.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-94",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "art. 9º, I: sigilo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d2beb181a19b60ba9765496e760638f513270cb2853347d49cc16452a3090644",
+    "shaDepois": "4ad0f2ccd91e38e0dff4336264f5b20d9abf056c0474879fb7e75663bd579f61",
+    "patch": {
+      "justificativa": "ERRADO. O código não cria esse prazo de expiração automática do sigilo. O afastamento do usuário não autoriza divulgar informações de suas consultas. Finalidade de retenção de dados e dever de confidencialidade também são questões relacionadas, mas diferentes: eliminar dados não é o mesmo que poder divulgá-los.",
+      "gatilho": "noventa dias",
+      "armadilhaBanca": "Não inventar um prazo de liberação de informações confidenciais.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — art. 9º, I: sigilo — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O término da frequência do usuário não faz cessar automaticamente o dever de sigilo em noventa dias.",
+      "item": "O dever de sigilo profissional cessa compulsoriamente caso o usuário deixe de frequentar a biblioteca por mais de noventa dias.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-95",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb261"
+    ],
+    "localizador": "sanções e comunicações do processo disciplinar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a645b61ec3ece6a80b32ded2c72608148906b4aff070511efda1d3d2dde0b755",
+    "shaDepois": "b7cfa59569efe82ae4ad36fb65f7aac93cb734db237077a64c59087dab834d01",
+    "patch": {
+      "justificativa": "ERRADO. Censura pública não é advertência reservada. O procedimento e a comunicação devem seguir a norma aplicável; não se substitui a sanção por um bilhete privado. Também não se deve deduzir que toda ciência pessoal da decisão depende exclusivamente de publicação no Diário Oficial, pois há formas de notificação previstas.",
+      "gatilho": "bilhete confidencial",
+      "armadilhaBanca": "Distinguir natureza da penalidade, publicidade e forma de notificação do interessado.",
+      "fonte": "CFB — Resolução 261/2023, processo ético-disciplinar — sanções e comunicações do processo disciplinar — https://crb6.org.br/2020/wp-content/uploads/2023/09/Resolucao-CFB-n-261-de-19-de-setembro-de-2023.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A natureza da censura pública e o procedimento de comunicação não se confundem com advertência reservada ou bilhete privado.",
+      "item": "A penalidade de censura pública, quando aplicada por órgão de classe, prescinde de qualquer publicação oficial, devendo ficar restrita a um bilhete confidencial entregue ao profissional.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-96",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "art. 6º, §1º, c: propriedade intelectual",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "96793ddd6eae1c4eceee8a9b8de2b724a733e664ab4abe891da967380c63d792",
+    "shaDepois": "149478b8476ca116ad192c4922ab667d8982cbaad54d3e91d5963b912c33966c",
+    "patch": {
+      "justificativa": "CERTO. O profissional deve respeitar propriedade intelectual e orientar usos legítimos. Reprodução integral pode ser autorizada por licença, titularidade, domínio público ou hipótese legal aplicável; não é sempre ilícita. É a prática ilegal que deve ser evitada, sem inventar uma regra universal de dez por cento de cópia.",
+      "gatilho": "direitos autorais",
+      "armadilhaBanca": "Separar extensão da reprodução e fundamento jurídico de sua realização.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — art. 6º, §1º, c: propriedade intelectual — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda reprodução integral é necessariamente ilegal, mesmo com autorização do titular ou quando a obra está em domínio público.",
+      "item": "O bibliotecário deve zelar pelo respeito à propriedade intelectual e aos direitos autorais das obras, orientando os usuários sobre a legislação pertinente e coibindo práticas ilegais de reprodução integral predatória.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-97",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb"
+    ],
+    "localizador": "art. 6º: relação com colegas e elementos comprobatórios",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0c05ff2d8f5fbe6c4dd809c1d4231802066570b25d506148da52c6be1e70f22c",
+    "shaDepois": "c5a42d39bea0989f2cf1df578b9d7854f75fa8e9c2178f26308be7829a0e13c1",
+    "patch": {
+      "justificativa": "ERRADO. Difamação ou ataque desabonador para vantagem pessoal não se confunde com denúncia fundamentada ou crítica técnica responsável. A ética exige elementos e canais adequados. Proteger colegas de ataques não significa tolerar irregularidades comprovadas nem proibir toda avaliação crítica.",
+      "gatilho": "obter sua vaga",
+      "armadilhaBanca": "Distinguir ataque pessoal, crítica técnica e comunicação fundamentada.",
+      "fonte": "CFB — Resolução 207/2018, Código de Ética e Deontologia — art. 6º: relação com colegas e elementos comprobatórios — https://www.crb15.org.br/codigo-de-etica/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Respeitar colegas impede qualquer denúncia de irregularidade, mesmo fundamentada e feita ao órgão competente.",
+      "item": "É lícito ao bibliotecário emitir pareceres públicos desabonadores e denegrir a reputação técnica de um colega concorrente com o intuito de obter sua vaga em concurso ou licitação pública.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-98",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cfb286"
+    ],
+    "localizador": "normas eleitorais do sistema; Resolução CFB 286/2026",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c402d8c8e79d3ef07211408559363f5ee167b829c99d1368e2f910a9f374f2d8",
+    "shaDepois": "9ae470fcb2399f7a5e607bd9e2737fb755ef4bc90af42ba9b621633343452549",
+    "patch": {
+      "item": "Nas eleições dos CRBs reguladas pela Resolução CFB 286/2026, o voto é secreto, direto e pessoal, com obrigatoriedade e condições de aptidão e justificativa conforme a norma.",
+      "justificativa": "CERTO. A regra eleitoral adotada no pleito de 2026 prevê voto secreto, obrigatório, direto e pessoal, com requisitos de aptidão e possibilidade de justificar ausência conforme a resolução. Votar nos representantes regionais não é a mesma seleção prevista para toda função no sistema CFB/CRB. A norma e o período precisam ser identificados.",
+      "gatilho": "secreto, direto e pessoal",
+      "armadilhaBanca": "Separar exercício pessoal do voto e representação por mandatário.",
+      "fonte": "CFB — Resolução 286/2026, eleições dos CRBs — normas eleitorais do sistema; Resolução CFB 286/2026 — https://crb6.org.br/2020/wp-content/uploads/2026/05/Resolucao-CFB-n.o-286-Eleicoes-CRB-2026.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O voto para conselheiros regionais no pleito de 2026 pode ser transferido livremente por procuração.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-99",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei4084"
+    ],
+    "localizador": "art. 6º, alínea c: administração e direção de bibliotecas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e300fa3de4b768a93e932c3e124f4ade2214232da15c67438acfcc61c4c35d8e",
+    "shaDepois": "2343c81bf2d98170f543c928b8d4673446a109dc36906d00def209ab35310129",
+    "patch": {
+      "item": "O art. 6º, alínea c, da Lei 4.084/1962 inclui administração e direção de bibliotecas entre as atribuições profissionais regulamentadas.",
+      "justificativa": "CERTO. O dispositivo inclui administração e direção de bibliotecas no conjunto de atribuições. A incidência concreta depende da natureza da função e dos requisitos legais, não apenas do título informal do cargo. Apoio administrativo não equivale automaticamente ao exercício integral de responsabilidade técnica.",
+      "gatilho": "administração e direção",
+      "armadilhaBanca": "Avaliar a função efetiva, além do rótulo do cargo.",
+      "fonte": "Lei 4.084/1962 — exercício da profissão de bibliotecário — art. 6º, alínea c: administração e direção de bibliotecas — https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O simples nome administrativo de um cargo dispensa examinar se suas funções exercem atribuições técnicas legalmente reservadas.",
+      "submoduloId": "1.4"
+    }
+  },
+  {
+    "id": "fund-q-100",
+    "caminho": "src/content/questions/m1-fundamentos-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9674"
+    ],
+    "localizador": "arts. 29 e 39: registro e exercício",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cdafd9ac5a3359590ec09c34f85bed2045a751d639030334375e65dab69042ec",
+    "shaDepois": "3f62d605a7dcdc9ac4d803ce89d7bcaad0feb547f7a796393d95deccc3ece2f2",
+    "patch": {
+      "justificativa": "ERRADO. Desemprego não autoriza exercer atos privativos sem atender às condições de registro. Se o profissional volta a desempenhar atividades regulamentadas, deve regularizar sua situação segundo as regras aplicáveis. Dificuldade financeira também não deve ser confundida com suspensão automática por dívida, tema que exige considerar a jurisprudência pertinente.",
+      "gatilho": "sem manter seu registro profissional ativo",
+      "armadilhaBanca": "Separar situação de emprego, regularidade do registro e tratamento jurídico de débitos.",
+      "fonte": "Lei 9.674/1998 — exercício profissional e sistema de conselhos — arts. 29 e 39: registro e exercício — https://www2.camara.leg.br/legin/fed/lei/1998/lei-9674-25-junho-1998-352853-publicacaooriginal-1-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O retorno ao exercício profissional regulamentado exige atender aos requisitos de habilitação e registro, mesmo após um período de desemprego.",
+      "item": "O bibliotecário registrado no CRB que estiver desempregado pode continuar exercendo atividades privativas de bibliotecário em empresas sem manter seu registro profissional ativo.",
+      "submoduloId": "1.4"
+    }
+  }
+]

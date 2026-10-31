@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { sessaoPrecisaAtualizacao } from '../domain/versaoConteudoSimulado';
+import React, { useState, useEffect, useEffectEvent } from 'react';
 import { ALL_SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore, getSimuladoIdFromHash, getQuestionIndexFromHash } from '../store/useNavigationStore';
@@ -192,17 +193,13 @@ export const SimuladoPage: React.FC = () => {
   }, [selectedSimuladoId, setSimuladoAtivoId, iniciarOuRetomarSimulado]);
 
   // Modo de reteste apenas com erros (Regra 2.4 B)
-  const [itensFiltradosReteste, setItensFiltradosReteste] = useState<string[] | null>(null);
+  const sessaoAtual = obterSessaoSimulado(selectedSimuladoId);
+  const itensFiltradosReteste = sessaoAtual.itensSelecionados;
 
-  const questoesExibidas = React.useMemo(() => {
-    if (!itensFiltradosReteste || itensFiltradosReteste.length === 0) {
-      return simuladoAtivo.questoes;
-    }
-    const map = new Map(simuladoAtivo.questoes.map((q) => [q.id, q]));
-    return itensFiltradosReteste
-      .map((id) => map.get(id))
-      .filter((q): q is (typeof simuladoAtivo.questoes)[0] => Boolean(q));
-  }, [itensFiltradosReteste, simuladoAtivo.questoes]);
+  const questoesPorId = new Map(simuladoAtivo.questoes.map(q => [q.id, q]));
+  const questoesExibidas = itensFiltradosReteste?.length
+    ? itensFiltradosReteste.flatMap(id => { const q = questoesPorId.get(id); return q ? [q] : []; })
+    : simuladoAtivo.questoes;
 
   useEffect(() => {
     if (!targetQuestionId || (targetSimuladoId && targetSimuladoId !== selectedSimuladoId)) return;
@@ -211,7 +208,7 @@ export const SimuladoPage: React.FC = () => {
     setTargetQuestionId(undefined);
   }, [targetQuestionId, targetSimuladoId, selectedSimuladoId, questoesExibidas, mudarQuestaoSimulado, setTargetQuestionId]);
 
-  const sessaoAtual = obterSessaoSimulado(selectedSimuladoId);
+  const sessaoDesatualizada = sessaoPrecisaAtualizacao(sessaoAtual, simuladoAtivo.questoes);
   const currentIndex = Math.max(
     0,
     Math.min((questoesExibidas.length || 1) - 1, sessaoAtual.currentIndex ?? 0)
@@ -274,17 +271,14 @@ export const SimuladoPage: React.FC = () => {
   }
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setTempoGasto((prev) => {
-        const next = prev + 1;
-        if (next % 5 === 0) {
-          salvarTempoSimulado(selectedSimuladoId, next);
-        }
-        return next;
-      });
-    }, 1000);
+    if (sessaoDesatualizada || relatorioFinal) return;
+    const timer = setInterval(() => setTempoGasto(prev => prev + 1), 1000);
     return () => clearInterval(timer);
-  }, [selectedSimuladoId, salvarTempoSimulado]);
+  }, [selectedSimuladoId, sessaoDesatualizada, relatorioFinal]);
+
+  useEffect(() => {
+    if (!sessaoDesatualizada && !relatorioFinal && tempoGasto > 0 && tempoGasto % 5 === 0) salvarTempoSimulado(selectedSimuladoId, tempoGasto);
+  }, [tempoGasto, selectedSimuladoId, sessaoDesatualizada, relatorioFinal, salvarTempoSimulado]);
 
   // Controle de certeza por questão sem efeitos colaterais em cascata
   const [certezaManualMap, setCertezaManualMap] = useState<
@@ -324,33 +318,21 @@ export const SimuladoPage: React.FC = () => {
   const currentQId = currentQuestion?.id;
   const currentQGabarito = currentQuestion?.gabarito;
 
-  const handleJulgar = useCallback(
-    (resposta: 'C' | 'E' | 'BRANCO') => {
-      if (!currentQId || !currentQGabarito) return;
-      // V-01: Resposta única por item (blindagem estrita do Fator Cebraspe)
-      if (isItemRespondido) return;
-
-      const acertou = resposta === 'BRANCO' ? undefined : resposta === currentQGabarito;
-      salvarRespostaSimulado(selectedSimuladoId, currentQId, resposta, certezaSelecionada, acertou);
-    },
-    [selectedSimuladoId, currentQId, currentQGabarito, certezaSelecionada, salvarRespostaSimulado, isItemRespondido]
-  );
-
-  const handleNext = useCallback(() => {
-    if (currentIndex < questoesExibidas.length - 1) {
-      mudarQuestaoSimulado(currentIndex + 1, selectedSimuladoId);
-    }
-  }, [currentIndex, mudarQuestaoSimulado, selectedSimuladoId, questoesExibidas.length]);
-
-  const handlePrev = useCallback(() => {
-    if (currentIndex > 0) {
-      mudarQuestaoSimulado(currentIndex - 1, selectedSimuladoId);
-    }
-  }, [currentIndex, mudarQuestaoSimulado, selectedSimuladoId]);
+  const handleJulgar = (resposta: 'C' | 'E' | 'BRANCO') => {
+    if (!currentQId || !currentQGabarito || sessaoDesatualizada || isItemRespondido) return;
+    const acertou = resposta === 'BRANCO' ? undefined : resposta === currentQGabarito;
+    salvarRespostaSimulado(selectedSimuladoId, currentQId, resposta, certezaSelecionada, acertou);
+  };
+  const handleNext = () => {
+    if (currentIndex < questoesExibidas.length - 1) mudarQuestaoSimulado(currentIndex + 1, selectedSimuladoId);
+  };
+  const handlePrev = () => {
+    if (currentIndex > 0) mudarQuestaoSimulado(currentIndex - 1, selectedSimuladoId);
+  };
 
   // Atalhos de teclado no desktop
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
+  const handleKeyDown = useEffectEvent((e: KeyboardEvent) => {
+      if (sessaoDesatualizada || relatorioFinal) return;
       const alvo = e.target as HTMLElement;
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes(alvo.tagName) || alvo.isContentEditable) {
         return;
@@ -377,13 +359,14 @@ export const SimuladoPage: React.FC = () => {
         e.preventDefault();
         handlePrev();
       }
-    };
-
+  });
+  useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleJulgar, handleNext, handlePrev]);
+  }, []);
 
   const handleFinalizar = () => {
+    if (sessaoDesatualizada) return;
     salvarTempoSimulado(selectedSimuladoId, tempoGasto);
     const resultado = finalizarSimulado(tempoGasto, selectedSimuladoId);
     setRelatorioFinal(resultado);
@@ -418,21 +401,21 @@ export const SimuladoPage: React.FC = () => {
     reiniciarSimulado(selectedSimuladoId);
     setTempoGasto(0);
     setRelatorioFinal(null);
-    setItensFiltradosReteste(null);
     iniciarOuRetomarSimulado(selectedSimuladoId);
   };
 
   const handleRefazerErros = (itensErradosIds: string[]) => {
     if (itensErradosIds.length === 0) return;
     const embaralhados = [...itensErradosIds].sort(() => Math.random() - 0.5);
-    setItensFiltradosReteste(embaralhados);
+    reiniciarSimulado(selectedSimuladoId);
+    iniciarOuRetomarSimulado(selectedSimuladoId, embaralhados);
+    setTempoGasto(0);
     setRelatorioFinal(null);
     mudarQuestaoSimulado(0, selectedSimuladoId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleNovoSimuladoCompleto = () => {
-    setItensFiltradosReteste(null);
     handleNovoSimulado();
   };
 
@@ -445,6 +428,7 @@ export const SimuladoPage: React.FC = () => {
     }
     if (categoriaSimuladoFiltro === 'especiais') {
       return (
+        sim.id === 'submodulos-ampliados' ||
         sim.id === 'mega-simulado-camara' ||
         sim.id === 'mini-modulo-orgaos' ||
         sim.id === 'simulado-geral-180q'
@@ -501,7 +485,7 @@ export const SimuladoPage: React.FC = () => {
               : 'text-ink-2 hover:text-ink'
           }`}
         >
-          Mega, Geral & Especiais (3)
+          Mega, Geral & Especiais (4)
         </button>
       </div>
 
@@ -569,7 +553,7 @@ export const SimuladoPage: React.FC = () => {
     const moduloAtualSubmodules = moduloAtual.modulosFilhos || [];
     const isMiniSimulado = simuladoAtivo.id === 'mini-modulo-orgaos';
     const accessControl: SimuladoAccessControl =
-      isMegaSimulado || isMiniSimulado || selectedSimuladoId.startsWith('treino-eixo-')
+      isMegaSimulado || isMiniSimulado || selectedSimuladoId === 'submodulos-ampliados' || selectedSimuladoId.startsWith('treino-eixo-')
         ? {
             isUnlocked: true,
             totalSubmodulosConcluidos: 1,
@@ -597,6 +581,7 @@ export const SimuladoPage: React.FC = () => {
         <div className="max-w-3xl mx-auto py-8 sm:py-12 px-4 space-y-6 animate-fadeIn">
       <p className="text-sm font-semibold text-ink-2" role="note">{modoProva ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
       {renderSimuladoSelector()}
+
 
       {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
       {Boolean(simuladoAtivo.itensForaConferencia) && (
@@ -731,6 +716,9 @@ export const SimuladoPage: React.FC = () => {
 
   // Se o simulado foi finalizado nesta sessão, exibe o relatório final
   if (relatorioFinal) {
+    const questoesRelatorio = relatorioFinal.itensSelecionados?.length
+      ? simuladoAtivo.questoes.filter(q => relatorioFinal.itensSelecionados!.includes(q.id))
+      : simuladoAtivo.questoes;
     // Quebra por submódulo
     const quebraSubmodulos: Record<
       string,
@@ -740,7 +728,7 @@ export const SimuladoPage: React.FC = () => {
       quebraSubmodulos[id] = { certos: 0, errados: 0, brancos: 0, total: 25 };
     });
 
-    simuladoAtivo.questoes.forEach((q) => {
+    questoesRelatorio.forEach((q) => {
       const r = relatorioFinal.respostas[q.id];
       const sub = quebraSubmodulos[q.submoduloId];
       if (sub) {
@@ -755,7 +743,7 @@ export const SimuladoPage: React.FC = () => {
     });
 
     const itensVistosInfo = contarItensJaVistosNosModulos(
-      simuladoAtivo.questoes,
+      questoesRelatorio,
       itemAttempts,
       checkpointsRespondidos
     );
@@ -837,11 +825,11 @@ export const SimuladoPage: React.FC = () => {
           </div>
 
                     {/* Alerta Informativo C4: Itens Já Vistos nos Módulos e Não Impacto no Domínio */}
-          {(simuladoAtivo.questoes.length === 180 || selectedSimuladoId.includes('180') || itensVistosInfo.totalVistos > 0) && (
+          {(questoesRelatorio.length === 180 || selectedSimuladoId.includes('180') || itensVistosInfo.totalVistos > 0) && (
             <div className="p-4 rounded-xl border border-amber-500/30 bg-amber-500/10 text-ink space-y-1.5 my-6 print:border-gray-300 print:bg-gray-50 print:break-inside-avoid">
               <div className="flex items-center gap-2 font-sans font-bold text-sm text-accent dark:text-amber-400 print:text-black">
                 <Info className="w-4 h-4 shrink-0" />
-                <span>{itensVistosInfo.totalVistos} de {simuladoAtivo.questoes.length} itens já vistos nos módulos ({itensVistosInfo.porcentagemVistos}%)</span>
+                <span>{itensVistosInfo.totalVistos} de {questoesRelatorio.length} itens já vistos nos módulos ({itensVistosInfo.porcentagemVistos}%)</span>
               </div>
               <p className="text-xs text-ink-2 print:text-gray-700">
                 Este simulado consolida itens do acervo para treinamento de ritmo de prova, gestão de tempo e aferição de pisos eliminatórios (18/27/54). Seu resultado não afeta os indicadores nem os portões de domínio da trilha de estudos.
@@ -851,10 +839,10 @@ export const SimuladoPage: React.FC = () => {
 
           {/* Painel Oficial de Pisos Eliminatórios Cebraspe (P22 / Edital 8.11.5) */}
           {(() => {
-            const is180Q = simuladoAtivo.questoes.length === 180 || selectedSimuladoId.includes('180') || selectedSimuladoId.includes('oficial');
+            const is180Q = questoesRelatorio.length === 180 || selectedSimuladoId.includes('180') || selectedSimuladoId.includes('oficial');
             if (!is180Q) return null;
 
-            const avaliacao = avaliarDesempenhoSimuladoOficial180(simuladoAtivo.questoes, relatorioFinal.respostas);
+            const avaliacao = avaliarDesempenhoSimuladoOficial180(questoesRelatorio, relatorioFinal.respostas);
 
             return (
               <div
@@ -1103,7 +1091,7 @@ export const SimuladoPage: React.FC = () => {
               </h3>
             </div>
             <p className="text-xs sm:text-sm text-ink-2 print:text-gray-700 font-serif mb-4 leading-relaxed">
-              Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos {simuladoAtivo.questoes.length} itens de {simuladoAtivo.tituloCurto}:
+              Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos {questoesRelatorio.length} itens de {simuladoAtivo.tituloCurto}:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1171,7 +1159,7 @@ export const SimuladoPage: React.FC = () => {
               const temaInfo = getSubmoduloTemaInfo(subId);
 
               // Filtra questões do submódulo e ordena: Erros primeiro, depois Branco, depois Acertos
-              const questoesSub = simuladoAtivo.questoes.filter((q) => q.submoduloId === subId);
+              const questoesSub = questoesRelatorio.filter((q) => q.submoduloId === subId);
               const questoesOrdenadas = [...questoesSub].sort((a, b) => {
                 const respA = relatorioFinal.respostas[a.id]?.resposta || 'BRANCO';
                 const respB = relatorioFinal.respostas[b.id]?.resposta || 'BRANCO';
@@ -1294,7 +1282,7 @@ export const SimuladoPage: React.FC = () => {
                               {q.contexto}
                             </p>
                           )}
-                          <p className="text-sm text-ink print:text-black font-serif leading-relaxed font-medium">
+                          <p lang={q.macroModuloId?.toUpperCase() === 'M12' ? 'en' : undefined} className="text-sm text-ink print:text-black font-serif leading-relaxed font-medium whitespace-pre-line">
                             {q.item}
                           </p>
 
@@ -1353,6 +1341,23 @@ export const SimuladoPage: React.FC = () => {
     );
   }
 
+  function baixarHistoricoPreservado() {
+    const blob = new Blob([useProgressStore.getState().exportarProgressoJson()], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a'); link.href = url; link.download = 'hnc-historico-preservado.json'; link.click();
+    URL.revokeObjectURL(url);
+  };
+  if (sessaoDesatualizada) return (
+    <section className="max-w-3xl mx-auto space-y-5 p-5 rounded-2xl border border-border bg-surface" aria-label="Tentativa de uma versão anterior">
+      <h1 className="text-2xl font-serif">Atualizamos as questões deste caderno</h1>
+      <p>Esta tentativa contém respostas de uma versão anterior ou sem versão registrada. Para preservar seu histórico, ela não será corrigida com os novos enunciados e gabaritos.</p>
+      <p>Você pode guardar as {Object.keys(respostas).length} respostas anteriores e iniciar uma nova tentativa. Os resultados já concluídos permanecem no histórico.</p>
+      <button type="button" className="min-h-[44px] rounded-xl px-4 bg-accent text-white foco" onClick={() => { reiniciarSimulado(selectedSimuladoId); iniciarOuRetomarSimulado(selectedSimuladoId); setTempoGasto(0); }}>Arquivar tentativa e iniciar versão atual</button>
+      <button type="button" className="min-h-[44px] rounded-xl px-4 border border-border foco" onClick={baixarHistoricoPreservado}>Baixar cópia do histórico</button>
+      {renderSimuladoSelector()}
+    </section>
+  );
+
   // Visualização Normal da Questão
   return (
     <div className="max-w-6xl mx-auto space-y-4 animate-fadeIn">
@@ -1373,6 +1378,11 @@ export const SimuladoPage: React.FC = () => {
         {Object.keys(respostas).length > 0 && <span className="text-xs text-ink-2">O modo é definido antes da primeira resposta. Reinicie o caderno para escolher outro modo.</span>}
       </fieldset>
       {renderSimuladoSelector()}
+      {Boolean(sessaoAtual.tentativasArquivadas?.length) && <details className="rounded-xl border border-border p-3 text-sm">
+        <summary className="cursor-pointer">Tentativas preservadas ({sessaoAtual.tentativasArquivadas?.length})</summary>
+        <p className="py-2">Suas respostas anteriores estão guardadas sem recorreção com o banco atual.</p>
+        <button type="button" className="min-h-[44px] underline foco" onClick={baixarHistoricoPreservado}>Baixar histórico preservado</button>
+      </details>}
 
       {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
       {Boolean(simuladoAtivo.itensForaConferencia) && (
@@ -1398,8 +1408,7 @@ export const SimuladoPage: React.FC = () => {
           <button
             type="button"
             onClick={() => {
-              setItensFiltradosReteste(null);
-              mudarQuestaoSimulado(0, selectedSimuladoId);
+                        mudarQuestaoSimulado(0, selectedSimuladoId);
             }}
             className="font-mono text-xs underline text-ink-2 hover:text-ink cursor-pointer"
           >
@@ -1448,8 +1457,13 @@ export const SimuladoPage: React.FC = () => {
 
         {/* Card do Enunciado Cebraspe */}
         <article className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs space-y-6">
+          {currentQuestion.contexto && (
+            <div className="font-serif text-ink-2 text-base leading-relaxed whitespace-pre-line border-b border-border pb-5">
+              {currentQuestion.contexto}
+            </div>
+          )}
           {/* Texto Canônico do Item */}
-          <div className="font-serif text-ink text-base sm:text-lg leading-relaxed pt-2">
+          <div lang={currentQuestion.macroModuloId?.toUpperCase() === 'M12' ? 'en' : undefined} className="font-serif text-ink text-base sm:text-lg leading-relaxed pt-2 whitespace-pre-line">
             {currentQuestion.item}
           </div>
 

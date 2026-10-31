@@ -1,0 +1,2512 @@
+[
+  {
+    "id": "m10a-q-1",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 59: espécies do processo legislativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b246af3e416b0bf39a596d28772dfbdfd40507c362e799924be2765beefda07e",
+    "shaDepois": "f49a96f0068f1bb99a45e078d5604868eae0b9f1ceef7288ee3da4b104ce16b1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O dispositivo enumera sete espécies, incluindo atos que não dependem de sanção presidencial. Listar as espécies não significa que todas tenham a mesma iniciativa, quórum e procedimento. Resolução e decreto legislativo não se confundem com decreto regulamentar do Executivo.",
+      "gatilho": "resoluções",
+      "armadilhaBanca": "Distinguir elenco constitucional e identidade de ritos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 59: espécies do processo legislativo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todas as espécies do art. 59 dependem necessariamente de sanção presidencial e seguem o mesmo procedimento.",
+      "item": "O processo legislativo brasileiro compreende expressamente a elaboração de emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-2",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 47: presença e votos necessários",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4cbbe81fc8c566cba5b502c271f6ba782c4b8112bbe1cad9f493757606a8ac1e",
+    "shaDepois": "ff2fa12da95c28aeb2f4328825e715fce6d2729723d58743491769c22d38d7e0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Salvo regra específica, delibera-se por maioria dos votos com presença da maioria absoluta dos membros. A primeira medida garante quórum de instalação; a segunda trata da aprovação. Exigir presença de mais da metade não equivale a exigir que mais da metade de todos vote favoravelmente.",
+      "gatilho": "presença",
+      "armadilhaBanca": "Separar quórum de presença e de aprovação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 47: presença e votos necessários — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Exigir a presença da maioria absoluta significa sempre exigir votos favoráveis da maioria absoluta dos membros.",
+      "item": "Em uma deliberação sobre lei ordinária, a presença da maioria absoluta dos membros da Casa não significa, por si só, que a aprovação exija votos favoráveis da maioria absoluta desses membros.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-3",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 59 e 69: reserva de lei complementar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6e3bbd9853f371323f9881b4c5edfe699891e260ed51958d04cdf9d368cc672c",
+    "shaDepois": "069eac0564a4d31119ba2c7b91fa0fec1de243b0b2851a16e8f508427d9e11bc",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A reserva constitucional envolve espécie e procedimento próprios, não apenas contagem de votos ocasional. Aprovar um projeto apresentado como lei ordinária por maioria absoluta não afasta automaticamente o vício em matéria reservada. Também é preciso distinguir a situação inversa de lei complementar que trata de matéria ordinária.",
+      "gatilho": "válida",
+      "armadilhaBanca": "Confundir resultado numérico e espécie normativa adequada.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 59 e 69: reserva de lei complementar — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O atendimento eventual de maioria absoluta não transforma automaticamente uma lei ordinária em lei complementar para suprir reserva constitucional.",
+      "item": "Se uma lei ordinária veicular matéria reservada constitucionalmente a lei complementar, referida lei ordinária será considerada válida desde que tenha obtido votação correspondente à maioria absoluta dos parlamentares durante sua tramitação.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-4",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 61, §2º: iniciativa popular",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f034e453a5e054e5f2a324453fe001ed5635b7bb934396e870e84074af0ec3e0",
+    "shaDepois": "01ac072befc5c68fe7dc9733f6f8d8cb9a7a32e5ba04a861df552db1a49efb15",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. É necessário atender ao percentual nacional, ao número mínimo de estados e ao percentual em cada um. Os requisitos são cumulativos. Não se mede a fração apenas pelos presentes a uma reunião nem pelo número de assinaturas em um único estado.",
+      "gatilho": "três décimos",
+      "armadilhaBanca": "Preservar requisitos cumulativos da iniciativa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 61, §2º: iniciativa popular — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Alcançar o percentual nacional dispensa distribuir os subscritores por ao menos cinco estados.",
+      "item": "A iniciativa popular de leis federais pode ser exercida pela subscrição de, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-5",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 61, §2º: apresentação na Câmara",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7924134a02c1f0456f6040ba013a3c3567d1f4579c3d7903c42b503015aa21ea",
+    "shaDepois": "1029297ba37d43234ad14ca906271f5ce66f8bfa46f372c44b7238bcd8f40524",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A apresentação federal por iniciativa popular se dá à Câmara dos Deputados. Distribuir assinaturas por estados não faz o Senado ser a Casa de apresentação. Os requisitos do eleitorado e o órgão destinatário são condições diferentes do procedimento.",
+      "gatilho": "Senado Federal",
+      "armadilhaBanca": "Confundir distribuição territorial e Casa de apresentação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 61, §2º: apresentação na Câmara — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O projeto federal de iniciativa popular é apresentado à Câmara dos Deputados, atendidos os requisitos constitucionais.",
+      "item": "Atendidos os requisitos constitucionais de subscrição e distribuição do eleitorado, um projeto de lei de iniciativa popular federal deve ser apresentado ao Senado Federal.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-6",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 61, §1º, I e II, a",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f47f38ba44e62a85aa213952c866eb4072c2063a56b5ba4b47557c9373012411",
+    "shaDepois": "2fef82a3a5a5fe2619f199ebb78ab216a2dd30990dd10a712967b7cd1353ee42",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No âmbito das competências do Executivo federal, a Constituição reserva ao Presidente projetos sobre criação de cargos, funções ou empregos na administração direta e autárquica ou aumento de remuneração, além da fixação ou modificação do efetivo das Forças Armadas.",
+      "justificativa": "CERTO. A reserva indicada alcança os serviços do âmbito constitucional pertinente e o efetivo das Forças Armadas. Não se deve estendê-la automaticamente a cargos e serviços internos da Câmara, do Senado ou do Judiciário, que possuem competências próprias. A redação não equivale a iniciativa presidencial para todo cargo público de qualquer Poder.",
+      "gatilho": "administração direta e autárquica",
+      "armadilhaBanca": "Delimitar o alcance da iniciativa reservada.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 61, §1º, I e II, a — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A iniciativa presidencial indicada afasta também as competências próprias de organização e pessoal das Casas legislativas.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-7",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 63, I, e ressalva do art. 166",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "93488dd75657ed12e7171d354f1c77bd64456aa429bf2b3bfc7e8b363d744d1c",
+    "shaDepois": "c55c2f927f73b1ecb21659cbdcb5f2b8d87c0fde84729ffa89347cd04196f286",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Remanejar dotação não afasta por si só a vedação de aumento de despesa em projeto de iniciativa exclusiva do Presidente. A Constituição prevê ressalva própria ligada a matérias orçamentárias. A iniciativa reservada não impede toda emenda, mas também não autoriza qualquer aumento mediante compensação informal.",
+      "gatilho": "desde que",
+      "armadilhaBanca": "Confundir compensação financeira e admissibilidade constitucional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 63, I, e ressalva do art. 166 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Aumento de despesa em projeto de iniciativa exclusiva observa a vedação do art. 63 e suas ressalvas, não sendo autorizado apenas por alegar remanejamento.",
+      "item": "Parlamentares federais possuem ampla legitimidade para propor emendas que importem aumento de despesa em projetos de lei de iniciativa privativa do Presidente da República, desde que a dotação orçamentária seja remanejada de outros programas governamentais.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-8",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §2º: veto parcial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7e6ab43c32a1bc22ba79bc8e205b572fd7c4a765a637c272691fadfba8cbc2f2",
+    "shaDepois": "4abd9145e267c96ab074c2ba01c1059013b559012bbcf589d43f1d47633d688a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O veto pode alcançar o projeto todo ou unidades completas expressamente indicadas. Cortar uma palavra dentro de um inciso pode alterar o sentido sem respeitar essa extensão mínima. O caráter parcial se refere a parte do projeto, não a qualquer fragmento livremente escolhido.",
+      "gatilho": "texto integral",
+      "armadilhaBanca": "Distinguir unidade textual autorizada e palavra isolada.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §2º: veto parcial — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O veto parcial pode recair sobre palavra isolada dentro de uma alínea, sem abranger a alínea integral.",
+      "item": "O veto do Presidente da República a projeto de lei aprovado pelo Congresso Nacional pode ser total ou parcial, sendo que o veto parcial somente abrangerá texto integral de artigo, de parágrafo, de inciso ou de alínea.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-9",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §§4º e 5º: apreciação do veto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "666cdd301ff6933d1f7b0bc73339059eac97669747ac7ed1610a01a8a805f668",
+    "shaDepois": "c3bea21d5b2f3c5874f9c4e2320778bdafd51b87fbc734e03bb32ebb70f7772d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O Congresso aprecia o veto em sessão conjunta e pode rejeitá-lo pelo quórum constitucional. Separação de poderes não transforma o veto em decisão presidencial final e imune à deliberação. Manter ou superar o veto são possibilidades dentro do mecanismo de freios e contrapesos.",
+      "gatilho": "insuscetível",
+      "armadilhaBanca": "Confundir veto e encerramento definitivo da tramitação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §§4º e 5º: apreciação do veto — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Congresso pode apreciar e rejeitar o veto na forma constitucional, em vez de apenas arquivar a proposição.",
+      "item": "O veto presidencial a projeto de lei ostenta caráter terminativo e insuscetível de reexame pelos parlamentares, cabendo ao Congresso Nacional dar ciência aos líderes partidários e arquivar a proposição em razão do princípio da separação dos poderes.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-10",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §7º: sucessão na promulgação",
+    "nota": "Gabarito C corrigido para E: o art. 66, §7º, prevê Vice-Presidente do Senado, não Presidente da Câmara.",
+    "shaAntes": "fbe47f4ea0985ef277386be765eae4564077ca9d531a874a625affaeecb5bec5",
+    "shaDepois": "4ad50de167f60396746eb10d49969422b884be319e6ee6a28dd76e3babfd3a64",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. A sequência prevista é Presidente da República, Presidente do Senado e Vice-Presidente do Senado, nos prazos indicados. O último substituto não é o Presidente da Câmara. Não se deve transportar para esse procedimento a ordem de substituição do Presidente da República do art. 80.",
+      "gatilho": "Presidente da Câmara",
+      "armadilhaBanca": "Trocar sucessão na promulgação e substituição da Presidência da República.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §7º: sucessão na promulgação — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Se o Presidente do Senado também não promulgar no prazo, a atribuição cabe ao Vice-Presidente do Senado.",
+      "versao_errada": "",
+      "item": "Se o Presidente da República não promulgar a lei no prazo de quarenta e oito horas após a rejeição do veto pelo Congresso Nacional, caberá ao Presidente do Senado Federal promulgá-la, e, se este não o fizer em igual prazo, caberá ao Presidente da Câmara dos Deputados fazê-lo.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-11",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §§1º e 3º: silêncio presidencial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ad89d7e6baa1ca680412bad3fa28db1e0f3c94c3a64c692d299f8604cfe0c12e",
+    "shaDepois": "58e542133801c8f386c11f2796ad8f0fa6d12e8d7a73250a4bcdc8d5816583fb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O silêncio no prazo de quinze dias úteis importa sanção. Veto exige manifestação fundada em inconstitucionalidade ou contrariedade ao interesse público e comunicação de motivos. Trocar os efeitos do silêncio inverte a regra do processo legislativo.",
+      "gatilho": "veto tácito",
+      "armadilhaBanca": "Inverter sanção tácita e veto expresso.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §§1º e 3º: silêncio presidencial — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O silêncio presidencial no prazo constitucional importa sanção tácita.",
+      "item": "O silêncio do Presidente da República após decorridos quinze dias úteis do recebimento do projeto de lei importa em veto tácito da proposição legislativa.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-12",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 64, caput: Casa de início",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7ced70913ebe296b835f0af401696e334b0c120cd1fa3c7c19e57a9305a24f70",
+    "shaDepois": "116bcc593d16867715ed4a743c9c05d741c65be43eddb6e0b486aa6352da0571",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Nos termos do art. 64 da Constituição, projetos de lei de iniciativa do Presidente da República, do STF e dos Tribunais Superiores têm discussão e votação iniciadas na Câmara dos Deputados.",
+      "justificativa": "CERTO. O art. 64 determina início na Câmara para projetos de iniciativa do Presidente, do STF e dos Tribunais Superiores. A redação foi delimitada ao rol expresso do artigo, sem atribuir a ele referência que não contém. A iniciativa constitucional não define automaticamente o resultado da votação na Casa revisora.",
+      "gatilho": "Câmara",
+      "armadilhaBanca": "Distinguir o rol expresso e a Casa constitucional de início.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 64, caput: Casa de início — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Projetos de iniciativa do STF e dos Tribunais Superiores devem começar obrigatoriamente no Senado.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-13",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 65, parágrafo único: retorno à iniciadora",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4824b28b08b9c539e0a25775826c12115902391d302b2efd50778351d251fa84",
+    "shaDepois": "2a23488387a697673aa74fc92eb6588a998303f33e9ac1da47fc7e3b1ffcb781",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Se a Câmara atua como revisora e emenda o projeto, ele retorna ao Senado iniciador. A regra depende do papel exercido no projeto, não de uma superioridade fixa de uma Casa. Emenda da revisora não prevalece automaticamente contra a iniciadora.",
+      "gatilho": "sem necessidade",
+      "armadilhaBanca": "Trocar Casa iniciadora e revisora conforme a origem do projeto.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 65, parágrafo único: retorno à iniciadora — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O projeto emendado pela Câmara revisora retorna ao Senado que o iniciou.",
+      "item": "Caso o projeto de lei tenha sido iniciado no Senado Federal e seja posteriormente emendado pela Câmara dos Deputados, as emendas serão apreciadas soberanamente pela Câmara, sem necessidade de retorno ao Senado.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-14",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 67: reapresentação de matéria rejeitada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4e01dd252a39e2c4045f540fcdf29e485f197de720e5ce80a19c8f72bf3b4f6e",
+    "shaDepois": "327c1b5c4635fb9941386b7bae9a81e91b01be1c280bbc199ae24c9c7f9ed191",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Constituição permite nova proposta da matéria na mesma sessão legislativa com iniciativa da maioria absoluta de uma das Casas. Não é simples recurso individual para reabrir o projeto arquivado. A regra de PEC rejeitada é diferente e não admite essa mesma solução na sessão legislativa.",
+      "gatilho": "maioria absoluta",
+      "armadilhaBanca": "Distinguir projeto arquivado, matéria e novo projeto sob condição.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 67: reapresentação de matéria rejeitada — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma assinatura individual basta para reapresentar a matéria rejeitada na mesma sessão legislativa.",
+      "item": "A matéria constante de projeto de lei rejeitado somente poderá ser objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-15",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 68: delegação legislativa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "83671b953a4bba8f6061578c11570e552415e1c1246f3e66c379d122e4655592",
+    "shaDepois": "a016f621550d830786dc853a6a04d77bcdcbb529a52d331812fc1e910739e82e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A delegação é solicitada ao Congresso Nacional, não ao STF. O Presidente elabora a lei delegada dentro dos termos e limites da autorização. Controle de constitucionalidade é outra função e não transforma o Judiciário em concedente de delegação legislativa.",
+      "gatilho": "Supremo Tribunal Federal",
+      "armadilhaBanca": "Confundir órgão que delega e órgão de controle judicial.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 68: delegação legislativa — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A delegação para elaboração de lei delegada é solicitada ao Congresso Nacional.",
+      "item": "As leis delegadas serão elaboradas pelo Presidente da República, que deverá solicitar previamente autorização ao Supremo Tribunal Federal para exercer a prerrogativa legiferante.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-16",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 68, §1º: matérias indelegáveis",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "87b58012a819d0134c6da8ec2f8029b04d39d75dea0ca3222696d5b1821564cf",
+    "shaDepois": "c95a9267f3eebbda7ade42080da0888232bd8c128ef83627d031b8f87811a02f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A lista indica matérias constitucionalmente excluídas da delegação, incluindo competências exclusivas e privativas e leis complementares. A autorização do Congresso não pode eliminar essas reservas. Planejamento e orçamento também têm limites expressos nessa via.",
+      "gatilho": "objeto de delegação",
+      "armadilhaBanca": "Distinguir competência para autorizar e poder de afastar limite constitucional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 68, §1º: matérias indelegáveis — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A resolução de delegação pode autorizar qualquer matéria, inclusive as expressamente excluídas pelo art. 68, §1º.",
+      "item": "Não serão objeto de delegação os atos de competência exclusiva do Congresso Nacional, os de competência privativa da Câmara dos Deputados ou do Senado Federal, a matéria reservada à lei complementar e a legislação sobre planos plurianuais, diretrizes orçamentárias e orçamentos.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-17",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 68, §§2º e 3º: forma e apreciação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a9280b4cc5669b5bd291197e084619bf60ac779aa0d3e8cd10a11b1b7307f425",
+    "shaDepois": "67dd70becdb9dc88259279c0a76e24b5b0f47e53b8461d04a34dd47dadf647c4",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A delegação toma a forma de resolução do Congresso, que fixa conteúdo e termos. Se a resolução prevê apreciação do projeto pelo Congresso, esta ocorre em votação única, vedadas emendas. O item erra a espécie do ato e nega uma possibilidade expressamente prevista.",
+      "gatilho": "decreto legislativo",
+      "armadilhaBanca": "Trocar a forma da delegação e excluir condição permitida.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 68, §§2º e 3º: forma e apreciação — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A delegação é formalizada por resolução do Congresso e pode prever apreciação nos termos do art. 68, §3º.",
+      "item": "A delegação legislativa ao Presidente da República terá a forma de decreto legislativo do Congresso Nacional, o qual não poderá, em qualquer hipótese, condicionar o projeto delegado à apreciação pelo Parlamento.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-18",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 64, §§1º a 4º: urgência em projeto presidencial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7fce8aa488816c8784576e34de1bcc2121c6ac2fa449fce02d5dbbb263ff40a4",
+    "shaDepois": "6764b5ae712b07e5063475bc35eade8df2d089f0524b2caedd26087076b06227",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O item preserva a ressalva às deliberações com prazo constitucional determinado. Cada Casa tem seu prazo sucessivo, e há regras próprias para emendas da revisora. Recesso suspende esses prazos, e projetos de código não se submetem a eles. Não confundir com o regime de urgência das MPs.",
+      "gatilho": "com exceção",
+      "armadilhaBanca": "Distinguir regimes de urgência e condições de contagem.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 64, §§1º a 4º: urgência em projeto presidencial — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Os prazos do art. 64 correm obrigatoriamente durante o recesso e aplicam-se também a todos os projetos de código.",
+      "item": "O Presidente da República poderá solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara dos Deputados e o Senado Federal não se manifestem, cada qual, sucessivamente, em até quarenta e cinco dias, sobrestar-se-ão todas as demais deliberações legislativas da respectiva Casa, com exceção daquelas com prazo constitucional determinado.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-19",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfMPPauta",
+      "cf"
+    ],
+    "localizador": "MS 27931: alcance do bloqueio por MP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2dd6fc479071aab9a8af7640be43287d631b7e6654094cd6e11818aa7f53e132",
+    "shaDepois": "3fbb257f033bc768729843ab58bb1b67af1c998aae0583fa8599bd537aadcb11",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Segundo o entendimento do STF no MS 27931, uma MP pendente por mais de quarenta e cinco dias impede também a apreciação de PEC, pois seu bloqueio alcança indistintamente qualquer espécie legislativa.",
+      "justificativa": "ERRADO. O STF delimitou o sobrestamento por MP às matérias que podem ser tratadas por esse instrumento. PECs não integram esse universo. A redação explicita que se trata de MP para não confundir sua jurisprudência com o regime do projeto presidencial do art. 64.",
+      "gatilho": "PEC",
+      "armadilhaBanca": "Identificar o regime antes de aplicar a regra de sobrestamento.",
+      "fonte": "STF — MS 27931, julgamento de 29/06/2017: alcance do sobrestamento por MP — MS 27931: alcance do bloqueio por MP — https://noticias.stf.jus.br/postsnoticias/stf-decide-que-trancamento-de-pauta-da-camara-por-mps-nao-alcanca-todos-os-projetos-e-propostas/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O bloqueio de pauta por MP, no entendimento do MS 27931, não alcança PECs.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-20",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66: sanção e veto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5522bfc9cd9e49700d94ba2bf9658bf43ea0d123d5ff33113496fd3db282f1a2",
+    "shaDepois": "0d915da77b4320e2f58dbde1d089bf40320e6d452444c61a3186fe72da7c5276",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A sanção pode ser expressa ou decorrer do silêncio no prazo. O procedimento não exige parecer favorável prévio dos dois conselhos mencionados. Esses órgãos possuem competências constitucionais próprias, não um poder geral de validar toda sanção de lei.",
+      "gatilho": "manifestação favorável prévia",
+      "armadilhaBanca": "Criar etapa de aprovação de órgão consultivo em procedimento que não a prevê.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66: sanção e veto — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A sanção presidencial não depende de manifestação prévia favorável do Conselho da República e do Conselho de Defesa Nacional.",
+      "item": "A sanção do projeto de lei pelo Presidente da República pode ocorrer de forma expressa ou tácita, subordinando-se sua eficácia à manifestação favorável prévia do Conselho da República e do Conselho de Defesa Nacional.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-21",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §1º: fundamento, prazo e comunicação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a1047c7a85d3142156dd5ed3e818e8f79c4358d10711bc7db2fa56793fc53d28",
+    "shaDepois": "71eea03733d521e832d0aa45b1e5a826f7c333127d2d916418241ef7119e6453",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. São razões possíveis de veto a inconstitucionalidade e a contrariedade ao interesse público. O prazo para vetar é de quinze dias úteis; a comunicação dos motivos ao Presidente do Senado tem prazo de quarenta e oito horas. Não se devem trocar os dois prazos e destinatários.",
+      "gatilho": "quarenta e oito horas",
+      "armadilhaBanca": "Distinguir prática do veto e comunicação de seus motivos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §1º: fundamento, prazo e comunicação — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O veto deve ser decidido em quarenta e oito horas e comunicado em quinze dias úteis, invertendo os prazos.",
+      "item": "Se o Presidente da República considerar o projeto de lei, no todo ou em parte, inconstitucional ou contrário ao interesse público, vetá-lo-á total ou parcialmente, no prazo de quinze dias úteis, contado da data do recebimento, e comunicará, dentro de quarenta e oito horas, ao Presidente do Senado Federal os motivos do veto.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-22",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 66, §1º: comunicação dos motivos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a2b54c5857b5dc0d1fbaa80a0f895fa71e515864c3a62d385d8d340eeee0987a",
+    "shaDepois": "04438505ac05621a7b1d68d2f017ebeacfce97efc3b40951a2702916d72ded3d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A comunicação dos motivos é exigida pela Constituição. Veto pode ter fundamento jurídico ou político, mas ambos precisam ser explicitados conforme o procedimento. Poder de vetar não equivale a liberdade de ocultar sua razão ou criar um veto tácito sem motivação.",
+      "gatilho": "facultativa",
+      "armadilhaBanca": "Confundir discricionariedade política e ausência de dever procedimental.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 66, §1º: comunicação dos motivos — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Presidente deve comunicar os motivos do veto ao Presidente do Senado no prazo constitucional.",
+      "item": "A motivação do veto presidencial é facultativa, de modo que o Presidente da República pode vetar artigos de projeto de lei sem a obrigatoriedade de esclarecer as razões jurídicas ou políticas que justificaram a oposição.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-23",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 65 e 67: rejeição e novo projeto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4d7eb0b8ac27d73d56cc1cb8ba24c4930bf81a8c064d1afd8ee9e80a08ab7e88",
+    "shaDepois": "cf190b75c9435d698b2c4cff08e2f11cd6f72cc87202a1c7c03deecc8e4f95bc",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A rejeição de um projeto pela Casa revisora implica seu arquivamento; a matéria pode ser objeto de novo projeto na mesma sessão legislativa se atendido o art. 67 da Constituição.",
+      "justificativa": "CERTO. Rejeitar na revisora leva ao arquivamento do projeto. A matéria pode integrar novo projeto na mesma sessão legislativa se cumprida a condição do art. 67. Isso não é simples continuação do projeto antigo nem dispensa o quórum de iniciativa qualificado.",
+      "gatilho": "novo projeto",
+      "armadilhaBanca": "Distinguir projeto arquivado e reapresentação da matéria.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 65 e 67: rejeição e novo projeto — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A rejeição na revisora autoriza o autor a continuar o mesmo projeto no dia seguinte sem observar o art. 67.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-24",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 61, caput e §2º: iniciativa de leis",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0119e20f2c691074af90bac744a6a524e67bf673eac0b69703b4394c7b4d3a96",
+    "shaDepois": "f5dea075a81912538e15ec37f554acbadf19c29c5dd1d6dc009a0b1328e934cb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A iniciativa popular federal pode alcançar leis ordinárias e complementares, observados requisitos e matérias com iniciativa reservada. Não se estende daí automaticamente a PEC federal, que tem rol próprio de legitimados. A palavra lei não deve ser reduzida a uma única espécie sem fundamento.",
+      "gatilho": "às leis ordinárias",
+      "armadilhaBanca": "Confundir espécies de lei com rol próprio de iniciativa de emendas constitucionais.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 61, caput e §2º: iniciativa de leis — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A iniciativa popular pode alcançar projeto de lei complementar, respeitadas as condições constitucionais e as reservas de iniciativa.",
+      "item": "A apresentação de projeto de lei complementar por iniciativa popular conflita com a disciplina constitucional do processo legislativo, haja vista que o texto da Carta de 1988 limitou a atuação popular direta às leis ordinárias.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-25",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lindb"
+    ],
+    "localizador": "art. 66: promulgação, publicação e efeitos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "951cd25fd1c7a8be10e8b895bc0fdd4e4e5833e9e910025a2c00724ec21074a4",
+    "shaDepois": "218f12a9e5a2739e58daed8868922ea8106db2e5207777a89e9e863b6d40741b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A promulgação e a publicação são atos distintos; a publicação de uma lei não implica necessariamente vigência imediata, que depende das regras de entrada em vigor aplicáveis.",
+      "justificativa": "CERTO. Promulgação e publicação cumprem funções diferentes na formação e divulgação da lei. A existência de publicação não dispensa observar quando a norma entra em vigor e como se aplica no tempo. A nova redação evita confundir publicidade com vigência imediata universal.",
+      "gatilho": "não implica",
+      "armadilhaBanca": "Distinguir existência formal, publicidade e início da vigência.",
+      "fonte": "Decreto-Lei 4.657/1942 — LINDB — art. 66: promulgação, publicação e efeitos — https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Publicar uma lei significa que ela entra necessariamente em vigor no mesmo instante, sem possibilidade de vacatio legis.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-26",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfIniciativa"
+    ],
+    "localizador": "iniciativa reservada e sanção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9f6e2d56f550c5d6e328b1a48529de6bdd0ada019743ab3b06a6a8329c4f2bd0",
+    "shaDepois": "ead50250a3cb0471e7b7e1a3181779c69ef1708e23524fc94f6282ce95f3968a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A sanção não corrige automaticamente usurpação de iniciativa constitucionalmente reservada. O vício está em quem iniciou o procedimento em matéria protegida, e a concordância posterior não substitui essa competência. É necessário distinguir iniciativa do projeto e possibilidade de emendas parlamentares admissíveis.",
+      "gatilho": "convalidar",
+      "armadilhaBanca": "Confundir concordância posterior e atendimento da regra de iniciativa.",
+      "fonte": "STF — Constituição e Supremo, art. 66 — iniciativa reservada e sanção — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A sanção presidencial não sana, por si só, vício de iniciativa constitucionalmente reservada.",
+      "item": "A sanção presidencial possui o condão de convalidar o vício de inconstitucionalidade formal decorrente da usurpação de iniciativa legislativa privativa de outro poder.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-27",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "ricd",
+      "cf"
+    ],
+    "localizador": "art. 200, §2º, e distinção da CF art. 60, §3º",
+    "nota": "Gabarito C corrigido para E: o art. 200, §2º, do RICD fornece contraexemplo à atribuição universal de promulgação às Mesas; distinguir de emendas constitucionais.",
+    "shaAntes": "62acce787b33022b7802332fcec4eb8b09cbcc5bbcdc64e64c9eb6f4fcf68e72",
+    "shaDepois": "11aaf2168dedc4408ece0d31e35037c28e64018cff0688e6ef65d5786acdfd46",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. A dispensa de sanção presidencial é correta, mas não torna a Mesa colegiada o promulgador de toda resolução. Na Câmara, o art. 200, §2º, atribui a promulgação da resolução ao Presidente, com substituição prevista. Mesas das duas Casas promulgam emendas constitucionais, que são outra espécie.",
+      "gatilho": "Mesa",
+      "armadilhaBanca": "Uma parte correta não valida a troca da autoridade promulgadora.",
+      "fonte": "Regimento Interno da Câmara dos Deputados — atualizado até a Resolução 34/2026 — art. 200, §2º, e distinção da CF art. 60, §3º. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Resoluções da Câmara não dependem de sanção e são promulgadas pelo Presidente da Casa, observada a substituição regimental.",
+      "versao_errada": "",
+      "item": "Os decretos legislativos e as resoluções do Congresso Nacional ou de suas Casas não se submetem à sanção ou ao veto do Presidente da República, sendo promulgados diretamente pela Mesa da respectiva Casa ou do Congresso Nacional.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-28",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 49, V: sustação de atos exorbitantes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e62a07d86433aa0696bb76e5d1707b356efc0a8e2e2ae7bedf094c53a7a09547",
+    "shaDepois": "26313f3115801f6185dba7a9550f8b1cd4faac27668e1eaf7bbaeb9466b6de78",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A competência de sustação é exclusiva do Congresso e se instrumentaliza por decreto legislativo, não pela espécie e iniciativa exclusiva inventadas no item. Propor a medida, examinar e decidir são momentos distintos. O controle não autoriza sustar qualquer ato apenas por discordância política com seu mérito.",
+      "gatilho": "resolução conjunta",
+      "armadilhaBanca": "Trocar o instrumento e criar exclusividade de iniciativa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 49, V: sustação de atos exorbitantes — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A sustação de ato normativo exorbitante do Executivo é matéria de decreto legislativo do Congresso.",
+      "item": "Compete ao Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa, formalizando referida deliberação por meio de resolução conjunta de iniciativa de bancada partidária.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-29",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "iniciativa parlamentar e revisão bicameral; arts. 61 e 65",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2554a52ea606a1b14c2ae2581190eae8bae40ed2e98d93843e04cda3a304025e",
+    "shaDepois": "e733b24e3a386904c28c0bbe297ddebec4a962ed5d88cd33d0383ab4ea45da10",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O projeto apresentado por deputado tramita inicialmente na Câmara e é revisto pelo Senado nos termos aplicáveis. Isso não torna a Câmara iniciadora de todos os projetos federais. O papel depende da origem e da espécie, não de superioridade hierárquica entre as Casas.",
+      "gatilho": "Casa iniciadora",
+      "armadilhaBanca": "Relacionar a origem da iniciativa e o papel de cada Casa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — iniciativa parlamentar e revisão bicameral; arts. 61 e 65 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O Senado é obrigatoriamente iniciador de qualquer projeto apresentado por deputado federal.",
+      "item": "O processo legislativo de projetos de lei de iniciativa de deputados federais inicia-se, em regra, na Câmara dos Deputados, que atuará como Casa iniciadora, cabendo ao Senado Federal o papel de Casa revisora.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-30",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 65 e 67: rejeição e novo projeto",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2f18f2cfdc26f579957f05323d3e4a8c3219d2cd20bd4d0e8f44ea448fb6a3a4",
+    "shaDepois": "bca55566dc6818e3f7fbe5cc1ffdd18a7e31e3ba61aa704eeb9a4d1de72deaf3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A Constituição não prevê uma apelação presidencial que simplesmente reabra no Senado um projeto rejeitado pela iniciadora. Reapresentar a matéria na mesma sessão legislativa exige a condição do art. 67. Iniciativa e urgência também não dão ao Presidente poder de ignorar rejeição parlamentar.",
+      "gatilho": "apelação institucional",
+      "armadilhaBanca": "Criar mecanismo de superação de rejeição não previsto no processo.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 65 e 67: rejeição e novo projeto — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Não há apelação presidencial ao Senado que dispense as consequências da rejeição e a regra de reapresentação.",
+      "item": "Caso o projeto de lei tenha sido rejeitado na Câmara dos Deputados como Casa iniciadora, poderá o Presidente da República intervir diretamente e submeter o mesmo texto à apreciação do Senado Federal como apelação institucional.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-31",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, I a III: legitimados de PEC",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "990ab915249d8ca1544ecd1e3cf34d7ebb47d543fb23be220ecdb3b7858a7670",
+    "shaDepois": "768995e251a4de0a3b5f83ae31179840da160492b3f967f874403d532cdcd5cb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O rol indica um terço de uma das Casas, o Presidente e mais da metade das assembleias com suas manifestações qualificadas. Não exige um terço simultaneamente das duas Casas. Também não inclui iniciativa popular federal direta como se fosse projeto de lei.",
+      "gatilho": "um terço",
+      "armadilhaBanca": "Não transformar alternativas de iniciativa em exigências cumulativas.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, I a III: legitimados de PEC — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A proposta parlamentar de PEC exige necessariamente um terço da Câmara e um terço do Senado simultaneamente.",
+      "item": "A Constituição Federal de 1988 poderá ser emendada mediante proposta de um terço, no mínimo, dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República, ou de mais da metade das Assembleias Legislativas das unidades da Federação, manifestando-se, cada uma delas, pela maioria relativa de seus membros.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-32",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60: iniciativa de PEC e art. 61, §2º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "ab5f7b3c9288d9d9857aac192aa302bd73ed6c025d50e469e4c4373c967e114a",
+    "shaDepois": "361f23a88b8b57f0202d971703caeac45f98345d530ee29a93701eb078a52543",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O rol federal de iniciativa de PEC não prevê essa hipótese popular, nem o percentual indicado. Iniciativa popular de lei possui regra própria. Eventuais mecanismos de constituições estaduais não podem ser transferidos automaticamente ao procedimento de reforma da Constituição Federal.",
+      "gatilho": "cinco por cento",
+      "armadilhaBanca": "Confundir mecanismos de participação e procedimentos constitucionais distintos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60: iniciativa de PEC e art. 61, §2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A iniciativa federal de PEC segue o rol do art. 60, distinto da iniciativa popular de projetos de lei.",
+      "item": "Cidadãos brasileiros podem apresentar Proposta de Emenda à Constituição por iniciativa popular, desde que subscrita por pelo menos cinco por cento do eleitorado nacional.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-33",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, §1º: limitações circunstanciais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "178ef304d6786a65d0cfcd0d7c7b2e5bfbd16cbed82e0fce9e2219d283dd5ed5",
+    "shaDepois": "9a55427f1643d3e812d0340c62674bc02590bdda1b242c0637b5b9e02dc107d8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Intervenção federal, estado de defesa e estado de sítio são as hipóteses expressas do dispositivo. Não se deve acrescentar automaticamente qualquer situação de dificuldade econômica ou calamidade à mesma lista. O limite é circunstancial e impede emendar enquanto vigora a condição constitucional.",
+      "gatilho": "intervenção federal",
+      "armadilhaBanca": "Distinguir hipóteses expressas e situações que apenas parecem semelhantes.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, §1º: limitações circunstanciais — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer calamidade declarada, independentemente de intervenção, defesa ou sítio, constitui por si só nova proibição expressa do art. 60, §1º.",
+      "item": "A Constituição não poderá ser emendada na vigência de intervenção federal, de estado de defesa ou de estado de sítio, constituindo tais hipóteses limitações circunstanciais expressas ao poder constituinte derivado reformador.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-34",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, §2º: votação de PEC",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "837dc5554ec2c5720ff8e0e8476e884c21f6297a14cf6196ab377d24a0dbf1cc",
+    "shaDepois": "6f8743f0989ecd1d31eb8a1518f1849395d3365b22ad0282f0c8b034a01660d9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A base do quórum são os membros de cada Casa, não apenas os presentes. São dois turnos em cada uma, com três quintos em ambos. Obter o quórum na Câmara não dispensa o mesmo requisito no Senado, ainda que o texto seja igual.",
+      "gatilho": "respectivos membros",
+      "armadilhaBanca": "Distinguir base, quantidade de turnos e exigência em ambas as Casas.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, §2º: votação de PEC — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Três quintos dos presentes em um único turno de uma das Casas bastam para aprovar a PEC.",
+      "item": "A Proposta de Emenda à Constituição será discutida e votada em cada Casa do Congresso Nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, três quintos dos votos dos respectivos membros.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-35",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, §3º: promulgação da emenda",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cdcf75d89e194e7055b616d903dd4f732cdf8460a1361bdc952e6e2c82a03ff8",
+    "shaDepois": "eb06a55e63878c8e0d295e1b1c4e7838e0b4fe0cf473414e9c0358c603fc1089",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Emenda é promulgada pelas Mesas da Câmara e do Senado, com número de ordem. Não se submete à sanção ou veto presidencial. Iniciativa do Presidente para propor uma PEC não cria uma etapa de sua concordância posterior para promulgá-la.",
+      "gatilho": "sanção ou veto",
+      "armadilhaBanca": "Confundir iniciativa possível e participação obrigatória na fase final.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, §3º: promulgação da emenda — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Emendas constitucionais são promulgadas pelas Mesas das duas Casas, sem sanção ou veto presidencial.",
+      "item": "A emenda à Constituição aprovada pelo Congresso Nacional será enviada ao Presidente da República para sanção ou veto no prazo improrrogável de quinze dias.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-36",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, §4º: limites materiais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e1ceaf72595d56d6949c0a7307989ea25e2d670904bfe1496297cbdb1baa0954",
+    "shaDepois": "db030f20b5cea47a40020e8f5675742771530b39578c8c973a79ecaf56e73b2b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O dispositivo veda proposta tendente a abolir os núcleos protegidos. Não torna toda modificação textual relativa a esses temas impossível. Ampliar proteção ou reorganizar disciplina sem abolir o núcleo exige análise do conteúdo, não simples coincidência de palavras.",
+      "gatilho": "tendente a abolir",
+      "armadilhaBanca": "Distinguir modificação de disciplina e tendência à abolição.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, §4º: limites materiais — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer alteração que mencione direitos individuais é proibida, mesmo se ampliar sua proteção.",
+      "item": "Não será objeto de deliberação a proposta de emenda tendente a abolir a forma federativa de Estado, o voto direto, secreto, universal e periódico, a separação dos Poderes e os direitos e garantias individuais.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-37",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, §4º: rol expresso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9c269231f3268a03e278d0c3fe486d47f2be16c7035bfb1e5216bdfb6d6e5b3d",
+    "shaDepois": "d96138923692a61d9218878cde714d1cdd102e28d44a9e481b2d09e4c74c02ff",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. República e presidencialismo não aparecem como esses itens no rol expresso do §4º. Isso não resolve, por si só, todo debate sobre limites implícitos ou outros dispositivos. O item pergunta pelo texto expresso, que não deve ser ampliado por associação com os princípios de outro artigo.",
+      "gatilho": "expressas",
+      "armadilhaBanca": "Confundir rol expresso e discussão de proteção implícita.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, §4º: rol expresso — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O rol expresso protege os núcleos nele enumerados, sem listar forma republicana e sistema presidencialista nesses termos.",
+      "item": "A forma republicana de governo e o sistema presidencialista constituem cláusulas pétreas expressas no art. 60, § 4º da Constituição Federal de 1988.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-38",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 60, §5º: irrepetibilidade da PEC",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "12f143e8f41985dc20a2ba4b692a5497457076692208b4772f85205ee6ef6eb2",
+    "shaDepois": "2507bca1e3c516edef8f5f88b96c45de717fb4d8acab8b6de8b0e0df56197196",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. PEC rejeitada ou prejudicada não pode ser reapresentada na mesma sessão legislativa. Nesse âmbito, não existe a exceção da maioria absoluta prevista para projetos de lei no art. 67. A vedação não equivale a proibir qualquer nova proposta em sessão legislativa futura.",
+      "gatilho": "mesma sessão legislativa",
+      "armadilhaBanca": "Não importar exceção do projeto de lei para a PEC.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 60, §5º: irrepetibilidade da PEC — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma PEC rejeitada pode ser reapresentada na mesma sessão legislativa se houver proposta da maioria absoluta.",
+      "item": "A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa, operando-se o princípio da irrepetibilidade absoluta em matéria de emenda constitucional.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-39",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, caput: relevância, urgência e submissão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2958f9ae8b24930d5ab327e04df4f79693596e0765488a78ace9c507407f74a0",
+    "shaDepois": "9a125ef54ce3a2be54c7a2508c12efc066b15e0b53fa98c6a29e6f621c6fda55",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A medida depende dos pressupostos constitucionais e deve ser submetida imediatamente ao Congresso. Força de lei não significa permanência automática nem ausência de controle parlamentar e judicial. A provisoriedade e as matérias vedadas integram o regime, não sendo afastadas pelo rótulo de urgência.",
+      "gatilho": "de imediato",
+      "armadilhaBanca": "Distinguir efeito inicial e permanência sem conversão.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, caput: relevância, urgência e submissão — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A força de lei dispensa submissão da MP ao Congresso e a transforma imediatamente em lei permanente.",
+      "item": "Em caso de relevância e urgência, o Presidente da República poderá adotar medidas provisórias, com força de lei, devendo submetê-las de imediato ao Congresso Nacional.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-40",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §1º, I, a e b: matérias vedadas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fd14a84a2c14c139321c2ee1bf105a9a2405965bd6dfa96f0ebae604ddfafdc0",
+    "shaDepois": "144bd914a2028f609dd230aa1c2f35ae9f47cde281513d5c75e95dcfe7b30fcb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. As vedações indicadas incluem direitos políticos, partidos e matéria eleitoral, além de direito penal e processual. Relevância e urgência não autorizam ignorá-las. É preciso ler também outras vedações e ressalvas específicas, sem supor que esta enumeração parcial seja todo o dispositivo.",
+      "gatilho": "direito eleitoral",
+      "armadilhaBanca": "Não converter pressuposto de edição em exceção geral às vedações.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §1º, I, a e b: matérias vedadas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma situação urgente autoriza editar MP sobre direito eleitoral, apesar da vedação expressa.",
+      "item": "É vedada a edição de medidas provisórias sobre matéria relativa a nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral, bem como sobre direito penal, processual penal e processual civil.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-41",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §1º, II: detenção ou sequestro de ativos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5fe9ad4d75124a8e2f42c2c7b54e39e610c6fdce0b293fb41a224a2dda92b5aa",
+    "shaDepois": "4a8aa9db3cfb5af4a356098b70721d37f02a975761040bc5121521e9cc08a535",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A hipótese é expressamente vedada. Uma crise econômica, por si só, não cria exceção à proibição de MP para a finalidade indicada. Não se confunde essa restrição com a possibilidade de disciplinar outras matérias econômicas não vedadas e sob seus requisitos.",
+      "gatilho": "crise econômica",
+      "armadilhaBanca": "Criar exceção não prevista a uma vedação material.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §1º, II: detenção ou sequestro de ativos — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Crise econômica não afasta por si só a vedação de MP para detenção ou sequestro de ativos.",
+      "item": "É permitida a edição de medida provisória que vise à detenção ou ao sequestro de bens, de poupança popular ou de qualquer outro ativo financeiro, em casos graves de crise econômica.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-42",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §8º: Casa de votação inicial",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6fac98066812c4c9a28e75040bbfcbcf2b0906732162d0a670812d2d3e56df52",
+    "shaDepois": "11972b2ed87f682db97a52fc77d4d7ecc6d00c33316324a0945809141578f25b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A votação de MP começa na Câmara dos Deputados, por determinação expressa. A regra não depende de uma narrativa sobre antiguidade das Casas. Examinar em comissão mista também não significa votar primeiro no Senado ou fundir os Plenários.",
+      "gatilho": "Senado Federal",
+      "armadilhaBanca": "Confundir comissão mista e ordem de votação nas Casas.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §8º: Casa de votação inicial — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A votação das medidas provisórias começa na Câmara dos Deputados.",
+      "item": "As medidas provisórias terão sua votação iniciada no Senado Federal, por se tratar da Casa revisora de maior antiguidade na República.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-43",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §§3º, 4º, 7º, 11 e 12",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e4365261554901086b6800435b874c6180f2c829611d005f1e1ffd5529370898",
+    "shaDepois": "de996fa67733019863a45deb24121ad9602a10834c04fcfda49c5300962958b8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A MP não votada definitivamente nas duas Casas no prazo constitucional tem sua vigência prorrogada automaticamente uma vez por igual período, observadas as regras do art. 62.",
+      "justificativa": "CERTO. A prorrogação ocorre uma vez se a votação não tiver sido encerrada nas duas Casas no prazo, nos termos constitucionais. Não é escolha livre do Presidente do Congresso. Perda de eficácia, relações constituídas e projeto de conversão alterado possuem ressalvas próprias, que não devem ser apagadas por uma fórmula simplificada.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Distinguir prorrogação constitucional e decisão discricionária.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §§3º, 4º, 7º, 11 e 12 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O Presidente do Congresso pode escolher livremente prorrogar uma MP quantas vezes considerar conveniente.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-44",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfMPPauta",
+      "cf"
+    ],
+    "localizador": "MS 27931: interpretação do art. 62, §6º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5274cf13189f8282b32c9e8bf35fdd666497f2ccced8c1f064fc719deee9f6de",
+    "shaDepois": "766664d9202d690e8c20e733310637952247fdf73457efe008de8e35604d5562",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No entendimento do STF no MS 27931, o sobrestamento por MP não apreciada em quarenta e cinco dias alcança projetos sobre matérias passíveis de MP, sem abranger indistintamente todas as espécies legislativas.",
+      "justificativa": "CERTO. O STF restringiu o bloqueio às deliberações sobre matérias que podem ser disciplinadas por MP. PECs, leis complementares, decretos legislativos e resoluções ficam fora desse bloqueio, assim como leis ordinárias de matéria vedada a MP. A expressão todas do texto não deve ser ensinada sem essa interpretação.",
+      "gatilho": "passíveis",
+      "armadilhaBanca": "Interpretar o alcance do bloqueio conforme a matéria e a espécie.",
+      "fonte": "STF — MS 27931, julgamento de 29/06/2017: alcance do sobrestamento por MP — MS 27931: interpretação do art. 62, §6º — https://noticias.stf.jus.br/postsnoticias/stf-decide-que-trancamento-de-pauta-da-camara-por-mps-nao-alcanca-todos-os-projetos-e-propostas/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma MP pendente impede votar PECs, leis complementares e resoluções indistintamente.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-45",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfMPPauta",
+      "cf"
+    ],
+    "localizador": "MS 27931: exclusões do bloqueio por MP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "972fe4b83b85bcc35edabd216554d7560b1fa60fbcb0e715ed772b24926a4dca",
+    "shaDepois": "79443f8802ae37d1b10416bb347213d7b583166b17d2e36c56730992ea2b5cdd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma MP pendente de apreciação por mais de quarenta e cinco dias impede votar tanto PEC quanto projeto de lei ordinária sobre matéria eleitoral, segundo a interpretação do STF no MS 27931.",
+      "justificativa": "ERRADO. PEC e lei ordinária sobre matéria vedada a MP não são bloqueadas por esse regime na orientação indicada. Direito eleitoral integra as vedações materiais do art. 62. É preciso relacionar tipo de proposição e conteúdo, não aplicar bloqueio só porque existe uma MP pendente.",
+      "gatilho": "matéria eleitoral",
+      "armadilhaBanca": "Aplicar a vedação material de MP para delimitar seu sobrestamento.",
+      "fonte": "STF — MS 27931, julgamento de 29/06/2017: alcance do sobrestamento por MP — MS 27931: exclusões do bloqueio por MP — https://noticias.stf.jus.br/postsnoticias/stf-decide-que-trancamento-de-pauta-da-camara-por-mps-nao-alcanca-todos-os-projetos-e-propostas/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "PEC e projeto de lei sobre matéria eleitoral não são alcançados pelo bloqueio da MP na orientação do MS 27931.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-46",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §§3º e 11: relações jurídicas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "473b29108dcf7f1e27476cf772454589d46881628f2c1b53c18d1a8cd501ecf4",
+    "shaDepois": "20aeebb9e77ef6e1652e31a4c5065a993480bc4f37d655c5795052db906718a5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O Congresso deve disciplinar as relações por decreto legislativo. Se não o fizer em sessenta dias após rejeição ou perda de eficácia, as relações constituídas e decorrentes de atos praticados durante a vigência permanecem regidas pela MP. O prazo não converte a medida automaticamente em lei permanente para todos os fatos futuros.",
+      "gatilho": "sessenta dias",
+      "armadilhaBanca": "Distinguir preservação de relações constituídas e conversão da espécie normativa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §§3º e 11: relações jurídicas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A falta de decreto em sessenta dias converte a MP rejeitada em lei permanente aplicável a qualquer fato futuro.",
+      "item": "Caso a medida provisória seja rejeitada pelo Congresso Nacional, caberá a este disciplinar, por decreto legislativo, as relações jurídicas dela decorrentes; não sendo editado referido decreto no prazo de sessenta dias após a rejeição, as relações jurídicas constituídas e decorrentes de atos praticados durante sua vigência conservar-se-ão por ela regidas.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-47",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §10: reedição vedada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c04d8e76019ccfa6830f61ed31ac13b685dd3e7eadf5fc631eb7d076352ee6b8",
+    "shaDepois": "5f3fd87b6cc99366cd89a15c9561166d46514529b756c66b7a194f45b0bab303",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A Constituição veda reedição na mesma sessão legislativa quando a MP foi rejeitada ou perdeu eficácia por decurso de prazo. Não basta trocar o número ou apresentar a mesma medida como solução administrativa ao vencimento. Prorrogação única e reedição são institutos diferentes.",
+      "gatilho": "mesma sessão legislativa",
+      "armadilhaBanca": "Confundir prorrogação admitida e reedição proibida.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §10: reedição vedada — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "MP rejeitada ou caducada não pode ser reeditada na mesma sessão legislativa.",
+      "item": "É constitucional a reedição, na mesma sessão legislativa, de medida provisória que tenha sido rejeitada expressamente pelo Congresso Nacional ou que tenha perdido sua eficácia por decurso de prazo.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-48",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §§5º e 9º: comissão mista e deliberação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "478c73705587a9cc92065ed89bb0c484a1f52c1eb5596c527d66a21008f156dc",
+    "shaDepois": "b07a699c4845c8a4fa63477e92de49c27d49027f3bb23c463cf8d365743e045a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O parecer da comissão mista precede a apreciação da MP pelos Plenários e não substitui o juízo prévio de cada Casa sobre seus pressupostos constitucionais.",
+      "justificativa": "CERTO. A comissão mista examina e emite parecer antes da apreciação dos Plenários. O juízo prévio de cada Casa sobre os pressupostos constitucionais também integra a regra. Parecer da comissão não é aprovação definitiva do mérito nem substitui a deliberação das duas Casas.",
+      "gatilho": "não substitui",
+      "armadilhaBanca": "Distinguir instrução do processo e deliberação de cada Casa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §§5º e 9º: comissão mista e deliberação — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A aprovação de parecer da comissão mista converte imediatamente a MP em lei, dispensando os Plenários.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-49",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfJabuti"
+    ],
+    "localizador": "ADI 5127: pertinência temática e efeitos temporais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "45e809ce82d052481a3ad51ad158df8a007bde88bc06b0bb84b6cc95cb0cb05e",
+    "shaDepois": "cb715f07ccbe1f88df62545274f732b09d7bec2abd8a4160b1639e418fb27030",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O STF rejeitou a inserção de matéria sem pertinência temática na conversão de MP. A excepcionalidade do procedimento não permite usá-lo como veículo livre para assuntos estranhos. A decisão também tratou dos efeitos temporais, não autorizando presumir invalidação automática de toda lei anterior com emendas.",
+      "gatilho": "não guardem",
+      "armadilhaBanca": "Distinguir poder de emendar e inclusão de matéria estranha ao procedimento.",
+      "fonte": "STF — ADI 5127, Informativo 803/2015 — ADI 5127: pertinência temática e efeitos temporais — https://www.stf.jus.br/arquivo/informativo/documento/informativo803.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Emendas no processo de conversão de MP devem observar pertinência temática, conforme a orientação indicada.",
+      "item": "O Supremo Tribunal Federal firmou o entendimento de que é legítimo incluir, mediante emenda parlamentar durante a conversão de medida provisória em lei, matérias que não guardem estrita pertinência temática com o objeto originário da MP (fenômeno conhecido como \"contrabando legislativo\" ou \"jabuti\").",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-50",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfPEC"
+    ],
+    "localizador": "mandado de segurança e direito ao processo legislativo constitucional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "51f24887d8496172fff29bc2096a5c940e44e1f22707991d5e2422bb5731f904",
+    "shaDepois": "726ebcb7e6480b6095fea3912cbf14722e668bf5aaf08d019d2fd220213caba7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na via do mandado de segurança para defesa do processo legislativo constitucional, a impugnação preventiva de PEC em tramitação pode ser deduzida pelo parlamentar da Casa correspondente, observados os pressupostos da ação.",
+      "justificativa": "CERTO. O parlamentar da Casa em que tramita a proposta pode defender seu direito ao processo legislativo constitucional na via pertinente. Não é uma ação popular preventiva de qualquer cidadão. O controle de PEC quanto a limite material deve ser distinguido de pretensão de antecipar abstratamente o julgamento de qualquer projeto de lei.",
+      "gatilho": "parlamentar",
+      "armadilhaBanca": "Distinguir legitimidade específica e controle abstrato por qualquer pessoa.",
+      "fonte": "STF — Constituição e Supremo, art. 60 — mandado de segurança e direito ao processo legislativo constitucional — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=60&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer cidadão pode usar mandado de segurança no STF para obter controle abstrato preventivo de toda PEC ou projeto de lei.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-51",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 103: legitimados de ADI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2cbc2aa0851a55b7db22004275f9a6f93a0274300aa182ab1806420d56e9d008",
+    "shaDepois": "41b67615fa359630c518095a40429901c66bb6c88be565ff9afbb6e807a701d7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O rol de legitimados para ADI não inclui qualquer cidadão individualmente nessa condição. Partidos com representação no Congresso e outras entidades podem integrar o rol, com seus requisitos. Cidadania permite outros instrumentos de participação e controle, mas não dispensa legitimidade específica de cada ação.",
+      "gatilho": "cidadão brasileiro",
+      "armadilhaBanca": "Não transferir legitimidade de um instrumento para outro.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 103: legitimados de ADI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "ADI no STF depende de legitimado do art. 103, não bastando a condição individual de cidadão.",
+      "item": "Qualquer cidadão brasileiro possui legitimidade para ajuizar Ação Direta de Inconstitucionalidade (ADI) perante o Supremo Tribunal Federal contra Emenda Constitucional promulgada.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-52",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfPEC"
+    ],
+    "localizador": "reforma constitucional e concordância do conteúdo aprovado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dbfa6e7736cf146774da45983a19c9726f16cd9ef671f7a71d0a190a0124c789",
+    "shaDepois": "6f8114114910ab419b69269214ac05b5f7bd8a7e86ba23a143d6f1916c4d1aac",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. As Casas devem aprovar o mesmo conteúdo normativo conforme o procedimento de PEC. Alteração substancial pela revisora exige retorno para deliberação dos pontos alterados. Isso difere de ajuste meramente redacional que não altera sentido; não é preciso repetir todo o debate por qualquer correção gráfica.",
+      "gatilho": "substancialmente",
+      "armadilhaBanca": "Distinguir mudança substancial e ajuste de redação.",
+      "fonte": "STF — Constituição e Supremo, art. 60 — reforma constitucional e concordância do conteúdo aprovado — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=60&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A revisora pode alterar substancialmente a PEC e enviá-la diretamente à promulgação sem concordância da iniciadora com o novo conteúdo.",
+      "item": "Se uma emenda à Constituição aprovada pelo Congresso Nacional alterar substancialmente o sentido original da proposta na Casa revisora, o texto emendado deverá retornar à Casa iniciadora para nova apreciação dos pontos alterados.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-53",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfPEC"
+    ],
+    "localizador": "controle de emendas e limites do art. 60",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7eee0ac9e9f4093e585da5a55a7bab77dce47db7f18cee6929a7dfd002fe8edc",
+    "shaDepois": "3f219ab29ff27cc6ea3a1b52b1d007ed9550a70d8fe3a0cb4b2baddc65a22fe4",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Emenda é produto do poder de reforma, sujeito a limites formais, circunstanciais e materiais. Pode ser controlada por violação desses limites, apesar de integrar o texto constitucional. Não se confunde com pretensão de declarar norma constitucional originária inconstitucional por comparação hierárquica entre partes da própria Constituição.",
+      "gatilho": "em qualquer hipótese",
+      "armadilhaBanca": "Confundir posição no texto e imunidade ao controle do poder derivado.",
+      "fonte": "STF — Constituição e Supremo, art. 60 — controle de emendas e limites do art. 60 — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=60&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Uma emenda constitucional pode ser declarada inconstitucional se violar os limites constitucionais do poder de reforma.",
+      "item": "A promulgação de uma Emenda Constitucional confere a ela o mesmo patamar hierárquico das normas constitucionais originárias, não podendo, em qualquer hipótese, ser declarada inconstitucional pelo Supremo Tribunal Federal.",
+      "submoduloId": "10.4",
+      "submodulo": "10.4"
+    }
+  },
+  {
+    "id": "m10a-q-54",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 62, §1º, I, d, e 167, §3º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cde2fa12871486f3f0dcabec4f74a113f4d3f8b89625654d1ddb650c56d766d4",
+    "shaDepois": "67fc09bd0652891c247f8caa68cc48066d3e83b31004b1a9f169076d8326c774",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Constituição ressalva créditos extraordinários para despesas imprevisíveis e urgentes, como as exemplificadas. Não é autorização para qualquer despesa rotineira que o gestor deseje acelerar. A urgência da MP e os requisitos materiais do crédito devem ser efetivamente examinados.",
+      "gatilho": "imprevisíveis e urgentes",
+      "armadilhaBanca": "Distinguir exceção orçamentária e despesa rotineira.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 62, §1º, I, d, e 167, §3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer despesa ordinária previsível pode ser aberta por MP como crédito extraordinário apenas por escolha política.",
+      "item": "Medida provisória pode abrir crédito extraordinário para atender a despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-55",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 62, §§4º e 7º: recesso e prorrogação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f6a18a91db4bac55e9564be51a7a5e44806eb4d8f0863f722093f48978643920",
+    "shaDepois": "2f0d77f785117fad309778c1f654ef93e1d0599c6aa63fa8ede7ba0300fcde76",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Recesso suspende a contagem do prazo constitucional; não é o fato que aciona a prorrogação por igual período. A prorrogação decorre da falta de encerramento da votação nas condições do §7º. Ato declaratório e efeito constitucional também não devem ser confundidos com prorrogar automaticamente ao começar o recesso.",
+      "gatilho": "recesso parlamentar",
+      "armadilhaBanca": "Trocar suspensão de contagem e extensão da vigência.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 62, §§4º e 7º: recesso e prorrogação — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Recesso suspende a contagem; a prorrogação única observa a hipótese do art. 62, §7º.",
+      "item": "O prazo de prorrogação da vigência de medida provisória por período subsequente de sessenta dias prescinde de ato formal, operando-se ope legis com o início do recesso parlamentar.",
+      "submoduloId": "10.2",
+      "submodulo": "10.2"
+    }
+  },
+  {
+    "id": "m10a-q-56",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 70: fiscalização e sistemas de controle",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b46384ce0567760871b75f1d8fa7d16fada41cebd68bc2d9e732ad6c6a5f03e1",
+    "shaDepois": "c5df8670cec79e5992571d3b8677ee041575e2c113839f2c83a6c3941a123196",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O Congresso exerce controle externo e cada Poder mantém sistema de controle interno. Essas dimensões se articulam sem identidade ou exclusão. A existência de controle externo não dispensa controles próprios nem torna o TCU subordinado ao Executivo.",
+      "gatilho": "cada Poder",
+      "armadilhaBanca": "Distinguir complementaridade e substituição entre controles.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 70: fiscalização e sistemas de controle — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O controle externo exercido pelo Congresso dispensa a manutenção de controle interno pelos demais Poderes.",
+      "item": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União e das entidades da administração direta e indireta será exercida pelo Congresso Nacional, mediante controle externo, e pelo sistema de controle interno de cada Poder.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-57",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 71, I: contas presidenciais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "79717df72c5402993940cc735fc417330391ff5fab1164b424ef9c68bef6dd07",
+    "shaDepois": "1ec56db92bf84cb1febcaf2289cfa88c87c8bb28edb9b4ed97f1bd55972ec6f9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Para contas anuais do Presidente, o TCU aprecia e emite parecer prévio em sessenta dias do recebimento. O julgamento político compete ao Congresso. Isso difere de julgar contas de administradores e responsáveis em outras hipóteses do art. 71, II.",
+      "gatilho": "parecer prévio",
+      "armadilhaBanca": "Distinguir apreciar com parecer e julgar contas.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 71, I: contas presidenciais — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O TCU julga definitivamente as contas anuais do Presidente, restando ao Congresso apenas publicar sua decisão.",
+      "item": "O controle externo, a cargo do Congresso Nacional, será exercido com o auxílio do Tribunal de Contas da União, ao qual compete apreciar as contas prestadas anualmente pelo Presidente da República, mediante parecer prévio, que deverá ser elaborado em sessenta dias a contar de seu recebimento.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-58",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 71: competências e sanções do TCU",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e6cf68584423d76be8a49a1791dc2dacf9ae3e96f0e11431bc03e5fefbf8c807",
+    "shaDepois": "6aa184d66710b75540a4a4fd94466f3bb271703a166a33b20410882d5cef4023",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. TCU pode julgar contas e aplicar sanções de sua competência, mas não condenar criminalmente como juiz penal. Improbidade e crime também não são categorias idênticas. Achados podem gerar comunicações e processos próprios sem transformar o controle de contas em sentença criminal.",
+      "gatilho": "criminalmente",
+      "armadilhaBanca": "Confundir julgamento de contas e jurisdição penal.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 71: competências e sanções do TCU — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O TCU exerce competências de controle e sanções previstas em lei, sem substituir o juízo criminal.",
+      "item": "Compete ao Tribunal de Contas da União julgar e condenar criminalmente gestores públicos que cometerem atos de improbidade administrativa dolosa.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-59",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 58, §3º: requisitos e encaminhamento de CPI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b5a013d7eeea72d7f0438ac84fb7f8f928417a6e555c2248cb69e22f7c9ddd7f",
+    "shaDepois": "1328463473583bce98b05384894aee69db82ed3e5c1dca4b7d22237cf92e558a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. CPI investiga fato determinado por prazo certo e segue a exigência constitucional de apoio. As conclusões podem ser encaminhadas ao MP para providências de responsabilização, não constituindo sentença. Na CPI mista, é necessário observar o apoio das duas Casas, não apenas somar assinaturas de qualquer origem.",
+      "gatilho": "Ministério Público",
+      "armadilhaBanca": "Distinguir investigação parlamentar e responsabilização em processo próprio.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §3º: requisitos e encaminhamento de CPI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O relatório de CPI condena automaticamente os investigados e dispensa o Ministério Público e o Judiciário.",
+      "item": "As comissões parlamentares de inquérito, que terão poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas, serão criadas pela Câmara dos Deputados e pelo Senado Federal, em conjunto ou separadamente, mediante requerimento de um terço de seus membros, para a apuração de fato determinado e por prazo certo, sendo suas conclusões, se for o caso, encaminhadas ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-60",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfCPIpoderes"
+    ],
+    "localizador": "direito da minoria e requisitos constitucionais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6850c1aa03b59e10ee11ff321d311bffe1a58e468ebf37ca828a168813261957",
+    "shaDepois": "cb37596964e8e18e2a358cab8e20f6a7acb1362cb170e84b7eb23b2c4fbc20e1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Preenchidos os requisitos constitucionais, a instalação não depende de aprovação política discricionária da maioria governista. Isso não afasta o exame dos próprios requisitos de fato determinado e prazo, nem as regras do procedimento. Direito da minoria e ausência de qualquer condição são coisas distintas.",
+      "gatilho": "inconveniente",
+      "armadilhaBanca": "Distinguir análise de requisitos e veto político à investigação.",
+      "fonte": "STF — Constituição e Supremo, art. 58 — direito da minoria e requisitos constitucionais — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Atendidos os requisitos constitucionais, a criação de CPI não pode ser recusada apenas por conveniência política do governo.",
+      "item": "A criação de CPI no âmbito da Câmara dos Deputados submete-se à aprovação soberana da maioria absoluta dos membros do Plenário, podendo a Mesa indeferir a instalação caso considere a investigação inconveniente para o governo.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-61",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfCPIpoderes"
+    ],
+    "localizador": "quebra de sigilo de dados, colegialidade e fundamentação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "92aabe0923e7f0d995a0318c3632e6fb4bb686c980929335635b528ef630e03b",
+    "shaDepois": "bf16f16eaa5ed6e462b4fb4c6df4fedd83040f98b8fd21cbaf6b7efe3d712558",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma CPI pode determinar quebra de sigilo bancário, fiscal e de dados telefônicos nas condições admitidas, por decisão colegiada fundamentada e pertinente, sem confundir dados de chamadas com interceptação de conversas.",
+      "justificativa": "CERTO. A CPI pode deliberar sobre acesso a dados protegidos nas condições admitidas, com fundamentação, pertinência e decisão colegiada. Dados telefônicos não são interceptação do conteúdo das conversas. A nova redação não fixa quórum sem distinguir regra de deliberação e votação concreta.",
+      "gatilho": "dados",
+      "armadilhaBanca": "Distinguir registros de comunicação e interceptação de conteúdo.",
+      "fonte": "STF — Constituição e Supremo, art. 58 — quebra de sigilo de dados, colegialidade e fundamentação — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Ter competência sobre dados de ligações permite à CPI interceptar livremente conversas em curso.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-62",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfCPIpoderes"
+    ],
+    "localizador": "reserva de jurisdição: interceptação e busca domiciliar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "719d69e52e071982d96dd02dc6f03361e524dfd6b39280ecb6765fee8c079070",
+    "shaDepois": "c87a0b348ebad98e016ed285faf591b0026ddb9c08a5ffe046a0ba40cc15af79",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Poderes de investigação não abrangem todas as medidas reservadas ao Judiciário. Interceptação de conteúdo e busca domiciliar sujeitam-se às regras e garantias próprias. A expressão poderes próprios de autoridades judiciais não é uma equiparação integral de competências.",
+      "gatilho": "sem necessidade",
+      "armadilhaBanca": "Não transformar poderes investigatórios em jurisdição irrestrita.",
+      "fonte": "STF — Constituição e Supremo, art. 58 — reserva de jurisdição: interceptação e busca domiciliar — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "CPI deve respeitar a reserva judicial para interceptação e busca domiciliar nos termos legais.",
+      "item": "As comissões parlamentares de inquérito possuem poder para decretar a interceptação telefônica (escuta telefônica do teor das conversas) e a busca e apreensão domiciliar sem necessidade de autorização judicial.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-63",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfCPIpoderes"
+    ],
+    "localizador": "liberdade, prisão cautelar e poderes da CPI",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e08124a0d6f3056cba29701a1eba53266debcfc48bb67bf673ee3de8e6bef7d2",
+    "shaDepois": "b073b73a88b1cfc1dea459f715a9b048bc34628c268e901924c657b80e3cdd67",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A CPI não decreta prisão preventiva para garantir sua investigação. Eventual flagrante observa hipóteses legais próprias e não se confunde com prisão cautelar judicial. O exercício do direito ao silêncio também não autoriza punição automática pela comissão.",
+      "gatilho": "preventiva",
+      "armadilhaBanca": "Trocar espécies de prisão e autoridade competente.",
+      "fonte": "STF — Constituição e Supremo, art. 58 — liberdade, prisão cautelar e poderes da CPI — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "CPI não pode impor prisão preventiva, devendo distinguir essa medida das hipóteses legais de flagrante.",
+      "item": "As CPIs podem determinar a prisão cautelar preventiva dos investigados para assegurar a instrução dos trabalhos apuratórios parlamentares.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-64",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 73, caput: composição e alcance do TCU",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a0b2d6960574540f263dfb135491354c98530556ef1f8f59617e87f0923112f4",
+    "shaDepois": "5c457d1da155e07fa407ff7d08686dc69312cb0497515cb803d564cc8b5b7032",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Constituição prevê nove ministros, sede no Distrito Federal, quadro próprio e atuação nacional. O uso do termo jurisdição nesse contexto não transforma o TCU em órgão do Poder Judiciário. A sede também não limita suas competências a recursos apenas do Distrito Federal.",
+      "gatilho": "nove Ministros",
+      "armadilhaBanca": "Distinguir sede, alcance territorial e natureza institucional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 73, caput: composição e alcance do TCU — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Por ter sede no Distrito Federal, o TCU só pode atuar sobre recursos distritais e não sobre recursos federais no restante do país.",
+      "item": "O Tribunal de Contas da União é integrado por nove Ministros, possuindo sede na Capital Federal, quadro próprio de pessoal e jurisdição em todo o território nacional.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-65",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 73, §1º: requisitos, com idade após EC 122/2022",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9f2f1b9008b2e4e46b1486d141c2cf3c195c2edb6178faa0ca576b94cdaf471c",
+    "shaDepois": "8b575d55dabec841190c0121bb09936230dbc3405ebcdfea96f3e27ad9a25a39",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O art. 73, §1º, exige de ministros do TCU mais de 35 e menos de 70 anos, idoneidade moral e reputação ilibada, notórios conhecimentos nas áreas previstas e mais de dez anos de atividade que exija esses conhecimentos.",
+      "justificativa": "CERTO. O limite etário do dispositivo passou a menos de setenta anos pela EC 122/2022, mantidos os demais requisitos. Não se confunde requisito para nomeação com aposentadoria compulsória. Conhecimentos e experiência possuem áreas e duração previstas, não uma exigência genérica de qualquer currículo.",
+      "gatilho": "menos de 70",
+      "armadilhaBanca": "Distinguir requisito de nomeação e limite de permanência.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 73, §1º: requisitos, com idade após EC 122/2022 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O limite de idade para nomeação a ministro do TCU é a mesma regra de aposentadoria compulsória, sem distinção entre ingresso e saída.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-66",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 73, §2º: escolha dos ministros",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6b82d4704458f4c041d4869dc6a61be1dc83173585e00f97e539aab2c7a61035",
+    "shaDepois": "20ee083e215a5cb9028c702ff1bcc50d4bae6a941e5f94ceacfb70b33664dd12",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A divisão é um terço escolhido pelo Presidente com aprovação do Senado e dois terços pelo Congresso. Há condições próprias para duas vagas do terço presidencial. Não se pode atribuir as nove indicações ao Executivo nem substituir a distribuição por uma fórmula genérica de referendo.",
+      "gatilho": "totalidade",
+      "armadilhaBanca": "Trocar distribuição de vagas e etapas de escolha.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 73, §2º: escolha dos ministros — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Um terço é escolhido pelo Presidente com aprovação do Senado, e dois terços pelo Congresso, observadas as condições constitucionais.",
+      "item": "A totalidade dos nove ministros integrantes do Tribunal de Contas da União decorre de indicação originária do Presidente da República, exigindo-se referendo por maioria qualificada do Senado Federal.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-67",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 49, IX, e 71, I: parecer e julgamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "87f9a20290c89e61f939f830775e29b194b6a127823ab9c2b4085f0eff36e403",
+    "shaDepois": "757b6c4afebd4533d5846cf30228781f10c0c15a1cf3367d09bf4650e0c4171b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O parecer prévio do TCU instrui a decisão sobre contas anuais presidenciais. Não é a própria decisão do Congresso nem provoca rejeição automática. A importância técnica do parecer não altera a competência constitucional de julgamento.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Confundir subsídio técnico e decisão constitucionalmente atribuída a outro órgão.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 49, IX, e 71, I: parecer e julgamento — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Congresso julga as contas presidenciais com apoio do parecer prévio, sem rejeição automática apenas pelo seu conteúdo.",
+      "item": "O parecer prévio emitido pelo Tribunal de Contas da União sobre as contas do Presidente da República tem caráter vinculante para o Congresso Nacional, de sorte que, opinando o TCU pela rejeição, as contas serão automaticamente desaprovadas sem necessidade de votação parlamentar.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-68",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 71, §§1º e 2º: sustação de contrato",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8dc19d7b52e09914c73c053eb4bde362469873e93ebb5e69bd6bfc39e9e78bcc",
+    "shaDepois": "9be9fc10a506ccf928a684e6171a26b5aaa66065ce56f0e8f59169f891e70a28",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O §1º atribui inicialmente ao Congresso a sustação do contrato, com solicitação de medidas ao Executivo. O §2º prevê atuação do Tribunal se as providências não forem efetivadas em noventa dias. Não é correto afirmar sustação direta sem qualquer dependência nem proibição absoluta de atuação posterior.",
+      "gatilho": "diretamente",
+      "armadilhaBanca": "Preservar a sequência e a hipótese de atuação subsidiária.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 71, §§1º e 2º: sustação de contrato — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A sustação de contrato observa a atuação inicial do Congresso e a hipótese posterior do art. 71, §2º.",
+      "item": "No exercício do controle externo, caso o TCU verifique ilegalidade em contrato administrativo, cabe-lhe sustar diretamente a execução do contrato, sem qualquer dependência de deliberação do Congresso Nacional ou do Poder Executivo.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-69",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 70, parágrafo único: dever de prestar contas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "42731a6abf675387e6da53dd0bda9c5c94bc0ecc32f288faae03e25c5e8327c2",
+    "shaDepois": "99e2809ae3ab1f51d8094665e920d633e75c17fbb06bfad4428fc7754174e5dd",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O dever alcança quem administra ou utiliza recursos públicos nas condições do dispositivo, inclusive pessoa privada. A natureza privada do gestor não elimina o vínculo com recursos públicos. Isso não significa que todo patrimônio privado de qualquer pessoa esteja sujeito ao mesmo controle.",
+      "gatilho": "privada",
+      "armadilhaBanca": "Distinguir natureza do sujeito e natureza dos recursos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 70, parágrafo único: dever de prestar contas — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Administrar recursos públicos como pessoa privada dispensa automaticamente prestar contas desses recursos.",
+      "item": "Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais a União responda, ou que, em nome desta, assuma obrigações de natureza pecuniária.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-70",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 74, §1º: ciência ao TCU",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "36f2643bc1ab35448e8ac715086e520e30f0d99648bad35504432938c2cd17cd",
+    "shaDepois": "6cf9a7b76d323bc96f7573134ce29f255f0082ed6af3d25069903d8ba127199d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Responsáveis pelo controle interno devem comunicar irregularidade ou ilegalidade de que tenham conhecimento, sob a consequência constitucional prevista. O controle interno não existe apenas para informar à chefia hierárquica. A comunicação integra sua articulação com controle externo, respeitadas as responsabilidades de cada agente.",
+      "gatilho": "solidária",
+      "armadilhaBanca": "Distinguir dever constitucional e conveniência hierárquica.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 74, §1º: ciência ao TCU — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A chefia pode dispensar os responsáveis pelo controle interno de comunicar ao TCU irregularidade conhecida.",
+      "item": "Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-71",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 74, §2º: legitimidade para denúncia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c775ed929915af73f7bbc7a95963c6da16d33dd821cd75723116d57539597451",
+    "shaDepois": "e283577ccbd49e44b2fef3ac32e3660452f49c958490077719786a9694a0aa84",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Constituição permite denúncia por cidadão, partido, associação ou sindicato, na forma da lei. Isso não equivale a legitimidade irrestrita para qualquer ação judicial ou procedimento constitucional. É preciso identificar o instrumento, o órgão destinatário e os requisitos.",
+      "gatilho": "cidadão",
+      "armadilhaBanca": "Não transferir legitimidade entre instrumentos distintos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 74, §2º: legitimidade para denúncia — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Poder denunciar ao TCU torna qualquer cidadão legitimado para propor ADI no STF.",
+      "item": "Qualquer cidadão, partido político, associação ou sindicato é parte legítima para, na forma da lei, denunciar irregularidades ou ilegalidades perante o Tribunal de Contas da União.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-72",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfTCU"
+    ],
+    "localizador": "MS 25888/DF: limites da Súmula 347",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2a50c37bbd26daf7dea78e5de7c8bcb9a971db418bc0fe43c44d0c525ec11de7",
+    "shaDepois": "ce6696fe7f8d35b097ce960412a97e0e70a27a9c244e9731b4d181ddc78e4dd8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A aplicação da Súmula 347 ao TCU não lhe confere competência para julgar ADI ou invalidar leis em abstrato com efeitos gerais; o afastamento incidental observa os limites da jurisprudência do STF.",
+      "justificativa": "CERTO. A jurisprudência reconhece limites e condições ao afastamento incidental de norma no exercício do controle externo. Não se trata de competência para ação direta ou declaração geral de invalidade como a do STF. A análise deve considerar o caso e os parâmetros fixados, sem invocar a súmula como autorização ilimitada.",
+      "gatilho": "incidental",
+      "armadilhaBanca": "Distinguir afastamento incidental e controle abstrato com efeitos gerais.",
+      "fonte": "STF — MS 25888/DF e compatibilidade da Súmula 347, 2023 — MS 25888/DF: limites da Súmula 347 — https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=513011&ori=1",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Súmula 347 permite ao TCU julgar ADI e invalidar leis com efeitos gerais para toda a sociedade.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-73",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 71, §3º: título executivo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "89b3015e1b6a83a50850994c95c4c3bbfa5b62687b29523cf27fa27c8c48d5f8",
+    "shaDepois": "242dcb968352f302fc8e62d3242a788e76b333b6aaa2d6ebde7931f1aae8b719",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Imputação de débito ou multa gera título executivo de natureza extrajudicial, não sentença judicial do TCU. O Tribunal não substitui o órgão legitimado para promover cobrança na via própria. Eficácia executiva é diferente de pertencer ao Judiciário ou executar diretamente toda condenação.",
+      "gatilho": "judicial",
+      "armadilhaBanca": "Confundir natureza do título, órgão que o forma e sujeito que cobra.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 71, §3º: título executivo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A decisão de débito ou multa do TCU tem eficácia de título executivo extrajudicial, com cobrança pela via e pelo legitimado pertinentes.",
+      "item": "As decisões do Tribunal de Contas da União de que resulte imputação de débito oumulta terão eficácia de título executivo judicial, podendo ser executadas diretamente pelo próprio Tribunal.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-74",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 73, §3º: garantias e regime dos ministros",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b88504697116e1a9f33a1e0990f253245d8abfddf296d70972b47197c6e473f7",
+    "shaDepois": "781b2c0f67bcb6838e78a3dd956d4bbeeafe18ac4abcbe205cbf4ddd91ddb8c6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O parâmetro indicado é o dos ministros do STJ, não do STF. A regra deve ser lida nos limites constitucionais, inclusive quanto a aposentadoria e pensão. Identidade do nome ministro não faz todos esses cargos terem o mesmo regime em qualquer aspecto.",
+      "gatilho": "Superior Tribunal de Justiça",
+      "armadilhaBanca": "Trocar o órgão usado como parâmetro constitucional.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 73, §3º: garantias e regime dos ministros — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "As garantias do ministro do TCU são comparadas pela Constituição às do STF, e não às do STJ.",
+      "item": "Os Ministros do TCU terão as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Ministros do Superior Tribunal de Justiça.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-75",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 58, §3º: conclusão de CPI e encaminhamento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "da4789128caf01bc99ad55c92f092bf73915b29c3439740235634e74064288fe",
+    "shaDepois": "6012c548ea0e7725b6a45f913df54e443a9e85c2a47e787ed790fba43aa462d8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O relatório não é sentença penal ou sanção automática de direitos políticos. As conclusões podem sustentar providências do MP e de outras autoridades, com procedimentos e garantias próprios. A investigação parlamentar não elimina contraditório e decisão competente na responsabilização subsequente.",
+      "gatilho": "automática",
+      "armadilhaBanca": "Distinguir investigação, indiciamento e condenação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 58, §3º: conclusão de CPI e encaminhamento — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Conclusões de CPI podem ser encaminhadas para providências de responsabilização, sem condenação automática pelo relatório.",
+      "item": "As conclusões dos relatórios finais de CPIs possuem eficácia condenatória imediata e operam a suspensão automática dos direitos políticos dos parlamentares indiciados.",
+      "submoduloId": "10.5",
+      "submodulo": "10.5"
+    }
+  },
+  {
+    "id": "m10a-q-76",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cedi"
+    ],
+    "localizador": "funções documentais e tipos de acervo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "b4fb3f6238985358ac24037fcfdd2cbe9001e61d37011cfebb8c8750d110aea3",
+    "shaDepois": "54bc21768028978ccd4368e1de409634565daed3b05e26f323c2abfcfe7a2bbf",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A atuação de um centro de documentação em arquivos e bibliotecas não torna idênticos os instrumentos de descrição bibliográfica e de avaliação e destinação arquivística.",
+      "justificativa": "CERTO. Acervos podem reunir documentos arquivísticos e recursos bibliográficos que exigem instrumentos e decisões próprios. Estar no mesmo centro não transforma a tabela de temporalidade em código de catalogação nem o catálogo em autorização de eliminação. Integração institucional não elimina diferenças de tratamento.",
+      "gatilho": "não torna",
+      "armadilhaBanca": "Distinguir integração de serviços e instrumentos de gestão documental.",
+      "fonte": "Câmara dos Deputados — Diretoria-Geral e atribuições do Centro de Documentação e Informação — funções documentais e tipos de acervo — https://www2.camara.leg.br/a-camara/estruturaadm/diretorias/diretoria-geral",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma instituição que reúne arquivo e biblioteca deve usar o catálogo bibliográfico como única tabela de temporalidade dos documentos.",
+      "submoduloId": "1.5",
+      "submodulo": "1.5"
+    }
+  },
+  {
+    "id": "m10a-q-77",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlURN"
+    ],
+    "localizador": "seções de estrutura e persistência da identificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "73e24a05a942d984c76b78d55959ef9d0a0fd61ef7037226194780895faf433e",
+    "shaDepois": "8788cac8f112e74c9926f3f90eb3c3cdca3e94f8664bc605f1960eaa90f46281",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A identificação por URN no LexML pode apoiar referência persistente a entidades jurídicas e legislativas, mas não implica que seu endereço de acesso ou todas as versões do conteúdo sejam invariáveis.",
+      "justificativa": "CERTO. URN permite identificar uma entidade de referência sem depender de um endereço atual. Pode haver nomes alternativos previstos no modelo, sem que cada nome passe a designar múltiplos objetos indistintamente. Persistência requer gestão e não equivale a disponibilidade eterna do arquivo ou ausência de versões.",
+      "gatilho": "não implica",
+      "armadilhaBanca": "Distinguir identidade persistente e endereço de acesso.",
+      "fonte": "LexML Brasil — Parte 2: LEXML URN — seções de estrutura e persistência da identificação — https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma URN só continua válida enquanto o documento permanece hospedado no mesmo endereço Web original.",
+      "submoduloId": "4.3",
+      "submodulo": "4.3"
+    }
+  },
+  {
+    "id": "m10a-q-78",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlURN"
+    ],
+    "localizador": "datas representativas e identificação de atos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d1500b862908783a682032ece75324110f2c7b5e7589aa4c22367ecaf3a581ec",
+    "shaDepois": "6bbc7513ea2cf5e0644eb9fd9b3c1af4593022c2511373c69cd1e2d6bbfccaaf",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A data de qualquer documento em uma URN LexML é necessariamente a data de sua publicação no Diário Oficial, independentemente do tipo documental e da data representativa do ato.",
+      "justificativa": "ERRADO. O componente de data segue a identificação e a regra pertinente ao tipo de documento. Não é sempre a data de publicação no Diário Oficial nem um campo que represente necessariamente a votação em Plenário. Identificar o ato e localizar sua publicação são operações relacionadas, mas distintas.",
+      "gatilho": "necessariamente",
+      "armadilhaBanca": "Confundir data do ato, votação e publicação.",
+      "fonte": "LexML Brasil — Parte 2: LEXML URN — datas representativas e identificação de atos — https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A data representativa na URN segue a regra do tipo documental e não corresponde necessariamente à data de publicação no Diário Oficial.",
+      "submoduloId": "4.3",
+      "submodulo": "4.3"
+    }
+  },
+  {
+    "id": "m10a-q-79",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "catálogo coletivo e bibliotecas cooperantes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "88d8dc4732a4d42c5eb01b1f6b8a8f9a01e5dd2a311d0f67baae4957dd3d3fb4",
+    "shaDepois": "3fdae4a2f1fb5b4155ae7f37f7f2045a71798d5ecee772306f5e2b246639037d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A cooperação permite compartilhar descrição e localizar acervos das participantes. Uma base comum não implica que todos os exemplares estejam no Senado nem que cada biblioteca perca sua gestão local. Registro bibliográfico e informações de exemplares ou disponibilidade precisam ser distinguidos.",
+      "gatilho": "cooperativa",
+      "armadilhaBanca": "Distinguir registro compartilhado e propriedade ou localização dos exemplares.",
+      "fonte": "Senado Federal — A RVBI — catálogo coletivo e bibliotecas cooperantes — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A base cooperativa da RVBI torna todos os exemplares patrimônio físico do Senado e elimina sua localização nas outras bibliotecas.",
+      "item": "A Rede Virtual de Bibliotecas (RVBI), coordenada tecnicamente pela Biblioteca do Senado Federal com participação da Biblioteca Pedro Aleixo da Câmara dos Deputados, opera sob uma base de dados bibliográficos cooperativa e unificada.",
+      "submoduloId": "4.3",
+      "submodulo": "4.3"
+    }
+  },
+  {
+    "id": "m10a-q-80",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "catalogação cooperativa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b14514344f7a63d93a337233569e84aea17324f3651f9e55d193a00da1827cdd",
+    "shaDepois": "87843dd6563bd4f7093bab78d31aec1db1d93ddda3ac451d269affa7f325b1bb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A RVBI é rede de cooperação bibliográfica, não uma política de proibir aproveitamento de metadados. Compartilhar registros pode reduzir retrabalho e apoiar padronização. Isso não elimina necessidade de ajustar dados locais e verificar responsabilidade e qualidade do registro aproveitado.",
+      "gatilho": "desautorizando",
+      "armadilhaBanca": "Inverter finalidade de cooperação e isolamento obrigatório.",
+      "fonte": "Senado Federal — A RVBI — catalogação cooperativa — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A RVBI favorece cooperação e aproveitamento de registros, observadas as regras e os dados locais pertinentes.",
+      "item": "Na RVBI, cada biblioteca participante mantém registros catalográficos isolados para um mesmo título, desautorizando o aproveitamento cooperativo de metadados entre a Câmara dos Deputados e os tribunais federais.",
+      "submoduloId": "4.3",
+      "submodulo": "4.3"
+    }
+  },
+  {
+    "id": "m10a-q-81",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "missão e especialização parlamentar",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "c6d8fa1047581c9d3a101ab49917b7ad9de6de2a6b1c102dd0645029b930aebd",
+    "shaDepois": "0c2780b7b0e39e8a85443b8ae7cd38123b9f78b7f891d399b643eeb65659de08",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A Biblioteca Pedro Aleixo orienta coleções e serviços às necessidades informacionais da atividade parlamentar, com atenção a temas das ciências sociais e humanas e de políticas públicas.",
+      "justificativa": "CERTO. As coleções e os serviços se orientam à missão e aos públicos da instituição, com temas relevantes ao trabalho parlamentar. Isso não exige limitar tudo a uma única classe ou excluir outras disciplinas necessárias a políticas públicas. Foco temático e cobertura interdisciplinar podem coexistir.",
+      "gatilho": "necessidades",
+      "armadilhaBanca": "Distinguir ênfase temática e exclusão de áreas correlatas.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — missão e especialização parlamentar — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A especialização de uma biblioteca parlamentar exige excluir toda disciplina fora do direito, mesmo necessária ao trabalho legislativo.",
+      "submoduloId": "4.2",
+      "submodulo": "4.2"
+    }
+  },
+  {
+    "id": "m10a-q-82",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "consulta e públicos atendidos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "72193d8368bfb1bead4cd76cfab42287d941050718aed98ec367b419c0539968",
+    "shaDepois": "69cb3b5392f2e8f49dae44cdba18cb2ef5388cc81ea49dcc23a90bec548a2715",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A biblioteca oferece possibilidades de consulta ao público externo segundo suas regras. Isso não significa que todos tenham direito irrestrito a empréstimo domiciliar ou a manusear qualquer material especial. O acesso deve ser analisado por modalidade e condição, sem exclusão universal de cidadãos.",
+      "gatilho": "proibido",
+      "armadilhaBanca": "Confundir público prioritário e proibição absoluta de consulta externa.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — consulta e públicos atendidos — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Consulta pública é possível nas condições institucionais, sem equiparar todos os serviços e usuários.",
+      "item": "O serviço de atendimento ao cidadão prestado pela Biblioteca da Câmara dos Deputados é restrito a servidores e parlamentares, sendo proibido o acesso do público externo às dependências e ao acervo da instituição.",
+      "submoduloId": "4.4",
+      "submodulo": "4.4"
+    }
+  },
+  {
+    "id": "m10a-q-83",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8159"
+    ],
+    "localizador": "arts. 3º e 19: gestão e custódia de arquivos legislativos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "b2d7fb1f659a00b6be3c02edb256d17633c0acc9569f4231b3c01577a6d30084",
+    "shaDepois": "de17331d734b17430aa6c8083cb4736eefe6337dbc236ee5e27eae0554d83340",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A custódia de documentos legislativos não substitui a avaliação e a aplicação dos instrumentos de temporalidade e destinação aprovados na esfera competente.",
+      "justificativa": "CERTO. Custódia exige organização e controle; destinação depende de avaliação e dos instrumentos e competências próprios. Apenas receber um documento não determina prazo fixo universal de cinco anos. A administração de arquivos legislativos também não se reduz a conservar cópias de obras bibliográficas.",
+      "gatilho": "não substitui",
+      "armadilhaBanca": "Distinguir custódia, prazo e decisão de destinação.",
+      "fonte": "Lei 8.159/1991 — política nacional de arquivos públicos e privados — arts. 3º e 19: gestão e custódia de arquivos legislativos — https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Guardar um documento por cinco anos autoriza automaticamente sua eliminação, qualquer que seja seu valor ou regra de guarda.",
+      "submoduloId": "1.5",
+      "submodulo": "1.5"
+    }
+  },
+  {
+    "id": "m10a-q-84",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8159"
+    ],
+    "localizador": "art. 9º: eliminação autorizada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fc8e50828e3caf0e732075aeac060784004913a3d05fb6467c263d9b4d5f5211",
+    "shaDepois": "09b33256291e296c3215ee061ca3339380749f8cab8906fbed1fded85bff68d2",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Não há autorização universal para eliminar originais legislativos apenas pelo decurso de cinco anos de vigência da lei. Avaliação, destinação e autorização devem observar as competências e os procedimentos aplicáveis. Valor probatório e histórico também não se mede exclusivamente por esse prazo.",
+      "gatilho": "sumariamente",
+      "armadilhaBanca": "Confundir idade ou vigência normativa e prazo de guarda do documento.",
+      "fonte": "Lei 8.159/1991 — política nacional de arquivos públicos e privados — art. 9º: eliminação autorizada — https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A eliminação depende de avaliação e autorização competente, não apenas de cinco anos de vigência da lei resultante.",
+      "item": "Documentos legislativos originais que tramitaram e foram convertidos em leis federais podem ser desbastados e eliminados sumariamente pelo CEDI após decorridos cinco anos de sua vigência.",
+      "submoduloId": "1.5",
+      "submodulo": "1.5"
+    }
+  },
+  {
+    "id": "m10a-q-85",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 8º, §3º, III: acesso automatizado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "793c46def369ceb991326d312b07b874227fabc20138adeaeb5adedf41c15d35",
+    "shaDepois": "7fa7434f866be8f7ed249a01b882661661ac1369f52598f0ae5e768b00ebaa56",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O art. 8º, §3º, III, da LAI prevê possibilidade de acesso automatizado por sistemas externos a informações dos sítios públicos em formatos abertos, estruturados e legíveis por máquina.",
+      "justificativa": "CERTO. A lei prevê que os sítios possibilitem acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina. Isso favorece reutilização e controle, sem eliminar hipóteses legais de proteção. Não equivale a publicar qualquer dado pessoal irrestritamente nem se resume a disponibilizar imagens de tabelas.",
+      "gatilho": "estruturados",
+      "armadilhaBanca": "Distinguir visualização de informação e processamento automatizado.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 8º, §3º, III: acesso automatizado — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Oferecer apenas imagem de uma tabela satisfaz necessariamente toda exigência de formato estruturado e legível por máquina.",
+      "submoduloId": "10.3",
+      "submodulo": "10.3"
+    }
+  },
+  {
+    "id": "m10a-q-86",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "arts. 23 e 27: fundamento e competência de classificação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "19c0eeb3dbc14f8361ee1048c13e7d4dff69d29c80972ac9e05a57127ec394de",
+    "shaDepois": "274f371ba571cd8e5e3b33374df1b5df1e9f629c04173e682184deca16fc506b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Classificação depende de fundamento legal, competência e procedimento, não de vontade de evitar fiscalização social. Estar em tramitação não cria automaticamente grau ultrassecreto. A lei estabelece publicidade como regra e exige justificar restrições nas hipóteses pertinentes.",
+      "gatilho": "impedir",
+      "armadilhaBanca": "Confundir conveniência do agente e hipótese legal de sigilo.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — arts. 23 e 27: fundamento e competência de classificação — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Evitar acompanhamento social não constitui, por si só, fundamento para classificar proposições como ultrassecretas.",
+      "item": "De acordo com a LAI, proposições legislativas em curso no Congresso Nacional podem ser classificadas como ultrasecretas pelos relatores com o fim de impedir o acompanhamento por organizações da sociedade civil.",
+      "submoduloId": "10.3",
+      "submodulo": "10.3"
+    }
+  },
+  {
+    "id": "m10a-q-87",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cedi"
+    ],
+    "localizador": "produção editorial e acesso a publicações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "520f206073d1b23c3a50b1ee027ccc7d947b0d7eb6e383f69e9388469db7a88a",
+    "shaDepois": "a5f27eed4b802e56fe468f84cccdbf31382b30b1e26fd88d0e8644bbb42465e5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A produção de obras pelas Edições Câmara apoia acesso a conteúdo parlamentar e institucional, mas não se confunde com aprovar ou alterar normas por decisão editorial.",
+      "justificativa": "CERTO. Produzir e disponibilizar livros e outras obras pode apoiar o trabalho legislativo e a memória institucional. Essa função editorial não equivale à competência de aprovar ou promulgar uma lei. Texto compilado também precisa indicar o recorte e a atualização, sem substituir automaticamente a fonte normativa original.",
+      "gatilho": "não se confunde",
+      "armadilhaBanca": "Distinguir edição de obras e produção normativa.",
+      "fonte": "Câmara dos Deputados — Diretoria-Geral e atribuições do Centro de Documentação e Informação — produção editorial e acesso a publicações — https://www2.camara.leg.br/a-camara/estruturaadm/diretorias/diretoria-geral",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda alteração editorial numa coletânea publicada pela Câmara altera, por si só, a legislação vigente.",
+      "submoduloId": "8.5",
+      "submodulo": "8.5"
+    }
+  },
+  {
+    "id": "m10a-q-88",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "skos"
+    ],
+    "localizador": "relações hierárquicas, associativas e equivalência",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5f6cacc2e6a0c582df71906ed6ad2fbb1afd0edd0479c2c2e2a38eb18aff8078",
+    "shaDepois": "8cab33775c392dbf922833d23d1fca948170ea7e7a8d3f60be1a27c6ec451ab0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Em um tesauro parlamentar, TG e TE identificam termos equivalentes entre si, enquanto TR indica necessariamente uma relação de subordinação hierárquica.",
+      "justificativa": "ERRADO. Termo genérico e específico expressam direção hierárquica e não sinonímia. Termos relacionados representam relação associativa, não necessariamente subordinação. No uso de um tesauro parlamentar, trocar os rótulos muda o tipo de vínculo e pode prejudicar expansão e precisão da busca.",
+      "gatilho": "equivalentes",
+      "armadilhaBanca": "Trocar tipos de relações dentro do vocabulário controlado.",
+      "fonte": "W3C — SKOS Reference, 2009 — relações hierárquicas, associativas e equivalência — https://www.w3.org/TR/skos-reference/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Termos genéricos e específicos se relacionam hierarquicamente; termos relacionados indicam associação, e não equivalência obrigatória.",
+      "submoduloId": "3.4",
+      "submodulo": "3.4"
+    }
+  },
+  {
+    "id": "m10a-q-89",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "indexacaoCamara"
+    ],
+    "localizador": "art. 5º, V: especificidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c15071879e253a8200949d187042143571b03f929558973fb9d1f32e9c230fdf",
+    "shaDepois": "ef93c94dba61dbade733d68ceb8e2dfc39ed1f2182426ee40440d4063dfbd6a8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Segundo o art. 5º, V, do Ato da Mesa 80/2013, o termo genérico deve ser preferido na indexação, constituindo o termo específico uma exceção.",
+      "justificativa": "ERRADO. A diretriz do dispositivo prefere o termo específico e trata o genérico como exceção. Isso não significa inventar um termo inexistente ou desconsiderar o conteúdo. Escolha de descritores exige representar conceitos do documento com a linguagem adotada.",
+      "gatilho": "genérico",
+      "armadilhaBanca": "Inverter prioridade e exceção expressamente previstas.",
+      "fonte": "Câmara dos Deputados — Ato da Mesa 80/2013 — art. 5º, V: especificidade — https://www2.camara.leg.br/legin/int/atomes/2013/atodamesa-80-31-janeiro-2013-775250-publicacaooriginal-138914-cd-mesa.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O art. 5º, V, do Ato da Mesa 80/2013 prevê utilização preferencial do termo específico, constituindo o genérico exceção.",
+      "submoduloId": "3.3",
+      "submodulo": "3.3"
+    }
+  },
+  {
+    "id": "m10a-q-90",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlXML"
+    ],
+    "localizador": "estrutura dos dispositivos e referências granulares",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a1bd2b5b65a5c582f0780591cc4b28ae4c6b45cac386304276d68be594e2d52f",
+    "shaDepois": "4039aca2ba830cf05e7c3d0841d3f503015fee9f32239cc0ff126bf2ee148922",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A marcação diferencia unidades como artigo, parágrafo, inciso e alínea, apoiando processamento e referência a dispositivos. Isso não altera a hierarquia de normas nem certifica validade jurídica do texto marcado. Um XML tecnicamente válido pode conter transcrição incorreta de uma disposição.",
+      "gatilho": "hierárquicos",
+      "armadilhaBanca": "Distinguir estrutura formal de dados e validade do conteúdo.",
+      "fonte": "LexML Brasil — Parte 3: XML Schema — estrutura dos dispositivos e referências granulares — https://projeto.lexml.gov.br/documentacao/Parte-3-XML-Schema.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A conformidade de um XML comprova automaticamente a constitucionalidade e a correção da transcrição de todas as disposições.",
+      "item": "O esquema XML de documentos do LexML Brasil estrutura o corpo dos textos legais em elementos hierárquicos como artigos, parágrafos, incisos, alíneas e itens, permitindo a identificação semântica e granular de cada dispositivo da norma.",
+      "submoduloId": "4.3",
+      "submodulo": "4.3"
+    }
+  },
+  {
+    "id": "m10a-q-91",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lexmlURN"
+    ],
+    "localizador": "5.1: Documento Complexo, Documento Individual e versão",
+    "nota": "Gabarito E revisto para C em redação explicitamente delimitada ao Documento Complexo da seção 5.1. Corrigida a confusão entre identidade persistente e imutabilidade de cada versão.",
+    "shaAntes": "a4b343bd0212aca99d028518eea759696c802302f0fdf2bc879e7b7a738045fd",
+    "shaDepois": "a1320b3135b124305516d389888def30ff52a216c4d97be1b09398565f7dadae",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "C",
+      "item": "No modelo de identificação LexML, manter uma referência ao Documento Complexo não implica afirmar que o texto de todas as suas versões é idêntico: identidade abstrata e versão específica são níveis distintos.",
+      "justificativa": "CERTO. O modelo distingue identidade abstrata do documento e versão específica. A referência ao Documento Complexo não muda necessariamente a cada alteração de redação; versões podem ser identificadas com componentes próprios. Uma emenda ou substitutivo pode ter identificação própria sem apagar a identidade do projeto ao qual se relaciona.",
+      "gatilho": "não implica",
+      "armadilhaBanca": "Distinguir persistência da identidade e identificação de versão.",
+      "fonte": "LexML Brasil — Parte 2: LEXML URN — 5.1: Documento Complexo, Documento Individual e versão — https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda mudança de uma palavra exige substituir obrigatoriamente a identidade abstrata do documento por outro identificador sem qualquer vínculo de versão.",
+      "versao_correta": "",
+      "submoduloId": "4.3",
+      "submodulo": "4.3"
+    }
+  },
+  {
+    "id": "m10a-q-92",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cert"
+    ],
+    "localizador": "assinatura digital: autenticação e integridade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "4692fcb7de06e8729ce146272ca59f960528bcdddafe4e987b20fe11c2bb7135",
+    "shaDepois": "577f25dd2ccdee3803ca67a22ef77df8e96e230ae030ae652c8d8c56972ee214",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Uma assinatura digital verificável em uma edição de diário pode apoiar autenticação e integridade, mas não atesta, por si só, a veracidade de todas as afirmações publicadas.",
+      "justificativa": "CERTO. Verificar uma assinatura com os cuidados necessários apoia integridade e identificação do signatário ou da chave correspondente. Não valida a verdade das afirmações nem garante que a transcrição representa perfeitamente o fato. Também é necessário verificar cadeia de confiança e condições do certificado conforme o caso.",
+      "gatilho": "não atesta",
+      "armadilhaBanca": "Separar integridade do arquivo assinado e veracidade material.",
+      "fonte": "CERT.br — Cartilha de Segurança para Internet: Criptografia — assinatura digital: autenticação e integridade — https://cartilha.cert.br/criptografia/",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Uma assinatura digital válida comprova que todas as afirmações do texto são verdadeiras e que nenhum erro de transcrição ocorreu antes da assinatura.",
+      "submoduloId": "14.2",
+      "submodulo": "14.2"
+    }
+  },
+  {
+    "id": "m10a-q-93",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "camaraLegis"
+    ],
+    "localizador": "texto atualizado, publicação original e alterações",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "21c040d3ad27b8b2992956e575fd44a57dbd86e0a50102e7b360ae1987a7d2b8",
+    "shaDepois": "cb726f822214ab31d28b00cd49c02a000782bae9c2e5b6ff241e3906de448b7d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Consultar o texto atualizado de uma lei no portal legislativo não demonstra automaticamente qual redação vigorava em uma data passada; a pesquisa deve considerar alterações e vigência.",
+      "justificativa": "CERTO. O texto atualizado apresenta consolidação segundo o recorte do serviço, enquanto a publicação original registra outra situação documental. Consultar a versão atual não prova qual redação vigorava em uma data passada. Pesquisa histórica exige conferir alterações, vigência e eventuais regras transitórias.",
+      "gatilho": "não demonstra",
+      "armadilhaBanca": "Distinguir consolidação atual e situação normativa no tempo.",
+      "fonte": "Câmara dos Deputados — Legislação Informatizada — texto atualizado, publicação original e alterações — https://www2.camara.leg.br/atividade-legislativa/legislacao",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A versão atualizada de uma norma comprova automaticamente qual era sua redação em qualquer data anterior.",
+      "submoduloId": "4.3",
+      "submodulo": "4.3"
+    }
+  },
+  {
+    "id": "m10a-q-94",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "tratamento pelo poder público e publicidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "fe1443322bed89e8d123e51ec44f2e3e365925f2d967a60b1029e2248a12e7f9",
+    "shaDepois": "b4ef92d1d10991c4107919df4803cb475e9756e2116c9745f489bea6078ade3e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Proteção de dados não cria proibição absoluta de divulgar nomes no exercício da atividade pública. Finalidade, base legal, publicidade constitucional e hipóteses de sigilo precisam ser consideradas. Isso também não autoriza expor indistintamente qualquer dado privado apenas porque o titular ocupa cargo público.",
+      "gatilho": "totalmente",
+      "armadilhaBanca": "Evitar equivalência automática entre dado pessoal e sigilo total.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — tratamento pelo poder público e publicidade — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Divulgação de dados em atividade pública deve observar fundamentos e limites legais, sem bloqueio absoluto nem abertura indiscriminada.",
+      "item": "A Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD) impede totalmente que a Câmara dos Deputados publique os nomes de deputados votantes em painel eletrônico de sessões deliberativas.",
+      "submoduloId": "10.3",
+      "submodulo": "10.3"
+    }
+  },
+  {
+    "id": "m10a-q-95",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "depositoLegal"
+    ],
+    "localizador": "art. 1º: instituição destinatária e finalidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "040aaed0d7c256064a1412df76c9a4ebb9ce1ba8f1a229d53c61d1687f928ac4",
+    "shaDepois": "95d339e8115e813e337f5c0348d00a9e9d15bc789e0956680f397243eea827b8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A Lei 10.994/2004 regulamenta o depósito legal exclusivamente na Biblioteca da Câmara dos Deputados, que substitui a Biblioteca Nacional como destinatária dos exemplares abrangidos.",
+      "justificativa": "ERRADO. A Lei 10.994 trata do depósito na Biblioteca Nacional. Remessas e acervos de bibliotecas parlamentares podem ter regras e finalidades próprias, sem mudar o destinatário dessa lei. Nome parecido e relevância cultural não autorizam substituir uma instituição pela outra.",
+      "gatilho": "Biblioteca da Câmara",
+      "armadilhaBanca": "Trocar instituições e regimes de recebimento de publicações.",
+      "fonte": "Lei 10.994/2004 — Depósito legal de publicações na Biblioteca Nacional — art. 1º: instituição destinatária e finalidade. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A Lei 10.994/2004 regulamenta depósito legal na Biblioteca Nacional, não exclusivamente na Biblioteca da Câmara.",
+      "submoduloId": "1.1",
+      "submodulo": "1.1"
+    }
+  },
+  {
+    "id": "m10a-q-96",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "oais"
+    ],
+    "localizador": "responsabilidades, evidências e preservação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "d19185ed4fd1525cbfecf21cf5337fa9312936959de281b523581b9965ce648c",
+    "shaDepois": "de65cf08dcb40f82d52026f0efda8abe3ce1cb0e86e1ba74dd0740c754cfe4af",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Digitalizar um documento histórico comprova automaticamente sua autenticidade futura, dispensando trilhas de eventos, controle de integridade e documentação de custódia.",
+      "justificativa": "ERRADO. Digitalização cria objetos que precisam de preservação própria. A imagem não demonstra sozinha identidade, integridade, cadeia de custódia e interpretação futura. Modelos e diretrizes exigem processos e evidências; mencioná-los não equivale a provar conformidade de uma instituição específica.",
+      "gatilho": "dispensando",
+      "armadilhaBanca": "Confundir captura de imagem e comprovação integral de preservação.",
+      "fonte": "CCSDS — Reference Model for an Open Archival Information System — responsabilidades, evidências e preservação — https://ccsds.org/Pubs/650x0m3.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Digitalização não dispensa documentação de custódia, integridade e procedimentos de preservação.",
+      "submoduloId": "6.3",
+      "submodulo": "6.3"
+    }
+  },
+  {
+    "id": "m10a-q-97",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "aacr"
+    ],
+    "localizador": "21.1B2 e 24.18: responsabilidade corporativa e órgão governamental",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2f5aa5f7355eaa54a361cdc8900bef92a084f0c658a9c8ec196e01ab36436356",
+    "shaDepois": "53f649bdedb3fe71bda62a2bc0f81336b553d0a8754439c43717daf8c20f1a35",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na aplicação do AACR2r, apenas o fato de uma publicação ser editada por órgão legislativo obriga usar a entidade editora como entrada principal, sem examinar responsabilidade e natureza da obra.",
+      "justificativa": "ERRADO. Uma publicação oficial pode ter responsabilidades e características diferentes. Escolher entrada principal exige examinar regras de responsabilidade, e só depois construir a forma do cabeçalho pertinente. O simples selo de uma Casa legislativa não torna todas as publicações obrigatoriamente obras de autoria corporativa sob a mesma entrada.",
+      "gatilho": "apenas",
+      "armadilhaBanca": "Distinguir entidade que publica e responsabilidade pela obra.",
+      "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 21.1B2 e 24.18: responsabilidade corporativa e órgão governamental. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A entrada principal segundo AACR2r depende de regras e responsabilidade; ser publicação oficial não basta para atribuir sempre autoria à entidade editora.",
+      "submoduloId": "2.1",
+      "submodulo": "2.1"
+    }
+  },
+  {
+    "id": "m10a-q-98",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "marc"
+    ],
+    "localizador": "codificação de registros e mapeamentos de exportação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "72a0fbcef62ff3f944c49b8329573a94685e1082b180ec98405637f065dd563f",
+    "shaDepois": "521dd537f0d71b12aabd692d89c06588cb4a8aae48c61adf9e724e7cb8f4f99e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Exportar registros MARC 21 para qualquer planilha CSV garante a preservação de todos os campos, indicadores e subcampos, mesmo sem mapeamento ou verificação da conversão.",
+      "justificativa": "ERRADO. CSV é uma forma de organizar dados exportados e não conserva automaticamente a estrutura de campos, indicadores e subcampos MARC. Um mapeamento pode preservar informações, mas precisa ser definido e verificado. Exportar uma planilha não comprova abandono do formato nem equivalência perfeita dos registros.",
+      "gatilho": "garante",
+      "armadilhaBanca": "Confundir formato de exportação e preservação de toda a estrutura.",
+      "fonte": "Library of Congress — MARC 21 formats — codificação de registros e mapeamentos de exportação — https://www.loc.gov/marc/",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Preservar a estrutura MARC em uma exportação exige mapeamento e verificação; CSV não garante equivalência automática.",
+      "submoduloId": "2.4",
+      "submodulo": "2.4"
+    }
+  },
+  {
+    "id": "m10a-q-99",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "grogan"
+    ],
+    "localizador": "disseminação seletiva e perfil de interesse",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "7dbce6662bcb74ded456b4b05c7e7c3f076550f1470aa9ed4530c5518408f83c",
+    "shaDepois": "f20d8e148eac450f715549641a3d10dab4d709e850b7ceccbb1a9e4d1f4de369",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Qualquer boletim enviado automaticamente e de modo idêntico a todos os contatos constitui necessariamente DSI personalizada, mesmo sem perfil de interesse ou critério de seleção.",
+      "justificativa": "ERRADO. DSI seleciona informação segundo perfil e necessidade do destinatário, com gestão e atualização do serviço. Automatizar envio é uma possibilidade técnica, não critério suficiente de seletividade. O mesmo boletim geral pode ser útil, mas não se torna personalizado apenas porque foi disparado por software.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Distinguir automação do canal e seleção orientada ao usuário.",
+      "fonte": "GROGAN, Denis. A prática do serviço de referência. 1995; reimpressão 2001 — disseminação seletiva e perfil de interesse. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "DSI considera perfil e critérios de seleção; envio automático indiscriminado não a define por si só.",
+      "submoduloId": "4.4",
+      "submodulo": "4.4"
+    }
+  },
+  {
+    "id": "m10a-q-100",
+    "caminho": "src/content/questions/m10a-legislativo-constituicao-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8159"
+    ],
+    "localizador": "arts. 9º e 19: competência e eliminação de documentos legislativos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual. Redação delimitada ao conceito ou hipótese verificada, sem certificar infraestrutura ou prática institucional não demonstrada.",
+    "shaAntes": "a141a5048bc47a968abb4a948a3506bd18a9b610f74f2ba6e50275081cec5bf1",
+    "shaDepois": "106bb9b969a1c8c928ff1950f7f643f002e921c4de915383512eadbf78862aac",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A inclusão de um documento legislativo em catálogo bibliográfico autoriza sua eliminação pela biblioteca, sem avaliação arquivística e sem autorização na esfera competente.",
+      "justificativa": "ERRADO. Catalogar e facilitar consulta não substitui avaliação arquivística e autorização de eliminação. Originais de tramitação podem possuir valor probatório e permanente conforme os instrumentos. O acesso a uma cópia não transfere por si só a competência para decidir a destinação do original.",
+      "gatilho": "catálogo",
+      "armadilhaBanca": "Distinguir tratamento bibliográfico, cópia de acesso e destinação do original.",
+      "fonte": "Lei 8.159/1991 — política nacional de arquivos públicos e privados — arts. 9º e 19: competência e eliminação de documentos legislativos — https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A existência de um registro em catálogo ou de uma cópia de consulta não dispensa a competência e o procedimento de destinação arquivística.",
+      "submoduloId": "1.5",
+      "submodulo": "1.5"
+    }
+  }
+]
