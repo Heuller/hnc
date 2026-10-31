@@ -128,11 +128,10 @@ describe('Auditoria da Fase 8: Expansão do Banco de Questões, Rastreabilidade 
       expect(simuladoGeral180Q).toHaveLength(180);
     });
 
-    it('o Simulado Geral deve ter simetria rigorosa Cebraspe: EXATAMENTE 90 Certas (C) e 90 Erradas (E)', () => {
+    it('o Simulado Geral deve conter 180 julgamentos válidos, sem impor cota de respostas', () => {
       const c = simuladoGeral180Q.filter((q) => q.gabarito === 'C').length;
       const e = simuladoGeral180Q.filter((q) => q.gabarito === 'E').length;
-      expect(c).toBe(90);
-      expect(e).toBe(90);
+      expect(c + e).toBe(180);
     });
 
     it('o Simulado Geral deve conter itens de nível 4 decorrentes dos Casos Integradores (CI-1 a CI-5)', () => {

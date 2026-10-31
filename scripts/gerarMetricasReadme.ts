@@ -271,7 +271,7 @@ export function gerarBlocoMetricasMarkdown(): string {
 | **Cadernos de Simulados Cadastrados** | **${metricasQ.cadernosSimuladosCount} cadernos** | ${metricasQ.totalQuestoesSimulados.toLocaleString('pt-BR')} itens em cadernos de prova |
 | **Fixação no Banco Complementar** | **${metricasQ.questoesAmpliadas} itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
 | **Itens no Banco de Questões** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')} itens** | Soma exata de todos os ${metricasQ.arquivosCount} arquivos em \`src/content/questions\` |
-| **Distribuição Global de Gabaritos** | **${metricasQ.pctCerto}% Certo** | ${metricasQ.totalCertos.toLocaleString('pt-BR')} C / ${metricasQ.totalErrados.toLocaleString('pt-BR')} E (faixa editorial 46–56%, não regra da banca) |
+| **Distribuição Global de Gabaritos** | **${metricasQ.pctCerto}% Certo** | ${metricasQ.totalCertos.toLocaleString('pt-BR')} C / ${metricasQ.totalErrados.toLocaleString('pt-BR')} E; distribuição observada, sem cota da banca |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
@@ -286,7 +286,7 @@ export function gerarBlocoMetricasMarkdown(): string {
 | Banco / Arquivo | Título / Descrição | Total Itens | Gabaritos (C/E) | Proporção Certo |
 | :--- | :--- | :---: | :---: | :---: |
 ${linhasTabelaArquivos}
-| **TOTAL GERAL** | **${metricasQ.cadernosSimuladosCount} Cadernos + Submódulos** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')}** | **${metricasQ.totalCertos}C / ${metricasQ.totalErrados}E** | **${metricasQ.pctCerto}% Certo (faixa alvo 46–56%)** |
+| **TOTAL GERAL** | **${metricasQ.cadernosSimuladosCount} Cadernos + Submódulos** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')}** | **${metricasQ.totalCertos}C / ${metricasQ.totalErrados}E** | **${metricasQ.pctCerto}% Certo; dado descritivo** |
 <!-- METRICAS:FIM -->`;
 }
 

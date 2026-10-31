@@ -2,11 +2,11 @@
   "numTotalTestSuites": 394,
   "numPassedTestSuites": 394,
   "numFailedTestSuites": 0,
-  "numTotalTests": 978,
-  "numPassedTests": 978,
+  "numTotalTests": 979,
+  "numPassedTests": 979,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
   "testFiles": 125,
-  "source": "vitest run: revisão individual — snapshot de 1.203 itens, 30/10/2026"
+  "source": "vitest run: revisão individual — snapshot de 1.506 itens, validado em 31/10/2026"
 }

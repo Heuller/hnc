@@ -1,0 +1,30 @@
+[
+  {
+    "id": "geral-180q-7",
+    "caminho": "src/content/questions/simulado-geral-180q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "textosPortuguesHnc",
+      "redacaoPR"
+    ],
+    "localizador": "Texto II: por ele eleitos; pronome pessoal e anáfora",
+    "nota": "Cópia lida após conflito; C corrigido para E porque ele é pronome pessoal, não demonstrativo. Incluído Texto II autoral reconstruído, antes ausente. Origem oficial não certificada.",
+    "shaAntes": "691a3aa3305b94d9aa3e14454f468e8332dfd1c32266fd3210d240705254d859",
+    "shaDepois": "6e00038f3cd185af242722f0b67a0ee33fd6e50c3a39bb48d2fc421bf524a51a",
+    "patch": {
+      "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. Em por ele, ele é forma tônica de pronome pessoal; o emprego anafórico não o transforma em demonstrativo. Retoma o cidadão e integra o agente da passiva por ele na forma eleitos. O comentário anterior reconhecia pronome pessoal, mas o gabarito validava a classificação errada do enunciado.",
+      "gatilho": "pronome demonstrativo",
+      "armadilhaBanca": "Separar classe gramatical e função de retomada.",
+      "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: por ele eleitos; pronome pessoal e anáfora. Fonte no acervo de estudos do HNC.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Ele é pronome pessoal com emprego anafórico, retomando o cidadão.",
+      "versao_errada": "",
+      "item": "No Texto II, o pronome demonstrativo 'ele' na expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'.",
+      "submoduloId": "13.3",
+      "submodulo": "13.3"
+    }
+  }
+]

@@ -1,0 +1,2416 @@
+[
+  {
+    "id": "m11-q-1",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37: regime administrativo e direitos fundamentais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "71bf9bf7f51b078be5fbe5eca977a2c3b915018c95099b39aefc9cac0b15f1dc",
+    "shaDepois": "41a8961bf6c37a5c5dd12c8b8b3af470514a01bc09a2358f6f0c475b80d2ca6d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A supremacia do interesse público é referência doutrinária do regime administrativo, mas não autoriza afastar direitos fundamentais nem presume autoexecutoriedade em todo ato da Administração.",
+      "justificativa": "CERTO. O interesse público fundamenta prerrogativas, mas não permite afastar direitos fundamentais nem executar diretamente todo ato. Autoexecutoriedade exige hipótese legal ou urgência justificadora. A redação evita ensinar supremacia como autorização automática: cada restrição precisa de competência, finalidade e proporcionalidade.",
+      "gatilho": "não autoriza",
+      "armadilhaBanca": "Distinguir fundamento das prerrogativas e requisitos de exercício.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37: regime administrativo e direitos fundamentais — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Invocar interesse público basta para executar diretamente qualquer ato administrativo, sem hipótese legal nem situação urgente.",
+      "submoduloId": "11.1"
+    }
+  },
+  {
+    "id": "m11-q-2",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 5º, II, e 37, caput: legalidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0501ecd72d364c6074cd467d99516caf39801aafbee5150d8d8f43098614f4be",
+    "shaDepois": "f6613c9298e86b7c197c5261848edd9a25265b302e6e4353da3ace5a4a8ca901",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A liberdade geral do particular não se transfere à competência administrativa. O agente precisa atuar com fundamento jurídico e dentro das finalidades do poder atribuído. A vinculação abrange a Constituição e os princípios, sem reduzir juridicidade à execução mecânica de qualquer texto isolado.",
+      "gatilho": "mesmo padrão",
+      "armadilhaBanca": "Transferir autonomia privada para competência pública.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 5º, II, e 37, caput: legalidade — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A competência administrativa depende de fundamento jurídico, não apenas da inexistência de proibição expressa.",
+      "item": "Em virtude do princípio da legalidade administrativa estrita, a atuação dos agentes públicos na Administração Pública é pautada pelo mesmo padrão aplicável às relações privadas, no qual é lícito fazer tudo aquilo que a lei não proíba expressamente.",
+      "submoduloId": "11.1"
+    }
+  },
+  {
+    "id": "m11-q-3",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, XIX: autarquia e descentralização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b60e97cb40e7aa007b195227ef721105656ae50400d0fd70489cd1c41d35e47d",
+    "shaDepois": "a2e9d95c2f28c9bac04219750586418cbad462ba202bca953f5b1e8ee625c140",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A atribuição legal de atividades a uma autarquia criada por lei específica constitui descentralização administrativa: a execução passa a outra pessoa jurídica, distinta do ente que a instituiu.",
+      "justificativa": "CERTO. Criar autarquia por lei específica estabelece pessoa jurídica distinta e atribuições próprias. Isso é descentralização; criar uma coordenação dentro da mesma pessoa é desconcentração. O item foi delimitado ao exemplo autárquico, evitando generalizar a transferência de titularidade a qualquer entidade privada ou contrato.",
+      "gatilho": "outra pessoa jurídica",
+      "armadilhaBanca": "Identificar a existência de personalidade jurídica distinta.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, XIX: autarquia e descentralização — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Criar autarquia não altera a pessoa jurídica responsável e constitui apenas desconcentração interna.",
+      "submoduloId": "11.1"
+    }
+  },
+  {
+    "id": "m11-q-4",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, XIX: entidade e órgão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a809f533a2c1eab9ca9fb8a69e898e967ec1a9cfa6d7216599efb5cabb320f86",
+    "shaDepois": "4cb6bd69c6183a04caa412f8b93dc35eea62de359bac87084dbeaf0930a9081b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Diretoria ou coordenação é unidade interna, sem personalidade própria pela simples criação. Trata-se de desconcentração, com distribuição de competências dentro da mesma pessoa jurídica. Autonomia operacional ou nome específico não basta para constituir patrimônio e personalidade de nova entidade.",
+      "gatilho": "nova pessoa jurídica",
+      "armadilhaBanca": "Trocar órgão interno e entidade personificada.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, XIX: entidade e órgão — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Criar uma diretoria dentro da mesma pessoa jurídica é desconcentração, não criação de entidade da administração indireta.",
+      "item": "A criação de uma nova diretoria ou coordenação técnica no âmbito da Câmara dos Deputados constitui típica hipótese de descentralização administrativa, na medida em que culmina na criação de uma nova pessoa jurídica dotada de autonomia patrimonial.",
+      "submoduloId": "11.1"
+    }
+  },
+  {
+    "id": "m11-q-5",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, XIX: criação de autarquia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "073b7a6f1ccd0c88849d2a92dac372cface09917bd0fd50872698139c8627f33",
+    "shaDepois": "9c7348eee68750042c61096744ba19ec86d6dfbed48e40bfa40f67861a1c0b0e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A autarquia tem personalidade de direito público e é criada diretamente pela lei específica. Sua vinculação ao ente instituidor admite controle finalístico nos limites legais, sem hierarquia entre as pessoas jurídicas. Controle não é ausência de autonomia nem poder irrestrito de dar ordens em qualquer assunto.",
+      "gatilho": "inexistindo subordinação hierárquica",
+      "armadilhaBanca": "Confundir vinculação e hierarquia.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, XIX: criação de autarquia — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A autarquia é subordinada hierarquicamente ao ente instituidor em todos os assuntos, como uma diretoria interna.",
+      "item": "As autarquias federais são pessoas jurídicas de direito público criadas diretamente por lei específica, destinadas a executar atividades típicas da Administração Pública, dispondo de patrimônio e receita próprios e sujeitando-se ao controle finalístico (tutela) do ente federado instituidor, inexistindo subordinação hierárquica entre ambos.",
+      "submoduloId": "11.1"
+    }
+  },
+  {
+    "id": "m11-q-6",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei13303"
+    ],
+    "localizador": "arts. 3º e 4º: capital e forma societária",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8580af12c1489e3b2c3eb0003d1924d708b4cacbedb665a2192fcb74bd29979d",
+    "shaDepois": "e51b7f75fbaded87fda655be363f2abbaf2f6cb47877d5bd45ed91c02d2c43b3",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O enunciado inverte as características. Empresa pública tem capital integralmente público e pode adotar formas societárias admitidas; sociedade de economia mista é sociedade anônima com maioria das ações com voto sob controle estatal. Participação privada minoritária não transforma a sociedade de economia mista em empresa pública.",
+      "gatilho": "integralidade de capital público",
+      "armadilhaBanca": "Inverter capital e forma societária das estatais.",
+      "fonte": "Lei 13.303/2016 — estatuto jurídico das empresas estatais — arts. 3º e 4º: capital e forma societária — https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Empresa pública tem capital integralmente público; sociedade de economia mista é sociedade anônima com controle estatal das ações com voto.",
+      "item": "As empresas públicas e as sociedades de economia mista federais distinguem-se quanto ao regime de capital: enquanto a empresa pública admite participação acionária minoritária de entes privados sob a forma de sociedade limitada, a sociedade de economia mista mantém integralidade de capital público estatal estruturada como sociedade anônima.",
+      "submoduloId": "11.1"
+    }
+  },
+  {
+    "id": "m11-q-7",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 53 e 54: anulação e revogação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8ed26ba7e53c031bc7a0098d4af8d2caeb86af1a4710d7e2e1bf83336a57a681",
+    "shaDepois": "dd51440abfc42f713d46ce43403ce44da240a0ad10b18f36ff28e736ba733b67",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A Administração anula ilegalidades e pode revogar atos válidos por conveniência e oportunidade, respeitados direitos adquiridos. Isso não dispensa contraditório quando o desfazimento atinge interesses protegidos nem ignora decadência dos atos favoráveis. Autotutela não é revisão ilimitada e perpétua.",
+      "gatilho": "devido processo",
+      "armadilhaBanca": "Preservar limites procedimentais e temporais da autotutela.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 53 e 54: anulação e revogação — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A autotutela dispensa contraditório e permite anular a qualquer tempo todo ato favorável, mesmo sem má-fé.",
+      "item": "O princípio da autotutela administrativa confere à Administração Pública a prerrogativa de rever seus próprios atos, revogando aqueles inoportunos ou inconvenientes e anulando os atos eivados de vício de ilegalidade, sem necessidade de prévia provocação ou autorização do Poder Judiciário, respeitados os direitos adquiridos e o devido processo legal.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-8",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfSumulasAdmin"
+    ],
+    "localizador": "SV 13: nepotismo nos Poderes",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "58b13afcc7658e703946a5d3cf5981b3f0247e4caf447f2c7602cd2cf94b68ae",
+    "shaDepois": "fef0bc41f6a0ee8b2048feb21bdae10875ba27f79fa44e43aa9091236140d29f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A vedação alcança administração direta e indireta de qualquer Poder e ente federativo. Confiança para cargo de assessoramento não afasta a regra, nem o caráter parlamentar do gabinete o converte automaticamente em exceção. Parentesco, autoridade de referência e nomeações recíprocas devem ser examinados.",
+      "gatilho": "Poder Executivo",
+      "armadilhaBanca": "Criar exceção geral pelo Poder ou pela confiança.",
+      "fonte": "STF — Constituição e Supremo, art. 37 — SV 13: nepotismo nos Poderes — https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=37&abrirBase=CF",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A SV 13 alcança cargos de assessoramento no Legislativo; confiança política, por si só, não afasta a vedação.",
+      "item": "A nomeação para cargos em comissão de assessoramento parlamentar admite a indicação de cônjuge ou parentes consanguíneos até o terceiro grau da autoridade nomeante quando fundamentada na relação de estrita confiança política, haja vista que as vedações ao nepotismo da Súmula Vinculante nº 13 vinculam os órgãos do Poder Executivo.",
+      "submoduloId": "11.1"
+    }
+  },
+  {
+    "id": "m11-q-9",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 2º, parágrafo único, VII, e 50: razões do ato",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4c79bf24d4829efa25d10543f518d5e640aeb83d987e1abae9ab9048512476f1",
+    "shaDepois": "94c5c9351432c5b1c27c515936718f5d875babe77771e9decf6679d18ee71c3a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Motivo é o pressuposto fático e jurídico; motivação é a exposição das razões. Um fato não existe apenas porque foi escrito, e um motivo verdadeiro não dispensa motivação quando exigida. A distinção ajuda a identificar tanto vício nos pressupostos como deficiência de fundamentação.",
+      "gatilho": "não se confundindo",
+      "armadilhaBanca": "Separar pressuposto e exteriorização da razão.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 2º, parágrafo único, VII, e 50: razões do ato — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Motivação é o próprio acontecimento de fato, independentemente de qualquer exposição das razões do ato.",
+      "item": "O motivo do ato administrativo corresponde à situação de direito e de fato que determina ou autoriza a realização do ato, não se confundindo com a motivação, que é a exteriorização formal e expressa das razões fáticas e jurídicas pelo agente público.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-10",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "art. 50: motivação e controle dos pressupostos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "093e2063dcb26469eb9c5365ebf341916abe51f09a23cc5e14571708c61b7aa8",
+    "shaDepois": "9fb3f1aeb0568943348972d44d294623daf9c4446c3dd2c56486e60250cc1603",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A discricionariedade não libera o agente dos motivos declarados. Se determinantes e falsos, eles comprometem a validade; inventar justificativa posterior não convalida automaticamente o ato. Controle da verdade do pressuposto não equivale a o juiz escolher a política que preferiria.",
+      "gatilho": "falsidade dos motivos",
+      "armadilhaBanca": "Confundir discricionariedade e liberdade de trocar fatos.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — art. 50: motivação e controle dos pressupostos — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A falsidade do motivo determinante não é sanada automaticamente pela criação posterior de outra justificativa.",
+      "item": "Conforme a Teoria dos Motivos Determinantes, a Administração Pública pode alterar a posteriori a justificativa motivacional de um ato discricionário caso venha a ser comprovada perante o Poder Judiciário a falsidade dos motivos originariamente declarados na edição do ato.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-11",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "ato administrativo: imposição e consentimento",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "9967b6e92acb7abdc9c57c4d747127dcb728d1a504d45935f5c39a462ba922a2",
+    "shaDepois": "235233fbd900fbad26e03256918b596cb89063a3cf406ed0928fc74989a80d7a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Imperatividade caracteriza imposições unilaterais, como uma ordem restritiva válida. Certidão declara uma situação e autorização envolve consentimento administrativo, sem a mesma imposição típica de obrigações a terceiro. A classificação não significa que atos sem imperatividade sejam destituídos de efeitos jurídicos.",
+      "gatilho": "não se faz presente em todos",
+      "armadilhaBanca": "Generalizar atributo que não integra todos os atos.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — ato administrativo: imposição e consentimento — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo ato administrativo, inclusive uma certidão, necessariamente impõe obrigação unilateral ao seu destinatário.",
+      "item": "A imperatividade é o atributo pelo qual os atos administrativos impõem obrigações e restrições a terceiros independentemente de sua concordância; todavia, tal atributo não se faz presente em todos os atos administrativos, restando ausente nos atos negociais e enunciativos, a exemplo de certidões e autorizações.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-12",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "art. 53: revogação por mérito",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "00837955a3b1c61584789b4e81ca9681552b44fb1964a91750db0b9803ef7ee9",
+    "shaDepois": "047ee289b4d430b6a1dc79e67287a5089737e6db5f503e8dcd222ea983bdb771",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Revogação alcança ato válido e opera para o futuro, preservando os efeitos já produzidos conforme seus limites. A anulação trata de ilegalidade e tem regime distinto, sujeito a segurança jurídica e situações protegidas. Trocar ex nunc e ex tunc muda a compreensão do desfazimento.",
+      "gatilho": "retroativos",
+      "armadilhaBanca": "Trocar efeitos temporais da revogação e da anulação.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — art. 53: revogação por mérito — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A revogação de ato válido por conveniência e oportunidade tem efeitos prospectivos, e não retroativos como regra.",
+      "item": "A revogação de um ato administrativo lícito e discricionário produz efeitos retroativos (ex tunc), desfazendo todas as consequências jurídicas pretéritas que haviam sido geradas pelo ato desde a sua gênese.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-13",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "art. 55: defeitos sanáveis",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "abda53f59980978a6883130c123078a852ef951543ea95d4934d07cc6986f2a2",
+    "shaDepois": "86ae25be9b46e7c75c90724b03fc84c81e04b0c613115940d87c21d2c3a9d71b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Atos com defeitos sanáveis podem ser convalidados pela Administração, em decisão que evidencie ausência de lesão ao interesse público e de prejuízo a terceiros, conforme o art. 55 da Lei 9.784/1999.",
+      "justificativa": "CERTO. A lei permite convalidação pela própria Administração quando não houver lesão ao interesse público nem prejuízo a terceiros. Competência não exclusiva e forma não essencial são exemplos doutrinários usuais de defeitos sanáveis. Não se deve tratar qualquer incompetência ou forma indispensável como corrigível.",
+      "gatilho": "defeitos sanáveis",
+      "armadilhaBanca": "Distinguir defeito sanável e vício insuscetível de correção.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — art. 55: defeitos sanáveis — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Todo vício de competência, inclusive competência exclusiva, pode ser convalidado sem exame de prejuízo a terceiros.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-14",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 2º e 55: finalidade e convalidação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0f2dffaf53ba45252980346a7c69d947df1cc8d21881da2a1227309c626876a0",
+    "shaDepois": "f74e3a376cbcdd5e8e673ba008ba1d8ac59e66ddda35784764bcf2b68c3371a8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O uso do ato para finalidade incompatível com a lei é vício de finalidade, não simples defeito formal corrigível. A conveniência de preservar o resultado não transforma esse desvio em competência lícita. Segurança jurídica demanda análise própria, sem autorizar convalidação irrestrita de desvio de poder.",
+      "gatilho": "desvio de poder",
+      "armadilhaBanca": "Confundir preservação de efeitos e correção do vício de finalidade.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 2º e 55: finalidade e convalidação — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Desvio de finalidade não se torna defeito sanável apenas por invocação genérica da segurança jurídica.",
+      "item": "Vícios insanáveis de finalidade, a exemplo do desvio de poder no qual o ato é praticado para beneficiar interesse privado de aliado político, podem ser plenamente convalidados pelo chefe do Poder Executivo em prol da segurança jurídica.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-15",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lindb"
+    ],
+    "localizador": "art. 28: decisões e opiniões técnicas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2c84253342e2550e65e99c7b6334ec6e8d49e3657a072f863135f367bc6c9b2f",
+    "shaDepois": "f15f07ee546ad2785f54a1d0f942f1c8e1097c0d5d13aa01fa3597a2c2e02381",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O art. 28 da LINDB prevê responsabilidade pessoal do agente público por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro; a mera divergência posterior não demonstra automaticamente esse requisito.",
+      "justificativa": "CERTO. O art. 28 disciplina responsabilidade pessoal por decisões ou opiniões técnicas em caso de dolo ou erro grosseiro. Isso não autoriza equiparar toda divergência técnica a erro grosseiro. A redação foi delimitada ao dispositivo, sem prometer imunidade universal a ressarcimento em qualquer contexto nem confundir espécies de parecer.",
+      "gatilho": "dolo ou erro grosseiro",
+      "armadilhaBanca": "Distinguir desacerto, divergência e erro grosseiro.",
+      "fonte": "Decreto-Lei 4.657/1942 — LINDB — art. 28: decisões e opiniões técnicas — https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer divergência posterior de interpretação prova, por si só, erro grosseiro do parecerista.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-16",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "art. 42: parecer obrigatório e vinculante",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "cfcfcaa4fe623ce3a9ad646f818e6860e23095ef67ad41c01c0493ac9c85de05",
+    "shaDepois": "6999500307fe04dfab2c6237a5d5832a6f180ee56e63e8b1279e69329f980c88",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Se o parecer é vinculante, seu efeito não é o de simples opinião facultativa livremente descartável. O regime concreto deve ser observado, e motivação continua necessária quando exigida. Deixar de fundamentar discordância não cria discricionariedade que a natureza vinculante exclui.",
+      "gatilho": "sentido oposto",
+      "armadilhaBanca": "Trocar parecer facultativo e vinculante.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — art. 42: parecer obrigatório e vinculante — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O parecer vinculante deve ter seu efeito jurídico observado; a ausência de fundamentação não autoriza decisão contrária.",
+      "item": "O parecer técnico vinculante emitido por órgão consultivo confere ao administrador a discricionariedade para decidir em sentido oposto, bastando que o gestor deixe de fundamentar a sua discordância no respectivo processo administrativo.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-17",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "formação do ato: atos complexos e compostos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "95ddecc6b2f1d311a4963bce5a513b0dc4d64eb48d3ddd144ddb6900573dafa7",
+    "shaDepois": "17c92edb6477a4352e75eb780fdb20683a275d2d3e5b11c01f068b7d2cd5c12c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O item inverte os conceitos doutrinários. No complexo, vontades de órgãos distintos se integram na formação do ato; no composto, há ato principal dependente de aprovação ou controle acessório. Não basta contar assinaturas: é preciso entender a função de cada manifestação.",
+      "gatilho": "compostos",
+      "armadilhaBanca": "Inverter classificação pela função das manifestações.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — formação do ato: atos complexos e compostos — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No ato complexo, vontades se integram para formar o ato; no composto, há manifestação principal e aprovação acessória.",
+      "item": "Os atos administrativos compostos resultam da manifestação de dois ou mais órgãos distintos e independentes cujas vontades se fundem para formar um único ato, ao passo que os atos complexos consubstanciam a manifestação de um único órgão cuja aprovação final é submetida à ratificação acessória de outro órgão.",
+      "submoduloId": "11.2"
+    }
+  },
+  {
+    "id": "m11-q-18",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "art. 28: reintegração",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5514838909a1428755ddfb68c6e5b5d573d33758a7717c090a1068904020e388",
+    "shaDepois": "65e0b2a2a6955b437995e2bb2a211428a122f655e6a55f82093b8d2d50512157",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A invalidação da demissão do servidor estável leva à reintegração e ao ressarcimento das vantagens. Se o cargo foi extinto, incide a solução legal de disponibilidade. Reintegração não é retorno de aposentado nem mera volta por inabilitação em estágio de outro cargo.",
+      "gatilho": "invalidada a sua demissão",
+      "armadilhaBanca": "Distinguir invalidação da demissão e reversão da aposentadoria.",
+      "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — art. 28: reintegração — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Reintegração é o retorno do aposentado por invalidez quando cessam os motivos da aposentadoria.",
+      "item": "A reintegração é a reinvestidura do servidor estável no cargo anteriormente ocupado, ou no cargo resultante de sua transformação, quando invalidada a sua demissão por decisão administrativa ou judicial, com ressarcimento de todas as vantagens a que teria direito durante o afastamento.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-19",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "arts. 28, §2º, e 29: recondução",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bb6d26b60e4877bb8ad6870c8716e7a1404a9c17a376520dd069931d56701176",
+    "shaDepois": "9b9dca1e7cbda50684dc36ccecb86896d6cdb6f7adaab69ca20f9c1f78239549",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A lei prevê retorno por inabilitação no estágio de outro cargo ou reintegração do ocupante anterior. Não assegura a indenização compensatória generalizada descrita; na segunda hipótese, a ausência de indenização é expressa. Se o cargo de origem está provido, há regra de aproveitamento.",
+      "gatilho": "indenização compensatória",
+      "armadilhaBanca": "Acrescentar vantagem não prevista a hipótese correta.",
+      "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — arts. 28, §2º, e 29: recondução — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A recondução não assegura indenização compensatória automática nas hipóteses indicadas.",
+      "item": "A recondução é o retorno do servidor estável ao cargo anteriormente ocupado em decorrência de inabilitação em estágio probatório relativo a outro cargo público ou da reintegração do anterior ocupante, assegurado em ambas as hipóteses o direito a indenização compensatória pelos prejuízos funcionais sofridos.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-20",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "arts. 13, §§1º e 2º, e 15, §1º",
+    "nota": "C corrigido para E: enunciado absoluto omite hipóteses legais de contagem após término de impedimento.",
+    "shaAntes": "d56e6cf567ab8a2edf4963101b07d8c2b60da45e1ccfd85bb9e8c2fb897521e5",
+    "shaDepois": "df25356b147bb1dba2dafa47982c4bc5d6785adbf5df4410aa6e6d988be003de",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. A regra geral é posse em trinta dias da publicação e exercício em quinze dias da posse. Contudo, o §2º do art. 13 prevê início da contagem ao terminar certos impedimentos legais do servidor. Tratar a contagem como invariável a partir da publicação elimina uma ressalva expressa.",
+      "gatilho": "improrrogável",
+      "armadilhaBanca": "Apagar exceção relativa ao início da contagem.",
+      "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — arts. 13, §§1º e 2º, e 15, §1º — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A posse observa trinta dias como regra, com início de contagem diferido nas hipóteses do art. 13, §2º; o exercício segue o art. 15.",
+      "versao_errada": "",
+      "item": "A posse em cargo público de provimento efetivo dar-se-á no prazo improrrogável de trinta dias contados da publicação do ato de provimento no Diário Oficial, e o exercício do cargo deverá ocorrer no prazo impreterível de quinze dias contados da data da posse.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-21",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 41, caput e §4º: estabilidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8dc7fada69fd6342e3bab9e76463b59690f27c95d5aee760fa83d3fc0cfa5e6d",
+    "shaDepois": "ebaea575989c2b4f04168d5e392d2aff78d04f0ed576700861809dc4bc1e94d0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A estabilidade constitucional exige três anos de efetivo exercício do servidor nomeado por concurso para cargo efetivo e avaliação especial de desempenho. Pós-graduação não dispensa essa avaliação. Não confunda prazo antigo de texto infraconstitucional com o requisito constitucional vigente.",
+      "gatilho": "dois anos",
+      "armadilhaBanca": "Combinar prazo desatualizado e exceção inexistente.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 41, caput e §4º: estabilidade — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A estabilidade exige três anos e avaliação especial de desempenho, sem dispensa por possuir pós-graduação.",
+      "item": "Conforme o texto vigente do art. 41 da Constituição Federal de 1988, o servidor público adquire estabilidade após dois anos de efetivo exercício, ficando dispensado da submissão a avaliação especial de desempenho caso possua titulação de pós-graduação.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-22",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "arts. 36 e 37: remoção e redistribuição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "35648d8d2702e6a27256c727d595e67141932249e4b360029fbb77434501f324",
+    "shaDepois": "44ec7a648e46db8e288086f020851ad6b2c09388de157c3122fbfb29a93d8ef8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Na remoção, desloca-se o servidor no mesmo quadro; na redistribuição, o cargo efetivo, ocupado ou vago, a outro órgão ou entidade do mesmo Poder. Ambas observam condições próprias. Mudança de sede não é o critério suficiente para distinguir os dois institutos.",
+      "gatilho": "deslocamento do cargo",
+      "armadilhaBanca": "Identificar objeto deslocado e âmbito do Poder.",
+      "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — arts. 36 e 37: remoção e redistribuição — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Redistribuição desloca apenas o servidor entre Poderes diferentes, sem envolver o cargo.",
+      "item": "A remoção é o deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro, com ou sem mudança de sede, ao passo que a redistribuição é o deslocamento do cargo de provimento efetivo (ocupado ou vago) para outro órgão ou entidade do mesmo Poder, no estrito interesse da administração.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-23",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "art. 37: redistribuição no mesmo Poder",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "55fddce80df82718f0983e55eb7fadaf48453050cec745be19943a236e8479c4",
+    "shaDepois": "6326288962865ecaaaa8d07c57e265b541741407b96767158ea0100d1a8a3299",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Câmara e STF pertencem a Poderes diferentes, embora ambos sejam federais. O art. 37 exige órgãos ou entidades do mesmo Poder, além dos demais requisitos. A pessoa federativa comum não substitui a condição de identidade do Poder para redistribuir o cargo.",
+      "gatilho": "Supremo Tribunal Federal",
+      "armadilhaBanca": "Confundir ente federativo e Poder.",
+      "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — art. 37: redistribuição no mesmo Poder — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O fato de Câmara e STF integrarem a União não satisfaz o requisito de mesmo Poder para redistribuição.",
+      "item": "O servidor federal investido no cargo de Analista Legislativo da Câmara dos Deputados pode ser redistribuído para o quadro de pessoal do Supremo Tribunal Federal, uma vez que ambos integram o serviço público federal da União.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-24",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "arts. 125 e 126: responsabilidades",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4ad267f25ccdf81b5198fbda5a61a2c4e0d8ea8d947004b1c5b272b3bff1381c",
+    "shaDepois": "f820b21e48b4e197774c5699901bc8c155b08edecfc7d6caf45115cea1781c31",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A independência das esferas é relativa: absolvição penal por inexistência do fato ou negativa de autoria repercute na responsabilidade administrativa pelo mesmo fato. Não se estende automaticamente a toda absolvição, como a fundada em insuficiência de prova. Eventual falta residual distinta exige exame próprio.",
+      "gatilho": "inexistência do fato",
+      "armadilhaBanca": "Identificar o fundamento específico da absolvição.",
+      "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — arts. 125 e 126: responsabilidades — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A absolvição por insuficiência de provas produz necessariamente os mesmos efeitos administrativos da negativa de autoria.",
+      "item": "As sanções civis, penais e administrativas cominadas ao servidor público federal são independentes e acumuláveis entre si; todavia, a absolvição criminal que reconheça categoricamente a inexistência do fato ou que negue a autoria do servidor extingue e afasta compulsoriamente a responsabilidade administrativa.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-25",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8112"
+    ],
+    "localizador": "art. 126: hipóteses de repercussão penal",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0708f16b1c352febbaa16912ecf4a9d8286da157e4fd2ae8d93e3c3e7c1448b7",
+    "shaDepois": "7223cda37722abfd31a8572e15761d34b96bd6c4031026d6214b4eb6f8e5e5a8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Falta de prova penal suficiente não equivale à conclusão de inexistência do fato ou negativa de autoria. A infração disciplinar pode ser demonstrada no processo próprio, assegurados contraditório e defesa. Não se admite punição automática, mas tampouco extinção automática de toda responsabilidade residual.",
+      "gatilho": "insuficiência de provas",
+      "armadilhaBanca": "Equiparar dúvida probatória e inexistência do fato.",
+      "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — art. 126: hipóteses de repercussão penal — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Absolvição penal por insuficiência de prova não afasta automaticamente responsabilidade administrativa por falta residual demonstrada.",
+      "item": "A absolvição criminal transitada em julgado por insuficiência de provas (in dubio pro reo) afasta compulsoriamente a sanção disciplinar de demissão aplicada administrativamente ao servidor pela prática de falta funcional residual.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-26",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, XVI, b, redação da EC 138/2025",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "627c4ee4c60315ca8ce1f96b02aa85b6738e87b000f1d38ac7537c7cf3bca16e",
+    "shaDepois": "42a0129b79c1874bde32f8bec2f215819e33f217c97a320960f8894c49c220cb",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A acumulação de um cargo de professor com outro cargo de qualquer natureza autoriza sobreposição das jornadas, desde que o servidor compense posteriormente as horas em fins de semana.",
+      "justificativa": "ERRADO. A Constituição exige compatibilidade de horários. A EC 138/2025 passou a admitir professor com outro cargo de qualquer natureza, sem dispensar esse requisito. Compensação futura não torna possível exercer duas jornadas simultâneas. O comentário atualiza a exceção sem validar sobreposição de horários.",
+      "gatilho": "sobreposição",
+      "armadilhaBanca": "Atualizar a hipótese sem eliminar seu requisito.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, XVI, b, redação da EC 138/2025 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A acumulação de professor com outro cargo de qualquer natureza depende de compatibilidade de horários e das demais condições constitucionais.",
+      "submoduloId": "11.3"
+    }
+  },
+  {
+    "id": "m11-q-27",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 29 e 38: instrução e provas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1bfbc9ecf483ba47e9dd4614f12bac2c6cc5e24b8b458233833a40061d91d4cb",
+    "shaDepois": "ea2621c6fc9584012094e824c06e0ff471782b37eb4088b8a9f99ffa52b16daa",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A instrução pode ocorrer de ofício e o interessado também pode requerer provas pertinentes. Buscar a verdade material não permite prova ilícita nem supressão de defesa. A autoridade precisa motivar a recusa de prova ilícita, impertinente, desnecessária ou protelatória.",
+      "gatilho": "ex officio",
+      "armadilhaBanca": "Distinguir iniciativa instrutória e liberdade sem garantias.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 29 e 38: instrução e provas — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A busca da verdade material autoriza utilizar prova ilícita e impedir manifestação do interessado sobre o resultado.",
+      "item": "O princípio da verdade material orienta o processo administrativo federal, facultando à autoridade julgadora a produção de provas ex officio para apuração da realidade fática dos acontecimentos, sem vinculação estrita à verdade meramente formal trazida aos autos pelos interessados.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-28",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 18 a 21: impedimento e suspeição",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8f9065dce6c23b302cd072e5ebcc67d4422c9dd40efc15fb7c7d005262d59968",
+    "shaDepois": "a5c8a4684f31b60a5c0400714708da07f978abe14cc72238b0312d3890c7b949",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A amizade íntima da autoridade com interessado no processo é hipótese de impedimento do art. 18 da Lei 9.784/1999, e não de suspeição do art. 20.",
+      "justificativa": "ERRADO. Amizade íntima ou inimizade notória é hipótese de suspeição, inclusive nas relações previstas no art. 20. Impedimento tem hipóteses próprias, como interesse direto ou indireto. O dever de comunicar impedimento não deve ser transferido indistintamente a toda situação de suspeição.",
+      "gatilho": "impedimento",
+      "armadilhaBanca": "Trocar impedimento e suspeição.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 18 a 21: impedimento e suspeição — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Amizade íntima ou inimizade notória caracteriza suspeição nos termos do art. 20, não a mesma hipótese de impedimento do art. 18.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-29",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "art. 13: competências indelegáveis",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b09bae8ab868ccc19ac0c57036e7e65ea0de6edd02142a0b789d1026eeb3b553",
+    "shaDepois": "fd08aa811bad4a1a16a84ba413a43a7746055962853d4c455c8c21a20675b4f4",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A norma exclui delegação de atos normativos, decisão de recursos e competência exclusiva. A proibição não é uma exigência genérica de hierarquia. Atenção à expressão exclusiva: a possibilidade de delegar depende de regra e matéria, não do simples desejo de distribuir trabalho.",
+      "gatilho": "exclusiva",
+      "armadilhaBanca": "Identificar o rol de exclusões da delegação.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — art. 13: competências indelegáveis — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A decisão de recurso administrativo pode ser livremente delegada, como qualquer tarefa de rotina.",
+      "item": "Não podem ser objeto de delegação administrativa: a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva do órgão ou da autoridade.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-30",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "art. 12: delegação sem subordinação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8703d7818cc9e79e99306904bd8e9420c2cda4b8706656670fad5294d04cd726",
+    "shaDepois": "f4033d914612b92dafb97f5373eb238abc9e863b664df1ed54184d7cb400282b",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A delegação de parte da competência pode alcançar órgãos ou titulares sem subordinação hierárquica, atendidos os requisitos legais. Ela depende de instrumento com limites e condições, não de identidade de posição administrativa. Avocação é que tem regime excepcional ligado à competência de órgão hierarquicamente inferior.",
+      "gatilho": "hierárquica direta",
+      "armadilhaBanca": "Transportar requisito da avocação para a delegação.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — art. 12: delegação sem subordinação — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A delegação pode alcançar órgão ou titular não subordinado hierarquicamente, observados os requisitos da lei.",
+      "item": "A delegação de competência administrativa subordina-se à existência de relação hierárquica direta entre o delegante e o delegado, mostrando-se incompatível com órgãos autônomos ou instâncias desprovidas de vínculo de subordinação funcional.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-31",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "art. 64, parágrafo único: agravamento no recurso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e20205802aec9838c79c1cbf0962a3676edc29af7a43efdfc493b5142a00e31a",
+    "shaDepois": "2dd47e1a3029481f20b8981216e1a55d77bd160212ba56d7d6959596b03c2c57",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O recurso pode levar a agravamento, mas o recorrente deve ser cientificado para apresentar alegações antes da decisão. Essa garantia impede decisão-surpresa sem instituir proibição absoluta de reforma prejudicial. Não confunda recurso com revisão sancionatória do art. 65, que tem vedação específica de agravamento.",
+      "gatilho": "previamente cientificado",
+      "armadilhaBanca": "Distinguir recurso e revisão de sanção.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — art. 64, parágrafo único: agravamento no recurso — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A revisão sancionatória do art. 65 permite agravamento desde que haja ciência prévia, como no recurso do art. 64.",
+      "item": "No processo administrativo federal, caso da decisão do recurso decorra o agravamento da situação jurídica do interessado (reformatio in pejus), o recorrente deve ser previamente cientificado para que formule suas alegações antes da decisão final da autoridade competente.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-32",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 56, §2º, e 64: caução e reforma",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2e298388cc6ed8f72f111dbb3c827824effd89d45917763c4a57300dc268792f",
+    "shaDepois": "2025fd3bb14cea95323dc7279314467386bc9d6a71d7daeab69c94994dbf51f5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A lei prevê que recurso independe de caução, salvo exigência legal, e admite reforma que agrave a situação com ciência para alegações. A proibição absoluta descrita não é a regra do recurso. A SV 21 afasta depósito ou arrolamento prévio como condição de admissibilidade no âmbito que disciplina.",
+      "gatilho": "vedando",
+      "armadilhaBanca": "Misturar garantia de acesso e impossibilidade de reforma prejudicial.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 56, §2º, e 64: caução e reforma — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No recurso, pode haver agravamento após ciência do recorrente para alegações; não há a vedação absoluta descrita.",
+      "item": "O recurso administrativo no âmbito federal independe de caução prévia, vedando-se à autoridade competente a reforma da decisão em prejuízo da situação jurídica do recorrente.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-33",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfSV5"
+    ],
+    "localizador": "Súmula Vinculante 5: defesa no PAD",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "831ccae382c0be164fe9293cd77d3f5c6a6ebe89dfd19983adcd15a02f5c3055",
+    "shaDepois": "00751770c9d25070bae16f6e75d49d602ae3d764f104e6f17b828e6655ddcfe0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A súmula não torna a defesa dispensável; apenas afasta a exigência constitucional geral de advogado no PAD administrativo abrangido. Contraditório, conhecimento das imputações e oportunidade de defesa continuam necessários. Não se extrapola o verbete para todo procedimento disciplinar de natureza distinta.",
+      "gatilho": "não ofende",
+      "armadilhaBanca": "Separar defesa técnica obrigatória e ampla defesa.",
+      "fonte": "STF — Súmula Vinculante 5 — Súmula Vinculante 5: defesa no PAD — https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1199",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A dispensa de advogado pela SV 5 dispensa também contraditório e oportunidade de defesa no PAD.",
+      "item": "Conforme entendimento vinculante do Supremo Tribunal Federal materializado na Súmula Vinculante 5, a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição Federal de 1988.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-34",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stj635"
+    ],
+    "localizador": "Súmula 635; Lei 8.112, art. 142",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "eece7dc6e69fc8ee0e112e9971f689124a1606f1c5fdb385822a640f91e2ae5d",
+    "shaDepois": "f0bb8e891a1da791a43c2635461b915d5e098100402f1ba545e899b5866905e5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A interrupção se liga ao primeiro ato válido de sindicância punitiva ou PAD, não a simples investigação preliminar. A súmula também disciplina a retomada integral após 140 dias. Não se deve tratar qualquer portaria investigatória como reinício automático de cinco anos independentemente da infração.",
+      "gatilho": "meramente investigatório",
+      "armadilhaBanca": "Confundir apuração preliminar e procedimento sancionador.",
+      "fonte": "STJ — Súmula 635 — Súmula 635; Lei 8.112, art. 142 — https://scon.stj.jus.br/SCON/sumstj/toc.jsp?O=JT&livre=%27635%27.num.",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A investigação preliminar, por si só, não produz a interrupção prevista para sindicância punitiva ou PAD validamente instaurado.",
+      "item": "A abertura de sindicância de cunho meramente investigatório e desprovida de comissão formal interrompe a prescrição da ação disciplinar pelo prazo de cinco anos contados da data de sua portaria instauradora.",
+      "submoduloId": "11.4"
+    }
+  },
+  {
+    "id": "m11-q-35",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37: disciplina funcional e poder de polícia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "81829e9c5c9aec41bdd1a41cf155182af53b6bd6be118c941dce47182749fa5d",
+    "shaDepois": "4b72f43a017cb7f69bbce93491606e11b1f4690e75b61c6ed770077432f95bee",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A disciplina decorre de vínculo específico e pressupõe infração e procedimento próprios. O poder de polícia condiciona liberdade e propriedade no regime legal geral. A distinção doutrinária não dispensa tipificação, proporcionalidade ou defesa em nenhuma das duas formas de atuação.",
+      "gatilho": "vínculo jurídico específico",
+      "armadilhaBanca": "Distinguir sujeição especial e condicionamento geral de direitos.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37: disciplina funcional e poder de polícia — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O poder disciplinar incide indistintamente sobre qualquer cidadão, sem necessidade de vínculo funcional ou contratual específico.",
+      "item": "O poder disciplinar funda-se na supremacia especial que o Estado exerce sobre aqueles indivíduos que mantêm com o poder público um vínculo jurídico específico de natureza funcional ou contratual, distinguindo-se do poder de polícia, o qual incide genericamente sobre a coletividade com base na supremacia geral.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-36",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfPolicia532"
+    ],
+    "localizador": "Tema 532: ciclo e delegação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a311016483069b1b1d636e32afbead8c5b1d883b873a0bf68237f82b97a503c3",
+    "shaDepois": "6aef172e93e9dd780cb9ccf0f3b1def66fd7294c798d8d5b38969e13fdd40d99",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A tese admite delegação por lei com requisitos cumulativos, inclusive atividade sancionatória no caso examinado. Não transfere competência legislativa de estabelecer normas primárias a qualquer empresa privada. O item inverte o regime ao reservar a delegação à ordem e excluir as demais fases.",
+      "gatilho": "única fase delegável",
+      "armadilhaBanca": "Inverter a fase normativa e as atividades administrativas delegáveis.",
+      "fonte": "STF — Tema 532: delegação do poder de polícia — Tema 532: ciclo e delegação — https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=532",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Tema 532 admite delegação legal nas condições fixadas, sem delegação da competência legislativa primária.",
+      "item": "O ciclo da polícia administrativa compreende quatro fases sucessivas: ordem de polícia, consentimento de polícia, fiscalização de polícia e sanção de polícia; desse rol, a ordem de polícia é a única fase delegável a pessoas jurídicas privadas de capital aberto integrantes da administração indireta.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-37",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfPolicia532"
+    ],
+    "localizador": "Tema 532: requisitos cumulativos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "768e749e9f213c52ff47e4b3d3590093ff5878ac37da87057f4d96923dcfbbb3",
+    "shaDepois": "6ad97de52112e2f331d6fb852875ec34236114f5dd7268f449adae4e8ba2808d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No Tema 532, o STF admite delegação do poder de polícia por lei a pessoa jurídica de direito privado da administração indireta, de capital majoritariamente público, que preste exclusivamente serviço público próprio do Estado em regime não concorrencial.",
+      "justificativa": "CERTO. Não basta ter capital público: exige-se integração à indireta, capital majoritariamente público, serviço público próprio do Estado, exclusividade e regime não concorrencial, além da delegação legal. A decisão não valida delegação indistinta a qualquer empresa contratada ou estatal que concorra no mercado.",
+      "gatilho": "por lei",
+      "armadilhaBanca": "Preservar todos os requisitos da tese.",
+      "fonte": "STF — Tema 532: delegação do poder de polícia — Tema 532: requisitos cumulativos — https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=532",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer empresa privada contratada pode receber poder de polícia sancionatório por simples contrato administrativo.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-38",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 2º e 11: competência e finalidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "31d85f4c9042b64147d8040a5b8fc661b92e925f2a601360b32979d67cf509b9",
+    "shaDepois": "67375769e46dfa8a6d7c093f7713ca59324c181d8a6c9e26b315b40b640562c6",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Excesso ocorre quando a autoridade ultrapassa a competência; desvio ocorre quando usa sua competência para finalidade diversa da prevista. O item troca os conceitos. Uma conduta pode exigir exame de ambos os elementos, mas finalidade particular não vira mera incompetência por mudança de nome.",
+      "gatilho": "desvio de poder",
+      "armadilhaBanca": "Inverter competência e finalidade no abuso de poder.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 2º e 11: competência e finalidade — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Excesso de poder é ultrapassar a competência; desvio de finalidade é atuar com objetivo diverso do juridicamente previsto.",
+      "item": "O desvio de poder (ou desvio de finalidade) consubstancia vício no qual a autoridade administrativa atua fora dos limites de sua competência legal, enquanto o excesso de poder ocorre quando o agente pratica o ato dentro de sua competência legal formal, mas com objetivo alheio ao interesse público ou divergente da finalidade legalmente preconizada.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-39",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "legalidade e limites da execução direta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "46e4e4776487b5591451cc8d17e3cba240139e4aaeab6bad82972322f8e4d292",
+    "shaDepois": "ab7dcb25fef5b55e97fc62b06676e91a704051c6abb21bfc84bcc5fabeea704a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Aplicar multa não autoriza retirar compulsoriamente dinheiro do patrimônio do infrator por força material administrativa. Se não paga, sua cobrança segue a via legal pertinente, como execução fiscal. A autoexecutoriedade de certas medidas não se estende automaticamente à satisfação de crédito pecuniário.",
+      "gatilho": "cobrança coercitiva",
+      "armadilhaBanca": "Distinguir imposição de sanção e execução patrimonial do crédito.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — legalidade e limites da execução direta — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A multa administrativa permite à autoridade retirar diretamente valores da conta do infrator, sem o procedimento legal de cobrança.",
+      "item": "O atributo da autoexecutoriedade faculta à Administração Pública a execução material direta de suas decisões sem a necessidade de intervenção do Poder Judiciário; todavia, a cobrança coercitiva de penalidade de multa administrativa decorrente do poder de polícia não ostenta autoexecutoriedade, exigindo a propositura de ação de execução fiscal caso não haja o pagamento espontâneo pelo infrator.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-40",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 84, VI: decreto autônomo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "175f22d4e9b18f8d79a0a76d8c92e3ce8daa36001818b94905e4fb0e63ae6733",
+    "shaDepois": "938c9c845be0f5db2b9773663231863e29a7a91a154d889cf6a7cd4db6d0313e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O decreto pode dispor sobre organização e funcionamento quando não implique aumento de despesa nem criação ou extinção de órgãos; há também a hipótese de cargos e funções vagos. Prever dotação não autoriza criar órgão por decreto. O item contraria simultaneamente os limites de estrutura e despesa.",
+      "gatilho": "criar novos órgãos",
+      "armadilhaBanca": "Apagar condições negativas da competência regulamentar.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 84, VI: decreto autônomo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O decreto autônomo não autoriza criar novos órgãos públicos nem aumentar despesa na hipótese do art. 84, VI, a.",
+      "item": "Em decorrência do poder regulamentar concedido pelo art. 84, VI da Constituição Federal de 1988, o Presidente da República pode editar decreto autônomo para criar novos órgãos públicos no âmbito dos Ministérios, desde que promova o aumento proporcional das dotações orçamentárias correspondentes.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-41",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "arts. 5º, XXXV, e 37: controle jurisdicional",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2d8a253fba003a5f9f7bf3df70418c42a2def6bcc3afc4378d8ccf47913be553",
+    "shaDepois": "c2583389dca046337d02becd48dba5f4d8cffa2905af808885000dc220a58661",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O juiz controla legalidade e juridicidade, inclusive proporcionalidade e razoabilidade, mas não substitui a escolha administrativa válida pela sua preferência. Discricionariedade não é imunidade ao controle; controle de limites não é administração livre do mérito pelo Judiciário.",
+      "gatilho": "limites principiológicos",
+      "armadilhaBanca": "Distinguir controle dos limites e substituição da escolha válida.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — arts. 5º, XXXV, e 37: controle jurisdicional — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O caráter discricionário impede qualquer controle judicial de proporcionalidade ou finalidade do ato.",
+      "item": "Ao Poder Judiciário é defeso imiscuir-se no exame do mérito administrativo (conveniência e oportunidade) de ato praticado no exercício de competência discricionária, limitando-se o controle jurisdicional à aferição da legalidade, da juridicidade e da observância dos limites principiológicos da proporcionalidade e razoabilidade.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-42",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei9784"
+    ],
+    "localizador": "arts. 2º e 50: vinculação e decisão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "7c811ad5e68e04849f423754beb4273511724117699185bdab465f0139d73d83",
+    "shaDepois": "5189aeffbd21fbbcd3607a4636f6d0151ee8c1cb83d3cf86429b065623e35f4f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A competência vinculada exige a solução estabelecida juridicamente quando seus pressupostos estão presentes. A apreciação de fatos e provas não cria liberdade de conveniência irrestrita para escolher sanção. A decisão disciplinar deve observar hipótese legal, fundamentação e critérios de aplicação.",
+      "gatilho": "liberdade de escolha",
+      "armadilhaBanca": "Confundir juízo sobre fatos e discricionariedade.",
+      "fonte": "Lei 9.784/1999 — processo administrativo federal — arts. 2º e 50: vinculação e decisão — https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na atuação vinculada, os pressupostos legais determinam a solução, sem escolha livre por conveniência subjetiva.",
+      "item": "No poder vinculado, o agente público goza de liberdade de escolha entre opções igualmente válidas perante a ordem jurídica para fixar a sanção disciplinar mais adequada ao servidor com base em critérios subjetivos de conveniência.",
+      "submoduloId": "11.5"
+    }
+  },
+  {
+    "id": "m11-q-43",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, §6º: risco administrativo e regresso",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "16f4d4b588f9264512f6659291dfcf41d1e6e1252992cfdab9f7840a5f62486c",
+    "shaDepois": "92082bf48275de165be0fc2becd4c2ee53a93599e21f57923a9ae1599d1aeb28",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O nexo com a atuação do agente nessa qualidade é essencial. A vítima demonstra dano e relação causal, sem precisar provar culpa estatal na hipótese objetiva. Regresso contra o agente exige dolo ou culpa; responsabilidade objetiva não significa indenização sem nexo nem risco integral.",
+      "gatilho": "nessa qualidade",
+      "armadilhaBanca": "Separar responsabilidade perante a vítima e regresso.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, §6º: risco administrativo e regresso — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A responsabilidade objetiva do Estado implica direito de regresso automático, sem dolo ou culpa do agente.",
+      "item": "As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem objetivamente pelos danos que seus agentes, nessa qualidade, causarem a terceiros, sob a modalidade do risco administrativo, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-44",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfResponsabilidade940"
+    ],
+    "localizador": "Tema 940: ação da vítima",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6d14740e04d362a27ee2f0e2083a0292ba73f3e02cc02db1c67edbe335519e29",
+    "shaDepois": "dadd6620c38b7d44868343eab89201dd825287e04209ef4f09e26ea4ac7328e7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A ação pela atuação pública abrangida pela tese é proposta contra o Estado ou o prestador privado de serviço público, não diretamente contra o agente autor do ato. A ilegitimidade nessa ação não isenta o agente: permanece o regresso em caso de dolo ou culpa.",
+      "gatilho": "agente público",
+      "armadilhaBanca": "Distinguir legitimidade passiva e exoneração de responsabilidade.",
+      "fonte": "STF — Tema 940: legitimidade passiva e regresso — Tema 940: ação da vítima — https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=940",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O Tema 940 torna o agente imune a qualquer responsabilização, inclusive ação regressiva por dolo.",
+      "item": "Em consonância com a jurisprudência vinculante do STF (Tema 940 de Repercussão Geral), a ação de indenização por danos causados por servidor público deve ser ajuizada privativamente contra o Estado ou pessoa delegatária, sendo o agente público parte passiva ilegítima na demanda ordinária promovida pela vítima.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-45",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfDetento592"
+    ],
+    "localizador": "Tema 592: dever específico de proteção",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "72ec3889e4e0e7971eb2700ccc66e1b8855a4c8e692b2d6db8688371bc7fde40",
+    "shaDepois": "5a4912003d60689613fbabc622472bd35aa4701e477f4c916442dd75e0139886",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No Tema 592, o STF reconhece responsabilidade estatal pela morte de detento em caso de inobservância do dever legal e específico de proteção, devendo ser analisado o nexo causal no caso concreto.",
+      "justificativa": "CERTO. A tese exige inobservância do dever específico de proteção e análise do nexo. Morte sob custódia não autoriza dispensar toda investigação causal nem concluir que qualquer omissão genérica tem o mesmo regime. A redação foi delimitada à morte de detento e ao dever examinado pelo STF.",
+      "gatilho": "dever legal e específico",
+      "armadilhaBanca": "Preservar pressupostos da responsabilidade objetiva por custódia.",
+      "fonte": "STF — Tema 592: morte de detento — Tema 592: dever específico de proteção — https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4645403&numeroProcesso=841526&numeroTema=592",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O Tema 592 dispensa examinar nexo causal e inobservância do dever específico em todo evento com pessoa presa.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-46",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, §6º: risco administrativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3b6e0645b63fa6a28f8204487a7ac88cb1ae32c62c20abfa7cc4ed5151f0436f",
+    "shaDepois": "a58a4db6afa3169b9aff73325e987ebcf24a027d588c491ecfab66d2e1613e35",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Se a vítima contribui para o dano, sua participação pode reduzir a indenização conforme o nexo e as circunstâncias. Culpa exclusiva é situação distinta, capaz de romper o nexo. O item troca contribuição parcial por causa excludente integral e elimina a parcela atribuível ao Estado.",
+      "gatilho": "concorrente",
+      "armadilhaBanca": "Trocar concorrência causal e exclusividade da causa.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, §6º: risco administrativo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A culpa concorrente pode reduzir a indenização; não equivale automaticamente à culpa exclusiva da vítima.",
+      "item": "A culpa concorrente da vítima do evento danoso exclui integralmente o dever de indenizar do Estado, afastando qualquer obrigação patrimonial compensatória.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-47",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, §6º: regime geral",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "32bed0b934532d6bfcb5aed17b4579376696c536cec4f1c32d3199ffb5c35ca8",
+    "shaDepois": "5a02534d06338000344d38ddb397f91951fb773c6a12b2f6de9e9d262b020d5d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O regime geral é risco administrativo, com exame do nexo e de excludentes pertinentes. A existência de regimes especiais não torna risco integral a regra de todos os danos públicos. Objetividade elimina a prova da culpa na hipótese abrangida, não a análise de causalidade.",
+      "gatilho": "risco integral",
+      "armadilhaBanca": "Confundir responsabilidade objetiva e impossibilidade de excludentes.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, §6º: regime geral — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A responsabilidade objetiva geral do Estado é fundada no risco administrativo, não no risco integral para todos os atos.",
+      "item": "A teoria do risco integral, que veda categoricamente a alegação de excludentes de nexo de causalidade como caso fortuito ou culpa da vítima, constitui a regra geral da responsabilidade civil adotada pela Constituição de 1988 para todos os atos lesivos praticados por agentes da administração pública.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-48",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, §6º: responsabilidade regressiva",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f6c1de766f976fe8658e3517edbddf5b9b5e32ac2ded3bb13dba1ee1d3ade302",
+    "shaDepois": "9767bb20863e6c74b7ce953d1025ad8eda7291ffe1ff971fbbf3021c8b968556",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O regresso do Estado contra o agente pelos danos de sua atuação pressupõe dolo ou culpa e os demais requisitos da pretensão regressiva, não bastando a responsabilidade objetiva perante a vítima.",
+      "justificativa": "CERTO. Perante o agente, a pretensão regressiva exige prova de dolo ou culpa e dos demais pressupostos. A condenação objetiva do Estado não demonstra automaticamente culpa pessoal. É possível a vítima ser indenizada sem que caiba regresso, se não se demonstrar a responsabilidade subjetiva do agente.",
+      "gatilho": "dolo ou culpa",
+      "armadilhaBanca": "Transferir objetividade da primeira relação para a segunda.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, §6º: responsabilidade regressiva — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda indenização paga pelo Estado gera regresso automático contra o agente, independentemente de culpa.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-49",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, §6º: dano regressivo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c0ac88fd7c62dcb8ec7e317a98321c67fff22bf373fdea55d27d6fe34441e281",
+    "shaDepois": "6f9387deff21e44701bca1d4ae959771f471f5f8e56b8e23dc34bbaf055dd944",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O Estado pode exigir do agente, em regresso, reembolso de indenização meramente estimada, sem sequer ter suportado o prejuízo correspondente nem demonstrado dolo ou culpa.",
+      "justificativa": "ERRADO. O regresso não serve para obter ressarcimento de prejuízo apenas hipotético: deve haver dano suportado pelo ente e os requisitos de imputação ao agente. Já o pagamento pode decorrer de solução administrativa ou acordo válido, não necessariamente de sentença transitada. A nova redação separa essas condições.",
+      "gatilho": "sem sequer",
+      "armadilhaBanca": "Separar reparação efetiva e origem judicial da obrigação.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, §6º: dano regressivo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A reparação devida pelo agente em regresso exige prejuízo efetivamente suportado pelo ente e imputação subjetiva, sem exigir sempre condenação judicial prévia.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-50",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "cf"
+    ],
+    "localizador": "art. 37, §6º: responsabilidade e dano legislativo",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4c6f28cc5aa494a0a3843405c12a5a5a6b7e22bc3306656f2ae712069266f095",
+    "shaDepois": "cb0f606683a0ce247bdd726ce6fc789b5c7646e3824afb2357f39352a279fe00",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "A eventual responsabilidade civil por atuação legislativa exige exame de seus pressupostos; a declaração de inconstitucionalidade não implica indenização automática sem demonstração de dano e nexo causal.",
+      "justificativa": "CERTO. Declarar lei inconstitucional não basta, por si só, para fixar indenização a todos os cidadãos. É necessário examinar dano, causalidade e requisitos do caso. A responsabilidade excepcional por atuação legislativa não se confunde com efeito patrimonial automático de qualquer decisão de controle.",
+      "gatilho": "não implica indenização automática",
+      "armadilhaBanca": "Distinguir invalidade normativa e responsabilidade patrimonial.",
+      "fonte": "Constituição da República Federativa do Brasil — texto atualizado — art. 37, §6º: responsabilidade e dano legislativo — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda declaração de inconstitucionalidade gera automaticamente indenização integral a qualquer cidadão, sem prova de dano.",
+      "submoduloId": "11.6"
+    }
+  },
+  {
+    "id": "m11-q-51",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8429",
+      "stfImprobidade2026"
+    ],
+    "localizador": "art. 1º, §§1º a 3º; arts. 9º a 11",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bb60a8e4ffd9548ab07f00512fc9e301bb73f2422dd6f91a549da536be5fb388",
+    "shaDepois": "b2545fd0798dcc6ca1bfbb4a0e94c992df55b67b3e8d762390e61d2f2be16aa1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No regime material vigente da Lei de Improbidade, exige-se conduta dolosa tipificada; a mera voluntariedade do agente não basta, sem prejuízo das regras de aplicação temporal da reforma.",
+      "justificativa": "CERTO. O regime material vigente exige conduta dolosa tipificada e vontade consciente de alcançar resultado ilícito; mera voluntariedade não basta. Isso não significa apagar automaticamente coisa julgada de fatos anteriores. A modalidade culposa foi retirada do regime atual, com questões temporais próprias.",
+      "gatilho": "mera voluntariedade",
+      "armadilhaBanca": "Separar dolo, voluntariedade e aplicação temporal.",
+      "fonte": "Lei 8.429/1992 — improbidade administrativa, texto atualizado — art. 1º, §§1º a 3º; arts. 9º a 11 — https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "No regime vigente, qualquer ilegalidade ou conduta voluntária constitui improbidade mesmo sem dolo.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-52",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfImprobidade2026",
+      "lei8429"
+    ],
+    "localizador": "ADIs 7156 e 7236: taxatividade do art. 11",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8aa9082486a78ae99d7787a223a9afddaf52f56137accfdaa113b417f00d4844",
+    "shaDepois": "270fb82e28d003ba5856ac4d3cf7c56d323a1425c35696428f633cdae69235db",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O rol vigente do art. 11 é taxativo, entendimento confirmado no julgamento de 2026. Invocar genericamente moralidade ou legalidade não substitui enquadrar a conduta em hipótese tipificada com seus requisitos. A conclusão não torna toda conduta fora desse artigo lícita nem exclui outras espécies de responsabilidade.",
+      "gatilho": "taxativo",
+      "armadilhaBanca": "Distinguir ilegalidade ampla e tipo de improbidade.",
+      "fonte": "STF — ADIs 7156 e 7236, Informativo 1225/2026 — ADIs 7156 e 7236: taxatividade do art. 11 — https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Qualquer violação genérica de princípio permite condenação pelo art. 11 mesmo sem correspondência a uma hipótese tipificada.",
+      "item": "O rol de condutas tipificadas no art. 11 da Lei nº 8.429/1992 (atos de improbidade que atentam contra os princípios da administração pública) tornou-se taxativo (numerus clausus) com a reforma da Lei nº 14.230/2021, não se admitindo a condenação do agente público com base em conduta genérica não expressamente prevista nos seus incisos.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-53",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8429",
+      "stfImprobidade2026"
+    ],
+    "localizador": "art. 10: perda efetiva e comprovada",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "e9edb56bcaa0f37e8549ac47df0697dcbb92e7f895a45c061ed30e370383a099",
+    "shaDepois": "0932330952f19cb5ae45d03895fb48e1093c891169a7a800db477f1fac93b701",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O tipo exige perda patrimonial efetiva e comprovada, além dos demais elementos, inclusive dolo. Defeito formal na licitação não demonstra necessariamente dano ao erário. Ausência dessa tipificação não torna o procedimento regular nem impede outra responsabilização cabível.",
+      "gatilho": "presunção abstrata",
+      "armadilhaBanca": "Trocar irregularidade procedimental e dano demonstrado.",
+      "fonte": "Lei 8.429/1992 — improbidade administrativa, texto atualizado — art. 10: perda efetiva e comprovada — https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A lesão ao erário do art. 10 exige perda patrimonial efetiva e comprovada, não mera presunção decorrente de irregularidade formal.",
+      "item": "Para a tipificação de ato de improbidade administrativa causador de lesão ao erário nos termos do art. 10 da Lei nº 8.429/1992, é prescindível a constatação de perda patrimonial efetiva e comprovada, bastando a presunção abstrata de dano in re ipsa decorrente do descumprimento de formalidade licitatória.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-54",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfImprobidadeLegitimidade"
+    ],
+    "localizador": "ADIs 7042 e 7043: legitimidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5c54e025294490ead3ee940282b6dd8251b43499b8d53dcf8235c0f620b74560",
+    "shaDepois": "333f19f44cb0539da04563411d2990f34ca1dbf826709f13fae9b9dadcaf7154",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. STF restabeleceu legitimidade concorrente e disjuntiva do Ministério Público e das pessoas jurídicas interessadas. Isso permite atuação por cada legitimado, sem exigir que proponham conjuntamente toda ação. A decisão também alcança acordos de não persecução civil nas condições do julgado.",
+      "gatilho": "concorrente",
+      "armadilhaBanca": "Distinguir concorrência disjuntiva e litisconsórcio obrigatório.",
+      "fonte": "STF — ADIs 7042 e 7043, Informativo 1066/2022 — ADIs 7042 e 7043: legitimidade — https://www.stf.jus.br/arquivo/informativo/documento/informativo1066.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A ação de improbidade só pode ser proposta conjuntamente pelo Ministério Público e pelo ente lesado, sob pena de ilegitimidade.",
+      "item": "Conforme decisão definitiva do Supremo Tribunal Federal no julgamento das ADIs 7042 e 7043, a legitimidade para propositura da ação de improbidade administrativa é concorrente entre o Ministério Público e a pessoa jurídica interessada lesada pelo ato ímprobo, tendo sido declarada a inconstitucionalidade da exclusividade ministerial originalmente prevista na Lei nº 14.230/2021.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-55",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8429",
+      "stfImprobidade2026"
+    ],
+    "localizador": "art. 12, III: sanções do art. 11",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "a3c4ba3900591d9e00478b032667d8fec524b85b52a0881b4d6981a6b54b80c5",
+    "shaDepois": "b69e2b68fffc36cc4733509033da23c8e48825ff9318b0c8f95f7126d112ae8d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Para o art. 11, a lei prevê multa de até 24 remunerações e proibição de contratar ou receber benefícios pelo prazo não superior a quatro anos. Não prevê nesse inciso perda da função e suspensão política por quatorze anos. Sanção não pode ser importada de categoria diferente.",
+      "gatilho": "perda da função pública",
+      "armadilhaBanca": "Misturar sanções de espécies distintas de improbidade.",
+      "fonte": "Lei 8.429/1992 — improbidade administrativa, texto atualizado — art. 12, III: sanções do art. 11 — https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O art. 12, III, não prevê perda da função nem suspensão de direitos políticos para a hipótese do art. 11.",
+      "item": "Pelo novo regramento introduzido pela Lei nº 14.230/2021, a condenação de servidor público por ato de improbidade que atenta contra os princípios da administração pública (art. 11) comina compulsoriamente as sanções cumulativas de perda da função pública e suspensão dos direitos políticos por até 14 anos.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-56",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfImprobidade2026",
+      "lei8429"
+    ],
+    "localizador": "ADIs 7156 e 7236: art. 23, §5º, decisão de 2026",
+    "nota": "C corrigido para E: julgamento das ADIs 7156 e 7236 concluído em 01/07/2026 e divulgado no Informativo 1225 invalida redução pela metade.",
+    "shaAntes": "8296a067f857f49fbf247bdb3b08ac3fac387597cd30e0644e82c8850c703ecc",
+    "shaDepois": "bd0d13599508d669f3ab64b5cffaa0b00496ae8f9792d500ddd4bbae90a263ee",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "E",
+      "justificativa": "ERRADO. O STF invalidou a redução pela metade após a interrupção. O prazo volta a correr integralmente, observado o limite de vinte anos descrito no julgamento; não permanece a fórmula geral de quatro anos. O prazo de oito anos do caput não torna verdadeira a segunda metade do enunciado.",
+      "gatilho": "quatro anos",
+      "armadilhaBanca": "Cobrar o texto legal à luz de decisão superveniente dentro do corte.",
+      "fonte": "STF — ADIs 7156 e 7236, Informativo 1225/2026 — ADIs 7156 e 7236: art. 23, §5º, decisão de 2026 — https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Após a interrupção, o prazo recomeça integralmente, sem a redução automática para quatro anos invalidada pelo STF em 2026.",
+      "versao_errada": "",
+      "item": "A ação para aplicação das sanções previstas na Lei de Improbidade Administrativa prescreve em oito anos, contados a partir da data da ocorrência do fato ou, no caso de infrações permanentes, do dia em que tiver cessado a permanência, incidindo a prescrição intercorrente de quatro anos caso o processo fique paralisado entre os marcos interruptivos legais.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-57",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8429",
+      "stfImprobidade2026"
+    ],
+    "localizador": "art. 3º, caput: participação de particular",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "96ddbe4c63d874ecc832e7a196290cfa2fd8d4c6d7887fed5f9beea4484a2f9e",
+    "shaDepois": "ef576a5b3320244e610253f2dbde87653cc05b0fe56c630138d0c3d4e0b6d27c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A incidência sobre particular exige indução ou concurso doloso para a prática do ato ímprobo. A participação apenas culposa não satisfaz o requisito material vigente. O enunciado já falha nesse ponto, independentemente da discussão processual sobre a composição do polo passivo.",
+      "gatilho": "culposamente",
+      "armadilhaBanca": "Omitir elemento subjetivo da participação do particular.",
+      "fonte": "Lei 8.429/1992 — improbidade administrativa, texto atualizado — art. 3º, caput: participação de particular — https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A extensão da Lei de Improbidade ao particular pressupõe indução ou participação dolosa, nos termos do art. 3º.",
+      "item": "Com base na Lei nº 14.230/2021, o particular que concorrer culposamente para a ocorrência de prejuízo ao erário pode figurar isoladamente no polo passivo da ação por improbidade administrativa instaurada pelo Ministério Público.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-58",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei8429",
+      "stfImprobidadeLegitimidade"
+    ],
+    "localizador": "art. 17-B: requisitos mínimos do ANPC",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "6b34d4a97bb1656c217e5ddfd3023769e1b789adbca9d59e3293c7f7cf38d9bc",
+    "shaDepois": "c4ee15fa3df7db2bb584c2addce8711e31ccc930ce2e0a65404cd0f19adfe11d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O acordo deve assegurar, ao menos, integral ressarcimento do dano e reversão da vantagem indevida à pessoa jurídica lesada. Não é autorização para negociar livremente renúncia a esses resultados mínimos; há também requisitos procedimentais e legitimidade conforme o STF. Possibilidade de acordo não equivale a acordo obrigatório.",
+      "gatilho": "reparação integral",
+      "armadilhaBanca": "Separar consensualidade e disponibilidade irrestrita dos resultados mínimos.",
+      "fonte": "Lei 8.429/1992 — improbidade administrativa, texto atualizado — art. 17-B: requisitos mínimos do ANPC — https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O ANPC permite renunciar integralmente ao ressarcimento e à reversão da vantagem, por mera conveniência dos negociadores.",
+      "item": "A celebração do Acordo de Não Persecução Civil (ANPC) é expressamente autorizada pela Lei nº 14.230/2021 (art. 17-B), podendo ser firmado entre o Ministério Público e o investigado ou réu para abreviar o litígio, desde que contemple a reparação integral do dano patrimonial ao erário e a reversão à pessoa jurídica lesada da vantagem indevida obtida.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-59",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "stfImprobidade2026",
+      "lei8429"
+    ],
+    "localizador": "ADIs 7156 e 7236: interpretação conforme do art. 1º, §8º",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5ad963af9bb6d1ca9a5f34dbe4fe89a3e142fa00ef23ac92537bd471f3bf9700",
+    "shaDepois": "5ee74f0398493ae1a66a33b63cda77093744fa2c7873247f47aacf038cef0679",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Após o julgamento das ADIs 7156 e 7236, seguir interpretação minoritária de tribunal estadual implica automaticamente condenação por improbidade, dispensando exame da conduta e do elemento subjetivo.",
+      "justificativa": "ERRADO. Não há condenação automática por seguir entendimento minoritário. A decisão de 2026 delimita a proteção por orientação jurisprudencial qualificada e preserva a apuração de dolo ou erro grosseiro nos termos examinados. Nem qualquer divergência condena, nem qualquer citação de jurisprudência garante imunidade.",
+      "gatilho": "automaticamente",
+      "armadilhaBanca": "Evitar os dois automatismos na divergência interpretativa.",
+      "fonte": "STF — ADIs 7156 e 7236, Informativo 1225/2026 — ADIs 7156 e 7236: interpretação conforme do art. 1º, §8º — https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A divergência interpretativa exige análise do regime e dos elementos de responsabilidade, sem condenação automática nem imunidade por simples citação de decisão.",
+      "submoduloId": "11.7"
+    }
+  },
+  {
+    "id": "m11-q-60",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "pdrae"
+    ],
+    "localizador": "seção 2: formas de administração pública",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "23db5f9cc5b14984e9ee7ba95debaf7c7f3c44d14c9a19b9cb54c1866fc111d0",
+    "shaDepois": "5af93739089c55e0e6f0f89d662f50740314e66f0073eb9b37afd4af31879c8a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O patrimonialismo é marcado pela confusão entre público e privado e pelo uso pessoal de posições e recursos do Estado. A classificação é um modelo analítico, não prova de que toda instituição de um período tenha as mesmas práticas. Nepotismo e clientelismo exemplificam essa lógica de apropriação.",
+      "gatilho": "indistinção",
+      "armadilhaBanca": "Inverter a fronteira público-privado do modelo.",
+      "fonte": "Presidência da República/MARE — Plano Diretor da Reforma do Aparelho do Estado, 1995 — seção 2: formas de administração pública — https://mail.bresserpereira.org.br/documents/mare/PlanoDiretor/planodiretor.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O patrimonialismo se caracteriza pela separação rigorosa entre patrimônio do governante e patrimônio público e pela seleção impessoal por mérito.",
+      "item": "O modelo patrimonialista de administração pública caracteriza-se pela indistinção conceitual e prática entre a esfera do patrimônio público (res publica) e o patrimônio particular do soberano, propiciando práticas de clientelismo, nepotismo, prebendas e corrupção estrutural.",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-61",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "pdrae"
+    ],
+    "localizador": "seção 2: administração burocrática",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "87fca1f1c3fe3aa51eb2b3aef3afee51748952a2dee05cd11209dc03eecfa7ed",
+    "shaDepois": "6b5007ad14467bf7d696a25d7221b9eda929a562e3963dbae302fd0199af1245",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O modelo burocrático busca separar patrimônio público e privado por profissionalização, carreira, hierarquia e impessoalidade. Controle de procedimentos é característico, mas não define burocracia como corrupção ou lentidão necessária. O tipo ideal e suas disfunções são planos distintos de análise.",
+      "gatilho": "impessoalidade",
+      "armadilhaBanca": "Distinguir fundamentos do modelo e suas disfunções.",
+      "fonte": "Presidência da República/MARE — Plano Diretor da Reforma do Aparelho do Estado, 1995 — seção 2: administração burocrática — https://mail.bresserpereira.org.br/documents/mare/PlanoDiretor/planodiretor.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A burocracia tem como princípio a escolha pessoal de servidores pela proximidade familiar com o governante.",
+      "item": "A administração pública burocrática emergiu historicamente como instrumento de superação do patrimonialismo, estruturando-se a partir de princípios weberianos como a impessoalidade, a hierarquia funcional bem definida, o mérito profissional aferido documentalmente e o controle de legalidade a priori (processos e procedimentos formais).",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-62",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "merton"
+    ],
+    "localizador": "Bureaucratic Structure and Personality, 1940",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "14d1946f3990b2990a8d14e1ae9774ae547d64e4557c21bcfc6291b082896857",
+    "shaDepois": "f33b4a0eb8313f56d83a3079ccd22133dec46c5052cdc449b7269b5148573cc8",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Merton examina o deslocamento de fins: a observância de regras pode tornar-se fim em si e prejudicar a finalidade que deveriam servir. Isso descreve uma disfunção, não uma defesa da eliminação de qualquer norma ou hierarquia. A segurança do procedimento não garante, sozinha, resultado adequado.",
+      "gatilho": "objetivos finais",
+      "armadilhaBanca": "Distinguir falta de regras e ritualismo disfuncional.",
+      "fonte": "Robert K. Merton — Bureaucratic Structure and Personality, 1940 — Bureaucratic Structure and Personality, 1940 — https://doi.org/10.2307/2570634",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A disfunção burocrática consiste sempre na ausência de normas, e nunca no apego excessivo a elas.",
+      "item": "As chamadas disfunções da burocracia descritas por Robert Merton decorrem da exacerbação dos próprios princípios burocráticos, manifestando-se por meio do apego rígido e ritualístico às normas formais, perda da visão dos objetivos finais da organização e resistência sistêmica a inovações.",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-63",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "pdrae"
+    ],
+    "localizador": "seções sobre administração gerencial e resultados",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "34b6804fc0a8c605322a7e50ec3ffe9dfecd5ad4a69af6e9635e1541cc274acf",
+    "shaDepois": "461021043dc42fd0d92b079eafe4194d846540e928cf35015801a12d70a804a0",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A administração gerencial valoriza resultados, responsabilização e maior autonomia dentro de controles adequados. Não se resume a restaurar centralização e controle formal prévios. Isso tampouco significa abandonar legalidade ou impedir controles de processo quando necessários; muda-se a ênfase, não se elimina a responsabilidade.",
+      "gatilho": "centralização máxima",
+      "armadilhaBanca": "Trocar ênfase em resultados por retorno ao controle exclusivamente formal.",
+      "fonte": "Presidência da República/MARE — Plano Diretor da Reforma do Aparelho do Estado, 1995 — seções sobre administração gerencial e resultados — https://mail.bresserpereira.org.br/documents/mare/PlanoDiretor/planodiretor.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O paradigma gerencial valoriza resultados e responsabilização, sem eliminar legalidade e controles necessários.",
+      "item": "O paradigma da Nova Gestão Pública (New Public Management - NPM) defende a centralização máxima das decisões no topo hierárquico governamental e a retomada dos controles formais a priori como mecanismo primordial de garantia da qualidade dos serviços estatais.",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-64",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "osborne"
+    ],
+    "localizador": "The New Public Governance?, 2006",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1ad2a9ab532c251f432b5c888a3d3d0a8355ced147f228a6bb90953a3d593f7f",
+    "shaDepois": "fc017100c0d5dd4841de4602d93c05ff6da1d88f472570e11cfbf8847b125e37",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A abordagem enfatiza relações entre organizações, redes e coprodução, reconhecendo atores diversos na entrega de serviços. Cooperação não elimina deveres do Estado nem torna toda decisão informal e sem responsável. A diferença está em considerar interdependência, não em privatizar automaticamente toda atuação pública.",
+      "gatilho": "redes",
+      "armadilhaBanca": "Distinguir redes interorganizacionais e gestão apenas hierárquica.",
+      "fonte": "Stephen P. Osborne — The New Public Governance?, 2006 — The New Public Governance?, 2006 — https://doi.org/10.1080/14719030600853022",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A Nova Governança Pública elimina a necessidade de articulação com atores sociais e se limita à hierarquia interna do governo.",
+      "item": "A Nova Governança Pública (New Public Governance - NPG) preconiza a atuação do Estado em redes policêntricas de cooperação interinstitucional, fomentando a coprodução de bens públicos pela sociedade civil e a tomada de decisões compartilhada entre múltiplos atores públicos e privados.",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-65",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "tcuGovernanca"
+    ],
+    "localizador": "valor, resultados e atendimento de necessidades públicas",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d46b707f632609288d8786befb048d337d4de8c98aa319aaa5571731fc127682",
+    "shaDepois": "0e60e92a5a70f70323bbc884e213b9e280421488a6bf518e6f84d46505acb02e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na avaliação de valor público, a conformidade estrita aos procedimentos basta para demonstrar a utilidade social de um serviço, independentemente de suas entregas e resultados.",
+      "justificativa": "ERRADO. Conformidade é necessária, mas não basta para demonstrar valor público. É preciso relacionar atuação, necessidades coletivas e resultados legitimados. Um serviço pode cumprir formulários e continuar inútil aos destinatários. A redação foi centrada nessa distinção, sem reduzir uma teoria inteira a um indicador único.",
+      "gatilho": "conformidade estrita",
+      "armadilhaBanca": "Trocar meio regular e resultado socialmente valioso.",
+      "fonte": "TCU — Referencial Básico de Governança Organizacional, 3ª edição, 2020 — valor, resultados e atendimento de necessidades públicas — https://portal.tcu.gov.br/data/files/FB/B6/FB/85/1CD4671023455957E18818A8/Referencial_basico_governanca_organizacional_3_edicao.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A avaliação de valor público considera resultados e respostas às necessidades, sem dispensar conformidade e legitimidade.",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-66",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "tcuGovernanca"
+    ],
+    "localizador": "cadeia de valor: produtos, resultados e impactos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3963e490d550ec80378db3ab7fc5668405306ab0498dd8789fa9f8880aae38fb",
+    "shaDepois": "1106d85c174e5185f1af1be8757556b86d09b814bffbbfa238eda2610482da0f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Livros catalogados e atendimentos são entregas; melhoria do uso da informação pode constituir resultado; mudanças mais amplas e duradouras são impactos a examinar. Uma contagem de produto não prova impacto legislativo nem causalidade exclusiva da biblioteca. A cadeia exige explicitar relações e evidências.",
+      "gatilho": "equivalem",
+      "armadilhaBanca": "Confundir entrega mensurável e transformação de longo prazo.",
+      "fonte": "TCU — Referencial Básico de Governança Organizacional, 3ª edição, 2020 — cadeia de valor: produtos, resultados e impactos — https://portal.tcu.gov.br/data/files/FB/B6/FB/85/1CD4671023455957E18818A8/Referencial_basico_governanca_organizacional_3_edicao.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A quantidade de livros catalogados é produto da atividade e não demonstra, por si só, impacto sobre a qualidade legislativa.",
+      "item": "Na arquitetura da Cadeia de Valor Público, os produtos (outputs) de uma biblioteca parlamentar — como a quantidade de livros catalogados ou de consultas atendidas no balcão — equivalem aos impactos sociais (impacts), que representam as mudanças de longo prazo produzidas no processo de elaboração de leis e na democracia.",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-67",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "pdrae"
+    ],
+    "localizador": "quatro setores: núcleo estratégico, atividades exclusivas, serviços não exclusivos e produção para o mercado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3bef989d7a2959b3c51b9ff1fda4b1715d514acc45c1001b5442767ce1dffd01",
+    "shaDepois": "491c09eec3f7f6c1100d204bf79327c3ab349ce5d66ac17f4bea5ce11a408d81",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O Plano Diretor da Reforma do Aparelho do Estado de 1995 propõe transferir integralmente ao terceiro setor as atividades exclusivas de Estado, como legislar e exercer fiscalização estatal.",
+      "justificativa": "ERRADO. O plano distingue núcleo estratégico, atividades exclusivas, serviços não exclusivos e produção para o mercado. Legislar integra o núcleo estratégico; a fiscalização é exemplo de atividade exclusiva. Nenhuma das duas é transferida integralmente a organizações sociais pelo modelo de publicização de serviços não exclusivos. A reforma é histórica e não uma autorização constitucional geral para delegar competências estatais exclusivas.",
+      "gatilho": "atividades exclusivas",
+      "armadilhaBanca": "Trocar atividades exclusivas e serviços não exclusivos.",
+      "fonte": "Presidência da República/MARE — Plano Diretor da Reforma do Aparelho do Estado, 1995 — quatro setores: núcleo estratégico, atividades exclusivas, serviços não exclusivos e produção para o mercado — https://mail.bresserpereira.org.br/documents/mare/PlanoDiretor/planodiretor.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O Plano Diretor não propõe transferir integralmente atividades exclusivas de Estado às organizações sociais.",
+      "submoduloId": "11.8"
+    }
+  },
+  {
+    "id": "m11-q-68",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "decreto9203"
+    ],
+    "localizador": "art. 2º, I: conceito de governança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "36452c86fb6e06d007c7c07b7567daec15402b378a6f0df63b3ca0ea8445e9bc",
+    "shaDepois": "5715a3fee7b949019f2157e4caee8f5c93aacbb3f19ba47223a411343ce1096f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Essa tríade corresponde às funções de governança, apoiadas por liderança, estratégia e controle. Executar diariamente processos é papel da gestão. Avaliar não é apenas fiscalizar depois do dano: também envolve compreender ambiente e opções para orientar a organização.",
+      "gatilho": "avaliar, direcionar e monitorar",
+      "armadilhaBanca": "Separar funções de direção e execução.",
+      "fonte": "Decreto 9.203/2017 — política de governança federal — art. 2º, I: conceito de governança — https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Governança consiste exclusivamente em executar rotinas operacionais de contratação e atendimento.",
+      "item": "Conforme o Decreto nº 9.203/2017, governança pública consiste no conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-69",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "decreto9203"
+    ],
+    "localizador": "art. 3º: princípios",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "bc17f4235fb4666fb3e7b82c94f515b53c73bbb4568680e18abe5b19964a4058",
+    "shaDepois": "7e58a072d184a89061048ef191b4c2e157b71909ff120f6c57cb52f1c0b7f68d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O rol inclui capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade e transparência. Ele não deve ser confundido com os três mecanismos nem com os cinco princípios expressos do caput do art. 37. São classificações de normas e funções distintas.",
+      "gatilho": "melhoria regulatória",
+      "armadilhaBanca": "Trocar princípios e mecanismos de governança.",
+      "fonte": "Decreto 9.203/2017 — política de governança federal — art. 3º: princípios — https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Liderança, estratégia e controle são os seis princípios enumerados no art. 3º do Decreto 9.203/2017.",
+      "item": "São princípios basilares da governança pública expressos no Decreto nº 9.203/2017: capacidade de resposta (responsiveness), integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade (accountability) e transparência.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-70",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "tresLinhas"
+    ],
+    "localizador": "modelo de 2020: papéis da gestão e auditoria",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "d886d5495eddcf46aa5e773b78d693f421d5fab0990a5a1d401d171863bd7d6a",
+    "shaDepois": "83a32fcb6ce0fbee32e088067ced61aa6146ff61a227af707f61200d21cb6ad9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No Modelo das Três Linhas, a gestão assume papéis de primeira e segunda linhas; a auditoria interna, como terceira linha, fornece avaliação e aconselhamento independentes sobre governança e gestão de riscos.",
+      "justificativa": "CERTO. Primeira e segunda linhas têm papéis de gestão; a segunda agrega apoio, monitoramento e especialização em riscos. Auditoria interna fornece avaliação independente. As linhas são papéis coordenados, não três departamentos obrigatórios nem uma sequência que transfere da gestão toda a responsabilidade por riscos.",
+      "gatilho": "terceira linha",
+      "armadilhaBanca": "Distinguir apoio e monitoramento de transferência de responsabilidade.",
+      "fonte": "IIA — The Three Lines Model, 2020 — modelo de 2020: papéis da gestão e auditoria — https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A segunda linha elimina a responsabilidade da gestão operacional pelos riscos de suas atividades.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-71",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "tresLinhas"
+    ],
+    "localizador": "independência da auditoria e relação com governança",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "34d491cae6ad31715e3dab1ba713a054598dca116950c1ea4b5e2460892b103a",
+    "shaDepois": "41672297ba46b27af4bc526c6a584f22bea50ec8b245dec2b2e07252625941e1",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A auditoria precisa de posicionamento que preserve independência e comunicação apropriada à governança. A gestão auditada não pode vetar livremente achados para proteger seus interesses. Relação administrativa e cooperação não devem anular independência funcional e objetividade.",
+      "gatilho": "vetar as conclusões",
+      "armadilhaBanca": "Subordinar avaliação independente ao responsável avaliado.",
+      "fonte": "IIA — The Three Lines Model, 2020 — independência da auditoria e relação com governança — https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A gerência operacional não pode vetar livremente as conclusões de auditoria que avaliam sua própria atuação.",
+      "item": "Para preservar a uniformidade hierárquica, a terceira linha do modelo (auditoria interna) deve subordinar-se administrativa e funcionalmente à gerência da primeira linha operacional, a quem compete aprovar ou vetar as conclusões dos relatórios de auditoria.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-72",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "decreto9203"
+    ],
+    "localizador": "art. 5º: mecanismos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "80c3422e598716547aef85426899d18eba1f91a1923e695d79404c6ae9042bea",
+    "shaDepois": "3c5597697070f1633c0d170a95a846d55b45a4ad6184b0d8b9621ef217abfd7c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Liderança envolve pessoas e comportamentos; estratégia envolve diretrizes e objetivos; controle inclui processos para mitigar riscos e assegurar objetivos. Esses mecanismos se articulam para governar, não são áreas estanques nem substitutos das atividades de gestão. Risco não é responsabilidade exclusiva do mecanismo controle.",
+      "gatilho": "Liderança, Estratégia e Controle",
+      "armadilhaBanca": "Distinguir mecanismos articulados e responsabilidades exclusivas.",
+      "fonte": "Decreto 9.203/2017 — política de governança federal — art. 5º: mecanismos — https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A existência do mecanismo controle transfere todos os riscos à auditoria e dispensa liderança e gestão de acompanhá-los.",
+      "item": "Os três mecanismos fundamentais de governança pública federal desdobram-se na tríade Liderança, Estratégia e Controle (LEC), sendo a Liderança responsável pelas competências e integridade dos tomadores de decisão, a Estratégia pelo alinhamento das diretrizes institucionais aos objetivos públicos, e o Controle pela gestão de riscos e mitigação de desvios.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-73",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "tcuGovernanca"
+    ],
+    "localizador": "distinção entre governança e gestão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "773951354c2b04d96eac84892d201fdd5297b0aae3144fed0358760c8290021f",
+    "shaDepois": "f47ec25985f7857580dfe198b3b2e1b2f4177449b2651967cd50ea1ab864a701",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Governança avalia, direciona e monitora; gestão planeja, executa e controla atividades para cumprir as diretrizes. São complementares, não intercambiáveis. O PDCA pode apoiar a gestão, mas não esgota os processos de governança nem converte toda decisão operacional em direção institucional.",
+      "gatilho": "equivalentes",
+      "armadilhaBanca": "Confundir complementaridade e identidade.",
+      "fonte": "TCU — Referencial Básico de Governança Organizacional, 3ª edição, 2020 — distinção entre governança e gestão — https://portal.tcu.gov.br/data/files/FB/B6/FB/85/1CD4671023455957E18818A8/Referencial_basico_governanca_organizacional_3_edicao.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Governança e gestão têm funções distintas e complementares, não equivalendo ambas à execução rotineira de aquisições.",
+      "item": "Perante o ordenamento federal, 'Governança' e 'Gestão' são conceitos equivalentes e intercambiáveis, consistindo ambos na execução operacional imediata dos processos rotineiros de aquisição de bens pelo ciclo PDCA.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-74",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "riscosCamara"
+    ],
+    "localizador": "Ato da Mesa 233/2018: política própria da Câmara",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1fddbc87d234dedbd41d9f72d63491f58a2083a2caa0582a32305e17b4364024",
+    "shaDepois": "3bfbb9e43e347fb15f995ecea455dbf461bbcb96682d6fcb2280032fe39ceec4",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na Câmara dos Deputados, a gestão corporativa de riscos pode ser integralmente substituída por declarações de probidade dos gestores, sem identificação e acompanhamento dos riscos.",
+      "justificativa": "ERRADO. A Câmara possui política própria de gestão corporativa de riscos. Declaração de probidade não substitui identificação, avaliação, tratamento e acompanhamento dos riscos. O comentário não aplica automaticamente decreto do Executivo ao Legislativo: usa a norma institucional pertinente para afastar a suposta dispensa.",
+      "gatilho": "substituída",
+      "armadilhaBanca": "Trocar sistema de gestão por declaração individual.",
+      "fonte": "Câmara — Ato da Mesa 233/2018 e Política de Gestão Corporativa de Riscos — Ato da Mesa 233/2018: política própria da Câmara — https://www2.camara.leg.br/legin/int/atomes/2018/atodamesa-233-24-maio-2018-786753-publicacaooriginal-155674-cd-mesa.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Na Câmara, a declaração de probidade não substitui as atividades da política de gestão corporativa de riscos.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-75",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 31: proteção de informações pessoais; integridade e denúncias",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "0c8d83e1044440a707afb0e2ab48a108256f8b987c2ea899fd01ae7a5ca9408f",
+    "shaDepois": "c578ef1693760ed4bf05b07c569fc05bb3e70a5cd9c7a467fee3fb0242847c11",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Para assegurar transparência, o canal de integridade deve divulgar automaticamente aos gestores denunciados a identidade de todo denunciante, sem avaliação de proteção das informações pessoais.",
+      "justificativa": "ERRADO. Canal de denúncia precisa tratar identidade e informações com proteção compatível com seu regime. Transparência não exige exposição automática do denunciante à unidade denunciada. A redação não transforma qualquer manifestação anônima em prova: apuração e avaliação de elementos continuam necessárias.",
+      "gatilho": "todo denunciante",
+      "armadilhaBanca": "Confundir transparência institucional e exposição de pessoa protegida.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 31: proteção de informações pessoais; integridade e denúncias — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A transparência não impõe divulgar automaticamente a identidade do denunciante aos gestores denunciados.",
+      "submoduloId": "11.9"
+    }
+  },
+  {
+    "id": "m11-q-76",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 28 e 193: modalidades e revogação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "c475e2d3e18d7da001fe19cd807e56a0f01ae44ebdf4a1a2a67507d352775f12",
+    "shaDepois": "0cd79bc34d34cac99f90f046429924dffa835a7d831f74604937c0b547dd7a74",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O art. 28 da Lei 14.133/2021 prevê pregão, concorrência, concurso, leilão e diálogo competitivo; convite e tomada de preços não integram as modalidades dessa lei.",
+      "justificativa": "CERTO. As cinco modalidades pertencem à Lei 14.133; convite e tomada de preços não integram esse rol. A revogação do regime anterior não elimina a aplicação de suas regras a contratos validamente sujeitos à disciplina de transição. Não se deve confundir modalidade vigente com norma aplicável a contrato legado.",
+      "gatilho": "diálogo competitivo",
+      "armadilhaBanca": "Separar rol vigente e regime de transição.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 28 e 193: modalidades e revogação — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Convite e tomada de preços são modalidades adicionais previstas no art. 28 da Lei 14.133.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-77",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 5º e 7º, §1º: segregação de funções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "b5987fb0894459521196f7b6ba6fc7da60c93f3dc21fd321edd47d4ba0d346fa",
+    "shaDepois": "4e797b69ba98d7ecc4675495648f1017683f96aef4657ecc5fc5072d8473effa",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O art. 7º, §1º, da Lei 14.133 veda designar o mesmo agente para atuação simultânea em funções mais suscetíveis a riscos, para reduzir a possibilidade de ocultação de erros e ocorrência de fraudes.",
+      "justificativa": "CERTO. A vedação visa reduzir ocultação de erros e fraudes em funções suscetíveis a riscos. Não é proibição universal de qualquer agente participar de duas etapas, independentemente das funções concretas e normas aplicáveis. Mapear atividades e conflitos é mais preciso do que memorizar incompatibilidades genéricas.",
+      "gatilho": "mais suscetíveis a riscos",
+      "armadilhaBanca": "Preservar o critério de risco sem inventar vedação geral.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 5º e 7º, §1º: segregação de funções — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Segregação significa proibir sempre a participação do mesmo servidor em quaisquer duas etapas, sem analisar as funções e os riscos.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-78",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 17, §1º, e 63, II e III: habilitação",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "02ae11341e2fff18fdbce658e3ecc3a5a806ddc5504a1a03be44a5716a57df2f",
+    "shaDepois": "4dd6f43fa8feec5c57e83fc811cf543c1bd97b670f77d87690b69a15909dc702",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Na Lei 14.133, julgamento precede habilitação como regra; a apresentação dos documentos segue o art. 63, e a habilitação antecipada depende da hipótese motivada do art. 17, §1º.",
+      "justificativa": "CERTO. O julgamento precede habilitação como regra, mas admite-se inversão motivada e prevista no edital. Há requisitos próprios para comprovação fiscal, inclusive na hipótese de inversão. A afirmação de exclusividade sem ressalva foi substituída por regra condicionada às exceções legais.",
+      "gatilho": "como regra",
+      "armadilhaBanca": "Distinguir regra procedimental e exceção motivada.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 17, §1º, e 63, II e III: habilitação — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A habilitação nunca pode anteceder o julgamento, mesmo com motivação e previsão expressa no edital.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-79",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 6º, XX, e 18, §1º: ETP",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "77f1537e838c30aaad788e54be1c0dda4ac8765f8489ea5fdf1392ec80aa830e",
+    "shaDepois": "5531eb8aaef9e6d1b1ca02bbaea10868522a67098a071141bb5ed19d72c24813",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O ETP evidencia o problema a resolver e a melhor solução, permitindo avaliar a viabilidade e fundamentar os documentos de especificação pertinentes, nas hipóteses em que é exigido.",
+      "justificativa": "CERTO. O ETP analisa o problema, as alternativas e a viabilidade da contratação. Serve de base à especificação pertinente quando a contratação se mostra viável. Sua função não se confunde com repetir uma marca previamente escolhida, nem permite afirmar obrigatoriedade sem examinar hipóteses e regulamentos aplicáveis.",
+      "gatilho": "melhor solução",
+      "armadilhaBanca": "Separar necessidade, alternativa e especificação.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 6º, XX, e 18, §1º: ETP — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O ETP consiste apenas em descrever detalhadamente uma marca já escolhida, sem comparar soluções para a necessidade.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-80",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 29, parágrafo único: pregão e engenharia",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "3bdf513b1d0c747334ac3e3a53a3f288e3d5eb5af82e5c9247fc8c8bf393077d",
+    "shaDepois": "a3a7e5778e3872b1953378344416b5b00b78a65e2c46c6830c1e9872c614bc4d",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Pregão não se aplica a obras; a ressalva legal envolve serviços comuns de engenharia, além das demais condições do objeto. Obra e serviço de engenharia não são categorias idênticas. Urgência de entrega não transforma obra de grande vulto em objeto admissível ao pregão.",
+      "gatilho": "qualquer obra",
+      "armadilhaBanca": "Confundir obra e serviço comum de engenharia.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 29, parágrafo único: pregão e engenharia — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O pregão não se aplica a obras; a lei ressalva os serviços comuns de engenharia no regime correspondente.",
+      "item": "A modalidade pregão pode ser adotada para a contratação de qualquer obra de engenharia de grande vulto, desde que a administração justifique a urgência na entrega do edifício parlamentar.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-81",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 32, §1º, VIII e X: fase competitiva",
+    "nota": "Enunciado ambíguo sobre maior desconto substituído por hipótese de violação da anterioridade dos critérios; art. 32 não impõe critério único.",
+    "shaAntes": "ec40773b2acc622e2f5e3ea4d141bb5bde8665b4f4775c38c8b6e608b8b83ff4",
+    "shaDepois": "797467caa59e9ed0ddfacea3ab35aa3e2d264d4fad185730bd4a1b472f0d7a44",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "No diálogo competitivo, a Administração pode definir os critérios objetivos de julgamento somente depois de conhecer as propostas da fase competitiva, para adequá-los à oferta que considere preferível.",
+      "justificativa": "ERRADO. Critérios objetivos devem ser divulgados no início da fase competitiva, antes de apresentadas as propostas. Não podem ser escolhidos depois para favorecer uma oferta. A lei não impõe técnica e preço como único critério universal do diálogo, nem proíbe abstratamente todo maior desconto adequado ao objeto.",
+      "gatilho": "depois de conhecer",
+      "armadilhaBanca": "Alterar o momento de definição dos critérios de julgamento.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 32, §1º, VIII e X: fase competitiva — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "No diálogo competitivo, os critérios de seleção devem ser divulgados antes da apresentação das propostas da fase competitiva.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-82",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 74 e 75: inexigibilidade e dispensa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f2654a7dc248edd1e3c062143186868594da4aa0e7effff1d017f4d800e5b437",
+    "shaDepois": "4aea5a58187ca9160f7b6d3ddd0b8c4a13cef04729d0dc7af9cfe1be0b7b47d5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Dispensa depende de hipótese legal, sem analogia fundada apenas em conveniência do gestor. A inexigibilidade se baseia na inviabilidade de competição e tem exemplos no art. 74. A diferença entre os regimes impede importar o caráter exemplificativo de um para o outro.",
+      "gatilho": "exemplificativa",
+      "armadilhaBanca": "Trocar rol de dispensa e exemplos de inexigibilidade.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 74 e 75: inexigibilidade e dispensa — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "As hipóteses de dispensa do art. 75 dependem de previsão legal, diferentemente dos exemplos de inviabilidade do art. 74.",
+      "item": "No regime da Lei nº 14.133/2021, as situações autorizadoras da contratação direta sem licitação previstas no rol do art. 75 ostentam natureza exemplificativa, cabendo ao gestor identificar hipóteses análogas de conveniência administrativa.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-83",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 74, III: serviços técnicos e notória especialização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4099fa3d7321371ce9cb4daee17c39f67d98ab04061a3a4105dfb2f8a369e5c5",
+    "shaDepois": "c84013e6555e782fb063c15441c42c2bbc898292be92f4c985c0ddb9d1ee5b69",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A hipótese exige notória especialização, além da natureza do serviço e da inviabilidade de competição. O texto atual não usa singularidade como requisito textual equivalente ao regime anterior. Nenhum desses elementos autoriza contratar automaticamente qualquer profissional sem instrução e justificativas do art. 72.",
+      "gatilho": "prescinde",
+      "armadilhaBanca": "Trocar requisitos do regime vigente e do anterior.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 74, III: serviços técnicos e notória especialização — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A inexigibilidade do art. 74, III, exige notória especialização e os demais pressupostos, não bastando afirmar singularidade do serviço.",
+      "item": "A contratação direta de serviços técnicos especializados de natureza predominantemente intelectual por inexigibilidade de licitação (art. 74, III) prescinde da comprovação de notória especialização do contratado, bastando que a comissão comprove que o serviço possui natureza singular.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-84",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 95, I e II, e §1º: instrumento substitutivo",
+    "nota": "E corrigido para C: art. 95, I, é hipótese autônoma; ausência de obrigações futuras pertence ao inciso II.",
+    "shaAntes": "a189ccd378576e6c7f406688606e57aabf56011a4bcc1edcf9fc06fc72bb5d56",
+    "shaDepois": "9e5d2b07a1681f2f74bdbb591e05b2615f432b1cc448b45a8d7b07ac7defd9ad",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "gabarito": "C",
+      "justificativa": "CERTO. O inciso I admite substituição na dispensa por valor; a condição de inexistência de obrigações futuras integra a hipótese distinta do inciso II. Não se deve importar automaticamente essa condição para o inciso I. Permanecem exigidos instrumento hábil, cláusulas pertinentes e demais regras da contratação.",
+      "gatilho": "em razão do valor",
+      "armadilhaBanca": "Separar condições de hipóteses alternativas.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 95, I e II, e §1º: instrumento substitutivo — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A ausência de obrigações futuras prevista no inciso II é requisito obrigatório de toda substituição na dispensa por valor do inciso I.",
+      "versao_correta": "",
+      "item": "Nas contratações diretas em razão do valor fundadas na Lei nº 14.133/2021, a substituição do instrumento contratual formal por nota de empenho é admitida inclusive quando o ajuste estipular obrigações futuras de assistência técnica e fornecimento continuado.",
+      "submoduloId": "11.10"
+    }
+  },
+  {
+    "id": "m11-q-85",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 124, I, e 125: alterações unilaterais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "1cee27f60b352784be280f6348cdd2554fc4bc83c7dfe4773974659d6f280a68",
+    "shaDepois": "eb8692345d33be7cf67adfc9fc06dd2e620cd321939a39963b936cdb570507df",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. O limite geral para acréscimos e supressões unilaterais é 25% do valor inicial atualizado. Em reforma de edifício ou equipamento, o limite de 50% é para acréscimos, não para toda supressão. Valores atualizados do contrato e natureza da alteração precisam ser identificados antes do cálculo.",
+      "gatilho": "até 50%",
+      "armadilhaBanca": "Preservar o objeto e o sentido da exceção percentual.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 124, I, e 125: alterações unilaterais — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Em reforma de edifício, o limite de 50% alcança indistintamente acréscimos e supressões unilaterais.",
+      "item": "O contratado fica obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial atualizado do contrato para compras e serviços, e, no caso de reforma de edifício ou de equipamento, o limite para os acréscimos é de até 50%.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-86",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 104, §§1º e 2º, e 130: equilíbrio",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f3811f19156e3597798ee999cb6e6b899ddc9a891801e01538ea2e45a72cc0d1",
+    "shaDepois": "39173992f428e6cb6285c712f7c140aff7d7655ec2524eb6ddab6c0a712c31c9",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Cláusulas econômico-financeiras e monetárias não podem ser alteradas unilateralmente sem concordância. Mudanças unilaterais nas demais condições exigem recomposição do equilíbrio quando o afetarem. Prerrogativa de alterar o objeto não concede poder de impor qualquer preço ou transferir ilimitadamente os custos ao contratado.",
+      "gatilho": "sem necessidade de concordância",
+      "armadilhaBanca": "Confundir prerrogativa administrativa e livre alteração de remuneração.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 104, §§1º e 2º, e 130: equilíbrio — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A alteração unilateral deve preservar o equilíbrio econômico-financeiro, com recomposição quando necessária.",
+      "item": "A cláusula exorbitante de alteração unilateral do contrato permite que a Administração modifique a qualquer tempo o valor da remuneração e o equilíbrio econômico-financeiro ajustado, sem necessidade de concordância da empresa contratada.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-87",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "arts. 106 e 107: serviços e fornecimentos contínuos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "4e3ade744f7f5b2762e2545da3e5bdf6a16d2998edc96b5377c7c860e6b23b0b",
+    "shaDepois": "323a09d2518e34df3b9893b889914746b3367150c8a0e916e9bac85045e60c1a",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "Atendidos os requisitos legais, serviços e fornecimentos contínuos podem ter prazo inicial de até cinco anos e prorrogações sucessivas até o limite decenal, com previsão no edital e demonstração de vantajosidade.",
+      "justificativa": "CERTO. Prazo inicial de até cinco anos e prorrogação até dez observam os requisitos legais, inclusive previsão e vantajosidade. Não é direito automático do contratado permanecer dez anos. O gestor deve verificar condições a cada decisão, e não presumir economia pela mera continuidade.",
+      "gatilho": "decenal",
+      "armadilhaBanca": "Distinguir prazo autorizado e direito à prorrogação.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — arts. 106 e 107: serviços e fornecimentos contínuos — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "A contratação contínua assegura ao fornecedor direito automático à permanência por dez anos, dispensada avaliação de vantajosidade.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-88",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 137, §2º, IV, e §3º: atraso e suspensão",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "2358fc4725c79c785061c255210ec134f204ccc52fededccf9f56f32603ea790",
+    "shaDepois": "a3128589399fe7be86030301e9bd1c861ed1211373ebbde441cfbbde70b5ce87",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A lei prevê direito do contratado em hipóteses de atraso superior a dois meses contado da emissão da nota fiscal, com condições e ressalvas. Não autoriza abandonar o serviço sem procedimento, mas também não impõe execução indefinida sem contraprestação em qualquer cenário. A continuidade deve ser conciliada com o regime contratual.",
+      "gatilho": "absolutamente impedida",
+      "armadilhaBanca": "Transformar continuidade em dever absoluto sem contraprestação.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 137, §2º, IV, e §3º: atraso e suspensão — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A continuidade não exclui as hipóteses legais de suspensão ou extinção por inadimplemento da Administração.",
+      "item": "Em decorrência do princípio da continuidade do serviço público, a empresa contratada pela Câmara dos Deputados para prestação de serviços de conservação predial fica absolutamente impedida de paralisar a execução dos serviços em qualquer hipótese, mesmo que a Administração atrase os pagamentos devidos por período superior a um ano.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-89",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 117: acompanhamento e fiscalização",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "34f7238928fedee8318a0d57fd2f8da156e1d688836309fa70d03dbd24ce55eb",
+    "shaDepois": "aa6c2776bce06067406a919b3800d18c2bd69a2c1d53299a29fb54211591c3a5",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Gestão articula o acompanhamento e as providências contratuais; fiscalização técnica verifica execução do objeto quanto a quantidade, qualidade e especificações. O fiscal deve registrar ocorrências e comunicar o que extrapola sua competência. A distinção funcional não autoriza inventar autonomia para modificar sozinho o contrato.",
+      "gatilho": "coordenação",
+      "armadilhaBanca": "Separar acompanhamento técnico e competência decisória.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 117: acompanhamento e fiscalização — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O fiscal técnico pode modificar livremente o objeto e o preço do contrato sem decisão da autoridade competente.",
+      "item": "A gestão contratual consiste na coordenação e no acompanhamento das atividades relacionadas à fiscalização técnica, administrativa e setorial do contrato, ao passo que a fiscalização técnica avalia a execução do objeto quanto à quantidade, qualidade e conformidade com as especificações pactuadas.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-90",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 140: recebimentos e responsabilidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "8dfb36e60819c4087978b4bfc6209df5756ce1af04aeda02b71671d9f7600ecd",
+    "shaDepois": "d6d98c9eecf5087e15b467110f32bc3e3fe96893eff1de6f76f5089fc2e37f9e",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Recebimento provisório e definitivo são etapas distintas. Mesmo o definitivo não exclui as responsabilidades previstas na lei, como segurança e solidez da obra ou responsabilidade técnico-profissional. Em digitalização, é preciso verificar entrega e critérios de aceitação, sem presumir quitação geral de vícios ocultos.",
+      "gatilho": "quitação plena",
+      "armadilhaBanca": "Confundir etapa de verificação e exoneração integral.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 140: recebimentos e responsabilidade — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O recebimento provisório não substitui o definitivo nem elimina automaticamente responsabilidade por vícios.",
+      "item": "O recebimento provisório do objeto de um contrato de digitalização de acervo bibliográfico substitui o recebimento definitivo, conferindo quitação plena ao contratado e eximindo a empresa de qualquer responsabilidade posterior por vícios ocultos.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-91",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 156, §§4º e 5º: alcance das sanções",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "227cd9f1282800c4192fc5191aa5dba8d5bce2138bcc5480867eb7b2fc4ad9ca",
+    "shaDepois": "1472b9b45fa4b77d811a2f8425dc09f898fb7f1243764c915eb9a7d740854d0c",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Impedimento alcança o ente que aplica a penalidade por até três anos; inidoneidade alcança todos os entes pelo prazo de três a seis anos. Ambos abrangem administração direta e indireta nos âmbitos legais. Não se confunde o órgão que aplica com o alcance subjetivo da sanção.",
+      "gatilho": "ente federativo",
+      "armadilhaBanca": "Trocar alcance federativo de sanções diferentes.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 156, §§4º e 5º: alcance das sanções — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O impedimento aplicado por um órgão federal alcança automaticamente todos os Estados e Municípios.",
+      "item": "A sanção de impedimento de licitar e contratar produz efeitos restritos no âmbito da administração pública direta e indireta do ente federativo que tiver aplicado a penalidade pelo prazo de até três anos, ao passo que a declaração de inidoneidade produz efeitos perante a administração de todos os entes federativos da República (União, Estados, DF e Municípios) pelo prazo de três a seis anos.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-92",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lei14133"
+    ],
+    "localizador": "art. 156, §6º: declaração de inidoneidade",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "04e73383876e80a86ecc1d3d15b53ee6e389304312109d02ce1f66a2ec47e67f",
+    "shaDepois": "4312c46e7c8ef91c8ae4c273be84a723c783adbf9037c87b855b2aca24003bfa",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O fiscal instrui e relata ocorrências dentro de suas atribuições, mas a declaração compete às autoridades indicadas em lei. No Legislativo, há autoridade de nível hierárquico equivalente nos termos do dispositivo. A constatação de infração não confere ao fiscal poder sancionatório privativo de nível superior.",
+      "gatilho": "fiscal técnico",
+      "armadilhaBanca": "Confundir responsável pelo relato e autoridade sancionadora.",
+      "fonte": "Lei 14.133/2021 — licitações e contratos — art. 156, §6º: declaração de inidoneidade — https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A declaração de inidoneidade depende da autoridade competente prevista no art. 156, §6º, não da decisão privativa do fiscal técnico.",
+      "item": "A aplicação da penalidade de declaração de inidoneidade para licitar ou contratar é de competência privativa do fiscal técnico do contrato que constatou a infração executiva no órgão público.",
+      "submoduloId": "11.11"
+    }
+  },
+  {
+    "id": "m11-q-93",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "arts. 3º, I e II, e 8º: publicidade e transparência ativa",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5c7db3e92a75ea942af46f56e73a77d54fb7a4df7fb943f2bac698fe280223a3",
+    "shaDepois": "cf8880510c9f931b17dfef8cca0f0da4422344d31280651b9e2e498f47f8b4b4",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Transparência ativa é divulgação espontânea das informações de interesse coletivo previstas no regime, sem aguardar pedido individual. Publicidade como regra não elimina proteção de dados nem sigilo legalmente justificado. O trabalho é identificar o que deve ser divulgado e o que tem restrição legítima.",
+      "gatilho": "independentemente",
+      "armadilhaBanca": "Trocar transparência ativa e resposta a requerimento.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — arts. 3º, I e II, e 8º: publicidade e transparência ativa — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Toda divulgação depende de pedido individual pelo SIC, inclusive informações de interesse coletivo previstas no art. 8º.",
+      "item": "Na disciplina da Lei nº 12.527/2011, a publicidade é o preceito geral e o sigilo é a exceção na administração pública, devendo a divulgação de informações de interesse público ser promovida independentemente de solicitações da sociedade (transparência ativa).",
+      "submoduloId": "11.12"
+    }
+  },
+  {
+    "id": "m11-q-94",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 10, §3º: vedação de motivação do pedido",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "f36c754f154beaad59c3e112ef34dfe80c5abf02a5db30a79bf2e5e1e730060e",
+    "shaDepois": "f68e6d7909239f202030cce0c0f5122b4245085be6d28a5dadcdb163dea3af29",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. São vedadas exigências relativas aos motivos determinantes do pedido de informação de interesse público. Identificação e especificação da informação não se confundem com provar interesse pessoal. O direito de acesso não depende de convencer o órgão da utilidade particular da consulta.",
+      "gatilho": "justificar",
+      "armadilhaBanca": "Confundir identificação do pedido e prova de interesse.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 10, §3º: vedação de motivação do pedido — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "O pedido de informação de interesse público não exige justificativa dos motivos do requerente.",
+      "item": "O cidadão que formula pedido de acesso à informação pelo Serviço de Informação ao Cidadão (SIC) fica obrigado a justificar perante a Administração o motivo pessoal de seu interesse pelo documento público sob pena de indeferimento liminar da solicitação.",
+      "submoduloId": "11.12"
+    }
+  },
+  {
+    "id": "m11-q-95",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 11, §§1º e 2º: prazo de resposta",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "dcc3ebcb9e809e6644f50edd5e0228c233aadd4dc1e3ef10c67ab589c45b805f",
+    "shaDepois": "73ac778a5090e2b7411a033407b7d54213da7c70683c74cc75933b6d2f0e1a21",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. A regra é acesso imediato quando possível. Caso contrário, há prazo de até vinte dias, prorrogável por dez com justificativa expressa e ciência do requerente. Prorrogação não é automática, e responder pode envolver decisão motivada nas hipóteses legais, não promessa de liberar todo documento indistintamente.",
+      "gatilho": "justificadamente",
+      "armadilhaBanca": "Distinguir prazo excepcional e prorrogação motivada.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 11, §§1º e 2º: prazo de resposta — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O prazo de vinte dias é sempre prorrogado automaticamente por dez, sem justificativa nem comunicação.",
+      "item": "Não sendo possível conceder o acesso imediato à informação solicitada via SIC, o órgão público dispõe do prazo de até vinte dias para fornecer a resposta, prorrogável justificadamente por mais dez dias.",
+      "submoduloId": "11.12"
+    }
+  },
+  {
+    "id": "m11-q-96",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 24, §1º: prazos por grau",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "849253b7aca9b8e312cbdb15c175f1cea2b543498f8b8ae179878a3afb6929d3",
+    "shaDepois": "e67790ac194d9c5355edd261f12f0d44896575b5f38d87f8b7cb87c8d73cce5f",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "CERTO. Os limites são 25, 15 e 5 anos conforme o grau, contados da produção. Há disciplina específica para prorrogação de ultrassecreto na instância competente; o rol inicial não deve ser confundido com regra de cem anos para dados pessoais. Classificação exige fundamento, não apenas escolha de prazo.",
+      "gatilho": "ultrassecreto",
+      "armadilhaBanca": "Separar grau de classificação e proteção de informação pessoal.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 24, §1º: prazos por grau — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "O prazo inicial do grau reservado é de cem anos porque envolve informação pessoal.",
+      "item": "São prazos máximos de restrição de acesso a informações sigilosas conforme a classificação da LAI: grau ultrassecreto (até 25 anos), grau secreto (até 15 anos) e grau reservado (até 5 anos).",
+      "submoduloId": "11.12"
+    }
+  },
+  {
+    "id": "m11-q-97",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 21, parágrafo único: violações de direitos humanos",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "17c79737f8bf038737dd2bd7e4e1030fb6d083f171a176c6bd785fedb8f6f2c7",
+    "shaDepois": "f145ad61e36a1de87d32c4b2d4981f59bf98c3c389c5c5f279c2e8efcc820f84",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. Informações sobre violações de direitos humanos por agentes públicos ou a mando de autoridades não podem ser objeto da restrição descrita. Invocar estabilidade diplomática não cria autorização para ocultar tais condutas. O foco é a vedação específica, não estimar arbitrariamente um prazo de cinquenta anos.",
+      "gatilho": "podem ser classificados",
+      "armadilhaBanca": "Criar exceção a uma vedação expressa por motivo genérico.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 21, parágrafo único: violações de direitos humanos — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "Informações relativas às violações de direitos humanos indicadas no art. 21 não podem ser objeto de restrição de acesso.",
+      "item": "As informações e documentos que versem sobre condutas que impliquem violação dos direitos humanos praticada por agentes públicos ou a mando de autoridades públicas podem ser classificados no grau ultrassecreto por até cinquenta anos caso ponham em risco a estabilidade diplomática do Estado.",
+      "submoduloId": "11.12"
+    }
+  },
+  {
+    "id": "m11-q-98",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lai"
+    ],
+    "localizador": "art. 31, §1º, I: informações pessoais",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5d84fa829342a01ff5a461d94ec88d77d785d3b2dc970d0e623751618212a5da",
+    "shaDepois": "56fdb7d2757c1b0ea3b51da94c3355adeeab01b1c93b18b816272913929d17ff",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. A restrição para intimidade, vida privada, honra e imagem independe da classificação nos graus de sigilo. O prazo máximo de cem anos não torna todo dado pessoal necessariamente inacessível por esse período; devem ser examinados destinatários, autorizações e hipóteses legais de acesso.",
+      "gatilho": "dependendo",
+      "armadilhaBanca": "Confundir proteção pessoal e classificação de segurança.",
+      "fonte": "Lei 12.527/2011 — Lei de Acesso à Informação — art. 31, §1º, I: informações pessoais — https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A proteção prevista no art. 31 independe da classificação da informação como reservada, secreta ou ultrassecreta.",
+      "item": "As informações pessoais relativas à intimidade, vida privada, honra e imagem têm acesso restrito pelo prazo máximo de cem anos a contar da data de sua produção, dependendo para a sua proteção de expressa classificação em grau de sigilo reservado pela autoridade competente.",
+      "submoduloId": "11.12"
+    }
+  },
+  {
+    "id": "m11-q-99",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "arts. 7º e 23: tratamento pelo poder público",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "85d92461cc8642f0277db604bd7c3e44dca7ed5b15fae3efbd7299cb7483d8b5",
+    "shaDepois": "3e7a88051692e1fb96f019d96bd9756aef50cd596ad59f493bfb3d1c2636e994",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "item": "O tratamento pelo poder público para executar competências legais deve observar finalidade pública, base legal adequada e os princípios da LGPD; nem todo tratamento depende de consentimento do titular.",
+      "justificativa": "CERTO. A finalidade pública e o cumprimento de competências precisam estar amparados por base legal e observar princípios como necessidade e transparência. Nem todo tratamento depende de consentimento, mas tampouco uma invocação abstrata de interesse público autoriza qualquer dado ou finalidade. A nova redação preserva esses limites.",
+      "gatilho": "base legal adequada",
+      "armadilhaBanca": "Distinguir dispensa de consentimento e dispensa de proteção.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — arts. 7º e 23: tratamento pelo poder público — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_errada": "Invocar interesse público dispensa base legal, necessidade e transparência no tratamento de qualquer dado pessoal.",
+      "submoduloId": "11.12"
+    }
+  },
+  {
+    "id": "m11-q-100",
+    "caminho": "src/content/questions/m11-administrativo-100q.ts",
+    "status": "revisado",
+    "data": "2026-10-30",
+    "fonteIds": [
+      "lgpd"
+    ],
+    "localizador": "art. 41: encarregado",
+    "nota": "Leitura individual; revisão do julgamento, redação/OCR, fundamento, trecho decisivo e contraste. Origem oficial não é certificada por revisão conceitual.",
+    "shaAntes": "5b8573e3539d71068561a70920b655293da9efd38e8258187f92f241384c31af",
+    "shaDepois": "9fc5c227af3ec991344ea85e29b5a3f6a6f69a8993523cb6c73696e0044cc1f7",
+    "patch": {
+      "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
+      "justificativa": "ERRADO. O regime de indicação de encarregado não é exclusivo de estatais exploradoras de atividade econômica. A LGPD alcança agentes de tratamento públicos e privados, com condições e regulamentação próprias. O encarregado funciona como canal de comunicação, não como substituto de toda responsabilidade do controlador.",
+      "gatilho": "exclusiva e privativa",
+      "armadilhaBanca": "Restringir indevidamente o âmbito de instituto da LGPD.",
+      "fonte": "Lei 13.709/2018 — Lei Geral de Proteção de Dados Pessoais — art. 41: encarregado — https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "dataConferencia": "2026-10-30",
+      "versao_correta": "A figura do encarregado não se restringe a empresas estatais exploradoras de atividade econômica.",
+      "item": "A figura do Encarregado pelo Tratamento de Dados Pessoais (Data Protection Officer - DPO) prevista no art. 41 da LGPD é de designação exclusiva e privativa de empresas estatais exploradoras de atividade econômica, ficando os órgãos da Administração Direta dos três Poderes dispensados da indicação de encarregado.",
+      "submoduloId": "11.12"
+    }
+  }
+]

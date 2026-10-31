@@ -45,7 +45,8 @@ export function extrairUltimaFrase(texto) {
 }
 
 export const REGEX_INTERNAL_ID = /^(cespe-cad-|cespe-tec-|real-prova_recente-|real-cad_cespe-|real-pcdf_)/;
-export const REGEX_FORBIDDEN_INEDITA = /gabarito oficial|cobrado no concurso|pela banca|concurso [A-Z]/i;
+// "Concurso público" e "concurso doloso" são conteúdos, não provas de origem.
+export const REGEX_FORBIDDEN_INEDITA = /gabarito oficial|cobrado no concurso|pela banca|(?:questão|item)\s+(?:do|da)\s+(?:concurso|prova)\b|(?:concurso|prova)\s+(?:CESPE|CEBRASPE|FCC|FGV|VUNESP|IBFC|CESGRANRIO)\b/i;
 
 /**
  * Executa a auditoria completa de proveniência nas questões de src/content/questions.

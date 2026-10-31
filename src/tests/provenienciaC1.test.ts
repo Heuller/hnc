@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
 import ts from 'typescript';
+import { REGEX_FORBIDDEN_INEDITA } from '../../scripts/auditoriaProveniencia.mjs';
 import {
   obterInfoProveniencia,
   obterTextoRodapeProveniencia,
@@ -9,7 +10,17 @@ import {
 } from '../domain/proveniencia';
 
 describe('C1 — Proveniência Única e Verdadeira (Auditoria e Sanitização de Inéditas)', () => {
-  it('proíbe expressamente menções a gabarito oficial, banca ou concurso em itens marcados como inédita', () => {
+  it('distingue conteúdo sobre concurso de alegação de origem oficial nos dois auditores', () => {
+    for (const detector of [REGEX_TERMOS_PROIBIDOS_INEDITA, REGEX_FORBIDDEN_INEDITA]) {
+      for (const texto of ['Servidor nomeado por concurso para cargo efetivo.', 'Indução ou concurso doloso para o ato ímprobo.', 'Concurso e inscrição profissional cumprem funções diferentes.']) {
+        expect(detector.test(texto), texto).toBe(false);
+      }
+      for (const texto of ['Gabarito oficial: certo.', 'Item cobrado no concurso.', 'Questão do concurso da Câmara.', 'Extraída da prova CEBRASPE.', 'Conforme cobrado pela banca.']) {
+        expect(detector.test(texto), texto).toBe(true);
+      }
+    }
+  });
+  it('detecta alegações indevidas de origem em prova nos itens marcados como inédita', () => {
     const dir = 'src/content/questions';
     const files = fs.readdirSync(dir).filter((f) => f.endsWith('.ts'));
 

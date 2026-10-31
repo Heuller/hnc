@@ -265,12 +265,12 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "origemModulo": "M13",
     "questaoOrigemId": "m13-q-13",
-    "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "submoduloId": "13.3",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "No Texto II, o pronome demonstrativo 'ele' na expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O pronome pessoal reto 'ele' opera como mecanismo de coesão referencial anafórica, retomando estritamente o sintagma nominal antecedente 'o cidadão' expresso anteriormente na oração. Essa retomada pronominal evita a repetição desnecessária do vocábulo e mantém a cadeia de correferência textual viva e límpida para o leitor.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. Em por ele, ele é forma tônica de pronome pessoal; o emprego anafórico não o transforma em demonstrativo. Retoma o cidadão e integra o agente da passiva por ele na forma eleitos. O comentário anterior reconhecia pronome pessoal, mas o gabarito validava a classificação errada do enunciado.",
+    "armadilhaBanca": "Separar classe gramatical e função de retomada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -278,8 +278,11 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "provaBloco": "P1_BASICOS",
-    "gatilho": "expressão 'por ele eleitos' funciona como anáfora",
-    "versao_errada": "No Texto II, o pronome demonstrativo 'ele' na indevidamente expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'."
+    "gatilho": "pronome demonstrativo",
+    "versao_errada": "",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: por ele eleitos; pronome pessoal e anáfora. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "Ele é pronome pessoal com emprego anafórico, retomando o cidadão."
   },
   {
     "id": "oficial-180q-014",
@@ -1284,11 +1287,11 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "origemModulo": "M11",
     "questaoOrigemId": "m11-q-20",
     "submoduloId": "11.3",
-    "contexto": "A respeito dos institutos da posse, exercício e estabilidade no serviço público federal, julgue o item a seguir.",
+    "contexto": "Considerando a referência indicada e o corte normativo do HNC, julgue o item a seguir.",
     "item": "A posse em cargo público de provimento efetivo dar-se-á no prazo improrrogável de trinta dias contados da publicação do ato de provimento no Diário Oficial, e o exercício do cargo deverá ocorrer no prazo impreterível de quinze dias contados da data da posse.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Prazos canônicos da Lei nº 8.112/1990: Nomeação -> Posse: até 30 dias (art. 13, § 1º); Posse -> Exercício: até 15 dias (art. 15, § 1º). Se não tomar posse em 30 dias, o ato é tornado sem efeito. Se tomar posse e não entrar em exercício em 15 dias, é exonerado.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. A regra geral é posse em trinta dias da publicação e exercício em quinze dias da posse. Contudo, o §2º do art. 13 prevê início da contagem ao terminar certos impedimentos legais do servidor. Tratar a contagem como invariável a partir da publicação elimina uma ressalva expressa.",
+    "armadilhaBanca": "Apagar exceção relativa ao início da contagem.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
@@ -1297,8 +1300,11 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "declaracaoLegada": "ANM / Cebraspe - Adaptada"
     },
     "provaBloco": "P1_BASICOS",
-    "gatilho": "do ato de provimento no Diário Oficial",
-    "versao_errada": "A posse em cargo público de provimento efetivo dar-se-á no prazo improrrogável de trinta dias contados da publicação indevidamente do ato de provimento no diário oficial, e o exercício do cargo deverá ocorrer no prazo impreterível de quinze dias contados da data da posse."
+    "gatilho": "improrrogável",
+    "versao_errada": "",
+    "fonte": "Lei 8.112/1990 — regime jurídico dos servidores federais — arts. 13, §§1º e 2º, e 15, §1º — https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "A posse observa trinta dias como regra, com início de contagem diferido nas hipóteses do art. 13, §2º; o exercício segue o art. 15."
   },
   {
     "id": "oficial-180q-058",

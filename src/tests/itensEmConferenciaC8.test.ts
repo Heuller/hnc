@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
+import { revisoesIndividuais } from './helpers/revisoesIndividuais';
 import { simuladoIngles100Q } from '../content/questions/m12-ingles-100q';
 import { megaSimuladoCamara120Q } from '../content/questions/mega-simulado-camara-120q';
 import { simuladoOficialCamara180Q } from '../content/questions/simulado-oficial-camara-180q';
@@ -18,26 +19,28 @@ describe('Passo 1 (Prompt C8) — Itens de Inglês em Conferência: Rótulo e Te
     todasQuestoesMap.set(q.id, q);
   });
 
-  it('1. Todos os 33 IDs existem e possuem tipo em-conferencia, verificado false e revisar true', () => {
+  it('1. Todos os 33 IDs preservam origem não confirmada e bloqueio histórico', () => {
     expect(ids33.length).toBe(33);
 
     for (const id of ids33) {
       const q = todasQuestoesMap.get(id);
       expect(q, `Questão ${id} deve existir no acervo`).toBeDefined();
-      expect(q?.fonteOriginal?.tipo, `Item ${id} deve ter tipo em-conferencia`).toBe('em-conferencia');
+      expect(q?.fonteOriginal?.tipo, `Origem do item ${id}`).toBe(revisoesIndividuais.has(id) ? 'adaptada' : 'em-conferencia');
       expect(q?.fonteOriginal?.verificado, `Item ${id} não pode estar verificado`).toBe(false);
       expect(q?.fonteOriginal?.revisar, `Item ${id} deve estar com flag revisar`).toBe(true);
       expect(q?.fonteOriginal?.statusConferencia, `Item ${id} deve ter statusConferencia em-conferencia`).toBe('em-conferencia');
     }
   });
 
-  it('2. Todos os 33 itens possuem justificativa e armadilha com texto neutro de advertência', () => {
+  it('2. Itens pendentes mantêm advertência; adaptações revisadas têm conteúdo individual registrado', () => {
     const textoNeutro = 'Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.';
 
     for (const id of ids33) {
       const q = todasQuestoesMap.get(id);
-      expect(q?.justificativa, `Justificativa do item ${id} deve ser o texto neutro`).toBe(textoNeutro);
-      expect(q?.armadilhaBanca, `Armadilha do item ${id} deve ser o texto neutro`).toBe(textoNeutro);
+      const revisao = revisoesIndividuais.get(id);
+      expect(q?.justificativa, id).toBe(revisao ? revisao.patch.justificativa : textoNeutro);
+      expect(q?.armadilhaBanca, id).toBe(revisao ? revisao.patch.armadilhaBanca : textoNeutro);
+      if (revisao) expect(q?.item, id).toBe(revisao.patch.item);
     }
   });
 

@@ -2,6 +2,8 @@
 
 Referência: edital e corte cadastrados no HNC. Iniciada em 30/10/2026. Em andamento: **não concluída**.
 
+Situação atual: **1.506 de 2.179 revisadas individualmente; 673 pendentes**. Não equivale a confirmação de origem oficial nem a liberação dos itens historicamente isolados.
+
 O inventário de `src/content/questions` contém **2.179 itens**: 2.110 em 20 cadernos e 69 complementares. A revisão inclui itens fora do treino e não equivale à simples aprovação dos atualmente elegíveis. A interface compartilhada também atende outras atividades; checkpoints da reforma teórica têm registro separado.
 
 ## Método
@@ -28,9 +30,13 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 | M10 — Processo legislativo, contexto e legislação | 100/100 | Revisão individual aplicada |
 | M10A — Constituição e processo legislativo | 100/100 | Revisão individual aplicada |
 | M10B — Regimentos da Câmara e do Congresso | 100/100 | Revisão individual aplicada |
-| Simulado integral Câmara — cópias divergentes | 2/180 | Itens 147 e 173 revisados; demais itens do arquivo pendentes |
+| M11 — Direito Administrativo, gestão pública e contratações | 100/100 | Revisão individual aplicada |
+| M12 — Inglês: leitura, coesão e vocabulário contextual | 100/100 | Revisão individual aplicada |
+| M13 — Português: interpretação, reescrita, sintaxe e ortografia | 100/100 | Revisão individual aplicada |
+| Simulado integral Câmara — cópias divergentes | 4/180 | Itens 13, 57, 147 e 173 revisados; demais itens do arquivo pendentes |
 | Mega simulado — competência do Secretário | 1/120 | Item 117 revisado; demais itens do arquivo pendentes |
-| Demais cadernos e banco complementar | 0/679 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
+| Simulado geral — cópia de pronome | 1/180 | Item 7 revisado; demais itens do arquivo pendentes |
+| Demais cadernos e banco complementar | 0/199 | Pendente neste processo; correções históricas não foram recontadas como novas revisões |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
 
@@ -67,3 +73,15 @@ M10A: mais 100 itens aplicados (total 1.103, pendentes 1.076). Corrigidos julgam
 M10B: 100 revisões individuais aplicadas; total de **1.203/2.179**, com **976 pendentes**. Julgamentos corrigidos em 7, 19, 31, 35, 42, 44, 53, 54, 55, 64 e 72: divisão de atribuições das Secretarias, execução do policiamento, admissibilidade pela comissão especial, mais de quatro comissões de mérito, início dos trabalhos de comissão, substitutiva/substitutivo, urgência e eficácia de parecer, arquivamento/desarquivamento após Resolução 33/2022, maioria absoluta na urgência do art. 155 e recurso de questão de ordem. Foram retiradas duplas negações artificiais; as explicações distinguem regra, exceção, autoridade, prazo e quórum. Abertura de sessão: décima parte desprezada a fração (51 de 513); verificação: seis centésimos; efeito suspensivo de questão de ordem: um terço dos presentes. Essas referências diferentes não podem ser reduzidas a um único quórum genérico.
 
 Validação do marco de 1.203: 978 testes em 125 arquivos aprovados; lint, auditoria estrutural e compilação com orçamentos aprovados. Retiradas cotas artificiais 50/50 de M10A/M10B e 60/60 do Mega em verificações legadas, mantendo contagem, validade de julgamento, IDs e proveniência. O bloqueio conservador de alegações de origem foi preservado; uma frase sobre habilitação profissional foi tornada mais clara. Resultados técnicos não certificam as 976 questões pendentes.
+
+M11: 100 revisões individuais, mais a cópia `oficial-180q-057`; total **1.304**, com **875 pendentes**. Item 20 e cópia corrigidos para E pelas ressalvas de contagem do prazo de posse; item 56 para E pelo julgamento das ADIs 7156/7236 em 2026; item 84 para C porque o art. 95, I, é hipótese autônoma de substituição do instrumento contratual. Atualizada a acumulação de cargo de professor conforme EC 138/2025, sem dispensar compatibilidade de horários. Redações de delegação, convalidação, parecer, responsabilidade, governança e licitação foram delimitadas para não criarem regras absolutas. O texto teórico de 11.7 já continha a atualização prescricional e foi conferido; a questão era a parte ainda divergente. Testes direcionados após reparo da cópia: 84 aprovados.
+
+M12: 100 revisões individuais aplicadas, incluindo texto-base nos itens que o omitiam e separando passagens, parágrafos e comando. As duas questões de CDU fora de escopo foram substituídas por itens autorais de Inglês. Corrigidos julgamentos contraditórios sobre allay, outperform, personagens na narrativa, antecedente de which/that/this, possibilidade versus certeza, novidade de multas e prisão de pais versus estudantes. Cópias foram diversificadas com proposições específicas dos mesmos textos, sem inventar resultados de prova. Passagens históricas não são apresentadas como orientação médica ou legislação atual. A tela e o relatório preservam os parágrafos e identificam o idioma; o contexto passou a aparecer na resposta, além do relatório.
+
+M13: 100 revisões individuais aplicadas; total **1.504/2.179**, com **675 pendentes**. Texto I ampliado para conter os segmentos citados; Texto II reconstruído e identificado como autoral, pois não constava do banco anterior. Corrigidos os julgamentos 13 (ele não é demonstrativo), 43 (necessitar admite regências), 51/52 (visar direto admitido pelo Manual) e 53 (recomendação não é inexistência de variante). Foram delimitadas regras de implicar, crase, pontuação, prefixação e relativos. O Manual de Redação da PR de 2018 foi consultado integralmente nos trechos pertinentes; não se confunde preferência de estilo com proibição universal.
+
+O detector textual de proveniência foi corrigido para não interpretar concurso público e concurso doloso como atribuição a prova. Permanecem bloqueios a alegações típicas de gabarito oficial e origem em banca, com teste positivo e negativo nos dois auditores; a triagem lexical não substitui verificação documental.
+
+Duas cópias adicionais do erro de classificação de ele foram lidas e corrigidas: oficial-180q-013 e geral-180q-7. O Texto II autoral reconstruído acompanha as cópias. Total atualizado: **1.506**, com **673 pendentes**. Os testes de conferência preservam isolamento e ausência de verificação oficial, permitindo apenas redações adaptadas com decisão individual registrada. Não congelam uma resposta conceitualmente errada como se fosse gabarito oficial confirmado.
+
+Validação em 31/10/2026 do marco de 1.506: **979 testes em 125 arquivos aprovados**, lint sem avisos, auditoria estrutural e build com orçamentos aprovados. Os testes de navegador validaram estudo/prova, sigilo de gabarito no modo prova, prática de aplicação sem alterar a resposta, texto de apoio antes da resposta, feedback em branco, parágrafos e idioma em 1440 e 390 px; sem erros de execução nem overflow. Corrigida a sincronização dos cliques do script durante recomposição do layout. O README voltou a exibir distribuição apenas descritiva, sem faixa alvo de gabaritos. O registro de 673 pendências é conceitual e não é substituído por esses checks técnicos.

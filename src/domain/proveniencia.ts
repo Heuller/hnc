@@ -13,9 +13,11 @@ export interface InfoProveniencia {
 }
 
 /**
- * Padrão regex que proíbe qualquer alegação de concurso real ou banca em itens inéditos (C1).
+ * Triagem de alegações de origem em prova. Não confundir o tema jurídico
+ * "concurso público" ou "concurso doloso" com atribuição a uma banca.
+ * A confirmação da origem exige também os metadados e documentos do acervo.
  */
-export const REGEX_TERMOS_PROIBIDOS_INEDITA = /gabarito oficial|cobrado no concurso|pela banca|concurso [A-Z]/i;
+export const REGEX_TERMOS_PROIBIDOS_INEDITA = /gabarito oficial|cobrado no concurso|pela banca|(?:questão|item)\s+(?:do|da)\s+(?:concurso|prova)\b|(?:concurso|prova)\s+(?:CESPE|CEBRASPE|FCC|FGV|VUNESP|IBFC|CESGRANRIO)\b/i;
 
 /**
  * Gera o texto de rodapé padrão para a proveniência do item.

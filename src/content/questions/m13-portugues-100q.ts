@@ -6,536 +6,610 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "numero": 1,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "Infere-se do Texto I que a Linguagem Simples constitui ferramenta de eficácia democrática orientada a assegurar que o cidadão comum compreenda e exerça os direitos decorrentes da produção legislativa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No segundo período do Texto I, o autor afirma expressamente que a emergência do movimento pela Linguagem Simples visa 'assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material'. A inferência proposta pelo item é perfeita e reflete com fidelidade a tese do autor, que vincula a clareza textual da legislação diretamente ao exercício efetivo da cidadania e à concretização do princípio republicano da publicidade material (e não meramente formal).",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. O segundo parágrafo relaciona compreensão, exercício de direitos e eficácia da publicidade. A paráfrase mantém essa relação, sem afirmar que clareza, sozinha, garanta todos os resultados democráticos. A conclusão deve permanecer nos limites do argumento do texto.",
+    "armadilhaBanca": "Relacionar finalidade expressa e paráfrase.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "eficácia democrática orientada a assegurar que o",
-    "versao_errada": "Infere-se do Texto I que a Linguagem Simples constitui ferramenta de indevidamente eficácia democrática orientada a assegurar que o cidadão comum compreenda e exerça os direitos decorrentes da produção legislativa."
+    "gatilho": "compreenda e exerça",
+    "versao_errada": "O Texto I apresenta a linguagem simples como obstáculo deliberado ao exercício dos direitos.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: finalidade da linguagem simples. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-2",
     "numero": 2,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "Segundo o Texto I, a adoção da Linguagem Simples nas casas legislativas promove a vulgarização do vernáculo culto e o empobrecimento formal das categorias dogmáticas do Direito.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme as diretrizes republicanas de comunicação pública e o movimento da Linguagem Simples (Plain Language), a simplificação visa eliminar o jargão hermético e aproximar o cidadão do texto legal, assegurando transparência e efetividade democrática, sem comprometer o rigor terminológico e a correção gramatical da norma.",
-    "armadilhaBanca": "Inversão conceitual Cebraspe: associar indevidamente a busca por clareza comunicativa à vulgarização linguística ou perda de precisão técnica do Direito.",
+    "justificativa": "ERRADO. Não significa empobrecer nem vulgarizar nega exatamente os efeitos atribuídos. A proposta é tornar compreensível sem abandonar precisão. O tema jurídico não permite substituir a tese do autor por uma avaliação externa de que clareza necessariamente reduz rigor.",
+    "armadilhaBanca": "Inverter tese por ignorar negação expressa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A adoção da Linguagem Simples no âmbito legislativo busca conferir clareza, concisão e acessibilidade à comunicação pública e aos atos normativos, sem implicar vulgarização do vernáculo culto ou renúncia à precisão técnica dos conceitos jurídicos."
+    "versao_correta": "O Texto I distingue simplificar a comunicação de empobrecer a língua ou vulgarizar conceitos.",
+    "gatilho": "empobrecimento",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: negação de empobrecimento. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-3",
     "numero": 3,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "De acordo com o Texto I, o hermetismo formal que historicamente caracterizou a comunicação parlamentar funcionava como barreira comunicativa que distanciava os cidadãos dos debates públicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O primeiro período do Texto I é categórico ao assinalar que a tradição comunicativa das casas legislativas brasileiras 'esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos'. O item realiza paráfrase fidedigna da passagem, confirmando que a sofisticação vocabular excessiva operava historicamente como obstáculo ao controle social democrático.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. O primeiro parágrafo apresenta hermetismo formal e barreiras entre representantes e cidadãos. A interpretação é sustentada por essa imagem, não por uma cronologia independente da história parlamentar. A justificativa deve mostrar a evidência, em vez de apenas rotular a leitura como perfeita.",
+    "armadilhaBanca": "Vincular inferência à imagem textual concreta.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "De acordo com",
-    "versao_errada": "indevidamente de acordo com o Texto I, o hermetismo formal que historicamente caracterizou a comunicação parlamentar funcionava como barreira comunicativa que distanciava os cidadãos dos debates públicos."
+    "gatilho": "barreira comunicativa",
+    "versao_errada": "Segundo o Texto I, o hermetismo eliminava todas as barreiras entre representantes e cidadãos.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: hermetismo e barreiras. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-4",
     "numero": 4,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "Depreende-se do Texto I que o autor defende a extinção completa de pareceres jurídicos formais no processo de elaboração de leis ordinárias.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Trata-se de clássica extrapolação textual: em nenhum momento o texto advoga a extinção de pareceres técnicos ou jurídicos — instrumentos essenciais de controle de constitucionalidade e legalidade (CF/88, art. 58 e RICD) —, mas sim a transparência e a inteligibilidade dos documentos produzidos.",
-    "armadilhaBanca": "Extrapolação indevida Cebraspe: expandir a crítica ao hermetismo para a extinção de peças técnicas essenciais do processo legislativo.",
+    "justificativa": "ERRADO. O texto propõe clareza e precisão, sem determinar extinção de pareceres jurídicos. Criticar hermetismo não equivale a abolir documentos técnicos. O item acrescenta uma medida institucional específica ausente da argumentação.",
+    "armadilhaBanca": "Acrescentar providência que não decorre da tese.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O autor defende o aperfeiçoamento da clareza redacional e comunicativa na tramitação legislativa, mantendo plenamente a necessidade de pareceres técnicos e jurídicos substanciais no processo de elaboração de leis ordinárias."
+    "versao_correta": "O texto defende clareza sem propor a extinção dos pareceres jurídicos.",
+    "gatilho": "extinção completa",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: alcance da proposta. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-5",
     "numero": 5,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "No Texto I, o conectivo 'Entretanto' (início do segundo parágrafo) introduz uma relação de contraposição e adversidade em relação à prática histórica mencionada no parágrafo anterior.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O operador discursivo 'Entretanto' atua como conjunção coordenativa adversativa canônica (conforme lição de Celso Cunha e Lindley Cintra). No plano argumentativo, contrapõe o cenário pretérito de hermetismo e distanciamento elitista à nova postura institucional inaugurada pelo movimento da Linguagem Simples, introduzindo uma quebra de expectativa e direcionando a argumentação para a defesa da acessibilidade comunicativa.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Entretanto introduz contraste entre a tradição hermética e a proposta de comunicação compreensível. Seu valor é adversativo, não causal ou conclusivo. A posição no início do segundo parágrafo foi tornada verificável pela organização do texto de apoio.",
+    "armadilhaBanca": "Identificar a relação entre segmentos contrastados.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "introduz uma relação de contraposição e adversidade",
-    "versao_errada": "No Texto I, o conectivo 'Entretanto' (início do segundo parágrafo) indevidamente introduz uma relação de contraposição e adversidade em relação à prática histórica mencionada no parágrafo anterior."
+    "gatilho": "contraposição",
+    "versao_errada": "Entretanto apresenta a proposta como causa do hermetismo descrito no primeiro parágrafo.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I, segundo parágrafo: entretanto. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-6",
     "numero": 6,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "No Texto I, a conjunção 'Entretanto' poderia ser substituída por 'Porquanto' sem alteração dos sentidos e da correção gramatical do texto.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme Cunha & Cintra (Nova Gramática do Português Contemporâneo), \"entretanto\" é conjunção coordenativa adversativa (estabelece contraste, ressalva, oposição), equivalendo a \"contudo\", \"todavia\", \"no entanto\". Já \"porquanto\" é conjunção causal ou explicativa (equivale a \"visto que\", \"já que\", \"porque\"). A substituição altera radicalmente a relação lógica entre as orações.",
-    "armadilhaBanca": "Falso cognato conectivo Cebraspe: confundir \"porquanto\" (causal/explicativo) com \"conquanto\" (concessivo) ou \"portanto\" / \"entretanto\" (conclusivo/adversativo).",
+    "justificativa": "ERRADO. Entretanto é adversativo; porquanto introduz explicação ou causa no uso pertinente. A troca modifica a relação entre o hermetismo e a emergência da linguagem simples. Correção morfológica das duas palavras não garante preservação de sentido do período.",
+    "armadilhaBanca": "Separar compatibilidade gramatical e equivalência semântica.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "No período, a conjunção adversativa \"Entretanto\" introduz uma relação de contraste/oposição, ao passo que \"Porquanto\" é uma conjunção causal/explicativa; logo, a substituição causaria grave incoerência semântica e alteração lógica."
+    "versao_correta": "A substituição por Contudo preserva a relação adversativa; Porquanto não mantém essa mesma relação.",
+    "gatilho": "Porquanto",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: entretanto e porquanto. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-7",
     "numero": 7,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
-    "item": "A locução conjuntiva 'de modo que' (Texto I, último período) introduz uma oração subordinada adverbial com valor semântico de consequência.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
+    "item": "No Texto I, o segmento introduzido por “de modo que” apresenta uma consequência associada à compreensão e ao exercício dos direitos pelo cidadão.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A locução 'de modo que' introduz uma oração subordinada adverbial consecutiva, exprimindo o efeito, resultado ou consequência lógica do fato enunciado na oração principal ('assegurar que o cidadão compreenda... de modo que a publicidade republicana alcance sua plena eficácia material'). Gramáticos canônicos como Evanildo Bechara e Rocha Lima confirmam 'de modo que', 'de maneira que' e 'de sorte que' no rol das locuções conjuntivas essencialmente consecutivas.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. No trecho, de modo que introduz o resultado pretendido: a publicidade alcançar eficácia material. Não há subjuntivo suficiente para classificar qualquer oração como finalidade; é preciso ler a relação com o segmento anterior. Foi retirada a indicação de último período, incompatível com o texto ampliado.",
+    "armadilhaBanca": "Examinar o nexo no contexto, sem decidir apenas pelo modo verbal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "I, último período) introduz uma oração subordinada",
-    "versao_errada": "A locução conjuntiva 'de modo que' (Texto indevidamente i, último período) introduz uma oração subordinada adverbial com valor semântico de consequência."
+    "gatilho": "consequência",
+    "versao_errada": "No trecho, de modo que introduz uma comparação de igualdade entre duas instituições.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: consequência da compreensão e do exercício de direitos. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-8",
     "numero": 8,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "No Texto I, o vocábulo 'plasmada' no primeiro parágrafo foi empregado com o sentido estrito de 'destruída / fragmentada'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O particípio \"plasmada\" deriva do grego plasma / plassein (dar forma, modelar, esculpir). No contexto do primeiro parágrafo, indica que a identidade institucional foi forjada, modelada ou constituída, significado antagônico à ideia de destruição ou fragmentação.",
-    "armadilhaBanca": "Antônimo disfarçado: a banca atribui a um vocábulo de formação/estruturação um sentido destrutivo ou fragmentário.",
+    "justificativa": "ERRADO. Plasmada, no contexto, significa moldada ou configurada. A comunicação assume uma forma hermética, não é descrita como destruída. O sentido deve ser compatível com esteve ... em um hermetismo formal e com a crítica desenvolvida depois.",
+    "armadilhaBanca": "Desambiguar vocabulário pela construção contextual.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "No contexto, o vocábulo \"plasmada\" foi empregado com o sentido de moldada, conformada, constituída ou delineada harmonicamente."
+    "versao_correta": "No contexto, plasmada significa moldada ou configurada, não destruída ou fragmentada.",
+    "gatilho": "destruída",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: sentido de plasmada. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-9",
     "numero": 9,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "Infere-se do Texto II que a conservação dos registros documentais do parlamento constitui pressuposto essencial para o exercício do controle social e da fiscalização pelos cidadãos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A tese central do Texto II sustenta a memória e a documentação arquivística legislativa não como acervos estáticos, mas como esteio vivo da transparência pública e da prestação de contas (accountability). Sem a preservação fidedigna dos anais, diários e proposições, inviabiliza-se a fiscalização retrospectiva dos atos dos parlamentares, tornando o arquivo um instrumento indispensável do controle social republicano.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Registros íntegros e acessíveis são apresentados como condição para examinar decisões dos representantes. A preservação não se limita a guardar objetos: envolve possibilidade de acesso e controle. O Texto II foi reconstruído como texto autoral explícito porque não estava disponível no banco anterior.",
+    "armadilhaBanca": "Relacionar conservação, acesso e controle social.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "do parlamento constitui pressuposto essencial para o",
-    "versao_errada": "Infere-se do Texto II que a conservação dos registros documentais indevidamente do parlamento constitui pressuposto essencial para o exercício do controle social e da fiscalização pelos cidadãos."
+    "gatilho": "controle social",
+    "versao_errada": "O Texto II considera a preservação documental dispensável para a fiscalização das decisões parlamentares.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: registros, acesso e fiscalização. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-10",
     "numero": 10,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "De acordo com o Texto II, a missão primordial das bibliotecas parlamentares esgota-se na custódia e no armazenamento estático de volumes e códices históricos em depósitos refrigerados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto ressalta categoricamente que as bibliotecas legislativas modernas não são depósitos estáticos de papel, mas instrumentos vivos de memória pública, assessoria informacional aos parlamentares e canal de transparência e prestação de contas à sociedade.",
-    "armadilhaBanca": "Reducionismo funcional: restringir o papel estratégico e dinâmico da biblioteca institucional à mera guarda física e custódia passiva de documentos.",
+    "justificativa": "ERRADO. O segundo parágrafo articula custódia, organização e acesso. Esgota-se em armazenamento elimina duas dimensões expressas e contradiz a ideia de mecanismo vivo. A passagem não especifica depósitos refrigerados como finalidade primordial das bibliotecas.",
+    "armadilhaBanca": "Converter uma dimensão em finalidade exclusiva.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A missão das bibliotecas parlamentares transcende amplamente a custódia física de acervos, atuando como centro dinâmico de inteligência legislativa, recuperação estratégica da informação, subsídio qualificado à tomada de decisão e promoção da cidadania."
+    "versao_correta": "O Texto II atribui às bibliotecas custódia, organização e acesso, sem reduzir sua missão ao armazenamento.",
+    "gatilho": "esgota-se",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: custódia, organização e acesso. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-11",
     "numero": 11,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "No Texto II, a conjunção concessiva 'Malgrado' (início do segundo parágrafo) introduz uma ressalva que não impede o cumprimento do dever de gestão técnica da memória.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A conjunção 'Malgrado' é classificada pela gramática normativa (Cunha & Cintra, Bechara) como subordinativa concessiva, funcionando como sinônimo estrito de 'a despeito de', 'embora', 'conquanto' e 'não obstante'. A oração concessiva introduz um obstáculo ou objeção que, embora reconhecido na argumentação, mostra-se insuficiente para anular ou impedir a realização do fato expresso na oração principal (o dever indeclinável de custódia e preservação).",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Malgrado sejam elevadas ... introduz concessão: as dificuldades existem, mas não afastam o dever apresentado. Aqui há oração com verbo, o que permite analisar o conectivo como conjunção concessiva. Não se deve estender automaticamente essa classificação a malgrado seguido apenas de nome.",
+    "armadilhaBanca": "Reconhecer concessão e sua construção sintática.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "parágrafo) introduz uma ressalva que não impede",
-    "versao_errada": "No Texto II, a conjunção concessiva 'Malgrado' (início do segundo indevidamente parágrafo) introduz uma ressalva que não impede o cumprimento do dever de gestão técnica da memória."
+    "gatilho": "não impede",
+    "versao_errada": "Nesse trecho, Malgrado apresenta as exigências como causa suficiente para dispensar a gestão técnica.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: oração introduzida por malgrado. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-12",
     "numero": 12,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "A conjunção 'Malgrado' no Texto II poderia ser substituída por 'Consoante' preservando-se a relação semântica original do período.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. \"Malgrado\" é conectivo concessivo (introduz fato que poderia impedir a oração principal, mas não impede). \"Consoante\" é conjunção subordinativa conformativa (expressa concordância, modelo ou conformidade de pensamento). São valores sintático-semânticos incompatíveis.",
-    "armadilhaBanca": "Troca de valor conectivo: substituir conjunção concessiva por conformativa sob pretexto de formalidade estílica.",
+    "justificativa": "ERRADO. Malgrado equivale, no trecho, a embora. Consoante indica conformidade, não preservando a relação de obstáculo que não impede o dever. Identificar palavras cultas semelhantes na forma não basta para tratá-las como intercambiáveis.",
+    "armadilhaBanca": "Trocar relação concessiva e conformativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A locução/conjunção concessiva \"Malgrado\" (equivalente a \"embora\", \"não obstante\", \"a despeito de\") expressa quebra de expectativa, ao passo que \"Consoante\" é conformativa (equivalente a \"conforme\", \"segundo\"); sua troca desfiguraria a relação lógica do enunciado."
+    "versao_correta": "A substituição por Embora preserva a concessão, ao contrário de Consoante.",
+    "gatilho": "Consoante",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: concessão e conformidade. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-13",
     "numero": 13,
     "macroModuloId": "M13",
-    "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "submoduloId": "13.3",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "No Texto II, o pronome demonstrativo 'ele' na expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O pronome pessoal reto 'ele' opera como mecanismo de coesão referencial anafórica, retomando estritamente o sintagma nominal antecedente 'o cidadão' expresso anteriormente na oração. Essa retomada pronominal evita a repetição desnecessária do vocábulo e mantém a cadeia de correferência textual viva e límpida para o leitor.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. Em por ele, ele é forma tônica de pronome pessoal; o emprego anafórico não o transforma em demonstrativo. Retoma o cidadão e integra o agente da passiva por ele na forma eleitos. O comentário anterior reconhecia pronome pessoal, mas o gabarito validava a classificação errada do enunciado.",
+    "armadilhaBanca": "Separar classe gramatical e função de retomada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "expressão 'por ele eleitos' funciona como anáfora",
-    "versao_errada": "No Texto II, o pronome demonstrativo 'ele' na indevidamente expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'."
+    "gatilho": "pronome demonstrativo",
+    "versao_errada": "",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: por ele eleitos; pronome pessoal e anáfora. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "Ele é pronome pessoal com emprego anafórico, retomando o cidadão."
   },
   {
     "id": "m13-q-14",
     "numero": 14,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "O Texto II pertence predominantemente à tipologia textual narrativa, na qual se relatam episódios fictícios em ordem cronológica estrita.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A tipologia narrativa caracteriza-se por sucessão temporal de eventos, personagens, enredo e narrador em ordem cronológica. O Texto II apresenta reflexão crítica, conceitos e argumentos abstratos em defesa de um posicionamento institucional, configurando tipologia dissertativa-argumentativa.",
-    "armadilhaBanca": "Confusão tipológica Cebraspe: qualificar texto eminentemente reflexivo e argumentativo como narrativa ficcional cronológica.",
+    "justificativa": "ERRADO. O texto apresenta tese sobre memória, explica a fiscalização e defende gestão técnica. Não organiza episódios fictícios em sequência temporal. Exemplos e imagens metafóricas não bastam para caracterizar predominância narrativa.",
+    "armadilhaBanca": "Distinguir sequência narrativa e desenvolvimento de tese.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O Texto II estrutura-se predominantemente no tipo dissertativo-argumentativo, articulando premissas conceituais, justificativas técnicas e dados funcionais para sustentar uma tese acerca da função republicana da biblioteca."
+    "versao_correta": "O Texto II desenvolve exposição e argumentação sobre a função democrática da preservação.",
+    "gatilho": "narrativa",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: organização expositiva e argumentativa. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-15",
     "numero": 15,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "No Texto I, o segmento 'consiste, antes, em arquitetar períodos sintaticamente diretos' emprega o advérbio 'antes' com valor semântico de preferência ou retificação ('pelo contrário / em vez disso').",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Empregado entre vírgulas em contextos de negação prévia ('não significa empobrecer a língua... consiste, antes, em...'), o vocábulo 'antes' assume valor semântico de operador de retificação e contraposição atenuada, equivalendo a 'ao contrário', 'em vez disso' ou 'preferencialmente'. Trata-se de recurso estilístico e argumentativo consagrado na prosa culta que o Cebraspe explora com frequência para testar a sensibilidade semântica do candidato.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Antes contrapõe à ideia negada a formulação que o autor quer destacar. Nesse contexto, não indica um momento anterior no tempo. O segmento foi incorporado ao texto autoral para que a questão tenha evidência consultável.",
+    "armadilhaBanca": "Distinguir retificação argumentativa e anterioridade temporal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "diretos' emprega o advérbio 'antes' com valor",
-    "versao_errada": "No Texto I, o segmento 'consiste, antes, em arquitetar períodos sintaticamente indevidamente diretos' emprega o advérbio 'antes' com valor semântico de preferência ou retificação ('pelo contrário / em vez disso')."
+    "gatilho": "retificação",
+    "versao_errada": "Antes indica que os períodos diretos devem ser escritos cronologicamente antes da votação de qualquer lei.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: não consiste ... consiste, antes. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-16",
     "numero": 16,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "No Texto II, a oração 'mas um mecanismo vivo de prestação de contas' introduz circunstância causal subordinada que justifica a realização do 'tributo fúnebre' aludido no período anterior.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Iniciada pelo conectivo coordenativo \"mas\", a oração introduz um valor adversativo (contraste/oposição), refutando a tese de \"tributo fúnebre\" em prol do conceito afirmativo de vitalidade republicana. Não há nenhuma relação de subordinação causal com o período anterior.",
-    "armadilhaBanca": "Classificação sintática truncada: converter oração coordenada adversativa em subordinada adverbial causal.",
+    "justificativa": "ERRADO. Mas integra a contraposição corretiva entre tributo fúnebre negado e mecanismo vivo afirmado. Não introduz oração causal que justifique realizar o tributo rejeitado. A presença de negação no primeiro membro é decisiva para a relação construída.",
+    "armadilhaBanca": "Trocar correção adversativa e subordinação causal.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A oração \"mas um mecanismo vivo de prestação de contas\" classifica-se sintaticamente como oração coordenada sindética adversativa, introduzindo contraposição enfática à tese rejeitada no segmento antecedente."
+    "versao_correta": "O segmento com mas contrapõe uma caracterização afirmada à caracterização anteriormente negada.",
+    "gatilho": "causal subordinada",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: não é ... mas. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-17",
     "numero": 17,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "A expressão 'códices e anais históricos' no Texto II exemplifica figuras retóricas de pleonasmo vicioso condenado pela norma culta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Pleonasmo vicioso consiste na repetição inútil e tautológica de um mesmo conceito (ex.: subir para cima, elo de ligação). Códice (manuscrito antigo encadernado) e anais (registros históricos ordenados ano a ano) referem-se a categorias arquivísticas e bibliográficas distintas, de uso perfeitamente técnico e abonado pela norma culta.",
-    "armadilhaBanca": "Patrulha gramatical artificial: classificar terminologia técnica específica como figura de vício estilístico condenável.",
+    "justificativa": "ERRADO. Os termos designam objetos ou registros que podem ser relacionados, sem serem necessariamente repetição inútil do mesmo significado. A coordenação não constitui, por si só, pleonasmo vicioso. Para esse diagnóstico seria necessário demonstrar redundância indevida na ocorrência.",
+    "armadilhaBanca": "Não confundir proximidade temática e redundância condenável.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A locução \"códices e anais históricos\" constitui vocabulário técnico documental e historiográfico legítimo na língua padrão, isento de qualquer vício pleonástico ou redundância reprovável."
+    "versao_correta": "A coordenação de códices e anais não constitui automaticamente pleonasmo vicioso.",
+    "gatilho": "pleonasmo vicioso",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: códices e anais. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-18",
     "numero": 18,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "No Texto I, a substituição de 'pressupõe a decodificação clara' por 'pressupõe na decodificação clara' mantém a regência verbal preconizada pela norma culta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo \"pressupor\" é transitivo direto (VTD): quem pressupõe, pressupõe algo. A inserção da preposição \"em\" gera o desvio \"pressupor em\", reprovado pelas gramáticas normativas de referência (Celso Pedro Luft, Dicionário Prático de Regência Verbal).",
-    "armadilhaBanca": "Inserção espúria de preposição: induzir o candidato ao erro inserindo preposição desnecessária em verbo transitivo direto consagrado.",
+    "justificativa": "ERRADO. Na construção apresentada, pressupor recebe diretamente o complemento a decodificação clara. Inserir em, contraído em na, altera a regência dessa estrutura. O artigo a diante do objeto direto não é a preposição a e não exige crase.",
+    "armadilhaBanca": "Identificar artigo e complemento direto antes de inserir preposição.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A regência canônica do verbo \"pressupor\" na norma culta é transitiva direta (rege objeto direto sem preposição): \"pressupõe a decodificação clara\", sendo ilegítimo o acréscimo da preposição \"em\"."
+    "versao_correta": "A construção adequada é pressupõe a decodificação clara, sem inserir a preposição em.",
+    "gatilho": "pressupõe na",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: pressupor e complemento direto. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-19",
     "numero": 19,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "Depreende-se do Texto II que a digitalização acelerada de acervos, caso seja conduzida sem rigor técnico e sem observância de padrões arquivísticos, pode acarretar perda de integridade documental.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No segundo parágrafo do Texto II, o autor alerta expressamente para o risco de uma 'digitalização desregrada ou meramente utilitarista', desprovida de metadados robustos e esquemas de preservação digital de longo prazo (como o modelo OAIS). A depreensão do item é exata e mantém estrita fidelidade semântica aos limites prudenciais traçados no texto pela advertência arquivística.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. O trecho afirma possibilidade de comprometimento da integridade por digitalização sem gestão. Pode preserva o alcance modal: não diz que toda digitalização inevitavelmente destrói documentos. O texto reconstruído contém a premissa e vincula reprodução a metadados e preservação.",
+    "armadilhaBanca": "Preservar possibilidade e condição de risco.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "seja conduzida sem rigor técnico e sem",
-    "versao_errada": "Depreende-se do Texto II que a digitalização acelerada de acervos, caso indevidamente seja conduzida sem rigor técnico e sem observância de padrões arquivísticos, pode acarretar perda de integridade documental."
+    "gatilho": "pode acarretar",
+    "versao_errada": "O Texto II garante que toda digitalização preserva a integridade mesmo sem gestão e metadados.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: digitalização desregrada e integridade. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-20",
     "numero": 20,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "No Texto I, o vocábulo 'límpida' qualifica a hierarquia lógica dos conteúdos, conferindo sentido de clareza, transparência e nitidez estrutural.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No contexto do Texto I, o adjetivo 'límpida' foi empregado em sentido figurado/estilístico para caracterizar uma disposição textual cristalina, desprovida de ambiguidades, labirintos sintáticos ou obscuridades terminológicas. A qualificação valoriza a transparência e a inteligibilidade direta que devem presidir a redação de atos oficiais democráticos.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Límpida qualifica metaforicamente hierarquia lógica, sugerindo clareza de organização. Não se refere a limpeza física de papéis nem a transparência material de um objeto. A combinação com hierarquia dos conteúdos orienta a escolha do sentido figurado.",
+    "armadilhaBanca": "Distinguir qualificação metafórica e propriedade física.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "a hierarquia lógica dos conteúdos, conferindo sentido",
-    "versao_errada": "No Texto I, o vocábulo 'límpida' qualifica indevidamente a hierarquia lógica dos conteúdos, conferindo sentido de clareza, transparência e nitidez estrutural."
+    "gatilho": "clareza",
+    "versao_errada": "Límpida exige que os documentos sejam fisicamente lavados antes de serem organizados.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: límpida hierarquia lógica. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-21",
     "numero": 21,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "A assertiva de que a Linguagem Simples flexibiliza o respeito às normas gramaticais de concordância e regência em favor do imediatismo comunicativo alinha-se às teses sustentadas no Texto I.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. É preceito fundamental da Linguagem Simples (ISO 24495-1 e Manual de Redação da Presidência da República) que simplicidade não autoriza desvios da norma padrão da língua portuguesa. A clareza textual e a estrita correção sintática são elementos complementares e indissociáveis na redação oficial.",
-    "armadilhaBanca": "Falácia do desleixo culto: sugerir que comunicação acessível legitima violação às regras gramaticais de regência e concordância.",
+    "justificativa": "ERRADO. O último parágrafo inclui respeitar concordância e regência entre os recursos da clareza. A tese não autoriza eliminar essas normas em nome da rapidez. Precisão, compreensão e organização são articuladas, sem a oposição simplista proposta pelo item.",
+    "armadilhaBanca": "Criar oposição onde o texto propõe articulação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "As diretrizes de Linguagem Simples exigem rigorosa observância às normas gramaticais de concordância, regência e ortografia da norma culta, aliando correção idiomática a clareza, concisão e acessibilidade informacional."
+    "versao_correta": "O Texto I combina linguagem compreensível com respeito à concordância e à regência.",
+    "gatilho": "flexibiliza",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: respeito à concordância e à regência. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-22",
     "numero": 22,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
-    "item": "No Texto II, o termo 'accountability' é empregado como empréstimo linguístico consagrado na ciência política para designar a obrigação de prestar contas e a responsabilização pública.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
+    "item": "No Texto II, accountability é associado à prestação de contas e à responsabilização pública.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O vocábulo estrangeiro 'accountability' é largamente aceito e adotado na literatura técnico-jurídica brasileira em razão da inexistência de um único termo vernáculo correspondente que sintetize, a um só tempo, a obrigação de transparência, a prestação de contas, a responsabilidade ética do gestor público e a sujeição a penalidades pelo descumprimento de mandatos republicanos.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. O próprio texto relaciona o termo a prestação de contas e responsabilização. Isso não se resume a contar volumes guardados nem a divulgar qualquer dado sem proteção. A questão foi delimitada ao sentido efetivamente apresentado, sem alegar frequência universal em toda a ciência política.",
+    "armadilhaBanca": "Conferir o sentido pelo segmento explicativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "linguístico consagrado na ciência política para designar",
-    "versao_errada": "No Texto II, o termo 'accountability' é empregado como empréstimo indevidamente linguístico consagrado na ciência política para designar a obrigação de prestar contas e a responsabilização pública."
+    "gatilho": "responsabilização",
+    "versao_errada": "No Texto II, accountability significa apenas a quantidade física de livros depositados.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: sentido contextual de accountability. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-23",
     "numero": 23,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.",
     "item": "No Texto I, os termos 'proposições legislativas' e 'comunicações institucionais' exercem sintaticamente a função de sujeitos pacientes da oração.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na estrutura oracional de infinitivo transitivo direto (\"Redigir proposições legislativas e comunicações institucionais...\"), quem redige, redige algo: os termos complementam o verbo sem preposição, exercendo papel sintático de objetos diretos, e não de sujeitos pacientes.",
-    "armadilhaBanca": "Confusão sintática entre complemento verbal e sujeito: tomar os objetos diretos de um infinitivo transitivo por sujeitos pacientes.",
+    "justificativa": "ERRADO. Os grupos introduzidos por das completam o nome de ação decodificação, não funcionam como sujeitos pacientes. O sujeito da oração é A clareza; o verbo pressupõe está em voz ativa. Não basta um termo receber semanticamente uma ação para ser sujeito sintático.",
+    "armadilhaBanca": "Distinguir papel semântico e função sintática.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Sintaticamente, as expressões \"proposições legislativas\" e \"comunicações institucionais\" desempenham o papel de complementos verbais diretos (objetos diretos) da forma verbal transitiva direta \"Redigir\"."
+    "versao_correta": "Os grupos das proposições legislativas e das comunicações institucionais completam o nome decodificação, na oração de sujeito A clareza.",
+    "gatilho": "sujeitos pacientes",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto I: decodificação das proposições e das comunicações. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-24",
     "numero": 24,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "No Texto II, a expressão 'fúnebre' carrega conotação metafórica para contrapor a preservação meramente passiva da memória à sua dimensão ativa e democrática.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Ao qualificar o arquivo tradicional como algo potencialmente 'fúnebre' se reduzido a um depósito inerte de papéis empoeirados, o autor utiliza uma metáfora crítica expressiva para rejeitar a visão necrofilílica da memória e propor, em antítese, uma preservação dinâmica, aberta, digitalizada e orientada ao escrutínio dos cidadãos.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Fúnebre, em oposição a vivo, constrói a imagem de memória tratada como homenagem passiva versus recurso de fiscalização. O texto não fala de cerimônia funerária literal. A imagem serve à tese de uso ativo dos registros na prestação de contas.",
+    "armadilhaBanca": "Interpretar metáfora pela oposição que a desenvolve.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "metafórica para contrapor a preservação meramente passiva",
-    "versao_errada": "No Texto II, a expressão 'fúnebre' carrega conotação indevidamente metafórica para contrapor a preservação meramente passiva da memória à sua dimensão ativa e democrática."
+    "gatilho": "metafórica",
+    "versao_errada": "Fúnebre descreve exclusivamente uma cerimônia real de sepultamento narrada pelo texto.",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Texto II: tributo fúnebre e mecanismo vivo. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-25",
     "numero": 25,
     "macroModuloId": "M13",
     "submoduloId": "13.1",
-    "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
+    "contexto": "Texto I — Linguagem simples (autoral HNC)\n\nA tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos.\n\nEntretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\n\nA clareza pressupõe a decodificação clara das proposições legislativas e das comunicações institucionais. Não consiste em abandonar a precisão; consiste, antes, em arquitetar períodos sintaticamente diretos, organizar uma límpida hierarquia lógica dos conteúdos e respeitar a concordância e a regência.\n\nTexto II — Memória parlamentar (autoral HNC)\n\nA preservação da memória parlamentar não é um tributo fúnebre ao passado, mas um mecanismo vivo de prestação de contas. Ao consultar códices e anais históricos, o cidadão pode examinar as decisões dos representantes por ele eleitos. Conservar registros íntegros e acessíveis é condição para que essa fiscalização não dependa apenas da memória individual.\n\nMalgrado sejam elevadas as exigências técnicas e financeiras, cabe às bibliotecas parlamentares articular custódia, organização e acesso. A digitalização desregrada ou meramente utilitarista pode comprometer a integridade dos documentos; sua reprodução demanda metadados e estratégias de preservação. Nesse contexto, accountability abrange prestação de contas e responsabilização; digitalizar não é dispensar a gestão técnica da memória.",
     "item": "O Texto I e o Texto II convergem para a tese de que a atuação técnica dos bibliotecários e redatores parlamentares deve subordinar-se estritamente aos interesses de conveniência política do governo de plantão.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A atividade legislativa e de apoio biblioteconômico no Parlamento vincula-se ao Estado e à soberania popular (CF/88, art. 37, caput — princípio da impessoalidade). Os textos rechaçam qualquer subordinação casuística aos interesses de governos circunstanciais.",
-    "armadilhaBanca": "Inversão do princípio da impessoalidade: imputar subserviência partidária temporal à atuação técnica de carreira no serviço público.",
+    "justificativa": "ERRADO. Os textos vinculam clareza a direitos e preservação a fiscalização dos representantes. Não defendem subordinação técnica à conveniência do governante. A convergência está em condições de cidadania e controle, não na eliminação de autonomia profissional para favorecer o poder de turno.",
+    "armadilhaBanca": "Comparar teses sem inventar uma finalidade comum.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Ambos os textos ressaltam que os servidores e bibliotecários parlamentares devem orientar sua atuação técnica com base nos princípios republicanos da impessoalidade, legalidade e interesse público suprapartidário."
+    "versao_correta": "Os textos articulam comunicação e memória ao exercício de direitos e ao controle público.",
+    "gatilho": "governo de plantão",
+    "fonte": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar — Textos I e II: cidadania e controle. Fonte no acervo de estudos do HNC.",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-26",
     "numero": 26,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na oração 'Sabe-se que a transparência fortalece a democracia', a palavra 'se' atua como partícula apassivadora e a oração iniciada por 'que' exerce a função sintática de sujeito oracional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Aplicação da clássica regra de sintaxe: o verbo 'saber' é transitivo direto (VTD) e a oração introduzida pela conjunção integrante 'que' pode ser substituída pelo pronome demonstrativo 'isso' ('Sabe-se isso' = 'Isso é sabido'). Como a voz passiva analítica correspondente tem 'isso' como sujeito, na voz passiva sintética a oração 'que a transparência fortalece a democracia' atua como sujeito oracional (oração subordinada substantiva subjetiva) e a partícula 'se' classifica-se como pronome apassivador.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A análise tradicional admite a paráfrase É sabido que a transparência fortalece a democracia. A oração iniciada por que ocupa a posição de sujeito, e se é apassivador. Não se confunde esse caso com Trata-se de diretrizes, em que o complemento é preposicionado.",
+    "armadilhaBanca": "Distinguir conjunção integrante, sujeito oracional e indeterminação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "'se' atua como partícula apassivadora e a",
-    "versao_errada": "Na oração 'Sabe-se que a transparência fortalece a democracia', a palavra indevidamente 'se' atua como partícula apassivadora e a oração iniciada por 'que' exerce a função sintática de sujeito oracional."
+    "gatilho": "sujeito oracional",
+    "versao_errada": "Em Sabe-se que a transparência fortalece a democracia, que é pronome relativo com antecedente nominal expresso.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: passiva sintética com sujeito oracional — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-27",
     "numero": 27,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na oração 'Trata-se de diretrizes inafastáveis para a biblioteca', a partícula 'se' classifica-se como pronome apassivador, motivo pelo qual o verbo deveria estar flexionado no plural ('Tratam-se').",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme Celso Cunha e Evanildo Bechara, com verbos transitivos indiretos regidos de preposição (como \"tratar de\"), a partícula \"se\" é índice de indeterminação do sujeito (IIS). Nessa estrutura, a oração possui sujeito indeterminado e o verbo fica OBRIGATORIAMENTE na 3ª pessoa do singular. A forma \"tratam-se de\" constitui erro crasso.",
-    "armadilhaBanca": "Atração errônea de número: induzir concordância no plural com o termo preposicionado que funciona como objeto indireto.",
+    "justificativa": "ERRADO. Trata-se de tem construção de sujeito indeterminado e complemento introduzido por de. Diretrizes não é sujeito paciente, portanto não determina plural verbal. A transformação para passiva analítica não funciona como em Aprovam-se diretrizes.",
+    "armadilhaBanca": "Distinguir verbo com complemento preposicionado e passiva sintética.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração \"Trata-se de diretrizes inafastáveis para a biblioteca\", a partícula \"se\" atua como índice de indeterminação do sujeito em verbo transitivo indireto (VTI), tornando a flexão de plural (\"Tratam-se\") terminantemente proibida."
+    "versao_correta": "A construção padrão é Trata-se de diretrizes, com verbo na terceira pessoa do singular.",
+    "gatilho": "Tratam-se",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe e concordância: tratar-se de — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-28",
     "numero": 28,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "No segmento 'O projeto de lei que foi aprovado pelo plenário segue para sanção', a palavra 'que' classifica-se como pronome relativo e introduz oração subordinada adjetiva restritiva.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O conectivo 'que' retoma o substantivo antecedente 'projeto de lei' e pode ser substituído por 'o qual' ('O projeto de lei o qual foi aprovado...'), preenchendo todos os requisitos do pronome relativo. Por não estar delimitada por vírgulas, a oração restringe o sentido de 'projeto de lei', individualizando apenas aquele projeto específico que obteve a aprovação parlamentar (oração subordinada adjetiva restritiva).",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Que retoma projeto de lei e integra a oração que foi aprovado pelo plenário. Sem vírgulas, ela delimita o referente. Isso não afirma, sozinho, que houve outros projetos rejeitados: a função restritiva deve ser separada de suposições sobre o universo externo.",
+    "armadilhaBanca": "Reconhecer antecedente e função delimitadora.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "plenário segue para sanção', a palavra 'que'",
-    "versao_errada": "No segmento 'O projeto de lei que foi aprovado pelo indevidamente plenário segue para sanção', a palavra 'que' classifica-se como pronome relativo e introduz oração subordinada adjetiva restritiva."
+    "gatilho": "restritiva",
+    "versao_errada": "Que é conjunção integrante sem relação com projeto de lei e introduz oração substantiva.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: relativo e oração adjetiva — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-29",
     "numero": 29,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na frase 'É imperioso que todos colaborem com a preservação', a palavra 'que' atua como pronome relativo cujo referente é o adjetivo 'imperioso'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O pronome relativo substitui e retoma um substantivo ou pronome substantivo antecedente. O vocábulo \"que\", no excerto, não possui antecedente substantivo, ligando a oração principal à oração substantiva subjetiva (\"Que todos colaborem com a preservação é imperioso\"). Trata-se, pois, de conjunção integrante.",
-    "armadilhaBanca": "Confusão entre conjunção integrante e pronome relativo: qualificar como pronome relativo um conectivo sem antecedente substantivo.",
+    "justificativa": "ERRADO. Que introduz o conteúdo considerado imperioso; não retoma imperioso como antecedente nominal. A oração todos colaborem com a preservação exerce função de sujeito na análise tradicional. A pergunta O que é imperioso? ajuda a localizar essa função.",
+    "armadilhaBanca": "Não confundir ligação a uma palavra anterior com retomada relativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "No período \"É imperioso que todos colaborem com a preservação\", o vocábulo \"que\" é uma conjunção subordinativa integrante, que introduz uma oração subordinada substantiva subjetiva (sujeito oracional de \"É imperioso\")."
+    "versao_correta": "Que é conjunção integrante e introduz oração subordinada substantiva subjetiva.",
+    "gatilho": "pronome relativo",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: sujeito oracional — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-30",
@@ -545,16 +619,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A substituição do trecho 'A comissão rejeitou o requerimento do parlamentar' por 'O requerimento do parlamentar foi rejeitado pela comissão' preserva rigorosamente a correção gramatical e a equivalência semântica proposicional do enunciado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Operação canônica de conversão da voz ativa para a passiva analítica: o sujeito agente ('A comissão') transforma-se em agente da passiva ('pela comissão'); o verbo principal ('rejeitou', no pretérito perfeito do indicativo) é substituído pelo auxiliar 'foi' no mesmo tempo/modo mais o particípio ('foi rejeitado'); e o objeto direto ('o requerimento do parlamentar') assume a função de sujeito paciente. A proposição semântica e a correção gramatical permanecem incólumes.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A comissão passa de sujeito agente a agente da passiva, e o requerimento passa de objeto direto a sujeito paciente. O passado é preservado por foi + rejeitado. A perspectiva informacional muda, mas a informação básica de quem rejeitou o quê permanece.",
+    "armadilhaBanca": "Separar informação proposicional, foco e tempo verbal.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "requerimento do parlamentar foi rejeitado pela comissão'",
-    "versao_errada": "A substituição do trecho 'A comissão rejeitou o requerimento do parlamentar' por 'O indevidamente requerimento do parlamentar foi rejeitado pela comissão' preserva rigorosamente a correção gramatical e a equivalência semântica proposicional do enunciado."
+    "gatilho": "foi rejeitado",
+    "versao_errada": "A transposição correta exige O requerimento será rejeitado, pois mudar a voz obriga a mudar o tempo verbal.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: transposição de voz ativa e passiva — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-31",
@@ -564,16 +640,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A reescrita do período 'Embora houvesse divergências regimentais, o texto foi aprovado' por 'Apesar de haver divergências regimentais, aprovou-se o texto' preserva a relação de concessão e a correção gramatical.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A locução prepositiva 'apesar de' rege verbo no infinitivo ('apesar de haver') e mantém a mesmíssima relação semântica de concessão da conjunção subordinativa 'embora' com verbo no imperfeito do subjuntivo ('embora houvesse'). Na oração principal, a conversão de 'o texto foi aprovado' para a passiva sintética 'aprovou-se o texto' é plenamente legítima na norma culta, preservando a correção e o sentido.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Embora houvesse e apesar de haver mantêm a concessão. Haver existencial continua impessoal; aprovou-se o texto é passiva sintética com sujeito singular. A reescrita troca estruturas, preservando o contraste entre divergências e aprovação.",
+    "armadilhaBanca": "Conferir simultaneamente nexo, concordância e voz.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "por 'Apesar de haver divergências regimentais, aprovou-se",
-    "versao_errada": "A reescrita do período 'Embora houvesse divergências regimentais, o texto foi aprovado' indevidamente por 'apesar de haver divergências regimentais, aprovou-se o texto' preserva a relação de concessão e a correção gramatical."
+    "gatilho": "Apesar de haver",
+    "versao_errada": "Apesar de haver divergências transforma a relação em causa da aprovação, eliminando a concessão.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — reescrita: concessão e haver impessoal — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-32",
@@ -583,348 +661,397 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A reescrita de 'A aprovação da proposta dependia do parecer' por 'A aprovação da proposta dependia com o parecer' mantém a correção gramatical segundo a norma culta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo \"depender\" é transitivo indireto e rege com exclusividade a preposição \"de\" (depender de alguém ou de algo). A regência com preposição \"com\" é agramatical e colide com as regras de regência verbal do padrão culto.",
-    "armadilhaBanca": "Permutação indevida de preposição: substituir preposição regida obrigatória por outra sem amparo normativo.",
+    "justificativa": "ERRADO. Depender seleciona de nessa acepção: dependia do parecer. Com não preserva a regência nem a relação requerida. O teste de reescrita deve verificar o verbo e o complemento, e não apenas se ambas as preposições existem na língua.",
+    "armadilhaBanca": "Trocar preposição selecionada pelo verbo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A regência canônica do verbo \"depender\" exige a preposição \"de\" (\"dependia do parecer\"), sendo gramaticalmente inaceitável o emprego da preposição \"com\" (\"dependia com o parecer\")."
+    "versao_correta": "A construção adequada nessa acepção é A aprovação dependia do parecer.",
+    "gatilho": "dependia com",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8: regência e complemento — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-33",
     "numero": 33,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na frase 'O presidente da mesa considerou a emenda inconstitucional', o termo 'inconstitucional' exerce a função sintática de predicativo do objeto direto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O verbo 'considerar' atua como transitivo direto, exigindo o complemento direto 'a emenda'. O adjetivo 'inconstitucional' não é um mero adjunto adnominal inerente ao substantivo, mas sim uma atribuição de estado/qualidade conferida transitoriamente pelo sujeito ao objeto por meio do processo verbal. Logo, 'inconstitucional' classifica-se estritamente como predicativo do objeto direto.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Considerou atribui ao objeto a emenda a propriedade inconstitucional. O adjetivo não integra simplesmente uma identificação nominal fixa; expressa o julgamento do sujeito sobre o objeto. A estrutura reúne objeto direto e predicativo desse objeto.",
+    "armadilhaBanca": "Distinguir objeto e propriedade atribuída ao objeto.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "emenda inconstitucional', o termo 'inconstitucional' exerce a",
-    "versao_errada": "Na frase 'O presidente da mesa considerou a indevidamente emenda inconstitucional', o termo 'inconstitucional' exerce a função sintática de predicativo do objeto direto."
+    "gatilho": "predicativo do objeto",
+    "versao_errada": "Inconstitucional é o sujeito da oração e a emenda é apenas adjunto adverbial.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: predicativo do objeto — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-34",
     "numero": 34,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na oração 'Assistiu-se aos debates parlamentares com grande atenção', o verbo 'assistir' possui sentido de presenciar e rege preposição 'a', funcionando o termo 'aos debates' como objeto indireto e a palavra 'se' como índice de indeterminação do sujeito.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. No padrão culto (Cunha & Cintra, Bechara), o verbo 'assistir' no sentido de presenciar/ver é transitivo indireto regido pela preposição 'a'. Acompanhado da partícula 'se', como não há objeto direto passível de conversão em sujeito paciente, o 'se' atua compulsoriamente como índice de indeterminação do sujeito (IIS/PIS), exigindo que o verbo permaneça invariável na terceira pessoa do singular e 'aos debates parlamentares' exerça a função de objeto indireto.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Na regência de presenciar adotada pelo Manual, assistir seleciona a; aos debates é complemento preposicionado. O se indetermina o sujeito e o verbo fica no singular. Essa análise não se transfere ao sentido de auxiliar, que admite outra regência.",
+    "armadilhaBanca": "Distinguir acepção verbal e função do se.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "e rege preposição 'a', funcionando o termo",
-    "versao_errada": "Na oração 'Assistiu-se aos debates parlamentares com grande atenção', o verbo 'assistir' possui sentido de presenciar indevidamente e rege preposição 'a', funcionando o termo 'aos debates' como objeto indireto e a palavra 'se' como índice de indeterminação do sujeito."
+    "gatilho": "índice de indeterminação",
+    "versao_errada": "No sentido de presenciar adotado na frase, aos debates é sujeito paciente e obriga Assistiram-se.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seções 11.8.1 e 11.7.1: assistir e sujeito indeterminado — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-35",
     "numero": 35,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A flexão de plural na frase 'Assistiram-se aos debates parlamentares' é gramaticalmente correta em virtude da concordância com o termo no plural.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo \"assistir\" no sentido de presenciar/ver é transitivo indireto regido pela preposição \"a\" (\"assistir a algo\"). Acompanhado do \"se\", este classifica-se como índice de indeterminação do sujeito. Não havendo sujeito paciente (o termo \"aos debates\" é objeto indireto), o verbo não pode concordar no plural, ficando fixo na 3ª pessoa do singular.",
-    "armadilhaBanca": "Falsa apassivação de VTI: tentar concordar verbo transitivo indireto com seu objeto indireto pluralizado.",
+    "justificativa": "ERRADO. Na análise de Assistiu-se aos debates, o complemento com preposição não é sujeito. A indeterminação mantém terceira pessoa singular. Pluralizar o verbo por atração de debates confunde esse caso com a passiva de verbo transitivo direto.",
+    "armadilhaBanca": "Não concordar verbo impessoalizado com complemento preposicionado.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração com verbo transitivo indireto acompanhado de índice de indeterminação do sujeito, o verbo permanece compulsoriamente no singular: \"Assistiu-se aos debates parlamentares\"."
+    "versao_correta": "A forma compatível com a construção é Assistiu-se aos debates parlamentares.",
+    "gatilho": "Assistiram-se",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seções 11.7.1 e 11.8.1: assistir a — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-36",
     "numero": 36,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "O pronome relativo 'cujo' estabelece relação sintático-semântica de posse entre dois termos substantivos e concorda em gênero e número com o termo subsequente (coisa possuída).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a doutrina gramatical de Celso Cunha e Evanildo Bechara, o pronome relativo 'cujo' (e suas flexões 'cuja', 'cujos', 'cujas') possui três propriedades inegociáveis: 1) posiciona-se estritamente entre dois substantivos, estabelecendo vínculo semântico de posse (possuidor antecedente e coisa possuída subsequente); 2) concorda compulsoriamente em gênero e número com o termo posterior (a coisa possuída); e 3) jamais admite posposição de artigo ('cujo o' e 'cuja a' são erros crassos).",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Cujo relaciona um referente possuidor a outro, com concordância com o núcleo possuído: a comissão cujos pareceres. A concordância não é feita com comissão nesse exemplo. O relativo não deve ser seguido de artigo que duplique a determinação.",
+    "armadilhaBanca": "Identificar o núcleo que determina concordância.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "entre dois termos substantivos e concorda em",
-    "versao_errada": "O pronome relativo 'cujo' estabelece relação sintático-semântica de posse indevidamente entre dois termos substantivos e concorda em gênero e número com o termo subsequente (coisa possuída)."
+    "gatilho": "termo subsequente",
+    "versao_errada": "Em a comissão cujos pareceres, cujos deve ficar no feminino singular por concordar com comissão.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: relativo cujo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-37",
     "numero": 37,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A inserção de artigo definido após o pronome relativo 'cujo' ('cujo o projeto foi aprovado') é plenamente aceita e recomendada pela norma culta formal da língua portuguesa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme preceitua a gramática normativa (Cunha & Cintra, Bechara), o pronome relativo \"cujo\" já encerra em si a ideia de determinação genitiva, sendo expressamente proibida a posposição de artigo definido (cujo o, cuja a, cujos os, cujas as).",
-    "armadilhaBanca": "Pleonasmo determinativo com \"cujo\": tentar legitimar a inserção de artigo definido após pronome que já opera como determinante possessivo relativo.",
+    "justificativa": "ERRADO. O relativo cujo não recebe artigo entre ele e o nome que o segue: cujo projeto. Em cuja proposta e cujos pareceres, a flexão pertence ao próprio relativo. A norma não recomenda acrescentar o ou a para tornar a posse mais explícita.",
+    "armadilhaBanca": "Inserir determinação indevida depois do relativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O pronome relativo \"cujo\" (e suas flexões) vincula posse entre substantivos e repele terminantemente o uso de artigo posposto: o correto é \"cujo projeto foi aprovado\", sendo o uso de \"cujo o\" erro sintático absoluto."
+    "versao_correta": "A construção formal é cujo projeto foi aprovado, sem artigo o após cujo.",
+    "gatilho": "cujo o",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: relativo cujo e artigo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-38",
     "numero": 38,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na oração 'Aprovou-se a nova resolução legislativa', a palavra 'se' classifica-se como pronome apassivador, e o termo 'a nova resolução legislativa' é o sujeito paciente da oração.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Emprego clássico de voz passiva sintética: o verbo 'aprovar' é transitivo direto (VTD) e a oração admite transposição para a passiva analítica ('A nova resolução legislativa foi aprovada'). Nesse arranjo, 'a nova resolução legislativa' é o sujeito sintático paciente (se estivesse no plural, 'as novas resoluções', o verbo obrigatoriamente iria ao plural: 'Aprovaram-se') e a partícula 'se' classifica-se como pronome apassivador.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A estrutura equivale a A nova resolução legislativa foi aprovada. O termo recebe a ação e controla a concordância. A presença de se não implica automaticamente sujeito indeterminado; é necessário examinar a transitividade e a possibilidade de passiva.",
+    "armadilhaBanca": "Usar passiva analítica como teste de análise.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "classifica-se como pronome apassivador, e o termo",
-    "versao_errada": "Na oração 'Aprovou-se a nova resolução legislativa', a palavra 'se' indevidamente classifica-se como pronome apassivador, e o termo 'a nova resolução legislativa' é o sujeito paciente da oração."
+    "gatilho": "sujeito paciente",
+    "versao_errada": "Em Aprovou-se a nova resolução, a nova resolução é objeto indireto e não pode ser sujeito.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: passiva sintética — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-39",
     "numero": 39,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Em 'Aprovou-se as novas resoluções legislativas', a ausência de flexão do verbo no plural configura estrutura plenamente conforme ao padrão culto da língua.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na voz passiva sintética (VTD + partícula \"se\"), o termo que parece objeto direto é na realidade o sujeito paciente da oração (\"As novas resoluções legislativas foram aprovadas\"). Por força da regra geral de concordância verbal, o verbo concorda obrigatoriamente com o núcleo do sujeito em número e pessoa.",
-    "armadilhaBanca": "Tratamento de voz passiva sintética como sujeito indeterminado: deixar o verbo no singular quando o sujeito paciente está no plural.",
+    "justificativa": "ERRADO. O sujeito paciente é plural, as novas resoluções, e exige Aprovaram-se. O se apassivador não neutraliza concordância. Comparar com As resoluções foram aprovadas ajuda a distinguir o caso de Trata-se de resoluções.",
+    "armadilhaBanca": "Distinguir passiva concordante e sujeito indeterminado.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Em orações na voz passiva sintética formadas por verbo transitivo direto mais pronome apassivador \"se\", a concordância com o sujeito paciente é obrigatória: \"Aprovaram-se as novas resoluções legislativas\"."
+    "versao_correta": "A forma padrão é Aprovaram-se as novas resoluções legislativas.",
+    "gatilho": "Aprovou-se as",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.1: concordância na passiva sintética — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-40",
     "numero": 40,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.1",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na sentença 'Ele agiu tão prudentemente que evitou a anulação do certame', a oração iniciada pela palavra 'que' classifica-se como subordinada adverbial consecutiva.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Estrutura de correlação intensivo-consecutiva: a presença de um advérbio ou pronome de intensidade na oração principal ('tão', 'tanto', 'tal', 'tamanho') articulado à conjunção subordinativa 'que' instaura uma oração subordinada adverbial consecutiva, cujo conteúdo expressa o resultado ou efeito prático decorrente da intensidade com que a ação foi praticada.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Tão intensifica o modo de agir e que introduz o resultado: evitou a anulação. A construção correlativa caracteriza consequência. Não basta encontrar que para classificá-lo como relativo, nem o conteúdo desejável torna a oração automaticamente final.",
+    "armadilhaBanca": "Reconhecer correlação de intensidade e resultado.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "a anulação do certame', a oração iniciada",
-    "versao_errada": "Na sentença 'Ele agiu tão prudentemente que evitou indevidamente a anulação do certame', a oração iniciada pela palavra 'que' classifica-se como subordinada adverbial consecutiva."
+    "gatilho": "tão prudentemente que",
+    "versao_errada": "A oração que evitou a anulação expressa comparação de igualdade, não consequência.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: correlação consecutiva — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-41",
     "numero": 41,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.1",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A substituição de 'a fim de' por 'ao fim de' na frase 'Reuniu a equipe a fim de esclarecer o regimento' preserva a ideia original de finalidade.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Trata-se de distinção semântica essencial: \"a fim de\" expressa meta/objetivo (\"Reuniu a equipe a fim de esclarecer\" = com a finalidade de esclarecer); já \"ao fim de\" refere-se a tempo cronológico transcorrido (\"ao fim de três horas\"). A troca desnatura o nexo teleológico original.",
-    "armadilhaBanca": "Paronímia de locuções: confundir a locução final \"a fim de\" com a locução temporal \"ao fim de\".",
+    "justificativa": "ERRADO. A fim de expressa finalidade; ao fim de tende a indicar término ou marco temporal. Reunir para esclarecer não é o mesmo que reunir ao término de esclarecer. A troca altera a relação semântica, ainda que as locuções sejam formalmente possíveis em outros contextos.",
+    "armadilhaBanca": "Distinguir locuções graficamente próximas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A locução prepositiva \"a fim de\" exprime propósito ou finalidade (equivalente a \"para\"), ao passo que \"ao fim de\" exprime circunstância temporal de conclusão ou término de intervalo."
+    "versao_correta": "A fim de esclarecer o regimento indica finalidade, não o término temporal da atividade de esclarecer.",
+    "gatilho": "ao fim de",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — semântica e reescrita: fim — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-42",
     "numero": 42,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A oração 'O documento de que necessitamos foi localizado' apresenta regência adequada do verbo necessitar, com emprego correto da preposição 'de' antes do pronome relativo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O verbo 'necessitar' é transitivo indireto e rege a preposição 'de' ('quem necessita, necessita de algo'). Quando o complemento regido é retomado pelo pronome relativo 'que' na oração subordinada adjetiva, a preposição exigida pelo verbo subordinado deve obrigatoriamente ser anteposta ao pronome relativo: 'o documento DE QUE necessitamos'. Omitir a preposição constituiria incorreção gramatical.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A regência com de é admitida e a preposição acompanha o relativo: o documento de que necessitamos. A necessidade de manter a preposição nessa análise não significa que o verbo só tenha uma regência na língua. O dicionário registra também uso direto.",
+    "armadilhaBanca": "Reconhecer uma construção válida sem excluir outra.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "apresenta regência adequada do verbo necessitar, com",
-    "versao_errada": "A oração 'O documento de que necessitamos foi localizado' indevidamente apresenta regência adequada do verbo necessitar, com emprego correto da preposição 'de' antes do pronome relativo."
+    "gatilho": "de que",
+    "versao_errada": "A existência de regência direta torna incorreta toda ocorrência de necessitar de.",
+    "fonte": "Michaelis — Dicionário Brasileiro da Língua Portuguesa: necessitar — regência: necessitar de e relativo preposicionado — https://michaelis.uol.com.br/palavra/la9KO/necessitar/",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-43",
     "numero": 43,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
-    "item": "A omissão da preposição na frase 'O documento que necessitamos foi localizado' é referendada pela norma gramatical padrão para textos de expedientes oficiais.",
-    "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo \"necessitar\" é transitivo indireto regido pela preposição \"de\" (quem necessita, necessita de algo). Quando o complemento verbal é introduzido por pronome relativo, a preposição não pode ser omitida nem postergada, devendo posicionar-se antes do relativo.",
-    "armadilhaBanca": "Omissão de preposição diante de pronome relativo: considerar natural a omissão da preposição regida pela oração adjetiva em contextos formais.",
+    "item": "O documento que necessitamos foi localizado admite análise com necessitar empregado como transitivo direto; o verbo também tem regência com de, como em o documento de que necessitamos.",
+    "gabarito": "C",
+    "justificativa": "CERTO. Necessitar admite regência direta e indireta nos registros consultados. Assim, a forma sem de não pode ser declarada incorreta por uma suposta proibição universal. A redação foi explicitada para que o julgamento considere a regência direta, em vez de apenas apagar preposição de uma análise já fixada.",
+    "armadilhaBanca": "Distinguir mudança de análise e erro de regência.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na norma culta, a preposição regida pelo verbo \"necessitar\" deve obrigatoriamente anteceder o pronome relativo: \"O documento de que necessitamos foi localizado\"."
+    "versao_correta": "",
+    "gatilho": "transitivo direto",
+    "fonte": "Michaelis — Dicionário Brasileiro da Língua Portuguesa: necessitar — regência direta e indireta de necessitar — https://michaelis.uol.com.br/palavra/la9KO/necessitar/",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "O verbo necessitar exige sempre de e nunca admite complemento direto."
   },
   {
     "id": "m13-q-44",
     "numero": 44,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "Na oração 'Consertam-se computadores para a comissão técnica', o termo 'computadores' atua sintaticamente como objeto direto da oração, tratando-se de estrutura ativa com sujeito indeterminado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo \"consertar\" é transitivo direto. Na presença do \"se\" apassivador, a oração estrutura-se na voz passiva sintética (equivalente à voz passiva analítica: \"Computadores são consertados\"). O termo \"computadores\" é, portanto, o sujeito paciente que dita a concordância no plural.",
-    "armadilhaBanca": "Pegadinha clássica do \"se\": qualificar o sujeito paciente de voz passiva sintética como objeto direto de voz ativa.",
+    "justificativa": "ERRADO. Computadores é sujeito paciente: computadores são consertados. A flexão consertam confirma a concordância com o plural. Se integra a passiva, não uma estrutura ativa de sujeito indeterminado com o mesmo objeto direto descrito.",
+    "armadilhaBanca": "Testar a voz antes de classificar o termo nominal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração \"Consertam-se computadores para a comissão técnica\", a partícula \"se\" é pronome apassivador (VTD + se) e o vocábulo \"computadores\" exerce a função sintática de sujeito paciente."
+    "versao_correta": "Em Consertam-se computadores, computadores é sujeito paciente, não objeto direto.",
+    "gatilho": "objeto direto",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: consertar na passiva sintética — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-45",
     "numero": 45,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A palavra 'se' na frase 'O deputado arrependeu-se de sua declaração' classifica-se como parte integrante do verbo (verbo pronominal acidental ou essencial).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O verbo 'arrepender-se' é essencialmente pronominal (tal como 'queixar-se', 'suicidar-se', 'vangloriar-se'), não existindo na língua portuguesa na forma não pronominal ('arrepender algo'). Por fazer parte indissociável da estrutura morfológica e lexical do verbo, o pronome oblíquo 'se' atua estritamente como Parte Integrante do Verbo (PIV), não exercendo função de objeto direto nem de índice de indeterminação.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Arrepender-se é usado como verbo pronominal na acepção da frase. Se não indica que uma declaração foi arrependida por alguém nem forma passiva. O complemento de sua declaração mantém a regência do verbo pronominal.",
+    "armadilhaBanca": "Separar verbo pronominal e voz passiva.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "de sua declaração' classifica-se como parte integrante",
-    "versao_errada": "A palavra 'se' na frase 'O deputado arrependeu-se indevidamente de sua declaração' classifica-se como parte integrante do verbo (verbo pronominal acidental ou essencial)."
+    "gatilho": "parte integrante",
+    "versao_errada": "Em arrependeu-se, se é apassivador e sua declaração é sujeito paciente.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: verbo pronominal arrepender-se — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-46",
     "numero": 46,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.3",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
-    "item": "Na oração 'Eles abraçaram-se cordialmente no plenário', a partícula 'se' indica reciprocidade da ação verbal entre os sujeitos.",
+    "item": "Em Eles abraçaram-se uns aos outros no plenário, a expressão uns aos outros explicita a leitura recíproca da ação verbal.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O pronome oblíquo 'se' funciona como pronome reflexivo recíproco, indicando que a ação verbal é mútua e compartilhada simultaneamente entre os dois ou mais núcleos do sujeito ('eles abraçaram um ao outro' ou 'mutuamente'). Na análise sintática de Cunha & Cintra, o 'se' recíproco exerce a função de objeto direto da oração.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Uns aos outros explicita a reciprocidade: cada participante abraça outro. Essa indicação evita ambiguidade com leitura reflexiva de abraçar a si mesmo. A forma se pode ter funções diferentes; o contexto precisa justificar a análise escolhida.",
+    "armadilhaBanca": "Usar evidência contextual para distinguir reflexivo e recíproco.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "plenário', a partícula 'se' indica reciprocidade da",
-    "versao_errada": "Na oração 'Eles abraçaram-se cordialmente no indevidamente plenário', a partícula 'se' indica reciprocidade da ação verbal entre os sujeitos."
+    "gatilho": "uns aos outros",
+    "versao_errada": "Com uns aos outros, se expressa exclusivamente que cada pessoa abraçou a si mesma.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: leitura recíproca — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-47",
     "numero": 47,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.1",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A reescrita da oração \"Tanto elaborou o parecer técnico quanto revisou a minuta legislativa\" por \"Elaborou o parecer técnico embora tenha revisado a minuta legislativa\" preserva o sentido e a relação lógica originais entre as orações.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a sintaxe dos períodos coordenados e subordinados, os pares correlativos aditivos (\"tanto... quanto\", \"não só... mas também\") agregam fatos de mesmo valor informativo. A substituição pelo conectivo subordinativo concessivo \"embora\" altera totalmente o sentido e a lógica do raciocínio discursivo.",
-    "armadilhaBanca": "Troca de matriz semântica: converter estrutura de reforço aditivo em oração de concessão subordinada.",
+    "justificativa": "ERRADO. Tanto ... quanto coordena duas realizações e as soma. Embora subordina uma delas como concessão, alterando a relação lógica. Mesmo que as duas ações continuem mencionadas, conservar os fatos isolados não equivale a conservar a articulação entre eles.",
+    "armadilhaBanca": "Separar inventário de fatos e relação argumentativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A estrutura \"Tanto elaborou... quanto revisou...\" estabelece valor semântico aditivo correlativo entre ações coordenadas, ao passo que \"embora\" introduz oração subordinada concessiva, gerando contraste e quebra semântica indevida."
+    "versao_correta": "A construção Tanto elaborou quanto revisou estabelece adição; a introdução de embora altera esse nexo.",
+    "gatilho": "embora",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — reescrita: adição e concessão — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-48",
     "numero": 48,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.1",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A locução conjuntiva 'visto que' expressa circunstância de finalidade, equivalendo semanticamente a 'para que' e 'a fim de que'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. \"Visto que\" introduz oração subordinada adverbial causal, denotando o motivo ou a causa do evento expresso na oração principal. Circunstância de finalidade é introduzida exclusivamente por conjunções finais como \"a fim de que\", \"para que\", \"com o propósito de que\".",
-    "armadilhaBanca": "Confusão semântica entre causa e finalidade: atribuir finalidade a conectivo eminentemente causal.",
+    "justificativa": "ERRADO. Visto que introduz causa ou explicação pertinente ao contexto, enquanto para que e a fim de que marcam finalidade. A troca não preserva automaticamente a relação temporal ou lógica. Uma razão para agir não é idêntica ao objetivo que se pretende alcançar.",
+    "armadilhaBanca": "Distinguir motivo e objetivo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A locução conjuntiva \"visto que\" expressa valor semântico causal (equivalendo a \"já que\", \"dado que\", \"porque\"), e não finalidade, cuja representação cabe a \"para que\" ou \"a fim de que\"."
+    "versao_correta": "Visto que pode introduzir causa; para que introduz finalidade.",
+    "gatilho": "finalidade",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — semântica: causa e finalidade — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-49",
     "numero": 49,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.1",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "A oração 'Mal os trabalhos iniciaram, a oposição pediu a palavra' expressa valor temporal instantâneo equivalente a 'Assim que os trabalhos iniciaram'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O vocábulo 'mal', quando introduz oração com verbo conjugado no indicativo, classifica-se como conjunção subordinativa adverbial temporal instantânea. Equivale semanticamente a 'logo que', 'assim que' ou 'apenas', denotando que o fato da oração principal ocorreu no instante imediatamente subsequente ao término do fato subordinado.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Mal, nessa construção, equivale a assim que: o pedido de palavra sucede imediatamente ao início. Não significa que os trabalhos começaram de modo ruim. O verbo e a estrutura de duas orações orientam a leitura temporal, distinta do advérbio de modo.",
+    "armadilhaBanca": "Distinguir marcador temporal e advérbio de modo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "pediu a palavra' expressa valor temporal instantâneo",
-    "versao_errada": "A oração 'Mal os trabalhos iniciaram, a oposição indevidamente pediu a palavra' expressa valor temporal instantâneo equivalente a 'Assim que os trabalhos iniciaram'."
+    "gatilho": "Assim que",
+    "versao_errada": "Mal significa que os trabalhos foram conduzidos com má qualidade, sem relação temporal com o pedido.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — semântica: mal temporal — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-50",
     "numero": 50,
     "macroModuloId": "M13",
-    "submoduloId": "13.2",
+    "submoduloId": "13.1",
     "contexto": "No que concerne à reescrita de frases, relações de sentido, paráfrase e aos múltiplos valores sintáticos do SE e do QUE, julgue o item a seguir.",
     "item": "O emprego da palavra 'onde' na oração 'Vivemos uma época onde as fake news proliferam' atende estritamente à regência espacial exigida pela norma culta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A gramática normativa de referência (Bechara, Celso Pedro Luft) interdita o emprego do relativo \"onde\" com valor temporal, modal ou conceitual. O vocábulo \"época\" designa recorte temporal; logo, o período correto é \"Vivemos uma época em que as fake news proliferam\".",
-    "armadilhaBanca": "Uso vulgarizado e generalista do \"onde\": empregar o relativo espacial para retomar antecedentes temporais, abstratos ou conceituais.",
+    "justificativa": "ERRADO. Época indica tempo, não lugar. Na escrita formal examinada, recomenda-se época em que para esse referente. Isso não significa que onde seja sempre incorreto: ele se ajusta a antecedente locativo, como sala onde ocorre a sessão.",
+    "armadilhaBanca": "Conferir natureza do antecedente do relativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na norma culta, o pronome relativo \"onde\" deve ser utilizado unicamente para indicar lugar físico ou espacial delimitado; para referências temporais ou abstratas, utilizam-se formas como \"em que\", \"na qual\" ou \"durante a qual\"."
+    "versao_correta": "A redação formal adequada ao referente temporal é uma época em que as notícias falsas proliferam.",
+    "gatilho": "época onde",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — coesão: relativo onde e referência temporal — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-51",
@@ -933,17 +1060,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "O verbo 'visar', quando empregado no sentido de ter como objetivo ou pretender, é transitivo indireto e rege compulsoriamente a preposição 'a' ('A medida visa à modernização dos serviços').",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a regência preconizada na tradição culta (Celso Pedro Luft e Evanildo Bechara), o verbo 'visar' possui tripla acepção: 1) mirar/apontar arma: transitivo direto; 2) apor visto/rubrica: transitivo direto; 3) ter em vista/objetivar/almejar: transitivo indireto regido pela preposição 'a' ('visar ao cargo', 'visar à modernização'). Por exigir a preposição 'a', quando diante de substantivo feminino acompanhado de artigo, a crase é obrigatória.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. O Manual registra regência originária indireta e admite a direta com a mesma acepção de finalidade. Portanto, compulsoriamente torna falsa a regra universal. A crase em visa à modernização é válida na construção indireta, sem tornar toda construção direta impossível.",
+    "armadilhaBanca": "Não converter regência originária em exclusividade absoluta.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "ou pretender, é transitivo indireto e rege",
-    "versao_errada": "O verbo 'visar', quando empregado no sentido de ter como objetivo indevidamente ou pretender, é transitivo indireto e rege compulsoriamente a preposição 'a' ('A medida visa à modernização dos serviços')."
+    "gatilho": "compulsoriamente",
+    "versao_errada": "",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1, visar: regência originária e uso admitido — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "Na acepção de finalidade, o Manual admite visar ao estabelecimento e visar o estabelecimento."
   },
   {
     "id": "m13-q-52",
@@ -951,17 +1081,21 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "A frase 'O novo regulamento visa o aperfeiçoamento dos procedimentos de compra' atende com rigor à regência canônica do verbo visar no padrão culto.",
-    "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No sentido de ter em mira / pretender, \"visar\" rege a preposição \"a\" (VTI). Apenas nos sentidos de mirar (apontar arma) ou apor visto (rubricar) o verbo é transitivo direto (VTD). O Cebraspe cobra exaustivamente essa diferença de regência.",
-    "armadilhaBanca": "Regência colateral de \"visar\": aceitar na escrita formal a forma popular sem preposição em contexto de finalidade/objetivo.",
+    "item": "Segundo o Manual de Redação da Presidência da República, 3ª edição, o uso direto de visar no sentido de finalidade é admitido, como em O novo regulamento visa o aperfeiçoamento dos procedimentos.",
+    "gabarito": "C",
+    "justificativa": "CERTO. O Manual exemplifica visa o estabelecimento como alternativa à construção com a. Isso sustenta uso direto em visa o aperfeiçoamento. Há manuais de estilo que preferem indireta; preferência editorial não é prova de que a variante reconhecida seja agramatical.",
+    "armadilhaBanca": "Distinguir aceitação gramatical e preferência de estilo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O verbo \"visar\", empregado na acepção de almejar, ter como objetivo ou pretender, é transitivo indireto e exige a preposição \"a\": \"O novo regulamento visa ao aperfeiçoamento...\"."
+    "versao_correta": "",
+    "gatilho": "uso direto",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1, visar: uso direto admitido — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30",
+    "versao_errada": "O reconhecimento de preferência pela regência indireta torna toda regência direta de visar incompatível com a norma."
   },
   {
     "id": "m13-q-53",
@@ -969,18 +1103,21 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "O verbo 'implicar', no sentido de ter como consequência ou acarretar, é transitivo direto, sendo incorreto o emprego da preposição 'em' ('A reforma implicará aumento de produtividade', e não 'implicará em aumento').",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na modalidade padrão (Bechara, Luft, Cegalla), o verbo 'implicar' no sentido de acarretar, gerar como consequência ou produzir como efeito é estritamente transitivo direto (VTD), repelindo a preposição 'em'. A construção coloquial 'implicar em' constitui vício de linguagem recorrentemente explorado pelas bancas de concurso, especialmente pelo Cebraspe, para induzir o candidato ao erro.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "item": "Ao tratar de implicar com sentido de acarretar, o Manual de Redação da Presidência afirma que a construção implicar em é inexistente no uso brasileiro, sem reconhecer variação.",
+    "gabarito": "E",
+    "justificativa": "ERRADO. O Manual chama implica em de inovação sintática frequente no Brasil e aconselha a sintaxe originária direta. Aconselhar uma forma não equivale a negar a existência ou possibilidade da variante. A questão foi delimitada à descrição real da fonte para evitar uma regra absoluta controvertida.",
+    "armadilhaBanca": "Distinguir descrição de variante e recomendação de uso.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "direto, sendo incorreto o emprego da preposição",
-    "versao_errada": "O verbo 'implicar', no sentido de ter como consequência ou acarretar, é transitivo indevidamente direto, sendo incorreto o emprego da preposição 'em' ('A reforma implicará aumento de produtividade', e não 'implicará em aumento')."
+    "gatilho": "sem reconhecer variação",
+    "versao_errada": "",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1, implicar: inovação e recomendação — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30",
+    "versao_correta": "O Manual registra implicar em como inovação frequente e recomenda a sintaxe originária direta."
   },
   {
     "id": "m13-q-54",
@@ -988,17 +1125,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "A oração 'A nova diretriz implicará em severas sanções aos infratores' é plenamente abonada pela norma padrão em documentos legislativos.",
+    "item": "Para seguir a recomendação de sintaxe originária do Manual de Redação da Presidência, deve-se substituir A diretriz implicará sanções pela inserção de em: A diretriz implicará em sanções.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Segundo Celso Pedro Luft e as gramáticas normativas canônicas, \"implicar\" no sentido de acarretar é transitivo direto (VTD). A regência com a preposição \"em\" (\"implicar em\") é considerada inadequada no padrão culto formal dos atos administrativos e legislativos.",
-    "armadilhaBanca": "Vício de regência do verbo implicar: admitir a preposição espúria \"em\" com o verbo implicar no sentido de acarretar.",
+    "justificativa": "ERRADO. A sintaxe originária recomendada é implica a aceitação ou implicará sanções, com complemento direto. Inserir em não segue essa recomendação, embora o Manual registre a inovação. O julgamento trata da preferência expressa, não de uma condenação universal da variante.",
+    "armadilhaBanca": "Distinguir atender a recomendação e existir como variante.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na acepção de acarretar, produzir como resultado ou ter por consequência, o verbo \"implicar\" é transitivo direto na norma culta, rejeitando preposição: \"A nova diretriz implicará severas sanções...\"."
+    "versao_correta": "Para seguir a sintaxe originária recomendada, escreve-se A diretriz implicará sanções, sem em.",
+    "gatilho": "inserção de em",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1: recomendação para implicar — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-55",
@@ -1008,16 +1148,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "O verbo 'obedecer' e seu antônimo 'desobedecer' são transitivos indiretos e regem a preposição 'a' ('O deputado obedeceu ao regimento interno').",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A norma gramatical canônica estabelece que os verbos 'obedecer' e 'desobedecer' são transitivos indiretos e regem compulsoriamente a preposição 'a' ('obedecer ao regulamento', 'desobedecer às normas'). Diante de substantivos masculinos com artigo, emprega-se a contração 'ao'; diante de substantivos femininos determinados, ocorre crase obrigatória ('obedeceu à lei').",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Os verbos selecionam a na construção formal descrita: obedecer ao regimento, desobedecer às normas. O complemento é indireto. A presença de artigo varia com o nome, mas não elimina a preposição exigida por essa regência.",
+    "armadilhaBanca": "Distinguir contração e função do complemento.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "são transitivos indiretos e regem a preposição",
-    "versao_errada": "O verbo 'obedecer' e seu antônimo 'desobedecer' indevidamente são transitivos indiretos e regem a preposição 'a' ('O deputado obedeceu ao regimento interno')."
+    "gatilho": "preposição",
+    "versao_errada": "Obedecer ao regimento contém objeto direto sem preposição.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1: obedecer e desobedecer — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-56",
@@ -1027,15 +1169,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "A substituição de 'obedeceu ao regimento' por 'obedeceu o regimento' preserva a correção gramatical estrita da frase segundo o padrão culto.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Na norma gramatical canônica, os verbos \"obedecer\" e \"desobedecer\" possuem regência transitiva indireta com a preposição \"a\". A forma de trânsito direto (\"obedeceu o regimento\") é condenada no padrão culto formal exigido nos concursos públicos.",
-    "armadilhaBanca": "Trânsito direto indevido: tomar o verbo obedecer como VTD pelo uso coloquial contemporâneo.",
+    "justificativa": "ERRADO. A forma examinada requer a preposição: obedeceu ao regimento. Trocar ao por o elimina a relação de regência adotada para o verbo nesse padrão formal. Essa avaliação não deve ser confundida com a dupla regência admitida de outros verbos, como visar.",
+    "armadilhaBanca": "Evitar transferir a regência de um verbo para outro.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Segundo o padrão culto formal, os verbos \"obedecer\" e \"desobedecer\" são transitivos indiretos e regem compulsoriamente a preposição \"a\": \"obedeceu ao regimento\"."
+    "versao_correta": "A construção compatível com a regência é obedeceu ao regimento.",
+    "gatilho": "obedeceu o",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1: obedecer a — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-57",
@@ -1045,16 +1190,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "Ocorre o sinal indicativo de crase na frase 'O diretor encaminhou a minuta à comissão temática', haja vista a fusão da preposição 'a' exigida pela regência de encaminhar com o artigo definido feminino 'a' que antecede 'comissão'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Demonstração dos dois requisitos cumulativos para o fenômeno da crase: 1) o verbo 'encaminhar' possui regência bitransitiva (encaminhar algo A alguém/algum lugar), exigindo a preposição 'a'; 2) o substantivo feminino subsequente 'comissão' aceita a determinação pelo artigo definido feminino 'a'. A superposição ou fusão da preposição com o artigo resulta obrigatoriamente no 'a' com acento grave indicativo de crase.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A minuta é o objeto encaminhado e à comissão indica destinatário. Nesse grupo há preposição a e artigo a, representados pelo acento grave. Não basta existir palavra feminina: é necessário verificar as duas ocorrências de a na estrutura.",
+    "armadilhaBanca": "Conferir preposição e determinação nominal.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "temática', haja vista a fusão da preposição",
-    "versao_errada": "Ocorre o sinal indicativo de crase na frase 'O diretor encaminhou a minuta à comissão indevidamente temática', haja vista a fusão da preposição 'a' exigida pela regência de encaminhar com o artigo definido feminino 'a' que antecede 'comissão'."
+    "gatilho": "fusão",
+    "versao_errada": "A crase aparece apenas porque comissão é feminina, independentemente da regência e do artigo.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — regência e crase: encaminhar algo a alguém — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-58",
@@ -1064,15 +1211,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "É obrigatório o uso do acento indicativo de crase diante de substantivos masculinos na frase 'Ele pagou as despesas à prazo parcelado'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A crase pressupõe a fusão da preposição \"a\" com o artigo definido feminino \"a(s)\". Diante de substantivos masculinos não ocorre artigo feminino, mas masculino (\"o\"), razão pela qual a ocorrência de crase é expressamente vedada.",
-    "armadilhaBanca": "Crase diante de palavra masculina: aplicar acento grave em locuções ou termos masculinos comuns (\"a prazo\", \"a pé\", \"a cavalo\").",
+    "justificativa": "ERRADO. Prazo é masculino e a expressão é a prazo, sem artigo feminino que se funda à preposição. O parcelamento não muda o gênero nem cria crase. Não se trata das exceções de expressão feminina subentendida, como à moda de.",
+    "armadilhaBanca": "Não inserir acento apenas por haver preposição.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na frase \"Ele pagou as despesas a prazo parcelado\", o acento grave indicativo de crase é terminantemente proibido diante do substantivo masculino (\"prazo\")."
+    "versao_correta": "A redação é pagou a prazo parcelado, sem acento grave nessa locução.",
+    "gatilho": "à prazo",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — crase: a prazo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-59",
@@ -1080,18 +1230,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "O uso do sinal indicativo de crase é facultativo diante de nomes próprios femininos e diante de pronomes possessivos femininos no singular ('Entregou o livro a sua / à sua colega').",
+    "item": "Em Entregou o livro a sua colega / à sua colega, a crase é facultativa pela possibilidade de artigo antes do possessivo feminino singular; pode haver alternância semelhante com nome de pessoa que admita artigo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Casos clássicos e taxativos de crase facultativa na língua portuguesa: 1) diante de pronomes possessivos femininos no singular (minha, tua, sua, nossa, vossa), pois o artigo definido antecedente é facultativo; 2) diante de nomes próprios femininos que não venham acompanhados de adjetivo ou expressão qualificadora; e 3) após a preposição 'até' ('foi até a/à praia'). Nos três casos, o emprego ou a omissão do acento grave é gramaticalmente correto.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. No exemplo, a presença do artigo diante de sua colega é facultativa, permitindo a sua ou à sua. Nomes de pessoa que admitem artigo também podem gerar alternância em contexto adequado. Não se generaliza a todo nome feminino, topônimo ou pronome de tratamento.",
+    "armadilhaBanca": "Delimitar contexto do artigo facultativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "próprios femininos e diante de pronomes possessivos",
-    "versao_errada": "O uso do sinal indicativo de crase é facultativo diante de nomes indevidamente próprios femininos e diante de pronomes possessivos femininos no singular ('Entregou o livro a sua / à sua colega')."
+    "gatilho": "facultativa",
+    "versao_errada": "Toda palavra feminina, inclusive qualquer nome de lugar e pronome de tratamento, admite crase facultativa.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — crase: artigo facultativo e possessivo singular — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-60",
@@ -1101,15 +1253,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "Na locução correlativa temporal 'de segunda à sexta-feira', o emprego da crase é obrigatório perante a norma padrão.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Pelo princípio do paralelismo sintático: diante de \"segunda\" há apenas preposição simples (\"de\"). Logo, diante de \"sexta-feira\" deve haver apenas preposição simples (\"a\"), tornando o acento grave proibido. Se houvesse contração com artigo no início (\"da segunda\"), haveria crase no final (\"à sexta-feira\").",
-    "armadilhaBanca": "Quebra de paralelismo em locuções temporais: misturar preposição pura inicial (\"de\") com crase final (\"à\") em intervalos temporais.",
+    "justificativa": "ERRADO. A correlação sem artigo é de segunda a sexta-feira. Com artigos, a estrutura pode ser da segunda à sexta-feira em contexto adequado. Misturar de sem artigo no primeiro termo e crase obrigatória no segundo não é a regra indicada para a expressão genérica.",
+    "armadilhaBanca": "Manter paralelismo na correlação prepositiva.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na locução correlativa temporal \"de segunda a sexta-feira\", o paralelismo sintático veda a crase no segundo termo pela ausência de artigo no primeiro termo (\"de\" preposição pura); apenas se houvesse \"da segunda\" ter-se-ia \"à sexta-feira\"."
+    "versao_correta": "Na expressão genérica, escreve-se de segunda a sexta-feira, sem acento grave.",
+    "gatilho": "de segunda à sexta-feira",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — crase: correlação de ... a — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-61",
@@ -1119,15 +1274,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "A oração 'Faziam dez anos que a lei não era revisada' está gramaticalmente correta quanto à concordância verbal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme Evanildo Bechara e Celso Cunha, os verbos \"haver\" (sentido de existir ou tempo transcorrido) e \"fazer\" (sentido de tempo decorrido ou fenômeno meteorológico) são gramaticalmente impessoais. O termo seguinte (\"dez anos\") é seu objeto direto, e não sujeito, ficando o verbo imune à flexão de plural.",
-    "armadilhaBanca": "Falsa concordância com complemento temporal: pluralizar verbo impessoal com base na expressão de tempo que atua como objeto direto.",
+    "justificativa": "ERRADO. Fazer na indicação de tempo transcorrido é impessoal e fica no singular: Faz dez anos. Dez anos não é sujeito que determine plural. A regra se transmite ao auxiliar: Vai fazer dez anos, não vão fazer nesse emprego.",
+    "armadilhaBanca": "Não concordar verbo impessoal com expressão de tempo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O verbo \"fazer\", quando empregado na acepção de tempo decorrido, é verbo impessoal (não possui sujeito), devendo permanecer fixado na 3ª pessoa do singular: \"Fazia dez anos...\"."
+    "versao_correta": "Fazia dez anos que a lei não era revisada é a forma compatível com fazer impessoal.",
+    "gatilho": "Faziam",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.1: fazer de tempo transcorrido — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-62",
@@ -1137,16 +1295,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "O verbo 'haver' no sentido de existir ou ocorrer é impessoal e não flexiona no plural ('Havia muitas emendas pendentes de votação', e não 'Haviam muitas emendas').",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Quando empregado na acepção de 'existir', 'acontecer' ou 'ocorrer' (bem como na contagem de tempo transcorrido), o verbo 'haver' é gramaticalmente impessoal: não possui sujeito e deve ser conjugado compulsoriamente na terceira pessoa do singular, independentemente de o termo que funciona como objeto direto estar no plural ('Havia muitas emendas', 'Houve dois incidentes'). O uso de 'haviam' ou 'houveram' nessas hipóteses constitui erro gramatical.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. No sentido de existir, haver não tem sujeito e permanece na terceira pessoa singular. Muitas emendas não determina plural. Essa impessoalidade não se transfere ao verbo existir, que tem sujeito e concorda com ele.",
+    "armadilhaBanca": "Distinguir construções semanticamente próximas e sintaticamente diferentes.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "impessoal e não flexiona no plural ('Havia",
-    "versao_errada": "O verbo 'haver' no sentido de existir ou ocorrer é indevidamente impessoal e não flexiona no plural ('havia muitas emendas pendentes de votação', e não 'Haviam muitas emendas')."
+    "gatilho": "impessoal",
+    "versao_errada": "Haver e existir são sempre impessoais e devem ficar ambos no singular.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.1: haver existencial — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-63",
@@ -1156,16 +1316,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "Na frase 'Existiam muitas emendas pendentes de votação', o verbo 'existir' concorda legitimamente no plural com o sujeito 'muitas emendas'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Diferentemente do verbo 'haver', o verbo 'existir' é pleno e pessoal: possui sujeito sintático e flexiona obrigatoriamente em número e pessoa para concordar com o seu sujeito. No exemplo, 'muitas emendas pendentes de votação' atua como sujeito sintático no plural; logo, a flexão no plural 'existiam' é não apenas legítima, mas estritamente obrigatória pela concordância verbal.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Em Existiam muitas emendas, o grupo muitas emendas é sujeito plural. A posição posterior ao verbo não retira sua função. Substituir por haver exige ajustar a construção para Havia, sem copiar automaticamente a flexão.",
+    "armadilhaBanca": "Identificar sujeito mesmo posposto.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "votação', o verbo 'existir' concorda legitimamente no",
-    "versao_errada": "Na frase 'Existiam muitas emendas pendentes de indevidamente votação', o verbo 'existir' concorda legitimamente no plural com o sujeito 'muitas emendas'."
+    "gatilho": "concorda",
+    "versao_errada": "Em Existiam muitas emendas, muitas emendas é objeto direto e existir deve ficar sempre no singular.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.1: existir e sujeito plural — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-64",
@@ -1175,16 +1337,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "Em expressões partitivas seguidas de substantivo no plural ('A maioria dos parlamentares votou / votaram favoravelmente'), a concordância verbal pode ser feita tanto no singular quanto no plural.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Tratando-se de sujeito constituído por expressão partitiva ou coletivo partitivo no singular ('a maioria de', 'a maior parte de', 'grande número de', 'a metade de') seguido de adjunto no plural, a sintaxe da língua portuguesa admite dupla concordância facultativa: concordância lógica ou gramatical com o núcleo partitivo no singular ('votou') ou concordância atrativa/ideológica com o substantivo no plural do adjunto ('votaram'). Ambas são irrepreensíveis na norma culta.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Com expressão partitiva acompanhada de plural, admite-se concordância com o núcleo singular ou com o especificador plural. As duas formas não autorizam pluralizar qualquer coletivo em qualquer frase. A opção depende da estrutura efetiva do sujeito.",
+    "armadilhaBanca": "Distinguir opção admitida e atração indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "parlamentares votou / votaram favoravelmente'), a concordância",
-    "versao_errada": "Em expressões partitivas seguidas de substantivo no plural ('A maioria dos indevidamente parlamentares votou / votaram favoravelmente'), a concordância verbal pode ser feita tanto no singular quanto no plural."
+    "gatilho": "tanto no singular quanto no plural",
+    "versao_errada": "A maioria dos parlamentares votaram é sempre impossível porque maioria está no singular.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.1: expressão partitiva — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-65",
@@ -1194,15 +1358,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "A frase 'Mais de um deputado apresentaram propostas semelhantes' está de acordo com a regra geral de concordância da expressão 'mais de um'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A locução \"mais de um\" atrai a concordância verbal no singular por força da atração imediata do numeral (\"um\"), ressalvadas apenas duas hipóteses excepcionais: quando houver reciprocidade de ação (\"mais de um deputado se agrediram\") ou repetição do conectivo (\"mais de um deputado, mais de um senador compareceram\").",
-    "armadilhaBanca": "Concordância ideológica indevida com \"mais de um\": flexionar o verbo no plural pela ideia de multiplicidade sem que haja reciprocidade de ação.",
+    "justificativa": "ERRADO. Na regra geral de mais de um + singular, o verbo fica no singular: Mais de um deputado apresentou. Existem casos específicos, como reciprocidade explicitada, que não aparecem na frase. Exceção de outra construção não valida o plural deste enunciado.",
+    "armadilhaBanca": "Preservar a regra geral e não importar exceção sem contexto.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na regra geral de concordância com a locução \"mais de um\", o verbo deve flexionar-se no singular em consonância com o numeral \"um\": \"Mais de um deputado apresentou propostas semelhantes\"."
+    "versao_correta": "A forma da regra geral é Mais de um deputado apresentou propostas semelhantes.",
+    "gatilho": "apresentaram",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — concordância: mais de um — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-66",
@@ -1212,15 +1379,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "O adjetivo anteposto a substantivos coordenados de gêneros diferentes flexiona-se preferencialmente no masculino plural, afastando-se a concordância atrativa com o termo imediatamente subsequente.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a doutrina gramatical de Cunha & Cintra, quando o adjetivo antecede mais de um substantivo, ele concorda obrigatoriamente com o núcleo mais próximo (em gênero e número). A flexão no masculino plural só é alternativa lícita quando o adjetivo estiver posposto aos substantivos.",
-    "armadilhaBanca": "Inversão das regras de adjetivo anteposto e posposto: estender a regra do adjetivo posposto (soma ou proximidade) para a posição anteposta (exclusivamente proximidade).",
+    "justificativa": "ERRADO. A anteposição admite concordância atrativa com o substantivo mais próximo nas construções pertinentes. O item apresenta o masculino plural como preferência universal e afasta justamente a atração. Ordem, função do adjetivo e eventuais nomes de pessoa devem ser examinados, sem uma fórmula única.",
+    "armadilhaBanca": "Apagar alternativa de concordância por regra universal.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O adjetivo anteposto a múltiplos substantivos coordenados de gêneros diferentes concorda obrigatoriamente com o substantivo mais próximo (concordância atrativa imediata): por exemplo, \"apresentou excelente argumento e justificativa\"."
+    "versao_correta": "O adjetivo anteposto pode concordar por atração com o substantivo mais próximo, nas construções admitidas.",
+    "gatilho": "afastando-se",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.2: adjetivo anteposto — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-67",
@@ -1228,17 +1398,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "A palavra 'meio' na frase 'Ela ficoumeia preocupada com o resultado' foi empregada de acordo com as regras de flexão da norma culta.",
+    "item": "A palavra meio foi flexionada corretamente em Ela ficou meia preocupada com o resultado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. \"Meio\" apenas se flexiona como adjetivo numeral fracionário quando quantifica substantivo (\"comeu meia maçã\"). Quando modifica adjetivo ou verbo, atua como advérbio de intensidade/modo, mantendo-se estritamente invariável no padrão culto formal.",
-    "armadilhaBanca": "Flexão indevida de advérbio: flexionar \"meio\" no gênero feminino por falsa concordância com adjetivo subsequente.",
+    "justificativa": "ERRADO. Meio, no sentido de um pouco, modifica preocupada e funciona como advérbio invariável. A forma é meio preocupada. A flexão existe em outro emprego, como meia folha, no qual meio tem valor numeral e concorda com o nome.",
+    "armadilhaBanca": "Distinguir advérbio e numeral.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "No contexto de modificador adverbial com sentido de \"um tanto\" ou \"parcialmente\", a palavra \"meio\" é advérbio e, como tal, é terminantemente invariável: \"Ela ficou meio preocupada...\"."
+    "versao_correta": "A forma é Ela ficou meio preocupada, com meio invariável por ser advérbio.",
+    "gatilho": "meia preocupada",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.2: meio advérbio — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-68",
@@ -1248,16 +1421,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "A palavra 'anexo' flexiona em gênero e número concordando com o substantivo a que se refere ('Seguem anexas as planilhas orçamentárias').",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A palavra 'anexo' tem natureza de adjetivo quando qualifica substantivo, devendo concordar em gênero e número com o termo a que se refere ('documento anexo', 'planilha anexa', 'documentos anexos', 'planilhas anexas'). Por outro lado, a locução prepositiva adverbial 'em anexo' é morfologicamente invariável, embora o Manual de Redação da Presidência da República recomende priorizar a forma adjetiva concordada ('anexo').",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Anexo como adjetivo concorda com planilhas, feminino plural: Seguem anexas. O verbo também concorda com o sujeito plural. Isso difere da locução em anexo, cuja estrutura não flexiona o substantivo anexo dessa maneira.",
+    "armadilhaBanca": "Separar adjetivo flexionado e locução fixa.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "número concordando com o substantivo a que",
-    "versao_errada": "A palavra 'anexo' flexiona em gênero e indevidamente número concordando com o substantivo a que se refere ('Seguem anexas as planilhas orçamentárias')."
+    "gatilho": "anexas",
+    "versao_errada": "Seguem anexo as planilhas mantém corretamente o adjetivo anexo invariável em qualquer contexto.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.2: anexo adjetivo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-69",
@@ -1267,15 +1442,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "A expressão 'em anexo' deve ser flexionada no feminino plural ao acompanhar termos femininos ('Seguem em anexas as certidões').",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o Manual de Redação da Presidência da República e as gramáticas canônicas, a locução preposicionada \"em anexo\" não sofre flexão de gênero nem de número. A flexão só é admitida para a palavra \"anexo\" sem preposição, que funciona como adjetivo concordando com o substantivo a que se refere.",
-    "armadilhaBanca": "Contaminação de flexão: transferir a flexão do adjetivo \"anexo\" para a locução prepositiva cristalizada \"em anexo\".",
+    "justificativa": "ERRADO. A locução é em anexo, invariável. A alternativa com adjetivo é Seguem anexas as certidões. Misturar as duas construções produz em anexas, que não segue a estrutura da locução examinada.",
+    "armadilhaBanca": "Combinar indevidamente duas estruturas válidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A locução prepositiva/adverbial \"em anexo\" é absolutamente invariável na língua padrão (\"Seguem em anexo as certidões\"); apenas a forma adjetiva \"anexo\" flexiona-se (\"Seguem anexas as certidões\")."
+    "versao_correta": "Escreve-se Seguem em anexo as certidões ou Seguem anexas as certidões.",
+    "gatilho": "em anexas",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — concordância nominal: em anexo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-70",
@@ -1285,16 +1463,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "Na frase 'É proibido entrada de pessoas estranhas ao plenário', a ausência de artigo diante de 'entrada' legitima a forma masculina 'proibido'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. As expressões formadas pelo verbo ser associado a adjetivo ('é proibido', 'é necessário', 'é bom', 'é permitido') permanecem invariáveis no masculino singular quando o substantivo sujeito não vem determinado por artigo ou pronome ('É proibido entrada'). Se houver artigo determinante, a concordância em gênero e número torna-se obrigatória ('É proibida a entrada').",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Na regra tradicional examinada, a expressão com nome usado sem determinação admite É proibido entrada. Com artigo, a concordância passa a É proibida a entrada. O sentido de proibição não transforma a entrada determinada em termo masculino.",
+    "armadilhaBanca": "Conferir determinação do nome antes da concordância.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "ao plenário', a ausência de artigo diante",
-    "versao_errada": "Na frase 'É proibido entrada de pessoas estranhas indevidamente ao plenário', a ausência de artigo diante de 'entrada' legitima a forma masculina 'proibido'."
+    "gatilho": "ausência de artigo",
+    "versao_errada": "Mesmo com artigo, deve-se escrever É proibido a entrada, sem concordância.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — concordância: é proibido e nome não determinado — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-71",
@@ -1304,15 +1484,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "Se houver artigo diante do substantivo, como em 'É proibido a entrada', a estrutura permanece gramaticalmente correta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Expressões formadas por verbo de ligação + adjetivo predicativo (como \"é proibido\", \"é necessário\", \"é bom\") permanecem invariáveis no masculino singular apenas quando o sujeito tem sentido genérico e desacompanhado de artigo. Havendo artigo feminino (\"a\"), a concordância nominal feminina torna-se compulsória.",
-    "armadilhaBanca": "Regra de \"é proibido/é necessário\": desconsiderar a presença de artigo definidor do substantivo e manter a forma neutra invariável.",
+    "justificativa": "ERRADO. O artigo a determina o substantivo feminino, exigindo proibida na estrutura apresentada. A regra da expressão sem artigo não pode ser transferida para uma frase em que ele foi inserido. A mudança mínima de determinação afeta a concordância.",
+    "armadilhaBanca": "Alterar a determinação sem atualizar a concordância.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na presença de determinante definido (\"a entrada\"), a concordância nominal é obrigatória no feminino: \"É proibida a entrada\"; a forma invariável \"é proibido\" só ocorre quando o substantivo não estiver determinado."
+    "versao_correta": "A redação é É proibida a entrada, com concordância no feminino.",
+    "gatilho": "É proibido a entrada",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — concordância: é proibida a entrada — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-72",
@@ -1320,18 +1503,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "O verbo 'preferir' rege a preposição 'a' e repele o uso de intensificadores ('Prefiro ler a assistir televisão', e não 'Prefiro mais ler do que assistir').",
+    "item": "Na comparação explícita, o Manual de Redação recomenda preferir uma coisa a outra, como em Prefiro ler a assistir à televisão, evitando a construção preferir uma coisa do que outra.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O verbo 'preferir' já expressa intrinsecamente um valor comparativo e superlativo de prioridade. Por isso, a norma culta (Bechara, Luft, Cunha & Cintra) veda peremptoriamente o uso de advérbios intensificadores ('preferir mais', 'preferir mil vezes') e repele a correlação comparativa 'do que'. A regência correta é bitransitiva direta e indireta com preposição 'a': preferir uma coisa A outra.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Na construção comparativa recomendada, o primeiro termo é objeto direto e o segundo vem com a. A frase foi ajustada também à regência formal de assistir a, evitando que um exemplo destinado a ensinar preferir introduza outro problema.",
+    "armadilhaBanca": "Conferir os dois verbos de um exemplo de reescrita.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "uso de intensificadores ('Prefiro ler a assistir",
-    "versao_errada": "O verbo 'preferir' rege a preposição 'a' e repele o indevidamente uso de intensificadores ('prefiro ler a assistir televisão', e não 'Prefiro mais ler do que assistir')."
+    "gatilho": "preferir",
+    "versao_errada": "A construção recomendada exige Prefiro a leitura do que a televisão, porque preferir sempre rege do que.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1: preferir algo a algo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-73",
@@ -1339,17 +1524,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "A frase 'Prefiro mil vezes a aprovação do projeto do que o adiamento' é plenamente escorreita perante o padrão gramatical formal.",
+    "item": "A frase Prefiro a aprovação do projeto do que o adiamento segue a construção comparativa recomendada para preferir no Manual de Redação da Presidência.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Segundo a norma padrão (Celso Pedro Luft, Dicionário Prático de Regência Verbal), o verbo \"preferir\" repele expressões de intensidade (\"mil vezes\", \"muito mais\", \"antes\") e não admite a correlação comparativa \"do que\". Rege objeto direto e objeto indireto com a preposição \"a\": preferir uma coisa a outra.",
-    "armadilhaBanca": "Pleonasmo comparativo com o verbo preferir: aceitar no padrão formal termos pleonásticos (\"mil vezes\", \"do que\") no regime do verbo preferir.",
+    "justificativa": "ERRADO. O Manual recomenda preferir uma coisa a outra, evitando do que nessa estrutura. A redação foi centrada nessa orientação, sem usar a expressividade de mil vezes como prova única de erro. O complemento comparativo é o ponto verificável.",
+    "armadilhaBanca": "Distinguir preferência de construção e intensificação expressiva.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O verbo \"preferir\" rege dois complementos com a preposição \"a\", sendo vedado pela norma culta o uso de advérbios intensificadores ou de correlação comparativa: \"Prefiro a aprovação ao adiamento\"."
+    "versao_correta": "O padrão recomendado é Prefiro a aprovação do projeto ao adiamento.",
+    "gatilho": "do que",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1: comparação com preferir — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-74",
@@ -1357,18 +1545,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
-    "item": "Ocorre crase na frase 'O parecer atendeu àquelas solicitações formuladas pela bancada', pela fusão da preposição 'a' exigida pelo verbo atender com a vogal inicial do pronome demonstrativo 'àquelas'.",
+    "item": "Em O parecer atendeu àquelas solicitações, empregou-se a regência indireta de atender; o acento marca a fusão da preposição a com o a inicial de aquelas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Quando um termo regente exige a preposição 'a' (no caso, o verbo 'atender' regendo preposição 'a': atender a algo) e o termo regido subsequente é um pronome demonstrativo iniciado pela vogal 'a' ('aquele', 'aquela', 'aquilo', e suas flexões), a fusão da preposição com a vogal do pronome produz crase, assinalada pelo acento grave: 'atendeu àquelas solicitações'.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Na regência indireta escolhida, atender a se combina com aquelas, gerando àquelas. O acento não exige artigo antes do demonstrativo, mas fusão da preposição com seu a inicial. A análise não declara que toda acepção de atender tenha obrigatoriamente a mesma regência.",
+    "armadilhaBanca": "Identificar a composição da crase com demonstrativo.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "bancada', pela fusão da preposição 'a' exigida",
-    "versao_errada": "Ocorre crase na frase 'O parecer atendeu àquelas solicitações formuladas pela indevidamente bancada', pela fusão da preposição 'a' exigida pelo verbo atender com a vogal inicial do pronome demonstrativo 'àquelas'."
+    "gatilho": "àquelas",
+    "versao_errada": "Àquelas resulta apenas de artigo feminino diante do demonstrativo, sem qualquer preposição.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — regência e crase: a + aquelas — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-75",
@@ -1378,15 +1568,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à sintaxe do período, concordância verbal e nominal, regência verbal e nominal e ao sistema da crase, julgue o item a seguir.",
     "item": "É obrigatório o emprego da crase na oração 'Ele começou à redigir o voto divergente'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Verbos não admitem artigo definido feminino. Não existindo artigo, não ocorre o fenômeno da crase (fusão preposição + artigo), sendo vedado o acento grave antes de qualquer verbo.",
-    "armadilhaBanca": "Crase antes de verbo: aplicar indevidamente acento indicativo de crase antes de verbo no infinitivo.",
+    "justificativa": "ERRADO. Redigir é verbo no infinitivo, sem artigo feminino. A construção é começou a redigir. A presença da preposição a não basta para crase: é necessária outra ocorrência compatível, ausente aqui.",
+    "armadilhaBanca": "Confundir preposição e fusão de dois elementos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração \"Ele começou a redigir o voto divergente\", o emprego da crase é terminantemente proibido diante de verbos no infinitivo."
+    "versao_correta": "A forma é começou a redigir, sem acento grave.",
+    "gatilho": "à redigir",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — crase antes de infinitivo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-76",
@@ -1394,18 +1587,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "Na oração 'Os deputados que participaram da sessão votaram favoravelmente', a ausência de vírgulas classifica a oração adjetiva como restritiva, indicando que apenas uma parcela dos deputados (aqueles que participaram) votou a favor.",
+    "item": "Em Os deputados que participaram da sessão votaram favoravelmente, a oração sem vírgulas restringe o grupo referido pelo voto favorável aos deputados que participaram da sessão.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na sintaxe do período composto, a oração subordinada adjetiva desprovida de vírgulas classifica-se estritamente como restritiva. Sua função semântica é limitar, delimitar e individualizar o universo do termo antecedente ('deputados'), denotando que o predicado se aplica com exclusividade ao subconjunto daqueles que participaram da sessão, e não à totalidade dos deputados da casa.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A relativa sem vírgulas delimita o grupo pelo fato de participar da sessão. Isso não permite deduzir que todos os demais votaram contra ou quantos estavam ausentes. A função delimitadora deve ser separada de informações externas não enunciadas.",
+    "armadilhaBanca": "Separar delimitação textual e pressuposição sobre todo o universo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "vírgulas classifica a oração adjetiva como restritiva",
-    "versao_errada": "Na oração 'Os deputados que participaram da sessão votaram favoravelmente', a ausência de indevidamente vírgulas classifica a oração adjetiva como restritiva, indicando que apenas uma parcela dos deputados (aqueles que participaram) votou a favor."
+    "gatilho": "restringe",
+    "versao_errada": "A oração sem vírgulas é explicativa e afirma necessariamente que todos os deputados participaram.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: oração adjetiva restritiva — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-77",
@@ -1413,18 +1608,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "Na frase 'Os deputados, que participaram da sessão, votaram favoravelmente', a inserção das vírgulas altera o sentido original, transformando a oração em explicativa e generalizando o fato para a totalidade dos deputados.",
+    "item": "Em Os deputados, que participaram da sessão, votaram favoravelmente, as vírgulas tornam a relativa explicativa e atribuem a participação ao grupo referido por Os deputados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O isolamento da oração subordinada adjetiva por vírgulas converte-a estruturalmente em explicativa. Diferentemente da restritiva, a adjetiva explicativa não limita o antecedente, mas acrescenta uma informação atributiva, causal ou circunstancial inerente a todos os elementos do conjunto. Portanto, afirmar com vírgulas implica pressupor que todos os deputados participaram da sessão e que todos votaram a favor.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. As vírgulas apresentam a participação como comentário explicativo sobre o grupo de deputados referido. A leitura difere da restrição sem vírgulas. Totalidade deve ser entendida no conjunto em discussão, não como prova sobre todos os 513 deputados sem contexto adicional.",
+    "armadilhaBanca": "Distinguir explicação e restrição com referência delimitada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "vírgulas altera o sentido original, transformando a",
-    "versao_errada": "Na frase 'Os deputados, que participaram da sessão, votaram favoravelmente', a inserção das indevidamente vírgulas altera o sentido original, transformando a oração em explicativa e generalizando o fato para a totalidade dos deputados."
+    "gatilho": "grupo referido",
+    "versao_errada": "As vírgulas mantêm exatamente a mesma restrição seletiva da relativa sem vírgulas.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: oração adjetiva explicativa — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-78",
@@ -1432,18 +1629,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "A eliminação ou o acréscimo de vírgulas que isolam oração subordinada adjetiva introduzida por pronome relativo altera os sentidos originais do texto, mas preserva a correção gramatical da frase.",
+    "item": "As formas Os deputados que participaram votaram e Os deputados, que participaram, votaram preservam a correção gramatical, mas diferem pela leitura restritiva ou explicativa da oração relativa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Este é um dos postulados mais recorrentes e emblemáticos da banca Cebraspe: a pontuação de orações adjetivas (presença vs ausência de vírgulas) transita livremente entre a modalidade explicativa (com vírgulas) e a restritiva (sem vírgulas). Ambas as estruturas são gramaticalmente impecáveis na língua culta, porém comportam valor semântico e escopo quantitativo completamente divergentes.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Na dupla apresentada, ambas as estruturas são gramaticais, mas uma restringe e a outra explica. Isso não prova que inserir vírgulas em qualquer relativa sempre preserve correção: a análise foi delimitada aos exemplos efetivos. Julgue correção e sentido em verificações separadas.",
+    "armadilhaBanca": "Delimitar uma conclusão de reescrita ao par examinado.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "adjetiva introduzida por pronome relativo altera os",
-    "versao_errada": "A eliminação ou o acréscimo de vírgulas que isolam oração subordinada indevidamente adjetiva introduzida por pronome relativo altera os sentidos originais do texto, mas preserva a correção gramatical da frase."
+    "gatilho": "preservam",
+    "versao_errada": "Na dupla apresentada, as vírgulas não podem modificar a leitura da relativa, apenas a pronúncia.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: pontuação e mudança de sentido — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-79",
@@ -1453,15 +1652,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "É lícito e recomendado separar por vírgula simples o sujeito de seu predicado quando o sujeito for composto por mais de dez palavras.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A pontuação na língua portuguesa obedece a critérios estritamente sintáticos e estruturais, e não à respiração ou ao tamanho da frase. A interdição de vírgula simples entre o núcleo do sujeito e o verbo regente é absoluta na norma gramatical culta.",
-    "armadilhaBanca": "Falácia da pausa respiratória: justificar vírgula sintaticamente proibida em razão da extensão vocabular do sujeito.",
+    "justificativa": "ERRADO. Não há autorização para separar sujeito e predicado apenas pelo tamanho do sujeito. Uma intercalação pode receber duas vírgulas, mas isso não é vírgula simples entre os constituintes. Contar palavras não substitui identificar a relação sintática.",
+    "armadilhaBanca": "Trocar análise sintática por limiar de extensão inventado.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "É terminantemente proibido pelo padrão gramatical culto separar por vírgula simples o sujeito de seu respectivo predicado, qualquer que seja a extensão ou complexidade vocabular do sujeito."
+    "versao_correta": "A extensão do sujeito não autoriza, por si só, uma vírgula simples entre sujeito e predicado.",
+    "gatilho": "mais de dez palavras",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: sujeito e predicado — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-80",
@@ -1469,92 +1671,104 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "O adjunto adverbial de grande extensão (três oumais palavras) deslocado para o início do período deve ser obrigatoriamente isolado por vírgula ('Durante a última sessão legislativa, os parlamentares deliberaram').",
+    "item": "Em Durante a última sessão legislativa, os parlamentares deliberaram, a vírgula é adequada para separar o adjunto adverbial temporal anteposto ao restante da oração.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A jurisprudência linguística da Academia Brasileira de Letras (ABL) e a doutrina gramatical dominante (Evanildo Bechara, Segalla) prescrevem que adjuntos adverbiais antepostos ou intercalados de curta extensão (uma ou duas palavras breves) admitem vírgula facultativa, mas adjuntos adverbiais de longa extensão (formados por sintagmas preposicionados ou três ou mais palavras) exigem compulsoriamente o isolamento por vírgula para assegurar a clareza e evitar truncamento sintático.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A vírgula organiza o adjunto temporal anteposto e o restante da oração. A redação evita ensinar três palavras como limiar universal obrigatório: há orientações de estilo e contextos próprios de extensão e intercalação. O exemplo é adequado sem precisar dessa regra numérica rígida.",
+    "armadilhaBanca": "Distinguir orientação de pontuação e regra numérica absoluta.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "obrigatoriamente isolado por vírgula ('Durante a última sessão legislativa",
-    "versao_errada": "O adjunto adverbial de grande extensão (três oumais palavras) deslocado para o início do período deve ser indevidamente obrigatoriamente isolado por vírgula ('durante a última sessão legislativa, os parlamentares deliberaram')."
+    "gatilho": "adequada",
+    "versao_errada": "A vírgula após o adjunto temporal do exemplo constitui separação indevida entre sujeito e verbo.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: adjunto adverbial deslocado — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-81",
     "numero": 81,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "A próclise é obrigatória na frase 'Não se omitiram perante a votação', haja vista a presença da palavra de sentido negativo 'não', que atua como fator atrativo do pronome oblíquo átono.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. As palavras ou expressões de sentido negativo ('não', 'nunca', 'jamais', 'nada', 'ninguém', 'nenhum') são fatores absolutos de atração proclítica na língua portuguesa padrão. Elas atraem irresistivelmente o pronome oblíquo átono para antes do verbo. Qualquer tentativa de ênclise após palavra negativa ('Não omitiram-se') é categoricamente rechaçada pela norma culta e considerada erro de colocação pronominal.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A palavra negativa não, sem pausa que rompa a construção, favorece obrigatoriamente a próclise no padrão formal apresentado: Não se omitiram. A ênclise omitiram-se não deve ser simplesmente mantida após o fator de atração dessa frase.",
+    "armadilhaBanca": "Identificar fator de próclise no contexto.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "haja vista a presença da palavra de",
-    "versao_errada": "A próclise é obrigatória na frase 'Não se omitiram perante a votação', indevidamente haja vista a presença da palavra de sentido negativo 'não', que atua como fator atrativo do pronome oblíquo átono."
+    "gatilho": "Não",
+    "versao_errada": "Não omitiram-se é a colocação exigida nessa mesma frase formal.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — colocação pronominal: fator negativo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-82",
     "numero": 82,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "É plenamente lícito iniciar período oracional na norma culta padrão com pronome oblíquo átono, como em 'Me entregaram o relatório técnico'.",
+    "item": "Na convenção tradicional de colocação pronominal da escrita formal, iniciar período por Me entregaram o relatório é a forma recomendada em lugar de Entregaram-me o relatório.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. De acordo com os cânones da gramática normativa brasileira e portuguesa (Evanildo Bechara, Celso Cunha), o pronome átono não possui tônicos suficientes para abrir oração. No início de períodos e orações não subordinadas, a posição canônica compulsória é a ênclise.",
-    "armadilhaBanca": "Coloquialismo próclítico: validar no padrão formal da escrita oficial a próclise no início absoluto de período.",
+    "justificativa": "ERRADO. Na convenção de escrita formal examinada, evita-se iniciar período com pronome átono: Entregaram-me o relatório. A próclise inicial é corrente no português brasileiro, mas a existência do uso não a torna recomendação desse padrão de redação. A avaliação não desqualifica a fala cotidiana.",
+    "armadilhaBanca": "Distinguir uso corrente e convenção formal avaliada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Segundo a norma culta padrão, é expressamente proibido iniciar período oracional com pronome oblíquo átono, exigindo-se a ênclise: \"Entregaram-me o relatório técnico\"."
+    "versao_correta": "Para o padrão formal adotado, pode-se escrever Entregaram-me o relatório técnico.",
+    "gatilho": "Me entregaram",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — colocação pronominal: início de período formal — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-83",
     "numero": 83,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Havendo verbo no futuro do presente ou no futuro do pretérito no início da frase sem fator atrativo, a colocação pronominal adequada é a mesóclise ('Apresentar-se-á nova proposta ao plenário').",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Pela sintaxe de colocação pronominal culta: 1) não se inicia período com pronome oblíquo átono (o que veda a próclise: 'Se apresentará'); 2) verbos conjugados nos tempos do futuro (futuro do presente ou futuro do pretérito) não admitem ênclise em hipótese alguma na norma padrão ('apresentará-se' é inexistente). Logo, na ausência de termo atrativo proclítico antecedente, o emprego da mesóclise ('Apresentar-se-á') é a única construção gramaticalmente legítima.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. No futuro sem fator atrativo, a mesóclise de Apresentar-se-á corresponde à convenção formal. Se houver fator de próclise, a colocação pode mudar, como em Não se apresentará. O futuro, sozinho, não elimina a análise do entorno.",
+    "armadilhaBanca": "Conferir tempo verbal e fatores de atração conjuntamente.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "início da frase sem fator atrativo, a",
-    "versao_errada": "Havendo verbo no futuro do presente ou no futuro do pretérito no indevidamente início da frase sem fator atrativo, a colocação pronominal adequada é a mesóclise ('Apresentar-se-á nova proposta ao plenário')."
+    "gatilho": "mesóclise",
+    "versao_errada": "Com a negação Não, a mesóclise continua obrigatória em Não apresentar-se-á.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — colocação pronominal: futuro e mesóclise — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-84",
     "numero": 84,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Na frase \"Dificilmente far-se-á concessão sem debate prévio\", a mesóclise foi empregada em estrita harmonia com as regras gramaticais de colocação pronominal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Embora o verbo esteja no futuro do presente (\"fará\"), a existência de vocábulo atrativo antecedente (advérbio \"dificilmente\") atrai compulsoriamente o pronome átono para antes do verbo (próclise). A atração anula e sobrepõe-se à regra de mesóclise.",
-    "armadilhaBanca": "Prevalência ilusória da mesóclise no futuro: aplicar mesóclise esquecendo que advérbios antecedentes exercem atração próclitica mandatória.",
+    "justificativa": "ERRADO. O advérbio antes do verbo, sem pausa, atrai o pronome no padrão apresentado: Dificilmente se fará concessão. A presença de futuro não obriga mesóclise quando há fator de próclise. Não se deve decidir apenas pela terminação verbal.",
+    "armadilhaBanca": "Não deixar regra do futuro apagar fator de próclise.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração \"Dificilmente se fará concessão sem debate prévio\", o advérbio \"dificilmente\" atua como palavra atrativa de sentido restritivo/negativo, impondo compulsoriamente a próclise e interditando a mesóclise."
+    "versao_correta": "A forma adequada é Dificilmente se fará concessão sem debate prévio.",
+    "gatilho": "Dificilmente",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — colocação pronominal: advérbio sem pausa — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-85",
@@ -1564,16 +1778,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Na oração 'Ontem, o plenário aprovou a proposta orçamentária', o emprego da vírgula após o adjunto adverbial de tempo de curta extensão é de natureza estritamente facultativa na norma culta.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Adjuntos adverbiais de curta extensão (um ou dois vocábulos) antepostos admitem pontuação facultativa segundo a Academia Brasileira de Letras e Celso Cunha & Lindley Cintra. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. Ontem é adjunto temporal curto, e a vírgula do exemplo pode ser usada para destaque sem ser obrigatória por uma regra de deslocamento longo. Isso não autoriza retirar vírgulas que isolam intercalações ou explicativas em outros contextos.",
+    "armadilhaBanca": "Distinguir adjunto curto e intercalação obrigatoriamente isolada.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "vírgula após o adjunto adverbial de tempo",
-    "versao_errada": "Na oração 'Ontem, o plenário aprovou a proposta orçamentária', o emprego da indevidamente vírgula após o adjunto adverbial de tempo de curta extensão é de natureza estritamente facultativa na norma culta."
+    "gatilho": "facultativa",
+    "versao_errada": "Toda ocorrência de ontem no início exige vírgula obrigatória, sem alternativa de pontuação.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: adjunto curto anteposto — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-86",
@@ -1581,17 +1797,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "A redação 'A aprovação da matéria implicará em severas mudanças nos procedimentos regimentais' atende plenamente ao padrão culto da língua formal.",
+    "item": "Em A aprovação da matéria implicará mudanças nos procedimentos, mudanças é objeto indireto porque expressa uma consequência da aprovação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme Celso Pedro Luft (Dicionário Prático de Regência Verbal, p. 297), o verbo \"implicar\", no sentido de acarretar ou resultar, é transitivo direto e repele a preposição \"em\". A forma culta é \"implicará severas mudanças\".",
-    "armadilhaBanca": "Uso da preposição coloquial \"em\" no verbo implicar transitivo direto.",
+    "justificativa": "ERRADO. Na frase escolhida, implicar tem regência direta e mudanças é objeto direto. Ter sentido de consequência não transforma o complemento em indireto. A variante com em, reconhecida no uso pelo Manual, é outra construção e não altera a análise da ocorrência sem preposição.",
+    "armadilhaBanca": "Analisar a construção efetiva em vez de transferir outra regência.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A regência canônica do verbo \"implicar\", na acepção de acarretar ou gerar como consequência, é transitiva direta (VTD), repelindo a preposição \"em\": \"A aprovação da matéria implicará severas mudanças...\"."
+    "versao_correta": "Em A aprovação implicará mudanças, mudanças funciona como objeto direto.",
+    "gatilho": "objeto indireto",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.8.1: implicar com complemento direto — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-87",
@@ -1599,18 +1818,20 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "macroModuloId": "M13",
     "submoduloId": "13.3",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "O emprego do acento grave indicativo de crase é obrigatório em locuções prepositivas e conjuntivas femininas, como em 'à medida que' e 'à proporção que'.",
+    "item": "As locuções conjuntivas proporcionais à medida que e à proporção que são grafadas com acento grave.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme Domingos Paschoal Cegalla, as locuções adverbiais, prepositivas e conjuntivas constituídas por palavras femininas recebem acento grave indicativo de crase obrigatoriamente. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. As duas locuções do exemplo têm grafia com acento grave. À medida que indica proporcionalidade; não deve ser trocada por na medida em que como se sempre fossem equivalentes. A regra foi delimitada às locuções citadas, sem afirmar crase em qualquer expressão composta de palavras femininas.",
+    "armadilhaBanca": "Relacionar grafia da locução e seu sentido.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "obrigatório em locuções prepositivas e conjuntivas femininas",
-    "versao_errada": "O emprego do acento grave indicativo de crase é opcional em locuções prepositivas e conjuntivas femininas, como em 'à medida que' e 'à proporção que'."
+    "gatilho": "à medida que",
+    "versao_errada": "Escreve-se a medida que sem acento quando a expressão funciona como locução conjuntiva proporcional.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — crase: locuções à medida que e à proporção que — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-88",
@@ -1620,15 +1841,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Na frase 'O presidente da mesa diretora declarou, que a votação estava concluída', o emprego da vírgula justifica-se para delimitar a oração principal da subordinada.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. É preceito elementar de sintaxe que não se separa por pontuação o verbo de seu complemento imediato (seja termo substantivo, seja oração subordinada objetiva direta introduzida por conjunção integrante).",
-    "armadilhaBanca": "Vírgula separando verbo transitivo direto de oração objetiva direta integrante.",
+    "justificativa": "ERRADO. A oração iniciada por que é complemento de declarou. A vírgula simples separa verbo e objeto, sem intercalação que a justifique. Não existe regra geral que autorize pontuar toda fronteira entre oração principal e subordinada.",
+    "armadilhaBanca": "Identificar função da subordinada antes de pontuar.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração \"O presidente da mesa diretora declarou que a votação estava concluída\", o emprego de vírgula entre o verbo transitivo direto e sua respectiva oração subordinada substantiva objetiva direta é terminantemente proibido."
+    "versao_correta": "A redação é declarou que a votação estava concluída, sem vírgula entre verbo e complemento.",
+    "gatilho": "declarou, que",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: verbo e complemento oracional — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-89",
@@ -1638,15 +1862,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "No trecho 'O parecer do relator concedeu prazo à todos os parlamentares', o emprego do acento grave na palavra 'à' é exigido pela regência do substantivo 'prazo'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O vocábulo \"todos\" é pronome indefinido masculino e plural, repelindo qualquer ocorrência de artigo definido feminino (\"a\"). Sem a presença de artigo feminino, a fusão de crase é impossível.",
-    "armadilhaBanca": "Emprego indevido de crase antes de pronome indefinido de sentido amplo.",
+    "justificativa": "ERRADO. Todos não admite o artigo feminino a nessa construção, portanto não há fusão que justifique o acento. O termo prazo não basta para impor crase no complemento seguinte. A expressão adequada é a todos os parlamentares.",
+    "armadilhaBanca": "Não deduzir crase de uma regência sem conferir o segundo elemento.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "No trecho \"O parecer do relator concedeu prazo a todos os parlamentares\", o emprego do acento grave é terminantemente proibido diante de pronome indefinido (\"todos\")."
+    "versao_correta": "O parecer concedeu prazo a todos os parlamentares é a forma sem crase nesse trecho.",
+    "gatilho": "à todos",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — crase: a todos — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-90",
@@ -1656,16 +1883,18 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Na oração 'A maioria dos servidores compareceu à audiência pública', a substituição de 'compareceu' por 'compareceram' mantém a correção gramatical e os sentidos originais do texto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Com expressões partitivas ('a maioria de') seguidas de determinante no plural, a norma culta admite tanto a concordância lógica no singular com o núcleo quanto a concordância atrativa no plural com o determinante. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "justificativa": "CERTO. A maioria dos servidores admite concordância com o núcleo singular ou com o especificador plural. A mudança não transforma maioria em todos. O acento de à audiência permanece porque a alteração de número verbal não elimina a regência da construção.",
+    "armadilhaBanca": "Distinguir variante de concordância e alteração da quantificação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "a substituição de 'compareceu' por 'compareceram' mantém",
-    "versao_errada": "Na oração 'A maioria dos servidores compareceu à audiência pública', indevidamente a substituição de 'compareceu' por 'compareceram' mantém a correção gramatical e os sentidos originais do texto."
+    "gatilho": "compareceram",
+    "versao_errada": "Trocar compareceu por compareceram transforma necessariamente maioria em totalidade dos servidores.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.7.1: concordância com partitivo — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-91",
@@ -1675,181 +1904,207 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "Na frase 'Tratam-se de propostas orçamentárias de alta relevância pública', a flexão verbal na terceira pessoa do plural é legítima em face do núcleo plural 'propostas'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo \"tratar-se\" é transitivo indireto e o \"se\" funciona como índice de indeterminação do sujeito (IIS). O termo preposicionado \"de propostas\" é objeto indireto. Logo, o verbo não pode concordar no plural, ficando bloqueado na 3ª pessoa do singular.",
-    "armadilhaBanca": "Flexão plural de verbo VTI com índice de indeterminação do sujeito atraído por objeto indireto plural.",
+    "justificativa": "ERRADO. Propostas é complemento preposicionado, não sujeito de passiva. A construção é Trata-se de propostas, na terceira pessoa singular. A presença de plural depois de de não legitima concordância por atração.",
+    "armadilhaBanca": "Não tratar complemento preposicionado como sujeito paciente.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração com verbo transitivo indireto acompanhado de índice de indeterminação do sujeito (\"tratar de\"), o verbo permanece obrigatoriamente no singular: \"Trata-se de propostas orçamentárias de alta relevância pública\"."
+    "versao_correta": "A forma é Trata-se de propostas orçamentárias de alta relevância pública.",
+    "gatilho": "Tratam-se",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — sintaxe: tratar-se de e concordância — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-92",
     "numero": 92,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "Conforme o Acordo Ortográfico vigente, palavras paroxítonas com ditongos abertos 'ei' e 'oi' (como 'ideia', 'assembleia' e 'apoio') não recebem mais acento gráfico.",
+    "item": "Pelo Acordo Ortográfico, paroxítonas como ideia, assembleia e heroico não recebem acento nos ditongos abertos ei e oi, sem que isso elimine o acento da oxítona herói.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Uma das mudanças mais notórias do Acordo Ortográfico de 1990 foi a supressão do acento agudo nos ditongos abertos tônicos 'ei' e 'oi' das palavras paroxítonas (ex.: 'ideia', 'assembleia', 'coreia', 'heroico', 'jiboia', 'boia'). Ressalve-se, contudo, a clássica pegadinha do Cebraspe: os ditongos abertos em posição oxítona ou monossilábica tônica continuam obrigatoriamente acentuados ('herói', 'troféu', 'pastéis', 'dói', 'céu').",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. A regra retira o acento dos ditongos abertos ei e oi em paroxítonas, como ideia, assembleia e heroico. Não se estende a todo ditongo de toda palavra: herói, oxítona, conserva acento. Apoio foi retirado dos exemplos por depender da acepção e pronúncia, evitando ambiguidade entre nome e forma verbal.",
+    "armadilhaBanca": "Conferir tonicidade e ditongo antes de aplicar a regra.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "ditongos abertos 'ei' e 'oi' (como 'ideia'",
-    "versao_errada": "Conforme o Acordo Ortográfico vigente, palavras paroxítonas com indevidamente ditongos abertos 'ei' e 'oi' (como 'ideia', 'assembleia' e 'apoio') não recebem mais acento gráfico."
+    "gatilho": "não recebem",
+    "versao_errada": "A regra elimina também o acento de toda oxítona, impondo a grafia heroi.",
+    "fonte": "Decreto 6.583/2008 — Acordo Ortográfico, texto atualizado — Base IX, 3º: ditongos abertos em paroxítonas — https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-93",
     "numero": 93,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "O vocábulo \"assembleia\" mantém acento agudo diferencial no padrão ortográfico vigente por designar instituição parlamentar de natureza constitucional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Pelo Acordo Ortográfico da Língua Portuguesa (Base IX, 3º), os ditongos abertos \"ei\" e \"oi\" das palavras paroxítonas perderam o acento agudo (ex.: assembleia, ideia, jiboia, colmeia, heroico). O acento permanece apenas nas palavras oxítonas terminadas nesses ditongos (pastéis, herói, constrói).",
-    "armadilhaBanca": "Regra revogada do Acordo Ortográfico: alegar vigência de acento gráfico extinto nos ditongos abertos paroxítonos.",
+    "justificativa": "ERRADO. Assembleia não mantém acento por designar uma instituição. A categoria do referente não cria exceção ortográfica. O acordo alterou a acentuação do ditongo aberto nessa paroxítona, não uma regra específica para órgãos parlamentares.",
+    "armadilhaBanca": "Criar justificativa semântica para acentuação inexistente.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O vocábulo \"assembleia\" não possui acento gráfico no Acordo Ortográfico vigente, uma vez que foi abolido o acento agudo nos ditongos abertos \"ei\" e \"oi\" em palavras paroxítonas."
+    "versao_correta": "A grafia assembleia é sem acento, inclusive quando se refere a instituição parlamentar.",
+    "gatilho": "diferencial",
+    "fonte": "Decreto 6.583/2008 — Acordo Ortográfico, texto atualizado — Base IX: assembleia — https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-94",
     "numero": 94,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "O hífen é obrigatório em palavras formadas por prefixação quando o segundo elemento inicia com a mesma vogal com que termina o prefixo ('micro-ondas', 'anti-inflamatório').",
+    "item": "Há hífen em micro-ondas e anti-inflamatório pela regra de vogais iguais na fronteira; essa regra não autoriza escrever co-operação em lugar de cooperação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra da prefixação do Acordo Ortográfico de 1990: vogais iguais se repelem pelo hífen ('micro-ondas', 'anti-inflamatório', 'contra-ataque', 'auto-observação'). Ao contrário, vogais diferentes se atraem e são grafadas juntas sem hífen ('autoescola', 'infraestrutura', 'antiviral'). A única exceção permanente é o prefixo 'co-', que se aglutina mesmo diante de vogal igual ('cooperar', 'coobrigado').",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Os exemplos micro-ondas e anti-inflamatório têm hífen pela coincidência de vogais na fronteira. A generalização irrestrita omitia o tratamento de co-, que em geral se aglutina, como cooperação. A regra deve ser acompanhada de seu domínio e das exceções.",
+    "armadilhaBanca": "Não omitir exceção expressa do prefixo co-.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "quando o segundo elemento inicia com a",
-    "versao_errada": "O hífen é obrigatório em palavras formadas por prefixação indevidamente quando o segundo elemento inicia com a mesma vogal com que termina o prefixo ('micro-ondas', 'anti-inflamatório')."
+    "gatilho": "micro-ondas",
+    "versao_errada": "Toda formação com vogais iguais exige hífen, inclusive co-operação.",
+    "fonte": "Decreto 6.583/2008 — Acordo Ortográfico, texto atualizado — Base XVI, 1º, b, e observação sobre co- — https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-95",
     "numero": 95,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "A palavra 'autoestrada' deve ser grafada com hífen ('auto-estrada') em decorrência da presença de vogais distintas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o Acordo Ortográfico vigente (Base XVI), emprega-se o hífen apenas quando o prefixo termina na mesma vogal com que se inicia o segundo elemento (anti-ibérico, micro-ondas) ou diante de \"h\". Havendo vogais distintas, ocorre a aglutinação simples sem hífen (autoestrada, infraestrutura, autoajuda, aeroespacial).",
-    "armadilhaBanca": "Falso emprego do hífen em vogais diferentes: usar hífen em compostos com vogais desiguais contrariando a regra do Acordo Ortográfico.",
+    "justificativa": "ERRADO. Autoestrada tem vogais diferentes na fronteira e é grafada sem hífen na regra aplicável. O item inverte a condição usada em auto-observação, que tem o seguido de o. As duas palavras exigem observar a fronteira, não apenas reconhecer o prefixo auto-.",
+    "armadilhaBanca": "Trocar condição de vogais iguais e diferentes.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "O vocábulo \"autoestrada\" deve ser grafado sem hífen e de forma aglutinada, pois prefixos terminados em vogal diferente da vogal inicial da palavra subsequente unem-se diretamente."
+    "versao_correta": "Autoestrada é sem hífen, diferentemente de auto-observação.",
+    "gatilho": "auto-estrada",
+    "fonte": "Decreto 6.583/2008 — Acordo Ortográfico, texto atualizado — Base XVI: vogais diferentes — https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.pdf",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-96",
     "numero": 96,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "O termo 'sessão' (com 'ss') refere-se a espaço de tempo de uma reunião ou assembleia deliberativa ('a sessão plenária da Câmara'), ao passo que 'seção' (com 'ç') significa divisão, departamento ou repartição.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Tríade homófona clássica do vernáculo jurídico-administrativo: 1) 'sessão' (do latim sessio, ato de sentar-se): reunião de pessoas reunidas para deliberar, trabalhar ou assistir a um evento (ex.: sessão legislativa, sessão de cinema); 2) 'seção' ou 'secção' (do latim sectio, ato de cortar): divisão territorial, administrativa ou departamental (ex.: seção de protocolo, seção eleitoral); e 3) 'cessão' (do latim cessio, ato de ceder): ato de transferir posse ou direitos a outrem.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Sessão nomeia o período ou reunião; seção, a divisão ou repartição. São formas de som próximo ou igual em muitos usos, mas significado e grafia diferem. O contexto decide qual escrever; a ligação de ambas ao parlamento não as torna intercambiáveis.",
+    "armadilhaBanca": "Distinguir homófonos pelo sentido contextual.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "ou assembleia deliberativa ('a sessão plenária da",
-    "versao_errada": "O termo 'sessão' (com 'ss') refere-se a espaço de tempo de uma reunião indevidamente ou assembleia deliberativa ('a sessão plenária da Câmara'), ao passo que 'seção' (com 'ç') significa divisão, departamento ou repartição."
+    "gatilho": "sessão",
+    "versao_errada": "Seção plenária é a grafia adequada para o período de uma reunião parlamentar.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 12.1: homônimos e parônimos — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-97",
     "numero": 97,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "A expressão 'cessão de uso de imóvel' escreve-se com 'ss' ('sessão de uso') por envolver reunião física no prédio público.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Trata-se de distinção homófona clássica: \"cessão\" (ceder, alienar, transferir direitos); \"sessão\" (tempo de uma reunião ou assembleia, ex.: sessão legislativa); e \"seção\" ou \"secção\" (divisão, repartição, corte). O ato de ceder imóvel é formalmente \"cessão de uso\".",
-    "armadilhaBanca": "Homofonia clássica: trocar \"cessão\" (ato de ceder) por \"sessão\" (tempo de reunião ou espetáculo).",
+    "justificativa": "ERRADO. Cessão envolve ceder ou transferir direito de uso. Sessão diz respeito a reunião ou período de atividade. A existência física de um imóvel não transforma uma transferência de uso em reunião; a escolha deve seguir o sentido jurídico da expressão.",
+    "armadilhaBanca": "Não escolher homófono por associação superficial ao local.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A expressão que designa transferência de posse, direito ou imóvel grafa-se \"cessão de uso\" (com c inicial e ss), derivada do verbo ceder."
+    "versao_correta": "A grafia é cessão de uso de imóvel, com c inicial e ss.",
+    "gatilho": "sessão de uso",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 12.1: cessão, sessão e seção — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-98",
     "numero": 98,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "A expressão 'por que' (grafada separada e sem acento circunflexo) é de emprego exclusivo e obrigatório no encerramento de frases interrogativas diretas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a norma ortográfica oficial, grafa-se \"por quê\" (separado e circunflexo) quando posicionado imediatamente antes de pausa pontuada (final de oração), tornando-se tônico. A grafia \"por que\" sem acento emprega-se no início/meio de interrogativas ou como pronome relativo (\"razão pela qual\").",
-    "armadilhaBanca": "Emprego dos porquês: inverter o uso de \"por que\" átono com \"por quê\" tônico em posição final de período.",
+    "justificativa": "ERRADO. No encerramento da pergunta, a forma tônica é por quê. Por que sem acento ocorre, por exemplo, em Por que a proposta voltou?, e também pode ter outros empregos. O item erra na grafia final e na exclusividade alegada.",
+    "armadilhaBanca": "Conferir tonicidade, posição e função.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "A expressão \"por quê\", grafada separadamente e com acento circunflexo, deve ser utilizada no encerramento de frases interrogativas ou antes de pontuação enfática, pois o vocábulo torna-se monossílabo tônico final."
+    "versao_correta": "No fim da pergunta, usa-se por quê; no início de Por que a proposta voltou?, usa-se por que.",
+    "gatilho": "sem acento",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — semântica e grafia: por que e por quê — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-99",
     "numero": 99,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
-    "item": "O termo 'porque' (junto e sem acento) é conjunção causal ou explicativa, ao passo que 'porquê' (junto e com acento circunflexo) atua como substantivo precedido de artigo determinativo.",
+    "item": "Porque pode funcionar como conjunção causal ou explicativa; porquê é substantivo, como em o porquê da decisão ou seus porquês.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Sistema dos quatro porquês: 1) 'porque' (junto, átono): conjunção subordinativa causal ou coordenativa explicativa ('Não foi porque choveu'); 2) 'porquê' (junto, tônico): substantivo masculino sinônimo de motivo ou razão, acompanhado de artigo ou determinante ('Gostaria de saber o porquê de sua decisão'); 3) 'por que' (separado, átono): pronome interrogativo em início/meio de frase ou pronome relativo equivalente a 'pelo qual'; e 4) 'por quê' (separado, tônico): interrogativo em fim de período antes de pontuação.",
-    "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
+    "justificativa": "CERTO. Porque pode ligar causa ou explicação; porquê é substantivo e pode ser acompanhado de determinantes como o e seu. Não é preciso exigir exclusivamente artigo definido para reconhecer o substantivo. A distinção de classe ajuda a testar pelo plural porquês.",
+    "armadilhaBanca": "Distinguir conjunção e substantivo sem restringir determinantes.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "gatilho": "explicativa, ao passo que 'porquê' (junto e",
-    "versao_errada": "O termo 'porque' (junto e sem acento) é conjunção causal ou indevidamente explicativa, ao passo que 'porquê' (junto e com acento circunflexo) atua como substantivo precedido de artigo determinativo."
+    "gatilho": "substantivo",
+    "versao_errada": "Porquê é sempre conjunção invariável e nunca admite plural ou determinante.",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — semântica: porque e porquê — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   },
   {
     "id": "m13-q-100",
     "numero": 100,
     "macroModuloId": "M13",
-    "submoduloId": "13.3",
+    "submoduloId": "13.4",
     "contexto": "No tocante à pontuação estilística e semântica, sintaxe do período, colocação pronominal e ortografia oficial, julgue o item a seguir.",
     "item": "No período 'É indispensável, que todos os parlamentares assinem o termo de presença', a vírgula é obrigatória para separar a oração principal da oração subordinada subjetiva.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A oração subordinada \"que todos os parlamentares assinem o termo de presença\" desempenha o papel de sujeito oracional do predicado \"É indispensável\". A regra fundamental da sintaxe normativa veda terminantemente separar sujeito e predicado por vírgula simples.",
-    "armadilhaBanca": "Vírgula separando sujeito oracional e predicado nominal imediato.",
+    "justificativa": "ERRADO. A oração que todos os parlamentares assinem o termo funciona como sujeito de é indispensável. Não se separa essa relação por vírgula simples. A existência de conjunção integrante não cria, por si, pausa obrigatória entre sujeito e predicado.",
+    "armadilhaBanca": "Identificar sujeito oracional antes de aplicar pontuação.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "versao_correta": "Na oração \"É indispensável que todos os parlamentares assinem o termo de presença\", o emprego da vírgula entre o predicado da oração principal e a oração subordinada substantiva subjetiva é terminantemente proibido."
+    "versao_correta": "É indispensável que todos os parlamentares assinem o termo é a redação sem essa vírgula.",
+    "gatilho": "É indispensável, que",
+    "fonte": "Presidência da República — Manual de Redação, 3ª edição, 2018 — seção 11.9.1: sujeito oracional e predicado — https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "dataConferencia": "2026-10-30"
   }
 ];
 

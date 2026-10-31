@@ -1294,7 +1294,7 @@ export const SimuladoPage: React.FC = () => {
                               {q.contexto}
                             </p>
                           )}
-                          <p className="text-sm text-ink print:text-black font-serif leading-relaxed font-medium">
+                          <p lang={q.macroModuloId?.toUpperCase() === 'M12' ? 'en' : undefined} className="text-sm text-ink print:text-black font-serif leading-relaxed font-medium whitespace-pre-line">
                             {q.item}
                           </p>
 
@@ -1448,8 +1448,13 @@ export const SimuladoPage: React.FC = () => {
 
         {/* Card do Enunciado Cebraspe */}
         <article className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs space-y-6">
+          {currentQuestion.contexto && (
+            <div className="font-serif text-ink-2 text-base leading-relaxed whitespace-pre-line border-b border-border pb-5">
+              {currentQuestion.contexto}
+            </div>
+          )}
           {/* Texto Canônico do Item */}
-          <div className="font-serif text-ink text-base sm:text-lg leading-relaxed pt-2">
+          <div lang={currentQuestion.macroModuloId?.toUpperCase() === 'M12' ? 'en' : undefined} className="font-serif text-ink text-base sm:text-lg leading-relaxed pt-2 whitespace-pre-line">
             {currentQuestion.item}
           </div>
 

@@ -325,7 +325,7 @@
   },
   "lei14133": {
     "titulo": "Lei 14.133/2021 — licitações e contratos",
-    "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.html",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf",
     "localizador": "planejamento, contratação direta e procedimento licitatório"
   },
   "nr17": {
@@ -640,9 +640,9 @@
     "localizador": "hipótese da raiz quadrada e avaliação empírica"
   },
   "merton": {
-    "titulo": "MERTON, Robert K. The Matthew Effect in Science. 1968",
-    "url": "https://doi.org/10.1126/science.159.3810.56",
-    "localizador": "distribuição de reconhecimento e vantagens cumulativas"
+    "titulo": "Robert K. Merton — Bureaucratic Structure and Personality, 1940",
+    "url": "https://doi.org/10.2307/2570634",
+    "localizador": "deslocamento de objetivos e disfunções burocráticas"
   },
   "diamond": {
     "titulo": "cOAlition S — OA Diamond Journals Study, 2021",
@@ -913,5 +913,136 @@
     "titulo": "Câmara dos Deputados — Mesa Diretora: atribuições das Secretarias",
     "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/mesa-diretora",
     "localizador": "divisão de atribuições entre Segunda, Terceira e Quarta Secretarias"
+  },
+  "lei8112": {
+    "titulo": "Lei 8.112/1990 — regime jurídico dos servidores federais",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+    "localizador": "provimento, movimentação, responsabilidade e processo disciplinar"
+  },
+  "lei9784": {
+    "titulo": "Lei 9.784/1999 — processo administrativo federal",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+    "localizador": "princípios, competência, invalidação, convalidação e recursos"
+  },
+  "lei8429": {
+    "titulo": "Lei 8.429/1992 — improbidade administrativa, texto atualizado",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.pdf",
+    "localizador": "ler em conjunto com decisões do STF, inclusive ADIs 7156 e 7236 de 2026"
+  },
+  "stfImprobidade2026": {
+    "titulo": "STF — ADIs 7156 e 7236, Informativo 1225/2026",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm",
+    "localizador": "julgamento concluído em 01/07/2026; divulgação em 24/08/2026; prescrição e outros dispositivos da reforma"
+  },
+  "stfImprobidadeLegitimidade": {
+    "titulo": "STF — ADIs 7042 e 7043, Informativo 1066/2022",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1066.htm",
+    "localizador": "legitimidade concorrente e disjuntiva para ação e ANPC"
+  },
+  "stfPolicia532": {
+    "titulo": "STF — Tema 532: delegação do poder de polícia",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=532",
+    "localizador": "RE 633782; delegação por lei e requisitos cumulativos"
+  },
+  "stfResponsabilidade940": {
+    "titulo": "STF — Tema 940: legitimidade passiva e regresso",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=940",
+    "localizador": "RE 1027633; Estado ou prestador privado de serviço público e regresso por dolo ou culpa"
+  },
+  "stfDetento592": {
+    "titulo": "STF — Tema 592: morte de detento",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4645403&numeroProcesso=841526&numeroTema=592",
+    "localizador": "inobservância do dever específico de proteção; nexo causal e circunstâncias do caso"
+  },
+  "decreto9203": {
+    "titulo": "Decreto 9.203/2017 — política de governança federal",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+    "localizador": "âmbito, conceitos, princípios e mecanismos; não confundir com extensão automática ao Legislativo"
+  },
+  "riscosCamara": {
+    "titulo": "Câmara — Ato da Mesa 233/2018 e Política de Gestão Corporativa de Riscos",
+    "url": "https://www2.camara.leg.br/legin/int/atomes/2018/atodamesa-233-24-maio-2018-786753-publicacaooriginal-155674-cd-mesa.html",
+    "localizador": "política própria da Câmara; gestão de riscos não substituída por autodeclaração"
+  },
+  "tresLinhas": {
+    "titulo": "IIA — The Three Lines Model, 2020",
+    "url": "https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense",
+    "localizador": "papéis de gestão de primeira e segunda linhas e avaliação independente da auditoria interna"
+  },
+  "pdrae": {
+    "titulo": "Presidência da República/MARE — Plano Diretor da Reforma do Aparelho do Estado, 1995",
+    "url": "https://mail.bresserpereira.org.br/documents/mare/PlanoDiretor/planodiretor.pdf",
+    "localizador": "formas de administração e quatro setores do Estado; atividades exclusivas e serviços não exclusivos"
+  },
+  "tcuGovernanca": {
+    "titulo": "TCU — Referencial Básico de Governança Organizacional, 3ª edição, 2020",
+    "url": "https://portal.tcu.gov.br/data/files/FB/B6/FB/85/1CD4671023455957E18818A8/Referencial_basico_governanca_organizacional_3_edicao.pdf",
+    "localizador": "governança, gestão, cadeia de valor, liderança, estratégia e controle"
+  },
+  "stfSumulasAdmin": {
+    "titulo": "STF — Constituição e Supremo, art. 37",
+    "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=37&abrirBase=CF",
+    "localizador": "princípios administrativos; SV 13 e controle de atos"
+  },
+  "stfSV5": {
+    "titulo": "STF — Súmula Vinculante 5",
+    "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1199",
+    "localizador": "defesa técnica por advogado em PAD; não dispensa contraditório e ampla defesa"
+  },
+  "stj635": {
+    "titulo": "STJ — Súmula 635",
+    "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?O=JT&livre=%27635%27.num.",
+    "localizador": "interrupção por sindicância punitiva ou PAD e retomada após 140 dias"
+  },
+  "osborne": {
+    "titulo": "Stephen P. Osborne — The New Public Governance?, 2006",
+    "url": "https://doi.org/10.1080/14719030600853022",
+    "localizador": "redes interorganizacionais, pluralidade e coprodução"
+  },
+  "lei13303": {
+    "titulo": "Lei 13.303/2016 — estatuto jurídico das empresas estatais",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html",
+    "localizador": "arts. 3º e 4º: empresa pública e sociedade de economia mista"
+  },
+  "textosInglesHnc": {
+    "titulo": "Textos-base de Inglês fornecidos no banco HNC",
+    "arquivo": "src/content/questions/m12-ingles-100q.ts",
+    "gitRef": "ce5fee9ef400a069c4c5013b11e2316b578e889f",
+    "localizador": "passagens reproduzidas no banco; a revisão compara a assertiva com o texto, sem certificar origem de prova nem atualizar fatos históricos"
+  },
+  "cambridgeGrammar": {
+    "titulo": "Cambridge Dictionary — English Grammar Today",
+    "url": "https://dictionary.cambridge.org/grammar/british-grammar/",
+    "localizador": "relative pronouns, present perfect, linking words e interpretação contextual"
+  },
+  "cambridgeDictionary": {
+    "titulo": "Cambridge Dictionary — dicionário de inglês",
+    "url": "https://dictionary.cambridge.org/dictionary/english/",
+    "localizador": "allay, comply, outperform, entrepreneur e phrasal verbs no contexto"
+  },
+  "textosPortuguesHnc": {
+    "titulo": "HNC — textos autorais de leitura: linguagem simples e memória parlamentar",
+    "arquivo": "src/content/questions/m13-portugues-100q.ts",
+    "localizador": "Textos I e II na edição revisada; Texto II reconstruído editorialmente porque não constava do banco anterior"
+  },
+  "redacaoPR": {
+    "titulo": "Presidência da República — Manual de Redação, 3ª edição, 2018",
+    "url": "https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf/@@download/file",
+    "localizador": "capítulo III; seções 9, 11 e 12: ortografia, sintaxe, regência, concordância, pontuação e semântica"
+  },
+  "michaelisNecessitar": {
+    "titulo": "Michaelis — Dicionário Brasileiro da Língua Portuguesa: necessitar",
+    "url": "https://michaelis.uol.com.br/palavra/la9KO/necessitar/",
+    "localizador": "transitividade direta e indireta no sentido de ter necessidade"
+  },
+  "senadoVisar": {
+    "titulo": "Senado Federal — Manual de Comunicação: visar",
+    "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/visar",
+    "localizador": "preferência de estilo pela regência indireta; distinção de preferência e exclusividade gramatical"
+  },
+  "acordoOrtografico": {
+    "titulo": "Decreto 6.583/2008 — Acordo Ortográfico, texto atualizado",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.pdf",
+    "localizador": "anexo: bases IX e XVI; efeitos e transição no Brasil"
   }
 }
