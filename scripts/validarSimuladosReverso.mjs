@@ -31,8 +31,7 @@ try {
       const { useNavigationStore } = await import('/src/store/useNavigationStore.ts');
       useProgressStore.getState().reiniciarSimulado('mini-modulo-orgaos');
       useProgressStore.getState().iniciarOuRetomarSimulado('mini-modulo-orgaos');
-      useNavigationStore.getState().navigateToSimulado('mini-modulo-orgaos');
-      useNavigationStore.getState().setTargetQuestionId('orgaos-q-021');
+      useNavigationStore.getState().navigateToQuestao('mini-modulo-orgaos', 'orgaos-q-021');
     });
     await page.waitForFunction(() => document.body.innerText.includes('foi efetivamente criada em 1866'));
     await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));

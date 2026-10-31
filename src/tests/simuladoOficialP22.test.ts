@@ -23,17 +23,11 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
       });
     });
 
-    it('deve ter simetria realista Cebraspe: faixa de 46% a 56% Certo no total da prova com alerta e não erro', () => {
-      const certos = simuladoOficialCamara180Q.filter((q) => q.gabarito === 'C').length;
-      const total = simuladoOficialCamara180Q.length;
-      const proporcao = (certos / total) * 100;
-
-      // Relaxamento canônico C3: 46% a 56%
-      expect(proporcao).toBeGreaterThanOrEqual(46);
-      expect(proporcao).toBeLessThanOrEqual(56);
+    it('deve conter 180 julgamentos C/E sem impor distribuição de gabaritos', () => {
+      expect(simuladoOficialCamara180Q.every(q => q.gabarito === 'C' || q.gabarito === 'E')).toBe(true);
     });
 
-    it('deve estruturar P1 (Conhecimentos Básicos) com exatamente 90 itens e proporção realista Cebraspe (alerta fora de 46–56%)', () => {
+    it('deve estruturar P1 (Conhecimentos Básicos) com exatamente 90 itens', () => {
       const p1 = simuladoOficialCamara180Q.slice(0, 90);
       expect(p1).toHaveLength(90);
 
@@ -43,13 +37,10 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
         expect(MACROS_P1_BASICOS.has(macro)).toBe(true);
       });
 
-      const certosP1 = p1.filter((q) => q.gabarito === 'C').length;
-      const proporcaoP1 = (certosP1 / 90) * 100;
-      expect(proporcaoP1).toBeGreaterThanOrEqual(46);
-      expect(proporcaoP1).toBeLessThanOrEqual(56);
+
     });
 
-    it('deve estruturar P2 (Conhecimentos Específicos) com exatamente 90 itens e proporção realista Cebraspe (alerta fora de 46–56%)', () => {
+    it('deve estruturar P2 (Conhecimentos Específicos) com exatamente 90 itens', () => {
       const p2 = simuladoOficialCamara180Q.slice(90, 180);
       expect(p2).toHaveLength(90);
 
@@ -59,10 +50,7 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
         expect(MACROS_P2_ESPECIFICOS.has(macro)).toBe(true);
       });
 
-      const certosP2 = p2.filter((q) => q.gabarito === 'C').length;
-      const proporcaoP2 = (certosP2 / 90) * 100;
-      expect(proporcaoP2).toBeGreaterThanOrEqual(46);
-      expect(proporcaoP2).toBeLessThanOrEqual(56);
+
     });
 
     it('todas as 180 questões devem ser válidas contra o schema Zod estrito de questão Cebraspe', () => {

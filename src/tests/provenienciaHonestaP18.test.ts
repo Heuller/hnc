@@ -23,7 +23,7 @@ describe('P18 — Auditoria e Trava de Regressão da Proveniência Honesta das Q
 
   it('exige que 100% dos itens "real-confirmada" possuam provaId e ano válidos', () => {
     const reais = todasQuestoes.filter((q) => q.fonteOriginal.tipo === 'real-confirmada');
-    expect(reais.length).toBeGreaterThan(0);
+    // A quantidade é descritiva; adaptações não se tornam originais para satisfazer uma cota.
 
     reais.forEach((q) => {
       expect(q.fonteOriginal.provaId).toBeDefined();

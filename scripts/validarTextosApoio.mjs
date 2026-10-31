@@ -18,8 +18,8 @@ try {
    const {useProgressStore}=await import('/src/store/useProgressStore.ts');
    const {useNavigationStore}=await import('/src/store/useNavigationStore.ts');
    useProgressStore.getState().reiniciarSimulado(simulado);
-   useNavigationStore.getState().navigateToSimulado(simulado);
-   useNavigationStore.getState().setTargetQuestionId(id);
+   useProgressStore.getState().iniciarOuRetomarSimulado(simulado);
+   useNavigationStore.getState().navigateToQuestao(simulado,id);
   },{simulado,id});
  }
  for(const width of [1440,390]) {

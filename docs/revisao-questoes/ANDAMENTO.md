@@ -2,7 +2,7 @@
 
 Referência: edital e corte cadastrados no HNC. Iniciada em 30/10/2026. Em andamento: **não concluída**.
 
-Situação atual: **1.806 de 2.179 revisadas individualmente; 373 pendentes**. Não equivale a confirmação de origem oficial nem a liberação dos itens historicamente isolados.
+Situação atual: **2.106 de 2.179 revisadas individualmente; 73 pendentes**. Não equivale a confirmação de origem oficial nem a liberação dos itens historicamente isolados.
 
 O inventário de `src/content/questions` contém **2.179 itens**: 2.110 em 20 cadernos e 69 complementares. A revisão inclui itens fora do treino e não equivale à simples aprovação dos atualmente elegíveis. A interface compartilhada também atende outras atividades; checkpoints da reforma teórica têm registro separado.
 
@@ -34,10 +34,10 @@ Revisão conceitual e confirmação de origem oficial são verificações difere
 | M12 — Inglês: leitura, coesão e vocabulário contextual | 100/100 | Revisão individual aplicada |
 | M13 — Português: interpretação, reescrita, sintaxe e ortografia | 100/100 | Revisão individual aplicada |
 | M14 — Tecnologia, colaboração, redes, segurança, IA e dados | 100/100 | Revisão individual aplicada |
-| Simulado integral Câmara | 5/180 | Itens 13, 57, 85, 147 e 173 revisados; 175 pendentes |
-| Mega simulado | 1/120 | Item 117 revisado; 119 pendentes |
+| Simulado integral Câmara | 180/180 | Revisão individual aplicada, incluindo textos de apoio e cópias divergentes |
+| Mega simulado | 120/120 | Revisão individual aplicada |
 | Simulado geral Câmara | 180/180 | Revisão individual aplicada, inclusive cópias conferidas com os módulos |
-| Mini módulo de órgãos | 20/30 | Itens 1–20 revisados; 10 pendentes |
+| Mini módulo de órgãos | 26/30 | Itens 1–26 revisados; 4 pendentes |
 | Banco complementar | 0/69 | Pendente |
 
 No M3 foram corrigidos três julgamentos: `m3-q-33`, `m3-q-39` (CDDir) e `m3-q-76` (simetria e reciprocidade). Foram reescritas perguntas dependentes de uma edição histórica não identificada, corrigidos fragmentos de OCR e substituídos comentários genéricos e contrastes artificiais. Os dois exemplos das imagens correspondem a `m3-q-64` e `m3-q-49`.
@@ -92,3 +92,8 @@ Validação em 31/10/2026 do marco de 1.506: **979 testes em 125 arquivos aprova
 Marco de 1.806 itens: concluídos M14 e simulado geral; revisados os primeiros 20 itens do mini módulo de órgãos. No M14, as explicações delimitam versão, plano e configuração de serviços, limites de RAG, representação vetorial e funções de protocolos. Corrigido também o julgamento da cópia oficial 85 sobre transcrição automática. No simulado geral, os textos ingleses ausentes foram reconstruídos e identificados como autorais HNC; não são recuperação de prova oficial. O perfil RVBI do campo 650 foi distinguido das opções gerais do MARC. LAI não limita restrições à classificação formal, e OAIS não impõe PREMIS como esquema único. No mini módulo, corrigido o item 19: tribunais são tipo 7 na regra 24.18A do AACR2r, e não tipo 6. As demais 373 questões continuam pendentes.
 
 Validação do marco de 1.806: 979 testes em 125 arquivos aprovados; lint, auditoria estrutural e compilação com orçamentos aprovados. Navegador local validou estudo, prova, prática guiada sem alteração da resposta, textos de apoio e ausência de overflow nas larguras 1440 e 390. A verificação foi refeita com Vite iniciado sobre o banco atual. Eliminadas as últimas cotas de gabarito do teste do mini módulo; preservados seus 30 itens, IDs, schemas e três blocos temáticos. Essas verificações não certificam semanticamente os 373 itens pendentes.
+
+
+Marco de 2.106 itens: concluídos o simulado integral de 180 e o mega simulado de 120. As instâncias repetidas foram lidas e mapeadas explicitamente para as revisões dos módulos; conteúdos diferentes receberam análise própria. No mega, corrigidos julgamentos sobre autorização de obras protegidas, aplicação do índice h, doação, modelos da ciência da informação e leitura de inglês. Foram retirados fragmentos de OCR e substituídas perguntas fora de escopo ou afirmações institucionais sem comprovação por adaptações declaradas. Dez vínculos do mini módulo retornaram à teoria específica 2.5, que ensina órgãos públicos. Permanecem 73 questões: quatro do mini módulo e 69 complementares.
+
+Validação do marco de 2.106: 979 testes em 125 arquivos aprovados; lint, auditoria estrutural e compilação com orçamentos aprovados. Navegador local validou os fluxos de estudo/prova, transferência guiada, textos antes da resposta e ausência de overflow em 1440 e 390 px. Os scripts de navegação usam o destino atômico de questão, evitando a corrida entre mudança de hash e definição de alvo. Retiradas cotas remanescentes de proporção C/E e quantidade mínima de originais certificados: uma adaptação não deve receber selo oficial para satisfazer um teste. Bloqueios históricos e requisitos de identificação continuam conferidos.

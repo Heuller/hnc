@@ -71,7 +71,9 @@ describe('C2 / C8 — Conferência dos Itens de Inglês com Divergência Cebrasp
 
     // q33 sob C8 está marcado em-conferencia
     expect(q33?.gabarito).toBe('C');
-    expect(q33?.fonteOriginal?.tipo).toBe('em-conferencia');
+    expect(q33?.fonteOriginal?.tipo).toBe(revisoesIndividuais.has('oficial-180q-033') ? 'adaptada' : 'em-conferencia');
+    expect(q33?.fonteOriginal?.verificado).toBe(false);
+    if (revisoesIndividuais.has('oficial-180q-033')) expect(q33?.justificativa).toBe(revisoesIndividuais.get('oficial-180q-033')?.patch.justificativa);
     expect(q33?.fonteOriginal?.revisar).toBe(true);
 
     // Correção individual prevalece sobre cota artificial de gabarito.

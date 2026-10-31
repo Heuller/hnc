@@ -1359,5 +1359,35 @@
     "titulo": "Library of Congress — Summary of RDA Updates, July 2013",
     "url": "https://www.loc.gov/aba/rda/pdf/summary_rda_changes_2013.pdf",
     "localizador": "11.2.2.14–15: entidades subordinadas, incluindo governamentais; numeração da edição original RDA"
+  },
+  "bbdHistorica": {
+    "titulo": "Senado Federal — Bibliografia Brasileira de Direito: apresentação histórica",
+    "url": "https://imagem.camara.leg.br/Imagem/d/pdf/DCD26AGO2000.pdf",
+    "localizador": "apresentação dos produtos bibliográficos: monografias e artigos, português e outros idiomas, editados no Brasil desde 1980"
+  },
+  "lisaProquest": {
+    "titulo": "ProQuest — Library and Information Science Abstracts: Content",
+    "url": "https://proquest.libguides.com/lisa/content",
+    "localizador": "base de referências e resumos em Biblioteconomia e Ciência da Informação; condições de acesso por licença"
+  },
+  "greenstone": {
+    "titulo": "Greenstone — Building collections",
+    "url": "https://wiki.greenstone.org/doku.php?id=en%3Abeginner%3Abuilding_collections",
+    "localizador": "banco de dados da coleção: JDBM, GDBM ou SQLite, conforme configuração"
+  },
+  "stjRes8": {
+    "titulo": "STJ — Resolução 8, de 20/09/2007",
+    "url": "https://www.stj.jus.br/webstj/Institucional/Biblioteca/Clipping/2Imprimir2.asp?seq_edicao=1499&seq_materia=13104",
+    "localizador": "art. 2º: assinatura digital das edições do DJe; referência histórica expressamente delimitada"
+  },
+  "historiaBiblioteca": {
+    "titulo": "Câmara dos Deputados — Histórico da Biblioteca",
+    "url": "https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca/bibhist.html",
+    "localizador": "origem em 1823, criação efetiva em 1866 e denominação pela Resolução 104/1984"
+  },
+  "guiaCDUIbict": {
+    "titulo": "IBICT — Guia para utilização da CDU",
+    "url": "https://livroaberto.ibict.br/bitstream/123456789/772/6/Guia%20para%20utiliza%C3%A7%C3%A3o%20da%20CDU.pdf",
+    "localizador": "p. 11: classes simples, compostas e complexas; trecho público consultado"
   }
 }

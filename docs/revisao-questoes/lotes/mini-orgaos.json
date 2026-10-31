@@ -8,12 +8,12 @@
       "cf"
     ],
     "localizador": "arts. 102 e 105: competências do STF e do STJ",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "6fd33e336f4f5fe6cacb7a4c6dfebfa09c3e46f23aa5ae472fbfc8c686732803",
-    "shaDepois": "c335ccc207d05349872a52cf2eaa85c030db7e2f602ec4b32d24d4ad544ca479",
+    "shaDepois": "9ca062304c6ce06f8b2c68450c3b750de2e055276b267eb2da0885862cae1466",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "CERTO. STF tem a guarda constitucional como competência precípua; STJ examina questões de direito federal nas hipóteses constitucionais, inclusive recurso especial. Não são instâncias universais para reexaminar todos os fatos e provas de qualquer processo.",
       "gatilho": "guarda da Constituição",
       "armadilhaBanca": "Trocar a função constitucional dos tribunais superiores.",
@@ -32,12 +32,12 @@
       "cf"
     ],
     "localizador": "arts. 71 e 92: controle externo e órgãos do Judiciário",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "7d2bd7395b8cdb11c53b025426e6c4977cdd2b0d6f571336b9cf2cd1e6682d54",
-    "shaDepois": "7e6610752faf341d6efce139da1fa37e9244b4867602d64c669124390308846d",
+    "shaDepois": "5f3d63434cba8b29b88ce5205bb544efd5a88f4c37ec716f3d8c3a867514a99b",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "ERRADO. O TCU auxilia o Congresso no controle externo e não integra o rol de órgãos do Judiciário. Suas decisões têm efeitos próprios, mas não a imunidade absoluta à revisão judicial alegada. Controle judicial de legalidade não converte todo processo de contas em nova análise irrestrita de mérito.",
       "gatilho": "Poder Judiciário",
       "armadilhaBanca": "Confundir tribunal de contas com órgão jurisdicional.",
@@ -56,12 +56,12 @@
       "cf"
     ],
     "localizador": "arts. 92, I-A, e 103-B, §4º",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "62e6f83f6bb61f1b84060e8c6d3fa6dc509a507727f9728abd8877b516a05298",
-    "shaDepois": "8912e04811ce51b84f333f109b7eedee310fb11bac631099fca5c34648118842",
+    "shaDepois": "fabe48400b515bc5a7bc0e60b11e84e5bc0b20fc811b3c28cc89f10494397d1a",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "CERTO. CNJ integra o Judiciário e controla sua atuação administrativa e financeira e deveres funcionais dos juízes. Essas atribuições não o transformam em instância recursal para reformar decisões jurisdicionais em litígios. Controle disciplinar e julgamento judicial têm objetos distintos.",
       "gatilho": "controle administrativo e financeiro",
       "armadilhaBanca": "Separar controle administrativo e atividade jurisdicional.",
@@ -80,12 +80,12 @@
       "cf"
     ],
     "localizador": "art. 127, §§1º e 2º, e art. 128: autonomia do Ministério Público",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "538c4d14468d2fa701ad542ecc7df54fa0dfcb70df9635259b9c5bea6d15496c",
-    "shaDepois": "17422601bd662a8741d307df694fa0503a05ab4208eaf5961edba058a9a49973",
+    "shaDepois": "fa72e2bf88b1f85128c5c5df1024763a8a0828a6310f776d5ffc182fe210ca74",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "ERRADO. A Constituição assegura autonomia funcional e administrativa ao Ministério Público, que não é departamento do Ministério da Justiça. A participação de outros poderes em orçamento ou nomeações, nos termos constitucionais, não cria a subordinação hierárquica afirmada.",
       "gatilho": "subordinado",
       "armadilhaBanca": "Confundir participação constitucional de poderes e hierarquia administrativa.",
@@ -104,12 +104,12 @@
       "cf"
     ],
     "localizador": "arts. 45 e 46: composição das Casas",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "89e0fd9f5a9848899063bf0636c8fb194fad1152d6204907b46cf31ced045125",
-    "shaDepois": "cb105c32d6804d40b2695624924f79c73d5e15242e4b5cb287c0ae0d5957fdcf",
+    "shaDepois": "cec7cb537fed702903b690e982e006278a61b7f31fc48af304e7e032f1c24ccf",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "item": "A Câmara dos Deputados compõe-se de representantes do povo eleitos pelo sistema proporcional em cada Estado, Território e no Distrito Federal; o Senado representa os Estados e o Distrito Federal, com eleição pelo princípio majoritário.",
       "justificativa": "CERTO. A Câmara representa o povo com eleição proporcional nos Estados, no DF e nos Territórios; o Senado representa Estados e DF, com eleição majoritária e três senadores por unidade. Não se deve generalizar o mesmo sistema eleitoral para ambas as Casas.",
       "gatilho": "sistema proporcional",
@@ -129,12 +129,12 @@
       "cf"
     ],
     "localizador": "art. 102, I, d: mandado de segurança contra atos das Mesas",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "b219025e978e367d114f196a032c2cf8954b9abfc0aa6f4b2b194a6abb824272",
-    "shaDepois": "c8c78b43b252bf27070ef2d2da8307756c115ac96b58c2b032b7ada753baef24",
+    "shaDepois": "65422e9d243cc836354cd30a9b99604876a8fff135f4fbedf9d580f8fb492d49",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "ERRADO. O art. 102, I, d atribui ao STF competência originária para mandado de segurança contra atos das Mesas da Câmara e do Senado. O fato de a autoridade atuar na esfera federal não desloca essa hipótese expressa aos TRFs.",
       "gatilho": "Tribunais Regionais Federais",
       "armadilhaBanca": "Aplicar regra específica de competência em lugar de associação genérica com a esfera federal.",
@@ -153,12 +153,12 @@
       "cf"
     ],
     "localizador": "arts. 109, 114, 121, 124 e 125: competências jurisdicionais",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "f4cb49420ef52a853a7356408b5314e777fc09e91ab9f260a13fe49efba3db08",
-    "shaDepois": "785118c2217771dbf311982c9f0e0460453a55e10fb182d14f01e76bc909e4a2",
+    "shaDepois": "9245fce814c42190086b41865a9550e169b41ec8b3d9df0ff0aad75e4775b164",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "CERTO. A Justiça comum estadual aprecia, em regra, o que não foi atribuído a outra justiça. A caracterização residual não significa que todo processo relativo a direito federal vá à Justiça Federal: a competência depende também de partes e hipóteses constitucionais.",
       "gatilho": "competência residual",
       "armadilhaBanca": "Distinguir matéria legislativa e competência jurisdicional.",
@@ -177,12 +177,12 @@
       "cf"
     ],
     "localizador": "art. 31, §4º: vedação à criação municipal",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "4f74bc973e895133c455f09cf2bc9e48beeb24e262962f69c0b0c2cf367fa3ff",
-    "shaDepois": "efcf0a25510eaba1a7c555f727dc3f4952523b8c88c8589eb1cd1592e18f2472",
+    "shaDepois": "2e2d85aa91e7f2c37a6587a8f132d20c36c438090f22a79359040bb9ac944aaf",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "ERRADO. A Constituição proíbe criar tribunais, conselhos ou órgãos de contas municipais. Isso não extingue os tribunais municipais preexistentes nem se confunde com tribunal de contas dos municípios criado na estrutura estadual. Lei orgânica local não afasta a proibição.",
       "gatilho": "criarem",
       "armadilhaBanca": "Distinguir órgão municipal de órgão estadual de fiscalização dos municípios.",
@@ -201,12 +201,12 @@
       "cf"
     ],
     "localizador": "arts. 71, §3º, e 75: eficácia executiva de decisões de contas",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "0381ae152547bd166bb52523a34bc9dfb8a13f3012d04fdc5d7bdf8442ae9fda",
-    "shaDepois": "8f1d7d0680f324a22194b2a38a8cc315d7700753f392cf237cad7a149c57311e",
+    "shaDepois": "99918f1554e104a1f4b8b35fe6d365139bbba533aea35d21bbcfbe4c1fe01ff3",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "item": "As decisões do TCU e, por simetria constitucional, dos tribunais de contas estaduais de que resulte imputação de débito ou multa têm eficácia de título executivo extrajudicial.",
       "justificativa": "CERTO. Decisão que imputa débito ou multa tem eficácia de título executivo. A regra não depende de transformar a decisão do tribunal de contas em sentença judicial; a cobrança judicial segue o regime próprio e o título continua sujeito ao controle cabível.",
       "gatilho": "título executivo extrajudicial",
@@ -226,12 +226,12 @@
       "cf"
     ],
     "localizador": "arts. 21, XIII, e 22, XVII: Judiciário do DF e Territórios",
-    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial. Vínculo mantido no mini módulo específico que ensina órgãos públicos e catalogação governamental.",
     "shaAntes": "2425324403fd3a3f9020ca4f3bca8adf687db60559672d624d01f1d60b11c5d5",
-    "shaDepois": "d5323fd34eb4e172bdd72ba3c252112de843587c7292cc57427e09f70cfc3aa5",
+    "shaDepois": "63d06c2fa4ad2d835b8c11559b4f4e5c92a3744186fe09ffe1df60556bc1f0b7",
     "patch": {
       "contexto": "Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.",
-      "submoduloId": "10.4",
+      "submoduloId": "2.5",
       "justificativa": "ERRADO. Compete à União organizar e manter o Poder Judiciário do Distrito Federal e dos Territórios, além da competência legislativa constitucionalmente prevista. Localização no DF não equivale a manutenção exclusivamente por receitas distritais.",
       "gatilho": "sem qualquer vinculação",
       "armadilhaBanca": "Confundir localização geográfica e responsabilidade federativa.",
@@ -482,6 +482,153 @@
       "fonte": "AACR2 — Revisão 2002, edição em português do acervo — 24.18A, tipo 9, e 24.20B–C: autoridades governamentais. Texto ou obra no acervo HNC.",
       "dataConferencia": "2026-10-31",
       "versao_correta": "Manifestações de autoridade no exercício oficial devem observar as regras de jurisdição e cargo do AACR2r, distinguindo-se de obras pessoais.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-021",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "historiaBiblioteca"
+    ],
+    "localizador": "seções de origem, criação efetiva e denominação",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "8731846edc526f9900d6003a07b686fb3a4b098b130d7f719955559c1265867c",
+    "shaDepois": "721ee8d821a6ccec235c2aed01436ffc2e74e4db84f3f4cb0f894653ecf811d6",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "CERTO. O histórico institucional distingue os antecedentes de 1823 da criação efetiva em 1866. A denominação Pedro Aleixo veio pela Resolução 104/1984. Essas datas designam eventos distintos: a origem não prova criação formal em 1823, e a homenagem de 1984 não inaugura a biblioteca.",
+      "gatilho": "criada em 1866",
+      "armadilhaBanca": "Trocar origem, criação efetiva e mudança de denominação.",
+      "fonte": "Câmara dos Deputados — Histórico da Biblioteca — seções de origem, criação efetiva e denominação — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca/bibhist.html",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A biblioteca foi criada efetivamente em 1984, sem antecedentes no século XIX."
+    }
+  },
+  {
+    "id": "orgaos-q-022",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "estrutura e identificação da Coordenação de Biblioteca no Cedi",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "0b868d7f0192465d246b02d4f902db64e30e9c9dad3b39b5b280c4ecfac297ce",
+    "shaDepois": "2bfe5911ea2f78d79f951e5f82ba49201b54c77d4415b22adf3d2188982ce288",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "A Biblioteca Pedro Aleixo funciona como unidade diretamente subordinada ao Gabinete do Presidente, sem integração à Coordenação de Biblioteca e ao Cedi.",
+      "justificativa": "ERRADO. A identificação institucional vincula a biblioteca à estrutura documental da Casa, com Coordenação de Biblioteca e Cedi. Atribuir subordinação direta e exclusiva ao gabinete presidencial ignora essa estrutura. Não se deve inferir a cadeia administrativa completa apenas pela autoridade que dirige politicamente a Casa.",
+      "gatilho": "Gabinete do Presidente",
+      "armadilhaBanca": "Confundir direção política da Casa e vinculação administrativa da unidade.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — estrutura e identificação da Coordenação de Biblioteca no Cedi — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A Biblioteca Pedro Aleixo integra a estrutura de serviços documentais da Câmara, identificada institucionalmente com a Coordenação de Biblioteca e o Cedi.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-023",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bibliotecaCamara"
+    ],
+    "localizador": "biblioteca parlamentar: apoio à atividade legislativa e serviços",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "5bd4dae5942fdcb63fb0b92e0af4911c20e64db8690d352d62d145934fdfeaba",
+    "shaDepois": "87dfa01f1ac6b546c4092ad2650cccb2f713ba0c32f0676b50ec49976ee751b3",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "Como biblioteca parlamentar, a Biblioteca Pedro Aleixo apoia necessidades informacionais da atividade legislativa, incluindo deputados, comissões e equipes de assessoramento, sem excluir os serviços e formas de acesso oferecidos à sociedade.",
+      "justificativa": "CERTO. A missão parlamentar justifica serviços voltados às necessidades de deputados, comissões e equipes de assessoramento. Prioridade de missão não significa exclusividade absoluta de público: há serviços e formas de acesso destinados à sociedade, sujeitos às condições institucionais.",
+      "gatilho": "sem excluir",
+      "armadilhaBanca": "Distinguir público prioritário e público exclusivo.",
+      "fonte": "Câmara dos Deputados — Biblioteca Pedro Aleixo — biblioteca parlamentar: apoio à atividade legislativa e serviços — https://www2.camara.leg.br/a-camara/documentos-e-pesquisa/biblioteca",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "A prioridade de atendimento parlamentar proíbe qualquer serviço da biblioteca à sociedade."
+    }
+  },
+  {
+    "id": "orgaos-q-024",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bdcamara"
+    ],
+    "localizador": "acesso público ao portal e às coleções",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "70a15006eab8dace2e9199475c5c09a23e40094253e0ce2a71ab1a2469192f53",
+    "shaDepois": "f447f41719c481ff76cfca07182cfd0fe0b3890b5324d1bcce7a822d6687a0f2",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "ERRADO. O portal disponibiliza consulta pública a coleções digitais. Eventuais restrições de objetos, direitos ou operações administrativas não o convertem em intranet exclusiva de servidores. Deve-se distinguir acesso ao material público de permissão para depositar ou administrar documentos.",
+      "gatilho": "intranet restrita",
+      "armadilhaBanca": "Generalizar controle de administração para consulta pública.",
+      "fonte": "Câmara dos Deputados — Biblioteca Digital — acesso público ao portal e às coleções — https://bd.camara.leg.br/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A Biblioteca Digital da Câmara oferece consulta pública a suas coleções abertas, sem exigir conta institucional para toda leitura.",
+      "versao_errada": ""
+    }
+  },
+  {
+    "id": "orgaos-q-025",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "bdcamara"
+    ],
+    "localizador": "plataforma, metadados e serviço de interoperabilidade",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "af9cc3566d87aba9d8ceba579052775834dde4b98465436d12ad85c58860963f",
+    "shaDepois": "4ab809d11e445efdfac7626cc9a2329585bb41a487d0e764d4ed87a144353bc2",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "item": "Na Biblioteca Digital da Câmara, DSpace, metadados Dublin Core e OAI-PMH correspondem a camadas diferentes; a colheita de metadados não se confunde com autorização para republicar integralmente todas as obras.",
+      "justificativa": "CERTO. DSpace é o software de repositório, Dublin Core é um vocabulário de metadados e OAI-PMH serve à colheita. São camadas distintas; não se deve chamar o protocolo de formato de texto integral. Colheita também não concede automaticamente permissão para republicar todas as obras.",
+      "gatilho": "não se confunde",
+      "armadilhaBanca": "Distinguir software, vocabulário de metadados e protocolo.",
+      "fonte": "Câmara dos Deputados — Biblioteca Digital — plataforma, metadados e serviço de interoperabilidade — https://bd.camara.leg.br/",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "",
+      "versao_errada": "OAI-PMH é o formato de texto integral que substitui os metadados Dublin Core na Biblioteca Digital."
+    }
+  },
+  {
+    "id": "orgaos-q-026",
+    "caminho": "src/content/questions/mini-modulo-orgaos-30q.ts",
+    "status": "revisado",
+    "data": "2026-10-31",
+    "fonteIds": [
+      "rvbi"
+    ],
+    "localizador": "coordenação da rede pela Biblioteca do Senado",
+    "nota": "Leitura individual e revisão de julgamento, redação, fundamento e contraste; eventual reconstrução é editorial, sem certificar origem oficial.",
+    "shaAntes": "709749a6be8be169cc43d16890e8a4a647f7bd48d3f45010da5195f5ec57fb1a",
+    "shaDepois": "cdb46aac41c4b488d75b5f5d84808f8a401551d3dabb07534449196be41b68a1",
+    "patch": {
+      "contexto": "Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.",
+      "submoduloId": "2.5",
+      "justificativa": "ERRADO. A RVBI é rede cooperativa coordenada pela Biblioteca do Senado Federal. A Câmara integra a cooperação, o que não a torna automaticamente coordenadora. Compartilhar catálogo e padrões não elimina responsabilidades locais de cada biblioteca.",
+      "gatilho": "Diretoria-Geral da Câmara",
+      "armadilhaBanca": "Trocar coordenação da rede e participação cooperativa.",
+      "fonte": "Senado Federal — A RVBI — coordenação da rede pela Biblioteca do Senado — https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi",
+      "dataConferencia": "2026-10-31",
+      "versao_correta": "A Biblioteca do Senado Federal coordena a RVBI, da qual participam bibliotecas de diferentes órgãos.",
       "versao_errada": ""
     }
   }
