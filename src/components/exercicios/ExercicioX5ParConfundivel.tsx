@@ -64,7 +64,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
       aria-label="Exercício de Par Confundível"
     >
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-indigo-500/10 text-indigo-600 dark:text-indigo-400">
             <Split className="w-4 h-4" />

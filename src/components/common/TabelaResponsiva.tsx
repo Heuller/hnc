@@ -123,7 +123,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
   return (
     <div className={`rounded-2xl border border-border bg-surface-3/30 dark:bg-surface-3/20 p-3.5 sm:p-5 space-y-4 my-6 w-full max-w-full @container ${className}`}>
       {/* Cabeçalho do Quadro */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/80 pb-3">
+      <div className="flex flex-wrap items-center justify-between gap-3 pb-3">
         <div className="flex items-center gap-2.5">
           <div className="p-1.5 rounded-lg bg-surface-3 dark:bg-surface-2 text-accent border border-border/60">
             <TableIcon className="w-4 h-4 shrink-0" aria-hidden="true" />
@@ -298,7 +298,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                 className="rounded-xl border border-border bg-surface p-4 space-y-3 shadow-2xs transition-shadow"
               >
                 {/* Campo primário em destaque no topo do cartão */}
-                <div className="border-b border-border/80 pb-2.5">
+                <div className="pb-2.5">
                   <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-accent block mb-1">
                     {primaryHeader}
                   </span>

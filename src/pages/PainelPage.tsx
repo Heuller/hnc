@@ -163,27 +163,13 @@ export const PainelPage: React.FC = () => {
                 </span>
                 {proximoPasso?.motivo && (
                   <span
-                    className="text-xs font-sans font-semibold px-2 py-0.5 rounded border"
-                    style={{
-                      backgroundColor:
-                        proximoPasso.motivo === 'revisao_vencida'
-                          ? '#fef3c7'
-                          : proximoPasso.motivo === 'ponto_fraco'
-                          ? '#fee2e2'
-                          : '#e0f2fe',
-                      color:
-                        proximoPasso.motivo === 'revisao_vencida'
-                          ? '#92400e'
-                          : proximoPasso.motivo === 'ponto_fraco'
-                          ? '#991b1b'
-                          : '#075985',
-                      borderColor:
-                        proximoPasso.motivo === 'revisao_vencida'
-                          ? '#fde68a'
-                          : proximoPasso.motivo === 'ponto_fraco'
-                          ? '#fecaca'
-                          : '#bae6fd',
-                    }}
+                    className={`text-xs font-sans font-semibold px-2 py-0.5 rounded border ${
+                      proximoPasso.motivo === 'revisao_vencida'
+                        ? 'bg-accent-soft text-accent border-accent/30'
+                        : proximoPasso.motivo === 'ponto_fraco'
+                        ? 'bg-err-soft text-err border-err/30'
+                        : 'bg-info-soft text-info border-info/30'
+                    }`}
                     title={proximoPasso.explicacaoMotivo}
                   >
                     {proximoPasso.motivo === 'revisao_vencida'

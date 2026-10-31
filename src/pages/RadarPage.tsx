@@ -132,7 +132,7 @@ export const RadarPage: React.FC = () => {
               Mapeamento Doutrinário e Jurisprudência da Banca
             </span>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal">
+          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal">
             Radar Cebraspe: Padrões e Armadilhas
           </h1>
           <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed">

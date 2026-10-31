@@ -617,7 +617,7 @@ export const DiscursivaPage: React.FC = () => {
 
           {enunciadoAtivo && (
             <div className="bg-surface border border-border rounded-2xl p-5 shadow-editorial-sm space-y-3">
-              <div className="flex items-center justify-between text-xs font-mono text-ink-2 border-b border-border pb-2 flex-wrap gap-2">
+              <div className="flex items-center justify-between text-xs font-mono text-ink-2 pb-2 flex-wrap gap-2">
                 <span className="font-bold text-ink text-sm sm:text-base font-serif">
                   {enunciadoAtivo.titulo}
                 </span>

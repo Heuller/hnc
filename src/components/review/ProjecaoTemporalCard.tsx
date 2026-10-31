@@ -31,7 +31,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
   return (
     <div className="w-full bg-surface border border-border rounded-2xl p-4 sm:p-6 shadow-xs space-y-6">
       {/* Header do Card */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-border/70">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 ">
         <div>
           <div className="flex items-center gap-2">
             <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold uppercase tracking-wider text-accent bg-accent/10 border border-accent/20">

@@ -66,7 +66,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
                 aria-hidden="true"
               />
 
-              <div className="flex items-center justify-between pb-3 border-b border-border">
+              <div className="flex items-center justify-between pb-3 ">
                 <div>
                   <Drawer.Title className="font-sans font-bold text-ink text-base">
                     Resumo Rápido e Mnemônicos

@@ -86,7 +86,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
       aria-label="Item Certo ou Errado Cebraspe"
     >
       {/* Cabeçalho */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <span className="text-xs font-mono font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
             {contadorTexto || 'CERTO / ERRADO'}
@@ -181,7 +181,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
             }`}
             aria-live="polite"
           >
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border/40 pb-2">
+            <div className="flex flex-wrap items-center justify-between gap-2 pb-2">
               <span className={`text-xs font-bold flex items-center gap-1.5 ${acertou ? 'text-ok' : 'text-err'}`}>
                 {acertou ? <CheckCircle2 className="w-4 h-4" /> : <XCircle className="w-4 h-4" />}
                 <span>

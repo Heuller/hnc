@@ -595,7 +595,7 @@ export const SimuladoPage: React.FC = () => {
         </div>
       )}
           <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-editorial-sm space-y-6 text-center sm:text-left">
-            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 pb-6 border-b border-border">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 pb-6 ">
               <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-accent shrink-0">
                 <Lock className="w-7 h-7" />
               </div>
@@ -606,7 +606,7 @@ export const SimuladoPage: React.FC = () => {
                   </span>
                   <span className="text-xs font-mono text-ink-2">Metodologia Cebraspe</span>
                 </div>
-                <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal">
+                <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal">
                   Simulado de {simuladoAtivo.questoes.length} Questões Bloqueado
                 </h1>
                 <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed max-w-xl">
@@ -752,7 +752,7 @@ export const SimuladoPage: React.FC = () => {
       <div className="max-w-4xl mx-auto space-y-8 animate-fadeIn print:max-w-none print:p-0">
         {/* Cabeçalho do Relatório */}
         <section className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs print:border-none print:shadow-none print:p-0">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-border print:border-black">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 print:border-b print:border-black">
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <Award className="w-5 h-5 text-accent print:text-black" />
@@ -760,7 +760,7 @@ export const SimuladoPage: React.FC = () => {
                   Relatório de Desempenho no Modelo Cebraspe (Fator 1:1)
                 </span>
               </div>
-              <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink print:text-black tracking-normal">
+              <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink print:text-black tracking-normal">
                 {simuladoAtivo.titulo}
               </h1>
             </div>
@@ -1217,7 +1217,7 @@ export const SimuladoPage: React.FC = () => {
                           }`}
                         >
                           {/* Topo do Item: Número + Status + Fonte */}
-                          <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 mb-3 border-b border-border/60 print:border-gray-200">
+                          <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 mb-3 print:border-b print:border-gray-200">
                             <div className="flex items-center gap-2">
                               <span className="font-mono text-xs font-bold text-ink print:text-black">
                                 Item #{q.numero}
@@ -1458,7 +1458,7 @@ export const SimuladoPage: React.FC = () => {
         {/* Card do Enunciado Cebraspe */}
         <article className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs space-y-6">
           {currentQuestion.contexto && (
-            <div className="font-serif text-ink-2 text-base leading-relaxed whitespace-pre-line border-b border-border pb-5">
+            <div className="font-serif text-ink-2 text-base leading-relaxed whitespace-pre-line pb-5">
               {currentQuestion.contexto}
             </div>
           )}
@@ -1617,7 +1617,7 @@ export const SimuladoPage: React.FC = () => {
           {!modoProva && respostaAtual && (
             <div className="pt-6 border-t border-border space-y-4 animate-fadeIn" aria-live="polite">
               {/* Badge de cabeçalho do Estudo Reverso */}
-              <div className="flex items-center justify-between gap-2 pb-1 border-b border-border/60 flex-wrap">
+              <div className="flex items-center justify-between gap-2 pb-1 flex-wrap">
                 <span className="font-mono text-xs font-bold text-accent px-2.5 py-0.5 rounded bg-accent-soft border border-accent/25 uppercase tracking-wider">
                   ESTUDO REVERSO IMEDIATO
                 </span>
@@ -1782,7 +1782,7 @@ export const SimuladoPage: React.FC = () => {
         aria-label={`Folha de respostas das ${questoesExibidas.length} questões`}
         className="hidden lg:block w-80 shrink-0 bg-surface rounded-2xl border border-border p-4.5 shadow-xs sticky top-20 max-h-[calc(100dvh-6rem)] overflow-y-auto"
       >
-        <div className="flex items-center justify-between pb-3 mb-3 border-b border-border">
+        <div className="flex items-center justify-between pb-3 mb-3 ">
           <div className="flex items-center gap-2">
             <Layers className="w-4 h-4 text-accent" />
             <h2 className="font-sans font-bold text-ink text-sm">Folha de Respostas</h2>
@@ -1809,7 +1809,7 @@ export const SimuladoPage: React.FC = () => {
           <Drawer.Content className="bg-surface border-t border-border flex flex-col rounded-t-2xl max-h-[88dvh] fixed bottom-0 left-0 right-0 z-50 foco focus-visible:ring-2 focus-visible:ring-accent">
             <div className="p-4 bg-surface rounded-t-2xl flex flex-col max-h-[88dvh]">
               <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-border mb-3" />
-              <div className="flex items-center justify-between pb-3 border-b border-border">
+              <div className="flex items-center justify-between pb-3 ">
                 <Drawer.Title className="font-sans font-bold text-ink text-base">
                   Folha de Respostas ({questoesExibidas.length} Itens)
                 </Drawer.Title>

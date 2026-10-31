@@ -90,7 +90,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
       aria-label="Exercício de Brain Dump (Recuperação Livre)"
     >
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-3 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-amber-500/10 text-accent dark:text-amber-400">
             <Clock className="w-4 h-4" />

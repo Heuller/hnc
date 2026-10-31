@@ -46,7 +46,7 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
       className="card-editorial p-4 sm:p-5 space-y-3.5 my-4 bg-surface rounded-xl border border-border shadow-xs"
       aria-live="polite"
     >
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border pb-2.5">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5">
         <div className="flex items-center gap-2">
           <Lightbulb className="w-4 h-4 text-accent shrink-0" aria-hidden="true" />
           <span className="text-xs font-bold text-ink uppercase tracking-wider">

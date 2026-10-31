@@ -46,7 +46,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
       aria-label="Exercício de Pré-teste"
     >
       {/* Banner Informativo de Pré-teste */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-accent-soft text-accent">
             <Sparkles className="w-4 h-4" />

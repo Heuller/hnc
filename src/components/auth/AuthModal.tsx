@@ -92,7 +92,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
           className="relative w-full max-w-md rounded-2xl bg-surface border border-border shadow-2xl p-6 z-10 text-ink space-y-5"
         >
           {/* Header */}
-          <div className="flex items-center justify-between border-b border-border/60 pb-3">
+          <div className="flex items-center justify-between pb-3">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
                 <User className="w-4 h-4" />

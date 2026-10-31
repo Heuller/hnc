@@ -290,7 +290,7 @@ export const Sidebar: React.FC = () => {
     >
       <div className="space-y-5">
         {/* Header da Trilha */}
-        <div className="flex items-center justify-between pb-3 border-b border-border">
+        <div className="flex items-center justify-between pb-3 ">
           <div className="flex items-center gap-2">
             <BookOpen className="w-4 h-4 text-accent" aria-hidden="true" />
             <h2 className="text-xs font-bold uppercase tracking-wider text-ink">

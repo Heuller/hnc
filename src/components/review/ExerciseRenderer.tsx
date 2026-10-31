@@ -111,7 +111,7 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
   return (
     <div className="w-full max-w-3xl mx-auto space-y-4">
       {/* Barra de Progresso e Metadados do Exercício */}
-      <div className="flex items-center justify-between text-xs font-sans text-ink-2 pb-2 border-b border-border">
+      <div className="flex items-center justify-between text-xs font-sans text-ink-2 pb-2 ">
         <div className="flex items-center gap-2">
           <span className="font-bold text-accent px-2 py-0.5 rounded-md bg-accent/10 border border-accent/20">
             {metaFormato.codigo} · {metaFormato.nome}

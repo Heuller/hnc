@@ -143,7 +143,7 @@ export const FolhaVesperaPage: React.FC = () => {
           <span>Folha de Véspera • Matriz de Choque & Síntese</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-black text-ink tracking-normal m-0">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal m-0">
           Folha de Véspera: Matriz dos 5 Blocos do Edital 2026
         </h1>
 
@@ -297,7 +297,7 @@ export const FolhaVesperaPage: React.FC = () => {
             key={bloco.id}
             className="bg-surface rounded-2xl border border-border p-6 space-y-5 print:p-3 print:border-black print:shadow-none shadow-editorial-xs print:break-before-page"
           >
-            <div className="border-b border-border pb-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div className="pb-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="px-2 py-0.5 rounded bg-accent text-white text-xs font-black font-mono">
                   {bloco.sigla}
@@ -327,7 +327,7 @@ export const FolhaVesperaPage: React.FC = () => {
                     key={item.id}
                     className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2.5 text-xs font-serif leading-relaxed text-ink print:text-black shadow-2xs"
                   >
-                    <div className="flex items-center justify-between gap-2 font-mono text-xs border-b border-border/50 pb-1.5">
+                    <div className="flex items-center justify-between gap-2 font-mono text-xs pb-1.5">
                       <span className="font-bold text-accent uppercase">
                         #{pIdx + 1} · {item.topico}
                       </span>
@@ -449,7 +449,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 1: AUTORES CANÔNICOS E DOUTRINAS */}
             {autoresConsolidados.length > 0 && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <Sparkles className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Autores Canônicos e Doutrinas Concluídas ({autoresConsolidados.length})
@@ -482,7 +482,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 2: QUADROS COMPARATIVOS CONSOLIDADOS */}
             {quadrosConsolidados.length > 0 && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <Table className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Matrizes e Quadros Comparativos dos Módulos Concluídos ({quadrosConsolidados.length})
@@ -505,7 +505,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 3: ALERTAS CEBRASPE E PEGADINHAS DA BANCA */}
             {(alertasConsolidados.length > 0 || pegadinhasConsolidadas.length > 0) && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <AlertTriangle className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Alertas e Armadilhas dos Submódulos Concluídos ({alertasConsolidados.length + pegadinhasConsolidadas.length})
@@ -548,7 +548,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 4: MARCOS CRONOLÓGICOS CONSOLIDADOS */}
             {timelineConsolidada.length > 0 && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <History className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Marcos Cronológicos Históricos ({timelineConsolidada.length})

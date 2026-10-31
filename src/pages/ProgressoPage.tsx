@@ -133,7 +133,7 @@ export const ProgressoPage: React.FC = () => {
             Painel Analítico de Desempenho e Metacognição
           </span>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mb-2">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal mb-2">
           Evolução Histórica e Diagnóstico de Estudos
         </h1>
         <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed max-w-3xl">

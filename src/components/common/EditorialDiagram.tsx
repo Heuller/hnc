@@ -456,7 +456,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
           {viewMode === 'visual' && (
             <div className="space-y-3 min-w-0">
               {/* Barra de Controles de Zoom Flutuante Discreta */}
-              <div className="flex items-center justify-between text-xs text-ink-2 pb-2 border-b border-border/50">
+              <div className="flex items-center justify-between text-xs text-ink-2 pb-2 ">
                 <span className="text-xs font-mono text-ink-2 flex items-center gap-1">
                   <span>💡</span>
                   <span className="hidden sm:inline">Arraste para navegar ou use o zoom</span>
@@ -538,7 +538,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
 
           {viewMode === 'tree' && (
             <div className="p-2 sm:p-3 space-y-4 min-w-0">
-              <div className="pb-3 border-b border-border flex items-center justify-between text-xs">
+              <div className="pb-3 flex items-center justify-between text-xs">
                 <span className="font-mono font-bold uppercase tracking-wider text-ink-2">
                   Árvore de Síntese para Memorização Cebraspe
                 </span>

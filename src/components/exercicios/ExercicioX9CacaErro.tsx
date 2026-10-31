@@ -57,7 +57,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
       aria-label="Exercício de Caça ao Erro no Parágrafo"
     >
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-amber-500/10 text-accent dark:text-amber-400">
             <Crosshair className="w-4 h-4" />

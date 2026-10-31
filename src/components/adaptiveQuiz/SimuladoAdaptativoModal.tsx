@@ -243,7 +243,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
             <div className="max-w-3xl mx-auto space-y-6">
               {itensSimulado.length < qtdItens && <p role="status" className="p-3 rounded-xl border border-border text-ink">Há {itensSimulado.length} itens distintos disponíveis para os {qtdItens} solicitados. Este é um treino parcial.</p>}
               {/* Contexto do Item */}
-              <div className="flex items-center justify-between text-xs font-mono text-ink-2 border-b border-border pb-2.5">
+              <div className="flex items-center justify-between text-xs font-mono text-ink-2 pb-2.5">
                 <span className="font-bold text-accent">
                   ITEM {itemAtualIndex + 1} DE {itensSimulado.length}
                 </span>

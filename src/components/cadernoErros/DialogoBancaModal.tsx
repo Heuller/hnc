@@ -294,7 +294,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
                           : 'bg-primary text-primary-text border border-primary/20'
                       }`}
                     >
-                      <div className="flex items-center justify-between gap-3 text-xs font-mono opacity-75 border-b border-border/40 pb-1.5 mb-2">
+                      <div className="flex items-center justify-between gap-3 text-xs font-mono opacity-75 pb-1.5 mb-2">
                         <span className="font-bold">
                           {ehBanca ? 'Examinador Titular Cebraspe' : 'Recurso / Argumento do Candidato'}
                         </span>

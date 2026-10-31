@@ -378,7 +378,7 @@ export const PainelOQueFunciona: React.FC = () => {
   return (
     <section className="card-editorial p-6 sm:p-8 space-y-6 border-l-4 border-l-accent">
       {/* Cabeçalho */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-border pb-4">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pb-4">
         <div>
           <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-accent/10 text-accent font-mono text-xs font-bold uppercase tracking-wider mb-2">
             <Activity className="w-3.5 h-3.5" />

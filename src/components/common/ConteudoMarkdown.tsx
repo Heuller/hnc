@@ -78,7 +78,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
         components={{
           h1: ({ children, ...props }) => (
             <h1
-              className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mt-10 mb-5 border-b border-border pb-3 break-words"
+              className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mt-10 mb-5 pb-3 break-words"
               {...props}
             >
               {children}

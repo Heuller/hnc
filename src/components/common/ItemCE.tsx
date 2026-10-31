@@ -312,7 +312,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
             aria-live="polite"
           >
             {/* Linha A: Seu Julgamento vs Gabarito */}
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border/40 pb-2.5">
+            <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5">
               <div className="flex items-center gap-2">
                 {isCorreto ? (
                   <span className="inline-flex items-center gap-1.5 text-xs font-bold text-ok">

@@ -155,7 +155,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
           ) : !sessaoFinalizada && itemAtual ? (
             <div className="space-y-4">
               {/* Badge contextual */}
-              <div className="flex items-center justify-between text-xs text-ink-2 pb-1 border-b border-border/50">
+              <div className="flex items-center justify-between text-xs text-ink-2 pb-1 ">
                 <span className="font-semibold text-accent font-sans">
                   {itemAtual.conceito.topico}
                 </span>

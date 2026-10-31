@@ -133,7 +133,7 @@ export const CadernoErrosPage: React.FC = () => {
           <span>Superação de Lacunas & Pegadinhas</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-black text-theme-ink tracking-normal m-0">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-theme-ink tracking-normal m-0">
           Caderno de Erros Cebraspe
         </h1>
 
@@ -313,7 +313,7 @@ export const CadernoErrosPage: React.FC = () => {
                 />
 
                 {/* Topo do Card */}
-                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border pb-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 pb-3">
                   <div className="flex items-center gap-2">
                     <span
                       className={`font-mono text-xs font-bold px-2 py-0.5 rounded border ${
