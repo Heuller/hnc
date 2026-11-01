@@ -133,11 +133,11 @@ export const CadernoErrosPage: React.FC = () => {
           <span>Superação de Lacunas & Pegadinhas</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-theme-ink tracking-normal m-0">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-theme-ink tracking-normal">
           Caderno de Erros Cebraspe
         </h1>
 
-        <p className="font-serif-reading text-base text-theme-ink-2 leading-relaxed m-0">
+        <p className="font-serif-reading text-base text-theme-ink-2 leading-relaxed">
           Revise seus erros, identifique o trecho decisivo e pratique novamente com a explicação. Respostas de simulados só entram neste treino quando correspondem à versão atual da questão.
         </p>
 
@@ -160,7 +160,7 @@ export const CadernoErrosPage: React.FC = () => {
             <span className="text-xs uppercase tracking-wider text-rose-700 dark:text-rose-400 font-semibold block">Hipercorreção</span>
             <span className="text-2xl font-black text-err dark:text-rose-400">{stats.hipercorrecaoCount}</span>
           </div>
-          <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
+          <div className="col-span-2 sm:col-span-1 p-3 rounded-lg bg-surface-2 border border-border text-center">
             <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Módulo Crítico</span>
             <span className="text-2xl font-black text-accent">{stats.moduloMaisCritico}</span>
           </div>
