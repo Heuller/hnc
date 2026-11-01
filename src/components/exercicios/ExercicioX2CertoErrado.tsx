@@ -86,7 +86,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
       aria-label="Item Certo ou Errado Cebraspe"
     >
       {/* Cabeçalho */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <span className="text-xs font-mono font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
             {contadorTexto || 'CERTO / ERRADO'}
@@ -120,8 +120,8 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
           className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 cursor-pointer border ${
             resposta === 'C'
               ? acertou
-                ? 'bg-ok text-white border-ok shadow-xs'
-                : 'bg-err text-white border-err shadow-xs'
+                ? 'bg-ok text-on-ok border-ok shadow-xs'
+                : 'bg-err text-on-err border-err shadow-xs'
               : isRespondido && exercicio.gabarito === 'C'
               ? 'bg-ok-soft text-ok border-ok'
               : 'bg-surface-2 text-ink border-border hover:border-accent hover:bg-surface'
@@ -143,8 +143,8 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
           className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 cursor-pointer border ${
             resposta === 'E'
               ? acertou
-                ? 'bg-ok text-white border-ok shadow-xs'
-                : 'bg-err text-white border-err shadow-xs'
+                ? 'bg-ok text-on-ok border-ok shadow-xs'
+                : 'bg-err text-on-err border-err shadow-xs'
               : isRespondido && exercicio.gabarito === 'E'
               ? 'bg-ok-soft text-ok border-ok'
               : 'bg-surface-2 text-ink border-border hover:border-accent hover:bg-surface'
@@ -181,7 +181,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
             }`}
             aria-live="polite"
           >
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border/40 pb-2">
+            <div className="flex flex-wrap items-center justify-between gap-2 pb-2">
               <span className={`text-xs font-bold flex items-center gap-1.5 ${acertou ? 'text-ok' : 'text-err'}`}>
                 {acertou ? <CheckCircle2 className="w-4 h-4" /> : <XCircle className="w-4 h-4" />}
                 <span>

@@ -146,7 +146,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
       aria-label="Exercício de Associação de Conceitos"
     >
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400">
             <Layers className="w-4 h-4" />

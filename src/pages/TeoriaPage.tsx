@@ -377,7 +377,7 @@ export const TeoriaPage: React.FC = () => {
           </div>
 
           {/* Cabeçalho do Submódulo */}
-          <header className="border-b border-border pb-5 sm:pb-7 mb-6 sm:mb-8 space-y-4">
+          <header className="pb-2 sm:pb-3 mb-6 sm:mb-8 space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2.5">
               <div className="flex items-center gap-2">
                 <ModuleBadge moduleId={currentMacro.id} size="sm" />

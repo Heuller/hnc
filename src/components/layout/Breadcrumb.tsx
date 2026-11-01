@@ -41,7 +41,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ className = '' }) => {
                 <button
                   type="button"
                   onClick={() => setActiveView(item.view!)}
-                  className="hover:text-ink hover:underline transition-colors shrink-0 cursor-pointer text-ink-2"
+                  className="-mx-1 px-2 inline-flex items-center justify-center rounded-md hover:text-ink hover:underline transition-colors shrink-0 cursor-pointer text-ink-2"
                 >
                   {item.rotulo}
                 </button>

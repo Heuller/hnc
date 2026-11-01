@@ -124,7 +124,7 @@ export const RadarPage: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto space-y-8 animate-fadeIn">
       {/* Cabeçalho do Radar */}
-      <section className="border-b border-border pb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      <section className="pb-2 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div className="space-y-2 max-w-2xl">
           <div className="flex items-center gap-2">
             <Radar className="w-5 h-5 text-accent" />
@@ -132,7 +132,7 @@ export const RadarPage: React.FC = () => {
               Mapeamento Doutrinário e Jurisprudência da Banca
             </span>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal">
+          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal">
             Radar Cebraspe: Padrões e Armadilhas
           </h1>
           <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed">

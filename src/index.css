@@ -27,6 +27,9 @@
   --color-alerta-cebraspe: var(--alerta);
   --color-info: var(--info);
   --color-info-soft: var(--info-soft);
+  --color-on-ok: var(--on-ok);
+  --color-on-err: var(--on-err);
+  --color-on-info: var(--on-info);
 
   /* Módulos M1–M10 Tokens OKLCH */
   --color-m1: var(--m1-solid);
@@ -121,6 +124,10 @@
   --alerta-soft: #FFF1F2;
   --info: #1D4ED8;
   --info-soft: #DBEAFE;
+  /* Texto sobre preenchimento sólido (claro: branco; escuro: tinta, pois os preenchimentos são claros) */
+  --on-ok: #FFFFFF;
+  --on-err: #FFFFFF;
+  --on-info: #FFFFFF;
 
   /* Cores de Identidade dos Módulos M1-M10 (OKLCH - Tema Claro) */
   --m1-solid: oklch(0.50 0.13 70);
@@ -236,6 +243,9 @@ html.dark {
   --alerta-soft: #380815;
   --info: #60A5FA;
   --info-soft: #1E3A5F;
+  --on-ok: #0D1220;
+  --on-err: #0D1220;
+  --on-info: #0D1220;
 
   /* Cores de Identidade dos Módulos M1-M10 (OKLCH - Tema Escuro) */
   --m1-solid: oklch(0.78 0.12 70);
@@ -339,6 +349,9 @@ html.dark {
     --alerta-soft: #380815;
     --info: #60A5FA;
     --info-soft: #1E3A5F;
+  --on-ok: #0D1220;
+  --on-err: #0D1220;
+  --on-info: #0D1220;
 
     --m1-solid: oklch(0.78 0.12 70);
     --m1-soft: oklch(0.26 0.05 70);
@@ -457,6 +470,29 @@ html.dark {
   p {
     text-wrap: pretty;
     line-height: 1.65;
+  }
+
+  /* Acabamento: controles nativos, seleção e toque */
+  html {
+    scroll-padding-top: 5rem;
+    -webkit-tap-highlight-color: transparent;
+    text-size-adjust: 100%;
+  }
+  html.light { color-scheme: light; }
+  html.dark { color-scheme: dark; }
+  ::selection {
+    background-color: var(--accent-fill);
+    color: #1A2238;
+  }
+  input[type="checkbox"], input[type="radio"], input[type="range"], progress {
+    accent-color: var(--accent);
+  }
+  button, a, summary, [role="button"], [role="tab"], select, label {
+    touch-action: manipulation;
+  }
+  /* Números alinhados em métricas, contadores e tabelas */
+  table, .font-mono, [data-metric] {
+    font-variant-numeric: tabular-nums;
   }
 
   /* Foco acessível WCAG 2.2 */
@@ -769,6 +805,16 @@ pre, table, .mermaid-svg-container {
 }
 @media (pointer: coarse) {
   button:not([role="tab"]), summary { min-height: 44px; }
+  /* Campos com menos de 16px fazem o iOS Safari dar zoom ao focar; alvo mínimo de 44px. */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
+  select,
+  textarea {
+    font-size: max(16px, 1em);
+  }
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
+  select {
+    min-height: 44px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }

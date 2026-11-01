@@ -51,7 +51,7 @@ export const ExercicioX6CompletarExemplo: React.FC<ExercicioProps<ExercicioX6>> 
       aria-label="Exercício de Completar Exemplo"
     >
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-emerald-500/10 text-ok dark:text-emerald-400">
             <Code2 className="w-4 h-4" />

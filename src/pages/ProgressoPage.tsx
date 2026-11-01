@@ -126,14 +126,14 @@ export const ProgressoPage: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto space-y-8 animate-fadeIn">
       {/* Cabeçalho */}
-      <section className="border-b border-border pb-6">
+      <section className="pb-2">
         <div className="flex items-center gap-2 mb-2">
           <TrendingUp className="w-5 h-5 text-accent" />
           <span className="font-mono text-xs font-bold text-accent uppercase tracking-wider">
             Painel Analítico de Desempenho e Metacognição
           </span>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mb-2">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal mb-2">
           Evolução Histórica e Diagnóstico de Estudos
         </h1>
         <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed max-w-3xl">
@@ -227,7 +227,7 @@ export const ProgressoPage: React.FC = () => {
                     limparTodoProgresso();
                     setShowConfirmReset(false);
                   }}
-                  className="py-1.5 px-3 rounded-lg bg-err text-white text-xs font-sans font-semibold"
+                  className="py-1.5 px-3 rounded-lg bg-err text-on-err text-xs font-sans font-semibold"
                 >
                   Sim, apagar tudo
                 </button>

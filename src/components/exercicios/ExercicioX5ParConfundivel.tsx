@@ -64,7 +64,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
       aria-label="Exercício de Par Confundível"
     >
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-indigo-500/10 text-indigo-600 dark:text-indigo-400">
             <Split className="w-4 h-4" />
@@ -120,8 +120,8 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
           className={`min-h-[50px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-all flex items-center justify-between cursor-pointer ${
             resposta === 'A'
               ? acertou
-                ? 'bg-ok text-white border-ok shadow-xs font-bold'
-                : 'bg-err text-white border-err shadow-xs font-bold'
+                ? 'bg-ok text-on-ok border-ok shadow-xs font-bold'
+                : 'bg-err text-on-err border-err shadow-xs font-bold'
               : isRespondido && exercicio.gabarito === 'A'
               ? 'bg-ok-soft text-ok border-ok font-bold'
               : 'bg-surface-2 text-ink border-border hover:border-accent hover:bg-surface'
@@ -145,8 +145,8 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
           className={`min-h-[50px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-all flex items-center justify-between cursor-pointer ${
             resposta === 'B'
               ? acertou
-                ? 'bg-ok text-white border-ok shadow-xs font-bold'
-                : 'bg-err text-white border-err shadow-xs font-bold'
+                ? 'bg-ok text-on-ok border-ok shadow-xs font-bold'
+                : 'bg-err text-on-err border-err shadow-xs font-bold'
               : isRespondido && exercicio.gabarito === 'B'
               ? 'bg-ok-soft text-ok border-ok font-bold'
               : 'bg-surface-2 text-ink border-border hover:border-accent hover:bg-surface'

@@ -83,7 +83,7 @@ export const ExercicioX7OrdenarProcedimento: React.FC<ExercicioProps<ExercicioX7
       aria-label="Exercício de Ordenação de Procedimento"
     >
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-3 ">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400">
             <ListOrdered className="w-4 h-4" />
@@ -175,7 +175,7 @@ export const ExercicioX7OrdenarProcedimento: React.FC<ExercicioProps<ExercicioX7
             type="button"
             disabled={disabled}
             onClick={handleVerificar}
-            className="w-full sm:w-auto min-h-[44px] px-5 py-2.5 rounded-xl bg-accent text-white font-sans text-xs font-bold hover:bg-accent/90 transition-all cursor-pointer shadow-xs"
+            className="w-full sm:w-auto min-h-[44px] px-5 py-2.5 rounded-xl bg-accent text-accent-text font-sans text-xs font-bold hover:bg-accent/90 transition-all cursor-pointer shadow-xs"
           >
             Verificar Sequência
           </button>

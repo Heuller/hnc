@@ -80,7 +80,7 @@ export const PainelMnemonicosLegislativo: React.FC = () => {
 
   return (
     <div className="bg-surface rounded-2xl border border-border p-5 sm:p-6 shadow-xs space-y-4">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border/80 pb-3">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3">
         <div className="flex items-center gap-2">
           <div className="p-1.5 rounded-lg bg-accent/10 text-accent">
             <Brain className="w-4 h-4" />

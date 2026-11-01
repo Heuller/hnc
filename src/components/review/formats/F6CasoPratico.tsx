@@ -17,7 +17,7 @@ export const F6CasoPratico: React.FC<ExerciseFormatProps> = ({
     <div className="space-y-4">
       {/* Cenário Prático da Câmara */}
       <div className="p-4 sm:p-5 rounded-2xl bg-surface border border-border shadow-editorial-sm space-y-3">
-        <div className="flex items-center gap-2 text-xs font-sans font-bold uppercase tracking-wider text-accent border-b border-border pb-2">
+        <div className="flex items-center gap-2 text-xs font-sans font-bold uppercase tracking-wider text-accent pb-2">
           <Landmark className="w-4 h-4 text-accent" />
           <span>Caso Prático · Biblioteca da Câmara dos Deputados</span>
         </div>

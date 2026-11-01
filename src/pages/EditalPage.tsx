@@ -59,7 +59,7 @@ export const EditalPage: React.FC = () => {
     <div className="max-w-6xl mx-auto space-y-8 pb-16 animate-in fade-in duration-200">
       {/* Cabeçalho Oficial do Concurso */}
       <div className="bg-surface border border-border rounded-2xl p-6 sm:p-8 shadow-editorial-sm space-y-6">
-        <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-6 border-b border-border">
+        <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-6 ">
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold bg-amber-500/10 border border-amber-500/20 text-accent dark:text-amber-400">
               <FileText className="w-3.5 h-3.5" />
@@ -123,7 +123,7 @@ export const EditalPage: React.FC = () => {
             href="https://www.cebraspe.org.br/concursos/cd_26_analista"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-ink hover:text-amber-600 dark:hover:text-amber-400 font-bold transition-colors"
+            className="inline-flex items-center gap-1.5 min-h-[44px] text-ink hover:text-amber-600 dark:hover:text-amber-400 font-bold transition-colors"
           >
             <span>Acessar Página Oficial no Cebraspe</span>
             <ExternalLink className="w-3.5 h-3.5" />

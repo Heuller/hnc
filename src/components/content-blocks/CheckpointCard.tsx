@@ -46,7 +46,7 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
       className="card-editorial p-4 sm:p-5 space-y-3.5 my-4 bg-surface rounded-xl border border-border shadow-xs"
       aria-live="polite"
     >
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border pb-2.5">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5">
         <div className="flex items-center gap-2">
           <Lightbulb className="w-4 h-4 text-accent shrink-0" aria-hidden="true" />
           <span className="text-xs font-bold text-ink uppercase tracking-wider">
@@ -84,8 +84,8 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
           className={`w-full sm:w-auto min-h-[48px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-250 flex items-center justify-center gap-2 cursor-pointer ${
             answer === 'C'
               ? isCorrect
-                ? 'bg-ok text-white shadow-xs'
-                : 'bg-err text-white shadow-xs'
+                ? 'bg-ok text-on-ok shadow-xs'
+                : 'bg-err text-on-err shadow-xs'
               : isAnswered && checkpoint.gabarito === 'C'
               ? 'bg-ok-soft text-ok border border-ok'
               : 'bg-surface-2 text-ink border border-border hover:bg-surface hover:border-accent'
@@ -108,8 +108,8 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
           className={`w-full sm:w-auto min-h-[48px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-250 flex items-center justify-center gap-2 cursor-pointer ${
             answer === 'E'
               ? isCorrect
-                ? 'bg-ok text-white shadow-xs'
-                : 'bg-err text-white shadow-xs'
+                ? 'bg-ok text-on-ok shadow-xs'
+                : 'bg-err text-on-err shadow-xs'
               : isAnswered && checkpoint.gabarito === 'E'
               ? 'bg-ok-soft text-ok border border-ok'
               : 'bg-surface-2 text-ink border border-border hover:bg-surface hover:border-accent'

@@ -170,7 +170,7 @@ export const DevRascunhosPage: React.FC = () => {
             <button
               onClick={() => setSelectedGabaritoFilter('C')}
               className={`px-2.5 py-1 rounded text-xs font-semibold cursor-pointer transition-colors ${
-                selectedGabaritoFilter === 'C' ? 'bg-ok text-white' : 'bg-surface-2 text-ink-2 hover:text-ink'
+                selectedGabaritoFilter === 'C' ? 'bg-ok text-on-ok' : 'bg-surface-2 text-ink-2 hover:text-ink'
               }`}
             >
               Certo ({stats.certos})

@@ -288,7 +288,7 @@ export const JornadaPage: React.FC = () => {
       </div>
 
       {/* SELETOR DE TRILHA: PRINCIPAL (ESPECÍFICOS) vs COMPLEMENTAR (GERAIS) */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 border-b border-border pb-3">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pb-3">
         <div className="grid grid-cols-2 sm:flex items-center gap-1.5 p-1 bg-surface-2/60 rounded-xl border border-border w-full sm:w-fit" role="tablist" aria-label="Seletor de Trilha de Estudos">
           <button
             type="button"
@@ -356,7 +356,7 @@ export const JornadaPage: React.FC = () => {
                 />
 
                 {/* Título do Macro-Módulo com Emblema Ex-Libris */}
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border/80 pb-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4">
                   <div className="flex items-center gap-3.5">
                     <ModuleEmblem moduleNumber={k} size={48} color={theme.primaryColor} className="shrink-0" />
                     <div>
@@ -570,7 +570,7 @@ export const JornadaPage: React.FC = () => {
                 >
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <div className="flex items-start sm:items-center gap-3.5">
-                      <div className="w-12 h-12 rounded-xl bg-ok text-white flex items-center justify-center font-mono font-bold text-lg shrink-0 shadow-xs">
+                      <div className="w-12 h-12 rounded-xl bg-ok text-on-ok flex items-center justify-center font-mono font-bold text-lg shrink-0 shadow-xs">
                         M2.5
                       </div>
                       <div className="space-y-1">
@@ -605,7 +605,7 @@ export const JornadaPage: React.FC = () => {
                         variant="primary"
                         size="sm"
                         onClick={() => navigateToSimulado('mini-modulo-orgaos')}
-                        className="flex items-center gap-1.5 bg-ok hover:opacity-95 text-white"
+                        className="flex items-center gap-1.5 bg-ok hover:opacity-95 text-on-ok"
                       >
                         <span>Simulado 30Q</span>
                         <ArrowRight className="w-4 h-4" />
@@ -679,7 +679,7 @@ export const JornadaPage: React.FC = () => {
                     style={{ backgroundColor: theme.primaryColor }}
                   />
 
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border/80 pb-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4">
                     <div className="flex items-center gap-3.5">
                       <ModuleEmblem moduleNumber={k} size={48} color={theme.primaryColor} className="shrink-0" />
                       <div>

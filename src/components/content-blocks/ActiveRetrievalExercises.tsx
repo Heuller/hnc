@@ -195,7 +195,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
   return (
     <div className="bg-surface rounded-2xl border border-border p-4 sm:p-6 space-y-6 shadow-editorial-sm">
       {/* Header do Bloco de Recuperação Ativa */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-border">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 ">
         <div>
           <div className="flex items-center gap-2 mb-1">
             {/* Regra B5: Apenas Caça-Armadilha cita o estilo/método Cebraspe */}

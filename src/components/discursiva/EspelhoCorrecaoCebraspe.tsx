@@ -31,7 +31,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
   return (
     <div className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 animate-in fade-in duration-200">
       {/* Topo do Espelho */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-border">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 ">
         <div>
           <div className="flex items-center gap-2 mb-1">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-700 dark:text-purple-400">

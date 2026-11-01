@@ -319,7 +319,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
       {etapaAtual === 4 && (
         <div className="space-y-4 animate-in fade-in duration-200">
           <div className="card-editorial p-5 bg-surface border border-border shadow-xs space-y-3">
-            <div className="flex items-center gap-2 text-ink border-b border-border/80 pb-2.5">
+            <div className="flex items-center gap-2 text-ink pb-2.5">
               <CheckCircle2 className="w-4 h-4 text-ok dark:text-emerald-400" />
               <h3 className="text-sm font-sans font-bold text-ink m-0">
                 Resumo da Configuração do Simulado

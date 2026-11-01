@@ -117,7 +117,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
   return (
     <div className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6" data-testid="painel-autocorrecao-discursiva">
       {/* CABEÇALHO DA AUTOAVALIAÇÃO */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-border">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 ">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-600 dark:text-purple-400 flex items-center justify-center shrink-0">
             <UserCheck className="w-5 h-5" />
@@ -236,7 +236,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
       {/* MODO 1: RUBRICA CANÔNICA 11/3/1 */}
       {modoAutocorrecao === 'rubrica_11_3_1' && (
         <div className="space-y-4" data-testid="secao-rubrica-11-3-1">
-          <div className="flex items-center justify-between flex-wrap gap-2 pb-2 border-b border-border">
+          <div className="flex items-center justify-between flex-wrap gap-2 pb-2 ">
             <span className="text-xs font-mono font-bold uppercase text-ink">
               Critérios da Rubrica 11/3/1 (docs/HNC_Cronograma_e_Trilha_Discursiva.md seção 4.4)
             </span>

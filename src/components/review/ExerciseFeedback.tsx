@@ -106,7 +106,7 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
           <button
             type="button"
             onClick={onAvancar}
-            className="w-full sm:w-auto px-6 py-2.5 bg-accent hover:bg-accent/90 text-white font-sans font-semibold rounded-xl text-sm flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer"
+            className="w-full sm:w-auto px-6 py-2.5 bg-accent hover:bg-accent/90 text-accent-text font-sans font-semibold rounded-xl text-sm flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer"
           >
             <span>{avancarLabel}</span>
             <ArrowRight className="w-4 h-4" />

@@ -111,7 +111,7 @@ export const PainelPage: React.FC = () => {
   return (
     <div className="space-y-7 animate-fadeIn max-w-5xl mx-auto">
       {/* CABEÇALHO DO PAINEL "HOJE" (Regras C5, C6 e U.3) */}
-      <section className="border-b border-border pb-5 flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <section className="pb-2 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="space-y-1.5 max-w-2xl">
           <div className="flex flex-wrap items-center gap-2">
             <span className="font-sans text-xs text-accent font-semibold tracking-wide">
@@ -139,14 +139,14 @@ export const PainelPage: React.FC = () => {
 
       {/* BLOCO HERÓI: HOJE E CONTINUAR DE ONDE PAROU (U6.5) */}
       <section aria-labelledby="heroi-continuar-title" data-testid="cartao-hoje">
-        <div className="bg-surface rounded-2xl border border-border p-6 shadow-editorial-sm relative overflow-hidden">
+        <div className="bg-surface rounded-2xl border border-border p-5 sm:p-6 shadow-editorial-sm relative overflow-hidden">
           <div
             className="absolute top-0 left-0 right-0 h-1"
             style={{ backgroundColor: targetTheme.solidVar }}
           />
 
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-            <div className="space-y-3 max-w-xl">
+          <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_auto] md:grid-rows-[auto_auto] gap-x-8 gap-y-4 md:items-center">
+            <div className="space-y-3 max-w-xl md:col-start-1 md:row-start-1">
               <div className="flex flex-wrap items-center gap-2">
                 <ModuleBadge moduleId={targetTheme.id} size="sm" />
                 <span className="text-xs font-sans font-semibold uppercase tracking-wider text-ink-2">
@@ -163,27 +163,13 @@ export const PainelPage: React.FC = () => {
                 </span>
                 {proximoPasso?.motivo && (
                   <span
-                    className="text-xs font-sans font-semibold px-2 py-0.5 rounded border"
-                    style={{
-                      backgroundColor:
-                        proximoPasso.motivo === 'revisao_vencida'
-                          ? '#fef3c7'
-                          : proximoPasso.motivo === 'ponto_fraco'
-                          ? '#fee2e2'
-                          : '#e0f2fe',
-                      color:
-                        proximoPasso.motivo === 'revisao_vencida'
-                          ? '#92400e'
-                          : proximoPasso.motivo === 'ponto_fraco'
-                          ? '#991b1b'
-                          : '#075985',
-                      borderColor:
-                        proximoPasso.motivo === 'revisao_vencida'
-                          ? '#fde68a'
-                          : proximoPasso.motivo === 'ponto_fraco'
-                          ? '#fecaca'
-                          : '#bae6fd',
-                    }}
+                    className={`text-xs font-sans font-semibold px-2 py-0.5 rounded border ${
+                      proximoPasso.motivo === 'revisao_vencida'
+                        ? 'bg-accent-soft text-accent border-accent/30'
+                        : proximoPasso.motivo === 'ponto_fraco'
+                        ? 'bg-err-soft text-err border-err/30'
+                        : 'bg-info-soft text-info border-info/30'
+                    }`}
                     title={proximoPasso.explicacaoMotivo}
                   >
                     {proximoPasso.motivo === 'revisao_vencida'
@@ -209,6 +195,9 @@ export const PainelPage: React.FC = () => {
                   : 'Portal de retenção cumulativa com 20 itens sobre módulos anteriores.'}
               </p>
 
+            </div>
+
+            <div className="space-y-3 max-w-xl order-3 md:order-none md:col-start-1 md:row-start-2">
               {proximoPasso?.explicacaoMotivo && (
                 <div className="text-xs font-sans text-ink-3 italic bg-surface-2/60 px-2.5 py-1.5 rounded-lg border border-border/50">
                   <span className="font-semibold not-italic text-ink-2">Por que esta ação: </span>
@@ -233,11 +222,11 @@ export const PainelPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="shrink-0 flex flex-col sm:flex-row md:flex-col gap-2.5">
+            <div className="shrink-0 flex flex-col sm:flex-row md:flex-col gap-2.5 order-2 md:order-none md:col-start-2 md:row-start-1 md:row-span-2">
               <button
                 type="button"
                 onClick={handleExecutarAcaoPrincipal}
-                className="py-3 px-6 rounded-xl font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 hover:opacity-95 active:scale-98 transition-all shadow-editorial-sm cursor-pointer"
+                className="min-h-[52px] py-3 px-6 rounded-xl font-sans font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 active:scale-[0.98] transition-all shadow-editorial cursor-pointer"
                 style={{
                   backgroundColor: targetTheme.solidVar,
                   color: targetTheme.textVar,
@@ -268,15 +257,6 @@ export const PainelPage: React.FC = () => {
         </div>
       </section>
       
-      <Disclosure id="cronograma" title="Planejar os próximos dias">
-        <CardHojeCronograma />
-      </Disclosure>
-
-      {/* BLOCO DE PROJEÇÃO TEMPORAL E MARCOS DE DISCIPLINA (Marco R6) */}
-      <Disclosure id="projecao-painel" title="Ver estimativas e marcos do planejamento">
-        <ProjecaoTemporalCard />
-      </Disclosure>
-
       {/* GRID DE CARDS MENORES: REVISÃO DO DIA, CONSTÂNCIA E RESUMO DA JORNADA (Regra U.3) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {/* Bloco 1: Revisão do Dia (Leitner) */}
@@ -334,7 +314,7 @@ export const PainelPage: React.FC = () => {
               Histórico de sessões realizadas nos últimos 7 dias.
             </p>
 
-            <div className="grid grid-cols-7 gap-1.5 pt-2 border-t border-border">
+            <div className="grid grid-cols-7 gap-1.5 pt-2">
               {ultimos7DiasArray.map((dia, idx) => (
                 <div key={idx} className="flex flex-col items-center gap-1">
                   <span className="text-xs font-sans text-ink-2">{dia.label}</span>
@@ -546,6 +526,16 @@ export const PainelPage: React.FC = () => {
           </button>
         </div>
       </section>
+
+      {/* PLANEJAMENTO (secundário: abre sob demanda, abaixo do que se faz hoje) */}
+      <Disclosure id="cronograma" title="Planejar os próximos dias">
+        <CardHojeCronograma />
+      </Disclosure>
+
+      {/* BLOCO DE PROJEÇÃO TEMPORAL E MARCOS DE DISCIPLINA (Marco R6) */}
+      <Disclosure id="projecao-painel" title="Ver estimativas e marcos do planejamento">
+        <ProjecaoTemporalCard />
+      </Disclosure>
     </div>
   );
 };

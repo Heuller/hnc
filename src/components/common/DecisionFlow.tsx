@@ -85,11 +85,11 @@ const LABEL_MAP: Record<DecisionNode['type'], string> = {
 const LABEL_COLORS: Record<DecisionNode['type'], string> = {
   start: 'bg-primary text-primary-text',
   question: 'bg-accent text-accent-text',
-  yes: 'bg-ok text-white',
-  no: 'bg-err text-white',
-  yes_result: 'bg-ok text-white',
-  no_result: 'bg-err text-white',
-  step: 'bg-info text-white',
+  yes: 'bg-ok text-on-ok',
+  no: 'bg-err text-on-err',
+  yes_result: 'bg-ok text-on-ok',
+  no_result: 'bg-err text-on-err',
+  step: 'bg-info text-on-info',
   end: 'bg-ink text-white dark:bg-ink-2',
 };
 

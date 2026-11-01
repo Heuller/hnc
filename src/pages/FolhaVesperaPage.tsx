@@ -110,27 +110,27 @@ export const FolhaVesperaPage: React.FC = () => {
   return (
     <div className="space-y-8 max-w-5xl mx-auto py-2 px-1 sm:px-0 folha-vespera-container">
       {/* Barra de Ações (Oculta na Impressão) */}
-      <div className="flex items-center justify-between no-print">
+      <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 no-print">
         <button
           type="button"
           onClick={() => setActiveView('painel')}
-          className="inline-flex items-center gap-2 text-xs font-semibold text-ink-2 hover:text-ink transition-colors cursor-pointer"
+          className="inline-flex items-center gap-2 whitespace-nowrap text-xs font-semibold text-ink-2 hover:text-ink transition-colors cursor-pointer"
         >
-          <ArrowLeft className="w-4 h-4" />
+          <ArrowLeft className="w-4 h-4 shrink-0" />
           <span>Voltar ao Painel</span>
         </button>
 
-        <div className="flex items-center gap-2">
-          <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/10 text-accent font-bold">
+        <div className="contents sm:flex sm:flex-wrap sm:items-center sm:gap-2">
+          <span className="order-last basis-full sm:basis-auto sm:order-none text-xs font-mono uppercase tracking-wider px-2 py-1 rounded-md bg-accent/10 text-accent font-bold">
             Revisão de Véspera (48h) • Edital nº 1/2026
           </span>
           <button
             type="button"
             onClick={handlePrint}
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary text-primary-text text-xs font-bold shadow-editorial-sm cursor-pointer hover:opacity-95"
+            className="inline-flex items-center gap-2 whitespace-nowrap px-3.5 py-1.5 rounded-lg bg-primary text-primary-text text-xs font-bold shadow-editorial-sm cursor-pointer hover:opacity-95 active:scale-[0.98] transition"
             title="Imprimir ou Salvar em PDF"
           >
-            <Printer className="w-4 h-4" />
+            <Printer className="w-4 h-4 shrink-0" />
             <span>Imprimir / Salvar PDF</span>
           </button>
         </div>
@@ -143,7 +143,7 @@ export const FolhaVesperaPage: React.FC = () => {
           <span>Folha de Véspera • Matriz de Choque & Síntese</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-black text-ink tracking-normal m-0">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal m-0">
           Folha de Véspera: Matriz dos 5 Blocos do Edital 2026
         </h1>
 
@@ -158,7 +158,7 @@ export const FolhaVesperaPage: React.FC = () => {
             onClick={() => setActiveTab('blocos')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'blocos'
-                ? 'bg-accent text-white shadow-sm'
+                ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
             }`}
           >
@@ -171,7 +171,7 @@ export const FolhaVesperaPage: React.FC = () => {
             onClick={() => setActiveTab('progresso')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'progresso'
-                ? 'bg-accent text-white shadow-sm'
+                ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
             }`}
           >
@@ -184,7 +184,7 @@ export const FolhaVesperaPage: React.FC = () => {
             onClick={() => setActiveTab('mnemonicos')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'mnemonicos'
-                ? 'bg-accent text-white shadow-sm'
+                ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
             }`}
           >
@@ -251,8 +251,8 @@ export const FolhaVesperaPage: React.FC = () => {
               onClick={() => setModoTreinoAtivo(!modoTreinoAtivo)}
               className={`px-3 py-1.5 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
                 modoTreinoAtivo
-                  ? 'bg-ok text-white shadow-xs'
-                  : 'bg-accent text-white shadow-xs'
+                  ? 'bg-ok text-on-ok shadow-xs'
+                  : 'bg-accent text-accent-text shadow-xs'
               }`}
             >
               <Eye className="w-3.5 h-3.5" />
@@ -282,7 +282,7 @@ export const FolhaVesperaPage: React.FC = () => {
               onClick={() => setSelectedBloco(bloco.id)}
               className={`px-2.5 py-1 rounded-md text-xs font-medium cursor-pointer transition-colors ${
                 selectedBloco === bloco.id
-                  ? 'bg-accent text-white font-bold'
+                  ? 'bg-accent text-accent-text font-bold'
                   : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
               }`}
             >
@@ -297,9 +297,9 @@ export const FolhaVesperaPage: React.FC = () => {
             key={bloco.id}
             className="bg-surface rounded-2xl border border-border p-6 space-y-5 print:p-3 print:border-black print:shadow-none shadow-editorial-xs print:break-before-page"
           >
-            <div className="border-b border-border pb-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div className="pb-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-accent text-white text-xs font-black font-mono">
+                <span className="px-2 py-0.5 rounded bg-accent text-accent-text text-xs font-black font-mono">
                   {bloco.sigla}
                 </span>
                 <h2 className="text-base sm:text-lg font-black text-ink print:text-black m-0 tracking-normal">
@@ -327,7 +327,7 @@ export const FolhaVesperaPage: React.FC = () => {
                     key={item.id}
                     className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2.5 text-xs font-serif leading-relaxed text-ink print:text-black shadow-2xs"
                   >
-                    <div className="flex items-center justify-between gap-2 font-mono text-xs border-b border-border/50 pb-1.5">
+                    <div className="flex items-center justify-between gap-2 font-mono text-xs pb-1.5">
                       <span className="font-bold text-accent uppercase">
                         #{pIdx + 1} · {item.topico}
                       </span>
@@ -449,7 +449,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 1: AUTORES CANÔNICOS E DOUTRINAS */}
             {autoresConsolidados.length > 0 && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <Sparkles className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Autores Canônicos e Doutrinas Concluídas ({autoresConsolidados.length})
@@ -482,7 +482,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 2: QUADROS COMPARATIVOS CONSOLIDADOS */}
             {quadrosConsolidados.length > 0 && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <Table className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Matrizes e Quadros Comparativos dos Módulos Concluídos ({quadrosConsolidados.length})
@@ -505,7 +505,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 3: ALERTAS CEBRASPE E PEGADINHAS DA BANCA */}
             {(alertasConsolidados.length > 0 || pegadinhasConsolidadas.length > 0) && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <AlertTriangle className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Alertas e Armadilhas dos Submódulos Concluídos ({alertasConsolidados.length + pegadinhasConsolidadas.length})
@@ -548,7 +548,7 @@ export const FolhaVesperaPage: React.FC = () => {
             {/* BLOCO 4: MARCOS CRONOLÓGICOS CONSOLIDADOS */}
             {timelineConsolidada.length > 0 && (
               <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-                <div className="flex items-center gap-2 border-b border-border pb-2">
+                <div className="flex items-center gap-2 pb-2">
                   <History className="w-4 h-4 text-accent print:text-black" />
                   <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
                     Marcos Cronológicos Históricos ({timelineConsolidada.length})

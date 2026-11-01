@@ -238,8 +238,8 @@ export const ItemCE: React.FC<ItemCEProps> = ({
           className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer ${
             respostaDada === 'C'
               ? isCorreto
-                ? 'bg-ok text-white shadow-xs'
-                : 'bg-err text-white shadow-xs'
+                ? 'bg-ok text-on-ok shadow-xs'
+                : 'bg-err text-on-err shadow-xs'
               : isRespondido && item.gabarito === 'C'
               ? 'bg-ok-soft text-ok border border-ok'
               : 'bg-surface-2 text-ink border border-border hover:bg-surface hover:border-accent'
@@ -260,8 +260,8 @@ export const ItemCE: React.FC<ItemCEProps> = ({
           className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer ${
             respostaDada === 'E'
               ? isCorreto
-                ? 'bg-ok text-white shadow-xs'
-                : 'bg-err text-white shadow-xs'
+                ? 'bg-ok text-on-ok shadow-xs'
+                : 'bg-err text-on-err shadow-xs'
               : isRespondido && item.gabarito === 'E'
               ? 'bg-ok-soft text-ok border border-ok'
               : 'bg-surface-2 text-ink border border-border hover:bg-surface hover:border-accent'
@@ -312,7 +312,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
             aria-live="polite"
           >
             {/* Linha A: Seu Julgamento vs Gabarito */}
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border/40 pb-2.5">
+            <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5">
               <div className="flex items-center gap-2">
                 {isCorreto ? (
                   <span className="inline-flex items-center gap-1.5 text-xs font-bold text-ok">

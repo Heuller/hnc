@@ -133,7 +133,7 @@ export const CadernoErrosPage: React.FC = () => {
           <span>Superação de Lacunas & Pegadinhas</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-black text-theme-ink tracking-normal m-0">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-theme-ink tracking-normal m-0">
           Caderno de Erros Cebraspe
         </h1>
 
@@ -313,7 +313,7 @@ export const CadernoErrosPage: React.FC = () => {
                 />
 
                 {/* Topo do Card */}
-                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border pb-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 pb-3">
                   <div className="flex items-center gap-2">
                     <span
                       className={`font-mono text-xs font-bold px-2 py-0.5 rounded border ${
@@ -417,7 +417,7 @@ export const CadernoErrosPage: React.FC = () => {
                       className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold cursor-pointer transition-colors border ${
                         tentativaAtual === 'C'
                           ? item.gabarito === 'C'
-                            ? 'bg-ok text-white border-emerald-600'
+                            ? 'bg-ok text-on-ok border-emerald-600'
                             : 'bg-amber-600 text-white border-amber-600'
                           : 'bg-surface-2 text-ink hover:border-accent border-border'
                       }`}
@@ -431,7 +431,7 @@ export const CadernoErrosPage: React.FC = () => {
                       className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold cursor-pointer transition-colors border ${
                         tentativaAtual === 'E'
                           ? item.gabarito === 'E'
-                            ? 'bg-ok text-white border-emerald-600'
+                            ? 'bg-ok text-on-ok border-emerald-600'
                             : 'bg-amber-600 text-white border-amber-600'
                           : 'bg-surface-2 text-ink hover:border-accent border-border'
                       }`}

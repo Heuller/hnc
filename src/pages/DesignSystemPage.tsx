@@ -68,7 +68,7 @@ export const DesignSystemPage: React.FC = () => {
 
       {/* 1. Três Níveis de Superfície (U6.1) */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 border-b border-border pb-2">
+        <div className="flex items-center gap-2 pb-2">
           <Layers className="w-4 h-4 text-accent" />
           <h2 className="text-lg font-bold text-ink m-0">
             1. Três Níveis de Superfície (Redução de Ruído Cognitivo)
@@ -116,7 +116,7 @@ export const DesignSystemPage: React.FC = () => {
 
       {/* 2. Cores Semânticas e Avaliação Cebraspe */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 border-b border-border pb-2">
+        <div className="flex items-center gap-2 pb-2">
           <Palette className="w-4 h-4 text-accent" />
           <h2 className="text-lg font-bold text-ink m-0">
             2. Cores Semânticas e Contraste Aferido
@@ -152,7 +152,7 @@ export const DesignSystemPage: React.FC = () => {
 
       {/* 3. Escala Tipográfica Fixa (U6.1) */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 border-b border-border pb-2">
+        <div className="flex items-center gap-2 pb-2">
           <Type className="w-4 h-4 text-accent" />
           <h2 className="text-lg font-bold text-ink m-0">
             3. Escala Tipográfica Fixa (Corpo ≥ 16px no Celular)
@@ -195,7 +195,7 @@ export const DesignSystemPage: React.FC = () => {
 
       {/* 4. Callouts Padronizados em Português (U6.3) */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 border-b border-border pb-2">
+        <div className="flex items-center gap-2 pb-2">
           <Bookmark className="w-4 h-4 text-accent" />
           <h2 className="text-lg font-bold text-ink m-0">
             4. Callouts Padronizados em Português (5 Tipos Fixos)
@@ -247,7 +247,7 @@ export const DesignSystemPage: React.FC = () => {
 
       {/* 5. Componentes e Blocos Responsivos */}
       <section className="space-y-6">
-        <div className="flex items-center gap-2 border-b border-border pb-2">
+        <div className="flex items-center gap-2 pb-2">
           <Smartphone className="w-4 h-4 text-accent" />
           <h2 className="text-lg font-bold text-ink m-0">
             5. Componentes Responsivos e Alvos Táteis (≥ 44px)
@@ -290,7 +290,7 @@ export const DesignSystemPage: React.FC = () => {
 
       {/* 6. Botões e Controles com Alvo ≥ 44px */}
       <section className="space-y-4">
-        <div className="flex items-center gap-2 border-b border-border pb-2">
+        <div className="flex items-center gap-2 pb-2">
           <SlidersHorizontal className="w-4 h-4 text-accent" />
           <h2 className="text-lg font-bold text-ink m-0">
             6. Botões de Ação e Alvos de Toque (≥ 44×44px)
