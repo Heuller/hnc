@@ -416,12 +416,6 @@ export const TeoriaPage: React.FC = () => {
               </div>
             </div>
 
-            {/* Faixa fina plana (4px, sem gradiente) do cabeçalho da Teoria (Parte C) */}
-            <div
-              className="h-1 w-16 sm:w-20 rounded-full"
-              style={{ backgroundColor: moduleTheme.solidVar }}
-            />
-
             <div className="flex items-start justify-between gap-4">
               <h1 className="text-xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-normal flex-1 leading-snug">
                 {currentSub.titulo}
@@ -432,7 +426,7 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             {/* Chip Unificado Soberano de Status (D13) */}
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/50">
+            <div className="flex flex-wrap items-center justify-between gap-2">
               {learningState.status === 'concluida' || (learningState.status as string) === 'concluido' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-ok-soft border border-ok text-ok shadow-2xs">
                   <CheckCircle2 className="w-4 h-4 shrink-0" />

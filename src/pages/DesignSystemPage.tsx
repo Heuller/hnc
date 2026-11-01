@@ -50,11 +50,11 @@ export const DesignSystemPage: React.FC = () => {
           <span>Design System Editorial • {DESIGN_TOKENS.identidade.nome} v{DESIGN_TOKENS.identidade.versao}</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-black text-ink tracking-normal m-0">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-black text-ink tracking-normal">
           Conceito "Papel e Tinta" (Mobile-First)
         </h1>
 
-        <p className="font-serif text-base sm:text-lg text-ink-2 leading-relaxed m-0">
+        <p className="font-serif text-base sm:text-lg text-ink-2 leading-relaxed">
           {DESIGN_TOKENS.identidade.descricao} Focado na leitura de alto rendimento no celular, sem distrações, sem cartões aninhados excessivos e com tipografia canônica escalonada.
         </p>
 

@@ -143,11 +143,11 @@ export const FolhaVesperaPage: React.FC = () => {
           <span>Folha de Véspera • Matriz de Choque & Síntese</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal m-0">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal">
           Folha de Véspera: Matriz dos 5 Blocos do Edital 2026
         </h1>
 
-        <p className="font-serif text-sm sm:text-base text-ink-2 leading-relaxed m-0">
+        <p className="font-serif text-sm sm:text-base text-ink-2 leading-relaxed">
           Compilação mnemônica intensiva para as 48 horas pré-prova de Analista Legislativo da Câmara dos Deputados (Cebraspe). Contém as <strong>60 pegadinhas capitais</strong> divididas pelos 5 blocos do edital e a síntese dinâmica dos submódulos que você já dominou.
         </p>
 
