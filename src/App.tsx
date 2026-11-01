@@ -4,7 +4,7 @@ import { ErrorBoundary } from './components/common/ErrorBoundary';
 import { useNavigationStore, type AppView } from './store/useNavigationStore';
 import { useAuthStore } from './store/useAuthStore';
 import { AuthGate } from './components/auth/AuthGate';
-import { MotionConfig } from 'framer-motion';
+import { MotionConfig } from 'motion/react';
 
 import { PainelPage } from './pages/PainelPage';
 

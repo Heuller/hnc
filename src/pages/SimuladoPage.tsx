@@ -439,7 +439,7 @@ export const SimuladoPage: React.FC = () => {
 
   const renderSimuladoSelector = () => (
     <details open={catalogoAberto} onToggle={event => setCatalogoAberto(event.currentTarget.open)} className="w-full rounded-xl border border-border bg-surface p-3">
-      <summary className="min-h-[44px] cursor-pointer font-semibold text-sm text-ink foco">Trocar caderno · {simuladoAtivo.questoes.length} itens neste treino</summary>
+      <summary className="min-h-[44px] py-2.5 leading-6 cursor-pointer font-semibold text-sm text-ink foco">Trocar caderno · {simuladoAtivo.questoes.length} itens neste treino</summary>
       <div className="space-y-3 pt-3">
       {/* Abas de Categorias */}
       <div className="flex items-center gap-1.5 p-1 bg-surface-2 rounded-xl border border-border w-fit text-xs font-sans overflow-x-auto max-w-full">
@@ -1371,11 +1371,11 @@ export const SimuladoPage: React.FC = () => {
       </div>
 
       <p className="text-sm font-semibold text-ink-2" role="note">{modoProva ? 'Modo prova · Gabarito e pontuação somente ao finalizar' : 'Modo estudo · Correção e raciocínio após cada resposta'}</p>
-      <fieldset className="flex flex-wrap gap-3 items-center text-sm text-ink">
+      <fieldset className="grid grid-cols-1 sm:grid-cols-2 gap-2 items-stretch text-sm text-ink">
         <legend className="text-xs text-ink-2 mb-2">Como você quer praticar neste caderno?</legend>
-        <button type="button" aria-pressed={!modoProva} disabled={Object.keys(respostas).length > 0} className="min-h-[44px] px-4 rounded-xl border border-border bg-surface foco" onClick={() => setModoProva(false)}>Estudo · feedback a cada resposta</button>
-        <button type="button" aria-pressed={modoProva} disabled={Object.keys(respostas).length > 0} className="min-h-[44px] px-4 rounded-xl border border-border bg-surface foco" onClick={() => setModoProva(true)}>Prova · correção ao final</button>
-        {Object.keys(respostas).length > 0 && <span className="text-xs text-ink-2">O modo é definido antes da primeira resposta. Reinicie o caderno para escolher outro modo.</span>}
+        <button type="button" aria-pressed={!modoProva} disabled={Object.keys(respostas).length > 0} className={`min-h-[44px] px-4 py-2 rounded-xl border text-sm text-left sm:text-center transition-colors foco disabled:cursor-not-allowed ${!modoProva ? "bg-accent text-accent-text border-accent font-semibold shadow-editorial-xs" : "bg-surface text-ink border-border hover:bg-surface-2 disabled:hover:bg-surface"}`} onClick={() => setModoProva(false)}>Estudo · feedback a cada resposta</button>
+        <button type="button" aria-pressed={modoProva} disabled={Object.keys(respostas).length > 0} className={`min-h-[44px] px-4 py-2 rounded-xl border text-sm text-left sm:text-center transition-colors foco disabled:cursor-not-allowed ${modoProva ? "bg-accent text-accent-text border-accent font-semibold shadow-editorial-xs" : "bg-surface text-ink border-border hover:bg-surface-2 disabled:hover:bg-surface"}`} onClick={() => setModoProva(true)}>Prova · correção ao final</button>
+        {Object.keys(respostas).length > 0 && <span className="sm:col-span-2 text-xs text-ink-2">O modo é definido antes da primeira resposta. Reinicie o caderno para escolher outro modo.</span>}
       </fieldset>
       {renderSimuladoSelector()}
       {Boolean(sessaoAtual.tentativasArquivadas?.length) && <details className="rounded-xl border border-border p-3 text-sm">
@@ -1438,8 +1438,8 @@ export const SimuladoPage: React.FC = () => {
           </div>
 
           {/* Placar Cebraspe: C - E e Indicador de Salvamento Ativo */}
-          <div className="flex items-center gap-4 text-xs font-mono">
-            {!modoProva && <><div className="flex items-center gap-1.5">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs font-mono">
+            {!modoProva && <><div className="flex items-center gap-1.5 whitespace-nowrap">
               <span className="text-ink-2">Líquida:</span>
               <strong className="text-sm font-bold text-ink">
                 {notaLiquidaAtual > 0 ? `+${notaLiquidaAtual}` : notaLiquidaAtual}
