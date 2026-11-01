@@ -260,7 +260,7 @@ export const PainelPage: React.FC = () => {
       {/* GRID DE CARDS MENORES: REVISÃO DO DIA, CONSTÂNCIA E RESUMO DA JORNADA (Regra U.3) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {/* Bloco 1: Revisão do Dia (Leitner) */}
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-editorial-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs font-sans text-ink-2">
               <span className="font-semibold uppercase tracking-wider text-xs">Revisão do Dia</span>
@@ -301,7 +301,7 @@ export const PainelPage: React.FC = () => {
         </div>
 
         {/* Bloco 2: Constância de Estudo (Mapa de calor sóbrio, sem confetes) */}
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-editorial-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs font-sans text-ink-2">
               <span className="font-semibold uppercase tracking-wider text-xs">Constância</span>
@@ -343,7 +343,7 @@ export const PainelPage: React.FC = () => {
         </div>
 
         {/* Bloco 3: Miniatura da Jornada */}
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-editorial-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs font-sans text-ink-2">
               <span className="font-semibold uppercase tracking-wider text-xs">Trilha da Jornada</span>
@@ -468,7 +468,7 @@ export const PainelPage: React.FC = () => {
       </section>
 
       {/* BLOCO PROGRESSO GERAL (C1: Renomeado de 'Cobertura do edital' para 'Progresso geral') */}
-      <section aria-labelledby="progresso-geral-title" className="bg-surface rounded-xl border border-border p-5 shadow-xs space-y-4">
+      <section aria-labelledby="progresso-geral-title" className="bg-surface rounded-2xl border border-border p-5 shadow-editorial-sm space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
             <span className="font-sans text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20 uppercase tracking-wider">

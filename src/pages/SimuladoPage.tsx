@@ -751,7 +751,7 @@ export const SimuladoPage: React.FC = () => {
     return (
       <div className="max-w-4xl mx-auto space-y-8 animate-fadeIn print:max-w-none print:p-0">
         {/* Cabeçalho do Relatório */}
-        <section className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs print:border-none print:shadow-none print:p-0">
+        <section className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-editorial-sm print:border-none print:shadow-none print:p-0">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 print:border-b print:border-black">
             <div>
               <div className="flex items-center gap-2 mb-1">
@@ -1348,7 +1348,7 @@ export const SimuladoPage: React.FC = () => {
     URL.revokeObjectURL(url);
   };
   if (sessaoDesatualizada) return (
-    <section className="max-w-3xl mx-auto space-y-5 p-5 rounded-2xl border border-border bg-surface" aria-label="Tentativa de uma versão anterior">
+    <section className="max-w-3xl mx-auto space-y-5 p-5 rounded-2xl border border-border bg-surface shadow-editorial-sm" aria-label="Tentativa de uma versão anterior">
       <h1 className="text-2xl font-serif">Atualizamos as questões deste caderno</h1>
       <p>Esta tentativa contém respostas de uma versão anterior ou sem versão registrada. Para preservar seu histórico, ela não será corrigida com os novos enunciados e gabaritos.</p>
       <p>Você pode guardar as {Object.keys(respostas).length} respostas anteriores e iniciar uma nova tentativa. Os resultados já concluídos permanecem no histórico.</p>
@@ -1456,7 +1456,7 @@ export const SimuladoPage: React.FC = () => {
         </section>
 
         {/* Card do Enunciado Cebraspe */}
-        <article className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs space-y-6">
+        <article className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-editorial-sm space-y-6">
           {currentQuestion.contexto && (
             <div className="font-serif text-ink-2 text-base leading-relaxed whitespace-pre-line pb-5">
               {currentQuestion.contexto}
