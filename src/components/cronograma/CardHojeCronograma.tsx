@@ -166,7 +166,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
             <button
               type="button"
               onClick={() => setMostrarModalPlanoB(true)}
-              className="py-1.5 px-3 rounded-lg bg-primary hover:opacity-95 text-white font-sans text-xs font-bold transition-colors cursor-pointer shadow-xs"
+              className="py-1.5 px-3 rounded-lg bg-primary hover:opacity-95 text-primary-text font-sans text-xs font-bold transition-colors cursor-pointer shadow-xs"
             >
               Ver Detalhes do Plano B (Comprimir M7)
             </button>

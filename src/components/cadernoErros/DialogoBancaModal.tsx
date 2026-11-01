@@ -376,7 +376,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
             <button
               type="submit"
               disabled={!argumentoInput.trim() || enviandoArgumento || carregandoInicial}
-              className="px-4 py-3 rounded-xl bg-primary hover:opacity-95 text-white font-bold text-xs flex items-center gap-2 cursor-pointer transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-editorial-sm shrink-0"
+              className="px-4 py-3 rounded-xl bg-primary hover:opacity-95 text-primary-text font-bold text-xs flex items-center gap-2 cursor-pointer transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-editorial-sm shrink-0"
               title="Submeter argumento à banca examinadora"
             >
               <Send className="w-4 h-4" />

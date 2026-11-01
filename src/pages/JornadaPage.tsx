@@ -121,11 +121,11 @@ export const JornadaPage: React.FC = () => {
               onClick={handleToggleModoLivre}
               className={`flex items-center gap-1.5 text-xs transition-colors ${
                 modoLivre
-                  ? 'bg-primary hover:opacity-95 text-white border-amber-600'
+                  ? 'bg-primary hover:opacity-95 text-primary-text border-amber-600'
                   : 'text-ink-2 hover:text-ink'
               }`}
             >
-              <Unlock className={`w-3.5 h-3.5 ${modoLivre ? 'text-white' : 'text-accent dark:text-amber-400'}`} />
+              <Unlock className={`w-3.5 h-3.5 ${modoLivre ? 'text-primary-text' : 'text-accent dark:text-amber-400'}`} />
               <span>{modoLivre ? 'Desativar Modo Livre' : 'Modo Livre'}</span>
             </Button>
           </div>
@@ -795,7 +795,7 @@ export const JornadaPage: React.FC = () => {
               <Button variant="ghost" size="sm" onClick={() => setShowModoLivreConfirm(false)}>
                 Cancelar
               </Button>
-              <Button variant="primary" size="sm" onClick={confirmarAtivacaoModoLivre} className="bg-primary hover:opacity-95 text-white">
+              <Button variant="primary" size="sm" onClick={confirmarAtivacaoModoLivre} className="bg-primary hover:opacity-95 text-primary-text">
                 Confirmar Ativação
               </Button>
             </div>
