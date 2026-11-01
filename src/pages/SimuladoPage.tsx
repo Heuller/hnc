@@ -1179,7 +1179,7 @@ export const SimuladoPage: React.FC = () => {
                   {/* Cabeçalho do Submódulo */}
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-3 bg-surface-2 print:bg-gray-100 rounded-xl border border-border print:border-gray-300">
                     <div className="flex items-center gap-2">
-                      <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-accent text-accent-contrast">
+                      <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-accent text-accent-text">
                         Submódulo {subId}
                       </span>
                       <h4 className="font-sans font-bold text-sm text-ink print:text-black">

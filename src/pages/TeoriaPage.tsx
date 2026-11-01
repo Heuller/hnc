@@ -616,7 +616,7 @@ export const TeoriaPage: React.FC = () => {
                   onClick={() => alternarModoTeoria('didatica')}
                   className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
                     modoTeoriaAtivo === 'didatica'
-                      ? 'bg-accent text-accent-contrast shadow-xs font-bold'
+                      ? 'bg-accent text-accent-text shadow-xs font-bold'
                       : 'text-ink-2 hover:text-ink'
                   }`}
                   aria-pressed={modoTeoriaAtivo === 'didatica'}
@@ -889,7 +889,7 @@ export const TeoriaPage: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => navigateToSimulado(rodapeNav.simuladoModuloId)}
-                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-contrast font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-accent/90"
+                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-text font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-accent/90"
                 >
                   <span>
                     Ir ao simulado do M{rodapeNav.moduloNumero} ({getSimuladoById(rodapeNav.simuladoModuloId)?.questoes.length || 100} itens)
