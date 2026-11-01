@@ -175,7 +175,7 @@ export const ExercicioX7OrdenarProcedimento: React.FC<ExercicioProps<ExercicioX7
             type="button"
             disabled={disabled}
             onClick={handleVerificar}
-            className="w-full sm:w-auto min-h-[44px] px-5 py-2.5 rounded-xl bg-accent text-white font-sans text-xs font-bold hover:bg-accent/90 transition-all cursor-pointer shadow-xs"
+            className="w-full sm:w-auto min-h-[44px] px-5 py-2.5 rounded-xl bg-accent text-accent-text font-sans text-xs font-bold hover:bg-accent/90 transition-all cursor-pointer shadow-xs"
           >
             Verificar Sequência
           </button>

@@ -177,7 +177,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
               type="button"
               disabled={disabled || textoLivre.trim().length === 0}
               onClick={handleFinalizarEscrita}
-              className="min-h-[44px] px-4 py-2 rounded-xl bg-accent text-white font-sans text-xs font-bold hover:bg-accent/90 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-xs"
+              className="min-h-[44px] px-4 py-2 rounded-xl bg-accent text-accent-text font-sans text-xs font-bold hover:bg-accent/90 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-xs"
             >
               Concluir e Comparar com Checklist
             </button>

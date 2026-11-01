@@ -145,7 +145,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
               <span>{idx + 1}</span>
               {isCorrect && (
                 <span
-                  className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-ok text-[7px] flex items-center justify-center text-white leading-none font-sans font-bold"
+                  className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-ok text-[7px] flex items-center justify-center text-on-ok leading-none font-sans font-bold"
                   aria-hidden="true"
                 >
                   ✓
@@ -153,7 +153,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
               )}
               {isWrong && (
                 <span
-                  className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-err text-[7px] flex items-center justify-center text-white leading-none font-sans font-bold"
+                  className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-err text-[7px] flex items-center justify-center text-on-err leading-none font-sans font-bold"
                   aria-hidden="true"
                 >
                   ✕

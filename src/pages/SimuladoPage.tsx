@@ -515,7 +515,7 @@ export const SimuladoPage: React.FC = () => {
               }}
               className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-all cursor-pointer ${
                 isSelected
-                  ? 'bg-accent text-white shadow-xs'
+                  ? 'bg-accent text-accent-text shadow-xs'
                   : 'text-ink-2 hover:text-ink hover:bg-surface-2'
               } ${isMini ? 'border border-emerald-500/30' : ''}`}
             >
@@ -1225,7 +1225,7 @@ export const SimuladoPage: React.FC = () => {
 
                               {/* Status Badge */}
                               {isErro && (
-                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono font-bold bg-err text-white">
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono font-bold bg-err text-on-err">
                                   <XCircle className="w-3 h-3" />
                                   <span>ERRO (-1 pt líquido)</span>
                                 </span>
@@ -1237,7 +1237,7 @@ export const SimuladoPage: React.FC = () => {
                                 </span>
                               )}
                               {isAcerto && (
-                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono font-bold bg-ok text-white">
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono font-bold bg-ok text-on-ok">
                                   <CheckCircle2 className="w-3 h-3" />
                                   <span>ACERTO (+1 pt líquido)</span>
                                 </span>
@@ -1352,7 +1352,7 @@ export const SimuladoPage: React.FC = () => {
       <h1 className="text-2xl font-serif">Atualizamos as questões deste caderno</h1>
       <p>Esta tentativa contém respostas de uma versão anterior ou sem versão registrada. Para preservar seu histórico, ela não será corrigida com os novos enunciados e gabaritos.</p>
       <p>Você pode guardar as {Object.keys(respostas).length} respostas anteriores e iniciar uma nova tentativa. Os resultados já concluídos permanecem no histórico.</p>
-      <button type="button" className="min-h-[44px] rounded-xl px-4 bg-accent text-white foco" onClick={() => { reiniciarSimulado(selectedSimuladoId); iniciarOuRetomarSimulado(selectedSimuladoId); setTempoGasto(0); }}>Arquivar tentativa e iniciar versão atual</button>
+      <button type="button" className="min-h-[44px] rounded-xl px-4 bg-accent text-accent-text foco" onClick={() => { reiniciarSimulado(selectedSimuladoId); iniciarOuRetomarSimulado(selectedSimuladoId); setTempoGasto(0); }}>Arquivar tentativa e iniciar versão atual</button>
       <button type="button" className="min-h-[44px] rounded-xl px-4 border border-border foco" onClick={baixarHistoricoPreservado}>Baixar cópia do histórico</button>
       {renderSimuladoSelector()}
     </section>

@@ -90,8 +90,8 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
               className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 cursor-pointer border ${
                 resposta === 'C'
                   ? acertou
-                    ? 'bg-ok text-white border-ok shadow-xs'
-                    : 'bg-err text-white border-err shadow-xs'
+                    ? 'bg-ok text-on-ok border-ok shadow-xs'
+                    : 'bg-err text-on-err border-err shadow-xs'
                   : isRespondido && gabaritoNormalizado === 'C'
                   ? 'bg-ok-soft text-ok border-ok'
                   : 'bg-surface-2 text-ink border-border hover:border-accent hover:bg-surface'
@@ -109,8 +109,8 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
               className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 cursor-pointer border ${
                 resposta === 'E'
                   ? acertou
-                    ? 'bg-ok text-white border-ok shadow-xs'
-                    : 'bg-err text-white border-err shadow-xs'
+                    ? 'bg-ok text-on-ok border-ok shadow-xs'
+                    : 'bg-err text-on-err border-err shadow-xs'
                   : isRespondido && gabaritoNormalizado === 'E'
                   ? 'bg-ok-soft text-ok border-ok'
                   : 'bg-surface-2 text-ink border-border hover:border-accent hover:bg-surface'

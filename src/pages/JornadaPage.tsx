@@ -570,7 +570,7 @@ export const JornadaPage: React.FC = () => {
                 >
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <div className="flex items-start sm:items-center gap-3.5">
-                      <div className="w-12 h-12 rounded-xl bg-ok text-white flex items-center justify-center font-mono font-bold text-lg shrink-0 shadow-xs">
+                      <div className="w-12 h-12 rounded-xl bg-ok text-on-ok flex items-center justify-center font-mono font-bold text-lg shrink-0 shadow-xs">
                         M2.5
                       </div>
                       <div className="space-y-1">
@@ -605,7 +605,7 @@ export const JornadaPage: React.FC = () => {
                         variant="primary"
                         size="sm"
                         onClick={() => navigateToSimulado('mini-modulo-orgaos')}
-                        className="flex items-center gap-1.5 bg-ok hover:opacity-95 text-white"
+                        className="flex items-center gap-1.5 bg-ok hover:opacity-95 text-on-ok"
                       >
                         <span>Simulado 30Q</span>
                         <ArrowRight className="w-4 h-4" />

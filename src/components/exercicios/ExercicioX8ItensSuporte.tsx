@@ -142,8 +142,8 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
                   className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer border ${
                     resp === 'C'
                       ? isItemCorreto
-                        ? 'bg-ok text-white border-ok shadow-xs'
-                        : 'bg-err text-white border-err shadow-xs'
+                        ? 'bg-ok text-on-ok border-ok shadow-xs'
+                        : 'bg-err text-on-err border-err shadow-xs'
                       : isItemRespondido && item.gabarito === 'C'
                       ? 'bg-ok-soft text-ok border-ok'
                       : 'bg-surface text-ink border-border hover:border-accent'
@@ -160,8 +160,8 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
                   className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer border ${
                     resp === 'E'
                       ? isItemCorreto
-                        ? 'bg-ok text-white border-ok shadow-xs'
-                        : 'bg-err text-white border-err shadow-xs'
+                        ? 'bg-ok text-on-ok border-ok shadow-xs'
+                        : 'bg-err text-on-err border-err shadow-xs'
                       : isItemRespondido && item.gabarito === 'E'
                       ? 'bg-ok-soft text-ok border-ok'
                       : 'bg-surface text-ink border-border hover:border-accent'

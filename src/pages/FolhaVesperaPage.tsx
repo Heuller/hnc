@@ -158,7 +158,7 @@ export const FolhaVesperaPage: React.FC = () => {
             onClick={() => setActiveTab('blocos')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'blocos'
-                ? 'bg-accent text-white shadow-sm'
+                ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
             }`}
           >
@@ -171,7 +171,7 @@ export const FolhaVesperaPage: React.FC = () => {
             onClick={() => setActiveTab('progresso')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'progresso'
-                ? 'bg-accent text-white shadow-sm'
+                ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
             }`}
           >
@@ -184,7 +184,7 @@ export const FolhaVesperaPage: React.FC = () => {
             onClick={() => setActiveTab('mnemonicos')}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
               activeTab === 'mnemonicos'
-                ? 'bg-accent text-white shadow-sm'
+                ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
             }`}
           >
@@ -251,8 +251,8 @@ export const FolhaVesperaPage: React.FC = () => {
               onClick={() => setModoTreinoAtivo(!modoTreinoAtivo)}
               className={`px-3 py-1.5 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
                 modoTreinoAtivo
-                  ? 'bg-ok text-white shadow-xs'
-                  : 'bg-accent text-white shadow-xs'
+                  ? 'bg-ok text-on-ok shadow-xs'
+                  : 'bg-accent text-accent-text shadow-xs'
               }`}
             >
               <Eye className="w-3.5 h-3.5" />
@@ -282,7 +282,7 @@ export const FolhaVesperaPage: React.FC = () => {
               onClick={() => setSelectedBloco(bloco.id)}
               className={`px-2.5 py-1 rounded-md text-xs font-medium cursor-pointer transition-colors ${
                 selectedBloco === bloco.id
-                  ? 'bg-accent text-white font-bold'
+                  ? 'bg-accent text-accent-text font-bold'
                   : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
               }`}
             >
@@ -299,7 +299,7 @@ export const FolhaVesperaPage: React.FC = () => {
           >
             <div className="pb-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-accent text-white text-xs font-black font-mono">
+                <span className="px-2 py-0.5 rounded bg-accent text-accent-text text-xs font-black font-mono">
                   {bloco.sigla}
                 </span>
                 <h2 className="text-base sm:text-lg font-black text-ink print:text-black m-0 tracking-normal">

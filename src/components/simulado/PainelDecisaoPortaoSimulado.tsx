@@ -79,7 +79,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
         <div className="flex items-start gap-3.5">
           <div
             className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 shadow-2xs ${
-              isAprovado ? 'bg-ok text-white' : 'bg-surface border border-border text-ink'
+              isAprovado ? 'bg-ok text-on-ok' : 'bg-surface border border-border text-ink'
             }`}
           >
             {isAprovado ? (
@@ -97,7 +97,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
               <span
                 className={`font-mono text-xs font-bold px-2 py-0.5 rounded uppercase ${
                   isAprovado
-                    ? 'bg-ok text-white'
+                    ? 'bg-ok text-on-ok'
                     : 'bg-surface-2 text-ink-2 border border-border'
                 }`}
               >

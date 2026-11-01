@@ -27,6 +27,9 @@
   --color-alerta-cebraspe: var(--alerta);
   --color-info: var(--info);
   --color-info-soft: var(--info-soft);
+  --color-on-ok: var(--on-ok);
+  --color-on-err: var(--on-err);
+  --color-on-info: var(--on-info);
 
   /* Módulos M1–M10 Tokens OKLCH */
   --color-m1: var(--m1-solid);
@@ -121,6 +124,10 @@
   --alerta-soft: #FFF1F2;
   --info: #1D4ED8;
   --info-soft: #DBEAFE;
+  /* Texto sobre preenchimento sólido (claro: branco; escuro: tinta, pois os preenchimentos são claros) */
+  --on-ok: #FFFFFF;
+  --on-err: #FFFFFF;
+  --on-info: #FFFFFF;
 
   /* Cores de Identidade dos Módulos M1-M10 (OKLCH - Tema Claro) */
   --m1-solid: oklch(0.50 0.13 70);
@@ -236,6 +243,9 @@ html.dark {
   --alerta-soft: #380815;
   --info: #60A5FA;
   --info-soft: #1E3A5F;
+  --on-ok: #0D1220;
+  --on-err: #0D1220;
+  --on-info: #0D1220;
 
   /* Cores de Identidade dos Módulos M1-M10 (OKLCH - Tema Escuro) */
   --m1-solid: oklch(0.78 0.12 70);
@@ -339,6 +349,9 @@ html.dark {
     --alerta-soft: #380815;
     --info: #60A5FA;
     --info-soft: #1E3A5F;
+  --on-ok: #0D1220;
+  --on-err: #0D1220;
+  --on-info: #0D1220;
 
     --m1-solid: oklch(0.78 0.12 70);
     --m1-soft: oklch(0.26 0.05 70);

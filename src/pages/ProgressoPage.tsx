@@ -227,7 +227,7 @@ export const ProgressoPage: React.FC = () => {
                     limparTodoProgresso();
                     setShowConfirmReset(false);
                   }}
-                  className="py-1.5 px-3 rounded-lg bg-err text-white text-xs font-sans font-semibold"
+                  className="py-1.5 px-3 rounded-lg bg-err text-on-err text-xs font-sans font-semibold"
                 >
                   Sim, apagar tudo
                 </button>

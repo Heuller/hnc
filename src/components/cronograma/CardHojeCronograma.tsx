@@ -317,7 +317,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
                       className={`w-full py-2 px-3 rounded-lg font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-2xs ${
                         isConcluido
                           ? 'bg-surface hover:bg-surface-2 text-ink border border-border'
-                          : 'bg-accent hover:bg-accent-hover text-white'
+                          : 'bg-accent hover:bg-accent-hover text-accent-text'
                       }`}
                     >
                       <BookOpen className="w-3.5 h-3.5" />
@@ -448,7 +448,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
               <button
                 type="button"
                 onClick={() => setMostrarModalPlanoB(false)}
-                className="py-2 px-4 rounded-xl bg-accent hover:bg-accent-hover text-white font-sans text-xs font-bold transition-colors cursor-pointer"
+                className="py-2 px-4 rounded-xl bg-accent hover:bg-accent-hover text-accent-text font-sans text-xs font-bold transition-colors cursor-pointer"
               >
                 Entendido
               </button>

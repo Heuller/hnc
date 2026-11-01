@@ -269,7 +269,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     onClick={() => handleMarcarResposta(itemAtual.id, 'C')}
                     className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-all flex items-center justify-center gap-2 ${
                       respostas[itemAtual.id]?.resposta === 'C'
-                        ? 'bg-ok text-white border-emerald-600 shadow-editorial-sm scale-[1.02]'
+                        ? 'bg-ok text-on-ok border-emerald-600 shadow-editorial-sm scale-[1.02]'
                         : 'bg-surface-2 text-ink hover:border-emerald-500/50 border-border'
                     }`}
                   >
