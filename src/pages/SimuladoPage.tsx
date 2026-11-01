@@ -522,7 +522,7 @@ export const SimuladoPage: React.FC = () => {
               <span>{isMini ? '⭐ ' : ''}{sim.tituloCurto}</span>
               <span
                 className={`font-mono text-xs px-1.5 py-0.2 rounded ${
-                  isSelected ? 'bg-white/20 text-white' : 'bg-surface-2 text-ink-2 border border-border/40'
+                  isSelected ? 'bg-accent-text/20 text-accent-text' : 'bg-surface-2 text-ink-2 border border-border/40'
                 }`}
               >
                 {sim.questoes.length}Q

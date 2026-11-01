@@ -116,7 +116,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
       {/* Painel Deslizante de Sumário (Bottom Sheet Mobile) */}
       <AnimatePresence>
         {isTocOpen && (
-          <div className="fixed inset-0 z-50 flex items-end justify-center md:hidden" role="dialog" aria-modal="true">
+          <div className="fixed inset-0 z-50 flex items-end justify-center md:hidden" role="dialog" aria-modal="true" aria-labelledby="toc-submodulo-titulo">
             {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
@@ -145,7 +145,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
               <div className="px-4 py-2 border-b border-border flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <List className="w-4 h-4 text-accent" />
-                  <h3 className="text-sm font-bold text-ink">Sumário deste Submódulo</h3>
+                  <h3 id="toc-submodulo-titulo" className="text-sm font-bold text-ink">Sumário deste Submódulo</h3>
                 </div>
                 <button
                   type="button"

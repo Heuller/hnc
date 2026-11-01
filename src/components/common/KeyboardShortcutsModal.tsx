@@ -84,7 +84,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
           </div>
 
           {/* Conteúdo */}
-          <div className="p-5 space-y-5 overflow-y-auto max-h-[70dvh]">
+          <div tabIndex={0} aria-label="Lista de atalhos de teclado" className="p-5 space-y-5 overflow-y-auto max-h-[70dvh]">
             {shortcuts.map((cat) => (
               <div key={cat.categoria} className="space-y-2.5">
                 <span className="text-xs font-mono uppercase tracking-wider font-bold text-accent block">

@@ -180,7 +180,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
           className={`flex-1 w-full min-w-0 foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
             emModoFoco
               ? 'p-3 sm:p-6 pb-12'
-              : 'p-4 sm:p-6 lg:p-8 pb-24 md:pb-12'
+              : 'p-4 sm:p-6 lg:p-8 pb-[calc(6rem_+_env(safe-area-inset-bottom,0px))] md:pb-12'
           }`}
         >
           {children}
