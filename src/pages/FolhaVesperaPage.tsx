@@ -299,7 +299,7 @@ export const FolhaVesperaPage: React.FC = () => {
           >
             <div className="pb-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-accent text-accent-text text-xs font-black font-mono">
+                <span className="px-2 py-0.5 rounded bg-accent text-accent-text text-xs font-black font-mono shrink-0 whitespace-nowrap">
                   {bloco.sigla}
                 </span>
                 <h2 className="text-base sm:text-lg font-black text-ink print:text-black m-0 tracking-normal">
@@ -311,7 +311,7 @@ export const FolhaVesperaPage: React.FC = () => {
               </span>
             </div>
 
-            <p className="text-xs text-ink-2 font-serif leading-relaxed m-0 print:text-gray-800">
+            <p className="text-xs text-ink-2 font-serif leading-relaxed print:text-gray-800">
               {bloco.descricao}
             </p>
 
@@ -325,16 +325,16 @@ export const FolhaVesperaPage: React.FC = () => {
                 return (
                   <div
                     key={item.id}
-                    className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2.5 text-xs font-serif leading-relaxed text-ink print:text-black shadow-2xs"
+                    className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2.5 text-xs font-serif leading-relaxed text-ink print:text-black shadow-editorial-xs"
                   >
-                    <div className="flex items-center justify-between gap-2 font-mono text-xs pb-1.5">
+                    <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1.5 font-mono text-xs pb-1.5">
                       <span className="font-bold text-accent uppercase">
                         #{pIdx + 1} · {item.topico}
                       </span>
 
                       {/* Badge de Gabarito / Feedback */}
                       {revelarConteudo ? (
-                        <div className="flex items-center gap-1.5">
+                        <div className="flex flex-wrap items-center gap-1.5">
                           {modoTreinoAtivo && (
                             <span
                               className={`px-2 py-0.5 rounded text-xs font-mono font-bold flex items-center gap-1 ${
@@ -347,7 +347,7 @@ export const FolhaVesperaPage: React.FC = () => {
                               <span>{acertou ? 'ACERTOU' : 'CAIU NA PEGADINHA'}</span>
                             </span>
                           )}
-                          <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-accent dark:text-amber-400 font-bold">
+                          <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-accent dark:text-amber-400 font-bold whitespace-nowrap">
                             GABARITO EDITORIAL: {item.gabaritoOficial === 'E' ? 'ERRADO' : 'CERTO'}
                           </span>
                         </div>
@@ -394,11 +394,11 @@ export const FolhaVesperaPage: React.FC = () => {
                       gabarito: item.gabaritoOficial, justificativa: item.fundamentacaoCanonico, armadilhaBanca: item.armadilhaCebraspe,
                       submoduloId: item.submoduloRef, versao_correta: item.versao_correta, gatilho: item.gatilho, fonte: item.fontePrimaria, dataConferencia: item.dataConferencia }} resposta={respostasTreino[item.id]} autoexplicacao={false} />}
                     {/* Explicação e Fundamentação */}
-                    <div className={`text-xs space-y-1 ${revelarConteudo ? 'block' : 'hidden print:block'}`}>
-                      <p className="m-0 text-rose-700 dark:text-rose-400">
+                    <div className={`text-xs space-y-1.5 ${revelarConteudo ? 'block' : 'hidden print:block'}`}>
+                      <p className="text-rose-700 dark:text-rose-400">
                         <strong>⚠️ Armadilha da Banca:</strong> {item.armadilhaCebraspe}
                       </p>
-                      <p className="m-0 text-emerald-700 dark:text-emerald-400">
+                      <p className="text-emerald-700 dark:text-emerald-400">
                         <strong>Fundamentação Canônica:</strong> {item.fundamentacaoCanonico}
                       </p>
                       <p className="m-0 text-ink-2 font-mono text-xs">

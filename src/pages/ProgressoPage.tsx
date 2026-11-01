@@ -160,7 +160,7 @@ export const ProgressoPage: React.FC = () => {
       <div className="rounded-xl border border-border bg-surface p-4 space-y-2"><SyncStatus /><p className="text-xs text-ink-2">O envio de resumo à nuvem não inclui todos os dados do navegador. Confira o escopo do backup abaixo antes de trocar de dispositivo.</p></div>
 
       {/* Seção de Backup e Persistência Local */}
-      <section className="bg-surface rounded-2xl border border-border p-6 shadow-xs space-y-4">
+      <section className="bg-surface rounded-2xl border border-border p-6 shadow-editorial-sm space-y-4">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-base sm:text-lg font-sans font-bold text-ink">
@@ -257,7 +257,7 @@ export const ProgressoPage: React.FC = () => {
 
       {/* Grid de Métricas Gerais */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs">
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-editorial-xs">
           <span className="text-xs font-sans text-ink-2 uppercase tracking-wider font-semibold">
             Simulados Realizados
           </span>
@@ -269,7 +269,7 @@ export const ProgressoPage: React.FC = () => {
           </span>
         </div>
 
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs">
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-editorial-xs">
           <span className="text-xs font-sans text-ink-2 uppercase tracking-wider font-semibold">
             Submódulos Teóricos Concluídos
           </span>
@@ -281,7 +281,7 @@ export const ProgressoPage: React.FC = () => {
           </span>
         </div>
 
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs">
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-editorial-xs">
           <span className="text-xs font-sans text-ink-2 uppercase tracking-wider font-semibold">
             Constância Ativa
           </span>
@@ -293,7 +293,7 @@ export const ProgressoPage: React.FC = () => {
       </div>
 
       {/* Gráfico de Evolução da Nota Líquida (Recharts) */}
-      <section className="bg-surface rounded-2xl border border-border p-6 shadow-xs space-y-4">
+      <section className="bg-surface rounded-2xl border border-border p-6 shadow-editorial-sm space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
             <h2 className="text-base sm:text-lg font-sans font-bold text-ink">
@@ -330,8 +330,8 @@ export const ProgressoPage: React.FC = () => {
         ) : (
           <div className="p-8 text-center bg-surface-2 rounded-xl border border-dashed border-border text-ink-2 text-xs sm:text-sm font-sans space-y-3">
             <IllustrationVazio width={120} height={86} className="mx-auto text-ink-2 opacity-70" aria-hidden="true" />
-            <p className="m-0 font-semibold text-ink">Sua curva de evolução começa no primeiro simulado</p>
-            <p className="m-0 max-w-md mx-auto">
+            <p className="font-semibold text-ink">Sua curva de evolução começa no primeiro simulado</p>
+            <p className="max-w-md mx-auto">
               Nenhum simulado finalizado ainda. Complete um simulado de 100 questões para visualizar o gráfico.
             </p>
             <button
@@ -346,7 +346,7 @@ export const ProgressoPage: React.FC = () => {
       </section>
 
       {/* Análise de Incidência de Erros por Submódulo */}
-      <Disclosure id="diagnostico-erros" title="Dificuldades por assunto" className="bg-surface rounded-2xl border border-border p-6 shadow-xs space-y-4">
+      <Disclosure id="diagnostico-erros" title="Dificuldades por assunto" className="bg-surface rounded-2xl border border-border p-6 shadow-editorial-sm space-y-4">
         <h2 className="text-base sm:text-lg font-sans font-bold text-ink">
           Diagnóstico Temático de Erros no Simulado
         </h2>

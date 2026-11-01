@@ -265,7 +265,7 @@ export const CadernoErrosPage: React.FC = () => {
           <div className="card-editorial p-12 text-center space-y-4">
             <IllustrationVazio width={120} height={86} className="mx-auto text-ink-2 opacity-70" aria-hidden="true" />
             <div className="space-y-1">
-              <h2 className="text-base font-bold text-ink m-0">Nenhum erro encontrado</h2>
+              <h2 className="text-base font-bold text-ink">Nenhum erro encontrado</h2>
               <p className="text-xs text-ink-2 font-serif max-w-md mx-auto m-0">
                 {todosErros.length === 0
                   ? 'Você ainda não registrou erros em micro-checkpoints ou simulados. Continue praticando para diagnosticar seu desempenho!'

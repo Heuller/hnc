@@ -149,7 +149,7 @@ export const RadarPage: React.FC = () => {
       {/* Banner de Conformidade Editalícia (Itens 13.33 a 13.34.1) */}
       <section
         aria-label="Marco Temporal Normativo do Edital"
-        className="bg-surface-2 border border-border/80 rounded-xl p-4 sm:p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-2xs"
+        className="bg-surface-2 border border-border/80 rounded-xl p-4 sm:p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-editorial-xs"
       >
         <div className="flex items-start gap-3">
           <div className="p-2 rounded-lg bg-accent/10 text-accent shrink-0 mt-0.5 sm:mt-0">
@@ -384,7 +384,7 @@ export const RadarPage: React.FC = () => {
               {alertasFiltrados.slice(0, limite).map((alerta) => (
                 <div
                   key={alerta.id}
-                  className="bg-surface rounded-xl border border-theme-alerta/30 p-5 shadow-xs flex flex-col justify-between"
+                  className="bg-surface rounded-xl border border-theme-alerta/30 p-5 shadow-editorial-xs flex flex-col justify-between"
                 >
                   <div>
                     <div className="flex items-center justify-between gap-2 mb-2">
@@ -497,7 +497,7 @@ export const RadarPage: React.FC = () => {
                 return (
                   <div
                     key={q.id}
-                    className="bg-surface rounded-xl border border-border p-5 shadow-xs"
+                    className="bg-surface rounded-xl border border-border p-5 shadow-editorial-xs"
                   >
                     <div className="flex items-center justify-between gap-2 mb-2">
                       <span className="font-mono text-xs font-bold text-ink-2">

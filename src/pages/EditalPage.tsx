@@ -140,7 +140,7 @@ export const EditalPage: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs font-serif">
           {/* P1: Conhecimentos Básicos */}
-          <div className="bg-surface border border-border rounded-xl p-5 space-y-3">
+          <div className="bg-surface border border-border rounded-xl p-5 space-y-3 shadow-editorial-xs">
             <div className="flex items-center justify-between">
               <span className="font-mono font-bold uppercase text-xs text-ink">Prova P1 (Básicos)</span>
               <span className="px-2 py-0.5 rounded text-xs font-mono bg-border font-bold">90 Itens C/E</span>
@@ -158,7 +158,7 @@ export const EditalPage: React.FC = () => {
           </div>
 
           {/* P2: Conhecimentos Específicos */}
-          <div className="bg-surface border border-border rounded-xl p-5 space-y-3">
+          <div className="bg-surface border border-border rounded-xl p-5 space-y-3 shadow-editorial-xs">
             <div className="flex items-center justify-between">
               <span className="font-mono font-bold uppercase text-xs text-ink">Prova P2 (Específicos)</span>
               <span className="px-2 py-0.5 rounded text-xs font-mono bg-border font-bold">90 Itens C/E</span>
@@ -176,7 +176,7 @@ export const EditalPage: React.FC = () => {
           </div>
 
           {/* P3: Discursiva */}
-          <div className="bg-surface border border-border rounded-xl p-5 space-y-3">
+          <div className="bg-surface border border-border rounded-xl p-5 space-y-3 shadow-editorial-xs">
             <div className="flex items-center justify-between">
               <span className="font-mono font-bold uppercase text-xs text-ink">Prova P3 (Discursiva)</span>
               <span className="px-2 py-0.5 rounded text-xs font-mono bg-purple-500/15 text-purple-700 dark:text-purple-400 font-bold">
