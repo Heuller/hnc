@@ -89,25 +89,26 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               type="button"
               onClick={() => setActiveView('painel')}
               className="flex items-center gap-2.5 text-left group cursor-pointer shrink-0 whitespace-nowrap"
+              aria-label={CONCURSO_CONFIG.plataforma.nome}
             >
               <div className="w-9 h-9 rounded-lg bg-primary text-primary-text flex items-center justify-center font-bold text-xs select-none shadow-editorial-sm border border-primary/20 shrink-0">
                 <span className="font-serif tracking-widest text-[13px] font-bold">CD</span>
               </div>
 
-              <div className="whitespace-nowrap">
+              <div className="hidden lg:block whitespace-nowrap">
                 <div className="flex items-center gap-1.5 whitespace-nowrap">
                   <span className="font-serif font-bold text-sm sm:text-base text-ink leading-tight tracking-normal whitespace-nowrap">
                     {CONCURSO_CONFIG.plataforma.nome}
                   </span>
-                  <span className="text-ink-2/60 text-xs hidden lg:inline">/</span>
-                  <span className="text-xs font-semibold text-accent capitalize whitespace-nowrap hidden lg:inline">
+                  <span className="text-ink-2/60 text-xs hidden min-[1600px]:inline">/</span>
+                  <span className="text-xs font-semibold text-accent capitalize whitespace-nowrap hidden min-[1600px]:inline">
                     {getDesktopHeaderTitle(activeView, selectedSubmodule)}
                   </span>
-                  <span className="text-xs uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden 2xl:inline-block ml-1">
+                  <span className="text-xs uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden min-[1800px]:inline-block ml-1">
                     {CONCURSO_CONFIG.instituicao.sigla} · {CONCURSO_CONFIG.banca.nome}
                   </span>
                 </div>
-                <p className="text-xs text-ink-2 hidden 2xl:block leading-tight font-sans whitespace-nowrap">
+                <p className="text-xs text-ink-2 hidden min-[1800px]:block leading-tight font-sans whitespace-nowrap">
                   {CONCURSO_CONFIG.cargo.titulo} • {CONCURSO_CONFIG.cargo.atribuicao}
                 </p>
               </div>
@@ -130,7 +131,8 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                   onClick={() => setActiveView(aba.rotaPadrao)}
                   aria-current={isActive ? 'page' : undefined}
                   aria-label={aba.rotulo}
-                  className={`relative px-2 sm:px-2.5 xl:px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer select-none ${
+                  title={aba.rotulo}
+                  className={`relative px-2.5 xl:px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer select-none ${
                     isActive ? 'text-ink font-bold' : 'text-ink-2 hover:text-ink'
                   }`}
                 >
@@ -143,7 +145,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                   )}
                   <span className="relative z-10 flex items-center gap-1.5 whitespace-nowrap shrink-0">
                     <Icon className="w-4 h-4 shrink-0" />
-                    <span>{aba.rotulo}</span>
+                    <span className="hidden xl:inline">{aba.rotulo}</span>
                   </span>
                 </button>
               );
@@ -163,7 +165,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               aria-label="Abrir busca global"
             >
               <Search className="w-3.5 h-3.5 text-accent shrink-0" />
-              <span className="font-sans text-xs hidden lg:inline">Buscar</span>
+              <span className="font-sans text-xs hidden xl:inline">Buscar</span>
               <span className="text-xs px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
                 {getSearchShortcutLabel()}
               </span>
