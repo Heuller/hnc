@@ -497,7 +497,23 @@ html.dark {
   html {
     scroll-padding-top: 5rem;
     -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+  }
+
+  /* Controles não selecionam o rótulo no toque longo (iOS); conteúdo continua selecionável. */
+  button:not(.select-text),
+  [role="button"]:not(.select-text),
+  [role="tab"] {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  /* Rolar até o fim de um modal/gaveta não rola a página por trás. */
+  [role="dialog"] .overflow-y-auto,
+  [role="dialog"].overflow-y-auto {
+    overscroll-behavior-y: contain;
   }
   html.light { color-scheme: light; }
   html.dark { color-scheme: dark; }

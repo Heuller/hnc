@@ -34,10 +34,11 @@ function applyThemeToDOM(resolved: 'light' | 'dark') {
   root.classList.remove('light', 'dark');
   root.classList.add(resolved);
   root.style.colorScheme = resolved;
-  const themeColorMeta = document.querySelector('meta[name="theme-color"]');
-  if (themeColorMeta) {
-    themeColorMeta.setAttribute('content', resolved === 'dark' ? '#0D1220' : '#16244A');
-  }
+  // Cor da barra de status = cor do topo da página (cabeçalho = --surface), não a cor da marca.
+  // O tema escolhido no app prevalece sobre o do sistema, então todos os <meta> recebem o mesmo valor.
+  document.querySelectorAll('meta[name="theme-color"]').forEach((meta) => {
+    meta.setAttribute('content', resolved === 'dark' ? '#141B2E' : '#FFFFFF');
+  });
 }
 
 export const useThemeStore = create<ThemeState>((set, get) => {
