@@ -321,7 +321,7 @@ export const TeoriaPage: React.FC = () => {
             >
               <EyeOff className="w-3.5 h-3.5" />
               <span>Sair do Foco</span>
-              <span className="px-1 py-0.2 rounded text-xs font-mono bg-black/20 text-white ml-0.5">
+              <span className="px-1 py-0.2 rounded text-xs font-mono bg-accent-text/20 text-accent-text ml-0.5">
                 Esc
               </span>
             </button>

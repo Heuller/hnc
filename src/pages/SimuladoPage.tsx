@@ -1039,9 +1039,9 @@ export const SimuladoPage: React.FC = () => {
 
           {/* Desempenho por Módulo-Filho */}
           <div className="space-y-3 my-6 print:break-inside-avoid">
-            <h3 className="font-sans font-bold text-ink print:text-black text-sm sm:text-base">
+            <h2 className="font-sans font-bold text-ink print:text-black text-sm sm:text-base">
               Desempenho por Submódulo
-            </h3>
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {Object.entries(quebraSubmodulos).map(([subId, dados]) => {
                 const subNota = dados.certos - dados.errados;
@@ -1086,9 +1086,9 @@ export const SimuladoPage: React.FC = () => {
           <div className="my-8 pt-6 border-t border-border print:border-gray-300 print:break-inside-avoid">
             <div className="flex items-center gap-2 mb-3">
               <BookOpen className="w-5 h-5 text-accent print:text-black" />
-              <h3 className="font-sans font-bold text-ink print:text-black text-base sm:text-lg">
+              <h2 className="font-sans font-bold text-ink print:text-black text-base sm:text-lg">
                 O Que Foi Cobrado por Tema no Simulado
-              </h3>
+              </h2>
             </div>
             <p className="text-xs sm:text-sm text-ink-2 print:text-gray-700 font-serif mb-4 leading-relaxed">
               Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos {questoesRelatorio.length} itens de {simuladoAtivo.tituloCurto}:
@@ -1106,9 +1106,9 @@ export const SimuladoPage: React.FC = () => {
                     <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-accent/10 text-accent print:bg-gray-200 print:text-black border border-accent/20">
                       {subId}
                     </span>
-                    <h4 className="font-sans font-bold text-xs sm:text-sm text-ink print:text-black">
+                    <h3 className="font-sans font-bold text-xs sm:text-sm text-ink print:text-black">
                       {tema.titulo}
-                    </h4>
+                    </h3>
                   </div>
                   <ul className="space-y-1.5 pt-1">
                     {tema.cobrado.map((topico, idx) => (
@@ -1133,9 +1133,9 @@ export const SimuladoPage: React.FC = () => {
               <div>
                 <div className="flex items-center gap-2">
                   <FileCheck className="w-5 h-5 text-accent print:text-black" />
-                  <h3 className="font-sans font-bold text-ink print:text-black text-base sm:text-lg">
+                  <h2 className="font-sans font-bold text-ink print:text-black text-base sm:text-lg">
                     Gabarito Detalhado e Análise de Itens
-                  </h3>
+                  </h2>
                 </div>
                 <p className="text-xs text-ink-2 print:text-gray-700 font-serif mt-1">
                   Agrupado por submódulo com priorização pedagógica: <strong>erros primeiro</strong>, seguidos por itens em branco e acertos.
@@ -1182,9 +1182,9 @@ export const SimuladoPage: React.FC = () => {
                       <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-accent text-accent-text">
                         Submódulo {subId}
                       </span>
-                      <h4 className="font-sans font-bold text-sm text-ink print:text-black">
+                      <h3 className="font-sans font-bold text-sm text-ink print:text-black">
                         {temaInfo?.titulo || `Submódulo ${subId}`}
-                      </h4>
+                      </h3>
                     </div>
                     <div className="flex items-center gap-3 text-xs font-mono">
                       <span className="text-ok font-bold">{dadosSub?.certos ?? 0} certos</span>
@@ -1591,9 +1591,9 @@ export const SimuladoPage: React.FC = () => {
             </button>
 
             {isItemRespondido && (
-              <div className="col-span-1 sm:col-span-3 py-2 px-3.5 rounded-lg bg-surface-2 border border-border flex items-center justify-between text-xs text-ink-2">
+              <div className="col-span-1 sm:col-span-3 py-2 px-3.5 rounded-lg bg-surface-2 border border-border flex flex-wrap items-center justify-between gap-x-3 gap-y-1 text-xs text-ink-2">
                 <span className="font-sans">Resposta registrada; use as setas ou o rodapé para avançar.</span>
-                <span className="font-mono text-xs text-accent font-semibold flex items-center gap-1">
+                <span className="font-mono text-xs text-accent font-semibold flex items-center gap-1 whitespace-nowrap">
                   Item travado 🔒
                 </span>
               </div>
@@ -1668,6 +1668,7 @@ export const SimuladoPage: React.FC = () => {
                 resposta={respostaAtual.resposta}
                 certeza={respostaAtual.certeza}
                 autoexplicacao={false}
+                nivelTitulo={2}
                 analise={PILOTO_RACIOCINIO.find(a => a.itemId === currentQuestion.id)}
                 onReverTeoria={subId => { setSelectedSubmodule(subId); setActiveView('teoria'); }}
               />

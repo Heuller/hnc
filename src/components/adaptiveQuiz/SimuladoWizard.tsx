@@ -72,7 +72,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
                     ? 'bg-accent text-accent-text border-accent shadow-xs'
                     : concluida
                     ? 'bg-accent/15 text-accent border-accent/30'
-                    : 'bg-surface-2 text-ink-2 border-border opacity-70'
+                    : 'bg-surface-2 text-ink-2 border-border hover:text-ink'
                 }`}
               >
                 <span>{step.id}.</span>
