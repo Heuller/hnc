@@ -35,6 +35,8 @@ export interface PainelEstudoReversoProps {
   certeza?: GrauCertezaCebraspe;
   /** Pausa de autoexplicação antes da fundamentação (desligue em relatórios de revisão em lote). */
   autoexplicacao?: boolean;
+  /** Nível do título (h2 quando o painel está direto sob o h1 da página; h3 por padrão). */
+  nivelTitulo?: 2 | 3;
   onReverTeoria?: (submoduloId: string) => void;
 }
 
@@ -59,9 +61,11 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
   resposta,
   certeza,
   autoexplicacao = true,
+  nivelTitulo = 3,
   onReverTeoria,
   analise,
 }) => {
+  const Titulo = `h${nivelTitulo}` as 'h2' | 'h3';
   const situacao = situacaoResposta(resposta, questao.gabarito);
   const [revelado, setRevelado] = useState(!(autoexplicacao && exigeAutoexplicacao(situacao, certeza)));
   const rotuloGabarito = questao.gabarito === 'C' ? 'CERTO' : 'ERRADO';
@@ -105,10 +109,10 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
   }
 
   return (
-    <section aria-label="Estudo reverso do item" className="space-y-3">
+    <div role="group" aria-label="Estudo reverso do item" className="space-y-3">
       {resposta && (
         <div className="p-4 rounded-xl border border-border bg-surface space-y-2">
-          <h3 className="m-0 text-sm font-bold text-ink">{situacao === 'acerto' ? 'Por que você acertou' : situacao === 'erro' ? 'Por que seu julgamento está incorreto' : 'Como resolver o item em branco'}</h3>
+          <Titulo className="m-0 text-sm font-bold text-ink">{situacao === 'acerto' ? 'Por que você acertou' : situacao === 'erro' ? 'Por que seu julgamento está incorreto' : 'Como resolver o item em branco'}</Titulo>
           <p className="m-0 text-sm text-ink leading-relaxed">
             {situacao === 'branco'
               ? `Você deixou em branco. O julgamento fundamentado é ${rotuloGabarito}. Confira a regra abaixo e tente explicar sua aplicação ao enunciado.`
@@ -167,7 +171,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
 
       {raciocinio && (
         <div className="p-4 rounded-xl border border-accent/30 bg-accent-soft space-y-3">
-          <h3 className="m-0 text-sm font-bold">Como chegar ao julgamento</h3>
+          <Titulo className="m-0 text-sm font-bold">Como chegar ao julgamento</Titulo>
           <p className="m-0 text-sm"><strong>Regra:</strong> {raciocinio.regra}</p>
           <ol className="list-decimal pl-5 space-y-2 text-sm">{raciocinio.passos.map(passo => <li key={passo}>{passo}</li>)}</ol>
           <a className="text-xs underline text-accent foco" href={raciocinio.fonte.url} target="_blank" rel="noopener noreferrer">{raciocinio.fonte.titulo} — {raciocinio.fonte.localizador}</a>
@@ -234,6 +238,6 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
           <span>Rever o assunto na teoria (submódulo {subId})</span>
         </button>
       )}
-    </section>
+    </div>
   );
 };

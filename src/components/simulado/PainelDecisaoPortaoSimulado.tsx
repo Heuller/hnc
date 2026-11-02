@@ -105,11 +105,11 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
               </span>
             </div>
 
-            <h3 className="text-lg sm:text-xl font-serif font-bold text-ink">
+            <h2 className="text-lg sm:text-xl font-serif font-bold text-ink">
               {isAprovado
                 ? `Módulo ${proximoModuloNumero} Liberado com Sucesso!`
                 : `Aproveitamento Insuficiente para Liberação do Módulo ${proximoModuloNumero}`}
-            </h3>
+            </h2>
 
             <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed">
               {isAprovado

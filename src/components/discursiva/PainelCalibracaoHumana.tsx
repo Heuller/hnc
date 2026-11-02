@@ -123,9 +123,9 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
             <UserCheck className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="text-base font-serif font-bold text-ink">
+            <h2 className="text-base font-serif font-bold text-ink">
               Autocorreção e Calibração Humana (Régua Cebraspe)
-            </h3>
+            </h2>
             <p className="text-xs text-ink-2">
               Edital nº 1/2026: NQ = NC − 3×(NE/TL) e NPT = NC − 6×(NE/TL). Treino com a rubrica 11/3/1.
             </p>
@@ -249,7 +249,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
           <div className="p-4 rounded-xl bg-surface-2/40 border border-border space-y-2">
             <div className="flex items-center justify-between">
               <div>
-                <h4 className="text-xs font-bold text-ink font-serif">1. Cobertura de Aspectos do Comando</h4>
+                <h3 className="text-xs font-bold text-ink font-serif">1. Cobertura de Aspectos do Comando</h3>
                 <p className="text-xs text-ink-2">Cobriu todos os aspectos obrigatórios do comando da questão/peça?</p>
               </div>
               <span className="text-sm font-mono font-bold text-purple-700 dark:text-purple-300">
@@ -275,7 +275,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
           <div className="p-4 rounded-xl bg-surface-2/40 border border-border space-y-2">
             <div className="flex items-center justify-between">
               <div>
-                <h4 className="text-xs font-bold text-ink font-serif">2. Profundidade Conceitual</h4>
+                <h3 className="text-xs font-bold text-ink font-serif">2. Profundidade Conceitual</h3>
                 <p className="text-xs text-ink-2">Cada aspecto possui definição precisa + explicação do porquê + exemplo concreto?</p>
               </div>
               <span className="text-sm font-mono font-bold text-purple-700 dark:text-purple-300">
@@ -301,7 +301,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
           <div className="p-4 rounded-xl bg-surface-2/40 border border-border space-y-2">
             <div className="flex items-center justify-between">
               <div>
-                <h4 className="text-xs font-bold text-ink font-serif">3. Apresentação e Estrutura</h4>
+                <h3 className="text-xs font-bold text-ink font-serif">3. Apresentação e Estrutura</h3>
                 <p className="text-xs text-ink-2">Parágrafos bem delimitados, tese expressa na abertura (linhas 1–2), sem rasuras.</p>
               </div>
               <span className="text-sm font-mono font-bold text-purple-700 dark:text-purple-300">
@@ -349,7 +349,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
                 <div key={idx} className="p-4 rounded-xl bg-surface-2/40 border border-border space-y-3">
                   <div className="flex items-start justify-between gap-3">
                     <div className="space-y-0.5">
-                      <h4 className="text-xs font-bold text-ink font-serif">{crit.item}</h4>
+                      <h3 className="text-xs font-bold text-ink font-serif">{crit.item}</h3>
                       <p className="text-xs text-ink-2 leading-relaxed">{crit.descricaoEsperada}</p>
                     </div>
                     <div className="text-right shrink-0">
