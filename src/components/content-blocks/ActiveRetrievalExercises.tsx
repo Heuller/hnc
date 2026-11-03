@@ -214,7 +214,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
           <button
             type="button"
             onClick={() => setActiveTab('associacao')}
-            className={`py-1 px-2.5 rounded-lg text-xs font-sans font-semibold transition-all cursor-pointer ${
+            className={`py-1 px-2.5 rounded-lg text-xs font-sans font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               activeTab === 'associacao'
                 ? 'bg-surface text-ink shadow-xs border border-border/80'
                 : 'text-ink-2 hover:text-ink'
@@ -225,7 +225,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
           <button
             type="button"
             onClick={() => setActiveTab('cronologia')}
-            className={`py-1 px-2.5 rounded-lg text-xs font-sans font-semibold transition-all cursor-pointer ${
+            className={`py-1 px-2.5 rounded-lg text-xs font-sans font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               activeTab === 'cronologia'
                 ? 'bg-surface text-ink shadow-xs border border-border/80'
                 : 'text-ink-2 hover:text-ink'
@@ -236,7 +236,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
           <button
             type="button"
             onClick={() => setActiveTab('armadilha')}
-            className={`py-1 px-2.5 rounded-lg text-xs font-sans font-semibold transition-all cursor-pointer ${
+            className={`py-1 px-2.5 rounded-lg text-xs font-sans font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               activeTab === 'armadilha'
                 ? 'bg-surface text-ink shadow-xs border border-border/80'
                 : 'text-ink-2 hover:text-ink'

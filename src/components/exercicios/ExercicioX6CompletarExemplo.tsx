@@ -122,7 +122,7 @@ export const ExercicioX6CompletarExemplo: React.FC<ExercicioProps<ExercicioX6>> 
                 type="button"
                 disabled={isRespondido || disabled}
                 onClick={() => handleSelect(opcao)}
-                className={`p-3 rounded-xl border text-left font-mono text-xs sm:text-sm transition-all flex items-center justify-between cursor-pointer ${
+                className={`p-3 rounded-xl border text-left font-mono text-xs sm:text-sm transition-[color,background-color,border-color,transform,translate,scale,rotate] flex items-center justify-between cursor-pointer ${
                   isSelected
                     ? isGabarito
                       ? 'bg-ok-soft border-ok text-ok font-bold'

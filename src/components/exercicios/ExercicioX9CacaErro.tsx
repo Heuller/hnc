@@ -105,7 +105,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
                 type="button"
                 disabled={isRespondido || disabled}
                 onClick={() => handleSelectFrase(idx)}
-                className={`w-full min-h-[44px] p-3 rounded-xl border text-left text-xs sm:text-sm font-serif leading-relaxed transition-all flex items-start gap-3 cursor-pointer ${
+                className={`w-full min-h-[44px] p-3 rounded-xl border text-left text-xs sm:text-sm font-serif leading-relaxed transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-start gap-3 cursor-pointer ${
                   isSelected
                     ? isCorreta
                       ? 'bg-ok-soft border-ok text-ink font-semibold shadow-2xs'

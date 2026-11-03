@@ -150,7 +150,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
         <button
           type="button"
           onClick={() => setModoAutocorrecao('rubrica_11_3_1')}
-          className={`flex items-center gap-1.5 px-3 py-2 text-xs font-mono font-bold border-b-2 transition-all cursor-pointer ${
+          className={`flex items-center gap-1.5 px-3 py-2 text-xs font-mono font-bold border-b-2 transition-colors cursor-pointer ${
             modoAutocorrecao === 'rubrica_11_3_1'
               ? 'border-purple-600 text-purple-700 dark:text-purple-300 bg-purple-500/5'
               : 'border-transparent text-ink-2 hover:text-ink'
@@ -163,7 +163,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
         <button
           type="button"
           onClick={() => setModoAutocorrecao('quesitos_padrao')}
-          className={`flex items-center gap-1.5 px-3 py-2 text-xs font-mono font-bold border-b-2 transition-all cursor-pointer ${
+          className={`flex items-center gap-1.5 px-3 py-2 text-xs font-mono font-bold border-b-2 transition-colors cursor-pointer ${
             modoAutocorrecao === 'quesitos_padrao'
               ? 'border-purple-600 text-purple-700 dark:text-purple-300 bg-purple-500/5'
               : 'border-transparent text-ink-2 hover:text-ink'
@@ -370,7 +370,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
                         key={c.valor}
                         type="button"
                         onClick={() => handleMudarConceito(idx, c.valor)}
-                        className={`px-2 py-1.5 rounded-lg border text-center transition-all cursor-pointer ${
+                        className={`px-2 py-1.5 rounded-lg border text-center transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                           conceitoAtual === c.valor
                             ? 'bg-purple-600 text-white font-bold border-purple-700 shadow-xs'
                             : 'bg-surface hover:bg-surface-2 border-border text-ink-2'

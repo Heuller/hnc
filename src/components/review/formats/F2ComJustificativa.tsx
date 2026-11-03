@@ -49,7 +49,7 @@ export const F2ComJustificativa: React.FC<ExerciseFormatProps> = ({
             type="button"
             disabled={disabled || respondido}
             onClick={() => setJulgamento('C')}
-            className={`p-3 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold transition-all cursor-pointer ${
+            className={`p-3 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               julgamento === 'C'
                 ? 'border-emerald-600 bg-emerald-500/10 text-emerald-950 dark:text-emerald-100 ring-2 ring-emerald-500/20'
                 : 'border-border bg-surface hover:border-emerald-500/40 text-ink'
@@ -63,7 +63,7 @@ export const F2ComJustificativa: React.FC<ExerciseFormatProps> = ({
             type="button"
             disabled={disabled || respondido}
             onClick={() => setJulgamento('E')}
-            className={`p-3 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold transition-all cursor-pointer ${
+            className={`p-3 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               julgamento === 'E'
                 ? 'border-rose-600 bg-rose-500/10 text-rose-950 dark:text-rose-100 ring-2 ring-rose-500/20'
                 : 'border-border bg-surface hover:border-rose-500/40 text-ink'
@@ -92,7 +92,7 @@ export const F2ComJustificativa: React.FC<ExerciseFormatProps> = ({
                   type="button"
                   disabled={disabled || respondido}
                   onClick={() => handleConfirmar(just)}
-                  className={`w-full p-3 rounded-xl border text-left text-xs sm:text-sm font-serif leading-relaxed transition-all cursor-pointer ${
+                  className={`w-full p-3 rounded-xl border text-left text-xs sm:text-sm font-serif leading-relaxed transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                     isSelected
                       ? 'border-accent bg-accent/5 ring-1 ring-accent text-ink'
                       : 'border-border bg-surface hover:border-accent/40 text-ink-2 hover:text-ink'

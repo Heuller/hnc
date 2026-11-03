@@ -535,7 +535,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                 <button
                   type="button"
                   onClick={() => handleResponder('C')}
-                  className={`p-3 sm:p-3.5 rounded-xl border text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-all cursor-pointer ${
+                  className={`p-3 sm:p-3.5 rounded-xl border text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                     respostas[currentItem.id] === 'C'
                       ? 'bg-emerald-500/15 border-emerald-500 text-emerald-700 dark:text-emerald-300 shadow-2xs'
                       : 'bg-surface hover:bg-surface-2 border-border text-ink'
@@ -548,7 +548,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                 <button
                   type="button"
                   onClick={() => handleResponder('E')}
-                  className={`p-3 sm:p-3.5 rounded-xl border text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-all cursor-pointer ${
+                  className={`p-3 sm:p-3.5 rounded-xl border text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                     respostas[currentItem.id] === 'E'
                       ? 'bg-rose-500/15 border-rose-500 text-rose-700 dark:text-rose-300 shadow-2xs'
                       : 'bg-surface hover:bg-surface-2 border-border text-ink'
@@ -561,7 +561,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                 <button
                   type="button"
                   onClick={() => handleResponder('BRANCO')}
-                  className={`p-3 sm:p-3.5 rounded-xl border text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-all cursor-pointer ${
+                  className={`p-3 sm:p-3.5 rounded-xl border text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-colors cursor-pointer ${
                     respostas[currentItem.id] === 'BRANCO'
                       ? 'bg-ink/10 border-ink-2 text-ink'
                       : 'bg-surface hover:bg-surface-2 border-border text-ink-2'

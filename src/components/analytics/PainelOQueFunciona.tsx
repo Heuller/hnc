@@ -530,7 +530,7 @@ export const PainelOQueFunciona: React.FC = () => {
           return (
             <div
               key={item.id}
-              className="p-5 rounded-xl bg-surface border border-border hover:border-border-strong transition-all space-y-3 flex flex-col justify-between"
+              className="p-5 rounded-xl bg-surface border border-border hover:border-border-strong transition-colors space-y-3 flex flex-col justify-between"
             >
               <div className="space-y-2">
                 <div className="flex items-center justify-between gap-2">

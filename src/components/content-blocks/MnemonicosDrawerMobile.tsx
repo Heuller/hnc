@@ -41,7 +41,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
           {trigger || (
             <button
               type="button"
-              className="flex items-center gap-1 px-2 py-1 rounded-lg bg-accent text-accent-text shadow-2xs font-sans font-bold text-xs active:scale-95 transition-all cursor-pointer border border-accent/40 shrink-0"
+              className="flex items-center gap-1 px-2 py-1 rounded-lg bg-accent text-accent-text shadow-2xs font-sans font-bold text-xs active:scale-95 transition-[transform,translate,scale,rotate] cursor-pointer border border-accent/40 shrink-0"
               aria-label="Abrir Resumo e Mnemônicos"
             >
               <Sparkles className="w-3.5 h-3.5 shrink-0" />

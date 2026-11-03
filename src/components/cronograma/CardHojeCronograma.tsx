@@ -275,7 +275,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
                 return (
                   <div
                     key={sub.id}
-                    className={`p-4 rounded-xl border transition-all flex flex-col justify-between gap-3 ${
+                    className={`p-4 rounded-xl border transition-colors flex flex-col justify-between gap-3 ${
                       isConcluido
                         ? 'bg-ok-soft/30 border-ok/40 hover:border-ok'
                         : 'bg-surface-2/40 border-border hover:border-accent/40'
@@ -314,7 +314,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
                     <button
                       type="button"
                       onClick={() => handleAbrirSubmodulo(sub.id)}
-                      className={`w-full py-2 px-3 rounded-lg font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-2xs ${
+                      className={`w-full py-2 px-3 rounded-lg font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-2xs ${
                         isConcluido
                           ? 'bg-surface hover:bg-surface-2 text-ink border border-border'
                           : 'bg-accent hover:bg-accent-hover text-accent-text'
@@ -397,7 +397,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
             <button
               type="button"
               onClick={() => setCurrentRoute('treinos')}
-              className="py-2.5 px-4 rounded-xl bg-surface hover:bg-surface-2 border border-border hover:border-accent text-ink font-sans font-semibold text-xs flex items-center justify-center gap-2 shrink-0 transition-all cursor-pointer shadow-2xs"
+              className="py-2.5 px-4 rounded-xl bg-surface hover:bg-surface-2 border border-border hover:border-accent text-ink font-sans font-semibold text-xs flex items-center justify-center gap-2 shrink-0 transition-colors cursor-pointer shadow-2xs"
             >
               <Clock className="w-3.5 h-3.5 text-accent" />
               <span>Iniciar Abertura (25 min)</span>

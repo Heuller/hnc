@@ -31,7 +31,7 @@ export const F7FlashcardAtivo: React.FC<ExerciseFormatProps> = ({
         <button
           type="button"
           onClick={() => setRevelado(true)}
-          className="w-full p-4 rounded-xl border border-dashed border-accent/60 bg-accent/5 hover:bg-accent/10 text-accent font-sans font-bold text-sm flex items-center justify-center gap-2 transition-all cursor-pointer"
+          className="w-full p-4 rounded-xl border border-dashed border-accent/60 bg-accent/5 hover:bg-accent/10 text-accent font-sans font-bold text-sm flex items-center justify-center gap-2 transition-colors cursor-pointer"
         >
           <Eye className="w-4 h-4" />
           <span>Revelar Assertiva da Banca e Julgar</span>
@@ -52,7 +52,7 @@ export const F7FlashcardAtivo: React.FC<ExerciseFormatProps> = ({
               type="button"
               disabled={disabled || respondido}
               onClick={() => onResponder('C')}
-              className={`p-3.5 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-all cursor-pointer ${
+              className={`p-3.5 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                 respostaSelecionada === 'C'
                   ? 'border-emerald-600 bg-emerald-500/10 text-emerald-950 dark:text-emerald-100 ring-2 ring-emerald-500/20'
                   : 'border-border bg-surface hover:border-emerald-500/50 text-ink'
@@ -66,7 +66,7 @@ export const F7FlashcardAtivo: React.FC<ExerciseFormatProps> = ({
               type="button"
               disabled={disabled || respondido}
               onClick={() => onResponder('E')}
-              className={`p-3.5 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-all cursor-pointer ${
+              className={`p-3.5 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                 respostaSelecionada === 'E'
                   ? 'border-rose-600 bg-rose-500/10 text-rose-950 dark:text-rose-100 ring-2 ring-rose-500/20'
                   : 'border-border bg-surface hover:border-rose-500/50 text-ink'

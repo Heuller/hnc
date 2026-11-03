@@ -86,7 +86,7 @@ export const AvisoNovaVersaoSW: React.FC = () => {
           aria-disabled={simuladoEmCurso || escritaAtiva}
           onClick={handleAtualizar}
           data-testid="btn-atualizar-sw"
-          className={`min-h-[44px] px-3.5 py-1.5 rounded-lg text-xs font-sans font-semibold transition-all ${
+          className={`min-h-[44px] px-3.5 py-1.5 rounded-lg text-xs font-sans font-semibold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] ${
             simuladoEmCurso || escritaAtiva
               ? 'bg-surface-2 text-ink-2/50 border border-border cursor-not-allowed'
               : 'bg-accent text-surface hover:bg-accent/90 active:scale-95 shadow-xs'

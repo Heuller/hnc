@@ -222,7 +222,7 @@ export const DevRascunhosPage: React.FC = () => {
             return (
               <div 
                 key={draft.id}
-                className="card-editorial p-5 sm:p-6 space-y-4 border border-border hover:border-border-strong transition-all relative overflow-hidden"
+                className="card-editorial p-5 sm:p-6 space-y-4 border border-border hover:border-border-strong transition-colors relative overflow-hidden"
               >
                 {/* Faixa lateral indicativa de gabarito */}
                 <div 

@@ -25,7 +25,7 @@ export const CartaoAutorGrid: React.FC<CartaoAutorProps> = ({ autores, className
           <div
             key={autor.nome}
             onClick={() => toggleExpand(autor.nome)}
-            className="h-full bg-surface rounded-xl border border-border p-4.5 shadow-xs hover:border-accent/40 cursor-pointer transition-all duration-200 flex flex-col justify-between"
+            className="h-full bg-surface rounded-xl border border-border p-4.5 shadow-xs hover:border-accent/40 cursor-pointer transition-colors duration-200 flex flex-col justify-between"
           >
             <div>
               {/* Top row: Nome + Ano */}

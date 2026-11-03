@@ -80,7 +80,7 @@ export const UserMenuDropdown: React.FC = () => {
             setIsOpen((prev) => !prev);
           }
         }}
-        className={`flex items-center gap-1.5 py-1 px-2 sm:px-2.5 rounded-lg border text-xs font-sans font-semibold transition-all cursor-pointer min-h-[38px] select-none shrink-0 ${
+        className={`flex items-center gap-1.5 py-1 px-2 sm:px-2.5 rounded-lg border text-xs font-sans font-semibold transition-[color,background-color,border-color,opacity,box-shadow] cursor-pointer min-h-[38px] select-none shrink-0 ${
           user
             ? 'bg-surface-2 border-border text-ink hover:border-accent shadow-2xs'
             : 'bg-primary hover:opacity-95 text-primary-text shadow-2xs'

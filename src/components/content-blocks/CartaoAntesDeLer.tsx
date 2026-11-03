@@ -56,7 +56,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
             return (
               <div
                 key={`${item.termo}-${idx}`}
-                className={`p-3.5 rounded-xl border transition-all ${
+                className={`p-3.5 rounded-xl border transition-[background-color,border-color,opacity,box-shadow] ${
                   jaSei
                     ? 'bg-surface-2/40 border-border opacity-70'
                     : 'bg-surface border-amber-500/25 shadow-2xs'

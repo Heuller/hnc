@@ -117,7 +117,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
           type="button"
           disabled={isRespondido || disabled}
           onClick={() => handleSelect('A')}
-          className={`min-h-[50px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-all flex items-center justify-between cursor-pointer ${
+          className={`min-h-[50px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-between cursor-pointer ${
             resposta === 'A'
               ? acertou
                 ? 'bg-ok text-on-ok border-ok shadow-xs font-bold'
@@ -142,7 +142,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
           type="button"
           disabled={isRespondido || disabled}
           onClick={() => handleSelect('B')}
-          className={`min-h-[50px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-all flex items-center justify-between cursor-pointer ${
+          className={`min-h-[50px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-between cursor-pointer ${
             resposta === 'B'
               ? acertou
                 ? 'bg-ok text-on-ok border-ok shadow-xs font-bold'

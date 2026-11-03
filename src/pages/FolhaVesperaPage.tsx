@@ -156,7 +156,7 @@ export const FolhaVesperaPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setActiveTab('blocos')}
-            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               activeTab === 'blocos'
                 ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
@@ -169,7 +169,7 @@ export const FolhaVesperaPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setActiveTab('progresso')}
-            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               activeTab === 'progresso'
                 ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
@@ -182,7 +182,7 @@ export const FolhaVesperaPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setActiveTab('mnemonicos')}
-            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
               activeTab === 'mnemonicos'
                 ? 'bg-accent text-accent-text shadow-sm'
                 : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
@@ -249,7 +249,7 @@ export const FolhaVesperaPage: React.FC = () => {
             <button
               type="button"
               onClick={() => setModoTreinoAtivo(!modoTreinoAtivo)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 transition-[color,background-color,box-shadow] cursor-pointer ${
                 modoTreinoAtivo
                   ? 'bg-ok text-on-ok shadow-xs'
                   : 'bg-accent text-accent-text shadow-xs'

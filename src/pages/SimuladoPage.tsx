@@ -446,7 +446,7 @@ export const SimuladoPage: React.FC = () => {
         <button
           type="button"
           onClick={() => setCategoriaSimuladoFiltro('todos')}
-          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer whitespace-nowrap ${
             categoriaSimuladoFiltro === 'todos'
               ? 'bg-surface text-ink shadow-xs border border-border'
               : 'text-ink-2 hover:text-ink'
@@ -457,7 +457,7 @@ export const SimuladoPage: React.FC = () => {
         <button
           type="button"
           onClick={() => setCategoriaSimuladoFiltro('especificos')}
-          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer whitespace-nowrap ${
             categoriaSimuladoFiltro === 'especificos'
               ? 'bg-surface text-ink shadow-xs border border-border'
               : 'text-ink-2 hover:text-ink'
@@ -468,7 +468,7 @@ export const SimuladoPage: React.FC = () => {
         <button
           type="button"
           onClick={() => setCategoriaSimuladoFiltro('basicos')}
-          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer whitespace-nowrap ${
             categoriaSimuladoFiltro === 'basicos'
               ? 'bg-surface text-ink shadow-xs border border-border'
               : 'text-ink-2 hover:text-ink'
@@ -479,7 +479,7 @@ export const SimuladoPage: React.FC = () => {
         <button
           type="button"
           onClick={() => setCategoriaSimuladoFiltro('especiais')}
-          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer whitespace-nowrap ${
             categoriaSimuladoFiltro === 'especiais'
               ? 'bg-surface text-ink shadow-xs border border-border'
               : 'text-ink-2 hover:text-ink'
@@ -513,7 +513,7 @@ export const SimuladoPage: React.FC = () => {
                   }
                 }
               }}
-              className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                 isSelected
                   ? 'bg-accent text-accent-text shadow-xs'
                   : 'text-ink-2 hover:text-ink hover:bg-surface-2'
@@ -1208,7 +1208,7 @@ export const SimuladoPage: React.FC = () => {
                       return (
                         <div
                           key={q.id}
-                          className={`p-4 sm:p-5 rounded-xl border transition-all print:break-inside-avoid print:bg-white print:border-gray-300 ${
+                          className={`p-4 sm:p-5 rounded-xl border transition-colors print:break-inside-avoid print:bg-white print:border-gray-300 ${
                             isErro
                               ? 'bg-err-soft/15 border-err/40'
                               : isBranco
@@ -1485,7 +1485,7 @@ export const SimuladoPage: React.FC = () => {
                 disabled={isItemRespondido}
                 aria-disabled={isItemRespondido}
                 onClick={() => setCertezaSelecionada('certeza')}
-                className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-all ${
+                className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-[color,background-color,border-color,opacity,box-shadow] ${
                   isItemRespondido ? 'cursor-not-allowed opacity-80' : ''
                 } ${
                   certezaSelecionada === 'certeza'
@@ -1500,7 +1500,7 @@ export const SimuladoPage: React.FC = () => {
                 disabled={isItemRespondido}
                 aria-disabled={isItemRespondido}
                 onClick={() => setCertezaSelecionada('provavel')}
-                className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-all ${
+                className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-[color,background-color,border-color,opacity,box-shadow] ${
                   isItemRespondido ? 'cursor-not-allowed opacity-80' : ''
                 } ${
                   certezaSelecionada === 'provavel'
@@ -1515,7 +1515,7 @@ export const SimuladoPage: React.FC = () => {
                 disabled={isItemRespondido}
                 aria-disabled={isItemRespondido}
                 onClick={() => setCertezaSelecionada('chute')}
-                className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-all ${
+                className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-[color,background-color,border-color,opacity,box-shadow] ${
                   isItemRespondido ? 'cursor-not-allowed opacity-80' : ''
                 } ${
                   certezaSelecionada === 'chute'
@@ -1535,7 +1535,7 @@ export const SimuladoPage: React.FC = () => {
               disabled={isItemRespondido}
               aria-disabled={isItemRespondido}
               onClick={() => handleJulgar('C')}
-              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-all ${
+              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-[color,background-color,border-color,opacity,box-shadow,transform,translate,scale,rotate] ${
                 isItemRespondido ? 'cursor-not-allowed opacity-90' : 'active:scale-98'
               } ${
                 respostaAtual?.resposta === 'C'
@@ -1555,7 +1555,7 @@ export const SimuladoPage: React.FC = () => {
               disabled={isItemRespondido}
               aria-disabled={isItemRespondido}
               onClick={() => handleJulgar('E')}
-              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-all ${
+              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-[color,background-color,border-color,opacity,box-shadow,transform,translate,scale,rotate] ${
                 isItemRespondido ? 'cursor-not-allowed opacity-90' : 'active:scale-98'
               } ${
                 respostaAtual?.resposta === 'E'
@@ -1575,7 +1575,7 @@ export const SimuladoPage: React.FC = () => {
               disabled={isItemRespondido}
               aria-disabled={isItemRespondido}
               onClick={() => handleJulgar('BRANCO')}
-              className={`py-3.5 px-4 rounded-xl font-sans font-medium text-sm flex items-center justify-center gap-2 border-2 transition-all ${
+              className={`py-3.5 px-4 rounded-xl font-sans font-medium text-sm flex items-center justify-center gap-2 border-2 transition-[color,background-color,border-color,opacity,box-shadow,transform,translate,scale,rotate] ${
                 isItemRespondido ? 'cursor-not-allowed opacity-90' : 'active:scale-98'
               } ${
                 respostaAtual?.resposta === 'BRANCO'

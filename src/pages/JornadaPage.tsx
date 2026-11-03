@@ -296,7 +296,7 @@ export const JornadaPage: React.FC = () => {
             aria-label="Trilha Específica · M1 a M10"
             aria-selected={abaTrilha === 'especificos'}
             onClick={() => setAbaTrilha('especificos')}
-            className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+            className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer flex items-center justify-center gap-1.5 ${
               abaTrilha === 'especificos'
                 ? 'bg-surface text-ink shadow-xs border border-border'
                 : 'text-ink-2 hover:text-ink'
@@ -314,7 +314,7 @@ export const JornadaPage: React.FC = () => {
             aria-label="Acervo Complementar · Trilha Complementar · M11 a M14"
             aria-selected={abaTrilha === 'complementar'}
             onClick={() => setAbaTrilha('complementar')}
-            className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+            className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer flex items-center justify-center gap-1.5 ${
               abaTrilha === 'complementar'
                 ? 'bg-surface text-ink shadow-xs border border-border'
                 : 'text-ink-2 hover:text-ink'
@@ -390,7 +390,7 @@ export const JornadaPage: React.FC = () => {
                     return (
                       <div
                         key={sub.id}
-                        className={`rounded-xl border p-4 flex flex-col justify-between gap-3 transition-all relative ${
+                        className={`rounded-xl border p-4 flex flex-col justify-between gap-3 transition-[background-color,border-color,box-shadow] relative ${
                           isConcluida
                             ? 'bg-surface-2/30 border-emerald-500/30'
                             : isRevisaoDirigida
@@ -711,7 +711,7 @@ export const JornadaPage: React.FC = () => {
                     {submodulos.map((sub) => (
                       <div
                         key={sub.id}
-                        className="rounded-xl border border-border p-4 bg-surface hover:bg-surface-2/40 flex flex-col justify-between gap-3 shadow-2xs transition-all"
+                        className="rounded-xl border border-border p-4 bg-surface hover:bg-surface-2/40 flex flex-col justify-between gap-3 shadow-2xs transition-colors"
                       >
                         <div className="space-y-2">
                           <div className="flex items-center justify-between gap-2">

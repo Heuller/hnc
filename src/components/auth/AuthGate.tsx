@@ -219,7 +219,7 @@ export const AuthGate: React.FC = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Usuário ou e-mail"
-                    className="min-h-[48px] w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
+                    className="min-h-[48px] w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-[color,border-color,box-shadow,outline-color]"
                   />
                 </div>
               </div>
@@ -252,7 +252,7 @@ export const AuthGate: React.FC = () => {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       placeholder="Sua senha"
-                      className="min-h-[48px] w-full pl-9 pr-9 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
+                      className="min-h-[48px] w-full pl-9 pr-9 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-[color,border-color,box-shadow,outline-color]"
                     />
                     <button
                       type="button"
@@ -270,7 +270,7 @@ export const AuthGate: React.FC = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full py-2.5 rounded-xl bg-primary hover:opacity-95 text-primary-text font-bold text-xs flex items-center justify-center gap-2 transition-all disabled:opacity-50 cursor-pointer shadow-editorial-md focus:outline-hidden focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  className="w-full py-2.5 rounded-xl bg-primary hover:opacity-95 text-primary-text font-bold text-xs flex items-center justify-center gap-2 transition-[opacity,box-shadow,outline-color] disabled:opacity-50 cursor-pointer shadow-editorial-md focus:outline-hidden focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 >
                   {loading ? (
                     <>

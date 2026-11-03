@@ -492,7 +492,7 @@ export const TeoriaPage: React.FC = () => {
                       key={etapa.id}
                       type="button"
                       onClick={() => scrollToAnchor(etapa.id)}
-                      className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
+                      className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-colors text-ink font-semibold group cursor-pointer text-left"
                     >
                       <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
                         {etapa.num}
@@ -592,7 +592,7 @@ export const TeoriaPage: React.FC = () => {
                   type="button"
                   data-testid="btn-modo-canonica"
                   onClick={() => alternarModoTeoria('canonica')}
-                  className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
+                  className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-[color,background-color,border-color,box-shadow] cursor-pointer whitespace-nowrap ${
                     modoTeoriaAtivo === 'canonica'
                       ? 'bg-surface text-ink shadow-xs border border-border font-bold'
                       : 'text-ink-2 hover:text-ink'
@@ -608,7 +608,7 @@ export const TeoriaPage: React.FC = () => {
                   type="button"
                   data-testid="btn-modo-didatica"
                   onClick={() => alternarModoTeoria('didatica')}
-                  className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
+                  className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-[color,background-color,box-shadow] cursor-pointer whitespace-nowrap ${
                     modoTeoriaAtivo === 'didatica'
                       ? 'bg-accent text-accent-text shadow-xs font-bold'
                       : 'text-ink-2 hover:text-ink'
@@ -829,7 +829,7 @@ export const TeoriaPage: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => navigateToSimulado(simuladoDoMacro.id)}
-                    className="w-full sm:w-auto py-3.5 px-6 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-sans font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 transition-all shadow-md active:scale-98 cursor-pointer shrink-0"
+                    className="w-full sm:w-auto py-3.5 px-6 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-sans font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 transition-[background-color,transform,translate,scale,rotate] shadow-md active:scale-98 cursor-pointer shrink-0"
                   >
                     <span>Iniciar Simulado ({simuladoDoMacro.questoes.length}Q)</span>
                     <ArrowRight className="w-5 h-5" />
@@ -848,7 +848,7 @@ export const TeoriaPage: React.FC = () => {
                   setSelectedSubmodule(prevSubNoMacro.numero);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-medium flex items-center justify-center gap-2 transition-all cursor-pointer"
+                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-medium flex items-center justify-center gap-2 transition-colors cursor-pointer"
               >
                 <ChevronLeft className="w-4 h-4" />
                 <span>Submódulo {prevSubNoMacro.numero}</span>
@@ -883,7 +883,7 @@ export const TeoriaPage: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => navigateToSimulado(rodapeNav.simuladoModuloId)}
-                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-text font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-accent/90"
+                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-text font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-colors shadow-xs cursor-pointer hover:bg-accent/90"
                 >
                   <span>
                     Ir ao simulado do M{rodapeNav.moduloNumero} ({getSimuladoById(rodapeNav.simuladoModuloId)?.questoes.length || 100} itens)
@@ -897,7 +897,7 @@ export const TeoriaPage: React.FC = () => {
                     setSelectedSubmodule(`${proximoModNum}.1`);
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer hover:border-accent"
+                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-colors cursor-pointer hover:border-accent"
                 >
                   <span>Começar Módulo {rodapeNav.moduloNumero + 1}</span>
                   <ChevronRight className="w-4 h-4" />
@@ -913,7 +913,7 @@ export const TeoriaPage: React.FC = () => {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }
                 }}
-                className="w-full sm:w-auto py-2.5 px-4 rounded-lg font-sans text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition-all bg-surface border border-border text-ink hover:border-accent cursor-pointer"
+                className="w-full sm:w-auto py-2.5 px-4 rounded-lg font-sans text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition-colors bg-surface border border-border text-ink hover:border-accent cursor-pointer"
               >
                 <span>Submódulo {rodapeNav.proximoSubmoduloNumero}</span>
                 <ChevronRight className="w-4 h-4" />
@@ -932,7 +932,7 @@ export const TeoriaPage: React.FC = () => {
             <button
               type="button"
               onClick={() => setLateralTab('sumario')}
-              className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
+              className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                 lateralTab === 'sumario'
                   ? 'bg-surface text-ink shadow-2xs border border-border/60'
                   : 'text-ink-2 hover:text-ink'
@@ -944,7 +944,7 @@ export const TeoriaPage: React.FC = () => {
             <button
               type="button"
               onClick={() => setLateralTab('mnemonicos')}
-              className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
+              className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
                 lateralTab === 'mnemonicos'
                   ? 'bg-surface text-ink shadow-2xs border border-border/60'
                   : 'text-ink-2 hover:text-ink'

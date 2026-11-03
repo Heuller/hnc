@@ -297,7 +297,7 @@ export const CadernoErrosPage: React.FC = () => {
             return (
               <div
                 key={item.id}
-                className="card-editorial p-5 sm:p-6 space-y-4 border border-border hover:border-border-strong transition-all relative overflow-hidden"
+                className="card-editorial p-5 sm:p-6 space-y-4 border border-border hover:border-border-strong transition-colors relative overflow-hidden"
               >
                 {/* Linha indicativa lateral */}
                 <div

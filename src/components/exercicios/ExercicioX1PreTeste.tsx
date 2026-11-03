@@ -87,7 +87,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
               type="button"
               disabled={isRespondido || disabled}
               onClick={() => handleSelect('C')}
-              className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 cursor-pointer border ${
+              className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-center gap-2 cursor-pointer border ${
                 resposta === 'C'
                   ? acertou
                     ? 'bg-ok text-on-ok border-ok shadow-xs'
@@ -106,7 +106,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
               type="button"
               disabled={isRespondido || disabled}
               onClick={() => handleSelect('E')}
-              className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 cursor-pointer border ${
+              className={`min-h-[48px] px-4 py-2.5 rounded-xl font-sans text-xs sm:text-sm font-bold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-center gap-2 cursor-pointer border ${
                 resposta === 'E'
                   ? acertou
                     ? 'bg-ok text-on-ok border-ok shadow-xs'
@@ -134,7 +134,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
                   type="button"
                   disabled={isRespondido || disabled}
                   onClick={() => handleSelect(opStr)}
-                  className={`w-full min-h-[44px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-all flex items-center justify-between cursor-pointer ${
+                  className={`w-full min-h-[44px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-[color,background-color,border-color,transform,translate,scale,rotate] flex items-center justify-between cursor-pointer ${
                     isSelected
                       ? isGabarito
                         ? 'bg-ok-soft border-ok text-ok font-bold'
