@@ -106,7 +106,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
           return (
             <div
               key={item.id}
-              className={`p-3.5 sm:p-4 rounded-xl border space-y-3 transition-all ${
+              className={`p-3.5 sm:p-4 rounded-xl border space-y-3 transition-colors ${
                 isItemRespondido
                   ? isItemCorreto
                     ? 'bg-ok-soft/30 border-ok/60'
@@ -139,7 +139,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
                   type="button"
                   disabled={isItemRespondido || disabled}
                   onClick={() => handleJulgarItem(item.id, 'C')}
-                  className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer border ${
+                  className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-bold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-center gap-1.5 cursor-pointer border ${
                     resp === 'C'
                       ? isItemCorreto
                         ? 'bg-ok text-on-ok border-ok shadow-xs'
@@ -157,7 +157,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
                   type="button"
                   disabled={isItemRespondido || disabled}
                   onClick={() => handleJulgarItem(item.id, 'E')}
-                  className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer border ${
+                  className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-bold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-center gap-1.5 cursor-pointer border ${
                     resp === 'E'
                       ? isItemCorreto
                         ? 'bg-ok text-on-ok border-ok shadow-xs'

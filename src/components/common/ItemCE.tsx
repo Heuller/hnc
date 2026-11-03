@@ -166,7 +166,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   return (
     <article
       ref={articleRef}
-      className="p-4 sm:p-5 rounded-xl border border-border bg-surface shadow-editorial-xs space-y-4 transition-all"
+      className="p-4 sm:p-5 rounded-xl border border-border bg-surface shadow-editorial-xs space-y-4 transition-colors"
       aria-labelledby={`item-titulo-${item.id}`}
     >
       {/* Barra Superior do Item: Contador e Badges de Estado */}
@@ -235,7 +235,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
           type="button"
           onClick={() => handleJulgamento('C')}
           disabled={isRespondido}
-          className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer ${
+          className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] duration-200 flex items-center justify-center gap-2 cursor-pointer ${
             respostaDada === 'C'
               ? isCorreto
                 ? 'bg-ok text-on-ok shadow-xs'
@@ -257,7 +257,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
           type="button"
           onClick={() => handleJulgamento('E')}
           disabled={isRespondido}
-          className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer ${
+          className={`min-h-[44px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] duration-200 flex items-center justify-center gap-2 cursor-pointer ${
             respostaDada === 'E'
               ? isCorreto
                 ? 'bg-ok text-on-ok shadow-xs'
@@ -280,7 +280,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
             type="button"
             onClick={() => handleJulgamento('BRANCO')}
             disabled={isRespondido}
-            className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-semibold transition-all duration-200 flex items-center justify-center gap-1.5 cursor-pointer ${
+            className={`min-h-[44px] px-3 py-2 rounded-lg font-sans text-xs font-semibold transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] duration-200 flex items-center justify-center gap-1.5 cursor-pointer ${
               respostaDada === 'BRANCO'
                 ? 'bg-ink text-surface shadow-xs'
                 : 'bg-surface-2 text-ink-2 border border-border hover:bg-surface'

@@ -734,7 +734,7 @@ export const DiscursivaPage: React.FC = () => {
             <button
               type="button"
               onClick={() => setAbaAtiva('ia')}
-              className={`flex items-center gap-2 px-4 py-2.5 text-xs font-mono font-bold border-b-2 transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2.5 text-xs font-mono font-bold border-b-2 transition-colors cursor-pointer ${
                 abaAtiva === 'ia'
                   ? 'border-purple-600 text-purple-700 dark:text-purple-300 bg-purple-500/5'
                   : 'border-transparent text-ink-2 hover:text-ink'
@@ -747,7 +747,7 @@ export const DiscursivaPage: React.FC = () => {
             <button
               type="button"
               onClick={() => setAbaAtiva('calibracao_humana')}
-              className={`flex items-center gap-2 px-4 py-2.5 text-xs font-mono font-bold border-b-2 transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2.5 text-xs font-mono font-bold border-b-2 transition-colors cursor-pointer ${
                 abaAtiva === 'calibracao_humana'
                   ? 'border-purple-600 text-purple-700 dark:text-purple-300 bg-purple-500/5'
                   : 'border-transparent text-ink-2 hover:text-ink'

@@ -38,7 +38,7 @@ export const F6CasoPratico: React.FC<ExerciseFormatProps> = ({
           type="button"
           disabled={disabled || respondido}
           onClick={() => onResponder('C')}
-          className={`p-3.5 sm:p-4 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-all cursor-pointer ${
+          className={`p-3.5 sm:p-4 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
             respostaSelecionada === 'C'
               ? 'border-emerald-600 bg-emerald-500/10 text-emerald-950 dark:text-emerald-100 ring-2 ring-emerald-500/20'
               : 'border-border bg-surface hover:border-emerald-500/50 hover:bg-emerald-500/5 text-ink'
@@ -52,7 +52,7 @@ export const F6CasoPratico: React.FC<ExerciseFormatProps> = ({
           type="button"
           disabled={disabled || respondido}
           onClick={() => onResponder('E')}
-          className={`p-3.5 sm:p-4 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-all cursor-pointer ${
+          className={`p-3.5 sm:p-4 rounded-xl border flex items-center justify-center gap-2 font-sans font-bold text-base transition-[color,background-color,border-color,box-shadow] cursor-pointer ${
             respostaSelecionada === 'E'
               ? 'border-rose-600 bg-rose-500/10 text-rose-950 dark:text-rose-100 ring-2 ring-rose-500/20'
               : 'border-border bg-surface hover:border-rose-500/50 hover:bg-rose-500/5 text-ink'

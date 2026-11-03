@@ -24,7 +24,7 @@ export const BottomNav: React.FC = () => {
               key={tab.id}
               type="button"
               onClick={() => setActiveView(tab.rotaPadrao)}
-              className={`relative flex flex-col items-center justify-center gap-1 transition-all select-none min-h-[44px] min-w-0 w-full py-1 px-0.5 cursor-pointer ${
+              className={`relative flex flex-col items-center justify-center gap-1 transition-colors select-none min-h-[44px] min-w-0 w-full py-1 px-0.5 cursor-pointer ${
                 isActive
                   ? 'text-ink font-bold'
                   : 'text-ink-2 hover:text-ink font-medium'

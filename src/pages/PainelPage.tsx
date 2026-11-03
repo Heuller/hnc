@@ -293,7 +293,7 @@ export const PainelPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setCurrentRoute('treinos')}
-            className="w-full mt-4 py-2 px-3 rounded-lg bg-surface-2 hover:bg-surface-3 border border-border text-ink hover:border-accent font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-all cursor-pointer"
+            className="w-full mt-4 py-2 px-3 rounded-lg bg-surface-2 hover:bg-surface-3 border border-border text-ink hover:border-accent font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
           >
             <RotateCcw className="w-3.5 h-3.5 text-accent" />
             <span>{pendentesHojeCount > 0 ? 'Iniciar Sessão de Revisão' : 'Abrir Treinos'}</span>
@@ -377,7 +377,7 @@ export const PainelPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setCurrentRoute('jornada')}
-            className="w-full mt-4 py-2 px-3 rounded-lg bg-surface-2 hover:bg-surface-3 border border-border text-ink hover:border-accent font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-all cursor-pointer"
+            className="w-full mt-4 py-2 px-3 rounded-lg bg-surface-2 hover:bg-surface-3 border border-border text-ink hover:border-accent font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
           >
             <Compass className="w-3.5 h-3.5 text-accent" />
             <span>Abrir Trilha de Domínio</span>
@@ -396,7 +396,7 @@ export const PainelPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setCurrentRoute('caderno-erros')}
-            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-err/40 transition-all text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
+            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-err/40 transition-colors text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
           >
             <div className="w-9 h-9 rounded-lg bg-err-soft text-err border border-err/20 flex items-center justify-center shrink-0">
               <BookMarked className="w-4 h-4" />
@@ -418,7 +418,7 @@ export const PainelPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setCurrentRoute('folha-vespera')}
-            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-accent/40 transition-all text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
+            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-accent/40 transition-colors text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
           >
             <div className="w-9 h-9 rounded-lg bg-accent-soft text-accent border border-accent/20 flex items-center justify-center shrink-0">
               <Zap className="w-4 h-4" />
@@ -435,7 +435,7 @@ export const PainelPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setCurrentRoute('discursiva')}
-            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-accent/40 transition-all text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
+            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-accent/40 transition-colors text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
           >
             <div className="w-9 h-9 rounded-lg bg-surface-2 text-ink border border-border flex items-center justify-center shrink-0">
               <PenTool className="w-4 h-4 text-accent" />
@@ -452,7 +452,7 @@ export const PainelPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setCurrentRoute('radar')}
-            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-accent/40 transition-all text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
+            className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-accent/40 transition-colors text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
           >
             <div className="w-9 h-9 rounded-lg bg-surface-2 text-ink border border-border flex items-center justify-center shrink-0">
               <Target className="w-4 h-4 text-accent" />

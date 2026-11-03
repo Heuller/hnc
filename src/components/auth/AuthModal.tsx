@@ -209,7 +209,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full py-2.5 rounded-lg bg-primary hover:opacity-95 text-primary-text font-bold text-xs flex items-center justify-center gap-2 transition-all disabled:opacity-50 cursor-pointer shadow-editorial-sm"
+                    className="w-full py-2.5 rounded-lg bg-primary hover:opacity-95 text-primary-text font-bold text-xs flex items-center justify-center gap-2 transition-opacity disabled:opacity-50 cursor-pointer shadow-editorial-sm"
                   >
                     {loading ? (
                       <>

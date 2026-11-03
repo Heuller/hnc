@@ -109,7 +109,7 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
               type="button"
               disabled={isRespondido || disabled}
               onClick={() => handleSelect(opcao)}
-              className={`w-full min-h-[48px] p-3.5 rounded-xl border text-left text-xs sm:text-sm font-sans transition-all flex items-start gap-3 cursor-pointer ${
+              className={`w-full min-h-[48px] p-3.5 rounded-xl border text-left text-xs sm:text-sm font-sans transition-[color,background-color,border-color,transform,translate,scale,rotate] flex items-start gap-3 cursor-pointer ${
                 isSelected
                   ? isGabarito
                     ? 'bg-ok-soft border-ok text-ok font-bold'

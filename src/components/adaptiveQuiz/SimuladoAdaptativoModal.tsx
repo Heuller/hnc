@@ -267,7 +267,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   <button
                     type="button"
                     onClick={() => handleMarcarResposta(itemAtual.id, 'C')}
-                    className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-all flex items-center justify-center gap-2 ${
+                    className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-center gap-2 ${
                       respostas[itemAtual.id]?.resposta === 'C'
                         ? 'bg-ok text-on-ok border-emerald-600 shadow-editorial-sm scale-[1.02]'
                         : 'bg-surface-2 text-ink hover:border-emerald-500/50 border-border'
@@ -280,7 +280,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   <button
                     type="button"
                     onClick={() => handleMarcarResposta(itemAtual.id, 'E')}
-                    className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-all flex items-center justify-center gap-2 ${
+                    className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-center gap-2 ${
                       respostas[itemAtual.id]?.resposta === 'E'
                         ? 'bg-rose-600 text-white border-rose-600 shadow-editorial-sm scale-[1.02]'
                         : 'bg-surface-2 text-ink hover:border-rose-500/50 border-border'
@@ -293,7 +293,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   <button
                     type="button"
                     onClick={() => handleMarcarResposta(itemAtual.id, 'BRANCO')}
-                    className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-all flex items-center justify-center gap-2 ${
+                    className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-[color,background-color,border-color,box-shadow,transform,translate,scale,rotate] flex items-center justify-center gap-2 ${
                       respostas[itemAtual.id]?.resposta === 'BRANCO'
                         ? 'bg-amber-600 text-white border-amber-600 shadow-editorial-sm scale-[1.02]'
                         : 'bg-surface-2 text-ink hover:border-amber-500/50 border-border'

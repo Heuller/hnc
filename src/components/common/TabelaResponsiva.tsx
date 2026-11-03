@@ -253,7 +253,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                     key={colIndex}
                     type="button"
                     onClick={() => setSelectedColumnIndex(colIndex)}
-                    className={`flex-1 min-w-[100px] text-center px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer min-h-[36px] ${
+                    className={`flex-1 min-w-[100px] text-center px-3 py-1.5 rounded-lg text-xs font-bold transition-[color,background-color,box-shadow] cursor-pointer min-h-[36px] ${
                       isSelected
                         ? 'bg-primary text-primary-text shadow-2xs'
                         : 'bg-transparent text-ink-2 hover:text-ink'

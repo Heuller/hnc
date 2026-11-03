@@ -26,7 +26,7 @@ export const MnemonicosTabs: React.FC<MnemonicosTabsProps> = ({
         <button
           type="button"
           onClick={() => setAbaAtiva('timeline')}
-          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-all whitespace-nowrap cursor-pointer ${
+          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-colors whitespace-nowrap cursor-pointer ${
             abaAtiva === 'timeline'
               ? 'text-ink font-bold'
               : 'text-ink-2 hover:text-ink font-medium'
@@ -49,7 +49,7 @@ export const MnemonicosTabs: React.FC<MnemonicosTabsProps> = ({
         <button
           type="button"
           onClick={() => setAbaAtiva('autores')}
-          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-all whitespace-nowrap cursor-pointer ${
+          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-colors whitespace-nowrap cursor-pointer ${
             abaAtiva === 'autores'
               ? 'text-ink font-bold'
               : 'text-ink-2 hover:text-ink font-medium'
@@ -72,7 +72,7 @@ export const MnemonicosTabs: React.FC<MnemonicosTabsProps> = ({
         <button
           type="button"
           onClick={() => setAbaAtiva('pegadinhas')}
-          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-all whitespace-nowrap cursor-pointer ${
+          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-colors whitespace-nowrap cursor-pointer ${
             abaAtiva === 'pegadinhas'
               ? 'text-ink font-bold'
               : 'text-ink-2 hover:text-ink font-medium'

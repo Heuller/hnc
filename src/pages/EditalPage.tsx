@@ -250,7 +250,7 @@ export const EditalPage: React.FC = () => {
               <div
                 id={eixo.id}
                 key={eixo.id}
-                className="bg-surface border border-border rounded-xl overflow-hidden transition-all shadow-editorial-xs"
+                className="bg-surface border border-border rounded-xl overflow-hidden transition-colors shadow-editorial-xs"
               >
                 <button
                   aria-expanded={isAberto} aria-controls={`conteudo-${eixo.id}`} onClick={() => setEixoAberto(isAberto ? '' : eixo.id)}

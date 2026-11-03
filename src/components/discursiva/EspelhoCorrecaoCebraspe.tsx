@@ -183,7 +183,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
             return (
               <div
                 key={idx}
-                className="rounded-xl border border-border bg-surface-2/30 overflow-hidden transition-all"
+                className="rounded-xl border border-border bg-surface-2/30 overflow-hidden transition-colors"
               >
                 <button
                   type="button"

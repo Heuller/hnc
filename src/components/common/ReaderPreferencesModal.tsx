@@ -75,7 +75,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                 <button
                   type="button"
                   onClick={() => setFontFamily('serif')}
-                  className={`p-3 rounded-xl border text-left cursor-pointer transition-all ${
+                  className={`p-3 rounded-xl border text-left cursor-pointer transition-[color,background-color,border-color,box-shadow] ${
                     fontFamily === 'serif'
                       ? 'bg-accent/10 border-accent text-accent font-bold ring-2 ring-accent/30'
                       : 'bg-surface-2/60 border-border text-ink hover:border-accent/40'
@@ -88,7 +88,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                 <button
                   type="button"
                   onClick={() => setFontFamily('sans')}
-                  className={`p-3 rounded-xl border text-left cursor-pointer transition-all ${
+                  className={`p-3 rounded-xl border text-left cursor-pointer transition-[color,background-color,border-color,box-shadow] ${
                     fontFamily === 'sans'
                       ? 'bg-accent/10 border-accent text-accent font-bold ring-2 ring-accent/30'
                       : 'bg-surface-2/60 border-border text-ink hover:border-accent/40'
@@ -117,7 +117,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                     key={opt.id}
                     type="button"
                     onClick={() => setFontSize(opt.id)}
-                    className={`py-2 px-3 rounded-xl border text-center cursor-pointer transition-all ${
+                    className={`py-2 px-3 rounded-xl border text-center cursor-pointer transition-colors ${
                       fontSize === opt.id
                         ? 'bg-accent/10 border-accent text-accent font-bold'
                         : 'bg-surface-2/60 border-border text-ink hover:border-accent/40'
@@ -147,7 +147,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                     key={opt.id}
                     type="button"
                     onClick={() => setColumnWidth(opt.id)}
-                    className={`py-2 px-3 rounded-xl border text-center cursor-pointer transition-all ${
+                    className={`py-2 px-3 rounded-xl border text-center cursor-pointer transition-colors ${
                       columnWidth === opt.id
                         ? 'bg-accent/10 border-accent text-accent font-bold'
                         : 'bg-surface-2/60 border-border text-ink hover:border-accent/40'

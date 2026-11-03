@@ -177,7 +177,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
             <button
               type="button"
               onClick={handleRevisaoDirigida}
-              className="p-4 rounded-xl bg-surface border border-border hover:border-accent text-left transition-all space-y-2 cursor-pointer group shadow-2xs"
+              className="p-4 rounded-xl bg-surface border border-border hover:border-accent text-left transition-colors space-y-2 cursor-pointer group shadow-2xs"
             >
               <div className="flex items-center gap-2 text-ink group-hover:text-accent">
                 <BookOpen className="w-4 h-4 text-accent" />
@@ -192,7 +192,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
             <button
               type="button"
               onClick={() => onRefazerErros(itensErradosIds)}
-              className="p-4 rounded-xl bg-surface border border-border hover:border-accent text-left transition-all space-y-2 cursor-pointer group shadow-2xs"
+              className="p-4 rounded-xl bg-surface border border-border hover:border-accent text-left transition-colors space-y-2 cursor-pointer group shadow-2xs"
             >
               <div className="flex items-center gap-2 text-ink group-hover:text-accent">
                 <RotateCcw className="w-4 h-4 text-accent" />
@@ -209,7 +209,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
             <button
               type="button"
               onClick={onNovoSimuladoCompleto}
-              className="p-4 rounded-xl bg-surface border border-border hover:border-accent text-left transition-all space-y-2 cursor-pointer group shadow-2xs"
+              className="p-4 rounded-xl bg-surface border border-border hover:border-accent text-left transition-colors space-y-2 cursor-pointer group shadow-2xs"
             >
               <div className="flex items-center gap-2 text-ink group-hover:text-accent">
                 <RefreshCw className="w-4 h-4 text-accent" />

@@ -64,7 +64,7 @@ export const Sidebar: React.FC = () => {
   if (sidebarCollapsed) {
     return (
       <aside
-        className="w-[72px] shrink-0 hidden lg:flex flex-col items-center bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100dvh-4rem)] py-4 transition-all scrollbar-thin space-y-3 select-none print:hidden"
+        className="w-[72px] shrink-0 hidden lg:flex flex-col items-center bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100dvh-4rem)] py-4 transition-colors scrollbar-thin space-y-3 select-none print:hidden"
         aria-label="Trilha de Módulos (Recolhida)"
       >
         <button
@@ -125,7 +125,7 @@ export const Sidebar: React.FC = () => {
                 />
 
                 {/* Tooltip flutuante no hover com indicador direcional */}
-                <div className="absolute left-[54px] top-1/2 -translate-y-1/2 bg-surface text-ink text-xs font-sans rounded-xl p-2.5 shadow-xl border border-border whitespace-nowrap opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all z-50">
+                <div className="absolute left-[54px] top-1/2 -translate-y-1/2 bg-surface text-ink text-xs font-sans rounded-xl p-2.5 shadow-xl border border-border whitespace-nowrap opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity z-50">
                   <div className="absolute -left-1.5 top-1/2 -translate-y-1/2 w-3 h-3 bg-surface border-l border-b border-border rotate-45" />
                   <div className="relative z-10">
                     <div className="flex items-center gap-1.5 mb-1">
@@ -285,7 +285,7 @@ export const Sidebar: React.FC = () => {
 
   return (
     <aside
-      className="w-[280px] shrink-0 hidden lg:block bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100dvh-4rem)] p-3.5 transition-all scrollbar-thin select-none print:hidden"
+      className="w-[280px] shrink-0 hidden lg:block bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100dvh-4rem)] p-3.5 transition-colors scrollbar-thin select-none print:hidden"
       aria-label="Trilha de Módulos do Curso"
     >
       <div className="space-y-5">

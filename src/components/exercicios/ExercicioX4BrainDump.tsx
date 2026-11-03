@@ -163,7 +163,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
               }}
               placeholder="Digite aqui livremente tudo o que você lembra sobre o tema: conceitos, autores, regras, marcos, diferenças..."
               rows={4}
-              className="w-full p-3 rounded-xl border border-border bg-surface-2/40 text-ink text-xs sm:text-sm font-sans foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 placeholder:text-ink-3 transition-all resize-y"
+              className="w-full p-3 rounded-xl border border-border bg-surface-2/40 text-ink text-xs sm:text-sm font-sans foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 placeholder:text-ink-3 transition-[color,box-shadow] resize-y"
               aria-label="Área de escrita livre do Brain Dump"
             />
           </div>
@@ -177,7 +177,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
               type="button"
               disabled={disabled || textoLivre.trim().length === 0}
               onClick={handleFinalizarEscrita}
-              className="min-h-[44px] px-4 py-2 rounded-xl bg-accent text-accent-text font-sans text-xs font-bold hover:bg-accent/90 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-xs"
+              className="min-h-[44px] px-4 py-2 rounded-xl bg-accent text-accent-text font-sans text-xs font-bold hover:bg-accent/90 disabled:opacity-40 disabled:cursor-not-allowed transition-[background-color,opacity] cursor-pointer shadow-xs"
             >
               Concluir e Comparar com Checklist
             </button>
@@ -228,7 +228,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
                       key={idx}
                       type="button"
                       onClick={() => handleTogglePonto(idx)}
-                      className={`w-full min-h-[44px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-all flex items-start gap-2.5 cursor-pointer ${
+                      className={`w-full min-h-[44px] p-3 rounded-xl border text-left text-xs sm:text-sm font-sans transition-[color,background-color,border-color,box-shadow] flex items-start gap-2.5 cursor-pointer ${
                         isChecked
                           ? 'bg-ok-soft border-ok text-ink font-medium shadow-2xs'
                           : 'bg-surface border-border text-ink-2 hover:border-accent hover:text-ink'

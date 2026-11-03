@@ -67,7 +67,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
                 key={step.id}
                 type="button"
                 onClick={() => setEtapaAtual(step.id)}
-                className={`py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer border ${
+                className={`py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-[color,background-color,border-color,box-shadow] cursor-pointer border ${
                   ativa
                     ? 'bg-accent text-accent-text border-accent shadow-xs'
                     : concluida
@@ -147,7 +147,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
               <button
                 type="button"
                 onClick={() => setModoFoco('fraquezas_criticas')}
-                className={`p-3 rounded-xl border text-left transition-all cursor-pointer space-y-1 ${
+                className={`p-3 rounded-xl border text-left transition-[color,background-color,border-color,box-shadow] cursor-pointer space-y-1 ${
                   modoFoco === 'fraquezas_criticas'
                     ? 'bg-accent/10 border-accent text-ink shadow-xs'
                     : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
@@ -165,7 +165,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
               <button
                 type="button"
                 onClick={() => setModoFoco('erros_caderno')}
-                className={`p-3 rounded-xl border text-left transition-all cursor-pointer space-y-1 ${
+                className={`p-3 rounded-xl border text-left transition-[color,background-color,border-color,box-shadow] cursor-pointer space-y-1 ${
                   modoFoco === 'erros_caderno'
                     ? 'bg-accent/10 border-accent text-ink shadow-xs'
                     : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
@@ -183,7 +183,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
               <button
                 type="button"
                 onClick={() => setModoFoco('geral_adaptativo')}
-                className={`p-3 rounded-xl border text-left transition-all cursor-pointer space-y-1 ${
+                className={`p-3 rounded-xl border text-left transition-[color,background-color,border-color,box-shadow] cursor-pointer space-y-1 ${
                   modoFoco === 'geral_adaptativo'
                     ? 'bg-accent/10 border-accent text-ink shadow-xs'
                     : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
@@ -217,7 +217,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
                   key={qtd}
                   type="button"
                   onClick={() => setQtdItens(qtd)}
-                  className={`p-3.5 rounded-xl border text-xs font-mono font-bold transition-all cursor-pointer flex flex-col items-center justify-center gap-1 ${
+                  className={`p-3.5 rounded-xl border text-xs font-mono font-bold transition-[color,background-color,border-color,box-shadow] cursor-pointer flex flex-col items-center justify-center gap-1 ${
                     qtdItens === qtd
                       ? 'bg-accent text-accent-text border-accent shadow-xs'
                       : 'bg-surface-2 text-ink hover:border-accent/60 border-border'
@@ -267,7 +267,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
             <button
               type="button"
               onClick={() => setModoFeedback('cego')}
-              className={`p-4 rounded-xl border text-left transition-all cursor-pointer space-y-2 ${
+              className={`p-4 rounded-xl border text-left transition-[color,background-color,border-color,box-shadow] cursor-pointer space-y-2 ${
                 modoFeedback === 'cego'
                   ? 'bg-accent/10 border-accent text-ink shadow-xs'
                   : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
@@ -290,7 +290,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
             <button
               type="button"
               onClick={() => setModoFeedback('imediato')}
-              className={`p-4 rounded-xl border text-left transition-all cursor-pointer space-y-2 ${
+              className={`p-4 rounded-xl border text-left transition-[color,background-color,border-color,box-shadow] cursor-pointer space-y-2 ${
                 modoFeedback === 'imediato'
                   ? 'bg-accent/10 border-accent text-ink shadow-xs'
                   : 'bg-surface-2 border-border text-ink-2 hover:text-ink'

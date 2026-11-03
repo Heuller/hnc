@@ -106,7 +106,7 @@ export const PainelMnemonicosLegislativo: React.FC = () => {
           return (
             <div
               key={item.id}
-              className={`rounded-xl border transition-all text-xs ${
+              className={`rounded-xl border transition-[background-color,border-color,box-shadow] text-xs ${
                 aberto
                   ? 'bg-surface-2/60 border-accent/70 shadow-xs'
                   : 'bg-surface-2/30 border-border hover:border-border/90'

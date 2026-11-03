@@ -389,7 +389,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
               <button
                 type="button"
                 onClick={() => setViewMode('visual')}
-                className={`px-2.5 py-1 rounded-md transition-all flex items-center gap-1.5 text-xs font-sans ${
+                className={`px-2.5 py-1 rounded-md transition-[color,background-color,box-shadow] flex items-center gap-1.5 text-xs font-sans ${
                   viewMode === 'visual'
                     ? 'bg-accent text-accent-text font-semibold shadow-xs'
                     : 'text-ink-2 hover:text-ink'
@@ -403,7 +403,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
               <button
                 type="button"
                 onClick={() => setViewMode('tree')}
-                className={`px-2.5 py-1 rounded-md transition-all flex items-center gap-1.5 text-xs font-sans ${
+                className={`px-2.5 py-1 rounded-md transition-[color,background-color,box-shadow] flex items-center gap-1.5 text-xs font-sans ${
                   viewMode === 'tree'
                     ? 'bg-accent text-accent-text font-semibold shadow-xs'
                     : 'text-ink-2 hover:text-ink'
@@ -417,7 +417,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
               <button
                 type="button"
                 onClick={() => setViewMode('code')}
-                className={`px-2 py-1 rounded-md transition-all flex items-center gap-1 text-xs font-mono ${
+                className={`px-2 py-1 rounded-md transition-[color,background-color,box-shadow] flex items-center gap-1 text-xs font-mono ${
                   viewMode === 'code'
                     ? 'bg-accent text-accent-text font-semibold shadow-xs'
                     : 'text-ink-2 hover:text-ink'
