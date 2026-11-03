@@ -158,9 +158,12 @@ function getGeminiGenerateContentUrl(): string {
 
 const generateAdaptiveQuizSchema = z.object({
   quantidadeItens: z.number().int().min(5).max(20).optional(),
-  modoFoco: z.string().max(100).optional(),
-  modulosAlvo: z.array(z.string()).optional(),
-  vulnerabilidades: z.array(z.string()).optional(),
+  // Valores iguais aos do tipo ConfiguracaoSimuladoAdaptativo (src/domain/adaptiveQuiz/types.ts).
+  modoFoco: z.enum(['fraquezas_criticas', 'erros_caderno', 'geral_adaptativo']).optional(),
+  // Estes campos são interpolados no prompt do modelo: teto de itens e de tamanho evita
+  // consumo de memória na validação e custo/injeção de prompt por entrada gigante.
+  modulosAlvo: z.array(z.string().regex(/^m\d{1,2}$/i)).max(14).optional(),
+  vulnerabilidades: z.array(z.string().min(1).max(200)).max(20).optional(),
 });
 
 export default async function handler(req: any, res: any) {
