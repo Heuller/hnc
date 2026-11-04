@@ -1,7 +1,18 @@
 {
   "id": "sub-10-3",
-  "versaoTeoria": "2026-11-04.m10-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-10-3-oficina",
+      "titulo": "Oficina aplicada — Pedido de acesso com dados pessoais",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma cidadã solicita um relatório público que contém, em algumas páginas, dados pessoais cuja divulgação precisa ser examinada.\n\n**1. Examine o pedido:** identifique a informação solicitada e procure possibilitar o acesso imediato quando cabível. A LAI não autoriza negar um documento inteiro apenas por conter um trecho sujeito a restrição, sem avaliar a possibilidade de acesso parcial.\n\n**2. Separe informações:** avalie quais dados podem ser divulgados e quais precisam de proteção, justificando a decisão segundo a lei e as circunstâncias. A existência de dado pessoal não significa que toda informação relacionada seja automaticamente sigilosa em qualquer situação.\n\n**3. Responda e registre:** se o acesso imediato não for possível, o art. 11 prevê prazo de até 20 dias, prorrogável por mais 10 mediante justificativa expressa e ciência do requerente. Fundamente eventual negativa e indique os caminhos de recurso aplicáveis.\n\n**Treino autoral C/E:** “A presença de qualquer dado pessoal obriga a negar integralmente o relatório.” **Errado:** examine proteção e acesso parcial.",
+      "checkpointIds": [
+        "rt-oficina-10-3"
+      ]
+    },
     {
       "id": "sub-10-3-bloco-1",
       "titulo": "O Marco Regulatório da Transparência Pública: A Lei nº 12.527/2011 (LAI)",
@@ -148,6 +159,16 @@
       "editalRef": "Conhecimentos legislativos e constitucionais",
       "habilidade": "aplicar",
       "versao_correta": "A proteção depende do enquadramento legal, da natureza da informação e das hipóteses aplicáveis."
+    },
+    {
+      "id": "rt-oficina-10-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Ao examinar acesso a relatório com informações protegidas, deve-se avaliar a possibilidade de fornecer a parte não restrita.",
+      "gabarito": "C",
+      "justificativa": "A proteção de uma parte não dispensa analisar a possibilidade de acesso parcial.",
+      "fonte": "Lei 12.527/2011, arts. 7º, 11 e 31; situação hipotética.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {

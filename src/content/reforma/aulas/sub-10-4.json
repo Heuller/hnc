@@ -1,7 +1,18 @@
 {
   "id": "sub-10-4",
-  "versaoTeoria": "2026-11-04.m10-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-10-4-oficina",
+      "titulo": "Oficina aplicada — Constituição, regra e medida judicial",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma pessoa afirma que um direito constitucional foi violado e quer saber qual instrumento pode utilizar. A resposta depende do direito, da ameaça ou lesão e dos requisitos de cada ação.\n\n**1. Identifique o problema:** restrição à liberdade de locomoção é questão diferente da obtenção ou retificação de dados pessoais; os instrumentos constitucionais têm objetos próprios.\n\n**2. Relacione instrumento e finalidade:** o habeas corpus protege a liberdade de locomoção nas hipóteses constitucionais; o habeas data relaciona-se ao conhecimento e à retificação de dados relativos à pessoa do impetrante nos termos da Constituição e da lei.\n\n**3. Confira as condições:** competência, legitimidade e requisitos dependem do caso e das normas aplicáveis. A simples existência de desconforto com uma decisão administrativa não autoriza presumir qualquer remédio constitucional.\n\n**Treino autoral C/E:** “Habeas corpus destina-se indistintamente à correção de qualquer dado pessoal.” **Errado:** seu objeto próprio é a liberdade de locomoção.",
+      "checkpointIds": [
+        "rt-oficina-10-4"
+      ]
+    },
     {
       "id": "sub-10-4-bloco-1",
       "titulo": "A Constituição Federal de 1988: Conceito, Classificação e Estrutura",
@@ -181,6 +192,17 @@
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Conhecimentos legislativos e constitucionais",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-10-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O habeas corpus tem por objeto específico a retificação de qualquer dado pessoal em registro público.",
+      "gabarito": "E",
+      "justificativa": "O habeas corpus protege a liberdade de locomoção; o habeas data tem objeto constitucional distinto.",
+      "fonte": "Constituição Federal, art. 5º, incisos LXVIII e LXXII; caso autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "O habeas corpus protege a liberdade de locomoção nas hipóteses constitucionais."
     }
   ],
   "checkpointEdits": {

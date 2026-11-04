@@ -1,7 +1,18 @@
 {
   "id": "sub-10-6",
-  "versaoTeoria": "2026-11-04.m10-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-10-6-oficina",
+      "titulo": "Oficina aplicada — Veto: identifique o objeto antes do resultado",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe precisa explicar a tramitação de um veto presidencial a um projeto de lei. O primeiro cuidado é não confundir projeto, partes vetadas e resultado da deliberação.\n\n**1. Identifique o veto:** consulte a mensagem e a publicação oficial para saber quais dispositivos foram vetados e quais fundamentos foram apresentados. O veto pode ser total ou parcial, observados os limites constitucionais para o veto parcial.\n\n**2. Acompanhe a apreciação:** verifique a tramitação e a votação no Congresso conforme a Constituição e o Regimento Comum, incluindo os prazos e regras aplicáveis ao caso.\n\n**3. Confira o desfecho:** manutenção e rejeição do veto produzem consequências diferentes. Leia o registro oficial e os atos posteriores antes de afirmar que determinado texto foi promulgado ou está em vigor.\n\n**Treino autoral C/E:** “A existência de veto demonstra, por si, que todos os dispositivos do projeto foram rejeitados pelo Congresso.” **Errado:** é necessário identificar a extensão do veto e sua apreciação.",
+      "checkpointIds": [
+        "rt-oficina-10-6"
+      ]
+    },
     {
       "id": "sub-10-6-bloco-1",
       "titulo": "Bicameralismo, Regimento Comum e local das sessões",
@@ -167,6 +178,17 @@
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Conhecimentos legislativos e constitucionais",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-10-6",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O veto presidencial prova que todos os dispositivos de um projeto foram rejeitados pelo Congresso Nacional.",
+      "gabarito": "E",
+      "justificativa": "O veto pode ter diferentes extensões e sua apreciação pelo Congresso precisa ser consultada.",
+      "fonte": "Constituição Federal, art. 66; Regimento Comum, conforme referências da aula; hipótese autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "Para conhecer o resultado, deve-se verificar a extensão do veto e sua apreciação pelo Congresso."
     }
   ],
   "checkpointEdits": {

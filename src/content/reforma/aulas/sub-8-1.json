@@ -1,7 +1,18 @@
 {
   "id": "sub-8-1",
-  "versaoTeoria": "2026-11-04.transversal-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-8-1-oficina",
+      "titulo": "Oficina aplicada — Da fonte à referência verificável",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma estudante consultou um livro impresso e um artigo disponibilizado na internet. Precisa permitir que outra pessoa identifique exatamente cada fonte.\n\n**1. Identifique o documento:** registre autoria, título, edição quando aplicável, dados de publicação e demais elementos exigidos para o tipo de documento. No artigo, observe também o periódico e sua identificação. Não complete data ou editora por adivinhação.\n\n**2. Verifique o suporte:** para o material on-line, confira endereço ou identificador, informações de acesso e a orientação da edição normativa aplicável. Uma referência a uma página na internet não se transforma automaticamente em referência a livro eletrônico.\n\n**3. Teste a correspondência:** procure no texto a chamada para cada obra e confira se ela leva à entrada correta na lista. Dois textos da mesma pessoa em anos diferentes são fontes distintas.\n\n**Treino autoral C/E:** “Referenciar é apenas reproduzir uma sequência de sinais de pontuação.” **Errado:** a representação deve identificar e permitir localizar a fonte, além de obedecer às regras pertinentes.",
+      "checkpointIds": [
+        "rt-oficina-8-1"
+      ]
+    },
     {
       "id": "sub-8-1-bloco-1",
       "titulo": "O que uma referência precisa permitir ao leitor",
@@ -176,6 +187,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Normalização e produção editorial",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-8-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A elaboração de referências consiste apenas em reproduzir sinais de pontuação, independentemente da identificação correta da fonte.",
+      "gabarito": "E",
+      "justificativa": "A referência reúne elementos para identificar a fonte; a pontuação integra a padronização, mas não substitui a identificação.",
+      "fonte": "ABNT NBR 6023:2025, conforme exemplar e referências da aula; exemplo autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "A referência deve identificar corretamente a fonte e observar as regras aplicáveis de apresentação."
     }
   ],
   "checkpointEdits": {

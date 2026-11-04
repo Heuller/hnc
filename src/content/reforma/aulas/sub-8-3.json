@@ -1,7 +1,18 @@
 {
   "id": "sub-8-3",
-  "versaoTeoria": "2026-11-04.m8-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-8-3-oficina",
+      "titulo": "Oficina aplicada — Apêndice ou anexo? Resolva pela autoria",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma aluna prepara dissertação e deseja incluir dois documentos ao fim do texto: o questionário que ela própria elaborou e uma lei produzida por terceiro.\n\n**1. Pergunte quem elaborou o material:** o questionário é documento da autora criado para complementar o trabalho; no exemplo, corresponde a **apêndice**. A lei produzida por terceiro, incluída como documentação de apoio, corresponde a **anexo**.\n\n**2. Teste a finalidade:** os materiais complementam ou fundamentam o trabalho. A simples presença de um texto depois das referências não determina a categoria sem examinar autoria e função.\n\n**3. Cuide da apresentação:** identifique cada parte e confira a edição da NBR 14724 adotada e as orientações da instituição; a decisão sobre uso e reprodução de documentos também depende das condições aplicáveis.\n\n**Treino autoral C/E:** “Material criado pela própria autora para complementar o trabalho é necessariamente anexo.” **Errado** no caso apresentado: é apêndice.",
+      "checkpointIds": [
+        "rt-oficina-8-3"
+      ]
+    },
     {
       "id": "sub-8-3-bloco-1",
       "titulo": "A Estrutura Formal da ABNT NBR 14724:2024 (4ª Edição)",
@@ -155,6 +166,16 @@
       "justificativa": "A distinção considera a autoria do material complementar e a função que desempenha no trabalho.",
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Normalização e produção editorial",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-8-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um questionário elaborado pela autora para complementar seu trabalho pode constituir apêndice.",
+      "gabarito": "C",
+      "justificativa": "O apêndice é elaborado pela própria autora e complementa o trabalho.",
+      "fonte": "ABNT NBR 14724:2024, conforme referências e exemplar da aula; exemplo autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
       "habilidade": "aplicar"
     }
   ],

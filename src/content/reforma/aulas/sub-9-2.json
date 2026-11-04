@@ -1,7 +1,18 @@
 {
   "id": "sub-9-2",
-  "versaoTeoria": "2026-11-04.m9-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-9-2-oficina",
+      "titulo": "Oficina aplicada — FAIR e licença aberta: duas perguntas distintas",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe publica um conjunto de dados de pesquisa com identificador persistente, metadados e instruções de acesso. Outra pesquisadora quer descobrir se pode reutilizá-lo.\n\n**1. Encontrar e acessar:** identificador e metadados ajudam a localizar o conjunto e a conhecer as condições de acesso. Acessível em FAIR não significa que todos os dados sejam obrigatoriamente públicos ou sem autenticação.\n\n**2. Interoperar e reutilizar:** formatos, vocabulários, documentação e proveniência ajudam sistemas e pessoas a interpretar os dados. A possibilidade jurídica de reutilização também depende de permissões e eventuais restrições.\n\n**3. Leia a licença:** CC BY exige atribuição e permite usos sujeitos a seus termos; NC limita usos comerciais e ND restringe o compartilhamento de adaptações, conforme a licença. Uma licença não resolve sozinha a qualidade dos metadados.\n\n**Treino autoral C/E:** “Ser FAIR exige divulgar irrestritamente qualquer dado pessoal.” **Errado:** acesso pode envolver condições e salvaguardas.",
+      "checkpointIds": [
+        "rt-oficina-9-2"
+      ]
+    },
     {
       "id": "sub-9-2-bloco-1",
       "titulo": "A Crise dos Periódicos e o Nascimento do Acesso Aberto",
@@ -159,6 +170,17 @@
       "editalRef": "Comunicação científica e estudos métricos",
       "habilidade": "aplicar",
       "versao_correta": "Dados FAIR podem ter acesso condicionado e controlado."
+    },
+    {
+      "id": "rt-oficina-9-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Os princípios FAIR exigem que todos os dados, inclusive pessoais, sejam disponibilizados sem nenhuma restrição.",
+      "gabarito": "E",
+      "justificativa": "FAIR não equivale a abertura irrestrita; condições de acesso e proteção podem ser necessárias.",
+      "fonte": "GO FAIR, princípios FAIR; Creative Commons, descrição das licenças; caso autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "Dados FAIR podem ter condições de acesso e proteção apropriadas."
     }
   ],
   "checkpointEdits": {

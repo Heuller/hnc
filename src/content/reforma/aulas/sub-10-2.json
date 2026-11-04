@@ -1,7 +1,18 @@
 {
   "id": "sub-10-2",
-  "versaoTeoria": "2026-11-04.transversal-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-10-2-oficina",
+      "titulo": "Oficina aplicada — Projeto, lei e versão consolidada",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma pessoa solicita a uma biblioteca o texto de uma lei vigente e o projeto que lhe deu origem. São documentos ligados, mas não intercambiáveis.\n\n**1. Identifique o estágio:** projeto é proposição em tramitação; a lei é espécie normativa resultante do processo aplicável. A apresentação de um projeto, sozinha, não o transforma em lei.\n\n**2. Acompanhe o histórico:** procure tramitação, emendas, aprovação, sanção ou veto conforme o caso, e publicação. Nem toda proposição segue exatamente o mesmo rito.\n\n**3. Confira o texto solicitado:** diferencie publicação original e versão consolidada, identificando alterações, data e fonte. Para concluir sobre vigência em caso concreto, examine também disposições transitórias e o marco temporal.\n\n**Treino autoral C/E:** “Um projeto apresentado já possui, por isso, força de lei.” **Errado:** é necessário examinar o processo legislativo pertinente.",
+      "checkpointIds": [
+        "rt-oficina-10-2"
+      ]
+    },
     {
       "id": "sub-10-2-bloco-1",
       "titulo": "Teoria Geral do Processo Legislativo Federal",
@@ -152,6 +163,17 @@
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Conhecimentos legislativos e constitucionais",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-10-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A apresentação de um projeto de lei faz com que seu texto adquira automaticamente força de lei.",
+      "gabarito": "E",
+      "justificativa": "A apresentação inicia a tramitação da proposição; não equivale à conclusão do processo legislativo.",
+      "fonte": "Constituição Federal, arts. 59 e seguintes; caso autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "A apresentação de um projeto não o transforma automaticamente em lei."
     }
   ],
   "checkpointEdits": {

@@ -1,7 +1,18 @@
 {
   "id": "sub-9-1",
-  "versaoTeoria": "2026-11-04.m9-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-9-1-oficina",
+      "titulo": "Oficina aplicada — Da pesquisa ao preprint e ao artigo",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe conclui um estudo e deposita uma versão inicial em repositório; depois submete o texto a um periódico, recebe pareceres e publica uma versão revisada.\n\n**1. Localize as versões:** o preprint pode circular antes da avaliação formal da versão submetida. Sua existência não comprova que aquela versão já tenha sido aprovada por pares.\n\n**2. Compare mudanças:** confira data, identificador, método e conclusões. Uma correção posterior pode alterar o resultado apresentado inicialmente; o vínculo entre versões ajuda, mas não elimina a necessidade de conferência.\n\n**3. Distinga canal e avaliação:** a disponibilização aberta de um texto e o processo de revisão por pares respondem a perguntas diferentes. Um artigo em acesso aberto pode ter sido avaliado; um preprint pode não ter passado por essa etapa.\n\n**Treino autoral C/E:** “Todo texto aberto é um preprint sem avaliação.” **Errado:** abertura de acesso não determina o estágio editorial.",
+      "checkpointIds": [
+        "rt-oficina-9-1"
+      ]
+    },
     {
       "id": "sub-9-1-bloco-1",
       "titulo": "A Natureza Sociológica da Ciência e da Comunicação Científica",
@@ -145,6 +156,16 @@
       "justificativa": "Deve-se identificar versão e situação editorial. O manuscrito pode ser submetido à revisão posteriormente.",
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Comunicação científica e estudos métricos",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-9-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um artigo disponível em acesso aberto pode ter sido submetido à avaliação por pares.",
+      "gabarito": "C",
+      "justificativa": "A abertura do acesso não determina se houve avaliação por pares.",
+      "fonte": "Referências sobre comunicação científica e preprints da aula; caso autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
       "habilidade": "aplicar"
     }
   ],

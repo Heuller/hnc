@@ -1,7 +1,18 @@
 {
   "id": "sub-10-5",
-  "versaoTeoria": "2026-11-04.m10-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-10-5-oficina",
+      "titulo": "Oficina aplicada — Câmara, Senado e Congresso: quem faz o quê?",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma estudante lê que uma competência pertence ao Congresso Nacional e conclui que basta aprovação isolada da Câmara dos Deputados. Antes de julgar, é preciso examinar a regra da competência e o procedimento aplicável.\n\n**1. Identifique o órgão:** o Poder Legislativo federal é exercido pelo Congresso Nacional, composto pela Câmara dos Deputados e pelo Senado Federal. Cada Casa também possui competências próprias previstas na Constituição.\n\n**2. Localize a competência:** compare os arts. 48 a 52 da Constituição e verifique se a hipótese envolve o Congresso, uma Casa específica e eventual participação presidencial.\n\n**3. Evite atalhos:** integrar o Congresso não torna idênticas as atribuições de suas Casas. Procedimento, votação e forma do ato precisam ser verificados para a matéria específica.\n\n**Treino autoral C/E:** “Câmara e Senado possuem necessariamente competências constitucionais idênticas.” **Errado:** a Constituição prevê competências próprias para cada uma.",
+      "checkpointIds": [
+        "rt-oficina-10-5"
+      ]
+    },
     {
       "id": "sub-10-5-bloco-1",
       "titulo": "Estrutura Constitucional do Poder Legislativo (CF/88, Arts. 44 a 47)",
@@ -175,6 +186,16 @@
       "editalRef": "Conhecimentos legislativos e constitucionais",
       "habilidade": "aplicar",
       "versao_correta": "A CPI é comissão parlamentar cujos poderes de investigação têm limites constitucionais."
+    },
+    {
+      "id": "rt-oficina-10-5",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A Constituição prevê competências próprias para a Câmara dos Deputados e para o Senado Federal.",
+      "gabarito": "C",
+      "justificativa": "As competências próprias estão previstas, entre outros dispositivos, nos artigos 51 e 52 da Constituição.",
+      "fonte": "Constituição Federal, arts. 44 e 48 a 52; caso autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {
