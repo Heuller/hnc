@@ -16,7 +16,7 @@
 
 A plataforma integra teoria, banco de questões com proveniência identificada, repetição espaçada (algoritmo Leitner), caderno de erros, avaliador de discursivas com inteligência artificial e simulados adaptativos.
 
-A reforma teórica abrange 75 aulas, 494 blocos e 804 microcheckpoints, com explicações, aplicações, revisão essencial e fontes. [Registro da implementação e limites da conferência](docs/reforma-teoria/FECHAMENTO.md). A revisão individual integral das questões dos simulados é uma etapa posterior.
+A reforma teórica abrange 75 aulas, 498 blocos e 808 microcheckpoints, com explicações, aplicações, revisão essencial e fontes. [Registro da implementação e limites da conferência](docs/reforma-teoria/FECHAMENTO.md). A revisão individual integral das questões dos simulados é uma etapa posterior.
 
 ---
 

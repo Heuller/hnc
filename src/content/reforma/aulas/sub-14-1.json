@@ -1,7 +1,18 @@
 {
   "id": "sub-14-1",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-14-1-oficina",
+      "titulo": "Oficina aplicada — Planilha de empréstimos: copiar sem perder a referência",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca registra em uma planilha a quantidade de empréstimos de cada setor. Na coluna B estão os empréstimos; em `E1`, a meta comum de 100. A equipe quer calcular, na coluna C, a proporção de cada setor em relação à meta.\n\n| Célula | Conteúdo fictício |\n| :--- | :--- |\n| `B2` | 80 empréstimos |\n| `B3` | 120 empréstimos |\n| `E1` | meta de 100 |\n\n**1. Escreva a primeira fórmula.** Em `C2`, digite `=B2/$E$1`. O resultado numérico é `0,8`; formatado como porcentagem, aparece como **80%**. A formatação muda a apresentação, não transforma `0,8` em 80 unidades.\n\n**2. Copie para baixo.** Ao copiar de `C2` para `C3`, `B2` é referência relativa e passa a `B3`. `$E$1` é absoluta: permanece apontando para a meta. Assim, `=B3/$E$1` produz **120%**.\n\n**3. Compare o erro.** Se a fórmula original fosse `=B2/E1`, copiá-la para `C3` ajustaria `E1` para `E2`. Se `E2` estiver vazia, o resultado pode gerar erro de divisão por zero; se contiver outro número, pode produzir um cálculo inadequado. O risco está na referência, não em a planilha “esquecer” a meta.\n\n**4. Vá além da fórmula.** Antes de compartilhar, confira quem tem permissão de edição e qual versão do arquivo está sendo usada. Sincronização e coautoria dependem de conexão, permissões e recursos disponíveis; não certificam a correção dos dados.\n\n**Treino autoral C/E:** “Ao copiar `=B2/$E$1` uma linha para baixo, o denominador passa a `E2`.” **Errado:** os dois cifrões mantêm coluna e linha fixas. A regra descrita se refere à cópia, não a toda operação possível de edição da planilha.",
+      "checkpointIds": [
+        "rt-oficina-14-1"
+      ]
+    },
     {
       "id": "sub-14-1-bloco-1",
       "titulo": "Produtividade por tarefa: versões, arquivos e permissões",
@@ -240,6 +251,16 @@
       "justificativa": "A2 é relativa; $B$1 fixa coluna e linha na cópia.",
       "fonte": "Microsoft, referências relativas, absolutas e mistas no Excel; fórmula autoral.",
       "editalRef": "Tecnologia da informação e dados",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-14-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Ao copiar a fórmula =B2/$E$1 da célula C2 para C3, a referência $E$1 permanece apontando para E1.",
+      "gabarito": "C",
+      "justificativa": "Os cifrões fixam coluna e linha na cópia; B2, por ser relativa, ajusta-se para B3.",
+      "fonte": "Microsoft, referências relativas e absolutas no Excel; dados e item autorais.",
+      "editalRef": "Tecnologia da informação, inteligência artificial e dados",
       "habilidade": "aplicar"
     }
   ],

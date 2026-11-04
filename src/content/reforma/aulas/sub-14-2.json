@@ -1,7 +1,18 @@
 {
   "id": "sub-14-2",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-14-2-oficina",
+      "titulo": "Oficina aplicada — Uma conta comprometida: autenticação, backup e integridade",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma bibliotecária recebe mensagem que imita o suporte institucional e pede sua senha. Ela abre o link, mas percebe que o endereço não pertence ao serviço esperado.\n\n**1. Identifique a ameaça.** Uma mensagem que tenta induzir a pessoa a fornecer dados ou executar uma ação pode caracterizar *phishing*. A aparência do remetente ou da página, sozinha, não prova legitimidade. O canal oficial deve ser consultado independentemente do link suspeito.\n\n**2. Separe os controles.** Uma senha forte e autenticação multifator adicionam barreiras; nenhum controle isolado garante proteção absoluta. Se credenciais foram entregues, siga o procedimento institucional de resposta, incluindo comunicação e troca de credenciais conforme orientação.\n\n**3. Planeje a recuperação.** Uma cópia de segurança ajuda a recuperar arquivos após falha ou ataque, mas é necessário proteger as cópias e testar sua restauração. Se a cópia também foi corrompida ou está inacessível, o fato de existir um backup não prova que a recuperação funcionará.\n\n**4. Distinga integridade e sigilo.** Um hash pode ajudar a verificar se os bits de um arquivo mudaram em relação a uma referência confiável; não foi feito para manter o conteúdo secreto. Criptografia pode proteger a confidencialidade conforme algoritmo, chaves e implementação. Assinatura digital fornece propriedades de autenticação e integridade sob condições técnicas e jurídicas aplicáveis; não prova que o conteúdo assinado seja verdadeiro.\n\n**Treino autoral C/E:** “Se o hash é igual, o conteúdo necessariamente é verdadeiro.” **Errado:** a comparação de integridade não verifica a verdade das afirmações do documento.",
+      "checkpointIds": [
+        "rt-oficina-14-2"
+      ]
+    },
     {
       "id": "sub-14-2-bloco-1",
       "titulo": "Redes: alcance, serviços e acesso",
@@ -268,6 +279,17 @@
       "editalRef": "Tecnologia da informação e dados",
       "habilidade": "aplicar",
       "versao_correta": "A assinatura não garante a veracidade do conteúdo assinado."
+    },
+    {
+      "id": "rt-oficina-14-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Uma assinatura digital válida prova, por si só, que todas as afirmações do documento assinado são verdadeiras.",
+      "gabarito": "E",
+      "justificativa": "A assinatura pode apoiar autenticação e integridade, mas não verifica a veracidade material das afirmações.",
+      "fonte": "CERT.br, Cartilha de Segurança para Internet; NIST FIPS 186-5; cenário e item autorais.",
+      "editalRef": "Tecnologia da informação, inteligência artificial e dados",
+      "habilidade": "aplicar",
+      "versao_correta": "Uma assinatura digital válida pode apoiar a verificação de autoria e integridade, sem provar a verdade do conteúdo."
     }
   ],
   "checkpointEdits": {
