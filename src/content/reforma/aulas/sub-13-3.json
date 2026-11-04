@@ -1,7 +1,18 @@
 {
   "id": "sub-13-3",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-13-3-oficina",
+      "titulo": "Oficina aplicada — Crase: teste a regência e o artigo",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Frase autoral:** “A bibliotecária entregou o relatório à coordenadora.” Por que aparece o acento grave?\n\n**1. Verifique a regência:** no sentido do exemplo, entregar algo **a** alguém admite a preposição *a* antes do destinatário.\n\n**2. Verifique o termo seguinte:** “coordenadora” está empregado com artigo feminino *a*. A sequência da preposição com esse artigo é representada por *à*. Como teste auxiliar, em “ao coordenador” aparece *ao*: preposição mais artigo masculino.\n\n**3. Mude a construção com cuidado:** em “entregou o relatório a ela”, o pronome *ela* não vem acompanhado do artigo feminino; nessa construção, não ocorre a fusão. Nem toda letra *a* antes de palavra feminina recebe crase.\n\n**Treino autoral C/E:** “Em ‘a ela’, o acento grave é obrigatório.” **Errado:** o pronome não recebe o artigo feminino nesse exemplo.",
+      "checkpointIds": [
+        "rt-oficina-13-3"
+      ]
+    },
     {
       "id": "sub-13-3-bloco-1",
       "titulo": "Sintaxe como método: localizar relações antes de aplicar regras",
@@ -211,6 +222,16 @@
       "justificativa": "A construção admite “documentos são revisados”; o sujeito paciente está no plural.",
       "fonte": "Cunha e Cintra, Nova gramática do português contemporâneo; exemplo autoral de passiva sintética.",
       "editalRef": "Língua portuguesa",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-13-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Na expressão “entregou o relatório a ela”, não se usa acento indicativo de crase.",
+      "gabarito": "C",
+      "justificativa": "O pronome pessoal ela não recebe artigo feminino nessa construção.",
+      "fonte": "Cunha e Cintra, Nova gramática do português contemporâneo, referência cadastrada na aula; frase e item autorais.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
       "habilidade": "aplicar"
     }
   ],

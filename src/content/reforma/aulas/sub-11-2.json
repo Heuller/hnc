@@ -1,7 +1,18 @@
 {
   "id": "sub-11-2",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-2-oficina",
+      "titulo": "Oficina aplicada — Anular, revogar ou convalidar?",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma autoridade descobre três situações distintas: um ato com vício de legalidade; um ato válido que se tornou inconveniente; e um ato com defeito sanável, sem prejuízo ao interesse público ou a terceiros.\n\n**1. Ilegalidade:** a Administração deve examinar a anulação do ato ilegal, respeitando direitos, procedimento e limites pertinentes. Não chame essa operação de revogação por conveniência.\n\n**2. Mérito administrativo:** um ato válido pode ser revogado por conveniência ou oportunidade, quando cabível e respeitados os direitos adquiridos. O fato de ser válido não o torna irrevogável em toda hipótese.\n\n**3. Defeito sanável:** no processo administrativo federal, o art. 55 da Lei 9.784 permite convalidação nas condições que estabelece. Não se presume que qualquer vício possa ser corrigido.\n\n**Treino autoral C/E:** “Revogar é o nome obrigatório para retirar ato ilegal.” **Errado:** ilegalidade e mérito exigem análises diferentes.",
+      "checkpointIds": [
+        "rt-oficina-11-2"
+      ]
+    },
     {
       "id": "sub-11-2-bloco-1",
       "titulo": "Ato, fato e contrato: identificar a operação",
@@ -145,6 +156,17 @@
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar",
       "versao_correta": "Anulação enfrenta ilegalidade; revogação trata de conveniência e oportunidade nos limites legais."
+    },
+    {
+      "id": "rt-oficina-11-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Anulação e revogação são expressões necessariamente equivalentes para retirar um ato ilegal por conveniência.",
+      "gabarito": "E",
+      "justificativa": "A anulação trata de ilegalidade; a revogação pode atingir ato válido por mérito, quando cabível.",
+      "fonte": "Lei 9.784/1999, arts. 53 a 55; hipóteses fictícias.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "A anulação e a revogação têm fundamentos distintos: ilegalidade e mérito, respectivamente."
     }
   ],
   "checkpointEdits": {

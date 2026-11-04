@@ -1,7 +1,18 @@
 {
   "id": "sub-11-12",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-12-oficina",
+      "titulo": "Oficina aplicada — Transparência e proteção de dados na biblioteca",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma pessoa solicita dados de uso da biblioteca pública: total mensal de empréstimos e nomes de todos os leitores. A equipe deve avaliar as duas parcelas do pedido.\n\n**1. Identifique a finalidade e o conteúdo:** totais agregados podem atender à busca por transparência sem necessariamente identificar usuários. Nomes vinculados a leituras exigem exame específico da proteção aplicável.\n\n**2. Busque solução proporcional:** avalie quais informações podem ser fornecidas e se cabe ocultar partes protegidas, fundamentando eventual restrição. Não presuma que todos os dados mantidos pelo poder público são automaticamente secretos.\n\n**3. Confira o resultado:** agregação não garante sempre anonimato; grupos muito pequenos podem permitir identificação. Avalie o contexto e registre a decisão.\n\n**Treino autoral C/E:** “Transparência obriga divulgar qualquer dado pessoal sem análise.” **Errado:** publicidade e proteção precisam ser harmonizadas.",
+      "checkpointIds": [
+        "rt-oficina-11-12"
+      ]
+    },
     {
       "id": "sub-11-12-bloco-1",
       "titulo": "A Lei de Acesso à Informação (Lei nº 12.527/2011 - LAI)",
@@ -148,6 +159,16 @@
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar",
       "versao_correta": "A proteção de informações pessoais não é quarto grau de classificação de sigilo."
+    },
+    {
+      "id": "rt-oficina-11-12",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um pedido de acesso deve ser analisado em conjunto com as regras aplicáveis de proteção de dados pessoais.",
+      "gabarito": "C",
+      "justificativa": "Transparência e proteção de dados devem ser harmonizadas conforme o caso.",
+      "fonte": "Leis 12.527/2011 e 13.709/2018; caso fictício.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {

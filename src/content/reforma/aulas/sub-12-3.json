@@ -1,7 +1,18 @@
 {
   "id": "sub-12-3",
-  "versaoTeoria": "2026-11-04.m12-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-12-3-oficina",
+      "titulo": "Oficina aplicada — A que “they” se refere?",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Texto autoral:** “The librarians reviewed the records before publication. They corrected missing dates and sent the list to the editor.”\n\n**1. Encontre candidatos:** antes de *they*, há *librarians* e *records*, ambos no plural. A concordância sozinha não resolve a referência.\n\n**2. Teste o sentido:** quem corrigiu datas e enviou a lista? No contexto, a ação é atribuída aos bibliotecários; os registros são objetos revisados, não autores da correção.\n\n**3. Substitua para conferir:** “The librarians corrected missing dates...” preserva o sentido natural. Acrescentar que todos os registros estavam errados não é sustentado pelo texto: ele menciona datas ausentes, sem quantificá-las.\n\n**Treino autoral C/E:** “In the second sentence, ‘they’ refers to the librarians.” **Certo** no contexto fornecido.",
+      "checkpointIds": [
+        "rt-oficina-12-3"
+      ]
+    },
     {
       "id": "sub-12-3-bloco-1",
       "titulo": "Referência textual: procurar o antecedente compatível",
@@ -123,6 +134,16 @@
       "justificativa": "Former retoma o primeiro dos dois elementos mencionados; latter, o segundo.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Língua inglesa e compreensão de textos",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-12-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "In the second sentence, “they” refers to the librarians.",
+      "gabarito": "C",
+      "justificativa": "A concordância e o sentido das ações de corrigir e enviar apontam para the librarians.",
+      "fonte": "Texto e item autorais; referência pronominal.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
       "habilidade": "aplicar"
     }
   ],

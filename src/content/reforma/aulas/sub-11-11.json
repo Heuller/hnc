@@ -1,7 +1,18 @@
 {
   "id": "sub-11-11",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-11-oficina",
+      "titulo": "Oficina aplicada — Fiscalizar um contrato de digitalização",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca contratou a digitalização de documentos. A empresa entrega arquivos, mas algumas imagens estão incompletas. Como verificar se o objeto foi cumprido?\n\n**1. Consulte o contrato:** identifique especificações, quantidades, critérios de qualidade e responsabilidades. Não suponha que simplesmente receber um arquivo equivale a aceitá-lo definitivamente.\n\n**2. Registre e comunique:** o fiscal acompanha a execução e documenta ocorrências; eventuais correções e decisões seguem o contrato e as regras aplicáveis. A gestão do contrato articula providências e informações ao longo da execução.\n\n**3. Examine o recebimento:** confira o objeto e as condições de recebimento provisório e definitivo conforme o art. 140 e a situação concreta. A fase de recebimento não dispensa a análise de inconformidades.\n\n**Treino autoral C/E:** “O recebimento físico comprova automaticamente a qualidade contratada.” **Errado:** é preciso verificar os critérios aplicáveis.",
+      "checkpointIds": [
+        "rt-oficina-11-11"
+      ]
+    },
     {
       "id": "sub-11-11-bloco-1",
       "titulo": "Natureza Jurídica e Características dos Contratos Administrativos",
@@ -137,6 +148,17 @@
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-11-11",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A entrega física ou digital do objeto comprova automaticamente que todas as exigências contratuais foram cumpridas.",
+      "gabarito": "E",
+      "justificativa": "A qualidade e a conformidade precisam ser verificadas segundo o contrato e as regras aplicáveis.",
+      "fonte": "Lei 14.133/2021, arts. 117 e 140; caso hipotético.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "A entrega deve ser seguida das verificações de conformidade previstas para o caso."
     }
   ],
   "checkpointEdits": {

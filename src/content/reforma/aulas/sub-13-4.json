@@ -1,7 +1,18 @@
 {
   "id": "sub-13-4",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-13-4-oficina",
+      "titulo": "Oficina aplicada — Tempo verbal, possibilidade e certeza",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Texto autoral:** “Se o sistema apresentar falha, a equipe comunicará o problema aos usuários.”\n\n**1. Separe condição e consequência:** a falha é apresentada como hipótese futura; a comunicação é prevista para o caso de essa hipótese ocorrer.\n\n**2. Compare:** “Quando o sistema apresentar falha, a equipe comunicará o problema” pode alterar o efeito de sentido: *quando* situa a comunicação em uma ocasião de ocorrência, enquanto *se* formula uma condição. A aceitabilidade de uma troca depende do comando e do contexto.\n\n**3. Evite exagerar:** o período não afirma que o sistema já falhou nem que haverá necessariamente falha. Também não diz que a comunicação ocorrerá mesmo sem a condição.\n\n**Treino autoral C/E:** “O texto afirma que uma falha já ocorreu.” **Errado:** a oração com *se* apresenta hipótese, não fato passado comprovado.",
+      "checkpointIds": [
+        "rt-oficina-13-4"
+      ]
+    },
     {
       "id": "sub-13-4-bloco-1",
       "titulo": "Ortografia: grafia, tonicidade e acento são decisões diferentes",
@@ -188,6 +199,17 @@
       "editalRef": "Língua portuguesa",
       "habilidade": "aplicar",
       "versao_correta": "Uma nota técnica pode combinar descrição, argumentação e outras sequências."
+    },
+    {
+      "id": "rt-oficina-13-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O período “Se o sistema apresentar falha, a equipe comunicará o problema” afirma que a falha já ocorreu.",
+      "gabarito": "E",
+      "justificativa": "A oração introduz uma hipótese e não declara a ocorrência passada da falha.",
+      "fonte": "Brasil (2018), Manual de Redação da Presidência da República, 3ª ed.; texto e item autorais.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "O período apresenta a falha como hipótese para a comunicação prevista."
     }
   ],
   "checkpointEdits": {

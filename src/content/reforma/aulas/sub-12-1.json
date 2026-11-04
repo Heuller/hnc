@@ -1,7 +1,18 @@
 {
   "id": "sub-12-1",
-  "versaoTeoria": "2026-11-04.m12-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-12-1-oficina",
+      "titulo": "Oficina aplicada — Find the evidence: contrast and limitation",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Texto autoral:** “The library expanded remote access in 2024. Although more users visited the portal, the study did not measure whether they found the documents they needed.”\n\n**1. Leitura global:** o assunto é ampliação do acesso remoto e o que o estudo efetivamente mediu.\n\n**2. Localize a evidência:** “more users visited” informa aumento de visitantes; “did not measure whether” limita a conclusão sobre sucesso na busca. *Although* introduz contraste, não apaga o primeiro fato.\n\n**3. Julgue:** “The study proved that users found the documents they needed.” **Errado.** O texto diz que isso não foi medido; aumento de visitas não comprova êxito na tarefa.\n\n**Tente de novo:** “Portal visits increased.” **Certo**, de acordo com o trecho. Para uma afirmação sobre todos os serviços da biblioteca, faltariam dados. A estratégia é apontar o trecho decisivo antes de escolher o gabarito.",
+      "checkpointIds": [
+        "rt-oficina-12-1"
+      ]
+    },
     {
       "id": "sub-12-1-bloco-1",
       "titulo": "Ler para julgar: evidência antes do palpite",
@@ -164,6 +175,17 @@
       "editalRef": "Língua inglesa e compreensão de textos",
       "habilidade": "aplicar",
       "versao_correta": "O trecho informa abertura aos sábados; não permite concluir o horário dos demais dias."
+    },
+    {
+      "id": "rt-oficina-12-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "The study measured whether users found the documents they needed.",
+      "gabarito": "E",
+      "justificativa": "O texto afirma expressamente que o estudo não mediu se os usuários encontraram os documentos.",
+      "fonte": "Texto e item autorais; prática de leitura com evidência.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "The study did not measure whether users found the documents they needed."
     }
   ],
   "checkpointEdits": {

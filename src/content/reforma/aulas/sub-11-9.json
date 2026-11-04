@@ -1,7 +1,18 @@
 {
   "id": "sub-11-9",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-9-oficina",
+      "titulo": "Oficina aplicada — Governança e gestão em um projeto de biblioteca",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma instituição pretende criar um repositório digital. A alta administração precisa orientar prioridades e acompanhar riscos; a equipe executora precisa organizar tarefas e entregar o serviço.\n\n**1. Governança:** defina direção, avalie necessidades e acompanhe resultados e riscos. Quem decide deve receber informação suficiente para exercer supervisão.\n\n**2. Gestão:** planeje a implementação, distribua tarefas, acompanhe o contrato e corrija problemas. Essa execução deve seguir a direção definida e produzir informação para avaliação.\n\n**3. Aplique a riscos:** perda de arquivos é um risco; controles como cópias verificadas e testes de restauração podem reduzi-lo. O risco residual não é automaticamente zero porque existe uma política escrita.\n\n**Treino autoral C/E:** “Governança e gestão são idênticas e dispensam papéis distintos.” **Errado:** são funções relacionadas com ênfases diferentes.",
+      "checkpointIds": [
+        "rt-oficina-11-9"
+      ]
+    },
     {
       "id": "sub-11-9-bloco-1",
       "titulo": "Conceito e Distinção Essencial: Governança, Gestão e Governabilidade",
@@ -111,6 +122,16 @@
       "justificativa": "Governança e gestão são relacionadas, mas a distinção ajuda a separar direcionamento de execução.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Direito administrativo e gestão pública",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-11-9",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Governança e gestão são relacionadas, mas possuem ênfases e responsabilidades distintas.",
+      "gabarito": "C",
+      "justificativa": "A governança orienta e monitora; a gestão planeja e executa, com interação entre ambas.",
+      "fonte": "Decreto 9.203/2017 e referências de governança da aula; cenário autoral.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
       "habilidade": "aplicar"
     }
   ],
