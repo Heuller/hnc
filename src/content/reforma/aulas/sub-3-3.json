@@ -1,7 +1,18 @@
 {
   "id": "sub-3-3",
-  "versaoTeoria": "2026-11-04.m3-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-3-3-oficina",
+      "titulo": "Oficina aplicada — Indexação: acompanhe o artigo até a busca",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Um artigo fictício investiga como bibliotecas trocam registros para evitar catalogação duplicada. O título é “Trabalho em rede”. Como representá-lo para uma pessoa que pesquisa catalogação cooperativa?\n\n**1. Análise conceitual.** Leia sumário, resumo e partes necessárias. Identifique a ideia principal: compartilhamento de registros entre bibliotecas. Copiar apenas “rede” do título pode perder a especificidade.\n\n**2. Tradução.** Consulte o vocabulário adotado. Suponha que o tesauro use `catalogação cooperativa` para esse conceito. Atribua o descritor se sua nota de escopo corresponder ao documento; se não houver termo adequado, siga a política para lacunas. A forma autorizada é escolhida depois da análise, ainda que haja retornos entre as etapas.\n\n**3. Coordenação.** Se uma entrada combina `catalogação — cooperação` antes da consulta, há pré-coordenação no exemplo. Se os conceitos são registrados separadamente e o usuário os combina com `AND` na busca, há pós-coordenação naquele sistema.\n\n**4. Confira a recuperação.** Suponha 10 resultados, 4 relevantes e 8 relevantes na coleção avaliada: precisão `4/10 = 40%`; revocação `4/8 = 50%`. O primeiro denominador é o conjunto recuperado; o segundo, todos os relevantes conhecidos no teste.\n\n**Questão de prova.** Indexação mais exaustiva pode oferecer mais pontos de acesso, mas não prova sozinha um percentual fixo de precisão. Não confunda quantidade de termos, especificidade e desempenho observado.",
+      "checkpointIds": [
+        "rt-oficina-3-3"
+      ]
+    },
     {
       "id": "sub-3-3-bloco-1",
       "titulo": "A Teoria da Análise Documentária: Da Leitura à Síntese Conceitual",
@@ -151,6 +162,17 @@
       "fonte": "Lancaster, Indexação e resumos, capítulo sobre análise de assunto e tradução; situação hipotética.",
       "editalRef": "Bloco D — Representação e organização da informação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-3-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A tradução para a linguagem documentária acontece quando se identifica o tema, enquanto a análise conceitual é a seleção do descritor autorizado.",
+      "gabarito": "E",
+      "justificativa": "As funções foram trocadas: a análise identifica conceitos e a tradução procura representá-los na linguagem adotada.",
+      "fonte": "Lancaster, Indexação e resumos, análise de assunto e tradução; exemplo autoral.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "A análise identifica conceitos; a tradução os representa na linguagem de indexação adotada."
     }
   ],
   "checkpointEdits": {

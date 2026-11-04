@@ -1,7 +1,18 @@
 {
   "id": "sub-4-1",
-  "versaoTeoria": "2026-11-04.m4-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-4-1-oficina",
+      "titulo": "Oficina aplicada — Monte a busca e veja o que muda nos resultados",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Uma assessora procura relatórios sobre acessibilidade em bibliotecas. A base aceita operadores booleanos. O objetivo não é apenas receber muitos resultados, mas encontrar documentos úteis à pergunta.\n\n**1. Separe os conceitos.** Use `biblioteca` para o local institucional e `acessibilidade` para o tema. Se “inclusão” for variante útil no contexto, teste `(acessibilidade OR inclusão) AND biblioteca`. Os parênteses agrupam alternativas; confirme a sintaxe da base.\n\n**2. Entenda os conjuntos.** Se `A = {D1,D2,D3}` contém documentos com acessibilidade e `B = {D2,D3,D4}` contém documentos com biblioteca, `A AND B = {D2,D3}`. `A OR B` reúne `{D1,D2,D3,D4}`. Isso descreve correspondência aos termos, não sua relevância.\n\n**3. Veja o índice invertido.** O sistema pode guardar `acessibilidade → D1,D2,D3` e `biblioteca → D2,D3,D4`. Comparar listas permite encontrar os IDs comuns; a estrutura e as informações guardadas variam.\n\n**4. Avalie o efeito.** Se um `AND` remove resultados, a precisão pode subir, cair ou permanecer igual, dependendo de quais documentos relevantes foram perdidos. `OR` amplia ou mantém o conjunto na comparação definida, mas não garante mais precisão.\n\n**Experimente.** Se o termo “inclusão” trouxer muitas páginas sem relação com bibliotecas, leia exemplos de resultados e refine campos ou vocabulário. Não classifique a busca como boa apenas pelo total recuperado.",
+      "checkpointIds": [
+        "rt-oficina-4-1"
+      ]
+    },
     {
       "id": "sub-4-1-bloco-1",
       "titulo": "A Gênese e os Fundamentos da Recuperação da Informação (*Information Retrieval - IR*)",
@@ -161,6 +172,16 @@
       "justificativa": "AND restringe ou mantém o conjunto. A precisão depende de quantos dos documentos retirados eram relevantes e não relevantes.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Bloco E — Recuperação e acesso à informação",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-4-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Acrescentar uma condição AND ao mesmo conjunto de busca não garante aumento de precisão.",
+      "gabarito": "C",
+      "justificativa": "AND mantém ou reduz o conjunto; a precisão depende da relevância dos documentos que permaneceram.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval, modelos e avaliação.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
       "habilidade": "aplicar"
     }
   ],

@@ -1,7 +1,18 @@
 {
   "id": "sub-2-2",
-  "versaoTeoria": "2026-11-04.transversal-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-2-2-oficina",
+      "titulo": "Oficina aplicada — RDA e MARC: da descrição ao campo 245",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Um catálogo precisa descrever o livro fictício *Acesso à informação: serviços para leitores*, de Ana Lima. O recurso traz título, subtítulo e responsabilidade. O que é decisão de conteúdo e o que é codificação?\n\n1. **Observe a fonte** e registre os dados seguindo as instruções e opções da política RDA adotada. O título e a responsabilidade não devem ser inventados ou expandidos automaticamente apenas porque uma abreviação parece incômoda.\n2. **Codifique o resultado.** Em um registro MARC bibliográfico hipotético, o campo `245` pode conter `$a Acesso à informação : $b serviços para leitores / $c Ana Lima.` O `$a` identifica o título principal; `$b`, o restante do título; `$c`, a indicação de responsabilidade. A pontuação e os indicadores dependem do registro e das convenções aplicáveis.\n3. **Separe as perguntas.** RDA orienta a descrição e os relacionamentos; MARC define designadores para registrar e trocar dados. Campos `336`, `337` e `338` representam, respectivamente, tipo de conteúdo, mídia e suporte; não são três nomes para o mesmo atributo.\n\n**Compare.** Um registro MARC não é necessariamente feito segundo RDA: outros códigos podem fornecer seu conteúdo. Um registro conforme RDA também pode ser representado em outras estruturas.\n\n**Treino autoral.** “RDA e MARC são formatos concorrentes e um deles torna o outro impossível.” **Errado:** podem atuar juntos, respondendo a perguntas distintas. Na prova do STJ/2024, item 67, a banca tratou da sucessão histórica de AACR2 por RDA e atribuiu **C** no gabarito definitivo; isso não prova que toda biblioteca já tenha migrado. Consulte a fonte vinculada na aula.\n\n**Experimente.** Se Ana Lima escreve “2ª edição revista” na fonte, a identificação dessa informação e sua representação exigem examinar as instruções e o campo adequados; não basta alterar `$b`, que aqui se refere ao título.",
+      "checkpointIds": [
+        "rt-oficina-2-2"
+      ]
+    },
     {
       "id": "sub-2-2-bloco-1",
       "titulo": "Da Crise Estrutural do AACR2 à Gênese do Padrão RDA",
@@ -155,6 +166,17 @@
       "fonte": "Library of Congress, MARC 21 Bibliográfico, campos 336, 337 e 338; situação hipotética.",
       "editalRef": "Bloco D — Representação e organização da informação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-2-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "RDA e MARC 21 são formatos mutuamente exclusivos, de modo que não podem ser empregados no mesmo registro.",
+      "gabarito": "E",
+      "justificativa": "RDA orienta elementos e relacionamentos; MARC pode codificá-los. Não são opções mutuamente exclusivas.",
+      "fonte": "Library of Congress, MARC 21 bibliográfico, campo 245; IFLA LRM e documentação RDA citadas na aula.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "Um registro MARC pode codificar informações descritas segundo RDA."
     }
   ],
   "checkpointEdits": {

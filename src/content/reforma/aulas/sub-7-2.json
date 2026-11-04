@@ -1,7 +1,18 @@
 {
   "id": "sub-7-2",
-  "versaoTeoria": "2026-11-04.m7-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-7-2-oficina",
+      "titulo": "Oficina aplicada — Pragas: identificar, monitorar e tratar a causa",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "A equipe encontra insetos próximos às estantes. Antes de aplicar um produto químico, precisa saber o que está acontecendo e proteger pessoas e acervo.\n\n**1. Inspecione:** registre local, sinais, tipo e frequência; uma armadilha de monitoramento pode ajudar a identificar a presença. Um inseto isolado não determina sozinho a extensão da infestação.\n\n**2. Reduza condições favoráveis:** trate infiltrações, acúmulo de poeira e fontes de alimento; examine entradas e materiais recém-chegados. Monitore novamente para verificar resultados.\n\n**3. Escolha tratamento com especialistas:** congelamento e anóxia têm requisitos e limites de aplicação; não devem ser improvisados nem tratados como solução universal para todo material e organismo. Segurança e compatibilidade importam.\n\n**Treino autoral C/E:** “Controle integrado equivale à aplicação rotineira de inseticida.” **Errado:** integra monitoramento, prevenção e medidas proporcionais.",
+      "checkpointIds": [
+        "rt-oficina-7-2"
+      ]
+    },
     {
       "id": "sub-7-2-bloco-1",
       "titulo": "A Ameaça Biológica nos Acervos Documentais",
@@ -143,6 +154,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Preservação e conservação de acervos",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-7-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O controle integrado de pragas consiste exclusivamente na aplicação periódica de inseticidas.",
+      "gabarito": "E",
+      "justificativa": "O controle integrado combina diagnóstico, prevenção, monitoramento e intervenções apropriadas.",
+      "fonte": "Cassares e Moi; referências de controle integrado indicadas na aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "O controle integrado combina diagnóstico, prevenção, monitoramento e intervenções apropriadas."
     }
   ],
   "checkpointEdits": {

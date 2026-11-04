@@ -1,7 +1,18 @@
 {
   "id": "sub-5-2",
-  "versaoTeoria": "2026-11-04.m5-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-5-2-oficina",
+      "titulo": "Oficina aplicada — De um perfil de interesse a uma DSI",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma assessora acompanha acessibilidade digital e pede novidades para fundamentar um relatório. Uma lista única enviada hoje atende à pesquisa imediata; para acompanhamento continuado, pode-se organizar uma disseminação seletiva da informação (DSI).\n\n**1. Conheça a necessidade.** Combine tema, finalidade, tipos de fonte, frequência e canal. O perfil pode ser construído de diferentes modos, inclusive a partir de informação implícita quando apropriado; isso não elimina cuidados com dados pessoais.\n\n**2. Selecione e envie.** Consulte fontes adequadas, avalie data e pertinência e envie referências com breve explicação. Exemplo: dois estudos e uma norma identificada pela edição, em vez de todos os resultados de uma busca automática.\n\n**3. Peça retorno.** Se a assessora só precisa de repositórios públicos, ajuste termos e fontes. DSI envolve seleção recorrente orientada pelo perfil; uma bibliografia avulsa, por si só, não demonstra esse ciclo.\n\n**Treino autoral C/E:** “Uma única lista é sempre DSI.” **Errado:** é necessário examinar a natureza do serviço.",
+      "checkpointIds": [
+        "rt-oficina-5-2"
+      ]
+    },
     {
       "id": "sub-5-2-bloco-1",
       "titulo": "O CRM (Customer Relationship Management) Aplicado a Serviços de Informação",
@@ -223,6 +234,17 @@
       "editalRef": "Bloco D — Gestão de unidades e recursos de informação",
       "habilidade": "aplicar",
       "versao_correta": "Uma bibliografia pontual não constitui necessariamente DSI; o serviço envolve seleção corrente orientada a perfil."
+    },
+    {
+      "id": "rt-oficina-5-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Uma bibliografia enviada uma única vez demonstra, por si só, a existência de um serviço contínuo de DSI.",
+      "gabarito": "E",
+      "justificativa": "Uma lista pontual pode atender a uma necessidade; a DSI pressupõe seleção orientada a perfil e acompanhamento corrente.",
+      "fonte": "Caso autoral; bibliografia de DSI indicada na aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "Uma lista pontual pode atender a uma necessidade; a DSI pressupõe seleção orientada a perfil e acompanhamento corrente."
     }
   ],
   "checkpointEdits": {

@@ -1,14 +1,25 @@
 {
   "id": "sub-3-4",
-  "versaoTeoria": "2026-11-04.m3-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-2",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-3-4-oficina",
+      "titulo": "Oficina aplicada — Leia um tesauro como instrumento de busca",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Uma usuária procura “ensino a distância”, mas o catálogo adota `educação a distância`. Como o vocabulário ajuda sem apagar o modo como a usuária fala?\n\n**1. Equivalência.** Em um tesauro hipotético, `Ensino a distância USE Educação a distância` orienta a busca da variante ao termo preferido. A variante continua útil como remissiva; controlar sinônimos não exige apagá-los.\n\n**2. Hierarquia.** O termo adotado pode ter relação `TG` (termo geral) e `TE` (termo específico), desde que prevista e adequada no tesauro. “Mais amplo” não significa simplesmente “associado”.\n\n**3. Associação.** Uma relação `TR` pode ligar conceitos associados que não sejam equivalentes nem hierárquicos. Por exemplo, um vocabulário hipotético pode relacionar educação a distância a ambientes virtuais de aprendizagem. A relação real deve ser conferida na fonte.\n\n**4. Nota de escopo.** Ela esclarece como usar um termo naquele vocabulário. A mesma palavra pode ter sentidos diferentes em domínios distintos; a nota reduz ambiguidade, mas não interpreta automaticamente todo documento.\n\n**Como a Cebraspe cobrou.** No MPCE/2025, item 117, a afirmação de que apenas listas de cabeçalhos controlariam sinônimos recebeu gabarito definitivo **E**. Tesauros também podem registrar equivalências e remissivas. Veja o caderno e o gabarito vinculados na aula.\n\n**Experimente.** `USE`, `TG` e `TR` respondem, respectivamente, a perguntas sobre forma preferida, conceito mais amplo e associação. Confundi-las altera o caminho de busca.",
+      "checkpointIds": [
+        "rt-oficina-3-4"
+      ]
+    },
     {
       "id": "sub-3-4-bloco-1",
       "titulo": "As Linguagens Documentárias: Natureza, Tipologia e Funções",
       "objetivos": [
         "Distinguir variação de termos e conceitos."
       ],
-      "conteudo": "**Por que controlar linguagem?** Uma pessoa pesquisa “ensino a distância”; um relatório usa outra expressão para o mesmo conceito. Se a busca literal não reconhecer a variante, pode deixar de recuperar o documento. Uma linguagem documentária estabelece formas e relações para tornar a indexação e a busca mais consistentes. Sistemas de linguagem natural também podem tratar variantes; a falha não é inevitável.\n\nUm **tesauro** é um tipo de vocabulário controlado estruturado. Ele pode indicar um termo preferido, variantes, conceitos mais amplos, específicos e relacionados. É um instrumento para organizar conceitos, não uma lista qualquer de palavras em ordem alfabética.\n\nAs linguagens documentárias são sistemas artificiais de signos criados para padronizar e controlar o vocabulário em unidades de informação, atuando como instrumentos mediadores entre o conteúdo dos documentos e as necessidades de informação dos usuários (Cintra et al., 2002; Lara, 1993).\n\n#### A. A Superação das Limitações da Linguagem Natural\nA linguagem natural humana caracteriza-se pela flexibilidade e expressividade poética, mas é repleta de variações que precisam ser tratadas na recuperação, sem tornar toda busca em linguagem natural inviável:\n1. **Sinonímia:** Múltiplos vocábulos expressando o mesmo conceito (exemplo de variantes em um domínio: uma sigla e sua forma por extenso; juiz e árbitro não devem ser tratados automaticamente como sinônimos jurídicos). Uma busca literal pode omitir documentos que empregam variantes; a extensão do problema depende dos recursos de busca e expansão disponíveis.\n2. **Polissemia e Homografia:** O mesmo significante carregando múltiplos sentidos distintos (ex.: *banco* = instituição financeira vs. assento de madeira; *pena* = sanção penal vs. pluma de ave).\n3. **Ambiguidade Sintática:** Dificuldade em definir papéis gramaticais nas combinações de palavras.\n\nA linguagem documentária busca reduzir ambiguidades e controlar representações estabelecendo **regras estritas de controle terminológico**: seleciona um único descritor preferido para cada conceito, desfaz homônimos por meio de qualificadores entre parênteses e estabelece uma rede explícita de relacionamentos, sujeita a revisão, contexto e política.\n\n**Aplicação e recuperação:** A mesma sigla designa entidades diferentes. Controlar o termo exige contexto e qualificação, sem apagar a existência dos outros sentidos. Linguagem natural e vocabulário controlado podem ser combinados numa busca. O instrumento reduz problemas, não torna qualquer resultado automaticamente pertinente.",
+      "conteudo": "**Por que controlar linguagem?** Uma pessoa pesquisa “ensino a distância”; um relatório usa outra expressão para o mesmo conceito. Se a busca literal não reconhecer a variante, pode deixar de recuperar o documento. Uma linguagem documentária estabelece formas e relações para tornar a indexação e a busca mais consistentes. Sistemas de linguagem natural também podem tratar variantes; a falha não é inevitável.\n\nUm **tesauro** é um tipo de vocabulário controlado estruturado. Ele pode indicar um termo preferido, variantes, conceitos mais amplos, específicos e relacionados. É um instrumento para organizar conceitos, não uma lista qualquer de palavras em ordem alfabética.\n\nAs linguagens documentárias são sistemas artificiais de signos criados para padronizar e controlar o vocabulário em unidades de informação, atuando como instrumentos mediadores entre o conteúdo dos documentos e as necessidades de informação dos usuários (Cintra et al., 2002; Lara, 1993).\n\n#### A. A Superação das Limitações da Linguagem Natural\nA linguagem natural humana caracteriza-se pela flexibilidade e expressividade poética, mas é repleta de variações que precisam ser tratadas na recuperação, sem tornar toda busca em linguagem natural inviável:\n1. **Sinonímia:** Múltiplos vocábulos expressando o mesmo conceito (exemplo de variantes em um domínio: uma sigla e sua forma por extenso; juiz e árbitro não devem ser tratados automaticamente como sinônimos jurídicos). Uma busca literal pode omitir documentos que empregam variantes; a extensão do problema depende dos recursos de busca e expansão disponíveis.\n2. **Polissemia e Homografia:** O mesmo significante carregando múltiplos sentidos distintos (ex.: *banco* = instituição financeira vs. assento de madeira; *pena* = sanção penal vs. pluma de ave).\n3. **Ambiguidade Sintática:** Dificuldade em definir papéis gramaticais nas combinações de palavras.\n\nUma linguagem documentária busca tornar representações mais consistentes. Conforme seu tipo e sua política, pode estabelecer termos preferidos e remissivas, qualificar sentidos e explicitar relações entre conceitos. Esses mecanismos não eliminam automaticamente toda ambiguidade nem aparecem da mesma forma em todas as linguagens documentárias.\n\n**Exemplo:** em um tesauro hipotético, `EAD USE educação a distância` orienta o uso do termo preferido para aquele conceito. Já `manga (fruta)` e `manga (vestuário)` distinguem sentidos diferentes da mesma palavra: os qualificadores não tornam esses sentidos sinônimos. Uma busca literal por `manga` pode trazer os dois assuntos se o sistema não utilizar contexto ou qualificação.\n\n**Aplicação e recuperação:** A mesma sigla designa entidades diferentes. Controlar o termo exige contexto e qualificação, sem apagar a existência dos outros sentidos. Linguagem natural e vocabulário controlado podem ser combinados numa busca. O instrumento reduz problemas, não torna qualquer resultado automaticamente pertinente.",
       "checkpointIds": [
         "rt-3-4-1"
       ]
@@ -203,6 +214,16 @@
       "editalRef": "Bloco D — Representação e organização da informação",
       "habilidade": "aplicar",
       "versao_correta": "Termos não preferidos podem ser mantidos como remissivas para a forma preferida no vocabulário."
+    },
+    {
+      "id": "rt-oficina-3-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um termo não preferido pode permanecer em um tesauro como remissiva para a forma preferida.",
+      "gabarito": "C",
+      "justificativa": "Controle terminológico pode manter variantes como pontos de entrada e orientar a forma preferida.",
+      "fonte": "IBICT/Anvisa, Guia sobre a construção de tesauros; Cebraspe MPCE/2025, item 117, gabarito definitivo E.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {

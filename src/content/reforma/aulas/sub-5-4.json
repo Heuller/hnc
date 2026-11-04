@@ -1,7 +1,18 @@
 {
   "id": "sub-5-4",
-  "versaoTeoria": "2026-11-04.m5-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-5-4-oficina",
+      "titulo": "Oficina aplicada — Transformar experiência em procedimento compartilhável",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma bibliotecária experiente resolve pedidos complexos de pesquisa. A equipe quer reduzir a dependência de uma única pessoa sem supor que toda experiência possa ser capturada em um manual.\n\n**1. Socialização:** uma colega acompanha atendimentos e aprende observando e conversando. Há troca de experiências, inclusive de conhecimentos difíceis de verbalizar.\n\n**2. Externalização:** a equipe discute critérios de busca e registra exemplos de decisão em um guia. A experiência é parcialmente articulada; o documento não reproduz integralmente a habilidade da profissional.\n\n**3. Combinação e internalização:** o guia é integrado a normas e fontes existentes; depois, colegas o estudam e praticam em casos novos. Na linguagem do modelo SECI, o ciclo ajuda a analisar conversões, sem garantir que ocorram sempre em uma sequência rígida.\n\n**Treino autoral C/E:** “Um procedimento escrito elimina todo conhecimento tácito.” **Errado:** habilidades contextuais podem continuar dependendo de prática e interação.",
+      "checkpointIds": [
+        "rt-oficina-5-4"
+      ]
+    },
     {
       "id": "sub-5-4-bloco-1",
       "titulo": "A Fronteira Epistemológica entre Informação e Conhecimento",
@@ -195,6 +206,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Gestão de unidades e recursos de informação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-5-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Registrar uma rotina em manual assegura que todo o conhecimento tácito dos profissionais foi convertido em conhecimento explícito.",
+      "gabarito": "E",
+      "justificativa": "A documentação pode explicitar parte da experiência, mas não garante capturar toda habilidade contextual.",
+      "fonte": "Nonaka e Takeuchi; Polanyi, conforme referências da aula; caso autoral.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "A documentação pode explicitar parte da experiência, mas não garante capturar toda habilidade contextual."
     }
   ],
   "checkpointEdits": {

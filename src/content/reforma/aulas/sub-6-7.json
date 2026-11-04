@@ -1,7 +1,18 @@
 {
   "id": "sub-6-7",
-  "versaoTeoria": "2026-11-04.m6-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-6-7-oficina",
+      "titulo": "Oficina aplicada — OCR não é revisão: um fluxo de digitalização",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca digitaliza relatórios impressos. A imagem mostra “2023”, mas o OCR devolve “2O23”, com letra O. Uma busca textual por 2023 pode deixar de recuperar esse trecho.\n\n**1. Digitalize:** produza imagens legíveis e mantenha o arquivo de origem conforme a política.\n\n**2. Reconheça:** OCR tenta transformar sinais de texto impresso em caracteres; HTR é associado ao reconhecimento de escrita manuscrita. Resultados dependem de qualidade da imagem, escrita, idioma e ferramenta.\n\n**3. Confira e corrija:** amostre páginas, verifique datas e nomes relevantes e registre alterações. Para avaliação, compare a transcrição com uma referência confiável e informe a métrica e o conjunto avaliado.\n\n**4. Publique com contexto:** associe texto, imagem, metadados e restrições de acesso. Uma boa taxa média não prova que cada data foi reconhecida corretamente.\n\n**Treino autoral C/E:** “OCR perfeito é garantido por alta resolução.” **Errado.**",
+      "checkpointIds": [
+        "rt-oficina-6-7"
+      ]
+    },
     {
       "id": "sub-6-7-bloco-1",
       "titulo": "Aplicações de IA e Processamento de Linguagem Natural (PLN) na Gestão Documental",
@@ -182,6 +193,17 @@
       "editalRef": "Bloco D — Tecnologias de informação, bibliotecas digitais e preservação",
       "habilidade": "aplicar",
       "versao_correta": "O OCR pode gerar texto pesquisável, mas sua precisão e acessibilidade requerem avaliação."
+    },
+    {
+      "id": "rt-oficina-6-7",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Uma digitalização de alta resolução garante que o OCR reconheça corretamente todos os caracteres.",
+      "gabarito": "E",
+      "justificativa": "Qualidade da imagem ajuda, mas fonte, idioma e outros fatores afetam o resultado; revisão continua necessária.",
+      "fonte": "Caso autoral; fontes de OCR e avaliação citadas na aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "Qualidade da imagem ajuda, mas fonte, idioma e outros fatores afetam o resultado; revisão continua necessária."
     }
   ],
   "checkpointEdits": {

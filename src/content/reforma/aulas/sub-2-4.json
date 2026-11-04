@@ -1,7 +1,18 @@
 {
   "id": "sub-2-4",
-  "versaoTeoria": "2026-11-04.m2-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-2-4-oficina",
+      "titulo": "Oficina aplicada — Leia um registro MARC sem confundir campo e conteúdo",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Dois catálogos querem trocar dados de um livro. Ambos precisam reconhecer qual parte do registro contém título, autoria e outros elementos, mesmo que exibam telas diferentes.\n\nUm registro MARC é organizado em **campos**, identificados por etiquetas numéricas; campos de dados podem conter indicadores e **subcampos**. No exemplo ilustrativo `245 10 $a Acesso à informação : $b serviços para leitores / $c Ana Lima.`, `245` identifica a indicação de título; `$a`, o título principal; `$b`, o restante do título; `$c`, a responsabilidade. Os indicadores também precisam ser interpretados segundo o campo; não são valores escolhidos ao acaso.\n\n**O que cada formato registra?** Um registro **bibliográfico** descreve o recurso; um registro de **autoridade** controla uma entidade e suas formas de nome; dados de **coleções/existências** descrevem a disponibilidade mantida conforme seu formato e implementação. Uma biblioteca pode relacionar esses registros sem transformá-los numa coisa só.\n\n**Teste na prática.** Se duas pessoas têm o nome Ana Lima, copiar o mesmo nome para ambos os registros não resolve a identidade. A equipe verifica fontes e utiliza pontos de acesso e identificadores apropriados. Controle de autoridade facilita reunir variantes e distinguir homônimos, mas não garante que toda base importada esteja correta.\n\n**Pegadinha.** “O MARC escolhe automaticamente o autor principal de qualquer obra.” **Errado.** O MARC codifica campos e subcampos; a escolha do ponto de acesso segue as regras e informações do recurso. A mesma etiqueta pode ter função diferente entre formatos, portanto confira se a questão menciona registro bibliográfico ou de autoridade.",
+      "checkpointIds": [
+        "rt-oficina-2-4"
+      ]
+    },
     {
       "id": "sub-2-4-bloco-1",
       "titulo": "Notação de Autor e a Composição do Número de Chamada",
@@ -150,6 +161,16 @@
       "justificativa": "A etiqueta 245 identifica o campo de título; por exemplo, $a pode conter o título e $b outras informações de título conforme a documentação do campo.",
       "fonte": "Library of Congress, MARC 21 Bibliográfico, campo 245.",
       "editalRef": "Bloco D — Representação e organização da informação",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-2-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O MARC 21 define uma estrutura de codificação; a escolha do ponto de acesso depende das regras e da análise do recurso.",
+      "gabarito": "C",
+      "justificativa": "O formato não substitui a decisão catalográfica nem comprova a correção dos dados.",
+      "fonte": "Library of Congress, MARC 21 bibliográfico, campo 245 e formatos de autoridade; exemplo autoral.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
       "habilidade": "aplicar"
     }
   ],

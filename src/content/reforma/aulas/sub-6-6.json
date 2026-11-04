@@ -1,7 +1,18 @@
 {
   "id": "sub-6-6",
-  "versaoTeoria": "2026-11-04.m6-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-6-6-oficina",
+      "titulo": "Oficina aplicada — SQL: conte primeiro, filtre grupos depois",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma tabela hipotética `emprestimos` registra uma linha por operação, com a coluna `area`. Existem três linhas para Direito e uma para História. A equipe quer listar áreas com pelo menos dois empréstimos.\n\n**1. Agrupe e conte:** `SELECT area, COUNT(*) FROM emprestimos GROUP BY area` produz Direito = 3 e História = 1.\n\n**2. Filtre grupos:** acrescente `HAVING COUNT(*) >= 2`. O resultado mantém Direito e exclui História. `WHERE`, em contraste, filtra linhas antes do agrupamento; pode ser usado, por exemplo, para selecionar apenas um período, se houver coluna de data.\n\n**3. Confira o significado:** o número é de operações registradas, não necessariamente de pessoas distintas. Para contar pessoas diferentes seria preciso identificador e consulta apropriada.\n\n**Treino autoral C/E:** “HAVING pode filtrar grupos pelo resultado de uma contagem.” **Certo**, no exemplo.",
+      "checkpointIds": [
+        "rt-oficina-6-6"
+      ]
+    },
     {
       "id": "sub-6-6-bloco-1",
       "titulo": "Decompor, abstrair e testar um procedimento",
@@ -193,6 +204,16 @@
       "justificativa": "WHERE e HAVING atuam em etapas lógicas diferentes no mesmo nível; o plano físico escolhido pelo banco pode variar.",
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Tecnologias de informação, bibliotecas digitais e preservação",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-6-6",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Em uma consulta agrupada, HAVING pode restringir grupos conforme o valor de COUNT(*).",
+      "gabarito": "C",
+      "justificativa": "HAVING avalia a condição sobre grupos; WHERE normalmente restringe as linhas antes do agrupamento.",
+      "fonte": "Exemplo SQL autoral; documentação SQL e referências da aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
       "habilidade": "aplicar"
     }
   ],

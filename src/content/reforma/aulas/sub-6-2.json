@@ -1,7 +1,18 @@
 {
   "id": "sub-6-2",
-  "versaoTeoria": "2026-11-04.m6-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-6-2-oficina",
+      "titulo": "Oficina aplicada — Colheita de metadados ou pesquisa remota?",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca quer tornar visíveis teses mantidas em outro repositório. Há dois problemas possíveis: reunir periodicamente descrições em um índice local ou pesquisar o catálogo remoto no momento da consulta.\n\n**1. Colheita:** no OAI-PMH, um provedor de serviços pode solicitar registros de metadados a um provedor de dados e incorporá-los ao seu índice. O arquivo integral não é necessariamente transferido; é preciso verificar permissões, identificadores e atualização.\n\n**2. Pesquisa remota:** protocolos como Z39.50 ou SRU permitem formular buscas em sistemas que os implementem. O resultado depende da disponibilidade remota e dos recursos suportados.\n\n**3. Compare:** um índice colhido pode ficar desatualizado entre coletas; uma consulta remota pode falhar se o serviço estiver indisponível. Nenhuma alternativa garante cobertura completa ou pertinência perfeita.\n\n**Treino autoral C/E:** “OAI-PMH colhe metadados, logo sempre baixa automaticamente o texto integral.” **Errado.**",
+      "checkpointIds": [
+        "rt-oficina-6-2"
+      ]
+    },
     {
       "id": "sub-6-2-bloco-1",
       "titulo": "Repositórios Institucionais (RIs) e a Arquitetura DSpace",
@@ -187,6 +198,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Tecnologias de informação, bibliotecas digitais e preservação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-6-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Colher registros por OAI-PMH implica necessariamente copiar o texto integral dos documentos.",
+      "gabarito": "E",
+      "justificativa": "O protocolo trata da coleta de metadados; acesso ou transferência dos arquivos depende da implementação e das permissões.",
+      "fonte": "OAI-PMH e protocolos citados na aula; cenário hipotético.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "O protocolo trata da coleta de metadados; acesso ou transferência dos arquivos depende da implementação e das permissões."
     }
   ],
   "checkpointEdits": {

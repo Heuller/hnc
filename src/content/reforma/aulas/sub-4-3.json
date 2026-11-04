@@ -1,7 +1,18 @@
 {
   "id": "sub-4-3",
-  "versaoTeoria": "2026-11-04.m4-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-4-3-oficina",
+      "titulo": "Oficina aplicada — Da pergunta jurídica ao documento e à versão",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Uma assessora precisa saber o texto aplicável de uma norma em uma data passada e localizar uma decisão judicial relacionada. A pesquisa exige mais do que digitar palavras em um buscador.\n\n**1. Separe as perguntas.** Para o texto normativo, procure legislação em fonte oficial e verifique a data e a versão. Para saber como um tribunal decidiu, procure decisões na fonte jurisprudencial adequada. Para análise acadêmica, consulte doutrina. Um tipo não substitui automaticamente o outro.\n\n**2. Identifique e localize.** Uma URN Lex pode identificar um documento conforme regras de construção; uma URL aponta para um endereço de acesso. A URL pode mudar; a URN não prova que a página esteja ativa ou que a versão exibida corresponda à data solicitada.\n\n**3. Acompanhe versões.** A publicação original, uma alteração e o texto consolidado têm funções diferentes. Registre a referência, a fonte, a data da consulta e os limites da consolidação. Confirme vigência e efeitos no caso, inclusive regras transitórias quando pertinentes.\n\n**4. Organize a resposta.** Entregue os links, descreva quais documentos foram encontrados e diferencie texto, decisão e comentário. Se algo não pôde ser confirmado, diga isso.\n\n**Conexão com SLIC.** Um índice pode oferecer caminhos por termos de assunto, como o exemplo detalhado nesta aula; ele ajuda a localizar registros, mas não verifica sozinho a versão jurídica ou a pertinência do documento.",
+      "checkpointIds": [
+        "rt-oficina-4-3"
+      ]
+    },
     {
       "id": "sub-4-3-bloco-1",
       "titulo": "O Tripé Estruturante da Informação Jurídica no Parlamento",
@@ -242,6 +253,16 @@
       "justificativa": "Identificação, localização e verificação da versão são operações distintas. Uma URN não substitui a consulta à fonte e à data pertinente.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Bloco E — Recuperação e acesso à informação",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-4-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Uma URN pode identificar um documento, mas não garante por si que sua versão esteja atualizada ou acessível em determinado endereço.",
+      "gabarito": "C",
+      "justificativa": "Identificação, localização e conferência da versão são tarefas distintas.",
+      "fonte": "Projeto LexML, Parte 2: URN; situação hipotética.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
       "habilidade": "aplicar"
     }
   ],
