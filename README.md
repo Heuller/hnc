@@ -16,7 +16,7 @@
 
 A plataforma integra teoria, banco de questões com proveniência identificada, repetição espaçada (algoritmo Leitner), caderno de erros, avaliador de discursivas com inteligência artificial e simulados adaptativos.
 
-A reforma teórica abrange 75 aulas, 429 blocos e 669 microcheckpoints, com explicações, aplicações, revisão essencial e fontes. [Registro da implementação e limites da conferência](docs/reforma-teoria/FECHAMENTO.md). A revisão individual integral das questões dos simulados é uma etapa posterior.
+A reforma teórica abrange 75 aulas, 429 blocos e 680 microcheckpoints, com explicações, aplicações, revisão essencial e fontes. [Registro da implementação e limites da conferência](docs/reforma-teoria/FECHAMENTO.md). A revisão individual integral das questões dos simulados é uma etapa posterior.
 
 ---
 
@@ -105,7 +105,7 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **990 testes** | 100% aprovados em Vitest (127 arquivos de teste) |
+| **Suíte de Testes Automatizados** | **990 testes** | 100% aprovados em Vitest (128 arquivos de teste) |
 | **Qualidade e Estilo (Oxlint)** | **0 avisos, 0 erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
 | **Fixação no Banco Complementar** | **69 itens** | Arquivo de questões complementares; não inclui os microcheckpoints das aulas |
