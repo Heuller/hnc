@@ -1,7 +1,18 @@
 {
   "id": "sub-5-3",
-  "versaoTeoria": "2026-11-04.transversal-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-5-3-oficina",
+      "titulo": "Oficina aplicada — Selecionar, adquirir e decidir sobre o acervo",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca recebe a oferta de 100 livros doados, mas tem espaço limitado e uma política que prioriza determinadas áreas.\n\n**1. Seleção:** compare assunto, estado físico, atualidade e adequação ao público com a política de desenvolvimento de coleções. Doação é modalidade de aquisição; não obriga aceitar tudo automaticamente.\n\n**2. Aquisição:** aceite os itens aprovados seguindo os procedimentos institucionais. Registre as condições da doação e o tratamento dos itens recusados.\n\n**3. Avaliação posterior:** um livro pouco usado pode ser deslocado para depósito, preservando-se no acervo. Isso é desbastamento por remanejamento no exemplo. Descarte é outra decisão, que retira o item do acervo segundo critérios e normas aplicáveis.\n\n**Treino autoral C/E:** “Desbastar sempre significa eliminar definitivamente.” **Errado:** o desbastamento pode envolver remanejamento. Dados de uso ajudam a decidir, mas um item raro ou exigido por lei não deve ser eliminado automaticamente porque circulou pouco.",
+      "checkpointIds": [
+        "rt-oficina-5-3"
+      ]
+    },
     {
       "id": "sub-5-3-bloco-1",
       "titulo": "O Conceito e a Evolução do Desenvolvimento de Coleções",
@@ -229,6 +240,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Gestão de unidades e recursos de informação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-5-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Todo desbastamento implica descarte definitivo do exemplar.",
+      "gabarito": "E",
+      "justificativa": "O desbastamento pode resultar em remanejamento; o descarte exige decisão e procedimentos próprios.",
+      "fonte": "Vergueiro, Desenvolvimento de coleções, conforme referência da aula; cenário hipotético.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "O desbastamento pode resultar em remanejamento; o descarte exige decisão e procedimentos próprios."
     }
   ],
   "checkpointEdits": {

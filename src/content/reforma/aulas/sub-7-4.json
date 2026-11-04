@@ -1,7 +1,18 @@
 {
   "id": "sub-7-4",
-  "versaoTeoria": "2026-11-04.m7-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-7-4-oficina",
+      "titulo": "Oficina aplicada — Infiltração: priorizar, estabilizar e documentar",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Após uma infiltração, parte do acervo está molhada e há risco elétrico. A equipe possui um plano de emergência, mas precisa adaptar a resposta às condições reais.\n\n**1. Proteja pessoas:** isole a área e acione responsáveis pela segurança e pela origem da água. Não entre em ambiente com risco elétrico.\n\n**2. Avalie e priorize:** registre danos e identifique materiais, valor, urgência e recursos disponíveis. Itens molhados podem sofrer novos danos se permanecerem em condições inadequadas.\n\n**3. Estabilize com orientação:** organize a remoção e consulte profissionais de conservação sobre secagem ou outras técnicas adequadas ao tipo e ao estado dos materiais. Nem toda obra deve receber o mesmo procedimento.\n\n**4. Documente:** registre decisões, intervenções e localização, e revise o plano após a ocorrência. Preservar evidências materiais e justificar intervenções também importa na restauração.\n\n**Treino autoral C/E:** “A emergência dispensa documentação.” **Errado:** documentar apoia continuidade e avaliação.",
+      "checkpointIds": [
+        "rt-oficina-7-4"
+      ]
+    },
     {
       "id": "sub-7-4-bloco-1",
       "titulo": "A Teoria da Restauração e a Ética Internacional",
@@ -161,6 +172,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Preservação e conservação de acervos",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-7-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Em uma emergência no acervo, documentar as decisões e intervenções deixa de ter utilidade.",
+      "gabarito": "E",
+      "justificativa": "O registro apoia a continuidade do tratamento, a rastreabilidade e a revisão do plano.",
+      "fonte": "Referências de gestão de riscos e restauração indicadas na aula; cenário hipotético.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "O registro apoia a continuidade do tratamento, a rastreabilidade e a revisão do plano."
     }
   ],
   "checkpointEdits": {

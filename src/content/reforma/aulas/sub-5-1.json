@@ -1,7 +1,18 @@
 {
   "id": "sub-5-1",
-  "versaoTeoria": "2026-11-04.m5-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-5-1-oficina",
+      "titulo": "Oficina aplicada — Do problema ao indicador de serviço",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca quer reduzir o tempo de resposta aos pedidos de pesquisa. Em um mês, registrou 40 pedidos, dos quais 30 receberam resposta no prazo acordado.\n\n**1. Defina o objetivo.** “Responder dentro do prazo” é uma direção; uma meta acrescenta valor e prazo, por exemplo: atingir 90% no próximo trimestre. A meta é hipotética, não uma exigência de norma.\n\n**2. Calcule o indicador.** Pedidos respondidos no prazo ÷ pedidos elegíveis × 100 = 30 ÷ 40 × 100 = **75%**. Registre período, definição de prazo e tratamento de pedidos incompletos. Sem denominador comum, meses diferentes podem não ser comparáveis.\n\n**3. Interprete.** O índice informa cumprimento de prazo; não mede, sozinho, se a resposta foi correta ou útil. Combine-o com avaliação de pertinência e análise de causas. Uma equipe rápida pode entregar respostas inadequadas.\n\n**Treino autoral C/E:** “O cumprimento do prazo prova que o serviço foi pertinente.” **Errado:** são dimensões distintas. SWOT identifica fatores internos e externos; não substitui o acompanhamento do indicador.",
+      "checkpointIds": [
+        "rt-oficina-5-1"
+      ]
+    },
     {
       "id": "sub-5-1-bloco-1",
       "titulo": "Fundamentos e Filosofia do Planejamento Estratégico Bibliotecário",
@@ -179,6 +190,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Gestão de unidades e recursos de informação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-5-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um indicador de respostas no prazo, isoladamente, comprova a pertinência do conteúdo entregue.",
+      "gabarito": "E",
+      "justificativa": "O prazo mede tempestividade; a pertinência depende de avaliação própria.",
+      "fonte": "Caso autoral; Lancaster e ISO 11620 conforme referências da aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "O prazo mede tempestividade; a pertinência depende de avaliação própria."
     }
   ],
   "checkpointEdits": {

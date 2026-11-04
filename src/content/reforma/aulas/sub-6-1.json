@@ -1,7 +1,18 @@
 {
   "id": "sub-6-1",
-  "versaoTeoria": "2026-11-04.m6-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-6-1-oficina",
+      "titulo": "Oficina aplicada — Uma biblioteca digital que pode ser usada",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma instituição digitaliza relatórios e os publica em uma página. Uma estudante precisa encontrar um relatório de 2022 e lê-lo com leitor de tela.\n\n**1. Coleção e organização:** crie descrição, pontos de acesso e política de atualização; arquivos em uma pasta, isoladamente, não explicam como a coleção será descoberta ou mantida.\n\n**2. Serviço e navegação:** permita pesquisar pelo ano e pelo assunto quando o sistema oferecer esses filtros; indique o formato e ajude a pessoa a localizar o arquivo correto.\n\n**3. Acessibilidade:** um PDF formado apenas por imagens pode precisar de reconhecimento de texto, revisão e estrutura adequada. OCR sozinho não garante ordem de leitura, texto alternativo ou acessibilidade integral. Teste tarefas reais com tecnologias assistivas.\n\n**Treino autoral C/E:** “O documento foi digitalizado, logo é acessível.” **Errado:** digitalização e acesso efetivo são problemas relacionados, mas distintos.",
+      "checkpointIds": [
+        "rt-oficina-6-1"
+      ]
+    },
     {
       "id": "sub-6-1-bloco-1",
       "titulo": "O que torna uma biblioteca digital: coleção, organização e serviço",
@@ -171,6 +182,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Tecnologias de informação, bibliotecas digitais e preservação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-6-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Digitalizar um documento garante, por si só, que seu conteúdo seja acessível a leitores de tela.",
+      "gabarito": "E",
+      "justificativa": "Acessibilidade depende de estrutura, conteúdo e testes; a digitalização isolada não garante esses requisitos.",
+      "fonte": "Caso autoral; WCAG e fontes de bibliotecas digitais indicadas na aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "Acessibilidade depende de estrutura, conteúdo e testes; a digitalização isolada não garante esses requisitos."
     }
   ],
   "checkpointEdits": {

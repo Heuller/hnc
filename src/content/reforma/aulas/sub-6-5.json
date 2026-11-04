@@ -1,7 +1,18 @@
 {
   "id": "sub-6-5",
-  "versaoTeoria": "2026-11-04.transversal-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-6-5-oficina",
+      "titulo": "Oficina aplicada — Do empréstimo ao modelo de dados",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca quer registrar empréstimos. A mesma pessoa pode realizar vários empréstimos em datas diferentes; cada empréstimo envolve um exemplar.\n\n**1. Identifique entidades:** `Pessoa`, `Exemplar` e `Emprestimo`. No modelo hipotético, cada empréstimo referencia uma pessoa e um exemplar; uma pessoa ou exemplar pode aparecer em vários empréstimos ao longo do tempo.\n\n**2. Separe dados:** o nome da pessoa fica associado ao registro de pessoa, e a data de devolução ao empréstimo. Duplicar o nome em cada operação pode produzir divergências na atualização.\n\n**3. Defina regras:** um identificador deve distinguir registros, e uma chave estrangeira pode apontar para registro existente conforme o esquema. Normalização reduz determinadas anomalias, mas sua aplicação exige examinar dependências e necessidades reais.\n\n**Treino autoral C/E:** “Todo banco NoSQL dispensa modelagem.” **Errado:** modelos e restrições continuam necessários, embora variem por tecnologia.",
+      "checkpointIds": [
+        "rt-oficina-6-5"
+      ]
+    },
     {
       "id": "sub-6-5-bloco-1",
       "titulo": "Engenharia de Requisitos em Ambientes Documentários e Legislativos",
@@ -192,6 +203,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Tecnologias de informação, bibliotecas digitais e preservação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-6-5",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um banco de dados NoSQL dispensa qualquer modelagem dos dados e das necessidades de consulta.",
+      "gabarito": "E",
+      "justificativa": "A modelagem continua necessária; o formato e as restrições dependem da tecnologia e do problema.",
+      "fonte": "Caso autoral; referências de modelagem e bancos de dados indicadas na aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "A modelagem continua necessária; o formato e as restrições dependem da tecnologia e do problema."
     }
   ],
   "checkpointEdits": {

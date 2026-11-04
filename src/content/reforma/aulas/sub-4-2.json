@@ -1,7 +1,18 @@
 {
   "id": "sub-4-2",
-  "versaoTeoria": "2026-11-04.m4-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-2",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-4-2-oficina",
+      "titulo": "Oficina aplicada — Precisão e revocação sem decorar frações",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Para uma pesquisa, avaliadores identificam **8 documentos relevantes** em uma coleção. A busca devolve **10 documentos**; ao examiná-los, a equipe considera **4 relevantes**.\n\n**Desenhe quatro grupos:**\n\n| | Relevantes | Não relevantes |\n|---|---:|---:|\n| Recuperados | 4 | 6 |\n| Não recuperados | 4 | Não informado |\n\nO grupo relevante não recuperado é `8 − 4 = 4`. Para saber o último número seria necessário conhecer o tamanho total da coleção; não o invente.\n\n**Precisão pergunta:** “Entre os 10 que vieram, quantos servem?” `4/10 = 40%`. **Revocação pergunta:** “Entre os 8 relevantes existentes no conjunto avaliado, quantos encontramos?” `4/8 = 50%`. O numerador coincide neste exemplo; os denominadores respondem a perguntas distintas.\n\n**Ruído e silêncio.** Os seis não relevantes recuperados ilustram ruído; os quatro relevantes não encontrados ilustram silêncio. Na operação real, conhecer todos os relevantes da coleção pode ser difícil. O cálculo de revocação pressupõe um conjunto e julgamentos de relevância definidos ou um método de estimativa explicitado.\n\n**Agora compare.** Uma nova busca pode encontrar mais relevantes e também mais irrelevantes. Calcule novamente; não suponha que a precisão necessariamente caia sempre que a revocação subir.",
+      "checkpointIds": [
+        "rt-oficina-4-2"
+      ]
+    },
     {
       "id": "sub-4-2-bloco-1",
       "titulo": "Conceito e Tipologia Epistemológica das Fontes de Informação",
@@ -19,7 +30,7 @@
       "objetivos": [
         "Classificar fontes segundo uma referência explícita."
       ],
-      "conteudo": "**Acompanhe o trajeto de uma pesquisa.** Uma equipe faz uma pesquisa de campo e publica resultados originais em um artigo: para estudar esses resultados, o artigo pode funcionar como fonte primária. Uma base de resumos organiza registros e permite localizá-lo: exerce função secundária. Um guia que organiza fontes ou bases pode funcionar como terciário, segundo a tipologia adotada.\n\nO mesmo documento pode cumprir funções diferentes conforme a pergunta. Uma revisão é secundária em relação aos estudos que sintetiza, mas seu próprio método pode ser fonte primária para uma pesquisa sobre revisões. O nome “artigo” sozinho não resolve todos os casos.\n\n| Nível Tipológico | Conceito e Natureza | Características Técnicas | Exemplos Gerais Canônicos | Exemplos no Ambiente Legislativo / Jurídico |\n| :--- | :--- | :--- | :--- | :--- |\n| **Fontes Primárias** | Registram o conhecimento original pela primeira vez; registros ou resultados originais para a finalidade considerada; podem conter análise e interpretação. | Grande dispersão física; terminologia especializada; ausência de condensação prévia. | Artigos de periódicos, teses e dissertações, patentes, anais de congressos, relatórios com pesquisa original. | **Projetos de Lei (PLs), Diário Oficial da União (DOU), Diário da Justiça (DJe), acórdãos na íntegra, transcrições taquigráficas.** |\n| **Fontes Secundárias** | Documentos que resultam da organização, análise e sumarização das fontes primárias. | Organizam ou analisam fontes; podem envolver contribuição intelectual original. A função de localização não significa ausência de toda novidade. | Bases de resumos/índices (Scopus, Web of Science, BRAPCI), bibliografias temáticas, catálogos OPAC, dicionários, enciclopédias. | **Catálogo da Rede RVBI, Portal LexML Brasil, ementários jurisprudenciais, compilações legislativas consolidadas.** |\n| **Fontes Terciárias** | Recursos concebidos para apontar a localização e instruir o uso de fontes primárias e secundárias. | São \"sinalizadores de tráfego\"; guias de alto nível sobre a literatura existente. | **Bibliografias de bibliografias**, guias de literatura especializada, diretórios de centros de pesquisa, guias de fontes, conforme a classificação adotada. | **Guia do Usuário da Biblioteca Pedro Aleixo, Guia de Fontes Jurídicas do Senado, diretório de comissões temáticas.** |\n\n> [!CAUTION]\n> **Casca de Banana Cebraspe nº 1:** A banca afirma que *\"as bibliografias de bibliografias e os guias de bibliotecas são fontes de informação secundárias\"*. Na tipologia tripartite adotada aqui, são **TERCIÁRIAS**; enunciados que indiquem outra classificação precisam ser julgados por essa referência. Já a bibliografia comum (que lista livros ou artigos) é **FONTE SECUNDÁRIA**.\n\n**Aplicação e recuperação:** Um guia que leva a bibliografias é terciário na tipologia adotada. Já uma bibliografia de obras sobre o tema funciona como instrumento secundário de localização. Não deduza confiabilidade maior apenas pelo nível.",
+      "conteudo": "**Acompanhe o trajeto de uma pesquisa.** Uma equipe faz uma pesquisa de campo e publica resultados originais em um artigo: para estudar esses resultados, o artigo pode funcionar como fonte primária. Uma base de resumos organiza registros e permite localizá-lo: exerce função secundária. Um guia que organiza fontes ou bases pode funcionar como terciário, segundo a tipologia adotada.\n\nO mesmo documento pode cumprir funções diferentes conforme a pergunta. Uma revisão é secundária em relação aos estudos que sintetiza, mas seu próprio método pode ser fonte primária para uma pesquisa sobre revisões. O nome “artigo” sozinho não resolve todos os casos.\n\n| Nível Tipológico | Conceito e Natureza | Características Técnicas | Exemplos Gerais Canônicos | Exemplos no Ambiente Legislativo / Jurídico |\n| :--- | :--- | :--- | :--- | :--- |\n| **Fontes Primárias** | Registram o conhecimento original pela primeira vez; registros ou resultados originais para a finalidade considerada; podem conter análise e interpretação. | Características variáveis conforme o documento e a finalidade da pesquisa. | Artigos, teses, trabalhos de anais e relatórios quando registram pesquisa ou dados originais; patentes como registros de invenções. | **Projetos de Lei (PLs), Diário Oficial da União (DOU), Diário da Justiça (DJe), acórdãos na íntegra, transcrições taquigráficas.** |\n| **Fontes Secundárias** | Documentos que resultam da organização, análise e sumarização das fontes primárias. | Organizam ou analisam fontes; podem envolver contribuição intelectual original. A função de localização não significa ausência de toda novidade. | Bases de resumos/índices (Scopus, Web of Science, BRAPCI), bibliografias temáticas, catálogos OPAC, dicionários, enciclopédias. | **Catálogo da Rede RVBI, Portal LexML Brasil, ementários jurisprudenciais, compilações legislativas consolidadas.** |\n| **Fontes Terciárias** | Recursos concebidos para apontar a localização e instruir o uso de fontes primárias e secundárias. | São \"sinalizadores de tráfego\"; guias de alto nível sobre a literatura existente. | **Bibliografias de bibliografias**, guias de literatura especializada, diretórios de centros de pesquisa, guias de fontes, conforme a classificação adotada. | **Guia do Usuário da Biblioteca Pedro Aleixo, Guia de Fontes Jurídicas do Senado, diretório de comissões temáticas.** |\n\n> [!CAUTION]\n> **Treino autoral no formato certo ou errado:** “Bibliografias de bibliografias e guias de fontes são, necessariamente, fontes secundárias.” Na tipologia tripartite adotada aqui, são **TERCIÁRIAS**; enunciados que indiquem outra classificação precisam ser julgados por essa referência. Já a bibliografia comum (que lista livros ou artigos) é **FONTE SECUNDÁRIA**.\n\n**Aplicação e recuperação:** Um guia que leva a bibliografias é terciário na tipologia adotada. Já uma bibliografia de obras sobre o tema funciona como instrumento secundário de localização. Não deduza confiabilidade maior apenas pelo nível.",
       "checkpointIds": [
         "cp-4-2-1",
         "cp-4-2-3",
@@ -168,6 +179,17 @@
       "editalRef": "Bloco E — Recuperação e acesso à informação",
       "habilidade": "aplicar",
       "versao_correta": "A precisão é 40%, e a revocação é 50%."
+    },
+    {
+      "id": "rt-oficina-4-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Se 4 dos 10 recuperados são relevantes e há 8 relevantes na coleção avaliada, a precisão é 50% e a revocação é 40%.",
+      "gabarito": "E",
+      "justificativa": "Precisão = 4/10 = 40%; revocação = 4/8 = 50%. O item trocou os denominadores.",
+      "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 8; dados hipotéticos.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "A precisão é 40% e a revocação é 50%."
     }
   ],
   "checkpointEdits": {

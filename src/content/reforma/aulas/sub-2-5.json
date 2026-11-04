@@ -1,7 +1,18 @@
 {
   "id": "sub-2-5",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-2-5-oficina",
+      "titulo": "Oficina aplicada — Órgão, jurisdição e campo: acompanhe a decisão",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Uma comissão hipotética chamada “Comissão de Documentação” publica relatório. Existem unidades com nomes parecidos em órgãos diferentes. O usuário procura o relatório, e a bibliotecária precisa representá-la sem confundir as entidades.\n\n**1. Identifique a entidade real.** Consulte o próprio documento e fontes institucionais: nome, órgão superior, jurisdição e época de atuação. Uma designação genérica isolada pode não ser suficiente para identificar a comissão.\n\n**2. Aplique a regra de conteúdo.** No AACR2r, teste a entrada direta e as regras de subordinação aplicáveis, incluindo os tipos de 24.18 e a necessidade de desambiguação. A existência de uma hierarquia administrativa não significa que todos os níveis devam aparecer automaticamente no cabeçalho.\n\n**3. Registre a função.** No MARC bibliográfico, `110` pode conter uma entrada principal de entidade coletiva; `710`, uma entrada adicional. A escolha depende da relação da entidade com a obra e da regra aplicada. O primeiro indicador e subcampos são definidos conforme o tipo de entrada; não invente valores apenas porque a entidade é governamental.\n\n**Na recuperação.** Uma forma variante de nome pode conduzir ao ponto de acesso adotado, se o controle de autoridade a registrar. O catálogo da biblioteca, uma base de tramitação e um repositório respondem a perguntas relacionadas, mas não idênticas.\n\n**Item autoral.** “Toda entidade governamental é registrada obrigatoriamente sob todos os níveis administrativos, em campo 110.” **Errado.** Tanto a forma quanto a função exigem análise; algumas entradas são diretas e um acesso pode ser adicional.",
+      "checkpointIds": [
+        "rt-oficina-2-5"
+      ]
+    },
     {
       "id": "sub-2-5-bloco-1",
       "titulo": "Poderes, representação e jurisdição",
@@ -246,6 +257,17 @@
       "fonte": "MARC 21 bibliográfico: Library of Congress, campos 110 e 710; caso autoral.",
       "editalRef": "Organização da informação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-2-5",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "No MARC bibliográfico, toda entidade governamental deve figurar necessariamente no campo 110 como entrada principal.",
+      "gabarito": "E",
+      "justificativa": "A função principal ou adicional depende da análise do recurso e das regras; 710 pode ser acesso adicional.",
+      "fonte": "AACR2r, regras 24.17–24.21; Library of Congress, MARC 21 bibliográfico 110 e 710.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "A escolha entre entrada principal e adicional depende das regras e da relação da entidade com a obra."
     }
   ],
   "checkpointEdits": {

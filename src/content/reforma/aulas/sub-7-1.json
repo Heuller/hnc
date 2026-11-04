@@ -1,7 +1,18 @@
 {
   "id": "sub-7-1",
-  "versaoTeoria": "2026-11-04.m7-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-7-1-oficina",
+      "titulo": "Oficina aplicada — Ambiente: medir antes de intervir",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Em uma sala de acervo, a equipe observa odor de umidade e janelas expostas ao sol. Reduzir riscos exige diagnóstico, não apenas ajustar um aparelho a um número isolado.\n\n**1. Observe e registre:** meça temperatura e umidade relativa em locais e horários representativos; examine variações, infiltrações e incidência de luz. Um único registro não descreve toda a situação.\n\n**2. Identifique causas:** verifique goteiras, ventilação e exposição direta. A luz pode causar danos cumulativos; apagar a lâmpada depois não reverte automaticamente o dano já produzido.\n\n**3. Planeje:** adote controles compatíveis com o material, as instalações e as recomendações profissionais aplicáveis. Acompanhe resultados e evite supor um valor universal adequado a toda coleção.\n\n**Treino autoral C/E:** “Dano por luz é sempre reversível quando a iluminação é reduzida.” **Errado:** reduzir exposição previne danos adicionais, sem garantir recuperação do que já ocorreu.",
+      "checkpointIds": [
+        "rt-oficina-7-1"
+      ]
+    },
     {
       "id": "sub-7-1-bloco-1",
       "titulo": "A Estrutura Físico-Química do Livro e da Celulose",
@@ -142,6 +153,17 @@
       "editalRef": "Preservação e conservação de acervos",
       "habilidade": "aplicar",
       "versao_correta": "A estabilidade requer acompanhamento das condições ao longo do tempo."
+    },
+    {
+      "id": "rt-oficina-7-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A redução da iluminação reverte necessariamente os danos de luz já sofridos pelos documentos.",
+      "gabarito": "E",
+      "justificativa": "Reduzir a exposição pode prevenir danos adicionais; não garante reversão dos danos existentes.",
+      "fonte": "Cassares e Moi, conservação preventiva; referências da aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "Reduzir a exposição pode prevenir danos adicionais; não garante reversão dos danos existentes."
     }
   ],
   "checkpointEdits": {

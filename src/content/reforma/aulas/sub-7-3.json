@@ -1,7 +1,18 @@
 {
   "id": "sub-7-3",
-  "versaoTeoria": "2026-11-04.m7-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-7-3-oficina",
+      "titulo": "Oficina aplicada — Higienização e acondicionamento com limites",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Chega à biblioteca um conjunto de relatórios com poeira e folhas frágeis. A equipe precisa protegê-los sem agravar o dano.\n\n**1. Avalie:** identifique sujidade, fragilidade, possível contaminação e elementos soltos. Isole o material e procure orientação especializada quando necessário; não manuseie sem condições de segurança.\n\n**2. Higienize somente quando apropriado:** use técnicas e instrumentos compatíveis, por profissional capacitado. Não aplique água, fita adesiva comum ou produto de limpeza indiscriminadamente.\n\n**3. Acondicione:** escolha suporte e embalagem compatíveis com dimensões e estado; registre a localização e evite sobrecarga. O acondicionamento reduz riscos, mas não substitui tratamento de dano ativo.\n\n**Treino autoral C/E:** “Higienizar é sempre restaurar.” **Errado:** higienização é uma ação de conservação; restauração envolve intervenção com outra finalidade e critérios.",
+      "checkpointIds": [
+        "rt-oficina-7-3"
+      ]
+    },
     {
       "id": "sub-7-3-bloco-1",
       "titulo": "A Hierarquia Conceitual da Salvaguarda Patrimonial",
@@ -169,6 +180,17 @@
       "editalRef": "Preservação e conservação de acervos",
       "habilidade": "aplicar",
       "versao_correta": "A digitalização pode ampliar acesso, mas original e arquivos exigem cuidados próprios."
+    },
+    {
+      "id": "rt-oficina-7-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Toda higienização mecânica de um documento constitui restauração.",
+      "gabarito": "E",
+      "justificativa": "Higienização e restauração são ações distintas, ainda que possam integrar um plano de preservação.",
+      "fonte": "Cassares e Moi; referências de conservação da aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "Higienização e restauração são ações distintas, ainda que possam integrar um plano de preservação."
     }
   ],
   "checkpointEdits": {

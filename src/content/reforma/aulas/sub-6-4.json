@@ -1,7 +1,18 @@
 {
   "id": "sub-6-4",
-  "versaoTeoria": "2026-11-04.m6-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-6-4-oficina",
+      "titulo": "Oficina aplicada — IA com documentos: recuperar, responder e conferir",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe quer que um assistente responda perguntas sobre relatórios de uma biblioteca. Em uma arquitetura RAG, o sistema pode recuperar trechos dos documentos e fornecê-los ao modelo para compor a resposta.\n\n**1. Prepare fontes:** identifique origem, versão e permissões. Se um PDF foi mal extraído, a busca poderá recuperar trechos incompletos.\n\n**2. Recupere e gere:** para “qual foi o prazo do projeto?”, o sistema localiza passagens e produz uma resposta. Pode recuperar documento errado ou interpretar mal uma data; apresentar uma citação não prova que ela sustente a conclusão.\n\n**3. Confira:** abra a fonte, compare o trecho e valide a versão. Defina avaliação com perguntas conhecidas, exemplos sem resposta e análise de erros. Não envie dados pessoais ou sigilosos sem base e controles adequados.\n\n**Treino autoral C/E:** “RAG elimina alucinações.” **Errado:** recuperação pode ajudar, mas não garante resposta correta.",
+      "checkpointIds": [
+        "rt-oficina-6-4"
+      ]
+    },
     {
       "id": "sub-6-4-bloco-1",
       "titulo": "A Inteligência Artificial como Novo Paradigma na Ciência da Informação",
@@ -191,6 +202,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Bloco D — Tecnologias de informação, bibliotecas digitais e preservação",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-6-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O uso de RAG assegura que todas as respostas geradas sejam corretas e fundamentadas.",
+      "gabarito": "E",
+      "justificativa": "A recuperação pode falhar e o modelo pode interpretar incorretamente os trechos; é necessário avaliar e conferir.",
+      "fonte": "Caso autoral; fontes de IA e governança indicadas na aula.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "A recuperação pode falhar e o modelo pode interpretar incorretamente os trechos; é necessário avaliar e conferir."
     }
   ],
   "checkpointEdits": {

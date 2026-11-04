@@ -1,7 +1,18 @@
 {
   "id": "sub-6-3",
-  "versaoTeoria": "2026-11-04.m6-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-6-3-oficina",
+      "titulo": "Oficina aplicada — Cópia de segurança e preservação ao longo do tempo",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Um diário digital foi recebido em PDF. A equipe guarda duas cópias, calcula um resumo criptográfico e planeja testes periódicos.\n\n**1. Fixidez:** calcule o hash ao receber o arquivo e compare com o resultado posterior, usando o mesmo algoritmo. Diferença indica alteração de bits ou problema no processo; a comparação, sozinha, não informa a causa.\n\n**2. Recuperação:** mantenha cópias e teste a restauração. O backup ajuda após perda, mas pode preservar também um arquivo corrompido se não houver controles.\n\n**3. Acesso futuro:** documente formato, contexto e ações; monitore riscos de obsolescência e considere migração ou emulação conforme o caso. Um hash igual não prova que o formato ainda pode ser interpretado.\n\n**Treino autoral C/E:** “Hash idêntico assegura acesso compreensível no futuro.” **Errado:** fixidez e interpretabilidade são dimensões distintas.",
+      "checkpointIds": [
+        "rt-oficina-6-3"
+      ]
+    },
     {
       "id": "sub-6-3-bloco-1",
       "titulo": "Os Desafios e as Três Dimensões da Preservação Digital",
@@ -230,6 +241,17 @@
       "editalRef": "Bloco D — Tecnologias de informação, bibliotecas digitais e preservação",
       "habilidade": "aplicar",
       "versao_correta": "A coincidência dos checksums oferece evidência de fixidez, sem garantir veracidade ou interpretação futura."
+    },
+    {
+      "id": "rt-oficina-6-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A igualdade do hash garante que um arquivo permanecerá interpretável e utilizável no futuro.",
+      "gabarito": "E",
+      "justificativa": "Hash ajuda a verificar alteração de bits, mas não garante software disponível, contexto ou interpretação futura.",
+      "fonte": "Modelo OAIS e PREMIS citados na aula; caso autoral.",
+      "editalRef": "Gestão, tecnologia e preservação da informação",
+      "habilidade": "aplicar",
+      "versao_correta": "Hash ajuda a verificar alteração de bits, mas não garante software disponível, contexto ou interpretação futura."
     }
   ],
   "checkpointEdits": {

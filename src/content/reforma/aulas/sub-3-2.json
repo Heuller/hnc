@@ -1,7 +1,18 @@
 {
   "id": "sub-3-2",
-  "versaoTeoria": "2026-11-04.m3-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-3-2-oficina",
+      "titulo": "Oficina aplicada — CDDir e número de chamada: resolva sem inventar números",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Situação.** Uma pesquisadora pede obras sobre direito parlamentar. A biblioteca usa a CDDir e precisa classificar um novo livro do tema. Como o bibliotecário chega à notação?\n\n1. **Identifique o assunto predominante.** A expressão aparece no título, mas a leitura do sumário e da introdução confirma que é o foco do livro.\n2. **Consulte índice, tabela e notas.** No vocabulário CDDir do Senado, `341.253` identifica direito parlamentar. Abra a entrada e examine sua posição e instruções. Esse dado é um exemplo verificável; não autoriza criar subdivisões que não estejam no instrumento adotado.\n3. **Diferencie classe de localização.** A classe representa o assunto. A notação de autor e uma eventual marca de exemplar são outros componentes possíveis do número de chamada, conforme a política da biblioteca.\n4. **Confira autoria e assunto.** Em uma biografia escrita por Ana sobre Beatriz, Ana é autora e Beatriz é a pessoa estudada. Uma política específica de organização de biografias não muda automaticamente a autoria.\n\n**Experimente.** Duas cópias da mesma edição podem compartilhar classe e notação de autor, mas precisar de indicação de exemplar diferente. O código de barras identifica uma cópia na circulação; não é por isso a classe do assunto.\n\n**Item autoral.** “Qualquer número da CDD pode ser usado na CDDir com o mesmo significado sem consulta.” **Errado.** A relação histórica entre sistemas não dispensa o exame do instrumento e versão.",
+      "checkpointIds": [
+        "rt-oficina-3-2"
+      ]
+    },
     {
       "id": "sub-3-2-bloco-1",
       "titulo": "CDDir: especialização de um domínio",
@@ -134,6 +145,16 @@
       "editalRef": "Bloco D — Representação e organização da informação",
       "habilidade": "aplicar",
       "versao_correta": "Ana é a autora, e Beatriz é a pessoa biografada; o arranjo depende da política adotada."
+    },
+    {
+      "id": "rt-oficina-3-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Classe de assunto e marca de exemplar podem integrar a identificação de um item, mas desempenham funções diferentes.",
+      "gabarito": "C",
+      "justificativa": "A classe representa assunto no sistema adotado; a marca de exemplar ajuda a distinguir cópias conforme a política.",
+      "fonte": "Senado Federal, vocabulário CDDir, entrada 341.253; caso de número de chamada hipotético.",
+      "editalRef": "Organização, representação, recuperação e mediação da informação",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {
