@@ -1,7 +1,18 @@
 {
   "id": "sub-11-10",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-10-oficina",
+      "titulo": "Oficina aplicada — Inexigibilidade e dispensa em uma contratação",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca precisa contratar um serviço. A equipe já deseja escolher o fornecedor e pergunta se “contratação direta” significa ausência de processo.\n\n**1. Analise a competição:** quando a competição é inviável, examine o enquadramento de inexigibilidade no art. 74 da Lei 14.133. Uma alegação de exclusividade precisa ser demonstrada conforme o caso; o simples desejo de contratar determinada empresa não basta.\n\n**2. Examine dispensa:** nas hipóteses legais de dispensa, a lei autoriza contratação direta sob condições específicas. A existência de competição possível não transforma toda contratação em licitação obrigatoriamente realizada.\n\n**3. Instrua a decisão:** contratação direta não significa procedimento sem motivação. Verifique os documentos e justificativas exigidos, inclusive preço e escolha do contratado, conforme o regime aplicável.\n\n**Treino autoral C/E:** “A contratação direta dispensa toda justificativa.” **Errado:** a lei prevê instrução do processo.",
+      "checkpointIds": [
+        "rt-oficina-11-10"
+      ]
+    },
     {
       "id": "sub-11-10-bloco-1",
       "titulo": "Princípios e Finalidades da Licitação na Nova Lei nº 14.133/2021",
@@ -134,6 +145,17 @@
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar",
       "versao_correta": "A inviabilidade deve ser demonstrada no processo, observados os requisitos legais."
+    },
+    {
+      "id": "rt-oficina-11-10",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A contratação direta permite escolher fornecedor sem processo administrativo ou justificativa.",
+      "gabarito": "E",
+      "justificativa": "A Lei 14.133 prevê instrução e justificativas para contratação direta.",
+      "fonte": "Lei 14.133/2021, arts. 72, 74 e 75; caso hipotético.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "A contratação direta exige processo e justificativas conforme a Lei 14.133."
     }
   ],
   "checkpointEdits": {

@@ -1,7 +1,18 @@
 {
   "id": "sub-11-5",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-5-oficina",
+      "titulo": "Oficina aplicada — Excesso de poder e desvio de finalidade",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma servidora recebe competência para autorizar acesso a determinada sala. Em uma hipótese, ela aplica uma penalidade que a norma reservou a outra autoridade. Em outra, usa uma competência que possui para perseguir um usuário.\n\n**1. Pergunte quem pode agir:** quando alguém ultrapassa os limites de sua competência, há questão de excesso de poder. Confirme a atribuição legal e o ato praticado.\n\n**2. Pergunte para quê:** no segundo caso, o problema está na finalidade empregada: perseguir alguém não é a finalidade pública prevista para a competência. Trata-se de desvio de finalidade, a ser demonstrado no caso.\n\n**3. Não confunda com discricionariedade:** existir margem de escolha não autoriza escolher fora da lei ou para finalidade pessoal.\n\n**Treino autoral C/E:** “Poder discricionário permite agir com qualquer finalidade.” **Errado:** a atuação continua sujeita aos limites jurídicos.",
+      "checkpointIds": [
+        "rt-oficina-11-5"
+      ]
+    },
     {
       "id": "sub-11-5-bloco-1",
       "titulo": "Os Poderes Administrativos como Poderes-Deveres",
@@ -131,6 +142,17 @@
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-11-5",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A discricionariedade administrativa autoriza o agente a usar uma competência legal para perseguir finalidade pessoal.",
+      "gabarito": "E",
+      "justificativa": "Mesmo quando há escolha, a finalidade e os demais limites jurídicos devem ser respeitados.",
+      "fonte": "Doutrina de poderes administrativos citada na aula; casos fictícios.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "O exercício discricionário deve respeitar a finalidade pública e os limites legais."
     }
   ],
   "checkpointEdits": {

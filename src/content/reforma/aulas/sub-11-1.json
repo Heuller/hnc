@@ -1,7 +1,18 @@
 {
   "id": "sub-11-1",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-1-oficina",
+      "titulo": "Oficina aplicada — Órgão, entidade e distribuição de competências",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma secretaria de um ministério cria uma coordenação interna para cuidar de bibliotecas. Em outro caso, a lei cria uma autarquia para executar atividade administrativa.\n\n**1. Identifique a pessoa:** a coordenação é uma unidade interna de uma pessoa jurídica existente; ela não adquire personalidade jurídica apenas porque recebeu nome e competências. A autarquia é entidade com personalidade própria.\n\n**2. Identifique a operação:** distribuir competências entre unidades da mesma pessoa é desconcentração. A execução por outra pessoa jurídica caracteriza descentralização, segundo o arranjo pertinente.\n\n**3. Observe a relação:** entre unidades da mesma estrutura pode haver hierarquia; entre ministério e entidade vinculada, a supervisão deve ser exercida nos limites legais e não significa hierarquia automática.\n\n**Treino autoral C/E:** “Todo órgão público é pessoa jurídica.” **Errado:** órgão e entidade respondem a perguntas diferentes. Criar uma coordenação não é, por si só, criar uma autarquia.",
+      "checkpointIds": [
+        "rt-oficina-11-1"
+      ]
+    },
     {
       "id": "sub-11-1-bloco-1",
       "titulo": "Estado, governo e Administração: três perguntas diferentes",
@@ -184,6 +195,16 @@
       "justificativa": "Os departamentos são órgãos da autarquia e não ganham personalidade própria pela divisão interna.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Direito administrativo e gestão pública",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-11-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A distribuição interna de competências pode criar uma unidade sem criar outra pessoa jurídica.",
+      "gabarito": "C",
+      "justificativa": "A desconcentração distribui competências dentro de uma mesma pessoa jurídica.",
+      "fonte": "Constituição, art. 37; doutrina de organização administrativa citada na aula; caso fictício.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
       "habilidade": "aplicar"
     }
   ],

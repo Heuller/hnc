@@ -1,7 +1,18 @@
 {
   "id": "sub-11-4",
-  "versaoTeoria": "2026-11-04.transversal-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-4-oficina",
+      "titulo": "Oficina aplicada — Apuração disciplinar com direito de defesa",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Um usuário apresenta denúncia sobre conduta de um servidor. A chefia considera aplicar sanção apenas com base no relato inicial.\n\n**1. Identifique o regime e o procedimento:** verifique os fatos, a autoridade competente e o procedimento previsto para a hipótese. Uma denúncia pode justificar apuração, mas não comprova por si só a infração.\n\n**2. Permita participação:** no processo pertinente, assegure contraditório e ampla defesa, com acesso e oportunidade de manifestação nos termos aplicáveis. A finalidade é apurar e decidir, não presumir o resultado.\n\n**3. Fundamente a decisão:** confronte provas, argumentos, tipificação e possível sanção. Processo administrativo geral e processo disciplinar têm regras próprias; verifique também os prazos e a legislação do caso.\n\n**Treino autoral C/E:** “A denúncia dispensa defesa porque a Administração deve agir rapidamente.” **Errado:** celeridade não elimina garantias processuais.",
+      "checkpointIds": [
+        "rt-oficina-11-4"
+      ]
+    },
     {
       "id": "sub-11-4-bloco-1",
       "titulo": "Processo administrativo e garantias",
@@ -151,6 +162,17 @@
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar",
       "versao_correta": "O prazo do art. 49 é contado após a conclusão da instrução, conforme a lei."
+    },
+    {
+      "id": "rt-oficina-11-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Uma denúncia contra servidor comprova automaticamente a infração e dispensa contraditório e ampla defesa.",
+      "gabarito": "E",
+      "justificativa": "A denúncia exige apuração; as garantias processuais devem ser observadas.",
+      "fonte": "Constituição, art. 5º, LV; Leis 9.784/1999 e 8.112/1990; caso hipotético.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "A denúncia pode provocar apuração, com observância das garantias processuais aplicáveis."
     }
   ],
   "checkpointEdits": {

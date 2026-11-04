@@ -1,7 +1,18 @@
 {
   "id": "sub-11-6",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-6-oficina",
+      "titulo": "Oficina aplicada — Dano, nexo e regresso: duas relações",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Um veículo de uma entidade pública, conduzido por agente em serviço, colide com o carro de uma pessoa. A análise não termina na frase “o Estado sempre paga”.\n\n**1. Identifique o dano e a relação com a atuação:** examine o fato, o dano e o nexo causal, bem como possíveis causas que possam interferir na responsabilidade. A responsabilidade objetiva constitucional não elimina essas perguntas.\n\n**2. Distinga as relações:** a responsabilidade perante a vítima segue o regime aplicável; a ação regressiva contra o agente tem requisito próprio de dolo ou culpa conforme o art. 37, § 6º, da Constituição.\n\n**3. Evite generalizar omissões:** o tratamento de dano atribuído à omissão depende do enquadramento e da jurisprudência pertinente; não resolva toda hipótese apenas repetindo o exemplo de uma colisão.\n\n**Treino autoral C/E:** “Responsabilidade objetiva dispensa demonstrar dano.” **Errado:** o dano é uma questão central da análise.",
+      "checkpointIds": [
+        "rt-oficina-11-6"
+      ]
+    },
     {
       "id": "sub-11-6-bloco-1",
       "titulo": "Evolução Histórica da Responsabilidade Civil do Estado",
@@ -132,6 +143,16 @@
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar",
       "versao_correta": "A responsabilidade objetiva exige exame de dano, nexo e demais pressupostos pertinentes."
+    },
+    {
+      "id": "rt-oficina-11-6",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A responsabilidade objetiva não elimina a necessidade de demonstrar o dano.",
+      "gabarito": "C",
+      "justificativa": "O dano continua necessário à análise de responsabilidade civil.",
+      "fonte": "Constituição Federal, art. 37, § 6º; caso fictício.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {

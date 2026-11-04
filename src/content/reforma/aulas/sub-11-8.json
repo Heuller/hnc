@@ -1,7 +1,18 @@
 {
   "id": "sub-11-8",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-8-oficina",
+      "titulo": "Oficina aplicada — Modelos de gestão: compare o problema e a resposta",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca enfrenta demora em compras, metas mal definidas e dificuldade para trabalhar com outras instituições. A solução não está em decorar uma sequência de nomes sem entender as propostas.\n\n**1. Burocracia:** regras formais, impessoalidade e procedimentos podem proteger previsibilidade e controle. Um excesso de formalismo pode ser criticado, mas burocracia não significa simplesmente corrupção.\n\n**2. Gestão gerencial:** metas, resultados e desempenho ganham destaque em formulações gerenciais. Um indicador pode ajudar, mas medir quantidade não prova qualidade do serviço.\n\n**3. Governança pública em rede:** coordenação com outras organizações e participação de atores podem ajudar a enfrentar problemas compartilhados. Isso não elimina a responsabilidade da instituição nem significa ausência de controle.\n\n**Treino autoral C/E:** “O surgimento de um modelo elimina integralmente práticas anteriores.” **Errado:** instituições podem combinar mecanismos e características em contextos concretos.",
+      "checkpointIds": [
+        "rt-oficina-11-8"
+      ]
+    },
     {
       "id": "sub-11-8-bloco-1",
       "titulo": "Evolução Histórica dos Modelos de Gestão Pública",
@@ -97,6 +108,17 @@
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-11-8",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A adoção de práticas gerenciais elimina necessariamente todas as regras e controles burocráticos de uma instituição.",
+      "gabarito": "E",
+      "justificativa": "Modelos e práticas podem coexistir; a gestão por resultados não elimina automaticamente regras e controles.",
+      "fonte": "Referências de modelos de gestão pública identificadas na aula; situação hipotética.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "Práticas gerenciais podem coexistir com regras e controles administrativos."
     }
   ],
   "checkpointEdits": {

@@ -1,7 +1,18 @@
 {
   "id": "sub-12-4",
-  "versaoTeoria": "2026-11-04.m12-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-12-4-oficina",
+      "titulo": "Oficina aplicada — May e must: possibilidade não é obrigação",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Texto autoral:** “Users may request a digital copy. Staff must check the applicable access conditions before sending it.”\n\n**1. Identifique quem age:** *users* podem solicitar; *staff* deve conferir as condições antes de enviar. Trocar os sujeitos muda a regra.\n\n**2. Leia os modais:** aqui *may* expressa permissão ou possibilidade de solicitação; *must* expressa obrigação da equipe de verificar. O texto não diz que toda solicitação será atendida.\n\n**3. Compare a paráfrase:** “Users are required to request a digital copy” transforma possibilidade em obrigação. É incompatível com o trecho. “Staff are required to check access conditions before sending a copy” conserva a obrigação expressa.\n\n**Treino autoral C/E:** “The text requires every user to request a digital copy.” **Errado:** solicitar é apresentado como possibilidade, não dever.",
+      "checkpointIds": [
+        "rt-oficina-12-4"
+      ]
+    },
     {
       "id": "sub-12-4-bloco-1",
       "titulo": "Vocabulário em contexto: hipótese lexical e conferência",
@@ -136,6 +147,17 @@
       "editalRef": "Língua inglesa e compreensão de textos",
       "habilidade": "aplicar",
       "versao_correta": "A frase indica que algumas bibliotecas podem se beneficiar."
+    },
+    {
+      "id": "rt-oficina-12-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Every user is required to request a digital copy.",
+      "gabarito": "E",
+      "justificativa": "May, no contexto, permite solicitar; não impõe a todos os usuários a obrigação de fazê-lo.",
+      "fonte": "Texto e item autorais; modais e paráfrase.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "Users may request a digital copy; they are not required by the text to do so."
     }
   ],
   "checkpointEdits": {

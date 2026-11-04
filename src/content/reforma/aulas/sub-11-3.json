@@ -1,7 +1,18 @@
 {
   "id": "sub-11-3",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-3-oficina",
+      "titulo": "Oficina aplicada — Cargo, provimento e estabilidade",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma candidata aprovada é nomeada para um cargo público efetivo. A equipe da biblioteca quer saber se o resultado do concurso já significa que ela tomou posse e adquiriu estabilidade.\n\n**1. Separe os eventos:** aprovação, nomeação, posse e exercício são momentos distintos. A sequência e as condições devem ser conferidas no regime aplicável; aprovação não equivale automaticamente à posse.\n\n**2. Examine o vínculo:** cargo efetivo e cargo em comissão têm regimes e finalidades diferentes. O nome da função no cotidiano não basta para determinar o vínculo jurídico.\n\n**3. Verifique estabilidade:** a estabilidade constitucional de servidor nomeado para cargo efetivo exige as condições previstas na Constituição, inclusive tempo de efetivo exercício e avaliação especial. A posse, por si só, não a confere imediatamente.\n\n**Treino autoral C/E:** “A aprovação transforma imediatamente a candidata em servidora estável.” **Errado:** etapas e requisitos são distintos.",
+      "checkpointIds": [
+        "rt-oficina-11-3"
+      ]
+    },
     {
       "id": "sub-11-3-bloco-1",
       "titulo": "Agentes, vínculos e estabilidade",
@@ -144,6 +155,16 @@
       "justificativa": "A hipótese foi alterada pela emenda; a compatibilidade de horários e as demais condições constitucionais devem ser examinadas.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Direito administrativo e gestão pública",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-11-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A estabilidade de servidor nomeado para cargo efetivo depende dos requisitos constitucionais, além da aprovação no concurso.",
+      "gabarito": "C",
+      "justificativa": "A Constituição exige condições adicionais, inclusive tempo de efetivo exercício e avaliação especial.",
+      "fonte": "Constituição Federal, art. 41; Lei 8.112/1990; caso autoral.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
       "habilidade": "aplicar"
     }
   ],

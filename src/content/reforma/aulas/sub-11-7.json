@@ -1,7 +1,18 @@
 {
   "id": "sub-11-7",
-  "versaoTeoria": "2026-11-04.m11-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-11-7-oficina",
+      "titulo": "Oficina aplicada — Ilegalidade não é automaticamente improbidade",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Um gestor comete uma irregularidade em procedimento de contratação. A equipe de controle deve examinar se ela configura improbidade administrativa segundo os requisitos legais; não basta trocar “ilegal” por “ímprobo”.\n\n**1. Identifique a conduta e a norma:** examine fatos, sujeitos e enquadramento legal. As categorias dos arts. 9º, 10 e 11 da Lei 8.429 têm pressupostos distintos.\n\n**2. Analise o elemento subjetivo:** o STF, no Tema 1199, exige dolo para a tipificação dos atos nesses artigos, conforme a tese e suas condições. Um resultado desfavorável ou uma falha, isoladamente, não demonstra dolo.\n\n**3. Verifique tempo e decisão:** questões de aplicação temporal e prescrição têm tratamento específico; não presuma que todas as alterações retroagem da mesma forma.\n\n**Treino autoral C/E:** “Qualquer irregularidade prova automaticamente improbidade dolosa.” **Errado:** são necessárias análise e prova dos requisitos.",
+      "checkpointIds": [
+        "rt-oficina-11-7"
+      ]
+    },
     {
       "id": "sub-11-7-bloco-1",
       "titulo": "O Marco Revolucionário da Lei nº 14.230/2021 na Improbidade Administrativa",
@@ -131,6 +142,17 @@
       "editalRef": "Direito administrativo e gestão pública",
       "habilidade": "aplicar",
       "versao_correta": "Erro administrativo não configura automaticamente improbidade dolosa."
+    },
+    {
+      "id": "rt-oficina-11-7",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Toda irregularidade administrativa comprova, por si só, a prática dolosa de improbidade.",
+      "gabarito": "E",
+      "justificativa": "A tipificação depende dos requisitos legais e da demonstração do elemento subjetivo aplicável.",
+      "fonte": "Lei 8.429/1992; STF, Tema 1199, Informativo 1065; exemplo autoral.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "Uma irregularidade exige análise dos requisitos legais antes de ser qualificada como improbidade."
     }
   ],
   "checkpointEdits": {

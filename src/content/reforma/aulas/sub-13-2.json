@@ -1,7 +1,18 @@
 {
   "id": "sub-13-2",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-13-2-oficina",
+      "titulo": "Oficina aplicada — Reescrita: mantenha agente, tempo e condição",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Texto autoral:** “A equipe revisará os registros se receber os documentos até sexta-feira.”\n\n**1. Identifique os papéis:** a equipe executará a revisão; o recebimento dos documentos até sexta é a condição apresentada. O futuro indica ação ainda não realizada no contexto.\n\n**2. Compare:** “Se receber os documentos até sexta-feira, a equipe revisará os registros.” A mudança de ordem preserva a condição, o agente e o tempo.\n\n**3. Teste outra versão:** “A equipe revisou os registros porque recebeu os documentos até sexta-feira.” Agora há passado e causa afirmada: a nova frase não preserva o conteúdo da original.\n\n**Treino autoral C/E:** “A troca por ‘revisou ... porque recebeu’ preserva integralmente o sentido.” **Errado:** condição futura não equivale a causa de fato passado.",
+      "checkpointIds": [
+        "rt-oficina-13-2"
+      ]
+    },
     {
       "id": "sub-13-2-bloco-1",
       "titulo": "Reescrita: três perguntas e o comando da questão",
@@ -135,6 +146,17 @@
       "editalRef": "Língua portuguesa",
       "habilidade": "aplicar",
       "versao_correta": "A substituição pode alterar o grau de certeza expresso."
+    },
+    {
+      "id": "rt-oficina-13-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A reescrita “A equipe revisou os registros porque recebeu os documentos até sexta-feira” preserva integralmente o sentido do original.",
+      "gabarito": "E",
+      "justificativa": "A reescrita troca a condição futura por causa e ação apresentadas como passadas.",
+      "fonte": "Brasil (2018), Manual de Redação da Presidência da República, 3ª ed.; texto e item autorais.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar",
+      "versao_correta": "A reescrita “Se receber os documentos até sexta-feira, a equipe revisará os registros” preserva a relação expressa."
     }
   ],
   "checkpointEdits": {

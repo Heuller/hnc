@@ -1,7 +1,18 @@
 {
   "id": "sub-12-2",
-  "versaoTeoria": "2026-11-04.m12-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-12-2-oficina",
+      "titulo": "Oficina aplicada — Because, however e therefore: siga a relação",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Texto autoral:** “The repository was unavailable because the server failed. However, the staff restored access that afternoon. Therefore, users could submit files again.”\n\n**1. Causa:** *because* apresenta a falha do servidor como razão da indisponibilidade. Não inverta os papéis e conclua que a indisponibilidade causou a falha.\n\n**2. Contraste:** *however* introduz o retorno do acesso apesar do problema anterior. A palavra não significa que o servidor nunca falhou.\n\n**3. Consequência:** *therefore* relaciona a retomada do acesso à possibilidade de novos envios. O texto não informa se todos os usuários realmente enviaram arquivos.\n\n**Treino autoral C/E:** “The server failure caused the repository to be unavailable.” **Certo:** a relação está expressa em *because*. Compare com “All users submitted files”, que acrescentaria uma informação ausente.",
+      "checkpointIds": [
+        "rt-oficina-12-2"
+      ]
+    },
     {
       "id": "sub-12-2-bloco-1",
       "titulo": "Relações entre ideias: não confundir conectivo com tradução fixa",
@@ -123,6 +134,16 @@
       "justificativa": "Because introduz a causa; a interrupção é o resultado indicado na frase.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Língua inglesa e compreensão de textos",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-12-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "The server failure caused the repository to be unavailable.",
+      "gabarito": "C",
+      "justificativa": "O trecho liga a indisponibilidade à falha por meio de because.",
+      "fonte": "Texto e item autorais; conectivos em contexto.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
       "habilidade": "aplicar"
     }
   ],

@@ -1,7 +1,18 @@
 {
   "id": "sub-13-1",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-13-1-oficina",
+      "titulo": "Oficina aplicada — Inferência sem transformar parte em todo",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "**Texto autoral:** “A biblioteca ampliou o horário em dois dias da semana. Segundo a direção, a mudança pode reduzir filas no período noturno; ainda não há avaliação de seus resultados.”\n\n**1. Separe fato e expectativa:** a ampliação do horário é apresentada como realizada. A redução das filas é possibilidade atribuída à direção.\n\n**2. Observe o limite:** o texto afirma que ainda não há avaliação. Portanto, não permite concluir que as filas efetivamente diminuíram nem que a medida funcionou em todos os dias.\n\n**3. Teste o item:** “A mudança já comprovou a redução das filas.” **Errado:** troca uma possibilidade por resultado comprovado. “A direção considera possível reduzir filas” preserva a atribuição e a modalidade.\n\n**Dica de julgamento:** destaque palavras como “pode”, “sempre” e “comprovou”; depois procure no texto a evidência necessária para cada uma.",
+      "checkpointIds": [
+        "rt-oficina-13-1"
+      ]
+    },
     {
       "id": "sub-13-1-bloco-1",
       "titulo": "Construir a leitura: informação explícita e inferência",
@@ -135,6 +146,16 @@
       "editalRef": "Língua portuguesa",
       "habilidade": "aplicar",
       "versao_correta": "O trecho informa abertura aos sábados durante o teste; nada conclui sobre todos os dias."
+    },
+    {
+      "id": "rt-oficina-13-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O texto apresenta a redução das filas como possibilidade, sem informar avaliação de resultados.",
+      "gabarito": "C",
+      "justificativa": "A expressão “pode” e a ausência de avaliação delimitam a conclusão.",
+      "fonte": "Brasil (2018), Manual de Redação da Presidência da República, 3ª ed.; texto e item autorais.",
+      "editalRef": "Direito administrativo, inglês e língua portuguesa",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {
