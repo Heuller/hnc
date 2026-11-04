@@ -1,0 +1,57 @@
+# Reformulação didática — acompanhamento
+
+Escopo solicitado: todas as aulas, mais exemplos práticos e um exercício discursivo ao fim de cada módulo, com entrega em uma semana. Público: bibliotecário formado, iniciando preparação para concursos. Execução por um responsável; revisão pelo usuário. Não se declara revisão técnica independente.
+
+## Estado desta entrega
+
+- M1, aulas 1.1–1.6: exemplos e pontes introdutórias incorporados ao texto dos blocos; versão de teoria atualizada. A reformulação não constitui nova conferência integral de cada afirmação preexistente. Os demais módulos ainda aguardam a passagem didática.
+- Um treino discursivo autoral por módulo principal e pelo mini-módulo 2.5 aparece no último submódulo, com comando de 20 ou 50 linhas e roteiro de autoavaliação recolhido. Não é espelho ou item oficial e não atribui nota automática. A escrita pode ser feita na área Discursiva ou em papel.
+- Os identificadores de blocos e de checkpoints foram mantidos. A versão alterada distingue a leitura dos blocos atualizados; não altera gabaritos ou interpreta histórico anterior como domínio da nova redação.
+- O conteúdo de origem JSON e os módulos TypeScript foram atualizados conjuntamente. A coluna de palavras do inventário usa contagem simples por espaços.
+
+## Fontes e limites
+
+O diretório do computador Windows não está montado neste ambiente. A branch remota `auditoria-2026-10` contém uma versão histórica do acervo; não se presume que seja idêntica à pasta atual. Foi recuperado o PDF `Fundamentos/Informacao como Coisa (thing).pdf`: tradução livre de artigo de Michael K. Buckland, com três sentidos de informação. A primeira página foi consultada para o exemplo na aula 1.3. A presença do restante do acervo na listagem não equivale a leitura dos arquivos. As cinco apostilas anexadas foram consultadas parcialmente na etapa de planejamento.
+
+## Próximas ondas propostas para uma semana
+
+1. M2, M2.5 e M3: representação, catalogação, classificação e exemplos de aplicação.
+2. M4 e M5: recuperação, referência, serviços e gestão.
+3. M6 a M9: digital, preservação, normalização e comunicação científica.
+4. M10 e M11: informação legislativa e Direito Administrativo, com conferência de vigência.
+5. M12 a M14: línguas e tecnologia; integração entre módulos.
+6. Conferência de fontes, cobertura, exercícios e interface; incorporar a revisão do usuário.
+
+As ondas são metas de execução, não garantia de horas, publicação ou conclusão automática. Priorizar exemplos específicos em cada assunto, preservar os fundamentos e registrar pendências de fontes.
+
+## Aprofundamento após conexão do Drive
+
+Foi localizada a pasta `acervo-estudos` no Drive, com teoria, normas e cadernos de questões. Nesta rodada foram consultados trechos de: Ranganathan, *As cinco leis da biblioteconomia*, tradução de 2009, sumário e cap. 5; Buckland, *Informação como coisa*, tradução do acervo, pp. 1–2; Queiroz e Moura, *Ciência da Informação: história, conceitos e características*, 2015, início do artigo; IFLA, *Declaração dos Princípios Internacionais de Catalogação*, tradução, edição 2016, introdução; e a compilação PAPIRVM `CAD CESPE.pdf`, pp. 4–10. Esta é uma consulta parcial: listar uma pasta não equivale a ler suas obras. O ano de Otlet aparece como 1935 no artigo de Queiroz e Moura, razão adicional para conferir a edição original antes de adotar esse dado.
+
+A prova do CNJ de 2013, cargo 8, caderno tipo I, item 54, foi conferida no PDF oficial da banca. A referência foi usada para explicar a combinação entre origens e interdisciplinaridade, com exercício autoral próprio; o gabarito não foi conferido como parte dessa referência. Um contraste em 1.3 menciona item atribuído à EBSERH/2018 pela compilação, sem classificar a questão como oficialmente confirmada. As aulas 1.1, 1.2, 1.3 e 1.5 receberam explicação adicional e exemplos de julgamento autorais. Os demais módulos continuam pendentes de revisão didática integral.
+
+Cada um dos quinze treinos discursivos recebeu resposta-modelo autoral e fundamentação bibliográfica. O texto procura atender ao comando e aos critérios do exercício; não constitui espelho oficial nem garante pontuação. A conferência do tamanho na folha efetivamente usada e a revisão humana permanecem necessárias. As referências bibliográficas identificam a base de estudo; não significam que todas as obras tenham sido lidas integralmente nesta rodada.
+
+## Revisão de SLIC a partir do exemplo do usuário
+
+As aulas 3.3 e 4.3 foram articuladas. A aula 4.3 agora parte de uma necessidade de busca, constrói entradas hipotéticas, demonstra consultas por prefixo, diferencia combinações iniciais de entradas selecionadas e apresenta prática com feedback. O checkpoint anterior de contagem foi mantido para preservar histórico; foi adicionado um checkpoint novo sobre a operação de busca. A aula 3.3 encaminha à explicação detalhada e não afirma que a seleção elimine o crescimento combinatório.
+
+Fontes: Souza, “Indexação: economizando na entrada e na saída”, Revista da Escola de Biblioteconomia da UFMG, v. 5, n. 2, 1976, pp. 227–229, para construção e seleção; Cebraspe, MPCE 2025, cargo 3, item 120, e gabarito definitivo C, confrontados no caderno 055_MPCE_003_01. A discussão da questão distingue o resultado final daquela prova do número de linhas finais no exemplo de índice.
+
+## Onda M2 — catalogação e metadados
+
+As seis aulas 2.1, 2.2, 2.3, 2.4, 2.6 e 2.7 receberam explicações iniciais e casos próprios em todos os blocos, preservando o desenvolvimento técnico. A aula 2.5 pertence ao mini-módulo institucional e não foi contada entre as seis. Foi acrescentado um checkpoint aplicado em cada aula, com identificador novo; os checkpoints existentes foram preservados. Cada aula recebeu nova versão de leitura. O inventário reflete a ampliação; a contagem total passou para 676 checkpoints.
+
+Foram consultados, parcialmente, o IFLA LRM (2017; tradução do Drive, entidades e relações), a Declaração dos Princípios Internacionais de Catalogação (edição de 2016, introdução, e seções 2 e 6), o manual MARC 21 do acervo (edição portuguesa abreviada de 2011), a documentação atual do campo bibliográfico 245 da Library of Congress e a documentação da National Library of Medicine sobre práticas RDA. O folheto RDA do Drive é anterior ao lançamento previsto para 2009 e serve de registro histórico, não como comprovação do RDA reestruturado. As fontes não foram lidas integralmente.
+
+O caderno e o gabarito definitivo oficiais do STJ/2024, cargo 5, itens 67 e 72, foram confrontados. O item 67 mudou de E preliminar para C definitivo; isso não implica migração automática de todas as bibliotecas. O item 72 foi C e ajuda a distinguir modelo conceitual de código e implementação. Foram corrigidas formulações absolutas sobre transcrição RDA e sobre manifestação conter somente uma expressão. As demais afirmações históricas e normativas preexistentes requerem conferência continuada; exemplos novos não equivalem a auditoria técnica independente integral.
+
+## Onda M3 — classificação, indexação e tesauros
+
+As quatro aulas 3.1–3.4 receberam explicações iniciais com casos próprios em todos os blocos, além de um checkpoint aplicado novo por aula. O histórico de checkpoints anteriores foi mantido. A seção SLIC da aula 4.3 e sua conexão com a aula 3.3 foram preservadas. A contagem total após as ondas é de 680 microcheckpoints.
+
+Foi removida uma lista contraditória e mal formatada na aula 3.1 que ordenava `34` antes de `34+35`, apesar de o próprio parágrafo anterior registrar a sequência oposta. A explicação conserva apenas a comparação limitada `34+35`, `34/35`, `34` referida no manual citado; não é apresentada como tabela exaustiva de sinais. Foram qualificadas afirmações sobre linguagem natural, garantia literária e controle de sinônimos para distinguir preferência terminológica e manutenção de remissivas.
+
+Foram examinados parcialmente: introdução à CDD do acervo; resumos oficiais da OCLC da edição 23; Guia sobre a construção de tesauros, IBICT/Anvisa, do Drive; apostila Tesauros e Relações, do acervo; página de CDDir do Senado; e texto do UDC Consortium sobre estrutura e sinais. O arquivo do Drive com título CDD 23 aparenta ser uma compilação comentada e contém informação biográfica duvidosa: não foi tratado como edição oficial integral. Os exemplos de tesauro indicam quando são hipotéticos.
+
+A prova oficial Cebraspe/MPCE 2025, cargo 3, item 117, e seu gabarito definitivo E foram confrontados: controle de sinônimos não é exclusivo de listas de cabeçalhos. A revisão não equivale a auditoria técnica independente de todas as afirmações anteriores; cabe continuar conferindo edições e fontes primárias conforme os tópicos e o edital.

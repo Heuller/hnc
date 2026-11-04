@@ -1,6 +1,6 @@
 {
   "id": "sub-4-3",
-  "versaoTeoria": "2026-10-29.1",
+  "versaoTeoria": "2026-11-04.slic-1",
   "unidadesAprendizagem": [
     {
       "id": "sub-4-3-bloco-1",
@@ -62,12 +62,13 @@
     },
     {
       "id": "sub-4-3-bloco-6",
-      "titulo": "SLIC: combinação, permutação e recuperação não são sinônimos",
+      "titulo": "SLIC: como um índice ajuda a encontrar documentos por combinações de assuntos",
       "objetivos": [
-        "Distinguir contagem de combinações e técnica de indexação."
+        "Explicar o que o SLIC faz e localizar um documento a partir das entradas de um índice."
       ],
-      "conteudo": "O **Selective Listing in Combination** é descrito por Cunha e Cavalcanti como listagem seletiva em combinação, que combina elementos em uma direção. O verbete ilustra ABC por **ABC, AC, BC, C**. Não se deve substituir a técnica por uma regra vaga de gerar “todas as combinações alfabéticas” ou prometer recuperação de 100% de qualquer necessidade.\n\nEm um conjunto com n elementos distintos, **2ⁿ−1** conta subconjuntos não vazios; não conta permutações. Para A, B e C, são sete subconjuntos não vazios. Permutações completas dos três elementos são **3!=6**. Confundir essas contagens impede entender o que um índice está selecionando.\n\nPré-coordenação reúne conceitos na representação; pós-coordenação os combina na busca, conforme o sistema. Um índice impresso que ordena entradas não deve ser classificado automaticamente apenas porque tem combinações no nome. É necessário explicitar operação, representação e modo de consulta. Compare também indexação e tesauros nas aulas 3.3–3.4.\n\n**Aplicação e recuperação:** Com cinco descritores há 31 subconjuntos não vazios; esse número não é de permutações completas, que são 120. A contagem combinatória não prova que determinado método gere todos os subconjuntos ou responda toda pergunta.",
+      "conteudo": "#### 1. O problema: uma única ordem nem sempre atende a todos\n\nImagine um artigo sobre **acervos, bibliotecas e conservação**. Um leitor procura “acervos e conservação”; outro procura “bibliotecas e conservação”. Como representar o mesmo artigo em um índice de assuntos para que ambos o encontrem sem examinar todos os registros?\n\nUm **índice de assuntos** é uma lista organizada de pontos de acesso que encaminham a documentos ou registros. **SLIC** significa *Selective Listing in Combination*, ou **listagem seletiva em combinação**. É uma técnica histórica de construção de índice que combina, em ordem definida, termos atribuídos a um documento e seleciona entradas para reduzir repetições. Seu resultado pode ser um índice impresso consultado por assunto. A técnica organiza caminhos de busca; ela não escolhe sozinha os melhores assuntos nem substitui a análise do documento.\n\n#### 2. Do documento às entradas\n\nPara este exemplo **hipotético**, atribua ao documento D17 os termos em ordem alfabética:\n\n- **A = acervos**;\n- **B = bibliotecas**;\n- **C = conservação**.\n\nPrimeiro considere as combinações não vazias, sem inverter a ordem: **A, B, C, AB, AC, BC e ABC**. São sete possibilidades iniciais. Depois elimine as entradas que já aparecem como **início de uma entrada mais longa** do mesmo documento: `A` e `AB` já iniciam `ABC`; `B` já inicia `BC`. O exemplo final fica assim:\n\n| Entrada | Termos exibidos no índice | Documento |\n| :--- | :--- | :--- |\n| **ABC** | Acervos — Bibliotecas — Conservação | D17 |\n| **AC** | Acervos — Conservação | D17 |\n| **BC** | Bibliotecas — Conservação | D17 |\n| **C** | Conservação | D17 |\n\nO leitor que procura **acervos e bibliotecas** pode percorrer o índice em `A` e encontrar `ABC`, cujo começo é `AB`. Quem procura **acervos e conservação** encontra `AC`; quem procura **bibliotecas e conservação**, `BC`. Quem procura **conservação** encontra `C`. O ponteiro D17 identifica o mesmo documento em todas as entradas.\n\n**Por que não há uma entrada isolada `A`?** Neste exemplo, quem percorre a seção `A` encontra entradas mais longas que começam por esse termo. A economia depende da consulta ao índice ordenado; não quer dizer que uma busca eletrônica por correspondência exata encontre automaticamente todos esses prefixos. A entrada `AC` também **não afirma que o documento não trate de bibliotecas**: ela oferece outro caminho para o mesmo D17.\n\n#### 3. Combinar não é permutar\n\nNo exemplo, `AC` mantém a ordem adotada; `CA` é outra ordem e não foi criada como uma entrada final. O SLIC não produz todas as permutações possíveis. Ele parte de combinações ordenadas e elimina certas entradas redundantes. Em um sistema com a mesma regra de eliminação, três termos distintos geram sete combinações iniciais e quatro entradas finais. Para quatro termos distintos, há 15 combinações iniciais e oito entradas finais. Esses números descrevem esse procedimento, não a relevância ou a qualidade da recuperação.\n\n**Pré e pós-coordenação:** aqui os termos são combinados na construção das entradas, antes da consulta. Em uma busca pós-coordenada, o usuário pode combinar termos separados no momento da pesquisa, por exemplo `acervos AND conservação`. São operações em momentos diferentes; um sistema real pode oferecer recursos de ambos os tipos.\n\n#### 4. Como a Cebraspe cobrou\n\nNo concurso **MPCE/2025, Analista Ministerial — Biblioteconomia, item 120**, a banca apresentou uma afirmação sobre gerar entradas a partir de uma sequência de termos e manter a ordem alfabética. O **gabarito definitivo foi certo**. Confira a redação exata no [caderno oficial](https://cdn.cebraspe.org.br/concursos/mp_ce_25_servidor/arquivos/055_MPCE_003_01.pdf) e o [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/mp_ce_25_servidor/arquivos/Gab_Definitivo_055_MPCE_003_01.PDF).\n\n**Como raciocinar:** a ordem alfabética é central, mas “todas as justaposições” na questão não deve ser confundida com manter todas as permutações ou todas as combinações como linhas finais independentes. A descrição de Souza mostra as combinações iniciais e a posterior supressão de entradas que já iniciam outras. O gabarito é o resultado daquela prova; não demonstra que todo índice siga a mesma implementação ou que uma busca sempre recupere tudo o que o usuário deseja.\n\n#### 5. Experimente antes de olhar\n\nUsando a tabela acima, onde você procuraria o documento ao pesquisar **acervos e bibliotecas**? E se procurasse **bibliotecas e conservação**?\n\n**Resposta comentada:** `ABC` começa por `AB`, de modo que a primeira consulta pode encontrar D17 nessa entrada. A segunda corresponde ao início `BC`, também associado a D17. A primeira resposta não é uma entrada separada `AB`: ela é encontrada como início da entrada mais longa `ABC`.\n\n**Fonte da explicação:** Glaucia H. B. P. de Souza, “Indexação: economizando na entrada e na saída”, *Revista da Escola de Biblioteconomia da UFMG*, 5(2), 1976, pp. 227–229, com exemplos de combinações e eliminação de entradas iniciais redundantes. As palavras e o documento D17 são didáticos.",
       "checkpointIds": [
+        "rt-4-3-slic-busca",
         "rt-4-3-6"
       ]
     },
@@ -132,6 +133,18 @@
       "titulo": "Cunha e Cavalcanti — Dicionário (2008)",
       "localizador": "PDF do projeto; verbete Selective Listing in Combination.",
       "url": "https://github.com/Heuller/hnc/tree/auditoria-2026-10/acervo-estudos"
+    },
+    {
+      "id": "souza-slic-1976",
+      "titulo": "Souza — Indexação: economizando na entrada e na saída (1976)",
+      "localizador": "Revista da Escola de Biblioteconomia da UFMG, 5(2), pp. 227–229: combinações ordenadas e seleção de entradas.",
+      "url": "https://periodicos.ufmg.br/index.php/reb/article/download/36198/28332/108877"
+    },
+    {
+      "id": "mpce-slic-2025",
+      "titulo": "Cebraspe — MPCE 2025, Biblioteconomia, item 120",
+      "localizador": "Caderno oficial, item 120; gabarito definitivo C no caderno 055_MPCE_003_01.",
+      "url": "https://cdn.cebraspe.org.br/concursos/mp_ce_25_servidor/arquivos/055_MPCE_003_01.pdf"
     }
   ],
   "novosCheckpoints": [
@@ -209,6 +222,16 @@
       "editalRef": "Bloco E - Item 2.3 a 2.5",
       "habilidade": "aplicar",
       "versao_correta": "Validade sintática e validade jurídica são dimensões distintas."
+    },
+    {
+      "id": "rt-4-3-slic-busca",
+      "pergunta": "Aplique a técnica apresentada ao exemplo do índice.",
+      "item": "No índice hipotético ABC, AC, BC e C, associado ao mesmo documento, quem procura A e B pode localizar esse documento sob a entrada ABC.",
+      "gabarito": "C",
+      "justificativa": "ABC começa por AB; ao percorrer as entradas em ordem, o leitor encontra o mesmo documento. A ausência de uma linha separada AB não impede a consulta por esse início no índice.",
+      "fonte": "Souza (1976), Indexação: economizando na entrada e na saída, pp. 227–229; exemplo de documento e letras adaptado para fins didáticos.",
+      "editalRef": "Bloco E - Item 2.3 a 2.5",
+      "habilidade": "aplicar"
     }
   ],
   "checkpointEdits": {

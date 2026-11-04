@@ -7,6 +7,7 @@ import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
 import { ItemCE } from '../components/common/ItemCE';
 import { AulaEmBlocos } from '../components/teoria/AulaEmBlocos';
+import { TreinoDiscursivoModulo } from '../components/teoria/TreinoDiscursivoModulo';
 import { ExercicioRenderer } from '../components/exercicios';
 import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { MnemonicosTabs } from '../components/content-blocks/MnemonicosTabs';
@@ -775,6 +776,10 @@ export const TeoriaPage: React.FC = () => {
 
             {currentSub.unidadesAprendizagem?.length ? <ConteudoMarkdown content={currentSub.teoriaDidaticaMarkdown || ''} /> : <MnemonicosTabs mnemonicos={currentSub.mnemonicos} />}
           </section>
+
+          {currentMacro.modulosFilhos[currentMacro.modulosFilhos.length - 1]?.id === currentSub.id && (
+            <TreinoDiscursivoModulo moduloId={currentMacro.id} />
+          )}
 
           {/* Card Prominente no Final do Último Submódulo Filho (Atalho Direto para o Simulado 100Q ou 30Q) */}
           {(() => {
