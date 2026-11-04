@@ -1,7 +1,18 @@
 {
   "id": "sub-14-3",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-14-3-oficina",
+      "titulo": "Oficina aplicada — Pedir uma resposta a uma IA e conferir a fonte",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe precisa responder: “Qual foi o prazo previsto no relatório de digitalização?” Ela pretende usar um assistente de IA com acesso a documentos institucionais.\n\n**1. Prepare a tarefa.** Informe a pergunta, identifique o relatório e sua versão e peça uma resposta que indique o trecho usado. Antes de enviar dados pessoais ou restritos, confira se o uso da ferramenta é autorizado e quais salvaguardas são necessárias.\n\n**2. Entenda o RAG.** Em uma arquitetura de geração aumentada por recuperação, o sistema procura trechos em uma coleção e os fornece ao modelo para ajudar a formular a resposta. Se a busca recuperar um relatório antigo, a resposta poderá refletir uma versão errada. Se o trecho estiver correto, o modelo ainda pode interpretá-lo mal.\n\n**3. Confira um exemplo.** O arquivo diz: “prazo inicial de 60 dias, posteriormente prorrogado por 30”. Se o assistente responder apenas “30 dias”, abra a fonte e confira a pergunta: 30 é a prorrogação, não o prazo inicial. Se perguntarem o prazo total, ainda é necessário verificar se a prorrogação efetivamente se aplicou.\n\n**4. Avalie o serviço.** Teste perguntas com resposta conhecida, perguntas sem resposta na coleção e documentos de versões diferentes. Observe se a resposta cita a fonte correta e se reconhece quando não há evidência suficiente. Prompt detalhado pode orientar a tarefa, mas não substitui essa avaliação.\n\n**Treino autoral C/E:** “Uma resposta com citação é necessariamente fiel ao trecho citado.” **Errado:** a citação precisa ser conferida contra a afirmação feita.",
+      "checkpointIds": [
+        "rt-oficina-14-3"
+      ]
+    },
     {
       "id": "sub-14-3-bloco-1",
       "titulo": "IA, aprendizado de máquina e o problema que se quer resolver",
@@ -179,6 +190,16 @@
       "justificativa": "O uso de recuperação não garante pertinência da fonte, atualidade ou fidelidade da geração.",
       "fonte": "Lewis et al. (2020), Retrieval-Augmented Generation; exemplo autoral.",
       "editalRef": "Tecnologia da informação e dados",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-14-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um sistema RAG pode recuperar um trecho correto e, ainda assim, produzir uma resposta que o interprete incorretamente.",
+      "gabarito": "C",
+      "justificativa": "A recuperação e a geração são etapas diferentes; falhas de interpretação podem ocorrer mesmo com trecho relevante.",
+      "fonte": "Lewis et al. (2020), RAG; NIST AI 600-1, riscos de IA generativa; caso e item autorais.",
+      "editalRef": "Tecnologia da informação, inteligência artificial e dados",
       "habilidade": "aplicar"
     }
   ],

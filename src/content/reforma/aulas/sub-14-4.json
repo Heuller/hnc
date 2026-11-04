@@ -1,7 +1,18 @@
 {
   "id": "sub-14-4",
-  "versaoTeoria": "2026-11-04.final-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-14-4-oficina",
+      "titulo": "Oficina aplicada — Da planilha ao gráfico: média, mediana e contexto",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe registra o tempo, em minutos, de cinco atendimentos: **2, 3, 3, 4 e 18**. Ela quer descrever o atendimento típico e comunicar o resultado.\n\n**1. Calcule a média.** Some os valores: `2 + 3 + 3 + 4 + 18 = 30`. Divida pelos cinco atendimentos: `30 / 5 = 6 minutos`. A média usa todos os valores e é influenciada pelo atendimento de 18 minutos.\n\n**2. Calcule a mediana.** Como os valores já estão ordenados e há cinco observações, a mediana é o terceiro valor: **3 minutos**. Isso não quer dizer que todos os atendimentos duraram três minutos nem que o caso de 18 minutos deva ser apagado.\n\n**3. Investigue antes de excluir.** O valor 18 pode ser um erro de registro ou um atendimento realmente complexo. Verifique a origem e documente a decisão; remover uma observação apenas para melhorar o indicador distorce a análise.\n\n**4. Comunique com contexto.** Um gráfico ou tabela deve indicar unidade, período, fonte e quantidade de observações. A média de seis minutos nesta pequena amostra não prova que todos os meses terão o mesmo resultado, nem estabelece causa para a demora. Uma análise mais ampla deve examinar representatividade e possíveis diferenças entre tipos de atendimento.\n\n**Treino autoral C/E:** “A média de seis minutos demonstra que cada atendimento durou seis minutos.” **Errado:** uma média resume o conjunto, mas não substitui seus valores individuais.",
+      "checkpointIds": [
+        "rt-oficina-14-4"
+      ]
+    },
     {
       "id": "sub-14-4-bloco-1",
       "titulo": "Dados e variáveis: representar antes de calcular",
@@ -239,6 +250,17 @@
       "fonte": "NIST/SEMATECH e-Handbook, estatística descritiva; conjunto numérico autoral.",
       "editalRef": "Tecnologia da informação e dados",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-14-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Uma média de seis minutos demonstra que todos os atendimentos do conjunto duraram exatamente seis minutos.",
+      "gabarito": "E",
+      "justificativa": "A média de 2, 3, 3, 4 e 18 é 6, embora nenhum atendimento do exemplo tenha durado 6 minutos.",
+      "fonte": "NIST/SEMATECH e-Handbook of Statistical Methods; dados e item autorais.",
+      "editalRef": "Tecnologia da informação, inteligência artificial e dados",
+      "habilidade": "aplicar",
+      "versao_correta": "A média de seis minutos resume o conjunto e não implica duração idêntica em cada atendimento."
     }
   ],
   "checkpointEdits": {
