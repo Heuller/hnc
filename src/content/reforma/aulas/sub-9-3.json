@@ -1,7 +1,18 @@
 {
   "id": "sub-9-3",
-  "versaoTeoria": "2026-11-04.m9-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-9-3-oficina",
+      "titulo": "Oficina aplicada — Plano de dados: preparar o reuso responsável",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe coletará entrevistas para estudar o uso de bibliotecas. Pretende compartilhar os resultados e preservar os materiais de pesquisa.\n\n**1. Planeje antes da coleta:** descreva formatos, responsabilidades, documentação, armazenamento, acesso e prazo de retenção. Revise o plano quando o projeto mudar; ele não é apenas um formulário para o fim da pesquisa.\n\n**2. Separe materiais:** um conjunto de dados anonimizado, a gravação identificável e um artigo derivado podem ter riscos e permissões diferentes. Anonimização deve ser avaliada no contexto; remover nomes não garante sempre que a pessoa não possa ser identificada.\n\n**3. Decida o compartilhamento:** documente o que pode ser aberto, o que terá acesso controlado e quais autorizações ou fundamentos são necessários. Direitos autorais e proteção de dados exigem análise própria.\n\n**Treino autoral C/E:** “Todo material de pesquisa deve receber acesso público irrestrito.” **Errado:** a abertura depende de direitos, riscos e regras aplicáveis.",
+      "checkpointIds": [
+        "rt-oficina-9-3"
+      ]
+    },
     {
       "id": "sub-9-3-bloco-1",
       "titulo": "Da e-Science à Gestão de Dados de Pesquisa (*RDM*)",
@@ -192,6 +203,17 @@
       "editalRef": "Comunicação científica e estudos métricos",
       "habilidade": "aplicar",
       "versao_correta": "A reutilização depende dos direitos, licença e da hipótese legal aplicável."
+    },
+    {
+      "id": "rt-oficina-9-3",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Um plano de gestão de dados deve determinar acesso público irrestrito a todos os materiais, inclusive gravações identificáveis.",
+      "gabarito": "E",
+      "justificativa": "A abertura depende de proteção de dados, direitos e condições éticas e institucionais.",
+      "fonte": "DCC e legislação citados na aula; cenário hipotético.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "Um plano de dados deve estabelecer condições de acesso compatíveis com direitos e riscos."
     }
   ],
   "checkpointEdits": {

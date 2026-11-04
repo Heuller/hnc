@@ -1,7 +1,18 @@
 {
   "id": "sub-10-1",
-  "versaoTeoria": "2026-11-04.m10-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-10-1-oficina",
+      "titulo": "Oficina aplicada — Quórum: presença, decisão e contexto",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma equipe acompanha uma sessão e recebe a pergunta: “Como saber se a proposta foi aprovada?” Saber quantas pessoas compareceram é apenas o começo.\n\n**1. Identifique a sessão e a matéria:** consulte a Constituição e o regimento aplicáveis àquela hipótese, em sua versão pertinente. Não transporte automaticamente o quórum de uma espécie de votação para outra.\n\n**2. Separe as contagens:** quórum de presença trata da quantidade necessária para determinada atividade; quórum de deliberação ou aprovação trata da condição para decidir ou aprovar. O denominador pode variar conforme a norma.\n\n**3. Registre o resultado:** verifique votos, abstenções quando relevantes, dispositivo aplicável e eventual regra especial. O registro de presença não demonstra, sozinho, que a proposta obteve os votos exigidos.\n\n**Treino autoral C/E:** “A presença suficiente prova a aprovação de qualquer proposta.” **Errado:** presença e aprovação são questões diferentes.",
+      "checkpointIds": [
+        "rt-oficina-10-1"
+      ]
+    },
     {
       "id": "sub-10-1-bloco-1",
       "titulo": "Sede, sessões preparatórias, Mesa e lideranças",
@@ -136,6 +147,16 @@
       "justificativa": "As resoluções alteram pontos específicos. É necessário consultar o texto consolidado e os dispositivos afetados, sem presumir revogação integral.",
       "fonte": "Exemplo autoral elaborado a partir das fontes indicadas na aula.",
       "editalRef": "Conhecimentos legislativos e constitucionais",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-10-1",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Quórum de presença e quórum de aprovação devem ser distinguidos conforme a regra aplicável.",
+      "gabarito": "C",
+      "justificativa": "A presença necessária e os votos exigidos para aprovar tratam de condições diferentes.",
+      "fonte": "Constituição Federal e Regimento Interno da Câmara, conforme referências da aula; hipótese didática.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
       "habilidade": "aplicar"
     }
   ],

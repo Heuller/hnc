@@ -1,7 +1,18 @@
 {
   "id": "sub-8-5",
-  "versaoTeoria": "2026-11-04.m8-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-8-5-oficina",
+      "titulo": "Oficina aplicada — Ficha catalográfica, leitura e acessibilidade",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma biblioteca prepara a publicação digital de um relatório institucional. Além de descrever a obra, precisa facilitar seu uso por diferentes leitores.\n\n**1. Catalogação na publicação:** reúna os elementos bibliográficos disponíveis para a ficha, sob responsabilidade profissional e conforme orientações aplicáveis. A ficha descreve a publicação; não é uma prova automática de acessibilidade.\n\n**2. Estruture o arquivo:** títulos marcados como títulos, ordem de leitura coerente e descrição adequada de imagens podem auxiliar o acesso com tecnologia assistiva. Uma imagem de texto, sem alternativa equivalente, pode impedir a leitura por software.\n\n**3. Teste uma tarefa:** tente localizar a seção de resultados pelo teclado e navegar por títulos com leitor de tela. Um arquivo que abre normalmente nem sempre permite executar essas ações.\n\n**Treino autoral C/E:** “Se há ficha catalográfica, o PDF é acessível.” **Errado:** descrição e acessibilidade atendem a necessidades diferentes.",
+      "checkpointIds": [
+        "rt-oficina-8-5"
+      ]
+    },
     {
       "id": "sub-8-5-bloco-1",
       "titulo": "Catalogação na publicação: conteúdo, posição e responsabilidade",
@@ -159,6 +170,17 @@
       "editalRef": "Normalização e produção editorial",
       "habilidade": "aplicar",
       "versao_correta": "O EPUB admite diferentes modos de apresentação, inclusive layout fixo."
+    },
+    {
+      "id": "rt-oficina-8-5",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "A presença de ficha catalográfica garante, por si só, a acessibilidade de um PDF.",
+      "gabarito": "E",
+      "justificativa": "A ficha descreve o recurso; acessibilidade depende também da estrutura, do conteúdo e de testes.",
+      "fonte": "Referências de catalogação na publicação e WCAG identificadas na aula; caso autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "A ficha catalográfica descreve o recurso, e a acessibilidade deve ser verificada separadamente."
     }
   ],
   "checkpointEdits": {

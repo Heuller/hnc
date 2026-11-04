@@ -1,7 +1,18 @@
 {
   "id": "sub-8-4",
-  "versaoTeoria": "2026-11-04.transversal-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-8-4-oficina",
+      "titulo": "Oficina aplicada — Sumário, índice e resumo têm funções diferentes",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Ao abrir uma monografia, uma leitora quer descobrir três coisas: sobre o que é o trabalho, onde começa a metodologia e em que páginas aparece um determinado assunto.\n\n**1. Resumo:** apresenta uma síntese dos pontos relevantes do trabalho. Ajuda a leitora a decidir se o texto atende ao seu interesse; não substitui a consulta integral quando necessária.\n\n**2. Sumário:** apresenta as divisões do documento na ordem em que aparecem, permitindo localizar, por exemplo, a seção de metodologia.\n\n**3. Índice:** organiza entradas selecionadas, como assuntos ou nomes, remetendo às localizações correspondentes. É outro instrumento de acesso; não é sinônimo de sumário.\n\n**Treino autoral C/E:** “Sumário e índice desempenham sempre a mesma função.” **Errado:** o primeiro acompanha as divisões do documento; o segundo organiza entradas de acesso segundo critérios próprios.",
+      "checkpointIds": [
+        "rt-oficina-8-4"
+      ]
+    },
     {
       "id": "sub-8-4-bloco-1",
       "titulo": "Resumo, resenha e recensão na NBR 6028:2021",
@@ -141,6 +152,17 @@
       "editalRef": "Normalização e produção editorial",
       "habilidade": "aplicar",
       "versao_correta": "DOI é identificador e não garante acesso gratuito ao texto completo."
+    },
+    {
+      "id": "rt-oficina-8-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "O sumário e o índice são necessariamente o mesmo instrumento de acesso, com organização e função idênticas.",
+      "gabarito": "E",
+      "justificativa": "O sumário apresenta divisões na ordem do documento; o índice organiza entradas e suas localizações.",
+      "fonte": "ABNT NBR 6027, 6034 e 6028, conforme edições identificadas na aula; exemplo autoral.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "Sumário e índice têm funções e critérios de organização distintos."
     }
   ],
   "checkpointEdits": {

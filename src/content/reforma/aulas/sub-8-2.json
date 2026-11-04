@@ -1,7 +1,18 @@
 {
   "id": "sub-8-2",
-  "versaoTeoria": "2026-11-04.m8-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-8-2-oficina",
+      "titulo": "Oficina aplicada — Citação direta, indireta e chamada da fonte",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma pesquisadora lê um estudo que conclui que a formação de usuários deve acompanhar as mudanças no catálogo. Ela deseja usar a ideia em seu trabalho.\n\n**1. Escolha a operação:** se reproduzir as palavras do texto-fonte, fará uma citação direta e precisará observar as regras correspondentes à extensão e à indicação da localização. Se reescrever a ideia com palavras próprias, fará citação indireta e ainda deverá indicar a fonte.\n\n**2. Preserve o sentido:** uma paráfrase não autoriza trocar “pode melhorar” por “garante melhoria”. Confira se a frase reescrita conserva os limites apresentados pela autora.\n\n**3. Feche o caminho:** a chamada no texto precisa corresponder à referência da obra consultada. Use consistentemente o sistema escolhido e confira as orientações da edição ABNT NBR 10520:2023 e da instituição.\n\n**Treino autoral C/E:** “Como as palavras foram alteradas, a fonte pode ser omitida.” **Errado:** a ideia continua atribuível à autora.",
+      "checkpointIds": [
+        "rt-oficina-8-2"
+      ]
+    },
     {
       "id": "sub-8-2-bloco-1",
       "titulo": "ABNT NBR 10520:2023: versão e grafia das chamadas",
@@ -123,6 +134,17 @@
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Normalização e produção editorial",
       "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-8-2",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Uma ideia de outra autora, reescrita com palavras próprias, dispensa indicação da fonte.",
+      "gabarito": "E",
+      "justificativa": "A citação indireta também exige atribuição da ideia à fonte.",
+      "fonte": "ABNT NBR 10520:2023, conforme referências da aula; situação fictícia.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
+      "habilidade": "aplicar",
+      "versao_correta": "A citação indireta deve indicar a fonte da ideia utilizada."
     }
   ],
   "checkpointEdits": {

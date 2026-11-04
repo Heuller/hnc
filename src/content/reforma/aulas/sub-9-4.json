@@ -1,7 +1,18 @@
 {
   "id": "sub-9-4",
-  "versaoTeoria": "2026-11-04.m9-didatica-1",
+  "versaoTeoria": "2026-11-04.oficinas-1",
   "unidadesAprendizagem": [
+    {
+      "id": "sub-9-4-oficina",
+      "titulo": "Oficina aplicada — Contar citações sem confundir medida e qualidade",
+      "objetivos": [
+        "Aplicar os conceitos em situação concreta e justificar o julgamento."
+      ],
+      "conteudo": "Uma pesquisadora tem quatro artigos com 10, 5, 3 e 1 citações, respectivamente. Qual é seu índice h nesse conjunto hipotético?\n\n**1. Ordene:** os valores já estão em ordem decrescente: 10, 5, 3, 1.\n\n**2. Compare posição e citações:** o primeiro tem ao menos 1; o segundo, ao menos 2; o terceiro, ao menos 3. O quarto não tem 4 citações. Portanto, **h = 3** nesse conjunto.\n\n**3. Examine limites:** outro banco ou período pode trazer resultado diferente. O indicador não mede sozinho qualidade de cada artigo, relevância social ou contribuição individual em coautoria. Diferentes áreas têm práticas distintas de citação.\n\n**Treino autoral C/E:** “Se h = 3, cada artigo tem exatamente três citações.” **Errado:** significa ao menos três artigos com pelo menos três citações, não igualdade em todos.",
+      "checkpointIds": [
+        "rt-oficina-9-4"
+      ]
+    },
     {
       "id": "sub-9-4-bloco-1",
       "titulo": "As Disciplinas Métricas da Informação",
@@ -219,6 +230,16 @@
       "justificativa": "Três artigos têm ao menos três citações; o quarto não tem quatro. O resultado depende da base e data de referência.",
       "fonte": "Exemplo autoral baseado nas fontes indicadas na aula.",
       "editalRef": "Comunicação científica e estudos métricos",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-oficina-9-4",
+      "pergunta": "Aplique a oficina e julgue a afirmação.",
+      "item": "Índice h igual a 3 indica pelo menos três trabalhos com pelo menos três citações cada.",
+      "gabarito": "C",
+      "justificativa": "O índice exige que três trabalhos tenham ao menos três citações, sem exigir contagens iguais.",
+      "fonte": "Referências de bibliometria citadas na aula; dados fictícios.",
+      "editalRef": "Normalização, comunicação científica e conhecimentos legislativos",
       "habilidade": "aplicar"
     }
   ],
