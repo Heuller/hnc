@@ -23,6 +23,9 @@ import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { Award, Layers } from 'lucide-react';
 import { TreinoRaciocinioModal } from '../components/estudoReverso/TreinoRaciocinioModal';
 import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
+import { QUESTOES_REAIS } from '../content/questoesReais';
+
+const totalModulosReais = new Set(QUESTOES_REAIS.map(q => q.modulo)).size;
 
 export const TreinosPage: React.FC = () => {
   const {
@@ -79,10 +82,17 @@ export const TreinosPage: React.FC = () => {
         <Button onClick={() => setIsTreinoReversoOpen(true)}>Treinar raciocínio por questões <ArrowRight className="ml-2 w-4 h-4" /></Button>
       </section>
 
-      <section className="rounded-2xl border border-accent/30 bg-surface p-5 sm:p-7 space-y-3 shadow-editorial-sm">
-        <h2 className="text-xl font-serif font-bold text-ink">Questões reais Cebraspe por módulo</h2>
-        <p className="text-sm text-ink-2">Pratique itens de provas anteriores com correção imediata, explicação e links para a prova e o gabarito. Acervo inicial em conferência.</p>
-        <Button onClick={() => setIsSimuladoRealOpen(true)}>Explorar questões reais <ArrowRight className="ml-2 w-4 h-4" /></Button>
+      <section aria-label="Simulados reais Cebraspe" className="rounded-2xl border border-accent/30 bg-surface p-5 shadow-editorial-sm sm:p-7">
+        <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-center">
+          <div className="max-w-xl space-y-3">
+            <p className="text-xs font-semibold uppercase tracking-wider text-accent">Provas anteriores · certo ou errado</p>
+            <h2 className="text-xl font-serif font-bold text-ink sm:text-2xl">Questões reais Cebraspe por módulo</h2>
+            <p className="text-sm leading-relaxed text-ink-2">Pratique na mesma trilha da teoria. Responda, confira a explicação imediatamente e retome o assunto quando precisar.</p>
+            <p className="text-xs text-ink-2"><strong className="text-ink">{QUESTOES_REAIS.length.toLocaleString('pt-BR')} questões</strong> · {totalModulosReais} módulos com itens · progresso salvo neste navegador</p>
+          </div>
+          <Button className="shrink-0" onClick={() => setIsSimuladoRealOpen(true)}>Explorar questões reais <ArrowRight className="ml-2 w-4 h-4" /></Button>
+        </div>
+        <p className="mt-5 border-t border-border pt-3 text-xs leading-relaxed text-ink-2">Cada item identifica sua fonte e se o gabarito foi conferido com a banca ou informado pela apostila.</p>
       </section>
 
       {/* Grade de Cartões de Treino (Regra F.1) */}

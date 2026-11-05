@@ -84,6 +84,29 @@ describe('questões reais por módulo', () => {
     expect(screen.getByText(/Você acertou/)).toBeTruthy();
     expect((screen.getByRole('button', { name: 'Certo' }) as HTMLButtonElement).disabled).toBe(true);
   });
+  it('filtra por assunto e navega apenas pelos itens da seleção', () => {
+    render(<SimuladosReaisModal onClose={vi.fn()} />);
+    fireEvent.click(screen.getByRole('button', { name: /^M3/ }));
+    fireEvent.change(screen.getByRole('combobox', { name: 'Filtrar por assunto' }), { target: { value: '3.4' } });
+    const selecionados = QUESTOES_REAIS.filter(q => q.modulo === 'M3' && q.submoduloId === '3.4');
+    expect(screen.getByText(selecionados[0].item)).toBeTruthy();
+    fireEvent.click(screen.getByRole('button', { name: selecionados[0].gabarito === 'C' ? 'Certo' : 'Errado' }));
+    expect(screen.getByRole('progressbar').getAttribute('aria-valuenow')).toBe('1');
+    fireEvent.click(screen.getByRole('button', { name: 'Próxima' }));
+    expect(screen.getByText(selecionados[1].item)).toBeTruthy();
+    fireEvent.click(screen.getByRole('button', { name: 'Anterior' }));
+    expect(screen.getByRole('region', { name: 'Correção da questão' })).toBeTruthy();
+    expect(screen.getByRole('button', { name: selecionados[0].gabarito === 'C' ? 'Certo' : 'Errado' }).getAttribute('aria-pressed')).toBe('true');
+  });
+  it('retoma o primeiro item não respondido ao escolher novamente um módulo', () => {
+    render(<SimuladosReaisModal onClose={vi.fn()} />);
+    fireEvent.click(screen.getByRole('button', { name: /^M4/ }));
+    fireEvent.click(screen.getByRole('button', { name: 'Errado' }));
+    fireEvent.click(screen.getByRole('button', { name: 'Escolher outro módulo' }));
+    fireEvent.click(screen.getByRole('button', { name: /^M4/ }));
+    expect(screen.getByText(QUESTOES_REAIS.filter(q => q.modulo === 'M4')[1].item)).toBeTruthy();
+    expect((screen.getByRole('button', { name: 'Certo' }) as HTMLButtonElement).disabled).toBe(false);
+  });
   it('mantém respostas de usuários locais diferentes separadas', () => {
     localStorage.setItem('hnc_local_user_id', 'aluno-a');
     const primeira = render(<SimuladosReaisModal onClose={vi.fn()} />);
