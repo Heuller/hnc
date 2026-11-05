@@ -2,11 +2,23 @@
 
 ## Estado atual — 5 de novembro de 2026
 
-A versão com **442 itens** foi publicada no GitHub (`74ce4595ec4c10503b67e5f9e68aa88474d586c0`) e recebeu status de sucesso da Vercel. Em seguida, foram preparados **mais 300 itens**, elevando a seleção local a **742 questões**: 46 confrontadas com fontes oficiais e 696 com gabarito e atribuição informados por cadernos. Este segundo lote ainda não foi publicado.
+A versão com **742 itens** foi enviada a `main` e `master` no commit `8b42bf3d42db15fc7617942ce63e6c4424ab1977`, e a Vercel informou sucesso da publicação. O aluno havia confirmado no domínio de produção a versão anterior de 442 itens após a sincronização das branches. A conferência direta do site por este ambiente continua bloqueada pela política de rede.
+
+Em seguida, foram preparados **mais 300 itens**, elevando a seleção local a **1.042 questões**: 46 confrontadas com fontes oficiais e 996 com gabarito e atribuição informados por cadernos. Este terceiro lote ainda não foi publicado.
+
+### Terceiro lote de 300 — preparado após a publicação dos 742
+
+O lote `esquematizada-300-03-2026-11-05` contém 300 questões adicionais da apostila esquematizada. Foram redigidos comentários específicos para 348 candidatos; o cruzamento excluiu 17 duplicatas textuais exatas ou próximas. A seleção final deixou outras 31 reservas fora do lote, incluindo itens com divergências conhecidas e formulações de conferência insegura. Textos cortados, dependências de figuras não disponíveis e respostas aparentemente contraditórias não foram usados para atingir a meta.
+
+Distribuição: M1: 8; M2: 3; M3: 119; M4: 14; M5: 133; M6: 13; M8: 7; M9: 3. São 144 respostas C e 156 respostas E. Cada novo item possui comentário editorial próprio, fonte, atribuição na apostila e ligação à teoria; os itens E também possuem formulação corrigida. A preservação integral dos 742 itens anteriores foi conferida contra a versão enviada ao GitHub. Nenhum dos conflitos já sinalizados na fila foi encontrado no lote selecionado.
+
+Os arquivos `LOTE-300-ESQUEMATIZADA-03.csv` e `LOTE-300-ESQUEMATIZADA-03.json` identificam os 300 itens e permitem revisar enunciados, gabaritos da apostila, comentários e correções. O confronto oficial individual permanece pendente e é informado pela interface.
+
+A validação deste terceiro lote passou: 1.009 testes em 130 arquivos, sete testes Python, auditoria estrutural e build com os orçamentos respeitados. O bloco de questões reais gerado possui aproximadamente 1,3 MB e permanece fora do pré-cache inicial do PWA. A conferência em Chromium, com viewport 390 × 844, respondeu à afirmação 1012 e confirmou comentário e formulação corrigida imediatos, sem erros de página ou rolagem horizontal. A imagem local está em `/workspace/scratch/prints-reais/lote-300-03-mobile.png`; a tela temporária foi removida e a autenticação não foi alterada.
 
 ### Segundo lote de 300 — após a publicação
 
-O lote `esquematizada-300-02-2026-11-05` contém 300 questões adicionais da apostila esquematizada, com comentários editoriais específicos, formulação corrigida dos itens E e ligação à teoria. Os 442 itens publicados foram preservados integralmente. A seleção excluiu duplicatas textuais exatas e próximas, textos cortados e candidatos de conferência insegura; dois itens associados a divergências já sinalizadas na fila foram substituídos antes do fechamento.
+O lote `esquematizada-300-02-2026-11-05` contém 300 questões adicionais da apostila esquematizada, com comentários editoriais específicos, formulação corrigida dos itens E e ligação à teoria. Foi publicado junto ao ajuste do procedimento de envio no commit `8b42bf3d42db15fc7617942ce63e6c4424ab1977`. Os 442 itens anteriores foram preservados integralmente. A seleção excluiu duplicatas textuais exatas e próximas, textos cortados e candidatos de conferência insegura; dois itens associados a divergências já sinalizadas na fila foram substituídos antes do fechamento.
 
 Distribuição das novas questões: M1: 1; M2: 135; M3: 18; M4: 103; M5: 2; M6: 15; M8: 11; M9: 15. São 155 respostas C e 145 respostas E. Os gabaritos provêm da apostila, sem presumir confronto oficial. Os comentários situam regras históricas do AACR2, FRBR e de normalização quando necessário, evitando apresentá-las como equivalentes indistintas dos padrões atuais.
 

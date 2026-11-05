@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1008,
-  "numPassedTests": 1008,
+  "numTotalTests": 1009,
+  "numPassedTests": 1009,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
   "testFiles": 130,
-  "source": "vitest run: lote adicional de 300 questões esquematizadas, 05/11/2026"
+  "source": "vitest run: terceiro lote de 300 questões esquematizadas, 05/11/2026"
 }

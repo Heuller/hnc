@@ -10,13 +10,13 @@ O aluno relatou que as melhorias recentes não apareciam em `https://heuller.ver
 - Foi realizado envio por fast-forward de `master` para `main`, sem force. A leitura posterior das referências remotas confirmou ambas em `74ce4595ec4c10503b67e5f9e68aa88474d586c0`.
 - A Vercel iniciou nova publicação, identificada por `FB5MC99horpzRUYPcnZxawQAJM7D`, e posteriormente informou sucesso pelo status do GitHub.
 
-Essa divergência é compatível com uma produção ligada à branch antiga. A configuração da branch de produção na Vercel e o conteúdo servido no domínio ainda precisam de confirmação direta; não se deve afirmar que o status do build prova a atualização do domínio.
+Após a sincronização, o aluno confirmou no domínio de produção a presença de **442 itens disponíveis** em **Treinos → Explorar questões reais**. Essa confirmação do conteúdo, junto à sequência de publicações, sustenta o diagnóstico de que a divergência das branches impediu a chegada das mudanças ao domínio. A configuração da branch de produção não foi inspecionada diretamente no painel da Vercel; não se deve confundir sucesso isolado de build com prova do conteúdo servido.
 
 ## Limite da conferência
 
-A política de rede deste ambiente negou conexão a `heuller.vercel.app`. A solicitação de acesso de rede não concedeu a capacidade. Não foi possível abrir o site ou executar login com a conta de teste, e não se devem registrar credenciais na documentação. O aluno foi orientado a conferir em aba anônima **Treinos → Explorar questões reais → 442 itens disponíveis**. A confirmação está pendente.
+A política de rede deste ambiente negou conexão a `heuller.vercel.app`. A solicitação de acesso de rede não concedeu a capacidade. Não foi possível abrir o site ou executar login com a conta de teste, e não se devem registrar credenciais na documentação. A conferência do conteúdo de 442 itens foi feita pelo próprio aluno, em resposta à solicitação de verificação em aba anônima.
 
-O segundo lote, de mais 300 questões, já está no commit local `cbdeb8f744e8c1b22b941210b7270f90a43dbdf7`. Seu envio e o início da próxima revisão devem seguir a condição estabelecida pelo aluno: primeiro confirmar as novidades na produção.
+Depois dessa confirmação, o segundo lote de mais 300 questões, do commit `cbdeb8f744e8c1b22b941210b7270f90a43dbdf7`, e o procedimento de envio foram publicados em ambas as branches no commit `8b42bf3d42db15fc7617942ce63e6c4424ab1977`. A versão enviada contém 742 questões; a Vercel informou sucesso na publicação `4vj5TU1aFDuorgbGCxSh5MfqyXWf`. Só depois dessa sequência foi preparado o terceiro lote de 300 questões, levando a seleção local a 1.042.
 
 ## Procedimento para as próximas publicações
 

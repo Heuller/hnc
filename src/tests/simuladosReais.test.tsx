@@ -4,6 +4,7 @@ import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { QUESTOES_REAIS } from '../content/questoesReais';
 import loteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA.json';
 import segundoLoteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA-02.json';
+import terceiroLoteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA-03.json';
 import { ALL_COURSE_MODULES } from '../content/registry';
 import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
 
@@ -44,9 +45,10 @@ describe('questões reais por módulo', () => {
   it('acrescenta mais 300 questões preservando os 442 itens publicados', () => {
     const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === segundoLoteEsquematizada.lote);
     expect(novos).toHaveLength(300);
-    expect(QUESTOES_REAIS.filter(q => q.loteRevisao !== segundoLoteEsquematizada.lote)).toHaveLength(442);
+    expect(QUESTOES_REAIS.filter(q => !q.loteRevisao || q.loteRevisao === loteEsquematizada.lote)).toHaveLength(442);
     expect(new Set(novos.map(q => q.id))).toEqual(new Set(segundoLoteEsquematizada.ids));
-    expect(new Set(QUESTOES_REAIS.filter(q => q.loteRevisao).map(q => q.numeroNaFonte)).size).toBe(600);
+    const lotesAnteriores = [loteEsquematizada.lote, segundoLoteEsquematizada.lote];
+    expect(new Set(QUESTOES_REAIS.filter(q => lotesAnteriores.includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(600);
     for (const q of novos) {
       const modulo = ALL_COURSE_MODULES.find(m => m.codigo.toUpperCase() === q.modulo);
       expect(modulo?.modulosFilhos?.some(s => s.id === `sub-${q.submoduloId?.replace('.', '-')}`), q.id).toBe(true);
@@ -54,6 +56,22 @@ describe('questões reais por módulo', () => {
       expect(q.gabaritoUrl).toBeUndefined();
       expect(q.justificativa.length).toBeGreaterThan(90);
       expect(q.acervoUrl).toContain(segundoLoteEsquematizada.fonteDrive);
+      if (q.gabarito === 'E') expect(q.versao_correta?.length).toBeGreaterThan(30);
+    }
+  });
+  it('acrescenta o terceiro lote de 300 sem sobrepor os 742 itens publicados', () => {
+    const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === terceiroLoteEsquematizada.lote);
+    expect(novos).toHaveLength(300);
+    expect(QUESTOES_REAIS.filter(q => q.loteRevisao !== terceiroLoteEsquematizada.lote)).toHaveLength(742);
+    expect(new Set(novos.map(q => q.id))).toEqual(new Set(terceiroLoteEsquematizada.ids));
+    expect(new Set(QUESTOES_REAIS.filter(q => q.loteRevisao).map(q => q.numeroNaFonte)).size).toBe(900);
+    for (const q of novos) {
+      const modulo = ALL_COURSE_MODULES.find(m => m.codigo.toUpperCase() === q.modulo);
+      expect(modulo?.modulosFilhos?.some(s => s.id === `sub-${q.submoduloId?.replace('.', '-')}`), q.id).toBe(true);
+      expect(q.estadoConferencia).toBe('caderno');
+      expect(q.gabaritoUrl).toBeUndefined();
+      expect(q.justificativa.length).toBeGreaterThan(90);
+      expect(q.acervoUrl).toContain(terceiroLoteEsquematizada.fonteDrive);
       if (q.gabarito === 'E') expect(q.versao_correta?.length).toBeGreaterThan(30);
     }
   });
