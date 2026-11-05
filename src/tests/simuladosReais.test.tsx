@@ -80,9 +80,9 @@ describe('questões reais por módulo', () => {
   it('acrescenta o quarto lote de 300 preservando as 1.042 questões anteriores', () => {
     const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === quartoLoteEsquematizada.lote);
     expect(novos).toHaveLength(300);
-    expect(QUESTOES_REAIS.filter(q => q.loteRevisao !== quartoLoteEsquematizada.lote)).toHaveLength(1042);
+    expect(QUESTOES_REAIS.filter(q => !q.loteRevisao || [loteEsquematizada.lote, segundoLoteEsquematizada.lote, terceiroLoteEsquematizada.lote].includes(q.loteRevisao))).toHaveLength(1042);
     expect(new Set(novos.map(q => q.id))).toEqual(new Set(quartoLoteEsquematizada.ids));
-    expect(new Set(QUESTOES_REAIS.filter(q => q.loteRevisao).map(q => q.numeroNaFonte)).size).toBe(1200);
+    expect(new Set(QUESTOES_REAIS.filter(q => [loteEsquematizada.lote, segundoLoteEsquematizada.lote, terceiroLoteEsquematizada.lote, quartoLoteEsquematizada.lote].includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(1200);
     for (const q of novos) {
       const modulo = ALL_COURSE_MODULES.find(m => m.codigo.toUpperCase() === q.modulo);
       expect(modulo?.modulosFilhos?.some(s => s.id === `sub-${q.submoduloId?.replace('.', '-')}`), q.id).toBe(true);

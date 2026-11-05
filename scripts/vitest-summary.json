@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1019,
-  "numPassedTests": 1019,
+  "numTotalTests": 1024,
+  "numPassedTests": 1024,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 131,
-  "source": "vitest run: estudo reverso integral das 1.342 questões reais, 05/11/2026"
+  "testFiles": 132,
+  "source": "vitest run: quinto lote de 300 questões reais; 1.642 itens, 05/11/2026"
 }

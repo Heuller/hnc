@@ -12,9 +12,9 @@ import { comentarioGenerico, contrasteArtificial } from '../domain/qualidadeEdit
 
 afterEach(cleanup);
 
-describe('estudo reverso das 1.342 questões reais', () => {
+describe('estudo reverso do banco integral de questões reais', () => {
   it('não deixa itens, lotes ou anotações órfãos', () => {
-    expect(QUESTOES_REAIS).toHaveLength(1342);
+    expect(QUESTOES_REAIS).toHaveLength(1642);
     expect(new Set(Object.keys(anotacoes))).toEqual(new Set(QUESTOES_REAIS.map(q => q.id)));
     for (const q of QUESTOES_REAIS) {
       expect(q.fundamentacaoDidatica, q.id).toBeTruthy();
@@ -52,7 +52,7 @@ describe('estudo reverso das 1.342 questões reais', () => {
         respostas: { [original.id]: { resposta: original.gabarito, assinatura } } });
       expect(lerSessaoReal(anterior, [ampliada]).respostas[original.id]?.resposta).toBe(original.gabarito);
     }
-    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(1296);
+    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(1596);
     expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(46);
   });
   it('recusa questão nova sem revisão explícita, sem preencher pelo módulo', () => {

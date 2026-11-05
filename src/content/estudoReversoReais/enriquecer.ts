@@ -4,7 +4,7 @@ import perfis from './perfis.json';
 import referencias from './referencias.json';
 import { contrasteArtificial } from '../../domain/qualidadeEditorial';
 
-interface Anotacao { perfil: string; gatilho: string }
+interface Anotacao { perfil: string; gatilho: string; exemplo?: string; referencia?: string }
 interface Perfil {
   titulo: string;
   regra: string;
@@ -26,7 +26,7 @@ const fontes = referencias as Record<string, Referencia>;
 export function enriquecerEstudoReversoReal<T extends QuestaoEstudoReverso>(questao: T): T {
   const anotacao = indice[questao.id];
   const perfil = anotacao && conceitos[anotacao.perfil];
-  const referencia = perfil && fontes[perfil.referencia];
+  const referencia = perfil && fontes[anotacao.referencia || perfil.referencia];
   if (!anotacao || !perfil || !referencia) {
     throw new Error(`Estudo reverso sem revisão editorial: ${questao.id}`);
   }
@@ -41,7 +41,7 @@ export function enriquecerEstudoReversoReal<T extends QuestaoEstudoReverso>(ques
     fundamentacaoDidatica: {
       conceito: perfil.titulo,
       regra: perfil.regra,
-      exemplo: perfil.exemplo,
+      exemplo: anotacao.exemplo || perfil.exemplo,
       referencia,
     },
   };

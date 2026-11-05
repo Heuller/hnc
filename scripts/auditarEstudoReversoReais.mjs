@@ -27,25 +27,26 @@ const porModulo = {};
 for (const q of questoes) {
   const a = anotacoes[q.id];
   const p = a && perfis[a.perfil];
-  const r = p && referencias[p.referencia];
+  const r = p && referencias[a.referencia || p.referencia];
   if (!a || !p || !r || !q.item.includes(a.gatilho)) throw new Error(`Revisão incompleta ou gatilho ausente: ${q.id}`);
   const contraste = q.gabarito === 'E' ? q.versao_correta : q.versao_errada && !/\bindevidamente\b/i.test(q.versao_errada) ? q.versao_errada : p.contrasteErrado;
   if (!contraste || /\bindevidamente\b/i.test(contraste) || !p.regra || !p.exemplo || !p.tecnica || !r.localizador) throw new Error(`Bloco ausente: ${q.id}`);
   const conferencia = q.estadoConferencia === 'caderno' ? 'Atribuição e gabarito no caderno; confronto oficial pendente' : 'Prova e gabarito oficiais confrontados';
-  linhas.push([q.id, q.modulo, q.submoduloId, q.gabarito, a.perfil, a.gatilho, p.titulo, p.regra, q.justificativa, p.exemplo, contraste, [p.tecnica, q.armadilhaBanca].filter(Boolean).join(' '), r.titulo, r.localizador, r.url || '', conferencia]);
+  linhas.push([q.id, q.modulo, q.submoduloId, q.gabarito, a.perfil, a.gatilho, p.titulo, p.regra, q.justificativa, a.exemplo || p.exemplo, contraste, [p.tecnica, q.armadilhaBanca].filter(Boolean).join(' '), r.titulo, r.localizador, r.url || '', conferencia]);
   porModulo[q.modulo] = (porModulo[q.modulo] || 0) + 1;
 }
 const cabecalho = ['id', 'modulo', 'submodulo', 'gabarito', 'perfil_conceitual', 'trecho_decisivo', 'conceito', 'regra', 'aplicacao_ao_item', 'exemplo', 'comparacao_didatica', 'tecnica', 'referencia_teorica', 'localizador', 'url_teorica', 'conferencia_da_origem'];
 const csv = [cabecalho, ...linhas].map(l => l.map(s => `"${String(s).replaceAll('"', '""')}"`).join(';')).join('\n') + '\n';
 const resumo = {
-  versao: 'estudo-reverso-integral-2026-11-05', total: questoes.length,
+  versao: 'estudo-reverso-integral-lote-05-2026-11-05', total: questoes.length,
   anotacoesIndividuais: Object.keys(anotacoes).length, explicacoesConceituais: Object.keys(perfis).length,
   referenciasTeoricas: Object.keys(referencias).length, porModulo,
+  exemplosIndividuais: Object.values(anotacoes).filter(a => a.exemplo).length,
   oficiaisConfrontadas: questoes.filter(q => q.estadoConferencia !== 'caderno').length,
   confrontoOficialPendente: questoes.filter(q => q.estadoConferencia === 'caderno').length,
   limites: ['A auditoria verifica cobertura e integridade dos blocos, não comprova a verdade de cada explicação.', 'A ampliação didática não converte atribuição de apostila em confronto de prova e gabarito oficiais.', 'Exemplos e comparações são autorais, não enunciados adicionais da Cebraspe.'],
 };
-const destinos = { 'docs/simulados-reais/ESTUDO-REVERSO-1342.csv': '\uFEFF' + csv, 'docs/simulados-reais/ESTUDO-REVERSO-1342.json': JSON.stringify(resumo, null, 2) + '\n' };
+const destinos = { 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.csv': '\uFEFF' + csv, 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.json': JSON.stringify(resumo, null, 2) + '\n' };
 for (const [destino, conteudo] of Object.entries(destinos)) {
   if (process.argv.includes('--write')) fs.writeFileSync(destino, conteudo);
   else if (!fs.existsSync(destino) || fs.readFileSync(destino, 'utf8') !== conteudo) throw new Error(`Relatório desatualizado: execute node scripts/auditarEstudoReversoReais.mjs --write`);

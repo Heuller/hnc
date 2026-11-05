@@ -1126,5 +1126,21 @@
     "tecnica": "Técnica: Coleta versus uso gerencial. Identifique o ambiente observado e a finalidade de antecipar escolhas. Monitoramento não equivale a garantir previsões infalíveis.",
     "contrasteErrado": "Monitoramento ambiental limita-se a fiscalizar tarefas internas e não produz subsídios para planejar ações futuras.",
     "referencia": "choo"
+  },
+  "slic": {
+    "titulo": "SLIC: criar entradas combinadas para localizar assuntos",
+    "regra": "SLIC significa Selective Listing in Combination, ou listagem seletiva em combinação. É uma técnica de construção de índices que combina termos de uma representação de assunto, ordena entradas e elimina sequências consideradas redundantes pelo procedimento. Assim, um documento pode ser localizado por diferentes entradas preparadas antes da consulta. Não significa gerar todas as permutações nem garante atender qualquer necessidade de informação.",
+    "exemplo": "Considere A = bibliotecas, B = catalogação e C = normas. O exemplo do verbete de Cunha e Cavalcanti apresenta ABC, AC, BC e C: são entradas selecionadas, e não todos os subconjuntos possíveis. O leitor consulta o índice para chegar ao documento pelas entradas que efetivamente foram produzidas.",
+    "tecnica": "Técnica: Procedimento e momento da combinação. Verifique se as entradas são preparadas na indexação e como são selecionadas. Não confunda combinar termos, permutá-los e medir a qualidade da recuperação.",
+    "contrasteErrado": "SLIC gera obrigatoriamente todas as permutações possíveis e só combina os conceitos no momento da busca.",
+    "referencia": "souza-slic"
+  },
+  "api": {
+    "titulo": "API: regras para programas conversarem",
+    "regra": "Uma interface de programação de aplicações (API) define operações, dados e regras para um programa utilizar funcionalidades ou informações de outro. Pode estabelecer como solicitar registros, enviar parâmetros e interpretar respostas. Não é sinônimo de banco de dados, página visual ou protocolo de coleta: cada API tem contrato, permissões e limites próprios.",
+    "exemplo": "Um portal solicita registros de um repositório por uma operação documentada e recebe uma resposta estruturada. Saber a URL do sistema não basta: é preciso conhecer parâmetros, campos, autenticação e formato da resposta.",
+    "tecnica": "Técnica: Interface de programação versus interface visual. Verifique como programas trocam dados e quais regras precisam seguir. Uma API não torna qualquer sistema automaticamente compatível com todos os outros.",
+    "contrasteErrado": "API é apenas a página visual usada pelo leitor e não permite comunicação entre programas.",
+    "referencia": "api-camara"
   }
 }

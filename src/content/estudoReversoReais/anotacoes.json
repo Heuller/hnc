@@ -5366,5 +5366,1525 @@
   "real-esquematizada-1937-812fdd171b": {
     "perfil": "abreviacao",
     "gatilho": "sigla, esta é conservada"
+  },
+  "real-esquematizada-46-bb07c80d29": {
+    "perfil": "documento",
+    "gatilho": "suporte de dados",
+    "exemplo": "Uma gravação de entrevista guarda dados sonoros que podem documentar a história de uma comunidade. Mesmo sem páginas ou letras impressas, ela pode ser tratada, descrita e consultada como documento."
+  },
+  "real-esquematizada-52-adfaaa266b": {
+    "perfil": "ciencia-info",
+    "gatilho": "trabalho coletivo",
+    "exemplo": "Ao organizar um repositório, a bibliotecária precisa dialogar com pesquisadores, equipe técnica e gestores de direitos. Seu trabalho acompanha da produção ao acesso, em vez de terminar na descrição de um arquivo."
+  },
+  "real-esquematizada-61-62fc3e66e2": {
+    "perfil": "ciencia-info",
+    "gatilho": "administração, arquivo, descarte",
+    "exemplo": "Uma busca especializada pode reunir artigos sobre orçamento de bibliotecas, edifícios acessíveis e políticas de descarte. Todos ajudam a resolver problemas biblioteconômicos, embora abordem atividades diferentes.",
+    "referencia": "lisa-oficial"
+  },
+  "real-esquematizada-66-c95802f094": {
+    "perfil": "gi",
+    "gatilho": "modelos de gestão estratégica",
+    "exemplo": "Ao registrar dúvidas recorrentes nas interações de uma rede social, a biblioteca identifica demandas e reorganiza suas orientações. O aprendizado interessa à gestão, mas exige análise e cuidados com dados pessoais."
+  },
+  "real-esquematizada-74-8c2aecea4b": {
+    "perfil": "ciencia-info",
+    "gatilho": "armazenamento e o uso da informação",
+    "exemplo": "Uma biblioteca melhora a organização do catálogo para facilitar pesquisas. Um estudo de Ciência da Informação pode investigar como essa organização afeta a recuperação: as perspectivas se aproximam pelo problema, sem se tornarem a mesma disciplina."
+  },
+  "real-esquematizada-93-84e63c57c6": {
+    "perfil": "interoperabilidade",
+    "gatilho": "formatos de intercâmbio e padrões internacionais",
+    "exemplo": "Uma biblioteca descreve um livro pelo AACR2, codifica o registro em MARC e o disponibiliza para pesquisa por Z39.50. Cada camada contribui para compartilhar o registro sem executar a mesma função."
+  },
+  "real-esquematizada-112-8f7a0f9842": {
+    "perfil": "pesquisa",
+    "gatilho": "verificar se outros autores já abordaram",
+    "exemplo": "Antes de escrever sobre bibliotecas legislativas, a autora levanta pesquisas existentes e registra referências. Assim consegue explicar o que retoma, o que contesta e qual contribuição pretende acrescentar."
+  },
+  "real-esquematizada-113-0dddd55de3": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "apenas na primeira",
+    "exemplo": "Uma coletânea identifica o responsável por cada capítulo; outra obra é assinada conjuntamente sem repartir a autoria de seções. A indicação das contribuições ajuda a interpretar o arranjo de responsabilidade descrito na questão."
+  },
+  "real-esquematizada-117-0d4572e9d7": {
+    "perfil": "metricas",
+    "gatilho": "outros métodos de mineração de dados",
+    "exemplo": "Um estudo conta publicações e usa mineração de textos para identificar temas recorrentes. A análise quantitativa e a descoberta de padrões se complementam, desde que os dados e os objetivos estejam definidos."
+  },
+  "real-esquematizada-124-ebea967e5b": {
+    "perfil": "gi",
+    "gatilho": "reunião, classificação e difusão",
+    "exemplo": "Um centro recebe relatórios, organiza seus registros e os torna pesquisáveis para técnicos. A sequência mostra a ligação entre constituição do conjunto, tratamento e disponibilização, mesmo havendo várias operações dentro de cada fase."
+  },
+  "real-esquematizada-132-71bbf49554": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "o fator de impacto dos periódicos",
+    "exemplo": "A pesquisadora encontra um perfil com h = 12 no Google Acadêmico. Para conferir o Journal Impact Factor de uma revista, precisa consultar a informação correspondente no JCR, sem transformar o h do perfil em fator de impacto.",
+    "referencia": "google-scholar-citacoes"
+  },
+  "real-esquematizada-145-e315570fbf": {
+    "perfil": "conhecimento",
+    "gatilho": "Diferentemente do dado e da informação",
+    "exemplo": "Copiar um manual de catalogação entrega o mesmo texto a duas pessoas, mas não a mesma experiência para interpretar casos difíceis. O registro pode apoiar a aprendizagem sem duplicar automaticamente o saber de quem o escreveu."
+  },
+  "real-esquematizada-163-6d9195e970": {
+    "perfil": "conhecimento",
+    "gatilho": "transformando-as em conhecimento tácito",
+    "exemplo": "Organizar relatórios facilita o acesso ao conhecimento registrado. Para incorporar a experiência de um especialista, a equipe pode discutir casos, observar a prática e refletir sobre decisões, além de consultar esses relatórios."
+  },
+  "real-esquematizada-170-78a0368e51": {
+    "perfil": "monitoramento",
+    "gatilho": "reduzir a incerteza",
+    "exemplo": "Ao acompanhar mudanças nas disciplinas de um curso, a biblioteca antecipa novos pedidos de literatura. A análise reduz o risco de investir em materiais pouco úteis, embora não permita prever toda demanda futura."
+  },
+  "real-esquematizada-183-fbb9112bfd": {
+    "perfil": "ciencia-info",
+    "gatilho": "transferência da informação",
+    "exemplo": "Um projeto de recuperação utiliza organização bibliográfica, análise de termos e programação. A combinação permite representar documentos e compatibilizar a consulta do usuário com os dados do sistema."
+  },
+  "real-esquematizada-195-5d28ef271f": {
+    "perfil": "conhecimento",
+    "gatilho": "tal como a gestão do conhecimento",
+    "exemplo": "Uma base organizada de procedimentos melhora o acesso à informação. Uma comunidade que discute soluções e aprende com experiências trabalha também com criação e compartilhamento de conhecimento, para além de manter a base."
+  },
+  "real-esquematizada-214-05456730d8": {
+    "perfil": "profissao",
+    "gatilho": "centrada nos conteúdos",
+    "exemplo": "Dois cursos podem organizar componentes de maneiras diferentes e ainda atender às diretrizes de formação. A existência de requisitos educacionais não significa que a LDB determine a mesma sequência de disciplinas para todos.",
+    "referencia": "ldb-oficial"
+  },
+  "real-esquematizada-222-8bd55c474c": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "acesso restrito a bibliotecários",
+    "exemplo": "Uma pergunta recebida por uma biblioteca podia ser atendida com apoio de profissionais da cooperação. A plataforma auxiliava a equipe, mas o resultado do serviço era destinado ao usuário que precisava da informação.",
+    "referencia": "questionpoint-historico"
+  },
+  "real-esquematizada-225-7fcd0733a9": {
+    "perfil": "referencia-virtual",
+    "gatilho": "possibilidade",
+    "exemplo": "Quando uma equipe encerra seu horário local, outra participante pode assumir consultas conforme o acordo da rede. A cobertura ampliada vem da cooperação organizada, não de um único bibliotecário trabalhar continuamente.",
+    "referencia": "questionpoint-historico"
+  },
+  "real-esquematizada-238-fac2835d86": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "347.991(81)(094.9)",
+    "exemplo": "Ao classificar uma coletânea brasileira de decisões, não basta reconhecer o assunto jurídico: o profissional também pode indicar o contexto geográfico e que o material é um repertório de jurisprudência."
+  },
+  "real-esquematizada-240-193bbb3c47": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "inclusão digital",
+    "exemplo": "Uma escola situada em local de difícil conectividade pode precisar de um ponto de acesso para atividades educativas. A política de inclusão procura diminuir a barreira de conexão que impede o uso de serviços informacionais.",
+    "referencia": "gesac-oficial"
+  },
+  "real-esquematizada-255-8e58afa3ff": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "sem a necessidade da mediação",
+    "exemplo": "A usuária pede “tudo sobre transparência”. Ao discutir prazo, finalidade e tipo de fonte, transforma a solicitação em uma busca viável por normas e estudos de um período: a pergunta foi negociada."
+  },
+  "real-esquematizada-259-eba7a7309b": {
+    "perfil": "referencia",
+    "gatilho": "tem reduzido a procura",
+    "exemplo": "Um estudante baixa sozinho um artigo cujo título conhece. Mais tarde procura o bibliotecário para ampliar o tema e avaliar bases adequadas: autonomia numa tarefa não equivale a domínio de toda a pesquisa."
+  },
+  "real-esquematizada-260-05166d7b86": {
+    "perfil": "dsi",
+    "gatilho": "serviço de alerta",
+    "exemplo": "A biblioteca publica para todos uma lista de novas aquisições: é um alerta geral. Se seleciona dessa lista apenas obras de direito ambiental para um pesquisador interessado no tema, acrescenta personalização característica da DSI."
+  },
+  "real-esquematizada-304-c882eadab6": {
+    "perfil": "dsi",
+    "gatilho": "cópias das páginas do sumário",
+    "exemplo": "Para acompanhar uma revista, o pesquisador recebe seu sumário. Para conhecer publicações de um tema em várias fontes, recebe uma lista de referências selecionadas. Os produtos ajudam a descoberta por caminhos diferentes."
+  },
+  "real-esquematizada-306-b75a381dc4": {
+    "perfil": "referencia",
+    "gatilho": "provisão de informações",
+    "exemplo": "Enviar a cópia de um artigo atende à provisão do documento. Responder qual norma disciplina determinada matéria atende diretamente à necessidade de informação. O documento pode apoiar a resposta, sem tornar as operações idênticas."
+  },
+  "real-esquematizada-309-000159fdff": {
+    "perfil": "referencia-virtual",
+    "gatilho": "de uma ou outra maneira",
+    "exemplo": "Uma biblioteca usa “referência virtual” para um serviço que combina e-mail e chat. O nome geral não informa se a resposta será imediata: o aluno precisa conferir a modalidade e o horário de cada canal."
+  },
+  "real-esquematizada-311-7cb29d0123": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "escassez de software livres ou gratuitos",
+    "exemplo": "Um chat sem licença paga pode exigir configuração, treinamento e manutenção. A decisão precisa comparar esses custos e a utilidade do canal, em vez de concluir que somente uma ferramenta comercial torna o serviço possível."
+  },
+  "real-esquematizada-353-0bbd7d39b2": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "quantitativas e qualitativas",
+    "exemplo": "Numa entrevista estruturada, a equipe registra quantos usuários trabalham em cada área. Em outra parte, pergunta como enfrentam dificuldades de busca. O instrumento pode produzir contagens e relatos, conforme o desenho."
+  },
+  "real-esquematizada-366-883fc5496b": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "pesquisa quantitativa",
+    "exemplo": "Uma biblioteca calcula a proporção de usuários satisfeitos com base em respostas padronizadas. Se ouviu apenas um grupo muito específico, precisa considerar essa limitação antes de generalizar o percentual para toda a comunidade."
+  },
+  "real-esquematizada-370-c8583adb15": {
+    "perfil": "sense-making",
+    "gatilho": "natureza qualitativa",
+    "exemplo": "Ao investigar uma busca, a pesquisadora pergunta o que a pessoa tentava fazer, o que não compreendia e o que a ajudou a prosseguir. A narrativa mostra como o sentido foi construído naquela situação."
+  },
+  "real-esquematizada-386-6c9240716e": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "indivíduo ou grupo",
+    "exemplo": "Uma comissão solicita uma pesquisa para produzir um relatório. Embora a conversa seja feita por uma servidora, o serviço pode ter como usuário o grupo que utilizará os resultados no trabalho coletivo."
+  },
+  "real-esquematizada-412-e1a3a2a237": {
+    "perfil": "comportamento",
+    "gatilho": "armazenamento de informação",
+    "exemplo": "Uma pessoa percebe uma dúvida, conversa com um colega e utiliza a orientação para decidir. Há comportamento informacional mesmo sem salvar um arquivo; o foco é sua relação com a informação, não uma rotina de armazenamento."
+  },
+  "real-esquematizada-416-adfcc172ae": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "participação dos usuários",
+    "exemplo": "Leitores comentam recomendações e participam da criação de uma coleção de relatos em áudio. A biblioteca incorpora essas contribuições ao serviço e as avalia, em lugar de usar o sítio apenas como mural de avisos."
+  },
+  "real-esquematizada-419-40337e785e": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "necessário, o que é desejado ou o que é demandado",
+    "exemplo": "Usuários desejam acesso remoto, necessitam de textos para suas tarefas e pedem uma base específica. A biblioteca investiga essas dimensões antes de definir autenticação, cobertura e outras condições do serviço."
+  },
+  "real-esquematizada-428-b1aa2fed1c": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "grande população dispersa",
+    "exemplo": "Para obter respostas padronizadas de mil servidores em cidades diferentes, a equipe pode enviar um questionário. Depois entrevista uma amostra para compreender dificuldades em profundidade, combinando funções dos instrumentos."
+  },
+  "real-esquematizada-434-a3a67df5dd": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "estudos de uso da informação",
+    "exemplo": "Um estudo acompanha quais bases são usadas e para quais tarefas. Outro inclui quem não usa o serviço e por quê. Os recortes se aproximam pelo público, mas a biblioteca deve declarar o que cada investigação abrange."
+  },
+  "real-esquematizada-437-b1fc018c85": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "serviços de informação, informação, usuários, canais e impacto",
+    "exemplo": "Uma biblioteca envia um boletim por e-mail para pesquisadores. O e-mail é o canal; verificar se os destinatários usaram as referências para suas tarefas ajuda a avaliar efeito. Taxa de envio, sozinha, não demonstra esse uso."
+  },
+  "real-esquematizada-438-8952ea6468": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "vida ativa profissional",
+    "exemplo": "Uma bibliotecária procura material para um curso, normas para o trabalho e informações sobre um serviço público para sua família. São tarefas diferentes da mesma pessoa, que a tipologia ajuda a reconhecer."
+  },
+  "real-esquematizada-443-efec0bfbb8": {
+    "perfil": "comportamento",
+    "gatilho": "desempenho da informação",
+    "exemplo": "Dois usuários recebem a mesma lista de documentos, mas escolhem fontes e utilizam resultados de maneiras diferentes. Estudar suas razões e circunstâncias é estudar comportamento informacional, não apenas o desempenho da lista."
+  },
+  "real-esquematizada-448-8b05f3fd3f": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "marketing de permissão",
+    "exemplo": "A usuária aceita receber novidades sobre concursos de biblioteconomia e pode cancelar o envio. A biblioteca seleciona comunicações pertinentes à autorização, em vez de usar o cadastro para publicidade de qualquer assunto."
+  },
+  "real-esquematizada-470-667e911436": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "arbitrado pelo usuário",
+    "exemplo": "A biblioteca se anuncia como rápida e acolhedora. Se os atendimentos atrasam e as orientações não ajudam, a avaliação do público pode divergir dessa imagem desejada; a comunicação não substitui o serviço prestado."
+  },
+  "real-esquematizada-479-fea52b32a4": {
+    "perfil": "hardware",
+    "gatilho": "movimentação frequente do pescoço",
+    "exemplo": "Ao transcrever fichas, a profissional usa um suporte próximo à tela e ajusta altura e iluminação. A organização do posto reduz alternâncias desconfortáveis de postura entre o documento e o monitor.",
+    "referencia": "ergonomia-nr17"
+  },
+  "real-esquematizada-485-2fccd42d5a": {
+    "perfil": "dsi",
+    "gatilho": "poupe o tempo do usuário",
+    "exemplo": "Uma pesquisadora recebe uma seleção de novos trabalhos coerente com seu tema. Em vez de examinar todos os lançamentos da semana, pode concentrar-se nos materiais mais prováveis de atender à sua necessidade."
+  },
+  "real-esquematizada-543-4a79cb9db9": {
+    "perfil": "tipos-fontes",
+    "gatilho": "difusão rápida",
+    "exemplo": "Um instituto divulga um relatório de pesquisa antes da publicação do artigo. O documento pode oferecer dados originais úteis, mas o leitor ainda precisa examinar método, responsabilidade e condições de produção."
+  },
+  "real-esquematizada-574-b99daa53c7": {
+    "perfil": "identificadores",
+    "gatilho": "obrigatório",
+    "exemplo": "Uma revista pode precisar do ISSN para atender aos critérios de uma base de indexação. Essa condição daquela base não significa que o número seja obrigatório para toda publicação seriada existente no país.",
+    "referencia": "issn-oficial"
+  },
+  "real-esquematizada-580-eae0c4a92d": {
+    "perfil": "editorial",
+    "gatilho": "próprio autor",
+    "exemplo": "Ao submeter um artigo, a pesquisadora informa título, resumo e palavras-chave. A revista pode revisar esses dados antes de publicar; a participação do autor na entrada não garante correção de todo o registro."
+  },
+  "real-esquematizada-593-ddaa8d9e01": {
+    "perfil": "lexml",
+    "gatilho": "BDTD",
+    "exemplo": "Uma tese sobre bibliotecas legislativas pode ser localizada na BDTD. Para localizar uma lei citada na tese, o pesquisador pode recorrer ao LexML. Tratar do mesmo tema não torna os serviços equivalentes.",
+    "referencia": "lexml-pesquisa"
+  },
+  "real-esquematizada-594-4a934bb116": {
+    "perfil": "portais",
+    "gatilho": "quantidade de citações",
+    "exemplo": "Um artigo aparece com vinte citações no Google Acadêmico e quinze em outra base. A diferença pode decorrer de cobertura e identificação de versões, e não significa automaticamente erro de uma das plataformas.",
+    "referencia": "google-scholar-citacoes"
+  },
+  "real-esquematizada-598-dee0266ab6": {
+    "perfil": "referencias",
+    "gatilho": "elaboração da referência de um evento",
+    "exemplo": "Para referenciar os anais de um congresso, identificam-se o evento e os dados da publicação. Para citar um artigo específico desses anais, acrescentam-se autor, título da contribuição e a localização correspondente."
+  },
+  "real-esquematizada-604-fea22ecc68": {
+    "perfil": "diario-justica",
+    "gatilho": "trinta anos",
+    "exemplo": "O tribunal precisa permitir comprovar uma publicação antiga e seus efeitos processuais. Encerrar automaticamente a guarda depois de trinta anos contrariaria a regra específica, mesmo que o suporte ou o sistema de consulta seja atualizado.",
+    "referencia": "stj-diario-oficial"
+  },
+  "real-esquematizada-612-b0af881cdd": {
+    "perfil": "dou",
+    "gatilho": "atos de interesse dos servidores",
+    "exemplo": "A busca por uma portaria de nomeação começa pela Seção 2. Para uma portaria que estabelece normas gerais de um serviço público, o assunto pode orientar à Seção 1, embora ambas se chamem portaria."
+  },
+  "real-esquematizada-617-60295a0df7": {
+    "perfil": "busca",
+    "gatilho": "legis?",
+    "exemplo": "Se uma base usa ? para uma posição, uma consulta com esse sinal não cobre palavras com qualquer quantidade de letras adicionais. Antes de ampliar a busca por um radical, a bibliotecária confere o uso de * na ajuda do serviço.",
+    "referencia": "lexml-pesquisa"
+  },
+  "real-esquematizada-619-869631f07f": {
+    "perfil": "lexml",
+    "gatilho": "cada esfera administrativa",
+    "exemplo": "Duas leis federais não podem ser identificadas apenas pelo rótulo “Poder Legislativo federal”. Seus números, datas e outros componentes permitem diferenciar os recursos e relacioná-los às fontes responsáveis.",
+    "referencia": "lexml-urn"
+  },
+  "real-esquematizada-639-59dd5a62d0": {
+    "perfil": "dou",
+    "gatilho": "por intermédio de lei ou decreto",
+    "exemplo": "Antes de encaminhar um ato de concessão de comenda, a equipe verifica a base legal e a regra de publicação. Reconhecer a exceção evita concluir pela proibição absoluta apenas por se tratar de uma homenagem."
+  },
+  "real-esquematizada-640-c4bad1ae9e": {
+    "perfil": "dou",
+    "gatilho": "atos relativos aos servidores",
+    "exemplo": "A nomeação de um servidor e a intimação de uma parte provêm de órgãos do Judiciário, mas têm funções diferentes. Procurá-las obrigatoriamente no mesmo diário ignora a classificação do ato."
+  },
+  "real-esquematizada-643-5cbf9ecbe4": {
+    "perfil": "diario-justica",
+    "gatilho": "sob a forma resumida",
+    "exemplo": "Uma ementa sintetiza uma decisão, mas não serve como autorização para resumir qualquer resolução normativa. Antes de pesquisar ou citar, o bibliotecário verifica qual texto foi oficialmente publicado e a que categoria pertence."
+  },
+  "real-esquematizada-656-577db416c4": {
+    "perfil": "juridica",
+    "gatilho": "controle e a consulta à legislação federal",
+    "exemplo": "Para localizar uma lei federal, o pesquisador consulta um sistema legislativo e verifica seus dados e atualizações. A identificação de decisões que interpretam essa lei exige uma pesquisa jurisprudencial complementar."
+  },
+  "real-esquematizada-659-65d93952ef": {
+    "perfil": "dou",
+    "gatilho": "rodapé",
+    "exemplo": "Ao guardar uma página de uma edição antiga, o bibliotecário verifica o cabeçalho para identificar data, seção e número. Esses dados evitam citar uma folha isolada sem comprovar a publicação a que pertence."
+  },
+  "real-esquematizada-665-c7048287dc": {
+    "perfil": "juridica",
+    "gatilho": "manuseio simples e rápido",
+    "exemplo": "Encontrar a publicação de um decreto antigo pode exigir conhecer o período e a seção e consultar índices. A dificuldade da pesquisa não reduz a importância do diário como evidência de publicação."
+  },
+  "real-esquematizada-673-41a3644ce7": {
+    "perfil": "dou",
+    "gatilho": "parte I e parte II",
+    "exemplo": "Saber que o DOU tem três seções não basta para marcar a afirmação. A bibliotecária compara também as subdivisões e os assuntos apresentados e identifica informações que não pertencem à estrutura descrita."
+  },
+  "real-esquematizada-676-87415beb15": {
+    "perfil": "dou",
+    "gatilho": "Gazeta Oficial do Império",
+    "exemplo": "Num catálogo de jornais, duas publicações podem divulgar atos governamentais e ainda exigir registros próprios. Conferir títulos, períodos e responsabilidade editorial impede reuni-las como se fossem uma única sequência sem mudanças."
+  },
+  "real-esquematizada-679-dae573cd7c": {
+    "perfil": "ciencia-info",
+    "gatilho": "com todos seus desdobramentos",
+    "exemplo": "Uma pesquisa investiga como tornar documentos recuperáveis e como usuários interpretam os resultados. Ela pode gerar uma melhoria tecnológica, mas o problema inclui representação, acesso e uso, e não somente a máquina."
+  },
+  "real-esquematizada-687-331b7502fe": {
+    "perfil": "juridica",
+    "gatilho": "obrigatoriedade da publicação",
+    "exemplo": "Para conferir uma lei, a equipe identifica o diário e a data de publicação e procura alterações posteriores. Para localizar interpretações doutrinárias, precisa mapear livros, artigos e outras fontes com organização diferente."
+  },
+  "real-esquematizada-689-738b97258e": {
+    "perfil": "rvbi",
+    "gatilho": "Escola Superior do Ministério Público da União",
+    "exemplo": "Ao registrar uma fonte jurídica, a bibliotecária confere quem a mantém antes de preencher os dados de responsabilidade. Reconhecer “bibliografia de direito” pelo título não basta para atribuí-la a qualquer órgão da área jurídica."
+  },
+  "real-esquematizada-693-5e04e799c0": {
+    "perfil": "portais",
+    "gatilho": "redes corporativas privadas",
+    "exemplo": "Uma organização reúne documentos e serviços em um ponto de entrada para seus clientes. A experiência de integrar busca e acesso pode apoiar a evolução para um portal, mantendo condições próprias de autorização e público."
+  },
+  "real-esquematizada-697-27eb73a4c2": {
+    "perfil": "portais",
+    "gatilho": "especializados",
+    "exemplo": "Um portal reúne fontes de saúde para pesquisadores; outro integra relatórios internos para empregados autenticados. Ambos organizam acesso, mas a cobertura e as permissões dependem de finalidades diferentes."
+  },
+  "real-esquematizada-700-632d402b67": {
+    "perfil": "autoridades",
+    "gatilho": "autoria e terminologia",
+    "exemplo": "Para padronizar o nome de um ministério, consulta-se a fonte de autoridade adequada. Para escolher um descritor de assunto, utiliza-se o vocabulário pertinente; os dois controles colaboram, mas não são o mesmo cadastro."
+  },
+  "real-esquematizada-714-cc2acf7871": {
+    "perfil": "dc",
+    "gatilho": "Dublin Core",
+    "exemplo": "Uma imagem pode ser descrita por título, criador, data e direitos. O arquivo da imagem é o recurso; esses dados ajudam a reconhecê-lo e administrá-lo, mesmo quando aparecem em um sistema diferente."
+  },
+  "real-esquematizada-725-269fcefdb6": {
+    "perfil": "rda",
+    "gatilho": "registro de autoridade",
+    "exemplo": "Dois autores têm o mesmo nome. Registrar atributos e relações das pessoas ajuda a distingui-los e reunir suas obras, em vez de depender somente da coincidência de uma forma textual no catálogo."
+  },
+  "real-esquematizada-728-d05704b0ff": {
+    "perfil": "catalogos",
+    "gatilho": "intersecção entre mensagens",
+    "exemplo": "A usuária conhece o título de uma obra, mas outro leitor só conhece o assunto. O catálogo oferece acessos diferentes para aproximar cada pergunta dos recursos descritos, sem exigir que todos pensem exatamente como o catalogador."
+  },
+  "real-esquematizada-734-df5511c4e4": {
+    "perfil": "aacr-areas",
+    "gatilho": "registro das duas cidades",
+    "exemplo": "A folha de rosto apresenta Londres e Nova York. Antes de copiar as duas cidades, a catalogadora verifica a regra de seleção e se há destaque ou condição de registro adicional para aquela descrição."
+  },
+  "real-esquematizada-762-5579e33f16": {
+    "perfil": "catalogos",
+    "gatilho": "aos documentos descritos",
+    "exemplo": "O catálogo informa que a biblioteca possui um livro de 1980, mas não oferece seu PDF. O leitor localizou o registro e ainda precisa consultar ou solicitar o exemplar para ler a obra."
+  },
+  "real-esquematizada-796-85e4e17423": {
+    "perfil": "aacr-acesso",
+    "gatilho": "não é necessário",
+    "exemplo": "Duas traduções brasileiras do mesmo romance têm escolhas e responsáveis diferentes. Identificar o tradutor permite ao leitor escolher a versão solicitada e evita confundir publicações apenas porque o título e a língua coincidem."
+  },
+  "real-esquematizada-798-540b130a1a": {
+    "perfil": "aacr-acesso",
+    "gatilho": "entrada principal",
+    "exemplo": "Um volume reúne leis de três países. A entrada principal não é uma sequência alfabética com os três nomes como se formassem um único autor; as entradas secundárias permitem recuperar o conjunto por cada jurisdição."
+  },
+  "real-esquematizada-800-0ce2787e58": {
+    "perfil": "aacr-acesso",
+    "gatilho": "nome completo",
+    "exemplo": "Para distinguir municípios de mesmo nome, a catalogadora utiliza o qualificador da unidade federativa na forma autorizada. Escrever uma identificação compreensível não dispensa seguir o padrão adotado no catálogo."
+  },
+  "real-esquematizada-804-8a64c90ab2": {
+    "perfil": "aacr-acesso",
+    "gatilho": "primeiro coordenador",
+    "exemplo": "Um livro reúne textos e apresenta dois coordenadores em destaque. Antes de escolher um deles como entrada principal, a catalogadora distingue autoria das contribuições e organização da coletânea e aplica a regra do código."
+  },
+  "real-esquematizada-820-4d5fa8f0da": {
+    "perfil": "aacr-acesso",
+    "gatilho": "como notas",
+    "exemplo": "O catálogo pode apresentar o título do filme como entrada e registrar direção e produção na indicação pertinente. Um elenco pode receber nota específica. Fazer entrada pelo título não elimina a responsabilidade intelectual da descrição."
+  },
+  "real-esquematizada-821-0d326f344a": {
+    "perfil": "autoridades",
+    "gatilho": "edição para outra língua",
+    "exemplo": "Uma organização publica o mesmo relatório em português e inglês. As duas manifestações podem ser recuperadas pela autoridade correspondente, com variantes de nome relacionadas, em vez de criar autores institucionais distintos só pelo idioma."
+  },
+  "real-esquematizada-825-a86ee7fe15": {
+    "perfil": "aacr-areas",
+    "gatilho": "não deverá ser registrado",
+    "exemplo": "Uma revista recebe título-chave igual ao título que aparece no fascículo. O catalogador reconhece que os elementos têm funções específicas e não elimina automaticamente o título-chave apenas para evitar repetição visual."
+  },
+  "real-esquematizada-833-09ac2dcd07": {
+    "perfil": "aacr-acesso",
+    "gatilho": "editor, organizador ou compilador",
+    "exemplo": "Uma obra reúne artigos de diferentes autores sob a coordenação de uma pessoa. A entrada pelo título identifica a coletânea, e acessos adicionais permitem encontrá-la por responsáveis relevantes sem atribuir a um organizador a autoria de todos os textos."
+  },
+  "real-esquematizada-840-b42e111d55": {
+    "perfil": "aacr-acesso",
+    "gatilho": "adaptador",
+    "exemplo": "Um escritor transforma um romance em versão infantil com modificações substanciais. O catálogo precisa representar essa responsabilidade pela adaptação e preservar a relação com a obra original, em vez de tratá-la como simples reimpressão."
+  },
+  "real-esquematizada-841-ab88e432df": {
+    "perfil": "aacr-acesso",
+    "gatilho": "É necessário",
+    "exemplo": "A coletânea já entra pelo seu título. Repetir o mesmo título como entrada secundária não cria um caminho novo para o leitor; acessos por responsáveis e obras componentes podem ter outra utilidade."
+  },
+  "real-esquematizada-851-950f946955": {
+    "perfil": "aacr-acesso",
+    "gatilho": "idioma da jurisdição",
+    "exemplo": "Uma biblioteca brasileira descreve uma constituição estrangeira cujo título está em outra língua. Pode transcrever o título do exemplar e, separadamente, estabelecer o título uniforme prescrito para reunir suas manifestações."
+  },
+  "real-esquematizada-852-4ff7101bb2": {
+    "perfil": "autoridades",
+    "gatilho": "aquele que consta na fonte principal",
+    "exemplo": "Uma autora usa nome abreviado numa edição e nome completo em outra. O catálogo pode reunir as obras sob a forma autorizada e fazer remissivas entre variantes, evitando que a busca pareça tratar de duas pessoas."
+  },
+  "real-esquematizada-859-34bd2bfde9": {
+    "perfil": "rda",
+    "gatilho": "novos formatos",
+    "exemplo": "Uma biblioteca precisa descrever livro, gravação e recurso digital e explicitar suas relações. RDA oferece instruções orientadas a recursos e entidades; o registro pode ser codificado em MARC ou em outra estrutura compatível."
+  },
+  "real-esquematizada-869-396d108dad": {
+    "perfil": "aacr-acesso",
+    "gatilho": "Defensoria Pública da União (Brasil)",
+    "exemplo": "Antes de registrar um relatório administrativo de um órgão federal, a catalogadora consulta sua forma autorizada. Assim evita criar um cabeçalho invertido e dispersar registros sob variantes institucionais improvisadas."
+  },
+  "real-esquematizada-872-5baba9c377": {
+    "perfil": "aacr-acesso",
+    "gatilho": "cada um dos organizadores",
+    "exemplo": "Uma descrição feita segundo AACR2 pode adotar tratamento diferente de um catálogo que registra amplamente todos os responsáveis em RDA. O código citado no enunciado define qual procedimento deve ser julgado."
+  },
+  "real-esquematizada-878-a62eb9fdc4": {
+    "perfil": "identificadores",
+    "gatilho": "ISSN da série",
+    "exemplo": "O volume “Preservação de fotografias” integra uma série de estudos. Seu ISBN identifica o livro; o ISSN identifica a série que o reúne a outros volumes, permitindo pesquisas e controles em níveis diferentes.",
+    "referencia": "issn-oficial"
+  },
+  "real-esquematizada-879-4bb0569687": {
+    "perfil": "autoridades",
+    "gatilho": "pelos nomes dessas entidades",
+    "exemplo": "Uma unidade tem nome distintivo, enquanto outra se chama apenas “Departamento de Administração”. O catalogador examina as regras e a necessidade de subordinação em cada caso, em vez de copiar toda a cadeia institucional para ambas."
+  },
+  "real-esquematizada-899-9ddd53fb11": {
+    "perfil": "ontologias",
+    "gatilho": "compromissos ontológicos",
+    "exemplo": "Num acervo de entrevistas, o projeto decide como representar pessoa entrevistada, tema e lugar. Essas escolhas tornam explícito o que cada anotação significa e ajudam sistemas e profissionais a interpretar os registros de modo consistente."
+  },
+  "real-esquematizada-906-8f254916e3": {
+    "perfil": "referencias",
+    "gatilho": "não há necessidade",
+    "exemplo": "Um artigo dos anais em PDF tem páginas 30–42 e pertence ao quinto congresso. Esses dados continuam úteis para identificá-lo; publicar o arquivo na Internet não os transforma automaticamente em informações irrelevantes."
+  },
+  "real-esquematizada-908-3103ae574e": {
+    "perfil": "catalogacao",
+    "gatilho": "impossibilita",
+    "exemplo": "Um estudante chama a escolha de descritores de “descrição”. Para esclarecer, o professor compara título e edição com assunto e classe, mostrando a operação realizada, em vez de esperar que o nome do processo resolva a dúvida."
+  },
+  "real-esquematizada-918-f719382e21": {
+    "perfil": "interoperabilidade",
+    "gatilho": "arquitetura de dados",
+    "exemplo": "Um catálogo passa a relacionar obras, edições e exemplares em entidades distintas. Essa possibilidade exige decisões de modelagem e de descrição, que afetam tanto a implementação quanto a maneira de apresentar os recursos ao leitor."
+  },
+  "real-esquematizada-925-0a0d5e8f8f": {
+    "perfil": "marc",
+    "gatilho": "posição inicial e o tamanho",
+    "exemplo": "Ao importar um registro, o sistema lê uma entrada do diretório para saber onde começa o campo 245 e quanto ocupa. Só depois interpreta os dados do título segundo a definição do campo e seus subcampos."
+  },
+  "real-esquematizada-954-7def3baeba": {
+    "perfil": "indices",
+    "gatilho": "não expressas no documento",
+    "exemplo": "O texto menciona uma autora apenas pelo sobrenome. O elaborador pode identificar de modo fundamentado a pessoa na entrada do índice, evitando que o leitor a confunda com outra de mesmo sobrenome."
+  },
+  "real-esquematizada-955-cc08d2c4ca": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "Todos",
+    "exemplo": "Um texto aprecia uma obra de modo amplo; outro compara uma edição recém-revista com anteriores. No referencial histórico da questão, o segundo recorte ajuda a reconhecer o uso do termo recensão."
+  },
+  "real-esquematizada-957-a8ad8f55fd": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "no máximo, quinhentas palavras",
+    "exemplo": "Uma revista pode definir um limite editorial para suas resenhas, mas essa exigência local não deve ser atribuída automaticamente à ABNT como máximo universal de qualquer análise crítica."
+  },
+  "real-esquematizada-958-34b83148e9": {
+    "perfil": "indices",
+    "gatilho": "Índices onomásticos",
+    "exemplo": "Para encontrar páginas que tratam de acessibilidade, consulte o índice de assuntos. Para localizar menções a uma pessoa ou entidade nomeada, procure o índice de nomes apropriado ao escopo da publicação."
+  },
+  "real-esquematizada-961-ace1222a4b": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "apenas uma das edições",
+    "exemplo": "Ao avaliar uma edição com notas e revisão novas, o crítico pode discutir justamente o que ela acrescenta ou modifica. Esse foco na edição diferencia a análise de uma apresentação geral do tema do livro."
+  },
+  "real-esquematizada-962-2c157b3af4": {
+    "perfil": "resumos",
+    "gatilho": "mas não sobre os resultados",
+    "exemplo": "“O estudo examina o uso de uma base por meio de entrevistas” anuncia tema e abordagem. Sem informar o que as entrevistas revelaram, ainda não oferece o conjunto de resultados típico de um resumo informativo."
+  },
+  "real-esquematizada-965-30497c0f81": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "análises críticas",
+    "exemplo": "Uma apreciação examina contribuição, limitações e relação de uma obra com a literatura. O leitor obtém um julgamento fundamentado, e não apenas a informação de que o documento existe ou trata de certo assunto."
+  },
+  "real-esquematizada-973-900ebbd9c6": {
+    "perfil": "indexacao",
+    "gatilho": "respectivamente",
+    "exemplo": "Uma profissional desconhece a terminologia de medicina e pode interpretar mal um artigo, mesmo usando um bom tesauro. Em outro caso, conhece o tema, mas encontra falta de termos na linguagem: os problemas têm origens diferentes."
+  },
+  "real-esquematizada-994-deaf161781": {
+    "perfil": "exaustividade",
+    "gatilho": "específico",
+    "exemplo": "Para um estudo sobre preservação de fotografias, “fotografias” é mais específico do que “documentos”. Acrescentar dez termos amplos não torna automaticamente a representação mais específica para essa necessidade."
+  },
+  "real-esquematizada-997-ccc3027d38": {
+    "perfil": "vocabulario",
+    "gatilho": "podendo",
+    "exemplo": "O usuário digita uma expressão livre, e o sistema relaciona variantes e sinônimos ao pesquisar. Isso pode ampliar caminhos de acesso, mas exige qualidade dos mapeamentos para não aumentar apenas o ruído."
+  },
+  "real-esquematizada-1000-028c107644": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "valor da informação",
+    "exemplo": "Uma busca devolve poucos documentos que permitem resolver uma dúvida urgente. O valor para a tarefa não está em receber a maior pilha possível de textos, mas em obter resultados que efetivamente interessem à necessidade."
+  },
+  "real-esquematizada-1002-6f10bfbfdf": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "motivacional ou afetiva",
+    "exemplo": "Um resultado pode tratar do tema e ainda frustrar a usuária por não ajudá-la no problema concreto. Investigar sua satisfação e seus motivos acrescenta uma dimensão que a correspondência lexical não mede sozinha."
+  },
+  "real-esquematizada-1004-3dc2204bc7": {
+    "perfil": "coordenacao",
+    "gatilho": "no contexto",
+    "exemplo": "Um índice mostra “Bibliotecas digitais na universidade” a partir da palavra “digitais”. Uma consulta que combina bibliotecas AND preservação realiza outra operação. Não basta haver palavras próximas para definir o tipo de coordenação."
+  },
+  "real-esquematizada-1008-ef95c91ca8": {
+    "perfil": "indexacao",
+    "gatilho": "nível primário",
+    "exemplo": "A autora publica um artigo; depois a base produz um registro com descritores e resumo. O registro ajuda a localizar o artigo, mas não se confunde com a pesquisa original que está sendo representada."
+  },
+  "real-esquematizada-1011-d0e5b22249": {
+    "perfil": "consistencia",
+    "gatilho": "coerência",
+    "exemplo": "Duas pessoas escolhem os mesmos descritores, mas ignoram o tema central do texto. Há concordância entre elas, embora a representação possa ser ruim. O exemplo mostra por que acordo não basta para provar qualidade."
+  },
+  "real-esquematizada-1022-b5bba21566": {
+    "perfil": "coordenacao",
+    "gatilho": "pré-coordenados",
+    "exemplo": "Um cabeçalho composto chega pronto ao índice antes da consulta. Em outra base, o usuário combina dois descritores com AND. O computador pode estar presente nos dois casos, mas a coordenação se dá em momentos diferentes."
+  },
+  "real-esquematizada-1076-ea4b31150f": {
+    "perfil": "vocabulario",
+    "gatilho": "não utiliza padrões de classificação",
+    "exemplo": "Uma organização separa documentos em Recursos Humanos, Contratação e Planejamento, com subdivisões. A estrutura ajuda a classificar e navegar; não serve apenas para recomendar quais palavras escrever nos textos."
+  },
+  "real-esquematizada-1077-8b29d7e314": {
+    "perfil": "ontologias",
+    "gatilho": "instâncias e axiomas",
+    "exemplo": "Uma ontologia pode declarar que uma pessoa é instância de uma classe e impor restrições de propriedades. Um tesauro pode indicar termo preferido e relações genéricas ou associativas sem expressar esse conjunto de axiomas."
+  },
+  "real-esquematizada-1078-a8f7f843eb": {
+    "perfil": "vocabulario",
+    "gatilho": "SOC",
+    "exemplo": "Um catálogo reúne obras de uma mesma pessoa por formas autorizadas de nome, enquanto um tesauro relaciona assuntos. Os instrumentos têm funções distintas e colaboram para uma organização que favoreça a recuperação."
+  },
+  "real-esquematizada-1080-2ed3100e3e": {
+    "perfil": "catalogos",
+    "gatilho": "forma interna",
+    "exemplo": "Um catálogo em fichas pode organizar entradas por autores ou por assuntos. A ficha é o suporte; o modo de reunir e ordenar entradas expressa outro aspecto da estrutura do instrumento."
+  },
+  "real-esquematizada-1096-dba1f66e02": {
+    "perfil": "kwic",
+    "gatilho": "KWIC",
+    "exemplo": "Um título usa “foto”, enquanto a busca procura “fotografia”. Sem controle ou expansão apropriados, o índice de palavras pode não aproximar as expressões, ainda que o documento seja útil ao usuário."
+  },
+  "real-esquematizada-1099-17eb2c90d5": {
+    "perfil": "coordenacao",
+    "gatilho": "associações falsas",
+    "exemplo": "Um documento compara exportações do Brasil e importações da Argentina. Buscar Brasil AND importações pode recuperar uma relação que não era o foco representado. Diferenciar papéis dos termos ajuda a evitar essa combinação enganosa."
+  },
+  "real-esquematizada-1108-69c33fbbf8": {
+    "perfil": "slic",
+    "gatilho": "elimina as sequências redundantes",
+    "exemplo": "Para um documento sobre bibliotecas, catalogação e normas, o índice pode oferecer mais de uma entrada combinada. O leitor chega ao documento pelas entradas produzidas; a técnica não equivale a simplesmente permutar três palavras em todas as ordens."
+  },
+  "real-esquematizada-1113-d240289773": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "não apenas suas relações genéricas",
+    "exemplo": "“Bibliotecas escolares” pode estar abaixo de “bibliotecas” e se relacionar a “leitura”. A primeira relação é hierárquica; a segunda pode ser associativa. O tesauro informa como os conceitos se conectam, conforme seu escopo."
+  },
+  "real-esquematizada-1117-2720e5b386": {
+    "perfil": "vocabulario",
+    "gatilho": "maneira unívoca",
+    "exemplo": "No domínio financeiro, uma nota pode delimitar o significado de “banco”. O usuário percebe que não se trata de assento e escolhe o conceito adequado, evitando confundir a mesma forma de palavra em contextos diferentes."
+  },
+  "real-esquematizada-1120-87c7418556": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "modificadores e qualificadores",
+    "exemplo": "“Banco (móvel)” diferencia uma forma de termo. Uma nota que explica quais tipos de assento estão incluídos delimita seu uso de outra maneira. A distinção ajuda a construir e consultar o vocabulário."
+  },
+  "real-esquematizada-1122-79479322c5": {
+    "perfil": "classificacao",
+    "gatilho": "dentro da mesma classe",
+    "exemplo": "Ao organizar documentos de botânica, a biblioteca distingue fisiologia, patologia e ecologia. Reconhecer qual aspecto predomina permite compor e localizar assuntos, em vez de tratar todos os textos como se tivessem o mesmo enfoque."
+  },
+  "real-esquematizada-1127-8395d3b5ff": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "811.134.3(81)’36",
+    "exemplo": "Um dicionário explica “acórdão”, “competência” e outros termos do direito. Sua função é apoiar consulta terminológica jurídica; ele não se torna uma gramática de verbos portugueses somente porque apresenta palavras em português."
+  },
+  "real-esquematizada-1159-13101c1a39": {
+    "perfil": "chamada",
+    "gatilho": "seguida de numeração",
+    "exemplo": "Dois títulos do mesmo autor começam com “P”. A equipe verifica a regra para ampliar a marca de obra e manter uma ordem inteligível; não escolhe números arbitrários apenas porque a inicial coincidiu."
+  },
+  "real-esquematizada-1209-cd073a4ef9": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "isoladamente",
+    "exemplo": "Um auxiliar previsto para uma área pode ter significado específico naquele contexto. Retirá-lo da classe e aplicá-lo sozinho pode perder o sentido ou gerar notação que a tabela não autoriza."
+  },
+  "real-esquematizada-1232-5c08f44930": {
+    "perfil": "cddir",
+    "gatilho": "Classificação Decimal Universal",
+    "exemplo": "Ao estudar um número da CDDir, o aluno precisa consultar suas próprias tabelas. Não deve copiar automaticamente a classe de direito da CDU apenas porque os dois sistemas organizam documentos jurídicos."
+  },
+  "real-esquematizada-1238-de2b107d6a": {
+    "perfil": "estrutura",
+    "gatilho": "cooperação e a participação",
+    "exemplo": "Cada setor pode decidir sobre questões locais dentro de objetivos comuns, enquanto decisões que afetam toda a biblioteca são articuladas. Autonomia com compromissos compartilhados difere de isolamento e de comando central sobre cada detalhe."
+  },
+  "real-esquematizada-1239-086bd52de5": {
+    "perfil": "podc",
+    "gatilho": "cultura organizacional",
+    "exemplo": "Uma equipe compartilha compromisso com atendimento respeitoso e o aplica mesmo sem supervisão imediata. Isso indica influência cultural; não basta que a missão esteja escrita num documento ou que cada pessoa a interprete de modo incompatível."
+  },
+  "real-esquematizada-1250-d50cb4f2ee": {
+    "perfil": "podc",
+    "gatilho": "específicos em gestão",
+    "exemplo": "Para justificar uma assinatura digital, a profissional relaciona orçamento, licença, qualidade da fonte e necessidades dos usuários. Só conhecer administração, sem compreender o recurso e sua utilização, seria insuficiente para essa decisão."
+  },
+  "real-esquematizada-1251-1ddf4d17e3": {
+    "perfil": "plano-marketing",
+    "gatilho": "técnicas de marketing e divulgação",
+    "exemplo": "Uma biblioteca usa ferramentas digitais para divulgar oficinas e receber inscrições. A melhoria precisa ser verificada pela participação e pelos resultados para o público, e não apenas pela presença de uma página nova."
+  },
+  "real-esquematizada-1267-f6d6c96b79": {
+    "perfil": "referencia",
+    "gatilho": "serviço prestado",
+    "exemplo": "Uma unidade oferece pesquisa sob demanda e informa prazos e condições. O compromisso com a entrega e a orientação faz parte do serviço, enquanto o acervo é um dos recursos usados para realizá-lo."
+  },
+  "real-esquematizada-1275-cf38ed0684": {
+    "perfil": "planejar",
+    "gatilho": "principal foco, a organização e administração de seu acervo",
+    "exemplo": "Organizar perfeitamente as estantes não basta se os materiais não atendem às tarefas do público. A estratégia precisa relacionar a qualidade técnica da coleção ao acesso e ao uso que justifica sua existência."
+  },
+  "real-esquematizada-1276-ff04489014": {
+    "perfil": "gi",
+    "gatilho": "gerenciamento estratégico",
+    "exemplo": "Se a estratégia é melhorar a recuperação de documentos locais, a política de descrição e armazenamento precisa permitir esse acesso. A execução é técnica, mas suas escolhas devem apoiar a finalidade institucional."
+  },
+  "real-esquematizada-1297-90af408404": {
+    "perfil": "podc",
+    "gatilho": "compromissos internos e externos",
+    "exemplo": "Uma equipe ajusta a divisão diária de tarefas quando aumenta a demanda de atendimento. Pode fazer isso sem romper prazos e responsabilidades acordados, desde que coordene a mudança com os demais setores."
+  },
+  "real-esquematizada-1298-7cfe0357c0": {
+    "perfil": "podc",
+    "gatilho": "relações externas",
+    "exemplo": "Uma biblioteca especializada serve a demandas de sua instituição, mas pode falhar se aquisição, processamento e atendimento não se comunicam. Público e missão orientam a finalidade; cooperação interna ajuda a concretizá-la."
+  },
+  "real-esquematizada-1313-2847ac1d74": {
+    "perfil": "podc",
+    "gatilho": "atribuição exclusiva",
+    "exemplo": "O diretor não precisa catalogar cada livro, mas acompanha prioridades, prazos e recursos do processamento. Se o material comprado não chega ao usuário, a divisão de tarefas não elimina o problema de gestão."
+  },
+  "real-esquematizada-1316-5198cf03b7": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "de conservação",
+    "exemplo": "Uma base de resumos ajuda a descobrir pesquisas e selecionar leituras. Sua oferta tem relação direta com aprendizagem e investigação, e não apenas com conservar fisicamente o acervo."
+  },
+  "real-esquematizada-1320-ad45b044e6": {
+    "perfil": "referencia",
+    "gatilho": "adaptado a determinado interlocutor",
+    "exemplo": "Um iniciante precisa aprender a localizar uma lei; um pesquisador pode precisar comparar versões históricas. Mesmo sobre o mesmo tema, a orientação e a profundidade do atendimento serão diferentes."
+  },
+  "real-esquematizada-1325-e7eb5730bd": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "estrutura física",
+    "exemplo": "Uma oficina para vinte pessoas exige assentos, equipamentos e condições de acesso compatíveis. Divulgar um serviço além da capacidade real de atendimento pode comprometer sua qualidade mesmo com conteúdo bem preparado."
+  },
+  "real-esquematizada-1327-24d5315c74": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "identificação dos melhores meios",
+    "exemplo": "Uma fila de livros aguardando processamento pode decorrer de demanda, etapas redundantes ou falta de capacitação. O diagnóstico verifica as condições antes de recomendar simplesmente cobrar mais velocidade da equipe."
+  },
+  "real-esquematizada-1332-fa6dddaf3a": {
+    "perfil": "catalogacao",
+    "gatilho": "nível de detalhamento",
+    "exemplo": "Um acervo especializado pode precisar de descrição de partes e atributos que não são prioritários num pequeno acervo geral. A escolha do detalhamento deve justificar seu benefício para o acesso e o uso."
+  },
+  "real-esquematizada-1349-68176b45c1": {
+    "perfil": "planejar",
+    "gatilho": "uso que dela se faz",
+    "exemplo": "Um repertório legislativo atualizado pode ser central num serviço parlamentar e pouco demandado em outra comunidade. O planejamento considera essa diferença antes de reproduzir a mesma composição de acervo em instituições distintas."
+  },
+  "real-esquematizada-1350-350a033a98": {
+    "perfil": "planejar",
+    "gatilho": "objetivos e dos meios",
+    "exemplo": "Bibliotecas que desejam compartilhar empréstimos precisam definir público, condições, responsabilidades e comunicação. A conexão técnica ajuda, mas não substitui os acordos e recursos necessários para que o serviço funcione."
+  },
+  "real-esquematizada-1369-61965247a6": {
+    "perfil": "gi",
+    "gatilho": "política nacional de informação",
+    "exemplo": "Coordenar iniciativas de acesso à produção científica envolve instituições, infraestrutura, padrões e públicos diversos. Diretrizes comuns podem orientar esforços sem eliminar a necessidade de políticas e decisões locais."
+  },
+  "real-esquematizada-1373-367ab5b5c4": {
+    "perfil": "marketing",
+    "gatilho": "benchmarking",
+    "exemplo": "Uma biblioteca compara seu processo de inscrição em oficinas com o de outra instituição. Identifica uma boa prática e a adapta ao próprio público, em vez de copiar a solução apenas por sua aparência."
+  },
+  "real-esquematizada-1379-7cae1ec53d": {
+    "perfil": "automacao",
+    "gatilho": "linguagem de programação",
+    "exemplo": "O bibliotecário pede busca por determinados campos e relatórios de circulação. A equipe técnica avalia como implementar e manter essas funções. Entender a demanda não equivale a fixar sozinho toda a arquitetura do sistema."
+  },
+  "real-esquematizada-1380-22f715b548": {
+    "perfil": "monitoramento",
+    "gatilho": "acompanhamento administrativo",
+    "exemplo": "A equipe acompanha novas formas de licença e projeta cenários para o acesso a livros digitais. Comparar prazos realizados com a meta atual do setor é outra atividade, ligada ao acompanhamento do desempenho."
+  },
+  "real-esquematizada-1382-7dbc98cbde": {
+    "perfil": "texto-automatico",
+    "gatilho": "em detrimento da indexação humana",
+    "exemplo": "Um algoritmo reconhece termos frequentes em milhares de relatórios, mas erra um assunto expresso por metáfora. A revisão profissional e a avaliação dos resultados permitem ajustar o uso da ferramenta ao objetivo."
+  },
+  "real-esquematizada-1390-2353b2cd15": {
+    "perfil": "planejar",
+    "gatilho": "plano maior de desenvolvimento",
+    "exemplo": "Uma região amplia cursos técnicos e programas de pesquisa. A rede de bibliotecas acompanha essas prioridades para definir fontes, capacitação e serviços, articulando seu plano às necessidades de desenvolvimento da comunidade."
+  },
+  "real-esquematizada-1400-dc57694392": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "subsídio para a tomada de decisões",
+    "exemplo": "Contar a produção de uma área ajuda a identificar crescimento e temas frequentes. Para decidir novos serviços, a equipe também verifica quem usa essa produção e quais dificuldades encontra para acessá-la."
+  },
+  "real-esquematizada-1410-e3f69a84af": {
+    "perfil": "projetos",
+    "gatilho": "planejamento, organização, execução e controle",
+    "exemplo": "Na digitalização de uma coleção, a equipe define escopo, distribui tarefas, realiza captura e verifica qualidade e prazos. A existência de um objetivo desejável não dispensa organizar e acompanhar a execução."
+  },
+  "real-esquematizada-1425-0e55fbbcfb": {
+    "perfil": "politica-colecoes",
+    "gatilho": "natureza do processo",
+    "exemplo": "Uma coleção digital não ocupa estantes para cada arquivo, mas exige servidores ou contratos, organização e formas de acesso. A mudança do suporte altera a decisão e seus custos, sem dispensar o planejamento."
+  },
+  "real-esquematizada-1437-4c980f602f": {
+    "perfil": "politica-colecoes",
+    "gatilho": "descarte",
+    "exemplo": "A biblioteca decide obter uma nova edição e avalia retirar exemplares desatualizados. A obtenção integra aquisição; a decisão sobre o que sai depende de avaliação e política de retirada. São ações relacionadas, com funções diferentes."
+  },
+  "real-esquematizada-1449-473921b7d5": {
+    "perfil": "selecao",
+    "gatilho": "equivale",
+    "exemplo": "Um manual central de uma área pode integrar a base fundamental do acervo; um dicionário especializado pode apoiar consultas rápidas. A importância de ambos não torna suas categorias idênticas."
+  },
+  "real-esquematizada-1473-b6ed2d37f4": {
+    "perfil": "aquisicao",
+    "gatilho": "compra, doação",
+    "exemplo": "Uma instituição recebe relatórios por afiliação e troca publicações com outra. Ainda precisa verificar pertinência e condições de guarda; receber material por uma modalidade prevista não obriga a aceitar tudo."
+  },
+  "real-esquematizada-1482-a2dd96d5c5": {
+    "perfil": "politica-colecoes",
+    "gatilho": "política específica",
+    "exemplo": "A equipe registra quais áreas priorizar, como avaliar doações e quando atualizar materiais. A política dá direção à formação do conjunto, em vez de medir seu sucesso apenas pelo total recebido."
+  },
+  "real-esquematizada-1489-d12fdf5fd5": {
+    "perfil": "politica-colecoes",
+    "gatilho": "bianualmente",
+    "exemplo": "Antes de propor exemplares para um curso, a biblioteca confere bibliografias, público, acesso e os critérios vigentes da avaliação. Repetir uma regra de uma edição antiga pode levar a uma decisão inadequada."
+  },
+  "real-esquematizada-1522-869547e067": {
+    "perfil": "selecao",
+    "gatilho": "objetivos específicos da coleção",
+    "exemplo": "Uma obra excelente de astronomia aparece em catálogo, mas a biblioteca atende uma instituição jurídica com prioridades delimitadas. A qualidade da publicação não resolve, sozinha, sua adequação àquela coleção."
+  },
+  "real-esquematizada-1528-1a0740679f": {
+    "perfil": "aquisicao",
+    "gatilho": "aquisição",
+    "exemplo": "Uma resenha ajuda a escolher o título adequado. Depois, a equipe consulta disponibilidade, faz pedido e acompanha a entrega. A mesma organização pode executar ambas as etapas, mas as decisões e os instrumentos têm finalidades diferentes."
+  },
+  "real-esquematizada-1529-cf5343f669": {
+    "perfil": "aquisicao",
+    "gatilho": "compras por adiantamento",
+    "exemplo": "A administração analisa se uma despesa pontual se enquadra no regime autorizado antes de efetuar e comprovar o gasto. Chamar uma demanda de urgente não basta para dispensar os requisitos legais e institucionais."
+  },
+  "real-esquematizada-1530-25587c1930": {
+    "perfil": "aquisicao",
+    "gatilho": "função de aquisição",
+    "exemplo": "A biblioteca troca sua revista por publicações de outra instituição e controla recebimentos e pendências. Esses registros integram a obtenção do material, enquanto a política orienta quais títulos são pertinentes ao acervo."
+  },
+  "real-esquematizada-1533-107c301064": {
+    "perfil": "desbaste",
+    "gatilho": "descarte prematuro",
+    "exemplo": "Um periódico pouco consultado vai para depósito, mas continua recuperável. A biblioteca acompanha sua demanda e seu valor antes de decidir destino definitivo, em vez de confundir menor circulação com inutilidade automática."
+  },
+  "real-esquematizada-1534-29f247a595": {
+    "perfil": "politica-colecoes",
+    "gatilho": "subsistemas de um todo",
+    "exemplo": "Se a avaliação mostra lacuna numa área, a seleção deve considerar essa evidência. Comprar sem dialogar com quem atende e avalia pode ampliar o acervo sem melhorar sua adequação às necessidades do público."
+  },
+  "real-esquematizada-1542-cf6dbac82d": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "parâmetro mais adequado",
+    "exemplo": "A política promete atualizar direito tributário, mas o acervo mantém edições superadas. Avaliar apenas o texto da política ocultaria a distância entre intenção e materiais efetivamente disponíveis aos usuários."
+  },
+  "real-esquematizada-1543-ac2e0700b3": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "instalações físicas",
+    "exemplo": "Uma comissão pode verificar instalações e condições de acesso às fontes necessárias ao curso. Ter salas e estantes não comprova, por si só, adequação do serviço e das coleções às atividades acadêmicas."
+  },
+  "real-esquematizada-1545-45816bae14": {
+    "perfil": "planejar",
+    "gatilho": "implementação",
+    "exemplo": "A biblioteca define perguntas, participantes e instrumentos e depois realiza o levantamento. Somente com a análise dos resultados pode priorizar intervenções; a execução do estudo não se confunde com reformar todos os serviços."
+  },
+  "real-esquematizada-1556-5bb5a6dd1e": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "indicadores ou em medidas de desempenho",
+    "exemplo": "Para avaliar atendimento, a equipe define tempo, recursos e proporção de demandas resolvidas. Dois serviços com a mesma quantidade de respostas podem apresentar custos e adequação diferentes, exigindo mais de uma medida."
+  },
+  "real-esquematizada-1560-76e346fdac": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "taxa percentual de crescimento",
+    "exemplo": "Adicionar cem volumes a um acervo de mil representa 10%; a um acervo de dez mil, 1%. O ganho absoluto é igual, mas o percentual difere porque o denominador mudou."
+  },
+  "real-esquematizada-1561-7ee7015159": {
+    "perfil": "obsolescencia",
+    "gatilho": "a partir de determinada data",
+    "exemplo": "Uma lei antiga pode estar superada para orientar uma prática atual e continuar necessária para estudar a história de uma política. A biblioteca avalia a finalidade do uso antes de concluir que deve eliminá-la."
+  },
+  "real-esquematizada-1565-ee77ff7b8e": {
+    "perfil": "politica-colecoes",
+    "gatilho": "comunidade",
+    "exemplo": "Uma unidade passa a atender novos cursos e demandas. A revisão da política examina cobertura e necessidades para orientar prioridades, em vez de repetir indefinidamente decisões tomadas para outro perfil de público."
+  },
+  "real-esquematizada-1566-bce1adaf20": {
+    "perfil": "desbaste",
+    "gatilho": "uso do espaço",
+    "exemplo": "Um conjunto vai para depósito para abrir área de estudo. Se o catálogo não informa a localização e a forma de solicitação, a mudança física cria barreira de acesso em vez de resolver adequadamente o problema de espaço."
+  },
+  "real-esquematizada-1567-f54924c2cf": {
+    "perfil": "selecao",
+    "gatilho": "critério de autoridade",
+    "exemplo": "Uma revista informa conselho editorial e é indexada numa base da área. A biblioteca confere esses dados e a pertinência do conteúdo, sem assumir que qualquer artigo será adequado somente por causa desses sinais."
+  },
+  "real-esquematizada-1569-c30e9c1fd7": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "custo-eficácia",
+    "exemplo": "Dois serviços entregam documentos em tempo útil para a mesma proporção de pedidos. Para comparar custo-eficácia, ainda é preciso saber quanto cada um gastou para produzir esse resultado."
+  },
+  "real-esquematizada-1570-7301fddc9b": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "rendimentos decrescentes",
+    "exemplo": "Resolver a maior parte dos pedidos pode ser simples; os últimos podem exigir fontes raras, tradução ou cooperação especializada. A gestão examina o custo marginal de avançar na cobertura sem tratar todos os pedidos como iguais."
+  },
+  "real-esquematizada-1571-b0b7ee43f3": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "benefícios",
+    "exemplo": "Uma busca recupera muitos documentos relevantes, mas a equipe ainda precisa verificar se foram usados e ajudaram no trabalho. Boa recuperação é importante, porém não prova sozinha que houve melhoria na decisão institucional."
+  },
+  "real-esquematizada-1572-87433bdeda": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "estudo longitudinal",
+    "exemplo": "Durante duas semanas, participantes registram buscas realizadas, fontes e dificuldades. A sequência ajuda a observar mudanças e situações recorrentes que poderiam ser esquecidas numa única entrevista ao final do período."
+  },
+  "real-esquematizada-1575-69be752dd4": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "perguntas abertas",
+    "exemplo": "Uma pesquisa aplica perguntas fechadas para medir frequência e deixa espaço para comentários. O instrumento reúne números e relatos; é a forma de análise e integração desses dados que ajuda a definir a abordagem."
+  },
+  "real-tec-4145241": {
+    "perfil": "dsi",
+    "gatilho": "menos necessários",
+    "exemplo": "Uma pesquisadora não consegue acompanhar diariamente dezenas de revistas. Uma seleção periódica coerente com seu tema ajuda a priorizar leituras sem exigir que ela examine todas as novidades publicadas."
+  },
+  "real-tec-4145320": {
+    "perfil": "interoperabilidade",
+    "gatilho": "único requisito técnico essencial",
+    "exemplo": "Ter milhares de imagens de páginas numa pasta não permite, por si só, pesquisar autoria ou integrar registros a um portal. O projeto define metadados, busca, permissões e manutenção para tornar o conjunto utilizável."
+  },
+  "real-tec-4145298": {
+    "perfil": "oais-curadoria",
+    "gatilho": "pacotes de informação para arquivamento",
+    "exemplo": "Ao receber um conjunto digital, o arquivo verifica conteúdo e documentação e prepara o AIP para gestão a longo prazo. O pacote preserva informações necessárias a compreender e administrar o objeto, além dos arquivos de conteúdo."
+  },
+  "real-tec-4145313": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "exclusivamente",
+    "exemplo": "Um projeto disponibiliza entrevistas e fotografias com metadados e busca. A equipe bibliotecária define representação e atendimento, e profissionais de tecnologia apoiam implementação e segurança. Catalogar livros impressos não esgota esse trabalho."
+  },
+  "real-tec-4145293": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "menos utilizado",
+    "exemplo": "Um formulário recolhe respostas de usuários em vários campi e permite contar frequências. A equipe ainda precisa cuidar de amostra, clareza das perguntas e não resposta, mas não necessita entrevistar individualmente cada participante."
+  },
+  "real-tec-4145244": {
+    "perfil": "entrevista-ref",
+    "gatilho": "tendem",
+    "exemplo": "Uma usuária pede um endereço, mas ao conversar revela que precisa comparar fontes para uma atividade. A interação permite descobrir a tarefa subjacente e orientar melhor do que apenas fornecer o primeiro link."
+  },
+  "real-tec-4145256": {
+    "perfil": "referencias",
+    "gatilho": "caso haja",
+    "exemplo": "Ao descrever uma carta de um pesquisador para uma instituição, a referência pode registrar remetente e destinatário conhecidos. Numa correspondência sem destinatário identificável, não se completa o campo com suposição."
+  },
+  "real-tec-4145258": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "É desejável evitar",
+    "exemplo": "Um resumo pode comunicar um resultado em linguagem clara sem copiar toda a fórmula do artigo. Se a expressão é indispensável para compreender o achado, deve ser apresentada com o cuidado de definição previsto na norma."
+  },
+  "real-tec-4145251": {
+    "perfil": "referencias",
+    "gatilho": "excluídas",
+    "exemplo": "Uma pesquisa analisa uma postagem institucional específica. O autor precisa identificar a publicação consultada e seu endereço e data, em vez de citar apenas o nome da rede como se todo o conteúdo fosse um único documento."
+  },
+  "real-tec-4145259": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "necessariamente",
+    "exemplo": "O resumo na primeira página de um artigo já está inserido no recurso que identifica. Uma seleção de resumos avulsos precisa permitir reconhecer a obra resumida; as situações não recebem automaticamente o mesmo tratamento."
+  },
+  "real-tec-4145255": {
+    "perfil": "trabalho-academico",
+    "gatilho": "elementos pré-textuais",
+    "exemplo": "Folha de rosto e resumo apresentam o trabalho; capítulos desenvolvem o assunto; referências e anexos cumprem funções posteriores. Reconhecer a posição ajuda a organizar o documento sem tratar todos os elementos como capítulos numerados."
+  },
+  "real-tec-4145311": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "não pode ser definida apenas",
+    "exemplo": "Duas páginas oferecem os mesmos arquivos, mas só uma dispõe de descrição consistente, busca, responsabilidades e condições de uso. O conjunto de processos ajuda a distinguir gestão bibliotecária de mera disponibilização de links."
+  },
+  "real-tec-4145281": {
+    "perfil": "focal-delphi",
+    "gatilho": "pensamento sobre o futuro",
+    "exemplo": "A biblioteca consulta especialistas sobre tendências de serviços, sintetiza as respostas e permite que revisem suas avaliações numa nova rodada. O processo organiza julgamentos, mas não elimina a incerteza do futuro."
+  },
+  "real-tec-4145294": {
+    "perfil": "sense-making",
+    "gatilho": "ser ativo",
+    "exemplo": "Uma pessoa encontra vários textos, mas continua sem saber qual regra aplicar ao seu caso. A entrevista explora a dúvida e o que lhe permitiria avançar, em vez de avaliar sucesso apenas pela quantidade de resultados recebidos."
+  },
+  "real-tec-4145315": {
+    "perfil": "identificadores",
+    "gatilho": "URL",
+    "exemplo": "Um artigo muda de plataforma. Se o responsável atualiza o registro de resolução do DOI, a mesma identificação pode levar ao novo endereço. O sistema não depende de conservar para sempre a antiga URL do editor."
+  },
+  "real-tec-4145200": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "funções de cada setor",
+    "exemplo": "O organograma mostra que Referência se subordina à direção. O funcionograma descreve orientação, pesquisa e atendimento sob responsabilidade do setor; para estudar quanto tempo cada tarefa consome, a equipe precisa de dados adicionais."
+  },
+  "real-tec-4145105": {
+    "perfil": "identificadores",
+    "gatilho": "endereço de acesso",
+    "exemplo": "A revista migra seu acervo para outro domínio. Os DOIs dos artigos podem continuar resolvendo se seus destinos forem atualizados, enquanto links diretos para o domínio antigo podem se perder."
+  },
+  "real-tec-4145308": {
+    "perfil": "fair",
+    "gatilho": "metadados estruturados",
+    "exemplo": "Um conjunto de dados tem descrição, identificador e instruções claras para solicitar acesso autorizado. Pode oferecer condições de descoberta e reúso sem expor publicamente dados sensíveis que exigem controle."
+  },
+  "real-tec-4145186": {
+    "perfil": "marc-campos",
+    "gatilho": "20X-24X",
+    "exemplo": "O nome aparece transcrito após a barra no título e responsabilidade, mas também pode ter forma autorizada no campo 100. O primeiro registro informa o que consta no recurso; o segundo apoia recuperação consistente pelo nome."
+  },
+  "real-tec-4145183": {
+    "perfil": "marc",
+    "gatilho": "unicamente por dois",
+    "exemplo": "O campo 245 identifica título e responsabilidade; seus indicadores e subcampos caracterizam dados. O título efetivamente transcrito é conteúdo, e não a própria tag ou o mecanismo estrutural que permite localizar o campo."
+  },
+  "real-tec-4145127": {
+    "perfil": "marc-campos",
+    "gatilho": "00X",
+    "exemplo": "Após uma alteração no registro, o campo 005 pode indicar quando ocorreu a última transação. Essa informação diz respeito ao registro e não significa que o livro tenha sido publicado naquele momento."
+  },
+  "real-tec-4145177": {
+    "perfil": "marc-campos",
+    "gatilho": "segundo indicador",
+    "exemplo": "Para um título iniciado por “O ”, o sistema pode manter o artigo na exibição e usar dois caracteres não alfabéticos na ordenação. A transcrição e a chave de alfabetação cumprem funções diferentes."
+  },
+  "real-tec-4145179": {
+    "perfil": "marc",
+    "gatilho": "intercâmbio bibliográfico",
+    "exemplo": "Uma biblioteca exporta um registro MARC e outra o importa sem redigitar todos os campos. A equipe ainda confere edição e dados antes de incorporá-lo, pois a possibilidade de troca não substitui a revisão bibliográfica."
+  },
+  "real-tec-4145175": {
+    "perfil": "marc",
+    "gatilho": "diretório",
+    "exemplo": "O sistema lê dados do líder para interpretar características do registro. Depois consulta o diretório para localizar campos como título ou publicação e acessar seus conteúdos, sem confundir os dois componentes."
+  },
+  "real-tec-4145124": {
+    "perfil": "marc-campos",
+    "gatilho": "506",
+    "exemplo": "Um conjunto só pode ser consultado por usuários autorizados. Essa condição pode ser registrada em 506, em vez de tratar a informação apenas como comentário geral sem função específica de acesso."
+  },
+  "real-tec-4145198": {
+    "perfil": "consistencia",
+    "gatilho": "suficiente",
+    "exemplo": "Todos atribuem o mesmo descritor amplo a artigos de temas específicos. O acordo pode ser alto, enquanto o usuário encontra dificuldade de recuperar o recorte que precisa. Consistência e adequação não são a mesma medida."
+  },
+  "real-tec-4145194": {
+    "perfil": "exaustividade",
+    "gatilho": "exaustividade",
+    "exemplo": "Indexar temas principal e secundários amplia a cobertura. Trocar “bibliotecas” por “bibliotecas legislativas” detalha um conceito. São duas mudanças diferentes e podem ocorrer independentemente no mesmo registro."
+  },
+  "real-tec-4145117": {
+    "perfil": "wemi",
+    "gatilho": "item",
+    "exemplo": "Uma edição de um livro reúne exemplares produzidos segundo características comuns. O exemplar com código de barras específico e anotações manuscritas é um item dessa manifestação, e não toda a edição."
+  },
+  "real-tec-4145206": {
+    "perfil": "planejar",
+    "gatilho": "com base nos serviços e produtos",
+    "exemplo": "Se a biblioteca nunca ofereceu formação em bases digitais, isso não significa que sua missão exclua a atividade. O planejamento examina como novos serviços podem realizar melhor seu propósito de apoiar pesquisa e aprendizagem."
+  },
+  "real-tec-4145204": {
+    "perfil": "planejar",
+    "gatilho": "somente quando há situações de crise",
+    "exemplo": "A biblioteca revê anualmente prioridades e acompanha indicadores durante a execução. Não precisa esperar faltar orçamento ou o atendimento parar para identificar riscos e aperfeiçoar a oferta."
+  },
+  "real-tec-4145107": {
+    "perfil": "politica-colecoes",
+    "gatilho": "estritamente",
+    "exemplo": "Uma licença digital precisa ser renovada, uma obra está desatualizada e outra é pouco acessível. A política deve ajudar a decidir sobre essas situações, além de escolher títulos novos para compra."
+  },
+  "real-tec-4145121": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "biblioteconomia dos leitores",
+    "exemplo": "Estudar orçamento e distribuição de pessoal focaliza a organização da unidade. Investigar o que leitores precisam e como usam fontes tem outro recorte. Os resultados podem se articular sem tornar os conceitos idênticos."
+  },
+  "real-tec-4145111": {
+    "perfil": "documentacao",
+    "gatilho": "recorte de publicações",
+    "exemplo": "Um serviço tradicional reúne recortes de jornais em pastas sobre temas. Isso difere de manter um fundo administrativo segundo sua produção e contexto, e também de conservar cada edição de periódico como unidade na coleção."
+  },
+  "real-tec-4145112": {
+    "perfil": "documentacao",
+    "gatilho": "ramo especializado",
+    "exemplo": "Ao considerar fotografias, relatórios e outros registros para atender especialistas, um centro adota uma perspectiva documental ampla. Seu trabalho não se limita a reproduzir o tratamento de livros de uma biblioteca tradicional."
+  },
+  "real-tec-3599034": {
+    "perfil": "diario-justica",
+    "gatilho": "No passado",
+    "exemplo": "Ao pesquisar uma publicação antiga, o bibliotecário identifica o veículo e a instituição editora da época. Para um ato atual, confere o sistema competente, sem pressupor que o antigo fluxo impresso ainda seja o vigente.",
+    "referencia": "stj-diario-oficial"
+  },
+  "real-tec-3373135": {
+    "perfil": "dou",
+    "gatilho": "não tenham caráter geral",
+    "exemplo": "Uma lista normativa pode prever um ato somente quando atende certa condição. Ao pesquisar, a equipe precisa ler o complemento da regra; o nome do parecer, sozinho, não demonstra que ele se enquadre naquela previsão."
+  },
+  "real-tec-3373141": {
+    "perfil": "entrevista-ref",
+    "gatilho": "uso que se dará",
+    "exemplo": "Em vez de perguntar “você quer este manual?”, a profissional pergunta “o que pretende realizar com essa informação?”. A resposta pode revelar necessidade de dados comparativos, e não de um manual introdutório."
+  },
+  "real-tec-3373137": {
+    "perfil": "busca",
+    "gatilho": "regras mais flexíveis",
+    "exemplo": "Uma consulta com aspas, parênteses e operadores pode produzir conjuntos diferentes se for escrita de outra forma. O bibliotecário lê a ajuda da base antes de presumir que ela interpretará qualquer redação como equivalente."
+  },
+  "real-tec-3599031": {
+    "perfil": "dou",
+    "gatilho": "após a Proclamação da República",
+    "exemplo": "Ao criar uma linha do tempo do acervo, a biblioteca não deve iniciar a história do Diário Oficial apenas em 1889. Edições do período imperial exigem identificação e contexto histórico próprios."
+  },
+  "real-tec-3599044": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "maior superficialidade",
+    "exemplo": "Depois de identificar uma dificuldade num formulário, a pesquisadora entrevista alguns participantes para compreender causas e situações. A escolha por menos pessoas pode permitir aprofundar questões que uma resposta padronizada não esclareceu."
+  },
+  "real-tec-3373045": {
+    "perfil": "competencia-info",
+    "gatilho": "operacionais, comunicacionais e informacionais",
+    "exemplo": "Ao responder a uma dúvida pública, a bibliotecária localiza uma fonte confiável, explica o conteúdo com clareza e utiliza o canal de forma apropriada. Habilidade técnica, informacional e comunicacional aparecem juntas.",
+    "referencia": "infocomunicacionais"
+  },
+  "real-tec-3373140": {
+    "perfil": "dsi",
+    "gatilho": "definido automaticamente",
+    "exemplo": "Uma plataforma usa interesses autorizados e interações para sugerir novas fontes. Se as recomendações ficam inadequadas, o usuário deve poder ajustar preferências: o comportamento observado é indício, não uma descrição infalível de seus objetivos."
+  },
+  "real-tec-3599051": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "premissa inicial",
+    "exemplo": "Contar empréstimos responde a uma pergunta sobre uso do serviço. Investigar como uma pessoa percebe uma lacuna e escolhe fontes examina outra dimensão. Reconhecer a diferença ajuda a situar os enfoques históricos."
+  },
+  "real-tec-3598978": {
+    "perfil": "colecao-digital",
+    "gatilho": "deixam de ter controle",
+    "exemplo": "Uma assinatura muda de cobertura ou de condições de acesso. A biblioteca verifica o impacto para seus usuários e negocia ou procura alternativas, em vez de considerar que a gestão terminou quando contratou o serviço."
+  },
+  "real-tec-3373061": {
+    "perfil": "vocabulario",
+    "gatilho": "padronizar a indexação",
+    "exemplo": "Duas bibliotecas recebem obras sobre o mesmo assunto com expressões diferentes. Consultar o termo preferido e as relações do VCB ajuda a reuni-las na busca, em vez de criar descritores incompatíveis em cada unidade."
+  },
+  "real-tec-3599060": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "exclusivamente textuais",
+    "exemplo": "Um acervo de história oral disponibiliza entrevistas sonoras, transcrições e fotografias. Ele não deixa de integrar uma biblioteca digital porque o conteúdo original inclui áudio e imagem."
+  },
+  "real-tec-3425143": {
+    "perfil": "colecao-digital",
+    "gatilho": "conversão de materiais",
+    "exemplo": "Uma biblioteca seleciona fotografias físicas para criar uma coleção de acesso digital. O trabalho envolve autorização, captura, descrição e controle de qualidade, não apenas obter novos arquivos de um fornecedor."
+  },
+  "real-tec-3373143": {
+    "perfil": "preservacao-digital",
+    "gatilho": "hardware como ao software",
+    "exemplo": "Um suporte deixa de ser lido por equipamentos disponíveis e os dados são transferidos para tecnologia atual. Em outra situação, o formato deixa de ter suporte em programas. Ambos os problemas podem exigir ação de preservação."
+  },
+  "real-tec-3598997": {
+    "perfil": "marc",
+    "gatilho": "ISO 2709",
+    "exemplo": "Uma biblioteca envia registros em estrutura compatível para importação por outra. O sistema reconhece componentes e campos, enquanto a equipe confere se os dados bibliográficos e a descrição correspondem ao recurso recebido."
+  },
+  "real-tec-3599061": {
+    "perfil": "lexml",
+    "gatilho": "doutrina correlacionada",
+    "exemplo": "Ao localizar uma lei, o pesquisador pode encontrar referências de livros que ajudam a interpretá-la. O vínculo amplia caminhos de pesquisa, mas a leitura do livro depende de sua localização e de suas condições de acesso.",
+    "referencia": "lexml-pesquisa"
+  },
+  "real-tec-3598951": {
+    "perfil": "automacao",
+    "gatilho": "dispensam o trabalho humano",
+    "exemplo": "Um sistema importa milhares de registros rapidamente. A equipe ainda precisa definir padrões, resolver inconsistências e verificar adequação à coleção. A velocidade da importação não prova que todos os dados estejam corretos."
+  },
+  "real-tec-3599063": {
+    "perfil": "rvbi",
+    "gatilho": "Biblioteca da Câmara dos Deputados",
+    "exemplo": "Ao indicar o catálogo da rede, a bibliotecária confere a instituição coordenadora e a lista atual de participantes. O nome Congresso Nacional não autoriza atribuir automaticamente a coordenação à Câmara dos Deputados."
+  },
+  "real-tec-3425149": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "apenas duas classificações",
+    "exemplo": "Um objeto pode ser nascido digital e, ao mesmo tempo, audiovisual e composto por vários arquivos. As categorias respondem a perguntas diferentes e não precisam competir como se houvesse só duas classificações possíveis."
+  },
+  "real-tec-3373152": {
+    "perfil": "oai",
+    "gatilho": "metadados",
+    "exemplo": "Um portal colhe descrições de teses em vários repositórios e oferece busca conjunta. O usuário segue o vínculo até a instituição de origem, onde o arquivo pode ter condições de acesso específicas."
+  },
+  "real-tec-3373149": {
+    "perfil": "marc",
+    "gatilho": "pouca interferência",
+    "exemplo": "Se o nome do autor é gravado num campo de nota em vez do ponto de acesso previsto, uma tela bonita não resolve automaticamente a recuperação por autoria. A estrutura importa para as funções oferecidas ao leitor."
+  },
+  "real-tec-3373071": {
+    "perfil": "rvbi",
+    "gatilho": "qualquer usuário",
+    "exemplo": "Uma pessoa localiza um livro no catálogo, mas precisa verificar se pode consultá-lo, tomá-lo emprestado ou solicitar cópia. Encontrar a referência não elimina as condições de uso do exemplar e de reprodução da obra."
+  },
+  "real-tec-3598968": {
+    "perfil": "marketing",
+    "gatilho": "relacionamento com usuários",
+    "exemplo": "A biblioteca anuncia uma oficina e responde dúvidas no mesmo canal. Ao acompanhar perguntas e participação, pode ajustar a oferta, em vez de tratar a rede apenas como lugar para publicar avisos sem escuta."
+  },
+  "real-tec-3373160": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "hyperlink",
+    "exemplo": "O sítio da biblioteca reúne páginas de serviços e coleções. O texto clicável que leva do catálogo a um documento é um link; ele não é o conjunto inteiro das páginas da instituição.",
+    "referencia": "html-links"
+  },
+  "real-tec-3599030": {
+    "perfil": "juridica",
+    "gatilho": "publicação oficial",
+    "exemplo": "Ao pesquisar uma lei municipal, a equipe verifica o veículo oficial competente e sua publicação. A existência de texto num sítio informal não substitui, por si só, a comprovação exigida pelo regime do ato."
+  },
+  "real-tec-3599047": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "real e potencial",
+    "exemplo": "Alunos que não usam uma base podem desconhecê-la ou encontrar dificuldades de acesso. Escutá-los ajuda a entender barreiras que estatísticas dos usuários frequentes não revelam."
+  },
+  "real-tec-3599022": {
+    "perfil": "dsi",
+    "gatilho": "minimização do esforço",
+    "exemplo": "Em vez de receber uma lista com todas as aquisições, a equipe de pesquisa recebe referências selecionadas por seu tema. O serviço favorece descoberta de materiais úteis com menor esforço de triagem."
+  },
+  "real-tec-3599048": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "estruturada, semiestruturada ou aberta",
+    "exemplo": "Um roteiro estruturado facilita comparar respostas; o semiestruturado mantém temas e permite aprofundar questões. Num estudo de experiências, essa flexibilidade ajuda a explorar situações relevantes que surgem durante a conversa."
+  },
+  "real-tec-3373142": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "conversação informal",
+    "exemplo": "A pesquisadora conversa de modo acessível para reduzir tensão, mas define temas e registra respostas com autorização. O tom da conversa não elimina sua finalidade e os procedimentos que a caracterizam como entrevista de pesquisa."
+  },
+  "real-tec-3373161": {
+    "perfil": "referencias",
+    "gatilho": "margem esquerda",
+    "exemplo": "Ao revisar a lista final, a estudante deixa cada referência identificável e usa um padrão uniforme de espaçamento. A apresentação facilita reconhecer onde termina um documento e começa o seguinte."
+  },
+  "real-tec-3598965": {
+    "perfil": "referencias",
+    "gatilho": "responsabilidade pelo conjunto",
+    "exemplo": "Uma coletânea apresenta “Silva, organizador”. Sua referência pode iniciar pelo responsável e indicar “(org.)”, enquanto a catalogação da obra segue regras próprias de escolha de ponto de acesso. As finalidades não são idênticas."
+  },
+  "real-tec-3373162": {
+    "perfil": "referencias",
+    "gatilho": "Disponível em:",
+    "exemplo": "Copiar somente um endereço de artigo não informa autoria, título ou publicação. A referência combina esses dados com localização e acesso para permitir reconhecer e conferir o documento utilizado."
+  },
+  "real-tec-3598967": {
+    "perfil": "referencias",
+    "gatilho": "Acesso: 8/3/2023",
+    "exemplo": "Ao conferir uma referência online, a estudante revisa não só o endereço, mas também os elementos da obra e a forma de apresentar data e acesso. Um link válido pode estar dentro de uma referência mal elaborada."
+  },
+  "real-tec-3425225": {
+    "perfil": "referencias",
+    "gatilho": "pequeno impacto",
+    "exemplo": "Uma referência completa permite localizar a fonte e conferir o que foi citado. Um texto formalmente padronizado pode continuar com argumentos frágeis, mas a falta de identificação dificulta ainda mais a verificação e o diálogo científico."
+  },
+  "real-tec-3598963": {
+    "perfil": "referencias",
+    "gatilho": "elemento essencial",
+    "exemplo": "Para identificar um artigo online, autoria, título e dados de publicação são relevantes; medir altura e largura não é exigência universal da referência. Uma descrição de objeto especial pode demandar informações físicas próprias."
+  },
+  "real-tec-3598966": {
+    "perfil": "bibliografia",
+    "gatilho": "estudos bibliométricos",
+    "exemplo": "Uma bibliografia especializada ajuda a selecionar registros de um tema para análise. Antes de contar tendências, o pesquisador confere período, tipos de documentos e critérios de inclusão para interpretar corretamente o conjunto."
+  },
+  "real-tec-3598958": {
+    "perfil": "referencias",
+    "gatilho": "BASTOS, Rui. FROTA, Miguel;",
+    "exemplo": "Duas referências podem conter os mesmos nomes e datas, mas apenas uma seguir o padrão. A estudante confere a função dos sinais e a ordem dos elementos, em vez de avaliar correção apenas pela presença das informações."
+  },
+  "real-tec-3373145": {
+    "perfil": "api",
+    "gatilho": "intercomunicação",
+    "exemplo": "Um portal solicita registros ao repositório pela operação documentada e recebe dados estruturados. Se um parâmetro ou formato muda, a integração precisa ser ajustada; conhecer apenas a página visual não basta."
+  },
+  "real-tec-3373144": {
+    "perfil": "usabilidade",
+    "gatilho": "acesso e o de usabilidade",
+    "exemplo": "Um arquivo pode estar disponível, mas ter título incompreensível e nenhum caminho de busca. Melhorar descrição e navegação permite ao usuário reconhecer o recurso e chegar a ele com menor dificuldade."
+  },
+  "real-tec-3599015": {
+    "perfil": "referencia",
+    "gatilho": "mediação da informação",
+    "exemplo": "A bibliotecária esclarece a finalidade de uma pesquisa, sugere fontes e explica como avaliar resultados. O usuário participa das escolhas e pode aprender a conduzir buscas futuras de forma mais autônoma."
+  },
+  "real-tec-3373138": {
+    "perfil": "busca",
+    "gatilho": "sequência",
+    "exemplo": "A pesquisadora começa por uma expressão específica e depois testa sinônimos e campos mais amplos. Ao comparar os resultados de cada etapa, identifica qual alteração ajudou, em vez de mudar tudo simultaneamente sem critério."
+  },
+  "real-tec-3425228": {
+    "perfil": "marketing",
+    "gatilho": "formato da publicação",
+    "exemplo": "Uma editora compara versão impressa e digital para um manual de consulta. Tamanho, navegação e possibilidade de atualização afetam a experiência e a oferta ao público, além das mensagens usadas para divulgar o título."
+  },
+  "real-tec-3599043": {
+    "perfil": "projetos",
+    "gatilho": "inviáveis",
+    "exemplo": "Uma biblioteca prevê indisponibilidade de plataforma externa e falha de equipamento local. Para cada risco, analisa consequências e alternativas de atendimento, sem precisar conhecer com certeza o momento em que ocorrerá."
+  },
+  "real-tec-3240849": {
+    "perfil": "usabilidade",
+    "gatilho": "auxílio aos usuários",
+    "exemplo": "Um leitor não conhece o uso de aspas na busca. Uma orientação curta e encontrável no catálogo pode ajudá-lo a refinar a consulta, sem obrigá-lo a abandonar a pesquisa ou adivinhar a sintaxe."
+  },
+  "real-tec-3373111": {
+    "perfil": "busca-web",
+    "gatilho": "até três",
+    "exemplo": "Um serviço pode integrar quatro fontes e outro apenas duas. Ambos podem executar metabusca; a avaliação ainda precisa observar cobertura, duplicatas, atualização e como os resultados são apresentados."
+  },
+  "real-tec-3598979": {
+    "perfil": "juridica",
+    "gatilho": "interpretação e a aplicação da lei",
+    "exemplo": "Uma equipe pesquisa como tribunais interpretam uma norma em casos semelhantes. Consulta decisões e verifica o órgão, a data e o alcance do entendimento, em vez de tratar um texto doutrinário como se fosse acórdão."
+  },
+  "real-tec-3599013": {
+    "perfil": "dsi",
+    "gatilho": "bibliotecas públicas",
+    "exemplo": "Um centro de pesquisa acompanha artigos para seus especialistas; uma biblioteca de outra comunidade também pode oferecer alertas personalizados. A finalidade e o perfil definem o serviço, e não a categoria administrativa da instituição."
+  },
+  "real-tec-3373099": {
+    "perfil": "busca-web",
+    "gatilho": "busca federada",
+    "exemplo": "O usuário escreve uma consulta numa interface, que a encaminha a fontes participantes e reúne respostas. Em outro arranjo, um portal pesquisa um índice já colhido: a aparência de busca única pode ocultar mecanismos diferentes."
+  },
+  "real-tec-3425242": {
+    "perfil": "vocabulario",
+    "gatilho": "linguagem natural",
+    "exemplo": "O texto usa “terceira idade”, e a linguagem adota uma forma preferida relacionada. A escolha e as remissivas procuram aproximar expressões sem tratar cada variante como conceito independente."
+  },
+  "real-tec-3598983": {
+    "perfil": "indexacao",
+    "gatilho": "política de indexação",
+    "exemplo": "Um repositório registra palavras-chave dos autores e também assuntos de um tesauro. As camadas oferecem caminhos de acesso diferentes, desde que os campos e suas funções sejam claros para a busca."
+  },
+  "real-tec-3598985": {
+    "perfil": "texto-automatico",
+    "gatilho": "mais precisa",
+    "exemplo": "Um modelo classifica rapidamente textos e confunde uma palavra ambígua. A equipe compara os resultados com julgamentos pertinentes ao público antes de concluir se houve ganho real de qualidade, além da velocidade."
+  },
+  "real-tec-3373049": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "lugar ou tempo",
+    "exemplo": "Um documento sobre determinado assunto no Brasil e em certo período pode combinar a classe temática com auxiliares pertinentes. O classificador mantém os sinais para permitir distinguir assunto, localização e tempo na leitura da notação."
+  },
+  "real-tec-3373052": {
+    "perfil": "interoperabilidade",
+    "gatilho": "prescinde",
+    "exemplo": "Arquivos semelhantes usam palavras diferentes para o mesmo tema. Um mapeamento de termos ajuda a reuni-los na busca; apenas armazená-los digitalmente não resolve a dispersão terminológica."
+  },
+  "real-tec-3599007": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "generalização-especialização",
+    "exemplo": "“Bibliotecas” pode ser um conceito mais amplo que “bibliotecas universitárias”. A hierarquia orienta ampliação ou especificação da busca, enquanto outras relações complementam o campo semântico."
+  },
+  "real-tec-3598991": {
+    "perfil": "vocabulario",
+    "gatilho": "associada a um tesauro",
+    "exemplo": "O usuário procura uma expressão de assunto e é conduzido ao termo preferido e à classe correspondente. O sistema pode apoiar tanto navegação hierárquica quanto busca por palavras, se as correspondências estiverem bem definidas."
+  },
+  "real-tec-3373165": {
+    "perfil": "vocabulario",
+    "gatilho": "apenas",
+    "exemplo": "Um tesauro remete um termo não preferido à forma adotada. A existência desse mecanismo já mostra que listas de cabeçalhos não são o único instrumento capaz de aproximar expressões equivalentes."
+  },
+  "real-tec-3373164": {
+    "perfil": "exaustividade",
+    "gatilho": "variedade de pontos de acesso",
+    "exemplo": "Um estudo aborda preservação, digitalização e direitos de fotografias. Representar esses aspectos oferece acessos que o único termo “fotografia” não ofereceria, mas é preciso escolher termos pertinentes e não acrescentar qualquer palavra encontrada."
+  },
+  "real-tec-3598993": {
+    "perfil": "classificacao",
+    "gatilho": "aderência estrita",
+    "exemplo": "Uma biblioteca decide até que nível detalhar certos assuntos e documenta suas escolhas. Não precisa inventar novos significados para números existentes nem aplicar todo detalhe possível a cada documento apenas por usar uma edição oficial."
+  },
+  "real-tec-3240808": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "conceitos",
+    "exemplo": "Duas palavras podem nomear o mesmo conceito e remeter à forma preferida. Já “bibliotecas” e “bibliotecas escolares” representam conceitos em relação hierárquica; não são sinônimos apenas por terem proximidade temática."
+  },
+  "real-tec-3373167": {
+    "perfil": "coordenacao",
+    "gatilho": "nível de importância",
+    "exemplo": "Uma base permite combinar dois assuntos com AND sem atribuir pesos diferentes. Outra também destaca o tema principal por ponderação. Os dois aspectos precisam ser descritos separadamente para não confundir coordenação e relevância atribuída."
+  },
+  "real-tec-3373168": {
+    "perfil": "slic",
+    "gatilho": "mantidos em ordem alfabética",
+    "exemplo": "Com A antes de B e B antes de C, combinar os termos nessa ordem é diferente de produzir BAC ou CBA. O leitor consulta as entradas efetivamente construídas; não se infere desempenho perfeito a partir da quantidade de combinações."
+  },
+  "real-tec-3240762": {
+    "perfil": "wemi",
+    "gatilho": "obra e expressão",
+    "exemplo": "Dom Quixote é a obra; uma tradução portuguesa específica é uma expressão. Essa tradução pode aparecer em diferentes edições e exemplares, que precisam ser distinguidos dos níveis intelectuais para a escolha correta do recurso."
+  },
+  "real-tec-3373097": {
+    "perfil": "catalogacao",
+    "gatilho": "conteúdo",
+    "exemplo": "O autor e o ano ajudam a reconhecer qual livro está sendo descrito. Os assuntos “bibliotecas escolares” e “leitura” ajudam a encontrá-lo pelo tema. Os dois grupos de metadados apoiam tarefas diferentes."
+  },
+  "real-tec-3373055": {
+    "perfil": "interoperabilidade",
+    "gatilho": "eliminou",
+    "exemplo": "Migrar de um sistema para outro exige entender campos e relações. Se cada registro fosse elaborado sem qualquer padrão, a automação da importação não saberia interpretar de modo consistente os dados recebidos."
+  },
+  "real-tec-3373096": {
+    "perfil": "catalogacao",
+    "gatilho": "Metadado",
+    "exemplo": "O título, a responsabilidade e os assuntos de um livro ajudam a identificar e recuperar o recurso. Eles são dados sobre o livro; não equivalem a copiar todas as suas páginas para o catálogo."
+  },
+  "real-tec-3425230": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "prática social",
+    "exemplo": "Uma orientação para calouros precisa explicar termos que um relatório para especialistas pode pressupor. O produtor escolhe linguagem e organização tendo em vista quem lerá e o que precisa compreender ou realizar."
+  },
+  "real-tec-3373158": {
+    "perfil": "esquemas-xml",
+    "gatilho": "flexível",
+    "exemplo": "Se uma estrutura flexível admite a ausência de um dado que o esquema rígido exige, o documento passa na primeira validação e falha na segunda. Ser menos restritivo não torna todas as versões automaticamente equivalentes.",
+    "referencia": "lexml-xml"
+  },
+  "real-tec-3598984": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "macroestrutura",
+    "exemplo": "Um artigo menciona tecnologia muitas vezes, mas sua questão central é acessibilidade em catálogos. A leitura global permite identificar o tema que organiza o argumento, em vez de escolher o descritor só por frequência de palavras."
+  },
+  "real-tec-3598988": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "procedimentos estáveis",
+    "exemplo": "O indexador examina título, resumo, introdução e conclusões e confirma conceitos no desenvolvimento. O procedimento orienta a leitura sem proibir aprofundamento quando essas partes não esclarecem o assunto."
+  },
+  "real-tec-3373157": {
+    "perfil": "lexml",
+    "gatilho": "canônica",
+    "exemplo": "A Lei Maria da Penha é a Lei nº 11.340, de 7 de agosto de 2006. Conhecer seu apelido ajuda a pesquisar, mas a identificação normalizada distingue o recurso por dados do ato, sem depender apenas do nome popular.",
+    "referencia": "lexml-urn"
+  },
+  "real-tec-2875495": {
+    "perfil": "colecao-digital",
+    "gatilho": "factível",
+    "exemplo": "Uma licença permite um leitor por vez e prazo de acesso. A plataforma pode reservar o título para outra pessoa e encerrar o acesso ao fim do empréstimo, conforme as condições negociadas para aquele recurso."
+  },
+  "real-tec-3599012": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "causa e efeito",
+    "exemplo": "“Incêndios” e “danos pelo fogo” podem ser relacionados por associação no vocabulário. Um não é simplesmente um tipo do outro; a conexão ajuda o usuário a explorar aspectos relacionados de uma necessidade de busca."
+  },
+  "real-tec-3599009": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "gênero, subtipo e diferença",
+    "exemplo": "Biblioteca escolar compartilha características de biblioteca e tem uma especificidade de contexto e público. A relação conceitual explica a subordinação melhor do que apenas observar que as duas expressões contêm a palavra biblioteca."
+  },
+  "real-tec-3599008": {
+    "perfil": "vocabulario",
+    "gatilho": "termos livres",
+    "exemplo": "Duas expressões do uso cotidiano podem remeter ao mesmo termo preferido. O indexador consulta a linguagem para escolher a representação e manter consistência, em vez de chamar de descritor toda palavra encontrada no texto."
+  },
+  "real-tec-3240845": {
+    "perfil": "catalogos",
+    "gatilho": "indiretamente",
+    "exemplo": "O leitor procura um título e verifica disponibilidade por conta própria. Se encontra dificuldade, pode pedir orientação; a existência de ajuda não transforma toda consulta em acesso indireto ao catálogo."
+  },
+  "real-tec-4145210": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "eficácia",
+    "exemplo": "Uma biblioteca responde rapidamente a muitos pedidos com materiais pouco úteis. O número de respostas e o gasto reduzido precisam ser comparados à resolução das demandas; produzir mais não equivale automaticamente a atender melhor."
+  },
+  "real-tec-3240847": {
+    "perfil": "usabilidade",
+    "gatilho": "facilmente compreendidos",
+    "exemplo": "Uma pessoa não entende a diferença entre busca por assunto e palavra livre e recebe resultados inesperados. Observar essa dificuldade permite melhorar rótulos e ajuda, em vez de presumir que qualquer catálogo seja autoexplicativo."
+  },
+  "real-tec-3373053": {
+    "perfil": "rda",
+    "gatilho": "interfaces",
+    "exemplo": "O registro relaciona traduções de uma obra, mas a interface não mostra esses vínculos. O dado existe, porém o benefício para a navegação depende de como a aplicação o torna visível e utilizável."
+  },
+  "real-tec-3598996": {
+    "perfil": "rda",
+    "gatilho": "entidades e relações",
+    "exemplo": "A catalogadora distingue obra, tradução, edição e exemplar antes de registrar suas relações. Esse raciocínio ajuda a representar o recurso e não pode ser substituído pela simples cópia de uma linha de descrição."
+  },
+  "real-tec-3599002": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "usuários externos",
+    "exemplo": "Divulgar uma oficina apenas entre funcionários pode não chegar aos estudantes que precisam dela. O planejamento identifica destinatários e canais e depois verifica participação e resultados, sem presumir que o público externo não importe."
+  },
+  "real-tec-3599005": {
+    "perfil": "plano-marketing",
+    "gatilho": "sem definir objetivos",
+    "exemplo": "A biblioteca cria um perfil e deixa perguntas sem resposta por semanas. Definir equipe, rotina e linha editorial ajuda a evitar uma promessa de comunicação que a instituição não consegue sustentar."
+  },
+  "real-tec-3599001": {
+    "perfil": "conhecimento",
+    "gatilho": "ativos intangíveis",
+    "exemplo": "A equipe registra e compartilha soluções de casos difíceis para evitar perder experiência quando alguém sai. O valor está em preservar capacidade de atuação e aprendizagem, não apenas em aumentar a quantidade de documentos numa pasta."
+  },
+  "real-tec-3598980": {
+    "perfil": "juridica",
+    "gatilho": "tão somente armazenar",
+    "exemplo": "Ao entregar uma lei, a bibliotecária verifica a origem e se o texto foi alterado, sem emitir parecer sobre o caso do usuário. Conferência informacional e interpretação jurídica especializada não são a mesma responsabilidade."
+  },
+  "real-tec-3598999": {
+    "perfil": "conhecimento",
+    "gatilho": "com fins lucrativos",
+    "exemplo": "Uma biblioteca pública promove reuniões para compartilhar práticas de atendimento e registrar aprendizados. A finalidade é melhorar o serviço à comunidade, mesmo sem vender produtos ou buscar lucro."
+  },
+  "real-tec-3599058": {
+    "perfil": "aquisicao",
+    "gatilho": "obras da biblioteca",
+    "exemplo": "Uma professora sugere um título ainda não disponível. Ele pode entrar numa lista para avaliação e aquisição; só depois de incorporado e descrito poderá aparecer no catálogo como material da coleção."
+  },
+  "real-tec-3599028": {
+    "perfil": "selecao",
+    "gatilho": "atores do processo",
+    "exemplo": "Diante de uma proposta de compra, a equipe consulta critérios de pertinência e responsabilidade de decisão. O procedimento evita que a escolha dependa apenas da preferência pessoal de quem recebeu a sugestão."
+  },
+  "real-tec-3599027": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "quantitativas quanto qualitativas",
+    "exemplo": "Um título tem poucos empréstimos, mas é indispensável a uma pesquisa institucional. A avaliação combina a estatística com finalidade, alternativas e contexto, em vez de descartá-lo ou comprá-lo apenas por um número."
+  },
+  "real-tec-3373047": {
+    "perfil": "texto-automatico",
+    "gatilho": "não é possível",
+    "exemplo": "Um modelo sugere áreas com aumento de demanda a partir de dados autorizados. A equipe confere fontes, necessidades e orçamento antes de decidir: apoio analítico não é a mesma coisa que delegar toda a política a um algoritmo."
+  },
+  "real-tec-3373044": {
+    "perfil": "texto-automatico",
+    "gatilho": "classificação e indexação",
+    "exemplo": "Antes de treinar um classificador de documentos, a equipe precisa definir categorias e critérios consistentes de rotulagem. Se os exemplos confundem assuntos ou usam termos contraditórios, a escala do processamento não corrige essa fragilidade conceitual."
   }
 }
