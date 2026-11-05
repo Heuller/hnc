@@ -3,6 +3,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { QUESTOES_REAIS } from '../content/questoesReais';
 import loteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA.json';
+import segundoLoteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA-02.json';
 import { ALL_COURSE_MODULES } from '../content/registry';
 import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
 
@@ -38,7 +39,23 @@ describe('questões reais por módulo', () => {
       expect(q.justificativa.length).toBeGreaterThan(90);
       expect(q.acervoUrl).toContain(loteEsquematizada.fonteDrive);
     }
-    expect(QUESTOES_REAIS.filter(q => q.loteRevisao !== loteEsquematizada.lote)).toHaveLength(142);
+    expect(QUESTOES_REAIS.filter(q => !q.loteRevisao)).toHaveLength(142);
+  });
+  it('acrescenta mais 300 questões preservando os 442 itens publicados', () => {
+    const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === segundoLoteEsquematizada.lote);
+    expect(novos).toHaveLength(300);
+    expect(QUESTOES_REAIS.filter(q => q.loteRevisao !== segundoLoteEsquematizada.lote)).toHaveLength(442);
+    expect(new Set(novos.map(q => q.id))).toEqual(new Set(segundoLoteEsquematizada.ids));
+    expect(new Set(QUESTOES_REAIS.filter(q => q.loteRevisao).map(q => q.numeroNaFonte)).size).toBe(600);
+    for (const q of novos) {
+      const modulo = ALL_COURSE_MODULES.find(m => m.codigo.toUpperCase() === q.modulo);
+      expect(modulo?.modulosFilhos?.some(s => s.id === `sub-${q.submoduloId?.replace('.', '-')}`), q.id).toBe(true);
+      expect(q.estadoConferencia).toBe('caderno');
+      expect(q.gabaritoUrl).toBeUndefined();
+      expect(q.justificativa.length).toBeGreaterThan(90);
+      expect(q.acervoUrl).toContain(segundoLoteEsquematizada.fonteDrive);
+      if (q.gabarito === 'E') expect(q.versao_correta?.length).toBeGreaterThan(30);
+    }
   });
   it('restaura respostas e módulo ao reabrir a sessão', () => {
     const primeira = render(<SimuladosReaisModal onClose={vi.fn()} />);

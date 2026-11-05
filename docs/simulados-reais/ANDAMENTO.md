@@ -2,7 +2,19 @@
 
 ## Estado atual — 5 de novembro de 2026
 
-A função está implementada localmente em Treinos, com **442 itens**, estudo reverso imediato, ligação à teoria e retomada da sessão no navegador. Há 46 itens confrontados com fontes oficiais e 396 atribuídos aos cadernos. A função não foi publicada.
+A versão com **442 itens** foi publicada no GitHub (`74ce4595ec4c10503b67e5f9e68aa88474d586c0`) e recebeu status de sucesso da Vercel. Em seguida, foram preparados **mais 300 itens**, elevando a seleção local a **742 questões**: 46 confrontadas com fontes oficiais e 696 com gabarito e atribuição informados por cadernos. Este segundo lote ainda não foi publicado.
+
+### Segundo lote de 300 — após a publicação
+
+O lote `esquematizada-300-02-2026-11-05` contém 300 questões adicionais da apostila esquematizada, com comentários editoriais específicos, formulação corrigida dos itens E e ligação à teoria. Os 442 itens publicados foram preservados integralmente. A seleção excluiu duplicatas textuais exatas e próximas, textos cortados e candidatos de conferência insegura; dois itens associados a divergências já sinalizadas na fila foram substituídos antes do fechamento.
+
+Distribuição das novas questões: M1: 1; M2: 135; M3: 18; M4: 103; M5: 2; M6: 15; M8: 11; M9: 15. São 155 respostas C e 145 respostas E. Os gabaritos provêm da apostila, sem presumir confronto oficial. Os comentários situam regras históricas do AACR2, FRBR e de normalização quando necessário, evitando apresentá-las como equivalentes indistintas dos padrões atuais.
+
+Os arquivos `LOTE-300-ESQUEMATIZADA-02.csv` e `LOTE-300-ESQUEMATIZADA-02.json` permitem revisar enunciados, comentários, correções, fontes e os identificadores do novo lote. O importador aceita `--lote` e preserva os demais lotes ao reexecutar a importação. Os comentários de trabalho e as reservas permanecem no diretório privado ignorado pelo Git.
+
+A validação deste segundo lote passou: 1.008 testes em 130 arquivos, sete testes Python, auditoria estrutural e build com todos os orçamentos respeitados. Foi confirmada a igualdade integral dos 442 itens anteriores com a versão publicada. Em Chromium, a afirmação 493 foi respondida em viewport 390 × 844; o comentário e a formulação corrigida apareceram imediatamente, sem erros de página nem rolagem horizontal. A imagem local está em `/workspace/scratch/prints-reais/lote-300-02-mobile.png`. A tela temporária de conferência foi removida, sem alteração da autenticação da plataforma.
+
+### Primeiro lote de 300 — incluído na versão publicada
 
 O pedido desta etapa foi concluído: **300 questões novas** da apostila `PAPIRVM BIBLIOTECONOMIA ESQUEMATIZADA.pdf`, além das 142 já existentes. Cada nova questão recebeu comentário editorial específico, classificação por módulo e submódulo e, quando o gabarito é E, uma formulação corrigida. Gabaritos e atribuições deste lote foram conferidos na apostila; o confronto individual com os documentos oficiais permanece pendente e não é presumido pela interface.
 
@@ -10,7 +22,7 @@ A planilha `LOTE-300-ESQUEMATIZADA.csv` permite revisar os 300 enunciados, comen
 
 Foram verificadas duplicatas textuais exatas e próximas contra a seleção existente e dentro do lote, além dos conflitos já sinalizados na fila. Três seleções ambíguas foram substituídas antes da versão final. O lote não inclui itens detectados como anulados ou de múltipla escolha.
 
-A validação final passou: 1.007 testes em 130 arquivos, sete testes Python e build dentro dos orçamentos. A conferência em Chromium, com viewport 390 × 844, respondeu a uma questão nova e confirmou o comentário imediato, sem erros de página ou rolagem horizontal. A imagem local está em `/workspace/scratch/prints-reais/lote-300-mobile.png`; a tela temporária de conferência foi removida.
+A validação do primeiro lote passou: 1.007 testes em 130 arquivos, sete testes Python e build dentro dos orçamentos. Na preparação da publicação, foi corrigida a divergência entre README e métricas geradas; os demais 1.006 testes e os três testes do README passaram, além da auditoria e do build. A conferência em Chromium, com viewport 390 × 844, respondeu a uma questão nova e confirmou o comentário imediato, sem erros de página ou rolagem horizontal. A imagem local está em `/workspace/scratch/prints-reais/lote-300-mobile.png`; a tela temporária de conferência foi removida.
 
 A triagem contém 4.148 candidatos em 3.255 grupos de revisão. Ainda faltam conferência, classificação e comentários para a maior parte deles, além de OCR e exame das fontes não lidas integralmente. Os totais das seções seguintes registram etapas históricas; não devem ser somados nem tratados como o estado atual.
 

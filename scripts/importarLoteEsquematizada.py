@@ -18,13 +18,14 @@ def carregar_extrator():
 
 def main():
     p = argparse.ArgumentParser(); p.add_argument('--texto', type=Path, required=True); p.add_argument('--comentarios', type=Path, required=True); p.add_argument('--destino', type=Path, required=True); p.add_argument('--relatorio', type=Path, required=True)
+    p.add_argument('--lote', default=BATCH, help='Identificador do lote; preserva os demais lotes já importados.')
     args = p.parse_args(); e = carregar_extrator()
     source = e.apostila_gabarito_em_blocos(args.texto.read_text(), {'id':SOURCE_ID,'nome':'PAPIRVM BIBLIOTECONOMIA ESQUEMATIZADA.pdf'})
     bynum = {}
     for q in source:
         if q['numero_no_caderno'] in bynum: raise ValueError('Numeração duplicada na fonte')
         bynum[q['numero_no_caderno']] = q
-    dest = json.loads(args.destino.read_text()); base = [q for q in dest if q.get('loteRevisao') != BATCH]
+    dest = json.loads(args.destino.read_text()); base = [q for q in dest if q.get('loteRevisao') != args.lote]
     seen = {e.chave_texto(q['item']) for q in base}
     ts = args.destino.with_name('questoesReais.ts').read_text()
     seen.update(e.chave_texto(q) for q in re.findall(r"\n\s*item: '([^']+)'",ts))
@@ -40,11 +41,11 @@ def main():
         if key in seen: raise ValueError('Duplicata ativa ou no lote: '+num)
         seen.add(key)
         ident='real-esquematizada-'+num+'-'+hashlib.sha256(key.encode()).hexdigest()[:10]
-        rec={'id':ident,'modulo':'M'+sub.split('.')[0],'submoduloId':sub,'prova':q['origem_prova_declarada']+' · atribuição na apostila','provaUrl':'https://drive.google.com/file/d/'+SOURCE_ID+'/view','acervoUrl':'https://drive.google.com/file/d/'+SOURCE_ID+'/view','contexto':q.get('contexto',''),'item':text,'gabarito':q['gabarito_fonte'],'justificativa':comment,'fonte':'PAPIRVM Biblioteconomia Esquematizada, afirmação '+num+', gabarito do bloco; comentário editorial HNC e aprofundamento na aula '+sub+'.','estadoConferencia':'caderno','loteRevisao':BATCH,'numeroNaFonte':int(num)}
+        rec={'id':ident,'modulo':'M'+sub.split('.')[0],'submoduloId':sub,'prova':q['origem_prova_declarada']+' · atribuição na apostila','provaUrl':'https://drive.google.com/file/d/'+SOURCE_ID+'/view','acervoUrl':'https://drive.google.com/file/d/'+SOURCE_ID+'/view','contexto':q.get('contexto',''),'item':text,'gabarito':q['gabarito_fonte'],'justificativa':comment,'fonte':'PAPIRVM Biblioteconomia Esquematizada, afirmação '+num+', gabarito do bloco; comentário editorial HNC e aprofundamento na aula '+sub+'.','estadoConferencia':'caderno','loteRevisao':args.lote,'numeroNaFonte':int(num)}
         if correct:rec['versao_correta']=correct
         additions.append(rec)
     args.destino.write_text(json.dumps(base+additions,ensure_ascii=False,indent=2)+'\n')
-    report={'lote':BATCH,'novasQuestoes':len(additions),'fonteDrive':SOURCE_ID,'ids':[q['id'] for q in additions],'criterio':'300 comentários editoriais específicos; gabaritos atribuídos à apostila, sem presumir confronto oficial.'}
+    report={'lote':args.lote,'novasQuestoes':len(additions),'fonteDrive':SOURCE_ID,'ids':[q['id'] for q in additions],'criterio':'300 comentários editoriais específicos; gabaritos atribuídos à apostila, sem presumir confronto oficial.', 'totalAntes':len(base)+4, 'totalDepois':len(base+additions)+4}
     args.relatorio.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'novas':len(additions),'total_json':len(base+additions),'total_com_4_itens_ts':len(base+additions)+4}))
 
