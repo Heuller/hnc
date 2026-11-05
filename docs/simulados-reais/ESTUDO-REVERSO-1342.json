@@ -1,0 +1,26 @@
+{
+  "versao": "estudo-reverso-integral-2026-11-05",
+  "total": 1342,
+  "anotacoesIndividuais": 1342,
+  "explicacoesConceituais": 141,
+  "referenciasTeoricas": 90,
+  "porModulo": {
+    "M2": 169,
+    "M4": 331,
+    "M5": 269,
+    "M8": 105,
+    "M3": 182,
+    "M14": 13,
+    "M6": 140,
+    "M9": 54,
+    "M1": 78,
+    "M10": 1
+  },
+  "oficiaisConfrontadas": 46,
+  "confrontoOficialPendente": 1296,
+  "limites": [
+    "A auditoria verifica cobertura e integridade dos blocos, não comprova a verdade de cada explicação.",
+    "A ampliação didática não converte atribuição de apostila em confronto de prova e gabarito oficiais.",
+    "Exemplos e comparações são autorais, não enunciados adicionais da Cebraspe."
+  ]
+}

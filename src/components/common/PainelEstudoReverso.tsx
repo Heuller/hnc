@@ -22,7 +22,14 @@ import {
   situacaoResposta,
 } from '../../domain/estudoReverso';
 
-export type QuestaoEstudoReverso = Pick<
+export interface FundamentacaoDidatica {
+  conceito: string;
+  regra: string;
+  exemplo: string;
+  referencia: { titulo: string; localizador: string; url?: string };
+}
+
+export type QuestaoEstudoReverso = { fundamentacaoDidatica?: FundamentacaoDidatica } & Pick<
   CebraspeQuestion,
   'id' | 'item' | 'gabarito' | 'justificativa'
 > &
@@ -76,6 +83,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
   const temGatilho = !comentarioPendente && trechos.some((t) => t.decisivo);
   const contraste = questao.gabarito === 'E' ? questao.versao_correta : questao.versao_errada;
   const subId = questao.submoduloId;
+  const didatica = questao.fundamentacaoDidatica;
   const raciocinio = analise?.itemId === questao.id && analise.gabarito === questao.gabarito ? analise : undefined;
 
   if (!revelado) {
@@ -161,7 +169,31 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
           <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
           <span>Por que o item está {rotuloGabarito}</span>
         </div>
+        {didatica && (
+          <div className="space-y-2">
+            <Titulo className="m-0 text-sm font-bold text-ink">{didatica.conceito}</Titulo>
+            <p className="m-0 text-sm font-serif text-ink leading-relaxed">{didatica.regra}</p>
+            <p className="m-0 pt-1 text-xs font-sans font-semibold text-ink-2">Aplicando ao enunciado</p>
+          </div>
+        )}
         <p className="m-0 text-sm font-serif text-ink leading-relaxed">{limparPrefixoGabarito(questao.justificativa)}</p>
+        {didatica && (
+          <div className="mt-3 p-3 sm:p-4 rounded-lg border-l-4 border-accent bg-surface space-y-1">
+            <p className="m-0 text-xs font-sans font-bold text-ink">Exemplo na prática</p>
+            <p className="m-0 text-sm font-serif text-ink leading-relaxed">{didatica.exemplo}</p>
+          </div>
+        )}
+        {didatica && (
+          <p className="m-0 pt-2 text-xs text-ink-2 leading-relaxed break-words">
+            <strong>Fundamentação para estudar:</strong>{' '}
+            {didatica.referencia.url ? (
+              <a href={didatica.referencia.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-accent foco">
+                {didatica.referencia.titulo}
+              </a>
+            ) : didatica.referencia.titulo}
+            {' — '}{didatica.referencia.localizador}
+          </p>
+        )}
         {questao.fonte && !raciocinio && (
           <p className="m-0 pt-2 border-t border-border text-xs text-ink-2 leading-relaxed break-words">
             <strong>Referência para conferir:</strong> {questao.fonte}
@@ -206,7 +238,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
             <span className="italic">“{contraste}”</span>
           </p>
           <p className="m-0 text-xs text-ink-2 font-sans">
-            Compare as versões e identifique a regra ou condição alterada. Uma palavra isolada não determina o gabarito.
+            Comparação didática elaborada para o estudo; não é outra questão de prova. Identifique a regra ou condição alterada. Uma palavra isolada não determina o gabarito.
           </p>
         </div>
       )}

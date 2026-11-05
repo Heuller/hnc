@@ -1,0 +1,5370 @@
+{
+  "real-stj-2024-biblio-67": {
+    "perfil": "rda",
+    "gatilho": "substituiu o AACR2"
+  },
+  "real-stj-2024-biblio-64": {
+    "perfil": "dsi",
+    "gatilho": "necessariamente"
+  },
+  "real-stj-2024-biblio-80": {
+    "perfil": "politica-colecoes",
+    "gatilho": "exerce pouca influência"
+  },
+  "real-stj-2024-biblio-85": {
+    "perfil": "identificadores",
+    "gatilho": "identificador persistente"
+  },
+  "real-tec-228951": {
+    "perfil": "juridica",
+    "gatilho": "Constituição Federal"
+  },
+  "real-tec-1303082": {
+    "perfil": "classificacao",
+    "gatilho": "números decimais puros"
+  },
+  "real-tec-1303079": {
+    "perfil": "classificacao",
+    "gatilho": "análoga"
+  },
+  "real-tec-103207": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "cinco partes"
+  },
+  "real-tec-180970": {
+    "perfil": "consistencia",
+    "gatilho": "consenso"
+  },
+  "real-tec-206142": {
+    "perfil": "classificacao",
+    "gatilho": "código"
+  },
+  "real-tec-185266": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "previsibilidade"
+  },
+  "real-tec-165455": {
+    "perfil": "indices",
+    "gatilho": "indexação temática"
+  },
+  "real-tec-104045": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "independe"
+  },
+  "real-tec-185267": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "coeficiente de precisão"
+  },
+  "real-tec-624214": {
+    "perfil": "indexacao",
+    "gatilho": "individualização"
+  },
+  "real-tec-104044": {
+    "perfil": "mineracao",
+    "gatilho": "agrupamentos"
+  },
+  "real-tec-228966": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "não é relevante"
+  },
+  "real-tec-104031": {
+    "perfil": "consistencia",
+    "gatilho": "intraindexador"
+  },
+  "real-tec-104043": {
+    "perfil": "vocabulario",
+    "gatilho": "linguagem natural"
+  },
+  "real-tec-185268": {
+    "perfil": "vocabulario",
+    "gatilho": "diferenciar homógrafos"
+  },
+  "real-tec-3373069": {
+    "perfil": "rvbi",
+    "gatilho": "coordenada pela Biblioteca do Senado Federal"
+  },
+  "real-tec-3240838": {
+    "perfil": "rvbi",
+    "gatilho": "rede cooperativa"
+  },
+  "real-tec-346457": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "referência virtual colaborativa"
+  },
+  "real-tec-103237": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "secundária"
+  },
+  "real-tec-2711410": {
+    "perfil": "referencia",
+    "gatilho": "fase de disseminação"
+  },
+  "real-tec-346453": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "redes colaborativas"
+  },
+  "real-tec-181040": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "pesquisa quantitativa"
+  },
+  "real-tec-1303117": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "métodos qualitativos"
+  },
+  "real-tec-696594": {
+    "perfil": "politica-colecoes",
+    "gatilho": "a partir da política"
+  },
+  "real-tec-206211": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "sempre aumenta proporcionalmente"
+  },
+  "real-tec-104060": {
+    "perfil": "selecao",
+    "gatilho": "mudanças nas leis"
+  },
+  "real-tec-180999": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "situação da biblioteca"
+  },
+  "real-tec-624028": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "tangíveis"
+  },
+  "real-tec-436543": {
+    "perfil": "plano-marketing",
+    "gatilho": "maior custo"
+  },
+  "real-tec-624237": {
+    "perfil": "podc",
+    "gatilho": "aspectos financeiros"
+  },
+  "real-tec-228980": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "prestação de conta"
+  },
+  "real-tec-228955": {
+    "perfil": "redes-computadores",
+    "gatilho": "HTTP"
+  },
+  "real-tec-206246": {
+    "perfil": "z3950",
+    "gatilho": "Z39.19"
+  },
+  "real-tec-180934": {
+    "perfil": "indexacao",
+    "gatilho": "somente na recuperação"
+  },
+  "real-tec-165404": {
+    "perfil": "juridica",
+    "gatilho": "decisões judiciais"
+  },
+  "real-tec-369842": {
+    "perfil": "indexacao",
+    "gatilho": "preservação"
+  },
+  "real-tec-165424": {
+    "perfil": "preservacao-digital",
+    "gatilho": "mesmas tecnologias"
+  },
+  "real-tec-165431": {
+    "perfil": "preservacao-digital",
+    "gatilho": "produção e seu descarte"
+  },
+  "real-tec-624255": {
+    "perfil": "preservacao-digital",
+    "gatilho": "meio digital e os digitalizados"
+  },
+  "real-tec-4145303": {
+    "perfil": "fair",
+    "gatilho": "sem qualquer tipo de restrição"
+  },
+  "real-tec-346424": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "crédito"
+  },
+  "real-tec-3425165": {
+    "perfil": "preservacao-digital",
+    "gatilho": "suficiente"
+  },
+  "real-tec-3187390": {
+    "perfil": "oais-curadoria",
+    "gatilho": "curadoria digital"
+  },
+  "real-tec-696608": {
+    "perfil": "oais-curadoria",
+    "gatilho": "sistema brasileiro"
+  },
+  "real-tec-204016": {
+    "perfil": "preservacao-digital",
+    "gatilho": "hardware e software"
+  },
+  "real-tec-3187374": {
+    "perfil": "lexml",
+    "gatilho": "depositária do patrimônio"
+  },
+  "real-tec-346433": {
+    "perfil": "secoes",
+    "gatilho": "separado por ponto"
+  },
+  "real-tec-1546814": {
+    "perfil": "resumos",
+    "gatilho": "finalidades, metodologia, resultados e conclusões"
+  },
+  "real-tec-289222": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "livros"
+  },
+  "real-tec-104079": {
+    "perfil": "editorial",
+    "gatilho": "proprietário"
+  },
+  "real-tec-624007": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Lotka"
+  },
+  "real-tec-624006": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Zipf"
+  },
+  "real-tec-289216": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Lotka"
+  },
+  "real-tec-289215": {
+    "perfil": "metricas",
+    "gatilho": "quantitativos"
+  },
+  "real-tec-346485": {
+    "perfil": "metricas",
+    "gatilho": "gestão da informação"
+  },
+  "real-tec-289223": {
+    "perfil": "metricas",
+    "gatilho": "estatísticos da linguagem"
+  },
+  "real-tec-3240704": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "espaço da biblioteca"
+  },
+  "real-tec-3240717": {
+    "perfil": "ciencia-info",
+    "gatilho": "recuperação da informação"
+  },
+  "real-tec-3240724": {
+    "perfil": "marc",
+    "gatilho": "independe"
+  },
+  "real-tec-3240725": {
+    "perfil": "hardware",
+    "gatilho": "dispositivo periférico"
+  },
+  "real-tec-3240733": {
+    "perfil": "resumos",
+    "gatilho": "indicativo"
+  },
+  "real-tec-3240745": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "não corresponde a um número padrão"
+  },
+  "real-tec-3240755": {
+    "perfil": "catalogacao",
+    "gatilho": "limitar os pontos de acesso"
+  },
+  "real-tec-3240778": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "empréstimos interbibliotecários"
+  },
+  "real-tec-3240779": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "compartilhamento de recursos"
+  },
+  "real-tec-3240824": {
+    "perfil": "referencia",
+    "gatilho": "reduzir a ansiedade informacional"
+  },
+  "real-tec-3240825": {
+    "perfil": "referencia-virtual",
+    "gatilho": "chats e redes sociais"
+  },
+  "real-tec-3240826": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "dupla distorção"
+  },
+  "real-tec-3240828": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "emissão de julgamento"
+  },
+  "real-tec-3240713": {
+    "perfil": "documento",
+    "gatilho": "estruturada"
+  },
+  "real-tec-3240715": {
+    "perfil": "documentacao",
+    "gatilho": "mais a representação"
+  },
+  "real-tec-3240718": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "função social"
+  },
+  "real-tec-3240719": {
+    "perfil": "documento",
+    "gatilho": "Significação e recepção"
+  },
+  "real-tec-3240721": {
+    "perfil": "documento",
+    "gatilho": "principalmente"
+  },
+  "real-tec-3240722": {
+    "perfil": "documento",
+    "gatilho": "capacidade informativa"
+  },
+  "real-tec-3240759": {
+    "perfil": "catalogacao",
+    "gatilho": "escolha de termos descritores"
+  },
+  "real-tec-3240777": {
+    "perfil": "marketing",
+    "gatilho": "se limita"
+  },
+  "real-tec-3240827": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "secundários"
+  },
+  "real-tec-3240831": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "acompanhada de um resumo"
+  },
+  "real-acervo-a12bb9033f4b7e": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "facetado"
+  },
+  "real-acervo-e5875eccb54593": {
+    "perfil": "referencia",
+    "gatilho": "não figuram como fontes de informação"
+  },
+  "real-acervo-beab2631dda689": {
+    "perfil": "referencias",
+    "gatilho": "resumos"
+  },
+  "real-acervo-4f6b0dcf33b967": {
+    "perfil": "sumario",
+    "gatilho": "todos os volumes"
+  },
+  "real-tec-3240707": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "políticas de acesso"
+  },
+  "real-tec-3240727": {
+    "perfil": "bancos",
+    "gatilho": "dependente de um software"
+  },
+  "real-tec-3240744": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "aspectos fisiográficos"
+  },
+  "real-tec-3240810": {
+    "perfil": "vocabulario",
+    "gatilho": "categoria de termos"
+  },
+  "real-tec-3240813": {
+    "perfil": "vocabulario",
+    "gatilho": "normalizada"
+  },
+  "real-acervo-38760a69775679": {
+    "perfil": "classificacao",
+    "gatilho": "Melvil Dewey"
+  },
+  "real-acervo-e197d35732fc34": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "CDD"
+  },
+  "real-acervo-5f46653cbbf389": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "uso obrigatório"
+  },
+  "real-acervo-5a4e31b72cbcef": {
+    "perfil": "classificacao",
+    "gatilho": "enumerativa"
+  },
+  "real-acervo-2628c29d0b1dab": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "voz passiva"
+  },
+  "real-acervo-3b4baceb88ddf3": {
+    "perfil": "indices",
+    "gatilho": "inclusive as notas"
+  },
+  "real-acervo-724f73a81fc20e": {
+    "perfil": "indices",
+    "gatilho": "específica"
+  },
+  "real-acervo-bb484317169463": {
+    "perfil": "juridica",
+    "gatilho": "fonte principal"
+  },
+  "real-acervo-372f18a67dcf09": {
+    "perfil": "juridica",
+    "gatilho": "fontes de informação autorizadas"
+  },
+  "real-acervo-2ddf4cceb7f520": {
+    "perfil": "juridica",
+    "gatilho": "fontes secundárias"
+  },
+  "real-acervo-7427c8dd36b6e5": {
+    "perfil": "processo-ref",
+    "gatilho": "impossibilidade lógica"
+  },
+  "real-acervo-049dcdce93fc0a": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "não podem constituir objeto de cooperação"
+  },
+  "real-acervo-541ad6f23df5aa": {
+    "perfil": "processo-ref",
+    "gatilho": "linear"
+  },
+  "real-acervo-f8a5f7d77460dc": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "devem ser generalizáveis"
+  },
+  "real-acervo-44cdbc8e6931b1": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "satisfação do usuário"
+  },
+  "real-acervo-9a6265074618a3": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "subsídio estratégico"
+  },
+  "real-acervo-a3de6286e93890": {
+    "perfil": "politica-colecoes",
+    "gatilho": "insumos estratégicos"
+  },
+  "real-acervo-635e3bb5642634": {
+    "perfil": "selecao",
+    "gatilho": "deve-se preferir"
+  },
+  "real-acervo-1ded9da1e60092": {
+    "perfil": "dsi",
+    "gatilho": "não ser direcionada"
+  },
+  "real-acervo-d96a335cdb58c8": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "LibQUAL+"
+  },
+  "real-acervo-d43950c37fc9a3": {
+    "perfil": "bancos",
+    "gatilho": "DSpace"
+  },
+  "real-acervo-ae2cff6a8f3324": {
+    "perfil": "secoes",
+    "gatilho": "sumários"
+  },
+  "real-acervo-589cfed7a1ec84": {
+    "perfil": "bibliografia",
+    "gatilho": "listas descritivas"
+  },
+  "real-tec-3240772": {
+    "perfil": "marketing",
+    "gatilho": "datas comemorativas"
+  },
+  "real-tec-3240775": {
+    "perfil": "marketing",
+    "gatilho": "elevado impacto visual"
+  },
+  "real-tec-3240780": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "menos padronizada"
+  },
+  "real-tec-3240785": {
+    "perfil": "selecao",
+    "gatilho": "opinião do usuário"
+  },
+  "real-tec-3240818": {
+    "perfil": "dou",
+    "gatilho": "apenas para públicos autorizados"
+  },
+  "real-tec-3240821": {
+    "perfil": "dou",
+    "gatilho": "seção 1"
+  },
+  "real-tec-3240840": {
+    "perfil": "redes-juridicas",
+    "gatilho": "exceto a do Tribunal Superior Eleitoral"
+  },
+  "real-tec-3240816": {
+    "perfil": "dou",
+    "gatilho": "seção 3"
+  },
+  "real-tec-3240728": {
+    "perfil": "hardware",
+    "gatilho": "memórias auxiliares"
+  },
+  "real-tec-3240834": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "catalogação cooperativa"
+  },
+  "real-tec-3240861": {
+    "perfil": "seguranca",
+    "gatilho": "Confidencialidade, disponibilidade, integridade e autenticidade"
+  },
+  "real-acervo-197fc81cea2a1b": {
+    "perfil": "classificacao",
+    "gatilho": "derivada da CDU"
+  },
+  "real-acervo-b17d8940065907": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "polissemia"
+  },
+  "real-acervo-9a09c9a935fe7d": {
+    "perfil": "consistencia",
+    "gatilho": "dissociada"
+  },
+  "real-acervo-e6dab1682d4277": {
+    "perfil": "indexacao",
+    "gatilho": "conteúdo dos documentos e das consultas"
+  },
+  "real-acervo-747ea95b672f6a": {
+    "perfil": "indexacao",
+    "gatilho": "análise conceitual e a tradução"
+  },
+  "real-acervo-b4d7e67b5c1958": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "conhecimento das demandas"
+  },
+  "real-acervo-52a22eeab197c6": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "hipertexto"
+  },
+  "real-acervo-4ad1449ce276c6": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "interesse restrito"
+  },
+  "real-acervo-4ea8c733275dd8": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "híbridas"
+  },
+  "real-acervo-62d1d89b1da3c1": {
+    "perfil": "dou",
+    "gatilho": "dispensa a assinatura eletrônica"
+  },
+  "real-acervo-f2e98954aaa8db": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "difusão oral"
+  },
+  "real-acervo-44817ca98b4583": {
+    "perfil": "oai",
+    "gatilho": "provedor de serviços"
+  },
+  "real-acervo-18810b2b6355f3": {
+    "perfil": "preservacao-digital",
+    "gatilho": "base tecnológica"
+  },
+  "real-acervo-2188b7b8aa381c": {
+    "perfil": "z3950",
+    "gatilho": "preservação"
+  },
+  "real-acervo-23ada63d755c99": {
+    "perfil": "sumario",
+    "gatilho": "alinhados à esquerda"
+  },
+  "real-esquematizada-1-df227d263c": {
+    "perfil": "ciencia-info",
+    "gatilho": "biblioteconomia"
+  },
+  "real-esquematizada-2-c8ba2bf4bc": {
+    "perfil": "documentacao",
+    "gatilho": "desde seu surgimento"
+  },
+  "real-esquematizada-5-0ab6d7523e": {
+    "perfil": "juridica",
+    "gatilho": "doutrina"
+  },
+  "real-esquematizada-6-e1caa17fff": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "catalogação cooperativa"
+  },
+  "real-esquematizada-7-9a29a73edc": {
+    "perfil": "indexacao",
+    "gatilho": "indexação e de recuperação"
+  },
+  "real-esquematizada-8-632d40f03b": {
+    "perfil": "indexacao",
+    "gatilho": "conhecimento empírico"
+  },
+  "real-esquematizada-10-66023e9739": {
+    "perfil": "documentacao",
+    "gatilho": "consulta, estudo ou prova"
+  },
+  "real-esquematizada-11-9ac51d9700": {
+    "perfil": "documentacao",
+    "gatilho": "conservação e preservação"
+  },
+  "real-esquematizada-12-bba7d0ce27": {
+    "perfil": "documentacao",
+    "gatilho": "restringe-se"
+  },
+  "real-esquematizada-16-52764eaeeb": {
+    "perfil": "documento",
+    "gatilho": "materialidade e organização"
+  },
+  "real-esquematizada-17-79e8ab4cc2": {
+    "perfil": "documento",
+    "gatilho": "excluídos"
+  },
+  "real-esquematizada-18-db1a214253": {
+    "perfil": "catalogacao",
+    "gatilho": "representação primária"
+  },
+  "real-esquematizada-19-cfd50ccc77": {
+    "perfil": "documento",
+    "gatilho": "signos visuais e signos auditivos"
+  },
+  "real-esquematizada-20-206e95df30": {
+    "perfil": "documento",
+    "gatilho": "registro do pensamento"
+  },
+  "real-esquematizada-24-993c360279": {
+    "perfil": "documentacao",
+    "gatilho": "acesso à documentação"
+  },
+  "real-esquematizada-25-d876247e2b": {
+    "perfil": "documentacao",
+    "gatilho": "Tratado de Documentação"
+  },
+  "real-esquematizada-27-1defb92600": {
+    "perfil": "documentacao",
+    "gatilho": "organização de acervos"
+  },
+  "real-esquematizada-29-feb00a1e4e": {
+    "perfil": "indexacao",
+    "gatilho": "representação temática"
+  },
+  "real-esquematizada-31-07a4473756": {
+    "perfil": "juridica",
+    "gatilho": "documentos jurídicos"
+  },
+  "real-esquematizada-32-7dd66ddf53": {
+    "perfil": "juridica",
+    "gatilho": "analítica"
+  },
+  "real-esquematizada-34-c70cc65d89": {
+    "perfil": "sri",
+    "gatilho": "se inicia na fase de aquisição"
+  },
+  "real-esquematizada-35-bf8ede99c4": {
+    "perfil": "medida-provisoria",
+    "gatilho": "competência exclusiva do Congresso Nacional"
+  },
+  "real-esquematizada-39-8635fe4520": {
+    "perfil": "juridica",
+    "gatilho": "dois tipos"
+  },
+  "real-esquematizada-40-7b0e51c77e": {
+    "perfil": "bibliografia",
+    "gatilho": "não dependem de uma coleção única"
+  },
+  "real-esquematizada-43-28f9281126": {
+    "perfil": "classificacao",
+    "gatilho": "organizada e encontrada"
+  },
+  "real-esquematizada-45-e703892ee2": {
+    "perfil": "metricas",
+    "gatilho": "cienciometria"
+  },
+  "real-esquematizada-47-9f05461d0f": {
+    "perfil": "ciencia-info",
+    "gatilho": "interdisciplinar"
+  },
+  "real-esquematizada-48-0f2af23072": {
+    "perfil": "metricas",
+    "gatilho": "segmento da sociologia da ciência"
+  },
+  "real-esquematizada-49-abf474ca39": {
+    "perfil": "vocabulario",
+    "gatilho": "metadocumentos"
+  },
+  "real-esquematizada-50-56293bcc8d": {
+    "perfil": "tipos-fontes",
+    "gatilho": "literatura branca"
+  },
+  "real-esquematizada-53-c4a2b6f857": {
+    "perfil": "documentacao",
+    "gatilho": "computador pessoal"
+  },
+  "real-esquematizada-55-c79ce5525d": {
+    "perfil": "documentacao",
+    "gatilho": "bibliotecas públicas"
+  },
+  "real-esquematizada-56-a83280e28c": {
+    "perfil": "documento",
+    "gatilho": "fotografia"
+  },
+  "real-esquematizada-57-9c696a9f83": {
+    "perfil": "ciencia-info",
+    "gatilho": "sociologia"
+  },
+  "real-esquematizada-58-0e30df2ec3": {
+    "perfil": "documentacao",
+    "gatilho": "deixou de considerar"
+  },
+  "real-esquematizada-60-f5f480b3d9": {
+    "perfil": "documentacao",
+    "gatilho": "elaborar os dados"
+  },
+  "real-esquematizada-62-9f187dbb31": {
+    "perfil": "gi",
+    "gatilho": "disponibilidade de acervo"
+  },
+  "real-esquematizada-63-39aa4c4ea5": {
+    "perfil": "ciencia-info",
+    "gatilho": "interdisciplinaridade"
+  },
+  "real-esquematizada-67-4f2128a4f4": {
+    "perfil": "ciencia-info",
+    "gatilho": "psicologia e da linguística"
+  },
+  "real-esquematizada-69-b52ee4ae80": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "modelo alternativo"
+  },
+  "real-esquematizada-70-d3a1c2e188": {
+    "perfil": "acesso-aberto",
+    "gatilho": "insuficiente"
+  },
+  "real-esquematizada-71-6b3a50abcc": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "extrapolam"
+  },
+  "real-esquematizada-72-562accf342": {
+    "perfil": "acesso-aberto",
+    "gatilho": "custo de acesso"
+  },
+  "real-esquematizada-73-c663062fbb": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "necessidades informacionais"
+  },
+  "real-esquematizada-75-ed09f2da97": {
+    "perfil": "ciencia-info",
+    "gatilho": "Segunda Guerra Mundial"
+  },
+  "real-esquematizada-76-0409cfe107": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "necessidade de deslocamento"
+  },
+  "real-esquematizada-78-af712f0356": {
+    "perfil": "catalogacao",
+    "gatilho": "aquisição, catalogação, classificação"
+  },
+  "real-esquematizada-79-7e3c9de1a3": {
+    "perfil": "automacao",
+    "gatilho": "área administrativa"
+  },
+  "real-esquematizada-80-0f8500c3d4": {
+    "perfil": "podc",
+    "gatilho": "área administrativa"
+  },
+  "real-esquematizada-82-fc2df284c4": {
+    "perfil": "ciencia-info",
+    "gatilho": "mas não em seu processo de construção"
+  },
+  "real-esquematizada-83-17064a946d": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "utilização do usuário final"
+  },
+  "real-esquematizada-84-e480e3b796": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "elementos informais"
+  },
+  "real-esquematizada-85-b4a58b5b7f": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "não se comunicam"
+  },
+  "real-esquematizada-86-951bef3ac3": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "deficiência no estado de conhecimento"
+  },
+  "real-esquematizada-89-b2358b2b0d": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "novos conhecimentos"
+  },
+  "real-esquematizada-90-fdd16ead3e": {
+    "perfil": "ciencia-info",
+    "gatilho": "duas áreas"
+  },
+  "real-esquematizada-91-c1894f96bf": {
+    "perfil": "gi",
+    "gatilho": "registro e memória"
+  },
+  "real-esquematizada-92-18531d6736": {
+    "perfil": "politica-colecoes",
+    "gatilho": "registro, classificação, catalogação"
+  },
+  "real-esquematizada-95-8b1a379ef7": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "organizados para estudo"
+  },
+  "real-esquematizada-96-fe6eb8b7d7": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "em detrimento do acesso"
+  },
+  "real-esquematizada-97-6c5d872592": {
+    "perfil": "ciencia-info",
+    "gatilho": "construção, comunicação e uso"
+  },
+  "real-esquematizada-99-cbd1db85a8": {
+    "perfil": "ciencia-info",
+    "gatilho": "consensual"
+  },
+  "real-esquematizada-100-c71dd323b1": {
+    "perfil": "ciencia-info",
+    "gatilho": "diferenciam"
+  },
+  "real-esquematizada-101-8884239eb5": {
+    "perfil": "ciencia-info",
+    "gatilho": "problema social"
+  },
+  "real-esquematizada-106-92d59337a8": {
+    "perfil": "ciencia-info",
+    "gatilho": "mesma disciplina"
+  },
+  "real-esquematizada-108-d2829f1fbb": {
+    "perfil": "ciencia-info",
+    "gatilho": "usos e necessidades"
+  },
+  "real-esquematizada-109-e94ede90da": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "apenas para a automação"
+  },
+  "real-esquematizada-114-028a92bef7": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Bradford"
+  },
+  "real-esquematizada-118-33758fe613": {
+    "perfil": "metricas",
+    "gatilho": "exclusivamente"
+  },
+  "real-esquematizada-119-ad843eef3e": {
+    "perfil": "metricas",
+    "gatilho": "medida ou da quantidade"
+  },
+  "real-esquematizada-120-98ec4f7137": {
+    "perfil": "catalogacao",
+    "gatilho": "tema principal"
+  },
+  "real-esquematizada-122-fa35b47395": {
+    "perfil": "classificacao",
+    "gatilho": "exclusiva para livros"
+  },
+  "real-esquematizada-123-42159a2c80": {
+    "perfil": "indexacao",
+    "gatilho": "desconsiderada"
+  },
+  "real-esquematizada-125-4d45d9fe50": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "quadrado inverso"
+  },
+  "real-esquematizada-129-6b9f12defd": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "produtividade de autores"
+  },
+  "real-esquematizada-130-0f4d960d75": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "frequência"
+  },
+  "real-esquematizada-131-0a5cf540c2": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "periódicos"
+  },
+  "real-esquematizada-136-7a00c6d0cb": {
+    "perfil": "metricas",
+    "gatilho": "mesma abrangência"
+  },
+  "real-esquematizada-137-d2a56a19bf": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Lotka"
+  },
+  "real-esquematizada-138-f5c84d89f4": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Bradford"
+  },
+  "real-esquematizada-140-520dad4813": {
+    "perfil": "metricas",
+    "gatilho": "comunicação informal"
+  },
+  "real-esquematizada-141-c11d18d1a9": {
+    "perfil": "metricas",
+    "gatilho": "qualitativa"
+  },
+  "real-esquematizada-143-e8dde00191": {
+    "perfil": "ciencia-info",
+    "gatilho": "contexto social"
+  },
+  "real-esquematizada-144-ccbdef910c": {
+    "perfil": "documento",
+    "gatilho": "oral ou audiovisual"
+  },
+  "real-esquematizada-146-989227d842": {
+    "perfil": "ciencia-info",
+    "gatilho": "unívoco"
+  },
+  "real-esquematizada-148-9a05220c5a": {
+    "perfil": "busca-web",
+    "gatilho": "cálculos de similaridade"
+  },
+  "real-esquematizada-149-4c7a838b16": {
+    "perfil": "classificacao",
+    "gatilho": "ordenação"
+  },
+  "real-esquematizada-155-c79000428b": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "primeira lei"
+  },
+  "real-esquematizada-156-b7398208ae": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "limitação"
+  },
+  "real-esquematizada-157-45e9969acc": {
+    "perfil": "referencia",
+    "gatilho": "Poupe o tempo do leitor"
+  },
+  "real-esquematizada-158-dfd1f03b9b": {
+    "perfil": "etica",
+    "gatilho": "privacidade"
+  },
+  "real-esquematizada-159-5c591042c4": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "Segunda Lei"
+  },
+  "real-esquematizada-160-1f656fe180": {
+    "perfil": "referencia",
+    "gatilho": "satisfação do usuário"
+  },
+  "real-esquematizada-161-9fc5fc43ab": {
+    "perfil": "conhecimento",
+    "gatilho": "Enquanto a gestão da informação"
+  },
+  "real-esquematizada-162-ce52235bbc": {
+    "perfil": "conhecimento",
+    "gatilho": "conhecimento tácito"
+  },
+  "real-esquematizada-166-09d9b9c298": {
+    "perfil": "conhecimento",
+    "gatilho": "conhecimento tácito"
+  },
+  "real-esquematizada-167-cd1809259a": {
+    "perfil": "gi",
+    "gatilho": "conhecimento explícito"
+  },
+  "real-esquematizada-168-742b499c39": {
+    "perfil": "conhecimento",
+    "gatilho": "explícito com conhecimento tácito"
+  },
+  "real-esquematizada-169-63587218b6": {
+    "perfil": "conhecimento",
+    "gatilho": "se deprecia tal como"
+  },
+  "real-esquematizada-171-73314523e4": {
+    "perfil": "conhecimento",
+    "gatilho": "conhecimento explícito"
+  },
+  "real-esquematizada-172-2d7f9b6086": {
+    "perfil": "conhecimento",
+    "gatilho": "condição sine qua non"
+  },
+  "real-esquematizada-173-f7edf32e96": {
+    "perfil": "conhecimento",
+    "gatilho": "exclusivamente"
+  },
+  "real-esquematizada-174-4e7d68033a": {
+    "perfil": "conhecimento",
+    "gatilho": "criado, compartilhado e utilizado"
+  },
+  "real-esquematizada-175-dee23120ea": {
+    "perfil": "seci",
+    "gatilho": "sensibilização"
+  },
+  "real-esquematizada-176-bdf3ab3e81": {
+    "perfil": "gi",
+    "gatilho": "Identificação das necessidades"
+  },
+  "real-esquematizada-177-a267a1a04b": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "quarta lei"
+  },
+  "real-esquematizada-178-e903cfe7e1": {
+    "perfil": "referencia",
+    "gatilho": "controle de empréstimo"
+  },
+  "real-esquematizada-179-11834abc76": {
+    "perfil": "referencia",
+    "gatilho": "qualidade do serviço"
+  },
+  "real-esquematizada-180-e373dfc706": {
+    "perfil": "marketing",
+    "gatilho": "demanda latente"
+  },
+  "real-esquematizada-181-c92f0850e0": {
+    "perfil": "gi",
+    "gatilho": "interpretações cognitiva e afetiva"
+  },
+  "real-esquematizada-182-cf22f26e3f": {
+    "perfil": "conhecimento",
+    "gatilho": "cultura organizacional"
+  },
+  "real-esquematizada-184-47acf136ad": {
+    "perfil": "ontologias",
+    "gatilho": "conceituação"
+  },
+  "real-esquematizada-185-e572cad59a": {
+    "perfil": "conhecimento",
+    "gatilho": "o mesmo não ocorre"
+  },
+  "real-esquematizada-186-238c927583": {
+    "perfil": "marketing",
+    "gatilho": "valor agregado"
+  },
+  "real-esquematizada-187-877f465d45": {
+    "perfil": "marketing",
+    "gatilho": "desnecessárias"
+  },
+  "real-esquematizada-188-55f3ee09c0": {
+    "perfil": "etica",
+    "gatilho": "referenciais éticos"
+  },
+  "real-esquematizada-189-c2cf248ec5": {
+    "perfil": "bancos",
+    "gatilho": "representação de documentos"
+  },
+  "real-esquematizada-190-a2cc8b7251": {
+    "perfil": "catalogacao",
+    "gatilho": "AACR2"
+  },
+  "real-esquematizada-191-f038713d2f": {
+    "perfil": "aquisicao",
+    "gatilho": "implementa as decisões da seleção"
+  },
+  "real-esquematizada-192-821c4fefee": {
+    "perfil": "conspectus",
+    "gatilho": "escala descendente"
+  },
+  "real-esquematizada-193-449836f968": {
+    "perfil": "ontologias",
+    "gatilho": "interoperabilidade"
+  },
+  "real-esquematizada-194-a4d919214e": {
+    "perfil": "gi",
+    "gatilho": "nível estratégico"
+  },
+  "real-esquematizada-196-299c044464": {
+    "perfil": "monitoramento",
+    "gatilho": "ambiente externo"
+  },
+  "real-esquematizada-197-12f59d9f3b": {
+    "perfil": "indexacao",
+    "gatilho": "após o encerramento"
+  },
+  "real-esquematizada-198-fb7a733165": {
+    "perfil": "seci",
+    "gatilho": "explícito é convertido em conhecimento explícito"
+  },
+  "real-esquematizada-199-fc321bb7ff": {
+    "perfil": "conhecimento",
+    "gatilho": "tácito e o explícito"
+  },
+  "real-esquematizada-200-4d6a30a3c0": {
+    "perfil": "etica",
+    "gatilho": "confidencialidade"
+  },
+  "real-esquematizada-202-30c9764122": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "biblioteca central"
+  },
+  "real-esquematizada-203-4afd520b3a": {
+    "perfil": "referencia",
+    "gatilho": "restringem-se"
+  },
+  "real-esquematizada-206-3e3391db93": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "ensino, a pesquisa e a extensão"
+  },
+  "real-esquematizada-251-09954dd42f": {
+    "perfil": "rss",
+    "gatilho": "em um único ambiente"
+  },
+  "real-esquematizada-252-a04e044c6c": {
+    "perfil": "dsi",
+    "gatilho": "interesse corrente do usuário"
+  },
+  "real-esquematizada-253-8156c7207b": {
+    "perfil": "processo-ref",
+    "gatilho": "inicia-se no momento"
+  },
+  "real-esquematizada-254-8ad9f110f9": {
+    "perfil": "referencia-virtual",
+    "gatilho": "por meio de tecnologia de informação"
+  },
+  "real-esquematizada-256-116e5af734": {
+    "perfil": "rss",
+    "gatilho": "conteúdos mais recentes"
+  },
+  "real-esquematizada-258-b01ab9f525": {
+    "perfil": "marketing",
+    "gatilho": "consiste em uma operação de relações públicas"
+  },
+  "real-esquematizada-262-3e732ccf2d": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "documentos não recuperados"
+  },
+  "real-esquematizada-263-3d7656b2cd": {
+    "perfil": "sri",
+    "gatilho": "indexação, formulação da busca"
+  },
+  "real-esquematizada-264-b21ca642f9": {
+    "perfil": "dsi",
+    "gatilho": "uniformemente"
+  },
+  "real-esquematizada-265-4b44fe7050": {
+    "perfil": "referencia-virtual",
+    "gatilho": "em tempo real"
+  },
+  "real-esquematizada-266-8b4b44a505": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "em alguns casos"
+  },
+  "real-esquematizada-268-a159d5f38f": {
+    "perfil": "processo-ref",
+    "gatilho": "As quatro últimas etapas"
+  },
+  "real-esquematizada-269-1267b3e2b5": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "novas necessidades"
+  },
+  "real-esquematizada-270-52e55b4982": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "não podem ser excluídos"
+  },
+  "real-esquematizada-271-d5dce2f150": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "hábitos de busca"
+  },
+  "real-esquematizada-273-2776ded62d": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "em função da ação"
+  },
+  "real-esquematizada-274-08af6b129c": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "aplicabilidade limitada e questionável"
+  },
+  "real-esquematizada-275-6ba5e2daf4": {
+    "perfil": "processo-ref",
+    "gatilho": "difícil avaliação e mensuração"
+  },
+  "real-esquematizada-276-ef29944ca3": {
+    "perfil": "referencia",
+    "gatilho": "identificação e satisfação"
+  },
+  "real-esquematizada-277-eea7b80cc4": {
+    "perfil": "referencia",
+    "gatilho": "principal ferramenta"
+  },
+  "real-esquematizada-278-97b974bf1a": {
+    "perfil": "processo-ref",
+    "gatilho": "independe"
+  },
+  "real-esquematizada-279-5703937da9": {
+    "perfil": "competencia-info",
+    "gatilho": "orientação e instrução"
+  },
+  "real-esquematizada-280-8b8236a417": {
+    "perfil": "dsi",
+    "gatilho": "torna-se menos importante"
+  },
+  "real-esquematizada-281-209b1141cb": {
+    "perfil": "referencia-virtual",
+    "gatilho": "necessariamente"
+  },
+  "real-esquematizada-282-ecaf06ca1a": {
+    "perfil": "sri",
+    "gatilho": "texto completo"
+  },
+  "real-esquematizada-283-b3cf4bd351": {
+    "perfil": "dsi",
+    "gatilho": "perfil de interesse"
+  },
+  "real-esquematizada-284-bea3d5ed06": {
+    "perfil": "referencia",
+    "gatilho": "maneira individualizada"
+  },
+  "real-esquematizada-285-ae1686d0b5": {
+    "perfil": "processo-ref",
+    "gatilho": "inicia-se com a busca"
+  },
+  "real-esquematizada-286-bb17efa9d7": {
+    "perfil": "dsi",
+    "gatilho": "sinônimos"
+  },
+  "real-esquematizada-287-1cab7913fd": {
+    "perfil": "dsi",
+    "gatilho": "assuntos de interesse dos usuários"
+  },
+  "real-esquematizada-288-6569f5b4bb": {
+    "perfil": "dsi",
+    "gatilho": "quantidade ilimitada"
+  },
+  "real-esquematizada-289-054ddf15e0": {
+    "perfil": "referencia",
+    "gatilho": "serviços de elaboração de referências bibliográficas"
+  },
+  "real-esquematizada-290-4764126c65": {
+    "perfil": "referencia",
+    "gatilho": "importância da dimensão humana tem diminuído"
+  },
+  "real-esquematizada-291-d89a0626ea": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "dificuldades para prover serviços 24/7"
+  },
+  "real-esquematizada-292-128116a673": {
+    "perfil": "referencia",
+    "gatilho": "promover a independência"
+  },
+  "real-esquematizada-293-b2a446106f": {
+    "perfil": "dsi",
+    "gatilho": "tipo de comunicação"
+  },
+  "real-esquematizada-294-759c73ae0c": {
+    "perfil": "referencia",
+    "gatilho": "necessidades informacionais"
+  },
+  "real-esquematizada-295-d3af4cfa2a": {
+    "perfil": "aquisicao",
+    "gatilho": "serviço de alerta"
+  },
+  "real-esquematizada-296-9d951191f8": {
+    "perfil": "referencia",
+    "gatilho": "apoiar os usuários"
+  },
+  "real-esquematizada-297-4a1f9d4607": {
+    "perfil": "dsi",
+    "gatilho": "prescindem"
+  },
+  "real-esquematizada-298-0a4a67e5a9": {
+    "perfil": "referencia",
+    "gatilho": "promoção da biblioteca"
+  },
+  "real-esquematizada-299-9118fd7bc9": {
+    "perfil": "referencia-virtual",
+    "gatilho": "prioritariamente, blogs e wikis"
+  },
+  "real-esquematizada-300-3e779923f8": {
+    "perfil": "portais",
+    "gatilho": "podem ser atualizadas"
+  },
+  "real-esquematizada-301-959a602c8a": {
+    "perfil": "referencia-virtual",
+    "gatilho": "correio eletrônico"
+  },
+  "real-esquematizada-302-56d202cac2": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "combinam e compartilham"
+  },
+  "real-esquematizada-303-a2460ba5f2": {
+    "perfil": "referencia-virtual",
+    "gatilho": "prescinde"
+  },
+  "real-esquematizada-305-3410d05916": {
+    "perfil": "dsi",
+    "gatilho": "interessam ou não ao usuário"
+  },
+  "real-esquematizada-310-a6c7ea996e": {
+    "perfil": "processo-ref",
+    "gatilho": "natureza autolimitante"
+  },
+  "real-esquematizada-312-29c8bdda89": {
+    "perfil": "referencia-virtual",
+    "gatilho": "deixou de ser utilizado"
+  },
+  "real-esquematizada-313-832c802d40": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "não são necessárias para a prestação de serviçosfim"
+  },
+  "real-esquematizada-314-a427284450": {
+    "perfil": "dsi",
+    "gatilho": "mesma atividade"
+  },
+  "real-esquematizada-315-42b2726f70": {
+    "perfil": "referencia",
+    "gatilho": "diretamente aos usuários"
+  },
+  "real-esquematizada-319-231db7dc3e": {
+    "perfil": "busca",
+    "gatilho": "hierárquica ascendente"
+  },
+  "real-esquematizada-320-5465765d86": {
+    "perfil": "processo-ref",
+    "gatilho": "sempre procurar oferecer mais"
+  },
+  "real-esquematizada-322-e4375aea65": {
+    "perfil": "marketing",
+    "gatilho": "consultas a usuários"
+  },
+  "real-esquematizada-323-fe4fe7e4aa": {
+    "perfil": "processo-ref",
+    "gatilho": "se encerra com a entrega"
+  },
+  "real-esquematizada-324-4118bb9800": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "não usuário ou usuário potencial"
+  },
+  "real-esquematizada-326-c2032039dd": {
+    "perfil": "processo-ref",
+    "gatilho": "renegociação"
+  },
+  "real-esquematizada-327-f370c99928": {
+    "perfil": "referencia",
+    "gatilho": "independe de atividades internas"
+  },
+  "real-esquematizada-328-52549ee494": {
+    "perfil": "referencia-virtual",
+    "gatilho": "meio de interação"
+  },
+  "real-esquematizada-330-d4a730d3d1": {
+    "perfil": "gi",
+    "gatilho": "satisfação das necessidades"
+  },
+  "real-esquematizada-331-0b993f6b2a": {
+    "perfil": "planejar",
+    "gatilho": "finito"
+  },
+  "real-esquematizada-332-8f65ca88d4": {
+    "perfil": "entrevista-ref",
+    "gatilho": "proporcionalmente às necessidades"
+  },
+  "real-esquematizada-333-6a4d3b9c90": {
+    "perfil": "aprendizagem-equipe",
+    "gatilho": "geração de subsídios"
+  },
+  "real-esquematizada-334-aa9399acac": {
+    "perfil": "marketing",
+    "gatilho": "apoiar os bibliotecários"
+  },
+  "real-esquematizada-335-ce10a1d7b5": {
+    "perfil": "catalogacao",
+    "gatilho": "deve ser feito de maneira presencial"
+  },
+  "real-esquematizada-336-384304a0a4": {
+    "perfil": "referencia",
+    "gatilho": "serviço de referência"
+  },
+  "real-esquematizada-338-3b0189f2ee": {
+    "perfil": "processo-ref",
+    "gatilho": "problema, necessidade de informação"
+  },
+  "real-esquematizada-339-a13f4b2798": {
+    "perfil": "referencia-virtual",
+    "gatilho": "inteiramente suprimida"
+  },
+  "real-esquematizada-340-d36bafea74": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "anomalia reconhecida"
+  },
+  "real-esquematizada-342-b9662f0f4c": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "aumentar a precisão"
+  },
+  "real-esquematizada-343-ab9a83b5bc": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "interesse do que foi encontrado"
+  },
+  "real-esquematizada-344-cb8956d8e9": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "identificação das necessidades"
+  },
+  "real-esquematizada-345-5199c315e1": {
+    "perfil": "politica-colecoes",
+    "gatilho": "marketing"
+  },
+  "real-esquematizada-346-49b1a7a422": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "delimite a comunidade"
+  },
+  "real-esquematizada-347-e9a1967388": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "instrumentos de gestão"
+  },
+  "real-esquematizada-349-2249ccaf7b": {
+    "perfil": "plano-marketing",
+    "gatilho": "custo-benefício"
+  },
+  "real-esquematizada-350-6bbe0a4b40": {
+    "perfil": "plano-marketing",
+    "gatilho": "avaliar previamente"
+  },
+  "real-esquematizada-354-5176ec51c7": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "bem como"
+  },
+  "real-esquematizada-356-4988a04122": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "necessidades informacionais"
+  },
+  "real-esquematizada-357-f4ccb9c3ad": {
+    "perfil": "marketing",
+    "gatilho": "compreender necessidades"
+  },
+  "real-esquematizada-358-491d6921ee": {
+    "perfil": "competencia-info",
+    "gatilho": "caráter educativo"
+  },
+  "real-esquematizada-359-8dcfe7aa12": {
+    "perfil": "comportamento",
+    "gatilho": "comportamento informacional"
+  },
+  "real-esquematizada-364-a898831120": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "para o qual a organização bibliográfica foi construída"
+  },
+  "real-esquematizada-365-21e82ffaca": {
+    "perfil": "comportamento",
+    "gatilho": "mas não o encontro acidental"
+  },
+  "real-esquematizada-367-538a497aa6": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "não mostra"
+  },
+  "real-esquematizada-371-18abdc2880": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "como e para que"
+  },
+  "real-esquematizada-372-81ff58a321": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "sistematicamente a cada semestre"
+  },
+  "real-esquematizada-374-7c9598286f": {
+    "perfil": "marketing",
+    "gatilho": "portfólio"
+  },
+  "real-esquematizada-375-e68c35386b": {
+    "perfil": "marketing",
+    "gatilho": "sem fins lucrativos"
+  },
+  "real-esquematizada-376-a7ad21bf84": {
+    "perfil": "competencia-info",
+    "gatilho": "avaliá-las criticamente"
+  },
+  "real-esquematizada-377-5ab280ff4e": {
+    "perfil": "entrevista-ref",
+    "gatilho": "sem verificar"
+  },
+  "real-esquematizada-378-76f8946394": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "planejamento e da tomada de decisões"
+  },
+  "real-esquematizada-379-5f9d325ae2": {
+    "perfil": "politica-colecoes",
+    "gatilho": "necessidades da comunidade"
+  },
+  "real-esquematizada-380-ad5423f430": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "não é útil"
+  },
+  "real-esquematizada-381-16eeb07969": {
+    "perfil": "marketing",
+    "gatilho": "uso dado à informação"
+  },
+  "real-esquematizada-383-6e39716290": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "mais importante"
+  },
+  "real-esquematizada-385-6c0b7b7fcc": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "canais de comunicação"
+  },
+  "real-esquematizada-387-4491775a86": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "relegando ao usuário o papel de receptor"
+  },
+  "real-esquematizada-388-3e4cf77833": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "fatores que as influenciam"
+  },
+  "real-esquematizada-389-a79e6eccca": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "não possibilitam"
+  },
+  "real-esquematizada-390-4505625251": {
+    "perfil": "planejar",
+    "gatilho": "não ajuda"
+  },
+  "real-esquematizada-391-0376541755": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "anualmente"
+  },
+  "real-esquematizada-392-ba8e7e63fe": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "aspectos diferentes"
+  },
+  "real-esquematizada-394-9f3e8307bd": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "demandas específicas"
+  },
+  "real-esquematizada-395-2315d39193": {
+    "perfil": "selecao",
+    "gatilho": "sugestões de compra"
+  },
+  "real-esquematizada-396-079682355d": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "satisfazendo as necessidades"
+  },
+  "real-esquematizada-397-a3995a2219": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "técnicas comumente usadas"
+  },
+  "real-esquematizada-398-7226436790": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "somente no ambiente"
+  },
+  "real-esquematizada-399-2000847fbf": {
+    "perfil": "marketing",
+    "gatilho": "adequação da oferta"
+  },
+  "real-esquematizada-401-5db72a6d4d": {
+    "perfil": "busca",
+    "gatilho": "em qual ordem"
+  },
+  "real-esquematizada-402-0b7e400ebf": {
+    "perfil": "usabilidade",
+    "gatilho": "produto específico"
+  },
+  "real-esquematizada-403-934c957e2d": {
+    "perfil": "comportamento",
+    "gatilho": "conhecimento suficiente"
+  },
+  "real-esquematizada-404-dad632cfda": {
+    "perfil": "comportamento",
+    "gatilho": "secundárias"
+  },
+  "real-esquematizada-405-2c96d37731": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "abordagem tradicional"
+  },
+  "real-esquematizada-406-ffed76941a": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "expressões que dizem respeito à solicitação"
+  },
+  "real-esquematizada-407-68d683318c": {
+    "perfil": "sense-making",
+    "gatilho": "quantitativos"
+  },
+  "real-esquematizada-408-bfa1ff61ec": {
+    "perfil": "comportamento",
+    "gatilho": "diferentes contextos"
+  },
+  "real-esquematizada-409-14c54ffe39": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "conhecimento é incompleto"
+  },
+  "real-esquematizada-410-424e4ff61f": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "conhecimento resultam de demandas materiais"
+  },
+  "real-esquematizada-411-37685ba76a": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "perspectivas individuais"
+  },
+  "real-esquematizada-413-6c0434b590": {
+    "perfil": "usabilidade",
+    "gatilho": "interação com o usuário"
+  },
+  "real-esquematizada-414-936731821a": {
+    "perfil": "sense-making",
+    "gatilho": "uso de tecnologias Web"
+  },
+  "real-esquematizada-415-72c0a7efa9": {
+    "perfil": "competencia-info",
+    "gatilho": "síntese e avaliação"
+  },
+  "real-esquematizada-421-2aee46cd82": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "fases do planejamento"
+  },
+  "real-esquematizada-422-b6eef6990c": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "índice de resposta"
+  },
+  "real-esquematizada-423-80e1dd6a28": {
+    "perfil": "entrevista-ref",
+    "gatilho": "basta aplicar"
+  },
+  "real-esquematizada-424-8c16246df6": {
+    "perfil": "comportamento",
+    "gatilho": "encontro acidental"
+  },
+  "real-esquematizada-425-570d64ed83": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "analisados quantitativamente"
+  },
+  "real-esquematizada-426-c087c00686": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "mais apropriado"
+  },
+  "real-esquematizada-427-feeb2e1ad0": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "realidade subjetiva"
+  },
+  "real-esquematizada-429-316fcc9d61": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "delphi e grupo focal"
+  },
+  "real-esquematizada-430-552e7af188": {
+    "perfil": "entrevista-ref",
+    "gatilho": "mesma"
+  },
+  "real-esquematizada-431-fc37a69f8c": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "fixa e ordenada"
+  },
+  "real-esquematizada-432-ac862be4b2": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "exatamente"
+  },
+  "real-esquematizada-433-4cc53b3d44": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "modo e da finalidade"
+  },
+  "real-esquematizada-435-4e4584dbd4": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "necessidades dos bibliotecários"
+  },
+  "real-esquematizada-436-f234579ccc": {
+    "perfil": "entrevista-ref",
+    "gatilho": "estabelecimento do diálogo"
+  },
+  "real-esquematizada-440-92a1c90a0d": {
+    "perfil": "focal-delphi",
+    "gatilho": "prospecção de natureza quantitativa"
+  },
+  "real-esquematizada-441-5a25a574f4": {
+    "perfil": "sense-making",
+    "gatilho": "estudos de usuários quantitativos"
+  },
+  "real-esquematizada-442-1e3140b706": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "mais apropriados para estudos de abordagem qualitativa"
+  },
+  "real-esquematizada-444-b57a2e1e39": {
+    "perfil": "usabilidade",
+    "gatilho": "modelos mentais"
+  },
+  "real-esquematizada-445-33768600a6": {
+    "perfil": "marketing",
+    "gatilho": "ajustes entre oferta e demanda"
+  },
+  "real-esquematizada-446-d40a57dc1c": {
+    "perfil": "marketing",
+    "gatilho": "facilidade de percepção"
+  },
+  "real-esquematizada-450-2b62cd9614": {
+    "perfil": "interoperabilidade",
+    "gatilho": "impossibilidade"
+  },
+  "real-esquematizada-453-d3846964e8": {
+    "perfil": "marketing",
+    "gatilho": "independente"
+  },
+  "real-esquematizada-454-1186261a80": {
+    "perfil": "marketing",
+    "gatilho": "principalmente em oferecer"
+  },
+  "real-esquematizada-455-6a73ca7d9d": {
+    "perfil": "marketing",
+    "gatilho": "criação, oferta e troca"
+  },
+  "real-esquematizada-457-4d6527a227": {
+    "perfil": "marketing",
+    "gatilho": "limitada"
+  },
+  "real-esquematizada-458-6679d8270e": {
+    "perfil": "plano-marketing",
+    "gatilho": "diagnóstico situacional"
+  },
+  "real-esquematizada-459-767bf13061": {
+    "perfil": "plano-marketing",
+    "gatilho": "independe"
+  },
+  "real-esquematizada-460-a16dc86467": {
+    "perfil": "plano-marketing",
+    "gatilho": "precedem os objetivos"
+  },
+  "real-esquematizada-461-03847c8b08": {
+    "perfil": "plano-marketing",
+    "gatilho": "demanda para os serviços"
+  },
+  "real-esquematizada-462-dc618749f8": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "comunicação"
+  },
+  "real-esquematizada-465-3abcec5326": {
+    "perfil": "plano-marketing",
+    "gatilho": "monitoramento"
+  },
+  "real-esquematizada-466-a698334405": {
+    "perfil": "plano-marketing",
+    "gatilho": "Não há relação direta"
+  },
+  "real-esquematizada-467-6cb84b2970": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "necessidades informacionais específicas dos usuários"
+  },
+  "real-esquematizada-468-53b03292aa": {
+    "perfil": "marketing",
+    "gatilho": "uso e do usuário"
+  },
+  "real-esquematizada-471-c45387e549": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "fidelização"
+  },
+  "real-esquematizada-472-e668db8b93": {
+    "perfil": "plano-marketing",
+    "gatilho": "necessidades similares"
+  },
+  "real-esquematizada-473-8a5b5a20b4": {
+    "perfil": "marketing",
+    "gatilho": "restrito"
+  },
+  "real-esquematizada-481-6e1aadb761": {
+    "perfil": "podc",
+    "gatilho": "independem do contexto"
+  },
+  "real-esquematizada-482-39f14d480f": {
+    "perfil": "planejar",
+    "gatilho": "necessário haver planejamento"
+  },
+  "real-esquematizada-483-cac1ada3c3": {
+    "perfil": "profissao",
+    "gatilho": "exclusivamente"
+  },
+  "real-esquematizada-484-a20b7d0393": {
+    "perfil": "rss",
+    "gatilho": "XML"
+  },
+  "real-esquematizada-486-2b80fafaa5": {
+    "perfil": "referencia",
+    "gatilho": "atividade intermediária"
+  },
+  "real-esquematizada-487-c499212c91": {
+    "perfil": "dsi",
+    "gatilho": "não estão restritos a documentos tradicionais"
+  },
+  "real-esquematizada-488-3d4873261b": {
+    "perfil": "dsi",
+    "gatilho": "prioritariamente"
+  },
+  "real-esquematizada-489-27f7d94726": {
+    "perfil": "referencia",
+    "gatilho": "armazenamento"
+  },
+  "real-esquematizada-490-a0a14ada1e": {
+    "perfil": "bibliografia",
+    "gatilho": "controle bibliográfico"
+  },
+  "real-esquematizada-492-18b4bfd7ab": {
+    "perfil": "referencia",
+    "gatilho": "disseminação da informação"
+  },
+  "real-esquematizada-493-f37a737392": {
+    "perfil": "dsi",
+    "gatilho": "não constitui fator preponderante"
+  },
+  "real-esquematizada-494-6e23147643": {
+    "perfil": "oai",
+    "gatilho": "não são indexados"
+  },
+  "real-esquematizada-496-bcc296c580": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "índice h"
+  },
+  "real-esquematizada-497-abc9196486": {
+    "perfil": "portais",
+    "gatilho": "mediante assinaturas"
+  },
+  "real-esquematizada-499-783e724548": {
+    "perfil": "pesquisa",
+    "gatilho": "planejamento global inicial"
+  },
+  "real-esquematizada-500-b370425bbb": {
+    "perfil": "referencia",
+    "gatilho": "Clearinghouse"
+  },
+  "real-esquematizada-501-5098f96c60": {
+    "perfil": "pesquisa",
+    "gatilho": "guarda controlada"
+  },
+  "real-esquematizada-502-8fe66f70f1": {
+    "perfil": "pesquisa",
+    "gatilho": "manipular diretamente variáveis"
+  },
+  "real-esquematizada-503-ffe9c462e9": {
+    "perfil": "pesquisa",
+    "gatilho": "referências teóricas"
+  },
+  "real-esquematizada-504-316915fbca": {
+    "perfil": "pesquisa",
+    "gatilho": "dados ou fatos"
+  },
+  "real-esquematizada-505-d08e0c8f84": {
+    "perfil": "pesquisa",
+    "gatilho": "compreensão particular"
+  },
+  "real-esquematizada-506-22a4622048": {
+    "perfil": "tipos-fontes",
+    "gatilho": "documentos, as pessoas ou as instituições"
+  },
+  "real-esquematizada-508-d69f2e5830": {
+    "perfil": "tipos-fontes",
+    "gatilho": "terciárias"
+  },
+  "real-esquematizada-509-47d2d297d9": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "exclusivamente"
+  },
+  "real-esquematizada-510-606e7190d1": {
+    "perfil": "dsi",
+    "gatilho": "comparação dos perfis"
+  },
+  "real-esquematizada-511-8e08cd520c": {
+    "perfil": "tipos-fontes",
+    "gatilho": "primárias"
+  },
+  "real-esquematizada-513-a33c204a27": {
+    "perfil": "bibliografia",
+    "gatilho": "exaustivas ou seletivas"
+  },
+  "real-esquematizada-516-97a53dbf00": {
+    "perfil": "bibliografia",
+    "gatilho": "vários sentidos"
+  },
+  "real-esquematizada-517-e99a16e083": {
+    "perfil": "bibliografia",
+    "gatilho": "periodicidade"
+  },
+  "real-esquematizada-518-dd5599e19a": {
+    "perfil": "bibliografia",
+    "gatilho": "repertórios"
+  },
+  "real-esquematizada-520-e714a733ff": {
+    "perfil": "dsi",
+    "gatilho": "perfil de interesse"
+  },
+  "real-esquematizada-521-14bd91034e": {
+    "perfil": "dsi",
+    "gatilho": "auxiliam"
+  },
+  "real-esquematizada-522-c01dfb632e": {
+    "perfil": "bases",
+    "gatilho": "são maiores"
+  },
+  "real-esquematizada-523-6edf036162": {
+    "perfil": "podc",
+    "gatilho": "tão importante"
+  },
+  "real-esquematizada-526-889597a3a8": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "tradicionais em formato digital"
+  },
+  "real-esquematizada-528-7afd851144": {
+    "perfil": "referencia",
+    "gatilho": "viabilizam a disseminação"
+  },
+  "real-esquematizada-529-f7e83d3255": {
+    "perfil": "sri",
+    "gatilho": "é a que deve ser empregada"
+  },
+  "real-esquematizada-530-193c5dc132": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "subsidiadas por bibliografias"
+  },
+  "real-esquematizada-532-1226b226c5": {
+    "perfil": "bibliografia",
+    "gatilho": "modo autônomo"
+  },
+  "real-esquematizada-533-cb10d0e5d4": {
+    "perfil": "bibliografia",
+    "gatilho": "acervo de uma biblioteca"
+  },
+  "real-esquematizada-534-e54867f45a": {
+    "perfil": "bibliografia",
+    "gatilho": "exaustiva ou seletiva"
+  },
+  "real-esquematizada-536-bf1a33a2ed": {
+    "perfil": "bibliografia",
+    "gatilho": "assim como os catálogos"
+  },
+  "real-esquematizada-538-9595f22e62": {
+    "perfil": "deposito-legal",
+    "gatilho": "Biblioteca Nacional"
+  },
+  "real-esquematizada-539-c80cbe72de": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "valor estratégico ou histórico"
+  },
+  "real-esquematizada-540-0f82d5a903": {
+    "perfil": "bibliografia",
+    "gatilho": "produção intelectual de um país"
+  },
+  "real-esquematizada-541-cf9140dc21": {
+    "perfil": "bibliografia",
+    "gatilho": "população-alvo"
+  },
+  "real-esquematizada-542-8b46b3bb41": {
+    "perfil": "tipos-fontes",
+    "gatilho": "resultados ou pesquisas em andamento"
+  },
+  "real-esquematizada-544-547026bb37": {
+    "perfil": "portais",
+    "gatilho": "Permanência"
+  },
+  "real-esquematizada-547-a998262235": {
+    "perfil": "bibliografia",
+    "gatilho": "devem ser organizadas em cabeçalhos de assuntos"
+  },
+  "real-esquematizada-548-663b99d091": {
+    "perfil": "bibliografia",
+    "gatilho": "início do século XX"
+  },
+  "real-esquematizada-549-6f632640b4": {
+    "perfil": "bibliografia",
+    "gatilho": "apenas como parte"
+  },
+  "real-esquematizada-553-defff8742d": {
+    "perfil": "tipos-fontes",
+    "gatilho": "relatório técnico"
+  },
+  "real-esquematizada-554-98faf103f7": {
+    "perfil": "tipos-fontes",
+    "gatilho": "leituras consecutivas"
+  },
+  "real-esquematizada-555-51756e81a9": {
+    "perfil": "bibliografia",
+    "gatilho": "referências bibliográficas são repertórios"
+  },
+  "real-esquematizada-556-c8a65b1d67": {
+    "perfil": "chamada",
+    "gatilho": "notação da classificação e da notação do autor"
+  },
+  "real-esquematizada-559-d947428978": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "à medida que são publicados"
+  },
+  "real-esquematizada-560-5d0b6d92d5": {
+    "perfil": "bibliografia",
+    "gatilho": "criação de repertórios"
+  },
+  "real-esquematizada-561-b4078beeec": {
+    "perfil": "bibliografia",
+    "gatilho": "invenção da imprensa"
+  },
+  "real-esquematizada-562-d743e4bf9e": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "sem anotações"
+  },
+  "real-esquematizada-563-7aca3f7aa4": {
+    "perfil": "bibliografia",
+    "gatilho": "produção sistemática"
+  },
+  "real-esquematizada-564-149a11f8e6": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "crítica"
+  },
+  "real-esquematizada-566-92bd89cff1": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "itens pertinentes são devidamente recuperados"
+  },
+  "real-esquematizada-567-c9bdc31ca6": {
+    "perfil": "bibliografia",
+    "gatilho": "exaustiva"
+  },
+  "real-esquematizada-568-c1bf666f5b": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "sem as anotações"
+  },
+  "real-esquematizada-569-ea2b9ad472": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "à medida que eles são publicados"
+  },
+  "real-esquematizada-571-36238384b0": {
+    "perfil": "portais",
+    "gatilho": "acesso compartilhado"
+  },
+  "real-esquematizada-572-b826342582": {
+    "perfil": "portais",
+    "gatilho": "gratuitas"
+  },
+  "real-esquematizada-573-272704f28f": {
+    "perfil": "portais",
+    "gatilho": "frequência de citação"
+  },
+  "real-esquematizada-575-86c2a49db9": {
+    "perfil": "editorial",
+    "gatilho": "duplo-cego"
+  },
+  "real-esquematizada-576-0ea5b924e4": {
+    "perfil": "editorial",
+    "gatilho": "erros de formatação"
+  },
+  "real-esquematizada-577-193a4e5a5a": {
+    "perfil": "crossref",
+    "gatilho": "referências cruzadas"
+  },
+  "real-esquematizada-578-59dddbb66c": {
+    "perfil": "editorial",
+    "gatilho": "proprietário"
+  },
+  "real-esquematizada-579-61692c6ec4": {
+    "perfil": "editorial",
+    "gatilho": "funções gerenciais"
+  },
+  "real-esquematizada-581-0e65fc40d3": {
+    "perfil": "editorial",
+    "gatilho": "designar os avaliadores"
+  },
+  "real-esquematizada-582-92f4266b4a": {
+    "perfil": "editorial",
+    "gatilho": "veta"
+  },
+  "real-esquematizada-583-7851065b7f": {
+    "perfil": "dc",
+    "gatilho": "não possa ser usado"
+  },
+  "real-esquematizada-584-f33a2a8d2d": {
+    "perfil": "z3950",
+    "gatilho": "diversas interfaces"
+  },
+  "real-esquematizada-586-7cc041a445": {
+    "perfil": "marc",
+    "gatilho": "analógico"
+  },
+  "real-esquematizada-587-ec6d1c97a0": {
+    "perfil": "tipos-fontes",
+    "gatilho": "mais estáveis"
+  },
+  "real-esquematizada-588-fde744b135": {
+    "perfil": "tipos-fontes",
+    "gatilho": "não devem ser consideradas fontes"
+  },
+  "real-esquematizada-590-acc17493d2": {
+    "perfil": "tipos-fontes",
+    "gatilho": "eminentemente a listas"
+  },
+  "real-esquematizada-591-4ac59fc708": {
+    "perfil": "portais",
+    "gatilho": "acesso aberto"
+  },
+  "real-esquematizada-592-50d055a14b": {
+    "perfil": "portais",
+    "gatilho": "coleções de publicações seriadas"
+  },
+  "real-esquematizada-595-41aeda350b": {
+    "perfil": "referencias",
+    "gatilho": "não utilizar a ordem alfabética"
+  },
+  "real-esquematizada-596-ed864a21ab": {
+    "perfil": "gestores-referencia",
+    "gatilho": "abnTeX2"
+  },
+  "real-esquematizada-597-7b8ce62d06": {
+    "perfil": "gestores-referencia",
+    "gatilho": "não é possível"
+  },
+  "real-esquematizada-599-9a7cc29bb5": {
+    "perfil": "juridica",
+    "gatilho": "não pode constar jurisprudência"
+  },
+  "real-esquematizada-602-3a88e333c1": {
+    "perfil": "juridica",
+    "gatilho": "fontes jurisprudenciais"
+  },
+  "real-esquematizada-606-d2b6eb5ff7": {
+    "perfil": "diario-justica",
+    "gatilho": "assinadas digitalmente"
+  },
+  "real-esquematizada-607-4daf966959": {
+    "perfil": "lexml",
+    "gatilho": "Arca, ArXiv"
+  },
+  "real-esquematizada-608-3e07cc00c2": {
+    "perfil": "redes-juridicas",
+    "gatilho": "sistema central"
+  },
+  "real-esquematizada-609-d0bf2277ea": {
+    "perfil": "redes-juridicas",
+    "gatilho": "base de conhecimento"
+  },
+  "real-esquematizada-611-c1a92a8ef2": {
+    "perfil": "juridica",
+    "gatilho": "reportagens opinativas"
+  },
+  "real-esquematizada-613-a80465a686": {
+    "perfil": "juridica",
+    "gatilho": "doutrina é o conjunto normativo"
+  },
+  "real-esquematizada-615-14e5fe3ae5": {
+    "perfil": "juridica",
+    "gatilho": "linguagem própria"
+  },
+  "real-esquematizada-616-05f22da3a6": {
+    "perfil": "esquemas-xml",
+    "gatilho": "linguagem de programação"
+  },
+  "real-esquematizada-623-111bdc1428": {
+    "perfil": "juridica",
+    "gatilho": "pensamento jurídico sistematizado"
+  },
+  "real-esquematizada-624-d063fb549f": {
+    "perfil": "juridica",
+    "gatilho": "algarismos romanos"
+  },
+  "real-esquematizada-625-c9d2c4d4a5": {
+    "perfil": "juridica",
+    "gatilho": "decisões relativas"
+  },
+  "real-esquematizada-627-b875184a66": {
+    "perfil": "dou",
+    "gatilho": "seção 3"
+  },
+  "real-esquematizada-628-6c0b804802": {
+    "perfil": "dou",
+    "gatilho": "ineditoriais"
+  },
+  "real-esquematizada-629-e00038d394": {
+    "perfil": "dou",
+    "gatilho": "Suplemento"
+  },
+  "real-esquematizada-631-d829830fc0": {
+    "perfil": "dou",
+    "gatilho": "seção 1"
+  },
+  "real-esquematizada-632-895cabca71": {
+    "perfil": "dou",
+    "gatilho": "quatro seções"
+  },
+  "real-esquematizada-634-9a300cf50d": {
+    "perfil": "dou",
+    "gatilho": "três seções"
+  },
+  "real-esquematizada-635-4fc25bb379": {
+    "perfil": "marc",
+    "gatilho": "machine-readable"
+  },
+  "real-esquematizada-636-6fe3a032b9": {
+    "perfil": "diario-justica",
+    "gatilho": "instrumento oficial"
+  },
+  "real-esquematizada-637-d1d309e47b": {
+    "perfil": "dou",
+    "gatilho": "Seção I"
+  },
+  "real-esquematizada-638-642072786d": {
+    "perfil": "dou",
+    "gatilho": "Seção III"
+  },
+  "real-esquematizada-652-46f662a49a": {
+    "perfil": "juridica",
+    "gatilho": "estruturada em artigos"
+  },
+  "real-esquematizada-653-444e032cdf": {
+    "perfil": "juridica",
+    "gatilho": "normativa"
+  },
+  "real-esquematizada-654-158af210f0": {
+    "perfil": "juridica",
+    "gatilho": "Instrução normativa, decreto-lei e acórdão"
+  },
+  "real-esquematizada-655-2587db54e2": {
+    "perfil": "juridica",
+    "gatilho": "secundária"
+  },
+  "real-esquematizada-657-6127318bb6": {
+    "perfil": "juridica",
+    "gatilho": "compêndio"
+  },
+  "real-esquematizada-660-65573ae6cf": {
+    "perfil": "dou",
+    "gatilho": "assinado digitalmente"
+  },
+  "real-esquematizada-662-fccd139288": {
+    "perfil": "diario-justica",
+    "gatilho": "primeiro dia útil seguinte"
+  },
+  "real-esquematizada-663-047cf84d55": {
+    "perfil": "dou",
+    "gatilho": "seção II"
+  },
+  "real-esquematizada-664-3d3d0d9bd2": {
+    "perfil": "dou",
+    "gatilho": "seção III"
+  },
+  "real-esquematizada-666-2ecef54e41": {
+    "perfil": "diario-justica",
+    "gatilho": "à exceção"
+  },
+  "real-esquematizada-667-7ea82cc099": {
+    "perfil": "diario-justica",
+    "gatilho": "segundo dia útil"
+  },
+  "real-esquematizada-670-3a6bd595e2": {
+    "perfil": "dou",
+    "gatilho": "Seção 2"
+  },
+  "real-esquematizada-671-e82a9528a2": {
+    "perfil": "dou",
+    "gatilho": "via eletrônica"
+  },
+  "real-esquematizada-674-5a71582cc2": {
+    "perfil": "dou",
+    "gatilho": "seção 2"
+  },
+  "real-esquematizada-675-8b88d8869b": {
+    "perfil": "dou",
+    "gatilho": "seção 2"
+  },
+  "real-esquematizada-677-3ec0cf9fd0": {
+    "perfil": "juridica",
+    "gatilho": "conhecimento do mecanismo legal"
+  },
+  "real-esquematizada-683-7fbb115530": {
+    "perfil": "documentacao",
+    "gatilho": "criação, coleta, organização"
+  },
+  "real-esquematizada-684-3244febb4e": {
+    "perfil": "juridica",
+    "gatilho": "interpretam e aplicam"
+  },
+  "real-esquematizada-685-fd858df7e2": {
+    "perfil": "juridica",
+    "gatilho": "descritiva"
+  },
+  "real-esquematizada-686-a3821511f9": {
+    "perfil": "juridica",
+    "gatilho": "doutrina"
+  },
+  "real-esquematizada-688-fab0764013": {
+    "perfil": "lexml",
+    "gatilho": "Z39.50"
+  },
+  "real-esquematizada-694-f465299fdc": {
+    "perfil": "portais",
+    "gatilho": "controle da informação"
+  },
+  "real-esquematizada-695-5861bbcfde": {
+    "perfil": "portais",
+    "gatilho": "estritamente científicas"
+  },
+  "real-esquematizada-698-dc4fa3d5cb": {
+    "perfil": "portais",
+    "gatilho": "não são nele incluídos"
+  },
+  "real-esquematizada-702-65249ee90b": {
+    "perfil": "redes-juridicas",
+    "gatilho": "jurisprudência cível e criminal"
+  },
+  "real-esquematizada-704-ecec846158": {
+    "perfil": "interoperabilidade",
+    "gatilho": "requisito desejável"
+  },
+  "real-esquematizada-705-048c142948": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "automação de bibliotecas"
+  },
+  "real-esquematizada-706-960ab384af": {
+    "perfil": "rda",
+    "gatilho": "AACR3"
+  },
+  "real-esquematizada-707-e522990218": {
+    "perfil": "rda",
+    "gatilho": "mesma estrutura"
+  },
+  "real-esquematizada-708-9e627a792a": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "ISBD"
+  },
+  "real-esquematizada-709-d34e503dfe": {
+    "perfil": "juridica",
+    "gatilho": "instrumentos de controle"
+  },
+  "real-esquematizada-711-75f7cc775e": {
+    "perfil": "catalogos",
+    "gatilho": "referências cruzadas e remissivas"
+  },
+  "real-esquematizada-712-0328c88c0b": {
+    "perfil": "catalogos",
+    "gatilho": "arranjo ou a localização"
+  },
+  "real-esquematizada-713-f6b02bc695": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "copia-se, importa-se ou adapta-se"
+  },
+  "real-esquematizada-715-cf877c6ac3": {
+    "perfil": "identificadores",
+    "gatilho": "International Standard Picture Number"
+  },
+  "real-esquematizada-716-116cc93f16": {
+    "perfil": "frbr",
+    "gatilho": "formatos para catalogação"
+  },
+  "real-esquematizada-717-7bf6199961": {
+    "perfil": "catalogacao",
+    "gatilho": "registro e descrição"
+  },
+  "real-esquematizada-718-972f7c1bfa": {
+    "perfil": "aacr-acesso",
+    "gatilho": "parte de um documento"
+  },
+  "real-esquematizada-719-eceab2bbb1": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "não utiliza"
+  },
+  "real-esquematizada-720-862642e7a2": {
+    "perfil": "catalogacao",
+    "gatilho": "descrição bibliográfica, pontos de acesso e dados de localização"
+  },
+  "real-esquematizada-721-a9534d22b0": {
+    "perfil": "rda",
+    "gatilho": "FRBR e FRAD"
+  },
+  "real-esquematizada-722-b84086bf91": {
+    "perfil": "aacr-areas",
+    "gatilho": "opcional"
+  },
+  "real-esquematizada-723-a84e855196": {
+    "perfil": "rda",
+    "gatilho": "proposto pela LC"
+  },
+  "real-esquematizada-724-91eb28bb87": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "evitar duplicação"
+  },
+  "real-esquematizada-726-46fbd74207": {
+    "perfil": "frbr",
+    "gatilho": "descrição física de imagens digitais"
+  },
+  "real-esquematizada-727-e300225d16": {
+    "perfil": "catalogacao",
+    "gatilho": "resumos e da atribuição de assuntos"
+  },
+  "real-esquematizada-729-af694ad472": {
+    "perfil": "marc",
+    "gatilho": "quatro seções"
+  },
+  "real-esquematizada-732-da58520b5f": {
+    "perfil": "wemi",
+    "gatilho": "descaracteriza-se como obra"
+  },
+  "real-esquematizada-733-be5c58a1f5": {
+    "perfil": "aacr-acesso",
+    "gatilho": "autor original"
+  },
+  "real-esquematizada-735-eca302aa27": {
+    "perfil": "aacr-fontes",
+    "gatilho": "capa"
+  },
+  "real-esquematizada-736-f4692b7292": {
+    "perfil": "aacr-fontes",
+    "gatilho": "deverá ser repetido"
+  },
+  "real-esquematizada-737-6b262178b8": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "permuta internacional"
+  },
+  "real-esquematizada-738-74fe88c9bc": {
+    "perfil": "aacr-acesso",
+    "gatilho": "catalogado separado"
+  },
+  "real-esquematizada-739-1b9269157b": {
+    "perfil": "catalogos",
+    "gatilho": "diversos acervos"
+  },
+  "real-esquematizada-740-f257a96a22": {
+    "perfil": "marc",
+    "gatilho": "não interfere"
+  },
+  "real-esquematizada-741-d10bebe053": {
+    "perfil": "catalogos",
+    "gatilho": "servem ao público"
+  },
+  "real-esquematizada-743-c851c0d809": {
+    "perfil": "frbr",
+    "gatilho": "relações entre obras"
+  },
+  "real-esquematizada-744-22eee9260b": {
+    "perfil": "catalogacao",
+    "gatilho": "bibliotecas digitais"
+  },
+  "real-esquematizada-746-feaa49cfd1": {
+    "perfil": "catalogos",
+    "gatilho": "acervo/leitor"
+  },
+  "real-esquematizada-747-381ca929ef": {
+    "perfil": "catalogacao",
+    "gatilho": "tratamento temático"
+  },
+  "real-esquematizada-748-7877f14505": {
+    "perfil": "catalogacao",
+    "gatilho": "catalogação e a indexação"
+  },
+  "real-esquematizada-749-a288896f63": {
+    "perfil": "sri",
+    "gatilho": "Indexação, armazenamento e recuperação"
+  },
+  "real-esquematizada-750-d858f6075c": {
+    "perfil": "sri",
+    "gatilho": "apoio para a indexação e a recuperação"
+  },
+  "real-esquematizada-751-9c7380fbd4": {
+    "perfil": "catalogacao",
+    "gatilho": "exclusivamente"
+  },
+  "real-esquematizada-753-e0993b240d": {
+    "perfil": "catalogos",
+    "gatilho": "canal de comunicação"
+  },
+  "real-esquematizada-755-7ec59f5405": {
+    "perfil": "aacr-fontes",
+    "gatilho": "quando aparecerem na capa"
+  },
+  "real-esquematizada-757-4747efc8bd": {
+    "perfil": "catalogos",
+    "gatilho": "informação na Internet"
+  },
+  "real-esquematizada-758-4891ef60c5": {
+    "perfil": "catalogos",
+    "gatilho": "fonte primária"
+  },
+  "real-esquematizada-759-39aa5a7bc5": {
+    "perfil": "catalogos",
+    "gatilho": "inventário"
+  },
+  "real-esquematizada-761-84157834a4": {
+    "perfil": "catalogos",
+    "gatilho": "atributos e relações"
+  },
+  "real-esquematizada-763-0b1d83c872": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "softwares"
+  },
+  "real-esquematizada-765-c00d30146f": {
+    "perfil": "catalogos",
+    "gatilho": "necessidades do usuário"
+  },
+  "real-esquematizada-768-821e6634a0": {
+    "perfil": "catalogos",
+    "gatilho": "conveniência entre o acervo e a instituição"
+  },
+  "real-esquematizada-769-e47f2fb7f6": {
+    "perfil": "frbr",
+    "gatilho": "modelo conceitual"
+  },
+  "real-esquematizada-770-f285d1116b": {
+    "perfil": "catalogos",
+    "gatilho": "várias entidades"
+  },
+  "real-esquematizada-771-c12ae68ca2": {
+    "perfil": "catalogos",
+    "gatilho": "sindético"
+  },
+  "real-esquematizada-774-4f178c1dd1": {
+    "perfil": "catalogos",
+    "gatilho": "analítico"
+  },
+  "real-esquematizada-775-699741cbf9": {
+    "perfil": "catalogos",
+    "gatilho": "prioritariamente"
+  },
+  "real-esquematizada-776-0c90091186": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "parâmetro inadequado"
+  },
+  "real-esquematizada-777-476d55dc45": {
+    "perfil": "multimeios",
+    "gatilho": "recipiente"
+  },
+  "real-esquematizada-778-e0ff94040b": {
+    "perfil": "multimeios",
+    "gatilho": "[S.l.] e [s.n.]"
+  },
+  "real-esquematizada-779-68805dfced": {
+    "perfil": "multimeios",
+    "gatilho": "altura x largura"
+  },
+  "real-esquematizada-780-969f17f0ea": {
+    "perfil": "multimeios",
+    "gatilho": "color., p&b ou sépia"
+  },
+  "real-esquematizada-781-84b24d1e2f": {
+    "perfil": "multimeios",
+    "gatilho": "números romanos"
+  },
+  "real-esquematizada-783-d514643e81": {
+    "perfil": "aacr-areas",
+    "gatilho": "número da edição"
+  },
+  "real-esquematizada-784-d99b4d0a06": {
+    "perfil": "aacr-areas",
+    "gatilho": "elementos mínimos"
+  },
+  "real-esquematizada-786-fc1c57771e": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "substituir o registro completo"
+  },
+  "real-esquematizada-789-8ff189df10": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "barra diagonal"
+  },
+  "real-esquematizada-790-abd3236c39": {
+    "perfil": "aacr-fontes",
+    "gatilho": "entre chaves"
+  },
+  "real-esquematizada-791-640aa5103a": {
+    "perfil": "aacr-acesso",
+    "gatilho": "um dos autores"
+  },
+  "real-esquematizada-794-fb2dc82b4c": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "ponto, travessão, ponto"
+  },
+  "real-esquematizada-799-55dff333a7": {
+    "perfil": "aacr-acesso",
+    "gatilho": "jurisdição"
+  },
+  "real-esquematizada-802-3958328230": {
+    "perfil": "wemi",
+    "gatilho": "formato digital"
+  },
+  "real-esquematizada-803-413faee72b": {
+    "perfil": "frbr",
+    "gatilho": "atributos"
+  },
+  "real-esquematizada-805-5177a410fa": {
+    "perfil": "aacr-acesso",
+    "gatilho": "pessoa ou da entidade autora"
+  },
+  "real-esquematizada-806-0ded7a7dd8": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "barra inclinada"
+  },
+  "real-esquematizada-807-19d061799d": {
+    "perfil": "aacr-acesso",
+    "gatilho": "Entrada analítica"
+  },
+  "real-esquematizada-808-114d5ec50c": {
+    "perfil": "catalogacao",
+    "gatilho": "qualquer suporte"
+  },
+  "real-esquematizada-809-991ac2a597": {
+    "perfil": "catalogacao",
+    "gatilho": "individualiza"
+  },
+  "real-esquematizada-810-c1ac988958": {
+    "perfil": "aacr-fontes",
+    "gatilho": "entre parênteses"
+  },
+  "real-esquematizada-813-36dd556bef": {
+    "perfil": "aacr-acesso",
+    "gatilho": "pela própria entidade"
+  },
+  "real-esquematizada-822-53342753d5": {
+    "perfil": "catalogacao",
+    "gatilho": "catálogos manuais"
+  },
+  "real-esquematizada-824-344a2d0e92": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "dentro dos parênteses"
+  },
+  "real-esquematizada-826-4d9cc3de53": {
+    "perfil": "aacr-acesso",
+    "gatilho": "responsabilidade compartilhada"
+  },
+  "real-esquematizada-827-94ae737ca6": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "[sic]"
+  },
+  "real-esquematizada-828-e8cde230e6": {
+    "perfil": "aacr-acesso",
+    "gatilho": "número, em arábico"
+  },
+  "real-esquematizada-829-6693ee1f21": {
+    "perfil": "aacr-areas",
+    "gatilho": "detalhes específicos"
+  },
+  "real-esquematizada-830-b0691f3006": {
+    "perfil": "multimeios",
+    "gatilho": "duração"
+  },
+  "real-esquematizada-834-641330ff02": {
+    "perfil": "catalogacao",
+    "gatilho": "pontos de acesso"
+  },
+  "real-esquematizada-835-2fb362921d": {
+    "perfil": "aacr-acesso",
+    "gatilho": "principal ponto de acesso"
+  },
+  "real-esquematizada-836-005cb2b9ef": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "entre parênteses"
+  },
+  "real-esquematizada-844-f852664137": {
+    "perfil": "aacr-areas",
+    "gatilho": "primeira área"
+  },
+  "real-esquematizada-846-426f76cb82": {
+    "perfil": "aacr-areas",
+    "gatilho": "depois da indicação da edição"
+  },
+  "real-esquematizada-847-b922829515": {
+    "perfil": "multimeios",
+    "gatilho": "formato que está sendo catalogado"
+  },
+  "real-esquematizada-848-dabf0b87b2": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "partícula ou"
+  },
+  "real-esquematizada-849-825f2e7852": {
+    "perfil": "aacr-areas",
+    "gatilho": "designação geral do material"
+  },
+  "real-esquematizada-850-c25eccb128": {
+    "perfil": "aacr-fontes",
+    "gatilho": "tanto para os documentos impressos quanto para os eletrônicos"
+  },
+  "real-esquematizada-853-5e6ce69ba2": {
+    "perfil": "rda",
+    "gatilho": "restrito a bibliotecas"
+  },
+  "real-esquematizada-854-e32677935e": {
+    "perfil": "rda",
+    "gatilho": "MARC21"
+  },
+  "real-esquematizada-855-93813e5766": {
+    "perfil": "rda",
+    "gatilho": "necessidades do usuário"
+  },
+  "real-esquematizada-856-407d6b4558": {
+    "perfil": "frbr",
+    "gatilho": "não guarda relação"
+  },
+  "real-esquematizada-857-78db188fd8": {
+    "perfil": "rda",
+    "gatilho": "inibe"
+  },
+  "real-esquematizada-858-527d5ca5b8": {
+    "perfil": "aacr-acesso",
+    "gatilho": "sempre"
+  },
+  "real-esquematizada-860-ac8ed484e9": {
+    "perfil": "rda",
+    "gatilho": "mesma terminologia"
+  },
+  "real-esquematizada-861-59a24a6355": {
+    "perfil": "rda",
+    "gatilho": "em todos os casos"
+  },
+  "real-esquematizada-862-908208ad11": {
+    "perfil": "frbr",
+    "gatilho": "usuário final"
+  },
+  "real-esquematizada-863-f82cfb5f7b": {
+    "perfil": "marc",
+    "gatilho": "MARC Authority"
+  },
+  "real-esquematizada-864-23dd7005cd": {
+    "perfil": "esquemas-xml",
+    "gatilho": "não para exibi-los"
+  },
+  "real-esquematizada-865-aa47a82938": {
+    "perfil": "esquemas-xml",
+    "gatilho": "MODS"
+  },
+  "real-esquematizada-866-3700ee9909": {
+    "perfil": "lexml",
+    "gatilho": "Z39.50"
+  },
+  "real-esquematizada-867-2a20e98c41": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "acesso livre aos conteúdos"
+  },
+  "real-esquematizada-868-7fba032abd": {
+    "perfil": "interoperabilidade",
+    "gatilho": "desnecessário"
+  },
+  "real-esquematizada-870-3bd8354ce3": {
+    "perfil": "wemi",
+    "gatilho": "não são suficientes"
+  },
+  "real-esquematizada-874-86f14d2100": {
+    "perfil": "aacr-acesso",
+    "gatilho": "código"
+  },
+  "real-esquematizada-876-df1417b3ff": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "título coletivo"
+  },
+  "real-esquematizada-877-2777fb0aa6": {
+    "perfil": "aacr-acesso",
+    "gatilho": "conteúdo intelectual ou artístico"
+  },
+  "real-esquematizada-880-c1c95ddb35": {
+    "perfil": "autoridades",
+    "gatilho": "formas variantes"
+  },
+  "real-esquematizada-881-2fe312df06": {
+    "perfil": "autoridades",
+    "gatilho": "desconsiderando-se"
+  },
+  "real-esquematizada-882-0442fe820e": {
+    "perfil": "autoridades",
+    "gatilho": "mesma"
+  },
+  "real-esquematizada-883-9eeb6a710f": {
+    "perfil": "autoridades",
+    "gatilho": "dispensável"
+  },
+  "real-esquematizada-885-29ea9b60d6": {
+    "perfil": "marc-campos",
+    "gatilho": "desde que"
+  },
+  "real-esquematizada-886-6e83002bae": {
+    "perfil": "aacr-acesso",
+    "gatilho": "somente"
+  },
+  "real-esquematizada-887-bcc12fb9e5": {
+    "perfil": "autoridades",
+    "gatilho": "não requerem"
+  },
+  "real-esquematizada-888-9f19843bf8": {
+    "perfil": "marc-campos",
+    "gatilho": "centenas"
+  },
+  "real-esquematizada-889-3468080219": {
+    "perfil": "marc",
+    "gatilho": "compartilhamento"
+  },
+  "real-esquematizada-890-017bc90924": {
+    "perfil": "marc-campos",
+    "gatilho": "quatro dígitos"
+  },
+  "real-esquematizada-891-c9b301b7ee": {
+    "perfil": "bases",
+    "gatilho": "sem se referir a nenhum acervo"
+  },
+  "real-esquematizada-892-d74a607405": {
+    "perfil": "marc-campos",
+    "gatilho": "5XX"
+  },
+  "real-esquematizada-893-837bd1aa73": {
+    "perfil": "marc",
+    "gatilho": "maior conforto"
+  },
+  "real-esquematizada-894-41156a8406": {
+    "perfil": "marc",
+    "gatilho": "CAN/MARC"
+  },
+  "real-esquematizada-895-1724dfb800": {
+    "perfil": "marc",
+    "gatilho": "líder"
+  },
+  "real-esquematizada-898-666ac28710": {
+    "perfil": "frbr",
+    "gatilho": "grupo 1"
+  },
+  "real-esquematizada-901-419859ce49": {
+    "perfil": "marc-campos",
+    "gatilho": "campo 100"
+  },
+  "real-esquematizada-903-854a15c630": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "editoração eletrônica"
+  },
+  "real-esquematizada-905-5e572d8267": {
+    "perfil": "resumos",
+    "gatilho": "objetivo, o método, os resultados e as conclusões"
+  },
+  "real-esquematizada-907-40f7ffad2d": {
+    "perfil": "rda",
+    "gatilho": "conceitos do FRBR"
+  },
+  "real-esquematizada-909-69aabcf9d9": {
+    "perfil": "dc",
+    "gatilho": "incompatível"
+  },
+  "real-esquematizada-910-eb1df2ae5e": {
+    "perfil": "dc",
+    "gatilho": "não define os detalhes"
+  },
+  "real-esquematizada-911-eb785c7d69": {
+    "perfil": "dc",
+    "gatilho": "extensibilidade"
+  },
+  "real-esquematizada-912-861d3119b5": {
+    "perfil": "dc",
+    "gatilho": "Direitos autorais"
+  },
+  "real-esquematizada-913-3286f45347": {
+    "perfil": "marc",
+    "gatilho": "uma para cada campo variável"
+  },
+  "real-esquematizada-915-ef2a1788c6": {
+    "perfil": "marc",
+    "gatilho": "cinco tipos de dados"
+  },
+  "real-esquematizada-916-6a5ec94b59": {
+    "perfil": "marc",
+    "gatilho": "padrão interno"
+  },
+  "real-esquematizada-919-260ce12083": {
+    "perfil": "frbr",
+    "gatilho": "nove entidades"
+  },
+  "real-esquematizada-920-0b5a51474e": {
+    "perfil": "catalogos",
+    "gatilho": "buscas cruzadas"
+  },
+  "real-esquematizada-926-8831a668d5": {
+    "perfil": "z3950",
+    "gatilho": "mesma interface"
+  },
+  "real-esquematizada-927-0069cf462a": {
+    "perfil": "marc",
+    "gatilho": "convenções e aos códigos"
+  },
+  "real-esquematizada-928-55779a6ad8": {
+    "perfil": "marc",
+    "gatilho": "principais componentes"
+  },
+  "real-esquematizada-929-904cb3f136": {
+    "perfil": "marc",
+    "gatilho": "não permite"
+  },
+  "real-esquematizada-931-2ab4abc877": {
+    "perfil": "marc-campos",
+    "gatilho": "não possuem indicadores nem subcampos"
+  },
+  "real-esquematizada-935-edc2c4b978": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "gerenciamento de bibliotecas"
+  },
+  "real-esquematizada-938-5c8226b6ca": {
+    "perfil": "resumos",
+    "gatilho": "nem sempre exata"
+  },
+  "real-esquematizada-956-aab90895b2": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "dois parágrafos"
+  },
+  "real-esquematizada-960-cc912d6ab6": {
+    "perfil": "resumos",
+    "gatilho": "indicativos"
+  },
+  "real-esquematizada-963-ce70bbbf74": {
+    "perfil": "texto-automatico",
+    "gatilho": "processamento da linguagem natural"
+  },
+  "real-esquematizada-964-0bb79f45f9": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "indicar a relevância"
+  },
+  "real-esquematizada-966-647122c948": {
+    "perfil": "resumos",
+    "gatilho": "indicativos são mais completos"
+  },
+  "real-esquematizada-967-f2c0dcc829": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "exceto para os textos científicos"
+  },
+  "real-esquematizada-968-2d2f93bdab": {
+    "perfil": "indices",
+    "gatilho": "duas categorias"
+  },
+  "real-esquematizada-970-42171ee15d": {
+    "perfil": "indexacao",
+    "gatilho": "representação descritiva"
+  },
+  "real-esquematizada-971-28d19bfc9a": {
+    "perfil": "exaustividade",
+    "gatilho": "alto índice de precisão"
+  },
+  "real-esquematizada-972-f1df2259b4": {
+    "perfil": "exaustividade",
+    "gatilho": "número reduzido"
+  },
+  "real-esquematizada-974-8ebd911dbd": {
+    "perfil": "exaustividade",
+    "gatilho": "número médio de termos"
+  },
+  "real-esquematizada-976-c177095d79": {
+    "perfil": "indexacao",
+    "gatilho": "conteúdo temático"
+  },
+  "real-esquematizada-977-8ac8e00a86": {
+    "perfil": "indexacao",
+    "gatilho": "processo objetivo"
+  },
+  "real-esquematizada-984-963bc0695a": {
+    "perfil": "vocabulario",
+    "gatilho": "controladas"
+  },
+  "real-esquematizada-985-d914810533": {
+    "perfil": "indexacao",
+    "gatilho": "representação de conteúdos"
+  },
+  "real-esquematizada-986-98b0a81443": {
+    "perfil": "vocabulario",
+    "gatilho": "extraídas de forma automática"
+  },
+  "real-esquematizada-987-da3d6ccdeb": {
+    "perfil": "vocabulario",
+    "gatilho": "não possui estrutura semântica"
+  },
+  "real-esquematizada-992-1361872b5e": {
+    "perfil": "exaustividade",
+    "gatilho": "grande número de termos"
+  },
+  "real-esquematizada-993-353e5fcb73": {
+    "perfil": "vocabulario",
+    "gatilho": "remissiva"
+  },
+  "real-esquematizada-995-d24a0ddf4d": {
+    "perfil": "multimeios",
+    "gatilho": "desprezando as visuais"
+  },
+  "real-esquematizada-996-c93d27aa02": {
+    "perfil": "exaustividade",
+    "gatilho": "mais pontos de acesso"
+  },
+  "real-esquematizada-998-411eccf965": {
+    "perfil": "indexacao",
+    "gatilho": "relevância para o conteúdo"
+  },
+  "real-esquematizada-999-0a430c85de": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "ler inteiramente"
+  },
+  "real-esquematizada-1001-954ef50502": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "revocação"
+  },
+  "real-esquematizada-1003-0b2ddfef57": {
+    "perfil": "vocabulario",
+    "gatilho": "controle da terminologia"
+  },
+  "real-esquematizada-1005-2c05d7afa9": {
+    "perfil": "consistencia",
+    "gatilho": "sinônimo de qualidade"
+  },
+  "real-esquematizada-1006-09e3eacda3": {
+    "perfil": "sri",
+    "gatilho": "arquivo invertido"
+  },
+  "real-esquematizada-1010-a94bd3e19d": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "iluminação e o ruído"
+  },
+  "real-esquematizada-1012-3440071529": {
+    "perfil": "ontologias",
+    "gatilho": "linguagem informal"
+  },
+  "real-esquematizada-1013-c1a07a1a68": {
+    "perfil": "ontologias",
+    "gatilho": "instâncias"
+  },
+  "real-esquematizada-1014-4f296fd1fd": {
+    "perfil": "exaustividade",
+    "gatilho": "decisão política"
+  },
+  "real-esquematizada-1015-0581801751": {
+    "perfil": "exaustividade",
+    "gatilho": "baixa relevância"
+  },
+  "real-esquematizada-1016-79b8decc2c": {
+    "perfil": "multimeios",
+    "gatilho": "desvinculado"
+  },
+  "real-esquematizada-1017-155be08f30": {
+    "perfil": "vocabulario",
+    "gatilho": "gênero-espécie"
+  },
+  "real-esquematizada-1018-f6c65ad769": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "falha de revocação"
+  },
+  "real-esquematizada-1019-080de4a231": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "revocação e precisão"
+  },
+  "real-esquematizada-1021-0fe5a1b112": {
+    "perfil": "indexacao",
+    "gatilho": "fonte diferente"
+  },
+  "real-esquematizada-1023-d9c8b083f4": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "superestrutura textual"
+  },
+  "real-esquematizada-1024-4cc3477564": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "marcação cronológica"
+  },
+  "real-esquematizada-1025-95e176d8f6": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "uniformemente"
+  },
+  "real-esquematizada-1026-5dd8f5a3ae": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "compreendê-lo"
+  },
+  "real-esquematizada-1031-546410b1bb": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "seleção de termos"
+  },
+  "real-esquematizada-1032-993f3a27a4": {
+    "perfil": "vocabulario",
+    "gatilho": "sinônimos"
+  },
+  "real-esquematizada-1033-bb46191b95": {
+    "perfil": "vocabulario",
+    "gatilho": "representar conceitos"
+  },
+  "real-esquematizada-1034-176d218431": {
+    "perfil": "coordenacao",
+    "gatilho": "pós-coordenado"
+  },
+  "real-esquematizada-1035-e63bb46b5c": {
+    "perfil": "vocabulario",
+    "gatilho": "acesso e a transferência"
+  },
+  "real-esquematizada-1043-9807bfee90": {
+    "perfil": "vocabulario",
+    "gatilho": "diferentes metodologias"
+  },
+  "real-esquematizada-1044-a792883ff1": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "broader term"
+  },
+  "real-esquematizada-1045-791c4943e1": {
+    "perfil": "coordenacao",
+    "gatilho": "linguagens naturais"
+  },
+  "real-esquematizada-1046-8c84e6fdf1": {
+    "perfil": "vocabulario",
+    "gatilho": "unidades geradoras"
+  },
+  "real-esquematizada-1048-757c7a1d87": {
+    "perfil": "exaustividade",
+    "gatilho": "especificidade"
+  },
+  "real-esquematizada-1049-f6f9dc0632": {
+    "perfil": "vocabulario",
+    "gatilho": "linguagem controlada"
+  },
+  "real-esquematizada-1053-9bf4e6f82c": {
+    "perfil": "coordenacao",
+    "gatilho": "momento da análise"
+  },
+  "real-esquematizada-1054-bd5f10f708": {
+    "perfil": "vocabulario",
+    "gatilho": "interjeições"
+  },
+  "real-esquematizada-1055-2792915a79": {
+    "perfil": "indexacao",
+    "gatilho": "não pode ser considerada"
+  },
+  "real-esquematizada-1057-fb54a8f3d7": {
+    "perfil": "exaustividade",
+    "gatilho": "todos os conceitos"
+  },
+  "real-esquematizada-1058-19da19f44b": {
+    "perfil": "consistencia",
+    "gatilho": "subjetividade"
+  },
+  "real-esquematizada-1059-c08c1956b1": {
+    "perfil": "indices",
+    "gatilho": "com exceção"
+  },
+  "real-esquematizada-1060-57978c9eab": {
+    "perfil": "indices",
+    "gatilho": "subcabeçalhos"
+  },
+  "real-esquematizada-1061-c7bc5c26b8": {
+    "perfil": "indexacao",
+    "gatilho": "exame do documento"
+  },
+  "real-esquematizada-1062-2d87b761e4": {
+    "perfil": "exaustividade",
+    "gatilho": "quantidade de termos"
+  },
+  "real-esquematizada-1069-c9dba53f72": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "redundância"
+  },
+  "real-esquematizada-1070-0c84a80b0a": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "descrição física"
+  },
+  "real-esquematizada-1072-55e68db65b": {
+    "perfil": "ontologias",
+    "gatilho": "SKOS"
+  },
+  "real-esquematizada-1074-407ef3e35b": {
+    "perfil": "vocabulario",
+    "gatilho": "descrição física"
+  },
+  "real-esquematizada-1075-4d4ea54aad": {
+    "perfil": "ontologias",
+    "gatilho": "modelos de relacionamento"
+  },
+  "real-esquematizada-1079-a5f7d60c7d": {
+    "perfil": "oai",
+    "gatilho": "inviável"
+  },
+  "real-esquematizada-1081-b1ee1c8c41": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "afinidade"
+  },
+  "real-esquematizada-1082-e891ecd60d": {
+    "perfil": "texto-automatico",
+    "gatilho": "seleciona sentenças completas"
+  },
+  "real-esquematizada-1083-19f472acd6": {
+    "perfil": "exaustividade",
+    "gatilho": "seletivo"
+  },
+  "real-esquematizada-1084-4f9fa281ac": {
+    "perfil": "vocabulario",
+    "gatilho": "linguagem controlada"
+  },
+  "real-esquematizada-1085-3f338cd913": {
+    "perfil": "vocabulario",
+    "gatilho": "linguagem natural"
+  },
+  "real-esquematizada-1086-efa93f65cf": {
+    "perfil": "vocabulario",
+    "gatilho": "essencialmente monodisciplinares"
+  },
+  "real-esquematizada-1087-fc4ab2ed8a": {
+    "perfil": "multimeios",
+    "gatilho": "forma, cor e textura"
+  },
+  "real-esquematizada-1088-2887ce10e0": {
+    "perfil": "texto-automatico",
+    "gatilho": "frequência, posição e contexto"
+  },
+  "real-esquematizada-1089-fa099add95": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "sumário"
+  },
+  "real-esquematizada-1091-0058cdaf42": {
+    "perfil": "marc",
+    "gatilho": "OCLC"
+  },
+  "real-esquematizada-1092-e19dda2fa6": {
+    "perfil": "busca",
+    "gatilho": "termos polissêmicos"
+  },
+  "real-esquematizada-1093-f8e35caa9c": {
+    "perfil": "sri",
+    "gatilho": "ponto de acesso equivalente"
+  },
+  "real-esquematizada-1094-9078dd0903": {
+    "perfil": "documentacao",
+    "gatilho": "documento"
+  },
+  "real-esquematizada-1095-fc37440e44": {
+    "perfil": "coordenacao",
+    "gatilho": "mesmas entradas"
+  },
+  "real-esquematizada-1097-332377a26d": {
+    "perfil": "kwic",
+    "gatilho": "serviços de notificação corrente"
+  },
+  "real-esquematizada-1098-8301312efe": {
+    "perfil": "vocabulario",
+    "gatilho": "aberta ou fechada"
+  },
+  "real-esquematizada-1101-0a583b4649": {
+    "perfil": "vocabulario",
+    "gatilho": "mútua exclusividade"
+  },
+  "real-esquematizada-1104-0ba6f34243": {
+    "perfil": "indices",
+    "gatilho": "não pode contemplar"
+  },
+  "real-esquematizada-1105-91dff7255a": {
+    "perfil": "indices",
+    "gatilho": "especiais"
+  },
+  "real-esquematizada-1106-e6f1e1c45b": {
+    "perfil": "vocabulario",
+    "gatilho": "endosso do bibliotecário"
+  },
+  "real-esquematizada-1107-752c90c4c0": {
+    "perfil": "vocabulario",
+    "gatilho": "estrutura conceitual"
+  },
+  "real-esquematizada-1109-692f02e7ff": {
+    "perfil": "kwic",
+    "gatilho": "tesauro"
+  },
+  "real-esquematizada-1110-d2f21e5f07": {
+    "perfil": "hierarquia",
+    "gatilho": "cadeias e renques"
+  },
+  "real-esquematizada-1111-ccc2b40ebd": {
+    "perfil": "vocabulario",
+    "gatilho": "altamente informal"
+  },
+  "real-esquematizada-1114-763a0f9258": {
+    "perfil": "vocabulario",
+    "gatilho": "campo semântico"
+  },
+  "real-esquematizada-1115-08308a5e50": {
+    "perfil": "vocabulario",
+    "gatilho": "explicitação dos conceitos"
+  },
+  "real-esquematizada-1119-12fca5f485": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "hierárquicas"
+  },
+  "real-esquematizada-1123-251e67af02": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "não consecutivos"
+  },
+  "real-esquematizada-1128-8babde9eaf": {
+    "perfil": "classificacao",
+    "gatilho": "assunto principal"
+  },
+  "real-esquematizada-1131-6efe66f81a": {
+    "perfil": "hierarquia",
+    "gatilho": "ordenadas"
+  },
+  "real-esquematizada-1133-bff9b68321": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "ano-mês-dia"
+  },
+  "real-esquematizada-1134-f4528cb57b": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "ordem de citação"
+  },
+  "real-esquematizada-1135-ce57af2e1a": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "633.1/632"
+  },
+  "real-esquematizada-1136-9713680709": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "impossível"
+  },
+  "real-esquematizada-1139-37a15a5e7b": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "(043)"
+  },
+  "real-esquematizada-1142-2d2458beb9": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "irreversibilidade"
+  },
+  "real-esquematizada-1143-1bae7a1f31": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "obrigatório"
+  },
+  "real-esquematizada-1144-180b132607": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "separa subdivisões"
+  },
+  "real-esquematizada-1145-5dc436fa70": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "fixam a ordem"
+  },
+  "real-esquematizada-1146-bf7bd0fb00": {
+    "perfil": "classificacao",
+    "gatilho": "linguagem científica"
+  },
+  "real-esquematizada-1147-698a8b8fa6": {
+    "perfil": "precisao-revocacao",
+    "gatilho": "coeficiente de precisão"
+  },
+  "real-esquematizada-1148-02d5e3cc33": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "32:02"
+  },
+  "real-esquematizada-1149-22e0fe39e9": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "53+913"
+  },
+  "real-esquematizada-1150-a120cfb423": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "53/55"
+  },
+  "real-esquematizada-1151-67d2cd7f93": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "51:52"
+  },
+  "real-esquematizada-1153-645e5768f1": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "32(091)"
+  },
+  "real-esquematizada-1154-492dd5db77": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "reversível"
+  },
+  "real-esquematizada-1156-141416fb58": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "34(=20)"
+  },
+  "real-esquematizada-1157-7fb1f59858": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "34+32"
+  },
+  "real-esquematizada-1160-09f17cdf55": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "(038)=111"
+  },
+  "real-esquematizada-1161-b3dc52b2b1": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "assunto que sofre a influência"
+  },
+  "real-esquematizada-1162-c818f730d9": {
+    "perfil": "classificacao",
+    "gatilho": "apenas um lugar"
+  },
+  "real-esquematizada-1163-c265a15332": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "dependentes"
+  },
+  "real-esquematizada-1164-b5fd5936d4": {
+    "perfil": "classificacao",
+    "gatilho": "502/504"
+  },
+  "real-esquematizada-1166-f36a75d1ff": {
+    "perfil": "classificacao",
+    "gatilho": "tornam flexível"
+  },
+  "real-esquematizada-1167-615496bfbf": {
+    "perfil": "classificacao",
+    "gatilho": "conteúdo informativo"
+  },
+  "real-esquematizada-1168-7134d2c60a": {
+    "perfil": "classificacao",
+    "gatilho": "doze classes"
+  },
+  "real-esquematizada-1170-e27b912eae": {
+    "perfil": "classificacao",
+    "gatilho": "analítico-sintético"
+  },
+  "real-esquematizada-1171-ab65c15f85": {
+    "perfil": "hierarquia",
+    "gatilho": "mais genérico para o mais específico"
+  },
+  "real-esquematizada-1172-666e5832f6": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "números consecutivos"
+  },
+  "real-esquematizada-1173-134364aaea": {
+    "perfil": "classificacao",
+    "gatilho": "forma física"
+  },
+  "real-esquematizada-1174-2e228a2d11": {
+    "perfil": "classificacao",
+    "gatilho": "reformulação"
+  },
+  "real-esquematizada-1175-4e273b265b": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "(094)"
+  },
+  "real-esquematizada-1177-b7dced5ba0": {
+    "perfil": "classificacao",
+    "gatilho": "lógica"
+  },
+  "real-esquematizada-1179-d97fcc5c37": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "sinal de relação"
+  },
+  "real-esquematizada-1180-e3dc903db4": {
+    "perfil": "classificacao",
+    "gatilho": "próprio conjunto de regras"
+  },
+  "real-esquematizada-1183-ee8b19ff2c": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "-05"
+  },
+  "real-esquematizada-1184-29275cdbd1": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "331.244"
+  },
+  "real-esquematizada-1185-19d20a1f7c": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "dígito zero"
+  },
+  "real-esquematizada-1187-ab3c7d548f": {
+    "perfil": "hierarquia",
+    "gatilho": "inverso"
+  },
+  "real-esquematizada-1188-ab0e3779d0": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "reutilização de conceitos"
+  },
+  "real-esquematizada-1189-27edf05c4b": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "duas partes"
+  },
+  "real-esquematizada-1190-eda7cf29f5": {
+    "perfil": "hierarquia",
+    "gatilho": "não alteram o valor ordinal"
+  },
+  "real-esquematizada-1191-41b8d30b35": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "língua"
+  },
+  "real-esquematizada-1192-a0415d0734": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "raça"
+  },
+  "real-esquematizada-1193-b69a5566e9": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "A/Z"
+  },
+  "real-esquematizada-1194-9ceaf9008d": {
+    "perfil": "hierarquia",
+    "gatilho": "geral para o particular"
+  },
+  "real-esquematizada-1195-508bbeaf9f": {
+    "perfil": "classificacao",
+    "gatilho": "classe 8"
+  },
+  "real-esquematizada-1197-2d360d210b": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "Todos"
+  },
+  "real-esquematizada-1198-bd8ff517cd": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "consecutivos"
+  },
+  "real-esquematizada-1199-71ead31820": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "à exceção"
+  },
+  "real-esquematizada-1200-4385f47dd0": {
+    "perfil": "classificacao",
+    "gatilho": "ambiguidades"
+  },
+  "real-esquematizada-1201-39ddda15eb": {
+    "perfil": "hierarquia",
+    "gatilho": "altera o valor ordinal"
+  },
+  "real-esquematizada-1202-aa6e7c7564": {
+    "perfil": "classificacao",
+    "gatilho": "lugar único"
+  },
+  "real-esquematizada-1205-a7c9bc77f8": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "seta sempre representa a substituição"
+  },
+  "real-esquematizada-1206-1376829421": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "06.08.2009DC"
+  },
+  "real-esquematizada-1208-8118869e7c": {
+    "perfil": "hierarquia",
+    "gatilho": "coordenados"
+  },
+  "real-esquematizada-1211-dade2892c5": {
+    "perfil": "classificacao",
+    "gatilho": "enumerativa"
+  },
+  "real-esquematizada-1216-f87578f5d2": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "342.4(81)"
+  },
+  "real-esquematizada-1218-82edd3c907": {
+    "perfil": "cdd",
+    "gatilho": "sete tabelas"
+  },
+  "real-esquematizada-1220-335ad3103d": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "ordem de preferência"
+  },
+  "real-esquematizada-1221-f968bec76b": {
+    "perfil": "cdd",
+    "gatilho": "todas as entradas possíveis"
+  },
+  "real-esquematizada-1225-f2b6a481e0": {
+    "perfil": "cddir",
+    "gatilho": "342.6"
+  },
+  "real-esquematizada-1227-2102e3e2eb": {
+    "perfil": "cdd",
+    "gatilho": "décima categoria"
+  },
+  "real-esquematizada-1229-2a778de75e": {
+    "perfil": "cddir",
+    "gatilho": "excluídos"
+  },
+  "real-esquematizada-1230-31e2422736": {
+    "perfil": "cddir",
+    "gatilho": "direito administrativo"
+  },
+  "real-esquematizada-1231-826398b036": {
+    "perfil": "cddir",
+    "gatilho": "forma com que o assunto é tratado"
+  },
+  "real-esquematizada-1233-b08c45ed18": {
+    "perfil": "hierarquia",
+    "gatilho": "cadeia"
+  },
+  "real-esquematizada-1235-c89ac5b571": {
+    "perfil": "cdd",
+    "gatilho": "todas as combinações possíveis"
+  },
+  "real-esquematizada-1236-154253ae04": {
+    "perfil": "aprendizagem-equipe",
+    "gatilho": "paradigma do treinamento"
+  },
+  "real-esquematizada-1237-9f67754dac": {
+    "perfil": "aprendizagem-equipe",
+    "gatilho": "experiência vivida"
+  },
+  "real-esquematizada-1240-dbf0c8a9cb": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "sobrecarga de trabalho ou ociosidade"
+  },
+  "real-esquematizada-1241-9151d53b34": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "cada etapa dos processos"
+  },
+  "real-esquematizada-1242-e748fff11b": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "estrutura padrão"
+  },
+  "real-esquematizada-1243-b29c287724": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "estrutura formal"
+  },
+  "real-esquematizada-1244-d61b93d60d": {
+    "perfil": "planejar",
+    "gatilho": "ponto final"
+  },
+  "real-esquematizada-1246-5dcf6d0f92": {
+    "perfil": "podc",
+    "gatilho": "prescindem"
+  },
+  "real-esquematizada-1247-7597901f76": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "procedimentos necessários"
+  },
+  "real-esquematizada-1248-f7139e68de": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "métodos rotineiros"
+  },
+  "real-esquematizada-1249-e4c29d71c0": {
+    "perfil": "podc",
+    "gatilho": "atender com informação"
+  },
+  "real-esquematizada-1252-c4814c955c": {
+    "perfil": "podc",
+    "gatilho": "participação e interlocução"
+  },
+  "real-esquematizada-1254-b31b47421a": {
+    "perfil": "podc",
+    "gatilho": "antecede o processo gerencial"
+  },
+  "real-esquematizada-1255-2c6843ebed": {
+    "perfil": "estrutura",
+    "gatilho": "redes de informação"
+  },
+  "real-esquematizada-1256-dbd5b777cf": {
+    "perfil": "estrutura",
+    "gatilho": "estrutura organizacional funcional"
+  },
+  "real-esquematizada-1257-89d751c164": {
+    "perfil": "podc",
+    "gatilho": "qualquer empreendimento humano"
+  },
+  "real-esquematizada-1260-060292327f": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "endomarketing"
+  },
+  "real-esquematizada-1262-b78b1da0d8": {
+    "perfil": "estrutura",
+    "gatilho": "matricial"
+  },
+  "real-esquematizada-1264-659d60d7af": {
+    "perfil": "podc",
+    "gatilho": "controle"
+  },
+  "real-esquematizada-1265-fbbcb682f9": {
+    "perfil": "automacao",
+    "gatilho": "investimentos constantes"
+  },
+  "real-esquematizada-1266-0347540662": {
+    "perfil": "referencia",
+    "gatilho": "atendimento, informação e orientação"
+  },
+  "real-esquematizada-1269-92ddc91694": {
+    "perfil": "sistemas-info",
+    "gatilho": "não são sistemas que utilizam apenas o computador"
+  },
+  "real-esquematizada-1270-74ba425035": {
+    "perfil": "podc",
+    "gatilho": "função de planejamento"
+  },
+  "real-esquematizada-1271-93c0fe5cdd": {
+    "perfil": "podc",
+    "gatilho": "representação"
+  },
+  "real-esquematizada-1272-e6b86f46f9": {
+    "perfil": "gi",
+    "gatilho": "organização da informação"
+  },
+  "real-esquematizada-1273-ec04e48de9": {
+    "perfil": "podc",
+    "gatilho": "Planejamento, organização, direção e controle"
+  },
+  "real-esquematizada-1274-31ded81677": {
+    "perfil": "plano-marketing",
+    "gatilho": "tomar decisões"
+  },
+  "real-esquematizada-1277-ed36a61b8f": {
+    "perfil": "podc",
+    "gatilho": "maior problema"
+  },
+  "real-esquematizada-1278-43102ca352": {
+    "perfil": "gi",
+    "gatilho": "ciclo informacional"
+  },
+  "real-esquematizada-1279-c10c87c25b": {
+    "perfil": "podc",
+    "gatilho": "mudanças imediatas"
+  },
+  "real-esquematizada-1281-8823bbb581": {
+    "perfil": "gi",
+    "gatilho": "seleção, aquisição"
+  },
+  "real-esquematizada-1282-65aadd0beb": {
+    "perfil": "conhecimento",
+    "gatilho": "portais corporativos"
+  },
+  "real-esquematizada-1283-10855dfee3": {
+    "perfil": "marketing",
+    "gatilho": "não pode ser aplicado"
+  },
+  "real-esquematizada-1284-effe7e23e2": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "conversão de um material"
+  },
+  "real-esquematizada-1285-95ed2b6264": {
+    "perfil": "podc",
+    "gatilho": "elementos fundamentais"
+  },
+  "real-esquematizada-1286-56a2265cd5": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "organograma linear de responsabilidade"
+  },
+  "real-esquematizada-1287-500b610a8c": {
+    "perfil": "estrutura",
+    "gatilho": "qualquer tipo"
+  },
+  "real-esquematizada-1288-67186fb6fd": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "exame sistemático"
+  },
+  "real-esquematizada-1291-654122c816": {
+    "perfil": "planejar",
+    "gatilho": "restrita"
+  },
+  "real-esquematizada-1292-f2a6a58a47": {
+    "perfil": "podc",
+    "gatilho": "organização e o controle dos recursos informacionais"
+  },
+  "real-esquematizada-1293-bea66d103d": {
+    "perfil": "gi",
+    "gatilho": "demandas informacionais"
+  },
+  "real-esquematizada-1294-a1639734af": {
+    "perfil": "podc",
+    "gatilho": "relações internas"
+  },
+  "real-esquematizada-1296-b0c012fc39": {
+    "perfil": "podc",
+    "gatilho": "instabilidade no ambiente externo"
+  },
+  "real-esquematizada-1299-73b45e8302": {
+    "perfil": "estrutura",
+    "gatilho": "pelo menos três níveis"
+  },
+  "real-esquematizada-1300-25a0412469": {
+    "perfil": "podc",
+    "gatilho": "ciclo informacional"
+  },
+  "real-esquematizada-1301-c411b0ea03": {
+    "perfil": "podc",
+    "gatilho": "organização da informação"
+  },
+  "real-esquematizada-1302-658f315d3b": {
+    "perfil": "podc",
+    "gatilho": "pessoas e processos de avaliação"
+  },
+  "real-esquematizada-1303-a4edf86308": {
+    "perfil": "sistemas-info",
+    "gatilho": "entrada de informação, processamento e saída"
+  },
+  "real-esquematizada-1304-5829095326": {
+    "perfil": "podc",
+    "gatilho": "planejamento, organização, direção e controle"
+  },
+  "real-esquematizada-1305-27d1b9f402": {
+    "perfil": "plano-marketing",
+    "gatilho": "atender às necessidades"
+  },
+  "real-esquematizada-1306-a4f68bae23": {
+    "perfil": "podc",
+    "gatilho": "representação da informação"
+  },
+  "real-esquematizada-1307-da6efd4e0f": {
+    "perfil": "estrutura",
+    "gatilho": "produtos e serviços"
+  },
+  "real-esquematizada-1310-9b895f6af1": {
+    "perfil": "referencia",
+    "gatilho": "mesmo que serviço de extensão"
+  },
+  "real-esquematizada-1311-91f76ae8b8": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "satisfação"
+  },
+  "real-esquematizada-1314-fee8488df9": {
+    "perfil": "podc",
+    "gatilho": "intelectual"
+  },
+  "real-esquematizada-1315-7ae25ab8e5": {
+    "perfil": "referencia",
+    "gatilho": "serviços de demanda"
+  },
+  "real-esquematizada-1317-ef739e8851": {
+    "perfil": "podc",
+    "gatilho": "objetivos institucionais"
+  },
+  "real-esquematizada-1318-87f79be5c6": {
+    "perfil": "gi",
+    "gatilho": "análise temática"
+  },
+  "real-esquematizada-1319-0379648d20": {
+    "perfil": "dsi",
+    "gatilho": "a partir da demanda"
+  },
+  "real-esquematizada-1321-3841f60a25": {
+    "perfil": "marketing",
+    "gatilho": "geração do produto"
+  },
+  "real-esquematizada-1322-cef171ad1f": {
+    "perfil": "podc",
+    "gatilho": "isoladamente"
+  },
+  "real-esquematizada-1326-adb003440a": {
+    "perfil": "planejar",
+    "gatilho": "diagnóstico completo"
+  },
+  "real-esquematizada-1328-9066ec930a": {
+    "perfil": "estrutura",
+    "gatilho": "linear e hierárquica"
+  },
+  "real-esquematizada-1329-3c921e7f6f": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "restrinjam-se"
+  },
+  "real-esquematizada-1330-a402471f27": {
+    "perfil": "sistemas-info",
+    "gatilho": "pessoas"
+  },
+  "real-esquematizada-1331-f85ad8cc84": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "integralmente"
+  },
+  "real-esquematizada-1333-453db2107f": {
+    "perfil": "vocabulario",
+    "gatilho": "impossível"
+  },
+  "real-esquematizada-1334-19c6b545ce": {
+    "perfil": "planejar",
+    "gatilho": "avaliação"
+  },
+  "real-esquematizada-1335-d8fbe6839b": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "nível operacional"
+  },
+  "real-esquematizada-1336-b65e9fa17a": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "longo prazo estabelece a ligação"
+  },
+  "real-esquematizada-1337-af5a2653e6": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "não usuários"
+  },
+  "real-esquematizada-1338-e053a245f3": {
+    "perfil": "promocao-relacionamento",
+    "gatilho": "compreenderem como podem utilizar"
+  },
+  "real-esquematizada-1339-95347a798a": {
+    "perfil": "bases",
+    "gatilho": "base de dados de fontes"
+  },
+  "real-esquematizada-1340-e74c1fb6fe": {
+    "perfil": "planejar",
+    "gatilho": "contexto ou do ambiente"
+  },
+  "real-esquematizada-1341-c55d818a00": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "mais flexíveis"
+  },
+  "real-esquematizada-1346-cb02f54f26": {
+    "perfil": "aquisicao",
+    "gatilho": "permuta é a modalidade que requer"
+  },
+  "real-esquematizada-1348-a0de114ddd": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "operacional"
+  },
+  "real-esquematizada-1351-6a4cedf2d1": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "curto prazo"
+  },
+  "real-esquematizada-1352-8d0d882fdf": {
+    "perfil": "interoperabilidade",
+    "gatilho": "automaticamente interoperáveis"
+  },
+  "real-esquematizada-1353-1b44a7b02b": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "se intercomunicam"
+  },
+  "real-esquematizada-1354-397ff390ed": {
+    "perfil": "planejar",
+    "gatilho": "exclusiva"
+  },
+  "real-esquematizada-1355-cd5c1b77ae": {
+    "perfil": "planejar",
+    "gatilho": "empreendedor"
+  },
+  "real-esquematizada-1356-ea32cd6fe9": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "manual de serviços"
+  },
+  "real-esquematizada-1358-53add3f90b": {
+    "perfil": "planejar",
+    "gatilho": "independente"
+  },
+  "real-esquematizada-1359-4ca01c045a": {
+    "perfil": "aquisicao",
+    "gatilho": "desiderata"
+  },
+  "real-esquematizada-1361-0f5898a579": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "todos os itens de todas as áreas"
+  },
+  "real-esquematizada-1362-97765147d8": {
+    "perfil": "planejar",
+    "gatilho": "primeira providência"
+  },
+  "real-esquematizada-1363-7dd97995e0": {
+    "perfil": "politica-colecoes",
+    "gatilho": "parâmetros"
+  },
+  "real-esquematizada-1365-429580d41c": {
+    "perfil": "politica-colecoes",
+    "gatilho": "objetivos institucionais"
+  },
+  "real-esquematizada-1368-174f725b9d": {
+    "perfil": "gi",
+    "gatilho": "relegado para segundo plano"
+  },
+  "real-esquematizada-1371-8ba581d15c": {
+    "perfil": "podc",
+    "gatilho": "é necessário o aval"
+  },
+  "real-esquematizada-1372-7ddd1dab07": {
+    "perfil": "planejar",
+    "gatilho": "planejar suas ações"
+  },
+  "real-esquematizada-1374-faff344b45": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "necessidades, os desejos e as demandas"
+  },
+  "real-esquematizada-1375-b36d197769": {
+    "perfil": "marketing",
+    "gatilho": "dificulta"
+  },
+  "real-esquematizada-1383-039a67b305": {
+    "perfil": "texto-automatico",
+    "gatilho": "enormes volumes"
+  },
+  "real-esquematizada-1384-ca58150f11": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "eficiência"
+  },
+  "real-esquematizada-1385-3a8174d66d": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "desdobramento"
+  },
+  "real-esquematizada-1386-c0969d5b05": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "ferramenta de planejamento"
+  },
+  "real-esquematizada-1389-27fce99ce1": {
+    "perfil": "planejar",
+    "gatilho": "é suficiente"
+  },
+  "real-esquematizada-1391-7141e5d1dd": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "primeiro e o único"
+  },
+  "real-esquematizada-1392-31edcab996": {
+    "perfil": "marketing",
+    "gatilho": "entrega de valor"
+  },
+  "real-esquematizada-1393-1d18c97c75": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "suficientes"
+  },
+  "real-esquematizada-1394-3dac8cefcd": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "todo o sistema educacional"
+  },
+  "real-esquematizada-1395-38ed4dacdb": {
+    "perfil": "planejar",
+    "gatilho": "cada uma das seções"
+  },
+  "real-esquematizada-1396-d680540d5b": {
+    "perfil": "planejar",
+    "gatilho": "missão"
+  },
+  "real-esquematizada-1397-580b49b11b": {
+    "perfil": "marketing",
+    "gatilho": "interesses e necessidades"
+  },
+  "real-esquematizada-1398-53869de7b8": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "taxa de envelhecimento"
+  },
+  "real-esquematizada-1399-a29044bd7e": {
+    "perfil": "focal-delphi",
+    "gatilho": "não se aplica"
+  },
+  "real-esquematizada-1401-d45afce96d": {
+    "perfil": "planejar",
+    "gatilho": "implicações futuras"
+  },
+  "real-esquematizada-1402-497f275f2d": {
+    "perfil": "planejar",
+    "gatilho": "missão e dos objetivos"
+  },
+  "real-esquematizada-1403-d784f303f8": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "aperfeiçoar determinadas áreas"
+  },
+  "real-esquematizada-1405-1a92e39b43": {
+    "perfil": "planejar",
+    "gatilho": "secundária"
+  },
+  "real-esquematizada-1406-9826880a3c": {
+    "perfil": "planejar",
+    "gatilho": "imediatamente posterior"
+  },
+  "real-esquematizada-1407-b7cf21ddeb": {
+    "perfil": "projetos",
+    "gatilho": "problema a ser resolvido"
+  },
+  "real-esquematizada-1408-8ffc4d8f27": {
+    "perfil": "projetos",
+    "gatilho": "secundário"
+  },
+  "real-esquematizada-1409-3c47519430": {
+    "perfil": "projetos",
+    "gatilho": "financiamento"
+  },
+  "real-esquematizada-1411-23243cb7a0": {
+    "perfil": "projetos",
+    "gatilho": "previsão das implicações futuras"
+  },
+  "real-esquematizada-1412-7d5c1543cb": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "planejamento tático"
+  },
+  "real-esquematizada-1413-aa6db6473f": {
+    "perfil": "podc",
+    "gatilho": "competências e o uso de recursos"
+  },
+  "real-esquematizada-1414-d54af2d1e2": {
+    "perfil": "podc",
+    "gatilho": "representação descritiva"
+  },
+  "real-esquematizada-1415-891bd96140": {
+    "perfil": "swot",
+    "gatilho": "concorrentes, clientes"
+  },
+  "real-esquematizada-1416-11065e279f": {
+    "perfil": "gi",
+    "gatilho": "identificação de necessidades"
+  },
+  "real-esquematizada-1417-bbaf5ee78d": {
+    "perfil": "swot",
+    "gatilho": "fatores críticos de sucesso"
+  },
+  "real-esquematizada-1418-e81bcce04b": {
+    "perfil": "swot",
+    "gatilho": "oportunidade"
+  },
+  "real-esquematizada-1419-73541a1b95": {
+    "perfil": "swot",
+    "gatilho": "ambiente externo"
+  },
+  "real-esquematizada-1420-73d0227f3e": {
+    "perfil": "swot",
+    "gatilho": "externas"
+  },
+  "real-esquematizada-1421-092ca652d5": {
+    "perfil": "swot",
+    "gatilho": "ameaça"
+  },
+  "real-esquematizada-1422-79af96c2bd": {
+    "perfil": "politica-colecoes",
+    "gatilho": "não deve ser inserido"
+  },
+  "real-esquematizada-1423-c16a19fe3c": {
+    "perfil": "selecao",
+    "gatilho": "sempre incorporá-las"
+  },
+  "real-esquematizada-1424-7ae97fc082": {
+    "perfil": "selecao",
+    "gatilho": "fatores que podem ser considerados"
+  },
+  "real-esquematizada-1426-96b60f0433": {
+    "perfil": "politica-colecoes",
+    "gatilho": "não havendo necessidade de orientação"
+  },
+  "real-esquematizada-1427-43fd8bbd3a": {
+    "perfil": "politica-colecoes",
+    "gatilho": "objetivos da instituição"
+  },
+  "real-esquematizada-1429-e75a82aabd": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "intercâmbio de conhecimento"
+  },
+  "real-esquematizada-1430-6fbf528b39": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "método de circulação"
+  },
+  "real-esquematizada-1431-0ee7eb845a": {
+    "perfil": "politica-colecoes",
+    "gatilho": "sintonia com outras bibliotecas"
+  },
+  "real-esquematizada-1432-61e4878a01": {
+    "perfil": "politica-colecoes",
+    "gatilho": "aquisição, nesse processo, uma atividade secundária"
+  },
+  "real-esquematizada-1433-3c56cb7474": {
+    "perfil": "politica-colecoes",
+    "gatilho": "tão somente executar"
+  },
+  "real-esquematizada-1435-c0c81d2ea8": {
+    "perfil": "selecao",
+    "gatilho": "nunca"
+  },
+  "real-esquematizada-1440-df5624bcef": {
+    "perfil": "conspectus",
+    "gatilho": "políticas de descarte"
+  },
+  "real-esquematizada-1441-16471929e5": {
+    "perfil": "politica-colecoes",
+    "gatilho": "incorporação ou à retirada definitiva"
+  },
+  "real-esquematizada-1443-7640024f3d": {
+    "perfil": "politica-colecoes",
+    "gatilho": "cooperação"
+  },
+  "real-esquematizada-1444-ab6a61bebf": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "uso, de conservação e de tamanho"
+  },
+  "real-esquematizada-1445-88511a1179": {
+    "perfil": "politica-colecoes",
+    "gatilho": "exclui-se"
+  },
+  "real-esquematizada-1448-3362325221": {
+    "perfil": "aquisicao",
+    "gatilho": "desiderata"
+  },
+  "real-esquematizada-1450-374ae828cd": {
+    "perfil": "desbaste",
+    "gatilho": "excluída"
+  },
+  "real-esquematizada-1451-869ab6d69b": {
+    "perfil": "conspectus",
+    "gatilho": "classes e subclasses"
+  },
+  "real-esquematizada-1452-3e390d32f7": {
+    "perfil": "raridade",
+    "gatilho": "ou se tornaram raras"
+  },
+  "real-esquematizada-1453-11dde35cd8": {
+    "perfil": "aquisicao",
+    "gatilho": "pleiteia a aquisição"
+  },
+  "real-esquematizada-1454-bd62fa6c34": {
+    "perfil": "politica-colecoes",
+    "gatilho": "objetivos da biblioteca"
+  },
+  "real-esquematizada-1455-937b11ec5d": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "necessidades dos usuários"
+  },
+  "real-esquematizada-1456-68c9680811": {
+    "perfil": "desbaste",
+    "gatilho": "necessariamente"
+  },
+  "real-esquematizada-1459-2475b377db": {
+    "perfil": "politica-colecoes",
+    "gatilho": "todas as necessidades"
+  },
+  "real-esquematizada-1460-9ca7f7612b": {
+    "perfil": "gi",
+    "gatilho": "memória organizacional"
+  },
+  "real-esquematizada-1461-9385087783": {
+    "perfil": "obsolescencia",
+    "gatilho": "declínio da representatividade"
+  },
+  "real-esquematizada-1462-1eb3292905": {
+    "perfil": "politica-colecoes",
+    "gatilho": "quem decidirá"
+  },
+  "real-esquematizada-1463-53768aabf8": {
+    "perfil": "colecao-digital",
+    "gatilho": "armazenados localmente"
+  },
+  "real-esquematizada-1464-c1fb0dc2f4": {
+    "perfil": "selecao",
+    "gatilho": "puramente administrativas"
+  },
+  "real-esquematizada-1465-ac1aafa1f9": {
+    "perfil": "politica-colecoes",
+    "gatilho": "independentes"
+  },
+  "real-esquematizada-1466-ad792a1c2e": {
+    "perfil": "politica-colecoes",
+    "gatilho": "compartilhamento de recursos"
+  },
+  "real-esquematizada-1467-c6f9fbfa48": {
+    "perfil": "selecao",
+    "gatilho": "critérios distintos"
+  },
+  "real-esquematizada-1469-e9143271e2": {
+    "perfil": "politica-colecoes",
+    "gatilho": "mais frequentam"
+  },
+  "real-esquematizada-1470-dbe56dd7e6": {
+    "perfil": "tipos-fontes",
+    "gatilho": "diretórios biográficos"
+  },
+  "real-esquematizada-204-110e55b10b": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "integridade e a confiabilidade"
+  },
+  "real-esquematizada-207-9ec78b7a21": {
+    "perfil": "ciencia-info",
+    "gatilho": "diferentemente"
+  },
+  "real-esquematizada-208-979a3af380": {
+    "perfil": "profissao",
+    "gatilho": "suporte convencional"
+  },
+  "real-esquematizada-209-e54acc2ee5": {
+    "perfil": "profissao",
+    "gatilho": "bacharéis em ciências sociais e humanas"
+  },
+  "real-esquematizada-210-7d72a52dad": {
+    "perfil": "ciencia-info",
+    "gatilho": "objeto de trabalho"
+  },
+  "real-esquematizada-211-224d9faee5": {
+    "perfil": "etica",
+    "gatilho": "padrões morais"
+  },
+  "real-esquematizada-212-c479fc2b48": {
+    "perfil": "etica",
+    "gatilho": "guardar sigilo"
+  },
+  "real-esquematizada-213-df5432a755": {
+    "perfil": "profissao",
+    "gatilho": "não-registrado"
+  },
+  "real-esquematizada-215-d548a4f18e": {
+    "perfil": "etica",
+    "gatilho": "nenhuma circunstância"
+  },
+  "real-esquematizada-219-9aa5d4682a": {
+    "perfil": "entrevista-ref",
+    "gatilho": "garante"
+  },
+  "real-esquematizada-223-0759992c5f": {
+    "perfil": "referencia-virtual",
+    "gatilho": "privacidade e confidencialidade"
+  },
+  "real-esquematizada-224-4175e4bb05": {
+    "perfil": "rss",
+    "gatilho": "distintos da aplicação do serviço feeds RSS"
+  },
+  "real-esquematizada-227-85e2d5b5d3": {
+    "perfil": "referencia-virtual",
+    "gatilho": "mesmos padrões"
+  },
+  "real-esquematizada-230-ccecb15982": {
+    "perfil": "entrevista-ref",
+    "gatilho": "questão inicial e questão negociada"
+  },
+  "real-esquematizada-231-d9931c6460": {
+    "perfil": "referencia-virtual",
+    "gatilho": "pode ser utilizada"
+  },
+  "real-esquematizada-236-2f83ddae66": {
+    "perfil": "portais",
+    "gatilho": "coleções de periódicos"
+  },
+  "real-esquematizada-237-fb178ffba2": {
+    "perfil": "referencias",
+    "gatilho": "aspas"
+  },
+  "real-esquematizada-239-0b12c92dd8": {
+    "perfil": "autoridades",
+    "gatilho": "eliminar esse artigo"
+  },
+  "real-esquematizada-241-269e4b15c1": {
+    "perfil": "gi",
+    "gatilho": "percepção do usuário"
+  },
+  "real-esquematizada-243-69862e59b3": {
+    "perfil": "documento",
+    "gatilho": "mediadora"
+  },
+  "real-esquematizada-244-94e465bf0c": {
+    "perfil": "competencia-info",
+    "gatilho": "mais que a apropriação tecnológica"
+  },
+  "real-esquematizada-245-5122ce6087": {
+    "perfil": "competencia-info",
+    "gatilho": "centro do processo de aprendizagem"
+  },
+  "real-esquematizada-247-b691c0ad53": {
+    "perfil": "bases",
+    "gatilho": "adaptam os dados"
+  },
+  "real-esquematizada-248-cd2290db61": {
+    "perfil": "busca",
+    "gatilho": "operadores lógicos booleanos"
+  },
+  "real-esquematizada-249-b6176f6646": {
+    "perfil": "competencia-info",
+    "gatilho": "relacionam-se ao serviço de referência"
+  },
+  "real-esquematizada-1471-3f24133193": {
+    "perfil": "politica-colecoes",
+    "gatilho": "objetivos da instituição"
+  },
+  "real-esquematizada-1472-a3a21f953b": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "tamanho, crescimento"
+  },
+  "real-esquematizada-1474-7b71778a88": {
+    "perfil": "desbaste",
+    "gatilho": "Obsolescência, uso dos materiais"
+  },
+  "real-esquematizada-1475-47de6332db": {
+    "perfil": "selecao",
+    "gatilho": "sem a verificação"
+  },
+  "real-esquematizada-1476-b816cb4324": {
+    "perfil": "aquisicao",
+    "gatilho": "desiderata"
+  },
+  "real-esquematizada-1477-e60c0e6ece": {
+    "perfil": "preservacao-digital",
+    "gatilho": "lista de livros"
+  },
+  "real-esquematizada-1478-274dcacbfc": {
+    "perfil": "selecao",
+    "gatilho": "prioridades previamente definidas"
+  },
+  "real-esquematizada-1480-e254e2a773": {
+    "perfil": "selecao",
+    "gatilho": "em primeiro lugar"
+  },
+  "real-esquematizada-1481-6b77d0f709": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "prospecção de novas metodologias"
+  },
+  "real-esquematizada-1485-a0d697b887": {
+    "perfil": "selecao",
+    "gatilho": "não devem eleger"
+  },
+  "real-esquematizada-1486-65db7650c2": {
+    "perfil": "aquisicao",
+    "gatilho": "Aquisição é a escolha"
+  },
+  "real-esquematizada-1487-7ffc5d1a2b": {
+    "perfil": "politica-colecoes",
+    "gatilho": "número de discentes"
+  },
+  "real-esquematizada-1488-32cd271f0e": {
+    "perfil": "politica-colecoes",
+    "gatilho": "Não há razão"
+  },
+  "real-esquematizada-1491-411530a90c": {
+    "perfil": "aquisicao",
+    "gatilho": "compra, a permuta e a doação"
+  },
+  "real-esquematizada-1492-197a85e567": {
+    "perfil": "politica-colecoes",
+    "gatilho": "atividades simples"
+  },
+  "real-esquematizada-1493-7c71da5812": {
+    "perfil": "selecao",
+    "gatilho": "suporte técnico, às licenças"
+  },
+  "real-esquematizada-1494-51da7b4aee": {
+    "perfil": "gi",
+    "gatilho": "ao final"
+  },
+  "real-esquematizada-1495-d1fe1e32e3": {
+    "perfil": "politica-colecoes",
+    "gatilho": "enfoque sistêmico"
+  },
+  "real-esquematizada-1496-a876c850eb": {
+    "perfil": "selecao",
+    "gatilho": "prescinde"
+  },
+  "real-esquematizada-1497-db3401a060": {
+    "perfil": "colecao-digital",
+    "gatilho": "não necessitam"
+  },
+  "real-esquematizada-1499-f7025c00f3": {
+    "perfil": "desbaste",
+    "gatilho": "transportando-os para outros locais"
+  },
+  "real-esquematizada-1500-9a3ea2fc36": {
+    "perfil": "politica-colecoes",
+    "gatilho": "migração das fontes"
+  },
+  "real-esquematizada-1501-84ef9ba482": {
+    "perfil": "politica-colecoes",
+    "gatilho": "estudo da comunidade"
+  },
+  "real-esquematizada-1503-cc69471058": {
+    "perfil": "aquisicao",
+    "gatilho": "rapidez e a precisão"
+  },
+  "real-esquematizada-1505-f8fd0cb48a": {
+    "perfil": "portais",
+    "gatilho": "apenas fontes de informação primárias"
+  },
+  "real-esquematizada-1507-0013a1cf95": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "primordialmente métodos quantitativos"
+  },
+  "real-esquematizada-1508-92165dde27": {
+    "perfil": "aquisicao",
+    "gatilho": "aquisição cooperativa"
+  },
+  "real-esquematizada-1510-48623e073d": {
+    "perfil": "aquisicao",
+    "gatilho": "utilização racional"
+  },
+  "real-esquematizada-1511-35169f25f2": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "fatores de uso"
+  },
+  "real-esquematizada-1512-293f2a38d3": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "repositórios institucionais"
+  },
+  "real-esquematizada-1517-f869074171": {
+    "perfil": "aquisicao",
+    "gatilho": "dispensável"
+  },
+  "real-esquematizada-1518-ec68cc96c5": {
+    "perfil": "desbaste",
+    "gatilho": "irrelevante"
+  },
+  "real-esquematizada-1519-da09ea96c0": {
+    "perfil": "politica-colecoes",
+    "gatilho": "prevenir a obsolescência"
+  },
+  "real-esquematizada-1520-76946ed8f3": {
+    "perfil": "politica-colecoes",
+    "gatilho": "secundário"
+  },
+  "real-esquematizada-1521-5a2eedd698": {
+    "perfil": "selecao",
+    "gatilho": "é a melhor"
+  },
+  "real-esquematizada-1523-0ecafee667": {
+    "perfil": "politica-colecoes",
+    "gatilho": "não há recomendações"
+  },
+  "real-esquematizada-1524-f761f150d2": {
+    "perfil": "politica-colecoes",
+    "gatilho": "máxima de três exemplares"
+  },
+  "real-esquematizada-1525-0723dedbed": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "etapas indistinguíveis"
+  },
+  "real-esquematizada-1526-5f34637fff": {
+    "perfil": "politica-colecoes",
+    "gatilho": "estudo da comunidade"
+  },
+  "real-esquematizada-1527-17db67b3b5": {
+    "perfil": "selecao",
+    "gatilho": "dispensa a participação"
+  },
+  "real-esquematizada-1531-fa09693c92": {
+    "perfil": "selecao",
+    "gatilho": "títulos básicos"
+  },
+  "real-esquematizada-1532-b17d78bfe1": {
+    "perfil": "politica-colecoes",
+    "gatilho": "restringe-se às coleções impressas"
+  },
+  "real-esquematizada-1538-cddf5dd027": {
+    "perfil": "colecao-digital",
+    "gatilho": "políticas distintas"
+  },
+  "real-esquematizada-1539-b1104fb26c": {
+    "perfil": "colecao-digital",
+    "gatilho": "exatamente os mesmos"
+  },
+  "real-esquematizada-1541-9e34838faa": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "demandas dos usuários atendidos"
+  },
+  "real-esquematizada-1546-1de013457c": {
+    "perfil": "podc",
+    "gatilho": "não contemplam a dimensão tecnológica"
+  },
+  "real-esquematizada-1547-f96c7574e7": {
+    "perfil": "direitos",
+    "gatilho": "apenas"
+  },
+  "real-esquematizada-1548-dfb938fafc": {
+    "perfil": "sistemas-info",
+    "gatilho": "o mesmo"
+  },
+  "real-esquematizada-1549-45f7c41820": {
+    "perfil": "sistemas-info",
+    "gatilho": "Pessoas"
+  },
+  "real-esquematizada-1551-179c42485d": {
+    "perfil": "sistemas-info",
+    "gatilho": "não podem"
+  },
+  "real-esquematizada-1553-c58e292352": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "durante a implementação"
+  },
+  "real-esquematizada-1554-60c67da872": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "benefícios"
+  },
+  "real-esquematizada-1557-1d52711664": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "dispensável"
+  },
+  "real-esquematizada-1558-8ce7b008a1": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "valores dos avaliadores"
+  },
+  "real-esquematizada-1562-d317d8dfd4": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "empréstimo entre bibliotecas"
+  },
+  "real-esquematizada-1564-bf973e4d8f": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "uso relativo"
+  },
+  "real-esquematizada-1568-9045e2db4a": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "pressupõe a existência de uma rede formal"
+  },
+  "real-esquematizada-1573-1209a3d1a9": {
+    "perfil": "focal-delphi",
+    "gatilho": "reunião de um grupo de usuários e um moderador"
+  },
+  "real-esquematizada-1574-29eb38066f": {
+    "perfil": "sense-making",
+    "gatilho": "aspectos subjetivos"
+  },
+  "real-esquematizada-1581-d10564bfe8": {
+    "perfil": "direitos",
+    "gatilho": "copyleft"
+  },
+  "real-esquematizada-1582-9881afc5fb": {
+    "perfil": "sistemas-info",
+    "gatilho": "indexação desses bancos"
+  },
+  "real-esquematizada-1585-918f33aeb6": {
+    "perfil": "hardware",
+    "gatilho": "ambos"
+  },
+  "real-esquematizada-1586-771c7678c0": {
+    "perfil": "hardware",
+    "gatilho": "Unidade lógica e unidade de controle"
+  },
+  "real-esquematizada-1588-e861dfbc03": {
+    "perfil": "hardware",
+    "gatilho": "restituem"
+  },
+  "real-esquematizada-1589-76e3e8955b": {
+    "perfil": "hardware",
+    "gatilho": "volatilidade"
+  },
+  "real-esquematizada-1594-c47c4f4371": {
+    "perfil": "hardware",
+    "gatilho": "AZERTY"
+  },
+  "real-esquematizada-1596-092070fead": {
+    "perfil": "hardware",
+    "gatilho": "componente da unidade aritmética"
+  },
+  "real-esquematizada-1597-0ad4197c12": {
+    "perfil": "hardware",
+    "gatilho": "memória volátil"
+  },
+  "real-esquematizada-1598-708f955d2d": {
+    "perfil": "automacao",
+    "gatilho": "captação de dados"
+  },
+  "real-esquematizada-1599-b6cb499c4a": {
+    "perfil": "ocr",
+    "gatilho": "reconhecimento ótico de caracteres"
+  },
+  "real-esquematizada-1600-e757758e6c": {
+    "perfil": "marc",
+    "gatilho": "softwares comerciais"
+  },
+  "real-esquematizada-1603-1433e42489": {
+    "perfil": "automacao",
+    "gatilho": "conversão dos dados"
+  },
+  "real-esquematizada-1604-ce896ef171": {
+    "perfil": "automacao",
+    "gatilho": "cadastro de faturas"
+  },
+  "real-esquematizada-1605-94f58b942b": {
+    "perfil": "automacao",
+    "gatilho": "capacidade de suportar"
+  },
+  "real-esquematizada-1606-39d6df9e2a": {
+    "perfil": "autoridades",
+    "gatilho": "lista de autoridade"
+  },
+  "real-esquematizada-1607-6c6b4e8e55": {
+    "perfil": "colecao-digital",
+    "gatilho": "ePub"
+  },
+  "real-esquematizada-1608-b93fd0f6db": {
+    "perfil": "web-semantica",
+    "gatilho": "HTML"
+  },
+  "real-esquematizada-1609-8c53474b14": {
+    "perfil": "redes-computadores",
+    "gatilho": "TCP organiza a rota"
+  },
+  "real-esquematizada-1610-054618da2e": {
+    "perfil": "bigdata",
+    "gatilho": "volume, velocidade e variedade"
+  },
+  "real-esquematizada-1612-2c605ed022": {
+    "perfil": "direitos",
+    "gatilho": "número de cópias vendidas"
+  },
+  "real-esquematizada-1613-e8d940e31e": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "software livre"
+  },
+  "real-esquematizada-1614-59ca4df991": {
+    "perfil": "colecao-digital",
+    "gatilho": "empréstimo de e-books"
+  },
+  "real-esquematizada-1615-5dcf625112": {
+    "perfil": "hardware",
+    "gatilho": "permanece intacto"
+  },
+  "real-esquematizada-1618-29052c136d": {
+    "perfil": "ocr",
+    "gatilho": "reconhecimento óptico de caracteres"
+  },
+  "real-esquematizada-1619-2b87c0657f": {
+    "perfil": "sistemas-info",
+    "gatilho": "dois subsistemas"
+  },
+  "real-esquematizada-1620-3c8bfc5e3b": {
+    "perfil": "sistemas-info",
+    "gatilho": "prescinde"
+  },
+  "real-esquematizada-1621-23c0b7610b": {
+    "perfil": "bancos",
+    "gatilho": "subdivididos em campos"
+  },
+  "real-esquematizada-1622-56eaf1179f": {
+    "perfil": "marc",
+    "gatilho": "intercâmbio internacional"
+  },
+  "real-esquematizada-1623-88a383a258": {
+    "perfil": "dc",
+    "gatilho": "do qual deriva"
+  },
+  "real-esquematizada-1625-8c4c851370": {
+    "perfil": "autoridades",
+    "gatilho": "VIAF"
+  },
+  "real-esquematizada-1626-4847a7e652": {
+    "perfil": "folksonomia",
+    "gatilho": "produto"
+  },
+  "real-esquematizada-1627-fe5fcff12a": {
+    "perfil": "esquemas-xml",
+    "gatilho": "descritivos, administrativos e estruturais"
+  },
+  "real-esquematizada-1628-d4a8b437c8": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "software livre"
+  },
+  "real-esquematizada-1630-4c677c2b79": {
+    "perfil": "interoperabilidade",
+    "gatilho": "prescindíveis"
+  },
+  "real-esquematizada-1636-67e8a1f567": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "não necessita"
+  },
+  "real-esquematizada-1637-ac0da24444": {
+    "perfil": "indexacao",
+    "gatilho": "resumos, índices"
+  },
+  "real-esquematizada-1642-64d245d0df": {
+    "perfil": "sistemas-info",
+    "gatilho": "necessidades de informação"
+  },
+  "real-esquematizada-1645-8b5498485d": {
+    "perfil": "automacao",
+    "gatilho": "prescinde"
+  },
+  "real-esquematizada-1646-e68b796bc7": {
+    "perfil": "bancos",
+    "gatilho": "exclusivamente"
+  },
+  "real-esquematizada-1650-83d4a98caa": {
+    "perfil": "bases",
+    "gatilho": "encaminhado para uma fonte"
+  },
+  "real-esquematizada-1651-f2a84a0531": {
+    "perfil": "bases",
+    "gatilho": "bases de dados de fontes"
+  },
+  "real-esquematizada-1652-c9be59f0cf": {
+    "perfil": "esquemas-xml",
+    "gatilho": "não exigem padrão"
+  },
+  "real-esquematizada-1653-a42f8d2d8a": {
+    "perfil": "z3950",
+    "gatilho": "pesquisa e recuperação"
+  },
+  "real-esquematizada-1654-86def15d00": {
+    "perfil": "interoperabilidade",
+    "gatilho": "CD-ROM"
+  },
+  "real-esquematizada-1657-a9da8ba5a7": {
+    "perfil": "automacao",
+    "gatilho": "conversão retrospectiva"
+  },
+  "real-esquematizada-1658-d7ce288574": {
+    "perfil": "bases",
+    "gatilho": "registram o acervo"
+  },
+  "real-esquematizada-1660-83f95797cf": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "preservação do código"
+  },
+  "real-esquematizada-1663-8b397aed81": {
+    "perfil": "automacao",
+    "gatilho": "retiradas, renovações e atrasos"
+  },
+  "real-esquematizada-1664-e5d70f3c1f": {
+    "perfil": "automacao",
+    "gatilho": "segurança dos dados"
+  },
+  "real-esquematizada-1666-92e45d13cc": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "gestor de periódicos"
+  },
+  "real-esquematizada-1668-5663a792d4": {
+    "perfil": "colecao-digital",
+    "gatilho": "empréstimo digital"
+  },
+  "real-esquematizada-1669-5b8e050786": {
+    "perfil": "direitos",
+    "gatilho": "não é considerado"
+  },
+  "real-esquematizada-1670-78915e3cc1": {
+    "perfil": "marc",
+    "gatilho": "próprias regras de descrição"
+  },
+  "real-esquematizada-1673-b98ae43fc7": {
+    "perfil": "bibliografia",
+    "gatilho": "língua do sistema"
+  },
+  "real-esquematizada-1675-350dc8241d": {
+    "perfil": "automacao",
+    "gatilho": "novos serviços"
+  },
+  "real-esquematizada-1676-9635527efc": {
+    "perfil": "automacao",
+    "gatilho": "novas aquisições"
+  },
+  "real-esquematizada-1677-18eaeb5f7d": {
+    "perfil": "automacao",
+    "gatilho": "conhecer as rotinas"
+  },
+  "real-esquematizada-1678-17dacc8224": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "proprietário"
+  },
+  "real-esquematizada-1680-32c043d83c": {
+    "perfil": "z3950",
+    "gatilho": "ISO 2709"
+  },
+  "real-esquematizada-1681-60a5da125c": {
+    "perfil": "sistemas-info",
+    "gatilho": "processamento"
+  },
+  "real-esquematizada-1684-061b3d3ce4": {
+    "perfil": "bases",
+    "gatilho": "texto completo e as fatuais"
+  },
+  "real-esquematizada-1690-4e25083aa4": {
+    "perfil": "texto-automatico",
+    "gatilho": "tendências ou padrões"
+  },
+  "real-esquematizada-1691-2f31149295": {
+    "perfil": "busca-web",
+    "gatilho": "todos os sítios"
+  },
+  "real-esquematizada-1693-a8758f692e": {
+    "perfil": "automacao",
+    "gatilho": "monitoramento sistemático"
+  },
+  "real-esquematizada-1695-c10166ea54": {
+    "perfil": "bancos",
+    "gatilho": "arborescente"
+  },
+  "real-esquematizada-1696-e8e79b274a": {
+    "perfil": "hardware",
+    "gatilho": "entrada e de saída"
+  },
+  "real-esquematizada-1697-d8284f1a6e": {
+    "perfil": "redes-computadores",
+    "gatilho": "OAI-PMH"
+  },
+  "real-esquematizada-1698-789b4019a1": {
+    "perfil": "redes-computadores",
+    "gatilho": "compartilhamento de recursos"
+  },
+  "real-esquematizada-1699-a4310e833f": {
+    "perfil": "redes-computadores",
+    "gatilho": "Extranet"
+  },
+  "real-esquematizada-1701-b9e3e4175f": {
+    "perfil": "redes-computadores",
+    "gatilho": "iniciação, transferência e término"
+  },
+  "real-esquematizada-1703-002b9ca992": {
+    "perfil": "redes-computadores",
+    "gatilho": "mesma topologia"
+  },
+  "real-esquematizada-1704-218c86671d": {
+    "perfil": "redes-computadores",
+    "gatilho": "não propicia"
+  },
+  "real-esquematizada-1705-fb89e0a496": {
+    "perfil": "bases",
+    "gatilho": "texto integral"
+  },
+  "real-esquematizada-1707-e7558d68e2": {
+    "perfil": "bancos",
+    "gatilho": "arquivo"
+  },
+  "real-esquematizada-1708-b01a385469": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "multimídia"
+  },
+  "real-esquematizada-1712-866b099f56": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "administrador"
+  },
+  "real-esquematizada-1715-3c62939c21": {
+    "perfil": "z3950",
+    "gatilho": "HTTP"
+  },
+  "real-esquematizada-1721-23ac1e84d0": {
+    "perfil": "preservacao-digital",
+    "gatilho": "autenticidade"
+  },
+  "real-esquematizada-1722-98feee728c": {
+    "perfil": "web-semantica",
+    "gatilho": "legíveis por máquina"
+  },
+  "real-esquematizada-1725-ed73c7b514": {
+    "perfil": "preservacao-digital",
+    "gatilho": "integridade e da autenticidade"
+  },
+  "real-esquematizada-1726-de0386325e": {
+    "perfil": "preservacao-digital",
+    "gatilho": "formatos abertos"
+  },
+  "real-esquematizada-1727-4975ab76cb": {
+    "perfil": "rvbi",
+    "gatilho": "exclusiva"
+  },
+  "real-esquematizada-1729-3becec1b93": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "open source"
+  },
+  "real-esquematizada-1730-3d36d73e1c": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "compartilhar recursos"
+  },
+  "real-esquematizada-1745-93ffcf669e": {
+    "perfil": "redes-juridicas",
+    "gatilho": "Conselho Nacional de Justiça e da Defensoria Pública"
+  },
+  "real-esquematizada-1746-1ced751c05": {
+    "perfil": "rvbi",
+    "gatilho": "autonomia para padronizar"
+  },
+  "real-esquematizada-1747-3be62ca19e": {
+    "perfil": "rvbi",
+    "gatilho": "coordenada pelo Congresso Nacional"
+  },
+  "real-esquematizada-1748-2998eba2db": {
+    "perfil": "rvbi",
+    "gatilho": "própria base administrativa"
+  },
+  "real-esquematizada-1750-73dce371e7": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "Hierarquia e centralização"
+  },
+  "real-esquematizada-1751-f63272580a": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "RVBI"
+  },
+  "real-esquematizada-1753-41e03d7784": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "imprescindíveis"
+  },
+  "real-esquematizada-1757-3745b99f96": {
+    "perfil": "fair",
+    "gatilho": "compartilhamento e reúso"
+  },
+  "real-esquematizada-1758-a6d2859741": {
+    "perfil": "rvbi",
+    "gatilho": "apenas registros"
+  },
+  "real-esquematizada-1759-8d903f1d17": {
+    "perfil": "rvbi",
+    "gatilho": "controle da qualidade"
+  },
+  "real-esquematizada-1765-804aa8ef15": {
+    "perfil": "lexml",
+    "gatilho": "Z39.50"
+  },
+  "real-esquematizada-1767-c6a8509e6c": {
+    "perfil": "lexml",
+    "gatilho": "três poderes"
+  },
+  "real-esquematizada-1769-9aa72f476e": {
+    "perfil": "lexml",
+    "gatilho": "organiza e integra"
+  },
+  "real-esquematizada-1771-346add9e3e": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "Diferentemente de bibliotecas"
+  },
+  "real-esquematizada-1772-7c62bb0094": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "mesmo conceito"
+  },
+  "real-esquematizada-1773-9132d28037": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "técnico ou intermediário"
+  },
+  "real-esquematizada-1774-4fa6b26964": {
+    "perfil": "redes-juridicas",
+    "gatilho": "formato bibliográfico MARC"
+  },
+  "real-esquematizada-1775-41cd68300e": {
+    "perfil": "redes-juridicas",
+    "gatilho": "doutrinas"
+  },
+  "real-esquematizada-1776-55e79ce136": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "perspectiva do acesso"
+  },
+  "real-esquematizada-1777-d591ed25c7": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "conjunto de links"
+  },
+  "real-esquematizada-1778-72cb092e28": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "requisitos"
+  },
+  "real-esquematizada-1779-4f8bd6f3ca": {
+    "perfil": "interoperabilidade",
+    "gatilho": "dispensável"
+  },
+  "real-esquematizada-1780-26041e623a": {
+    "perfil": "oai",
+    "gatilho": "livremente acessíveis"
+  },
+  "real-esquematizada-1783-ad3c9f3d38": {
+    "perfil": "redes-juridicas",
+    "gatilho": "própria instituição e em outras instituições"
+  },
+  "real-esquematizada-1785-6b58d4861f": {
+    "perfil": "bases",
+    "gatilho": "bases de dados de fontes"
+  },
+  "real-esquematizada-1786-8e8b056112": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "referenciais"
+  },
+  "real-esquematizada-1788-8431cd761b": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Conspectus"
+  },
+  "real-esquematizada-1789-259021bfb2": {
+    "perfil": "catalogos",
+    "gatilho": "consulta exclusiva"
+  },
+  "real-esquematizada-1791-efa4074089": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "cadastro eletrônico"
+  },
+  "real-esquematizada-1792-2d7b3ecfac": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "documentos de seu acervo"
+  },
+  "real-esquematizada-1793-af048ee2f5": {
+    "perfil": "tipos-fontes",
+    "gatilho": "saibam localizar e avaliar"
+  },
+  "real-esquematizada-1794-fb32a76b2e": {
+    "perfil": "identificadores",
+    "gatilho": "Handle System"
+  },
+  "real-esquematizada-1795-e80d8c99da": {
+    "perfil": "identificadores",
+    "gatilho": "principal diferença"
+  },
+  "real-esquematizada-1797-c79c05df55": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "embute"
+  },
+  "real-esquematizada-1798-e0bef55715": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "extensão e aprimoramento"
+  },
+  "real-esquematizada-1800-9ecab6289b": {
+    "perfil": "interoperabilidade",
+    "gatilho": "portabilidade"
+  },
+  "real-esquematizada-1802-058466695f": {
+    "perfil": "frbr",
+    "gatilho": "bibliotecas digitais"
+  },
+  "real-esquematizada-1803-8b36b9fcd6": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "podem ser desenvolvidas"
+  },
+  "real-esquematizada-1804-dea623867b": {
+    "perfil": "colecao-digital",
+    "gatilho": "downloadable"
+  },
+  "real-esquematizada-1805-17f429f831": {
+    "perfil": "z3950",
+    "gatilho": "esquemas de metadados"
+  },
+  "real-esquematizada-1806-42e5c85b7c": {
+    "perfil": "interoperabilidade",
+    "gatilho": "diversos tipos de computadores"
+  },
+  "real-esquematizada-1807-bb9e0270fd": {
+    "perfil": "preservacao-digital",
+    "gatilho": "através do tempo"
+  },
+  "real-esquematizada-1808-04c40dd238": {
+    "perfil": "esquemas-xml",
+    "gatilho": "MARC 21"
+  },
+  "real-esquematizada-1809-f700d2e204": {
+    "perfil": "direitos",
+    "gatilho": "Todas as obras"
+  },
+  "real-esquematizada-1810-ed12ecad35": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "tradicionais"
+  },
+  "real-esquematizada-1811-ae9a0d546a": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "prioritariamente"
+  },
+  "real-esquematizada-1813-bd7e61be5a": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "Fotografias, entrevistas, áudios e vídeos"
+  },
+  "real-esquematizada-1814-fcc50eedcd": {
+    "perfil": "documento",
+    "gatilho": "contextos sociais"
+  },
+  "real-esquematizada-1816-fa866ae435": {
+    "perfil": "sri",
+    "gatilho": "por tipo de suporte"
+  },
+  "real-esquematizada-1818-39e4b1d52a": {
+    "perfil": "esquemas-xml",
+    "gatilho": "padrão de metadados"
+  },
+  "real-esquematizada-1819-7ca6d06297": {
+    "perfil": "dc",
+    "gatilho": "opcionais"
+  },
+  "real-esquematizada-1821-91bc314328": {
+    "perfil": "busca",
+    "gatilho": "campos numéricos ou de datas"
+  },
+  "real-esquematizada-1822-ae35634ca7": {
+    "perfil": "multimeios",
+    "gatilho": "termos de indexação"
+  },
+  "real-esquematizada-1823-6327bca70a": {
+    "perfil": "dsi",
+    "gatilho": "suporte a consultas específicas"
+  },
+  "real-esquematizada-1824-bdf2c89fd9": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "documentos digitais"
+  },
+  "real-esquematizada-1825-c469b4ba18": {
+    "perfil": "z3950",
+    "gatilho": "não é implementado em qualquer plataforma"
+  },
+  "real-esquematizada-1826-1acad3be85": {
+    "perfil": "abreviacao",
+    "gatilho": "mesma raiz e o mesmo sentido"
+  },
+  "real-esquematizada-1828-95e6dde445": {
+    "perfil": "abreviacao",
+    "gatilho": "dd."
+  },
+  "real-esquematizada-1831-71254cebeb": {
+    "perfil": "sumario",
+    "gatilho": "numeração progressiva"
+  },
+  "real-esquematizada-1832-af2a07510c": {
+    "perfil": "trabalho-academico",
+    "gatilho": "ficha catalográfica"
+  },
+  "real-esquematizada-1834-bf25b83549": {
+    "perfil": "sumario",
+    "gatilho": "barra ou travessão"
+  },
+  "real-esquematizada-1835-765df26dd8": {
+    "perfil": "referencias",
+    "gatilho": "NBR 6023:2002"
+  },
+  "real-esquematizada-1836-831ce13bf9": {
+    "perfil": "indices",
+    "gatilho": "impressos e automatizados"
+  },
+  "real-esquematizada-1838-9914fb67e4": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "100 a 250"
+  },
+  "real-esquematizada-1839-2287fda93d": {
+    "perfil": "referencias",
+    "gatilho": "só podem"
+  },
+  "real-esquematizada-1840-5c48cc686f": {
+    "perfil": "indices",
+    "gatilho": "duas maneiras"
+  },
+  "real-esquematizada-1841-c9033cb481": {
+    "perfil": "referencias",
+    "gatilho": "jurisdição e órgão judiciário"
+  },
+  "real-esquematizada-1842-d1f765d82c": {
+    "perfil": "secoes",
+    "gatilho": "hífen"
+  },
+  "real-esquematizada-1844-6b76a31ae4": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "nota de rodapé"
+  },
+  "real-esquematizada-1845-71c7be5f29": {
+    "perfil": "exaustividade",
+    "gatilho": "precisão"
+  },
+  "real-esquematizada-1846-9a862aa4d6": {
+    "perfil": "busca-web",
+    "gatilho": "metabuscadores"
+  },
+  "real-esquematizada-1847-abbab73e28": {
+    "perfil": "ontologias",
+    "gatilho": "não define as regras"
+  },
+  "real-esquematizada-1848-80eb020595": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "organizados em tópicos"
+  },
+  "real-esquematizada-1850-d1565078be": {
+    "perfil": "sumario",
+    "gatilho": "antecede"
+  },
+  "real-esquematizada-1851-bae51c1503": {
+    "perfil": "sumario",
+    "gatilho": "margem direita"
+  },
+  "real-esquematizada-1853-bcaf6646ff": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "vocabulário pré-estabelecido"
+  },
+  "real-esquematizada-1854-7519b4cbc6": {
+    "perfil": "indices",
+    "gatilho": "geral"
+  },
+  "real-esquematizada-1855-4ed6c78a42": {
+    "perfil": "abreviacao",
+    "gatilho": "modificar o título"
+  },
+  "real-esquematizada-1857-336a3879ce": {
+    "perfil": "sumario",
+    "gatilho": "primeiro"
+  },
+  "real-esquematizada-1858-8b5cf3579e": {
+    "perfil": "indices",
+    "gatilho": "início ou no final"
+  },
+  "real-esquematizada-1859-60b488f530": {
+    "perfil": "indices",
+    "gatilho": "continuação"
+  },
+  "real-esquematizada-1863-de0552f661": {
+    "perfil": "indices",
+    "gatilho": "enfoques especiais"
+  },
+  "real-esquematizada-1865-97e51ae143": {
+    "perfil": "indices",
+    "gatilho": "ao final"
+  },
+  "real-esquematizada-1866-424a224465": {
+    "perfil": "sumario",
+    "gatilho": "separado para cada idioma"
+  },
+  "real-esquematizada-1867-2b56f634c8": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "continuada indefinidamente"
+  },
+  "real-esquematizada-1868-bbd2022e43": {
+    "perfil": "abreviacao",
+    "gatilho": "descartada"
+  },
+  "real-esquematizada-1870-aa5b271689": {
+    "perfil": "sumario",
+    "gatilho": "barra oblíqua"
+  },
+  "real-esquematizada-1871-5590124992": {
+    "perfil": "sumario",
+    "gatilho": "último elemento pré-textual"
+  },
+  "real-esquematizada-1873-60b2ae5902": {
+    "perfil": "sumario",
+    "gatilho": "alinhado à esquerda"
+  },
+  "real-esquematizada-1874-5ebb2d3502": {
+    "perfil": "sumario",
+    "gatilho": "pré-textuais"
+  },
+  "real-esquematizada-1875-13622009b8": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "100 a 250"
+  },
+  "real-esquematizada-1878-5569de19f6": {
+    "perfil": "referencias",
+    "gatilho": "entre parênteses"
+  },
+  "real-esquematizada-1880-dfbfffa0c2": {
+    "perfil": "indices",
+    "gatilho": "padrão lógico"
+  },
+  "real-esquematizada-1881-2fe3b8aaac": {
+    "perfil": "resumos",
+    "gatilho": "indicativo"
+  },
+  "real-esquematizada-1883-f516bcc74e": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "resenha"
+  },
+  "real-esquematizada-1884-e8a5331a8e": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "sem modificações"
+  },
+  "real-esquematizada-1885-e3d44f8cf5": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "errata"
+  },
+  "real-esquematizada-1886-bea55eab76": {
+    "perfil": "indices",
+    "gatilho": "ver também"
+  },
+  "real-esquematizada-1888-aa3fc385b3": {
+    "perfil": "sumario",
+    "gatilho": "centralizada"
+  },
+  "real-esquematizada-1890-6be39724a5": {
+    "perfil": "citacoes",
+    "gatilho": "mais de quatro linhas"
+  },
+  "real-esquematizada-1891-31805d5f61": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "deve ser precedido"
+  },
+  "real-esquematizada-1894-8b187286e1": {
+    "perfil": "leitura-documentaria",
+    "gatilho": "independe de sua forma física"
+  },
+  "real-esquematizada-1895-006f41b6e9": {
+    "perfil": "trabalho-academico",
+    "gatilho": "anverso da folha de rosto"
+  },
+  "real-esquematizada-1896-6f277caceb": {
+    "perfil": "referencias",
+    "gatilho": "ciências de saúde"
+  },
+  "real-esquematizada-1897-5333660801": {
+    "perfil": "gestores-referencia",
+    "gatilho": "gerenciamento de citações"
+  },
+  "real-esquematizada-1900-2f4be788bf": {
+    "perfil": "abreviacao",
+    "gatilho": "também sejam abreviados"
+  },
+  "real-esquematizada-1901-78a622a904": {
+    "perfil": "resumos",
+    "gatilho": "informativos"
+  },
+  "real-esquematizada-1903-cc46cb7e7a": {
+    "perfil": "referencias",
+    "gatilho": "continuado indefinidamente"
+  },
+  "real-esquematizada-1907-eb739002d0": {
+    "perfil": "sumario",
+    "gatilho": "pré-textuais"
+  },
+  "real-esquematizada-1908-fc822bcf55": {
+    "perfil": "sumario",
+    "gatilho": "anverso da folha de rosto"
+  },
+  "real-esquematizada-1909-27a7a68f85": {
+    "perfil": "referencias",
+    "gatilho": "escrita por extenso"
+  },
+  "real-esquematizada-1910-36f148b1ee": {
+    "perfil": "referencias",
+    "gatilho": "meio eletrônico"
+  },
+  "real-esquematizada-1911-9bcd46924f": {
+    "perfil": "indices",
+    "gatilho": "excluídas"
+  },
+  "real-esquematizada-1912-1ad40d11c7": {
+    "perfil": "referencias",
+    "gatilho": "obrigatoriamente"
+  },
+  "real-esquematizada-1913-cb62835f53": {
+    "perfil": "referencias",
+    "gatilho": "pelo título"
+  },
+  "real-esquematizada-1914-48dcc405e6": {
+    "perfil": "abreviacao",
+    "gatilho": "casos excepcionais"
+  },
+  "real-esquematizada-1917-132e26f9a0": {
+    "perfil": "sumario",
+    "gatilho": "não devem constar"
+  },
+  "real-esquematizada-1918-aa97c70c0a": {
+    "perfil": "referencias",
+    "gatilho": "justificadas"
+  },
+  "real-esquematizada-1920-848f9c0245": {
+    "perfil": "sumario",
+    "gatilho": "priorizar"
+  },
+  "real-esquematizada-1921-9370202fae": {
+    "perfil": "indices",
+    "gatilho": "início"
+  },
+  "real-esquematizada-1922-dde699c7fe": {
+    "perfil": "referencias",
+    "gatilho": "ponto e vírgula"
+  },
+  "real-esquematizada-1923-d3253c6dbd": {
+    "perfil": "indices",
+    "gatilho": "função"
+  },
+  "real-esquematizada-1925-465fb36f1f": {
+    "perfil": "resumos",
+    "gatilho": "indicativo"
+  },
+  "real-esquematizada-1926-9f0da548bc": {
+    "perfil": "resumos",
+    "gatilho": "fundamentalmente elementos indicativos"
+  },
+  "real-esquematizada-1928-8e65536bec": {
+    "perfil": "referencias",
+    "gatilho": "editora do periódico"
+  },
+  "real-esquematizada-1929-3371185583": {
+    "perfil": "indices",
+    "gatilho": "padronizados"
+  },
+  "real-esquematizada-1932-8574d5a6aa": {
+    "perfil": "referencias",
+    "gatilho": "periodicidade"
+  },
+  "real-esquematizada-1934-567f0ef4ed": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "parágrafos finais"
+  },
+  "real-esquematizada-1935-52385ef7ea": {
+    "perfil": "indices",
+    "gatilho": "ampliam as opções"
+  },
+  "real-esquematizada-1936-b6845885ff": {
+    "perfil": "indices",
+    "gatilho": "prescinde"
+  },
+  "real-esquematizada-1937-812fdd171b": {
+    "perfil": "abreviacao",
+    "gatilho": "sigla, esta é conservada"
+  }
+}

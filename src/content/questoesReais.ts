@@ -1,5 +1,6 @@
 import type { QuestaoEstudoReverso } from '../components/common/PainelEstudoReverso';
 import itensTriados from './questoesReaisTriadas.json';
+import { enriquecerEstudoReversoReal } from './estudoReversoReais/enriquecer';
 
 export interface QuestaoReal extends QuestaoEstudoReverso {
   modulo: string;
@@ -58,4 +59,4 @@ const QUESTOES_OFICIAIS_CONFERIDAS: QuestaoReal[] = [
 ];
 
 // Atribuição e gabarito dos demais itens vêm do caderno; ainda falta confronto oficial.
-export const QUESTOES_REAIS: QuestaoReal[] = [...QUESTOES_OFICIAIS_CONFERIDAS, ...(itensTriados as QuestaoReal[])];
+export const QUESTOES_REAIS: QuestaoReal[] = [...QUESTOES_OFICIAIS_CONFERIDAS, ...(itensTriados as QuestaoReal[])].map(enriquecerEstudoReversoReal);

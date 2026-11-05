@@ -1,0 +1,441 @@
+{
+  "borko": {
+    "titulo": "Harold Borko — Information Science: What is it? (1968)",
+    "localizador": "American Documentation 19(1), 3–5; definição e relação entre aspectos puros/aplicados.",
+    "url": "https://doi.org/10.1002/asi.5090190103"
+  },
+  "buckland": {
+    "titulo": "Michael Buckland — Informação como coisa (1991)",
+    "localizador": "PDF do projeto; usos processo/conhecimento/coisa, representações e evidência.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Fundamentos/Informacao%20como%20Coisa%20%28thing%29.pdf"
+  },
+  "ifla-publica": {
+    "titulo": "IFLA/UNESCO — Public Library Manifesto 2022",
+    "localizador": "Missão, igualdade de acesso e gratuidade em princípio.",
+    "url": "https://www.ifla.org/g/public-libraries/public-library-manifesto/"
+  },
+  "etica": {
+    "titulo": "Resolução CFB 207/2018 — Código de Ética",
+    "localizador": "Reprodução pelo CRB15; deveres, proibições, ressalva de sigilo e penalidades.",
+    "url": "https://www.crb15.org.br/codigo-de-etica/"
+  },
+  "profissao": {
+    "titulo": "Lei 4.084/1962 — profissão e atribuições",
+    "localizador": "Arts. 2º–7º e 15–22; não confundir preferência e exclusividade.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4084-30-junho-1962-353848-normaatualizada-pl.html"
+  },
+  "documentacao": {
+    "titulo": "Le Coadic — A ciência da informação; fundamentos da aula 1.1",
+    "localizador": "História, ampliação do documento e acesso; confrontar também as referências de fundamentos da aula 1.1.",
+    "url": "https://drive.google.com/file/d/1BoCzv7chIikmpzNESeM96CX_7rY8k7YA/view"
+  },
+  "ranganathan": {
+    "titulo": "Alireza Noruzi — Application of Ranganathan’s Laws to the Web (2004)",
+    "localizador": "Cinco leis e aplicações; complementa As cinco leis da biblioteconomia, de Ranganathan, disponível no acervo.",
+    "url": "https://www.webology.org/2004/v1n2/a8.html"
+  },
+  "usuarios": {
+    "titulo": "Cunha, Amaral e Dantas — Manual de estudo de usuários da informação (2015)",
+    "localizador": "Necessidades, comportamento, métodos de coleta e uso dos resultados; consultar o capítulo correspondente ao conceito.",
+    "url": "https://drive.google.com/file/d/1FBR-IjekDBq75Xyvp_C41t0Zub7eJTde/view"
+  },
+  "grogan": {
+    "titulo": "Denis Grogan — A prática do serviço de referência",
+    "localizador": "Processo de referência, tipos de consulta, entrevista e negociação; exemplar do acervo.",
+    "url": "https://drive.google.com/file/d/1bQ3b2UAQQV99eHO7Rl9oLreaFQ9PenkY/view"
+  },
+  "acrl": {
+    "titulo": "ACRL — Framework for Information Literacy for Higher Education",
+    "localizador": "Competência em informação, investigação, contexto e participação; o Big6 é um modelo distinto, descrito na teoria da aula 4.4.",
+    "url": "https://www.ala.org/acrl/standards/ilframework"
+  },
+  "icp": {
+    "titulo": "IFLA — Declaração dos Princípios Internacionais de Catalogação (2016)",
+    "localizador": "Princípios, funções do catálogo e pontos de acesso; para aplicações históricas do AACR2, consultar o código indicado no item.",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/icp/icp_2016-pt.pdf"
+  },
+  "aacr-fontes": {
+    "titulo": "AACR2 — Código de Catalogação Anglo-Americano, 2ª edição, revisão 2002",
+    "localizador": "Parte I: regras gerais e capítulos por suporte; fontes prescritas, transcrição e informação suprida. Exemplar pesquisável do acervo HNC; aplicar a versão citada na questão."
+  },
+  "aacr-areas": {
+    "titulo": "AACR2 — Código de Catalogação Anglo-Americano, 2ª edição, revisão 2002",
+    "localizador": "Parte I: áreas, níveis e elementos da descrição; separar capítulos do código das áreas ISBD. Exemplar pesquisável do acervo HNC; aplicar a versão citada na questão."
+  },
+  "aacr-transcricao": {
+    "titulo": "AACR2 — Código de Catalogação Anglo-Americano, 2ª edição, revisão 2002",
+    "localizador": "Parte I, cap. 1: pontuação, incorreções, título e responsabilidade; regras 1.0, 1.1 e complementares por material. Exemplar pesquisável do acervo HNC; aplicar a versão citada na questão."
+  },
+  "aacr-acesso": {
+    "titulo": "AACR2 — Código de Catalogação Anglo-Americano, 2ª edição, revisão 2002",
+    "localizador": "Parte II: escolha e forma dos pontos de acesso; capítulos 21–26, conforme o tipo de responsabilidade. Exemplar pesquisável do acervo HNC; aplicar a versão citada na questão."
+  },
+  "aacr-multimeios": {
+    "titulo": "AACR2 — Código de Catalogação Anglo-Americano, 2ª edição, revisão 2002",
+    "localizador": "Parte I: capítulos específicos para imagens, gravações e outros suportes; descrição e análise do material. Exemplar pesquisável do acervo HNC; aplicar a versão citada na questão."
+  },
+  "rda": {
+    "titulo": "RDA Steering Committee — RDA Registry FAQ",
+    "localizador": "Padrão de conteúdo, alinhamento a modelos e codificações; distinguir RDA original e RDA oficial atualizado.",
+    "url": "https://www.rdaregistry.info/rgAbout/rgFAQ.html"
+  },
+  "frbr": {
+    "titulo": "IFLA — Functional Requirements for Bibliographic Records",
+    "localizador": "Modelo clássico, entidades, atributos, relações e tarefas do usuário; relatório com correções de 2009.",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr_2008.pdf"
+  },
+  "marc": {
+    "titulo": "Library of Congress — MARC 21 Format for Bibliographic Data",
+    "localizador": "Introduction, Leader, Directory, Control Fields e definições das faixas e campos mencionados.",
+    "url": "https://www.loc.gov/marc/bibliographic/"
+  },
+  "dcmi": {
+    "titulo": "DCMI — DCMI Metadata Terms",
+    "localizador": "Elementos Dublin Core, definições, relações e perfis de aplicação; distinguir o conjunto básico dos termos ampliados.",
+    "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+  },
+  "classificacao": {
+    "titulo": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU",
+    "localizador": "3ª ed., 2020: sinais e arquivamento; distinguir política local e regra geral.",
+    "url": "https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf"
+  },
+  "udc": {
+    "titulo": "UDC Consortium — UDC Summary",
+    "localizador": "Classes e sinais; sumário não substitui tabelas completas da edição.",
+    "url": "https://udcsummary.info/php/index.php?lang=pt"
+  },
+  "cdd": {
+    "titulo": "OCLC — Introduction to the Dewey Decimal Classification",
+    "localizador": "Princípios, tabelas e construção; a introdução antiga do acervo é da edição 21 e não foi tomada como edição 23.",
+    "url": "https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf"
+  },
+  "cddir": {
+    "titulo": "Senado Federal — Classificação Decimal de Direito",
+    "localizador": "Apresentação e tabelas da edição citada; ramos e divisões de forma.",
+    "url": "https://adm.senado.leg.br/cddir/vocab/sobre.php"
+  },
+  "indexacao": {
+    "titulo": "Lancaster — Indexação e resumos: teoria e prática; ABNT NBR 12676",
+    "localizador": "Análise, tradução, política, leitura, coerência, cobertura e resumos; conferir capítulos e a edição da norma pertinente.",
+    "url": "https://drive.google.com/file/d/1W36WPU_n_QFBVQgEdnSc1TMbaMi_AnIW/view"
+  },
+  "skos": {
+    "titulo": "W3C — SKOS Reference",
+    "localizador": "Rótulos por idioma, relações e mapeamentos; não é simples formato de serialização.",
+    "url": "https://www.w3.org/TR/skos-reference/"
+  },
+  "owl": {
+    "titulo": "W3C — OWL 2 Web Ontology Language: Overview",
+    "localizador": "Conceitos, propriedades, indivíduos e axiomas; complementar com SKOS Reference para tesauros e outros SOC.",
+    "url": "https://www.w3.org/TR/owl2-overview/"
+  },
+  "rdf": {
+    "titulo": "W3C — RDF 1.1 Concepts and Abstract Syntax",
+    "localizador": "Triplas, recursos, IRIs e grafos; representação de dados e relações.",
+    "url": "https://www.w3.org/TR/rdf11-concepts/"
+  },
+  "folksonomia": {
+    "titulo": "Thomas Vander Wal — Folksonomy",
+    "localizador": "Definição do autor: organização por etiquetagem social e resultado do processo.",
+    "url": "https://vanderwal.net/folksonomy.html"
+  },
+  "recuperacao": {
+    "titulo": "Manning, Raghavan e Schütze — Introduction to Information Retrieval",
+    "localizador": "Capítulos de índices, busca, modelo vetorial e avaliação; precisão e revocação usam conjuntos de referência diferentes.",
+    "url": "https://nlp.stanford.edu/IR-book/"
+  },
+  "fontes": {
+    "titulo": "Cunha e Cavalcanti — Dicionário de biblioteconomia e arquivologia (2008)",
+    "localizador": "Verbetes de bibliografia, catálogo, fontes, bases de dados e repertórios; tipologias variam conforme o referencial. Exemplar no acervo HNC."
+  },
+  "portais": {
+    "titulo": "CAPES — Portal de Periódicos; fontes e bases da aula 4.2",
+    "localizador": "Acesso a recursos abertos e licenciados; para Redalyc, Google Acadêmico, CCN e Ulrich, conferir também os provedores e o contexto do item.",
+    "url": "https://www.periodicos.capes.gov.br/"
+  },
+  "juridica": {
+    "titulo": "Cecília Andreotti Atienza — Documentação jurídica (1979)",
+    "localizador": "Legislação, jurisprudência, doutrina e instrumentos de controle; leis e portais exigem atualização pela fonte oficial.",
+    "url": "https://drive.google.com/file/d/11kYxAAyrSY7yEu5YzFnlBZM3XI_D7Sq_/view"
+  },
+  "dou": {
+    "titulo": "Decreto 9.215/2017 — publicação do DOU",
+    "localizador": "Arts. 2º–4º; consultar texto vigente no corte. Há exemplar impresso para arquivo.",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9215-29-novembro-2017-785835-normaatualizada-pe.html"
+  },
+  "lei11419": {
+    "titulo": "Lei nº 11.419/2006",
+    "localizador": "Art. 4º, publicação eletrônica, assinatura, data de publicação e início de prazo; observar regimes processuais específicos e alterações posteriores.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm"
+  },
+  "rvbi": {
+    "titulo": "Senado Federal — A RVBI",
+    "localizador": "Coordenação, cooperação e instrumentos compartilhados.",
+    "url": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi"
+  },
+  "redes": {
+    "titulo": "Senado Federal — A RVBI",
+    "localizador": "Cooperação, gestão e padrões compartilhados; exemplos didáticos não constituem lista de requisitos universais de toda rede.",
+    "url": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi"
+  },
+  "lexml": {
+    "titulo": "Projeto LexML Brasil — documentação técnica",
+    "localizador": "Arquitetura, identificação e coleta de metadados; complementar com a especificação OAI-PMH e a teoria da aula 4.3.",
+    "url": "https://projeto.lexml.gov.br/"
+  },
+  "bdjur": {
+    "titulo": "Superior Tribunal de Justiça — Biblioteca Digital Jurídica (BDJur)",
+    "localizador": "Apresentação, coleções e gestão de documentos; composição de redes e ferramentas deve ser conferida para a data da prova.",
+    "url": "https://bdjur.stj.jus.br/"
+  },
+  "planejamento": {
+    "titulo": "Maria Christina Barbosa de Almeida — Planejamento de bibliotecas e serviços de informação",
+    "localizador": "Planejamento, diagnóstico, níveis, instrumentos e avaliação; temas complementares de administração são desenvolvidos na aula 5.1.",
+    "url": "https://drive.google.com/file/d/1cge87nw_8peDjXXELbuxSlq3mdJv8qsH/view"
+  },
+  "avaliacao": {
+    "titulo": "ISO 11620:2023 — Library performance indicators",
+    "localizador": "Indicadores de desempenho; complementar com Almeida e a metodologia LibQUAL para avaliação de serviços e percepção de qualidade.",
+    "url": "https://www.iso.org/standard/83126.html"
+  },
+  "marketing": {
+    "titulo": "Sueli Angélica do Amaral — Marketing: abordagem em unidades de informação",
+    "localizador": "Orientação para o usuário, diagnóstico, segmentação, promoção, planejamento e relacionamento.",
+    "url": "https://drive.google.com/file/d/1tVFkYrNdiAATU98yu_QPXODZHhl3fmb0/view"
+  },
+  "colecoes": {
+    "titulo": "Waldomiro Vergueiro — Desenvolvimento de coleções",
+    "localizador": "Processo sistêmico, política, seleção, aquisição, avaliação e desbaste; legislação de aquisição deve ser conferida no período aplicável.",
+    "url": "https://drive.google.com/file/d/1WmhzGagoz9Rf4q0gKEVh4_0AD9neqFhD/view"
+  },
+  "selecao": {
+    "titulo": "Waldomiro Vergueiro — Seleção de materiais de informação: princípios e técnicas",
+    "localizador": "Critérios, responsabilidade, fontes de seleção e adequação ao público e à instituição.",
+    "url": "https://drive.google.com/file/d/19gWE_BQvWCm1SsIV5FD68LOkpwYoSdEm/view"
+  },
+  "conspectus": {
+    "titulo": "IFLA — Guidelines for a Collection Development Policy Using the Conspectus Model (2001)",
+    "localizador": "Política, áreas temáticas e níveis de profundidade; não confundir com mera quantidade de exemplares.",
+    "url": "https://www.ifla.org/wp-content/uploads/2019/05/assets/acquisition-collection-development/publications/gcdp-en.pdf"
+  },
+  "crew": {
+    "titulo": "Texas State Library and Archives Commission — CREW",
+    "localizador": "Revisão contínua, avaliação e retirada; procedimentos locais de descarte precisam observar a política e a legislação.",
+    "url": "https://www.tsl.texas.gov/ld/pubs/crew/index.html"
+  },
+  "raridade": {
+    "titulo": "Fundação Biblioteca Nacional — PLANOR",
+    "localizador": "Orientações sobre acervos raros; critérios devem ser explicitados pela instituição e pelo exame do exemplar.",
+    "url": "https://www.gov.br/bn/pt-br/acesso-a-informacao-2/acoes-e-programas/atividades-da-bn/planos-de-preservacao/plano-nacional-de-recuperacao-de-obras-raras-planor"
+  },
+  "choo": {
+    "titulo": "Choo — A organização do conhecimento",
+    "localizador": "Construção de significado, criação de conhecimento e tomada de decisões; texto do projeto.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Gest%C3%A3o%20e%20Cole%C3%A7%C3%B5es/choo-chun-wei-a-organizac3a7c3a3o-do-conhecimento.pdf"
+  },
+  "conhecimento": {
+    "titulo": "Nonaka e Konno — The Concept of Ba (1998)",
+    "localizador": "Contexto compartilhado e criação de conhecimento; identificação bibliográfica no periódico.",
+    "url": "https://cmr.berkeley.edu/1998/05/40-3-the-concept-of-ba-building-a-foundation-for-knowledge-creation/"
+  },
+  "bdigital": {
+    "titulo": "IFLA — UNESCO endorses the Manifesto for Digital Libraries",
+    "localizador": "Chancela na Conferência Geral da UNESCO em 2011; distinguir elaboração e adoção.",
+    "url": "https://www.ifla.org/news/unesco-endorses-the-ifla-manifesto-for-digital-libraries/"
+  },
+  "usabilidade": {
+    "titulo": "Nielsen — 10 Usability Heuristics",
+    "localizador": "Critérios de inspeção; casos da aula são exemplos próprios.",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+  },
+  "digital-licencas": {
+    "titulo": "IFLA — eLending; W3C — EPUB 3.3",
+    "localizador": "Políticas e licenças de empréstimo digital na teoria 6.1; especificação EPUB, documentos de conteúdo, recursos e empacotamento.",
+    "url": "https://www.w3.org/TR/epub-33/"
+  },
+  "niso-metadados": {
+    "titulo": "Jenn Riley / NISO — Understanding Metadata (2017)",
+    "localizador": "Tipos, padrões, interoperabilidade e uso de metadados no patrimônio cultural.",
+    "url": "https://www.niso.org/publications/understanding-metadata-2017"
+  },
+  "z3950": {
+    "titulo": "Library of Congress — Z39.50 Maintenance Agency",
+    "localizador": "Protocolo cliente-servidor de busca e recuperação; não confundir com ISO 2709, Z39.19 ou OAI-PMH.",
+    "url": "https://www.loc.gov/standards/z3950/agency/"
+  },
+  "oai": {
+    "titulo": "Open Archives Initiative — Protocol for Metadata Harvesting 2.0",
+    "localizador": "Introdução, provedores, registros, HTTP, XML e coleta; acesso ao objeto descrito segue suas próprias condições.",
+    "url": "https://www.openarchives.org/OAI/openarchivesprotocol.html"
+  },
+  "koha": {
+    "titulo": "Koha Community — About",
+    "localizador": "Módulos, padrões, licença e funcionalidades do sistema integrado de bibliotecas; requisitos locais precisam ser avaliados.",
+    "url": "https://koha-community.org/about/"
+  },
+  "software": {
+    "titulo": "DSpace — documentação; Koha Community; PKP/OJS",
+    "localizador": "Finalidades e licenças: repositório, gestão de bibliotecas e editoração. Conferir produtos e versões citados, sem supor funções idênticas.",
+    "url": "https://wiki.lyrasis.org/display/DSDOC/"
+  },
+  "premis": {
+    "titulo": "Library of Congress — PREMIS 3.0",
+    "localizador": "Quatro entidades e documentação de preservação; distinguir modelos históricos.",
+    "url": "https://www.loc.gov/standards/premis/v3/"
+  },
+  "oais": {
+    "titulo": "CCSDS — OAIS Reference Model, 650.0-M-3",
+    "localizador": "Dezembro de 2024; seções 1–4 e mudanças. Complementa o preview ISO 14721:2025 do acervo, que não é o texto integral da norma. Curadoria: DCC Curation Lifecycle Model, ligado na aula 6.3.",
+    "url": "https://ccsds.org/Pubs/650x0m3.pdf"
+  },
+  "fair": {
+    "titulo": "GO FAIR Foundation — FAIR Guiding Principles",
+    "localizador": "F, A, I e R; em especial A1.2, autenticação e autorização quando necessárias.",
+    "url": "https://www.gofair.foundation/fair-principles"
+  },
+  "doi": {
+    "titulo": "DOI Foundation — What is a DOI?",
+    "localizador": "Identificação persistente, resolução, metadados e atualização de localizações.",
+    "url": "https://www.doi.org/the-identifier/what-is-a-doi/"
+  },
+  "mods-mets": {
+    "titulo": "Library of Congress — MODS e METS",
+    "localizador": "MODS: esquema bibliográfico; METS: metadados descritivos, administrativos e estruturais; páginas oficiais dos padrões.",
+    "url": "https://www.loc.gov/standards/mods/"
+  },
+  "sistemas": {
+    "titulo": "Teoria da plataforma — sistemas de informação, aulas 5.4 e 6.5",
+    "localizador": "Pessoas, dados, processos, tecnologia, entradas, processamento, saídas e realimentação; exemplos são aplicações didáticas, não definições de um produto específico."
+  },
+  "postgres": {
+    "titulo": "PostgreSQL — documentação, Data Definition e Constraints",
+    "localizador": "Tabelas, colunas, registros e integridade; separar modelo de dados, linguagem SQL, SGBD e aplicações.",
+    "url": "https://www.postgresql.org/docs/18/ddl-constraints.html"
+  },
+  "hardware": {
+    "titulo": "OpenStax — Introduction to Computer Science",
+    "localizador": "Capítulo 5: organização do computador e hierarquia de memória; capítulo 6: sistema operacional.",
+    "url": "https://openstax.org/books/introduction-computer-science/pages/5-1-computer-systems-organization"
+  },
+  "redes-ti": {
+    "titulo": "IETF — RFC 9293 (TCP) e RFC 9110 (HTTP)",
+    "localizador": "Funções de transporte e aplicação; redes, IP e interconexão são tratados na teoria da aula 14.2.",
+    "url": "https://www.rfc-editor.org/rfc/rfc9293.html"
+  },
+  "cert": {
+    "titulo": "CERT.br — Cartilha de Segurança para Internet",
+    "localizador": "Princípios, proteção de dados e cuidados; integridade, disponibilidade, confidencialidade e autenticidade.",
+    "url": "https://cartilha.cert.br/"
+  },
+  "ocr": {
+    "titulo": "Tesseract OCR — documentação",
+    "localizador": "Reconhecimento de caracteres, preparação de imagem, segmentação e qualidade; distinguir captura e reconhecimento.",
+    "url": "https://tesseract-ocr.github.io/tessdoc/"
+  },
+  "mineracao": {
+    "titulo": "Manning, Raghavan e Schütze — Introduction to Information Retrieval",
+    "localizador": "Representação textual, classificação, agrupamento e métodos computacionais; na teoria 6.4, distinguir tarefas de PLN.",
+    "url": "https://nlp.stanford.edu/IR-book/"
+  },
+  "bigdata": {
+    "titulo": "NIST — Big Data Interoperability Framework",
+    "localizador": "Volume 1: definições e características dos dados; modelo dos Vs e desafios de escala.",
+    "url": "https://doi.org/10.6028/NIST.SP.1500-1r2"
+  },
+  "cf62": {
+    "titulo": "Constituição Federal de 1988",
+    "localizador": "Art. 62: competência de edição, relevância e urgência, limites e apreciação de medidas provisórias.",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  },
+  "nbr6023": {
+    "titulo": "ABNT NBR 6023:2025 e edições históricas citadas",
+    "localizador": "Elaboração de referências; conferir a edição expressa no item e o tipo documental. O arquivo do acervo reúne material para o estudo atualizado.",
+    "url": "https://drive.google.com/file/d/1hQgyfA0O3ALx-V_6BGbZU6jcc2rMP9DX/view"
+  },
+  "nbr10520": {
+    "titulo": "ABNT NBR 10520:2023",
+    "localizador": "Citações diretas e indiretas; destaque, fonte, recuo e distinção entre obrigação e recomendação.",
+    "url": "https://drive.google.com/file/d/1_Ch-9EU7cABjZPZCB9KuOuvd-PsuO3rD/view"
+  },
+  "nbr14724": {
+    "titulo": "ABNT NBR 14724 — apresentação de trabalhos acadêmicos",
+    "localizador": "Conferir a edição expressa na questão; para atualização, consultar também a edição 2024 e as referências da aula 8.3.",
+    "url": "https://drive.google.com/file/d/1wNEgbIlHecNniVM9s8RJWyZsteILssoh/view"
+  },
+  "nbr6024": {
+    "titulo": "ABNT NBR 6024:2012",
+    "localizador": "Indicativos, hierarquia e títulos de seções.",
+    "url": "https://drive.google.com/file/d/1G_Jx8Obh2_J0rMKYwX1Cb2C1ZAyh6CmW/view"
+  },
+  "nbr6027": {
+    "titulo": "ABNT NBR 6027:2012 e edição 2003 quando citada",
+    "localizador": "Localização, estrutura, paginação, idiomas e exclusão de elementos pré-textuais.",
+    "url": "https://drive.google.com/file/d/1fI1FRsSp968G0oHKXV5HDGPj7QtH2w6R/view"
+  },
+  "nbr6028": {
+    "titulo": "ABNT NBR 6028:2021 e edição 2003 quando citada",
+    "localizador": "Definições e seção 4.1: redação, referência, palavras-chave e extensão; observar diferenças em relação à terminologia histórica.",
+    "url": "https://drive.google.com/file/d/14SbXMcK_E8HIAm7zyClhIsmO_JJpl6Xl/view"
+  },
+  "nbr6034": {
+    "titulo": "ABNT NBR 6034:2004 — Índice: apresentação",
+    "localizador": "Definições, cobertura, localização, ordenação, cabeçalhos e remissivas; referências da aula 8.5."
+  },
+  "nbr6032": {
+    "titulo": "ABNT NBR 6032:1989 — Abreviação de títulos de periódicos e publicações seriadas",
+    "localizador": "Palavras, raízes, siglas e formas de abreviação; aplicação histórica conforme o item e referências da aula 8.5."
+  },
+  "nbr6029": {
+    "titulo": "ABNT NBR 6029 — Livros e folhetos: apresentação",
+    "localizador": "Termos e elementos editoriais, incluindo crédito, errata e encarte; aplicar a edição do item e referências da aula 8.5."
+  },
+  "zotero": {
+    "titulo": "Zotero — Documentation",
+    "localizador": "Coleta, organização, estilos, citações e sincronização; limites e configurações dos serviços.",
+    "url": "https://www.zotero.org/support/"
+  },
+  "comunicacao": {
+    "titulo": "UNESCO — Recommendation on Open Science (2021)",
+    "localizador": "Comunicação, transparência e abertura; não pressupõe que toda pesquisa seja livre de restrições.",
+    "url": "https://www.unesco.org/en/open-science/about"
+  },
+  "pesquisa": {
+    "titulo": "Metodologia científica — referências e teoria das aulas 4.4 e 9.1",
+    "localizador": "Desenho de pesquisa, fontes, técnicas e abordagem; complementar com Manual de estudo de usuários da informação, de Cunha, Amaral e Dantas, no acervo."
+  },
+  "ojs-cope": {
+    "titulo": "PKP — Learning OJS 3; COPE — Ethical guidelines for peer reviewers",
+    "localizador": "Papéis, submissão, avaliação e edição; itens históricos do SEER/OJS 2 exigem atenção à versão.",
+    "url": "https://docs.pkp.sfu.ca/learning-ojs/en/"
+  },
+  "crossref": {
+    "titulo": "Crossref — Content registration",
+    "localizador": "Registro de DOI e metadados e conexão de referências; identificação não define licença ou acesso.",
+    "url": "https://www.crossref.org/services/content-registration/"
+  },
+  "boai": {
+    "titulo": "Budapest Open Access Initiative — Read the Declaration",
+    "localizador": "Acesso à literatura científica e modalidades de disseminação; não confundir descoberta com acesso integral.",
+    "url": "https://www.budapestopenaccessinitiative.org/read/"
+  },
+  "direitos": {
+    "titulo": "Lei nº 9.610/1998 — Direitos autorais",
+    "localizador": "Reprodução e disponibilização; licenças e restrições digitais devem ser examinadas junto à legislação e às referências da aula 9.3.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9610-19-fevereiro-1998-365399-normaatualizada-pl.html"
+  },
+  "deposito-legal": {
+    "titulo": "Fundação Biblioteca Nacional — Depósito Legal",
+    "localizador": "Lei nº 10.994/2004 e orientações sobre coleta e preservação da produção intelectual.",
+    "url": "https://www.gov.br/bn/pt-br/atuacao/deposito-legal"
+  },
+  "metricas": {
+    "titulo": "Chueke e Amatucci — O que é bibliometria? Uma introdução ao Fórum (2015)",
+    "localizador": "PDF do projeto, pp. 1–4: objeto, escolha do método, rigor e limites; as fórmulas da aula são sínteses didáticas das regularidades clássicas.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Comunica%C3%A7%C3%A3o%20cient%C3%ADfica%2C%20Ci%C3%AAncia%20Aberta%20e%20m%C3%A9tricas/ilan%2C%2B0.000%2B-%2B%5BArtigo%2Bconvidado%5D%2BO%2Bque%2B%C3%A9%2Bbibliometria%2B-%2BUma%2Bintrodu%C3%A7%C3%A3o%2Bao%2Bf%C3%B3rum.pdf"
+  },
+  "hirsch": {
+    "titulo": "Hirsch — An index to quantify an individual’s scientific research output (2005)",
+    "localizador": "Definição e limites do índice h. Complementar com Clarivate/JCR para fator de impacto e as fontes da aula 9.4 para outros indicadores.",
+    "url": "https://arxiv.org/abs/physics/0508025"
+  }
+}

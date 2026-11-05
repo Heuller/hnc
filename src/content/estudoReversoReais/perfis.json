@@ -1,0 +1,1130 @@
+{
+  "dsi": {
+    "titulo": "DSI: informação selecionada para um perfil",
+    "regra": "Disseminação seletiva da informação (DSI) é um serviço que acompanha novidades e seleciona o que corresponde aos interesses de uma pessoa ou grupo. O perfil registra esses interesses e pode ser declarado pelo usuário ou inferido, conforme o serviço e as regras de proteção de dados. A seleção é revista com o retorno dos usuários.",
+    "exemplo": "Uma bibliotecária envia semanalmente ao pesquisador apenas novos artigos sobre preservação de fotografias. Enviar a todos o mesmo boletim de aquisições seria um alerta geral, não a mesma personalização.",
+    "tecnica": "Técnica: Perfil e personalização. Verifique se a seleção depende dos interesses do destinatário. Nem todo alerta é DSI e perfil não significa, obrigatoriamente, formulário preenchido pelo usuário.",
+    "contrasteErrado": "A DSI dispensa conhecer os interesses do usuário e envia necessariamente o mesmo conteúdo a todos.",
+    "referencia": "usuarios"
+  },
+  "rss": {
+    "titulo": "RSS e serviços de alerta",
+    "regra": "RSS é um formato de atualização que permite acompanhar novidades de diferentes fontes por um agregador. Um alerta comunica novidades; torna-se personalizado quando seleciona conteúdo de acordo com um perfil. O canal usado para entregar a mensagem não define, sozinho, a natureza do serviço.",
+    "exemplo": "O bibliotecário acompanha em um agregador os feeds de três revistas e seleciona para o pesquisador apenas os artigos sobre acessibilidade. O RSS fornece as novidades; a seleção pelo perfil compõe a DSI.",
+    "tecnica": "Técnica: Ferramenta versus finalidade. RSS, correio eletrônico e redes sociais são meios de entrega ou coleta. Julgue a função informacional, sem tratar o nome da ferramenta como definição do serviço.",
+    "contrasteErrado": "RSS só permite consultar manualmente um sítio de cada vez e não pode apoiar serviços de alerta.",
+    "referencia": "usuarios"
+  },
+  "referencia": {
+    "titulo": "Serviço de referência: mediação para atender necessidades",
+    "regra": "O serviço de referência aproxima pessoas e informação por atendimento, orientação, pesquisa e educação de usuários. Pode ser presencial ou remoto. Embora dependa do acervo e do tratamento técnico, sua finalidade imediata é ajudar o usuário; não se reduz a empréstimos nem à formatação de referências bibliográficas.",
+    "exemplo": "Uma pessoa pede dados sobre bibliotecas acessíveis. O profissional esclarece o recorte, indica bases, ajuda na busca e verifica se o resultado atende à tarefa. O empréstimo pode vir depois, mas não esgota esse atendimento.",
+    "tecnica": "Técnica: Redução do conceito. A banca pode substituir o conjunto de atividades de referência por uma única operação, como empréstimo, elaboração de referências ou disponibilização de um buscador.",
+    "contrasteErrado": "O serviço de referência limita-se a registrar empréstimos e independe do tratamento técnico do acervo.",
+    "referencia": "grogan"
+  },
+  "cooperacao-ref": {
+    "titulo": "Cooperação no atendimento de referência",
+    "regra": "Bibliotecas podem compartilhar equipe, fontes, tecnologias e encaminhamento de perguntas. A cooperação amplia possibilidades de atendimento e cobertura de horários, mas exige acordos, responsabilidades e proteção dos dados dos usuários. Compartilhar recursos não retira do serviço seu público externo.",
+    "exemplo": "Uma biblioteca encaminha uma consulta especializada a outra instituição da rede. Em arranjos entre fusos horários, uma equipe pode assumir o atendimento quando a outra encerra o expediente; isso exige organização, não ocorre por simples adesão.",
+    "tecnica": "Técnica: Possibilidade e condição obrigatória. Cooperação não se restringe a processamento técnico. Observe se o item nega o atendimento compartilhado ou acrescenta requisitos que não são universais.",
+    "contrasteErrado": "A cooperação entre bibliotecas serve apenas ao processamento técnico e não pode apoiar o atendimento de referência.",
+    "referencia": "grogan"
+  },
+  "referencia-virtual": {
+    "titulo": "Referência virtual: canal e tempo de interação",
+    "regra": "Referência virtual é atendimento mediado por tecnologias de comunicação. Pode ser síncrono, com interação simultânea, ou assíncrono, com resposta posterior. Chats, videochamadas, correio eletrônico e redes sociais têm possibilidades distintas; a escolha exige planejamento, acessibilidade, privacidade e política de atendimento.",
+    "exemplo": "Uma dúvida respondida por chat durante a sessão é atendimento síncrono. Uma pergunta recebida por e-mail e respondida no dia seguinte é assíncrona. Ambos podem integrar a referência virtual.",
+    "tecnica": "Técnica: Troca de canal ou de modalidade. Não confunda digital com tempo real nem colaboração na Web com definição de todo serviço virtual. Compare a simultaneidade exigida em cada ferramenta.",
+    "contrasteErrado": "Todo atendimento de referência virtual é síncrono; mensagens por correio eletrônico são necessariamente respondidas em tempo real.",
+    "referencia": "usuarios"
+  },
+  "processo-ref": {
+    "titulo": "Processo de referência: da necessidade à solução",
+    "regra": "No modelo de Grogan, os oito passos são problema, necessidade de informação, questão inicial, questão negociada, estratégia de busca, processo de busca, resposta e solução. É uma sequência lógica, com possibilidade de retorno e renegociação. O problema e a necessidade antecedem a pergunta formulada ao bibliotecário; entregar uma resposta não garante solucionar a necessidade.",
+    "exemplo": "O usuário pede “um livro sobre direito”, mas precisa comparar regras de acesso à informação para um parecer. A negociação esclarece a tarefa antes da busca. Depois da entrega, verifica-se se o material realmente permite elaborar o parecer.",
+    "tecnica": "Técnica: Inversão da sequência e encerramento prematuro. Localize onde o processo começa e se a satisfação da necessidade foi verificada. A busca e a entrega da resposta são etapas, não o processo inteiro.",
+    "contrasteErrado": "O processo de referência começa pela busca no acervo e termina obrigatoriamente assim que uma resposta é entregue.",
+    "referencia": "grogan"
+  },
+  "entrevista-ref": {
+    "titulo": "Entrevista de referência: negociar a pergunta",
+    "regra": "A entrevista de referência é o diálogo que esclarece a necessidade real, a finalidade, o prazo, o nível de profundidade e os limites da busca. A questão inicial pode mudar com a negociação. Escuta, linguagem verbal e sinais não verbais ajudam; um roteiro orienta o atendimento, mas não garante que todos precisem das mesmas perguntas.",
+    "exemplo": "“Preciso de livros sobre indexação” pode significar estudar para uma prova ou elaborar uma política institucional. Perguntar para que a informação será usada muda a seleção das fontes e a profundidade da resposta.",
+    "tecnica": "Técnica: Pergunta expressa versus necessidade real. Não aceite que a primeira formulação dispense esclarecimento. Roteiros são apoio e devem ser ajustados à situação, sem promessa automática de rapidez.",
+    "contrasteErrado": "A primeira pergunta do usuário expressa sempre toda a necessidade e deve ser aceita sem negociação.",
+    "referencia": "grogan"
+  },
+  "estudos-usuarios": {
+    "titulo": "Estudos de usuários: conhecer para planejar",
+    "regra": "Estudos de usuários investigam necessidades, demandas, práticas de busca, usos, barreiras e satisfação. Seus resultados orientam planejamento, serviços, avaliação e educação de usuários. Incluem o contexto social e os usuários potenciais; a periodicidade e o alcance das conclusões dependem dos objetivos e do desenho da pesquisa.",
+    "exemplo": "Ao ouvir alunos que evitam o catálogo, a biblioteca descobre barreiras na terminologia e oferece orientação e melhorias na interface. Contar somente os frequentadores teria deixado parte do problema invisível.",
+    "tecnica": "Técnica: Exclusão de público ou imposição de regra universal. Investigue quem foi ouvido, para qual decisão e com qual método. Um estudo local não exige generalização estatística nem periodicidade semestral ou anual obrigatória.",
+    "contrasteErrado": "Estudos de usuários servem apenas para contar frequentadores e não influenciam o planejamento ou os serviços de referência.",
+    "referencia": "usuarios"
+  },
+  "metodos-usuarios": {
+    "titulo": "Métodos de pesquisa: escolher pelo objetivo",
+    "regra": "Métodos quantitativos ajudam a medir frequências e distribuições; qualitativos aprofundam significados, experiências e contextos. Entrevistas podem ter diferentes graus de estruturação, e dados qualitativos podem ser categorizados e contados. Um estudo misto integra efetivamente dados ou análises quantitativas e qualitativas, não apenas duas técnicas diferentes.",
+    "exemplo": "Um questionário registra quantos usuários abandonam uma busca; entrevistas exploram por que abandonam. Integrar as duas análises produz um estudo misto. Aplicar apenas duas técnicas qualitativas não basta para caracterizá-lo.",
+    "tecnica": "Técnica: Técnica não determina sozinha a abordagem. Verifique a estrutura do instrumento, a natureza dos dados e sua análise. Não classifique questionário, entrevista e log como se todos produzissem sempre o mesmo tipo de evidência.",
+    "contrasteErrado": "Todo questionário, toda entrevista e toda análise de log constituem obrigatoriamente pesquisa qualitativa.",
+    "referencia": "usuarios"
+  },
+  "entrevista-pesquisa": {
+    "titulo": "Entrevista em pesquisa: roteiro, interação e viés",
+    "regra": "A entrevista de pesquisa recolhe dados para uma investigação; a entrevista de referência esclarece uma necessidade para atendê-la. Em ambas há interação, mas os objetivos diferem. Estrutura, preparação e condições de aplicação afetam os resultados. Entrevistador e entrevistado podem introduzir distorções; sinais não verbais também comunicam.",
+    "exemplo": "Perguntar “você não acha nosso catálogo excelente?” induz uma resposta. Um roteiro neutro e perguntas de aprofundamento ajudam a compreender a experiência, mas não eliminam todo viés nem dispensam consentimento e confidencialidade.",
+    "tecnica": "Técnica: Confusão de finalidade e de grau de estruturação. Questões fixas e ordenadas caracterizam entrevista estruturada; abertura e flexibilidade caracterizam a não estruturada. Não reduza a comunicação às palavras.",
+    "contrasteErrado": "Na entrevista, apenas o entrevistado pode distorcer os dados e a comunicação não verbal não interfere na interação.",
+    "referencia": "usuarios"
+  },
+  "focal-delphi": {
+    "titulo": "Grupo focal e Delphi: técnicas diferentes",
+    "regra": "Grupo focal é uma discussão orientada por moderador para explorar percepções e experiências do grupo. Delphi consulta especialistas em rodadas, normalmente preservando o anonimato das respostas e oferecendo devolutivas para revisão dos julgamentos. Uma reunião de debate não se transforma em Delphi apenas por reunir pessoas experientes.",
+    "exemplo": "Para compreender dificuldades no empréstimo, a biblioteca promove discussão moderada com usuários. Para prospectar tendências de serviços, consulta especialistas em rodadas por questionário: essa segunda estrutura se aproxima de Delphi.",
+    "tecnica": "Técnica: Troca de definições. Identifique discussão moderada, rodadas, especialistas e devolutiva. O nome da técnica precisa corresponder ao procedimento descrito.",
+    "contrasteErrado": "Grupo focal é uma consulta anônima em rodadas a especialistas; Delphi exige discussão presencial simultânea entre usuários.",
+    "referencia": "usuarios"
+  },
+  "necessidade-demanda": {
+    "titulo": "Necessidade, demanda e uso da informação",
+    "regra": "Necessidade é uma lacuna ou exigência informacional; demanda é sua expressão em uma solicitação; uso é o que se faz com a informação obtida. Nem toda necessidade é percebida ou verbalizada, e uma demanda pode ser uma tradução incompleta da necessidade. Conhecer para compreender e conhecer para agir são motivações relacionadas, mas distinguíveis.",
+    "exemplo": "Alguém pede a lei mais recente, mas precisa saber qual regra valia na data de um contrato. A demanda foi por um documento; a necessidade envolve uma situação e um recorte temporal que a entrevista deve esclarecer.",
+    "tecnica": "Técnica: Equivalência indevida entre conceitos. Pergunte se o item trata de lacuna, solicitação expressa ou aplicação da informação. A existência de uma demanda não garante correspondência perfeita com a necessidade.",
+    "contrasteErrado": "Necessidade e demanda são sinônimos, porque todo usuário pede exatamente toda a informação de que precisa.",
+    "referencia": "usuarios"
+  },
+  "comportamento": {
+    "titulo": "Comportamento informacional: mais que buscar",
+    "regra": "Comportamento informacional abrange a relação das pessoas com fontes, necessidades, busca, encontro ocasional, uso e compartilhamento de informação. Modelos explicam dimensões diferentes desse processo. Em Wilson, necessidades cognitivas, afetivas e fisiológicas e o contexto ajudam a compreender por que uma busca ocorre ou é dificultada.",
+    "exemplo": "Uma estudante busca deliberadamente artigos para o TCC e encontra por acaso uma fonte útil numa conversa. As duas situações integram seu comportamento informacional; apenas a primeira começou como busca intencional.",
+    "tecnica": "Técnica: Parte pelo todo. Busca deliberada é uma parte do comportamento informacional. Observe se o enunciado exclui encontro acidental, contexto ou dimensões afetivas que o modelo considera.",
+    "contrasteErrado": "Comportamento informacional compreende apenas buscas intencionais e exclui qualquer encontro acidental com informação.",
+    "referencia": "usuarios"
+  },
+  "abordagens-usuario": {
+    "titulo": "Abordagens centradas no usuário e estado anômalo",
+    "regra": "Abordagens tradicionais tendem a focalizar sistemas e uso de fontes; abordagens alternativas destacam experiências, contexto e construção de significado pelo usuário. No estado anômalo de conhecimento, a pessoa percebe insuficiência ou inadequação no que sabe, o que pode dificultar até formular a pergunta.",
+    "exemplo": "Um pesquisador sabe que sua revisão está incompleta, mas não identifica quais termos faltam. O atendimento precisa explorar seu problema e o que já conhece, em vez de exigir uma pergunta pronta para aceitar a consulta.",
+    "tecnica": "Técnica: Troca de paradigma. Centralidade do sujeito e de sua lacuna cognitiva aproxima o enunciado das abordagens alternativas; contagens de uso do sistema não esgotam essa perspectiva.",
+    "contrasteErrado": "O estado anômalo de conhecimento pertence exclusivamente à abordagem centrada nos sistemas e dispensa compreender o usuário.",
+    "referencia": "usuarios"
+  },
+  "sense-making": {
+    "titulo": "Sense-Making: situação, lacuna e construção de sentido",
+    "regra": "Na abordagem de Brenda Dervin, a pessoa constrói sentido em uma situação, enfrenta uma lacuna e procura pontes para continuar sua ação. Importam a experiência e a perspectiva do sujeito. Entrevistas contextualizadas podem explorar esse percurso; não se trata de um aplicativo Web nem de um método definido por contagens.",
+    "exemplo": "Uma servidora precisa produzir um relatório, percebe que não compreende um indicador e procura uma explicação que lhe permita continuar. Investigar a situação, a dúvida e a ajuda obtida revela a construção de sentido.",
+    "tecnica": "Técnica: Nome sugestivo não é definição. Relacione Sense-Making à experiência contextualizada e à construção de sentido. Ferramentas tecnológicas e quantificação podem apoiar pesquisas, mas não definem essa abordagem.",
+    "contrasteErrado": "Sense-Making é uma tecnologia Web definida pela coleta exclusivamente quantitativa de acessos.",
+    "referencia": "usuarios"
+  },
+  "competencia-info": {
+    "titulo": "Competência em informação: autonomia e uso crítico",
+    "regra": "Competência em informação envolve reconhecer uma necessidade, localizar, avaliar, usar e comunicar informação com reflexão e ética. A orientação bibliográfica integra esse trabalho, mas aprender comandos não esgota a competência. No Big6, as etapas vão da definição da tarefa à avaliação do processo e do produto.",
+    "exemplo": "Uma aluna aprende a escolher palavras-chave, confrontar a autoria das fontes e citar o que utiliza. Conseguir apenas abrir uma base não prova que ela sabe avaliar a qualidade e a pertinência do resultado.",
+    "tecnica": "Técnica: Redução da aprendizagem à ferramenta. Verifique se o enunciado contempla necessidade, avaliação e uso responsável. Referência e educação de usuários podem apoiar a autonomia, não apenas fornecer respostas prontas.",
+    "contrasteErrado": "Competência em informação limita-se a operar equipamentos e dispensa avaliar fontes e usar informação com ética.",
+    "referencia": "acrl"
+  },
+  "juridica": {
+    "titulo": "Legislação, jurisprudência e doutrina",
+    "regra": "A informação jurídica costuma ser estudada em três grandes vertentes: legislação, que estabelece normas; jurisprudência, relacionada às decisões judiciais; e doutrina, que analisa, interpreta e discute o direito. Documentos administrativos e peças de processos também têm interesse jurídico, mas não são todos decisões judiciais.",
+    "exemplo": "Uma lei sobre direitos autorais é legislação; o acórdão que resolve um recurso é decisão judicial; um livro que interpreta a lei é doutrina. Um contrato não se torna jurisprudência por tratar de matéria jurídica.",
+    "tecnica": "Técnica: Troca de categoria. Identifique quem produziu o documento e com qual função: normatizar, decidir um caso ou desenvolver análise. Formato digital e assunto jurídico não alteram automaticamente essa função.",
+    "contrasteErrado": "Doutrina é o conjunto de normas editadas pelo Estado, enquanto contratos e petições são necessariamente jurisprudência.",
+    "referencia": "juridica"
+  },
+  "dou": {
+    "titulo": "Diário Oficial da União: finalidade das seções",
+    "regra": "O DOU publica atos oficiais. Em sua estrutura de três seções, a Seção 1 reúne atos normativos de interesse geral; a Seção 2, atos relativos a pessoal; e a Seção 3, contratos, editais, avisos e ineditoriais. A edição eletrônica tem assinatura digital e acesso público. Regras de edição extra e suplemento devem ser distinguidas da divisão temática.",
+    "exemplo": "Para localizar uma nomeação, comece pela Seção 2. Para procurar um aviso de licitação, consulte a Seção 3. Um decreto normativo de interesse geral pertence à Seção 1. O assunto do ato, e não o cargo de quem o assina, orienta a escolha.",
+    "tecnica": "Técnica: Permuta de seções e de características. A banca pode conservar exemplos corretos e trocar o número da seção, ou confundir edição extra e suplemento. Relacione cada ato à sua função.",
+    "contrasteErrado": "Nomeações são publicadas na Seção 3, e contratos e editais pertencem à Seção 2 do DOU.",
+    "referencia": "dou"
+  },
+  "diario-justica": {
+    "titulo": "Diário de Justiça eletrônico: publicação e prazo",
+    "regra": "Na disciplina da Lei nº 11.419/2006, a publicação eletrônica exige autenticidade e integridade. A data da publicação é o primeiro dia útil seguinte ao da disponibilização; o prazo processual começa no primeiro dia útil que se segue à data considerada como publicação. Há exceções legais à substituição de outros meios de comunicação. Confira a legislação e o regime processual aplicável à data da questão.",
+    "exemplo": "Se o documento é disponibilizado numa segunda-feira útil, terça é a data de publicação e quarta é o início do prazo, desde que todos sejam dias úteis e não haja regra específica ou suspensão. Disponibilização, publicação e início do prazo são marcos diferentes.",
+    "tecnica": "Técnica: Deslocamento de um dia. Reconstrua a sequência disponibilização → publicação → início do prazo. Não aplique essa regra indistintamente a qualquer intimação eletrônica, portal ou sistema processual.",
+    "contrasteErrado": "A data da publicação no Diário de Justiça eletrônico é sempre a própria data da disponibilização.",
+    "referencia": "lei11419"
+  },
+  "redes-bibliotecas": {
+    "titulo": "Rede cooperativa: integração com autonomia local",
+    "regra": "Uma rede de bibliotecas compartilha serviços, dados e recursos mediante acordos e padrões comuns. Autonomia administrativa local pode coexistir com normalização e coordenação da rede. Empréstimo entre bibliotecas, catalogação cooperativa e referência são possibilidades de cooperação, com arranjos próprios.",
+    "exemplo": "Duas bibliotecas mantêm seus orçamentos e regras internas, mas utilizam autoridades comuns no catálogo coletivo e combinam empréstimos. Autonomia administrativa não significa criar uma indexação incompatível com a busca conjunta.",
+    "tecnica": "Técnica: Autonomia versus isolamento. Diferencie gestão local de padrões compartilhados. A cooperação pode abranger atividades técnicas e atendimento ao usuário.",
+    "contrasteErrado": "Uma rede cooperativa dispensa padrões comuns, pois cada unidade deve tornar seus registros incompatíveis com os das demais.",
+    "referencia": "redes"
+  },
+  "rvbi": {
+    "titulo": "RVBI: catálogo coletivo e gestão compartilhada",
+    "regra": "A Rede Virtual de Bibliotecas (RVBI) é coordenada pela Biblioteca do Senado Federal e reúne bibliotecas cooperantes. A ênfase em direito e áreas afins não implica exclusividade temática. A integração bibliográfica e o controle de autoridades convivem com bases administrativas de cada unidade. Nomes, composição e sistemas devem ser lidos no contexto histórico da prova.",
+    "exemplo": "Uma obra de administração existente numa biblioteca cooperante pode integrar o catálogo da rede. A biblioteca mantém seus dados de empréstimo, enquanto o registro e os pontos de acesso seguem padrões da cooperação.",
+    "tecnica": "Técnica: Restrição temática ou troca do coordenador. Não confunda área predominante com assunto exclusivo nem autonomia administrativa com liberdade para romper padrões de classificação e indexação da rede.",
+    "contrasteErrado": "A RVBI trata exclusivamente de direito e cada participante define isoladamente seus padrões de indexação.",
+    "referencia": "rvbi"
+  },
+  "redes-juridicas": {
+    "titulo": "Redes e bibliotecas digitais jurídicas: identidade e escopo",
+    "regra": "Redes jurídicas têm instituições participantes, coordenação e objetivos definidos. Repositórios jurídicos organizam doutrina e outros documentos; não se confundem com bases exclusivamente jurisprudenciais. Integração por metadados não exige centralizar todos os arquivos nem adotar obrigatoriamente MARC. Composição e nome de produtos devem ser conferidos para a época do item.",
+    "exemplo": "Um portal pode pesquisar registros de repositórios de vários tribunais e encaminhar o leitor ao arquivo mantido na instituição de origem. Isso não transforma a rede em um único depósito central nem limita seu conteúdo a decisões.",
+    "tecnica": "Técnica: Mistura de redes, participantes e funções. Confira a instituição responsável e se o serviço descreve, armazena ou apenas integra registros. Não deduza a composição de uma rede a partir de siglas parecidas.",
+    "contrasteErrado": "Toda rede jurídica exige que todos os documentos sejam depositados em um único servidor e descritos exclusivamente em MARC.",
+    "referencia": "bdjur"
+  },
+  "lexml": {
+    "titulo": "LexML: integração da informação legislativa e jurídica",
+    "regra": "O LexML Brasil integra e dá acesso a informação legislativa e jurídica de diferentes órgãos e esferas. Sua arquitetura distingue identificação persistente, estruturação dos documentos e coleta de metadados. Na coleta, OAI-PMH não é sinônimo de Z39.50. O portal não assume a função de depósito legal de toda a produção intelectual jurídica.",
+    "exemplo": "Uma busca no LexML encontra a descrição de uma lei municipal e permite chegar à fonte responsável. Integrar o acesso não significa que o portal tenha produzido a lei ou custodie todo o patrimônio bibliográfico do direito.",
+    "tecnica": "Técnica: Protocolo e finalidade trocados. Diferencie colheita de metadados, busca distribuída, identificação de normas e depósito legal. A palavra interoperabilidade, sozinha, não torna os protocolos intercambiáveis.",
+    "contrasteErrado": "O LexML é responsável pelo depósito legal da produção intelectual brasileira e coleta metadados por Z39.50.",
+    "referencia": "lexml"
+  },
+  "precisao-revocacao": {
+    "titulo": "Precisão e revocação: qual é o denominador?",
+    "regra": "Precisão mede a proporção de relevantes entre os documentos recuperados. Revocação mede a proporção dos relevantes da coleção que a busca conseguiu recuperar. Relevância depende da necessidade considerada. São medidas do resultado da recuperação, não nomes das operações de escolher termos para indexar.",
+    "exemplo": "Há 40 documentos relevantes na coleção. A busca retorna 50 documentos, dos quais 10 são relevantes: precisão = 10/50 = 20%; revocação = 10/40 = 25%. Sem conhecer os 40 relevantes existentes, não se calcula essa revocação.",
+    "tecnica": "Técnica: Inversão das fórmulas. Primeiro identifique o conjunto do denominador: resultado recuperado para precisão; todos os relevantes para revocação. Percentual de documentos úteis entre os encontrados é precisão.",
+    "contrasteErrado": "Precisão divide relevantes recuperados por todos os relevantes da coleção, enquanto revocação divide relevantes recuperados por todos os recuperados.",
+    "referencia": "recuperacao"
+  },
+  "sri": {
+    "titulo": "Recuperação da informação: representação e acesso",
+    "regra": "Um sistema de recuperação articula representação, armazenamento, consulta, comparação e apresentação de resultados. Pode pesquisar registros descritivos ou texto completo. Linguagens controladas ajudam a compatibilizar os termos da consulta e da representação; linguagem natural também pode participar, conforme o sistema e seus objetivos.",
+    "exemplo": "O catálogo localiza um livro por autor ou assunto sem guardar todo o seu texto. Já um repositório pode permitir busca no PDF completo. Nos dois casos há recuperação, com possibilidades e limites diferentes.",
+    "tecnica": "Técnica: Limitar o sistema a uma operação. Observe se o item exclui texto completo, representação temática ou participação humana. O tipo de registro e os pontos de acesso determinam o que pode ser pesquisado.",
+    "contrasteErrado": "Sistemas de recuperação pesquisam apenas registros bibliográficos e não podem pesquisar texto completo.",
+    "referencia": "recuperacao"
+  },
+  "busca": {
+    "titulo": "Estratégia de busca: combinar e ajustar conceitos",
+    "regra": "A estratégia de busca traduz a necessidade em termos, campos, operadores e limites adequados à base. AND tende a restringir a interseção; OR reúne alternativas e sinônimos. Termos mais específicos restringem o assunto, enquanto subir na hierarquia costuma ampliá-lo. Buscas por intervalo ajudam em datas e números.",
+    "exemplo": "Para estudar preservação de fotografias, combine os conceitos com AND e alternativas como fotografia OR imagem fotográfica. Para restringir ao período 2020–2025, use o campo de data ou o intervalo aceito pela base.",
+    "tecnica": "Técnica: Direção da ampliação ou restrição. Verifique se a operação torna o conjunto mais amplo ou mais específico. Mesmo uma expressão lógica correta pode trazer ruído quando seus termos são ambíguos.",
+    "contrasteErrado": "Para tornar um assunto mais específico, deve-se sempre substituir seu termo pelo termo hierarquicamente mais amplo.",
+    "referencia": "recuperacao"
+  },
+  "busca-web": {
+    "titulo": "Busca na Web: índice, ordenação e modelos",
+    "regra": "Mecanismos de busca selecionam e ordenam resultados a partir de índices e critérios de correspondência. No modelo vetorial, documentos e consultas são representados por vetores e comparados por similaridade. Diretórios, robôs, sistemas híbridos e metabuscadores descrevem arranjos diferentes; nenhum implica devolver todo o conteúdo da Web.",
+    "exemplo": "Uma consulta sobre bibliotecas digitais apresenta uma lista ordenada de páginas consideradas correspondentes. O buscador não precisa mostrar todos os sítios de seu índice; um metabuscador pode reunir respostas de outros mecanismos.",
+    "tecnica": "Técnica: Resultado da consulta versus total indexado. Distingua a cobertura do índice da lista efetivamente retornada e o método de comparação da forma de navegação.",
+    "contrasteErrado": "Uma busca na Internet devolve obrigatoriamente todos os sítios existentes no índice, independentemente dos termos pesquisados.",
+    "referencia": "recuperacao"
+  },
+  "bibliografia": {
+    "titulo": "Bibliografia, referência e catálogo",
+    "regra": "Bibliografia pode designar uma atividade, uma disciplina ou um repertório que identifica documentos segundo um recorte. Não precisa representar o acervo de uma biblioteca. Catálogo descreve documentos de um ou mais acervos; referência identifica um documento. Bibliografias podem ser autônomas, seletivas ou exaustivas dentro de seu escopo e ter diferentes arranjos.",
+    "exemplo": "Uma lista de tudo que foi publicado sobre bibliotecas legislativas pode incluir livros que a instituição não possui. Já o catálogo informa o que integra seu acervo. A referência de cada livro é a unidade usada para identificá-lo na lista.",
+    "tecnica": "Técnica: Troca entre instrumento e unidade. Não confunda a referência individual, a lista bibliográfica e o catálogo de acervo. Observe cobertura, autonomia da publicação e finalidade do repertório.",
+    "contrasteErrado": "Toda bibliografia representa exclusivamente o acervo de uma biblioteca e só pode aparecer ao final de outro documento.",
+    "referencia": "fontes"
+  },
+  "tipos-bibliografia": {
+    "titulo": "Tipos de bibliografia: tratamento e tempo",
+    "regra": "Na tipologia cobrada nestes itens, a bibliografia sinalética apresenta referências sem anotações; a analítica acrescenta resumos; e a crítica ou avaliativa emite apreciação. Corrente acompanha publicações recentes; retrospectiva cobre período anterior. Exaustiva e seletiva indicam critérios de cobertura dentro de um recorte.",
+    "exemplo": "Uma lista mensal com resumos de novos artigos pode ser simultaneamente corrente e analítica. Se acrescentar julgamento sobre a qualidade das obras, passa a ter tratamento crítico. Cada adjetivo responde a uma dimensão diferente.",
+    "tecnica": "Técnica: Cruzamento de critérios. Pergunte se a classificação trata do tempo, da cobertura ou do tratamento do documento. Analítica não significa automaticamente corrente, e retrospectiva não é um juízo de valor histórico.",
+    "contrasteErrado": "Bibliografia analítica é definida apenas por listar publicações à medida que surgem, sem precisar acrescentar resumos.",
+    "referencia": "fontes"
+  },
+  "tipos-fontes": {
+    "titulo": "Fontes de informação: função e conteúdo",
+    "regra": "Fontes de informação podem ser documentos, pessoas, instituições ou sistemas. Fontes primárias apresentam produção original; secundárias organizam, descrevem ou sintetizam outras fontes; terciárias ajudam a localizar fontes e instrumentos. As tipologias variam entre autores: na prova, examine a função atribuída ao exemplo e o referencial do item. Obras de referência também são fontes.",
+    "exemplo": "Uma tese relata pesquisa original; uma bibliografia ajuda a identificá-la; um guia de bibliografias indica onde procurar repertórios. Um dicionário consultado para esclarecer um termo continua sendo fonte, mesmo sem leitura sequencial.",
+    "tecnica": "Técnica: Confusão de nível ou exclusão de suporte. Identifique se o recurso produz informação, a organiza ou encaminha a outros instrumentos. Nem toda fonte é uma lista, e formato eletrônico não altera sozinho sua categoria.",
+    "contrasteErrado": "Dicionários e enciclopédias não são fontes de informação, porque só materiais de pesquisa original podem receber esse nome.",
+    "referencia": "fontes"
+  },
+  "bases": {
+    "titulo": "Bases referenciais e bases de fontes",
+    "regra": "Uma base referencial descreve ou indica recursos, como referências bibliográficas e diretórios. Uma base de fontes entrega o conteúdo ou dado procurado, como texto integral, valores numéricos ou multimídia. Um catálogo representa acervos; uma base bibliográfica pode cobrir publicações sem se limitar a um acervo. A qualidade depende da cobertura e do serviço, não apenas de ser comercial.",
+    "exemplo": "Uma referência com resumo encaminha ao artigo; a base de texto completo permite ler o artigo. O catálogo coletivo acrescenta a informação de quais bibliotecas possuem o título. Uma mesma plataforma pode integrar essas funções.",
+    "tecnica": "Técnica: Inversão entre indicar e entregar. Pergunte se o usuário obtém o conteúdo ou uma descrição que o conduz a ele. Não confunda base de fontes com qualquer plataforma chamada genericamente de base de dados.",
+    "contrasteErrado": "Bases de fontes contêm apenas referências e nunca oferecem texto integral ou dados numéricos.",
+    "referencia": "fontes"
+  },
+  "portais": {
+    "titulo": "Portais e bases: acesso, cobertura e localização",
+    "regra": "Portais agregam recursos com regimes de acesso e coberturas diferentes. Google Acadêmico ajuda a localizar trabalhos e citações, mas localizar não garante acesso livre ao texto. O Portal de Periódicos da CAPES reúne recursos abertos e licenciados; Redalyc trabalha com acesso aberto. Catálogos coletivos, como o CCN, identificam coleções mantidas por instituições.",
+    "exemplo": "Um resultado encontrado gratuitamente no Google Acadêmico pode levar a um editor que exige assinatura. No CCN, localizar a biblioteca que possui uma revista não equivale a abrir imediatamente seu texto integral.",
+    "tecnica": "Técnica: Busca gratuita versus conteúdo aberto. Separe custo de pesquisar, permissão de ler e localização de exemplares. Bases, portais e diretórios não têm todos o mesmo regime de acesso.",
+    "contrasteErrado": "Toda publicação localizada gratuitamente por um buscador pode ser lida integralmente sem assinatura ou restrição.",
+    "referencia": "portais"
+  },
+  "politica-colecoes": {
+    "titulo": "Política de coleções: missão, critérios e decisões",
+    "regra": "Desenvolvimento de coleções é um processo contínuo que articula estudo da comunidade, política, seleção, aquisição, avaliação e desbaste. A política registra prioridades, responsabilidades, formatos, critérios de inclusão e retirada, vinculados à missão institucional. Não é apenas um orçamento nem uma lista de procedimentos de catalogação.",
+    "exemplo": "Uma biblioteca legislativa prioriza fontes atualizadas de direito e processo legislativo porque isso atende à missão de sua instituição. A política orienta recursos, licenças, atualização e retirada; não é a coleção que define, sozinha, a finalidade da instituição.",
+    "tecnica": "Técnica: Inversão de dependência ou redução do processo. A missão e as necessidades orientam a política. Procure exclusões artificiais de formatos, etapas ou participação dos usuários.",
+    "contrasteErrado": "A política de coleções restringe-se à compra de livros impressos e define os objetivos da instituição, sem depender de sua missão.",
+    "referencia": "colecoes"
+  },
+  "selecao": {
+    "titulo": "Seleção: decidir o que convém à coleção",
+    "regra": "Seleção é a decisão intelectual e técnica sobre os materiais apropriados aos objetivos, ao público e aos recursos disponíveis. Considera qualidade, autoridade, relevância, atualização, suporte e custos de acesso e manutenção. Sugestões dos usuários são importantes, mas precisam ser examinadas com outros critérios; novidades e doações não devem ser incorporadas automaticamente.",
+    "exemplo": "Uma doação de enciclopédias desatualizadas pode ser recusada: mesmo gratuita, exigiria espaço e tratamento. Para uma base digital, a análise inclui licença, facilidade de uso, suporte técnico e eventual duplicação de conteúdo.",
+    "tecnica": "Técnica: Preferência absoluta ou troca de prioridade. Não existe suporte ou modalidade de aquisição sempre superior. A decisão deve servir à comunidade e à política, e não apenas ao catálogo do fornecedor ou à novidade tecnológica.",
+    "contrasteErrado": "Todo material doado ou lançado em novo suporte deve ser incorporado automaticamente, sem avaliação de pertinência.",
+    "referencia": "selecao"
+  },
+  "aquisicao": {
+    "titulo": "Aquisição e desiderata: obter o que foi selecionado",
+    "regra": "A seleção decide o que interessa; a aquisição operacionaliza a obtenção, por compra, doação ou permuta. Desiderata é a lista de materiais cuja aquisição se deseja. A gestão da aquisição envolve prioridades, recursos, fornecedores e prazos. Em órgãos públicos, é preciso observar o regime jurídico aplicável à época e ao objeto.",
+    "exemplo": "Depois de selecionar obras para atualizar direito administrativo, a equipe registra os títulos na desiderata e verifica orçamento e formas de obtenção. A lista não é de descarte e não substitui os procedimentos legais de contratação.",
+    "tecnica": "Técnica: Selecionar versus obter. Desiderata aponta o desejado, não o retirado do acervo. Não trate compra pública como dispensada de regra legal apenas porque o objeto é bibliográfico.",
+    "contrasteErrado": "Desiderata é a relação de documentos destinados ao descarte, e aquisição é apenas a escolha intelectual de títulos.",
+    "referencia": "colecoes"
+  },
+  "avaliacao-acervo": {
+    "titulo": "Avaliação de coleções: evidências para decidir",
+    "regra": "Avaliar coleções é examinar qualidade, cobertura, tamanho, uso, conservação e adequação às necessidades e objetivos. Combina métodos quantitativos e qualitativos: circulação, comparação com bibliografias, análise por especialistas e consulta aos usuários. Crescer em quantidade não assegura aumento proporcional do uso nem cobertura de todo o conhecimento.",
+    "exemplo": "Muitos pedidos de empréstimo entre bibliotecas numa mesma área podem indicar lacuna local. A equipe compara os pedidos com a missão, a literatura e os recursos antes de decidir comprar; uma contagem isolada não resolve a escolha.",
+    "tecnica": "Técnica: Número como garantia de qualidade. Distingua volume, uso absoluto, uso relativo e adequação. Estatísticas ajudam a decidir, mas não substituem a análise de relevância nem tornam a avaliação simples circulação de materiais.",
+    "contrasteErrado": "Uma coleção maior é necessariamente mais usada e sua avaliação deve dispensar métodos qualitativos.",
+    "referencia": "colecoes"
+  },
+  "conspectus": {
+    "titulo": "Conspectus: mapear a profundidade da coleção",
+    "regra": "Conspectus é um método de descrição e avaliação do desenvolvimento de coleções por áreas temáticas e níveis de profundidade. Os níveis caracterizam cobertura e capacidade de apoio, não uma simples contagem de exemplares. O instrumento ajuda a planejar e comparar cobertura atual e desejada; não é exclusivamente uma lista de descarte.",
+    "exemplo": "Uma biblioteca pode manter cobertura introdutória em economia e apoio à pesquisa em direito legislativo. O perfil por áreas explicita diferenças e orienta investimentos e cooperação. Mais volumes não elevam automaticamente o nível de cobertura.",
+    "tecnica": "Técnica: Finalidade reduzida e escala confundida. Associe os níveis à profundidade da cobertura temática. Não transforme o instrumento em ranking puramente quantitativo ou método apenas de eliminação de documentos.",
+    "contrasteErrado": "Conspectus é exclusivamente um método de descarte cujo nível depende somente da quantidade de volumes.",
+    "referencia": "conspectus"
+  },
+  "desbaste": {
+    "titulo": "Desbaste, remanejamento e descarte",
+    "regra": "Desbaste é a revisão e retirada de itens da coleção de uso corrente, podendo conduzir a remanejamento ou descarte. Remanejamento transfere materiais para outra localização, conservando-os; descarte os desincorpora da coleção, mediante critérios e procedimentos. Idade, obsolescência, uso, estado físico e valor histórico precisam ser analisados em conjunto.",
+    "exemplo": "Um periódico pouco consultado pode ir para depósito e continuar disponível: houve remanejamento. Duplicatas sem necessidade podem ser desincorporadas após avaliação: houve descarte. Nenhuma dessas decisões deve ser automática só porque o item é antigo.",
+    "tecnica": "Técnica: Retirada de localização versus da coleção. Pergunte se o item continua sob custódia e disponível. Descarte não significa obrigatoriamente destruição imediata, e desbaste faz parte do desenvolvimento de coleções.",
+    "contrasteErrado": "Transferir uma obra para depósito, mantendo-a no patrimônio e disponível para consulta, constitui necessariamente descarte definitivo.",
+    "referencia": "crew"
+  },
+  "raridade": {
+    "titulo": "Raridade bibliográfica: contexto e exemplar",
+    "regra": "Raridade pode decorrer de tiragem, história editorial, características materiais, proveniência, circulação e sobrevivência de exemplares. Uma obra pode nascer rara ou tornar-se rara com o tempo. Antiguidade, preço e raridade se relacionam em alguns casos, mas não são equivalentes automáticos.",
+    "exemplo": "Uma edição recente de pequena tiragem, numerada e com características singulares pode ser rara. Um livro antigo impresso em grande quantidade e ainda abundante pode não receber a mesma classificação.",
+    "tecnica": "Técnica: Critério único. Não conclua raridade apenas pela data ou pelo valor comercial. A avaliação depende da obra, do exemplar e da política de coleções especiais.",
+    "contrasteErrado": "Um livro só pode ser considerado raro se já tinha essa condição no momento da publicação.",
+    "referencia": "raridade"
+  },
+  "marketing": {
+    "titulo": "Marketing da informação: necessidades e valor",
+    "regra": "Marketing da informação articula diagnóstico, conhecimento do público, oferta, comunicação, acesso e avaliação de valor. Pode ser aplicado a organizações sem fins lucrativos. Promoção é uma de suas atividades; marketing não se limita a publicidade, redes sociais ou venda. A orientação deve considerar o resultado para o usuário.",
+    "exemplo": "Antes de divulgar uma oficina, a biblioteca identifica as dificuldades dos estudantes, ajusta conteúdo e horário e avalia se eles passaram a pesquisar melhor. O cartaz e o post ajudam na promoção, mas não constituem todo esse processo.",
+    "tecnica": "Técnica: Marketing reduzido à promoção. Julgue se a afirmação considera necessidades, oferta e resultados, ou se equipara todo o processo a divulgar. Ausência de lucro não impede aplicar orientação de marketing.",
+    "contrasteErrado": "Marketing em bibliotecas é apenas publicidade e não pode ser aplicado quando não há finalidade lucrativa.",
+    "referencia": "marketing"
+  },
+  "plano-marketing": {
+    "titulo": "Plano de marketing: diagnóstico, objetivos e avaliação",
+    "regra": "O planejamento de marketing começa pelo entendimento da unidade e de seu ambiente, define objetivos e públicos, escolhe estratégias e ações e prevê recursos e avaliação. Segmentação agrupa públicos por características e necessidades relevantes. Comunicação e métricas devem servir aos objetivos; presença digital exige manutenção e análise de resultados.",
+    "exemplo": "Se os calouros pouco usam uma base, a biblioteca investiga barreiras, define a meta de ampliar o uso qualificado, oferece orientação e acompanha indicadores. Publicar mais posts, sozinho, não comprova que essa meta foi atingida.",
+    "tecnica": "Técnica: Ordem invertida e público homogêneo. Estratégias respondem a objetivos e diagnóstico. Não presuma que todos os usuários têm as mesmas necessidades nem que uma ferramenta garante o resultado.",
+    "contrasteErrado": "Estratégias de marketing devem ser definidas antes dos objetivos e dispensam diagnóstico do público e do ambiente.",
+    "referencia": "marketing"
+  },
+  "promocao-relacionamento": {
+    "titulo": "Promoção, relacionamento e público interno",
+    "regra": "Promoção comunica para tornar conhecidos e estimular a adoção de produtos, serviços ou ideias. Marketing de relacionamento busca vínculos duradouros com o público. Endomarketing dirige-se ao público interno da organização; não é sinônimo de qualquer comunicação feita dentro da biblioteca ou na Internet.",
+    "exemplo": "A biblioteca prepara sua equipe para um novo serviço: ação voltada ao público interno. Depois orienta usuários e divulga o benefício do serviço: comunicação externa. Acompanhar satisfação e continuidade do uso ajuda a desenvolver relacionamento.",
+    "tecnica": "Técnica: Destinatário trocado. Identifique quem recebe a ação: equipe interna ou usuários externos. O canal, como Internet, não define sozinho se a ação é endomarketing.",
+    "contrasteErrado": "Endomarketing é toda ação de promoção dirigida aos usuários externos de uma biblioteca.",
+    "referencia": "marketing"
+  },
+  "podc": {
+    "titulo": "Administração: planejar, organizar, dirigir e controlar",
+    "regra": "Planejar define objetivos e caminhos; organizar distribui trabalho, recursos e responsabilidades; dirigir mobiliza pessoas; controlar acompanha resultados e corrige desvios. Essas funções são articuladas. Organização administrativa não é a mesma coisa que organização da informação por catalogação, classificação ou indexação.",
+    "exemplo": "Ao implantar um repositório, a equipe define metas, distribui responsabilidades, coordena o trabalho e acompanha prazos e resultados. Descrever os documentos é uma atividade técnica dentro do serviço, não a definição da função administrativa organizar.",
+    "tecnica": "Técnica: Sentido diferente da mesma palavra. Diferencie organização da instituição e organização da informação. Comunicação, liderança e motivação se ligam à direção; comparar resultados e padrões se liga ao controle.",
+    "contrasteErrado": "Na função administrativa organizar, a tarefa consiste exclusivamente em catalogar e indexar documentos.",
+    "referencia": "planejamento"
+  },
+  "instrumentos-gestao": {
+    "titulo": "Instrumentos de gestão: o que cada um representa",
+    "regra": "Organograma representa a estrutura e relações formais; fluxograma mostra a sequência de um processo; quadro de distribuição do trabalho permite analisar tarefas e cargas; manual de serviços registra procedimentos e orientações. Formulários padronizam o registro de dados. Escolha o instrumento pela pergunta que ele precisa responder.",
+    "exemplo": "Para descobrir quem se subordina à direção, leia o organograma. Para entender o caminho de uma compra até a disponibilização do livro, use um fluxograma. Para verificar sobrecarga da equipe, examine a distribuição das tarefas.",
+    "tecnica": "Técnica: Nome trocado, descrição preservada. Reconheça se o item descreve estrutura, fluxo ou atribuição de responsabilidade. O fato de todos serem instrumentos gerenciais não os torna equivalentes.",
+    "contrasteErrado": "O fluxograma representa apenas os níveis hierárquicos da organização, enquanto o organograma descreve exclusivamente etapas de um processo.",
+    "referencia": "planejamento"
+  },
+  "estrutura": {
+    "titulo": "Estruturas organizacionais: critério de agrupamento",
+    "regra": "Estruturas funcionais agrupam especialidades; divisionais podem agrupar produtos, públicos ou territórios; matriciais combinam eixos de especialidade e projetos ou divisões. Redes enfatizam conexões e coordenação entre participantes. A adequação depende do contexto: nenhuma biblioteca precisa, por definição, de um número universal de níveis hierárquicos.",
+    "exemplo": "Uma estrutura reúne catalogação e referência por função. Uma matriz mantém esses especialistas e também os integra a um projeto de biblioteca digital. Coordenação em dois eixos traz benefícios e exige clareza de responsabilidades.",
+    "tecnica": "Técnica: Critério de agrupamento trocado. Identifique o que reúne as unidades: função, público, produto ou projeto. Rede e matriz não são simples sinônimos de hierarquia linear.",
+    "contrasteErrado": "A estrutura funcional agrupa sempre unidades por região e público, sendo idêntica à estrutura matricial.",
+    "referencia": "planejamento"
+  },
+  "planejar": {
+    "titulo": "Planejamento: missão, diagnóstico e continuidade",
+    "regra": "Planejamento é uma função gerencial contínua: examina a situação, define objetivos, escolhas e recursos e acompanha a execução para ajustar o rumo. Na biblioteca, alinha-se à missão institucional, à comunidade e aos ambientes interno e externo. Não termina quando se escreve o plano e não se reduz a escolher produtos.",
+    "exemplo": "A biblioteca pretende melhorar o acesso a legislação. Primeiro verifica missão, público, dificuldades e recursos; depois define ações e metas. Durante a implantação, acompanha o uso e revê o que não funciona.",
+    "tecnica": "Técnica: Planejamento encerrado no papel. Distinga o documento plano do processo de planejar. Avaliação e realimentação sustentam ajustes; diagnóstico e missão antecedem escolhas isoladas de ferramentas ou setores.",
+    "contrasteErrado": "O planejamento termina quando o plano é escrito e dispensa acompanhamento ou ajustes durante a execução.",
+    "referencia": "planejamento"
+  },
+  "niveis-planejamento": {
+    "titulo": "Estratégico, tático e operacional",
+    "regra": "O planejamento estratégico trata da direção geral e do horizonte mais amplo; o tático desdobra estratégias para áreas e unidades; o operacional detalha procedimentos, responsáveis, recursos e prazos. Os níveis se articulam e o horizonte temporal depende do contexto. Estratégia da biblioteca precisa dialogar com a instituição mantenedora.",
+    "exemplo": "A meta estratégica é ampliar o acesso à produção institucional. O plano tático organiza a implantação do repositório. O plano operacional distribui tarefas de submissão, revisão e treinamento com prazos e responsáveis.",
+    "tecnica": "Técnica: Troca de nível. Detalhe de tarefa e curto prazo apontam para o operacional. Desdobramento por área aponta para o tático; direção geral e alinhamento institucional, para o estratégico.",
+    "contrasteErrado": "O planejamento estratégico detalha cada tarefa diária no curto prazo, enquanto o operacional define a direção global da instituição.",
+    "referencia": "planejamento"
+  },
+  "avaliar-servicos": {
+    "titulo": "Avaliação: eficiência, eficácia e impacto",
+    "regra": "Eficiência relaciona resultados e recursos empregados; eficácia verifica o alcance dos objetivos; impacto examina efeitos e benefícios produzidos. Avaliar pode ocorrer antes, durante e depois de uma ação, com indicadores adequados. Dados de uso, qualidade percebida e satisfação complementam-se; um indicador isolado não demonstra todo o desempenho.",
+    "exemplo": "Reduzir o custo por atendimento ajuda a avaliar eficiência. Resolver as demandas previstas indica eficácia. Verificar se o serviço melhorou a capacidade de pesquisa do público aproxima a avaliação de seu impacto.",
+    "tecnica": "Técnica: Rótulos e dimensões trocados. Identifique se a pergunta trata de recursos, metas ou benefícios. Contar atendimentos não basta para concluir satisfação ou mudança na vida do usuário.",
+    "contrasteErrado": "Eficiência significa apenas alcançar metas, e eficácia mede exclusivamente o menor custo possível.",
+    "referencia": "avaliacao"
+  },
+  "swot": {
+    "titulo": "SWOT: dentro e fora da organização",
+    "regra": "SWOT reúne forças e fraquezas do ambiente interno e oportunidades e ameaças do ambiente externo. A análise das cinco forças competitivas é outro instrumento, voltado a rivalidade, entrantes, substitutos, fornecedores e compradores. Fatores críticos de sucesso identificam condições essenciais ao desempenho desejado.",
+    "exemplo": "Equipe bem capacitada é uma força interna; equipamentos inadequados são uma fraqueza. Um edital externo de fomento pode ser oportunidade; uma mudança externa que reduza recursos, ameaça. A classificação depende da origem do fator.",
+    "tecnica": "Técnica: Ambiente invertido. Primeiro pergunte se o fator pertence à unidade ou ao ambiente externo. Depois avalie se favorece ou dificulta. Não chame fraqueza interna de ameaça apenas porque causa prejuízo.",
+    "contrasteErrado": "Na SWOT, falta de infraestrutura da própria biblioteca é ameaça externa e oportunidade é qualquer qualidade interna da equipe.",
+    "referencia": "planejamento"
+  },
+  "projetos": {
+    "titulo": "Projetos: problema, resultados, recursos e prazo",
+    "regra": "Um projeto explicita o problema, a justificativa, os objetivos, as ações, os resultados esperados, os recursos, o financiamento, os prazos e a avaliação. Diagnóstico descreve e analisa a situação existente; prognóstico projeta possibilidades futuras. Prazo e orçamento afetam a viabilidade e o sucesso da execução.",
+    "exemplo": "Para digitalizar uma coleção, a justificativa demonstra a necessidade de acesso e preservação. O cronograma prevê seleção, captura e controle de qualidade; o orçamento inclui equipamentos, pessoal e armazenamento. Propor um resultado sem meios não fecha o projeto.",
+    "tecnica": "Técnica: Etapa ou requisito deslocado. Não confunda diagnóstico do presente com previsão do futuro. Financiamento e prazos integram o projeto e não são detalhes secundários por definição.",
+    "contrasteErrado": "O diagnóstico consiste apenas em prever o futuro, e os prazos não interferem no sucesso do projeto.",
+    "referencia": "planejamento"
+  },
+  "aprendizagem-equipe": {
+    "titulo": "Educação continuada e geração de ideias",
+    "regra": "Educação continuada compreende aprendizagem ao longo da trajetória profissional, incluindo cursos, experiência, observação e reflexão. Treinamento para uma tarefa é uma de suas possibilidades. Brainstorming estimula a geração de ideias, adiando a crítica inicial para favorecer alternativas; depois é preciso analisar e selecionar as propostas.",
+    "exemplo": "Uma catalogadora aprende numa oficina e também ao discutir casos com colegas. Numa reunião de melhoria, a equipe primeiro levanta possibilidades para reduzir atrasos e só depois examina viabilidade e prioridades.",
+    "tecnica": "Técnica: Aprendizagem reduzida ao treinamento. Não limite formação contínua a cursos formais ou a aperfeiçoar um procedimento. Gerar ideias também não dispensa a posterior análise para decidir.",
+    "contrasteErrado": "Educação continuada ocorre apenas em treinamentos formais para executar procedimentos da organização.",
+    "referencia": "planejamento"
+  },
+  "gi": {
+    "titulo": "Gestão da informação: necessidades, fluxos e uso",
+    "regra": "Gestão da informação articula identificação de necessidades, aquisição, organização e armazenamento, desenvolvimento de produtos, distribuição e uso. Trabalha fortemente com informação registrada e fluxos organizacionais. A disponibilidade de acervo ou tecnologia é um meio; o ponto de orientação são as necessidades e os objetivos de uso.",
+    "exemplo": "Antes de comprar uma base, a organização identifica quais decisões precisam de informação. Depois define como obter, tratar, distribuir e usar o conteúdo, verificando se ajudou a decidir. Comprar primeiro e procurar utilidade depois inverte o processo.",
+    "tecnica": "Técnica: Meio transformado em finalidade. Acervo, sistema e organização dos registros apoiam o uso. Diferencie atividade operacional, decisão de gestão e orientação estratégica, sem isolar a informação de seus usuários.",
+    "contrasteErrado": "A gestão da informação começa obrigatoriamente pelo acervo já disponível e dispensa identificar necessidades dos usuários.",
+    "referencia": "choo"
+  },
+  "conhecimento": {
+    "titulo": "Conhecimento tácito e explícito: pessoas e registros",
+    "regra": "Conhecimento explícito é articulado e registrado de modo comunicável; tácito envolve experiência, habilidades e saberes difíceis de formalizar por completo. Gestão do conhecimento cria condições para criação, compartilhamento e uso, integrando pessoas, cultura, processos e tecnologias. Não trata exclusivamente do tácito nem depende sempre de uma ferramenta digital.",
+    "exemplo": "Um manual registra etapas de atendimento, mas um profissional experiente percebe nuances de uma entrevista que o texto não captura integralmente. Reuniões de casos permitem compartilhar parte desse saber e melhorar os registros.",
+    "tecnica": "Técnica: Inversão dos tipos e exclusividade. Livros e bases são exemplos de registros explícitos. Experiência e habilidade apontam para dimensão tácita. As duas dimensões interagem; não são territórios incomunicáveis.",
+    "contrasteErrado": "Conhecimento tácito é o que está integralmente codificado em manuais, e gestão do conhecimento trata exclusivamente de tecnologia.",
+    "referencia": "conhecimento"
+  },
+  "seci": {
+    "titulo": "SECI: modos de conversão do conhecimento",
+    "regra": "O modelo SECI reúne socialização (tácito para tácito), externalização (tácito para explícito), combinação (explícito para explícito) e internalização (explícito para tácito). São modos relacionados de criação do conhecimento organizacional, não uma sequência de operações de informática.",
+    "exemplo": "Aprender observando um colega aproxima-se da socialização; registrar seu modo de resolver casos, da externalização; reunir registros num guia, da combinação; incorporar o guia à prática, da internalização.",
+    "tecnica": "Técnica: Sigla e direção da conversão. Identifique o tipo de conhecimento de partida e o de chegada. Combinação trabalha com conhecimentos explícitos; não é sinônimo de socialização.",
+    "contrasteErrado": "No SECI, combinação converte conhecimento tácito em tácito e internalização transforma tácito em explícito.",
+    "referencia": "conhecimento"
+  },
+  "catalogacao": {
+    "titulo": "Catalogação descritiva e representação temática",
+    "regra": "Catalogação descritiva identifica e individualiza recursos por seus atributos e pontos de acesso; representação temática analisa o conteúdo e o representa por assuntos, classes ou resumos. Códigos de descrição e formatos de intercâmbio têm funções distintas. A tecnologia pode permitir trabalho remoto e reaproveitamento de registros, sem dispensar exame e adequação.",
+    "exemplo": "Para um livro, título, edição e publicação ajudam a reconhecer a manifestação descrita. O assunto “bibliotecas escolares” permite encontrá-lo pelo conteúdo. AACR2 orienta a descrição; MARC organiza dados para tratamento e intercâmbio por máquina.",
+    "tecnica": "Técnica: Descritivo versus temático. Verifique se a tarefa identifica o recurso ou representa seu conteúdo. Nem catalogação se limita ao aspecto físico, nem escolher descritores define descrição bibliográfica.",
+    "contrasteErrado": "Catalogação descritiva consiste exclusivamente em selecionar descritores de assunto e produzir resumos do conteúdo.",
+    "referencia": "icp"
+  },
+  "catalogos": {
+    "titulo": "Catálogos: acesso, arranjo e funções",
+    "regra": "Catálogo representa recursos de um ou mais acervos e permite encontrar, identificar, selecionar e obter recursos, além de explorar relações. Coletivo reúne registros de diferentes instituições; topográfico segue a localização; sindético conecta entradas por remissivas. OPAC é catálogo público de acesso em linha, não sinônimo de toda informação gratuita na Internet.",
+    "exemplo": "No catálogo coletivo, o leitor encontra um título e identifica qual biblioteca o possui. Uma remissiva do pseudônimo para o nome adotado é recurso sindético. A lista em ordem de estantes atende outra função: é topográfica.",
+    "tecnica": "Técnica: Arranjo versus função. Diferencie o que o catálogo reúne, como ordena e quais relações apresenta. Automatizar não elimina as necessidades do usuário nem o controle dos pontos de acesso.",
+    "contrasteErrado": "Catálogo coletivo descreve somente um acervo e catálogo sindético é apenas uma lista alfabética de autores sem remissivas.",
+    "referencia": "icp"
+  },
+  "catalogacao-cooperativa": {
+    "titulo": "Catalogação cooperativa e derivada",
+    "regra": "Na catalogação cooperativa, instituições compartilham trabalho e registros segundo padrões acordados. Na derivada, reaproveita-se um registro existente, importando-o ou adaptando-o às necessidades locais. Controle Bibliográfico Universal envolve identificação e disponibilidade de registros da produção bibliográfica; não é um programa de distribuição universal de um software único.",
+    "exemplo": "Ao receber um livro, a biblioteca encontra um registro de outra instituição e confere edição, responsabilidade e características antes de adaptá-lo. Isso poupa trabalho, mas não autoriza copiar um registro de manifestação diferente sem revisão.",
+    "tecnica": "Técnica: Reaproveitar não é dispensar controle. A cooperação depende de compatibilidade e qualidade. Padrão de descrição, formato de registro e programa institucional não são a mesma coisa.",
+    "contrasteErrado": "Catalogação derivada exige criar todo registro do zero e proíbe importar registros de outras bibliotecas.",
+    "referencia": "icp"
+  },
+  "aacr-fontes": {
+    "titulo": "AACR2: fonte de informação e transcrição",
+    "regra": "No AACR2, a fonte principal e as fontes prescritas dependem do tipo de material e da área descrita. Para monografias impressas, a folha de rosto tem papel central; a capa não a substitui automaticamente. Informações obtidas fora da fonte prescrita são tratadas segundo as regras, frequentemente entre colchetes. Aplique o código e a edição indicados na questão, sem misturá-los com RDA.",
+    "exemplo": "Se o título de um livro está na folha de rosto, ela orienta a transcrição. Uma informação suprida de fonte externa pode exigir colchetes e nota. Não se troca colchetes por chaves ou parênteses por preferência gráfica.",
+    "tecnica": "Técnica: Fonte ou sinal trocado. Observe onde o dado foi obtido e qual área está sendo preenchida. A regra específica do suporte pode alterar a fonte prescrita; não generalize a capa para todos os documentos.",
+    "contrasteErrado": "No AACR2, a capa é sempre a fonte principal de qualquer material e informações externas são sempre registradas entre chaves.",
+    "referencia": "aacr-fontes"
+  },
+  "aacr-areas": {
+    "titulo": "AACR2 e ISBD: áreas da descrição",
+    "regra": "As áreas organizam elementos da descrição: título e responsabilidade; edição; detalhes específicos; publicação e distribuição; descrição física; série; notas; número normalizado e condições de aquisição. Capítulo do AACR2 e área da descrição não são a mesma divisão: capítulos tratam regras gerais ou tipos de material. Níveis de detalhamento indicam extensão da descrição.",
+    "exemplo": "“2. ed.” pertence à área de edição, não à de publicação. Número de páginas e dimensões pertencem à descrição física. A indicação de responsabilidade da revisão pode acompanhar a edição a que se refere.",
+    "tecnica": "Técnica: Elemento na área errada. Relacione cada informação à sua função. Não confunda as oito áreas da descrição com os capítulos e as partes do código.",
+    "contrasteErrado": "O número da edição pertence à área de publicação, e dimensões pertencem sempre à área de detalhes específicos do material.",
+    "referencia": "aacr-areas"
+  },
+  "aacr-transcricao": {
+    "titulo": "AACR2: transcrição, pontuação e notas",
+    "regra": "A descrição usa convenções de transcrição e pontuação para distinguir elementos. A primeira indicação de responsabilidade é precedida de barra; o título alternativo integra o título principal; certas substituições, incorreções e informações supridas têm tratamento específico. Uma regra não pode ser trocada apenas porque os sinais parecem semelhantes.",
+    "exemplo": "Na sequência “Título / Autor”, a barra indica responsabilidade. Uma incorreção do original pode ser transcrita com indicação apropriada, como [sic], segundo o AACR2. Não se corrige silenciosamente qualquer dado nem se aplica a pontuação de outra norma.",
+    "tecnica": "Técnica: Pequena troca normativa. Leia o sinal e o elemento descrito. Parênteses, colchetes, reticências e barra têm usos próprios; confira o código indicado e a situação, em vez de memorizar um sinal isolado.",
+    "contrasteErrado": "No AACR2, a primeira indicação de responsabilidade é separada do título por ponto e vírgula, nunca por barra.",
+    "referencia": "aacr-transcricao"
+  },
+  "aacr-acesso": {
+    "titulo": "AACR2: escolha dos pontos de acesso",
+    "regra": "Pontos de acesso permitem encontrar registros por nomes, títulos e assuntos. Sua escolha considera responsabilidade intelectual e regras para obras, adaptações e entidades. Orientador não se torna automaticamente coautor; adaptação não conserva necessariamente a entrada do autor original. Há diferentes hipóteses de entrada pelo título, e suplementos podem receber tratamentos distintos.",
+    "exemplo": "Uma adaptação de romance pode ter entrada pelo adaptador conforme a responsabilidade e a regra aplicável. Para uma constituição, considera-se a jurisdição. Antes de escolher o cabeçalho, identifique o tipo de obra e quem responde por seu conteúdo.",
+    "tecnica": "Técnica: Responsabilidade atribuída à pessoa errada. Examine a função de autor, adaptador, entidade, orientador ou colaborador. Não deduza entrada principal de uma única palavra sem verificar a regra para a obra.",
+    "contrasteErrado": "O orientador de qualquer trabalho acadêmico é automaticamente seu autor principal e toda adaptação entra obrigatoriamente pelo autor original.",
+    "referencia": "aacr-acesso"
+  },
+  "autoridades": {
+    "titulo": "Controle de autoridades: consistência de nomes e assuntos",
+    "regra": "Controle de autoridades estabelece formas autorizadas, variantes e relações para os pontos de acesso. Permite reunir registros de uma mesma entidade e encaminhar o usuário a partir de outras formas. Continua necessário em catálogos automatizados; mecanismos como VIAF apoiam a aproximação de identidades e arquivos de autoridade.",
+    "exemplo": "Um autor publica com sobrenome abreviado e com pseudônimo. O controle de autoridade relaciona as formas para evitar que suas obras fiquem dispersas. Alterar uma forma autorizada pode atualizar os registros associados, conforme o sistema.",
+    "tecnica": "Técnica: Automação como dispensa de controle. Busca livre não resolve toda ambiguidade de nomes. Distinga forma encontrada no documento, forma autorizada e remissiva entre variantes.",
+    "contrasteErrado": "Catálogos automatizados dispensam controle de autoridades porque qualquer nome digitado recupera integralmente todas as suas variantes.",
+    "referencia": "icp"
+  },
+  "rda": {
+    "titulo": "RDA: descrição e acesso, não formato de intercâmbio",
+    "regra": "RDA é um padrão de conteúdo para descrição e acesso a recursos, sucessor do AACR2, com orientação por entidades e relações. Não é MARC, nem um formato de codificação criado apenas pela Library of Congress. Dados RDA podem ser expressos em diferentes estruturas. A evolução do RDA inclui a relação com FRBR/FRAD e, na versão oficial mais recente, o alinhamento ao IFLA LRM.",
+    "exemplo": "Uma biblioteca pode aplicar instruções RDA e registrar os dados em MARC 21. Mudar a instrução de conteúdo não significa que o formato de intercâmbio tenha de mudar no mesmo momento, nem que todas as bibliotecas já tenham migrado.",
+    "tecnica": "Técnica: Padrão de conteúdo versus codificação. Identifique se a afirmação trata de instruções de catalogação, modelo conceitual ou formato de registro. A sucessão do AACR2 não significa adoção universal e simultânea.",
+    "contrasteErrado": "RDA é um formato de intercâmbio incompatível com MARC 21 e obrigatório apenas para bibliotecas.",
+    "referencia": "rda"
+  },
+  "frbr": {
+    "titulo": "FRBR: modelo conceitual e tarefas do usuário",
+    "regra": "FRBR é um modelo conceitual de entidades, atributos e relações, não um código de catalogação ou formato de registro. No modelo clássico, obra, expressão, manifestação e item compõem o grupo 1; pessoas e entidades coletivas, o grupo 2; conceito, objeto, evento e lugar, o grupo 3. O IFLA LRM posteriormente consolidou modelos da família FR.",
+    "exemplo": "O catálogo pode relacionar um romance às traduções, às edições e aos exemplares disponíveis. Essa estrutura ajuda o usuário a encontrar e distinguir recursos, inclusive em bibliotecas digitais, sem definir por si só a pontuação da descrição.",
+    "tecnica": "Técnica: Modelo confundido com norma ou formato. Reconheça entidades e relações. Ao contar entidades ou grupos, use o modelo e a versão expressamente citados; não misture FRBR clássico, FRAD e LRM.",
+    "contrasteErrado": "FRBR é um formato de codificação MARC e seu grupo 1 contém apenas conceito, objeto, evento e lugar.",
+    "referencia": "frbr"
+  },
+  "wemi": {
+    "titulo": "Obra, expressão, manifestação e item",
+    "regra": "Obra é a criação intelectual ou artística; expressão é sua realização, como um texto em determinada língua; manifestação corresponde à materialização de uma expressão em uma edição ou produção; item é o exemplar individual. Recursos digitais também podem ser analisados por essas entidades. Mudanças devem ser avaliadas pelo nível afetado.",
+    "exemplo": "O romance é a obra; a tradução em português é uma expressão; a edição publicada por uma editora é manifestação; o exemplar com um código de barras específico é item. Um arquivo digital individual também pode constituir um item.",
+    "tecnica": "Técnica: Níveis da descrição trocados. Pergunte se mudou o conteúdo realizado, a publicação ou apenas o exemplar. Suporte digital não faz a criação intelectual deixar de ser obra.",
+    "contrasteErrado": "Uma obra deixa de ser obra quando é publicada em formato digital, e item designa sempre o conjunto de todas as edições.",
+    "referencia": "frbr"
+  },
+  "marc": {
+    "titulo": "MARC: estrutura para registros legíveis por máquina",
+    "regra": "MARC é uma família de formatos para representar e comunicar dados legíveis por máquina. No intercâmbio ISO 2709, o registro tem líder, diretório e campos variáveis. Tags identificam campos; indicadores e códigos de subcampo caracterizam dados. Regras de conteúdo, como AACR2 ou RDA, são distintas das convenções de codificação.",
+    "exemplo": "Uma instituição exporta registros e outra os importa porque ambas interpretam a estrutura e os elementos. Isso requer compatibilidade de formato e mapeamento: não basta que os dados estejam num computador. MARCXML é uma representação em XML.",
+    "tecnica": "Técnica: Estrutura, conteúdo e finalidade. Não confunda as partes do registro com regras de catalogação nem interoperabilidade com conforto de digitação. Legível por máquina não significa analógico ou restrito à Web profunda.",
+    "contrasteErrado": "MARC é um código de descrição analógico cuja função principal é definir sozinho todas as regras de catalogação.",
+    "referencia": "marc"
+  },
+  "marc-campos": {
+    "titulo": "Campos MARC 21: tags, indicadores e subcampos",
+    "regra": "No MARC 21 bibliográfico, as tags têm três caracteres numéricos. As faixas distinguem funções: 1XX entrada principal, 5XX notas, 6XX assuntos e 7XX entradas adicionais. Campos de controle 00X não têm indicadores nem subcampos, diferentemente dos campos de dados. Campos específicos têm definições e condições próprias.",
+    "exemplo": "O campo 100 registra entrada principal por nome pessoal; o 700 pode registrar entrada adicional por nome pessoal, não somente tradutores. Trocar 5XX por 6XX muda notas para pontos de acesso de assunto.",
+    "tecnica": "Técnica: Faixa numérica ou restrição trocada. Relacione a centena à função e confira a definição do campo. Não extrapole a estrutura de campos de dados para os campos de controle.",
+    "contrasteErrado": "As tags MARC têm quatro dígitos, 5XX são assuntos e 6XX são notas.",
+    "referencia": "marc"
+  },
+  "dc": {
+    "titulo": "Dublin Core: elementos e significado",
+    "regra": "O conjunto básico Dublin Core tem quinze elementos de descrição e pode ser aplicado a recursos digitais ou não digitais. A DCMI mantém também vocabulário mais amplo de termos. Elementos básicos são opcionais e repetíveis, mas perfis de aplicação podem exigir alguns deles. Semântica dos elementos e sintaxe de codificação são camadas diferentes.",
+    "exemplo": "Uma fotografia impressa pode ter title, creator, date e rights. Em um repositório, o perfil pode tornar title obrigatório. Codificar esses dados em XML não transforma XML no vocabulário que define o significado de “direitos”.",
+    "tecnica": "Técnica: Escopo ou propriedade trocada. Extensibilidade é possibilidade de ampliar a descrição; não é o mesmo que significado compartilhado. Relation indica recurso relacionado; Source tem a função específica de fonte de derivação.",
+    "contrasteErrado": "Dublin Core só descreve arquivos digitais e todos os seus elementos são obrigatórios em qualquer aplicação.",
+    "referencia": "dcmi"
+  },
+  "identificadores": {
+    "titulo": "Identificadores persistentes: identidade e localização",
+    "regra": "DOI e Handle apoiam a identificação persistente e a resolução para localizações ou serviços atualizáveis. DOI utiliza a infraestrutura Handle, acrescida de políticas e serviços próprios. Não se distinguem apenas pelo tipo de instituição que os usa. ISBN, ISSN e ISMN identificam categorias específicas de publicações e não devem ser confundidos.",
+    "exemplo": "O endereço de um artigo muda, mas o registro de resolução do DOI pode ser atualizado para levar à nova localização. Isso não garante acesso gratuito nem preserva sozinho o arquivo. Um Handle também pode identificar um item de repositório.",
+    "tecnica": "Técnica: Identificador versus endereço e aplicação exclusiva. Não confunda estabilidade da identificação com manutenção automática do conteúdo, e não limite um sistema ao exemplo de uso mais frequente.",
+    "contrasteErrado": "DOI garante acesso gratuito e imutabilidade do endereço físico de qualquer documento, dispensando manutenção.",
+    "referencia": "doi"
+  },
+  "multimeios": {
+    "titulo": "Descrição e indexação de imagens e multimeios",
+    "regra": "A descrição identifica suporte, extensão, duração, dimensões e características do recurso conforme o código aplicável. A análise do conteúdo audiovisual considera os canais relevantes, e a indexação de imagens pode usar atributos visuais ou conceitos. A escolha precisa servir às necessidades de busca, não apenas às propriedades técnicas do arquivo.",
+    "exemplo": "Uma fotografia pode ser descrita por dimensões e cor e indexada pelo assunto representado. Uma busca por “paisagem azul” usa atributos diferentes de uma busca por “enchente em Recife”. Forma, cor e textura não substituem toda análise semântica.",
+    "tecnica": "Técnica: Suporte e conteúdo confundidos. Diferencie dados físicos, atributos visuais e assuntos. Regras para material publicado não se aplicam automaticamente a fotografias não publicadas.",
+    "contrasteErrado": "Indexação de imagens deve ignorar necessidades dos usuários e considerar apenas o áudio, mesmo quando a informação decisiva é visual.",
+    "referencia": "aacr-multimeios"
+  },
+  "esquemas-xml": {
+    "titulo": "XML, MODS e METS: sintaxe e esquemas",
+    "regra": "XML é uma linguagem para estruturar dados por marcação; um esquema ou vocabulário define elementos e regras de uma aplicação. MODS é um esquema bibliográfico relacionado a elementos MARC; METS empacota metadados descritivos, administrativos e estruturais de objetos digitais. Usar um recurso digital não elimina a necessidade de padrões.",
+    "exemplo": "MODS pode descrever título e responsabilidade de um objeto. METS pode relacionar a descrição, os arquivos e a estrutura de páginas desse objeto. XML oferece a sintaxe de ambos, mas não define sozinho quais informações bibliográficas registrar.",
+    "tecnica": "Técnica: Linguagem de marcação versus padrão de metadados. Diferencie o meio de estruturar dados da semântica dos elementos e da função do esquema. MODS e METS não são nomes intercambiáveis.",
+    "contrasteErrado": "XML define, por si só, um conjunto obrigatório de elementos bibliográficos, tornando desnecessários esquemas de metadados.",
+    "referencia": "mods-mets"
+  },
+  "web-semantica": {
+    "titulo": "Web Semântica: dados com significado compartilhável",
+    "regra": "A Web Semântica propõe dados e relações que máquinas possam processar com significado mais explícito. RDF expressa relações em triplas; vocabulários e ontologias ajudam a definir os conceitos e propriedades. HTML é central para apresentar páginas, mas sozinho não constitui a base semântica de todos esses dados.",
+    "exemplo": "Em vez de apenas escrever um nome numa página, um conjunto de dados pode declarar que determinada pessoa é autora de uma obra identificada por URI. Outra aplicação consegue interpretar e conectar essa relação.",
+    "tecnica": "Técnica: Apresentação versus representação do significado. Identifique se a tecnologia organiza a visualização da página ou expressa entidades e relações processáveis. Web Semântica não é simplesmente mais formatação HTML.",
+    "contrasteErrado": "A Web Semântica é definida exclusivamente pelo uso de HTML e dispensa padrões para representar relações entre dados.",
+    "referencia": "rdf"
+  },
+  "chamada": {
+    "titulo": "Número de chamada: assunto e individualização",
+    "regra": "O número de chamada combina elementos para localizar e ordenar um item, como notação de classificação e notação de autor, podendo incluir marcas de obra, volume e exemplar conforme a política. Classificação temática e localização física são relacionadas, mas não idênticas.",
+    "exemplo": "Dois livros com a mesma classe podem receber diferentes notações de autor para manter uma ordem na estante. O número de chamada identifica sua posição relativa; não é o mesmo que ISBN ou identificador do registro.",
+    "tecnica": "Técnica: Identificador e localização confundidos. Separe a notação que representa assunto dos elementos usados para individualizar e ordenar a obra na coleção.",
+    "contrasteErrado": "O número de chamada é composto exclusivamente pelo ISBN e não tem relação com a classificação.",
+    "referencia": "classificacao"
+  },
+  "classificacao": {
+    "titulo": "Classificação bibliográfica: representar assuntos",
+    "regra": "Classificação bibliográfica organiza documentos segundo assuntos e perspectivas disciplinares, usando uma linguagem de classes e notações. Não é apenas ordenar fisicamente, nem exige lugar único para todo fenômeno. CDD antecede e influenciou a CDU; a CDU foi desenvolvida por Otlet e La Fontaine e combina características hierárquicas e analítico-sintéticas.",
+    "exemplo": "“Borracha” pode aparecer sob química, indústria ou agricultura conforme o enfoque do documento. Primeiro se analisa o assunto e a perspectiva; depois a notação ajuda a reunir e localizar documentos relacionados.",
+    "tecnica": "Técnica: Origem, finalidade ou enfoque trocado. Não confunda classificação bibliográfica com taxonomia científica da natureza. A mesma expressão pode ter posições diferentes conforme a disciplina.",
+    "contrasteErrado": "A CDD foi criada a partir da CDU, e ambas determinam que cada fenômeno apareça em um único lugar, sem considerar o enfoque disciplinar.",
+    "referencia": "classificacao"
+  },
+  "hierarquia": {
+    "titulo": "Hierarquia: cadeia, renque e hospitalidade",
+    "regra": "Cadeia é uma sequência vertical de conceitos do mais amplo ao mais específico. Renque reúne conceitos no mesmo nível de divisão. Hospitalidade é a capacidade de acomodar novos assuntos sem romper a organização existente. Em notações decimais, maior comprimento pode indicar especialização; não se ordena simplesmente como números inteiros.",
+    "exemplo": "Ciências sociais → direito → direito constitucional forma uma cadeia. Direito, economia e administração podem formar um renque sob ciências sociais. Acrescentar uma subdivisão decimal entre outras não exige renumerar todo o conjunto.",
+    "tecnica": "Técnica: Vertical versus horizontal. Dependência hierárquica indica subordinação; mesmo nível indica coordenação. Diferencie também a sequência de compor uma notação da ordem de arquivá-la.",
+    "contrasteErrado": "Cadeia reúne apenas conceitos de mesmo nível, enquanto renque é uma sequência do geral ao específico.",
+    "referencia": "classificacao"
+  },
+  "cdu-relacoes": {
+    "titulo": "CDU: adição, extensão e relação",
+    "regra": "Na CDU, + reúne assuntos não consecutivos; / indica extensão consecutiva entre os extremos de uma série; : expressa relação simples, reversível na ordem; :: fixa a ordem da relação. Esses sinais não são intercambiáveis. Um número completo deve respeitar a estrutura e as instruções da tabela.",
+    "exemplo": "53+913 reúne física e geografia regional. 53/55 abrange a sequência física, química e geociências. 51:52 relaciona matemática e astronomia; usar + não expressa a mesma relação temática.",
+    "tecnica": "Técnica: Sinal trocado. Leia a operação: reunir, abranger uma série ou relacionar. Irreversibilidade não é propriedade de dois-pontos simples, mas da relação com ordem fixada.",
+    "contrasteErrado": "Na CDU, + indica extensão consecutiva e / fixa uma relação irreversível entre dois assuntos.",
+    "referencia": "udc"
+  },
+  "cdu-auxiliares": {
+    "titulo": "CDU: auxiliares acrescentam facetas",
+    "regra": "Auxiliares especificam aspectos como lugar, tempo, língua, forma e pessoas. A sintaxe permite reconhecer sua função: lugar usa parênteses, tempo usa aspas e língua utiliza =. Auxiliares comuns e especiais têm condições próprias; nem todos são obrigatórios ou independentes. Asterisco sinaliza notação externa à CDU.",
+    "exemplo": "Direito na França combina o número do assunto com (44), preservando os parênteses. Uma data pode aparecer como “1992.01.15”. Língua inglesa se representa por =111; não se deve trocar língua por grupo étnico ou lugar.",
+    "tecnica": "Técnica: Pontuação como parte da notação. O sinal muda o significado, não é mero enfeite. Confira a edição, sobretudo para códigos históricos e terminologia social hoje desatualizada.",
+    "contrasteErrado": "Todos os auxiliares da CDU são obrigatórios e a língua inglesa é representada sempre por um código de lugar entre parênteses.",
+    "referencia": "udc"
+  },
+  "cdd": {
+    "titulo": "CDD: estrutura, tabelas e índice relativo",
+    "regra": "A CDD organiza o conhecimento em classes decimais, com hierarquia e recursos de síntese previstos nas instruções. A classe de generalidades integra sua estrutura. Tabelas auxiliares não são adicionadas livremente em qualquer lugar: é preciso seguir as instruções e a edição. O índice relativo auxilia a localizar assuntos em perspectivas disciplinares, sem prometer todas as combinações possíveis.",
+    "exemplo": "Antes de acrescentar uma subdivisão de tabela, confira se a notação e as instruções permitem a construção. Encontrar uma palavra no índice ajuda a chegar à tabela, mas não substitui a leitura do contexto e das notas.",
+    "tecnica": "Técnica: Edição e liberdade de síntese. Não aceite quantidade de tabelas sem identificar a edição. A existência de síntese não torna a CDD equivalente à CDU em todas as combinações ou recursos.",
+    "contrasteErrado": "Na CDD, todas as tabelas auxiliares podem ser acrescentadas livremente a qualquer número, sem instruções ou restrições.",
+    "referencia": "cdd"
+  },
+  "cddir": {
+    "titulo": "Classificação Decimal de Direito: edição e categorias",
+    "regra": "A CDDir especializa a organização do direito e tem estrutura própria, que não deve ser confundida com códigos de outras classificações. Classes e deslocamentos devem ser conferidos na edição citada. Divisões de forma representam o modo de apresentação ou tratamento do assunto, não um novo ramo jurídico.",
+    "exemplo": "Ao classificar um manual e um repertório de jurisprudência sobre o mesmo ramo, o assunto pode ser comum, mas a divisão de forma diferencia o tratamento. Não se deve transportar automaticamente o código de direito de outra tabela.",
+    "tecnica": "Técnica: Número ou categoria deslocados. Consulte a edição e diferencie ramos de direito público e privado. Uma mudança de posição entre edições não pode ser generalizada a todas as versões.",
+    "contrasteErrado": "Na CDDir, divisões de forma indicam exclusivamente novos ramos do direito e não o modo de tratamento do assunto.",
+    "referencia": "cddir"
+  },
+  "indexacao": {
+    "titulo": "Indexação: análise conceitual e tradução",
+    "regra": "Indexar é analisar o conteúdo, identificar conceitos relevantes e representá-los por termos apropriados à linguagem e à política do sistema. Na atribuição, os termos vêm de um vocabulário externo ao texto; na extração, são retirados do documento. O processo sustenta recuperação e uso, não somente preservação física.",
+    "exemplo": "Um texto usa “terceira idade”, mas o vocabulário do catálogo adota “pessoas idosas”. O indexador identifica o conceito e atribui o termo autorizado. Não basta copiar palavras nem descrever apenas o aspecto físico do documento.",
+    "tecnica": "Técnica: Analisar versus apenas copiar ou descrever. Identifique a etapa conceitual e a tradução para a linguagem. Não confunda representação temática com descrição bibliográfica nem qualidade com simples experiência empírica.",
+    "contrasteErrado": "Indexação é apenas a descrição física do documento e dispensa análise de seu conteúdo e necessidades de recuperação.",
+    "referencia": "indexacao"
+  },
+  "leitura-documentaria": {
+    "titulo": "Leitura documentária: estratégia e contexto",
+    "regra": "A leitura documentária busca identificar o assunto e os conceitos relevantes para representação. Usa a estrutura do texto e partes informativas, como título, resumo, introdução e conclusões, com aprofundamento quando necessário. Não impõe leitura integral indiscriminada nem elimina a influência do conhecimento, do contexto e das condições de trabalho do indexador.",
+    "exemplo": "Para indexar um artigo, o profissional examina seus componentes e confirma o tema central no desenvolvimento quando há dúvida. Um título metafórico pode exigir leitura adicional; só copiar o título seria insuficiente.",
+    "tecnica": "Técnica: Absolutização da leitura. Leitura integral obrigatória e irrelevância do contexto são extremos inadequados. A estratégia precisa permitir compreensão suficiente do assunto e variar conforme o gênero e a complexidade.",
+    "contrasteErrado": "A leitura documentária exige sempre ler integralmente todos os documentos e não sofre influência do contexto do indexador.",
+    "referencia": "indexacao"
+  },
+  "exaustividade": {
+    "titulo": "Exaustividade, especificidade e ponderação",
+    "regra": "Exaustividade é a extensão da cobertura de conceitos representados; especificidade é o grau de precisão conceitual dos termos escolhidos. Ponderação atribui pesos de importância. Essas decisões se orientam pela política, pelo público e pela recuperação desejada. Mais termos podem ampliar a cobertura, mas não garantem maior precisão.",
+    "exemplo": "Um artigo sobre preservação de fotografias pode receber só o tema central ou também técnicas e materiais. Isso muda a exaustividade. Usar “fotografias” em vez do termo mais amplo “documentos” altera a especificidade. Dar peso maior ao assunto central é outra decisão.",
+    "tecnica": "Técnica: Quantidade versus detalhe conceitual. Não troque número de conceitos, nível de especificidade e peso. Representar tudo não é uma obrigação universal nem uma garantia de qualidade.",
+    "contrasteErrado": "Exaustividade significa usar o menor número possível de termos, e especificidade é apenas a quantidade de conceitos indexados.",
+    "referencia": "indexacao"
+  },
+  "consistencia": {
+    "titulo": "Consistência da indexação: concordância, não garantia total",
+    "regra": "Consistência ou coerência descreve a concordância na representação. Intraindexador compara o mesmo profissional em momentos diferentes; interindexadores compara profissionais distintos. Política clara, formação e vocabulário controlado podem favorecer concordância, mas consistência não é sinônimo de toda a qualidade nem garante relevância dos resultados.",
+    "exemplo": "Se duas pessoas escolhem os mesmos descritores para o mesmo documento, há concordância interindexadores. Se uma pessoa repete sua escolha ao reindexar depois, há concordância intraindexador. Ambas ainda podem concordar numa escolha inadequada.",
+    "tecnica": "Técnica: Prefixos invertidos e medida confundida. Intra é dentro do mesmo indexador; inter é entre indexadores. Precisão e revocação medem recuperação, não a concordância das escolhas.",
+    "contrasteErrado": "Coerência intraindexador compara profissionais diferentes, e alta concordância garante por si só a qualidade total da indexação.",
+    "referencia": "indexacao"
+  },
+  "coordenacao": {
+    "titulo": "Pré-coordenação e pós-coordenação",
+    "regra": "Pré-coordenação combina conceitos na representação, antes da busca. Pós-coordenação permite combiná-los no momento da consulta. Linguagem natural e linguagem controlada são outro critério: ambas não devem ser confundidas com o momento de combinar termos. O índice de uma linguagem e o índice do catálogo também não têm necessariamente as mesmas entradas.",
+    "exemplo": "Num cabeçalho composto como “Bibliotecas — Automação”, a relação pode estar pronta na indexação. Num sistema pós-coordenado, o leitor combina “bibliotecas” AND “automação” na busca. Ter um tesauro não torna automaticamente o índice pré-coordenado.",
+    "tecnica": "Técnica: Momento da combinação. Pergunte quando a relação é formada: na representação ou na pesquisa. Não julgue apenas pelo nome do vocabulário ou por ser um sistema automatizado.",
+    "contrasteErrado": "Na pós-coordenação, os termos são obrigatoriamente combinados pelo indexador antes de qualquer consulta.",
+    "referencia": "indexacao"
+  },
+  "kwic": {
+    "titulo": "KWIC: palavras do título em contexto",
+    "regra": "KWIC significa Keyword in Context. O índice organiza palavras significativas do título mantendo seu contexto, em geral por permutação e exclusão de palavras pouco informativas. Não pressupõe análise semântica por tesauro nem resolve sozinho sinonímia e ambiguidade. Índices de títulos podem servir a alertas rápidos, com limites para pesquisas aprofundadas.",
+    "exemplo": "No título “Preservação de fotografias digitais”, podem surgir entradas ordenadas por “fotografias”, “digitais” e “preservação”, mantendo o restante do título para interpretação. A técnica não identifica automaticamente que “foto” e “fotografia” representam o mesmo conceito.",
+    "tecnica": "Técnica: Operação lexical confundida com controle semântico. Permutar palavras não equivale a atribuir descritores autorizados nem a reconhecer todos os sinônimos.",
+    "contrasteErrado": "Todo índice KWIC depende de um tesauro e identifica automaticamente as relações semânticas entre os termos.",
+    "referencia": "indexacao"
+  },
+  "vocabulario": {
+    "titulo": "Vocabulário controlado: termos e conceitos",
+    "regra": "Vocabulários controlados estabelecem termos preferidos, variantes e relações para representar conceitos de modo consistente. Podem controlar sinônimos, distinguir homógrafos e explicitar relações. Tesauros, listas de cabeçalhos e classificações usam métodos diferentes. Linguagens documentárias servem à organização e recuperação, não apenas à descrição física.",
+    "exemplo": "Um sistema escolhe “bibliotecas escolares” como termo preferido e remete variantes para ele. Para “banco”, um qualificador pode distinguir instituição financeira de assento. O controle reduz dispersão e ambiguidade na busca.",
+    "tecnica": "Técnica: Palavra livre versus termo autorizado. Um descritor representa um conceito na linguagem controlada. Uma lista extraída automaticamente do texto não se torna tesauro apenas por estar em ordem alfabética.",
+    "contrasteErrado": "Vocabulário controlado não possui relações semânticas e todo termo extraído automaticamente de um texto é um descritor autorizado.",
+    "referencia": "skos"
+  },
+  "relacoes-tesauro": {
+    "titulo": "Tesauros: equivalência, hierarquia e associação",
+    "regra": "Equivalência aproxima variantes de designação de um conceito; hierarquia relaciona conceitos mais amplos e específicos; associação conecta conceitos relacionados sem subordinação. Termo genérico ou broader term indica posição mais ampla, não é sinônimo de qualquer descritor. Facetamento é um critério de organização por categorias, não a mera presença de relações diferentes de equivalência.",
+    "exemplo": "“Bibliotecas” pode ser genérico de “bibliotecas escolares”. Uma variante não preferida remete ao termo adotado por equivalência. Já uma relação entre bibliotecas e leitura pode ser associativa, conforme a estrutura do vocabulário.",
+    "tecnica": "Técnica: Tipo de relação trocado. Pergunte se há mesma designação conceitual, subordinação ou conexão sem hierarquia. Estrutura incorreta e remissivas deficientes podem prejudicar a recuperação.",
+    "contrasteErrado": "Broader term significa sinônimo, e qualquer tesauro com relações hierárquicas é automaticamente facetado.",
+    "referencia": "skos"
+  },
+  "ontologias": {
+    "titulo": "Ontologias e SKOS: representar conhecimento",
+    "regra": "Ontologias explicitam conceitos, propriedades, relações e, conforme a linguagem, axiomas de um domínio. Classes e instâncias não são a mesma coisa. SKOS oferece um modelo RDF para sistemas de organização do conhecimento, como tesauros, com rótulos, relações e mapeamentos; não se confunde com todas as possibilidades formais de OWL.",
+    "exemplo": "“Biblioteca” pode ser uma classe; uma biblioteca específica, uma instância. Um tesauro publicado em SKOS pode relacionar conceitos por broader, narrower e related. Uma ontologia pode acrescentar restrições formais sobre propriedades e classes.",
+    "tecnica": "Técnica: Classe, instância e grau de formalização. Não reduza ontologia a linguagem informal ou lista de palavras. Observe quais relações e regras o modelo permite expressar.",
+    "contrasteErrado": "Ontologias não definem relações nem regras de combinação e se limitam a listas informais de palavras.",
+    "referencia": "owl"
+  },
+  "folksonomia": {
+    "titulo": "Folksonomia: etiquetas atribuídas pelos participantes",
+    "regra": "Folksonomia se relaciona à atribuição social de etiquetas a recursos. Pode ser tratada como processo de organização colaborativa ou como o conjunto resultante de etiquetas. Difere de um vocabulário controlado previamente normalizado, embora sistemas possam combinar participação dos usuários e algum grau de controle.",
+    "exemplo": "Usuários marcam fotografias com “memória”, “bairro” e nomes de lugares. As etiquetas ajudam a navegar, mas podem variar em grafia e significado; uma política editorial pode relacioná-las a termos controlados.",
+    "tecnica": "Técnica: Processo versus produto. Leia a definição usada pelo autor. Participação colaborativa não implica equivalência automática com tesauro formal nem ausência absoluta de organização.",
+    "contrasteErrado": "Toda folksonomia é obrigatoriamente um tesauro criado apenas por especialistas antes da participação dos usuários.",
+    "referencia": "folksonomia"
+  },
+  "mineracao": {
+    "titulo": "Mineração de textos: padrões e representações",
+    "regra": "Mineração de textos utiliza técnicas computacionais para identificar padrões em coleções, como termos recorrentes, agrupamentos e relações. Pode apoiar sumarização e visualização, mas resultados estatísticos precisam de interpretação; coocorrência não prova por si só equivalência semântica ou verdade de uma afirmação.",
+    "exemplo": "Um mapa agrupa artigos que usam termos semelhantes e destaca proximidades. Isso ajuda a explorar temas, mas um especialista ainda precisa verificar o significado das relações antes de incorporá-las a um vocabulário.",
+    "tecnica": "Técnica: Possibilidade técnica versus garantia semântica. Agrupar e visualizar textos é possível; afirmar compreensão infalível ou classificação perfeita vai além do que o procedimento assegura.",
+    "contrasteErrado": "Mineração de textos não permite agrupamentos nem visualizações de relações entre termos de documentos.",
+    "referencia": "mineracao"
+  },
+  "biblioteca-digital": {
+    "titulo": "Biblioteca digital: coleção, serviços e acesso",
+    "regra": "Biblioteca digital reúne recursos digitais organizados, descritos e geridos para acesso e uso, com pessoas, políticas, tecnologias e serviços. Não é apenas um catálogo referencial ou uma lista de links. Pode conter materiais nascidos digitais e digitalizados, em diferentes mídias. Biblioteca híbrida articula recursos e serviços físicos e digitais.",
+    "exemplo": "Uma instituição disponibiliza entrevistas, fotografias e textos com metadados, busca e responsabilidades de gestão. Isso vai além de criar uma página com links. Um catálogo que apenas informa onde está o livro impresso tem outra função.",
+    "tecnica": "Técnica: Digital confundido com simples cópia ou catálogo. Examine se há recursos, organização, gestão e acesso. Nem todo serviço virtual ou rede bibliográfica constitui, por si só, uma biblioteca digital.",
+    "contrasteErrado": "Uma lista de links ou um catálogo apenas referencial é suficiente para caracterizar qualquer biblioteca digital, sem coleção ou gestão.",
+    "referencia": "bdigital"
+  },
+  "colecao-digital": {
+    "titulo": "Coleções digitais: licenças, acesso e formatos",
+    "regra": "Coleções digitais precisam de políticas de seleção, aquisição, acesso e preservação. Licenças, disponibilidade remota, formatos, privacidade e sustentabilidade acrescentam exigências às decisões sobre impressos. EPUB é um padrão de publicação digital; download e streaming descrevem modos diferentes de distribuição. Oferecer um recurso não significa necessariamente possuir seu arquivo.",
+    "exemplo": "Uma biblioteca assina uma plataforma de livros e oferece acesso pelo catálogo. Precisa verificar usuários simultâneos, privacidade e continuidade do acesso. Um áudio por streaming pode ser reproduzido durante a transmissão; download permite obter o arquivo conforme as permissões.",
+    "tecnica": "Técnica: Digital como dispensa de política. Não presuma que todo conteúdo fica armazenado localmente ou que as regras são idênticas às do impresso. Diferencie formato, licença e forma de distribuição.",
+    "contrasteErrado": "Bibliotecas digitais dispensam políticas de coleções porque todos os recursos digitais são locais, gratuitos e permanentes.",
+    "referencia": "digital-licencas"
+  },
+  "usabilidade": {
+    "titulo": "Usabilidade: observar pessoas realizando tarefas",
+    "regra": "Usabilidade considera a interação de usuários com um produto em um contexto de uso, incluindo realização de tarefas, esforço e satisfação. Estudos identificam dificuldades concretas e orientam melhorias. Não equivale apenas a aparência, opinião do projetista ou disponibilidade em celulares; modelos mentais e acessibilidade são relevantes para o projeto.",
+    "exemplo": "Ao observar um estudante tentando reservar um livro, a equipe percebe que ele não encontra o botão de confirmação. O resultado orienta a melhoria daquela interface; conclusões para outros produtos exigem cuidado com o contexto.",
+    "tecnica": "Técnica: Qualidade da interação versus recurso técnico. Uma interface existir na Web não prova facilidade de uso. Observe usuário, tarefa e contexto, além de indicadores e evidências coletadas.",
+    "contrasteErrado": "Um sistema tem boa usabilidade apenas por estar na Internet, mesmo quando usuários não conseguem concluir tarefas.",
+    "referencia": "usabilidade"
+  },
+  "interoperabilidade": {
+    "titulo": "Interoperabilidade: sistemas que trocam e usam dados",
+    "regra": "Interoperabilidade é a capacidade de sistemas trocar e utilizar informações de forma significativa, exigindo acordos técnicos e semânticos. Estar conectado à rede não garante compatibilidade. Formatos, protocolos e vocabulários atendem camadas diferentes. Portabilidade trata da execução de um programa em ambientes diversos, não apenas de interface móvel.",
+    "exemplo": "Dois catálogos conectados à Internet podem não interpretar o mesmo campo da mesma forma. Padrões de estrutura, comunicação e significado ajudam na integração. Um programa que funciona em Linux e Windows demonstra portabilidade, outra propriedade.",
+    "tecnica": "Técnica: Conexão versus compatibilidade. Não trate motor de busca como substituto de todo padrão nem portabilidade como sinônimo de uso em celular. Julgue a função técnica descrita.",
+    "contrasteErrado": "Sistemas conectados à Internet são automaticamente interoperáveis e dispensam formatos e protocolos comuns.",
+    "referencia": "niso-metadados"
+  },
+  "z3950": {
+    "titulo": "Z39.50: pesquisa e recuperação entre sistemas",
+    "regra": "Z39.50 é um protocolo de pesquisa e recuperação em arquitetura cliente-servidor. Pode permitir consultar catálogos distintos a partir de uma interface, quando os sistemas o implementam. ISO 2709 trata da estrutura de intercâmbio de registros; Z39.19 trata de vocabulários controlados. Nenhum deles é simplesmente um sistema de preservação digital.",
+    "exemplo": "O catalogador pesquisa outra instituição por um cliente Z39.50 e recupera um registro para examinar e importar. O registro pode estar em MARC; o protocolo e o formato desempenham funções diferentes.",
+    "tecnica": "Técnica: Número e camada trocados. Reconheça pesquisa distribuída, estrutura de registro e construção de vocabulário. OAI-PMH coleta metadados; não é outro nome para Z39.50.",
+    "contrasteErrado": "Z39.50 é um esquema de metadados para preservação, e ISO 2709 é o protocolo de consulta cliente-servidor.",
+    "referencia": "z3950"
+  },
+  "oai": {
+    "titulo": "OAI-PMH: provedores e coleta de metadados",
+    "regra": "OAI-PMH é um protocolo de coleta de metadados. Provedores de dados expõem registros; provedores de serviços os coletam para construir serviços como busca agregada. Usa HTTP e respostas XML. Expor metadados não obriga a liberar irrestritamente os objetos descritos e não impede que páginas de um repositório sejam indexadas por buscadores.",
+    "exemplo": "Um portal colhe título, autor e identificador de trabalhos de vários repositórios e oferece busca conjunta. Um dos trabalhos pode ter arquivo sob embargo: os metadados estão visíveis, mas o texto tem restrições próprias.",
+    "tecnica": "Técnica: Metadado versus objeto e papel dos provedores. Não confunda coleta com busca distribuída em tempo real, nem acesso ao registro com licença para ler o arquivo completo.",
+    "contrasteErrado": "OAI-PMH exige que todos os arquivos descritos estejam disponíveis livremente, sem qualquer embargo ou autenticação.",
+    "referencia": "oai"
+  },
+  "automacao": {
+    "titulo": "Automação: processos, requisitos e migração",
+    "regra": "Automação de bibliotecas integra rotinas e serviços com apoio tecnológico. O planejamento parte de necessidades, processos, equipe e infraestrutura e define requisitos funcionais, técnicos, de segurança e de intercâmbio. Implantação, migração e manutenção exigem recursos e participação bibliotecária; informatizar não elimina a mediação ou o planejamento.",
+    "exemplo": "Antes de escolher um sistema, a biblioteca verifica empréstimos, renovação, autoridades, aquisição, pesquisa e relatórios. Na migração, testa mapeamento e integridade dos dados. Capacidade de registros e padrão MARC são critérios técnicos, não o mesmo que uma modalidade de busca do usuário.",
+    "tecnica": "Técnica: Requisito na categoria errada. Separe funções de aquisição, circulação, catalogação e recuperação de critérios de arquitetura e capacidade. Uma solução tecnológica precisa corresponder ao processo real.",
+    "contrasteErrado": "Automatizar uma biblioteca dispensa participação de bibliotecários, levantamento de rotinas e manutenção após a implantação.",
+    "referencia": "koha"
+  },
+  "software-bibliotecas": {
+    "titulo": "Software: função, licença e custos",
+    "regra": "Um sistema integrado de gestão de bibliotecas reúne rotinas como catalogação, circulação e aquisições; software de repositório gerencia objetos digitais e metadados; sistema editorial organiza o fluxo de publicação. Livre ou proprietário diz respeito à licença, não apenas ao preço. Liberdade de modificar código não equivale a obrigação de conservar tudo sem alterações.",
+    "exemplo": "Koha é software livre para gestão de bibliotecas. DSpace é voltado a repositórios; OJS, a periódicos e fluxo editorial. Uma solução livre pode envolver gastos de hospedagem, implantação e suporte.",
+    "tecnica": "Técnica: Produto, finalidade ou licença trocados. Identifique o uso principal e a documentação da versão. Não classifique qualquer ferramenta Web como SGBD ou qualquer acesso sem cobrança como software livre.",
+    "contrasteErrado": "DSpace é um sistema editorial de periódicos, enquanto Koha é necessariamente software proprietário.",
+    "referencia": "software"
+  },
+  "preservacao-digital": {
+    "titulo": "Preservação digital: acesso ao longo do tempo",
+    "regra": "Preservação digital reúne políticas e ações para manter integridade, autenticidade e possibilidade de acesso e interpretação de objetos digitais. Abrange materiais nascidos digitais e digitalizados. Migração, emulação e preservação tecnológica são estratégias distintas; formatos abertos, cópias e metadados ajudam, mas nenhum elemento isolado garante acesso futuro.",
+    "exemplo": "Converter um arquivo para formato atual é migração; reproduzir o ambiente antigo para executá-lo é emulação. Registrar o evento e verificar a integridade ajuda a demonstrar o que ocorreu com o objeto e se ele permaneceu confiável.",
+    "tecnica": "Técnica: Estratégia versus garantia suficiente. Distingua manter equipamento, converter formatos e simular ambientes. Preservar não é congelar para sempre a tecnologia nem apenas escolher uma extensão de arquivo.",
+    "contrasteErrado": "Escolher um formato aberto, por si só, garante que todo arquivo poderá ser lido no futuro, sem outras ações de preservação.",
+    "referencia": "premis"
+  },
+  "oais-curadoria": {
+    "titulo": "OAIS e curadoria digital: modelo e ciclo de vida",
+    "regra": "OAIS é um modelo de referência para um sistema de arquivo voltado à preservação e ao acesso a longo prazo; não é um software ou sistema brasileiro de propriedade intelectual. Curadoria digital acompanha o ciclo de vida de ativos digitais, com seleção, descrição, gestão, preservação, acesso e reutilização.",
+    "exemplo": "Um repositório planeja submissão, armazenamento, administração, preservação e acesso à informação. Usar OAIS como referência ajuda a definir responsabilidades e requisitos, mas não instala automaticamente um sistema nem certifica sua qualidade.",
+    "tecnica": "Técnica: Modelo confundido com produto. Distinga arquitetura conceitual, implementação e certificação. Curadoria inclui preservação, mas seu alcance acompanha todo o ciclo de vida.",
+    "contrasteErrado": "OAIS é um software brasileiro de gestão de direitos autorais e curadoria digital limita-se a fazer cópias de segurança.",
+    "referencia": "oais"
+  },
+  "fair": {
+    "titulo": "FAIR: encontrável, acessível, interoperável e reutilizável",
+    "regra": "FAIR orienta a gestão de dados para favorecer localização, acesso, interoperabilidade e reutilização. Acessível pode incluir autenticação e autorização. Os princípios não definem que apenas dados abertos sejam científicos, nem dispensam restrições éticas, legais ou contratuais. Metadados e condições de reutilização são centrais.",
+    "exemplo": "Dados de pesquisa com informações pessoais podem exigir acesso controlado. Ainda assim, metadados públicos, identificadores, protocolo documentado e condições claras de uso podem favorecer o alinhamento a FAIR.",
+    "tecnica": "Técnica: FAIR confundido com abertura irrestrita. Separe possibilidade de encontrar e solicitar acesso da permissão de baixar sem controle. Aberto e FAIR são propriedades relacionadas, mas diferentes.",
+    "contrasteErrado": "Para ser FAIR, todo dado deve ser gratuito, aberto e acessível sem autenticação, independentemente de restrições legais.",
+    "referencia": "fair"
+  },
+  "texto-automatico": {
+    "titulo": "Tratamento automático de textos: extração e interpretação",
+    "regra": "Processamento de linguagem natural pode apoiar resumo, indexação, classificação e mineração de textos. Resumo extrativo seleciona trechos do original; métodos abstrativos podem gerar novas formulações. Frequência, posição e contexto são sinais usados por métodos automáticos, mas resultados precisam ser avaliados segundo sua finalidade e fidelidade.",
+    "exemplo": "Um sistema seleciona frases com termos relevantes para compor um resumo extrativo. Outro agrupa milhares de documentos por padrões temáticos. Formular uma estratégia de busca é tarefa relacionada, mas não a definição da mineração desses padrões.",
+    "tecnica": "Técnica: Procedimentos relacionados não são sinônimos. Diferencie resumir, indexar, buscar e descobrir padrões. Um tipo de resumo automático não define todos os tipos existentes.",
+    "contrasteErrado": "Todo resumo automático cria obrigatoriamente frases novas e nunca pode selecionar sentenças do documento original.",
+    "referencia": "mineracao"
+  },
+  "sistemas-info": {
+    "titulo": "Sistema de informação: pessoas, processos e recursos",
+    "regra": "Um sistema de informação articula pessoas, procedimentos, dados e recursos para coletar, processar, armazenar e fornecer informação. Não se resume ao computador. Bibliotecas, arquivos e museus podem ser analisados como sistemas, com entradas, processos, saídas e realimentação. Gestão do sistema e gestão da informação têm relações, mas não são conceitos idênticos.",
+    "exemplo": "Um pedido de pesquisa entra no serviço, passa por análise e busca e gera resposta e avaliação. Pessoas, regras e registros participam do sistema, mesmo quando parte do atendimento é realizada sem computador.",
+    "tecnica": "Técnica: Sistema reduzido à máquina ou a duas etapas. Identifique componentes, processamento e feedback. Organização da informação e atendimento dependem de pessoas e objetivos, além de tecnologia.",
+    "contrasteErrado": "Bibliotecas não são sistemas de informação porque apenas computadores podem coletar, processar e fornecer informações.",
+    "referencia": "sistemas"
+  },
+  "bancos": {
+    "titulo": "Banco de dados: campos, registros, modelo e SGBD",
+    "regra": "Um registro reúne dados sobre uma ocorrência e é subdividido em campos. Um banco organiza dados segundo um modelo; no relacional, usa relações usualmente apresentadas como tabelas. SGBD é o software que gerencia armazenamento, consultas e controle. SQL é uma linguagem, enquanto DSpace e Joomla são aplicações com outras finalidades.",
+    "exemplo": "Numa tabela de obras, cada linha pode representar um registro e as colunas, campos como título e data. PostgreSQL gerencia o banco; uma aplicação de biblioteca o utiliza. A estrutura não é, por definição, uma árvore pai-filho.",
+    "tecnica": "Técnica: Camadas e unidades trocadas. Diferencie campo, registro, arquivo, banco, SGBD e aplicação. Hierarquia em árvore caracteriza outro modelo, não a definição do modelo relacional.",
+    "contrasteErrado": "SQL, DSpace e Joomla são todos SGBDs, e um registro é o nome de todo o banco de dados.",
+    "referencia": "postgres"
+  },
+  "hardware": {
+    "titulo": "Computador: processamento, memória e periféricos",
+    "regra": "A CPU processa instruções e inclui unidade de controle e unidade aritmética e lógica. RAM principal é tipicamente volátil; armazenamento de massa conserva dados sem energia. Cache acelera acesso a dados frequentes; ROM não é equivalente a cache. Periféricos de entrada capturam dados e os de saída apresentam resultados.",
+    "exemplo": "O leitor de código de barras envia uma identificação ao sistema: entrada. A RAM mantém dados em uso enquanto o programa executa; o SSD armazena registros de forma persistente. Desligar o computador normalmente apaga a RAM, não os arquivos gravados no SSD.",
+    "tecnica": "Técnica: Papel ou volatilidade invertidos. Pergunte se o componente processa, armazena temporariamente, conserva dados ou captura uma entrada. Teclados QWERTY e AZERTY também não têm a distribuição geográfica trocada.",
+    "contrasteErrado": "A memória RAM preserva seu conteúdo sem energia e scanners são periféricos de saída de informação processada.",
+    "referencia": "hardware"
+  },
+  "ocr": {
+    "titulo": "OCR: da imagem de caracteres ao texto reconhecido",
+    "regra": "Reconhecimento óptico de caracteres (OCR) converte imagens de texto em caracteres processáveis. Digitalizar produz uma imagem; reconhecer caracteres acrescenta uma representação textual pesquisável, sujeita a erros. Qualidade da imagem, fonte, diagramação e idioma afetam o resultado e exigem controle de qualidade.",
+    "exemplo": "Um scanner gera a imagem de uma página de revista. O OCR permite pesquisar palavras nela, mas pode confundir “1” e “l” ou errar colunas. Conferir o texto é necessário antes de usar a transcrição como evidência.",
+    "tecnica": "Técnica: Captura da imagem versus reconhecimento. Não conclua que todo PDF digitalizado já tem texto pesquisável nem que OCR garante transcrição fiel sem revisão.",
+    "contrasteErrado": "OCR é apenas a captura de uma imagem e nunca produz caracteres pesquisáveis por computador.",
+    "referencia": "ocr"
+  },
+  "ciencia-info": {
+    "titulo": "Ciência da Informação: problemas, processos e interdisciplinaridade",
+    "regra": "Ciência da Informação investiga informação, seus processos, fluxos, organização, comunicação e uso em contextos humanos e tecnológicos. Biblioteconomia, documentação e recuperação participam de sua história, mas não são simplesmente nomes de uma mesma disciplina em níveis de ensino diferentes. Seu objeto admite perspectivas diversas e diálogo com outras áreas.",
+    "exemplo": "Uma pesquisa sobre como profissionais encontram informação para decidir pode combinar organização do conhecimento, psicologia, linguística e computação. A tecnologia participa do problema, mas não substitui a análise de necessidades e contextos sociais.",
+    "tecnica": "Técnica: Definição atribuída à área errada. Reconheça a formulação e seu alcance. Evite reduzir um campo interdisciplinar a uma técnica, a dois componentes fixos ou a um conceito unívoco e consensual.",
+    "contrasteErrado": "Ciência da Informação e Biblioteconomia são a mesma disciplina, diferenciadas apenas por graduação e pós-graduação.",
+    "referencia": "borko"
+  },
+  "documentacao": {
+    "titulo": "Documentação: organizar para tornar o conhecimento acessível",
+    "regra": "A documentação ampliou o olhar para diferentes documentos e para análise, organização e circulação do conhecimento. Sua história antecede o computador pessoal e se relaciona a Otlet, La Fontaine, bibliografia e cooperação internacional. Não se restringe à guarda física, à atividade de um único profissional ou a uma origem histórica inteiramente consensual da Ciência da Informação.",
+    "exemplo": "Um centro reúne relatórios, fotografias e artigos, os descreve e cria instrumentos de consulta. A finalidade não é apenas conservar objetos, mas permitir encontrar e utilizar seu conteúdo para estudo, trabalho ou prova.",
+    "tecnica": "Técnica: Anacronismo ou finalidade reduzida. Não situe uma atividade anterior à informática como se tivesse começado com o computador. Diferencie produzir conhecimento, registrá-lo e organizar documentos para acesso.",
+    "contrasteErrado": "Documentação surgiu somente com o computador pessoal e se limita à preservação física de livros.",
+    "referencia": "documentacao"
+  },
+  "documento": {
+    "titulo": "Documento e informação: registro, significado e contexto",
+    "regra": "Documento não é apenas texto impresso. Um objeto pode funcionar como evidência ou fonte informativa quando é selecionado, organizado e interpretado em um contexto. Em Buckland, informação como coisa inclui representações e objetos potencialmente informativos. Materialidade, significado e uso social ajudam a compreender por que algo é tratado como documento.",
+    "exemplo": "Uma fotografia de uma enchente pode integrar um arquivo para documentar transformações urbanas. Seu valor informativo depende da identificação, do contexto e do uso; imagens, sons e objetos não ficam excluídos apenas por não serem livros.",
+    "tecnica": "Técnica: Suporte estreitado e contexto ignorado. Pergunte por que o objeto informa ou serve de evidência. Não reduza o documento a um formato nem considere recepção e significação como dimensões isoladas.",
+    "contrasteErrado": "Somente textos impressos são documentos; imagens, sons e objetos nunca podem funcionar como informação.",
+    "referencia": "buckland"
+  },
+  "leis-ranganathan": {
+    "titulo": "Cinco leis: usar, relacionar, poupar tempo e crescer",
+    "regra": "As cinco leis de Ranganathan são: livros são para usar; a cada leitor seu livro; a cada livro seu leitor; poupe o tempo do leitor; a biblioteca é um organismo em crescimento. Elas orientam acesso, adequação ao público, organização e adaptação. Crescimento inclui mudanças de serviços e necessidades, não apenas aumento de volumes.",
+    "exemplo": "Horário e localização acessíveis favorecem o uso. Selecionar material adequado ao público aproxima leitor e livro. Uma busca clara poupa tempo; rever serviços diante de novas necessidades expressa a ideia de organismo em crescimento.",
+    "tecnica": "Técnica: Número e enunciado trocados. Relacione a medida concreta à lei antes de julgar. A primeira enfatiza uso; a quarta, tempo; a quinta, desenvolvimento e adaptação.",
+    "contrasteErrado": "A quarta lei é “os livros são para usar”, e a quinta afirma que a biblioteca dispensa adaptação e planejamento.",
+    "referencia": "ranganathan"
+  },
+  "tipos-biblioteca": {
+    "titulo": "Biblioteca: missão institucional e função social",
+    "regra": "Bibliotecas apoiam acesso à informação, aprendizagem, cultura e produção de conhecimento conforme sua missão e comunidade. Bibliotecas universitárias apoiam ensino, pesquisa e extensão e podem ter arranjos centralizados ou em sistemas. Instituições e programas de bibliotecas públicas têm história própria; a biblioteca não substitui todo o sistema educacional.",
+    "exemplo": "Uma biblioteca universitária pode ter unidade central e serviços de apoio ao estudo e à pesquisa. Sua relevância permanece com a Internet, pois seleção, qualidade, orientação e acesso não são garantidos por uma busca genérica.",
+    "tecnica": "Técnica: Parte transformada em totalidade. Não atribua à biblioteca todas as funções da educação nem a um único órgão todas as iniciativas públicas. Missão e público orientam o tipo de serviço.",
+    "contrasteErrado": "Bibliotecas universitárias servem apenas à guarda de livros e não apoiam pesquisa ou extensão.",
+    "referencia": "ifla-publica"
+  },
+  "etica": {
+    "titulo": "Ética profissional: acesso, privacidade e responsabilidade",
+    "regra": "A atuação bibliotecária exige responsabilidade, respeito ao público, liberdade de acesso, sigilo e cuidado com dados e conflitos de interesse. Ética orienta decisões, não apenas o cumprimento de tarefas. Dever de atendimento não autoriza violar a lei, expor dados ou aceitar qualquer demanda em qualquer circunstância.",
+    "exemplo": "O histórico de empréstimos não deve ser divulgado por curiosidade de terceiros. Ao planejar um serviço personalizado, a biblioteca precisa definir finalidade, proteção e acesso aos dados, além do benefício oferecido ao usuário.",
+    "tecnica": "Técnica: Dever transformado em obrigação sem limites. Zelo e assistência convivem com sigilo, competência e regras aplicáveis. A expressão “em nenhuma circunstância” pode apagar limites relevantes, mas deve ser examinada pela regra, não isoladamente.",
+    "contrasteErrado": "O dever de atender o público permite divulgar livremente o histórico de leitura dos usuários.",
+    "referencia": "etica"
+  },
+  "profissao": {
+    "titulo": "Exercício profissional: formação, registro e atribuições",
+    "regra": "O exercício da profissão de bibliotecário é regulado por legislação própria e fiscalização pelos conselhos. Formação exigida, registro e hipóteses legais devem ser conferidos no texto vigente. Titulação em outra área ou pós-graduação em Ciência da Informação não substitui automaticamente os requisitos. O campo de trabalho não se restringe ao papel ou ao digital.",
+    "exemplo": "Um pesquisador com doutorado em Ciência da Informação não se torna automaticamente habilitado para ocupar função privativa de bibliotecário. A análise precisa verificar os requisitos legais de formação e registro, e não apenas a afinidade temática do diploma.",
+    "tecnica": "Técnica: Habilitação ou suporte ampliados sem base legal. Diferencie atribuições profissionais, descrição ocupacional e formação acadêmica. Não separe bibliotecários e cientistas da informação simplesmente por papel versus arquivo digital.",
+    "contrasteErrado": "Qualquer graduado em ciências humanas pode exercer automaticamente a profissão de bibliotecário se tiver pós-graduação em Ciência da Informação.",
+    "referencia": "profissao"
+  },
+  "redes-computadores": {
+    "titulo": "Redes: comunicação, alcance e protocolos",
+    "regra": "Protocolos estabelecem regras de comunicação em camadas. IP participa do endereçamento e encaminhamento; TCP oferece transporte confiável de um fluxo de dados. HTTP atende à comunicação Web; FTP, à transferência de arquivos. Rede local limita-se em alcance, mas pode acessar redes e bases remotas por interconexão.",
+    "exemplo": "Computadores de uma biblioteca compartilham impressoras na rede local e acessam um catálogo remoto pela Internet. Um roteador encaminha pacotes entre redes. O protocolo de aplicação não substitui toda a infraestrutura de comunicação.",
+    "tecnica": "Técnica: Camada, direção ou alcance trocados. Não atribua ao IP todas as funções de TCP, nem ao OAI-PMH a transmissão geral da Internet. Intranet e extranet se distinguem pelo acesso e público, não pela distância geográfica sozinha.",
+    "contrasteErrado": "Uma rede local nunca acessa serviços remotos e toda transmissão na Internet se baseia no protocolo OAI-PMH.",
+    "referencia": "redes-ti"
+  },
+  "seguranca": {
+    "titulo": "Segurança: quem acessa, o que muda e quando funciona",
+    "regra": "Confidencialidade limita acesso a autorizados; integridade protege contra alteração não autorizada; disponibilidade assegura acesso quando necessário; autenticidade permite verificar identidade ou origem. Medidas distintas atendem esses objetivos e precisam ser combinadas. Uma informação pode ser pública e ainda exigir integridade e autenticidade.",
+    "exemplo": "Um diário oficial pode ser lido pelo público e ter assinatura digital para verificar origem e integridade. Um sistema de empréstimos exige também controle de acesso aos dados pessoais. Estar disponível não significa que o conteúdo permaneceu correto.",
+    "tecnica": "Técnica: Propriedade trocada. Identifique o risco: exposição, alteração, indisponibilidade ou falsa origem. Não deduza segurança completa de uma única medida tecnológica.",
+    "contrasteErrado": "Confidencialidade significa garantir que dados nunca sejam alterados, enquanto integridade é apenas mantê-los secretos.",
+    "referencia": "cert"
+  },
+  "bigdata": {
+    "titulo": "Big Data: volume, velocidade e variedade",
+    "regra": "Big Data descreve desafios e abordagens para dados cujo volume, velocidade ou variedade exigem soluções escaláveis de gestão e análise. Os três Vs são uma formulação clássica, à qual se agregam outras dimensões em diferentes referências. Ter muitos dados não garante qualidade, significado ou boas decisões.",
+    "exemplo": "Logs de milhões de interações, chegando continuamente e em formatos diferentes, exigem tratamento e infraestrutura distintos de uma pequena planilha. Ainda é preciso definir a pergunta, limpar dados e interpretar os resultados.",
+    "tecnica": "Técnica: Dimensão versus garantia. Volume, velocidade e variedade caracterizam desafios; não são prova automática de veracidade ou valor. Confira a formulação adotada pelo item.",
+    "contrasteErrado": "Big Data é definido apenas pelo tamanho de um arquivo e garante que seus dados sejam verdadeiros.",
+    "referencia": "bigdata"
+  },
+  "medida-provisoria": {
+    "titulo": "Medida provisória: edição e apreciação legislativa",
+    "regra": "No âmbito federal, a Constituição atribui ao presidente da República a edição de medidas provisórias em caso de relevância e urgência, observadas limitações. Elas têm força de lei e são submetidas ao Congresso Nacional. Editar a medida e apreciá-la para conversão em lei são competências diferentes.",
+    "exemplo": "O presidente edita uma medida provisória e a envia ao Congresso. O Legislativo pode apreciá-la segundo o procedimento constitucional; isso não significa que o ato inicial seja de sua competência exclusiva.",
+    "tecnica": "Técnica: Competência trocada. Separe quem edita o ato de quem o examina e pode convertê-lo em lei. Use o texto constitucional, não apenas a presença da palavra legislativo.",
+    "contrasteErrado": "Medidas provisórias federais são editadas exclusivamente pelo Congresso Nacional, sem participação do presidente da República.",
+    "referencia": "cf62"
+  },
+  "referencias": {
+    "titulo": "Referências: identificar e permitir conferir a fonte",
+    "regra": "A NBR 6023 trata de referências, enquanto outras normas tratam de citação, resumo, sumário e seções. A referência identifica um documento por elementos adequados ao seu tipo. Ordem e apresentação acompanham o sistema adotado. Questões que citam a edição 2002 devem ser interpretadas naquele contexto; a edição 2025 deve orientar o estudo atualizado quando exigida.",
+    "exemplo": "Uma referência de artigo identifica autor, título do artigo, periódico e dados de publicação e localização pertinentes. Não se deve transferir automaticamente para ela todos os elementos de uma referência de livro ou confundir data do fascículo com periodicidade da revista.",
+    "tecnica": "Técnica: Norma, tipo documental ou elemento trocado. Identifique primeiro o documento e a edição da norma. Não aplique regras históricas de pontuação de endereços como se fossem permanentes em todas as revisões.",
+    "contrasteErrado": "A NBR 6023 regula apenas resumos e determina que todas as listas de referências sigam obrigatoriamente a ordem alfabética.",
+    "referencia": "nbr6023"
+  },
+  "gestores-referencia": {
+    "titulo": "Gerenciadores bibliográficos: apoio com conferência",
+    "regra": "Gerenciadores bibliográficos ajudam a coletar, organizar, citar e produzir referências em diferentes estilos. Zotero permite sincronização entre dispositivos conforme configuração e limites do serviço. Ferramentas como abnTeX2 apoiam a formatação, mas os metadados importados e a aderência do estilo à edição normativa precisam ser conferidos.",
+    "exemplo": "Ao importar um artigo, o programa pode receber título incompleto ou autor invertido. A referência sairá formalmente padronizada, mas continuará com erro se o registro não for corrigido. Automatizar reduz trabalho, não elimina revisão.",
+    "tecnica": "Técnica: Recurso negado ou automatização absoluta. Diferencie gerar uma referência, sincronizar uma biblioteca e validar a qualidade dos dados e do estilo adotado.",
+    "contrasteErrado": "Zotero só armazena referências localmente e não oferece qualquer possibilidade de sincronização entre computadores.",
+    "referencia": "zotero"
+  },
+  "citacoes": {
+    "titulo": "Citações: transcrição e apresentação",
+    "regra": "A NBR 10520 trata da apresentação de citações. Citação direta reproduz o texto da fonte e exige identificação adequada. No padrão de 2023, trechos de mais de três linhas são destacados, com letra menor e sem aspas; o recuo deve ser padronizado, sendo recomendado 4 cm. A edição anterior tratava o recuo de modo diferente.",
+    "exemplo": "Um trecho direto de cinco linhas não fica entre aspas dentro do parágrafo comum. Ele recebe destaque próprio e indicação da fonte. O limite é mais de três linhas, não apenas mais de quatro.",
+    "tecnica": "Técnica: Limite, aspas e força da regra. Separe obrigação de recomendação e verifique a edição. Misturar regras de citações curtas e longas cria uma formulação aparentemente familiar, porém incorreta.",
+    "contrasteErrado": "Citações diretas de mais de três linhas devem permanecer entre aspas no mesmo formato do parágrafo comum.",
+    "referencia": "nbr10520"
+  },
+  "secoes": {
+    "titulo": "Numeração progressiva: explicitar a hierarquia",
+    "regra": "A NBR 6024 organiza a numeração progressiva das seções. Níveis subordinados acrescentam indicativos separados por ponto, sem ponto, hífen ou outro sinal entre o indicativo completo e o título, além do espaço previsto. Não se confunde a norma de numeração com a NBR 6027, que trata do sumário.",
+    "exemplo": "A seção primária 2 pode conter 2.1 e 2.2. O ponto faz parte da numeração entre níveis; escrever “2.1 – Atendimento” acrescenta um sinal separador que não integra o padrão cobrado.",
+    "tecnica": "Técnica: Sinal e norma trocados. Distinga ponto interno do indicativo e sinal colocado antes do título. A numeração organiza as seções; o sumário as apresenta na ordem do documento.",
+    "contrasteErrado": "Na numeração progressiva, o indicativo completo deve sempre ser separado do título por hífen.",
+    "referencia": "nbr6024"
+  },
+  "trabalho-academico": {
+    "titulo": "Trabalhos acadêmicos: estrutura e identificação",
+    "regra": "A NBR 14724 orienta a apresentação de trabalhos acadêmicos e distingue elementos pré-textuais, textuais e pós-textuais. A folha de rosto identifica trabalho, autoria, natureza e dados institucionais aplicáveis. Questões antigas podem citar regras e nomenclaturas de versões anteriores; não se deve preencher campos inexistentes ou transportar uma regra histórica para toda edição atual.",
+    "exemplo": "Uma dissertação apresenta natureza do trabalho e orientação em lugar próprio. Se tem apenas um volume, não se inventa uma informação de múltiplos volumes. A ficha catalográfica segue a exigência e o procedimento bibliográfico aplicável.",
+    "tecnica": "Técnica: Elemento e condição de aplicação. Confira o local e se o dado se aplica ao trabalho. Identificação acadêmica, referência bibliográfica e descrição catalográfica têm objetivos relacionados, mas diferentes.",
+    "contrasteErrado": "A folha de rosto serve apenas para repetir a capa e não pode informar a natureza acadêmica ou a orientação do trabalho.",
+    "referencia": "nbr14724"
+  },
+  "resumos": {
+    "titulo": "Resumo indicativo e informativo: quanto informam?",
+    "regra": "Resumo apresenta de forma concisa os pontos relevantes de um documento. O indicativo sinaliza conteúdos sem detalhá-los e em geral exige consulta ao original. O informativo apresenta finalidade, método, resultados e conclusões em grau que pode até dispensar a leitura para certa necessidade. Não há autorização para distorcer o conteúdo.",
+    "exemplo": "“O artigo discute avaliação de bibliotecas” apenas indica o tema. “Foram entrevistados 30 usuários; a principal barreira foi...” já oferece informações sobre método e resultados. A diferença está no conteúdo comunicado, não apenas no tamanho do parágrafo.",
+    "tecnica": "Técnica: Definições invertidas. Verifique se o resumo apenas anuncia os assuntos ou entrega dados e conclusões. Informativo e indicativo não se tornam equivalentes porque ambos são curtos.",
+    "contrasteErrado": "Resumo indicativo é o mais detalhado e apresenta necessariamente todos os resultados, dispensando sempre a consulta ao original.",
+    "referencia": "nbr6028"
+  },
+  "apresentacao-resumos": {
+    "titulo": "Resumo: redação, extensão e edição normativa",
+    "regra": "A NBR 6028:2021 prevê parágrafo único, frases concisas e ausência de enumeração de tópicos; recomenda o informativo para documentos técnicos ou científicos e o verbo na terceira pessoa. A extensão recomendada varia por tipo documental: 150–500 palavras para trabalhos acadêmicos e relatórios; 100–250 para artigos. Questões anteriores devem ser lidas conforme a edição indicada.",
+    "exemplo": "Um resumo de artigo com 180 palavras está na faixa recomendada. Um resumo de tese de 180 palavras pode estar na faixa de trabalhos acadêmicos; não se transfere para toda tese o limite superior de 250 próprio dos artigos.",
+    "tecnica": "Técnica: Recomendação transformada em obrigação ou faixa trocada. Confira o tipo documental e a versão da norma. Na edição 2021, terceira pessoa não equivale a uma obrigação geral de voz passiva.",
+    "contrasteErrado": "Todo resumo deve ser escrito em dois parágrafos, em voz passiva e com a mesma quantidade de palavras, qualquer que seja o documento.",
+    "referencia": "nbr6028"
+  },
+  "avaliacao-resumos": {
+    "titulo": "Resumos: finalidade, qualidade e tipologias",
+    "regra": "Um resumo de qualidade permite antecipar a relevância do documento e representa seu conteúdo com fidelidade, clareza e coerência. Pode haver tipologias especializadas, como resumos estruturados e modulares, além das categorias normativas. Resumo fornecido pelo autor também precisa ser avaliado. Sumarização não é o mesmo que o sumário de seções de uma publicação.",
+    "exemplo": "Ao ler um resumo, o pesquisador deve conseguir decidir se o texto trata de seu problema. Repetir muitas palavras pode favorecer certas buscas automáticas, mas não torna o texto mais claro. Copiar o resumo do autor sem conferir sua adequação pode preservar falhas.",
+    "tecnica": "Técnica: Categoria e finalidade confundidas. Separe resumo como representação de conteúdo, sumário como lista estrutural e análise crítica como outra produção. Termos históricos precisam ser interpretados pelo referencial usado.",
+    "contrasteErrado": "Todo resumo do autor deve ser aceito automaticamente como descrição física e sumarização é apenas a elaboração do sumário de seções.",
+    "referencia": "indexacao"
+  },
+  "sumario": {
+    "titulo": "Sumário: mapa das partes na ordem do documento",
+    "regra": "O sumário enumera partes na ordem em que aparecem, com títulos e localização. Na NBR 6027:2012, é o último elemento pré-textual nas monografias, não inclui os elementos pré-textuais e pode incluir pós-textuais. A palavra sumário é centralizada. Para o mesmo texto em idiomas diferentes, recomenda-se sumário separado; num único sumário, traduções são separadas por sinal de igualdade.",
+    "exemplo": "O leitor encontra introdução, capítulos, referências e anexos com suas páginas. Não encontra ali a própria lista de siglas. Se a obra tem vários volumes, cada volume deve permitir conhecer o conteúdo do conjunto conforme a regra normativa.",
+    "tecnica": "Técnica: Sumário versus índice e posição dos elementos. O sumário segue a estrutura; índice reúne entradas por outro critério. Confira ainda centralização, margem da paginação e tratamento de idiomas.",
+    "contrasteErrado": "O sumário deve ser o primeiro elemento pré-textual e listar obrigatoriamente todos os elementos pré-textuais.",
+    "referencia": "nbr6027"
+  },
+  "indices": {
+    "titulo": "Índice: entradas, remissivas e localização",
+    "regra": "Índice relaciona palavras ou expressões segundo um critério e remete à localização de informações. A NBR 6034:2004 abrange índices impressos e automatizados e orienta cobertura, título, ordenação e remissivas. O índice pode cobrir notas, apêndices e anexos. “Ver” encaminha à forma adotada; “ver também” amplia para entradas relacionadas.",
+    "exemplo": "Uma entrada “Automação, 25–31” leva a páginas que tratam do assunto. Se há muitas remissões, subcabeçalhos ajudam a especificá-las. O índice pode reunir autores e assuntos, mas isso não o torna equivalente ao sumário dos capítulos.",
+    "tecnica": "Técnica: Cobertura excluída ou remissiva invertida. Distingua critério de ordenação e enfoque do índice. Conferir título e posição também importa: na apresentação impressa, o índice fica ao final ou em volume separado.",
+    "contrasteErrado": "O índice deve excluir notas, apêndices e anexos, e “ver também” elimina a forma não autorizada em favor da adotada.",
+    "referencia": "nbr6034"
+  },
+  "abreviacao": {
+    "titulo": "Abreviação de títulos: preservar reconhecimento",
+    "regra": "A NBR 6032:1989 trata de abreviação de títulos de periódicos e publicações seriadas. A abreviação segue regras de reconhecimento, raízes e formas autorizadas; não é livre supressão de letras. Siglas presentes no título são preservadas. Títulos com uma só palavra têm tratamento próprio, e abreviação por contração é excepcional.",
+    "exemplo": "Informação e Information podem compartilhar “Inf.” quando o critério permite. Um título já constituído por sigla não deve perder essa identidade. Antes de abreviar, confira se a regra admite a redução daquele vocábulo ou daquele título.",
+    "tecnica": "Técnica: Regra geral aplicada à exceção. Observe palavra única, sigla, artigo e raiz comum. Não confunda padronizar a abreviação com renomear um periódico que tem título semelhante ao de outro.",
+    "contrasteErrado": "Toda palavra e toda sigla de um título devem ser abreviadas livremente, inclusive títulos constituídos por uma única palavra.",
+    "referencia": "nbr6032"
+  },
+  "edicao-publicacao": {
+    "titulo": "Publicação: edição, errata, crédito e encarte",
+    "regra": "Edição reúne exemplares produzidos sem mudanças a partir de uma matriz, podendo incluir impressões e reimpressões. Crédito identifica participação na produção. Errata apresenta correções de erros; encarte é material intercalado com características próprias. Publicação seriada se caracteriza pela continuidade em partes sucessivas, não pelo tema tratado.",
+    "exemplo": "Reimprimir sem alterar o conteúdo não cria necessariamente uma nova edição. Uma folha que lista “onde se lê / leia-se” é errata; uma folha de formato diferente inserida no miolo pode ser encarte. Os nomes não se distinguem só pelo local da folha.",
+    "tecnica": "Técnica: Definição de elemento trocada. Compare a função do componente: corrigir, identificar participação, complementar ou continuar a publicação. Não atribua a errata a descrição de um encarte.",
+    "contrasteErrado": "Errata é qualquer folha intercalada no miolo, sem a finalidade de registrar correções.",
+    "referencia": "nbr6029"
+  },
+  "comunicacao-cientifica": {
+    "titulo": "Comunicação científica: circulação formal e informal",
+    "regra": "Comunicação científica abrange produção, avaliação, registro, circulação e uso de conhecimento. Canais formais e informais se complementam. Colégios invisíveis são redes de interação entre pesquisadores; modelos epidemiológicos usam analogias de difusão para estudar a propagação de informação, sem tratar o conhecimento literalmente como doença.",
+    "exemplo": "Pesquisadores conversam num evento, trocam ideias e depois publicam resultados em artigo. A conversa pode antecipar conteúdos ainda não validados; a publicação acrescenta registro e outros mecanismos de avaliação, sem tornar todos os canais equivalentes.",
+    "tecnica": "Técnica: Comunicação excluída da ciência ou rede sem interação. Identifique o fluxo e o grau de formalização. Informal não significa necessariamente falso, e colégio invisível pressupõe relações entre participantes.",
+    "contrasteErrado": "Colégios invisíveis são grupos de cientistas que, por definição, não se comunicam entre si.",
+    "referencia": "comunicacao"
+  },
+  "pesquisa": {
+    "titulo": "Pesquisa: finalidade, fontes e procedimento",
+    "regra": "Pesquisa bibliográfica trabalha com contribuições publicadas para compreender um problema; pesquisa documental analisa documentos conforme a investigação. Pesquisa experimental manipula variáveis em condições planejadas; descritiva caracteriza fenômenos e situações. Quantitativo e qualitativo se referem à abordagem e à análise, não a um juízo de superioridade.",
+    "exemplo": "Uma revisão de artigos é pesquisa bibliográfica. Analisar atas de uma instituição pode ser pesquisa documental. Comparar grupos sob uma intervenção controlada aproxima-se de um experimento. O desenho deve corresponder à pergunta formulada.",
+    "tecnica": "Técnica: Definições permutadas. Localize fonte, objetivo e operação de pesquisa. Planejamento global do trabalho não é a definição restrita de levantamento bibliográfico, e compreender significados não define pesquisa quantitativa.",
+    "contrasteErrado": "Pesquisa documental é apenas a revisão teórica de livros e artigos, e pesquisa experimental nunca manipula variáveis.",
+    "referencia": "pesquisa"
+  },
+  "editorial": {
+    "titulo": "Editoração e avaliação por pares: papéis e modalidades",
+    "regra": "O fluxo editorial distingue administração da plataforma, gestão do periódico, edição, avaliação e revisão de provas. Avaliação por pares pode ser simples-cega, duplo-cega, aberta ou ter outros arranjos. OJS é software livre; SEER corresponde à sua adaptação e difusão no contexto brasileiro. Recursos e nomes de funções variam com a versão.",
+    "exemplo": "O administrador configura a instalação e os periódicos; a equipe editorial conduz submissões e avaliações segundo os papéis definidos. Um revisor de prova verifica apresentação e erros finais. O autor pode receber pareceres sem conhecer a identidade dos avaliadores.",
+    "tecnica": "Técnica: Papel ou modalidade transformados em regra única. Duplo-cego é uma forma de avaliação, não a condição exclusiva para haver pares. Não atribua ao administrador toda decisão editorial nem confunda software livre com proprietário.",
+    "contrasteErrado": "Toda avaliação por pares exige duplo-cego e deve impedir que o autor conheça o conteúdo dos pareceres.",
+    "referencia": "ojs-cope"
+  },
+  "crossref": {
+    "titulo": "Crossref: identificação e conexão de referências",
+    "regra": "Crossref é uma infraestrutura cooperativa de registro de DOI e metadados que ajuda a conectar objetos de pesquisa e suas referências. Links persistentes favorecem descoberta e conferência. Registro de identificador não constitui garantia de acesso gratuito, validação metodológica ou avaliação por pares.",
+    "exemplo": "Uma referência aponta para um DOI e leva à página atual do artigo mesmo após mudança de localização. O leitor ainda pode encontrar uma exigência de assinatura: o vínculo identifica e encaminha, não define a licença do conteúdo.",
+    "tecnica": "Técnica: Conectar versus liberar ou validar. Diferencie identificação, resolução de links, acesso e avaliação científica. Esses serviços podem colaborar, mas não se substituem.",
+    "contrasteErrado": "Crossref garante acesso gratuito a todo artigo que recebe DOI e substitui a avaliação por pares.",
+    "referencia": "crossref"
+  },
+  "acesso-aberto": {
+    "titulo": "Acesso aberto: comunicação, direitos e sustentabilidade",
+    "regra": "Acesso aberto busca remover barreiras à leitura e ao uso da literatura científica, conforme as condições da licença e da iniciativa. Pode reorganizar modelos editoriais, financiamento, avaliação e circulação. Busca gratuita, texto gratuito e permissão de reutilização são dimensões que precisam ser distinguidas.",
+    "exemplo": "Um artigo num repositório pode estar aberto sob licença de reutilização. Outro resultado pode ser localizado gratuitamente, mas exigir assinatura para leitura. Avaliar custo e direitos ajuda a planejar coleções e serviços.",
+    "tecnica": "Técnica: Abertura sem consequência ou acesso confundido. Analise os efeitos sobre circulação e modelos de publicação; não equipare encontrar uma referência a poder ler e reutilizar o documento.",
+    "contrasteErrado": "Acesso aberto não produz qualquer efeito sobre planejamento editorial, circulação ou avaliação de publicações.",
+    "referencia": "boai"
+  },
+  "direitos": {
+    "titulo": "Direitos autorais, licenças e restrições tecnológicas",
+    "regra": "Possuir um exemplar ou oferecer acesso controlado não elimina os direitos autorais. Digitalização, reprodução e disponibilização exigem análise de autorização, licença, domínio público e exceções legais aplicáveis. Copyleft usa licenças para preservar liberdades sob condições; DRM impõe controles técnicos sobre usos digitais e pode criar barreiras.",
+    "exemplo": "A biblioteca pode possuir um livro impresso e não ter autorização para colocar seu PDF na Internet. Uma licença pode permitir certos usos, enquanto DRM limita cópia ou leitura em dispositivos. Regra jurídica, contrato e mecanismo técnico precisam ser examinados separadamente.",
+    "tecnica": "Técnica: Posse confundida com direito de divulgar. Não suponha que acesso interno dispensa direitos nem que copyleft significa restringir toda circulação. DRM não é um contador universal de vendas de exemplares físicos.",
+    "contrasteErrado": "Toda obra existente no acervo pode ser digitalizada e publicada livremente na Internet apenas porque a biblioteca possui o exemplar.",
+    "referencia": "direitos"
+  },
+  "deposito-legal": {
+    "titulo": "Depósito legal: registro e memória da produção nacional",
+    "regra": "O depósito legal de publicações busca assegurar coleta, guarda e registro da produção intelectual nacional. No regime federal brasileiro, a Biblioteca Nacional recebe exemplares conforme a legislação e suas orientações. Não se confunde com doação espontânea, registro de direito autoral ou obrigação de toda biblioteca receber todas as publicações.",
+    "exemplo": "Uma editora cumpre a obrigação de encaminhar publicação à Biblioteca Nacional. Isso contribui para memória e controle bibliográfico nacionais; não significa que todo usuário adquiriu direito irrestrito de reproduzir a obra.",
+    "tecnica": "Técnica: Obrigação e instituição responsáveis. Diferencie depósito legal, política local de aquisição e proteção autoral. Consulte o diploma aplicável ao tipo de publicação e ao período.",
+    "contrasteErrado": "Depósito legal é apenas uma doação opcional à biblioteca que o editor preferir e substitui todos os direitos autorais.",
+    "referencia": "deposito-legal"
+  },
+  "metricas": {
+    "titulo": "Bibliometria, cientometria, infometria e webometria",
+    "regra": "Bibliometria estuda aspectos quantitativos da informação registrada; cientometria focaliza a atividade científica; infometria tem alcance mais amplo; webometria estuda aspectos quantitativos da Web, que não contém apenas produção científica. Há interseções entre campos, mas os termos não são equivalentes em toda definição.",
+    "exemplo": "Contar referências de artigos é uma aplicação bibliométrica. Examinar colaboração científica pode integrar a cientometria. Medir links entre páginas institucionais é webometria, mesmo que as páginas não sejam artigos científicos.",
+    "tecnica": "Técnica: Escopo e definição trocados. Identifique objeto e abrangência da medida. Uma técnica quantitativa aplicada à ciência não se torna automaticamente sinônimo de todo o campo da infometria.",
+    "contrasteErrado": "Webometria estuda exclusivamente artigos científicos, e cientometria possui necessariamente a mesma abrangência de infometria.",
+    "referencia": "metricas"
+  },
+  "leis-bibliometricas": {
+    "titulo": "Lotka, Bradford e Zipf: o que se conta?",
+    "regra": "Lotka descreve distribuição da produtividade de autores; Bradford, dispersão de artigos sobre um tema por periódicos; Zipf relaciona frequência e posição de palavras. São regularidades e modelos usados com condições e limites, não garantias universais de qualidade. Conspectus é instrumento de avaliação de coleções, não uma dessas leis.",
+    "exemplo": "Para estudar quantos autores publicam muito ou pouco, pense em Lotka. Para identificar um núcleo de revistas de um tema, Bradford. Para ordenar palavras por frequência num conjunto textual, Zipf. Primeiro identifique a unidade contada.",
+    "tecnica": "Técnica: Nome da lei trocado. Autor, periódico e palavra são pistas para escolher a relação adequada. Não confunda produtividade com qualidade nem uma ferramenta de coleções com lei bibliométrica.",
+    "contrasteErrado": "Lotka mede frequência de palavras, Zipf mede produtividade de autores e Conspectus é uma lei de dispersão de periódicos.",
+    "referencia": "metricas"
+  },
+  "indicadores-citacao": {
+    "titulo": "Indicadores de citação: unidade e janela de análise",
+    "regra": "Fator de impacto do JCR é um indicador de periódicos, calculado com recorte de documentos e janela temporal definidos. Índice h combina produção e citações: h trabalhos têm pelo menos h citações cada. Bases diferentes têm coberturas diferentes. Indicadores de autocitação e relações entre revistas não se tornam equivalentes por usar as mesmas referências.",
+    "exemplo": "Um pesquisador com cinco trabalhos citados pelo menos cinco vezes pode alcançar h = 5, mas um único artigo muito citado não basta. O fator de impacto de uma revista não é a nota de qualidade de cada artigo publicado nela.",
+    "tecnica": "Técnica: Unidade, cobertura e rótulo do indicador. Diferencie autor, artigo e periódico. Não transfira automaticamente um valor entre bases ou trate toda medida de citações como fator de impacto.",
+    "contrasteErrado": "O JCR atribui fator de impacto a cada livro e o índice h depende apenas do artigo mais citado de um autor.",
+    "referencia": "hirsch"
+  },
+  "obsolescencia": {
+    "titulo": "Obsolescência da literatura: uso ao longo do tempo",
+    "regra": "Estudos de obsolescência examinam mudanças de uso, citação ou relevância de documentos ao longo do tempo. Idade cronológica não determina sozinha inutilidade; áreas, tipos documentais e finalidades apresentam ritmos diferentes. Dados temporais podem orientar atualização, preservação e decisões sobre coleções.",
+    "exemplo": "Uma edição antiga de legislação pode estar superada para responder ao direito vigente, mas ser necessária para pesquisa histórica. A avaliação deve distinguir perda de atualidade para certa tarefa e valor documental duradouro.",
+    "tecnica": "Técnica: Envelhecimento como perda universal. Defina qual uso está sendo medido e para qual área. Não transforme uma tendência estatística em ordem automática de descarte.",
+    "contrasteErrado": "Todo documento perde completamente sua utilidade ao atingir a mesma idade, independentemente da área e da finalidade de uso.",
+    "referencia": "metricas"
+  },
+  "monitoramento": {
+    "titulo": "Monitoramento ambiental: informação para antecipar decisões",
+    "regra": "Monitorar o ambiente é acompanhar eventos, tendências e relações relevantes para a organização, transformando sinais em subsídios para decisão. O foco pode incluir mudanças legais, tecnológicas, sociais e competitivas. Não é apenas vigiar rotinas internas nem acumular notícias sem relação com objetivos.",
+    "exemplo": "Uma biblioteca acompanha mudanças no ensino, nas plataformas digitais e nas licenças editoriais para prever novas demandas e riscos. O levantamento só se torna útil à gestão quando os sinais são analisados e vinculados às decisões.",
+    "tecnica": "Técnica: Coleta versus uso gerencial. Identifique o ambiente observado e a finalidade de antecipar escolhas. Monitoramento não equivale a garantir previsões infalíveis.",
+    "contrasteErrado": "Monitoramento ambiental limita-se a fiscalizar tarefas internas e não produz subsídios para planejar ações futuras.",
+    "referencia": "choo"
+  }
+}

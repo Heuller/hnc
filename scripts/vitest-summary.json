@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1012,
-  "numPassedTests": 1012,
+  "numTotalTests": 1019,
+  "numPassedTests": 1019,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 130,
-  "source": "vitest run: quarto lote de 300 questões e nova interface, 05/11/2026"
+  "testFiles": 131,
+  "source": "vitest run: estudo reverso integral das 1.342 questões reais, 05/11/2026"
 }
