@@ -1,12 +1,9 @@
 {
-  "numTotalTestSuites": 396,
-  "numPassedTestSuites": 396,
-  "numFailedTestSuites": 0,
-  "numTotalTests": 990,
-  "numPassedTests": 990,
+  "numTotalTests": 1007,
+  "numPassedTests": 1007,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 126,
-  "source": "vitest run: revisão individual concluída — 2.179 questões e 60 exercícios de véspera, validado em 31/10/2026"
+  "testFiles": 130,
+  "source": "vitest run: 1.007 testes aprovados em 130 arquivos; lote de 300 questões esquematizadas, 05/11/2026"
 }

@@ -22,6 +22,7 @@ import { RevisaoDiariaModal } from '../components/review/RevisaoDiariaModal';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { Award, Layers } from 'lucide-react';
 import { TreinoRaciocinioModal } from '../components/estudoReverso/TreinoRaciocinioModal';
+import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
 
 export const TreinosPage: React.FC = () => {
   const {
@@ -45,6 +46,7 @@ export const TreinosPage: React.FC = () => {
   );
 
   const [isTreinoReversoOpen, setIsTreinoReversoOpen] = useState(false);
+  const [isSimuladoRealOpen, setIsSimuladoRealOpen] = useState(false);
   const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
   const [isModalRevisaoDiariaOpen, setIsModalRevisaoDiariaOpen] = useState(false);
   const totalSimuladosDisponiveis = SIMULADOS_REGISTRY.length;
@@ -75,6 +77,12 @@ export const TreinosPage: React.FC = () => {
         <p className="text-sm text-ink-2 leading-relaxed">Comece pela questão, tente explicar a regra e confira o raciocínio passo a passo. Depois, aplique o conceito em outro cenário e retome a teoria quando precisar.</p>
         <p className="text-xs text-ink-2">Sessões de até 6 itens · 12 questões autorais revisadas · fontes para consulta · revisões sugeridas pelo seu histórico</p>
         <Button onClick={() => setIsTreinoReversoOpen(true)}>Treinar raciocínio por questões <ArrowRight className="ml-2 w-4 h-4" /></Button>
+      </section>
+
+      <section className="rounded-2xl border border-accent/30 bg-surface p-5 sm:p-7 space-y-3 shadow-editorial-sm">
+        <h2 className="text-xl font-serif font-bold text-ink">Questões reais Cebraspe por módulo</h2>
+        <p className="text-sm text-ink-2">Pratique itens de provas anteriores com correção imediata, explicação e links para a prova e o gabarito. Acervo inicial em conferência.</p>
+        <Button onClick={() => setIsSimuladoRealOpen(true)}>Explorar questões reais <ArrowRight className="ml-2 w-4 h-4" /></Button>
       </section>
 
       {/* Grade de Cartões de Treino (Regra F.1) */}
@@ -318,6 +326,7 @@ export const TreinosPage: React.FC = () => {
       </div>
 
       {isTreinoReversoOpen && <TreinoRaciocinioModal onClose={() => setIsTreinoReversoOpen(false)} />}
+      {isSimuladoRealOpen && <SimuladosReaisModal onClose={() => setIsSimuladoRealOpen(false)} />}
 
       {/* Modal do Simulado Adaptativo */}
       <SimuladoAdaptativoModal

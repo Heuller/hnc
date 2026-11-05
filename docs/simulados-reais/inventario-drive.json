@@ -1,0 +1,5779 @@
+{
+  "data": "2026-11-04",
+  "origens": [
+    "acervo-estudos",
+    "2026 - Biblioteconomia",
+    "Questões de Biblioteconomia"
+  ],
+  "metodo": "Listagem recursiva dos arquivos; isto não indica leitura, extração nem conferência dos itens.",
+  "arquivos": [
+    {
+      "id": "1KgBoFEWsYT472Qp5sfFK-j05s-kba4u_",
+      "nome": "LIVRO_DicionarioBiblioteconomiaArquivologia.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "46921080",
+      "origem": 0,
+      "pasta": null
+    },
+    {
+      "id": "1LTU6yjaUtgYIXtwiqpycUaRHKKxol-J8",
+      "nome": "README.md",
+      "tipo": "text/markdown",
+      "tamanho": "2074",
+      "origem": 0,
+      "pasta": null
+    },
+    {
+      "id": "1nNeisET34s_ExQ8tI0FLza-_2tA6RRcG",
+      "nome": "Novo Documento de Texto.txt",
+      "tipo": "text/plain",
+      "tamanho": "2135",
+      "origem": 0,
+      "pasta": null
+    },
+    {
+      "id": "1vqvnqQDatMzkdKLlqzp-RSI9GAbkLiha",
+      "nome": "Heuller na Câmara _ Analista Legislativo - Bibliotecário (Cebraspe).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1320243",
+      "origem": 0,
+      "pasta": null
+    },
+    {
+      "id": "1-R3Q1wdAS0uUPQLCOaE7T7o688mrFdP-",
+      "nome": "CQ2.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5907078",
+      "origem": 1,
+      "pasta": null
+    },
+    {
+      "id": "1lsTJClkoPpI7W_mnX9Qp1H68maP10ZHr",
+      "nome": "CAD CESPE.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3319411",
+      "origem": 1,
+      "pasta": null
+    },
+    {
+      "id": "1MnwnUTEt65JkOQqFtUDIeplE9fuOpVfV",
+      "nome": "CQ1.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5468650",
+      "origem": 1,
+      "pasta": null
+    },
+    {
+      "id": "18uQCP0IGW-_I5Rp6kbHKZEpGbxfCvORv",
+      "nome": "PAPIRVM BIBLIOTECONOMIA ESQUEMATIZADA.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2499133",
+      "origem": 1,
+      "pasta": null
+    },
+    {
+      "id": "10GSglL8eKWYAYFmBXF7HsWmelDaGoS_F",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_14_49 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "650644",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1ID9DmeJHNOavC3wG8jGE16Sh6RVwR5mo",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_15_28 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "618929",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "19xTs3OpAp2oqcANANy19W8aD7o70PRYy",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_16_01 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "640487",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1r1Ic8B0txdG0cf70hmhqL3ftz6cnpehb",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_16_29 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "623583",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1N0n3-7y-t-VC-oU15nyLpG_WFgWy8TZ6",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_17_15 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "381761",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1pj8OSkPuCoBVn068zE_hgCoOuFr4FTSV",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_17_58 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "658750",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1UPXz4I-ZyixWWJMqzsWfCgvjn76S08Hf",
+      "nome": "Interoperabilidade.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "747944",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1v-Lio5KI96WSSTTkEWWfW3_Z_JSvc2pC",
+      "nome": "T.I. Aplicado à Biblioteconomia.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "467947",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1C6QqkJEUUo6jL3PB5AvanKRh35fjN9mo",
+      "nome": "Bibliotecas Digitais e Virtuais.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1153521",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1Y0hxumqnfntYej4AJI6oBAvZXqrhN5O9",
+      "nome": "BDTD, Scielo, etc.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "459059",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1gV7dWMIT6EqN1B1LqVxY4IDoF9_7WK3P",
+      "nome": "COMUT, Cooperação, etc.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "738974",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1d0MQHNXO_TzmckcjClic7le4pH7njo4m",
+      "nome": "Biblioteca Digital Jurídica e Redes de Informação Jurídicas.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "338419",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1NwiTruY8yhympl7Cohd5O_6a30_551qJ",
+      "nome": "Preservação e Conservação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1217891",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "19g56dQWa5z1_3i-q6M0mAzc6rsFqBblg",
+      "nome": "Bibliometria.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1079354",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1PT_-3UqFgdEp1vyxFHUZ4qEwHEEtVZ5n",
+      "nome": "Gestão Documental.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "323976",
+      "origem": 2,
+      "pasta": null
+    },
+    {
+      "id": "1wmD_pG2tYYdmRPvBurzD04DfXqE58Z93",
+      "nome": "submissao-513-arquivo-909.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "286030",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1-tw7CgvkB5J2Yosi5VinyxXCqy6flgZe",
+      "nome": "oi.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "565432",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1W36WPU_n_QFBVQgEdnSc1TMbaMi_AnIW",
+      "nome": "livro-indexac3a7c3a3o-e-resumos-teoria-e-prc3a1tica-lancaster.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "24286726",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1ou6G8E8AMoDYj-MNoMPBwq2-iXh8cZCX",
+      "nome": "diego,+Artigo+3.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "467658",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1I9zLnrQhNukoXNXt2RCWQsDwKoza_Z_a",
+      "nome": "construcao_tesauros_meneses.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1472256",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1tRfKM-SDWKLA2kl37y7x50KSQX3xCfyL",
+      "nome": "admin,+art9-Campos-orig.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "74430",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "15-e6f-0s3bRc-KWfNfWUn426_-151nBz",
+      "nome": "Tesauros, linguagens terminológicas.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "24161945",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1O33V-RK3_w8K8l_ICeKGiIoRuXvBhAVd",
+      "nome": "Para-entender.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5095142",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1b3s2YdgUgQENs4FZcWx84w-3bzqVkSNV",
+      "nome": "KOSS.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "120171",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1PwNaQxcuxDIiMrN9brBTEKAJnbVp0adX",
+      "nome": "Introdução CDD.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "344741",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1uGN6x0BNnbR3QMZSo55lRR33YCJVgtzj",
+      "nome": "CDD-CLASSIFICATION-DECIMAL-DEWELL-23-EDIÇÃO-TRADUZIDA-E-COMPLETA (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4765185",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1QFn3zPBSj0BIhZely7ppXhvoimaqC5Pb",
+      "nome": "003017427.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "15941838",
+      "origem": 0,
+      "pasta": "16PQxEqeNr7mmNc3SagUq7UM5L3ZQ3qmK"
+    },
+    {
+      "id": "1hQgyfA0O3ALx-V_6BGbZU6jcc2rMP9DX",
+      "nome": "Referencias-NBR-6023-2025.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4881316",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "1wNEgbIlHecNniVM9s8RJWyZsteILssoh",
+      "nome": "NBR14724.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2902078",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "14aoXuoG_jNCDVGp9_20CAFDTfuIgE_Zs",
+      "nome": "NBR-15287_2025_Projeto-de-pesquisa.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "399189",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "1_Ch-9EU7cABjZPZCB9KuOuvd-PsuO3rD",
+      "nome": "Abnt_nbr_10520_2023.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "397296",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "1fI1FRsSp968G0oHKXV5HDGPj7QtH2w6R",
+      "nome": "ABNT-NBR-6027.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "111856",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "11hjGeYp7NltqfyZPIE8d16gaQ4naOw2d",
+      "nome": "ABNT-NBR-6022-Artigo-publicacao-periodica-Tecnica-ou-Cientifica.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "360535",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "1G_Jx8Obh2_J0rMKYwX1Cb2C1ZAyh6CmW",
+      "nome": "ABNT-NBR-6024.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "110326",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "14SbXMcK_E8HIAm7zyClhIsmO_JJpl6Xl",
+      "nome": "6028-Resumo-atualizada-em-18.05.2021-.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "305873",
+      "origem": 0,
+      "pasta": "17ovdyBRDjUYus2W5YxjwhnMqKaplZURz"
+    },
+    {
+      "id": "1g4ZHZQNL3JIMkXpChXeS_5j5wdz7xT0p",
+      "nome": "rdabrochure-por.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "114643",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1hM9go-1SawELqbFs7TW8GmQBQOKfRyuO",
+      "nome": "manmarc21regbibliograficos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2001127",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "18o2_GPb4hSdCmOfGumzQDRfo7MVBxaMD",
+      "nome": "ifla-lrm-august-2017_rev201712-por.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2091542",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1uI0v5_cTeD7ZNbqr_VJG5DLkQp_iG_1R",
+      "nome": "jscmap2.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1273390",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "13XDhdXN17HbbjIoDyQfQ6pCIuzz9qLCP",
+      "nome": "icp_2016-pt.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "413328",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1_JPfLPMCFSAvlAYxb8Jcq8ftk-gKyJDE",
+      "nome": "icp_2016-pt (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "413328",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1P5RRci9LV_k05iPb-n5SJvEQW0wVKQ6-",
+      "nome": "gracio_jca_dr_mar.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "324329",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1GViajx9FUr5fYQj6UT0dpzysx0jo2JT7",
+      "nome": "diego,+1914.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1101161",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1vGZPTgHXXYYSCZwAl0eDwyqMpA3xhwp5",
+      "nome": "catalogaao-no-plural-eliane-mey-e-naira-silveira_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "15410017",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1LJFmuyvvoZ2K07YzkI6tCJ7p4CpqeGbF",
+      "nome": "O impacto do modelo IFLA Library Reference Model na prática catalográfica_ casos de uso, vantagens e desvantagens.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1655576",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1GzUan1ux1-AvSGtw5QLz1IElvqPcugc6",
+      "nome": "MARC21_Upd9.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1485114",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1eSttQ1sgq0kEEs4cPK4MmLdrSiNflnbA",
+      "nome": "Danilo.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1018854",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1x_ZmHRjXahvsgXwbijDKd1NfLXowRujA",
+      "nome": "Catalogação dos princípios e teorias RDA e IFLA lRM.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1527350",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1PZT56o_TxYROxPtjMiiM6FzAL4qWx91c",
+      "nome": "3toolkitnonlc0514.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1287783",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "1QYwJbJwuPcutOpQ3YOJ1Jtvmh5bxvp2_",
+      "nome": "2545.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "451878",
+      "origem": 0,
+      "pasta": "1KdJ7fty5haaBuzVQLBuhKb21bkTH6aMH"
+    },
+    {
+      "id": "19gWE_BQvWCm1SsIV5FD68LOkpwYoSdEm",
+      "nome": "pdfcoffee.com_selecao-de-materiais-de-informacao-principios-e-tecnicas-waldomiro-vergueiro-pdf-free.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "339307",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1cge87nw_8peDjXXELbuxSlq3mdJv8qsH",
+      "nome": "pdf-livro-almeida-maria-christina-barbosa-de-planejamento-de-bibliotecas-e-servios-de-informao_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "22672426",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1l_wTPnxRPIzUJhOpjKYzds03kk_dlnJ-",
+      "nome": "metodologias-para-promoc3a7c3a3o-do-uso-da-informac3a7c3a3o.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "8831919",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1tVFkYrNdiAATU98yu_QPXODZHhl3fmb0",
+      "nome": "marketing-abordagem-em-unidades-de-informacao-compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "7014884",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1HrdzpHo3hhV54QziHQIrHAz3piqHRJuN",
+      "nome": "download.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "259271",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1KmZnmRCjeIPAxpQVodS3o-4aVkx-Io7g",
+      "nome": "download (2).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "228982",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1ZpJjpFubdMmnIMUoDDamSMzpM2oxLyAX",
+      "nome": "download (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "735958",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1NFUZw14qfj4Zrg8z0dYg686KggbGc4qq",
+      "nome": "conhecimento-empresarial-thomas-davenportcut-p_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "9334993",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "10RV7KtpT-Nuh5eylDqRU8RZYI4s6lziT",
+      "nome": "choo-chun-wei-a-organizac3a7c3a3o-do-conhecimento.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "28838600",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1gdjuPYUPCkS8HBceSEj1t8gTLJMXMAW4",
+      "nome": "Figueiredo1994.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "13984954",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "1q7CDWdWPCGuS02rZ-UqkTrusheG9v9IK",
+      "nome": "Desenvolvimento-de-colecoes.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5778933",
+      "origem": 0,
+      "pasta": "1kEyVXMl6DmhT7Z5MUkvxDlyd28HJO5Hc"
+    },
+    {
+      "id": "17fcpOlNV2z_0xjuAOS9k-ENjrKWM3lgJ",
+      "nome": "biblioteconomia e os ambientes de informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "10189923",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "13sVNMSyKWsXrJS-F5cTxwxlsXot6axbc",
+      "nome": "VERGUEIRO-Seleção de materiais de informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4048126",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1MgobpyAynn9Bn0-QlNt--J6wNAx0JMIg",
+      "nome": "Tesauros e Relações.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "981746",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "15x-6kctZ5kNVcwYMkd9FgdyiASDQ-kEq",
+      "nome": "TRATADO DE DOCUMENTAÇÃO. OTLET.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "6735848",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1aXCBn4NMAEmSSHczewyg8g-MK-pOlT3s",
+      "nome": "THE BRITISH LIBRARY_Preservação de documentos_2009.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3035407",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1ol_-7QCsBJT_OMYHVFuT0x7So9TDma8F",
+      "nome": "TAMMARO. A Biblioteca Digital.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "46554412",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1uoqBvXQDwqqiwP5pMnk1kVAl2r2xydRg",
+      "nome": "TABELACDDASSUNTOS.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "49984",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1KgcPPEjR-XBu_QfSVDPoQ-Dsc6Ao8EDT",
+      "nome": "Resumo sobre RDA.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "114643",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1LfrmMItkUyRtYHY2vQG7tQcWpm7W5JSE",
+      "nome": "Ramos & Corte et al. (2002).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "31262130",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1jXxLshbtV92tteUrEwipKDFvpRIw0-c8",
+      "nome": "README.md",
+      "tipo": "text/markdown",
+      "tamanho": "744",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1HRORDLYaTdr6XVAqiovzscAMCdwLliHH",
+      "nome": "QUE É DOCUMENTAÇÃO.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2324258",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1Z6pP2XqFwqzGzwSWgCq6m1E7PHLmuUnB",
+      "nome": "PLANEJAMENTO ESTRATÉGICO PARA UNIDADES DE INFORMAÇÃO.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1533608",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1EJOZNGmMgqt1jl4ZhLGesYgHGNoPZ6Qj",
+      "nome": "NAVES e KURAMOTO Organização da informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5093303",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "137lhMRTClZcL5pheFmdA6c8P_4cHiDvZ",
+      "nome": "Minicurso Vancouver, por Jeorgina Gentil.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1543030",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1oo5hrlMhJ_F2pLkCq7SGSwk2-6LT_OcJ",
+      "nome": "Manual-de-procedimentos-para-o-tratamento-da-informação-com-restrição-de-acesso.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1298036",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1pgEF2eC3WF7DVhtbeur1F0Fa8nLMgVQ9",
+      "nome": "MATERIAL GRATUITO - PGDF - 2020.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1090470",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1Ke4JoLvIIRHSwEUUQMLZqvzlbE1x3DRq",
+      "nome": "Livro-Verde-07-06-2018.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4371462",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1QyvxApwzDSNnPl142trp9j2a9mT5yymj",
+      "nome": "Livro- Metodologia para uso da informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "8831919",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "12QPvRPgcHQmCdkIdS-1ZGXzowuf2a76X",
+      "nome": "Livro- Estudos de usuário da informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "441388",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1deYbLyDhJt51bA-8P2iN2LW-kGHLDnXk",
+      "nome": "Livro- A indexação de livros.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "484711",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "15o0nNl17YxZQ6dpW80PzuYXn5fcdYTSa",
+      "nome": "Livro -CAMPELLO, B. Introducao ao Controle Bibliografico.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3216772",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1wV_Jf17QE_HqjrT-_SPmVpdTPoFDbQr5",
+      "nome": "Livro - biblioconcurseiros_ensinamentos_depoimentos_ISBN 978-85-61748-03-6 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1468359",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1fzqnmsrsGMAnD3dDh0DcF9G72WBxEK7a",
+      "nome": "Livro - VALENTIM_Org_Formacao-do-profissional-da-informacao.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "22406750",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1Uz72cKjBEAISxBuRN99XPsu97WXewJMK",
+      "nome": "Livro - Usos e usuários da informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "268300",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1p88FkpIcpJAd6laFAYwyiJAvByCmMjmB",
+      "nome": "Livro - O que é Ação Cultural - Autor Teixeira Coelho.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "24457232",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1bU3BnYJgOms_jDvm2qV9i4yqppXLhS5M",
+      "nome": "Livro - Nao brigue com a catalogacao! (Eliane Serrao Alves Mey).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2654614",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1B6h-GjwXqBC-IvwgllS_mMyZJtjSaHwy",
+      "nome": "Livro - Manual de elaboracao de  tesauros.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1221420",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1w2_Ro1vbxVcfYDBgWUuURRdcGkpqA0LT",
+      "nome": "Livro - Linguagem Documentária, teorias que fundamentam sua elaboração.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "31463253",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1Oh3WWsOCUPwafe2bkZ6_MtllwCQnKJFT",
+      "nome": "Livro - Introdução a biblioteconomia - Edson Nery da Fonseca.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "9116123",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1dwdFM-WI_Ys_NnIqI51mIV08R_0tFTA9",
+      "nome": "Livro - Indexação e resumos - Autor - Lancaster.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "24286726",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1WmhzGagoz9Rf4q0gKEVh4_0AD9neqFhD",
+      "nome": "Livro - Desenvolvimento de coleções - Autor Waldomiro Vergueiro.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1246767",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "10WlVJenM88QQQGMfaiJe0ySsGrCtUNJD",
+      "nome": "Livro - Bibliotecas Digitais.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "7250826",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1JVU-uAev02hpW8O7_hiDqQ7F-_F8pNKs",
+      "nome": "Livro - ALMEIDA - Planejamento em unidades de informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "251490",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1BoCzv7chIikmpzNESeM96CX_7rY8k7YA",
+      "nome": "Livro - A ciência da Informação - LeCoadic.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4084626",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1v1Eq0E5iAXJyASkLXLgsQJSIoTw7jQ6Q",
+      "nome": "LANCASTER_Indexação e resumos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "24289808",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1--Ii3GW9uc4PPoZzo5sauFfsEuHry4GD",
+      "nome": "ISBD CONSOLIDADA ESPANHOL.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2233522",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1H7wIycMwVSCLUU-WPEnPj9RFo-ITpIsj",
+      "nome": "Fontesde infCAMPELO7_5b1_5d.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "702371",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1it5ZDwo1qao_uai83_prREU3g5Bo9F62",
+      "nome": "FUJITA_Indexação de livros.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1374263",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1I06qV2Iv7zw0vJcl9PEEF3xPvmWtNYTz",
+      "nome": "FORMAÇÃO E ATUAÇÃO POLÍTICA NA BIBLIOTECONOMIA.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2655044",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1nwnUUjBzDY5L5Mi7Wq82CNsQcaAyvo3z",
+      "nome": "ESTUDOS DE USO E USUÁRIOS DA INFORMAÇÃO.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4352890",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "12lqKiHQI_lef9H0ASavET05a8tn9xpSW",
+      "nome": "ELEMENTOS DE TERMINOLOGIA. LARA. APOSTILA..pdf",
+      "tipo": "application/pdf",
+      "tamanho": "194566",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "10cBWiFH6iJH-BbWsEPQ93mIwKScDFLUs",
+      "nome": "E-books em bibliotecas_novos desafios para os bibliotecários.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "202768",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "10_I48tuS0SOLcgk_weIUovIogV8IC-_P",
+      "nome": "CôrteAR_Avaliação de softwares para bibliotecas e arquivos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "126359",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1LxFmdeD08hA8yNB_tAI3jDbJ_ua-UOHU",
+      "nome": "Cartilha Insetos Bibliofagos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4245463",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1FBR-IjekDBq75Xyvp_C41t0Zub7eJTde",
+      "nome": "CUNHA, Murilo Bastos da_ AMARAL, Sueli Angélica do_ DANTAS, Edmundo Brandão. Manual de estudo de usuários da informação. São Paulo Atlas, 2015..pdf",
+      "tipo": "application/pdf",
+      "tamanho": "18572353",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1QWaUs9CZRRS5XwOYCUrYLRsY3Os5kx-s",
+      "nome": "CDU - índice.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4330844",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1Bz5LsihW4coDlY6xTNba5fGzJjRkHqR6",
+      "nome": "CDU - Parte 2.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "10218136",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1DAEPUFM8b5oYqdTWBk6fRz4uRTJBYiPa",
+      "nome": "CDU - Parte 1.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "18409642",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1YthRc1fxssx20r3wMcsG_qkcS6_DFnd6",
+      "nome": "Auxiliar de Biblioteca Tecnicas praticas para formação profissional 2003 [Livro].pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5389684",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1WLwDB93AGsjitXmUiavpkWMDoNnjiFA1",
+      "nome": "Aquisição de Materiais de informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "311269",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1B2hgEEuyYgmJZlFcxlIfttFiJdbWorXI",
+      "nome": "AmaralSA_Marketing abordagem em unidades de informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "358643",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1ZsrRMYUI6YeZ6cect0m2fqNGd_5d6eMP",
+      "nome": "AmaralSA_Marketing abordagem em unidades de informação.docx",
+      "tipo": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "tamanho": "26464",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1sjIkcqVkQol3cHd_fx0Oieqx6N7T3Dfz",
+      "nome": "Accart_LIVRO_DE_SERVIÇO_DE_REFERÊNCIA(1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "97105536",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1DBc5dQd2OuR6pHZTZk1ScTEkz1cofehd",
+      "nome": "ATIKINSON - Planejamento e Gerenciamento.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "313739",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "11kYxAAyrSY7yEu5YzFnlBZM3XI_D7Sq_",
+      "nome": "ATIENZA, C. A. Documentacao juridica. Rio de Janeiro- Achiame. 1979.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "74356592",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1leiYme8KYX4Jf6ItrtxtXCIDP11oc-Ac",
+      "nome": "AMARAL, S. A. Marketing abordagem em Unidades de Informação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "12731875",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "19AqNCL16cpw2Sq8E4Oxm98Cs_rFj8YqL",
+      "nome": "ALMEIDA. Planejamento.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1026338",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1Lo9bK02cURZSAhkH8uWSR4HGcW3x6mc8",
+      "nome": "ALFABETO DA BIBLIOTECONOMIA - Material Free.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "246732",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1GGCkoLjlld0wwAkAsACvGjxMjpHYT0uK",
+      "nome": "AACR2 - COMPLETO com busca.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "26882474",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1M8fRxufe8ZwmW6sXht5cSXNMVB0MvL2F",
+      "nome": "(2010) Souza.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "57734265",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1maBUUN16X4YuF-IcSGbo3e5kVyWa_lZO",
+      "nome": "(2010) Russo.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1571497",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1QjM-qoTa0d9mFKp9uZj5hxUksL_WNKUu",
+      "nome": "(2006) Maciel & Mendonça.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "17263731",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1vuzAYJ-kvICYZe_k1FsEVZwASfHHvYiR",
+      "nome": "(1995) Maciel.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "12095554",
+      "origem": 0,
+      "pasta": "1eewYzFwo9S_PCbfa3aybL__RpzleiPRD"
+    },
+    {
+      "id": "1prkW2QyaaLKSBCK2UMUHXnYJOE0kt1Lf",
+      "nome": "submissao-458-arquivo-812.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "469684",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1bS0FLppHltRsZdktRUctQYpvaPmkxVau",
+      "nome": "out.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "276434",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1YBpJAS_XW3jUJlb1ERBbvvY_qpQNSdVk",
+      "nome": "paulacarina,+dados49708.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "199718",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "16pTHzu_KR2RWvlkAsggctIsUxQOMUnpa",
+      "nome": "sdata201618.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "254899",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1TbVqyHKtv12zo8kQ8VKZHECXU-Qnq0P5",
+      "nome": "submissao-174-arquivo-284.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "377902",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "12S12cm_Hk55mZFU1aK8z_7v8RarpPQOL",
+      "nome": "ilan,+0.000+-+[Artigo+convidado]+O+que+é+bibliometria+-+Uma+introdução+ao+fórum.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "804351",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1YA2tDpTbMVopkh5m0k0Tu6sM5RUsUdfu",
+      "nome": "hirsch-2005-an-index-to-quantify-an-individual-s-scientific-research-output.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "267000",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1ZqQA3U-HRFhvnrv5HmmpPk30zzDqaN12",
+      "nome": "download (2).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1107264",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1q0RyEZ1WYW9c2VWYR9ar1_9gE5ycoUcU",
+      "nome": "download (3).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "49152",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1MglxR1d-qekht8LDk-voXH2R8jVF1OdQ",
+      "nome": "download.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "158762",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1rVDyNDpAegTMXs9j0gJidzvqYi9JhGj9",
+      "nome": "download (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1339381",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1PdaGAzw0fOu78yvCq4eGvyn-Rz6Ow-8p",
+      "nome": "a.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "267624",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1WsjF4G3JTSYMk3ZjPq4pXQVq7s7FCIXB",
+      "nome": "a-comunicacao-cientifica-by-a-j-meadows-p_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "15144139",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1gTl2dMhT_lWZT-ZbMkXBJGv2aT0VZ33C",
+      "nome": "The FAIR Guiding Principle for Scientific Data Management and Ste.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "221289",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1MEvDFGA8LMDooI_ITk6WevzJTVTJoNB2",
+      "nome": "IBICT_Principios FAIR aplicados a gestão de dados de pesquisa_2021.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3508380",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "16laatCqcqpTdu8355JlunkXJ4pXFyUtq",
+      "nome": "GO_FAIR_e_os_principios_FAIR_o_que_repre.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "537010",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1TrvyIVShhoAMAjdNcAu-sjMXl7R92cxh",
+      "nome": "BerlinDeclaration_pt.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "26380",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1jPMGhyKrs9_NKS5jqrXfXhxDjRb0z3RK",
+      "nome": "Bethesda_Statement_Open_Access_Publishing2003.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "172954",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1KqSnT3bS0E9AF17yjY_gGOUpMo0p3OLC",
+      "nome": "BOAI10 Portuguese Translation – Budapest Open Access Initiative.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "280004",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1FyMDWTGx6gdDtIhLi92GI3bb0L0CuaN1",
+      "nome": "CAPITULO_QuestaoComunicacao.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "52610",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "10Qev-fU3-3MzaUuDtIgJ1U_o0cwyfgWY",
+      "nome": "4792175.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "211734",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1Qa0_hUsYMfh6oTKH7u_WU0F0lG2aDz8y",
+      "nome": "465645954002.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "145976",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1w8gY-UP1I15nJVQMYyuM2oZhrhcqjF8x",
+      "nome": "379949eng.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2155473",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1Z-Ltq5Rsvw3N7-o7MRcfNqsTHux_jqqx",
+      "nome": "14763386015.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "478072",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1KDl_6T7u2Yw33m4pC8-R9ceEHkVHO_VE",
+      "nome": "11204.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "156913",
+      "origem": 0,
+      "pasta": "1JP-u9JGQqpFnhpKZqmc76f4imfaSxAij"
+    },
+    {
+      "id": "1FOTuoheCy51iT9E21ddwtLEB0DdoNEdn",
+      "nome": "curso-preservac3a7c3a3o-e-conservac3a7c3a3o-de-acervos-bibliogrc3a1ficos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3878839",
+      "origem": 0,
+      "pasta": "1KAQHk2I3jK_hogN01jRRgQxC03X70Dbr"
+    },
+    {
+      "id": "1CgAWyc33AfYZcU3B57V6SEJXgzfIclPK",
+      "nome": "cf5.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1082145",
+      "origem": 0,
+      "pasta": "1KAQHk2I3jK_hogN01jRRgQxC03X70Dbr"
+    },
+    {
+      "id": "1kLOJOt0XfbqoSy-ej1GHVjjrrqoxb3i7",
+      "nome": "pdf-as-cinco-leis-da-biblioteconomi-ranganathanpdf_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "11424961",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1Zysfc08cRxYS6Bx-PnFxmEzo_CHAlb3G",
+      "nome": "deciowbj,+Gerente+da+revista,+15958-73972-1-PB.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "231222",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1vW7ow1zxxggjv8z267vuJdgpg3X1ZOAP",
+      "nome": "download.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "415143",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "170wX7pI9UNCn7g7tsX6rWH1_9JJ-yGGo",
+      "nome": "introduao-a-teoria-gera.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2001",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1jGr-5Jp27ZBFOlT62UeULdt2-6eJ9jOn",
+      "nome": "adminlti,+PCI-2007-620.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "415143",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1kcgBH50PzZF7_82phl1lXghNLBztl0x_",
+      "nome": "adminlti,+PCI-2005-5 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "113823",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1kdwcNa8ul39dPsDjYOHk_neJDuuI-mqs",
+      "nome": "Traçados_e_limites_da_ciência_da_informação_(Cionline_609).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "60277",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1t8y16TXhvYKbcrn1m6DhXr2v7JsEX4oK",
+      "nome": "LIVRO_DicionarioBiblioteconomiaArquivologia.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "46921080",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1AWo-jYnLujwJjuM091hcuRJy8J1HNI86",
+      "nome": "01+55054+Final+2024+11+07.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "266349",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1_cHJBu561nT962afnm4b-zvogNoyCdl-",
+      "nome": "Ciencia_da_Informacao_historia_conceitos_e_caracte.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "505522",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1afSj1bS82kdc6u3pPjAGFFX7NgIx5nAv",
+      "nome": "Informacao como Coisa (thing).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "195044",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "16GAz4oYKfU5A97WsKZp9z2nhbbO5G5pR",
+      "nome": "003043331.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "6736000",
+      "origem": 0,
+      "pasta": "1TxTsE9X6B4RSOCTLWqNSVyAwE1REIaKW"
+    },
+    {
+      "id": "1FoyP0hQPRFvZ0icbQWEpdqnDH5KtI_NT",
+      "nome": "uso_responsavel_camara.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2841549",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1TRPBqFtA77_k9A269x-WUrF0CGMwiAFP",
+      "nome": "repositriosinstitucionaisamricalatinaCostaLeite.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2395075",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1LWxrNo5clGTKrVOTKPonUDRh8ubKVgMU",
+      "nome": "repositorios_institucionais_santosjunior.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1652824",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1Hl99zIbdryh6dGsnwTdE7f17wzmiZDez",
+      "nome": "repositorios_institucionais_santosjunior (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1652824",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1mIIZroJXmypRgdog9WQana0CTZfm24JH",
+      "nome": "livro-diretrizes-ia-1.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1101046",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1zIY3dzSD5HFaIqvMBvaMen3VwM2ogAdS",
+      "nome": "informacao_conhecimento_miranda.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "9752922",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1BIgUM9SncU1SpFdeLYPyhF6wPVaMVzDN",
+      "nome": "ifla_statement_on_libraries_and_artificial_intelligence-full-text.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "271823",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "16ueD7Z2Ql7ZqMolXZNxukfESoEOXnaph",
+      "nome": "identificacao_metadados_lima.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2582719",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1w3dksp72QsIRlpnXr3EsK-vCEhnRVKrO",
+      "nome": "guia_bibliotecas_couto.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1107239",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1e9nvzj1LJWOy0eDIKnJSALd8Fl2yRUJ6",
+      "nome": "frcosta,+02.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "466003",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1rIgXdApKgIJVyg8ZWx8hB7xbzGo_tjdP",
+      "nome": "frcosta,+02 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "466003",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1glTppgag9BQqaOOVzm1BWEUsULsFDuaR",
+      "nome": "download (5).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "760328",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1XoHiHGsUYKBnOb0dqgRQ3yf2GvXJ0V38",
+      "nome": "download.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "179359",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1UYTkcrx-Zv4oqDYrD7_EXzX9a4hfeBxd",
+      "nome": "download (4).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "136310",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1cYU5RhUN9Gg6TbVh0cWD00ebsw4nHHi1",
+      "nome": "download (2).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "242966",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1ngVb9_ojzTCCcEfKiwDoRdAWYP-8ERTL",
+      "nome": "download (3).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "253483",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1zRmPHzklawCAkA42hVxcu0znKcLVr-2D",
+      "nome": "como_pesquisar_biblioteca_digital.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "297870",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1sPY6dhaSKmP6OZjQG1YrdZ7hJGryCxz_",
+      "nome": "deciowbj,+Gerente+da+revista,+Nonato_Arquitetura.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "360148",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1ZKT_2reGhXM7IiC4IXYbd6e-OaJCkfWB",
+      "nome": "download (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1090678",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1CMd4K91kVSTgnLXW_COnOetaIS1ymK8Z",
+      "nome": "arquitetura_informaca_miranda.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "14735002",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1UJE-YTtN0H1gdQQX7gFPwJCPPTdz3Z49",
+      "nome": "biblioteca_digital_cautela (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "587765",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1R5eGrC7k6b3qXIkz3z61mXQLJFHLN7di",
+      "nome": "biblioteca_digital_cautela.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "587765",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1Ut2l8CTqqmPEaoHLGk0pPV-rCgddA4aV",
+      "nome": "WebSemanticaPragmatica_Vechiato_2019.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "328761",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1JjZISUwaOLA2JbAle_Vl0DkLOpUNyBqb",
+      "nome": "UniversitDegliStudiDiPar_BibliotecaDigitale-Introduz_20260929155658.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "328866",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1BamMnVTjQFOCivq4aqgpHQ9VKm83CF6G",
+      "nome": "O_protocolo_OAI-PMH_para_interoperabilidade_em_Bib.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "253392",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "13i7J6eLKus9iJ7WV04dxVrVFoUuJn8yz",
+      "nome": "SoniaMiguelPreservacaoDigital.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "113421",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1PU8yXRsE2obKGklOabOPmwcY_yqXrqFQ",
+      "nome": "Miao and Holmes - 2023 - Guidance for Generative AI in Education and Resear.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1914414",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "15-W8e3f6AEBr-wxmQg5IR8EFm8iZGOYN",
+      "nome": "Manuscript.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3557137",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1_AWeEpj6RxCUsGeMkPlnlikzGTsoUpU1",
+      "nome": "LIVRO_ComoAmpliareGerenciar.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1594750",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1czgSVk5I5vCIZ-EyLGq0_-mIzuCigbt-",
+      "nome": "LIBRARY_Digital+Libraries+Accessing+Knowledge+Anytime,+Anywhere.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "265623",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1HkAitWFoY2GiwKJi5rU4-gJLJY6Xat_9",
+      "nome": "ISO-14721-2025.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1201466",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1zc7Ri-4IFcCxsYW0Ue9C38q02gBAmMhC",
+      "nome": "Boas_praticas_para_a_construcao_de_repos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "7397099",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1JB8aUr4AY3_w6nOoxQQiHknHl-nDM1Gl",
+      "nome": "Desafios_na_construção_de_uma_biblioteca_digital_(Cionline_829).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "58583",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1ZLIBHIrFBvcQKDCazJVVHy-7URiB9g84",
+      "nome": "650x0m3.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5162898",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1AA7yW3oWD_4vtUqS_mWw1kMlY2WDKW_4",
+      "nome": "465645954004.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "553946",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1u_Ku7Evb_xUW9m12g5r678yCj3SUmPUI",
+      "nome": "29941-Texto do artigo-130134-132197-10-20181018.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "244261",
+      "origem": 0,
+      "pasta": "1cSuOtMY96qvB_emTGnBKRgyylRTUR63y"
+    },
+    {
+      "id": "1i91JS-cy6afjKLXTn2miNI3kh2O2zIHU",
+      "nome": "codigo_etica_4ed.2reimp.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "311236",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1ERBc61MLHvEsJskChS41UdiFU9ogoRvq",
+      "nome": "RICD atualizado ate RCD 34-2026.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1810592",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "16jg-pnATgeVy_JMdDGw71DnAqU2lODjG",
+      "nome": "www2.camara.leg.br_legin_fed_lei_1960-1969_lei-4084-30-junho-1962-353848-normaatualizada-pl.html.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "142978",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1Y4njQ_A4tePi_gsTInkU0hl50MUNlqVR",
+      "nome": "RCCN.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5931829",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1lXI2b_BRKgd_pYyhA0vVEm2RbVRW13Zw",
+      "nome": "Portal da Câmara dos Deputados.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "251343",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1b3WFjOFZgBv5nBeRw0FBtg92Ac3s0NEY",
+      "nome": "ManualPesquisaWeb.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1962072",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "17b47amKQ5V8wcm1XhAKthsQTgY1MbMjB",
+      "nome": "LexML_visao_unificada_da_informacao_legi.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "398605",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1w5goAHDBRQlkvAtHEdf65Xf6Sdgy4oWQ",
+      "nome": "LexML_Brasil_Apresentacao.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "112448",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1HdXSTnrdY4atsXIU7MIj1lIIoM2ge3TQ",
+      "nome": "Lei9674.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "181121",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1U5d1BorAwozJ1pIT6ogpekOGmF1ngCc3",
+      "nome": "Lei-14837-2024-04-08.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "493741",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1sELpK-vIQJ3NJ24PoI_njPalDb2yzg-c",
+      "nome": "L9610.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "543394",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1kComHIpp9lKq3cyclV948kXoq7J4xNaN",
+      "nome": "Lei 10.994.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "85805",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1jCqEMos6uok5RBzJ8FHGw3pU-xqUa5nd",
+      "nome": "L13709.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "778638",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1JXyuwooBY-fgspEHqdKj2vBSA6t_Zj9K",
+      "nome": "L12244.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "157391",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1kN0PpsnZisGEiKfi8iJkKSOUyS_48H5r",
+      "nome": "L12527.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "256667",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1IkvDvYYwVQkkzXHIAYxUv5YrtP0RrzpE",
+      "nome": "DOC-Legislação citada-20100427.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "287569",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "1z-uQ5SGXkl7ni7jZJZfOn-Co_giJGQV-",
+      "nome": "01111442.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "222535",
+      "origem": 0,
+      "pasta": "1JJ8dsJpm6yvH1dJb6TEh2aao3YWhec3O"
+    },
+    {
+      "id": "18hSl-e0ghMDcJkei_jlWI1hgFVqIt3_a",
+      "nome": "wcs_and_other_modules.md",
+      "tipo": "text/markdown",
+      "tamanho": "8888",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1IkfCPeiA0EEupLo20uq1u3MYNn5m-Kn4",
+      "nome": "voice_profile.md",
+      "tipo": "text/markdown",
+      "tamanho": "6270",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1vQHZOuCRklRhZ16M2uvtZH2agU9KKQQj",
+      "nome": "visualization.md",
+      "tipo": "text/markdown",
+      "tamanho": "12917",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1hTNcRsW_MWC_z0L_HO19LVP_uF3W869B",
+      "nome": "unsupervised_learning.md",
+      "tipo": "text/markdown",
+      "tamanho": "14945",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "128YrrbfKcllsdlQexDrcxfZqLOssgbDy",
+      "nome": "venue_styles.md",
+      "tipo": "text/markdown",
+      "tamanho": "5189",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1jpGvL6LC0eB2c04i79IaCO7s_3CeZOjg",
+      "nome": "visualizacao.md",
+      "tipo": "text/markdown",
+      "tamanho": "5443",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1mIzUfeAVztbmR-RTEjbdh2jovdhh9L9x",
+      "nome": "visualization (2).md",
+      "tipo": "text/markdown",
+      "tamanho": "9582",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1PyxN0m3gFpIEj77buGpY8W0WmJtDXS8y",
+      "nome": "visualization (3).md",
+      "tipo": "text/markdown",
+      "tamanho": "8719",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1XswCoefI-XW5m1Z7vJxvo_doliv88hfZ",
+      "nome": "unpaywall.md",
+      "tipo": "text/markdown",
+      "tamanho": "3922",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1rk4qz6J7hVuS6zJ6uw84XLL2IY0zwyHG",
+      "nome": "units.md",
+      "tipo": "text/markdown",
+      "tamanho": "3944",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1wNX1A1gs51ilYoGB4uoD3P7WuK0ME3W3",
+      "nome": "transformations_workflows.md",
+      "tipo": "text/markdown",
+      "tamanho": "17396",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "181MUoU09bJF7FJhLDalUia8WJbA_qlvr",
+      "nome": "time_series.md",
+      "tipo": "text/markdown",
+      "tamanho": "19650",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1-8h7W-gY8233_LyfR-bXnGWHcPZNNOmj",
+      "nome": "time_evolution.md",
+      "tipo": "text/markdown",
+      "tamanho": "8214",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1RxJ4mM54x32TaUSx22ZfyiITeup16K5r",
+      "nome": "time.md",
+      "tipo": "text/markdown",
+      "tamanho": "9487",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1WCmoxiJJVL7g-hgGSFUh456QhC7cmPVg",
+      "nome": "tikz_skeletons.md",
+      "tipo": "text/markdown",
+      "tamanho": "7617",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1W_KKHYuEmjbkQQLlK_UkrvWpjZSgxdMY",
+      "nome": "test_selection_guide.md",
+      "tipo": "text/markdown",
+      "tamanho": "5206",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1smp4hQv6UhcxODo6BA6yMySjLFKEN__B",
+      "nome": "tables.md",
+      "tipo": "text/markdown",
+      "tamanho": "9874",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1kX00OumCmFi_hYdFSotA1cmRFonVxqH-",
+      "nome": "system_requirements.md",
+      "tipo": "text/markdown",
+      "tamanho": "6078",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "156EaOe1TUSNua3qFiWQzKniZVumtE5ZR",
+      "nome": "supervised_learning.md",
+      "tipo": "text/markdown",
+      "tamanho": "11389",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1xRFN5A19oFbUVWNv9zbnzZMypNajgGcW",
+      "nome": "styling_guide.md",
+      "tipo": "text/markdown",
+      "tamanho": "14172",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1I_u8exDHHAoZPw1MmtHjVYnP_yeverYY",
+      "nome": "stats_diagnostics.md",
+      "tipo": "text/markdown",
+      "tamanho": "21385",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1u_Lf4CDeXCoe-RvcZ0XmFO65lpQSn75-",
+      "nome": "spectroscopy_analytical_formats.md",
+      "tipo": "text/markdown",
+      "tamanho": "18706",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "102I01SyvhYE3PmmhGILxzEqLMXELlevw",
+      "nome": "semantic-scholar.md",
+      "tipo": "text/markdown",
+      "tamanho": "6301",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1R10hWSgVf1KLtsFFapMRvfiFleOY23rz",
+      "nome": "related_work_questions.md",
+      "tipo": "text/markdown",
+      "tamanho": "2073",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1nneV_g0N8dpDyAeBT_M05EgPDOI0atF4",
+      "nome": "report_template.md",
+      "tipo": "text/markdown",
+      "tamanho": "3684",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1h1z16TRy4ajod0J7sXXHckpjH8AEfVb6",
+      "nome": "reporting_standards.md",
+      "tipo": "text/markdown",
+      "tamanho": "19973",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1D_FO3N4DrC88eT01Ro5ZQC4Na_EB68Nb",
+      "nome": "resources.md",
+      "tipo": "text/markdown",
+      "tamanho": "7602",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1PwXojSZRln38JAlYIQpKdP4GmNXCmHFd",
+      "nome": "review_template.md",
+      "tipo": "text/markdown",
+      "tamanho": "13394",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1ojA1hgiaCvg7cD4ytwHaadzdz2srfVkK",
+      "nome": "rhetorical_moves.md",
+      "tipo": "text/markdown",
+      "tamanho": "5033",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1IbzWUZ94OtqOQx8QewzHuwcs5FOIKmxB",
+      "nome": "related_work.md",
+      "tipo": "text/markdown",
+      "tamanho": "3190",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1-FpyqfFGLiN5sodbIuRoTmi7KESW-1V8",
+      "nome": "reference.md",
+      "tipo": "text/markdown",
+      "tamanho": "17303",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "13XmzUA9wmmbQd_kW5cgWtcidSKGWk50B",
+      "nome": "real-time.md",
+      "tipo": "text/markdown",
+      "tamanho": "11123",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1jOhIzhQEvJJDcLEkAMeCkK6S1gLvfKZb",
+      "nome": "quick_reference.md",
+      "tipo": "text/markdown",
+      "tamanho": "11941",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1Gkus3di_INVKKdMxtwBxnZ52QnKEAzs7",
+      "nome": "python-integration.md",
+      "tipo": "text/markdown",
+      "tamanho": "9937",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1Rrk6y7L9V2T_x36iWkhq2Z06fiCLwO83",
+      "nome": "pubmed_search.md",
+      "tipo": "text/markdown",
+      "tamanho": "18574",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "16P9b2Uxy_s4rjOLY_Syca8OCf79hI0Np",
+      "nome": "pubmed.md",
+      "tipo": "text/markdown",
+      "tamanho": "4063",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1GcS9W-L_zOybEX72OvYQ7T--y-RdyjOu",
+      "nome": "publication_guidelines.md",
+      "tipo": "text/markdown",
+      "tamanho": "8761",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1pdsAVm8-6MShLwyWzCCV0bunFbvw1tqJ",
+      "nome": "proteomics_metabolomics_formats.md",
+      "tipo": "text/markdown",
+      "tamanho": "16060",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1VbYjtWuHJZJoBDHG7R_4gY32HBBPzSq8",
+      "nome": "prompt_templates.md",
+      "tipo": "text/markdown",
+      "tamanho": "9879",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1A8Z0us6BkQTLrhlpxBZj9jZfhdymKJBD",
+      "nome": "programming.md",
+      "tipo": "text/markdown",
+      "tamanho": "12557",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "17_-PRpck4Y0a-KVUMVQvbU4q-nnVnVRV",
+      "nome": "process-interaction.md",
+      "tipo": "text/markdown",
+      "tamanho": "11949",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1iaoZ0wnNAeCmHqzHuEqd0f1SwUDVn2Bq",
+      "nome": "preprocessing.md",
+      "tipo": "text/markdown",
+      "tamanho": "16209",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1arAChn0a93aUGxmtPl7gYfR3Ix7B_51c",
+      "nome": "problems.md",
+      "tipo": "text/markdown",
+      "tamanho": "7381",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1mZPs6WRT9mzhW6kW8nRGjDCjrMaHrb85",
+      "nome": "pmc.md",
+      "tipo": "text/markdown",
+      "tamanho": "4012",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1QayWilWVm0J6I1T78JhLyCKoxJx9GC5G",
+      "nome": "plot_types.md",
+      "tipo": "text/markdown",
+      "tamanho": "12315",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "15VK_Z0cWfFp8k2x3pZeaDA1MDoIwuIZS",
+      "nome": "pipelines_and_composition.md",
+      "tipo": "text/markdown",
+      "tamanho": "15382",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1FhI0hA4z5S-Jih7HH70W_UiaAM5sFD_4",
+      "nome": "physics-mechanics.md",
+      "tipo": "text/markdown",
+      "tamanho": "12645",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1gpxW_m8YkDPmNyFsBnfpxQ7SKBuoTkuQ",
+      "nome": "operators.md",
+      "tipo": "text/markdown",
+      "tamanho": "9160",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1p9N1E17TAr_x0iqRdieV-mKBgxqCkLAT",
+      "nome": "openalex.md",
+      "tipo": "text/markdown",
+      "tamanho": "5317",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1enkducI10wDT_hi6wJD4L6mGVVnLTVob",
+      "nome": "octave-compatibility.md",
+      "tipo": "text/markdown",
+      "tamanho": "10521",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "14XqGapYga29FGgUDQpJ74CbXj_j3RL-I",
+      "nome": "model_evaluation.md",
+      "tipo": "text/markdown",
+      "tamanho": "16046",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1Yyc2OboV15Akj8lBlUB4PTAoDwgcA12D",
+      "nome": "monitoring.md",
+      "tipo": "text/markdown",
+      "tamanho": "13398",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1Q0pGsdztR2FFrXsObRWay3gciLSWaONc",
+      "nome": "motor-de-calculo.md",
+      "tipo": "text/markdown",
+      "tamanho": "6343",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1xUt8OXTP6B3MbSP8K1rlkiiufsXaZS39",
+      "nome": "objects_interface.md",
+      "tipo": "text/markdown",
+      "tamanho": "21765",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1KMUzxLG0GFIGwGSXbHGsm8wV3mxkPF85",
+      "nome": "matrices-linear-algebra.md",
+      "tipo": "text/markdown",
+      "tamanho": "10165",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1YB8vvhVSohCRCKJSbKwMcJot1aVOv9bw",
+      "nome": "medrxiv.md",
+      "tipo": "text/markdown",
+      "tamanho": "3658",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1vkcuJNM5F362Mis02e3zkLcITNJFYggH",
+      "nome": "metadata_extraction.md",
+      "tipo": "text/markdown",
+      "tamanho": "20052",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1lyO-ZM0-0OElx1qfKxOlVXizQcLfj1Qk",
+      "nome": "microscopy_imaging_formats.md",
+      "tipo": "text/markdown",
+      "tamanho": "19169",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1JIF5W3FDp7DkwWVsNyG-QODIv2pwxQU8",
+      "nome": "matrices-arrays.md",
+      "tipo": "text/markdown",
+      "tamanho": "11262",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1YXUBGTMbv6vm_e5Rd4FQGNGG1ZyPq3wN",
+      "nome": "mathematics.md",
+      "tipo": "text/markdown",
+      "tamanho": "15790",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "11QEpyhuLKQK0osc7knjWet4wcwctrNrb",
+      "nome": "matplotlib_examples.md",
+      "tipo": "text/markdown",
+      "tamanho": "18723",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1OOLC8r9Hoo4cxyZE3UhN1K6KdiJLb0ON",
+      "nome": "materials_project_api.md",
+      "tipo": "text/markdown",
+      "tamanho": "13287",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1b36Huc7ayDa6O_E3UAr5v7gC81v8rall",
+      "nome": "linear_models.md",
+      "tipo": "text/markdown",
+      "tamanho": "13413",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1mGNc3EDpnvdskp1XHiVUEI9g0M0k1RuM",
+      "nome": "io_formats.md",
+      "tipo": "text/markdown",
+      "tamanho": "10987",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1xsndQ1AftGEsRTWHm6RsYZgkbHunFgGP",
+      "nome": "journal_requirements.md",
+      "tipo": "text/markdown",
+      "tamanho": "9853",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1mq1tOqgO515JtnVn-rlySEozjQg9BOBp",
+      "nome": "io.md",
+      "tipo": "text/markdown",
+      "tamanho": "9836",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1OSklOW8m7sowm39L2X7Pn0oq6GwY_qce",
+      "nome": "introduction.md",
+      "tipo": "text/markdown",
+      "tamanho": "6780",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1ilrTKgRmv2pX8txOqSYZnawyJg4avryS",
+      "nome": "intro_questions.md",
+      "tipo": "text/markdown",
+      "tamanho": "2595",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1z7fNfq-sVlJTxxzKcPgjEZ68pEM_-o36",
+      "nome": "intervention_types.md",
+      "tipo": "text/markdown",
+      "tamanho": "3860",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1EThiqPGqOKL_rH2YEFzoMNxaqa_7q2qF",
+      "nome": "graphics-visualization.md",
+      "tipo": "text/markdown",
+      "tamanho": "13424",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1YVlm9sgxvW6OcTO2ONZ_bQbPnJ2yISmP",
+      "nome": "graph-basics.md",
+      "tipo": "text/markdown",
+      "tamanho": "6544",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "15elzgd-hVaAtIzx6cOxolR8gwdUdUV7w",
+      "nome": "google_scholar_search.md",
+      "tipo": "text/markdown",
+      "tamanho": "17770",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1EIsU8TPzfTgVvqvBGHspwX5M7eq2Gm15",
+      "nome": "glm.md",
+      "tipo": "text/markdown",
+      "tamanho": "17200",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1-YX0U9TIt0-83WSg0OlYCD0Uq_Zv54nD",
+      "nome": "function_reference.md",
+      "tipo": "text/markdown",
+      "tamanho": "25385",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1mgRxJNRGCmHdDxht5QVDZ8_6dM1O0unt",
+      "nome": "general_scientific_formats.md",
+      "tipo": "text/markdown",
+      "tamanho": "15805",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1qwYSzvs3E67fGC1Zd79IAeVIW_-xmhUa",
+      "nome": "generators.md",
+      "tipo": "text/markdown",
+      "tamanho": "8606",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1O4IdMBJLKbQixluQ25QXwMgZIN8eZ8tT",
+      "nome": "forms.md",
+      "tipo": "text/markdown",
+      "tamanho": "12148",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1H4ENxMhfIOmULfX3EzXQ0SBtPKu1IR0k",
+      "nome": "fits.md",
+      "tipo": "text/markdown",
+      "tamanho": "9066",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1tXQ6zCAty7TxW0-dPut4qLnlC6dzDkUM",
+      "nome": "figure_synthesis_guide.md",
+      "tipo": "text/markdown",
+      "tamanho": "17087",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1lPO_omHQhQQtdSK8myZ_fQmR6aIv9oS_",
+      "nome": "executing-scripts.md",
+      "tipo": "text/markdown",
+      "tamanho": "9952",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1BI-Ur4bCRmmeX_9AsitKEx8vbjj076yo",
+      "nome": "figure_spec_template.md",
+      "tipo": "text/markdown",
+      "tamanho": "3551",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1yzhjrSjM_zz9ws_5gT7GzpM5pYb-9xPE",
+      "nome": "examples.md",
+      "tipo": "text/markdown",
+      "tamanho": "18446",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1BIXG8C9324KErsgmUpao9YzEIgyKj-YB",
+      "nome": "events.md",
+      "tipo": "text/markdown",
+      "tamanho": "8953",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1VUKe-dNCJ9yqjCqHAwheV6aIqg3xz1-3",
+      "nome": "evaluation_questions.md",
+      "tipo": "text/markdown",
+      "tamanho": "3064",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1WRUG8Wtn7nuvGL6BOCm6vyAHQ2c03X_C",
+      "nome": "evaluation.md",
+      "tipo": "text/markdown",
+      "tamanho": "6793",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1_A27yPdX0fi9HVVpzZfidYdP8eXa1Cmj",
+      "nome": "effect_sizes_and_power.md",
+      "tipo": "text/markdown",
+      "tamanho": "15570",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "14B3GiwrDpBcwDr8Qm9BS42McLQ3D7e2i",
+      "nome": "editorial_principles.md",
+      "tipo": "text/markdown",
+      "tamanho": "14202",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "10Q5BWf6BCJSNDPe5zJG3uT3tX35nCfLr",
+      "nome": "discrete_choice.md",
+      "tipo": "text/markdown",
+      "tamanho": "17851",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "18JTpxBhImg7xKPE9wi0N-L--u37-Xo3D",
+      "nome": "design_questions.md",
+      "tipo": "text/markdown",
+      "tamanho": "2075",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1p7A5JepTyNxUWfq8_9wOrMv_q16A0xJf",
+      "nome": "desktop.ini",
+      "tipo": "application/octet-stream",
+      "tamanho": "4299",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1__pBTc_Tx-zAD_sFO2-4G7Hvm8XxUhGj",
+      "nome": "core_classes.md",
+      "tipo": "text/markdown",
+      "tamanho": "9763",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1exdyVrujmeour6BSl7BwI-76GLKzhEV6",
+      "nome": "core_concepts.md",
+      "tipo": "text/markdown",
+      "tamanho": "5888",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1ZwxLprNFSTDlCkVtcaprWlHqJGWdz9to",
+      "nome": "core.md",
+      "tipo": "text/markdown",
+      "tamanho": "4119",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "18khExco7zeG38a8vp6VJQ9eEK3HEa2w3",
+      "nome": "cosmology.md",
+      "tipo": "text/markdown",
+      "tamanho": "6789",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1kaSaZZquCPixTQIN8va8z0NyH5obt_Ov",
+      "nome": "crossref.md",
+      "tipo": "text/markdown",
+      "tamanho": "5261",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1kafywMk0gp8tF36L5HltqdVvcKbW3-g5",
+      "nome": "data_preparation.md",
+      "tipo": "text/markdown",
+      "tamanho": "7477",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "18DA4DJ4-zBTNZ8Dg26LiBdKuTvPmm997",
+      "nome": "data-import-export.md",
+      "tipo": "text/markdown",
+      "tamanho": "11079",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1t7wNF-mpWVi7JEE7jBoXxX2sz5P9rICy",
+      "nome": "database_strategies.md",
+      "tipo": "text/markdown",
+      "tamanho": "15946",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1eNKJTdqMQv7TdylH-bDZhWfCvudn7PHF",
+      "nome": "design.md",
+      "tipo": "text/markdown",
+      "tamanho": "3360",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1CKLmzVkkFrb_tHX-4Xu-Y4_rpytYduqn",
+      "nome": "color_palettes.md",
+      "tipo": "text/markdown",
+      "tamanho": "10209",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "191UL0n_DPedQsBFsm4vqf2PLRSbjcFuK",
+      "nome": "common_issues.md",
+      "tipo": "text/markdown",
+      "tamanho": "13399",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1wjVbLsQr_0n45BiZm6SUEETUfjeKn42Q",
+      "nome": "compression_patterns.md",
+      "tipo": "text/markdown",
+      "tamanho": "4899",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1PGxZjdmm89Jwp1kQKuhMOY3_oLCF9_kS",
+      "nome": "constraints_mcdm.md",
+      "tipo": "text/markdown",
+      "tamanho": "11269",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1cBIv1eMeg5hwYk73K-Qq3h-lPytTbS2I",
+      "nome": "coordinates.md",
+      "tipo": "text/markdown",
+      "tamanho": "7384",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "13mxF-wUD5DRQvGlaXJf-uzqgbxtBatX9",
+      "nome": "core-capabilities.md",
+      "tipo": "text/markdown",
+      "tamanho": "8102",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1phmklkqPq7JfdoMPqKaSdrlUFvBkmhuQ",
+      "nome": "code-generation-printing.md",
+      "tipo": "text/markdown",
+      "tamanho": "13026",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1FENLyhYvlABw7wiAC0ZENgdcztpYI0qd",
+      "nome": "citation_validation.md",
+      "tipo": "text/markdown",
+      "tamanho": "16869",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "12J74McEL2jaltqlA6fLMgqrYoMRW8vYi",
+      "nome": "citation_styles.md",
+      "tipo": "text/markdown",
+      "tamanho": "6278",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1VypjPptxwoV0w0LnYG4h-7Ohvx6mm6Tp",
+      "nome": "citation_checklist.md",
+      "tipo": "text/markdown",
+      "tamanho": "10734",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1Z4-SX4BZAH5OgjRmpFj5jqhgtvy4FREu",
+      "nome": "chemistry_molecular_formats.md",
+      "tipo": "text/markdown",
+      "tamanho": "22693",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1OjioXtW-ztyyW6bdB_wvLlR4LpkH5gxx",
+      "nome": "brainstorming_guide.md",
+      "tipo": "text/markdown",
+      "tamanho": "15234",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "13fiQdiWTs_svxux4pZ4BeMzb8kBBPgK1",
+      "nome": "biorxiv.md",
+      "tipo": "text/markdown",
+      "tamanho": "3747",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1UnnlYKiogg8gqV22o3qw5sEGB6nYdJ8O",
+      "nome": "bioinformatics_genomics_formats.md",
+      "tipo": "text/markdown",
+      "tamanho": "21827",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1NWiW-xULiw05lc_MrAeZQsEXkFzFEzTR",
+      "nome": "bibtex_formatting.md",
+      "tipo": "text/markdown",
+      "tamanho": "20194",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "13cj5ih6uiquTM6lZKMhgA-T-mtkZxzyW",
+      "nome": "bayesian_statistics.md",
+      "tipo": "text/markdown",
+      "tamanho": "18194",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1394F0k5PCAFneS9v1mLwlFD1pWUBcAED",
+      "nome": "assumptions_and_diagnostics.md",
+      "tipo": "text/markdown",
+      "tamanho": "11508",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1I_kMmDBfLQ1Uhq9NZH0JtdgLD9OKygeX",
+      "nome": "arxiv.md",
+      "tipo": "text/markdown",
+      "tamanho": "5342",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1wjumYhSjQ965RnwGroBQQp6cJIZmAw3b",
+      "nome": "api_reference.md",
+      "tipo": "text/markdown",
+      "tamanho": "11645",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1ZkIv994f842JYcBfIFEvvkze2VYoLdk4",
+      "nome": "api_reference (2).md",
+      "tipo": "text/markdown",
+      "tamanho": "8200",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1rtCG2Ork-gzOEUsdfujMP1lqTZ5EXRC1",
+      "nome": "analysis_modules.md",
+      "tipo": "text/markdown",
+      "tamanho": "13472",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1jgmZiyZGKT86_irpmWJMPqKgBEmzHC4K",
+      "nome": "analysis.md",
+      "tipo": "text/markdown",
+      "tamanho": "9910",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1kWwCuL8xCPr6Ndp1KspsiVphtUDeqZCb",
+      "nome": "algorithms.md",
+      "tipo": "text/markdown",
+      "tamanho": "9553",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1fjuJklJQ2pljLmzR9ArNgzjAud0jXOE2",
+      "nome": "advanced.md",
+      "tipo": "text/markdown",
+      "tamanho": "12183",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1YhRkSqG8_ms1yy12T0-lq9pLZZrdYseN",
+      "nome": "algorithms (2).md",
+      "tipo": "text/markdown",
+      "tamanho": "6304",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1C3EHD6pm6dMW3OJlZ0AOcJvzXLMjfvIa",
+      "nome": "advanced-topics.md",
+      "tipo": "text/markdown",
+      "tamanho": "13767",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1tREAvD8dtwE7qdK7ck49dDcSqIvfiYkb",
+      "nome": "SKILL2.md",
+      "tipo": "text/markdown",
+      "tamanho": "33709",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1koA3P7Ow9dugnbzlC0OOqN_Dbmpi3WsY",
+      "nome": "SKILL (9).md",
+      "tipo": "text/markdown",
+      "tamanho": "10053",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "16mYN7cOkSe0dFe5OAYmob-vHsn7VNdrB",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "4389",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1oZ0LI3NSy3PbY-M0u_626nzjPjdCjF7s",
+      "nome": "SKILL1.md",
+      "tipo": "text/markdown",
+      "tamanho": "4924",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1N4r-thkOB7ZFHHuBIyqUQ4tVVJP3182Y",
+      "nome": "SKILL (8).md",
+      "tipo": "text/markdown",
+      "tamanho": "16010",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1eQxt947ephy-gK-2j8gypfu-ozyse-SZ",
+      "nome": "SKILL (7).md",
+      "tipo": "text/markdown",
+      "tamanho": "1617",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1_rZDKI5FHtFN4UrulNNviwJAZYS-EUPF",
+      "nome": "SKILL (6).md",
+      "tipo": "text/markdown",
+      "tamanho": "18486",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1MEzAqukHGlsdMmRVRw2aCVGTFRRPaEHM",
+      "nome": "SKILL (5).md",
+      "tipo": "text/markdown",
+      "tamanho": "18579",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1nOQo__tyZ-0-drr-_Wulj_WsXvcedFXw",
+      "nome": "SKILL (49).md",
+      "tipo": "text/markdown",
+      "tamanho": "11754",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1R10RJzHtIBU4TTYUWkT_kirSDi2ue-j3",
+      "nome": "SKILL (46).md",
+      "tipo": "text/markdown",
+      "tamanho": "20304",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1FukFTXSDqzZIeYEPMMY1KuJ5jUwk-Cqz",
+      "nome": "SKILL (47).md",
+      "tipo": "text/markdown",
+      "tamanho": "13965",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1gPRL2zWJMdJU3L8DqVF6B9C_BKFV_A8j",
+      "nome": "SKILL (48).md",
+      "tipo": "text/markdown",
+      "tamanho": "30940",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1K3LX7FH0u-rqI8wcSQ5Pq-1UT9AWcRjC",
+      "nome": "SKILL (43).md",
+      "tipo": "text/markdown",
+      "tamanho": "20272",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1nuvv4rSDYmkWqQ11y10jR13pqfpccA9j",
+      "nome": "SKILL (44).md",
+      "tipo": "text/markdown",
+      "tamanho": "12592",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "14JEmZpEhRRVI5a5MG2n79uqLJhxSXcvG",
+      "nome": "SKILL (45).md",
+      "tipo": "text/markdown",
+      "tamanho": "20396",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1oKADzCUYveHfCW7l82NmLWQaUlEG0zlh",
+      "nome": "SKILL (41).md",
+      "tipo": "text/markdown",
+      "tamanho": "26297",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1wSfvSV6-t2unVe_H6YuKAdT8Df0rECdZ",
+      "nome": "SKILL (42).md",
+      "tipo": "text/markdown",
+      "tamanho": "16043",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1THaH090tT8LwblNoa7RPadepzmBtQNNK",
+      "nome": "SKILL (40).md",
+      "tipo": "text/markdown",
+      "tamanho": "9364",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1WH1hu1uqd2vMNH1_6JL2H4xysz7mAy7M",
+      "nome": "SKILL (4).md",
+      "tipo": "text/markdown",
+      "tamanho": "20644",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1sctpCSi8ZhTAnxJKHVmSOp6Z9OBFLdOP",
+      "nome": "SKILL (38).md",
+      "tipo": "text/markdown",
+      "tamanho": "20723",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "12z_wC7PNTRAZaVLj-sqp-4WUyk7c8Nzd",
+      "nome": "SKILL (39).md",
+      "tipo": "text/markdown",
+      "tamanho": "17322",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1kQSBm9v1BwMiae6lzcfFaOJLahjKijAV",
+      "nome": "SKILL (37).md",
+      "tipo": "text/markdown",
+      "tamanho": "8386",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1iRUh2OPdx0ExDDL6jrfmKMAoBeuRkE6d",
+      "nome": "SKILL (36).md",
+      "tipo": "text/markdown",
+      "tamanho": "9828",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "14n4qmJww4L9_xO3EqiXIWabRkcvbIqRT",
+      "nome": "SKILL (35).md",
+      "tipo": "text/markdown",
+      "tamanho": "13149",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1FIPeAn-AWTOp_L--RMTUlgdGf6iN_8wt",
+      "nome": "SKILL (34).md",
+      "tipo": "text/markdown",
+      "tamanho": "11813",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1W2fmFx6Wc5bx3FLZSXKzbnq3cQy_K9bX",
+      "nome": "SKILL (33).md",
+      "tipo": "text/markdown",
+      "tamanho": "9591",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1NIu-09kWnplu-MG28UDezqCvFcNbBAA0",
+      "nome": "SKILL (32).md",
+      "tipo": "text/markdown",
+      "tamanho": "28756",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1QvpsVKtvzBZlBcQ6RVZUej-_MGuv_ydb",
+      "nome": "SKILL (31).md",
+      "tipo": "text/markdown",
+      "tamanho": "14760",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1F8_kHx-YONa82W2b6uRsOWPjR0hMWoBf",
+      "nome": "SKILL (3).md",
+      "tipo": "text/markdown",
+      "tamanho": "21154",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1pZeHIUweBEG53bPVNoGpY7QBlkg2DR6J",
+      "nome": "SKILL (28).md",
+      "tipo": "text/markdown",
+      "tamanho": "4924",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "11tKycbVbWT3O_EKXDpnfvVcPTYH5swA8",
+      "nome": "SKILL (29).md",
+      "tipo": "text/markdown",
+      "tamanho": "11863",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "13JE2kjWBBJKNtdHu6MBKfyokpeNlAKWO",
+      "nome": "SKILL (30).md",
+      "tipo": "text/markdown",
+      "tamanho": "33709",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1Oj1l52BjMPPVyDwbvVtdZjmZEJmfYIIp",
+      "nome": "SKILL (26).md",
+      "tipo": "text/markdown",
+      "tamanho": "20100",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "14aUU2XN1mS2UAfgspU_p-fQsdkIYnyLq",
+      "nome": "SKILL (27).md",
+      "tipo": "text/markdown",
+      "tamanho": "21916",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1QlMVdBi77u_zk5ReW7vOOj5ZpEgUFA-M",
+      "nome": "SKILL (24).md",
+      "tipo": "text/markdown",
+      "tamanho": "25180",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1X1fVZRZcolsiHjB886clc9qnvKH1qhgE",
+      "nome": "SKILL (25).md",
+      "tipo": "text/markdown",
+      "tamanho": "13850",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1MZRZ5nNTTKsLTIXLTWZrVIjNGA0fYfsh",
+      "nome": "SKILL (23).md",
+      "tipo": "text/markdown",
+      "tamanho": "20942",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1tnIoM-geQu6HsQ5eMPuI6ikmFslDsOWC",
+      "nome": "SKILL (22).md",
+      "tipo": "text/markdown",
+      "tamanho": "15552",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1MwtU3JSARcxcXqZZBwyr_8ijFoyNd8XU",
+      "nome": "SKILL (2).md",
+      "tipo": "text/markdown",
+      "tamanho": "20468",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1EbRn1JiybX1xWHdKMk_TVJSZ4_JTUWar",
+      "nome": "SKILL (20).md",
+      "tipo": "text/markdown",
+      "tamanho": "15120",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1QpW_ea6Qncr4Cypx4VqEKL2UbyVPZMMX",
+      "nome": "SKILL (21).md",
+      "tipo": "text/markdown",
+      "tamanho": "21818",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1K7OfmwC4zn5-lT7yS20X9AxmV0trb-CI",
+      "nome": "SKILL (17).md",
+      "tipo": "text/markdown",
+      "tamanho": "37894",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1_lTPLWTndmHvb7CJRpdf5tEsGCCsexh6",
+      "nome": "SKILL (18).md",
+      "tipo": "text/markdown",
+      "tamanho": "19068",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1-UPEb3iIt2Qt5lEDNPeU3hrdayZrSRYM",
+      "nome": "SKILL (19).md",
+      "tipo": "text/markdown",
+      "tamanho": "14898",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1XAIWXVclB7KF2Th17et3jktNmDBSgwL2",
+      "nome": "SKILL (16).md",
+      "tipo": "text/markdown",
+      "tamanho": "17450",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1qNv1K9wRA6D6WNL7ZGgfmWIw7c8cnEGG",
+      "nome": "SKILL (15).md",
+      "tipo": "text/markdown",
+      "tamanho": "20828",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1XazJkXI1cdtR1EF9bneyB0rKeYg6kHwi",
+      "nome": "SKILL (14).md",
+      "tipo": "text/markdown",
+      "tamanho": "24593",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1zt3A8Tb_RT7l5htn0b3MU1oCLD8x9hgO",
+      "nome": "SKILL (13).md",
+      "tipo": "text/markdown",
+      "tamanho": "21489",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1jftt2dpEWTO1fvZVrgvHEtR_4RyQN_dl",
+      "nome": "SKILL (12).md",
+      "tipo": "text/markdown",
+      "tamanho": "22039",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1X27iMB8t2iPu9j9Rf1PB7Lqwd93YjIpt",
+      "nome": "SKILL (11).md",
+      "tipo": "text/markdown",
+      "tamanho": "14134",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1TGI840AzfD57gZAz82131b9ydkClx8KO",
+      "nome": "SKILL (10).md",
+      "tipo": "text/markdown",
+      "tamanho": "20387",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "1zOhfMgChJw63ZHIrM2-r8mJf1YaQfOx_",
+      "nome": "README.md",
+      "tipo": "text/markdown",
+      "tamanho": "5905",
+      "origem": 0,
+      "pasta": "13ZMR3H9ECkZsxcpomHiWkQvjvbqHe4o-"
+    },
+    {
+      "id": "180hQ664rdEJjO5BobvfawXsoIikeHFDb",
+      "nome": "pdf-caderno-cespe_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "12318682",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1Giy4Qvc-OEHa-JKxqiy_BoiNYtSY_9lf",
+      "nome": "apostilao-biblioteconomia-para-concursos-protegida-p_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "14916558",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "18YtjzV4Pgm2J3S2u3OCuZLLZ4aaWw8A3",
+      "nome": "apostila-de-biblioteconomia-para-concursos-p_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1612463",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1bGBK21hcxcGGKwfLzOEIp0X2F2bQ7RVR",
+      "nome": "Tec Concursos - caderno impresso - Wed Sep 30 08_27_02 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "657099",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1VyNF5Wp_AzeCZ-T8ex-oeONE1BAov17b",
+      "nome": "Tec Concursos - caderno impresso - Wed Sep 30 08_25_52 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "643712",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1i7Sll81q3OvwpLRsRGk2Z1y14Uf4KkJp",
+      "nome": "Tec Concursos - caderno impresso - Wed Sep 30 08_25_07 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "628772",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1hcZEbfg-uvYfBIKsfw7xlgFzmbj6lOx8",
+      "nome": "Tec Concursos - caderno impresso - Wed Sep 30 08_23_50 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "611462",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1sg3i_Ssj8LWKHM-sr7V6f6SdkIcPe-M3",
+      "nome": "Tec Concursos - caderno impresso - Wed Sep 30 08_17_16 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "662932",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1XCaLv475p4-nYj4pOckOXU_dI77iKwzp",
+      "nome": "Tec Concursos - caderno impresso - Tue Sep 29 15_06_15 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "610087",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1RBGdCEOHoxTBERF_hR83tCfaU_4DAIos",
+      "nome": "Tec Concursos - caderno impresso - Tue Sep 29 15_05_29 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "585462",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1cOjm4fq3RpEoyWhew4bi-d7aU0R-k6DP",
+      "nome": "Tec Concursos - caderno impresso - Tue Sep 29 15_04_43 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "890197",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1N4qqskpWDL4CcSUHstCKpYy0l5VFV6W1",
+      "nome": "Tec Concursos - caderno impresso - Tue Sep 29 15_03_36 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "599769",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "17ZNnESZW4mzfDyVZGf05Wmd6JWW7iTB7",
+      "nome": "Tec Concursos - caderno impresso - Tue Sep 29 15_01_37 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "599200",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "19WvQfXqmIRJLcZQwsGrxbiWwn2gbu2GP",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_17_58 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "658750",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1Xeo4pgcP6OGnafmXY4sBXTmqSUGCh10U",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_17_15 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "381761",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1dEVqfCb1_-tG2AzcVXe9Jf1-5OL67Uqf",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_16_29 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "623583",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1PoLsmvu9O_KyOVGy0SzpLDXhg3rrX-Lb",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_16_01 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "640487",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "156SErHnOE8qzLwwmy9g9VJ9CD-yk4urG",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_15_28 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "618929",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1BnaFXon8oPT807V3PtNrxO3cFKOBl-Mq",
+      "nome": "Tec Concursos - caderno impresso - Thu Oct 01 14_14_49 GMT-03_00 2026.PDF",
+      "tipo": "application/pdf",
+      "tamanho": "650644",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1VBg9Y59iYBOv5v382E9EtyOXmmWEzZDz",
+      "nome": "T.I. Aplicado à Biblioteconomia.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "467947",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1_cazo8S1lm65p0LMavIEIwi0pzqpfd9E",
+      "nome": "Preservação e Conservação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1217891",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1qsHED6gfPSB_w98DSrHrx6T4s9yOO8Hi",
+      "nome": "PAPIRVM BIBLIOTECONOMIA ESQUEMATIZADA.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2499133",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1NNJZhNDYHss4HF0rT8rbFYZa8CcKu3_0",
+      "nome": "Interoperabilidade.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "747944",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1KVTgq8tYK0ff_fTqOLAKnBjK3IKFAY93",
+      "nome": "Gestão Documental.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "323976",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1CyoekFA175VRc2W9kk16ECz2vXL5mQPL",
+      "nome": "CQ2.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5907078",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1eE4z3tyzYu6bOirX3S6bMlPaoe7MK_40",
+      "nome": "CQ1.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5468650",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1Gu8AKTx5WocUWVI4XtQ9oJITTQ6R2TED",
+      "nome": "COMUT, Cooperação, etc.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "738974",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1tIT5VwN_f3XDX5C9i2XbkbXgIGtl8ced",
+      "nome": "CAD CESPE.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3319411",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "15fLWTTkh8Vbp0Ged_Vu6c9XsOZNb20iN",
+      "nome": "Bibliotecas Digitais e Virtuais.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1153521",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1imuY3yH2ga2nboKwZIOnKLOfZGkT9z6T",
+      "nome": "Bibliometria.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1079354",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1yYK7-wAnT_vEHboDqaBZnr4xAB7y-C9C",
+      "nome": "Biblioteca Digital Jurídica e Redes de Informação Jurídicas.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "338419",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1L8wWenQTBKcgSzsis5K05mt1ZhAHkvUo",
+      "nome": "BDTD, Scielo, etc.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "459059",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1ScvRChqjjSHWhS-xvRYb2V41pR6lh9ZJ",
+      "nome": "750 FCC.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "15902150",
+      "origem": 0,
+      "pasta": "1cSOGjbOFd8rmJ5FJqqHKGN2bqq7MVwVZ"
+    },
+    {
+      "id": "1IemLIsoQsbgRZWgcpddjgSfSdqq2-s-S",
+      "nome": "impacto_inteligencia_lima.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "501784",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1A38-PkhQwZ6ju8ao1rlQR8vAev8w7qNu",
+      "nome": "fontes_de_informacao_para_pesquisadores_e_profissionais_parte_001.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "430930",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1VDvUSLLaIADzWHiQqnNTQ-w087hpo9K8",
+      "nome": "fontes+de+informacoa-artigo-revisado+Formatado.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "469722",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1DKY5AFUtQHPGv--vCcIEtTJVPIdcTajY",
+      "nome": "etiquetagem_folksonomia_brandt.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "8139093",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1WH5PAH7F48bCWV7iYDqt-orzetmDWmuL",
+      "nome": "download.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "165529",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1f6fnrN-UhxvTO3TrBjIqJQ2stMqpM76r",
+      "nome": "download (3).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "199055",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1kx44GwnmF37WFV0VNhzdTpuv7Bym2jYC",
+      "nome": "download (2).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "959654",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1hdYeKNVXB67Str0EDUE1O1PbXOsh8oQU",
+      "nome": "download (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "65523",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1ksqImfudB1TQWYdvhrz1WdIWgajAx5_G",
+      "nome": "diseminacao_seletiva_eirao.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3462328",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1z1MmbhaJ8DwA4aYyf_t5aXxNIHQgsye0",
+      "nome": "diego,+RBBD_2007_42.PDF.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "160057",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1HdPWQ1_Y5HcOuqPUI9Q8t548lS0-OZhq",
+      "nome": "diego,+1106+-+Panorama.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "856526",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1BRws4WkH4v65-ZHMfEI0BwiRQUsvlk3s",
+      "nome": "cap-ir.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "991083",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1XxFV4b20qql0F_4nEN7rdVkcT6pCAJer",
+      "nome": "camilabarros,+48589-170486-2-LE.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "653329",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1vO_XNB-sIJ_CiESSb_lXPwk7WzepKuc2",
+      "nome": "admin,+Art+1+-+Cunha+-+Metodologia.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "664211",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1bQ3b2UAQQV99eHO7Rl9oLreaFQ9PenkY",
+      "nome": "a-pratica-do-servio-de-referencia-denis-grogan-p_compress.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "11563777",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1lLat-luxRCQov0CEX64vkm7DkF3WMN4Q",
+      "nome": "SNBU2000_064.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "182861",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1_Dh0F5NAqx81CNkx5ZkRooClG20b5wF_",
+      "nome": "Portal da Câmara dos Deputados.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "305560",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1WfN741qYXMoOFgRzpmJJq5c5VgSfF3VA",
+      "nome": "LexML_Brasil_Apresentacao.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "112448",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1MVjWZhZjzTUSD91cfueic0dxFl1W5GyG",
+      "nome": "LIVRO_ParaSaberMais.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5303877",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "14wkD0_9YMVdOZ-hkKu8YvM468zln4lJX",
+      "nome": "Jefferson A. da Cruz Costa.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3644258",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1xDxdeP_rbyx_r-_fSLImu8b1ArT6cy6b",
+      "nome": "Histórico — Portal da Câmara dos Deputados.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2088161",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1c5SRpTezeTUMa_mRfXBMPcq4O4VQqNWb",
+      "nome": "Art05_Bettiol.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "556688",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1HKM7G2EOB2TH2m4CUUNa377tYpHmaXup",
+      "nome": "5CC6001B58A3F02534BEC476B23F2B30_labels.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "91470",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "183rj4QyDkSzwIvBkPdB4Dd1en1RmnZpN",
+      "nome": "48062.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "247581",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1U7x3RKUBQIH1BRWcmPTFRWrL0lt5wrdV",
+      "nome": "46440.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "325288",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1cvlQiZr38iY7bZZDs54FTmv6Hvs4z2gu",
+      "nome": "1981infoneeds.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "45262",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1TOKoE9m41yEchFRUfsfDq0jX_d3NQJQ4",
+      "nome": "14+59734+FINAL+COM+DOI+2025+11+10.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "323150",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1g-nS2NeWNOxxp7MPSH363IiLti9mx96H",
+      "nome": "14720365007.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "305099",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1dHEfy51kTBHXi-6cHIfzfmlUfpWXnhHn",
+      "nome": "0816755.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "419491",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1StpCLvrnxQPMh4kRqFnsjZpErg-T6Gwu",
+      "nome": "0657237 Informação Legislativa e Cidadania.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3767125",
+      "origem": 0,
+      "pasta": "15oQkoJoD4vAsj1SqgcS2qm3QzepUl1za"
+    },
+    {
+      "id": "1CFwVSLH9itJMy3Jx_b9rbSgAnTOsECGP",
+      "nome": "APOSTILA+-+AULA+49.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "852832",
+      "origem": 1,
+      "pasta": "1YREhsKnzq9ziNQ5iwiIKQ2ptG8_YNmxL"
+    },
+    {
+      "id": "1gSK8bxHv7_U_SW3t4MFEjEUBnUtlx_eF",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+49.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "430416",
+      "origem": 1,
+      "pasta": "1YREhsKnzq9ziNQ5iwiIKQ2ptG8_YNmxL"
+    },
+    {
+      "id": "1XtBswpKhSAtSgco2TllUA6erAM1-na6q",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+50.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "348589",
+      "origem": 1,
+      "pasta": "1wkqYgViEV8jSNMxlScw2vkM21aKXKlVB"
+    },
+    {
+      "id": "1oDI9EoWMa-zCPrOpDcfRLf15Wu5wTlBV",
+      "nome": "APOSTILA+-+AULA+50.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "711110",
+      "origem": 1,
+      "pasta": "1wkqYgViEV8jSNMxlScw2vkM21aKXKlVB"
+    },
+    {
+      "id": "11EDrc_v1MBABGvqPmzpYQEp4T4dSHuYu",
+      "nome": "APOSTILA+-+AULA+34.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "766562",
+      "origem": 1,
+      "pasta": "109Z0ve__zeepQVw3zRBJcP9eBlfvDBnL"
+    },
+    {
+      "id": "1r9u9tTN1JtdgdpaTw_g45mYRIE-paPcy",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+34.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "331843",
+      "origem": 1,
+      "pasta": "109Z0ve__zeepQVw3zRBJcP9eBlfvDBnL"
+    },
+    {
+      "id": "1z_U5SsR3ek3ffjCvsFnUY8f92Q-TAvdQ",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+33.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "414620",
+      "origem": 1,
+      "pasta": "1bDBoHHozIcml_0cDGQJ29kodC7AoUYK4"
+    },
+    {
+      "id": "1HNoxPvqX-mNEUpbLuXoAstQP763RJokN",
+      "nome": "APOSTILA+-+AULA+33.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1021260",
+      "origem": 1,
+      "pasta": "1bDBoHHozIcml_0cDGQJ29kodC7AoUYK4"
+    },
+    {
+      "id": "1NtUK5QujMnSm4vO2aNKPS7Y9zHa0Il9u",
+      "nome": "APOSTILA+-+AULA+32.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "694753",
+      "origem": 1,
+      "pasta": "1brTEThIe9_3imcgiZvH1N_59n6iwsHNW"
+    },
+    {
+      "id": "1x5O0ZY8zn_yIau-58IiWUWt3IkdxeA0p",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+32.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "277116",
+      "origem": 1,
+      "pasta": "1brTEThIe9_3imcgiZvH1N_59n6iwsHNW"
+    },
+    {
+      "id": "1xDWfkU834aE9cWXU8IsDowucEi5jV07A",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+31.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "321605",
+      "origem": 1,
+      "pasta": "1i0J4Q5zgk-8sBf5pB2F4ge1OSi2IQ02P"
+    },
+    {
+      "id": "1ayBywG4FcRWEbV2kXwxB05b1XCluyzcO",
+      "nome": "APOSTILA+-+AULA+31.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "707809",
+      "origem": 1,
+      "pasta": "1i0J4Q5zgk-8sBf5pB2F4ge1OSi2IQ02P"
+    },
+    {
+      "id": "1RaHNHoYrGyjvDcXAItqmXvNGaTYKZM-R",
+      "nome": "APOSTILA+-+AULA+30.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1001227",
+      "origem": 1,
+      "pasta": "1p_wwWWy4GcFli9bFG79K21rv-bzfJi0Z"
+    },
+    {
+      "id": "1qApcf_jElnqclx6nxlm28-S9aRsgvR2z",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+30.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "371397",
+      "origem": 1,
+      "pasta": "1p_wwWWy4GcFli9bFG79K21rv-bzfJi0Z"
+    },
+    {
+      "id": "1Cb9Zary9cR0W_GtwRTg6vQ-bVxacU8rl",
+      "nome": "A+28.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "824561",
+      "origem": 1,
+      "pasta": "1HHJtTBUhCTCm_dTuj32ik_1np5F7wq5E"
+    },
+    {
+      "id": "1_58tLSaIpI4dGw7pXxo8qNz0FI1DTwws",
+      "nome": "CDD-CLASSIFICATION-DECIMAL-DEWELL-23-EDIÇÃO-TRADUZIDA-E-COMPLETA.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "4765185",
+      "origem": 1,
+      "pasta": "1HHJtTBUhCTCm_dTuj32ik_1np5F7wq5E"
+    },
+    {
+      "id": "1-zl6DvmbA3OAE2N60Wj8H4OfOamxO2UZ",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+28.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "372960",
+      "origem": 1,
+      "pasta": "1HHJtTBUhCTCm_dTuj32ik_1np5F7wq5E"
+    },
+    {
+      "id": "1Xeudwmpg136bNN5Z32G2fOnFKmcKsWQa",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+27.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "332827",
+      "origem": 1,
+      "pasta": "1T0kw7tyDNjvHJ5cPkvSjDyLxe0rsc6um"
+    },
+    {
+      "id": "1kq_gIGZN5Z-L_3vbIY3xABsGoc3Jkah1",
+      "nome": "APOSTILA+-+AULA+27.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "678716",
+      "origem": 1,
+      "pasta": "1T0kw7tyDNjvHJ5cPkvSjDyLxe0rsc6um"
+    },
+    {
+      "id": "1VLfWEVMibh3gZu3Vw84yb8MsbCPX2CxX",
+      "nome": "APOSTILA+-+AULA+26.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "659866",
+      "origem": 1,
+      "pasta": "1T0kw7tyDNjvHJ5cPkvSjDyLxe0rsc6um"
+    },
+    {
+      "id": "1Tf2goUiT7t3PiCstTRWCqsQkimIE32tT",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+26.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "299578",
+      "origem": 1,
+      "pasta": "1T0kw7tyDNjvHJ5cPkvSjDyLxe0rsc6um"
+    },
+    {
+      "id": "1h-PJOD68GCBWsUXNkcTKAaRoTuVX3EzA",
+      "nome": "APOSTILA+-+AULA+25.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1083598",
+      "origem": 1,
+      "pasta": "1T0kw7tyDNjvHJ5cPkvSjDyLxe0rsc6um"
+    },
+    {
+      "id": "16qZ7B6otVnyq0m-xascA62opYkmGaljw",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+25.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "454734",
+      "origem": 1,
+      "pasta": "1T0kw7tyDNjvHJ5cPkvSjDyLxe0rsc6um"
+    },
+    {
+      "id": "1uT-RGwBHqv9WQGEjSlrGd5E_rrltP8Cp",
+      "nome": "APOSTILA+-+AULA+23.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "749632",
+      "origem": 1,
+      "pasta": "14N2VvT4mIo6mC4kPGPTHkgrCT57Cb_6m"
+    },
+    {
+      "id": "10OxeBQgyU2sKwWxV2G6T-VDwJZ3RrZV4",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+23.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "337031",
+      "origem": 1,
+      "pasta": "14N2VvT4mIo6mC4kPGPTHkgrCT57Cb_6m"
+    },
+    {
+      "id": "15DtHM57jriaStblUC9fZj07w0QmBfo2o",
+      "nome": "APOSTILA+-+AULA+22.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "970261",
+      "origem": 1,
+      "pasta": "1aVEp_Yotmp4LJQ_rB-CXoGLa7wiq5Rfm"
+    },
+    {
+      "id": "1hbhevGlgAN0ojRZC4WMlOG62ysmIJlYj",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+22.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "446882",
+      "origem": 1,
+      "pasta": "1aVEp_Yotmp4LJQ_rB-CXoGLa7wiq5Rfm"
+    },
+    {
+      "id": "1wYHYGPxyIP8equpD5ZAPShtI4P6XaHQG",
+      "nome": "3-3-marc-21-de-autoridade.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "187920",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "18q05GMC3b8LfPpz_BA0p6JXJc4-SNHqO",
+      "nome": "3-2-procedimentos-e-instrumentos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "312120",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1DNQk4tasf3QVkIi_58fieZeuPjS116KQ",
+      "nome": "3-1-intro-controle-de-autoridade.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "29518",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1_a9pzDFJYFaloxucXH-q9AuYkdZ9wkCc",
+      "nome": "SNBU2010_110.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "155954",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1vupt7jxW9-vy48759EUB08whOUceU9wx",
+      "nome": "2-15-sugestoes-de-leitura.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "57228",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1MisLZgDjbaQlZ5ZwV_cn3j1cXe-iwwnA",
+      "nome": "2-2_2-14-campos-00x-9xx.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "223517",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1HXxURjOxJxqkCSxMDdkpNXt7m98kcPDx",
+      "nome": "2-1-conceitos-iniciais.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "76914",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1snXLLIGchpO1qfoiV96kvY9iHjs0CMMH",
+      "nome": "1-9-sugestoes-de-leitura.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "56393",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "17tJ2NjwE0KAVhiKUAT9EaENTWPf_xHFb",
+      "nome": "1-8-pontos-de-acesso-entidades.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "83657",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1J6fz6aAUHhXS-tj9EDSUCcpo3PhUCkiE",
+      "nome": "1-7-pontos-de-acesso-pessoas.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "78020",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1s1Z2IYMvPCJv3ln7I2rIO_AFiP2X7U_Z",
+      "nome": "1-6-escolha-dos-pontos-de-acesso.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "79491",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1MTePrq2JF4SfJJVOx6tPfjSzX0tbfgNQ",
+      "nome": "1-5-descricao-de-outros-recursos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "120728",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "17B0RrQBCkHVUe-hkeOjykcnxLny1iM7t",
+      "nome": "1-4-descricao-de-livros.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "153715",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1z1Z1AqvPcW3-Y02bFCu1I0S8jhH2dAn1",
+      "nome": "1-3-regras-gerais.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "201610",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1atPv5pCTkyr0vlatLiDsq5soctkq1bcG",
+      "nome": "1-2-organizacao-do-aacr2.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "68861",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1ibLZlmsCk43KilqWKEZQO3MycVN555gm",
+      "nome": "1-1-catalogacao-catalogos.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "78568",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1x4vhHJtq2KBSO-lZrZBtUinTO8-Er7UP",
+      "nome": "admin,+1400-7097-1-ED.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "385172",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1TIPkhdMZnf5MOpfpabMmcX2gjXWgvAih",
+      "nome": "APOSTILA+-+AULA+21.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1005022",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1O89vfhAVujhA-gFPX1dsaEYuMZC9GoCS",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+21.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "419339",
+      "origem": 1,
+      "pasta": "1OfjAhJWM83n6IGjHl13UfSMq0W99bB7I"
+    },
+    {
+      "id": "1G8EO0eTJhMbTRPZ82iU1Uos6L-R3os7a",
+      "nome": "A+19.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "889085",
+      "origem": 1,
+      "pasta": "14yB99WIbnXPci67Vvgs9-KhGz13occZP"
+    },
+    {
+      "id": "1QgwFAFgvGF78D3hbwhmg1myIOzLmhgAC",
+      "nome": "icp_2016-pt.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "413328",
+      "origem": 1,
+      "pasta": "14yB99WIbnXPci67Vvgs9-KhGz13occZP"
+    },
+    {
+      "id": "1fT_4wTPXpgE30KRSnSzD87cR8stRqhN3",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+19.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "353296",
+      "origem": 1,
+      "pasta": "14yB99WIbnXPci67Vvgs9-KhGz13occZP"
+    },
+    {
+      "id": "13KnjFPMk_xOVXjyP2VAhgA2qzQ6yA_Lf",
+      "nome": "AP+18.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "655597",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1wiutVG6NYbBjZJoHuJk8h-KLcd_6ESqs",
+      "nome": "AP+17.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "652534",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1UABlRevZ90LCdq90NUz7618ktmyjT871",
+      "nome": "LQ+17+.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "362389",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1FXku1A1gTpEvsmwNuCVwnsMlNyLdxsHF",
+      "nome": "AP+16.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "857633",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1OU9Yl9UTXcAKtxsKcQ37tJB3LIIeceMq",
+      "nome": "LQ+15.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "555074",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1YT4cP8ck88l7nuE85K0DLZYNJvYjvMyr",
+      "nome": "AP+15.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1236351",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1P067x6UOieLZ6G4J9uuc7myolmrkRrxa",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+18.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "278318",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1ks5LfJn3N4xBmn5WPLY8ATDqRv32xBSI",
+      "nome": "LISTA+DE+QUESTÕES+-+17.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "286703",
+      "origem": 1,
+      "pasta": "1mUgeMOt5YXGCCVUxKw-ynVsi0L-ggBgB"
+    },
+    {
+      "id": "1_cfYyM55j99z1YSA4Yk73QBbHbpJ42Lg",
+      "nome": "APOSTILA+-+AULA+14.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "681035",
+      "origem": 1,
+      "pasta": "1wuERIAcYLHXPIQIOEBO2k7jjpan9A8ui"
+    },
+    {
+      "id": "1ylk6YQVHxCIHZB9hL_VGBFd4nt9CtChb",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+14.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "330275",
+      "origem": 1,
+      "pasta": "1wuERIAcYLHXPIQIOEBO2k7jjpan9A8ui"
+    },
+    {
+      "id": "1HvpsQA-ReivTqVYlqi20FlLS2Jyej7xk",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+13+.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "303780",
+      "origem": 1,
+      "pasta": "1IaP7406SqbgMS4TtoLi5i79CkwHmVlR6"
+    },
+    {
+      "id": "1E-DVXj-BV9f9CA_4U6_dUfN0Rv9lGdWc",
+      "nome": "APOSTILA+-+AULA+13.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "718846",
+      "origem": 1,
+      "pasta": "1IaP7406SqbgMS4TtoLi5i79CkwHmVlR6"
+    },
+    {
+      "id": "1m0O_pnJCV5EZWzAfnY-T5XuBU2zV_8CG",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+12.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "391078",
+      "origem": 1,
+      "pasta": "1RYiIuiM29KzdZ-TijE4mxPX_aaMJmb23"
+    },
+    {
+      "id": "1f-XDvLGqQjyM7HDyzGY4r-5hjxcBYZKF",
+      "nome": "APOSTILA+-+AULA+12.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "934051",
+      "origem": 1,
+      "pasta": "1RYiIuiM29KzdZ-TijE4mxPX_aaMJmb23"
+    },
+    {
+      "id": "1bbtY5Oh41vtkJNVu1mn1-SAwqdZ7egGj",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+11.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "373725",
+      "origem": 1,
+      "pasta": "1zNtrL2CfkEO1LO0uB2IQ1aE-BkN3rrbG"
+    },
+    {
+      "id": "1LS-HN6p99MOEZ_nO7mjWJ_hmd4QVY6Rs",
+      "nome": "APOSTILA+-+AULA+11.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "844533",
+      "origem": 1,
+      "pasta": "1zNtrL2CfkEO1LO0uB2IQ1aE-BkN3rrbG"
+    },
+    {
+      "id": "1geJjftZsALgR774UEkRS-W-CPmRz_GEo",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+10.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "341443",
+      "origem": 1,
+      "pasta": "1zNtrL2CfkEO1LO0uB2IQ1aE-BkN3rrbG"
+    },
+    {
+      "id": "14bORLIFdZnHR1wD3JtReqD2WAaik2ANr",
+      "nome": "APOSTILA+-+AULA+10.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "773941",
+      "origem": 1,
+      "pasta": "1zNtrL2CfkEO1LO0uB2IQ1aE-BkN3rrbG"
+    },
+    {
+      "id": "1krWVQ_98EojlNJ-7W-cr3lLwyWDKyEXD",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+09+.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "449402",
+      "origem": 1,
+      "pasta": "1zNtrL2CfkEO1LO0uB2IQ1aE-BkN3rrbG"
+    },
+    {
+      "id": "1eosAwwyS9IQMxt3Jj7cXs0I7xP-X5eei",
+      "nome": "APOSTILA+-+AULA+09.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1114729",
+      "origem": 1,
+      "pasta": "1zNtrL2CfkEO1LO0uB2IQ1aE-BkN3rrbG"
+    },
+    {
+      "id": "1rUuOBTu-iFmv4SD-TI2aVQSBxky5oMMk",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+08.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "367368",
+      "origem": 1,
+      "pasta": "11yxI7ygA00SCDCsXdS3RgtuBtK9_FouA"
+    },
+    {
+      "id": "1CyfOzTnzbtO-oy5jfyQqhjudpFI_BPuy",
+      "nome": "APOSTILA+-+AULA+08.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1038405",
+      "origem": 1,
+      "pasta": "11yxI7ygA00SCDCsXdS3RgtuBtK9_FouA"
+    },
+    {
+      "id": "1eYyM-hREecoEguZz_zwu77ep3cmJ6ZCS",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+07.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "357386",
+      "origem": 1,
+      "pasta": "1Ls9sGqWOw049_74OlFMP_lpo0-5tRS2P"
+    },
+    {
+      "id": "10SLVFj4exO3nVslW-4WaHEbgba0zLoUZ",
+      "nome": "APOSTILA+-+AULA+07.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "883422",
+      "origem": 1,
+      "pasta": "1Ls9sGqWOw049_74OlFMP_lpo0-5tRS2P"
+    },
+    {
+      "id": "178frAPOacbfsxD2bJNl1BsQ7uo2eQ91v",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+06.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "364532",
+      "origem": 1,
+      "pasta": "1IXckLej5jAGqRkTrb4Y82j7TU-DzCdAF"
+    },
+    {
+      "id": "1ltkE6YEzQcYYd0FoVM7zkZxIbYuqS8P6",
+      "nome": "APOSTILA+-+AULA+06.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "937083",
+      "origem": 1,
+      "pasta": "1IXckLej5jAGqRkTrb4Y82j7TU-DzCdAF"
+    },
+    {
+      "id": "1at6eclkVoZmKyCnF0Mcw8sqgANmkQADJ",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA++05.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "306679",
+      "origem": 1,
+      "pasta": "1MfMkArBjIvi_IA0YGyqsKg_xNN1LZaJ-"
+    },
+    {
+      "id": "1mxrhioVPxdUnNi13wM-hA9VhBfaR0kQK",
+      "nome": "APOSTILA+-+AULA+05.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "730086",
+      "origem": 1,
+      "pasta": "1MfMkArBjIvi_IA0YGyqsKg_xNN1LZaJ-"
+    },
+    {
+      "id": "1NbSh0xyEVOron1a8UL6ZSjnlTYdnKF5L",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+02 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "371864",
+      "origem": 1,
+      "pasta": "1XoSsQjtFmh6dbE-rzZt6jZfI192VRBdE"
+    },
+    {
+      "id": "1BKAFCst0cMzYHtn7H4vi7UvwuUIovCnG",
+      "nome": "APOSTILA+-+AULA+02 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "953673",
+      "origem": 1,
+      "pasta": "1XoSsQjtFmh6dbE-rzZt6jZfI192VRBdE"
+    },
+    {
+      "id": "18E-Lx5d1gFpOzydcp3GWnJLqkfG1cwYa",
+      "nome": "pl-manifesto-pt.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "387724",
+      "origem": 1,
+      "pasta": "1rHEslEJfW7SaNfxrBegCJeWHgkZ-vPht"
+    },
+    {
+      "id": "1xqhWvKmXDC9U_CACex6cgSiZ5e3NTcg8",
+      "nome": "ifla-unesco-school-library-manifesto-2025-pt.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "252537",
+      "origem": 1,
+      "pasta": "1rHEslEJfW7SaNfxrBegCJeWHgkZ-vPht"
+    },
+    {
+      "id": "19WoVeQWHIVrSrGTNjCVK6ug2qLooK_3u",
+      "nome": "APOSTILA+-+AULA+03 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "791181",
+      "origem": 1,
+      "pasta": "1rHEslEJfW7SaNfxrBegCJeWHgkZ-vPht"
+    },
+    {
+      "id": "1Kq7o4yf1PLSkPgZyCWDxnygsSqgD2u_0",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+03 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "365970",
+      "origem": 1,
+      "pasta": "1rHEslEJfW7SaNfxrBegCJeWHgkZ-vPht"
+    },
+    {
+      "id": "1WCl3axbHh-vSkZusr7L2uf0fBRykCjGz",
+      "nome": "APOSTILA+-+AULA+01 (2).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "994013",
+      "origem": 1,
+      "pasta": "1Wzk0bOC580WEHwYjzSVnx3XlMG8rcxV2"
+    },
+    {
+      "id": "1qqiZ-2lmPDg1HS_hFbOqgu3vBXLHWvaZ",
+      "nome": "LISTA+DE+QUESTÕES+-+AULA+01 (1).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "369206",
+      "origem": 1,
+      "pasta": "1Wzk0bOC580WEHwYjzSVnx3XlMG8rcxV2"
+    },
+    {
+      "id": "1HuUzKiGDkgKxmdrYAAdmu3_FvcDW3mG6",
+      "nome": "465650858012.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "571991",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1q1xc9mgd6w__QxsjJkHNgbPIbC3RfsFY",
+      "nome": "rdbcigerente2,+12_Resenha1.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "222393",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1bRJ5I3b9vSiOz74t_NVUk3-LZXPDOBMG",
+      "nome": "6.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "990316",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1inPNLKU-2ww_EBbvjIR9JOwI7Zb80iZu",
+      "nome": "465645972012.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "384118",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1sawe7vtlZMknP_cjfpeFGpASboUHbePk",
+      "nome": "download (4).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "164030",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1YKGHbscjzcoVTi4sNwgceNt-gYJFv7Ya",
+      "nome": "download (5).pdf",
+      "tipo": "application/pdf",
+      "tamanho": "340512",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1uvswQFV1y9_rdVfL5ZG65oscFz3mt4dP",
+      "nome": "8664905_BR.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "632164",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1p1TRjZFbr74kgy-UTYJ28FgVIDQfmpTS",
+      "nome": "apostila_fontes_informacao_bases_dados_unicamp-1.html",
+      "tipo": "text/html",
+      "tamanho": "42081",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1oKX_wcaJnHR-s7W6hPGDxQY3Iu9xerE3",
+      "nome": "366636fe-2c07-4025-ab1c-bfeb529c24ea.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "526835",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1iyIwAN1WfRGai2UVYFTyYUEdSNN6y1gS",
+      "nome": "9aa9d074-e125-4e5a-9b40-0cd0af9c6529.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "324092",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1dsl_DTDexPao2YdmN-UK2TMW1h6iZO27",
+      "nome": "872bbc15-7439-49d0-8dde-caf6063b7b09.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "723362",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1gyBDskP2g4LOnQtdV589b-o2RnhY5R6x",
+      "nome": "020ed360-f908-49a1-bb1b-01ad0647df99.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "642822",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1KGKw4cN4efLaqeKC0nMlBzAwN-CggNYC",
+      "nome": "ff13b41e-da44-4c9e-9e3c-61b1d9d21963.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "491996",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1QTHzHeIzU5ga_vwdi7Wz5v10jE2ZKXFP",
+      "nome": "a2c0177f-d908-449f-b2ae-665ce8aad045.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1268926",
+      "origem": 1,
+      "pasta": "15PI495QEcz0FOfPmXDcAkP75IG_-5ALi"
+    },
+    {
+      "id": "1zwriPHTgeB_5QvYB05IomW7v-X2iOBuJ",
+      "nome": "f4f121dc-4099-4c13-85cd-d1649d653e25.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1241826",
+      "origem": 1,
+      "pasta": "1mc9j39px68-bWPQga4zivNi0woQXQRRE"
+    },
+    {
+      "id": "1CHZfJRzm3xMLZqh8PFgvN4iUfiXhvsJ-",
+      "nome": "90ac6c5c-0bca-45ae-9984-178bcc42dd90.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "200186",
+      "origem": 1,
+      "pasta": "1mc9j39px68-bWPQga4zivNi0woQXQRRE"
+    },
+    {
+      "id": "18f9wRloc-6W3YV97VIAXwbW_Pxkc3J1Y",
+      "nome": "eeebbd9d-17ed-4474-be7d-7fd752cb9fe1.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "175866",
+      "origem": 1,
+      "pasta": "1mc9j39px68-bWPQga4zivNi0woQXQRRE"
+    },
+    {
+      "id": "1YiVPG_VESqsx9auYmzHUY0Bbxs_LBEdb",
+      "nome": "adb02c34-d2cc-401e-9add-cef66c1cddaf.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "201223",
+      "origem": 1,
+      "pasta": "1mc9j39px68-bWPQga4zivNi0woQXQRRE"
+    },
+    {
+      "id": "1Z0QvmFszTEE18qlpOywrn1lNNiH6iIU8",
+      "nome": "01 VUNESP.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "212541",
+      "origem": 1,
+      "pasta": "1mc9j39px68-bWPQga4zivNi0woQXQRRE"
+    },
+    {
+      "id": "1Ukeg8EM1Ve_q0EoMWkJRv_1yV4dvbm_9",
+      "nome": "650x0m3.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5162898",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1NKny_hZOb2w3XrT_Iwhhq1t7Y9JRANR1",
+      "nome": "9613-IEL.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5958488",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1eStJVycjamtnJPPvn-xYNmM9DmL5Vbe1",
+      "nome": "BibIEL_RelatorioParcial_1°trimestre_EdModernSBU_03junho2026_comAnexo-assinado.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "3306847",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1ncoeSX6jjmR7iZW6f-ugobuTz6uqds6q",
+      "nome": "cf5.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1082145",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1fSdCyvM3n1p1MTllptgYYZKShNS4K_ad",
+      "nome": "mborrego,+06.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "912188",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1djahbeO0jo2GwFGzZrjUheYVph9lIPhj",
+      "nome": "650x0m3.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "5162898",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1T17pu_jeO2CTu6NX1GtIw9KbeuEXbt1j",
+      "nome": "3795b62d-b90c-4f09-a77b-bde3bb773dd4.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "406171",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "16WVK0FDsjOLPAoRZR6_uJwmjxGVjV4v4",
+      "nome": "7dce2fdd-3688-44fe-8f05-93bc6acd3cdd.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "396763",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1T8k05DxCLo2fPqOpatXIP1zun4Y9aaeB",
+      "nome": "228b2863-a04e-433e-8b7f-2628311974fa.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "904634",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1Oe3_HLI9aMn1iSVMhDHJFATxahCZTdIU",
+      "nome": "5df5a269-85e2-439a-ad82-b9d5c8e00ebe.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1168419",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1J0ahfp6BlXbUCeqXiyW6QGKOU4y4xyjr",
+      "nome": "b4b168c4-d402-490f-a8b8-12b4d3eae4b0.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "359430",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1slVFmfo_d--efNns15FIFVcJuE43fDYc",
+      "nome": "9bd895fc-5839-4875-aa86-6e5054c9e213.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "893761",
+      "origem": 1,
+      "pasta": "1uuNwgSwonx6oBbejPEh1bFGAB2-IB53H"
+    },
+    {
+      "id": "1V1ZzqpWZm8YvwJaTzyDSDIVBWsJBZ6oy",
+      "nome": "DOC-20260723-WA0080..pdf",
+      "tipo": "application/pdf",
+      "tamanho": "966244",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1Vae7xWmqFUcgmG3ejSAFxIFpcuta-Y5J",
+      "nome": "peerj-4375.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2433346",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1SODzqvyE8POAPjaB-rVCgePwEZjQcjTI",
+      "nome": "ifla_statement_on_libraries_and_artificial_intelligence-full-text.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "271823",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1tUcA04mp4RmKJRalN2satazr_iJhtJMY",
+      "nome": "annex_1_artificial_intelligence_and_intellectual_freedom.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "189415",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1ax7wIbeZcVj80NAnb44BTiIgb-cXfEsV",
+      "nome": "annex_2_artificial_literacy.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "159576",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1Gx3XxryZfI0-2bFYqflb7Y39cghWylAU",
+      "nome": "annex_3_artificial_intelligence-libraries_at_the_forefront.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "159063",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1cecLgST5RSr4laONrr-5XLMv8barbmvC",
+      "nome": "381137eng.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1058004",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1jfoeE73gnIaMwehUMgBJjaiJsi52OlyI",
+      "nome": "2619.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "737123",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1mg9gq_Loo5UANBEGeptywojNvlgvwK-B",
+      "nome": "2841+-+Inteligência+artificial+para+catalogação.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "539331",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "1V1xxdGpL_8e020RHMy-ulNcjlRrL7PUl",
+      "nome": "17510+20260311+galley.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "681690",
+      "origem": 1,
+      "pasta": "1etAIfxd3Po8CgsJlR8pYrRdUPZuCZFTk"
+    },
+    {
+      "id": "11Xuwzxs9IXVVFYV73-3u21Uxg-u9DNrg",
+      "nome": "53.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "2388831",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "11KaGMCUL5JuhQe_KQqoyZcqzBs6Tln1a",
+      "nome": "52.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "741977",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1OeCB6LcuR2la1bmPBjwvi5YHmTnodplr",
+      "nome": "51.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1102721",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "11vfdg0nfAvEtlVIUOk4VAAgsZXE21Pj5",
+      "nome": "50.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "1472684",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1TjEZDgvI-Jm1Thg0FLogUWg8iU0yDk9_",
+      "nome": "49.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "218380",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1rFV5ggEe-mHAW2l0xqFkGAo3nwbVgsqA",
+      "nome": "44_47.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "900945",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1Q1eWUpJA2nmTKAQXVSX_Uznm3Ef32g9N",
+      "nome": "48.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "296001",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1fK7scvn_Xf3asTRamTCOJPjPUbuVR6f9",
+      "nome": "42.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "463563",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1VT0iH4o0_tYYRLojMaTIz1dbJidmsV33",
+      "nome": "43.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "133963",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "106k9pQC6Ug71u0sxfnp2_qH-mEmzDbIS",
+      "nome": "41.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "119703",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1lWtFQcUQcGRcTy1P--2DoYiYRDEv_347",
+      "nome": "39.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "176699",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1HvskB3MXEpLg6CDZtR5s1F0Lq-N2iwP9",
+      "nome": "38.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "746573",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1A-re5OUExt-MMF8dgBmAxEUwskPKzO_3",
+      "nome": "37.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "733346",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1t03PhHRS1m3CfTdniA2GbLRqiIDh-KMF",
+      "nome": "30_32.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "171959",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1x3xcs9XEZxclwaDB8NdEqdlhHiGA2IjQ",
+      "nome": "33_36.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "309857",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1Mpqvg3f9uYv3xcw9C3w4ZB_posE9yiQZ",
+      "nome": "26_ 29.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "580865",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "128fXB1rXoiGgch1Fl_7qwM2NeN735jri",
+      "nome": "1_9.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "802118",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1k1DQemOZGSqRa8BNLwy_ESoc1CYGoFeY",
+      "nome": "20_25.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "261192",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1tzp9YrWroykcirnQ9qTduzOxY07ti-fP",
+      "nome": "19.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "473189",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1odhGvaHnZfF6CwTk3sOgKTSEhaRkBwE1",
+      "nome": "18.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "452486",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1-oWRfIK8IZWgRsI3eJ560ulUPHvbcTH5",
+      "nome": "14_17.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "209500",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "11LT0aG-_T84xIPWDEhz-boUfOGN7sFFo",
+      "nome": "13.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "806993",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1G0MJ2ZC4jW-p0ofdeNkzdgez__aS9bgc",
+      "nome": "10_12.pdf",
+      "tipo": "application/pdf",
+      "tamanho": "175216",
+      "origem": 0,
+      "pasta": "1Tz-rv8QPtTjPV3A5IDb-9idJJQGBeWYy"
+    },
+    {
+      "id": "1F_TimhVr86kxQBffn--p1KNkxB82vJkG",
+      "nome": "README.en.md",
+      "tipo": "text/markdown",
+      "tamanho": "25313",
+      "origem": 0,
+      "pasta": "1O1LCqHHx2ircr-2E28ET9tpnr2GZjEKK"
+    },
+    {
+      "id": "1YJ4CxXFgm1LnerYoaFTnGaZ4NRLVwyiW",
+      "nome": "README.md",
+      "tipo": "text/markdown",
+      "tamanho": "22647",
+      "origem": 0,
+      "pasta": "1O1LCqHHx2ircr-2E28ET9tpnr2GZjEKK"
+    },
+    {
+      "id": "1gzinmLBbEGRvNBMSf7hJF21x3zT0skuL",
+      "nome": ".gitkeep",
+      "tipo": "application/octet-stream",
+      "tamanho": "0",
+      "origem": 0,
+      "pasta": "1O1LCqHHx2ircr-2E28ET9tpnr2GZjEKK"
+    },
+    {
+      "id": "1Nf1GtH09xhdahcbpt_66nXqDn6pEmiUt",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "14297",
+      "origem": 0,
+      "pasta": "1aYESuVzmX9fLkTUvCbQ6oX36psnIE9Zo"
+    },
+    {
+      "id": "1N_AjXXzidjDOWT7ODaXvmV-x_yPk7hr6",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "9637",
+      "origem": 0,
+      "pasta": "1L0g-u46aTaenIIE07M6z3PmeexHp_Z4y"
+    },
+    {
+      "id": "1X9UlAc9o9Hl4nhMsJfpDebbOQQgM2F4n",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "11326",
+      "origem": 0,
+      "pasta": "1BEsyxqw8HX1_m68LfwYYlQIGSeNyoH4T"
+    },
+    {
+      "id": "1D2QE66I0ASVEAbh8MX8K9PBMHf6djnSI",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "7661",
+      "origem": 0,
+      "pasta": "1lEADEqU6eAVVAVPYf5Qtmx7T5ke9-QT4"
+    },
+    {
+      "id": "1s8PH-gZugmldOB6zrw3uLUFfkv55JJ8N",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "7167",
+      "origem": 0,
+      "pasta": "1XxzAcgLqSHs83arrRkyc5heNBEdcqC3R"
+    },
+    {
+      "id": "1pIMRQcYU4wofmNqvydpjUI3sQr2WlL6O",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "13012",
+      "origem": 0,
+      "pasta": "1I3Cy4n2b731jIaiMrApJ43NddN7DCZMn"
+    },
+    {
+      "id": "1RGQJlEJxAlOEzxxFum9yQh8iDnWRN2CC",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "5445",
+      "origem": 0,
+      "pasta": "1uIUnfysL6ARrLDTZ6O5PFcq6Vcze6FNA"
+    },
+    {
+      "id": "1kQ6iXj_14qS9mPwvTueF337xA8jpGrD7",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "9910",
+      "origem": 0,
+      "pasta": "1hVH5NcEauFHYgamV7L9-vgVFwodrBmr7"
+    },
+    {
+      "id": "1IcxZE_8ud12rZFJESb8uuhqNS-OExHQN",
+      "nome": "requirements.txt",
+      "tipo": "text/plain",
+      "tamanho": "14",
+      "origem": 0,
+      "pasta": "1X9lBPbd8LZDD5XsPkDhbKNb1gio7udS8"
+    },
+    {
+      "id": "1E77qrOpcn2hzpc6kM1IRGXZWA2coKeXM",
+      "nome": "README.md",
+      "tipo": "text/markdown",
+      "tamanho": "9176",
+      "origem": 0,
+      "pasta": "1X9lBPbd8LZDD5XsPkDhbKNb1gio7udS8"
+    },
+    {
+      "id": "16QvSDhBEd0lhrCDhSqKzmIqr1iI47hJn",
+      "nome": "README.zh-CN.md",
+      "tipo": "text/markdown",
+      "tamanho": "8836",
+      "origem": 0,
+      "pasta": "1X9lBPbd8LZDD5XsPkDhbKNb1gio7udS8"
+    },
+    {
+      "id": "1i8x2MgWYTp0Nev7vOnkBTGjrmQvVreko",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "22022",
+      "origem": 0,
+      "pasta": "1X9lBPbd8LZDD5XsPkDhbKNb1gio7udS8"
+    },
+    {
+      "id": "166sXGUdXd9TtTYYSlzev_OM0lc_4oLEf",
+      "nome": ".gitignore",
+      "tipo": "text/plain",
+      "tamanho": "290",
+      "origem": 0,
+      "pasta": "1X9lBPbd8LZDD5XsPkDhbKNb1gio7udS8"
+    },
+    {
+      "id": "1rxrkEUsfNiTWh9hqxm32OCgeHeixzlqg",
+      "nome": "LICENSE",
+      "tipo": "application/octet-stream",
+      "tamanho": "1095",
+      "origem": 0,
+      "pasta": "1X9lBPbd8LZDD5XsPkDhbKNb1gio7udS8"
+    },
+    {
+      "id": "19BaBRxuOg5jaQEdCbpkr4qp1fRZWQYSq",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "13924",
+      "origem": 0,
+      "pasta": "1hFoc4zbFeVf9XEH82LTl6A8UfTwQc1Be"
+    },
+    {
+      "id": "1OXZzBCHTVG3td6WTWpPocCLAuzcQOONs",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "12578",
+      "origem": 0,
+      "pasta": "1Mbl4IGsj_kdEqq4CE9qKa5ZblcBF7K6k"
+    },
+    {
+      "id": "1AybXPjLLUpGBesYeGzlddmAVbBxrIn3-",
+      "nome": "SKILL.md",
+      "tipo": "text/markdown",
+      "tamanho": "7647",
+      "origem": 0,
+      "pasta": "1fRLdo1OvZWY-VDwbAGzom2VfHdilMKBj"
+    },
+    {
+      "id": "1bbcOvM0JW8i1XbV7r0vghW52OtBDM1Nb",
+      "nome": "section-guidance.md",
+      "tipo": "text/markdown",
+      "tamanho": "5027",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1-LrRam3H58kGboQv8IcDAvC-q2mCnygq",
+      "nome": "verification-checklist.md",
+      "tipo": "text/markdown",
+      "tamanho": "5287",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1-1ABx3Hq-7lexUfcQgJ3aNn2iPv2UOPc",
+      "nome": "verification-ladder.md",
+      "tipo": "text/markdown",
+      "tamanho": "7025",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1Y43vig-V7txgmWww50X-FPRyejfJD9bw",
+      "nome": "section-conventions.md",
+      "tipo": "text/markdown",
+      "tamanho": "4508",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1pBaPhK_y-9j3w14a8h2M5n6O1232WEnM",
+      "nome": "prose-delivery.md",
+      "tipo": "text/markdown",
+      "tamanho": "3089",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1nVpREa_CbdfAp5hzG7G3XdNaOszwydRD",
+      "nome": "evidence-discipline.md",
+      "tipo": "text/markdown",
+      "tamanho": "8021",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1Sm-DYYmC5sh2JAcVAQ6BhOHgl7sDuDHJ",
+      "nome": "citation-style.md",
+      "tipo": "text/markdown",
+      "tamanho": "4950",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1oSuJp8j1uokNaeh0uiYxcOBLMNXlgTU2",
+      "nome": "academic-phrasebank.md",
+      "tipo": "text/markdown",
+      "tamanho": "4646",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1l0XXScmg02-fFIk0X_ydcPCN-c4OVuQT",
+      "nome": "ai-tone-guardrails.md",
+      "tipo": "text/markdown",
+      "tamanho": "4585",
+      "origem": 0,
+      "pasta": "1pf6JiBcc9pCys5eFwGhDY3RNt7HL8HwD"
+    },
+    {
+      "id": "1QTqVCnLVka80XZBlwCDdAeRSc4kTJvMF",
+      "nome": "synthesis-framework.md",
+      "tipo": "text/markdown",
+      "tamanho": "4832",
+      "origem": 0,
+      "pasta": "18Tmr2wwT0C3AZ2nmzpu77jr7Vl1-rqrz"
+    },
+    {
+      "id": "1ROZL9pff6bWl_S93onPBZ-uiz8n_WLEj",
+      "nome": "quality-gates.md",
+      "tipo": "text/markdown",
+      "tamanho": "3659",
+      "origem": 0,
+      "pasta": "18Tmr2wwT0C3AZ2nmzpu77jr7Vl1-rqrz"
+    },
+    {
+      "id": "1jLozsDBnaffJJOE0UO56BswD1lr3p5Ri",
+      "nome": "search-strategy.md",
+      "tipo": "text/markdown",
+      "tamanho": "2218",
+      "origem": 0,
+      "pasta": "18Tmr2wwT0C3AZ2nmzpu77jr7Vl1-rqrz"
+    },
+    {
+      "id": "1uoMMfpkLuzMin6qkhJ8Et0_NphOz3aT0",
+      "nome": "self-adversarial.md",
+      "tipo": "text/markdown",
+      "tamanho": "2485",
+      "origem": 0,
+      "pasta": "18Tmr2wwT0C3AZ2nmzpu77jr7Vl1-rqrz"
+    },
+    {
+      "id": "1m5ztn0OhR_tAS2cv5ayBoCZNQMZmhGE2",
+      "nome": "output-structure.md",
+      "tipo": "text/markdown",
+      "tamanho": "6115",
+      "origem": 0,
+      "pasta": "18Tmr2wwT0C3AZ2nmzpu77jr7Vl1-rqrz"
+    },
+    {
+      "id": "19Dmd1mll3jjSDoA489rveqX9yTSc2auJ",
+      "nome": "hedge-calibration.md",
+      "tipo": "text/markdown",
+      "tamanho": "2071",
+      "origem": 0,
+      "pasta": "18Tmr2wwT0C3AZ2nmzpu77jr7Vl1-rqrz"
+    },
+    {
+      "id": "1JjR6jicPfN3NkgGzsXi4OD9HSgkAFQrR",
+      "nome": "citation-protocol.md",
+      "tipo": "text/markdown",
+      "tamanho": "2159",
+      "origem": 0,
+      "pasta": "18Tmr2wwT0C3AZ2nmzpu77jr7Vl1-rqrz"
+    },
+    {
+      "id": "1eq9Q-wlznr2P4s4vl3htE7raKyUGNw0W",
+      "nome": "paper-structure.md",
+      "tipo": "text/markdown",
+      "tamanho": "10115",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "1TrsTQtIgeKwSEvitRwu6DH5k7SnhOzwl",
+      "nome": "instantiation-template.md",
+      "tipo": "text/markdown",
+      "tamanho": "5521",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "1cR59XY-p4hsL3FgGDWK-QCNue9R9LGW9",
+      "nome": "orchestrator-notes.md",
+      "tipo": "text/markdown",
+      "tamanho": "5359",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "1zBIOQGhCotG-_4VjTVH4jzAnRXNR81qE",
+      "nome": "gap-analysis.md",
+      "tipo": "text/markdown",
+      "tamanho": "5553",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "11jkB22yV1gT6xlGZ8bAyRalFrjERPNwt",
+      "nome": "checklist.md",
+      "tipo": "text/markdown",
+      "tamanho": "7047",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "1BOXOyl_5KtTJjFN32ht_11v6zGesQgfs",
+      "nome": "construction-pipeline.md",
+      "tipo": "text/markdown",
+      "tamanho": "6484",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "1vAX6vQa6l-PYxX5469Dkpgk7QX-N7_bD",
+      "nome": "experiments.md",
+      "tipo": "text/markdown",
+      "tamanho": "8377",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "1n4Tsih-Rj1NETFT1myU3Jm5Ejhbdr5yR",
+      "nome": "benchmark-design.md",
+      "tipo": "text/markdown",
+      "tamanho": "7738",
+      "origem": 0,
+      "pasta": "1dhPtsRmXcobLfu_toZfzRNDjwzTjP-uc"
+    },
+    {
+      "id": "1OEEcJiJo_W8sW9eSVSpxQrDAZQWtWy_n",
+      "nome": "tools.md",
+      "tipo": "text/markdown",
+      "tamanho": "4081",
+      "origem": 0,
+      "pasta": "14I-Q3CIo1-dBQFgw8zIZBsf2Kf11IdxM"
+    },
+    {
+      "id": "1rCoXp-FDlAhM050EuByhu0qEwW9TQl-B",
+      "nome": "motivated-example.md",
+      "tipo": "text/markdown",
+      "tamanho": "4756",
+      "origem": 0,
+      "pasta": "14I-Q3CIo1-dBQFgw8zIZBsf2Kf11IdxM"
+    },
+    {
+      "id": "1bBs-HMK4QWT1Z_z_gLZktYa5914B6IDV",
+      "nome": "solution-overview.md",
+      "tipo": "text/markdown",
+      "tamanho": "5038",
+      "origem": 0,
+      "pasta": "14I-Q3CIo1-dBQFgw8zIZBsf2Kf11IdxM"
+    },
+    {
+      "id": "19DBKum_QixRkk5w2c7IhoovPpkDJAu1D",
+      "nome": "experimental-results.md",
+      "tipo": "text/markdown",
+      "tamanho": "5244",
+      "origem": 0,
+      "pasta": "14I-Q3CIo1-dBQFgw8zIZBsf2Kf11IdxM"
+    },
+    {
+      "id": "11SjMAPJYUCD-WWqqR52LiFKT0AtYyc9O",
+      "nome": "design-rules.md",
+      "tipo": "text/markdown",
+      "tamanho": "4078",
+      "origem": 0,
+      "pasta": "14I-Q3CIo1-dBQFgw8zIZBsf2Kf11IdxM"
+    },
+    {
+      "id": "13tL9zoXEIvllsjRXarh29lJMoLbdOKm5",
+      "nome": "worked-examples.md",
+      "tipo": "text/markdown",
+      "tamanho": "6096",
+      "origem": 0,
+      "pasta": "1vEKXpFI9cWfXDBBillofAB4RqIwoepH0"
+    },
+    {
+      "id": "1hHBN3Di_8S9drOpjYnZ0aA_T6u_4fzCp",
+      "nome": "thinking-template.md",
+      "tipo": "text/markdown",
+      "tamanho": "5681",
+      "origem": 0,
+      "pasta": "1vEKXpFI9cWfXDBBillofAB4RqIwoepH0"
+    },
+    {
+      "id": "1SP0tZAAQVYgBKlZxoOvvocxGaPDGPxuX",
+      "nome": "paper-types.md",
+      "tipo": "text/markdown",
+      "tamanho": "4980",
+      "origem": 0,
+      "pasta": "1vEKXpFI9cWfXDBBillofAB4RqIwoepH0"
+    },
+    {
+      "id": "1elgR-759EF3-sMPeTBITbbfAfPYPB-qP",
+      "nome": "consistency-checks.md",
+      "tipo": "text/markdown",
+      "tamanho": "5798",
+      "origem": 0,
+      "pasta": "1vEKXpFI9cWfXDBBillofAB4RqIwoepH0"
+    },
+    {
+      "id": "1Ac55Silmez5BdukFz0Z7phz7ypyqIF28",
+      "nome": "section-guides.md",
+      "tipo": "text/markdown",
+      "tamanho": "5503",
+      "origem": 0,
+      "pasta": "1fv4HGlvQybB57zm5SBCn6WwIIOlK87Mb"
+    },
+    {
+      "id": "1HYgiHkTKDSSUsumIXqMGX4A-fgQr4LUv",
+      "nome": "logic-and-structure.md",
+      "tipo": "text/markdown",
+      "tamanho": "4788",
+      "origem": 0,
+      "pasta": "1fv4HGlvQybB57zm5SBCn6WwIIOlK87Mb"
+    },
+    {
+      "id": "1LtnJgLqAyhoI9RDLjKiZSLw-goPULrMy",
+      "nome": "latex-rules.md",
+      "tipo": "text/markdown",
+      "tamanho": "4597",
+      "origem": 0,
+      "pasta": "1fv4HGlvQybB57zm5SBCn6WwIIOlK87Mb"
+    },
+    {
+      "id": "1zBnGEGr9eKosRN21NSTAyP8u0-AKIHRQ",
+      "nome": "forbidden-patterns.md",
+      "tipo": "text/markdown",
+      "tamanho": "4964",
+      "origem": 0,
+      "pasta": "1fv4HGlvQybB57zm5SBCn6WwIIOlK87Mb"
+    },
+    {
+      "id": "1x4V-Y8wOhPkQ4hJtAE1DgiztElf-6hoQ",
+      "nome": "grammar-rules.md",
+      "tipo": "text/markdown",
+      "tamanho": "4902",
+      "origem": 0,
+      "pasta": "1fv4HGlvQybB57zm5SBCn6WwIIOlK87Mb"
+    },
+    {
+      "id": "1jyl_ZNIgcsu-U_lyntNUQgG1RHAUf64X",
+      "nome": "mindset-library.md",
+      "tipo": "text/markdown",
+      "tamanho": "17649",
+      "origem": 0,
+      "pasta": "1PPSZ-3TZSgESJzCKEVg_1Ecv6n98NAUE"
+    },
+    {
+      "id": "13JH7JXn0RowmGY8eBmCrJ3t4Kjwo6ILZ",
+      "nome": "mindset-matching-heuristics.md",
+      "tipo": "text/markdown",
+      "tamanho": "2614",
+      "origem": 0,
+      "pasta": "1PPSZ-3TZSgESJzCKEVg_1Ecv6n98NAUE"
+    },
+    {
+      "id": "18pV8iMkLCKUMGFhV_RPPu2GSQmxRAa-P",
+      "nome": "response-templates.md",
+      "tipo": "text/markdown",
+      "tamanho": "2620",
+      "origem": 0,
+      "pasta": "1PPSZ-3TZSgESJzCKEVg_1Ecv6n98NAUE"
+    },
+    {
+      "id": "1KW3huj_-xUAdoFiWuTwTPgQKOaiwI53X",
+      "nome": "strategy-dimensions.md",
+      "tipo": "text/markdown",
+      "tamanho": "2536",
+      "origem": 0,
+      "pasta": "1PPSZ-3TZSgESJzCKEVg_1Ecv6n98NAUE"
+    },
+    {
+      "id": "1FAGykP3RTkBY1Y2-jaZxVgfZRpm9ti3r",
+      "nome": "concern-classification.md",
+      "tipo": "text/markdown",
+      "tamanho": "2301",
+      "origem": 0,
+      "pasta": "1PPSZ-3TZSgESJzCKEVg_1Ecv6n98NAUE"
+    },
+    {
+      "id": "19cVRuk2RsWHb7MD2a6DahZdTdrLXGQC5",
+      "nome": "checklist.md",
+      "tipo": "text/markdown",
+      "tamanho": "1984",
+      "origem": 0,
+      "pasta": "1PPSZ-3TZSgESJzCKEVg_1Ecv6n98NAUE"
+    },
+    {
+      "id": "1Ip3hBWXuAiodLuaH88pkeAJIpmF16PwE",
+      "nome": "worked-examples.md",
+      "tipo": "text/markdown",
+      "tamanho": "7533",
+      "origem": 0,
+      "pasta": "1YQykNI1l9Q61herxeYcIEBdZlxbuWE4y"
+    },
+    {
+      "id": "1KYfTbL_fGzoCoU_i2bjU5QC3RRgBpWKA",
+      "nome": "running-example.md",
+      "tipo": "text/markdown",
+      "tamanho": "5224",
+      "origem": 0,
+      "pasta": "1YQykNI1l9Q61herxeYcIEBdZlxbuWE4y"
+    },
+    {
+      "id": "1pgXOly8geWhDlKwkhokQH9z5SQ1CmfF5",
+      "nome": "prose-delivery.md",
+      "tipo": "text/markdown",
+      "tamanho": "3073",
+      "origem": 0,
+      "pasta": "1YQykNI1l9Q61herxeYcIEBdZlxbuWE4y"
+    },
+    {
+      "id": "1dQ9e6VmMnqTKhMH90YiURnSy8OKFE8Me",
+      "nome": "contribution-patterns.md",
+      "tipo": "text/markdown",
+      "tamanho": "4468",
+      "origem": 0,
+      "pasta": "1YQykNI1l9Q61herxeYcIEBdZlxbuWE4y"
+    },
+    {
+      "id": "1zZ-rrSIiXynrVd5ppPB8CxP8Whtnvf8z",
+      "nome": "evidence-discipline.md",
+      "tipo": "text/markdown",
+      "tamanho": "8010",
+      "origem": 0,
+      "pasta": "1YQykNI1l9Q61herxeYcIEBdZlxbuWE4y"
+    },
+    {
+      "id": "14wCJcGJQX5Yv8Y2C8ICfmvnUO_76mfeB",
+      "nome": "flowchart.md",
+      "tipo": "text/markdown",
+      "tamanho": "7118",
+      "origem": 0,
+      "pasta": "1YQykNI1l9Q61herxeYcIEBdZlxbuWE4y"
+    },
+    {
+      "id": "1F1CVB1vR6HJOLgtN4VwER0hx6nU8RYEZ",
+      "nome": "paper-types.md",
+      "tipo": "text/markdown",
+      "tamanho": "5924",
+      "origem": 0,
+      "pasta": "1YQykNI1l9Q61herxeYcIEBdZlxbuWE4y"
+    },
+    {
+      "id": "1J5hMXPkehLmtwEKSx5xlCYArYl09_uyF",
+      "nome": "export_drawio.py",
+      "tipo": "text/x-python",
+      "tamanho": "3487",
+      "origem": 0,
+      "pasta": "1eip7QKXu-_o89hDlQhYpeNRwVhXr9BNS"
+    },
+    {
+      "id": "1SHp0BCi3zyCMKImRwGLHBCCJ_Aqm6tdb",
+      "nome": "crop_assist.py",
+      "tipo": "text/x-python",
+      "tamanho": "13744",
+      "origem": 0,
+      "pasta": "1eip7QKXu-_o89hDlQhYpeNRwVhXr9BNS"
+    },
+    {
+      "id": "1X65iYNh52Sl1TLupC1HkWzYs3-BxAGn6",
+      "nome": "check_drawio.py",
+      "tipo": "text/x-python",
+      "tamanho": "12207",
+      "origem": 0,
+      "pasta": "1eip7QKXu-_o89hDlQhYpeNRwVhXr9BNS"
+    },
+    {
+      "id": "18QWPn3_dzp4rGtZREYQwIVtiGbx6V0dC",
+      "nome": "batch_verify.py",
+      "tipo": "text/x-python",
+      "tamanho": "2955",
+      "origem": 0,
+      "pasta": "1eip7QKXu-_o89hDlQhYpeNRwVhXr9BNS"
+    },
+    {
+      "id": "1sGXR5a-pVa_SDOz_PNq2n-97TooxaTAu",
+      "nome": "batch_manifest.py",
+      "tipo": "text/x-python",
+      "tamanho": "4304",
+      "origem": 0,
+      "pasta": "1eip7QKXu-_o89hDlQhYpeNRwVhXr9BNS"
+    },
+    {
+      "id": "1Id1v3rk3PQfKzl97eeVNgbLBl4HwU3hO",
+      "nome": "openai.yaml",
+      "tipo": "application/octet-stream",
+      "tamanho": "306",
+      "origem": 0,
+      "pasta": "1ko2We7q-6boHdKMa6bF5XdcSXOAUQGG4"
+    },
+    {
+      "id": "1_QAXnS0Tp8N5B8-DNRXZdJkkv5_3aeJp",
+      "nome": "data_sci2.png",
+      "tipo": "image/png",
+      "tamanho": "1799262",
+      "origem": 0,
+      "pasta": "1IdTLvzEd-Rt_eLnzXTouAvyBubwByE6j"
+    },
+    {
+      "id": "16vBA8qxHlE5Pui4aFfZdEwivlKZIwhWO",
+      "nome": "data_sci2.drawio",
+      "tipo": "text/xml",
+      "tamanho": "417283",
+      "origem": 0,
+      "pasta": "1IdTLvzEd-Rt_eLnzXTouAvyBubwByE6j"
+    },
+    {
+      "id": "1GbB_2sM4F1lwBF0bHNVaKH56Q3KnYUoE",
+      "nome": "data_man.png",
+      "tipo": "image/png",
+      "tamanho": "1875717",
+      "origem": 0,
+      "pasta": "1IdTLvzEd-Rt_eLnzXTouAvyBubwByE6j"
+    },
+    {
+      "id": "16NA6gfJWXzbof73NBhsUaa3C5PxHs4Kh",
+      "nome": "data_man.drawio",
+      "tipo": "application/octet-stream",
+      "tamanho": "490464",
+      "origem": 0,
+      "pasta": "1IdTLvzEd-Rt_eLnzXTouAvyBubwByE6j"
+    },
+    {
+      "id": "1vfjMJF7zEcwyDnHZzcxUUQk7-BsiDdki",
+      "nome": "data_lake.png",
+      "tipo": "image/png",
+      "tamanho": "1289583",
+      "origem": 0,
+      "pasta": "1IdTLvzEd-Rt_eLnzXTouAvyBubwByE6j"
+    },
+    {
+      "id": "1P21JOOA_ync9gAnROow8bLDcN709LvaG",
+      "nome": "data_lake.drawio",
+      "tipo": "application/octet-stream",
+      "tamanho": "380659",
+      "origem": 0,
+      "pasta": "1IdTLvzEd-Rt_eLnzXTouAvyBubwByE6j"
+    },
+    {
+      "id": "13_Bb2oaScKAUSfPhkpf0Iq_3ajDYQLXZ",
+      "nome": "paradigm-hamming.md",
+      "tipo": "text/markdown",
+      "tamanho": "4971",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1ZsVxeCqbA3irv8A_T8NL2aNvphsApmKI",
+      "nome": "paradigm-shift-probe.md",
+      "tipo": "text/markdown",
+      "tamanho": "6450",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1jcks2-u_TskCZNOz1S_mq39Yeizk4D20",
+      "nome": "paradigm-technology-cycle.md",
+      "tipo": "text/markdown",
+      "tamanho": "4936",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1QRYciPBd3zisUjdWjKO9krlpX5qMGyJc",
+      "nome": "worked-examples.md",
+      "tipo": "text/markdown",
+      "tamanho": "8617",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1iNi0ncerU-wvBHP3m9Pt_-253U_lMq4C",
+      "nome": "paradigm-first-principles.md",
+      "tipo": "text/markdown",
+      "tamanho": "4809",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "15GxAyaCO8hC5DHLo6MgX2flLWPgF6kd1",
+      "nome": "paradigm-examples.md",
+      "tipo": "text/markdown",
+      "tamanho": "5083",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "19NcyR909y4zrL07YhF90uekX0oHGGyMZ",
+      "nome": "lifecycle-capability-matching.md",
+      "tipo": "text/markdown",
+      "tamanho": "7908",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1VGaX3Ch1SV0QgKWFhmA8ySGeA40DitOZ",
+      "nome": "paradigm-elephant.md",
+      "tipo": "text/markdown",
+      "tamanho": "4827",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1xFzadGaX3XaEtAbJ-IaAQcEjQ5K5XmaJ",
+      "nome": "five-dimensions.md",
+      "tipo": "text/markdown",
+      "tamanho": "12918",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1XSRJ5jUiT4VXhEJH-iWpvhtPjrdxmw52",
+      "nome": "fatal-flaws.md",
+      "tipo": "text/markdown",
+      "tamanho": "8876",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1A7ApJqkspfQsoshf3wO4SgkNlfQA9K57",
+      "nome": "domain-evaluation-frameworks.md",
+      "tipo": "text/markdown",
+      "tamanho": "9113",
+      "origem": 0,
+      "pasta": "1GSW1XP_XYlnptTF1lRvMG5KoIGCWgyO0"
+    },
+    {
+      "id": "1tVlLNCNAKGg1ZumgNEsqC2AYscW4J5Oz",
+      "nome": "section-conventions.md",
+      "tipo": "text/markdown",
+      "tamanho": "4519",
+      "origem": 0,
+      "pasta": "14W4snp2wAWV-LkjGyuNqjGx4NOxuX2w4"
+    },
+    {
+      "id": "17LLROCCJJiLtaA8nNfG0ons2Q8FJCthx",
+      "nome": "academic-phrasebank.md",
+      "tipo": "text/markdown",
+      "tamanho": "4657",
+      "origem": 0,
+      "pasta": "14W4snp2wAWV-LkjGyuNqjGx4NOxuX2w4"
+    },
+    {
+      "id": "1R11nUOaa3_mTIQmV1ID0sj0Nd6-_oVF6",
+      "nome": "ai-tone-guardrails.md",
+      "tipo": "text/markdown",
+      "tamanho": "4597",
+      "origem": 0,
+      "pasta": "14W4snp2wAWV-LkjGyuNqjGx4NOxuX2w4"
+    },
+    {
+      "id": "1tPvbwcQ5RvqWBAQNFBe6DE4-ljBA8WyT",
+      "nome": "vibe-writing.md",
+      "tipo": "text/markdown",
+      "tamanho": "6943",
+      "origem": 0,
+      "pasta": "1MhApCyO9GXslQ8r_j9KT9Ryj329Ssdhl"
+    },
+    {
+      "id": "1hOlXRWSZfkMpfYsmTf9tpNanACLK__Qm",
+      "nome": "vibe-figure.md",
+      "tipo": "text/markdown",
+      "tamanho": "4290",
+      "origem": 0,
+      "pasta": "1MhApCyO9GXslQ8r_j9KT9Ryj329Ssdhl"
+    },
+    {
+      "id": "1Y0zqpJUkxf0m3OxYQLnYkw_BFvKOTtI3",
+      "nome": "tool-selection.md",
+      "tipo": "text/markdown",
+      "tamanho": "4838",
+      "origem": 0,
+      "pasta": "1MhApCyO9GXslQ8r_j9KT9Ryj329Ssdhl"
+    },
+    {
+      "id": "1FizK8SVp-kzKT8HmbLWJL2b5WXrIxQvW",
+      "nome": "vibe-coding.md",
+      "tipo": "text/markdown",
+      "tamanho": "4740",
+      "origem": 0,
+      "pasta": "1MhApCyO9GXslQ8r_j9KT9Ryj329Ssdhl"
+    },
+    {
+      "id": "1ADlIU8Qt0K2PVWTePP11paWWy1wXqiZa",
+      "nome": "behavior-guidelines.md",
+      "tipo": "text/markdown",
+      "tamanho": "5334",
+      "origem": 0,
+      "pasta": "1MhApCyO9GXslQ8r_j9KT9Ryj329Ssdhl"
+    },
+    {
+      "id": "1BfPeX8zZLJ-k9X8kKVM0fnn3ipNIueYL",
+      "nome": "data_sci2_original.png",
+      "tipo": "image/png",
+      "tamanho": "1799262",
+      "origem": 0,
+      "pasta": "19_9SebKojrxLzxmEfrDapaRjACyxD5gB"
+    },
+    {
+      "id": "1SeT_lkwK7u3m-qf2uSfzRF256nlrDpCt",
+      "nome": "data_sci2_drawio.png",
+      "tipo": "image/png",
+      "tamanho": "778923",
+      "origem": 0,
+      "pasta": "19_9SebKojrxLzxmEfrDapaRjACyxD5gB"
+    },
+    {
+      "id": "1mAt5EOMQ7RfcBzbj_-A9FtBd3q4f7R3e",
+      "nome": "data_man_original.png",
+      "tipo": "image/png",
+      "tamanho": "1875717",
+      "origem": 0,
+      "pasta": "19_9SebKojrxLzxmEfrDapaRjACyxD5gB"
+    },
+    {
+      "id": "1I3aUTaXBybpM11FTBCfqr_0XjzY776Dm",
+      "nome": "data_man_drawio.png",
+      "tipo": "image/png",
+      "tamanho": "651847",
+      "origem": 0,
+      "pasta": "19_9SebKojrxLzxmEfrDapaRjACyxD5gB"
+    },
+    {
+      "id": "1i3VTc3wUQ9bYSJV1yr3DpjYKorpr-Ijw",
+      "nome": "data_lake_original.png",
+      "tipo": "image/png",
+      "tamanho": "1289583",
+      "origem": 0,
+      "pasta": "19_9SebKojrxLzxmEfrDapaRjACyxD5gB"
+    },
+    {
+      "id": "150Dnw1qAI-mUiIZde9PDv6KsVLyCXYkf",
+      "nome": "data_lake_drawio.png",
+      "tipo": "image/png",
+      "tamanho": "492829",
+      "origem": 0,
+      "pasta": "19_9SebKojrxLzxmEfrDapaRjACyxD5gB"
+    }
+  ]
+}
