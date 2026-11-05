@@ -512,5 +512,15 @@
     "titulo": "WHATWG — HTML Standard: Links",
     "localizador": "Seção 4.6: conexões entre recursos, hiperlinks e navegação.",
     "url": "https://html.spec.whatwg.org/multipage/links.html"
+  },
+  "cade-2014-recurso-70": {
+    "titulo": "Cebraspe — CADE 2014: justificativas de alteração do gabarito",
+    "localizador": "Cargo 2, item 70: alteração de C para E; seleção de informações expressivas no índice.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CADE_13/arquivos/CADE_13_JUSTIFICATIVAS_DE_ALTERA____O_DE_GABARITO.PDF"
+  },
+  "serpro-2013-recurso-115": {
+    "titulo": "Cebraspe — SERPRO 2013: justificativas de alteração do gabarito",
+    "localizador": "Cargo 4, item 115: alteração de C para E; desafio de bibliotecários e editores.",
+    "url": "https://cdn.cebraspe.org.br/concursos/SERPRO_13/arquivos/SERPRO_2013_JUSTIFICATIVAS_DE_ALTERA____O_DE_GABARITO.PDF"
   }
 }

@@ -1,0 +1,37 @@
+import registro from './registro.json';
+import type { QuestaoReal } from '../questoesReais';
+
+type Fonte = { provaUrl: string; gabaritoUrl: string; modo: 'original' | 'copia'; tipoGabarito: 'tabela' | 'recurso'; codigo: string };
+type Conferencia = { fonteId: string; numero: number; gabarito: 'C' | 'E' | 'X' };
+const fontes = registro.fontes as Record<string, Fonte>;
+const itens = registro.itens as Record<string, Conferencia>;
+const editorial = registro.editorial as Record<string, Partial<QuestaoReal>>;
+
+/** O JSON de origem é histórico. Somente esta projeção entra nos treinos. */
+export function aplicarConferenciaOficial(questoes: readonly QuestaoReal[]): QuestaoReal[] {
+  return questoes.flatMap(q => {
+    const conferencia = itens[q.id];
+    if (!conferencia) return [q];
+    if (conferencia.gabarito === 'X') return [];
+    const fonte = fontes[conferencia.fonteId];
+    if (!fonte) throw new Error(`Fonte oficial ausente: ${q.id}`);
+    let titulo = q.prova.replace(/ · atribuição (?:na apostila|no caderno)$/, '');
+    if (fonte.codigo.includes('ABIN')) titulo = 'ABIN 2018 · Oficial Técnico de Inteligência — Área 10';
+    if (fonte.codigo.includes('SERPRO13')) titulo = 'SERPRO 2013 · Analista — Biblioteconomia';
+    if (fonte.codigo.includes('291_SEEDF')) titulo = 'SEE/DF · edital de 2016 · prova de 2017 — Biblioteconomia';
+    if (fonte.codigo.includes('164DPU')) titulo = 'DPU 2016 · Bibliotecário';
+    return [{
+      ...q, ...editorial[q.id],
+      prova: `${titulo} · item ${conferencia.numero}`,
+      provaUrl: fonte.provaUrl, gabaritoUrl: fonte.gabaritoUrl,
+      gabarito: conferencia.gabarito,
+      estadoConferencia: fonte.modo === 'copia' ? 'copia-oficial' : undefined,
+      conferenciaOficial: {
+        numero: conferencia.numero, tipoGabarito: fonte.tipoGabarito,
+        provaEmEspelho: !new URL(fonte.provaUrl).hostname.endsWith('cebraspe.org.br'),
+        gabaritoEmEspelho: !new URL(fonte.gabaritoUrl).hostname.endsWith('cebraspe.org.br'),
+      },
+      fonte: `${q.fonte} Conferência documental: ${fonte.codigo}, item ${conferencia.numero}, ${fonte.tipoGabarito === 'recurso' ? 'decisão definitiva do recurso' : 'gabarito definitivo'}${fonte.modo === 'copia' ? ', documento consultado em cópia' : ', arquivos da banca'}.`,
+    }];
+  });
+}

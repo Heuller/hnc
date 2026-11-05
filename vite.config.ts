@@ -105,6 +105,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
+          if (/\/content\/conferenciaOficialReais\//.test(id.replaceAll('\\', '/'))) return 'content-questions-conferencia';
           if (/\/content\/estudoReversoReais\//.test(id.replaceAll('\\', '/'))) return 'content-questions-reverso';
           if (/\/content\/questoesReais(?:Triadas)?\.(?:ts|json)$/.test(id.replaceAll('\\', '/'))) return 'content-questions-reais';
           const theoryModule = id.replaceAll('\\', '/').match(/content\/modules\/([^/]+)\//)?.[1];

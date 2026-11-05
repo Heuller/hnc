@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1024,
-  "numPassedTests": 1024,
+  "numTotalTests": 1032,
+  "numPassedTests": 1032,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 132,
-  "source": "vitest run: quinto lote de 300 questões reais; 1.642 itens, 05/11/2026"
+  "testFiles": 133,
+  "source": "vitest run: conferência documental de 1.596 itens; banco ativo de 1.634 questões, 05/11/2026"
 }

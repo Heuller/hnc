@@ -1,5 +1,6 @@
 import type { QuestaoEstudoReverso } from '../components/common/PainelEstudoReverso';
 import itensTriados from './questoesReaisTriadas.json';
+import { aplicarConferenciaOficial } from './conferenciaOficialReais/aplicar';
 import { enriquecerEstudoReversoReal } from './estudoReversoReais/enriquecer';
 
 export interface QuestaoReal extends QuestaoEstudoReverso {
@@ -8,7 +9,8 @@ export interface QuestaoReal extends QuestaoEstudoReverso {
   prova: string;
   provaUrl: string;
   gabaritoUrl?: string;
-  estadoConferencia?: 'caderno';
+  estadoConferencia?: 'caderno' | 'copia-oficial';
+  conferenciaOficial?: { numero: number; tipoGabarito: 'tabela' | 'recurso'; provaEmEspelho: boolean; gabaritoEmEspelho: boolean };
   loteRevisao?: string;
   numeroNaFonte?: number;
   outrasFontes?: { titulo: string; url: string }[];
@@ -58,5 +60,5 @@ const QUESTOES_OFICIAIS_CONFERIDAS: QuestaoReal[] = [
   },
 ];
 
-// Atribuição e gabarito dos demais itens vêm do caderno; ainda falta confronto oficial.
-export const QUESTOES_REAIS: QuestaoReal[] = [...QUESTOES_OFICIAIS_CONFERIDAS, ...(itensTriados as QuestaoReal[])].map(enriquecerEstudoReversoReal);
+// Preserva o banco de origem; aplica conferências, restaurações e exclusões antes do estudo reverso.
+export const QUESTOES_REAIS: QuestaoReal[] = aplicarConferenciaOficial([...QUESTOES_OFICIAIS_CONFERIDAS, ...(itensTriados as QuestaoReal[])]).map(enriquecerEstudoReversoReal);

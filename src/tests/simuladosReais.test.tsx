@@ -1,6 +1,8 @@
 // @vitest-environment jsdom
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import base from '../content/questoesReaisTriadas.json';
+import type { QuestaoReal } from '../content/questoesReais';
 import { QUESTOES_REAIS } from '../content/questoesReais';
 import loteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA.json';
 import segundoLoteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA-02.json';
@@ -8,6 +10,10 @@ import terceiroLoteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUE
 import quartoLoteEsquematizada from '../../docs/simulados-reais/LOTE-300-ESQUEMATIZADA-04.json';
 import { ALL_COURSE_MODULES } from '../content/registry';
 import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
+
+// Regressão dos lotes de origem: a projeção ativa aplica exclusões posteriores.
+const idsOrigem = new Set(base.map(q => q.id));
+const HISTORICO: QuestaoReal[] = [...(base as QuestaoReal[]), ...QUESTOES_REAIS.filter(q => !idsOrigem.has(q.id))];
 
 afterEach(() => { cleanup(); localStorage.clear(); });
 
@@ -17,7 +23,11 @@ describe('questões reais por módulo', () => {
     expect(new Set(QUESTOES_REAIS.map(q => q.item.trim().toLocaleLowerCase('pt-BR'))).size).toBe(QUESTOES_REAIS.length);
     for (const q of QUESTOES_REAIS) {
       if (q.estadoConferencia === 'caderno') expect(q.provaUrl).toMatch(/^https:\/\/(?:www\.tecconcursos\.com\.br|drive\.google\.com)\//);
-      else {
+      else if (q.estadoConferencia === 'copia-oficial') {
+        expect(q.provaUrl).toMatch(/^https:\/\//);
+        expect(q.gabaritoUrl).toMatch(/^https:\/\//);
+        expect(q.conferenciaOficial?.provaEmEspelho || q.conferenciaOficial?.gabaritoEmEspelho).toBe(true);
+      } else {
         expect(q.provaUrl).toMatch(/^https:\/\/cdn\.cebraspe\.org\.br\//);
         expect(q.gabaritoUrl).toMatch(/^https:\/\/cdn\.cebraspe\.org\.br\//);
       }
@@ -29,7 +39,7 @@ describe('questões reais por módulo', () => {
     }
   });
   it('entrega o lote de 300 sem duplicar itens anteriores e com vínculo válido à teoria', () => {
-    const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === loteEsquematizada.lote);
+    const novos = HISTORICO.filter(q => q.loteRevisao === loteEsquematizada.lote);
     expect(novos).toHaveLength(300);
     expect(new Set(novos.map(q => q.numeroNaFonte)).size).toBe(300);
     expect(new Set(novos.map(q => q.id))).toEqual(new Set(loteEsquematizada.ids));
@@ -41,15 +51,15 @@ describe('questões reais por módulo', () => {
       expect(q.justificativa.length).toBeGreaterThan(90);
       expect(q.acervoUrl).toContain(loteEsquematizada.fonteDrive);
     }
-    expect(QUESTOES_REAIS.filter(q => !q.loteRevisao)).toHaveLength(142);
+    expect(HISTORICO.filter(q => !q.loteRevisao)).toHaveLength(142);
   });
   it('acrescenta mais 300 questões preservando os 442 itens publicados', () => {
-    const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === segundoLoteEsquematizada.lote);
+    const novos = HISTORICO.filter(q => q.loteRevisao === segundoLoteEsquematizada.lote);
     expect(novos).toHaveLength(300);
-    expect(QUESTOES_REAIS.filter(q => !q.loteRevisao || q.loteRevisao === loteEsquematizada.lote)).toHaveLength(442);
+    expect(HISTORICO.filter(q => !q.loteRevisao || q.loteRevisao === loteEsquematizada.lote)).toHaveLength(442);
     expect(new Set(novos.map(q => q.id))).toEqual(new Set(segundoLoteEsquematizada.ids));
     const lotesAnteriores = [loteEsquematizada.lote, segundoLoteEsquematizada.lote];
-    expect(new Set(QUESTOES_REAIS.filter(q => lotesAnteriores.includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(600);
+    expect(new Set(HISTORICO.filter(q => lotesAnteriores.includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(600);
     for (const q of novos) {
       const modulo = ALL_COURSE_MODULES.find(m => m.codigo.toUpperCase() === q.modulo);
       expect(modulo?.modulosFilhos?.some(s => s.id === `sub-${q.submoduloId?.replace('.', '-')}`), q.id).toBe(true);
@@ -61,12 +71,12 @@ describe('questões reais por módulo', () => {
     }
   });
   it('acrescenta o terceiro lote de 300 sem sobrepor os 742 itens publicados', () => {
-    const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === terceiroLoteEsquematizada.lote);
+    const novos = HISTORICO.filter(q => q.loteRevisao === terceiroLoteEsquematizada.lote);
     expect(novos).toHaveLength(300);
-    expect(QUESTOES_REAIS.filter(q => !q.loteRevisao || [loteEsquematizada.lote, segundoLoteEsquematizada.lote].includes(q.loteRevisao))).toHaveLength(742);
+    expect(HISTORICO.filter(q => !q.loteRevisao || [loteEsquematizada.lote, segundoLoteEsquematizada.lote].includes(q.loteRevisao))).toHaveLength(742);
     expect(new Set(novos.map(q => q.id))).toEqual(new Set(terceiroLoteEsquematizada.ids));
     const lotesAnteriores = [loteEsquematizada.lote, segundoLoteEsquematizada.lote, terceiroLoteEsquematizada.lote];
-    expect(new Set(QUESTOES_REAIS.filter(q => lotesAnteriores.includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(900);
+    expect(new Set(HISTORICO.filter(q => lotesAnteriores.includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(900);
     for (const q of novos) {
       const modulo = ALL_COURSE_MODULES.find(m => m.codigo.toUpperCase() === q.modulo);
       expect(modulo?.modulosFilhos?.some(s => s.id === `sub-${q.submoduloId?.replace('.', '-')}`), q.id).toBe(true);
@@ -78,11 +88,11 @@ describe('questões reais por módulo', () => {
     }
   });
   it('acrescenta o quarto lote de 300 preservando as 1.042 questões anteriores', () => {
-    const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === quartoLoteEsquematizada.lote);
+    const novos = HISTORICO.filter(q => q.loteRevisao === quartoLoteEsquematizada.lote);
     expect(novos).toHaveLength(300);
-    expect(QUESTOES_REAIS.filter(q => !q.loteRevisao || [loteEsquematizada.lote, segundoLoteEsquematizada.lote, terceiroLoteEsquematizada.lote].includes(q.loteRevisao))).toHaveLength(1042);
+    expect(HISTORICO.filter(q => !q.loteRevisao || [loteEsquematizada.lote, segundoLoteEsquematizada.lote, terceiroLoteEsquematizada.lote].includes(q.loteRevisao))).toHaveLength(1042);
     expect(new Set(novos.map(q => q.id))).toEqual(new Set(quartoLoteEsquematizada.ids));
-    expect(new Set(QUESTOES_REAIS.filter(q => [loteEsquematizada.lote, segundoLoteEsquematizada.lote, terceiroLoteEsquematizada.lote, quartoLoteEsquematizada.lote].includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(1200);
+    expect(new Set(HISTORICO.filter(q => [loteEsquematizada.lote, segundoLoteEsquematizada.lote, terceiroLoteEsquematizada.lote, quartoLoteEsquematizada.lote].includes(q.loteRevisao || '')).map(q => q.numeroNaFonte)).size).toBe(1200);
     for (const q of novos) {
       const modulo = ALL_COURSE_MODULES.find(m => m.codigo.toUpperCase() === q.modulo);
       expect(modulo?.modulosFilhos?.some(s => s.id === `sub-${q.submoduloId?.replace('.', '-')}`), q.id).toBe(true);

@@ -393,7 +393,9 @@
   },
   "real-acervo-3b4baceb88ddf3": {
     "perfil": "indices",
-    "gatilho": "inclusive as notas"
+    "gatilho": "todo o documento",
+    "referencia": "cade-2014-recurso-70",
+    "exemplo": "Uma nota que explica o método empregado na pesquisa pode trazer um conceito importante e receber uma entrada no índice. Uma nota sem conteúdo expressivo para os assuntos representados não precisa ser incluída apenas por existir. A seleção considera o valor da informação, e não uma ordem de indexar cada palavra."
   },
   "real-acervo-724f73a81fc20e": {
     "perfil": "indices",
@@ -1353,7 +1355,7 @@
   },
   "real-esquematizada-336-384304a0a4": {
     "perfil": "referencia",
-    "gatilho": "serviço de referência"
+    "gatilho": "não faz parte de suas atribuições"
   },
   "real-esquematizada-338-3b0189f2ee": {
     "perfil": "processo-ref",
@@ -1409,7 +1411,7 @@
   },
   "real-esquematizada-357-f4ccb9c3ad": {
     "perfil": "marketing",
-    "gatilho": "compreender necessidades"
+    "gatilho": "compreender necessidades e comportamentos"
   },
   "real-esquematizada-358-491d6921ee": {
     "perfil": "competencia-info",
@@ -1833,11 +1835,12 @@
   },
   "real-esquematizada-511-8e08cd520c": {
     "perfil": "tipos-fontes",
-    "gatilho": "primárias"
+    "gatilho": "fontes de informação primárias"
   },
   "real-esquematizada-513-a33c204a27": {
     "perfil": "bibliografia",
-    "gatilho": "exaustivas ou seletivas"
+    "gatilho": "ordem alfabética ou cronológica",
+    "exemplo": "Uma bibliografia pode listar as obras dos autores em ordem alfabética de sobrenomes. Outro repertório pode ordená-las por data e incluir uma breve anotação sobre cada obra. Para avaliar sua cobertura, é preciso conhecer o universo declarado: por exemplo, artigos de determinado periódico e intervalo de anos."
   },
   "real-esquematizada-516-97a53dbf00": {
     "perfil": "bibliografia",
@@ -2493,7 +2496,7 @@
   },
   "real-esquematizada-779-68805dfced": {
     "perfil": "multimeios",
-    "gatilho": "altura x largura"
+    "gatilho": "arredondando-se as frações para cima"
   },
   "real-esquematizada-780-969f17f0ea": {
     "perfil": "multimeios",
@@ -2641,7 +2644,7 @@
   },
   "real-esquematizada-854-e32677935e": {
     "perfil": "rda",
-    "gatilho": "MARC21"
+    "gatilho": "Dados RDA"
   },
   "real-esquematizada-855-93813e5766": {
     "perfil": "rda",
@@ -4709,7 +4712,9 @@
   },
   "real-esquematizada-1668-5663a792d4": {
     "perfil": "colecao-digital",
-    "gatilho": "empréstimo digital"
+    "gatilho": "grande desafio para os usuários",
+    "referencia": "serpro-2013-recurso-115",
+    "exemplo": "Para oferecer empréstimo de ebooks, a biblioteca precisa escolher plataformas e verificar licenças, prazos e restrições. Bibliotecários e editores enfrentam essas decisões de disponibilização. O aluno encontra o título no catálogo e acessa o serviço conforme as condições estabelecidas; não é ele quem negocia as licenças da biblioteca."
   },
   "real-esquematizada-1669-5b8e050786": {
     "perfil": "direitos",
@@ -4737,7 +4742,7 @@
   },
   "real-esquematizada-1678-17dacc8224": {
     "perfil": "software-bibliotecas",
-    "gatilho": "proprietário"
+    "gatilho": "software proprietário"
   },
   "real-esquematizada-1680-32c043d83c": {
     "perfil": "z3950",
@@ -5037,7 +5042,8 @@
   },
   "real-esquematizada-1816-fa866ae435": {
     "perfil": "sri",
-    "gatilho": "por tipo de suporte"
+    "gatilho": "não é possível a pesquisa direta na estante",
+    "exemplo": "Uma biblioteca mantém os mapas em um setor e os livros em outro, separando os suportes. O usuário ainda pode examinar os materiais no setor de mapas. O catálogo oferece caminhos adicionais de localização, mas a divisão física por suporte não impede automaticamente essa pesquisa direta."
   },
   "real-esquematizada-1818-39e4b1d52a": {
     "perfil": "esquemas-xml",
@@ -5873,8 +5879,8 @@
   },
   "real-esquematizada-958-34b83148e9": {
     "perfil": "indices",
-    "gatilho": "Índices onomásticos",
-    "exemplo": "Para encontrar páginas que tratam de acessibilidade, consulte o índice de assuntos. Para localizar menções a uma pessoa ou entidade nomeada, procure o índice de nomes apropriado ao escopo da publicação."
+    "gatilho": "nomes de pessoas, locais ou instituições",
+    "exemplo": "Em um índice onomástico, a entrada “Machado de Assis” conduz às páginas em que esse nome aparece. Conforme o escopo do índice de nomes, também podem existir entradas para um lugar ou uma instituição. Para localizar um conceito como acessibilidade, o leitor procura o índice de assuntos correspondente."
   },
   "real-esquematizada-961-ace1222a4b": {
     "perfil": "avaliacao-resumos",

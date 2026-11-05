@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import ts from 'typescript';
+import { createHash } from 'node:crypto';
 
 const raiz = process.cwd();
 const ler = nome => JSON.parse(fs.readFileSync(path.join(raiz, nome), 'utf8'));
@@ -19,9 +20,38 @@ const visitar = n => {
 };
 visitar(codigo);
 if (oficiais.length !== 4) throw new Error('Estrutura dos itens oficiais mudou; atualize a auditoria.');
-const questoes = [...oficiais, ...ler('src/content/questoesReaisTriadas.json')];
-const ids = new Set(questoes.map(q => q.id));
-if (ids.size !== questoes.length || Object.keys(anotacoes).length !== ids.size || Object.keys(anotacoes).some(id => !ids.has(id))) throw new Error('IDs duplicados ou anotações órfãs.');
+const origem = [...oficiais, ...ler('src/content/questoesReaisTriadas.json')];
+const ids = new Set(origem.map(q => q.id));
+if (ids.size !== origem.length || Object.keys(anotacoes).length !== ids.size || Object.keys(anotacoes).some(id => !ids.has(id))) throw new Error('IDs duplicados ou anotações órfãs.');
+const conferencia = ler('src/content/conferenciaOficialReais/registro.json');
+const documento = ler('docs/simulados-reais/CONFERENCIA-OFICIAL-2026-11-05.json');
+const pendentesOrigem = origem.filter(q => q.estadoConferencia === 'caderno');
+const revisoes = new Map(documento.itens.map(r => [r.id, r]));
+const sha = texto => createHash('sha256').update(texto).digest('hex');
+if (revisoes.size !== documento.itens.length || revisoes.size !== pendentesOrigem.length) throw new Error('Cobertura documental inconsistente.');
+for (const q of pendentesOrigem) {
+  const r = revisoes.get(q.id);
+  const c = conferencia.itens[q.id];
+  if (!r || sha(q.item) !== r.sha256ItemAnterior) throw new Error(`Origem diferente da conferência: ${q.id}`);
+  if (r.resultado === 'pendente') {
+    if (c || !r.motivo) throw new Error(`Pendência promovida ou sem motivo: ${q.id}`);
+    continue;
+  }
+  if (!c || c.numero !== r.numeroOficial || c.gabarito !== r.gabaritoOficial || c.fonteId !== r.fonteId) throw new Error(`Registro diferente da evidência: ${q.id}`);
+  if (sha(conferencia.editorial[q.id]?.item ?? q.item) !== r.sha256ItemConferido) throw new Error(`Redação diferente da conferência: ${q.id}`);
+  const f = conferencia.fontes[c.fonteId];
+  const evidencia = documento.fontes[c.fonteId];
+  if (!f || !evidencia || ['provaUrl', 'gabaritoUrl', 'modo', 'tipoGabarito', 'codigo'].some(campo => f[campo] !== evidencia[campo])) throw new Error(`Fonte diferente da conferência: ${q.id}`);
+  if (f.modo !== r.modo || !['original', 'copia'].includes(f.modo)) throw new Error(`Modalidade inválida: ${q.id}`);
+  if (f.modo === 'original' && [f.provaUrl, f.gabaritoUrl].some(url => !['cdn.cebraspe.org.br', 'www.cespe.unb.br', 'www.cebraspe.org.br'].includes(new URL(url).hostname))) throw new Error(`Espelho apresentado como origem: ${q.id}`);
+}
+if (Object.keys(conferencia.itens).some(id => !revisoes.has(id) || revisoes.get(id).resultado === 'pendente') || Object.keys(conferencia.editorial).some(id => !conferencia.itens[id])) throw new Error('Registro documental órfão.');
+const questoes = origem.filter(q => conferencia.itens[q.id]?.gabarito !== 'X').map(q => {
+  const c = conferencia.itens[q.id];
+  if (!c) return q;
+  const f = conferencia.fontes[c.fonteId];
+  return { ...q, ...conferencia.editorial[q.id], gabarito: c.gabarito, estadoConferencia: f.modo === 'copia' ? 'copia-oficial' : undefined };
+});
 const linhas = [];
 const porModulo = {};
 for (const q of questoes) {
@@ -31,21 +61,23 @@ for (const q of questoes) {
   if (!a || !p || !r || !q.item.includes(a.gatilho)) throw new Error(`Revisão incompleta ou gatilho ausente: ${q.id}`);
   const contraste = q.gabarito === 'E' ? q.versao_correta : q.versao_errada && !/\bindevidamente\b/i.test(q.versao_errada) ? q.versao_errada : p.contrasteErrado;
   if (!contraste || /\bindevidamente\b/i.test(contraste) || !p.regra || !p.exemplo || !p.tecnica || !r.localizador) throw new Error(`Bloco ausente: ${q.id}`);
-  const conferencia = q.estadoConferencia === 'caderno' ? 'Atribuição e gabarito no caderno; confronto oficial pendente' : 'Prova e gabarito oficiais confrontados';
+  const conferencia = q.estadoConferencia === 'caderno' ? 'Atribuição e gabarito no caderno; confronto oficial pendente' : q.estadoConferencia === 'copia-oficial' ? 'Documentos oficiais conferidos em cópia; espelho identificado' : 'Prova e gabarito oficiais confrontados na origem';
   linhas.push([q.id, q.modulo, q.submoduloId, q.gabarito, a.perfil, a.gatilho, p.titulo, p.regra, q.justificativa, a.exemplo || p.exemplo, contraste, [p.tecnica, q.armadilhaBanca].filter(Boolean).join(' '), r.titulo, r.localizador, r.url || '', conferencia]);
   porModulo[q.modulo] = (porModulo[q.modulo] || 0) + 1;
 }
 const cabecalho = ['id', 'modulo', 'submodulo', 'gabarito', 'perfil_conceitual', 'trecho_decisivo', 'conceito', 'regra', 'aplicacao_ao_item', 'exemplo', 'comparacao_didatica', 'tecnica', 'referencia_teorica', 'localizador', 'url_teorica', 'conferencia_da_origem'];
 const csv = [cabecalho, ...linhas].map(l => l.map(s => `"${String(s).replaceAll('"', '""')}"`).join(';')).join('\n') + '\n';
 const resumo = {
-  versao: 'estudo-reverso-integral-lote-05-2026-11-05', total: questoes.length,
-  anotacoesIndividuais: Object.keys(anotacoes).length, explicacoesConceituais: Object.keys(perfis).length,
+  versao: 'conferencia-documental-2026-11-05', total: questoes.length,
+  anotacoesIndividuais: questoes.length, anotacoesHistoricas: Object.keys(anotacoes).length, excluidasPorAnulacao: origem.length - questoes.length, explicacoesConceituais: Object.keys(perfis).length,
   referenciasTeoricas: Object.keys(referencias).length, porModulo,
-  exemplosIndividuais: Object.values(anotacoes).filter(a => a.exemplo).length,
-  oficiaisConfrontadas: questoes.filter(q => q.estadoConferencia !== 'caderno').length,
+  exemplosIndividuais: questoes.filter(q => anotacoes[q.id].exemplo).length,
+  oficiaisConfrontadas: questoes.filter(q => !q.estadoConferencia).length,
+  documentosOficiaisEmCopia: questoes.filter(q => q.estadoConferencia === 'copia-oficial').length,
   confrontoOficialPendente: questoes.filter(q => q.estadoConferencia === 'caderno').length,
   limites: ['A auditoria verifica cobertura e integridade dos blocos, não comprova a verdade de cada explicação.', 'A ampliação didática não converte atribuição de apostila em confronto de prova e gabarito oficiais.', 'Exemplos e comparações são autorais, não enunciados adicionais da Cebraspe.'],
 };
+if (resumo.total !== documento.resumo.bancoDepois || resumo.oficiaisConfrontadas !== documento.resumo.conferidasNaOrigem || resumo.documentosOficiaisEmCopia !== documento.resumo.documentosConferidosEmEspelho || resumo.confrontoOficialPendente !== documento.resumo.pendentes || resumo.excluidasPorAnulacao !== documento.resumo.anuladasRetiradas) throw new Error('Contagens da conferência divergentes.');
 const destinos = { 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.csv': '\uFEFF' + csv, 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.json': JSON.stringify(resumo, null, 2) + '\n' };
 for (const [destino, conteudo] of Object.entries(destinos)) {
   if (process.argv.includes('--write')) fs.writeFileSync(destino, conteudo);

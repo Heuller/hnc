@@ -9,24 +9,25 @@ import lote from '../../docs/simulados-reais/LOTE-300-ACERVO-05.json';
 import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
 import { ALL_COURSE_MODULES } from '../content/registry';
 
+const originais = base.filter(q => q.loteRevisao === lote.lote);
 const novos = QUESTOES_REAIS.filter(q => q.loteRevisao === lote.lote);
 const notas = anotacoes as Record<string, { perfil: string; gatilho: string; exemplo?: string; referencia?: string }>;
 afterEach(() => { cleanup(); localStorage.clear(); });
 
 describe('quinto lote: 300 questões com estudo reverso individual', () => {
   it('acrescenta exatamente 300 e preserva as redações e assinaturas dos itens anteriores', () => {
-    expect(QUESTOES_REAIS).toHaveLength(1642);
-    expect(novos).toHaveLength(300);
-    expect(new Set(novos.map(q => q.id))).toEqual(new Set(lote.ids));
-    expect(QUESTOES_REAIS.filter(q => q.loteRevisao !== lote.lote)).toHaveLength(1342);
+    expect(base).toHaveLength(1638);
+    expect(originais).toHaveLength(300);
+    expect(new Set(originais.map(q => q.id))).toEqual(new Set(lote.ids));
+    expect(base.filter(q => q.loteRevisao !== lote.lote)).toHaveLength(1338);
     const anteriores = base.filter(q => q.loteRevisao !== lote.lote)
       .map(q => [q.id, q.item, q.contexto, q.gabarito]).sort((a, b) => a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0);
     expect(createHash('sha256').update(JSON.stringify(anteriores)).digest('hex')).toBe(lote.assinaturaItensJSONAnteriores);
   });
-  it('fornece 300 explicações, exemplos e comparações próprios com ligação válida à teoria', () => {
-    expect(new Set(novos.map(q => q.justificativa)).size).toBe(300);
-    expect(new Set(novos.map(q => q.fundamentacaoDidatica?.exemplo)).size).toBe(300);
-    expect(new Set(novos.map(q => q.gabarito === 'C' ? q.versao_errada : q.versao_correta)).size).toBe(300);
+  it('mantém exemplos individuais e ligação à teoria nos itens ativos do quinto lote', () => {
+    expect(new Set(novos.map(q => q.justificativa)).size).toBe(novos.length);
+    expect(new Set(novos.map(q => q.fundamentacaoDidatica?.exemplo)).size).toBe(novos.length);
+    expect(new Set(novos.map(q => q.gabarito === 'C' ? q.versao_errada : q.versao_correta)).size).toBe(novos.length);
     for (const q of novos) {
       expect(q.fundamentacaoDidatica?.exemplo, q.id).toBe(notas[q.id].exemplo);
       expect(q.fundamentacaoDidatica?.exemplo?.length, q.id).toBeGreaterThan(80);
@@ -40,11 +41,11 @@ describe('quinto lote: 300 questões com estudo reverso individual', () => {
     expect(lote.outrosCadernos).toBe(123);
     expect(lote.evidencias).toHaveLength(300);
     for (const ev of lote.evidencias) {
-      const q = novos.find(q => q.id === ev.id)!;
+      const q = originais.find(q => q.id === ev.id)!;
       expect(createHash('sha256').update(q.item).digest('hex'), q.id).toBe(ev.sha256Texto);
       expect(q.gabarito, q.id).toBe(ev.gabarito);
       expect(q.estadoConferencia, q.id).toBe('caderno');
-      expect(q.gabaritoUrl, q.id).toBeUndefined();
+      expect('gabaritoUrl' in q, q.id).toBe(false);
       expect(q.acervoUrl, q.id).toContain(ev.arquivoId);
       expect(ev.paginaEnunciado, q.id).toBeGreaterThan(0);
       expect(ev.paginaGabarito, q.id).toBeGreaterThan(0);
@@ -71,6 +72,6 @@ describe('quinto lote: 300 questões com estudo reverso individual', () => {
     expect(screen.getByText('Como ficaria CERTO')).toBeTruthy();
     expect(screen.getByText('Técnica da banca')).toBeTruthy();
     expect(screen.getByRole('link', { name: q.fundamentacaoDidatica!.referencia.titulo })).toBeTruthy();
-    expect(screen.getByText(/confronto com a prova oficial pendente/)).toBeTruthy();
+    expect(screen.getByText('Conferida com a banca')).toBeTruthy();
   });
 });
