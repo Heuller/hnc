@@ -7,11 +7,11 @@ const fontes = registro.fontes as Record<string, Fonte>;
 const itens = registro.itens as Record<string, Conferencia>;
 const editorial = registro.editorial as Record<string, Partial<QuestaoReal>>;
 
-/** O JSON de origem é histórico. Somente esta projeção entra nos treinos. */
+/** O JSON de origem é histórico. Treinos usam apenas itens documentalmente conferidos. */
 export function aplicarConferenciaOficial(questoes: readonly QuestaoReal[]): QuestaoReal[] {
   return questoes.flatMap(q => {
     const conferencia = itens[q.id];
-    if (!conferencia) return [q];
+    if (!conferencia) return q.estadoConferencia === 'caderno' || !q.gabaritoUrl ? [] : [q];
     if (conferencia.gabarito === 'X') return [];
     const fonte = fontes[conferencia.fonteId];
     if (!fonte) throw new Error(`Fonte oficial ausente: ${q.id}`);

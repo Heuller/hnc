@@ -1,0 +1,534 @@
+{
+  "dataEditorial": "2026-11-05",
+  "bancoAntes": 1634,
+  "bancoDepois": 1529,
+  "criterio": "Utilizar somente questões com enunciado legível e conferência documental suficiente; excluir pendências e anuladas dos treinos.",
+  "revisaoConceitual": "A explicação deve analisar o conteúdo com fundamentação e exemplos. O julgamento oficial da prova é identificado separadamente da análise editorial; conhecimento temático não autentica uma transcrição duvidosa.",
+  "excluidasPorPendenciaDocumental": [
+    {
+      "id": "real-tec-436543",
+      "provaDeclarada": "CEBRASPE (CESPE) - Ana (SERPRO)/SERPRO/Biblioteconomia/2013 Biblioteconomia - Marketing, Divulgação e Promoção",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-acervo-44817ca98b4583",
+      "provaDeclarada": "FUB/2011",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-56-a83280e28c",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-57-9c696a9f83",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-58-0e30df2ec3",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-60-f5f480b3d9",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-100-c71dd323b1",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-101-8884239eb5",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-118-33758fe613",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-119-ad843eef3e",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-143-e8dde00191",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-144-ccbdef910c",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-146-989227d842",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-299-9118fd7bc9",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-300-3e779923f8",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-301-959a602c8a",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-302-56d202cac2",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-303-a2460ba5f2",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-413-6c0434b590",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-414-936731821a",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-415-72c0a7efa9",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-465-3abcec5326",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-466-a698334405",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-467-6cb84b2970",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-471-c45387e549",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-472-e668db8b93",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-473-8a5b5a20b4",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-494-6e23147643",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-496-bcc296c580",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-497-abc9196486",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-553-defff8742d",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-554-98faf103f7",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-595-41aeda350b",
+      "provaDeclarada": "SERPRO/2017 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-596-ed864a21ab",
+      "provaDeclarada": "SERPRO/2017 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-597-7b8ce62d06",
+      "provaDeclarada": "SERPRO/2017 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-984-963bc0695a",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-985-d914810533",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-986-98b0a81443",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-987-da3d6ccdeb",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1043-9807bfee90",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1062-2d87b761e4",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1123-251e67af02",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1197-2d360d210b",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1198-bd8ff517cd",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1199-71ead31820",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1200-4385f47dd0",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1201-39ddda15eb",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1202-aa6e7c7564",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1274-31ded81677",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1294-a1639734af",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1296-b0c012fc39",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1412-7d5c1543cb",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1413-aa6db6473f",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1414-d54af2d1e2",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1415-891bd96140",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1416-11065e279f",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1417-bbaf5ee78d",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1460-9ca7f7612b",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1461-9385087783",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1462-1eb3292905",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1463-53768aabf8",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1464-c1fb0dc2f4",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-207-9ec78b7a21",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-208-979a3af380",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-209-e54acc2ee5",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-210-7d72a52dad",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-211-224d9faee5",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-223-0759992c5f",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-224-4175e4bb05",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1523-0ecafee667",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1524-f761f150d2",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1553-c58e292352",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1554-60c67da872",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1623-88a383a258",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1625-8c4c851370",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1626-4847a7e652",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1627-fe5fcff12a",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-1663-8b397aed81",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1664-e5d70f3c1f",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1666-92e45d13cc",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1669-5b8e050786",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1695-c10166ea54",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1696-e8e79b274a",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1697-d8284f1a6e",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1698-789b4019a1",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1699-a4310e833f",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1757-3745b99f96",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1859-60b488f530",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1863-de0552f661",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-61-62fc3e66e2",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-117-0d4572e9d7",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-145-e315570fbf",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    },
+    {
+      "id": "real-esquematizada-225-7fcd0733a9",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-412-e1a3a2a237",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-416-adfcc172ae",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-470-667e911436",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-840-b42e111d55",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-841-ab88e432df",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-872-5baba9c377",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1122-79479322c5",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1275-cf38ed0684",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1276-ff04489014",
+      "provaDeclarada": "SERPRO/2013 · atribuição na apostila",
+      "motivo": "Prova localizada; espelhos consultados trazem gabarito preliminar. A tabela definitiva não foi localizada. Decisões de recurso disponíveis cobrem apenas itens específicos."
+    },
+    {
+      "id": "real-esquematizada-1297-90af408404",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1298-7cfe0357c0",
+      "provaDeclarada": "SEGER-ES/2011 · atribuição na apostila",
+      "motivo": "Cópia textual da prova localizada; não foi possível autenticar o gabarito definitivo da área de formação 5. O PDF oficial localizado da área 23 foi rejeitado por corresponder a outro cargo."
+    },
+    {
+      "id": "real-esquematizada-1522-869547e067",
+      "provaDeclarada": "FUB/2011 · atribuição na apostila",
+      "motivo": "Prova localizada em espelho; os dois gabaritos acessíveis são preliminares. O definitivo não foi localizado."
+    }
+  ]
+}

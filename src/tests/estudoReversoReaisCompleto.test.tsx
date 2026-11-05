@@ -8,7 +8,6 @@ import { enriquecerEstudoReversoReal } from '../content/estudoReversoReais/enriq
 import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
 import { destacarGatilho } from '../domain/estudoReverso';
 import { assinaturaQuestaoReal, lerSessaoReal } from '../domain/sessaoQuestoesReais';
-import conferencia from '../content/conferenciaOficialReais/registro.json';
 import relatorio from '../../docs/simulados-reais/CONFERENCIA-OFICIAL-2026-11-05.json';
 import { comentarioGenerico, contrasteArtificial } from '../domain/qualidadeEditorial';
 
@@ -16,8 +15,8 @@ afterEach(cleanup);
 
 describe('estudo reverso do banco integral de questões reais', () => {
   it('não deixa itens, lotes ou anotações órfãos', () => {
-    expect(QUESTOES_REAIS).toHaveLength(relatorio.resumo.bancoDepois);
-    const inativos = Object.entries(conferencia.itens).filter(([, r]) => r.gabarito === 'X').map(([id]) => id);
+    expect(QUESTOES_REAIS).toHaveLength(relatorio.resumo.bancoDepois - relatorio.resumo.pendentes);
+    const inativos = relatorio.itens.filter(r => ['anulada', 'pendente'].includes(r.resultado)).map(r => r.id);
     expect(new Set(Object.keys(anotacoes))).toEqual(new Set([...QUESTOES_REAIS.map(q => q.id), ...inativos]));
     for (const q of QUESTOES_REAIS) {
       expect(q.fundamentacaoDidatica, q.id).toBeTruthy();
@@ -43,7 +42,7 @@ describe('estudo reverso do banco integral de questões reais', () => {
     }
   });
   it('preserva respostas quando só muda a proveniência e invalida respostas de redações corrigidas', () => {
-    const inativos = new Set(relatorio.itens.filter(r => r.resultado === 'anulada').map(r => r.id));
+    const inativos = new Set(relatorio.itens.filter(r => ['anulada', 'pendente'].includes(r.resultado)).map(r => r.id));
     for (const original of base) {
       const ampliada = QUESTOES_REAIS.find(q => q.id === original.id);
       if (inativos.has(original.id)) { expect(ampliada).toBeUndefined(); continue; }
@@ -54,7 +53,7 @@ describe('estudo reverso do banco integral de questões reais', () => {
       const resposta = lerSessaoReal(anterior, [ampliada!]).respostas[original.id]?.resposta;
       expect(resposta, original.id).toBe(assinaturaQuestaoReal(ampliada!) === assinatura ? original.gabarito : undefined);
     }
-    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(relatorio.resumo.pendentes);
+    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(0);
     expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(relatorio.resumo.conferidasNaOrigem);
     expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(relatorio.resumo.documentosConferidosEmEspelho);
   });

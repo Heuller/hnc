@@ -150,7 +150,7 @@ describe('questões reais por módulo', () => {
   });
   it('mostra correção imediatamente após responder e preserva a origem', () => {
     render(<SimuladosReaisModal onClose={vi.fn()} />);
-    expect(screen.getByText(/Acervo em construção/)).toBeTruthy();
+    expect(screen.getByText(/questões com enunciados legíveis e documentos conferidos/)).toBeTruthy();
     fireEvent.click(screen.getByRole('button', { name: /^M4/ }));
     expect(screen.queryByText(/Você acertou/)).toBeNull();
     fireEvent.click(screen.getByRole('button', { name: 'Errado' }));

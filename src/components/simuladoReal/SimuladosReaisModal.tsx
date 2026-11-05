@@ -120,7 +120,8 @@ function SessaoReal({ onClose, storageKey }: { onClose: () => void; storageKey: 
             {emPreparacao.length > 0 && <p className="text-xs leading-relaxed text-ink-2">Ainda sem questões revisadas: {emPreparacao.map(m => m.codigo).join(', ')}. Esses módulos serão acrescentados conforme a revisão do acervo.</p>}
             <details className="rounded-2xl border border-border bg-surface-2 p-4 text-sm text-ink-2">
               <summary className="foco cursor-pointer font-semibold text-ink">Sobre as fontes e os gabaritos</summary>
-              <p className="mt-3 leading-relaxed">Acervo em construção: {QUESTOES_REAIS.length} itens disponíveis. Cada questão distingue arquivos consultados na banca, documentos oficiais conferidos em cópia e itens ainda dependentes da apostila. Itens anulados identificados na conferência são retirados dos treinos. A leitura e a revisão dos demais materiais continuam.</p>
+              <p className="mt-3 leading-relaxed">{QUESTOES_REAIS.length.toLocaleString('pt-BR')} questões com enunciados legíveis e documentos conferidos. Os links distinguem arquivos da banca e cópias consultadas. Itens anulados ou com conferência pendente ficam fora dos treinos.</p>
+              <p className="mt-3 leading-relaxed">Após responder, estude a análise do conteúdo, a regra e o exemplo prático. O resultado da prova segue o gabarito definitivo da banca; a explicação fundamenta o julgamento e contextualiza normas e conceitos da época.</p>
             </details>
           </div> : questao && <div className="mx-auto max-w-3xl space-y-5">
             <div className="flex flex-wrap items-center justify-between gap-2">

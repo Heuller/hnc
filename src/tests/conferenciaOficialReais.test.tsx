@@ -22,15 +22,15 @@ describe('conferência documental do banco real', () => {
   it('cobre os 1.596 itens de origem e distingue consulta na banca, espelhos e pendências', () => {
     expect(relatorio.itens).toHaveLength(1596);
     expect(new Set(relatorio.itens.map(r => r.id))).toEqual(new Set(base.filter(q => q.estadoConferencia === 'caderno').map(q => q.id)));
-    expect(QUESTOES_REAIS).toHaveLength(1634);
+    expect(QUESTOES_REAIS).toHaveLength(1529);
     expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(1329);
     expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(200);
-    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(105);
+    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(0);
     for (const r of relatorio.itens) {
       const antes = base.find(q => q.id === r.id)!;
       expect(createHash('sha256').update(antes.item).digest('hex'), r.id).toBe(r.sha256ItemAnterior);
       if (r.resultado === 'pendente') {
-        expect(porid.get(r.id)?.estadoConferencia, r.id).toBe('caderno');
+        expect(porid.has(r.id), r.id).toBe(false);
         expect(r.motivo, r.id).toBeTruthy();
       }
     }
@@ -76,9 +76,10 @@ describe('conferência documental do banco real', () => {
       expect(createHash('sha256').update(q.item).digest('hex'), r.id).toBe(r.sha256ItemConferido);
     }
   });
-  it('mantém pendente um item sem confirmação em vez de inferir homologação pelo tema', () => {
+  it('exclui um item novo sem confirmação e conserva os conferidos', () => {
     const q = { ...QUESTOES_REAIS[0], id: 'item-futuro-nao-revisado', estadoConferencia: 'caderno' as const, gabaritoUrl: undefined };
-    expect(aplicarConferenciaOficial([q])[0]).toBe(q);
+    expect(aplicarConferenciaOficial([q])).toEqual([]);
+    expect(aplicarConferenciaOficial([QUESTOES_REAIS[0]])).toHaveLength(1);
     const chave = (s: string) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
     expect(new Set(QUESTOES_REAIS.map(q => chave(q.item))).size).toBe(QUESTOES_REAIS.length);
   });
@@ -91,13 +92,23 @@ describe('conferência documental do banco real', () => {
     expect(screen.getByRole('link', { name: 'gabarito definitivo' }).getAttribute('href')).toContain('cdn.cebraspe.org.br');
     expect(screen.getByText(q.justificativa)).toBeTruthy();
   });
-  it('mostra a pendência documental sem link de gabarito definitivo', () => {
-    const q = porid.get('real-acervo-44817ca98b4583')!;
-    abrir(q);
-    expect(screen.getByText('Gabarito da apostila')).toBeTruthy();
-    fireEvent.click(screen.getByRole('button', { name: 'Certo' }));
-    expect(screen.getByText(/confronto com a prova oficial pendente/)).toBeTruthy();
-    expect(screen.queryByRole('link', { name: /gabarito definitivo/ })).toBeNull();
+  it('retira as 105 pendências e suas respostas salvas sem perder respostas de itens válidos', () => {
+    const pendentes = relatorio.itens.filter(r => r.resultado === 'pendente');
+    expect(pendentes).toHaveLength(105);
+    const valida = QUESTOES_REAIS[0];
+    const respostas: Record<string, { resposta: string; assinatura: string }> = {};
+    for (const r of pendentes) {
+      const q = base.find(q => q.id === r.id)!;
+      respostas[q.id] = { resposta: q.gabarito, assinatura: assinaturaQuestaoReal(q as QuestaoReal) };
+      expect(porid.has(q.id)).toBe(false);
+    }
+    respostas[valida.id] = { resposta: valida.gabarito, assinatura: assinaturaQuestaoReal(valida) };
+    const raw = JSON.stringify({ modulo: valida.modulo, questaoId: pendentes[0].id, respostas });
+    expect(Object.keys(lerSessaoReal(raw, QUESTOES_REAIS).respostas)).toEqual([valida.id]);
+    localStorage.setItem('hnc_questoes_reais_v1:local', raw);
+    render(<SimuladosReaisModal onClose={vi.fn()} />);
+    expect(screen.queryByText('Gabarito da apostila')).toBeNull();
+    expect(screen.getByRole('button', { name: 'Certo' })).toBeTruthy();
   });
   it('liga decisões de recurso ao resultado definitivo sem apresentar uma tabela inexistente', () => {
     const q = porid.get('real-esquematizada-1668-5663a792d4')!;

@@ -11,10 +11,11 @@ const perfis = ler(`${pasta}/perfis.json`);
 const referencias = ler(`${pasta}/referencias.json`);
 // Leitura por AST: mantém uma única fonte para os quatro itens oficiais em TypeScript.
 const codigo = ts.createSourceFile('questoesReais.ts', fs.readFileSync('src/content/questoesReais.ts', 'utf8'), ts.ScriptTarget.Latest, true);
+const literais = new Map(codigo.statements.filter(ts.isVariableStatement).flatMap(n => n.declarationList.declarations.filter(d => d.initializer && ts.isStringLiteral(d.initializer)).map(d => [d.name.getText(codigo), d.initializer.text])));
 let oficiais = [];
 const visitar = n => {
   if (ts.isVariableDeclaration(n) && n.name.getText(codigo) === 'QUESTOES_OFICIAIS_CONFERIDAS' && ts.isArrayLiteralExpression(n.initializer)) {
-    oficiais = n.initializer.elements.map(obj => Object.fromEntries(obj.properties.filter(p => ts.isPropertyAssignment(p) && ts.isStringLiteral(p.initializer)).map(p => [p.name.getText(codigo), p.initializer.text])));
+    oficiais = n.initializer.elements.map(obj => Object.fromEntries(obj.properties.filter(p => ts.isPropertyAssignment(p) && (ts.isStringLiteral(p.initializer) || ts.isIdentifier(p.initializer) && literais.has(p.initializer.text))).map(p => [p.name.getText(codigo), ts.isStringLiteral(p.initializer) ? p.initializer.text : literais.get(p.initializer.text)])));
   }
   ts.forEachChild(n, visitar);
 };
@@ -46,7 +47,9 @@ for (const q of pendentesOrigem) {
   if (f.modo === 'original' && [f.provaUrl, f.gabaritoUrl].some(url => !['cdn.cebraspe.org.br', 'www.cespe.unb.br', 'www.cebraspe.org.br'].includes(new URL(url).hostname))) throw new Error(`Espelho apresentado como origem: ${q.id}`);
 }
 if (Object.keys(conferencia.itens).some(id => !revisoes.has(id) || revisoes.get(id).resultado === 'pendente') || Object.keys(conferencia.editorial).some(id => !conferencia.itens[id])) throw new Error('Registro documental órfão.');
-const questoes = origem.filter(q => conferencia.itens[q.id]?.gabarito !== 'X').map(q => {
+const semDocumento = origem.filter(q => !conferencia.itens[q.id] && (q.estadoConferencia === 'caderno' || !q.gabaritoUrl));
+const excluidas = new Set(semDocumento.map(q => q.id));
+const questoes = origem.filter(q => conferencia.itens[q.id]?.gabarito !== 'X' && !excluidas.has(q.id)).map(q => {
   const c = conferencia.itens[q.id];
   if (!c) return q;
   const f = conferencia.fontes[c.fonteId];
@@ -68,8 +71,10 @@ for (const q of questoes) {
 const cabecalho = ['id', 'modulo', 'submodulo', 'gabarito', 'perfil_conceitual', 'trecho_decisivo', 'conceito', 'regra', 'aplicacao_ao_item', 'exemplo', 'comparacao_didatica', 'tecnica', 'referencia_teorica', 'localizador', 'url_teorica', 'conferencia_da_origem'];
 const csv = [cabecalho, ...linhas].map(l => l.map(s => `"${String(s).replaceAll('"', '""')}"`).join(';')).join('\n') + '\n';
 const resumo = {
-  versao: 'conferencia-documental-2026-11-05', total: questoes.length,
-  anotacoesIndividuais: questoes.length, anotacoesHistoricas: Object.keys(anotacoes).length, excluidasPorAnulacao: origem.length - questoes.length, explicacoesConceituais: Object.keys(perfis).length,
+  versao: 'selecao-documental-segura-2026-11-05', total: questoes.length,
+  anotacoesIndividuais: questoes.length, anotacoesHistoricas: Object.keys(anotacoes).length,
+  excluidasPorAnulacao: Object.values(conferencia.itens).filter(q => q.gabarito === 'X').length,
+  excluidasPorPendenciaDocumental: semDocumento.length, explicacoesConceituais: Object.keys(perfis).length,
   referenciasTeoricas: Object.keys(referencias).length, porModulo,
   exemplosIndividuais: questoes.filter(q => anotacoes[q.id].exemplo).length,
   oficiaisConfrontadas: questoes.filter(q => !q.estadoConferencia).length,
@@ -77,8 +82,14 @@ const resumo = {
   confrontoOficialPendente: questoes.filter(q => q.estadoConferencia === 'caderno').length,
   limites: ['A auditoria verifica cobertura e integridade dos blocos, não comprova a verdade de cada explicação.', 'A ampliação didática não converte atribuição de apostila em confronto de prova e gabarito oficiais.', 'Exemplos e comparações são autorais, não enunciados adicionais da Cebraspe.'],
 };
-if (resumo.total !== documento.resumo.bancoDepois || resumo.oficiaisConfrontadas !== documento.resumo.conferidasNaOrigem || resumo.documentosOficiaisEmCopia !== documento.resumo.documentosConferidosEmEspelho || resumo.confrontoOficialPendente !== documento.resumo.pendentes || resumo.excluidasPorAnulacao !== documento.resumo.anuladasRetiradas) throw new Error('Contagens da conferência divergentes.');
-const destinos = { 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.csv': '\uFEFF' + csv, 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.json': JSON.stringify(resumo, null, 2) + '\n' };
+if (resumo.total + semDocumento.length !== documento.resumo.bancoDepois || resumo.oficiaisConfrontadas !== documento.resumo.conferidasNaOrigem || resumo.documentosOficiaisEmCopia !== documento.resumo.documentosConferidosEmEspelho || resumo.confrontoOficialPendente !== 0 || semDocumento.length !== documento.resumo.pendentes || resumo.excluidasPorAnulacao !== documento.resumo.anuladasRetiradas) throw new Error('Contagens da conferência divergentes.');
+const selecao = {
+  dataEditorial: '2026-11-05', bancoAntes: documento.resumo.bancoDepois, bancoDepois: questoes.length,
+  criterio: 'Utilizar somente questões com enunciado legível e conferência documental suficiente; excluir pendências e anuladas dos treinos.',
+  revisaoConceitual: 'A explicação deve analisar o conteúdo com fundamentação e exemplos. O julgamento oficial da prova é identificado separadamente da análise editorial; conhecimento temático não autentica uma transcrição duvidosa.',
+  excluidasPorPendenciaDocumental: semDocumento.map(q => ({ id: q.id, provaDeclarada: q.prova, motivo: revisoes.get(q.id)?.motivo })),
+};
+const destinos = { 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.csv': '\uFEFF' + csv, 'docs/simulados-reais/ESTUDO-REVERSO-INTEGRAL.json': JSON.stringify(resumo, null, 2) + '\n', 'docs/simulados-reais/SELECAO-SEGURA-2026-11-05.json': JSON.stringify(selecao, null, 2) + '\n' };
 for (const [destino, conteudo] of Object.entries(destinos)) {
   if (process.argv.includes('--write')) fs.writeFileSync(destino, conteudo);
   else if (!fs.existsSync(destino) || fs.readFileSync(destino, 'utf8') !== conteudo) throw new Error(`Relatório desatualizado: execute node scripts/auditarEstudoReversoReais.mjs --write`);

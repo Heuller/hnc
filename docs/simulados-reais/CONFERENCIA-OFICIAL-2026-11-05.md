@@ -1,5 +1,7 @@
 # Conferência documental das questões reais — 5 de novembro de 2026
 
+> Registro da conferência anterior. Após nova orientação, os 105 itens pendentes foram retirados dos treinos. O banco ativo tem **1.529 questões**, conforme a [seleção atual](SELECAO-SEGURA-2026-11-05.md). As contagens de 1.634 itens e as pendências abaixo descrevem o estado anterior à seleção.
+
 Foram examinados os **1.596 itens que aguardavam confronto oficial** na publicação anterior. A conferência conseguiu resolver 1.491 deles; **105 continuam pendentes por falta de documentos definitivos acessíveis**. Esta etapa permanece aberta para essas três provas.
 
 O banco ativo passa de **1.642 para 1.634 questões**, após a retirada de oito anuladas. Nenhuma questão nova foi acrescentada nesta etapa.

@@ -1,6 +1,6 @@
 # Quinto lote: 300 novas questões reais
 
-> Registro histórico do lote. A [conferência documental posterior](CONFERENCIA-OFICIAL-2026-11-05.md) retirou oito anuladas e atualizou o banco ativo para 1.634 itens. As contagens e pendências abaixo descrevem a situação na publicação deste lote.
+> Registro histórico do lote. A [conferência documental posterior](CONFERENCIA-OFICIAL-2026-11-05.md) retirou oito anuladas, e a [seleção atual](SELECAO-SEGURA-2026-11-05.md) excluiu 105 pendências. O banco ativo tem 1.529 itens. As contagens e pendências abaixo descrevem a situação na publicação deste lote.
 
 Revisão editorial de 5 de novembro de 2026. O banco passa de **1.342 para 1.642 itens**, preservando os IDs, enunciados, contextos e gabaritos anteriores. A assinatura dos 1.338 registros anteriores em JSON consta no relatório; os quatro itens oficiais mantidos em TypeScript não foram alterados.
 
