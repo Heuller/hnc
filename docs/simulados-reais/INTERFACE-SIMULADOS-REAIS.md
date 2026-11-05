@@ -20,3 +20,9 @@ Os 1.011 testes passaram em 130 arquivos. O TypeScript identificou uma opção d
 A conferência local em Chromium, em 390 × 844 e 1440 × 1000, não registrou erros de página ou rolagem horizontal no documento e no diálogo. O rodapé permaneceu visível. Também foi verificada a redução de movimento. A autenticação não foi alterada; a página temporária de conferência não integra a publicação.
 
 Imagens locais: `/workspace/scratch/prints-reais/modulos-ui-1440.png`, `/workspace/scratch/prints-reais/modulos-ui-390.png` e `/workspace/scratch/prints-reais/questao-ui-390.png`.
+
+## Conferência com o quarto lote
+
+Com 1.342 questões, os 1.012 testes passaram em 130 arquivos e o build respeitou os orçamentos. A conferência foi ampliada a 320 × 740, 390 × 844 em tema escuro e 1440 × 1000. Não houve erros de página ou rolagem horizontal; o rodapé ficou visível. O cartão real de Treinos também abriu o diálogo corretamente. A camada de fundo escurece a página nos dois temas.
+
+As imagens finais estão em `/workspace/scratch/prints-reais/modulos-ui-final-1440.png`, `/workspace/scratch/prints-reais/modulos-ui-final-320.png`, `/workspace/scratch/prints-reais/questao-ui-final-390.png`, `/workspace/scratch/prints-reais/card-reais-mobile.png` e `/workspace/scratch/prints-reais/lote-300-04-mobile.png`. As páginas temporárias usadas na conferência não integram o código publicado.

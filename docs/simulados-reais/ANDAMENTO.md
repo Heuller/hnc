@@ -2,9 +2,19 @@
 
 ## Estado atual — 5 de novembro de 2026
 
-A versão com **742 itens** foi enviada a `main` e `master` no commit `8b42bf3d42db15fc7617942ce63e6c4424ab1977`, e a Vercel informou sucesso da publicação. O aluno havia confirmado no domínio de produção a versão anterior de 442 itens após a sincronização das branches. A conferência direta do site por este ambiente continua bloqueada pela política de rede.
+A seleção contém **1.342 questões**: 46 confrontadas com fontes oficiais e 1.296 com gabarito e atribuição informados por cadernos. O terceiro lote foi publicado em `main` e `master` no commit `f06cd291b2d6f2761e7c9e834f76dcfe4ad5837b`, elevando o banco publicado a 1.042 itens. A Vercel informou sucesso. A revisão da interface foi enviada a ambas as branches em `2a90e8f45db1c1170d985b443dd2efc77a6ccb47`, também com sucesso na Vercel.
 
-Em seguida, foram preparados **mais 300 itens**, elevando a seleção local a **1.042 questões**: 46 confrontadas com fontes oficiais e 996 com gabarito e atribuição informados por cadernos. Este terceiro lote ainda não foi publicado.
+O aluno havia confirmado no domínio a versão de 442 itens após a sincronização das branches. A conferência direta do domínio por este ambiente continua bloqueada pela política de rede. Status de build não é confundido com um teste autenticado da aplicação em produção.
+
+### Quarto lote de 300 e apresentação dos simulados
+
+O lote `esquematizada-300-04-2026-11-05` acrescenta 300 itens à versão de 1.042, preservados integralmente contra o commit publicado. Foram redigidos comentários para 411 candidatos; 22 duplicatas exatas ou próximas foram excluídas. Outros 89 registros ficaram em reserva por ambiguidade, necessidade de aprofundamento ou prioridade de seleção. Nenhum conflito já sinalizado na fila foi encontrado nos 300 selecionados. Questões cortadas e dependentes de contexto não disponível não foram utilizadas para completar a meta.
+
+Distribuição: M1: 13; M2: 19; M3: 5; M4: 42; M5: 47; M6: 86; M8: 72; M9: 7; M14: 9. São 136 respostas C e 164 respostas E. As explicações são editoriais e específicas; itens E têm formulação corrigida. Versões históricas explicitamente citadas e regras atuais são distinguidas nos comentários. O confronto oficial individual dos novos itens continua pendente e é informado na interface.
+
+Os arquivos `LOTE-300-ESQUEMATIZADA-04.csv` e `LOTE-300-ESQUEMATIZADA-04.json` identificam os 300 itens e seus dados de revisão. Os quatro lotes totalizam 1.200 numerações de fonte distintas, além dos 142 itens iniciais.
+
+A validação completa passou com 1.012 testes em 130 arquivos, sete testes Python, auditoria estrutural e build dentro dos orçamentos. A interface foi conferida em 320 × 740, 390 × 844 e 1440 × 1000, incluindo tema escuro e movimento reduzido, sem erros de página ou rolagem horizontal. Foram verificados abertura pelo cartão de Treinos, filtro por assunto, navegação fixa, resposta marcada, retomada e correção imediata de uma questão nova. O bloco de questões possui cerca de 1,61 MiB e fica fora do pré-cache inicial, que permanece em 4,85 MiB. A revisão visual está descrita em `INTERFACE-SIMULADOS-REAIS.md`.
 
 ### Terceiro lote de 300 — preparado após a publicação dos 742
 

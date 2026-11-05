@@ -87,7 +87,7 @@ function SessaoReal({ onClose, storageKey }: { onClose: () => void; storageKey: 
 
   return <Dialog.Root open onOpenChange={open => { if (!open) onClose(); }}>
     <Dialog.Portal>
-      <Dialog.Overlay className="fixed inset-0 z-50 bg-ink/60 backdrop-blur-xs" />
+      <Dialog.Overlay className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs" />
       <Dialog.Content className="fixed z-50 inset-x-2 top-[2dvh] mx-auto flex h-[96dvh] max-w-5xl flex-col overflow-hidden rounded-2xl border border-border bg-surface text-ink shadow-editorial-lg sm:inset-x-6 sm:top-[4dvh] sm:h-[92dvh] sm:rounded-3xl">
         <header className="flex shrink-0 items-start justify-between gap-3 border-b border-border px-4 py-4 sm:px-7 sm:py-5">
           <div className="flex min-w-0 items-start gap-3">

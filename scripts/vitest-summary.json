@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1011,
-  "numPassedTests": 1011,
+  "numTotalTests": 1012,
+  "numPassedTests": 1012,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
   "testFiles": 130,
-  "source": "vitest run: filtros, retomada e interface dos simulados reais, 05/11/2026"
+  "source": "vitest run: quarto lote de 300 questões e nova interface, 05/11/2026"
 }
