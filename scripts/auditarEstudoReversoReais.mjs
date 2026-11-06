@@ -21,15 +21,20 @@ const visitar = n => {
 };
 visitar(codigo);
 if (oficiais.length !== 4) throw new Error('Estrutura dos itens oficiais mudou; atualize a auditoria.');
-const origem = [...oficiais, ...ler('src/content/questoesReaisTriadas.json')];
+const origem = [...oficiais, ...ler('src/content/questoesReaisTriadas.json'), ...ler('src/content/questoesReaisLote06.json')];
 const ids = new Set(origem.map(q => q.id));
 if (ids.size !== origem.length || Object.keys(anotacoes).length !== ids.size || Object.keys(anotacoes).some(id => !ids.has(id))) throw new Error('IDs duplicados ou anotações órfãs.');
-const conferencia = ler('src/content/conferenciaOficialReais/registro.json');
+const conferenciaAnterior = ler('src/content/conferenciaOficialReais/registro.json');
+const conferenciaLote06 = ler('src/content/conferenciaOficialReais/lote06.json');
+const conferencia = { fontes: { ...conferenciaAnterior.fontes, ...conferenciaLote06.fontes }, itens: { ...conferenciaAnterior.itens, ...conferenciaLote06.itens }, editorial: conferenciaAnterior.editorial };
 const documento = ler('docs/simulados-reais/CONFERENCIA-OFICIAL-2026-11-05.json');
+const lote06 = ler('docs/simulados-reais/LOTE-300-ACERVO-06.json');
+const fontesDocumentais = { ...documento.fontes, ...lote06.conferencia.fontes };
 const pendentesOrigem = origem.filter(q => q.estadoConferencia === 'caderno');
-const revisoes = new Map(documento.itens.map(r => [r.id, r]));
+const registrosDocumentais = [...documento.itens, ...lote06.conferencia.itens];
+const revisoes = new Map(registrosDocumentais.map(r => [r.id, r]));
 const sha = texto => createHash('sha256').update(texto).digest('hex');
-if (revisoes.size !== documento.itens.length || revisoes.size !== pendentesOrigem.length) throw new Error('Cobertura documental inconsistente.');
+if (revisoes.size !== registrosDocumentais.length || revisoes.size !== pendentesOrigem.length) throw new Error('Cobertura documental inconsistente.');
 for (const q of pendentesOrigem) {
   const r = revisoes.get(q.id);
   const c = conferencia.itens[q.id];
@@ -41,7 +46,7 @@ for (const q of pendentesOrigem) {
   if (!c || c.numero !== r.numeroOficial || c.gabarito !== r.gabaritoOficial || c.fonteId !== r.fonteId) throw new Error(`Registro diferente da evidência: ${q.id}`);
   if (sha(conferencia.editorial[q.id]?.item ?? q.item) !== r.sha256ItemConferido) throw new Error(`Redação diferente da conferência: ${q.id}`);
   const f = conferencia.fontes[c.fonteId];
-  const evidencia = documento.fontes[c.fonteId];
+  const evidencia = fontesDocumentais[c.fonteId];
   if (!f || !evidencia || ['provaUrl', 'gabaritoUrl', 'modo', 'tipoGabarito', 'codigo'].some(campo => f[campo] !== evidencia[campo])) throw new Error(`Fonte diferente da conferência: ${q.id}`);
   if (f.modo !== r.modo || !['original', 'copia'].includes(f.modo)) throw new Error(`Modalidade inválida: ${q.id}`);
   if (f.modo === 'original' && [f.provaUrl, f.gabaritoUrl].some(url => !['cdn.cebraspe.org.br', 'www.cespe.unb.br', 'www.cebraspe.org.br'].includes(new URL(url).hostname))) throw new Error(`Espelho apresentado como origem: ${q.id}`);
@@ -71,7 +76,7 @@ for (const q of questoes) {
 const cabecalho = ['id', 'modulo', 'submodulo', 'gabarito', 'perfil_conceitual', 'trecho_decisivo', 'conceito', 'regra', 'aplicacao_ao_item', 'exemplo', 'comparacao_didatica', 'tecnica', 'referencia_teorica', 'localizador', 'url_teorica', 'conferencia_da_origem'];
 const csv = [cabecalho, ...linhas].map(l => l.map(s => `"${String(s).replaceAll('"', '""')}"`).join(';')).join('\n') + '\n';
 const resumo = {
-  versao: 'selecao-documental-segura-2026-11-05', total: questoes.length,
+  versao: 'lote-300-conferido-2026-11-06', total: questoes.length,
   anotacoesIndividuais: questoes.length, anotacoesHistoricas: Object.keys(anotacoes).length,
   excluidasPorAnulacao: Object.values(conferencia.itens).filter(q => q.gabarito === 'X').length,
   excluidasPorPendenciaDocumental: semDocumento.length, explicacoesConceituais: Object.keys(perfis).length,
@@ -82,9 +87,9 @@ const resumo = {
   confrontoOficialPendente: questoes.filter(q => q.estadoConferencia === 'caderno').length,
   limites: ['A auditoria verifica cobertura e integridade dos blocos, não comprova a verdade de cada explicação.', 'A ampliação didática não converte atribuição de apostila em confronto de prova e gabarito oficiais.', 'Exemplos e comparações são autorais, não enunciados adicionais da Cebraspe.'],
 };
-if (resumo.total + semDocumento.length !== documento.resumo.bancoDepois || resumo.oficiaisConfrontadas !== documento.resumo.conferidasNaOrigem || resumo.documentosOficiaisEmCopia !== documento.resumo.documentosConferidosEmEspelho || resumo.confrontoOficialPendente !== 0 || semDocumento.length !== documento.resumo.pendentes || resumo.excluidasPorAnulacao !== documento.resumo.anuladasRetiradas) throw new Error('Contagens da conferência divergentes.');
+if (resumo.total + semDocumento.length !== documento.resumo.bancoDepois + lote06.novasQuestoes || resumo.oficiaisConfrontadas !== documento.resumo.conferidasNaOrigem + lote06.confrontoNaOrigem || resumo.documentosOficiaisEmCopia !== documento.resumo.documentosConferidosEmEspelho + lote06.confrontoEmCopia || resumo.confrontoOficialPendente !== 0 || semDocumento.length !== documento.resumo.pendentes || resumo.excluidasPorAnulacao !== documento.resumo.anuladasRetiradas) throw new Error('Contagens da conferência divergentes.');
 const selecao = {
-  dataEditorial: '2026-11-05', bancoAntes: documento.resumo.bancoDepois, bancoDepois: questoes.length,
+  dataEditorial: '2026-11-05', bancoAntes: documento.resumo.bancoDepois, bancoDepois: documento.resumo.bancoDepois - semDocumento.length,
   criterio: 'Utilizar somente questões com enunciado legível e conferência documental suficiente; excluir pendências e anuladas dos treinos.',
   revisaoConceitual: 'A explicação deve analisar o conteúdo com fundamentação e exemplos. O julgamento oficial da prova é identificado separadamente da análise editorial; conhecimento temático não autentica uma transcrição duvidosa.',
   excluidasPorPendenciaDocumental: semDocumento.map(q => ({ id: q.id, provaDeclarada: q.prova, motivo: revisoes.get(q.id)?.motivo })),

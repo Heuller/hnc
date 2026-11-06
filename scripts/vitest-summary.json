@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1032,
-  "numPassedTests": 1032,
+  "numTotalTests": 1040,
+  "numPassedTests": 1040,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 133,
-  "source": "vitest run: seleção de 1.529 questões reais legíveis e conferidas; 105 pendências retiradas, 05/11/2026"
+  "testFiles": 134,
+  "source": "vitest run: sexto lote de 300 questões reais conferidas; 1.829 itens ativos, 06/11/2026"
 }

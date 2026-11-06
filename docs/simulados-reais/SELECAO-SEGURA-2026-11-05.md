@@ -1,5 +1,7 @@
 # Seleção das questões disponíveis para treino
 
+> Registro histórico da seleção. O [sexto lote](LOTE-300-ACERVO-06.md) acrescentou 300 questões conferidas, elevando o banco atual a **1.829 itens**. As exclusões documentadas abaixo continuam válidas.
+
 Em 5 de novembro de 2026, após a conferência documental, foi adotada a orientação de utilizar somente questões com leitura segura e documentação suficiente. As **105 pendências foram retiradas dos simulados**, reduzindo o banco ativo de 1.634 para **1.529 questões**. Não é necessário obter esses documentos para continuar a trabalhar nas questões selecionadas.
 
 | Situação | Questões |

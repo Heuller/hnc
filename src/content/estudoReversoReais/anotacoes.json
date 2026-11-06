@@ -6892,5 +6892,1505 @@
     "perfil": "texto-automatico",
     "gatilho": "classificação e indexação",
     "exemplo": "Antes de treinar um classificador de documentos, a equipe precisa definir categorias e critérios consistentes de rotulagem. Se os exemplos confundem assuntos ou usam termos contraditórios, a escala do processamento não corrige essa fragilidade conceitual."
+  },
+  "real-acervo-f2043770eb43ca": {
+    "perfil": "ciencia-info",
+    "gatilho": "questões científicas",
+    "exemplo": "Uma pesquisadora estuda por que usuários abandonam buscas; a bibliotecária aplica os resultados ao redesenhar o catálogo. Teoria e prática se relacionam."
+  },
+  "real-acervo-ae529e8cae84b1": {
+    "perfil": "ciencia-info",
+    "gatilho": "trajetória histórica",
+    "exemplo": "Uma biblioteca tradicional organiza coleções; um centro documental reúne informação especializada. A cooperação entre ambos não apaga suas histórias."
+  },
+  "real-acervo-cbc91f0fec50c6": {
+    "perfil": "documento",
+    "gatilho": "classificador do objeto",
+    "exemplo": "Um ingresso conservado para estudar um evento torna-se evidência histórica. Sua função documental não nasce simplesmente do número de classificação que recebe."
+  },
+  "real-acervo-01d9dc7023a27c": {
+    "perfil": "ciencia-info",
+    "gatilho": "ciência humana",
+    "exemplo": "Instalar computadores não explica por que alguém confia numa fonte. É necessário investigar experiência, contexto social e interpretação da informação."
+  },
+  "real-acervo-65e8c03f9a6d6d": {
+    "perfil": "ciencia-info",
+    "gatilho": "clara e simples",
+    "exemplo": "Bibliometria, comportamento informacional e organização do conhecimento podem compartilhar um programa sem terem um único método de pesquisa."
+  },
+  "real-acervo-9bdc23ba642a35": {
+    "perfil": "ciencia-info",
+    "gatilho": "CNPq",
+    "exemplo": "Ao preencher um projeto, consulte a tabela exigida pelo formulário: um código do CNPq não deve ser substituído pelo nome da área da CAPES."
+  },
+  "real-acervo-31e2b00d87e87a": {
+    "perfil": "documentacao",
+    "gatilho": "Paul Otlet",
+    "exemplo": "Um centro reúne mapas, artigos e fotografias sobre saúde pública. O conjunto atende a um problema informacional, sem se limitar a uma coleção de livros."
+  },
+  "real-acervo-ac8e1519b1de29": {
+    "perfil": "documentacao",
+    "gatilho": "duas vertentes",
+    "exemplo": "Selecionar relatórios, descrever seu conteúdo e organizar sua circulação exige várias operações. Não basta dividir os profissionais entre indexadores e disseminadores."
+  },
+  "real-acervo-abe9e91ca52654": {
+    "perfil": "dou",
+    "gatilho": "Seção 2",
+    "exemplo": "Uma nomeação é procurada na seção de pessoal. Um aviso de licitação deve ser buscado na seção de contratos e editais, conforme o regime da publicação."
+  },
+  "real-acervo-3159d1f11d5b4c": {
+    "perfil": "deposito-legal",
+    "gatilho": "doação",
+    "exemplo": "A entrega de exemplares à instituição depositária segue obrigação própria; uma caixa de livros doada por um morador não cobre a produção editorial do país."
+  },
+  "real-acervo-f59a96b0b7b9f0": {
+    "perfil": "documentacao",
+    "gatilho": "indústria gráfica",
+    "exemplo": "Com milhares de artigos novos, um pesquisador precisa de repertórios e índices para localizar estudos. Organizar apenas as estantes não resolve toda a dispersão."
+  },
+  "real-acervo-5dfe7880420dcc": {
+    "perfil": "documentacao",
+    "gatilho": "qualquer natureza",
+    "exemplo": "Fotografias, gravações e relatórios de uma expedição podem formar um conjunto documental consultável para pesquisa e comprovação de fatos."
+  },
+  "real-acervo-fb2baba004aaf9": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "lei da dispersão",
+    "exemplo": "Uma pesquisa sobre leitura pode localizar trabalhos em educação, saúde e tecnologia. O núcleo de periódicos produtivos não elimina a dispersão para outros títulos."
+  },
+  "real-acervo-e70a893be1e343": {
+    "perfil": "documentacao",
+    "gatilho": "desde a sua produção",
+    "exemplo": "Uma bibliografia lista relatórios sobre saneamento; o serviço documental pode também adquiri-los, analisá-los, conservá-los e atender consultas."
+  },
+  "real-acervo-85f491dcd2d9f7": {
+    "perfil": "documentacao",
+    "gatilho": "próprio manual",
+    "exemplo": "Ao mudar a equipe, o manual informa como registrar documentos, escolher termos e encaminhar solicitações, preservando a coerência do centro documental."
+  },
+  "real-acervo-de94e14f43f242": {
+    "perfil": "ciencia-info",
+    "gatilho": "após",
+    "exemplo": "Medir a transmissão de sinais num canal não é a mesma tarefa que escolher documentos relevantes para uma pesquisa num catálogo."
+  },
+  "real-acervo-96383831fd50bc": {
+    "perfil": "coordenacao",
+    "gatilho": "UNITERM",
+    "exemplo": "Uma busca cruza os termos biblioteca e escola para encontrar documentos indexados pelos dois. A combinação ilustra coordenação de termos, não navegação numa hierarquia."
+  },
+  "real-acervo-f315cdd8e082cd": {
+    "perfil": "ciencia-info",
+    "gatilho": "paradigma do fluxo",
+    "exemplo": "Um relatório publicado num portal é acessado, comentado e reutilizado por outras equipes. A análise acompanha esse percurso e suas relações."
+  },
+  "real-acervo-7c0deb6d9ac7c5": {
+    "perfil": "catalogacao",
+    "gatilho": "indexação e metadados",
+    "exemplo": "Um vídeo pode ter título, autoria, duração, termos de assunto e dados de licença. Essas informações cumprem funções diferentes na recuperação."
+  },
+  "real-acervo-e719af20a92cee": {
+    "perfil": "ciencia-info",
+    "gatilho": "prevalência",
+    "exemplo": "Um estudo de buscas combina observação de usuários e análise estatística de consultas. Outro investiga organização do conhecimento com métodos históricos."
+  },
+  "real-acervo-3634bff997b8f3": {
+    "perfil": "ciencia-info",
+    "gatilho": "biblioteconomia",
+    "exemplo": "Organizar empréstimos é uma prática bibliotecária; investigar o fluxo da informação entre pesquisadores amplia o problema para além de uma biblioteca."
+  },
+  "real-acervo-ec6d4aeeee22b5": {
+    "perfil": "ciencia-info",
+    "gatilho": "semelhantes",
+    "exemplo": "Dois estudos podem examinar bibliotecas, mas um avaliar uma rotina local e outro testar um modelo de comportamento informacional."
+  },
+  "real-acervo-8f19c49427e519": {
+    "perfil": "tipos-fontes",
+    "gatilho": "indispensável",
+    "exemplo": "Num dicionário alfabético, procure o verbete diretamente. Num repertório cronológico, um índice de nomes pode oferecer um caminho adicional de acesso."
+  },
+  "real-acervo-580b5362847851": {
+    "perfil": "documento",
+    "gatilho": "Não há, portanto",
+    "exemplo": "Uma pessoa pode interpretar um registro antigo sem conversar com seu autor. O documento preserva informação, embora a comunicação original tenha ocorrido em outro tempo."
+  },
+  "real-acervo-1c150907210ba9": {
+    "perfil": "mineracao",
+    "gatilho": "técnicas de representação",
+    "exemplo": "Um programa conta coocorrências de palavras; o indexador seleciona descritores pertinentes. As contagens ajudam, mas não decidem sozinhas a representação."
+  },
+  "real-acervo-e636dec984f173": {
+    "perfil": "metricas",
+    "gatilho": "contempla",
+    "exemplo": "Contar artigos de uma área é bibliometria; estudar a organização e o desenvolvimento da ciência envolve problemas cientométricos mais amplos."
+  },
+  "real-acervo-33319ef9bef101": {
+    "perfil": "referencias",
+    "gatilho": "escala",
+    "exemplo": "Dois mapas com o mesmo título podem ter escalas diferentes e atender a usos distintos. A referência deve permitir reconhecer qual deles foi consultado."
+  },
+  "real-acervo-c345d3601c9c19": {
+    "perfil": "referencias",
+    "gatilho": "dispensá",
+    "exemplo": "Uma partitura para piano e um arranjo para quarteto podem compartilhar título e compositor. Informar a formação evita confundir os documentos."
+  },
+  "real-acervo-9ffacf06c52b30": {
+    "perfil": "conhecimento",
+    "gatilho": "3 Cs",
+    "exemplo": "Uma equipe consulta soluções anteriores, explica sua experiência e trabalha numa resposta conjunta. A interação amplia o repertório disponível."
+  },
+  "real-acervo-c9de7463caeb60": {
+    "perfil": "referencia-virtual",
+    "gatilho": "devem",
+    "exemplo": "Uma dúvida simples sobre localizar um livro digital pode ser resolvida no atendimento geral; uma pesquisa jurídica complexa pode exigir especialização em qualquer suporte."
+  },
+  "real-acervo-91494d8e4fc8a4": {
+    "perfil": "referencia",
+    "gatilho": "normalização técnica",
+    "exemplo": "Uma aluna recebe orientação para organizar citações e referências. Ela aplica a norma ao próprio trabalho e confere os documentos utilizados."
+  },
+  "real-acervo-dce346c4d51693": {
+    "perfil": "dsi",
+    "gatilho": "notificação corrente",
+    "exemplo": "Um boletim geral anuncia aquisições para todos. Uma seleção enviada apenas a pesquisadores de preservação digital utiliza perfis individuais ou de grupo."
+  },
+  "real-acervo-4da94d8ff8873b": {
+    "perfil": "sri",
+    "gatilho": "graus de imprecisão",
+    "exemplo": "Quem pede informação sobre banco pode estar interessado em finanças ou em bases de dados. Esclarecer o sentido melhora a estratégia."
+  },
+  "real-acervo-8c22015bb5daeb": {
+    "perfil": "dsi",
+    "gatilho": "um tipo",
+    "exemplo": "Um aviso sobre o horário da biblioteca é um alerta geral. Uma seleção periódica de artigos sobre o tema do pesquisador pode ser DSI."
+  },
+  "real-acervo-675559b7562941": {
+    "perfil": "referencia",
+    "gatilho": "necessariamente",
+    "exemplo": "Um guia de pesquisa orienta o usuário a localizar uma norma sem contato imediato com um atendente. Ele continua apoiando o serviço informacional."
+  },
+  "real-acervo-d1938979099499": {
+    "perfil": "cooperacao-ref",
+    "gatilho": "QuestionPoint",
+    "exemplo": "Quando a equipe local encerra o expediente, uma biblioteca parceira pode receber a pergunta pela rede cooperativa, conforme o acordo de atendimento."
+  },
+  "real-acervo-7f6e0673104323": {
+    "perfil": "referencia-virtual",
+    "gatilho": "tempo real",
+    "exemplo": "Numa conversa por chat, usuário e bibliotecária trocam mensagens no mesmo momento. Uma solicitação por e-mail pode ser respondida mais tarde."
+  },
+  "real-acervo-10572b917f5aa6": {
+    "perfil": "entrevista-ref",
+    "gatilho": "falta de conhecimento",
+    "exemplo": "Ao receber uma consulta sobre descritores em medicina, a equipe esclarece o contexto e consulta fontes especializadas antes de escolher termos."
+  },
+  "real-acervo-2a68b7ad90b069": {
+    "perfil": "entrevista-ref",
+    "gatilho": "ambíguas e imprecisas",
+    "exemplo": "Ao ouvir preciso de algo sobre leitura, a bibliotecária pergunta para qual trabalho, público e período, antes de iniciar a pesquisa."
+  },
+  "real-acervo-645a235f1e25a1": {
+    "perfil": "estudos-usuarios",
+    "gatilho": "ambiente",
+    "exemplo": "Uma biblioteca investiga o uso do catálogo; uma organização pesquisa a percepção de seus serviços no mercado. Ambas podem empregar entrevistas e questionários."
+  },
+  "real-acervo-96e44c793e70a2": {
+    "perfil": "focal-delphi",
+    "gatilho": "grupo de foco",
+    "exemplo": "Um moderador propõe discutir o catálogo e os participantes comentam experiências uns dos outros. As interações também constituem dados da pesquisa."
+  },
+  "real-acervo-d5f772c555fb73": {
+    "perfil": "bases",
+    "gatilho": "LISA",
+    "exemplo": "Ao pesquisar indexação, a bibliotecária encontra referências e resumos de artigos em diferentes periódicos. O acesso ao artigo pode depender de outra assinatura."
+  },
+  "real-acervo-05bd5ae5c0d024": {
+    "perfil": "bases",
+    "gatilho": "multifacetadas",
+    "exemplo": "Uma busca combina autor, ano e assunto. O sistema cruza os critérios, desde que os campos correspondentes estejam disponíveis para consulta."
+  },
+  "real-acervo-5c454b41bcab40": {
+    "perfil": "metodos-usuarios",
+    "gatilho": "revisão de literatura",
+    "exemplo": "A pesquisadora lê estudos anteriores para preparar o projeto e depois entrevista usuários. São etapas complementares, com funções diferentes."
+  },
+  "real-acervo-32d1bddafd22f5": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "eficiência",
+    "exemplo": "Reduzir o custo por atendimento examina eficiência; verificar se a resposta resolveu a necessidade examina eficácia do serviço."
+  },
+  "real-acervo-29ba3df14b4eb9": {
+    "perfil": "sense-making",
+    "gatilho": "evolução",
+    "exemplo": "Uma entrevista investiga a lacuna vivida por uma pesquisadora. Um curso sobre avaliação de fontes desenvolve competências, cumprindo outra finalidade."
+  },
+  "real-acervo-7a1540b154f550": {
+    "perfil": "dsi",
+    "gatilho": "perfil de interesse",
+    "exemplo": "Uma pergunta sobre horário é resolvida sem cadastro de interesses. O envio contínuo de artigos personalizados demanda um perfil atualizado."
+  },
+  "real-acervo-faff20a9c4ef3d": {
+    "perfil": "marketing",
+    "gatilho": "demanda latente",
+    "exemplo": "Antes do início das monografias, a biblioteca oferece orientação sobre referências porque conhece as dificuldades recorrentes dos estudantes."
+  },
+  "real-acervo-f88b171764975d": {
+    "perfil": "podc",
+    "gatilho": "como um processo",
+    "exemplo": "Atrasos na devolução afetam reservas e empréstimos. Observar o fluxo completo permite melhorar o serviço e distribuir responsabilidades."
+  },
+  "real-acervo-065ae8562ab9f6": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "exclusivamente",
+    "exemplo": "Um relatório bem diagramado não resolve uma consulta se trata de outro tema. Aparência e correção formal não substituem relevância para a tarefa."
+  },
+  "real-acervo-1ffb9efe94e284": {
+    "perfil": "podc",
+    "gatilho": "lideranças",
+    "exemplo": "A coordenação define metas e a equipe acompanha o fluxo de atendimento. Ambos precisam compreender o propósito e agir sobre problemas encontrados."
+  },
+  "real-acervo-226dc4e2e64f4c": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "questões econômicas",
+    "exemplo": "Cortar uma assinatura economiza recursos, mas pode impedir pesquisas essenciais. A decisão precisa avaliar utilidade e alternativas de acesso."
+  },
+  "real-acervo-28bf502baa42a2": {
+    "perfil": "aprendizagem-equipe",
+    "gatilho": "aspecto humano",
+    "exemplo": "Uma base nova só melhora o atendimento se a equipe souber pesquisar, avaliar resultados e orientar usuários sobre suas condições de acesso."
+  },
+  "real-acervo-958dbc2f189a4a": {
+    "perfil": "portais",
+    "gatilho": "exclusivamente nacionais",
+    "exemplo": "Uma universidade brasileira informa ao CCN quais fascículos de uma revista francesa possui, ajudando outra biblioteca a localizar exemplares."
+  },
+  "real-acervo-b9ab24c6de873d": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "três tipos",
+    "exemplo": "Um repertório pode ser nacional e especializado ao mesmo tempo. São recortes diferentes, não posições obrigatórias numa única lista de três tipos."
+  },
+  "real-acervo-ef6e1c461025af": {
+    "perfil": "direitos",
+    "gatilho": "Apenas",
+    "exemplo": "Uma biblioteca pode disponibilizar um livro protegido se obtiver autorização adequada; o fato de o arquivo ser digital não elimina direitos autorais."
+  },
+  "real-acervo-867a1400226de6": {
+    "perfil": "bibliografia",
+    "gatilho": "disseminação seletiva",
+    "exemplo": "Uma bibliografia geral sobre educação serve a vários públicos. Para enviar só itens de interesse de cada pesquisador, é necessário definir perfis."
+  },
+  "real-acervo-20cf1d5172727b": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "nível de publicação",
+    "exemplo": "Uma descrição pode informar o nível do repertório e, separadamente, dizer que ele é nacional ou especializado. Cada critério responde a uma pergunta."
+  },
+  "real-acervo-e623dae49e56ee": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "avaliação",
+    "exemplo": "A equipe compara o acervo de direito com uma bibliografia especializada e investiga lacunas pertinentes aos cursos e às pesquisas locais."
+  },
+  "real-acervo-8659373d40c3cc": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "finalidade",
+    "exemplo": "Uma lista de obras recomendadas para iniciantes tem propósito diferente de um inventário amplo de tudo o que foi publicado sobre um assunto."
+  },
+  "real-acervo-4f7d4f8c133306": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "comerciais",
+    "exemplo": "Um catálogo de distribuidor ajuda a verificar títulos disponíveis para compra; uma bibliografia nacional procura registrar a produção de um país."
+  },
+  "real-acervo-312b5e0261a7d9": {
+    "perfil": "metricas",
+    "gatilho": "Microbibliometria",
+    "exemplo": "Uma pesquisa examina a produção de um grupo ou um conjunto delimitado de documentos, em vez de descrever toda a produção de um país."
+  },
+  "real-acervo-f0c17376873d96": {
+    "perfil": "tipos-fontes",
+    "gatilho": "terciárias",
+    "exemplo": "Um guia informa quais repertórios consultar para iniciar uma pesquisa. Sua função é apontar caminhos, não apresentar o estudo original procurado."
+  },
+  "real-acervo-4b461ea583f92a": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "finalidades",
+    "exemplo": "Uma bibliografia especializada pode ser organizada sistematicamente e ter finalidade de recomendação. Os três atributos não se excluem."
+  },
+  "real-acervo-fbd4f6c709b468": {
+    "perfil": "busca-web",
+    "gatilho": "automática",
+    "exemplo": "Um robô coleta páginas e cria entradas num índice; um diretório tradicional depende de seleção humana para reunir sítios em categorias."
+  },
+  "real-acervo-715d4e9ffcc0dc": {
+    "perfil": "tipos-fontes",
+    "gatilho": "mais estáveis",
+    "exemplo": "Uma edição impressa conserva sua paginação. Uma página atualizada continuamente pode exigir identificação da versão e registro da data de consulta."
+  },
+  "real-acervo-c6556297a27458": {
+    "perfil": "redes-juridicas",
+    "gatilho": "centralização",
+    "exemplo": "Cada órgão registra seus atos conforme regras compartilhadas, enquanto a interface integrada facilita sua localização pelos usuários."
+  },
+  "real-acervo-7db167752c869a": {
+    "perfil": "dou",
+    "gatilho": "pública e privada",
+    "exemplo": "Uma empresa pode publicar um aviso legal exigido, mas isso não faz do DOU o canal de todas as suas comunicações internas ou comerciais."
+  },
+  "real-acervo-2d63f92c59b21a": {
+    "perfil": "bases",
+    "gatilho": "não pode",
+    "exemplo": "Uma instituição contrata acesso para sua comunidade conforme a licença. A possibilidade de consulta não autoriza redistribuir a base a terceiros."
+  },
+  "real-acervo-a7553ef7c9dd3e": {
+    "perfil": "diario-justica",
+    "gatilho": "na íntegra",
+    "exemplo": "Um aviso pode indicar um procedimento sem reproduzir todos os autos. O leitor deve consultar o documento correspondente quando precisa do conteúdo completo."
+  },
+  "real-acervo-32800b7f45a47a": {
+    "perfil": "diario-justica",
+    "gatilho": "caráter judicial",
+    "exemplo": "Uma decisão judicial e uma nomeação de servidor pertencem a categorias diferentes, mesmo quando originadas da mesma instituição."
+  },
+  "real-acervo-bedadfbddc2cab": {
+    "perfil": "dou",
+    "gatilho": "fora do tempo",
+    "exemplo": "Uma publicação adicional pode ser organizada por necessidade específica. Não se deve deduzir seu tipo apenas do horário em que uma matéria foi remetida."
+  },
+  "real-acervo-bcc6ce53ba2664": {
+    "perfil": "dou",
+    "gatilho": "Ministério Público",
+    "exemplo": "Ao procurar uma norma do MPU, o aluno deve reconhecer a identidade institucional do órgão, sem tratá-lo como tribunal."
+  },
+  "real-acervo-b5dd08fd1ade7b": {
+    "perfil": "dou",
+    "gatilho": "Seção II",
+    "exemplo": "Para localizar o afastamento de uma pessoa, comece pela seção de atos de pessoal e confira a instituição e a data da publicação."
+  },
+  "real-acervo-21ca5af787920b": {
+    "perfil": "diario-justica",
+    "gatilho": "tribunais superiores",
+    "exemplo": "A consulta a uma publicação judicial exige verificar órgão, data e regime do veículo, e não apenas o nome da instituição envolvida."
+  },
+  "real-acervo-11812f526001dd": {
+    "perfil": "diario-justica",
+    "gatilho": "ano corrente",
+    "exemplo": "Um ato recente pode estar no diário eletrônico do tribunal, enquanto uma pesquisa histórica exige consultar o antigo veículo e sua cobertura."
+  },
+  "real-acervo-ed550068c3d076": {
+    "perfil": "bibliografia",
+    "gatilho": "publicado no Brasil",
+    "exemplo": "Um livro jurídico publicado em espanhol no Brasil pode atender ao critério territorial descrito, mesmo sem estar escrito em português."
+  },
+  "real-acervo-79fcea3c207f97": {
+    "perfil": "juridica",
+    "gatilho": "indistinta",
+    "exemplo": "Uma lei pode valer apenas para determinado ente ou situação. Um comentário doutrinário ajuda a interpretá-la, sem substituir o texto normativo."
+  },
+  "real-acervo-955cbf77f4c1e6": {
+    "perfil": "dou",
+    "gatilho": "seção 3",
+    "exemplo": "Uma biblioteca que acompanha um aviso de contratação deve procurar a seção correspondente, distinguindo-o de uma nomeação de servidor."
+  },
+  "real-acervo-34c76b246193d3": {
+    "perfil": "dou",
+    "gatilho": "exclusivamente",
+    "exemplo": "Um decreto de alcance geral pode ser encontrado na seção 1, sem tratar apenas da situação funcional de servidores."
+  },
+  "real-acervo-ac9fda73b6137c": {
+    "perfil": "dou",
+    "gatilho": "cabeçalho",
+    "exemplo": "Ao registrar a fonte de uma norma, a equipe utiliza data, seção e página para permitir que outro leitor localize a mesma publicação."
+  },
+  "real-acervo-5063f806295ceb": {
+    "perfil": "juridica",
+    "gatilho": "indexação do título",
+    "exemplo": "Dois atos podem ter títulos genéricos semelhantes e disciplinar assuntos diferentes. A leitura analítica evita atribuir os mesmos descritores apenas pelo título."
+  },
+  "real-acervo-50577b759561f3": {
+    "perfil": "redes-juridicas",
+    "gatilho": "JURID",
+    "exemplo": "Antes de orientar uma pesquisa, confira qual instituição mantém a base e quais atos ela reúne, em vez de escolher apenas um nome com aparência jurídica."
+  },
+  "real-acervo-9b25b13c91224e": {
+    "perfil": "juridica",
+    "gatilho": "decisões reiteradas",
+    "exemplo": "Uma busca localiza decisões sobre um tema e encaminha aos respectivos tribunais. O serviço agrega informação jurisprudencial, não cria uma lei."
+  },
+  "real-acervo-8d20a6364e2611": {
+    "perfil": "dou",
+    "gatilho": "quatro seções",
+    "exemplo": "Para procurar uma norma, um ato de pessoal ou um aviso de licitação, identifique respectivamente as seções 1, 2 e 3."
+  },
+  "real-acervo-7476fd80f8553c": {
+    "perfil": "portais",
+    "gatilho": "empresas",
+    "exemplo": "Uma pessoa consulta material aberto, mas encontra restrição num periódico assinado. O acesso institucional autorizado precisa ser verificado."
+  },
+  "real-acervo-73a7cb60c7bea1": {
+    "perfil": "tipos-fontes",
+    "gatilho": "comercial brasileira",
+    "exemplo": "Uma bibliotecária procura informações sobre um livro disponível no circuito editorial para verificar autoria, título e possibilidades de aquisição."
+  },
+  "real-acervo-14986e6222e17a": {
+    "perfil": "bibliografia",
+    "gatilho": "língua portuguesa",
+    "exemplo": "Um estudo jurídico em inglês editado no Brasil não se torna estrangeiro quanto ao lugar de publicação apenas por seu idioma."
+  },
+  "real-acervo-c0b5a2342b5419": {
+    "perfil": "catalogos",
+    "gatilho": "informações críticas",
+    "exemplo": "Uma entrada informa a procedência de um exemplar e uma particularidade da edição, ajudando a distinguir cópias com o mesmo título."
+  },
+  "real-acervo-083fb9ad88eab1": {
+    "perfil": "vocabulario",
+    "gatilho": "descritor",
+    "exemplo": "Uma obra sobre preservação recebe um termo autorizado que ajuda a localizá-la, mesmo quando seu título não emprega exatamente essa expressão."
+  },
+  "real-acervo-4ee45c38cac5b4": {
+    "perfil": "catalogos",
+    "gatilho": "amplamente utilizado",
+    "exemplo": "Uma biblioteca pode manter notações de classificação e oferecer ao público principalmente buscas por autor, título e assunto num catálogo eletrônico."
+  },
+  "real-acervo-926a58c8b9866b": {
+    "perfil": "catalogacao",
+    "gatilho": "escolha",
+    "exemplo": "A usuária compara uma edição impressa e uma digital para decidir qual atende melhor à tarefa e às condições de acesso."
+  },
+  "real-acervo-0f1d5732bdad37": {
+    "perfil": "catalogos",
+    "gatilho": "portabilidade",
+    "exemplo": "Uma pessoa consulta o catálogo no celular antes de visitar a biblioteca, sem depender de um terminal instalado junto às estantes."
+  },
+  "real-acervo-fbd9d18ca03f8b": {
+    "perfil": "catalogacao",
+    "gatilho": "mensagens codificadas",
+    "exemplo": "Uma usuária reconhece pelo registro uma edição adequada de um livro, mesmo antes de abrir ou ter em mãos o exemplar."
+  },
+  "real-acervo-30d75a542e6434": {
+    "perfil": "catalogacao",
+    "gatilho": "itens individuais",
+    "exemplo": "Um capítulo tem autor e título próprios e pode receber acesso analítico com ligação ao livro em que foi publicado."
+  },
+  "real-acervo-6dbd9005643266": {
+    "perfil": "catalogacao",
+    "gatilho": "relacionamento",
+    "exemplo": "Uma referência bibliográfica precisa indicar a obra a que remete; uma obra autônoma pode ser identificada sem depender desse mesmo tipo de remissão."
+  },
+  "real-acervo-083b764875c65b": {
+    "perfil": "catalogos",
+    "gatilho": "em fichas",
+    "exemplo": "Cruzar assunto, período e tipo documental é mais fácil numa base estruturada do que consultar separadamente várias sequências de fichas."
+  },
+  "real-acervo-00c21d2a71e9e0": {
+    "perfil": "catalogacao",
+    "gatilho": "analítica",
+    "exemplo": "Um capítulo assinado pode ser recuperado pelo autor próprio e encaminhar ao livro que o contém e às páginas correspondentes."
+  },
+  "real-acervo-29f403fa63ecbe": {
+    "perfil": "catalogacao",
+    "gatilho": "prioritariamente",
+    "exemplo": "Um registro com título e data, mas sem acesso coerente a autoria ou assunto, pode dificultar a recuperação do recurso."
+  },
+  "real-acervo-4b2102148e237f": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "duvidosa",
+    "exemplo": "Uma data provável não deve parecer uma data expressamente impressa. O registro distingue a informação fornecida pelo documento da inferida pelo catalogador."
+  },
+  "real-acervo-bfb42b5edd9e61": {
+    "perfil": "aacr-acesso",
+    "gatilho": "título uniforme",
+    "exemplo": "A busca pelo nome convencional de uma lei pode encaminhar ao registro controlado, que também identifica sua jurisdição e seus dados normativos."
+  },
+  "real-acervo-9ed60f4ae96d03": {
+    "perfil": "aacr-acesso",
+    "gatilho": "grupo",
+    "exemplo": "Um grupo que concebe e assume responsabilidade pelo conjunto de uma produção apresenta papel diferente de artistas apenas contratados para interpretar."
+  },
+  "real-acervo-537376e770baed": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "cinco primeiras palavras",
+    "exemplo": "Ao abreviar um título excessivamente longo no caso admitido, o catalogador indica a omissão e conserva elementos essenciais à identificação."
+  },
+  "real-acervo-1f8a77b5526b58": {
+    "perfil": "aacr-acesso",
+    "gatilho": "autos de uma parte",
+    "exemplo": "Uma decisão e uma peça apresentada por uma das partes pertencem ao mesmo processo, mas não possuem necessariamente a mesma responsabilidade autoral."
+  },
+  "real-acervo-4e4e13966aab96": {
+    "perfil": "aacr-acesso",
+    "gatilho": "entidade responsável",
+    "exemplo": "Uma série identificada pela entidade responsável pode exigir tratamento diferente após mudança dessa entidade, ainda que mantenha o título apresentado."
+  },
+  "real-acervo-ea35755d8a3985": {
+    "perfil": "aacr-acesso",
+    "gatilho": "difusa",
+    "exemplo": "Uma obra pode ter vários autores conhecidos e responsabilidade compartilhada. Outra pode possuir responsabilidade de entidade, sem nome pessoal de destaque."
+  },
+  "real-acervo-51733346e27707": {
+    "perfil": "aacr-acesso",
+    "gatilho": "relator",
+    "exemplo": "Um repertório pode reunir julgados de vários tribunais sob responsabilidade expressa de um relator; isso difere da publicação oficial de um tribunal."
+  },
+  "real-acervo-20e29ef78214db": {
+    "perfil": "catalogacao",
+    "gatilho": "organização de mensagens",
+    "exemplo": "O registro apresenta autoria, título e outros elementos de modo que pessoas consigam reconhecer o recurso e diferenciá-lo de semelhantes."
+  },
+  "real-acervo-5b62fb4aaf2c7d": {
+    "perfil": "aacr-transcricao",
+    "gatilho": "sonorizado",
+    "exemplo": "Ao descrever um recurso eletrônico, o catalogador confere a forma prescrita para som e cor, além das dimensões e demais elementos aplicáveis."
+  },
+  "real-acervo-e967b220c33803": {
+    "perfil": "aacr-fontes",
+    "gatilho": "somente",
+    "exemplo": "Se o título foi tomado de uma fonte diferente da prescrita, o registro deve esclarecer essa origem conforme o código, não fingir que estava no disco."
+  },
+  "real-acervo-bec9cbe3019ab7": {
+    "perfil": "aacr-acesso",
+    "gatilho": "três etapas",
+    "exemplo": "A forma autorizada de um nome reúne publicações enquanto variantes remetem ao mesmo autor, evitando buscas separadas sem conexão."
+  },
+  "real-acervo-89559512f52f73": {
+    "perfil": "autoridades",
+    "gatilho": "controlado",
+    "exemplo": "Um nome variante pode encaminhar à forma autorizada sem se tornar a entrada principal da obra; controle e função da entrada são aspectos distintos."
+  },
+  "real-acervo-502ef0ec1bb608": {
+    "perfil": "marc",
+    "gatilho": "BK",
+    "exemplo": "Um registro de livro e um de coleção de manuscritos podem exigir elementos específicos, embora ambos sejam processados por estruturas MARC."
+  },
+  "real-acervo-552e74b638523b": {
+    "perfil": "dc",
+    "gatilho": "dia-mês-ano",
+    "exemplo": "A data 6 de novembro de 2026 pode ser codificada como 2026-11-06, preservando a ordenação prevista para essa representação."
+  },
+  "real-acervo-2cceca82bb4043": {
+    "perfil": "marc",
+    "gatilho": "holdings",
+    "exemplo": "A descrição de uma revista pode ser vinculada aos fascículos possuídos pela biblioteca, sem confundir o registro bibliográfico com os dados de coleção."
+  },
+  "real-acervo-c78a38ce9a0a20": {
+    "perfil": "marc-campos",
+    "gatilho": "posição 07",
+    "exemplo": "O registro de um artigo identifica sua contribuição e a revista em que foi publicado, sem tratar ambos como o mesmo recurso bibliográfico."
+  },
+  "real-acervo-32f6d72ab91883": {
+    "perfil": "bases",
+    "gatilho": "confidenciabilidade",
+    "exemplo": "Uma base pode ter muitos registros e ainda ser inadequada se não cobrir a área desejada ou não atualizar seus dados de forma confiável."
+  },
+  "real-acervo-8afbf0b5c5a9fa": {
+    "perfil": "indexacao",
+    "gatilho": "conteúdo",
+    "exemplo": "Um texto cita educação incidentalmente; a análise identifica seu assunto predominante e distingue isso do que um público específico pretende pesquisar."
+  },
+  "real-acervo-6039674d587ee2": {
+    "perfil": "catalogacao",
+    "gatilho": "estrutura organizacional",
+    "exemplo": "Atribuir descritores a um relatório representa seu conteúdo. Construir uma hierarquia de áreas para organizar a coleção é outra tarefa."
+  },
+  "real-acervo-ee3978c9ff76eb": {
+    "perfil": "documento",
+    "gatilho": "signo",
+    "exemplo": "Uma referência a um livro produz uma ideia preliminar de seu conteúdo, mas não substitui a leitura nem o acesso ao documento original."
+  },
+  "real-acervo-4f806366ce466e": {
+    "perfil": "marc-campos",
+    "gatilho": "697",
+    "exemplo": "Duas bibliotecas podem configurar campos locais de maneiras distintas. Ao intercambiar registros, precisam documentar essas escolhas e sua conversão."
+  },
+  "real-acervo-06095ce2976b92": {
+    "perfil": "vocabulario",
+    "gatilho": "indicar o conteúdo",
+    "exemplo": "Um documento pode empregar expressões variadas, mas receber o descritor adotado pelo sistema para reunir materiais sobre o mesmo conceito."
+  },
+  "real-acervo-2799098b8cd071": {
+    "perfil": "mineracao",
+    "gatilho": "quatro etapas",
+    "exemplo": "Antes de agrupar artigos, a equipe precisa tratar o texto, selecionar características e depois interpretar e avaliar os agrupamentos produzidos."
+  },
+  "real-acervo-0f00d65b094ab9": {
+    "perfil": "indexacao",
+    "gatilho": "categorização",
+    "exemplo": "Um texto pode tratar de biblioteca como instituição educacional ou como software. A análise do contexto permite reconhecer a categoria adequada."
+  },
+  "real-acervo-0c5bfc921d4051": {
+    "perfil": "vocabulario",
+    "gatilho": "signos",
+    "exemplo": "O descritor museus representa um conceito e permite reunir registros, mas não substitui as instituições nem os documentos a que a busca conduz."
+  },
+  "real-acervo-b0b15974e88535": {
+    "perfil": "catalogos",
+    "gatilho": "não classificada",
+    "exemplo": "Uma sequência de cabeçalhos autorizados permite consulta alfabética; um catálogo classificado exige também um esquema que expresse a organização por classes."
+  },
+  "real-acervo-b88795e33a9696": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "diferencia",
+    "exemplo": "Ver também pode encaminhar a outro cabeçalho sem informar se ele é mais amplo, mais específico ou apenas relacionado."
+  },
+  "real-acervo-6abdbb82514909": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "nove tabelas",
+    "exemplo": "Um sinal de relação tem função diferente de um auxiliar de lugar. Não se deve deduzir a função apenas do número de categorias listado num manual."
+  },
+  "real-acervo-a3489f6c304b71": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "época",
+    "exemplo": "Para delimitar historicamente um estudo, o classificador consulta a tabela de tempo; não inventa uma subdivisão especial da classe principal."
+  },
+  "real-acervo-8969504403e793": {
+    "perfil": "chamada",
+    "gatilho": "Cutter",
+    "exemplo": "Antes de atribuir a notação de autor a uma entidade identificada por sigla, a equipe confere sua forma por extenso e a política de ordenação."
+  },
+  "real-acervo-552f885e81d0cb": {
+    "perfil": "classificacao",
+    "gatilho": "números arábicos",
+    "exemplo": "Um assunto pode receber uma classe principal acompanhada de lugar, tempo ou forma, conforme as tabelas e regras de combinação."
+  },
+  "real-acervo-e8287e017f0890": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "tabelas auxiliares",
+    "exemplo": "Um estudo histórico pode combinar seu assunto com delimitação geográfica e temporal, em vez de criar uma classe independente para cada combinação."
+  },
+  "real-acervo-af99012c33a6d3": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "aspas",
+    "exemplo": "Um livro publicado em 2020 sobre o século XIX possui duas informações temporais distintas; a escolha deve seguir o aspecto que se pretende representar."
+  },
+  "real-acervo-6d0529f625d75b": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "materiais",
+    "exemplo": "Ao representar um objeto composto, o classificador identifica seus materiais e aplica a forma de combinação prevista, em vez de somar números por intuição."
+  },
+  "real-acervo-53db34d2f2874e": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "sistemas jurídicos",
+    "exemplo": "Para um estudo de direito brasileiro, é necessário consultar a combinação adequada entre assunto jurídico e delimitação, sem escolher apenas uma suposta classe nacional."
+  },
+  "real-acervo-23bf76b7324310": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "subdividir como",
+    "exemplo": "Ao seguir uma remissão de subdivisão, o catalogador verifica o segmento que pode ser transportado para a classe-alvo e conserva a sintaxe da tabela."
+  },
+  "real-acervo-baaeb3f8e30deb": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "integração",
+    "exemplo": "Local, tempo e tema não podem ser simplesmente justapostos para produzir uma classe coerente; a combinação deve expressar a relação pretendida."
+  },
+  "real-acervo-dec41a7232c8b1": {
+    "perfil": "cddir",
+    "gatilho": "930 a 990",
+    "exemplo": "Uma obra jurídica recebe assunto específico e pode exigir delimitação territorial; o classificador consulta a tabela adotada pela edição da CDDir."
+  },
+  "real-acervo-59b846d7693bda": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "gênero",
+    "exemplo": "Uma característica de pessoas pode ser indicada por auxiliar pertinente em diferentes assuntos, conforme a sintaxe, sem recriar uma tabela a cada classe."
+  },
+  "real-acervo-cc6feb31f540be": {
+    "perfil": "cdd",
+    "gatilho": "vigésima edição",
+    "exemplo": "Ao estudar uma questão antiga, registre a edição e o período citados. Depois compare suas estruturas com a edição efetivamente adotada pela biblioteca."
+  },
+  "real-acervo-726cf960e4c52c": {
+    "perfil": "cdd",
+    "gatilho": "revisões",
+    "exemplo": "Antes de reutilizar uma notação antiga, a equipe consulta notas e alterações da edição adotada, evitando manter uma classificação já modificada."
+  },
+  "real-acervo-3a377f8c96c2fe": {
+    "perfil": "cdd",
+    "gatilho": "pontos",
+    "exemplo": "Uma notação longa pode ser apresentada com recursos de legibilidade; o classificador não cria novos pontos decimais por contar grupos de três algarismos."
+  },
+  "real-acervo-433c7316c81038": {
+    "perfil": "cddir",
+    "gatilho": "outros países",
+    "exemplo": "Uma tabela estrangeira pode influenciar um sistema nacional sem significar que esse sistema especializado já existisse com a mesma identidade fora do país."
+  },
+  "real-acervo-24214fb799aa58": {
+    "perfil": "vocabulario",
+    "gatilho": "consistente",
+    "exemplo": "O usuário pesquisa um termo e o sistema o relaciona à forma adotada na indexação, ampliando a possibilidade de encontrar materiais pertinentes."
+  },
+  "real-acervo-033cee45c051f9": {
+    "perfil": "hierarquia",
+    "gatilho": "classes",
+    "exemplo": "Ao organizar seres vivos, é possível distinguir conjuntos específicos de agrupamentos mais abrangentes. O nível não é definido apenas pelo nome escolhido."
+  },
+  "real-acervo-79f2631c11396e": {
+    "perfil": "marketing",
+    "gatilho": "administração",
+    "exemplo": "A direção autoriza recursos, enquanto a análise de público orienta quais produtos podem atender às necessidades. As duas funções se articulam."
+  },
+  "real-acervo-f9b9febecc3bc4": {
+    "perfil": "marketing",
+    "gatilho": "produtos",
+    "exemplo": "Um guia de pesquisa e um curso de orientação integram as ofertas da biblioteca, ainda que não sejam livros emprestados nem mercadorias."
+  },
+  "real-acervo-f56948d8aa50de": {
+    "perfil": "estrutura",
+    "gatilho": "rede",
+    "exemplo": "Bibliotecas compartilham registros e serviços segundo acordos, mantendo competências e decisões locais definidas."
+  },
+  "real-acervo-e0fc644429113e": {
+    "perfil": "estrutura",
+    "gatilho": "centralização",
+    "exemplo": "Separar seleção, catalogação e atendimento pode desenvolver especialização, mas também exigir mecanismos para que decisões não fiquem isoladas."
+  },
+  "real-acervo-c71f42b3cefc49": {
+    "perfil": "planejar",
+    "gatilho": "resolver",
+    "exemplo": "Um plano prevê como reduzir atrasos no processamento. A redução efetiva depende de ações, responsabilidades e acompanhamento posteriores."
+  },
+  "real-acervo-89d8286115b8aa": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "intangíveis",
+    "exemplo": "Contar volumes é simples; demonstrar que a orientação ajudou uma pesquisa exige evidências sobre a tarefa e seus resultados."
+  },
+  "real-acervo-e4409e1d4414fb": {
+    "perfil": "podc",
+    "gatilho": "ciclo informacional",
+    "exemplo": "Uma aquisição só chega ao atendimento após decisões de seleção e tratamento. Problemas numa etapa podem afetar as demais."
+  },
+  "real-acervo-6197a2d8c09df1": {
+    "perfil": "planejar",
+    "gatilho": "insuficientes",
+    "exemplo": "A equipe compara recursos disponíveis, demandas dos usuários e mudanças tecnológicas para definir prioridades, em vez de planejar apenas por intuição."
+  },
+  "real-acervo-15bc4ab97251b1": {
+    "perfil": "planejar",
+    "gatilho": "sem planos e metas",
+    "exemplo": "Uma regra de empréstimo organiza uma rotina, mas não define sozinha a finalidade da biblioteca nem suas prioridades para o ano."
+  },
+  "real-acervo-08e159075a3290": {
+    "perfil": "estrutura",
+    "gatilho": "toda sua clientela",
+    "exemplo": "Um conselho ou uma consulta recolhe contribuições dos usuários, enquanto a equipe mantém responsabilidades técnicas e administrativas identificáveis."
+  },
+  "real-acervo-a21557cc9f34a0": {
+    "perfil": "politica-colecoes",
+    "gatilho": "especializada",
+    "exemplo": "Uma unidade de pesquisa agrícola precisa selecionar informação adequada às linhas de investigação, em vez de reunir indiscriminadamente obras gerais."
+  },
+  "real-acervo-434443184dfe84": {
+    "perfil": "politica-colecoes",
+    "gatilho": "política",
+    "exemplo": "Antes de comprar, a equipe define áreas prioritárias, critérios de seleção, acesso e responsabilidades, relacionando decisões à missão."
+  },
+  "real-acervo-8f953a25dc987b": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "melhor serviço",
+    "exemplo": "Unidades locais podem manter serviços próprios e compartilhar um catálogo ou encaminhar consultas para ampliar a oferta ao público."
+  },
+  "real-acervo-55c624e9d5f75a": {
+    "perfil": "planejar",
+    "gatilho": "dirigentes",
+    "exemplo": "A bibliotecária identifica necessidades do acervo e propõe prioridades; a direção institucional participa das decisões e da alocação de recursos."
+  },
+  "real-acervo-64d353305387be": {
+    "perfil": "estrutura",
+    "gatilho": "técnica, social e administrativa",
+    "exemplo": "Uma equipe cuida da catalogação, outra do atendimento e outra do orçamento. As áreas precisam cooperar para que o recurso chegue ao usuário."
+  },
+  "real-acervo-043cca030a172b": {
+    "perfil": "planejar",
+    "gatilho": "informetria",
+    "exemplo": "Indicadores de produção ajudam o diagnóstico; projetar cenários exige examinar possibilidades futuras e decisões, não apenas contar documentos."
+  },
+  "real-acervo-1ff1767004c609": {
+    "perfil": "sistemas-info",
+    "gatilho": "decisão e o controle",
+    "exemplo": "Um painel informa atrasos e demanda por assunto; a coordenação usa essas evidências para decidir prioridades e avaliar medidas adotadas."
+  },
+  "real-acervo-08b36eacea0167": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "procedimentos básicos",
+    "exemplo": "A estratégia define ampliar acesso remoto; projetos e planos operacionais especificam equipe, orçamento, etapas e procedimentos de implantação."
+  },
+  "real-acervo-b112f04e774d22": {
+    "perfil": "tipos-biblioteca",
+    "gatilho": "bibliográfico, audiovisual e digital",
+    "exemplo": "Uma unidade organiza livros, vídeos e documentos digitais e oferece consulta e referência, conforme sua missão e sua posição na instituição."
+  },
+  "real-acervo-6d5a58acc62002": {
+    "perfil": "planejar",
+    "gatilho": "década de 80",
+    "exemplo": "Ao estudar a história do planejamento, a equipe distingue iniciativas anteriores de experiências posteriores, sem atribuir tudo à década mais conhecida."
+  },
+  "real-acervo-6926c7348d47b2": {
+    "perfil": "politica-colecoes",
+    "gatilho": "seleção",
+    "exemplo": "Além de escolher títulos, a equipe avalia lacunas, acompanha uso e decide remanejamentos, tratando a coleção como processo contínuo."
+  },
+  "real-acervo-aca8f2d0bda91a": {
+    "perfil": "conspectus",
+    "gatilho": "cinco níveis",
+    "exemplo": "Uma área não coletada não pode ser descrita simplesmente como coleção mínima. A escala precisa registrar adequadamente essa ausência de cobertura."
+  },
+  "real-acervo-51ef702f59d0ce": {
+    "perfil": "politica-colecoes",
+    "gatilho": "ambiência",
+    "exemplo": "Uma biblioteca relaciona necessidades de seu público, prioridades institucionais e oportunidades externas de financiamento antes de definir ações."
+  },
+  "real-acervo-be3e31766b251c": {
+    "perfil": "aquisicao",
+    "gatilho": "a qualquer momento",
+    "exemplo": "A oferta de um título não justifica comprá-lo antes de verificar sua adequação à coleção e a autorização de despesa correspondente."
+  },
+  "real-acervo-98c23bbf3b7e14": {
+    "perfil": "desbaste",
+    "gatilho": "desbastamento",
+    "exemplo": "Uma obra pode ir para reserva e continuar pertencendo ao acervo; outra pode ser retirada após avaliação e procedimento formal de descarte."
+  },
+  "real-acervo-b6a0aaf3158924": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "formas de acesso",
+    "exemplo": "Uma biblioteca menor com acesso adequado a fontes essenciais pode atender melhor a uma área que outra com muitos títulos desatualizados."
+  },
+  "real-acervo-3ebac201d71e10": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "condicionadas",
+    "exemplo": "A falta de orçamento não faz desaparecer uma lacuna essencial; a avaliação registra a necessidade e subsidia a busca de alternativas."
+  },
+  "real-acervo-8b3e602a0cb840": {
+    "perfil": "aquisicao",
+    "gatilho": "várias fontes",
+    "exemplo": "Um catálogo anuncia uma obra, uma resenha examina seu conteúdo e uma bibliografia ajuda a situá-la na área. A seleção combina evidências."
+  },
+  "real-acervo-443a01d511264e": {
+    "perfil": "politica-colecoes",
+    "gatilho": "qualidade dos acervos",
+    "exemplo": "Um portal bem desenvolvido pouco ajuda se não oferece documentos pertinentes; a melhoria exige articular recursos informacionais e condições de acesso."
+  },
+  "real-acervo-040b610848c7d9": {
+    "perfil": "aquisicao",
+    "gatilho": "substituir",
+    "exemplo": "Uma edição esgotada pode motivar consulta ao responsável pela seleção para avaliar outra edição ou obra, documentando a decisão."
+  },
+  "real-acervo-346d26ca03b209": {
+    "perfil": "politica-colecoes",
+    "gatilho": "normas e diretrizes",
+    "exemplo": "Ao receber uma doação, a equipe utiliza critérios previamente definidos para aceitar, recusar ou encaminhar materiais conforme a missão."
+  },
+  "real-acervo-1c6ab4aa44b93d": {
+    "perfil": "selecao",
+    "gatilho": "conjunto de títulos",
+    "exemplo": "Uma coleção comercial inclui obras úteis e outras sem relação com os cursos. A equipe analisa a oferta e seus títulos, em vez de aceitar tudo pelo rótulo do pacote."
+  },
+  "real-acervo-d915e9dd6adebe": {
+    "perfil": "selecao",
+    "gatilho": "resenhas críticas",
+    "exemplo": "O catálogo informa disponibilidade, a resenha discute qualidade e a bibliografia situa a obra no domínio. A decisão articula essas informações."
+  },
+  "real-acervo-062720cb4b63b4": {
+    "perfil": "politica-colecoes",
+    "gatilho": "objetivos da instituição",
+    "exemplo": "Uma biblioteca decide priorizar fontes de uma nova linha de pesquisa e registra como avaliar materiais, acesso e atualização dessa área."
+  },
+  "real-acervo-38af0059d733ab": {
+    "perfil": "colecao-digital",
+    "gatilho": "conteúdos substancialmente diferentes",
+    "exemplo": "Antes de manter duas assinaturas do mesmo periódico, a equipe compara cobertura, permissões e necessidades, verificando se as versões realmente se equivalem."
+  },
+  "real-acervo-f4d29033946a5e": {
+    "perfil": "aquisicao",
+    "gatilho": "desiderata",
+    "exemplo": "Uma sugestão de livro esgotado é registrada para acompanhamento. A equipe poderá verificar nova edição, disponibilidade e pertinência antes de adquirir."
+  },
+  "real-acervo-49820ba2f904cc": {
+    "perfil": "aquisicao",
+    "gatilho": "cooperativa",
+    "exemplo": "Duas bibliotecas combinam áreas de cobertura e acesso entre si; outra elabora sozinha um calendário anual de compras para sua própria coleção."
+  },
+  "real-acervo-0484a676d80595": {
+    "perfil": "politica-colecoes",
+    "gatilho": "entre outros processos",
+    "exemplo": "Após examinar uso e cobertura temática, a biblioteca pode comprar, remanejar ou ampliar acesso remoto, conforme as necessidades identificadas."
+  },
+  "real-acervo-a8239c373432a8": {
+    "perfil": "selecao",
+    "gatilho": "instituição mantenedora",
+    "exemplo": "Uma unidade busca cobrir amplamente uma linha de pesquisa específica, mantendo critérios de atualização, relevância e condições de acesso."
+  },
+  "real-acervo-d56f24a97a294f": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "quantitativos",
+    "exemplo": "A equipe conta empréstimos e também investiga por que certas obras são importantes para uma pesquisa, articulando indicadores e avaliação de conteúdo."
+  },
+  "real-acervo-40bc482922fbbd": {
+    "perfil": "desbaste",
+    "gatilho": "seleção negativa",
+    "exemplo": "Um volume pouco usado vai para reserva; outro, sem pertinência e após avaliação, pode ser retirado definitivamente conforme procedimento formal."
+  },
+  "real-acervo-cc5edcba664c37": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "SINAES",
+    "exemplo": "Uma comissão avalia se recursos da biblioteca apoiam ensino e pesquisa, relacionando condições de funcionamento aos resultados institucionais esperados."
+  },
+  "real-acervo-8a043daf6bb9ff": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "por sua vez",
+    "exemplo": "A equipe prepara evidências consultando o instrumento aplicável, em vez de presumir que toda pergunta sobre infraestrutura exclua a biblioteca."
+  },
+  "real-acervo-9649b3bf02e44e": {
+    "perfil": "instrumentos-gestao",
+    "gatilho": "organogramas",
+    "exemplo": "Uma biblioteca utiliza um desenho radial para apresentar setores; outra prefere um arranjo vertical. Ambas precisam deixar claras as relações representadas."
+  },
+  "real-acervo-bb7cb9d29ac33e": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "citações",
+    "exemplo": "Uma revista muito citada pode ser relevante, mas sua manutenção ainda exige examinar se atende à comunidade e se há alternativas de acesso."
+  },
+  "real-acervo-79ad60a79c60fc": {
+    "perfil": "esquemas-xml",
+    "gatilho": "significa",
+    "exemplo": "Um campo marcado como autor pode ser reconhecido por uma aplicação que conhece o esquema, em vez de ser apenas texto visualmente destacado."
+  },
+  "real-acervo-db47d23bc8bf02": {
+    "perfil": "portais",
+    "gatilho": "ANATEL",
+    "exemplo": "Para localizar um manual antigo, a equipe identifica a publicação e a instituição responsável, mesmo que o endereço do portal tenha mudado."
+  },
+  "real-acervo-2c860f4d42faa4": {
+    "perfil": "identificadores",
+    "gatilho": "URI",
+    "exemplo": "Um identificador pode designar um recurso sem ser simplesmente seu endereço atual de acesso. Confundir as funções prejudica a gestão de links."
+  },
+  "real-acervo-786283c04f69ea": {
+    "perfil": "hardware",
+    "gatilho": "memória principal",
+    "exemplo": "Uma máquina pode ter CPU e módulos de RAM separados. O programa é carregado na memória e suas instruções são executadas pelo processador."
+  },
+  "real-acervo-697020b58dc989": {
+    "perfil": "redes-computadores",
+    "gatilho": "voz e de imagem",
+    "exemplo": "Uma aplicação de reunião pode reunir áudio, vídeo e compartilhamento de tela. A presença de voz por IP não define sozinha todos os seus componentes."
+  },
+  "real-acervo-bd187ef741a97a": {
+    "perfil": "hardware",
+    "gatilho": "QWERTY",
+    "exemplo": "Um teclado brasileiro pode apresentar cedilha e posições próprias de sinais, mesmo compartilhando a disposição alfabética QWERTY."
+  },
+  "real-acervo-0b7832c63a7a35": {
+    "perfil": "direitos",
+    "gatilho": "Contenteguard",
+    "exemplo": "Uma plataforma pode limitar impressão ou prazo de acesso conforme licença. A restrição técnica precisa ser distinguida do fundamento jurídico dos direitos."
+  },
+  "real-acervo-7a57f4e702f1ca": {
+    "perfil": "usabilidade",
+    "gatilho": "interação",
+    "exemplo": "Um botão precisa indicar sua finalidade e apresentar resposta após ser acionado; cor e ícone não devem ser os únicos meios de comunicar o resultado."
+  },
+  "real-acervo-6b05c80802d6d2": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "softwares livres",
+    "exemplo": "Uma biblioteca pode usar um programa livre e ainda precisar contratar suporte e preparar sua equipe para operar o sistema."
+  },
+  "real-acervo-5855d471e98554": {
+    "perfil": "automacao",
+    "gatilho": "análise dos sistemas existentes",
+    "exemplo": "Antes de exigir um módulo de reservas, a equipe analisa como atende pedidos hoje e identifica os problemas que o sistema deverá resolver."
+  },
+  "real-acervo-ba187407966e89": {
+    "perfil": "editorial",
+    "gatilho": "OJS",
+    "exemplo": "Uma revista recebe manuscritos, encaminha avaliação e organiza publicação numa plataforma editorial, mantendo decisões sob responsabilidade de sua equipe."
+  },
+  "real-acervo-210717bb10f08d": {
+    "perfil": "hardware",
+    "gatilho": "ROM",
+    "exemplo": "Desligar o equipamento não apaga automaticamente o firmware armazenado em memória não volátil; isso difere do comportamento usual da RAM."
+  },
+  "real-acervo-3b40d61c5f5d45": {
+    "perfil": "hardware",
+    "gatilho": "periféricos",
+    "exemplo": "Um scanner fornece dados, um monitor apresenta resultados e uma unidade externa guarda arquivos, apoiando operações do computador."
+  },
+  "real-acervo-bc7612e087b65e": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "texto completo",
+    "exemplo": "Um repositório disponibiliza o relatório completo com seus metadados; uma base meramente referencial pode informar apenas como localizar o documento."
+  },
+  "real-acervo-12599f7c0c8052": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "GreenStone",
+    "exemplo": "Uma coleção de relatos digitais pode ser organizada para pesquisa por metadados e conteúdo, com processamento e índices preparados pela ferramenta."
+  },
+  "real-acervo-95f283bb371bda": {
+    "perfil": "interoperabilidade",
+    "gatilho": "FRBR",
+    "exemplo": "Duas instituições podem compartilhar conceitos de obra e ainda precisar definir formatos, campos e protocolo para efetivamente trocar registros."
+  },
+  "real-acervo-3d7f0c74885054": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "nacionais",
+    "exemplo": "Uma biblioteca compara módulos, suporte, interoperabilidade e contrato de produtos nacionais, sem decidir apenas pelo país de desenvolvimento."
+  },
+  "real-acervo-3db945d77be74a": {
+    "perfil": "web-semantica",
+    "gatilho": "durante o processo de autoria",
+    "exemplo": "Ao criar um relatório, a equipe pode identificar autores e entidades com dados estruturados e relacioná-los a recursos pertinentes."
+  },
+  "real-acervo-84904171748d26": {
+    "perfil": "ciencia-info",
+    "gatilho": "sustentação teórica",
+    "exemplo": "Uma dificuldade de recuperação numa biblioteca pode ser estudada cientificamente e gerar orientações para melhorar a representação dos documentos."
+  },
+  "real-acervo-06556ebf914a2e": {
+    "perfil": "hardware",
+    "gatilho": "três partes",
+    "exemplo": "A CPU busca instruções na memória, executa operações e coordena o processamento. A RAM pode estar instalada em módulos separados."
+  },
+  "real-acervo-ced4506edabe3a": {
+    "perfil": "sri",
+    "gatilho": "dados estatísticos",
+    "exemplo": "Termos que aparecem repetidamente juntos podem receber associação no modelo, mas o resultado ainda precisa ser interpretado no contexto do documento."
+  },
+  "real-acervo-7fe4fc924f3a6e": {
+    "perfil": "sistemas-info",
+    "gatilho": "também denominados",
+    "exemplo": "Uma aplicação registra transações; um relatório gerencial sintetiza informações para decidir prioridades. As funções podem se articular sem serem idênticas."
+  },
+  "real-acervo-a2774b74444324": {
+    "perfil": "automacao",
+    "gatilho": "rede de comunicação",
+    "exemplo": "Uma solução adequada ao atendimento pode falhar se não houver conectividade ou meios de migrar e manter os registros da coleção."
+  },
+  "real-acervo-1434f509d0fca8": {
+    "perfil": "automacao",
+    "gatilho": "três tipos",
+    "exemplo": "Uma aplicação bibliotecária utiliza serviços do ambiente de execução e de persistência de dados, mesmo quando parte da infraestrutura fica hospedada remotamente."
+  },
+  "real-acervo-1e60a355bd14a5": {
+    "perfil": "bancos",
+    "gatilho": "registros similares",
+    "exemplo": "Registros de livros possuem títulos e autores distintos, mas utilizam campos compatíveis que permitem pesquisar a coleção de forma organizada."
+  },
+  "real-acervo-08e5087f6aa818": {
+    "perfil": "bancos",
+    "gatilho": "ISIS",
+    "exemplo": "A equipe pode criar uma apresentação breve para busca e outra completa para consulta, utilizando os mesmos dados bibliográficos."
+  },
+  "real-acervo-8c96e4edbd09bd": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "Biblivre",
+    "exemplo": "Um programa pode ser gratuito sem permitir modificar o código. Ao avaliar uma solução livre, consulte a licença e as condições de manutenção."
+  },
+  "real-acervo-8273607f3c4835": {
+    "perfil": "automacao",
+    "gatilho": "conversão retrospectiva",
+    "exemplo": "Fichas de um catálogo antigo são transformadas e conferidas para integrar uma base pesquisável, preservando identificação e consistência dos dados."
+  },
+  "real-acervo-65e8a23d153d3d": {
+    "perfil": "bibliografia",
+    "gatilho": "produtos",
+    "exemplo": "Uma base de especialistas e um portal de informação podem organizar e oferecer acesso a dados bibliográficos e institucionais para necessidades distintas."
+  },
+  "real-acervo-c9b8818cf5d421": {
+    "perfil": "automacao",
+    "gatilho": "requisitos específicos",
+    "exemplo": "Antes de contratar, a equipe verifica se o sistema atende a materiais diferentes e permite configurar perfis de acesso sem comprometer o trabalho."
+  },
+  "real-acervo-22b69a180998bd": {
+    "perfil": "marc",
+    "gatilho": "Metadado",
+    "exemplo": "Uma informação sobre licença é metadado, mas não constitui sozinha o registro bibliográfico completo de um recurso."
+  },
+  "real-acervo-61dfe2429404b4": {
+    "perfil": "indexacao",
+    "gatilho": "dois momentos",
+    "exemplo": "O usuário pode localizar um relatório pelo autor ou por um assunto indexado, utilizando informações complementares de representação."
+  },
+  "real-acervo-fa626884c6edc3": {
+    "perfil": "automacao",
+    "gatilho": "automaticamente",
+    "exemplo": "Ao migrar fichas ou dados antigos, a equipe verifica campos e autoridades, pois um erro pode ser transportado para milhares de registros."
+  },
+  "real-acervo-05018e6f642f5a": {
+    "perfil": "busca",
+    "gatilho": "usuário remoto",
+    "exemplo": "Uma pessoa pesquisa o catálogo da instituição e depois consulta uma base externa indicada no portal, sem precisar estar fisicamente na biblioteca."
+  },
+  "real-acervo-3e524326eeeb49": {
+    "perfil": "abordagens-usuario",
+    "gatilho": "cognitiva",
+    "exemplo": "Uma pesquisa observa preferências de busca; outra investiga como o conhecimento prévio modifica a interpretação dos resultados apresentados."
+  },
+  "real-acervo-e92d568cb48967": {
+    "perfil": "sri",
+    "gatilho": "satisfação",
+    "exemplo": "A usuária encontra vários artigos, mas precisa avaliar quais ajudam a responder sua pergunta de pesquisa, considerando o significado dos resultados."
+  },
+  "real-acervo-377c8aafb97326": {
+    "perfil": "busca",
+    "gatilho": "lógica dos conjuntos",
+    "exemplo": "Uma busca combina sinônimos com OR e conceitos distintos com AND; exclusões precisam ser testadas para não retirar documentos relevantes."
+  },
+  "real-acervo-f5510aaf0cbdea": {
+    "perfil": "gi",
+    "gatilho": "mais importantes",
+    "exemplo": "Dados entram corretamente, mas ficam inutilizáveis se não forem organizados e preservados de forma adequada para consulta e uso."
+  },
+  "real-acervo-f71601371079b5": {
+    "perfil": "redes-computadores",
+    "gatilho": "topologia",
+    "exemplo": "Uma rede local pode conectar estações a um equipamento central; outro arranjo descreve conexões num anel lógico. Alcance e topologia são critérios distintos."
+  },
+  "real-acervo-edaec784e8cc71": {
+    "perfil": "automacao",
+    "gatilho": "recuperação",
+    "exemplo": "Um programa pode armazenar registros relacionais, mas não permitir cruzar assunto e data. O modelo da base não prova a qualidade da pesquisa oferecida."
+  },
+  "real-acervo-c612e73d7c81c4": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "gerenciamento operacional",
+    "exemplo": "Uma aplicação pesquisa documentos, mas pode não controlar empréstimos ou usuários. A presença de busca não define um sistema completo de gestão bibliotecária."
+  },
+  "real-acervo-331bab304eaafd": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "conversão retrospectiva",
+    "exemplo": "Uma biblioteca relaciona fichas antigas a registros existentes e acrescenta sua localização, conferindo diferenças de edição antes de consolidar dados."
+  },
+  "real-acervo-c076d7279104e1": {
+    "perfil": "interoperabilidade",
+    "gatilho": "processamento interno",
+    "exemplo": "Duas bibliotecas podem exportar o mesmo formato e armazenar seus dados internamente de maneiras diferentes, desde que o mapeamento seja correto."
+  },
+  "real-acervo-a4dab6c5379aa9": {
+    "perfil": "busca-web",
+    "gatilho": "HT://Dig",
+    "exemplo": "Uma biblioteca pode indexar páginas de seu sítio para facilitar buscas internas, distinguindo esse índice de uma busca em toda a Internet."
+  },
+  "real-acervo-ff72245e6b08c7": {
+    "perfil": "preservacao-digital",
+    "gatilho": "condições adequadas",
+    "exemplo": "Um arquivo guardado em disco pode ficar inacessível por corrupção ou obsolescência. A equipe precisa monitorar e planejar sua continuidade de acesso."
+  },
+  "real-acervo-90797dc4f1bfa8": {
+    "perfil": "redes-juridicas",
+    "gatilho": "BDJur",
+    "exemplo": "Uma pessoa pode pesquisar título, autor ou assunto para localizar documentos nos repositórios participantes, conferindo a cobertura de cada instituição."
+  },
+  "real-acervo-be1944d3c2ce8a": {
+    "perfil": "redes-juridicas",
+    "gatilho": "objetivo",
+    "exemplo": "Compartilhar catálogos permite localizar documentos, mas não significa liberar sistemas administrativos ou dados protegidos de uma instituição."
+  },
+  "real-acervo-a3bf4eebd300ef": {
+    "perfil": "catalogacao-cooperativa",
+    "gatilho": "bibliodata",
+    "exemplo": "Uma biblioteca aproveita um registro produzido por outra, verifica a edição e acrescenta seus próprios dados de exemplar e localização."
+  },
+  "real-acervo-2daa4ac3cf75a4": {
+    "perfil": "catalogacao",
+    "gatilho": "não apenas",
+    "exemplo": "Um usuário encontra um livro pelo autor e outro pelo assunto; os dois acessos dependem de representação coerente no catálogo."
+  },
+  "real-acervo-9a3d4db63a136c": {
+    "perfil": "rvbi",
+    "gatilho": "bibliotecas digitais",
+    "exemplo": "Um registro indica que uma instituição possui uma obra; a consulta ao arquivo digital, quando houver, pode depender de outro serviço e de sua licença."
+  },
+  "real-acervo-307193cb4a22aa": {
+    "perfil": "redes-juridicas",
+    "gatilho": "tribunais regionais eleitorais",
+    "exemplo": "Uma pessoa localiza material mantido por outra biblioteca participante, enquanto a unidade responsável continua identificável no atendimento."
+  },
+  "real-acervo-12b0e432b63f24": {
+    "perfil": "marc",
+    "gatilho": "mesmo formato",
+    "exemplo": "Duas bibliotecas podem empregar MARC e ainda precisar harmonizar autoridades e regras locais antes de trocar seus registros com consistência."
+  },
+  "real-acervo-a9be2d70a08c05": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "Drupal",
+    "exemplo": "Um portal institucional pode ser montado num CMS, enquanto um repositório exige fluxos e metadados específicos; integração e adaptação precisam ser planejadas."
+  },
+  "real-acervo-a313aafba78767": {
+    "perfil": "redes-bibliotecas",
+    "gatilho": "menor custo",
+    "exemplo": "Produzir um registro compartilhado pode evitar repetição do trabalho em várias instituições, desde que a padronização e a manutenção sejam sustentáveis."
+  },
+  "real-acervo-93f0ce81325338": {
+    "perfil": "rvbi",
+    "gatilho": "descentralizado",
+    "exemplo": "Uma unidade pode identificar uma variante e encaminhar proposta de ajuste, mantendo um processo que preserve a consistência das formas na rede."
+  },
+  "real-acervo-900fe1ba161fce": {
+    "perfil": "lexml",
+    "gatilho": "apenas",
+    "exemplo": "Um resultado pode levar à fonte responsável pelo ato, permitindo conferir sua publicação e o conteúdo disponibilizado pela instituição."
+  },
+  "real-acervo-33d3a48919d2c1": {
+    "perfil": "lexml",
+    "gatilho": "vocabulário controlado de assuntos",
+    "exemplo": "Uma interface pode filtrar tipo de documento e permitir palavras livres no assunto, sem utilizar a mesma estrutura de controle nos dois campos."
+  },
+  "real-acervo-1946133fc943e4": {
+    "perfil": "niveis-planejamento",
+    "gatilho": "tempo",
+    "exemplo": "Um projeto tem cronograma curto e pode contribuir para uma diretriz estratégica de longo alcance, sem que os dois planos sejam idênticos."
+  },
+  "real-acervo-392d28c17fc757": {
+    "perfil": "oai",
+    "gatilho": "seis verbos",
+    "exemplo": "Um coletor consulta ListSets para conhecer conjuntos disponíveis e depois utiliza uma requisição adequada para obter registros ou identificadores."
+  },
+  "real-acervo-e55602aa05d3cb": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "Koha",
+    "exemplo": "Um sistema controla empréstimos e exemplares; um repositório organiza depósito e acesso a objetos digitais. A escolha parte dos requisitos desejados."
+  },
+  "real-acervo-bb9424ad961d2b": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "serviços",
+    "exemplo": "Um usuário remoto consulta documentos e recebe orientação de pesquisa sem deslocamento físico, conforme os recursos e serviços disponibilizados."
+  },
+  "real-acervo-85c09db90d468c": {
+    "perfil": "identificadores",
+    "gatilho": "persistentes",
+    "exemplo": "Ao mudar um arquivo de servidor, a instituição atualiza o destino associado ao identificador, preservando o caminho de referência para o usuário."
+  },
+  "real-acervo-5e47d8bdc5dac1": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "eletrônica",
+    "exemplo": "Uma biblioteca pode combinar catálogo eletrônico, objetos digitais e atendimento remoto. Cada componente participa de seu ambiente informacional."
+  },
+  "real-acervo-f1645f3c438b89": {
+    "perfil": "abreviacao",
+    "gatilho": "Econômico-Social",
+    "exemplo": "Ao abreviar um título com termo composto hifenizado, a equipe consulta a forma prevista e conserva a relação entre seus elementos."
+  },
+  "real-acervo-8d799fcec1302f": {
+    "perfil": "abreviacao",
+    "gatilho": "títulos completos",
+    "exemplo": "Ao encontrar um título abreviado numa referência, o leitor pode consultar a lista e localizar o periódico correspondente sem adivinhar a sigla."
+  },
+  "real-acervo-d7f81297b6bfd7": {
+    "perfil": "tipos-fontes",
+    "gatilho": "ordem de apresentação",
+    "exemplo": "Ao elaborar um guia, a equipe identifica serviços, acesso e características da unidade; não substitui isso por aplicar uma regra de numeração progressiva."
+  },
+  "real-acervo-6b8e5b411a3cc5": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "única parte",
+    "exemplo": "Uma enciclopédia planejada em vários volumes pode ter conclusão predeterminada, sem se tornar uma publicação seriada de continuidade indefinida."
+  },
+  "real-acervo-5e6ac8cd7a8573": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "cinquenta a cem",
+    "exemplo": "Um resumo breve de indicação não recebe automaticamente o mesmo limite de uma dissertação. Antes de contar palavras, identifique o tipo e a norma."
+  },
+  "real-acervo-86a2cb8dbe5deb": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "seguido de informação",
+    "exemplo": "Um resumo pode iniciar indicando o tema e que se trata de estudo de caso, para então sintetizar as informações pertinentes."
+  },
+  "real-acervo-fa053b3915815d": {
+    "perfil": "abreviacao",
+    "gatilho": "publ.",
+    "exemplo": "Ao usar a abreviatura de uma revista jurídica, a equipe consulta a forma normalizada em vez de improvisar abreviações a partir das primeiras letras."
+  },
+  "real-acervo-737a23dd93920f": {
+    "perfil": "indices",
+    "gatilho": "cabeçalhos simples",
+    "exemplo": "Num cabeçalho formado por várias palavras, a equipe avalia outros termos pelos quais ele pode ser procurado; isso difere de uma entrada simples."
+  },
+  "real-acervo-ea98972d197c5b": {
+    "perfil": "edicao-publicacao",
+    "gatilho": "lombadas",
+    "exemplo": "Antes de preparar a lombada com vários responsáveis, a editora confere disposição, legibilidade e separação dos nomes para a orientação adotada."
+  },
+  "real-acervo-a6de5c3743fc36": {
+    "perfil": "referencias",
+    "gatilho": "entre os sinais",
+    "exemplo": "Uma questão antiga pode exigir a forma com sinais angulares; ao elaborar um trabalho hoje, o aluno verifica a edição de referência solicitada."
+  },
+  "real-acervo-a727cb2a7282bc": {
+    "perfil": "gestores-referencia",
+    "gatilho": "ABNT 6023 e Vancouver",
+    "exemplo": "Ao exportar uma referência do buscador, o aluno compara autoria, título e publicação com o documento original e ajusta a norma exigida."
+  },
+  "real-acervo-3f89ac417cd3a7": {
+    "perfil": "indices",
+    "gatilho": "sistemáticos",
+    "exemplo": "Um índice por sequência temporal permite localizar fatos por período; um índice alfabético procura termos em ordem de letras."
+  },
+  "real-acervo-28fd38018aec26": {
+    "perfil": "resumos",
+    "gatilho": "críticos",
+    "exemplo": "Ao estudar uma prova antiga, o aluno identifica a categoria e a edição antes de aplicar o limite indicado para um resumo informativo."
+  },
+  "real-acervo-66594434d020c0": {
+    "perfil": "referencias",
+    "gatilho": "entrada de nomes",
+    "exemplo": "A forma de um nome pode ser conferida num código de catalogação, enquanto a referência organiza os demais dados segundo a NBR aplicável."
+  },
+  "real-acervo-5a1cde1a26e41f": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "ponto e vírgula",
+    "exemplo": "Num exercício sobre a edição de 2003, o aluno usa o separador correspondente; num resumo atual, confere as orientações da edição solicitada."
+  },
+  "real-acervo-14a5a412cd2397": {
+    "perfil": "resumos",
+    "gatilho": "três tipos",
+    "exemplo": "Uma pergunta de 2011 pode cobrar a tipologia antiga; elaborar um resumo atual exige conferir a norma e a categoria solicitadas."
+  },
+  "real-acervo-571bb703e75a8c": {
+    "perfil": "avaliacao-resumos",
+    "gatilho": "representações",
+    "exemplo": "O usuário consulta termos e uma síntese para decidir se o artigo é pertinente antes de procurar seu texto completo."
+  },
+  "real-acervo-ee176149172d6f": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "hierárquica",
+    "exemplo": "Uma indicação ver também pode encaminhar a outro assunto sem explicitar se é mais geral, mais específico ou apenas relacionado."
+  },
+  "real-acervo-4cbab4bb9380b1": {
+    "perfil": "abreviacao",
+    "gatilho": "sempre",
+    "exemplo": "Uma palavra isolada ou parte de um nome institucional pode exigir tratamento diferente de sua ocorrência num título composto."
+  },
+  "real-acervo-6da744982112fa": {
+    "perfil": "sumario",
+    "gatilho": "mesma localização",
+    "exemplo": "Quem acompanha uma revista aprende onde encontrar suas partes. Manter a localização do sumário facilita consultar diferentes números."
+  },
+  "real-acervo-1c829faaeebaed": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "voz ativa",
+    "exemplo": "Em vez de narrar minha experiência, o resumo apresenta de forma direta o que o trabalho examina e seus resultados, conforme a orientação aplicável."
+  },
+  "real-uneal-2026-52": {
+    "perfil": "avaliacao-acervo",
+    "gatilho": "por si sós",
+    "exemplo": "Uma coleção possui muitos volumes repetidos e desatualizados. A contagem cresce, mas isso não prova melhora no atendimento às pesquisas da comunidade."
+  },
+  "real-uneal-2026-59": {
+    "perfil": "tipos-fontes",
+    "gatilho": "acesso ao acervo",
+    "exemplo": "Um guia que lista nome e endereço, mas não esclarece se o acervo tem acesso livre ou restrito, deixa uma dúvida prática importante ao usuário."
+  },
+  "real-uneal-2026-63": {
+    "perfil": "marc",
+    "gatilho": "cinco padrões",
+    "exemplo": "Um sistema pode descrever uma revista, controlar a forma do nome de seu autor e informar os fascículos possuídos, usando estruturas apropriadas."
+  },
+  "real-uneal-2026-67": {
+    "perfil": "interoperabilidade",
+    "gatilho": "BIBFRAME",
+    "exemplo": "Dados sobre obra, instância e responsáveis podem ser relacionados e reutilizados na Web, sem que todas as informações precisem existir num único bloco isolado."
+  },
+  "real-uneal-2026-71": {
+    "perfil": "avaliar-servicos",
+    "gatilho": "único indicador",
+    "exemplo": "Uma biblioteca atende rapidamente, mas oferece respostas inadequadas. Medir só tempo de espera esconderia o problema de qualidade percebida."
+  },
+  "real-uneal-2026-75": {
+    "perfil": "resumos",
+    "gatilho": "indicativo",
+    "exemplo": "Uma síntese avisa que o texto examina políticas de preservação por estudo de caso, ajudando a decidir se vale consultar o documento."
+  },
+  "real-uneal-2026-80": {
+    "perfil": "rag",
+    "gatilho": "busca semântica",
+    "exemplo": "O sistema localiza passagens de um manual sobre empréstimo e as fornece ao gerador para responder, permitindo conferir de onde vieram as informações."
+  },
+  "real-uneal-2026-81": {
+    "perfil": "heuristicas",
+    "gatilho": "regras práticas",
+    "exemplo": "Ao procurar um caminho, o sistema usa uma estimativa de proximidade do destino para priorizar alternativas, sem afirmar que a estimativa seja uma prova."
+  },
+  "real-uneal-2026-82": {
+    "perfil": "redes-neurais",
+    "gatilho": "limitados",
+    "exemplo": "Uma rede aprende padrões em exemplos de imagens ou textos; aumentar sua complexidade também pode elevar custos e exigir cuidados com treinamento e avaliação."
+  },
+  "real-uneal-2026-85": {
+    "perfil": "bancos",
+    "gatilho": "data marts",
+    "exemplo": "Uma instituição reúne dados de serviços e oferece um recorte analítico para a biblioteca acompanhar atendimento e uso de recursos."
+  },
+  "real-uneal-2026-86": {
+    "perfil": "bancos",
+    "gatilho": "NoSQL",
+    "exemplo": "Uma aplicação guarda documentos com estruturas flexíveis, enquanto outra consulta relações em grafo. Ambas precisam de regras adequadas a seus objetivos."
+  },
+  "real-uneal-2026-87": {
+    "perfil": "bancos",
+    "gatilho": "evolução",
+    "exemplo": "Uma aplicação pode usar tabelas relacionais ou persistir objetos conforme seus requisitos; a escolha não altera a ordem histórica dos modelos."
+  },
+  "real-uneal-2026-88": {
+    "perfil": "bancos",
+    "gatilho": "redundância",
+    "exemplo": "Repetir o endereço de um mesmo usuário em várias tabelas pode gerar versões inconsistentes; uma modelagem adequada procura controlar esse problema."
+  },
+  "real-uneal-2026-91": {
+    "perfil": "dsi",
+    "gatilho": "personalizada",
+    "exemplo": "Uma pesquisadora recebe novos trabalhos sobre seu tema e informa quando a seleção se afasta de suas necessidades, ajudando a atualizar o perfil."
+  },
+  "real-uneal-2026-92": {
+    "perfil": "dsi",
+    "gatilho": "década de 50",
+    "exemplo": "Uma organização acompanha literatura técnica e encaminha novidades segundo perfis, ideia que antecede o uso de portais e mensagens na Internet."
+  },
+  "real-uneal-2026-98": {
+    "perfil": "metricas",
+    "gatilho": "não permitem",
+    "exemplo": "A equipe observa crescimento de atenção a um tema e cruza esse sinal com demandas locais, uso e cobertura dos recursos antes de decidir."
+  },
+  "real-uneal-2026-99": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "todos os tipos",
+    "exemplo": "Um comentário editorial e um artigo de pesquisa podem receber tratamentos diferentes no cálculo; conhecer a fórmula evita interpretar o número como retrato completo."
+  },
+  "real-uneal-2026-100": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Lotka",
+    "exemplo": "Contar quantos autores publicaram um, dois ou mais trabalhos é diferente de distribuir os artigos de uma área entre revistas."
+  },
+  "real-uneal-2026-101": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Zipf",
+    "exemplo": "Ao ordenar as palavras de um corpus por frequência, termos mais comuns tendem a ocupar posições iniciais e a frequência costuma decrescer com o posto."
+  },
+  "real-uneal-2026-103": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "Bradford",
+    "exemplo": "Um estudo conta autores por número de trabalhos; outro identifica revistas que concentram artigos de um tema. São problemas bibliométricos distintos."
+  },
+  "real-uneal-2026-104": {
+    "perfil": "leis-bibliometricas",
+    "gatilho": "contemporâneos",
+    "exemplo": "Um estudo atual pode analisar produtividade, dispersão e frequência textual, testando o ajuste dos dados em vez de pressupor resultados perfeitos."
+  },
+  "real-uneal-2026-105": {
+    "perfil": "indicadores-citacao",
+    "gatilho": "universal",
+    "exemplo": "Comparar um pesquisador iniciante de uma área de baixa citação com outro experiente de área muito citada exige mais que observar dois valores de h."
+  },
+  "real-uneal-2026-107": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "dinâmicas",
+    "exemplo": "Após mudar o tema da dissertação, a estudante pode precisar de fontes diferentes, mesmo continuando a usar a mesma biblioteca."
+  },
+  "real-uneal-2026-108": {
+    "perfil": "necessidade-demanda",
+    "gatilho": "sinônimos perfeitos",
+    "exemplo": "Uma pessoa pede um livro conhecido, mas precisa de dados atualizados para uma decisão. Esclarecer a tarefa pode mostrar uma fonte mais adequada."
+  },
+  "real-uneal-2026-112": {
+    "perfil": "preservacao-digital",
+    "gatilho": "suficientes",
+    "exemplo": "Um arquivo pode permanecer copiado em vários discos e ainda não abrir se depender de formato ou programa indisponível, sem ações de preservação."
+  },
+  "real-uneal-2026-114": {
+    "perfil": "preservacao-digital",
+    "gatilho": "hardwares e os softwares originais",
+    "exemplo": "Conservar um equipamento antigo e seu programa pode permitir abrir arquivos, mas exige suporte que se torna difícil de sustentar com o tempo."
   }
 }

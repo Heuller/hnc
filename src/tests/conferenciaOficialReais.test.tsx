@@ -22,9 +22,9 @@ describe('conferência documental do banco real', () => {
   it('cobre os 1.596 itens de origem e distingue consulta na banca, espelhos e pendências', () => {
     expect(relatorio.itens).toHaveLength(1596);
     expect(new Set(relatorio.itens.map(r => r.id))).toEqual(new Set(base.filter(q => q.estadoConferencia === 'caderno').map(q => q.id)));
-    expect(QUESTOES_REAIS).toHaveLength(1529);
-    expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(1329);
-    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(200);
+    expect(QUESTOES_REAIS).toHaveLength(1829);
+    expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(1590);
+    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(239);
     expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(0);
     for (const r of relatorio.itens) {
       const antes = base.find(q => q.id === r.id)!;

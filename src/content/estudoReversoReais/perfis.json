@@ -1142,5 +1142,29 @@
     "tecnica": "Técnica: Interface de programação versus interface visual. Verifique como programas trocam dados e quais regras precisam seguir. Uma API não torna qualquer sistema automaticamente compatível com todos os outros.",
     "contrasteErrado": "API é apenas a página visual usada pelo leitor e não permite comunicação entre programas.",
     "referencia": "api-camara"
+  },
+  "rag": {
+    "titulo": "RAG: recuperar fontes para apoiar a geração",
+    "regra": "Geração aumentada por recuperação combina um mecanismo de recuperação e um modelo gerador. Na arquitetura estudada por Lewis e colaboradores, representações vetoriais ajudam a localizar passagens que são fornecidas ao gerador. A qualidade depende da coleção, da recuperação e do uso das fontes; a presença de documentos recuperados não garante uma resposta correta.",
+    "exemplo": "Uma assistente consulta trechos de uma política institucional antes de elaborar orientação sobre atendimento. A resposta precisa ser conferida nas passagens e na versão da política.",
+    "tecnica": "Distinguir recuperação de fontes, geração de texto e verificação da resposta. A semelhança vetorial não prova, sozinha, pertinência ou verdade.",
+    "contrasteErrado": "RAG elimina a recuperação de documentos e garante respostas corretas apenas por aumentar o tamanho do modelo.",
+    "referencia": "rag-lewis-2020"
+  },
+  "heuristicas": {
+    "titulo": "Heurísticas: orientar a busca por soluções",
+    "regra": "Uma heurística fornece orientação prática ou estimativa para priorizar alternativas em um problema. Pode reduzir o esforço de busca, mas suas garantias dependem das propriedades da função e do algoritmo. Heurística não é sinônimo de provar a melhor solução em qualquer situação.",
+    "exemplo": "Um programa prioriza caminhos que parecem próximos do destino. A estimativa orienta a exploração, mas precisa ser distinguida do custo real do percurso.",
+    "tecnica": "Separar uma orientação útil de uma garantia universal de otimalidade. Conferir quais condições o método exige.",
+    "contrasteErrado": "Uma heurística é uma prova universal de que qualquer solução encontrada será a melhor possível.",
+    "referencia": "aima-busca"
+  },
+  "redes-neurais": {
+    "titulo": "Redes neurais: unidades conectadas e aprendizagem",
+    "regra": "Redes neurais compõem funções por unidades e camadas e ajustam parâmetros a partir de dados. A conexão permite representar relações complexas; não implica uma limitação geral de aplicações. Arquitetura, dados, treinamento, recursos e avaliação influenciam capacidade, custo e generalização.",
+    "exemplo": "Um classificador aprende padrões em exemplos de documentos. Bom desempenho no conjunto de treino não garante o mesmo resultado em documentos de outro contexto.",
+    "tecnica": "Não deduzir uma limitação absoluta apenas da existência de muitas unidades. Distinguir capacidade do modelo, custo computacional e desempenho observado.",
+    "contrasteErrado": "Uma rede neural não pode modelar relações complexas porque possui unidades interconectadas.",
+    "referencia": "deep-learning-mlp"
   }
 }

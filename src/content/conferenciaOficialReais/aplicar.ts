@@ -1,10 +1,11 @@
 import registro from './registro.json';
+import lote06 from './lote06.json';
 import type { QuestaoReal } from '../questoesReais';
 
 type Fonte = { provaUrl: string; gabaritoUrl: string; modo: 'original' | 'copia'; tipoGabarito: 'tabela' | 'recurso'; codigo: string };
 type Conferencia = { fonteId: string; numero: number; gabarito: 'C' | 'E' | 'X' };
-const fontes = registro.fontes as Record<string, Fonte>;
-const itens = registro.itens as Record<string, Conferencia>;
+const fontes = { ...registro.fontes, ...lote06.fontes } as Record<string, Fonte>;
+const itens = { ...registro.itens, ...lote06.itens } as Record<string, Conferencia>;
 const editorial = registro.editorial as Record<string, Partial<QuestaoReal>>;
 
 /** O JSON de origem é histórico. Treinos usam apenas itens documentalmente conferidos. */

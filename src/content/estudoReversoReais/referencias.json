@@ -522,5 +522,20 @@
     "titulo": "Cebraspe — SERPRO 2013: justificativas de alteração do gabarito",
     "localizador": "Cargo 4, item 115: alteração de C para E; desafio de bibliotecários e editores.",
     "url": "https://cdn.cebraspe.org.br/concursos/SERPRO_13/arquivos/SERPRO_2013_JUSTIFICATIVAS_DE_ALTERA____O_DE_GABARITO.PDF"
+  },
+  "rag-lewis-2020": {
+    "titulo": "Lewis e colaboradores — Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)",
+    "localizador": "Resumo e arquitetura RAG: combinação de memória paramétrica com recuperação de passagens em índice vetorial; aceito no NeurIPS 2020.",
+    "url": "https://arxiv.org/abs/2005.11401"
+  },
+  "aima-busca": {
+    "titulo": "Russell e Norvig — Artificial Intelligence: A Modern Approach, 4ª edição",
+    "localizador": "Capítulo 3: resolução de problemas por busca e busca heurística; distinguir estimativas e condições de garantia do algoritmo.",
+    "url": "https://aima.cs.berkeley.edu/"
+  },
+  "deep-learning-mlp": {
+    "titulo": "Goodfellow, Bengio e Courville — Deep Learning (2016)",
+    "localizador": "Capítulo 6: Deep Feedforward Networks; composição de funções, camadas, parâmetros e aprendizagem.",
+    "url": "https://www.deeplearningbook.org/contents/mlp.html"
   }
 }

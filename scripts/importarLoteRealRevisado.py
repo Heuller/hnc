@@ -37,7 +37,8 @@ def integrar(manifesto, base, anotacoes, perfis, inline):
     if len(ids) != len(antigos):
         raise ValueError('IDs duplicados no banco anterior.')
     resultado = list(anteriores)
-    notas = {id: a for id, a in anotacoes.items() if id in ids}
+    # Outros lotes podem estar em arquivos próprios; reimportar este lote não os apaga.
+    notas = dict(anotacoes)
     for entrada in entradas:
         q, a, ev = (entrada[k] for k in ['questao', 'anotacao', 'evidencia'])
         ident = q['id']

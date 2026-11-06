@@ -31,7 +31,8 @@ describe('questões reais por módulo', () => {
         expect(q.provaUrl).toMatch(/^https:\/\/cdn\.cebraspe\.org\.br\//);
         expect(q.gabaritoUrl).toMatch(/^https:\/\/cdn\.cebraspe\.org\.br\//);
       }
-      expect(q.acervoUrl).toMatch(/^https:\/\/drive\.google\.com\//);
+      expect(q.acervoUrl).toMatch(/^https:\/\/(?:drive\.google\.com|cdn\.cebraspe\.org\.br)\//);
+      if (!q.acervoUrl.startsWith('https://drive.google.com/')) expect(q.acervoUrl).toBe(q.provaUrl);
       expect(q.justificativa.length).toBeGreaterThan(50);
       expect(q.modulo).toBe(`M${q.submoduloId?.split('.')[0]}`);
       expect(['C', 'E']).toContain(q.gabarito);
