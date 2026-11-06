@@ -1,0 +1,1577 @@
+{
+  "fontes": {
+    "of-ed23d2a659f1": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/capes_23/arquivos/947_CAPES_002_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/capes_23/arquivos/GAB_DEFINITIVO_947_CAPES_002_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "947_CAPES_002_01"
+    },
+    "of-adc78534c80e": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/PREF_CACHOEIRO_24_ADM/arquivos/937_PCI_ADMINISTRATIVO_011_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/PREF_CACHOEIRO_24_ADM/arquivos/GAB_DEFINITIVO_937_PCI_ADMINISTRATIVO_011_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "937_PCI_ADMINISTRATIVO_011_01"
+    },
+    "of-686679d491f2": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/FUB_22/arquivos/678_FUB_004_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/FUB_22/arquivos/GAB_DEFINITIVO_678_FUB_004_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "678_FUB_004_01"
+    },
+    "of-98702f09522f": {
+      "provaUrl": "https://arquivos.qconcursos.com/prova/arquivo_prova/58697/cespe-2018-iphan-tecnico-i-area-5-prova.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/IPHAN_18/arquivos/GAB_DEFINITIVO_XX403_IPHAN_013_00.PDF",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "403_IPHAN_013_00"
+    },
+    "of-3db2c33e190a": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/mp_ce_25_servidor/arquivos/055_MPCE_003_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/mp_ce_25_servidor/arquivos/Gab_Definitivo_055_MPCE_003_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "055_MPCE_003_01"
+    },
+    "of-833c2e3c897e": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/PC_DF_24_ADM/arquivos/021_PCDF_006_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/GAB_DEFINITIVO_021_PCDF_006_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "021_PCDF_006_01"
+    },
+    "of-475f37973bd0": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/SEE_PE_22/arquivos/736_SEEPEANALISTAASSISTENTE_002_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/SEE_PE_22/arquivos/GAB_DEFINITIVO_736_SEEPEANALISTAASSISTENTE_002_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "736_SEEPEANALISTAASSISTENTE_002_01"
+    },
+    "of-cc7283fafd18": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_005_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_005_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "018_STJ_005_01"
+    },
+    "of-fde51a905108": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/tj_am_19_servidor/arquivos/481_tjam003_matriz.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/TJ_AM_19_SERVIDOR/arquivos/GAB_DEFINITIVO_MATRIZ_481_TJAM003__PAG_4.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "Matriz_481_TJAM003_ Pag 4"
+    },
+    "of-75799ddc2bba": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/988_CPNUJE_005_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_005_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "988_CPNUJE_005_01"
+    }
+  },
+  "itens": {
+    "real-acervo-0df2ba68185bb0": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 51,
+      "gabarito": "E"
+    },
+    "real-acervo-46cd8cc05473ab": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 52,
+      "gabarito": "E"
+    },
+    "real-acervo-ecfe5731bdf385": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 53,
+      "gabarito": "C"
+    },
+    "real-acervo-432da7009ae12b": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 54,
+      "gabarito": "E"
+    },
+    "real-acervo-f8eaefe68c2cf5": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 55,
+      "gabarito": "C"
+    },
+    "real-acervo-4aba0f0a9915d3": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 57,
+      "gabarito": "C"
+    },
+    "real-acervo-1e7687805dc217": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 58,
+      "gabarito": "C"
+    },
+    "real-acervo-540782aa7af834": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 59,
+      "gabarito": "E"
+    },
+    "real-acervo-d9d48c359e9519": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 60,
+      "gabarito": "E"
+    },
+    "real-acervo-4001958293015d": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 62,
+      "gabarito": "E"
+    },
+    "real-acervo-f684089892a025": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 64,
+      "gabarito": "C"
+    },
+    "real-acervo-ef87387345aa3a": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 65,
+      "gabarito": "E"
+    },
+    "real-acervo-8695ad0c6b4941": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 66,
+      "gabarito": "E"
+    },
+    "real-acervo-ac4f01df452131": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 67,
+      "gabarito": "E"
+    },
+    "real-acervo-1819aa8184baf8": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-acervo-54e22dfb2f0794": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-acervo-080846c579855b": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 72,
+      "gabarito": "C"
+    },
+    "real-acervo-935969e839e028": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 73,
+      "gabarito": "C"
+    },
+    "real-acervo-1347ec502cf58d": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 74,
+      "gabarito": "C"
+    },
+    "real-acervo-028f33ddbcbb8d": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 75,
+      "gabarito": "C"
+    },
+    "real-acervo-c736486026be29": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 78,
+      "gabarito": "C"
+    },
+    "real-acervo-751fb65e6e75f7": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 79,
+      "gabarito": "E"
+    },
+    "real-acervo-3ec85f20eb2801": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 81,
+      "gabarito": "E"
+    },
+    "real-acervo-4ff4d47dcb74d1": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 82,
+      "gabarito": "E"
+    },
+    "real-acervo-d11165e7352d3c": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 83,
+      "gabarito": "C"
+    },
+    "real-acervo-28476212d5c275": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 86,
+      "gabarito": "E"
+    },
+    "real-acervo-ea8bf31cd626de": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 87,
+      "gabarito": "C"
+    },
+    "real-acervo-fe14fd9df7d348": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 88,
+      "gabarito": "C"
+    },
+    "real-acervo-7ffc4be901ea3e": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 90,
+      "gabarito": "C"
+    },
+    "real-acervo-6d76e8a780d95f": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 91,
+      "gabarito": "E"
+    },
+    "real-acervo-eab21d91adf660": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 93,
+      "gabarito": "E"
+    },
+    "real-acervo-356ff2f9e10702": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 94,
+      "gabarito": "E"
+    },
+    "real-acervo-5cd9f957dd95b8": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 95,
+      "gabarito": "E"
+    },
+    "real-acervo-1cfd9753cf9505": {
+      "fonteId": "of-ed23d2a659f1",
+      "numero": 96,
+      "gabarito": "E"
+    },
+    "real-acervo-67bacd71c64551": {
+      "fonteId": "of-adc78534c80e",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-acervo-2d2d5529f6a163": {
+      "fonteId": "of-adc78534c80e",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-acervo-a6e4fdbdd5d855": {
+      "fonteId": "of-adc78534c80e",
+      "numero": 82,
+      "gabarito": "C"
+    },
+    "real-acervo-7e96e719f71464": {
+      "fonteId": "of-adc78534c80e",
+      "numero": 83,
+      "gabarito": "E"
+    },
+    "real-acervo-7dd5a2672f47cf": {
+      "fonteId": "of-adc78534c80e",
+      "numero": 86,
+      "gabarito": "E"
+    },
+    "real-acervo-89dcba8e0a2b82": {
+      "fonteId": "of-adc78534c80e",
+      "numero": 87,
+      "gabarito": "C"
+    },
+    "real-acervo-196be61c219371": {
+      "fonteId": "of-adc78534c80e",
+      "numero": 88,
+      "gabarito": "E"
+    },
+    "real-acervo-602fbb696bd765": {
+      "fonteId": "of-686679d491f2",
+      "numero": 52,
+      "gabarito": "E"
+    },
+    "real-acervo-6aa3120a9f1b05": {
+      "fonteId": "of-686679d491f2",
+      "numero": 53,
+      "gabarito": "E"
+    },
+    "real-acervo-b38eaecfc03399": {
+      "fonteId": "of-686679d491f2",
+      "numero": 58,
+      "gabarito": "C"
+    },
+    "real-acervo-ce9c1fd947d3c3": {
+      "fonteId": "of-686679d491f2",
+      "numero": 60,
+      "gabarito": "E"
+    },
+    "real-acervo-44bf96c03c36e4": {
+      "fonteId": "of-686679d491f2",
+      "numero": 64,
+      "gabarito": "C"
+    },
+    "real-acervo-7e223ab1ea876b": {
+      "fonteId": "of-686679d491f2",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-acervo-4aa7459cd1c0aa": {
+      "fonteId": "of-686679d491f2",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-acervo-ed085a01f67add": {
+      "fonteId": "of-686679d491f2",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-acervo-567397e99b1fd0": {
+      "fonteId": "of-686679d491f2",
+      "numero": 70,
+      "gabarito": "E"
+    },
+    "real-acervo-b8a85b9d42cdd7": {
+      "fonteId": "of-686679d491f2",
+      "numero": 71,
+      "gabarito": "E"
+    },
+    "real-acervo-7ddba6f6edb85a": {
+      "fonteId": "of-686679d491f2",
+      "numero": 72,
+      "gabarito": "E"
+    },
+    "real-acervo-0a6d0ed2e1d39c": {
+      "fonteId": "of-686679d491f2",
+      "numero": 75,
+      "gabarito": "C"
+    },
+    "real-acervo-ce2eacb8426278": {
+      "fonteId": "of-686679d491f2",
+      "numero": 76,
+      "gabarito": "E"
+    },
+    "real-acervo-bd233f6385798e": {
+      "fonteId": "of-686679d491f2",
+      "numero": 77,
+      "gabarito": "E"
+    },
+    "real-acervo-3fc4485a376f45": {
+      "fonteId": "of-686679d491f2",
+      "numero": 78,
+      "gabarito": "C"
+    },
+    "real-acervo-028ef0a1be0961": {
+      "fonteId": "of-686679d491f2",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-acervo-6bef3cef91d316": {
+      "fonteId": "of-686679d491f2",
+      "numero": 80,
+      "gabarito": "E"
+    },
+    "real-acervo-81516e403d810a": {
+      "fonteId": "of-686679d491f2",
+      "numero": 81,
+      "gabarito": "C"
+    },
+    "real-acervo-3e00593cb9b823": {
+      "fonteId": "of-686679d491f2",
+      "numero": 83,
+      "gabarito": "E"
+    },
+    "real-acervo-b0b937faa91bd5": {
+      "fonteId": "of-686679d491f2",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-acervo-b72090f41407c5": {
+      "fonteId": "of-686679d491f2",
+      "numero": 85,
+      "gabarito": "C"
+    },
+    "real-acervo-59ab79ea9c13be": {
+      "fonteId": "of-686679d491f2",
+      "numero": 86,
+      "gabarito": "E"
+    },
+    "real-acervo-659d7f94c6cf78": {
+      "fonteId": "of-686679d491f2",
+      "numero": 87,
+      "gabarito": "C"
+    },
+    "real-acervo-40c3ef866b8cc7": {
+      "fonteId": "of-686679d491f2",
+      "numero": 88,
+      "gabarito": "C"
+    },
+    "real-acervo-17d69d260d47e5": {
+      "fonteId": "of-686679d491f2",
+      "numero": 91,
+      "gabarito": "E"
+    },
+    "real-acervo-b831c8745b7f10": {
+      "fonteId": "of-686679d491f2",
+      "numero": 92,
+      "gabarito": "C"
+    },
+    "real-acervo-6b8b5b320420e8": {
+      "fonteId": "of-686679d491f2",
+      "numero": 93,
+      "gabarito": "C"
+    },
+    "real-acervo-f8fb84e78de665": {
+      "fonteId": "of-686679d491f2",
+      "numero": 94,
+      "gabarito": "C"
+    },
+    "real-acervo-ae8c966a35f26e": {
+      "fonteId": "of-686679d491f2",
+      "numero": 100,
+      "gabarito": "C"
+    },
+    "real-acervo-6eb5279d37ee1b": {
+      "fonteId": "of-686679d491f2",
+      "numero": 101,
+      "gabarito": "C"
+    },
+    "real-acervo-1f6fb97e52c066": {
+      "fonteId": "of-686679d491f2",
+      "numero": 102,
+      "gabarito": "C"
+    },
+    "real-acervo-8dcdf757d757f1": {
+      "fonteId": "of-686679d491f2",
+      "numero": 104,
+      "gabarito": "E"
+    },
+    "real-acervo-e32a68166117c5": {
+      "fonteId": "of-686679d491f2",
+      "numero": 106,
+      "gabarito": "C"
+    },
+    "real-acervo-6682bd45211509": {
+      "fonteId": "of-686679d491f2",
+      "numero": 108,
+      "gabarito": "E"
+    },
+    "real-acervo-65315b92bcf025": {
+      "fonteId": "of-686679d491f2",
+      "numero": 109,
+      "gabarito": "C"
+    },
+    "real-acervo-24127ffd145d90": {
+      "fonteId": "of-686679d491f2",
+      "numero": 110,
+      "gabarito": "C"
+    },
+    "real-acervo-525abc6f0a88c7": {
+      "fonteId": "of-686679d491f2",
+      "numero": 112,
+      "gabarito": "C"
+    },
+    "real-acervo-c5255a37cf2c55": {
+      "fonteId": "of-686679d491f2",
+      "numero": 113,
+      "gabarito": "E"
+    },
+    "real-acervo-ec2cbcdb8ba3e7": {
+      "fonteId": "of-686679d491f2",
+      "numero": 114,
+      "gabarito": "C"
+    },
+    "real-acervo-f29dc6505355a0": {
+      "fonteId": "of-686679d491f2",
+      "numero": 115,
+      "gabarito": "E"
+    },
+    "real-acervo-fda50d9237c918": {
+      "fonteId": "of-686679d491f2",
+      "numero": 117,
+      "gabarito": "C"
+    },
+    "real-acervo-42ea685764bf04": {
+      "fonteId": "of-686679d491f2",
+      "numero": 118,
+      "gabarito": "C"
+    },
+    "real-acervo-e7c6ab1ea7d59f": {
+      "fonteId": "of-686679d491f2",
+      "numero": 119,
+      "gabarito": "E"
+    },
+    "real-acervo-85fdb687e1bb28": {
+      "fonteId": "of-686679d491f2",
+      "numero": 120,
+      "gabarito": "C"
+    },
+    "real-acervo-b2b01f8fbf9c01": {
+      "fonteId": "of-98702f09522f",
+      "numero": 87,
+      "gabarito": "C"
+    },
+    "real-acervo-8092a51c1beb74": {
+      "fonteId": "of-98702f09522f",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-acervo-d0c3a84d7a8013": {
+      "fonteId": "of-98702f09522f",
+      "numero": 113,
+      "gabarito": "C"
+    },
+    "real-acervo-4367f2076ea0b4": {
+      "fonteId": "of-98702f09522f",
+      "numero": 116,
+      "gabarito": "E"
+    },
+    "real-acervo-a949d620976aa7": {
+      "fonteId": "of-98702f09522f",
+      "numero": 117,
+      "gabarito": "E"
+    },
+    "real-acervo-fea0a465f7fa93": {
+      "fonteId": "of-98702f09522f",
+      "numero": 118,
+      "gabarito": "C"
+    },
+    "real-acervo-cdb967271312bc": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 51,
+      "gabarito": "C"
+    },
+    "real-acervo-13e51ef4cbd42d": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 52,
+      "gabarito": "C"
+    },
+    "real-acervo-4d1d27df9bc74f": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 53,
+      "gabarito": "C"
+    },
+    "real-acervo-dfbcfe89ada34f": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 54,
+      "gabarito": "C"
+    },
+    "real-acervo-d4d09c8ff0432e": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 55,
+      "gabarito": "E"
+    },
+    "real-acervo-485299b0577e5b": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 58,
+      "gabarito": "E"
+    },
+    "real-acervo-60405ff327e915": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 60,
+      "gabarito": "C"
+    },
+    "real-acervo-98d7de0193a44b": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 63,
+      "gabarito": "E"
+    },
+    "real-acervo-dd13682dcf2cd7": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-acervo-010c97d95155cc": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 82,
+      "gabarito": "C"
+    },
+    "real-acervo-415eaefde26f53": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 85,
+      "gabarito": "E"
+    },
+    "real-acervo-115204a3688bc7": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 98,
+      "gabarito": "E"
+    },
+    "real-acervo-5ce0fe39d0dcd9": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 99,
+      "gabarito": "E"
+    },
+    "real-acervo-a1481c7ed26f20": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 105,
+      "gabarito": "C"
+    },
+    "real-acervo-2cc8b6abbd8c10": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 107,
+      "gabarito": "C"
+    },
+    "real-acervo-fc2dcdac3dd91c": {
+      "fonteId": "of-3db2c33e190a",
+      "numero": 108,
+      "gabarito": "E"
+    },
+    "real-acervo-ef86e106668040": {
+      "fonteId": "of-833c2e3c897e",
+      "numero": 78,
+      "gabarito": "C"
+    },
+    "real-acervo-9e4acbde0d6511": {
+      "fonteId": "of-833c2e3c897e",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-acervo-b6c24762d39d24": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 54,
+      "gabarito": "C"
+    },
+    "real-acervo-49cb60aabd0287": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 55,
+      "gabarito": "C"
+    },
+    "real-acervo-f22080469977a1": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 57,
+      "gabarito": "C"
+    },
+    "real-acervo-2b192c1f5a340e": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 63,
+      "gabarito": "C"
+    },
+    "real-acervo-2c226c00e3d976": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 64,
+      "gabarito": "C"
+    },
+    "real-acervo-6719efecf1617d": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 65,
+      "gabarito": "E"
+    },
+    "real-acervo-2a82a1c45ed42d": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-acervo-c484ad825539d7": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 68,
+      "gabarito": "E"
+    },
+    "real-acervo-6f6b7bae2d0d46": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 70,
+      "gabarito": "E"
+    },
+    "real-acervo-419306c900a137": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 76,
+      "gabarito": "E"
+    },
+    "real-acervo-909e0fc2401fec": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-acervo-96f7c4f2ca9a53": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 78,
+      "gabarito": "E"
+    },
+    "real-acervo-e7d28d91ce1b31": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 79,
+      "gabarito": "E"
+    },
+    "real-acervo-f58aa1ab43248a": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 80,
+      "gabarito": "C"
+    },
+    "real-acervo-883099a93977e5": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 81,
+      "gabarito": "E"
+    },
+    "real-acervo-6b16f15d8a24a0": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 82,
+      "gabarito": "C"
+    },
+    "real-acervo-9c9affc843802c": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 83,
+      "gabarito": "E"
+    },
+    "real-acervo-0fb4170068e8c1": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 86,
+      "gabarito": "C"
+    },
+    "real-acervo-4a631c4d70a346": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 88,
+      "gabarito": "E"
+    },
+    "real-acervo-49fa440202bdfb": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-acervo-adc0cf0c734c23": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 90,
+      "gabarito": "C"
+    },
+    "real-acervo-66d287a1e33cda": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 91,
+      "gabarito": "C"
+    },
+    "real-acervo-c319196a58f3ff": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 96,
+      "gabarito": "C"
+    },
+    "real-acervo-784ceaa80b5824": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 97,
+      "gabarito": "E"
+    },
+    "real-acervo-fd2dc97dfa5241": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 98,
+      "gabarito": "C"
+    },
+    "real-acervo-43b210b9878496": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 99,
+      "gabarito": "C"
+    },
+    "real-acervo-9cd58086f4f657": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 100,
+      "gabarito": "E"
+    },
+    "real-acervo-71a92742db2456": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 101,
+      "gabarito": "E"
+    },
+    "real-acervo-218b538770c407": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 103,
+      "gabarito": "C"
+    },
+    "real-acervo-fb976de202bbfb": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 104,
+      "gabarito": "C"
+    },
+    "real-acervo-48522aa1e70c94": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 105,
+      "gabarito": "C"
+    },
+    "real-acervo-003c495a7248d0": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 106,
+      "gabarito": "E"
+    },
+    "real-acervo-60cb6a1edc9439": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 108,
+      "gabarito": "C"
+    },
+    "real-acervo-74862381b7ee97": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 110,
+      "gabarito": "C"
+    },
+    "real-acervo-33453819985ba6": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 111,
+      "gabarito": "C"
+    },
+    "real-acervo-4c9bc605aa4695": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 113,
+      "gabarito": "C"
+    },
+    "real-acervo-bea10e0a80173e": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 116,
+      "gabarito": "E"
+    },
+    "real-acervo-b398b3d464109d": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 117,
+      "gabarito": "E"
+    },
+    "real-acervo-e56d5ba9becef2": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 118,
+      "gabarito": "E"
+    },
+    "real-acervo-d1b035987baa65": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 119,
+      "gabarito": "C"
+    },
+    "real-acervo-57382d1511434f": {
+      "fonteId": "of-475f37973bd0",
+      "numero": 120,
+      "gabarito": "E"
+    },
+    "real-acervo-300eb8d32c3b96": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 52,
+      "gabarito": "C"
+    },
+    "real-acervo-2bfd8beb3a542e": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 55,
+      "gabarito": "C"
+    },
+    "real-acervo-854907f98b01aa": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 60,
+      "gabarito": "C"
+    },
+    "real-acervo-b658347549ac7d": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 61,
+      "gabarito": "E"
+    },
+    "real-acervo-16ece2814b0ffc": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 62,
+      "gabarito": "C"
+    },
+    "real-acervo-65e4ea8de37c0c": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 63,
+      "gabarito": "C"
+    },
+    "real-acervo-483a55eabd66fd": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 65,
+      "gabarito": "E"
+    },
+    "real-acervo-5960692fbb5d2c": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-acervo-d71ec05cbd1214": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-acervo-5437347861470e": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-acervo-cddc15e9008053": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 70,
+      "gabarito": "C"
+    },
+    "real-acervo-6a4ffe7f80c77f": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 71,
+      "gabarito": "E"
+    },
+    "real-acervo-317d04df626610": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 72,
+      "gabarito": "C"
+    },
+    "real-acervo-4f4fc15a044b21": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 73,
+      "gabarito": "E"
+    },
+    "real-acervo-3059b553e8ae29": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 74,
+      "gabarito": "C"
+    },
+    "real-acervo-23e255ac5c2490": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 75,
+      "gabarito": "C"
+    },
+    "real-acervo-0a7894dc3309a9": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 79,
+      "gabarito": "E"
+    },
+    "real-acervo-60f64783f6d057": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 81,
+      "gabarito": "C"
+    },
+    "real-acervo-ab8b20b8cf1647": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 82,
+      "gabarito": "C"
+    },
+    "real-acervo-8b8661c1284040": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 83,
+      "gabarito": "E"
+    },
+    "real-acervo-e4e6fd21d73818": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-acervo-8713b281d49d82": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 87,
+      "gabarito": "C"
+    },
+    "real-acervo-79f4019b91b21a": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 88,
+      "gabarito": "E"
+    },
+    "real-acervo-1bca50bb552784": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-acervo-16743924105c95": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 91,
+      "gabarito": "C"
+    },
+    "real-acervo-1c5df5459b7233": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 92,
+      "gabarito": "C"
+    },
+    "real-acervo-d5ec0662696340": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 94,
+      "gabarito": "E"
+    },
+    "real-acervo-727d263509ef27": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 95,
+      "gabarito": "C"
+    },
+    "real-acervo-2929aab53375a4": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 96,
+      "gabarito": "C"
+    },
+    "real-acervo-819e4fe3856854": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 97,
+      "gabarito": "E"
+    },
+    "real-acervo-e3ab0494fa815d": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 98,
+      "gabarito": "E"
+    },
+    "real-acervo-fe43a9d5592119": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 99,
+      "gabarito": "C"
+    },
+    "real-acervo-b49dec0ffffc47": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 100,
+      "gabarito": "E"
+    },
+    "real-acervo-3e29a1ed879302": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 101,
+      "gabarito": "C"
+    },
+    "real-acervo-0d912b77ff969b": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 103,
+      "gabarito": "E"
+    },
+    "real-acervo-ef411c70cd9cd2": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 104,
+      "gabarito": "C"
+    },
+    "real-acervo-cf4b61f4e62fac": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 105,
+      "gabarito": "C"
+    },
+    "real-acervo-25691aff6aa969": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 106,
+      "gabarito": "E"
+    },
+    "real-acervo-ebf64789dd6e0e": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 107,
+      "gabarito": "E"
+    },
+    "real-acervo-83d80d61e33f4f": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 108,
+      "gabarito": "E"
+    },
+    "real-acervo-9c51aae1814742": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 109,
+      "gabarito": "C"
+    },
+    "real-acervo-a90e7d3f6013a1": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 110,
+      "gabarito": "C"
+    },
+    "real-acervo-e3808380cdd7f1": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 111,
+      "gabarito": "E"
+    },
+    "real-acervo-a13c6bc6a59923": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 112,
+      "gabarito": "C"
+    },
+    "real-acervo-bbe453173424e6": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 113,
+      "gabarito": "C"
+    },
+    "real-acervo-14d164598ca46f": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 115,
+      "gabarito": "E"
+    },
+    "real-acervo-96de0683d45e15": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 116,
+      "gabarito": "E"
+    },
+    "real-acervo-dceeddfaead6a5": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 117,
+      "gabarito": "C"
+    },
+    "real-acervo-ab0ecfb81003f8": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 118,
+      "gabarito": "C"
+    },
+    "real-acervo-fccecf6f6c22a8": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 119,
+      "gabarito": "C"
+    },
+    "real-acervo-aa5066557973c7": {
+      "fonteId": "of-cc7283fafd18",
+      "numero": 120,
+      "gabarito": "E"
+    },
+    "real-acervo-3fae0600d3e964": {
+      "fonteId": "of-fde51a905108",
+      "numero": 42,
+      "gabarito": "E"
+    },
+    "real-acervo-d4b18ecfc31064": {
+      "fonteId": "of-fde51a905108",
+      "numero": 45,
+      "gabarito": "C"
+    },
+    "real-acervo-378de6459607f6": {
+      "fonteId": "of-fde51a905108",
+      "numero": 47,
+      "gabarito": "E"
+    },
+    "real-acervo-bb58e178c287a9": {
+      "fonteId": "of-fde51a905108",
+      "numero": 51,
+      "gabarito": "E"
+    },
+    "real-acervo-96f4fbefc736e9": {
+      "fonteId": "of-fde51a905108",
+      "numero": 52,
+      "gabarito": "C"
+    },
+    "real-acervo-2ffc0c2d6a0ce1": {
+      "fonteId": "of-fde51a905108",
+      "numero": 53,
+      "gabarito": "C"
+    },
+    "real-acervo-5550876cf43ed0": {
+      "fonteId": "of-fde51a905108",
+      "numero": 54,
+      "gabarito": "C"
+    },
+    "real-acervo-1ae2300e6ca413": {
+      "fonteId": "of-fde51a905108",
+      "numero": 55,
+      "gabarito": "E"
+    },
+    "real-acervo-4976704b804cca": {
+      "fonteId": "of-fde51a905108",
+      "numero": 56,
+      "gabarito": "C"
+    },
+    "real-acervo-4c1535cdb03870": {
+      "fonteId": "of-fde51a905108",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-acervo-534e65fda549e4": {
+      "fonteId": "of-fde51a905108",
+      "numero": 58,
+      "gabarito": "E"
+    },
+    "real-acervo-fc04a36bcaafd7": {
+      "fonteId": "of-fde51a905108",
+      "numero": 59,
+      "gabarito": "C"
+    },
+    "real-acervo-8d837df95adfe7": {
+      "fonteId": "of-fde51a905108",
+      "numero": 60,
+      "gabarito": "C"
+    },
+    "real-acervo-83ce39e3fe132c": {
+      "fonteId": "of-fde51a905108",
+      "numero": 62,
+      "gabarito": "C"
+    },
+    "real-acervo-2449a37ac942ec": {
+      "fonteId": "of-fde51a905108",
+      "numero": 63,
+      "gabarito": "E"
+    },
+    "real-acervo-39ea991450124c": {
+      "fonteId": "of-fde51a905108",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-acervo-9e4bbfd267f8fa": {
+      "fonteId": "of-fde51a905108",
+      "numero": 67,
+      "gabarito": "C"
+    },
+    "real-acervo-450f5390242b93": {
+      "fonteId": "of-fde51a905108",
+      "numero": 68,
+      "gabarito": "E"
+    },
+    "real-acervo-3f3873870dbc18": {
+      "fonteId": "of-fde51a905108",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-acervo-a144a19db0bbf3": {
+      "fonteId": "of-fde51a905108",
+      "numero": 71,
+      "gabarito": "C"
+    },
+    "real-acervo-664d6d2aec259c": {
+      "fonteId": "of-fde51a905108",
+      "numero": 72,
+      "gabarito": "E"
+    },
+    "real-acervo-53dd7ef6ec9708": {
+      "fonteId": "of-fde51a905108",
+      "numero": 73,
+      "gabarito": "E"
+    },
+    "real-acervo-54b24757a4f90c": {
+      "fonteId": "of-fde51a905108",
+      "numero": 75,
+      "gabarito": "E"
+    },
+    "real-acervo-6ad11874cfe164": {
+      "fonteId": "of-fde51a905108",
+      "numero": 76,
+      "gabarito": "C"
+    },
+    "real-acervo-d25d76b724dbc1": {
+      "fonteId": "of-fde51a905108",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-acervo-54c3ace0ac11d6": {
+      "fonteId": "of-fde51a905108",
+      "numero": 78,
+      "gabarito": "E"
+    },
+    "real-acervo-17d9003153cc36": {
+      "fonteId": "of-fde51a905108",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-acervo-efa49aeffa8ab8": {
+      "fonteId": "of-fde51a905108",
+      "numero": 80,
+      "gabarito": "E"
+    },
+    "real-acervo-43ce21e10f87b5": {
+      "fonteId": "of-fde51a905108",
+      "numero": 82,
+      "gabarito": "E"
+    },
+    "real-acervo-f1de62eda8bee2": {
+      "fonteId": "of-fde51a905108",
+      "numero": 83,
+      "gabarito": "E"
+    },
+    "real-acervo-972acf52562b83": {
+      "fonteId": "of-fde51a905108",
+      "numero": 84,
+      "gabarito": "C"
+    },
+    "real-acervo-c9cd740ef5f3ea": {
+      "fonteId": "of-fde51a905108",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-acervo-a8d67d046fdb7d": {
+      "fonteId": "of-fde51a905108",
+      "numero": 91,
+      "gabarito": "C"
+    },
+    "real-acervo-daf5ff99b3d246": {
+      "fonteId": "of-fde51a905108",
+      "numero": 94,
+      "gabarito": "C"
+    },
+    "real-acervo-d249c48f6838a3": {
+      "fonteId": "of-fde51a905108",
+      "numero": 95,
+      "gabarito": "E"
+    },
+    "real-acervo-dc1cad1c2c63d7": {
+      "fonteId": "of-fde51a905108",
+      "numero": 96,
+      "gabarito": "C"
+    },
+    "real-acervo-831ae75cb988ab": {
+      "fonteId": "of-fde51a905108",
+      "numero": 97,
+      "gabarito": "E"
+    },
+    "real-acervo-c24f022012864f": {
+      "fonteId": "of-fde51a905108",
+      "numero": 98,
+      "gabarito": "C"
+    },
+    "real-acervo-d80978161e7f02": {
+      "fonteId": "of-fde51a905108",
+      "numero": 99,
+      "gabarito": "E"
+    },
+    "real-acervo-3dd9a04da5cc01": {
+      "fonteId": "of-fde51a905108",
+      "numero": 100,
+      "gabarito": "C"
+    },
+    "real-acervo-315a885f2f590e": {
+      "fonteId": "of-fde51a905108",
+      "numero": 104,
+      "gabarito": "C"
+    },
+    "real-acervo-260d82634aaee4": {
+      "fonteId": "of-fde51a905108",
+      "numero": 105,
+      "gabarito": "E"
+    },
+    "real-acervo-805baa8d7cd393": {
+      "fonteId": "of-fde51a905108",
+      "numero": 106,
+      "gabarito": "E"
+    },
+    "real-acervo-61341641a81457": {
+      "fonteId": "of-fde51a905108",
+      "numero": 107,
+      "gabarito": "C"
+    },
+    "real-acervo-9d5da309460a90": {
+      "fonteId": "of-fde51a905108",
+      "numero": 108,
+      "gabarito": "E"
+    },
+    "real-acervo-47012501a0f650": {
+      "fonteId": "of-fde51a905108",
+      "numero": 109,
+      "gabarito": "E"
+    },
+    "real-acervo-7f5b49f9dbe203": {
+      "fonteId": "of-fde51a905108",
+      "numero": 110,
+      "gabarito": "C"
+    },
+    "real-acervo-e38df7b308f6fe": {
+      "fonteId": "of-fde51a905108",
+      "numero": 111,
+      "gabarito": "C"
+    },
+    "real-acervo-4eadcd7ed91c47": {
+      "fonteId": "of-fde51a905108",
+      "numero": 112,
+      "gabarito": "C"
+    },
+    "real-acervo-ecc995a774f04d": {
+      "fonteId": "of-fde51a905108",
+      "numero": 113,
+      "gabarito": "C"
+    },
+    "real-acervo-2e0adb7851d57f": {
+      "fonteId": "of-fde51a905108",
+      "numero": 114,
+      "gabarito": "C"
+    },
+    "real-acervo-2fb242eb740ff9": {
+      "fonteId": "of-fde51a905108",
+      "numero": 116,
+      "gabarito": "C"
+    },
+    "real-acervo-d6964848d36912": {
+      "fonteId": "of-fde51a905108",
+      "numero": 117,
+      "gabarito": "C"
+    },
+    "real-acervo-006acf732d1563": {
+      "fonteId": "of-fde51a905108",
+      "numero": 118,
+      "gabarito": "C"
+    },
+    "real-acervo-6bd9408406b770": {
+      "fonteId": "of-fde51a905108",
+      "numero": 119,
+      "gabarito": "E"
+    },
+    "real-acervo-8318cb447ffb82": {
+      "fonteId": "of-fde51a905108",
+      "numero": 120,
+      "gabarito": "E"
+    },
+    "real-acervo-ca2b95286b0a6d": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 51,
+      "gabarito": "E"
+    },
+    "real-acervo-6a30fa25987813": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 53,
+      "gabarito": "E"
+    },
+    "real-acervo-2ac54f5efe7182": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 55,
+      "gabarito": "C"
+    },
+    "real-acervo-a66150c1dad9a0": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-acervo-feacb0fff5a3a9": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 60,
+      "gabarito": "C"
+    },
+    "real-acervo-e67f92922f8e29": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 61,
+      "gabarito": "E"
+    },
+    "real-acervo-3b5bb08e156752": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 62,
+      "gabarito": "C"
+    },
+    "real-acervo-8c36150e543355": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 63,
+      "gabarito": "E"
+    },
+    "real-acervo-8161f858bf8737": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 64,
+      "gabarito": "E"
+    },
+    "real-acervo-ccd48e2b1de5ba": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-acervo-7a2c0f53a18662": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 66,
+      "gabarito": "E"
+    },
+    "real-acervo-6f0a3ec6875478": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 67,
+      "gabarito": "E"
+    },
+    "real-acervo-e143a78d5cafac": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-acervo-bd2df3369f8af6": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 72,
+      "gabarito": "C"
+    },
+    "real-acervo-b00757374fea51": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 74,
+      "gabarito": "C"
+    },
+    "real-acervo-a7771bf4128e4c": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 76,
+      "gabarito": "E"
+    },
+    "real-acervo-1d157218ac274d": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-acervo-68b53fdbc51618": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-acervo-3578c07dc2bbfd": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 80,
+      "gabarito": "C"
+    },
+    "real-acervo-69c123ce4c87ec": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 82,
+      "gabarito": "C"
+    },
+    "real-acervo-73c5a0da3be43a": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 83,
+      "gabarito": "C"
+    },
+    "real-acervo-37c3352c9875f5": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-acervo-28a978c1e07b80": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 85,
+      "gabarito": "E"
+    },
+    "real-acervo-f50b2853c2835f": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 86,
+      "gabarito": "C"
+    },
+    "real-acervo-1124bcf5a74590": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 87,
+      "gabarito": "E"
+    },
+    "real-acervo-9ae0de20a0436e": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 88,
+      "gabarito": "C"
+    },
+    "real-acervo-bfa774d283a7da": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 89,
+      "gabarito": "C"
+    },
+    "real-acervo-34e70a17462855": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 90,
+      "gabarito": "C"
+    },
+    "real-acervo-3dad7c0513d625": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 92,
+      "gabarito": "E"
+    },
+    "real-acervo-c6c622cd0f3390": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 93,
+      "gabarito": "E"
+    },
+    "real-acervo-a6e4ca56561544": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 94,
+      "gabarito": "E"
+    },
+    "real-acervo-bb9a86b6db0f60": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 96,
+      "gabarito": "E"
+    },
+    "real-acervo-0f4bdd8d95af31": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 97,
+      "gabarito": "C"
+    },
+    "real-acervo-757cb91de0582b": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 101,
+      "gabarito": "E"
+    },
+    "real-acervo-6741abfcdf33dd": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 102,
+      "gabarito": "C"
+    },
+    "real-acervo-1405a9ff8f9f77": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 103,
+      "gabarito": "E"
+    },
+    "real-acervo-8cce5f375b46da": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 104,
+      "gabarito": "C"
+    },
+    "real-acervo-f0b7279f8185e5": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 105,
+      "gabarito": "C"
+    },
+    "real-acervo-9faffed739260e": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 106,
+      "gabarito": "E"
+    },
+    "real-acervo-512285046b4621": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 107,
+      "gabarito": "E"
+    },
+    "real-acervo-74c63168203600": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 108,
+      "gabarito": "C"
+    },
+    "real-acervo-374bbedacd6b60": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 109,
+      "gabarito": "E"
+    },
+    "real-acervo-866a5cbbcd4c7d": {
+      "fonteId": "of-75799ddc2bba",
+      "numero": 110,
+      "gabarito": "C"
+    }
+  },
+  "editorial": {}
+}

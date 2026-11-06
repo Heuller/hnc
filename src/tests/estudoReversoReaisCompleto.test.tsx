@@ -9,14 +9,14 @@ import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
 import { destacarGatilho } from '../domain/estudoReverso';
 import { assinaturaQuestaoReal, lerSessaoReal } from '../domain/sessaoQuestoesReais';
 import relatorio from '../../docs/simulados-reais/CONFERENCIA-OFICIAL-2026-11-05.json';
-import lote06 from '../../docs/simulados-reais/LOTE-300-ACERVO-06.json';
+import { CONTAGEM_REAIS } from './helpers/lotesReaisConferidos';
 import { comentarioGenerico, contrasteArtificial } from '../domain/qualidadeEditorial';
 
 afterEach(cleanup);
 
 describe('estudo reverso do banco integral de questões reais', () => {
   it('não deixa itens, lotes ou anotações órfãos', () => {
-    expect(QUESTOES_REAIS).toHaveLength(relatorio.resumo.bancoDepois - relatorio.resumo.pendentes + lote06.novasQuestoes);
+    expect(QUESTOES_REAIS).toHaveLength(CONTAGEM_REAIS.total);
     const inativos = relatorio.itens.filter(r => ['anulada', 'pendente'].includes(r.resultado)).map(r => r.id);
     expect(new Set(Object.keys(anotacoes))).toEqual(new Set([...QUESTOES_REAIS.map(q => q.id), ...inativos]));
     for (const q of QUESTOES_REAIS) {
@@ -55,8 +55,8 @@ describe('estudo reverso do banco integral de questões reais', () => {
       expect(resposta, original.id).toBe(assinaturaQuestaoReal(ampliada!) === assinatura ? original.gabarito : undefined);
     }
     expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(0);
-    expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(relatorio.resumo.conferidasNaOrigem + lote06.confrontoNaOrigem);
-    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(relatorio.resumo.documentosConferidosEmEspelho + lote06.confrontoEmCopia);
+    expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(CONTAGEM_REAIS.origem);
+    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(CONTAGEM_REAIS.copia);
   });
   it('recusa questão nova sem revisão explícita, sem preencher pelo módulo', () => {
     expect(() => enriquecerEstudoReversoReal({

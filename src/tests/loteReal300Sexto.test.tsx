@@ -12,6 +12,7 @@ import lote from '../../docs/simulados-reais/LOTE-300-ACERVO-06.json';
 import { ALL_COURSE_MODULES } from '../content/registry';
 import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
 import { comentarioGenerico, contrasteArtificial } from '../domain/qualidadeEditorial';
+import { CONTAGEM_REAIS } from './helpers/lotesReaisConferidos';
 
 const ativos = QUESTOES_REAIS.filter(q => q.loteRevisao === lote.lote);
 afterEach(() => { cleanup(); localStorage.clear(); });
@@ -30,7 +31,7 @@ describe('sexto lote: 300 questões conferidas e estudo reverso individual', () 
   it('acrescenta exatamente 300 questões ativas e preserva o banco histórico anterior', () => {
     expect(novos).toHaveLength(300);
     expect(ativos).toHaveLength(300);
-    expect(QUESTOES_REAIS).toHaveLength(1829);
+    expect(QUESTOES_REAIS).toHaveLength(CONTAGEM_REAIS.total);
     expect(sha(JSON.stringify(ordenar(base)))).toBe(lote.sha256BaseJSON);
     expect(new Set(ativos.map(q => q.id))).toEqual(new Set(lote.ids));
     expect(new Set(novos.map(q => q.id)).size).toBe(300);

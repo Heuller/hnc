@@ -2,6 +2,9 @@ import copy
 import importlib.util
 import json
 import re
+import subprocess
+import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -77,6 +80,58 @@ class ImportacaoConferidaTest(unittest.TestCase):
         m = copy.deepcopy(self.manifesto); m['questoes'][0]['anotacao']['exemplo'] = ''
         with self.assertRaisesRegex(ValueError, 'exemplo ausente'):
             self.integrar(m)
+
+
+class ContinuacaoLotesCLITest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        ler = lambda nome: json.loads((RAIZ/nome).read_text())
+        report = ler('docs/simulados-reais/LOTE-300-ACERVO-07.json')
+        notas = ler('src/content/estudoReversoReais/anotacoes.json')
+        perfis = ler('src/content/estudoReversoReais/perfis.json')
+        refs = ler('src/content/estudoReversoReais/referencias.json')
+        questoes = ler('src/content/questoesReaisLote07.json')
+        ev = {e['id']: e for e in report['conferencia']['itens']}
+        cls.fontes = report['conferencia']['fontes']
+        cls.manifesto = {**report, 'baseHistoricaEsperada': report['baseHistoricaAntes'],
+                         'baseAtivaEsperada': report['totalAntes'], 'quantidade': 300,
+                         'fontes': cls.fontes, 'perfisNovos': {}, 'referenciasNovas': {},
+                         'questoes': [{'questao': q, 'anotacao': notas[q['id']], 'evidencia': ev[q['id']]} for q in questoes]}
+        cls.anteriores = ler('src/content/conferenciaOficialReais/registro.json')['fontes']
+        assert all(notas[q['id']]['perfil'] in perfis for q in questoes)
+        assert all(p['referencia'] in refs for p in perfis.values())
+
+    def executar(self, fontes=None):
+        with tempfile.TemporaryDirectory() as pasta:
+            manifesto = Path(pasta)/'manifesto.json'; arquivo_fontes = Path(pasta)/'fontes.json'
+            manifesto.write_text(json.dumps(self.manifesto, ensure_ascii=False))
+            arquivo_fontes.write_text(json.dumps(fontes if fontes is not None else self.fontes, ensure_ascii=False))
+            return subprocess.run([sys.executable, str(RAIZ/'scripts/importarLoteRealConferido.py'),
+                                   '--raiz', str(RAIZ), '--numero-lote', '7', '--manifesto', str(manifesto),
+                                   '--fontes-conferidas', str(arquivo_fontes)], capture_output=True, text=True, timeout=30)
+
+    def test_revalida_segundo_arquivo_de_lote_sem_recontar_o_historico(self):
+        caminhos = [RAIZ/'src/content/questoesReaisTriadas.json', RAIZ/'src/content/questoesReaisLote06.json', RAIZ/'src/content/questoesReaisLote07.json']
+        antes = [p.read_bytes() for p in caminhos]
+        resultado = self.executar()
+        self.assertEqual(resultado.returncode, 0, resultado.stderr)
+        self.assertEqual(json.loads(resultado.stdout)['totalDepois'], 2129)
+        self.assertEqual(antes, [p.read_bytes() for p in caminhos])
+
+    def test_recusa_fonte_adicional_sem_assinatura_da_consulta(self):
+        fontes = copy.deepcopy(self.fontes)
+        next(iter(fontes.values()))['sha256TextoExtraidoProva'] = ''
+        resultado = self.executar(fontes)
+        self.assertNotEqual(resultado.returncode, 0)
+        self.assertIn('sem assinaturas da consulta', resultado.stderr)
+
+    def test_fonte_adicional_nao_pode_sobrescrever_um_par_anterior(self):
+        fontes = copy.deepcopy(self.fontes)
+        id = next(k for k in fontes if k in self.anteriores)
+        fontes[id]['gabaritoUrl'] = fontes[id]['provaUrl']
+        resultado = self.executar(fontes)
+        self.assertNotEqual(resultado.returncode, 0)
+        self.assertIn('não pode substituir uma fonte anterior', resultado.stderr)
 
 
 if __name__ == '__main__':

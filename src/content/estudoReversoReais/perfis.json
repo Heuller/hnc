@@ -1166,5 +1166,53 @@
     "tecnica": "Não deduzir uma limitação absoluta apenas da existência de muitas unidades. Distinguir capacidade do modelo, custo computacional e desempenho observado.",
     "contrasteErrado": "Uma rede neural não pode modelar relações complexas porque possui unidades interconectadas.",
     "referencia": "deep-learning-mlp"
+  },
+  "mediacao": {
+    "titulo": "Mediação: interferência, diálogo e apropriação",
+    "regra": "Mediação da informação envolve a atuação que cria condições para os sujeitos se apropriarem da informação, considerando necessidades e contextos. Não é mera transmissão unilateral. Pode ocorrer no atendimento explícito e também nas decisões de organização e seleção que condicionam o acesso. Preservar e organizar não substituem conhecer os sujeitos.",
+    "exemplo": "Ao orientar uma busca, a equipe esclarece o problema, seleciona fontes e verifica a compreensão. Ao escolher descritores e condições de acesso, também interfere nas possibilidades de descoberta e uso.",
+    "tecnica": "Técnica: Foco e função trocados. Diferencie guardar documentos, transmitir conteúdos e promover condições de apropriação; identifique o modelo e o contexto de mediação empregado.",
+    "contrasteErrado": "Mediação é exclusivamente enviar documentos, sem interação com os sujeitos nem consideração das condições de apropriação.",
+    "referencia": "mediacao-almeida-2009"
+  },
+  "normalizacao": {
+    "titulo": "Normas técnicas: consenso, finalidade e aplicação",
+    "regra": "Normas técnicas estabelecem regras, diretrizes ou características para usos comuns e repetidos, aprovadas por organismo reconhecido. Consenso não exige unanimidade. Seu caráter é, em princípio, voluntário, embora possam ser exigidas por instrumentos aplicáveis. Na área documental, número, escopo e edição da norma precisam ser conferidos.",
+    "exemplo": "Uma biblioteca adota um padrão para referências e registra a edição exigida no regulamento. Consultar outra norma ou outra versão pode levar a aplicar uma regra que não corresponde ao trabalho.",
+    "tecnica": "Técnica: Obrigação generalizada ou norma trocada. Separe recomendação técnica, exigência aplicável e edição histórica; uma lista com requisitos corretos pode conter um único elemento falso.",
+    "contrasteErrado": "Toda norma técnica é automaticamente uma lei e tem aplicação obrigatória e idêntica em qualquer instituição.",
+    "referencia": "normalizacao-abnt"
+  },
+  "lombada": {
+    "titulo": "Lombada: identificação e sentido de leitura",
+    "regra": "A lombada ajuda a identificar o documento no volume. Na regra histórica da NBR 12225:2004 cobrada neste lote, o título longitudinal descendente é legível do alto para o pé quando a capa está voltada para cima. A posição e a leitura devem ser distinguidas da classificação temática e de regras de edições posteriores.",
+    "exemplo": "Um livro deitado com a capa para cima permite conferir o sentido de leitura do título da lombada. A disposição deve ser verificada pela orientação prevista na edição aplicável.",
+    "tecnica": "Técnica: Sentido invertido. Identifique alto, pé e posição da capa antes de julgar; confira também qual edição da norma está sendo cobrada.",
+    "contrasteErrado": "Na regra histórica de 2004, o título longitudinal deve ser lido obrigatoriamente do pé para o alto.",
+    "referencia": "nbr12225-historica"
+  },
+  "guias": {
+    "titulo": "Guias de unidades informacionais: localizar e contatar",
+    "regra": "Guias identificam unidades e oferecem informações que permitem localizar, conhecer e contatar seus serviços. Os dados precisam ser completos e atualizados conforme a norma aplicável. Nome, endereço e canais de contato cumprem funções distintas; não se deve substituir a identificação institucional por uma descrição informal sem meios de acesso.",
+    "exemplo": "Uma pessoa consulta um guia para encontrar uma biblioteca especializada, seu endereço e os canais de atendimento. O código telefônico e o contato eletrônico permitem encaminhar a consulta corretamente.",
+    "tecnica": "Técnica: Dado obsoleto ou essencial omitido. Verifique a edição da NBR 10518 e distinga campos de contato atuais de listas antigas de comunicação.",
+    "contrasteErrado": "Um guia de bibliotecas deve omitir os endereços e meios de contato, apresentando apenas nomes informais das unidades.",
+    "referencia": "nbr10518-guias"
+  },
+  "viaf": {
+    "titulo": "VIAF: relacionar nomes e arquivos de autoridade",
+    "regra": "VIAF agrega e relaciona dados de autoridade de instituições cooperantes, conectando variantes de nomes associadas à mesma entidade. Ajuda a identificar pessoas e organizações em diferentes comunidades e línguas e a reutilizar dados bibliográficos. Não é catálogo de exemplares nem tesauro geral de assuntos; correspondências e qualidade precisam de controle.",
+    "exemplo": "Variantes do nome de um autor em alfabetos diferentes podem ser vinculadas a uma mesma entidade e aos registros de instituições nacionais. A relação facilita identificar o autor antes de procurar suas obras.",
+    "tecnica": "Técnica: Entidade ou finalidade trocada. Diferencie nome autorizado, variante, identificador e assunto; cooperação de autoridades não garante acesso integral às obras.",
+    "contrasteErrado": "VIAF é um tesauro geral de assuntos que armazena fisicamente todos os exemplares das bibliotecas participantes.",
+    "referencia": "viaf-oclc"
+  },
+  "processo-legislativo": {
+    "titulo": "Processo legislativo: espécie, etapas e condições",
+    "regra": "O processo legislativo compreende espécies normativas e procedimentos definidos constitucionalmente. Iniciativa, apreciação, emendas, deliberação, revisão e etapas de formação e publicação devem ser interpretadas conforme a espécie. Sanção presidencial não se aplica indistintamente a todos os atos, e uma lista simplificada não constitui rito universal.",
+    "exemplo": "Um projeto de lei pode receber emendas durante a apreciação e voltar à casa iniciadora se modificado. Uma emenda constitucional possui procedimento próprio e não depende de sanção presidencial.",
+    "tecnica": "Técnica: Sequência ou âmbito generalizados. Identifique a espécie normativa e diferencie discussão, emenda e deliberação, observando as condições de formação do ato.",
+    "contrasteErrado": "Toda espécie normativa segue obrigatoriamente o mesmo rito e depende de sanção presidencial.",
+    "referencia": "cf-processo-legislativo"
   }
 }

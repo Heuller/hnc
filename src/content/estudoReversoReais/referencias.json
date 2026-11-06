@@ -537,5 +537,54 @@
     "titulo": "Goodfellow, Bengio e Courville — Deep Learning (2016)",
     "localizador": "Capítulo 6: Deep Feedforward Networks; composição de funções, camadas, parâmetros e aprendizagem.",
     "url": "https://www.deeplearningbook.org/contents/mlp.html"
+  },
+  "mediacao-almeida-2009": {
+    "titulo": "Almeida Júnior — Mediação da informação e múltiplas linguagens (2009)",
+    "localizador": "Resumo e conceituação da mediação: interferência, apropriação e dimensões implícita e explícita.",
+    "url": "https://revistas.ancib.org/tpbci/article/view/170"
+  },
+  "normalizacao-abnt": {
+    "titulo": "ABNT — Sobre a normalização; perguntas frequentes",
+    "localizador": "Definição e finalidade da normalização; consenso; voluntariedade e condições de exigibilidade.",
+    "url": "https://abnt.org.br/normalizacao/sobre-a-normalizacao/"
+  },
+  "nbr12225-historica": {
+    "titulo": "ABNT NBR 12225:2004 — Lombada: apresentação (edição histórica)",
+    "localizador": "Apresentação do título longitudinal, sentido descendente e leitura com a face dianteira voltada para cima. Edição histórica cobrada na FUB/2022.",
+    "url": "https://www2.uesb.br/biblioteca/wp-content/uploads/2016/05/NBR-2012225-LOMBADA.pdf"
+  },
+  "nbr10518-guias": {
+    "titulo": "ABNT NBR 10518:2023 — Guias de unidades informacionais",
+    "localizador": "Dados de identificação, localização e contato das unidades, incluindo endereços, telefone e redes sociais quando houver; regra citada na prova TSE/2024."
+  },
+  "viaf-oclc": {
+    "titulo": "OCLC — VIAF: The Virtual International Authority File",
+    "localizador": "Vinculação de arquivos de autoridade, variantes de nomes e cooperação internacional; descrição institucional e técnica do serviço.",
+    "url": "https://www.oclc.org/research/activities/viaf.html"
+  },
+  "cf-processo-legislativo": {
+    "titulo": "Constituição Federal de 1988 — Processo legislativo",
+    "localizador": "Arts. 59 a 69: espécies normativas, iniciativa, deliberação, revisão, sanção, veto e demais condições aplicáveis.",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  },
+  "ifla-ia-2020": {
+    "titulo": "IFLA — Statement on Libraries and Artificial Intelligence (2020)",
+    "localizador": "Considerações éticas e papel das bibliotecas: privacidade, inclusão, aquisição e avaliação de aplicações de IA.",
+    "url": "https://www.ifla.org/files/assets/faife/ifla_statement_on_libraries_and_artificial_intelligence.pdf"
+  },
+  "tse-siade-2024": {
+    "titulo": "TSE — Ferramenta para receber denúncias de desinformação eleitoral (2024)",
+    "localizador": "Notícia institucional de outubro de 2024: finalidade do Siade e encaminhamento pelos canais oficiais da Justiça Eleitoral.",
+    "url": "https://www.tse.jus.br/comunicacao/noticias/2024/Outubro/tse-tem-ferramenta-para-receber-denuncias-de-noticias-falsas-sobre-as-eleicoes-1"
+  },
+  "tse-fato-boato-2024": {
+    "titulo": "TSE — Perguntas frequentes: Eleições 2024",
+    "localizador": "Pergunta sobre onde verificar notícias falsas: finalidade de esclarecimento da página Fato ou Boato.",
+    "url": "https://www.tse.jus.br/eleicoes/eleicoes-2024-content/perguntas-frequentes-eleicoes-2024"
+  },
+  "tse-diplomas-2022": {
+    "titulo": "TSE — Diplomação presidencial e acesso a diplomas históricos (2022)",
+    "localizador": "Notícia de dezembro de 2022: acervo do Museu do TSE e consulta aos diplomas na Biblioteca Digital da Justiça Eleitoral.",
+    "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Dezembro/diplomacao-de-lula-sera-a-12a-presidencial-realizada-no-pais"
   }
 }

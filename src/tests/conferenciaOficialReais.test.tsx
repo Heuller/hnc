@@ -9,6 +9,7 @@ import relatorio from '../../docs/simulados-reais/CONFERENCIA-OFICIAL-2026-11-05
 import { aplicarConferenciaOficial } from '../content/conferenciaOficialReais/aplicar';
 import { SimuladosReaisModal } from '../components/simuladoReal/SimuladosReaisModal';
 import { assinaturaQuestaoReal, lerSessaoReal } from '../domain/sessaoQuestoesReais';
+import { CONTAGEM_REAIS } from './helpers/lotesReaisConferidos';
 
 const porid = new Map(QUESTOES_REAIS.map(q => [q.id, q]));
 afterEach(() => { cleanup(); localStorage.clear(); });
@@ -22,9 +23,9 @@ describe('conferência documental do banco real', () => {
   it('cobre os 1.596 itens de origem e distingue consulta na banca, espelhos e pendências', () => {
     expect(relatorio.itens).toHaveLength(1596);
     expect(new Set(relatorio.itens.map(r => r.id))).toEqual(new Set(base.filter(q => q.estadoConferencia === 'caderno').map(q => q.id)));
-    expect(QUESTOES_REAIS).toHaveLength(1829);
-    expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(1590);
-    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(239);
+    expect(QUESTOES_REAIS).toHaveLength(CONTAGEM_REAIS.total);
+    expect(QUESTOES_REAIS.filter(q => !q.estadoConferencia)).toHaveLength(CONTAGEM_REAIS.origem);
+    expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'copia-oficial')).toHaveLength(CONTAGEM_REAIS.copia);
     expect(QUESTOES_REAIS.filter(q => q.estadoConferencia === 'caderno')).toHaveLength(0);
     for (const r of relatorio.itens) {
       const antes = base.find(q => q.id === r.id)!;

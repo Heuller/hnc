@@ -1,6 +1,6 @@
 import type { QuestaoEstudoReverso } from '../components/common/PainelEstudoReverso';
 import itensTriados from './questoesReaisTriadas.json';
-import itensLote06 from './questoesReaisLote06.json';
+import { QUESTOES_LOTES_REAIS } from './lotesReais';
 import { aplicarConferenciaOficial } from './conferenciaOficialReais/aplicar';
 import { enriquecerEstudoReversoReal } from './estudoReversoReais/enriquecer';
 
@@ -62,4 +62,4 @@ const QUESTOES_OFICIAIS_CONFERIDAS: QuestaoReal[] = [
 ];
 
 // Preserva o banco de origem; aplica conferências, restaurações e exclusões antes do estudo reverso.
-export const QUESTOES_REAIS: QuestaoReal[] = aplicarConferenciaOficial([...QUESTOES_OFICIAIS_CONFERIDAS, ...(itensTriados as QuestaoReal[]), ...(itensLote06 as QuestaoReal[])]).map(enriquecerEstudoReversoReal);
+export const QUESTOES_REAIS: QuestaoReal[] = aplicarConferenciaOficial([...QUESTOES_OFICIAIS_CONFERIDAS, ...(itensTriados as QuestaoReal[]), ...QUESTOES_LOTES_REAIS]).map(enriquecerEstudoReversoReal);

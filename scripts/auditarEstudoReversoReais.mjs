@@ -21,17 +21,29 @@ const visitar = n => {
 };
 visitar(codigo);
 if (oficiais.length !== 4) throw new Error('Estrutura dos itens oficiais mudou; atualize a auditoria.');
-const origem = [...oficiais, ...ler('src/content/questoesReaisTriadas.json'), ...ler('src/content/questoesReaisLote06.json')];
+const numerosLotes = fs.readdirSync('src/content').flatMap(nome => nome.match(/^questoesReaisLote(\d+)\.json$/)?.[1] || []).sort();
+const lotes = numerosLotes.map(numero => ({ numero, questoes: ler(`src/content/questoesReaisLote${numero}.json`), registro: ler(`src/content/conferenciaOficialReais/lote${numero}.json`), relatorio: ler(`docs/simulados-reais/LOTE-300-ACERVO-${numero}.json`) }));
+for (const lote of lotes) if (lote.questoes.length !== 300 || lote.relatorio.novasQuestoes !== 300) throw new Error(`Lote incompleto: ${lote.numero}`);
+const origem = [...oficiais, ...ler('src/content/questoesReaisTriadas.json'), ...lotes.flatMap(l => l.questoes)];
 const ids = new Set(origem.map(q => q.id));
 if (ids.size !== origem.length || Object.keys(anotacoes).length !== ids.size || Object.keys(anotacoes).some(id => !ids.has(id))) throw new Error('IDs duplicados ou anotações órfãs.');
 const conferenciaAnterior = ler('src/content/conferenciaOficialReais/registro.json');
-const conferenciaLote06 = ler('src/content/conferenciaOficialReais/lote06.json');
-const conferencia = { fontes: { ...conferenciaAnterior.fontes, ...conferenciaLote06.fontes }, itens: { ...conferenciaAnterior.itens, ...conferenciaLote06.itens }, editorial: conferenciaAnterior.editorial };
+const conferencia = { fontes: { ...conferenciaAnterior.fontes }, itens: { ...conferenciaAnterior.itens }, editorial: conferenciaAnterior.editorial };
+for (const lote of lotes) {
+  for (const [id, fonte] of Object.entries(lote.registro.fontes)) {
+    const antiga = conferencia.fontes[id];
+    if (antiga && ['provaUrl', 'gabaritoUrl', 'modo', 'tipoGabarito', 'codigo'].some(k => antiga[k] !== fonte[k])) throw new Error(`Fontes de lotes conflitantes: ${id}`);
+    conferencia.fontes[id] = fonte;
+  }
+  for (const [id, item] of Object.entries(lote.registro.itens)) {
+    if (conferencia.itens[id]) throw new Error(`Item repetido entre lotes: ${id}`);
+    conferencia.itens[id] = item;
+  }
+}
 const documento = ler('docs/simulados-reais/CONFERENCIA-OFICIAL-2026-11-05.json');
-const lote06 = ler('docs/simulados-reais/LOTE-300-ACERVO-06.json');
-const fontesDocumentais = { ...documento.fontes, ...lote06.conferencia.fontes };
+const fontesDocumentais = Object.assign({}, documento.fontes, ...lotes.map(l => l.relatorio.conferencia.fontes));
 const pendentesOrigem = origem.filter(q => q.estadoConferencia === 'caderno');
-const registrosDocumentais = [...documento.itens, ...lote06.conferencia.itens];
+const registrosDocumentais = [...documento.itens, ...lotes.flatMap(l => l.relatorio.conferencia.itens)];
 const revisoes = new Map(registrosDocumentais.map(r => [r.id, r]));
 const sha = texto => createHash('sha256').update(texto).digest('hex');
 if (revisoes.size !== registrosDocumentais.length || revisoes.size !== pendentesOrigem.length) throw new Error('Cobertura documental inconsistente.');
@@ -87,7 +99,8 @@ const resumo = {
   confrontoOficialPendente: questoes.filter(q => q.estadoConferencia === 'caderno').length,
   limites: ['A auditoria verifica cobertura e integridade dos blocos, não comprova a verdade de cada explicação.', 'A ampliação didática não converte atribuição de apostila em confronto de prova e gabarito oficiais.', 'Exemplos e comparações são autorais, não enunciados adicionais da Cebraspe.'],
 };
-if (resumo.total + semDocumento.length !== documento.resumo.bancoDepois + lote06.novasQuestoes || resumo.oficiaisConfrontadas !== documento.resumo.conferidasNaOrigem + lote06.confrontoNaOrigem || resumo.documentosOficiaisEmCopia !== documento.resumo.documentosConferidosEmEspelho + lote06.confrontoEmCopia || resumo.confrontoOficialPendente !== 0 || semDocumento.length !== documento.resumo.pendentes || resumo.excluidasPorAnulacao !== documento.resumo.anuladasRetiradas) throw new Error('Contagens da conferência divergentes.');
+const somaLotes = campo => lotes.reduce((total, l) => total + l.relatorio[campo], 0);
+if (resumo.total + semDocumento.length !== documento.resumo.bancoDepois + somaLotes('novasQuestoes') || resumo.oficiaisConfrontadas !== documento.resumo.conferidasNaOrigem + somaLotes('confrontoNaOrigem') || resumo.documentosOficiaisEmCopia !== documento.resumo.documentosConferidosEmEspelho + somaLotes('confrontoEmCopia') || resumo.confrontoOficialPendente !== 0 || semDocumento.length !== documento.resumo.pendentes || resumo.excluidasPorAnulacao !== documento.resumo.anuladasRetiradas) throw new Error('Contagens da conferência divergentes.');
 const selecao = {
   dataEditorial: '2026-11-05', bancoAntes: documento.resumo.bancoDepois, bancoDepois: documento.resumo.bancoDepois - semDocumento.length,
   criterio: 'Utilizar somente questões com enunciado legível e conferência documental suficiente; excluir pendências e anuladas dos treinos.',

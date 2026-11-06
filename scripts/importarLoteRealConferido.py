@@ -114,22 +114,47 @@ def main():
     parser.add_argument('--manifesto', required=True, type=Path)
     parser.add_argument('--write', action='store_true')
     parser.add_argument('--raiz', type=Path, default=Path.cwd())
+    parser.add_argument('--numero-lote', type=int, default=6)
+    parser.add_argument('--fontes-conferidas', type=Path,
+                        help='Registro de fontes adicionais já conferidas documentalmente; não gera nem valida a revisão conceitual.')
     args = parser.parse_args(); raiz = args.raiz
+    if not 6 <= args.numero_lote <= 99:
+        raise ValueError('Número de lote fora da sequência admitida.')
     ler = lambda p: json.loads((raiz/p).read_text())
     codigo = (raiz/'src/content/questoesReais.ts').read_text()
     inline = [{'id': id, 'item': item} for id, item in re.findall(r"id: '([^']+)'[\s\S]*?\n\s*item: '([^']+)'", codigo)]
     if len(inline) != 4:
         raise ValueError('A estrutura dos itens inline mudou.')
-    resultado = integrar(json.loads(args.manifesto.read_text()), ler('src/content/questoesReaisTriadas.json'), inline,
+    base = ler('src/content/questoesReaisTriadas.json')
+    registro_anterior = ler('src/content/conferenciaOficialReais/registro.json')
+    for numero in range(6, args.numero_lote):
+        base += ler(f'src/content/questoesReaisLote{numero:02d}.json')
+        anterior = ler(f'src/content/conferenciaOficialReais/lote{numero:02d}.json')
+        for campo in ['fontes', 'itens', 'editorial']:
+            for id, valor in anterior[campo].items():
+                if id in registro_anterior[campo] and registro_anterior[campo][id] != valor:
+                    raise ValueError('Conferências anteriores conflitantes: ' + id)
+                registro_anterior[campo][id] = valor
+    if args.fontes_conferidas:
+        for id, fonte in json.loads(args.fontes_conferidas.read_text()).items():
+            if any(not re.fullmatch('[a-f0-9]{64}', fonte.get(k, '')) for k in ['sha256TextoExtraidoProva', 'sha256TextoExtraidoGabarito']):
+                raise ValueError('Fonte adicional sem assinaturas da consulta: ' + id)
+            campos = ['provaUrl', 'gabaritoUrl', 'modo', 'tipoGabarito', 'codigo']
+            registro_fonte = {k: fonte[k] for k in campos}
+            if id in registro_anterior['fontes'] and registro_anterior['fontes'][id] != registro_fonte:
+                raise ValueError('Fonte adicional não pode substituir uma fonte anterior: ' + id)
+            registro_anterior['fontes'][id] = registro_fonte
+    resultado = integrar(json.loads(args.manifesto.read_text()), base, inline,
                          ler('src/content/estudoReversoReais/anotacoes.json'), ler('src/content/estudoReversoReais/perfis.json'),
-                         ler('src/content/estudoReversoReais/referencias.json'), ler('src/content/conferenciaOficialReais/registro.json'))
+                         ler('src/content/estudoReversoReais/referencias.json'), registro_anterior)
     questoes, notas, perfis, referencias, registro, report = resultado
     if args.write:
-        for nome, objeto in [('src/content/questoesReaisLote06.json', questoes), ('src/content/estudoReversoReais/anotacoes.json', notas),
+        numero = f'{args.numero_lote:02d}'
+        for nome, objeto in [(f'src/content/questoesReaisLote{numero}.json', questoes), ('src/content/estudoReversoReais/anotacoes.json', notas),
                              ('src/content/estudoReversoReais/perfis.json', perfis), ('src/content/estudoReversoReais/referencias.json', referencias),
-                             ('src/content/conferenciaOficialReais/lote06.json', registro), ('docs/simulados-reais/LOTE-300-ACERVO-06.json', report)]:
+                             (f'src/content/conferenciaOficialReais/lote{numero}.json', registro), (f'docs/simulados-reais/LOTE-300-ACERVO-{numero}.json', report)]:
             p = raiz/nome; tmp = p.with_suffix('.json.tmp'); tmp.write_text(json.dumps(objeto, ensure_ascii=False, indent=2)+'\n'); tmp.replace(p)
-        with (raiz/'docs/simulados-reais/LOTE-300-ACERVO-06.csv').open('w', encoding='utf-8-sig', newline='') as f:
+        with (raiz/f'docs/simulados-reais/LOTE-300-ACERVO-{numero}.csv').open('w', encoding='utf-8-sig', newline='') as f:
             w = csv.writer(f, delimiter=';', lineterminator='\n'); w.writerow(['id', 'modulo', 'submodulo', 'gabarito', 'numero_oficial', 'pagina_prova', 'prova_url', 'gabarito_url'])
             for q, ev in zip(questoes, report['conferencia']['itens']):
                 w.writerow([q['id'], q['modulo'], q['submoduloId'], q['gabarito'], ev['numeroOficial'], ev['paginaProva'], ev['provaUrl'], ev['gabaritoUrl']])

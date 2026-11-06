@@ -107,7 +107,8 @@ export default defineConfig({
         codeSplitting: { groups: [
           { name: 'content-questions-reverso-dados', test: /[\\/]content[\\/]estudoReversoReais[\\/].*\.json/, priority: 20, includeDependenciesRecursively: false },
           { name(id) {
-          if (/\/content\/questoesReaisLote06\.json$/.test(id.replaceAll('\\', '/'))) return 'content-questions-lote06';
+          const loteReal = id.replaceAll('\\', '/').match(/\/content\/questoesReaisLote(\d+)\.json$/);
+          if (loteReal) return `content-questions-lote${loteReal[1]}`;
           if (/\/content\/conferenciaOficialReais\//.test(id.replaceAll('\\', '/'))) return 'content-questions-conferencia';
           if (/\/content\/estudoReversoReais\//.test(id.replaceAll('\\', '/'))) return 'content-questions-reverso';
           if (/\/content\/questoesReais(?:Triadas)?\.(?:ts|json)$/.test(id.replaceAll('\\', '/'))) return 'content-questions-reais';

@@ -1,11 +1,22 @@
 import registro from './registro.json';
-import lote06 from './lote06.json';
 import type { QuestaoReal } from '../questoesReais';
 
 type Fonte = { provaUrl: string; gabaritoUrl: string; modo: 'original' | 'copia'; tipoGabarito: 'tabela' | 'recurso'; codigo: string };
 type Conferencia = { fonteId: string; numero: number; gabarito: 'C' | 'E' | 'X' };
-const fontes = { ...registro.fontes, ...lote06.fontes } as Record<string, Fonte>;
-const itens = { ...registro.itens, ...lote06.itens } as Record<string, Conferencia>;
+type RegistroLote = { fontes: Record<string, Fonte>; itens: Record<string, Conferencia> };
+const lotes = import.meta.glob<RegistroLote>('./lote*.json', { eager: true, import: 'default' });
+const fontes = { ...registro.fontes } as Record<string, Fonte>;
+const itens = { ...registro.itens } as Record<string, Conferencia>;
+for (const nome of Object.keys(lotes).sort()) {
+  for (const [id, fonte] of Object.entries(lotes[nome].fontes)) {
+    if (fontes[id] && (['provaUrl', 'gabaritoUrl', 'modo', 'tipoGabarito', 'codigo'] as const).some(k => fontes[id][k] !== fonte[k])) throw new Error(`Fontes de lotes conflitantes: ${id}`);
+    fontes[id] = fonte;
+  }
+  for (const [id, item] of Object.entries(lotes[nome].itens)) {
+    if (itens[id]) throw new Error(`Item repetido entre conferências de lotes: ${id}`);
+    itens[id] = item;
+  }
+}
 const editorial = registro.editorial as Record<string, Partial<QuestaoReal>>;
 
 /** O JSON de origem é histórico. Treinos usam apenas itens documentalmente conferidos. */
