@@ -1,6 +1,6 @@
 # Estudo reverso das 1.342 questões reais
 
-> Registro histórico da publicação anterior. O banco ativo tem 1.829 itens; consulte [o sexto lote](LOTE-300-ACERVO-06.md) e [a auditoria integral atual](ESTUDO-REVERSO-INTEGRAL.json).
+> Registro histórico. O banco ativo tem 2.429 itens após [o oitavo lote](LOTE-300-ACERVO-08.md). Consulte [a auditoria integral dos originais](ESTUDO-REVERSO-INTEGRAL.json); as contagens e decisões abaixo descrevem a etapa registrada.
 
 Revisão editorial de 5 de novembro de 2026, tomando como referência o PDF fornecido pelo aluno, “Heuller na Câmara — Ambiente de Estudos”. O exemplo de QuestionPoint desse documento é adaptado; não foi incorporado como questão de prova real.
 

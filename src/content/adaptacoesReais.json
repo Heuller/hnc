@@ -1,0 +1,142 @@
+{
+  "real-acervo-14a5a412cd2397": {
+    "item": "De acordo com a ABNT NBR 6028:2021, o resumo crítico constitui um terceiro tipo de resumo, ao lado do indicativo e do informativo.",
+    "gabarito": "E",
+    "gatilho": "um terceiro tipo de resumo",
+    "justificativa": "A classificação foi atualizada. A edição de 2021 distingue resumos indicativos e informativos e trata resenha e recensão em disposições próprias. A classificação anterior não deve ser transportada para essa edição apenas trocando o ano. O gabarito desta adaptação é autoral HNC; o julgamento da questão de 2011 permanece registrado na versão original.",
+    "regra": "A NBR 6028:2021 diferencia resumo indicativo e informativo e apresenta resenha e recensão separadamente. O indicativo aponta temas; o informativo também apresenta finalidades, métodos, resultados e conclusões, conforme o documento.",
+    "exemplo": "Um texto anuncia os assuntos de um estudo; outro informa como a pesquisa foi feita e quais resultados obteve. Uma análise crítica da obra é tratada como resenha ou recensão, conforme suas características.",
+    "contraste": "A NBR 6028:2021 distingue resumos indicativos e informativos e trata resenha e recensão em seção própria.",
+    "motivo": "Atualização da classificação de resumos da edição de 2003 para a de 2021.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a afirmação conforme a edição de 2021 da norma indicada.",
+    "conceito": "NBR 6028:2021: resumo, resenha e recensão",
+    "tecnica": "Técnica: Edição e modalidade normativa. Compare a edição citada e diferencie obrigação, recomendação e possibilidade.",
+    "referencia": {
+      "titulo": "ABNT NBR 6028:2021 — Informação e documentação: resumo, resenha e recensão — apresentação",
+      "localizador": "Termos 2.2 a 2.6 e seções 4.1 e 4.2. Documento normativo consultado em cópia no IBDP.",
+      "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
+    }
+  },
+  "real-acervo-28fd38018aec26": {
+    "item": "Segundo a ABNT NBR 6028:2021, resenhas e recensões não estão sujeitas a limite de palavras.",
+    "gabarito": "C",
+    "gatilho": "resenhas e recensões",
+    "justificativa": "A norma de 2021 estabelece recomendações de extensão para resumos e trata resenha e recensão em outra seção. Nessa seção, não fixa limite de palavras para esses dois gêneros. Isso não impede que uma revista ou atividade acadêmica estabeleça limites editoriais próprios. A adaptação atualiza a categoria empregada na questão original, que mencionava resumo crítico na norma de 2003.",
+    "regra": "Limites normativos e limites editoriais são planos diferentes. A NBR 6028:2021 recomenda faixas de extensão para resumos e não estabelece limite de palavras para resenhas e recensões.",
+    "exemplo": "Uma revista pode solicitar uma resenha de até mil palavras. Esse limite deriva de sua política editorial, sem transformar a nota da NBR sobre ausência de limite em uma contradição.",
+    "contraste": "A NBR 6028:2021 determina que toda resenha e toda recensão tenham no máximo quinhentas palavras.",
+    "motivo": "Substituição da categoria histórica resumo crítico pelo tratamento de resenha e recensão na edição de 2021.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a afirmação conforme a edição de 2021 da norma indicada.",
+    "conceito": "NBR 6028:2021: resumo, resenha e recensão",
+    "tecnica": "Técnica: Edição e modalidade normativa. Compare a edição citada e diferencie obrigação, recomendação e possibilidade.",
+    "referencia": {
+      "titulo": "ABNT NBR 6028:2021 — Informação e documentação: resumo, resenha e recensão — apresentação",
+      "localizador": "Itens 4.1.8 e 4.2.2, nota. Documento normativo consultado em cópia no IBDP.",
+      "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
+    }
+  },
+  "real-esquematizada-1883-f516bcc74e": {
+    "item": "Na ABNT NBR 6028:2021, a recensão é uma análise crítica, descritiva e/ou comparativa, geralmente elaborada por especialista.",
+    "gabarito": "C",
+    "gatilho": "geralmente",
+    "justificativa": "A edição de 2021 define recensão por seu caráter analítico, que pode envolver descrição, crítica e comparação, geralmente por especialista. Não a restringe à análise de uma única edição de livro nem exige que o autor seja sempre especialista. O termo geralmente conserva a modalidade da definição e evita transformá-la em requisito absoluto.",
+    "regra": "Na edição de 2021, recensão e resenha recebem definições próprias. O conceito de recensão envolve análise crítica, descritiva e/ou comparativa; não é apenas um rótulo obrigatório para estudar uma edição específica.",
+    "exemplo": "Uma pesquisadora compara duas obras sobre bibliotecas escolares e analisa seus métodos e argumentos. O caráter comparativo e crítico pode integrar uma recensão, sem se limitar a uma só edição.",
+    "contraste": "A NBR 6028:2021 restringe a recensão à análise de uma única edição e exige que ela seja sempre redigida por especialista.",
+    "motivo": "Atualização da definição de recensão e da relação com a terminologia histórica de resumo crítico.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a afirmação conforme a edição de 2021 da norma indicada.",
+    "conceito": "NBR 6028:2021: resumo, resenha e recensão",
+    "tecnica": "Técnica: Edição e modalidade normativa. Compare a edição citada e diferencie obrigação, recomendação e possibilidade.",
+    "referencia": {
+      "titulo": "ABNT NBR 6028:2021 — Informação e documentação: resumo, resenha e recensão — apresentação",
+      "localizador": "Termos 2.2 e 2.3. Documento normativo consultado em cópia no IBDP.",
+      "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
+    }
+  },
+  "real-esquematizada-1891-31805d5f61": {
+    "item": "Segundo a ABNT NBR 6028:2021, a referência é opcional quando o resumo está contido no próprio documento; se utilizada, deve ficar logo após o título da seção Resumo.",
+    "gabarito": "C",
+    "gatilho": "opcional",
+    "justificativa": "A referência tem tratamento diferente conforme o resumo esteja no próprio documento ou separado dele. Quando está no documento, a edição de 2021 torna a referência opcional e indica sua posição após o título da seção. Quando o resumo circula fora do documento, a referência deve precedê-lo. O julgamento depende da situação, e não de uma regra única para todos os resumos.",
+    "regra": "Primeiro identifique onde o resumo aparece. No próprio documento, a referência é opcional e tem posição específica; fora dele, deve anteceder o resumo para identificar a fonte resumida.",
+    "exemplo": "O resumo na abertura de uma dissertação não precisa repetir sua referência obrigatoriamente. Em uma lista autônoma de resumos de diferentes obras, cada texto precisa identificar a obra correspondente.",
+    "contraste": "Todo resumo inserido no próprio documento deve obrigatoriamente começar pela referência completa da obra, antes do título da seção.",
+    "motivo": "Aplicação explícita da edição de 2021 à apresentação da referência junto ao resumo.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a afirmação conforme a edição de 2021 da norma indicada.",
+    "conceito": "NBR 6028:2021: resumo, resenha e recensão",
+    "tecnica": "Técnica: Edição e modalidade normativa. Compare a edição citada e diferencie obrigação, recomendação e possibilidade.",
+    "referencia": {
+      "titulo": "ABNT NBR 6028:2021 — Informação e documentação: resumo, resenha e recensão — apresentação",
+      "localizador": "Itens 4.1.5 e 4.1.6. Documento normativo consultado em cópia no IBDP.",
+      "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
+    }
+  },
+  "real-acervo-bac71a5120f25b": {
+    "item": "Conforme a ABNT NBR 6028:2021, convém que o resumo de um artigo de periódico tenha entre 100 e 250 palavras.",
+    "gabarito": "C",
+    "gatilho": "convém",
+    "justificativa": "A edição de 2021 apresenta essa faixa como recomendação. O tipo documental é decisivo: teses e relatórios têm outra faixa recomendada. A adaptação explicita a modalidade da regra, sem converter conveniência normativa em obrigação universal ou eliminar exigências editoriais próprias.",
+    "regra": "A extensão recomendada pela NBR 6028:2021 varia conforme o tipo de documento. Para artigos de periódicos, a faixa é de 100 a 250 palavras; a redação normativa usa modalidade de recomendação.",
+    "exemplo": "Um periódico pede resumo de cerca de 180 palavras. O autor também confere as instruções editoriais e não transporta automaticamente a faixa de teses para o artigo.",
+    "contraste": "A NBR 6028:2021 exige obrigatoriamente a mesma extensão de resumo para artigos, teses e qualquer outro tipo de documento.",
+    "motivo": "Atualização da edição de 2003 para a de 2021 e explicitação da modalidade de recomendação.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a afirmação conforme a edição da norma indicada.",
+    "conceito": "Edição normativa e aplicação ao documento",
+    "tecnica": "Técnica: Edição e modalidade normativa. Confira o tipo documental, a regra efetivamente mantida ou alterada e a diferença entre obrigação e recomendação.",
+    "referencia": {
+      "titulo": "ABNT NBR 6028:2021 — Informação e documentação: resumo, resenha e recensão — apresentação",
+      "localizador": "Item 4.1.8, alínea b. Norma consultada em cópia no IBDP.",
+      "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
+    }
+  },
+  "real-acervo-c3d973b4e2de36": {
+    "item": "Na ABNT NBR 6028:2021, o uso do verbo na terceira pessoa no resumo é recomendado, sem que essa edição estabeleça uma exigência geral de voz ativa.",
+    "gabarito": "C",
+    "gatilho": "sem que essa edição",
+    "justificativa": "A norma de 2021 recomenda terceira pessoa, mas não reproduz a orientação geral sobre voz ativa presente na edição de 2003. A versão atualizada distingue pessoa e voz verbal: são características diferentes. A ausência dessa exigência não dispensa clareza, concisão ou fidelidade ao conteúdo.",
+    "regra": "Pessoa verbal e voz verbal não são sinônimos. A revisão normativa precisa ser lida em seus próprios termos, sem transportar automaticamente uma orientação da edição anterior.",
+    "exemplo": "O aluno compara as duas edições: encontra a recomendação sobre terceira pessoa em 2021 e evita acrescentar, por memória da edição antiga, uma exigência que o novo texto não enuncia.",
+    "contraste": "A edição de 2021 repete integralmente a orientação da edição de 2003 sobre pessoa e voz verbal, sem qualquer mudança.",
+    "motivo": "Atualização da orientação sobre pessoa e voz verbal da edição de 2003 para a de 2021.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a afirmação conforme a edição da norma indicada.",
+    "conceito": "Edição normativa e aplicação ao documento",
+    "tecnica": "Técnica: Edição e modalidade normativa. Confira o tipo documental, a regra efetivamente mantida ou alterada e a diferença entre obrigação e recomendação.",
+    "referencia": {
+      "titulo": "ABNT NBR 6028:2021 — Informação e documentação: resumo, resenha e recensão — apresentação",
+      "localizador": "Item 4.1.4. Norma consultada em cópia no IBDP.",
+      "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
+    }
+  },
+  "real-fonte-833c2e3c897e-70": {
+    "item": "Na referência de um livro segundo a ABNT NBR 6023:2025, o local de publicação integra os elementos essenciais de identificação.",
+    "gabarito": "C",
+    "gatilho": "local de publicação",
+    "justificativa": "A edição de 2025 mantém o local no conjunto de elementos essenciais do modelo para livro e folheto. A atualização do ano não implica alterar toda regra anterior: é preciso verificar o conteúdo efetivo da revisão. O local se relaciona à publicação, e não ao nascimento ou endereço pessoal do autor.",
+    "regra": "A referência precisa identificar os dados editoriais pertinentes ao tipo documental. A mudança de edição da norma exige conferência, pois algumas regras mudam e outras permanecem.",
+    "exemplo": "Um livro publicado em determinada cidade recebe esse dado conforme a norma. A cidade de residência do escritor não substitui livremente o local associado à publicação.",
+    "contraste": "O local de publicação de um livro é sempre substituído pelo lugar de nascimento de seu autor, segundo a NBR 6023:2025.",
+    "motivo": "Atualização da edição de 2018 para a de 2025; o requisito de local permanece no modelo de livro.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a afirmação conforme a edição da norma indicada.",
+    "conceito": "Edição normativa e aplicação ao documento",
+    "tecnica": "Técnica: Edição e modalidade normativa. Confira o tipo documental, a regra efetivamente mantida ou alterada e a diferença entre obrigação e recomendação.",
+    "referencia": {
+      "titulo": "ABNT NBR 6023:2025 — Informação e documentação: referências — elaboração",
+      "localizador": "Item 7.1.1: referência de livro e/ou folheto. Seção consultada em cópia disponibilizada pela UFF; não se afirma leitura integral das 74 páginas.",
+      "url": "https://mccicm.uff.br/wp-content/uploads/sites/79/2026/03/ABNT_NBR_6023_2025-Informacao-e-documentacao-%E2%80%94-Referencias-%E2%80%94-Elaboracao.pdf"
+    }
+  }
+}

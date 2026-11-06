@@ -1,6 +1,6 @@
 # Quinto lote: 300 novas questões reais
 
-> Registro histórico do lote. A conferência posterior retirou oito anuladas, e a seleção excluiu 105 pendências. Com [o sexto lote](LOTE-300-ACERVO-06.md), o banco ativo tem 1.829 itens. As contagens e pendências abaixo descrevem a situação na publicação deste lote.
+> Registro histórico. O banco ativo tem 2.429 itens após [o oitavo lote](LOTE-300-ACERVO-08.md). Consulte [a auditoria integral dos originais](ESTUDO-REVERSO-INTEGRAL.json); as contagens e decisões abaixo descrevem a etapa registrada.
 
 Revisão editorial de 5 de novembro de 2026. O banco passa de **1.342 para 1.642 itens**, preservando os IDs, enunciados, contextos e gabaritos anteriores. A assinatura dos 1.338 registros anteriores em JSON consta no relatório; os quatro itens oficiais mantidos em TypeScript não foram alterados.
 

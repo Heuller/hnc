@@ -1214,5 +1214,61 @@
     "tecnica": "Técnica: Sequência ou âmbito generalizados. Identifique a espécie normativa e diferencie discussão, emenda e deliberação, observando as condições de formação do ato.",
     "contrasteErrado": "Toda espécie normativa segue obrigatoriamente o mesmo rito e depende de sanção presidencial.",
     "referencia": "cf-processo-legislativo"
+  },
+  "bsc": {
+    "titulo": "BSC: perspectivas e indicadores articulados",
+    "regra": "O Balanced Scorecard relaciona estratégia, objetivos e medidas em perspectivas articuladas. No modelo clássico, elas abrangem finanças, clientes, processos internos e aprendizado e crescimento. Organizações públicas podem adaptar o desenho, sem confundir uma adaptação com a definição clássica.",
+    "exemplo": "Uma biblioteca acompanha recursos, experiência do público, tempo de atendimento e desenvolvimento da equipe, procurando entender como esses resultados se relacionam.",
+    "tecnica": "Técnica: Modelo e adaptação. Confira a composição do modelo clássico e não transforme listas de indicadores ou alterações institucionais em sua definição original.",
+    "contrasteErrado": "O BSC clássico possui somente perspectiva financeira e dispensa indicadores de clientes, processos e aprendizagem.",
+    "referencia": "bsc-kaplan-norton"
+  },
+  "qualidade": {
+    "titulo": "Qualidade: requisitos, evidências e melhoria",
+    "regra": "A gestão da qualidade articula requisitos, acompanhamento de processos e melhoria. Ferramentas como registro de ocorrências, Pareto e Ishikawa têm funções diferentes: ajudam a organizar dados e hipóteses, mas não provam sozinhas causas nem executam correções.",
+    "exemplo": "A biblioteca registra falhas no atendimento, identifica ocorrências prioritárias e investiga possíveis causas antes de definir e acompanhar ações.",
+    "tecnica": "Técnica: Ferramenta e finalidade. Diferencie coleta, representação, análise e ação; nenhum gráfico garante qualidade automaticamente.",
+    "contrasteErrado": "O uso de um diagrama elimina a necessidade de dados e comprova automaticamente a causa de todo problema.",
+    "referencia": "qualidade-asq"
+  },
+  "processos": {
+    "titulo": "Processos: fluxos, resultados e revisão",
+    "regra": "Um processo articula atividades e recursos que transformam entradas em resultados. Sua análise ultrapassa fronteiras de setores, identifica passagens e problemas e acompanha efeitos das mudanças. Mapeamento e redesenho precisam representar o trabalho real e servir aos objetivos.",
+    "exemplo": "A equipe acompanha a demanda desde o pedido do usuário até a entrega e identifica retrabalho entre setores, em vez de analisar apenas a produtividade isolada de cada departamento.",
+    "tecnica": "Técnica: Fluxo e estrutura. Não confunda a sequência das atividades com as relações de autoridade do organograma.",
+    "contrasteErrado": "Gerir por processos significa limitar a análise a departamentos isolados e dispensar avaliação dos resultados entregues.",
+    "referencia": "planejamento"
+  },
+  "cultura": {
+    "titulo": "Cultura: manifestações, valores e pressupostos",
+    "regra": "Cultura organizacional envolve formas compartilhadas de perceber e agir, com manifestações observáveis, valores declarados e pressupostos nem sempre explícitos. O que a organização anuncia pode diferir das regras tácitas que orientam o cotidiano.",
+    "exemplo": "A biblioteca declara valorizar inclusão, mas uma rotina informal pode dificultar atendimento a parte do público. A análise precisa olhar discurso e prática.",
+    "tecnica": "Técnica: Camadas da cultura. Não reduza cultura ao que é visível nem chame toda regra implícita de valor declarado.",
+    "contrasteErrado": "A cultura organizacional é formada exclusivamente por comportamentos visíveis e não inclui valores ou pressupostos.",
+    "referencia": "comportamento-organizacional"
+  },
+  "motivacao": {
+    "titulo": "Pessoas e comportamento nas organizações",
+    "regra": "Comportamento organizacional estuda indivíduos, grupos e condições de trabalho em instituições de diferentes portes. Motivação envolve nível, direção e persistência do esforço; não é apenas entusiasmo nem condição fixa que dispense contexto, relações e objetivos.",
+    "exemplo": "Uma pequena equipe pode apresentar cooperação, conflitos e diferenças de motivação que afetam o atendimento, mesmo sem uma estrutura organizacional extensa.",
+    "tecnica": "Técnica: Restrição indevida e redução. Não limite fenômenos de trabalho a grandes empresas nem confunda motivação com um único sentimento.",
+    "contrasteErrado": "Motivação é somente entusiasmo momentâneo e comportamento organizacional só pode ser estudado em grandes empresas.",
+    "referencia": "comportamento-organizacional"
+  },
+  "gestao-arquivistica": {
+    "titulo": "Gestão documental: contexto, controle e ciclo de vida",
+    "regra": "Gestão arquivística articula políticas, responsabilidades e procedimentos de produção, tramitação, uso, avaliação e destinação documental. Sistemas apoiam requisitos técnicos e funcionais, sem substituir a política ou garantir preservação por sua simples aquisição. Suportes podem demandar procedimentos diferentes.",
+    "exemplo": "A instituição controla documentos em papel e digitais por critérios integrados, com procedimentos próprios de captura, acesso, guarda e destinação.",
+    "tecnica": "Técnica: Modelo, sistema e resultado. Distinga requisito, funcionalidade e efetiva prática institucional; confira também o modelo e a época citados.",
+    "contrasteErrado": "Comprar um sistema garante gestão e preservação de qualquer documento, sem políticas, responsabilidades ou procedimentos.",
+    "referencia": "earq-conarq"
+  },
+  "escalabilidade": {
+    "titulo": "Escalabilidade e disponibilidade",
+    "regra": "Escalabilidade é a capacidade de ajustar recursos e atender mudanças de demanda. Disponibilidade se relaciona ao acesso nas condições necessárias. Elasticidade, especialmente em nuvem, permite provisionar e liberar capacidades; esses atributos não são sinônimos de ausência de limites ou de custos.",
+    "exemplo": "Um portal pode ficar acessível no horário previsto e ainda precisar de ampliação de recursos para atender um pico de consultas.",
+    "tecnica": "Técnica: Propriedades distintas. Verifique se o item descreve ajuste de capacidade, acesso, desempenho ou outra dimensão do serviço.",
+    "contrasteErrado": "Um sistema disponível no horário previsto é necessariamente capaz de atender qualquer aumento de demanda sem ajustes.",
+    "referencia": "nist-nuvem"
   }
 }

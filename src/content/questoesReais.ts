@@ -16,6 +16,12 @@ export interface QuestaoReal extends QuestaoEstudoReverso {
   numeroNaFonte?: number;
   outrasFontes?: { titulo: string; url: string }[];
   acervoUrl: string;
+  adaptacaoEditorial?: {
+    data: string;
+    versao: number;
+    motivo: string;
+    original: Pick<QuestaoReal, 'item' | 'contexto' | 'gabarito' | 'justificativa'>;
+  };
 }
 
 const prova = 'https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_005_01.PDF';

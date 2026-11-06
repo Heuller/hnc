@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1050,
-  "numPassedTests": 1050,
+  "numTotalTests": 1060,
+  "numPassedTests": 1060,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 135,
-  "source": "vitest run: sétimo lote de 300 questões reais conferidas; 2.129 itens ativos, 06/11/2026"
+  "testFiles": 136,
+  "source": "vitest run: lote 08 de 300 questões reais e 7 adaptações normativas; 2.429 itens ativos, 06/11/2026"
 }
