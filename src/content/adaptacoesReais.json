@@ -138,5 +138,65 @@
       "localizador": "Item 7.1.1: referência de livro e/ou folheto. Seção consultada em cópia disponibilizada pela UFF; não se afirma leitura integral das 74 páginas.",
       "url": "https://mccicm.uff.br/wp-content/uploads/sites/79/2026/03/ABNT_NBR_6023_2025-Informacao-e-documentacao-%E2%80%94-Referencias-%E2%80%94-Elaboracao.pdf"
     }
+  },
+  "real-fonte-963ffeef2059-143": {
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a versão adaptada pela HNC conforme a legislação ou edição normativa expressamente indicada. O original da banca permanece disponível para comparação.",
+    "item": "Segundo a Lei nº 14.133/2021, é vedada a exigência de garantia de proposta na modalidade pregão.",
+    "gabarito": "E",
+    "gatilho": "é vedada",
+    "justificativa": "Errado. O art. 58 da Lei 14.133/2021 permite exigir garantia de proposta no momento de sua apresentação, como requisito de pré-habilitação, limitada a 1% do valor estimado da contratação. A proibição que existia no pregão da Lei 10.520/2002 não foi reproduzida na nova lei. A adaptação concentra-se nessa mudança: o gabarito HNC é E, enquanto o C da questão de 2014 permanece correto para o regime histórico nela cobrado.",
+    "regra": "A garantia de proposta protege a seriedade da participação na licitação. Na Lei 14.133/2021, ela é uma possibilidade, com limite de 1%; não se confunde com a garantia de execução contratual, que tem finalidade, momento e percentuais próprios.",
+    "exemplo": "Em um pregão de R$ 200 mil, uma exigência de garantia de proposta deve respeitar o teto de R$ 2 mil. Isso não a torna obrigatória em toda licitação, nem permite cobrar antecipadamente a garantia contratual de todos os participantes.",
+    "contraste": "A Lei 14.133/2021 permite exigir garantia de proposta no pregão, respeitados o momento, os requisitos e o limite de 1% do valor estimado da contratação.",
+    "motivo": "Atualização do regime da Lei 10.520/2002 para o art. 58 da Lei 14.133/2021. O recorte adaptado trata apenas da garantia de proposta; o enunciado histórico completo está preservado.",
+    "conceito": "Pregão: garantia de proposta na legislação atual",
+    "tecnica": "Técnica: compare o regime legal. Uma proibição verdadeira em prova antiga pode deixar de existir quando a lei é substituída; observe também a diferença entre poderá e deverá.",
+    "referencia": {
+      "titulo": "TCU — Licitações e Contratos: garantia de proposta",
+      "localizador": "Seção 5.2.1; Lei 14.133/2021, art. 58, especialmente caput e § 1º; comparação expressa com o art. 5º, I, da Lei 10.520/2002.",
+      "url": "https://licitacoesecontratos.tcu.gov.br/5-2-1-garantia-de-proposta/"
+    }
+  },
+  "real-fonte-adc78534c80e-70": {
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a versão adaptada pela HNC conforme a legislação ou edição normativa expressamente indicada. O original da banca permanece disponível para comparação.",
+    "item": "Conforme a ABNT NBR 6023:2025, na referência de legislação, as ementas sempre devem ser transcritas integralmente, mesmo quando demasiadamente longas.",
+    "gabarito": "E",
+    "gatilho": "sempre",
+    "justificativa": "Errado. A edição de 2025 inclui a ementa entre os elementos da referência de legislação, mas admite suprimir parte de epígrafes e ementas demasiadamente longas. A abreviação precisa preservar o sentido e ser indicada por reticências entre colchetes. A palavra sempre elimina essa possibilidade e torna a afirmação falsa. A atualização da edição mantém o julgamento E, agora fundamentado explicitamente no item 7.11.1 da norma de 2025.",
+    "regra": "Incluir um elemento na referência não significa necessariamente reproduzir integralmente qualquer extensão de texto. Para epígrafes e ementas demasiadamente longas, a NBR 6023:2025 admite omissão parcial sinalizada por [...], sem alteração do sentido.",
+    "exemplo": "Ao referenciar uma lei com ementa muito extensa, o bibliotecário pode omitir um trecho dispensável à compreensão e marcar [...]. Não pode eliminar a parte que delimita os destinatários da lei se isso mudar o sentido da ementa.",
+    "contraste": "Na referência de legislação, epígrafes e ementas demasiadamente longas podem ser parcialmente suprimidas, preservando-se o sentido e indicando-se a omissão por [...].",
+    "motivo": "Atualização da edição indicada no original para a ABNT NBR 6023:2025, após conferência da regra sobre ementas. O gabarito histórico e o autoral permanecem E.",
+    "conceito": "Referências de legislação: elementos e supressões permitidas",
+    "tecnica": "Técnica: confira a exceção. O emprego de sempre não torna um item automaticamente errado; aqui, ele contraria uma permissão expressa da norma.",
+    "referencia": {
+      "titulo": "ABNT NBR 6023:2025 — Informação e documentação: referências — elaboração",
+      "localizador": "Item 7.11.1: legislação; permissão de supressão parcial em epígrafes e ementas demasiadamente longas. Seção consultada em cópia disponibilizada pela UFF.",
+      "url": "https://mccicm.uff.br/wp-content/uploads/sites/79/2026/03/ABNT_NBR_6023_2025-Informacao-e-documentacao-%E2%80%94-Referencias-%E2%80%94-Elaboracao.pdf"
+    }
+  },
+  "real-fonte-fde51a905108-70": {
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a versão adaptada pela HNC conforme a legislação ou edição normativa expressamente indicada. O original da banca permanece disponível para comparação.",
+    "item": "Segundo a ABNT NBR 6028:2021, o resumo indicativo informa ao leitor as finalidades, a metodologia, os resultados e as conclusões de um documento, enquanto o resumo informativo apenas indica os pontos principais, sem detalhamento.",
+    "gabarito": "E",
+    "gatilho": "o resumo indicativo informa",
+    "justificativa": "Errado. A adaptação inverte as duas definições. O resumo indicativo aponta os pontos principais sem apresentar detalhamentos e, de modo geral, não dispensa a consulta ao original. O informativo apresenta finalidades, metodologia, resultados e conclusões, podendo inclusive dispensar essa consulta. A versão HNC retira a categoria histórica resumo crítico do original de 2019 e trabalha com as definições expressas nos itens 2.5 e 2.6 da edição de 2021.",
+    "regra": "Indicativo significa indicar do que o documento trata; informativo significa transmitir os principais dados de seu conteúdo. A possibilidade de dispensar a consulta ao original depende do conteúdo e da necessidade do leitor, sem transformar o resumo em substituto obrigatório da obra.",
+    "exemplo": "Um texto diz que uma pesquisa examina a formação de leitores: ele indica o tema. Outro informa que houve entrevistas com quarenta alunos, descreve o resultado e apresenta a conclusão: ele oferece conteúdo informativo sobre a pesquisa.",
+    "contraste": "O resumo informativo apresenta finalidades, metodologia, resultados e conclusões; o indicativo aponta os pontos principais sem esse detalhamento.",
+    "motivo": "Atualização da terminologia histórica do original para a comparação entre resumo indicativo e informativo na ABNT NBR 6028:2021.",
+    "conceito": "Resumo indicativo e informativo: grau de detalhamento",
+    "tecnica": "Técnica: procure a troca de definições. Associe o nome de cada tipo à função que desempenha, em vez de julgar somente pela presença de palavras familiares.",
+    "referencia": {
+      "titulo": "ABNT NBR 6028:2021 — Informação e documentação: resumo, resenha e recensão — apresentação",
+      "localizador": "Itens 2.5 e 2.6 e seção 4.1. Documento normativo consultado em cópia no IBDP.",
+      "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
+    }
   }
 }

@@ -1270,5 +1270,165 @@
     "tecnica": "Técnica: Propriedades distintas. Verifique se o item descreve ajuste de capacidade, acesso, desempenho ou outra dimensão do serviço.",
     "contrasteErrado": "Um sistema disponível no horário previsto é necessariamente capaz de atender qualquer aumento de demanda sem ajustes.",
     "referencia": "nist-nuvem"
+  },
+  "ingles-leitura": {
+    "titulo": "Inglês: inferência apoiada no texto",
+    "regra": "Julgue o que o texto afirma ou permite inferir. Preserve participantes, tempo, causa, alcance e modalidade. Uma informação plausível fora do texto não vira evidência da passagem.",
+    "exemplo": "O texto diz que uma medida pode ajudar. Trocar isso por uma promessa de resolver todos os casos aumenta o alcance e pode tornar a paráfrase falsa.",
+    "tecnica": "Técnica: Evidência e alcance. Localize a frase-base e compare quem, quando, como e com que grau de certeza.",
+    "contrasteErrado": "Uma hipótese plausível deve ser considerada verdadeira mesmo sem apoio no texto.",
+    "referencia": "ingles-gramatica"
+  },
+  "ingles-vocabulario": {
+    "titulo": "Inglês: significado no contexto",
+    "regra": "Interprete a palavra ou expressão na frase e teste a substituição preservando sentido, função e construção. Expressões idiomáticas não precisam corresponder à soma literal de suas palavras.",
+    "exemplo": "Em um debate, entrar na disputa não significa necessariamente participar de luta física; o contexto seleciona o sentido.",
+    "tecnica": "Técnica: Substituição contextual. Releia a frase com a alternativa e verifique se a relação de sentido permanece.",
+    "contrasteErrado": "Uma palavra mantém obrigatoriamente a mesma tradução em todos os contextos.",
+    "referencia": "ingles-gramatica"
+  },
+  "ingles-marcadores": {
+    "titulo": "Inglês: relações entre ideias",
+    "regra": "Marcadores podem expressar contraste, concessão, causa, condição, consequência ou conteúdo. A troca só é válida se preservar a relação e a construção no contexto.",
+    "exemplo": "Apesar do esforço introduz concessão; se houver esforço introduz condição. A semelhança temática não torna as duas relações equivalentes.",
+    "tecnica": "Técnica: Relação argumentativa. Nomeie o vínculo entre as ideias antes de aceitar um conector substituto.",
+    "contrasteErrado": "Qualquer marcador que ligue duas orações pode substituir outro sem mudar o sentido.",
+    "referencia": "ingles-gramatica"
+  },
+  "ingles-coesao": {
+    "titulo": "Inglês: o que o pronome retoma?",
+    "regra": "Identifique o referente por concordância, estrutura e sentido. Um demonstrativo pode recuperar uma afirmação ou situação inteira, não apenas o substantivo mais próximo.",
+    "exemplo": "Em uma frase sobre intenções e capacidades que mudam, o relativo pode retomar essas características em vez das pessoas que as possuem.",
+    "tecnica": "Técnica: Retomada. Substitua o pronome pelo referente proposto e confira se a frase continua coerente.",
+    "contrasteErrado": "Todo pronome retoma obrigatoriamente o substantivo imediatamente anterior.",
+    "referencia": "ingles-gramatica"
+  },
+  "adm-organizacao": {
+    "titulo": "Administração: órgãos, entidades e princípios",
+    "regra": "Diferencie pessoas jurídicas, órgãos e agentes. Organização e prerrogativas dependem de fundamento jurídico; vinculação não equivale a hierarquia e interesse público não autoriza arbitrariedade.",
+    "exemplo": "Um ministério é órgão da União; uma empresa pública é entidade de direito privado. Ambos atuam na administração, mas não possuem a mesma natureza jurídica.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Todo órgão administrativo possui personalidade jurídica própria e pode criar livremente suas competências.",
+    "referencia": "adm-cf"
+  },
+  "adm-atos": {
+    "titulo": "Atos administrativos: atributos e validade",
+    "regra": "Separe competência, motivo, finalidade e atributos. Anulação combate ilegalidade; revogação avalia conveniência nos limites cabíveis. Imperatividade e autoexecutoriedade não são sinônimos nem universais.",
+    "exemplo": "Uma multa pode impor pagamento sem permitir que a administração execute diretamente qualquer forma de cobrança. Impor e executar são questões distintas.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Todo ato tem todos os atributos e qualquer ilegalidade pode ser tratada como mera revogação.",
+    "referencia": "adm-9784"
+  },
+  "adm-agentes": {
+    "titulo": "Agentes: vínculo, garantias e situação funcional",
+    "regra": "Observe o regime aplicável e distinga ingresso, provimento, vacância, estabilidade, vantagens e penalidades. A estabilidade protege contra arbitrariedade, sem impedir responsabilização regular.",
+    "exemplo": "Uma promoção pode deixar vago o cargo anterior e manter o vínculo funcional, ao contrário da conclusão de que toda vacância encerra o serviço público.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Toda vacância rompe definitivamente o vínculo e toda parcela paga ao servidor integra sua remuneração permanente.",
+    "referencia": "adm-8112"
+  },
+  "adm-processo": {
+    "titulo": "Processo administrativo: competência, comunicação e defesa",
+    "regra": "Identifique o procedimento e suas garantias. Cautela não é penalidade antecipada; ausência de advogado não significa ausência de defesa. Regras federais e distritais devem ser identificadas separadamente.",
+    "exemplo": "O afastamento preventivo busca proteger a apuração e pode preservar a remuneração. Aplicar uma sanção exige decisão pelo procedimento e autoridade competentes.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Uma medida cautelar prova a culpa e autoriza aplicar penalidade sem defesa.",
+    "referencia": "adm-9784"
+  },
+  "adm-poderes": {
+    "titulo": "Poderes: polícia, disciplina e hierarquia",
+    "regra": "Associe a medida ao vínculo e à competência. Fiscalizar particulares, apurar infração funcional e avocar competência são operações diferentes, sujeitas a fundamento e limites.",
+    "exemplo": "Interditar um estabelecimento por risco sanitário é diferente de apurar a falta funcional do fiscal que realizou a inspeção.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Qualquer sanção a um particular decorre necessariamente do poder disciplinar.",
+    "referencia": "adm-cf"
+  },
+  "adm-responsabilidade": {
+    "titulo": "Estado: dano, nexo e responsabilidade",
+    "regra": "No regime geral de responsabilidade objetiva, examine conduta, dano e nexo causal; não confunda risco administrativo com risco integral ou responsabilidade automática por todo prejuízo.",
+    "exemplo": "Um dano causado por agente no exercício da função exige examinar o nexo e a situação jurídica; dano material e dano moral são categorias possíveis, não indenizações automáticas.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Responsabilidade objetiva dispensa nexo causal e obriga indenizar qualquer aborrecimento.",
+    "referencia": "adm-cf"
+  },
+  "adm-controle": {
+    "titulo": "Administração: fiscalização e controle judicial",
+    "regra": "Controle interno, externo e judicial possuem competências próprias e podem se complementar. Discricionariedade não exclui controle de juridicidade nem autoriza substituir livremente escolhas administrativas lícitas.",
+    "exemplo": "Um ato pode admitir escolha administrativa e ainda ser invalidado por desvio de finalidade. Fiscalizar o vício difere de escolher outra opção por preferência pessoal.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Todo ato discricionário está fora do controle e a fiscalização interna elimina a externa.",
+    "referencia": "adm-cf"
+  },
+  "adm-licitacoes": {
+    "titulo": "Licitações: regime vigente e condições da proposta",
+    "regra": "Identifique a lei aplicável. Regras da Lei 10.520/2002 não devem ser transportadas automaticamente para a Lei 14.133/2021. Divulgação, competição e garantias possuem requisitos próprios.",
+    "exemplo": "A garantia de proposta era vedada no antigo pregão e passou a ser admitida nos termos do art. 58 da nova lei. O texto e o julgamento precisam explicitar o regime.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Basta trocar o ano da lei para manter todas as proibições e permissões do regime revogado.",
+    "referencia": "adm-14133"
+  },
+  "adm-servicos": {
+    "titulo": "Serviços públicos: continuidade e formas de prestação",
+    "regra": "Distingua concessão, permissão, retomada e hipóteses legais de interrupção. Continuidade não significa proibição absoluta de suspensão; precariedade não exclui toda formalização contratual.",
+    "exemplo": "A permissão pode ser formalizada por contrato de adesão, e uma encampação exige requisitos diferentes dos de uma penalidade por inadimplemento.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Todo serviço é ininterruptível em qualquer hipótese e toda permissão dispensa contrato.",
+    "referencia": "adm-8987"
+  },
+  "adm-modelos": {
+    "titulo": "Estado social e modelos de administração",
+    "regra": "Relacione o modelo de Estado aos direitos e finalidades públicas e diferencie concepção, implementação e instrumentos de gestão. A existência de direitos não equivale a prestação ilimitada sem critérios.",
+    "exemplo": "Saúde e educação ajudam a compreender a atuação prestacional do Estado social, sem dispensar organização, financiamento e fiscalização das políticas.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "O Estado social nega direitos sociais e se ocupa apenas de impedir interferência no patrimônio.",
+    "referencia": "adm-cf"
+  },
+  "lai": {
+    "titulo": "LAI: acesso, classificação e proteção pessoal",
+    "regra": "Publicidade é regra e restrições exigem fundamento. Diferencie graus de sigilo, término da classificação e proteção de informações pessoais, que não depende automaticamente de carimbo de ultrassecreto.",
+    "exemplo": "Um documento pode perder a classificação reservada e ainda conter uma parcela pessoal protegida por fundamento próprio. A análise deve separar as duas situações.",
+    "tecnica": "Técnica: Regime e alcance. Identifique a norma, o sujeito e a condição antes de aceitar termos como todo, sempre ou exclusivamente.",
+    "contrasteErrado": "Toda informação pessoal é ultrassecreta e qualquer documento arquivado deixa de poder ser solicitado.",
+    "referencia": "lai-12527"
+  },
+  "arquivos-digitais": {
+    "titulo": "Arquivos: formato, conteúdo e compatibilidade",
+    "regra": "Distinga formato, aplicativo e versão. Texto simples, documentos estruturados e arquivos com objetos gráficos não oferecem as mesmas capacidades; compatibilidade precisa ser verificada.",
+    "exemplo": "Um arquivo DOCX pode exigir conversão em programa antigo; um TXT não incorpora uma fotografia apenas porque contém seu endereço.",
+    "tecnica": "Técnica: Função e contexto. Identifique formato, componente ou protocolo e confira o aplicativo e as condições citadas.",
+    "contrasteErrado": "A extensão garante abertura perfeita em qualquer versão de qualquer programa.",
+    "referencia": "arquivos-ooxml"
+  },
+  "sistemas-operacionais": {
+    "titulo": "Sistema de arquivos: hierarquia e dispositivos",
+    "regra": "Interprete caminhos e diretórios pelo sistema indicado. Raiz, diretórios de usuários e representações de dispositivos têm funções distintas e não se tornam equivalentes por estarem na mesma hierarquia.",
+    "exemplo": "No Linux, / inicia a hierarquia e /dev reúne representações especiais de dispositivos; um documento do usuário pode estar em outro ramo.",
+    "tecnica": "Técnica: Função e contexto. Identifique formato, componente ou protocolo e confira o aplicativo e as condições citadas.",
+    "contrasteErrado": "/dev é a pasta obrigatória de todos os documentos pessoais de usuários Linux.",
+    "referencia": "linux-fhs"
+  },
+  "planilhas-calc": {
+    "titulo": "Calc: séries e preenchimento automático",
+    "regra": "O efeito da alça depende do aplicativo, dos dados de origem e dos comandos ou modificadores. Não aplique automaticamente a regra de um programa a outro.",
+    "exemplo": "Arrastar uma célula numérica no Calc pode criar uma série; repetir somente o valor e gerar sequência são operações diferentes.",
+    "tecnica": "Técnica: Função e contexto. Identifique formato, componente ou protocolo e confira o aplicativo e as condições citadas.",
+    "contrasteErrado": "A alça de preenchimento de qualquer planilha sempre tem exatamente o mesmo comportamento.",
+    "referencia": "calc-series"
+  },
+  "email": {
+    "titulo": "Correio: envio, consulta e destinatários",
+    "regra": "SMTP transfere mensagens; POP3 e IMAP consultam caixas por modelos distintos. Cc e Cco/Bcc não oferecem a mesma visibilidade de destinatários.",
+    "exemplo": "Um aviso enviado em Cc pode expor a lista de endereços. A equipe deve escolher o campo e o procedimento compatíveis com a finalidade e a privacidade.",
+    "tecnica": "Técnica: Função e contexto. Identifique formato, componente ou protocolo e confira o aplicativo e as condições citadas.",
+    "contrasteErrado": "Cc oculta os destinatários e SMTP é exclusivamente um protocolo de leitura da caixa postal.",
+    "referencia": "email-rfc5322"
+  },
+  "urls": {
+    "titulo": "Endereços: esquema, domínio e função",
+    "regra": "Identifique esquema, domínio e caminho. O nome de domínio não comprova sozinho atividade ou confiabilidade; com não significa que a empresa fabrique computadores.",
+    "exemplo": "Uma livraria e uma empresa de informática podem usar .com.br. Em uma URL, http indica o esquema do protocolo, não o ramo econômico do responsável.",
+    "tecnica": "Técnica: Função e contexto. Identifique formato, componente ou protocolo e confira o aplicativo e as condições citadas.",
+    "contrasteErrado": "Qualquer domínio .com.br identifica obrigatoriamente uma indústria de computadores.",
+    "referencia": "uri-rfc3986"
   }
 }

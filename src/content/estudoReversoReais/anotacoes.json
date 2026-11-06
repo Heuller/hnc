@@ -11399,5 +11399,1629 @@
     "perfil": "catalogos",
     "gatilho": "Web social",
     "exemplo": "Um catálogo pode permitir que usuários salvem listas e participem com comentários ou avaliações moderadas, conforme funcionalidades e política da biblioteca."
+  },
+  "real-fonte-c25917fabf17-51": {
+    "perfil": "adm-processo",
+    "gatilho": "identificação própria",
+    "exemplo": "Uma interessada apresenta a documentação necessária e obtém prioridade. O órgão registra essa condição nos autos para que os setores responsáveis reconheçam o regime de tramitação; a informação não deve ficar apenas na memória de quem recebeu o pedido."
+  },
+  "real-fonte-c25917fabf17-107": {
+    "perfil": "adm-organizacao",
+    "gatilho": "não pode ser considerado fonte",
+    "exemplo": "Uma prática administrativa constante pode ajudar a compreender um procedimento quando compatível com as normas. Ela não autoriza deixar de cumprir uma exigência legal só porque o setor sempre agiu de outra maneira."
+  },
+  "real-fonte-c25917fabf17-108": {
+    "perfil": "adm-atos",
+    "gatilho": "na sua revogação",
+    "exemplo": "Uma autorização discricionária pode ser revista por razões supervenientes de interesse público, observados os limites legais. Anular um ato ilegal é outra operação, fundada no vício, e não uma revogação por mera conveniência."
+  },
+  "real-fonte-c25917fabf17-109": {
+    "perfil": "adm-organizacao",
+    "gatilho": "direito público",
+    "exemplo": "Uma empresa pública federal integra a administração indireta, mas não se confunde com uma autarquia. Ambas têm vinculação ao Estado; sua forma de criação e seu regime jurídico possuem diferenças que precisam ser examinadas."
+  },
+  "real-fonte-c25917fabf17-110": {
+    "perfil": "adm-organizacao",
+    "gatilho": "agências autárquicas executivas",
+    "exemplo": "Uma autarquia qualificada como agência executiva busca aprimorar sua gestão. Isso não a transforma automaticamente em reguladora de um mercado, com as mesmas competências de uma agência criada para regular determinado setor.",
+    "referencia": "adm-9649"
+  },
+  "real-fonte-c25917fabf17-113": {
+    "perfil": "adm-responsabilidade",
+    "gatilho": "risco administrativo",
+    "exemplo": "Se um agente público causa dano no exercício de suas funções, a vítima examina os requisitos da responsabilidade estatal. Isso não significa indenização automática por qualquer prejuízo sem relação causal com a atuação do poder público."
+  },
+  "real-fonte-c25917fabf17-115": {
+    "perfil": "adm-licitacoes",
+    "gatilho": "não acarreta o dever de reabrir",
+    "exemplo": "O órgão muda uma especificação técnica que altera os custos das propostas. Os licitantes precisam conhecer a mudança e dispor do prazo devido; publicar a correção na véspera não assegura competição em condições adequadas."
+  },
+  "real-fonte-c25917fabf17-117": {
+    "perfil": "adm-processo",
+    "gatilho": "é vedado",
+    "exemplo": "Se há risco concreto de interferência na coleta de documentos, a autoridade pode avaliar afastamento preventivo nos termos legais. Isso não autoriza presumir culpa nem aplicar suspensão disciplinar antes da apuração e da defesa.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-c25917fabf17-118": {
+    "perfil": "adm-agentes",
+    "gatilho": "três anos",
+    "exemplo": "Um servidor recebe advertência e completa o período legal sem nova infração. O registro pode ser cancelado conforme a lei; não se deve aplicar automaticamente o prazo de cinco anos, associado à suspensão, à penalidade de advertência.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-963ffeef2059-128": {
+    "perfil": "adm-organizacao",
+    "gatilho": "decreto autônomo",
+    "exemplo": "É possível ajustar aspectos de funcionamento dentro dos limites constitucionais. Criar um novo órgão por esse caminho não se torna permitido apenas porque o governo afirma que haverá economia em outras atividades."
+  },
+  "real-fonte-963ffeef2059-131": {
+    "perfil": "adm-poderes",
+    "gatilho": "poder disciplinar",
+    "exemplo": "Uma multa sanitária a um restaurante é exercício de polícia administrativa. Já apurar a falta funcional de um fiscal é exercício disciplinar. Nos dois casos pode haver sanção, mas o vínculo e a competência são diferentes."
+  },
+  "real-fonte-963ffeef2059-132": {
+    "perfil": "adm-poderes",
+    "gatilho": "imediatamente apreendidas",
+    "exemplo": "Produtos vencidos que ameaçam a saúde podem ser retirados de circulação de imediato. O responsável continua podendo contestar a medida e seus fundamentos pelos meios cabíveis; urgência não elimina todo direito de defesa."
+  },
+  "real-fonte-963ffeef2059-133": {
+    "perfil": "adm-atos",
+    "gatilho": "de ofício",
+    "exemplo": "Ao constatar que a multa foi dirigida a pessoa que não praticou a infração, a autoridade pode corrigir a ilegalidade sem esperar necessariamente uma ação judicial. Deve fundamentar a decisão e observar os procedimentos aplicáveis."
+  },
+  "real-fonte-963ffeef2059-134": {
+    "perfil": "adm-organizacao",
+    "gatilho": "Poder Legislativo e pelo Poder Judiciário",
+    "exemplo": "Quando um tribunal contrata manutenção de seu prédio, pratica atividade administrativa. A existência de sua função jurisdicional não o dispensa das regras aplicáveis à contratação pública ou à gestão dos agentes envolvidos."
+  },
+  "real-fonte-963ffeef2059-135": {
+    "perfil": "adm-organizacao",
+    "gatilho": "impedida",
+    "exemplo": "Um costume pode auxiliar a interpretação de uma rotina compatível com a legislação. Se a rotina viola uma obrigação expressa, sua repetição não sana a ilegalidade; distinguir essas situações evita aceitar a proibição absoluta do item."
+  },
+  "real-fonte-963ffeef2059-136": {
+    "perfil": "adm-organizacao",
+    "gatilho": "mesmo sem previsão no ordenamento",
+    "exemplo": "Um órgão não pode inventar uma proibição de acesso a documentos apenas por declarar que atende à coletividade. Precisa indicar fundamento legal e justificar a medida, respeitando as garantias pertinentes ao direito de informação."
+  },
+  "real-fonte-963ffeef2059-137": {
+    "perfil": "adm-processo",
+    "gatilho": "ausência de advogado",
+    "exemplo": "Um servidor acompanha o processo e apresenta defesa pessoal com acesso aos elementos necessários. A falta de advogado, isoladamente, não torna o PAD nulo; impedir a defesa ou ocultar provas é outra situação a ser examinada."
+  },
+  "real-fonte-963ffeef2059-138": {
+    "perfil": "adm-organizacao",
+    "gatilho": "legalidade, da impessoalidade e da moralidade",
+    "exemplo": "Um fiscal competente não pode usar embargo para atingir adversários ou causar embaraço político. Se não existe a irregularidade que justificaria a medida, o exercício da competência é desviado e pode gerar responsabilização."
+  },
+  "real-fonte-963ffeef2059-139": {
+    "perfil": "adm-processo",
+    "gatilho": "prerrogativa discricionária",
+    "exemplo": "Ao receber elementos de que um servidor usou embargo para finalidade pessoal, a autoridade não pode simplesmente deixar de apurar por simpatia pelo agente. Deve analisar os fatos e adotar a providência prevista no regime correspondente."
+  },
+  "real-fonte-963ffeef2059-140": {
+    "perfil": "adm-processo",
+    "gatilho": "sem direito à remuneração",
+    "exemplo": "Para proteger a investigação, o servidor pode ser afastado temporariamente de suas funções sem perder a remuneração. Se depois houver penalidade, seus efeitos serão examinados separadamente, conforme o julgamento do processo.",
+    "referencia": "adm-840-df"
+  },
+  "real-fonte-963ffeef2059-141": {
+    "perfil": "adm-processo",
+    "gatilho": "o comparecimento do administrado",
+    "exemplo": "Uma pessoa recebe intimação com falha formal, comparece e toma ciência do procedimento. Essa participação pode suprir o defeito da comunicação nos termos legais; não significa dispensar oportunidade de defesa sobre o conteúdo do processo."
+  },
+  "real-fonte-963ffeef2059-143": {
+    "perfil": "adm-licitacoes",
+    "gatilho": "garantia de proposta",
+    "exemplo": "Ao estudar a prova antiga, não leve automaticamente a proibição de garantia para um pregão atual. Compare o regime declarado: a nova lei admite exigir a garantia dentro de seus requisitos, mantendo o acesso ao edital conforme as regras vigentes.",
+    "referencia": "adm-10520-historica"
+  },
+  "real-fonte-963ffeef2059-145": {
+    "perfil": "adm-controle",
+    "gatilho": "sua própria administração",
+    "exemplo": "As despesas administrativas de uma casa legislativa não ficam fora da fiscalização apenas porque ela participa do controle de outros poderes. Seus contratos e gastos também exigem prestação de contas e controles próprios."
+  },
+  "real-fonte-963ffeef2059-146": {
+    "perfil": "adm-controle",
+    "gatilho": "não existindo margem",
+    "exemplo": "Uma pessoa pode buscar impedir uma medida administrativa ilegal que ameaça concretamente seu direito, sem esperar o dano se consumar. A tutela depende dos pressupostos do caso; a possibilidade preventiva não garante resultado favorável automático."
+  },
+  "real-fonte-963ffeef2059-147": {
+    "perfil": "adm-servicos",
+    "gatilho": "não a de negócio bilateral",
+    "exemplo": "Uma permissão pode ter regime precário e, ainda assim, ser formalizada por contrato de adesão. Para resolver, leia separadamente a forma de constituição do vínculo e as condições legais de sua manutenção ou extinção."
+  },
+  "real-fonte-963ffeef2059-148": {
+    "perfil": "adm-servicos",
+    "gatilho": "não podendo ser interrompidos",
+    "exemplo": "A concessionária não deve cortar um serviço por simples conveniência, mas a legislação pode admitir suspensão por falta de pagamento dentro de requisitos. É preciso examinar o regime do serviço e as garantias, em vez de aceitar “nunca” ou “sempre”."
+  },
+  "real-fonte-963ffeef2059-149": {
+    "perfil": "adm-responsabilidade",
+    "gatilho": "dano moral quanto o dano material",
+    "exemplo": "Uma conduta estatal pode causar perda financeira e atingir direitos da personalidade. As duas repercussões devem ser analisadas e provadas conforme o caso, sem reduzir a reparação somente ao valor de um bem danificado."
+  },
+  "real-acervo-f40822aa31aabb": {
+    "perfil": "juridica",
+    "gatilho": "atualizada periodicamente",
+    "exemplo": "Um vade-mécum de uma edição anterior pode conter uma lei depois modificada. O bibliotecário usa a compilação para consulta e verifica a atualização do dispositivo antes de apresentá-lo como texto vigente."
+  },
+  "real-acervo-fbcf111e2b117d": {
+    "perfil": "documento",
+    "gatilho": "representação convencional e codificada",
+    "exemplo": "O registro “15” em um sistema pode representar empréstimos, dias ou exemplares. O código ganha utilidade quando conhecemos o campo e sua definição; apenas observar os dígitos não determina qual fenômeno foi registrado."
+  },
+  "real-acervo-68ec7c712242fd": {
+    "perfil": "hardware",
+    "gatilho": "permanente",
+    "exemplo": "Um texto aberto no editor pode estar em RAM. Ao salvar, o programa registra o arquivo em armazenamento persistente. Se o computador desliga antes dessa operação, não é a RAM que garante a conservação do trabalho."
+  },
+  "real-acervo-27758e9f7331a5": {
+    "perfil": "sumario",
+    "gatilho": "elemento textual",
+    "exemplo": "Antes de ler a introdução de um trabalho, o estudante usa o sumário para localizar capítulos. Esse papel de orientação na parte pré-textual não transforma o sumário em um capítulo do desenvolvimento da pesquisa."
+  },
+  "real-acervo-9fcbdc79be6c5b": {
+    "perfil": "bases",
+    "gatilho": "documento eletrônico",
+    "exemplo": "Uma base com documentos integrais é um recurso eletrônico consultável, enquanto o SGBD é a ferramenta de gestão. Ambos se relacionam, mas chamar a base de documento eletrônico não significa que o programa e os conteúdos sejam a mesma coisa."
+  },
+  "real-fonte-34f283cb69c8-97": {
+    "perfil": "adm-organizacao",
+    "gatilho": "normalmente estabelecida por lei",
+    "exemplo": "A criação de um órgão federal exige o instrumento legal pertinente. Ajustar seu funcionamento dentro dos limites do art. 84, VI, pode ocorrer por decreto; chamar ambos os atos de organização não os submete ao mesmo procedimento."
+  },
+  "real-fonte-34f283cb69c8-98": {
+    "perfil": "adm-organizacao",
+    "gatilho": "mediante delegação",
+    "exemplo": "Criar uma autarquia para exercer determinada atividade difere de contratar uma concessionária para prestar um serviço. No primeiro caso, surge uma entidade administrativa; no segundo, a prestação é delegada segundo o vínculo legal e contratual pertinente."
+  },
+  "real-fonte-34f283cb69c8-99": {
+    "perfil": "adm-organizacao",
+    "gatilho": "genericamente",
+    "exemplo": "Uma lei que autoriza determinada empresa pública não permite, só por essa formulação, criar qualquer sociedade de economia mista. É necessário examinar a autorização específica e os atos constitutivos correspondentes à entidade escolhida."
+  },
+  "real-fonte-34f283cb69c8-100": {
+    "perfil": "adm-poderes",
+    "gatilho": "autoexecutoriedade",
+    "exemplo": "Diante de situação que ameaça a segurança das pessoas, o órgão competente pode interditar uma casa noturna conforme o regime aplicável. A execução imediata não elimina o dever de documentar os motivos nem a possibilidade de impugnar a medida."
+  },
+  "real-fonte-34f283cb69c8-102": {
+    "perfil": "adm-atos",
+    "gatilho": "presente em todos",
+    "exemplo": "Uma multa impõe obrigação ao destinatário; uma certidão declara uma informação registrada. Embora ambos possam resultar da atuação administrativa, a certidão não se torna uma ordem coercitiva apenas por ter origem no poder público."
+  },
+  "real-fonte-34f283cb69c8-103": {
+    "perfil": "adm-organizacao",
+    "gatilho": "cargo, função ou órgão",
+    "exemplo": "Um órgão pode ser extinto pelo instrumento competente e suas atividades reorganizadas. A situação dos servidores é tratada segundo as garantias legais; a existência dessas garantias não congela para sempre a estrutura do órgão.",
+    "referencia": "adm-cf"
+  },
+  "real-fonte-34f283cb69c8-104": {
+    "perfil": "adm-agentes",
+    "gatilho": "liberdade funcional",
+    "exemplo": "Uma magistrada decide conforme o direito sem receber ordens administrativas sobre o conteúdo de sua decisão. Isso não a dispensa de fundamentar o julgamento nem impede os recursos e controles previstos no ordenamento.",
+    "referencia": "adm-cf"
+  },
+  "real-fonte-34f283cb69c8-106": {
+    "perfil": "adm-poderes",
+    "gatilho": "competência exclusiva",
+    "exemplo": "Uma autoridade pode avocar temporariamente certa atividade delegável diante de razões justificadas. Se a lei atribui competência exclusiva ao subordinado, a posição hierárquica superior não basta para afastar essa reserva."
+  },
+  "real-fonte-34f283cb69c8-108": {
+    "perfil": "adm-controle",
+    "gatilho": "usurpação de competência",
+    "exemplo": "Um município recebe recursos federais por convênio. A execução pode ser examinada pelos controles competentes sem que toda fiscalização da CGU substitua ou usurpe, por esse simples fato, as atribuições constitucionais do TCU."
+  },
+  "real-fonte-34f283cb69c8-117": {
+    "perfil": "adm-agentes",
+    "gatilho": "probidade administrativa",
+    "exemplo": "Um servidor que age com probidade cumpre deveres de honestidade. Para estudar as consequências sancionatórias, é preciso identificar uma conduta de improbidade e seus requisitos legais, não punir a qualidade positiva expressa no item.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-34f283cb69c8-118": {
+    "perfil": "adm-agentes",
+    "gatilho": "dois anos",
+    "exemplo": "Uma pessoa aprovada em concurso e nomeada não adquire estabilidade apenas ao completar dois anos. É necessário analisar o período constitucional e os demais requisitos, distinguindo aprovação no concurso, posse e aquisição da estabilidade.",
+    "referencia": "adm-cf"
+  },
+  "real-fonte-34f283cb69c8-119": {
+    "perfil": "adm-agentes",
+    "gatilho": "vencimentos do Poder Executivo",
+    "exemplo": "Ao estudar remuneração, separe essa limitação da vedação de vinculação e equiparação e do teto constitucional. Um servidor não pode usar o dispositivo, isoladamente, como autorização para obter aumento sem lei.",
+    "referencia": "adm-cf"
+  },
+  "real-fonte-34f283cb69c8-120": {
+    "perfil": "adm-agentes",
+    "gatilho": "ampla defesa",
+    "exemplo": "Um servidor estável pode responder a PAD por infração sujeita à demissão. A sanção depende de procedimento, competência e defesa; sua estabilidade protege contra desligamento arbitrário, não contra toda consequência de uma infração comprovada.",
+    "referencia": "adm-cf"
+  },
+  "real-fonte-d0199d7977d1-61": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "restringe-se ao nível nacional",
+    "exemplo": "Na reorganização de arquivos de uma administração local, o vínculo dos documentos com seu território também importa. Não é preciso estar diante de uma transferência entre países para analisar essa relação.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-62": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "fundo aberto",
+    "exemplo": "Uma universidade centenária continua produzindo atas e processos administrativos. Seu fundo pode permanecer aberto, mesmo contendo documentos muito antigos, porque a produção vinculada às suas atividades continua.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-63": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "autenticidade",
+    "exemplo": "Um arquivo eletrônico pode ser copiado sem marcas físicas visíveis. Metadados, controles de acesso, registro de ações e procedimentos de preservação ajudam a demonstrar sua identidade e a ausência de alterações não autorizadas."
+  },
+  "real-fonte-d0199d7977d1-64": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "criação, à manutenção e à custódia",
+    "exemplo": "Um documento foi produzido para registrar uma transação administrativa, com interesses e linguagem de seu contexto. Isso não o torna politicamente neutro; verificar se ele é autêntico exige examinar também identidade, integridade e trajetória de custódia.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-65": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "princípio da proveniência",
+    "exemplo": "Cartas de duas instituições sobre o mesmo assunto não devem ser fundidas em um único fundo apenas pela semelhança temática. Preservar a origem permite compreender quem as produziu e em que relações administrativas surgiram.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-66": {
+    "perfil": "lai",
+    "gatilho": "só deverão dar acesso",
+    "exemplo": "Um cidadão pode usar o serviço eletrônico de informação ao cidadão disponibilizado pelo órgão. Não deve ser obrigado a comparecer ao arquivo físico apenas porque os documentos se encontram sob a guarda daquela unidade."
+  },
+  "real-fonte-d0199d7977d1-67": {
+    "perfil": "lai",
+    "gatilho": "automaticamente",
+    "exemplo": "Um relatório classificado como reservado deixa de sofrer essa restrição ao fim do prazo. Se contiver dados pessoais legalmente protegidos, o órgão ainda deve tratar essa parcela conforme as regras próprias, sem renovar o sigilo de modo informal."
+  },
+  "real-fonte-d0199d7977d1-68": {
+    "perfil": "lai",
+    "gatilho": "quinze anos",
+    "exemplo": "Ao registrar uma informação reservada, o órgão não pode usar quinze anos apenas porque esse prazo aparece na mesma lei. Precisa observar o limite de cinco anos e a fundamentação correspondente à categoria escolhida."
+  },
+  "real-fonte-d0199d7977d1-69": {
+    "perfil": "lai",
+    "gatilho": "primária, íntegra, autêntica e atualizada",
+    "exemplo": "Ao fornecer um relatório solicitado, o órgão procura apresentar a versão pertinente, com dados preservados e identificação confiável. Um recorte descontextualizado ou uma versão ultrapassada pode não atender adequadamente ao pedido."
+  },
+  "real-fonte-d0199d7977d1-70": {
+    "perfil": "lai",
+    "gatilho": "ultrassecretas",
+    "exemplo": "Um prontuário funcional com dados íntimos exige proteção pessoal, mas não deve receber automaticamente um carimbo de ultrassecreto. Já uma informação essencial à segurança do Estado pode ser classificada segundo outro regime e outra fundamentação."
+  },
+  "real-fonte-d0199d7977d1-71": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "nome do produtor",
+    "exemplo": "Um fundo de uma pessoa pode estar depositado em um arquivo universitário. Na descrição, o produtor continua sendo identificado; informar apenas o nome do arquivo que guarda os documentos não substitui esse elemento.",
+    "referencia": "nobrade-conferida"
+  },
+  "real-fonte-d0199d7977d1-72": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "relação entre descrições",
+    "exemplo": "A descrição de um dossiê indica a série e o fundo aos quais ele pertence. Essa relação permite interpretar o conjunto e evita apresentar um documento isolado como se não tivesse contexto de produção ou organização.",
+    "referencia": "nobrade-conferida"
+  },
+  "real-fonte-d0199d7977d1-73": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "todos os níveis",
+    "exemplo": "Uma instituição pode descrever o fundo e séries pertinentes sem criar subdivisões artificiais apenas para preencher uma lista de níveis. Se avançar a outros níveis, mantém os vínculos e observa os requisitos correspondentes.",
+    "referencia": "nobrade-conferida"
+  },
+  "real-fonte-d0199d7977d1-74": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "fontes relacionadas",
+    "exemplo": "Um fundo possui correspondência relacionada guardada em outra instituição. Registrar essa existência na área apropriada orienta o pesquisador e amplia a compreensão das relações documentais sem retirar a unidade de seu fundo.",
+    "referencia": "nobrade-conferida"
+  },
+  "real-fonte-d0199d7977d1-75": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "controle de descrição",
+    "exemplo": "Ao comparar as estruturas, encontre na NOBRADE a área 7, controle da descrição, e a área 8, pontos de acesso e indexação. A novidade indicada pela comparação está na última, e não na função de registrar quem descreveu e quando.",
+    "referencia": "nobrade-conferida"
+  },
+  "real-fonte-d0199d7977d1-78": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "designação de responsabilidades",
+    "exemplo": "Um órgão define responsáveis, aprova procedimentos e estabelece como documentos serão capturados, avaliados e destinados. Comprar um programa sem essas decisões não realiza, sozinho, a gestão documental necessária.",
+    "referencia": "earq-conarq"
+  },
+  "real-fonte-d0199d7977d1-79": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "quadro de arranjo",
+    "exemplo": "Um processo em andamento precisa ser classificado e tramitado conforme as atividades do órgão. Elaborar apenas um quadro de arranjo para futuros documentos permanentes não resolve os controles necessários à gestão corrente.",
+    "referencia": "earq-conarq"
+  },
+  "real-fonte-d0199d7977d1-82": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "exclusivamente",
+    "exemplo": "Planejar somente uma área de guarda deixa sem solução a consulta e o trabalho técnico com os documentos. O projeto deve considerar pessoas, fluxos e serviços, além do espaço ocupado pelas unidades de acondicionamento.",
+    "referencia": "earq-conarq"
+  },
+  "real-fonte-d0199d7977d1-83": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "toma decisões",
+    "exemplo": "O protocolo registra um pedido e o encaminha ao setor competente. Ele pode informar por onde o processo tramitou, mas não ganha, por esse motivo, poder para deferir o pedido de um cidadão ou aplicar uma penalidade.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-84": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "procedimento de captura",
+    "exemplo": "Um requerimento eletrônico é incorporado ao SIGAD, recebe identificação e fica relacionado a um processo. O registro permite controlar sua trajetória; salvar o mesmo arquivo em uma pasta avulsa não equivale a todo esse procedimento."
+  },
+  "real-fonte-d0199d7977d1-85": {
+    "perfil": "preservacao-digital",
+    "gatilho": "leitura dos dados em longo prazo",
+    "exemplo": "Uma coleção depende de formato antigo e possui poucos metadados sobre sua criação. A equipe considera migração, documentação e custos de manutenção para avaliar como garantir o acesso, em vez de contar apenas o número de arquivos."
+  },
+  "real-fonte-d0199d7977d1-86": {
+    "perfil": "preservacao-digital",
+    "gatilho": "storages provisórios",
+    "exemplo": "Copiar processos para um disco temporário pode servir a uma operação imediata, mas não garante rastreabilidade nem leitura futura. A instituição precisa de procedimentos e infraestrutura compatíveis com os requisitos dos documentos."
+  },
+  "real-fonte-d0199d7977d1-87": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "função criação",
+    "exemplo": "Ao criar uma ata digital, o sistema registra data, responsáveis e vínculo com a reunião. Esses dados ajudam a compreender o documento depois e não devem depender apenas da memória de quem o redigiu."
+  },
+  "real-fonte-d0199d7977d1-88": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "a aquisição resulta do processo classificatório",
+    "exemplo": "Uma instituição recebe um fundo por doação e depois realiza os procedimentos de organização pertinentes. A classificação não produziu a doação; ela ajuda a representar e controlar os documentos incorporados.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-89": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "Classe de documentos",
+    "exemplo": "Para elaborar um plano, a equipe analisa atividades como contratar pessoal e executar compras. A partir desse contexto, estabelece classes; não começa simplesmente agrupando rótulos já prontos e ignorando as ações que geram os documentos.",
+    "referencia": "earq-conarq"
+  },
+  "real-fonte-d0199d7977d1-90": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "ordem original",
+    "exemplo": "Uma série reúne processos segundo a atividade que os gerou. Separar suas peças apenas por assunto pode destruir relações necessárias para entender os procedimentos. Recuperar a ordem exige pesquisar o contexto, não simplesmente manter pilhas desorganizadas.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-91": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "dispensa",
+    "exemplo": "Se uma competência passa de uma secretaria a outra, o mesmo procedimento pode gerar documentos com novas denominações ou responsáveis. A história da reorganização ajuda a distinguir mudança de nome e mudança efetiva da atividade.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-92": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "organizados por fundos",
+    "exemplo": "Um catálogo permite encontrar documentos sobre educação em vários fundos. Os resultados podem ser apresentados juntos na pesquisa, mas os documentos continuam vinculados aos respectivos produtores e contextos arquivísticos.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-93": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "indisponíveis aos usuários",
+    "exemplo": "Título e data podem aparecer na interface de pesquisa, enquanto certos dados de segurança ficam restritos aos administradores. Ambos são metadados; a diferença de permissão não altera sua natureza descritiva ou gerencial."
+  },
+  "real-fonte-d0199d7977d1-94": {
+    "perfil": "lai",
+    "gatilho": "interesse coletivo",
+    "exemplo": "Um cidadão solicita dados sobre a execução de uma política pública registrados em processos arquivados. O órgão deve tratar o pedido conforme a LAI, avaliando eventual restrição específica em vez de negar acesso apenas porque os documentos foram arquivados."
+  },
+  "real-fonte-d0199d7977d1-95": {
+    "perfil": "ontologias",
+    "gatilho": "eliminação de contradições e inconsistências",
+    "exemplo": "Uma ontologia distingue produtor e custodiador e explicita suas relações com documentos. Essa modelagem ajuda a detectar um registro que usa os dois conceitos como equivalentes, mas ainda exige revisão e regras corretamente elaboradas."
+  },
+  "real-fonte-d0199d7977d1-96": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "estabelecer políticas",
+    "exemplo": "A instituição consulta o e-ARQ para especificar funcionalidades e controles de um SIGAD. Ainda precisa aprovar sua política, atribuir responsabilidades e organizar procedimentos; o modelo não faz essas escolhas administrativas automaticamente."
+  },
+  "real-fonte-d0199d7977d1-97": {
+    "perfil": "preservacao-digital",
+    "gatilho": "acordos de cooperação",
+    "exemplo": "Um arquivo define critérios documentais e de preservação e coopera com uma equipe técnica na captura e no controle de qualidade das imagens. O acordo esclarece responsabilidades, direitos e entrega dos resultados, em vez de presumir que digitalizar seja apenas apertar um botão."
+  },
+  "real-fonte-d0199d7977d1-98": {
+    "perfil": "seguranca",
+    "gatilho": "supervisão e auditoria de processos",
+    "exemplo": "Uma entidade da cadeia pode ser submetida a auditoria independente, mas isso não torna a AC Raiz alheia à supervisão do sistema. Ter apoio ou procedimentos de auditoria externa não equivale a perder competência de fiscalização.",
+    "referencia": "icp-mp2200"
+  },
+  "real-fonte-d0199d7977d1-99": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "dificultam o acesso",
+    "exemplo": "Um processo eletrônico pode ser acessado por unidades autorizadas sem transportar volumes de papel. Isso não elimina riscos de indisponibilidade ou segurança, mas mostra que o suporte digital não torna necessariamente mais difícil distribuir a informação."
+  },
+  "real-fonte-d0199d7977d1-100": {
+    "perfil": "preservacao-digital",
+    "gatilho": "cadeias de bits podem ser alteradas",
+    "exemplo": "Ao migrar um documento de formato obsoleto, os bytes da nova versão diferem dos da origem. A instituição verifica o resultado, registra a operação e conserva as propriedades necessárias, sem presumir que toda alteração seja aceitável."
+  },
+  "real-fonte-d0199d7977d1-101": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "é vedado",
+    "exemplo": "Arquivistas e profissionais de TI podem definir juntos requisitos de captura e preservação. A colaboração exige esclarecer competências e respeitar critérios arquivísticos, mas não é vedada apenas porque as formações são diferentes.",
+    "referencia": "earq-conarq"
+  },
+  "real-fonte-d0199d7977d1-102": {
+    "perfil": "gi",
+    "gatilho": "celeridade ao acesso",
+    "exemplo": "Ao organizar registros e definir fluxos de atendimento, o órgão reduz buscas repetidas e encaminhamentos equivocados. O usuário encontra a informação mais rapidamente porque pessoas, procedimentos e recursos foram articulados.",
+    "referencia": "earq-conarq"
+  },
+  "real-fonte-d0199d7977d1-103": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "está limitada",
+    "exemplo": "Um pedido administrativo em andamento precisa de classificação, tramitação e acesso controlados mesmo que sua destinação final não seja o recolhimento permanente. A gestão começa antes dessa decisão e atende às necessidades do órgão.",
+    "referencia": "earq-conarq"
+  },
+  "real-fonte-d0199d7977d1-104": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "princípio da proveniência",
+    "exemplo": "Ao receber documentos de duas organizações, o arquivo registra e conserva a identidade de cada fundo. Não deve misturá-los por conveniência de exposição sem manter os vínculos que permitem compreender sua origem.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-d0199d7977d1-143": {
+    "perfil": "automacao",
+    "gatilho": "baixa relevância",
+    "exemplo": "Dois programas podem catalogar livros, mas diferir no suporte a autoridades, formatos de intercâmbio e empréstimos. A biblioteca compara esses requisitos e a capacidade de manutenção antes de escolher, mesmo quando uma das licenças é gratuita."
+  },
+  "real-fonte-d0199d7977d1-144": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "código-fonte liberados",
+    "exemplo": "Um programa pode ser gratuito para instalar e continuar proprietário. Antes de planejar uma modificação local, a biblioteca confere licença e acesso ao código, em vez de concluir que “sem custo” significa “livre para alterar”."
+  },
+  "real-fonte-85b15bfe05e2-25": {
+    "perfil": "arquivos-digitais",
+    "gatilho": "qualquer versão",
+    "exemplo": "Um arquivo criado em versão recente pode exigir conversor ou perder funcionalidades em software antigo. Testar abertura e edição de documentos reais é mais seguro do que concluir que a mesma marca de programa garante compatibilidade entre todas as versões."
+  },
+  "real-fonte-85b15bfe05e2-26": {
+    "perfil": "arquivos-digitais",
+    "gatilho": "caracteres quaisquer",
+    "exemplo": "“relatorio.docx” e “relatorio.pdf” têm a mesma base, mas nomes completos distintos. Já tentar usar “?” como parte comum de um nome encontra restrição. Separe nome-base, extensão e nome completo antes de julgar a regra.",
+    "referencia": "windows-nomes"
+  },
+  "real-fonte-85b15bfe05e2-27": {
+    "perfil": "arquivos-digitais",
+    "gatilho": "imagens formatadas",
+    "exemplo": "Escrever em um TXT o endereço de uma fotografia não incorpora a fotografia como imagem formatada. Um editor pode abrir o arquivo, mas a capacidade do programa não transforma o formato simples em um documento com objetos gráficos.",
+    "referencia": "texto-simples"
+  },
+  "real-fonte-85b15bfe05e2-28": {
+    "perfil": "sistemas-operacionais",
+    "gatilho": "/dev",
+    "exemplo": "Uma referência como “/dev/sda” pertence à representação de dispositivos. Um arquivo em “/home/usuario”, por sua vez, situa-se em outro ramo da hierarquia que também parte de “/”. Conhecer essa relação ajuda a interpretar caminhos completos."
+  },
+  "real-fonte-85b15bfe05e2-32": {
+    "perfil": "planilhas-calc",
+    "gatilho": "sequência numérica",
+    "exemplo": "Em um teste no Calc, uma célula com 1 pode iniciar a sequência 1, 2 e 3 ao arrastar a alça. Para copiar apenas o mesmo valor, verifique as opções e os comandos de preenchimento disponíveis na versão utilizada."
+  },
+  "real-fonte-85b15bfe05e2-33": {
+    "perfil": "urls",
+    "gatilho": "fabricação de computadores",
+    "exemplo": "Uma livraria e uma empresa de informática podem usar endereços terminados em “.com.br”. O sufixo não informa que ambas fabriquem computadores nem substitui a verificação de identidade e conteúdo do site."
+  },
+  "real-fonte-85b15bfe05e2-35": {
+    "perfil": "seguranca",
+    "gatilho": "estritamente tecnológicas",
+    "exemplo": "Uma biblioteca instala antivírus, mas mantém senhas compartilhadas e não testa restauração de backups. A existência de programas de proteção não corrige, sozinha, essas falhas de procedimento e comportamento."
+  },
+  "real-fonte-85b15bfe05e2-36": {
+    "perfil": "busca-web",
+    "gatilho": "mas não necessariamente a expressão exata",
+    "exemplo": "Compare uma busca pela frase entre aspas com uma busca apenas pelas duas palavras. A primeira procura a expressão especificada; a segunda pode recuperar documentos com os termos em posições e relações distintas."
+  },
+  "real-fonte-85b15bfe05e2-37": {
+    "perfil": "redes-computadores",
+    "gatilho": "principal rota",
+    "exemplo": "Um hub recebe um sinal e o repete no segmento, sem calcular o melhor caminho até outra rede. Ao estudar encaminhamento de pacotes entre redes, procure as funções de roteamento, em vez de atribuí-las ao repetidor multiporta."
+  },
+  "real-fonte-85b15bfe05e2-38": {
+    "perfil": "email",
+    "gatilho": "campo cc:",
+    "exemplo": "Ao enviar um aviso a muitos usuários, colocar os endereços em Cc pode expor a lista. Quando houver necessidade de ocultar os destinatários entre si, a equipe avalia Cco e os procedimentos de proteção de dados aplicáveis."
+  },
+  "real-fonte-85b15bfe05e2-39": {
+    "perfil": "email",
+    "gatilho": "SMTP",
+    "exemplo": "Um programa envia uma mensagem com anexo por SMTP e consulta a caixa pelo IMAP. A associação dos protocolos ao correio não transforma IMAP em substituto universal de protocolos destinados a outras formas de transferência de arquivos."
+  },
+  "real-fonte-85b15bfe05e2-120": {
+    "perfil": "adm-agentes",
+    "gatilho": "desde que não ultrapasse",
+    "exemplo": "Uma necessidade de serviço pode gerar convocação do comissionado fora da distribuição ordinária de horário. A análise deve observar o regime de dedicação integral e as regras pertinentes, sem transformar quarenta horas em impedimento absoluto à convocação.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-5f789d7054b8-60": {
+    "perfil": "adm-organizacao",
+    "gatilho": "ausência de autonomia financeira",
+    "exemplo": "Uma agência possui vinculação à estrutura federal e presta contas, mas isso não a transforma em simples departamento sem autonomia financeira. Autonomia também não significa ausência de controle ou liberdade para gastar fora da lei.",
+    "referencia": "adm-9472"
+  },
+  "real-fonte-5f789d7054b8-70": {
+    "perfil": "adm-organizacao",
+    "gatilho": "após aprovação pelo Senado Federal",
+    "exemplo": "A indicação de uma pessoa para dirigir agência passa pela apreciação senatorial antes da nomeação nos termos legais. Depois da posse, a agência continua sujeita ao seu próprio regime de competências, e não a ordens diárias da comissão que apreciou a indicação.",
+    "referencia": "adm-9986"
+  },
+  "real-fonte-5f789d7054b8-78": {
+    "perfil": "conhecimento",
+    "gatilho": "processo individual",
+    "exemplo": "Um usuário recebe uma tabela, mas só consegue utilizá-la ao entender suas categorias e relacioná-las à pergunta que deseja responder. Receber o arquivo e construir conhecimento a partir dele são etapas relacionadas, porém distintas."
+  },
+  "real-fonte-5f789d7054b8-81": {
+    "perfil": "indices",
+    "gatilho": "os termos que representam os assuntos",
+    "exemplo": "Em “catalogação, 25–31”, “catalogação” é a entrada temática e “25–31” indica a localização. Tratar ambos como termos de assunto impediria compreender como usar o índice para chegar à passagem desejada."
+  },
+  "real-fonte-3f800800d460-40": {
+    "perfil": "adm-atos",
+    "gatilho": "estabelecer as suas atribuições",
+    "exemplo": "Um setor de biblioteca pode receber atribuições definidas pelo instrumento competente, mas não pode declarar-se responsável por aplicar sanções que a lei atribuiu a outra autoridade. Organizar tarefas internas não equivale a criar qualquer poder público."
+  },
+  "real-fonte-3f800800d460-41": {
+    "perfil": "adm-organizacao",
+    "gatilho": "sujeições servem de limites",
+    "exemplo": "A administração pode exigir determinada obrigação quando autorizada, mas deve respeitar competência, motivação e procedimento. O poder que permite atuar e as garantias que limitam essa atuação integram o mesmo regime jurídico."
+  },
+  "real-fonte-3f800800d460-42": {
+    "perfil": "adm-controle",
+    "gatilho": "vinculados e discricionários",
+    "exemplo": "Uma decisão discricionária pode ser anulada por desvio de finalidade. O controle desse vício difere de o juiz escolher, por simples gosto, a alternativa administrativa que considera mais conveniente entre opções igualmente lícitas."
+  },
+  "real-fonte-3f800800d460-46": {
+    "perfil": "adm-agentes",
+    "gatilho": "ascensão, transferência",
+    "exemplo": "Um servidor pode deixar vago um cargo por posse em outro inacumulável, conforme a lei. Isso não equivale à antiga transferência como forma de provimento, nem autoriza trocar de carreira sem o concurso exigido constitucionalmente.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-3f800800d460-115": {
+    "perfil": "tipos-fontes",
+    "gatilho": "não há consenso",
+    "exemplo": "Uma obra de referência que organiza outras fontes pode receber tratamentos diferentes entre autores. Ao resolver uma questão, identifique o critério adotado e a função do recurso, em vez de supor unanimidade em toda classificação."
+  },
+  "real-acervo-6b60ecfdecf118": {
+    "perfil": "bibliografia",
+    "gatilho": "obras de um autor",
+    "exemplo": "Uma biobibliografia apresenta dados da trajetória de uma escritora, lista seus livros e registra estudos críticos sobre eles. O leitor pode conhecer a pessoa e descobrir documentos para aprofundar a pesquisa."
+  },
+  "real-fonte-63e3c1d01630-111": {
+    "perfil": "adm-agentes",
+    "gatilho": "chefia imediata",
+    "exemplo": "Se o regimento não indicar substituto, a unidade verifica a autoridade competente para a designação prévia. Não deve presumir que qualquer chefe imediato possa fazê-la por iniciativa própria, apenas por acompanhar o trabalho do titular.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-63e3c1d01630-112": {
+    "perfil": "adm-agentes",
+    "gatilho": "ajuda de custo",
+    "exemplo": "Uma bibliotecária viaja por alguns dias a evento institucional no exterior. O fato de sair do Brasil não converte automaticamente a viagem eventual em mudança permanente de sede nem substitui diárias por ajuda de custo.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-63e3c1d01630-113": {
+    "perfil": "adm-agentes",
+    "gatilho": "sem prévia anuência",
+    "exemplo": "Um servidor não deve levar um processo para casa apenas por considerar mais confortável analisá-lo ali. Precisa observar autorização, procedimentos e proteção da informação, mesmo quando sua intenção seja concluir uma tarefa de trabalho.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-63e3c1d01630-114": {
+    "perfil": "adm-agentes",
+    "gatilho": "licença para tratamento de assuntos particulares",
+    "exemplo": "Um servidor licenciado avalia participar da gestão de uma empresa. Ele deve verificar conflito de interesses e demais impedimentos, mas não pode ser considerado automaticamente proibido apenas pela regra geral aplicável ao servidor em exercício.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-63e3c1d01630-115": {
+    "perfil": "adm-processo",
+    "gatilho": "acumulação ilícita de cargos públicos",
+    "exemplo": "Ao apurar inassiduidade habitual, o órgão observa o rito e os requisitos legais correspondentes. Uma infração de outra natureza não passa a admitir o procedimento sumário apenas porque a chefia deseja terminar a apuração mais rapidamente.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-9466aa106bbe-37": {
+    "perfil": "urls",
+    "gatilho": "http identificam um protocolo",
+    "exemplo": "Em “https://exemplo.org/catalogo”, o esquema é https, o domínio é exemplo.org e o caminho aponta uma localização no serviço. Cada componente exerce função própria, mesmo sendo apresentado em uma única sequência."
+  },
+  "real-fonte-9466aa106bbe-56": {
+    "perfil": "adm-agentes",
+    "gatilho": "expressa previsão legal",
+    "exemplo": "A comissão não pode inventar idade mínima especial apenas por preferência administrativa. Verifica a lei aplicável e a compatibilidade da exigência com o cargo, além de publicá-la de modo adequado no edital.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-9466aa106bbe-57": {
+    "perfil": "adm-agentes",
+    "gatilho": "regidos pela CLT",
+    "exemplo": "Uma empresa estatal contrata empregados pelo regime celetista, enquanto um órgão pode ter servidores estatutários. A participação de ambos na atividade pública não torna seus vínculos e todas as regras remuneratórias idênticos.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-9466aa106bbe-58": {
+    "perfil": "adm-agentes",
+    "gatilho": "provimento derivado",
+    "exemplo": "Um servidor em disponibilidade pode ser aproveitado em cargo de atribuições e vencimentos compatíveis nos termos legais. Isso não equivale a nomear, pela primeira vez, uma pessoa que ainda não possui vínculo estatutário com a administração.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-9466aa106bbe-59": {
+    "perfil": "adm-agentes",
+    "gatilho": "sempre",
+    "exemplo": "Um servidor promovido deixa a posição anterior, mas continua na carreira. Já a demissão produz consequências distintas. Identificar a hipótese concreta evita tratar qualquer vacância como desligamento definitivo do serviço público.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-9466aa106bbe-60": {
+    "perfil": "adm-agentes",
+    "gatilho": "integram o conceito de remuneração",
+    "exemplo": "Uma diária para despesas de viagem não se transforma automaticamente em parcela permanente da remuneração. Seu pagamento depende das condições da viagem e não autoriza incorporá-la ao vencimento do servidor.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-9466aa106bbe-62": {
+    "perfil": "adm-processo",
+    "gatilho": "contraditório e à ampla defesa",
+    "exemplo": "Antes de punir por uma infração, o órgão deve oportunizar conhecimento dos fatos imputados e defesa conforme o rito. Afastamento cautelar e decisão final sancionatória possuem finalidades distintas e não eliminam essas garantias.",
+    "referencia": "adm-8112"
+  },
+  "real-fonte-9466aa106bbe-105": {
+    "perfil": "motivacao",
+    "gatilho": "a equipe toma decisões",
+    "exemplo": "Uma chefia que define sozinha as tarefas e controla sua execução apresenta traços autocráticos. Uma equipe que discute alternativas com participação do líder ilustra outro arranjo decisório, mesmo que a chefia continue responsável por certas decisões formais."
+  },
+  "real-fonte-9466aa106bbe-106": {
+    "perfil": "motivacao",
+    "gatilho": "sempre determinada pelo líder",
+    "exemplo": "Em uma equipe com autonomia, os profissionais podem distribuir atividades considerando competências e disponibilidade, com acompanhamento da liderança. Essa possibilidade já afasta a afirmação de que toda divisão seja determinada exclusivamente pelo líder."
+  },
+  "real-fonte-9466aa106bbe-119": {
+    "perfil": "cdd",
+    "gatilho": "notação pura",
+    "exemplo": "Um número da CDD pode conter vários dígitos e um ponto decimal, continuando a apresentar base numérica. Compará-lo com uma notação alfanumérica ajuda a entender por que extensão do número e tipo de notação são critérios diferentes."
+  },
+  "real-fonte-9466aa106bbe-121": {
+    "perfil": "cdd",
+    "gatilho": "obras gerais sobre ciências sociais",
+    "exemplo": "Uma obra que apresenta uma visão ampla das ciências sociais pode permanecer no número geral 300. Um estudo específico de uma de suas áreas exige consultar a divisão correspondente, em vez de usar o número geral por mera proximidade temática."
+  },
+  "real-fonte-9466aa106bbe-131": {
+    "perfil": "texto-automatico",
+    "gatilho": "não se aplicam, portanto, à indexação automática",
+    "exemplo": "Um programa reconhece expressões de um artigo e sugere o descritor autorizado correspondente. Ele realizou uma atribuição assistida por processamento automático, não apenas uma lista livre de todas as palavras que encontrou no texto."
+  },
+  "real-fonte-9466aa106bbe-133": {
+    "perfil": "vocabulario",
+    "gatilho": "qualificadores",
+    "exemplo": "Escolher “banco (assento)” para um documento sobre instituições financeiras produziria erro, embora a palavra principal seja a mesma. O qualificador ajuda a distinguir conceitos e deve orientar tanto a indexação quanto a consulta."
+  },
+  "real-fonte-9466aa106bbe-134": {
+    "perfil": "vocabulario",
+    "gatilho": "atualização terminológica",
+    "exemplo": "Um artigo usa o nome recém-criado de uma tecnologia antes de ele ser incluído no tesauro. Uma busca em linguagem natural pode encontrá-lo por essa expressão, enquanto o vocabulário controlado ainda exige análise e atualização."
+  },
+  "real-fonte-9466aa106bbe-135": {
+    "perfil": "marc-campos",
+    "gatilho": "campo do formato MARC é o 246",
+    "exemplo": "Um recurso pode ter um título alternativo no 246 e uma URL no 856. Pesquisar o número do campo antes de preencher o registro evita colocar um endereço eletrônico em um campo destinado a outra função descritiva."
+  },
+  "real-fonte-9466aa106bbe-140": {
+    "perfil": "referencias",
+    "gatilho": "obrigatoriamente os dois títulos",
+    "exemplo": "Ao elaborar uma referência de publicação bilíngue, registrar um título adicional pode ser permitido sem se tornar obrigatório. A presença do sinal de igualdade em um exemplo não converte todo uso possível em imposição universal.",
+    "referencia": "nbr6023-2025-titulos-ementas"
+  },
+  "real-fonte-0f0ad315018b-67": {
+    "perfil": "adm-servicos",
+    "gatilho": "não tem direito à indenização",
+    "exemplo": "Se o poder público decide retomar uma concessão por interesse público, não basta anunciar o encerramento e negar qualquer indenização. Deve observar o procedimento e os pressupostos legais, distintos de uma sanção por inadimplemento da concessionária."
+  },
+  "real-fonte-0f0ad315018b-86": {
+    "perfil": "normalizacao",
+    "gatilho": "NBR 10518",
+    "exemplo": "Ao conferir como descrever endereço, contato e serviços de uma biblioteca em um guia, consulte a norma pertinente a esse instrumento. Para abreviar títulos de periódicos, procure as regras específicas de abreviação, sem trocar os números das normas.",
+    "referencia": "nbr10518-guias"
+  },
+  "real-fonte-6263fd42c85b-72": {
+    "perfil": "indices",
+    "gatilho": "se fundem",
+    "exemplo": "Descritores ajudam a recuperar um registro no catálogo. Um índice temático de artigos pode organizar um conjunto de referências como produto próprio. Reconhecer a relação entre ambos não exige tratá-los como estruturas necessariamente fundidas."
+  },
+  "real-fonte-6263fd42c85b-75": {
+    "perfil": "resumos",
+    "gatilho": "papel secundário",
+    "exemplo": "Uma base apresenta descritores para buscar e um resumo para compreender rapidamente o estudo recuperado. Os dois recursos se complementam; a lista de termos não necessariamente comunica método e resultados como um resumo informativo pode fazer."
+  },
+  "real-fonte-833c2e3c897e-69": {
+    "perfil": "citacoes",
+    "gatilho": "entre parênteses",
+    "exemplo": "Na transcrição “o documento [digital] foi preservado”, os colchetes identificam um esclarecimento acrescentado pelo autor que cita. Usar esse recurso exige preservar o sentido e não atribuir o acréscimo ao texto original."
+  },
+  "real-fonte-833c2e3c897e-102": {
+    "perfil": "tipos-bibliografia",
+    "gatilho": "um só assunto",
+    "exemplo": "Uma bibliografia temática sobre bibliotecas escolares pode ser sinalética se apenas identificar as obras. Se acrescentar resumos ou análise, muda o tratamento, mas continua podendo manter o mesmo recorte de assunto."
+  },
+  "real-fonte-ed23d2a659f1-101": {
+    "perfil": "adm-modelos",
+    "gatilho": "titular de direitos sociais",
+    "exemplo": "Políticas públicas de saúde e educação expressam a atuação do Estado na concretização de direitos sociais. O cidadão aparece como titular de direitos, e não apenas como consumidor eventual de uma oferta comercial."
+  },
+  "real-fonte-ed23d2a659f1-117": {
+    "perfil": "adm-organizacao",
+    "gatilho": "autarquia",
+    "exemplo": "Ao conferir a natureza de uma instituição, consulte sua lei e apresentação institucional. Estar vinculada ao MEC não basta para classificá-la como autarquia, assim como atuar na educação não determina, sozinho, sua personalidade jurídica."
+  },
+  "real-fonte-ed23d2a659f1-118": {
+    "perfil": "adm-organizacao",
+    "gatilho": "personalidade jurídica própria",
+    "exemplo": "Um ministério é órgão da União, não uma pessoa jurídica independente equivalente a uma empresa pública. A distinção permite identificar quem assume direitos e obrigações e qual é o vínculo entre órgão e entidade."
+  },
+  "real-fonte-ed23d2a659f1-119": {
+    "perfil": "adm-atos",
+    "gatilho": "autoexecutoriedade",
+    "exemplo": "Uma multa pode impor obrigação de pagar, manifestando imperatividade, mas sua cobrança forçada não decorre automaticamente de autoexecutoriedade. Uma interdição urgente pode admitir execução direta, conforme os requisitos legais."
+  },
+  "real-fonte-adc78534c80e-70": {
+    "perfil": "referencias",
+    "gatilho": "sempre",
+    "exemplo": "Uma ementa extensa pode ser abreviada conforme a norma sem omitir trechos que alterem sua compreensão. O sinal [...] informa que houve supressão; não autoriza reescrever a decisão ou a lei de modo a mudar seu alcance.",
+    "referencia": "nbr6023-2025-titulos-ementas"
+  },
+  "real-fonte-adc78534c80e-76": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "tabela auxiliar comum de língua",
+    "exemplo": "Um manual de engenharia escrito em português pode receber um auxiliar de língua portuguesa. Isso não transforma engenharia em um assunto de gramática: acrescenta uma característica do documento."
+  },
+  "real-acervo-1b7b5548c33abf": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "622.33(410)",
+    "exemplo": "Em uma busca sobre mineração de carvão em determinado país, o classificador pode combinar o número do tema com o auxiliar de lugar. A notação reúne assunto e recorte geográfico em uma representação."
+  },
+  "real-fonte-adc78534c80e-78": {
+    "perfil": "classificacao",
+    "gatilho": "substituir a Classificação Decimal de Dewey",
+    "exemplo": "Uma biblioteca pode usar a CDD e outra, a CDU. A existência do segundo sistema oferece outra forma de classificar o acervo; não torna obrigatório abandonar o primeiro em todas as instituições."
+  },
+  "real-fonte-adc78534c80e-79": {
+    "perfil": "hierarquia",
+    "gatilho": "classificação hierárquica",
+    "exemplo": "Ao partir de uma classe ampla para uma subdivisão especializada, o usuário segue um caminho hierárquico. Acrescentar um auxiliar geográfico a essa subdivisão usa outro recurso do mesmo sistema."
+  },
+  "real-fonte-adc78534c80e-80": {
+    "perfil": "classificacao",
+    "gatilho": "a classe quatro representa a matemática",
+    "exemplo": "Para classificar uma obra de matemática, o bibliotecário consulta a classe 5 e suas subdivisões. Escolher a classe 4 apenas por supor uma sequência numérica contínua produziria uma representação incorreta."
+  },
+  "real-acervo-0200ddc04be146": {
+    "perfil": "relacoes-tesauro",
+    "gatilho": "América do Sul e Brasil",
+    "exemplo": "Uma navegação geográfica pode partir de América do Sul e chegar a Brasil. Diferentemente, “biblioteca universitária” é um tipo de biblioteca, exemplo de hierarquia genérica, e não de país pertencente a continente."
+  },
+  "real-acervo-0cb45acbec3c40": {
+    "perfil": "vocabulario",
+    "gatilho": "não é possível",
+    "exemplo": "Um tesauro pode distinguir “banco (instituição financeira)” de “banco (assento)”. A busca passa a selecionar o conceito adequado, em vez de recuperar indiscriminadamente documentos sobre dinheiro e mobiliário."
+  },
+  "real-acervo-0e97fdfaa38edd": {
+    "perfil": "marketing",
+    "gatilho": "estudo de usuário",
+    "exemplo": "Entrevistas mostram que pesquisadores desconhecem o serviço de alerta. A biblioteca usa o diagnóstico para ajustar a divulgação e o cadastro dos perfis, em vez de produzir uma campanha baseada apenas na intuição."
+  },
+  "real-fonte-adc78534c80e-94": {
+    "perfil": "dou",
+    "gatilho": "nos âmbitos federal, estadual e municipal",
+    "exemplo": "Uma lei municipal deve ser localizada no veículo oficial do município, conforme seu regime de publicação. Procurar toda legislação municipal exclusivamente na seção 1 do DOU pode deixar de recuperar o ato procurado."
+  },
+  "real-fonte-686679d491f2-59": {
+    "perfil": "normalizacao",
+    "gatilho": "foi elaborada",
+    "exemplo": "Ao conferir uma norma, o bibliotecário consulta o prefácio para identificar o comitê e a comissão responsáveis. Para aplicar regras atuais de referências, também confere a edição vigente, atualmente a de 2025.",
+    "referencia": "nbr6023"
+  },
+  "real-fonte-686679d491f2-61": {
+    "perfil": "normalizacao",
+    "gatilho": "substituiu a ABNT NBR 6023:2002",
+    "exemplo": "Uma referência elaborada em 2022 seguia a edição então aplicável. Ao revisar o mesmo trabalho hoje, o bibliotecário verifica a NBR 6023:2025, sem negar que a edição de 2018 havia substituído a de 2002.",
+    "referencia": "nbr6023"
+  },
+  "real-acervo-d21e5f4803ba0d": {
+    "perfil": "aacr-areas",
+    "gatilho": "não faz parte do primeiro nível",
+    "exemplo": "Um catálogo com descrição no primeiro nível ainda informa o título de um livro. Ele pode apresentar menos detalhes do que uma descrição extensa, mas não deve registrar apenas data e editora, omitindo o título principal."
+  },
+  "real-acervo-c07bb9822fafeb": {
+    "perfil": "vocabulario",
+    "gatilho": "estrutura ou função",
+    "exemplo": "Ao analisar um tesauro jurídico, observe seus termos e remissivas para descrever a estrutura. Ao explicar que ele aproxima a linguagem do pesquisador da indexação dos documentos, você está destacando sua função."
+  },
+  "real-fonte-cc7283fafd18-53": {
+    "perfil": "etica",
+    "gatilho": "eximindo-o de responsabilidade",
+    "exemplo": "Ao orientar uma busca jurídica, o bibliotecário indica a fonte, a data e os limites da informação recuperada. Ele não promete uma decisão judicial nem pode atribuir falsamente a uma lei uma regra que não conferiu."
+  },
+  "real-fonte-cc7283fafd18-57": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "oferecer a cada um o seu livro",
+    "exemplo": "Um leitor iniciante e uma pesquisadora especializada podem receber recomendações diferentes sobre o mesmo tema. O atendimento respeita ambos, procurando o recurso adequado a cada necessidade e nível de familiaridade."
+  },
+  "real-fonte-cc7283fafd18-76": {
+    "perfil": "conspectus",
+    "gatilho": "criada pela Library of Congress",
+    "exemplo": "Ao mapear direito constitucional, a biblioteca pode registrar o nível atual e o nível desejado da coleção. Esse uso dos níveis é compatível com o Conspectus, mas não prova que a Library of Congress tenha criado a técnica."
+  },
+  "real-acervo-e744a65f3c8b1b": {
+    "perfil": "identificadores",
+    "gatilho": "identificadores persistentes",
+    "exemplo": "Uma dissertação muda de servidor, mas mantém seu Handle. A instituição atualiza a localização associada ao identificador, permitindo que referências antigas continuem conduzindo ao recurso enquanto o serviço é mantido."
+  },
+  "real-fonte-cc7283fafd18-90": {
+    "perfil": "bases",
+    "gatilho": "acesso ao texto completo",
+    "exemplo": "Uma busca apresenta autor, título e resumo de um artigo, mas exige consultar outra coleção para lê-lo. Em uma base textual, o usuário consegue acessar o texto do documento disponível no próprio serviço."
+  },
+  "real-fonte-cc9d98f69f50-53": {
+    "perfil": "ciencia-info",
+    "gatilho": "a bibliologia é considerada uma das partes",
+    "exemplo": "Estudar produção, circulação e usos sociais dos escritos extrapola a tarefa de organizar uma biblioteca. Já elaborar políticas e serviços de uma unidade de informação situa-se diretamente no trabalho biblioteconômico."
+  },
+  "real-fonte-cc9d98f69f50-63": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "poupe o tempo do leitor",
+    "exemplo": "Um catálogo utilizável com leitor de tela permite a uma pessoa com deficiência visual localizar materiais com maior autonomia. Ao reduzir barreiras de navegação, a biblioteca também ajuda a poupar o tempo do usuário."
+  },
+  "real-fonte-cc9d98f69f50-64": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "necessidades informacionais dos usuários",
+    "exemplo": "Uma biblioteca identifica dificuldade de acesso ao catálogo e reorganiza o serviço de busca. A mudança aplica o compromisso de aproximar as pessoas da informação, em vez de considerar suficiente manter os livros fisicamente guardados."
+  },
+  "real-fonte-cc9d98f69f50-68": {
+    "perfil": "hierarquia",
+    "gatilho": "classes subordinadas",
+    "exemplo": "Uma classe de determinada área contém divisões especializadas, que podem conter novas subdivisões. Descer pela sequência significa especificar o assunto; não significa que cada nível deixe de pertencer à estrutura maior."
+  },
+  "real-fonte-cc9d98f69f50-69": {
+    "perfil": "cdu-relacoes",
+    "gatilho": "assim como o sinal de adição",
+    "exemplo": "Uma notação que reúne educação e saúde não equivale a outra que representa educação em relação à saúde. O primeiro caso agrega temas; o segundo explicita uma relação a ser interpretada na classificação."
+  },
+  "real-acervo-cf30f9be83fc75": {
+    "perfil": "dou",
+    "gatilho": "fonte formal legislativa",
+    "exemplo": "Para conferir a publicação de uma lei federal, o bibliotecário consulta a edição correspondente do DOU. Ele identifica o texto e seus dados de publicação, separando-os de comentários doutrinários escritos sobre essa lei."
+  },
+  "real-fonte-cc9d98f69f50-90": {
+    "perfil": "politica-colecoes",
+    "gatilho": "coleções especiais",
+    "exemplo": "Uma edição antiga pode ser preservada na coleção de memória institucional mesmo tendo baixa circulação. O mesmo índice de empréstimo poderia justificar outra decisão para um manual desatualizado da coleção corrente."
+  },
+  "real-fonte-cc9d98f69f50-91": {
+    "perfil": "selecao",
+    "gatilho": "razões objetivas predeterminadas",
+    "exemplo": "Um bibliotecário aprecia romances históricos, mas avalia a compra de um título segundo o perfil do público, a cobertura existente e o orçamento. Seu gosto pode motivar a leitura da proposta, mas não basta para aprovar a aquisição."
+  },
+  "real-fonte-cc9d98f69f50-95": {
+    "perfil": "busca-web",
+    "gatilho": "como a inteligência artificial",
+    "exemplo": "Uma interface envia a mesma consulta a três buscadores e consolida as respostas por regras simples. Ela pode realizar metabusca mesmo sem um modelo de inteligência artificial para interpretar ou redigir os resultados."
+  },
+  "real-acervo-1d3e8a397e24bf": {
+    "perfil": "dc",
+    "gatilho": "padrão de metadados",
+    "exemplo": "Um repositório registra título e autoria de uma dissertação usando elementos Dublin Core. O arquivo PDF continua sendo o objeto descrito; os campos de metadados ajudam a encontrá-lo e a compreender suas características."
+  },
+  "real-fonte-cc9d98f69f50-112": {
+    "perfil": "etica",
+    "gatilho": "prazo de prescrição",
+    "exemplo": "Ao examinar um processo ético, é preciso distinguir o prazo para recorrer da decisão, o tempo de eventual suspensão e o regime de prescrição da infração. São contagens com funções diferentes, que não podem ser substituídas umas pelas outras."
+  },
+  "real-fonte-cc9d98f69f50-113": {
+    "perfil": "etica",
+    "gatilho": "censura pública",
+    "exemplo": "A identificação de uma infração exige analisar o enquadramento e a gradação da sanção cabível. Saber que censura pública está prevista não permite substituir automaticamente por ela qualquer penalidade ou dispensar o procedimento de apuração."
+  },
+  "real-fonte-cc9d98f69f50-114": {
+    "perfil": "etica",
+    "gatilho": "combate ao exercício ilegal",
+    "exemplo": "Ao identificar possível exercício irregular, o bibliotecário reúne informações verificáveis e procura os canais competentes. Combater a ilegalidade não significa divulgar acusações pessoais sem evidências ou substituir a atuação do conselho profissional."
+  },
+  "real-fonte-cc9d98f69f50-115": {
+    "perfil": "etica",
+    "gatilho": "não fosse aprovado",
+    "exemplo": "Para conferir se um código foi aprovado, consulte a resolução e seus dados de publicação. A existência de debates sobre conteúdo ou propostas de aperfeiçoamento não significa que o instrumento nunca tenha entrado em vigor."
+  },
+  "real-acervo-9ecc1f6f8caf7e": {
+    "perfil": "ciencia-info",
+    "gatilho": "originou a ciência da informação",
+    "exemplo": "Um repertório bibliográfico organiza referências para que pesquisadores descubram obras relevantes. O problema de representar e tornar recuperável o conhecimento ajuda a entender sua ligação histórica com a Ciência da Informação."
+  },
+  "real-acervo-12ad76c6f1c5f5": {
+    "perfil": "documento",
+    "gatilho": "objeto portador de informação",
+    "exemplo": "Uma fotografia, um mapa e um arquivo sonoro podem integrar uma coleção documental. Cada objeto comunica informações por meios diferentes, exigindo descrição e cuidados adequados às suas características."
+  },
+  "real-acervo-fee6d2dd65aa81": {
+    "perfil": "documento",
+    "gatilho": "não comporta um elemento de sentido",
+    "exemplo": "O número “25”, sozinho, pode ter várias leituras. Ao aparecer como “25 empréstimos no mês”, recebe um contexto que permite compreender uma atividade da biblioteca e apoiar uma análise do serviço."
+  },
+  "real-fonte-475f37973bd0-56": {
+    "perfil": "hardware",
+    "gatilho": "não é considerado um dispositivo de saída",
+    "exemplo": "Ao pesquisar no catálogo, o teclado recebe os termos digitados e o monitor exibe a lista de resultados. Se a tela também reconhecer toques, ela acrescenta uma forma de entrada à apresentação visual."
+  },
+  "real-fonte-475f37973bd0-60": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "século XX",
+    "exemplo": "Ao relacionar a quarta lei a um catálogo digital acessível, o bibliotecário aplica um princípio de 1931 a uma tecnologia posterior. A atualização da aplicação não muda a autoria histórica das cinco leis."
+  },
+  "real-fonte-475f37973bd0-61": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "A primeira lei",
+    "exemplo": "Disponibilizar livros para consulta concretiza a primeira lei. Divulgar uma obra pouco conhecida para encontrar quem possa se interessar por ela se relaciona mais diretamente à terceira, “a cada livro, seu leitor”."
+  },
+  "real-fonte-475f37973bd0-62": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "Poupar o tempo do leitor",
+    "exemplo": "Sinalização clara e um catálogo bem organizado ajudam o usuário a localizar uma obra sem repetir buscas ou percorrer estantes ao acaso. As duas medidas podem concretizar a orientação de poupar seu tempo."
+  },
+  "real-fonte-475f37973bd0-67": {
+    "perfil": "apresentacao-resumos",
+    "gatilho": "Convém",
+    "exemplo": "Um periódico pode estabelecer instruções próprias para o resumo submetido. O autor confere essas instruções e a recomendação da norma, em vez de aplicar automaticamente o limite de um trabalho acadêmico a um artigo."
+  },
+  "real-acervo-79f64688784b95": {
+    "perfil": "referencias",
+    "gatilho": "rodapés de páginas",
+    "exemplo": "Uma nota de rodapé apresenta os dados de uma obra citada em determinada passagem. Em outro trabalho, a chamada autor-data remete à lista de referências final. A posição muda, mas a identificação da fonte continua necessária."
+  },
+  "real-acervo-8af25c38dc7eba": {
+    "perfil": "vocabulario",
+    "gatilho": "descrição precisa da informação",
+    "exemplo": "Documentos sobre o mesmo conceito recebem um termo autorizado, embora usem palavras diferentes no texto. O usuário pode recuperar o conjunto com maior consistência do que em uma busca sem qualquer controle terminológico."
+  },
+  "real-acervo-aa1d31cbb1f7c5": {
+    "perfil": "texto-automatico",
+    "gatilho": "Não existe interação humana",
+    "exemplo": "A biblioteca configura um programa para sugerir descritores e avalia amostras dos resultados. Mesmo que a atribuição inicial seja automática, houve decisões humanas sobre parâmetros e qualidade das representações produzidas."
+  },
+  "real-acervo-21e821b3dae4de": {
+    "perfil": "indexacao",
+    "gatilho": "não é uma forma de descrição de conteúdo",
+    "exemplo": "Um registro informa título, autoria e data de um relatório. Ao acrescentar descritores sobre seus temas, a biblioteca indexa seu conteúdo e permite encontrá-lo também por assunto, não apenas pelos dados de identificação."
+  },
+  "real-fonte-475f37973bd0-84": {
+    "perfil": "referencia",
+    "gatilho": "referência autolimitante",
+    "exemplo": "Informar o horário de uma sessão pode exigir uma fonte pontual. Localizar a evolução histórica de um instituto jurídico pode demandar busca aprofundada. O tempo e a complexidade variam conforme a necessidade, sem que a quarta lei crie aquelas duas categorias."
+  },
+  "real-fonte-475f37973bd0-85": {
+    "perfil": "entrevista-ref",
+    "gatilho": "identificação e delimitação do tema",
+    "exemplo": "O usuário pede “material sobre leis”. Na conversa, esclarece que precisa de decisões recentes sobre acesso à informação. Delimitar esse tema permite selecionar fontes e construir uma busca coerente com o objetivo."
+  },
+  "real-fonte-475f37973bd0-87": {
+    "perfil": "busca",
+    "gatilho": "aplicá-las à estratégia de busca",
+    "exemplo": "Ao buscar “rede”, o bibliotecário esclarece se o interesse é em redes de bibliotecas ou de computadores. Acrescentar o recorte adequado evita misturar materiais de áreas diferentes sem necessidade."
+  },
+  "real-fonte-475f37973bd0-93": {
+    "perfil": "portais",
+    "gatilho": "Domínio Público",
+    "exemplo": "Um estudante procura uma obra literária brasileira em acesso público e consulta o portal. Para um levantamento de artigos científicos recentes, poderá precisar de outras fontes, pois um portal de obras não substitui todas as bases especializadas."
+  },
+  "real-acervo-fdc73a0238e7a6": {
+    "perfil": "biblioteca-digital",
+    "gatilho": "Não há diferença conceitual",
+    "exemplo": "Uma instituição mantém objetos digitais em seu repositório; outra interface reúne acesso a recursos distribuídos de vários provedores. Comparar coleção, serviços e modo de acesso é mais útil do que tratar os dois nomes como equivalentes obrigatórios."
+  },
+  "real-acervo-6c807367d4e7e8": {
+    "perfil": "lexml",
+    "gatilho": "Presidência da República",
+    "exemplo": "Ao procurar a identificação do projeto LexML, o bibliotecário consulta a documentação institucional do Senado e dos parceiros. Um decreto recuperado no portal pode ser do Executivo, mas sua autoria não define quem coordena o serviço."
+  },
+  "real-acervo-fe8d042ca77743": {
+    "perfil": "lexml",
+    "gatilho": "apenas informação legislativa",
+    "exemplo": "Uma pesquisa no LexML pode apresentar uma lei e decisões judiciais relacionadas ao tema. O bibliotecário confere a natureza de cada resultado e consulta o documento no provedor indicado, em vez de presumir que tudo seja legislação."
+  },
+  "real-fonte-475f37973bd0-112": {
+    "perfil": "usabilidade",
+    "gatilho": "elemento do sistema de navegação",
+    "exemplo": "Uma biblioteca organiza sua coleção digital por áreas temáticas e disponibiliza um menu para percorrê-las. A árvore de categorias representa a organização; o menu é um mecanismo de navegação que usa essa estrutura."
+  },
+  "real-acervo-f863a54e7d968a": {
+    "perfil": "software-bibliotecas",
+    "gatilho": "DSpace e Fedora",
+    "exemplo": "Uma universidade usa DSpace para organizar seu repositório institucional. Outra adota Fedora como parte de uma arquitetura de objetos digitais com componentes adicionais de interface e descoberta. Ambas usam software voltado a recursos digitais."
+  },
+  "real-fonte-475f37973bd0-115": {
+    "perfil": "usabilidade",
+    "gatilho": "categorização e no acesso",
+    "exemplo": "Uma coleção digital reúne documentos por tema, usa rótulos compreensíveis e oferece filtros de busca. A coerência entre essas escolhas permite que o usuário chegue ao material desejado sem conhecer a estrutura interna do sistema."
+  },
+  "real-fonte-fde51a905108-44": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "O indiano Ranganathan",
+    "exemplo": "Ao preparar uma política de atendimento, a equipe relaciona suas decisões às cinco leis de Ranganathan. Ao escolher entre CDD e CDU, enfrenta outra decisão técnica, que não muda a autoria das leis."
+  },
+  "real-acervo-a3f12d4ee3e4c1": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "A quinta lei",
+    "exemplo": "Uma biblioteca amplia serviços digitais e reorganiza a equipe diante de novas demandas. Isso exemplifica adaptação e crescimento, mesmo que não tenha mudado o sistema de ordenação dos livros por assunto."
+  },
+  "real-acervo-ce38fba45605d0": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "terceira lei",
+    "exemplo": "Uma exposição temática ajuda a aproximar livros de seus possíveis leitores, relação com a terceira lei. Já um catálogo claro reduz buscas desnecessárias e ilustra a quarta, relacionada ao tempo do leitor."
+  },
+  "real-fonte-fde51a905108-50": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "A quarta lei",
+    "exemplo": "Ampliar o espaço para uma coleção que cresceu dialoga com a quinta lei. Melhorar a sinalização desse espaço pode também poupar o tempo do leitor, mas continua sendo uma aplicação de outro princípio."
+  },
+  "real-fonte-fde51a905108-61": {
+    "perfil": "indices",
+    "gatilho": "sintetizar seu conteúdo",
+    "exemplo": "Um índice remete “acesso à informação” às páginas em que o tema aparece. Um resumo apresenta de modo condensado os pontos centrais do trabalho. O primeiro localiza; o segundo oferece uma síntese para leitura e avaliação."
+  },
+  "real-acervo-3ac928b4460cb3": {
+    "perfil": "indexacao",
+    "gatilho": "A tradução não é uma etapa",
+    "exemplo": "Um artigo emprega “pressão alta”, e o vocabulário autorizado usa “hipertensão”. Após reconhecer o conceito, o indexador escolhe o descritor previsto no instrumento: essa passagem exemplifica a tradução documentária."
+  },
+  "real-fonte-fde51a905108-70": {
+    "perfil": "resumos",
+    "gatilho": "O resumo indicativo",
+    "exemplo": "Um resumo apenas anuncia que o trabalho discute bibliotecas escolares. Outro informa objetivo, método, resultados e conclusão da pesquisa. O segundo permite conhecer mais do conteúdo do estudo e ilustra o tratamento informativo."
+  },
+  "real-fonte-fde51a905108-74": {
+    "perfil": "indices",
+    "gatilho": "ver ou ver também",
+    "exemplo": "O índice apresenta “pressão alta, ver hipertensão”. Em outra entrada, “bibliotecas digitais, ver também repositórios institucionais” amplia os caminhos de consulta sem declarar que os dois conceitos sejam sinônimos."
+  },
+  "real-fonte-fde51a905108-81": {
+    "perfil": "tipos-fontes",
+    "gatilho": "restrita ao acervo",
+    "exemplo": "Uma biblioteca jurídica não possui determinado artigo, mas localiza sua referência em uma base e orienta o acesso por um serviço cooperativo. Ela atende à necessidade usando recursos além da coleção local."
+  },
+  "real-acervo-863df6b62185db": {
+    "perfil": "plano-marketing",
+    "gatilho": "definição dos objetivos",
+    "exemplo": "A biblioteca define aumentar o conhecimento do serviço de orientação à pesquisa entre novos alunos. Esse objetivo ajuda a escolher canais, planejar ações e verificar depois se o público passou a conhecer e usar o serviço."
+  },
+  "real-acervo-dacbeaf089fce8": {
+    "perfil": "vocabulario",
+    "gatilho": "controle terminológico",
+    "exemplo": "Documentos que usam “idosos” e “pessoas idosas” podem ser representados pelo mesmo termo autorizado. O tesauro registra a equivalência e orienta tanto o indexador quanto o usuário na escolha da expressão de busca."
+  },
+  "real-acervo-a2e6773c61de84": {
+    "perfil": "vocabulario",
+    "gatilho": "transformar a linguagem de indexação em linguagem de busca",
+    "exemplo": "O usuário procura “pressão alta” e encontra uma remissiva para “hipertensão”. A busca pode usar o mesmo descritor empregado na indexação; não é necessário transformar esse descritor em uma linguagem inteiramente diferente."
+  },
+  "real-acervo-f43a662c05b408": {
+    "perfil": "vocabulario",
+    "gatilho": "distinguir palavras homógrafas",
+    "exemplo": "“Manga (fruta)” e “manga (vestuário)” podem constituir entradas diferentes em um vocabulário. Cada uma se relaciona a conceitos adequados, permitindo indexar e pesquisar sem confundir alimentação e roupas."
+  },
+  "real-fonte-fde51a905108-90": {
+    "perfil": "tipos-fontes",
+    "gatilho": "expressa em língua natural",
+    "exemplo": "Um artigo que apresenta resultados inéditos e uma bibliografia que lista estudos podem estar escritos em português. O primeiro relata uma pesquisa original; a segunda organiza referências. O idioma não apaga a diferença de função."
+  },
+  "real-acervo-c26946cee89dea": {
+    "perfil": "catalogacao",
+    "gatilho": "constitui um metadado",
+    "exemplo": "Uma ficha de um livro informa quem o escreveu e quais temas ele aborda. Ela não se confunde com o texto integral da obra; oferece dados sobre esse recurso para apoiar identificação, organização e recuperação."
+  },
+  "real-fonte-fde51a905108-101": {
+    "perfil": "referencia",
+    "gatilho": "não se incluem",
+    "exemplo": "Um usuário busca estudos sobre bibliotecas parlamentares. O bibliotecário consulta um repertório bibliográfico para identificar obras relevantes e, depois, orienta como localizá-las. A fonte auxilia o atendimento mesmo sem oferecer todos os textos."
+  },
+  "real-acervo-bcb7d49ad07cc5": {
+    "perfil": "bibliografia",
+    "gatilho": "caíram em desuso",
+    "exemplo": "Uma bibliografia temática sobre direito eleitoral pode ser consultada em um portal e conter links para os registros das obras. Ela continua sendo uma bibliografia, embora não seja distribuída como um volume impresso."
+  },
+  "real-fonte-75799ddc2bba-52": {
+    "perfil": "juridica",
+    "gatilho": "crescente facilidade de publicar",
+    "exemplo": "Um tema jurídico passa a reunir artigos em periódicos, livros digitais e análises em portais. A diversidade amplia as fontes possíveis para pesquisa, mas o bibliotecário ainda verifica autoria, atualização e fundamento de cada material."
+  },
+  "real-fonte-75799ddc2bba-54": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "primeira lei da biblioteconomia",
+    "exemplo": "Um índice permite encontrar rapidamente um artigo em uma coleção de periódicos. O benefício se relaciona à economia do tempo do leitor; ao comentar a aplicação, é preciso identificá-la como quarta lei, e não primeira."
+  },
+  "real-fonte-75799ddc2bba-56": {
+    "perfil": "leis-ranganathan",
+    "gatilho": "a cada livro seu leitor",
+    "exemplo": "A biblioteca identifica obras relevantes pouco consultadas e as inclui em uma exposição temática com orientação de leitura. A ação aproxima materiais de pessoas que talvez não os descobrissem apenas pela disposição anterior do acervo."
+  },
+  "real-fonte-75799ddc2bba-58": {
+    "perfil": "hardware",
+    "gatilho": "dispositivo de entrada de dados",
+    "exemplo": "Em um notebook sem mouse externo, o usuário desliza o dedo no touchpad para selecionar um registro do catálogo. O touchpad recebe o comando; a tela apresenta a alteração da posição do ponteiro e a seleção realizada."
+  },
+  "real-fonte-75799ddc2bba-59": {
+    "perfil": "hardware",
+    "gatilho": "influencia diretamente",
+    "exemplo": "Com vários programas abertos, pouca RAM pode levar o sistema a recorrer intensamente ao armazenamento secundário, mais lento. Ampliar a memória pode reduzir esse gargalo, mas não transforma automaticamente um processador antigo em um mais rápido."
+  },
+  "real-fonte-75799ddc2bba-69": {
+    "perfil": "texto-automatico",
+    "gatilho": "nunca para extratos",
+    "exemplo": "Um programa seleciona três frases centrais de um relatório para apresentar uma versão reduzida. Ele realizou sumarização extrativa, mesmo sem produzir uma redação inteiramente nova para substituir as frases originais."
+  },
+  "real-fonte-75799ddc2bba-71": {
+    "perfil": "cdu-auxiliares",
+    "gatilho": "muito diversificada",
+    "exemplo": "Ao acrescentar a característica do material a uma representação temática, o classificador usa a forma prevista para o auxiliar dependente. Não deve deslocá-lo livremente para qualquer posição nem omitir seu prefixo para formar uma sequência indiferenciada."
+  },
+  "real-fonte-75799ddc2bba-73": {
+    "perfil": "classificacao",
+    "gatilho": "não mais simplesmente enumerativa",
+    "exemplo": "Um assunto pode ser especificado por lugar, tempo ou língua mediante combinação de notações. A biblioteca não precisa depender de uma entrada pronta para cada combinação concebível desses elementos."
+  },
+  "real-fonte-75799ddc2bba-81": {
+    "perfil": "diario-justica",
+    "gatilho": "no Diário Oficial da União",
+    "exemplo": "Para conferir uma resolução do TSE sobre eleições, o bibliotecário consulta o texto e seus dados de publicação no veículo oficial da Justiça Eleitoral. Pesquisar apenas o DOU pode deixar de localizar a publicação pertinente."
+  },
+  "real-fonte-75799ddc2bba-95": {
+    "perfil": "competencia-info",
+    "gatilho": "capacitação de usuários contra a desinformação",
+    "exemplo": "A biblioteca ensina a conferir autoria, data, contexto e evidências de uma mensagem sobre serviços públicos. O usuário aprende a comparar a informação com fontes institucionais antes de compartilhá-la ou denunciá-la como enganosa."
+  },
+  "real-fonte-75799ddc2bba-98": {
+    "perfil": "entrevista-pesquisa",
+    "gatilho": "pode explorar tópicos relevantes",
+    "exemplo": "O roteiro pergunta como o usuário pesquisa no catálogo. Ao saber que ele sempre abandona a busca em um filtro específico, o entrevistador pede exemplos e investiga essa dificuldade, mesmo sem uma pergunta idêntica prevista inicialmente."
+  },
+  "real-fonte-75799ddc2bba-111": {
+    "perfil": "estrutura",
+    "gatilho": "entre os colaboradores do departamento",
+    "exemplo": "Catalogação e atendimento podem trabalhar bem internamente e, ainda assim, discordar sobre prioridades de processamento. A barreira entre funções ilustra uma limitação da estrutura funcional, diferente de afirmar que ela gera necessariamente atrito dentro de cada equipe."
+  },
+  "real-fonte-75799ddc2bba-112": {
+    "perfil": "planejar",
+    "gatilho": "dimensão racional",
+    "exemplo": "Comparar custos e benefícios de duas soluções representa uma análise racional. Negociar apoio e prioridades entre setores envolve a dimensão política. Uma escolha pode exigir os dois processos sem apagar a distinção conceitual."
+  },
+  "real-fonte-75799ddc2bba-113": {
+    "perfil": "motivacao",
+    "gatilho": "tempo escasso",
+    "exemplo": "Ao escolher um software, a equipe não consegue testar todos os produtos existentes. Ela define requisitos, compara alternativas viáveis e seleciona uma opção suficientemente adequada às condições disponíveis, registrando limites e critérios da análise."
+  },
+  "real-fonte-75799ddc2bba-114": {
+    "perfil": "motivacao",
+    "gatilho": "valência, a expectância e a instrumentalidade",
+    "exemplo": "Uma servidora valoriza uma capacitação, acredita que estudar melhorará seu desempenho e confia que cumprir os critérios dará acesso à oportunidade. Se ela perceber que o resultado não depende do desempenho, a instrumentalidade dessa relação diminui."
+  },
+  "real-fonte-75799ddc2bba-115": {
+    "perfil": "qualidade",
+    "gatilho": "aprimoramento dos serviços prestados",
+    "exemplo": "Uma equipe percebe repetidas dúvidas no formulário de solicitação e testa uma redação mais clara. Ela mede se os erros diminuem e faz novos ajustes, em vez de manter o formulário apenas porque sempre foi utilizado daquela maneira."
+  },
+  "real-fonte-75799ddc2bba-117": {
+    "perfil": "motivacao",
+    "gatilho": "controle da raiva",
+    "exemplo": "Diante de uma reclamação ríspida, o profissional percebe sua irritação, evita responder de forma agressiva e procura esclarecer o problema. Ele pode estabelecer limites de respeito enquanto regula sua própria reação."
+  },
+  "real-fonte-75799ddc2bba-118": {
+    "perfil": "motivacao",
+    "gatilho": "tanto os sucessos e os acertos quanto os erros",
+    "exemplo": "Após um bom atendimento, o servidor diz que teve mérito por sua competência; após uma falha semelhante, culpa somente o sistema e os colegas. Essa diferença na atribuição de causas é típica da autoconveniência."
+  },
+  "real-fonte-75799ddc2bba-119": {
+    "perfil": "motivacao",
+    "gatilho": "abordagem estrutural",
+    "exemplo": "Se dois setores disputam continuamente o mesmo recurso, alterar regras de compartilhamento atua na estrutura. Mediar uma conversa sobre um conflito já instalado intervém mais diretamente na dinâmica do processo entre as partes."
+  },
+  "real-fonte-75799ddc2bba-120": {
+    "perfil": "motivacao",
+    "gatilho": "ambos os lados querem reduzir as diferenças",
+    "exemplo": "Dois setores precisam do auditório no mesmo horário e possuem prioridades equivalentes. Eles dividem o período e ajustam as atividades, cada um abrindo mão de parte da preferência inicial para reduzir o impasse."
+  },
+  "real-acervo-b5392a7ca6ea48": {
+    "perfil": "ingles-leitura",
+    "gatilho": "discontinuity",
+    "exemplo": "Se um relato cita práticas de 1500 e depois um caso de 1700, isso não permite concluir que nada ocorreu entre essas datas. Procure uma indicação explícita de ruptura antes de aceitar “discontinuity”.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-fonte-fd249394b5ad-42": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "allay",
+    "exemplo": "Em “The explanation allayed her fears”, a explicação amenizou os receios. Substituir “allayed” por “eased” mantém a ideia geral; trocar por “created” inverteria a relação entre a explicação e o medo.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-acervo-0ab2fc24fd6f80": {
+    "perfil": "ingles-leitura",
+    "gatilho": "inherently dishonest",
+    "exemplo": "“If someone has an opportunity, they may take it” expressa possibilidade condicionada. Não equivale a “Everyone is inherently dishonest”, que atribui uma característica universal e necessária às pessoas.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-fonte-fd249394b5ad-44": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "instead of simply handing it over",
+    "exemplo": "“She explained it straightforwardly” indica que ela explicou de modo direto. “She explained it instead of handing it over” cria outra ação contrastada com explicar; não é uma paráfrase da maneira de explicar.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-fonte-fd249394b5ad-45": {
+    "perfil": "ingles-marcadores",
+    "gatilho": "despite the",
+    "exemplo": "“Despite the effort, results were modest” opõe esforço e resultado. “If there is effort, results will follow” apresenta uma condição para um resultado. Concessão e condição não são intercambiáveis nesse contexto.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-fonte-fd249394b5ad-46": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "agribusiness",
+    "exemplo": "Ao chamar alguém de “bean-counter”, um autor pode criticar sua preocupação excessiva com contas. Não está dizendo, por isso, que a pessoa calcula a produção de feijão ou trabalha com empresas agrícolas.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-acervo-6a807a0e9b9bc4": {
+    "perfil": "ingles-leitura",
+    "gatilho": "state-owned-company",
+    "exemplo": "“Congress passed an act” informa aprovação de uma lei. “A draft bill was proposed” informa outra etapa. Além disso, “corporate” não significa automaticamente “state-owned”, que especifica propriedade estatal.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-acervo-d4e033c3580695": {
+    "perfil": "ingles-leitura",
+    "gatilho": "its indignation",
+    "exemplo": "Um texto diz que uma regra foi aprovada após falhas de fiscalização. Isso permite relacionar os eventos, mas não basta para afirmar que a instituição estava emocionalmente indignada, salvo se houver esse apoio no texto.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-acervo-6136843f9b1f27": {
+    "perfil": "ingles-leitura",
+    "gatilho": "key players in today’s globalized world",
+    "exemplo": "Em uma reportagem sobre tornar públicos os nomes dos responsáveis por auditorias, “shining a light” remete a dar visibilidade e permitir exame. Não equivale simplesmente a homenagear os profissionais como protagonistas.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-acervo-9e4159edb676e3": {
+    "perfil": "ingles-leitura",
+    "gatilho": "find a culprit",
+    "exemplo": "Ao ler “Every failure prompts a hunt for someone to blame”, você reconhece a estrutura fracasso seguido de busca por culpados. É essa relação textual que o item pede identificar, não a responsabilidade real de qualquer auditor.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-acervo-b5ff951313823f": {
+    "perfil": "ingles-leitura",
+    "gatilho": "bribing unscrupulous academics",
+    "exemplo": "“A study was funded by a company” pode motivar investigação de conflitos de interesse. Não permite, sozinho, concluir “The researchers were bribed”. A segunda frase faz uma acusação muito mais forte.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-fonte-fd249394b5ad-53": {
+    "perfil": "ingles-leitura",
+    "gatilho": "longer tenures yield better results",
+    "exemplo": "Uma equipe conhece melhor as operações de uma organização após acompanhá-las por mais tempo. Esse ganho de familiaridade ajuda a explicar o resultado descrito, embora não elimine os riscos de proximidade excessiva discutidos no texto.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-fonte-fd249394b5ad-54": {
+    "perfil": "ingles-coesao",
+    "gatilho": "that” refers",
+    "exemplo": "“The same firm stayed for a century. That worries me.” Nessa sequência, “that” retoma o fato descrito na primeira frase, e não apenas “century” como palavra isolada. A mesma lógica orienta a referência do item.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-fonte-fd249394b5ad-55": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "magic bullet",
+    "exemplo": "“Transparency is useful, but it is no magic bullet” significa que transparência ajuda, mas não resolve tudo. A leitura permite compreender a ressalva sem imaginar um objeto físico ou uma medida infalível.",
+    "referencia": "ingles-texto-camara14_cb2_03"
+  },
+  "real-acervo-633c022e5aa5bc": {
+    "perfil": "ingles-leitura",
+    "gatilho": "top-down and a bottom-up",
+    "exemplo": "“The process is top-down and bottom-up as well” reúne as duas direções. Seria diferente dizer “It is only top-down”, pois “only” excluiria a participação do fluxo ascendente descrito no texto.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-10462fa79046e7": {
+    "perfil": "ingles-leitura",
+    "gatilho": "Researchers and business practitioners alike",
+    "exemplo": "Um artigo afirma que pesquisadores estudam decisões de gestores. Isso não significa que os pesquisadores, por exercerem essa atividade, devam tomar as mesmas decisões corporativas descritas para os gestores.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-fonte-8f8bafc433ed-88": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "outperform",
+    "exemplo": "“Team A outperformed Team B” informa que a equipe A teve desempenho superior. Dizer “Team A surpassed Team B” preserva a comparação geral, ao contrário de “performed equally”, que indicaria igualdade.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-273dbcfb4ecbf6": {
+    "perfil": "ingles-leitura",
+    "gatilho": "has always",
+    "exemplo": "Um conceito pode começar associado a planos e depois incorporar estratégias e necessidades. Não se pode tomar a formulação posterior e dizer que ela definiu, sem mudanças, todos os estudos desde o início.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-52f90db9672793": {
+    "perfil": "ingles-leitura",
+    "gatilho": "not always desirable",
+    "exemplo": "Se um texto associa alinhamento a melhor desempenho e não discute exceções, a frase “alignment is sometimes undesirable” acrescenta uma ideia. Uma cautela teoricamente possível não é, por isso, conclusão daquele texto.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-fonte-8f8bafc433ed-91": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "avoid",
+    "exemplo": "“The policy lays out the rules” indica que a política apresenta as regras. “The policy avoids the rules” atribui outra ação, a de evitá-las. Compare o efeito da substituição sobre o objeto do verbo.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-fonte-8f8bafc433ed-92": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "act in accordance with",
+    "exemplo": "Uma empresa pode discordar de uma exigência e, ainda assim, “comply with the law”, cumprindo-a. “Agree with” expressaria concordância; “comply with” destaca o comportamento conforme a regra aplicável.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-fonte-8f8bafc433ed-93": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "entrepreneurs",
+    "exemplo": "Em redação própria, use “people who organize, operate and assume the risk” ou “a person who organizes, operates and assumes the risk”. O vocabulário continua sendo empreendedor, mas a concordância deve acompanhar o sujeito.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-df22a634261fe4": {
+    "perfil": "ingles-leitura",
+    "gatilho": "gradually strengthening",
+    "exemplo": "Uma organização melhora aos poucos a proteção de dados antes de novas exigências. Segundo a lógica do trecho, isso pode evitar uma adequação emergencial mais cara; não significa que qualquer investimento elimine todos os custos.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-3b9316b017eb55": {
+    "perfil": "ingles-leitura",
+    "gatilho": "has voted",
+    "exemplo": "“The bill may pass this year” apresenta possibilidade futura. “The Senate has passed the bill” registra um fato concluído. Para julgar o item, é preciso preservar essa diferença, mesmo quando os termos do tema são os mesmos.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-8e66bf62cb6da7": {
+    "perfil": "ingles-leitura",
+    "gatilho": "for obstructing an investigation",
+    "exemplo": "“No evidence of unlawful collection was found; however, a fine was imposed for obstruction.” Separe as duas condutas: coleta e obstrução. A multa citada no item se refere à segunda, não à primeira.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-fonte-8f8bafc433ed-97": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "concealed",
+    "exemplo": "“A surreptitious recording” descreve uma gravação feita às escondidas. A noção central de ocultação se aproxima de “concealed”, ao contrário de “openly announced”, que indicaria divulgação explícita.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-31fe512fd32710": {
+    "perfil": "ingles-leitura",
+    "gatilho": "came after",
+    "exemplo": "Ao montar a linha temporal, registre primeiro o anúncio da FCC e depois os pedidos de aprofundamento. Não troque essa ordem nem amplie a conclusão para assuntos que a investigação apresentada não examinou.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-fd90366700a37b": {
+    "perfil": "ingles-leitura",
+    "gatilho": "declared unconstitutional",
+    "exemplo": "Não encontrar fundamento para sancionar certa conduta é diferente de um tribunal declarar uma lei inconstitucional. O item usa linguagem jurídica plausível, mas acrescenta um resultado que não aparece no relato.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-fonte-8f8bafc433ed-100": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "fray",
+    "exemplo": "Dizer que uma parlamentar “joined the fray” em um debate significa que ela passou a participar da disputa de posições. A frase não implica, por si, envolvimento em confronto corporal.",
+    "referencia": "ingles-texto-camdep12_cb1_01"
+  },
+  "real-acervo-cf9c1673758643": {
+    "perfil": "ingles-leitura",
+    "gatilho": "never miss a day during a school year",
+    "exemplo": "“Students are rewarded for attending” informa recompensa pela presença. “Only students with perfect annual attendance are rewarded” cria um critério mais restrito, que precisa estar explicitado para ser aceito.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-3891e4f74a3e10": {
+    "perfil": "ingles-leitura",
+    "gatilho": "students could be sent to prison",
+    "exemplo": "Marque os participantes: “parents have been sentenced” tem “parents” como sujeito da passiva. Trocar por “students were sentenced” não é uma simplificação, mas uma mudança de quem recebeu a sanção.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-2eed87aa2725ae": {
+    "perfil": "ingles-leitura",
+    "gatilho": "parents to prison",
+    "exemplo": "“Prosecutors have suggested jail time” registra uma proposta. Ao responder, preserve o caráter de possibilidade considerada; não acrescente que todos os pais faltosos foram presos, pois o trecho não diz isso.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-65cb332a9a3a9c": {
+    "perfil": "ingles-leitura",
+    "gatilho": "a city of the state of Connecticut",
+    "exemplo": "Localize “In New Britain, Connecticut” e “is now being considered”. O primeiro trecho informa o lugar; o segundo mostra discussão em andamento. Os dois sustentam a paráfrase de uma proposta que gerou debate na cidade.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-548508a6ac7b97": {
+    "perfil": "ingles-leitura",
+    "gatilho": "novelty",
+    "exemplo": "“It may come as a shock, but it is not new” distingue surpresa e novidade. Algo conhecido em algumas cidades pode surpreender outros leitores sem se tornar historicamente inédito ou surpreender comprovadamente a maioria da população.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-f2b74da0bc77a8": {
+    "perfil": "ingles-leitura",
+    "gatilho": "may be fined $ 250",
+    "exemplo": "Organize os marcadores “Until recently” e “the law was amended”. O primeiro introduz uma situação anterior; o segundo muda o quadro. Em leitura de prova, a afirmação deve respeitar o tempo do texto, sem buscar a legislação atual da cidade.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-d6d3916e60f53f": {
+    "perfil": "ingles-leitura",
+    "gatilho": "two ways",
+    "exemplo": "Faça duas colunas mentais: recompensar presença e penalizar ausência injustificada. Esse contraste permite reconhecer a ideia central sem precisar traduzir isoladamente cada exemplo de prêmio ou sanção citado.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-92e65f05c8bfb5": {
+    "perfil": "ingles-leitura",
+    "gatilho": "always a terrible experience",
+    "exemplo": "“Sometimes it is joyous; often it is terrible” apresenta possibilidades opostas. A conclusão “It is always terrible” apaga uma delas e não pode ser aceita como paráfrase fiel do que o autor narrou.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-35a9e6b5291578": {
+    "perfil": "ingles-leitura",
+    "gatilho": "only three people",
+    "exemplo": "Liste os referentes: “my wife”, o narrador que diz “we”, “the baby” e “Evangeline”. O bebê e a menina são duas crianças distintas; omitir uma delas produz a contagem incorreta do item.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-559063e8ead2b3": {
+    "perfil": "ingles-leitura",
+    "gatilho": "hope and discouragement",
+    "exemplo": "Em “hope ... battling despair”, a esperança disputa espaço com o desespero. Identificar esse par de sentidos permite compreender o estado do casal mesmo antes de traduzir todos os detalhes sobre o trajeto.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-1ca5757e0a2510": {
+    "perfil": "ingles-leitura",
+    "gatilho": "a difficult choice",
+    "exemplo": "“She doesn’t find this choice easy” pode ser parafraseado como “She finds it difficult”. As duas formas expressam dificuldade da decisão, não incapacidade de executar qualquer uma das ações envolvidas.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-8d952930d4d2dd": {
+    "perfil": "ingles-leitura",
+    "gatilho": "mocks his wife’s driving skills",
+    "exemplo": "Compare “She is an excellent driver” com “He mocks her driving skills”. A primeira frase elogia uma habilidade; a segunda atribui desprezo a ela. A caracterização posterior da tarefa não apaga esse elogio.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-5ee9cf5bb5a14a": {
+    "perfil": "ingles-leitura",
+    "gatilho": "somewhat similar",
+    "exemplo": "Uma comparação pode destacar emoções semelhantes em situações muito diferentes. Ao ler a abertura, procure o aspecto compartilhado — alegria e aborrecimento — em vez de exigir identidade literal entre os acontecimentos.",
+    "referencia": "ingles-texto-camara12_cb1_03"
+  },
+  "real-acervo-6091d9d9e15680": {
+    "perfil": "ingles-leitura",
+    "gatilho": "relatively new",
+    "exemplo": "Uma universidade centenária pode conduzir um projeto recém-iniciado. Para concluir a idade da instituição, seria necessária informação institucional própria; o tempo de um estudo não resolve essa pergunta.",
+    "referencia": "ingles-texto-camara12_cb2_01"
+  },
+  "real-acervo-d5ea1b84376cc9": {
+    "perfil": "ingles-leitura",
+    "gatilho": "while the other had an antigen test",
+    "exemplo": "Desenhe dois grupos: rastreamento orientado, com uma das modalidades de teste; e cuidados habituais, sem orientação de rastreamento. Não desenhe “manual versus antígeno”, pois essa não é a comparação apresentada.",
+    "referencia": "ingles-texto-camara12_cb2_01"
+  },
+  "real-acervo-36fb1124f87752": {
+    "perfil": "ingles-leitura",
+    "gatilho": "blood levels of a cancer-associated protein",
+    "exemplo": "A expressão “the latter test” retoma o teste de antígeno mencionado por último. Relacionar essa retomada à explicação sobre a proteína permite identificar o que é medido sem confundi-lo com o exame manual.",
+    "referencia": "ingles-texto-camara12_cb2_01"
+  },
+  "real-acervo-182935b7587471": {
+    "perfil": "ingles-leitura",
+    "gatilho": "usual-care group",
+    "exemplo": "Associe cada número ao seu grupo antes de interpretar: rastreamento, 50; cuidados habituais, 44. Mesmo uma conclusão que pareça relacionada ao texto não corrige uma premissa numérica com os grupos trocados.",
+    "referencia": "ingles-texto-camara12_cb2_01"
+  },
+  "real-acervo-0330b4b751fa34": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "blurred",
+    "exemplo": "“The economic picture is unclear” fala da situação econômica, não de uma fotografia. Do mesmo modo, no trecho sobre rastreamento, a expressão aponta incerteza do cenário analisado, e não baixa resolução de uma imagem médica.",
+    "referencia": "ingles-texto-camara12_cb2_01"
+  },
+  "real-acervo-a4b8780d922626": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "be discreet",
+    "exemplo": "Um redator pode ter “discretion to choose wording”, autonomia para escolher a redação, e também ser “discreet about confidential matters”, reservado quanto a assuntos sigilosos. São características diferentes.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-cdd48a53163b77": {
+    "perfil": "ingles-coesao",
+    "gatilho": "entire statement",
+    "exemplo": "“The drafter can influence decisions. This does not mean deliberate sabotage.” O demonstrativo retoma a afirmação anterior como um todo. Não é necessário escolher um único substantivo para explicar seu referente.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-6ab8a23c652bb0": {
+    "perfil": "ingles-leitura",
+    "gatilho": "confronts the idea of neutrality",
+    "exemplo": "Ao comparar duas formulações possíveis de uma regra, uma escolha pode ampliar ou restringir seu alcance. Reconhecer esse efeito ajuda a entender por que o autor rejeita a descrição do trabalho como simples cópia neutra.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-dd3a03b79f692a": {
+    "perfil": "ingles-leitura",
+    "gatilho": "deliberately manipulate",
+    "exemplo": "Uma escolha pode produzir efeitos políticos sem ter sido planejada para obter vantagem pessoal. O texto chama atenção para esse espaço de julgamento; não afirma que o objetivo de todos os redatores seja manipular a legislação.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-702d9133224621": {
+    "perfil": "ingles-leitura",
+    "gatilho": "not merely technical and impartial",
+    "exemplo": "Localize duas pistas: “Little attention has been devoted” e “the furthest thing from ... value-neutral”. Juntas, elas sustentam pouca exploração do tema e a crítica à ideia de trabalho apenas técnico e imparcial.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-0bc9fac537bf2e": {
+    "perfil": "ingles-leitura",
+    "gatilho": "sometimes scared",
+    "exemplo": "“At times frightening” corresponde à ideia de algo que às vezes assusta. A expressão não significa “always frightening”, que converteria uma ocorrência eventual em avaliação permanente de todo o fenômeno.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-e38ade02f59de7": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "no specific point in time",
+    "exemplo": "“Have you used this database?” pergunta sobre experiência sem indicar um momento passado específico. “Did you use it yesterday?” situa a ação em um período passado definido. A distinção ajuda a interpretar a pergunta da pesquisa.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-cccf8b0f6a0625": {
+    "perfil": "ingles-leitura",
+    "gatilho": "When conducting his survey",
+    "exemplo": "“I asked this based on my own experience” apresenta a origem da pergunta. Não equivale a “I met him while conducting the survey”. Identifique se cada episódio pertence à experiência anterior ou ao momento da investigação.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-acervo-0274b2153645a9": {
+    "perfil": "ingles-leitura",
+    "gatilho": "his skepticism about the use of technology",
+    "exemplo": "Relatar que um colega rejeitou o controle de alterações do Word não significa compartilhar a rejeição. O narrador pode usar o episódio justamente para mostrar a dificuldade de adaptação dos outros.",
+    "referencia": "ingles-texto-167_cdns_cg1_01"
+  },
+  "real-fonte-c4abdb1644bd-27": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "ordinary citizens",
+    "exemplo": "Em “services for ordinary citizens”, o foco são pessoas comuns que utilizam os serviços, sem exigência de cargo público ou condição especial. A expressão não significa que elas tenham menos direitos do que autoridades.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-acervo-d0cb9eb9f198ba": {
+    "perfil": "ingles-leitura",
+    "gatilho": "two different roles",
+    "exemplo": "Use “By contrast” como sinal para dividir os modelos: proteção do regime de um lado; proteção da comunidade do outro. Essa organização permite localizar diferenças de prioridade, controle e relação com os cidadãos.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-acervo-0d540f47af6c92": {
+    "perfil": "ingles-leitura",
+    "gatilho": "not part of the police’s duties",
+    "exemplo": "“This task is less of a priority” ainda permite que a tarefa exista. “This task is not part of our duties” a exclui das atribuições. A prova explora essa diferença entre menor importância e ausência absoluta.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-acervo-9257a5ff73700b": {
+    "perfil": "ingles-leitura",
+    "gatilho": "motivated by the fact",
+    "exemplo": "Duas frases podem descrever aspectos do mesmo modelo sem que a segunda explique a causa da primeira. Ao julgar “because” ou “motivated by”, procure o apoio para a relação causal, além da presença dos dois fatos.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-fonte-c4abdb1644bd-31": {
+    "perfil": "ingles-marcadores",
+    "gatilho": "Rather",
+    "exemplo": "“They do not spend most time in pursuits. Instead, they build relationships.” “Rather” pode introduzir essa alternativa no mesmo contexto. Verifique sempre a função discursiva, pois “rather” também tem outros usos, como intensificação.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-fonte-c4abdb1644bd-32": {
+    "perfil": "ingles-leitura",
+    "gatilho": "may not suffice",
+    "exemplo": "Se um processo de seleção depende também de lealdade política, possuir preparo técnico pode não ser suficiente. A inferência respeita esse limite; dizer que toda pessoa qualificada será excluída acrescentaria uma generalização sem apoio.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-acervo-49e61267d4371b": {
+    "perfil": "ingles-marcadores",
+    "gatilho": "Because and because",
+    "exemplo": "“A message to the effect that entry is controlled” informa o que a mensagem diz. “A message because entry is controlled” apresenta uma razão para a mensagem. Conteúdo e causa desempenham funções diferentes.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-acervo-441e149070e31f": {
+    "perfil": "ingles-leitura",
+    "gatilho": "a dual effect",
+    "exemplo": "Um aviso sobre fiscalização pode aumentar a sensação de segurança de visitantes e fazer um potencial agressor reconsiderar sua ação. Os efeitos são diferentes porque os públicos e suas intenções também são diferentes.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-fonte-c4abdb1644bd-35": {
+    "perfil": "ingles-coesao",
+    "gatilho": "refers to “threat actors”",
+    "exemplo": "Em “The teams differ in their plans, which change over time”, o relativo retoma os planos. Para resolver, pergunte o que muda na relação descrita, em vez de escolher automaticamente o primeiro substantivo da frase.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-acervo-296c0b6ff993f8": {
+    "perfil": "ingles-leitura",
+    "gatilho": "determination and to the ability",
+    "exemplo": "O adjetivo “especially” destaca uma condição que agrava a dificuldade. Se a capacidade e a determinação são diferentes, não é preciso presumir a mesma dificuldade de redução em todas as situações.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-acervo-d9634e02621fcd": {
+    "perfil": "ingles-leitura",
+    "gatilho": "caught before being able to cause any harm",
+    "exemplo": "“They should expect a risk of being caught” comunica uma possibilidade relevante. Não equivale a “They will all be caught before doing harm”, que promete uma sequência de resultados que o aviso não assegura.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
+  },
+  "real-fonte-c4abdb1644bd-38": {
+    "perfil": "ingles-coesao",
+    "gatilho": "two last factors",
+    "exemplo": "Após listar A, B e C, dizer “some combination thereof” pode abranger combinações entre os elementos da lista. Para restringir a B e C, seria necessária uma indicação adicional, como “the latter two factors”.",
+    "referencia": "ingles-texto-175_cdplf_cg1_01"
   }
 }

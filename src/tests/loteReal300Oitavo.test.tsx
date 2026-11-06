@@ -83,7 +83,11 @@ describe('oitavo lote: procedência, conteúdo e continuidade', () => {
 
 describe('adaptações normativas identificadas e fundamentadas', () => {
   it('mantém os sete originais e suas conferências e aplica a curadoria apenas ao treino', () => {
-    expect(Object.keys(adaptacoes)).toHaveLength(7);
+    expect(Object.keys(adaptacoes)).toEqual(expect.arrayContaining([
+      'real-acervo-14a5a412cd2397', 'real-acervo-28fd38018aec26',
+      'real-esquematizada-1883-f516bcc74e', 'real-esquematizada-1891-31805d5f61',
+      'real-acervo-bac71a5120f25b', 'real-acervo-c3d973b4e2de36', 'real-fonte-833c2e3c897e-70',
+    ]));
     expect(QUESTOES_REAIS_PARA_TREINO).toHaveLength(QUESTOES_REAIS.length);
     for (const id of Object.keys(adaptacoes)) {
       const original = QUESTOES_REAIS.find(q => q.id === id)!;

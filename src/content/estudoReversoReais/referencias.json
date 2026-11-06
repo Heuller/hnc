@@ -616,5 +616,155 @@
     "titulo": "ABNT NBR 6023:2025 — Informação e documentação: referências — elaboração",
     "localizador": "Item 7.1.1: referência de livro e/ou folheto. Seção consultada em cópia disponibilizada pela UFF; não se afirma leitura integral das 74 páginas.",
     "url": "https://mccicm.uff.br/wp-content/uploads/sites/79/2026/03/ABNT_NBR_6023_2025-Informacao-e-documentacao-%E2%80%94-Referencias-%E2%80%94-Elaboracao.pdf"
+  },
+  "adm-cf": {
+    "titulo": "Constituição Federal — organização administrativa, agentes e controles",
+    "localizador": "Arts. 5º, 37, 41, 70 a 74 e 84; consultar o dispositivo indicado no comentário e o regime da questão.",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  },
+  "adm-9784": {
+    "titulo": "Lei 9.784/1999 — Processo administrativo federal",
+    "localizador": "Arts. 1º a 3º, 11 a 15, 26, 53 a 55 e 69-A; prioridade, competência, comunicação e invalidação.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+  },
+  "adm-8112": {
+    "titulo": "Lei 8.112/1990 — Regime jurídico dos servidores federais",
+    "localizador": "Arts. 8º, 19, 33, 38, 49, 58, 84, 91, 117, 131, 133, 143 e 147, conforme o tema; distinguir garantias, vantagens e procedimentos.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+  },
+  "adm-840-df": {
+    "titulo": "Lei Complementar distrital 840/2011 — servidores do Distrito Federal",
+    "localizador": "Apuração disciplinar e art. 222: afastamento preventivo por até sessenta dias sem prejuízo da remuneração; regime do caso distrital na prova do TCDF.",
+    "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/LC_840.html"
+  },
+  "adm-14133": {
+    "titulo": "Lei 14.133/2021 — Licitações e contratos administrativos",
+    "localizador": "Arts. 25, 54, 55, § 1º, e 58: divulgação do edital, alteração que afeta propostas e garantia de proposta; separar do regime revogado.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+  },
+  "adm-10520-historica": {
+    "titulo": "Lei 10.520/2002 — pregão: regime histórico revogado",
+    "localizador": "Art. 5º, I e II, para compreender o gabarito da prova de 2014. O treino atualizado usa a Lei 14.133/2021, expressamente identificada.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10520-17-julho-2002-472321-publicacaooriginal-1-pl.html"
+  },
+  "adm-garantia-tcu": {
+    "titulo": "TCU — Licitações e Contratos: garantia de proposta",
+    "localizador": "Item 5.2.1 e transcrição do art. 58 da Lei 14.133/2021; limite de 1% do valor estimado e distinção da garantia contratual.",
+    "url": "https://licitacoesecontratos.tcu.gov.br/5-2-1-garantia-de-proposta/"
+  },
+  "adm-8987": {
+    "titulo": "Lei 8.987/1995 — concessão e permissão de serviços públicos",
+    "localizador": "Arts. 6º, § 3º, 37 e 40: hipóteses de interrupção, encampação e contrato de adesão da permissão.",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8987compilada.htm"
+  },
+  "adm-9472": {
+    "titulo": "Lei 9.472/1997 — organização da ANATEL",
+    "localizador": "Art. 8º: autarquia em regime especial e autonomia; conferir também sua apresentação institucional.",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9472.htm"
+  },
+  "adm-9986": {
+    "titulo": "Lei 9.986/2000 — gestão de recursos humanos das agências reguladoras",
+    "localizador": "Art. 5º e alterações: escolha de dirigentes e aprovação pelo Senado; distinguir nomeação e gestão da agência.",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9986.htm"
+  },
+  "adm-9649": {
+    "titulo": "Lei 9.649/1998 — qualificação de agências executivas",
+    "localizador": "Arts. 51 e 52: qualificação, plano de reestruturação e contrato de gestão; não confundir agência executiva e reguladora.",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9649cons.htm"
+  },
+  "lai-12527": {
+    "titulo": "Lei 12.527/2011 — acesso à informação",
+    "localizador": "Arts. 7º, 9º, 10, 24 e 31: qualidades da informação, canais de acesso, classificação, término do sigilo e proteção pessoal.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+  },
+  "nobrade-conferida": {
+    "titulo": "CONARQ — NOBRADE: Norma Brasileira de Descrição Arquivística (2006)",
+    "localizador": "Pressupostos e descrição multinível, p. 10–11; estrutura e obrigatoriedade, p. 18–19; áreas 5 e 8. Trechos consultados em cópia institucional da UFCG.",
+    "url": "https://arquivogeral.ufcg.edu.br/arquivos/nobrade.pdf"
+  },
+  "dibrate": {
+    "titulo": "Arquivo Nacional — Dicionário brasileiro de terminologia arquivística (2005)",
+    "localizador": "Verbetes de proveniência, fundo, fundo aberto, ordem original, protocolo, aquisição e classificação; complementar com o e-ARQ e a aula 6.5.",
+    "url": "https://www.gov.br/conarq/pt-br/centrais-de-conteudo/publicacoes/dicionrio_de_terminologia_arquivistica.pdf"
+  },
+  "icp-mp2200": {
+    "titulo": "Medida Provisória 2.200-2/2001 — ICP-Brasil",
+    "localizador": "Arts. 4º e 5º: competências da AC Raiz e do ITI; a participação de auditoria externa não elimina supervisão institucional.",
+    "url": "https://www.receita.fazenda.gov.br/Acsrf/MP_ICP_22002.pdf"
+  },
+  "nbr6023-2025-titulos-ementas": {
+    "titulo": "ABNT NBR 6023:2025 — títulos e documentos jurídicos",
+    "localizador": "Itens 8.2.3 e 7.11.1: títulos em mais de uma língua e supressão em epígrafes/ementas demasiadamente longas. Seções consultadas em cópia institucional da UFF.",
+    "url": "https://mccicm.uff.br/wp-content/uploads/sites/79/2026/03/ABNT_NBR_6023_2025-Informacao-e-documentacao-%E2%80%94-Referencias-%E2%80%94-Elaboracao.pdf"
+  },
+  "ingles-gramatica": {
+    "titulo": "Cambridge Dictionary — English Grammar Today; textos e provas ligados a cada item",
+    "localizador": "Significado contextual, referência, marcadores e tempos verbais. Para o julgamento da questão, prevalecem a passagem e o gabarito da prova identificada.",
+    "url": "https://dictionary.cambridge.org/grammar/british-grammar/"
+  },
+  "arquivos-ooxml": {
+    "titulo": "Ecma International — ECMA-376: Office Open XML",
+    "localizador": "Estrutura dos documentos Office Open XML; diferenciar formato e compatibilidade entre versões de aplicativos.",
+    "url": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+  },
+  "windows-nomes": {
+    "titulo": "Microsoft Learn — Naming Files, Paths, and Namespaces",
+    "localizador": "Regras de nomes, caracteres reservados e componentes de caminhos; nome completo e extensão.",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file"
+  },
+  "texto-simples": {
+    "titulo": "RFC 2046 — Media Types: text/plain",
+    "localizador": "Seção 4.1.3: texto simples não contém comandos de formatação; distinguir representação textual de imagem incorporada.",
+    "url": "https://www.rfc-editor.org/rfc/rfc2046#section-4.1.3"
+  },
+  "linux-fhs": {
+    "titulo": "Linux Foundation — Filesystem Hierarchy Standard 3.0",
+    "localizador": "Capítulo 3: diretório raiz e /dev, com arquivos especiais de dispositivos.",
+    "url": "https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch03.html"
+  },
+  "calc-series": {
+    "titulo": "LibreOffice Help — Automatically Filling in Data Based on Adjacent Cells",
+    "localizador": "Preenchimento automático e criação de séries; observar o aplicativo indicado e os modificadores usados.",
+    "url": "https://help.libreoffice.org/latest/en-US/text/scalc/guide/calc_series.html"
+  },
+  "uri-rfc3986": {
+    "titulo": "RFC 3986 — Uniform Resource Identifier: Generic Syntax",
+    "localizador": "Seção 3: componentes de uma URI, incluindo esquema, autoridade e caminho; complementar com o Registro.br para .br.",
+    "url": "https://www.rfc-editor.org/rfc/rfc3986#section-3"
+  },
+  "email-rfc5322": {
+    "titulo": "RFC 5322 — Internet Message Format",
+    "localizador": "Seção 3.6.3: campos de destinatários To, Cc e Bcc; para transferência e consulta, complementar com SMTP, POP3 e IMAP.",
+    "url": "https://www.rfc-editor.org/rfc/rfc5322#section-3.6.3"
+  },
+  "ingles-texto-camara14_cb2_03": {
+    "titulo": "Câmara dos Deputados 2014 — Consultor Legislativo — conhecimentos básicos — texto de apoio",
+    "localizador": "Passagens e itens de Inglês do caderno CAMARA14_CB2_03. Comentário autoral HNC; julgamento confrontado com o gabarito definitivo ligado à questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf"
+  },
+  "ingles-texto-camdep12_cb1_01": {
+    "titulo": "Câmara dos Deputados 2012 — Arquiteto e Engenheiros — conhecimentos básicos — texto de apoio",
+    "localizador": "Passagens e itens de Inglês do caderno CAMDEP12_CB1_01. Comentário autoral HNC; julgamento confrontado com o gabarito definitivo ligado à questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CAMARA2012/arquivos/CAMDEP12_CB1_01.pdf"
+  },
+  "ingles-texto-camara12_cb1_03": {
+    "titulo": "Câmara dos Deputados 2012 — Museólogo — conhecimentos básicos — texto de apoio",
+    "localizador": "Passagens e itens de Inglês do caderno CAMARA12_CB1_03. Comentário autoral HNC; julgamento confrontado com o gabarito definitivo ligado à questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_CB1_03.pdf"
+  },
+  "ingles-texto-camara12_cb2_01": {
+    "titulo": "Câmara dos Deputados 2012 — Médico — conhecimentos básicos — texto de apoio",
+    "localizador": "Passagens e itens de Inglês do caderno CAMARA12_CB2_01. Comentário autoral HNC; julgamento confrontado com o gabarito definitivo ligado à questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_CB2_01.pdf"
+  },
+  "ingles-texto-167_cdns_cg1_01": {
+    "titulo": "Câmara dos Deputados 2026 — Processo Legislativo e Gestão e Assistente — conhecimentos gerais — texto de apoio",
+    "localizador": "Passagens e itens de Inglês do caderno 167_CDNS_CG1_01. Comentário autoral HNC; julgamento confrontado com o gabarito definitivo ligado à questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf"
+  },
+  "ingles-texto-175_cdplf_cg1_01": {
+    "titulo": "Câmara dos Deputados 2026 — Policial Legislativo Federal — conhecimentos gerais — texto de apoio",
+    "localizador": "Passagens e itens de Inglês do caderno 175_CDPLF_CG1_01. Comentário autoral HNC; julgamento confrontado com o gabarito definitivo ligado à questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/cd_26_pl/arquivos/6BA6C911910A9996895927100E426BD4733C0601F6E27F998FD96D420A356EDC.pdf"
   }
 }

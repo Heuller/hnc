@@ -143,7 +143,12 @@ function SessaoReal({ onClose, storageKey }: { onClose: () => void; storageKey: 
               {questao.estadoConferencia === 'copia-oficial' && <p className="mt-2 text-xs text-ink-2">Conferência com documento oficial em espelho. Os links identificam as cópias consultadas.</p>}
               {questao.estadoConferencia === 'caderno' && <p className="mt-2 text-xs text-ink-2">Atribuição na fonte secundária; confronto com a prova oficial pendente.</p>}
               {aula && <p className="mt-4 flex items-start gap-2 text-xs leading-relaxed text-ink-2"><BookOpen className="mt-0.5 h-3.5 w-3.5 shrink-0" aria-hidden="true" />{aula.numero} · {aula.titulo}</p>}
-              {questao.contexto && <p className="mt-5 text-sm leading-relaxed text-ink-2">{questao.contexto}</p>}
+              {questao.contexto && (questao.modulo === 'M12' ? (
+                <details open className="mt-5 rounded-2xl border border-border bg-surface-2 p-4">
+                  <summary className="foco cursor-pointer text-sm font-semibold">Texto de apoio em inglês</summary>
+                  <p lang="en" className="mt-3 whitespace-pre-line text-sm leading-relaxed text-ink-2">{questao.contexto}</p>
+                </details>
+              ) : <p className="mt-5 text-sm leading-relaxed text-ink-2">{questao.contexto}</p>)}
               <p className="mt-4 font-serif text-lg leading-relaxed sm:text-xl">{questao.item}</p>
               <div className="mt-6 border-t border-border pt-5"><p className="mb-3 text-xs font-semibold text-ink-2">{resposta ? 'Sua resposta foi registrada' : 'Julgue a afirmação para abrir o estudo reverso'}</p>
                 <div className="grid grid-cols-3 gap-2">{(['C', 'E', 'BRANCO'] as const).map(value => {
