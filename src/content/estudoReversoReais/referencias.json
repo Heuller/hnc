@@ -766,5 +766,130 @@
     "titulo": "Câmara dos Deputados 2026 — Policial Legislativo Federal — conhecimentos gerais — texto de apoio",
     "localizador": "Passagens e itens de Inglês do caderno 175_CDPLF_CG1_01. Comentário autoral HNC; julgamento confrontado com o gabarito definitivo ligado à questão.",
     "url": "https://cdn.cebraspe.org.br/concursos/cd_26_pl/arquivos/6BA6C911910A9996895927100E426BD4733C0601F6E27F998FD96D420A356EDC.pdf"
+  },
+  "cf-aplicada-10": {
+    "titulo": "Constituição Federal — texto atualizado na Câmara",
+    "localizador": "Dispositivos indicados individualmente no comentário: direitos fundamentais, organização, competências e processo legislativo.",
+    "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+  },
+  "ricd-atualizado-10": {
+    "titulo": "Regimento Interno da Câmara — texto atualizado",
+    "localizador": "Resolução 17/1989, com alterações; conferir o artigo e a hipótese mencionados no comentário.",
+    "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+  },
+  "lgpd-ambito-10": {
+    "titulo": "LGPD — Lei 13.709/2018",
+    "localizador": "Arts. 4º, 55-A e 55-J: âmbito de aplicação e atribuições; nomenclatura institucional atualizada pela Lei 15.352/2026.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+  },
+  "anpd-agencia-10": {
+    "titulo": "ANPD — apresentação institucional e competências",
+    "localizador": "Transformação em agência reguladora pela Lei 15.352/2026; autonomia e fiscalização sancionatória.",
+    "url": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional"
+  },
+  "improbidade-dolo-10": {
+    "titulo": "Lei 8.429/1992 — texto compilado",
+    "localizador": "Art. 1º, §§ 1º a 3º, e art. 10: elemento doloso após a Lei 14.230/2021.",
+    "url": "https://planalto.gov.br/ccivil_03/leis/l8429compilada.htm"
+  },
+  "governanca-decreto-10": {
+    "titulo": "Decreto 9.203/2017 — política de governança pública",
+    "localizador": "Arts. 2º a 5º: definição, princípios, diretrizes e mecanismos; texto atualizado.",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.pdf"
+  },
+  "linguagem-simples-10": {
+    "titulo": "Lei 15.263/2025 — Política Nacional de Linguagem Simples",
+    "localizador": "Art. 2º, III: reduzir a necessidade de intermediários; arts. 4º e 5º: definição e técnicas.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-publicacaooriginal-177011-pl.html"
+  },
+  "consorcios-10": {
+    "titulo": "Lei 11.107/2005 — consórcios públicos",
+    "localizador": "Art. 6º, I e § 1º: associação pública e integração à administração indireta dos entes consorciados.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2005/lei-11107-6-abril-2005-536328-normaatualizada-pl.pdf"
+  },
+  "portugues-manual-10": {
+    "titulo": "Manual de Redação da Presidência da República — 3ª edição",
+    "localizador": "Coesão e coerência; sintaxe, concordância, regência, pontuação e semântica. A interpretação de cada texto é confrontada com seu caderno e gabarito.",
+    "url": "https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf"
+  },
+  "ms-ppt-audio-10": {
+    "titulo": "Microsoft — áudio em uma apresentação PowerPoint",
+    "localizador": "PowerPoint Microsoft 365: reprodução em um slide ou em vários; configuração de interrupção da reprodução.",
+    "url": "https://support.microsoft.com/en-us/powerpoint/training/add-or-delete-audio-in-your-powerpoint-presentation"
+  },
+  "calc-pivot-10": {
+    "titulo": "LibreOffice Calc — Select Data Source",
+    "localizador": "Tabela dinâmica: uso de tabela ou consulta de fonte de dados registrada.",
+    "url": "https://help.libreoffice.org/latest/en-US/text/scalc/01/12090101.html"
+  },
+  "ms-update-10": {
+    "titulo": "Microsoft — instalar atualizações do Windows",
+    "localizador": "Windows 11: Windows Update nas Configurações; atualizações disponíveis conforme versão e suporte.",
+    "url": "https://support.microsoft.com/en-us/windows/deployment/updates-lifecycle/install-windows-updates"
+  },
+  "ms-vss-10": {
+    "titulo": "Microsoft — provedores de cópias de sombra",
+    "localizador": "Provedor do sistema e técnica copy-on-write; outros provedores podem usar mecanismos próprios.",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/vss/providers"
+  },
+  "ms-wsus-10": {
+    "titulo": "Microsoft — configurar o WSUS",
+    "localizador": "Portas para obter atualizações da Microsoft e para comunicação com clientes; distinguir os fluxos.",
+    "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus"
+  },
+  "enap-concertacao-10": {
+    "titulo": "ENAP — Políticas públicas: coletânea, volume 1",
+    "localizador": "Lenaura Lobato, Algumas considerações sobre a representação de interesses no processo de formulação de políticas públicas: pluralismo e neocorporativismo.",
+    "url": "https://repositorio.enap.gov.br/jspui/bitstream/1/1253/1/cppv1_0403_lobato.pdf"
+  },
+  "prova-lote10-02a2e3348b5f": {
+    "titulo": "CESPE/Cebraspe — 042_EMBRAPA_ANALISTA_038_01",
+    "localizador": "Texto de apoio e enunciados do caderno; julgamento definitivo identificado no registro documental da questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_038_01.pdf"
+  },
+  "prova-lote10-fd249394b5ad": {
+    "titulo": "CESPE/Cebraspe — CAMARA14_CB2_03",
+    "localizador": "Texto de apoio e enunciados do caderno; julgamento definitivo identificado no registro documental da questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf"
+  },
+  "prova-lote10-7ae19f572ffd": {
+    "titulo": "CESPE/Cebraspe — CAMARA12_CB1_03",
+    "localizador": "Texto de apoio e enunciados do caderno; julgamento definitivo identificado no registro documental da questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_CB1_03.pdf"
+  },
+  "prova-lote10-8f8bafc433ed": {
+    "titulo": "CESPE/Cebraspe — CAMDEP12_CB1_01",
+    "localizador": "Texto de apoio e enunciados do caderno; julgamento definitivo identificado no registro documental da questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/CAMARA2012/arquivos/CAMDEP12_CB1_01.pdf"
+  },
+  "prova-lote10-8e17790d9b45": {
+    "titulo": "CESPE/Cebraspe — 167_CDNS_CG1_01",
+    "localizador": "Texto de apoio e enunciados do caderno; julgamento definitivo identificado no registro documental da questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf"
+  },
+  "prova-lote10-5b9da8320a05": {
+    "titulo": "CESPE/Cebraspe — 042_EMBRAPA_ANALISTA_CG2_01",
+    "localizador": "Texto de apoio e enunciados do caderno; julgamento definitivo identificado no registro documental da questão.",
+    "url": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_CG2_01.pdf"
+  },
+  "cobit-10": {
+    "titulo": "ISACA — COBIT",
+    "localizador": "Referencial de governança e gestão da informação e tecnologia empresarial; adaptação ao contexto e às necessidades.",
+    "url": "https://www.isaca.org/resources/cobit"
+  },
+  "linux-fdisk-10": {
+    "titulo": "util-linux — fdisk(8), manual do programa",
+    "localizador": "Opção -l, --list: listagem das tabelas de partições; não é comando de reparação de sistema de arquivos.",
+    "url": "https://man7.org/linux/man-pages/man8/fdisk.8.html"
+  },
+  "ia-nist-10": {
+    "titulo": "NIST — Artificial Intelligence Risk Management Framework, AI RMF 1.0",
+    "localizador": "Definição de sistema de IA e atributos de validade, confiabilidade e adaptação; seções 1 e 3.",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+  },
+  "politicas-enap-10": {
+    "titulo": "Celina Souza — Coordenação de políticas públicas. ENAP, 2018",
+    "localizador": "Coordenação, atores, interdependência, redes e implementação de políticas públicas.",
+    "url": "https://repositorio.enap.gov.br/bitstream/1/3329/1/Livro_Coordena%C3%A7%C3%A3o%20de%20pol%C3%ADticas%20p%C3%BAblicas.pdf"
   }
 }

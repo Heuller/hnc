@@ -1,6 +1,6 @@
 # Seleção das questões disponíveis para treino
 
-> Registro histórico. O banco ativo tem 2.729 itens após [o nono lote](LOTE-300-ACERVO-09.md). Consulte [a auditoria integral dos originais](ESTUDO-REVERSO-INTEGRAL.json); as contagens e decisões abaixo descrevem a etapa registrada.
+> Registro histórico. O banco ativo tem 3.029 itens após [o décimo lote](LOTE-300-ACERVO-10.md). Consulte [a auditoria integral dos originais](ESTUDO-REVERSO-INTEGRAL.json); as contagens e decisões abaixo descrevem a etapa registrada.
 
 Em 5 de novembro de 2026, após a conferência documental, foi adotada a orientação de utilizar somente questões com leitura segura e documentação suficiente. As **105 pendências foram retiradas dos simulados**, reduzindo o banco ativo de 1.634 para **1.529 questões**. Não é necessário obter esses documentos para continuar a trabalhar nas questões selecionadas.
 

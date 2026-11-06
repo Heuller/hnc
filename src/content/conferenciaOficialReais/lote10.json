@@ -1,0 +1,1563 @@
+{
+  "fontes": {
+    "of-02a2e3348b5f": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_038_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/Gab_Definitivo_042_EMBRAPA_ANALISTA_038_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "042_EMBRAPA_ANALISTA_038_01"
+    },
+    "of-fd249394b5ad": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_CB2_03.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_CB2_03.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "CAMARA14_CB2_03"
+    },
+    "of-8f8bafc433ed": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/CAMARA2012/arquivos/CAMDEP12_CB1_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CAMARA2012/arquivos/Gab_definitivo_CAMDEP12_CB1_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "CAMDEP12_CB1_01"
+    },
+    "of-7ae19f572ffd": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_CB1_03.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/Gab_definitivo_CAMARA12_CB1_03.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "CAMARA12_CB1_03"
+    },
+    "of-714687eb926a": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_CB2_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/Gab_definitivo_CAMARA12_CB2_01.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "CAMARA12_CB2_01"
+    },
+    "of-45bc8a379e68": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_C09_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/Gab_Definitivo_042_EMBRAPA_ANALISTA_C09_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "042_EMBRAPA_ANALISTA_C09_01"
+    },
+    "of-8e17790d9b45": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/BE7F1F9B1F3F90750D44E63070FDE8505D71F1BADD7F9A2096BB953B32081694.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "167_CDNS_CG1_01"
+    },
+    "of-5b9da8320a05": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/042_EMBRAPA_ANALISTA_CG2_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/embrapa_24/arquivos/Gab_Definitivo_042_EMBRAPA_ANALISTA_CG2_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "042_EMBRAPA_ANALISTA_CG2_01"
+    }
+  },
+  "itens": {
+    "real-acervo-cb766fa04e5e29": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 73,
+      "gabarito": "C"
+    },
+    "real-acervo-c2f3dabd8e6e3e": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 75,
+      "gabarito": "C"
+    },
+    "real-acervo-d8146d292f09c5": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-acervo-aae25066166ba8": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 80,
+      "gabarito": "C"
+    },
+    "real-fonte-02a2e3348b5f-81": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 81,
+      "gabarito": "C"
+    },
+    "real-fonte-02a2e3348b5f-84": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 84,
+      "gabarito": "C"
+    },
+    "real-fonte-02a2e3348b5f-85": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 85,
+      "gabarito": "E"
+    },
+    "real-acervo-2fc0461a629a4f": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 86,
+      "gabarito": "E"
+    },
+    "real-acervo-319426d9cfb666": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 87,
+      "gabarito": "C"
+    },
+    "real-acervo-04cf35bb4a500d": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 88,
+      "gabarito": "C"
+    },
+    "real-acervo-57c6dd53bfc936": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-acervo-0fa0ecc1ba291d": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 90,
+      "gabarito": "E"
+    },
+    "real-acervo-c17746888b9390": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 91,
+      "gabarito": "C"
+    },
+    "real-acervo-214eaa46986085": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 92,
+      "gabarito": "C"
+    },
+    "real-fonte-02a2e3348b5f-96": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 96,
+      "gabarito": "E"
+    },
+    "real-fonte-02a2e3348b5f-97": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 97,
+      "gabarito": "C"
+    },
+    "real-acervo-a3ce67f934afc8": {
+      "fonteId": "of-02a2e3348b5f",
+      "numero": 98,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-71": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 71,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-73": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 73,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-75": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 75,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-76": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 76,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-77": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-78": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 78,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-79": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-80": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 80,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-83": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 83,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-84": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-85": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 85,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-89": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-90": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 90,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-91": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 91,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-92": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 92,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-95": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 95,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-96": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 96,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-97": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 97,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-98": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 98,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-99": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 99,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-100": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 100,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-101": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 101,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-102": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 102,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-103": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 103,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-104": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 104,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-105": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 105,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-106": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 106,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-30": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 30,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-31": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 31,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-32": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 32,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-33": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 33,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-34": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 34,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-37": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 37,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-40": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 40,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-41": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 41,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-42": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 42,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-43": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 43,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-44": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 44,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-45": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 45,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-46": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 46,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-47": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 47,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-48": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 48,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-49": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 49,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-50": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 50,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-51": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 51,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-52": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 52,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-53": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 53,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-54": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 54,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-57": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-58": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 58,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-59": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 59,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-60": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 60,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-61": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 61,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-62": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 62,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-63": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 63,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-64": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 64,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-65": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-66": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 66,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-68": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-69": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-70": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 70,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-71": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 71,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-72": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 72,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-73": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 73,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-74": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 74,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-75": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 75,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-76": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 76,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-77": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-78": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 78,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-81": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 81,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-82": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 82,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-83": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 83,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-84": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 84,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-52": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 52,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-55": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 55,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-56": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 56,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-57": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-58": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 58,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-59": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 59,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-61": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 61,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-62": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 62,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-63": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 63,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-64": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 64,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-65": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-66": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-67": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 67,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-68": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-69": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 69,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-70": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 70,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-71": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 71,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-74": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 74,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-76": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 76,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-81": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 81,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-82": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 82,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-83": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 83,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-84": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-85": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 85,
+      "gabarito": "C"
+    },
+    "real-fonte-714687eb926a-55": {
+      "fonteId": "of-714687eb926a",
+      "numero": 55,
+      "gabarito": "E"
+    },
+    "real-fonte-714687eb926a-57": {
+      "fonteId": "of-714687eb926a",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-41": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 41,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-43": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 43,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-44": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 44,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-45": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 45,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-46": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 46,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-47": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 47,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-49": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 49,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-50": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 50,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-51": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 51,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-52": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 52,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-53": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 53,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-54": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 54,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-56": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 56,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-57": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-58": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 58,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-59": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 59,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-60": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 60,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-61": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 61,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-62": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 62,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-63": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 63,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-64": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 64,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-65": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-66": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 66,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-67": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 67,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-68": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-fonte-45bc8a379e68-69": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 69,
+      "gabarito": "E"
+    },
+    "real-fonte-45bc8a379e68-70": {
+      "fonteId": "of-45bc8a379e68",
+      "numero": 70,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-1": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 1,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-2": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 2,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-3": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 3,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-6": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 6,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-7": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 7,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-8": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 8,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-9": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 9,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-10": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 10,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-11": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 11,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-12": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 12,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-14": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 14,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-15": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 15,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-16": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 16,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-17": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 17,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-18": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 18,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-19": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 19,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-20": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 20,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-21": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 21,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-22": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 22,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-23": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 23,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-24": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 24,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-25": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 25,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-26": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 26,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-27": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 27,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-28": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 28,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-29": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 29,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-31": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 31,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-32": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 32,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-33": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 33,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-34": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 34,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-35": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 35,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-36": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 36,
+      "gabarito": "C"
+    },
+    "real-fonte-fd249394b5ad-37": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 37,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-39": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 39,
+      "gabarito": "E"
+    },
+    "real-fonte-fd249394b5ad-40": {
+      "fonteId": "of-fd249394b5ad",
+      "numero": 40,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-1": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 1,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-2": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 2,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-3": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 3,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-4": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 4,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-5": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 5,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-6": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 6,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-7": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 7,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-8": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 8,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-9": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 9,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-10": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 10,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-11": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 11,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-12": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 12,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-13": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 13,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-14": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 14,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-15": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 15,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-16": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 16,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-17": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 17,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-18": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 18,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-19": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 19,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-20": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 20,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-21": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 21,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-22": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 22,
+      "gabarito": "C"
+    },
+    "real-fonte-7ae19f572ffd-23": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 23,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-24": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 24,
+      "gabarito": "E"
+    },
+    "real-fonte-7ae19f572ffd-25": {
+      "fonteId": "of-7ae19f572ffd",
+      "numero": 25,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-1": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 1,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-2": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 2,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-3": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 3,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-4": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 4,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-5": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 5,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-6": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 6,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-7": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 7,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-8": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 8,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-9": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 9,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-10": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 10,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-11": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 11,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-12": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 12,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-13": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 13,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-14": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 14,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-15": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 15,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-16": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 16,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-17": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 17,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-19": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 19,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-20": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 20,
+      "gabarito": "E"
+    },
+    "real-fonte-8f8bafc433ed-21": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 21,
+      "gabarito": "C"
+    },
+    "real-fonte-8f8bafc433ed-22": {
+      "fonteId": "of-8f8bafc433ed",
+      "numero": 22,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-1": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 1,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-2": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 2,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-3": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 3,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-4": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 4,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-5": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 5,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-6": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 6,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-7": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 7,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-8": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 8,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-9": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 9,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-10": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 10,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-11": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 11,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-12": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 12,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-13": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 13,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-15": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 15,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-16": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 16,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-17": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 17,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-18": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 18,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-19": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 19,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-20": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 20,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-21": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 21,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-22": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 22,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-23": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 23,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-24": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 24,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-26": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 26,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-47": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 47,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-48": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 48,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-49": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 49,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-50": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 50,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-51": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 51,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-52": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 52,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-53": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 53,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-54": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 54,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-55": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 55,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-56": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 56,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-57": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-58": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 58,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-59": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 59,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-60": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 60,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-61": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 61,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-62": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 62,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-63": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 63,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-64": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 64,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-65": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 65,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-66": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 66,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-67": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 67,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-68": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-69": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-70": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 70,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-71": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 71,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-72": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 72,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-73": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 73,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-74": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 74,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-75": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 75,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-76": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 76,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-77": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-78": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 78,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-79": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-80": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 80,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-81": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 81,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-82": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 82,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-83": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 83,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-84": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 84,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-85": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 85,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-86": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 86,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-87": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 87,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-88": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 88,
+      "gabarito": "C"
+    },
+    "real-fonte-8e17790d9b45-89": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-fonte-8e17790d9b45-90": {
+      "fonteId": "of-8e17790d9b45",
+      "numero": 90,
+      "gabarito": "C"
+    },
+    "real-fonte-5b9da8320a05-13": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 13,
+      "gabarito": "E"
+    },
+    "real-fonte-5b9da8320a05-14": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 14,
+      "gabarito": "C"
+    },
+    "real-fonte-5b9da8320a05-15": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 15,
+      "gabarito": "E"
+    },
+    "real-fonte-5b9da8320a05-16": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 16,
+      "gabarito": "C"
+    },
+    "real-fonte-5b9da8320a05-17": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 17,
+      "gabarito": "E"
+    },
+    "real-fonte-5b9da8320a05-18": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 18,
+      "gabarito": "C"
+    },
+    "real-fonte-5b9da8320a05-19": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 19,
+      "gabarito": "E"
+    },
+    "real-fonte-5b9da8320a05-20": {
+      "fonteId": "of-5b9da8320a05",
+      "numero": 20,
+      "gabarito": "C"
+    }
+  },
+  "editorial": {}
+}

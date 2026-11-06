@@ -1,6 +1,6 @@
 # Estudo reverso das 1.342 questões reais
 
-> Registro histórico. O banco ativo tem 2.729 itens após [o nono lote](LOTE-300-ACERVO-09.md). Consulte [a auditoria integral dos originais](ESTUDO-REVERSO-INTEGRAL.json); as contagens e decisões abaixo descrevem a etapa registrada.
+> Registro histórico. O banco ativo tem 3.029 itens após [o décimo lote](LOTE-300-ACERVO-10.md). Consulte [a auditoria integral dos originais](ESTUDO-REVERSO-INTEGRAL.json); as contagens e decisões abaixo descrevem a etapa registrada.
 
 Revisão editorial de 5 de novembro de 2026, tomando como referência o PDF fornecido pelo aluno, “Heuller na Câmara — Ambiente de Estudos”. O exemplo de QuestionPoint desse documento é adaptado; não foi incorporado como questão de prova real.
 

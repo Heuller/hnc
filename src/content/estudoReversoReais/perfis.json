@@ -1430,5 +1430,181 @@
     "tecnica": "Técnica: Função e contexto. Identifique formato, componente ou protocolo e confira o aplicativo e as condições citadas.",
     "contrasteErrado": "Qualquer domínio .com.br identifica obrigatoriamente uma indústria de computadores.",
     "referencia": "uri-rfc3986"
+  },
+  "port-leitura": {
+    "titulo": "Português: o que o texto permite concluir?",
+    "regra": "Interprete a afirmação pelo texto de apoio. Separe informação expressa, inferência sustentada e extrapolação; preserve participantes, tempo, modalidade e alcance.",
+    "exemplo": "Um texto relata percepção de um problema; o item afirma redução do problema em si. A troca da variável pode invalidar a conclusão.",
+    "tecnica": "Técnica: Evidência textual. Localize a passagem e compare exatamente o que foi afirmado.",
+    "contrasteErrado": "Uma conclusão plausível fora do texto é suficiente para torná-la uma inferência correta.",
+    "referencia": "portugues-manual-10"
+  },
+  "port-coesao": {
+    "titulo": "Português: retomadas e preservação de sentido",
+    "regra": "Identifique referentes e relações entre ideias. Uma reescrita pode manter correção gramatical e alterar sentido; palavras próximas não são sinônimos em todos os contextos.",
+    "exemplo": "A medida funciona e a medida é aceita como eficaz fazem avaliações diferentes: funcionamento e reconhecimento social não são a mesma informação.",
+    "tecnica": "Técnica: Retomada e substituição. Releia a passagem com a mudança e confira o vínculo entre as ideias.",
+    "contrasteErrado": "Toda reescrita gramaticalmente correta preserva o sentido original.",
+    "referencia": "portugues-manual-10"
+  },
+  "port-sintaxe": {
+    "titulo": "Português: função antes da aparência",
+    "regra": "Analise regência, concordância, pontuação e função na construção concreta. A mesma palavra pode desempenhar funções diferentes; a grafia isolada não determina a análise.",
+    "exemplo": "Em superior àquele, a regência exige preposição a e o demonstrativo começa por a. O acento não depende de aquele ser feminino.",
+    "tecnica": "Técnica: Estrutura. Identifique núcleos, complementos e relações antes de julgar a alteração.",
+    "contrasteErrado": "Toda expressão preposicionada tem a mesma função sintática.",
+    "referencia": "portugues-manual-10"
+  },
+  "port-morfologia": {
+    "titulo": "Português: classe, flexão e emprego",
+    "regra": "Relacione a forma da palavra com seu emprego na frase. Flexão, classe e valor temporal dependem da construção; reconhecimento de uma terminação não substitui a análise contextual.",
+    "exemplo": "Um presente pode caracterizar uma situação atual ou geral, sem ser necessariamente presente histórico de narração do passado.",
+    "tecnica": "Técnica: Forma e contexto. Identifique a classe e o valor que ela assume na oração.",
+    "contrasteErrado": "Toda forma de presente usada junto de um pretérito constitui obrigatoriamente presente histórico.",
+    "referencia": "portugues-manual-10"
+  },
+  "port-norma-uso": {
+    "titulo": "Português: descrição e prescrição",
+    "regra": "A gramática descritiva investiga regularidades dos usos da língua; a normativa orienta o emprego de um padrão em situações específicas. Descrever não é declarar todo uso adequado a qualquer contexto.",
+    "exemplo": "Um estudo explica uma variante usada em determinada comunidade; uma orientação de redação oficial recomenda uma construção para um documento. As finalidades são diferentes.",
+    "tecnica": "Técnica: Finalidade. Pergunte se a abordagem explica o funcionamento ou prescreve um padrão.",
+    "contrasteErrado": "Gramática descritiva tem por função impor uma única forma correta em todos os contextos.",
+    "referencia": "portugues-manual-10"
+  },
+  "cf-direitos": {
+    "titulo": "Constituição: direitos e garantias",
+    "regra": "Diferencie titularidade, garantia, restrição e hipótese excepcional. Direitos fundamentais não se resumem a regras sem condições; leia o dispositivo e seu alcance.",
+    "exemplo": "Ao rever um projeto, identifique quem pode iniciá-lo, deliberar e praticar os atos seguintes. Atribuir todos os passos ao mesmo órgão pode mudar o julgamento.",
+    "tecnica": "Técnica: Sujeito e condição. Localize a competência e a exceção indicada no comentário.",
+    "contrasteErrado": "Qualquer órgão legislativo exerce indistintamente todas as competências constitucionais dos demais.",
+    "referencia": "cf-aplicada-10"
+  },
+  "cf-organizacao": {
+    "titulo": "Constituição: organização e competências",
+    "regra": "Identifique ente, Poder e autoridade competente. Autonomia federativa, organização dos órgãos e atribuições constitucionais são planos relacionados, mas diferentes.",
+    "exemplo": "Ao rever um projeto, identifique quem pode iniciá-lo, deliberar e praticar os atos seguintes. Atribuir todos os passos ao mesmo órgão pode mudar o julgamento.",
+    "tecnica": "Técnica: Sujeito e condição. Localize a competência e a exceção indicada no comentário.",
+    "contrasteErrado": "Qualquer órgão legislativo exerce indistintamente todas as competências constitucionais dos demais.",
+    "referencia": "cf-aplicada-10"
+  },
+  "cf-legislativo": {
+    "titulo": "Constituição: composição e atuação do Legislativo",
+    "regra": "Separe competências da Câmara, do Senado e do Congresso. Atuação legislativa, fiscalizatória e outras atribuições constitucionais possuem titulares e procedimentos próprios.",
+    "exemplo": "Ao rever um projeto, identifique quem pode iniciá-lo, deliberar e praticar os atos seguintes. Atribuir todos os passos ao mesmo órgão pode mudar o julgamento.",
+    "tecnica": "Técnica: Sujeito e condição. Localize a competência e a exceção indicada no comentário.",
+    "contrasteErrado": "Qualquer órgão legislativo exerce indistintamente todas as competências constitucionais dos demais.",
+    "referencia": "cf-aplicada-10"
+  },
+  "cf-controle": {
+    "titulo": "Constituição: deliberação, fiscalização e limites",
+    "regra": "Observe quem decide, por qual instrumento e sob qual condição. Um procedimento constitucional não pode ser generalizado para toda espécie de proposição ou controle.",
+    "exemplo": "Ao rever um projeto, identifique quem pode iniciá-lo, deliberar e praticar os atos seguintes. Atribuir todos os passos ao mesmo órgão pode mudar o julgamento.",
+    "tecnica": "Técnica: Sujeito e condição. Localize a competência e a exceção indicada no comentário.",
+    "contrasteErrado": "Qualquer órgão legislativo exerce indistintamente todas as competências constitucionais dos demais.",
+    "referencia": "cf-aplicada-10"
+  },
+  "ricd-funcionamento": {
+    "titulo": "Regimento: procedimento e situação concreta",
+    "regra": "O RICD organiza órgãos, sessões, uso da palavra e tramitação. Identifique a hipótese e a autoridade; uma regra de prioridade não descreve necessariamente urgência ou preferência.",
+    "exemplo": "Proposições podem ter precedência por regimes diferentes. Compare os critérios regimentais antes de concluir que a mais antiga sempre vem primeiro.",
+    "tecnica": "Técnica: Hipótese regimental. Compare o enunciado com a regra específica e suas ressalvas.",
+    "contrasteErrado": "A idade de uma proposição é o único critério de precedência em qualquer regime de tramitação.",
+    "referencia": "ricd-atualizado-10"
+  },
+  "lgpd": {
+    "titulo": "Dados pessoais: âmbito e proteção",
+    "regra": "A LGPD depende da atividade e da finalidade do tratamento. Suas exclusões não autorizam violar outras garantias. A ANPD orienta, regulamenta, fiscaliza e aplica sanções nas hipóteses legais.",
+    "exemplo": "Uma agenda estritamente particular e não econômica é diferente de um cadastro comercial. O fato de ambos conterem nomes não produz enquadramento jurídico idêntico.",
+    "tecnica": "Técnica: Finalidade e hipótese legal. Confira o art. 4º e a competência institucional discutida.",
+    "contrasteErrado": "Qualquer tratamento de dados pessoais está sujeito à LGPD de modo idêntico, sem exceções de finalidade.",
+    "referencia": "lgpd-ambito-10"
+  },
+  "improbidade": {
+    "titulo": "Improbidade: demonstrar o dolo",
+    "regra": "A legislação atual exige dolo nas condutas tipificadas dos arts. 9º, 10 e 11. Dano e voluntariedade material, isoladamente, não demonstram a vontade de alcançar resultado ilícito.",
+    "exemplo": "Um erro negligente pode exigir apuração por outros regimes. Para imputar improbidade, é necessário demonstrar os elementos do tipo e seu componente doloso.",
+    "tecnica": "Técnica: Elemento subjetivo. Não substitua demonstração do dolo por presunção baseada apenas no dano.",
+    "contrasteErrado": "Toda negligência com prejuízo financeiro configura automaticamente improbidade administrativa.",
+    "referencia": "improbidade-dolo-10"
+  },
+  "governanca-publica": {
+    "titulo": "Governança: direção, controle e responsabilização",
+    "regra": "Governança articula avaliação, direcionamento e monitoramento; transparência e accountability apoiam controle e responsabilização. Governabilidade refere-se às condições políticas para governar.",
+    "exemplo": "Publicar despesas permite acompanhamento, mas a prestação de contas também exige explicar decisões e responder por desvios perante instâncias competentes.",
+    "tecnica": "Técnica: Conceito e categoria. Separe condições políticas, mecanismos de gestão e classificação expressa na norma.",
+    "contrasteErrado": "Transparência elimina a necessidade de responsabilização e substitui todos os mecanismos de governança.",
+    "referencia": "governanca-decreto-10"
+  },
+  "politicas-participacao": {
+    "titulo": "Políticas públicas: redes e participação",
+    "regra": "Políticas envolvem formulação, implementação e avaliação. Controle social pode acompanhar essas etapas; redes articulam atores com competências e interesses diferentes e exigem coordenação.",
+    "exemplo": "Uma política de leitura reúne escolas, bibliotecas e comunidade. A experiência das equipes de ponta pode orientar ajustes, sem dispensar direção pública e limites legais.",
+    "tecnica": "Técnica: Etapa, ator e direção. Identifique o que a participação alcança e de onde parte a decisão.",
+    "contrasteErrado": "Participação social restringe-se à formulação e não pode acompanhar execução ou resultados.",
+    "referencia": "politicas-enap-10"
+  },
+  "gestao-competencias": {
+    "titulo": "Competências: da lacuna à atuação",
+    "regra": "Compare competências necessárias e disponíveis para planejar desenvolvimento. Diplomas indicam formação, mas desempenho requer evidências de aplicação de conhecimentos, habilidades e atitudes em contexto.",
+    "exemplo": "Uma equipe com certificados precisa demonstrar que consegue aplicar metadados adequados no repositório. O registro do curso, sozinho, não mede a entrega efetiva.",
+    "tecnica": "Técnica: Evidência de aplicação. Separe formação, lacuna diagnosticada e desempenho observado.",
+    "contrasteErrado": "Um certificado comprova, sozinho, todo o desempenho efetivo do servidor no trabalho.",
+    "referencia": "planejamento"
+  },
+  "linguagem-simples": {
+    "titulo": "Linguagem simples: compreender e usar a informação",
+    "regra": "Linguagem simples combina palavras, estrutura e leiaute para ajudar o cidadão a encontrar, compreender e usar informações. Termos técnicos necessários podem ser explicados; clareza não exige retirar precisão.",
+    "exemplo": "Uma instrução de empréstimo explica prazo, renovação e consequência do atraso com exemplos. O usuário consegue agir, em vez de apenas ler uma lista de artigos legais.",
+    "tecnica": "Técnica: Uso pelo cidadão. Identifique o objetivo legal e o obstáculo de compreensão enfrentado.",
+    "contrasteErrado": "Linguagem simples exige eliminar toda informação técnica, mesmo que isso torne a comunicação imprecisa.",
+    "referencia": "linguagem-simples-10"
+  },
+  "ia-aprendizagem": {
+    "titulo": "IA: padrões, treinamento e limites",
+    "regra": "Sistemas de IA podem reconhecer padrões, estimar tendências e detectar anomalias. Modelos podem ser ajustados no treinamento, sem que todo sistema aprenda continuamente durante o uso ou acerte sempre.",
+    "exemplo": "Um classificador é treinado com documentos e depois avaliado em dados novos. Receber uma consulta não significa automaticamente atualizar seus parâmetros.",
+    "tecnica": "Técnica: Capacidade e condição. Separe treinamento, execução e promessa de acerto universal.",
+    "contrasteErrado": "Todo sistema de IA usa apenas algoritmos imutáveis que nunca podem ser aprimorados.",
+    "referencia": "ia-nist-10"
+  },
+  "governanca-ti": {
+    "titulo": "TI: práticas alinhadas ao serviço",
+    "regra": "Governança e gestão de TI organizam decisões, responsabilidades, controles e serviços em relação aos objetivos organizacionais. COBIT e ITIL têm escopos próprios; aplicação deve ser proporcional a riscos e necessidades.",
+    "exemplo": "Uma biblioteca pequena define quem autoriza acesso e como trata incidentes. Não precisa copiar toda estrutura de uma grande empresa para adotar práticas úteis.",
+    "tecnica": "Técnica: Escopo e proporcionalidade. Diferencie referencial, ferramenta e resultado efetivamente acompanhado.",
+    "contrasteErrado": "Práticas de governança de TI são exclusivas de empresas grandes e dispensáveis a toda organização pequena.",
+    "referencia": "cobit-10"
+  },
+  "criptografia": {
+    "titulo": "Criptografia: funções e escolha do mecanismo",
+    "regra": "Criptografia simétrica utiliza chave compartilhada; a assimétrica utiliza par de chaves e apoia operações como estabelecimento de chaves e assinaturas. Protocolos podem combinar mecanismos, sem superioridade universal.",
+    "exemplo": "Uma conexão segura pode negociar chaves com técnicas assimétricas e cifrar o tráfego com técnica simétrica. As escolhas respondem a funções complementares.",
+    "tecnica": "Técnica: Finalidade. Separe desempenho, distribuição de chaves e propriedade de segurança exigida.",
+    "contrasteErrado": "Criptografia simétrica é sempre mais segura e substitui qualquer necessidade de criptografia assimétrica.",
+    "referencia": "cert"
+  },
+  "planilhas-dados": {
+    "titulo": "Planilhas: fonte e resumo dos dados",
+    "regra": "Tabela dinâmica reorganiza e resume dados segundo campos e agregações. A origem pode ser uma seleção da planilha ou uma fonte externa registrada, conforme os recursos da aplicação.",
+    "exemplo": "Registros de empréstimos em uma base registrada podem alimentar uma tabela dinâmica que agrupe totais por unidade e período, sem recriar manualmente cada relatório.",
+    "tecnica": "Técnica: Origem e operação. Separe de onde os dados vêm e como são agrupados ou agregados.",
+    "contrasteErrado": "Toda tabela dinâmica depende exclusivamente de dados digitados manualmente na própria planilha.",
+    "referencia": "calc-pivot-10"
+  },
+  "office-apresentacoes": {
+    "titulo": "Apresentações: mídia e configuração",
+    "regra": "O comportamento de áudio depende das opções de reprodução. Inserir mídia não obriga reproduzi-la em todos os slides nem torna fixo seu início ou término em qualquer apresentação.",
+    "exemplo": "A bibliotecária usa uma fala gravada em um slide e música em outra sequência. O alcance da reprodução é configurado conforme a proposta da apresentação.",
+    "tecnica": "Técnica: Configuração e versão. Confira qual comportamento é possível e qual está sendo imposto como obrigatório.",
+    "contrasteErrado": "Qualquer áudio inserido precisa tocar em todos os slides da apresentação.",
+    "referencia": "ms-ppt-audio-10"
+  },
+  "manutencao-sistemas": {
+    "titulo": "Sistemas: diagnóstico, cópias e atualização",
+    "regra": "Comandos e serviços têm finalidades próprias. Listar partições não é repará-las, instantâneo não implica cópia completa inicial e atualizar não elimina todo risco de segurança.",
+    "exemplo": "Um administrador consulta partições para diagnosticar o ambiente antes de escolher a ferramenta de reparo adequada. Executar como root não transforma listagem em correção.",
+    "tecnica": "Técnica: Operação exata. Identifique o efeito do comando, o tipo de cópia e a versão do sistema.",
+    "contrasteErrado": "Executar um comando de listagem com privilégios elevados o transforma automaticamente em ferramenta de reparação.",
+    "referencia": "ms-vss-10"
   }
 }

@@ -28,7 +28,7 @@ const origem = [...oficiais, ...ler('src/content/questoesReaisTriadas.json'), ..
 const ids = new Set(origem.map(q => q.id));
 if (ids.size !== origem.length || Object.keys(anotacoes).length !== ids.size || Object.keys(anotacoes).some(id => !ids.has(id))) throw new Error('IDs duplicados ou anotações órfãs.');
 const conferenciaAnterior = ler('src/content/conferenciaOficialReais/registro.json');
-const conferencia = { fontes: { ...conferenciaAnterior.fontes }, itens: { ...conferenciaAnterior.itens }, editorial: conferenciaAnterior.editorial };
+const conferencia = { fontes: { ...conferenciaAnterior.fontes }, itens: { ...conferenciaAnterior.itens }, editorial: { ...conferenciaAnterior.editorial } };
 for (const lote of lotes) {
   for (const [id, fonte] of Object.entries(lote.registro.fontes)) {
     const antiga = conferencia.fontes[id];
@@ -38,6 +38,10 @@ for (const lote of lotes) {
   for (const [id, item] of Object.entries(lote.registro.itens)) {
     if (conferencia.itens[id]) throw new Error(`Item repetido entre lotes: ${id}`);
     conferencia.itens[id] = item;
+  }
+  for (const [id, ajuste] of Object.entries(lote.registro.editorial || {})) {
+    if (conferencia.editorial[id] && JSON.stringify(conferencia.editorial[id]) !== JSON.stringify(ajuste)) throw new Error(`Ajustes editoriais conflitantes: ${id}`);
+    conferencia.editorial[id] = ajuste;
   }
 }
 const documento = ler('docs/simulados-reais/CONFERENCIA-OFICIAL-2026-11-05.json');

@@ -1,0 +1,46 @@
+{
+  "data": "2026-11-06",
+  "adaptacoesNovas": [
+    "real-fonte-8f8bafc433ed-31",
+    "real-fonte-8f8bafc433ed-32",
+    "real-fonte-7ae19f572ffd-70"
+  ],
+  "textosDeApoioCorrigidos": [
+    {
+      "id": "real-acervo-a4b8780d922626",
+      "alteracao": "Remoção de cauda da questão anterior em Português, antes do início do texto de apoio em Inglês. Texto de apoio inglês, enunciado, gabarito e estudo reverso preservados.",
+      "sha256ContextoAnterior": "3dd7bb1d74d360bde95d4a467e08e67f35182a3b82f1ad9de07087ea2c771f96",
+      "sha256ContextoExibido": "0549e7d7b4c202ce40fbac1b6914d50ee0e6f0ed392d199d86f0e49f2287f1da",
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf"
+    },
+    {
+      "id": "real-acervo-cdd48a53163b77",
+      "alteracao": "Remoção de cauda da questão anterior em Português, antes do início do texto de apoio em Inglês. Texto de apoio inglês, enunciado, gabarito e estudo reverso preservados.",
+      "sha256ContextoAnterior": "3dd7bb1d74d360bde95d4a467e08e67f35182a3b82f1ad9de07087ea2c771f96",
+      "sha256ContextoExibido": "0549e7d7b4c202ce40fbac1b6914d50ee0e6f0ed392d199d86f0e49f2287f1da",
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf"
+    },
+    {
+      "id": "real-acervo-6ab8a23c652bb0",
+      "alteracao": "Remoção de cauda da questão anterior em Português, antes do início do texto de apoio em Inglês. Texto de apoio inglês, enunciado, gabarito e estudo reverso preservados.",
+      "sha256ContextoAnterior": "3dd7bb1d74d360bde95d4a467e08e67f35182a3b82f1ad9de07087ea2c771f96",
+      "sha256ContextoExibido": "0549e7d7b4c202ce40fbac1b6914d50ee0e6f0ed392d199d86f0e49f2287f1da",
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf"
+    },
+    {
+      "id": "real-acervo-dd3a03b79f692a",
+      "alteracao": "Remoção de cauda da questão anterior em Português, antes do início do texto de apoio em Inglês. Texto de apoio inglês, enunciado, gabarito e estudo reverso preservados.",
+      "sha256ContextoAnterior": "3dd7bb1d74d360bde95d4a467e08e67f35182a3b82f1ad9de07087ea2c771f96",
+      "sha256ContextoExibido": "0549e7d7b4c202ce40fbac1b6914d50ee0e6f0ed392d199d86f0e49f2287f1da",
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf"
+    },
+    {
+      "id": "real-acervo-702d9133224621",
+      "alteracao": "Remoção de cauda da questão anterior em Português, antes do início do texto de apoio em Inglês. Texto de apoio inglês, enunciado, gabarito e estudo reverso preservados.",
+      "sha256ContextoAnterior": "3dd7bb1d74d360bde95d4a467e08e67f35182a3b82f1ad9de07087ea2c771f96",
+      "sha256ContextoExibido": "0549e7d7b4c202ce40fbac1b6914d50ee0e6f0ed392d199d86f0e49f2287f1da",
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf"
+    }
+  ],
+  "criterio": "Originais históricos preservados em JSON. Adaptações HNC em camada própria, exibidas com aviso e comparação. Correções de contexto aplicadas por sobreposição editorial, sem mudar enunciados e gabaritos."
+}

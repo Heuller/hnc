@@ -198,5 +198,65 @@
       "localizador": "Itens 2.5 e 2.6 e seção 4.1. Documento normativo consultado em cópia no IBDP.",
       "url": "https://www.ibdp.org.br/wp-content/uploads/2024/05/ABNT-NBR-6028-2021-Resumo.pdf"
     }
+  },
+  "real-fonte-8f8bafc433ed-31": {
+    "item": "No PowerPoint do Microsoft 365, arquivos de áudio podem ser inseridos em apresentações, mas sua reprodução deve obrigatoriamente abranger todos os slides, sem possibilidade de restringi-la a uma parte da apresentação.",
+    "gabarito": "E",
+    "gatilho": "deve obrigatoriamente abranger todos os slides",
+    "justificativa": "Errado. O PowerPoint Microsoft 365 permite configurar áudio em um slide ou em vários slides. O alcance da reprodução não é obrigatoriamente toda a apresentação. A documentação da Microsoft diferencia essas opções; inserir uma trilha não impede definir onde ela será reproduzida. Esta versão é uma adaptação autoral HNC, e não um novo enunciado oficial.",
+    "regra": "O comportamento de áudio depende das opções de reprodução. Inserir mídia não obriga reproduzi-la em todos os slides nem torna fixo seu início ou término em qualquer apresentação.",
+    "exemplo": "Uma apresentação pode usar áudio apenas na abertura ou em um trecho selecionado, conforme a configuração. Inserir um arquivo MP3 não obriga que ele toque durante todos os eslaides do início ao fim.",
+    "contraste": "A reprodução de áudio no PowerPoint pode ser configurada para partes da apresentação, sem obrigatoriedade de abranger todos os eslaides.",
+    "motivo": "Atualização da versão PowerPoint 2010 para Microsoft 365, mantendo o contraste entre possibilidade de reprodução e obrigatoriedade de abranger todos os slides.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a versão atualizada e identificada como adaptação autoral HNC. O original histórico pode ser comparado após responder.",
+    "conceito": "Apresentações: mídia e configuração",
+    "tecnica": "Técnica: Configuração e versão. Confira qual comportamento é possível e qual está sendo imposto como obrigatório.",
+    "referencia": {
+      "titulo": "Microsoft — áudio em uma apresentação PowerPoint",
+      "localizador": "PowerPoint Microsoft 365: reprodução em um slide ou em vários; configuração de interrupção da reprodução.",
+      "url": "https://support.microsoft.com/en-us/powerpoint/training/add-or-delete-audio-in-your-powerpoint-presentation"
+    }
+  },
+  "real-fonte-8f8bafc433ed-32": {
+    "item": "No LibreOffice Calc, uma tabela dinâmica pode utilizar dados de uma tabela ou consulta de banco de dados registrado como fonte de dados no LibreOffice.",
+    "gabarito": "C",
+    "gatilho": "banco de dados registrado",
+    "justificativa": "Certo. O LibreOffice Calc permite escolher uma fonte de dados registrada e selecionar a tabela ou consulta que alimentará a tabela dinâmica. A ferramenta organiza e resume esses dados por campos e agregações. Não é necessário que toda informação tenha sido digitada manualmente na própria planilha. O julgamento desta versão atualizada é autoral HNC.",
+    "regra": "Tabela dinâmica reorganiza e resume dados segundo campos e agregações. A origem pode ser uma seleção da planilha ou uma fonte externa registrada, conforme os recursos da aplicação.",
+    "exemplo": "A biblioteca obtém dados de circulação de uma fonte compatível e usa uma tabela dinâmica para resumir empréstimos por categoria. A importação e a análise são operações relacionadas, mas distintas da administração integral do banco original.",
+    "contraste": "Uma tabela dinâmica do LibreOffice Calc aceita exclusivamente dados digitados na própria planilha e nunca pode utilizar uma fonte de dados registrada.",
+    "motivo": "Atualização da denominação histórica BrOffice para LibreOffice Calc, explicitando o requisito de fonte de dados registrada para a operação descrita.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a versão atualizada e identificada como adaptação autoral HNC. O original histórico pode ser comparado após responder.",
+    "conceito": "Planilhas: fonte e resumo dos dados",
+    "tecnica": "Técnica: Origem e operação. Separe de onde os dados vêm e como são agrupados ou agregados.",
+    "referencia": {
+      "titulo": "LibreOffice Calc — Select Data Source",
+      "localizador": "Tabela dinâmica: uso de tabela ou consulta de fonte de dados registrada.",
+      "url": "https://help.libreoffice.org/latest/en-US/text/scalc/01/12090101.html"
+    }
+  },
+  "real-fonte-7ae19f572ffd-70": {
+    "item": "No Windows 11, o Windows Update permite obter e instalar atualizações disponíveis para a versão em uso, incluindo correções de segurança, sem que isso garanta a eliminação de todas as vulnerabilidades do sistema.",
+    "gabarito": "C",
+    "gatilho": "Windows Update",
+    "justificativa": "Certo. No Windows 11, o Windows Update permite consultar e instalar atualizações disponíveis para a versão utilizada, incluindo correções de segurança. Disponibilidade depende da versão, das políticas e do suporte aplicável. Atualizar reduz exposição a falhas corrigidas, mas não prova ausência de vulnerabilidades. Esta adaptação HNC substitui a referência histórica ao Windows 7 e não altera o original da prova.",
+    "regra": "Comandos e serviços têm finalidades próprias. Listar partições não é repará-las, instantâneo não implica cópia completa inicial e atualizar não elimina todo risco de segurança.",
+    "exemplo": "O aluno distingue manter um sistema em suporte atualizado de afirmar que um produto antigo continuará recebendo indefinidamente todas as correções. A ferramenta de atualização não substitui a verificação do ciclo de suporte do sistema utilizado.",
+    "contraste": "Instalar atualizações pelo Windows Update garante que o Windows 11 fique livre de toda vulnerabilidade e dispensa os demais cuidados de segurança.",
+    "motivo": "Atualização do Windows 7 para Windows 11. O original descreve a situação de 2012; não deve ser lido como recomendação de uso atual do Windows 7, cujo suporte regular terminou em 2020.",
+    "data": "2026-11-06",
+    "versao": 1,
+    "contexto": "Julgue a versão atualizada e identificada como adaptação autoral HNC. O original histórico pode ser comparado após responder.",
+    "conceito": "Sistemas: diagnóstico, cópias e atualização",
+    "tecnica": "Técnica: Operação exata. Identifique o efeito do comando, o tipo de cópia e a versão do sistema.",
+    "referencia": {
+      "titulo": "Microsoft — instalar atualizações do Windows",
+      "localizador": "Windows 11: Windows Update nas Configurações; atualizações disponíveis conforme versão e suporte.",
+      "url": "https://support.microsoft.com/en-us/windows/deployment/updates-lifecycle/install-windows-updates"
+    }
   }
 }

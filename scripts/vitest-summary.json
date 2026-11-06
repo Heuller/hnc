@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1066,
-  "numPassedTests": 1066,
+  "numTotalTests": 1074,
+  "numPassedTests": 1074,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 137,
-  "source": "vitest run: lote 09 de 300 questões reais, 68 itens de Inglês no M12 e três novas adaptações normativas; 2.729 itens ativos; 1.066 testes em 137 arquivos aprovados, 06/11/2026"
+  "testFiles": 138,
+  "source": "vitest run: lote 10 de 300 questões reais, textos de apoio no M13, oito itens de Inglês e três adaptações de software; 3.029 itens ativos; 1.074 testes em 138 arquivos, 06/11/2026"
 }

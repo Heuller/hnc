@@ -3,10 +3,11 @@ import type { QuestaoReal } from '../questoesReais';
 
 type Fonte = { provaUrl: string; gabaritoUrl: string; modo: 'original' | 'copia'; tipoGabarito: 'tabela' | 'recurso'; codigo: string };
 type Conferencia = { fonteId: string; numero: number; gabarito: 'C' | 'E' | 'X' };
-type RegistroLote = { fontes: Record<string, Fonte>; itens: Record<string, Conferencia> };
+type RegistroLote = { fontes: Record<string, Fonte>; itens: Record<string, Conferencia>; editorial?: Record<string, Partial<QuestaoReal>> };
 const lotes = import.meta.glob<RegistroLote>('./lote*.json', { eager: true, import: 'default' });
 const fontes = { ...registro.fontes } as Record<string, Fonte>;
 const itens = { ...registro.itens } as Record<string, Conferencia>;
+const editorial = { ...registro.editorial } as Record<string, Partial<QuestaoReal>>;
 for (const nome of Object.keys(lotes).sort()) {
   for (const [id, fonte] of Object.entries(lotes[nome].fontes)) {
     if (fontes[id] && (['provaUrl', 'gabaritoUrl', 'modo', 'tipoGabarito', 'codigo'] as const).some(k => fontes[id][k] !== fonte[k])) throw new Error(`Fontes de lotes conflitantes: ${id}`);
@@ -16,8 +17,12 @@ for (const nome of Object.keys(lotes).sort()) {
     if (itens[id]) throw new Error(`Item repetido entre conferências de lotes: ${id}`);
     itens[id] = item;
   }
+  for (const [id, ajuste] of Object.entries(lotes[nome].editorial || {})) {
+    if (editorial[id] && JSON.stringify(editorial[id]) !== JSON.stringify(ajuste)) throw new Error(`Ajustes editoriais conflitantes: ${id}`);
+    editorial[id] = ajuste;
+  }
 }
-const editorial = registro.editorial as Record<string, Partial<QuestaoReal>>;
+if (Object.keys(editorial).some(id => !itens[id])) throw new Error('Ajuste editorial sem conferência documental.');
 
 /** O JSON de origem é histórico. Treinos usam apenas itens documentalmente conferidos. */
 export function aplicarConferenciaOficial(questoes: readonly QuestaoReal[]): QuestaoReal[] {
