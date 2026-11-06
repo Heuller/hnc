@@ -1,0 +1,24 @@
+{
+  "data": "2026-11-06",
+  "criterio": "Correção de vínculo temático, por sobreposição editorial. Preservados ID, enunciado, gabarito, comentário, procedência e respostas existentes. Sem nova contagem de questões.",
+  "itens": [
+    {
+      "id": "real-tec-4145303",
+      "de": "6.3",
+      "para": "9.2",
+      "motivo": "O núcleo do julgamento são os princípios FAIR e a distinção entre acessibilidade e abertura irrestrita, e não uma estratégia de preservação digital."
+    },
+    {
+      "id": "real-tec-4145308",
+      "de": "6.3",
+      "para": "9.3",
+      "motivo": "O núcleo do julgamento é curadoria digital e gestão de dados de pesquisa com metadados estruturados, conteúdo da aula 9.3."
+    },
+    {
+      "id": "real-tec-346424",
+      "de": "8.2",
+      "para": "8.5",
+      "motivo": "Crédito identifica a participação na publicação; não é modalidade de citação. A aula 8.5 reúne editoração e aspectos de apresentação de publicações."
+    }
+  ]
+}

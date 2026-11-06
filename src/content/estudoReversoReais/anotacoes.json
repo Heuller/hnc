@@ -14679,5 +14679,67 @@
     "gatilho": "Furthermore",
     "exemplo": "O parágrafo acrescenta outros impactos às secas já discutidas. Ao substituir por besides that, o aluno conserva a ideia de acréscimo, diferentemente do que ocorreria se usasse however para introduzir um contraste não indicado.",
     "referencia": "prova-lote10-5b9da8320a05"
+  },
+  "real-fonte-57f4861d26fd-87": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "dispensável",
+    "exemplo": "A biblioteca percebe ondulação em folhas e mede as condições do depósito em diferentes horários. Esse acompanhamento ajuda a identificar variações e infiltrações, em vez de apenas trocar as caixas repetidamente."
+  },
+  "real-fonte-57f4861d26fd-89": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "administrativas, políticas e operacionais",
+    "exemplo": "A direção define uma política de preservação, reserva recursos e estabelece responsáveis pelo controle ambiental e por emergências. O reparo de uma folha é uma intervenção específica dentro desse programa mais amplo."
+  },
+  "real-fonte-57f4861d26fd-92": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "papel japonês e cola de metilcelulose",
+    "exemplo": "Uma folha rasgada recebe reforço de conservação planejado para estabilizar o dano, com papel e adesivo compatíveis. Aplicar fita adesiva doméstica apenas por ser transparente não realiza o mesmo tratamento e pode provocar novas alterações.",
+    "referencia": "lacunas-bn-preservacao"
+  },
+  "real-fonte-57f4861d26fd-93": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "pano úmido",
+    "exemplo": "Antes de limpar um conjunto, a equipe avalia fragilidade, tinta e presença de contaminação. Poeira superficial não é motivo para passar pano molhado em todas as páginas, como se o documento fosse uma superfície lavável."
+  },
+  "real-fonte-57f4861d26fd-94": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "desnecessário retirar",
+    "exemplo": "Um clipe enferrujado e removível é substituído por solução adequada. Uma fita aderida sobre escrita exige encaminhamento técnico; puxá-la à força pode destruir a informação que se desejava conservar."
+  },
+  "real-fonte-57f4861d26fd-98": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "independentemente da natureza",
+    "exemplo": "Na elaboração do plano de proteção de uma reserva, especialistas avaliam os materiais, as instalações e os sistemas disponíveis. Escolher a solução exige comparar riscos de fogo e de resposta, em vez de aplicar uma regra única a qualquer coleção.",
+    "referencia": "lacunas-fogo-cci"
+  },
+  "real-fonte-57f4861d26fd-100": {
+    "perfil": "preservacao-pragas",
+    "gatilho": "Restos e excrementos",
+    "exemplo": "A equipe encontra resíduos junto a uma lombada e registra local e data, verificando também perfurações e ocorrências posteriores. A informação orienta investigação e monitoramento, em vez de aplicar inseticida sem identificar o problema."
+  },
+  "real-fonte-57f4861d26fd-101": {
+    "perfil": "preservacao-pragas",
+    "gatilho": "devidamente treinado",
+    "exemplo": "Ao limpar a área externa de uma estante, um trabalhador identifica resíduos incomuns, registra o local e avisa o responsável conforme a rotina estabelecida. Ele não precisa aplicar um produto por conta própria para contribuir com a prevenção."
+  },
+  "real-fonte-57f4861d26fd-104": {
+    "perfil": "preservacao-pragas",
+    "gatilho": "repelem",
+    "exemplo": "Um dispositivo com atrativo específico é colocado em posição planejada e suas capturas são acompanhadas. O resultado ajuda a monitorar o organismo-alvo; não indica que todos os insetos do prédio serão capturados pelo mesmo produto."
+  },
+  "real-fonte-3570102ebc9d-97": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "embalagens",
+    "exemplo": "Uma fotografia fica em invólucro compatível, dentro de uma caixa apoiada em mobiliário adequado. O primeiro cuidado integra o acondicionamento; a organização das caixas no mobiliário e no espaço integra o armazenamento."
+  },
+  "real-fonte-8ee28efb7958-97": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "físicos, químicos e biológicos",
+    "exemplo": "Um livro exposto à luz pode apresentar alteração de cor; um papel ácido pode tornar-se quebradiço; insetos podem perfurar folhas. O diagnóstico observa os mecanismos e suas interações, em vez de atribuir toda deterioração apenas à idade do material."
+  },
+  "real-fonte-8ee28efb7958-100": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "luz direta",
+    "exemplo": "Uma página exposta junto à janela pode ficar mais desbotada que a área coberta. Reduzir exposição direta e planejar a exibição ajuda a diminuir o risco; trocar luz solar por luz artificial intensa não elimina automaticamente o problema."
   }
 }

@@ -1606,5 +1606,37 @@
     "tecnica": "Técnica: Operação exata. Identifique o efeito do comando, o tipo de cópia e a versão do sistema.",
     "contrasteErrado": "Executar um comando de listagem com privilégios elevados o transforma automaticamente em ferramenta de reparação.",
     "referencia": "ms-vss-10"
+  },
+  "preservacao-ambiente": {
+    "titulo": "Preservação física: reconhecer e acompanhar os agentes de dano",
+    "regra": "Diagnóstico e monitoramento orientam medidas de proteção. Luz, condições ambientais, poluentes e agentes biológicos podem interagir; reconhecer uma causa não exclui as demais.",
+    "exemplo": "Um livro apresenta desbotamento na área exposta à janela. A equipe relaciona exposição luminosa, suporte e tempo antes de escolher medidas e acompanhar resultados.",
+    "tecnica": "Técnica: Agente, mecanismo e evidência. Relacione o fator ambiental ao dano possível e à medida de prevenção.",
+    "contrasteErrado": "Só agentes biológicos causam danos aos documentos; luz e condições ambientais são irrelevantes.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "preservacao-pragas": {
+    "titulo": "Controle integrado de pragas: detectar antes de perder o acervo",
+    "regra": "Controle integrado combina prevenção, inspeção, identificação, registro e resposta adequada. Sinais de presença precisam ser avaliados; armadilhas ajudam a monitorar, sem substituir todo o programa.",
+    "exemplo": "A equipe encontra resíduos junto a uma estante, registra localização e data e comunica o responsável. A identificação orienta a resposta, em vez de aplicar o mesmo produto a qualquer ocorrência.",
+    "tecnica": "Técnica: Sinal e função. Diferencie indício, identificação, monitoramento e tratamento; não trate todo dispositivo como veneno.",
+    "contrasteErrado": "Controle de pragas consiste exclusivamente em aplicar inseticida depois de ocorrer dano visível.",
+    "referencia": "lacunas-pragas-cci"
+  },
+  "preservacao-preventiva": {
+    "titulo": "Conservação preventiva: manusear, acondicionar e reduzir riscos",
+    "regra": "Preservação articula políticas e recursos; conservação preventiva reduz riscos e danos. Acondicionamento envolve invólucros, enquanto armazenamento envolve o local e mobiliário. Higienização deve respeitar suporte e estado do documento.",
+    "exemplo": "Uma folha fica em pasta adequada, dentro de caixa apoiada em estante. Melhorar a estante não corrige uma fita adesiva inadequada em contato direto com a folha.",
+    "tecnica": "Técnica: Escala e operação. Pergunte se a medida trata da política, do invólucro, do mobiliário ou diretamente do documento.",
+    "contrasteErrado": "Acondicionamento e armazenamento designam apenas o mesmo mobiliário e dispensam avaliação de materiais em contato com os documentos.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "preservacao-intervencoes": {
+    "titulo": "Intervenção e contingência: escolher pelo risco e pelo material",
+    "regra": "Reparo e resposta a emergências exigem diagnóstico, materiais compatíveis e planejamento. Uma técnica possível não se torna tratamento universal; segurança de pessoas e características do acervo orientam decisões.",
+    "exemplo": "Uma obra com rasgo pode exigir reparo tecnicamente avaliado. O procedimento não consiste em colar qualquer fita disponível, assim como combater incêndio não significa escolher o mesmo sistema para todos os materiais.",
+    "tecnica": "Técnica: Compatibilidade e condição. Verifique se a escolha depende do suporte, do dano e do risco, ou se o item impõe solução universal.",
+    "contrasteErrado": "Uma técnica adequada a um material deve ser aplicada a qualquer outro sem diagnóstico.",
+    "referencia": "lacunas-bn-preservacao"
   }
 }

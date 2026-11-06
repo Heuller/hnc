@@ -36,11 +36,14 @@ describe('sétimo lote e continuidade das publicações de 300 questões', () =>
     expect(QUESTOES_REAIS).toHaveLength(CONTAGEM_REAIS.total);
     expect(integral.total).toBe(CONTAGEM_REAIS.total);
   });
-  it('mantém a cadeia dos lotes sem contar os lotes históricos duas vezes', () => {
+  it('mantém a cadeia dos lotes e das curadorias sem recontar o histórico', () => {
     let total = 1529;
     for (const r of RELATORIOS_LOTES_REAIS) {
-      expect(r.novasQuestoes).toBe(300); expect(r.totalAntes).toBe(total);
-      total += 300; expect(r.totalDepois).toBe(total);
+      if (r.tipoRevisao === 'curadoria-lacunas') {
+        expect(r.novasQuestoes).toBeGreaterThan(0); expect(r.novasQuestoes).toBeLessThanOrEqual(300);
+      } else expect(r.novasQuestoes).toBe(300);
+      expect(r.totalAntes).toBe(total);
+      total += r.novasQuestoes; expect(r.totalDepois).toBe(total);
     }
     expect(total).toBe(QUESTOES_REAIS.length);
   });

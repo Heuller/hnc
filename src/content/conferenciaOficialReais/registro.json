@@ -7778,6 +7778,18 @@
       "versao_correta": "A disponibilização de ebooks impõe desafios aos bibliotecários e editores. Empréstimo digital e oferta de e-readers podem integrar alternativas de serviço, conforme as condições de acesso e licenciamento.",
       "versao_errada": "",
       "armadilhaBanca": "Identificar a quem o enunciado atribui o desafio. Uma solução possível na segunda parte não torna correta a primeira parte da afirmação."
+    },
+    "real-tec-4145303": {
+      "modulo": "M9",
+      "submoduloId": "9.2"
+    },
+    "real-tec-4145308": {
+      "modulo": "M9",
+      "submoduloId": "9.3"
+    },
+    "real-tec-346424": {
+      "modulo": "M8",
+      "submoduloId": "8.5"
     }
   }
 }

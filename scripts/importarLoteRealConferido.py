@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Integra 300 revisões autorais com evidência documental explícita.
+"""Integra lotes conferidos de 300 itens ou curadorias por lacunas de tamanho declarado.
 
 O script valida o manifesto; não produz comentários nem certifica sua verdade.
 Dados e conferências de lotes anteriores permanecem intactos.
@@ -24,12 +24,21 @@ def chave(texto):
     return re.sub('[^a-z0-9]', '', unicodedata.normalize('NFKD', texto.lower()).encode('ascii', 'ignore').decode())
 
 
-def integrar(manifesto, base, inline, anotacoes, perfis, referencias, registro):
+def integrar(manifesto, base, inline, anotacoes, perfis, referencias, registro, *, curadoria=False):
     if len(base) + len(inline) != manifesto['baseHistoricaEsperada'] or assinatura(base) != manifesto['sha256BaseJSON']:
         raise ValueError('O banco de origem mudou; refaça a conferência.')
     entradas = manifesto['questoes']
-    if len(entradas) != 300 or manifesto['quantidade'] != 300:
-        raise ValueError('São necessárias 300 revisões completas.')
+    quantidade = manifesto['quantidade'] if curadoria else 300
+    if curadoria:
+        if manifesto.get('tipoRevisao') != 'curadoria-lacunas' or type(quantidade) is not int or not 1 <= quantidade <= 300:
+            raise ValueError('Curadoria por lacunas inválida.')
+        objetivos = [e.get('curadoria', {}).get('objetivoId') for e in entradas]
+        if any(not isinstance(objetivo, str) or not objetivo.strip() for objetivo in objetivos) or len(set(objetivos)) != len(objetivos):
+            raise ValueError('A curadoria exige objetivos pedagógicos distintos.')
+        if any(not isinstance(e['curadoria'].get(k), str) or len(e['curadoria'][k].strip()) < 40 for e in entradas for k in ['ganhoPedagogico', 'comparacaoComBanco']):
+            raise ValueError('A curadoria exige justificativa de contribuição e comparação com o banco.')
+    if len(entradas) != quantidade or manifesto['quantidade'] != quantidade:
+        raise ValueError('São necessárias 300 revisões completas.' if not curadoria else 'Curadoria incompleta.')
     ativos_anteriores = [q for q in [*base, *inline] if registro['itens'].get(q['id'], {}).get('gabarito') != 'X' and (q.get('estadoConferencia') != 'caderno' or q['id'] in registro['itens'])]
     if len(ativos_anteriores) != manifesto['baseAtivaEsperada']:
         raise ValueError('A seleção ativa anterior mudou.')
@@ -96,16 +105,18 @@ def integrar(manifesto, base, inline, anotacoes, perfis, referencias, registro):
         evidencias.append({'id': id, **ev})
     for campo in ['justificativa', 'exemplo', 'contraste']:
         valores = [e['anotacao']['exemplo'] if campo == 'exemplo' else e['questao']['justificativa'] if campo == 'justificativa' else e['questao'].get('versao_correta' if e['questao']['gabarito'] == 'E' else 'versao_errada') for e in entradas]
-        if len(set(valores)) != 300:
+        if len(set(valores)) != quantidade:
             raise ValueError('Blocos repetidos: ' + campo)
     report = {k: manifesto[k] for k in ['lote', 'dataEditorial', 'criterio', 'apostilaEsquematizada', 'outrasFontes']}
-    report.update(novasQuestoes=300, totalAntes=manifesto['baseAtivaEsperada'], totalDepois=manifesto['baseAtivaEsperada'] + 300,
+    report.update(novasQuestoes=quantidade, totalAntes=manifesto['baseAtivaEsperada'], totalDepois=manifesto['baseAtivaEsperada'] + quantidade,
                   baseHistoricaAntes=manifesto['baseHistoricaEsperada'], sha256BaseJSON=manifesto['sha256BaseJSON'],
                   ids=[q['id'] for q in novas_questoes], porModulo=dict(Counter(q['modulo'] for q in novas_questoes)),
                   gabaritos=dict(Counter(q['gabarito'] for q in novas_questoes)),
                   confrontoNaOrigem=sum(e['modo'] == 'original' for e in evidencias), confrontoEmCopia=sum(e['modo'] == 'copia' for e in evidencias),
                   gabaritosCorrigidos=sum(e['resultado'] == 'corrigida' for e in evidencias),
                   conferencia={'fontes': manifesto['fontes'], 'itens': evidencias})
+    if curadoria:
+        report.update(tipoRevisao='curadoria-lacunas', objetivos=[{'id': e['questao']['id'], **e['curadoria']} for e in entradas])
     return novas_questoes, notas, novos_perfis, novas_referencias, {'fontes': fontes, 'itens': conferencias, 'editorial': {}}, report
 
 
@@ -115,12 +126,21 @@ def main():
     parser.add_argument('--write', action='store_true')
     parser.add_argument('--raiz', type=Path, default=Path.cwd())
     parser.add_argument('--numero-lote', type=int, default=6)
+    parser.add_argument('--curadoria', action='store_true', help='Quantidade variável, com justificativa de lacuna e objetivo distinto por item; não altera o contrato dos lotes de 300.')
     parser.add_argument('--fontes-conferidas', type=Path,
                         help='Registro de fontes adicionais já conferidas documentalmente; não gera nem valida a revisão conceitual.')
     args = parser.parse_args(); raiz = args.raiz
     if not 6 <= args.numero_lote <= 99:
         raise ValueError('Número de lote fora da sequência admitida.')
     ler = lambda p: json.loads((raiz/p).read_text())
+    manifesto = json.loads(args.manifesto.read_text())
+    if args.curadoria:
+        anteriores = set()
+        for arquivo in (raiz/'docs/simulados-reais').glob('CURADORIA-LACUNAS-*.json'):
+            if int(arquivo.stem.rsplit('-', 1)[1]) < args.numero_lote:
+                anteriores.update(o['objetivoId'] for o in json.loads(arquivo.read_text())['objetivos'])
+        if anteriores.intersection(e.get('curadoria', {}).get('objetivoId') for e in manifesto['questoes']):
+            raise ValueError('Objetivo pedagógico já priorizado em curadoria anterior; documente uma contribuição distinta.')
     codigo = (raiz/'src/content/questoesReais.ts').read_text()
     inline = [{'id': id, 'item': item} for id, item in re.findall(r"id: '([^']+)'[\s\S]*?\n\s*item: '([^']+)'", codigo)]
     if len(inline) != 4:
@@ -144,17 +164,18 @@ def main():
             if id in registro_anterior['fontes'] and registro_anterior['fontes'][id] != registro_fonte:
                 raise ValueError('Fonte adicional não pode substituir uma fonte anterior: ' + id)
             registro_anterior['fontes'][id] = registro_fonte
-    resultado = integrar(json.loads(args.manifesto.read_text()), base, inline,
+    resultado = integrar(manifesto, base, inline,
                          ler('src/content/estudoReversoReais/anotacoes.json'), ler('src/content/estudoReversoReais/perfis.json'),
-                         ler('src/content/estudoReversoReais/referencias.json'), registro_anterior)
+                         ler('src/content/estudoReversoReais/referencias.json'), registro_anterior, curadoria=args.curadoria)
     questoes, notas, perfis, referencias, registro, report = resultado
     if args.write:
         numero = f'{args.numero_lote:02d}'
+        prefixo = 'CURADORIA-LACUNAS' if args.curadoria else 'LOTE-300-ACERVO'
         for nome, objeto in [(f'src/content/questoesReaisLote{numero}.json', questoes), ('src/content/estudoReversoReais/anotacoes.json', notas),
                              ('src/content/estudoReversoReais/perfis.json', perfis), ('src/content/estudoReversoReais/referencias.json', referencias),
-                             (f'src/content/conferenciaOficialReais/lote{numero}.json', registro), (f'docs/simulados-reais/LOTE-300-ACERVO-{numero}.json', report)]:
+                             (f'src/content/conferenciaOficialReais/lote{numero}.json', registro), (f'docs/simulados-reais/{prefixo}-{numero}.json', report)]:
             p = raiz/nome; tmp = p.with_suffix('.json.tmp'); tmp.write_text(json.dumps(objeto, ensure_ascii=False, indent=2)+'\n'); tmp.replace(p)
-        with (raiz/f'docs/simulados-reais/LOTE-300-ACERVO-{numero}.csv').open('w', encoding='utf-8-sig', newline='') as f:
+        with (raiz/f'docs/simulados-reais/{prefixo}-{numero}.csv').open('w', encoding='utf-8-sig', newline='') as f:
             w = csv.writer(f, delimiter=';', lineterminator='\n'); w.writerow(['id', 'modulo', 'submodulo', 'gabarito', 'numero_oficial', 'pagina_prova', 'prova_url', 'gabarito_url'])
             for q, ev in zip(questoes, report['conferencia']['itens']):
                 w.writerow([q['id'], q['modulo'], q['submoduloId'], q['gabarito'], ev['numeroOficial'], ev['paginaProva'], ev['provaUrl'], ev['gabaritoUrl']])

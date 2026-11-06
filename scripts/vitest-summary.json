@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1074,
-  "numPassedTests": 1074,
+  "numTotalTests": 1080,
+  "numPassedTests": 1080,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 138,
-  "source": "vitest run: lote 10 de 300 questões reais, textos de apoio no M13, oito itens de Inglês e três adaptações de software; 3.029 itens ativos; 1.074 testes em 138 arquivos, 06/11/2026"
+  "testFiles": 139,
+  "source": "Vitest: curadoria por lacunas com 12 novos itens M7 e três reclassificações; 3.041 questões reais; 1.080 testes em 139 arquivos, 06/11/2026"
 }

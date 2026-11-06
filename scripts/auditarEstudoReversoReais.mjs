@@ -22,8 +22,25 @@ const visitar = n => {
 visitar(codigo);
 if (oficiais.length !== 4) throw new Error('Estrutura dos itens oficiais mudou; atualize a auditoria.');
 const numerosLotes = fs.readdirSync('src/content').flatMap(nome => nome.match(/^questoesReaisLote(\d+)\.json$/)?.[1] || []).sort();
-const lotes = numerosLotes.map(numero => ({ numero, questoes: ler(`src/content/questoesReaisLote${numero}.json`), registro: ler(`src/content/conferenciaOficialReais/lote${numero}.json`), relatorio: ler(`docs/simulados-reais/LOTE-300-ACERVO-${numero}.json`) }));
-for (const lote of lotes) if (lote.questoes.length !== 300 || lote.relatorio.novasQuestoes !== 300) throw new Error(`Lote incompleto: ${lote.numero}`);
+const lotes = numerosLotes.map(numero => {
+  const padrao = `docs/simulados-reais/LOTE-300-ACERVO-${numero}.json`;
+  const curado = `docs/simulados-reais/CURADORIA-LACUNAS-${numero}.json`;
+  if (fs.existsSync(padrao) === fs.existsSync(curado)) throw new Error(`Relatório ausente ou ambíguo: ${numero}`);
+  const curadoria = fs.existsSync(curado);
+  const relatorio = ler(curadoria ? curado : padrao);
+  return { numero, curadoria, questoes: ler(`src/content/questoesReaisLote${numero}.json`), registro: ler(`src/content/conferenciaOficialReais/lote${numero}.json`), relatorio };
+});
+for (const lote of lotes) {
+  const tamanho = lote.relatorio.novasQuestoes;
+  if (!Number.isInteger(tamanho) || tamanho < 1 || tamanho > 300 || lote.questoes.length !== tamanho || !lote.curadoria && tamanho !== 300) throw new Error(`Lote incompleto: ${lote.numero}`);
+  if (lote.curadoria && (lote.relatorio.tipoRevisao !== 'curadoria-lacunas' || lote.relatorio.objetivos?.length !== tamanho || new Set(lote.relatorio.objetivos.map(o => o.objetivoId)).size !== tamanho)) throw new Error(`Curadoria sem objetivos distintos: ${lote.numero}`);
+  if (lote.curadoria) {
+    const idsCurados = new Set(lote.questoes.map(q => q.id));
+    for (const objetivo of lote.relatorio.objetivos) {
+      if (!idsCurados.delete(objetivo.id) || !objetivo.objetivoId?.trim() || ['ganhoPedagogico', 'comparacaoComBanco'].some(k => typeof objetivo[k] !== 'string' || objetivo[k].trim().length < 40)) throw new Error(`Contribuição pedagógica inconsistente: ${lote.numero}`);
+    }
+  }
+}
 const origem = [...oficiais, ...ler('src/content/questoesReaisTriadas.json'), ...lotes.flatMap(l => l.questoes)];
 const ids = new Set(origem.map(q => q.id));
 if (ids.size !== origem.length || Object.keys(anotacoes).length !== ids.size || Object.keys(anotacoes).some(id => !ids.has(id))) throw new Error('IDs duplicados ou anotações órfãs.');
@@ -78,6 +95,8 @@ const questoes = origem.filter(q => conferencia.itens[q.id]?.gabarito !== 'X' &&
 });
 const linhas = [];
 const porModulo = {};
+const porSubmodulo = {};
+const porPerfil = {};
 for (const q of questoes) {
   const a = anotacoes[q.id];
   const p = a && perfis[a.perfil];
@@ -88,6 +107,8 @@ for (const q of questoes) {
   const conferencia = q.estadoConferencia === 'caderno' ? 'Atribuição e gabarito no caderno; confronto oficial pendente' : q.estadoConferencia === 'copia-oficial' ? 'Documentos oficiais conferidos em cópia; espelho identificado' : 'Prova e gabarito oficiais confrontados na origem';
   linhas.push([q.id, q.modulo, q.submoduloId, q.gabarito, a.perfil, a.gatilho, p.titulo, p.regra, q.justificativa, a.exemplo || p.exemplo, contraste, [p.tecnica, q.armadilhaBanca].filter(Boolean).join(' '), r.titulo, r.localizador, r.url || '', conferencia]);
   porModulo[q.modulo] = (porModulo[q.modulo] || 0) + 1;
+  porSubmodulo[q.submoduloId] = (porSubmodulo[q.submoduloId] || 0) + 1;
+  porPerfil[a.perfil] = (porPerfil[a.perfil] || 0) + 1;
 }
 const cabecalho = ['id', 'modulo', 'submodulo', 'gabarito', 'perfil_conceitual', 'trecho_decisivo', 'conceito', 'regra', 'aplicacao_ao_item', 'exemplo', 'comparacao_didatica', 'tecnica', 'referencia_teorica', 'localizador', 'url_teorica', 'conferencia_da_origem'];
 const csv = [cabecalho, ...linhas].map(l => l.map(s => `"${String(s).replaceAll('"', '""')}"`).join(';')).join('\n') + '\n';
@@ -96,7 +117,7 @@ const resumo = {
   anotacoesIndividuais: questoes.length, anotacoesHistoricas: Object.keys(anotacoes).length,
   excluidasPorAnulacao: Object.values(conferencia.itens).filter(q => q.gabarito === 'X').length,
   excluidasPorPendenciaDocumental: semDocumento.length, explicacoesConceituais: Object.keys(perfis).length,
-  referenciasTeoricas: Object.keys(referencias).length, porModulo,
+  referenciasTeoricas: Object.keys(referencias).length, porModulo, porSubmodulo, porPerfil,
   exemplosIndividuais: questoes.filter(q => anotacoes[q.id].exemplo).length,
   oficiaisConfrontadas: questoes.filter(q => !q.estadoConferencia).length,
   documentosOficiaisEmCopia: questoes.filter(q => q.estadoConferencia === 'copia-oficial').length,

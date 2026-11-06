@@ -891,5 +891,25 @@
     "titulo": "Celina Souza — Coordenação de políticas públicas. ENAP, 2018",
     "localizador": "Coordenação, atores, interdependência, redes e implementação de políticas públicas.",
     "url": "https://repositorio.enap.gov.br/bitstream/1/3329/1/Livro_Coordena%C3%A7%C3%A3o%20de%20pol%C3%ADticas%20p%C3%BAblicas.pdf"
+  },
+  "lacunas-papel-loc": {
+    "titulo": "Library of Congress — Care, Handling, and Storage of Works on Paper",
+    "localizador": "Cuidados, manuseio, invólucros e armazenamento; evitar luz direta, clipes e adesivos inadequados.",
+    "url": "https://www.loc.gov/preservation/care/paper.html"
+  },
+  "lacunas-pragas-cci": {
+    "titulo": "Canadian Conservation Institute — Agents of Deterioration: Pests",
+    "localizador": "Detect; diagnostic signs; equipment for detecting pests; integrated pest management.",
+    "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/pests.html"
+  },
+  "lacunas-fogo-cci": {
+    "titulo": "Canadian Conservation Institute — Agent of Deterioration: Fire",
+    "localizador": "Fire protection equipment and systems; fire suppression; avaliar eficácia, riscos e compatibilidade da proteção.",
+    "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/fire.html"
+  },
+  "lacunas-bn-preservacao": {
+    "titulo": "Fundação Biblioteca Nacional — Preservação",
+    "localizador": "Conservação preventiva, higienização e pequenos reparos: reforço com papel japonês e metilcelulose.",
+    "url": "https://www.gov.br/bn/pt-br/acesso-a-informacao-2/institucional/sobre-a-fbn/competencias-e-atividades/preservacao"
   }
 }
