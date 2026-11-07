@@ -1718,5 +1718,29 @@
     "tecnica": "Técnica: Finalidade e disfunção. Distingua o objetivo de uma regra, seu desvio prático e a proposta de reforma.",
     "contrasteErrado": "Gestão por resultados dispensa legalidade e controle, enquanto toda regra burocrática é necessariamente uma disfunção.",
     "referencia": "adm-modelos-historia-12"
+  },
+  "competencias-bibliotecario-13": {
+    "titulo": "Formação do bibliotecário: competências e exercício profissional",
+    "regra": "As competências curriculares orientam o que a formação deve desenvolver: compreender problemas, investigar, propor soluções, planejar, executar e avaliar recursos, produtos e serviços informacionais. Isso é diferente de definir por lei quais atividades são privativas e quais requisitos habilitam ao exercício profissional.",
+    "exemplo": "Ao elaborar um guia de fontes jurídicas, a bibliotecária estuda a demanda, examina fontes, planeja a apresentação, produz o guia e avalia se ele ajuda o público. A formação sustenta esse percurso; a reserva legal de determinada atividade precisa de fundamento próprio.",
+    "tecnica": "Técnica: Perfil formativo confundido com tarefa isolada ou reserva profissional. Identifique se o comando trata de diretriz curricular, requisito de habilitação ou atribuição legal.",
+    "contrasteErrado": "As competências curriculares se limitam à execução mecânica e tornam automaticamente privativa toda atividade de planejamento feita por qualquer profissional.",
+    "referencia": "formacao-bib-cne-13"
+  },
+  "bibliografia-escalas-13": {
+    "titulo": "Bibliografia em Egan e Shera: perspectivas microcósmica e macrocósmica",
+    "regra": "A perspectiva microcósmica observa cada bibliografia como ferramenta para necessidades delimitadas. A macrocósmica situa a bibliografia no processo de comunicação, associado à organização e à ação social. A diferença é a escala analítica e a relação com o fluxo de conhecimento; não é uma classificação por quantidade de páginas.",
+    "exemplo": "Avaliar se uma bibliografia de preservação atende a um grupo de restauradores focaliza uma ferramenta. Estudar como os repertórios conectam produtores, instituições e leitores no fluxo social da informação amplia a perspectiva para o processo de comunicação.",
+    "tecnica": "Técnica: Troca da escala da análise. Separe o instrumento delimitado e seu papel no conjunto da comunicação; uma palavra como global não basta sem compreender a relação descrita.",
+    "contrasteErrado": "A perspectiva microcósmica trata a bibliografia como parte do processo global de comunicação, enquanto a macrocósmica examina cada lista como ferramenta isolada.",
+    "referencia": "egan-shera-1952-13"
+  },
+  "associacao-medidas-13": {
+    "titulo": "Regras de associação: suporte, confiança e denominadores",
+    "regra": "Para A→B, suporte mede a proporção de transações com A e B entre todas as transações. Confiança mede a proporção com A e B entre as que contêm A: suporte(A∪B)/suporte(A). Trocar o denominador troca a pergunta respondida. Associação e confiança alta não demonstram causalidade.",
+    "exemplo": "Em dez empréstimos conjuntos, cinco incluem catalogação e quatro desses cinco incluem indexação. O suporte do par é 4/10, ou 40%; a confiança de catalogação→indexação é 4/5, ou 80%. A regra inversa pode ter confiança diferente se indexação ocorrer em outro número de empréstimos.",
+    "tecnica": "Técnica: Frequência conjunta apresentada como probabilidade condicional. Antes de calcular, escreva o que entra no numerador e qual conjunto serve de denominador.",
+    "contrasteErrado": "A confiança de A→B é a frequência do par A e B dividida por todas as transações, independentemente de quantas contêm A.",
+    "referencia": "associacao-confianca-13"
   }
 }

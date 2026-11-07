@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1087,
-  "numPassedTests": 1087,
+  "numTotalTests": 1095,
+  "numPassedTests": 1095,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 140,
-  "source": "Vitest: 1.087 testes aprovados em 140 arquivos; curadoria 12 com 300 inclusões, 3.341 questões reais e mini-módulo M2.5, 07/11/2026."
+  "testFiles": 141,
+  "source": "Vitest: 1.095 testes aprovados em 141 arquivos; curadoria 13 com 128 inclusões, 3.469 questões reais e acompanhamento da meta de 200 por módulo, 07/11/2026."
 }

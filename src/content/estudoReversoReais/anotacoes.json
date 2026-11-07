@@ -16541,5 +16541,773 @@
     "gatilho": "isolado por vírgulas",
     "exemplo": "Leia a sequência histórias, imagens e não fatos novos dentro da pergunta completa. A negação participa da oposição entre fabricação e fato. Tratar automaticamente o trecho como comentário incidental pode mudar sua relação com os termos coordenados.",
     "referencia": "portugues-manual-10"
+  },
+  "real-fonte-3d05e7f8229b-56": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "especialização técnica",
+    "exemplo": "Uma biblioteca encontra uma fotografia sobre metal e outra em papel com camada de albumina. Não deve aplicar automaticamente o mesmo método de limpeza ou umidificação a ambas; primeiro identifica materiais e técnica de produção.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-3d05e7f8229b-59": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "reservas técnicas visitáveis",
+    "exemplo": "Uma biblioteca oferece visita orientada à reserva de obras raras. Define percurso, número de visitantes e condições de iluminação, mantendo a proteção dos materiais. Abrir o espaço ao público não significa autorizar cada visitante a retirar livremente uma obra da estante.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-3d05e7f8229b-61": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "consequentemente",
+    "exemplo": "Um casarão restaurado recebe uma coleção de livros, mas mantém infiltração junto à sala de guarda e incidência solar intensa nas estantes. A aparência recuperada da fachada não comprova condições adequadas para os documentos.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-3d05e7f8229b-62": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "compensa os riscos",
+    "exemplo": "Uma obra rara traria visibilidade à instituição, mas apresenta dano ativo e não suporta o transporte previsto. A equipe pode negar o empréstimo, negociar outra forma de participação ou oferecer reprodução, em vez de presumir que divulgação justifica o risco.",
+    "referencia": "lacunas-bn-preservacao"
+  },
+  "real-fonte-3d05e7f8229b-65": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "oscilações bruscas",
+    "exemplo": "Uma obra com papel, adesivo e suporte rígido viaja de um ambiente para outro muito diferente. A equipe considera acondicionamento e condições de transição, pois os componentes podem responder de maneira desigual à mudança de clima.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-57f4861d26fd-91": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "diagnóstico",
+    "exemplo": "Um conservador identifica fragilidade nos objetos; um profissional da área predial examina infiltrações e circulação; a equipe de guarda explica como o manuseio ocorre no cotidiano. O diagnóstico melhora quando as informações se encontram.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-3570102ebc9d-98": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "todos os documentos",
+    "exemplo": "A instituição distingue documentos de guarda permanente e registros de uso transitório. Define requisitos de produção e armazenamento conforme a avaliação; não conclui que trocar o papel de todos os impressos resolve por si só a preservação futura.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-8ee28efb7958-112": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "58% e 68%",
+    "exemplo": "Uma sala oscila diariamente entre valores muito diferentes de umidade. Mesmo que uma leitura isolada pareça aceitável, a equipe precisa investigar a amplitude e a causa da oscilação, além do tempo em condições favoráveis a fungos.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-0b177065a583-19": {
+    "perfil": "ingles-leitura",
+    "gatilho": "into data",
+    "exemplo": "Pense em usar registros de voos para criar uma imagem. Os dados geram a representação; não se começa medindo a emoção da imagem para produzir os registros de voos. Localizar origem e resultado ajuda a reconhecer a inversão.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-21": {
+    "perfil": "ingles-leitura",
+    "gatilho": "questions",
+    "exemplo": "Um especialista pode acrescentar uma explicação sobre o processo sem estar contestando a existência ou o valor da obra. Ao ler adds, identifique o conteúdo acrescido antes de transformar a fala em dúvida ou objeção.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-22": {
+    "perfil": "ingles-marcadores",
+    "gatilho": "nonetheless",
+    "exemplo": "Ainda emergente, a técnica existe, mesmo assim, há décadas. Esse contraste não é uma sequência temporal de primeiro surgir e depois existir, nem uma causa pela qual ela exista. O marcador orienta como relacionar as duas afirmações.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-23": {
+    "perfil": "ingles-leitura",
+    "gatilho": "humanity",
+    "exemplo": "Imagine um desenho que transforma milhares de trajetos em padrões de deslocamento de pessoas. Ele permite enxergar aspectos da vida humana por meio dos dados, que é a função do exemplo naquele argumento.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-24": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "interchangeable",
+    "exemplo": "Todo romance é uma forma de literatura, mas literatura não significa sempre romance. Do mesmo modo, data art pertence à arte digital sem esgotar todas as suas categorias. A relação de inclusão não torna os termos intercambiáveis.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-25": {
+    "perfil": "ingles-leitura",
+    "gatilho": "not suffered prejudice",
+    "exemplo": "A frase apesar de ser reconhecida, ela enfrenta preconceito conserva os dois fatos. Dizer por ser reconhecida, não sofreu preconceito muda a relação e elimina justamente o problema que o texto apresenta.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-27": {
+    "perfil": "ingles-leitura",
+    "gatilho": "main point",
+    "exemplo": "Se o leitor resumir o texto apenas como a história de uma programadora famosa, perde a ligação com as pioneiras e com o preconceito. Um bom resumo preserva o contraste que organiza os exemplos e a explicação histórica.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-28": {
+    "perfil": "ingles-leitura",
+    "gatilho": "were dismissed",
+    "exemplo": "Uma nova máquina pode ameaçar uma atividade antiga, mas o texto relata que as profissionais também programaram a nova tecnologia. Distinguir ameaça anunciada e resultado efetivamente narrado evita a conclusão de que elas desapareceram nesse momento.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-29": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "street cred",
+    "exemplo": "Um artigo pode falar de tecnologia e, ao descrever reputação profissional, empregar uma expressão próxima de ter moral naquele meio. Para reconhecer o registro, observe o uso idiomático e sua convivência com a explicação formal.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-0b177065a583-30": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "dull",
+    "exemplo": "Leia o trabalho era considerado entediante, motivo que ajuda a entender sua desvalorização naquele momento. Traduzir dull como sem ponta, sem examinar work, escolheria um sentido possível da palavra em outro contexto, mas inadequado aqui.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-31f713a098c9-14": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "restrained",
+    "exemplo": "As restrições de viagem podem ter levado mais pessoas aos cursos online. O substantivo restrições não obriga o verbo relacionado ao efeito sobre os cursos a significar restringiu; aqui, esses fatores favoreceram o crescimento da modalidade.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-31f713a098c9-15": {
+    "perfil": "ingles-leitura",
+    "gatilho": "definitive list of countries",
+    "exemplo": "O autor diz que tenta incluir o maior número possível de plataformas e não consegue indexar todas. Essa explicação não autoriza descrevê-la como catálogo definitivo de países; procure simultaneamente o objeto enumerado e o limite declarado.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-31f713a098c9-16": {
+    "perfil": "ingles-leitura",
+    "gatilho": "during",
+    "exemplo": "Um relatório pode dizer que a plataforma chegou a um acumulado de 220 milhões e recebeu 40 milhões naquele ano. Não se deve atribuir o acumulado inteiro ao último ano só porque os dois valores aparecem no mesmo parágrafo.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-31f713a098c9-17": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "short for",
+    "exemplo": "Ao ler um catálogo de cursos, MOOCs, short for massive open online courses explica o nome abreviado. Perguntar que palavras essa sigla representa é o teste adequado, sem traduzir short como cursos de curta duração.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-932967cc9d2b-61": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "segurança da edificação",
+    "exemplo": "Uma biblioteca separa circulação pública e depósito, registra acesso à reserva e avalia as entradas do edifício. Essas decisões integram a preservação, mesmo sem aplicar produtos de conservação sobre uma única folha.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-62": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "pequenas áreas",
+    "exemplo": "Uma sala refrigerada fica ao lado de um corredor quente e úmido. A equipe precisa estudar as trocas de ar e o risco de condensação, em vez de concluir que uma sala pequena necessariamente protege o acervo e o prédio.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-64": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "Antes",
+    "exemplo": "Uma doação chega com caixas sujas e sinais de insetos. Antes de colocá-la entre as coleções, a equipe realiza triagem e encaminha as medidas adequadas, sem confundir aceitação bibliográfica com liberação física para o depósito.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-66": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "rotinas",
+    "exemplo": "O atendente orienta o apoio de um volume, o usuário evita forçar a lombada e a equipe devolve o livro sem comprimir suas bordas. A soma desses procedimentos rotineiros reduz riscos que um plano escrito, sozinho, não controla.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-67": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "cada um desses usos",
+    "exemplo": "Um atlas aberto repetidamente em aulas exige cuidados diferentes de uma obra consultada raramente em reserva. A equipe observa a maneira de usar cada material, sem concluir que o volume menos emprestado deixou de merecer preservação.",
+    "referencia": "lacunas-bn-preservacao"
+  },
+  "real-fonte-932967cc9d2b-68": {
+    "perfil": "direitos",
+    "gatilho": "direitos autorais",
+    "exemplo": "Uma biblioteca organiza reprodução de obras para pesquisa. Analisa o estado do material, o modo de captura, o volume de solicitações e as condições jurídicas. Um procedimento tecnicamente seguro não cria automaticamente autorização para distribuir a obra inteira.",
+    "referencia": "direitos"
+  },
+  "real-fonte-932967cc9d2b-69": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "deve ser abolida",
+    "exemplo": "Forçar um livro frágil contra o vidro de uma copiadora pode romper a lombada. A equipe avalia outro equipamento, suporte de captura ou forma de acesso. Isso não equivale a declarar que nenhuma folha em condição adequada possa ser reproduzida.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-82": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "sempre na vertical",
+    "exemplo": "Um grande álbum não cabe de modo estável na prateleira comum. A biblioteca avalia guarda horizontal e apoio compatível, em vez de mantê-lo pendurado pela lombada só para conservar uma fila vertical aparentemente uniforme.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-83": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "não reduz o impacto",
+    "exemplo": "Uma mudança rápida da umidade no ambiente não se transmite necessariamente com a mesma velocidade ao objeto dentro de um invólucro adequado. Essa proteção passiva complementa o monitoramento; não autoriza abandonar o controle ambiental.",
+    "referencia": "papel-cci-13"
+  },
+  "real-fonte-932967cc9d2b-84": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "etiquetagem",
+    "exemplo": "Uma etiqueta aplicada com adesivo inadequado pode manchar a capa ou deixar resíduo. A equipe escolhe procedimento apropriado para o tipo de item, em vez de colar qualquer rótulo na área mais visível da obra.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-89": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "não podem integrar",
+    "exemplo": "Um folheto de evento local foi produzido para durar poucos dias, mas tornou-se registro raro da memória da comunidade. A biblioteca pode avaliar sua incorporação e acondicionamento, sem descartá-lo só porque o papel é barato.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-932967cc9d2b-93": {
+    "perfil": "preservacao-pragas",
+    "gatilho": "pontos de entrada",
+    "exemplo": "A equipe detecta insetos perto de uma porta com frestas e resíduos de alimentos. Além de proteger os itens afetados, corrige a vedação e a rotina de limpeza. Pulverizar o livro e manter a origem do problema não constitui gestão integrada.",
+    "referencia": "lacunas-pragas-cci"
+  },
+  "real-fonte-932967cc9d2b-94": {
+    "perfil": "preservacao-pragas",
+    "gatilho": "tratamentos químicos",
+    "exemplo": "Uma infestação ativa persiste apesar das medidas preventivas. A instituição chama especialistas para definir a resposta adequada, em vez de entregar inseticida comum à equipe e tratar indiscriminadamente as estantes.",
+    "referencia": "lacunas-pragas-cci"
+  },
+  "real-fonte-932967cc9d2b-97": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "envelhecimento artificial",
+    "exemplo": "Um laboratório compara amostras de papéis submetidas ao mesmo protocolo e mede como mudam resistência e composição. O resultado depende das condições do teste e não dispensa verificar se o mecanismo estudado representa o envelhecimento real.",
+    "referencia": "envelhecimento-loc-13"
+  },
+  "real-fonte-932967cc9d2b-99": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "procedência",
+    "exemplo": "Um papel pode trazer componentes instáveis de fabricação e permanecer junto a um invólucro inadequado. Trocar o invólucro remove uma fonte externa, mas não transforma automaticamente a composição interna do documento.",
+    "referencia": "papel-cci-13"
+  },
+  "real-fonte-932967cc9d2b-102": {
+    "perfil": "preservacao-ambiente",
+    "gatilho": "hidrofobicidade",
+    "exemplo": "Uma folha pode absorver umidade e mudar de comportamento quando o ambiente varia. O estudante não precisa decorar toda a estrutura molecular para reconhecer que atribuir repulsão à água aos grupos OH contraria o mecanismo relevante para a conservação.",
+    "referencia": "papel-cci-13"
+  },
+  "real-fonte-932967cc9d2b-103": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "ácido fosfórico",
+    "exemplo": "Um manuscrito apresenta perda e fissuras ao longo de traços de tinta. O conservador examina a hipótese de corrosão ferrogálica e sua extensão, sem tratar toda mancha castanha como fungo nem aplicar água indiscriminadamente.",
+    "referencia": "papel-cci-13"
+  },
+  "real-fonte-932967cc9d2b-104": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "diagnóstico",
+    "exemplo": "A equipe registra rasgos, perdas, manchas e características da encadernação antes da intervenção. As imagens ajudam a avaliar depois o que mudou, em vez de depender da memória ou de uma fotografia final sem referência inicial.",
+    "referencia": "lacunas-bn-preservacao"
+  },
+  "real-fonte-932967cc9d2b-105": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "permeância",
+    "exemplo": "Um papel muito branco pode ter comportamento mecânico inadequado para determinado uso. Outro pode resistir à tração e ainda responder mal a rasgos. A avaliação considera a finalidade e as propriedades pertinentes, em vez de escolher só pela aparência.",
+    "referencia": "papel-cci-13"
+  },
+  "real-fonte-932967cc9d2b-106": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "circunstâncias particulares",
+    "exemplo": "Com recursos limitados, a instituição pode priorizar uma peça única com dano ativo e melhorar a guarda de muitas outras. Restaurar uma obra não torna obrigatório submeter todas as peças ao mesmo procedimento invasivo.",
+    "referencia": "lacunas-bn-preservacao"
+  },
+  "real-fonte-932967cc9d2b-110": {
+    "perfil": "preservacao-intervencoes",
+    "gatilho": "mesma resistência",
+    "exemplo": "Um livro submetido a abertura e consulta intensas exige avaliar sua estrutura. Escolher só pelo tempo de execução pode resultar em folhas que se soltam; por outro lado, não se deve declarar que todo adesivo seja proibido em qualquer encadernação.",
+    "referencia": "papel-cci-13"
+  },
+  "real-fonte-932967cc9d2b-111": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "limita-se",
+    "exemplo": "Ao examinar um livro, a equipe observa se o couro cobre só lombada e cantos ou todo o exterior. Essa descrição evita chamar de meia encadernação uma estrutura inteiramente revestida, sem presumir que couro signifique resistência ilimitada.",
+    "referencia": "papel-cci-13"
+  },
+  "real-fonte-932967cc9d2b-115": {
+    "perfil": "preservacao-preventiva",
+    "gatilho": "muitas vezes",
+    "exemplo": "Uma biblioteca compra suportes de leitura, mas ninguém orienta os usuários a utilizá-los. Uma ação de formação e acompanhamento pode tornar o investimento efetivo e evitar danos, em vez de acumular equipamentos sem uso adequado.",
+    "referencia": "lacunas-papel-loc"
+  },
+  "real-fonte-64b6812a1fd8-1": {
+    "perfil": "port-leitura",
+    "gatilho": "participação ativa",
+    "exemplo": "Uma descoberta de um pesquisador pode motivar a criação de uma biblioteca especializada; isso não permite afirmar que ele redigiu o projeto ou participou da fundação. Separe influência contextual de atuação narrada.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-64b6812a1fd8-2": {
+    "perfil": "port-leitura",
+    "gatilho": "enquanto",
+    "exemplo": "Em um relatório, a frase «nesse ambiente, a comissão ganhou novos argumentos» pressupõe uma atuação que se fortalece com os acontecimentos descritos. Monte uma pequena linha do tempo antes de avaliar «enquanto».",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-64b6812a1fd8-3": {
+    "perfil": "port-leitura",
+    "gatilho": "estratégico",
+    "exemplo": "Se uma área aparece ligada à defesa, a investimentos governamentais e à criação de um órgão nacional, é possível inferir relevância estratégica. A conclusão deve reunir pistas do texto, sem depender de conhecimentos externos sobre política nuclear.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-64b6812a1fd8-5": {
+    "perfil": "port-sintaxe",
+    "gatilho": "em maio de 1949",
+    "exemplo": "Reduza o período: «Segundo os depoimentos, em maio de 1949, Dutra enviou um anteprojeto». A data continua ligada ao envio. Esse procedimento ajuda a desfazer a impressão causada pelo longo trecho sobre a coletânea.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-64b6812a1fd8-7": {
+    "perfil": "port-sintaxe",
+    "gatilho": "César Lattes",
+    "exemplo": "Reescreva: «A descoberta elucidou problemas e confirmou a teoria». O teste revela o sujeito dos dois predicados. Não transporte automaticamente o sujeito da oração principal para uma oração relativa.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-64b6812a1fd8-9": {
+    "perfil": "port-sintaxe",
+    "gatilho": "após “bastante”",
+    "exemplo": "Compare «A evidência foi suficiente para confirmar a hipótese». Não se escreve «foi suficiente, para confirmar» nesse arranjo. Trocar bastante por suficiente ajuda a enxergar a unidade que a vírgula separaria.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-64b6812a1fd8-10": {
+    "perfil": "port-morfologia",
+    "gatilho": "nasceu",
+    "exemplo": "«Depois de longa tramitação, surgia a biblioteca» e «depois de longa tramitação, surgiu a biblioteca» são construções coerentes. A primeira aproxima o leitor do processo; a segunda registra sua conclusão.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-1": {
+    "perfil": "port-leitura",
+    "gatilho": "acabou dormindo",
+    "exemplo": "Ao resumir uma narrativa, liste desejo, tentativa e resultado: queria assistir; vigiou; dormiu; acordou depois. Esse encadeamento impede concluir que a personagem realizou sua intenção apenas porque a anunciou.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-2": {
+    "perfil": "port-coesao",
+    "gatilho": "terceiro período",
+    "exemplo": "Em uma crônica, uma promessa no início pode reaparecer como comentário irônico no final. Marque a expressão «maneira de olhar» nas duas passagens e compare a expectativa inicial com o resultado.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-3": {
+    "perfil": "port-coesao",
+    "gatilho": "a “ano”",
+    "exemplo": "Teste a substituição: «se o menino não se deitasse» é coerente; «se o ano não se deitasse» distorce o episódio. O antecedente deve atender à ligação textual e ao papel semântico, não apenas estar perto.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-4": {
+    "perfil": "port-norma-uso",
+    "gatilho": "facultativo",
+    "exemplo": "«A biblioteca abrirá à hora marcada» mantém a locução temporal. Compare com «entreguei o livro a minha colega/à minha colega», construção de outra natureza na qual pode haver facultatividade do artigo antes do possessivo.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-5": {
+    "perfil": "port-sintaxe",
+    "gatilho": "vigia do réveillon",
+    "exemplo": "«A bibliotecária ali ficou, responsável pelo plantão» pode ser reorganizado como «a bibliotecária ali, responsável pelo plantão, ficou». As duas vírgulas delimitam a expressão intercalada, que não passa a caracterizar o lugar.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-6": {
+    "perfil": "port-sintaxe",
+    "gatilho": "o menino",
+    "exemplo": "«Solicitei-lhe uma resposta» equivale a «solicitei ao estudante uma resposta». Trocar por «solicitei o estudante uma resposta» elimina uma preposição necessária e compromete a construção.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-7": {
+    "perfil": "port-sintaxe",
+    "gatilho": "se suprimisse a vírgula",
+    "exemplo": "Em «A professora, que explicou o caso, voltou à sala», apagar só a primeira vírgula não equivale a converter adequadamente a oração em restritiva. Revise sempre quais sinais a questão manda retirar.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-8": {
+    "perfil": "port-leitura",
+    "gatilho": "descobrir",
+    "exemplo": "Em «devassar os segredos do manuscrito», o verbo pode indicar descobrir ou investigar profundamente. Leia o complemento «o mistério» para selecionar o sentido adequado, em vez de escolher a primeira acepção lembrada.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-9": {
+    "perfil": "port-morfologia",
+    "gatilho": "indagações",
+    "exemplo": "Em «A criança perguntou: “Ele passou?”», a pontuação separa a fala da personagem da voz de quem narra. Avalie as ocorrências citadas; não rejeite o item apenas porque aspas também podem indicar ironia em outro trecho.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-10": {
+    "perfil": "port-leitura",
+    "gatilho": "talvez",
+    "exemplo": "«Decerto ele devolverá o livro» apresenta confiança; «talvez ele devolva o livro» apresenta possibilidade e normalmente pede subjuntivo nessa construção. Ao julgar a troca, confira tanto o grau de certeza como a forma verbal.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-11": {
+    "perfil": "port-morfologia",
+    "gatilho": "modo subjuntivo",
+    "exemplo": "«A reunião terminara sem que o aluno percebesse» combina um fato anterior narrado como ocorrido com uma oração subordinada no subjuntivo. Identifique cada forma separadamente antes de atribuir um modo ao período inteiro.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-15": {
+    "perfil": "port-leitura",
+    "gatilho": "Tesla já havia feito",
+    "exemplo": "Em «Ana criou o catálogo; Bruno publicou o manual; ambos modernizaram a biblioteca», não se pode atribuir o manual a Ana. Marque em pares cada pessoa e sua ação para detectar a troca de agente.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-17": {
+    "perfil": "port-sintaxe",
+    "gatilho": "por onde",
+    "exemplo": "Compare «A feira que aconteceu em maio» com «O salão onde aconteceu a feira». Na primeira construção, a feira é sujeito; na segunda, salão é o lugar e a feira continua sendo o sujeito de aconteceu.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-0b177065a583-18": {
+    "perfil": "port-sintaxe",
+    "gatilho": "uma vírgula",
+    "exemplo": "«O manuscrito — que estava protegido — foi consultado» pode usar vírgulas no lugar do par de travessões. No trecho da prova, a explicação chega ao fim da frase; o ponto encerra o segmento iniciado pelo travessão.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-1": {
+    "perfil": "port-sintaxe",
+    "gatilho": "por bizarro",
+    "exemplo": "Reordene: «A escolha desse objeto de estudo parece bizarra». A forma feminina fica evidente. Compare com «Parece bizarro escolher esse objeto», em que o sujeito é uma oração e a construção é outra.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-2": {
+    "perfil": "port-leitura",
+    "gatilho": "juízo de valor",
+    "exemplo": "«A reunião ocorreu ontem» informa um fato; «a desconfortável reunião ocorreu ontem» acrescenta avaliação. Observe os adjetivos e advérbios que orientam como o leitor deve perceber a informação apresentada.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-4": {
+    "perfil": "port-leitura",
+    "gatilho": "substituição",
+    "exemplo": "Uma biblioteca pode ser «também um espaço de convivência» sem deixar de ser um serviço de informação. Ao ler também, teste se o item preserva a acumulação ou inventa uma troca entre categorias.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-5": {
+    "perfil": "port-leitura",
+    "gatilho": "seus efeitos",
+    "exemplo": "Para conferir uma paráfrase enumerativa, faça pares: «quem» corresponde a pessoas; «o quê», a objeto; «consequências», a efeitos. Se todos os componentes continuam e nenhum é extrapolado, a reorganização pode ser fiel.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-6": {
+    "perfil": "port-sintaxe",
+    "gatilho": "complemento",
+    "exemplo": "Reordene: «Falar de manutenção seria mais preciso». Pergunte o que seria mais preciso; a resposta é a oração infinitiva. Esse teste ajuda em construções semelhantes, como «é necessário estudar» e «é conveniente revisar».",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-7": {
+    "perfil": "port-sintaxe",
+    "gatilho": "coordenadas",
+    "exemplo": "«Quanto maior o acervo, maior a necessidade de organização» expressa proporção. Compare com «o acervo cresceu, mas a equipe diminuiu», em que mas introduz contraste entre orações coordenadas.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-8": {
+    "perfil": "port-coesao",
+    "gatilho": "o enunciador",
+    "exemplo": "Em «a autora quer que suas ideias sejam aceitas e que ela seja reconhecida pelos leitores», suas e ela apontam para autora. Identifique primeiro quem fala e quem recebe a fala; depois confira cada retomada.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-10": {
+    "perfil": "port-morfologia",
+    "gatilho": "dissertativo-expositivo",
+    "exemplo": "Um capítulo que explica o que é um catálogo é expositivo, embora possa convencer o leitor de sua importância. Classifique a organização predominante do texto, observando se explica, narra acontecimentos ou prescreve ações.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-11": {
+    "perfil": "port-morfologia",
+    "gatilho": "tiveram início no passado",
+    "exemplo": "«A água ferve sob certas condições» enuncia uma propriedade; «estudo aqui desde janeiro» situa uma atividade com início anterior. As duas frases usam presente, mas só a segunda explicita continuidade desde o passado.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-12": {
+    "perfil": "port-sintaxe",
+    "gatilho": "indetermina o sujeito",
+    "exemplo": "«Podem-se consultar os catálogos» equivale a «os catálogos podem ser consultados». O plural do verbo e a transformação para a passiva analítica ajudam a distinguir essa construção de «precisa-se de técnicos», com sujeito indeterminado.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-31f713a098c9-13": {
+    "perfil": "port-norma-uso",
+    "gatilho": "facultativo",
+    "exemplo": "Substitua por um masculino: «está ligado ao convívio social». O aparecimento de ao evidencia preposição e artigo. O teste é útil aqui porque mantém uma estrutura equivalente e um substantivo usado com artigo.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-1": {
+    "perfil": "port-leitura",
+    "gatilho": "discordância parcial",
+    "exemplo": "«O manual explica que o risco não depende só da idade, mas das condições de guarda» não significa que quem cita o manual discorde dele. O contraste pode ocorrer dentro da ideia citada e ser usado como argumento de apoio.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-2": {
+    "perfil": "port-leitura",
+    "gatilho": "padrões da moda",
+    "exemplo": "«A instituição precisa vestir uma nova postura» não relata a troca de uniforme dos servidores. Primeiro identifique o domínio figurado da comparação e só depois verifique o que o texto afirma sobre fatos históricos.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-3": {
+    "perfil": "port-leitura",
+    "gatilho": "maior diversidade",
+    "exemplo": "«Os serviços atuais são diversos dos antigos» pode significar que são diferentes, mesmo que o número de serviços tenha diminuído. Não transforme automaticamente diversos de em mais diversos que.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-4": {
+    "perfil": "port-leitura",
+    "gatilho": "quase paralisar",
+    "exemplo": "Uma reorganização do catálogo pode ser inevitável e, ao mesmo tempo, deixar a equipe sem saber como agir. A hesitação da equipe não interrompe o processo externo; essa tensão ajuda a compreender a imagem do texto.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-5": {
+    "perfil": "port-leitura",
+    "gatilho": "fora do controle",
+    "exemplo": "Temer a aproximação de uma tempestade não impede que ela aconteça; preparar a proteção do acervo pode reduzir seus efeitos. O exemplo distingue a emoção em si de ações efetivas de adaptação, sem dizer que nada possa ser feito.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-8": {
+    "perfil": "port-sintaxe",
+    "gatilho": "por impõe",
+    "exemplo": "«As diretrizes estabelecem limites» poderia ser reescrito «as diretrizes impõem limites», com plural marcado pelo acento circunflexo. «Impõe» concorda com sujeito singular, como «a diretriz impõe limites».",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-9": {
+    "perfil": "port-leitura",
+    "gatilho": "omissão",
+    "exemplo": "«O catálogo já não está mais atualizado» pode tornar-se «o catálogo não está mais atualizado» ou «o catálogo já não está atualizado». As formas mantêm o contraste entre uma situação anterior e a atual.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-10": {
+    "perfil": "port-sintaxe",
+    "gatilho": "a vestimenta outrora usada",
+    "exemplo": "Reordene: «Qualquer tentativa de reutilizar a vestimenta passará por ajustes». Agora fica claro o que passará por ajustes: a tentativa, não a vestimenta como sujeito dessa oração. Localize o núcleo verbal antes de buscar seu sujeito.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-12": {
+    "perfil": "port-sintaxe",
+    "gatilho": "finalidade",
+    "exemplo": "«A equipe revisou as etiquetas a fim de que a busca ficasse mais simples» informa o propósito da revisão. Compare com «porque havia erros», que apresenta causa, e «de modo que a busca melhorou», que pode apresentar consequência.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-13": {
+    "perfil": "port-leitura",
+    "gatilho": "inalterado",
+    "exemplo": "«O documento não passou incólume pela inundação» indica que sofreu efeitos ou danos. A frase seguinte pode esclarecer a extensão do sentido: manchas, deformações ou perda de partes, conforme o caso.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-fa0d568ec644-14": {
+    "perfil": "port-sintaxe",
+    "gatilho": "complemento",
+    "exemplo": "Em «o relatório concluiu que o acervo precisa de proteção», pergunte o que o relatório concluiu. A resposta é a oração inteira. Trocar provisoriamente por isso — «concluiu isso» — evidencia sua função de complemento.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-1": {
+    "perfil": "port-norma-uso",
+    "gatilho": "opcional",
+    "exemplo": "«O acesso é restrito àqueles usuários cadastrados» corresponde a «restrito a aqueles usuários». Compare com «destinado a esses usuários», em que esses não começa por a e não ocorre a mesma fusão.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-4": {
+    "perfil": "port-leitura",
+    "gatilho": "combinação",
+    "exemplo": "Um manual pode apresentar conservação preventiva e restauração e atribuir certa ação apenas à primeira. A existência das duas categorias no texto não permite dizer que todo resultado exige sua combinação. Localize a frase que atribui a causa.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-8": {
+    "perfil": "port-sintaxe",
+    "gatilho": "chegarem",
+    "exemplo": "«Os índices podem ser usados para localizar documentos ou recuperar assuntos» mantém duas formas paralelas. Trocar apenas recuperar por recuperarem desorganiza a construção. Avalie o papel do infinitivo, não só um antecedente plural.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-9": {
+    "perfil": "port-sintaxe",
+    "gatilho": "pessoas famosas e celebridades",
+    "exemplo": "Troque o complemento: «As imagens de homens famosos são muito utilizadas». Utilizadas permanece feminino plural porque concorda com imagens. O teste de substituição separa coincidência formal e relação sintática efetiva.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-11": {
+    "perfil": "port-sintaxe",
+    "gatilho": "transitivo direto",
+    "exemplo": "«O erro induziu uma conclusão falsa» emprega objeto direto. Já «o anúncio induziu o leitor a comprar» combina a pessoa induzida e a ação a que ela foi levada. Sempre confira o sentido e a estrutura efetivamente usados.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-14": {
+    "perfil": "port-sintaxe",
+    "gatilho": "O que",
+    "exemplo": "Compare «O serviço foi ampliado. Isso melhora o acesso» com «O serviço foi ampliado, o que melhora o acesso». A segunda formulação precisa da conexão por vírgula; trocar apenas isso por o que depois do ponto não realiza a mesma reescrita.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-15": {
+    "perfil": "port-sintaxe",
+    "gatilho": "é o que",
+    "exemplo": "Compare «Um caso frequente é o que ocorre no balcão» com «Um caso frequente ocorre no balcão». A segunda construção tem organização diferente e pode continuar compreensível. Julgue os critérios expressos no item, sem exigir identidade de análise sintática.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-17": {
+    "perfil": "port-sintaxe",
+    "gatilho": "apassivador",
+    "exemplo": "«Trata-se de técnicas de proteção» mantém trata no singular mesmo com técnicas no plural. Compare com «aplicam-se técnicas de proteção», passiva sintética equivalente a «técnicas são aplicadas». A diferença aparece na estrutura e na regência.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-19": {
+    "perfil": "port-norma-uso",
+    "gatilho": "abreviada ou por extenso",
+    "exemplo": "Em um exercício que pede a forma gráfica prevista no manual, compare Vossa Excelência e V. Exa., sem concluir que essa forma de tratamento caiba a qualquer agente. Forma abreviada e adequação institucional são verificações diferentes.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5e15fa44de6d-20": {
+    "perfil": "port-norma-uso",
+    "gatilho": "deve-se evitar",
+    "exemplo": "«Encaminhamos o relatório para análise» é mais claro que uma sequência de fórmulas rebuscadas sem conteúdo adicional. Se um termo técnico for indispensável, mantenha-o e explique-o quando o destinatário precisar. Simplicidade é escolha funcional, não empobrecimento.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5f5b0e54d555-4": {
+    "perfil": "port-leitura",
+    "gatilho": "concorda",
+    "exemplo": "«O autor diz que o acesso mudou. Mas a diferença é certamente pequena» exprime certeza sobre a avaliação pequena, não aprovação irrestrita de tudo o que o primeiro autor afirmou. Identifique de quem é cada proposição e qual o alcance do advérbio.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5f5b0e54d555-6": {
+    "perfil": "port-sintaxe",
+    "gatilho": "mesmo valor semântico",
+    "exemplo": "«Organize como foi combinado» equivale a conforme foi combinado. Já «o índice é tão útil como o catálogo» compara dois termos. Procure os pares correlativos, como tão... como, antes de classificar o conectivo.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5f5b0e54d555-10": {
+    "perfil": "port-coesao",
+    "gatilho": "por sinonímia",
+    "exemplo": "Um texto pode alternar sanção e punição para retomar o mesmo domínio e depois distinguir tipos de sanção. A retomada lexical mantém o tema; os complementos e predicados podem apresentar diferenças dentro desse tema.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-5f5b0e54d555-12": {
+    "perfil": "port-leitura",
+    "gatilho": "explicitado no segundo",
+    "exemplo": "Em «a organização mudou de foco» seguido de «o objetivo passou dos registros para as necessidades dos usuários», o segundo trecho explicita o deslocamento anunciado. Identifique a expressão geral e a informação que a desenvolve.",
+    "referencia": "portugues-manual-10"
+  },
+  "real-fonte-bd8794c51bdd-83": {
+    "perfil": "competencias-bibliotecario-13",
+    "gatilho": "recursos e produtos",
+    "exemplo": "Ao criar um guia de fontes para deputados, o bibliotecário investiga necessidades, avalia fontes, planeja o produto, o executa e verifica seu uso. A formação prepara para esse percurso, sem tornar toda atividade de planejar algo privativa da profissão.",
+    "referencia": "formacao-bib-cne-13"
+  },
+  "real-fonte-8ee28efb7958-59": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "apenas se",
+    "exemplo": "Uma série sobre a criação de uma instituição pode passar anos sem consulta e ainda ser essencial para comprovar decisões e compreender sua história. A equipe pode ampliar a descrição e a divulgação, sem condicionar a sobrevivência do fundo a uma estatística de empréstimos.",
+    "referencia": "arquivos-permanentes-13"
+  },
+  "real-fonte-8ee28efb7958-62": {
+    "perfil": "gestao-arquivistica",
+    "gatilho": "não pode ser armazenado",
+    "exemplo": "Atas de uma comissão podem ser recolhidas ao arquivo central e continuar descritas como parte do fundo do órgão produtor. A localização física mudou, mas a proveniência continua registrada. Misturá-las a documentos de outras instituições sem vínculo seria outra operação.",
+    "referencia": "dibrate"
+  },
+  "real-fonte-25700a98e2cb-102": {
+    "perfil": "cf-legislativo",
+    "gatilho": "extraordinária",
+    "exemplo": "Se o projeto de LDO ainda não foi aprovado no fim do primeiro período de trabalhos, a regra é impedir a interrupção prevista, e não impor automaticamente uma convocação extraordinária para votar a matéria. Desenhe a linha do tempo do calendário legislativo.",
+    "referencia": "cf-aplicada-10"
+  },
+  "real-fonte-25700a98e2cb-112": {
+    "perfil": "processo-legislativo",
+    "gatilho": "não poderá",
+    "exemplo": "Durante a votação, textos de emendas podem ser fundidos em uma proposta negociada. A possibilidade de apresentação não dispensa os requisitos regimentais de momento e legitimidade. Separe a definição de aglutinativa das condições atuais de apresentação.",
+    "referencia": "ricd-atualizado-10"
+  },
+  "real-fonte-25700a98e2cb-115": {
+    "perfil": "processo-legislativo",
+    "gatilho": "interpretação e aplicação de lei",
+    "exemplo": "Um deputado pode sugerir que uma comissão examine um tema para formular projeto de iniciativa da Câmara. Isso difere de enviar indicação apenas para obter uma resposta sobre o sentido de uma lei aplicada a um caso. Verifique a finalidade efetiva do pedido.",
+    "referencia": "ricd-atualizado-10"
+  },
+  "real-fonte-25700a98e2cb-116": {
+    "perfil": "processo-legislativo",
+    "gatilho": "natureza é modificativa",
+    "exemplo": "Corrigir uma remissão equivocada a um artigo pode exigir emenda de redação. Mudar o grupo de pessoas beneficiadas por uma regra é outra alteração, com repercussão de mérito que não deve ser ocultada como simples ajuste de linguagem.",
+    "referencia": "ricd-atualizado-10"
+  },
+  "real-fonte-25700a98e2cb-149": {
+    "perfil": "cf-legislativo",
+    "gatilho": "Apenas após tomarem posse",
+    "exemplo": "Organize três perguntas separadas: qual é o marco indicado no texto constitucional; qual a relação do crime com o exercício das funções; o fim do mandato afasta a competência? Decorar apenas posse ou diplomação não resolve as duas últimas.",
+    "referencia": "foro-funcional-stf-13"
+  },
+  "real-fonte-25700a98e2cb-151": {
+    "perfil": "processo-legislativo",
+    "gatilho": "dois terços",
+    "exemplo": "Com a composição constitucional de 513 deputados e 81 senadores, as maiorias absolutas são 257 e 41. Atingir apenas uma delas não basta para rejeitar o veto. A votação conjunta não permite compensar insuficiência numa Casa com votos da outra.",
+    "referencia": "cf-processo-legislativo"
+  },
+  "real-fonte-64b6812a1fd8-33": {
+    "perfil": "cf-legislativo",
+    "gatilho": "legislar concorrentemente",
+    "exemplo": "Uma lei estadual de inovação pode atuar no espaço de competência concorrente, respeitadas as normas gerais e as demais condições constitucionais. Isso é diferente de perguntar quais entes podem executar ações de apoio à ciência.",
+    "referencia": "cf-aplicada-10"
+  },
+  "real-fonte-64b6812a1fd8-46": {
+    "perfil": "ingles-leitura",
+    "gatilho": "raise their employees’ payment",
+    "exemplo": "Traduza a estrutura por partes: business owners believe = os proprietários acreditam; may raise = pode aumentar. Mesmo que o texto depois apresente críticas à prática, isso não apaga a crença atribuída aos proprietários.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-64b6812a1fd8-47": {
+    "perfil": "ingles-marcadores",
+    "gatilho": "In spite of",
+    "exemplo": "«Despite having no assistance, customers are asked to tip» pode usar «In spite of having no assistance». Traduza por «apesar de não receberem assistência». Compare com although, que normalmente introduz uma oração com sujeito e verbo.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-64b6812a1fd8-48": {
+    "perfil": "ingles-leitura",
+    "gatilho": "mandatory",
+    "exemplo": "Uma tela pode destacar uma gorjeta sugerida e ainda oferecer a opção de não pagar. Sentir-se pressionado a escolher não torna o pagamento mandatory. Sublinhe os termos que indicam obrigação e confronte-os com a ressalva textual.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-64b6812a1fd8-49": {
+    "perfil": "ingles-vocabulario",
+    "gatilho": "before long",
+    "exemplo": "«Soon they figured it was an error» corresponde a «Before long, they realized it was an error»: pouco depois perceberam que era um erro. Figured não significa obrigatoriamente calculou; o contexto seleciona a acepção.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-64b6812a1fd8-50": {
+    "perfil": "ingles-leitura",
+    "gatilho": "had used ChatGPT for work before",
+    "exemplo": "Um bibliotecário experiente pode usar pela primeira vez um gerador de resumos. Anos de profissão não provam familiaridade com aquela tecnologia. Localize first time e compare-o com before para perceber a incompatibilidade temporal.",
+    "referencia": "ingles-gramatica"
+  },
+  "real-fonte-299b2aa2f580-53": {
+    "perfil": "seguranca",
+    "gatilho": "restrito aos administradores",
+    "exemplo": "Uma pesquisadora que acessa dados restritos pode usar senha e aplicativo autenticador sem administrar o sistema. Uma conta de operação pode receber acesso privilegiado temporário e auditado. Separe cargo administrativo, função exercida e privilégio concedido.",
+    "referencia": "cert"
+  },
+  "real-fonte-299b2aa2f580-54": {
+    "perfil": "seguranca",
+    "gatilho": "revogar credenciais",
+    "exemplo": "Quando um estagiário deixa a biblioteca, a equipe revoga sua conta e os acessos vinculados; não basta recolher o crachá físico. Se ele muda de setor, as permissões também devem ser revistas, evitando acumular privilégios sem função.",
+    "referencia": "cert"
+  },
+  "real-fonte-299b2aa2f580-55": {
+    "perfil": "seguranca",
+    "gatilho": "somente",
+    "exemplo": "A biblioteca não pode cobrar que a equipe siga uma política que decidiu não comunicar. Já o conteúdo disponibilizado a um fornecedor ou parceiro é avaliado conforme sua necessidade e o contexto. Separe comunicação interna e disponibilidade a interessados.",
+    "referencia": "iso27001-politica-13"
+  },
+  "real-fonte-299b2aa2f580-56": {
+    "perfil": "seguranca",
+    "gatilho": "referência aberta",
+    "exemplo": "Um fornecedor pode receber as obrigações de segurança relevantes ao contrato sem ter acesso irrestrito a detalhes internos. Uma organização também pode publicar uma política institucional; isso não torna a divulgação aberta integral uma exigência universal da norma.",
+    "referencia": "iso27001-politica-13"
+  },
+  "real-fonte-299b2aa2f580-59": {
+    "perfil": "seguranca",
+    "gatilho": "não testam a compatibilidade",
+    "exemplo": "O portal da biblioteca depende de um componente para exibir PDFs. Uma correção de segurança precisa ser aplicada e testada com o portal; ignorá-la por medo de incompatibilidade pode manter a exposição, enquanto instalar sem teste pode quebrar o serviço.",
+    "referencia": "owasp-a06-13"
+  },
+  "real-fonte-299b2aa2f580-112": {
+    "perfil": "mineracao",
+    "gatilho": "independentes categóricas",
+    "exemplo": "Para estimar a chance de atraso na devolução, um modelo pode usar número de empréstimos anteriores, variável numérica, e categoria do usuário, categórica codificada. A saída pode representar atraso sim ou não sem exigir que todas as entradas sejam categorias.",
+    "referencia": "mineracao"
+  },
+  "real-fonte-299b2aa2f580-113": {
+    "perfil": "associacao-medidas-13",
+    "gatilho": "confiança",
+    "exemplo": "Em 10 empréstimos conjuntos, 5 contêm livro de catalogação e 4 desses 5 também contêm livro de indexação. Para catalogação→indexação, o suporte é 4/10 = 40%, e a confiança é 4/5 = 80%. Confiança não prova relação causal.",
+    "referencia": "associacao-confianca-13"
+  },
+  "real-fonte-d91ca76c8e14-51": {
+    "perfil": "ciencia-info",
+    "gatilho": "todo o conjunto",
+    "exemplo": "Ao estudar um catálogo, examine também quem descreve, quais regras usa, que instituição o mantém e como as pessoas o consultam. O arquivo digital isolado não explica o funcionamento do serviço nem os problemas de acesso e representação.",
+    "referencia": "borko"
+  },
+  "real-fonte-d91ca76c8e14-77": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "canais básicos",
+    "exemplo": "Uma pesquisa pode ser relatada inicialmente em congresso, desenvolvida em tese e publicada em artigo. Esses documentos podem circular em papel ou em repositório. O suporte muda, mas permanece a função de registrar e transmitir a comunicação.",
+    "referencia": "comunicacao"
+  },
+  "real-fonte-d91ca76c8e14-97": {
+    "perfil": "comunicacao-cientifica",
+    "gatilho": "fatores",
+    "exemplo": "A criação de novas especialidades e programas de pesquisa amplia equipes, artigos e periódicos. Para uma biblioteca, isso exige seleção e cooperação; não basta comprar indefinidamente toda publicação. Analise causas do crescimento separadamente de uma fórmula universal de duplicação.",
+    "referencia": "comunicacao"
+  },
+  "real-fonte-d91ca76c8e14-100": {
+    "perfil": "bibliografia-escalas-13",
+    "gatilho": "microcósmico",
+    "exemplo": "Examinar se uma bibliografia de conservação atende a um grupo específico é olhar a ferramenta delimitada. Investigar como bibliografias conectam produtores e usuários no fluxo social de conhecimento amplia a escala. Macro e micro indicam a perspectiva, não o tamanho físico da lista.",
+    "referencia": "egan-shera-1952-13"
   }
 }

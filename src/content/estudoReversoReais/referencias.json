@@ -1171,5 +1171,50 @@
     "titulo": "Microsoft Support — Função CONT.SE",
     "localizador": "Contagem de células de um intervalo segundo critério; exemplos de critérios textuais, intervalos e limitações.",
     "url": "https://support.microsoft.com/pt-br/excel/get-started/use-the-countif-function-in-microsoft-excel"
+  },
+  "papel-cci-13": {
+    "titulo": "Canadian Conservation Institute — Caring for paper objects",
+    "localizador": "Composição da celulose, deterioração, acidez, tintas ferrogálicas, forças físicas, acondicionamento e resposta à umidade.",
+    "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/paper-objects.html"
+  },
+  "envelhecimento-loc-13": {
+    "titulo": "Library of Congress — Aging: Improved Accelerated Aging Testing Techniques",
+    "localizador": "Ensaios de envelhecimento de papéis; efeitos de temperatura, umidade, luz e poluentes; análise química e mecânica e limites de representação do envelhecimento natural.",
+    "url": "https://wwws.loc.gov/preservation/scientists/projects/acc_aging_test.html"
+  },
+  "formacao-bib-cne-13": {
+    "titulo": "MEC/CNE — Parecer CNE/CES 492/2001, Diretrizes Curriculares para Biblioteconomia",
+    "localizador": "Perfil dos formandos e competências gerais e específicas; articulado à Resolução CNE/CES 19/2002.",
+    "url": "https://portal.mec.gov.br/sesu/arquivos/pdf/49201FHGSCCLBAM.pdf"
+  },
+  "arquivos-permanentes-13": {
+    "titulo": "Lei 8.159/1991 — valor permanente dos documentos de arquivo",
+    "localizador": "Art. 8º, § 3º: preservação definitiva de conjuntos de valor histórico, probatório e informativo.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8159-8-janeiro-1991-322180-normaatualizada-pl.html"
+  },
+  "foro-funcional-stf-13": {
+    "titulo": "Constituição Federal, art. 53, § 1º, e STF — Constituição e jurisprudência",
+    "localizador": "Marco constitucional da diplomação; AP 937-QO e HC 232.627/INQ 4.787: vínculo funcional e manutenção do foro após o exercício do cargo.",
+    "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=53&abrirBase=CF"
+  },
+  "iso27001-politica-13": {
+    "titulo": "ISO/IEC 27001:2013 — política de segurança da informação",
+    "localizador": "Seção 5.2, edição histórica explicitamente indicada no caderno SERPRO 2023: comunicação interna e disponibilidade a partes interessadas conforme apropriado. Prévia pública do organismo nacional de normalização SIST.",
+    "url": "https://preview.sist.si/sist-preview/54534/fdccba8e7d574627a7160772f4de5164/ISO-IEC-27001-2013.pdf"
+  },
+  "owasp-a06-13": {
+    "titulo": "OWASP Top 10:2021 — A06 Vulnerable and Outdated Components",
+    "localizador": "Descrição de situações de vulnerabilidade e testes de compatibilidade de bibliotecas atualizadas, corrigidas e suas dependências.",
+    "url": "https://top10.owasp.org/2021/A06_2021-Vulnerable_and_Outdated_Components/index.html"
+  },
+  "associacao-confianca-13": {
+    "titulo": "Mlxtend — Association rules",
+    "localizador": "Metrics: support e confidence. Confiança de A→B = suporte(A∪B)/suporte(A).",
+    "url": "https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/"
+  },
+  "egan-shera-1952-13": {
+    "titulo": "Egan, Margaret E.; Shera, Jesse H. — Foundations of a Theory of Bibliography (1952)",
+    "localizador": "The Library Quarterly, v. 22, n. 2, p. 125–137; abertura do artigo: perspectivas macrocosmic e microcosmic. Reprodução acadêmica na UNAM.",
+    "url": "https://www.paginaspersonales.unam.mx/app/webroot/files/5880/Asignaturas/1876/Archivo2.4536.pdf"
   }
 }

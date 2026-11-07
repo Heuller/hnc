@@ -96,7 +96,8 @@ describe('segunda curadoria: 300 inclusões com contexto e procedência', () => 
     expect(screen.getByText(/Rever o assunto na teoria \(submódulo 2.5\)/)).toBeTruthy();
     expect(screen.getByText('1 respondido · 1 acerto')).toBeTruthy();
     fireEvent.click(screen.getByRole('button', { name: 'Escolher outro módulo' }));
-    expect(screen.getByText('1 questão disponível')).toBeTruthy();
+    const quantidadeAtual = QUESTOES_REAIS.filter(item => item.modulo === 'M2.5').length;
+    expect(screen.getByText(quantidadeAtual === 1 ? '1 questão disponível' : `${quantidadeAtual} questões disponíveis`)).toBeTruthy();
     expect(screen.getByText('1 respondida')).toBeTruthy();
   });
 });

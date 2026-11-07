@@ -1,0 +1,48 @@
+{
+  "data": "2026-11-07",
+  "criterio": "Correção de vínculo temático por sobreposição editorial. Preservados ID, enunciado, contexto, gabarito, comentário, procedência e respostas existentes. Não cria novas questões nem duplica contagem.",
+  "itens": [
+    {
+      "id": "real-esquematizada-799-55dff333a7",
+      "de": "2.1",
+      "para": "2.5",
+      "motivo": "Constituição estadual: entrada pela jurisdição e título uniforme. Conteúdo de catalogação governamental da aula 2.5."
+    },
+    {
+      "id": "real-esquematizada-700-632d402b67",
+      "de": "2.1",
+      "para": "2.5",
+      "motivo": "Lista de autoridades governamentais: âmbito do controle de nomes de órgãos públicos, objeto específico da aula 2.5."
+    },
+    {
+      "id": "real-esquematizada-798-540b130a1a",
+      "de": "2.1",
+      "para": "2.5",
+      "motivo": "Compilação de leis de diversas jurisdições: escolha de entrada na catalogação de publicações governamentais."
+    },
+    {
+      "id": "real-esquematizada-851-950f946955",
+      "de": "2.1",
+      "para": "2.5",
+      "motivo": "Constituições de países e títulos uniformes: ponto de acesso para documentação governamental."
+    },
+    {
+      "id": "real-esquematizada-869-396d108dad",
+      "de": "2.1",
+      "para": "2.5",
+      "motivo": "Entrada de entidade governamental pelo nome da jurisdição: aplicação direta da catalogação de órgãos governamentais."
+    },
+    {
+      "id": "real-tec-3598966",
+      "de": "4.2",
+      "para": "9.1",
+      "motivo": "O julgamento trata da função da bibliografia na bibliometria e na comunicação científica, e não da seleção de um tipo de fonte de consulta."
+    },
+    {
+      "id": "real-acervo-a1481c7ed26f20",
+      "de": "4.2",
+      "para": "9.1",
+      "motivo": "O núcleo é a função da bibliografia na recepção e transmissão de textos na comunicação científica, conteúdo da aula 9.1."
+    }
+  ]
+}

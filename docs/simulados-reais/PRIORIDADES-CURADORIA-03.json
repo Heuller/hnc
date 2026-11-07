@@ -1,0 +1,521 @@
+{
+  "data": "2026-11-07",
+  "baseAntes": 3341,
+  "baseDepois": 3469,
+  "novasQuestoes": 128,
+  "reclassificacoesSemNovaContagem": 7,
+  "politica": {
+    "objetivo": "Priorizar os dez módulos do ranking com meta de 200 itens por módulo, mantendo pertinência temática e diversidade pedagógica.",
+    "metaPorModulo": 200,
+    "admissao": [
+      "Vínculo a assunto efetivamente ensinado no curso e relevante ao conteúdo programático.",
+      "Prova C/E legível, origem declarada e gabarito definitivo confrontado; nenhuma anulação ou múltipla escolha.",
+      "Contribuição pedagógica concreta, comparada com o banco e com as demais inclusões.",
+      "Mesmo conceito só justifica outra questão se mudar de modo relevante a aplicação, a condição, a exceção ou o raciocínio.",
+      "Comentário, exemplo e comparação individuais; atualização HNC identificada quando necessária."
+    ],
+    "limites": [
+      "A meta não foi atingida em todos os módulos. Os números são contagens efetivas; itens adaptados, exemplos e reclassificações não são contados como novas provas.",
+      "Não foram localizadas nesta rodada questões elegíveis suficientes para completar os módulos restantes. Isso não comprova esgotamento de todas as provas disponíveis.",
+      "Duplicatas ou variações sem contribuição relevante, anulações, múltipla escolha, outras bancas e numeração ilegível não foram usadas para preencher o mínimo.",
+      "M2.5 é um recorte específico de catalogação governamental; não se deslocaram questões genéricas de catalogação para atingir uma cota."
+    ]
+  },
+  "prioridades": [
+    {
+      "modulo": "M2.5",
+      "questoes": 6,
+      "faltam": 194,
+      "decisao": "Continuar busca por fontes legíveis e aplicações distintas; manter o déficit explícito enquanto não houver itens elegíveis."
+    },
+    {
+      "modulo": "M7",
+      "questoes": 70,
+      "faltam": 130,
+      "decisao": "Continuar busca por fontes legíveis e aplicações distintas; manter o déficit explícito enquanto não houver itens elegíveis."
+    },
+    {
+      "modulo": "M9",
+      "questoes": 95,
+      "faltam": 105,
+      "decisao": "Continuar busca por fontes legíveis e aplicações distintas; manter o déficit explícito enquanto não houver itens elegíveis."
+    },
+    {
+      "modulo": "M10",
+      "questoes": 96,
+      "faltam": 104,
+      "decisao": "Continuar busca por fontes legíveis e aplicações distintas; manter o déficit explícito enquanto não houver itens elegíveis."
+    },
+    {
+      "modulo": "M12",
+      "questoes": 108,
+      "faltam": 92,
+      "decisao": "Continuar busca por fontes legíveis e aplicações distintas; manter o déficit explícito enquanto não houver itens elegíveis."
+    },
+    {
+      "modulo": "M14",
+      "questoes": 112,
+      "faltam": 88,
+      "decisao": "Continuar busca por fontes legíveis e aplicações distintas; manter o déficit explícito enquanto não houver itens elegíveis."
+    },
+    {
+      "modulo": "M1",
+      "questoes": 174,
+      "faltam": 26,
+      "decisao": "Continuar busca por fontes legíveis e aplicações distintas; manter o déficit explícito enquanto não houver itens elegíveis."
+    }
+  ],
+  "coberturaPorSubmodulo": [
+    {
+      "submodulo": "1.1",
+      "titulo": "Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e evolução histórica",
+      "antes": 89,
+      "depois": 90
+    },
+    {
+      "submodulo": "1.2",
+      "titulo": "As Cinco Leis de Ranganathan e Releituras Contemporâneas",
+      "antes": 26,
+      "depois": 26
+    },
+    {
+      "submodulo": "1.3",
+      "titulo": "Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões",
+      "antes": 19,
+      "depois": 19
+    },
+    {
+      "submodulo": "1.4",
+      "titulo": "Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas",
+      "antes": 16,
+      "depois": 17
+    },
+    {
+      "submodulo": "1.5",
+      "titulo": "Ciclo de Vida, Qualidade e Memória da Informação",
+      "antes": 15,
+      "depois": 17
+    },
+    {
+      "submodulo": "1.6",
+      "titulo": "Governança da Informação e Governança de Dados",
+      "antes": 5,
+      "depois": 5
+    },
+    {
+      "submodulo": "2.1",
+      "titulo": "Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r",
+      "antes": 186,
+      "depois": 181
+    },
+    {
+      "submodulo": "2.2",
+      "titulo": "O Padrão RDA (Resource Description and Access) e o Projeto 3R",
+      "antes": 16,
+      "depois": 16
+    },
+    {
+      "submodulo": "2.3",
+      "titulo": "Modelos Conceituais: A Família FRBR e o IFLA LRM",
+      "antes": 19,
+      "depois": 19
+    },
+    {
+      "submodulo": "2.4",
+      "titulo": "Notação de Autor, Formato MARC 21 e Padrão Dublin Core",
+      "antes": 85,
+      "depois": 85
+    },
+    {
+      "submodulo": "2.5",
+      "titulo": "Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara dos Deputados",
+      "antes": 1,
+      "depois": 6
+    },
+    {
+      "submodulo": "2.6",
+      "titulo": "Metadados: Tipologia, Qualidade, Perfis de Aplicação, Crosswalks, Imagem e Som",
+      "antes": 18,
+      "depois": 18
+    },
+    {
+      "submodulo": "2.7",
+      "titulo": "MODS, METS, BIBFRAME, Linked Data e Interoperabilidade",
+      "antes": 13,
+      "depois": 13
+    },
+    {
+      "submodulo": "3.1",
+      "titulo": "Teoria da Classificação, CDD (23ª ed.) e CDU",
+      "antes": 121,
+      "depois": 121
+    },
+    {
+      "submodulo": "3.2",
+      "titulo": "Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)",
+      "antes": 7,
+      "depois": 7
+    },
+    {
+      "submodulo": "3.3",
+      "titulo": "Análise Documentária e Processo de Indexação",
+      "antes": 93,
+      "depois": 93
+    },
+    {
+      "submodulo": "3.4",
+      "titulo": "Linguagens Documentárias, Tesauros, Ontologias e SKOS",
+      "antes": 95,
+      "depois": 95
+    },
+    {
+      "submodulo": "4.1",
+      "titulo": "Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca",
+      "antes": 53,
+      "depois": 53
+    },
+    {
+      "submodulo": "4.2",
+      "titulo": "Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação",
+      "antes": 127,
+      "depois": 125
+    },
+    {
+      "submodulo": "4.3",
+      "titulo": "Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil",
+      "antes": 204,
+      "depois": 204
+    },
+    {
+      "submodulo": "4.4",
+      "titulo": "Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional",
+      "antes": 285,
+      "depois": 285
+    },
+    {
+      "submodulo": "5.1",
+      "titulo": "Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho",
+      "antes": 201,
+      "depois": 201
+    },
+    {
+      "submodulo": "5.2",
+      "titulo": "CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional",
+      "antes": 65,
+      "depois": 65
+    },
+    {
+      "submodulo": "5.3",
+      "titulo": "Política de Desenvolvimento de Coleções: Seleção, Aquisição, Desbaste e Avaliação",
+      "antes": 170,
+      "depois": 170
+    },
+    {
+      "submodulo": "5.4",
+      "titulo": "Gestão da Informação e Gestão do Conhecimento Organizacional",
+      "antes": 37,
+      "depois": 37
+    },
+    {
+      "submodulo": "6.1",
+      "titulo": "Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade",
+      "antes": 79,
+      "depois": 79
+    },
+    {
+      "submodulo": "6.2",
+      "titulo": "Repositórios Institucionais, Softwares de Bibliotecas e Interoperabilidade (OAI-PMH e Z39.50)",
+      "antes": 125,
+      "depois": 125
+    },
+    {
+      "submodulo": "6.3",
+      "titulo": "Preservação Digital: OAIS (ISO 14721:2025), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas",
+      "antes": 40,
+      "depois": 40
+    },
+    {
+      "submodulo": "6.4",
+      "titulo": "Inteligência Artificial na Biblioteconomia e na Ciência da Informação",
+      "antes": 17,
+      "depois": 17
+    },
+    {
+      "submodulo": "6.5",
+      "titulo": "Sistemas Informacionais, Modelagem de Dados, Bancos Relacionais e NoSQL",
+      "antes": 72,
+      "depois": 72
+    },
+    {
+      "submodulo": "6.6",
+      "titulo": "Fundamentos Computacionais: Algoritmos, SQL, Regex, APIs e Web Scraping",
+      "antes": 34,
+      "depois": 34
+    },
+    {
+      "submodulo": "6.7",
+      "titulo": "IA Aplicada à Informação: Classificação, OCR/HTR, Curadoria de Corpora, Avaliação e Vieses",
+      "antes": 9,
+      "depois": 9
+    },
+    {
+      "submodulo": "7.1",
+      "titulo": "Agentes Ambientais e Físico-Químicos de Degradação de Acervos",
+      "antes": 8,
+      "depois": 16
+    },
+    {
+      "submodulo": "7.2",
+      "titulo": "Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)",
+      "antes": 4,
+      "depois": 6
+    },
+    {
+      "submodulo": "7.3",
+      "titulo": "Conservação Preventiva: Higienização, Acondicionamento e Manuseio de Acervos",
+      "antes": 15,
+      "depois": 29
+    },
+    {
+      "submodulo": "7.4",
+      "titulo": "Intervenções Curativas, Restauração e Planos de Contingência contra Desastres",
+      "antes": 13,
+      "depois": 19
+    },
+    {
+      "submodulo": "8.1",
+      "titulo": "ABNT NBR 6023:2025 (3ª Edição): Referências Bibliográficas",
+      "antes": 75,
+      "depois": 75
+    },
+    {
+      "submodulo": "8.2",
+      "titulo": "ABNT NBR 10520: Citações em Documentos (Versão 2023)",
+      "antes": 3,
+      "depois": 3
+    },
+    {
+      "submodulo": "8.3",
+      "titulo": "ABNT NBR 14724:2024: Apresentação de Trabalhos Acadêmicos",
+      "antes": 10,
+      "depois": 10
+    },
+    {
+      "submodulo": "8.4",
+      "titulo": "ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)",
+      "antes": 89,
+      "depois": 89
+    },
+    {
+      "submodulo": "8.5",
+      "titulo": "Editoração, Fichas Catalográficas, Índices, Infografia e Acessibilidade",
+      "antes": 61,
+      "depois": 61
+    },
+    {
+      "submodulo": "9.1",
+      "titulo": "Ciclo da Comunicação Científica, Canais e Avaliação por Pares",
+      "antes": 28,
+      "depois": 33
+    },
+    {
+      "submodulo": "9.2",
+      "titulo": "Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR",
+      "antes": 3,
+      "depois": 3
+    },
+    {
+      "submodulo": "9.3",
+      "titulo": "Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons",
+      "antes": 14,
+      "depois": 15
+    },
+    {
+      "submodulo": "9.4",
+      "titulo": "Estudos Métricos da Informação: Leis Bibliométricas, Análise de Citação e Altmetria",
+      "antes": 44,
+      "depois": 44
+    },
+    {
+      "submodulo": "10.1",
+      "titulo": "Regimento Interno da Câmara dos Deputados (RICD: Arts. 1-24, 65-94, 226-251 e 262-273)",
+      "antes": 14,
+      "depois": 14
+    },
+    {
+      "submodulo": "10.2",
+      "titulo": "Processo Legislativo Constitucional e Espécies de Proposições",
+      "antes": 18,
+      "depois": 22
+    },
+    {
+      "submodulo": "10.3",
+      "titulo": "Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública",
+      "antes": 2,
+      "depois": 2
+    },
+    {
+      "submodulo": "10.4",
+      "titulo": "Noções de Direito Constitucional Aplicadas ao Processo Legislativo",
+      "antes": 21,
+      "depois": 22
+    },
+    {
+      "submodulo": "10.5",
+      "titulo": "Poder Legislativo e Regime Jurídico dos Parlamentares na CF/88",
+      "antes": 22,
+      "depois": 24
+    },
+    {
+      "submodulo": "10.6",
+      "titulo": "Regimento Comum do Congresso Nacional (RCCN - Resolução nº 1/1970-CN)",
+      "antes": 12,
+      "depois": 12
+    },
+    {
+      "submodulo": "11.1",
+      "titulo": "Estado, Governo, Princípios e Organização Administrativa",
+      "antes": 32,
+      "depois": 32
+    },
+    {
+      "submodulo": "11.2",
+      "titulo": "Ato Administrativo, Invalidação e Responsabilidade por Pareceres",
+      "antes": 16,
+      "depois": 16
+    },
+    {
+      "submodulo": "11.3",
+      "titulo": "Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)",
+      "antes": 36,
+      "depois": 36
+    },
+    {
+      "submodulo": "11.4",
+      "titulo": "Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)",
+      "antes": 17,
+      "depois": 17
+    },
+    {
+      "submodulo": "11.5",
+      "titulo": "Poderes Administrativos, Ciclo de Polícia e Abuso de Poder",
+      "antes": 8,
+      "depois": 8
+    },
+    {
+      "submodulo": "11.6",
+      "titulo": "Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso",
+      "antes": 11,
+      "depois": 11
+    },
+    {
+      "submodulo": "11.7",
+      "titulo": "Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)",
+      "antes": 6,
+      "depois": 6
+    },
+    {
+      "submodulo": "11.8",
+      "titulo": "Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública",
+      "antes": 21,
+      "depois": 21
+    },
+    {
+      "submodulo": "11.9",
+      "titulo": "Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)",
+      "antes": 15,
+      "depois": 15
+    },
+    {
+      "submodulo": "11.10",
+      "titulo": "Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência",
+      "antes": 14,
+      "depois": 14
+    },
+    {
+      "submodulo": "11.11",
+      "titulo": "Contratos Administrativos, Gestão e Fiscalização Contratual",
+      "antes": 10,
+      "depois": 10
+    },
+    {
+      "submodulo": "11.12",
+      "titulo": "Transparência e Privacidade: Lei de Acesso à Informação e LGPD",
+      "antes": 20,
+      "depois": 20
+    },
+    {
+      "submodulo": "12.1",
+      "titulo": "Leitura estratégica: ideia central, evidência e aplicação em textos",
+      "antes": 56,
+      "depois": 67
+    },
+    {
+      "submodulo": "12.2",
+      "titulo": "Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa",
+      "antes": 5,
+      "depois": 7
+    },
+    {
+      "submodulo": "12.3",
+      "titulo": "Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)",
+      "antes": 6,
+      "depois": 6
+    },
+    {
+      "submodulo": "12.4",
+      "titulo": "Vocabulário Contextual, Falsos Cognatos, Modalizadores e Paráfrase Cebraspe",
+      "antes": 22,
+      "depois": 28
+    },
+    {
+      "submodulo": "13.1",
+      "titulo": "Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe",
+      "antes": 45,
+      "depois": 68
+    },
+    {
+      "submodulo": "13.2",
+      "titulo": "A Arte da Reescritura e Paráfrase no Padrão Cebraspe",
+      "antes": 36,
+      "depois": 39
+    },
+    {
+      "submodulo": "13.3",
+      "titulo": "Sintaxe Avançada, Pontuação, Concordância, Regência e Crase",
+      "antes": 49,
+      "depois": 73
+    },
+    {
+      "submodulo": "13.4",
+      "titulo": "Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal",
+      "antes": 13,
+      "depois": 20
+    },
+    {
+      "submodulo": "14.1",
+      "titulo": "MSOffice 365 e Ferramentas de Comunicação e Colaboração",
+      "antes": 19,
+      "depois": 19
+    },
+    {
+      "submodulo": "14.2",
+      "titulo": "Redes de Computadores, Internet/Intranet, Criptografia e Gestão de Riscos de Segurança da Informação",
+      "antes": 59,
+      "depois": 64
+    },
+    {
+      "submodulo": "14.3",
+      "titulo": "Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público",
+      "antes": 6,
+      "depois": 6
+    },
+    {
+      "submodulo": "14.4",
+      "titulo": "Ciência de Dados, Mineração de Dados/Textos, Visualização e Storytelling",
+      "antes": 21,
+      "depois": 23
+    }
+  ],
+  "origemContagens": "Projeção ativa da auditoria integral, com conferências e sobreposições editoriais aplicadas; inclui quatro itens em TypeScript e exclui anulações e pendências. Antes: commit ccd2b5d. Depois: curadoria 13 e sete correções de vínculo temático. Retratos 01 e 02 preservados."
+}

@@ -1,0 +1,145 @@
+{
+  "data": "2026-11-07",
+  "escopo": "Meta de 200 questões reais ativas por módulo do ranking solicitado, incluindo M9 e o mini-módulo M2.5. Não é uma meta de 200 por submódulo.",
+  "meta": 200,
+  "totalAntes": 3341,
+  "totalDepois": 3469,
+  "novasQuestoes": 128,
+  "reclassificacoesSemNovaContagem": 7,
+  "deficitAntes": 874,
+  "deficitDepois": 739,
+  "modulos": [
+    {
+      "modulo": "M2.5",
+      "antes": 1,
+      "novas": 0,
+      "reclassificadasSemNovaContagem": 5,
+      "depois": 6,
+      "meta": 200,
+      "faltam": 194,
+      "situacao": "abaixo-da-meta"
+    },
+    {
+      "modulo": "M7",
+      "antes": 40,
+      "novas": 30,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 70,
+      "meta": 200,
+      "faltam": 130,
+      "situacao": "abaixo-da-meta"
+    },
+    {
+      "modulo": "M9",
+      "antes": 89,
+      "novas": 4,
+      "reclassificadasSemNovaContagem": 2,
+      "depois": 95,
+      "meta": 200,
+      "faltam": 105,
+      "situacao": "abaixo-da-meta"
+    },
+    {
+      "modulo": "M10",
+      "antes": 89,
+      "novas": 7,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 96,
+      "meta": 200,
+      "faltam": 104,
+      "situacao": "abaixo-da-meta"
+    },
+    {
+      "modulo": "M12",
+      "antes": 89,
+      "novas": 19,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 108,
+      "meta": 200,
+      "faltam": 92,
+      "situacao": "abaixo-da-meta"
+    },
+    {
+      "modulo": "M14",
+      "antes": 105,
+      "novas": 7,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 112,
+      "meta": 200,
+      "faltam": 88,
+      "situacao": "abaixo-da-meta"
+    },
+    {
+      "modulo": "M13",
+      "antes": 143,
+      "novas": 57,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 200,
+      "meta": 200,
+      "faltam": 0,
+      "situacao": "meta-atingida"
+    },
+    {
+      "modulo": "M1",
+      "antes": 170,
+      "novas": 4,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 174,
+      "meta": 200,
+      "faltam": 26,
+      "situacao": "abaixo-da-meta"
+    },
+    {
+      "modulo": "M11",
+      "antes": 206,
+      "novas": 0,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 206,
+      "meta": 200,
+      "faltam": 0,
+      "situacao": "meta-atingida"
+    },
+    {
+      "modulo": "M8",
+      "antes": 238,
+      "novas": 0,
+      "reclassificadasSemNovaContagem": 0,
+      "depois": 238,
+      "meta": 200,
+      "faltam": 0,
+      "situacao": "meta-atingida"
+    }
+  ],
+  "limites": [
+    "A meta não foi atingida em todos os módulos. Os números são contagens efetivas; itens adaptados, exemplos e reclassificações não são contados como novas provas.",
+    "Não foram localizadas nesta rodada questões elegíveis suficientes para completar os módulos restantes. Isso não comprova esgotamento de todas as provas disponíveis.",
+    "Duplicatas ou variações sem contribuição relevante, anulações, múltipla escolha, outras bancas e numeração ilegível não foram usadas para preencher o mínimo.",
+    "M2.5 é um recorte específico de catalogação governamental; não se deslocaram questões genéricas de catalogação para atingir uma cota."
+  ],
+  "pesquisa": {
+    "fontesDaInclusao": 15,
+    "apostilasComplementaresConsultadas": [
+      "Preservação e Conservação.pdf — caderno de questões do acervo",
+      "Bibliometria.pdf — caderno de questões do acervo"
+    ],
+    "inventario": "Triagem do inventário de 79 fontes previamente registradas e de 290 blocos brutos não incorporados. Bloco bruto não equivale a questão elegível: pode incluir comando, numeração de texto, julgamento de outro cargo ou item já presente com transcrição diferente.",
+    "exclusoesDocumentadas": [
+      {
+        "fonte": "PGDF 2021 — Biblioteconomia",
+        "motivo": "Cópia comentada parcialmente consultada; não se confirmou um gabarito definitivo independente. Não integra a seleção."
+      },
+      {
+        "fonte": "MDS 2006 — Bibliotecário",
+        "motivo": "Numeração de itens extraída como glifos de controle, sem leitura visual suficiente para pareamento seguro. Não integra a seleção."
+      },
+      {
+        "fonte": "IBRAM 2010 e IPHAN 2009 — Conservação/Restauro",
+        "motivo": "Resultados pertencem a outras bancas e/ou ao formato de múltipla escolha. Não integram a seleção."
+      },
+      {
+        "fonte": "MPCE 2025 e Banco da Amazônia 2012 — Biblioteconomia",
+        "motivo": "Os itens pertinentes encontrados já integram o banco ou repetem objetivos cobertos. Não foram apresentados como inclusões novas."
+      }
+    ]
+  }
+}
