@@ -1,9 +1,9 @@
 {
-  "numTotalTests": 1080,
-  "numPassedTests": 1080,
+  "numTotalTests": 1087,
+  "numPassedTests": 1087,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "success": true,
-  "testFiles": 139,
-  "source": "Vitest: curadoria por lacunas com 12 novos itens M7 e três reclassificações; 3.041 questões reais; 1.080 testes em 139 arquivos, 06/11/2026"
+  "testFiles": 140,
+  "source": "Vitest: 1.087 testes aprovados em 140 arquivos; curadoria 12 com 300 inclusões, 3.341 questões reais e mini-módulo M2.5, 07/11/2026."
 }

@@ -1,0 +1,1654 @@
+{
+  "fontes": {
+    "of-a16f18fcd39b": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/_antigos/2008/INSS2007/arquivos/INSS_Prova_Cargo_NS_03_Caderno_C.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/_antigos/2008/INSS2007/arquivos/INSS08_Gab_Definitivo_003_3.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "INSS_CARGO_NS_03_CADERNO_C"
+    },
+    "of-c166389d7202": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cpnuje_24/arquivos/988_CPNUJE_004_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/cpnuje_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_004_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "988_CPNUJE_004_01"
+    },
+    "of-84e4ef286787": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/_antigos/2008/INSS2007/arquivos/INSS_Prova_Cargo_NS_02_Caderno_B.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/_antigos/2008/INSS2007/arquivos/INSS08_Gab_Definitivo_002_2.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "INSS_CARGO_NS_02_CADERNO_B"
+    },
+    "of-bd8794c51bdd": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/_antigos/2008/FUB2008/arquivos/FUB_006_7.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/_antigos/2008/FUB2008/arquivos/FUB_Gab_definitivo_006_7.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "FUB_CARGO_06_NS_CAD_G"
+    },
+    "of-679ca899c737": {
+      "provaUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/cadernos-de-prova/prova-objetiva_conhecimentos-especificos_cargo-15.pdf",
+      "gabaritoUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/gabaritos/gabaritos-definitivos/gabarito-definitivo-conhecimentos-especificos-2013-cargo-15.pdf",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "094_PF_015_01"
+    },
+    "of-51f87b308386": {
+      "provaUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/cadernos-de-prova/prova-objetiva_conhecimentos-especificos_cargo-01.pdf",
+      "gabaritoUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/gabaritos/gabaritos-definitivos/gabarito-definitivo-conhecimentos-especificos-2013-cargo-1.pdf",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "094_PF_001_01"
+    },
+    "of-5f5b0e54d555": {
+      "provaUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/cadernos-de-prova/prova-objetiva_conhecimentos-basicos_cargos-1-a-14.pdf",
+      "gabaritoUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/gabaritos/gabaritos-definitivos/gabarito-definitivo-conhecimentos-basicos-para-os-cargos-de-1-a-14.pdf",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "094_PF_CB1_01"
+    },
+    "of-235049509a76": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_006_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_006_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "958_MPO_ANALISTA_006_01"
+    },
+    "of-5c33d135f21e": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_CG1_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_CG1_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "958_MPO_ANALISTA_CG1_01"
+    },
+    "of-d8eeea32d384": {
+      "provaUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/cadernos-de-prova/prova-objetiva_conhecimentos-especificos_cargo-05.pdf",
+      "gabaritoUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/gabaritos/gabaritos-definitivos/gabarito-definitivo-conhecimentos-especificos-2013-cargo-5.pdf",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "094_PF_005_01"
+    },
+    "of-ca76322354a8": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_001_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/E53AB5C65454510E881F7667E620F44B6DDD1C083D5175412CF8725A3C9B9C9F.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "108_TCUTEFC_001_01"
+    },
+    "of-d8348a411ac6": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/bcb_24/arquivos/959_BCB_002_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/bcb_24/arquivos/GAB_DEFINITIVO_959_BCB_002_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "959_BCB_002_01"
+    },
+    "of-424c21aa155b": {
+      "provaUrl": "https://arquivos.qconcursos.com/prova/arquivo_prova/58706/cespe-2018-iphan-auxiliar-institucional-area-3-prova.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/IPHAN_18/arquivos/GAB_DEFINITIVO_XX403_IPHAN_022_00.PDF",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "403_IPHAN_022_00"
+    },
+    "of-fa0d568ec644": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/108_TCUTEFC_CB1_01.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/tcu_25_tefc/arquivos/03531F6DDD1179877F8BB0D4D4BCA28516CFFFFBC414219B25C23B6CB12E2102.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "108_TCUTEFC_CB1_01"
+    },
+    "of-ccbad833e876": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/961_ANATEL_CB1_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "961_ANATEL_CB1_01"
+    },
+    "of-25700a98e2cb": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_007_24.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/Gab_definitivo_CAMARA12_007_24.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "CAMARA12_007_24 (arquivo); CAMARA12_007_35 (impresso)"
+    },
+    "of-5a1348222933": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/bcb_24/arquivos/959_BCB_CB1_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/bcb_24/arquivos/GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "959_BCB_CB1_01"
+    },
+    "of-16313a0cb211": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_005_20.pdf",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/Gab_definitivo_CAMARA12_005_20.pdf",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "CAMARA12_005_20 (arquivo); CAMARA12_005_31 (impresso)"
+    },
+    "of-5e15fa44de6d": {
+      "provaUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/cadernos-de-prova/prova-objetiva_conhecimentos-basicos_cargo-15.pdf",
+      "gabaritoUrl": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/provas-e-gabaritos-de-concursos-anteriores/concurso-plano-especial-de-cargos-2025/provas-objetivas/gabaritos/gabaritos-definitivos/gabarito-definitivo-conhecimentos-basicos-para-o-cargo-15.pdf",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "094_PF_CB2_01"
+    },
+    "of-b33388b0334a": {
+      "provaUrl": "https://arquivos.qconcursos.com/prova/arquivo_prova/43981/cespe-2015-tcu-auditor-federal-de-controle-externo-conhecimentos-gerais-prova.pdf",
+      "gabaritoUrl": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/43981/cespe-2015-tcu-auditor-federal-de-controle-externo-conhecimentos-gerais-gabarito.pdf",
+      "modo": "copia",
+      "tipoGabarito": "tabela",
+      "codigo": "173TCUAUFC_CG1_01"
+    },
+    "of-4667bf41862e": {
+      "provaUrl": "https://cdn.cebraspe.org.br/concursos/cpnuje_24/arquivos/988_CPNUJE_CB1_01.PDF",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/cpnuje_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_CB1_01.PDF",
+      "modo": "original",
+      "tipoGabarito": "tabela",
+      "codigo": "988_CPNUJE_CB1_01"
+    }
+  },
+  "itens": {
+    "real-fonte-a16f18fcd39b-89": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-90": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 90,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-91": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 91,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-92": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 92,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-93": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 93,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-68": {
+      "fonteId": "of-c166389d7202",
+      "numero": 68,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-91": {
+      "fonteId": "of-c166389d7202",
+      "numero": 91,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-97": {
+      "fonteId": "of-c166389d7202",
+      "numero": 97,
+      "gabarito": "C"
+    },
+    "real-fonte-c166389d7202-102": {
+      "fonteId": "of-c166389d7202",
+      "numero": 102,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-103": {
+      "fonteId": "of-c166389d7202",
+      "numero": 103,
+      "gabarito": "C"
+    },
+    "real-fonte-c166389d7202-105": {
+      "fonteId": "of-c166389d7202",
+      "numero": 105,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-106": {
+      "fonteId": "of-c166389d7202",
+      "numero": 106,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-107": {
+      "fonteId": "of-c166389d7202",
+      "numero": 107,
+      "gabarito": "C"
+    },
+    "real-fonte-c166389d7202-108": {
+      "fonteId": "of-c166389d7202",
+      "numero": 108,
+      "gabarito": "C"
+    },
+    "real-fonte-84e4ef286787-150": {
+      "fonteId": "of-84e4ef286787",
+      "numero": 150,
+      "gabarito": "C"
+    },
+    "real-fonte-bd8794c51bdd-64": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 64,
+      "gabarito": "C"
+    },
+    "real-fonte-bd8794c51bdd-66": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-fonte-bd8794c51bdd-67": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 67,
+      "gabarito": "C"
+    },
+    "real-fonte-bd8794c51bdd-68": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 68,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-139": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 139,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-142": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 142,
+      "gabarito": "C"
+    },
+    "real-fonte-a16f18fcd39b-143": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 143,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-82": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 82,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-85": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 85,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-86": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 86,
+      "gabarito": "C"
+    },
+    "real-fonte-bd8794c51bdd-99": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 99,
+      "gabarito": "C"
+    },
+    "real-fonte-bd8794c51bdd-100": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 100,
+      "gabarito": "E"
+    },
+    "real-fonte-bd8794c51bdd-101": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 101,
+      "gabarito": "E"
+    },
+    "real-fonte-bd8794c51bdd-111": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 111,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-53": {
+      "fonteId": "of-679ca899c737",
+      "numero": 53,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-55": {
+      "fonteId": "of-679ca899c737",
+      "numero": 55,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-57": {
+      "fonteId": "of-679ca899c737",
+      "numero": 57,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-60": {
+      "fonteId": "of-679ca899c737",
+      "numero": 60,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-62": {
+      "fonteId": "of-679ca899c737",
+      "numero": 62,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-64": {
+      "fonteId": "of-679ca899c737",
+      "numero": 64,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-65": {
+      "fonteId": "of-679ca899c737",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-67": {
+      "fonteId": "of-679ca899c737",
+      "numero": 67,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-68": {
+      "fonteId": "of-679ca899c737",
+      "numero": 68,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-75": {
+      "fonteId": "of-679ca899c737",
+      "numero": 75,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-77": {
+      "fonteId": "of-679ca899c737",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-78": {
+      "fonteId": "of-679ca899c737",
+      "numero": 78,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-79": {
+      "fonteId": "of-679ca899c737",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-90": {
+      "fonteId": "of-679ca899c737",
+      "numero": 90,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-91": {
+      "fonteId": "of-679ca899c737",
+      "numero": 91,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-92": {
+      "fonteId": "of-679ca899c737",
+      "numero": 92,
+      "gabarito": "E"
+    },
+    "real-fonte-679ca899c737-93": {
+      "fonteId": "of-679ca899c737",
+      "numero": 93,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-94": {
+      "fonteId": "of-679ca899c737",
+      "numero": 94,
+      "gabarito": "C"
+    },
+    "real-fonte-679ca899c737-95": {
+      "fonteId": "of-679ca899c737",
+      "numero": 95,
+      "gabarito": "C"
+    },
+    "real-fonte-51f87b308386-61": {
+      "fonteId": "of-51f87b308386",
+      "numero": 61,
+      "gabarito": "C"
+    },
+    "real-fonte-51f87b308386-62": {
+      "fonteId": "of-51f87b308386",
+      "numero": 62,
+      "gabarito": "C"
+    },
+    "real-fonte-51f87b308386-63": {
+      "fonteId": "of-51f87b308386",
+      "numero": 63,
+      "gabarito": "C"
+    },
+    "real-fonte-51f87b308386-64": {
+      "fonteId": "of-51f87b308386",
+      "numero": 64,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-20": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 20,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-21": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 21,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-24": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 24,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-26": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 26,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-27": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 27,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-28": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 28,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-29": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 29,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-30": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 30,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-32": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 32,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-34": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 34,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-38": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 38,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-43": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 43,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-46": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 46,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-48": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 48,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-49": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 49,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-50": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 50,
+      "gabarito": "C"
+    },
+    "real-fonte-51f87b308386-95": {
+      "fonteId": "of-51f87b308386",
+      "numero": 95,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-46": {
+      "fonteId": "of-235049509a76",
+      "numero": 46,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-48": {
+      "fonteId": "of-235049509a76",
+      "numero": 48,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-52": {
+      "fonteId": "of-235049509a76",
+      "numero": 52,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-53": {
+      "fonteId": "of-235049509a76",
+      "numero": 53,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-54": {
+      "fonteId": "of-235049509a76",
+      "numero": 54,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-56": {
+      "fonteId": "of-235049509a76",
+      "numero": 56,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-57": {
+      "fonteId": "of-235049509a76",
+      "numero": 57,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-58": {
+      "fonteId": "of-235049509a76",
+      "numero": 58,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-59": {
+      "fonteId": "of-235049509a76",
+      "numero": 59,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-60": {
+      "fonteId": "of-235049509a76",
+      "numero": 60,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-62": {
+      "fonteId": "of-235049509a76",
+      "numero": 62,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-64": {
+      "fonteId": "of-235049509a76",
+      "numero": 64,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-66": {
+      "fonteId": "of-235049509a76",
+      "numero": 66,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-68": {
+      "fonteId": "of-235049509a76",
+      "numero": 68,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-69": {
+      "fonteId": "of-235049509a76",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-70": {
+      "fonteId": "of-235049509a76",
+      "numero": 70,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-73": {
+      "fonteId": "of-235049509a76",
+      "numero": 73,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-74": {
+      "fonteId": "of-235049509a76",
+      "numero": 74,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-77": {
+      "fonteId": "of-235049509a76",
+      "numero": 77,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-78": {
+      "fonteId": "of-235049509a76",
+      "numero": 78,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-79": {
+      "fonteId": "of-235049509a76",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-80": {
+      "fonteId": "of-235049509a76",
+      "numero": 80,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-81": {
+      "fonteId": "of-235049509a76",
+      "numero": 81,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-82": {
+      "fonteId": "of-235049509a76",
+      "numero": 82,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-83": {
+      "fonteId": "of-235049509a76",
+      "numero": 83,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-84": {
+      "fonteId": "of-235049509a76",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-85": {
+      "fonteId": "of-235049509a76",
+      "numero": 85,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-86": {
+      "fonteId": "of-235049509a76",
+      "numero": 86,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-88": {
+      "fonteId": "of-235049509a76",
+      "numero": 88,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-89": {
+      "fonteId": "of-235049509a76",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-fonte-235049509a76-90": {
+      "fonteId": "of-235049509a76",
+      "numero": 90,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-93": {
+      "fonteId": "of-235049509a76",
+      "numero": 93,
+      "gabarito": "C"
+    },
+    "real-fonte-235049509a76-95": {
+      "fonteId": "of-235049509a76",
+      "numero": 95,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-77": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 77,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-80": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 80,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-81": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 81,
+      "gabarito": "C"
+    },
+    "real-fonte-d8eeea32d384-81": {
+      "fonteId": "of-d8eeea32d384",
+      "numero": 81,
+      "gabarito": "C"
+    },
+    "real-fonte-d8eeea32d384-107": {
+      "fonteId": "of-d8eeea32d384",
+      "numero": 107,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-13": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 13,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-15": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 15,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-16": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 16,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-18": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 18,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-20": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 20,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-22": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 22,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-26": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 26,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-28": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 28,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-29": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 29,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-30": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 30,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-31": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 31,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-33": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 33,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-34": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 34,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-36": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 36,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-39": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 39,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-40": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 40,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-44": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 44,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-46": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 46,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-47": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 47,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-71": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 71,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-72": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 72,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-77": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 77,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-79": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 79,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-81": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 81,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-82": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 82,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-83": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 83,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-84": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 84,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-86": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 86,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-87": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 87,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-88": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 88,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-89": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 89,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-51": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 51,
+      "gabarito": "E"
+    },
+    "real-fonte-d8348a411ac6-54": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 54,
+      "gabarito": "E"
+    },
+    "real-fonte-d8348a411ac6-57": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 57,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-59": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 59,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-62": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 62,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-63": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 63,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-64": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 64,
+      "gabarito": "E"
+    },
+    "real-fonte-d8348a411ac6-65": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 65,
+      "gabarito": "E"
+    },
+    "real-fonte-d8348a411ac6-68": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 68,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-69": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-71": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 71,
+      "gabarito": "E"
+    },
+    "real-fonte-d8348a411ac6-88": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 88,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-89": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 89,
+      "gabarito": "E"
+    },
+    "real-fonte-d8348a411ac6-90": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 90,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-104": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 104,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-113": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 113,
+      "gabarito": "C"
+    },
+    "real-fonte-d8348a411ac6-115": {
+      "fonteId": "of-d8348a411ac6",
+      "numero": 115,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-51": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 51,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-53": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 53,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-55": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 55,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-65": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 65,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-70": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 70,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-75": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 75,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-76": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 76,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-77": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 77,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-79": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 79,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-81": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 81,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-84": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-87": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 87,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-89": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 89,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-90": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 90,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-95": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 95,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-113": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 113,
+      "gabarito": "C"
+    },
+    "real-fonte-424c21aa155b-114": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 114,
+      "gabarito": "E"
+    },
+    "real-fonte-424c21aa155b-120": {
+      "fonteId": "of-424c21aa155b",
+      "numero": 120,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-66": {
+      "fonteId": "of-c166389d7202",
+      "numero": 66,
+      "gabarito": "C"
+    },
+    "real-fonte-c166389d7202-92": {
+      "fonteId": "of-c166389d7202",
+      "numero": 92,
+      "gabarito": "C"
+    },
+    "real-fonte-c166389d7202-93": {
+      "fonteId": "of-c166389d7202",
+      "numero": 93,
+      "gabarito": "C"
+    },
+    "real-fonte-c166389d7202-98": {
+      "fonteId": "of-c166389d7202",
+      "numero": 98,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-99": {
+      "fonteId": "of-c166389d7202",
+      "numero": 99,
+      "gabarito": "C"
+    },
+    "real-fonte-c166389d7202-100": {
+      "fonteId": "of-c166389d7202",
+      "numero": 100,
+      "gabarito": "E"
+    },
+    "real-fonte-c166389d7202-101": {
+      "fonteId": "of-c166389d7202",
+      "numero": 101,
+      "gabarito": "C"
+    },
+    "real-fonte-84e4ef286787-137": {
+      "fonteId": "of-84e4ef286787",
+      "numero": 137,
+      "gabarito": "E"
+    },
+    "real-fonte-84e4ef286787-138": {
+      "fonteId": "of-84e4ef286787",
+      "numero": 138,
+      "gabarito": "C"
+    },
+    "real-fonte-84e4ef286787-143": {
+      "fonteId": "of-84e4ef286787",
+      "numero": 143,
+      "gabarito": "E"
+    },
+    "real-fonte-84e4ef286787-144": {
+      "fonteId": "of-84e4ef286787",
+      "numero": 144,
+      "gabarito": "C"
+    },
+    "real-fonte-84e4ef286787-145": {
+      "fonteId": "of-84e4ef286787",
+      "numero": 145,
+      "gabarito": "E"
+    },
+    "real-fonte-5c33d135f21e-1": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 1,
+      "gabarito": "C"
+    },
+    "real-fonte-5c33d135f21e-3": {
+      "fonteId": "of-5c33d135f21e",
+      "numero": 3,
+      "gabarito": "E"
+    },
+    "real-fonte-fa0d568ec644-18": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 18,
+      "gabarito": "E"
+    },
+    "real-fonte-fa0d568ec644-21": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 21,
+      "gabarito": "E"
+    },
+    "real-fonte-fa0d568ec644-22": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 22,
+      "gabarito": "C"
+    },
+    "real-fonte-fa0d568ec644-23": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 23,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-16": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 16,
+      "gabarito": "C"
+    },
+    "real-fonte-ccbad833e876-17": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 17,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-20": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 20,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-22": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 22,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-1": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 1,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-3": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 3,
+      "gabarito": "E"
+    },
+    "real-fonte-5f5b0e54d555-7": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 7,
+      "gabarito": "C"
+    },
+    "real-fonte-5f5b0e54d555-13": {
+      "fonteId": "of-5f5b0e54d555",
+      "numero": 13,
+      "gabarito": "C"
+    },
+    "real-fonte-fa0d568ec644-6": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 6,
+      "gabarito": "C"
+    },
+    "real-fonte-fa0d568ec644-11": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 11,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-8": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 8,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-101": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 101,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-103": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 103,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-104": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 104,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-105": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 105,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-106": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 106,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-107": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 107,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-109": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 109,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-117": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 117,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-120": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 120,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-121": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 121,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-122": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 122,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-123": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 123,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-124": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 124,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-125": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 125,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-128": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 128,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-129": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 129,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-133": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 133,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-137": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 137,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-138": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 138,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-139": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 139,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-140": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 140,
+      "gabarito": "C"
+    },
+    "real-fonte-a16f18fcd39b-97": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 97,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-100": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 100,
+      "gabarito": "C"
+    },
+    "real-fonte-a16f18fcd39b-113": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 113,
+      "gabarito": "C"
+    },
+    "real-fonte-a16f18fcd39b-115": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 115,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-116": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 116,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-129": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 129,
+      "gabarito": "C"
+    },
+    "real-fonte-a16f18fcd39b-145": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 145,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-146": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 146,
+      "gabarito": "E"
+    },
+    "real-fonte-a16f18fcd39b-147": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 147,
+      "gabarito": "C"
+    },
+    "real-fonte-a16f18fcd39b-148": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 148,
+      "gabarito": "C"
+    },
+    "real-fonte-a16f18fcd39b-149": {
+      "fonteId": "of-a16f18fcd39b",
+      "numero": 149,
+      "gabarito": "E"
+    },
+    "real-fonte-bd8794c51bdd-61": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 61,
+      "gabarito": "E"
+    },
+    "real-fonte-bd8794c51bdd-62": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 62,
+      "gabarito": "E"
+    },
+    "real-fonte-bd8794c51bdd-84": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 84,
+      "gabarito": "E"
+    },
+    "real-fonte-bd8794c51bdd-86": {
+      "fonteId": "of-bd8794c51bdd",
+      "numero": 86,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-3": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 3,
+      "gabarito": "C"
+    },
+    "real-fonte-ccbad833e876-4": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 4,
+      "gabarito": "C"
+    },
+    "real-fonte-ccbad833e876-5": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 5,
+      "gabarito": "C"
+    },
+    "real-fonte-ccbad833e876-11": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 11,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-12": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 12,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-13": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 13,
+      "gabarito": "C"
+    },
+    "real-fonte-ccbad833e876-14": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 14,
+      "gabarito": "E"
+    },
+    "real-fonte-ccbad833e876-15": {
+      "fonteId": "of-ccbad833e876",
+      "numero": 15,
+      "gabarito": "C"
+    },
+    "real-fonte-5a1348222933-5": {
+      "fonteId": "of-5a1348222933",
+      "numero": 5,
+      "gabarito": "E"
+    },
+    "real-fonte-5a1348222933-7": {
+      "fonteId": "of-5a1348222933",
+      "numero": 7,
+      "gabarito": "E"
+    },
+    "real-fonte-5a1348222933-9": {
+      "fonteId": "of-5a1348222933",
+      "numero": 9,
+      "gabarito": "E"
+    },
+    "real-fonte-5a1348222933-10": {
+      "fonteId": "of-5a1348222933",
+      "numero": 10,
+      "gabarito": "E"
+    },
+    "real-fonte-5a1348222933-11": {
+      "fonteId": "of-5a1348222933",
+      "numero": 11,
+      "gabarito": "C"
+    },
+    "real-fonte-5a1348222933-12": {
+      "fonteId": "of-5a1348222933",
+      "numero": 12,
+      "gabarito": "C"
+    },
+    "real-fonte-5a1348222933-18": {
+      "fonteId": "of-5a1348222933",
+      "numero": 18,
+      "gabarito": "C"
+    },
+    "real-fonte-5a1348222933-20": {
+      "fonteId": "of-5a1348222933",
+      "numero": 20,
+      "gabarito": "C"
+    },
+    "real-fonte-5a1348222933-22": {
+      "fonteId": "of-5a1348222933",
+      "numero": 22,
+      "gabarito": "E"
+    },
+    "real-fonte-5a1348222933-23": {
+      "fonteId": "of-5a1348222933",
+      "numero": 23,
+      "gabarito": "E"
+    },
+    "real-fonte-16313a0cb211-131": {
+      "fonteId": "of-16313a0cb211",
+      "numero": 131,
+      "gabarito": "E"
+    },
+    "real-fonte-16313a0cb211-135": {
+      "fonteId": "of-16313a0cb211",
+      "numero": 135,
+      "gabarito": "E"
+    },
+    "real-fonte-16313a0cb211-136": {
+      "fonteId": "of-16313a0cb211",
+      "numero": 136,
+      "gabarito": "C"
+    },
+    "real-fonte-16313a0cb211-142": {
+      "fonteId": "of-16313a0cb211",
+      "numero": 142,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-141": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 141,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-142": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 142,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-145": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 145,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-148": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 148,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-150": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 150,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-152": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 152,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-153": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 153,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-154": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 154,
+      "gabarito": "E"
+    },
+    "real-fonte-25700a98e2cb-155": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 155,
+      "gabarito": "C"
+    },
+    "real-fonte-25700a98e2cb-156": {
+      "fonteId": "of-25700a98e2cb",
+      "numero": 156,
+      "gabarito": "C"
+    },
+    "real-fonte-5e15fa44de6d-35": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 35,
+      "gabarito": "E"
+    },
+    "real-fonte-5e15fa44de6d-36": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 36,
+      "gabarito": "C"
+    },
+    "real-fonte-5e15fa44de6d-37": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 37,
+      "gabarito": "C"
+    },
+    "real-fonte-5e15fa44de6d-39": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 39,
+      "gabarito": "E"
+    },
+    "real-fonte-5e15fa44de6d-44": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 44,
+      "gabarito": "C"
+    },
+    "real-fonte-5e15fa44de6d-45": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 45,
+      "gabarito": "C"
+    },
+    "real-fonte-5e15fa44de6d-47": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 47,
+      "gabarito": "C"
+    },
+    "real-fonte-5e15fa44de6d-49": {
+      "fonteId": "of-5e15fa44de6d",
+      "numero": 49,
+      "gabarito": "E"
+    },
+    "real-fonte-b33388b0334a-16": {
+      "fonteId": "of-b33388b0334a",
+      "numero": 16,
+      "gabarito": "C"
+    },
+    "real-fonte-b33388b0334a-17": {
+      "fonteId": "of-b33388b0334a",
+      "numero": 17,
+      "gabarito": "E"
+    },
+    "real-fonte-b33388b0334a-20": {
+      "fonteId": "of-b33388b0334a",
+      "numero": 20,
+      "gabarito": "C"
+    },
+    "real-fonte-ca76322354a8-58": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 58,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-66": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 66,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-67": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 67,
+      "gabarito": "E"
+    },
+    "real-fonte-ca76322354a8-69": {
+      "fonteId": "of-ca76322354a8",
+      "numero": 69,
+      "gabarito": "C"
+    },
+    "real-fonte-fa0d568ec644-36": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 36,
+      "gabarito": "C"
+    },
+    "real-fonte-fa0d568ec644-37": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 37,
+      "gabarito": "C"
+    },
+    "real-fonte-fa0d568ec644-38": {
+      "fonteId": "of-fa0d568ec644",
+      "numero": 38,
+      "gabarito": "E"
+    },
+    "real-fonte-4667bf41862e-19": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 19,
+      "gabarito": "C"
+    },
+    "real-fonte-4667bf41862e-23": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 23,
+      "gabarito": "E"
+    },
+    "real-fonte-4667bf41862e-25": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 25,
+      "gabarito": "E"
+    },
+    "real-fonte-4667bf41862e-29": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 29,
+      "gabarito": "C"
+    },
+    "real-fonte-4667bf41862e-40": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 40,
+      "gabarito": "C"
+    },
+    "real-fonte-4667bf41862e-41": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 41,
+      "gabarito": "E"
+    },
+    "real-fonte-4667bf41862e-43": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 43,
+      "gabarito": "C"
+    },
+    "real-fonte-4667bf41862e-44": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 44,
+      "gabarito": "E"
+    },
+    "real-fonte-4667bf41862e-46": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 46,
+      "gabarito": "C"
+    },
+    "real-fonte-4667bf41862e-47": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 47,
+      "gabarito": "C"
+    },
+    "real-fonte-4667bf41862e-48": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 48,
+      "gabarito": "C"
+    },
+    "real-fonte-4667bf41862e-49": {
+      "fonteId": "of-4667bf41862e",
+      "numero": 49,
+      "gabarito": "E"
+    }
+  },
+  "editorial": {}
+}

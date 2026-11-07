@@ -1638,5 +1638,85 @@
     "tecnica": "Técnica: Compatibilidade e condição. Verifique se a escolha depende do suporte, do dano e do risco, ou se o item impõe solução universal.",
     "contrasteErrado": "Uma técnica adequada a um material deve ser aplicada a qualquer outro sem diagnóstico.",
     "referencia": "lacunas-bn-preservacao"
+  },
+  "contratos-fiscalizacao-12": {
+    "titulo": "Execução contratual: medir, registrar e decidir",
+    "regra": "Fiscalização compara a execução com as obrigações e critérios pactuados, registra ocorrências e fundamenta providências. Medição e pagamento, aceitação de justificativas e aplicação de sanções têm condições próprias; uma decisão não substitui automaticamente a outra.",
+    "exemplo": "Um contrato de serviço define indicadores. A equipe registra o resultado e aplica os critérios de pagamento, apurando separadamente eventual infração e a justificativa apresentada.",
+    "tecnica": "Técnica: Consequência e requisito. Localize o resultado observado, a decisão discutida e as condições legais de atuação do fiscal.",
+    "contrasteErrado": "Todo resultado insatisfatório deve ser ignorado no pagamento ou convertido automaticamente em multa, sem examinar o contrato.",
+    "referencia": "in5-fiscalizacao-12"
+  },
+  "analise-decisao-12": {
+    "titulo": "Análise de dados: evidência para decidir",
+    "regra": "A análise organiza dados pertinentes para responder a uma pergunta e apoiar decisões. Indicadores precisam de definição, qualidade, contexto e interpretação; sua aparência numérica não garante neutralidade, causalidade ou decisão correta.",
+    "exemplo": "A biblioteca relaciona dados de atendimento e escalas de trabalho para investigar filas. Verifica horários, cobertura e critérios de registro antes de propor mudanças.",
+    "tecnica": "Técnica: Pergunta, dado e conclusão. Examine o que foi medido e até onde a evidência permite concluir.",
+    "contrasteErrado": "Usar dados numéricos elimina automaticamente vieses e dispensa interpretar as condições de sua produção.",
+    "referencia": "nist-dados-12"
+  },
+  "sql-comandos-12": {
+    "titulo": "SQL: consultar, alterar dados e definir estruturas",
+    "regra": "SQL reúne comandos com finalidades diferentes. SELECT consulta; INSERT, UPDATE e DELETE alteram linhas; CREATE e DROP definem ou removem estruturas. Junções, agrupamentos, permissões e gatilhos exigem condições próprias e podem ter diferenças entre produtos.",
+    "exemplo": "A biblioteca usa SELECT para obter empréstimos por mês e DELETE para excluir linhas autorizadas por uma regra. Excluir linhas não é o mesmo que remover a tabela com DROP TABLE.",
+    "tecnica": "Técnica: Objeto e efeito. Identifique se o comando atua em linhas, estruturas, privilégios ou no resultado de uma consulta.",
+    "contrasteErrado": "INSERT cria tabelas e DELETE sempre remove a estrutura inteira da tabela.",
+    "referencia": "sql-postgresql-12"
+  },
+  "dados-preparacao-12": {
+    "titulo": "Preparar dados: justificar cada transformação",
+    "regra": "Preparação de dados pode envolver verificação, tratamento de ausências, correspondência de registros, deduplicação e transformação de variáveis. Cada operação responde a um problema diferente e deve preservar o significado necessário à análise. Reduzir tamanho ou alterar escala não torna operações distintas equivalentes.",
+    "exemplo": "Duas grafias do mesmo usuário exigem correspondência de registros; um campo não preenchido exige investigar ausência. Compactar o arquivo não resolve nenhum desses problemas de significado.",
+    "tecnica": "Técnica: Problema antes da técnica. Identifique o defeito ou objetivo e explique por que a transformação escolhida é adequada.",
+    "contrasteErrado": "Qualquer transformação que reduza o volume de armazenamento produz a mesma melhoria semântica nos dados.",
+    "referencia": "crisp-dm-preparacao-12"
+  },
+  "bi-visualizacao-12": {
+    "titulo": "Power BI: modelo, cálculo, visualização e distribuição",
+    "regra": "Preparar dados, modelar relações, calcular medidas, escolher gráficos e distribuir conteúdo são etapas com ferramentas próprias. O modelo semântico pode apoiar vários relatórios. O gráfico deve responder à pergunta analítica; uma tela atraente não garante correção dos dados ou das conclusões.",
+    "exemplo": "Um relatório compara atendimentos por setor com barras; um indicador mostra o resultado diante da meta. Ambos podem usar medidas e relações de um mesmo modelo semântico.",
+    "tecnica": "Técnica: Camada e finalidade. Localize o que pertence à preparação, ao modelo, ao cálculo e à apresentação antes de escolher o recurso.",
+    "contrasteErrado": "Um modelo semântico só permite um relatório e qualquer gráfico comunica igualmente bem qualquer pergunta.",
+    "referencia": "powerbi-modelos-12"
+  },
+  "estatistica-descritiva-12": {
+    "titulo": "Estatística descritiva: centro, dispersão e forma",
+    "regra": "Média e mediana descrevem posições; desvio padrão descreve dispersão em torno da média; quantis delimitam posições na distribuição. Sensibilidade a extremos e empates limita as conclusões. Duas medidas não descrevem necessariamente toda a forma dos dados.",
+    "exemplo": "Ao avaliar o tempo de atendimento, uma espera excepcional altera a média mais intensamente que a mediana. A equipe examina também a distribuição e a causa da ocorrência.",
+    "tecnica": "Técnica: Informação disponível. Identifique o que a medida permite calcular e evite inferir a distribuição inteira a partir de poucos números.",
+    "contrasteErrado": "Conhecer apenas média e desvio padrão determina completamente a forma de qualquer distribuição de dados.",
+    "referencia": "nist-dados-12"
+  },
+  "rccn-procedimentos-12": {
+    "titulo": "Congresso Nacional: discussão, votação e competência",
+    "regra": "Sessão conjunta reúne as Casas, mas preserva as regras de deliberação de cada uma. Discussão, votação, encaminhamento e redação final são etapas distintas, com requisitos e exceções próprios. A presidência da sessão não transfere ao Congresso competências das Mesas ou do presidente da República.",
+    "exemplo": "Um projeto é debatido em sessão conjunta. Os votos de deputados e senadores são apurados separadamente; uma soma global não substitui o resultado exigido em cada Casa.",
+    "tecnica": "Técnica: Etapa, órgão e condição. Identifique quem decide, em que fase e sob qual requisito regimental.",
+    "contrasteErrado": "Por ocorrer em sessão conjunta, qualquer decisão pode ser tomada pela soma indiferenciada de deputados e senadores.",
+    "referencia": "rccn-atual-12"
+  },
+  "excel-condicionais-12": {
+    "titulo": "Excel: somar ou contar com um critério",
+    "regra": "SOMASE soma valores de linhas que atendem a um critério; CONT.SE conta as células que atendem ao critério. Identifique o intervalo a examinar, a condição e, quando necessário, o intervalo de valores a somar. Textos e expressões de comparação usam aspas; um operador textual pode ser concatenado com uma referência.",
+    "exemplo": "Uma planilha registra o tipo de atendimento em A e o custo em B. CONT.SE conta quantos atendimentos são renovações; SOMASE pode somar seus custos. Contar linhas e somar valores respondem a perguntas diferentes.",
+    "tecnica": "Técnica: Pergunta antes da função. Distingua quantidade de registros e total de valores, depois confira intervalo e critério.",
+    "contrasteErrado": "SOMASE conta ocorrências textuais e CONT.SE soma automaticamente todos os valores das linhas correspondentes.",
+    "referencia": "excel-condicionais-12"
+  },
+  "indices-gerados-12": {
+    "titulo": "Índices gerados: o que o computador executa e quem decide os acessos",
+    "regra": "Um índice oferece entradas para localizar documentos. No KWIC, Key Word In Context, palavras significativas aparecem como acesso acompanhadas de trechos do título que lhes dão contexto; a disposição pode fragmentar frases. No índice articulado de assuntos, a geração de entradas segue decisões analíticas sobre componentes do assunto. Automatizar o arranjo não torna essas técnicas equivalentes nem substitui toda decisão semântica.",
+    "exemplo": "Para um título sobre conservação de mapas, o KWIC pode alinhar mapas como palavra de acesso e exibir o restante do título ao redor. Outra técnica pode exigir que o indexador indique quais conceitos e relações devem originar entradas antes de o programa executar a geração.",
+    "tecnica": "Técnica: Entrada, contexto e decisão. Explique de onde vem a palavra de acesso, quem a seleciona e que informação acompanha a entrada.",
+    "contrasteErrado": "Toda geração de índice por computador se reduz a girar palavras automaticamente e oferece o mesmo tratamento semântico.",
+    "referencia": "indexacao"
+  },
+  "adm-modelos-historicos-12": {
+    "titulo": "Administração pública: patrimonialismo, burocracia e gestão por resultados",
+    "regra": "Patrimonialismo confunde interesses e recursos públicos e privados. O modelo burocrático busca impessoalidade, profissionalização, regras e procedimentos, mas pode apresentar disfunções. Reformas gerenciais enfatizam resultados, responsabilização e orientação ao cidadão, sem tornar dispensáveis legalidade e controles. Os modelos ajudam a analisar práticas; não significam que cada período eliminou por completo os problemas anteriores.",
+    "exemplo": "Uma repartição pode possuir concursos e normas impessoais e ainda apresentar formalismo excessivo. Uma reforma voltada a resultados deve enfrentar esse problema sem liberar favorecimento pessoal nem dispensar prestação de contas.",
+    "tecnica": "Técnica: Finalidade e disfunção. Distingua o objetivo de uma regra, seu desvio prático e a proposta de reforma.",
+    "contrasteErrado": "Gestão por resultados dispensa legalidade e controle, enquanto toda regra burocrática é necessariamente uma disfunção.",
+    "referencia": "adm-modelos-historia-12"
   }
 }

@@ -87,7 +87,8 @@ def integrar(manifesto, base, inline, anotacoes, perfis, referencias, registro, 
         identidade = (f['provaUrl'], ev['numeroOficial'])
         if identidade in oficiais:
             raise ValueError('Mesmo item oficial já incorporado: ' + id)
-        if a['perfil'] not in novos_perfis or q['modulo'] != 'M' + q['submoduloId'].split('.')[0]:
+        modulo_esperado = 'M2.5' if q['submoduloId'] == '2.5' else 'M' + q['submoduloId'].split('.')[0]
+        if a['perfil'] not in novos_perfis or q['modulo'] != modulo_esperado:
             raise ValueError('Vínculo didático inválido: ' + id)
         if not a['gatilho'] or a['gatilho'] not in q['item'] or len(a.get('exemplo', '')) < 80:
             raise ValueError('Trecho decisivo ou exemplo ausente: ' + id)

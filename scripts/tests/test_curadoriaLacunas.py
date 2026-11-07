@@ -38,6 +38,14 @@ class CuradoriaLacunasTest(unittest.TestCase):
         self.assertEqual(r[5]['tipoRevisao'], 'curadoria-lacunas')
         self.assertEqual(len(r[5]['objetivos']), 2)
 
+    def test_minimodulo_governamental_exige_codigo_proprio(self):
+        m = self.preparar()
+        m['questoes'][0]['questao'].update(submoduloId='2.5', modulo='M2.5')
+        self.assertEqual(self.integrar(m)[0][0]['modulo'], 'M2.5')
+        m['questoes'][0]['questao']['modulo'] = 'M2'
+        with self.assertRaises(ValueError):
+            self.integrar(m)
+
     def test_modo_legado_continua_exigindo_trezentos(self):
         with self.assertRaisesRegex(ValueError, '300 revisões'):
             self.integrar(self.preparar(), curadoria=False)

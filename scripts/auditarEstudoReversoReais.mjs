@@ -113,7 +113,7 @@ for (const q of questoes) {
 const cabecalho = ['id', 'modulo', 'submodulo', 'gabarito', 'perfil_conceitual', 'trecho_decisivo', 'conceito', 'regra', 'aplicacao_ao_item', 'exemplo', 'comparacao_didatica', 'tecnica', 'referencia_teorica', 'localizador', 'url_teorica', 'conferencia_da_origem'];
 const csv = [cabecalho, ...linhas].map(l => l.map(s => `"${String(s).replaceAll('"', '""')}"`).join(';')).join('\n') + '\n';
 const resumo = {
-  versao: 'lote-300-conferido-2026-11-06', total: questoes.length,
+  versao: 'curadoria-lacunas-02-2026-11-07', total: questoes.length,
   anotacoesIndividuais: questoes.length, anotacoesHistoricas: Object.keys(anotacoes).length,
   excluidasPorAnulacao: Object.values(conferencia.itens).filter(q => q.gabarito === 'X').length,
   excluidasPorPendenciaDocumental: semDocumento.length, explicacoesConceituais: Object.keys(perfis).length,

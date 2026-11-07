@@ -911,5 +911,265 @@
     "titulo": "Fundação Biblioteca Nacional — Preservação",
     "localizador": "Conservação preventiva, higienização e pequenos reparos: reforço com papel japonês e metilcelulose.",
     "url": "https://www.gov.br/bn/pt-br/acesso-a-informacao-2/institucional/sobre-a-fbn/competencias-e-atividades/preservacao"
+  },
+  "aacr-regras-12": {
+    "titulo": "AACR2r — edição brasileira, revisão 2002, exemplar do acervo",
+    "localizador": "Regras 1.6B1, 7.7B2, capítulos 21–24 e apêndice brasileiro: série, língua, música, nomes pessoais e entidades governamentais. Regime histórico expressamente indicado no comando da prova.",
+    "url": "https://drive.google.com/file/d/1GGCkoLjlld0wwAkAsACvGjxMjpHYT0uK/view"
+  },
+  "marc-campos-12": {
+    "titulo": "Library of Congress — MARC 21 Bibliographic",
+    "localizador": "Leader/06 (tipo de registro); campos 245 ($b/$c), 300 ($e), 700 e 710; faixa local 9XX e necessidade de acordos de intercâmbio.",
+    "url": "https://www.loc.gov/marc/bibliographic/"
+  },
+  "earq-requisitos-12": {
+    "titulo": "CONARQ — e-ARQ Brasil, versão 2 (2022)",
+    "localizador": "Parte de requisitos e metadados: produção por formulários, eliminação e relatórios, exportação, documentos híbridos, metadados de eventos e suspensão/extinção do SIGAD. Cópia institucional disponibilizada pela SEA/SC.",
+    "url": "https://www.sea.sc.gov.br/wp-content/uploads/2024/03/EARQV203MAI2022.pdf"
+  },
+  "recolhimento-conarq24-12": {
+    "titulo": "CONARQ — Resolução 24/2006",
+    "localizador": "Arts. 4º–6º: condições de transferência/recolhimento, acesso, metadados e presunção de autenticidade; observar o contexto normativo e institucional.",
+    "url": "https://www.gov.br/conarq/pt-br/legislacao-arquivistica/resolucoes-do-conarq/resolucao-no-24-de-3-de-agosto-de-2006"
+  },
+  "microfilme-1799-12": {
+    "titulo": "Decreto 1.799/1996 — microfilmagem de documentos",
+    "localizador": "Regulamentação da Lei 5.433/1968; duplicação, separação do original e cópia e preservação de originais de valor histórico.",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/1996/decreto-1799-30-janeiro-1996-422670-publicacaooriginal-1-pe.html"
+  },
+  "encapsulacao-cci-12": {
+    "titulo": "Canadian Conservation Institute — CCI Notes 11/10: Encapsulation",
+    "localizador": "Proteção entre filmes transparentes, fechamento pelas bordas, materiais adequados e limitações do procedimento.",
+    "url": "https://www.canada.ca/content/dam/cci-icc/documents/services/conservation-preservation-publications/canadian-conservation-institute-notes/11-10-eng.pdf"
+  },
+  "ifla-recursos-licencas-12": {
+    "titulo": "IFLA — Key Issues for E-resource Collection Development",
+    "localizador": "Condições de seleção e licença: acesso, usuários simultâneos, custos, política de arquivamento e acesso perpétuo após cancelamento. Recomendações de negociação não são direitos automaticamente presentes em qualquer contrato.",
+    "url": "https://www.ifla.org/files/assets/acquisition-collection-development/publications/electronic-resource-guide-en.pdf"
+  },
+  "licitacoes-14133-12": {
+    "titulo": "Lei 14.133/2021 — texto atualizado",
+    "localizador": "Dispositivos indicados por questão: arts. 2º e 5º; 28–29; 33 e 39; 71–75 e 156. Âmbito, princípios, modalidade, julgamento, contratação direta e sanções.",
+    "url": "https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021%3B14133"
+  },
+  "in5-fiscalizacao-12": {
+    "titulo": "Portal de Compras — IN 5/2017, atualizada",
+    "localizador": "Condições de execução, vedação de ingerência, equipe e preposto; Anexo VIII-A: medição, pagamento e justificativa excepcional; demais disposições conforme a questão. Verificar compatibilidade com o regime contratual vigente.",
+    "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada"
+  },
+  "srp-11462-12": {
+    "titulo": "Decreto 11.462/2023 — Sistema de Registro de Preços",
+    "localizador": "Art. 31, especialmente II: compatibilidade dos preços com mercado na adesão de não participante, junto aos demais requisitos.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11462.htm"
+  },
+  "convenios-11531-12": {
+    "titulo": "Decreto 11.531/2023 — convênios e transferências",
+    "localizador": "Arts. 3º e 5º: entidades elegíveis e vedações; observar alterações e o instrumento de parceria pertinente.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11531.htm"
+  },
+  "processo-9784-12": {
+    "titulo": "Lei 9.784/1999 — Processo administrativo federal",
+    "localizador": "Art. 50, § 1º: motivação por referência; art. 66: contagem contínua e ajustes no vencimento; demais dispositivos indicados no comentário.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+  },
+  "rju-8112-12": {
+    "titulo": "Lei 8.112/1990 — regime dos servidores federais",
+    "localizador": "Arts. 37 e 142: redistribuição e prescrição; demais deveres, direitos e procedimentos conforme o item.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+  },
+  "conflito-12813-12": {
+    "titulo": "Lei 12.813/2013 — conflito de interesses",
+    "localizador": "Arts. 2º, 5º, parágrafo único, e 8º: destinatários, afastamento e competência da Comissão de Ética Pública.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12813.htm"
+  },
+  "improbidade-excecoes-12": {
+    "titulo": "Lei 8.429/1992 — texto compilado",
+    "localizador": "Art. 3º, § 2º: sanções à pessoa jurídica e Lei Anticorrupção; art. 19: representação com ciência da inocência.",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+  },
+  "lgpd-aplicacoes-12": {
+    "titulo": "LGPD — Lei 13.709/2018, atualizada",
+    "localizador": "Arts. 5º, 11, 25 e 41; art. 13, § 4º: conceitos, dados sensíveis, interoperabilidade pública, encarregado e pseudonimização. Lei 15.352/2026: nomenclatura atual da ANPD, distinta dos enunciados históricos.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+  },
+  "lai-documentos-12": {
+    "titulo": "Lei 12.527/2011 — Lei de Acesso à Informação",
+    "localizador": "Art. 7º, VII, b, e § 1º; arts. 12–13: controle, pesquisa, custos de reprodução e consulta de cópia para proteger original.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
+  },
+  "sql-postgresql-12": {
+    "titulo": "PostgreSQL — documentação de SQL",
+    "localizador": "WITH (CTEs), consultas e junções, INSERT/DELETE, GRANT OPTION e gatilhos por ROW/STATEMENT. Observar diferenças de sintaxe entre produtos.",
+    "url": "https://www.postgresql.org/docs/current/queries.html"
+  },
+  "sql-cte-12": {
+    "titulo": "PostgreSQL — WITH Queries",
+    "localizador": "Expressões de tabela comuns e escopo das definições auxiliares na instrução.",
+    "url": "https://www.postgresql.org/docs/current/queries-with.html"
+  },
+  "sql-grant-12": {
+    "titulo": "PostgreSQL — GRANT",
+    "localizador": "Privilégios e cláusula WITH GRANT OPTION; permissão de utilizar e permissão de conceder.",
+    "url": "https://www.postgresql.org/docs/current/sql-grant.html"
+  },
+  "sql-trigger-12": {
+    "titulo": "PostgreSQL — CREATE TRIGGER",
+    "localizador": "FOR EACH ROW e FOR EACH STATEMENT: granularidade do disparo.",
+    "url": "https://www.postgresql.org/docs/current/sql-createtrigger.html"
+  },
+  "crisp-dm-preparacao-12": {
+    "titulo": "IBM — CRISP-DM: Data preparation",
+    "localizador": "CRISP-DM 1.0, fase 3: Select, Clean, Construct, Integrate e Format Data, com relatórios e dados de saída.",
+    "url": "https://public.dhe.ibm.com/software/analytics/spss/documentation/modeler/14.2/es/CRISP-DM.pdf"
+  },
+  "nist-dados-12": {
+    "titulo": "NIST/SEMATECH — e-Handbook of Statistical Methods",
+    "localizador": "Análise exploratória: tipo e qualidade de dados, localização, dispersão e distribuição; verificar hipóteses e objetivo da análise.",
+    "url": "https://www.itl.nist.gov/div898/handbook/eda/eda.htm"
+  },
+  "nist-localizacao-12": {
+    "titulo": "NIST/SEMATECH — Measures of Location",
+    "localizador": "Sensibilidade da média a extremos, comparação com mediana e importância da forma da distribuição.",
+    "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm"
+  },
+  "nist-boxplot-12": {
+    "titulo": "NIST/SEMATECH — Box Plot",
+    "localizador": "Quartis, intervalo interquartil e cercas de 1,5 IQR; sinalização exploratória de valores atípicos.",
+    "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/boxplot.htm"
+  },
+  "powerbi-modelos-12": {
+    "titulo": "Microsoft Learn — Introduction to semantic models across workspaces",
+    "localizador": "Modelo semântico e reutilização de dados em relatórios; fontes, relações e condições do serviço.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-across-workspaces"
+  },
+  "powerbi-visuais-12": {
+    "titulo": "Microsoft Learn — Overview of visualizations in Power BI",
+    "localizador": "Finalidade de visuais de indicadores, metas e comparação por barras ou colunas.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a"
+  },
+  "powerbi-medidas-12": {
+    "titulo": "Microsoft Learn — Use quick measures",
+    "localizador": "Geração de fórmulas DAX a partir dos campos e opções informados na caixa de diálogo.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-quick-measures"
+  },
+  "powerbi-apps-12": {
+    "titulo": "Microsoft Learn — Create and publish apps with dashboards and reports",
+    "localizador": "Distribuição de conteúdo de um workspace a públicos consumidores; permissões e condições do serviço.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-create-distribute-apps"
+  },
+  "ia-cv-12": {
+    "titulo": "scikit-learn — Cross-validation",
+    "localizador": "Separação entre treinamento e avaliação; K-fold, vazamento de dados e uso de métricas.",
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html"
+  },
+  "ia-matriz-texto-12": {
+    "titulo": "scikit-learn — Text feature extraction",
+    "localizador": "Bag of words, ocorrências e ausência de informação de posição na representação básica.",
+    "url": "https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction"
+  },
+  "ia-modelos-governanca-12": {
+    "titulo": "NIST — AI Risk Management Framework",
+    "localizador": "Gestão de riscos e confiança, documentação, transparência e responsabilidade ao longo do ciclo de IA.",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+  },
+  "csf20-funcoes-12": {
+    "titulo": "NIST — Cybersecurity Framework 2.0",
+    "localizador": "Núcleo organizado nas funções Govern, Identify, Protect, Detect, Respond e Recover.",
+    "url": "https://www.nist.gov/cyberframework"
+  },
+  "saml-oauth-12": {
+    "titulo": "Microsoft Learn — Authentication and authorization basics",
+    "localizador": "Distinção entre autenticação, autorização, SAML e protocolos de identidade/autorização.",
+    "url": "https://learn.microsoft.com/en-us/entra/identity-platform/authentication-vs-authorization"
+  },
+  "xss-owasp-12": {
+    "titulo": "OWASP — Cross Site Scripting Prevention Cheat Sheet",
+    "localizador": "Tratamento de conteúdo não confiável e defesas adequadas ao contexto, incluindo codificação de saída.",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+  },
+  "graphql-execucao-12": {
+    "titulo": "GraphQL — Execution",
+    "localizador": "Campos, resolvedores e obtenção de dados pela implementação; GraphQL não é execução direta de SQL por definição.",
+    "url": "https://graphql.org/learn/execution/"
+  },
+  "redis-tipos-12": {
+    "titulo": "Redis — Data types: Hashes and Sets",
+    "localizador": "Hashes associam campos e valores; sets contêm membros únicos.",
+    "url": "https://redis.io/docs/latest/develop/data-types/"
+  },
+  "aic-etica-12": {
+    "titulo": "American Institute for Conservation — Code of Ethics and Guidelines for Practice",
+    "localizador": "Critérios de tratamento, respeito ao significado do bem e documentação de técnicas, materiais e alterações; reversibilidade e possibilidades de tratamento futuro.",
+    "url": "https://www.culturalheritage.org/conservation-at-work/uphold-professional-standards/code"
+  },
+  "epi-nr6-12": {
+    "titulo": "Ministério do Trabalho e Emprego — NR 6",
+    "localizador": "Norma de equipamentos de proteção individual; regulamentação e atualização, segundo risco e condições de trabalho.",
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-6-nr-6"
+  },
+  "rccn-atual-12": {
+    "titulo": "Congresso Nacional — Regimento Comum, Resolução 1/1970-CN atualizada",
+    "localizador": "Arts. 1º, 37–44 e 49–51: competências, discussão, retirada de proposição, votação separada por Casa, processos de votação, encaminhamento e redação final. Procedimentos revogados de 2015 não são usados como regra atual.",
+    "url": "https://legis.senado.leg.br/norma/561098/publicacao/36852069"
+  },
+  "ricd-atual-12": {
+    "titulo": "Câmara dos Deputados — Regimento Interno atualizado",
+    "localizador": "Arts. 4º, 10–12, 14, 21–22, 243 e 274; Código de Ética, art. 12. Comentários identificam a disposição pertinente e distinguem a questão histórica do texto vigente.",
+    "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+  },
+  "dou-secoes-12": {
+    "titulo": "Imprensa Nacional — Diário Oficial da União e serviços de publicação",
+    "localizador": "Organização temática das seções 1, 2 e 3; edições normais, extras e suplementares. Comparar seção de conteúdo e tipo de edição.",
+    "url": "https://www.gov.br/imprensanacional/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  "bibliografia-nacional-ifla-12": {
+    "titulo": "IFLA — Common Practices for National Bibliographies (2021)",
+    "localizador": "Cobertura, tipos de recursos e relação com controle bibliográfico nacional e reutilização de registros.",
+    "url": "https://www.ifla.org/files/assets/bibliography/common_practices_for_national_bibliographies_2021-01.pdf"
+  },
+  "silica-cci-12": {
+    "titulo": "Canadian Conservation Institute — Silica Gel: Passive Control of Relative Humidity, Technical Bulletin 33",
+    "localizador": "Função de sorção e condicionamento no controle passivo de umidade relativa; dimensionamento e limites de aplicação.",
+    "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/technical-bulletins/silica-gel-relative-humidity.html"
+  },
+  "excel-condicionais-12": {
+    "titulo": "Microsoft Support — funções SOMASE e CONT.SE",
+    "localizador": "Intervalo, critério textual, operadores entre aspas e concatenação com referências. Funções vigentes também nas versões atuais, respeitada a versão citada na prova.",
+    "url": "https://support.microsoft.com/pt-br/office/fun%C3%A7%C3%A3o-somase-169b8c99-c05c-4483-a712-1697a653039b"
+  },
+  "bpmn-omg-12": {
+    "titulo": "Object Management Group — BPMN 2.0.2",
+    "localizador": "Elementos básicos de notação: atividades, eventos e gateways, e tipos de diagramas.",
+    "url": "https://www.omg.org/spec/BPMN/2.0.2/PDF"
+  },
+  "nuvem-nist-12": {
+    "titulo": "NIST SP 800-145 — The NIST Definition of Cloud Computing",
+    "localizador": "Modelos SaaS, PaaS e IaaS: capacidade fornecida e limites de gestão do consumidor.",
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf"
+  },
+  "mop-casarui-12": {
+    "titulo": "Fundação Casa de Rui Barbosa — Processos da preservação: obturação na MOP",
+    "localizador": "Reintegração de lacunas por polpa; cálculo para compatibilidade de gramatura e pesquisa de cor do suporte original.",
+    "url": "https://antigo.casaruibarbosa.gov.br/cordel/janela_processosPreservacao.html"
+  },
+  "equipamentos-bn-12": {
+    "titulo": "Fundação Biblioteca Nacional — A conservação de acervos bibliográficos e documentais",
+    "localizador": "Equipamentos de conservação e restauração e utilização de mesa de sucção; diagnóstico, tratamento e controle técnico. PDF institucional de 92 páginas.",
+    "url": "https://www.gov.br/bn/pt-br/atuacao/colecoes-e-servicos-aos-leitores/plano-nacional-de-recuperacao-de-obras-raras-planor/publicacoes_do_planor/a-conservacao-de-acervos-bibliograficos-documentais/@@download/file"
+  },
+  "powerbi-dashboards-12": {
+    "titulo": "Microsoft Learn — Intro to dashboards for Power BI designers",
+    "localizador": "Painel como página única com blocos para acompanhar e contar uma história com dados; contraste com relatórios e reutilização do modelo.",
+    "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards"
+  },
+  "adm-modelos-historia-12": {
+    "titulo": "Cadernos de Finanças Públicas — estudo de modelos de administração pública",
+    "localizador": "Discussão histórica dos modelos patrimonialista, burocrático e gerencial, com referência ao PDRAE de 1995; princípios, limites e transformações, sem presumir substituição completa de práticas.",
+    "url": "https://publicacoes.tesouro.gov.br/index.php/cadernos/article/download/52/33/"
+  },
+  "excel-contse-12": {
+    "titulo": "Microsoft Support — Função CONT.SE",
+    "localizador": "Contagem de células de um intervalo segundo critério; exemplos de critérios textuais, intervalos e limitações.",
+    "url": "https://support.microsoft.com/pt-br/excel/get-started/use-the-countif-function-in-microsoft-excel"
   }
 }
